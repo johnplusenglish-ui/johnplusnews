@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John+news — Good News in English</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cobalt: #2176FF; --navy: #1A1A2E; --mint: #1DD3B0; --sky: #49B6FF;
+    --yellow: #FFDD4A; --orange: #FF9100; --red: #EF233C;
+    --bg: #F4F5F9; --card: #FFFFFF; --text: #1A1A2E; --muted: #6B7280; --border: #E4E6EE;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Outfit', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--card); border-bottom: 1px solid var(--border);
+    padding: 0 2rem; display: flex; align-items: center; justify-content: space-between;
+    height: 60px; position: sticky; top: 0; z-index: 200;
+    box-shadow: 0 1px 12px rgba(0,0,0,0.05);
+  }
+  .logo { display: flex; align-items: center; gap: 8px; font-size: 1.25rem; font-weight: 800; color: var(--navy); text-decoration: none; }
+  .logo-dot { width: 9px; height: 9px; background: var(--cobalt); border-radius: 50%; }
+  .refresh-btn {
+    background: var(--cobalt); color: white; border: none; border-radius: 8px;
+    padding: 0.45rem 1.1rem; font-family: 'Outfit', sans-serif; font-size: 0.8rem;
+    font-weight: 700; cursor: pointer; transition: opacity 0.15s;
+  }
+  .refresh-btn:hover { opacity: 0.85; }
+
+  /* ── HERO ── */
+  .hero { background: var(--navy); padding: 2.5rem 2rem 2rem; text-align: center; position: relative; overflow: hidden; }
+  .hero::before { content: ''; position: absolute; top: -80px; left: -10%; width: 55%; height: 280px; background: radial-gradient(ellipse, rgba(33,118,255,0.25) 0%, transparent 70%); pointer-events: none; }
+  .hero::after { content: ''; position: absolute; bottom: -60px; right: -5%; width: 45%; height: 220px; background: radial-gradient(ellipse, rgba(29,211,176,0.15) 0%, transparent 70%); pointer-events: none; }
+  .hero-tag { display: inline-flex; align-items: center; gap: 6px; background: rgba(33,118,255,0.2); border: 1px solid rgba(33,118,255,0.3); border-radius: 20px; padding: 4px 12px; font-size: 0.72rem; font-weight: 600; color: var(--sky); letter-spacing: 0.5px; margin-bottom: 1rem; position: relative; }
+  .hero-tag-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--mint); animation: pulse 2s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(0.8); } }
+  .hero h1 { font-size: clamp(1.6rem, 4vw, 2.6rem); font-weight: 800; color: white; letter-spacing: -0.5px; margin-bottom: 0.5rem; position: relative; line-height: 1.15; }
+  .hero h1 span { color: var(--sky); }
+  .hero p { font-size: 0.9rem; color: rgba(255,255,255,0.45); font-weight: 300; position: relative; }
+
+  /* ── LAYOUT ── */
+  .page-layout { display: grid; grid-template-columns: 220px 1fr; gap: 1.5rem; max-width: 1140px; margin: 0 auto; padding: 2rem 2rem 5rem; align-items: start; }
+
+  /* ── SIDEBAR ── */
+  .sidebar { position: sticky; top: 76px; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-right: 0; }
+  .sidebar-title { font-size: 0.63rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--border); }
+  .sidebar-nav { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; }
+  .nav-arrow { background: none; border: 1px solid var(--border); border-radius: 6px; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--muted); font-size: 0.75rem; transition: all 0.12s; font-family: 'Outfit', sans-serif; }
+  .nav-arrow:hover { border-color: var(--cobalt); color: var(--cobalt); }
+  .nav-arrow:disabled { opacity: 0.3; cursor: not-allowed; }
+  .nav-month { font-size: 0.78rem; font-weight: 600; color: var(--text); }
+  .sidebar-dates { display: flex; flex-direction: column; gap: 3px; max-height: calc(100vh - 260px); overflow-y: auto; }
+  .side-date { display: flex; align-items: center; gap: 8px; padding: 0.45rem 0.6rem; border-radius: 8px; cursor: pointer; transition: background 0.12s; border: none; background: none; width: 100%; font-family: 'Outfit', sans-serif; text-align: left; }
+  .side-date:hover { background: var(--bg); }
+  .side-date.active { background: #EBF3FF; }
+  .side-date-day { font-size: 0.72rem; font-weight: 700; color: var(--text); min-width: 24px; }
+  .side-date-label { font-size: 0.72rem; color: var(--muted); font-weight: 400; }
+  .side-date.active .side-date-day, .side-date.active .side-date-label { color: var(--cobalt); }
+  .side-date-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--cobalt); margin-left: auto; flex-shrink: 0; opacity: 0; }
+  .side-date.active .side-date-dot { opacity: 1; }
+  .sidebar-empty { font-size: 0.75rem; color: var(--muted); text-align: center; padding: 1rem 0; line-height: 1.5; }
+  main { flex: 1; min-width: 0; }
+
+  /* ── STORIES ── */
+  .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.25rem; }
+  .section-title { font-size: 0.68rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
+  .date-badge { font-size: 0.78rem; color: var(--muted); font-weight: 400; }
+  .stories-list { display: flex; flex-direction: column; gap: 10px; }
+
+  .story-card { background: var(--card); border-radius: var(--radius); border: 1px solid var(--border); overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: box-shadow 0.15s; }
+  .story-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .story-card.open { box-shadow: 0 8px 32px rgba(0,0,0,0.09); }
+  .story-accent { height: 4px; width: 100%; }
+  .accent-europe { background: linear-gradient(90deg, var(--cobalt), #49B6FF); }
+  .accent-asia { background: linear-gradient(90deg, var(--mint), #5DDEA0); }
+  .accent-africa { background: linear-gradient(90deg, var(--orange), #FFDD4A); }
+  .accent-americas { background: linear-gradient(90deg, #FFDD4A, var(--orange)); }
+  .accent-oceania { background: linear-gradient(90deg, var(--sky), var(--mint)); }
+  .accent-world { background: linear-gradient(90deg, #FF6B6B, #FF9100); }
+  .story-header { display: flex; align-items: flex-start; gap: 1rem; padding: 1.25rem 1.5rem; cursor: pointer; user-select: none; }
+  .story-number { font-size: 1.1rem; font-weight: 800; color: var(--border); min-width: 2rem; line-height: 1.3; letter-spacing: -1px; flex-shrink: 0; }
+  .story-meta { flex: 1; min-width: 0; }
+  .story-region { font-size: 0.63rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 0.3rem; }
+  .region-europe { color: var(--cobalt); } .region-asia { color: #0a9b82; } .region-africa { color: var(--orange); } .region-americas { color: #b86000; } .region-oceania { color: #1a7fc1; } .region-world { color: #d94f4f; }
+  .story-title { font-size: 1.05rem; font-weight: 700; line-height: 1.35; color: var(--text); margin-bottom: 0.3rem; letter-spacing: -0.2px; }
+  .story-teaser { font-size: 0.78rem; color: var(--muted); font-weight: 300; }
+  .story-chevron { color: var(--muted); font-size: 0.8rem; margin-top: 4px; transition: transform 0.2s; flex-shrink: 0; }
+  .story-card.open .story-chevron { transform: rotate(180deg); }
+
+  .story-body { display: none; border-top: 1px solid var(--border); animation: fadeIn 0.2s ease; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+  .story-card.open .story-body { display: block; }
+
+  /* ── READING AREA ── */
+  .reading-area { padding: 1.5rem 2rem 0; max-width: 640px; }
+  .level-tabs { display: flex; gap: 6px; margin-bottom: 1.25rem; }
+  .level-tab { padding: 0.3rem 1rem; border-radius: 20px; font-size: 0.78rem; font-weight: 700; cursor: pointer; border: 1.5px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; transition: all 0.15s; }
+  .level-tab:hover { border-color: var(--cobalt); color: var(--cobalt); }
+  .level-tab.active-b2 { background: #2EC4B626; border-color: #2EC4B6; color: #1a8a7e; }
+  .level-tab.active-c1 { background: #E8F2FD; border-color: #2176FF; color: #2176FF; }
+  .level-tab.active-c2 { background: #9B72CF26; border-color: #9B72CF; color: #7a52b0; }
+  .level-label { display: inline-block; font-size: 0.63rem; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; padding: 3px 9px; border-radius: 5px; margin-bottom: 1rem; }
+  .label-b2 { background: #2EC4B626; color: #1a8a7e; } .label-c1 { background: #E8F2FD; color: #2176FF; } .label-c2 { background: #9B72CF26; color: #7a52b0; }
+
+  .copy-btn { display: inline-flex; align-items: center; gap: 5px; background: none; border: 1px solid var(--border); border-radius: 6px; padding: 3px 10px; font-family: 'Outfit', sans-serif; font-size: 0.7rem; font-weight: 600; color: var(--muted); cursor: pointer; transition: all 0.15s; user-select: none; }
+  .copy-btn:hover { border-color: var(--cobalt); color: var(--cobalt); }
+  .copy-btn.copied { border-color: var(--mint); color: #0a9b82; }
+
+  .reading-meta { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.25rem; }
+  .reading-stat { font-size: 0.7rem; color: var(--muted); font-weight: 500; display: flex; align-items: center; gap: 4px; }
+
+  .story-text { font-size: 1rem; line-height: 1.85; color: #2D3047; font-weight: 400; transition: opacity 0.18s; }
+  .story-text.fading { opacity: 0; }
+  .story-text p { margin-bottom: 1.1rem; }
+  .story-text p:first-child::first-letter { font-size: 3.2rem; font-weight: 800; line-height: 0.8; float: left; margin-right: 6px; margin-top: 6px; color: var(--cobalt); }
+  .story-text p:last-child { margin-bottom: 0; }
+
+  .phrase-highlight { background: rgba(33,118,255,0.1); border-bottom: 1.5px solid rgba(33,118,255,0.4); border-radius: 2px; cursor: pointer; padding: 0 1px; position: relative; transition: background 0.15s; }
+  .phrase-highlight:hover { background: rgba(33,118,255,0.18); }
+  .lp[data-lv="b2"] .phrase-highlight { background: rgba(46,196,182,0.12); border-bottom-color: rgba(46,196,182,0.5); }
+  .lp[data-lv="b2"] .phrase-highlight:hover { background: rgba(46,196,182,0.22); }
+  .lp[data-lv="c2"] .phrase-highlight { background: rgba(155,114,207,0.12); border-bottom-color: rgba(155,114,207,0.5); }
+  .lp[data-lv="c2"] .phrase-highlight:hover { background: rgba(155,114,207,0.22); }
+
+  .phrase-tooltip { position: fixed; background: var(--navy); color: white; border-radius: 10px; padding: 0.7rem 0.9rem; font-size: 0.8rem; max-width: 260px; z-index: 999; pointer-events: none; opacity: 0; transition: opacity 0.15s; box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
+  .phrase-tooltip.visible { opacity: 1; }
+  .phrase-tooltip-term { font-weight: 700; margin-bottom: 3px; font-size: 0.82rem; }
+  .phrase-tooltip-def { color: rgba(255,255,255,0.75); line-height: 1.45; }
+  .phrase-tooltip-example { color: rgba(255,255,255,0.5); font-style: italic; font-size: 0.75rem; margin-top: 4px; line-height: 1.4; }
+
+  /* ── LANGUAGE BANK ── */
+  .language-bank { margin: 1.75rem 0 0; padding: 1.5rem 2rem; background: var(--bg); border-top: 1px solid var(--border); }
+  .language-bank-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.1rem; flex-wrap: wrap; gap: 8px; }
+  .language-bank-title { font-size: 0.63rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
+  .language-bank-hint { font-size: 0.68rem; color: var(--muted); font-weight: 300; font-style: italic; }
+  .phrase-list { display: flex; flex-direction: column; gap: 0; }
+  .phrase-item { padding: 0.85rem 0; border-bottom: 1px solid var(--border); }
+  .phrase-item:last-child { border-bottom: none; }
+  .phrase-top { display: flex; align-items: baseline; gap: 0.6rem; margin-bottom: 0.2rem; flex-wrap: wrap; }
+  .phrase-term { font-size: 0.92rem; font-weight: 700; color: var(--text); letter-spacing: -0.2px; }
+  .phrase-def { font-size: 0.83rem; color: var(--muted); font-weight: 400; line-height: 1.55; }
+  .phrase-example { font-size: 0.8rem; color: #9aa0b4; font-style: italic; line-height: 1.55; padding-left: 0.85rem; border-left: 2px solid var(--border); margin-top: 0.3rem; }
+  .phrase-missing-tag { font-size: 0.6rem; font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; color: var(--muted); background: var(--border); border-radius: 4px; padding: 1px 6px; opacity: 0.7; }
+  .phrase-not-found .phrase-term { color: var(--muted); }
+
+  /* ── STATES ── */
+  .loading-state { text-align: center; padding: 4rem 2rem; color: var(--muted); }
+  .spinner { width: 30px; height: 30px; border: 2.5px solid var(--border); border-top-color: var(--cobalt); border-radius: 50%; animation: spin 0.7s linear infinite; margin: 0 auto 1rem; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading-text { font-size: 0.875rem; }
+  .error-state { background: #FFF5F5; border: 1px solid #FED7D7; border-radius: var(--radius); padding: 1.25rem; text-align: center; color: #9B2335; font-size: 0.875rem; }
+  .generating-inline { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 0.82rem; padding: 1.25rem 2rem; }
+  .mini-spinner { width: 13px; height: 13px; border: 2px solid var(--border); border-top-color: var(--cobalt); border-radius: 50%; animation: spin 0.6s linear infinite; flex-shrink: 0; }
+  .powered-by { text-align: center; padding: 2rem 0 0; font-size: 0.7rem; color: #bbb; }
+
+  @media (max-width: 700px) {
+    header { padding: 0 1rem; }
+    .hero { padding: 2rem 1rem 1.75rem; }
+    .page-layout { grid-template-columns: 1fr; padding: 1rem 1rem 3rem; }
+    .sidebar { position: static; margin-right: 0; margin-bottom: 1.25rem; }
+    .sidebar-dates { max-height: 120px; }
+    .story-header { padding: 0.9rem 1rem; }
+    .reading-area { padding: 1.25rem 1rem 0; }
+    .language-bank { padding: 1.25rem 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<div id="phraseTooltip" class="phrase-tooltip">
+  <div class="phrase-tooltip-term" id="ttTerm"></div>
+  <div class="phrase-tooltip-def" id="ttDef"></div>
+  <div class="phrase-tooltip-example" id="ttEx"></div>
+</div>
+
+<header>
+  <a class="logo" href="#">
+    <span class="logo-dot"></span>
+    John<span style="color:var(--cobalt)">+</span>news
+  </a>
+  <button class="refresh-btn" id="loadBtn" onclick="loadToday()">↻ Refresh</button>
+</header>
+
+<div class="hero">
+  <div class="hero-tag"><span class="hero-tag-dot"></span> Updated daily</div>
+  <h1>Good news from <span>around the world</span></h1>
+  <p>Five positive stories a day · B2, C1 and C2 English</p>
+</div>
+
+<div class="page-layout">
+  <aside class="sidebar">
+    <div class="sidebar-title">Archive</div>
+    <div class="sidebar-nav">
+      <button class="nav-arrow" id="prevBtn" onclick="shiftMonth(-1)">◀</button>
+      <span class="nav-month" id="navMonth">—</span>
+      <button class="nav-arrow" id="nextBtn" onclick="shiftMonth(1)">▶</button>
+    </div>
+    <div class="sidebar-dates" id="sidebarDates">
+      <div class="sidebar-empty">Loading archive…</div>
+    </div>
+  </aside>
+
+  <main>
+    <div id="app">
+      <div class="loading-state"><div class="spinner"></div><p class="loading-text">Loading today's stories…</p></div>
+    </div>
+    <div class="powered-by">John+news · The Guardian API · Claude · Good news for English learners</div>
+  </main>
+</div>
+
+<script>
+// ── NO API KEYS IN BROWSER — everything goes through server ──
+
+let allDates = [];
+let currentMonthOffset = 0;
+
+function todayKey() { return new Date().toISOString().slice(0, 10); }
+function fmtDateLabel(d) { const [y,m,day] = d.split('-').map(Number); return new Date(y,m-1,day).toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'}); }
+function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function fmt(text) { return (text||'').split('\n').filter(p=>p.trim()).map(p=>`<p>${esc(p.trim())}</p>`).join(''); }
+function wordCount(text) { return (text||'').trim().split(/\s+/).length; }
+function readingTime(text) { return Math.max(2, Math.round(wordCount(text) / 100)); }
+
+// ── SIDEBAR ──
+async function initSidebar() {
+  try {
+    const res = await fetch('/.netlify/functions/stories?action=dates');
+    const data = await res.json();
+    allDates = data.dates || [];
+  } catch(e) { allDates = []; }
+  renderSidebar();
+}
+
+function shiftMonth(dir) { currentMonthOffset += dir; renderSidebar(); }
+
+function renderSidebar() {
+  const today = todayKey();
+  const now = new Date();
+  const target = new Date(now.getFullYear(), now.getMonth() + currentMonthOffset, 1);
+  const monthKey = `${target.getFullYear()}-${String(target.getMonth()+1).padStart(2,'0')}`;
+  const monthLabel = target.toLocaleDateString('en-GB', { month:'long', year:'numeric' });
+  document.getElementById('navMonth').textContent = monthLabel;
+  document.getElementById('prevBtn').disabled = currentMonthOffset < -6;
+  document.getElementById('nextBtn').disabled = currentMonthOffset >= 0;
+  const el = document.getElementById('sidebarDates');
+  const inMonth = allDates.filter(d => d.startsWith(monthKey));
+  const showToday = currentMonthOffset === 0;
+  if (!inMonth.length && !showToday) { el.innerHTML = '<div class="sidebar-empty">No stories this month.</div>'; return; }
+  const dates = showToday && !inMonth.includes(today) ? [today, ...inMonth] : inMonth;
+  el.innerHTML = dates.map(d => {
+    const isToday = d === today, isActive = d === window._currentDate;
+    const dateObj = new Date(...d.split('-').map((v,i)=>i===1?Number(v)-1:Number(v)));
+    return `<button class="side-date${isActive?' active':''}" onclick="loadDate('${d}',this)"><span class="side-date-day">${isToday?'★':dateObj.toLocaleDateString('en-GB',{weekday:'short'})}</span><span class="side-date-label">${isToday?'Today':`${dateObj.getDate()} ${dateObj.toLocaleDateString('en-GB',{month:'short'})}`}</span><span class="side-date-dot"></span></button>`;
+  }).join('');
+}
+
+// ── LOAD STORIES FROM SERVER ──
+async function loadToday() {
+  window._currentDate = todayKey();
+  const app = document.getElementById('app');
+  app.innerHTML = `<div class="loading-state"><div class="spinner"></div><p class="loading-text">Loading today's stories…</p></div>`;
+
+  try {
+    const res = await fetch('/.netlify/functions/stories?action=today');
+    const data = await res.json();
+
+    if (res.status === 202) {
+      // Still generating
+      app.innerHTML = `<div class="loading-state"><div class="spinner"></div><p class="loading-text">${data.message || 'Stories are being generated… refresh in 30 seconds.'}</p></div>`;
+      setTimeout(loadToday, 15000);
+      return;
+    }
+
+    if (!data.stories || !data.stories.length) throw new Error('No stories returned');
+
+    const label = new Date().toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+    renderStories(data.stories, label);
+    renderSidebar();
+  } catch(e) {
+    app.innerHTML = `<div class="error-state">⚠️ ${e.message}</div>`;
+  }
+}
+
+async function loadDate(date, btn) {
+  document.querySelectorAll('.side-date').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  window._currentDate = date;
+  if (date === todayKey()) { loadToday(); return; }
+
+  const app = document.getElementById('app');
+  app.innerHTML = `<div class="loading-state"><div class="spinner"></div><p class="loading-text">Loading ${fmtDateLabel(date)}…</p></div>`;
+
+  try {
+    const res = await fetch(`/.netlify/functions/stories?action=archive&date=${date}`);
+    if (!res.ok) throw new Error('Not found');
+    const data = await res.json();
+    renderStories(data.stories, fmtDateLabel(date));
+  } catch(e) {
+    app.innerHTML = `<div class="error-state">⚠️ Could not load stories for this date.</div>`;
+  }
+}
+
+// ── RENDER ──
+function renderStories(stories, label) {
+  const app = document.getElementById('app');
+  app.innerHTML = `
+    <div class="section-header">
+      <span class="section-title">Today's Stories</span>
+      <span class="date-badge">${label}</span>
+    </div>
+    <div class="stories-list" id="storiesList"></div>`;
+
+  const list = document.getElementById('storiesList');
+  stories.forEach((story, i) => {
+    const r = story.region || 'world';
+    const hasContent = !!story.b2;
+    const card = document.createElement('div');
+    card.className = 'story-card';
+    card.id = `sc-${i}`;
+    if (hasContent) card.dataset.cache = JSON.stringify(story);
+    card.innerHTML = `
+      <div class="story-accent accent-${r}"></div>
+      <div class="story-header" onclick="toggle(${i})">
+        <span class="story-number">0${i+1}</span>
+        <div class="story-meta">
+          <div class="story-region region-${r}">${r.charAt(0).toUpperCase()+r.slice(1)}</div>
+          <div class="story-title">${esc(story.title)}</div>
+          <div class="story-teaser">${hasContent ? 'Click to read' : 'Not yet generated'}</div>
+        </div>
+        <span class="story-chevron">▼</span>
+      </div>
+      <div class="story-body" id="sb-${i}"></div>`;
+    list.appendChild(card);
+  });
+}
+
+function toggle(i) {
+  const card = document.getElementById(`sc-${i}`);
+  const body = document.getElementById(`sb-${i}`);
+  const wasOpen = card.classList.contains('open');
+  document.querySelectorAll('.story-card').forEach(c => c.classList.remove('open'));
+  if (wasOpen) return;
+  card.classList.add('open');
+  if (card.dataset.cache) {
+    renderContent(body, JSON.parse(card.dataset.cache));
+  } else {
+    body.innerHTML = `<div class="generating-inline"><div class="mini-spinner"></div> Story not yet available. Try refreshing.</div>`;
+  }
+}
+
+// ── HIGHLIGHTS ──
+function highlightPhrases(html, phrases) {
+  if (!phrases || !phrases.length) return { html, found: new Set() };
+  const sorted = [...phrases].sort((a,b) => b.term.length - a.term.length);
+  const found = new Set();
+  let result = html;
+  for (const p of sorted) {
+    const normTerm = p.term.replace(/\s+/g, ' ').trim();
+    const escaped = normTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/ /g, '\\s+');
+    const re = new RegExp(`(?<![\\w>])(${escaped})(?![\\w<])`, 'gi');
+    let matched = false;
+    result = result.replace(/(<[^>]+>)|([^<]+)/g, (full, tag, text) => {
+      if (tag) return tag;
+      if (!text) return full;
+      return text.replace(re, (match) => {
+        matched = true;
+        const attrs = `data-term="${esc(p.term)}" data-def="${esc(p.def)}" data-ex="${esc(p.example||'')}"`;
+        return `<span class="phrase-highlight" ${attrs} onmouseenter="showTip(event,this)" onmouseleave="hideTip()">${match}</span>`;
+      });
+    });
+    if (matched) found.add(normTerm.toLowerCase());
+  }
+  return { html: result, found };
+}
+
+// ── RENDER CONTENT ──
+function renderContent(bodyEl, data) {
+  const uid = Date.now();
+  const makePane = (lv, text, phrases) => {
+    const wc = wordCount(text);
+    const rt = readingTime(text);
+    const labelText = lv === 'b2' ? 'B2 — Upper Intermediate' : lv === 'c1' ? 'C1 — Advanced' : 'C2 — Proficiency';
+    const { html: highlighted, found } = highlightPhrases(fmt(text), phrases);
+    return `<div class="lp" data-lv="${lv}"${lv !== 'b2' ? ' style="display:none"' : ''}>
+      <div class="reading-area">
+        <span class="level-label label-${lv}">${labelText}</span>
+        <div class="reading-meta">
+          <span class="reading-stat">📖 ${wc} words</span>
+          <span class="reading-stat">⏱ ${rt} min read</span>
+          <button class="copy-btn" onclick="copyText(this,'text-${lv}-${uid}')">⎘ Copy text</button>
+        </div>
+        <div class="story-text" id="text-${lv}-${uid}">${highlighted}</div>
+      </div>
+      <div class="language-bank">
+        <div class="language-bank-header">
+          <span class="language-bank-title">Language Bank</span>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <span class="language-bank-hint">hover highlights to see definition</span>
+            <button class="copy-btn" onclick="copyBank(this,'bank-${lv}-${uid}')">⎘ Copy bank</button>
+          </div>
+        </div>
+        <div class="phrase-list" id="bank-${lv}-${uid}">${renderPhrases(phrases, found)}</div>
+      </div>
+    </div>`;
+  };
+  bodyEl.innerHTML = `
+    <div class="reading-area" style="padding-bottom:0;padding-top:1.25rem;">
+      <div class="level-tabs">
+        <button class="level-tab active-b2" onclick="switchLv(this,'b2',event)">B2</button>
+        <button class="level-tab" onclick="switchLv(this,'c1',event)">C1</button>
+        <button class="level-tab" onclick="switchLv(this,'c2',event)">C2</button>
+      </div>
+    </div>
+    ${makePane('b2', data.b2, data.phrases_b2||[])}
+    ${makePane('c1', data.c1, data.phrases_c1||[])}
+    ${makePane('c2', data.c2, data.phrases_c2||[])}`;
+}
+
+function renderPhrases(phrases, found) {
+  return (phrases||[]).map(p => {
+    const inText = !found || found.has(p.term.replace(/\s+/g,' ').trim().toLowerCase());
+    return `<div class="phrase-item${inText?'':' phrase-not-found'}">
+      <div class="phrase-top"><span class="phrase-term">${esc(p.term)}</span>${!inText?'<span class="phrase-missing-tag">not in text</span>':''}</div>
+      <div class="phrase-def">${esc(p.def)}</div>
+      ${p.example?`<div class="phrase-example">${esc(p.example)}</div>`:''}
+    </div>`;
+  }).join('');
+}
+
+function switchLv(btn, lv, e) {
+  e.stopPropagation();
+  const body = btn.closest('.story-body');
+  body.querySelectorAll('.level-tab').forEach(t => t.className = 'level-tab');
+  body.querySelectorAll('.lp').forEach(p => p.style.display = 'none');
+  btn.classList.add(`active-${lv}`);
+  const target = body.querySelector(`.lp[data-lv="${lv}"]`);
+  if (target) {
+    target.style.display = 'block';
+    const txt = target.querySelector('.story-text');
+    if (txt) { txt.classList.add('fading'); requestAnimationFrame(() => txt.classList.remove('fading')); }
+  }
+}
+
+// ── TOOLTIP ──
+function showTip(e, el) {
+  const tt = document.getElementById('phraseTooltip');
+  document.getElementById('ttTerm').textContent = el.dataset.term || '';
+  document.getElementById('ttDef').textContent = el.dataset.def || '';
+  const ex = el.dataset.ex || '';
+  document.getElementById('ttEx').textContent = ex ? `"${ex}"` : '';
+  document.getElementById('ttEx').style.display = ex ? 'block' : 'none';
+  tt.classList.add('visible');
+  positionTip(e);
+}
+function positionTip(e) {
+  const tt = document.getElementById('phraseTooltip');
+  tt.style.left = Math.min(e.clientX + 14, window.innerWidth - 280) + 'px';
+  tt.style.top = (e.clientY - 10 < 80 ? e.clientY + 20 : e.clientY - 90) + 'px';
+}
+function hideTip() { document.getElementById('phraseTooltip').classList.remove('visible'); }
+document.addEventListener('mousemove', e => { if (document.getElementById('phraseTooltip').classList.contains('visible')) positionTip(e); });
+
+// ── COPY ──
+function copyText(btn, id) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  navigator.clipboard.writeText(el.innerText).then(() => {
+    btn.textContent = '✓ Copied'; btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = '⎘ Copy text'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+function copyBank(btn, id) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const items = [...el.querySelectorAll('.phrase-item')].map(item => {
+    const term = item.querySelector('.phrase-term')?.innerText || '';
+    const def = item.querySelector('.phrase-def')?.innerText || '';
+    const ex = item.querySelector('.phrase-example')?.innerText || '';
+    return ex ? `${term} — ${def}\n  ${ex}` : `${term} — ${def}`;
+  }).join('\n\n');
+  navigator.clipboard.writeText(items).then(() => {
+    btn.textContent = '✓ Copied'; btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = '⎘ Copy bank'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+
+// ── INIT ──
+window._currentDate = todayKey();
+initSidebar();
+loadToday();
+</script>
+</body>
+</html>

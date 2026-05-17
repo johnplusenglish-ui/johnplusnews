@@ -1,0 +1,19 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+[build.environment]
+  NETLIFY_SITE_ID = "d12c7a6b-b0e0-480c-b9d1-f75fbebd371e"
+  NETLIFY_TOKEN = "nfp_SAfvmn8GDnUX2NGS9hy9XsHUkn4YoVcA9111"
+
+[functions."daily-cron"]
+  schedule = "0 6 * * *"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
