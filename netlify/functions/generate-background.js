@@ -49,15 +49,15 @@ async function fetchStories() {
   for (const { q, section } of QUERIES) {
     if (results.length >= 5) break;
     try {
-      let url = 'https://content.guardianapis.com/search?q=' + encodeURIComponent(q) + '&show-fields=bodyText,headline&page-size=8&order-by=newest&api-key=' + GUARDIAN_KEY;
-      if (section) url += '&section=' + section;
+      let url = `https://content.guardianapis.com/search?q=${encodeURIComponent(q)}&show-fields=bodyText,headline&page-size=8&order-by=newest&api-key=${GUARDIAN_KEY}`;
+      if (section) url += `&section=${section}`;
       const res = await fetch(url);
       const data = await res.json();
-      for (const item of ((data.response && data.response.results) || [])) {
+      for (const item of (data.response?.results || [])) {
         if (results.length >= 5) break;
         if (used.has(item.id)) continue;
-        const body = (item.fields && item.fields.bodyText) || '';
-        const title = (item.fields && item.fields.headline) || item.webTitle;
+        const body = item.fields?.bodyText || '';
+        const title = item.fields?.headline || item.webTitle;
         if (body.length < 200 || !isPositive(title, body)) continue;
         used.add(item.id);
         results.push({ id: item.id, title, region: getRegion(title + ' ' + body), rawText: body.slice(0, 3000) });
@@ -75,7 +75,7 @@ async function apiCall(prompt, maxTokens) {
   });
   if (!res.ok) {
     const errText = await res.text().catch(() => '');
-    throw new Error('Claude API error ' + res.status + ': ' + errText.slice(0, 200));
+    throw new Error(`Claude API error ${res.status}: ${errText.slice(0, 200)}`);
   }
   const data = await res.json();
   const raw = data.content[0].text;
@@ -86,16 +86,45 @@ async function apiCall(prompt, maxTokens) {
 }
 
 async function generateStory(rawText) {
-  const phrases = await apiCall('You are a Cambridge English examiner selecting target language for graded reading materials.\n\nRead this article and select language items for three levels.\n\nLEVEL BENCHMARKS:\n- B2: Items a B2 student would not know. NOT "find a way", "lead to". Target "harness", "pose a challenge", "give rise to"\n- C1: Idiomatic. E.g. "fall short of", "pave the way for", "mounting pressure"\n- C2: Sophisticated. E.g. "underpin", "contentious", "in the wake of"\n\nRULES: Max 3 words per item. Transferable. No proper nouns. 6 items per level.\n\nArticle: ' + rawText + '\n\nRespond ONLY with valid JSON:\n{"phrases_b2":[{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."}],"phrases_c1":[{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."}],"phrases_c2":[{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."}]}', 1200);
+  const phrases = await apiCall(`You are a Cambridge English examiner selecting target language for graded reading materials.
+
+Read this article and select language items for three levels. These will be woven into graded texts.
+
+LEVEL BENCHMARKS:
+- B2: Items a B2 student wouldn't know. NOT "find a way", "lead to", "stay alive" — target "harness", "pose a challenge", "draw on", "give rise to"
+- C1: Idiomatic, less predictable. E.g. "fall short of", "pave the way for", "mounting pressure", "in stark contrast"
+- C2: Sophisticated journalism-level. E.g. "underpin", "contentious", "in the wake of", "cast doubt on"
+
+RULES: Max 3 words per item. Single words allowed if genuinely C1/C2. Must be transferable. No proper nouns. 6 items per level.
+
+Article: ${rawText}
+
+Respond ONLY with valid JSON:
+{"phrases_b2":[{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."}],"phrases_c1":[{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."}],"phrases_c2":[{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."},{"term":"...","def":"..."}]}`, 1200);
 
   const b2terms = phrases.phrases_b2.map(p => p.term).join(', ');
   const c1terms = phrases.phrases_c1.map(p => p.term).join(', ');
   const c2terms = phrases.phrases_c2.map(p => p.term).join(', ');
 
-  const texts = await apiCall('You are an expert English teacher writing graded reading materials.\n\nWrite three versions of a news story. Each MUST naturally incorporate all 6 target phrases verbatim.\n\nB2 (200-230 words, 2-3 paragraphs): ' + b2terms + '\nC1 (250-280 words, 2-3 paragraphs): ' + c1terms + '\nC2 (300-330 words, 3 paragraphs): ' + c2terms + '\n\nPositive and uplifting. Separate paragraphs with \\n\\n.\n\nArticle: ' + rawText + '\n\nRespond ONLY with valid JSON:\n{"b2":"...","c1":"...","c2":"..."}', 2500);
+  const texts = await apiCall(`You are an expert English language teacher writing graded reading materials.
+
+Write three versions of a news story based on this article. Each version MUST naturally incorporate all 6 target phrases verbatim.
+
+B2 version (200–230 words, 2–3 paragraphs): use these phrases naturally: ${b2terms}
+C1 version (250–280 words, 2–3 paragraphs): use these phrases naturally: ${c1terms}
+C2 version (300–330 words, 3 paragraphs): use these phrases naturally: ${c2terms}
+
+Keep all versions positive and uplifting. Separate paragraphs with \\n\\n.
+
+Article: ${rawText}
+
+Respond ONLY with valid JSON:
+{"b2":"...","c1":"...","c2":"..."}`, 2500);
 
   const allTerms = [...phrases.phrases_b2, ...phrases.phrases_c1, ...phrases.phrases_c2].map(p => p.term);
-  const exData = await apiCall('For each phrase write one short natural example sentence (under 15 words) NOT about the news story.\nPhrases: ' + JSON.stringify(allTerms) + '\nRespond ONLY with valid JSON: {"examples":["...","...","...","...","...","...","...","...","...","...","...","...","...","...","...","...","...","..."]}', 800);
+  const exData = await apiCall(`For each phrase, write one short natural example sentence (under 15 words) NOT about the news story.
+Phrases: ${JSON.stringify(allTerms)}
+Respond ONLY with valid JSON: {"examples":["...","...","...","...","...","...","...","...","...","...","...","...","...","...","...","...","...","..."]}`, 800);
 
   const examples = exData.examples || [];
   let idx = 0;
@@ -109,32 +138,41 @@ async function generateStory(rawText) {
   };
 }
 
+// Background function: name ends in -background, gets 15 min timeout
 exports.handler = async (event) => {
   const store = getStore_();
   const date = todayKey();
-  console.log('[generate-bg] Starting generation for ' + date);
-  await store.setJSON('_status_' + date, { status: 'generating', startedAt: new Date().toISOString() });
+
+  console.log(`[generate-bg] Starting generation for ${date}`);
+
+  // Mark status as generating
+  await store.setJSON(`_status_${date}`, { status: 'generating', startedAt: new Date().toISOString() });
+
   try {
     const rawStories = await fetchStories();
     if (!rawStories.length) {
-      await store.setJSON('_status_' + date, { status: 'error', message: 'No stories from Guardian' });
+      await store.setJSON(`_status_${date}`, { status: 'error', message: 'No stories from Guardian' });
       return { statusCode: 500 };
     }
+
     const stories = [];
     for (let i = 0; i < rawStories.length; i++) {
       try {
         if (i > 0) await new Promise(r => setTimeout(r, 800));
-        console.log('[generate-bg] Generating story ' + (i + 1) + '/' + rawStories.length);
+        console.log(`[generate-bg] Generating story ${i + 1}/${rawStories.length}`);
         const result = await generateStory(rawStories[i].rawText);
         stories.push({ ...rawStories[i], ...result, rawText: undefined });
+        // Save progressively so partial results are available
         await store.setJSON(date, { date, stories, savedAt: new Date().toISOString(), partial: i < rawStories.length - 1 });
       } catch(e) {
-        console.error('[generate-bg] Story ' + i + ' failed:', e.message);
+        console.error(`[generate-bg] Story ${i} failed:`, e.message);
         stories.push({ ...rawStories[i], rawText: undefined, error: e.message });
       }
     }
+
     const payload = { date, stories, savedAt: new Date().toISOString() };
     await store.setJSON(date, payload);
+
     let index = [];
     try { index = await store.get('_index', { type: 'json' }) || []; } catch(e) {}
     if (!index.includes(date)) {
@@ -142,12 +180,13 @@ exports.handler = async (event) => {
       index = index.slice(0, 60);
       await store.setJSON('_index', index);
     }
-    await store.setJSON('_status_' + date, { status: 'done', finishedAt: new Date().toISOString() });
-    console.log('[generate-bg] Done - saved ' + stories.length + ' stories');
+
+    await store.setJSON(`_status_${date}`, { status: 'done', finishedAt: new Date().toISOString() });
+    console.log(`[generate-bg] Done — saved ${stories.length} stories for ${date}`);
     return { statusCode: 200 };
   } catch(e) {
-    console.error('[generate-bg] Fatal:', e.message);
-    await store.setJSON('_status_' + date, { status: 'error', message: e.message });
+    console.error('[generate-bg] Fatal error:', e.message);
+    await store.setJSON(`_status_${date}`, { status: 'error', message: e.message });
     return { statusCode: 500 };
   }
 };

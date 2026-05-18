@@ -1,4 +1,5 @@
 const { getStore } = require('@netlify/blobs');
+
 exports.handler = async () => {
   const store = getStore({
     name: 'news-archive',
@@ -10,5 +11,9 @@ exports.handler = async () => {
   for (const key of [date, '_status_' + date, date + '-v2', date + '-v3', '_index']) {
     try { await store.delete(key); deleted.push(key); } catch(e) {}
   }
-  return { statusCode: 200, headers: {'Content-Type':'application/json'}, body: JSON.stringify({ cleared: deleted }) };
+  return {
+    statusCode: 200,
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ cleared: deleted })
+  };
 };
