@@ -251,9 +251,10 @@ function renderSidebar() {
   const showToday = currentMonthOffset === 0;
   if (!inMonth.length && !showToday) { el.innerHTML = '<div class="sidebar-empty">No stories this month.</div>'; return; }
   const dates = showToday && !inMonth.includes(today) ? [today, ...inMonth] : inMonth;
-  el.innerHTML = dates.map(d => {
+  el.innerHTML = dates.filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d)).map(d => {
     const isToday = d === today, isActive = d === window._currentDate;
-    const dateObj = new Date(...d.split('-').map((v,i)=>i===1?Number(v)-1:Number(v)));
+    const [yy, mm, dd] = d.split('-').map(Number);
+    const dateObj = new Date(yy, mm - 1, dd);
     return `<button class="side-date${isActive?' active':''}" onclick="loadDate('${d}',this)"><span class="side-date-day">${isToday?'★':dateObj.toLocaleDateString('en-GB',{weekday:'short'})}</span><span class="side-date-label">${isToday?'Today':`${dateObj.getDate()} ${dateObj.toLocaleDateString('en-GB',{month:'short'})}`}</span><span class="side-date-dot"></span></button>`;
   }).join('');
 }
@@ -266,11 +267,11 @@ async function loadToday() {
 
   try {
     const res = await fetch('/.netlify/functions/stories?action=today');
-    const data = await res.json();
+    const text = await res.text();
+    const data = text ? JSON.parse(text) : {};
 
-    if (res.status === 202) {
-      // Still generating
-      app.innerHTML = `<div class="loading-state"><div class="spinner"></div><p class="loading-text">${data.message || 'Stories are being generated… refresh in 30 seconds.'}</p></div>`;
+    if (res.status === 202 || data.status === 'generating') {
+      app.innerHTML = `<div class="loading-state"><div class="spinner"></div><p class="loading-text">${data.message || 'Stories are being generated… this updates automatically.'}</p></div>`;
       setTimeout(loadToday, 15000);
       return;
     }
@@ -280,6 +281,11 @@ async function loadToday() {
     const label = new Date().toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
     renderStories(data.stories, label);
     renderSidebar();
+
+    // If still generating more stories, keep polling for the full set
+    if (data.generating || data.partial) {
+      setTimeout(loadToday, 12000);
+    }
   } catch(e) {
     app.innerHTML = `<div class="error-state">⚠️ ${e.message}</div>`;
   }
