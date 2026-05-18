@@ -223,7 +223,10 @@ function fmtDateLabel(d) { const [y,m,day] = d.split('-').map(Number); return ne
 function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function fmt(text) { return (text||'').split('\n').filter(p=>p.trim()).map(p=>`<p>${esc(p.trim())}</p>`).join(''); }
 function wordCount(text) { return (text||'').trim().split(/\s+/).length; }
-function readingTime(text) { return Math.max(2, Math.round(wordCount(text) / 100)); }
+function readingTime(text, lv) {
+  const wpm = lv === 'c2' ? 90 : lv === 'c1' ? 95 : 100;
+  return Math.max(2, Math.round(wordCount(text) / wpm));
+}
 
 // ── SIDEBAR ──
 async function initSidebar() {
@@ -366,8 +369,26 @@ function highlightPhrases(html, phrases) {
   let result = html;
   for (const p of sorted) {
     const normTerm = p.term.replace(/\s+/g, ' ').trim();
-    const escaped = normTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/ /g, '\\s+');
-    const re = new RegExp(`(?<![\\w>])(${escaped})(?![\\w<])`, 'gi');
+    const words = normTerm.split(' ');
+    // Build a pattern that tolerates grammatical inflection:
+    // - each word may have a flexible ending (handles embed→embedded, study→studies)
+    // - the first word is fully flexible (handles give→gave, rise→rose)
+    const escWord = w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const toks = words.map(w => {
+      const base = escWord(w);
+      const lower = w.toLowerCase();
+      if (['a','an','the'].includes(lower)) return { opt: true, re: base };
+      if (w.length <= 3) return { opt: false, re: base };
+      const stem = base.replace(/(e|y)$/, '');
+      return { opt: false, re: `${stem}\\w{0,4}` };
+    });
+    let joined = '';
+    toks.forEach((t, i) => {
+      if (i === 0) { joined = t.opt ? `(?:${t.re}\\s+)?` : t.re; return; }
+      if (t.opt) joined += `(?:\\s+${t.re})?`;
+      else joined += `\\s+${t.re}`;
+    });
+    const re = new RegExp(`(?<![\\w>])(${joined})(?![\\w<])`, 'gi');
     let matched = false;
     result = result.replace(/(<[^>]+>)|([^<]+)/g, (full, tag, text) => {
       if (tag) return tag;
@@ -388,7 +409,7 @@ function renderContent(bodyEl, data) {
   const uid = Date.now();
   const makePane = (lv, text, phrases) => {
     const wc = wordCount(text);
-    const rt = readingTime(text);
+    const rt = readingTime(text, lv);
     const labelText = lv === 'b2' ? 'B2 — Upper Intermediate' : lv === 'c1' ? 'C1 — Advanced' : 'C2 — Proficiency';
     const { html: highlighted, found } = highlightPhrases(fmt(text), phrases);
     return `<div class="lp" data-lv="${lv}"${lv !== 'b2' ? ' style="display:none"' : ''}>

@@ -106,20 +106,26 @@ Respond ONLY with valid JSON:
   const c1terms = phrases.phrases_c1.map(p => p.term).join(', ');
   const c2terms = phrases.phrases_c2.map(p => p.term).join(', ');
 
-  const texts = await apiCall(`You are an expert English language teacher writing graded reading materials.
+  const texts = await apiCall(`You are an expert English language teacher writing graded reading materials for adult learners. Write three versions of a news story based on the article below.
 
-Write three versions of a news story based on this article. Each version MUST naturally incorporate all 6 target phrases verbatim.
+CRITICAL LENGTH REQUIREMENTS — these are strict minimums, do not write less:
+- B2 version: 280–320 words, exactly 3 paragraphs. Clear, accessible sentences.
+- C1 version: 380–420 words, 3–4 paragraphs. Richer syntax, natural collocations.
+- C2 version: 480–520 words, exactly 4 paragraphs. Sophisticated, nuanced, complex structures.
 
-B2 version (200–230 words, 2–3 paragraphs): use these phrases naturally: ${b2terms}
-C1 version (250–280 words, 2–3 paragraphs): use these phrases naturally: ${c1terms}
-C2 version (300–330 words, 3 paragraphs): use these phrases naturally: ${c2terms}
+Each version must be SUBSTANTIALLY longer and more developed than the level below it. Do not stop early. Develop the context, background, implications, and human detail of the story to reach the required length. Count your words.
+
+TARGET PHRASES — each version must naturally include all 6 of its phrases. You MAY grammatically inflect them to fit (e.g. "embed" → "embedded", "give rise to" → "gave rise to", "pose a challenge" → "posed challenges"). Grammatical correctness ALWAYS takes priority over using the phrase in its exact dictionary form. Never force a phrase in a way that breaks the sentence.
+- B2 phrases: ${b2terms}
+- C1 phrases: ${c1terms}
+- C2 phrases: ${c2terms}
 
 Keep all versions positive and uplifting. Separate paragraphs with \\n\\n.
 
 Article: ${rawText}
 
 Respond ONLY with valid JSON:
-{"b2":"...","c1":"...","c2":"..."}`, 2500);
+{"b2":"...","c1":"...","c2":"..."}`, 4000);
 
   const allTerms = [...phrases.phrases_b2, ...phrases.phrases_c1, ...phrases.phrases_c2].map(p => p.term);
   const exData = await apiCall(`For each phrase, write one short natural example sentence (under 15 words) NOT about the news story.
