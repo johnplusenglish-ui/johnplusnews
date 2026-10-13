@@ -39,6 +39,8 @@ level: Advanced                   (only for an article with ONE version, see Lev
 source: Name | https://link       (optional, shown at the bottom)
 image: images/photo.jpg           (the card thumbnail and article picture, a file in static/images/)
 image-alt: What the photo shows   (optional)
+image-credit: Name, Agency        (optional, shown as a small "Photo:" line under the picture)
+image-credit-url: https://link    (optional, makes the credit a link; needs image-credit)
 draft: yes                        (optional, keeps the article out of the site)
 ---
 ```
@@ -80,6 +82,8 @@ When a reader switches tab, the headline, the subheading and the browser tab tit
 Every article page has a Reading font menu: Default (the site font), Georgia, Verdana, Atkinson Hyperlegible and Lexend. The choice is remembered on that reader's device and applies to the article text on every article. The two web fonts are only downloaded when a reader opens the menu or has chosen one. To add a font, edit `FONTS` in `build.py` and the `[data-font="..."]` rules in `style.css`.
 
 ## Pictures
+
+A credit is not a licence. Naming the photographer does not give you the right to publish their picture. Only use pictures you took yourself, pictures with a licence that allows it (for example Creative Commons, with the credit that licence asks for), or pictures you have asked permission to use. The credit line is there for the credit that a licence or permission requires. In the publisher, fill in "Picture credit" and, if you want it, "Credit link". The credit appears on the article page only, not on the gallery card.
 
 - Put the file in `static/images/` and name it in the header as `image: images/your-file.jpg`.
 - Use a landscape picture at least 1200 pixels wide, with the important part in the middle. Cards crop it to 3:2 and the article page crops it to 16:9.

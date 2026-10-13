@@ -212,6 +212,8 @@ def parse_article(path):
         "levels": [v["level"] for v in versions],
         "image": meta.get("image", ""),
         "image_alt": meta.get("image-alt", ""),
+        "image_credit": meta.get("image-credit", "") if meta.get("image") else "",
+        "image_credit_url": meta.get("image-credit-url", "") if meta.get("image") else "",
         "source_name": source_name,
         "source_url": source_url,
         "versions": [
@@ -437,7 +439,16 @@ def versions_html(a):
 
 
 def article_page(a, newer, older):
-    img = '<img class="hero-img" src="{}" alt="{}">'.format(esc(asset(a["image"])), esc(a["image_alt"])) if a["image"] else ""
+    img = ""
+    if a["image"]:
+        credit = ""
+        if a["image_credit"]:
+            who = esc(a["image_credit"])
+            if a["image_credit_url"]:
+                who = '<a href="{}" target="_blank" rel="noopener noreferrer">{}</a>'.format(esc(a["image_credit_url"]), who)
+            credit = '<figcaption class="credit">Photo: {}</figcaption>'.format(who)
+        img = '<figure class="hero"><img class="hero-img" src="{}" alt="{}">{}</figure>'.format(
+            esc(asset(a["image"])), esc(a["image_alt"]), credit)
     source = ""
     if a["source_name"]:
         name = '<a href="{}">{}</a>'.format(esc(a["source_url"]), esc(a["source_name"])) if a["source_url"] else esc(a["source_name"])

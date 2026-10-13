@@ -98,6 +98,11 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
     <div class="hint" id="cropHint" hidden>This is how the gallery card crops it.</div>
     <button type="button" class="linkbtn danger" id="removePic" hidden>Remove the picture</button>
     <div style="margin-top:12px"><label for="alt" style="font-weight:500;font-size:.875rem">Describe the picture (optional, for screen readers)</label><input type="text" id="alt" autocomplete="off"></div>
+    <div class="row2" style="margin-top:12px">
+      <div><label for="credit" style="font-weight:500;font-size:.875rem">Picture credit (optional)</label><input type="text" id="credit" autocomplete="off" placeholder="Photographer or agency, and where it is from"></div>
+      <div><label for="curl" style="font-weight:500;font-size:.875rem">Credit link (optional)</label><input type="url" id="curl" autocomplete="off" placeholder="https://"></div>
+    </div>
+    <div class="hint">Shown as a small "Photo:" line under the picture on the article page. A credit does not give you permission to use a picture, so only use pictures you are allowed to publish.</div>
   </div>
 
   <div class="field"><span class="lab" id="levelLab">Levels and article text</span>
@@ -211,7 +216,7 @@ function counts() {
 /* -------------------------------------------------------------------------- form */
 function resetForm() {
   editing = null; pic = null; existingImage = ""; removePic = false;
-  ["title", "summary", "alt", "sname", "surl"].forEach(id => $(id).value = "");
+  ["title", "summary", "alt", "credit", "curl", "sname", "surl"].forEach(id => $(id).value = "");
   LEVELS.forEach(l => { $("ta-" + l).value = ""; setOwn(l, null); setChecked(l, false); });
   $("date").value = today();
   $("file").value = "";
@@ -253,6 +258,7 @@ function collect() {
   return {
     slug: editing, title: $("title").value, date: $("date").value, summary: $("summary").value,
     versions: texts(), overrides: overrides(), source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
+    image_credit: $("credit").value, image_credit_url: $("curl").value,
     image: pic ? { name: pic.name, data: pic.data } : null, remove_image: removePic && !pic,
   };
 }
@@ -270,7 +276,7 @@ function problem() {
 function saveDraft() {
   if (editing) return;
   try {
-    localStorage.setItem("jpn_draft2", JSON.stringify({ title: $("title").value, date: $("date").value, summary: $("summary").value, texts: texts(), own: overrides(), sname: $("sname").value, surl: $("surl").value, alt: $("alt").value }));
+    localStorage.setItem("jpn_draft2", JSON.stringify({ title: $("title").value, date: $("date").value, summary: $("summary").value, texts: texts(), own: overrides(), sname: $("sname").value, surl: $("surl").value, alt: $("alt").value, credit: $("credit").value, curl: $("curl").value }));
   } catch (e) {}
 }
 function loadDraft() {
@@ -280,7 +286,7 @@ function loadDraft() {
     const t = d.texts || {};
     if (!d.title && !Object.values(t).some(x => x)) return false;
     $("title").value = d.title || ""; $("summary").value = d.summary || "";
-    $("sname").value = d.sname || ""; $("surl").value = d.surl || ""; $("alt").value = d.alt || "";
+    $("sname").value = d.sname || ""; $("surl").value = d.surl || ""; $("alt").value = d.alt || ""; $("credit").value = d.credit || ""; $("curl").value = d.curl || "";
     if (d.date) $("date").value = d.date;
     LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(t, l); setChecked(l, on); $("ta-" + l).value = on ? t[l] : ""; setOwn(l, on ? (d.own || {})[l] : null); });
     return true;
@@ -311,7 +317,7 @@ async function openArticle(slug, force) {
     const a = await api("/api/article?slug=" + encodeURIComponent(slug));
     editing = a.slug; pic = null; removePic = false; existingImage = a.image || "";
     $("title").value = a.title; $("summary").value = a.summary; $("date").value = a.date;
-    $("sname").value = a.source_name; $("surl").value = a.source_url; $("alt").value = a.image_alt;
+    $("sname").value = a.source_name; $("surl").value = a.source_url; $("alt").value = a.image_alt; $("credit").value = a.image_credit || ""; $("curl").value = a.image_credit_url || "";
     LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(a.versions, l); setChecked(l, on); $("ta-" + l).value = on ? a.versions[l] : ""; setOwn(l, on ? (a.overrides || {})[l] : null); });
     $("file").value = "";
     $("formTitle").textContent = "Edit article";
@@ -397,7 +403,7 @@ counts(); showPicture();
 if (restored) setStatus("info", "Your unsent draft was restored. The picture is not kept in a draft, so choose it again.");
 refreshList();
 
-["title", "summary", "sname", "surl", "alt", "date"].forEach(id => $(id).addEventListener("input", () => { counts(); saveDraft(); }));
+["title", "summary", "sname", "surl", "alt", "credit", "curl", "date"].forEach(id => $(id).addEventListener("input", () => { counts(); saveDraft(); }));
 $("file").addEventListener("change", e => takeFile(e.target.files[0]));
 $("removePic").addEventListener("click", () => { pic = null; removePic = true; $("file").value = ""; showPicture(); });
 $("previewBtn").addEventListener("click", preview);

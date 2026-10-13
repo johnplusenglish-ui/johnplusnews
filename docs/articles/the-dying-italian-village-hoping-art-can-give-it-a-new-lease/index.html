@@ -139,6 +139,10 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.02em; }
 .article-head { padding: 52px 0 28px; }
 .article-head h1 { font-size: calc(clamp(2rem, 6.4vw, 2.875rem) * var(--fs, 1)); line-height: 1.08; letter-spacing: -0.03em; margin: 12px 0 16px; }
 .hero-img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; background: var(--line); }
+.hero { margin: 0; }
+.credit { font-size: 0.8125rem; line-height: 1.4; color: var(--muted); margin: 8px 2px 0; }
+.credit a { color: var(--muted); text-underline-offset: 0.18em; }
+.credit a:hover { color: var(--accent); }
 .dek { font-size: calc(1.3rem * var(--fs, 1)); line-height: 1.45; color: var(--muted); margin: 0 0 26px; }
 .prose { font-size: calc(1.1875rem * var(--fs, 1)); line-height: 1.75; padding-bottom: 28px; }
 .prose p { margin: 0 0 1.25em; }
@@ -203,7 +207,7 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.02em; }
 <script>(function(){var b=document.getElementById("fbtn"),m=document.getElementById("fmenu"),c=document.getElementById("fcur");if(!b||!m)return;var o=[].slice.call(m.querySelectorAll("[role=option]"));function sel(k,save){var f=o.filter(function(x){return x.getAttribute("data-font")===k})[0]||o[0];k=f.getAttribute("data-font");o.forEach(function(x){x.setAttribute("aria-selected",x===f)});c.textContent=f.getAttribute("data-short")||f.firstChild.textContent;if(k==="default")document.documentElement.removeAttribute("data-font");else{document.documentElement.setAttribute("data-font",k);window.jpnFont&&window.jpnFont(k)}if(save){try{localStorage.setItem("jpn_font",k)}catch(e){}}}function open(){if(window.jpnFont){window.jpnFont("atkinson");window.jpnFont("lexend")}m.hidden=false;b.setAttribute("aria-expanded","true");(o.filter(function(x){return x.getAttribute("aria-selected")==="true"})[0]||o[0]).focus()}function close(back){m.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus()}var s="";try{s=localStorage.getItem("jpn_font")||""}catch(e){}sel(s,false);b.addEventListener("click",function(){m.hidden?open():close(true)});b.addEventListener("keydown",function(e){if(e.key==="ArrowDown"){e.preventDefault();open()}});o.forEach(function(x,i){x.addEventListener("click",function(){sel(x.getAttribute("data-font"),true);close(true)});x.addEventListener("keydown",function(e){var k=e.key;if(k==="ArrowDown"){e.preventDefault();o[Math.min(i+1,o.length-1)].focus()}else if(k==="ArrowUp"){e.preventDefault();o[Math.max(i-1,0)].focus()}else if(k==="Home"){e.preventDefault();o[0].focus()}else if(k==="End"){e.preventDefault();o[o.length-1].focus()}else if(k==="Enter"||k===" "){e.preventDefault();sel(x.getAttribute("data-font"),true);close(true)}else if(k==="Escape"||k==="Tab"){close(k==="Escape")}})});document.addEventListener("click",function(e){if(!m.hidden&&!e.target.closest(".fdrop"))close(false)})})();</script>
 <h1>The dying Italian village hoping art can give it a new lease of life</h1>
 <p class="dek">An ancient hilltop village threatened by erosion has been named Italy&#x27;s 2028 capital of contemporary art. But can creativity secure its future?</p>
-<img class="hero-img" src="/images/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-f6cd98.jpg" alt="">
+<figure class="hero"><img class="hero-img" src="/images/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-f6cd98.jpg" alt=""></figure>
 </header>
 <div class="panels"><section class="panel" role="tabpanel" id="v-intermediate" aria-labelledby="tab-intermediate"><h2 class="lvl-head">Intermediate version</h2><div class="prose">
 <p>High on a hilltop in central Italy, Civita di Bagnoregio looks like a village from a fairy tale. With its narrow stone streets, medieval buildings and beautiful views, it attracts tourists from all over the world. But behind its beauty lies a serious problem: the village is slowly disappearing.</p>
