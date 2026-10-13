@@ -281,13 +281,24 @@ def card_meta(a):
 
 def article_meta(a):
     v = a["versions"]
-    bits = []
     if len(v) == 1:
-        bits.append('<span class="lvl">{}</span>'.format(esc(v[0]["level"])))
-    bits.append("<span>{}</span>".format(fmt(a["date"])))
-    if len(v) == 1:
-        bits.append("<span>{} min read</span>".format(v[0]["minutes"]))
+        bits = ['<span class="lvl">{}</span>'.format(esc(v[0]["level"])),
+                "<span>{}</span>".format(fmt(a["date"])), "<span>{} min read</span>".format(v[0]["minutes"])]
+    else:
+        bits = ["<span>{}</span>".format(fmt(a["date"])), '<span id="mins">{} min read</span>'.format(v[0]["minutes"])]
     return '<p class="meta">{}</p>'.format("".join(bits))
+
+
+def level_tabs(a):
+    """A small level switch for the date line. Only articles with more than one version have one."""
+    v = a["versions"]
+    if len(v) < 2:
+        return ""
+    tabs = "".join(
+        '<button type="button" role="tab" id="tab-{k}" aria-controls="v-{k}" aria-selected="{sel}" tabindex="{ti}" data-level="{k}" data-mins="{n}">{label}</button>'
+        .format(k=x["level"].lower(), sel="true" if i == 0 else "false", ti=0 if i == 0 else -1, n=x["minutes"], label=esc(x["level"]))
+        for i, x in enumerate(v))
+    return '<div class="vtabs" role="tablist" aria-label="Reading level" data-tabs>{}</div>'.format(tabs)
 
 
 def card(a):
@@ -323,8 +334,9 @@ TABS_JS = (
     '(function(){var r=document.querySelector("[data-tabs]");if(!r)return;'
     'var t=[].slice.call(r.querySelectorAll("[role=tab]"));'
     'function show(k,save){var ok=t.some(function(x){return x.getAttribute("data-level")===k});if(!ok)return false;'
+    'var m=document.getElementById("mins");'
     't.forEach(function(x){var l=x.getAttribute("data-level"),on=l===k;x.setAttribute("aria-selected",on);'
-    'x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on});'
+    'x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;if(on&&m)m.textContent=x.getAttribute("data-mins")+" min read"});'
     'if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}}return true}'
     'var s="";try{s=localStorage.getItem("jpn_level")||""}catch(e){}'
     'if(!show(location.hash.slice(1).toLowerCase(),false))show(s,false);'
@@ -390,21 +402,13 @@ def versions_html(a):
     v = a["versions"]
     if len(v) == 1:
         return '<div class="prose">\n{}\n</div>'.format(v[0]["html"])
-    tabs, panels = [], []
-    for i, x in enumerate(v):
-        k = x["level"].lower()
-        tabs.append(
-            '<button type="button" role="tab" id="tab-{k}" aria-controls="v-{k}" aria-selected="{sel}" tabindex="{ti}" data-level="{k}">{label}</button>'
-            .format(k=k, sel="true" if i == 0 else "false", ti=0 if i == 0 else -1, label=esc(x["level"])))
-        panels.append(
-            '<section class="panel" role="tabpanel" id="v-{k}" aria-labelledby="tab-{k}"{hidden}>'
-            '<h2 class="lvl-head">{label} version</h2><p class="meta"><span>{n} min read</span></p>'
-            '<div class="prose">\n{html}\n</div></section>'
-            .format(k=k, hidden="" if i == 0 else " hidden", label=esc(x["level"]), n=x["minutes"], html=x["html"]))
-    return ('<div class="readbar"><div class="levelpick" data-tabs><p class="vlabel" id="vlabel">Choose your level</p>'
-            '<div class="vtabs" role="tablist" aria-labelledby="vlabel">{}</div></div></div>\n'
-            '<div class="panels">{}</div>\n<script>{}</script>'
-            ).format("".join(tabs), "".join(panels), TABS_JS)
+    panels = "".join(
+        '<section class="panel" role="tabpanel" id="v-{k}" aria-labelledby="tab-{k}"{hidden}>'
+        '<h2 class="lvl-head">{label} version</h2><p class="meta panel-meta"><span>{n} min read</span></p>'
+        '<div class="prose">\n{html}\n</div></section>'
+        .format(k=x["level"].lower(), hidden="" if i == 0 else " hidden", label=esc(x["level"]), n=x["minutes"], html=x["html"])
+        for i, x in enumerate(v))
+    return '<div class="panels">{}</div>\n<script>{}</script>'.format(panels, TABS_JS)
 
 
 def article_page(a, newer, older):
@@ -421,7 +425,7 @@ def article_page(a, newer, older):
     main = """<article class="wrap">
 <header class="article-head">
 <a class="back" href="/">&larr; All articles</a>
-<div class="metarow">{meta}{picker}</div>
+<div class="metarow{tabcls}"><div class="metaleft">{tabs}{meta}</div>{picker}</div>
 <script>{fontjs}</script>
 <h1>{title}</h1>
 <p class="dek">{summary}</p>
@@ -430,9 +434,9 @@ def article_page(a, newer, older):
 {versions}
 {source}
 {pager}
-</article>""".format(meta=article_meta(a), picker=font_picker(), fontjs=FONT_JS, title=esc(a["title"]), summary=esc(a["summary"]), img=img,
+</article>""".format(tabs=level_tabs(a), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=font_picker(), fontjs=FONT_JS, title=esc(a["title"]), summary=esc(a["summary"]), img=img,
                      versions=versions_html(a), source=source, pager=pager)
-    no_js = ".fontpick{display:none}" + (".readbar{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
+    no_js = ".fontpick{display:none}" + (".vtabs,#mins{display:none}.panel[hidden]{display:block!important}.lvl-head,.panel-meta{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=a["title"], desc=a["summary"], image=a["image"] or None, kind="article",
                 head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n")
 
