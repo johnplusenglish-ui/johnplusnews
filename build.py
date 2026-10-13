@@ -348,7 +348,7 @@ FONT_JS = (
     '(function(){var b=document.getElementById("fbtn"),m=document.getElementById("fmenu"),c=document.getElementById("fcur");if(!b||!m)return;'
     'var o=[].slice.call(m.querySelectorAll("[role=option]"));'
     'function sel(k,save){var f=o.filter(function(x){return x.getAttribute("data-font")===k})[0]||o[0];k=f.getAttribute("data-font");'
-    'o.forEach(function(x){x.setAttribute("aria-selected",x===f)});c.textContent=f.firstChild.textContent;'
+    'o.forEach(function(x){x.setAttribute("aria-selected",x===f)});c.textContent=f.getAttribute("data-short")||f.firstChild.textContent;'
     'if(k==="default")document.documentElement.removeAttribute("data-font");'
     'else{document.documentElement.setAttribute("data-font",k);window.jpnFont&&window.jpnFont(k)}'
     'if(save){try{localStorage.setItem("jpn_font",k)}catch(e){}}}'
@@ -376,8 +376,8 @@ CHEVRON_ICON = ('<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="tr
 
 def font_picker():
     items = "".join(
-        '<li role="option" class="fo-{k}" data-font="{k}" aria-selected="{sel}" tabindex="-1"><span>{label}</span>{chk}</li>'
-        .format(k=k, sel="true" if k == "default" else "false", label=label, chk=CHECK_ICON)
+        '<li role="option" class="fo-{k}" data-font="{k}" data-short="{short}" aria-selected="{sel}" tabindex="-1"><span>{label}</span>{chk}</li>'
+        .format(k=k, sel="true" if k == "default" else "false", label=label, short=label.split()[0], chk=CHECK_ICON)
         for k, label in FONTS)
     return ('<div class="fontpick"><div class="fdrop">'
             '<button type="button" class="fbtn" id="fbtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="flab fcur">'
