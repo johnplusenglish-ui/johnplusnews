@@ -95,9 +95,13 @@ def split_source(value):
 def list_articles():
     rows = []
     for path, meta, body, slug in article_files(CONTENT):
+        try:
+            levels = [lv for lv, _ in build.split_versions(meta, body)]
+        except ValueError:
+            levels = []
         rows.append({
             "slug": slug, "title": meta.get("title", slug), "date": meta.get("date", ""),
-            "level": meta.get("level", ""), "image": meta.get("image", ""),
+            "levels": levels, "image": meta.get("image", ""),
             "draft": meta.get("draft", "").lower() in ("yes", "true", "1"),
         })
     rows.sort(key=lambda r: (r["date"], r["slug"]), reverse=True)
@@ -108,8 +112,12 @@ def get_article(slug):
     for path, meta, body, s in article_files(CONTENT):
         if s == slug:
             name, url = split_source(meta.get("source", ""))
+            try:
+                versions = dict(build.split_versions(meta, body))
+            except ValueError as e:
+                raise UserError("That article could not be opened: " + str(e))
             return {"slug": slug, "title": meta.get("title", ""), "date": meta.get("date", ""),
-                    "level": meta.get("level", ""), "summary": meta.get("summary", ""), "body": body,
+                    "versions": versions, "summary": meta.get("summary", ""),
                     "source_name": name, "source_url": url, "image": meta.get("image", ""),
                     "image_alt": meta.get("image-alt", "")}
     raise UserError("That article was not found.")
@@ -165,7 +173,6 @@ def compose(f):
     lines = ["title: " + f["title"], "date: " + f["date"]]
     if f["summary"]:
         lines.append("summary: " + f["summary"])
-    lines.append("level: " + f["level"])
     if f["source_name"] and f["source_url"]:
         lines.append("source: {} | {}".format(f["source_name"], f["source_url"]))
     elif f["source_url"]:
@@ -176,30 +183,39 @@ def compose(f):
         lines.append("image: " + f["image"])
         if f["image_alt"]:
             lines.append("image-alt: " + f["image_alt"])
-    return "\n".join(lines) + "\n---\n" + f["body"] + "\n"
+    body = "\n\n".join("=== {} ===\n\n{}".format(level, text) for level, text in f["versions"])
+    return "\n".join(lines) + "\n---\n" + body + "\n"
 
 
 def clean_fields(p):
     f = {
-        "title": one_line(p.get("title")), "date": one_line(p.get("date")), "level": one_line(p.get("level")),
+        "title": one_line(p.get("title")), "date": one_line(p.get("date")),
         "summary": one_line(p.get("summary")), "source_name": one_line(p.get("source_name")),
         "source_url": one_line(p.get("source_url")), "image_alt": one_line(p.get("image_alt")),
     }
-    body = (p.get("body") or "").replace("\r\n", "\n").replace("\r", "\n")
-    body = "\n".join(line.rstrip() for line in body.split("\n"))
-    f["body"] = re.sub(r"\n{3,}", "\n\n", body).strip()
     if not f["title"]:
         raise UserError("Add a title.")
     levels = {l.lower(): l for l in build.LEVELS}
-    if f["level"].lower() not in levels:
-        raise UserError("Choose a level: " + ", ".join(build.LEVELS) + ".")
-    f["level"] = levels[f["level"].lower()]
+    found = {}
+    for name, text in (p.get("versions") or {}).items():
+        level = levels.get(one_line(name).lower())
+        if not level:
+            raise UserError("Unknown level: " + one_line(name) + ". Use " + ", ".join(build.LEVELS) + ".")
+        t = (text or "").replace("\r\n", "\n").replace("\r", "\n")
+        t = "\n".join(line.rstrip() for line in t.split("\n"))
+        t = re.sub(r"\n{3,}", "\n\n", t).strip()
+        if not t:
+            raise UserError("Paste the {} text, or untick that level.".format(level))
+        if build.VERSION_MARK.search(t):
+            raise UserError("The {} text contains a line like === Advanced ===. Please remove that line.".format(level))
+        found[level] = t
+    if not found:
+        raise UserError("Tick at least one level and paste the article text.")
+    f["versions"] = [(level, found[level]) for level in build.LEVELS if level in found]
     try:
         dt.date.fromisoformat(f["date"])
     except ValueError:
         raise UserError("Choose a date.")
-    if not f["body"]:
-        raise UserError("Paste the article text.")
     if f["source_url"] and not re.match(r"https?://\S+$", f["source_url"]):
         raise UserError("The source link must start with http:// or https://")
     if f["source_name"] and "|" in f["source_name"]:

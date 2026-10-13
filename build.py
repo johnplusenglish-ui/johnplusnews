@@ -111,6 +111,39 @@ def split_article(raw):
     return meta, parts[1].strip()
 
 
+VERSION_MARK = re.compile(r"^===[ \t]*([A-Za-z]+)[ \t]*===[ \t]*$", re.M)
+
+
+def split_versions(meta, body):
+    """Return [(level, text)] in LEVELS order. An article is either one text with a 'level:' header,
+    or several texts, each starting with a line like === Advanced ===. Raises ValueError."""
+    levels = {l.lower(): l for l in LEVELS}
+    marks = list(VERSION_MARK.finditer(body))
+    if not marks:
+        level = levels.get(meta.get("level", "").lower())
+        if not level:
+            raise ValueError("add a 'level:' header, or start each version with a line like === Advanced ===")
+        if not body.strip():
+            raise ValueError("the article text is empty")
+        return [(level, body.strip())]
+    if body[:marks[0].start()].strip():
+        raise ValueError("there is text before the first === level === line")
+    out = []
+    for i, m in enumerate(marks):
+        level = levels.get(m.group(1).lower())
+        if not level:
+            raise ValueError("unknown level '{}' (use {})".format(m.group(1), ", ".join(LEVELS)))
+        end = marks[i + 1].start() if i + 1 < len(marks) else len(body)
+        text = body[m.end():end].strip()
+        if not text:
+            raise ValueError("the {} version is empty".format(level))
+        out.append((level, text))
+    names = [lv for lv, _ in out]
+    if len(set(names)) != len(names):
+        raise ValueError("the same level appears twice")
+    return sorted(out, key=lambda x: LEVELS.index(x[0]))
+
+
 def parse_article(path):
     try:
         meta, body = split_article(path.read_text(encoding="utf-8"))
@@ -123,16 +156,17 @@ def parse_article(path):
         date = dt.date.fromisoformat(meta["date"])
     except ValueError:
         fail(path, "date must look like 2026-10-13")
-    level = {l.lower(): l for l in LEVELS}.get(meta.get("level", "").lower())
-    if not level:
-        fail(path, "level must be one of: " + ", ".join(LEVELS))
+    try:
+        versions = split_versions(meta, body)
+    except ValueError as e:
+        fail(path, str(e))
     if meta.get("draft", "").lower() in ("yes", "true", "1"):
         print("  skipped draft: " + path.name)
         return None
 
     summary = meta.get("summary", "")
     if not summary:
-        first_para = plain(re.split(r"\n\s*\n", body)[0]).replace("\n", " ").strip()
+        first_para = plain(re.split(r"\n\s*\n", versions[0][1])[0]).replace("\n", " ").strip()
         summary = first_para if len(first_para) <= 170 else first_para[:167].rsplit(" ", 1)[0] + "..."
 
     source_name = source_url = ""
@@ -150,13 +184,16 @@ def parse_article(path):
         "title": meta["title"],
         "date": date,
         "summary": summary,
-        "level": level,
+        "levels": [lv for lv, _ in versions],
         "image": meta.get("image", ""),
         "image_alt": meta.get("image-alt", ""),
         "source_name": source_name,
         "source_url": source_url,
-        "minutes": max(1, round(len(re.findall(r"\w+", plain(body))) / 200)),
-        "html": body_html(body),
+        "versions": [
+            {"level": lv, "html": body_html(text),
+             "minutes": max(1, round(len(re.findall(r"\w+", plain(text))) / 200))}
+            for lv, text in versions
+        ],
     }
 
 
@@ -183,7 +220,7 @@ def url_of(a):
 CSS = (ROOT / "style.css").read_text(encoding="utf-8")
 
 
-def page(path, main, title=None, desc=None, current=None, image=None, kind="website", wide=False):
+def page(path, main, title=None, desc=None, current=None, image=None, kind="website", wide=False, head_extra=""):
     full_title = SITE["name"] + " | " + SITE["tagline"].rstrip(".") if title is None else "{} | {}".format(title, SITE["name"])
     desc = desc or SITE["tagline"]
     canon = SITE["url"] + path
@@ -211,7 +248,7 @@ def page(path, main, title=None, desc=None, current=None, image=None, kind="webs
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>{css}</style>
+{head_extra}<style>{css}</style>
 </head>
 <body{body_class}>
 <a class="skip" href="#main">Skip to content</a>
@@ -231,15 +268,25 @@ def page(path, main, title=None, desc=None, current=None, image=None, kind="webs
 </html>
 """.format(title=esc(full_title), desc=esc(desc), canon=esc(canon), name=SITE["name"], kind=kind,
            og_image=og_image, css=CSS, nav=nav, main=main, tagline=SITE["tagline"],
-           body_class=' class="wide"' if wide else "")
+           body_class=' class="wide"' if wide else "", head_extra=head_extra)
 
 
-def meta_line(a, long=False):
+def levels_label(a):
+    return ", ".join(a["levels"])
+
+
+def card_meta(a):
+    return '<p class="meta"><span class="lvl">{}</span><span>{}</span></p>'.format(esc(levels_label(a)), fmt(a["date"], short=True))
+
+
+def article_meta(a):
+    v = a["versions"]
     bits = []
-    if a["level"]:
-        bits.append('<span class="lvl">{}</span>'.format(esc(a["level"])))
-    bits.append("<span>{}</span>".format(fmt(a["date"], short=not long)))
-    bits.append("<span>{} min read</span>".format(a["minutes"]))
+    if len(v) == 1:
+        bits.append('<span class="lvl">{}</span>'.format(esc(v[0]["level"])))
+    bits.append("<span>{}</span>".format(fmt(a["date"])))
+    if len(v) == 1:
+        bits.append("<span>{} min read</span>".format(v[0]["minutes"]))
     return '<p class="meta">{}</p>'.format("".join(bits))
 
 
@@ -247,34 +294,20 @@ def card(a):
     if a["image"]:
         thumb = '<img src="{}" alt="{}" loading="lazy" decoding="async">'.format(esc(asset(a.get("thumb") or a["image"])), esc(a["image_alt"]))
     else:
-        thumb = '<span class="blank">{}</span>'.format(esc(a["level"]))
+        thumb = '<span class="blank">{}</span>'.format(esc(levels_label(a)))
     return (
         '<li class="card"><div class="thumb">{thumb}</div>{meta}'
         '<h2><a href="{url}">{title}</a></h2><p class="sub">{summary}</p></li>'
-    ).format(thumb=thumb, meta=meta_line(a), url=url_of(a), title=esc(a["title"]), summary=esc(a["summary"]))
+    ).format(thumb=thumb, meta=card_meta(a), url=url_of(a), title=esc(a["title"]), summary=esc(a["summary"]))
 
 
-def level_url(level):
-    return "/" if level is None else "/{}/".format(level.lower())
-
-
-def gallery_page(arts, level=None):
-    shown = [a for a in arts if level is None or a["level"] == level]
-    tabs = "".join(
-        '<a href="{}"{}>{}</a>'.format(level_url(l), ' aria-current="page"' if l == level else "", l or "All")
-        for l in [None] + LEVELS
-    )
-    if shown:
-        body = '<ul class="gallery">{}</ul>'.format("".join(card(a) for a in shown))
-    elif level:
-        body = '<p class="empty">No {} articles yet. Check back soon.</p>'.format(level.lower())
+def gallery_page(arts):
+    if arts:
+        body = '<ul class="gallery">{}</ul>'.format("".join(card(a) for a in arts))
     else:
         body = '<p class="empty">The first article is coming soon.</p>'
-    main = '<div class="wrap"><h1 class="intro">{}</h1><nav class="levels" aria-label="Level">{}</nav>{}</div>'.format(
-        esc(SITE["tagline"]), tabs, body)
-    desc = "{} articles for English learners.".format(level) if level else SITE["tagline"]
-    return page(level_url(level), main, title="{} articles".format(level) if level else None, current="/",
-                desc=desc, image=(shown[0]["image"] if shown else "") or None, wide=True)
+    main = '<div class="wrap"><h1 class="intro">{}</h1>{}</div>'.format(esc(SITE["tagline"]), body)
+    return page("/", main, current="/", desc=SITE["tagline"], image=(arts[0]["image"] if arts else "") or None, wide=True)
 
 
 def about_page():
@@ -286,6 +319,96 @@ def about_page():
     return page("/about/", main, title="About", current="/about/", desc="johnplusnews on Telegram and Instagram.")
 
 
+TABS_JS = (
+    '(function(){var r=document.querySelector("[data-tabs]");if(!r)return;'
+    'var t=[].slice.call(r.querySelectorAll("[role=tab]"));'
+    'function show(k,save){var ok=t.some(function(x){return x.getAttribute("data-level")===k});if(!ok)return false;'
+    't.forEach(function(x){var l=x.getAttribute("data-level"),on=l===k;x.setAttribute("aria-selected",on);'
+    'x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on});'
+    'if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}}return true}'
+    'var s="";try{s=localStorage.getItem("jpn_level")||""}catch(e){}'
+    'if(!show(location.hash.slice(1).toLowerCase(),false))show(s,false);'
+    't.forEach(function(x,i){x.addEventListener("click",function(){show(x.getAttribute("data-level"),true)});'
+    'x.addEventListener("keydown",function(e){var n=e.key==="ArrowRight"?i+1:e.key==="ArrowLeft"?i-1:-1;'
+    'if(n<0||n>=t.length)return;e.preventDefault();t[n].focus();show(t[n].getAttribute("data-level"),true)})});'
+    'window.addEventListener("hashchange",function(){show(location.hash.slice(1).toLowerCase(),false)})})();'
+)
+FONTS = [("default", "Default"), ("georgia", "Georgia"), ("verdana", "Verdana"),
+         ("atkinson", "Atkinson Hyperlegible"), ("lexend", "Lexend")]
+
+# Runs in <head> before the page paints: applies the reader's saved font, and loads the two web fonts only on demand.
+HEAD_JS = (
+    '<script>(function(){var G={atkinson:"Atkinson+Hyperlegible:wght@400;700",lexend:"Lexend:wght@400;500;600"};'
+    'window.jpnFont=function(k){if(G[k]&&!document.getElementById("gf-"+k)){var l=document.createElement("link");'
+    'l.id="gf-"+k;l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family="+G[k]+"&display=swap";document.head.appendChild(l)}};'
+    'try{var f=localStorage.getItem("jpn_font");if(f&&/^[a-z]+$/.test(f)){document.documentElement.setAttribute("data-font",f);window.jpnFont(f)}}catch(e){}})();</script>\n'
+)
+
+FONT_JS = (
+    '(function(){var b=document.getElementById("fbtn"),m=document.getElementById("fmenu"),c=document.getElementById("fcur");if(!b||!m)return;'
+    'var o=[].slice.call(m.querySelectorAll("[role=option]"));'
+    'function sel(k,save){var f=o.filter(function(x){return x.getAttribute("data-font")===k})[0]||o[0];k=f.getAttribute("data-font");'
+    'o.forEach(function(x){x.setAttribute("aria-selected",x===f)});c.textContent=f.firstChild.textContent;'
+    'if(k==="default")document.documentElement.removeAttribute("data-font");'
+    'else{document.documentElement.setAttribute("data-font",k);window.jpnFont&&window.jpnFont(k)}'
+    'if(save){try{localStorage.setItem("jpn_font",k)}catch(e){}}}'
+    'function open(){if(window.jpnFont){window.jpnFont("atkinson");window.jpnFont("lexend")}m.hidden=false;b.setAttribute("aria-expanded","true");'
+    '(o.filter(function(x){return x.getAttribute("aria-selected")==="true"})[0]||o[0]).focus()}'
+    'function close(back){m.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus()}'
+    'var s="";try{s=localStorage.getItem("jpn_font")||""}catch(e){}sel(s,false);'
+    'b.addEventListener("click",function(){m.hidden?open():close(true)});'
+    'b.addEventListener("keydown",function(e){if(e.key==="ArrowDown"){e.preventDefault();open()}});'
+    'o.forEach(function(x,i){x.addEventListener("click",function(){sel(x.getAttribute("data-font"),true);close(true)});'
+    'x.addEventListener("keydown",function(e){var k=e.key;'
+    'if(k==="ArrowDown"){e.preventDefault();o[Math.min(i+1,o.length-1)].focus()}'
+    'else if(k==="ArrowUp"){e.preventDefault();o[Math.max(i-1,0)].focus()}'
+    'else if(k==="Home"){e.preventDefault();o[0].focus()}else if(k==="End"){e.preventDefault();o[o.length-1].focus()}'
+    'else if(k==="Enter"||k===" "){e.preventDefault();sel(x.getAttribute("data-font"),true);close(true)}'
+    'else if(k==="Escape"||k==="Tab"){close(k==="Escape")}})});'
+    'document.addEventListener("click",function(e){if(!m.hidden&&!e.target.closest(".fdrop"))close(false)})})();'
+)
+
+CHECK_ICON = ('<svg class="chk" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" '
+              'fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+CHEVRON_ICON = ('<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" '
+                'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+
+
+def font_picker():
+    items = "".join(
+        '<li role="option" class="fo-{k}" data-font="{k}" aria-selected="{sel}" tabindex="-1"><span>{label}</span>{chk}</li>'
+        .format(k=k, sel="true" if k == "default" else "false", label=label, chk=CHECK_ICON)
+        for k, label in FONTS)
+    return ('<div class="fontpick"><p class="vlabel" id="flabel">Reading font</p><div class="fdrop">'
+            '<button type="button" class="fbtn" id="fbtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="flabel fcur">'
+            '<span id="fcur">Default</span>{}</button>'
+            '<ul class="fmenu" id="fmenu" role="listbox" aria-labelledby="flabel" hidden>{}</ul></div></div>'
+            ).format(CHEVRON_ICON, items)
+
+
+def versions_html(a):
+    v = a["versions"]
+    picker = font_picker()
+    if len(v) == 1:
+        return ('<div class="readbar">{}</div>\n<script>{}</script>\n<div class="prose">\n{}\n</div>'
+                ).format(picker, FONT_JS, v[0]["html"])
+    tabs, panels = [], []
+    for i, x in enumerate(v):
+        k = x["level"].lower()
+        tabs.append(
+            '<button type="button" role="tab" id="tab-{k}" aria-controls="v-{k}" aria-selected="{sel}" tabindex="{ti}" data-level="{k}">{label}</button>'
+            .format(k=k, sel="true" if i == 0 else "false", ti=0 if i == 0 else -1, label=esc(x["level"])))
+        panels.append(
+            '<section class="panel" role="tabpanel" id="v-{k}" aria-labelledby="tab-{k}"{hidden}>'
+            '<h2 class="lvl-head">{label} version</h2><p class="meta"><span>{n} min read</span></p>'
+            '<div class="prose">\n{html}\n</div></section>'
+            .format(k=k, hidden="" if i == 0 else " hidden", label=esc(x["level"]), n=x["minutes"], html=x["html"]))
+    return ('<div class="readbar"><div class="levelpick" data-tabs><p class="vlabel" id="vlabel">Choose your level</p>'
+            '<div class="vtabs" role="tablist" aria-labelledby="vlabel">{}</div></div>{}</div>\n<script>{}</script>\n'
+            '<div class="panels">{}</div>\n<script>{}</script>'
+            ).format("".join(tabs), picker, FONT_JS, "".join(panels), TABS_JS)
+
+
 def article_page(a, newer, older):
     img = '<img class="hero-img" src="{}" alt="{}">'.format(esc(asset(a["image"])), esc(a["image_alt"])) if a["image"] else ""
     source = ""
@@ -294,8 +417,8 @@ def article_page(a, newer, older):
         source = '<p class="source">Source: {}</p>'.format(name)
     pager = ""
     if newer or older:
-        left = '<a href="{}"><small>Older {} article</small>{}</a>'.format(url_of(older), a["level"].lower(), esc(older["title"])) if older else "<span></span>"
-        right = '<a class="next" href="{}"><small>Newer {} article</small>{}</a>'.format(url_of(newer), a["level"].lower(), esc(newer["title"])) if newer else ""
+        left = '<a href="{}"><small>Older article</small>{}</a>'.format(url_of(older), esc(older["title"])) if older else "<span></span>"
+        right = '<a class="next" href="{}"><small>Newer article</small>{}</a>'.format(url_of(newer), esc(newer["title"])) if newer else ""
         pager = '<nav class="pager" aria-label="More articles">{}{}</nav>'.format(left, right)
     main = """<article class="wrap">
 <header class="article-head">
@@ -305,15 +428,14 @@ def article_page(a, newer, older):
 <p class="dek">{summary}</p>
 {img}
 </header>
-<div class="prose">
-{body}
-</div>
+{versions}
 {source}
 {pager}
-</article>""".format(meta=meta_line(a, long=True), title=esc(a["title"]), summary=esc(a["summary"]), img=img,
-                     body=a["html"], source=source, pager=pager)
-    return page(url_of(a), main, title=a["title"], desc=a["summary"],
-                image=a["image"] or None, kind="article")
+</article>""".format(meta=article_meta(a), title=esc(a["title"]), summary=esc(a["summary"]), img=img,
+                     versions=versions_html(a), source=source, pager=pager)
+    no_js = ".readbar{display:none}" + (".panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
+    return page(url_of(a), main, title=a["title"], desc=a["summary"], image=a["image"] or None, kind="article",
+                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n")
 
 
 def not_found_page():
@@ -359,15 +481,11 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
             shutil.copytree(item, dest) if item.is_dir() else shutil.copy2(item, dest)
 
     write("index.html", gallery_page(arts))
-    for level in LEVELS:
-        write("{}/index.html".format(level.lower()), gallery_page(arts, level))
     write("about/index.html", about_page())
     write("404.html", not_found_page())
-    for a in arts:
-        same = [x for x in arts if x["level"] == a["level"]]
-        i = same.index(a)
-        newer = same[i - 1] if i > 0 else None
-        older = same[i + 1] if i + 1 < len(same) else None
+    for i, a in enumerate(arts):
+        newer = arts[i - 1] if i > 0 else None
+        older = arts[i + 1] if i + 1 < len(arts) else None
         write("articles/{}/index.html".format(a["slug"]), article_page(a, newer, older))
     print("Built {} article(s) into {}".format(len(arts), out_dir))
 

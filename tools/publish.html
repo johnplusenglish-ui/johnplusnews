@@ -29,7 +29,7 @@ header .live { margin-left:auto; font-size:.9375rem; text-decoration:none; font-
 .hint { font-size:.8125rem; color:var(--muted); margin-top:5px; }
 input[type=text], input[type=url], input[type=date], textarea { width:100%; font:inherit; color:var(--ink); background:#fff; border:1px solid #cfd4dc; border-radius:8px; padding:10px 12px; }
 textarea { resize:vertical; line-height:1.55; }
-#body { min-height:340px; }
+.vbox textarea { min-height:300px; }
 input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); outline-offset:1px; border-color:var(--accent); }
 .row2 { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
 .row2 > * { min-width:0; }
@@ -39,6 +39,9 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
 .seg span { display:block; padding:9px 16px; border:1px solid #cfd4dc; border-radius:999px; font-weight:500; background:#fff; color:var(--text); cursor:pointer; }
 .seg input:checked + span { background:var(--accent); border-color:var(--accent); color:#fff; }
 .seg input:focus-visible + span { outline:2px solid var(--accent); outline-offset:2px; }
+.vbox { margin-top:16px; }
+.vbox[hidden] { display:none; }
+.vbox > label { display:block; font-weight:600; font-size:.9375rem; color:var(--ink); margin-bottom:6px; }
 .field > label.drop { font-weight:400; color:var(--muted); margin:0; }
 .drop { display:block; border:1.5px dashed #b9c0cb; border-radius:10px; padding:18px; text-align:center; color:var(--muted); cursor:pointer; background:#fbfcfd; }
 .drop.over { border-color:var(--accent); background:var(--accent-soft); }
@@ -81,8 +84,6 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
 
   <div class="field"><label for="title">Title</label><input type="text" id="title" autocomplete="off"></div>
 
-  <div class="field"><span class="lab" id="levelLab">Level</span><div class="segs" id="levels" role="radiogroup" aria-labelledby="levelLab"></div></div>
-
   <div class="field"><label for="date">Date</label><input type="date" id="date" style="max-width:220px"></div>
 
   <div class="field"><label for="summary">Summary</label><textarea id="summary" rows="2" maxlength="300"></textarea>
@@ -96,8 +97,11 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
     <div style="margin-top:12px"><label for="alt" style="font-weight:500;font-size:.875rem">Describe the picture (optional, for screen readers)</label><input type="text" id="alt" autocomplete="off"></div>
   </div>
 
-  <div class="field"><label for="body">Article text</label><textarea id="body" spellcheck="true"></textarea>
-    <div class="hint">A blank line starts a new paragraph. Use ## for a heading, ### for a smaller heading, **bold**, a dash and a space for list items, and > for a quote. <span id="wc"></span></div></div>
+  <div class="field"><span class="lab" id="levelLab">Levels and article text</span>
+    <div class="segs" id="levels" role="group" aria-labelledby="levelLab"></div>
+    <div class="hint">Tick each level you are adding a version for, then paste that version's text below. If you tick more than one, readers get a tab for each level on the article page. A blank line starts a new paragraph. Use ## for a heading, **bold**, a dash and a space for list items, and > for a quote.</div>
+    <div id="versions"></div>
+  </div>
 
   <div class="row2">
     <div class="field"><label for="sname">Source name (optional)</label><input type="text" id="sname" autocomplete="off"></div>
@@ -162,30 +166,43 @@ function link(text, href) {
 }
 function setBusy(b) { busy = b; $("previewBtn").disabled = b; $("publishBtn").disabled = b; }
 
-/* -------------------------------------------------------------------------- form */
+/* ------------------------------------------------------------------ level versions */
 function renderLevels() {
-  $("levels").innerHTML = "";
+  $("levels").textContent = ""; $("versions").textContent = "";
   LEVELS.forEach(l => {
     const lab = document.createElement("label"); lab.className = "seg";
-    const i = document.createElement("input"); i.type = "radio"; i.name = "level"; i.value = l;
+    const i = document.createElement("input"); i.type = "checkbox"; i.name = "level"; i.value = l;
     const s = document.createElement("span"); s.textContent = l;
     lab.append(i, s); $("levels").appendChild(lab);
-    i.addEventListener("change", saveDraft);
+
+    const box = document.createElement("div"); box.className = "vbox"; box.id = "box-" + l; box.hidden = true;
+    const bl = document.createElement("label"); bl.htmlFor = "ta-" + l; bl.textContent = l + " text";
+    const ta = document.createElement("textarea"); ta.id = "ta-" + l; ta.spellcheck = true;
+    const h = document.createElement("div"); h.className = "hint"; h.id = "wc-" + l;
+    box.append(bl, ta, h); $("versions").appendChild(box);
+
+    i.addEventListener("change", () => { box.hidden = !i.checked; if (i.checked) ta.focus(); saveDraft(); });
+    ta.addEventListener("input", () => { counts(); saveDraft(); });
   });
 }
-function level() { const c = document.querySelector("input[name=level]:checked"); return c ? c.value : ""; }
+function checked(l) { return document.querySelector("input[name=level][value=" + l + "]").checked; }
+function setChecked(l, on) { document.querySelector("input[name=level][value=" + l + "]").checked = on; $("box-" + l).hidden = !on; }
+function texts() { const t = {}; LEVELS.forEach(l => { if (checked(l)) t[l] = $("ta-" + l).value; }); return t; }
 function today() { try { return new Date().toLocaleDateString("en-CA"); } catch (e) { return ""; } }
 
 function counts() {
-  const words = ($("body").value.trim().match(/\S+/g) || []).length;
-  $("wc").textContent = words ? words + " words, about " + Math.max(1, Math.round(words / 200)) + " min read." : "";
+  LEVELS.forEach(l => {
+    const words = ($("ta-" + l).value.trim().match(/\S+/g) || []).length;
+    $("wc-" + l).textContent = words ? words + " words, about " + Math.max(1, Math.round(words / 200)) + " min read." : "";
+  });
   $("sumCount").textContent = $("summary").value.length ? $("summary").value.length + " of 300 characters." : "";
 }
 
+/* -------------------------------------------------------------------------- form */
 function resetForm() {
   editing = null; pic = null; existingImage = ""; removePic = false;
-  ["title", "summary", "body", "alt", "sname", "surl"].forEach(id => $(id).value = "");
-  document.querySelectorAll("input[name=level]").forEach(i => i.checked = false);
+  ["title", "summary", "alt", "sname", "surl"].forEach(id => $(id).value = "");
+  LEVELS.forEach(l => { $("ta-" + l).value = ""; setChecked(l, false); });
   $("date").value = today();
   $("file").value = "";
   $("formTitle").textContent = "New article";
@@ -224,8 +241,8 @@ function takeFile(f) {
 
 function collect() {
   return {
-    slug: editing, title: $("title").value, level: level(), date: $("date").value, summary: $("summary").value,
-    body: $("body").value, source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
+    slug: editing, title: $("title").value, date: $("date").value, summary: $("summary").value,
+    versions: texts(), source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
     image: pic ? { name: pic.name, data: pic.data } : null, remove_image: removePic && !pic,
   };
 }
@@ -233,8 +250,9 @@ function collect() {
 function problem() {
   const p = collect();
   if (!p.title.trim()) return "Add a title.";
-  if (!p.level) return "Choose a level.";
-  if (!p.body.trim()) return "Paste the article text.";
+  const ls = Object.keys(p.versions);
+  if (!ls.length) return "Tick at least one level and paste the article text.";
+  for (const l of ls) if (!p.versions[l].trim()) return "Paste the " + l + " text, or untick that level.";
   return "";
 }
 
@@ -242,21 +260,23 @@ function problem() {
 function saveDraft() {
   if (editing) return;
   try {
-    localStorage.setItem("jpn_draft", JSON.stringify({ title: $("title").value, level: level(), date: $("date").value, summary: $("summary").value, body: $("body").value, sname: $("sname").value, surl: $("surl").value, alt: $("alt").value }));
+    localStorage.setItem("jpn_draft2", JSON.stringify({ title: $("title").value, date: $("date").value, summary: $("summary").value, texts: texts(), sname: $("sname").value, surl: $("surl").value, alt: $("alt").value }));
   } catch (e) {}
 }
 function loadDraft() {
   try {
-    const d = JSON.parse(localStorage.getItem("jpn_draft") || "null");
-    if (!d || !(d.title || d.body)) return false;
-    $("title").value = d.title || ""; $("summary").value = d.summary || ""; $("body").value = d.body || "";
+    const d = JSON.parse(localStorage.getItem("jpn_draft2") || "null");
+    if (!d) return false;
+    const t = d.texts || {};
+    if (!d.title && !Object.values(t).some(x => x)) return false;
+    $("title").value = d.title || ""; $("summary").value = d.summary || "";
     $("sname").value = d.sname || ""; $("surl").value = d.surl || ""; $("alt").value = d.alt || "";
     if (d.date) $("date").value = d.date;
-    document.querySelectorAll("input[name=level]").forEach(i => i.checked = i.value === d.level);
+    LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(t, l); setChecked(l, on); $("ta-" + l).value = on ? t[l] : ""; });
     return true;
   } catch (e) { return false; }
 }
-function clearDraft() { try { localStorage.removeItem("jpn_draft"); } catch (e) {} }
+function clearDraft() { try { localStorage.removeItem("jpn_draft2"); } catch (e) {} }
 
 /* ------------------------------------------------------------------------- list */
 let articles = [];
@@ -266,7 +286,7 @@ function renderList() {
   articles.forEach(a => {
     const li = document.createElement("li"); li.className = "item" + (a.slug === editing ? " cur" : "");
     const t = document.createElement("div"); t.className = "t"; t.textContent = a.title;
-    const m = document.createElement("div"); m.className = "m"; m.textContent = [a.level, a.date].filter(Boolean).join(" · ");
+    const m = document.createElement("div"); m.className = "m"; m.textContent = [(a.levels || []).join(", "), a.date].filter(Boolean).join(" · ");
     const acts = document.createElement("div"); acts.className = "acts";
     const e = document.createElement("button"); e.type = "button"; e.className = "linkbtn"; e.textContent = "Edit"; e.onclick = () => openArticle(a.slug);
     const r = document.createElement("button"); r.type = "button"; r.className = "linkbtn danger"; r.textContent = "Remove from site"; r.onclick = () => removeArticle(a);
@@ -280,9 +300,9 @@ async function openArticle(slug, force) {
   try {
     const a = await api("/api/article?slug=" + encodeURIComponent(slug));
     editing = a.slug; pic = null; removePic = false; existingImage = a.image || "";
-    $("title").value = a.title; $("summary").value = a.summary; $("body").value = a.body; $("date").value = a.date;
+    $("title").value = a.title; $("summary").value = a.summary; $("date").value = a.date;
     $("sname").value = a.source_name; $("surl").value = a.source_url; $("alt").value = a.image_alt;
-    document.querySelectorAll("input[name=level]").forEach(i => i.checked = i.value === a.level);
+    LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(a.versions, l); setChecked(l, on); $("ta-" + l).value = on ? a.versions[l] : ""; });
     $("file").value = "";
     $("formTitle").textContent = "Edit article";
     $("editing").hidden = false;
@@ -323,7 +343,7 @@ async function preview() {
 async function publish() {
   waitId++;
   const p = problem(); if (p) { setStatus("err", p); return; }
-  if (!pic && (!existingImage || removePic) && !confirm("There is no picture, so the gallery card will show the level on a coloured block. Publish anyway?")) return;
+  if (!pic && (!existingImage || removePic) && !confirm("There is no picture, so the gallery card will show the levels on a coloured block. Publish anyway?")) return;
   setBusy(true); setStatus("info", "Resizing the picture, building the site and sending it to GitHub...");
   try {
     const r = await api("/api/publish", collect());
@@ -367,7 +387,7 @@ counts(); showPicture();
 if (restored) setStatus("info", "Your unsent draft was restored. The picture is not kept in a draft, so choose it again.");
 refreshList();
 
-["title", "summary", "body", "sname", "surl", "alt", "date"].forEach(id => $(id).addEventListener("input", () => { counts(); saveDraft(); }));
+["title", "summary", "sname", "surl", "alt", "date"].forEach(id => $(id).addEventListener("input", () => { counts(); saveDraft(); }));
 $("file").addEventListener("change", e => takeFile(e.target.files[0]));
 $("removePic").addEventListener("click", () => { pic = null; removePic = true; $("file").value = ""; showPicture(); });
 $("previewBtn").addEventListener("click", preview);

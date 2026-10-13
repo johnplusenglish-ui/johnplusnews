@@ -70,16 +70,12 @@ main { flex: 1; width: 100%; }
 h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.02em; }
 
 /* gallery */
-.intro { font-size: clamp(1.5rem, 4.4vw, 2.125rem); line-height: 1.2; margin: 48px 0 24px; max-width: 18em; }
-.levels { display: flex; flex-wrap: wrap; gap: 0 26px; margin: 0 0 32px; border-bottom: 1px solid var(--line); }
-.levels a { color: var(--muted); text-decoration: none; font-weight: 500; padding: 10px 0; border-bottom: 2px solid transparent; margin-bottom: -1px; }
-.levels a:hover { color: var(--ink); }
-.levels a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
+.intro { font-size: clamp(1.5rem, 4.4vw, 2.125rem); line-height: 1.2; margin: 48px 0 32px; max-width: 18em; }
 .gallery { list-style: none; margin: 0 0 72px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 40px 28px; }
 .card { position: relative; min-width: 0; }
 .thumb { aspect-ratio: 3 / 2; border-radius: 10px; overflow: hidden; background: var(--accent-soft); margin-bottom: 14px; }
 .thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.thumb .blank { display: flex; width: 100%; height: 100%; align-items: center; justify-content: center; font-size: 1.75rem; font-weight: 700; color: var(--accent); }
+.thumb .blank { display: flex; width: 100%; height: 100%; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; color: var(--accent); text-align: center; padding: 12px; }
 .card h2 { font-size: 1.3125rem; line-height: 1.25; margin: 4px 0 6px; }
 .card h2 a { color: var(--ink); text-decoration: none; }
 .card h2 a::after { content: ''; position: absolute; inset: 0; }
@@ -98,12 +94,45 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.02em; }
 .social a { display: flex; align-items: center; justify-content: space-between; padding: 20px 22px; border: 1px solid var(--line); border-radius: 10px; color: var(--ink); text-decoration: none; font-size: 1.1875rem; font-weight: 600; }
 .social a:hover { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
 
+/* reading font and level tabs inside an article */
+[data-font="georgia"] .prose { font-family: Georgia, 'Times New Roman', serif; }
+[data-font="verdana"] .prose { font-family: Verdana, Geneva, sans-serif; --fs: 0.9; line-height: 1.8; }
+[data-font="atkinson"] .prose { font-family: 'Atkinson Hyperlegible', 'Outfit', system-ui, sans-serif; }
+[data-font="lexend"] .prose { font-family: 'Lexend', 'Outfit', system-ui, sans-serif; --fs: 0.95; line-height: 1.8; }
+.readbar { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 14px 20px; margin: 4px 0 10px; }
+.levelpick { flex: 1 1 280px; min-width: 0; }
+.fontpick { flex: 0 0 auto; margin-left: auto; }
+.fdrop { position: relative; }
+.fbtn { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-width: 210px; min-height: 52px; font: inherit; font-weight: 500; color: var(--ink); background: #fff; border: 1px solid #cfd4dc; border-radius: 10px; padding: 8px 12px 8px 14px; cursor: pointer; }
+.fbtn:hover { border-color: var(--accent); }
+.fbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.fmenu { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; min-width: 260px; margin: 0; padding: 6px; list-style: none; background: #fff; border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 12px 32px rgba(17, 19, 24, 0.16); }
+.fmenu[hidden] { display: none; }
+.fmenu li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 14px; border-radius: 10px; font-size: 1.0625rem; line-height: 1.3; color: var(--ink); cursor: pointer; }
+.fmenu li:hover, .fmenu li:focus-visible { background: #f3f5f8; outline: none; }
+.fmenu li[aria-selected="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 700; }
+.fmenu .chk { visibility: hidden; flex: none; }
+.fmenu li[aria-selected="true"] .chk { visibility: visible; }
+.fo-georgia { font-family: Georgia, 'Times New Roman', serif; }
+.fo-verdana { font-family: Verdana, Geneva, sans-serif; }
+.fo-atkinson { font-family: 'Atkinson Hyperlegible', 'Outfit', system-ui, sans-serif; }
+.fo-lexend { font-family: 'Lexend', 'Outfit', system-ui, sans-serif; }
+.vlabel { font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+.vtabs { display: flex; gap: 4px; padding: 4px; background: #f0f2f6; border-radius: 12px; }
+.vtabs button { flex: 1; font: inherit; font-weight: 600; font-size: 1rem; color: var(--muted); background: none; border: 0; border-radius: 9px; padding: 11px 16px; min-height: 44px; cursor: pointer; }
+.vtabs button:hover { color: var(--ink); }
+.vtabs button[aria-selected="true"] { background: #fff; color: var(--ink); box-shadow: 0 1px 3px rgba(17, 19, 24, 0.14); }
+.vtabs button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.panel .meta { margin: 18px 0 0; }
+.panel .prose { padding-top: 10px; }
+.lvl-head { display: none; font-size: 1.5rem; margin: 1.6em 0 0; }
+
 /* article */
 .article-head { padding: 52px 0 28px; }
 .article-head h1 { font-size: clamp(2rem, 6.4vw, 2.875rem); line-height: 1.08; letter-spacing: -0.03em; margin: 12px 0 16px; }
 .hero-img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; background: var(--line); }
 .dek { font-size: 1.3rem; line-height: 1.45; color: var(--muted); margin: 0 0 26px; }
-.prose { font-size: 1.1875rem; line-height: 1.75; padding-bottom: 28px; }
+.prose { font-size: calc(1.1875rem * var(--fs, 1)); line-height: 1.75; padding-bottom: 28px; }
 .prose p { margin: 0 0 1.25em; }
 .prose h2 { font-size: 1.5rem; line-height: 1.25; margin: 2em 0 0.6em; }
 .prose h3 { font-size: 1.25rem; line-height: 1.3; margin: 1.7em 0 0.5em; }
@@ -137,11 +166,13 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.02em; }
   body { font-size: 1rem; }
   .site-nav { gap: 18px; }
   .intro { margin: 32px 0 20px; }
-  .levels { gap: 0 18px; }
   .gallery { gap: 32px; margin-bottom: 56px; }
   .article-head { padding: 36px 0 22px; }
+  .fontpick { flex: 1 1 100%; }
+  .fbtn { width: 100%; }
+  .fmenu { left: 0; right: 0; min-width: 0; }
   .page-title { margin-top: 36px; }
-  .prose { font-size: 1.125rem; }
+  .prose { font-size: calc(1.125rem * var(--fs, 1)); }
 }
 </style>
 </head>
@@ -154,7 +185,7 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.02em; }
   </div>
 </header>
 <main id="main">
-<div class="wrap"><h1 class="intro">A new article every week for English learners.</h1><nav class="levels" aria-label="Level"><a href="/" aria-current="page">All</a><a href="/intermediate/">Intermediate</a><a href="/advanced/">Advanced</a><a href="/proficient/">Proficient</a></nav><ul class="gallery"><li class="card"><div class="thumb"><img src="/images/thumbs/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-f6cd98.jpg" alt="" loading="lazy" decoding="async"></div><p class="meta"><span class="lvl">Advanced</span><span>13 Oct 2026</span><span>2 min read</span></p><h2><a href="/articles/the-dying-italian-village-hoping-art-can-give-it-a-new-lease/">The dying Italian village hoping art can give it a new lease of life</a></h2><p class="sub">An ancient hilltop village threatened by erosion has been named Italy&#x27;s 2028 capital of contemporary art. But can creativity secure its future?</p></li></ul></div>
+<div class="wrap"><h1 class="intro">A new article every week for English learners.</h1><ul class="gallery"><li class="card"><div class="thumb"><img src="/images/thumbs/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-f6cd98.jpg" alt="" loading="lazy" decoding="async"></div><p class="meta"><span class="lvl">Advanced</span><span>13 Oct 2026</span></p><h2><a href="/articles/the-dying-italian-village-hoping-art-can-give-it-a-new-lease/">The dying Italian village hoping art can give it a new lease of life</a></h2><p class="sub">An ancient hilltop village threatened by erosion has been named Italy&#x27;s 2028 capital of contemporary art. But can creativity secure its future?</p></li></ul></div>
 </main>
 <footer class="site-footer">
   <div class="wrap">johnplusnews. A new article every week for English learners.</div>
