@@ -386,7 +386,7 @@ def gallery_page(arts):
         body = '<ul class="gallery">{}</ul>'.format("".join(card(a) for a in arts))
     else:
         body = '<p class="empty">The first article is coming soon.</p>'
-    main = '<div class="wrap"><h1 class="intro">{}</h1>{}</div>'.format(esc(SITE["tagline"]), body)
+    main = '<section class="banner"><div class="wrap"><h1 class="intro">{}</h1></div></section>\n<div class="wrap">{}</div>'.format(esc(SITE["tagline"]), body)
     return page("/", main, current="/", desc=SITE["tagline"], image=(arts[0]["image"] if arts else "") or None, wide=True)
 
 

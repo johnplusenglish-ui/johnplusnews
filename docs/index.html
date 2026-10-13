@@ -72,8 +72,10 @@ main { flex: 1; width: 100%; }
 h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-spacing: 0.08em; }
 
 /* gallery */
-.intro { font-size: clamp(1.5rem, 4.4vw, 2.125rem); line-height: 1.2; margin: 48px 0 32px; max-width: 18em; }
-.gallery { list-style: none; margin: 0 0 72px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr)); gap: 40px 28px; }
+/* the line under the menu is a banner, a quiet band that sets the site apart from the articles below it */
+.banner { background: #f4f6fa; border-bottom: 1px solid var(--line); }
+.intro { margin: 0; padding: 22px 0; font-size: clamp(1rem, 3.8vw, 1.25rem); font-weight: 500; line-height: 1.4; letter-spacing: 0; word-spacing: normal; color: var(--text); }
+.gallery { list-style: none; margin: 40px 0 72px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr)); gap: 40px 28px; }
 .card { position: relative; min-width: 0; }
 .thumb { aspect-ratio: 3 / 2; border-radius: 10px; overflow: hidden; background: var(--accent-soft); margin-bottom: 14px; }
 .thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
@@ -218,8 +220,8 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 @media (max-width: 560px) {
   body { font-size: 1rem; }
   .site-nav { gap: 18px; }
-  .intro { margin: 32px 0 20px; }
-  .gallery { gap: 32px; margin-bottom: 56px; }
+  .intro { padding: 18px 0; }
+  .gallery { gap: 32px; margin: 28px 0 56px; }
   .article-head { padding: 36px 0 22px; }
   .page-title { margin-top: 36px; }
   .prose { font-size: calc(1.125rem * var(--fs, 1)); }
@@ -313,7 +315,8 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
   </div>
 </header>
 <main id="main">
-<div class="wrap"><h1 class="intro">News articles from around the world for English learners.</h1><ul class="gallery"><li class="card"><div class="thumb"><img src="/images/thumbs/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-f6cd98.jpg" alt="A medieval stone village on a crumbling hilltop in central Italy, reached by a long footbridge, with green valleys and mountains behind it." loading="lazy" decoding="async"></div><p class="meta"><span class="lvl">Intermediate, Advanced</span><span>13 Oct 2026</span></p><h2><a href="/articles/the-dying-italian-village-hoping-art-can-give-it-a-new-lease/">The dying Italian village hoping art can save its future</a></h2><p class="sub">An ancient Italian village is slowly disappearing because of erosion. Now, a major art project could give it a new lease of life.</p></li><li class="card"><div class="thumb"><img src="/images/thumbs/can-the-government-help-you-find-love-singapore-thinks-so-cdc74f.jpg" alt="Two people lean on a railing beside Marina Bay in Singapore at night, looking at the glowing, neon-lit skyscrapers of the city centre." loading="lazy" decoding="async"></div><p class="meta"><span class="lvl">Intermediate, Advanced</span><span>13 Oct 2026</span></p><h2><a href="/articles/can-the-government-help-you-find-love-singapore-thinks-so/">Can the Government Help You Find Love? Singapore Thinks So</a></h2><p class="sub">Finding the right partner isn&#x27;t always easy. Now, Singapore has launched its own dating platform to help young people find love. But can a government really make romance happen?</p></li><li class="card"><div class="thumb"><img src="/images/thumbs/a-home-for-life-the-housing-crisis-shaking-spain-1b57b3.jpg" alt="An orange funeral wreath and a Sindicato de Inquilinas T-shirt tied to a tree, at the memorial for Maricarmen Abascal outside the doorway of number 46 on her street in Madrid." loading="lazy" decoding="async"></div><p class="meta"><span class="lvl">Intermediate, Advanced</span><span>13 Oct 2026</span></p><h2><a href="/articles/a-home-for-life-the-housing-crisis-shaking-spain/">A home for life? The housing crisis shaking Spain</a></h2><p class="sub">The eviction and death of an 87-year-old woman in Madrid have sparked protests across Spain, raising serious questions about the country&#x27;s growing housing crisis.</p></li></ul></div>
+<section class="banner"><div class="wrap"><h1 class="intro">News articles from around the world for English learners.</h1></div></section>
+<div class="wrap"><ul class="gallery"><li class="card"><div class="thumb"><img src="/images/thumbs/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-f6cd98.jpg" alt="A medieval stone village on a crumbling hilltop in central Italy, reached by a long footbridge, with green valleys and mountains behind it." loading="lazy" decoding="async"></div><p class="meta"><span class="lvl">Intermediate, Advanced</span><span>13 Oct 2026</span></p><h2><a href="/articles/the-dying-italian-village-hoping-art-can-give-it-a-new-lease/">The dying Italian village hoping art can save its future</a></h2><p class="sub">An ancient Italian village is slowly disappearing because of erosion. Now, a major art project could give it a new lease of life.</p></li><li class="card"><div class="thumb"><img src="/images/thumbs/can-the-government-help-you-find-love-singapore-thinks-so-cdc74f.jpg" alt="Two people lean on a railing beside Marina Bay in Singapore at night, looking at the glowing, neon-lit skyscrapers of the city centre." loading="lazy" decoding="async"></div><p class="meta"><span class="lvl">Intermediate, Advanced</span><span>13 Oct 2026</span></p><h2><a href="/articles/can-the-government-help-you-find-love-singapore-thinks-so/">Can the Government Help You Find Love? Singapore Thinks So</a></h2><p class="sub">Finding the right partner isn&#x27;t always easy. Now, Singapore has launched its own dating platform to help young people find love. But can a government really make romance happen?</p></li><li class="card"><div class="thumb"><img src="/images/thumbs/a-home-for-life-the-housing-crisis-shaking-spain-1b57b3.jpg" alt="An orange funeral wreath and a Sindicato de Inquilinas T-shirt tied to a tree, at the memorial for Maricarmen Abascal outside the doorway of number 46 on her street in Madrid." loading="lazy" decoding="async"></div><p class="meta"><span class="lvl">Intermediate, Advanced</span><span>13 Oct 2026</span></p><h2><a href="/articles/a-home-for-life-the-housing-crisis-shaking-spain/">A home for life? The housing crisis shaking Spain</a></h2><p class="sub">The eviction and death of an 87-year-old woman in Madrid have sparked protests across Spain, raising serious questions about the country&#x27;s growing housing crisis.</p></li></ul></div>
 </main>
 <footer class="site-footer">
   <div class="wrap">johnplusnews. News articles from around the world for English learners.</div>
