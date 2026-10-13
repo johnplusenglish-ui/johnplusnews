@@ -8,7 +8,7 @@ Double-click `Publish an article.command`. A Terminal window opens and the publi
 
 1. Fill in the title and check the date.
 2. Choose a picture (click the box, drag a picture onto it, or paste one). It is shrunk automatically and a small copy is made for the gallery cards.
-3. Tick each level you are adding (Intermediate, Advanced). A text box appears for each ticked level, so paste that level's text into it. Tick one level for a single version, or both to give the article tabs. Add a summary line, and a source name and link if you want them.
+3. Tick each level you are adding (Intermediate, Advanced). A box appears for each ticked level, so paste that level's text into it. If a level has its own headline or subheading, put them in that box's optional fields, otherwise leave them empty. Tick one level for a single version, or both to give the article tabs. Add a summary line, and a source name and link if you want them.
 4. Press **Preview** to see it exactly as it will look, without publishing anything.
 5. Press **Publish**. The site is rebuilt and sent to GitHub, and the page tells you when the article is live on johnplusnews.com, usually within one to two minutes.
 
@@ -62,7 +62,18 @@ The simpler text goes here.
 The more demanding text goes here.
 ```
 
-The title, summary, picture and source are shared by all the versions. A level can appear only once, and a level name that is not one of the two stops the build with a clear message. The gallery cards list the levels each article has.
+The title, summary, picture and source are shared by all the versions unless a version has its own headline and subheading. To give a version its own, put `title:` and/or `summary:` lines straight after its marker, then a blank line, then the text:
+
+```
+=== Advanced ===
+
+title: A different headline for this level
+summary: A different subheading for this level
+
+The text starts here.
+```
+
+When a reader switches tab, the headline, the subheading and the browser tab title change with it. The gallery card and the link preview always use the main title and summary from the top of the file, which should be the first level's. In the publisher, each level's box has optional "Headline" and "Subheading" fields for this; leave them empty to use the title and summary at the top of the form. A level can appear only once, and a level name that is not one of the two stops the build with a clear message. The gallery cards list the levels each article has.
 
 ## Reading font
 

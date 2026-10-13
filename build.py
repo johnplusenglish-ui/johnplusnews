@@ -114,9 +114,29 @@ def split_article(raw):
 VERSION_MARK = re.compile(r"^===[ \t]*([A-Za-z]+)[ \t]*===[ \t]*$", re.M)
 
 
-def split_versions(meta, body):
-    """Return [(level, text)] in LEVELS order. An article is either one text with a 'level:' header,
-    or several texts, each starting with a line like === Advanced ===. Raises ValueError."""
+HEAD_LINE = re.compile(r"^(title|summary):[ \t]*(.*)$", re.I)
+
+
+def take_head(text):
+    """A version may start with its own 'title:' and/or 'summary:' lines, then a blank line.
+    Returns ({'title','summary'}, rest-of-text)."""
+    own = {"title": "", "summary": ""}
+    lines = text.split("\n")
+    i = 0
+    while i < len(lines) and HEAD_LINE.match(lines[i]):
+        m = HEAD_LINE.match(lines[i])
+        own[m.group(1).lower()] = m.group(2).strip()
+        i += 1
+    if i == 0 or (i < len(lines) and lines[i].strip()):
+        return {"title": "", "summary": ""}, text
+    return own, "\n".join(lines[i:]).strip()
+
+
+def parse_versions(meta, body):
+    """Return [{'level','text','title','summary'}] in LEVELS order. An article is either one text with a
+    'level:' header, or several texts, each starting with a line like === Advanced ===. A version may
+    also carry its own headline and subheading (title:/summary: lines right after its marker).
+    Raises ValueError."""
     levels = {l.lower(): l for l in LEVELS}
     marks = list(VERSION_MARK.finditer(body))
     if not marks:
@@ -125,7 +145,7 @@ def split_versions(meta, body):
             raise ValueError("add a 'level:' header, or start each version with a line like === Advanced ===")
         if not body.strip():
             raise ValueError("the article text is empty")
-        return [(level, body.strip())]
+        return [{"level": level, "text": body.strip(), "title": "", "summary": ""}]
     if body[:marks[0].start()].strip():
         raise ValueError("there is text before the first === level === line")
     out = []
@@ -134,14 +154,19 @@ def split_versions(meta, body):
         if not level:
             raise ValueError("unknown level '{}' (use {})".format(m.group(1), ", ".join(LEVELS)))
         end = marks[i + 1].start() if i + 1 < len(marks) else len(body)
-        text = body[m.end():end].strip()
+        own, text = take_head(body[m.end():end].strip())
         if not text:
             raise ValueError("the {} version is empty".format(level))
-        out.append((level, text))
-    names = [lv for lv, _ in out]
+        out.append({"level": level, "text": text, "title": own["title"], "summary": own["summary"]})
+    names = [v["level"] for v in out]
     if len(set(names)) != len(names):
         raise ValueError("the same level appears twice")
-    return sorted(out, key=lambda x: LEVELS.index(x[0]))
+    return sorted(out, key=lambda v: LEVELS.index(v["level"]))
+
+
+def split_versions(meta, body):
+    """Return [(level, text)] in LEVELS order (the simple form of parse_versions)."""
+    return [(v["level"], v["text"]) for v in parse_versions(meta, body)]
 
 
 def parse_article(path):
@@ -157,7 +182,7 @@ def parse_article(path):
     except ValueError:
         fail(path, "date must look like 2026-10-13")
     try:
-        versions = split_versions(meta, body)
+        versions = parse_versions(meta, body)
     except ValueError as e:
         fail(path, str(e))
     if meta.get("draft", "").lower() in ("yes", "true", "1"):
@@ -166,7 +191,7 @@ def parse_article(path):
 
     summary = meta.get("summary", "")
     if not summary:
-        first_para = plain(re.split(r"\n\s*\n", versions[0][1])[0]).replace("\n", " ").strip()
+        first_para = plain(re.split(r"\n\s*\n", versions[0]["text"])[0]).replace("\n", " ").strip()
         summary = first_para if len(first_para) <= 170 else first_para[:167].rsplit(" ", 1)[0] + "..."
 
     source_name = source_url = ""
@@ -184,14 +209,15 @@ def parse_article(path):
         "title": meta["title"],
         "date": date,
         "summary": summary,
-        "levels": [lv for lv, _ in versions],
+        "levels": [v["level"] for v in versions],
         "image": meta.get("image", ""),
         "image_alt": meta.get("image-alt", ""),
         "source_name": source_name,
         "source_url": source_url,
         "versions": [
-            {"level": lv, "html": body_html(text)}
-            for lv, text in versions
+            {"level": v["level"], "html": body_html(v["text"]),
+             "title": v["title"] or meta["title"], "summary": v["summary"] or summary}
+            for v in versions
         ],
     }
 
@@ -293,8 +319,8 @@ def level_tabs(a):
     if len(v) < 2:
         return ""
     tabs = "".join(
-        '<button type="button" role="tab" id="tab-{k}" aria-controls="v-{k}" aria-selected="{sel}" tabindex="{ti}" data-level="{k}">{label}</button>'
-        .format(k=x["level"].lower(), sel="true" if i == 0 else "false", ti=0 if i == 0 else -1, label=esc(x["level"]))
+        '<button type="button" role="tab" id="tab-{k}" aria-controls="v-{k}" aria-selected="{sel}" tabindex="{ti}" data-level="{k}" data-title="{t}" data-sub="{u}">{label}</button>'
+        .format(k=x["level"].lower(), sel="true" if i == 0 else "false", ti=0 if i == 0 else -1, t=esc(x["title"]), u=esc(x["summary"]), label=esc(x["level"]))
         for i, x in enumerate(v))
     return '<div class="vtabs" role="tablist" aria-label="Reading level" data-tabs>{}</div>'.format(tabs)
 
@@ -333,7 +359,9 @@ TABS_JS = (
     'var t=[].slice.call(r.querySelectorAll("[role=tab]"));'
     'function show(k,save){var ok=t.some(function(x){return x.getAttribute("data-level")===k});if(!ok)return false;'
     't.forEach(function(x){var l=x.getAttribute("data-level"),on=l===k;x.setAttribute("aria-selected",on);'
-    'x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on});'
+    'x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;'
+    'if(on){var tt=x.getAttribute("data-title"),ss=x.getAttribute("data-sub"),h=document.querySelector(".article-head h1"),d=document.querySelector(".dek");'
+    'if(h&&tt)h.textContent=tt;if(d&&ss)d.textContent=ss;if(tt)document.title=tt+" | "+document.title.split(" | ").pop()}});'
     'if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}}return true}'
     'var s="";try{s=localStorage.getItem("jpn_level")||""}catch(e){}'
     'if(!show(location.hash.slice(1).toLowerCase(),false))show(s,false);'
@@ -431,10 +459,10 @@ def article_page(a, newer, older):
 {versions}
 {source}
 {pager}
-</article>""".format(tabs=level_tabs(a), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=font_picker(), fontjs=FONT_JS, title=esc(a["title"]), summary=esc(a["summary"]), img=img,
+</article>""".format(tabs=level_tabs(a), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=font_picker(), fontjs=FONT_JS, title=esc(a["versions"][0]["title"]), summary=esc(a["versions"][0]["summary"]), img=img,
                      versions=versions_html(a), source=source, pager=pager)
     no_js = ".fontpick{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
-    return page(url_of(a), main, title=a["title"], desc=a["summary"], image=a["image"] or None, kind="article",
+    return page(url_of(a), main, title=a["versions"][0]["title"], desc=a["versions"][0]["summary"], image=a["image"] or None, kind="article",
                 head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n")
 
 

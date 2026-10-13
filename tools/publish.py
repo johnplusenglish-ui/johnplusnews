@@ -113,11 +113,13 @@ def get_article(slug):
         if s == slug:
             name, url = split_source(meta.get("source", ""))
             try:
-                versions = dict(build.split_versions(meta, body))
+                parsed = build.parse_versions(meta, body)
             except ValueError as e:
                 raise UserError("That article could not be opened: " + str(e))
+            versions = {v["level"]: v["text"] for v in parsed}
+            overrides = {v["level"]: {"title": v["title"], "summary": v["summary"]} for v in parsed}
             return {"slug": slug, "title": meta.get("title", ""), "date": meta.get("date", ""),
-                    "versions": versions, "summary": meta.get("summary", ""),
+                    "versions": versions, "overrides": overrides, "summary": meta.get("summary", ""),
                     "source_name": name, "source_url": url, "image": meta.get("image", ""),
                     "image_alt": meta.get("image-alt", "")}
     raise UserError("That article was not found.")
@@ -183,7 +185,11 @@ def compose(f):
         lines.append("image: " + f["image"])
         if f["image_alt"]:
             lines.append("image-alt: " + f["image_alt"])
-    body = "\n\n".join("=== {} ===\n\n{}".format(level, text) for level, text in f["versions"])
+    blocks = []
+    for v in f["versions"]:
+        head = "".join("{}: {}\n".format(k, v[k]) for k in ("title", "summary") if v[k])
+        blocks.append("=== {} ===\n\n{}{}{}".format(v["level"], head, "\n" if head else "", v["text"]))
+    body = "\n\n".join(blocks)
     return "\n".join(lines) + "\n---\n" + body + "\n"
 
 
@@ -197,6 +203,11 @@ def clean_fields(p):
         raise UserError("Add a title.")
     levels = {l.lower(): l for l in build.LEVELS}
     found = {}
+    own = {}
+    for name, extra in (p.get("overrides") or {}).items():
+        level = levels.get(one_line(name).lower())
+        if level and isinstance(extra, dict):
+            own[level] = {"title": one_line(extra.get("title")), "summary": one_line(extra.get("summary"))}
     for name, text in (p.get("versions") or {}).items():
         level = levels.get(one_line(name).lower())
         if not level:
@@ -208,10 +219,20 @@ def clean_fields(p):
             raise UserError("Paste the {} text, or untick that level.".format(level))
         if build.VERSION_MARK.search(t):
             raise UserError("The {} text contains a line like === Advanced ===. Please remove that line.".format(level))
+        if build.HEAD_LINE.match(t.split("\n")[0]):
+            raise UserError("The first line of the {} text starts with 'title:' or 'summary:', which the site would read as a headline. Please reword it.".format(level))
         found[level] = t
     if not found:
         raise UserError("Tick at least one level and paste the article text.")
-    f["versions"] = [(level, found[level]) for level in build.LEVELS if level in found]
+    f["versions"] = []
+    for level in build.LEVELS:
+        if level in found:
+            mine = own.get(level, {"title": "", "summary": ""})
+            f["versions"].append({
+                "level": level, "text": found[level],
+                "title": "" if mine["title"] == f["title"] else mine["title"],
+                "summary": "" if mine["summary"] == f["summary"] else mine["summary"],
+            })
     try:
         dt.date.fromisoformat(f["date"])
     except ValueError:
