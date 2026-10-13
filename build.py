@@ -11,6 +11,7 @@ import hashlib
 import html
 import re
 import shutil
+import subprocess
 import sys
 import tempfile
 from pathlib import Path
@@ -267,17 +268,31 @@ def parse_article(path):
     }
 
 
+def added_at(path):
+    """When the article file was first saved in git, so that articles with the same date show the newest first.
+    A file git does not know about (a preview, or a new draft) uses its modified time."""
+    try:
+        out = subprocess.run(["git", "log", "--diff-filter=A", "--format=%ct", "--", path.name], cwd=str(path.parent),
+                             capture_output=True, text=True, timeout=20).stdout.split()
+        if out:
+            return max(int(x) for x in out)
+    except (OSError, ValueError, subprocess.SubprocessError):
+        pass
+    return int(path.stat().st_mtime)
+
+
 def load_articles(content_dir=CONTENT):
     arts, seen = [], {}
     for path in sorted(content_dir.glob("*.md")):
         a = parse_article(path)
         if not a:
             continue
+        a["added"] = added_at(path)
         if a["slug"] in seen:
             fail(path, "same slug as " + seen[a["slug"]])
         seen[a["slug"]] = path.name
         arts.append(a)
-    arts.sort(key=lambda a: (a["date"], a["slug"]), reverse=True)
+    arts.sort(key=lambda a: (a["date"], a["added"], a["slug"]), reverse=True)
     return arts
 
 
