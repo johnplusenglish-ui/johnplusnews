@@ -52,7 +52,6 @@ draft: yes                        (optional, keeps the article out of the site)
 - Use a landscape picture at least 1200 pixels wide, with the important part in the middle. Cards crop it to 3:2 and the article page crops it to 16:9.
 - Keep each file under about 200 KB (JPG or WebP) so the gallery loads quickly on phones.
 - An article with no picture still works: its card shows the level name on a coloured block.
-- The three `sample-*.svg` pictures are placeholders. Delete them with the sample articles.
 
 ## Formatting in the article text
 
@@ -81,5 +80,3 @@ The site name, tagline and the two social links on the About page are at the top
 The site is hosted on GitHub Pages from the `docs/` folder of the `main` branch, at johnplusnews.com. After building, commit and push, and the new article is live within a minute or two.
 
 `static/CNAME` holds the domain name and `static/.nojekyll` tells GitHub not to process the files. The build copies both into `docs/`. Do not delete them.
-
-The three articles in `content/` are samples. Delete them once the first real article is in.
