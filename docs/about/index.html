@@ -56,8 +56,9 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
 /* header */
 .site-header { border-bottom: 1px solid var(--line); }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; min-height: 64px; gap: 16px; }
-.brand { font-weight: 700; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
-.brand span { color: var(--accent); }
+.brand { display: inline-flex; align-items: center; gap: 9px; font-weight: 700; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
+.brand svg { flex: none; color: var(--accent); }
+.brand .wm span { color: var(--accent); }
 .site-nav { display: flex; gap: 22px; }
 .site-nav a { color: var(--muted); text-decoration: none; font-weight: 500; font-size: 0.9375rem; padding: 8px 0; border-bottom: 2px solid transparent; }
 .site-nav a:hover { color: var(--ink); }
@@ -314,7 +315,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="/">john<span>plus</span>news</a>
+    <a class="brand" href="/"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path d="M5 20h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.5A1.5 1.5 0 0 1 4.5 21 2.5 2.5 0 0 1 2 18.5V11a2 2 0 0 1 2-2h2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.5h8M10 11.5h8M10 15.5h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="wm">john<span>plus</span>news</span></a>
     <nav class="site-nav" aria-label="Main"><a href="/">Articles</a><a href="/about/" aria-current="page">About</a></nav>
   </div>
 </header>

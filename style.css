@@ -38,8 +38,9 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
 /* header */
 .site-header { border-bottom: 1px solid var(--line); }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; min-height: 64px; gap: 16px; }
-.brand { font-weight: 700; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
-.brand span { color: var(--accent); }
+.brand { display: inline-flex; align-items: center; gap: 9px; font-weight: 700; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
+.brand svg { flex: none; color: var(--accent); }
+.brand .wm span { color: var(--accent); }
 .site-nav { display: flex; gap: 22px; }
 .site-nav a { color: var(--muted); text-decoration: none; font-weight: 500; font-size: 0.9375rem; padding: 8px 0; border-bottom: 2px solid transparent; }
 .site-nav a:hover { color: var(--ink); }
