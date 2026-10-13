@@ -40,7 +40,10 @@ source: Name | https://link       (optional, shown at the bottom)
 image: images/photo.jpg           (the card thumbnail and article picture, a file in static/images/)
 image-alt: What the photo shows   (optional)
 image-credit: Name, Agency        (optional, shown as a small "Photo:" line under the picture)
-image-credit-url: https://link    (optional, makes the credit a link; needs image-credit)
+image-credit-url: https://link    (optional, makes the credit name a link; needs image-credit)
+image-licence: CC BY-SA 4.0       (optional, the picture licence, added to the credit line)
+image-licence-url: https://link   (optional, makes the licence a link; needs image-licence)
+image-credit-note: via Wikimedia Commons, resized   (optional extra words on the credit line)
 draft: yes                        (optional, keeps the article out of the site)
 ---
 ```
@@ -83,7 +86,16 @@ Every article page has a Reading font menu: Default (the site font), Georgia, Ve
 
 ## Pictures
 
-A credit is not a licence. Naming the photographer does not give you the right to publish their picture. Only use pictures you took yourself, pictures with a licence that allows it (for example Creative Commons, with the credit that licence asks for), or pictures you have asked permission to use. The credit line is there for the credit that a licence or permission requires. In the publisher, fill in "Picture credit" and, if you want it, "Credit link". The credit appears on the article page only, not on the gallery card.
+A credit is not a licence. Naming the photographer does not give you the right to publish their picture. Only use pictures you took yourself, pictures with a licence that allows it (for example Creative Commons, with the credit that licence asks for), or pictures you have asked permission to use. The credit line is there for the credit that a licence or permission requires. In the publisher, fill in "Picture credit" and, if you want it, "Credit link", "Licence", "Licence link" and "Extra words for the credit". The credit appears on the article page only, not on the gallery card.
+
+For a Creative Commons picture from Wikimedia Commons, copy the details from the file's page on Commons:
+
+- Picture credit: the author's name, as shown on the file page.
+- Credit link: the address of the file page itself.
+- Licence: for example `CC BY-SA 4.0`, with the licence link from the file page (for example `https://creativecommons.org/licenses/by-sa/4.0/`).
+- Extra words: `via Wikimedia Commons, resized and cropped`. Licences like CC BY ask you to say if you changed the picture, and the site resizes every picture and crops it to fit.
+
+This gives a line like "Photo: Barcex, CC BY-SA 4.0, via Wikimedia Commons, resized and cropped", with the name and the licence as links.
 
 - Put the file in `static/images/` and name it in the header as `image: images/your-file.jpg`.
 - Use a landscape picture at least 1200 pixels wide, with the important part in the middle. Cards crop it to 3:2 and the article page crops it to 16:9.

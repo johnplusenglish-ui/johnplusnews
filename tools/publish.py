@@ -122,7 +122,9 @@ def get_article(slug):
                     "versions": versions, "overrides": overrides, "summary": meta.get("summary", ""),
                     "source_name": name, "source_url": url, "image": meta.get("image", ""),
                     "image_alt": meta.get("image-alt", ""),
-                    "image_credit": meta.get("image-credit", ""), "image_credit_url": meta.get("image-credit-url", "")}
+                    "image_credit": meta.get("image-credit", ""), "image_credit_url": meta.get("image-credit-url", ""),
+                    "image_licence": meta.get("image-licence", ""), "image_licence_url": meta.get("image-licence-url", ""),
+                    "image_credit_note": meta.get("image-credit-note", "")}
     raise UserError("That article was not found.")
 
 
@@ -186,10 +188,11 @@ def compose(f):
         lines.append("image: " + f["image"])
         if f["image_alt"]:
             lines.append("image-alt: " + f["image_alt"])
-        if f["image_credit"]:
-            lines.append("image-credit: " + f["image_credit"])
-            if f["image_credit_url"]:
-                lines.append("image-credit-url: " + f["image_credit_url"])
+        for key, name in (("image_credit", "image-credit"), ("image_credit_url", "image-credit-url"),
+                          ("image_licence", "image-licence"), ("image_licence_url", "image-licence-url"),
+                          ("image_credit_note", "image-credit-note")):
+            if f[key]:
+                lines.append("{}: {}".format(name, f[key]))
     blocks = []
     for v in f["versions"]:
         head = "".join("{}: {}\n".format(k, v[k]) for k in ("title", "summary") if v[k])
@@ -204,6 +207,8 @@ def clean_fields(p):
         "summary": one_line(p.get("summary")), "source_name": one_line(p.get("source_name")),
         "source_url": one_line(p.get("source_url")), "image_alt": one_line(p.get("image_alt")),
         "image_credit": one_line(p.get("image_credit")), "image_credit_url": one_line(p.get("image_credit_url")),
+        "image_licence": one_line(p.get("image_licence")), "image_licence_url": one_line(p.get("image_licence_url")),
+        "image_credit_note": one_line(p.get("image_credit_note")),
     }
     if not f["title"]:
         raise UserError("Add a title.")
@@ -251,6 +256,10 @@ def clean_fields(p):
         raise UserError("The picture credit link must start with http:// or https://")
     if f["image_credit_url"] and not f["image_credit"]:
         raise UserError("Add the name for the picture credit, or clear its link.")
+    if f["image_licence_url"] and not re.match(r"https?://\S+$", f["image_licence_url"]):
+        raise UserError("The licence link must start with http:// or https://")
+    if f["image_licence_url"] and not f["image_licence"]:
+        raise UserError("Add the licence name (for example CC BY-SA 4.0), or clear its link.")
     return f
 
 
@@ -286,7 +295,8 @@ def prepare(p, content_dir, static_dir):
         image = make_pictures(data, new_pic.get("name", "picture"), slug)
     f["image"] = image
     if not image:  # a credit only makes sense with a picture
-        f["image_credit"] = f["image_credit_url"] = f["image_alt"] = ""
+        for key in ("image_credit", "image_credit_url", "image_licence", "image_licence_url", "image_credit_note", "image_alt"):
+            f[key] = ""
     path.write_text(compose(f), encoding="utf-8")
     prune_pictures(content_dir, static_dir)
     return slug, f["title"]

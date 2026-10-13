@@ -102,7 +102,12 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
       <div><label for="credit" style="font-weight:500;font-size:.875rem">Picture credit (optional)</label><input type="text" id="credit" autocomplete="off" placeholder="Photographer or agency, and where it is from"></div>
       <div><label for="curl" style="font-weight:500;font-size:.875rem">Credit link (optional)</label><input type="url" id="curl" autocomplete="off" placeholder="https://"></div>
     </div>
-    <div class="hint">Shown as a small "Photo:" line under the picture on the article page. A credit does not give you permission to use a picture, so only use pictures you are allowed to publish.</div>
+    <div class="row2" style="margin-top:12px">
+      <div><label for="lic" style="font-weight:500;font-size:.875rem">Licence (optional)</label><input type="text" id="lic" autocomplete="off" placeholder="For example CC BY-SA 4.0"></div>
+      <div><label for="licurl" style="font-weight:500;font-size:.875rem">Licence link (optional)</label><input type="url" id="licurl" autocomplete="off" placeholder="https://"></div>
+    </div>
+    <div style="margin-top:12px"><label for="cnote" style="font-weight:500;font-size:.875rem">Extra words for the credit (optional)</label><input type="text" id="cnote" autocomplete="off" placeholder="For example: via Wikimedia Commons, resized"></div>
+    <div class="hint">Shown as a small line under the picture on the article page, for example "Photo: Barcex, CC BY-SA 4.0, via Wikimedia Commons, resized". The name and the licence become links if you give links. A credit does not give you permission to use a picture, so only use pictures you are allowed to publish.</div>
   </div>
 
   <div class="field"><span class="lab" id="levelLab">Levels and article text</span>
@@ -216,7 +221,7 @@ function counts() {
 /* -------------------------------------------------------------------------- form */
 function resetForm() {
   editing = null; pic = null; existingImage = ""; removePic = false;
-  ["title", "summary", "alt", "credit", "curl", "sname", "surl"].forEach(id => $(id).value = "");
+  ["title", "summary", "alt", "credit", "curl", "lic", "licurl", "cnote", "sname", "surl"].forEach(id => $(id).value = "");
   LEVELS.forEach(l => { $("ta-" + l).value = ""; setOwn(l, null); setChecked(l, false); });
   $("date").value = today();
   $("file").value = "";
@@ -259,6 +264,7 @@ function collect() {
     slug: editing, title: $("title").value, date: $("date").value, summary: $("summary").value,
     versions: texts(), overrides: overrides(), source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
     image_credit: $("credit").value, image_credit_url: $("curl").value,
+    image_licence: $("lic").value, image_licence_url: $("licurl").value, image_credit_note: $("cnote").value,
     image: pic ? { name: pic.name, data: pic.data } : null, remove_image: removePic && !pic,
   };
 }
@@ -276,7 +282,7 @@ function problem() {
 function saveDraft() {
   if (editing) return;
   try {
-    localStorage.setItem("jpn_draft2", JSON.stringify({ title: $("title").value, date: $("date").value, summary: $("summary").value, texts: texts(), own: overrides(), sname: $("sname").value, surl: $("surl").value, alt: $("alt").value, credit: $("credit").value, curl: $("curl").value }));
+    localStorage.setItem("jpn_draft2", JSON.stringify({ title: $("title").value, date: $("date").value, summary: $("summary").value, texts: texts(), own: overrides(), sname: $("sname").value, surl: $("surl").value, alt: $("alt").value, credit: $("credit").value, curl: $("curl").value, lic: $("lic").value, licurl: $("licurl").value, cnote: $("cnote").value }));
   } catch (e) {}
 }
 function loadDraft() {
@@ -286,7 +292,7 @@ function loadDraft() {
     const t = d.texts || {};
     if (!d.title && !Object.values(t).some(x => x)) return false;
     $("title").value = d.title || ""; $("summary").value = d.summary || "";
-    $("sname").value = d.sname || ""; $("surl").value = d.surl || ""; $("alt").value = d.alt || ""; $("credit").value = d.credit || ""; $("curl").value = d.curl || "";
+    $("sname").value = d.sname || ""; $("surl").value = d.surl || ""; $("alt").value = d.alt || ""; $("credit").value = d.credit || ""; $("curl").value = d.curl || ""; $("lic").value = d.lic || ""; $("licurl").value = d.licurl || ""; $("cnote").value = d.cnote || "";
     if (d.date) $("date").value = d.date;
     LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(t, l); setChecked(l, on); $("ta-" + l).value = on ? t[l] : ""; setOwn(l, on ? (d.own || {})[l] : null); });
     return true;
@@ -317,7 +323,7 @@ async function openArticle(slug, force) {
     const a = await api("/api/article?slug=" + encodeURIComponent(slug));
     editing = a.slug; pic = null; removePic = false; existingImage = a.image || "";
     $("title").value = a.title; $("summary").value = a.summary; $("date").value = a.date;
-    $("sname").value = a.source_name; $("surl").value = a.source_url; $("alt").value = a.image_alt; $("credit").value = a.image_credit || ""; $("curl").value = a.image_credit_url || "";
+    $("sname").value = a.source_name; $("surl").value = a.source_url; $("alt").value = a.image_alt; $("credit").value = a.image_credit || ""; $("curl").value = a.image_credit_url || ""; $("lic").value = a.image_licence || ""; $("licurl").value = a.image_licence_url || ""; $("cnote").value = a.image_credit_note || "";
     LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(a.versions, l); setChecked(l, on); $("ta-" + l).value = on ? a.versions[l] : ""; setOwn(l, on ? (a.overrides || {})[l] : null); });
     $("file").value = "";
     $("formTitle").textContent = "Edit article";
@@ -403,7 +409,7 @@ counts(); showPicture();
 if (restored) setStatus("info", "Your unsent draft was restored. The picture is not kept in a draft, so choose it again.");
 refreshList();
 
-["title", "summary", "sname", "surl", "alt", "credit", "curl", "date"].forEach(id => $(id).addEventListener("input", () => { counts(); saveDraft(); }));
+["title", "summary", "sname", "surl", "alt", "credit", "curl", "lic", "licurl", "cnote", "date"].forEach(id => $(id).addEventListener("input", () => { counts(); saveDraft(); }));
 $("file").addEventListener("change", e => takeFile(e.target.files[0]));
 $("removePic").addEventListener("click", () => { pic = null; removePic = true; $("file").value = ""; showPicture(); });
 $("previewBtn").addEventListener("click", preview);
