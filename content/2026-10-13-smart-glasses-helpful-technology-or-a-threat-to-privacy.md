@@ -1,6 +1,7 @@
 title: Smart Glasses: Helpful Technology or a Threat to Privacy?
 date: 2026-10-13
 summary: Smart glasses can read signs, translate conversations and help people with disabilities live more independently. But fears about secret recording have led to calls for restrictions in Australia.
+image: images/smart-glasses-helpful-technology-or-a-threat-to-privacy-a5e873.jpg
 ---
 === Intermediate ===
 
