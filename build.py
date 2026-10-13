@@ -22,10 +22,9 @@ SITE = {
     "name": "johnplusnews",
     "url": "https://johnplusnews.com",
     "tagline": "A new article every week for English learners.",
-    "about": [
-        "johnplusnews is a small site with a new article every week, written for English learners.",
-        "Each article shows its level, so you can choose one that suits you. "
-        "There is nothing to sign up for. Come back each week for something new.",
+    "social": [
+        ("Telegram", "https://t.me/johnplusenglishchannel"),
+        ("Instagram", "https://www.instagram.com/johnplusenglish/"),
     ],
 }
 
@@ -271,9 +270,12 @@ def gallery_page(arts, level=None):
 
 
 def about_page():
-    paras = "".join("<p>{}</p>".format(esc(p)) for p in SITE["about"])
-    main = '<div class="wrap"><h1 class="page-title">About</h1><div class="prose">{}</div></div>'.format(paras)
-    return page("/about/", main, title="About", current="/about/", desc=SITE["about"][0])
+    links = "".join(
+        '<li><a href="{}" target="_blank" rel="noopener noreferrer"><span>{}</span><span aria-hidden="true">&rarr;</span></a></li>'.format(esc(url), label)
+        for label, url in SITE["social"]
+    )
+    main = '<div class="wrap"><h1 class="page-title">About</h1><ul class="social">{}</ul></div>'.format(links)
+    return page("/about/", main, title="About", current="/about/", desc="johnplusnews on Telegram and Instagram.")
 
 
 def article_page(a, newer, older):

@@ -53,7 +53,7 @@ There is deliberately no italic.
 
 ## Change the site wording
 
-The site name, tagline and About text are at the top of `build.py` in the `SITE` block. Colours and type are in `style.css`.
+The site name, tagline and the two social links on the About page are at the top of `build.py` in the `SITE` block. Colours and type are in `style.css`.
 
 ## Publish
 
