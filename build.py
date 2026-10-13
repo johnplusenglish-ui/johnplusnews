@@ -367,7 +367,7 @@ TABS_JS = (
     'function show(k,save){var ok=t.some(function(x){return x.getAttribute("data-level")===k});if(!ok)return false;'
     't.forEach(function(x){var l=x.getAttribute("data-level"),on=l===k;x.setAttribute("aria-selected",on);'
     'x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;'
-    'if(on){var tt=x.getAttribute("data-title"),ss=x.getAttribute("data-sub"),h=document.querySelector(".article-head h1"),d=document.querySelector(".dek");'
+    'if(on){var tt=x.getAttribute("data-title"),ss=x.getAttribute("data-sub"),h=document.querySelector(".article-head h1"),d=document.querySelector(".dek"),ml=document.querySelector(".metaleft");if(ml)ml.setAttribute("data-print-level",x.textContent);'
     'if(h&&tt)h.textContent=tt;if(d&&ss)d.textContent=ss;if(tt)document.title=tt+" | "+document.title.split(" | ").pop()}});'
     'if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}}return true}'
     'var s="";try{s=localStorage.getItem("jpn_level")||""}catch(e){}'
@@ -416,6 +416,24 @@ CHECK_ICON = ('<svg class="chk" viewBox="0 0 24 24" width="18" height="18" aria-
               'fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 CHEVRON_ICON = ('<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" '
                 'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+
+
+PRINT_JS = (
+    '(function(){var b=document.getElementById("pdfbtn");if(!b)return;var old="";'
+    'b.addEventListener("click",function(){window.print()});'
+    'window.addEventListener("beforeprint",function(){old=document.title;var h=document.querySelector(".article-head h1"),'
+    'l=document.querySelector(".metaleft"),lv=l&&l.getAttribute("data-print-level");if(h)document.title=h.textContent+(lv?" ("+lv+")":"")});'
+    'window.addEventListener("afterprint",function(){if(old)document.title=old})})();'
+)
+
+PDF_ICON = ('<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 4v11M7 11l5 5 5-5M5 20h14" fill="none" '
+            'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+
+
+def tools_html():
+    """The two small controls at the right of the date line: reading font and save as PDF."""
+    pdf = ('<button type="button" class="pdfbtn" id="pdfbtn" aria-label="Save this article as a PDF">{}<span>PDF</span></button>').format(PDF_ICON)
+    return '<div class="tools">{}{}</div>'.format(font_picker(), pdf)
 
 
 def font_picker():
@@ -475,8 +493,9 @@ def article_page(a, newer, older):
     main = """<article class="wrap">
 <header class="article-head">
 <a class="back" href="/">&larr; All articles</a>
-<div class="metarow{tabcls}"><div class="metaleft">{tabs}{meta}</div>{picker}</div>
+<div class="metarow{tabcls}"><div class="metaleft"{printlevel}>{tabs}{meta}</div>{picker}</div>
 <script>{fontjs}</script>
+<script>{printjs}</script>
 <h1>{title}</h1>
 <p class="dek">{summary}</p>
 {img}
@@ -484,9 +503,11 @@ def article_page(a, newer, older):
 {versions}
 {source}
 {pager}
-</article>""".format(tabs=level_tabs(a), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=font_picker(), fontjs=FONT_JS, title=esc(a["versions"][0]["title"]), summary=esc(a["versions"][0]["summary"]), img=img,
-                     versions=versions_html(a), source=source, pager=pager)
-    no_js = ".fontpick{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
+<p class="print-foot">{foot}</p>
+</article>""".format(tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(a["versions"][0]["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, title=esc(a["versions"][0]["title"]), summary=esc(a["versions"][0]["summary"]), img=img,
+                     versions=versions_html(a), source=source, pager=pager,
+                     foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))
+    no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=a["versions"][0]["title"], desc=a["versions"][0]["summary"], image=a["image"] or None, kind="article",
                 head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script())
 
