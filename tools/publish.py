@@ -42,6 +42,7 @@ STATE = {"preview": None, "tmp": None}
 DRY_RUN = os.environ.get("JPN_DRY_RUN") == "1"
 MAX_BODY = 90 * 1024 * 1024
 GENERATED = re.compile(r"-[0-9a-f]{6}\.jpg$")  # only pictures made by this program are ever pruned
+GENERATED_AUDIO = re.compile(r"-[0-9a-f]{6}\.m4a$")  # and only recordings made by this program
 
 
 class UserError(Exception):
@@ -119,8 +120,10 @@ def get_article(slug):
             versions = {v["level"]: v["text"] for v in parsed}
             sets = build.split_sections(body)[1]
             overrides = {v["level"]: {"title": v["title"], "summary": v["summary"]} for v in parsed}
+            audio = {v["level"]: v["audio"] for v in parsed if v["audio"]}
+            voices = {v["level"]: v["voice"] for v in parsed if v["audio"]}
             return {"slug": slug, "title": meta.get("title", ""), "date": meta.get("date", ""),
-                    "versions": versions, "overrides": overrides, "summary": meta.get("summary", ""),
+                    "versions": versions, "overrides": overrides, "audio": audio, "voices": voices, "summary": meta.get("summary", ""),
                     "before": "\n".join(sets["before"]), "after": "\n".join(sets["after"]),
                     "source_name": name, "source_url": url, "image": meta.get("image", ""),
                     "image_alt": meta.get("image-alt", ""),
@@ -164,8 +167,43 @@ def make_pictures(data, filename, base):
 STATIC_TARGET = {"dir": STATIC}
 
 
+def make_audio(data, filename, base, level, static_dir):
+    """Turn an uploaded recording (m4a, mp3, wav, aiff...) into a small mono AAC .m4a under static/audio.
+    Returns the path used in the article ('audio/<name>.m4a')."""
+    if not shutil.which("afconvert"):
+        raise UserError("This program needs the Mac audio tool (afconvert) to prepare recordings.")
+    work = Path(tempfile.mkdtemp(prefix="jpn-audio-"))
+    try:
+        suffix = re.sub(r"[^a-z0-9.]", "", Path(filename).suffix.lower())[:8] or ".audio"
+        src = work / ("source" + suffix)
+        src.write_bytes(data)
+        name = "{}-{}-{}.m4a".format(base, level.lower(), hashlib.sha1(data).hexdigest()[:6])
+        dest = static_dir / "audio" / name
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        out = work / "out.m4a"
+        r = run(["afconvert", "-f", "m4af", "-d", "aac", "-b", "64000", "-c", "1", str(src), str(out)])
+        if r.returncode != 0 or not out.exists() or out.stat().st_size < 1000:
+            raise UserError("The {} recording could not be read. Use an m4a, mp3, wav or aiff file (a Voice Memos or QuickTime recording works).".format(level))
+        shutil.copy2(out, dest)
+        return "audio/" + name
+    finally:
+        shutil.rmtree(work, ignore_errors=True)
+
+
 def prune_pictures(content_dir, static_dir):
-    """Delete pictures this program made that no article uses any more."""
+    """Delete pictures and recordings this program made that no article uses any more."""
+    used_audio = set()
+    for _, meta, body, _ in article_files(content_dir):
+        try:
+            used_audio.update(Path(v["audio"]).name for v in build.parse_versions(meta, body) if v["audio"])
+        except ValueError:
+            used_audio = None
+            break
+    d = static_dir / "audio"
+    if used_audio is not None and d.is_dir():
+        for f in d.iterdir():
+            if f.is_file() and GENERATED_AUDIO.search(f.name) and f.name not in used_audio:
+                f.unlink()
     used = {Path(meta.get("image", "")).name for _, meta, _, _ in article_files(content_dir) if meta.get("image")}
     for folder in ("images", "images/thumbs"):
         d = static_dir / folder
@@ -198,7 +236,7 @@ def compose(f):
                 lines.append("{}: {}".format(name, f[key]))
     blocks = []
     for v in f["versions"]:
-        head = "".join("{}: {}\n".format(k, v[k]) for k in ("title", "summary") if v[k])
+        head = "".join("{}: {}\n".format(k, v[k]) for k in ("title", "summary", "audio", "voice") if v.get(k))
         blocks.append("=== {} ===\n\n{}{}{}".format(v["level"], head, "\n" if head else "", v["text"]))
     for key, label in build.QUESTION_SETS:
         if f[key]:
@@ -228,6 +266,17 @@ def clean_fields(p):
     levels = {l.lower(): l for l in build.LEVELS}
     found = {}
     own = {}
+    voices = {}
+    for name, label in (p.get("voices") or {}).items():
+        level = levels.get(one_line(name).lower())
+        if level:
+            voices[level] = one_line(label)[:60]
+    uploads = {}
+    for name, up in (p.get("audio") or {}).items():
+        level = levels.get(one_line(name).lower())
+        if level and isinstance(up, dict) and up.get("data"):
+            uploads[level] = up
+    removes = {levels.get(one_line(n).lower()) for n, on in (p.get("audio_remove") or {}).items() if on}
     for name, extra in (p.get("overrides") or {}).items():
         level = levels.get(one_line(name).lower())
         if level and isinstance(extra, dict):
@@ -244,7 +293,7 @@ def clean_fields(p):
         if build.ANY_MARK.search(t):
             raise UserError("The {} text contains a line like === Advanced ===. Please remove that line.".format(level))
         if build.HEAD_LINE.match(t.split("\n")[0]):
-            raise UserError("The first line of the {} text starts with 'title:' or 'summary:', which the site would read as a headline. Please reword it.".format(level))
+            raise UserError("The first line of the {} text starts with 'title:', 'summary:', 'audio:' or 'voice:', which the site would read as a setting. Please reword it.".format(level))
         found[level] = t
     if not found:
         raise UserError("Tick at least one level and paste the article text.")
@@ -256,7 +305,10 @@ def clean_fields(p):
                 "level": level, "text": found[level],
                 "title": "" if mine["title"] == f["title"] else mine["title"],
                 "summary": "" if mine["summary"] == f["summary"] else mine["summary"],
+                "audio": "", "voice": voices.get(level, ""),
             })
+    f["_uploads"] = {lv: up for lv, up in uploads.items() if lv in found}
+    f["_removes"] = {lv for lv in removes if lv in found}
     try:
         dt.date.fromisoformat(f["date"])
     except ValueError:
@@ -283,11 +335,16 @@ def prepare(p, content_dir, static_dir):
     f = clean_fields(p)
     existing = p.get("slug")
     old = {}
+    old_audio = {}
     if existing:
         match = [x for x in article_files(content_dir) if x[3] == existing]
         if not match:
             raise UserError("The article you are editing no longer exists.")
         path, old, slug = match[0][0], match[0][1], existing
+        try:
+            old_audio = {v["level"]: v["audio"] for v in build.parse_versions(match[0][1], match[0][2]) if v["audio"]}
+        except ValueError:
+            old_audio = {}
     else:
         slug = slugify(f["title"])
         taken = {x[3] for x in article_files(content_dir)}
@@ -312,6 +369,21 @@ def prepare(p, content_dir, static_dir):
     if not image:  # a credit only makes sense with a picture
         for key in ("image_credit", "image_credit_url", "image_licence", "image_licence_url", "image_credit_note", "image_credit_label", "image_alt"):
             f[key] = ""
+    for v in f["versions"]:
+        level = v["level"]
+        up = f["_uploads"].get(level)
+        if up:
+            try:
+                raw = base64.b64decode(up["data"])
+            except Exception:
+                raise UserError("The {} recording could not be read.".format(level))
+            v["audio"] = make_audio(raw, up.get("name", "recording"), slug, level, static_dir)
+        elif level in f["_removes"]:
+            v["audio"] = ""
+        else:
+            v["audio"] = old_audio.get(level, "")
+        if not v["audio"]:
+            v["voice"] = ""
     path.write_text(compose(f), encoding="utf-8")
     prune_pictures(content_dir, static_dir)
     return slug, f["title"]
@@ -520,6 +592,31 @@ class PreviewHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
         self.send_header("Cache-Control", "no-store")
         super().end_headers()
+
+    def do_GET(self):
+        """Plain file serving plus byte ranges, which Safari needs to play a recording."""
+        m = re.match(r"bytes=(\d*)-(\d*)$", self.headers.get("Range", ""))
+        path = Path(self.translate_path(self.path))
+        if not m or not path.is_file():
+            return super().do_GET()
+        size = path.stat().st_size
+        start = int(m.group(1)) if m.group(1) else max(0, size - int(m.group(2) or 0))
+        end = min(int(m.group(2)), size - 1) if m.group(1) and m.group(2) else size - 1
+        if start > end or start >= size:
+            self.send_response(416)
+            self.send_header("Content-Range", "bytes */{}".format(size))
+            self.end_headers()
+            return
+        with open(path, "rb") as fh:
+            fh.seek(start)
+            body = fh.read(end - start + 1)
+        self.send_response(206)
+        self.send_header("Content-Type", self.guess_type(str(path)))
+        self.send_header("Accept-Ranges", "bytes")
+        self.send_header("Content-Range", "bytes {}-{}/{}".format(start, end, size))
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
 
 
 def preview_factory(*args, **kwargs):

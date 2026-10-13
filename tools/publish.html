@@ -153,6 +153,9 @@ let pic = null;            // a newly chosen picture: {name, data, url}
 let existingImage = "";    // the picture the article already has
 let removePic = false;
 let busy = false;
+let audioNew = {};         // newly chosen recordings by level: {name, data}
+let audioOld = {};         // recordings the article already has, by level
+let audioDel = {};         // levels whose existing recording should be removed
 
 /* ---------------------------------------------------------- talking to the program */
 async function api(path, body) {
@@ -212,7 +215,15 @@ function renderLevels() {
     const bl = document.createElement("label"); bl.htmlFor = "ta-" + l; bl.style.marginTop = "12px"; bl.textContent = l + " text";
     const ta = document.createElement("textarea"); ta.id = "ta-" + l; ta.spellcheck = true;
     const h = document.createElement("div"); h.className = "hint"; h.id = "wc-" + l;
-    box.append(hl, ht, sl, st, bl, ta, h); $("versions").appendChild(box);
+    const al = document.createElement("label"); al.className = "opt"; al.htmlFor = "au-" + l; al.style.marginTop = "16px"; al.textContent = "Recording of the " + l + " version (optional)";
+    const af = document.createElement("input"); af.type = "file"; af.id = "au-" + l; af.accept = "audio/*,.m4a,.mp3,.wav,.aif,.aiff,.caf";
+    const ah = document.createElement("div"); ah.className = "hint"; ah.id = "auh-" + l;
+    const ar = document.createElement("button"); ar.type = "button"; ar.className = "linkbtn danger"; ar.id = "aur-" + l; ar.hidden = true; ar.textContent = "Remove the recording";
+    const vl = document.createElement("label"); vl.className = "opt"; vl.htmlFor = "av-" + l; vl.textContent = "Label shown beside the player";
+    const vi = document.createElement("input"); vi.type = "text"; vi.id = "av-" + l; vi.autocomplete = "off"; vi.maxLength = 60; vi.value = "Read by John"; vi.placeholder = "For example: Read by John";
+    box.append(hl, ht, sl, st, bl, ta, h, al, af, ah, ar, vl, vi); $("versions").appendChild(box);
+    af.addEventListener("change", () => takeAudio(l, af.files[0]));
+    ar.addEventListener("click", () => { if (audioNew[l]) { delete audioNew[l]; af.value = ""; } else if (audioOld[l]) audioDel[l] = true; showAudio(l); });
     ht.addEventListener("input", saveDraft); st.addEventListener("input", saveDraft);
 
     i.addEventListener("change", () => { box.hidden = !i.checked; if (i.checked) ta.focus(); saveDraft(); });
@@ -225,6 +236,35 @@ function texts() { const t = {}; LEVELS.forEach(l => { if (checked(l)) t[l] = $(
 function overrides() { const o = {}; LEVELS.forEach(l => { if (checked(l)) o[l] = { title: $("vt-" + l).value, summary: $("vs-" + l).value }; }); return o; }
 function setOwn(l, o) { $("vt-" + l).value = (o && o.title) || ""; $("vs-" + l).value = (o && o.summary) || ""; }
 function today() { try { return new Date().toLocaleDateString("en-CA"); } catch (e) { return ""; } }
+
+function showAudio(l) {
+  const has = !!audioNew[l] || (!!audioOld[l] && !audioDel[l]);
+  $("aur-" + l).hidden = !has;
+  let t;
+  if (audioNew[l]) t = "Chosen: " + audioNew[l].name + " (" + (audioNew[l].size / 1048576).toFixed(1) + " MB). It will be shrunk to a small file when you publish.";
+  else if (audioOld[l] && !audioDel[l]) t = "This version has a recording (" + audioOld[l].split("/").pop() + "). Choose a file to replace it.";
+  else if (audioDel[l]) t = "The recording will be removed when you publish.";
+  else t = "No recording yet. Choose an m4a, mp3, wav or aiff file, for example a Voice Memos or QuickTime recording. Readers see a small player under the picture.";
+  $("auh-" + l).textContent = t;
+}
+function takeAudio(l, f) {
+  if (!f) return;
+  if (!/^audio\//.test(f.type) && !/\.(m4a|mp3|wav|aif|aiff|caf|aac)$/i.test(f.name)) { setStatus("err", "That does not look like an audio file."); $("au-" + l).value = ""; return; }
+  if (f.size > 60 * 1024 * 1024) { setStatus("err", "That recording is very large (over 60 MB). Export it as m4a or mp3 first."); $("au-" + l).value = ""; return; }
+  const fr = new FileReader();
+  fr.onload = () => { audioNew[l] = { name: f.name || "recording", data: String(fr.result).split(",")[1], size: f.size }; audioDel[l] = false; showAudio(l); setStatus("", null); };
+  fr.readAsDataURL(f);
+}
+function audioPayload() {
+  const a = {}, rm = {}, v = {};
+  LEVELS.forEach(l => {
+    if (!checked(l)) return;
+    if (audioNew[l]) a[l] = { name: audioNew[l].name, data: audioNew[l].data };
+    if (audioDel[l]) rm[l] = true;
+    v[l] = $("av-" + l).value;
+  });
+  return { audio: a, audio_remove: rm, voices: v };
+}
 
 function counts() {
   LEVELS.forEach(l => {
@@ -242,7 +282,8 @@ function counts() {
 function resetForm() {
   editing = null; pic = null; existingImage = ""; removePic = false;
   ["title", "summary", "alt", "credit", "curl", "lic", "licurl", "clabel", "cnote", "sname", "surl", "qb", "qa"].forEach(id => $(id).value = "");
-  LEVELS.forEach(l => { $("ta-" + l).value = ""; setOwn(l, null); setChecked(l, false); });
+  audioNew = {}; audioOld = {}; audioDel = {};
+  LEVELS.forEach(l => { $("ta-" + l).value = ""; setOwn(l, null); setChecked(l, false); $("au-" + l).value = ""; $("av-" + l).value = "Read by John"; showAudio(l); });
   $("date").value = today();
   $("file").value = "";
   $("formTitle").textContent = "New article";
@@ -282,7 +323,7 @@ function takeFile(f) {
 function collect() {
   return {
     slug: editing, title: $("title").value, date: $("date").value, summary: $("summary").value,
-    versions: texts(), overrides: overrides(), before: $("qb").value, after: $("qa").value, source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
+    versions: texts(), overrides: overrides(), ...audioPayload(), before: $("qb").value, after: $("qa").value, source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
     image_credit: $("credit").value, image_credit_url: $("curl").value,
     image_licence: $("lic").value, image_licence_url: $("licurl").value, image_credit_note: $("cnote").value, image_credit_label: $("clabel").value,
     image: pic ? { name: pic.name, data: pic.data } : null, remove_image: removePic && !pic,
@@ -344,7 +385,8 @@ async function openArticle(slug, force) {
     editing = a.slug; pic = null; removePic = false; existingImage = a.image || "";
     $("title").value = a.title; $("summary").value = a.summary; $("date").value = a.date;
     $("sname").value = a.source_name; $("surl").value = a.source_url; $("alt").value = a.image_alt; $("credit").value = a.image_credit || ""; $("curl").value = a.image_credit_url || ""; $("lic").value = a.image_licence || ""; $("licurl").value = a.image_licence_url || ""; $("cnote").value = a.image_credit_note || ""; $("clabel").value = a.image_credit_label || ""; $("qb").value = a.before || ""; $("qa").value = a.after || "";
-    LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(a.versions, l); setChecked(l, on); $("ta-" + l).value = on ? a.versions[l] : ""; setOwn(l, on ? (a.overrides || {})[l] : null); });
+    audioNew = {}; audioDel = {}; audioOld = a.audio || {};
+    LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(a.versions, l); setChecked(l, on); $("ta-" + l).value = on ? a.versions[l] : ""; setOwn(l, on ? (a.overrides || {})[l] : null); $("au-" + l).value = ""; $("av-" + l).value = (a.voices || {})[l] || "Read by John"; showAudio(l); });
     $("file").value = "";
     $("formTitle").textContent = "Edit article";
     $("editing").hidden = false;
@@ -423,6 +465,7 @@ async function removeArticle(a) {
 
 /* ------------------------------------------------------------------------- setup */
 renderLevels();
+LEVELS.forEach(showAudio);
 $("date").value = today();
 const restored = loadDraft();
 counts(); showPicture();

@@ -116,7 +116,7 @@ def split_article(raw):
 VERSION_MARK = re.compile(r"^===[ \t]*([A-Za-z]+)[ \t]*===[ \t]*$", re.M)
 
 
-HEAD_LINE = re.compile(r"^(title|summary):[ \t]*(.*)$", re.I)
+HEAD_LINE = re.compile(r"^(title|summary|audio|voice):[ \t]*(.*)$", re.I)
 
 # Optional question sets, written as === Before you read === and === Talk about it === followed by one question per line.
 ANY_MARK = re.compile(r"^===[ \t]*([A-Za-z][A-Za-z ]*?)[ \t]*===[ \t]*$", re.M)
@@ -155,9 +155,10 @@ def split_sections(body):
 
 
 def take_head(text):
-    """A version may start with its own 'title:' and/or 'summary:' lines, then a blank line.
-    Returns ({'title','summary'}, rest-of-text)."""
-    own = {"title": "", "summary": ""}
+    """A version may start with its own 'title:', 'summary:', 'audio:' (a recording of it) and 'voice:' (who is
+    speaking, shown beside the player) lines, then a blank line. Returns ({'title','summary','audio','voice'}, rest-of-text)."""
+    empty = {"title": "", "summary": "", "audio": "", "voice": ""}
+    own = dict(empty)
     lines = text.split("\n")
     i = 0
     while i < len(lines) and HEAD_LINE.match(lines[i]):
@@ -165,7 +166,7 @@ def take_head(text):
         own[m.group(1).lower()] = m.group(2).strip()
         i += 1
     if i == 0 or (i < len(lines) and lines[i].strip()):
-        return {"title": "", "summary": ""}, text
+        return dict(empty), text
     return own, "\n".join(lines[i:]).strip()
 
 
@@ -183,7 +184,8 @@ def parse_versions(meta, body):
             raise ValueError("add a 'level:' header, or start each version with a line like === Advanced ===")
         if not body.strip():
             raise ValueError("the article text is empty")
-        return [{"level": level, "text": body.strip(), "title": "", "summary": ""}]
+        return [{"level": level, "text": body.strip(), "title": "", "summary": "",
+                 "audio": meta.get("audio", ""), "voice": meta.get("voice", "")}]
     if body[:marks[0].start()].strip():
         raise ValueError("there is text before the first === level === line")
     out = []
@@ -195,7 +197,8 @@ def parse_versions(meta, body):
         own, text = take_head(body[m.end():end].strip())
         if not text:
             raise ValueError("the {} version is empty".format(level))
-        out.append({"level": level, "text": text, "title": own["title"], "summary": own["summary"]})
+        out.append({"level": level, "text": text, "title": own["title"], "summary": own["summary"],
+                    "audio": own["audio"], "voice": own["voice"]})
     names = [v["level"] for v in out]
     if len(set(names)) != len(names):
         raise ValueError("the same level appears twice")
@@ -262,7 +265,8 @@ def parse_article(path):
         "questions": questions,
         "versions": [
             {"level": v["level"], "html": body_html(v["text"]),
-             "title": v["title"] or meta["title"], "summary": v["summary"] or summary}
+             "title": v["title"] or meta["title"], "summary": v["summary"] or summary,
+             "audio": asset(v["audio"]) if v["audio"] else "", "voice": v["voice"]}
             for v in versions
         ],
     }
@@ -421,7 +425,7 @@ TABS_JS = (
     'var t=[].slice.call(r.querySelectorAll("[role=tab]"));'
     'function show(k,save){var ok=t.some(function(x){return x.getAttribute("data-level")===k});if(!ok)return false;'
     't.forEach(function(x){var l=x.getAttribute("data-level"),on=l===k;x.setAttribute("aria-selected",on);'
-    'x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;'
+    'x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;var q=document.getElementById("l-"+l);if(q){q.hidden=!on;var au=q.querySelector("audio");if(au&&!on&&!au.paused)au.pause()}'
     'if(on){var tt=x.getAttribute("data-title"),ss=x.getAttribute("data-sub"),h=document.querySelector(".article-head h1"),d=document.querySelector(".dek"),ml=document.querySelector(".metaleft");if(ml)ml.setAttribute("data-print-level",x.textContent);'
     'if(h&&tt)h.textContent=tt;if(d&&ss)d.textContent=ss;if(tt)document.title=tt+" | "+document.title.split(" | ").pop()}});'
     'if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}}return true}'
@@ -523,6 +527,30 @@ def questions_html(a, key):
                      items="".join("<li>{}</li>".format(inline(q)) for q in qs))
 
 
+def listen_html(a):
+    """One quiet player row for each version that has a recording. static/listen.js turns the plain audio
+    element into the custom player; without JavaScript the browser's own controls are used."""
+    multi = len(a["versions"]) > 1
+    out = []
+    for i, v in enumerate(a["versions"]):
+        if not v["audio"]:
+            continue
+        voice = '<span class="listen-voice">{}</span>'.format(esc(v["voice"])) if v["voice"] else ""
+        out.append(
+            '<div class="listen"{id}{hidden} data-title="{title}"><div class="listen-head"><span class="listen-label">Listen</span>{voice}</div>'
+            '<audio class="listen-audio" controls preload="metadata" src="{src}"></audio></div>'.format(
+                id=' id="l-{}"'.format(v["level"].lower()) if multi else "", hidden=" hidden" if multi and i > 0 else "",
+                title=esc(v["title"]), voice=voice, src=esc(v["audio"])))
+    return "\n".join(out)
+
+
+def listen_script(a):
+    f = STATIC / "listen.js"
+    if not f.exists() or not any(v["audio"] for v in a["versions"]):
+        return ""
+    return '<script src="/listen.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
+
+
 def versions_html(a):
     v = a["versions"]
     if len(v) == 1:
@@ -566,6 +594,7 @@ def article_page(a, newer, older):
 <h1>{title}</h1>
 <p class="dek">{summary}</p>
 {img}
+{listen}
 {before}
 </header>
 {versions}
@@ -574,11 +603,11 @@ def article_page(a, newer, older):
 {pager}
 <p class="print-foot">{foot}</p>
 </article>""".format(tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(a["versions"][0]["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, title=esc(a["versions"][0]["title"]), summary=esc(a["versions"][0]["summary"]), img=img,
-                     versions=versions_html(a), before=questions_html(a, "before"), after=questions_html(a, "after"), source=source, pager=pager,
+                     versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), after=questions_html(a, "after"), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))
     no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=a["versions"][0]["title"], desc=a["versions"][0]["summary"], image=a["image"] or None, kind="article",
-                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script())
+                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script() + listen_script(a))
 
 
 def not_found_page():
@@ -613,6 +642,10 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
         if tmp not in Path(out_dir).resolve().parents:
             sys.exit("Refusing to clear unexpected output folder: {}".format(out_dir))
     arts = load_articles(content_dir)
+    for a in arts:
+        for v in a["versions"]:
+            if v["audio"] and not v["audio"].startswith("http") and not (static_dir / v["audio"].lstrip("/")).is_file():
+                sys.exit("The {} version of '{}' points to a recording that does not exist: {}".format(v["level"], a["title"], v["audio"]))
     attach_thumbs(arts, static_dir)
     OUT = out_dir
     if out_dir.exists():

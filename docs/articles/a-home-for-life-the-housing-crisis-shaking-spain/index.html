@@ -207,6 +207,29 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .hl-actions button { background: none; border: 0; padding: 4px 0; font: inherit; font-size: 0.8125rem; font-weight: 600; color: var(--accent); cursor: pointer; }
 .hl-list .w { font-family: var(--rf); }
 
+/* listen: a quiet player row under the picture */
+.listen { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin: 22px 0 0; padding: 12px 0; }
+.listen[hidden] { display: none; }
+.listen-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 12px; font-size: 0.8125rem; line-height: 1.3; }
+.listen-label { font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.listen-voice { color: var(--muted); }
+.listen-audio { display: block; width: 100%; margin-top: 8px; }
+.listen.lp-on { display: flex; align-items: center; gap: 12px; }
+.listen.lp-on[hidden] { display: none; }
+.listen.lp-on .listen-audio { display: none; }
+.lp-play { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--accent); color: #fff; cursor: pointer; }
+.lp-play:hover { background: #174fc0; }
+.lp-play:disabled { background: #b9c0cb; cursor: default; }
+.lp-play:focus-visible, .lp-back:focus-visible, .lp-speed:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.lp-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.lp-seek { width: 100%; margin: 0; height: 20px; accent-color: var(--accent); cursor: pointer; }
+.lp-side { flex: none; display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.lp-time { font-size: 0.8125rem; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+.lp-tools { display: flex; align-items: center; gap: 4px; }
+.lp-back, .lp-speed { display: inline-flex; align-items: center; justify-content: center; min-height: 30px; min-width: 30px; padding: 0 6px; border: 0; border-radius: 6px; background: none; color: var(--muted); font: inherit; font-size: 0.8125rem; font-weight: 600; cursor: pointer; }
+.lp-back:hover, .lp-speed:hover { color: var(--accent); background: var(--accent-soft); }
+.listen:not([hidden]) ~ .qs-before { margin-top: 0; border-top: 0; }
+
 /* questions: quiet rows that open on request */
 .qs { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin: 22px 0 0; }
 .qs summary { display: flex; align-items: center; gap: 12px; min-height: 46px; cursor: pointer; list-style: none; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
@@ -258,7 +281,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
   }
   html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   body { display: block; min-height: 0; background: #fff; color: #1b1d22; font-size: 10pt; line-height: 1.5; }
-  .skip, .site-header, .site-footer, .back, .vtabs, .tools, .pager, .hl-hint, .hl-pill, .hl-actions, .hl-list .x, .lvl-head, noscript { display: none !important; }
+  .skip, .site-header, .site-footer, .back, .vtabs, .tools, .pager, .listen, .hl-hint, .hl-pill, .hl-actions, .hl-list .x, .lvl-head, noscript { display: none !important; }
   main { display: block; }
   .wrap { max-width: none; width: auto; margin: 0; padding: 0; }
   a { color: inherit; text-decoration: none; }
@@ -336,6 +359,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 <h1>A home for life? The housing crisis shaking Spain</h1>
 <p class="dek">The eviction and death of an 87-year-old woman in Madrid have sparked protests across Spain, raising serious questions about the country&#x27;s growing housing crisis.</p>
 <figure class="hero"><img class="hero-img" src="/images/a-home-for-life-the-housing-crisis-shaking-spain-1b57b3.jpg" alt="An orange funeral wreath and a Sindicato de Inquilinas T-shirt tied to a tree, at the memorial for Maricarmen Abascal outside the doorway of number 46 on her street in Madrid."><figcaption class="credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:Madrid_-_Maricarmen_Abascal_memorial_at_Sainz_de_Baranda_46_-_261009_145400.jpg" target="_blank" rel="noopener noreferrer">Barcex</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>, via Wikimedia Commons, resized and cropped</figcaption></figure>
+
 <details class="qs qs-before"><summary><span class="qs-label">Before you read</span><span class="qs-count">3 questions</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><ol><li>How easy is it for young people to rent or buy a home where you live?</li><li>What does your home mean to you? Why is it more than just a building?</li><li>Have you ever taken part in a protest, or known someone who has? What was it about?</li></ol></details>
 </header>
 <div class="panels"><section class="panel" role="tabpanel" id="v-intermediate" aria-labelledby="tab-intermediate"><h2 class="lvl-head">Intermediate version</h2><div class="prose">
@@ -356,7 +380,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 <p>Yet beyond the political arguments lies a more uncomfortable question about what constitutes a home. For investors, a flat may represent an asset whose value rises and falls. For tenants, it represents stability, identity and belonging. For Maricarmen, it was the place where she had spent almost her entire life.</p>
 <p>Her death cannot be reduced to a single political argument, nor can Spain's housing crisis be solved overnight. But her story has given a human face to a problem too often discussed in terms of market figures and economic forecasts. Whether the protests lead to meaningful reform remains to be seen. What is already clear is that, for thousands of Spaniards, the right to a secure home has become a cause worth fighting for.</p>
 </div></section></div>
-<script>(function(){var r=document.querySelector("[data-tabs]");if(!r)return;var t=[].slice.call(r.querySelectorAll("[role=tab]"));function show(k,save){var ok=t.some(function(x){return x.getAttribute("data-level")===k});if(!ok)return false;t.forEach(function(x){var l=x.getAttribute("data-level"),on=l===k;x.setAttribute("aria-selected",on);x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;if(on){var tt=x.getAttribute("data-title"),ss=x.getAttribute("data-sub"),h=document.querySelector(".article-head h1"),d=document.querySelector(".dek"),ml=document.querySelector(".metaleft");if(ml)ml.setAttribute("data-print-level",x.textContent);if(h&&tt)h.textContent=tt;if(d&&ss)d.textContent=ss;if(tt)document.title=tt+" | "+document.title.split(" | ").pop()}});if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}}return true}var s="";try{s=localStorage.getItem("jpn_level")||""}catch(e){}if(!show(location.hash.slice(1).toLowerCase(),false))show(s,false);t.forEach(function(x,i){x.addEventListener("click",function(){show(x.getAttribute("data-level"),true)});x.addEventListener("keydown",function(e){var n=e.key==="ArrowRight"?i+1:e.key==="ArrowLeft"?i-1:-1;if(n<0||n>=t.length)return;e.preventDefault();t[n].focus();show(t[n].getAttribute("data-level"),true)})});window.addEventListener("hashchange",function(){show(location.hash.slice(1).toLowerCase(),false)})})();</script>
+<script>(function(){var r=document.querySelector("[data-tabs]");if(!r)return;var t=[].slice.call(r.querySelectorAll("[role=tab]"));function show(k,save){var ok=t.some(function(x){return x.getAttribute("data-level")===k});if(!ok)return false;t.forEach(function(x){var l=x.getAttribute("data-level"),on=l===k;x.setAttribute("aria-selected",on);x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;var q=document.getElementById("l-"+l);if(q){q.hidden=!on;var au=q.querySelector("audio");if(au&&!on&&!au.paused)au.pause()}if(on){var tt=x.getAttribute("data-title"),ss=x.getAttribute("data-sub"),h=document.querySelector(".article-head h1"),d=document.querySelector(".dek"),ml=document.querySelector(".metaleft");if(ml)ml.setAttribute("data-print-level",x.textContent);if(h&&tt)h.textContent=tt;if(d&&ss)d.textContent=ss;if(tt)document.title=tt+" | "+document.title.split(" | ").pop()}});if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}}return true}var s="";try{s=localStorage.getItem("jpn_level")||""}catch(e){}if(!show(location.hash.slice(1).toLowerCase(),false))show(s,false);t.forEach(function(x,i){x.addEventListener("click",function(){show(x.getAttribute("data-level"),true)});x.addEventListener("keydown",function(e){var n=e.key==="ArrowRight"?i+1:e.key==="ArrowLeft"?i-1:-1;if(n<0||n>=t.length)return;e.preventDefault();t[n].focus();show(t[n].getAttribute("data-level"),true)})});window.addEventListener("hashchange",function(){show(location.hash.slice(1).toLowerCase(),false)})})();</script>
 <details class="qs qs-after"><summary><span class="qs-label">Talk about it</span><span class="qs-count">5 questions</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><ol><li>Why do you think Maricarmen's story affected so many people in Spain?</li><li>Who should be responsible for making homes affordable: the government, landlords, or the people who need them?</li><li>Some people say tourist flats and big investors push prices up. What do you think?</li><li>Should there be a limit on how much a landlord can raise the rent? Why or why not?</li><li>What would make it easier for young people in your country to find a home?</li></ol></details>
 
 <nav class="pager" aria-label="More articles"><a href="/articles/the-dying-italian-village-hoping-art-can-give-it-a-new-lease/"><small>Older article</small>The dying Italian village hoping art can save its future</a><a class="next" href="/articles/can-the-government-help-you-find-love-singapore-thinks-so/"><small>Newer article</small>Can the Government Help You Find Love? Singapore Thinks So</a></nav>
