@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>johnplusnews publisher</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='10' fill='%231d5fe0'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root { --ink:#111318; --text:#23262d; --muted:#5f6672; --line:#e3e6eb; --bg:#f6f7f9; --card:#fff; --accent:#1d5fe0; --accent-soft:#eef3fd; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:400 1rem/1.55 'Outfit', system-ui, -apple-system, 'Segoe UI', sans-serif; font-style:normal; }
+em, i, cite { font-style:normal; }
+a { color:var(--accent); }
+header { background:var(--card); border-bottom:1px solid var(--line); }
+header .in { max-width:1120px; margin:0 auto; padding:0 20px; min-height:60px; display:flex; align-items:center; gap:14px; }
+.brand { font-weight:700; font-size:1.2rem; letter-spacing:-.02em; color:var(--ink); }
+.brand span { color:var(--accent); }
+.tag { font-size:.8125rem; font-weight:600; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); }
+header .live { margin-left:auto; font-size:.9375rem; text-decoration:none; font-weight:500; }
+.layout { max-width:1120px; margin:0 auto; padding:24px 20px 80px; display:grid; grid-template-columns:minmax(0,1fr) 330px; gap:24px; align-items:start; }
+.layout > * { min-width:0; }
+.panel { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:24px; }
+.panel h2 { font-size:1.0625rem; margin:0 0 14px; color:var(--ink); letter-spacing:-.01em; }
+.field { margin-bottom:20px; }
+.field > label, .field > .lab { display:block; font-weight:600; font-size:.9375rem; color:var(--ink); margin-bottom:6px; }
+.hint { font-size:.8125rem; color:var(--muted); margin-top:5px; }
+input[type=text], input[type=url], input[type=date], textarea { width:100%; font:inherit; color:var(--ink); background:#fff; border:1px solid #cfd4dc; border-radius:8px; padding:10px 12px; }
+textarea { resize:vertical; line-height:1.55; }
+#body { min-height:340px; }
+input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); outline-offset:1px; border-color:var(--accent); }
+.row2 { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.row2 > * { min-width:0; }
+.segs { display:flex; flex-wrap:wrap; gap:8px; }
+.seg { position:relative; }
+.seg input { position:absolute; opacity:0; inset:0; cursor:pointer; }
+.seg span { display:block; padding:9px 16px; border:1px solid #cfd4dc; border-radius:999px; font-weight:500; background:#fff; color:var(--text); cursor:pointer; }
+.seg input:checked + span { background:var(--accent); border-color:var(--accent); color:#fff; }
+.seg input:focus-visible + span { outline:2px solid var(--accent); outline-offset:2px; }
+.field > label.drop { font-weight:400; color:var(--muted); margin:0; }
+.drop { display:block; border:1.5px dashed #b9c0cb; border-radius:10px; padding:18px; text-align:center; color:var(--muted); cursor:pointer; background:#fbfcfd; }
+.drop.over { border-color:var(--accent); background:var(--accent-soft); }
+.drop:focus-within { outline:2px solid var(--accent); outline-offset:2px; }
+.crop { width:100%; max-width:340px; aspect-ratio:3 / 2; border-radius:10px; overflow:hidden; background:var(--accent-soft); margin:12px auto 0; }
+.crop img { width:100%; height:100%; object-fit:cover; display:block; }
+.crop .none { display:flex; height:100%; align-items:center; justify-content:center; padding:10px; font-size:.875rem; color:var(--muted); }
+.linkbtn { background:none; border:0; color:var(--accent); font:inherit; font-size:.875rem; font-weight:600; cursor:pointer; padding:4px 0; }
+.linkbtn.danger { color:#b3261e; }
+.actions { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-top:8px; }
+.btn { font:inherit; font-weight:600; padding:12px 22px; border-radius:10px; border:1px solid var(--accent); cursor:pointer; background:#fff; color:var(--accent); }
+.btn.primary { background:var(--accent); color:#fff; }
+.btn:disabled { opacity:.55; cursor:wait; }
+.btn:focus-visible { outline:2px solid var(--ink); outline-offset:2px; }
+.status { margin-top:18px; padding:14px 16px; border-radius:10px; font-size:.9375rem; }
+.status.info { background:var(--accent-soft); color:#17408f; }
+.status.ok { background:#e6f5ec; color:#14633a; }
+.status.warn { background:#fff3d4; color:#6e4b00; }
+.status.err { background:#fdeaea; color:#9b1c1c; }
+.status a { font-weight:600; }
+.banner { background:var(--accent-soft); color:#17408f; border-radius:10px; padding:10px 14px; margin-bottom:18px; font-size:.9375rem; }
+.list { list-style:none; margin:0; padding:0; }
+.item { border-top:1px solid var(--line); padding:12px 0; }
+.item:first-child { border-top:0; padding-top:0; }
+.item.cur .t { color:var(--accent); }
+.item .t { font-weight:600; color:var(--ink); line-height:1.3; overflow-wrap:anywhere; }
+.item .m { font-size:.8125rem; color:var(--muted); margin:2px 0 4px; }
+.item .acts { display:flex; gap:16px; }
+.empty { color:var(--muted); font-size:.9375rem; }
+@media (max-width: 900px) { .layout { grid-template-columns:minmax(0,1fr); } .row2 { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header><div class="in"><span class="brand">john<span>plus</span>news</span><span class="tag">Publisher</span><a class="live" href="https://johnplusnews.com" target="_blank" rel="noopener">View the live site</a></div></header>
+
+<main class="layout">
+<section class="panel" aria-labelledby="formTitle">
+  <h2 id="formTitle">New article</h2>
+  <div class="banner" id="editing" hidden></div>
+
+  <div class="field"><label for="title">Title</label><input type="text" id="title" autocomplete="off"></div>
+
+  <div class="field"><span class="lab" id="levelLab">Level</span><div class="segs" id="levels" role="radiogroup" aria-labelledby="levelLab"></div></div>
+
+  <div class="field"><label for="date">Date</label><input type="date" id="date" style="max-width:220px"></div>
+
+  <div class="field"><label for="summary">Summary</label><textarea id="summary" rows="2" maxlength="300"></textarea>
+    <div class="hint">The short line under the title on the gallery. Leave it empty to use the start of the article. <span id="sumCount"></span></div></div>
+
+  <div class="field"><span class="lab">Picture</span>
+    <label class="drop" id="drop"><input type="file" id="file" accept="image/*" hidden><span id="dropText">Drop a picture here, click to choose one, or paste one. Landscape works best, with the main subject in the middle.</span></label>
+    <div class="crop" id="crop" hidden></div>
+    <div class="hint" id="cropHint" hidden>This is how the gallery card crops it.</div>
+    <button type="button" class="linkbtn danger" id="removePic" hidden>Remove the picture</button>
+    <div style="margin-top:12px"><label for="alt" style="font-weight:500;font-size:.875rem">Describe the picture (optional, for screen readers)</label><input type="text" id="alt" autocomplete="off"></div>
+  </div>
+
+  <div class="field"><label for="body">Article text</label><textarea id="body" spellcheck="true"></textarea>
+    <div class="hint">A blank line starts a new paragraph. Use ## for a heading, ### for a smaller heading, **bold**, a dash and a space for list items, and > for a quote. <span id="wc"></span></div></div>
+
+  <div class="row2">
+    <div class="field"><label for="sname">Source name (optional)</label><input type="text" id="sname" autocomplete="off"></div>
+    <div class="field"><label for="surl">Source link (optional)</label><input type="url" id="surl" placeholder="https://" autocomplete="off"></div>
+  </div>
+
+  <div class="actions">
+    <button type="button" class="btn" id="previewBtn">Preview</button>
+    <button type="button" class="btn primary" id="publishBtn">Publish</button>
+  </div>
+  <div id="status" role="status" aria-live="polite"></div>
+</section>
+
+<aside class="panel" aria-labelledby="listTitle">
+  <h2 id="listTitle">Your articles</h2>
+  <p style="margin:0 0 14px"><button type="button" class="linkbtn" id="newBtn">Start a new article</button></p>
+  <ul class="list" id="list"></ul>
+</aside>
+</main>
+
+<script>
+const TOKEN = "__TOKEN__";
+const LEVELS = __LEVELS__;
+const $ = id => document.getElementById(id);
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+let editing = null;        // slug of the article being edited, or null for a new one
+let pic = null;            // a newly chosen picture: {name, data, url}
+let existingImage = "";    // the picture the article already has
+let removePic = false;
+let busy = false;
+
+/* ---------------------------------------------------------- talking to the program */
+async function api(path, body) {
+  const opt = body === undefined
+    ? { headers: { "X-Token": TOKEN } }
+    : { method: "POST", headers: { "X-Token": TOKEN, "Content-Type": "application/json" }, body: JSON.stringify(body) };
+  let r;
+  try { r = await fetch(path, opt); } catch (e) { throw new Error("Lost contact with the publisher. Is the Terminal window still open?"); }
+  const j = await r.json().catch(() => ({ error: "Unexpected reply" }));
+  if (!r.ok) throw new Error(j.error || "Something went wrong");
+  return j;
+}
+
+/* ------------------------------------------------------------------------ status */
+function setStatus(kind, parts) {
+  const box = $("status");
+  box.textContent = "";
+  if (!parts) return;
+  const d = document.createElement("div");
+  d.className = "status " + kind;
+  [].concat(parts).forEach(p => {
+    if (typeof p === "string") d.appendChild(document.createTextNode(p));
+    else d.appendChild(p);
+  });
+  box.appendChild(d);
+}
+function link(text, href) {
+  const a = document.createElement("a");
+  a.href = href; a.textContent = text; a.target = "_blank"; a.rel = "noopener";
+  return a;
+}
+function setBusy(b) { busy = b; $("previewBtn").disabled = b; $("publishBtn").disabled = b; }
+
+/* -------------------------------------------------------------------------- form */
+function renderLevels() {
+  $("levels").innerHTML = "";
+  LEVELS.forEach(l => {
+    const lab = document.createElement("label"); lab.className = "seg";
+    const i = document.createElement("input"); i.type = "radio"; i.name = "level"; i.value = l;
+    const s = document.createElement("span"); s.textContent = l;
+    lab.append(i, s); $("levels").appendChild(lab);
+    i.addEventListener("change", saveDraft);
+  });
+}
+function level() { const c = document.querySelector("input[name=level]:checked"); return c ? c.value : ""; }
+function today() { try { return new Date().toLocaleDateString("en-CA"); } catch (e) { return ""; } }
+
+function counts() {
+  const words = ($("body").value.trim().match(/\S+/g) || []).length;
+  $("wc").textContent = words ? words + " words, about " + Math.max(1, Math.round(words / 200)) + " min read." : "";
+  $("sumCount").textContent = $("summary").value.length ? $("summary").value.length + " of 300 characters." : "";
+}
+
+function resetForm() {
+  editing = null; pic = null; existingImage = ""; removePic = false;
+  ["title", "summary", "body", "alt", "sname", "surl"].forEach(id => $(id).value = "");
+  document.querySelectorAll("input[name=level]").forEach(i => i.checked = false);
+  $("date").value = today();
+  $("file").value = "";
+  $("formTitle").textContent = "New article";
+  $("editing").hidden = true;
+  showPicture(); counts(); renderList(); setStatus("", null);
+}
+
+function showPicture() {
+  const crop = $("crop");
+  const has = pic || (existingImage && !removePic);
+  crop.hidden = !has; $("cropHint").hidden = !has; $("removePic").hidden = !has;
+  crop.textContent = "";
+  if (!has) { $("dropText").textContent = "Drop a picture here, click to choose one, or paste one. Landscape works best, with the main subject in the middle."; return; }
+  $("dropText").textContent = "Click, drop or paste to choose a different picture.";
+  const img = document.createElement("img");
+  img.alt = "";
+  if (pic) {
+    img.src = pic.url;
+    img.onerror = () => { crop.textContent = ""; const n = document.createElement("div"); n.className = "none"; n.textContent = "Chosen: " + pic.name + " (no preview for this format, it will still be used)"; crop.appendChild(n); };
+  } else {
+    const name = existingImage.split("/").pop();
+    img.src = "/media/images/thumbs/" + encodeURIComponent(name);
+    img.onerror = () => { img.onerror = null; img.src = "/media/" + existingImage; };
+  }
+  crop.appendChild(img);
+}
+
+function takeFile(f) {
+  if (!f) return;
+  if (!/^image\//.test(f.type) && !/\.(heic|heif|jpe?g|png|webp|gif|tiff?)$/i.test(f.name)) { setStatus("err", "That does not look like a picture."); return; }
+  if (f.size > 40 * 1024 * 1024) { setStatus("err", "That picture is very large (over 40 MB). Choose a smaller one."); return; }
+  const fr = new FileReader();
+  fr.onload = () => { pic = { name: f.name || "picture", data: String(fr.result).split(",")[1], url: URL.createObjectURL(f) }; removePic = false; showPicture(); setStatus("", null); };
+  fr.readAsDataURL(f);
+}
+
+function collect() {
+  return {
+    slug: editing, title: $("title").value, level: level(), date: $("date").value, summary: $("summary").value,
+    body: $("body").value, source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
+    image: pic ? { name: pic.name, data: pic.data } : null, remove_image: removePic && !pic,
+  };
+}
+
+function problem() {
+  const p = collect();
+  if (!p.title.trim()) return "Add a title.";
+  if (!p.level) return "Choose a level.";
+  if (!p.body.trim()) return "Paste the article text.";
+  return "";
+}
+
+/* ----------------------------------------------------------------- drafts (local) */
+function saveDraft() {
+  if (editing) return;
+  try {
+    localStorage.setItem("jpn_draft", JSON.stringify({ title: $("title").value, level: level(), date: $("date").value, summary: $("summary").value, body: $("body").value, sname: $("sname").value, surl: $("surl").value, alt: $("alt").value }));
+  } catch (e) {}
+}
+function loadDraft() {
+  try {
+    const d = JSON.parse(localStorage.getItem("jpn_draft") || "null");
+    if (!d || !(d.title || d.body)) return false;
+    $("title").value = d.title || ""; $("summary").value = d.summary || ""; $("body").value = d.body || "";
+    $("sname").value = d.sname || ""; $("surl").value = d.surl || ""; $("alt").value = d.alt || "";
+    if (d.date) $("date").value = d.date;
+    document.querySelectorAll("input[name=level]").forEach(i => i.checked = i.value === d.level);
+    return true;
+  } catch (e) { return false; }
+}
+function clearDraft() { try { localStorage.removeItem("jpn_draft"); } catch (e) {} }
+
+/* ------------------------------------------------------------------------- list */
+let articles = [];
+function renderList() {
+  const ul = $("list"); ul.textContent = "";
+  if (!articles.length) { const li = document.createElement("li"); li.className = "empty"; li.textContent = "No articles yet."; ul.appendChild(li); return; }
+  articles.forEach(a => {
+    const li = document.createElement("li"); li.className = "item" + (a.slug === editing ? " cur" : "");
+    const t = document.createElement("div"); t.className = "t"; t.textContent = a.title;
+    const m = document.createElement("div"); m.className = "m"; m.textContent = [a.level, a.date].filter(Boolean).join(" · ");
+    const acts = document.createElement("div"); acts.className = "acts";
+    const e = document.createElement("button"); e.type = "button"; e.className = "linkbtn"; e.textContent = "Edit"; e.onclick = () => openArticle(a.slug);
+    const r = document.createElement("button"); r.type = "button"; r.className = "linkbtn danger"; r.textContent = "Remove from site"; r.onclick = () => removeArticle(a);
+    acts.append(e, r); li.append(t, m, acts); ul.appendChild(li);
+  });
+}
+async function refreshList() { try { articles = (await api("/api/articles")).articles; } catch (e) {} renderList(); }
+
+async function openArticle(slug, force) {
+  if (busy && !force) return;
+  try {
+    const a = await api("/api/article?slug=" + encodeURIComponent(slug));
+    editing = a.slug; pic = null; removePic = false; existingImage = a.image || "";
+    $("title").value = a.title; $("summary").value = a.summary; $("body").value = a.body; $("date").value = a.date;
+    $("sname").value = a.source_name; $("surl").value = a.source_url; $("alt").value = a.image_alt;
+    document.querySelectorAll("input[name=level]").forEach(i => i.checked = i.value === a.level);
+    $("file").value = "";
+    $("formTitle").textContent = "Edit article";
+    $("editing").hidden = false;
+    $("editing").textContent = "You are editing “" + a.title + "”. Its web address will stay the same. Publish to update the live site.";
+    showPicture(); counts(); renderList(); setStatus("", null);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  } catch (e) { setStatus("err", e.message); }
+}
+
+/* -------------------------------------------------------------------- the actions */
+let waitId = 0;
+async function waitFor(path, expect, label) {
+  const mine = ++waitId;
+  for (let i = 0; i < 48; i++) {
+    if (mine !== waitId) return null;
+    let r = { done: false };
+    try { r = await api("/api/check?path=" + encodeURIComponent(path) + "&expect=" + expect); } catch (e) {}
+    if (mine !== waitId) return null;
+    if (r.done) return true;
+    setStatus("info", "Sent to GitHub. Waiting for johnplusnews.com to " + label + " (" + (i * 5) + " seconds so far). This usually takes one to two minutes.");
+    await sleep(5000);
+  }
+  return false;
+}
+
+async function preview() {
+  waitId++;
+  const p = problem(); if (p) { setStatus("err", p); return; }
+  setBusy(true); setStatus("info", "Building a preview...");
+  try {
+    const r = await api("/api/preview", collect());
+    window.open(r.article_url, "jpn-preview");
+    setStatus("ok", ["Preview ready. It opened in another tab. ", link("Open the article", r.article_url), " or ", link("see it in the gallery", r.gallery_url), ". Nothing has been published yet."]);
+  } catch (e) { setStatus("err", e.message); }
+  setBusy(false);
+}
+
+async function publish() {
+  waitId++;
+  const p = problem(); if (p) { setStatus("err", p); return; }
+  if (!pic && (!existingImage || removePic) && !confirm("There is no picture, so the gallery card will show the level on a coloured block. Publish anyway?")) return;
+  setBusy(true); setStatus("info", "Resizing the picture, building the site and sending it to GitHub...");
+  try {
+    const r = await api("/api/publish", collect());
+    clearDraft();
+    await refreshList();
+    await openArticle(r.slug, true);
+    if (!r.pushed) { setStatus("warn", [(r.note || "It was saved but not sent.") + " Fix the problem and press Publish again."]); setBusy(false); return; }
+    setBusy(false);
+    const live = await waitFor("/articles/" + r.slug + "/", 200, "show it");
+    if (live === null) return;
+    if (live) setStatus("ok", ["It is live: ", link(r.live_url, r.live_url)]);
+    else setStatus("warn", ["It was sent to GitHub but is not showing yet. Give it a few more minutes, then check ", link(r.live_url, r.live_url), "."]);
+    return;
+  } catch (e) { setStatus("err", e.message); }
+  setBusy(false);
+}
+
+async function removeArticle(a) {
+  if (busy) return;
+  waitId++;
+  if (!confirm("Remove “" + a.title + "” from the live site? Its web address will stop working.")) return;
+  setBusy(true); setStatus("info", "Removing it and updating the site...");
+  try {
+    const r = await api("/api/remove", { slug: a.slug });
+    if (editing === a.slug) { resetForm(); }
+    await refreshList();
+    if (!r.pushed) { setStatus("warn", r.note || "Removed here but not sent to GitHub yet."); setBusy(false); return; }
+    setBusy(false);
+    const gone = await waitFor("/articles/" + a.slug + "/", 404, "remove it");
+    if (gone === null) return;
+    setStatus(gone ? "ok" : "warn", gone ? "It has been removed from the live site." : "It was sent to GitHub but the live site still shows it. Give it a few more minutes.");
+  } catch (e) { setStatus("err", e.message); }
+  setBusy(false);
+}
+
+/* ------------------------------------------------------------------------- setup */
+renderLevels();
+$("date").value = today();
+const restored = loadDraft();
+counts(); showPicture();
+if (restored) setStatus("info", "Your unsent draft was restored. The picture is not kept in a draft, so choose it again.");
+refreshList();
+
+["title", "summary", "body", "sname", "surl", "alt", "date"].forEach(id => $(id).addEventListener("input", () => { counts(); saveDraft(); }));
+$("file").addEventListener("change", e => takeFile(e.target.files[0]));
+$("removePic").addEventListener("click", () => { pic = null; removePic = true; $("file").value = ""; showPicture(); });
+$("previewBtn").addEventListener("click", preview);
+$("publishBtn").addEventListener("click", publish);
+$("newBtn").addEventListener("click", () => { if (busy) return; resetForm(); loadDraft(); counts(); });
+const drop = $("drop");
+["dragenter", "dragover"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add("over"); }));
+["dragleave", "drop"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove("over"); }));
+drop.addEventListener("drop", e => takeFile(e.dataTransfer.files[0]));
+document.addEventListener("paste", e => { const f = [...(e.clipboardData ? e.clipboardData.files : [])].find(x => /^image\//.test(x.type)); if (f) { e.preventDefault(); takeFile(f); } });
+</script>
+</body>
+</html>

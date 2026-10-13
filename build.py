@@ -11,6 +11,7 @@ import html
 import re
 import shutil
 import sys
+import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -96,17 +97,25 @@ def plain(text):
 
 # -------------------------------------------------------------------- content
 
-def parse_article(path):
-    raw = path.read_text(encoding="utf-8")
+def split_article(raw):
+    """Split an article file into (header dict, body text). Raises ValueError if malformed."""
     parts = re.split(r"^---[ \t]*$", raw, maxsplit=1, flags=re.M)
     if len(parts) != 2:
-        fail(path, "put a line containing only --- between the header and the text")
+        raise ValueError("put a line containing only --- between the header and the text")
     meta = {}
     for line in parts[0].strip().splitlines():
         if ":" not in line:
-            fail(path, "header line without a colon: " + line)
+            raise ValueError("header line without a colon: " + line)
         k, v = line.split(":", 1)
         meta[k.strip().lower()] = v.strip()
+    return meta, parts[1].strip()
+
+
+def parse_article(path):
+    try:
+        meta, body = split_article(path.read_text(encoding="utf-8"))
+    except ValueError as e:
+        fail(path, str(e))
     for key in ("title", "date"):
         if not meta.get(key):
             fail(path, "missing '{}' in the header".format(key))
@@ -121,7 +130,6 @@ def parse_article(path):
         print("  skipped draft: " + path.name)
         return None
 
-    body = parts[1].strip()
     summary = meta.get("summary", "")
     if not summary:
         first_para = plain(re.split(r"\n\s*\n", body)[0]).replace("\n", " ").strip()
@@ -152,9 +160,9 @@ def parse_article(path):
     }
 
 
-def load_articles():
+def load_articles(content_dir=CONTENT):
     arts, seen = [], {}
-    for path in sorted(CONTENT.glob("*.md")):
+    for path in sorted(content_dir.glob("*.md")):
         a = parse_article(path)
         if not a:
             continue
@@ -237,7 +245,7 @@ def meta_line(a, long=False):
 
 def card(a):
     if a["image"]:
-        thumb = '<img src="{}" alt="{}" loading="lazy" decoding="async">'.format(esc(asset(a["image"])), esc(a["image_alt"]))
+        thumb = '<img src="{}" alt="{}" loading="lazy" decoding="async">'.format(esc(asset(a.get("thumb") or a["image"])), esc(a["image_alt"]))
     else:
         thumb = '<span class="blank">{}</span>'.format(esc(a["level"]))
     return (
@@ -321,16 +329,33 @@ def write(rel, text):
     p.write_text(text, encoding="utf-8")
 
 
-def build():
-    if OUT.name != "docs" or OUT.parent != ROOT:
-        sys.exit("Refusing to clear unexpected output folder: {}".format(OUT))
-    arts = load_articles()
-    if OUT.exists():
-        shutil.rmtree(OUT)
-    OUT.mkdir()
-    if STATIC.exists():
-        for item in STATIC.iterdir():
-            dest = OUT / item.name
+def attach_thumbs(arts, static_dir):
+    """Cards use images/thumbs/<same file name> when it exists, so the gallery loads small files."""
+    for a in arts:
+        a["thumb"] = a["image"]
+        if a["image"]:
+            t = "images/thumbs/" + Path(a["image"]).name
+            if (static_dir / t).exists():
+                a["thumb"] = t
+
+
+def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
+    global OUT
+    if out_dir == ROOT / "docs":
+        pass
+    else:
+        tmp = Path(tempfile.gettempdir()).resolve()
+        if tmp not in Path(out_dir).resolve().parents:
+            sys.exit("Refusing to clear unexpected output folder: {}".format(out_dir))
+    arts = load_articles(content_dir)
+    attach_thumbs(arts, static_dir)
+    OUT = out_dir
+    if out_dir.exists():
+        shutil.rmtree(out_dir)
+    out_dir.mkdir(parents=True)
+    if static_dir.exists():
+        for item in static_dir.iterdir():
+            dest = out_dir / item.name
             shutil.copytree(item, dest) if item.is_dir() else shutil.copy2(item, dest)
 
     write("index.html", gallery_page(arts))
@@ -344,7 +369,7 @@ def build():
         newer = same[i - 1] if i > 0 else None
         older = same[i + 1] if i + 1 < len(same) else None
         write("articles/{}/index.html".format(a["slug"]), article_page(a, newer, older))
-    print("Built {} article(s) into {}".format(len(arts), OUT.relative_to(ROOT)))
+    print("Built {} article(s) into {}".format(len(arts), out_dir))
 
 
 def serve(port=8123):
@@ -355,7 +380,11 @@ def serve(port=8123):
     http.server.ThreadingHTTPServer(("127.0.0.1", port), handler).serve_forever()
 
 
+def option(name):
+    return Path(sys.argv[sys.argv.index(name) + 1]).resolve() if name in sys.argv else None
+
+
 if __name__ == "__main__":
-    build()
+    build(option("--content") or CONTENT, option("--out") or OUT, option("--static") or STATIC)
     if "--serve" in sys.argv:
         serve()

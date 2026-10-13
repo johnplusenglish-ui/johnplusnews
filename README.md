@@ -2,7 +2,21 @@
 
 A new article every week for English learners, at three levels: Intermediate, Advanced and Proficient. The home page is a gallery of cards, newest first, each with a thumbnail, the heading and a short summary. Tabs above the gallery filter it by level. No database, no login, no admin page. Each article is a plain text file; a small script turns the files into the site.
 
-## Add an article
+## Add an article with the publisher (easiest)
+
+Double-click `Publish an article.command`. A Terminal window opens and the publisher appears in your browser. Keep the Terminal window open while you work, and close it when you are finished.
+
+1. Fill in the title, choose the level, and check the date.
+2. Choose a picture (click the box, drag a picture onto it, or paste one). It is shrunk automatically and a small copy is made for the gallery cards.
+3. Paste the article text. Add a summary line, and a source name and link if you want them.
+4. Press **Preview** to see it exactly as it will look, without publishing anything.
+5. Press **Publish**. The site is rebuilt and sent to GitHub, and the page tells you when the article is live on johnplusnews.com, usually within one to two minutes.
+
+Your articles are listed on the right. **Edit** opens one back up (its web address stays the same) and **Remove from site** takes it off the live site.
+
+If GitHub does not accept the upload, the page says so. Your article is still saved on your Mac, so fix the problem and press Publish again. If it says the sign-in was refused, open Terminal, go to this folder and run `git push`. It will ask for your GitHub username and a personal access token, and macOS will remember them.
+
+## Add an article by hand
 
 1. Create a file in `content/` named `YYYY-MM-DD-short-title.md`, for example `2026-10-20-the-news-title.md`.
 2. Write the header, then a line containing only `---`, then the article.
@@ -50,6 +64,13 @@ draft: yes                        (optional, keeps the article out of the site)
 - `![description](images/photo.jpg)` on its own line adds a picture inside the article.
 
 There is deliberately no italic.
+
+## What is in this folder
+
+- `content/` has one text file per article.
+- `static/` has the pictures (`static/images/` and the small copies in `static/images/thumbs/`).
+- `docs/` is the finished website. Do not edit it by hand, it is rebuilt every time.
+- `build.py` builds the site, `style.css` is the design, and `tools/` holds the publisher.
 
 ## Change the site wording
 
