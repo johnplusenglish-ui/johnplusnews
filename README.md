@@ -48,6 +48,7 @@ image-credit-url: https://link    (optional, makes the credit name a link; needs
 image-licence: CC BY-SA 4.0       (optional, the picture licence, added to the credit line)
 image-licence-url: https://link   (optional, makes the licence a link; needs image-licence)
 image-credit-note: via Wikimedia Commons, resized   (optional extra words on the credit line)
+image-credit-label: Image         (optional first word of the credit line, default Photo)
 draft: yes                        (optional, keeps the article out of the site)
 ---
 ```
@@ -100,6 +101,8 @@ For a Creative Commons picture from Wikimedia Commons, copy the details from the
 - Extra words: `via Wikimedia Commons, resized and cropped`. Licences like CC BY ask you to say if you changed the picture, and the site resizes every picture and crops it to fit.
 
 This gives a line like "Photo: Barcex, CC BY-SA 4.0, via Wikimedia Commons, resized and cropped", with the name and the licence as links.
+
+For a picture you made with an AI image tool, there is no photographer to credit, and the honest label is that it is AI-generated, especially when it looks like a real photograph of a real place. In the publisher put `Image` in "First word of the credit", `AI-generated` as the picture credit, and optionally `not a real photograph` in the extra words. The line then reads "Image: AI-generated, not a real photograph".
 
 - Put the file in `static/images/` and name it in the header as `image: images/your-file.jpg`.
 - Use a landscape picture at least 1200 pixels wide, with the important part in the middle. Cards crop it to 3:2 and the article page crops it to 16:9.

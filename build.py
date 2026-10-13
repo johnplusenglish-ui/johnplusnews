@@ -217,6 +217,7 @@ def parse_article(path):
         "image_licence": meta.get("image-licence", "") if meta.get("image") else "",
         "image_licence_url": meta.get("image-licence-url", "") if meta.get("image") else "",
         "image_credit_note": meta.get("image-credit-note", "") if meta.get("image") else "",
+        "image_credit_label": meta.get("image-credit-label", "") if meta.get("image") else "",
         "source_name": source_name,
         "source_url": source_url,
         "versions": [
@@ -450,7 +451,7 @@ def article_page(a, newer, older):
                 parts.append('<a href="{}" target="_blank" rel="noopener noreferrer">{}</a>'.format(esc(url), esc(text)) if url else esc(text))
         if a["image_credit_note"]:
             parts.append(esc(a["image_credit_note"]))
-        credit = '<figcaption class="credit">Photo: {}</figcaption>'.format(", ".join(parts)) if parts else ""
+        credit = '<figcaption class="credit">{}: {}</figcaption>'.format(esc(a["image_credit_label"] or "Photo"), ", ".join(parts)) if parts else ""
         img = '<figure class="hero"><img class="hero-img" src="{}" alt="{}">{}</figure>'.format(
             esc(asset(a["image"])), esc(a["image_alt"]), credit)
     source = ""
