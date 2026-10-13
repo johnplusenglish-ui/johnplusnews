@@ -84,12 +84,12 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 /* reading font and level tabs inside an article */
 /* the chosen reading font applies to the title, the subheading and the article text */
 [data-font="georgia"] { --rf: Georgia, 'Times New Roman', serif; --fs: 1; --hls: -0.01em; --hlh: 1.15; }
-[data-font="verdana"] { --rf: Verdana, Geneva, sans-serif; --fs: 0.9; --hls: -0.01em; --hlh: 1.18; --pl: 1.8; }
+[data-font="verdana"] { --rf: Verdana, Geneva, sans-serif; --fs: 0.9; --hls: -0.01em; --hlh: 1.18; --pl: 1.72; }
 [data-font="atkinson"] { --rf: 'Atkinson Hyperlegible', 'Outfit', system-ui, sans-serif; --fs: 1; --hls: -0.01em; --hlh: 1.15; }
-[data-font="lexend"] { --rf: 'Lexend', 'Outfit', system-ui, sans-serif; --fs: 0.95; --hls: -0.015em; --hlh: 1.18; --pl: 1.8; }
+[data-font="lexend"] { --rf: 'Lexend', 'Outfit', system-ui, sans-serif; --fs: 0.95; --hls: -0.015em; --hlh: 1.18; --pl: 1.72; }
 [data-font] .article-head h1, [data-font] .dek, [data-font] .prose { font-family: var(--rf); }
 [data-font] .article-head h1 { letter-spacing: var(--hls); line-height: var(--hlh); }
-[data-font] .prose { line-height: var(--pl, 1.75); }
+[data-font] .prose { line-height: var(--pl, 1.65); }
 .metarow { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; }
 .metarow .meta { margin: 0; }
 .metaleft { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; min-width: 0; }
@@ -134,8 +134,8 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 .credit a { color: var(--muted); text-underline-offset: 0.18em; }
 .credit a:hover { color: var(--accent); }
 .dek { font-size: calc(1.3rem * var(--fs, 1)); line-height: 1.45; color: var(--muted); margin: 0 0 26px; }
-.prose { font-size: calc(1.1875rem * var(--fs, 1)); line-height: 1.75; padding-bottom: 28px; }
-.prose p { margin: 0 0 1.25em; }
+.prose { font-size: calc(1.1875rem * var(--fs, 1)); line-height: 1.65; padding-bottom: 28px; }
+.prose p { margin: 0 0 0.9em; }
 .prose h2 { font-size: 1.5rem; line-height: 1.25; margin: 2em 0 0.6em; }
 .prose h3 { font-size: 1.25rem; line-height: 1.3; margin: 1.7em 0 0.5em; }
 .prose ul { margin: 0 0 1.25em; padding-left: 1.3em; }
