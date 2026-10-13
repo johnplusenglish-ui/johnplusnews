@@ -73,7 +73,7 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 
 /* gallery */
 .intro { font-size: clamp(1.5rem, 4.4vw, 2.125rem); line-height: 1.2; margin: 48px 0 32px; max-width: 18em; }
-.gallery { list-style: none; margin: 0 0 72px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 40px 28px; }
+.gallery { list-style: none; margin: 0 0 72px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr)); gap: 40px 28px; }
 .card { position: relative; min-width: 0; }
 .thumb { aspect-ratio: 3 / 2; border-radius: 10px; overflow: hidden; background: var(--accent-soft); margin-bottom: 14px; }
 .thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
@@ -228,7 +228,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
   .metarow.has-tabs .metaleft { display: contents; }
   .metarow.has-tabs .vtabs { order: 1; flex: 1 0 100%; }
   .metarow.has-tabs .vtabs button { flex: 1; }
-  .metarow.has-tabs .meta { order: 2; flex: 1 1 0; min-width: 0; }
+  .metarow.has-tabs .meta { order: 2; flex: 1 0 auto; white-space: nowrap; }
   .metarow.has-tabs .tools { order: 3; margin-left: auto; }
 }
 
