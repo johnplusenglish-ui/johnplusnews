@@ -379,19 +379,17 @@ def font_picker():
         '<li role="option" class="fo-{k}" data-font="{k}" aria-selected="{sel}" tabindex="-1"><span>{label}</span>{chk}</li>'
         .format(k=k, sel="true" if k == "default" else "false", label=label, chk=CHECK_ICON)
         for k, label in FONTS)
-    return ('<div class="fontpick"><p class="vlabel" id="flabel">Reading font</p><div class="fdrop">'
-            '<button type="button" class="fbtn" id="fbtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="flabel fcur">'
-            '<span id="fcur">Default</span>{}</button>'
-            '<ul class="fmenu" id="fmenu" role="listbox" aria-labelledby="flabel" hidden>{}</ul></div></div>'
+    return ('<div class="fontpick"><div class="fdrop">'
+            '<button type="button" class="fbtn" id="fbtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="flab fcur">'
+            '<span class="flab" id="flab">Font</span><span id="fcur">Default</span>{}</button>'
+            '<ul class="fmenu" id="fmenu" role="listbox" aria-labelledby="flab" hidden>{}</ul></div></div>'
             ).format(CHEVRON_ICON, items)
 
 
 def versions_html(a):
     v = a["versions"]
-    picker = font_picker()
     if len(v) == 1:
-        return ('<div class="readbar">{}</div>\n<script>{}</script>\n<div class="prose">\n{}\n</div>'
-                ).format(picker, FONT_JS, v[0]["html"])
+        return '<div class="prose">\n{}\n</div>'.format(v[0]["html"])
     tabs, panels = [], []
     for i, x in enumerate(v):
         k = x["level"].lower()
@@ -404,9 +402,9 @@ def versions_html(a):
             '<div class="prose">\n{html}\n</div></section>'
             .format(k=k, hidden="" if i == 0 else " hidden", label=esc(x["level"]), n=x["minutes"], html=x["html"]))
     return ('<div class="readbar"><div class="levelpick" data-tabs><p class="vlabel" id="vlabel">Choose your level</p>'
-            '<div class="vtabs" role="tablist" aria-labelledby="vlabel">{}</div></div>{}</div>\n<script>{}</script>\n'
+            '<div class="vtabs" role="tablist" aria-labelledby="vlabel">{}</div></div></div>\n'
             '<div class="panels">{}</div>\n<script>{}</script>'
-            ).format("".join(tabs), picker, FONT_JS, "".join(panels), TABS_JS)
+            ).format("".join(tabs), "".join(panels), TABS_JS)
 
 
 def article_page(a, newer, older):
@@ -423,7 +421,8 @@ def article_page(a, newer, older):
     main = """<article class="wrap">
 <header class="article-head">
 <a class="back" href="/">&larr; All articles</a>
-{meta}
+<div class="metarow">{meta}{picker}</div>
+<script>{fontjs}</script>
 <h1>{title}</h1>
 <p class="dek">{summary}</p>
 {img}
@@ -431,9 +430,9 @@ def article_page(a, newer, older):
 {versions}
 {source}
 {pager}
-</article>""".format(meta=article_meta(a), title=esc(a["title"]), summary=esc(a["summary"]), img=img,
+</article>""".format(meta=article_meta(a), picker=font_picker(), fontjs=FONT_JS, title=esc(a["title"]), summary=esc(a["summary"]), img=img,
                      versions=versions_html(a), source=source, pager=pager)
-    no_js = ".readbar{display:none}" + (".panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
+    no_js = ".fontpick{display:none}" + (".readbar{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=a["title"], desc=a["summary"], image=a["image"] or None, kind="article",
                 head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n")
 
