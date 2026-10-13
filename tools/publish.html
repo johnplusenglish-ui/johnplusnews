@@ -193,7 +193,7 @@ function today() { try { return new Date().toLocaleDateString("en-CA"); } catch 
 function counts() {
   LEVELS.forEach(l => {
     const words = ($("ta-" + l).value.trim().match(/\S+/g) || []).length;
-    $("wc-" + l).textContent = words ? words + " words, about " + Math.max(1, Math.round(words / 200)) + " min read." : "";
+    $("wc-" + l).textContent = words ? words + " words." : "";
   });
   $("sumCount").textContent = $("summary").value.length ? $("summary").value.length + " of 300 characters." : "";
 }

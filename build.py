@@ -190,8 +190,7 @@ def parse_article(path):
         "source_name": source_name,
         "source_url": source_url,
         "versions": [
-            {"level": lv, "html": body_html(text),
-             "minutes": max(1, round(len(re.findall(r"\w+", plain(text))) / 200))}
+            {"level": lv, "html": body_html(text)}
             for lv, text in versions
         ],
     }
@@ -281,11 +280,10 @@ def card_meta(a):
 
 def article_meta(a):
     v = a["versions"]
+    bits = []
     if len(v) == 1:
-        bits = ['<span class="lvl">{}</span>'.format(esc(v[0]["level"])),
-                "<span>{}</span>".format(fmt(a["date"])), "<span>{} min read</span>".format(v[0]["minutes"])]
-    else:
-        bits = ["<span>{}</span>".format(fmt(a["date"])), '<span id="mins">{} min read</span>'.format(v[0]["minutes"])]
+        bits.append('<span class="lvl">{}</span>'.format(esc(v[0]["level"])))
+    bits.append("<span>{}</span>".format(fmt(a["date"])))
     return '<p class="meta">{}</p>'.format("".join(bits))
 
 
@@ -295,8 +293,8 @@ def level_tabs(a):
     if len(v) < 2:
         return ""
     tabs = "".join(
-        '<button type="button" role="tab" id="tab-{k}" aria-controls="v-{k}" aria-selected="{sel}" tabindex="{ti}" data-level="{k}" data-mins="{n}">{label}</button>'
-        .format(k=x["level"].lower(), sel="true" if i == 0 else "false", ti=0 if i == 0 else -1, n=x["minutes"], label=esc(x["level"]))
+        '<button type="button" role="tab" id="tab-{k}" aria-controls="v-{k}" aria-selected="{sel}" tabindex="{ti}" data-level="{k}">{label}</button>'
+        .format(k=x["level"].lower(), sel="true" if i == 0 else "false", ti=0 if i == 0 else -1, label=esc(x["level"]))
         for i, x in enumerate(v))
     return '<div class="vtabs" role="tablist" aria-label="Reading level" data-tabs>{}</div>'.format(tabs)
 
@@ -334,9 +332,8 @@ TABS_JS = (
     '(function(){var r=document.querySelector("[data-tabs]");if(!r)return;'
     'var t=[].slice.call(r.querySelectorAll("[role=tab]"));'
     'function show(k,save){var ok=t.some(function(x){return x.getAttribute("data-level")===k});if(!ok)return false;'
-    'var m=document.getElementById("mins");'
     't.forEach(function(x){var l=x.getAttribute("data-level"),on=l===k;x.setAttribute("aria-selected",on);'
-    'x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;if(on&&m)m.textContent=x.getAttribute("data-mins")+" min read"});'
+    'x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on});'
     'if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}}return true}'
     'var s="";try{s=localStorage.getItem("jpn_level")||""}catch(e){}'
     'if(!show(location.hash.slice(1).toLowerCase(),false))show(s,false);'
@@ -404,9 +401,9 @@ def versions_html(a):
         return '<div class="prose">\n{}\n</div>'.format(v[0]["html"])
     panels = "".join(
         '<section class="panel" role="tabpanel" id="v-{k}" aria-labelledby="tab-{k}"{hidden}>'
-        '<h2 class="lvl-head">{label} version</h2><p class="meta panel-meta"><span>{n} min read</span></p>'
+        '<h2 class="lvl-head">{label} version</h2>'
         '<div class="prose">\n{html}\n</div></section>'
-        .format(k=x["level"].lower(), hidden="" if i == 0 else " hidden", label=esc(x["level"]), n=x["minutes"], html=x["html"])
+        .format(k=x["level"].lower(), hidden="" if i == 0 else " hidden", label=esc(x["level"]), html=x["html"])
         for i, x in enumerate(v))
     return '<div class="panels">{}</div>\n<script>{}</script>'.format(panels, TABS_JS)
 
@@ -436,7 +433,7 @@ def article_page(a, newer, older):
 {pager}
 </article>""".format(tabs=level_tabs(a), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=font_picker(), fontjs=FONT_JS, title=esc(a["title"]), summary=esc(a["summary"]), img=img,
                      versions=versions_html(a), source=source, pager=pager)
-    no_js = ".fontpick{display:none}" + (".vtabs,#mins{display:none}.panel[hidden]{display:block!important}.lvl-head,.panel-meta{display:block!important}" if len(a["versions"]) > 1 else "")
+    no_js = ".fontpick{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=a["title"], desc=a["summary"], image=a["image"] or None, kind="article",
                 head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n")
 
