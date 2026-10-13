@@ -1,6 +1,6 @@
-title: The dying Italian village hoping art can give it a new lease of life
+title: The dying Italian village hoping art can save its future
 date: 2026-10-13
-summary: An ancient hilltop village threatened by erosion has been named Italy's 2028 capital of contemporary art. But can creativity secure its future?
+summary: An ancient Italian village is slowly disappearing because of erosion. Now, a major art project could give it a new lease of life.
 image: images/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-f6cd98.jpg
 ---
 === Intermediate ===
@@ -34,6 +34,9 @@ For Civita di Bagnoregio, the future remains uncertain. The challenge will be to
 The village may be slowly disappearing, but its story is far from over.
 
 === Advanced ===
+
+title: The dying Italian village hoping art can give it a new lease of life
+summary: An ancient hilltop village threatened by erosion has been named Italy's 2028 capital of contemporary art. But can creativity secure its future?
 
 Perched on a crumbling hilltop in central Italy, Civita di Bagnoregio looks like something straight out of a fairy tale. Its narrow cobbled streets, medieval houses and breathtaking views attract visitors from around the world. But behind its picture-postcard beauty lies a troubling reality: the village is slowly disappearing.
 
