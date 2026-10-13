@@ -197,6 +197,21 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .hl-actions button { background: none; border: 0; padding: 4px 0; font: inherit; font-size: 0.8125rem; font-weight: 600; color: var(--accent); cursor: pointer; }
 [data-font] .hl-list .w { font-family: var(--rf); }
 
+/* questions: quiet rows that open on request */
+.qs { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin: 22px 0 0; }
+.qs summary { display: flex; align-items: center; gap: 12px; min-height: 46px; cursor: pointer; list-style: none; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.qs summary::-webkit-details-marker { display: none; }
+.qs summary:hover .qs-label { color: var(--accent); }
+.qs summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.qs-count { font-weight: 500; letter-spacing: 0; text-transform: none; }
+.qs summary svg { margin-left: auto; flex: none; transition: transform 0.15s; }
+.qs[open] summary svg { transform: rotate(180deg); }
+.qs ol { margin: 2px 0 20px; padding-left: 1.5em; font-size: 1.0625rem; line-height: 1.6; color: var(--ink); }
+.qs li { margin: 0 0 0.6em; padding-left: 0.25em; }
+.qs li::marker { color: var(--accent); font-weight: 700; }
+.qs-after { margin-top: 8px; }
+[data-font] .qs ol { font-family: var(--rf); }
+
 /* footer */
 .site-footer { border-top: 1px solid var(--line); padding: 26px 0 34px; font-size: 0.875rem; color: var(--muted); }
 
@@ -265,6 +280,15 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
   .hl-list li { grid-template-columns: 7mm minmax(0, 1fr); padding: 1.4mm 0; border-bottom: 0.3pt solid #e6e8ec; break-inside: avoid; }
   .hl-list .n { font-size: 7.5pt; }
   .hl-list .w { font-size: 9.5pt; line-height: 1.35; }
+
+  .qs { border: 0; margin: 5mm 0 0; padding: 4mm 5mm 3mm; background: #f3f6fc; break-inside: avoid; }
+  .qs::details-content { content-visibility: visible; display: block; }
+  .qs summary { display: block; min-height: 0; margin: 0 0 2mm; font-size: 7.5pt; color: var(--accent); }
+  .qs summary svg, .qs-count { display: none; }
+  .qs ol { margin: 0; padding-left: 5mm; font-family: Georgia, 'Times New Roman', serif; font-size: calc(9.6pt * var(--fs, 1)); line-height: 1.45; }
+  .qs li { margin: 0 0 1.2mm; padding-left: 0; }
+  .qs-before { margin: 6mm 0 0; }
+  .qs-after { margin: 7mm 0 0; }
 
   .source { font-size: 8pt; margin: 5mm 0 0; padding-top: 2.5mm; }
   .print-foot { display: block; margin: 3mm 0 0; font-size: 7pt; color: #7a808c; }

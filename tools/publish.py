@@ -117,9 +117,11 @@ def get_article(slug):
             except ValueError as e:
                 raise UserError("That article could not be opened: " + str(e))
             versions = {v["level"]: v["text"] for v in parsed}
+            sets = build.split_sections(body)[1]
             overrides = {v["level"]: {"title": v["title"], "summary": v["summary"]} for v in parsed}
             return {"slug": slug, "title": meta.get("title", ""), "date": meta.get("date", ""),
                     "versions": versions, "overrides": overrides, "summary": meta.get("summary", ""),
+                    "before": "\n".join(sets["before"]), "after": "\n".join(sets["after"]),
                     "source_name": name, "source_url": url, "image": meta.get("image", ""),
                     "image_alt": meta.get("image-alt", ""),
                     "image_credit": meta.get("image-credit", ""), "image_credit_url": meta.get("image-credit-url", ""),
@@ -198,6 +200,9 @@ def compose(f):
     for v in f["versions"]:
         head = "".join("{}: {}\n".format(k, v[k]) for k in ("title", "summary") if v[k])
         blocks.append("=== {} ===\n\n{}{}{}".format(v["level"], head, "\n" if head else "", v["text"]))
+    for key, label in build.QUESTION_SETS:
+        if f[key]:
+            blocks.append("=== {} ===\n\n{}".format(label, "\n".join("- " + q for q in f[key])))
     body = "\n\n".join(blocks)
     return "\n".join(lines) + "\n---\n" + body + "\n"
 
@@ -213,6 +218,13 @@ def clean_fields(p):
     }
     if not f["title"]:
         raise UserError("Add a title.")
+    for key, label in build.QUESTION_SETS:
+        qs = [one_line(q) for q in build.clean_questions((p.get(key) or "").replace("\r\n", "\n").replace("\r", "\n"))]
+        if len(qs) > 12:
+            raise UserError("'{}' has {} questions. Keep it to 12 or fewer.".format(label, len(qs)))
+        if any(q.startswith("===") for q in qs):
+            raise UserError("A question in '{}' starts with ===. Please reword it.".format(label))
+        f[key] = qs
     levels = {l.lower(): l for l in build.LEVELS}
     found = {}
     own = {}
@@ -229,7 +241,7 @@ def clean_fields(p):
         t = re.sub(r"\n{3,}", "\n\n", t).strip()
         if not t:
             raise UserError("Paste the {} text, or untick that level.".format(level))
-        if build.VERSION_MARK.search(t):
+        if build.ANY_MARK.search(t):
             raise UserError("The {} text contains a line like === Advanced ===. Please remove that line.".format(level))
         if build.HEAD_LINE.match(t.split("\n")[0]):
             raise UserError("The first line of the {} text starts with 'title:' or 'summary:', which the site would read as a headline. Please reword it.".format(level))

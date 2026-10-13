@@ -85,6 +85,25 @@ The text starts here.
 
 When a reader switches tab, the headline, the subheading and the browser tab title change with it. The gallery card and the link preview always use the main title and summary from the top of the file, which should be the first level's. In the publisher, each level's box has optional "Headline" and "Subheading" fields for this; leave them empty to use the title and summary at the top of the form. A level can appear only once, and a level name that is not one of the two stops the build with a clear message. The gallery cards list the levels each article has.
 
+## Questions before and after the article
+
+An article can have two optional sets of questions: **Before you read** (warm-up questions) and **Talk about it** (discussion questions). On the page they are two quiet one-line rows, one under the picture and one under the text, closed until a reader opens them, so the article itself stays clean. The PDF always prints both open, in a tinted box. Both levels share the same questions, so keep the wording simple enough for the lower level.
+
+In the publisher, use the two boxes called **Before you read** and **Talk about it** under the article text (one question per line, up to 12 each; a leading dash or number is dropped). Leave a box empty for no row. By hand, add these after the level texts, one question per line:
+
+```
+=== Before you read ===
+
+- Have you ever visited a very old village?
+- What can happen when young people leave a small town?
+
+=== Talk about it ===
+
+- Is tourism always good for the people who live in a place?
+```
+
+The words in the marker lines must be exactly "Before you read" and "Talk about it". They can sit anywhere after the header line, and the level texts are not affected. The code is `split_sections` and `questions_html` in `build.py`, with the styling under "questions" in `style.css`.
+
 ## Highlighting words (for readers)
 
 Readers can select any words in an article text (up to about 90 characters, inside one paragraph or heading). A small dark **Highlight** pill appears next to the selection. Pressing it gives the words an amber underline and adds them to a numbered **Highlights** list under that text. Alt+H does the same from the keyboard, and Escape hides the pill. Pressing an underlined word offers **Remove highlight**, each list entry has a cross to remove it, and the list has **Copy list** (one word or phrase per line) and **Clear all**. Highlights are kept in the reader's own browser, separately for each article and each level, and nothing is sent anywhere. The code is in `static/highlight.js` (loaded only on article pages) and its styling is under "highlights" in `style.css`. If an article's text is edited later, saved highlights are matched again by their words, and any that can no longer be found are dropped.

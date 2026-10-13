@@ -81,3 +81,17 @@ For investors, a flat may represent an asset whose value rises and falls. For te
 Her death cannot be reduced to a single political argument, nor can Spain's housing crisis be solved overnight. But her story has given a human face to a problem too often discussed in terms of market figures and economic forecasts.
 
 Whether the protests lead to meaningful reform remains to be seen. What is already clear is that, for thousands of Spaniards, the right to a secure home has become a cause worth fighting for.
+
+=== Before you read ===
+
+- How easy is it for young people to rent or buy a home where you live?
+- What does your home mean to you? Why is it more than just a building?
+- Have you ever taken part in a protest, or known someone who has? What was it about?
+
+=== Talk about it ===
+
+- Why do you think Maricarmen's story affected so many people in Spain?
+- Who should be responsible for making homes affordable: the government, landlords, or the people who need them?
+- Some people say tourist flats and big investors push prices up. What do you think?
+- Should there be a limit on how much a landlord can raise the rent? Why or why not?
+- What would make it easier for young people in your country to find a home?

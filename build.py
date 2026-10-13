@@ -117,6 +117,41 @@ VERSION_MARK = re.compile(r"^===[ \t]*([A-Za-z]+)[ \t]*===[ \t]*$", re.M)
 
 HEAD_LINE = re.compile(r"^(title|summary):[ \t]*(.*)$", re.I)
 
+# Optional question sets, written as === Before you read === and === Talk about it === followed by one question per line.
+ANY_MARK = re.compile(r"^===[ \t]*([A-Za-z][A-Za-z ]*?)[ \t]*===[ \t]*$", re.M)
+QUESTION_SETS = [("before", "Before you read"), ("after", "Talk about it")]
+SET_KEYS = {label.lower(): key for key, label in QUESTION_SETS}
+BULLET = re.compile(r"^(?:[-*\u2022]|\d+[.)])\s+")
+
+
+def clean_questions(text):
+    """One question per line. A leading dash, bullet or number is dropped."""
+    out = []
+    for line in text.splitlines():
+        line = BULLET.sub("", line.strip()).strip()
+        if line:
+            out.append(line)
+    return out
+
+
+def split_sections(body):
+    """Take the question sets out of an article body. Returns (the rest of the body, {'before': [...], 'after': [...]})."""
+    marks = list(ANY_MARK.finditer(body))
+    sets = {"before": [], "after": []}
+    if not marks:
+        return body, sets
+    kept = [body[:marks[0].start()]]
+    for i, m in enumerate(marks):
+        end = marks[i + 1].start() if i + 1 < len(marks) else len(body)
+        key = SET_KEYS.get(m.group(1).strip().lower())
+        if key:
+            if sets[key]:
+                raise ValueError("'{}' appears twice".format(m.group(1).strip()))
+            sets[key] = clean_questions(body[m.end():end])
+        else:
+            kept.append(body[m.start():end])
+    return "".join(kept), sets
+
 
 def take_head(text):
     """A version may start with its own 'title:' and/or 'summary:' lines, then a blank line.
@@ -137,7 +172,8 @@ def parse_versions(meta, body):
     """Return [{'level','text','title','summary'}] in LEVELS order. An article is either one text with a
     'level:' header, or several texts, each starting with a line like === Advanced ===. A version may
     also carry its own headline and subheading (title:/summary: lines right after its marker).
-    Raises ValueError."""
+    Question sets (=== Before you read === and so on) are ignored here; see split_sections. Raises ValueError."""
+    body = split_sections(body)[0]
     levels = {l.lower(): l for l in LEVELS}
     marks = list(VERSION_MARK.finditer(body))
     if not marks:
@@ -184,6 +220,7 @@ def parse_article(path):
         fail(path, "date must look like 2026-10-13")
     try:
         versions = parse_versions(meta, body)
+        questions = split_sections(body)[1]
     except ValueError as e:
         fail(path, str(e))
     if meta.get("draft", "").lower() in ("yes", "true", "1"):
@@ -221,6 +258,7 @@ def parse_article(path):
         "image_credit_label": meta.get("image-credit-label", "") if meta.get("image") else "",
         "source_name": source_name,
         "source_url": source_url,
+        "questions": questions,
         "versions": [
             {"level": v["level"], "html": body_html(v["text"]),
              "title": v["title"] or meta["title"], "summary": v["summary"] or summary}
@@ -421,9 +459,9 @@ CHEVRON_ICON = ('<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="tr
 PRINT_JS = (
     '(function(){var b=document.getElementById("pdfbtn");if(!b)return;var old="";'
     'b.addEventListener("click",function(){window.print()});'
-    'window.addEventListener("beforeprint",function(){old=document.title;var h=document.querySelector(".article-head h1"),'
+    'var shut=[];window.addEventListener("beforeprint",function(){shut=[].slice.call(document.querySelectorAll("details.qs")).filter(function(d){return!d.open});shut.forEach(function(d){d.open=true});old=document.title;var h=document.querySelector(".article-head h1"),'
     'l=document.querySelector(".metaleft"),lv=l&&l.getAttribute("data-print-level");if(h)document.title=h.textContent+(lv?" ("+lv+")":"")});'
-    'window.addEventListener("afterprint",function(){if(old)document.title=old})})();'
+    'window.addEventListener("afterprint",function(){shut.forEach(function(d){d.open=false});shut=[];if(old)document.title=old})})();'
 )
 
 PDF_ICON = ('<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 4v11M7 11l5 5 5-5M5 20h14" fill="none" '
@@ -454,6 +492,18 @@ def highlight_script():
     if not f.exists():
         return ""
     return '<script src="/highlight.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
+
+
+def questions_html(a, key):
+    """A quiet, closed-by-default row. Opens to a numbered list; the PDF prints it open."""
+    label = dict(QUESTION_SETS)[key]
+    qs = a["questions"].get(key) or []
+    if not qs:
+        return ""
+    return ('<details class="qs qs-{key}"><summary><span class="qs-label">{label}</span>'
+            '<span class="qs-count">{n} question{s}</span>{chev}</summary><ol>{items}</ol></details>'
+            ).format(key=key, label=label, n=len(qs), s="" if len(qs) == 1 else "s", chev=CHEVRON_ICON,
+                     items="".join("<li>{}</li>".format(inline(q)) for q in qs))
 
 
 def versions_html(a):
@@ -499,13 +549,15 @@ def article_page(a, newer, older):
 <h1>{title}</h1>
 <p class="dek">{summary}</p>
 {img}
+{before}
 </header>
 {versions}
+{after}
 {source}
 {pager}
 <p class="print-foot">{foot}</p>
 </article>""".format(tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(a["versions"][0]["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, title=esc(a["versions"][0]["title"]), summary=esc(a["versions"][0]["summary"]), img=img,
-                     versions=versions_html(a), source=source, pager=pager,
+                     versions=versions_html(a), before=questions_html(a, "before"), after=questions_html(a, "after"), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))
     no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=a["versions"][0]["title"], desc=a["versions"][0]["summary"], image=a["image"] or None, kind="article",

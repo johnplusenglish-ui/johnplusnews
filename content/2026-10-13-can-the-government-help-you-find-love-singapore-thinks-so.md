@@ -87,3 +87,17 @@ Ultimately, FirstDate represents a fascinating intersection of technology, demog
 It may help some Singaporeans find companionship, perhaps even lifelong love. But whether it can reverse a demographic crisis rooted in wider economic and social pressures is considerably less certain.
 
 After all, governments can design algorithms, fund incentives and arrange introductions. What they cannot manufacture is the unpredictable human experience of falling in love.
+
+=== Before you read ===
+
+- Do you think dating apps help people find love? Why or why not?
+- What is the best way to meet a partner, in your opinion?
+- How would you feel if your government offered a dating service?
+
+=== Talk about it ===
+
+- Why do you think the Singapore government wants to help young people meet each other?
+- Would you try a dating platform run by the government? Why or why not?
+- The platform focuses on shared values rather than appearance. Is that a good basis for a relationship?
+- Is finding a partner a personal matter, or something a country should care about?
+- How important are attraction and chemistry compared with shared values and a similar way of life?

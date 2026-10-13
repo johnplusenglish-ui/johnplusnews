@@ -63,3 +63,17 @@ Nevertheless, the decision to award the title to two relatively small communitie
 For Civita di Bagnoregio, the challenge will be to strike a delicate balance between celebrating its past and embracing its future.
 
 The village may be slowly disappearing, but its latest chapter is only just beginning.
+
+=== Before you read ===
+
+- Have you ever visited a very old village or town? What was it like?
+- What can happen to a small place when young people leave to find work somewhere else?
+- Can art and culture change the future of a place? How?
+
+=== Talk about it ===
+
+- Do you think art events and exhibitions can really save a village like Civita? What else might it need?
+- Tourism brings money, but it can also change a place. Is it always good for the people who live there?
+- Think of a small town or village in your country. What problems does it have, and what could help?
+- Is it worth spending a lot of money to protect old buildings? Why or why not?
+- Would you like to live in a place like Civita? What would you enjoy, and what would be difficult?
