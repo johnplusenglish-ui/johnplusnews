@@ -83,13 +83,14 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 
 /* reading font and level tabs inside an article */
 /* the chosen reading font applies to the title, the subheading and the article text */
-[data-font="georgia"] { --rf: Georgia, 'Times New Roman', serif; --fs: 1; --hls: -0.01em; --hlh: 1.15; }
+:root { --rf: Georgia, 'Times New Roman', serif; --hls: -0.01em; --hlh: 1.15; }
+[data-font="outfit"] { --rf: 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; --fs: 1; --hls: -0.015em; --hlh: 1.12; }
 [data-font="verdana"] { --rf: Verdana, Geneva, sans-serif; --fs: 0.9; --hls: -0.01em; --hlh: 1.18; --pl: 1.72; }
 [data-font="atkinson"] { --rf: 'Atkinson Hyperlegible', 'Outfit', system-ui, sans-serif; --fs: 1; --hls: -0.01em; --hlh: 1.15; }
 [data-font="lexend"] { --rf: 'Lexend', 'Outfit', system-ui, sans-serif; --fs: 0.95; --hls: -0.015em; --hlh: 1.18; --pl: 1.72; }
-[data-font] .article-head h1, [data-font] .dek, [data-font] .prose { font-family: var(--rf); }
-[data-font] .article-head h1 { letter-spacing: var(--hls); line-height: var(--hlh); }
-[data-font] .prose { line-height: var(--pl, 1.65); }
+.article-head h1, .dek, .prose { font-family: var(--rf); }
+.article-head h1 { letter-spacing: var(--hls); line-height: var(--hlh); }
+.prose { line-height: var(--pl, 1.65); }
 .metarow { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; }
 .metarow .meta { margin: 0; }
 .metaleft { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; min-width: 0; }
@@ -119,7 +120,8 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 .fmenu li[aria-selected="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 700; }
 .fmenu .chk { visibility: hidden; flex: none; width: 16px; height: 16px; }
 .fmenu li[aria-selected="true"] .chk { visibility: visible; }
-.fo-georgia { font-family: Georgia, 'Times New Roman', serif; }
+.fo-default { font-family: Georgia, 'Times New Roman', serif; }
+.fo-outfit { font-family: 'Outfit', system-ui, sans-serif; }
 .fo-verdana { font-family: Verdana, Geneva, sans-serif; }
 .fo-atkinson { font-family: 'Atkinson Hyperlegible', 'Outfit', system-ui, sans-serif; }
 .fo-lexend { font-family: 'Lexend', 'Outfit', system-ui, sans-serif; }
@@ -127,7 +129,7 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 
 /* article */
 .article-head { padding: 52px 0 28px; }
-.article-head h1 { font-size: calc(clamp(2rem, 6.4vw, 2.875rem) * var(--fs, 1)); line-height: 1.12; letter-spacing: -0.015em; margin: 12px 0 16px; }
+.article-head h1 { font-size: calc(clamp(2rem, 6.4vw, 2.875rem) * var(--fs, 1)); margin: 12px 0 16px; }
 .hero-img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; background: var(--line); }
 .hero { margin: 0; }
 .credit { font-size: 0.8125rem; line-height: 1.4; color: var(--muted); margin: 8px 2px 0; }
@@ -180,7 +182,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .hl-list .x:focus-visible, .hl-actions button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .hl-actions { display: flex; gap: 18px; margin-top: 10px; }
 .hl-actions button { background: none; border: 0; padding: 4px 0; font: inherit; font-size: 0.8125rem; font-weight: 600; color: var(--accent); cursor: pointer; }
-[data-font] .hl-list .w { font-family: var(--rf); }
+.hl-list .w { font-family: var(--rf); }
 
 /* questions: quiet rows that open on request */
 .qs { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin: 22px 0 0; }
@@ -195,7 +197,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .qs li { margin: 0 0 0.6em; padding-left: 0.25em; }
 .qs li::marker { color: var(--accent); font-weight: 700; }
 .qs-after { margin-top: 8px; }
-[data-font] .qs ol { font-family: var(--rf); }
+.qs ol { font-family: var(--rf); }
 
 /* footer */
 .site-footer { border-top: 1px solid var(--line); padding: 26px 0 34px; font-size: 0.875rem; color: var(--muted); }

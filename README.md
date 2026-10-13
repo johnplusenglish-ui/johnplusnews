@@ -114,7 +114,7 @@ Every article page has a small **PDF** button next to the font menu. It opens th
 
 ## Reading font
 
-Every article page has a Reading font menu: Default (the site font), Georgia, Verdana, Atkinson Hyperlegible and Lexend. The choice is remembered on that reader's device and applies to the article text on every article. The two web fonts are only downloaded when a reader opens the menu or has chosen one. To add a font, edit `FONTS` in `build.py` and the `[data-font="..."]` rules in `style.css`.
+Every article page has a Reading font menu: Georgia (the default), Outfit (the site font), Verdana, Atkinson Hyperlegible and Lexend. The choice applies to the headline, subheading, text, highlights list and questions, is remembered on that reader's device, and is what the PDF uses. The default values (Georgia) sit under `:root` in `style.css` and each other font is a `[data-font="..."]` block. The two web fonts are only downloaded when a reader opens the menu or has chosen one. To add a font, edit `FONTS` in `build.py` and add a `[data-font="..."]` rule and a matching `.fo-...` preview rule in `style.css`.
 
 ## Pictures
 

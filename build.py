@@ -432,7 +432,7 @@ TABS_JS = (
     'if(n<0||n>=t.length)return;e.preventDefault();t[n].focus();show(t[n].getAttribute("data-level"),true)})});'
     'window.addEventListener("hashchange",function(){show(location.hash.slice(1).toLowerCase(),false)})})();'
 )
-FONTS = [("default", "Default"), ("georgia", "Georgia"), ("verdana", "Verdana"),
+FONTS = [("default", "Georgia"), ("outfit", "Outfit"), ("verdana", "Verdana"),
          ("atkinson", "Atkinson Hyperlegible"), ("lexend", "Lexend")]
 
 # Runs in <head> before the page paints: applies the reader's saved font, and loads the two web fonts only on demand.
@@ -498,7 +498,7 @@ def font_picker():
         for k, label in FONTS)
     return ('<div class="fontpick"><div class="fdrop">'
             '<button type="button" class="fbtn" id="fbtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="flab fcur">'
-            '<span class="flab" id="flab">Font</span><span id="fcur">Default</span>{}</button>'
+            '<span class="flab" id="flab">Font</span><span id="fcur">Georgia</span>{}</button>'
             '<ul class="fmenu" id="fmenu" role="listbox" aria-labelledby="flab" hidden>{}</ul></div></div>'
             ).format(CHEVRON_ICON, items)
 
