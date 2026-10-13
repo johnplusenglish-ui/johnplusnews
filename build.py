@@ -23,7 +23,7 @@ OUT = ROOT / "docs"
 SITE = {
     "name": "johnplusnews",
     "url": "https://johnplusnews.com",
-    "tagline": "A new article every week for English learners.",
+    "tagline": "News articles from around the world for English learners.",
     "social": [
         ("Telegram", "https://t.me/johnplusenglishchannel"),
         ("Instagram", "https://www.instagram.com/johnplusenglish/"),
