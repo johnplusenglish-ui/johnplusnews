@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the johnplusnews site into site/.
+"""Build the johnplusnews site into docs/ (the folder GitHub Pages publishes).
 
     python3 build.py            build
     python3 build.py --serve    build, then preview at http://localhost:8123
@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 CONTENT = ROOT / "content"
 STATIC = ROOT / "static"
-OUT = ROOT / "site"
+OUT = ROOT / "docs"
 
 SITE = {
     "name": "johnplusnews",
@@ -320,7 +320,7 @@ def write(rel, text):
 
 
 def build():
-    if OUT.name != "site" or OUT.parent != ROOT:
+    if OUT.name != "docs" or OUT.parent != ROOT:
         sys.exit("Refusing to clear unexpected output folder: {}".format(OUT))
     arts = load_articles()
     if OUT.exists():

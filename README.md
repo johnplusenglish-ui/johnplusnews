@@ -6,7 +6,7 @@ A new article every week for English learners, at three levels: Intermediate, Ad
 
 1. Create a file in `content/` named `YYYY-MM-DD-short-title.md`, for example `2026-10-20-the-news-title.md`.
 2. Write the header, then a line containing only `---`, then the article.
-3. Run `python3 build.py`. The finished site is written to `site/`.
+3. Run `python3 build.py`. The finished site is written to `docs/`.
 4. Preview with `python3 build.py --serve` and open http://localhost:8123.
 
 The file name decides the web address: `2026-10-20-the-news-title.md` becomes `/articles/the-news-title/`.
@@ -57,6 +57,8 @@ The site name, tagline and About text are at the top of `build.py` in the `SITE`
 
 ## Publish
 
-Netlify publishes the `site/` folder (see `netlify.toml`). After building, commit and push, and the new article is live.
+The site is hosted on GitHub Pages from the `docs/` folder of the `main` branch, at johnplusnews.com. After building, commit and push, and the new article is live within a minute or two.
+
+`static/CNAME` holds the domain name and `static/.nojekyll` tells GitHub not to process the files. The build copies both into `docs/`. Do not delete them.
 
 The three articles in `content/` are samples. Delete them once the first real article is in.
