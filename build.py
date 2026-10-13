@@ -30,7 +30,7 @@ SITE = {
 }
 
 NAV = [("/", "Articles"), ("/about/", "About")]
-LEVELS = ["Intermediate", "Advanced", "Proficient"]
+LEVELS = ["Intermediate", "Advanced"]
 
 
 def esc(s):

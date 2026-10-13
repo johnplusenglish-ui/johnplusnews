@@ -1,6 +1,6 @@
 # johnplusnews
 
-A new article every week for English learners. The home page is a gallery of cards, newest first, each with a thumbnail, the heading and a short summary. Each article can be written at up to three levels (Intermediate, Advanced and Proficient), and readers switch between them with tabs on the article page. Readers can also choose a reading font. No database, no login, no admin page. Each article is a plain text file; a small script turns the files into the site.
+A new article every week for English learners. The home page is a gallery of cards, newest first, each with a thumbnail, the heading and a short summary. Each article can be written at two levels, Intermediate and Advanced, and readers switch between them with tabs on the article page. Readers can also choose a reading font. No database, no login, no admin page. Each article is a plain text file; a small script turns the files into the site.
 
 ## Add an article with the publisher (easiest)
 
@@ -8,7 +8,7 @@ Double-click `Publish an article.command`. A Terminal window opens and the publi
 
 1. Fill in the title and check the date.
 2. Choose a picture (click the box, drag a picture onto it, or paste one). It is shrunk automatically and a small copy is made for the gallery cards.
-3. Tick each level you are adding (Intermediate, Advanced, Proficient). A text box appears for each ticked level, so paste that level's text into it. Tick one level for a single version, or several to give the article tabs. Add a summary line, and a source name and link if you want them.
+3. Tick each level you are adding (Intermediate, Advanced). A text box appears for each ticked level, so paste that level's text into it. Tick one level for a single version, or both to give the article tabs. Add a summary line, and a source name and link if you want them.
 4. Press **Preview** to see it exactly as it will look, without publishing anything.
 5. Press **Publish**. The site is rebuilt and sent to GitHub, and the page tells you when the article is live on johnplusnews.com, usually within one to two minutes.
 
@@ -45,7 +45,7 @@ draft: yes                        (optional, keeps the article out of the site)
 
 ## Levels and tabs
 
-An article has one version for each level it is written at. The levels are Intermediate, Advanced and Proficient. Readers get a tab for each version on the article page, and the page remembers the level they chose last, so they land on their own level in every article. If an article has only one version, there are no tabs and its level is simply shown above the title.
+An article has one version for each level it is written at. There are two levels, Intermediate and Advanced. Readers get a tab for each version on the article page, and the page remembers the level they chose last, so they land on their own level in every article. If an article has only one version, there are no tabs and its level is simply shown above the title.
 
 By hand, an article with one version uses `level: Advanced` in the header. An article with several versions leaves `level:` out and starts each version with a marker line:
 
@@ -62,7 +62,7 @@ The simpler text goes here.
 The more demanding text goes here.
 ```
 
-The title, summary, picture and source are shared by all the versions. A level can appear only once, and a level name that is not one of the three stops the build with a clear message. The gallery cards list the levels each article has.
+The title, summary, picture and source are shared by all the versions. A level can appear only once, and a level name that is not one of the two stops the build with a clear message. The gallery cards list the levels each article has.
 
 ## Reading font
 
