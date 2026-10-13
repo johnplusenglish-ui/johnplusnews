@@ -269,6 +269,15 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
   .source { font-size: 8pt; margin: 5mm 0 0; padding-top: 2.5mm; }
   .print-foot { display: block; margin: 3mm 0 0; font-size: 7pt; color: #7a808c; }
 }
+
+/* Chrome and Edge print their own date, title and web address in the page margin unless the margin is zero.
+   So where each page can repeat its own padding, the page margin is set to zero and the padding makes the white border instead. */
+@supports (box-decoration-break: clone) or (-webkit-box-decoration-break: clone) {
+  @media print {
+    @page { margin: 0; @bottom-left { content: none; } @bottom-right { content: none; } }
+    main > article.wrap { padding: 14mm 15mm 17mm; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+  }
+}
 </style>
 </head>
 <body class="wide">
