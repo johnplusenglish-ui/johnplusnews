@@ -1,5 +1,5 @@
 /* johnplusnews: highlight words in an article.
-   Select words, press Highlight, and they get a pink underline and are collected in a numbered
+   Select words, press Highlight, and they get an amber underline and are collected in a numbered
    list under the text. Highlights are kept on this device, for each article and each level. */
 (function () {
   "use strict";
