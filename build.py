@@ -7,6 +7,7 @@
 Each article is one plain text file in content/ (see README.md).
 """
 import datetime as dt
+import hashlib
 import html
 import re
 import shutil
@@ -429,6 +430,14 @@ def font_picker():
             ).format(CHEVRON_ICON, items)
 
 
+def highlight_script():
+    """The highlighter lives in static/highlight.js; the version in the address makes browsers fetch a changed copy."""
+    f = STATIC / "highlight.js"
+    if not f.exists():
+        return ""
+    return '<script src="/highlight.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
+
+
 def versions_html(a):
     v = a["versions"]
     if len(v) == 1:
@@ -479,7 +488,7 @@ def article_page(a, newer, older):
                      versions=versions_html(a), source=source, pager=pager)
     no_js = ".fontpick{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=a["versions"][0]["title"], desc=a["versions"][0]["summary"], image=a["image"] or None, kind="article",
-                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n")
+                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script())
 
 
 def not_found_page():

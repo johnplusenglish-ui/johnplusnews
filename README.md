@@ -85,6 +85,10 @@ The text starts here.
 
 When a reader switches tab, the headline, the subheading and the browser tab title change with it. The gallery card and the link preview always use the main title and summary from the top of the file, which should be the first level's. In the publisher, each level's box has optional "Headline" and "Subheading" fields for this; leave them empty to use the title and summary at the top of the form. A level can appear only once, and a level name that is not one of the two stops the build with a clear message. The gallery cards list the levels each article has.
 
+## Highlighting words (for readers)
+
+Readers can select any words in an article text (up to about 90 characters, inside one paragraph or heading). A small dark **Highlight** pill appears next to the selection. Pressing it gives the words a pink underline and adds them to a numbered **Highlights** list under that text. Alt+H does the same from the keyboard, and Escape hides the pill. Pressing an underlined word offers **Remove highlight**, each list entry has a cross to remove it, and the list has **Copy list** (one word or phrase per line) and **Clear all**. Highlights are kept in the reader's own browser, separately for each article and each level, and nothing is sent anywhere. The code is in `static/highlight.js` (loaded only on article pages) and its styling is under "highlights" in `style.css`. If an article's text is edited later, saved highlights are matched again by their words, and any that can no longer be found are dropped.
+
 ## Reading font
 
 Every article page has a Reading font menu: Default (the site font), Georgia, Verdana, Atkinson Hyperlegible and Lexend. The choice is remembered on that reader's device and applies to the article text on every article. The two web fonts are only downloaded when a reader opens the menu or has chosen one. To add a font, edit `FONTS` in `build.py` and the `[data-font="..."]` rules in `style.css`.
@@ -125,7 +129,7 @@ There is deliberately no italic.
 - `content/` has one text file per article.
 - `static/` has the pictures (`static/images/` and the small copies in `static/images/thumbs/`).
 - `docs/` is the finished website. Do not edit it by hand, it is rebuilt every time.
-- `build.py` builds the site, `style.css` is the design, and `tools/` holds the publisher and the script that makes the Dock app.
+- `build.py` builds the site, `style.css` is the design, `static/highlight.js` is the word highlighter, and `tools/` holds the publisher and the script that makes the Dock app.
 
 ## Change the site wording
 
