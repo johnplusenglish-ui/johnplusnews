@@ -177,6 +177,15 @@ function link(text, href) {
   a.href = href; a.textContent = text; a.target = "_blank"; a.rel = "noopener";
   return a;
 }
+function showSignIn() {
+  const b = document.createElement("button");
+  b.type = "button"; b.className = "btn"; b.style.marginTop = "12px"; b.textContent = "Open the sign-in window";
+  b.onclick = async () => {
+    try { await api("/api/signin", {}); setStatus("info", "A Terminal window has opened. Follow the steps in it, paste your GitHub token when it asks, then come back here and press Publish again."); }
+    catch (e) { setStatus("err", e.message); }
+  };
+  setStatus("warn", ["GitHub needs your sign-in before it will take the article. Your article is saved safely on this Mac, so nothing is lost. This is a one-time step: click the button, paste your GitHub token in the window that opens, then press Publish again.", document.createElement("br"), b]);
+}
 function setBusy(b) { busy = b; $("previewBtn").disabled = b; $("publishBtn").disabled = b; }
 
 /* ------------------------------------------------------------------ level versions */
@@ -372,7 +381,7 @@ async function publish() {
     clearDraft();
     await refreshList();
     await openArticle(r.slug, true);
-    if (!r.pushed) { setStatus("warn", [(r.note || "It was saved but not sent.") + " Fix the problem and press Publish again."]); setBusy(false); return; }
+    if (!r.pushed) { if (r.auth) showSignIn(); else setStatus("warn", [(r.note || "It was saved but not sent.") + " Fix the problem and press Publish again."]); setBusy(false); return; }
     setBusy(false);
     const live = await waitFor("/articles/" + r.slug + "/", 200, "show it");
     if (live === null) return;
@@ -392,7 +401,7 @@ async function removeArticle(a) {
     const r = await api("/api/remove", { slug: a.slug });
     if (editing === a.slug) { resetForm(); }
     await refreshList();
-    if (!r.pushed) { setStatus("warn", r.note || "Removed here but not sent to GitHub yet."); setBusy(false); return; }
+    if (!r.pushed) { if (r.auth) showSignIn(); else setStatus("warn", r.note || "Removed here but not sent to GitHub yet."); setBusy(false); return; }
     setBusy(false);
     const gone = await waitFor("/articles/" + a.slug + "/", 404, "remove it");
     if (gone === null) return;

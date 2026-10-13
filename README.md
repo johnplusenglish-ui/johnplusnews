@@ -14,7 +14,11 @@ Double-click `Publish an article.command`. A Terminal window opens and the publi
 
 Your articles are listed on the right. **Edit** opens one back up (its web address stays the same) and **Remove from site** takes it off the live site.
 
-If GitHub does not accept the upload, the page says so. Your article is still saved on your Mac, so fix the problem and press Publish again. If it says the sign-in was refused, open Terminal, go to this folder and run `git push`. It will ask for your GitHub username and a personal access token, and macOS will remember them.
+If GitHub does not accept the upload, the page says so. Your article is still saved on your Mac, so fix the problem and press Publish again.
+
+## Sign in to GitHub (one time)
+
+The publisher needs a GitHub token saved on your Mac before it can send articles to the website. If you see "GitHub needs your sign-in", click **Open the sign-in window** in the publisher, or double-click `Sign in to GitHub.command`. It explains how to make a token if you do not have one, asks you to paste it (nothing shows as you paste), saves it in your Mac's keychain and tests it. If GitHub refuses the token it is not kept, and you can run the file again with a new one. After that, publishing works without Terminal.
 
 ## Put the publisher in your Dock
 

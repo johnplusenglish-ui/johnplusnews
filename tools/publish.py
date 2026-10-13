@@ -334,6 +334,16 @@ def do_preview(p):
                 "gallery_url": "http://127.0.0.1:{}/".format(PREVIEW_PORT)}
 
 
+AUTH_HINTS = ("could not read username", "could not read password", "terminal prompts disabled", "authentication failed",
+              "invalid username or password", "bad credentials", "error: 401", "error: 403", "permission denied")
+
+
+def is_auth_problem(text):
+    """True when a failed push means GitHub did not get a (valid) sign-in, as opposed to a network or other problem."""
+    low = (text or "").lower()
+    return any(h in low for h in AUTH_HINTS)
+
+
 def git_publish(message):
     if DRY_RUN:
         return {"pushed": False, "note": "Dry run: nothing was committed or sent."}
@@ -345,6 +355,8 @@ def git_publish(message):
     r = run(["git", "push", "origin", "main"])
     if r.returncode != 0:
         detail = mask((r.stderr or r.stdout).strip())[-400:]
+        if is_auth_problem(detail):
+            return {"pushed": False, "auth": True, "note": "GitHub needs your sign-in before it will take the article. Your article is saved safely on this Mac."}
         return {"pushed": False, "note": "Your article is saved on this Mac but GitHub did not accept it yet: " + detail}
     return {"pushed": True, "note": ""}
 
@@ -382,6 +394,17 @@ def do_remove(slug):
         res = git_publish("Remove article: " + title)
         res.update({"ok": True, "slug": slug})
         return res
+
+
+def do_signin():
+    """Open the one-time sign-in helper in Terminal."""
+    script = ROOT / "Sign in to GitHub.command"
+    if not script.exists():
+        raise UserError("The file 'Sign in to GitHub.command' is missing from the johnplusnews folder.")
+    if os.environ.get("JPN_NO_BROWSER"):
+        return {"ok": True, "opened": False}
+    subprocess.run(["open", "-a", "Terminal", str(script)], check=False)
+    return {"ok": True, "opened": True}
 
 
 def check_live(path, expect):
@@ -466,6 +489,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 return self.send_json(do_publish(payload))
             if self.path == "/api/remove":
                 return self.send_json(do_remove(payload.get("slug", "")))
+            if self.path == "/api/signin":
+                return self.send_json(do_signin())
             self.send_json({"error": "Not found"}, 404)
         except UserError as e:
             self.send_json({"error": str(e)}, 400)
