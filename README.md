@@ -16,6 +16,10 @@ Your articles are listed on the right. **Edit** opens one back up (its web addre
 
 If GitHub does not accept the upload, the page says so. Your article is still saved on your Mac, so fix the problem and press Publish again. If it says the sign-in was refused, open Terminal, go to this folder and run `git push`. It will ask for your GitHub username and a personal access token, and macOS will remember them.
 
+## Put the publisher in your Dock
+
+Run `python3 tools/make_dock_app.py` once. It makes `Publish an article.app` in this folder, with a blue icon. Drag that app onto your Dock, and click it whenever you want to publish. It opens `Publish an article.command` in Terminal, so keep the app in this folder, next to that file. If you ever move or delete the folder, run the script again and drag the new app onto the Dock. The app is not saved to GitHub, only the script that makes it.
+
 ## Add an article by hand
 
 1. Create a file in `content/` named `YYYY-MM-DD-short-title.md`, for example `2026-10-20-the-news-title.md`.
@@ -87,7 +91,7 @@ There is deliberately no italic.
 - `content/` has one text file per article.
 - `static/` has the pictures (`static/images/` and the small copies in `static/images/thumbs/`).
 - `docs/` is the finished website. Do not edit it by hand, it is rebuilt every time.
-- `build.py` builds the site, `style.css` is the design, and `tools/` holds the publisher.
+- `build.py` builds the site, `style.css` is the design, and `tools/` holds the publisher and the script that makes the Dock app.
 
 ## Change the site wording
 
