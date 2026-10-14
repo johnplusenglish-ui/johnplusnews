@@ -1,7 +1,7 @@
 title: Back to the 90s: Why Everyone Wants to Return to the Past
 date: 2026-10-13
 summary: From music and fashion to old cameras and CDs, the 1990s are making a comeback. But why are young people so interested in a decade many of them never experienced?
-image: images/back-to-the-90s-why-everyone-wants-to-return-to-the-past-4a94d1.jpg
+image: images/back-to-the-90s-why-everyone-wants-to-return-to-the-past-73d4e3.jpg
 ---
 === Intermediate ===
 
