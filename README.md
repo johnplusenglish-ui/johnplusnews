@@ -39,6 +39,7 @@ The file name decides the web address: `2026-10-20-the-news-title.md` becomes `/
 title: The article title          (required)
 date: 2026-10-20                  (required, year-month-day)
 summary: One or two sentences.    (optional, shown under the title and in lists)
+tags: Technology, Society          (optional, up to 8 topics separated by commas, see Topics and search)
 level: Advanced                   (only for an article with ONE version, see Levels below)
 source: Name | https://link       (optional, shown at the bottom)
 image: images/photo.jpg           (the card thumbnail and article picture, a file in static/images/)
@@ -52,6 +53,10 @@ image-credit-label: Image         (optional first word of the credit line, defau
 draft: yes                        (optional, keeps the article out of the site)
 ---
 ```
+
+## Topics and search
+
+Give an article `tags:` in its header (in the publisher, the **Tags** box: type a tag and press Enter, or press one of the suggested tags to reuse it). Tags become **topics**: a row of buttons under the banner on the home page (All, Technology, Society and so on, biggest first), one page per topic at `/tags/<topic>/` that lists its articles, and small Topics links under each article. Reuse the same spelling so related articles stay together (the publisher does this for you, so "technology" becomes the existing "Technology"). A topic page appears when an article uses the tag and disappears when none does. Both the home page and the topic pages have a **Search articles** box that filters the cards as you type, looking through the headlines (both levels), summaries, tags and level names. It is a small script in `build.py` (`FINDER_JS`); without JavaScript the box is hidden and the topic buttons still work. Search does not look inside the article text, so give each article a clear headline, summary and tags.
 
 ## Levels and tabs
 

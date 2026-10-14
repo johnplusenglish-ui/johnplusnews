@@ -14,6 +14,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -210,6 +211,24 @@ def split_versions(meta, body):
     return [(v["level"], v["text"]) for v in parse_versions(meta, body)]
 
 
+def tag_slug(label):
+    """'Health & Fitness' -> 'health-fitness' (used in the address of a topic page)."""
+    t = unicodedata.normalize("NFKD", label).encode("ascii", "ignore").decode("ascii").lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def parse_tags(value):
+    """'Technology, Society' -> [{'label': 'Technology', 'slug': 'technology'}, ...]. Duplicates (same address) are dropped."""
+    out, seen = [], set()
+    for raw in (value or "").split(","):
+        label = re.sub(r"\s+", " ", raw).strip()
+        slug = tag_slug(label)
+        if label and slug and slug not in seen:
+            seen.add(slug)
+            out.append({"label": label, "slug": slug})
+    return out
+
+
 def parse_article(path):
     try:
         meta, body = split_article(path.read_text(encoding="utf-8"))
@@ -263,6 +282,7 @@ def parse_article(path):
         "source_name": source_name,
         "source_url": source_url,
         "questions": questions,
+        "tags": parse_tags(meta.get("tags", "")),
         "versions": [
             {"level": v["level"], "html": body_html(v["text"]),
              "title": v["title"] or meta["title"], "summary": v["summary"] or summary,
@@ -391,23 +411,76 @@ def level_tabs(a):
     return '<div class="vtabs" role="tablist" aria-label="Reading level" data-tabs>{}</div>'.format(tabs)
 
 
+def collect_topics(arts):
+    """[{'slug','label','arts'}] for every tag in use, biggest first. The most used spelling of a label wins."""
+    by = {}
+    for a in arts:
+        for t in a["tags"]:
+            e = by.setdefault(t["slug"], {"slug": t["slug"], "labels": {}, "arts": []})
+            e["labels"][t["label"]] = e["labels"].get(t["label"], 0) + 1
+            e["arts"].append(a)
+    out = []
+    for e in by.values():
+        label = sorted(e["labels"].items(), key=lambda kv: (-kv[1], kv[0]))[0][0]
+        out.append({"slug": e["slug"], "label": label, "arts": e["arts"]})
+    out.sort(key=lambda t: (-len(t["arts"]), t["label"].lower()))
+    return out
+
+
+def chips_html(topics, current=None):
+    if not topics:
+        return ""
+    items = ['<a class="chip" href="/"{}>All</a>'.format(' aria-current="page"' if current is None else "")]
+    items += ['<a class="chip" href="/tags/{}/"{}>{}</a>'.format(t["slug"], ' aria-current="page"' if t["slug"] == current else "", esc(t["label"])) for t in topics]
+    return '<nav class="chips" aria-label="Topics">{}</nav>'.format("".join(items))
+
+
+FINDER_JS = (
+    '(function(){var i=document.getElementById("q");if(!i)return;i.closest(".finder").hidden=false;'
+    'var c=[].slice.call(document.querySelectorAll(".gallery .card")),n=document.getElementById("nomatch");'
+    'function go(){var t=i.value.toLowerCase().split(/\\s+/).filter(Boolean),k=0;'
+    'c.forEach(function(x){var q=x.getAttribute("data-q")||"",ok=t.every(function(w){return q.indexOf(w)>-1});x.hidden=!ok;if(ok)k++});'
+    'if(n)n.hidden=k>0}'
+    'i.addEventListener("input",go);go()})();'
+)
+
+
+def filters_html(topics, current=None):
+    finder = ('<div class="finder" hidden><input type="search" id="q" placeholder="Search articles" aria-label="Search articles" '
+              'autocomplete="off" spellcheck="false"></div>')
+    return '<div class="filters">{}{}</div>'.format(chips_html(topics, current), finder)
+
+
+def search_text(a):
+    """Everything the search box looks through for one article, in lower case."""
+    bits = [a["title"], a["summary"]] + [v["title"] + " " + v["summary"] for v in a["versions"]] + [t["label"] for t in a["tags"]] + a["levels"]
+    return re.sub(r"\s+", " ", " ".join(bits)).lower()
+
+
 def card(a):
     if a["image"]:
         thumb = '<img src="{}" alt="{}" loading="lazy" decoding="async">'.format(esc(asset(a.get("thumb") or a["image"])), esc(a["image_alt"]))
     else:
         thumb = '<span class="blank">{}</span>'.format(esc(levels_label(a)))
     return (
-        '<li class="card"><div class="thumb">{thumb}</div>{meta}'
+        '<li class="card" data-q="{q}"><div class="thumb">{thumb}</div>{meta}'
         '<h2><a href="{url}">{title}</a></h2><p class="sub">{summary}</p></li>'
-    ).format(thumb=thumb, meta=card_meta(a), url=url_of(a), title=esc(a["title"]), summary=esc(a["summary"]))
+    ).format(thumb=thumb, meta=card_meta(a), url=url_of(a), title=esc(a["title"]), summary=esc(a["summary"]), q=esc(search_text(a)))
 
 
-def gallery_page(arts):
+def gallery_page(arts, topics=(), topic=None):
+    """The home page (topic is None) or the page for one topic."""
     if arts:
-        body = '<ul class="gallery">{}</ul>'.format("".join(card(a) for a in arts))
+        body = '<ul class="gallery">{}</ul><p class="empty" id="nomatch" hidden>No articles match your search.</p>'.format("".join(card(a) for a in arts))
     else:
         body = '<p class="empty">The first article is coming soon.</p>'
-    main = '<section class="banner"><div class="wrap"><h1 class="intro">{}</h1></div></section>\n<div class="wrap">{}</div>'.format(esc(SITE["tagline"]), body)
+    heading = esc(topic["label"]) if topic else esc(SITE["tagline"])
+    main = ('<section class="banner"><div class="wrap"><h1 class="intro">{}</h1></div></section>\n'
+            '<div class="wrap">{}{}</div>\n<script>{}</script>').format(heading, filters_html(topics, topic["slug"] if topic else None), body, FINDER_JS)
+    if topic:
+        return page("/tags/{}/".format(topic["slug"]), main, title=topic["label"], current="/", wide=True,
+                    desc="{} articles for English learners on johnplusnews.".format(topic["label"]),
+                    image=(arts[0]["image"] if arts else "") or None)
     return page("/", main, current="/", desc=SITE["tagline"], image=(arts[0]["image"] if arts else "") or None, wide=True)
 
 
@@ -551,6 +624,14 @@ def listen_script(a):
     return '<script src="/listen.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
 
 
+def topics_html(a):
+    """Small links to the topic pages, under the article."""
+    if not a["tags"]:
+        return ""
+    return '<nav class="topics" aria-label="Topics"><span class="topics-label">Topics</span>{}</nav>'.format(
+        "".join('<a class="chip" href="/tags/{}/">{}</a>'.format(t["slug"], esc(t["label"])) for t in a["tags"]))
+
+
 def versions_html(a):
     v = a["versions"]
     if len(v) == 1:
@@ -600,10 +681,11 @@ def article_page(a, newer, older):
 {versions}
 {after}
 {source}
+{topics}
 {pager}
 <p class="print-foot">{foot}</p>
 </article>""".format(tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(a["versions"][0]["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, title=esc(a["versions"][0]["title"]), summary=esc(a["versions"][0]["summary"]), img=img,
-                     versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), after=questions_html(a, "after"), source=source, pager=pager,
+                     topics=topics_html(a), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), after=questions_html(a, "after"), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))
     no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=a["versions"][0]["title"], desc=a["versions"][0]["summary"], image=a["image"] or None, kind="article",
@@ -656,7 +738,10 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
             dest = out_dir / item.name
             shutil.copytree(item, dest) if item.is_dir() else shutil.copy2(item, dest)
 
-    write("index.html", gallery_page(arts))
+    topics = collect_topics(arts)
+    write("index.html", gallery_page(arts, topics))
+    for t in topics:
+        write("tags/{}/index.html".format(t["slug"]), gallery_page(t["arts"], topics, t))
     write("about/index.html", about_page())
     write("404.html", not_found_page())
     for i, a in enumerate(arts):

@@ -102,7 +102,7 @@ def list_articles():
             levels = []
         rows.append({
             "slug": slug, "title": meta.get("title", slug), "date": meta.get("date", ""),
-            "levels": levels, "image": meta.get("image", ""),
+            "levels": levels, "image": meta.get("image", ""), "tags": [t["label"] for t in build.parse_tags(meta.get("tags", ""))],
             "draft": meta.get("draft", "").lower() in ("yes", "true", "1"),
         })
     rows.sort(key=lambda r: (r["date"], r["slug"]), reverse=True)
@@ -123,6 +123,7 @@ def get_article(slug):
             audio = {v["level"]: v["audio"] for v in parsed if v["audio"]}
             voices = {v["level"]: v["voice"] for v in parsed if v["audio"]}
             return {"slug": slug, "title": meta.get("title", ""), "date": meta.get("date", ""),
+                    "tags": [t["label"] for t in build.parse_tags(meta.get("tags", ""))],
                     "versions": versions, "overrides": overrides, "audio": audio, "voices": voices, "summary": meta.get("summary", ""),
                     "before": "\n".join(sets["before"]), "after": "\n".join(sets["after"]),
                     "source_name": name, "source_url": url, "image": meta.get("image", ""),
@@ -219,6 +220,8 @@ def compose(f):
     lines = ["title: " + f["title"], "date: " + f["date"]]
     if f["summary"]:
         lines.append("summary: " + f["summary"])
+    if f["tags"]:
+        lines.append("tags: " + ", ".join(f["tags"]))
     if f["source_name"] and f["source_url"]:
         lines.append("source: {} | {}".format(f["source_name"], f["source_url"]))
     elif f["source_url"]:
@@ -245,7 +248,40 @@ def compose(f):
     return "\n".join(lines) + "\n---\n" + body + "\n"
 
 
-def clean_fields(p):
+def known_tags(content_dir):
+    """The spelling already used for each tag, so 'technology' and 'Technology' never become two topics."""
+    counts = {}
+    for _, meta, _, _ in article_files(content_dir):
+        for t in build.parse_tags(meta.get("tags", "")):
+            counts.setdefault(t["slug"], {}).setdefault(t["label"], 0)
+            counts[t["slug"]][t["label"]] += 1
+    return {slug: sorted(v.items(), key=lambda kv: (-kv[1], kv[0]))[0][0] for slug, v in counts.items()}
+
+
+def clean_tags(raw, content_dir):
+    items = raw if isinstance(raw, list) else str(raw or "").split(",")
+    known = known_tags(content_dir)
+    out, seen = [], set()
+    for item in items:
+        for piece in str(item).split(","):
+            label = one_line(piece)
+            if not label:
+                continue
+            slug = build.tag_slug(label)
+            if not slug:
+                raise UserError("The tag '{}' needs some letters or numbers.".format(label))
+            if slug in seen:
+                continue
+            if len(label) > 30:
+                raise UserError("Tags should be short. '{}...' is too long (30 characters at most).".format(label[:20]))
+            seen.add(slug)
+            out.append(known.get(slug) or (label[:1].upper() + label[1:]))
+    if len(out) > 8:
+        raise UserError("Use 8 tags or fewer.")
+    return out
+
+
+def clean_fields(p, content_dir=None):
     f = {
         "title": one_line(p.get("title")), "date": one_line(p.get("date")),
         "summary": one_line(p.get("summary")), "source_name": one_line(p.get("source_name")),
@@ -256,6 +292,7 @@ def clean_fields(p):
     }
     if not f["title"]:
         raise UserError("Add a title.")
+    f["tags"] = clean_tags(p.get("tags"), content_dir or CONTENT)
     for key, label in build.QUESTION_SETS:
         qs = [one_line(q) for q in build.clean_questions((p.get(key) or "").replace("\r\n", "\n").replace("\r", "\n"))]
         if len(qs) > 12:
@@ -332,7 +369,7 @@ def clean_fields(p):
 
 def prepare(p, content_dir, static_dir):
     """Write the article (and its pictures) into the given folders. Returns (slug, title)."""
-    f = clean_fields(p)
+    f = clean_fields(p, content_dir)
     existing = p.get("slug")
     old = {}
     old_audio = {}

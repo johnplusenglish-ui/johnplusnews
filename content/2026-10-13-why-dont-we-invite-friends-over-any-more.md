@@ -1,6 +1,7 @@
 title: Why Don't We Invite Friends Over Any More?
 date: 2026-10-13
 summary: People used to regularly invite friends round for dinner or a cup of tea. But these days, many prefer meeting in cafés and restaurants. So why has entertaining at home become such a stressful experience?
+tags: Relationships, Lifestyle
 image: images/why-dont-we-invite-friends-over-any-more-3ddb96.jpg
 ---
 === Intermediate ===

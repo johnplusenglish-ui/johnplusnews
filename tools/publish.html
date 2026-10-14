@@ -52,6 +52,12 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
 .crop { width:100%; max-width:340px; aspect-ratio:3 / 2; border-radius:10px; overflow:hidden; background:var(--accent-soft); margin:12px auto 0; }
 .crop img { width:100%; height:100%; object-fit:cover; display:block; }
 .crop .none { display:flex; height:100%; align-items:center; justify-content:center; padding:10px; font-size:.875rem; color:var(--muted); }
+.pchip { display:inline-flex; align-items:center; gap:6px; font:inherit; font-size:.875rem; font-weight:600; border:1px solid var(--accent); border-radius:999px; padding:4px 11px; background:var(--accent-soft); color:var(--accent); cursor:pointer; }
+.pchip.sug { border-color:#cfd4dc; background:#fff; color:var(--text); }
+.pchip.sug:hover { border-color:var(--accent); color:var(--accent); }
+.pchip:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.pchips { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 8px; }
+.pchips:empty { display:none; }
 .linkbtn { background:none; border:0; color:var(--accent); font:inherit; font-size:.875rem; font-weight:600; cursor:pointer; padding:4px 0; }
 .linkbtn.danger { color:#b3261e; }
 .actions { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-top:8px; }
@@ -91,6 +97,13 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
 
   <div class="field"><label for="summary">Summary</label><textarea id="summary" rows="2" maxlength="300"></textarea>
     <div class="hint">The short line under the title on the gallery. Leave it empty to use the start of the article. <span id="sumCount"></span></div></div>
+
+  <div class="field"><label for="tagin">Tags (optional)</label>
+    <div class="pchips" id="tagbox"></div>
+    <input type="text" id="tagin" list="taglist" placeholder="Type a tag and press Enter" autocomplete="off" maxlength="30">
+    <datalist id="taglist"></datalist>
+    <div class="hint">Tags let students find related articles. They show as buttons on the home page and under the article, and the search box finds them too. Reuse a tag you have used before when you can, so related articles stay together. Press a tag below to add it. Press a tag above to remove it. Up to 8 tags.</div>
+    <div class="pchips" id="tagsug" style="margin-top:8px"></div></div>
 
   <div class="field"><span class="lab">Picture</span>
     <label class="drop" id="drop"><input type="file" id="file" accept="image/*" hidden><span id="dropText">Drop a picture here, click to choose one, or paste one. Landscape works best, with the main subject in the middle.</span></label>
@@ -153,6 +166,7 @@ let pic = null;            // a newly chosen picture: {name, data, url}
 let existingImage = "";    // the picture the article already has
 let removePic = false;
 let busy = false;
+let tags = [];             // tags chosen for this article
 let audioNew = {};         // newly chosen recordings by level: {name, data}
 let audioOld = {};         // recordings the article already has, by level
 let audioDel = {};         // levels whose existing recording should be removed
@@ -237,6 +251,41 @@ function overrides() { const o = {}; LEVELS.forEach(l => { if (checked(l)) o[l] 
 function setOwn(l, o) { $("vt-" + l).value = (o && o.title) || ""; $("vs-" + l).value = (o && o.summary) || ""; }
 function today() { try { return new Date().toLocaleDateString("en-CA"); } catch (e) { return ""; } }
 
+function allTags() {
+  const seen = {};
+  articles.forEach(a => (a.tags || []).forEach(t => { const k = t.toLowerCase(); if (!seen[k]) seen[k] = t; }));
+  return Object.values(seen).sort((a, b) => a.localeCompare(b));
+}
+function canonicalTag(text) {
+  const t = text.replace(/\s+/g, " ").trim();
+  if (!t) return "";
+  const known = allTags().find(x => x.toLowerCase() === t.toLowerCase());
+  return known || (t.charAt(0).toUpperCase() + t.slice(1));
+}
+function addTags(text) {
+  String(text).split(",").forEach(piece => {
+    const t = canonicalTag(piece);
+    if (t && !tags.some(x => x.toLowerCase() === t.toLowerCase()) && tags.length < 8) tags.push(t);
+  });
+  renderTags(); saveDraft();
+}
+function renderTags() {
+  const box = $("tagbox"); box.textContent = "";
+  tags.forEach(t => {
+    const b = document.createElement("button"); b.type = "button"; b.className = "pchip"; b.title = "Remove this tag"; b.textContent = t + " \u00d7";
+    b.onclick = () => { tags = tags.filter(x => x !== t); renderTags(); saveDraft(); };
+    box.appendChild(b);
+  });
+  const sug = $("tagsug"); sug.textContent = "";
+  allTags().filter(t => !tags.some(x => x.toLowerCase() === t.toLowerCase())).forEach(t => {
+    const b = document.createElement("button"); b.type = "button"; b.className = "pchip sug"; b.textContent = "+ " + t;
+    b.onclick = () => addTags(t);
+    sug.appendChild(b);
+  });
+  const dl = $("taglist"); dl.textContent = "";
+  allTags().forEach(t => { const o = document.createElement("option"); o.value = t; dl.appendChild(o); });
+}
+
 function showAudio(l) {
   const has = !!audioNew[l] || (!!audioOld[l] && !audioDel[l]);
   $("aur-" + l).hidden = !has;
@@ -282,6 +331,7 @@ function counts() {
 function resetForm() {
   editing = null; pic = null; existingImage = ""; removePic = false;
   ["title", "summary", "alt", "credit", "curl", "lic", "licurl", "clabel", "cnote", "sname", "surl", "qb", "qa"].forEach(id => $(id).value = "");
+  tags = []; $("tagin").value = ""; renderTags();
   audioNew = {}; audioOld = {}; audioDel = {};
   LEVELS.forEach(l => { $("ta-" + l).value = ""; setOwn(l, null); setChecked(l, false); $("au-" + l).value = ""; $("av-" + l).value = "Read by John"; showAudio(l); });
   $("date").value = today();
@@ -323,7 +373,7 @@ function takeFile(f) {
 function collect() {
   return {
     slug: editing, title: $("title").value, date: $("date").value, summary: $("summary").value,
-    versions: texts(), overrides: overrides(), ...audioPayload(), before: $("qb").value, after: $("qa").value, source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
+    tags: tags, versions: texts(), overrides: overrides(), ...audioPayload(), before: $("qb").value, after: $("qa").value, source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
     image_credit: $("credit").value, image_credit_url: $("curl").value,
     image_licence: $("lic").value, image_licence_url: $("licurl").value, image_credit_note: $("cnote").value, image_credit_label: $("clabel").value,
     image: pic ? { name: pic.name, data: pic.data } : null, remove_image: removePic && !pic,
@@ -343,7 +393,7 @@ function problem() {
 function saveDraft() {
   if (editing) return;
   try {
-    localStorage.setItem("jpn_draft2", JSON.stringify({ title: $("title").value, date: $("date").value, summary: $("summary").value, texts: texts(), own: overrides(), sname: $("sname").value, surl: $("surl").value, alt: $("alt").value, credit: $("credit").value, curl: $("curl").value, lic: $("lic").value, licurl: $("licurl").value, cnote: $("cnote").value, clabel: $("clabel").value, qb: $("qb").value, qa: $("qa").value }));
+    localStorage.setItem("jpn_draft2", JSON.stringify({ title: $("title").value, date: $("date").value, summary: $("summary").value, tags: tags, texts: texts(), own: overrides(), sname: $("sname").value, surl: $("surl").value, alt: $("alt").value, credit: $("credit").value, curl: $("curl").value, lic: $("lic").value, licurl: $("licurl").value, cnote: $("cnote").value, clabel: $("clabel").value, qb: $("qb").value, qa: $("qa").value }));
   } catch (e) {}
 }
 function loadDraft() {
@@ -352,7 +402,7 @@ function loadDraft() {
     if (!d) return false;
     const t = d.texts || {};
     if (!d.title && !d.qb && !d.qa && !Object.values(t).some(x => x)) return false;
-    $("title").value = d.title || ""; $("summary").value = d.summary || "";
+    $("title").value = d.title || ""; $("summary").value = d.summary || ""; tags = Array.isArray(d.tags) ? d.tags : []; renderTags();
     $("sname").value = d.sname || ""; $("surl").value = d.surl || ""; $("alt").value = d.alt || ""; $("credit").value = d.credit || ""; $("curl").value = d.curl || ""; $("lic").value = d.lic || ""; $("licurl").value = d.licurl || ""; $("cnote").value = d.cnote || ""; $("clabel").value = d.clabel || ""; $("qb").value = d.qb || ""; $("qa").value = d.qa || "";
     if (d.date) $("date").value = d.date;
     LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(t, l); setChecked(l, on); $("ta-" + l).value = on ? t[l] : ""; setOwn(l, on ? (d.own || {})[l] : null); });
@@ -376,7 +426,7 @@ function renderList() {
     acts.append(e, r); li.append(t, m, acts); ul.appendChild(li);
   });
 }
-async function refreshList() { try { articles = (await api("/api/articles")).articles; } catch (e) {} renderList(); }
+async function refreshList() { try { articles = (await api("/api/articles")).articles; } catch (e) {} renderList(); renderTags(); }
 
 async function openArticle(slug, force) {
   if (busy && !force) return;
@@ -385,6 +435,7 @@ async function openArticle(slug, force) {
     editing = a.slug; pic = null; removePic = false; existingImage = a.image || "";
     $("title").value = a.title; $("summary").value = a.summary; $("date").value = a.date;
     $("sname").value = a.source_name; $("surl").value = a.source_url; $("alt").value = a.image_alt; $("credit").value = a.image_credit || ""; $("curl").value = a.image_credit_url || ""; $("lic").value = a.image_licence || ""; $("licurl").value = a.image_licence_url || ""; $("cnote").value = a.image_credit_note || ""; $("clabel").value = a.image_credit_label || ""; $("qb").value = a.before || ""; $("qa").value = a.after || "";
+    tags = (a.tags || []).slice(); $("tagin").value = ""; renderTags();
     audioNew = {}; audioDel = {}; audioOld = a.audio || {};
     LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(a.versions, l); setChecked(l, on); $("ta-" + l).value = on ? a.versions[l] : ""; setOwn(l, on ? (a.overrides || {})[l] : null); $("au-" + l).value = ""; $("av-" + l).value = (a.voices || {})[l] || "Read by John"; showAudio(l); });
     $("file").value = "";
@@ -473,6 +524,8 @@ if (restored) setStatus("info", "Your unsent draft was restored. The picture is 
 refreshList();
 
 ["title", "summary", "sname", "surl", "alt", "credit", "curl", "lic", "licurl", "clabel", "cnote", "date", "qb", "qa"].forEach(id => $(id).addEventListener("input", () => { counts(); saveDraft(); }));
+$("tagin").addEventListener("keydown", e => { if (e.key === "Enter" || e.key === ",") { e.preventDefault(); addTags($("tagin").value); $("tagin").value = ""; } });
+$("tagin").addEventListener("change", () => { if ($("tagin").value.trim()) { addTags($("tagin").value); $("tagin").value = ""; } });
 $("file").addEventListener("change", e => takeFile(e.target.files[0]));
 $("removePic").addEventListener("click", () => { pic = null; removePic = true; $("file").value = ""; showPicture(); });
 $("previewBtn").addEventListener("click", preview);
