@@ -1,10 +1,30 @@
 title: When Did Going to a Concert Become a Luxury?
 date: 2026-10-15
-summary: Tickets to see the biggest artists now cost hundreds of pounds. Why have prices climbed so far, and who is being priced out?
+summary: Concert tickets cost far more than they used to, and young fans feel the pressure. Why are prices so high, and is live music becoming a luxury?
 tags: Music, Society
 source: The Arizona State Press and LBC | https://www.statepress.com/article/2026/09/priced-out-of-concerts
 ---
+=== Intermediate ===
+
+Imagine waiting online for three hours to buy tickets to see your favourite band. When you finally reach the front of the queue, you discover that the tickets cost twice as much as you expected. For many music fans, this situation is becoming increasingly familiar. Concert ticket prices have risen sharply, and younger people are finding it harder to afford live music.
+
+In 1996, tickets to see Oasis at Knebworth cost £22.50. For the band's 2027 tour, standard UK tickets have been advertised at prices reaching more than £260. Although prices have increased across many areas of life, some fans believe that live music is becoming a luxury rather than something everyone can enjoy.
+
+One major concern is the way tickets are sold. Some companies use a system called dynamic pricing, where prices can change depending on demand. When thousands of people want tickets at the same time, the price may increase. Another system is called tiered pricing. In this case, tickets are offered at different prices, and the cheaper ones may sell out first.
+
+During the sale for Oasis's 2025 reunion tour, some fans were shocked to discover that tickets had become much more expensive while they were waiting online. An investigation by the UK's Competition and Markets Authority later found problems with how Ticketmaster explained its different ticket prices. The company agreed to provide clearer information to customers.
+
+But ticket companies are not the only reason concerts are expensive. The cost of organising a major tour has increased. Artists must pay for transport, equipment, security, accommodation and the hundreds of people who work behind the scenes. Musicians also earn money differently today. In the past, selling albums was an important source of income. Now, with millions of people listening through streaming services, live performances have become especially valuable.
+
+However, fans are not always convinced by these explanations. In September 2026, tickets for Harry Styles concerts in Rome sold out within minutes. Soon afterwards, some appeared on resale websites for more than €1,000 each. For a young person studying at university or working their first job, that amount of money could cover a month's rent.
+
+Yet many people still pay these prices. A favourite artist might only visit their country once every few years, and fans do not want to miss the opportunity. Social media adds to the pressure. Watching friends share videos of an unforgettable concert can make those who stayed at home feel they have missed something special.
+
+Some artists have tried to make tickets more affordable, while others argue that they should be free to charge what people are willing to pay. There is no simple solution. Musicians and their teams deserve to earn a living, and large concerts are expensive to organise. But if only wealthy fans can afford to attend, something important may be lost. Music has always brought people together, regardless of their background or income. The question now is whether live concerts can continue to do the same.
+
 === Advanced ===
+
+summary: Tickets to see the biggest artists now cost hundreds of pounds. Why have prices climbed so far, and who is being priced out?
 
 For many music fans, the most stressful part of seeing their favourite artist no longer happens at the concert itself. It happens weeks or months earlier, staring at an online ticket queue, watching prices climb and wondering whether they can justify spending hundreds of pounds on a single evening. Live music has become increasingly expensive, and younger audiences are feeling the pressure. What was once a relatively affordable night out can now require months of saving, careful budgeting and a considerable amount of luck.
 
