@@ -131,7 +131,7 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
   </div>
 
   <div class="field"><span class="lab" id="qLab">Questions (optional)</span>
-    <div class="hint" style="margin:0 0 10px">Readers see these as two quiet rows that open on request, one above the article text and one below it, and both are printed in the PDF. Write one question per line. Both levels share the same questions, so keep the wording simple.</div>
+    <div class="hint" style="margin:0 0 10px">Readers see these as two quiet rows that open on request, one above the article text and one below it, and both are printed in the PDF. Write one question per line. Every level shares the same questions, so keep the wording simple enough for the Core level.</div>
     <div><label for="qb" style="font-weight:500;font-size:.875rem">Before you read (warm-up questions)</label><textarea id="qb" rows="4" placeholder="One question per line"></textarea><div class="hint" id="qbc"></div></div>
     <div style="margin-top:12px"><label for="qa" style="font-weight:500;font-size:.875rem">Talk about it (discussion questions)</label><textarea id="qa" rows="5" placeholder="One question per line"></textarea><div class="hint" id="qac"></div></div>
   </div>
@@ -479,7 +479,7 @@ async function preview() {
 async function publish() {
   waitId++;
   const p = problem(); if (p) { setStatus("err", p); return; }
-  if (!pic && (!existingImage || removePic) && !confirm("There is no picture, so the gallery card will show the levels on a coloured block. Publish anyway?")) return;
+  if (!pic && (!existingImage || removePic) && !confirm("There is no picture, so the gallery card will show its topics on a coloured block. Publish anyway?")) return;
   setBusy(true); setStatus("info", "Resizing the picture, building the site and sending it to GitHub...");
   try {
     const r = await api("/api/publish", collect());

@@ -33,7 +33,8 @@ SITE = {
 }
 
 NAV = [("/", "Articles"), ("/about/", "About")]
-LEVELS = ["Intermediate", "Advanced"]
+LEVELS = ["Core", "Intermediate", "Advanced"]
+DEFAULT_LEVEL = "Intermediate"  # the tab a new reader lands on (the first one if an article has no Intermediate)
 
 
 def esc(s):
@@ -386,6 +387,14 @@ def levels_label(a):
     return ", ".join(a["levels"])
 
 
+def default_index(versions):
+    """Index of the version shown first: Intermediate if the article has it, otherwise the first version."""
+    for i, v in enumerate(versions):
+        if v["level"] == DEFAULT_LEVEL:
+            return i
+    return 0
+
+
 def card_meta(a):
     """On a card: the topics (if any) and the date. The levels are inside the article, so they are not repeated here."""
     topics = ", ".join(t["label"] for t in a["tags"])
@@ -407,9 +416,10 @@ def level_tabs(a):
     v = a["versions"]
     if len(v) < 2:
         return ""
+    d = default_index(v)
     tabs = "".join(
         '<button type="button" role="tab" id="tab-{k}" aria-controls="v-{k}" aria-selected="{sel}" tabindex="{ti}" data-level="{k}" data-title="{t}" data-sub="{u}">{label}</button>'
-        .format(k=x["level"].lower(), sel="true" if i == 0 else "false", ti=0 if i == 0 else -1, t=esc(x["title"]), u=esc(x["summary"]), label=esc(x["level"]))
+        .format(k=x["level"].lower(), sel="true" if i == d else "false", ti=0 if i == d else -1, t=esc(x["title"]), u=esc(x["summary"]), label=esc(x["level"]))
         for i, x in enumerate(v))
     return '<div class="vtabs" role="tablist" aria-label="Reading level" data-tabs>{}</div>'.format(tabs)
 
@@ -607,6 +617,7 @@ def listen_html(a):
     """One quiet player row for each version that has a recording. static/listen.js turns the plain audio
     element into the custom player; without JavaScript the browser's own controls are used."""
     multi = len(a["versions"]) > 1
+    d = default_index(a["versions"])
     out = []
     for i, v in enumerate(a["versions"]):
         if not v["audio"]:
@@ -615,7 +626,7 @@ def listen_html(a):
         out.append(
             '<div class="listen"{id}{hidden} data-title="{title}"><div class="listen-head"><span class="listen-label">Listen</span>{voice}</div>'
             '<audio class="listen-audio" controls preload="metadata" src="{src}"></audio></div>'.format(
-                id=' id="l-{}"'.format(v["level"].lower()) if multi else "", hidden=" hidden" if multi and i > 0 else "",
+                id=' id="l-{}"'.format(v["level"].lower()) if multi else "", hidden=" hidden" if multi and i != d else "",
                 title=esc(v["title"]), voice=voice, src=esc(v["audio"])))
     return "\n".join(out)
 
@@ -639,16 +650,18 @@ def versions_html(a):
     v = a["versions"]
     if len(v) == 1:
         return '<div class="prose">\n{}\n</div>'.format(v[0]["html"])
+    d = default_index(v)
     panels = "".join(
         '<section class="panel" role="tabpanel" id="v-{k}" aria-labelledby="tab-{k}"{hidden}>'
         '<h2 class="lvl-head">{label} version</h2>'
         '<div class="prose">\n{html}\n</div></section>'
-        .format(k=x["level"].lower(), hidden="" if i == 0 else " hidden", label=esc(x["level"]), html=x["html"])
+        .format(k=x["level"].lower(), hidden="" if i == d else " hidden", label=esc(x["level"]), html=x["html"])
         for i, x in enumerate(v))
     return '<div class="panels">{}</div>\n<script>{}</script>'.format(panels, TABS_JS)
 
 
 def article_page(a, newer, older):
+    first = a["versions"][default_index(a["versions"])]
     img = ""
     if a["image"]:
         parts = []
@@ -687,11 +700,11 @@ def article_page(a, newer, older):
 {topics}
 {pager}
 <p class="print-foot">{foot}</p>
-</article>""".format(tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(a["versions"][0]["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, title=esc(a["versions"][0]["title"]), summary=esc(a["versions"][0]["summary"]), img=img,
+</article>""".format(tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
                      topics=topics_html(a), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), after=questions_html(a, "after"), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))
     no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
-    return page(url_of(a), main, title=a["versions"][0]["title"], desc=a["versions"][0]["summary"], image=a["image"] or None, kind="article",
+    return page(url_of(a), main, title=first["title"], desc=first["summary"], image=a["image"] or None, kind="article",
                 head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script() + listen_script(a))
 
 

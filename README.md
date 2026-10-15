@@ -1,6 +1,6 @@
 # johnplusnews
 
-News articles from around the world for English learners. The home page is a gallery of cards, newest first, each with a thumbnail, the heading and a short summary. Each article can be written at two levels, Intermediate and Advanced, and readers switch between them with tabs on the article page. Readers can also choose a reading font. No database, no login, no admin page. Each article is a plain text file; a small script turns the files into the site.
+News articles from around the world for English learners. The home page is a gallery of cards, newest first, each with a thumbnail, the heading and a short summary. Each article can be written at up to three levels, Core, Intermediate and Advanced, and readers switch between them with tabs on the article page. Readers can also choose a reading font. No database, no login, no admin page. Each article is a plain text file; a small script turns the files into the site.
 
 ## Add an article with the publisher (easiest)
 
@@ -8,7 +8,7 @@ Double-click `Publish an article.command`. A Terminal window opens and the publi
 
 1. Fill in the title and check the date.
 2. Choose a picture (click the box, drag a picture onto it, or paste one). It is shrunk automatically and a small copy is made for the gallery cards.
-3. Tick each level you are adding (Intermediate, Advanced). A box appears for each ticked level, so paste that level's text into it. If a level has its own headline or subheading, put them in that box's optional fields, otherwise leave them empty. Tick one level for a single version, or both to give the article tabs. Add a summary line, and a source name and link if you want them.
+3. Tick each level you are adding (Core, Intermediate, Advanced). A box appears for each ticked level, so paste that level's text into it. If a level has its own headline or subheading, put them in that box's optional fields, otherwise leave them empty. Tick one level for a single version, or two or three to give the article tabs. Add a summary line, and a source name and link if you want them.
 4. Press **Preview** to see it exactly as it will look, without publishing anything.
 5. Press **Publish**. The site is rebuilt and sent to GitHub, and the page tells you when the article is live on johnplusnews.com, usually within one to two minutes.
 
@@ -68,7 +68,7 @@ Give an article `tags:` in its header (in the publisher, the **Tags** box: type 
 
 ## Levels and tabs
 
-An article has one version for each level it is written at. There are two levels, Intermediate and Advanced. Readers get a tab for each version on the article page, and the page remembers the level they chose last, so they land on their own level in every article. If an article has only one version, there are no tabs and its level is simply shown above the title.
+An article has one version for each level it is written at. There are three levels: Core (B1), Intermediate (B2) and Advanced (C1). Readers get a tab for each version on the article page, and the page remembers the level they chose last, so they land on their own level in every article. A reader who has not chosen yet lands on Intermediate (or on the first version if an article has no Intermediate). If an article has only one version, there are no tabs and its level is simply shown above the title.
 
 By hand, an article with one version uses `level: Advanced` in the header. An article with several versions leaves `level:` out and starts each version with a marker line:
 
@@ -76,9 +76,13 @@ By hand, an article with one version uses `level: Advanced` in the header. An ar
 title: The article title
 date: 2026-10-20
 ---
+=== Core ===
+
+The simplest text goes here.
+
 === Intermediate ===
 
-The simpler text goes here.
+The middle text goes here.
 
 === Advanced ===
 
@@ -96,11 +100,11 @@ summary: A different subheading for this level
 The text starts here.
 ```
 
-When a reader switches tab, the headline, the subheading and the browser tab title change with it. The gallery card and the link preview always use the main title and summary from the top of the file, which should be the first level's. In the publisher, each level's box has optional "Headline" and "Subheading" fields for this; leave them empty to use the title and summary at the top of the form. A level can appear only once, and a level name that is not one of the two stops the build with a clear message. The gallery cards list the levels each article has.
+When a reader switches tab, the headline, the subheading and the browser tab title change with it. The gallery card and the link preview always use the main title and summary from the top of the file, which should be the Intermediate version's. In the publisher, each level's box has optional "Headline" and "Subheading" fields for this; leave them empty to use the title and summary at the top of the form. A level can appear only once, and a level name that is not one of the three stops the build with a clear message.
 
 ## Questions before and after the article
 
-An article can have two optional sets of questions: **Before you read** (warm-up questions) and **Talk about it** (discussion questions). On the page they are two quiet one-line rows, one under the picture and one under the text, closed until a reader opens them, so the article itself stays clean. The PDF always prints both open, in a tinted box. Both levels share the same questions, so keep the wording simple enough for the lower level.
+An article can have two optional sets of questions: **Before you read** (warm-up questions) and **Talk about it** (discussion questions). On the page they are two quiet one-line rows, one under the picture and one under the text, closed until a reader opens them, so the article itself stays clean. The PDF always prints both open, in a tinted box. Every level shares the same questions, so keep the wording simple enough for the Core level.
 
 In the publisher, use the two boxes called **Before you read** and **Talk about it** under the article text (one question per line, up to 12 each; a leading dash or number is dropped). Leave a box empty for no row. By hand, add these after the level texts, one question per line:
 
