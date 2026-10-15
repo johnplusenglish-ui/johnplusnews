@@ -1,10 +1,31 @@
-title: The Influencers Targeting the World's Most Isolated People
+title: The Influencers Trying to Film the World's Most Isolated People
 date: 2026-10-15
-summary: Content creators are chasing exclusive footage of the world's most isolated communities. For campaigners, the real issue is consent, and the risk is deadly disease.
+summary: Some content creators try to film communities that want to be left alone. Why is this so dangerous, and who has the right to decide?
 tags: Technology, Society
 source: The Guardian | https://www.theguardian.com/world/2026/sep/05/colonialism-for-clicks-influencers-attempting-meet-film-worlds-most-isolated-tribes
 ---
+=== Intermediate ===
+
+In March 2025, an American traveller called Mykhailo Polyakov travelled across the sea in a small inflatable boat. He was carrying a camera, a coconut and a can of Diet Coke. His destination was North Sentinel Island, a small island in the Indian Ocean. His aim was to film one of the world's most isolated communities and share the experience online. Instead, he was arrested.
+
+North Sentinel Island is home to the Sentinelese, an Indigenous community that has lived separately from the outside world for generations. They have repeatedly shown that they do not want contact with strangers. Visiting the island is illegal. The Indian government protects the area because contact with outsiders could be extremely dangerous for the people living there.
+
+Polyakov knew that visiting the island was forbidden, but he went anyway. He reached the beach, tried to attract attention by blowing a whistle and left his gifts behind. He did not meet anyone. After returning, he was arrested by Indian police. The incident raised an important question: how far should people go to produce exciting content for social media?
+
+Polyakov is not the only person who has tried to film isolated Indigenous communities. According to the organisation Survival International, there are nearly 200 uncontacted Indigenous communities around the world. Many live in remote areas of the Amazon rainforest. Some content creators see these communities as an opportunity to produce videos that could attract millions of views. The problem is that even a short visit can put people's lives at risk.
+
+Communities that have had little contact with outsiders may have limited protection against common diseases such as flu. A visitor could accidentally introduce an infection that spreads quickly through the population. There are other concerns, too. Indigenous rights organisations argue that people who have chosen to live separately should have the right to make that decision for themselves.
+
+Of course, not all videos about Indigenous communities are harmful. Some communities welcome visitors, work with documentary-makers and use social media to share their stories. Tourism can also bring money and employment. However, there is an important difference between filming people who have agreed to take part and trying to contact people who have clearly rejected outside attention.
+
+Supporters of these expeditions argue that documenting remote communities helps people learn about different ways of life. Polyakov has defended his actions, saying he wanted to share information with the wider world. Critics disagree. They argue that the desire for views, followers and online fame should never be more important than people's safety.
+
+Today, technology allows us to reach places that were once almost impossible to visit. Drones, cameras and modern transport have made the world feel smaller. But being able to visit somewhere does not necessarily mean we should. Perhaps the most important question is not whether these communities have anything to teach us, but whether we are willing to respect their wish to be left alone.
+
 === Advanced ===
+
+title: The Influencers Targeting the World's Most Isolated People
+summary: Content creators are chasing exclusive footage of the world's most isolated communities. For campaigners, the real issue is consent, and the risk is deadly disease.
 
 In March 2025, an American adventurer set off across the Bay of Bengal in a small inflatable boat. He was carrying a camera, a coconut and a can of Diet Coke. His destination was North Sentinel Island, home to one of the world's most isolated Indigenous communities. Mykhailo Polyakov hoped to capture footage that nobody else had managed to obtain. Instead, his expedition ended in arrest, a prison sentence and widespread criticism.
 
