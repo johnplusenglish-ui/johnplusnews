@@ -387,7 +387,10 @@ def levels_label(a):
 
 
 def card_meta(a):
-    return '<p class="meta"><span class="lvl">{}</span><span>{}</span></p>'.format(esc(levels_label(a)), fmt(a["date"], short=True))
+    """On a card: the topics (if any) and the date. The levels are inside the article, so they are not repeated here."""
+    topics = ", ".join(t["label"] for t in a["tags"])
+    first = '<span class="lvl">{}</span>'.format(esc(topics)) if topics else ""
+    return '<p class="meta">{}<span>{}</span></p>'.format(first, fmt(a["date"], short=True))
 
 
 def article_meta(a):
@@ -461,7 +464,7 @@ def card(a):
     if a["image"]:
         thumb = '<img src="{}" alt="{}" loading="lazy" decoding="async">'.format(esc(asset(a.get("thumb") or a["image"])), esc(a["image_alt"]))
     else:
-        thumb = '<span class="blank">{}</span>'.format(esc(levels_label(a)))
+        thumb = '<span class="blank">{}</span>'.format(esc(" \u00b7 ".join(t["label"] for t in a["tags"]) or levels_label(a)))
     return (
         '<li class="card" data-q="{q}"><div class="thumb">{thumb}</div>{meta}'
         '<h2><a href="{url}">{title}</a></h2><p class="sub">{summary}</p></li>'
