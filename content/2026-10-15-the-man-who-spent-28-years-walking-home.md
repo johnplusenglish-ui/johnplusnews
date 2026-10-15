@@ -3,6 +3,7 @@ date: 2026-10-15
 summary: After almost three decades on foot, Karl Bushby is finally close to home. But what does a man do when the journey that defined his life comes to an end?
 tags: Travel, Lifestyle
 source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/oct/13/karl-bushby-incredible-28-year-walk-home-goliath-expedition-hull
+image: images/the-man-who-spent-28-years-walking-home-9b7add.jpg
 ---
 === Advanced ===
 
