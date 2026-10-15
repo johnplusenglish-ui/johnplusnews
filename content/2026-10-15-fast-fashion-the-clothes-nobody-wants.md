@@ -3,6 +3,7 @@ date: 2026-10-13
 summary: Donated clothes are piling up in charity shops, and much of it cannot be sold. What is fast fashion doing to the clothes we no longer want?
 tags: Environment, Lifestyle
 source: The Guardian | https://www.theguardian.com/fashion/2026/oct/13/people-sell-their-best-stuff-on-vinted-how-charity-shops-became-a-dumping-ground-for-unsellable-clothes
+image: images/fast-fashion-the-clothes-nobody-wants-ea423a.jpg
 ---
 === Core ===
 
