@@ -162,6 +162,7 @@ const $ = id => document.getElementById(id);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 let editing = null;        // slug of the article being edited, or null for a new one
+let editingRev = null;     // the version of that article when it was opened
 let pic = null;            // a newly chosen picture: {name, data, url}
 let existingImage = "";    // the picture the article already has
 let removePic = false;
@@ -329,7 +330,7 @@ function counts() {
 
 /* -------------------------------------------------------------------------- form */
 function resetForm() {
-  editing = null; pic = null; existingImage = ""; removePic = false;
+  editing = null; editingRev = null; pic = null; existingImage = ""; removePic = false;
   ["title", "summary", "alt", "credit", "curl", "lic", "licurl", "clabel", "cnote", "sname", "surl", "qb", "qa"].forEach(id => $(id).value = "");
   tags = []; $("tagin").value = ""; renderTags();
   audioNew = {}; audioOld = {}; audioDel = {};
@@ -372,7 +373,7 @@ function takeFile(f) {
 
 function collect() {
   return {
-    slug: editing, title: $("title").value, date: $("date").value, summary: $("summary").value,
+    slug: editing, rev: editingRev, title: $("title").value, date: $("date").value, summary: $("summary").value,
     tags: tags, versions: texts(), overrides: overrides(), ...audioPayload(), before: $("qb").value, after: $("qa").value, source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
     image_credit: $("credit").value, image_credit_url: $("curl").value,
     image_licence: $("lic").value, image_licence_url: $("licurl").value, image_credit_note: $("cnote").value, image_credit_label: $("clabel").value,
@@ -432,7 +433,7 @@ async function openArticle(slug, force) {
   if (busy && !force) return;
   try {
     const a = await api("/api/article?slug=" + encodeURIComponent(slug));
-    editing = a.slug; pic = null; removePic = false; existingImage = a.image || "";
+    editing = a.slug; editingRev = a.rev || null; pic = null; removePic = false; existingImage = a.image || "";
     $("title").value = a.title; $("summary").value = a.summary; $("date").value = a.date;
     $("sname").value = a.source_name; $("surl").value = a.source_url; $("alt").value = a.image_alt; $("credit").value = a.image_credit || ""; $("curl").value = a.image_credit_url || ""; $("lic").value = a.image_licence || ""; $("licurl").value = a.image_licence_url || ""; $("cnote").value = a.image_credit_note || ""; $("clabel").value = a.image_credit_label || ""; $("qb").value = a.before || ""; $("qa").value = a.after || "";
     tags = (a.tags || []).slice(); $("tagin").value = ""; renderTags();

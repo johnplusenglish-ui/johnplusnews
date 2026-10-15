@@ -71,6 +71,11 @@ def run(cmd, **kw):
     return subprocess.run(cmd, cwd=kw.pop("cwd", ROOT), env=env, capture_output=True, text=True, timeout=180, **kw)
 
 
+def file_rev(path):
+    """A short fingerprint of an article file, so a form that was opened earlier cannot overwrite a newer version."""
+    return hashlib.sha1(path.read_bytes()).hexdigest()[:12]
+
+
 def article_files(content_dir):
     out = []
     for path in sorted(content_dir.glob("*.md")):
@@ -122,7 +127,7 @@ def get_article(slug):
             overrides = {v["level"]: {"title": v["title"], "summary": v["summary"]} for v in parsed}
             audio = {v["level"]: v["audio"] for v in parsed if v["audio"]}
             voices = {v["level"]: v["voice"] for v in parsed if v["audio"]}
-            return {"slug": slug, "title": meta.get("title", ""), "date": meta.get("date", ""),
+            return {"slug": slug, "rev": file_rev(path), "title": meta.get("title", ""), "date": meta.get("date", ""),
                     "tags": [t["label"] for t in build.parse_tags(meta.get("tags", ""))],
                     "versions": versions, "overrides": overrides, "audio": audio, "voices": voices, "summary": meta.get("summary", ""),
                     "before": "\n".join(sets["before"]), "after": "\n".join(sets["after"]),
@@ -378,6 +383,9 @@ def prepare(p, content_dir, static_dir):
         if not match:
             raise UserError("The article you are editing no longer exists.")
         path, old, slug = match[0][0], match[0][1], existing
+        if p.get("rev") and p["rev"] != file_rev(path):
+            raise UserError("This article was changed outside the publisher after you opened it (for example by Claude, or in another publisher window), so nothing was saved. "
+                            "Press Edit on the article again to load the latest version, then make your change again.")
         try:
             old_audio = {v["level"]: v["audio"] for v in build.parse_versions(match[0][1], match[0][2]) if v["audio"]}
         except ValueError:

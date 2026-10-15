@@ -37,7 +37,7 @@ The file name decides the web address: `2026-10-20-the-news-title.md` becomes `/
 
 ```
 title: The article title          (required)
-date: 2026-10-20                  (required, year-month-day)
+date: 2026-10-20                  (required, year-month-day; use the date of the news story, the home page lists articles newest first by this date)
 summary: One or two sentences.    (optional, shown under the title and in lists)
 tags: Technology, Society          (optional, up to 8 topics separated by commas, see Topics and search)
 level: Advanced                   (only for an article with ONE version, see Levels below)
@@ -53,6 +53,14 @@ image-credit-label: Image         (optional first word of the credit line, defau
 draft: yes                        (optional, keeps the article out of the site)
 ---
 ```
+
+## What a card on the home page shows
+
+Each card shows the picture, then the article's topics (its tags, in blue) and its date, then the headline and summary. The levels are not repeated on the card because every article page already has its level tabs. An article with no tags shows just the date, and a card with no picture shows its topics on the coloured block. Articles are listed newest first by their `date:`; for two articles with the same date the one added to the site later comes first.
+
+## If you change an article outside the publisher
+
+The publisher remembers which version of an article it opened. If the article file changes after that (for example Claude edits it, or it is open in two publisher windows) and you then press Publish or Preview on the old form, the publisher refuses with a message saying the article was changed outside the publisher, and saves nothing. Press **Edit** on the article again to load the latest version and redo your change. This stops an old form quietly overwriting newer text.
 
 ## Topics and search
 
