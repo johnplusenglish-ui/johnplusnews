@@ -3,6 +3,7 @@ date: 2026-08-12
 summary: Stricter visa checks and new limits on foreign business show a growing argument over who benefits from Bali's success.
 tags: Travel, Society
 source: Channel NewsAsia | https://www.channelnewsasia.com/asia/indonesia-bali-content-creators-influencers-visa-crackdown-6311031
+image: images/balis-foreigners-problem-who-really-benefits-from-paradise-d47e38.jpg
 ---
 === Core ===
 
