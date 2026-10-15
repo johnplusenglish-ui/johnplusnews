@@ -3,6 +3,7 @@ date: 2026-10-09
 summary: Japan has a word for death from overwork, and a shortage of workers. How is the country rethinking life in the office?
 tags: Work, Society
 source: Japan Ministry of Health, Labour and Welfare | https://www.mhlw.go.jp/stf/newpage_76612.html
+image: images/work-work-work-is-japan-rethinking-the-office-life-ba779d.jpg
 ---
 === Core ===
 
