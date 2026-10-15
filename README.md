@@ -10,9 +10,9 @@ Double-click `Publish an article.command`. A Terminal window opens and the publi
 2. Choose a picture (click the box, drag a picture onto it, or paste one). It is shrunk automatically and a small copy is made for the gallery cards.
 3. Tick each level you are adding (Core, Intermediate, Advanced). A box appears for each ticked level, so paste that level's text into it. If a level has its own headline or subheading, put them in that box's optional fields, otherwise leave them empty. Tick one level for a single version, or two or three to give the article tabs. Add a summary line, and a source name and link if you want them.
 4. Press **Preview** to see it exactly as it will look, without publishing anything.
-5. Press **Publish**. The site is rebuilt and sent to GitHub, and the page tells you when the article is live on johnplusnews.com, usually within one to two minutes.
+5. Press **Publish**. The site is rebuilt and sent to GitHub, and the page tells you when the article is live on johnplusnews.com, usually within one to two minutes. When it is live, a **View the live article** button appears under the Publish button.
 
-Your articles are listed on the right. **Edit** opens one back up (its web address stays the same) and **Remove from site** takes it off the live site.
+Your articles are listed on the right. **Edit** opens one back up (its web address stays the same), **View live** opens it on johnplusnews.com in a new tab, and **Remove from site** takes it off the live site. The editing banner at the top of the form also has a link to the live article.
 
 If GitHub does not accept the upload, the page says so. Your article is still saved on your Mac, so fix the problem and press Publish again.
 

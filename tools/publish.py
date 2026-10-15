@@ -109,6 +109,7 @@ def list_articles():
             "slug": slug, "title": meta.get("title", slug), "date": meta.get("date", ""),
             "levels": levels, "image": meta.get("image", ""), "tags": [t["label"] for t in build.parse_tags(meta.get("tags", ""))],
             "draft": meta.get("draft", "").lower() in ("yes", "true", "1"),
+            "live_url": "{}/articles/{}/".format(build.SITE["url"], slug),
         })
     rows.sort(key=lambda r: (r["date"], r["slug"]), reverse=True)
     return rows
@@ -577,7 +578,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
         url = urllib.parse.urlparse(self.path)
         q = urllib.parse.parse_qs(url.query)
         if url.path == "/":
-            body = PAGE.replace("__TOKEN__", TOKEN).replace("__LEVELS__", json.dumps(build.LEVELS)).encode()
+            body = PAGE.replace("__TOKEN__", TOKEN).replace("__LEVELS__", json.dumps(build.LEVELS)).replace("__LIVE__", build.SITE["url"]).encode()
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.send_header("Content-Length", str(len(body)))

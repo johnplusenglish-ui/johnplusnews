@@ -71,6 +71,10 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
 .status.warn { background:#fff3d4; color:#6e4b00; }
 .status.err { background:#fdeaea; color:#9b1c1c; }
 .status a { font-weight:600; }
+.status a.golive { display:inline-block; margin:8px 0 0 0; padding:9px 16px; border:1px solid #14633a; border-radius:10px; background:#fff; color:#14633a; text-decoration:none; }
+.status a.golive:hover { background:#f3fbf6; }
+.status a.golive:focus-visible { outline:2px solid var(--ink); outline-offset:2px; }
+.item .acts a { font-size:.875rem; font-weight:600; padding:4px 0; text-decoration:none; }
 .banner { background:var(--accent-soft); color:#17408f; border-radius:10px; padding:10px 14px; margin-bottom:18px; font-size:.9375rem; }
 .list { list-style:none; margin:0; padding:0; }
 .item { border-top:1px solid var(--line); padding:12px 0; }
@@ -158,6 +162,7 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
 <script>
 const TOKEN = "__TOKEN__";
 const LEVELS = __LEVELS__;
+const LIVE_BASE = "__LIVE__";
 const $ = id => document.getElementById(id);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
@@ -200,6 +205,10 @@ function setStatus(kind, parts) {
 function link(text, href) {
   const a = document.createElement("a");
   a.href = href; a.textContent = text; a.target = "_blank"; a.rel = "noopener";
+  return a;
+}
+function golive(href, text) {
+  const a = link(text, href); a.className = "golive";
   return a;
 }
 function showSignIn() {
@@ -424,7 +433,9 @@ function renderList() {
     const acts = document.createElement("div"); acts.className = "acts";
     const e = document.createElement("button"); e.type = "button"; e.className = "linkbtn"; e.textContent = "Edit"; e.onclick = () => openArticle(a.slug);
     const r = document.createElement("button"); r.type = "button"; r.className = "linkbtn danger"; r.textContent = "Remove from site"; r.onclick = () => removeArticle(a);
-    acts.append(e, r); li.append(t, m, acts); ul.appendChild(li);
+    acts.append(e);
+    if (a.live_url && !a.draft) acts.append(link("View live", a.live_url));
+    acts.append(r); li.append(t, m, acts); ul.appendChild(li);
   });
 }
 async function refreshList() { try { articles = (await api("/api/articles")).articles; } catch (e) {} renderList(); renderTags(); }
@@ -442,7 +453,8 @@ async function openArticle(slug, force) {
     $("file").value = "";
     $("formTitle").textContent = "Edit article";
     $("editing").hidden = false;
-    $("editing").textContent = "You are editing “" + a.title + "”. Its web address will stay the same. Publish to update the live site.";
+    $("editing").textContent = "You are editing “" + a.title + "”. Its web address will stay the same. Publish to update the live site. ";
+    if (a.slug) $("editing").appendChild(link("View it on the live site", LIVE_BASE + "/articles/" + a.slug + "/"));
     showPicture(); counts(); renderList(); setStatus("", null);
     window.scrollTo({ top: 0, behavior: "smooth" });
   } catch (e) { setStatus("err", e.message); }
@@ -490,7 +502,7 @@ async function publish() {
     setBusy(false);
     const live = await waitFor("/articles/" + r.slug + "/", 200, "show it");
     if (live === null) return;
-    if (live) setStatus("ok", ["It is live: ", link(r.live_url, r.live_url)]);
+    if (live) setStatus("ok", ["It is live.", document.createElement("br"), golive(r.live_url, "View the live article")]);
     else setStatus("warn", ["It was sent to GitHub but is not showing yet. Give it a few more minutes, then check ", link(r.live_url, r.live_url), "."]);
     return;
   } catch (e) { setStatus("err", e.message); }
