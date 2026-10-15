@@ -1,5 +1,5 @@
 title: When Did Going to a Concert Become a Luxury?
-date: 2026-10-15
+date: 2026-10-01
 summary: Concert tickets cost far more than they used to, and young fans feel the pressure. Why are prices so high, and is live music becoming a luxury?
 tags: Music, Society
 source: The Arizona State Press and LBC | https://www.statepress.com/article/2026/09/priced-out-of-concerts

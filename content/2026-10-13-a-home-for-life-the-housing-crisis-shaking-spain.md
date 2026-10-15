@@ -1,5 +1,5 @@
 title: A home for life? The housing crisis shaking Spain
-date: 2026-10-13
+date: 2026-10-09
 summary: The eviction and death of an 87-year-old woman in Madrid have sparked protests across Spain, raising serious questions about the country's growing housing crisis.
 tags: Society, Politics
 image: images/a-home-for-life-the-housing-crisis-shaking-spain-1b57b3.jpg

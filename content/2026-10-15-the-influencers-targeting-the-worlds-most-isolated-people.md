@@ -1,5 +1,5 @@
 title: The Influencers Trying to Film the World's Most Isolated People
-date: 2026-10-15
+date: 2026-09-05
 summary: Some content creators try to film communities that want to be left alone. Why is this so dangerous, and who has the right to decide?
 tags: Technology, Society
 source: The Guardian | https://www.theguardian.com/world/2026/sep/05/colonialism-for-clicks-influencers-attempting-meet-film-worlds-most-isolated-tribes
