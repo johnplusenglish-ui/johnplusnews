@@ -3,6 +3,7 @@ date: 2026-07-15
 summary: Companies know that shoppers care about the planet, and many advertise accordingly. How can you tell a real green claim from a misleading one?
 tags: Environment, Society
 source: UK Advertising Standards Authority | https://www.asa.org.uk/rulings/eurowings-gmbh---a26-1326605-eurowings-gmbh.html
+image: images/greenwashing-are-companies-selling-us-a-greener-story-4aca0c.jpg
 ---
 === Core ===
 
