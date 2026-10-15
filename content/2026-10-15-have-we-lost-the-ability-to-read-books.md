@@ -3,6 +3,7 @@ date: 2026-08-02
 summary: Many of us still want to read, but our attention keeps slipping away. Is there a way to get the habit back?
 tags: Culture, Technology
 source: The Guardian | https://www.theguardian.com/books/2026/aug/02/could-a-couch-to-5k-for-books-get-you-back-into-reading
+image: images/have-we-lost-the-ability-to-read-books-b17042.jpg
 ---
 === Core ===
 
