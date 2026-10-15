@@ -3,6 +3,7 @@ date: 2026-10-02
 summary: After another very hot European summer, more travellers are heading north for cooler weather. Is the coolcation here to stay?
 tags: Travel, Environment
 source: BBC News | https://www.bbc.co.uk/news/articles/c74gp1024lpo
+image: images/the-rise-of-the-coolcation-are-we-falling-out-of-love-with-hot-holidays-a06056.jpg
 ---
 === Core ===
 
