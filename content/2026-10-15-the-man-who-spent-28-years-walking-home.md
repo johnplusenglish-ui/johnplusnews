@@ -1,11 +1,27 @@
 title: The Man Who Spent 28 Years Walking Home
-date: 2026-10-15
-summary: After almost three decades on foot, Karl Bushby is finally close to home. But what does a man do when the journey that defined his life comes to an end?
+date: 2026-10-13
+summary: In 1998, Karl Bushby started walking home to Hull from the bottom of South America. Almost 28 years later, he is nearly there.
 tags: Travel, Lifestyle
 source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/oct/13/karl-bushby-incredible-28-year-walk-home-goliath-expedition-hull
 image: images/the-man-who-spent-28-years-walking-home-9b7add.jpg
 ---
+=== Intermediate ===
+
+Most people travel home by car, train or plane. Karl Bushby decided to walk. The problem was that his journey began on the other side of the world, and getting home would take him almost 28 years. In November 1998, the former British soldier left Punta Arenas, a city near the southern tip of Chile. His plan was to walk all the way back to Hull, his hometown in northern England. He was 29 years old, had only $500 and expected the journey to take about 12 years.
+
+Bushby gave himself two strict rules. He could not use any form of transport to move forward on his route, and he could not return home until he had completed the journey. His expedition, called the Goliath Expedition, eventually took him through dozens of countries and some of the most dangerous places on Earth. He began by travelling north through South America. In Colombia, he crossed the Darién Gap, a dangerous area of jungle where travellers face difficult conditions and the threat of armed groups. Bushby was threatened with guns, but he managed to continue.
+
+After travelling through Central and North America, he reached Alaska. In 2006, he and another explorer crossed the frozen Bering Strait into Russia. The journey took two weeks and was extremely dangerous. The ice was unstable, and falling into the freezing water could have killed them. But surviving dangerous conditions was only part of the challenge. Problems with visas, money and international borders delayed the expedition for years. At one point, Bushby was arrested in Russia. Later, the pandemic made travelling even more difficult.
+
+In 2024, he crossed the Caspian Sea by swimming with a small support team. He then continued through Azerbaijan, Georgia, Turkey and Europe. On 5 October 2026, Bushby finally reached British soil after swimming across the English Channel. Almost 28 years after leaving Chile, he was back in his home country, although he still had several hundred kilometres to walk before reaching Hull.
+
+The journey has cost him more than money and physical effort. Bushby left behind a young son, missed important family events and found it difficult to maintain relationships. His son is now an adult. However, the expedition also changed the way Bushby sees the world. He says that strangers in many different countries helped him when he needed food, somewhere to sleep or medical assistance. Their kindness surprised him and made him more positive about people.
+
+Now Bushby faces a completely different kind of challenge. For almost three decades, his life has been organised around one goal: getting home. Soon, that goal will be achieved. But after spending so long travelling, he will have to learn how to live an ordinary life again. Perhaps the most difficult part of his extraordinary journey will be deciding what to do next.
+
 === Advanced ===
+
+summary: After almost three decades on foot, Karl Bushby is finally close to home. But what does a man do when the journey that defined his life comes to an end?
 
 When Karl Bushby arrived in Dover earlier this month, one of his first priorities was a plate of fish and chips. It was an ordinary meal, but for the 57-year-old former British soldier, it marked an extraordinary moment: he was back on British soil after spending almost three decades trying to walk home.
 
