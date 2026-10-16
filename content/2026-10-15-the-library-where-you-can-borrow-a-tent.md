@@ -3,6 +3,13 @@ date: 2026-10-07
 summary: America's first public nature library lets visitors borrow tents, binoculars and wildlife tools. Could it get more people outdoors?
 tags: Society, Environment
 source: The Guardian | https://www.theguardian.com/environment/2026/oct/07/nature-library-colorado-us-wilderness-stargazing-camping-outdoors-aoe
+image: images/the-library-where-you-can-borrow-a-tent-2d582e.jpg
+image-alt: Shelves in the Portsmouth Library of Things holding a sewing machine, garden tools, kitchen equipment and a booster seat, decorated with colourful bunting.
+image-credit: Tim Sheerman-Chase
+image-credit-url: https://commons.wikimedia.org/wiki/File:Inside_Portsmouth_Library_of_Things.jpg
+image-licence: CC BY 2.0
+image-licence-url: https://creativecommons.org/licenses/by/2.0/
+image-credit-note: A library of things in Portsmouth, England, via Wikimedia Commons, cropped and resized
 ---
 === Core ===
 
