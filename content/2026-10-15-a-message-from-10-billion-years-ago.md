@@ -3,6 +3,7 @@ date: 2026-10-09
 summary: Astronomers have traced a brief radio burst to a galaxy more than ten billion years old. What can a split-second signal reveal?
 tags: Science, Space
 source: The Guardian | https://www.theguardian.com/science/2026/oct/09/astronomy-fast-radio-bursts-frb-radio-waves
+image: images/a-message-from-10-billion-years-ago-661311.jpg
 ---
 === Core ===
 
