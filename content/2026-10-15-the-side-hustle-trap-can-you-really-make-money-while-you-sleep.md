@@ -3,7 +3,7 @@ date: 2026-10-13
 summary: Social media is full of promises of easy passive income. What do the figures say about how much side hustles really earn?
 tags: Business, Work
 source: The Guardian | https://www.theguardian.com/business/ng-interactive/2026/oct/13/influencers-passive-income-side-hustles
-image: images/the-side-hustle-trap-can-you-really-make-money-while-you-sleep-85e286.jpg
+image: images/the-side-hustle-trap-can-you-really-make-money-while-you-sleep-95de1c.jpg
 ---
 === Core ===
 
