@@ -3,6 +3,7 @@ date: 2026-10-04
 summary: Free returns make online shopping feel risk-free, but sending goods back costs retailers money and harms the environment. Who really pays?
 tags: Business, Environment
 source: The Guardian | https://www.theguardian.com/business/2026/oct/04/retailers-returns-small-business
+image: images/the-hidden-cost-of-free-returns-who-really-pays-e3912f.jpg
 ---
 === Core ===
 
