@@ -3,6 +3,7 @@ date: 2026-10-11
 summary: At 41, Eliud Kipchoge won the Melbourne Marathon in a record time. What does his success say about age and ambition?
 tags: Sport, Lifestyle
 source: ABC News Australia | https://www.abc.net.au/news/2026-10-11/running-legend-kipchoge-sets-race-record-at-melbourne-marathon/107252768
+image: images/the-marathon-legend-who-refuses-to-get-old-197cf9.jpg
 ---
 === Core ===
 
