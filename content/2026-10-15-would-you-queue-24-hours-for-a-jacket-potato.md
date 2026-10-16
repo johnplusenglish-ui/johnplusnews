@@ -3,6 +3,7 @@ date: 2026-09-10
 summary: Social media can turn a simple jacket potato into a reason to queue for 24 hours. Is going viral good for small restaurants?
 tags: Food, Culture
 source: The Guardian | https://www.theguardian.com/food/2026/sep/10/people-waited-24-hours-for-a-potato-how-viral-queues-help-and-harm-restaurants
+image: images/would-you-queue-24-hours-for-a-jacket-potato-332ed3.jpg
 ---
 === Core ===
 
