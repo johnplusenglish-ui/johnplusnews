@@ -3,6 +3,13 @@ date: 2026-10-16
 summary: A science teacher wakes up alone on a spaceship with no memory and one job: save the Sun. Why has a film about thinking, not fighting, been such a hit?
 tags: Culture, Science
 source: Scientific American | https://www.scientificamerican.com/article/how-accurate-is-the-science-in-project-hail-mary/
+image: images/project-hail-mary-the-space-adventure-that-makes-science-exciting-9eee01.jpg
+image-alt: NASA astronaut Kjell Lindgren takes a selfie in a packed auditorium at the Jet Propulsion Laboratory, with Ryan Gosling, Sandra Hüller, Andy Weir and the film's directors in the front row.
+image-credit: NASA/Dan Goods
+image-credit-url: https://www.jpl.nasa.gov/images/inside-project-hail-mary/
+image-licence: NASA image use policy
+image-licence-url: https://www.jpl.nasa.gov/jpl-image-use-policy/
+image-credit-note: the film's cast and crew visit NASA's Jet Propulsion Laboratory, February 2026, resized
 ---
 === Core ===
 
