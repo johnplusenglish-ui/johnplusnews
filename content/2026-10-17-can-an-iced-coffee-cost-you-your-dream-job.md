@@ -1,0 +1,65 @@
+title: Can an Iced Coffee Cost You Your Dream Job?
+date: 2026-09-24
+summary: A recruiter's warning about iced coffee at interviews started an argument about manners, generations and what employers should really be judging.
+tags: Work, Society
+source: BBC World Service | https://www.bbc.co.uk/programmes/w3ct8q64
+---
+=== Core ===
+
+summary: A recruiter said that bringing an iced coffee to a job interview looks too relaxed. Is she right, or is the rule unfair?
+
+Imagine preparing carefully for a job interview. You choose your clothes, research the company and practise your answers. You buy an iced coffee. Could that final decision damage your chances of getting the job? In September 2026, a discussion about this simple drink became a huge argument online. A recruiter in Florida suggested that young people who arrive at interviews holding iced coffees can look too relaxed. Some people agreed with her. Others thought the idea was ridiculous.
+
+The recruiter, Caitlin Wehniainen, has worked in recruitment for 16 years. In a TikTok video, she explained that turning up with a drink might give the impression that the interview is just another activity in a busy day. She was mainly talking about formal office jobs, not every kind of workplace. Later, she said her advice depended on the company and the situation. She wanted candidates to make a good first impression.
+
+For some younger people, the reaction seemed unfair. They pointed out that coffee has nothing to do with someone's ability to do a job. Older employees also take drinks into meetings, so why should an iced latte be a problem? Supporters of the recruiter replied that an interview is a special occasion. They believe small choices can show whether someone understands the workplace and takes the opportunity seriously.
+
+The debate is about more than coffee. Different generations do not always agree about professional behaviour. In some offices, smart clothes and formal greetings are still expected. In others, trainers, relaxed language and flexible hours are normal. Young applicants may find it difficult to know which rules apply, especially when advice on social media is often contradictory.
+
+There is another issue: fairness. The professional body CIPD recommends structured interviews, where candidates answer the same questions and are judged using clear criteria. This can reduce the influence of personal opinions. Someone's skills and experience should carry more weight than whether they are holding a plastic cup. First impressions matter, but they can also be misleading.
+
+So what should an applicant do? It makes sense to learn about the company, arrive on time and be ready to explain what you can offer. Finishing your coffee beforehand might avoid an unnecessary distraction at a traditional workplace. But the bigger question is for employers: are they hiring the person who can do the job, or simply the person who follows their unwritten rules?
+
+=== Intermediate ===
+
+By the time you reach a job interview, you have probably spent hours preparing. You have researched the company, checked the journey and rehearsed how to describe your strengths without sounding unbearable. Then you walk through the door carrying an iced latte. According to one American recruiter, that small detail could work against you. In September 2026, advice from a Florida recruitment specialist became an unlikely internet controversy, dividing people over whether a takeaway coffee is a harmless drink or a sign that someone doesn't take an interview seriously.
+
+Caitlin Wehniainen, who has spent 16 years recruiting staff, suggested in a TikTok video that candidates arriving with iced coffee can appear too casual, particularly when applying to formal corporate employers. Her concern was less about caffeine than the impression it creates. She argued that an interview should not look like one more errand squeezed into a crowded morning. After the backlash, she clarified that her advice was not a universal rule. What seems inappropriate in a traditional office might be perfectly normal at a warehouse, a technology company or a creative business.
+
+The response revealed a familiar clash of expectations between generations. Some viewers accused employers of inventing arbitrary rules while overlooking qualities that actually matter. Others defended the importance of courtesy and preparation. A candidate might argue that drinking coffee says nothing about their competence, yet employers may still notice how applicants behave towards receptionists, whether they listen carefully and how confidently they introduce themselves. The difficulty is separating genuinely useful signals from personal preferences disguised as professional standards.
+
+Workplace etiquette has changed considerably. Tattoos, trainers and informal emails are no longer automatically seen as unacceptable in many industries. Remote interviews have brought their own awkward questions about backgrounds, cameras and what counts as suitable clothing. Young applicants are expected to adapt, but the rules are rarely written down. It is hardly surprising that a 30-minute interview can feel like a complicated test of social behaviour rather than an opportunity to demonstrate skills.
+
+There is evidence that initial impressions can influence how interviewers evaluate later answers. This matters because those impressions are not always related to performance. The Chartered Institute of Personnel and Development recommends structured interviews, with consistent questions and agreed scoring criteria, as a way to improve fairness. An employer who judges a candidate largely on their drink could overlook someone excellent, while rewarding another person for knowing the unspoken rules of the room.
+
+There is practical advice for applicants nevertheless. Research the company, prepare thoughtful examples of your work and avoid anything that might distract you during the conversation. Leaving the iced coffee outside a particularly formal interview is an easy precaution. But the controversy also asks something of employers. If finding talent is the purpose of recruitment, perhaps they should be more interested in what candidates know than what they are carrying.
+
+=== Advanced ===
+
+summary: A recruiter's warning about takeaway coffee at interviews exposed an awkward truth: the unwritten rules of hiring may say more about employers than about candidates.
+
+For anyone already nervous about a job interview, the modern recruitment process offers a bewildering range of potential mistakes. Arrive too early and you appear overeager. Dress too formally and you may look out of place. Forget to research the interviewer and you risk seeming unprepared. In September 2026, the list acquired an unlikely addition: the iced latte. A Florida recruiter's warning against arriving with takeaway coffee set off an argument about professionalism, generational stereotypes and the increasingly elaborate rules imposed on young jobseekers.
+
+Caitlin Wehniainen, a recruitment specialist with 16 years' experience, suggested that carrying an iced coffee into a formal corporate interview could convey the wrong impression. Rather than appearing focused on an important opportunity, a candidate might look as though the meeting were another stop between errands. Her comments prompted a spirited backlash, with critics asking why an ordinary drink should overshadow somebody's ability to perform a job. Wehniainen subsequently emphasised that her advice was contextual, not a blanket prohibition. What counts as appropriate varies enormously between industries, organisations and individual roles.
+
+The controversy was amusing, but it exposed an awkward contradiction in recruitment. Employers insist they want independent thinkers with confidence and initiative, yet applicants are often encouraged to demonstrate their suitability by observing unwritten conventions. These may include how to dress, when to speak, whether to send a follow-up email and apparently how to consume caffeine. Such expectations can act as cultural filters, favouring candidates already familiar with particular professional environments. A small detail becomes a proxy for seriousness, even where there is little evidence that it predicts performance.
+
+There are legitimate reasons to pay attention to interview conduct. Turning up punctually, treating staff respectfully and listening to questions can reveal something about reliability and interpersonal skills. But professional norms are not fixed. Visible tattoos, informal clothing and remote working were once viewed far more suspiciously than they are now. A practice considered disrespectful by one manager may barely register with another. As younger workers enter the labour market, debates about manners often conceal deeper disagreements over authority, conformity and who gets to define an acceptable professional identity.
+
+Recruitment research adds a cautionary note. Studies suggest that first impressions formed during the opening moments of interviews can influence subsequent assessments, even when later questions are highly structured. The CIPD consequently advocates consistent, job-related questions and explicit scoring criteria to reduce bias. None of this means social behaviour is irrelevant. It means employers should be able to explain why a particular behaviour matters, rather than relying entirely on instinct or nostalgia for an imagined golden age of workplace etiquette.
+
+Candidates would still be wise to read the room. Bringing a drink to an informal conversation at a creative studio is different from juggling a cup during a tightly scheduled corporate panel interview. Avoiding an unnecessary distraction is sensible, not a surrender to outdated authority. Yet the burden of good judgement belongs to interviewers too. If a recruitment decision turns on the presence of an iced coffee rather than the candidate's experience, preparation and judgement, the person being assessed may not be the only one who should feel uncomfortable.
+
+=== Before you read ===
+
+- What small things might affect an interviewer's first impression?
+- Would you bring a drink into a job interview? Why?
+- Which workplace rules seem old-fashioned to you?
+
+=== Talk about it ===
+
+- Should an employer judge a candidate for bringing an iced coffee to an interview?
+- Are dress codes and manners important, or should skills matter more?
+- How might expectations differ between a bank and a design studio?
+- Have you ever been judged unfairly because of your age or appearance?
+- Should job interviews use the same questions and scoring system for everyone?
