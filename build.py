@@ -657,13 +657,13 @@ LANG_JS = (
     'var KEY="jpn_kl_blur";function blurOn(){try{return localStorage.getItem(KEY)==="1"}catch(e){return false}}'
     'function applyBlur(on){[].slice.call(document.querySelectorAll(".kl-box")).forEach(function(b){b.classList.toggle("kl-blur",on);'
     'var t=b.querySelector(".kl-toggle");if(t){t.textContent=on?"Show meanings":"Hide meanings";t.setAttribute("aria-pressed",on?"true":"false")}'
-    'var n=b.querySelector(".kl-note");if(n)n.textContent=on?"Tap an item to reveal its meaning":"Tap an item to copy it";'
+    'var n=b.querySelector(".kl-note");if(n)n.textContent=on?"Tap an item to reveal its meaning":"";'
     'if(!on)[].slice.call(b.querySelectorAll(".kl-m.kl-show")).forEach(function(m){m.classList.remove("kl-show")})})}'
     'applyBlur(blurOn());'
     'document.addEventListener("click",function(e){var q=function(sel){return e.target.closest?e.target.closest(sel):null};'
     'var tg=q(".kl-toggle");if(tg){var on=!blurOn();try{localStorage.setItem(KEY,on?"1":"0")}catch(x){}applyBlur(on);return}'
     'var c=q(".kl-copy");if(c){var box=c.closest(".kl-box"),lines=[].slice.call(box.querySelectorAll(".kl-row")).map(function(r){return r.getAttribute("data-line")});copyText(lines.join("\\n"),function(){flash(c,"Copied")});return}'
-    'var row=q(".kl-row");if(row){var m=row.querySelector(".kl-m");if(row.closest(".kl-box").classList.contains("kl-blur")){m.classList.toggle("kl-show")}else{copyText(row.getAttribute("data-line"),function(){flash(m,"Copied")})}return}'
+    'var row=q(".kl-row");if(row){if(row.closest(".kl-box").classList.contains("kl-blur"))row.querySelector(".kl-m").classList.toggle("kl-show");return}'
     'var k=q(".kl");if(!k){if(!q(".kl-pop"))close();return}'
     'if(pop&&pop.kl===k)close();else open(k)});'
     'document.addEventListener("keydown",function(e){if(e.key==="Escape")close();'
@@ -797,8 +797,8 @@ def topics_html(a):
 
 def language_html(items):
     """A collapsible tinted box above a level's text, as a task before reading: three short lists (adjectives, phrasal
-    verbs, phrases), each item with a short meaning. Closed until opened; the PDF prints it open. Tapping an
-    item copies it, Copy list copies them all, and Hide meanings blurs the definitions so readers can test themselves."""
+    verbs, phrases), each item with a short meaning. Closed until opened; the PDF prints it open. Copy list copies the items, and
+    Hide meanings blurs the definitions so readers can test themselves, tapping an item to reveal it."""
     if not items:
         return ""
     cols = []
@@ -813,7 +813,7 @@ def language_html(items):
         cols.append('<div class="kl-col"><h3 class="kl-h">{}</h3><ul class="kl-list">{}</ul></div>'.format(label, lis))
     n = len(items)
     return ('<details class="kl-box"><summary><span class="kl-title">Useful language</span><span class="kl-count">{n} item{s}</span>{chev}</summary>'
-            '<div class="kl-body"><div class="kl-head"><span class="kl-note">Tap an item to copy it</span><span class="kl-btns"><button type="button" class="kl-toggle">Hide meanings</button>'
+            '<div class="kl-body"><div class="kl-head"><span class="kl-note"></span><span class="kl-btns"><button type="button" class="kl-toggle">Hide meanings</button>'
             '<button type="button" class="kl-copy">Copy list</button></span></div>'
             '<div class="kl-cols">{cols}</div></div></details>').format(n=n, s="" if n == 1 else "s", chev=CHEVRON_ICON, cols="".join(cols))
 
