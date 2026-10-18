@@ -55,7 +55,7 @@ The experience raises an uncomfortable distinction. Forgiving someone does not r
 - set up (phrasal verb): to organise or arrange something
 - turn out (phrasal verb): to prove to be the case in the end; to happen in a particular way
 - let go of (phrase): to stop holding on to something, including a feeling
-- keep someone in the dark (idiom): to keep someone without information about something
+- keep someone in the dark (phrase): to keep someone without information about something
 - stay in touch (phrase): to keep contacting someone over time
 - play a part (phrase): to be involved in making something happen
 

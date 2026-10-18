@@ -335,7 +335,7 @@ function counts() {
     const words = ($("ta-" + l).value.trim().match(/\S+/g) || []).length;
     $("wc-" + l).textContent = words ? words + " words." : "";
     const ln = $("lg-" + l).value.split("\n").filter(x => x.trim()).length;
-    $("lgc-" + l).textContent = (ln ? ln + (ln === 1 ? " item. " : " items. ") : "") + "Each item is underlined where its exact words appear in the text and listed under the article with its meaning. Types: adjective, phrasal verb, idiom or phrase.";
+    $("lgc-" + l).textContent = (ln ? ln + (ln === 1 ? " item. " : " items. ") : "") + "Each item is underlined where its exact words appear in the text and listed under the article with its meaning. Types: adjective, phrasal verb, phrase.";
   });
   [["qb", "qbc"], ["qa", "qac"]].forEach(([a, b]) => {
     const n = $(a).value.split("\n").filter(x => x.trim()).length;

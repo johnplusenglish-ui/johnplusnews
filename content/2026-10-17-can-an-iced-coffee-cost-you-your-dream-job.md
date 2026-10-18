@@ -56,7 +56,7 @@ There is practical advice for applicants nevertheless. Research the company, pre
 - write down (phrasal verb): to record something in writing
 - hardly surprising (phrase): not surprising at all
 - the unspoken rules (phrase): rules that everyone is expected to know even though nobody states them
-- err on the side of caution (idiom): to choose the safer option when you are not sure
+- err on the side of caution (phrase): to choose the safer option when you are not sure
 
 === Advanced ===
 
@@ -84,7 +84,7 @@ Candidates would still be wise to read the room. Bringing a drink to an informal
 - turn on (phrasal verb): to depend on one particular thing
 - a proxy for (phrase): something used as a stand-in or substitute measure for something else
 - a golden age (phrase): a period in the past imagined as better than today
-- read the room (idiom): to sense the mood of the people around you and act accordingly
+- read the room (phrase): to sense the mood of the people around you and act accordingly
 
 === Before you read ===
 

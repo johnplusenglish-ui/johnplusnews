@@ -207,7 +207,7 @@ SET_KEYS = {label.lower(): key for key, label in QUESTION_SETS}
 #   - turn up (phrasal verb): to arrive somewhere
 LANG_MARK = re.compile(r"^(" + "|".join(LEVELS) + r") language$", re.I)
 LANG_LINE = re.compile(r"^(.+?)\s*\(([A-Za-z][A-Za-z /-]*)\)\s*:\s*(.+)$")
-LANG_GROUPS = [("adjective", "Adjectives"), ("phrasal", "Phrasal verbs"), ("phrase", "Idioms and phrases"), ("other", "Other words")]
+LANG_GROUPS = [("adjective", "Adjectives"), ("phrasal", "Phrasal verbs"), ("phrase", "Phrases"), ("other", "Other words")]
 
 
 def lang_group(kind):
@@ -797,7 +797,7 @@ def topics_html(a):
 
 def language_html(items):
     """A collapsible tinted box above a level's text, as a task before reading: three short lists (adjectives, phrasal
-    verbs, idioms and phrases), each item with a short meaning. Closed until opened; the PDF prints it open. Tapping an
+    verbs, phrases), each item with a short meaning. Closed until opened; the PDF prints it open. Tapping an
     item copies it, Copy list copies them all, and Hide meanings blurs the definitions so readers can test themselves."""
     if not items:
         return ""
