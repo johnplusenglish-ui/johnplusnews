@@ -40,7 +40,7 @@ Moore had travelled to Somalia in January 2012 to investigate piracy and its eff
 
 After his release in September 2014, Moore wanted to understand what had happened. Rather than immediately cutting off contact, he began exchanging messages with Tahlil. The conversations supplied details that helped him research The Desert and the Sea, his book about captivity. Yet Tahlil had his own reasons for staying in touch. He told Moore that he was frightened in Somalia and wanted to find a way to reach the United States. Moore informed the FBI, which was already investigating the kidnapping, and eventually agreed to help set up an operation to bring Tahlil to America.
 
-In August 2018, Tahlil arrived in New York expecting a new opportunity. Federal agents arrested him instead. At first, Moore felt uneasy about having played a part in the arrest. He had sometimes seen Tahlil as a minor figure, rather than one of the people responsible for organising the violence. Later court evidence changed his understanding. Prosecutors presented Tahlil as a more influential participant who had controlled weapons used by the pirate group. Another defendant, Abdi Yusuf Hassan, was linked to the operation and its ransom demands.
+In August 2018, Tahlil arrived in New York expecting a new opportunity. Federal agents arrested him instead. At first, Moore felt uneasy about having played a part in the arrest. He had sometimes seen Tahlil as a minor figure, rather than one of the people responsible for organising the violence. Later court evidence turned out to tell a different story. Prosecutors presented Tahlil as a more influential participant who had controlled weapons used by the pirate group. Another defendant, Abdi Yusuf Hassan, was linked to the operation and its ransom demands.
 
 Both men were convicted in 2023 of serious crimes connected with the kidnapping and were sentenced to 30 years in prison in 2024. Moore supported accountability, but the outcome did not bring him the simple satisfaction outsiders might expect. He questioned whether every offender deserved the same punishment and whether a courtroom could provide the peace that years of captivity had taken from him. His views had changed, but questions about forgiveness remained.
 
@@ -53,7 +53,8 @@ The experience raises an uncomfortable distinction. Forgiving someone does not r
 - uneasy (adjective): slightly worried or uncomfortable
 - cut off (phrasal verb): to stop or end something, for example contact with a person
 - set up (phrasal verb): to organise or arrange something
-- let go of (phrasal verb): to stop holding on to something, including a feeling
+- turn out (phrasal verb): to prove to be the case in the end; to happen in a particular way
+- let go of (phrase): to stop holding on to something, including a feeling
 - keep someone in the dark (idiom): to keep someone without information about something
 - stay in touch (phrase): to keep contacting someone over time
 - play a part (phrase): to be involved in making something happen

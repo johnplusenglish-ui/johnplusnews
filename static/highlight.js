@@ -136,7 +136,7 @@
       st.ol.appendChild(li);
     });
     st.box.hidden = !st.items.length;
-    if (hint) hint.hidden = wasUsed();
+    hints.forEach(function (h) { h.hidden = wasUsed(); });
   }
 
   function addItem(sel) {
@@ -184,15 +184,17 @@
   }
 
   /* ------------------------------------------------------------------ hint line */
-  var hint = null;
+  var hints = [];
   function buildHint() {
-    var first = proses[0];
-    var anchor = first.closest ? (first.closest(".panels") || first) : first;
-    hint = document.createElement("p");
-    hint.className = "hl-hint";
-    hint.textContent = "Select any words to highlight them. They are collected under the text.";
-    hint.hidden = wasUsed();
-    anchor.parentNode.insertBefore(hint, anchor);
+    /* one hint directly above each text, so it stays next to the text whatever sits above it */
+    proses.forEach(function (prose) {
+      var h = document.createElement("p");
+      h.className = "hl-hint";
+      h.textContent = "Select any words to highlight them. They are collected under the text.";
+      h.hidden = wasUsed();
+      prose.parentNode.insertBefore(h, prose);
+      hints.push(h);
+    });
   }
 
   /* ------------------------------------------------------------------ the pill */

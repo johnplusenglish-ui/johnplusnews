@@ -40,7 +40,7 @@ The setting made the robbery particularly striking. The Renoir Museum in Cagnes-
 
 The breakthrough was less glamorous than the theft itself. Police found DNA on a protective cover left behind at the scene. It matched a man already known to investigators, whose vehicle was being monitored in another inquiry. Tracking information, communications evidence and further surveillance helped officers piece together movements after the burglary. Rather than guessing which collector might secretly want a Renoir, investigators tracked down the suspects through the ordinary mistakes they had made.
 
-Then the case became more urgent. Police observed that one suspect had visited the Maeght Foundation, another institution with important works of art. Prosecutors believed a second theft might be imminent. Officers moved to arrest suspects before it could happen. Six people were arrested in total, and four men received preliminary charges connected with the theft or handling stolen goods. Those charges were allegations to be tested through the legal process, not convictions.
+Then the case became more urgent. Police observed that one suspect had visited the Maeght Foundation, another institution with important works of art. Prosecutors believed a second theft might be imminent. Officers moved in to arrest the suspects before it could happen. Six people were arrested in total, and four men received preliminary charges connected with the theft or handling stolen goods. Those charges were allegations to be tested through the legal process, not convictions.
 
 The missing paintings were recovered from behind a concealed wall beneath a staircase in a house. Their survival came as a relief, though one had suffered a tear and the other damage to its frame. The French Ministry of Culture announced that specialists would examine the works in Marseille before they returned to Cagnes-sur-Mer. The paintings had escaped permanent disappearance, but not the consequences of being handled as criminal property.
 
@@ -51,7 +51,7 @@ The investigation reopened an uncomfortable debate about museum security. A smal
 - striking (adjective): unusual and attracting attention
 - imminent (adjective): about to happen very soon
 - priceless (adjective): so valuable that no price can be put on it
-- cut through (phrasal verb): to make a way through something by cutting it
+- move in (phrasal verb): to go towards someone in order to act, for example to make an arrest
 - piece together (phrasal verb): to work out the truth by putting separate pieces of information together
 - track down (phrasal verb): to find someone or something after a long search
 - known to investigators (phrase): already on the police's or investigators' records
@@ -62,7 +62,7 @@ The investigation reopened an uncomfortable debate about museum security. A smal
 
 summary: An alarm, a DNA trace and a hiding place under a staircase: how an ambitious theft of two Renoirs at Cagnes-sur-Mer unravelled.
 
-At 5.48am on 8 September 2026, the alarm at the Renoir Museum in Cagnes-sur-Mer began sounding. Five minutes later, municipal police were at the scene. The intruders had already fled, apparently abandoning half their intended haul in the rush to escape. Two paintings by Pierre-Auguste Renoir remained missing, leaving investigators with an unusually conspicuous theft and a rather less glamorous collection of forensic clues. By October, prosecutors placed the combined value of the missing works at approximately €4.2 million, although earlier estimates in the press had been considerably higher.
+At 5.48am on 8 September 2026, the alarm at the Renoir Museum in Cagnes-sur-Mer began sounding. Five minutes later, municipal police were at the scene. The intruders had already made off, apparently abandoning half their intended haul in the rush to escape. Two paintings by Pierre-Auguste Renoir remained missing, leaving investigators with an unusually conspicuous theft and a rather less glamorous collection of forensic clues. By October, prosecutors placed the combined value of the missing works at approximately €4.2 million, although earlier estimates in the press had been considerably higher.
 
 The museum occupies the painter's former home on the French Riviera, a setting better known for its association with Impressionist art than organised crime. According to the French Ministry of Culture, the burglars breached a fence and entered through a window before removing four works. The alarm cut the operation short, and two paintings were discarded nearby. The thieves nevertheless escaped with Portrait of Madame Colonna Romano and Young Woman at the Well, works that had been deposited at the museum by Paris's Musée d'Orsay. Their cultural significance made the disappearance especially troubling, regardless of which financial valuation was used.
 
@@ -79,12 +79,12 @@ Beyond the improbable hiding place, the case exposed a vulnerability shared by m
 - conspicuous (adjective): very easy to notice; standing out
 - unscathed (adjective): not harmed or damaged
 - improbable (adjective): unlikely; not what you would expect
-- cut something short (phrasal verb): to stop something before it is finished
+- make off (phrasal verb): to leave quickly, especially after committing a crime
 - set out (phrasal verb): to explain or present something clearly, such as an argument or a case
 - dispose of (phrasal verb): to get rid of something, including by selling it
 - under investigation (phrase): being examined by the police or another authority
 - in the rush to (phrase): while hurrying to do something
-- be mistaken for (phrase): to be wrongly thought to be something else
+- cut something short (phrase): to stop something before it is finished
 
 === Before you read ===
 

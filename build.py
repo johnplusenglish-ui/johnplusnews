@@ -788,7 +788,7 @@ def topics_html(a):
 
 
 def language_html(items):
-    """A tinted box under a level's text with three short lists: adjectives, phrasal verbs, idioms and phrases. Each item
+    """A tinted box above a level's text, as a task before reading, with three short lists: adjectives, phrasal verbs, idioms and phrases. Each item
     shows the term and a short meaning. Tapping an item copies it and Copy list copies them all; Hide meanings blurs the
     definitions so readers can test themselves, and tapping an item then reveals that one. Printed in the PDF."""
     if not items:
@@ -813,13 +813,13 @@ def versions_html(a):
     v = a["versions"]
     any_lang = any(x["language"] for x in v)
     if len(v) == 1:
-        return '<div class="prose">\n{}\n</div>{}{}'.format(v[0]["html"], language_html(v[0]["language"]),
+        return '{}<div class="prose">\n{}\n</div>{}'.format(language_html(v[0]["language"]), v[0]["html"],
                                                             "\n<script>" + LANG_JS + "</script>" if any_lang else "")
     d = default_index(v)
     panels = "".join(
         '<section class="panel" role="tabpanel" id="v-{k}" aria-labelledby="tab-{k}"{hidden}>'
-        '<h2 class="lvl-head">{label} version</h2>'
-        '<div class="prose">\n{html}\n</div>{lang}</section>'
+        '<h2 class="lvl-head">{label} version</h2>{lang}'
+        '<div class="prose">\n{html}\n</div></section>'
         .format(k=x["level"].lower(), hidden="" if i == d else " hidden", label=esc(x["level"]), html=x["html"], lang=language_html(x["language"]))
         for i, x in enumerate(v))
     return '<div class="panels">{}</div>\n<script>{}</script>'.format(panels, TABS_JS + (LANG_JS if any_lang else ""))
