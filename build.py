@@ -646,11 +646,17 @@ LANG_JS = (
     'function copyText(t,done){if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,function(){fallback(t);done()})}else{fallback(t);done()}}'
     'function flash(el,text){if(!el||el.getAttribute("data-busy"))return;var old=el.textContent;el.setAttribute("data-busy","1");el.textContent=text;el.classList.add("kl-done");'
     'setTimeout(function(){el.textContent=old;el.classList.remove("kl-done");el.removeAttribute("data-busy")},1200)}'
-    'document.addEventListener("click",function(e){var c=e.target.closest?e.target.closest(".kl-copy"):null;'
-    'if(c){var box=c.closest(".kl-box"),lines=[].slice.call(box.querySelectorAll(".kl-row")).map(function(r){return r.getAttribute("data-line")});copyText(lines.join("\\n"),function(){flash(c,"Copied")});return}'
-    'var row=e.target.closest?e.target.closest(".kl-row"):null;if(row){copyText(row.getAttribute("data-line"),function(){flash(row.querySelector(".kl-k"),"Copied")});return}'
-    'var k=e.target.closest?e.target.closest(".kl"):null;'
-    'if(!k){if(!(e.target.closest&&e.target.closest(".kl-pop")))close();return}'
+    'var KEY="jpn_kl_blur";function blurOn(){try{return localStorage.getItem(KEY)==="1"}catch(e){return false}}'
+    'function applyBlur(on){[].slice.call(document.querySelectorAll(".kl-box")).forEach(function(b){b.classList.toggle("kl-blur",on);'
+    'var t=b.querySelector(".kl-toggle");if(t){t.textContent=on?"Show meanings":"Hide meanings";t.setAttribute("aria-pressed",on?"true":"false")}'
+    'var n=b.querySelector(".kl-note");if(n)n.textContent=on?"Tap an item to reveal its meaning":"Tap an item to copy it";'
+    'if(!on)[].slice.call(b.querySelectorAll(".kl-m.kl-show")).forEach(function(m){m.classList.remove("kl-show")})})}'
+    'applyBlur(blurOn());'
+    'document.addEventListener("click",function(e){var q=function(sel){return e.target.closest?e.target.closest(sel):null};'
+    'var tg=q(".kl-toggle");if(tg){var on=!blurOn();try{localStorage.setItem(KEY,on?"1":"0")}catch(x){}applyBlur(on);return}'
+    'var c=q(".kl-copy");if(c){var box=c.closest(".kl-box"),lines=[].slice.call(box.querySelectorAll(".kl-row")).map(function(r){return r.getAttribute("data-line")});copyText(lines.join("\\n"),function(){flash(c,"Copied")});return}'
+    'var row=q(".kl-row");if(row){var m=row.querySelector(".kl-m");if(row.closest(".kl-box").classList.contains("kl-blur")){m.classList.toggle("kl-show")}else{copyText(row.getAttribute("data-line"),function(){flash(m,"Copied")})}return}'
+    'var k=q(".kl");if(!k){if(!q(".kl-pop"))close();return}'
     'if(pop&&pop.kl===k)close();else open(k)});'
     'document.addEventListener("keydown",function(e){if(e.key==="Escape")close();'
     'else if((e.key==="Enter"||e.key===" ")&&e.target.classList&&(e.target.classList.contains("kl")||e.target.classList.contains("kl-row"))){e.preventDefault();'
@@ -782,19 +788,25 @@ def topics_html(a):
 
 
 def language_html(items):
-    """A small table under a level's text: the useful language with a short meaning, adjectives first, then phrasal
-    verbs, then idioms and phrases. Tapping a row copies it; Copy list copies them all. Printed in the PDF."""
+    """A tinted box under a level's text with three short lists: adjectives, phrasal verbs, idioms and phrases. Each item
+    shows the term and a short meaning. Tapping an item copies it and Copy list copies them all; Hide meanings blurs the
+    definitions so readers can test themselves, and tapping an item then reveals that one. Printed in the PDF."""
     if not items:
         return ""
-    order = {key: i for i, (key, _) in enumerate(LANG_GROUPS)}
-    rows = []
-    for it in sorted(items, key=lambda x: order.get(x["group"], 9)):
-        line = "{} ({}): {}".format(it["term"], it["kind"], it["meaning"])
-        rows.append('<tr class="kl-row" tabindex="0" data-line="{}"><td class="kl-t">{}<span class="kl-k">{}</span></td><td class="kl-m">{}</td></tr>'.format(
-            esc(line), esc(it["term"]), esc(it["kind"]), inline(it["meaning"])))
+    cols = []
+    for key, label in LANG_GROUPS:
+        got = [it for it in items if it["group"] == key]
+        if not got:
+            continue
+        lis = "".join(
+            '<li class="kl-row" tabindex="0" data-line="{}"><b class="kl-t">{}</b><span class="kl-m">{}</span></li>'.format(
+                esc("{} ({}): {}".format(it["term"], it["kind"], it["meaning"])), esc(it["term"]), inline(it["meaning"]))
+            for it in got)
+        cols.append('<div class="kl-col"><h3 class="kl-h">{}</h3><ul class="kl-list">{}</ul></div>'.format(label, lis))
     return ('<section class="kl-box" aria-label="Useful language"><div class="kl-head"><span class="kl-title">Useful language</span>'
-            '<span class="kl-note">Tap a row to copy it</span><button type="button" class="kl-copy">Copy list</button></div>'
-            '<table class="kl-table"><tbody>{}</tbody></table></section>').format("".join(rows))
+            '<span class="kl-note">Tap an item to copy it</span><span class="kl-btns"><button type="button" class="kl-toggle">Hide meanings</button>'
+            '<button type="button" class="kl-copy">Copy list</button></span></div>'
+            '<div class="kl-cols">{}</div></section>').format("".join(cols))
 
 
 def versions_html(a):
