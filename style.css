@@ -278,9 +278,17 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .kl-pop { position: absolute; z-index: 45; max-width: min(320px, calc(100vw - 16px)); background: var(--ink); color: #fff; border-radius: 10px; padding: 10px 14px 11px; font-family: 'Outfit', system-ui, sans-serif; font-size: 0.9375rem; line-height: 1.45; box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2); }
 .kl-pop b { display: block; font-size: 1.0625rem; }
 .kl-pop .kl-kind { display: block; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.75; margin: 1px 0 5px; }
-.kl-box { margin: 26px 0 32px; padding: 16px 20px 8px; background: var(--accent-soft); border-radius: 12px; }
-.kl-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin: 0 0 2px; }
+.kl-box { margin: 26px 0 32px; background: var(--accent-soft); border-radius: 12px; }
+.kl-box summary { display: flex; align-items: center; gap: 12px; min-height: 48px; padding: 6px 20px; cursor: pointer; list-style: none; }
+.kl-box summary::-webkit-details-marker { display: none; }
+.kl-box summary:hover .kl-title { text-decoration: underline; text-underline-offset: 3px; }
+.kl-box summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 12px; }
+.kl-box summary svg { margin-left: auto; flex: none; color: var(--accent); transition: transform 0.15s; }
+.kl-box[open] summary svg { transform: rotate(180deg); }
 .kl-title { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+.kl-count { font-size: 0.8125rem; font-weight: 500; color: var(--muted); }
+.kl-body { padding: 0 20px 10px; }
+.kl-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin: 0 0 2px; }
 .kl-note { font-size: 0.75rem; color: var(--muted); }
 .kl-btns { margin-left: auto; display: flex; gap: 16px; }
 .kl-toggle, .kl-copy { background: none; border: 0; padding: 4px 0; font: inherit; font-size: 0.8125rem; font-weight: 600; color: var(--accent); cursor: pointer; white-space: nowrap; }
@@ -295,7 +303,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .kl-m { display: block; font-size: 0.875rem; color: var(--muted); transition: filter 0.15s; }
 .kl-blur .kl-m:not(.kl-show) { filter: blur(6px); user-select: none; -webkit-user-select: none; }
 .kl-m.kl-done, .kl-copy.kl-done { color: #14633a; }
-@media (max-width: 700px) { .kl-cols { grid-template-columns: 1fr; } .kl-box { padding: 14px 18px 6px; } .kl-btns { margin-left: 0; width: 100%; } }
+@media (max-width: 700px) { .kl-cols { grid-template-columns: 1fr; } .kl-box summary { padding: 6px 18px; } .kl-body { padding: 0 18px 8px; } .kl-btns { margin-left: 0; width: 100%; } }
 
 @media print {
   @page {
@@ -353,8 +361,12 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
   .qs-after { margin: 7mm 0 0; }
   .kl { text-decoration-color: var(--accent); text-decoration-thickness: 0.8pt; text-underline-offset: 0.18em; }
   .kl-pop { display: none !important; }
-  .kl-box { margin: 5mm 0 6mm; padding: 3.5mm 5mm 1.5mm; background: #f3f6fc; border-radius: 0; break-inside: avoid; }
-  .kl-head { margin: 0 0 1mm; }
+  .kl-box { margin: 5mm 0 6mm; padding: 0 5mm 1.5mm; background: #f3f6fc; border-radius: 0; break-inside: avoid; }
+  .kl-box::details-content { content-visibility: visible; display: block; }
+  .kl-box summary { display: block; min-height: 0; padding: 3.5mm 0 1mm; }
+  .kl-box summary svg, .kl-count { display: none; }
+  .kl-body { padding: 0; }
+  .kl-head { margin: 0; }
   .kl-title { font-size: 7.5pt; }
   .kl-note, .kl-btns { display: none !important; }
   .kl-cols { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 5mm; }

@@ -17,13 +17,25 @@ summary: A woman in Madrid lost the flat where she had lived for more than 70 ye
 
 For more than 70 years, Maricarmen Abascal lived in the same flat in Madrid. She knew its rooms, its neighbours and the streets outside. It was more than a place to sleep. It was where she had spent almost her whole life. But in September 2026, at the age of 87, she was forced to leave after a long disagreement over her rental contract.
 
-The building had been bought by new owners, and a legal battle followed. Maricarmen had an old agreement that allowed her to pay a relatively low rent. Housing campaigners supported her as she fought to stay. On 23 September, police arrived to carry out the eviction. Neighbours and supporters gathered outside, but she was removed from the building and taken to hospital on a stretcher.
+The building had been bought by new owners, and a legal battle followed. Maricarmen had an old agreement that allowed her to pay a relatively low rent. Housing campaigners stood by her as she fought to stay. On 23 September, police arrived to carry out the eviction. Neighbours and supporters gathered outside, but she was removed from the building and taken to hospital on a stretcher.
 
 Maricarmen died on 7 October, about two weeks later. She had already been in poor health, and her supporters said the situation had caused her serious stress. Although an agreement had been reached that might have allowed her to return, she never went back home. Her death led to demonstrations and renewed anger about Spain's housing crisis. Protesters said no one should have to face losing a lifelong home in old age.
 
 Across Spain, many people struggle with high rents and the price of buying a home. Madrid, Barcelona and other popular cities have become particularly expensive. Young adults may work full time but still be unable to afford their own place. Some share crowded flats or continue living with parents. Holiday rentals and property investment are also part of the debate because people worry that there are fewer homes available for residents.
 
 There are different views about the best solution. Housing groups want stronger protection for tenants and more affordable homes. Property owners argue that they also have rights and that Spain needs to build more housing. Maricarmen's story has become a symbol because it shows what these arguments can mean for one person. Behind every discussion about rents and laws, there is someone who simply wants a secure place to live.
+
+=== Core language ===
+
+- legal (adjective): connected with the law
+- lifelong (adjective): lasting for the whole of your life
+- secure (adjective): safe and certain to continue
+- carry out (phrasal verb): to do something that has been planned or ordered
+- go back (phrasal verb): to return
+- stand by (phrasal verb): to support someone in a difficult time
+- in poor health (phrase): ill or physically weak
+- in old age (phrase): when someone is old
+- part of the debate (phrase): one of the things people argue about
 
 === Intermediate ===
 
@@ -39,6 +51,18 @@ The argument over who is responsible quickly becomes political. Campaigners crit
 
 Maricarmen's death prompted further demonstrations, with supporters demanding changes in the law. Her story should not be reduced to a slogan: she was a person with a long life, a family and a home she wanted to keep. But the public response illustrates why housing debates have become so emotional. For those worried about losing their home, the issue is not an investment or an economic statistic. It is whether the place they belong can suddenly become somewhere they can no longer afford to stay.
 
+=== Intermediate language ===
+
+- elderly (adjective): old, used politely of people
+- unwell (adjective): ill
+- strict (adjective): very firm; not allowing exceptions
+- price out (phrasal verb): to make something too expensive for someone
+- rent out (phrasal verb): to let someone use a property in return for money
+- call for (phrasal verb): to publicly demand something
+- come and go (phrase): to arrive and leave again over time
+- keep pace (phrase): to increase or move at the same speed as something else
+- make it home (phrase): to succeed in reaching home
+
 === Advanced ===
 
 title: Priced Out: How One Woman's Eviction Exposed Spain's Housing Crisis
@@ -46,7 +70,7 @@ summary: The death of an 87-year-old pensioner, just two weeks after being force
 
 A home is usually discussed as a financial asset: a price, a rental contract, an investment that rises or falls in value. For Maricarmen Abascal, an 87-year-old Madrid resident, the meaning was rather different. She had occupied the same flat for more than 70 years, long enough for its walls and surrounding streets to hold most of her personal history. In September 2026, following a prolonged legal dispute, that connection was severed by an eviction that would reverberate far beyond her neighbourhood.
 
-After the property changed hands, Abascal became embroiled in a battle over an older tenancy agreement that allowed her to remain on relatively favourable terms. Campaigners viewed the effort to remove her as an example of the pressure placed on long-standing residents in an increasingly lucrative housing market. On 23 September, despite a gathering of supporters outside the building, the eviction proceeded. Photographs of the frail woman being carried away on a stretcher became a stark illustration of the human stakes of a legal process.
+After the property changed hands, Abascal became embroiled in a battle over an older tenancy agreement that allowed her to remain on relatively favourable terms. Campaigners viewed the effort to force her out as an example of the pressure placed on long-standing residents in an increasingly lucrative housing market. On 23 September, despite a gathering of supporters outside the building, the eviction proceeded. Photographs of the frail woman being carried away on a stretcher became a stark illustration of the human stakes of a legal process.
 
 Abascal died on 7 October. She had been in poor health, and campaigners said the prolonged conflict caused severe distress. The circumstances prompted widespread outrage, although attributing her death directly to the eviction would go beyond the available medical evidence. An agreement that could have enabled her return had reportedly been reached, but came too late for her to resume living in the flat. Her case galvanised protests in Madrid and elsewhere, turning a dispute over one tenancy into an argument about the direction of Spanish housing policy.
 
@@ -54,7 +78,19 @@ The pressures are familiar in much of the country. In major cities and popular c
 
 Competing explanations produce competing remedies. Tenant organisations call for greater security, stronger regulation and investment in social housing. Property owners and some economists warn that excessive restrictions may reduce the incentive to rent homes, arguing instead for more construction and a faster planning process. Neither position should obscure the structural complexity of the crisis. The market consists not only of investors seeking returns but also of residents whose social connections and daily routines can be destroyed by displacement.
 
-That is why Abascal's story struck such a nerve. The law may establish who has the right to occupy a particular flat, but it cannot fully express the significance of decades spent living there. A successful housing policy has to grapple with affordability, supply and legal certainty; it must also acknowledge that a home is not interchangeable with any other address. Behind the arguments about market efficiency lies a simple concern: whether people can remain in the communities to which they have devoted their lives.
+That is why Abascal's story struck a nerve. The law may establish who has the right to occupy a particular flat, but it cannot fully express the significance of decades spent living there. A successful housing policy has to grapple with affordability, supply and legal certainty; it must also acknowledge that a home is not interchangeable with any other address. Behind the arguments about market efficiency lies a simple concern: whether people can remain in the communities to which they have devoted their lives.
+
+=== Advanced language ===
+
+- frail (adjective): physically weak, especially because of age
+- stark (adjective): harsh and clear, with nothing softened
+- prolonged (adjective): continuing for a long time
+- grapple with (phrasal verb): to try hard to deal with a difficult problem
+- go beyond (phrasal verb): to be more than something allows or supports
+- force someone out (phrasal verb): to make someone leave a place or position
+- change hands (phrase): to pass to a new owner
+- strike a nerve (phrase): to cause a strong emotional reaction
+- far beyond (phrase): much further than
 
 === Before you read ===
 

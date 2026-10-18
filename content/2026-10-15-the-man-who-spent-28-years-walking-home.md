@@ -10,15 +10,27 @@ image: images/the-man-who-spent-28-years-walking-home-9b7add.jpg
 title: The Longest Walk Home
 summary: In 1998, Karl Bushby left Chile to walk home to Hull. After almost 28 years, he is nearly there.
 
-In November 1998, Karl Bushby left the southern tip of Chile with a small amount of money and a very unusual plan. He wanted to walk home to Hull, in northern England. The journey would take him through the Americas, across the sea ice between Alaska and Russia, and eventually across Europe. He thought it might take 12 years. Almost 28 years later, he finally reached Britain.
+In November 1998, Karl Bushby set off from the southern tip of Chile with a small amount of money and a very unusual plan. He wanted to walk home to Hull, in northern England. The journey would take him through the Americas, across the sea ice between Alaska and Russia, and eventually across Europe. He thought it might take 12 years. Almost 28 years later, he finally reached Britain.
 
 Karl had two rules. He would not use a vehicle to move forwards along his route, and he would not return home until he had completed the journey. The former British soldier called his adventure the Goliath Expedition. At first, he walked north through South America. He travelled through hot deserts, mountains and dangerous jungle. In the Darién Gap, between Colombia and Panama, he had to deal with the threat of armed groups.
 
-After reaching North America, Karl continued towards Alaska. In 2006, he and another explorer crossed the Bering Strait on moving sea ice. It was one of the most dangerous parts of the whole journey. They finally reached Russia, but the authorities arrested them because they had not entered the country at an official border point. Problems with visas and permission to travel would continue for years.
+After reaching North America, Karl carried on towards Alaska. In 2006, he and another explorer crossed the Bering Strait on moving sea ice. It was one of the most dangerous parts of the whole journey. They finally reached Russia, but the authorities arrested them because they had not entered the country at an official border point. Problems with visas and permission to travel would continue for years.
 
-Money, closed borders and the pandemic all delayed Karl's progress. In 2024, he made a long swim across the Caspian Sea with support from a team. He then travelled through Azerbaijan, Georgia and Turkey before continuing into Europe. On 5 October 2026, he reached Dover after swimming across the English Channel. He was finally back in Britain, although he still had around 400 kilometres left to walk to Hull.
+Money, closed borders and the pandemic all held up Karl's progress. In 2024, he made a long swim across the Caspian Sea with support from a team. He then travelled through Azerbaijan, Georgia and Turkey before continuing into Europe. On 5 October 2026, he reached Dover after swimming across the English Channel. He was finally back in Britain, although he still had around 400 kilometres left to walk to Hull.
 
 The adventure has been exciting, but it has also cost him a great deal. Karl has missed years with his family, including much of his son's childhood. He has also depended on the kindness of strangers for food, shelter and help. These experiences have made him more positive about people. After nearly three decades on the road, one question remains. When he finally arrives home, how will he get used to ordinary life again?
+
+=== Core language ===
+
+- dangerous (adjective): able to harm or kill you
+- official (adjective): approved by the government or an authority
+- positive (adjective): hopeful and confident about people or the future
+- set off (phrasal verb): to start a journey
+- carry on (phrasal verb): to continue
+- hold up (phrasal verb): to delay something
+- get used to (phrase): to become familiar with something
+- on the road (phrase): travelling
+- a great deal (phrase): a lot
 
 === Intermediate ===
 
@@ -28,11 +40,23 @@ Bushby began in Punta Arenas, near the southern tip of South America. He planned
 
 Physical dangers came early. In South America, he faced extreme weather and crossed the Darién Gap, a difficult jungle region where travellers can encounter armed groups. In 2006, he and fellow explorer Dimitri Kieffer spent roughly two weeks crossing the frozen Bering Strait from Alaska into Russia. Their progress depended on unstable sea ice, and entering Russia led to their arrest because they had not arrived through an official border crossing.
 
-Surprisingly, paperwork became as much of an obstacle as the wilderness. Bushby spent years dealing with visa restrictions, financial setbacks and international borders that were closed or difficult to cross. The pandemic caused further delays. When his route reached the Caspian Sea, he faced another seemingly impossible problem. In 2024, he completed a lengthy swim across it with a support team, then continued through Azerbaijan, Georgia and Turkey.
+Surprisingly, paperwork became as much of an obstacle as the wilderness. Bushby spent years dealing with visa restrictions, financial setbacks and international borders that were closed or difficult to cross. The pandemic caused further delays. When his route reached the Caspian Sea, he ran into another seemingly impossible problem. In 2024, he completed a lengthy swim across it with a support team, then continued through Azerbaijan, Georgia and Turkey.
 
 On 5 October 2026, Bushby landed near Dover after swimming across the English Channel. He was back in Britain for the first time under his own expedition rules, but the walk was not yet over. About 400 kilometres remained between the landing point and Hull. The final stretch is small compared with the thousands of kilometres behind him, yet it carries an enormous emotional weight.
 
 The journey has come at a personal cost. Bushby missed much of his son's childhood, important family occasions and the ordinary routines that shape most people's lives. At the same time, he says that the generosity of strangers has changed his view of humanity. People with very little often offered him food or somewhere to sleep. Soon the mission that has organised almost all his adult life will be complete. Reaching home will be an achievement. Discovering what comes next may be the bigger adjustment.
+
+=== Intermediate language ===
+
+- optimistic (adjective): expecting good things to happen
+- unstable (adjective): likely to move, change or break suddenly
+- lengthy (adjective): continuing for a long time
+- turn out (phrasal verb): to prove in the end to be a particular thing
+- deal with (phrasal verb): to take action to solve a problem
+- run into (phrasal verb): to meet a problem unexpectedly
+- set foot on (phrase): to arrive on; to enter a place
+- a matter of (phrase): simply a question of
+- what comes next (phrase): the next thing that will happen
 
 === Advanced ===
 
@@ -43,13 +67,25 @@ When Karl Bushby emerged from the English Channel at Dover on 5 October, he had 
 
 The Goliath Expedition began on 1 November 1998 in Punta Arenas, southern Chile. Bushby, a former British paratrooper, intended to travel through the Americas, cross into Siberia and return to England across Eurasia. His rules were uncompromising: no mechanised transport to advance along the route and no return home until he had completed it under his own power. He envisaged a 12-year challenge. In practice, geographical hazards proved only one part of the ordeal.
 
-The route carried him through Patagonia, the Andes and the Darién Gap, the dangerous stretch of jungle between Colombia and Panama. In 2006, Bushby and fellow adventurer Dimitri Kieffer negotiated the shifting ice of the Bering Strait to reach Russia. Instead of celebrating a successful crossing, they encountered immigration authorities and were detained. The incident foreshadowed years in which consular complications, restrictive borders and a shortage of funds would interrupt progress more effectively than bad weather ever could.
+The route carried him through Patagonia, the Andes and the Darién Gap, the dangerous stretch of jungle between Colombia and Panama. In 2006, Bushby and fellow adventurer Dimitri Kieffer negotiated the shifting ice of the Bering Strait to reach Russia. Instead of celebrating a successful crossing, they were picked up by immigration authorities and detained. The incident foreshadowed years in which consular complications, restrictive borders and a shortage of funds would set progress back more effectively than bad weather ever could.
 
 The pandemic and subsequent geopolitical tensions compounded those difficulties. Having made his way across parts of Asia, Bushby confronted the formidable barrier of the Caspian Sea. In 2024 he crossed it by swimming, assisted by a support team, before continuing through Azerbaijan, Georgia and Turkey. Even the final approach to Britain demanded improvisation. Unable to secure permission for a pedestrian passage through the Channel Tunnel, he completed a Channel swim instead.
 
 There is a temptation to treat the expedition as a triumph of stubborn determination and leave it at that. Yet its human costs resist such a tidy conclusion. Bushby has been absent for much of his son's life and has sacrificed relationships, stability and countless ordinary family occasions. He has also discovered a generosity that complicates his earlier scepticism about human nature. Strangers in isolated places repeatedly provided shelter, food and assistance, often with little expectation of anything in return.
 
-The public celebration of extraordinary endurance can obscure a more difficult question: what happens when the pursuit of a goal becomes a person's identity? Bushby has spent nearly all his adult life moving towards a destination that was always both literal and symbolic. Completing the final miles may require less physical stamina than the previous thousands, but the transition from expedition to everyday life offers no marked trail. For a man who has spent 28 years trying to get home, staying there could prove the most unfamiliar adventure.
+The public celebration of extraordinary endurance can gloss over a more difficult question: what happens when the pursuit of a goal becomes a person's identity? Bushby has spent nearly all his adult life moving towards a destination that was always both literal and symbolic. Completing the final miles may require less physical stamina than the previous thousands, but the transition from expedition to everyday life offers no marked trail. For a man who has spent 28 years trying to get home, staying there could prove the most unfamiliar adventure.
+
+=== Advanced language ===
+
+- uncompromising (adjective): refusing to change; very strict
+- stubborn (adjective): determined not to change your mind
+- unfamiliar (adjective): not known or experienced before
+- set something back (phrasal verb): to delay progress
+- pick up (phrasal verb): to stop and detain someone, used of the police or authorities
+- gloss over (phrasal verb): to avoid talking about a difficult subject
+- make your way (phrase): to travel somewhere, often slowly or with difficulty
+- leave it at that (phrase): to say or do nothing more about something
+- under your own power (phrase): using only your own strength, without help or transport
 
 === Before you read ===
 

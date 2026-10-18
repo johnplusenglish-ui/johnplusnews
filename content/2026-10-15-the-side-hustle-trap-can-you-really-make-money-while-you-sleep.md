@@ -21,6 +21,18 @@ Affiliate marketing is another popular option. People earn a small payment when 
 
 None of this means side hustles are a bad idea. They can build confidence, teach business skills and sometimes turn into full-time work. Before starting, ask yourself: Who will buy what I'm selling? How much will it cost? What will I actually earn after expenses? Making money online is possible. Doing it without working hard is much less likely.
 
+=== Core language ===
+
+- attractive (adjective): pleasant and interesting; making you want it
+- second-hand (adjective): owned or used by someone else before
+- full-time (adjective): for all the hours of a normal working week
+- set up (phrasal verb): to start a business or organise something new
+- start out (phrasal verb): to begin doing something, especially a job or business
+- turn into (phrasal verb): to change and become something else
+- while you sleep (phrase): without you doing any work
+- ask yourself (phrase): to think honestly about a question
+- far below (phrase): much less than
+
 === Intermediate ===
 
 There is a familiar character in the modern social-media feed. She is sitting in a bright kitchen, drinking coffee and explaining how an online business pays her bills while she spends more time with her family. The work, she suggests, takes only a few hours a week. There are no bosses, no commute and, apparently, very few problems. For anyone struggling with the cost of living, it is an appealing picture. It is also worth asking what has been left out of the frame.
@@ -35,11 +47,23 @@ Perhaps the most awkward question concerns the influencers themselves. If a part
 
 It would be a mistake to dismiss side hustles altogether. They can provide flexibility, teach commercial skills and give people more control over their income. But a healthy dose of scepticism is useful when an opportunity promises big returns for little work. Before paying for software or a training course, calculate the likely costs, research your competitors and work out where your customers would come from. Financial independence may begin with a good idea, but it rarely begins with doing nothing.
 
+=== Intermediate language ===
+
+- appealing (adjective): attractive and interesting
+- profitable (adjective): making money
+- spectacular (adjective): very impressive or surprising
+- bring in (phrasal verb): to earn money
+- leave out (phrasal verb): to not include something
+- work out (phrasal verb): to find the answer to something by thinking
+- the cost of living (phrase): the amount of money needed for food, housing and other basics
+- a healthy dose of (phrase): a good amount of something, usually an attitude
+- far from (phrase): not at all
+
 === Advanced ===
 
 summary: Passive-income pitches promise financial freedom for very little effort. What does the evidence say about the economics of the side hustle?
 
-The sales pitch has become almost impossible to avoid. A creator films herself making breakfast, checks her phone and announces that another substantial payment has arrived from a business she barely has to manage. The implication is irresistible: conventional employment is an unnecessary inconvenience when a laptop, a little initiative and a carefully chosen digital product can deliver financial freedom. It is an attractive proposition in an economy where secure work does not always guarantee financial comfort. Whether it represents a credible business model is another matter.
+The sales pitch has become almost impossible to avoid. A creator films herself making breakfast, checks her phone and announces that another substantial payment has come through from a business she barely has to manage. The implication is irresistible: conventional employment is an unnecessary inconvenience when a laptop, a little initiative and a carefully chosen digital product can deliver financial freedom. It is an attractive proposition in an economy where secure work does not always guarantee financial comfort. Whether it represents a credible business model is another matter.
 
 The term side hustle covers an enormous range of activity, from private tutoring and weekend catering to online shops and affiliate marketing. There is nothing inherently dubious about earning money beyond one's main occupation. What deserves scrutiny is the way certain online ventures are presented as largely effortless sources of passive income. A product that can be sold repeatedly without being manufactured again may be inexpensive to distribute, but somebody still has to design it, market it, answer customer questions and persuade strangers to part with their money.
 
@@ -49,7 +73,19 @@ Digital marketplaces offer a useful illustration of the underlying economics. Se
 
 A further complication is the business of teaching other people to make money. Some experienced creators sell genuinely useful training; others market expensive courses supported by carefully selected testimonials and vague income claims. The incentive is worth examining. A person may find it more lucrative to sell the prospect of entrepreneurship than to pursue the activity supposedly generating their wealth. A Guardian investigation published in October 2026 documented how difficult several fashionable online ventures proved in practice, reinforcing the need to distinguish exceptional cases from representative outcomes.
 
-None of this undermines the value of entrepreneurship. Small ventures can create opportunities, supplement low wages and develop skills that later become commercially valuable. The danger lies in presenting genuine enterprise as a shortcut around effort, risk and uncertainty. A prospective founder needs to know the customer, the competition, the likely costs and the time required before the first sale. Perhaps the most useful question is not whether a business can produce income while its owner sleeps, but how much work was necessary to get it there in the first place.
+None of this undermines the value of entrepreneurship. Small ventures can create opportunities, top up low wages and develop skills that later become commercially valuable. The danger lies in presenting genuine enterprise as a shortcut around effort, risk and uncertainty. A prospective founder needs to know the customer, the competition, the likely costs and the time required before the first sale. Perhaps the most useful question is not whether a business can produce income while its owner sleeps, but how much work was necessary to get it there in the first place.
+
+=== Advanced language ===
+
+- dubious (adjective): probably not honest or trustworthy
+- lucrative (adjective): making a lot of money
+- credible (adjective): able to be believed or trusted
+- part with (phrasal verb): to give something away, especially money, unwillingly
+- top up (phrasal verb): to add to an amount to make it larger
+- come through (phrasal verb): to arrive, used of money or documents
+- take something into account (phrase): to consider something when making a judgement
+- be another matter (phrase): to be a different and more difficult question
+- in the first place (phrase): at the beginning; before anything else happened
 
 === Before you read ===
 

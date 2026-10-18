@@ -21,11 +21,23 @@ In the story, strange microorganisms are taking energy from the Sun. If nobody s
 
 Some of the science comes from the real world. The stars mentioned in the film, including Tau Ceti, really exist. The filmmakers also spoke to NASA experts about space travel and life on a spacecraft. But the tiny organisms that threaten the Sun are invented. Scientists say they could not absorb so much energy in the way the story suggests. The film mixes facts with imagination, rather than showing what could happen tomorrow.
 
-Grace also discovers that he is not the only traveller looking for a solution. He meets an alien he calls Rocky. The two come from completely different worlds and cannot communicate easily at first. Yet they slowly learn to understand each other. Their unusual friendship brings warmth and humour to a story that begins with a frightening problem.
+Grace also finds out that he is not the only traveller looking for a solution. He meets an alien he calls Rocky. The two come from completely different worlds and cannot communicate easily at first. Yet they slowly learn to understand each other. Their unusual friendship brings warmth and humour to a story that begins with a frightening problem.
 
 The film was directed by Phil Lord and Christopher Miller, who are known for mixing comedy with adventure. Audiences responded enthusiastically, and the film earned hundreds of millions of dollars around the world. Not every critic loved its jokes or its long running time, but its combination of science, danger and friendship attracted considerable attention.
 
 Perhaps its cleverest idea is making a science teacher the hero of a major space adventure. Grace does not always have the right answer, and he makes mistakes along the way. He succeeds by asking questions, testing ideas and accepting help from someone very different from himself. You do not need to understand advanced physics to enjoy Project Hail Mary. You only need to be curious about what might be possible.
+
+=== Core language ===
+
+- frightened (adjective): feeling fear; afraid
+- unusual (adjective): different from what is normal or expected
+- curious (adjective): wanting to know or learn about something
+- wake up (phrasal verb): to stop sleeping
+- look for (phrasal verb): to try to find something
+- find out (phrasal verb): to discover a fact or piece of information
+- worse still (phrase): used to add something even more unpleasant
+- along the way (phrase): during a process or journey
+- at first (phrase): at the beginning, before something changed
 
 === Intermediate ===
 
@@ -33,13 +45,25 @@ A man wakes up aboard a spacecraft, unable to remember his name or how he got th
 
 Grace has been sent to investigate a mysterious threat to the Sun. In the story, tiny alien organisms are absorbing energy from stars, putting life on Earth at risk. His destination is a distant star system where researchers believe the answer may lie. Rather than relying on spectacular battles, much of the drama comes from small experiments, unexpected failures and improvised solutions. He is knowledgeable, but he is hardly the fearless astronaut usually found at the centre of a blockbuster.
 
-Weir is known for filling his fiction with scientific detail, and the filmmakers wanted to preserve that quality. NASA specialists offered advice during production, while the story uses real stars such as Tau Ceti and 40 Eridani. Nevertheless, plausibility has its limits. Astrophage, the fictional organism responsible for the crisis, would need to absorb an almost unimaginable amount of energy. Scientists have pointed out that this part of the premise is not consistent with known physics. The film invites viewers to accept one enormous invention, then takes many of its smaller scientific questions seriously.
+Weir is known for filling his fiction with scientific detail, and the filmmakers wanted to hold on to that quality. NASA specialists offered advice during production, while the story uses real stars such as Tau Ceti and 40 Eridani. Nevertheless, plausibility has its limits. Astrophage, the fictional organism responsible for the crisis, would need to absorb an almost unimaginable amount of energy. Scientists have pointed out that this part of the premise is not consistent with known physics. The film invites viewers to accept one enormous invention, then takes many of its smaller scientific questions seriously.
 
-Its emotional centre is an encounter that would be difficult to imagine in most disaster films. Grace meets Rocky, an alien trying to protect his own world from the same danger. They cannot easily speak to one another, and their bodies work in very different ways. Gradually, however, they develop ways to communicate and combine their knowledge. Instead of presenting alien life as something automatically threatening, the film asks what two strangers might achieve if they choose cooperation over fear.
+Its emotional centre is an encounter that would be difficult to imagine in most disaster films. Grace meets Rocky, an alien trying to protect his own world from the same danger. They cannot easily speak to one another, and their bodies work in very different ways. Gradually, however, they come up with ways to communicate and combine their knowledge. Instead of presenting alien life as something automatically threatening, the film asks what two strangers might achieve if they choose cooperation over fear.
 
 Directors Phil Lord and Christopher Miller bring an energetic, comic style to the adaptation. The film became a commercial success, earning more than $680 million worldwide, although reviews were not entirely unanimous. Some critics welcomed its warmth and imagination; others questioned its shifts between jokes and an extinction-level emergency. The novel and the film also place different demands on their audiences: a book can spend pages on calculations, while a film must make the same discoveries understandable in a matter of seconds.
 
 What makes Project Hail Mary distinctive is not that it gets every scientific detail right. It is the pleasure it takes in curiosity itself. Problems are investigated rather than simply overcome by force, and the most important breakthrough comes through an unlikely partnership. In an era when space adventures often concentrate on destruction, a blockbuster about asking better questions feels like a refreshing change.
+
+=== Intermediate language ===
+
+- mysterious (adjective): strange and not understood or explained
+- fearless (adjective): not afraid of anything
+- refreshing (adjective): pleasantly different from what is usual
+- point out (phrasal verb): to tell people a fact or draw attention to it
+- come up with (phrasal verb): to think of an idea or a solution
+- hold on to (phrasal verb): to keep something and not let it go
+- at risk (phrase): in danger of being harmed
+- in a matter of seconds (phrase): very quickly
+- have its limits (phrase): to be true or useful only up to a point
 
 === Advanced ===
 
@@ -53,9 +77,21 @@ That approach reflects Weir's reputation for painstaking technical research, est
 
 Its more compelling speculation concerns communication. Grace encounters an alien, nicknamed Rocky, whose physical nature and way of perceiving the world differ radically from his own. Their developing relationship supplies the story with both comic relief and an unexpectedly affecting emotional core. Rather than turning first contact into a contest for domination, the narrative treats it as a practical problem requiring patience, humility and mutual trust. Neither can assume that familiar methods will work for the other.
 
-Directors Phil Lord and Christopher Miller bring a playful sensibility to material that could otherwise become forbiddingly technical. The resulting film earned more than $680 million worldwide and prompted lively disagreement among critics. Admirers celebrated its warmth, intelligence and exuberant humour; detractors found the tonal shifts distracting and some of the sentiment overly emphatic. Adapting the novel also meant compressing lengthy scientific explanations into visual sequences, an unavoidable trade-off between the pleasures of reading a calculation and watching a character discover its consequences.
+Directors Phil Lord and Christopher Miller bring a playful sensibility to material that could otherwise become forbiddingly technical. The resulting film earned more than $680 million worldwide and prompted lively disagreement among critics. Admirers celebrated its warmth, intelligence and exuberant humour; detractors found the tonal shifts distracting and some of the sentiment overly emphatic. Adapting the novel also meant boiling down lengthy scientific explanations into visual sequences, an unavoidable trade-off between the pleasures of reading a calculation and watching a character discover its consequences.
 
 For all its fictional physics, Project Hail Mary makes a serious argument about the value of intellectual curiosity. Its central figure is frightened, frequently wrong and dependent on knowledge he cannot possess alone. The film's optimism does not come from the comforting assumption that everything will work out, but from the conviction that people can make progress by testing their assumptions and learning to cooperate. Hollywood's latest attempt to save the world turns out to be, among other things, a spirited defence of thinking before acting.
+
+=== Advanced language ===
+
+- reluctant (adjective): unwilling to do something
+- painstaking (adjective): done with great care and effort
+- implausible (adjective): difficult to believe; unlikely to be true
+- work something out (phrasal verb): to find the answer to a problem by thinking
+- turn out (phrasal verb): to prove in the end to be a particular thing
+- boil down (phrasal verb): to reduce something to its most important parts
+- in the realm of (phrase): within a particular area of activity or thought
+- set something in motion (phrase): to start a process or series of events
+- for all its (phrase): despite its; although it has
 
 === Before you read ===
 

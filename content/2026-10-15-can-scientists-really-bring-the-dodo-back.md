@@ -9,7 +9,7 @@ image: images/can-scientists-really-bring-the-dodo-back-7ce0b8.jpg
 
 summary: Scientists want to bring back the dodo, a bird that disappeared in the 1600s. Is that possible, and is it a good idea?
 
-The dodo was a large bird that could not fly. It lived on the island of Mauritius in the Indian Ocean until it disappeared in the seventeenth century. Today, the bird is famous as a symbol of extinction. But scientists at an American biotechnology company are trying to do something extraordinary: create a living bird with some of the dodo's characteristics.
+The dodo was a large bird that could not fly. It lived on the island of Mauritius in the Indian Ocean until it died out in the seventeenth century. Today, the bird is famous as a symbol of extinction. But scientists at an American biotechnology company are trying to do something extraordinary: create a living bird with some of the dodo's characteristics.
 
 The company, Colossal Biosciences, uses genetic technology to study animals that no longer exist. In October 2026, it announced progress in its dodo project. Researchers said they had reconstructed most of the bird's genetic information and developed tools to find the genes connected with features such as the shape of its head and beak. They hope to make carefully chosen changes to a living relative of the dodo.
 
@@ -21,11 +21,23 @@ Some conservation experts think the research could lead to useful new ways of pr
 
 For now, the dodo remains extinct. Colossal's announcement is about progress in genetic research, not a successful return. But the project raises an interesting question. If humans helped cause an animal's disappearance, should we try to bring it back, or should we focus on preventing the next extinction? The answer could shape how conservation works for many years to come.
 
+=== Core language ===
+
+- extinct (adjective): no longer existing as a living species
+- colourful (adjective): having bright colours
+- endangered (adjective): in danger of disappearing completely
+- die out (phrasal verb): to disappear completely as a species
+- bring something back (phrasal verb): to make something exist or be used again
+- lead to (phrasal verb): to cause something to happen
+- a symbol of (phrase): something that represents an idea
+- for now (phrase): at the present time, although things may change later
+- for many years to come (phrase): for a long time in the future
+
 === Intermediate ===
 
-The dodo has been extinct for more than three centuries, yet it may be one of the most recognisable birds in history. The large, flightless creature once lived on Mauritius, where hunting and animals introduced by humans contributed to its disappearance. Now a biotechnology company in the United States is attempting something that sounds more like a science-fiction plot than a conservation project: producing a living bird with the distinctive features of the long-lost dodo.
+The dodo has been extinct for more than three centuries, yet it may be one of the most recognisable birds in history. The large, flightless creature once lived on Mauritius, where hunting and animals introduced by humans helped to wipe it out. Now a biotechnology company in the United States is setting out to do something that sounds more like a science-fiction plot than a conservation project: producing a living bird with the distinctive features of the long-lost dodo.
 
-Colossal Biosciences announced fresh progress in October 2026. The company said it had reconstructed about 95% of the dodo's genome, the collection of genetic instructions that helped determine how the bird developed. It is also using an AI-assisted system to identify changes linked to features such as the dodo's unusually shaped beak. Researchers hope to introduce selected changes into the genes of a living relative, the Nicobar pigeon.
+Colossal Biosciences announced fresh progress in October 2026. The company said it had reconstructed about 95% of the dodo's genome, the collection of genetic instructions that helped determine how the bird developed. It is also using an AI-assisted system to pick out changes linked to features such as the dodo's unusually shaped beak. Researchers hope to introduce selected changes into the genes of a living relative, the Nicobar pigeon.
 
 This is where the idea becomes complicated. The Nicobar pigeon is not a dodo, even though the species share an evolutionary history. Changing some of its genes could eventually produce a bird that looks or behaves more like the extinct species. But it would not necessarily recreate the original animal, complete with the same behaviour, development and place in the ecosystem. Colossal has not yet produced a living dodo or dodo-like bird through this programme.
 
@@ -35,6 +47,18 @@ Critics question the priorities. De-extinction projects attract publicity and in
 
 The dodo project remains an experiment with an uncertain outcome. Its value may eventually lie in techniques developed along the way rather than in producing a perfect copy of an extinct bird. Even so, the ambition forces us to confront an uncomfortable question about conservation. If we can spend enormous resources trying to reverse one historic loss, how much should we spend preventing the ordinary, less famous losses taking place around us today?
 
+=== Intermediate language ===
+
+- recognisable (adjective): easy to recognise
+- distinctive (adjective): easy to recognise because of being different from others
+- uncertain (adjective): not known or decided; not sure
+- wipe something out (phrasal verb): to destroy or remove something completely
+- set out to (phrasal verb): to start doing something with a clear aim
+- pick out (phrasal verb): to choose or identify something from a group
+- bring back to life (phrase): to make something live or exist again
+- have little chance of (phrase): to be unlikely to achieve something
+- take place (phrase): to happen
+
 === Advanced ===
 
 summary: A start-up claims progress towards resurrecting the dodo, while independent scientists question what that would achieve. Is de-extinction science or spectacle?
@@ -43,13 +67,25 @@ Few animals have acquired the dodo's symbolic importance. An ungainly, flightles
 
 Colossal says it has reconstructed approximately 95% of the extinct bird's genome and developed an AI-assisted system to identify genetic changes associated with anatomical traits, particularly the unusual shape of its head and beak. Its proposed route involves introducing selected changes into a living relative, the Nicobar pigeon, and addressing the formidable reproductive challenges involved in producing genetically modified birds. These are genuine areas of technical research, but no recreated dodo has emerged, and the distance between identifying promising genetic targets and producing a viable animal remains considerable.
 
-The deeper difficulty is conceptual. A species is not simply a list of instructions waiting to be reassembled. Genes interact with development, behaviour, environment and the experience of generations. A bird engineered to resemble the dodo might share some physical characteristics with its extinct ancestor without reproducing its full biology or ecological role. For this reason, a number of evolutionary biologists argue that 'de-extinction' is a misleading description. A proxy species, however remarkable, should not be confused with the recovery of an organism that has genuinely vanished.
+The deeper difficulty is conceptual. A species is not simply a list of instructions waiting to be put back together. Genes interact with development, behaviour, environment and the experience of generations. A bird engineered to resemble the dodo might share some physical characteristics with its extinct ancestor without reproducing its full biology or ecological role. For this reason, a number of evolutionary biologists argue that 'de-extinction' is a misleading description. A proxy species, however remarkable, should not be confused with the recovery of an organism that has genuinely vanished.
 
-There is also a practical question about what such a bird would do once created. Mauritius has changed profoundly since the dodo's disappearance. Introduced predators, habitat destruction and other human influences helped drive the original species towards extinction. Releasing a dodo-like bird without addressing those pressures would make little ecological sense. Colossal says it is collaborating with Mauritian partners on habitat preparation, a reminder that restoration depends as much on ordinary conservation work as on sophisticated genetics.
+There is also a practical question about what such a bird would do once created. Mauritius has changed profoundly since the dodo's disappearance. Introduced predators, habitat destruction and other human influences helped drive the original species towards extinction. Releasing a dodo-like bird without dealing with those pressures would make little ecological sense. Colossal says it is collaborating with Mauritian partners on habitat preparation, a reminder that restoration depends as much on ordinary conservation work as on sophisticated genetics.
 
 Advocates see wider benefits in the research. Methods developed for gene editing, reproduction and the preservation of genetic diversity might eventually help threatened species. Critics counter that spectacular resurrection projects attract disproportionate attention and resources while existing wildlife faces immediate and measurable dangers. Both arguments have merit, although the potential benefits of experimental biotechnology should not be mistaken for benefits already demonstrated in conservation programmes.
 
-For now, the dodo belongs to history rather than to the forests of Mauritius. The company has advanced aspects of a research programme; it has not overturned extinction. Perhaps the most useful contribution of such ambitious science will be to sharpen rather than dissolve the distinction between restoration and imitation. A convincing likeness could be a remarkable scientific achievement. Whether it would repair the ecological loss that made the dodo famous is an altogether more demanding question.
+For now, the dodo belongs to history rather than to the forests of Mauritius. The company has advanced aspects of a research programme; it has not done away with extinction. Perhaps the most useful contribution of such ambitious science will be to sharpen rather than dissolve the distinction between restoration and imitation. A convincing likeness could be a remarkable scientific achievement. Whether it would repair the ecological loss that made the dodo famous is an altogether more demanding question.
+
+=== Advanced language ===
+
+- ungainly (adjective): moving in an awkward way; not graceful
+- viable (adjective): able to work or survive successfully
+- disproportionate (adjective): too large or too small compared with something else
+- put back together (phrasal verb): to reassemble something from its parts
+- deal with (phrasal verb): to take action to solve a problem
+- do away with (phrasal verb): to get rid of something completely
+- shorthand for (phrase): a short, simple way of referring to something larger
+- have merit (phrase): to be worth considering; to have good qualities
+- belong to history (phrase): to be part of the past, not the present
 
 === Before you read ===
 

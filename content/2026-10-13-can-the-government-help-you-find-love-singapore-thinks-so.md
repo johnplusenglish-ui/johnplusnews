@@ -17,13 +17,25 @@ summary: Singapore's government has launched a dating platform. Can a government
 
 Many people use dating apps to meet someone new. They look at photographs, read short profiles and send messages. But after weeks of trying, they may still not find the right person. In Singapore, a group of government technology workers has created a different kind of dating service. It is called FirstDate, and it tries to help people spend less time looking and more time getting to know one person.
 
-FirstDate began as a project at Singapore's government technology agency, GovTech. It is being tested with single public-service workers aged 21 to 35. Users answer questions about their interests, habits and values. The system then suggests one possible partner at a time, instead of showing hundreds of profiles. Both people can decide whether they want to share their contact details.
+FirstDate began as a project at Singapore's government technology agency, GovTech. It is being tried out with single public-service workers aged 21 to 35. Users answer questions about their interests, habits and values. The system then suggests one possible partner at a time, instead of showing hundreds of profiles. Both people can decide whether they want to share their contact details.
 
-This idea is very different from many popular dating apps. On those apps, people can keep looking even when they have already found someone interesting. FirstDate tries to reduce that feeling of having too many choices. It gives people more information about one person and asks them to make a decision. The service also explains how it protects personal information, which is important when a government organisation is involved.
+This idea is very different from many popular dating apps. On those apps, people can keep on looking even when they have already found someone interesting. FirstDate tries to reduce that feeling of having too many choices. It gives people more information about one person and asks them to make a decision. The service also explains how it protects personal information, which is important when a government organisation is involved.
 
 Singapore has another reason to be interested in relationships. Fewer children are being born, and the population is getting older. This creates worries about the number of people who will be working and paying taxes in the future. However, finding a partner is not the same as deciding to have children. Many young adults are concerned about the cost of a home, long working hours and the price of raising a family.
 
 Some people like the idea of a dating service that focuses on shared values. Others believe the government should stay out of people's private lives. FirstDate is still a small experiment, and officials have not decided whether it will grow. A computer system may be able to introduce two people who like the same things. It cannot promise that they will enjoy their first date, or that they will fall in love.
+
+=== Core language ===
+
+- single (adjective): not married and not in a relationship
+- private (adjective): personal; not for other people to know about
+- concerned (adjective): worried
+- try out (phrasal verb): to test something to see if it works
+- keep on (phrasal verb): to continue doing something
+- stay out of (phrasal verb): to not become involved in something
+- get to know (phrase): to learn what someone is like over time
+- at a time (phrase): one after another, not together
+- fall in love (phrase): to start loving someone
 
 === Intermediate ===
 
@@ -33,18 +45,30 @@ The project began among staff at GovTech and is currently being tested with unma
 
 The technology uses the Gale-Shapley matching method, a mathematical approach designed to produce stable pairings based on people's preferences. It has applications far beyond dating. In this case, however, the result depends on honest answers and human decisions. Two people may look ideal on paper and still have nothing to say to each other over coffee. Matching interests is not the same as creating chemistry.
 
-The project has attracted attention because of Singapore's low birth rate and ageing population. Policymakers worry that fewer marriages and births could eventually mean a smaller workforce and more pressure on public services. The government has a history of supporting matchmaking initiatives, so FirstDate is not entirely unexpected. Nevertheless, its creators describe it as a pilot designed to explore a better dating experience, rather than a guaranteed answer to demographic problems.
+The project has attracted attention because of Singapore's low birth rate and ageing population. Policymakers worry that fewer marriages and births could eventually add up to a smaller workforce and more pressure on public services. The government has a history of supporting matchmaking initiatives, so FirstDate is not entirely unexpected. Nevertheless, its creators describe it as a pilot designed to explore a better dating experience, rather than a guaranteed answer to demographic problems.
 
-Critics argue that a dating app cannot solve the reasons some young adults delay long-term relationships or parenthood. Expensive housing, demanding careers and the cost of childcare influence major life decisions. Others are uncomfortable with a government-run service collecting sensitive information about relationships, although FirstDate has published privacy safeguards and allows users to decide whether to share contact details.
+Critics argue that a dating app cannot solve the reasons some young adults put off long-term relationships or parenthood. Expensive housing, demanding careers and the cost of childcare influence major life decisions. Others are uncomfortable with a government-run service collecting sensitive information about relationships, although FirstDate has published privacy safeguards and allows users to decide whether to share contact details.
 
-For now, there is no decision about expanding the scheme beyond public-service workers. Its success may depend less on how clever the algorithm is than on whether users find the experience less exhausting than conventional apps. The technology can offer an introduction and perhaps take some pressure off dating. What happens after that still belongs to the two people meeting for the first time.
+For now, there is no decision about rolling out the scheme beyond public-service workers. Its success may depend less on how clever the algorithm is than on whether users find the experience less exhausting than conventional apps. The technology can offer an introduction and perhaps take the pressure off dating. What happens after that still belongs to the two people meeting for the first time.
+
+=== Intermediate language ===
+
+- endless (adjective): seeming to have no end
+- compatible (adjective): able to exist or be together well
+- exhausting (adjective): making you very tired
+- add up to (phrasal verb): to result in; to amount to
+- put off (phrasal verb): to delay doing something
+- roll out (phrasal verb): to make a new service available to more people
+- on paper (phrase): judging from the facts alone, not from experience
+- not the same as (phrase): different from
+- take the pressure off (phrase): to make a situation less stressful
 
 === Advanced ===
 
 title: Swipe Right for the State: Can Singapore Engineer Love?
 summary: Faced with a collapsing birth rate and a generation disillusioned with online dating, Singapore has turned to an unlikely matchmaker: the government. But can algorithms succeed where romance has failed?
 
-There is a particular kind of fatigue that comes from endlessly reviewing strangers as potential romantic partners. Dating apps promise an abundance of choice, yet many users describe feeling overwhelmed by it. Singapore's FirstDate project offers an unusually restrained alternative: fewer profiles, greater emphasis on compatibility and a single prospective match at a time. More surprisingly, it has emerged from the government's own technology agency.
+There is a particular kind of fatigue that comes from endlessly reviewing strangers as potential romantic partners. Dating apps promise an abundance of choice, yet many users describe feeling overwhelmed by it. Singapore's FirstDate project offers an unusually restrained alternative: fewer profiles, greater emphasis on compatibility and a single prospective match at a time. More surprisingly, it has come out of the government's own technology agency.
 
 Developed by staff at GovTech and being piloted among unmarried public-service employees aged 21 to 35, FirstDate asks participants about their habits, preferences and values. It applies a form of the Gale-Shapley stable-matching algorithm to recommend pairings, then allows both parties to accept or decline an introduction. Profiles are visible only to proposed matches, and contact details are exchanged solely by mutual agreement. The designers present the system as an experiment in more considered dating rather than another marketplace of faces.
 
@@ -52,9 +76,21 @@ Its existence nevertheless invites questions about the role of the state in inti
 
 A successful match, of course, is an ambiguous measure. The Gale-Shapley method can identify pairings that satisfy a particular set of preferences, but romantic attraction cannot be reduced to a mathematical score. Shared values may help two people agree on the important things; they cannot guarantee emotional warmth, good timing or a sense of humour. Nor can any algorithm resolve the structural pressures facing younger adults, including expensive housing, professional demands and the considerable financial commitments associated with raising children.
 
-The privacy questions are equally delicate. A platform that asks users to describe their preferences, habits and relationship aspirations collects information they may be reluctant to share with an employer-connected system. FirstDate says the data is handled under government security standards and is not sold to commercial third parties. Those commitments matter, but trust will depend on transparency and how the service operates in practice. Participation must remain a genuine choice if a well-intentioned initiative is to avoid feeling intrusive.
+The privacy questions are equally delicate. A platform that asks users to describe their preferences, habits and relationship aspirations collects information they may be reluctant to hand over to an employer-connected system. FirstDate says the data is handled under government security standards and is not sold to commercial third parties. Those commitments matter, but trust will depend on transparency and how the service operates in practice. Participation must remain a genuine choice if a well-intentioned initiative is to avoid feeling intrusive.
 
 There is also something refreshing about a dating service that declines to maximise the time users spend browsing. Commercial platforms often benefit when people keep returning; FirstDate proposes that a more limited selection could serve users better. Whether that produces lasting relationships has yet to be demonstrated. For now, the platform remains a public-service pilot, with no decision about expansion. Its most revealing lesson may be that technology can organise introductions remarkably well while remaining almost powerless over what makes two people fall for each other.
+
+=== Advanced language ===
+
+- restrained (adjective): controlled and not excessive
+- ambiguous (adjective): having more than one possible meaning; unclear
+- intrusive (adjective): affecting someone's private life in an unwelcome way
+- come out of (phrasal verb): to be produced by or result from something
+- hand over (phrasal verb): to give something to someone, often unwillingly
+- fall for (phrasal verb): to start to love someone
+- in that context (phrase): considered against that background
+- have yet to be (phrase): has still not been (done)
+- a sense of humour (phrase): the ability to find things funny
 
 === Before you read ===
 

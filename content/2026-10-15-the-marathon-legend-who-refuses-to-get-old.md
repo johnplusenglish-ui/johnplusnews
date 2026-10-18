@@ -21,11 +21,23 @@ Kipchoge has enjoyed an extraordinary career. He won Olympic marathon gold medal
 
 In recent years, however, things have not always gone his way. He has experienced disappointing results, and some people have suggested that his best days are behind him. Running at the highest level is hard on the body. Younger athletes recover more quickly and often find it easier to maintain their speed. Kipchoge's victory in Melbourne was therefore important, even though it was not one of the fastest times of his career.
 
-The race itself offered a reminder of his experience. He stayed with the leading runners for much of the course before moving ahead during the final ten kilometres. Australian runners Thomas Do Canto and Reece Edwards finished behind him. The athletes ended their race at the Melbourne Cricket Ground, where a large crowd was waiting.
+The race itself offered a reminder of his experience. He stayed with the leading runners for much of the course before breaking away during the final ten kilometres. Australian runners Thomas Do Canto and Reece Edwards finished behind him. The athletes ended their race at the Melbourne Cricket Ground, where a large crowd was waiting.
 
 There was another side to the day. Some ordinary participants complained that water stations ran out of drinks and that the event was overcrowded. Their experiences showed the difference between watching an elite athlete win and taking part in a huge public race. For many runners, simply reaching the finish line was a major achievement.
 
 Kipchoge's latest win does not mean that age has stopped affecting him. It does show that an athlete can remain competitive after the years when most people expect them to slow down. He has often spoken about the importance of discipline and enjoying the process of running. His Melbourne result offered a simple lesson: growing older may change what success looks like, but it need not mean giving up on ambitious goals.
+
+=== Core language ===
+
+- remarkable (adjective): unusual and impressive
+- disappointing (adjective): not as good as you hoped
+- competitive (adjective): good enough to compete with the best
+- slow down (phrasal verb): to become less fast
+- run out of (phrasal verb): to use all of something and have none left
+- break away (phrasal verb): to move ahead of the others in a race
+- go someone's way (phrase): to happen in the way someone wants
+- your best days are behind you (phrase): you will never be as successful as you once were
+- take part in (phrase): to join an activity or event with other people
 
 === Intermediate ===
 
@@ -40,6 +52,18 @@ Melbourne suggested that Kipchoge has not reached that point just yet. He ran a 
 Not everybody had such an enjoyable race. Other participants reported shortages of drinking water, crowded sections of the course and problems after the finish. Those complaints became a separate story about the organisation of a mass participation event. They also underlined something easy to forget when the cameras focus on a champion: the thousands of amateurs attempting the same distance have their own very different challenges.
 
 For Kipchoge, the Melbourne result is unlikely to silence every question about retirement. Nor should one race be treated as proof that athletes can simply ignore ageing. What it does challenge is the idea that sporting achievement has a fixed expiry date. His pace has changed, but his competitive instincts remain intact. For anyone whose own ambitions have been written off as unrealistic, that may be the most compelling part of his story.
+
+=== Intermediate language ===
+
+- straightforward (adjective): simple and clear, without complications
+- decisive (adjective): settling a matter quickly and finally
+- intact (adjective): complete and not damaged or changed
+- pull away (phrasal verb): to move ahead of the others and leave them behind
+- make up for (phrasal verb): to replace something that has been lost
+- write off (phrasal verb): to decide that someone or something has no chance of success
+- there comes a point (phrase): a moment arrives when something must change
+- some way short of (phrase): clearly less than
+- just yet (phrase): not at this moment, although probably later
 
 === Advanced ===
 
@@ -56,6 +80,18 @@ His success rested instead on judgement and control. He remained patient while t
 The spectacle also had an uncomfortable counterpoint. Numerous recreational runners complained of water shortages, congestion and inadequate facilities at an event whose appeal had extended well beyond its elite field. Their accounts raised legitimate questions about the responsibilities of organisers when participation grows faster than provision. A record-breaking winner may dominate the headlines, but a marathon's success is also measured by what happens to the less celebrated people behind him. For those runners, adequate drinking water is rather more pressing than the philosophy of longevity.
 
 Kipchoge's Melbourne triumph will not settle the question of when he ought to stop, and nor should it. The competitive landscape has changed, his own performances have fluctuated and one result cannot erase the consequences of age. What he has challenged is the assumption that decline must make achievement meaningless. There is a quieter kind of excellence in adapting to circumstances without surrendering ambition. Kipchoge is no longer being asked whether he can run faster than any man in history. For now, he is showing that he can still outrun the people standing beside him.
+
+=== Advanced language ===
+
+- overdue (adjective): expected to have happened before now
+- formidable (adjective): impressively powerful or difficult to deal with
+- noteworthy (adjective): deserving attention because it is unusual or important
+- contend with (phrasal verb): to have to deal with a difficult situation
+- draw on (phrasal verb): to use something you have, such as experience or knowledge
+- bring together (phrasal verb): to combine people or things for a purpose
+- immunity from (phrase): protection against something unpleasant
+- dominate the headlines (phrase): to be the main news story
+- settle the question (phrase): to decide something finally
 
 === Before you read ===
 

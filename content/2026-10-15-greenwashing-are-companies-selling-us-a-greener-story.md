@@ -16,9 +16,21 @@ When a company makes something seem better for the environment than it really is
 
 In July 2026, the UK's advertising regulator criticised advertisements from Eurowings and Qatar Airways. The companies had made claims about paying to compensate for flight emissions. The regulator decided that the adverts gave customers a misleading impression of how much environmental damage could be cancelled out. The airlines were told not to use those claims in the same way again.
 
-The European Union has also introduced stronger rules against unclear environmental advertising. Since September 2026, businesses have faced restrictions on general green claims that do not have proper evidence. Labels cannot simply promise that a product is environmentally friendly without showing what that means. These rules aim to make it easier for customers to compare products fairly.
+The European Union has also brought in stronger rules against unclear environmental advertising. Since September 2026, businesses have faced restrictions on general green claims that do not have proper evidence. Labels cannot simply promise that a product is environmentally friendly without showing what that means. These rules aim to make it easier for customers to compare products fairly.
 
 For shoppers, the best question is often a simple one: what exactly has improved? If packaging says it is recycled, find out how much recycled material it contains. If a company says it has reduced pollution, ask what figures support the claim. Not every business using green advertising is dishonest, and small improvements are worth making. But a leaf on a label is not proof that a product is good for the planet. Real progress needs more than a nice picture.
+
+=== Core language ===
+
+- honest (adjective): truthful; not hiding anything
+- misleading (adjective): giving a wrong idea
+- recycled (adjective): made from material that has been used before
+- cancel out (phrasal verb): to remove the effect of something
+- find out (phrasal verb): to discover information
+- bring in (phrasal verb): to introduce a new law or rule
+- good for the planet (phrase): not harmful to the environment
+- environmentally friendly (phrase): causing little or no damage to the environment
+- worth making (phrase): useful enough to be done
 
 === Intermediate ===
 
@@ -34,12 +46,24 @@ However, understanding environmental impact is not always straightforward. A pro
 
 There are practical ways to be more careful. Look for specific figures rather than broad promises, and check whether a claim has been independently verified. Ask whether the advertised improvement concerns the whole product or just one part of it. Companies deserve recognition for genuine progress, but they also need to acknowledge what has not improved. Buying something with a green label should not require an act of faith. If a business makes an environmental promise, it should be able to back it up.
 
+=== Intermediate language ===
+
+- genuine (adjective): real; not pretended
+- vague (adjective): not clear or exact
+- straightforward (adjective): easy to understand; simple
+- leave out (phrasal verb): to not include something
+- concentrate on (phrasal verb): to give most attention to one thing
+- back something up (phrasal verb): to provide evidence that supports a claim
+- an act of faith (phrase): a decision to trust something without proof
+- gain an advantage (phrase): to get into a better position than others
+- deserve recognition (phrase): to have earned praise or acknowledgement
+
 === Advanced ===
 
 title: The Greenwashing Problem: When Sustainability Becomes a Sales Pitch
 summary: When sustainability becomes a sales pitch, regulators are stepping in. How can shoppers tell genuine progress from clever marketing?
 
-A company rarely needs to demonstrate environmental virtue in detail to benefit from its appearance. A muted green label, a reassuring phrase about sustainability or an invitation to compensate for emissions can transform an ordinary transaction into something that feels almost ethical. The appeal is understandable: consumers want to make responsible choices without examining the full environmental history of every purchase. That convenience, however, has created fertile ground for greenwashing.
+A company rarely needs to demonstrate environmental virtue in detail to benefit from its appearance. A muted green label, a reassuring phrase about sustainability or an invitation to compensate for emissions can dress up an ordinary transaction as something that feels almost ethical. The appeal is understandable: consumers want to make responsible choices without examining the full environmental history of every purchase. That convenience, however, has created fertile ground for greenwashing.
 
 The term describes claims that misrepresent or exaggerate environmental performance, though the most effective examples are not always straightforward falsehoods. A manufacturer may accurately advertise recycled packaging while avoiding discussion of the resources consumed by the product itself. An airline may offer a contribution to climate projects without making clear how uncertain the resulting benefits can be. The selective presentation of favourable information can create an impression that is technically supported in part but misleading as a whole.
 
@@ -49,7 +73,19 @@ Regulators are attempting to narrow the gap between marketing language and subst
 
 The challenge is that environmental performance involves trade-offs that resist simple labels. A reusable product may have a higher manufacturing footprint but a lower impact over time. Recycled materials may reduce pressure on natural resources without eliminating energy consumption or pollution. An advertising system that reduces such questions to a cheerful green symbol risks creating false confidence even when genuine improvements have occurred.
 
-There is a danger, too, that fear of regulatory action encourages companies to say nothing about worthwhile initiatives. The solution is not to ban environmental communication but to make it more precise. Claims should identify the specific benefit, the evidence supporting it and the limitations of the improvement. Consumers are entitled to know whether a company has substantially reduced harm or merely found a flattering way to describe a modest change. Sustainability cannot become credible while remaining principally a matter of choosing the right adjectives.
+There is a danger, too, that fear of regulatory action encourages companies to say nothing about worthwhile initiatives. The solution is not to ban environmental communication but to tighten it up. Claims should identify the specific benefit, the evidence supporting it and the limitations of the improvement. Consumers are entitled to know whether a company has substantially reduced harm or merely found a flattering way to describe a modest change. Sustainability cannot become credible while remaining principally a matter of choosing the right adjectives.
+
+=== Advanced language ===
+
+- muted (adjective): soft and not bright, used of colours or sounds
+- flattering (adjective): making something seem better than it is
+- substantiated (adjective): supported by evidence
+- dress up (phrasal verb): to make something seem more attractive or acceptable than it is
+- tighten something up (phrasal verb): to make rules or standards stricter
+- rely on (phrasal verb): to depend on something
+- fertile ground for (phrase): a situation in which something develops easily
+- as a whole (phrase): considered in its entirety
+- be entitled to (phrase): to have the right to
 
 === Before you read ===
 

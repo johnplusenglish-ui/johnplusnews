@@ -20,6 +20,18 @@ There are other problems for fans. Resale websites sometimes show tickets at muc
 
 Some people argue that artists should charge whatever fans are willing to pay. Others believe that live music should not become a luxury only wealthy people can afford. Smaller local concerts can still offer great experiences for less money, but seeing a famous artist in a stadium is different. The question is whether rising prices will change who can take part in those shared moments. Music brings people together, but expensive tickets can keep many fans outside the gates.
 
+=== Core language ===
+
+- familiar (adjective): well known; often experienced
+- wealthy (adjective): rich
+- willing (adjective): ready and happy to do something
+- sell out (phrasal verb): to be sold completely, so that none are left
+- miss out (phrasal verb): to lose the chance to enjoy something
+- add to (phrasal verb): to increase something
+- reach the front of the queue (phrase): to get to the point where it is your turn
+- make the problem worse (phrase): to cause more difficulty
+- bring people together (phrase): to make people feel united
+
 === Intermediate ===
 
 The excitement of seeing a favourite artist can disappear surprisingly quickly when ticket sales begin. Fans wait in online queues, watch prices appear and make rushed decisions about spending hundreds of pounds on a single evening. For younger people in particular, live music is starting to feel less like an affordable night out and more like an expensive treat they must save up for.
@@ -34,6 +46,18 @@ Resale websites create additional frustration. Tickets that originally cost a re
 
 Some musicians and promoters have tried to keep prices down, while critics say the industry should be clearer about fees and ticket availability. Others argue that artists have a right to earn as much as the market allows. Meanwhile, small independent venues often struggle despite offering much cheaper live music. Nobody expects a major concert to be free, but there is a difference between paying fairly for an experience and being priced out of it altogether. The more exclusive live music becomes, the less it resembles the shared experience that made it popular in the first place.
 
+=== Intermediate language ===
+
+- understandable (adjective): reasonable; easy to understand
+- comforting (adjective): making you feel less worried
+- exclusive (adjective): limited to a small group, usually of rich people
+- save up (phrasal verb): to keep money so that you can buy something later
+- keep something down (phrasal verb): to stop something from rising
+- price out (phrasal verb): to make something too expensive for someone
+- a night out (phrase): an evening spent enjoying yourself away from home
+- have no choice (phrase): to be unable to do anything else
+- in advance (phrase): before something happens
+
 === Advanced ===
 
 title: When Did Live Music Become a Luxury?
@@ -47,9 +71,21 @@ The controversy surrounding Oasis's reunion ticket sales illustrates how consume
 
 Crucially, the authority did not establish that Oasis tickets were subject to real-time algorithmic price fluctuations. That distinction matters because the phrase "dynamic pricing" has become a catch-all explanation for almost any disappointing ticket sale. The underlying concern, however, remains the same: customers should understand what they are buying and how much it may cost before investing hours in the process.
 
-The secondary market creates another layer of distortion. Scarce tickets may be advertised at enormous mark-ups, while additional fees further erode the sense that advertised prices reflect what customers will actually pay. Demand is reinforced by the fear of missing a culturally significant occasion. A concert is no longer simply a performance; it is also content to share, a memory to display and, for some fans, proof of belonging to a community.
+The secondary market creates another layer of distortion. Scarce tickets may be advertised at enormous mark-ups, while additional fees further eat away at the sense that advertised prices reflect what customers will actually pay. Demand is reinforced by the fear of missing a culturally significant occasion. A concert is no longer simply a performance; it is also content to share, a memory to display and, for some fans, proof of belonging to a community.
 
 Defenders of high prices argue that no performer is obliged to sell below what audiences are willing to pay. Critics counter that an industry built around shared cultural experience risks becoming increasingly divided by income. Neither argument removes the pressure on independent venues, where musicians develop and audiences can encounter live music without taking on substantial expense. The question is not whether major artists deserve to be paid. It is whether a market that celebrates music's ability to unite people is comfortable turning attendance into a privilege reserved for those who can afford it.
+
+=== Advanced language ===
+
+- sizeable (adjective): fairly large
+- scarce (adjective): rare and difficult to get
+- catch-all (adjective): covering many different things without being precise
+- translate into (phrasal verb): to result in; to turn into
+- take on (phrasal verb): to accept something, such as a cost or responsibility
+- eat away at (phrasal verb): to gradually reduce or destroy something
+- in person (phrase): physically present, not through a screen or recording
+- with little time to think (phrase): under pressure to decide quickly
+- reserved for (phrase): kept only for a particular group
 
 === Before you read ===
 

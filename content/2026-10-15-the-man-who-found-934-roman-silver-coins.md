@@ -9,17 +9,29 @@ image: images/the-man-who-found-934-roman-silver-coins-e8ff4d.jpg
 
 summary: A man with a metal detector found 934 Roman silver coins in a field in Germany. Who hid them, and why?
 
-Oliver Riedl was searching a field near Wesseling, in western Germany, when his metal detector made a sound. He found a Roman silver coin, then another. The machine kept signalling, and he realised there was probably something important under the ground. He contacted local archaeology experts instead of trying to remove everything himself. What they found was one of the most remarkable Roman discoveries in Germany in recent years.
+Oliver Riedl was searching a field near Wesseling, in western Germany, when his metal detector went off. He found a Roman silver coin, then another. The machine kept signalling, and he realised there was probably something important under the ground. He contacted local archaeology experts instead of trying to remove everything himself. What they found was one of the most remarkable Roman discoveries in Germany in recent years.
 
 The search began in October 2025, but the full discovery was announced publicly in September 2026. Archaeologists eventually recovered 934 silver coins, known as denarii. Together they weighed about 3.1 kilograms. Some were more than 2,000 years old, while the newest dated from around AD 124 or 125, during the time of the Roman emperor Hadrian.
 
 The coins had probably been buried in the second century AD, possibly inside a pot. Nobody knows who put them there. The owner might have wanted to keep their money safe during a dangerous period, or perhaps they were saving for something important. What is certain is that the money was never collected, and it stayed underground for nearly nineteen centuries.
 
-The number of coins was extraordinary. Experts estimated that an ordinary Roman soldier could have needed years to save a similar amount. People in Roman times had different ways of keeping money, but they did not have modern bank accounts or electronic payments. Hiding valuable coins could be a sensible decision, even though it came with the risk of forgetting the location or never returning.
+The number of coins was extraordinary. Experts estimated that an ordinary Roman soldier could have needed years to put aside a similar amount. People in Roman times had different ways of keeping money, but they did not have modern bank accounts or electronic payments. Hiding valuable coins could be a sensible decision, even though it came with the risk of forgetting the location or never returning.
 
 Riedl's behaviour was also important. He was carrying out a permitted search and informed the authorities when he realised what he might have discovered. Archaeologists could then study the place properly and record how the coins were buried. That information may help researchers understand who owned them and what was happening in the area at the time. A coin removed without recording its location can lose part of its historical value.
 
 The collection went on display at the LVR State Museum in Bonn in September 2026. Visitors can now see money that somebody held, saved and eventually hid almost 1,900 years ago. The mystery of its owner may never be solved. But the story reminds us that history is not only about emperors, battles and famous buildings. Sometimes it is about an ordinary person who buried their savings and never came back.
+
+=== Core language ===
+
+- remarkable (adjective): unusual and impressive
+- sensible (adjective): showing good judgement
+- ordinary (adjective): normal; not special
+- go off (phrasal verb): to make a sudden noise or signal, used of an alarm or device
+- put aside (phrasal verb): to save money for later
+- come back (phrasal verb): to return
+- on display (phrase): shown in public for people to see
+- in recent years (phrase): during the last few years
+- come with the risk of (phrase): to involve a danger of
 
 === Intermediate ===
 
@@ -35,6 +47,18 @@ Riedl's decision to inform the authorities mattered almost as much as the discov
 
 The coins have since been displayed at the LVR State Museum in Bonn, where visitors can inspect a fortune that lay hidden for nearly 1,900 years. The find gives historians another small piece of evidence about Roman life in what is now western Germany. It also leaves room for a more human question: what plans did the owner have for all that money? We may never know, but the fact that nobody returned to collect it is what makes the treasure so intriguing.
 
+=== Intermediate language ===
+
+- amateur (adjective): doing something for pleasure, not as a job
+- intriguing (adjective): very interesting because it is mysterious
+- uncertain (adjective): not known or settled
+- go on to (phrasal verb): to do something after finishing something else
+- date from (phrasal verb): to have existed since a particular time
+- move away (phrasal verb): to go to live in a different place
+- a piece of evidence (phrase): one fact or object that helps prove something
+- lose access to (phrase): to no longer be able to reach or use something
+- in what is now (phrase): in the place that today is called
+
 === Advanced ===
 
 summary: Germany's largest hoard of coins from Hadrian's reign was found by a detectorist who followed the rules. What does it reveal, and what remains a mystery?
@@ -43,13 +67,25 @@ A metal detector that refuses to fall silent can be either a nuisance or the beg
 
 The coins offer a compressed history of Roman power. The oldest specimen dates to 148 BC, when the republic still governed Rome, while the youngest was struck in AD 124 or 125, during Hadrian's reign. Most belong to the intervening imperial period. Archaeologists believe the collection was deliberately concealed in the second quarter of the second century AD, probably inside a vessel whose traces were examined during excavation. The hoard survived beneath ordinary farmland for almost nineteen centuries, outlasting the political system that gave the coins their value.
 
-Its original purpose is much harder to establish. Money may have been buried to protect it from theft, disorder or simple misfortune, particularly in a world without the conveniences of modern banking. But an attractive explanation is not necessarily a demonstrated one. The owner's identity is unknown, as are the circumstances that prevented retrieval. Death, displacement and forgotten locations all remain plausible possibilities, and it is unlikely that the coins alone will ever resolve the mystery.
+Its original purpose is much harder to establish. Money may have been buried to protect it from theft, disorder or simple misfortune, particularly in a world without the conveniences of modern banking. But an attractive explanation is not necessarily a demonstrated one. The owner's identity is unknown, as are the circumstances that prevented retrieval. Death, displacement and forgotten locations all remain plausible possibilities, and it is unlikely that the coins alone will ever clear up the mystery.
 
-The scale of the deposit is nevertheless revealing. Regional specialists have compared it with the income of a Roman legionary, suggesting that accumulating a similar quantity of silver could have required years of saving. Such comparisons are necessarily approximate, but they help convey that this was not loose change. The coins also reveal the long circulation of money: pieces produced generations apart could remain in use together, carrying portraits and symbols from different phases of Roman history into the hands of later owners.
+The scale of the deposit is nevertheless revealing. Regional specialists have compared it with the income of a Roman legionary, suggesting that accumulating a similar quantity of silver could have required years of saving. Such comparisons are necessarily approximate, but they help get across that this was not loose change. The coins also reveal the long circulation of money: pieces produced generations apart could remain in use together, carrying portraits and symbols from different phases of Roman history into the hands of later owners.
 
 Of equal significance is the way the discovery was handled. Riedl was searching with permission and notified professionals as soon as he recognised the potential importance of his find. Archaeology depends on context as well as objects. The position of a hoard, the surrounding soil and the remains of its container may answer questions that isolated coins cannot. An impressive collection acquired without documentation can quickly become little more than a display of valuable metal; this one retained evidence about the act of concealment itself.
 
-Now exhibited at the LVR State Museum in Bonn, the denarii are both public treasure and private mystery. Visitors can study portraits of rulers and the changing imagery of Roman authority, but the most absorbing figure is absent from every coin. Somebody accumulated the money, judged the ground a safe place to hide it and expected, presumably, to return. Almost 1,900 years later, the coins have surfaced. The person who put them there remains beyond the reach of the metal detector, and perhaps of history itself.
+Now exhibited at the LVR State Museum in Bonn, the denarii are both public treasure and private mystery. Visitors can study portraits of rulers and the changing imagery of Roman authority, but the most absorbing figure is absent from every coin. Somebody accumulated the money, judged the ground a safe place to hide it and expected, presumably, to return. Almost 1,900 years later, the coins have turned up. The person who put them there remains beyond the reach of the metal detector, and perhaps of history itself.
+
+=== Advanced language ===
+
+- plausible (adjective): seeming likely to be true
+- approximate (adjective): close to the real figure but not exact
+- absorbing (adjective): holding your attention completely
+- turn up (phrasal verb): to appear or be found, often unexpectedly
+- clear up (phrasal verb): to solve or explain a mystery
+- get across (phrasal verb): to make an idea clear to other people
+- loose change (phrase): a small amount of money in coins
+- little more than (phrase): hardly anything other than
+- beyond the reach of (phrase): impossible for something or someone to find or affect
 
 === Before you read ===
 

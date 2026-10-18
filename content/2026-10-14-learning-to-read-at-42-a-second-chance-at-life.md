@@ -19,6 +19,18 @@ Peter started meeting a volunteer coach called Alison twice a week. They worked 
 
 Today, Peter can read recipes and share books with his son. He also talks publicly about his experience to encourage other adults to seek help. Many people struggle with reading, even if they have jobs and families. Some are afraid that others will judge them. Peter's story shows why that fear can be so damaging. Learning to read has not changed his past, but it has opened up a very different future.
 
+=== Core language ===
+
+- hidden (adjective): kept secret; not seen by other people
+- frustrating (adjective): making you feel annoyed because things are difficult
+- damaging (adjective): causing harm
+- look after (phrasal verb): to take care of someone
+- grow up (phrasal verb): to change from a child into an adult
+- give up (phrasal verb): to stop trying
+- ask for help (phrase): to tell someone that you need their support
+- at the age of (phrase): when someone is a particular age
+- from beginning to end (phrase): the whole of something, completely
+
 === Intermediate ===
 
 For years, Peter Lloyd found ways to avoid reading in public. As a lorry driver, he could remember complicated routes and recognise road signs, but a letter arriving through the post could leave him feeling helpless. He had built a working life and raised a family while hiding a difficulty that many people assume only children face. Then, aged 42, he found himself unable to complete a simple supermarket shop.
@@ -33,22 +45,46 @@ Three years later, he reached the final page. What mattered was not only the ach
 
 Low literacy does not mean a lack of intelligence, yet shame can stop adults from seeking support for years. Peter's experience reveals how easily reading difficulties can remain hidden in a society built around written information. He hopes to earn an English GCSE and eventually help others. A trip to the supermarket exposed a problem he had spent decades concealing. It also gave him the reason to change his life.
 
+=== Intermediate language ===
+
+- helpless (adjective): unable to do anything to improve a situation
+- resourceful (adjective): good at finding clever ways to deal with problems
+- hesitant (adjective): slow to act because you are not sure
+- step in (phrasal verb): to become involved in order to help
+- fill in (phrasal verb): to write the information needed on a form
+- move on to (phrasal verb): to start doing something new after finishing something else
+- the turning point (phrase): the moment when an important change begins
+- give it another go (phrase): to try again
+- out of reach (phrase): not possible to get or achieve
+
 === Advanced ===
 
 title: The Man Who Couldn't Read: Why It's Never Too Late to Start Again
 summary: For more than four decades, Peter Lloyd navigated a world of written instructions, road signs and official documents without being able to read. His remarkable journey towards literacy offers a powerful reminder of how easily adults can fall through the cracks of the education system.
 
-The trouble began in the dairy aisle. Peter Lloyd, a lorry driver from Lancashire, was trying to buy milk suitable for his wife and son, both of whom had allergies. Surrounded by cartons covered in information he could barely decipher, he realised how easily a routine errand could become a serious mistake. He was 42, with a job and a family, but he had spent much of his life concealing the fact that he struggled to read.
+The trouble began in the dairy aisle. Peter Lloyd, a lorry driver from Lancashire, was trying to buy milk suitable for his wife and son, both of whom had allergies. Surrounded by cartons covered in information he could barely decipher, he realised how easily a routine errand could become a serious mistake. He was 42, with a job and a family, but he had spent much of his life covering up the fact that he struggled to read.
 
 Partially deaf from birth, Peter had found the classroom an unforgiving place. Competing voices made lessons difficult to follow, and a move to another school failed to provide the support he needed. He left education at 16 without qualifications, carrying into adulthood a problem that society often treats as a personal failure. Yet his working life demonstrated considerable ingenuity. He learnt routes through visual memory, recognised landmarks and relied on technology and his wife's help to negotiate paperwork. What looked like independence was sustained by an elaborate system of workarounds.
 
-The supermarket incident occurred during the Covid lockdowns and stripped away the reassurance those strategies had provided. Peter could no longer ignore the practical risks of not understanding written information. Encouraged by his wife, he contacted Read Easy, an adult-literacy charity, despite the disappointment of previous attempts to learn. He was paired with a volunteer coach, Alison, who offered regular one-to-one sessions and something Peter had rarely experienced at school: the freedom to progress without embarrassment.
+The supermarket incident occurred during the Covid lockdowns and stripped away the reassurance those strategies had provided. Peter could no longer brush aside the practical risks of not understanding written information. Encouraged by his wife, he contacted Read Easy, an adult-literacy charity, despite the disappointment of previous attempts to learn. He was paired with a volunteer coach, Alison, who offered regular one-to-one sessions and something Peter had rarely experienced at school: the freedom to progress without embarrassment.
 
 Twice-weekly lessons began with fundamental reading skills. It was painstaking work, requiring him to confront difficulties he had spent decades avoiding, but small improvements gradually accumulated. He also set himself a concrete ambition: to finish the first Harry Potter novel. Choosing a book associated with childhood might have exposed him to ridicule. Instead, it gave the process a meaning beyond exercises and assessments. Three years later, he had read it from cover to cover.
 
 The achievement did not erase his earlier experiences, but it changed his relationship with everyday life. Recipes became accessible, books became a source of pleasure, and tasks that once required another person's help could increasingly be handled alone. Peter has since spoken publicly as an ambassador for Read Easy and hopes to obtain an English GCSE before pursuing work that supports others. His willingness to discuss a previously guarded struggle is significant in itself.
 
 Adult literacy is frequently misunderstood. People may have limited reading skills for reasons involving disability, disrupted education or inadequate support, none of which is a reliable measure of intelligence. The greatest obstacle can become the expectation that an adult ought already to know how to read, an assumption that encourages silence. Peter's story challenges the idea that learning follows a fixed timetable. It also suggests that dignity in education may matter as much as the lessons themselves.
+
+=== Advanced language ===
+
+- unforgiving (adjective): harsh; allowing no mistakes
+- elaborate (adjective): containing many carefully arranged parts
+- concrete (adjective): definite and specific, not vague
+- cover up (phrasal verb): to hide a fact or a mistake
+- strip away (phrasal verb): to remove something, especially a protective layer
+- brush aside (phrasal verb): to refuse to consider something seriously
+- treat something as (phrase): to think of or deal with something in a particular way
+- from cover to cover (phrase): from the first page of a book to the last
+- in itself (phrase): considered alone, without anything else
 
 === Before you read ===
 

@@ -100,8 +100,14 @@ IRREGULAR = {"be": ["is", "are", "was", "were", "been", "being"], "break": ["bro
              "hold": ["held"], "keep": ["kept"], "lead": ["led"], "leave": ["left"], "lose": ["lost"], "make": ["made"],
              "pay": ["paid"], "put": ["put"], "run": ["ran"], "say": ["said"], "see": ["saw", "seen"], "sell": ["sold"],
              "shut": ["shut"], "sit": ["sat"], "speak": ["spoke", "spoken"], "stand": ["stood"], "take": ["took", "taken"],
-             "tell": ["told"], "think": ["thought"], "throw": ["threw", "thrown"], "win": ["won"], "write": ["wrote", "written"]}
-PLACEHOLDERS = {"someone", "somebody", "something", "sb", "sth", "one's", "someone's", "your", "yourself", "oneself"}
+             "tell": ["told"], "think": ["thought"], "throw": ["threw", "thrown"], "win": ["won"], "write": ["wrote", "written"],
+             "wear": ["wore", "worn"], "deal": ["dealt"], "teach": ["taught"], "wake": ["woke", "woken"], "begin": ["began", "begun"],
+             "choose": ["chose", "chosen"], "hide": ["hid", "hidden"], "mean": ["meant"], "meet": ["met"], "spend": ["spent"],
+             "strike": ["struck"], "stick": ["stuck"], "fight": ["fought"], "seek": ["sought"], "build": ["built"], "send": ["sent"],
+             "sleep": ["slept"], "understand": ["understood"], "set": ["set"], "let": ["let"], "spread": ["spread"], "shut": ["shut"],
+             "swim": ["swam", "swum"], "ride": ["rode", "ridden"], "rise": ["rose", "risen"], "forget": ["forgot", "forgotten"]}
+PLACEHOLDERS = {"someone", "somebody", "something", "sb", "sth", "one's", "someone's", "your", "yourself", "oneself",
+                "you", "them", "him", "her", "his", "their", "its", "my", "our", "themselves", "himself", "herself"}
 
 
 def word_forms(w):
@@ -119,24 +125,25 @@ def word_forms(w):
 
 def term_pattern(term):
     """Finds a listed item in the text: the first word may be inflected (turn up, turned up), a leading 'a', 'an' or
-    'the' is optional, and 'someone', 'something' or 'your' may stand for up to three words of the text."""
+    'the' is optional, and 'someone', 'something', 'your' and the like may stand for up to three words of the text."""
     words = html.escape(term, quote=False).split()
-    bits = []
-    verb_done = False
+    out, need_sep, verb_done = "", False, False
     for i, w in enumerate(words):
-        if w.lower() in PLACEHOLDERS:
-            bits.append(r"(?:[^\s<>]+\s+){0,3}")
-        elif i == 0 and w.lower() in ("a", "an", "the"):
-            bits.append(r"(?:(?:a|an|the)\s+)?")
-        elif not verb_done:
-            bits.append("(?:" + "|".join(re.escape(f) for f in word_forms(w.lower())) + r")\s+")
+        lw = w.lower()
+        if lw in PLACEHOLDERS:
+            out += r"(?:\s+[A-Za-z'’-]+(?:\s+[A-Za-z'’-]+){0,2})?" if need_sep else r"(?:[A-Za-z'’-]+(?:\s+[A-Za-z'’-]+){0,2}\s+)?"
+            continue
+        if i == 0 and lw in ("a", "an", "the"):
+            out += r"(?:(?:a|an|the)\s+)?"
+            continue
+        if not verb_done:
+            piece = "(?:" + "|".join(re.escape(f) for f in word_forms(lw)) + ")"
             verb_done = True
         else:
-            bits.append(re.escape(w) + r"\s+")
-    body = "".join(bits)
-    if body.endswith(r"\s+"):
-        body = body[:-3]
-    return re.compile(r"(?<![A-Za-z])" + body + r"(?![A-Za-z])", re.I)
+            piece = re.escape(w)
+        out += (r"\s+" if need_sep else "") + piece
+        need_sep = True
+    return re.compile(r"(?<![A-Za-z])" + out + r"(?![A-Za-z])", re.I)
 
 
 def mark_language(html_text, items, path=None, level=""):
@@ -156,6 +163,7 @@ def mark_language(html_text, items, path=None, level=""):
             if m:
                 parts[i] = (seg[:m.start()] + '<span class="kl" tabindex="0" data-term="{}" data-kind="{}" data-meaning="{}">{}</span>'.format(
                     esc(it["term"]), esc(it["kind"]), esc(it["meaning"]), m.group(0)) + seg[m.end():])
+                parts = re.split(r"(<[^>]+>)", "".join(parts))  # keep tags separate from text for the next item
                 found = True
                 break
         if not found:
@@ -707,7 +715,7 @@ CHEVRON_ICON = ('<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="tr
 PRINT_JS = (
     '(function(){var b=document.getElementById("pdfbtn");if(!b)return;var old="";'
     'b.addEventListener("click",function(){window.print()});'
-    'var shut=[];window.addEventListener("beforeprint",function(){shut=[].slice.call(document.querySelectorAll("details.qs")).filter(function(d){return!d.open});shut.forEach(function(d){d.open=true});old=document.title;var h=document.querySelector(".article-head h1"),'
+    'var shut=[];window.addEventListener("beforeprint",function(){shut=[].slice.call(document.querySelectorAll("details.qs,details.kl-box")).filter(function(d){return!d.open});shut.forEach(function(d){d.open=true});old=document.title;var h=document.querySelector(".article-head h1"),'
     'l=document.querySelector(".metaleft"),lv=l&&l.getAttribute("data-print-level");if(h)document.title=h.textContent+(lv?" ("+lv+")":"")});'
     'window.addEventListener("afterprint",function(){shut.forEach(function(d){d.open=false});shut=[];if(old)document.title=old})})();'
 )
@@ -788,9 +796,9 @@ def topics_html(a):
 
 
 def language_html(items):
-    """A tinted box above a level's text, as a task before reading, with three short lists: adjectives, phrasal verbs, idioms and phrases. Each item
-    shows the term and a short meaning. Tapping an item copies it and Copy list copies them all; Hide meanings blurs the
-    definitions so readers can test themselves, and tapping an item then reveals that one. Printed in the PDF."""
+    """A collapsible tinted box above a level's text, as a task before reading: three short lists (adjectives, phrasal
+    verbs, idioms and phrases), each item with a short meaning. Closed until opened; the PDF prints it open. Tapping an
+    item copies it, Copy list copies them all, and Hide meanings blurs the definitions so readers can test themselves."""
     if not items:
         return ""
     cols = []
@@ -803,10 +811,11 @@ def language_html(items):
                 esc("{} ({}): {}".format(it["term"], it["kind"], it["meaning"])), esc(it["term"]), inline(it["meaning"]))
             for it in got)
         cols.append('<div class="kl-col"><h3 class="kl-h">{}</h3><ul class="kl-list">{}</ul></div>'.format(label, lis))
-    return ('<section class="kl-box" aria-label="Useful language"><div class="kl-head"><span class="kl-title">Useful language</span>'
-            '<span class="kl-note">Tap an item to copy it</span><span class="kl-btns"><button type="button" class="kl-toggle">Hide meanings</button>'
+    n = len(items)
+    return ('<details class="kl-box"><summary><span class="kl-title">Useful language</span><span class="kl-count">{n} item{s}</span>{chev}</summary>'
+            '<div class="kl-body"><div class="kl-head"><span class="kl-note">Tap an item to copy it</span><span class="kl-btns"><button type="button" class="kl-toggle">Hide meanings</button>'
             '<button type="button" class="kl-copy">Copy list</button></span></div>'
-            '<div class="kl-cols">{}</div></section>').format("".join(cols))
+            '<div class="kl-cols">{cols}</div></div></details>').format(n=n, s="" if n == 1 else "s", chev=CHEVRON_ICON, cols="".join(cols))
 
 
 def versions_html(a):

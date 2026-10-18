@@ -20,6 +20,18 @@ In August 2026, the novelist Naomi Alderman described an eight-week plan to help
 
 There are plenty of ways to make reading easier. Choose a book that interests you rather than one you think you should read. Keep your phone away for a while, or listen to an audiobook when travelling. Reading with a friend can also help. Finishing a chapter may not seem like a big achievement, but regular practice can make it easier to concentrate. A book does not need to compete with everything on your phone. Sometimes it simply needs ten quiet minutes.
 
+=== Core language ===
+
+- regular (adjective): happening often and at the same times
+- quiet (adjective): with little or no noise
+- interesting (adjective): holding your attention
+- sit down (phrasal verb): to move into a sitting position
+- get back into (phrasal verb): to start doing something again after a break
+- work towards (phrasal verb): to make progress towards a goal
+- half an hour (phrase): thirty minutes
+- for pleasure (phrase): for enjoyment, not for work or study
+- for a while (phrase): for a period of time
+
 === Intermediate ===
 
 You buy a novel, settle down to read it and enjoy the first few pages. Then your phone lights up. You reply to a message, check the news and somehow end up watching videos you never meant to open. When you return to the book, the story feels harder to follow. For people who once read regularly, this can be particularly frustrating. The desire to read has not disappeared, but the habit seems to have slipped away.
@@ -34,6 +46,18 @@ That approach may be particularly useful for people who have fallen out of the h
 
 The real concern is not that everyone should spend hours reading novels. It is that losing the habit of sustained attention may make longer, more complex writing feel increasingly difficult. Books give us time to follow ideas and characters without constant interruption. Recovering that experience does not require a dramatic lifestyle change. It may start with putting the phone away, opening a book and allowing ourselves to be bored for a few minutes before the story takes over.
 
+=== Intermediate language ===
+
+- sustained (adjective): continuing for a long time without stopping
+- manageable (adjective): easy enough to deal with
+- contradictory (adjective): saying opposite things
+- light up (phrasal verb): to become bright, used of a screen
+- slip away (phrasal verb): to disappear gradually without being noticed
+- fall out of (phrasal verb): to stop doing something you used to do regularly
+- an obvious suspect (phrase): the most likely cause
+- lose the habit of (phrase): to stop doing something you used to do often
+- very different from (phrase): not at all like
+
 === Advanced ===
 
 title: The Disappearing Reading Habit: Can We Learn to Concentrate Again?
@@ -43,13 +67,25 @@ The books are still being bought. They accumulate beside beds, appear on holiday
 
 Research suggests a more complicated picture than the familiar claim that nobody reads any more. A 2025 study drawing on two decades of American Time Use Survey data found that the proportion of adults reading for pleasure on an average day fell from approximately 28% in 2004 to 16% in 2023. Yet Pew Research Center reported in 2026 that around 75% of American adults had read at least some of a book during the previous year, a measure that has remained comparatively stable. Both findings can be true. Occasional reading may persist even as the practice of reading regularly becomes less common.
 
-Smartphones undoubtedly compete for attention, offering constant opportunities for novelty and interruption. A novel asks readers to remain within an unfolding argument or imagined world; a phone promises a succession of immediate rewards. But attributing every change to digital technology overlooks other pressures. Exhaustion, precarious working lives, limited access to books and the absence of quiet spaces can all undermine the habit. Reading also becomes less inviting when treated as a test of cultural sophistication rather than a source of pleasure.
+Smartphones undoubtedly compete for attention, offering constant opportunities for novelty and interruption. A novel asks readers to remain within an unfolding argument or imagined world; a phone promises a succession of immediate rewards. But attributing every change to digital technology glosses over other pressures. Exhaustion, precarious working lives, limited access to books and the absence of quiet spaces can all undermine the habit. Reading also becomes less inviting when treated as a test of cultural sophistication rather than a source of pleasure.
 
 In August 2026, the novelist Naomi Alderman proposed a programme modelled on the Couch to 5K running scheme. Her eight-week approach encouraged people to rebuild reading stamina through progressively longer sessions, beginning with manageable periods rather than ambitious targets. The analogy is useful because it replaces an unhelpful moral judgement with the idea of practice. Someone who struggles to concentrate is not necessarily lazy or incapable; they may simply have lost a routine that needs rebuilding.
 
 There is reason to avoid romanticising books as inherently virtuous or dismissing audiobooks and digital formats as inferior. Reading takes different forms, and sustained engagement with a complex text can occur on a screen as well as on paper. Nor is finishing more novels automatically a measure of intelligence. The more persuasive argument concerns the capacity to follow ideas over time, tolerate uncertainty and resist the expectation of constant stimulation. Those abilities matter beyond literature, including in education and public debate.
 
-The practical response may be disarmingly modest. Read something genuinely appealing, protect a short period from notifications and allow the habit to develop without turning it into another productivity target. A book need not compete with a phone on the phone's terms. Its pleasures are slower, less immediate and sometimes demanding. That difference is precisely what makes reading worth preserving, not as a badge of refinement, but as a way of paying attention to something long enough for it to change how we think.
+The practical response may be disarmingly modest. Read something genuinely appealing, set aside a short period free from notifications and allow the habit to develop without turning it into another productivity target. A book need not compete with a phone on the phone's terms. Its pleasures are slower, less immediate and sometimes demanding. That difference is precisely what makes reading worth preserving, not as a badge of refinement, but as a way of paying attention to something long enough for it to change how we think.
+
+=== Advanced language ===
+
+- virtuous (adjective): morally good
+- inferior (adjective): lower in quality
+- persuasive (adjective): good at making people agree
+- draw on (phrasal verb): to use information or experience as a source
+- gloss over (phrasal verb): to avoid dealing with something properly
+- set aside (phrasal verb): to keep time or money for a particular purpose
+- good intentions (phrase): plans to do something good that may never happen
+- on someone's terms (phrase): according to the conditions someone else sets
+- a badge of (phrase): a sign that shows a quality
 
 === Before you read ===
 
