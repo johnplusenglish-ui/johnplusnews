@@ -118,7 +118,7 @@ Each level can carry a short list of the useful language in its text: adjectives
 - in the long run (phrase): over a long period of time
 ```
 
-One item per line: the words exactly as they appear in the text, the type in brackets, a colon, then a short meaning. The site underlines the first place each item appears in that level's text (a dotted line; tapping it shows the meaning) and adds a quiet **Useful language** row under the text that opens to the list in three groups. The row switches with the level tabs and is printed open in the PDF. An item whose exact words are not in the text is still listed, and the build prints a note so you can fix the wording. In the publisher, each level has a "Useful language" box.
+One item per line: the words exactly as they appear in the text, the type in brackets, a colon, then a short meaning. The site underlines the first place each item appears in that level's text (a dotted line; tapping it shows the meaning) and adds a small **Useful language** table under the text: each item with its type and a short meaning, adjectives first, then phrasal verbs, then idioms and phrases. Tapping a row copies that item and **Copy list** copies them all, so students can paste them into their notes. The table switches with the level tabs and is printed in the PDF. An item whose exact words are not in the text is still listed, and the build prints a note so you can fix the wording. In the publisher, each level has a "Useful language" box.
 
 In the publisher, use the two boxes called **Before you read** and **Talk about it** under the article text (one question per line, up to 12 each; a leading dash or number is dropped). Leave a box empty for no row. By hand, add these after the level texts, one question per line:
 
