@@ -93,6 +93,77 @@ def body_html(text):
     return "\n".join(out)
 
 
+IRREGULAR = {"be": ["is", "are", "was", "were", "been", "being"], "break": ["broke", "broken"], "bring": ["brought"],
+             "buy": ["bought"], "catch": ["caught"], "come": ["came"], "cut": ["cut"], "do": ["did", "done"],
+             "draw": ["drew", "drawn"], "fall": ["fell", "fallen"], "feel": ["felt"], "find": ["found"], "fly": ["flew", "flown"],
+             "get": ["got"], "give": ["gave", "given"], "go": ["went", "gone"], "grow": ["grew", "grown"], "have": ["has", "had"],
+             "hold": ["held"], "keep": ["kept"], "lead": ["led"], "leave": ["left"], "lose": ["lost"], "make": ["made"],
+             "pay": ["paid"], "put": ["put"], "run": ["ran"], "say": ["said"], "see": ["saw", "seen"], "sell": ["sold"],
+             "shut": ["shut"], "sit": ["sat"], "speak": ["spoke", "spoken"], "stand": ["stood"], "take": ["took", "taken"],
+             "tell": ["told"], "think": ["thought"], "throw": ["threw", "thrown"], "win": ["won"], "write": ["wrote", "written"]}
+PLACEHOLDERS = {"someone", "somebody", "something", "sb", "sth", "one's", "someone's", "your", "yourself", "oneself"}
+
+
+def word_forms(w):
+    """A verb and the forms it may take in the text: turn, turns, turned, turning; tip, tipped; carry, carried; go, went."""
+    forms = {w, w + "s", w + "es", w + "ed", w + "d", w + "ing"}
+    if w.endswith("e"):
+        forms.add(w[:-1] + "ing")
+    if w.endswith("y"):
+        forms.update({w[:-1] + "ies", w[:-1] + "ied"})
+    if len(w) >= 3 and w[-1] not in "aeiouwxy" and w[-2] in "aeiou" and w[-3] not in "aeiou":
+        forms.update({w + w[-1] + "ed", w + w[-1] + "ing"})
+    forms.update(IRREGULAR.get(w, []))
+    return sorted(forms, key=len, reverse=True)
+
+
+def term_pattern(term):
+    """Finds a listed item in the text: the first word may be inflected (turn up, turned up), a leading 'a', 'an' or
+    'the' is optional, and 'someone', 'something' or 'your' may stand for up to three words of the text."""
+    words = html.escape(term, quote=False).split()
+    bits = []
+    verb_done = False
+    for i, w in enumerate(words):
+        if w.lower() in PLACEHOLDERS:
+            bits.append(r"(?:[^\s<>]+\s+){0,3}")
+        elif i == 0 and w.lower() in ("a", "an", "the"):
+            bits.append(r"(?:(?:a|an|the)\s+)?")
+        elif not verb_done:
+            bits.append("(?:" + "|".join(re.escape(f) for f in word_forms(w.lower())) + r")\s+")
+            verb_done = True
+        else:
+            bits.append(re.escape(w) + r"\s+")
+    body = "".join(bits)
+    if body.endswith(r"\s+"):
+        body = body[:-3]
+    return re.compile(r"(?<![A-Za-z])" + body + r"(?![A-Za-z])", re.I)
+
+
+def mark_language(html_text, items, path=None, level=""):
+    """Underline the first place each useful-language item appears in a level's text (a dotted line that shows the
+    meaning on tap). An item whose exact words are not in the text is still listed; a note is printed so the wording
+    can be fixed."""
+    if not items:
+        return html_text
+    parts = re.split(r"(<[^>]+>)", html_text)
+    for it in items:
+        pat = term_pattern(it["term"])
+        found = False
+        for i, seg in enumerate(parts):
+            if not seg or seg.startswith("<"):
+                continue
+            m = pat.search(seg)
+            if m:
+                parts[i] = (seg[:m.start()] + '<span class="kl" tabindex="0" data-term="{}" data-kind="{}" data-meaning="{}">{}</span>'.format(
+                    esc(it["term"]), esc(it["kind"]), esc(it["meaning"]), m.group(0)) + seg[m.end():])
+                found = True
+                break
+        if not found:
+            print("  note: '{}' is listed as {} language but its exact words are not in that text ({})".format(
+                it["term"], level, path.name if path else "?"))
+    return "".join(parts)
+
+
 def plain(text):
     t = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", text)
     t = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", t)
@@ -124,6 +195,37 @@ HEAD_LINE = re.compile(r"^(title|summary|audio|voice):[ \t]*(.*)$", re.I)
 ANY_MARK = re.compile(r"^===[ \t]*([A-Za-z][A-Za-z ]*?)[ \t]*===[ \t]*$", re.M)
 QUESTION_SETS = [("before", "Before you read"), ("after", "Talk about it")]
 SET_KEYS = {label.lower(): key for key, label in QUESTION_SETS}
+# Optional "useful language" lists, one per level, written as === Core language === followed by one item per line:
+#   - turn up (phrasal verb): to arrive somewhere
+LANG_MARK = re.compile(r"^(" + "|".join(LEVELS) + r") language$", re.I)
+LANG_LINE = re.compile(r"^(.+?)\s*\(([A-Za-z][A-Za-z /-]*)\)\s*:\s*(.+)$")
+LANG_GROUPS = [("adjective", "Adjectives"), ("phrasal", "Phrasal verbs"), ("phrase", "Idioms and phrases"), ("other", "Other words")]
+
+
+def lang_group(kind):
+    k = kind.lower()
+    if "adj" in k:
+        return "adjective"
+    if "phrasal" in k:
+        return "phrasal"
+    if any(w in k for w in ("idiom", "phrase", "expression", "collocation", "saying")):
+        return "phrase"
+    return "other"
+
+
+def clean_language(text):
+    """One item per line, 'term (type): meaning'. Returns [{'term', 'kind', 'meaning', 'group'}]. Raises ValueError."""
+    out = []
+    for line in text.splitlines():
+        line = BULLET.sub("", line.strip()).strip()
+        if not line:
+            continue
+        m = LANG_LINE.match(line)
+        if not m:
+            raise ValueError("a language line must look like 'turn up (phrasal verb): to arrive somewhere', not '{}'".format(line[:60]))
+        term, kind, meaning = m.group(1).strip(), " ".join(m.group(2).split()).lower(), m.group(3).strip()
+        out.append({"term": term, "kind": kind, "meaning": meaning, "group": lang_group(kind)})
+    return out
 BULLET = re.compile(r"^(?:[-*\u2022]|\d+[.)])\s+")
 
 
@@ -138,19 +240,28 @@ def clean_questions(text):
 
 
 def split_sections(body):
-    """Take the question sets out of an article body. Returns (the rest of the body, {'before': [...], 'after': [...]})."""
+    """Take the question sets and the useful-language lists out of an article body.
+    Returns (the rest of the body, {'before': [...], 'after': [...], 'language': {level: [items]}})."""
     marks = list(ANY_MARK.finditer(body))
-    sets = {"before": [], "after": []}
+    sets = {"before": [], "after": [], "language": {}}
     if not marks:
         return body, sets
     kept = [body[:marks[0].start()]]
+    levels = {l.lower(): l for l in LEVELS}
     for i, m in enumerate(marks):
         end = marks[i + 1].start() if i + 1 < len(marks) else len(body)
-        key = SET_KEYS.get(m.group(1).strip().lower())
+        name = m.group(1).strip()
+        key = SET_KEYS.get(name.lower())
+        lang = LANG_MARK.match(name)
         if key:
             if sets[key]:
-                raise ValueError("'{}' appears twice".format(m.group(1).strip()))
+                raise ValueError("'{}' appears twice".format(name))
             sets[key] = clean_questions(body[m.end():end])
+        elif lang:
+            level = levels[lang.group(1).lower()]
+            if level in sets["language"]:
+                raise ValueError("'{} language' appears twice".format(level))
+            sets["language"][level] = clean_language(body[m.end():end])
         else:
             kept.append(body[m.start():end])
     return "".join(kept), sets
@@ -245,6 +356,7 @@ def parse_article(path):
     try:
         versions = parse_versions(meta, body)
         questions = split_sections(body)[1]
+        language = questions["language"]
     except ValueError as e:
         fail(path, str(e))
     if meta.get("draft", "").lower() in ("yes", "true", "1"):
@@ -285,7 +397,8 @@ def parse_article(path):
         "questions": questions,
         "tags": parse_tags(meta.get("tags", "")),
         "versions": [
-            {"level": v["level"], "html": body_html(v["text"]),
+            {"level": v["level"], "html": mark_language(body_html(v["text"]), language.get(v["level"], []), path, v["level"]),
+             "language": language.get(v["level"], []),
              "title": v["title"] or meta["title"], "summary": v["summary"] or summary,
              "audio": asset(v["audio"]) if v["audio"] else "", "voice": v["voice"]}
             for v in versions
@@ -522,6 +635,20 @@ TABS_JS = (
     'if(n<0||n>=t.length)return;e.preventDefault();t[n].focus();show(t[n].getAttribute("data-level"),true)})});'
     'window.addEventListener("hashchange",function(){show(location.hash.slice(1).toLowerCase(),false)})})();'
 )
+LANG_JS = (
+    '(function(){var pop=null;function close(){if(pop){pop.parentNode.removeChild(pop);pop=null}}'
+    'function open(k){close();var d=document.createElement("div");d.className="kl-pop";d.setAttribute("role","note");'
+    'var b=document.createElement("b");b.textContent=k.getAttribute("data-term");var t=document.createElement("span");t.className="kl-kind";t.textContent=k.getAttribute("data-kind");'
+    'var s=document.createElement("span");s.textContent=k.getAttribute("data-meaning");d.appendChild(b);d.appendChild(t);d.appendChild(s);d.kl=k;document.body.appendChild(d);'
+    'var r=k.getBoundingClientRect(),w=d.offsetWidth,x=Math.max(8,Math.min(window.pageXOffset+r.left,window.pageXOffset+document.documentElement.clientWidth-w-8));'
+    'd.style.left=x+"px";d.style.top=(window.pageYOffset+r.bottom+6)+"px";pop=d}'
+    'document.addEventListener("click",function(e){var k=e.target.closest?e.target.closest(".kl"):null;'
+    'if(!k){if(!(e.target.closest&&e.target.closest(".kl-pop")))close();return}'
+    'if(pop&&pop.kl===k)close();else open(k)});'
+    'document.addEventListener("keydown",function(e){if(e.key==="Escape")close();'
+    'else if((e.key==="Enter"||e.key===" ")&&e.target.classList&&e.target.classList.contains("kl")){e.preventDefault();if(pop&&pop.kl===e.target)close();else open(e.target)}});'
+    'window.addEventListener("resize",close)})();'
+)
 FONTS = [("default", "Georgia"), ("outfit", "Outfit"), ("verdana", "Verdana"),
          ("atkinson", "Atkinson Hyperlegible"), ("lexend", "Lexend")]
 
@@ -646,18 +773,36 @@ def topics_html(a):
         "".join('<a class="chip" href="/tags/{}/">{}</a>'.format(t["slug"], esc(t["label"])) for t in a["tags"]))
 
 
+def language_html(items):
+    """A quiet row under a level's text: the useful language in groups, closed until opened; the PDF prints it open."""
+    if not items:
+        return ""
+    groups = []
+    for key, label in LANG_GROUPS:
+        got = [it for it in items if it["group"] == key]
+        if got:
+            groups.append('<h3 class="kl-h">{}</h3><ul class="kl-list">{}</ul>'.format(label, "".join(
+                '<li><b class="kl-term">{}</b><span class="kl-mean">{}</span></li>'.format(esc(it["term"]), inline(it["meaning"])) for it in got)))
+    n = len(items)
+    return ('<details class="qs qs-lang"><summary><span class="qs-label">Useful language</span>'
+            '<span class="qs-count">{n} item{s}</span>{chev}</summary><div class="kl-groups">{g}</div></details>'
+            ).format(n=n, s="" if n == 1 else "s", chev=CHEVRON_ICON, g="".join(groups))
+
+
 def versions_html(a):
     v = a["versions"]
+    any_lang = any(x["language"] for x in v)
     if len(v) == 1:
-        return '<div class="prose">\n{}\n</div>'.format(v[0]["html"])
+        return '<div class="prose">\n{}\n</div>{}{}'.format(v[0]["html"], language_html(v[0]["language"]),
+                                                            "\n<script>" + LANG_JS + "</script>" if any_lang else "")
     d = default_index(v)
     panels = "".join(
         '<section class="panel" role="tabpanel" id="v-{k}" aria-labelledby="tab-{k}"{hidden}>'
         '<h2 class="lvl-head">{label} version</h2>'
-        '<div class="prose">\n{html}\n</div></section>'
-        .format(k=x["level"].lower(), hidden="" if i == d else " hidden", label=esc(x["level"]), html=x["html"])
+        '<div class="prose">\n{html}\n</div>{lang}</section>'
+        .format(k=x["level"].lower(), hidden="" if i == d else " hidden", label=esc(x["level"]), html=x["html"], lang=language_html(x["language"]))
         for i, x in enumerate(v))
-    return '<div class="panels">{}</div>\n<script>{}</script>'.format(panels, TABS_JS)
+    return '<div class="panels">{}</div>\n<script>{}</script>'.format(panels, TABS_JS + (LANG_JS if any_lang else ""))
 
 
 def article_page(a, newer, older):

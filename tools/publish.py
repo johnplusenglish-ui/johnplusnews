@@ -132,6 +132,8 @@ def get_article(slug):
                     "tags": [t["label"] for t in build.parse_tags(meta.get("tags", ""))],
                     "versions": versions, "overrides": overrides, "audio": audio, "voices": voices, "summary": meta.get("summary", ""),
                     "before": "\n".join(sets["before"]), "after": "\n".join(sets["after"]),
+                    "language": {lv: "\n".join("{} ({}): {}".format(i["term"], i["kind"], i["meaning"]) for i in items)
+                                 for lv, items in sets["language"].items()},
                     "source_name": name, "source_url": url, "image": meta.get("image", ""),
                     "image_alt": meta.get("image-alt", ""),
                     "image_credit": meta.get("image-credit", ""), "image_credit_url": meta.get("image-credit-url", ""),
@@ -247,6 +249,9 @@ def compose(f):
     for v in f["versions"]:
         head = "".join("{}: {}\n".format(k, v[k]) for k in ("title", "summary", "audio", "voice") if v.get(k))
         blocks.append("=== {} ===\n\n{}{}{}".format(v["level"], head, "\n" if head else "", v["text"]))
+        lang = (f.get("language") or {}).get(v["level"])
+        if lang:
+            blocks.append("=== {} language ===\n\n{}".format(v["level"], "\n".join("- " + x for x in lang)))
     for key, label in build.QUESTION_SETS:
         if f[key]:
             blocks.append("=== {} ===\n\n{}".format(label, "\n".join("- " + q for q in f[key])))
@@ -307,6 +312,19 @@ def clean_fields(p, content_dir=None):
             raise UserError("A question in '{}' starts with ===. Please reword it.".format(label))
         f[key] = qs
     levels = {l.lower(): l for l in build.LEVELS}
+    f["language"] = {}
+    for name, text in (p.get("language") or {}).items():
+        level = levels.get(one_line(name).lower())
+        if not level:
+            continue
+        try:
+            items = build.clean_language((text or "").replace("\r\n", "\n").replace("\r", "\n"))
+        except ValueError as e:
+            raise UserError("Useful language for {}: {}.".format(level, e))
+        if len(items) > 30:
+            raise UserError("Useful language for {} has {} items. Keep it to 30 or fewer.".format(level, len(items)))
+        if items:
+            f["language"][level] = ["{} ({}): {}".format(i["term"], i["kind"], i["meaning"]) for i in items]
     found = {}
     own = {}
     voices = {}

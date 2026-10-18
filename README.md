@@ -106,6 +106,20 @@ When a reader switches tab, the headline, the subheading and the browser tab tit
 
 An article can have two optional sets of questions: **Before you read** (warm-up questions) and **Talk about it** (discussion questions). On the page they are two quiet one-line rows, one under the picture and one under the text, closed until a reader opens them, so the article itself stays clean. The PDF always prints both open, in a tinted box. Every level shares the same questions, so keep the wording simple enough for the Core level.
 
+## Useful language
+
+Each level can carry a short list of the useful language in its text: adjectives, phrasal verbs and idioms or phrases (three of each is the house minimum, written into the article so they read naturally). In the file, put a section after that level's text:
+
+```
+=== Core language ===
+
+- turn up (phrasal verb): to arrive somewhere
+- exhausting (adjective): making you very tired
+- in the long run (phrase): over a long period of time
+```
+
+One item per line: the words exactly as they appear in the text, the type in brackets, a colon, then a short meaning. The site underlines the first place each item appears in that level's text (a dotted line; tapping it shows the meaning) and adds a quiet **Useful language** row under the text that opens to the list in three groups. The row switches with the level tabs and is printed open in the PDF. An item whose exact words are not in the text is still listed, and the build prints a note so you can fix the wording. In the publisher, each level has a "Useful language" box.
+
 In the publisher, use the two boxes called **Before you read** and **Talk about it** under the article text (one question per line, up to 12 each; a leading dash or number is dropped). Leave a box empty for no row. By hand, add these after the level texts, one question per line:
 
 ```

@@ -239,13 +239,17 @@ function renderLevels() {
     const bl = document.createElement("label"); bl.htmlFor = "ta-" + l; bl.style.marginTop = "12px"; bl.textContent = l + " text";
     const ta = document.createElement("textarea"); ta.id = "ta-" + l; ta.spellcheck = true;
     const h = document.createElement("div"); h.className = "hint"; h.id = "wc-" + l;
+    const ll = document.createElement("label"); ll.className = "opt"; ll.htmlFor = "lg-" + l; ll.style.marginTop = "14px"; ll.textContent = "Useful language in the " + l + " text (optional)";
+    const lg = document.createElement("textarea"); lg.id = "lg-" + l; lg.rows = 5; lg.className = "sub"; lg.spellcheck = true; lg.placeholder = "One item per line, like:\nturn up (phrasal verb): to arrive somewhere\nexhausting (adjective): making you very tired\nin the long run (phrase): over a long period of time";
+    const lh = document.createElement("div"); lh.className = "hint"; lh.id = "lgc-" + l;
     const al = document.createElement("label"); al.className = "opt"; al.htmlFor = "au-" + l; al.style.marginTop = "16px"; al.textContent = "Recording of the " + l + " version (optional)";
     const af = document.createElement("input"); af.type = "file"; af.id = "au-" + l; af.accept = "audio/*,.m4a,.mp3,.wav,.aif,.aiff,.caf";
     const ah = document.createElement("div"); ah.className = "hint"; ah.id = "auh-" + l;
     const ar = document.createElement("button"); ar.type = "button"; ar.className = "linkbtn danger"; ar.id = "aur-" + l; ar.hidden = true; ar.textContent = "Remove the recording";
     const vl = document.createElement("label"); vl.className = "opt"; vl.htmlFor = "av-" + l; vl.textContent = "Label shown beside the player";
     const vi = document.createElement("input"); vi.type = "text"; vi.id = "av-" + l; vi.autocomplete = "off"; vi.maxLength = 60; vi.value = "Read by John"; vi.placeholder = "For example: Read by John";
-    box.append(hl, ht, sl, st, bl, ta, h, al, af, ah, ar, vl, vi); $("versions").appendChild(box);
+    box.append(hl, ht, sl, st, bl, ta, h, ll, lg, lh, al, af, ah, ar, vl, vi); $("versions").appendChild(box);
+    lg.addEventListener("input", () => { counts(); saveDraft(); });
     af.addEventListener("change", () => takeAudio(l, af.files[0]));
     ar.addEventListener("click", () => { if (audioNew[l]) { delete audioNew[l]; af.value = ""; } else if (audioOld[l]) audioDel[l] = true; showAudio(l); });
     ht.addEventListener("input", saveDraft); st.addEventListener("input", saveDraft);
@@ -257,6 +261,7 @@ function renderLevels() {
 function checked(l) { return document.querySelector("input[name=level][value=" + l + "]").checked; }
 function setChecked(l, on) { document.querySelector("input[name=level][value=" + l + "]").checked = on; $("box-" + l).hidden = !on; }
 function texts() { const t = {}; LEVELS.forEach(l => { if (checked(l)) t[l] = $("ta-" + l).value; }); return t; }
+function language() { const o = {}; LEVELS.forEach(l => { if (checked(l)) o[l] = $("lg-" + l).value; }); return o; }
 function overrides() { const o = {}; LEVELS.forEach(l => { if (checked(l)) o[l] = { title: $("vt-" + l).value, summary: $("vs-" + l).value }; }); return o; }
 function setOwn(l, o) { $("vt-" + l).value = (o && o.title) || ""; $("vs-" + l).value = (o && o.summary) || ""; }
 function today() { try { return new Date().toLocaleDateString("en-CA"); } catch (e) { return ""; } }
@@ -329,6 +334,8 @@ function counts() {
   LEVELS.forEach(l => {
     const words = ($("ta-" + l).value.trim().match(/\S+/g) || []).length;
     $("wc-" + l).textContent = words ? words + " words." : "";
+    const ln = $("lg-" + l).value.split("\n").filter(x => x.trim()).length;
+    $("lgc-" + l).textContent = (ln ? ln + (ln === 1 ? " item. " : " items. ") : "") + "Each item is underlined where its exact words appear in the text and listed under the article with its meaning. Types: adjective, phrasal verb, idiom or phrase.";
   });
   [["qb", "qbc"], ["qa", "qac"]].forEach(([a, b]) => {
     const n = $(a).value.split("\n").filter(x => x.trim()).length;
@@ -343,7 +350,7 @@ function resetForm() {
   ["title", "summary", "alt", "credit", "curl", "lic", "licurl", "clabel", "cnote", "sname", "surl", "qb", "qa"].forEach(id => $(id).value = "");
   tags = []; $("tagin").value = ""; renderTags();
   audioNew = {}; audioOld = {}; audioDel = {};
-  LEVELS.forEach(l => { $("ta-" + l).value = ""; setOwn(l, null); setChecked(l, false); $("au-" + l).value = ""; $("av-" + l).value = "Read by John"; showAudio(l); });
+  LEVELS.forEach(l => { $("ta-" + l).value = ""; $("lg-" + l).value = ""; setOwn(l, null); setChecked(l, false); $("au-" + l).value = ""; $("av-" + l).value = "Read by John"; showAudio(l); });
   $("date").value = today();
   $("file").value = "";
   $("formTitle").textContent = "New article";
@@ -383,7 +390,7 @@ function takeFile(f) {
 function collect() {
   return {
     slug: editing, rev: editingRev, title: $("title").value, date: $("date").value, summary: $("summary").value,
-    tags: tags, versions: texts(), overrides: overrides(), ...audioPayload(), before: $("qb").value, after: $("qa").value, source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
+    tags: tags, versions: texts(), overrides: overrides(), language: language(), ...audioPayload(), before: $("qb").value, after: $("qa").value, source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
     image_credit: $("credit").value, image_credit_url: $("curl").value,
     image_licence: $("lic").value, image_licence_url: $("licurl").value, image_credit_note: $("cnote").value, image_credit_label: $("clabel").value,
     image: pic ? { name: pic.name, data: pic.data } : null, remove_image: removePic && !pic,
@@ -403,7 +410,7 @@ function problem() {
 function saveDraft() {
   if (editing) return;
   try {
-    localStorage.setItem("jpn_draft2", JSON.stringify({ title: $("title").value, date: $("date").value, summary: $("summary").value, tags: tags, texts: texts(), own: overrides(), sname: $("sname").value, surl: $("surl").value, alt: $("alt").value, credit: $("credit").value, curl: $("curl").value, lic: $("lic").value, licurl: $("licurl").value, cnote: $("cnote").value, clabel: $("clabel").value, qb: $("qb").value, qa: $("qa").value }));
+    localStorage.setItem("jpn_draft2", JSON.stringify({ title: $("title").value, date: $("date").value, summary: $("summary").value, tags: tags, texts: texts(), own: overrides(), lang: language(), sname: $("sname").value, surl: $("surl").value, alt: $("alt").value, credit: $("credit").value, curl: $("curl").value, lic: $("lic").value, licurl: $("licurl").value, cnote: $("cnote").value, clabel: $("clabel").value, qb: $("qb").value, qa: $("qa").value }));
   } catch (e) {}
 }
 function loadDraft() {
@@ -415,7 +422,7 @@ function loadDraft() {
     $("title").value = d.title || ""; $("summary").value = d.summary || ""; tags = Array.isArray(d.tags) ? d.tags : []; renderTags();
     $("sname").value = d.sname || ""; $("surl").value = d.surl || ""; $("alt").value = d.alt || ""; $("credit").value = d.credit || ""; $("curl").value = d.curl || ""; $("lic").value = d.lic || ""; $("licurl").value = d.licurl || ""; $("cnote").value = d.cnote || ""; $("clabel").value = d.clabel || ""; $("qb").value = d.qb || ""; $("qa").value = d.qa || "";
     if (d.date) $("date").value = d.date;
-    LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(t, l); setChecked(l, on); $("ta-" + l).value = on ? t[l] : ""; setOwn(l, on ? (d.own || {})[l] : null); });
+    LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(t, l); setChecked(l, on); $("ta-" + l).value = on ? t[l] : ""; setOwn(l, on ? (d.own || {})[l] : null); $("lg-" + l).value = on ? ((d.lang || {})[l] || "") : ""; });
     return true;
   } catch (e) { return false; }
 }
@@ -449,7 +456,7 @@ async function openArticle(slug, force) {
     $("sname").value = a.source_name; $("surl").value = a.source_url; $("alt").value = a.image_alt; $("credit").value = a.image_credit || ""; $("curl").value = a.image_credit_url || ""; $("lic").value = a.image_licence || ""; $("licurl").value = a.image_licence_url || ""; $("cnote").value = a.image_credit_note || ""; $("clabel").value = a.image_credit_label || ""; $("qb").value = a.before || ""; $("qa").value = a.after || "";
     tags = (a.tags || []).slice(); $("tagin").value = ""; renderTags();
     audioNew = {}; audioDel = {}; audioOld = a.audio || {};
-    LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(a.versions, l); setChecked(l, on); $("ta-" + l).value = on ? a.versions[l] : ""; setOwn(l, on ? (a.overrides || {})[l] : null); $("au-" + l).value = ""; $("av-" + l).value = (a.voices || {})[l] || "Read by John"; showAudio(l); });
+    LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(a.versions, l); setChecked(l, on); $("ta-" + l).value = on ? a.versions[l] : ""; setOwn(l, on ? (a.overrides || {})[l] : null); $("lg-" + l).value = on ? ((a.language || {})[l] || "") : ""; $("au-" + l).value = ""; $("av-" + l).value = (a.voices || {})[l] || "Read by John"; showAudio(l); });
     $("file").value = "";
     $("formTitle").textContent = "Edit article";
     $("editing").hidden = false;
