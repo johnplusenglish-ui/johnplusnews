@@ -19,11 +19,23 @@ This sounds attractive to people who feel tired of their smartphones. They may w
 
 But memories of the past are not always fair. The 1990s had problems too, including wars, discrimination and financial worries. Modern technology has made many parts of life easier and safer. Perhaps the real attraction is not the decade itself but the idea of being less distracted. We cannot go back in time, but we can choose how we use our phones and how much attention we give to the people around us.
 
+=== Core language ===
+
+- baggy (adjective): loose and wide, used of clothes
+- attractive (adjective): pleasant and appealing
+- distracted (adjective): unable to concentrate because your attention is pulled elsewhere
+- look back (phrasal verb): to think about the past
+- carry something around (phrasal verb): to have something with you wherever you go
+- go back (phrasal verb): to return to an earlier time or place
+- well beyond (phrase): far outside or past
+- for a while (phrase): for a period of time
+- make plans (phrase): to arrange what you are going to do
+
 === Intermediate ===
 
-The baggy jeans are back, so are the chunky trainers, and young music fans are discovering Oasis songs that were released before they were born. Even old digital cameras and portable CD players have become fashionable again. More than 25 years after the decade ended, the 1990s are enjoying another moment in the spotlight. At Tate Britain, an exhibition devoted to the decade's art and fashion opened in October 2026, offering a more serious look at a period many people now remember fondly.
+The baggy jeans are back, so are the chunky trainers, and young music fans are getting into Oasis songs that were released before they were born. Even old digital cameras and portable CD players have become fashionable again. More than 25 years after the decade ended, the 1990s are enjoying another moment in the spotlight. At Tate Britain, an exhibition devoted to the decade's art and fashion opened in October 2026, offering a more serious look at a period many people now remember fondly.
 
-It is tempting to explain the trend as nostalgia, but that only goes so far. Plenty of the people buying 90s clothes or listening to Britpop have no personal memories of the period. For them, the decade represents something they imagine modern life has lost: a world in which people were not constantly checking their phones or worrying about what might appear on social media. Photographs were developed later, music came on physical albums and an evening out could pass without being recorded.
+It is tempting to put the trend down to nostalgia, but that only goes so far. Plenty of the people buying 90s clothes or listening to Britpop have no personal memories of the period. For them, the decade represents something they imagine modern life has lost: a world in which people were not constantly checking their phones or worrying about what might appear on social media. Photographs were developed later, music came on physical albums and an evening out could pass without being recorded.
 
 The appeal goes beyond technology. Fashion moves in cycles, and styles that once looked old-fashioned eventually seem fresh again. Music can have the same effect. A song becomes popular with a new generation, older fans rediscover it and suddenly a period that seemed distant is everywhere. Parents and children may even find themselves enjoying the same bands, though perhaps for different reasons.
 
@@ -33,6 +45,18 @@ However, it is easy to look back through rose-tinted glasses. The 1990s were not
 
 Perhaps today's revival is less about wanting to live in the past than choosing what to bring into the present. People can enjoy old music, clothes and technology without pretending that an earlier generation had everything right. The interesting question is why objects that were once replaced by newer inventions now seem worth using again. Their attraction may tell us more about our dissatisfaction with modern habits than about the 1990s themselves.
 
+=== Intermediate language ===
+
+- chunky (adjective): thick and heavy-looking
+- fashionable (adjective): popular at a particular time
+- exhausting (adjective): making you very tired
+- keep up with (phrasal verb): to do as well or as much as other people
+- get into (phrasal verb): to become interested in something
+- put something down to (phrasal verb): to explain something as being caused by
+- go so far (phrase): to be true or useful only to a limited extent
+- through rose-tinted glasses (phrase): seeing something as better than it really was
+- keep in touch (phrase): to stay in contact with someone
+
 === Advanced ===
 
 title: Lost in the 90s: Nostalgia for a Decade You Never Knew
@@ -40,7 +64,7 @@ summary: As Britpop returns, analogue technology gains new admirers and 1990s fa
 
 For a generation that has never known life without the internet, the appeal of the 1990s can seem almost paradoxical. Young people are buying second-hand cameras, wearing oversized sportswear and listening to albums originally released before their parents had reliable broadband. Tate Britain's exhibition "The 90s: Art and Fashion", which opened in October 2026, has provided a cultural backdrop to a revival already visible in music, fashion and everyday technology. Yet the fascination extends beyond a particular style. It reflects a growing unease with the conditions of contemporary life.
 
-The decade has acquired a mythology as the last truly analogue period, when photographs could remain private, social arrangements required commitment and a night out did not automatically generate digital evidence. That picture is appealing precisely because it contrasts with a present shaped by notifications, algorithms and the expectation of permanent availability. For younger people, the 1990s are not so much a remembered past as an imagined alternative, constructed from clothing, photographs, music videos and stories told by older generations.
+The decade has taken on a mythology as the last truly analogue period, when photographs could remain private, social arrangements required commitment and a night out did not automatically generate digital evidence. That picture is appealing precisely because it contrasts with a present shaped by notifications, algorithms and the expectation of permanent availability. For younger people, the 1990s are not so much a remembered past as an imagined alternative, pieced together from clothing, photographs, music videos and stories told by older generations.
 
 Cultural revivals have always worked this way. Fashion regularly borrows from earlier periods, stripping familiar objects of their original associations before presenting them as desirable again. The current interest in Britpop, grainy photography and physical music formats combines that familiar cycle with a sharper reaction against digital convenience. A CD must be chosen and played; a film photograph cannot be immediately deleted. The extra effort, once considered a disadvantage, has become part of the attraction.
 
@@ -48,7 +72,19 @@ The danger is that aesthetic nostalgia can flatten history into a collection of 
 
 Tate's exhibition, curated by Edward Enninful, offers an opportunity to revisit the decade as a contested cultural moment rather than a collection of fashionable accessories. Artists and photographers explored questions of class, identity, race and representation that remain urgent today. Looking closely at their work complicates the idea that the period was simply more innocent or authentic. Some of the tensions that shape present-day debates were already visible, even if they were expressed through different media.
 
-Perhaps the renewed enthusiasm for the 1990s tells us less about what life was actually like then than about the aspects of modern living that people feel powerless to change. Digital technology has delivered remarkable convenience, but it has also made attention a valuable commodity. Choosing an old camera will not solve that problem. It may, however, offer a small reminder that convenience is not the only measure of a satisfying life, and that not every moment needs to be shared to be worth remembering.
+Perhaps the renewed enthusiasm for the 1990s tells us less about what life was actually like then than about the aspects of modern living that people feel powerless to change. Digital technology has delivered remarkable convenience, but it has also turned attention into a valuable commodity. Choosing an old camera will not solve that problem. It may, however, offer a small reminder that convenience is not the only measure of a satisfying life, and that not every moment needs to be shared to be worth remembering.
+
+=== Advanced language ===
+
+- paradoxical (adjective): seeming impossible or contradictory, yet true
+- carefree (adjective): without worries or responsibilities
+- contested (adjective): argued about; not agreed on
+- take on (phrasal verb): to begin to have a particular quality or meaning
+- piece together (phrasal verb): to build a picture of something from separate parts
+- turn something into (phrasal verb): to change something so that it becomes something else
+- come at the cost of (phrase): to be achieved only by losing something else
+- not so much (phrase): used to say that one description fits better than another
+- a reminder that (phrase): something that makes you remember or notice a fact
 
 === Before you read ===
 
