@@ -22,7 +22,7 @@
     try { return JSON.parse(localStorage.getItem(key) || "[]") || []; } catch (e) { return memory[key] || []; }
   }
   function save(key, items) {
-    var slim = items.map(function (it) { return { start: it.start, end: it.end, text: it.text }; });
+    var slim = items.map(function (it) { return { start: it.start, end: it.end, text: it.text, sentence: it.sentence || "" }; });
     try { localStorage.setItem(key, JSON.stringify(slim)); } catch (e) { memory[key] = slim; }
   }
   function markUsed() { try { localStorage.setItem("jpn_hl_used", "1"); } catch (e) {} }
@@ -66,6 +66,26 @@
     });
   }
   function squash(s) { return s.replace(/\s+/g, " ").trim(); }
+  function blockAt(prose, pos) {
+    var nodes = textNodes(prose), hit = null;
+    for (var i = 0; i < nodes.length; i++) { if (nodes[i].start <= pos && pos < nodes[i].start + nodes[i].node.nodeValue.length) { hit = nodes[i]; break; } }
+    return hit ? blockOf(hit.node, prose) : null;
+  }
+  function sentenceFor(prose, s, e) {      /* the whole sentence the words sit in, for the My Words list */
+    var b = blockAt(prose, s);
+    if (!b) return "";
+    var base = offsetOf(prose, b, 0), full = b.textContent, a = s - base, z = e - base;
+    var from = 0, to = full.length, m, re = /[.!?]["'\u201D\u2019)]*\s+/g;
+    while ((m = re.exec(full))) {
+      var cut = m.index + m[0].length;
+      if (cut <= a) from = cut;
+      else if (m.index + 1 >= z) { to = m.index + 1; break; }
+    }
+    return squash(full.slice(from, to)).slice(0, 600);
+  }
+  function emit(type, st, item) {
+    try { document.dispatchEvent(new CustomEvent("jpn:hl", { detail: { type: type, slug: slug, level: levelOf(st.prose), item: item ? { text: item.text, start: item.start, end: item.end, sentence: item.sentence || "" } : null } })); } catch (e) {}
+  }
 
   /* -------------------------------------------------------------- one state per text */
   function levelOf(prose) {
@@ -116,6 +136,7 @@
       st.items = [];
       save(st.key, st.items);
       render(st);
+      emit("clear", st, null);
     });
   }
 
@@ -142,10 +163,10 @@
   function addItem(sel) {
     var st = sel.st, s = sel.start, e = sel.end, keep = [];
     st.items.forEach(function (it) {
-      if (it.end >= s && it.start <= e) { s = Math.min(s, it.start); e = Math.max(e, it.end); unwrap(st.prose, it.id); }
+      if (it.end >= s && it.start <= e) { s = Math.min(s, it.start); e = Math.max(e, it.end); unwrap(st.prose, it.id); (st.dropped = st.dropped || []).push(it); }
       else keep.push(it);
     });
-    var item = { id: nextId++, start: s, end: e, text: squash(st.prose.textContent.slice(s, e)) };
+    var item = { id: nextId++, start: s, end: e, text: squash(st.prose.textContent.slice(s, e)), sentence: sentenceFor(st.prose, s, e) };
     keep.push(item);
     keep.sort(function (a, b) { return a.start - b.start; });
     st.items = keep;
@@ -153,35 +174,67 @@
     save(st.key, st.items);
     markUsed();
     render(st);
+    var gone = st.dropped || [];
+    st.dropped = [];
+    gone.forEach(function (g) { emit("remove", st, g); });
+    emit("add", st, item);
   }
   function removeItem(st, id) {
+    var gone = st.items.filter(function (it) { return it.id === id; })[0];
     unwrap(st.prose, id);
     st.items = st.items.filter(function (it) { return it.id !== id; });
     save(st.key, st.items);
     render(st);
+    if (gone) emit("remove", st, gone);
   }
 
   /* ------------------------------------------------------------ restore saved ones */
+  function place(st, it) {
+    var full = st.prose.textContent, start = it.start, end = it.end;
+    if (typeof start !== "number" || typeof end !== "number" || !it.text) return null;
+    if (squash(full.slice(start, end)) !== it.text) {        // the text has changed since: look for the words again
+      var at = full.indexOf(it.text);
+      if (at < 0) return null;
+      start = at; end = at + it.text.length;
+    }
+    for (var i = 0; i < st.items.length; i++) { if (start < st.items[i].end && end > st.items[i].start) return null; }   // never overlap
+    var item = { id: nextId++, start: start, end: end, text: squash(full.slice(start, end)), sentence: it.sentence || sentenceFor(st.prose, start, end) };
+    st.items.push(item);
+    wrap(st.prose, start, end, item.id);
+    st.items.sort(function (a, b) { return a.start - b.start; });
+    return item;
+  }
   function restore(st) {
-    var full = st.prose.textContent;
     var saved = load(st.key).filter(function (it) { return it && typeof it.start === "number" && typeof it.end === "number" && it.text; });
     saved.sort(function (a, b) { return a.start - b.start; });
-    var last = -1;
-    saved.forEach(function (it) {
-      var start = it.start, end = it.end;
-      if (squash(full.slice(start, end)) !== it.text) {      // the text has changed since: look for the words again
-        var at = full.indexOf(it.text);
-        if (at < 0) return;
-        start = at; end = at + it.text.length;
-      }
-      if (start < last) return;                              // never overlap
-      var item = { id: nextId++, start: start, end: end, text: squash(full.slice(start, end)) };
-      st.items.push(item);
-      wrap(st.prose, start, end, item.id);
-      last = end;
-    });
+    saved.forEach(function (it) { place(st, it); });
     save(st.key, st.items);
   }
+
+  /* the account script (when someone is signed in) hands over the words saved in the cloud for this article:
+     the cloud list wins, so a highlight removed on another device disappears here too */
+  window.jpnHL = {
+    slug: slug,
+    all: function () {
+      var out = [];
+      states.forEach(function (st) { st.items.forEach(function (it) { out.push({ level: levelOf(st.prose), text: it.text, start: it.start, end: it.end, sentence: it.sentence || "" }); }); });
+      return out;
+    },
+    sync: function (rows) {
+      states.forEach(function (st) {
+        var lv = levelOf(st.prose), mine = rows.filter(function (r) { return r.level === lv; });
+        var texts = {};
+        mine.forEach(function (r) { texts[r.text] = r; });
+        st.items.slice().forEach(function (it) { if (!texts[it.text]) { unwrap(st.prose, it.id); st.items = st.items.filter(function (x) { return x !== it; }); } });
+        mine.forEach(function (r) {
+          if (st.items.some(function (it) { return it.text === r.text; })) return;
+          place(st, { start: r.start_pos, end: r.end_pos, text: r.text, sentence: r.sentence });
+        });
+        save(st.key, st.items);
+        render(st);
+      });
+    }
+  };
 
   /* ------------------------------------------------------------------ hint line */
   var hints = [];

@@ -8,6 +8,7 @@ Each article is one plain text file in content/ (see README.md).
 """
 import datetime as dt
 import hashlib
+import json
 import html
 import re
 import shutil
@@ -464,6 +465,7 @@ def page(path, main, title=None, desc=None, current=None, image=None, kind="webs
         '<a href="{}"{}>{}</a>'.format(href, ' aria-current="page"' if href == current else "", label)
         for href, label in NAV
     )
+    head_extra = head_extra + account_scripts()
     og_image = '<meta property="og:image" content="{}">'.format(
         esc(image if image.startswith("http") else SITE["url"] + asset(image))) if image else ""
     return """<!doctype html>
@@ -623,6 +625,13 @@ def gallery_page(arts, topics=(), topic=None):
     return page("/", main, current="/", desc=SITE["tagline"], image=(arts[0]["image"] if arts else "") or None, wide=True)
 
 
+def account_page(path, heading, kind, note):
+    """My words and the teacher view: an empty shell that static/account.js fills in for the signed-in reader."""
+    main = ('<div class="wrap"><h1 class="page-title">{}</h1><p class="acct-intro">{}</p>'
+            '<div id="acct-root" data-page="{}"><noscript><p class="acct-note">This page needs JavaScript.</p></noscript></div></div>').format(heading, note, kind)
+    return page(path, main, title=heading, desc=note, head_extra='<meta name="robots" content="noindex">\n')
+
+
 def about_page():
     links = "".join(
         '<li><a href="{}" target="_blank" rel="noopener noreferrer"><span>{}</span><span aria-hidden="true">&rarr;</span></a></li>'.format(esc(url), label)
@@ -640,7 +649,7 @@ TABS_JS = (
     'x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;var q=document.getElementById("l-"+l);if(q){q.hidden=!on;var au=q.querySelector("audio");if(au&&!on&&!au.paused)au.pause()}'
     'if(on){var tt=x.getAttribute("data-title"),ss=x.getAttribute("data-sub"),h=document.querySelector(".article-head h1"),d=document.querySelector(".dek"),ml=document.querySelector(".metaleft");if(ml)ml.setAttribute("data-print-level",x.textContent);'
     'if(h&&tt)h.textContent=tt;if(d&&ss)d.textContent=ss;if(tt)document.title=tt+" | "+document.title.split(" | ").pop()}});'
-    'if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}}return true}'
+    'if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}try{document.dispatchEvent(new CustomEvent("jpn:pref",{detail:{level:k}}))}catch(e){}}return true}'
     'var s="";try{s=localStorage.getItem("jpn_level")||""}catch(e){}'
     'if(!show(location.hash.slice(1).toLowerCase(),false))show(s,false);'
     't.forEach(function(x,i){x.addEventListener("click",function(){show(x.getAttribute("data-level"),true)});'
@@ -694,11 +703,12 @@ FONT_JS = (
     'o.forEach(function(x){x.setAttribute("aria-selected",x===f)});c.textContent=f.getAttribute("data-short")||f.firstChild.textContent;'
     'if(k==="default")document.documentElement.removeAttribute("data-font");'
     'else{document.documentElement.setAttribute("data-font",k);window.jpnFont&&window.jpnFont(k)}'
-    'if(save){try{localStorage.setItem("jpn_font",k)}catch(e){}}}'
+    'if(save){try{localStorage.setItem("jpn_font",k)}catch(e){}try{document.dispatchEvent(new CustomEvent("jpn:pref",{detail:{font:k}}))}catch(e){}}}'
     'function open(){if(window.jpnFont){window.jpnFont("atkinson");window.jpnFont("lexend")}m.hidden=false;b.setAttribute("aria-expanded","true");'
     '(o.filter(function(x){return x.getAttribute("aria-selected")==="true"})[0]||o[0]).focus()}'
     'function close(back){m.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus()}'
     'var s="";try{s=localStorage.getItem("jpn_font")||""}catch(e){}sel(s,false);'
+    'window.jpnFontSet=function(k){sel(k,false)};'
     'b.addEventListener("click",function(){m.hidden?open():close(true)});'
     'b.addEventListener("keydown",function(e){if(e.key==="ArrowDown"){e.preventDefault();open()}});'
     'o.forEach(function(x,i){x.addEventListener("click",function(){sel(x.getAttribute("data-font"),true);close(true)});'
@@ -753,6 +763,18 @@ def timer_script():
     if not f.exists():
         return ""
     return '<script src="/timer.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
+
+
+def versioned(name):
+    f = STATIC / name
+    if not f.exists():
+        return ""
+    return '<script src="/{}?v={}" defer></script>\n'.format(name, hashlib.md5(f.read_bytes()).hexdigest()[:8])
+
+
+def account_scripts():
+    """Sign-in lives in static/account.js and does nothing until static/config.js names a Supabase project."""
+    return versioned("config.js") + versioned("account.js")
 
 
 def highlight_script():
@@ -946,6 +968,9 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
     for t in topics:
         write("tags/{}/index.html".format(t["slug"]), gallery_page(t["arts"], topics, t))
     write("about/index.html", about_page())
+    write("words/index.html", account_page("/words/", "My words", "words", "The words and phrases you have highlighted in articles, saved to your account."))
+    write("teacher/index.html", account_page("/teacher/", "Teacher view", "teacher", "The words your students have saved, and what they have read."))
+    write("articles.json", json.dumps({a["slug"]: {"title": a["title"]} for a in arts}, ensure_ascii=False))
     write("404.html", not_found_page())
     for i, a in enumerate(arts):
         newer = arts[i - 1] if i > 0 else None

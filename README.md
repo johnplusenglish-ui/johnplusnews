@@ -1,6 +1,6 @@
 # johnplusnews
 
-News articles from around the world for English learners. The home page is a gallery of cards, newest first, each with a thumbnail, the heading and a short summary. Each article can be written at up to three levels, Core, Intermediate and Advanced, and readers switch between them with tabs on the article page. Readers can also choose a reading font. No database, no login, no admin page. Each article is a plain text file; a small script turns the files into the site.
+News articles from around the world for English learners. The home page is a gallery of cards, newest first, each with a thumbnail, the heading and a short summary. Each article can be written at up to three levels, Core, Intermediate and Advanced, and readers switch between them with tabs on the article page. Readers can also choose a reading font. Each article is a plain text file; a small script turns the files into the site.
 
 ## Add an article with the publisher (easiest)
 
@@ -23,6 +23,10 @@ The publisher needs a GitHub token saved on your Mac before it can send articles
 ## Put the publisher in your Dock
 
 Run `python3 tools/make_dock_app.py` once. It makes `Publish an article.app` in this folder, with a blue icon. Drag that app onto your Dock, and click it whenever you want to publish. It opens `Publish an article.command` in Terminal, so keep the app in this folder, next to that file. If you ever move or delete the folder, run the script again and drag the new app onto the Dock. The app is not saved to GitHub, only the script that makes it.
+
+## Accounts (optional)
+
+Readers can sign in with an email and password to save the words they highlight, keep their reading progress and preferences across devices, and see everything in a My words page. The teacher gets a Teacher view with every student's words. It uses its own Supabase project and is switched on by pasting two public values into `static/config.js`; until then the site works as before with no sign-in button. Setup steps are in `ACCOUNTS-SETUP.md` and the database rules are in `supabase/schema.sql`. The code is `static/account.js`; the highlighter (`static/highlight.js`) sends it events, so it works the same without an account.
 
 ## Add an article by hand
 

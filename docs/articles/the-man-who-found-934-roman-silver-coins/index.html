@@ -20,8 +20,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script>(function(){var G={atkinson:"Atkinson+Hyperlegible:wght@400;700",lexend:"Lexend:wght@400;500;600"};window.jpnFont=function(k){if(G[k]&&!document.getElementById("gf-"+k)){var l=document.createElement("link");l.id="gf-"+k;l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family="+G[k]+"&display=swap";document.head.appendChild(l)}};try{var f=localStorage.getItem("jpn_font");if(f&&/^[a-z]+$/.test(f)){document.documentElement.setAttribute("data-font",f);window.jpnFont(f)}}catch(e){}})();</script>
 <noscript><style>.tools{display:none}.vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}</style></noscript>
-<script src="/highlight.js?v=347486a6" defer></script>
-<script src="/timer.js?v=551497c6" defer></script>
+<script src="/highlight.js?v=93105d96" defer></script>
+<script src="/timer.js?v=127fe3e2" defer></script>
+<script src="/config.js?v=3c92fd3b" defer></script>
+<script src="/account.js?v=66a2109b" defer></script>
 <style>:root {
   --ink: #111318;
   --text: #23262d;
@@ -359,6 +361,91 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .jt-reset { background: #fff; color: var(--accent); border: 1px solid var(--accent); }
 @media (max-width: 560px) { .jt { right: 10px; bottom: 10px; } }
 
+/* accounts: sign-in button, dialog, My words and the teacher view */
+.site-nav { margin-left: auto; }
+.acct { position: relative; margin-left: 22px; }
+.acct-btn { white-space: nowrap; font: inherit; font-size: 0.875rem; font-weight: 600; color: var(--accent); background: #fff; border: 1px solid var(--accent); border-radius: 999px; padding: 6px 14px; cursor: pointer; line-height: 1.2; display: inline-flex; align-items: center; gap: 7px; }
+.acct-btn:hover { background: var(--accent-soft); }
+.acct-btn:focus-visible, .acct-go:focus-visible, .acct-link:focus-visible, .acct-x:focus-visible, .wd-btn:focus-visible, .wd-x:focus-visible, .t-tab:focus-visible, .t-name:focus-visible, .acct-menu a:focus-visible, .acct-menu button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.acct-me { padding: 3px 12px 3px 4px; }
+.acct-dot { width: 24px; height: 24px; border-radius: 50%; background: var(--accent); color: #fff; font-size: 0.8125rem; display: inline-flex; align-items: center; justify-content: center; }
+.acct-name { max-width: 9ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.acct-menu { position: absolute; right: 0; top: calc(100% + 8px); min-width: 200px; background: #fff; border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 10px 30px rgba(16, 24, 40, 0.14); padding: 6px; z-index: 40; }
+.acct-menu[hidden] { display: none; }
+.acct-who { margin: 0; padding: 8px 12px 6px; font-size: 0.8125rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; }
+.acct-menu a, .acct-menu button { display: block; width: 100%; text-align: left; font: inherit; font-size: 0.9375rem; font-weight: 500; color: var(--ink); background: none; border: 0; border-radius: 8px; padding: 8px 12px; cursor: pointer; text-decoration: none; }
+.acct-menu a:hover, .acct-menu button:hover { background: var(--accent-soft); }
+.acct-back { position: fixed; inset: 0; z-index: 60; background: rgba(17, 19, 24, 0.45); display: flex; align-items: center; justify-content: center; padding: 16px; }
+.acct-dlg { position: relative; background: #fff; border-radius: 16px; width: 100%; max-width: 380px; padding: 28px 26px 22px; box-shadow: 0 20px 60px rgba(16, 24, 40, 0.3); }
+.acct-dlg h2 { margin: 0 0 14px; font-size: 1.375rem; line-height: 1.2; color: var(--ink); }
+.acct-x { position: absolute; right: 10px; top: 8px; font: inherit; font-size: 1.5rem; line-height: 1; color: var(--muted); background: none; border: 0; cursor: pointer; padding: 6px 10px; border-radius: 8px; }
+.acct-x:hover { color: var(--ink); }
+.acct-notice { margin: 0 0 14px; padding: 10px 12px; font-size: 0.9375rem; background: var(--accent-soft); border-radius: 10px; color: var(--ink); }
+.acct-field { margin: 0 0 14px; }
+.acct-field label { display: block; font-size: 0.8125rem; font-weight: 600; color: var(--muted); margin-bottom: 5px; }
+.acct-field input { width: 100%; font: inherit; font-size: 1rem; padding: 10px 12px; border: 1px solid #cfd4dc; border-radius: 10px; color: var(--ink); background: #fff; }
+.acct-field input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+.acct-small { margin: 0 0 14px; font-size: 0.8125rem; line-height: 1.5; color: var(--muted); }
+.acct-err { margin: 0 0 12px; font-size: 0.875rem; font-weight: 500; color: #b42318; }
+.acct-err[hidden] { display: none; }
+.acct-go { font: inherit; font-size: 1rem; font-weight: 600; width: 100%; padding: 11px 0; color: #fff; background: var(--accent); border: 1px solid var(--accent); border-radius: 10px; cursor: pointer; }
+.acct-go:disabled { opacity: 0.6; cursor: default; }
+.acct-alt { margin: 14px 0 0; display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
+.acct-link { font: inherit; font-size: 0.875rem; font-weight: 500; color: var(--accent); background: none; border: 0; padding: 4px 0; cursor: pointer; text-decoration: underline; text-underline-offset: 0.18em; }
+.acct-toast { position: fixed; left: 50%; bottom: 20px; transform: translate(-50%, 20px); opacity: 0; pointer-events: none; z-index: 70; background: var(--ink); color: #fff; font-size: 0.9375rem; padding: 10px 18px; border-radius: 999px; transition: opacity 0.25s, transform 0.25s; }
+.acct-toast.on { opacity: 1; transform: translate(-50%, 0); }
+.acct-read { color: var(--muted); }
+.acct-read.done { color: #14633a; font-weight: 600; }
+.acct-intro { margin: -14px 0 24px; color: var(--muted); }
+.acct-note { color: var(--muted); margin: 0 0 16px; }
+.wd-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+.wd-search { flex: 1 1 200px; font: inherit; font-size: 1rem; padding: 9px 12px; border: 1px solid #cfd4dc; border-radius: 10px; color: var(--ink); background: #fff; }
+.wd-btn { font: inherit; font-size: 0.875rem; font-weight: 600; color: var(--accent); background: #fff; border: 1px solid var(--accent); border-radius: 10px; padding: 8px 14px; cursor: pointer; }
+.wd-btn:hover { background: var(--accent-soft); }
+.wd-count { margin: 0 0 18px; font-size: 0.875rem; color: var(--muted); }
+.wd-art { margin: 0 0 30px; }
+.wd-art h2, .t-detail h3 { font-size: 1.0625rem; line-height: 1.3; margin: 0 0 8px; }
+.wd-art h2 a, .t-detail h3 a { color: var(--ink); text-decoration: none; }
+.wd-art h2 a:hover, .t-detail h3 a:hover { color: var(--accent); }
+.wd-words { list-style: none; margin: 0; padding: 0; }
+.wd-words li { padding: 10px 0; border-top: 1px solid var(--line); }
+.wd-top { display: flex; align-items: baseline; gap: 10px; }
+.wd-w { font-weight: 600; color: var(--ink); }
+.wd-lv { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.wd-x { margin-left: auto; font: inherit; font-size: 1.25rem; line-height: 1; color: var(--muted); background: none; border: 0; cursor: pointer; padding: 0 6px; border-radius: 6px; }
+.wd-x:hover { color: #b42318; }
+.wd-sent { margin: 3px 0 0; font-size: 0.9375rem; color: var(--muted); }
+.wd-sent b { color: var(--ink); font-weight: 600; background: rgba(245, 158, 11, 0.22); border-radius: 3px; padding: 0 2px; }
+.t-tabs { display: flex; gap: 6px; margin: 0 0 14px; border-bottom: 1px solid var(--line); }
+.t-tab { font: inherit; font-size: 0.9375rem; font-weight: 600; color: var(--muted); background: none; border: 0; border-bottom: 2px solid transparent; padding: 8px 12px; cursor: pointer; margin-bottom: -1px; }
+.t-tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.t-pane[hidden] { display: none; }
+.t-table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; }
+.t-table th { text-align: left; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+.t-table td { padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.t-table .num { text-align: right; white-space: nowrap; }
+.t-name { display: block; font: inherit; font-weight: 600; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-align: left; }
+.t-mail { display: block; font-size: 0.8125rem; color: var(--muted); overflow-wrap: anywhere; }
+.t-detail td { background: #fafbfc; padding: 14px 16px; }
+.t-detail[hidden] { display: none; }
+.t-detail h3 { margin-top: 12px; }
+.t-detail h3:first-child { margin-top: 0; }
+.t-art { border-top: 1px solid var(--line); padding: 4px 0; }
+.t-art summary { cursor: pointer; display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; font-weight: 600; color: var(--ink); }
+.t-art-n { font-size: 0.8125rem; font-weight: 500; color: var(--muted); white-space: nowrap; }
+@media (max-width: 560px) {
+  .site-header .wrap { gap: 10px; }
+  .site-nav { gap: 14px; }
+  .site-nav a { font-size: 0.875rem; }
+  .acct { margin-left: 4px; }
+  .acct-btn { padding: 5px 11px; font-size: 0.8125rem; }
+  .acct-name { display: none; }
+  .acct-me { padding: 3px; }
+  .t-table .num:nth-child(3) { display: none; }
+  .t-table th:nth-child(3) { display: none; }
+  .t-detail td { padding: 12px; }
+}
+
 @media print {
   @page {
     size: A4;
@@ -369,7 +456,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
   html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   body { display: block; min-height: 0; background: #fff; color: #1b1d22; font-size: 10pt; line-height: 1.5; }
   .jt, .jt-bar,
-  .skip, .site-header, .site-footer, .back, .vtabs, .tools, .pager, .listen, .topics, .filters, .hl-hint, .hl-pill, .hl-actions, .hl-list .x, .lvl-head, noscript { display: none !important; }
+  .skip, .site-header, .site-footer, .acct-toast, .acct-back, .back, .vtabs, .tools, .pager, .listen, .topics, .filters, .hl-hint, .hl-pill, .hl-actions, .hl-list .x, .lvl-head, noscript { display: none !important; }
   main { display: block; }
   .wrap { max-width: none; width: auto; margin: 0; padding: 0; }
   a { color: inherit; text-decoration: none; }
@@ -459,7 +546,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 <header class="article-head">
 <a class="back" href="/">&larr; All articles</a>
 <div class="metarow has-tabs"><div class="metaleft" data-print-level="Intermediate"><div class="vtabs" role="tablist" aria-label="Reading level" data-tabs><button type="button" role="tab" id="tab-core" aria-controls="v-core" aria-selected="false" tabindex="-1" data-level="core" data-title="The Man Who Found 934 Roman Silver Coins" data-sub="A man with a metal detector found 934 Roman silver coins in a field in Germany. Who hid them, and why?">Core</button><button type="button" role="tab" id="tab-intermediate" aria-controls="v-intermediate" aria-selected="true" tabindex="0" data-level="intermediate" data-title="The Man Who Found 934 Roman Silver Coins" data-sub="A metal detector led to 934 Roman silver coins in a German field. What can a hidden hoard tell us about ordinary life nearly 1,900 years ago?">Intermediate</button><button type="button" role="tab" id="tab-advanced" aria-controls="v-advanced" aria-selected="false" tabindex="-1" data-level="advanced" data-title="The Man Who Found 934 Roman Silver Coins" data-sub="Germany&#x27;s largest hoard of coins from Hadrian&#x27;s reign was found by a detectorist who followed the rules. What does it reveal, and what remains a mystery?">Advanced</button></div><p class="meta"><span>22 September 2026</span></p></div><div class="tools"><div class="fontpick"><div class="fdrop"><button type="button" class="fbtn" id="fbtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="flab fcur"><span class="flab" id="flab">Font</span><span id="fcur">Georgia</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button><ul class="fmenu" id="fmenu" role="listbox" aria-labelledby="flab" hidden><li role="option" class="fo-default" data-font="default" data-short="Georgia" aria-selected="true" tabindex="-1"><span>Georgia</span><svg class="chk" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></li><li role="option" class="fo-outfit" data-font="outfit" data-short="Outfit" aria-selected="false" tabindex="-1"><span>Outfit</span><svg class="chk" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></li><li role="option" class="fo-verdana" data-font="verdana" data-short="Verdana" aria-selected="false" tabindex="-1"><span>Verdana</span><svg class="chk" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></li><li role="option" class="fo-atkinson" data-font="atkinson" data-short="Atkinson" aria-selected="false" tabindex="-1"><span>Atkinson Hyperlegible</span><svg class="chk" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></li><li role="option" class="fo-lexend" data-font="lexend" data-short="Lexend" aria-selected="false" tabindex="-1"><span>Lexend</span><svg class="chk" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></li></ul></div></div><button type="button" class="pdfbtn" id="pdfbtn" aria-label="Save this article as a PDF"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 4v11M7 11l5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>PDF</span></button></div></div>
-<script>(function(){var b=document.getElementById("fbtn"),m=document.getElementById("fmenu"),c=document.getElementById("fcur");if(!b||!m)return;var o=[].slice.call(m.querySelectorAll("[role=option]"));function sel(k,save){var f=o.filter(function(x){return x.getAttribute("data-font")===k})[0]||o[0];k=f.getAttribute("data-font");o.forEach(function(x){x.setAttribute("aria-selected",x===f)});c.textContent=f.getAttribute("data-short")||f.firstChild.textContent;if(k==="default")document.documentElement.removeAttribute("data-font");else{document.documentElement.setAttribute("data-font",k);window.jpnFont&&window.jpnFont(k)}if(save){try{localStorage.setItem("jpn_font",k)}catch(e){}}}function open(){if(window.jpnFont){window.jpnFont("atkinson");window.jpnFont("lexend")}m.hidden=false;b.setAttribute("aria-expanded","true");(o.filter(function(x){return x.getAttribute("aria-selected")==="true"})[0]||o[0]).focus()}function close(back){m.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus()}var s="";try{s=localStorage.getItem("jpn_font")||""}catch(e){}sel(s,false);b.addEventListener("click",function(){m.hidden?open():close(true)});b.addEventListener("keydown",function(e){if(e.key==="ArrowDown"){e.preventDefault();open()}});o.forEach(function(x,i){x.addEventListener("click",function(){sel(x.getAttribute("data-font"),true);close(true)});x.addEventListener("keydown",function(e){var k=e.key;if(k==="ArrowDown"){e.preventDefault();o[Math.min(i+1,o.length-1)].focus()}else if(k==="ArrowUp"){e.preventDefault();o[Math.max(i-1,0)].focus()}else if(k==="Home"){e.preventDefault();o[0].focus()}else if(k==="End"){e.preventDefault();o[o.length-1].focus()}else if(k==="Enter"||k===" "){e.preventDefault();sel(x.getAttribute("data-font"),true);close(true)}else if(k==="Escape"||k==="Tab"){close(k==="Escape")}})});document.addEventListener("click",function(e){if(!m.hidden&&!e.target.closest(".fdrop"))close(false)})})();</script>
+<script>(function(){var b=document.getElementById("fbtn"),m=document.getElementById("fmenu"),c=document.getElementById("fcur");if(!b||!m)return;var o=[].slice.call(m.querySelectorAll("[role=option]"));function sel(k,save){var f=o.filter(function(x){return x.getAttribute("data-font")===k})[0]||o[0];k=f.getAttribute("data-font");o.forEach(function(x){x.setAttribute("aria-selected",x===f)});c.textContent=f.getAttribute("data-short")||f.firstChild.textContent;if(k==="default")document.documentElement.removeAttribute("data-font");else{document.documentElement.setAttribute("data-font",k);window.jpnFont&&window.jpnFont(k)}if(save){try{localStorage.setItem("jpn_font",k)}catch(e){}try{document.dispatchEvent(new CustomEvent("jpn:pref",{detail:{font:k}}))}catch(e){}}}function open(){if(window.jpnFont){window.jpnFont("atkinson");window.jpnFont("lexend")}m.hidden=false;b.setAttribute("aria-expanded","true");(o.filter(function(x){return x.getAttribute("aria-selected")==="true"})[0]||o[0]).focus()}function close(back){m.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus()}var s="";try{s=localStorage.getItem("jpn_font")||""}catch(e){}sel(s,false);window.jpnFontSet=function(k){sel(k,false)};b.addEventListener("click",function(){m.hidden?open():close(true)});b.addEventListener("keydown",function(e){if(e.key==="ArrowDown"){e.preventDefault();open()}});o.forEach(function(x,i){x.addEventListener("click",function(){sel(x.getAttribute("data-font"),true);close(true)});x.addEventListener("keydown",function(e){var k=e.key;if(k==="ArrowDown"){e.preventDefault();o[Math.min(i+1,o.length-1)].focus()}else if(k==="ArrowUp"){e.preventDefault();o[Math.max(i-1,0)].focus()}else if(k==="Home"){e.preventDefault();o[0].focus()}else if(k==="End"){e.preventDefault();o[o.length-1].focus()}else if(k==="Enter"||k===" "){e.preventDefault();sel(x.getAttribute("data-font"),true);close(true)}else if(k==="Escape"||k==="Tab"){close(k==="Escape")}})});document.addEventListener("click",function(e){if(!m.hidden&&!e.target.closest(".fdrop"))close(false)})})();</script>
 <script>(function(){var b=document.getElementById("pdfbtn");if(!b)return;var old="";b.addEventListener("click",function(){window.print()});var shut=[];window.addEventListener("beforeprint",function(){shut=[].slice.call(document.querySelectorAll("details.qs,details.kl-box")).filter(function(d){return!d.open});shut.forEach(function(d){d.open=true});old=document.title;var h=document.querySelector(".article-head h1"),l=document.querySelector(".metaleft"),lv=l&&l.getAttribute("data-print-level");if(h)document.title=h.textContent+(lv?" ("+lv+")":"")});window.addEventListener("afterprint",function(){shut.forEach(function(d){d.open=false});shut=[];if(old)document.title=old})})();</script>
 <h1>The Man Who Found 934 Roman Silver Coins</h1>
 <p class="dek">A metal detector led to 934 Roman silver coins in a German field. What can a hidden hoard tell us about ordinary life nearly 1,900 years ago?</p>
@@ -489,7 +576,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 <p>Of equal significance is the way the discovery was handled. Riedl was searching with permission and notified professionals as soon as he recognised the potential importance of his find. Archaeology depends on context as well as objects. The position of a hoard, the surrounding soil and the remains of its container may answer questions that isolated coins cannot. An impressive collection acquired without documentation can quickly become little more than a display of valuable metal; this one retained evidence about the act of concealment itself.</p>
 <p>Now exhibited at the LVR State Museum in Bonn, the denarii are both public treasure and private mystery. Visitors can study portraits of rulers and the changing imagery of Roman authority, but the most absorbing figure is absent from every coin. Somebody accumulated the money, judged the ground a safe place to hide it and expected, presumably, to return. Almost 1,900 years later, the coins have come to light. The person who put them there remains beyond the reach of the metal detector, and perhaps of history itself.</p>
 </div></section></div>
-<script>(function(){var r=document.querySelector("[data-tabs]");if(!r)return;var t=[].slice.call(r.querySelectorAll("[role=tab]"));function show(k,save){var ok=t.some(function(x){return x.getAttribute("data-level")===k});if(!ok)return false;t.forEach(function(x){var l=x.getAttribute("data-level"),on=l===k;x.setAttribute("aria-selected",on);x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;var q=document.getElementById("l-"+l);if(q){q.hidden=!on;var au=q.querySelector("audio");if(au&&!on&&!au.paused)au.pause()}if(on){var tt=x.getAttribute("data-title"),ss=x.getAttribute("data-sub"),h=document.querySelector(".article-head h1"),d=document.querySelector(".dek"),ml=document.querySelector(".metaleft");if(ml)ml.setAttribute("data-print-level",x.textContent);if(h&&tt)h.textContent=tt;if(d&&ss)d.textContent=ss;if(tt)document.title=tt+" | "+document.title.split(" | ").pop()}});if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}}return true}var s="";try{s=localStorage.getItem("jpn_level")||""}catch(e){}if(!show(location.hash.slice(1).toLowerCase(),false))show(s,false);t.forEach(function(x,i){x.addEventListener("click",function(){show(x.getAttribute("data-level"),true)});x.addEventListener("keydown",function(e){var n=e.key==="ArrowRight"?i+1:e.key==="ArrowLeft"?i-1:-1;if(n<0||n>=t.length)return;e.preventDefault();t[n].focus();show(t[n].getAttribute("data-level"),true)})});window.addEventListener("hashchange",function(){show(location.hash.slice(1).toLowerCase(),false)})})();</script>
+<script>(function(){var r=document.querySelector("[data-tabs]");if(!r)return;var t=[].slice.call(r.querySelectorAll("[role=tab]"));function show(k,save){var ok=t.some(function(x){return x.getAttribute("data-level")===k});if(!ok)return false;t.forEach(function(x){var l=x.getAttribute("data-level"),on=l===k;x.setAttribute("aria-selected",on);x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;var q=document.getElementById("l-"+l);if(q){q.hidden=!on;var au=q.querySelector("audio");if(au&&!on&&!au.paused)au.pause()}if(on){var tt=x.getAttribute("data-title"),ss=x.getAttribute("data-sub"),h=document.querySelector(".article-head h1"),d=document.querySelector(".dek"),ml=document.querySelector(".metaleft");if(ml)ml.setAttribute("data-print-level",x.textContent);if(h&&tt)h.textContent=tt;if(d&&ss)d.textContent=ss;if(tt)document.title=tt+" | "+document.title.split(" | ").pop()}});if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}try{document.dispatchEvent(new CustomEvent("jpn:pref",{detail:{level:k}}))}catch(e){}}return true}var s="";try{s=localStorage.getItem("jpn_level")||""}catch(e){}if(!show(location.hash.slice(1).toLowerCase(),false))show(s,false);t.forEach(function(x,i){x.addEventListener("click",function(){show(x.getAttribute("data-level"),true)});x.addEventListener("keydown",function(e){var n=e.key==="ArrowRight"?i+1:e.key==="ArrowLeft"?i-1:-1;if(n<0||n>=t.length)return;e.preventDefault();t[n].focus();show(t[n].getAttribute("data-level"),true)})});window.addEventListener("hashchange",function(){show(location.hash.slice(1).toLowerCase(),false)})})();</script>
 <details class="qs qs-after"><summary><span class="qs-label">Talk about it</span><span class="qs-count">5 questions</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><ol><li>Should people who discover ancient objects be allowed to keep them?</li><li>Why is the exact location of an archaeological discovery important?</li><li>What might have prevented the original owner from collecting the coins?</li><li>How do historians use ordinary objects to understand everyday life?</li><li>Do you find unsolved historical mysteries more interesting than mysteries that have clear answers?</li></ol></details>
 <p class="source">Source: <a href="https://www.lvr.de/bodendenkmalpflege/zentrale-infos/presse/sensationeller-roemischer-muenzschatz.html">LVR Office for Archaeological Monument Preservation</a></p>
 <nav class="topics" aria-label="Topics"><span class="topics-label">Topics</span><a class="chip" href="/tags/history/">History</a><a class="chip" href="/tags/culture/">Culture</a></nav>

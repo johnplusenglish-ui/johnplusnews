@@ -133,13 +133,14 @@
     chime();
   }
 
-  function setMinutes(m) {
+  function setMinutes(m, quiet) {
     m = Math.round(Number(m));
     if (!(m >= 1)) m = 1;
     if (m > 180) m = 180;
     minutes = m;
     input.value = String(m);
     write(KEY, { minutes: m });
+    if (!quiet) { try { document.dispatchEvent(new CustomEvent("jpn:pref", { detail: { timer: m } })); } catch (e) {} }
     if (state === "idle" || state === "done" || state === "paused") {
       state = "idle"; total = m * 60000; left = total; clear(RUN, sessionStorage);
     }
@@ -167,6 +168,8 @@
     clear(RUN, sessionStorage);
     show();
   }
+
+  window.jpnTimerSet = function (m) { setMinutes(m, true); };   // the account script uses this to bring a saved length to this device
 
   go.addEventListener("click", function () {
     if (state === "running") pause(); else start();
