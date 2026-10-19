@@ -557,7 +557,10 @@
         }
         groupBy(rs, "slug").forEach(function (g) {
           var sec = el("section", "wd-art");
-          var h = el("h2"); var a = el("a", "", titleOf(g.key)); a.href = "/articles/" + g.key + "/"; h.appendChild(a); sec.appendChild(h);
+          var head = el("div", "wd-head");
+          var h = el("h2"); var a = el("a", "", titleOf(g.key)); a.href = "/articles/" + g.key + "/"; h.appendChild(a); head.appendChild(h);
+          head.appendChild(el("span", "wd-n", g.rows.length + (g.rows.length === 1 ? " word" : " words")));
+          sec.appendChild(head);
           var ul = el("ul", "wd-words");
           g.rows.forEach(function (r) {
             var li = el("li");
@@ -673,6 +676,7 @@
         var sm = el("summary"); sm.appendChild(el("span", "t-art-title", titleOf(g.key)));
         sm.appendChild(el("span", "t-art-n", Object.keys(people_n).length + (Object.keys(people_n).length === 1 ? " student" : " students")));
         d.appendChild(sm);
+        var open = el("a", "t-open", "Open the article"); open.href = "/articles/" + g.key + "/"; d.appendChild(open);
         var tally = {};
         g.rows.forEach(function (r) {
           var k = r.text.toLowerCase();
