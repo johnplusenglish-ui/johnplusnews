@@ -19,6 +19,8 @@ header .in { max-width:1120px; margin:0 auto; padding:0 20px; min-height:60px; d
 .brand { font-weight:700; font-size:1.2rem; letter-spacing:-.02em; color:var(--ink); }
 .brand span { color:var(--accent); }
 .tag { font-size:.8125rem; font-weight:600; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); }
+.navl { text-decoration:none; font-weight:600; font-size:.9375rem; padding:6px 12px; border-radius:999px; color:var(--muted); }
+.navl[aria-current="page"] { background:var(--accent-soft); color:var(--accent); }
 header .live { margin-left:auto; font-size:.9375rem; text-decoration:none; font-weight:500; }
 .layout { max-width:1120px; margin:0 auto; padding:24px 20px 80px; display:grid; grid-template-columns:minmax(0,1fr) 330px; gap:24px; align-items:start; }
 .layout > * { min-width:0; }
@@ -89,7 +91,7 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
 </style>
 </head>
 <body>
-<header><div class="in"><span class="brand">john<span>plus</span>news</span><span class="tag">Publisher</span><a class="live" href="https://johnplusnews.com" target="_blank" rel="noopener">View the live site</a></div></header>
+<header><div class="in"><span class="brand">john<span>plus</span>news</span><span class="tag">Publisher</span><a class="navl" href="/" aria-current="page">Articles</a><a class="navl" href="/pictures">Pictures</a><a class="live" href="https://johnplusnews.com" target="_blank" rel="noopener">View the live site</a></div></header>
 
 <main class="layout">
 <section class="panel" aria-labelledby="formTitle">

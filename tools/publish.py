@@ -35,6 +35,7 @@ import build  # noqa: E402
 
 CONTENT, STATIC, DOCS = build.CONTENT, build.STATIC, build.OUT
 PAGE = (Path(__file__).resolve().parent / "publish.html").read_text(encoding="utf-8")
+PICTURES_PAGE = (Path(__file__).resolve().parent / "pictures.html").read_text(encoding="utf-8")
 PORT, PREVIEW_PORT = 8765, 8766
 TOKEN = secrets.token_urlsafe(16)
 LOCK = threading.Lock()
@@ -139,7 +140,7 @@ def get_article(slug):
                     "image_credit": meta.get("image-credit", ""), "image_credit_url": meta.get("image-credit-url", ""),
                     "image_licence": meta.get("image-licence", ""), "image_licence_url": meta.get("image-licence-url", ""),
                     "image_credit_note": meta.get("image-credit-note", ""),
-                    "image_credit_label": meta.get("image-credit-label", "")}
+                    "image_credit_label": meta.get("image-credit-label", ""), "image_origin": meta.get("image-origin", "")}
     raise UserError("That article was not found.")
 
 
@@ -222,6 +223,115 @@ def prune_pictures(content_dir, static_dir):
                     f.unlink()
 
 
+# --------------------------------------------------------- the picture manager
+
+IMAGE_KEYS = ["image", "image-alt", "image-credit", "image-credit-url", "image-licence", "image-licence-url",
+              "image-credit-note", "image-credit-label", "image-origin"]
+ORIGIN_KINDS = ["AI-generated", "My own photo", "Free-to-use or licensed photo", "Supplied by someone else", "Other"]
+FIELD_KEYS = [("image-alt", "alt"), ("image-origin", "origin"), ("image-credit", "credit"), ("image-credit-url", "credit_url"),
+              ("image-licence", "licence"), ("image-licence-url", "licence_url"), ("image-credit-note", "note")]
+
+
+def list_pictures():
+    rows = []
+    for path, meta, body, slug in article_files(CONTENT):
+        img = meta.get("image", "")
+        thumb = ""
+        if img:
+            cand = "images/thumbs/" + Path(img).name
+            thumb = cand if (STATIC / cand).is_file() else img
+        rows.append({"slug": slug, "title": meta.get("title", slug), "date": meta.get("date", ""), "rev": file_rev(path),
+                     "image": img, "thumb": thumb, "alt": meta.get("image-alt", ""), "origin": meta.get("image-origin", ""),
+                     "credit": meta.get("image-credit", ""), "credit_url": meta.get("image-credit-url", ""),
+                     "licence": meta.get("image-licence", ""), "licence_url": meta.get("image-licence-url", ""),
+                     "note": meta.get("image-credit-note", ""), "live_url": "{}/articles/{}/".format(build.SITE["url"], slug)})
+    rows.sort(key=lambda r: (r["date"], r["slug"]), reverse=True)
+    return rows
+
+
+def rewrite_image_header(path, values):
+    """Change only the picture lines in an article's header; the text of the article is not touched."""
+    raw = path.read_text(encoding="utf-8")
+    m = re.search(r"^---[ \t]*$", raw, flags=re.M)
+    if not m:
+        raise UserError("The article {} has no --- line, so its picture could not be changed.".format(path.name))
+    head, rest = raw[:m.start()], raw[m.start():]
+    lines = [l for l in head.split("\n") if not (":" in l and l.split(":", 1)[0].strip().lower() in IMAGE_KEYS)]
+    while lines and not lines[-1].strip():
+        lines.pop()
+    for k in IMAGE_KEYS:
+        v = one_line(values.get(k, ""))
+        if v:
+            lines.append("{}: {}".format(k, v))
+    path.write_text("\n".join(lines) + "\n" + rest, encoding="utf-8")
+
+
+def apply_picture_changes(changes, content_dir, static_dir):
+    """Apply a batch of picture changes. Returns the slugs of the articles that really changed."""
+    touched = []
+    for ch in changes:
+        slug = ch.get("slug")
+        match = [x for x in article_files(content_dir) if x[3] == slug]
+        if not match:
+            raise UserError("An article in this batch no longer exists: {}.".format(slug))
+        path, meta = match[0][0], match[0][1]
+        if ch.get("rev") and ch["rev"] != file_rev(path):
+            raise UserError("\"{}\" was changed outside the publisher after this page was loaded, so nothing was saved. "
+                            "Reload the Pictures page and try again.".format(meta.get("title", slug)))
+        cur = {k: meta.get(k, "") for k in IMAGE_KEYS}
+        new = dict(cur)
+        pic = ch.get("image")
+        if ch.get("remove"):
+            new = {k: "" for k in IMAGE_KEYS}
+        elif pic and pic.get("data"):
+            try:
+                data = base64.b64decode(pic["data"])
+            except Exception:
+                raise UserError("The picture for \"{}\" could not be read.".format(meta.get("title", slug)))
+            STATIC_TARGET["dir"] = static_dir
+            new["image"] = make_pictures(data, pic.get("name", "picture"), slug)
+            for k in IMAGE_KEYS[2:]:   # the old credit belonged to the old picture
+                new[k] = ""
+        if new["image"]:
+            for key, field in FIELD_KEYS:
+                if field in ch:
+                    new[key] = one_line(ch[field])
+        else:
+            new = {k: "" for k in IMAGE_KEYS}
+        if new != cur:
+            rewrite_image_header(path, new)
+            touched.append(slug)
+    prune_pictures(content_dir, static_dir)
+    return touched
+
+
+def do_pictures(p):
+    changes = p.get("changes") or []
+    if not changes:
+        raise UserError("Choose at least one picture first.")
+    if len(changes) > 60:
+        raise UserError("That is a lot at once. Publish up to 60 articles' pictures at a time.")
+    with LOCK:
+        # Try the whole batch in a throwaway copy first, so a mistake never touches the real site.
+        tmp = Path(tempfile.mkdtemp(prefix="jpn-pic-"))
+        try:
+            shutil.copytree(CONTENT, tmp / "content")
+            shutil.copytree(STATIC, tmp / "static")
+            apply_picture_changes(changes, tmp / "content", tmp / "static")
+            run_build(tmp / "content", tmp / "static", tmp / "site")
+        finally:
+            STATIC_TARGET["dir"] = STATIC
+            shutil.rmtree(tmp, ignore_errors=True)
+        touched = apply_picture_changes(changes, CONTENT, STATIC)
+        STATIC_TARGET["dir"] = STATIC
+        if not touched:
+            return {"ok": True, "pushed": False, "changed": [], "note": "Nothing was different, so nothing was published."}
+        run_build()
+        res = git_publish("Update pictures for {} article{}".format(len(touched), "" if len(touched) == 1 else "s"))
+        res.update({"ok": True, "changed": touched, "verify": {s: verify_info(s) for s in touched}})
+        return res
+
+
 # ------------------------------------------------------------------ writing
 
 def compose(f):
@@ -242,8 +352,9 @@ def compose(f):
             lines.append("image-alt: " + f["image_alt"])
         for key, name in (("image_credit", "image-credit"), ("image_credit_url", "image-credit-url"),
                           ("image_licence", "image-licence"), ("image_licence_url", "image-licence-url"),
-                          ("image_credit_note", "image-credit-note"), ("image_credit_label", "image-credit-label")):
-            if f[key]:
+                          ("image_credit_note", "image-credit-note"), ("image_credit_label", "image-credit-label"),
+                          ("image_origin", "image-origin")):
+            if f.get(key):
                 lines.append("{}: {}".format(name, f[key]))
     blocks = []
     for v in f["versions"]:
@@ -430,8 +541,10 @@ def prepare(p, content_dir, static_dir):
         STATIC_TARGET["dir"] = static_dir
         image = make_pictures(data, new_pic.get("name", "picture"), slug)
     f["image"] = image
+    # where the picture came from is kept for the same picture, and dropped when the picture is replaced
+    f["image_origin"] = old.get("image-origin", "") if image and image == old.get("image", "") else ""
     if not image:  # a credit only makes sense with a picture
-        for key in ("image_credit", "image_credit_url", "image_licence", "image_licence_url", "image_credit_note", "image_credit_label", "image_alt"):
+        for key in ("image_credit", "image_credit_url", "image_licence", "image_licence_url", "image_credit_note", "image_credit_label", "image_alt", "image_origin"):
             f[key] = ""
     for v in f["versions"]:
         level = v["level"]
@@ -637,6 +750,14 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self.send_header("Cache-Control", "no-store")
             self.end_headers()
             return self.wfile.write(body)
+        if url.path == "/pictures":
+            body = PICTURES_PAGE.replace("__TOKEN__", TOKEN).replace("__LIVE__", build.SITE["url"]).encode()
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.send_header("Cache-Control", "no-store")
+            self.end_headers()
+            return self.wfile.write(body)
         if url.path.startswith("/media/"):
             f = (STATIC / urllib.parse.unquote(url.path[len("/media/"):])).resolve()
             if STATIC.resolve() in f.parents and f.is_file():
@@ -654,6 +775,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 return self.send_json({"articles": list_articles()})
             if url.path == "/api/article":
                 return self.send_json(get_article(q.get("slug", [""])[0]))
+            if url.path == "/api/pictures":
+                return self.send_json({"pictures": list_pictures(), "kinds": ORIGIN_KINDS})
             if url.path == "/api/check":
                 assets = [a for a in q.get("assets", [""])[0].split(",") if a.startswith("/images/")]
                 return self.send_json(check_live(q.get("path", ["/"])[0], int(q.get("expect", ["200"])[0]), q.get("sha", [""])[0], assets))
@@ -673,6 +796,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 return self.send_json(do_preview(payload))
             if self.path == "/api/publish":
                 return self.send_json(do_publish(payload))
+            if self.path == "/api/pictures/save":
+                return self.send_json(do_pictures(payload))
             if self.path == "/api/remove":
                 return self.send_json(do_remove(payload.get("slug", "")))
             if self.path == "/api/signin":

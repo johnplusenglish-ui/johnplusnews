@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>johnplusnews pictures</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='10' fill='%231d5fe0'/%3E%3C/svg%3E">
+<style>
+:root { --ink:#111318; --text:#23262d; --muted:#5f6672; --line:#e3e6eb; --bg:#f6f7f9; --card:#fff; --accent:#1d5fe0; --accent-soft:#eef3fd; --amber:#8a5a00; --amber-soft:#fff3d4; --green:#14633a; --green-soft:#e6f5ec; --red:#b3261e; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:400 1rem/1.55 'Outfit', system-ui, -apple-system, 'Segoe UI', sans-serif; font-style:normal; padding-bottom:96px; }
+em, i, cite { font-style:normal; }
+a { color:var(--accent); }
+header { background:var(--card); border-bottom:1px solid var(--line); }
+header .in { max-width:1240px; margin:0 auto; padding:0 20px; min-height:60px; display:flex; align-items:center; gap:14px; }
+.brand { font-weight:700; font-size:1.2rem; letter-spacing:-.02em; color:var(--ink); }
+.brand span { color:var(--accent); }
+.tag { font-size:.8125rem; font-weight:600; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); }
+.navl { text-decoration:none; font-weight:600; font-size:.9375rem; padding:6px 12px; border-radius:999px; color:var(--muted); }
+.navl[aria-current="page"] { background:var(--accent-soft); color:var(--accent); }
+header .live { margin-left:auto; font-size:.9375rem; text-decoration:none; font-weight:500; }
+main { max-width:1240px; margin:0 auto; padding:26px 20px 40px; }
+h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; }
+.lead { margin:0 0 20px; color:var(--muted); max-width:70ch; }
+.tools { display:flex; flex-wrap:wrap; gap:12px 16px; align-items:center; margin:0 0 14px; }
+.tools input[type=search] { font:inherit; padding:9px 12px; border:1px solid #cfd4dc; border-radius:10px; min-width:240px; background:#fff; color:var(--ink); }
+.segs { display:flex; flex-wrap:wrap; gap:6px; }
+.segs button { font:inherit; font-size:.875rem; font-weight:600; padding:7px 14px; border-radius:999px; border:1px solid #cfd4dc; background:#fff; color:var(--text); cursor:pointer; }
+.segs button[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:#fff; }
+.btn { font:inherit; font-weight:600; padding:10px 20px; border-radius:10px; border:1px solid var(--accent); cursor:pointer; background:#fff; color:var(--accent); }
+.btn.primary { background:var(--accent); color:#fff; }
+.btn:disabled { opacity:.5; cursor:default; }
+.btn:focus-visible, .segs button:focus-visible, .linkbtn:focus-visible, .thumb:focus-visible { outline:2px solid var(--ink); outline-offset:2px; }
+.multi { border:1.5px dashed #b9c0cb; border-radius:12px; padding:14px 18px; background:#fbfcfd; color:var(--muted); margin:0 0 20px; display:flex; flex-wrap:wrap; gap:8px 16px; align-items:center; }
+.multi.over { border-color:var(--accent); background:var(--accent-soft); }
+.multi strong { color:var(--ink); }
+.grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(270px, 1fr)); gap:18px; }
+.pcard { background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; display:flex; flex-direction:column; }
+.pcard[hidden] { display:none; }
+.pcard.dirty { border-color:var(--accent); box-shadow:0 0 0 2px var(--accent-soft); }
+.thumb { position:relative; aspect-ratio:3 / 2; background:var(--accent-soft); cursor:pointer; display:block; width:100%; border:0; padding:0; text-align:center; }
+.thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+.thumb .none { display:flex; height:100%; align-items:center; justify-content:center; padding:14px; color:var(--muted); font-size:.9375rem; }
+.thumb .over { position:absolute; inset:0; display:none; align-items:center; justify-content:center; background:rgba(29,95,224,.82); color:#fff; font-weight:600; font-size:1rem; }
+.pcard.drag .thumb .over { display:flex; }
+.badges { position:absolute; left:10px; top:10px; display:flex; flex-wrap:wrap; gap:6px; pointer-events:none; }
+.badge { font-size:.75rem; font-weight:700; padding:3px 9px; border-radius:999px; background:#fff; color:var(--text); box-shadow:0 1px 3px rgba(0,0,0,.18); }
+.badge.new { background:var(--accent); color:#fff; }
+.badge.warn { background:var(--amber-soft); color:var(--amber); }
+.badge.live { background:var(--green-soft); color:var(--green); }
+.badge.gone { background:#fdeaea; color:var(--red); }
+.body { padding:12px 14px 6px; }
+.body h3 { margin:0; font-size:.9688rem; line-height:1.3; color:var(--ink); }
+.body small { color:var(--muted); }
+.btns { display:flex; flex-wrap:wrap; gap:4px 14px; padding:4px 14px 12px; }
+.linkbtn { background:none; border:0; color:var(--accent); font:inherit; font-size:.875rem; font-weight:600; cursor:pointer; padding:4px 0; }
+.linkbtn.danger { color:var(--red); }
+.linkbtn[hidden] { display:none; }
+.details { border-top:1px solid var(--line); padding:12px 14px 14px; background:#fbfcfd; }
+.details[hidden] { display:none; }
+.details label { display:block; font-size:.8125rem; font-weight:600; color:var(--ink); margin:10px 0 3px; }
+.details label:first-child { margin-top:0; }
+.details input[type=text], .details input[type=url], .details select { width:100%; font:inherit; font-size:.9375rem; padding:8px 10px; border:1px solid #cfd4dc; border-radius:8px; background:#fff; color:var(--ink); }
+.details .hint { font-size:.75rem; color:var(--muted); margin:3px 0 0; }
+.two { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+.bar { position:fixed; left:0; right:0; bottom:0; z-index:20; background:var(--card); border-top:1px solid var(--line); box-shadow:0 -6px 24px rgba(16,24,40,.08); }
+.bar .in { max-width:1240px; margin:0 auto; padding:12px 20px; display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+.bar .count { font-weight:600; color:var(--ink); margin-right:auto; }
+.status { max-width:1240px; margin:0 auto 18px; padding:14px 16px; border-radius:10px; font-size:.9375rem; }
+.status[hidden] { display:none; }
+.status.info { background:var(--accent-soft); color:#17408f; }
+.status.ok { background:var(--green-soft); color:var(--green); }
+.status.warn { background:var(--amber-soft); color:#6e4b00; }
+.status.err { background:#fdeaea; color:#9b1c1c; }
+.statuswrap { max-width:1240px; margin:0 auto; padding:0 20px; }
+@media (max-width: 560px) { .tools input[type=search] { min-width:0; width:100%; } .two { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header><div class="in"><span class="brand">john<span>plus</span>news</span><span class="tag">Publisher</span>
+<a class="navl" href="/">Articles</a><a class="navl" href="/pictures" aria-current="page">Pictures</a>
+<a class="live" href="__LIVE__" target="_blank" rel="noopener">View the live site</a></div></header>
+
+<main>
+  <h1>Pictures</h1>
+  <p class="lead">Drop a new picture onto any article, or click it to choose one, or hover over it and paste. Change as many as you like, then press <strong>Publish pictures</strong> once. Only the pictures change. The articles' text is never touched.</p>
+
+  <div class="statuswrap"><div class="status info" id="status" role="status" hidden></div></div>
+
+  <div class="multi" id="multi">
+    <span><strong>Many at once:</strong> drop several pictures here. Any file named like its article (for example <code>fast-fashion-the-clothes-nobody-wants.jpg</code>) is matched for you.</span>
+    <button class="btn" id="pickMany" type="button">Choose pictures</button>
+    <input type="file" id="manyInput" accept="image/*" multiple hidden>
+  </div>
+
+  <div class="tools">
+    <input type="search" id="find" placeholder="Search articles" aria-label="Search articles">
+    <div class="segs" id="filters" role="group" aria-label="Show">
+      <button type="button" data-f="all" aria-pressed="true">All</button>
+      <button type="button" data-f="none" aria-pressed="false">No picture</button>
+      <button type="button" data-f="origin" aria-pressed="false">No source info</button>
+      <button type="button" data-f="pending" aria-pressed="false">Changed</button>
+    </div>
+    <button class="btn" id="record" type="button">Download picture record (CSV)</button>
+  </div>
+
+  <div class="grid" id="grid" aria-live="polite"></div>
+</main>
+
+<div class="bar"><div class="in">
+  <span class="count" id="count">No changes yet</span>
+  <button class="btn" id="discard" type="button" disabled>Discard changes</button>
+  <button class="btn primary" id="publish" type="button" disabled>Publish pictures</button>
+</div></div>
+
+<script>
+const TOKEN = "__TOKEN__";
+const $ = id => document.getElementById(id);
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+let PICS = [], KINDS = [];
+const cards = new Map();   // slug -> {el, p, state}
+let hoverSlug = null, waitId = 0;
+
+async function api(path, body) {
+  const opt = body === undefined
+    ? { headers: { "X-Token": TOKEN } }
+    : { method: "POST", headers: { "X-Token": TOKEN, "Content-Type": "application/json" }, body: JSON.stringify(body) };
+  let r;
+  try { r = await fetch(path, opt); } catch (e) { throw new Error("Lost contact with the publisher. Is the Terminal window still open?"); }
+  const j = await r.json().catch(() => ({ error: "Unexpected reply" }));
+  if (!r.ok) throw new Error(j.error || "Something went wrong");
+  return j;
+}
+function setStatus(kind, parts) {
+  const box = $("status");
+  box.className = "status " + kind; box.textContent = "";
+  (Array.isArray(parts) ? parts : [parts]).forEach(x => box.appendChild(typeof x === "string" ? document.createTextNode(x) : x));
+  box.hidden = false;
+}
+function hideStatus() { $("status").hidden = true; }
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+function field(label, input, hint) { const w = document.createDocumentFragment(); const l = el("label", "", label); l.appendChild(input); const f = el("div"); f.appendChild(l); if (hint) f.appendChild(el("p", "hint", hint)); return f; }
+
+/* ------------------------------------------------------------------ origin text */
+function splitOrigin(s) {
+  s = (s || "").trim(); if (!s) return { kind: "", detail: "" };
+  const i = s.indexOf(" | "); const head = i < 0 ? s : s.slice(0, i), tail = i < 0 ? "" : s.slice(i + 3);
+  if (KINDS.includes(head)) return { kind: head, detail: tail };
+  return { kind: "Other", detail: s };
+}
+function joinOrigin(kind, detail) { detail = detail.trim(); return kind && detail ? kind + " | " + detail : (kind || detail); }
+
+/* ------------------------------------------------------------------ pictures */
+function blobToBase64(blob) {
+  return new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(String(r.result).split(",")[1]); r.onerror = () => rej(new Error("Could not read that file")); r.readAsDataURL(blob); });
+}
+async function loadBitmap(file) {
+  try { return await createImageBitmap(file); } catch (e) {}
+  return await new Promise((res, rej) => { const img = new Image(); img.onload = () => res(img); img.onerror = () => rej(new Error("That file could not be opened as a picture. Try a JPG or PNG.")); img.src = URL.createObjectURL(file); });
+}
+async function prepImage(file) {
+  if (!file.type.startsWith("image/")) throw new Error(file.name + " is not a picture.");
+  const bmp = await loadBitmap(file);
+  const w = bmp.width, h = bmp.height, s = Math.min(1, 1800 / Math.max(w, h));
+  const c = document.createElement("canvas"); c.width = Math.round(w * s); c.height = Math.round(h * s);
+  const g = c.getContext("2d"); g.fillStyle = "#fff"; g.fillRect(0, 0, c.width, c.height); g.drawImage(bmp, 0, 0, c.width, c.height);
+  const blob = await new Promise(r => c.toBlob(r, "image/jpeg", 0.9));
+  return { data: await blobToBase64(blob), preview: URL.createObjectURL(blob), name: file.name.replace(/\.[^.]+$/, "") + ".jpg" };
+}
+
+/* ------------------------------------------------------------------ cards */
+function makeCard(p) {
+  const st = { img: null, remove: false, live: false, gone: false };
+  const el0 = el("article", "pcard"); el0.dataset.slug = p.slug;
+  const thumb = el("button", "thumb"); thumb.type = "button"; thumb.setAttribute("aria-label", "Choose a picture for " + p.title);
+  const media = el("div"); media.style.cssText = "width:100%;height:100%";
+  const over = el("div", "over", "Drop picture here");
+  const badges = el("div", "badges");
+  thumb.appendChild(media); thumb.appendChild(over); thumb.appendChild(badges);
+  const file = el("input"); file.type = "file"; file.accept = "image/*"; file.hidden = true;
+  const body = el("div", "body"); body.appendChild(el("h3", "", p.title)); body.appendChild(el("small", "", p.date));
+  const btns = el("div", "btns");
+  const bChoose = el("button", "linkbtn", p.image ? "Replace picture" : "Add picture"); bChoose.type = "button";
+  const bDetails = el("button", "linkbtn", "Details"); bDetails.type = "button"; bDetails.setAttribute("aria-expanded", "false");
+  const bRemove = el("button", "linkbtn danger", "Remove picture"); bRemove.type = "button"; bRemove.hidden = !p.image;
+  const bUndo = el("button", "linkbtn", "Undo"); bUndo.type = "button"; bUndo.hidden = true;
+  const bLive = el("a", "linkbtn", "View article"); bLive.href = p.live_url; bLive.target = "_blank"; bLive.rel = "noopener";
+  [bChoose, bDetails, bRemove, bUndo, bLive].forEach(b => btns.appendChild(b));
+
+  const det = el("div", "details"); det.hidden = true;
+  const o = splitOrigin(p.origin);
+  const kind = el("select"); kind.appendChild(new Option("Choose...", "")); KINDS.forEach(k => kind.appendChild(new Option(k, k))); kind.value = o.kind;
+  const oDetail = el("input"); oDetail.type = "text"; oDetail.value = o.detail; oDetail.placeholder = "Which tool, photographer or website?";
+  const alt = el("input"); alt.type = "text"; alt.value = p.alt; alt.placeholder = "Describe the picture for readers who cannot see it";
+  const credit = el("input"); credit.type = "text"; credit.value = p.credit; credit.placeholder = "Name to credit, if any";
+  const creditUrl = el("input"); creditUrl.type = "url"; creditUrl.value = p.credit_url; creditUrl.placeholder = "Link to the original";
+  const licence = el("input"); licence.type = "text"; licence.value = p.licence; licence.placeholder = "For example CC BY 4.0";
+  const licenceUrl = el("input"); licenceUrl.type = "url"; licenceUrl.value = p.licence_url; licenceUrl.placeholder = "Link to the licence";
+  const note = el("input"); note.type = "text"; note.value = p.note; note.placeholder = "For example: cropped and resized";
+  det.appendChild(field("Where did this picture come from?", kind));
+  det.appendChild(field("Tool or source", oDetail, "A private record for you. It is not shown on the site."));
+  det.appendChild(field("Alt text", alt));
+  const two = el("div", "two"); two.appendChild(field("Credit", credit)); two.appendChild(field("Credit link", creditUrl)); det.appendChild(two);
+  const two2 = el("div", "two"); two2.appendChild(field("Licence", licence)); two2.appendChild(field("Licence link", licenceUrl)); det.appendChild(two2);
+  det.appendChild(field("Note shown under the picture", note));
+
+  el0.appendChild(thumb); el0.appendChild(body); el0.appendChild(btns); el0.appendChild(det); el0.appendChild(file);
+  const inputs = { kind, oDetail, alt, credit, creditUrl, licence, licenceUrl, note };
+  const c = { el: el0, p, st, inputs, media, badges, bChoose, bRemove, bUndo, thumb, det };
+  cards.set(p.slug, c);
+
+  function values() { return { alt: alt.value.trim(), origin: joinOrigin(kind.value, oDetail.value), credit: credit.value.trim(), credit_url: creditUrl.value.trim(), licence: licence.value.trim(), licence_url: licenceUrl.value.trim(), note: note.value.trim() }; }
+  c.values = values;
+  c.dirty = () => {
+    if (st.img || st.remove) return true;
+    const v = values();
+    return v.alt !== (p.alt || "") || v.origin !== (p.origin || "") || v.credit !== (p.credit || "") || v.credit_url !== (p.credit_url || "") || v.licence !== (p.licence || "") || v.licence_url !== (p.licence_url || "") || v.note !== (p.note || "");
+  };
+  c.refresh = () => refreshCard(c);
+  Object.values(inputs).forEach(i => i.addEventListener("input", c.refresh));
+  kind.addEventListener("change", c.refresh);
+
+  const choose = () => file.click();
+  thumb.addEventListener("click", choose); bChoose.addEventListener("click", choose);
+  file.addEventListener("change", async () => { if (file.files[0]) await setPicture(p.slug, file.files[0]); file.value = ""; });
+  bDetails.addEventListener("click", () => { det.hidden = !det.hidden; bDetails.setAttribute("aria-expanded", String(!det.hidden)); });
+  bRemove.addEventListener("click", () => { st.img = null; st.remove = true; c.refresh(); });
+  bUndo.addEventListener("click", () => { st.img = null; st.remove = false; Object.assign(inputs.alt, { value: p.alt }); c.refresh(); });
+  ["dragenter", "dragover"].forEach(ev => thumb.addEventListener(ev, e => { e.preventDefault(); el0.classList.add("drag"); }));
+  ["dragleave", "drop"].forEach(ev => thumb.addEventListener(ev, e => { e.preventDefault(); el0.classList.remove("drag"); }));
+  thumb.addEventListener("drop", async e => { const f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0]; if (f) await setPicture(p.slug, f); });
+  el0.addEventListener("mouseenter", () => { hoverSlug = p.slug; }); el0.addEventListener("mouseleave", () => { if (hoverSlug === p.slug) hoverSlug = null; });
+  el0.addEventListener("focusin", () => { hoverSlug = p.slug; });
+  refreshCard(c);
+  return el0;
+}
+
+function refreshCard(c) {
+  const { p, st, media, badges } = c;
+  media.textContent = "";
+  if (st.remove) { media.appendChild(el("div", "none", "Picture will be removed")); }
+  else if (st.img) { const i = el("img"); i.src = st.img.preview; i.alt = ""; media.appendChild(i); }
+  else if (p.thumb) { const i = el("img"); i.src = "/media/" + p.thumb + "?v=" + (p.image || ""); i.alt = ""; i.loading = "lazy"; media.appendChild(i); }
+  else { media.appendChild(el("div", "none", "No picture yet. Drop one here.")); }
+  badges.textContent = "";
+  const dirty = c.dirty();
+  if (st.live) badges.appendChild(el("span", "badge live", "Live"));
+  else if (dirty) badges.appendChild(el("span", "badge new", st.remove ? "Removal not published" : "Not published yet"));
+  const hasPic = st.remove ? false : (st.img ? true : !!p.image);
+  if (!hasPic && !st.remove) badges.appendChild(el("span", "badge warn", "No picture"));
+  if (hasPic && !c.values().origin) badges.appendChild(el("span", "badge warn", "No source info"));
+  c.bRemove.hidden = !hasPic || st.remove;
+  c.bUndo.hidden = !(st.img || st.remove);
+  c.bChoose.textContent = hasPic ? "Replace picture" : "Add picture";
+  c.el.classList.toggle("dirty", dirty);
+  updateBar(); applyFilter();
+}
+
+async function setPicture(slug, file) {
+  const c = cards.get(slug); if (!c) return;
+  try { c.st.img = await prepImage(file); c.st.remove = false; c.st.live = false; c.det.hidden = false; hideStatus(); }
+  catch (e) { setStatus("err", e.message); return; }
+  c.refresh();
+}
+
+/* ------------------------------------------------------------------ bar, filters */
+function dirtyCards() { return [...cards.values()].filter(c => c.dirty()); }
+function updateBar() {
+  const n = dirtyCards().length;
+  $("count").textContent = n ? n + (n === 1 ? " article changed" : " articles changed") + ", not published yet" : "No changes yet";
+  $("publish").disabled = !n; $("discard").disabled = !n;
+}
+let filter = "all";
+function applyFilter() {
+  const q = $("find").value.trim().toLowerCase();
+  cards.forEach(c => {
+    const hasPic = c.st.remove ? false : (c.st.img ? true : !!c.p.image);
+    let ok = !q || c.p.title.toLowerCase().includes(q);
+    if (filter === "none") ok = ok && !hasPic;
+    if (filter === "origin") ok = ok && hasPic && !c.values().origin;
+    if (filter === "pending") ok = ok && c.dirty();
+    c.el.hidden = !ok;
+  });
+}
+$("find").addEventListener("input", applyFilter);
+$("filters").addEventListener("click", e => {
+  const b = e.target.closest("button[data-f]"); if (!b) return;
+  filter = b.dataset.f; [...$("filters").children].forEach(x => x.setAttribute("aria-pressed", String(x === b))); applyFilter();
+});
+
+/* ------------------------------------------------------------------ many at once, paste */
+function norm(s) { return s.toLowerCase().replace(/\.[^.]+$/, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
+async function matchFiles(files) {
+  const unmatched = []; let matched = 0;
+  for (const f of files) {
+    if (!f.type.startsWith("image/")) continue;
+    const n = norm(f.name); let hit = null;
+    for (const c of cards.values()) { const s = c.p.slug; if (n === s || (n.length >= 12 && (s.startsWith(n) || n.startsWith(s)))) { hit = c; break; } }
+    if (hit) { await setPicture(hit.p.slug, f); matched++; } else unmatched.push(f.name);
+  }
+  if (unmatched.length) setStatus("warn", matched + " matched. No article matched: " + unmatched.join(", ") + ". Drop those onto the right article instead.");
+  else if (matched) setStatus("ok", matched + " picture" + (matched === 1 ? "" : "s") + " matched. Check them below, then press Publish pictures.");
+}
+const multi = $("multi");
+["dragenter", "dragover"].forEach(ev => multi.addEventListener(ev, e => { e.preventDefault(); multi.classList.add("over"); }));
+["dragleave", "drop"].forEach(ev => multi.addEventListener(ev, e => { e.preventDefault(); multi.classList.remove("over"); }));
+multi.addEventListener("drop", e => matchFiles([...(e.dataTransfer.files || [])]));
+$("pickMany").addEventListener("click", () => $("manyInput").click());
+$("manyInput").addEventListener("change", () => { matchFiles([...$("manyInput").files]); $("manyInput").value = ""; });
+document.addEventListener("paste", async e => {
+  const item = [...(e.clipboardData ? e.clipboardData.items : [])].find(i => i.type.startsWith("image/"));
+  if (!item) return;
+  if (!hoverSlug) { setStatus("warn", "Hover over an article's picture first, then paste."); return; }
+  e.preventDefault(); const f = item.getAsFile(); if (f) await setPicture(hoverSlug, new File([f], "pasted.png", { type: f.type }));
+});
+window.addEventListener("dragover", e => e.preventDefault()); window.addEventListener("drop", e => e.preventDefault());
+
+/* ------------------------------------------------------------------ publish */
+$("discard").addEventListener("click", () => {
+  if (!confirm("Throw away all the changes you have not published?")) return;
+  cards.forEach(c => { c.st.img = null; c.st.remove = false; const o = splitOrigin(c.p.origin);
+    c.inputs.kind.value = o.kind; c.inputs.oDetail.value = o.detail; c.inputs.alt.value = c.p.alt; c.inputs.credit.value = c.p.credit; c.inputs.creditUrl.value = c.p.credit_url;
+    c.inputs.licence.value = c.p.licence; c.inputs.licenceUrl.value = c.p.licence_url; c.inputs.note.value = c.p.note; c.refresh(); });
+  hideStatus();
+});
+
+async function waitLive(slug, v) {
+  let q = "/api/check?path=" + encodeURIComponent("/articles/" + slug + "/") + "&expect=200";
+  if (v && v.sha) q += "&sha=" + encodeURIComponent(v.sha);
+  if (v && v.assets && v.assets.length) q += "&assets=" + encodeURIComponent(v.assets.join(","));
+  for (let i = 0; i < 72; i++) {
+    let r = { done: false };
+    try { r = await api(q); } catch (e) {}
+    if (r.done) return true;
+    await sleep(5000);
+  }
+  return false;
+}
+
+$("publish").addEventListener("click", async () => {
+  const mine = ++waitId;
+  const list = dirtyCards();
+  if (!list.length) return;
+  const changes = list.map(c => {
+    const ch = Object.assign({ slug: c.p.slug, rev: c.p.rev }, c.values());
+    if (c.st.img) ch.image = { name: c.st.img.name, data: c.st.img.data };
+    if (c.st.remove) ch.remove = true;
+    return ch;
+  });
+  $("publish").disabled = true; $("discard").disabled = true;
+  setStatus("info", "Resizing the pictures, building the site and sending it to GitHub...");
+  let r;
+  try { r = await api("/api/pictures/save", { changes }); }
+  catch (e) { setStatus("err", e.message); updateBar(); return; }
+  if (!r.pushed) {
+    if (r.auth) { const b = el("button", "btn", "Open the sign-in window"); b.type = "button"; b.addEventListener("click", async () => { try { await api("/api/signin", {}); } catch (e) { setStatus("err", e.message); } }); setStatus("warn", ["GitHub needs your sign-in. Your changes are saved safely on this Mac. ", b]); }
+    else setStatus("warn", (r.note || "Nothing was sent.") + " Your changes are still here.");
+    await reload(false); updateBar(); return;
+  }
+  const slugs = r.changed || [];
+  setStatus("info", "Sent to GitHub. Waiting for johnplusnews.com to show " + slugs.length + (slugs.length === 1 ? " article" : " articles") + " (this usually takes one to two minutes).");
+  let done = 0;
+  const results = await Promise.all(slugs.map(async s => { const ok = await waitLive(s, (r.verify || {})[s]); if (ok) { done++; const c = cards.get(s); if (c) { c.st.live = true; c.refresh(); } if (mine === waitId) setStatus("info", done + " of " + slugs.length + " live on johnplusnews.com so far."); } return ok; }));
+  if (mine !== waitId) return;
+  if (results.every(Boolean)) setStatus("ok", slugs.length === 1 ? "It is live on johnplusnews.com." : "All " + slugs.length + " are live on johnplusnews.com.");
+  else setStatus("warn", "Sent to GitHub, but not all of them are showing yet. Give it a few more minutes and check the site.");
+  await reload(true);
+});
+
+/* ------------------------------------------------------------------ record download */
+$("record").addEventListener("click", () => {
+  const q = v => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"';
+  const rows = [["Article", "Date", "Picture file", "Where it came from", "Credit", "Licence", "Alt text", "Article address"]]
+    .concat(PICS.map(p => [p.title, p.date, p.image, p.origin, p.credit, p.licence, p.alt, p.live_url]));
+  const blob = new Blob(["﻿" + rows.map(r => r.map(q).join(",")).join("\r\n")], { type: "text/csv;charset=utf-8" });
+  const a = el("a"); a.href = URL.createObjectURL(blob); a.download = "johnplusnews-picture-record.csv"; document.body.appendChild(a); a.click(); a.remove();
+});
+
+/* ------------------------------------------------------------------ start */
+async function reload(keepLive) {
+  const j = await api("/api/pictures"); PICS = j.pictures; KINDS = j.kinds;
+  const liveSlugs = keepLive ? new Set([...cards.values()].filter(c => c.st.live).map(c => c.p.slug)) : new Set();
+  const grid = $("grid"); grid.textContent = ""; cards.clear();
+  PICS.forEach(p => { grid.appendChild(makeCard(p)); if (liveSlugs.has(p.slug)) { const c = cards.get(p.slug); c.st.live = true; c.refresh(); } });
+  applyFilter(); updateBar();
+}
+reload(false).catch(e => setStatus("err", e.message));
+window.addEventListener("beforeunload", e => { if (dirtyCards().length) { e.preventDefault(); e.returnValue = ""; } });
+</script>
+</body>
+</html>

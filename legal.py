@@ -5,8 +5,9 @@ UPDATED = "19 October 2026"
 
 
 def who(site):
-    owner = site.get("owner_full") or site["owner"]
-    return owner
+    if site.get("legal_name"):
+        return "{}, trading as {}".format(site["legal_name"], site["owner"])
+    return "John, trading as {}".format(site["owner"])
 
 
 def contact_lines(site):
@@ -16,6 +17,20 @@ def contact_lines(site):
     for label, url in site["social"]:
         bits.append('on <a href="{}" rel="noopener noreferrer">{}</a>'.format(url, label))
     return ", or ".join(bits)
+
+
+def details(site):
+    items = ["<li>Trading name: {}</li>".format(site["owner"])]
+    if site.get("legal_name"):
+        items.append("<li>Operated by: {}</li>".format(site["legal_name"]))
+    items.append("<li>Based in: {}Ireland</li>".format((site["address"] + ", ") if site.get("address") else ""))
+    if site.get("email"):
+        items.append('<li>Email: <a href="mailto:{0}">{0}</a></li>'.format(site["email"]))
+    if site.get("cro"):
+        items.append("<li>Business name registration number: {}</li>".format(site["cro"]))
+    if site.get("vat"):
+        items.append("<li>VAT number: {}</li>".format(site["vat"]))
+    return "\n".join(items)
 
 
 def privacy(site):
@@ -113,6 +128,11 @@ def contact(site):
 <h2>Copyright and picture concerns</h2>
 <p>If you own something on this site and think we have used it wrongly, contact us with the page address and what you own. We will look at it promptly and remove or fix it if you are right.</p>
 
+<h2>Who runs this site</h2>
+<ul>
+{details}
+</ul>
+
 <h2>Your information</h2>
 <p>To ask about your account or your information, see the <a href="/privacy/">privacy notice</a>.</p>
-""".format(how=how)
+""".format(how=how, details=details(site))

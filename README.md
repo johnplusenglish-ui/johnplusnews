@@ -16,6 +16,21 @@ Your articles are listed on the right. **Edit** opens one back up (its web addre
 
 If GitHub does not accept the upload, the page says so. Your article is still saved on your Mac, so fix the problem and press Publish again.
 
+## Change pictures (the Pictures page)
+
+In the publisher, press **Pictures** at the top (or open http://127.0.0.1:8765/pictures). Every article is a card.
+
+- Drop a picture onto a card, click it to choose a file, or hover over it and paste (Cmd+V). You can change as many as you like.
+- To add many at once, drop them on the dashed box. A file named like its article, for example `fast-fashion-the-clothes-nobody-wants.jpg`, is matched for you. Others you drop on the right card.
+- **Details** on a card holds the alt text, the credit and licence, and **Where did this picture come from?** (AI-generated, your own photo, and so on). That last note is private. It builds your picture record, which the filter **No source info** helps you fill in. **Download picture record** saves it as a spreadsheet.
+- Press **Publish pictures** once. They are resized, only the picture lines of each article change (the text is never touched), and everything goes to GitHub in one go. Each card shows **Live** when the site has it.
+
+## Business details and legal pages
+
+The privacy notice, terms and contact pages are written in `legal.py`, and the details they show (trading name CorkEnglishTeacher, your full name, address, email, VAT and business-name numbers) are set at the top of `build.py` in `SITE`. Fill in what applies, run `python3 build.py`, and push.
+
+Fonts: the site uses Georgia (already on readers' devices) and Outfit, hosted in `static/fonts`, so visitors' devices never contact Google.
+
 ## Sign in to GitHub (one time)
 
 The publisher needs a GitHub token saved on your Mac before it can send articles to the website. If you see "GitHub needs your sign-in", click **Open the sign-in window** in the publisher, or double-click `Sign in to GitHub.command`. It explains how to make a token if you do not have one, asks you to paste it (nothing shows as you paste), saves it in your Mac's keychain and tests it. If GitHub refuses the token it is not kept, and you can run the file again with a new one. After that, publishing works without Terminal.

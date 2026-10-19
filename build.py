@@ -25,9 +25,12 @@ STATIC = ROOT / "static"
 OUT = ROOT / "docs"
 
 SITE = {
-    "owner": "John Plus English",
-    "owner_full": "John, trading as John Plus English",   # shown in the privacy notice and terms: add your full name here if you wish
-    "email": "",                                          # shown on the contact page when filled in, for example "hello@example.com"
+    "owner": "CorkEnglishTeacher",                        # the trading name
+    "legal_name": "",                                     # your full legal name, for example "John Murphy". Shown in the privacy notice, terms and contact page
+    "address": "",                                        # a business address people can write to
+    "email": "",                                          # for example "hello@example.com"
+    "vat": "",                                            # VAT number, only if you are registered
+    "cro": "",                                            # business name registration number (Companies Registration Office), only if registered
     "name": "johnplusnews",
     "url": "https://johnplusnews.com",
     "tagline": "News articles from around the world for English learners.",
