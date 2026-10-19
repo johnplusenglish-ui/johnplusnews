@@ -247,8 +247,8 @@
       go.disabled = true;
       var job;
       if (mode === "signin") job = signIn(em, pv).then(closeDialog);
-      else if (mode === "signup") job = signUp(name.value.trim(), em, pv).then(function (r) { if (r === "in") closeDialog(); else sentMessage("We sent a message to " + em + ". Open it and press the link to confirm your email, then come back and sign in."); });
-      else if (mode === "forgot") job = recover(em).then(function () { sentMessage("If " + em + " has an account, a message with a link is on its way. Open it to choose a new password."); });
+      else if (mode === "signup") job = signUp(name.value.trim(), em, pv).then(function (r) { if (r === "in") closeDialog(); else sentMessage("We sent a message to " + em + ". It can take a minute. Open it and press the link to confirm your email. If you cannot see it, check your spam or junk folder and mark it as not spam. Then come back and sign in."); });
+      else if (mode === "forgot") job = recover(em).then(function () { sentMessage("If " + em + " has an account, a message with a link is on its way. It can take a minute. Open it to choose a new password. If you cannot see it, check your spam or junk folder."); });
       else job = newPassword(pv).then(function () { closeDialog(); toast("Your new password is saved."); });
       job.catch(function (er) { err.textContent = nice(er); err.hidden = false; go.disabled = false; });
     });
