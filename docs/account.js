@@ -228,7 +228,15 @@
     if (mode === "signup") pw = field(form, "pw", "Password (at least 8 characters)", "password", "new-password", { minlength: "8" });
     if (mode === "reset") { pw = field(form, "pw", "New password (at least 8 characters)", "password", "new-password", { minlength: "8" }); first = pw; }
     if (mode === "forgot") form.appendChild(el("p", "acct-small", "We will email you a link to choose a new password."));
-    if (mode === "signup") form.appendChild(el("p", "acct-small", "Your teacher can see the words you save and the articles you read. Nobody else can."));
+    if (mode === "signup") {
+      var agree = el("p", "acct-small", "Your teacher can see the words you save and the articles you read. Nobody else can. By creating an account you agree to the ");
+      [["Terms", "/terms/"], ["Privacy notice", "/privacy/"]].forEach(function (l, i) {
+        var a = el("a", "", l[0]); a.href = l[1]; a.target = "_blank"; a.rel = "noopener";
+        if (i) agree.appendChild(document.createTextNode(" and the ")); agree.appendChild(a);
+      });
+      agree.appendChild(document.createTextNode("."));
+      form.appendChild(agree);
+    }
     form.appendChild(err);
     var go = el("button", "acct-go", { signin: "Sign in", signup: "Create account", forgot: "Send the link", reset: "Save password" }[mode]);
     go.type = "submit"; form.appendChild(go);
@@ -539,6 +547,44 @@
     root.appendChild(b);
   }
 
+  /* delete my account: removes the sign-in, the saved words, the progress and the preferences */
+  function deletePanel() {
+    var box = el("section", "acct-danger");
+    box.appendChild(el("h2", "", "Your account"));
+    var p = el("p", "", "You can delete your account whenever you like. This permanently removes your sign-in, your saved words, your progress and your preferences. It cannot be undone, so download your words first if you want to keep them.");
+    var open = el("button", "wd-btn wd-danger", "Delete my account"); open.type = "button";
+    var form = el("div", "acct-confirm"); form.hidden = true;
+    var lab = el("label", "", "Type DELETE to confirm"); lab.htmlFor = "acct-del";
+    var inp = el("input"); inp.id = "acct-del"; inp.type = "text"; inp.autocomplete = "off";
+    var go = el("button", "wd-btn wd-danger", "Delete everything"); go.type = "button"; go.disabled = true;
+    var no = el("button", "wd-btn", "Keep my account"); no.type = "button";
+    var err = el("p", "acct-err"); err.hidden = true; err.setAttribute("role", "alert");
+    form.appendChild(lab); form.appendChild(inp); form.appendChild(go); form.appendChild(no); form.appendChild(err);
+    open.addEventListener("click", function () { form.hidden = false; open.hidden = true; try { inp.focus(); } catch (e) {} });
+    no.addEventListener("click", function () { form.hidden = true; open.hidden = false; inp.value = ""; go.disabled = true; err.hidden = true; });
+    inp.addEventListener("input", function () { go.disabled = inp.value.trim() !== "DELETE"; });
+    go.addEventListener("click", function () {
+      go.disabled = true; err.hidden = true;
+      api("POST", "/rest/v1/rpc/news_delete_my_account", { body: {} }).then(afterDelete).catch(function (e) {
+        err.textContent = (e.status === 404 || e.code === "PGRST202") ? "Deleting accounts is not switched on yet. Please contact us and we will delete it for you." : nice(e);
+        err.hidden = false; go.disabled = false;
+      });
+    });
+    box.appendChild(p); box.appendChild(open); box.appendChild(form);
+    return box;
+  }
+  function afterDelete() {
+    wipeLocalHighlights(); drop("jpn_hl_owner"); drop(OUTKEY); drop("jpn_role");
+    setSession(null); progress = {};
+    drawHeader(); applyGate();
+    if (root) {
+      clear(root);
+      root.appendChild(el("h2", "", "Your account has been deleted"));
+      root.appendChild(el("p", "acct-note", "Your sign-in, saved words, progress and preferences have been removed. You are welcome to read the free articles, or create a new account any time."));
+      var back = el("a", "more", "Back to all articles"); back.href = "/"; root.appendChild(back);
+    }
+  }
+
   function renderWords() {
     if (!me) { signInPrompt("Sign in to see the words you have saved."); return; }
     clear(root);
@@ -554,6 +600,7 @@
       var count = el("p", "wd-count");
       var list = el("div", "wd-list");
       root.appendChild(bar); root.appendChild(count); root.appendChild(list);
+      root.appendChild(deletePanel());
       function shown() { return rows.filter(function (r) { return !q || (r.text + " " + (r.sentence || "") + " " + titleOf(r.slug)).toLowerCase().indexOf(q) >= 0; }); }
       function draw() {
         var rs = shown();
@@ -769,7 +816,7 @@
   function nudge() {
     var off = false;
     try { off = sessionStorage.getItem("jpn_nudge_off") === "1"; } catch (e) {}
-    if (off || dlg) return;
+    if (off || dlg || document.querySelector(".legal")) return;     // not over the privacy, terms or contact pages
     var returning = false;
     try { returning = localStorage.getItem("jpn_has_account") === "1"; } catch (e) {}
     setTimeout(function () { if (!me && !dlg) openDialog(returning ? "signin" : "signup", null, true); }, 700);

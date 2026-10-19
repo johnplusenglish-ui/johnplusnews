@@ -9,6 +9,7 @@ Each article is one plain text file in content/ (see README.md).
 import datetime as dt
 import hashlib
 import json
+import legal
 import html
 import re
 import shutil
@@ -24,6 +25,9 @@ STATIC = ROOT / "static"
 OUT = ROOT / "docs"
 
 SITE = {
+    "owner": "John Plus English",
+    "owner_full": "John, trading as John Plus English",   # shown in the privacy notice and terms: add your full name here if you wish
+    "email": "",                                          # shown on the contact page when filled in, for example "hello@example.com"
     "name": "johnplusnews",
     "url": "https://johnplusnews.com",
     "tagline": "News articles from around the world for English learners.",
@@ -487,9 +491,7 @@ def page(path, main, title=None, desc=None, current=None, image=None, kind="webs
 <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" href="/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
 {head_extra}<style>{css}</style>
 </head>
 <body{body_class}>
@@ -504,7 +506,7 @@ def page(path, main, title=None, desc=None, current=None, image=None, kind="webs
 {main}
 </main>
 <footer class="site-footer">
-  <div class="wrap">{name}. {tagline}</div>
+  <div class="wrap"><span>{name}. {tagline}</span><nav class="foot-links" aria-label="About this site"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></nav></div>
 </footer>
 </body>
 </html>
@@ -635,6 +637,11 @@ def account_page(path, heading, kind, note):
     return page(path, main, title=heading, desc=note, head_extra='<meta name="robots" content="noindex">\n')
 
 
+def legal_page(path, title, body, desc):
+    main = '<div class="wrap legal"><h1 class="page-title">{}</h1>{}</div>'.format(title, body)
+    return page(path, main, title=title, desc=desc)
+
+
 def about_page():
     links = "".join(
         '<li><a href="{}" target="_blank" rel="noopener noreferrer"><span>{}</span><span aria-hidden="true">&rarr;</span></a></li>'.format(esc(url), label)
@@ -688,15 +695,11 @@ LANG_JS = (
     'if(e.target.classList.contains("kl-row"))e.target.click();else if(pop&&pop.kl===e.target)close();else open(e.target)}});'
     'window.addEventListener("resize",close)})();'
 )
-FONTS = [("default", "Georgia"), ("outfit", "Outfit"), ("verdana", "Verdana"),
-         ("atkinson", "Atkinson Hyperlegible"), ("lexend", "Lexend")]
+FONTS = [("default", "Georgia"), ("outfit", "Outfit")]
 
-# Runs in <head> before the page paints: applies the reader's saved font, and loads the two web fonts only on demand.
+# Runs in <head> before the page paints: applies the reader's saved font (Georgia is the default; Outfit is hosted on this site).
 HEAD_JS = (
-    '<script>(function(){var G={atkinson:"Atkinson+Hyperlegible:wght@400;700",lexend:"Lexend:wght@400;500;600"};'
-    'window.jpnFont=function(k){if(G[k]&&!document.getElementById("gf-"+k)){var l=document.createElement("link");'
-    'l.id="gf-"+k;l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family="+G[k]+"&display=swap";document.head.appendChild(l)}};'
-    'try{var f=localStorage.getItem("jpn_font");if(f&&/^[a-z]+$/.test(f)){document.documentElement.setAttribute("data-font",f);window.jpnFont(f)}}catch(e){}})();</script>\n'
+    '<script>(function(){try{var f=localStorage.getItem("jpn_font");if(f==="outfit")document.documentElement.setAttribute("data-font","outfit")}catch(e){}})();</script>\n'
 )
 
 FONT_JS = (
@@ -705,9 +708,9 @@ FONT_JS = (
     'function sel(k,save){var f=o.filter(function(x){return x.getAttribute("data-font")===k})[0]||o[0];k=f.getAttribute("data-font");'
     'o.forEach(function(x){x.setAttribute("aria-selected",x===f)});c.textContent=f.getAttribute("data-short")||f.firstChild.textContent;'
     'if(k==="default")document.documentElement.removeAttribute("data-font");'
-    'else{document.documentElement.setAttribute("data-font",k);window.jpnFont&&window.jpnFont(k)}'
+    'else{document.documentElement.setAttribute("data-font",k)}'
     'if(save){try{localStorage.setItem("jpn_font",k)}catch(e){}try{document.dispatchEvent(new CustomEvent("jpn:pref",{detail:{font:k}}))}catch(e){}}}'
-    'function open(){if(window.jpnFont){window.jpnFont("atkinson");window.jpnFont("lexend")}m.hidden=false;b.setAttribute("aria-expanded","true");'
+    'function open(){m.hidden=false;b.setAttribute("aria-expanded","true");'
     '(o.filter(function(x){return x.getAttribute("aria-selected")==="true"})[0]||o[0]).focus()}'
     'function close(back){m.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus()}'
     'var s="";try{s=localStorage.getItem("jpn_font")||""}catch(e){}sel(s,false);'
@@ -900,6 +903,7 @@ def article_page(a, newer, older):
     if a["source_name"]:
         name = '<a href="{}">{}</a>'.format(esc(a["source_url"]), esc(a["source_name"])) if a["source_url"] else esc(a["source_name"])
         source = '<p class="source">Source: {}</p>'.format(name)
+    source += '<p class="ai-note">Written with AI assistance and edited by John. Spotted a mistake? <a href="/contact/">Tell us</a>.</p>'
     pager = ""
     if newer or older:
         def gate(x):
@@ -986,6 +990,9 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
     for t in topics:
         write("tags/{}/index.html".format(t["slug"]), gallery_page(t["arts"], topics, t))
     write("about/index.html", about_page())
+    write("privacy/index.html", legal_page("/privacy/", "Privacy notice", legal.privacy(SITE), "How johnplusnews handles your information."))
+    write("terms/index.html", legal_page("/terms/", "Terms of use", legal.terms(SITE), "The terms for using johnplusnews."))
+    write("contact/index.html", legal_page("/contact/", "Contact", legal.contact(SITE), "How to contact johnplusnews and report a mistake."))
     write("words/index.html", account_page("/words/", "My words", "words", "The words and phrases you have highlighted in articles, saved to your account."))
     write("teacher/index.html", account_page("/teacher/", "Teacher view", "teacher", "The words your students have saved, and what they have read."))
     write("articles.json", json.dumps({a["slug"]: {"title": a["title"]} for a in arts}, ensure_ascii=False))
