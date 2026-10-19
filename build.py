@@ -782,7 +782,8 @@ def accounts_on():
 
 
 # Runs in <head> before the page paints, so a reader who is not signed in never sees the locked articles flash up.
-GUEST_JS = '<script>try{if(!localStorage.getItem("jpn_session"))document.documentElement.classList.add("jpn-guest")}catch(e){document.documentElement.classList.add("jpn-guest")}</script>\n'
+GUEST_JS = ('<script>try{if(!localStorage.getItem("jpn_session"))document.documentElement.classList.add("jpn-guest")}catch(e){document.documentElement.classList.add("jpn-guest")}'
+            'setTimeout(function(){if(!window.jpnGateReady)document.documentElement.classList.remove("jpn-guest")},6000)</script>\n')   # fail open: if the sign-in script never runs, show everything
 
 
 def account_scripts():
