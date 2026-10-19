@@ -34,6 +34,7 @@ SITE = {
 
 NAV = [("/", "Articles"), ("/about/", "About")]
 LEVELS = ["Core", "Intermediate", "Advanced"]
+LANGUAGE_ON = False  # the useful-language boxes are paused; the lists stay in the article files
 DEFAULT_LEVEL = "Intermediate"  # the tab a new reader lands on (the first one if an article has no Intermediate)
 
 
@@ -368,7 +369,7 @@ def parse_article(path):
     try:
         versions = parse_versions(meta, body)
         questions = split_sections(body)[1]
-        language = questions["language"]
+        language = questions["language"] if LANGUAGE_ON else {}
     except ValueError as e:
         fail(path, str(e))
     if meta.get("draft", "").lower() in ("yes", "true", "1"):
@@ -746,6 +747,14 @@ def font_picker():
             ).format(CHEVRON_ICON, items)
 
 
+def timer_script():
+    """The classroom timer lives in static/timer.js; the version in the address makes browsers fetch a changed copy."""
+    f = STATIC / "timer.js"
+    if not f.exists():
+        return ""
+    return '<script src="/timer.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
+
+
 def highlight_script():
     """The highlighter lives in static/highlight.js; the version in the address makes browsers fetch a changed copy."""
     f = STATIC / "highlight.js"
@@ -883,7 +892,7 @@ def article_page(a, newer, older):
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))
     no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=first["title"], desc=first["summary"], image=a["image"] or None, kind="article",
-                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script() + listen_script(a))
+                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script() + timer_script() + listen_script(a))
 
 
 def not_found_page():

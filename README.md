@@ -106,7 +106,13 @@ When a reader switches tab, the headline, the subheading and the browser tab tit
 
 An article can have two optional sets of questions: **Before you read** (warm-up questions) and **Talk about it** (discussion questions). On the page they are two quiet one-line rows, one under the picture and one under the text, closed until a reader opens them, so the article itself stays clean. The PDF always prints both open, in a tinted box. Every level shares the same questions, so keep the wording simple enough for the Core level.
 
-## Useful language
+## Timer
+
+Every article page has a small timer pill in the bottom-right corner (static/timer.js). Tap it to set the minutes (type a number or press 5, 10, 15 or 20), then Start. While it runs, a thin bar down the left edge of the page fills from the top and turns amber in the last tenth, and a soft two-note chime plays at zero. Pause, Resume and Reset are in the same panel. The minutes are remembered on that device, and a running timer carries on when you move to another article. It is hidden in the PDF.
+
+## Useful language (paused)
+
+The language boxes are switched off at the moment (`LANGUAGE_ON = False` in build.py). The lists are still in every article file and everything below still works if the switch is turned back on.
 
 Each level can carry a short list of the useful language in its text: adjectives, phrasal verbs and phrases (three of each is the house minimum, written into the article so they read naturally). In the file, put a section after that level's text:
 
