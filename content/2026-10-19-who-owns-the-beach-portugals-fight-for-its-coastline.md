@@ -2,7 +2,7 @@ title: Who Owns the Beach? Portugal's Fight for Its Coastline
 date: 2026-10-19
 summary: In Portugal, residents protested against a plan they feared would restrict access to beautiful beaches. Should nature ever become a private luxury?
 tags: Travel, Society
-source: The Guardian, 4 July 2026, commentary discussing the Arrábida protests | https://www.theguardian.com/commentisfree/2026/jul/04/fight-beaches-real-villain-europe-overtourism-big-business
+source: The Guardian | https://www.theguardian.com/commentisfree/2026/jul/04/fight-beaches-real-villain-europe-overtourism-big-business
 ---
 === Core ===
 
