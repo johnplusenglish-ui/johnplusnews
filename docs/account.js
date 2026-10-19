@@ -55,7 +55,7 @@
   function raw(method, path, opts) {
     opts = opts || {};
     var h = { apikey: cfg.key, "Content-Type": "application/json" };
-    h.Authorization = "Bearer " + (opts.token || cfg.key);
+    if (opts.token) h.Authorization = "Bearer " + opts.token;   // a signed-in person's token; the project key travels in apikey only (new publishable keys are not tokens)
     if (opts.prefer) h.Prefer = opts.prefer;
     if (opts.range) { h["Range-Unit"] = "items"; h.Range = opts.range[0] + "-" + opts.range[1]; }
     return fetch(cfg.url.replace(/\/+$/, "") + path, { method: method, headers: h, body: opts.body == null ? undefined : JSON.stringify(opts.body) })
@@ -119,7 +119,7 @@
       .then(function (j) { setSession(fromToken(j)); return start(true); });
   }
   function signUp(name, email, password) {
-    return raw("POST", "/auth/v1/signup", { body: { email: email, password: password, data: { display_name: name } } })
+    return raw("POST", "/auth/v1/signup?redirect_to=" + enc(location.origin + "/"), { body: { email: email, password: password, data: { display_name: name } } })
       .then(function (j) {
         if (j && j.access_token) { setSession(fromToken(j)); return start(true).then(function () { return "in"; }); }
         return "confirm";
