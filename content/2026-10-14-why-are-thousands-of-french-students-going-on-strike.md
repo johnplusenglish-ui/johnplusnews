@@ -43,7 +43,7 @@ The government promised to provide 3,000 additional replacement teachers in the 
 
 The protests have not been entirely peaceful. Some marches led to clashes with police, injuries and arrests, prompting concerns about the treatment of young demonstrators. Authorities said they needed to respond to disorder, while students and campaigners accused police of using too much force. Meanwhile, some parents questioned whether missing weeks of school could damage the very education the protesters were trying to improve.
 
-That contradiction is central to the debate. Continuing to attend poorly equipped schools may seem pointless to frustrated teenagers, yet prolonged disruption could leave them further behind. The movement also raises the question of educational inequality. If children in richer areas have more reliable lessons and better facilities, how equal are their opportunities? Whatever happens next, these students have made one thing clear: they expect to have a say in decisions that shape their future.
+That contradiction is central to the debate. Continuing to attend poorly equipped schools may seem pointless to frustrated teenagers, yet prolonged disruption could leave them further behind. The movement also raises the question of educational inequality. If children in richer areas have more reliable lessons and better facilities, how equal are their opportunities? Whatever happens next, these students have spelled out what they expect: to have a say in decisions that shape their future.
 
 === Intermediate language ===
 
@@ -53,9 +53,10 @@ That contradiction is central to the debate. Continuing to attend poorly equippe
 - walk out of (phrasal verb): to leave a place suddenly as a protest
 - grow into (phrasal verb): to develop gradually into something bigger
 - leave someone behind (phrasal verb): to make slower progress than others; to be left at a disadvantage
+- spell out (phrasal verb): to explain something clearly and in detail
 - have a say in (phrase): to be allowed to give your opinion on a decision
-- make something clear (phrase): to show or state something so that it is understood
 - whatever happens next (phrase): no matter what the result is
+- face pressure to (phrase): to be pushed by circumstances to do something
 
 === Advanced ===
 
@@ -68,7 +69,7 @@ At Lycée Paul Éluard in Saint-Denis, north of Paris, complaints about inadequa
 
 The demonstrations expose a difficult tension in France's understanding of public education. Schools are supposed to embody republican equality, offering children opportunities that do not depend on their parents' income or postcode. Yet pupils argue that shortages and deteriorating infrastructure are not distributed evenly. When one school repeatedly cancels lessons and another is adequately staffed, the promise of equal opportunity becomes increasingly hard to defend.
 
-The government's response has included a pledge to deploy 3,000 additional replacement teachers. That may alleviate immediate disruption, but campaigners insist that stopgap staffing arrangements cannot make up for sustained underinvestment. Ministers face another political constraint: pressure to contain public expenditure and debt. Better recruitment, maintenance and classroom support require money, while competing priorities make additional spending contentious. The dispute is therefore as much about national choices as it is about local school conditions.
+The government's response has included a pledge to roll out 3,000 additional replacement teachers. That may alleviate immediate disruption, but campaigners insist that stopgap staffing arrangements cannot make up for sustained underinvestment. Ministers face another political constraint: pressure to contain public expenditure and debt. Better recruitment, maintenance and classroom support require money, while competing priorities make additional spending contentious. The protests have laid bare the effects of years of underinvestment, so the dispute is as much about national choices as it is about local school conditions.
 
 Policing has become a further source of controversy. Most demonstrations have been peaceful, but confrontations have produced injuries and arrests, and campaigners have accused officers of excessive force. Authorities point to incidents of violence and the need to maintain public order. These competing accounts underline the difficulty of policing a movement involving teenagers, many of whom are encountering organised political activism for the first time. The debate has widened from educational standards to the limits of protest and the state's responsibility towards young citizens.
 
@@ -80,8 +81,9 @@ There is an uncomfortable paradox at the heart of the strikes. By refusing to at
 - contentious (adjective): likely to cause disagreement
 - passive (adjective): accepting what happens without acting or responding
 - fall short of (phrasal verb): to fail to reach a standard or level
-- point to (phrasal verb): to mention something as evidence
 - make up for (phrasal verb): to replace or compensate for something lost
+- roll out (phrasal verb): to make something available gradually in more places
+- lay bare (phrase): to reveal an unpleasant truth very clearly
 - the status quo (phrase): the way things are now
 - at the heart of (phrase): the most important part of something
 - a voice in (phrase): the right to be heard in a decision

@@ -34,9 +34,9 @@ Affordable clothes are important, especially for families on limited budgets. Th
 
 === Intermediate ===
 
-The bag of clothes outside a charity shop looks like a small good deed. Someone has cleared out a wardrobe, hoping the items will find new owners and raise money for a good cause. Yet charities are increasingly discovering that many donations cannot be sold. Cheap, damaged or poorly made clothes may end up costing money to dispose of, turning a generous gesture into an unexpected expense.
+The bag of clothes outside a charity shop looks like a small good deed. Someone has cleared out a wardrobe, hoping to give clothes a second life and raise money for a good cause. Yet charities are increasingly discovering that many donations cannot be sold. Cheap, damaged or poorly made clothes may end up costing money to dispose of, turning a generous gesture into an unexpected expense.
 
-In October 2026, reporting from a hospice charity in south London described donations arriving in enormous quantities. Staff sometimes received up to 100 bags a day, while only around a quarter of the contents were suitable for resale. The rest had to be sorted and dealt with, using staff time and money that could otherwise support charitable services. Meanwhile, resale apps allow people to sell their best-quality items directly, which may leave charity shops with a greater share of unwanted clothing.
+In October 2026, reporting from a hospice charity in south London described donations arriving in enormous quantities. Staff sometimes received up to 100 bags a day, while only around a quarter of the contents were suitable for resale. The rest had to be sorted and dealt with, using staff time and money that could otherwise support charitable services. Meanwhile, resale apps allow people to sell their best-quality items directly, which may leave charity shops with a greater share of unwanted clothing. Donating fewer, better-quality items would help ease the pressure on charity shops.
 
 The situation reflects the growth of fast fashion, an industry built around low prices and rapidly changing trends. Clothing can be advertised online, bought within seconds and replaced before it has worn out. Social media encourages impulse purchases by showing shoppers a constant stream of new looks. In its 2026 State of Style report, Oxfam found that 64% of people surveyed in Britain had bought clothes they were not actively looking for after seeing something online. The charity also estimated that nearly a third of clothing in British wardrobes was never worn.
 
@@ -54,8 +54,8 @@ Consumers can make a difference by buying less often, repairing clothes and choo
 - clear out (phrasal verb): to remove things you no longer want from a place
 - end up (phrasal verb): to finally be in a situation you did not plan
 - wear out (phrasal verb): to become damaged and unusable through use
-- a good deed (phrase): a kind or helpful act
-- a good cause (phrase): a charity or purpose worth supporting
+- give clothes a second life (phrase): to make unwanted clothes useful again
+- ease the pressure on (phrase): to reduce the difficulty or burden affecting someone or something
 - make a difference (phrase): to have a positive effect
 
 === Advanced ===
@@ -69,7 +69,7 @@ Reporting in October 2026 described the pressure on St Raphael's Hospice in sout
 
 Oxfam's 2026 State of Style report illustrates how consumption has become entwined with digital influence. Nearly two-thirds of people surveyed had purchased clothing they had not intended to buy after encountering it online, and 32% of items in British wardrobes were reportedly never worn. Among younger adults, algorithmic recommendations exerted an especially strong influence. Clothing is increasingly marketed not as a durable possession but as a quick response to a passing mood, event or online trend.
 
-The environmental consequences extend well beyond household clutter. Textile production consumes substantial water, energy and raw materials, while synthetic fibres and complex fabric blends complicate recycling. A garment may move from retailer to wardrobe to donation bag within months, despite having required extensive resources to manufacture and transport. Resale and donation can prolong the useful life of clothing, but they cannot make excessive production environmentally harmless.
+The environmental consequences extend well beyond household clutter. Textile production consumes substantial water, energy and raw materials, while synthetic fibres and complex fabric blends complicate recycling. A garment may filter through the system from retailer to wardrobe to donation bag within months, despite having required extensive resources to manufacture and transport. Resale and donation can prolong the useful life of clothing, but they cannot make excessive production environmentally harmless.
 
 European policymakers have begun to intervene. Since July 2026, large companies have faced a prohibition on destroying most unsold apparel and footwear, with defined exceptions. The measure is intended to encourage resale, repair and reuse rather than disposal of perfectly serviceable goods. It marks a shift towards holding businesses responsible for what happens after products fail to sell, although it does not directly challenge the relentless pace at which new collections are launched.
 
@@ -80,7 +80,7 @@ There is a danger in presenting individual shoppers as the sole cause of the pro
 - reassuring (adjective): making you feel less worried
 - relentless (adjective): never stopping or becoming less intense
 - serviceable (adjective): in good enough condition to be used
-- pass on (phrasal verb): to give something to another person
+- filter through (phrasal verb): to move gradually through a system or series of stages
 - eat into (phrasal verb): to use up part of something valuable, such as money or time
 - keep up (phrasal verb): to continue something at the same level
 - fit for sale (phrase): in good enough condition to be sold

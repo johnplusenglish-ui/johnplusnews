@@ -41,7 +41,7 @@ Greece argues that the surviving pieces should be reunited in Athens, close to t
 
 The British Museum argues that displaying objects from different civilisations side by side encourages visitors to make connections across cultures. Its trustees also regard the marbles as legally held. Under legislation passed in 1963, the museum is generally unable to give away objects from its collection. This makes a permanent return difficult without a change to the law or some other agreement.
 
-Discussions have gone on, including proposals for a partnership involving loans or the temporary movement of objects between London and Athens. In October 2026, British Museum chairman George Osborne expressed hope that an arrangement could still be reached, suggesting that the sculptures might spend periods in both countries. Such a plan could bring the pieces to Athens, but Greece has resisted any deal that appears to require it to recognise British ownership.
+Discussions have dragged on for years and have included proposals for a partnership involving loans or the temporary movement of objects between London and Athens. In October 2026, British Museum chairman George Osborne expressed hope that an arrangement could still be reached, suggesting that the sculptures might spend periods in both countries. Such a plan could bring the pieces to Athens, but Greece has resisted any deal that appears to require it to recognise British ownership.
 
 The dispute reflects a much wider question facing major museums. Many collections include objects acquired during wars, colonial rule or periods when local people had little political power. Returning them may help put right historic injustices, while international museums argue that their collections have educational value. There is no solution that satisfies everyone. But the Parthenon debate has made one thing clear: the stories museums tell are shaped not only by what they display but also by who gets to decide where those objects belong.
 
@@ -50,7 +50,7 @@ The dispute reflects a much wider question facing major museums. Many collection
 - educational (adjective): providing knowledge or learning
 - historic (adjective): important in history
 - original (adjective): existing at the beginning; first
-- go on (phrasal verb): to continue
+- drag on (phrasal verb): to continue for longer than expected or wanted
 - split up (phrasal verb): to divide something into parts
 - put right (phrasal verb): to correct a mistake or an injustice
 - another matter entirely (phrase): a completely different and more difficult question
@@ -70,7 +70,7 @@ Greek governments have long maintained that the marbles belong with the remainin
 
 The British Museum counters that its international displays place ancient Greek civilisation in dialogue with other cultures. Trustees also face a significant statutory obstacle. The British Museum Act 1963 severely restricts the disposal of objects from the collection, meaning that a permanent transfer would be legally complicated. Successive discussions have therefore explored partnership arrangements, including reciprocal loans. In October 2026, chairman George Osborne outlined his hope for a rotating arrangement under which sculptures might spend time in both Athens and London.
 
-The practical appeal of such a compromise is clear, but it does not clear up the central disagreement. A loan generally assumes that the lender owns what it is lending, an assumption Greece has been reluctant to accept. The dispute is consequently about language and recognition as much as physical possession. An agreement that appears generous in London could still seem to Athens like a demand to legitimise an earlier removal.
+The practical appeal of such a compromise is clear, but it does not iron out the central disagreement. A loan generally assumes that the lender owns what it is lending, an assumption Greece has been reluctant to accept. The dispute is consequently about language and recognition as much as physical possession. An agreement that appears generous in London could still seem to Athens like a demand to legitimise an earlier removal.
 
 The broader implications extend through museum collections worldwide. Artefacts acquired under empire, unequal treaties or military occupation come under renewed scrutiny, while arguments about universal access retain genuine force. Each case has its own legal and historical circumstances, making sweeping solutions difficult. What the Parthenon debate reveals is that museums are not neutral storehouses of the past. Their collections reflect decisions about power and possession, and those decisions remain open to challenge long after the people who made them are gone.
 
@@ -80,7 +80,7 @@ The broader implications extend through museum collections worldwide. Artefacts 
 - inseparable (adjective): impossible to separate from something
 - sweeping (adjective): too general; covering everything at once
 - trace back to (phrasal verb): to have its origin in a past time or event
-- clear up (phrasal verb): to settle a question or disagreement
+- iron out (phrasal verb): to resolve the remaining details or disagreements in a plan
 - come under (phrasal verb): to be subjected to something, such as criticism or examination
 - by the standards of (phrase): judged according to what was normal at a particular time
 - in dialogue with (phrase): in a meaningful exchange or comparison with

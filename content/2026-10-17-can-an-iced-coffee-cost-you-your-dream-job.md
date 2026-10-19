@@ -42,9 +42,9 @@ The response revealed a familiar clash of expectations between generations. Some
 
 Workplace etiquette has changed considerably. Tattoos, trainers and informal emails are no longer automatically seen as unacceptable in many industries. Remote interviews have brought their own awkward questions about backgrounds, cameras and what counts as suitable clothing. Young applicants are expected to adapt, but the rules are rarely written down. It is hardly surprising that a 30-minute interview can feel like a complicated test of social behaviour rather than an opportunity to demonstrate skills.
 
-There is evidence that initial impressions can influence how interviewers evaluate later answers. This matters because those impressions are not always related to performance. The Chartered Institute of Personnel and Development recommends structured interviews, with consistent questions and agreed scoring criteria, as a way to improve fairness. An employer who judges a candidate largely on their drink could overlook someone excellent, while rewarding another person for knowing the unspoken rules of the room.
+There is evidence that initial impressions can influence how interviewers evaluate later answers. This matters because those impressions are not always related to performance. The Chartered Institute of Personnel and Development recommends structured interviews, with consistent questions and agreed scoring criteria, as a way to improve fairness. An employer who judges a candidate largely on their drink could overlook someone excellent, while rewarding another person for knowing the unspoken rules of the room. Interviewers should look past superficial details and focus on what candidates can actually do.
 
-There is practical advice for applicants nevertheless. Research the company, prepare thoughtful examples of your work and avoid anything that might distract you during the conversation. Leaving the iced coffee outside a particularly formal interview is an easy way to err on the side of caution. But the controversy also asks something of employers. If finding talent is the purpose of recruitment, perhaps they should be more interested in what candidates know than what they are carrying.
+There is practical advice for applicants nevertheless. Research the company, prepare thoughtful examples of your work and avoid anything that might distract you during the conversation. Leaving the iced coffee outside a particularly formal interview is an easy way to play it safe. But the controversy also asks something of employers. If finding talent is the purpose of recruitment, perhaps they should be more interested in what candidates know than what they are carrying.
 
 === Intermediate language ===
 
@@ -53,20 +53,20 @@ There is practical advice for applicants nevertheless. Research the company, pre
 - awkward (adjective): difficult to deal with; causing embarrassment
 - work against (phrasal verb): to make success less likely for someone
 - squeeze into (phrasal verb): to fit something into a small space or a busy schedule
-- write down (phrasal verb): to record something in writing
+- look past (phrasal verb): to ignore a superficial detail and consider what is more important
 - hardly surprising (phrase): not surprising at all
 - the unspoken rules (phrase): rules that everyone is expected to know even though nobody states them
-- err on the side of caution (phrase): to choose the safer option when you are not sure
+- play it safe (phrase): to choose the least risky option
 
 === Advanced ===
 
 summary: A recruiter's warning about takeaway coffee at interviews exposed an awkward truth: the unwritten rules of hiring may say more about employers than about candidates.
 
-For anyone already nervous about a job interview, the modern recruitment process offers a bewildering range of potential mistakes. Arrive too early and you appear overeager. Dress too formally and you may look out of place. Forget to research the interviewer and you risk seeming unprepared. In September 2026, the list acquired an unlikely addition: the iced latte. A Florida recruiter's warning against arriving with takeaway coffee set off an argument about professionalism, generational stereotypes and the increasingly elaborate rules imposed on young jobseekers.
+For anyone already nervous about a job interview, the modern recruitment process offers a bewildering range of potential mistakes. Arrive too early and you appear overeager. Dress too formally and you may look out of place. Forget to research the interviewer and you risk seeming unprepared. In September 2026, the list acquired an unlikely addition: the iced latte. A Florida recruiter's warning against arriving with takeaway coffee gave rise to an argument about professionalism, generational stereotypes and the increasingly elaborate rules imposed on young jobseekers.
 
 Caitlin Wehniainen, a recruitment specialist with 16 years' experience, suggested that carrying an iced coffee into a formal corporate interview could convey the wrong impression. Rather than appearing focused on an important opportunity, a candidate might look as though the meeting were another stop between errands. Her comments prompted a spirited backlash, with critics asking why an ordinary drink should overshadow somebody's ability to perform a job. Wehniainen subsequently played down her comments, emphasising that her advice was contextual, not a blanket prohibition. What counts as appropriate varies enormously between industries, organisations and individual roles.
 
-The controversy was amusing, but it exposed an awkward contradiction in recruitment. Employers insist they want independent thinkers with confidence and initiative, yet applicants are often encouraged to demonstrate their suitability by observing unwritten conventions. These may include how to dress, when to speak, whether to send a follow-up email and apparently how to consume caffeine. Such expectations can act as cultural filters, favouring candidates already familiar with particular professional environments. A small detail becomes a proxy for seriousness, even where there is little evidence that it predicts performance.
+The controversy was amusing, but it exposed an awkward contradiction in recruitment. Employers insist they want independent thinkers with confidence and initiative, yet applicants are often encouraged to demonstrate their suitability by sticking to unwritten conventions. These may include how to dress, when to speak, whether to send a follow-up email and apparently how to consume caffeine. Such expectations can act as cultural filters, favouring candidates already familiar with particular professional environments. A small detail becomes a proxy for seriousness, even where there is little evidence that it predicts performance.
 
 There are legitimate reasons to pay attention to interview conduct. Turning up punctually, treating staff respectfully and listening to questions can reveal something about reliability and interpersonal skills. But professional norms are not fixed. Visible tattoos, informal clothing and remote working were once viewed far more suspiciously than they are now. A practice considered disrespectful by one manager may barely register with another. As younger workers enter the labour market, debates about manners often conceal deeper disagreements over authority, conformity and who gets to define an acceptable professional identity.
 
@@ -79,9 +79,10 @@ Candidates would still be wise to read the room. Bringing a drink to an informal
 - bewildering (adjective): very confusing
 - overeager (adjective): too keen or enthusiastic, in a way that can seem desperate
 - legitimate (adjective): reasonable and acceptable; allowed by the rules
-- set off (phrasal verb): to cause something, such as an argument or a reaction, to begin
 - play down (phrasal verb): to make something seem less important than it is
 - turn on (phrasal verb): to depend on one particular thing
+- stick to (phrasal verb): to keep following a rule or plan
+- give rise to (phrase): to cause something to happen or begin
 - a proxy for (phrase): something used as a stand-in or substitute measure for something else
 - a golden age (phrase): a period in the past imagined as better than today
 - read the room (phrase): to sense the mood of the people around you and act accordingly

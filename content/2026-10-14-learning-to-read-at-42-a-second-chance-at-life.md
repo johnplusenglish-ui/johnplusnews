@@ -64,7 +64,7 @@ summary: For more than four decades, Peter Lloyd navigated a world of written in
 
 The trouble began in the dairy aisle. Peter Lloyd, a lorry driver from Lancashire, was trying to buy milk suitable for his wife and son, both of whom had allergies. Surrounded by cartons covered in information he could barely decipher, he realised how easily a routine errand could become a serious mistake. He was 42, with a job and a family, but he had spent much of his life covering up the fact that he struggled to read.
 
-Partially deaf from birth, Peter had found the classroom an unforgiving place. Competing voices made lessons difficult to follow, and a move to another school failed to provide the support he needed. He left education at 16 without qualifications, carrying into adulthood a problem that society often treats as a personal failure. Yet his working life demonstrated considerable ingenuity. He learnt routes through visual memory, recognised landmarks and relied on technology and his wife's help to negotiate paperwork. What looked like independence was sustained by an elaborate system of workarounds.
+Partially deaf from birth, Peter had found the classroom an unforgiving place. Competing voices made lessons difficult to follow, and a move to another school failed to provide the support he needed. He left education at 16 without qualifications, carrying into adulthood a problem that society often treats as a personal failure. Yet his working life demonstrated considerable ingenuity. He learnt routes through visual memory, recognised landmarks and relied on technology and his wife's help to negotiate paperwork. Most people take reading for granted, and few notice the elaborate system of workarounds that sustained what looked like independence.
 
 The supermarket incident occurred during the Covid lockdowns and stripped away the reassurance those strategies had provided. Peter could no longer brush aside the practical risks of not understanding written information. Encouraged by his wife, he contacted Read Easy, an adult-literacy charity, despite the disappointment of previous attempts to learn. He was paired with a volunteer coach, Alison, who offered regular one-to-one sessions and something Peter had rarely experienced at school: the freedom to progress without embarrassment.
 
@@ -82,7 +82,7 @@ Adult literacy is frequently misunderstood. People may have limited reading skil
 - cover up (phrasal verb): to hide a fact or a mistake
 - strip away (phrasal verb): to remove something, especially a protective layer
 - brush aside (phrasal verb): to refuse to consider something seriously
-- treat something as (phrase): to think of or deal with something in a particular way
+- take something for granted (phrase): to assume something will always be available without appreciating it
 - from cover to cover (phrase): from the first page of a book to the last
 - in itself (phrase): considered alone, without anything else
 

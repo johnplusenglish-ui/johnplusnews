@@ -68,7 +68,7 @@ The decade has taken on a mythology as the last truly analogue period, when phot
 
 Cultural revivals have always worked this way. Fashion regularly borrows from earlier periods, stripping familiar objects of their original associations before presenting them as desirable again. The current interest in Britpop, grainy photography and physical music formats combines that familiar cycle with a sharper reaction against digital convenience. A CD must be chosen and played; a film photograph cannot be immediately deleted. The extra effort, once considered a disadvantage, has become part of the attraction.
 
-The danger is that aesthetic nostalgia can flatten history into a collection of attractive images. Britain in the 1990s produced extraordinary music, design and art, but the decade also contained economic inequality and cultural exclusions. Beyond Britain, wars in the Balkans, the genocide in Rwanda and the continuing devastation of AIDS make any claim that the era was carefree difficult to sustain. Even the apparent freedom from digital surveillance came at the cost of slower communication and reduced access to information for many people.
+The danger is that aesthetic nostalgia can turn history into a collection of attractive images. Britain in the 1990s produced extraordinary music, design and art, but the decade also contained economic inequality and cultural exclusions. Beyond Britain, wars in the Balkans, the genocide in Rwanda and the continuing devastation of AIDS make any claim that the era was carefree difficult to sustain. Even the apparent freedom from digital surveillance came at the cost of slower communication and reduced access to information for many people.
 
 Tate's exhibition, curated by Edward Enninful, offers an opportunity to revisit the decade as a contested cultural moment rather than a collection of fashionable accessories. Artists and photographers explored questions of class, identity, race and representation that remain urgent today. Looking closely at their work complicates the idea that the period was simply more innocent or authentic. Some of the tensions that shape present-day debates were already visible, even if they were expressed through different media.
 
@@ -83,8 +83,8 @@ Perhaps the renewed enthusiasm for the 1990s tells us less about what life was a
 - piece together (phrasal verb): to build a picture of something from separate parts
 - turn something into (phrasal verb): to change something so that it becomes something else
 - come at the cost of (phrase): to be achieved only by losing something else
-- not so much (phrase): used to say that one description fits better than another
-- a reminder that (phrase): something that makes you remember or notice a fact
+- not so much X as Y (phrase): used to say that one description is less accurate than another
+- turn attention into a valuable commodity (phrase): to make people's attention into something that can be bought and sold
 
 === Before you read ===
 

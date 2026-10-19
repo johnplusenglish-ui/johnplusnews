@@ -41,11 +41,11 @@ The brothers began posting videos when business was difficult during the pandemi
 
 SpudBros is part of a much wider trend. A recommendation from the right content creator can transform an ordinary café into the place everybody suddenly wants to visit. In London, popular bakeries, frozen yoghurt shops and takeaway businesses have found themselves dealing with queues that stretch along the pavement. For owners facing rising rents and food costs, this kind of attention can be a lifeline. Free publicity may achieve what an expensive advertising campaign could not.
 
-But going viral creates problems of its own. Staff may struggle to keep up with demand, regular customers can feel pushed aside, and neighbourhoods have to deal with crowds that arrive almost overnight. Restaurants also risk disappointing visitors whose expectations have been raised by carefully filmed videos. A perfectly good meal may seem underwhelming after somebody has travelled three hours and stood in line for another two.
+But going viral creates problems of its own. Staff may struggle to keep up with demand, regular customers can feel pushed aside, and neighbourhoods have to deal with crowds that arrive almost overnight. Restaurants also risk disappointing visitors whose expectations have been raised by carefully filmed videos. A perfectly good meal may seem underwhelming after somebody has travelled three hours and then queued for hours.
 
 There is a psychological element to all this. People are more likely to become interested in something when they can see that others want it. A long queue acts as a public recommendation, while posting a photograph proves that you were part of the moment. Some customers probably care just as much about the story they can tell afterwards as the meal they have bought. Restaurants are not simply selling food; increasingly, they are selling an experience that can be shared online.
 
-The Nelson brothers have shown how much a small business can achieve by understanding that world. But their success also reveals its limits. Online attention is unpredictable, and even the most enthusiastic followers eventually move on. For customers, the more interesting question is whether the potato would still be worth buying without the camera, the famous visitors or the queue. Perhaps the test of a good lunch is whether you would come back when nobody is filming.
+The Nelson brothers have shown how much a small business can achieve by understanding that world. But their success also reveals its limits. Online attention is unpredictable, and even the most enthusiastic followers eventually move on. For customers, the more interesting question is whether the potato would still be worth buying without the camera, the famous visitors or the queue. Perhaps the test of a good lunch is whether you would return for more when nobody is filming.
 
 === Intermediate language ===
 
@@ -54,10 +54,11 @@ The Nelson brothers have shown how much a small business can achieve by understa
 - unpredictable (adjective): impossible to know in advance
 - keep up with (phrasal verb): to manage to deal with something that is moving fast
 - push aside (phrasal verb): to treat someone as unimportant
-- come back (phrasal verb): to return
+- turn into (phrasal verb): to change and become something else
+- return for more (phrase): to come back because you want the same experience again
 - owe something to (phrase): to have something because of a particular cause
 - a lifeline (phrase): something that saves a person or business from serious difficulty
-- stand in line (phrase): to wait in a queue
+- queue for hours (phrase): to wait in a queue for a long time
 
 === Advanced ===
 
@@ -84,8 +85,8 @@ None of this means the food is poor or that customers are foolish. SpudBros has 
 - come about (phrasal verb): to happen, especially by chance
 - put up with (phrasal verb): to tolerate something unpleasant
 - in the spotlight (phrase): receiving a lot of public attention
-- all at once (phrase): at the same time; suddenly
-- a spell of (phrase): a short period of
+- cultural participation (phrase): taking part in a shared cultural activity or moment
+- a brief spell of internet celebrity (phrase): a short period of being famous online
 
 === Before you read ===
 

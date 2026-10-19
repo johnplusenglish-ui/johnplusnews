@@ -11,7 +11,7 @@ summary: Smart glasses can help people with disabilities, but some people worry 
 
 Imagine putting on glasses that can read a menu aloud, tell you what is in front of you or turn someone's speech into words on a small screen. These glasses already exist. Smart glasses contain technology such as cameras, microphones and artificial intelligence. They look like ordinary glasses, but some can record videos or give information without the wearer taking out a phone.
 
-For people with disabilities, the technology can be extremely useful. Chris Edwards, an Australian man who is blind, uses smart glasses to read recipes, check household equipment and find his way around with his guide dog. Matt Henderson, who has been deaf since birth, uses glasses that show written words during meetings. Both say the devices help them feel more independent.
+For people with disabilities, the technology can be extremely useful. Chris Edwards, an Australian man who is blind, uses smart glasses to read recipes, check household equipment and find his way around with his guide dog. Matt Henderson, who has been deaf since birth, uses glasses that show written words during meetings. Both say the devices help them live more independently.
 
 But other people are worried. Some smart glasses can record video without everyone nearby noticing. Someone might be filmed at school, at work or in a changing room without knowing about it. Cheap devices may also have security problems, leaving recordings or personal information open to hackers. These concerns have led to calls for stronger rules in Australia.
 
@@ -21,13 +21,13 @@ People on both sides have important concerns. Everyone should be able to know wh
 
 === Core language ===
 
-- independent (adjective): able to live and act without help from others
+- harmful (adjective): causing damage or harm
 - temporary (adjective): lasting only for a limited time
 - secret (adjective): kept hidden from other people
 - put on (phrasal verb): to place clothing or glasses on your body
 - take out (phrasal verb): to remove something from a pocket or bag
 - take away (phrasal verb): to remove something from someone
-- in front of (phrase): directly ahead of
+- live more independently (phrase): to manage more of daily life without help from other people
 - come into force (phrase): to start to apply, used of a law or rule
 - find your way around (phrase): to learn how to move about in a place
 
@@ -62,13 +62,13 @@ Neither side has an easy solution. Clear recording indicators, stronger security
 title: A Threat to Privacy or a Lifeline? The Smart Glasses Dividing Australia
 summary: As politicians consider restrictions on wearable technology capable of recording unsuspecting strangers, disability advocates warn that a crackdown could deprive thousands of people of newfound independence.
 
-To critics, smart glasses are an unsettling development in everyday surveillance: cameras concealed inside familiar frames, capable of recording people who may have no idea they are being filmed. To some Australians with disabilities, the same devices represent a profound gain in independence. That tension has spilled over from a technological debate into national politics, with proposals to restrict imports prompting warnings about the unintended consequences of protecting privacy.
+To critics, smart glasses are an unsettling development in everyday surveillance: cameras concealed inside familiar frames, capable of recording people who may have no idea they are being filmed. To some Australians with disabilities, the same devices represent a profound gain in independence. That tension has spilled over from a technological debate into national politics, with proposals to crack down on imports prompting warnings about the unintended consequences of protecting privacy.
 
 Chris Edwards, who is blind and works with Vision Australia, uses AI-enabled glasses to obtain information that sighted people often take for granted. The devices can read recipes, describe household controls and provide directions while he walks with his guide dog. Matt Henderson, who has been deaf since birth, uses glasses that display live captions, allowing him to participate more confidently in professional meetings. For both men, hands-free access to information reduces reliance on other people and makes routine activities less demanding.
 
 Yet the accessibility benefits coexist with a genuine security problem. Miniaturised cameras can blur the distinction between looking at someone and recording them. In sensitive environments, including schools, workplaces and changing rooms, the prospect of covert footage throws up obvious concerns about consent. Cheap devices may also lack adequate safeguards against unauthorised access. As wearable technology becomes less conspicuous, the social signals that normally indicate recording become increasingly unreliable.
 
-The Australian Greens proposed legislation in 2026 calling for a temporary prohibition on imports of camera-enabled wearable devices, with exemptions for genuine disability aids and additional privacy safeguards. The federal government, however, said it was not planning an import ban and was pursuing broader privacy reforms. The measure was therefore a political proposal, not an existing national prohibition. Its significance lay partly in setting off a public discussion about whether current laws can keep pace with recording technology that is becoming both cheaper and harder to recognise.
+The Australian Greens proposed legislation in 2026 calling for a temporary prohibition on imports of camera-enabled wearable devices, with exemptions for genuine disability aids and additional privacy safeguards. The federal government, however, said it was not planning an import ban and was pursuing broader privacy reforms. The measure was therefore a political proposal, not an existing national prohibition. Its significance lay partly in giving rise to a public discussion about whether current laws can keep pace with recording technology that is becoming both cheaper and harder to recognise.
 
 Disability organisations have been alarmed by rhetoric portraying the glasses primarily as instruments of voyeurism. A device that helps someone navigate a supermarket or understand a conversation should not become a source of suspicion or stigma. Equally, accessibility cannot be invoked as a blanket justification for unrestricted recording. Any sensible approach must distinguish between legitimate assistive functions and the misuse of cameras or personal data, while acknowledging that the boundary may not always be obvious to bystanders.
 
@@ -80,8 +80,9 @@ The most credible regulatory options include clearer recording indicators, minim
 - blanket (adjective): applying to everything without exceptions
 - foolproof (adjective): so well designed that it cannot fail
 - spill over (phrasal verb): to spread from one area into another
-- set off (phrasal verb): to cause something to start, such as a debate
 - throw up (phrasal verb): to produce or reveal something, such as a problem
+- crack down on (phrasal verb): to start dealing more strictly with something harmful or illegal
+- give rise to (phrase): to cause something to happen or begin
 - take something for granted (phrase): to accept something without noticing how lucky you are to have it
 - keep pace with (phrase): to change as fast as something else is changing
 - unintended consequences (phrase): results that nobody planned or expected

@@ -45,7 +45,7 @@ Supporters argue that research into gene editing and reproduction could produce 
 
 Critics question the priorities. De-extinction projects attract publicity and investment partly because famous animals are involved. Meanwhile, many less glamorous species are disappearing right now. Some researchers also object to the word 'resurrection', which suggests an exact return that current technology cannot deliver. They argue that a genetically modified relative would be a new creation rather than the original species brought back to life.
 
-The dodo project remains an experiment with an uncertain outcome. Its value may eventually lie in techniques developed along the way rather than in producing a perfect copy of an extinct bird. Even so, the ambition forces us to confront an uncomfortable question about conservation. If we can spend enormous resources trying to reverse one historic loss, how much should we spend preventing the ordinary, less famous losses taking place around us today?
+The dodo project is only beginning to take shape and remains an experiment with an uncertain outcome. Its value may eventually lie in techniques developed along the way rather than in producing a perfect copy of an extinct bird. Even so, the ambition forces us to confront an uncomfortable question about conservation. If we can spend enormous resources trying to reverse one historic loss, how much should we spend preventing the ordinary, less famous losses taking place around us today?
 
 === Intermediate language ===
 
@@ -57,7 +57,7 @@ The dodo project remains an experiment with an uncertain outcome. Its value may 
 - pick out (phrasal verb): to choose or identify something from a group
 - bring back to life (phrase): to make something live or exist again
 - have little chance of (phrase): to be unlikely to achieve something
-- take place (phrase): to happen
+- take shape (phrase): to begin to develop into a clear form
 
 === Advanced ===
 
@@ -67,9 +67,9 @@ Few animals have acquired the dodo's symbolic importance. An ungainly, flightles
 
 Colossal says it has reconstructed approximately 95% of the extinct bird's genome and developed an AI-assisted system to identify genetic changes associated with anatomical traits, particularly the unusual shape of its head and beak. Its proposed route involves introducing selected changes into a living relative, the Nicobar pigeon, and addressing the formidable reproductive challenges involved in producing genetically modified birds. These are genuine areas of technical research, but no recreated dodo has emerged, and the distance between identifying promising genetic targets and producing a viable animal remains considerable.
 
-The deeper difficulty is conceptual. A species is not simply a list of instructions waiting to be put back together. Genes interact with development, behaviour, environment and the experience of generations. A bird engineered to resemble the dodo might share some physical characteristics with its extinct ancestor without reproducing its full biology or ecological role. For this reason, a number of evolutionary biologists argue that 'de-extinction' is a misleading description. A proxy species, however remarkable, should not be confused with the recovery of an organism that has genuinely vanished.
+The deeper difficulty is conceptual. Scientists may be able to piece together a genetic approximation of the bird, but a species is not simply a list of instructions waiting to be reassembled. Genes interact with development, behaviour, environment and the experience of generations. A bird engineered to resemble the dodo might share some physical characteristics with its extinct ancestor without reproducing its full biology or ecological role. For this reason, a number of evolutionary biologists argue that 'de-extinction' is a misleading description. A proxy species, however remarkable, should not be confused with the recovery of an organism that has genuinely vanished.
 
-There is also a practical question about what such a bird would do once created. Mauritius has changed profoundly since the dodo's disappearance. Introduced predators, habitat destruction and other human influences helped drive the original species towards extinction. Releasing a dodo-like bird without dealing with those pressures would make little ecological sense. Colossal says it is collaborating with Mauritian partners on habitat preparation, a reminder that restoration depends as much on ordinary conservation work as on sophisticated genetics.
+There is also a practical question about what such a bird would do once created. Mauritius has changed profoundly since the dodo's disappearance. Introduced predators, habitat destruction and other human influences helped drive the original species towards extinction. Releasing a dodo-like bird without grappling with those pressures would make little ecological sense. Colossal says it is collaborating with Mauritian partners on habitat preparation, a reminder that restoration depends as much on ordinary conservation work as on sophisticated genetics.
 
 Advocates see wider benefits in the research. Methods developed for gene editing, reproduction and the preservation of genetic diversity might eventually help threatened species. Critics counter that spectacular resurrection projects attract disproportionate attention and resources while existing wildlife faces immediate and measurable dangers. Both arguments have merit, although the potential benefits of experimental biotechnology should not be mistaken for benefits already demonstrated in conservation programmes.
 
@@ -80,8 +80,8 @@ For now, the dodo belongs to history rather than to the forests of Mauritius. Th
 - ungainly (adjective): moving in an awkward way; not graceful
 - viable (adjective): able to work or survive successfully
 - disproportionate (adjective): too large or too small compared with something else
-- put back together (phrasal verb): to reassemble something from its parts
-- deal with (phrasal verb): to take action to solve a problem
+- piece together (phrasal verb): to reconstruct something gradually from incomplete parts or evidence
+- grapple with (phrasal verb): to try hard to understand or solve a difficult problem
 - do away with (phrasal verb): to get rid of something completely
 - shorthand for (phrase): a short, simple way of referring to something larger
 - have merit (phrase): to be worth considering; to have good qualities

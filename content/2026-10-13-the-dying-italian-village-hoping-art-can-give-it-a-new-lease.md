@@ -69,7 +69,7 @@ Founded in Etruscan times, Civita has survived political upheaval and centuries 
 
 An answer, or at least a new experiment, came along in October 2026 when Civita and nearby Bolsena were jointly designated Italy's Capital of Contemporary Art for 2028. Their proposal, "Arte che viene, arte che va", won against entries from Capri, Padua and Pozzuoli, securing a million euros of public funding. The scheme envisages more than temporary exhibitions. Its ambitions include creative infrastructure, collaboration with educational institutions and opportunities for younger artists to engage with the region.
 
-The choice reflects an increasingly influential view of culture as a tool for regional development. A well-designed programme can bring in investment, new partnerships and year-round activity to places otherwise known largely for their heritage. Contemporary art may also challenge the tendency to treat historic villages as finished objects, picturesque surroundings to be consumed rather than communities capable of change. Yet cultural projects often struggle to convert short-term attention into durable economic opportunities.
+The choice reflects a view of culture as a tool for regional development that has gained traction in recent years. A well-designed programme can bring in investment, new partnerships and year-round activity to places otherwise known largely for their heritage. Contemporary art may also challenge the tendency to treat historic villages as finished objects, picturesque surroundings to be consumed rather than communities capable of change. Yet attention does not always translate into durable economic opportunities.
 
 Civita's particular vulnerability makes this tension sharper. Art can stimulate discussion and attract resources, but it cannot remedy the erosion of the volcanic material supporting the settlement. Conservation and engineering remain indispensable, as does investment in the practical conditions that enable permanent residents to stay. There is a risk, too, that an increasingly celebrated village becomes more attractive to visitors and property investors than to people seeking an ordinary home.
 
@@ -81,8 +81,9 @@ The significance of the 2028 programme will therefore depend on what survives it
 - vibrant (adjective): full of life and energy
 - indispensable (adjective): absolutely necessary
 - cling to (phrasal verb): to hold tightly to something
-- come along (phrasal verb): to arrive or appear
+- translate into (phrasal verb): to lead to a particular practical result
 - bring in (phrasal verb): to attract or introduce something, such as money
+- gain traction (phrase): to begin attracting support or making progress
 - give rise to (phrase): to cause something
 - a magnet for (phrase): something that attracts many people
 - keep a community alive (phrase): to make sure people can go on living somewhere

@@ -45,7 +45,7 @@ Six participants showed what researchers considered a clinically meaningful impr
 
 Safety was the main purpose of the trial. Researchers recorded eye-related side effects, most of which were mild or moderate. One severe event occurred immediately after an injection, but it was treated and resolved within minutes. The study was also small and had no untreated comparison group. That makes it important not to exaggerate its results or suggest that the treatment is ready for general use.
 
-Nevertheless, the research represents a meaningful step forward. Rather than depending on the exact genetic cause of the disease, the method targets nerve cells that may survive several different forms of retinal damage. Further work will be needed to improve the images, test more patients and find out who might benefit most. For people who have lost their sight, the prospect of detecting an object or moving more confidently through a familiar room offers hope. The challenge is to turn those early gains into reliable improvements in everyday life.
+Nevertheless, the research represents a meaningful step forward. Rather than depending on the exact genetic cause of the disease, the method targets nerve cells that may survive several different forms of retinal damage. Further work will be needed to improve the images, test more patients and narrow down who might benefit most. For people who have lost their sight, the prospect of detecting an object or moving more confidently through a familiar room offers hope. The challenge is to turn those early gains into reliable improvements in everyday life.
 
 === Intermediate language ===
 
@@ -54,7 +54,7 @@ Nevertheless, the research represents a meaningful step forward. Rather than dep
 - reliable (adjective): able to be trusted to work or happen
 - carry out (phrasal verb): to do or complete a task
 - get around (phrasal verb): to find a way of avoiding a problem
-- find out (phrasal verb): to discover information
+- narrow down (phrasal verb): to reduce a set of possibilities until the best answer is clearer
 - a step forward (phrase): an improvement or progress
 - within minutes (phrase): very quickly, in only a few minutes
 - offer hope (phrase): to give people reason to expect something good
@@ -84,7 +84,7 @@ Medicine advances not only through spectacular recoveries but through the steady
 - build on (phrasal verb): to use something as a base for further development
 - translate into (phrasal verb): to result in; to lead to
 - in principle (phrase): in theory; as a general idea
-- a measure of (phrase): a certain amount of
+- invite sweeping headlines (phrase): to encourage broad, dramatic news claims
 - a considerable distance from (phrase): very different from; far from
 
 === Before you read ===

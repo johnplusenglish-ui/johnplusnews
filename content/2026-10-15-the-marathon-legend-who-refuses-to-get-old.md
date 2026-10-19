@@ -25,7 +25,7 @@ The race itself offered a reminder of his experience. He stayed with the leading
 
 There was another side to the day. Some ordinary participants complained that water stations ran out of drinks and that the event was overcrowded. Their experiences showed the difference between watching an elite athlete win and taking part in a huge public race. For many runners, simply reaching the finish line was a major achievement.
 
-Kipchoge's latest win does not mean that age has stopped affecting him. It does show that an athlete can remain competitive after the years when most people expect them to slow down. He has often spoken about the importance of discipline and enjoying the process of running. His Melbourne result offered a simple lesson: growing older may change what success looks like, but it need not mean giving up on ambitious goals.
+Kipchoge's latest win does not mean that age has stopped affecting him. It does show that an athlete can remain competitive, and keep testing their limits, after the years when most people expect them to slow down. He has often spoken about the importance of discipline and enjoying the process of running. His Melbourne result offered a simple lesson: growing older may change what success looks like, but it need not mean giving up on ambitious goals.
 
 === Core language ===
 
@@ -37,7 +37,7 @@ Kipchoge's latest win does not mean that age has stopped affecting him. It does 
 - break away (phrasal verb): to move ahead of the others in a race
 - go someone's way (phrase): to happen in the way someone wants
 - your best days are behind you (phrase): you will never be as successful as you once were
-- take part in (phrase): to join an activity or event with other people
+- test your limits (phrase): to discover the greatest effort or performance you are capable of
 
 === Intermediate ===
 
@@ -79,7 +79,7 @@ His success rested instead on judgement and control. He remained patient while t
 
 The spectacle also had an uncomfortable counterpoint. Numerous recreational runners complained of water shortages, congestion and inadequate facilities at an event whose appeal had extended well beyond its elite field. Their accounts raised legitimate questions about the responsibilities of organisers when participation grows faster than provision. A record-breaking winner may dominate the headlines, but a marathon's success is also measured by what happens to the less celebrated people behind him. For those runners, adequate drinking water is rather more pressing than the philosophy of longevity.
 
-Kipchoge's Melbourne triumph will not settle the question of when he ought to stop, and nor should it. The competitive landscape has changed, his own performances have fluctuated and one result cannot erase the consequences of age. What he has challenged is the assumption that decline must make achievement meaningless. There is a quieter kind of excellence in adapting to circumstances without surrendering ambition. Kipchoge is no longer being asked whether he can run faster than any man in history. For now, he is showing that he can still outrun the people standing beside him.
+The question of when he ought to stop remains open. Kipchoge's Melbourne triumph will not put the question to rest, and nor should it. The competitive landscape has changed, his own performances have fluctuated and one result cannot erase the consequences of age. What he has challenged is the assumption that decline must make achievement meaningless. There is a quieter kind of excellence in adapting to circumstances without surrendering ambition. Kipchoge is no longer being asked whether he can run faster than any man in history. For now, he is showing that he can still outrun the people standing beside him.
 
 === Advanced language ===
 
@@ -91,7 +91,7 @@ Kipchoge's Melbourne triumph will not settle the question of when he ought to st
 - bring together (phrasal verb): to combine people or things for a purpose
 - immunity from (phrase): protection against something unpleasant
 - dominate the headlines (phrase): to be the main news story
-- settle the question (phrase): to decide something finally
+- put the question to rest (phrase): to answer a disputed question so decisively that debate should end
 
 === Before you read ===
 

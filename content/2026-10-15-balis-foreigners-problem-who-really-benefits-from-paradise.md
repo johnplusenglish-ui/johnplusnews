@@ -20,7 +20,7 @@ There are also concerns about housing and business. In popular areas, new villas
 
 The situation is not as simple as locals against foreigners. Some international residents have lived in Bali for decades, built friendships and created businesses that employ local people. Tourism experts also say videos made by travellers can help small restaurants reach customers around the world. Even content creators who disagree with the current rules often say that people who earn money from local companies should follow Indonesian law. They want clearer information about which activities need permission.
 
-Bali faces a difficult choice. Tourism brings in money and opportunities, but it can also change the places people love. The island is not just a beautiful background for holiday videos. It is home to communities with their own traditions, jobs and everyday problems. Visitors may be welcome, but being welcomed does not mean they can ignore the people who live there.
+Bali faces a difficult choice. Tourism brings in money and opportunities, but it can also change the places people love. The island is not just a beautiful background for holiday videos. It is home to communities with their own traditions, jobs and everyday problems. Visitors may be welcome, but being welcomed does not mean they can ignore the people who live there, who deserve to feel respected in their own home.
 
 === Core language ===
 
@@ -30,7 +30,7 @@ Bali faces a difficult choice. Tourism brings in money and opportunities, but it
 - turn something into (phrasal verb): to change something so that it becomes something else
 - push up (phrasal verb): to make prices or values rise
 - bring in (phrasal verb): to earn or attract money
-- according to (phrase): as stated by
+- feel respected (phrase): to feel that other people value you and treat you properly
 - home to (phrase): the place where someone or something lives
 - face a difficult choice (phrase): to have to decide between options when none is easy
 
@@ -67,7 +67,7 @@ summary: Remote workers, influencers and investors are reshaping Bali. As the au
 
 In the carefully edited world of the digital nomad, Bali is an almost frictionless paradise. A laptop rests beside an infinity pool, the weather is reliably warm and a day's work can be followed by sunset on the beach. For a growing number of foreigners, this image has become the promise of an enviable lifestyle. For some Balinese residents, however, it raises a less photogenic question: what happens when a place increasingly caters to people with far greater spending power than those who call it home?
 
-Bali's extraordinary appeal is not in dispute. The island welcomed nearly seven million international visitors in 2025, according to figures reported by Business Insider, and tourism provides income for countless local families. Foreign creators have helped restaurants and guesthouses reach international customers. Yet an influx of well-paid remote workers and investors can also alter the character of neighbourhoods, raise land values and intensify competition over commercial opportunities. The controversy is therefore not simply about misbehaving holidaymakers. It concerns the distribution of tourism's rewards and the ability of local residents to shape their own communities.
+Bali's extraordinary appeal is not in dispute. The island welcomed nearly seven million international visitors in 2025, according to figures reported by Business Insider, and tourism provides income for countless local families. Foreign creators have helped restaurants and guesthouses reach international customers, while other businesses are simply trying to cash in on Bali's popularity. Yet an influx of well-paid remote workers and investors can also alter the character of neighbourhoods, raise land values and intensify competition over commercial opportunities. The controversy is therefore not simply about misbehaving holidaymakers. It concerns the distribution of tourism's rewards and the ability of local residents to shape their own communities.
 
 Indonesia's immigration authorities have become increasingly assertive. As Channel NewsAsia reported in August 2026, officials were scrutinising foreigners suspected of conducting commercial activities on visas that do not permit them. Even an arrangement involving a complimentary hotel stay in exchange for promotional posts can raise questions about unauthorised work. Authorities said 342 foreign nationals were deported from Bali in the first half of the year for various immigration and legal breaches. It would be misleading to present them all as influencers, or to suggest that ordinary tourists are forbidden from posting photographs of their holidays. The unresolved issue is how clearly the boundary between personal expression and commercial activity is defined.
 
@@ -82,7 +82,7 @@ For Bali, the challenge is to move beyond the false choice between unrestricted 
 - frictionless (adjective): happening without difficulty or resistance
 - enviable (adjective): so good that other people want it
 - assertive (adjective): confident and forceful in acting
-- cater to (phrasal verb): to provide what a particular group wants
+- cash in on (phrasal verb): to profit from a situation or trend, sometimes unfairly
 - hollow out (phrasal verb): to weaken something from the inside
 - stir up (phrasal verb): to cause strong feelings, often bad ones
 - not in dispute (phrase): accepted by everyone as true

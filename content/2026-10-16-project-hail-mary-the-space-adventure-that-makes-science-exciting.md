@@ -61,7 +61,7 @@ What makes Project Hail Mary distinctive is not that it gets every scientific de
 - point out (phrasal verb): to tell people a fact or draw attention to it
 - come up with (phrasal verb): to think of an idea or a solution
 - hold on to (phrasal verb): to keep something and not let it go
-- at risk (phrase): in danger of being harmed
+- plausibility has its limits (phrase): there is a point beyond which something no longer seems believable
 - in a matter of seconds (phrase): very quickly
 - have its limits (phrase): to be true or useful only up to a point
 
@@ -79,7 +79,7 @@ Its more compelling speculation concerns communication. Grace encounters an alie
 
 Directors Phil Lord and Christopher Miller bring a playful sensibility to material that could otherwise become forbiddingly technical. The resulting film earned more than $680 million worldwide and prompted lively disagreement among critics. Admirers celebrated its warmth, intelligence and exuberant humour; detractors found the tonal shifts distracting and some of the sentiment overly emphatic. Adapting the novel also meant boiling down lengthy scientific explanations into visual sequences, an unavoidable trade-off between the pleasures of reading a calculation and watching a character discover its consequences.
 
-For all its fictional physics, Project Hail Mary makes a serious argument about the value of intellectual curiosity. Its central figure is frightened, frequently wrong and dependent on knowledge he cannot possess alone. The film's optimism does not come from the comforting assumption that everything will work out, but from the conviction that people can make progress by testing their assumptions and learning to cooperate. Hollywood's latest attempt to save the world turns out to be, among other things, a spirited defence of thinking before acting.
+For all its fictional physics, Project Hail Mary makes a serious argument about the value of intellectual curiosity. Its central figure is frightened, frequently wrong and dependent on knowledge he cannot possess alone. The film's optimism does not come from the comforting assumption that everything will work out, but from the conviction that people can make progress by testing their assumptions and learning to cooperate. Hollywood's latest attempt to save the world hinges on curiosity and cooperation, making it, among other things, a spirited defence of thinking before acting.
 
 === Advanced language ===
 
@@ -87,11 +87,11 @@ For all its fictional physics, Project Hail Mary makes a serious argument about 
 - painstaking (adjective): done with great care and effort
 - implausible (adjective): difficult to believe; unlikely to be true
 - work something out (phrasal verb): to find the answer to a problem by thinking
-- turn out (phrasal verb): to prove in the end to be a particular thing
+- hinge on (phrasal verb): to depend mainly on one particular factor
 - boil down (phrasal verb): to reduce something to its most important parts
 - in the realm of (phrase): within a particular area of activity or thought
 - set something in motion (phrase): to start a process or series of events
-- for all its (phrase): despite its; although it has
+- for all its fictional physics (phrase): despite all of its invented or unrealistic science
 
 === Before you read ===
 

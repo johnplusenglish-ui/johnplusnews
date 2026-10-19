@@ -33,7 +33,7 @@ Perhaps we need to change what we expect from being a good host. It is fine to b
 
 === Intermediate ===
 
-A few friends arrive, someone puts the kettle on, and the evening unfolds without much planning. It sounds like a simple pleasure, yet inviting people into our homes can now feel strangely complicated. Instead of asking friends round for an informal meal or a chat, many of us meet in cafés, book restaurants or postpone plans until everyone's calendar is free. The idea of hosting has somehow become an event in itself.
+A few friends arrive, someone puts the kettle on, and the evening unfolds without much planning. It sounds like a simple pleasure, yet inviting people into our homes can now feel strangely complicated. Instead of asking friends round for an informal meal or a chat, many of us meet in cafés, book restaurants, opt for a night in or postpone plans until everyone's calendar is free. The idea of hosting has somehow become an event in itself.
 
 Part of the problem is the pressure to present a perfect home. Social media offers endless photographs of spotless kitchens, stylish furniture and carefully prepared meals. Ordinary life is less impressive. There are clothes hanging up, bills on the table and perhaps a bathroom that could do with cleaning. It is easy to feel embarrassed about these things, even when the people we invite are unlikely to notice them.
 
@@ -52,7 +52,8 @@ Perhaps the answer is to lower our standards rather than abandon hosting. Ask fr
 - memorable (adjective): worth remembering; special
 - hang up (phrasal verb): to put clothes on a hook or line
 - pop round (phrasal verb): to visit someone's home briefly and informally
-- stay in (phrasal verb): to remain at home rather than going out
+- turn into (phrasal verb): to change and become something else
+- opt for a night in (phrase): to choose to spend the evening at home
 - put the kettle on (phrase): to boil water for tea, often as a welcome
 - could do with (phrase): would benefit from; needs
 - in advance (phrase): before the time something happens
@@ -72,7 +73,7 @@ The change sits within a broader retreat from face-to-face socialising. Analysis
 
 It would be unfair to romanticise the past. Invitations were never equally convenient for everyone, and the labour of cooking and cleaning has often fallen disproportionately on women. Restaurants can offer genuinely neutral ground, especially for people whose homes are small or shared. Yet the answer to an unequal division of domestic work need not be the abandonment of hospitality. Guests can contribute food, help clear away the plates or accept that a visit involves sharing the household's ordinary imperfections.
 
-What may need reviving is not the elaborate dinner party but the modest invitation. A pot of tea, a shop-bought dessert or a simple supper can create room for conversations that rarely develop through hurried messages. Friendship does not require polished surroundings. It requires repeated opportunities to spend unhurried time together. The real loss would be to mistake hospitality for performance and, in doing so, forget how easy it can be to make someone feel welcome.
+What may need reviving is not the elaborate dinner party but the modest invitation, with all the performance stripped away. A pot of tea, a shop-bought dessert or a simple supper can create room for conversations that rarely develop through hurried messages. Friendship does not require polished surroundings. It requires repeated opportunities to spend unhurried time together. The real loss would be to mistake hospitality for performance and, in doing so, forget how easy it can be to make someone feel welcome.
 
 === Advanced language ===
 
@@ -81,7 +82,7 @@ What may need reviving is not the elaborate dinner party but the modest invitati
 - unhurried (adjective): relaxed and not rushed
 - give way to (phrasal verb): to be replaced by something
 - crowd out (phrasal verb): to take so much space or time that something else is pushed out
-- clear away (phrasal verb): to remove things, such as plates, after a meal
+- strip away (phrasal verb): to remove the extra features that hide the essential part of something
 - little wonder that (phrase): it is not surprising that
 - on demand (phrase): whenever you want it
 - neutral ground (phrase): a place that does not belong to or favour either side

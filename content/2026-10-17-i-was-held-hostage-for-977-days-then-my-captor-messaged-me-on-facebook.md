@@ -57,7 +57,6 @@ The experience raises an uncomfortable distinction. Forgiving someone does not r
 - let go of (phrase): to stop holding on to something, including a feeling
 - keep someone in the dark (phrase): to keep someone without information about something
 - stay in touch (phrase): to keep contacting someone over time
-- play a part (phrase): to be involved in making something happen
 
 === Advanced ===
 

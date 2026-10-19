@@ -87,7 +87,7 @@ The more consequential shift may therefore concern how holidays are organised, r
 - bring about (phrasal verb): to cause something to happen
 - an occupational hazard (phrase): a risk that comes with a particular job
 - breathing space (phrase): a period of relief from pressure
-- not everyone's idea of (phrase): not what everybody would consider to be
+- not everyone's idea of relaxation (phrase): not something that every person would consider relaxing
 
 === Before you read ===
 

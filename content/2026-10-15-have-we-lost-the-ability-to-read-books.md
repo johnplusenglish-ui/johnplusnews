@@ -28,7 +28,7 @@ There are plenty of ways to make reading easier. Choose a book that interests yo
 - sit down (phrasal verb): to move into a sitting position
 - get back into (phrasal verb): to start doing something again after a break
 - work towards (phrasal verb): to make progress towards a goal
-- half an hour (phrase): thirty minutes
+- reading for pleasure (phrase): reading because you enjoy it, rather than for work or study
 - for pleasure (phrase): for enjoyment, not for work or study
 - for a while (phrase): for a period of time
 
@@ -56,7 +56,7 @@ The real concern is not that everyone should spend hours reading novels. It is t
 - fall out of (phrasal verb): to stop doing something you used to do regularly
 - an obvious suspect (phrase): the most likely cause
 - lose the habit of (phrase): to stop doing something you used to do often
-- very different from (phrase): not at all like
+- sustained attention (phrase): the ability to concentrate on one thing for a long period
 
 === Advanced ===
 
@@ -83,9 +83,9 @@ The practical response may be disarmingly modest. Read something genuinely appea
 - draw on (phrasal verb): to use information or experience as a source
 - gloss over (phrasal verb): to avoid dealing with something properly
 - set aside (phrasal verb): to keep time or money for a particular purpose
-- good intentions (phrase): plans to do something good that may never happen
+- constant stimulation (phrase): a continuous stream of things that attract or excite the mind
 - on someone's terms (phrase): according to the conditions someone else sets
-- a badge of (phrase): a sign that shows a quality
+- a badge of refinement (phrase): a sign used to display cultural sophistication or good taste
 
 === Before you read ===
 

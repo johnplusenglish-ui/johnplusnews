@@ -101,7 +101,7 @@ IRREGULAR = {"be": ["is", "are", "was", "were", "been", "being"], "break": ["bro
              "pay": ["paid"], "put": ["put"], "run": ["ran"], "say": ["said"], "see": ["saw", "seen"], "sell": ["sold"],
              "shut": ["shut"], "sit": ["sat"], "speak": ["spoke", "spoken"], "stand": ["stood"], "take": ["took", "taken"],
              "tell": ["told"], "think": ["thought"], "throw": ["threw", "thrown"], "win": ["won"], "write": ["wrote", "written"],
-             "wear": ["wore", "worn"], "deal": ["dealt"], "teach": ["taught"], "wake": ["woke", "woken"], "begin": ["began", "begun"],
+             "lay": ["laid"], "dig": ["dug"], "wear": ["wore", "worn"], "deal": ["dealt"], "teach": ["taught"], "wake": ["woke", "woken"], "begin": ["began", "begun"],
              "choose": ["chose", "chosen"], "hide": ["hid", "hidden"], "mean": ["meant"], "meet": ["met"], "spend": ["spent"],
              "strike": ["struck"], "stick": ["stuck"], "fight": ["fought"], "seek": ["sought"], "build": ["built"], "send": ["sent"],
              "sleep": ["slept"], "understand": ["understood"], "set": ["set"], "let": ["let"], "spread": ["spread"], "shut": ["shut"],
@@ -130,6 +130,10 @@ def term_pattern(term):
     out, need_sep, verb_done = "", False, False
     for i, w in enumerate(words):
         lw = w.lower()
+        if w in ("X", "Y"):
+            out += (r"\s+" if need_sep else "") + r"[A-Za-z'\u2019-]+(?:\s+[A-Za-z'\u2019-]+){0,5}"
+            need_sep = True
+            continue
         if lw in PLACEHOLDERS:
             out += r"(?:\s+[A-Za-z'’-]+(?:\s+[A-Za-z'’-]+){0,2})?" if need_sep else r"(?:[A-Za-z'’-]+(?:\s+[A-Za-z'’-]+){0,2}\s+)?"
             continue

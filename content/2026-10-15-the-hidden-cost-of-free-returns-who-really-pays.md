@@ -41,7 +41,7 @@ Returns are particularly common in fashion, where photographs and size charts ca
 
 Each item may need collecting, transporting, checking, cleaning, repackaging and putting back into stock. If it is damaged or out of season, selling it again may be difficult. Some products are reduced in price, sold through other businesses or discarded. Research supported by the British Fashion Council has highlighted the environmental impact of clothing returns, including extra transport, wasted materials and garments that cannot be resold. A generous returns policy therefore has consequences for both company profits and the planet.
 
-Retailers have started responding with return charges, shorter deadlines and stricter conditions. From a business perspective, making customers pay a small fee can help claw back some costs. But there is a risk: people who cannot try products on before buying them may decide the shop is no longer worth the trouble. In an October 2026 Guardian business column, an accountant argued that sensible companies should plan for the normal cost of returns instead of treating them as a surprise.
+Retailers have started responding with return charges, shorter deadlines and stricter conditions. From a business perspective, making customers pay a small fee can help claw back some costs. But there is a risk: people who cannot try products on before buying them may decide the shop is no longer worth the trouble. In an October 2026 Guardian business column, an accountant argued that sensible companies should factor in the normal cost of returns instead of treating them as a surprise.
 
 There is also a legal difference between returning something because you have changed your mind and returning a faulty product. In Britain, most online shoppers have a fourteen-day cancellation period after delivery, with another fourteen days to return the goods. They may have to cover the return postage for unwanted items when properly informed, while the retailer must normally refund the standard original delivery charge. A September investigation by Which? found that some well-known shops failed to meet their refund obligations, even when customers were entitled to their money back.
 
@@ -53,7 +53,7 @@ The more useful solution may begin before the customer clicks Buy. Accurate meas
 - faulty (adjective): not working correctly; having a defect
 - dependable (adjective): able to be relied on
 - put something back (phrasal verb): to return something to its place
-- plan for (phrasal verb): to prepare for something expected
+- factor in (phrasal verb): to include something when calculating or planning
 - claw back (phrasal verb): to get back money that has been lost or spent
 - change your mind (phrase): to decide something different from before
 - worth the trouble (phrase): useful enough to justify the effort
@@ -73,7 +73,7 @@ There is no straightforward commercial answer. Charging for returns can recover 
 
 Consumer protection complicates the picture further. Under UK distance-selling rules, customers normally have fourteen days after delivery to cancel most online purchases without giving a reason and a further fourteen days to send the goods back. Retailers must generally refund the original standard delivery charge, although consumers can be required to cover the cost of returning unwanted goods when properly informed. Faulty items involve different rights. A September 2026 investigation by Which? found that several major retailers had failed to provide refunds in accordance with the law, demonstrating that the economics of returns cannot simply override statutory obligations.
 
-The most promising improvements may be less confrontational. Better sizing information, accurate product images and more reliable descriptions could reduce the number of purchases that disappoint in the first place. More efficient sorting and resale systems could also preserve the value of goods that do come back. Yet the central contradiction remains: online retailers have encouraged consumers to behave as though their living rooms were fitting rooms with unlimited delivery. Winding back that expectation without damaging trust will require more than adding a charge at checkout.
+The most promising improvements may be less confrontational. Better sizing information, accurate product images and more reliable descriptions could reduce the number of purchases that disappoint in the first place. More efficient sorting and resale systems could also help returned goods filter back into resale channels and preserve their value. Yet the central contradiction remains: online retailers have encouraged consumers to behave as though their living rooms were fitting rooms with unlimited delivery. Winding back that expectation without damaging trust will require more than adding a charge at checkout.
 
 === Advanced language ===
 
@@ -82,7 +82,7 @@ The most promising improvements may be less confrontational. Better sizing infor
 - confrontational (adjective): likely to cause argument or conflict
 - put off (phrasal verb): to make someone not want to do something
 - wind back (phrasal verb): to reverse something gradually
-- come back (phrasal verb): to return
+- filter back into (phrasal verb): to return gradually into a system or market
 - sight unseen (phrase): without seeing something first
 - in accordance with (phrase): following a rule or law
 - in the first place (phrase): at the start; before anything else happened

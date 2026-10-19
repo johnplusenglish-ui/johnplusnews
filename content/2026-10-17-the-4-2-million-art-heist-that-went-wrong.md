@@ -40,7 +40,7 @@ The setting made the robbery particularly striking. The Renoir Museum in Cagnes-
 
 The breakthrough was less glamorous than the theft itself. Police found DNA on a protective cover left behind at the scene. It matched a man already known to investigators, whose vehicle was being monitored in another inquiry. Tracking information, communications evidence and further surveillance helped officers piece together movements after the burglary. Rather than guessing which collector might secretly want a Renoir, investigators tracked down the suspects through the ordinary mistakes they had made.
 
-Then the case became more urgent. Police observed that one suspect had visited the Maeght Foundation, another institution with important works of art. Prosecutors believed a second theft might be imminent. Officers moved in to arrest the suspects before it could happen. Six people were arrested in total, and four men received preliminary charges connected with the theft or handling stolen goods. Those charges were allegations to be tested through the legal process, not convictions.
+Then the case became more urgent. Police observed that one suspect had visited the Maeght Foundation, another institution with important works of art. Prosecutors believed a second theft might be imminent. Officers closed in on the suspects and arrested them before it could happen. Six people were arrested in total, and four men received preliminary charges connected with the theft or handling stolen goods. Those charges were allegations to be tested through the legal process, not convictions.
 
 The missing paintings were recovered from behind a concealed wall beneath a staircase in a house. Their survival came as a relief, though one had suffered a tear and the other damage to its frame. The French Ministry of Culture announced that specialists would examine the works in Marseille before they returned to Cagnes-sur-Mer. The paintings had escaped permanent disappearance, but not the consequences of being handled as criminal property.
 
@@ -51,7 +51,7 @@ The investigation reopened an uncomfortable debate about museum security. A smal
 - striking (adjective): unusual and attracting attention
 - imminent (adjective): about to happen very soon
 - priceless (adjective): so valuable that no price can be put on it
-- move in (phrasal verb): to go towards someone in order to act, for example to make an arrest
+- close in on (phrasal verb): to get progressively nearer to catching or finding someone
 - piece together (phrasal verb): to work out the truth by putting separate pieces of information together
 - track down (phrasal verb): to find someone or something after a long search
 - known to investigators (phrase): already on the police's or investigators' records

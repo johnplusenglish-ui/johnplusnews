@@ -34,7 +34,7 @@ Some people argue that artists should charge whatever fans are willing to pay. O
 
 === Intermediate ===
 
-The excitement of seeing a favourite artist can disappear surprisingly quickly when ticket sales begin. Fans wait in online queues, watch prices appear and make rushed decisions about spending hundreds of pounds on a single evening. For younger people in particular, live music is starting to feel less like an affordable night out and more like an expensive treat they must save up for.
+The excitement of seeing a favourite artist can disappear surprisingly quickly when ticket sales begin. Fans wait in online queues, watch prices appear and make rushed decisions about forking out hundreds of pounds on a single evening. For younger people in particular, live music is starting to feel less like an affordable night out and more like an expensive treat they must save up for.
 
 There are understandable reasons why prices have risen. Large concerts require sound and lighting equipment, transport, venue staff, security and sometimes enormous stage productions. Touring costs have increased, while the music industry itself has changed. Streaming gives listeners easy access to songs, but the income musicians receive from it is very different from the old business of selling physical albums. Touring has become an important source of revenue for many artists.
 
@@ -51,7 +51,7 @@ Some musicians and promoters have tried to keep prices down, while critics say t
 - understandable (adjective): reasonable; easy to understand
 - comforting (adjective): making you feel less worried
 - exclusive (adjective): limited to a small group, usually of rich people
-- save up (phrasal verb): to keep money so that you can buy something later
+- fork out (phrasal verb): to pay a large or unwelcome amount of money
 - keep something down (phrasal verb): to stop something from rising
 - price out (phrasal verb): to make something too expensive for someone
 - a night out (phrase): an evening spent enjoying yourself away from home
@@ -73,7 +73,7 @@ Crucially, the authority did not establish that Oasis tickets were subject to re
 
 The secondary market creates another layer of distortion. Scarce tickets may be advertised at enormous mark-ups, while additional fees further eat away at the sense that advertised prices reflect what customers will actually pay. Demand is reinforced by the fear of missing a culturally significant occasion. A concert is no longer simply a performance; it is also content to share, a memory to display and, for some fans, proof of belonging to a community.
 
-Defenders of high prices argue that no performer is obliged to sell below what audiences are willing to pay. Critics counter that an industry built around shared cultural experience risks becoming increasingly divided by income. Neither argument removes the pressure on independent venues, where musicians develop and audiences can encounter live music without taking on substantial expense. The question is not whether major artists deserve to be paid. It is whether a market that celebrates music's ability to unite people is comfortable turning attendance into a privilege reserved for those who can afford it.
+Defenders of high prices argue that no performer is obliged to sell below what audiences are willing to pay. Critics counter that an industry built around shared cultural experience risks becoming increasingly divided by income. Neither argument removes the pressure on independent venues, where musicians develop and audiences can encounter live music without shouldering substantial expense. The question is not whether major artists deserve to be paid. It is whether a market that celebrates music's ability to unite people is comfortable turning attendance into a privilege reserved for those who can afford it.
 
 === Advanced language ===
 
@@ -81,11 +81,12 @@ Defenders of high prices argue that no performer is obliged to sell below what a
 - scarce (adjective): rare and difficult to get
 - catch-all (adjective): covering many different things without being precise
 - translate into (phrasal verb): to result in; to turn into
-- take on (phrasal verb): to accept something, such as a cost or responsibility
 - eat away at (phrasal verb): to gradually reduce or destroy something
+- turn something into (phrasal verb): to change something so that it becomes something else
+- shoulder substantial expense (phrase): to accept responsibility for paying a large cost
 - in person (phrase): physically present, not through a screen or recording
 - with little time to think (phrase): under pressure to decide quickly
-- reserved for (phrase): kept only for a particular group
+- reserved for those who can afford it (phrase): available only to people with enough money
 
 === Before you read ===
 

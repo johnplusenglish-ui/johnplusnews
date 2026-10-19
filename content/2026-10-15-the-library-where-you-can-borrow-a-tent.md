@@ -47,7 +47,7 @@ The idea is particularly attractive to families who would like to try camping or
 
 The building stands on a 15-acre site next to a much larger area of open land. There are walking paths, gardens designed for different plants and animals, and places where children can climb on rocks or play in mud. The library also uses solar panels and geothermal heating and cooling. It is designed not only to provide information about the natural world but to become part of the outdoor environment it encourages people to explore.
 
-Early visitors have already described the benefits. One family borrowed an outdoor camera and a navigation device before taking their seven-year-old son on a hike. Another borrowed a gardening kit to set up a space that would attract bees and other pollinators. For people unfamiliar with camping or wildlife, access to the right equipment can make an unfamiliar activity feel far less intimidating.
+Early visitors have already described the benefits. One family borrowed an outdoor camera and a navigation device before taking their seven-year-old son on a hike. Another borrowed a gardening kit to set up a space that would attract bees and other pollinators. For people unfamiliar with camping or wildlife, access to the right equipment can make an activity that once seemed out of reach feel far less intimidating.
 
 There is a wider social argument behind the project. Outdoor activities can involve costs that are easy to overlook: transport, suitable clothing, specialist tools and time away from work. Those barriers mean that green spaces, even when they are technically open to everyone, may not feel equally accessible. The library's director, Mark Fink, argues that experiencing nature need not involve an ambitious expedition. Noticing birds in a local neighbourhood can be a meaningful starting point.
 
@@ -63,13 +63,13 @@ The project also asks us to think again about what a public library is for. Libr
 - set up (phrasal verb): to create or arrange something
 - a starting point (phrase): the place or idea where something begins
 - think again (phrase): to reconsider an opinion or decision
-- of your own (phrase): belonging to you and nobody else
+- out of reach (phrase): too difficult or expensive to obtain
 
 === Advanced ===
 
 summary: A Colorado library lends outdoor equipment as well as books. Can sharing gear help people connect with nature and lower the barriers to the outdoors?
 
-A public library has traditionally offered a modest but radical proposition: knowledge should be available whether or not you can afford to buy the book. In Thornton, Colorado, that principle has been extended to the equipment required to explore the natural world. The Anythink Nature Library, opened in August 2026, lends not only books but also tents, wildlife cameras, binoculars, microscopes and a range of other outdoor equipment. Its ambition is to make access to nature less dependent on disposable income, specialist knowledge or the confidence to set off into unfamiliar surroundings.
+A public library has traditionally offered a modest but radical proposition: knowledge should be available whether or not you can afford to buy the book. In Thornton, Colorado, that principle has been extended to the equipment required to explore the natural world. The Anythink Nature Library, opened in August 2026, lends not only books but also tents, wildlife cameras, binoculars, microscopes and a range of other outdoor equipment. Its ambition is to make access to nature less dependent on disposable income, specialist knowledge or the confidence to strike out into unfamiliar surroundings.
 
 Alongside a conventional collection of tens of thousands of items, the library provides approximately 850 nature-focused equipment kits. The building stands on a 15-acre site next to open land, with gardens, walking trails and spaces designed for practical exploration. Children can scramble over boulders or play in mud, while adults can learn about drought-resistant gardening, wildlife photography or stargazing. Solar panels and a geothermal heating and cooling system reinforce the environmental purpose of a public building that treats the outdoors as an extension of its reading rooms.
 
@@ -86,7 +86,7 @@ At a time when public libraries are frequently required to justify their existen
 - radical (adjective): new and very different from what is usual
 - accomplished (adjective): highly skilled
 - inventive (adjective): full of original ideas
-- set off (phrasal verb): to start a journey
+- strike out into (phrasal verb): to begin moving independently into an unfamiliar place
 - cut down on (phrasal verb): to reduce the amount of something
 - come up against (phrasal verb): to have to deal with a problem or difficulty
 - a sense of belonging (phrase): the feeling of being accepted in a place or group

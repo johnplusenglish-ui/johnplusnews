@@ -63,7 +63,7 @@ The coins have since been displayed at the LVR State Museum in Bonn, where visit
 
 summary: Germany's largest hoard of coins from Hadrian's reign was found by a detectorist who followed the rules. What does it reveal, and what remains a mystery?
 
-A metal detector that refuses to fall silent can be either a nuisance or the beginning of an extraordinary discovery. For Oliver Riedl, searching an agricultural field near Wesseling in western Germany, it proved to be the latter. Having uncovered several Roman silver coins in October 2025, the amateur archaeologist alerted the regional authorities, whose subsequent investigation yielded 934 denarii weighing approximately 3.1 kilograms. The find was announced publicly in September 2026 and is considered Germany's largest known hoard associated with the reign of the emperor Hadrian.
+A metal detector that refuses to fall silent can be either a nuisance or the beginning of an extraordinary discovery. For Oliver Riedl, searching an agricultural field near Wesseling in western Germany, it proved to be the latter. Having dug up several Roman silver coins in October 2025, the amateur archaeologist alerted the regional authorities, whose subsequent investigation yielded 934 denarii weighing approximately 3.1 kilograms. The find was announced publicly in September 2026 and is considered Germany's largest known hoard associated with the reign of the emperor Hadrian.
 
 The coins offer a compressed history of Roman power. The oldest specimen dates to 148 BC, when the republic still governed Rome, while the youngest was struck in AD 124 or 125, during Hadrian's reign. Most belong to the intervening imperial period. Archaeologists believe the collection was deliberately concealed in the second quarter of the second century AD, probably inside a vessel whose traces were examined during excavation. The hoard survived beneath ordinary farmland for almost nineteen centuries, outlasting the political system that gave the coins their value.
 
@@ -73,16 +73,17 @@ The scale of the deposit is nevertheless revealing. Regional specialists have co
 
 Of equal significance is the way the discovery was handled. Riedl was searching with permission and notified professionals as soon as he recognised the potential importance of his find. Archaeology depends on context as well as objects. The position of a hoard, the surrounding soil and the remains of its container may answer questions that isolated coins cannot. An impressive collection acquired without documentation can quickly become little more than a display of valuable metal; this one retained evidence about the act of concealment itself.
 
-Now exhibited at the LVR State Museum in Bonn, the denarii are both public treasure and private mystery. Visitors can study portraits of rulers and the changing imagery of Roman authority, but the most absorbing figure is absent from every coin. Somebody accumulated the money, judged the ground a safe place to hide it and expected, presumably, to return. Almost 1,900 years later, the coins have turned up. The person who put them there remains beyond the reach of the metal detector, and perhaps of history itself.
+Now exhibited at the LVR State Museum in Bonn, the denarii are both public treasure and private mystery. Visitors can study portraits of rulers and the changing imagery of Roman authority, but the most absorbing figure is absent from every coin. Somebody accumulated the money, judged the ground a safe place to hide it and expected, presumably, to return. Almost 1,900 years later, the coins have come to light. The person who put them there remains beyond the reach of the metal detector, and perhaps of history itself.
 
 === Advanced language ===
 
 - plausible (adjective): seeming likely to be true
 - approximate (adjective): close to the real figure but not exact
 - absorbing (adjective): holding your attention completely
-- turn up (phrasal verb): to appear or be found, often unexpectedly
 - clear up (phrasal verb): to solve or explain a mystery
 - get across (phrasal verb): to make an idea clear to other people
+- dig up (phrasal verb): to find something by digging in the ground
+- come to light (phrase): to be discovered or become known after being hidden
 - loose change (phrase): a small amount of money in coins
 - little more than (phrase): hardly anything other than
 - beyond the reach of (phrase): impossible for something or someone to find or affect

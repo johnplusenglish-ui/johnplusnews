@@ -18,7 +18,7 @@ In July 2026, the UK's advertising regulator criticised advertisements from Euro
 
 The European Union has also brought in stronger rules against unclear environmental advertising. Since September 2026, businesses have faced restrictions on general green claims that do not have proper evidence. Labels cannot simply promise that a product is environmentally friendly without showing what that means. These rules aim to make it easier for customers to compare products fairly.
 
-For shoppers, the best question is often a simple one: what exactly has improved? If packaging says it is recycled, find out how much recycled material it contains. If a company says it has reduced pollution, ask what figures support the claim. Not every business using green advertising is dishonest, and small improvements are worth making. But a leaf on a label is not proof that a product is good for the planet. Real progress needs more than a nice picture.
+For shoppers, the best question is often a simple one: what exactly has improved? If packaging says it is recycled, find out how much recycled material it contains. If a company says it has reduced pollution, ask what figures support the claim. Not every business using green advertising is dishonest, and small improvements are worth the effort. But a leaf on a label is not proof that a product is good for the planet. Real progress needs more than a nice picture.
 
 === Core language ===
 
@@ -30,7 +30,7 @@ For shoppers, the best question is often a simple one: what exactly has improved
 - bring in (phrasal verb): to introduce a new law or rule
 - good for the planet (phrase): not harmful to the environment
 - environmentally friendly (phrase): causing little or no damage to the environment
-- worth making (phrase): useful enough to be done
+- worth the effort (phrase): valuable enough to justify the time or work required
 
 === Intermediate ===
 
@@ -69,7 +69,7 @@ The term describes claims that misrepresent or exaggerate environmental performa
 
 In July 2026, Britain's Advertising Standards Authority upheld rulings against environmental advertisements from Eurowings and Qatar Airways. The regulator found that claims concerning carbon offsetting risked persuading customers that they could pay to compensate fully for the emissions associated with particular flights, without adequate evidence. Offsetting schemes may finance useful initiatives, but assessing their impact requires answering difficult questions about additionality, permanence and measurement. A promise to compensate for emissions is not equivalent to preventing the emissions in the first place.
 
-Regulators are attempting to narrow the gap between marketing language and substantiated performance. Since September 2026, EU consumer rules have restricted vague environmental claims and unreliable sustainability labels, while addressing certain claims of climate neutrality based on offsetting. The shift places greater responsibility on businesses to explain their environmental credentials rather than relying on broad, emotionally appealing phrases. It also recognises that consumers rarely possess the information required to challenge complicated scientific assertions on their own.
+Regulators are attempting to narrow the gap between marketing language and substantiated performance. Since September 2026, EU consumer rules have restricted vague environmental claims and unreliable sustainability labels, while addressing certain claims of climate neutrality based on offsetting. The shift places greater responsibility on businesses to explain their environmental credentials rather than relying on broad, emotionally appealing phrases that can paper over weak environmental performance. It also recognises that consumers rarely possess the information required to challenge complicated scientific assertions on their own.
 
 The challenge is that environmental performance involves trade-offs that resist simple labels. A reusable product may have a higher manufacturing footprint but a lower impact over time. Recycled materials may reduce pressure on natural resources without eliminating energy consumption or pollution. An advertising system that reduces such questions to a cheerful green symbol risks creating false confidence even when genuine improvements have occurred.
 
@@ -82,7 +82,7 @@ There is a danger, too, that fear of regulatory action encourages companies to s
 - substantiated (adjective): supported by evidence
 - dress up (phrasal verb): to make something seem more attractive or acceptable than it is
 - tighten something up (phrasal verb): to make rules or standards stricter
-- rely on (phrasal verb): to depend on something
+- paper over (phrasal verb): to hide a problem instead of solving it
 - fertile ground for (phrase): a situation in which something develops easily
 - as a whole (phrase): considered in its entirety
 - be entitled to (phrase): to have the right to

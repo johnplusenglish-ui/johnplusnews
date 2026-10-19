@@ -11,7 +11,7 @@ summary: Online videos say you can earn money while you sleep. How easy is it to
 
 A phone, a laptop and a few spare hours. Online videos make earning extra money sound easy. Some influencers say you can sell digital products or recommend items to shoppers and get paid while you sleep. That promise is attractive when rent and food keep getting more expensive. But how much of this income is real?
 
-A side hustle is work you do alongside your job or studies. It might involve tutoring, walking dogs, selling second-hand clothes or running a small online shop. These can be useful ways to earn extra cash. The problem begins when people suggest that making money takes almost no effort. Setting up a shop is one thing; finding customers is another. Yet many people are trying because they want more control over their money and working lives.
+A side hustle is work you do alongside your job or studies. It might involve tutoring, walking dogs, selling second-hand clothes or running a small online shop. These can be useful ways to earn extra cash. The problem begins when people suggest that making money takes almost no effort. Setting up a shop is one thing; finding customers is another. Yet many people are trying because they want more control over their money, or simply to make ends meet.
 
 The figures tell a less exciting story. In a 2026 Save the Student survey, 29% of students said they had a business or side hustle. Of those, 79% had earned less than £500 in the previous year. Some gained useful skills or enough money to cover small expenses. But those earnings are far below the thousands promised in some videos.
 
@@ -30,7 +30,7 @@ None of this means side hustles are a bad idea. They can build confidence, teach
 - start out (phrasal verb): to begin doing something, especially a job or business
 - turn into (phrasal verb): to change and become something else
 - while you sleep (phrase): without you doing any work
-- ask yourself (phrase): to think honestly about a question
+- make ends meet (phrase): to have just enough money to pay for basic living costs
 - far below (phrase): much less than
 
 === Intermediate ===
@@ -45,7 +45,7 @@ Consider digital products such as online invitations or printable planners. Ther
 
 Perhaps the most awkward question concerns the influencers themselves. If a particular online business is so profitable, why do so many people spend their time selling courses about how to start one? Some are experienced entrepreneurs who offer valuable advice. Others appear to earn more from hopeful beginners than from the businesses they are recommending. In a recent Guardian investigation, a journalist tested several popular online money-making methods and found that the costs and effort quickly undermined the promise of easy profits.
 
-It would be a mistake to dismiss side hustles altogether. They can provide flexibility, teach commercial skills and give people more control over their income. But a healthy dose of scepticism is useful when an opportunity promises big returns for little work. Before paying for software or a training course, calculate the likely costs, research your competitors and work out where your customers would come from. Financial independence may begin with a good idea, but it rarely begins with doing nothing.
+It would be a mistake to dismiss side hustles altogether. They can provide flexibility, teach commercial skills and give people more control over their income. But a healthy dose of scepticism is useful when an opportunity promises big returns for little work. Before paying for software or a training course, weigh up the likely costs and demand, research your competitors and work out where your customers would come from. Financial independence may begin with a good idea, but it rarely begins with doing nothing.
 
 === Intermediate language ===
 
@@ -54,7 +54,7 @@ It would be a mistake to dismiss side hustles altogether. They can provide flexi
 - spectacular (adjective): very impressive or surprising
 - bring in (phrasal verb): to earn money
 - leave out (phrasal verb): to not include something
-- work out (phrasal verb): to find the answer to something by thinking
+- weigh up (phrasal verb): to compare the advantages and disadvantages before deciding
 - the cost of living (phrase): the amount of money needed for food, housing and other basics
 - a healthy dose of (phrase): a good amount of something, usually an attitude
 - far from (phrase): not at all

@@ -68,7 +68,7 @@ For now, there is no decision about rolling out the scheme beyond public-service
 title: Swipe Right for the State: Can Singapore Engineer Love?
 summary: Faced with a collapsing birth rate and a generation disillusioned with online dating, Singapore has turned to an unlikely matchmaker: the government. But can algorithms succeed where romance has failed?
 
-There is a particular kind of fatigue that comes from endlessly reviewing strangers as potential romantic partners. Dating apps promise an abundance of choice, yet many users describe feeling overwhelmed by it. Singapore's FirstDate project offers an unusually restrained alternative: fewer profiles, greater emphasis on compatibility and a single prospective match at a time. More surprisingly, it has come out of the government's own technology agency.
+There is a particular kind of fatigue that comes from endlessly reviewing strangers as potential romantic partners. Dating apps promise an abundance of choice, yet many users describe feeling overwhelmed by it. Singapore's FirstDate project offers an unusually restrained alternative: fewer profiles, greater emphasis on compatibility and a single prospective match at a time. More surprisingly, it stems from the government's own technology agency.
 
 Developed by staff at GovTech and being piloted among unmarried public-service employees aged 21 to 35, FirstDate asks participants about their habits, preferences and values. It applies a form of the Gale-Shapley stable-matching algorithm to recommend pairings, then allows both parties to accept or decline an introduction. Profiles are visible only to proposed matches, and contact details are exchanged solely by mutual agreement. The designers present the system as an experiment in more considered dating rather than another marketplace of faces.
 
@@ -85,12 +85,12 @@ There is also something refreshing about a dating service that declines to maxim
 - restrained (adjective): controlled and not excessive
 - ambiguous (adjective): having more than one possible meaning; unclear
 - intrusive (adjective): affecting someone's private life in an unwelcome way
-- come out of (phrasal verb): to be produced by or result from something
+- stem from (phrasal verb): to originate in or be caused by something
 - hand over (phrasal verb): to give something to someone, often unwillingly
 - fall for (phrasal verb): to start to love someone
 - in that context (phrase): considered against that background
 - have yet to be (phrase): has still not been (done)
-- a sense of humour (phrase): the ability to find things funny
+- remain a genuine choice (phrase): to continue to be something people can freely choose
 
 === Before you read ===
 

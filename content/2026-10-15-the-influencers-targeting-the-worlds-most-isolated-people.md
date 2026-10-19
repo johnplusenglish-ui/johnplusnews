@@ -40,11 +40,11 @@ The Sentinelese live on a small forested island in the Andaman archipelago and h
 
 The incident forms part of a wider debate about the lengths some adventurers and content creators will go to for extraordinary footage. Remote locations offer an obvious attraction in an online world where familiar images are everywhere. A video that appears to show people living beyond modern civilisation may gain millions of views and attract followers or advertising revenue. But the search for something exclusive can make other people's privacy seem less important than a creator's ambition.
 
-Survival International, an Indigenous rights organisation, estimates that 196 uncontacted groups exist worldwide. Many have chosen to keep away from outsiders after earlier experiences of violence, land loss or disease. Describing such communities as unaware of the modern world can be misleading. In some cases, refusing contact is an informed decision about how to protect their people and way of life.
+Survival International, an Indigenous rights organisation, estimates that 196 uncontacted groups exist worldwide. Many have chosen to keep away from outsiders after earlier experiences of violence, land loss or disease. Writing off such communities as unaware of the modern world can be misleading. In some cases, refusing contact is an informed decision about how to protect their people and way of life.
 
 There is an important difference between filming a community that has agreed to welcome visitors and trying to reach one that has repeatedly rejected them. Some Indigenous groups work with documentary-makers, invite carefully managed tourism and use their own media to campaign for land rights. Such projects can give communities greater control over how their stories are told. Uninvited expeditions offer no similar choice, and visitors may underestimate the consequences of even a brief encounter.
 
-Supporters of exploration sometimes argue that the public has an interest in learning about remote societies. Curiosity can certainly encourage understanding, but it does not automatically create a right to enter another community's territory. Polyakov's case highlights a difficult boundary in the age of social media. Cameras and boats can take people to places that once seemed unreachable. Respecting a community's wishes may require leaving the camera switched off and the island untouched.
+Supporters of exploration sometimes argue that the public has an interest in learning about remote societies. Curiosity can certainly encourage understanding, but it does not automatically create a right to enter another community's territory. Polyakov's case highlights a difficult boundary in the age of social media. Cameras and boats can take people to places that once seemed unreachable. Respecting a community's wishes may require steering clear of the island and leaving the camera switched off.
 
 === Intermediate language ===
 
@@ -53,7 +53,8 @@ Supporters of exploration sometimes argue that the public has an interest in lea
 - unreachable (adjective): impossible to get to
 - set off (phrasal verb): to start a journey
 - keep away from (phrasal verb): to avoid going near
-- switch off (phrasal verb): to turn off a machine or device
+- write off (phrasal verb): to decide that someone or something is not worth considering
+- steer clear of (phrase): to deliberately avoid a person, place or activity
 - at risk (phrase): in danger
 - way of life (phrase): the way a group of people usually live
 - an informed decision (phrase): a choice made with full knowledge of the facts
@@ -67,7 +68,7 @@ The objects in Mykhailo Polyakov's boat were almost absurdly ordinary: a camera,
 
 The Sentinelese inhabit a forested island in the Andaman archipelago, where legal restrictions are intended to prevent unauthorised visits. Those protections are not merely symbolic. Communities with little exposure to outside populations may be exceptionally vulnerable to infectious diseases, while past encounters with outsiders have demonstrated the potential for violence and exploitation. The fact that Polyakov apparently failed to meet anyone does not cancel out the risk created by his arrival.
 
-His expedition reflects a broader problem in the attention economy. The more elusive a place or community appears, the greater its potential value as online content. Images presented as unprecedented can draw in enormous audiences, converting novelty into advertising income and a public profile. In that calculation, Indigenous people risk becoming scenery in somebody else's account of adventure. What might be described as exploration from the visitor's perspective can look very different to those whose boundaries have been ignored.
+His expedition reflects a broader problem in the attention economy. The more elusive a place or community appears, the greater its potential value as online content. Creators increasingly zero in on the most isolated communities for exactly that reason. Images presented as unprecedented can draw in enormous audiences, converting novelty into advertising income and a public profile. In that calculation, Indigenous people risk becoming scenery in somebody else's account of adventure. What might be described as exploration from the visitor's perspective can look very different to those whose boundaries have been ignored.
 
 Survival International estimates that 196 uncontacted groups remain worldwide, many in regions threatened by logging, mining or land encroachment. The label "uncontacted" should not be mistaken for ignorance or a lack of agency. Avoiding outsiders can be a deliberate response to historical experience, including disease, violence and dispossession. To present isolation as a mystery waiting to be solved is to deny communities the capacity to decide their own future.
 
@@ -80,7 +81,7 @@ The ethical challenge extends beyond one traveller. Satellite imagery, drones an
 - elusive (adjective): difficult to find, reach or describe
 - unsolicited (adjective): not asked for or invited
 - deliberate (adjective): done on purpose
-- head for (phrasal verb): to go towards a place
+- zero in on (phrasal verb): to direct all attention towards a particular target
 - cancel out (phrasal verb): to remove the effect of something
 - draw in (phrasal verb): to attract people or interest
 - the attention economy (phrase): a system in which views and clicks are the main source of value

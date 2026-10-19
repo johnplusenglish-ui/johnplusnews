@@ -40,7 +40,7 @@ Bushby began in Punta Arenas, near the southern tip of South America. He planned
 
 Physical dangers came early. In South America, he faced extreme weather and crossed the Darién Gap, a difficult jungle region where travellers can encounter armed groups. In 2006, he and fellow explorer Dimitri Kieffer spent roughly two weeks crossing the frozen Bering Strait from Alaska into Russia. Their progress depended on unstable sea ice, and entering Russia led to their arrest because they had not arrived through an official border crossing.
 
-Surprisingly, paperwork became as much of an obstacle as the wilderness. Bushby spent years dealing with visa restrictions, financial setbacks and international borders that were closed or difficult to cross. The pandemic caused further delays. When his route reached the Caspian Sea, he ran into another seemingly impossible problem. In 2024, he completed a lengthy swim across it with a support team, then continued through Azerbaijan, Georgia and Turkey.
+Surprisingly, paperwork became as much of an obstacle as the wilderness. Bushby spent years working around visa restrictions, financial setbacks and international borders that were closed or difficult to cross. The pandemic caused further delays. When his route reached the Caspian Sea, he ran into another seemingly impossible problem. In 2024, he completed a lengthy swim across it with a support team, then continued through Azerbaijan, Georgia and Turkey.
 
 On 5 October 2026, Bushby landed near Dover after swimming across the English Channel. He was back in Britain for the first time under his own expedition rules, but the walk was not yet over. About 400 kilometres remained between the landing point and Hull. The final stretch is small compared with the thousands of kilometres behind him, yet it carries an enormous emotional weight.
 
@@ -52,7 +52,7 @@ The journey has come at a personal cost. Bushby missed much of his son's childho
 - unstable (adjective): likely to move, change or break suddenly
 - lengthy (adjective): continuing for a long time
 - turn out (phrasal verb): to prove in the end to be a particular thing
-- deal with (phrasal verb): to take action to solve a problem
+- work around (phrasal verb): to find a practical way past a difficulty without removing it
 - run into (phrasal verb): to meet a problem unexpectedly
 - set foot on (phrase): to arrive on; to enter a place
 - a matter of (phrase): simply a question of
@@ -67,9 +67,9 @@ When Karl Bushby emerged from the English Channel at Dover on 5 October, he had 
 
 The Goliath Expedition began on 1 November 1998 in Punta Arenas, southern Chile. Bushby, a former British paratrooper, intended to travel through the Americas, cross into Siberia and return to England across Eurasia. His rules were uncompromising: no mechanised transport to advance along the route and no return home until he had completed it under his own power. He envisaged a 12-year challenge. In practice, geographical hazards proved only one part of the ordeal.
 
-The route carried him through Patagonia, the Andes and the Darién Gap, the dangerous stretch of jungle between Colombia and Panama. In 2006, Bushby and fellow adventurer Dimitri Kieffer negotiated the shifting ice of the Bering Strait to reach Russia. Instead of celebrating a successful crossing, they were picked up by immigration authorities and detained. The incident foreshadowed years in which consular complications, restrictive borders and a shortage of funds would set progress back more effectively than bad weather ever could.
+The route carried him through Patagonia, the Andes and the Darién Gap, the dangerous stretch of jungle between Colombia and Panama. In 2006, Bushby and fellow adventurer Dimitri Kieffer negotiated the shifting ice of the Bering Strait to reach Russia. Instead of celebrating a successful crossing, they ran afoul of immigration authorities and were detained. The incident foreshadowed years in which consular complications, restrictive borders and a shortage of funds would set progress back more effectively than bad weather ever could.
 
-The pandemic and subsequent geopolitical tensions compounded those difficulties. Having made his way across parts of Asia, Bushby confronted the formidable barrier of the Caspian Sea. In 2024 he crossed it by swimming, assisted by a support team, before continuing through Azerbaijan, Georgia and Turkey. Even the final approach to Britain demanded improvisation. Unable to secure permission for a pedestrian passage through the Channel Tunnel, he completed a Channel swim instead.
+The pandemic and subsequent geopolitical tensions compounded those difficulties. Having made his way across parts of Asia, Bushby confronted the formidable barrier of the Caspian Sea. In 2024 he crossed it by swimming, assisted by a support team, before continuing through Azerbaijan, Georgia and Turkey. Even the final approach to Britain demanded improvisation. Unable to secure permission for a pedestrian passage through the Channel Tunnel, he ended up swimming the Channel instead.
 
 There is a temptation to treat the expedition as a triumph of stubborn determination and leave it at that. Yet its human costs resist such a tidy conclusion. Bushby has been absent for much of his son's life and has sacrificed relationships, stability and countless ordinary family occasions. He has also discovered a generosity that complicates his earlier scepticism about human nature. Strangers in isolated places repeatedly provided shelter, food and assistance, often with little expectation of anything in return.
 
@@ -81,8 +81,9 @@ The public celebration of extraordinary endurance can gloss over a more difficul
 - stubborn (adjective): determined not to change your mind
 - unfamiliar (adjective): not known or experienced before
 - set something back (phrasal verb): to delay progress
-- pick up (phrasal verb): to stop and detain someone, used of the police or authorities
 - gloss over (phrasal verb): to avoid talking about a difficult subject
+- end up (phrasal verb): to finally be in a situation you did not plan
+- run afoul of (phrase): to get into trouble by breaking or conflicting with a rule or authority
 - make your way (phrase): to travel somewhere, often slowly or with difficulty
 - leave it at that (phrase): to say or do nothing more about something
 - under your own power (phrase): using only your own strength, without help or transport
