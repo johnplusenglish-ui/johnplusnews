@@ -471,15 +471,21 @@ async function openArticle(slug, force) {
 
 /* -------------------------------------------------------------------- the actions */
 let waitId = 0;
-async function waitFor(path, expect, label) {
+async function waitFor(path, expect, label, verify) {
   const mine = ++waitId;
-  for (let i = 0; i < 48; i++) {
+  let q = "/api/check?path=" + encodeURIComponent(path) + "&expect=" + expect;
+  if (verify && verify.sha) q += "&sha=" + encodeURIComponent(verify.sha);
+  if (verify && verify.assets && verify.assets.length) q += "&assets=" + encodeURIComponent(verify.assets.join(","));
+  for (let i = 0; i < 72; i++) {
     if (mine !== waitId) return null;
     let r = { done: false };
-    try { r = await api("/api/check?path=" + encodeURIComponent(path) + "&expect=" + expect); } catch (e) {}
+    try { r = await api(q); } catch (e) {}
     if (mine !== waitId) return null;
     if (r.done) return true;
-    setStatus("info", "Sent to GitHub. Waiting for johnplusnews.com to " + label + " (" + (i * 5) + " seconds so far). This usually takes one to two minutes.");
+    let what = label;
+    if (r.page_new === false) what = "show the new version of the article";
+    else if (r.images_missing) what = "show the " + (r.images_missing === 1 ? "picture" : "pictures");
+    setStatus("info", "Sent to GitHub. Waiting for johnplusnews.com to " + what + " (" + (i * 5) + " seconds so far). This usually takes one to two minutes.");
     await sleep(5000);
   }
   return false;
@@ -509,10 +515,10 @@ async function publish() {
     await openArticle(r.slug, true);
     if (!r.pushed) { if (r.auth) showSignIn(); else setStatus("warn", [(r.note || "It was saved but not sent.") + " Fix the problem and press Publish again."]); setBusy(false); return; }
     setBusy(false);
-    const live = await waitFor("/articles/" + r.slug + "/", 200, "show it");
+    const live = await waitFor("/articles/" + r.slug + "/", 200, "show it", r.verify);
     if (live === null) return;
     if (live) setStatus("ok", ["It is live.", document.createElement("br"), golive(r.live_url, "View the live article")]);
-    else setStatus("warn", ["It was sent to GitHub but is not showing yet. Give it a few more minutes, then check ", link(r.live_url, r.live_url), "."]);
+    else setStatus("warn", ["It was sent to GitHub but the new version and its picture are not all showing yet. Give it a few more minutes, then check ", link(r.live_url, r.live_url), "."]);
     return;
   } catch (e) { setStatus("err", e.message); }
   setBusy(false);

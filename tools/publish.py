@@ -529,7 +529,7 @@ def do_publish(p):
         run_build()
         verb = "Update" if p.get("slug") else "Add"
         res = git_publish("{} article: {}".format(verb, title))
-        res.update({"ok": True, "slug": slug, "live_url": "{}/articles/{}/".format(build.SITE["url"], slug)})
+        res.update({"ok": True, "slug": slug, "live_url": "{}/articles/{}/".format(build.SITE["url"], slug), "verify": verify_info(slug)})
         return res
 
 
@@ -558,15 +558,49 @@ def do_signin():
     return {"ok": True, "opened": True}
 
 
-def check_live(path, expect):
+def fetch_live(path, method="GET"):
+    """(status, body) of a page or file on the live site, bypassing caches. Status 0 means the site could not be reached."""
     url = "{}{}?nocache={}".format(build.SITE["url"], path, secrets.token_hex(4))
     try:
-        code = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "jpn-publisher"}), timeout=8).status
+        r = urllib.request.urlopen(urllib.request.Request(url, method=method, headers={"User-Agent": "jpn-publisher"}), timeout=8)
+        return r.status, (r.read() if method == "GET" else b"")
     except urllib.error.HTTPError as e:
-        code = e.code
+        return e.code, b""
     except Exception:
+        return 0, b""
+
+
+def check_live(path, expect, sha="", assets=()):
+    """Is it really live? A page that already existed returns 200 before the new version arrives, so an update is only
+    live when the page is byte for byte the version just built (sha) and every picture it uses loads."""
+    code, body = fetch_live(path)
+    if code == 0:
         return {"status": 0, "done": False}
-    return {"status": code, "done": code == expect}
+    out = {"status": code, "done": code == expect}
+    if expect == 200 and sha:
+        out["page_new"] = hashlib.sha256(body).hexdigest() == sha
+        out["done"] = out["done"] and out["page_new"]
+    if expect == 200 and assets:
+        missing = [a for a in assets if fetch_live(a, "HEAD")[0] != 200]
+        out["images_missing"] = len(missing)
+        out["done"] = out["done"] and not missing
+    return out
+
+
+def verify_info(slug):
+    """What to look for on the live site after publishing: the exact new page and the pictures it uses."""
+    page = DOCS / "articles" / slug / "index.html"
+    if not page.is_file():
+        return {}
+    data = page.read_bytes()
+    html_text = data.decode("utf-8", "replace")
+    imgs = []
+    for m in re.finditer(r'(?:src|content)="((?:https://johnplusnews\.com)?/images/[^"]+\.jpg)"', html_text):
+        u = m.group(1).replace("https://johnplusnews.com", "")
+        for v in (u, u.replace("/images/", "/images/thumbs/", 1)):
+            if v not in imgs:
+                imgs.append(v)
+    return {"sha": hashlib.sha256(data).hexdigest(), "assets": imgs}
 
 
 # ---------------------------------------------------------------- web server
@@ -621,7 +655,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
             if url.path == "/api/article":
                 return self.send_json(get_article(q.get("slug", [""])[0]))
             if url.path == "/api/check":
-                return self.send_json(check_live(q.get("path", ["/"])[0], int(q.get("expect", ["200"])[0])))
+                assets = [a for a in q.get("assets", [""])[0].split(",") if a.startswith("/images/")]
+                return self.send_json(check_live(q.get("path", ["/"])[0], int(q.get("expect", ["200"])[0]), q.get("sha", [""])[0], assets))
         except UserError as e:
             return self.send_json({"error": str(e)}, 400)
         self.send_json({"error": "Not found"}, 404)
