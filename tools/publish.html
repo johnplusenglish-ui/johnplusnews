@@ -41,6 +41,7 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
 .seg input:focus-visible + span { outline:2px solid var(--accent); outline-offset:2px; }
 .vbox { margin-top:16px; }
 .vbox[hidden] { display:none; }
+.vbox label[hidden], .vbox textarea[hidden], .vbox .hint[hidden] { display:none !important; }
 .vbox > label { display:block; font-weight:600; font-size:.9375rem; color:var(--ink); margin-bottom:6px; }
 .vbox > label.opt { font-weight:500; font-size:.875rem; margin:12px 0 4px; }
 .vbox > label.opt:first-child { margin-top:0; }
@@ -242,6 +243,7 @@ function renderLevels() {
     const ll = document.createElement("label"); ll.className = "opt"; ll.htmlFor = "lg-" + l; ll.style.marginTop = "14px"; ll.textContent = "Useful language in the " + l + " text (optional)";
     const lg = document.createElement("textarea"); lg.id = "lg-" + l; lg.rows = 5; lg.className = "sub"; lg.spellcheck = true; lg.placeholder = "One item per line, like:\nturn up (phrasal verb): to arrive somewhere\nexhausting (adjective): making you very tired\nin the long run (phrase): over a long period of time";
     const lh = document.createElement("div"); lh.className = "hint"; lh.id = "lgc-" + l;
+    ll.hidden = true; lg.hidden = true; lh.hidden = true;   // the useful-language box is paused; kept in the page so nothing else needs to change
     const al = document.createElement("label"); al.className = "opt"; al.htmlFor = "au-" + l; al.style.marginTop = "16px"; al.textContent = "Recording of the " + l + " version (optional)";
     const af = document.createElement("input"); af.type = "file"; af.id = "au-" + l; af.accept = "audio/*,.m4a,.mp3,.wav,.aif,.aiff,.caf";
     const ah = document.createElement("div"); ah.className = "hint"; ah.id = "auh-" + l;
