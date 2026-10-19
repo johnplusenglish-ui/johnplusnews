@@ -141,6 +141,7 @@
       progress = {};
       fire("jpn:auth");
       drawHeader();
+      applyGate();
       markCards();
       if (t) raw("POST", "/auth/v1/logout", { token: t }).catch(function () {});
       if (document.querySelector(".prose")) location.reload();
@@ -709,10 +710,43 @@
     else if (PAGE === "teacher") renderTeacher();
   }
 
+  /* ================================================================= the free articles
+     Anyone who is not signed in sees only the newest few articles; the rest are hidden by the page (CSS keys off the jpn-guest class). */
+  function applyGate() {
+    document.documentElement.classList.toggle("jpn-guest", !me);
+    [].forEach.call(document.querySelectorAll(".gate-note, .lock-panel"), function (n) { n.parentNode.removeChild(n); });
+    if (me) return;
+    var gallery = document.querySelector(".gallery");
+    if (gallery) {
+      var hidden = gallery.querySelectorAll(".card:not([data-free])").length;
+      if (hidden) {
+        var note = el("div", "gate-note");
+        var p = el("p"); p.appendChild(el("strong", "", hidden + (hidden === 1 ? " more article is" : " more articles are") + " for members."));
+        p.appendChild(document.createTextNode(" Create a free account to read them all."));
+        var b = el("button", "acct-go", "Create a free account"); b.type = "button"; b.addEventListener("click", function () { openDialog("signup"); });
+        note.appendChild(p); note.appendChild(b);
+        gallery.parentNode.insertBefore(note, gallery.nextSibling);
+      }
+    }
+    var art = document.querySelector("article[data-locked]");
+    var head = art && art.querySelector(".article-head");
+    if (head) {
+      var panel = el("div", "lock-panel");
+      var q = el("p"); q.appendChild(el("strong", "", "This article is for members."));
+      q.appendChild(document.createTextNode(" Create a free account to read it, and to save the words you highlight."));
+      var go = el("button", "acct-go", "Create a free account"); go.type = "button"; go.addEventListener("click", function () { openDialog("signup"); });
+      var si = el("button", "acct-link", "I already have an account"); si.type = "button"; si.addEventListener("click", function () { openDialog("signin"); });
+      var more = el("a", "more", "Read the free articles"); more.href = "/";
+      panel.appendChild(q); panel.appendChild(go); panel.appendChild(si); panel.appendChild(more);
+      head.appendChild(panel);
+    }
+  }
+
   /* ================================================================= start */
   function start(fresh) {
     return loadMe().then(function () {
       drawHeader();
+      applyGate();
       if (!me) { renderPage(); return; }
       var owner = read("jpn_hl_owner"), first = Promise.resolve();
       if (fresh) {

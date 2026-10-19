@@ -36,6 +36,8 @@ SITE = {
 NAV = [("/", "Articles"), ("/about/", "About")]
 LEVELS = ["Core", "Intermediate", "Advanced"]
 LANGUAGE_ON = False  # the useful-language boxes are paused; the lists stay in the article files
+FREE_COUNT = 3  # readers who are not signed in see only this many of the newest articles (when accounts are switched on)
+FREE_SLUGS = set()
 DEFAULT_LEVEL = "Intermediate"  # the tab a new reader lands on (the first one if an article has no Intermediate)
 
 
@@ -465,7 +467,7 @@ def page(path, main, title=None, desc=None, current=None, image=None, kind="webs
         '<a href="{}"{}>{}</a>'.format(href, ' aria-current="page"' if href == current else "", label)
         for href, label in NAV
     )
-    head_extra = head_extra + account_scripts()
+    head_extra = (GUEST_JS if accounts_on() else "") + head_extra + account_scripts()
     og_image = '<meta property="og:image" content="{}">'.format(
         esc(image if image.startswith("http") else SITE["url"] + asset(image))) if image else ""
     return """<!doctype html>
@@ -580,7 +582,7 @@ FINDER_JS = (
     '(function(){var i=document.getElementById("q");if(!i)return;i.closest(".finder").hidden=false;'
     'var c=[].slice.call(document.querySelectorAll(".gallery .card")),n=document.getElementById("nomatch");'
     'function go(){var t=i.value.toLowerCase().split(/\\s+/).filter(Boolean),k=0;'
-    'c.forEach(function(x){var q=x.getAttribute("data-q")||"",ok=t.every(function(w){return q.indexOf(w)>-1});x.hidden=!ok;if(ok)k++});'
+    'c.forEach(function(x){var q=x.getAttribute("data-q")||"",ok=t.every(function(w){return q.indexOf(w)>-1});x.hidden=!ok;if(ok&&(!document.documentElement.classList.contains("jpn-guest")||x.hasAttribute("data-free")))k++});'
     'if(n)n.hidden=k>0}'
     'i.addEventListener("input",go);go()})();'
 )
@@ -604,9 +606,10 @@ def card(a):
     else:
         thumb = '<span class="blank">{}</span>'.format(esc(" \u00b7 ".join(t["label"] for t in a["tags"]) or levels_label(a)))
     return (
-        '<li class="card" data-q="{q}"><div class="thumb">{thumb}</div>{meta}'
+        '<li class="card" data-q="{q}"{free}><div class="thumb">{thumb}</div>{meta}'
         '<h2><a href="{url}">{title}</a></h2><p class="sub">{summary}</p></li>'
-    ).format(thumb=thumb, meta=card_meta(a), url=url_of(a), title=esc(a["title"]), summary=esc(a["summary"]), q=esc(search_text(a)))
+    ).format(thumb=thumb, meta=card_meta(a), url=url_of(a), title=esc(a["title"]), summary=esc(a["summary"]), q=esc(search_text(a)),
+        free=' data-free="1"' if a["slug"] in FREE_SLUGS else "")
 
 
 def gallery_page(arts, topics=(), topic=None):
@@ -772,6 +775,16 @@ def versioned(name):
     return '<script src="/{}?v={}" defer></script>\n'.format(name, hashlib.md5(f.read_bytes()).hexdigest()[:8])
 
 
+def accounts_on():
+    """Accounts are on when static/config.js names a Supabase project."""
+    f = STATIC / "config.js"
+    return f.exists() and bool(re.search(r'url:\s*"https?://[^"]+"', f.read_text(encoding="utf-8")))
+
+
+# Runs in <head> before the page paints, so a reader who is not signed in never sees the locked articles flash up.
+GUEST_JS = '<script>try{if(!localStorage.getItem("jpn_session"))document.documentElement.classList.add("jpn-guest")}catch(e){document.documentElement.classList.add("jpn-guest")}</script>\n'
+
+
 def account_scripts():
     """Sign-in lives in static/account.js and does nothing until static/config.js names a Supabase project."""
     return versioned("config.js") + versioned("account.js")
@@ -888,10 +901,12 @@ def article_page(a, newer, older):
         source = '<p class="source">Source: {}</p>'.format(name)
     pager = ""
     if newer or older:
-        left = '<a href="{}"><small>Older article</small>{}</a>'.format(url_of(older), esc(older["title"])) if older else "<span></span>"
-        right = '<a class="next" href="{}"><small>Newer article</small>{}</a>'.format(url_of(newer), esc(newer["title"])) if newer else ""
+        def gate(x):
+            return "" if x["slug"] in FREE_SLUGS else " data-lock"
+        left = '<a href="{}"{}><small>Older article</small>{}</a>'.format(url_of(older), gate(older), esc(older["title"])) if older else "<span></span>"
+        right = '<a class="next" href="{}"{}><small>Newer article</small>{}</a>'.format(url_of(newer), gate(newer), esc(newer["title"])) if newer else ""
         pager = '<nav class="pager" aria-label="More articles">{}{}</nav>'.format(left, right)
-    main = """<article class="wrap">
+    main = """<article class="wrap"{locked}>
 <header class="article-head">
 <a class="back" href="/">&larr; All articles</a>
 <div class="metarow{tabcls}"><div class="metaleft"{printlevel}>{tabs}{meta}</div>{picker}</div>
@@ -909,7 +924,7 @@ def article_page(a, newer, older):
 {topics}
 {pager}
 <p class="print-foot">{foot}</p>
-</article>""".format(tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
+</article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
                      topics=topics_html(a), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), after=questions_html(a, "after"), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))
     no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
@@ -954,6 +969,8 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
             if v["audio"] and not v["audio"].startswith("http") and not (static_dir / v["audio"].lstrip("/")).is_file():
                 sys.exit("The {} version of '{}' points to a recording that does not exist: {}".format(v["level"], a["title"], v["audio"]))
     attach_thumbs(arts, static_dir)
+    FREE_SLUGS.clear()
+    FREE_SLUGS.update(a["slug"] for a in arts[:FREE_COUNT])
     OUT = out_dir
     if out_dir.exists():
         shutil.rmtree(out_dir)
