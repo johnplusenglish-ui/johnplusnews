@@ -3,7 +3,7 @@ date: 2026-10-13
 summary: In 1998, Karl Bushby started walking home to Hull from the bottom of South America. Almost 28 years later, he is nearly there.
 tags: Travel, Lifestyle
 source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/oct/13/karl-bushby-incredible-28-year-walk-home-goliath-expedition-hull
-image: images/the-man-who-spent-28-years-walking-home-9b7add.jpg
+image: images/the-man-who-spent-28-years-walking-home-50d808.jpg
 ---
 === Core ===
 
