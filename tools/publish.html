@@ -19,6 +19,7 @@ header .in { max-width:1120px; margin:0 auto; padding:0 20px; min-height:60px; d
 .brand { font-weight:700; font-size:1.2rem; letter-spacing:-.02em; color:var(--ink); }
 .brand span { color:var(--accent); }
 .tag { font-size:.8125rem; font-weight:600; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); }
+.listfind { width:100%; font:inherit; font-size:.9375rem; padding:9px 12px; border:1px solid #cfd4dc; border-radius:8px; margin:0 0 12px; background:#fff; color:var(--ink); }
 .navl { text-decoration:none; font-weight:600; font-size:.9375rem; padding:6px 12px; border-radius:999px; color:var(--muted); }
 .navl[aria-current="page"] { background:var(--accent-soft); color:var(--accent); }
 header .live { margin-left:auto; font-size:.9375rem; text-decoration:none; font-weight:500; }
@@ -158,6 +159,7 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
 <aside class="panel" aria-labelledby="listTitle">
   <h2 id="listTitle">Your articles</h2>
   <p style="margin:0 0 14px"><button type="button" class="linkbtn" id="newBtn">Start a new article</button></p>
+  <input type="search" id="listFind" class="listfind" placeholder="Search your articles" aria-label="Search your articles">
   <ul class="list" id="list"></ul>
 </aside>
 </main>
@@ -436,8 +438,11 @@ function clearDraft() { try { localStorage.removeItem("jpn_draft2"); } catch (e)
 let articles = [];
 function renderList() {
   const ul = $("list"); ul.textContent = "";
+  const q = ($("listFind").value || "").trim().toLowerCase();
+  const shown = q ? articles.filter(a => (a.title + " " + (a.tags || []).join(" ") + " " + a.slug).toLowerCase().includes(q)) : articles;
+  if (articles.length && !shown.length) { const li = document.createElement("li"); li.className = "empty"; li.textContent = "No article matches that search."; ul.appendChild(li); return; }
   if (!articles.length) { const li = document.createElement("li"); li.className = "empty"; li.textContent = "No articles yet."; ul.appendChild(li); return; }
-  articles.forEach(a => {
+  shown.forEach(a => {
     const li = document.createElement("li"); li.className = "item" + (a.slug === editing ? " cur" : "");
     const t = document.createElement("div"); t.className = "t"; t.textContent = a.title;
     const m = document.createElement("div"); m.className = "m"; m.textContent = [(a.levels || []).join(", "), a.date].filter(Boolean).join(" · ");
@@ -449,6 +454,7 @@ function renderList() {
     acts.append(r); li.append(t, m, acts); ul.appendChild(li);
   });
 }
+$("listFind").addEventListener("input", renderList);
 async function refreshList() { try { articles = (await api("/api/articles")).articles; } catch (e) {} renderList(); renderTags(); }
 
 async function openArticle(slug, force) {

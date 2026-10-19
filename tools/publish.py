@@ -112,7 +112,11 @@ def list_articles():
             "draft": meta.get("draft", "").lower() in ("yes", "true", "1"),
             "live_url": "{}/articles/{}/".format(build.SITE["url"], slug),
         })
-    rows.sort(key=lambda r: (r["date"], r["slug"]), reverse=True)
+    # the same order as the home page of the site: newest date first, then the order they were added
+    order = {}
+    for path, meta, body, slug in article_files(CONTENT):
+        order[slug] = (meta.get("date", ""), build.added_at(path), slug)
+    rows.sort(key=lambda r: order.get(r["slug"], (r["date"], 0, r["slug"])), reverse=True)
     return rows
 
 
@@ -245,7 +249,10 @@ def list_pictures():
                      "credit": meta.get("image-credit", ""), "credit_url": meta.get("image-credit-url", ""),
                      "licence": meta.get("image-licence", ""), "licence_url": meta.get("image-licence-url", ""),
                      "note": meta.get("image-credit-note", ""), "live_url": "{}/articles/{}/".format(build.SITE["url"], slug)})
-    rows.sort(key=lambda r: (r["date"], r["slug"]), reverse=True)
+    order = {}
+    for path, meta, body, slug in article_files(CONTENT):
+        order[slug] = (meta.get("date", ""), build.added_at(path), slug)
+    rows.sort(key=lambda r: order.get(r["slug"], (r["date"], 0, r["slug"])), reverse=True)
     return rows
 
 
