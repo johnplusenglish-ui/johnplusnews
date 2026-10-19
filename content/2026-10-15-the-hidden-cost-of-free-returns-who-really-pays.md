@@ -1,17 +1,18 @@
 title: The Hidden Cost of Free Returns: Who Really Pays?
 date: 2026-10-04
-summary: Free returns make online shopping feel risk-free, but sending goods back costs retailers money and harms the environment. Who really pays?
+summary: Printing a returns label takes seconds; deciding what to do with the unwanted item can take much longer.
 tags: Business, Environment
 source: The Guardian | https://www.theguardian.com/business/2026/oct/04/retailers-returns-small-business
 image: images/the-hidden-cost-of-free-returns-who-really-pays-e3912f.jpg
 ---
 === Core ===
 
-summary: Free returns feel simple for shoppers. But somebody still pays for the journey back to the warehouse. Who is it?
+title: What Happens to the Clothes You Send Back?
+summary: The return costs you nothing. The parcel's journey has only just begun.
 
-You order three pairs of trainers online because you cannot decide which size will fit. When the box arrives, you keep one pair and send two back. The shop offers free returns, so it costs you nothing extra. But somebody still pays for the return journey, the packaging and the staff who check the shoes.
+A jacket arrives at your door. It looked perfect online, but the sleeves are too long, so you put it back in the bag and print a free returns label. For you, the story is over. For the jacket, it has only just begun. A van collects it, a warehouse worker opens it and somebody must decide whether it can be sold again. "Free" describes what you pay at the post office, not what the return really costs.
 
-Returns are now a normal part of online shopping, especially for clothing. According to the US National Retail Federation, almost one in five online purchases was expected to be returned in 2025. The organisation estimated that shoppers would return nearly $850 billion worth of goods, from online and physical shops combined. That figure is the value of the products, not the cost of processing them.
+Online returns are especially common with clothes because customers cannot try them on first. According to the US National Retail Federation, almost one in five online purchases was expected to be returned in 2025. Across online and physical shops, retailers expected goods worth nearly $850 billion to come back. That figure is the value of the products, not the cost of checking, storing and moving them.
 
 When a parcel arrives back at a warehouse, workers may need to open it, inspect the product and decide whether it can be sold again. Transport and storage also cost money. Some items are damaged or no longer in season, so retailers struggle to sell them. Clothing returns can also produce extra packaging waste and pollution. If an item cannot be sold as new, the shop may have to lower its price or sell it on to another buyer.
 
@@ -35,13 +36,15 @@ Better size guides, accurate photos and helpful reviews could prevent some unnec
 
 === Intermediate ===
 
-The online purchase takes less than a minute. You order three jackets, planning to keep whichever fits best and send the others back. When the parcel arrives, you try everything on and print a returns label. The whole process seems almost effortless, particularly when the website promises free returns. Yet the journey of the unwanted jackets has only just begun. Behind that convenient policy sits a complicated and increasingly expensive business operation.
+title: The Returned Jacket Nobody Wants
 
-Returns are particularly common in fashion, where photographs and size charts cannot replace trying clothes on. According to the US National Retail Federation, around 19% of online sales were expected to be returned in 2025. Across all types of shopping, American retailers expected customers to return goods worth nearly $850 billion that year. This figure measures the value of returned products, not the money spent handling them, but it shows how enormous the market has become. For retailers, a returned parcel is far more than a cancelled sale.
+You try on three jackets, keep one and seal the other two in their original bags. A returns label appears in seconds, and the parcel disappears from your life. Inside the retailer's system, however, the unwanted jackets begin a difficult journey in the wrong direction. They must be collected, opened, inspected and given a new destination. Some return to stock. Others lose value with every mile.
+
+This is no small side operation. The US National Retail Federation expected around 19% of online sales to be returned in 2025, with goods worth nearly $850 billion flowing back to American retailers across all types of shopping. The figure is not the processing bill, but it reveals the scale of the problem. For a fashion business, a returned product is not simply a sale that vanished; it is a fresh logistics job with no guarantee of a second customer.
 
 Each item may need collecting, transporting, checking, cleaning, repackaging and putting back into stock. If it is damaged or out of season, selling it again may be difficult. Some products are reduced in price, sold through other businesses or discarded. Research supported by the British Fashion Council has highlighted the environmental impact of clothing returns, including extra transport, wasted materials and garments that cannot be resold. A generous returns policy therefore has consequences for both company profits and the planet.
 
-Retailers have started responding with return charges, shorter deadlines and stricter conditions. From a business perspective, making customers pay a small fee can help claw back some costs. But there is a risk: people who cannot try products on before buying them may decide the shop is no longer worth the trouble. In an October 2026 Guardian business column, an accountant argued that sensible companies should factor in the normal cost of returns instead of treating them as a surprise.
+Retailers have started responding with return charges, shorter deadlines and stricter conditions. From a business perspective, making customers pay a small fee can help claw back some costs. But there is a risk: people who cannot try products on before buying them may decide the shop is no longer worth the trouble. In an October 2026 Guardian business column, an accountant argued that sensible companies should plan for the normal cost of returns instead of treating them as a surprise.
 
 There is also a legal difference between returning something because you have changed your mind and returning a faulty product. In Britain, most online shoppers have a fourteen-day cancellation period after delivery, with another fourteen days to return the goods. They may have to cover the return postage for unwanted items when properly informed, while the retailer must normally refund the standard original delivery charge. A September investigation by Which? found that some well-known shops failed to meet their refund obligations, even when customers were entitled to their money back.
 
@@ -61,11 +64,12 @@ The more useful solution may begin before the customer clicks Buy. Accurate meas
 
 === Advanced ===
 
-summary: Free returns shift the risk from shoppers to retailers' logistics. As charges and refund disputes grow, who bears the real cost?
+title: Free Returns and the Journey Backwards
+summary: The convenience of a home fitting room depends on a costly system moving unwanted goods in reverse.
 
-The modern online wardrobe can function as a temporary fitting room. Customers order several sizes, inspect the clothes at home and return whatever fails to impress. At checkout, free returns appear to remove the risk of buying something sight unseen. In reality, they transfer that risk into the retailer's logistics system, where a rejected garment must travel backwards through a chain designed primarily to send products in the opposite direction. The customer may pay nothing to initiate the return, but the transaction remains far from costless.
+The customer's living room has become an unofficial fitting room. Several sizes arrive, one survives the inspection and the rest are sent back at the click of a button. The transaction feels almost risk-free because the returns label is free. Yet the unwanted garment must now travel backwards through a system built to move products towards customers. Its commercial value can fall while the transport, labour and storage costs continue to rise.
 
-The scale is substantial. The US National Retail Federation estimated that 19.3% of online sales would be returned in 2025 and projected almost $850 billion in returned merchandise across retail. That headline figure represents the value of goods flowing back to sellers, not an equivalent bill for processing them. Nevertheless, it illustrates why returns have moved from an occasional inconvenience to a central commercial concern. Clothing retailers are especially exposed because inconsistent sizing and uncertainty about fit encourage customers to order multiple versions of the same item.
+The scale is formidable. The US National Retail Federation estimated that 19.3% of online sales would be returned in 2025 and projected nearly $850 billion in returned merchandise across retail. That headline figure is the value of the goods, not the cost of processing them, but it explains why the journey after a return has become a central commercial concern rather than an occasional inconvenience.
 
 What happens next is known as reverse logistics: collecting goods, checking their condition, deciding whether they can be resold and directing them towards warehouses, discount outlets or disposal. These activities absorb labour, transport capacity and storage space. A garment that arrives too late for its season may be worth little even if it remains unworn. Research commissioned by the British Fashion Council has linked fashion returns to substantial emissions and waste, while academic analysis of European returned clothing suggests that a significant share never reaches another consumer.
 
@@ -73,7 +77,7 @@ There is no straightforward commercial answer. Charging for returns can recover 
 
 Consumer protection complicates the picture further. Under UK distance-selling rules, customers normally have fourteen days after delivery to cancel most online purchases without giving a reason and a further fourteen days to send the goods back. Retailers must generally refund the original standard delivery charge, although consumers can be required to cover the cost of returning unwanted goods when properly informed. Faulty items involve different rights. A September 2026 investigation by Which? found that several major retailers had failed to provide refunds in accordance with the law, demonstrating that the economics of returns cannot simply override statutory obligations.
 
-The most promising improvements may be less confrontational. Better sizing information, accurate product images and more reliable descriptions could reduce the number of purchases that disappoint in the first place. More efficient sorting and resale systems could also help returned goods filter back into resale channels and preserve their value. Yet the central contradiction remains: online retailers have encouraged consumers to behave as though their living rooms were fitting rooms with unlimited delivery. Winding back that expectation without damaging trust will require more than adding a charge at checkout.
+The most promising improvements may be less confrontational. Better sizing information, accurate product images and more reliable descriptions could reduce the number of purchases that disappoint in the first place. More efficient sorting and resale systems could also preserve the value of goods that do come back. Yet the central contradiction remains: online retailers have encouraged consumers to behave as though their living rooms were fitting rooms with unlimited delivery. Winding back that expectation without damaging trust will require more than adding a charge at checkout.
 
 === Advanced language ===
 
@@ -89,14 +93,14 @@ The most promising improvements may be less confrontational. Better sizing infor
 
 === Before you read ===
 
-- When buying clothes online, do you order different sizes and send some back?
-- Would you buy less from a shop if you had to pay to return unwanted items?
-- Who do you think should pay when an online order is returned: the customer, the retailer or both?
+- How often do you return something you bought online?
+- What work happens after you print a returns label?
+- Should a convenient return always be free for the customer?
 
 === Talk about it ===
 
-- Why might free returns encourage people to buy more than they need?
-- On a scale of 1 to 10, how important is an easy returns policy when choosing an online shop?
-- Is it fair to charge customers for returning clothes that simply do not fit?
-- What could retailers do to reduce returns without making shopping more difficult?
-- Should the environmental costs of delivery and returns be shown at checkout? Why or why not?
+- Who should pay for unwanted returns: the customer, the retailer or both?
+- Would a small return fee change the way you shop online?
+- Which would reduce returns most: better sizing, better photos or stricter rules?
+- Is ordering several sizes sensible shopping or avoidable waste?
+- How can retailers protect consumer rights without encouraging unnecessary returns?

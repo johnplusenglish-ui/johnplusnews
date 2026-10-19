@@ -1,15 +1,15 @@
 title: Why Don't We Invite Friends Over Any More?
 date: 2026-10-06
-summary: People used to regularly invite friends round for dinner or a cup of tea. But these days, many prefer meeting in cafés and restaurants. So why has entertaining at home become such a stressful experience?
+summary: A casual cup of tea has acquired a long list of conditions: a clean home, impressive food and a free evening.
 tags: Relationships, Lifestyle
 image: images/why-dont-we-invite-friends-over-any-more-ebb963.jpg
 ---
 === Core ===
 
-title: Why Don't We Have Friends Round?
-summary: Fewer people invite friends to their homes these days. Why has having friends round become so stressful?
+title: Why Don't We Invite Friends In?
+summary: We want to see our friends, but the laundry, the cooking and the cleaning can stop us asking.
 
-When was the last time you invited a friend to your home for a cup of tea or an easy dinner? Not for a birthday or a special event, but simply to spend time together. Many people now prefer meeting in a café or restaurant. Others stay at home and catch up with friends online. Having people round can feel like a bigger job than it used to.
+You start writing a message: "Would you like to come over tonight?" Then you notice the dishes in the sink, the clothes drying in the living room and the empty fridge. You delete the message and suggest a café next week instead. Seeing a friend should be simple, but inviting someone into our home can feel like a job that needs cleaning, cooking and careful planning.
 
 One reason is the pressure to make everything look perfect. Social media is full of clean kitchens, beautiful tables and wonderful food. Real homes are usually messier. There may be clothes drying, toys on the floor or dishes in the sink. Some people worry that visitors will notice these things, even though their friends probably do not care very much.
 
@@ -33,7 +33,9 @@ Perhaps we need to change what we expect from being a good host. It is fine to b
 
 === Intermediate ===
 
-A few friends arrive, someone puts the kettle on, and the evening unfolds without much planning. It sounds like a simple pleasure, yet inviting people into our homes can now feel strangely complicated. Instead of asking friends round for an informal meal or a chat, many of us meet in cafés, book restaurants, opt for a night in or postpone plans until everyone's calendar is free. The idea of hosting has somehow become an event in itself.
+title: When Did Having Friends Over Become Such a Big Event?
+
+You are about to invite a friend round when you notice the laundry, the dishes and the fact that dinner would probably be a takeaway. The message remains unsent. A simple visit has somehow become an event for which the home, the food and the host must all be properly prepared. Meeting in a café next week feels easier, even if next week eventually becomes next month.
 
 Part of the problem is the pressure to present a perfect home. Social media offers endless photographs of spotless kitchens, stylish furniture and carefully prepared meals. Ordinary life is less impressive. There are clothes hanging up, bills on the table and perhaps a bathroom that could do with cleaning. It is easy to feel embarrassed about these things, even when the people we invite are unlikely to notice them.
 
@@ -60,10 +62,10 @@ Perhaps the answer is to lower our standards rather than abandon hosting. Ask fr
 
 === Advanced ===
 
-title: The Lost Art of Having People Round
-summary: As dinner parties fall out of fashion and our homes become increasingly private spaces, have we forgotten one of the simplest ways to maintain friendships?
+title: Hospitality or Performance? Why We Stopped Inviting People In
+summary: Domestic perfection has turned an ordinary act of friendship into a test many people would rather avoid.
 
-The modern dinner invitation can arrive burdened with expectations that would once have seemed faintly ridiculous. The house must be spotless, the food impressive and the evening carefully organised around everyone's diaries. What ought to be an informal expression of friendship has acquired the qualities of a minor production. Little wonder that meeting at a restaurant can appear the less stressful option, even when it costs considerably more.
+The invitation is almost sent. Then the host notices the laundry, the crowded kitchen and the absence of anything impressive to serve. A casual evening is postponed until the home looks better and everyone's diary aligns. What ought to be an ordinary expression of friendship has acquired the demands of a minor production. The result is a curious paradox: people who want more connection can be prevented from asking for it by the performance of being a good host.
 
 Much of the anxiety is about presentation. Social media has helped establish an aesthetic of domestic perfection in which homes look permanently ready for a magazine photograph. Against that background, the ordinary evidence of living can begin to feel like failure. A pile of washing, an ageing sofa or a crowded kitchen becomes something to apologise for, although friends rarely visit in the hope of inspecting the furniture. Hosting is no longer simply about welcoming people; it can feel like a test of competence and taste.
 
@@ -73,7 +75,7 @@ The change sits within a broader retreat from face-to-face socialising. Analysis
 
 It would be unfair to romanticise the past. Invitations were never equally convenient for everyone, and the labour of cooking and cleaning has often fallen disproportionately on women. Restaurants can offer genuinely neutral ground, especially for people whose homes are small or shared. Yet the answer to an unequal division of domestic work need not be the abandonment of hospitality. Guests can contribute food, help clear away the plates or accept that a visit involves sharing the household's ordinary imperfections.
 
-What may need reviving is not the elaborate dinner party but the modest invitation, with all the performance stripped away. A pot of tea, a shop-bought dessert or a simple supper can create room for conversations that rarely develop through hurried messages. Friendship does not require polished surroundings. It requires repeated opportunities to spend unhurried time together. The real loss would be to mistake hospitality for performance and, in doing so, forget how easy it can be to make someone feel welcome.
+What may need reviving is not the elaborate dinner party but the modest invitation. A pot of tea, a shop-bought dessert or a simple supper can create room for conversations that rarely develop through hurried messages. Friendship does not require polished surroundings. It requires repeated opportunities to spend unhurried time together. The real loss would be to mistake hospitality for performance and, in doing so, forget how easy it can be to make someone feel welcome.
 
 === Advanced language ===
 
@@ -89,14 +91,14 @@ What may need reviving is not the elaborate dinner party but the modest invitati
 
 === Before you read ===
 
-- When did you last invite a friend to your home? What did you do together?
-- Do you prefer meeting friends at home, or in a café or restaurant? Why?
-- What makes some people nervous about having guests?
+- When did you last invite someone over without a special reason?
+- What would you worry about most: the food, the mess or the conversation?
+- Would an unexpected visit feel friendly or inconsiderate?
 
 === Talk about it ===
 
-- Which reason in the article feels most true for you: cleaning, a perfect home, cooking, busy lives, or being happy alone?
-- Is it rude to visit a friend without arranging it first? Has this changed in your country?
-- Do you think social media makes people feel that their home is not good enough?
-- "Being entertained isn't the same as feeling connected." Do you agree?
-- What is the easiest way to make hosting less stressful? Would you invite someone this week?
+- Has social media changed what a "presentable" home looks like?
+- Why can meeting in a public place feel easier than inviting someone in?
+- Who usually does the work when people are hosted at home?
+- What is the difference between hospitality and performance?
+- What is the simplest invitation you could realistically make this week?

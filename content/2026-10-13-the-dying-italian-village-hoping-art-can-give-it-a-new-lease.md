@@ -1,18 +1,18 @@
 title: The Dying Italian Village Hoping Art Can Save Its Future
 date: 2026-10-12
-summary: An ancient Italian village is slowly disappearing because of erosion. Now, a major art project could give it a new lease of life.
+summary: A million-euro cultural programme offers hope to a hilltop village threatened by erosion and depopulation.
 tags: Culture, Travel
 image: images/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-f6cd98.jpg
 image-alt: A medieval stone village on a crumbling hilltop in central Italy, reached by a long footbridge, with green valleys and mountains behind it.
 ---
 === Core ===
 
-title: Can Art Save Italy's Dying Village?
-summary: The village of Civita di Bagnoregio is slowly disappearing. Now a big art project may give it a new future.
+title: Can Art Save Italy's Dying Town?
+summary: Civita has tourists, beauty and a new art prize, but the ground beneath it is disappearing.
 
-To reach Civita di Bagnoregio, visitors must walk along a long bridge high above a valley. The village sits on top of a rocky hill in central Italy, with old stone houses and narrow streets. It looks beautiful, but the ground underneath it is slowly wearing away. For this reason, local people have called it the Dying Town for many years.
+The bridge to Civita di Bagnoregio hangs high above a valley. Visitors walk across it towards stone houses, narrow streets and a view that looks almost unreal. Then they look down. Rain and wind are slowly wearing away the soft rock beneath the village. Parts of the hill have already disappeared. Civita is beautiful, famous and in physical danger, which is why local people have long called it the Dying Town.
 
-Civita was founded more than 2,500 years ago and has a long history. Rain and wind have damaged the soft rock around it, and parts of the hill have fallen away over time. Today only a small number of people live permanently in the old village. Tourists love visiting, but settling down there is not easy. People need shops, services, jobs and safe buildings, not just beautiful views.
+The village was founded more than 2,500 years ago, but only a small number of people now live permanently in its old centre. Tourists fill the streets at busy times, then leave again. A crowded afternoon can hide the harder question: who will live and work there all year? A real community needs safe buildings, services and jobs, not only visitors taking photographs.
 
 In October 2026, Italy's culture minister announced that Civita and the nearby town of Bolsena had won the title of Italian Capital of Contemporary Art for 2028. Their joint project will receive one million euros for cultural activities. The plan includes art projects, events and spaces where creative people can work. Organisers also want to involve young people and schools.
 
@@ -34,9 +34,11 @@ There is also a problem that art cannot solve on its own. Civita's hill is still
 
 === Intermediate ===
 
-From a distance, Civita di Bagnoregio looks almost unreal. Medieval stone buildings stand on a narrow hilltop, separated from the surrounding countryside by steep valleys. Visitors reach it across a long pedestrian bridge, often stopping to photograph a place that seems untouched by time. But the landscape is changing beneath their feet. Erosion has weakened the rock for centuries, earning Civita the unsettling nickname the Dying Town.
+title: The Village Crumbling Beneath Its Visitors
 
-The village's history stretches back to the Etruscans, more than 2,500 years ago. Today, only a handful of people live permanently in its old centre. Tourism has helped keep businesses going, yet the settlement faces difficulties familiar to small communities across Italy. Young people leave in search of jobs, services become harder to maintain, and the number of year-round residents falls. A busy summer street can look very different in winter.
+Halfway across the footbridge to Civita di Bagnoregio, the village seems to float above the valley. Its medieval buildings attract cameras from every direction, but the dramatic view is also a warning. Erosion has been eating into the soft rock for centuries. The hilltop is not merely picturesque; it is unstable. Civita's nickname, the Dying Town, describes both the land falling away and the tiny community trying to remain on it.
+
+The settlement dates back more than 2,500 years, yet only a handful of people now live permanently in its old centre. Tourism keeps businesses going, but it does not automatically restore the services, employment and ordinary routines that make year-round life possible. In summer, the bridge can be full. In winter, the difference between a successful attraction and a living village becomes much harder to ignore.
 
 In October 2026, Civita and the nearby lakeside town of Bolsena received an unexpected opportunity. The two places were chosen together as Italy's Capital of Contemporary Art for 2028, beating other finalists including Capri, Padua and Pozzuoli. The winning project, called "Arte che viene, arte che va", will receive one million euros in public funding. Its organisers hope to develop exhibitions, creative spaces and programmes involving schools and young artists.
 
@@ -60,16 +62,16 @@ Still, the award changes the conversation. Instead of being known only as a beau
 
 === Advanced ===
 
-title: A Dying Village, a New Canvas: Can Art Secure Civita's Future?
-summary: An ancient hilltop village threatened by erosion has been named Italy's 2028 capital of contemporary art. But can creativity secure its future?
+title: Can Culture Keep Civita Alive?
+summary: Contemporary art may bring attention and opportunity; keeping a community alive demands something more durable.
 
-Civita di Bagnoregio seems designed to be admired from a distance. Its medieval houses cling to a fragment of hilltop above the eroded valleys of northern Lazio, connected to the modern world by a long pedestrian bridge. The setting has made the village a magnet for visitors and photographers. It has also given rise to a less romantic description: "La Città che Muore", the Dying Town, a place whose foundations are gradually being undermined by the landscape itself.
+The long footbridge to Civita di Bagnoregio creates the perfect approach to a beautiful place, and exposes the reason for its fragility. Medieval houses cling to a shrinking fragment of hilltop above the eroded valleys of northern Lazio. Visitors pause to photograph the spectacle; beneath them, rain and wind continue working on the soft volcanic material. "La Città che Muore", the Dying Town, is not simply an evocative nickname. It is a geological description.
 
-Founded in Etruscan times, Civita has survived political upheaval and centuries of environmental change, but permanent settlement has dwindled to a tiny community. Tourism sustains parts of the local economy without resolving the familiar problems of rural depopulation: limited employment, fragile public services and the departure of younger residents. The contrast between the crowded visitor route and the quiet life of the village raises a difficult question. Can a place remain culturally vibrant if it ceases to function as a community?
+Civita has survived since Etruscan times, but permanent settlement has dwindled to a tiny community. Tourism sustains cafés and guesthouses without solving the familiar problems of rural depopulation: limited employment, fragile services and the departure of younger residents. The contrast between a crowded visitor route and a nearly empty village raises an awkward question. Can a place remain culturally alive if it functions mainly as scenery?
 
 An answer, or at least a new experiment, came along in October 2026 when Civita and nearby Bolsena were jointly designated Italy's Capital of Contemporary Art for 2028. Their proposal, "Arte che viene, arte che va", won against entries from Capri, Padua and Pozzuoli, securing a million euros of public funding. The scheme envisages more than temporary exhibitions. Its ambitions include creative infrastructure, collaboration with educational institutions and opportunities for younger artists to engage with the region.
 
-The choice reflects a view of culture as a tool for regional development that has gained traction in recent years. A well-designed programme can bring in investment, new partnerships and year-round activity to places otherwise known largely for their heritage. Contemporary art may also challenge the tendency to treat historic villages as finished objects, picturesque surroundings to be consumed rather than communities capable of change. Yet attention does not always translate into durable economic opportunities.
+The choice reflects an increasingly influential view of culture as a tool for regional development. A well-designed programme can bring in investment, new partnerships and year-round activity to places otherwise known largely for their heritage. Contemporary art may also challenge the tendency to treat historic villages as finished objects, picturesque surroundings to be consumed rather than communities capable of change. Yet cultural projects often struggle to convert short-term attention into durable economic opportunities.
 
 Civita's particular vulnerability makes this tension sharper. Art can stimulate discussion and attract resources, but it cannot remedy the erosion of the volcanic material supporting the settlement. Conservation and engineering remain indispensable, as does investment in the practical conditions that enable permanent residents to stay. There is a risk, too, that an increasingly celebrated village becomes more attractive to visitors and property investors than to people seeking an ordinary home.
 
@@ -90,14 +92,14 @@ The significance of the 2028 programme will therefore depend on what survives it
 
 === Before you read ===
 
-- Have you ever visited a very old village or town? What was it like?
-- What can happen to a small place when young people leave to find work somewhere else?
-- Can art and culture change the future of a place? How?
+- What makes a village a living community rather than a tourist attraction?
+- Can an art project create reasons for young people to stay in a small town?
+- Would you visit a place known as the Dying Town?
 
 === Talk about it ===
 
-- Do you think art events and exhibitions can really save a village like Civita? What else might it need?
-- Tourism brings money, but it can also change a place. Is it always good for the people who live there?
-- Think of a small town or village in your country. What problems does it have, and what could help?
-- Is it worth spending a lot of money to protect old buildings? Why or why not?
-- Would you like to live in a place like Civita? What would you enjoy, and what would be difficult?
+- Can cultural tourism reverse population decline, or only hide it for a while?
+- What should the million euros prioritise: events, jobs, buildings or safety?
+- Could greater popularity make life more difficult for residents?
+- What would count as success five years after the 2028 programme?
+- Which matters more to Civita's future: attention, engineering or permanent work?

@@ -1,6 +1,6 @@
 title: Have We Lost the Ability to Read Books?
 date: 2026-08-02
-summary: Many of us still want to read, but our attention keeps slipping away. Is there a way to get the habit back?
+summary: Many people still want to read. The protected time and attention required for it are slipping away.
 tags: Culture, Technology
 source: The Guardian | https://www.theguardian.com/books/2026/aug/02/could-a-couch-to-5k-for-books-get-you-back-into-reading
 image: images/have-we-lost-the-ability-to-read-books-b17042.jpg
@@ -8,9 +8,9 @@ image: images/have-we-lost-the-ability-to-read-books-b17042.jpg
 === Core ===
 
 title: Why Is It So Hard to Finish a Book?
-summary: Many people find it hard to finish a book these days. Why is that, and how can we start reading again?
+summary: The book is open, the phone makes a sound and twenty minutes disappear.
 
-You sit down on the sofa with a book. After two pages, your phone makes a sound. You check one message, then watch a short video. Half an hour later, the book is still open on your lap. Many people recognise this experience. They enjoy the idea of reading but find it difficult to spend time with a book without looking at a screen.
+You read the same paragraph twice, but it still does not make sense. Your phone made a sound a few minutes ago; one message became a video, then another. The book is still open, but the story has disappeared from your mind. Many people say they want to read more and even buy books they are excited about. The difficult part is staying with one page when a screen keeps offering something new.
 
 Reading for pleasure has become less common in some places. A study published in 2025 looked at how Americans spent their time between 2003 and 2023. It found that the number of people reading for pleasure on an average day had fallen. However, other research shows that many Americans still read at least one book in a year, including e-books and audiobooks. It is important to understand that these are different ways of measuring reading habits.
 
@@ -34,7 +34,9 @@ There are plenty of ways to make reading easier. Choose a book that interests yo
 
 === Intermediate ===
 
-You buy a novel, settle down to read it and enjoy the first few pages. Then your phone lights up. You reply to a message, check the news and somehow end up watching videos you never meant to open. When you return to the book, the story feels harder to follow. For people who once read regularly, this can be particularly frustrating. The desire to read has not disappeared, but the habit seems to have slipped away.
+title: Have We Lost the Habit of Reading?
+
+You return to the novel after checking one message and realise that you have forgotten who is speaking. The same paragraph must be read again. Nothing is wrong with the book, and the desire to read is still there; the protected attention has gone. For people who once became absorbed in stories for hours, that change can feel less like a new habit than the loss of an old ability.
 
 There is evidence that reading patterns have changed. A study published in 2025 analysed American time-use data collected over two decades and found that the proportion of people reading for pleasure on an average day had fallen from around 28% in 2004 to 16% in 2023. However, a 2026 Pew Research Center survey found that about three-quarters of American adults had read at least part of a book in the previous year. The findings are not contradictory: reading something during a whole year is very different from reading regularly.
 
@@ -60,10 +62,10 @@ The real concern is not that everyone should spend hours reading novels. It is t
 
 === Advanced ===
 
-title: The Disappearing Reading Habit: Can We Learn to Concentrate Again?
-summary: Reading for pleasure has declined, but the picture is more complicated than blaming smartphones. Can concentration be rebuilt like fitness?
+title: The Books We Buy and the Attention We Cannot Keep
+summary: Reading has not vanished, but the routine that allows sustained attention may be eroding.
 
-The books are still being bought. They accumulate beside beds, appear on holiday packing lists and sit on shelves as evidence of good intentions. The difficulty is what happens after the first chapter. Increasing numbers of people describe struggling to sustain their attention long enough to become absorbed in a book, even when reading was once one of their favourite activities. The problem is not necessarily a loss of interest in literature. It may be the erosion of a routine that previously protected time for it.
+The novel is open and the intention is sincere. Then a notification interrupts, one message leads to a headline and the reader returns unable to remember the previous paragraph. The book has not become less interesting in ten minutes; the thread of attention has been cut. Increasing numbers of people describe this experience even when reading was once one of their favourite activities. The problem may be less a rejection of books than the disappearance of the routine that once protected them.
 
 Research suggests a more complicated picture than the familiar claim that nobody reads any more. A 2025 study drawing on two decades of American Time Use Survey data found that the proportion of adults reading for pleasure on an average day fell from approximately 28% in 2004 to 16% in 2023. Yet Pew Research Center reported in 2026 that around 75% of American adults had read at least some of a book during the previous year, a measure that has remained comparatively stable. Both findings can be true. Occasional reading may persist even as the practice of reading regularly becomes less common.
 
@@ -89,14 +91,14 @@ The practical response may be disarmingly modest. Read something genuinely appea
 
 === Before you read ===
 
-- What was the last book you really enjoyed?
-- Where and when do you usually read?
-- How often does your phone interrupt your concentration?
+- When did you last become completely absorbed in a book?
+- What usually interrupts you when you try to read?
+- Do audiobooks count as reading in the same way?
 
 === Talk about it ===
 
-- Do you read less than you did five years ago? Why?
-- Is listening to an audiobook equivalent to reading?
-- How much responsibility do smartphones have for changing reading habits?
-- Would a daily ten-minute reading plan work for you?
-- Should schools encourage pleasure reading without tests or assignments?
+- Is the problem mainly the phone, or the way modern life is organised?
+- Can concentration be trained like physical fitness?
+- Why do people buy books they never finish?
+- Should schools protect more time for reading purely for pleasure?
+- What is one realistic change that would help you read more regularly?
