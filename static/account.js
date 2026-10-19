@@ -21,7 +21,9 @@
   function drop(key) { try { localStorage.removeItem(key); } catch (e) {} }
   function fire(name, detail) { try { document.dispatchEvent(new CustomEvent(name, { detail: detail || {} })); } catch (e) {} }
 
+  window.jpnGateReady = true;                                       // tells the page the gate is being managed (see the fail-open timer in the page head)
   if (!ON) {
+    document.documentElement.classList.remove("jpn-guest");
     if (root) {
       clear(root);
       root.appendChild(el("p", "acct-note", "Accounts are not switched on for this site yet."));
