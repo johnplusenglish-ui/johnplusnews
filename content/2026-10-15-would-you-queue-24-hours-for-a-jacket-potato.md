@@ -21,18 +21,6 @@ But internet fame has a downside. Staff can feel exhausted, local people may fin
 
 There is nothing wrong with enjoying a baked potato, and the brothers have worked hard to make their business successful. Yet their story says something interesting about how we choose where to eat. We often trust what we see online, especially when thousands of other people seem excited. The next time you see a huge queue outside a café, it might be worth asking whether everyone is waiting for the food or for the chance to say they joined the queue.
 
-=== Core language ===
-
-- exhausted (adjective): extremely tired
-- well-made (adjective): made carefully and to a good standard
-- successful (adjective): achieving what was wanted
-- camp out (phrasal verb): to sleep outside, often while waiting for something
-- put out (phrasal verb): to publish or release something, such as a video
-- move on (phrasal verb): to leave something behind and turn to something new
-- all night (phrase): for the whole night
-- a long way (phrase): a great distance
-- there is nothing wrong with (phrase): it is perfectly acceptable to
-
 === Intermediate ===
 
 A baked potato is hardly the kind of food you would normally travel across the country for. Yet in Preston, Lancashire, people have reportedly camped out and waited almost 24 hours to buy one. The attraction is SpudBros, a business run by brothers Jacob and Harley Nelson from a converted tram. Their potatoes come piled high with fillings, but the extraordinary queues owe as much to social media as to the food itself. A traditional British lunch has been turned into an unlikely online sensation.
@@ -46,19 +34,6 @@ But going viral creates problems of its own. Staff may struggle to keep up with 
 There is a psychological element to all this. People are more likely to become interested in something when they can see that others want it. A long queue acts as a public recommendation, while posting a photograph proves that you were part of the moment. Some customers probably care just as much about the story they can tell afterwards as the meal they have bought. Restaurants are not simply selling food; increasingly, they are selling an experience that can be shared online.
 
 The Nelson brothers have shown how much a small business can achieve by understanding that world. But their success also reveals its limits. Online attention is unpredictable, and even the most enthusiastic followers eventually move on. For customers, the more interesting question is whether the potato would still be worth buying without the camera, the famous visitors or the queue. Perhaps the test of a good lunch is whether you would return for more when nobody is filming.
-
-=== Intermediate language ===
-
-- unlikely (adjective): not what you would expect
-- underwhelming (adjective): less impressive than expected
-- unpredictable (adjective): impossible to know in advance
-- keep up with (phrasal verb): to manage to deal with something that is moving fast
-- push aside (phrasal verb): to treat someone as unimportant
-- turn into (phrasal verb): to change and become something else
-- return for more (phrase): to come back because you want the same experience again
-- owe something to (phrase): to have something because of a particular cause
-- a lifeline (phrase): something that saves a person or business from serious difficulty
-- queue for hours (phrase): to wait in a queue for a long time
 
 === Advanced ===
 
@@ -75,18 +50,6 @@ That is where the bargain becomes less appealing. Staff face exhausting peaks of
 Queues also change what people think they are buying. Research into consumer behaviour suggests that visible approval from others can influence food choices, while social platforms reward places that photograph well and generate strong reactions. Waiting becomes a signal of desirability, and posting about the wait turns an ordinary purchase into a small performance of cultural participation. The experience is self-reinforcing: a crowd attracts attention, the attention attracts more people, and the expanding queue provides fresh evidence that the attraction must be worthwhile.
 
 None of this means the food is poor or that customers are foolish. SpudBros has shown entrepreneurial skill, and there is something pleasing about a simple potato enjoying its moment in the spotlight. The concern is a hospitality culture in which survival increasingly depends on being noticed, preferably all at once. Small businesses need loyal customers and sustainable margins, not merely a brief spell of internet celebrity. Once the cameras turn towards the next sensation, a restaurant must still persuade people to return for the less glamorous reason that its food is worth eating.
-
-=== Advanced language ===
-
-- precarious (adjective): not secure; likely to fail or collapse
-- inflated (adjective): made larger or higher than is reasonable
-- self-reinforcing (adjective): making itself stronger as it continues
-- build up (phrasal verb): to increase something gradually
-- come about (phrasal verb): to happen, especially by chance
-- put up with (phrasal verb): to tolerate something unpleasant
-- in the spotlight (phrase): receiving a lot of public attention
-- cultural participation (phrase): taking part in a shared cultural activity or moment
-- a brief spell of internet celebrity (phrase): a short period of being famous online
 
 === Before you read ===
 

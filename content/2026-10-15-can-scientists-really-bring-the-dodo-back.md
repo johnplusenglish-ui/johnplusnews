@@ -21,18 +21,6 @@ Some conservation experts think the research could lead to useful new ways of pr
 
 For now, the dodo remains extinct. Colossal's announcement is about progress in genetic research, not a successful return. But the project raises an interesting question. If humans helped cause an animal's disappearance, should we try to bring it back, or should we focus on preventing the next extinction? The answer could shape how conservation works for many years to come.
 
-=== Core language ===
-
-- extinct (adjective): no longer existing as a living species
-- colourful (adjective): having bright colours
-- endangered (adjective): in danger of disappearing completely
-- die out (phrasal verb): to disappear completely as a species
-- bring something back (phrasal verb): to make something exist or be used again
-- lead to (phrasal verb): to cause something to happen
-- a symbol of (phrase): something that represents an idea
-- for now (phrase): at the present time, although things may change later
-- for many years to come (phrase): for a long time in the future
-
 === Intermediate ===
 
 The dodo has been extinct for more than three centuries, yet it may be one of the most recognisable birds in history. The large, flightless creature once lived on Mauritius, where hunting and animals introduced by humans helped to wipe it out. Now a biotechnology company in the United States is setting out to do something that sounds more like a science-fiction plot than a conservation project: producing a living bird with the distinctive features of the long-lost dodo.
@@ -46,18 +34,6 @@ Supporters argue that research into gene editing and reproduction could produce 
 Critics question the priorities. De-extinction projects attract publicity and investment partly because famous animals are involved. Meanwhile, many less glamorous species are disappearing right now. Some researchers also object to the word 'resurrection', which suggests an exact return that current technology cannot deliver. They argue that a genetically modified relative would be a new creation rather than the original species brought back to life.
 
 The dodo project is only beginning to take shape and remains an experiment with an uncertain outcome. Its value may eventually lie in techniques developed along the way rather than in producing a perfect copy of an extinct bird. Even so, the ambition forces us to confront an uncomfortable question about conservation. If we can spend enormous resources trying to reverse one historic loss, how much should we spend preventing the ordinary, less famous losses taking place around us today?
-
-=== Intermediate language ===
-
-- recognisable (adjective): easy to recognise
-- distinctive (adjective): easy to recognise because of being different from others
-- uncertain (adjective): not known or decided; not sure
-- wipe something out (phrasal verb): to destroy or remove something completely
-- set out to (phrasal verb): to start doing something with a clear aim
-- pick out (phrasal verb): to choose or identify something from a group
-- bring back to life (phrase): to make something live or exist again
-- have little chance of (phrase): to be unlikely to achieve something
-- take shape (phrase): to begin to develop into a clear form
 
 === Advanced ===
 
@@ -74,18 +50,6 @@ There is also a practical question about what such a bird would do once created.
 Advocates see wider benefits in the research. Methods developed for gene editing, reproduction and the preservation of genetic diversity might eventually help threatened species. Critics counter that spectacular resurrection projects attract disproportionate attention and resources while existing wildlife faces immediate and measurable dangers. Both arguments have merit, although the potential benefits of experimental biotechnology should not be mistaken for benefits already demonstrated in conservation programmes.
 
 For now, the dodo belongs to history rather than to the forests of Mauritius. The company has advanced aspects of a research programme; it has not done away with extinction. Perhaps the most useful contribution of such ambitious science will be to sharpen rather than dissolve the distinction between restoration and imitation. A convincing likeness could be a remarkable scientific achievement. Whether it would repair the ecological loss that made the dodo famous is an altogether more demanding question.
-
-=== Advanced language ===
-
-- ungainly (adjective): moving in an awkward way; not graceful
-- viable (adjective): able to work or survive successfully
-- disproportionate (adjective): too large or too small compared with something else
-- piece together (phrasal verb): to reconstruct something gradually from incomplete parts or evidence
-- grapple with (phrasal verb): to try hard to understand or solve a difficult problem
-- do away with (phrasal verb): to get rid of something completely
-- shorthand for (phrase): a short, simple way of referring to something larger
-- have merit (phrase): to be worth considering; to have good qualities
-- belong to history (phrase): to be part of the past, not the present
 
 === Before you read ===
 

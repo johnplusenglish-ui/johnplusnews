@@ -19,18 +19,6 @@ But there are good reasons to spend time together at home. A quiet evening on th
 
 Perhaps we need to change what we expect from being a good host. It is fine to buy pizza instead of cooking. Guests can help make tea, and there is no need to tidy away every sign of normal life. If we wait until our homes and schedules are perfect, we may never invite anyone. Most friends would probably prefer an untidy kitchen and good company to a beautifully arranged table with nobody sitting around it.
 
-=== Core language ===
-
-- untidy (adjective): not neat; in a mess
-- lonely (adjective): unhappy because you are not with other people
-- proper (adjective): real and satisfactory
-- clean up (phrasal verb): to make a place clean and tidy after an activity
-- catch up with (phrasal verb): to talk to a friend and exchange news
-- tidy away (phrasal verb): to put things where they belong so that a place looks neat
-- have someone round (phrase): to invite someone to your home
-- the washing-up (phrase): the dirty plates and pans, or the job of washing them
-- good company (phrase): people who are pleasant to spend time with
-
 === Intermediate ===
 
 title: When Did Having Friends Over Become Such a Big Event?
@@ -46,19 +34,6 @@ There are signs that social time has changed more widely. Research using the Ame
 Of course, choosing a quiet evening at home is not necessarily a problem. People need rest, and meeting in public places can be enjoyable. But regular friendships usually require more than exchanging messages and reacting to photographs. Spending time in someone's home can create a different kind of closeness, one that does not depend on buying anything or organising an elaborate activity.
 
 Perhaps the answer is to lower our standards rather than abandon hosting. Ask friends to bring a dish, order a takeaway or simply offer tea and biscuits. Tell them the house is a mess and invite them anyway. The most memorable evenings are not always the ones with the best food or the cleanest furniture. Often they are the evenings when people feel comfortable enough to stay for one more conversation.
-
-=== Intermediate language ===
-
-- spotless (adjective): completely clean
-- inconsiderate (adjective): not thinking about other people's feelings
-- memorable (adjective): worth remembering; special
-- hang up (phrasal verb): to put clothes on a hook or line
-- pop round (phrasal verb): to visit someone's home briefly and informally
-- turn into (phrasal verb): to change and become something else
-- opt for a night in (phrase): to choose to spend the evening at home
-- put the kettle on (phrase): to boil water for tea, often as a welcome
-- could do with (phrase): would benefit from; needs
-- in advance (phrase): before the time something happens
 
 === Advanced ===
 
@@ -76,18 +51,6 @@ The change sits within a broader retreat from face-to-face socialising. Analysis
 It would be unfair to romanticise the past. Invitations were never equally convenient for everyone, and the labour of cooking and cleaning has often fallen disproportionately on women. Restaurants can offer genuinely neutral ground, especially for people whose homes are small or shared. Yet the answer to an unequal division of domestic work need not be the abandonment of hospitality. Guests can contribute food, help clear away the plates or accept that a visit involves sharing the household's ordinary imperfections.
 
 What may need reviving is not the elaborate dinner party but the modest invitation. A pot of tea, a shop-bought dessert or a simple supper can create room for conversations that rarely develop through hurried messages. Friendship does not require polished surroundings. It requires repeated opportunities to spend unhurried time together. The real loss would be to mistake hospitality for performance and, in doing so, forget how easy it can be to make someone feel welcome.
-
-=== Advanced language ===
-
-- spontaneous (adjective): done suddenly, without planning
-- polished (adjective): perfect and refined in appearance
-- unhurried (adjective): relaxed and not rushed
-- give way to (phrasal verb): to be replaced by something
-- crowd out (phrasal verb): to take so much space or time that something else is pushed out
-- strip away (phrasal verb): to remove the extra features that hide the essential part of something
-- little wonder that (phrase): it is not surprising that
-- on demand (phrase): whenever you want it
-- neutral ground (phrase): a place that does not belong to or favour either side
 
 === Before you read ===
 

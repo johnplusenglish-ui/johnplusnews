@@ -22,18 +22,6 @@ The situation is not as simple as locals against foreigners. Some international 
 
 Bali faces a difficult choice. Tourism brings in money and opportunities, but it can also change the places people love. The island is not just a beautiful background for holiday videos. It is home to communities with their own traditions, jobs and everyday problems. Visitors may be welcome, but being welcomed does not mean they can ignore the people who live there.
 
-=== Core language ===
-
-- perfect (adjective): as good as it could possibly be
-- favourite (adjective): liked more than any other
-- international (adjective): involving more than one country
-- turn something into (phrasal verb): to change something so that it becomes something else
-- push up (phrasal verb): to make prices or values rise
-- bring in (phrasal verb): to earn or attract money
-- feel respected (phrase): to feel that other people value you and treat you properly
-- home to (phrase): the place where someone or something lives
-- face a difficult choice (phrase): to have to decide between options when none is easy
-
 === Intermediate ===
 
 title: Bali's Tourism Boom: Paradise for Whom?
@@ -49,18 +37,6 @@ The crackdown goes beyond social media. Bali has restricted new foreign investme
 There is also a cultural dimension. Bali's Hindu traditions are central to daily life, not simply attractions for visitors to photograph. A small number of widely reported incidents involving disrespectful behaviour at religious sites have caused considerable anger. Nevertheless, it would be unfair to judge every foreign resident by the actions of a few. Many long-term newcomers learn local customs, support community projects and have built their lives around relationships with Balinese neighbours.
 
 What Bali needs may be less a choice between welcoming foreigners and keeping them out than a clearer set of expectations. Visitors should understand the laws and traditions of the place they enter, while officials need rules that distinguish an ordinary travel video from paid commercial activity. The island's future cannot be judged solely by how attractive it looks on Instagram. A successful destination should also be a place where the people who live there can afford a home, run a business and feel respected.
-
-=== Intermediate language ===
-
-- central (adjective): most important
-- considerable (adjective): large or great in amount
-- disrespectful (adjective): showing no respect
-- scroll through (phrasal verb): to move through content on a screen
-- take over (phrasal verb): to gain control of something, such as a business
-- keep someone out (phrasal verb): to stop someone from entering
-- pay the price (phrase): to suffer the bad results of something
-- in exchange for (phrase): in return for
-- put pressure on (phrase): to make a situation difficult for someone or something
 
 === Advanced ===
 
@@ -78,18 +54,6 @@ Economic regulation has become another flashpoint. Bali restricted new foreign i
 Cultural tensions complicate the debate further. Bali's religious traditions are not decorative additions to an international lifestyle destination; they are living practices around which communities organise their lives. High-profile incidents involving foreign visitors who have disregarded local customs have stirred up resentment. But collective blame is a poor substitute for thoughtful policy. Many foreign residents have longstanding relationships with their neighbours, create employment and contribute to Balinese life. Indonesian content creators, meanwhile, have argued that the central issue is fair competition rather than hostility towards outsiders.
 
 For Bali, the challenge is to move beyond the false choice between unrestricted tourism and an island closed to foreigners. Transparent visa rules, fair business enforcement, responsible development and stronger opportunities for local entrepreneurs could preserve the benefits of international interest without treating residents as background scenery. The island has successfully sold the world an image of freedom. The next test is whether that freedom can coexist with the rights, livelihoods and cultural identity of the people who were there long before the hashtags.
-
-=== Advanced language ===
-
-- frictionless (adjective): happening without difficulty or resistance
-- enviable (adjective): so good that other people want it
-- assertive (adjective): confident and forceful in acting
-- cash in on (phrasal verb): to profit from a situation or trend, sometimes unfairly
-- hollow out (phrasal verb): to weaken something from the inside
-- stir up (phrasal verb): to cause strong feelings, often bad ones
-- not in dispute (phrase): accepted by everyone as true
-- call something home (phrase): to consider a place to be your home
-- a poor substitute for (phrase): something much worse than what it replaces
 
 === Before you read ===
 

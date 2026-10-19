@@ -27,18 +27,6 @@ The film was directed by Phil Lord and Christopher Miller, who are known for mix
 
 Perhaps its cleverest idea is making a science teacher the hero of a major space adventure. Grace does not always have the right answer, and he makes mistakes along the way. He succeeds by asking questions, testing ideas and accepting help from someone very different from himself. You do not need to understand advanced physics to enjoy Project Hail Mary. You only need to be curious about what might be possible.
 
-=== Core language ===
-
-- frightened (adjective): feeling fear; afraid
-- unusual (adjective): different from what is normal or expected
-- curious (adjective): wanting to know or learn about something
-- wake up (phrasal verb): to stop sleeping
-- look for (phrasal verb): to try to find something
-- find out (phrasal verb): to discover a fact or piece of information
-- worse still (phrase): used to add something even more unpleasant
-- along the way (phrase): during a process or journey
-- at first (phrase): at the beginning, before something changed
-
 === Intermediate ===
 
 A man wakes up aboard a spacecraft, unable to remember his name or how he got there. His crewmates are dead, Earth is a very long way away and the future of humanity may depend on what he does next. It sounds like the beginning of a familiar Hollywood disaster film. But Project Hail Mary, released in March 2026, has an unusual hero. Ryland Grace, played by Ryan Gosling, is a science teacher whose most valuable equipment is not a weapon but his ability to think his way through problems. The film is adapted from Andy Weir's bestselling 2021 novel.
@@ -52,18 +40,6 @@ Its emotional centre is an encounter that would be difficult to imagine in most 
 Directors Phil Lord and Christopher Miller bring an energetic, comic style to the adaptation. The film became a commercial success, earning more than $680 million worldwide, although reviews were not entirely unanimous. Some critics welcomed its warmth and imagination; others questioned its shifts between jokes and an extinction-level emergency. The novel and the film also place different demands on their audiences: a book can spend pages on calculations, while a film must make the same discoveries understandable in a matter of seconds.
 
 What makes Project Hail Mary distinctive is not that it gets every scientific detail right. It is the pleasure it takes in curiosity itself. Problems are investigated rather than simply overcome by force, and the most important breakthrough comes through an unlikely partnership. In an era when space adventures often concentrate on destruction, a blockbuster about asking better questions feels like a refreshing change.
-
-=== Intermediate language ===
-
-- mysterious (adjective): strange and not understood or explained
-- fearless (adjective): not afraid of anything
-- refreshing (adjective): pleasantly different from what is usual
-- point out (phrasal verb): to tell people a fact or draw attention to it
-- come up with (phrasal verb): to think of an idea or a solution
-- hold on to (phrasal verb): to keep something and not let it go
-- plausibility has its limits (phrase): there is a point beyond which something no longer seems believable
-- in a matter of seconds (phrase): very quickly
-- have its limits (phrase): to be true or useful only up to a point
 
 === Advanced ===
 
@@ -80,18 +56,6 @@ Its more compelling speculation concerns communication. Grace encounters an alie
 Directors Phil Lord and Christopher Miller bring a playful sensibility to material that could otherwise become forbiddingly technical. The resulting film earned more than $680 million worldwide and prompted lively disagreement among critics. Admirers celebrated its warmth, intelligence and exuberant humour; detractors found the tonal shifts distracting and some of the sentiment overly emphatic. Adapting the novel also meant boiling down lengthy scientific explanations into visual sequences, an unavoidable trade-off between the pleasures of reading a calculation and watching a character discover its consequences.
 
 For all its fictional physics, Project Hail Mary makes a serious argument about the value of intellectual curiosity. Its central figure is frightened, frequently wrong and dependent on knowledge he cannot possess alone. The film's optimism does not come from the comforting assumption that everything will work out, but from the conviction that people can make progress by testing their assumptions and learning to cooperate. Hollywood's latest attempt to save the world hinges on curiosity and cooperation, making it, among other things, a spirited defence of thinking before acting.
-
-=== Advanced language ===
-
-- reluctant (adjective): unwilling to do something
-- painstaking (adjective): done with great care and effort
-- implausible (adjective): difficult to believe; unlikely to be true
-- work something out (phrasal verb): to find the answer to a problem by thinking
-- hinge on (phrasal verb): to depend mainly on one particular factor
-- boil down (phrasal verb): to reduce something to its most important parts
-- in the realm of (phrase): within a particular area of activity or thought
-- set something in motion (phrase): to start a process or series of events
-- for all its fictional physics (phrase): despite all of its invented or unrealistic science
 
 === Before you read ===
 

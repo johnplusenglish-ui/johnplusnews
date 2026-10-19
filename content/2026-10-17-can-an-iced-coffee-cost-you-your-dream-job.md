@@ -20,18 +20,6 @@ There is another issue: fairness. The professional body CIPD recommends structur
 
 So what should an applicant do? It makes sense to learn about the company, arrive on time and be ready to explain what you can offer. Finishing your coffee beforehand might avoid an unnecessary distraction at a traditional workplace. But the bigger question is for employers: are they hiring the person who can do the job, or simply the person who follows their unwritten rules?
 
-=== Core language ===
-
-- relaxed (adjective): calm and not worried; informal
-- ridiculous (adjective): very silly or unreasonable
-- unfair (adjective): not treating people equally or reasonably
-- turn up (phrasal verb): to arrive somewhere
-- point out (phrasal verb): to tell someone a fact or draw attention to it
-- work out (phrasal verb): to understand or find the answer to something
-- have nothing to do with (phrase): to be completely unconnected with something
-- make a good first impression (phrase): to make people think well of you when they first meet you
-- take something seriously (phrase): to treat something as important
-
 === Intermediate ===
 
 By the time you reach a job interview, you have probably spent hours preparing. You have researched the company, checked the journey and rehearsed how to describe your strengths without sounding unbearable. Then you walk through the door carrying an iced latte. According to one American recruiter, that small detail could work against you. In September 2026, advice from a Florida recruitment specialist became an unlikely internet controversy, dividing people over whether a takeaway coffee is a harmless drink or a sign that someone doesn't take an interview seriously.
@@ -45,18 +33,6 @@ Workplace etiquette has changed considerably. Tattoos, trainers and informal ema
 There is evidence that initial impressions can influence how interviewers evaluate later answers. This matters because those impressions are not always related to performance. The Chartered Institute of Personnel and Development recommends structured interviews, with consistent questions and agreed scoring criteria, as a way to improve fairness. An employer who judges a candidate largely on their drink could overlook someone excellent, while rewarding another person for knowing the unspoken rules of the room. Interviewers should look past superficial details and focus on what candidates can actually do.
 
 There is practical advice for applicants nevertheless. Research the company, prepare thoughtful examples of your work and avoid anything that might distract you during the conversation. Leaving the iced coffee outside a particularly formal interview is an easy way to play it safe. But the controversy also asks something of employers. If finding talent is the purpose of recruitment, perhaps they should be more interested in what candidates know than what they are carrying.
-
-=== Intermediate language ===
-
-- harmless (adjective): not able to cause damage or offence
-- arbitrary (adjective): decided by chance or personal choice rather than by reason
-- awkward (adjective): difficult to deal with; causing embarrassment
-- work against (phrasal verb): to make success less likely for someone
-- squeeze into (phrasal verb): to fit something into a small space or a busy schedule
-- look past (phrasal verb): to ignore a superficial detail and consider what is more important
-- hardly surprising (phrase): not surprising at all
-- the unspoken rules (phrase): rules that everyone is expected to know even though nobody states them
-- play it safe (phrase): to choose the least risky option
 
 === Advanced ===
 
@@ -73,19 +49,6 @@ There are legitimate reasons to pay attention to interview conduct. Turning up p
 Recruitment research adds a cautionary note. Studies suggest that first impressions formed during the opening moments of interviews can influence subsequent assessments, even when later questions are highly structured. The CIPD consequently advocates consistent, job-related questions and explicit scoring criteria to reduce bias. None of this means social behaviour is irrelevant. It means employers should be able to explain why a particular behaviour matters, rather than relying entirely on instinct or nostalgia for an imagined golden age of workplace etiquette.
 
 Candidates would still be wise to read the room. Bringing a drink to an informal conversation at a creative studio is different from juggling a cup during a tightly scheduled corporate panel interview. Avoiding an unnecessary distraction is sensible, not a surrender to outdated authority. Yet the burden of good judgement belongs to interviewers too. If a recruitment decision turns on the presence of an iced coffee rather than the candidate's experience, preparation and judgement, the person being assessed may not be the only one who should feel uncomfortable.
-
-=== Advanced language ===
-
-- bewildering (adjective): very confusing
-- overeager (adjective): too keen or enthusiastic, in a way that can seem desperate
-- legitimate (adjective): reasonable and acceptable; allowed by the rules
-- play down (phrasal verb): to make something seem less important than it is
-- turn on (phrasal verb): to depend on one particular thing
-- stick to (phrasal verb): to keep following a rule or plan
-- give rise to (phrase): to cause something to happen or begin
-- a proxy for (phrase): something used as a stand-in or substitute measure for something else
-- a golden age (phrase): a period in the past imagined as better than today
-- read the room (phrase): to sense the mood of the people around you and act accordingly
 
 === Before you read ===
 

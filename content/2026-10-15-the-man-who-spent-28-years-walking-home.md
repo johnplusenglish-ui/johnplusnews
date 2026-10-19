@@ -20,18 +20,6 @@ Money, closed borders and the pandemic all held up Karl's progress. In 2024, he 
 
 The adventure has been exciting, but it has also cost him a great deal. Karl has missed years with his family, including much of his son's childhood. He has also depended on the kindness of strangers for food, shelter and help. These experiences have made him more positive about people. After nearly three decades on the road, one question remains. When he finally arrives home, how will he get used to ordinary life again?
 
-=== Core language ===
-
-- dangerous (adjective): able to harm or kill you
-- official (adjective): approved by the government or an authority
-- positive (adjective): hopeful and confident about people or the future
-- set off (phrasal verb): to start a journey
-- carry on (phrasal verb): to continue
-- hold up (phrasal verb): to delay something
-- get used to (phrase): to become familiar with something
-- on the road (phrase): travelling
-- a great deal (phrase): a lot
-
 === Intermediate ===
 
 For most people, getting home is a matter of catching a bus, train or plane. For Karl Bushby, it has taken almost 28 years. The former British soldier left southern Chile in 1998 with a few hundred dollars and an ambition that sounded almost impossible: to reach his hometown of Hull without using transport to move forwards along his route. This October, after crossing continents and swimming the English Channel, he finally set foot on British soil.
@@ -45,18 +33,6 @@ Surprisingly, paperwork became as much of an obstacle as the wilderness. Bushby 
 On 5 October 2026, Bushby landed near Dover after swimming across the English Channel. He was back in Britain for the first time under his own expedition rules, but the walk was not yet over. About 400 kilometres remained between the landing point and Hull. The final stretch is small compared with the thousands of kilometres behind him, yet it carries an enormous emotional weight.
 
 The journey has come at a personal cost. Bushby missed much of his son's childhood, important family occasions and the ordinary routines that shape most people's lives. At the same time, he says that the generosity of strangers has changed his view of humanity. People with very little often offered him food or somewhere to sleep. Soon the mission that has organised almost all his adult life will be complete. Reaching home will be an achievement. Discovering what comes next may be the bigger adjustment.
-
-=== Intermediate language ===
-
-- optimistic (adjective): expecting good things to happen
-- unstable (adjective): likely to move, change or break suddenly
-- lengthy (adjective): continuing for a long time
-- turn out (phrasal verb): to prove in the end to be a particular thing
-- work around (phrasal verb): to find a practical way past a difficulty without removing it
-- run into (phrasal verb): to meet a problem unexpectedly
-- set foot on (phrase): to arrive on; to enter a place
-- a matter of (phrase): simply a question of
-- what comes next (phrase): the next thing that will happen
 
 === Advanced ===
 
@@ -74,19 +50,6 @@ The pandemic and subsequent geopolitical tensions compounded those difficulties.
 There is a temptation to treat the expedition as a triumph of stubborn determination and leave it at that. Yet its human costs resist such a tidy conclusion. Bushby has been absent for much of his son's life and has sacrificed relationships, stability and countless ordinary family occasions. He has also discovered a generosity that complicates his earlier scepticism about human nature. Strangers in isolated places repeatedly provided shelter, food and assistance, often with little expectation of anything in return.
 
 The public celebration of extraordinary endurance can gloss over a more difficult question: what happens when the pursuit of a goal becomes a person's identity? Bushby has spent nearly all his adult life moving towards a destination that was always both literal and symbolic. Completing the final miles may require less physical stamina than the previous thousands, but the transition from expedition to everyday life offers no marked trail. For a man who has spent 28 years trying to get home, staying there could prove the most unfamiliar adventure.
-
-=== Advanced language ===
-
-- uncompromising (adjective): refusing to change; very strict
-- stubborn (adjective): determined not to change your mind
-- unfamiliar (adjective): not known or experienced before
-- set something back (phrasal verb): to delay progress
-- gloss over (phrasal verb): to avoid talking about a difficult subject
-- end up (phrasal verb): to finally be in a situation you did not plan
-- run afoul of (phrase): to get into trouble by breaking or conflicting with a rule or authority
-- make your way (phrase): to travel somewhere, often slowly or with difficulty
-- leave it at that (phrase): to say or do nothing more about something
-- under your own power (phrase): using only your own strength, without help or transport
 
 === Before you read ===
 

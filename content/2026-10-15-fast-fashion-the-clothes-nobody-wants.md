@@ -20,18 +20,6 @@ There are ways to reduce waste. People can buy fewer clothes, choose items that 
 
 Affordable clothes are important, especially for families on limited budgets. The answer cannot simply be to tell everyone to buy expensive brands. Clothing companies also need to make better products and avoid creating more waste than necessary. Before buying something new, it may help to ask whether you will still want to wear it next year. A cheap T-shirt is not always a bargain if it is only worn once and then thrown away.
 
-=== Core language ===
-
-- damaged (adjective): harmed or broken
-- suitable (adjective): right for a particular purpose
-- affordable (adjective): cheap enough for people to buy
-- catch on (phrasal verb): to become popular
-- sort through (phrasal verb): to look through a group of things and organise them
-- throw away (phrasal verb): to get rid of something you do not want
-- in a few seconds (phrase): very quickly
-- hardly ever (phrase): almost never
-- get rid of (phrase): to remove something you do not want
-
 === Intermediate ===
 
 title: The Charity-Shop Bag Nobody Wants
@@ -47,18 +35,6 @@ That creates an enormous environmental cost. Producing garments requires water, 
 Governments have begun to respond. Since July 2026, large companies in the EU have been prohibited from destroying most unsold clothes and shoes, with limited exceptions for goods that cannot safely be reused or sold. The rules encourage businesses to repair, donate or resell products instead. However, preventing destruction does not necessarily reduce the number of cheap garments being produced in the first place.
 
 Consumers can make a difference by buying less often, repairing clothes and choosing second-hand items, but it would be unfair to place all responsibility on shoppers. Affordable clothing matters, and not everyone can pay more for supposedly sustainable brands. Retailers must also consider durability and the volume of new products they introduce. The simplest question may be one we rarely ask while shopping: will this still be worth wearing after the excitement of buying it has disappeared?
-
-=== Intermediate language ===
-
-- generous (adjective): giving more than is expected
-- enormous (adjective): extremely large
-- sustainable (adjective): able to continue without harming the environment
-- clear out (phrasal verb): to remove things you no longer want from a place
-- end up (phrasal verb): to finally be in a situation you did not plan
-- wear out (phrasal verb): to become damaged and unusable through use
-- give clothes a second life (phrase): to make unwanted clothes useful again
-- ease the pressure on (phrase): to reduce the difficulty or burden affecting someone or something
-- make a difference (phrase): to have a positive effect
 
 === Advanced ===
 
@@ -76,18 +52,6 @@ The environmental consequences extend well beyond household clutter. Textile pro
 European policymakers have begun to intervene. Since July 2026, large companies have faced a prohibition on destroying most unsold apparel and footwear, with defined exceptions. The measure is intended to encourage resale, repair and reuse rather than disposal of perfectly serviceable goods. It marks a shift towards holding businesses responsible for what happens after products fail to sell, although it does not directly challenge the relentless pace at which new collections are launched.
 
 There is a danger in presenting individual shoppers as the sole cause of the problem. Low-cost clothing serves a real need, particularly for households facing financial constraints, and buying fewer but more expensive garments is not a realistic prescription for everyone. Manufacturers determine durability, retailers shape purchasing behaviour and policymakers decide which costs businesses must bear. The central question is therefore not whether charity shops can find a better way to deal with discarded fashion, but whether the industry can succeed without producing so much clothing that almost nobody wants to keep.
-
-=== Advanced language ===
-
-- reassuring (adjective): making you feel less worried
-- relentless (adjective): never stopping or becoming less intense
-- serviceable (adjective): in good enough condition to be used
-- filter through (phrasal verb): to move gradually through a system or series of stages
-- eat into (phrasal verb): to use up part of something valuable, such as money or time
-- keep up (phrasal verb): to continue something at the same level
-- fit for sale (phrase): in good enough condition to be sold
-- well beyond (phrase): far outside or past
-- serve a real need (phrase): to be genuinely useful
 
 === Before you read ===
 

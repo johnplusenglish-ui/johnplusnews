@@ -20,18 +20,6 @@ In August 2026, the novelist Naomi Alderman described an eight-week plan to help
 
 There are plenty of ways to make reading easier. Choose a book that interests you rather than one you think you should read. Keep your phone away for a while, or listen to an audiobook when travelling. Reading with a friend can also help. Finishing a chapter may not seem like a big achievement, but regular practice can make it easier to concentrate. A book does not need to compete with everything on your phone. Sometimes it simply needs ten quiet minutes.
 
-=== Core language ===
-
-- regular (adjective): happening often and at the same times
-- quiet (adjective): with little or no noise
-- interesting (adjective): holding your attention
-- sit down (phrasal verb): to move into a sitting position
-- get back into (phrasal verb): to start doing something again after a break
-- work towards (phrasal verb): to make progress towards a goal
-- reading for pleasure (phrase): reading because you enjoy it, rather than for work or study
-- for pleasure (phrase): for enjoyment, not for work or study
-- for a while (phrase): for a period of time
-
 === Intermediate ===
 
 title: Have We Lost the Habit of Reading?
@@ -47,18 +35,6 @@ In August 2026, novelist Naomi Alderman proposed an eight-week reading programme
 That approach may be particularly useful for people who have fallen out of the habit. Choosing a short, enjoyable book is often better than forcing yourself through a classic that feels like homework. Keeping your phone out of reach, reading on public transport or joining a small book group can also make regular reading easier. Audiobooks and e-books offer other ways to enjoy stories, especially for people whose lives are already busy.
 
 The real concern is not that everyone should spend hours reading novels. It is that losing the habit of sustained attention may make longer, more complex writing feel increasingly difficult. Books give us time to follow ideas and characters without constant interruption. Recovering that experience does not require a dramatic lifestyle change. It may start with putting the phone away, opening a book and allowing ourselves to be bored for a few minutes before the story takes over.
-
-=== Intermediate language ===
-
-- sustained (adjective): continuing for a long time without stopping
-- manageable (adjective): easy enough to deal with
-- contradictory (adjective): saying opposite things
-- light up (phrasal verb): to become bright, used of a screen
-- slip away (phrasal verb): to disappear gradually without being noticed
-- fall out of (phrasal verb): to stop doing something you used to do regularly
-- an obvious suspect (phrase): the most likely cause
-- lose the habit of (phrase): to stop doing something you used to do often
-- sustained attention (phrase): the ability to concentrate on one thing for a long period
 
 === Advanced ===
 
@@ -76,18 +52,6 @@ In August 2026, the novelist Naomi Alderman proposed a programme modelled on the
 There is reason to avoid romanticising books as inherently virtuous or dismissing audiobooks and digital formats as inferior. Reading takes different forms, and sustained engagement with a complex text can occur on a screen as well as on paper. Nor is finishing more novels automatically a measure of intelligence. The more persuasive argument concerns the capacity to follow ideas over time, tolerate uncertainty and resist the expectation of constant stimulation. Those abilities matter beyond literature, including in education and public debate.
 
 The practical response may be disarmingly modest. Read something genuinely appealing, set aside a short period free from notifications and allow the habit to develop without turning it into another productivity target. A book need not compete with a phone on the phone's terms. Its pleasures are slower, less immediate and sometimes demanding. That difference is precisely what makes reading worth preserving, not as a badge of refinement, but as a way of paying attention to something long enough for it to change how we think.
-
-=== Advanced language ===
-
-- virtuous (adjective): morally good
-- inferior (adjective): lower in quality
-- persuasive (adjective): good at making people agree
-- draw on (phrasal verb): to use information or experience as a source
-- gloss over (phrasal verb): to avoid dealing with something properly
-- set aside (phrasal verb): to keep time or money for a particular purpose
-- constant stimulation (phrase): a continuous stream of things that attract or excite the mind
-- on someone's terms (phrase): according to the conditions someone else sets
-- a badge of refinement (phrase): a sign used to display cultural sophistication or good taste
 
 === Before you read ===
 

@@ -22,18 +22,6 @@ Customers also have legal rights. In the UK, people buying most goods online usu
 
 Better size guides, accurate photos and helpful reviews could prevent some unnecessary returns. Shoppers can help by checking sizes carefully instead of ordering several versions automatically. Free returns are convenient, but they are not truly free. The question is who should cover the cost without making online shopping unfair or too expensive.
 
-=== Core language ===
-
-- convenient (adjective): easy to use and saving effort
-- unnecessary (adjective): not needed
-- accurate (adjective): correct and exact
-- send something back (phrasal verb): to return something you have bought
-- try something on (phrasal verb): to put on clothes to see if they fit
-- sell something on (phrasal verb): to sell something you bought to someone else
-- in season (phrase): available or fashionable at this time of year
-- cover the cost (phrase): to pay for something
-- make a difficult choice (phrase): to decide between options when none is easy
-
 === Intermediate ===
 
 title: The Returned Jacket Nobody Wants
@@ -49,18 +37,6 @@ Retailers have started responding with return charges, shorter deadlines and str
 There is also a legal difference between returning something because you have changed your mind and returning a faulty product. In Britain, most online shoppers have a fourteen-day cancellation period after delivery, with another fourteen days to return the goods. They may have to cover the return postage for unwanted items when properly informed, while the retailer must normally refund the standard original delivery charge. A September investigation by Which? found that some well-known shops failed to meet their refund obligations, even when customers were entitled to their money back.
 
 The more useful solution may begin before the customer clicks Buy. Accurate measurements, photographs showing clothes on different body types and more dependable product descriptions could prevent unnecessary orders. Customers, meanwhile, can avoid ordering a pile of items with little intention of keeping them. Easy returns remain an important part of online shopping, but pretending they cost nothing helps nobody understand the trade-offs involved.
-
-=== Intermediate language ===
-
-- effortless (adjective): seeming to need no effort
-- faulty (adjective): not working correctly; having a defect
-- dependable (adjective): able to be relied on
-- put something back (phrasal verb): to return something to its place
-- factor in (phrasal verb): to include something when calculating or planning
-- claw back (phrasal verb): to get back money that has been lost or spent
-- change your mind (phrase): to decide something different from before
-- worth the trouble (phrase): useful enough to justify the effort
-- from a business perspective (phrase): looking at it as a company would
 
 === Advanced ===
 
@@ -78,18 +54,6 @@ There is no straightforward commercial answer. Charging for returns can recover 
 Consumer protection complicates the picture further. Under UK distance-selling rules, customers normally have fourteen days after delivery to cancel most online purchases without giving a reason and a further fourteen days to send the goods back. Retailers must generally refund the original standard delivery charge, although consumers can be required to cover the cost of returning unwanted goods when properly informed. Faulty items involve different rights. A September 2026 investigation by Which? found that several major retailers had failed to provide refunds in accordance with the law, demonstrating that the economics of returns cannot simply override statutory obligations.
 
 The most promising improvements may be less confrontational. Better sizing information, accurate product images and more reliable descriptions could reduce the number of purchases that disappoint in the first place. More efficient sorting and resale systems could also preserve the value of goods that do come back. Yet the central contradiction remains: online retailers have encouraged consumers to behave as though their living rooms were fitting rooms with unlimited delivery. Winding back that expectation without damaging trust will require more than adding a charge at checkout.
-
-=== Advanced language ===
-
-- inconsistent (adjective): not always the same; varying
-- predictable (adjective): able to be known in advance
-- confrontational (adjective): likely to cause argument or conflict
-- put off (phrasal verb): to make someone not want to do something
-- wind back (phrasal verb): to reverse something gradually
-- filter back into (phrasal verb): to return gradually into a system or market
-- sight unseen (phrase): without seeing something first
-- in accordance with (phrase): following a rule or law
-- in the first place (phrase): at the start; before anything else happened
 
 === Before you read ===
 

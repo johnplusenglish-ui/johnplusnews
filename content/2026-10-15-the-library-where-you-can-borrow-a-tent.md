@@ -27,18 +27,6 @@ The library's director, Mark Fink, believes that people do not need to travel fa
 
 The nature library is still a public library, so people can read, study and borrow ordinary books. What makes it different is the idea that learning can happen outside as well as inside a building. A tent, a camera or a pair of binoculars might encourage somebody to try something new. Perhaps the library's most useful gift is not the equipment itself, but the confidence to go outdoors and discover what is there.
 
-=== Core language ===
-
-- expensive (adjective): costing a lot of money
-- useful (adjective): helpful for doing something
-- energy-efficient (adjective): using little energy to do its job
-- grow up (phrasal verb): to spend your childhood somewhere; to become an adult
-- pick up (phrasal verb): to learn a skill without formal lessons
-- bring back (phrasal verb): to return something to where it came from
-- of course (phrase): obviously; as everyone knows
-- get started (phrase): to begin
-- as well as (phrase): in addition to
-
 === Intermediate ===
 
 title: A Library Card for the Great Outdoors
@@ -54,18 +42,6 @@ Early visitors have already described the benefits. One family borrowed an outdo
 There is a wider social argument behind the project. Outdoor activities can involve costs that are easy to overlook: transport, suitable clothing, specialist tools and time away from work. Those barriers mean that green spaces, even when they are technically open to everyone, may not feel equally accessible. The library's director, Mark Fink, argues that experiencing nature need not involve an ambitious expedition. Noticing birds in a local neighbourhood can be a meaningful starting point.
 
 The project also asks us to think again about what a public library is for. Libraries have traditionally provided shared access to things individuals might not be able to afford, especially books and information. Lending outdoor equipment follows the same principle, only with a wider understanding of learning. A visitor might leave with a novel, a tent or a new interest in the natural world. The point is that curiosity should not depend on the size of someone's bank account.
-
-=== Intermediate language ===
-
-- intimidating (adjective): making you feel nervous or less confident
-- specialist (adjective): designed for a particular purpose or expert use
-- accessible (adjective): easy to reach, use or enjoy
-- break down (phrasal verb): to remove something that stops people doing something
-- splash out (phrasal verb): to spend a lot of money on something
-- set up (phrasal verb): to create or arrange something
-- a starting point (phrase): the place or idea where something begins
-- think again (phrase): to reconsider an opinion or decision
-- out of reach (phrase): too difficult or expensive to obtain
 
 === Advanced ===
 
@@ -83,18 +59,6 @@ That distinction matters. Access to public green space is often discussed as tho
 There is an environmental argument, too, although it deserves a little caution. Direct experience of wildlife may encourage people to value conservation more deeply, and borrowing shared equipment can cut down on individual purchases. Yet the relationship between environmental knowledge and behaviour is not automatic. Owning fewer objects is useful only if the lending system is accessible, maintained and well used. The library's success will depend not merely on an impressive building and an inventive catalogue, but on whether residents continue to return and discover practical value in the service.
 
 At a time when public libraries are frequently required to justify their existence, the Colorado experiment offers a more expansive definition of what they provide. Its central innovation is not the tent itself but the removal of a threshold. A person can try camping without buying equipment, learn to recognise local birds without first becoming an expert, or explore a garden without owning one. The institution remains recognisably a library: a place where resources are shared so that opportunities need not belong exclusively to those who can afford them.
-
-=== Advanced language ===
-
-- radical (adjective): new and very different from what is usual
-- accomplished (adjective): highly skilled
-- inventive (adjective): full of original ideas
-- strike out into (phrasal verb): to begin moving independently into an unfamiliar place
-- cut down on (phrasal verb): to reduce the amount of something
-- come up against (phrasal verb): to have to deal with a problem or difficulty
-- a sense of belonging (phrase): the feeling of being accepted in a place or group
-- synonymous with (phrase): so closely connected that one suggests the other
-- disposable income (phrase): money left to spend after essential costs
 
 === Before you read ===
 

@@ -19,18 +19,6 @@ Peter started meeting a volunteer coach called Alison twice a week. They worked 
 
 Today, Peter can read recipes and share books with his son. He also talks publicly about his experience to encourage other adults to seek help. Many people struggle with reading, even if they have jobs and families. Some are afraid that others will judge them. Peter's story shows why that fear can be so damaging. Learning to read has not changed his past, but it has opened up a very different future.
 
-=== Core language ===
-
-- hidden (adjective): kept secret; not seen by other people
-- frustrating (adjective): making you feel annoyed because things are difficult
-- damaging (adjective): causing harm
-- look after (phrasal verb): to take care of someone
-- grow up (phrasal verb): to change from a child into an adult
-- give up (phrasal verb): to stop trying
-- ask for help (phrase): to tell someone that you need their support
-- at the age of (phrase): when someone is a particular age
-- from beginning to end (phrase): the whole of something, completely
-
 === Intermediate ===
 
 For years, Peter Lloyd found ways to avoid reading in public. As a lorry driver, he could remember complicated routes and recognise road signs, but a letter arriving through the post could leave him feeling helpless. He had built a working life and raised a family while hiding a difficulty that many people assume only children face. Then, aged 42, he found himself unable to complete a simple supermarket shop.
@@ -44,18 +32,6 @@ He was matched with volunteer coach Alison, and they began meeting twice a week.
 Three years later, he reached the final page. What mattered was not only the achievement itself but also the freedom it represented. Peter could now choose a book, follow a recipe and help his son with everyday tasks that had previously been out of reach. He became an ambassador for Read Easy, encouraging people in similar situations to take the first step.
 
 Low literacy does not mean a lack of intelligence, yet shame can stop adults from seeking support for years. Peter's experience reveals how easily reading difficulties can remain hidden in a society built around written information. He hopes to earn an English GCSE and eventually help others. A trip to the supermarket exposed a problem he had spent decades concealing. It also gave him the reason to change his life.
-
-=== Intermediate language ===
-
-- helpless (adjective): unable to do anything to improve a situation
-- resourceful (adjective): good at finding clever ways to deal with problems
-- hesitant (adjective): slow to act because you are not sure
-- step in (phrasal verb): to become involved in order to help
-- fill in (phrasal verb): to write the information needed on a form
-- move on to (phrasal verb): to start doing something new after finishing something else
-- the turning point (phrase): the moment when an important change begins
-- give it another go (phrase): to try again
-- out of reach (phrase): not possible to get or achieve
 
 === Advanced ===
 
@@ -73,18 +49,6 @@ Twice-weekly lessons began with fundamental reading skills. It was painstaking w
 The achievement did not erase his earlier experiences, but it changed his relationship with everyday life. Recipes became accessible, books became a source of pleasure, and tasks that once required another person's help could increasingly be handled alone. Peter has since spoken publicly as an ambassador for Read Easy and hopes to obtain an English GCSE before pursuing work that supports others. His willingness to discuss a previously guarded struggle is significant in itself.
 
 Adult literacy is frequently misunderstood. People may have limited reading skills for reasons involving disability, disrupted education or inadequate support, none of which is a reliable measure of intelligence. The greatest obstacle can become the expectation that an adult ought already to know how to read, an assumption that encourages silence. Peter's story challenges the idea that learning follows a fixed timetable. It also suggests that dignity in education may matter as much as the lessons themselves.
-
-=== Advanced language ===
-
-- unforgiving (adjective): harsh; allowing no mistakes
-- elaborate (adjective): containing many carefully arranged parts
-- concrete (adjective): definite and specific, not vague
-- cover up (phrasal verb): to hide a fact or a mistake
-- strip away (phrasal verb): to remove something, especially a protective layer
-- brush aside (phrasal verb): to refuse to consider something seriously
-- take something for granted (phrase): to assume something will always be available without appreciating it
-- from cover to cover (phrase): from the first page of a book to the last
-- in itself (phrase): considered alone, without anything else
 
 === Before you read ===
 

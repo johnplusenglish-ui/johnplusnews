@@ -20,18 +20,6 @@ The European Union has also brought in stronger rules against unclear environmen
 
 For shoppers, the best question is often a simple one: what exactly has improved? If packaging says it is recycled, find out how much recycled material it contains. If a company says it has reduced pollution, ask what figures support the claim. Not every business using green advertising is dishonest, and small improvements are worth making. But a leaf on a label is not proof that a product is good for the planet. Real progress needs more than a nice picture.
 
-=== Core language ===
-
-- honest (adjective): truthful; not hiding anything
-- misleading (adjective): giving a wrong idea
-- recycled (adjective): made from material that has been used before
-- cancel out (phrasal verb): to remove the effect of something
-- find out (phrasal verb): to discover information
-- bring in (phrasal verb): to introduce a new law or rule
-- good for the planet (phrase): not harmful to the environment
-- environmentally friendly (phrase): causing little or no damage to the environment
-- worth the effort (phrase): valuable enough to justify the time or work required
-
 === Intermediate ===
 
 title: Greenwashing: When Eco-Friendly Claims Do Not Add Up
@@ -47,18 +35,6 @@ Regulators have become increasingly concerned about vague promises. New European
 However, understanding environmental impact is not always straightforward. A product may use less plastic but require more energy to make. A delivery company may reduce emissions on one route while expanding its overall business. Consumers cannot be expected to become experts in climate science every time they shop, which is why accurate information and independent checks matter.
 
 There are practical ways to be more careful. Look for specific figures rather than broad promises, and check whether a claim has been independently verified. Ask whether the advertised improvement concerns the whole product or just one part of it. Companies deserve recognition for genuine progress, but they also need to acknowledge what has not improved. Buying something with a green label should not require an act of faith. If a business makes an environmental promise, it should be able to back it up.
-
-=== Intermediate language ===
-
-- genuine (adjective): real; not pretended
-- vague (adjective): not clear or exact
-- straightforward (adjective): easy to understand; simple
-- leave out (phrasal verb): to not include something
-- concentrate on (phrasal verb): to give most attention to one thing
-- back something up (phrasal verb): to provide evidence that supports a claim
-- an act of faith (phrase): a decision to trust something without proof
-- gain an advantage (phrase): to get into a better position than others
-- deserve recognition (phrase): to have earned praise or acknowledgement
 
 === Advanced ===
 
@@ -76,18 +52,6 @@ Regulators are attempting to narrow the gap between marketing language and subst
 The challenge is that environmental performance involves trade-offs that resist simple labels. A reusable product may have a higher manufacturing footprint but a lower impact over time. Recycled materials may reduce pressure on natural resources without eliminating energy consumption or pollution. An advertising system that reduces such questions to a cheerful green symbol risks creating false confidence even when genuine improvements have occurred.
 
 There is a danger, too, that fear of regulatory action encourages companies to say nothing about worthwhile initiatives. The solution is not to ban environmental communication but to tighten it up. Claims should identify the specific benefit, the evidence supporting it and the limitations of the improvement. Consumers are entitled to know whether a company has substantially reduced harm or merely found a flattering way to describe a modest change. Sustainability cannot become credible while remaining principally a matter of choosing the right adjectives.
-
-=== Advanced language ===
-
-- muted (adjective): soft and not bright, used of colours or sounds
-- flattering (adjective): making something seem better than it is
-- substantiated (adjective): supported by evidence
-- dress up (phrasal verb): to make something seem more attractive or acceptable than it is
-- tighten something up (phrasal verb): to make rules or standards stricter
-- paper over (phrasal verb): to hide a problem instead of solving it
-- fertile ground for (phrase): a situation in which something develops easily
-- as a whole (phrase): considered in its entirety
-- be entitled to (phrase): to have the right to
 
 === Before you read ===
 

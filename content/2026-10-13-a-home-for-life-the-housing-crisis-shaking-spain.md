@@ -25,18 +25,6 @@ Across Spain, many people struggle with high rents and the price of buying a hom
 
 There are different views about the best solution. Housing groups want stronger protection for tenants and more affordable homes. Property owners argue that they also have rights and that Spain needs to build more housing. Maricarmen's story has become a symbol because it shows what these arguments can mean for one person. Behind every discussion about rents and laws, there is someone who simply wants a secure place to live.
 
-=== Core language ===
-
-- legal (adjective): connected with the law
-- lifelong (adjective): lasting for the whole of your life
-- secure (adjective): safe and certain to continue
-- carry out (phrasal verb): to do something that has been planned or ordered
-- go back (phrasal verb): to return
-- stand by (phrasal verb): to support someone in a difficult time
-- in poor health (phrase): ill or physically weak
-- in old age (phrase): when someone is old
-- part of the debate (phrase): one of the things people argue about
-
 === Intermediate ===
 
 For more than seven decades, Maricarmen Abascal lived in the same Madrid flat. She had watched neighbours come and go and the city around her change. By the time she was 87, her home held most of the memories of her adult life. Yet in September 2026, after a long legal dispute over her rental agreement, she was evicted. Her case became a powerful symbol of Spain's growing anger over housing costs and tenants' rights.
@@ -50,18 +38,6 @@ The case attracted attention because millions of Spaniards recognise the fear be
 The argument over who is responsible quickly becomes political. Campaigners criticise property investment firms and call for stronger tenant protections, rent controls and more public housing. Landlords and other critics warn that strict rules may discourage people from renting out homes and argue that too little new housing is being built. Both sides claim that their approach would make the system fairer, but neither can offer a quick solution to years of rising demand and limited supply.
 
 Maricarmen's death prompted further demonstrations, with supporters demanding changes in the law. Her story should not be reduced to a slogan: she was a person with a long life, a family and a home she wanted to keep. But the public response illustrates why housing debates have become so emotional. For those worried about losing their home, the issue is not an investment or an economic statistic. It is whether the place they belong can suddenly become somewhere they can no longer afford to stay.
-
-=== Intermediate language ===
-
-- elderly (adjective): old, used politely of people
-- unwell (adjective): ill
-- strict (adjective): very firm; not allowing exceptions
-- price out (phrasal verb): to make something too expensive for someone
-- rent out (phrasal verb): to let someone use a property in return for money
-- call for (phrasal verb): to publicly demand something
-- come and go (phrase): to arrive and leave again over time
-- keep pace (phrase): to increase or move at the same speed as something else
-- make it home (phrase): to succeed in reaching home
 
 === Advanced ===
 
@@ -79,18 +55,6 @@ The pressures are familiar in much of the country. In major cities and popular c
 Competing explanations produce competing remedies. Tenant organisations call for greater security, stronger regulation and investment in social housing. Property owners and some economists warn that excessive restrictions may reduce the incentive to rent homes, arguing instead for more construction and a faster planning process. Neither position should obscure the structural complexity of the crisis. The market consists not only of investors seeking returns but also of residents whose social connections and daily routines can be destroyed by displacement.
 
 That is why Abascal's story struck a nerve. The law may establish who has the right to occupy a particular flat, but it cannot fully express the significance of decades spent living there. A successful housing policy has to grapple with affordability, supply and legal certainty; it must also acknowledge that a home is not interchangeable with any other address. Behind the arguments about market efficiency lies a simple concern: whether people can remain in the communities to which they have devoted their lives.
-
-=== Advanced language ===
-
-- frail (adjective): physically weak, especially because of age
-- stark (adjective): harsh and clear, with nothing softened
-- prolonged (adjective): continuing for a long time
-- grapple with (phrasal verb): to try hard to deal with a difficult problem
-- go beyond (phrasal verb): to be more than something allows or supports
-- force someone out (phrasal verb): to make someone leave a place or position
-- change hands (phrase): to pass to a new owner
-- strike a nerve (phrase): to cause a strong emotional reaction
-- far beyond (phrase): much further than
 
 === Before you read ===
 

@@ -20,18 +20,6 @@ Some social media creators want to make videos of places that other people canno
 
 Not every film about Indigenous people is harmful. Some communities choose to welcome visitors and work with filmmakers. In those cases, people can give permission and tell their own stories. North Sentinel Island is different because its inhabitants have refused contact. Technology makes it possible to travel further and film more than ever before, but it does not give people the right to go everywhere. Sometimes respecting others means accepting that they do not want to be seen.
 
-=== Core language ===
-
-- isolated (adjective): far from other people or places
-- remote (adjective): far away and difficult to reach
-- harmful (adjective): causing damage
-- pull in (phrasal verb): to attract a large number of people or views
-- keep someone out (phrasal verb): to stop someone from entering
-- come across (phrasal verb): to meet or find someone by chance
-- the outside world (phrase): people and places beyond a particular community
-- make it clear (phrase): to show plainly what you think or want
-- around the world (phrase): in many different countries
-
 === Intermediate ===
 
 When American traveller Mykhailo Polyakov set off towards North Sentinel Island in March 2025, he took a small inflatable boat, a camera and several gifts, including a coconut and a can of Diet Coke. His aim was to reach one of the world's most isolated Indigenous communities and record his visit. He managed to land on the island, but did not meet any of its inhabitants. The trip ended with his arrest by Indian authorities.
@@ -45,19 +33,6 @@ Survival International, an Indigenous rights organisation, estimates that 196 un
 There is an important difference between filming a community that has agreed to welcome visitors and trying to reach one that has repeatedly rejected them. Some Indigenous groups work with documentary-makers, invite carefully managed tourism and use their own media to campaign for land rights. Such projects can give communities greater control over how their stories are told. Uninvited expeditions offer no similar choice, and visitors may underestimate the consequences of even a brief encounter.
 
 Supporters of exploration sometimes argue that the public has an interest in learning about remote societies. Curiosity can certainly encourage understanding, but it does not automatically create a right to enter another community's territory. Polyakov's case highlights a difficult boundary in the age of social media. Cameras and boats can take people to places that once seemed unreachable. Respecting a community's wishes may require steering clear of the island and leaving the camera switched off.
-
-=== Intermediate language ===
-
-- vulnerable (adjective): easily harmed
-- misleading (adjective): giving a wrong idea
-- unreachable (adjective): impossible to get to
-- set off (phrasal verb): to start a journey
-- keep away from (phrasal verb): to avoid going near
-- write off (phrasal verb): to decide that someone or something is not worth considering
-- steer clear of (phrase): to deliberately avoid a person, place or activity
-- at risk (phrase): in danger
-- way of life (phrase): the way a group of people usually live
-- an informed decision (phrase): a choice made with full knowledge of the facts
 
 === Advanced ===
 
@@ -75,18 +50,6 @@ Survival International estimates that 196 uncontacted groups remain worldwide, m
 The distinction between consent and intrusion is essential. Indigenous groups that invite journalists or researchers can negotiate conditions, control access and decide how they are represented. Others choose to use digital media themselves to make political claims and document threats to their territory. Those partnerships differ fundamentally from an unsolicited approach to a population that has repeatedly rejected visitors. Public interest cannot be established merely by the fact that an image would attract attention.
 
 The ethical challenge extends beyond one traveller. Satellite imagery, drones and affordable cameras have made remote places increasingly visible, tempting outsiders to equate technical access with moral permission. It is possible to learn about Indigenous rights, protect land and challenge environmental destruction without attempting direct contact with people who refuse it. The most responsible documentary decision may be one that produces no extraordinary footage at all. Curiosity is valuable, but only when it recognises that other people's right to be left alone is not ours to trade for a few million views.
-
-=== Advanced language ===
-
-- elusive (adjective): difficult to find, reach or describe
-- unsolicited (adjective): not asked for or invited
-- deliberate (adjective): done on purpose
-- zero in on (phrasal verb): to direct all attention towards a particular target
-- cancel out (phrasal verb): to remove the effect of something
-- draw in (phrasal verb): to attract people or interest
-- the attention economy (phrase): a system in which views and clicks are the main source of value
-- a public profile (phrase): being known to a wide audience
-- be left alone (phrase): to be free from contact or interference
 
 === Before you read ===
 

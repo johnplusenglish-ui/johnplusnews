@@ -20,18 +20,6 @@ The announcement is good news for the area. Exhibitions and cultural events coul
 
 There is also a problem that art cannot solve on its own. Civita's hill is still slowly changing, and protecting its buildings needs engineering work and money. The new cultural title offers a chance to look beyond the village's famous views and think about its future. Whether it succeeds will depend on what happens after the visitors have gone home. A village needs more than attention to stay alive.
 
-=== Core language ===
-
-- narrow (adjective): not wide
-- joint (adjective): shared by two or more people or groups
-- creative (adjective): good at producing new ideas or art
-- wear away (phrasal verb): to disappear slowly because of rain, wind or use
-- fall away (phrasal verb): to break off and drop from something
-- settle down (phrasal verb): to start living a stable life in one place
-- on top of (phrase): on the highest part of something
-- for this reason (phrase): because of this
-- on its own (phrase): alone, without help
-
 === Intermediate ===
 
 title: The Village Crumbling Beneath Its Visitors
@@ -47,18 +35,6 @@ The decision is more ambitious than simply organising a festival for visitors. S
 There are reasons to be cautious, however. Tourism does not automatically reverse population decline. A village can become a popular place to visit while becoming too expensive or inconvenient for local people to live in. Civita also faces an unusually serious physical threat. The erosion of its hilltop requires engineering expertise, careful planning and long-term investment. Art cannot hold the ground together.
 
 Still, the award changes the conversation. Instead of being known only as a beautiful place that may eventually disappear, Civita has a chance to become a centre for new cultural activity. The true test will come after 2028, when the exhibitions have ended and the publicity has died down. If the project helps people work, create and remain in the area, it may offer the village something more valuable than another successful tourist season.
-
-=== Intermediate language ===
-
-- unreal (adjective): so strange or beautiful that it seems imaginary
-- unsettling (adjective): making you feel worried or uncomfortable
-- cautious (adjective): careful to avoid risks
-- keep something going (phrasal verb): to make sure something continues
-- hold something together (phrasal verb): to keep something from falling apart
-- die down (phrasal verb): to become quieter or less intense
-- a handful of (phrase): a very small number of
-- in search of (phrase): trying to find
-- change the conversation (phrase): to make people talk about something in a new way
 
 === Advanced ===
 
@@ -76,19 +52,6 @@ The choice reflects an increasingly influential view of culture as a tool for re
 Civita's particular vulnerability makes this tension sharper. Art can stimulate discussion and attract resources, but it cannot remedy the erosion of the volcanic material supporting the settlement. Conservation and engineering remain indispensable, as does investment in the practical conditions that enable permanent residents to stay. There is a risk, too, that an increasingly celebrated village becomes more attractive to visitors and property investors than to people seeking an ordinary home.
 
 The significance of the 2028 programme will therefore depend on what survives it. Temporary installations and a crowded calendar may bring welcome publicity, but they will not in themselves secure a future for Civita or Bolsena. More meaningful success would involve permanent spaces for creative work, stronger local institutions and reasons for younger generations to remain connected to the area. The Dying Town does not need art to disguise its fragility. It needs a cultural project capable of working alongside the less glamorous business of keeping a community alive.
-
-=== Advanced language ===
-
-- picturesque (adjective): attractive, like a picture
-- vibrant (adjective): full of life and energy
-- indispensable (adjective): absolutely necessary
-- cling to (phrasal verb): to hold tightly to something
-- translate into (phrasal verb): to lead to a particular practical result
-- bring in (phrasal verb): to attract or introduce something, such as money
-- gain traction (phrase): to begin attracting support or making progress
-- give rise to (phrase): to cause something
-- a magnet for (phrase): something that attracts many people
-- keep a community alive (phrase): to make sure people can go on living somewhere
 
 === Before you read ===
 

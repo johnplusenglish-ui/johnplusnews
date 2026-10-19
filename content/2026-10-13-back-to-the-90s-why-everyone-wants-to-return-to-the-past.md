@@ -19,18 +19,6 @@ This sounds attractive to people who feel tired of their smartphones. They may w
 
 But memories of the past are not always fair. The 1990s had problems too, including wars, discrimination and financial worries. Modern technology has made many parts of life easier and safer. Perhaps the real attraction is not the decade itself but the idea of being less distracted. We cannot go back in time, but we can choose how we use our phones and how much attention we give to the people around us.
 
-=== Core language ===
-
-- baggy (adjective): loose and wide, used of clothes
-- attractive (adjective): pleasant and appealing
-- distracted (adjective): unable to concentrate because your attention is pulled elsewhere
-- look back (phrasal verb): to think about the past
-- carry something around (phrasal verb): to have something with you wherever you go
-- go back (phrasal verb): to return to an earlier time or place
-- well beyond (phrase): far outside or past
-- for a while (phrase): for a period of time
-- make plans (phrase): to arrange what you are going to do
-
 === Intermediate ===
 
 title: The 1990s Are Back, but What Are We Really Missing?
@@ -46,18 +34,6 @@ There is another reason some younger people find the past attractive: modern lif
 However, it is easy to look back through rose-tinted glasses. The 1990s were not free of serious problems. Wars, discrimination and the AIDS crisis affected millions of lives. Without today's technology, keeping in touch across countries could be expensive and difficult, and finding information was far less convenient. The decade was not a simpler world for everyone.
 
 Perhaps today's revival is less about wanting to live in the past than choosing what to bring into the present. People can enjoy old music, clothes and technology without pretending that an earlier generation had everything right. The interesting question is why objects that were once replaced by newer inventions now seem worth using again. Their attraction may tell us more about our dissatisfaction with modern habits than about the 1990s themselves.
-
-=== Intermediate language ===
-
-- chunky (adjective): thick and heavy-looking
-- fashionable (adjective): popular at a particular time
-- exhausting (adjective): making you very tired
-- keep up with (phrasal verb): to do as well or as much as other people
-- get into (phrasal verb): to become interested in something
-- put something down to (phrasal verb): to explain something as being caused by
-- go so far (phrase): to be true or useful only to a limited extent
-- through rose-tinted glasses (phrase): seeing something as better than it really was
-- keep in touch (phrase): to stay in contact with someone
 
 === Advanced ===
 
@@ -75,18 +51,6 @@ The danger is that aesthetic nostalgia can flatten history into a collection of 
 Tate's exhibition, curated by Edward Enninful, offers an opportunity to revisit the decade as a contested cultural moment rather than a collection of fashionable accessories. Artists and photographers explored questions of class, identity, race and representation that remain urgent today. Looking closely at their work complicates the idea that the period was simply more innocent or authentic. Some of the tensions that shape present-day debates were already visible, even if they were expressed through different media.
 
 Perhaps the renewed enthusiasm for the 1990s tells us less about what life was actually like then than about the aspects of modern living that people feel powerless to change. Digital technology has delivered remarkable convenience, but it has also turned attention into a valuable commodity. Choosing an old camera will not solve that problem. It may, however, offer a small reminder that convenience is not the only measure of a satisfying life, and that not every moment needs to be shared to be worth remembering.
-
-=== Advanced language ===
-
-- paradoxical (adjective): seeming impossible or contradictory, yet true
-- carefree (adjective): without worries or responsibilities
-- contested (adjective): argued about; not agreed on
-- take on (phrasal verb): to begin to have a particular quality or meaning
-- piece together (phrasal verb): to build a picture of something from separate parts
-- turn something into (phrasal verb): to change something so that it becomes something else
-- come at the cost of (phrase): to be achieved only by losing something else
-- not so much X as Y (phrase): used to say that one description is less accurate than another
-- turn attention into a valuable commodity (phrase): to make people's attention into something that can be bought and sold
 
 === Before you read ===
 

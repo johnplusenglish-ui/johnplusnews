@@ -22,18 +22,6 @@ Not every worker wants the same arrangement. In a labour ministry survey reporte
 
 The difficulty is finding a balance between what businesses need and what people can reasonably give. A shorter working day is not automatically a happier one, especially if employees must complete the same amount of work under more pressure. But long hours are not proof of commitment either. Japan's debate asks a question that matters in every country: should success at work be measured by the hours people spend at their desks, or by the quality of what they do?
 
-=== Core language ===
-
-- uncomfortable (adjective): feeling slightly worried or embarrassed
-- flexible (adjective): able to change to suit different situations
-- excessive (adjective): too much; more than is reasonable
-- cut down (phrasal verb): to reduce the amount of something
-- take on (phrasal verb): to employ someone
-- go away (phrasal verb): to disappear
-- a sign of (phrase): something that shows that a thing exists or is true
-- at the same time (phrase): also; used to add a related point
-- do a better job (phrase): to work to a higher standard
-
 === Intermediate ===
 
 title: Why Some Japanese Workers Still Cannot Leave on Time
@@ -49,19 +37,6 @@ Survey results suggest that workers themselves are divided. A labour ministry su
 Japan's changing social habits offer another clue. Traditional after-work drinking sessions are becoming less central for some younger employees, while businesses increasingly experiment with flexible arrangements and more relaxed rules. Tokyo's metropolitan government has offered a four-day working-week option to eligible staff, though it is not a national requirement. Such changes suggest a growing recognition that caring responsibilities, personal interests and rest deserve space alongside professional ambition.
 
 The challenge is that Japan cannot solve its labour shortage simply by telling people to work harder. Greater productivity, better technology and workplaces that attract people who might otherwise drop out of the labour market all have a role. Ultimately, the most meaningful change may be cultural: creating offices where leaving on time is normal rather than something an employee feels compelled to explain.
-
-=== Intermediate language ===
-
-- severe (adjective): very serious
-- eligible (adjective): having the right to do or receive something
-- meaningful (adjective): serious and important; having real effect
-- lead to (phrasal verb): to cause something to happen
-- amount to (phrasal verb): to be the same as; to add up to
-- drop out of (phrasal verb): to stop taking part in something
-- push back (phrasal verb): to resist or challenge pressure or a proposal
-- a sense of duty (phrase): a feeling that you must do what is expected of you
-- within contracted hours (phrase): during the hours an employee is formally required to work
-- labour shortage (phrase): a situation in which there are not enough workers
 
 === Advanced ===
 
@@ -79,18 +54,6 @@ The argument is sometimes presented as a simple choice between economic growth a
 Meanwhile, other aspects of Japanese working life are changing. The tradition of after-hours socialising with colleagues has weakened in some workplaces, and flexible schedules are gaining visibility. Tokyo's metropolitan administration has offered eligible employees a four-day week option, while some businesses are loosening rigid expectations around appearance and office conduct. These developments are uneven, and a four-day schedule does not necessarily mean a four-day workload. Still, they point towards a different understanding of professional commitment, one that leaves room for family responsibilities and a life outside employment.
 
 Japan's dilemma is not unique. Ageing societies must find ways to sustain public services and economic activity without exhausting the people who deliver them. Asking workers to spend longer at their desks may appear to offer a quick answer, but fatigue, illness and disengagement carry costs of their own. A more durable measure of success would be a workplace where extra hours are genuinely voluntary, achievement matters more than appearances and nobody has to choose between doing their job well and remaining healthy enough to enjoy the rest of their life.
-
-=== Advanced language ===
-
-- devastating (adjective): causing great damage or shock
-- hard-won (adjective): achieved only after great effort
-- rigid (adjective): strict and unwilling to change
-- stand up to (phrasal verb): to resist someone powerful or an unreasonable demand
-- let someone down (phrasal verb): to disappoint someone by failing to do what they expected
-- live up to (phrasal verb): to reach or maintain an expected standard
-- leave room for (phrase): to allow the possibility of something
-- in practice (phrase): in reality, as opposed to in theory
-- not least because (phrase): especially because
 
 === Before you read ===
 

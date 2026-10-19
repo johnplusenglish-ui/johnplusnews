@@ -19,18 +19,6 @@ In 2026, the Australian Greens proposed a temporary ban on importing certain cam
 
 People on both sides have important concerns. Everyone should be able to know when they are being recorded, but a person who needs smart glasses to read or communicate should not lose access to them. Better security, clearer recording lights and rules against secret filming could help. The difficult question is how to stop harmful uses of technology without taking away the freedom it gives other people.
 
-=== Core language ===
-
-- harmful (adjective): causing damage or harm
-- temporary (adjective): lasting only for a limited time
-- secret (adjective): kept hidden from other people
-- put on (phrasal verb): to place clothing or glasses on your body
-- take out (phrasal verb): to remove something from a pocket or bag
-- take away (phrasal verb): to remove something from someone
-- live more independently (phrase): to manage more of daily life without help from other people
-- come into force (phrase): to start to apply, used of a law or rule
-- find your way around (phrase): to learn how to move about in a place
-
 === Intermediate ===
 
 A pair of smart glasses can look almost identical to ordinary spectacles. Inside the frames, however, there may be cameras, microphones and software capable of describing objects, translating speech or recording video. For some users, the technology is a convenient way to capture everyday moments without taking out a phone. For others, it has become an important tool for living independently. That difference is at the centre of a growing privacy debate in Australia.
@@ -44,18 +32,6 @@ In 2026, Australian Greens politicians proposed a 12-month ban on imports of cer
 Disability advocates worry that describing the devices mainly as tools for secret filming could create suspicion towards people who rely on them. A stranger may not be able to tell whether the glasses are reading a sign aloud for someone who is blind or recording the people nearby. That uncertainty could lead to uncomfortable confrontations and put people off using helpful technology in public.
 
 Neither side has an easy solution. Clear recording indicators, stronger security standards and meaningful penalties for misuse could protect privacy without removing accessibility benefits. But even good rules may struggle to keep up with rapidly changing devices. The debate illustrates a familiar problem with new technology: a feature that provides independence for one person can threaten the privacy of another. Effective regulation has to take both experiences seriously.
-
-=== Intermediate language ===
-
-- identical (adjective): exactly the same
-- intrusive (adjective): affecting someone's privacy in an unwelcome way
-- inappropriate (adjective): not suitable for a particular situation
-- rely on (phrasal verb): to need and trust something or someone
-- keep up with (phrasal verb): to stay at the same level as something that is changing quickly
-- put someone off (phrasal verb): to make someone not want to do something
-- at the centre of (phrase): the most important part of
-- attract headlines (phrase): to get a lot of attention in the news
-- take something seriously (phrase): to treat something as important
 
 === Advanced ===
 
@@ -73,19 +49,6 @@ The Australian Greens proposed legislation in 2026 calling for a temporary prohi
 Disability organisations have been alarmed by rhetoric portraying the glasses primarily as instruments of voyeurism. A device that helps someone navigate a supermarket or understand a conversation should not become a source of suspicion or stigma. Equally, accessibility cannot be invoked as a blanket justification for unrestricted recording. Any sensible approach must distinguish between legitimate assistive functions and the misuse of cameras or personal data, while acknowledging that the boundary may not always be obvious to bystanders.
 
 The most credible regulatory options include clearer recording indicators, minimum security standards, restrictions on covert filming and accessible complaints procedures. None is foolproof, and enforcement becomes more difficult as devices evolve. But the choice need not be between banning useful technology and abandoning privacy altogether. Smart glasses reveal the difficulty of governing tools whose value depends on context. A camera can undermine one person's autonomy while helping another regain it. Lawmakers who ignore either side risk solving one problem by creating another.
-
-=== Advanced language ===
-
-- covert (adjective): secret or hidden
-- blanket (adjective): applying to everything without exceptions
-- foolproof (adjective): so well designed that it cannot fail
-- spill over (phrasal verb): to spread from one area into another
-- throw up (phrasal verb): to produce or reveal something, such as a problem
-- crack down on (phrasal verb): to start dealing more strictly with something harmful or illegal
-- give rise to (phrase): to cause something to happen or begin
-- take something for granted (phrase): to accept something without noticing how lucky you are to have it
-- keep pace with (phrase): to change as fast as something else is changing
-- unintended consequences (phrase): results that nobody planned or expected
 
 === Before you read ===
 

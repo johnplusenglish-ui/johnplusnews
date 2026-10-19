@@ -21,18 +21,6 @@ The trial mainly tested whether the treatment was safe. One serious eye-related 
 
 Even small improvements can matter in daily life. Finding an object independently or moving around a room with greater confidence may seem ordinary to someone with good vision, but it can be significant for somebody with severe sight loss. Scientists hope the approach will become more effective in the future. For now, it is an early medical step, not a cure for blindness, and the next challenge is to turn a promising experiment into help that more people can actually use.
 
-=== Core language ===
-
-- experimental (adjective): still being tested; not yet proven
-- encouraging (adjective): giving hope or confidence
-- promising (adjective): likely to be successful in the future
-- try out (phrasal verb): to test something to see how well it works
-- make out (phrasal verb): to see or recognise something with difficulty
-- move around (phrasal verb): to go from place to place within an area
-- daily life (phrase): the ordinary things people do every day
-- over time (phrase): gradually, as time passes
-- a cure for (phrase): a treatment that makes an illness go away completely
-
 === Intermediate ===
 
 Imagine being able to detect a doorway after years of seeing almost nothing. That may sound like a modest achievement, but for somebody with severe sight loss it could make a practical difference. Researchers have reported encouraging results from an experimental treatment that combines gene therapy with electronic goggles. The study, published in the New England Journal of Medicine in October 2026, involved ten patients whose vision had been badly damaged by an inherited condition called retinitis pigmentosa.
@@ -46,18 +34,6 @@ Six participants showed what researchers considered a clinically meaningful impr
 Safety was the main purpose of the trial. Researchers recorded eye-related side effects, most of which were mild or moderate. One severe event occurred immediately after an injection, but it was treated and resolved within minutes. The study was also small and had no untreated comparison group. That makes it important not to exaggerate its results or suggest that the treatment is ready for general use.
 
 Nevertheless, the research represents a meaningful step forward. Rather than depending on the exact genetic cause of the disease, the method targets nerve cells that may survive several different forms of retinal damage. Further work will be needed to improve the images, test more patients and narrow down who might benefit most. For people who have lost their sight, the prospect of detecting an object or moving more confidently through a familiar room offers hope. The challenge is to turn those early gains into reliable improvements in everyday life.
-
-=== Intermediate language ===
-
-- modest (adjective): small in size or amount; not impressive
-- inherited (adjective): passed from parents to children through genes
-- reliable (adjective): able to be trusted to work or happen
-- carry out (phrasal verb): to do or complete a task
-- get around (phrasal verb): to find a way of avoiding a problem
-- narrow down (phrasal verb): to reduce a set of possibilities until the best answer is clearer
-- a step forward (phrase): an improvement or progress
-- within minutes (phrase): very quickly, in only a few minutes
-- offer hope (phrase): to give people reason to expect something good
 
 === Advanced ===
 
@@ -74,18 +50,6 @@ The results require careful interpretation. Seven of the ten participants experi
 Safety, rather than proof of clinical effectiveness, was the study's primary objective. Most recorded eye-related adverse events were mild or moderate; one serious complication occurred immediately after an injection and resolved rapidly with treatment. The trial was small, open-label and lacked a control group, so it cannot establish how widely or reliably the benefits might be reproduced. Independent researchers nevertheless welcomed the evidence that optogenetic stimulation can provide visual function over an extended period.
 
 Medicine advances not only through spectacular recoveries but through the steady accumulation of smaller capabilities. For someone with severe visual impairment, identifying a doorway or reaching towards an object can offer a measure of independence even when familiar faces remain invisible. The next challenge is to improve resolution, assess safety in larger studies and determine whether the laboratory results translate into sustained benefits outside controlled settings. The treatment cannot yet return the world to patients as they once saw it. What it may eventually offer is a new way of navigating that world.
-
-=== Advanced language ===
-
-- incremental (adjective): increasing gradually in small steps
-- profound (adjective): very great or serious
-- crude (adjective): simple and lacking detail or refinement
-- amount to (phrasal verb): to be equal to or the same as
-- build on (phrasal verb): to use something as a base for further development
-- translate into (phrasal verb): to result in; to lead to
-- in principle (phrase): in theory; as a general idea
-- invite sweeping headlines (phrase): to encourage broad, dramatic news claims
-- a considerable distance from (phrase): very different from; far from
 
 === Before you read ===
 

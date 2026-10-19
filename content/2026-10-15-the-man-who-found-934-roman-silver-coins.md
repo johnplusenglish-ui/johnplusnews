@@ -21,18 +21,6 @@ Riedl's behaviour was also important. He was carrying out a permitted search and
 
 The collection went on display at the LVR State Museum in Bonn in September 2026. Visitors can now see money that somebody held, saved and eventually hid almost 1,900 years ago. The mystery of its owner may never be solved. But the story reminds us that history is not only about emperors, battles and famous buildings. Sometimes it is about an ordinary person who buried their savings and never came back.
 
-=== Core language ===
-
-- remarkable (adjective): unusual and impressive
-- sensible (adjective): showing good judgement
-- ordinary (adjective): normal; not special
-- go off (phrasal verb): to make a sudden noise or signal, used of an alarm or device
-- put aside (phrasal verb): to save money for later
-- come back (phrasal verb): to return
-- on display (phrase): shown in public for people to see
-- in recent years (phrase): during the last few years
-- come with the risk of (phrase): to involve a danger of
-
 === Intermediate ===
 
 When Oliver Riedl's metal detector continued to signal in a field near Wesseling, south of Cologne, he began to suspect that he had found more than a few lost coins. Riedl, an amateur archaeologist carrying out an authorised search, uncovered several Roman silver pieces and contacted specialists. They went on to recover a hoard of 934 denarii, weighing 3.1 kilograms. The first coins were discovered in October 2025, while the remarkable find was announced publicly in September 2026.
@@ -46,18 +34,6 @@ The amount was considerable. Experts have compared it with the earnings of a Rom
 Riedl's decision to inform the authorities mattered almost as much as the discovery itself. By investigating the area carefully, archaeologists could record the coins' position and examine traces of the original container. Such details provide clues about how and why the money was hidden. When historical objects are removed without proper records, much of their story can disappear, even if the objects themselves survive.
 
 The coins have since been displayed at the LVR State Museum in Bonn, where visitors can inspect a fortune that lay hidden for nearly 1,900 years. The find gives historians another small piece of evidence about Roman life in what is now western Germany. It also leaves room for a more human question: what plans did the owner have for all that money? We may never know, but the fact that nobody returned to collect it is what makes the treasure so intriguing.
-
-=== Intermediate language ===
-
-- amateur (adjective): doing something for pleasure, not as a job
-- intriguing (adjective): very interesting because it is mysterious
-- uncertain (adjective): not known or settled
-- go on to (phrasal verb): to do something after finishing something else
-- date from (phrasal verb): to have existed since a particular time
-- move away (phrasal verb): to go to live in a different place
-- a piece of evidence (phrase): one fact or object that helps prove something
-- lose access to (phrase): to no longer be able to reach or use something
-- in what is now (phrase): in the place that today is called
 
 === Advanced ===
 
@@ -74,19 +50,6 @@ The scale of the deposit is nevertheless revealing. Regional specialists have co
 Of equal significance is the way the discovery was handled. Riedl was searching with permission and notified professionals as soon as he recognised the potential importance of his find. Archaeology depends on context as well as objects. The position of a hoard, the surrounding soil and the remains of its container may answer questions that isolated coins cannot. An impressive collection acquired without documentation can quickly become little more than a display of valuable metal; this one retained evidence about the act of concealment itself.
 
 Now exhibited at the LVR State Museum in Bonn, the denarii are both public treasure and private mystery. Visitors can study portraits of rulers and the changing imagery of Roman authority, but the most absorbing figure is absent from every coin. Somebody accumulated the money, judged the ground a safe place to hide it and expected, presumably, to return. Almost 1,900 years later, the coins have come to light. The person who put them there remains beyond the reach of the metal detector, and perhaps of history itself.
-
-=== Advanced language ===
-
-- plausible (adjective): seeming likely to be true
-- approximate (adjective): close to the real figure but not exact
-- absorbing (adjective): holding your attention completely
-- clear up (phrasal verb): to solve or explain a mystery
-- get across (phrasal verb): to make an idea clear to other people
-- dig up (phrasal verb): to find something by digging in the ground
-- come to light (phrase): to be discovered or become known after being hidden
-- loose change (phrase): a small amount of money in coins
-- little more than (phrase): hardly anything other than
-- beyond the reach of (phrase): impossible for something or someone to find or affect
 
 === Before you read ===
 

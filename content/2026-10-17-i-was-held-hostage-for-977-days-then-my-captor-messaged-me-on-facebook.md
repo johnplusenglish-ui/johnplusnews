@@ -20,18 +20,6 @@ The case became more complicated during the trial. Evidence showed that Tahlil h
 
 Moore has written openly about the difficult question of forgiveness. During captivity, trying not to hate his guards helped him survive. But forgiving someone does not mean pretending that their actions were acceptable. He still wanted justice, even when he felt uncomfortable about harsh punishment. His story shows how complicated recovery can be: a person may want answers, peace and accountability at the same time.
 
-=== Core language ===
-
-- frightened (adjective): feeling fear; afraid
-- complicated (adjective): difficult to understand, with many connected parts
-- harsh (adjective): very severe or strict
-- set off (phrasal verb): to start a journey
-- find out (phrasal verb): to discover information
-- turn up (phrasal verb): to arrive, often unexpectedly
-- out of the blue (phrase): suddenly and unexpectedly
-- get in touch (phrase): to contact someone
-- in return (phrase): as an exchange for something you have done or given
-
 === Intermediate ===
 
 Imagine receiving a Facebook message from someone who had helped keep you prisoner for almost three years. Would you delete it, report it to the police or reply? American journalist Michael Scott Moore faced that decision in late 2014, just two months after being released from captivity in Somalia. The message came from Mohamed Tahlil, a man Moore remembered as one of his less aggressive guards. Tahlil greeted him almost as an old friend. After everything he had suffered, Moore found that friendliness difficult to believe.
@@ -45,18 +33,6 @@ In August 2018, Tahlil arrived in New York expecting a new opportunity. Federal 
 Both men were convicted in 2023 of serious crimes connected with the kidnapping and were sentenced to 30 years in prison in 2024. Moore supported accountability, but the outcome did not bring him the simple satisfaction outsiders might expect. He questioned whether every offender deserved the same punishment and whether a courtroom could provide the peace that years of captivity had taken from him. His views had changed, but questions about forgiveness remained.
 
 The experience raises an uncomfortable distinction. Forgiving someone does not require forgetting what they did or protecting them from the consequences. For Moore, trying to let go of hatred had helped him survive long before the trials began. Justice was a public process involving judges and evidence; recovery was far more personal. The strange Facebook message connected those two worlds, but could not offer an easy ending to either.
-
-=== Intermediate language ===
-
-- makeshift (adjective): made quickly from whatever is available, as a temporary solution
-- genuine (adjective): real and sincere, not pretended
-- uneasy (adjective): slightly worried or uncomfortable
-- cut off (phrasal verb): to stop or end something, for example contact with a person
-- set up (phrasal verb): to organise or arrange something
-- turn out (phrasal verb): to prove to be the case in the end; to happen in a particular way
-- let go of (phrase): to stop holding on to something, including a feeling
-- keep someone in the dark (phrase): to keep someone without information about something
-- stay in touch (phrase): to keep contacting someone over time
 
 === Advanced ===
 
@@ -73,18 +49,6 @@ Moore's participation left him profoundly ambivalent. He wanted those responsibl
 The case might appear to offer a narrative of justice eventually catching up with its targets. Moore's account is more unsettled. He does not dispute the seriousness of the crimes, but he questions the assumption that punishment automatically supplies psychological closure. During captivity he had found that loosening his grip on anger could preserve a measure of independence in circumstances designed to strip him of control. That private understanding of forgiveness was quite separate from acquitting a captor of responsibility, or agreeing that every participant deserved an identical sentence.
 
 His experience challenges the assumption that sympathy for a captor always reflects manipulation. Victims may distinguish between individuals, change their assessments as evidence emerges and still resist the desire for vengeance. None of those responses necessarily diminishes the harm they suffered. The Facebook correspondence forced Moore to confront uncomfortable questions about trust, complicity and mercy, but it did not deliver a tidy reconciliation. Sometimes the struggle to understand the past continues long after the legal case has ended.
-
-=== Advanced language ===
-
-- subordinate (adjective): lower in rank or importance than someone else
-- ambivalent (adjective): having mixed or contradictory feelings about something
-- unsettled (adjective): not calm or resolved; still troubled
-- draw someone into (phrasal verb): to involve someone in something, often without their intending it
-- tip off (phrasal verb): to warn someone, especially the police, about something secretly
-- catch up with (phrasal verb): to finally reach or affect someone after a period of time
-- beyond reach (phrase): impossible to get to, touch or punish
-- loosen your grip on (phrase): to hold something less tightly; to let a feeling have less control over you
-- hold someone accountable (phrase): to make someone take responsibility for what they have done
 
 === Before you read ===
 

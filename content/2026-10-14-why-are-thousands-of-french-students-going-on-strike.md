@@ -19,18 +19,6 @@ The French government said it would send in thousands of extra replacement teach
 
 There is no easy answer. Improving public schools costs money, and governments must decide how to spend limited budgets. But students in poorer areas may already have fewer opportunities than children in wealthier places. For the teenagers taking part, the protests are about more than missing a lesson. They want schools that give everyone a fair chance. Their biggest challenge is turning attention in the streets into real changes in the classroom.
 
-=== Core language ===
-
-- crowded (adjective): full of people; too many people in a space
-- limited (adjective): small in amount; not enough for everything
-- extra (adjective): more than the usual or expected amount
-- stay away from (phrasal verb): to not go to a place
-- join in (phrasal verb): to take part in an activity with others
-- send in (phrasal verb): to send people somewhere to deal with a problem
-- a day off (phrase): a day when you do not have to work or study
-- in power (phrase): having political control
-- a fair chance (phrase): an equal opportunity to succeed
-
 === Intermediate ===
 
 France has a long history of street demonstrations, but the latest wave of protests has been led by an unusually young group of campaigners. Since late September 2026, thousands of secondary-school students have walked out of lessons, blocked school gates and marched through city centres. Their complaint is straightforward: schools are struggling, and the government is not doing enough to fix them.
@@ -44,19 +32,6 @@ The government promised to provide 3,000 additional replacement teachers in the 
 The protests have not been entirely peaceful. Some marches led to clashes with police, injuries and arrests, prompting concerns about the treatment of young demonstrators. Authorities said they needed to respond to disorder, while students and campaigners accused police of using too much force. Meanwhile, some parents questioned whether missing weeks of school could damage the very education the protesters were trying to improve.
 
 That contradiction is central to the debate. Continuing to attend poorly equipped schools may seem pointless to frustrated teenagers, yet prolonged disruption could leave them further behind. The movement also raises the question of educational inequality. If children in richer areas have more reliable lessons and better facilities, how equal are their opportunities? Whatever happens next, these students have spelled out what they expect: to have a say in decisions that shape their future.
-
-=== Intermediate language ===
-
-- decent (adjective): of an acceptable standard; good enough
-- temporary (adjective): lasting only a short time
-- pointless (adjective): having no purpose or useful result
-- walk out of (phrasal verb): to leave a place suddenly as a protest
-- grow into (phrasal verb): to develop gradually into something bigger
-- leave someone behind (phrasal verb): to make slower progress than others; to be left at a disadvantage
-- spell out (phrasal verb): to explain something clearly and in detail
-- have a say in (phrase): to be allowed to give your opinion on a decision
-- whatever happens next (phrase): no matter what the result is
-- face pressure to (phrase): to be pushed by circumstances to do something
 
 === Advanced ===
 
@@ -74,19 +49,6 @@ The government's response has included a pledge to roll out 3,000 additional rep
 Policing has become a further source of controversy. Most demonstrations have been peaceful, but confrontations have produced injuries and arrests, and campaigners have accused officers of excessive force. Authorities point to incidents of violence and the need to maintain public order. These competing accounts underline the difficulty of policing a movement involving teenagers, many of whom are encountering organised political activism for the first time. The debate has widened from educational standards to the limits of protest and the state's responsibility towards young citizens.
 
 There is an uncomfortable paradox at the heart of the strikes. By refusing to attend lessons, students risk losing more of the teaching they say they are being denied. Supporters respond that accepting the status quo carries its own long-term cost. Whether the movement secures lasting changes remains uncertain. What is already evident is a generation of pupils unwilling to be treated as passive recipients of government policy. In demanding better schools, they are also insisting on a voice in the institutions that shape their lives.
-
-=== Advanced language ===
-
-- dilapidated (adjective): old and in very poor condition
-- contentious (adjective): likely to cause disagreement
-- passive (adjective): accepting what happens without acting or responding
-- fall short of (phrasal verb): to fail to reach a standard or level
-- make up for (phrasal verb): to replace or compensate for something lost
-- roll out (phrasal verb): to make something available gradually in more places
-- lay bare (phrase): to reveal an unpleasant truth very clearly
-- the status quo (phrase): the way things are now
-- at the heart of (phrase): the most important part of something
-- a voice in (phrase): the right to be heard in a decision
 
 === Before you read ===
 

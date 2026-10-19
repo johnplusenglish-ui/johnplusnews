@@ -25,18 +25,6 @@ Singapore has another reason to be interested in relationships. Fewer children a
 
 Some people like the idea of a dating service that focuses on shared values. Others believe the government should stay out of people's private lives. FirstDate is still a small experiment, and officials have not decided whether it will grow. A computer system may be able to introduce two people who like the same things. It cannot promise that they will enjoy their first date, or that they will fall in love.
 
-=== Core language ===
-
-- single (adjective): not married and not in a relationship
-- private (adjective): personal; not for other people to know about
-- concerned (adjective): worried
-- try out (phrasal verb): to test something to see if it works
-- keep on (phrasal verb): to continue doing something
-- stay out of (phrasal verb): to not become involved in something
-- get to know (phrase): to learn what someone is like over time
-- at a time (phrase): one after another, not together
-- fall in love (phrase): to start loving someone
-
 === Intermediate ===
 
 After hours of swiping through profiles, another dating app match may feel less exciting than it should. Singapore's government technology agency has been testing a different approach: instead of offering people an endless stream of possible partners, it introduces them to just one person at a time. The platform, called FirstDate, aims to help users focus on a meaningful connection rather than the search itself.
@@ -50,18 +38,6 @@ The project has attracted attention because of Singapore's low birth rate and ag
 Critics argue that a dating app cannot solve the reasons some young adults put off long-term relationships or parenthood. Expensive housing, demanding careers and the cost of childcare influence major life decisions. Others are uncomfortable with a government-run service collecting sensitive information about relationships, although FirstDate has published privacy safeguards and allows users to decide whether to share contact details.
 
 For now, there is no decision about rolling out the scheme beyond public-service workers. Its success may depend less on how clever the algorithm is than on whether users find the experience less exhausting than conventional apps. The technology can offer an introduction and perhaps take the pressure off dating. What happens after that still belongs to the two people meeting for the first time.
-
-=== Intermediate language ===
-
-- endless (adjective): seeming to have no end
-- compatible (adjective): able to exist or be together well
-- exhausting (adjective): making you very tired
-- add up to (phrasal verb): to result in; to amount to
-- put off (phrasal verb): to delay doing something
-- roll out (phrasal verb): to make a new service available to more people
-- on paper (phrase): judging from the facts alone, not from experience
-- not the same as (phrase): different from
-- take the pressure off (phrase): to make a situation less stressful
 
 === Advanced ===
 
@@ -79,18 +55,6 @@ A successful match, of course, is an ambiguous measure. The Gale-Shapley method 
 The privacy questions are equally delicate. A platform that asks users to describe their preferences, habits and relationship aspirations collects information they may be reluctant to hand over to an employer-connected system. FirstDate says the data is handled under government security standards and is not sold to commercial third parties. Those commitments matter, but trust will depend on transparency and how the service operates in practice. Participation must remain a genuine choice if a well-intentioned initiative is to avoid feeling intrusive.
 
 There is also something refreshing about a dating service that declines to maximise the time users spend browsing. Commercial platforms often benefit when people keep returning; FirstDate proposes that a more limited selection could serve users better. Whether that produces lasting relationships has yet to be demonstrated. For now, the platform remains a public-service pilot, with no decision about expansion. Its most revealing lesson may be that technology can organise introductions remarkably well while remaining almost powerless over what makes two people fall for each other.
-
-=== Advanced language ===
-
-- restrained (adjective): controlled and not excessive
-- ambiguous (adjective): having more than one possible meaning; unclear
-- intrusive (adjective): affecting someone's private life in an unwelcome way
-- stem from (phrasal verb): to originate in or be caused by something
-- hand over (phrasal verb): to give something to someone, often unwillingly
-- fall for (phrasal verb): to start to love someone
-- in that context (phrase): considered against that background
-- have yet to be (phrase): has still not been (done)
-- remain a genuine choice (phrase): to continue to be something people can freely choose
 
 === Before you read ===
 

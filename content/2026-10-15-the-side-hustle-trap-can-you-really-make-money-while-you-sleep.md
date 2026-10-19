@@ -22,18 +22,6 @@ Affiliate marketing is another popular option. People earn a small payment when 
 
 None of this means side hustles are a bad idea. They can build confidence, teach business skills and sometimes turn into full-time work. Before starting, ask yourself: Who will buy what I'm selling? How much will it cost? What will I actually earn after expenses? Making money online is possible. Doing it without working hard is much less likely.
 
-=== Core language ===
-
-- attractive (adjective): pleasant and interesting; making you want it
-- second-hand (adjective): owned or used by someone else before
-- full-time (adjective): for all the hours of a normal working week
-- set up (phrasal verb): to start a business or organise something new
-- start out (phrasal verb): to begin doing something, especially a job or business
-- turn into (phrasal verb): to change and become something else
-- while you sleep (phrase): without you doing any work
-- make ends meet (phrase): to have just enough money to pay for basic living costs
-- far below (phrase): much less than
-
 === Intermediate ===
 
 title: The Side-Hustle Trap: What the Videos Leave Out
@@ -49,18 +37,6 @@ Consider digital products such as online invitations or printable planners. Ther
 Perhaps the most awkward question concerns the influencers themselves. If a particular online business is so profitable, why do so many people spend their time selling courses about how to start one? Some are experienced entrepreneurs who offer valuable advice. Others appear to earn more from hopeful beginners than from the businesses they are recommending. In a recent Guardian investigation, a journalist tested several popular online money-making methods and found that the costs and effort quickly undermined the promise of easy profits.
 
 It would be a mistake to dismiss side hustles altogether. They can provide flexibility, teach commercial skills and give people more control over their income. But a healthy dose of scepticism is useful when an opportunity promises big returns for little work. Before paying for software or a training course, calculate the likely costs, research your competitors and work out where your customers would come from. Financial independence may begin with a good idea, but it rarely begins with doing nothing.
-
-=== Intermediate language ===
-
-- appealing (adjective): attractive and interesting
-- profitable (adjective): making money
-- spectacular (adjective): very impressive or surprising
-- bring in (phrasal verb): to earn money
-- leave out (phrasal verb): to not include something
-- weigh up (phrasal verb): to compare the advantages and disadvantages before deciding
-- the cost of living (phrase): the amount of money needed for food, housing and other basics
-- a healthy dose of (phrase): a good amount of something, usually an attitude
-- far from (phrase): not at all
 
 === Advanced ===
 
@@ -78,18 +54,6 @@ Digital marketplaces offer a useful illustration of the underlying economics. Se
 A further complication is the business of teaching other people to make money. Some experienced creators sell genuinely useful training; others market expensive courses supported by carefully selected testimonials and vague income claims. The incentive is worth examining. A person may find it more lucrative to sell the prospect of entrepreneurship than to pursue the activity supposedly generating their wealth. A Guardian investigation published in October 2026 documented how difficult several fashionable online ventures proved in practice, reinforcing the need to distinguish exceptional cases from representative outcomes.
 
 None of this undermines the value of entrepreneurship. Small ventures can create opportunities, top up low wages and develop skills that later become commercially valuable. The danger lies in presenting genuine enterprise as a shortcut around effort, risk and uncertainty. A prospective founder needs to know the customer, the competition, the likely costs and the time required before the first sale. Perhaps the most useful question is not whether a business can produce income while its owner sleeps, but how much work was necessary to get it there in the first place.
-
-=== Advanced language ===
-
-- dubious (adjective): probably not honest or trustworthy
-- lucrative (adjective): making a lot of money
-- credible (adjective): able to be believed or trusted
-- part with (phrasal verb): to give something away, especially money, unwillingly
-- top up (phrasal verb): to add to an amount to make it larger
-- come through (phrasal verb): to arrive, used of money or documents
-- take something into account (phrase): to consider something when making a judgement
-- be another matter (phrase): to be a different and more difficult question
-- in the first place (phrase): at the beginning; before anything else happened
 
 === Before you read ===
 

@@ -20,18 +20,6 @@ Police eventually recovered the two missing Renoirs from a hiding place behind a
 
 The case raised questions about protecting valuable art. Small museums often have fewer security resources than famous galleries, yet they may hold paintings worth millions. There is also the problem of selling stolen masterpieces: buyers know that such works are recognised around the world. The thieves had apparently planned an ambitious crime, but their escape left behind the very clues that helped police find the art.
 
-=== Core language ===
-
-- valuable (adjective): worth a lot of money
-- missing (adjective): lost; not where it should be
-- ambitious (adjective): needing a lot of effort and skill to succeed; aiming high
-- go off (phrasal verb): to start ringing or making a noise (an alarm)
-- break into (phrasal verb): to enter a building illegally, usually by force
-- leave something behind (phrasal verb): to go away without taking something with you
-- run out of time (phrase): to have no time left
-- on your way (phrase): travelling towards a place
-- nowhere to be found (phrase): impossible to find anywhere
-
 === Intermediate ===
 
 Shortly before six in the morning, an alarm sounded at a quiet museum on the French Riviera. By the time the local police arrived, two intruders had disappeared, leaving behind a confused scene and two paintings they had apparently intended to steal. Two other works by Pierre-Auguste Renoir were missing. It was 8 September 2026, and a museum devoted to one of France's best-known painters had become the centre of an international art-theft investigation. The surviving haul was later valued by the Marseille prosecutor at approximately €4.2 million.
@@ -45,18 +33,6 @@ Then the case became more urgent. Police observed that one suspect had visited t
 The missing paintings were recovered from behind a concealed wall beneath a staircase in a house. Their survival came as a relief, though one had suffered a tear and the other damage to its frame. The French Ministry of Culture announced that specialists would examine the works in Marseille before they returned to Cagnes-sur-Mer. The paintings had escaped permanent disappearance, but not the consequences of being handled as criminal property.
 
 The investigation reopened an uncomfortable debate about museum security. A small cultural institution can hold works of immense financial and historical value without having the resources of a national gallery. Meanwhile, the criminals face a practical difficulty of their own: famous paintings are extraordinarily difficult to sell openly. In this case, a carefully planned break-in ended with abandoned evidence, suspected preparations for another robbery and two priceless objects hidden in a wall. It was hardly the elegant operation imagined in an art-heist film.
-
-=== Intermediate language ===
-
-- striking (adjective): unusual and attracting attention
-- imminent (adjective): about to happen very soon
-- priceless (adjective): so valuable that no price can be put on it
-- close in on (phrasal verb): to get progressively nearer to catching or finding someone
-- piece together (phrasal verb): to work out the truth by putting separate pieces of information together
-- track down (phrasal verb): to find someone or something after a long search
-- known to investigators (phrase): already on the police's or investigators' records
-- at the scene (phrase): at the place where something happened
-- come as a relief (phrase): to make someone feel less worried
 
 === Advanced ===
 
@@ -73,18 +49,6 @@ Police did not wait for every question to be resolved. After surveillance sugges
 The two missing paintings were eventually discovered concealed behind a wall beneath a staircase in a house. Their recovery was fortunate rather than entirely unscathed: officials reported a torn canvas and damage to a frame. The works were transferred for specialist examination and potential restoration before their planned return to the museum. The physical harm also illustrated why art theft is not simply a dispute over ownership. A painting can survive for more than a century only to be damaged during a few hurried minutes of illegal handling.
 
 Beyond the improbable hiding place, the case exposed a vulnerability shared by many regional museums. They preserve works of enormous cultural importance while operating without the formidable security budgets of major national institutions. Yet the burglars confronted a paradox too. The more recognisable a stolen masterpiece becomes, the harder it is to dispose of it discreetly. This robbery may have been ambitious, but its aftermath was defined by ordinary evidence, the fear of another crime and two famous paintings concealed in a space barely large enough to hold them.
-
-=== Advanced language ===
-
-- conspicuous (adjective): very easy to notice; standing out
-- unscathed (adjective): not harmed or damaged
-- improbable (adjective): unlikely; not what you would expect
-- make off (phrasal verb): to leave quickly, especially after committing a crime
-- set out (phrasal verb): to explain or present something clearly, such as an argument or a case
-- dispose of (phrasal verb): to get rid of something, including by selling it
-- under investigation (phrase): being examined by the police or another authority
-- in the rush to (phrase): while hurrying to do something
-- cut something short (phrase): to stop something before it is finished
 
 === Before you read ===
 
