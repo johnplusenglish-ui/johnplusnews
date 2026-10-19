@@ -26,7 +26,7 @@ Run `python3 tools/make_dock_app.py` once. It makes `Publish an article.app` in 
 
 ## Accounts (optional)
 
-Readers can sign in with an email and password to save the words they highlight, keep their reading progress and preferences across devices, and see everything in a My words page. The teacher gets a Teacher view with every student's words. It uses its own Supabase project and is switched on by pasting two public values into `static/config.js`; until then the site works as before with no sign-in button. Setup steps are in `ACCOUNTS-SETUP.md` and the database rules are in `supabase/schema.sql`. The code is `static/account.js`; the highlighter (`static/highlight.js`) sends it events, so it works the same without an account.
+Readers can sign in with an email and password to save the words they highlight, keep their reading progress and preferences across devices, and see everything in a My words page. The teacher gets a Teacher view with every student's words. It shares the book42 Supabase project (every table starts with `news_`) and is switched on by pasting two public values into `static/config.js`; until then the site works as before with no sign-in button. Setup steps are in `ACCOUNTS-SETUP.md` and the database rules are in `supabase/schema.sql`. The code is `static/account.js`; the highlighter (`static/highlight.js`) sends it events, so it works the same without an account.
 
 ## Add an article by hand
 

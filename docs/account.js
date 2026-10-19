@@ -168,7 +168,13 @@
   function loadMe() {
     if (!session) { me = null; return Promise.resolve(); }
     me = { id: session.user.id, email: session.user.email, name: session.user.name, role: (read("jpn_role") || {}).role || "student" };
-    return api("GET", "/rest/v1/profiles?select=display_name,role&id=eq." + enc(me.id)).then(function (rows) {
+    function get() { return api("GET", "/rest/v1/news_profiles?select=display_name,role&id=eq." + enc(me.id)); }
+    return get().then(function (rows) {
+      if (rows && rows[0]) return rows;
+      // first time on the news site: make this person's profile (the sign-in project is shared with other sites, so it is not automatic)
+      return api("POST", "/rest/v1/news_profiles?on_conflict=id", { prefer: "resolution=ignore-duplicates,return=minimal",
+        body: { id: me.id, display_name: (me.name || "").slice(0, 60) } }).then(get);
+    }).then(function (rows) {
       var r = rows && rows[0];
       if (r) { me.role = r.role || "student"; if (r.display_name) me.name = r.display_name; write("jpn_role", { id: me.id, role: me.role }); }
     }).catch(function () {});
@@ -315,12 +321,12 @@
       if (!q.length) return Promise.resolve();
       var o = q[0], job;
       if (o.op === "add") {
-        job = api("POST", "/rest/v1/words?on_conflict=user_id,slug,level,text", { prefer: "resolution=merge-duplicates,return=minimal",
+        job = api("POST", "/rest/v1/news_words?on_conflict=user_id,slug,level,text", { prefer: "resolution=merge-duplicates,return=minimal",
           body: { user_id: me.id, slug: o.slug, level: o.level, text: o.text, sentence: o.sentence || null, start_pos: o.start, end_pos: o.end } });
       } else if (o.op === "del") {
-        job = api("DELETE", "/rest/v1/words?user_id=eq." + enc(me.id) + "&slug=eq." + enc(o.slug) + "&level=eq." + enc(o.level) + "&text=eq." + enc(o.text), { prefer: "return=minimal" });
+        job = api("DELETE", "/rest/v1/news_words?user_id=eq." + enc(me.id) + "&slug=eq." + enc(o.slug) + "&level=eq." + enc(o.level) + "&text=eq." + enc(o.text), { prefer: "return=minimal" });
       } else {
-        job = api("DELETE", "/rest/v1/words?user_id=eq." + enc(me.id) + "&slug=eq." + enc(o.slug) + "&level=eq." + enc(o.level), { prefer: "return=minimal" });
+        job = api("DELETE", "/rest/v1/news_words?user_id=eq." + enc(me.id) + "&slug=eq." + enc(o.slug) + "&level=eq." + enc(o.level), { prefer: "return=minimal" });
       }
       return job.then(function () { pop(o); return step(); }, function (e) {
         if (e instanceof TypeError || (e.status >= 500) || e.status === 401) throw e;   // offline or a server hiccup: keep it for later
@@ -363,13 +369,13 @@
       }
     } catch (e) {}
     if (!rows.length) return Promise.resolve();
-    return api("POST", "/rest/v1/words?on_conflict=user_id,slug,level,text", { prefer: "resolution=merge-duplicates,return=minimal", body: rows }).catch(function () {});
+    return api("POST", "/rest/v1/news_words?on_conflict=user_id,slug,level,text", { prefer: "resolution=merge-duplicates,return=minimal", body: rows }).catch(function () {});
   }
 
   /* ================================================================= reading progress and preferences */
   var progress = {};          // slug -> {status, level}
   function loadProgress() {
-    return api("GET", "/rest/v1/progress?select=slug,status,level&user_id=eq." + enc(me.id)).then(function (rows) {
+    return api("GET", "/rest/v1/news_progress?select=slug,status,level&user_id=eq." + enc(me.id)).then(function (rows) {
       progress = {};
       (rows || []).forEach(function (r) { progress[r.slug] = r; });
     }).catch(function () {});
@@ -382,7 +388,7 @@
     var lv = currentLevel();
     var rec = { user_id: me.id, slug: slug, level: lv, status: status, updated_at: new Date().toISOString() };
     progress[slug] = rec;
-    return api("POST", "/rest/v1/progress?on_conflict=user_id,slug", { prefer: "resolution=merge-duplicates,return=minimal", body: rec }).catch(function () {});
+    return api("POST", "/rest/v1/news_progress?on_conflict=user_id,slug", { prefer: "resolution=merge-duplicates,return=minimal", body: rec }).catch(function () {});
   }
   var watching = false;
   function trackArticle() {
@@ -433,7 +439,7 @@
       if (!me) return;
       var body = { user_id: me.id, updated_at: new Date().toISOString() };
       Object.keys(prefs).forEach(function (k) { body[k] = prefs[k]; });
-      api("POST", "/rest/v1/prefs?on_conflict=user_id", { prefer: "resolution=merge-duplicates,return=minimal", body: body }).catch(function () {});
+      api("POST", "/rest/v1/news_prefs?on_conflict=user_id", { prefer: "resolution=merge-duplicates,return=minimal", body: body }).catch(function () {});
     }, 800);
   }
   document.addEventListener("jpn:pref", function (e) {
@@ -445,7 +451,7 @@
     savePrefs();
   });
   function syncPrefs() {
-    return api("GET", "/rest/v1/prefs?select=font,level,timer_minutes&user_id=eq." + enc(me.id)).then(function (rows) {
+    return api("GET", "/rest/v1/news_prefs?select=font,level,timer_minutes&user_id=eq." + enc(me.id)).then(function (rows) {
       var r = rows && rows[0], mine = localPrefs();
       if (!r) { prefs = mine; if (Object.keys(mine).length) savePrefs(); return; }
       prefs = {};
@@ -469,7 +475,7 @@
   function syncArticle() {
     if (!window.jpnHL) return Promise.resolve();
     return flush().then(function () {
-      return api("GET", "/rest/v1/words?select=level,text,sentence,start_pos,end_pos&user_id=eq." + enc(me.id) + "&slug=eq." + enc(window.jpnHL.slug));
+      return api("GET", "/rest/v1/news_words?select=level,text,sentence,start_pos,end_pos&user_id=eq." + enc(me.id) + "&slug=eq." + enc(window.jpnHL.slug));
     }).then(function (rows) { window.jpnHL.sync(rows || []); }).catch(function () {});
   }
 
@@ -527,7 +533,7 @@
     if (!me) { signInPrompt("Sign in to see the words you have saved."); return; }
     clear(root);
     root.appendChild(el("p", "acct-note", "Loading your words"));
-    Promise.all([loadTitles(), getAll("/rest/v1/words?select=id,slug,level,text,sentence,created_at&user_id=eq." + enc(me.id) + "&order=created_at.desc")]).then(function (res) {
+    Promise.all([loadTitles(), getAll("/rest/v1/news_words?select=id,slug,level,text,sentence,created_at&user_id=eq." + enc(me.id) + "&order=created_at.desc")]).then(function (res) {
       var rows = res[1], q = "";
       clear(root);
       var bar = el("div", "wd-bar");
@@ -560,7 +566,7 @@
             top.appendChild(el("span", "wd-lv", r.level === "single" ? "" : r.level));
             var x = el("button", "wd-x", "×"); x.type = "button"; x.setAttribute("aria-label", "Remove " + r.text);
             x.addEventListener("click", function () {
-              api("DELETE", "/rest/v1/words?id=eq." + r.id, { prefer: "return=minimal" }).then(function () {
+              api("DELETE", "/rest/v1/news_words?id=eq." + r.id, { prefer: "return=minimal" }).then(function () {
                 rows = rows.filter(function (z) { return z !== r; }); draw();
               }).catch(function (er) { toast(nice(er)); });
             });
@@ -586,9 +592,9 @@
     if (me.role !== "teacher") { clear(root); root.appendChild(el("p", "acct-note", "This page is for the teacher.")); return; }
     clear(root);
     root.appendChild(el("p", "acct-note", "Loading the class"));
-    Promise.all([loadTitles(), getAll("/rest/v1/profiles?select=id,email,display_name,role,created_at&order=created_at.asc"),
-                 getAll("/rest/v1/words?select=user_id,slug,level,text,sentence,created_at&order=created_at.desc"),
-                 getAll("/rest/v1/progress?select=user_id,slug,status,level,updated_at")]).then(function (res) {
+    Promise.all([loadTitles(), getAll("/rest/v1/news_profiles?select=id,email,display_name,role,created_at&order=created_at.asc"),
+                 getAll("/rest/v1/news_words?select=user_id,slug,level,text,sentence,created_at&order=created_at.desc"),
+                 getAll("/rest/v1/news_progress?select=user_id,slug,status,level,updated_at")]).then(function (res) {
       var people = res[1].filter(function (p) { return p.role !== "teacher"; });
       var words = res[2], prog = res[3];
       var byId = {}; people.forEach(function (p) { byId[p.id] = p; });

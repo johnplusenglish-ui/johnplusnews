@@ -1,45 +1,37 @@
 # Switching on accounts (one time, about 10 minutes)
 
-The site is already built for sign-in. Until you finish the steps below, nobody sees a Sign in button and the site works exactly as before. Accounts live in their own Supabase project, separate from Book42 and the dictionary.
+The site is already built for sign-in. Until you finish the steps below, nobody sees a Sign in button and the site works exactly as before. To avoid a paid Supabase plan, the news site shares the existing book42 project. Its tables all start with `news_`, so they sit beside Book42's tables without touching them.
 
-## 1. Make the project
+## 1. Run the setup SQL
 
-1. Go to supabase.com, sign in, and press **New project**.
-2. Name it `johnplusnews`. Pick the region closest to your students. Save the database password somewhere safe (you will not need it again for this).
-3. Wait a minute or two until the project is ready.
-
-## 2. Run the setup SQL
-
-1. In the project, open **SQL Editor** and press **New query**.
+1. In the book42 project, open **SQL Editor** and press **New query**.
 2. Open `supabase/schema.sql` from this folder, copy everything, paste it in, and press **Run**.
-3. It should say "Success". It is safe to run again if you are unsure.
+3. It should say "Success". It only creates new `news_` tables, a function and rules. It drops, deletes and alters nothing that exists, and it can safely be run again.
 
-This creates the four tables (profiles, words, progress, prefs) and the rules: students only ever see their own rows, and only a teacher can read everyone's.
+The rules mean students only ever see their own rows, and only a teacher can read everyone's.
 
-## 3. Check the sign-in settings
+## 2. Allow the news site's links
 
-Open **Authentication**, then:
+Open **Authentication**, then **URL Configuration**. Under **Redirect URLs** add `https://johnplusnews.com/**`. Leave **Site URL** alone, because Book42 uses it. Password reset and confirmation emails need this to bring students back to the news site.
 
-1. **URL Configuration**: set **Site URL** to `https://johnplusnews.com`. Under **Redirect URLs** add `https://johnplusnews.com/**`. Password reset and confirmation links use this.
-2. **Sign In / Providers**, then **Email**: keep it enabled. Set **Minimum password length** to 8. For a class, the easiest setting is **Confirm email: off**, so a student is signed in the moment they create an account. If you leave it on, students must press the link in an email before their first sign-in; the site handles both.
-3. Leave every other sign-in provider off.
+Leave every other sign-in setting as it is. They apply to the whole project, so changing them would also change Book42.
 
-## 4. Give the site its two keys
+## 3. Give the site its two keys
 
 1. Open **Project Settings**, then **API**.
 2. Copy the **Project URL** and the **anon public** key. Never copy the `service_role` key.
 3. Open `static/config.js` and paste them between the quotes.
 4. Tell Claude, or run `python3 build.py` and push as usual. The Sign in button appears on every page.
 
-Both values are meant to be public. The anon key only works together with the rules from step 2.
+Both values are meant to be public. The anon key only works together with the rules from step 1.
 
-## 5. Make yourself the teacher
+## 4. Make yourself the teacher
 
-1. On the live site, press **Sign in**, then **Create an account**, and make your own account.
+1. On the live site, press **Sign in**, then **Create an account**, and make your own account. Open any page once while signed in so your profile is created.
 2. Back in the Supabase **SQL Editor**, run this one line with your own address:
 
 ```sql
-update public.profiles set role = 'teacher' where email = 'you@example.com';
+update public.news_profiles set role = 'teacher' where email = 'you@example.com';
 ```
 
 3. Reload the site. Your menu now has **Teacher view**. Nobody can give themselves this role from the website.
@@ -63,3 +55,4 @@ update public.profiles set role = 'teacher' where email = 'you@example.com';
 - Students can see only their own words. Teachers can see every student's words and reading, so the sign-up form tells students that.
 - A free Supabase project pauses after a week with no activity. A weekly article and a class using it keeps it awake; if it ever pauses, press Restore in the dashboard.
 - To remove a student, open **Authentication**, then **Users**, and delete them. Their words and progress go with them.
+- The sign-ins are shared with Book42, so anyone with a Book42 account could sign in on the news site. They only appear in your Teacher view once they have opened it.
