@@ -426,9 +426,10 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .acct-confirm label { flex: 0 0 100%; font-size: 0.8125rem; font-weight: 600; color: var(--muted); }
 .acct-confirm input { font: inherit; font-size: 1rem; padding: 9px 12px; border: 1px solid #cfd4dc; border-radius: 10px; width: 160px; }
 .acct-confirm .acct-err { flex: 0 0 100%; margin: 0; }
-.wd-danger { color: #b42318; border-color: #b42318; }
-.wd-danger:hover { background: #fdecea; }
-.wd-danger:disabled { opacity: 0.45; cursor: default; }
+.wd-btn.wd-danger { color: #b42318; border-color: #b42318; }
+.wd-btn.wd-danger:hover { background: #fdecea; }
+.wd-btn.wd-danger:disabled { opacity: 0.45; cursor: default; background: #fff; }
+.wd-btn.wd-danger:focus-visible { outline: 2px solid #b42318; outline-offset: 2px; }
 .acct-toast { position: fixed; left: 50%; bottom: 20px; transform: translate(-50%, 20px); opacity: 0; pointer-events: none; z-index: 70; background: var(--ink); color: #fff; font-size: 0.9375rem; padding: 10px 18px; border-radius: 999px; transition: opacity 0.25s, transform 0.25s; }
 .acct-toast.on { opacity: 1; transform: translate(-50%, 0); }
 .acct-read { color: var(--muted); }
