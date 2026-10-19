@@ -39,7 +39,7 @@
   var refreshing = null;
 
   function now() { return Math.floor(Date.now() / 1000); }
-  function setSession(s) { session = s; if (s) write(SKEY, s); else { drop(SKEY); me = null; } }
+  function setSession(s) { session = s; if (s) { write(SKEY, s); try { localStorage.setItem("jpn_has_account", "1"); } catch (e) {} } else { drop(SKEY); me = null; } }
   function fromToken(j) {
     var u = j.user || {}, meta = u.user_metadata || {};
     return { access_token: j.access_token, refresh_token: j.refresh_token,
@@ -185,6 +185,8 @@
   function closeDialog() {
     if (!dlg) return;
     dlg.parentNode.removeChild(dlg); dlg = null;
+    document.documentElement.classList.remove("acct-lock");
+    try { sessionStorage.setItem("jpn_nudge_off", "1"); } catch (e) {}
     if (lastFocus && lastFocus.focus) { try { lastFocus.focus(); } catch (e) {} }
   }
   function field(form, id, label, type, auto, extra) {
@@ -195,12 +197,13 @@
     wrap.appendChild(l); wrap.appendChild(i); form.appendChild(wrap);
     return i;
   }
-  function openDialog(mode, notice) {
+  function openDialog(mode, notice, auto) {
     if (!dlg) {
       lastFocus = document.activeElement;
       dlg = el("div", "acct-back");
       dlg.addEventListener("mousedown", function (e) { if (e.target === dlg) closeDialog(); });
       document.body.appendChild(dlg);
+      document.documentElement.classList.add("acct-lock");     // the page behind stays put while the box is open
     }
     clear(dlg);
     var box = el("div", "acct-dlg");
@@ -210,6 +213,8 @@
     var x = el("button", "acct-x", "×"); x.type = "button"; x.setAttribute("aria-label", "Close"); x.addEventListener("click", closeDialog);
     box.appendChild(x); box.appendChild(h);
     if (notice) box.appendChild(el("p", "acct-notice", notice));
+    if (mode === "signup") box.appendChild(el("p", "acct-lead", "Save the words you highlight and pick up where you left off on any device. It is free."));
+    if (mode === "signin") box.appendChild(el("p", "acct-lead", "Welcome back. Sign in to see your saved words and where you stopped."));
     var err = el("p", "acct-err"); err.setAttribute("role", "alert"); err.hidden = true;
 
     var form = el("form"); form.noValidate = false;
@@ -227,9 +232,10 @@
     box.appendChild(form);
 
     var alt = el("p", "acct-alt");
-    function link(text, to) { var b = el("button", "acct-link", text); b.type = "button"; b.addEventListener("click", function () { openDialog(to); }); return b; }
+    function link(text, to) { var b = el("button", "acct-link", text); b.type = "button"; b.addEventListener("click", function () { if (to) openDialog(to); else closeDialog(); }); return b; }
     if (mode === "signin") { alt.appendChild(link("Create an account", "signup")); alt.appendChild(link("Forgotten your password?", "forgot")); }
     if (mode === "signup" || mode === "forgot") alt.appendChild(link("I already have an account", "signin"));
+    if (mode === "signin" || mode === "signup") alt.appendChild(link("Not now, just read", null));
     if (alt.firstChild) box.appendChild(alt);
 
     form.addEventListener("submit", function (e) {
@@ -246,7 +252,8 @@
       job.catch(function (er) { err.textContent = nice(er); err.hidden = false; go.disabled = false; });
     });
     dlg.appendChild(box);
-    setTimeout(function () { try { first.focus(); } catch (e) {} }, 0);
+    if (auto) { box.tabIndex = -1; setTimeout(function () { try { box.focus({ preventScroll: true }); } catch (e) {} }, 0); }   // on a phone, do not pop the keyboard up before anyone has tapped
+    else setTimeout(function () { try { first.focus(); } catch (e) {} }, 0);
   }
   function sentMessage(text) {
     if (!dlg) return;
@@ -722,6 +729,16 @@
     });
   }
 
+  /* people who are not signed in meet the sign-up box over the page as soon as it has appeared, once per visit */
+  function nudge() {
+    var off = false;
+    try { off = sessionStorage.getItem("jpn_nudge_off") === "1"; } catch (e) {}
+    if (off || dlg) return;
+    var returning = false;
+    try { returning = localStorage.getItem("jpn_has_account") === "1"; } catch (e) {}
+    setTimeout(function () { if (!me && !dlg) openDialog(returning ? "signin" : "signup", null, true); }, 700);
+  }
+
   function init() {
     fromAddress().then(function (res) {
       var fresh = !!(res && !res.error);
@@ -729,6 +746,7 @@
         if (res && res.error) openDialog("signin", res.error);
         else if (res && res.type === "recovery") openDialog("reset", "Choose a new password for " + (me ? me.email : "your account") + ".");
         else if (res) toast("You are signed in.");
+        else if (!me && !PAGE) nudge();
       });
     }).catch(function () { drawHeader(); renderPage(); });
   }
