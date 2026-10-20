@@ -56,6 +56,47 @@ def fail(path, msg):
     sys.exit("Error in {}: {}".format(path.name, msg))
 
 
+# ----------------------------------------------------------------- which pictures the site shows
+# Every article can carry two pictures: the Vox style one (image: ...) and a plain one (image-plain: ...).
+# site.json says which set the whole site shows. An article with no picture in the chosen style shows its other one.
+SETTINGS_FILE = ROOT / "site.json"
+IMAGE_STYLES = ("vox", "plain")
+IMAGE_PARTS = ["alt", "credit", "credit-url", "licence", "licence-url", "credit-note", "credit-label"]
+STYLE = {"image": "vox"}
+
+
+def read_settings():
+    try:
+        data = json.loads(SETTINGS_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        data = {}
+    style = data.get("image_style", "vox")
+    return {"image_style": style if style in IMAGE_STYLES else "vox"}
+
+
+def image_keys(style):
+    """The header names for one picture set: image, image-alt, ... for Vox; image-plain, image-plain-alt, ... for plain."""
+    base = "image" if style == "vox" else "image-plain"
+    return {"image": base, **{p: "{}-{}".format(base, p) for p in IMAGE_PARTS}}
+
+
+def pick_image(meta, style=None):
+    """The picture fields the site should use for this article, under the standard names (image, alt, credit, ...)."""
+    style = style or STYLE["image"]
+    sets = {}
+    for st in IMAGE_STYLES:
+        keys = image_keys(st)
+        sets[st] = {k: meta.get(name, "") for k, name in keys.items()}
+    order = [style] + [x for x in IMAGE_STYLES if x != style]
+    chosen = next((sets[x] for x in order if sets[x]["image"]), sets[style])
+    out = dict(chosen)
+    if chosen["image"] and not out["alt"]:
+        out["alt"] = next((sets[x]["alt"] for x in order if sets[x]["alt"]), "")
+    if not chosen["image"]:
+        out = {k: "" for k in out}
+    return out
+
+
 def shown_date(a, short=False):
     """The date readers see. An article can carry a label such as "August 2026" when only the month is known;
     the real date underneath still decides the order."""
@@ -407,6 +448,7 @@ def parse_article(path):
         else:
             source_name = bits[0]
 
+    pic = pick_image(meta)
     return {
         "slug": re.sub(r"^\d{4}-\d{2}-\d{2}-", "", path.stem),
         "title": meta["title"],
@@ -414,14 +456,14 @@ def parse_article(path):
         "date_label": meta.get("date-label", ""),
         "summary": summary,
         "levels": [v["level"] for v in versions],
-        "image": meta.get("image", ""),
-        "image_alt": meta.get("image-alt", ""),
-        "image_credit": meta.get("image-credit", "") if meta.get("image") else "",
-        "image_credit_url": meta.get("image-credit-url", "") if meta.get("image") else "",
-        "image_licence": meta.get("image-licence", "") if meta.get("image") else "",
-        "image_licence_url": meta.get("image-licence-url", "") if meta.get("image") else "",
-        "image_credit_note": meta.get("image-credit-note", "") if meta.get("image") else "",
-        "image_credit_label": meta.get("image-credit-label", "") if meta.get("image") else "",
+        "image": pic["image"],
+        "image_alt": pic["alt"],
+        "image_credit": pic["credit"],
+        "image_credit_url": pic["credit-url"],
+        "image_licence": pic["licence"],
+        "image_licence_url": pic["licence-url"],
+        "image_credit_note": pic["credit-note"],
+        "image_credit_label": pic["credit-label"],
         "source_name": source_name,
         "source_url": source_url,
         "questions": questions,
@@ -1026,7 +1068,16 @@ def option(name):
     return Path(sys.argv[sys.argv.index(name) + 1]).resolve() if name in sys.argv else None
 
 
+def choose_style():
+    STYLE["image"] = read_settings()["image_style"]
+    if "--image-style" in sys.argv:
+        want = sys.argv[sys.argv.index("--image-style") + 1]
+        if want in IMAGE_STYLES:
+            STYLE["image"] = want
+
+
 if __name__ == "__main__":
+    choose_style()
     build(option("--content") or CONTENT, option("--out") or OUT, option("--static") or STATIC)
     if "--serve" in sys.argv:
         serve()

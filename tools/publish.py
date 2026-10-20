@@ -218,7 +218,11 @@ def prune_pictures(content_dir, static_dir):
         for f in d.iterdir():
             if f.is_file() and GENERATED_AUDIO.search(f.name) and f.name not in used_audio:
                 f.unlink()
-    used = {Path(meta.get("image", "")).name for _, meta, _, _ in article_files(content_dir) if meta.get("image")}
+    used = set()
+    for _, meta, _, _ in article_files(content_dir):
+        for key in ("image", "image-plain"):
+            if meta.get(key):
+                used.add(Path(meta[key]).name)
     for folder in ("images", "images/thumbs"):
         d = static_dir / folder
         if d.is_dir():
@@ -229,87 +233,151 @@ def prune_pictures(content_dir, static_dir):
 
 # --------------------------------------------------------- the picture manager
 
-IMAGE_KEYS = ["image", "image-alt", "image-credit", "image-credit-url", "image-licence", "image-licence-url",
-              "image-credit-note", "image-credit-label", "image-origin"]
+SLOTS = ("vox", "plain")
 ORIGIN_KINDS = ["AI-generated", "My own photo", "Free-to-use or licensed photo", "Supplied by someone else", "Other"]
-FIELD_KEYS = [("image-alt", "alt"), ("image-origin", "origin"), ("image-credit", "credit"), ("image-credit-url", "credit_url"),
-              ("image-licence", "licence"), ("image-licence-url", "licence_url"), ("image-credit-note", "note")]
+# the form fields the Pictures page sends, and the standard picture part each one belongs to
+FIELD_PARTS = [("alt", "alt"), ("credit", "credit"), ("credit_url", "credit-url"), ("licence", "licence"),
+               ("licence_url", "licence-url"), ("note", "credit-note")]
+
+
+def slot_keys(slot):
+    """The header names for one picture set, including the private origin note."""
+    keys = build.image_keys(slot)
+    base = keys["image"]
+    return keys, base + "-origin"
+
+
+def slot_values(meta, slot):
+    keys, origin = slot_keys(slot)
+    out = {k: meta.get(name, "") for k, name in keys.items()}
+    out["origin"] = meta.get(origin, "")
+    return out
+
+
+def thumb_of(image):
+    if not image:
+        return ""
+    cand = "images/thumbs/" + Path(image).name
+    return cand if (STATIC / cand).is_file() else image
 
 
 def list_pictures():
     rows = []
-    for path, meta, body, slug in article_files(CONTENT):
-        img = meta.get("image", "")
-        thumb = ""
-        if img:
-            cand = "images/thumbs/" + Path(img).name
-            thumb = cand if (STATIC / cand).is_file() else img
-        rows.append({"slug": slug, "title": meta.get("title", slug), "date": meta.get("date", ""), "rev": file_rev(path),
-                     "image": img, "thumb": thumb, "alt": meta.get("image-alt", ""), "origin": meta.get("image-origin", ""),
-                     "credit": meta.get("image-credit", ""), "credit_url": meta.get("image-credit-url", ""),
-                     "licence": meta.get("image-licence", ""), "licence_url": meta.get("image-licence-url", ""),
-                     "note": meta.get("image-credit-note", ""), "live_url": "{}/articles/{}/".format(build.SITE["url"], slug)})
     order = {}
     for path, meta, body, slug in article_files(CONTENT):
         order[slug] = (meta.get("date", ""), build.added_at(path), slug)
+        row = {"slug": slug, "title": meta.get("title", slug), "date": meta.get("date", ""), "rev": file_rev(path),
+               "live_url": "{}/articles/{}/".format(build.SITE["url"], slug)}
+        for slot in SLOTS:
+            v = slot_values(meta, slot)
+            row[slot] = {"image": v["image"], "thumb": thumb_of(v["image"]), "alt": v["alt"], "origin": v["origin"],
+                         "credit": v["credit"], "credit_url": v["credit-url"], "licence": v["licence"],
+                         "licence_url": v["licence-url"], "note": v["credit-note"]}
+        rows.append(row)
     rows.sort(key=lambda r: order.get(r["slug"], (r["date"], 0, r["slug"])), reverse=True)
     return rows
 
 
-def rewrite_image_header(path, values):
-    """Change only the picture lines in an article's header; the text of the article is not touched."""
+def rewrite_image_header(path, slot, values):
+    """Change only one picture set's lines in an article's header; the text of the article is not touched."""
+    keys, origin_key = slot_keys(slot)
+    mine = set(keys.values()) | {origin_key}
     raw = path.read_text(encoding="utf-8")
     m = re.search(r"^---[ \t]*$", raw, flags=re.M)
     if not m:
         raise UserError("The article {} has no --- line, so its picture could not be changed.".format(path.name))
     head, rest = raw[:m.start()], raw[m.start():]
-    lines = [l for l in head.split("\n") if not (":" in l and l.split(":", 1)[0].strip().lower() in IMAGE_KEYS)]
+    lines = [l for l in head.split("\n") if not (":" in l and l.split(":", 1)[0].strip().lower() in mine)]
     while lines and not lines[-1].strip():
         lines.pop()
-    for k in IMAGE_KEYS:
+    for k in ["image"] + build.IMAGE_PARTS:
         v = one_line(values.get(k, ""))
         if v:
-            lines.append("{}: {}".format(k, v))
+            lines.append("{}: {}".format(keys[k], v))
+    v = one_line(values.get("origin", ""))
+    if v and one_line(values.get("image", "")):
+        lines.append("{}: {}".format(origin_key, v))
     path.write_text("\n".join(lines) + "\n" + rest, encoding="utf-8")
 
 
 def apply_picture_changes(changes, content_dir, static_dir):
-    """Apply a batch of picture changes. Returns the slugs of the articles that really changed."""
+    """Apply a batch of picture changes (each one for the Vox or the plain picture of an article). Returns the slugs that really changed."""
     touched = []
+    checked = set()
     for ch in changes:
         slug = ch.get("slug")
+        slot = ch.get("slot", "vox")
+        if slot not in SLOTS:
+            raise UserError("Unknown picture style: {}.".format(slot))
         match = [x for x in article_files(content_dir) if x[3] == slug]
         if not match:
             raise UserError("An article in this batch no longer exists: {}.".format(slug))
         path, meta = match[0][0], match[0][1]
-        if ch.get("rev") and ch["rev"] != file_rev(path):
-            raise UserError("\"{}\" was changed outside the publisher after this page was loaded, so nothing was saved. "
-                            "Reload the Pictures page and try again.".format(meta.get("title", slug)))
-        cur = {k: meta.get(k, "") for k in IMAGE_KEYS}
+        if slug not in checked:
+            checked.add(slug)
+            if ch.get("rev") and ch["rev"] != file_rev(path):
+                raise UserError("\"{}\" was changed outside the publisher after this page was loaded, so nothing was saved. "
+                                "Reload the Pictures page and try again.".format(meta.get("title", slug)))
+        cur = slot_values(meta, slot)
         new = dict(cur)
         pic = ch.get("image")
         if ch.get("remove"):
-            new = {k: "" for k in IMAGE_KEYS}
+            new = {k: "" for k in cur}
         elif pic and pic.get("data"):
             try:
                 data = base64.b64decode(pic["data"])
             except Exception:
                 raise UserError("The picture for \"{}\" could not be read.".format(meta.get("title", slug)))
             STATIC_TARGET["dir"] = static_dir
-            new["image"] = make_pictures(data, pic.get("name", "picture"), slug)
-            for k in IMAGE_KEYS[2:]:   # the old credit belonged to the old picture
-                new[k] = ""
+            new = {k: "" for k in cur}   # the old credit belonged to the old picture
+            new["image"] = make_pictures(data, pic.get("name", "picture"), slug if slot == "vox" else slug + "-plain")
         if new["image"]:
-            for key, field in FIELD_KEYS:
+            for field, part in FIELD_PARTS:
                 if field in ch:
-                    new[key] = one_line(ch[field])
+                    new[part] = one_line(ch[field])
+            if "origin" in ch:
+                new["origin"] = one_line(ch["origin"])
         else:
-            new = {k: "" for k in IMAGE_KEYS}
+            new = {k: "" for k in cur}
         if new != cur:
-            rewrite_image_header(path, new)
-            touched.append(slug)
+            rewrite_image_header(path, slot, new)
+            if slug not in touched:
+                touched.append(slug)
     prune_pictures(content_dir, static_dir)
     return touched
+
+
+def style_counts():
+    n = {"total": 0, "vox": 0, "plain": 0}
+    for _, meta, _, _ in article_files(CONTENT):
+        n["total"] += 1
+        n["vox"] += 1 if meta.get("image") else 0
+        n["plain"] += 1 if meta.get("image-plain") else 0
+    return n
+
+
+def do_imagestyle(p):
+    style = p.get("style")
+    if style not in SLOTS:
+        raise UserError("Choose Vox or plain.")
+    with LOCK:
+        cur = build.read_settings()["image_style"]
+        if style == cur:
+            return {"ok": True, "pushed": False, "style": style, "note": "The site already shows the {} pictures.".format(style)}
+        previous = build.SETTINGS_FILE.read_text(encoding="utf-8") if build.SETTINGS_FILE.exists() else None
+        build.SETTINGS_FILE.write_text(json.dumps({"image_style": style}, indent=2) + "\n", encoding="utf-8")
+        try:
+            run_build()
+        except Exception:
+            if previous is None:
+                build.SETTINGS_FILE.unlink()
+            else:
+                build.SETTINGS_FILE.write_text(previous, encoding="utf-8")
+            raise
+        res = git_publish("Show the {} pictures on the site".format("plain" if style == "plain" else "Vox style"))
+        home = DOCS / "index.html"
+        res.update({"ok": True, "style": style, "verify": {"sha": hashlib.sha256(home.read_bytes()).hexdigest(), "assets": []}})
+        return res
 
 
 def do_pictures(p):
@@ -365,6 +433,7 @@ def compose(f):
                           ("image_origin", "image-origin")):
             if f.get(key):
                 lines.append("{}: {}".format(name, f[key]))
+    lines.extend(f.get("_keep") or [])
     blocks = []
     for v in f["versions"]:
         head = "".join("{}: {}\n".format(k, v[k]) for k in ("title", "summary", "audio", "voice") if v.get(k))
@@ -552,6 +621,7 @@ def prepare(p, content_dir, static_dir):
         image = make_pictures(data, new_pic.get("name", "picture"), slug)
     if f.get("date_label") is None:   # the form did not send one: keep the article's current label
         f["date_label"] = old.get("date-label", "")
+    f["_keep"] = ["{}: {}".format(k, v) for k, v in old.items() if k.startswith("image-plain") and v]   # the plain picture is managed on the Pictures page
     f["image"] = image
     # where the picture came from is kept for the same picture, and dropped when the picture is replaced
     f["image_origin"] = old.get("image-origin", "") if image and image == old.get("image", "") else ""
@@ -623,7 +693,7 @@ def is_auth_problem(text):
 def git_publish(message):
     if DRY_RUN:
         return {"pushed": False, "note": "Dry run: nothing was committed or sent."}
-    run(["git", "add", "content", "static", "docs"])
+    run(["git", "add", "content", "static", "docs", "site.json"])
     if run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
         c = run(["git", "commit", "-q", "-m", message])
         if c.returncode != 0:
@@ -788,7 +858,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
             if url.path == "/api/article":
                 return self.send_json(get_article(q.get("slug", [""])[0]))
             if url.path == "/api/pictures":
-                return self.send_json({"pictures": list_pictures(), "kinds": ORIGIN_KINDS})
+                return self.send_json({"pictures": list_pictures(), "kinds": ORIGIN_KINDS, "style": build.read_settings()["image_style"], "counts": style_counts()})
             if url.path == "/api/check":
                 assets = [a for a in q.get("assets", [""])[0].split(",") if a.startswith("/images/")]
                 return self.send_json(check_live(q.get("path", ["/"])[0], int(q.get("expect", ["200"])[0]), q.get("sha", [""])[0], assets))
@@ -808,6 +878,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 return self.send_json(do_preview(payload))
             if self.path == "/api/publish":
                 return self.send_json(do_publish(payload))
+            if self.path == "/api/imagestyle":
+                return self.send_json(do_imagestyle(payload))
             if self.path == "/api/pictures/save":
                 return self.send_json(do_pictures(payload))
             if self.path == "/api/remove":
