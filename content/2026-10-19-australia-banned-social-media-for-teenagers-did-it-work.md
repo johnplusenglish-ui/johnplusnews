@@ -3,6 +3,7 @@ date: 2026-10-19
 summary: Australia introduced strict rules for social media accounts held by under-16s. The difficult question is what happens when teenagers still find ways to get online.
 tags: Technology, Society
 source: Australian eSafety Commissioner | https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions
+image: images/australia-banned-social-media-for-teenagers-did-it-work-4292c1.jpg
 ---
 === Core ===
 
