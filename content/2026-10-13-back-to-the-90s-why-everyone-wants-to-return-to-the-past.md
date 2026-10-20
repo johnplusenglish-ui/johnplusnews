@@ -2,7 +2,7 @@ title: Back to the 90s: Why Everyone Wants to Return to the Past
 date: 2026-10-08
 summary: The attraction may be less about the past itself than about escaping constant connection in the present.
 tags: Culture, Technology
-image: images/back-to-the-90s-why-everyone-wants-to-return-to-the-past-ce5b1e.jpg
+image: images/back-to-the-90s-why-everyone-wants-to-return-to-the-past-2f3c92.jpg
 ---
 === Core ===
 

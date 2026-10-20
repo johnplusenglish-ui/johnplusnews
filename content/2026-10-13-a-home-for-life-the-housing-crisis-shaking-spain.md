@@ -2,7 +2,7 @@ title: A Home for Life? The Housing Crisis Shaking Spain
 date: 2026-10-09
 summary: The eviction and death of an 87-year-old woman in Madrid have sparked protests across Spain, raising serious questions about the country's growing housing crisis.
 tags: Society, Politics
-image: images/a-home-for-life-the-housing-crisis-shaking-spain-1b57b3.jpg
+image: images/a-home-for-life-the-housing-crisis-shaking-spain-8be21b.jpg
 image-alt: An orange funeral wreath and a Sindicato de Inquilinas T-shirt tied to a tree, at the memorial for Maricarmen Abascal outside the doorway of number 46 on her street in Madrid.
 image-credit: Barcex
 image-credit-url: https://commons.wikimedia.org/wiki/File:Madrid_-_Maricarmen_Abascal_memorial_at_Sainz_de_Baranda_46_-_261009_145400.jpg
