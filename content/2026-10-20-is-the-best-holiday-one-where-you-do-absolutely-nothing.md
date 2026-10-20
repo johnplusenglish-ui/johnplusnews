@@ -1,5 +1,5 @@
 title: Is the Best Holiday One Where You Do Absolutely Nothing?
-date: 2026-10-20
+date: 2025-07-10
 summary: Not everyone wants ten attractions and a packed itinerary. What is the appeal of travelling slowly?
 tags: Travel, Lifestyle
 source: Marist Poll | https://maristpoll.marist.edu/polls/summer-travel-july-2025/

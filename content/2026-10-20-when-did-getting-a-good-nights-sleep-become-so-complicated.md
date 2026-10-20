@@ -1,5 +1,5 @@
 title: When Did Getting a Good Night's Sleep Become So Complicated?
-date: 2026-10-20
+date: 2026-03-20
 summary: From sleep scores to smart rings, technology promises better rest. It can also make bedtime another performance test.
 tags: Health, Technology
 source: Journal of Clinical Sleep Medicine | https://doi.org/10.5664/jcsm.6472

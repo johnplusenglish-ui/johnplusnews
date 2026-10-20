@@ -1,5 +1,6 @@
 title: Would You Sleep Better Without Your Partner?
-date: 2026-10-20
+date: 2026-01-01
+date-label: 2025–2026
 summary: More couples are questioning the idea that sharing a bed is essential for a happy relationship.
 tags: Relationships, Health
 source: Health.com | https://www.health.com/do-sleep-divorces-lead-to-better-sleep-11780674

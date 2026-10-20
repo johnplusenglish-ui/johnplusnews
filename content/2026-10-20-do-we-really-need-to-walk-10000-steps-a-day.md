@@ -1,5 +1,6 @@
 title: Do We Really Need to Walk 10,000 Steps a Day?
-date: 2026-10-20
+date: 2025-07-01
+date-label: July 2025
 summary: The famous daily target began as a marketing idea. What do newer studies say about the number that matters?
 tags: Health, Lifestyle
 source: The Lancet Public Health | https://pubmed.ncbi.nlm.nih.gov/40713949/

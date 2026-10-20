@@ -133,7 +133,7 @@ def get_article(slug):
             overrides = {v["level"]: {"title": v["title"], "summary": v["summary"]} for v in parsed}
             audio = {v["level"]: v["audio"] for v in parsed if v["audio"]}
             voices = {v["level"]: v["voice"] for v in parsed if v["audio"]}
-            return {"slug": slug, "rev": file_rev(path), "title": meta.get("title", ""), "date": meta.get("date", ""),
+            return {"slug": slug, "rev": file_rev(path), "title": meta.get("title", ""), "date": meta.get("date", ""), "date_label": meta.get("date-label", ""),
                     "tags": [t["label"] for t in build.parse_tags(meta.get("tags", ""))],
                     "versions": versions, "overrides": overrides, "audio": audio, "voices": voices, "summary": meta.get("summary", ""),
                     "before": "\n".join(sets["before"]), "after": "\n".join(sets["after"]),
@@ -343,6 +343,8 @@ def do_pictures(p):
 
 def compose(f):
     lines = ["title: " + f["title"], "date: " + f["date"]]
+    if f.get("date_label"):
+        lines.append("date-label: " + f["date_label"])
     if f["summary"]:
         lines.append("summary: " + f["summary"])
     if f["tags"]:
@@ -413,6 +415,7 @@ def clean_tags(raw, content_dir):
 def clean_fields(p, content_dir=None):
     f = {
         "title": one_line(p.get("title")), "date": one_line(p.get("date")),
+        "date_label": one_line(p.get("date_label")) if "date_label" in p else None,
         "summary": one_line(p.get("summary")), "source_name": one_line(p.get("source_name")),
         "source_url": one_line(p.get("source_url")), "image_alt": one_line(p.get("image_alt")),
         "image_credit": one_line(p.get("image_credit")), "image_credit_url": one_line(p.get("image_credit_url")),
@@ -547,6 +550,8 @@ def prepare(p, content_dir, static_dir):
             raise UserError("That picture could not be read.")
         STATIC_TARGET["dir"] = static_dir
         image = make_pictures(data, new_pic.get("name", "picture"), slug)
+    if f.get("date_label") is None:   # the form did not send one: keep the article's current label
+        f["date_label"] = old.get("date-label", "")
     f["image"] = image
     # where the picture came from is kept for the same picture, and dropped when the picture is replaced
     f["image_origin"] = old.get("image-origin", "") if image and image == old.get("image", "") else ""

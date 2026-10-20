@@ -101,7 +101,9 @@ input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); o
 
   <div class="field"><label for="title">Title</label><input type="text" id="title" autocomplete="off"></div>
 
-  <div class="field"><label for="date">Date</label><input type="date" id="date" style="max-width:220px"></div>
+  <div class="field"><label for="date">Date</label><input type="date" id="date" style="max-width:220px">
+    <label for="dlabel" style="margin-top:12px">Date shown on the site (optional)</label><input type="text" id="dlabel" style="max-width:260px" placeholder="For example August 2026">
+    <div class="hint">The date above decides the order. If you only know the month, put the first of that month above and write the month here.</div></div>
 
   <div class="field"><label for="summary">Summary</label><textarea id="summary" rows="2" maxlength="300"></textarea>
     <div class="hint">The short line under the title on the gallery. Leave it empty to use the start of the article. <span id="sumCount"></span></div></div>
@@ -357,7 +359,7 @@ function resetForm() {
   tags = []; $("tagin").value = ""; renderTags();
   audioNew = {}; audioOld = {}; audioDel = {};
   LEVELS.forEach(l => { $("ta-" + l).value = ""; $("lg-" + l).value = ""; setOwn(l, null); setChecked(l, false); $("au-" + l).value = ""; $("av-" + l).value = "Read by John"; showAudio(l); });
-  $("date").value = today();
+  $("date").value = today(); $("dlabel").value = "";
   $("file").value = "";
   $("formTitle").textContent = "New article";
   $("editing").hidden = true;
@@ -395,7 +397,7 @@ function takeFile(f) {
 
 function collect() {
   return {
-    slug: editing, rev: editingRev, title: $("title").value, date: $("date").value, summary: $("summary").value,
+    slug: editing, rev: editingRev, title: $("title").value, date: $("date").value, date_label: $("dlabel").value, summary: $("summary").value,
     tags: tags, versions: texts(), overrides: overrides(), language: language(), ...audioPayload(), before: $("qb").value, after: $("qa").value, source_name: $("sname").value, source_url: $("surl").value, image_alt: $("alt").value,
     image_credit: $("credit").value, image_credit_url: $("curl").value,
     image_licence: $("lic").value, image_licence_url: $("licurl").value, image_credit_note: $("cnote").value, image_credit_label: $("clabel").value,
@@ -462,7 +464,7 @@ async function openArticle(slug, force) {
   try {
     const a = await api("/api/article?slug=" + encodeURIComponent(slug));
     editing = a.slug; editingRev = a.rev || null; pic = null; removePic = false; existingImage = a.image || "";
-    $("title").value = a.title; $("summary").value = a.summary; $("date").value = a.date;
+    $("title").value = a.title; $("summary").value = a.summary; $("date").value = a.date; $("dlabel").value = a.date_label || "";
     $("sname").value = a.source_name; $("surl").value = a.source_url; $("alt").value = a.image_alt; $("credit").value = a.image_credit || ""; $("curl").value = a.image_credit_url || ""; $("lic").value = a.image_licence || ""; $("licurl").value = a.image_licence_url || ""; $("cnote").value = a.image_credit_note || ""; $("clabel").value = a.image_credit_label || ""; $("qb").value = a.before || ""; $("qa").value = a.after || "";
     tags = (a.tags || []).slice(); $("tagin").value = ""; renderTags();
     audioNew = {}; audioDel = {}; audioOld = a.audio || {};
@@ -553,7 +555,7 @@ async function removeArticle(a) {
 /* ------------------------------------------------------------------------- setup */
 renderLevels();
 LEVELS.forEach(showAudio);
-$("date").value = today();
+$("date").value = today(); $("dlabel").value = "";
 const restored = loadDraft();
 counts(); showPicture();
 if (restored) setStatus("info", "Your unsent draft was restored. The picture is not kept in a draft, so choose it again.");

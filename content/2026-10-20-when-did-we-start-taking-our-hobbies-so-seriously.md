@@ -1,5 +1,5 @@
 title: When Did We Start Taking Our Hobbies So Seriously?
-date: 2026-10-20
+date: 2026-05-30
 summary: Running, reading and baking can all become targets. Has the pressure to improve changed how we enjoy our free time?
 tags: Lifestyle, Society
 source: Forbes | https://www.forbes.com/sites/cherylrobinson/2026/05/30/before-turning-a-hobby-into-a-business-ask-yourself-these-4-questions/

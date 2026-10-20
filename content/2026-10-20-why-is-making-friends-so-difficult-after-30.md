@@ -1,5 +1,5 @@
 title: Why Is Making Friends So Difficult After 30?
-date: 2026-10-20
+date: 2025-06-30
 summary: For many adults, keeping friendships alive takes more planning than it used to. Is modern life making connection harder?
 tags: Relationships, Society
 source: World Health Organization | https://www.who.int/groups/commission-on-social-connection

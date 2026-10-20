@@ -56,6 +56,12 @@ def fail(path, msg):
     sys.exit("Error in {}: {}".format(path.name, msg))
 
 
+def shown_date(a, short=False):
+    """The date readers see. An article can carry a label such as "August 2026" when only the month is known;
+    the real date underneath still decides the order."""
+    return a.get("date_label") or fmt(a["date"], short)
+
+
 def fmt(d, short=False):
     return "{} {}".format(d.day, d.strftime("%b %Y" if short else "%B %Y"))
 
@@ -405,6 +411,7 @@ def parse_article(path):
         "slug": re.sub(r"^\d{4}-\d{2}-\d{2}-", "", path.stem),
         "title": meta["title"],
         "date": date,
+        "date_label": meta.get("date-label", ""),
         "summary": summary,
         "levels": [v["level"] for v in versions],
         "image": meta.get("image", ""),
@@ -534,7 +541,7 @@ def card_meta(a):
     """On a card: the topics (if any) and the date. The levels are inside the article, so they are not repeated here."""
     topics = ", ".join(t["label"] for t in a["tags"])
     first = '<span class="lvl">{}</span>'.format(esc(topics)) if topics else ""
-    return '<p class="meta">{}<span>{}</span></p>'.format(first, fmt(a["date"], short=True))
+    return '<p class="meta">{}<span>{}</span></p>'.format(first, shown_date(a, short=True))
 
 
 def article_meta(a):
@@ -542,7 +549,7 @@ def article_meta(a):
     bits = []
     if len(v) == 1:
         bits.append('<span class="lvl">{}</span>'.format(esc(v[0]["level"])))
-    bits.append("<span>{}</span>".format(fmt(a["date"])))
+    bits.append("<span>{}</span>".format(esc(shown_date(a))))
     return '<p class="meta">{}</p>'.format("".join(bits))
 
 

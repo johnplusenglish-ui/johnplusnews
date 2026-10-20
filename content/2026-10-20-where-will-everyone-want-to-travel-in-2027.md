@@ -1,5 +1,6 @@
 title: Where Will Everyone Want to Travel in 2027?
-date: 2026-10-20
+date: 2026-10-01
+date-label: October 2026
 summary: A new travel report points beyond the biggest tourist capitals. But do rising searches really predict the next holiday hotspots?
 tags: Travel, Culture
 source: Expedia UK Newsroom | https://www.expedia.co.uk/newsroom/unpack-27-expedia-and-hotels-com-unveil-the-trends-driving-travel-in-2027/

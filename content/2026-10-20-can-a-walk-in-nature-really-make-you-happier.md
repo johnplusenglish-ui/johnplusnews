@@ -1,5 +1,6 @@
 title: Can a Walk in Nature Really Make You Happier?
-date: 2026-10-20
+date: 2025-11-01
+date-label: November 2025
 summary: Parks, beaches and forests are often called natural medicine. What does the research actually show?
 tags: Health, Environment
 source: Journal of Environmental Psychology | https://doi.org/10.1016/j.jenvp.2025.102802

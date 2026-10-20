@@ -1,5 +1,6 @@
 title: Who Are You When You're Not Working?
-date: 2026-10-20
+date: 2026-08-01
+date-label: August 2026
 summary: A job can give us money, purpose and a place in the world. But should it tell us who we are?
 tags: Work, Society
 source: Pew Research Center | https://www.pewresearch.org/social-trends/2023/03/30/how-americans-view-their-jobs/

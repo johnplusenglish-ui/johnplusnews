@@ -1,5 +1,5 @@
 title: How Can a Job Be Exhausting When There's Hardly Anything to Do?
-date: 2026-10-20
+date: 2026-09-01
 summary: Burnout comes from too much pressure. But boredom and a lack of purpose can also leave workers drained.
 tags: Work, Health
 source: American Psychological Association | https://www.apa.org/monitor/2026/09/workplace-rustout-boredom-employees

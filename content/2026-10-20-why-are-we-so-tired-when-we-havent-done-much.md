@@ -1,5 +1,5 @@
 title: Why Are We So Tired When We Haven't Done Much?
-date: 2026-10-20
+date: 2025-06-11
 summary: A day spent thinking, worrying and making decisions may be tiring even without much physical movement.
 tags: Health, Lifestyle
 source: Journal of Neuroscience | https://pubmed.ncbi.nlm.nih.gov/40345833/
