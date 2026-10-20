@@ -3,7 +3,7 @@ date: 2026-10-07
 summary: Colorado's nature library treats outdoor equipment as something a community can share.
 tags: Society, Environment
 source: The Guardian | https://www.theguardian.com/environment/2026/oct/07/nature-library-colorado-us-wilderness-stargazing-camping-outdoors-aoe
-image: images/the-library-where-you-can-borrow-a-tent-2d582e.jpg
+image: images/the-library-where-you-can-borrow-a-tent-81875a.jpg
 image-alt: Shelves in the Portsmouth Library of Things holding a sewing machine, garden tools, kitchen equipment and a booster seat, decorated with colourful bunting.
 image-credit: Tim Sheerman-Chase
 image-credit-url: https://commons.wikimedia.org/wiki/File:Inside_Portsmouth_Library_of_Things.jpg
