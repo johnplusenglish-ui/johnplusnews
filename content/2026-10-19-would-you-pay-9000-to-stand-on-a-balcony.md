@@ -3,6 +3,7 @@ date: 2026-10-19
 summary: During Seville's Holy Week celebrations, a good view can cost thousands of euros. What happens when a public tradition becomes a luxury experience?
 tags: Culture, Travel
 source: Europa Press | https://www.europapress.es/andalucia/sevilla-00357/noticia-semana-santa-sevilla-2026-precio-ver-toda-semana-santa-balcon-centro-20260324140206.html
+image: images/would-you-pay-9000-to-stand-on-a-balcony-2ab73b.jpg
 ---
 === Core ===
 
