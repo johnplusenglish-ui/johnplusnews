@@ -3,6 +3,7 @@ date: 2026-10-19
 summary: After a frightening experience in her family, a Nigerian entrepreneur helped create a safer and more predictable way to get around Lagos.
 tags: Business, Society
 source: BBC World Service, Outlook programme | https://wspartners.bbc.com/schedules/bbc_world_service_news_internet/day/2026-05-29
+image: images/her-sister-was-kidnapped-on-a-bus-so-she-started-her-own-bus-company-f8a69f.jpg
 ---
 === Core ===
 
