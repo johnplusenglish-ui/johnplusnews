@@ -23,6 +23,8 @@ In the publisher, press **Pictures** at the top (or open http://127.0.0.1:8765/p
 - Drop a picture onto a card, click it to choose a file, or hover over it and paste (Cmd+V). You can change as many as you like.
 - To add many at once, drop them on the dashed box. A file named like its article, for example `fast-fashion-the-clothes-nobody-wants.jpg`, is matched for you. Others you drop on the right card.
 - **Details** on a card holds the alt text, the credit and licence, and **Where did this picture come from?** (AI-generated, your own photo, and so on). That last note is private. It builds your picture record, which the filter **No source info** helps you fill in. **Download picture record** saves it as a spreadsheet.
+- Every article has two slots: **Vox style** and **Plain**. Fill either or both. The switch at the top of the page, **Pictures the site shows right now**, flips the whole site between them in one click (it publishes straight away, and the home page shows the change within a minute or two). An article with no picture in the chosen style shows its other picture, so nothing goes blank. In the multi-file drop, add `-plain` to a file name (`fast-fashion-the-clothes-nobody-wants-plain.jpg`) to send it to the Plain slot.
+- Behind the scenes, the choice lives in `site.json` (`"image_style": "vox"` or `"plain"`), and a plain picture is stored in the article's header as `image-plain:`. Credits and the private source note are kept separately for each picture.
 - Press **Publish pictures** once. They are resized, only the picture lines of each article change (the text is never touched), and everything goes to GitHub in one go. Each card shows **Live** when the site has it.
 
 ## Business details and legal pages
