@@ -2,7 +2,7 @@ title: Can the Government Help You Find Love? Singapore Thinks So
 date: 2026-10-13
 summary: Finding the right partner isn't always easy. Now, Singapore has launched its own dating platform to help young people find love. But can a government really make romance happen?
 tags: Technology, Relationships
-image: images/can-the-government-help-you-find-love-singapore-thinks-so-508851.jpg
+image: images/can-the-government-help-you-find-love-singapore-thinks-so-4d482b.jpg
 image-alt: Two people lean on a railing beside Marina Bay in Singapore at night, looking at the glowing, neon-lit skyscrapers of the city centre.
 image-credit: Nicolas Lannuzel
 image-credit-url: https://commons.wikimedia.org/wiki/File:A_couple_watching_skycrapers_at_night_in_Marina_Bay_(20189404519).jpg
