@@ -3,7 +3,7 @@ date: 2026-09-05
 summary: Some content creators try to film communities that want to be left alone. Why is this so dangerous, and who has the right to decide?
 tags: Technology, Society
 source: The Guardian | https://www.theguardian.com/world/2026/sep/05/colonialism-for-clicks-influencers-attempting-meet-film-worlds-most-isolated-tribes
-image: images/the-influencers-targeting-the-worlds-most-isolated-people-2e3eb6.jpg
+image: images/the-influencers-targeting-the-worlds-most-isolated-people-8fec4d.jpg
 ---
 === Core ===
 
