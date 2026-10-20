@@ -140,7 +140,7 @@ h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; 
 
 <script>
 const TOKEN = "__TOKEN__";
-const SLOTS = ["vox", "plain"], LABEL = { vox: "Vox style", plain: "Plain" };
+const SLOTS = ["vox", "plain"], LABEL = { vox: "Vox style", plain: "Plain" }, WORD = { vox: "Vox style", plain: "plain" };
 const $ = id => document.getElementById(id);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 let PICS = [], KINDS = [], STYLE = "vox", COUNTS = { total: 0, vox: 0, plain: 0 };
@@ -283,7 +283,7 @@ function refreshCard(c) {
     if (S.remove) S.media.appendChild(el("div", "none", "Picture will be removed"));
     else if (S.img) { const i = el("img"); i.src = S.img.preview; i.alt = ""; S.media.appendChild(i); }
     else if (q.thumb) { const i = el("img"); i.src = "/media/" + q.thumb + "?v=" + (q.image || ""); i.alt = ""; i.loading = "lazy"; S.media.appendChild(i); }
-    else S.media.appendChild(el("div", "none", "No " + LABEL[slot].toLowerCase() + " picture yet. Drop one here."));
+    else S.media.appendChild(el("div", "none", "No " + WORD[slot] + " picture yet. Drop one here."));
     S.badges.textContent = "";
     if (STYLE === slot) S.badges.appendChild(el("span", "badge site", "Shown on the site"));
     if (S.dirty()) S.badges.appendChild(el("span", "badge new", S.remove ? "Removal not published" : "Not published yet"));
@@ -401,28 +401,28 @@ $("publish").addEventListener("click", async () => {
   if (!r.pushed) {
     if (r.auth) { const b = el("button", "btn", "Open the sign-in window"); b.type = "button"; b.addEventListener("click", async () => { try { await api("/api/signin", {}); } catch (e) { setStatus("err", e.message); } }); setStatus("warn", ["GitHub needs your sign-in. Your changes are saved safely on this Mac. ", b]); }
     else setStatus("warn", (r.note || "Nothing was sent.") + " Your changes are still here.");
-    await reload(false); updateBar(); return;
+    await reload(); updateBar(); return;
   }
   const slugs = r.changed || [];
+  await reload();   // the saved pictures are now the baseline, and the counts are fresh
   setStatus("info", "Sent to GitHub. Waiting for johnplusnews.com to show " + slugs.length + (slugs.length === 1 ? " article" : " articles") + " (this usually takes one to two minutes).");
   let done = 0;
   const results = await Promise.all(slugs.map(async s => { const ok = await waitLive("/articles/" + s + "/", (r.verify || {})[s]); if (ok) { done++; if (mine === waitId) setStatus("info", done + " of " + slugs.length + " live on johnplusnews.com so far."); } return ok; }));
   if (mine !== waitId) return;
   if (results.every(Boolean)) setStatus("ok", slugs.length === 1 ? "It is live on johnplusnews.com." : "All " + slugs.length + " are live on johnplusnews.com.");
   else setStatus("warn", "Sent to GitHub, but not all of them are showing yet. Give it a few more minutes and check the site.");
-  await reload(false);
 });
 
 /* ------------------------------------------------------------------ the site-wide switch */
 function drawStyleBox() {
   [...$("styleSeg").children].forEach(b => b.setAttribute("aria-pressed", String(b.dataset.s === STYLE)));
   const other = STYLE === "vox" ? "plain" : "vox", missing = COUNTS.total - COUNTS[STYLE];
-  $("styleNote").textContent = "Vox style: " + COUNTS.vox + " of " + COUNTS.total + " articles have one. Plain: " + COUNTS.plain + " of " + COUNTS.total + ". An article with no " + LABEL[STYLE].toLowerCase() + " picture shows its other picture instead" + (missing > 0 ? " (" + missing + " right now)." : ".");
+  $("styleNote").textContent = "Vox style: " + COUNTS.vox + " of " + COUNTS.total + " articles have one. Plain: " + COUNTS.plain + " of " + COUNTS.total + ". An article with no " + WORD[STYLE] + " picture shows its other picture instead" + (missing > 0 ? " (" + missing + " right now)." : ".");
 }
 $("styleSeg").addEventListener("click", async e => {
   const b = e.target.closest("button[data-s]"); if (!b || b.dataset.s === STYLE) return;
   const want = b.dataset.s, have = COUNTS[want];
-  const warn = have < COUNTS.total ? "\n\n" + (COUNTS.total - have) + " articles have no " + LABEL[want].toLowerCase() + " picture yet and will keep showing their other one." : "";
+  const warn = have < COUNTS.total ? "\n\n" + (COUNTS.total - have) + " articles have no " + WORD[want] + " picture yet and will keep showing their other one." : "";
   if (!confirm("Switch the whole site to the " + LABEL[want] + " pictures?" + warn + "\n\nThis publishes straight away.")) return;
   const mine = ++waitId; [...$("styleSeg").children].forEach(x => x.disabled = true);
   setStatus("info", "Switching the site to " + LABEL[want] + " and sending it to GitHub...");
