@@ -3,7 +3,7 @@ date: 2026-08-02
 summary: Many people still want to read. The protected time and attention required for it are slipping away.
 tags: Culture, Technology
 source: The Guardian | https://www.theguardian.com/books/2026/aug/02/could-a-couch-to-5k-for-books-get-you-back-into-reading
-image: images/have-we-lost-the-ability-to-read-books-b17042.jpg
+image: images/have-we-lost-the-ability-to-read-books-7b3dce.jpg
 ---
 === Core ===
 
