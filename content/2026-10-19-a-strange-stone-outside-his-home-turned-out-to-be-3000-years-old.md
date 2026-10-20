@@ -1,5 +1,5 @@
 title: A Strange Stone Outside His Home Turned Out to Be 3,000 Years Old
-date: 2026-10-19
+date: 2026-10-13
 summary: A man in Egypt noticed an unusual stone while working on his land. What followed was a discovery linked to one of the ancient world's most famous pharaohs.
 tags: History, Culture
 source: Ahram Online | https://english.ahram.org.eg/NewsContent/9/40/578928/Antiquities/Ancient-Egypt/Egypt-discovers-remains-of-two-colossal-statues-of.aspx

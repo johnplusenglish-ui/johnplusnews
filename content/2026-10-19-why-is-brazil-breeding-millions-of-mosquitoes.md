@@ -1,5 +1,5 @@
 title: Why Is Brazil Breeding Millions of Mosquitoes?
-date: 2026-10-19
+date: 2025-07-19
 summary: Mosquitoes spread dangerous diseases. So why has Brazil opened a huge factory to produce even more of them?
 tags: Science, Health
 source: Paraná State Health Department | https://www.saude.pr.gov.br/Noticia/Parana-inaugura-maior-biofabrica-de-mosquitos-do-mundo-de-combate-dengue

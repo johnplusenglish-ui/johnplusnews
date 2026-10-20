@@ -1,5 +1,5 @@
 title: Why Are So Many People Flying to Turkey for New Hair?
-date: 2026-10-19
+date: 2026-03-09
 summary: Istanbul has become a major destination for hair transplants. Why are people travelling abroad to change their appearance, and what should they consider first?
 tags: Health, Lifestyle
 source: The Guardian | https://www.theguardian.com/fashion/2026/mar/09/inside-the-hair-transplant-capital-of-the-world-istanbul

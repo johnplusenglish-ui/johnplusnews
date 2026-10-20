@@ -1,5 +1,5 @@
 title: Would You Pay Someone to Be Your Friend?
-date: 2026-10-19
+date: 2026-06-02
 summary: In China, people are hiring companions to join them for meals, walks and trips. Are they buying friendship, or simply paying for someone's time?
 tags: Relationships, Society
 source: Reuters | https://www.reuters.com/world/asia-pacific/hiking-hotpot-lonely-consumers-china-fuel-74-billion-companionship-economy-2026-06-02/

@@ -1,5 +1,5 @@
 title: The 170-Kilometre City That May Never Be Finished
-date: 2026-10-19
+date: 2026-05-22
 summary: Saudi Arabia proposed a city stretching in a straight line through the desert. New reports suggest the original vision may be much harder to build than expected.
 tags: Technology, Business
 source: Semafor | https://www.semafor.com/article/05/22/2026/saudis-neom-halts-work-on-the-line-until-after-2030

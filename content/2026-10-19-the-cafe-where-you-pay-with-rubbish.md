@@ -1,5 +1,5 @@
 title: The Café Where You Pay with Rubbish
-date: 2026-10-19
+date: 2025-08-19
 summary: At a café in India, customers can exchange plastic waste for a hot meal. Could an unusual payment system help with two problems at once?
 tags: Food, Society
 source: BBC Future | https://www.bbc.com/future/article/20250818-the-indian-garbage-cafes-giving-out-food-in-exchange-for-plastic-waste

@@ -1,5 +1,6 @@
 title: Her Sister Was Kidnapped on a Bus. So She Started Her Own Bus Company.
-date: 2026-10-19
+date: 2026-05-28
+date-label: 28–29 May 2026
 summary: After a frightening experience in her family, a Nigerian entrepreneur helped create a safer and more predictable way to get around Lagos.
 tags: Business, Society
 source: BBC World Service, Outlook programme | https://wspartners.bbc.com/schedules/bbc_world_service_news_internet/day/2026-05-29
