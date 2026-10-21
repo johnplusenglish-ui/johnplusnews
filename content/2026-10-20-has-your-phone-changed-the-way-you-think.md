@@ -5,6 +5,7 @@ summary: A notification can interrupt a task in seconds. New research asks what 
 tags: Technology, Health
 source: Computers in Human Behavior | https://doi.org/10.1016/j.chb.2026.108926
 image: images/has-your-phone-changed-the-way-you-think-34fe63.jpg
+image-plain: images/has-your-phone-changed-the-way-you-think-plain-0fac14.jpg
 ---
 === Core ===
 
