@@ -4,6 +4,7 @@ summary: Concert tickets cost far more than they used to, and young fans feel th
 tags: Music, Society
 source: The Arizona State Press and LBC | https://www.statepress.com/article/2026/09/priced-out-of-concerts
 image: images/when-did-going-to-a-concert-become-a-luxury-4371ea.jpg
+image-plain: images/when-did-going-to-a-concert-become-a-luxury-plain-2d54b7.jpg
 ---
 === Core ===
 
