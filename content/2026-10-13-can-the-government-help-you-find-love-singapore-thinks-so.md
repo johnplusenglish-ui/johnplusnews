@@ -9,6 +9,7 @@ image-credit-url: https://commons.wikimedia.org/wiki/File:A_couple_watching_skyc
 image-licence: CC BY-SA 2.0
 image-licence-url: https://creativecommons.org/licenses/by-sa/2.0/
 image-credit-note: "A couple watching skycrapers at night in Marina Bay", via Wikimedia Commons, resized and cropped
+image-plain: images/can-the-government-help-you-find-love-singapore-thinks-so-plain-123894.jpg
 ---
 === Core ===
 

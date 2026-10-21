@@ -3,6 +3,7 @@ date: 2025-06-11
 summary: A day spent thinking, worrying and making decisions may be tiring even without much physical movement.
 tags: Health, Lifestyle
 source: Journal of Neuroscience | https://pubmed.ncbi.nlm.nih.gov/40345833/
+image-plain: images/why-are-we-so-tired-when-we-havent-done-much-plain-d1d184.jpg
 ---
 === Core ===
 

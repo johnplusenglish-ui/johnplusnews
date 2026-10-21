@@ -10,7 +10,7 @@ image-credit-url: https://www.jpl.nasa.gov/images/inside-project-hail-mary/
 image-licence: NASA image use policy
 image-licence-url: https://www.jpl.nasa.gov/jpl-image-use-policy/
 image-credit-note: the film's cast and crew visit NASA's Jet Propulsion Laboratory, February 2026, resized
-image-plain: images/project-hail-mary-the-space-adventure-that-makes-science-exciting-plain-70e087.jpg
+image-plain: images/project-hail-mary-the-space-adventure-that-makes-science-exciting-plain-1798fb.jpg
 ---
 === Core ===
 
