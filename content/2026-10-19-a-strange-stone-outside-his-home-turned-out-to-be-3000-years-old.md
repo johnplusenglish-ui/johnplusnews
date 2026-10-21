@@ -4,6 +4,7 @@ summary: A man in Egypt noticed an unusual stone while working on his land. What
 tags: History, Culture
 source: Ahram Online | https://english.ahram.org.eg/NewsContent/9/40/578928/Antiquities/Ancient-Egypt/Egypt-discovers-remains-of-two-colossal-statues-of.aspx
 image: images/a-strange-stone-outside-his-home-turned-out-to-be-3000-years-old-7a54d8.jpg
+image-plain: images/a-strange-stone-outside-his-home-turned-out-to-be-3000-years-old-plain-99c7e0.jpg
 ---
 === Core ===
 
