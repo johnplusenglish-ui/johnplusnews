@@ -4,6 +4,7 @@ summary: A small trial has used gene therapy and electronic goggles to help blin
 tags: Science, Health
 source: The Guardian | https://www.theguardian.com/society/2026/oct/07/gene-therapy-can-partly-restore-sight-in-blind-people-researchers-reveal
 image: images/can-scientists-give-blind-people-their-sight-back-df5f8e.jpg
+image-plain: images/can-scientists-give-blind-people-their-sight-back-plain-4dc2b5.jpg
 ---
 === Core ===
 
