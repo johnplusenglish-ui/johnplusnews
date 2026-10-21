@@ -10,6 +10,7 @@ image-credit-url: https://commons.wikimedia.org/wiki/File:Eliud_Kipchoge_in_Berl
 image-licence: CC BY-SA 4.0
 image-licence-url: https://creativecommons.org/licenses/by-sa/4.0/
 image-credit-note: Kipchoge at the Berlin Marathon, 2022, via Wikimedia Commons, cropped and resized
+image-plain: images/the-marathon-legend-who-refuses-to-get-old-plain-9f3e69.jpg
 ---
 === Core ===
 

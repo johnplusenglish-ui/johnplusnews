@@ -4,6 +4,7 @@ summary: AI can create convincing pictures and voices of people who never agreed
 tags: Technology, Society
 source: Reuters | https://www.reuters.com/world/denmark-plans-ban-sharing-ai-deepfakes-without-consent-2026-10-08/
 image: images/should-you-own-the-rights-to-your-own-face-1755df.jpg
+image-plain: images/should-you-own-the-rights-to-your-own-face-plain-d7c98e.jpg
 ---
 === Core ===
 
