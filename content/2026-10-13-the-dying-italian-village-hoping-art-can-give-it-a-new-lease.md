@@ -4,6 +4,7 @@ summary: A million-euro cultural programme offers hope to a hilltop village thre
 tags: Culture, Travel
 image: images/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-eb382f.jpg
 image-alt: A medieval stone village on a crumbling hilltop in central Italy, reached by a long footbridge, with green valleys and mountains behind it.
+image-plain: images/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-plain-318d1f.jpg
 ---
 === Core ===
 
