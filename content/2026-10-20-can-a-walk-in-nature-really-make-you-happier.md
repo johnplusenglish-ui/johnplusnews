@@ -4,6 +4,7 @@ date-label: November 2025
 summary: Parks, beaches and forests are often called natural medicine. What does the research actually show?
 tags: Health, Environment
 source: Journal of Environmental Psychology | https://doi.org/10.1016/j.jenvp.2025.102802
+image-plain: images/can-a-walk-in-nature-really-make-you-happier-plain-eac73e.jpg
 ---
 === Core ===
 

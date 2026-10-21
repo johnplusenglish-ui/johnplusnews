@@ -3,6 +3,7 @@ date: 2025-09-17
 summary: AI can compare hundreds of options in seconds. But should it help choose your career, partner or treatment?
 tags: Technology, Society
 source: Pew Research Center | https://www.pewresearch.org/science/2025/09/17/how-americans-view-ai-and-its-impact-on-people-and-society/
+image-plain: images/would-you-trust-ai-to-make-an-important-life-decision-plain-1ee5f6.jpg
 ---
 === Core ===
 
