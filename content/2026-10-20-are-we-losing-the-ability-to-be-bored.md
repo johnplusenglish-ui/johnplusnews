@@ -4,6 +4,7 @@ date-label: June 2026
 summary: We have entertainment in our pockets, yet boredom may be growing. Is the phone part of the problem?
 tags: Technology, Lifestyle
 source: Communications Psychology | https://www.nature.com/articles/s44271-024-00155-9
+image: images/are-we-losing-the-ability-to-be-bored-da847f.jpg
 ---
 === Core ===
 
