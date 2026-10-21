@@ -71,9 +71,9 @@ def read_settings():
     except (OSError, ValueError):
         data = {}
     style = data.get("image_style", "vox")
-    free = data.get("free_articles", 3)            # how many of the newest articles readers who are not signed in can read: a number, or "all"
+    free = data.get("free_articles", "all")        # how many of the newest articles readers who are not signed in can read: a number, or "all" (the default, so a missing line never locks anything)
     if free != "all":
-        free = free if isinstance(free, int) and free >= 0 else 3
+        free = free if isinstance(free, int) and free >= 0 else "all"
     return {"image_style": style if style in IMAGE_STYLES else "vox", "free_articles": free}
 
 
