@@ -10,6 +10,7 @@ image-credit-url: https://commons.wikimedia.org/wiki/File:Inside_Portsmouth_Libr
 image-licence: CC BY 2.0
 image-licence-url: https://creativecommons.org/licenses/by/2.0/
 image-credit-note: A library of things in Portsmouth, England, via Wikimedia Commons, cropped and resized
+image-plain: images/the-library-where-you-can-borrow-a-tent-plain-0ce6e5.jpg
 ---
 === Core ===
 
