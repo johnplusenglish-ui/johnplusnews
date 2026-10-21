@@ -3,6 +3,7 @@ date: 2026-10-13
 summary: Thousands of teenagers across France are refusing to attend lessons and joining demonstrations instead. They say their schools are falling apart and the government isn't doing enough to help.
 tags: Education, Politics
 image: images/why-are-thousands-of-french-students-going-on-strike-fb1ec3.jpg
+image-plain: images/why-are-thousands-of-french-students-going-on-strike-plain-3b3e23.jpg
 ---
 === Core ===
 
