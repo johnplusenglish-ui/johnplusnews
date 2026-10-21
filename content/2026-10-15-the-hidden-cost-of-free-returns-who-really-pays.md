@@ -4,6 +4,7 @@ summary: Printing a returns label takes seconds; deciding what to do with the un
 tags: Business, Environment
 source: The Guardian | https://www.theguardian.com/business/2026/oct/04/retailers-returns-small-business
 image: images/the-hidden-cost-of-free-returns-who-really-pays-16d44c.jpg
+image-plain: images/the-hidden-cost-of-free-returns-who-really-pays-plain-626186.jpg
 ---
 === Core ===
 
