@@ -5,6 +5,7 @@ summary: We have entertainment in our pockets, yet boredom may be growing. Is th
 tags: Technology, Lifestyle
 source: Communications Psychology | https://www.nature.com/articles/s44271-024-00155-9
 image: images/are-we-losing-the-ability-to-be-bored-da847f.jpg
+image-plain: images/are-we-losing-the-ability-to-be-bored-plain-9b2620.jpg
 ---
 === Core ===
 
