@@ -9,6 +9,7 @@ image-credit-url: https://commons.wikimedia.org/wiki/File:Madrid_-_Maricarmen_Ab
 image-licence: CC BY-SA 4.0
 image-licence-url: https://creativecommons.org/licenses/by-sa/4.0/
 image-credit-note: via Wikimedia Commons, resized and cropped
+image-plain: images/a-home-for-life-the-housing-crisis-shaking-spain-plain-1545b7.jpg
 ---
 === Core ===
 
