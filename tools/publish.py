@@ -365,7 +365,7 @@ def do_imagestyle(p):
         if style == cur:
             return {"ok": True, "pushed": False, "style": style, "note": "The site already shows the {} pictures.".format(style)}
         previous = build.SETTINGS_FILE.read_text(encoding="utf-8") if build.SETTINGS_FILE.exists() else None
-        build.SETTINGS_FILE.write_text(json.dumps({"image_style": style}, indent=2) + "\n", encoding="utf-8")
+        build.SETTINGS_FILE.write_text(json.dumps(dict(build.read_settings(), image_style=style), indent=2) + "\n", encoding="utf-8")
         try:
             run_build()
         except Exception:

@@ -71,7 +71,10 @@ def read_settings():
     except (OSError, ValueError):
         data = {}
     style = data.get("image_style", "vox")
-    return {"image_style": style if style in IMAGE_STYLES else "vox"}
+    free = data.get("free_articles", 3)            # how many of the newest articles readers who are not signed in can read: a number, or "all"
+    if free != "all":
+        free = free if isinstance(free, int) and free >= 0 else 3
+    return {"image_style": style if style in IMAGE_STYLES else "vox", "free_articles": free}
 
 
 def image_keys(style):
@@ -1027,7 +1030,8 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
                 sys.exit("The {} version of '{}' points to a recording that does not exist: {}".format(v["level"], a["title"], v["audio"]))
     attach_thumbs(arts, static_dir)
     FREE_SLUGS.clear()
-    FREE_SLUGS.update(a["slug"] for a in arts[:FREE_COUNT])
+    free = read_settings()["free_articles"]
+    FREE_SLUGS.update(a["slug"] for a in (arts if free == "all" else arts[:free]))
     OUT = out_dir
     if out_dir.exists():
         shutil.rmtree(out_dir)
