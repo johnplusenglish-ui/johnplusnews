@@ -4,6 +4,7 @@ summary: Passive-income videos show the payment notification, not the crowded ma
 tags: Business, Work
 source: The Guardian | https://www.theguardian.com/business/ng-interactive/2026/oct/13/influencers-passive-income-side-hustles
 image: images/the-side-hustle-trap-can-you-really-make-money-while-you-sleep-c985cc.jpg
+image-plain: images/the-side-hustle-trap-can-you-really-make-money-while-you-sleep-plain-6670db.jpg
 ---
 === Core ===
 

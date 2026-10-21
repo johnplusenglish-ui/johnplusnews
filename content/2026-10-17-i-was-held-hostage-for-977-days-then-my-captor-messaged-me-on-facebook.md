@@ -4,6 +4,7 @@ summary: Two months after 977 days as a hostage in Somalia, journalist Michael S
 tags: Crime, Society
 source: The Guardian | https://www.theguardian.com/news/ng-interactive/2026/oct/13/i-was-kidnapped-and-held-hostage-for-977-days-could-i-forgive-my-captors
 image: images/i-was-held-hostage-for-977-days-then-my-captor-messaged-me-on-facebook-9a52c3.jpg
+image-plain: images/i-was-held-hostage-for-977-days-then-my-captor-messaged-me-on-facebook-plain-4bc101.jpg
 ---
 === Core ===
 
