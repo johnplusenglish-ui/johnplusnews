@@ -579,6 +579,12 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .wd-x:hover { color: #b42318; background: #fdecea; }
 .wd-sent { margin: 0; font-size: 0.9375rem; line-height: 1.55; color: var(--muted); }
 .wd-sent b { font-weight: 500; color: var(--text); background: rgba(245, 158, 11, 0.24); border-radius: 3px; padding: 1px 2px; }
+/* The definition, fetched from the dictionary when the word is opened. */
+.wd-def { margin-top: 9px; font-size: 0.9375rem; line-height: 1.5; color: var(--muted); }
+.wd-def:empty { display: none; }
+.wd-pos { font-style: normal; font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 8px; }
+.wd-gloss { color: var(--text); }
+.wd-def-note { color: #98a0ad; }
 .t-detail h3 { margin-top: 14px; }
 .t-detail h3:first-child { margin-top: 0; }
 .t-detail .wd-words { margin-top: 4px; }

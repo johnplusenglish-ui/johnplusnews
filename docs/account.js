@@ -593,6 +593,65 @@
     var t = (s || "").trim();
     return !!t && t.length <= 45 && t.split(/\s+/).length <= 6 && !/[.!?,;:\d]/.test(t);
   }
+  /* The dictionary's public, token-free gloss endpoint. Readers here have no
+     dictionary account, so sending them to johnplusdictionary.com/w/<word> hit
+     a "Sign in to look it up" wall whenever the word had no entry yet. This
+     returns the definition instead, and writes the entry on a first miss, so
+     the next reader gets it for nothing. The same headword test runs on the
+     server, so a sentence can never be sent for generation. */
+  var GLOSS_API = "https://johnplusdictionary.com/news-gloss";
+  var glossCache = {};               // lower(word) -> row, so reopening is free
+  function glossRequest(word) {
+    var key = word.toLowerCase();
+    if (glossCache[key]) return Promise.resolve(glossCache[key]);
+    return fetch(GLOSS_API, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ words: [word] })
+    }).then(function (res) {
+      if (!res.ok) throw new Error("http " + res.status);
+      return res.json();
+    }).then(function (d) {
+      var row = (d.results || [])[0] || null;
+      if (row) { row.notice = d.notice || ""; glossCache[key] = row; }
+      return row;
+    });
+  }
+  /* Only asked for when the reader actually opens a word, so a long list costs
+     nothing to draw. */
+  function loadGloss(word, node) {
+    if (node.getAttribute("data-state")) return;    // already asked
+    node.setAttribute("data-state", "loading");
+    node.textContent = "Looking it up…";
+    glossRequest(word).then(function (row) {
+      node.setAttribute("data-state", "done");
+      node.textContent = "";
+      if (!row || row.source === "failed") {
+        node.appendChild(el("span", "wd-def-note", "Could not look that one up just now."));
+        node.setAttribute("data-state", "");        // let them try again
+        return;
+      }
+      if (row.source === "capped") {
+        node.appendChild(el("span", "wd-def-note", row.notice ||
+          "The daily limit for new words has been reached. Try again tomorrow."));
+        node.setAttribute("data-state", "");
+        return;
+      }
+      if (row.source === "not-headword" || !row.gloss) {
+        node.appendChild(el("span", "wd-def-note", "No dictionary entry for that one."));
+        return;
+      }
+      if (row.pos) node.appendChild(el("span", "wd-pos", row.pos));
+      node.appendChild(el("span", "wd-gloss", row.gloss));
+      if (row.standard === false) {
+        node.appendChild(el("span", "wd-def-note", "Not standard English."));
+      }
+    }).catch(function () {
+      node.setAttribute("data-state", "");          // transient; allow a retry
+      node.textContent = "";
+      node.appendChild(el("span", "wd-def-note", "Could not reach the dictionary just now."));
+    });
+  }
   function sentenceNode(sentence, word) {
     var p = el("p", "wd-sent");
     var i = sentence ? sentence.toLowerCase().indexOf(word.toLowerCase()) : -1;
@@ -704,14 +763,18 @@
             d.appendChild(sum);
             var body = el("div", "wd-body");
             if (r.sentence) body.appendChild(sentenceNode(r.sentence, r.text));
-            var acts = el("div", "wd-acts");
+            /* The definition sits in the opened row itself. It is fetched when
+               the row opens, not when the list draws. */
             if (isHeadword(r.text)) {
-              var look = el("a", "wd-dict", "Look it up");
-              look.href = "https://johnplusdictionary.com/w/" + encodeURIComponent(r.text);
-              look.target = "_blank"; look.rel = "noopener";
-              look.setAttribute("aria-label", "Look up " + r.text + " in the dictionary");
-              acts.appendChild(look);
+              var def = el("div", "wd-def");
+              def.setAttribute("aria-live", "polite");
+              body.appendChild(def);
+              d.addEventListener("toggle", function () {
+                if (d.open) loadGloss(r.text, def);
+              });
+              if (d.open) loadGloss(r.text, def);   // a search opens rows itself
             }
+            var acts = el("div", "wd-acts");
             var x = el("button", "wd-x", "Remove"); x.type = "button"; x.setAttribute("aria-label", "Remove " + r.text);
             x.addEventListener("click", function () {
               api("DELETE", "/rest/v1/news_words?id=eq." + r.id, { prefer: "return=minimal" }).then(function () {
