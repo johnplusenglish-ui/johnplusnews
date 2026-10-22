@@ -585,6 +585,14 @@
       document.body.appendChild(ta); ta.select(); try { document.execCommand("copy"); done(); } catch (e) {} document.body.removeChild(ta);
     }
   }
+  /* A dictionary entry is a word or a short phrase, never a sentence. Highlights can run to
+     90 characters, so anything longer or more sentence-shaped gets no look-up link: the
+     dictionary would charge for an entry and then mark it as not standard English. Six words
+     covers the long idioms ("kill two birds with one stone"); ordinary prose does not fit. */
+  function isHeadword(s) {
+    var t = (s || "").trim();
+    return !!t && t.length <= 45 && t.split(/\s+/).length <= 6 && !/[.!?,;:\d]/.test(t);
+  }
   function sentenceNode(sentence, word) {
     var p = el("p", "wd-sent");
     var i = sentence ? sentence.toLowerCase().indexOf(word.toLowerCase()) : -1;
@@ -697,11 +705,13 @@
             var body = el("div", "wd-body");
             if (r.sentence) body.appendChild(sentenceNode(r.sentence, r.text));
             var acts = el("div", "wd-acts");
-            var look = el("a", "wd-dict", "Look it up");
-            look.href = "https://johnplusdictionary.com/w/" + encodeURIComponent(r.text);
-            look.target = "_blank"; look.rel = "noopener";
-            look.setAttribute("aria-label", "Look up " + r.text + " in the dictionary");
-            acts.appendChild(look);
+            if (isHeadword(r.text)) {
+              var look = el("a", "wd-dict", "Look it up");
+              look.href = "https://johnplusdictionary.com/w/" + encodeURIComponent(r.text);
+              look.target = "_blank"; look.rel = "noopener";
+              look.setAttribute("aria-label", "Look up " + r.text + " in the dictionary");
+              acts.appendChild(look);
+            }
             var x = el("button", "wd-x", "Remove"); x.type = "button"; x.setAttribute("aria-label", "Remove " + r.text);
             x.addEventListener("click", function () {
               api("DELETE", "/rest/v1/news_words?id=eq." + r.id, { prefer: "return=minimal" }).then(function () {
