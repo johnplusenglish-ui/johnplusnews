@@ -5,9 +5,9 @@ summary: More couples are questioning the idea that sharing a bed is essential f
 tags: Relationships, Health
 source: Health.com | https://www.health.com/do-sleep-divorces-lead-to-better-sleep-11780674
 ---
-=== Core ===
+=== B1 ===
 
-It is the middle of the night. One person is sleeping peacefully, but their partner is awake because of loud snoring. They try moving the pillow and turning over. Nothing helps. Would sleeping in another room be a terrible idea? Some couples choose separate beds or bedrooms so they can rest better. People sometimes call this a sleep divorce, although nobody is ending the relationship. They may love each other and enjoy spending time together but have very different habits at night.
+It is the middle of the night. One person is sleeping peacefully, but their partner lies awake and exhausted because of loud snoring. They try moving the pillow and turning over. Nothing helps. Would sleeping in another room be a terrible idea? Some couples choose separate beds or bedrooms so they can get a good night's sleep. People sometimes call this a sleep divorce, although nobody is ending the relationship. They may love each other and enjoy spending time together but have very different habits at night.
 
 There are many reasons for sleeping separately. One partner may snore, move around a lot or need a television on. The other may wake up easily or work different hours. In 2025, reporting on a US sleep survey suggested that separate sleeping arrangements were fairly common among adults.
 
@@ -21,9 +21,9 @@ It is important to talk about these things without making the other person feel 
 
 Perhaps the strangest thing about the phrase sleep divorce is that it makes a practical decision sound like a romantic disaster. Good relationships involve looking after each other. Sometimes that means sharing a bed. Sometimes it means letting the other person sleep.
 
-=== Intermediate ===
+=== B2 ===
 
-Sharing a bed is often treated as a symbol of a successful relationship. Yet anyone who has spent hours listening to a partner snore knows that intimacy and a good night's sleep do not always fit comfortably together. This tension has encouraged discussion of so-called sleep divorce: couples choosing separate sleeping arrangements without ending their relationship. One partner may need the window open and the other may prefer a warm room. Add different alarms or a habit of watching television late, and bedtime can turn into a negotiation. Reasons vary from different work schedules to restless movement, conflicting room temperatures and noise. A 2025 report discussing a survey by the American Academy of Sleep Medicine suggested that sleeping separately was relatively common among US adults. The figures describe reported behaviour, not proof that separate bedrooms produce happier relationships.
+Sharing a bed is often treated as a symbol of a successful relationship. Yet anyone who has spent hours listening to a partner snore knows that intimacy and a good night's sleep do not always fit comfortably together. This tension has encouraged discussion of so-called sleep divorce: couples choosing separate sleeping arrangements without ending their relationship. One partner may need the window open and the other may prefer a warm room. Add different alarms or a habit of watching television late, and bedtime can turn into a negotiation. Reasons vary from different work schedules to restless movement, conflicting room temperatures and noise. A 2025 report discussing a survey carried out by the American Academy of Sleep Medicine suggested that sleeping separately was relatively common among US adults. The figures describe reported behaviour, not proof that separate bedrooms produce happier relationships.
 
 There are possible advantages. Somebody who sleeps more peacefully may become less irritable and better able to enjoy time with their partner. Couples may also feel relieved when they stop blaming one another for interrupted nights. However, separate beds can reduce opportunities for closeness if the decision is not discussed openly.
 
@@ -31,38 +31,38 @@ The question is therefore more complicated than choosing between romance and res
 
 There are medical issues to consider. Regular loud snoring, particularly when linked to interrupted breathing or marked daytime sleepiness, can indicate a condition requiring assessment. Moving rooms may protect a partner's sleep without addressing the underlying problem.
 
-Separate bedrooms are not an option for everybody. Couples in small flats may have little space to experiment, and moving to a larger home simply to improve sleep is financially unrealistic for many families. Less dramatic changes might help: separate duvets, different bedtimes, earplugs or agreed rules about noise and screen use.
+Separate bedrooms are not an option for everybody. Couples in small flats may have little space to experiment and often simply have to put up with the disturbance. Moving to a larger home purely to improve sleep is financially unrealistic for many families. Less dramatic changes might help: separate duvets, different bedtimes, earplugs or agreed rules about noise and cutting down on screens late at night.
 
 The best solution depends on the source of disturbance, the available space and how both people feel about the arrangement. It is also worth avoiding blame. Snoring or restless movement is not necessarily something a person can control through willpower. A discussion that focuses on practical needs rather than accusations is more likely to protect the relationship while addressing the sleep problem.
 
 Rather than seeing bed-sharing as a test of love, couples might ask what allows both people to feel rested and connected. A relationship is built from communication, trust and everyday care. The location of two pillows is unlikely to tell the whole story.
 
-=== Advanced ===
+=== C1-C2 ===
 
 A shared bed remains one of the strongest cultural symbols of a committed relationship. Consequently, the decision to sleep separately can carry an implication of emotional distance, even when the real problem is considerably less dramatic: snoring, incompatible schedules or a partner who takes up most of the mattress. A shared bed is often treated as proof of intimacy, although it is also a practical arrangement involving temperature, light, noise and the timing of two separate bodies. The expression sleep divorce describes an arrangement in which a couple chooses separate beds or rooms for better rest, without separating romantically. Reporting on a 2025 US sleep survey suggested that the practice was far from exceptional. Yet the popularity of a phrase does not establish whether the arrangement improves relationships or how widely it occurs outside the surveyed population.
 
 There is a plausible argument in its favour. Chronic sleep disruption can affect mood, attention and tolerance, making everyday disagreements more difficult to manage. A couple who both sleep better may consequently have more energy for their relationship. However, physical closeness can also be reassuring, and sleeping apart may feel lonely or rejected if one partner experiences the decision differently. The phrase 'sleep divorce' makes the choice sound more dramatic than it may be. For some couples it is a temporary experiment; for others, an ordinary routine that protects both people's rest.
 
-Rather than treating separate sleeping as a permanent binary choice, some couples negotiate flexible arrangements. They may share a bedroom most nights while allowing separate space during illness or demanding working periods. Others address temperature, bedding or bedtime routines before changing rooms. The relevant measure of success is whether the arrangement suits both people.
+Rather than treating separate sleeping as a permanent binary choice, some couples negotiate flexible arrangements. They may share a bedroom most nights while allowing separate space during illness or demanding working periods. Others look into temperature, bedding or bedtime routines before changing rooms. The relevant measure of success is whether the arrangement suits both people.
 
-Practical solutions should not replace medical attention when it is needed. Loud habitual snoring accompanied by breathing interruptions, for example, may indicate sleep apnoea. Reducing disturbance to a partner can be worthwhile, but the cause still deserves appropriate assessment. What matters is whether both partners have a say. Separate bedrooms imposed by one person are different from a decision discussed openly, with closeness maintained in other ways.
+Practical solutions should not replace medical attention when it is needed. Loud habitual snoring accompanied by breathing interruptions, for example, may indicate sleep apnoea. Reducing disturbance to a partner can be worthwhile, but the underlying cause should not be brushed aside. What matters is whether both partners have a say. Separate bedrooms imposed by one person are different from a decision discussed openly, with closeness maintained in other ways.
 
 Housing conditions complicate the fashionable presentation of sleep divorce as a straightforward lifestyle choice. Separate rooms require space that many couples, particularly those facing high rents or crowded housing, simply do not have. Even separate beds may be impractical. Other arrangements, including different duvets, adjusted bedtimes or changes to light and noise, may be more realistic.
 
 The language used between partners also matters. Sleep disruption is often involuntary, and framing it as somebody's fault can turn a practical difficulty into an emotional conflict. Couples benefit from discussing their needs without making physical proximity the sole measure of affection. Whatever the arrangement, both partners should feel that the decision respects their comfort, dignity and desire for closeness.
 
-The wider debate reveals how readily cultural expectations become mistaken for relationship rules. Two people can share a bed and feel emotionally distant, or sleep in different rooms and maintain a close partnership. Rather than defending one arrangement as the romantic ideal, perhaps couples should be encouraged to discuss sleep as they would any other shared responsibility: honestly and without embarrassment.
+The wider debate reveals how readily cultural expectations become mistaken for relationship rules. Two people can share a bed and feel emotionally distant, or sleep in different rooms and maintain a close partnership. Rather than holding up one arrangement as the romantic ideal, perhaps couples should be encouraged to discuss sleep as they would any other shared responsibility: honestly and without embarrassment.
 
 === Before you read ===
 
-- Does sharing a room make sleep easier or harder?
+- How easy do you find it to sleep when someone else is in the room?
 - What habits can disturb a partner at night?
-- Do couples have to do everything together?
+- How much of their daily routine do couples really need to share?
 
 === Talk about it ===
 
-- Is sharing a bed important in a relationship?
+- How important do you think sharing a bed is in a relationship?
 - What would you do if a partner kept you awake?
-- Why does the term "sleep divorce" sound negative?
-- Should couples have separate personal spaces at home?
-- Can sleeping separately solve a problem without solving its cause?
+- What do you think of "sleep divorce" as a name for this?
+- How common are separate bedrooms for couples in your country?
+- When might sleeping separately hide a problem rather than solve it?

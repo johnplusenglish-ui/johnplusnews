@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/oct/13/karl
 image: images/the-man-who-spent-28-years-walking-home-1ffaab.jpg
 image-plain: images/the-man-who-spent-28-years-walking-home-plain-2e72ee.jpg
 ---
-=== Core ===
+=== B1 ===
 
 title: The Longest Walk Home
 summary: In 1998, Karl Bushby left Chile to walk home to Hull. After almost 28 years, he is nearly there.
@@ -21,7 +21,7 @@ Money, closed borders and the pandemic all held up Karl's progress. In 2024, he 
 
 The adventure has been exciting, but it has also cost him a great deal. Karl has missed years with his family, including much of his son's childhood. He has also depended on the kindness of strangers for food, shelter and help. These experiences have made him more positive about people. After nearly three decades on the road, one question remains. When he finally arrives home, how will he get used to ordinary life again?
 
-=== Intermediate ===
+=== B2 ===
 
 For most people, getting home is a matter of catching a bus, train or plane. For Karl Bushby, it has taken almost 28 years. The former British soldier left southern Chile in 1998 with a few hundred dollars and an ambition that sounded almost impossible: to reach his hometown of Hull without using transport to move forwards along his route. This October, after crossing continents and swimming the English Channel, he finally set foot on British soil.
 
@@ -35,7 +35,7 @@ On 5 October 2026, Bushby landed near Dover after swimming across the English Ch
 
 The journey has come at a personal cost. Bushby missed much of his son's childhood, important family occasions and the ordinary routines that shape most people's lives. At the same time, he says that the generosity of strangers has changed his view of humanity. People with very little often offered him food or somewhere to sleep. Soon the mission that has organised almost all his adult life will be complete. Reaching home will be an achievement. Discovering what comes next may be the bigger adjustment.
 
-=== Advanced ===
+=== C1-C2 ===
 
 title: Twenty-Eight Years on the Road: The Man Still Walking Home
 summary: After almost three decades on foot, Karl Bushby is finally close to home. But what does a man do when the journey that defined his life comes to an end?
@@ -44,24 +44,24 @@ When Karl Bushby emerged from the English Channel at Dover on 5 October, he had 
 
 The Goliath Expedition began on 1 November 1998 in Punta Arenas, southern Chile. Bushby, a former British paratrooper, intended to travel through the Americas, cross into Siberia and return to England across Eurasia. His rules were uncompromising: no mechanised transport to advance along the route and no return home until he had completed it under his own power. He envisaged a 12-year challenge. In practice, geographical hazards proved only one part of the ordeal.
 
-The route carried him through Patagonia, the Andes and the Darién Gap, the dangerous stretch of jungle between Colombia and Panama. In 2006, Bushby and fellow adventurer Dimitri Kieffer negotiated the shifting ice of the Bering Strait to reach Russia. Instead of celebrating a successful crossing, they ran afoul of immigration authorities and were detained. The incident foreshadowed years in which consular complications, restrictive borders and a shortage of funds would set progress back more effectively than bad weather ever could.
+The route carried him through Patagonia, the Andes and the Darién Gap, the dangerous stretch of jungle between Colombia and Panama. In 2006, Bushby and fellow adventurer Dimitri Kieffer negotiated the shifting ice of the Bering Strait to reach Russia. Instead of celebrating a successful crossing, they ran afoul of immigration authorities and were detained. The incident foreshadowed years in which consular complications, restrictive borders and a shortage of funds would set progress back more effectively than bad weather ever could. Walking, it turned out, was the straightforward part; persuading officials to let him carry on walking was not.
 
 The pandemic and subsequent geopolitical tensions compounded those difficulties. Having made his way across parts of Asia, Bushby confronted the formidable barrier of the Caspian Sea. In 2024 he crossed it by swimming, assisted by a support team, before continuing through Azerbaijan, Georgia and Turkey. Even the final approach to Britain demanded improvisation. Unable to secure permission for a pedestrian passage through the Channel Tunnel, he ended up swimming the Channel instead.
 
-There is a temptation to treat the expedition as a triumph of stubborn determination and leave it at that. Yet its human costs resist such a tidy conclusion. Bushby has been absent for much of his son's life and has sacrificed relationships, stability and countless ordinary family occasions. He has also discovered a generosity that complicates his earlier scepticism about human nature. Strangers in isolated places repeatedly provided shelter, food and assistance, often with little expectation of anything in return.
+There is a temptation to treat the expedition as a triumph of stubborn determination and leave it at that. Yet its human costs resist such a tidy conclusion. Bushby has been absent for much of his son's life and has sacrificed relationships, stability and countless ordinary family occasions. He has also discovered a generosity that complicates his earlier scepticism about human nature. Strangers in isolated places repeatedly provided shelter, food and assistance, often with little expectation of anything in return. Much of that hospitality came from people with very little to spare, which is precisely why it altered his view of human nature.
 
 The public celebration of extraordinary endurance can gloss over a more difficult question: what happens when the pursuit of a goal becomes a person's identity? Bushby has spent nearly all his adult life moving towards a destination that was always both literal and symbolic. Completing the final miles may require less physical stamina than the previous thousands, but the transition from expedition to everyday life offers no marked trail. For a man who has spent 28 years trying to get home, staying there could prove the most unfamiliar adventure.
 
 === Before you read ===
 
-- Have you ever travelled a long way on foot, by bike or by another slow method? What was it like?
-- What is the longest you have been away from home? How did you feel when you came back?
+- Have you ever travelled a long way on foot or by bike? What was it like?
+- What is the longest you have been away from home, and how did it feel?
 - Would you ever set yourself a goal that takes years to finish? What would it be?
 
 === Talk about it ===
 
 - Do you think the journey was worth the sacrifices Bushby made? Why or why not?
-- Bushby says strangers' kindness changed how he sees people. Has a stranger ever helped you in a way you remember?
+- What is the kindest thing a stranger has ever done for you?
 - Why do you think some people feel driven to attempt extreme challenges?
-- The journey gave Bushby a clear purpose for most of his adult life. What might happen when a goal like that is finally achieved?
+- What happens to a person when a goal that shaped their life is finally achieved?
 - Which do you think was harder for him, the physical dangers or the paperwork? Why?

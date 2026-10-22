@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/business/ng-interactive/2026/
 image: images/the-side-hustle-trap-can-you-really-make-money-while-you-sleep-c985cc.jpg
 image-plain: images/the-side-hustle-trap-can-you-really-make-money-while-you-sleep-plain-d963f3.jpg
 ---
-=== Core ===
+=== B1 ===
 
 title: Can You Really Make Money While You Sleep?
 summary: A laptop and a few spare hours sound like enough. The first customer may be much harder to find.
@@ -23,7 +23,7 @@ Affiliate marketing is another popular option. People earn a small payment when 
 
 None of this means side hustles are a bad idea. They can build confidence, teach business skills and sometimes turn into full-time work. Before starting, ask yourself: Who will buy what I'm selling? How much will it cost? What will I actually earn after expenses? Making money online is possible. Doing it without working hard is much less likely.
 
-=== Intermediate ===
+=== B2 ===
 
 title: The Side-Hustle Trap: What the Videos Leave Out
 
@@ -39,12 +39,12 @@ Perhaps the most awkward question concerns the influencers themselves. If a part
 
 It would be a mistake to dismiss side hustles altogether. They can provide flexibility, teach commercial skills and give people more control over their income. But a healthy dose of scepticism is useful when an opportunity promises big returns for little work. Before paying for software or a training course, calculate the likely costs, research your competitors and work out where your customers would come from. Financial independence may begin with a good idea, but it rarely begins with doing nothing.
 
-=== Advanced ===
+=== C1-C2 ===
 
 title: The Side-Hustle Sales Pitch and the Work Outside the Frame
 summary: Low barriers to entry make online business accessible, and make profitable attention difficult to win.
 
-The performance has become familiar: a creator prepares breakfast, checks a phone and casually announces that another substantial payment has arrived from a business requiring almost no attention. The payment notification is real enough; the hours outside the frame are harder to see. In an economy where secure employment does not guarantee comfort, the promise of effortless independence is irresistible. That makes the sales pitch worth examining rather than simply envying.
+The performance has become familiar: a creator prepares breakfast, checks a phone and casually announces that another substantial payment has arrived from a business requiring almost no attention. The payment notification is real enough; the hours outside the frame are harder to see. In an economy where secure employment does not guarantee comfort, the promise of effortless independence is irresistible. That makes the sales pitch worth picking apart rather than simply envying.
 
 The term side hustle covers an enormous range of activity, from private tutoring and weekend catering to online shops and affiliate marketing. There is nothing inherently dubious about earning money beyond one's main occupation. What deserves scrutiny is the way certain online ventures are presented as largely effortless sources of passive income. A product that can be sold repeatedly without being manufactured again may be inexpensive to distribute, but somebody still has to design it, market it, answer customer questions and persuade strangers to part with their money.
 
@@ -66,6 +66,6 @@ None of this undermines the value of entrepreneurship. Small ventures can create
 
 - Why are success stories more visible than ordinary or failed side hustles?
 - When does selling a business course become more profitable than the business itself?
-- Can a small income still make a side hustle worthwhile?
+- How common are second jobs and side hustles in your country?
 - Which costs do online business videos tend to leave out?
 - What evidence would make you trust someone's income claim?

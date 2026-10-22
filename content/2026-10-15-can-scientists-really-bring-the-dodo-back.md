@@ -6,7 +6,7 @@ source: Reuters | https://www.reuters.com/science/us-company-announces-progress-
 image: images/can-scientists-really-bring-the-dodo-back-df7b99.jpg
 image-plain: images/can-scientists-really-bring-the-dodo-back-plain-172bdb.jpg
 ---
-=== Core ===
+=== B1 ===
 
 summary: Scientists want to bring back the dodo, a bird that disappeared in the 1600s. Is that possible, and is it a good idea?
 
@@ -22,7 +22,7 @@ Some conservation experts think the research could lead to useful new ways of pr
 
 For now, the dodo remains extinct. Colossal's announcement is about progress in genetic research, not a successful return. But the project raises an interesting question. If humans helped cause an animal's disappearance, should we try to bring it back, or should we focus on preventing the next extinction? The answer could shape how conservation works for many years to come.
 
-=== Intermediate ===
+=== B2 ===
 
 The dodo has been extinct for more than three centuries, yet it may be one of the most recognisable birds in history. The large, flightless creature once lived on Mauritius, where hunting and animals introduced by humans helped to wipe it out. Now a biotechnology company in the United States is setting out to do something that sounds more like a science-fiction plot than a conservation project: producing a living bird with the distinctive features of the long-lost dodo.
 
@@ -36,17 +36,17 @@ Critics question the priorities. De-extinction projects attract publicity and in
 
 The dodo project is only beginning to take shape and remains an experiment with an uncertain outcome. Its value may eventually lie in techniques developed along the way rather than in producing a perfect copy of an extinct bird. Even so, the ambition forces us to confront an uncomfortable question about conservation. If we can spend enormous resources trying to reverse one historic loss, how much should we spend preventing the ordinary, less famous losses taking place around us today?
 
-=== Advanced ===
+=== C1-C2 ===
 
 summary: A start-up claims progress towards resurrecting the dodo, while independent scientists question what that would achieve. Is de-extinction science or spectacle?
 
 Few animals have acquired the dodo's symbolic importance. An ungainly, flightless bird that vanished from Mauritius in the seventeenth century, it has become shorthand for extinction itself. That makes it an irresistible candidate for a biotechnology company seeking to challenge the assumption that disappearance is necessarily permanent. In October 2026, the US-based Colossal Biosciences announced further progress towards engineering a bird with some of the dodo's defining characteristics. The ambition is striking. The scientific meaning of success is rather less straightforward.
 
-Colossal says it has reconstructed approximately 95% of the extinct bird's genome and developed an AI-assisted system to identify genetic changes associated with anatomical traits, particularly the unusual shape of its head and beak. Its proposed route involves introducing selected changes into a living relative, the Nicobar pigeon, and addressing the formidable reproductive challenges involved in producing genetically modified birds. These are genuine areas of technical research, but no recreated dodo has emerged, and the distance between identifying promising genetic targets and producing a viable animal remains considerable.
+Colossal says it has reconstructed approximately 95% of the extinct bird's genome and developed an AI-assisted system to identify genetic changes associated with anatomical traits, particularly the unusual shape of its head and beak. Its proposed route involves introducing selected changes into a living relative, the Nicobar pigeon, and addressing the formidable reproductive challenges involved in producing genetically modified birds. These are genuine areas of technical research, but no recreated dodo has emerged, and the distance between identifying promising genetic targets and producing a viable animal remains considerable. Nor is that a gap which funding and publicity alone will bridge.
 
 The deeper difficulty is conceptual. Scientists may be able to piece together a genetic approximation of the bird, but a species is not simply a list of instructions waiting to be reassembled. Genes interact with development, behaviour, environment and the experience of generations. A bird engineered to resemble the dodo might share some physical characteristics with its extinct ancestor without reproducing its full biology or ecological role. For this reason, a number of evolutionary biologists argue that 'de-extinction' is a misleading description. A proxy species, however remarkable, should not be confused with the recovery of an organism that has genuinely vanished.
 
-There is also a practical question about what such a bird would do once created. Mauritius has changed profoundly since the dodo's disappearance. Introduced predators, habitat destruction and other human influences helped drive the original species towards extinction. Releasing a dodo-like bird without grappling with those pressures would make little ecological sense. Colossal says it is collaborating with Mauritian partners on habitat preparation, a reminder that restoration depends as much on ordinary conservation work as on sophisticated genetics.
+There is also a practical question about what such a bird would do once created. Mauritius has changed profoundly since the dodo's disappearance. Introduced predators, habitat destruction and other human influences helped drive the original species towards extinction. Releasing a dodo-like bird without grappling with those pressures would make little ecological sense. Colossal says it is collaborating with Mauritian partners on habitat preparation, a reminder that restoration depends as much on ordinary conservation work as on sophisticated genetics. Habitat preparation is slow, unglamorous work, and it would have to succeed before any engineered bird could be released with any prospect of surviving.
 
 Advocates see wider benefits in the research. Methods developed for gene editing, reproduction and the preservation of genetic diversity might eventually help threatened species. Critics counter that spectacular resurrection projects attract disproportionate attention and resources while existing wildlife faces immediate and measurable dangers. Both arguments have merit, although the potential benefits of experimental biotechnology should not be mistaken for benefits already demonstrated in conservation programmes.
 
@@ -54,14 +54,14 @@ For now, the dodo belongs to history rather than to the forests of Mauritius. Th
 
 === Before you read ===
 
-- What do you know about the dodo, and why did it disappear?
-- Can humans repair some of the environmental damage they have caused?
-- Should science try to achieve things that once seemed impossible?
+- What do you know about animals that have disappeared from the Earth?
+- How much of the environmental damage we have caused can we actually repair?
+- How do you feel about scientists trying to do things that once seemed impossible?
 
 === Talk about it ===
 
-- Would a genetically modified bird that looked like a dodo really be a dodo?
+- Would a bird that only looked like a dodo really be a dodo? Why or why not?
 - Should research money go towards extinct animals or endangered living species?
 - What risks might arise if a recreated animal were released into the wild?
-- Could the techniques developed for de-extinction help ordinary conservation work?
-- Are spectacular scientific projects valuable even when they do not achieve their original goal?
+- How might the techniques developed for de-extinction help ordinary conservation work?
+- How valuable are spectacular scientific projects that never achieve their original goal?

@@ -6,7 +6,7 @@ source: UK Advertising Standards Authority | https://www.asa.org.uk/rulings/euro
 image: images/greenwashing-are-companies-selling-us-a-greener-story-4aca0c.jpg
 image-plain: images/greenwashing-are-companies-selling-us-a-greener-story-plain-17abcf.jpg
 ---
-=== Core ===
+=== B1 ===
 
 title: Can You Trust That Green Label?
 summary: A bottle looks good for the planet, but what does the label actually prove?
@@ -21,49 +21,49 @@ The European Union has also brought in stronger rules against unclear environmen
 
 For shoppers, the best question is often a simple one: what exactly has improved? If packaging says it is recycled, find out how much recycled material it contains. If a company says it has reduced pollution, ask what figures support the claim. Not every business using green advertising is dishonest, and small improvements are worth making. But a leaf on a label is not proof that a product is good for the planet. Real progress needs more than a nice picture.
 
-=== Intermediate ===
+=== B2 ===
 
 title: Greenwashing: When Eco-Friendly Claims Do Not Add Up
 
 A shopper reaches for the bottle with leaves on the label. A traveller chooses the flight described as climate-conscious. Neither person has time to investigate a company's entire environmental record; they respond to the story the advertisement tells. That is what makes greenwashing effective. The claim does not always need to be completely false. It only needs to create a greener impression than the evidence can support.
 
-Sometimes the trick is selective attention. A fashion brand promotes recycled packaging while saying little about the volume of clothes it produces. A retailer celebrates one sustainable collection while encouraging customers to buy more than they need. The positive detail may be genuine, but it can distract from a much larger environmental cost. What is left out of the frame matters as much as what is put in it.
+Sometimes the trick is selective attention. A fashion brand promotes recycled packaging while saying little about the volume of clothes it produces. A retailer celebrates one sustainable collection while encouraging customers to buy more than they need. The positive detail may be genuine, but it can distract from a much larger environmental cost. What is left out of the frame matters as much as what is put in it. A single green detail can carry a whole advertisement, even when the rest of the business has barely changed.
 
 Air travel offers a useful example. In July 2026, Britain's Advertising Standards Authority upheld complaints about environmental claims made by Eurowings and Qatar Airways. Their advertisements gave the impression that customers could pay towards projects that fully compensated for the emissions from flights. The regulator found that the companies had not provided enough evidence to support that impression. Environmental projects may do valuable work, but they do not automatically cancel out the impact of a particular journey.
 
 Regulators have become increasingly concerned about vague promises. New European Union consumer rules, which began applying in September 2026, restrict general environmental claims that companies cannot properly support. The legislation also addresses unreliable sustainability labels and certain claims of climate neutrality based on offsetting. The aim is to stop companies gaining an advantage simply by choosing attractive green language.
 
-However, understanding environmental impact is not always straightforward. A product may use less plastic but require more energy to make. A delivery company may reduce emissions on one route while expanding its overall business. Consumers cannot be expected to become experts in climate science every time they shop, which is why accurate information and independent checks matter.
+However, understanding environmental impact is not always straightforward. A product may use less plastic but require more energy to make. A delivery company may reduce emissions on one route while expanding its overall business. Consumers cannot be expected to become experts in climate science every time they shop, which is why accurate information and independent checks matter. Without them, the most confident advertiser tends to win out, rather than the most responsible one.
 
 There are practical ways to be more careful. Look for specific figures rather than broad promises, and check whether a claim has been independently verified. Ask whether the advertised improvement concerns the whole product or just one part of it. Companies deserve recognition for genuine progress, but they also need to acknowledge what has not improved. Buying something with a green label should not require an act of faith. If a business makes an environmental promise, it should be able to back it up.
 
-=== Advanced ===
+=== C1-C2 ===
 
 title: Selling Sustainability: How Greenwashing Wins Our Trust
 summary: Greenwashing succeeds in the gap between what an advertisement suggests and what a company can substantiate.
 
 The most persuasive environmental claim may be the one a consumer barely notices. A muted green label, a photograph of leaves and a reassuring phrase about sustainability can turn an ordinary purchase into something that feels almost ethical. Few shoppers can investigate the full history of every product, so they rely on signals. Greenwashing exploits that reliance: it offers the comfort of a responsible choice before the evidence has earned it. The visual language does part of the argument without ever becoming a claim that can easily be tested.
 
-Its most effective forms are rarely crude lies. A manufacturer may truthfully advertise recycled packaging while avoiding the resources consumed by the product itself. An airline may invite passengers to fund climate projects without explaining the uncertainty around their benefits. Each statement can contain a defensible fragment of truth while the overall impression remains flattering, selective and misleading. The distinction matters because a regulator may need to judge not only the literal wording but the conclusion an ordinary customer is likely to draw from it.
+Its most effective forms are rarely crude lies. A manufacturer may truthfully advertise recycled packaging while glossing over the resources consumed by the product itself. An airline may invite passengers to fund climate projects without explaining the uncertainty around their benefits. Each statement can contain a defensible fragment of truth while the overall impression remains flattering, selective and misleading. The distinction matters because a regulator may need to judge not only the literal wording but the conclusion an ordinary customer is likely to draw from it.
 
-In July 2026, Britain's Advertising Standards Authority upheld rulings against environmental advertisements from Eurowings and Qatar Airways. The regulator found that claims concerning carbon offsetting risked persuading customers that they could pay to compensate fully for the emissions associated with particular flights, without adequate evidence. Offsetting schemes may finance useful initiatives, but assessing their impact requires answering difficult questions about additionality, permanence and measurement. A promise to compensate for emissions is not equivalent to preventing the emissions in the first place.
+In July 2026, Britain's Advertising Standards Authority upheld rulings against environmental advertisements from Eurowings and Qatar Airways. The regulator found that claims concerning carbon offsetting risked persuading customers that they could pay to compensate fully for the emissions associated with particular flights, without adequate evidence. Offsetting schemes may finance useful initiatives, but assessing their impact requires answering difficult questions about additionality, permanence and measurement. A promise to compensate for emissions is not equivalent to preventing the emissions in the first place. That distinction rarely troubles a passenger at the point of booking, which is precisely where the claim does its work.
 
-Regulators are attempting to narrow the gap between marketing language and substantiated performance. Since September 2026, EU consumer rules have restricted vague environmental claims and unreliable sustainability labels, while addressing certain claims of climate neutrality based on offsetting. The shift places greater responsibility on businesses to explain their environmental credentials rather than relying on broad, emotionally appealing phrases. It also recognises that consumers rarely possess the information required to challenge complicated scientific assertions on their own.
+Regulators are attempting to narrow the gap between marketing language and substantiated performance. Since September 2026, EU consumer rules have restricted vague environmental claims and unreliable sustainability labels, while addressing certain claims of climate neutrality based on offsetting. The shift places greater responsibility on businesses to explain their environmental credentials rather than falling back on broad, emotionally appealing phrases. It also recognises that consumers rarely possess the information required to challenge complicated scientific assertions on their own. The burden of proof, in other words, has shifted towards the companies whose claims must now stand up to scrutiny.
 
-The challenge is that environmental performance involves trade-offs that resist simple labels. A reusable product may have a higher manufacturing footprint but a lower impact over time. Recycled materials may reduce pressure on natural resources without eliminating energy consumption or pollution. An advertising system that reduces such questions to a cheerful green symbol risks creating false confidence even when genuine improvements have occurred.
+The challenge is that environmental performance involves trade-offs that resist simple labels. A reusable product may have a higher manufacturing footprint but a lower impact over time. Recycled materials may reduce pressure on natural resources without eliminating energy consumption or pollution. An advertising system that reduces such questions to a cheerful green symbol risks creating false confidence even when genuine improvements have occurred. Simplification is not dishonest in itself; it becomes so when the complications are quietly set aside.
 
 There is a danger, too, that fear of regulatory action encourages companies to say nothing about worthwhile initiatives. The solution is not to ban environmental communication but to tighten it up. Claims should identify the specific benefit, the evidence supporting it and the limitations of the improvement. Consumers are entitled to know whether a company has substantially reduced harm or merely found a flattering way to describe a modest change. Sustainability cannot become credible while remaining principally a matter of choosing the right adjectives.
 
 === Before you read ===
 
 - What makes you trust an environmental claim on a product?
-- Have you ever paid more for something described as greener?
-- Is an advertisement misleading if its words are technically true but its overall message is not?
+- What would persuade you to pay more for a greener product?
+- How misleading is an advert whose words are true but whose overall message is not?
 
 === Talk about it ===
 
 - Which is more persuasive: a green design, a specific figure or an independent label?
-- Should companies be punished when a green claim creates a false impression?
+- How should companies be dealt with when a green claim creates a false impression?
 - Are carbon-offset claims useful, misleading or both?
 - How much responsibility should fall on shoppers rather than businesses and regulators?
 - Choose a familiar "green" claim. What evidence would you want before believing it?

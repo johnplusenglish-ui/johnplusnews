@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/fashion/2026/oct/13/people-se
 image: images/fast-fashion-the-clothes-nobody-wants-9fec72.jpg
 image-plain: images/fast-fashion-the-clothes-nobody-wants-plain-ecce18.jpg
 ---
-=== Core ===
+=== B1 ===
 
 title: Where Do Your Donated Clothes Really Go?
 summary: The bag leaves your wardrobe, but some of the clothes inside may never reach another customer.
@@ -21,7 +21,7 @@ There are ways to reduce waste. People can buy fewer clothes, choose items that 
 
 Affordable clothes are important, especially for families on limited budgets. The answer cannot simply be to tell everyone to buy expensive brands. Clothing companies also need to make better products and avoid creating more waste than necessary. Before buying something new, it may help to ask whether you will still want to wear it next year. A cheap T-shirt is not always a bargain if it is only worn once and then thrown away.
 
-=== Intermediate ===
+=== B2 ===
 
 title: The Charity-Shop Bag Nobody Wants
 
@@ -35,35 +35,35 @@ That creates an enormous environmental cost. Producing garments requires water, 
 
 Governments have begun to respond. Since July 2026, large companies in the EU have been prohibited from destroying most unsold clothes and shoes, with limited exceptions for goods that cannot safely be reused or sold. The rules encourage businesses to repair, donate or resell products instead. However, preventing destruction does not necessarily reduce the number of cheap garments being produced in the first place.
 
-Consumers can make a difference by buying less often, repairing clothes and choosing second-hand items, but it would be unfair to place all responsibility on shoppers. Affordable clothing matters, and not everyone can pay more for supposedly sustainable brands. Retailers must also consider durability and the volume of new products they introduce. The simplest question may be one we rarely ask while shopping: will this still be worth wearing after the excitement of buying it has disappeared?
+Consumers can make a difference by cutting back on new purchases, repairing clothes and choosing second-hand items, but it would be unfair to place all responsibility on shoppers. Affordable clothing matters, and not everyone can pay more for supposedly sustainable brands. Retailers must also consider durability and the volume of new products they put out. The simplest question may be one we rarely ask while shopping: will this still be worth wearing after the excitement of buying it has disappeared?
 
-=== Advanced ===
+=== C1-C2 ===
 
 title: Fast Fashion's Final Stop: The Charity Shop
 summary: Charities are inheriting the disposal costs of an industry built on constant replacement.
 
 The donation bag provides a reassuring ending to the story of an unwanted garment. The wardrobe is clearer, the clothes avoid the bin and a charity may earn money. In the sorting room, that neat narrative can collapse. British charity shops report being inundated with weak, damaged or commercially worthless clothing. The consumer has passed the garment on, but the social and environmental cost has not disappeared; it has simply arrived at somebody else's door.
 
-The pressure is visible at St Raphael's Hospice in south London, where reporting in October 2026 described as many as 100 bags arriving each day and only a minority of their contents being fit for sale. Disposal costs eat into charitable income. At the same time, resale platforms encourage people to sell desirable pieces themselves, leaving shops to inherit more of the garments with little value. The charity sector is absorbing part of the cost of fast fashion's constant replacement cycle.
+The pressure is visible at St Raphael's Hospice in south London, where reporting in October 2026 described as many as 100 bags arriving each day and only a minority of their contents being fit for sale. Disposal costs eat into charitable income. At the same time, resale platforms encourage people to sell desirable pieces themselves, leaving shops to inherit more of the garments with little value. The charity sector is absorbing part of the cost of fast fashion's constant replacement cycle. Charities, in effect, are picking up the bill for decisions taken long before the bag reached their door.
 
-Oxfam's 2026 State of Style report illustrates how consumption has become entwined with digital influence. Nearly two-thirds of people surveyed had purchased clothing they had not intended to buy after encountering it online, and 32% of items in British wardrobes were reportedly never worn. Among younger adults, algorithmic recommendations exerted an especially strong influence. Clothing is increasingly marketed not as a durable possession but as a quick response to a passing mood, event or online trend.
+Oxfam's 2026 State of Style report illustrates how consumption has become entwined with digital influence. Nearly two-thirds of people surveyed had purchased clothing they had not intended to buy after encountering it online, and 32% of items in British wardrobes were reportedly never worn. Among younger adults, algorithmic recommendations exerted an especially strong influence. Clothing is increasingly marketed not as a durable possession but as a quick response to a passing mood, event or online trend. Durability, on that model, is close to irrelevant.
 
-The environmental consequences extend well beyond household clutter. Textile production consumes substantial water, energy and raw materials, while synthetic fibres and complex fabric blends complicate recycling. A garment may move from retailer to wardrobe to donation bag within months, despite having required extensive resources to manufacture and transport. Resale and donation can prolong the useful life of clothing, but they cannot make excessive production environmentally harmless.
+The environmental consequences extend well beyond household clutter. Textile production consumes substantial water, energy and raw materials, while synthetic fibres and complex fabric blends complicate recycling. A garment may move from retailer to wardrobe to donation bag within months, despite having required extensive resources to manufacture and transport. Resale and donation can prolong the useful life of clothing, but they cannot make excessive production environmentally harmless. Every additional garment carries a cost that no amount of reselling can write off.
 
 European policymakers have begun to intervene. Since July 2026, large companies have faced a prohibition on destroying most unsold apparel and footwear, with defined exceptions. The measure is intended to encourage resale, repair and reuse rather than disposal of perfectly serviceable goods. It marks a shift towards holding businesses responsible for what happens after products fail to sell, although it does not directly challenge the relentless pace at which new collections are launched.
 
-There is a danger in presenting individual shoppers as the sole cause of the problem. Low-cost clothing serves a real need, particularly for households facing financial constraints, and buying fewer but more expensive garments is not a realistic prescription for everyone. Manufacturers determine durability, retailers shape purchasing behaviour and policymakers decide which costs businesses must bear. The central question is therefore not whether charity shops can find a better way to deal with discarded fashion, but whether the industry can succeed without producing so much clothing that almost nobody wants to keep.
+There is a danger in presenting individual shoppers as the sole cause of the problem. Low-cost clothing serves a real need, particularly for households facing financial constraints, and buying fewer but more expensive garments is not a realistic prescription for everyone. Shoppers can only choose from what the industry puts in front of them. Manufacturers determine durability, retailers shape purchasing behaviour and policymakers decide which costs businesses must bear. The central question is therefore not whether charity shops can find a better way to deal with discarded fashion, but whether the industry can succeed without producing so much clothing that almost nobody wants to keep.
 
 === Before you read ===
 
 - What do you imagine happens after you donate a bag of clothes?
-- How many clothes in your wardrobe have you never worn?
+- What makes you buy a piece of clothing you do not really need?
 - Who should pay when cheap clothing cannot be reused or recycled?
 
 === Talk about it ===
 
-- Does donating clothes solve the problem of buying too many?
-- Should fashion companies pay towards sorting and disposing of unwanted clothes?
+- How far does donating clothes solve the problem of buying too many?
+- Should fashion companies pay towards sorting and disposing of unwanted clothes? Why?
 - How do resale apps help charity shops, and how might they make the problem worse?
-- Is "buy fewer, better clothes" realistic for people on limited budgets?
+- How realistic is "buy fewer, better clothes" for people on a tight budget?
 - Which one change would reduce clothing waste most effectively?

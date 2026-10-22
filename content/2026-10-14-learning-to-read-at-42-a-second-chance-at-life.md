@@ -5,7 +5,7 @@ tags: Education, Society
 image: images/learning-to-read-at-42-a-second-chance-at-life-97b848.jpg
 image-plain: images/learning-to-read-at-42-a-second-chance-at-life-plain-15bbe3.jpg
 ---
-=== Core ===
+=== B1 ===
 
 title: The Man Who Learnt to Read at 42
 summary: Peter Lloyd could drive a lorry across Britain, but he could not read a food label. At 42, he finally asked for help.
@@ -20,7 +20,7 @@ Peter started meeting a volunteer coach called Alison twice a week. They worked 
 
 Today, Peter can read recipes and share books with his son. He also talks publicly about his experience to encourage other adults to seek help. Many people struggle with reading, even if they have jobs and families. Some are afraid that others will judge them. Peter's story shows why that fear can be so damaging. Learning to read has not changed his past, but it has opened up a very different future.
 
-=== Intermediate ===
+=== B2 ===
 
 For years, Peter Lloyd found ways to avoid reading in public. As a lorry driver, he could remember complicated routes and recognise road signs, but a letter arriving through the post could leave him feeling helpless. He had built a working life and raised a family while hiding a difficulty that many people assume only children face. Then, aged 42, he found himself unable to complete a simple supermarket shop.
 
@@ -34,7 +34,7 @@ Three years later, he reached the final page. What mattered was not only the ach
 
 Low literacy does not mean a lack of intelligence, yet shame can stop adults from seeking support for years. Peter's experience reveals how easily reading difficulties can remain hidden in a society built around written information. He hopes to earn an English GCSE and eventually help others. A trip to the supermarket exposed a problem he had spent decades concealing. It also gave him the reason to change his life.
 
-=== Advanced ===
+=== C1-C2 ===
 
 title: The Man Who Couldn't Read: Why It's Never Too Late to Start Again
 summary: For more than four decades, Peter Lloyd navigated a world of written instructions, road signs and official documents without being able to read. His remarkable journey towards literacy offers a powerful reminder of how easily adults can fall through the cracks of the education system.
@@ -47,20 +47,20 @@ The supermarket incident occurred during the Covid lockdowns and stripped away t
 
 Twice-weekly lessons began with fundamental reading skills. It was painstaking work, requiring him to confront difficulties he had spent decades avoiding, but small improvements gradually accumulated. He also set himself a concrete ambition: to finish the first Harry Potter novel. Choosing a book associated with childhood might have exposed him to ridicule. Instead, it gave the process a meaning beyond exercises and assessments. Three years later, he had read it from cover to cover.
 
-The achievement did not erase his earlier experiences, but it changed his relationship with everyday life. Recipes became accessible, books became a source of pleasure, and tasks that once required another person's help could increasingly be handled alone. Peter has since spoken publicly as an ambassador for Read Easy and hopes to obtain an English GCSE before pursuing work that supports others. His willingness to discuss a previously guarded struggle is significant in itself.
+The achievement did not erase his earlier experiences, but it changed his relationship with everyday life. Recipes became accessible, books became a source of pleasure, and tasks that once required another person's help could increasingly be handled alone. Peter has since spoken publicly as an ambassador for Read Easy and hopes to obtain an English GCSE before pursuing work that supports others. His willingness to discuss a previously guarded struggle is significant in itself, not least because so few people in his position are prepared to do so publicly.
 
-Adult literacy is frequently misunderstood. People may have limited reading skills for reasons involving disability, disrupted education or inadequate support, none of which is a reliable measure of intelligence. The greatest obstacle can become the expectation that an adult ought already to know how to read, an assumption that encourages silence. Peter's story challenges the idea that learning follows a fixed timetable. It also suggests that dignity in education may matter as much as the lessons themselves.
+Adult literacy is frequently misunderstood. People may have limited reading skills for reasons involving disability, disrupted education or inadequate support, none of which is a reliable measure of intelligence. The greatest obstacle can become the expectation that an adult ought already to know how to read, an assumption that encourages silence. Support exists, as Read Easy demonstrates, but it is of little use to anyone too ashamed to walk through the door, which is partly why Peter's candour carries such weight. Peter's story challenges the idea that learning follows a fixed timetable. It also suggests that dignity in education may matter as much as the lessons themselves.
 
 === Before you read ===
 
 - How did you learn to read? What do you remember about it?
-- Do you know anyone who finds reading or writing very difficult? How do they manage?
+- How much do you read in a normal day, and what sort of things?
 - What would be the hardest part of daily life if you could not read?
 
 === Talk about it ===
 
 - Why do you think Peter kept his difficulty secret for so long?
 - Peter's goal was to read one Harry Potter book. Why can a small, personal goal be so powerful?
-- Is it ever too late to learn something new? What would you like to learn?
-- Why do some adults feel ashamed to ask for help, and how can society make it easier?
+- What new skill would you like to learn as an adult, and why?
+- What could schools or workplaces do to make asking for help easier?
 - Who is responsible for making sure everyone can read: schools, families, the government, or the individual?

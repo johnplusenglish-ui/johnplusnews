@@ -446,7 +446,7 @@
     var out = {};
     try {
       var f = localStorage.getItem("jpn_font"); if (f && /^[a-z]+$/.test(f)) out.font = f;
-      var l = localStorage.getItem("jpn_level"); if (l && /^[a-z]+$/i.test(l)) out.level = l;
+      var l = localStorage.getItem("jpn_level"); if (l && /^[a-z][a-z0-9-]*$/i.test(l)) out.level = l;
     } catch (e) {}
     var t = read("jpn_timer"); if (t && t.minutes >= 1 && t.minutes <= 180) out.timer_minutes = Math.round(t.minutes);
     return out;
@@ -478,7 +478,7 @@
         try { localStorage.setItem("jpn_font", r.font); } catch (e) {}
         if (window.jpnFontSet) window.jpnFontSet(r.font);
       } else if (mine.font) prefs.font = mine.font;
-      if (r.level && /^[a-z]+$/i.test(r.level)) { prefs.level = r.level; try { localStorage.setItem("jpn_level", r.level); } catch (e) {} }
+      if (r.level && /^[a-z][a-z0-9-]*$/i.test(r.level)) { prefs.level = r.level; try { localStorage.setItem("jpn_level", r.level); } catch (e) {} }
       else if (mine.level) prefs.level = mine.level;
       if (r.timer_minutes >= 1 && r.timer_minutes <= 180) {
         prefs.timer_minutes = r.timer_minutes;
@@ -503,6 +503,8 @@
     if (titles) return Promise.resolve(titles);
     return fetch("/articles.json").then(function (r) { return r.json(); }).then(function (j) { titles = j; return j; }).catch(function () { titles = {}; return titles; });
   }
+  var LV_OLD = { core: "B1", intermediate: "B2", advanced: "C1-C2" };
+  function lvName(v) { if (!v || v === "single") return ""; var k = String(v).toLowerCase(); return LV_OLD[k] || v.toUpperCase(); }
   function titleOf(slug) {
     if (titles && titles[slug]) return titles[slug].title;
     return slug.replace(/-/g, " ").replace(/^./, function (c) { return c.toUpperCase(); });
@@ -623,7 +625,7 @@
             var li = el("li");
             var top = el("div", "wd-top");
             top.appendChild(el("span", "wd-w", r.text));
-            top.appendChild(el("span", "wd-lv", r.level === "single" ? "" : r.level));
+            top.appendChild(el("span", "wd-lv", lvName(r.level)));
             var x = el("button", "wd-x", "×"); x.type = "button"; x.setAttribute("aria-label", "Remove " + r.text);
             x.addEventListener("click", function () {
               api("DELETE", "/rest/v1/news_words?id=eq." + r.id, { prefer: "return=minimal" }).then(function () {
@@ -641,7 +643,7 @@
       search.addEventListener("input", function () { q = search.value.trim().toLowerCase(); draw(); });
       cp.addEventListener("click", function () { copy(shown().map(function (r) { return r.text; }).join("\n"), cp); });
       dl.addEventListener("click", function () {
-        download("my-words.csv", csv([["Word", "Sentence", "Article", "Level", "Saved"]].concat(shown().map(function (r) { return [r.text, r.sentence, titleOf(r.slug), r.level === "single" ? "" : r.level, fmtDate(r.created_at)]; }))));
+        download("my-words.csv", csv([["Word", "Sentence", "Article", "Level", "Saved"]].concat(shown().map(function (r) { return [r.text, r.sentence, titleOf(r.slug), lvName(r.level), fmtDate(r.created_at)]; }))));
       });
       draw();
     }).catch(function (er) { clear(root); root.appendChild(el("p", "acct-err", nice(er))); });
@@ -675,7 +677,7 @@
       var dl = el("button", "wd-btn", "Download all words (CSV)"); dl.type = "button";
       dl.addEventListener("click", function () {
         download("class-words.csv", csv([["Student", "Email", "Article", "Level", "Word", "Sentence", "Saved"]].concat(words.map(function (w) {
-          var p = byId[w.user_id]; return [nameOf(p), p.email, titleOf(w.slug), w.level === "single" ? "" : w.level, w.text, w.sentence, fmtDate(w.created_at)];
+          var p = byId[w.user_id]; return [nameOf(p), p.email, titleOf(w.slug), lvName(w.level), w.text, w.sentence, fmtDate(w.created_at)];
         }))));
       });
       tools.appendChild(dl);

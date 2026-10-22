@@ -11,7 +11,7 @@ image-licence-url: https://creativecommons.org/licenses/by-sa/4.0/
 image-credit-note: via Wikimedia Commons, resized and cropped
 image-plain: images/a-home-for-life-the-housing-crisis-shaking-spain-plain-1545b7.jpg
 ---
-=== Core ===
+=== B1 ===
 
 title: The Woman Who Lost Her Home After 70 Years
 summary: A woman in Madrid lost the flat where she had lived for more than 70 years. Her story has led to protests about housing across Spain.
@@ -22,15 +22,15 @@ The building had been bought by new owners, and a legal battle followed. Maricar
 
 Maricarmen died on 7 October, about two weeks later. She had already been in poor health, and her supporters said the situation had caused her serious stress. Although an agreement had been reached that might have allowed her to return, she never went back home. Her death led to demonstrations and renewed anger about Spain's housing crisis. Protesters said no one should have to face losing a lifelong home in old age.
 
-Across Spain, many people struggle with high rents and the price of buying a home. Madrid, Barcelona and other popular cities have become particularly expensive. Young adults may work full time but still be unable to afford their own place. Some share crowded flats or continue living with parents. Holiday rentals and property investment are also part of the debate because people worry that there are fewer homes available for residents.
+Across Spain, many people struggle with high rents and the price of buying a home. Madrid, Barcelona and other popular cities have become particularly expensive. Young adults may work full time but still be unable to afford their own place. Some share crowded flats, and others put off moving out of the family home. Holiday rentals and property investment are also part of the debate because people worry that there are fewer homes available for residents.
 
 There are different views about the best solution. Housing groups want stronger protection for tenants and more affordable homes. Property owners argue that they also have rights and that Spain needs to build more housing. Maricarmen's story has become a symbol because it shows what these arguments can mean for one person. Behind every discussion about rents and laws, there is someone who simply wants a secure place to live.
 
-=== Intermediate ===
+=== B2 ===
 
 For more than seven decades, Maricarmen Abascal lived in the same Madrid flat. She had watched neighbours come and go and the city around her change. By the time she was 87, her home held most of the memories of her adult life. Yet in September 2026, after a long legal dispute over her rental agreement, she was evicted. Her case became a powerful symbol of Spain's growing anger over housing costs and tenants' rights.
 
-Maricarmen lived in the Retiro area of Madrid under an older rental arrangement that gave her some protection from market prices. When ownership of the building changed, a legal struggle developed over whether she could remain. Housing campaigners and neighbours organised support, arguing that an elderly resident should not be forced from the only home she had known for so long. The owners pursued their legal claim, and the authorities eventually ordered an eviction.
+Maricarmen lived in the Retiro area of Madrid under an older rental arrangement that gave her some protection from market prices. When ownership of the building changed, a legal struggle developed over whether she could remain. Housing campaigners and neighbours organised support, arguing that an elderly resident should not be forced from the only home she had known for so long. The owners pressed ahead with their legal claim, and the authorities eventually ordered an eviction.
 
 On 23 September, police attended the building as protesters gathered outside. Maricarmen was removed on a stretcher and taken to hospital. She died on 7 October, having been seriously unwell. Her supporters linked the stress of the dispute to her suffering, although it would be wrong to claim that the eviction was medically established as the cause of her death. An agreement that might have allowed her to return had reportedly been reached, but she never made it home.
 
@@ -40,7 +40,7 @@ The argument over who is responsible quickly becomes political. Campaigners crit
 
 Maricarmen's death prompted further demonstrations, with supporters demanding changes in the law. Her story should not be reduced to a slogan: she was a person with a long life, a family and a home she wanted to keep. But the public response illustrates why housing debates have become so emotional. For those worried about losing their home, the issue is not an investment or an economic statistic. It is whether the place they belong can suddenly become somewhere they can no longer afford to stay.
 
-=== Advanced ===
+=== C1-C2 ===
 
 title: Priced Out: How One Woman's Eviction Exposed Spain's Housing Crisis
 summary: The death of an 87-year-old pensioner, just two weeks after being forced from her lifelong home, has become a rallying cry for a generation increasingly priced out of the housing market.
@@ -49,7 +49,7 @@ A home is usually discussed as a financial asset: a price, a rental contract, an
 
 After the property changed hands, Abascal became embroiled in a battle over an older tenancy agreement that allowed her to remain on relatively favourable terms. Campaigners viewed the effort to force her out as an example of the pressure placed on long-standing residents in an increasingly lucrative housing market. On 23 September, despite a gathering of supporters outside the building, the eviction proceeded. Photographs of the frail woman being carried away on a stretcher became a stark illustration of the human stakes of a legal process.
 
-Abascal died on 7 October. She had been in poor health, and campaigners said the prolonged conflict caused severe distress. The circumstances prompted widespread outrage, although attributing her death directly to the eviction would go beyond the available medical evidence. An agreement that could have enabled her return had reportedly been reached, but came too late for her to resume living in the flat. Her case galvanised protests in Madrid and elsewhere, turning a dispute over one tenancy into an argument about the direction of Spanish housing policy.
+Abascal died on 7 October. She had been in poor health, and campaigners said the prolonged conflict caused severe distress. The circumstances prompted widespread outrage, although attributing her death directly to the eviction would go beyond the available medical evidence. An agreement that could have enabled her return had reportedly been reached, but came too late for her to resume living in the flat. Her case galvanised protests in Madrid and elsewhere, turning a dispute over one tenancy into an argument about the direction of Spanish housing policy. Those who turned out in her name were not merely mourning a neighbour; they were demanding a change in the law, so that no one in old age could be stripped of a home occupied for a lifetime.
 
 The pressures are familiar in much of the country. In major cities and popular coastal destinations, demand for housing has risen amid limited supply, tourism and investor interest. Wage growth has not consistently matched the cost of renting or buying, leaving younger workers struggling to establish independent households. Holiday accommodation removes some properties from the longer-term rental market, although its impact varies by location. The cumulative result is a growing sense that employment no longer guarantees access to a secure home.
 
@@ -60,8 +60,8 @@ That is why Abascal's story struck a nerve. The law may establish who has the ri
 === Before you read ===
 
 - How easy is it for young people to rent or buy a home where you live?
-- What does your home mean to you? Why is it more than just a building?
-- Have you ever taken part in a protest, or known someone who has? What was it about?
+- What makes a place feel like home to you, rather than just somewhere you sleep?
+- What sort of issue would be important enough to make you join a protest?
 
 === Talk about it ===
 

@@ -6,7 +6,7 @@ source: LVR Office for Archaeological Monument Preservation | https://www.lvr.de
 image: images/the-man-who-found-934-roman-silver-coins-e8ff4d.jpg
 image-plain: images/the-man-who-found-934-roman-silver-coins-plain-bea145.jpg
 ---
-=== Core ===
+=== B1 ===
 
 summary: A man with a metal detector found 934 Roman silver coins in a field in Germany. Who hid them, and why?
 
@@ -22,7 +22,7 @@ Riedl's behaviour was also important. He was carrying out a permitted search and
 
 The collection went on display at the LVR State Museum in Bonn in September 2026. Visitors can now see money that somebody held, saved and eventually hid almost 1,900 years ago. The mystery of its owner may never be solved. But the story reminds us that history is not only about emperors, battles and famous buildings. Sometimes it is about an ordinary person who buried their savings and never came back.
 
-=== Intermediate ===
+=== B2 ===
 
 When Oliver Riedl's metal detector continued to signal in a field near Wesseling, south of Cologne, he began to suspect that he had found more than a few lost coins. Riedl, an amateur archaeologist carrying out an authorised search, uncovered several Roman silver pieces and contacted specialists. They went on to recover a hoard of 934 denarii, weighing 3.1 kilograms. The first coins were discovered in October 2025, while the remarkable find was announced publicly in September 2026.
 
@@ -32,15 +32,15 @@ Who would have owned such a fortune? That remains a mystery. The money might hav
 
 The amount was considerable. Experts have compared it with the earnings of a Roman soldier, suggesting that it represented several years of savings after expenses. Although coins are familiar objects, their value in the ancient world is difficult to compare directly with modern money. What makes this collection unusual is not simply its weight but the number of coins stored together and the long period of history they represent.
 
-Riedl's decision to inform the authorities mattered almost as much as the discovery itself. By investigating the area carefully, archaeologists could record the coins' position and examine traces of the original container. Such details provide clues about how and why the money was hidden. When historical objects are removed without proper records, much of their story can disappear, even if the objects themselves survive.
+Riedl's decision to inform the authorities mattered almost as much as the discovery itself. By investigating the area carefully, archaeologists could record the coins' position and examine traces of the original container. Such details provide clues about how and why the money was hidden. When historical objects are dug up without proper records, much of their story can disappear, even if the objects themselves survive.
 
 The coins have since been displayed at the LVR State Museum in Bonn, where visitors can inspect a fortune that lay hidden for nearly 1,900 years. The find gives historians another small piece of evidence about Roman life in what is now western Germany. It also leaves room for a more human question: what plans did the owner have for all that money? We may never know, but the fact that nobody returned to collect it is what makes the treasure so intriguing.
 
-=== Advanced ===
+=== C1-C2 ===
 
 summary: Germany's largest hoard of coins from Hadrian's reign was found by a detectorist who followed the rules. What does it reveal, and what remains a mystery?
 
-A metal detector that refuses to fall silent can be either a nuisance or the beginning of an extraordinary discovery. For Oliver Riedl, searching an agricultural field near Wesseling in western Germany, it proved to be the latter. Having dug up several Roman silver coins in October 2025, the amateur archaeologist alerted the regional authorities, whose subsequent investigation yielded 934 denarii weighing approximately 3.1 kilograms. The find was announced publicly in September 2026 and is considered Germany's largest known hoard associated with the reign of the emperor Hadrian.
+A metal detector that refuses to fall silent can be either a nuisance or the beginning of an extraordinary discovery. For Oliver Riedl, searching an agricultural field near Wesseling in western Germany, it proved to be the latter. Having unearthed several Roman silver coins in October 2025, the amateur archaeologist alerted the regional authorities, whose subsequent investigation yielded 934 denarii weighing approximately 3.1 kilograms. The find was announced publicly in September 2026 and is considered Germany's largest known hoard associated with the reign of the emperor Hadrian.
 
 The coins offer a compressed history of Roman power. The oldest specimen dates to 148 BC, when the republic still governed Rome, while the youngest was struck in AD 124 or 125, during Hadrian's reign. Most belong to the intervening imperial period. Archaeologists believe the collection was deliberately concealed in the second quarter of the second century AD, probably inside a vessel whose traces were examined during excavation. The hoard survived beneath ordinary farmland for almost nineteen centuries, outlasting the political system that gave the coins their value.
 
@@ -54,14 +54,14 @@ Now exhibited at the LVR State Museum in Bonn, the denarii are both public treas
 
 === Before you read ===
 
-- Have you ever found something old or valuable by accident?
+- What is the most interesting thing you have ever found by accident?
 - What would you do if you discovered buried treasure?
 - Why might somebody hide money underground?
 
 === Talk about it ===
 
-- Should people who discover ancient objects be allowed to keep them?
+- Should people who discover ancient objects be allowed to keep them? Why or why not?
 - Why is the exact location of an archaeological discovery important?
 - What might have prevented the original owner from collecting the coins?
 - How do historians use ordinary objects to understand everyday life?
-- Do you find unsolved historical mysteries more interesting than mysteries that have clear answers?
+- Are unsolved mysteries more interesting than ones with clear answers, and why?

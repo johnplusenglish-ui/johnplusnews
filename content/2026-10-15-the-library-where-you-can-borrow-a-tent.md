@@ -12,13 +12,13 @@ image-licence-url: https://creativecommons.org/licenses/by/2.0/
 image-credit-note: A library of things in Portsmouth, England, via Wikimedia Commons, cropped and resized
 image-plain: images/the-library-where-you-can-borrow-a-tent-plain-0ce6e5.jpg
 ---
-=== Core ===
+=== B1 ===
 
 summary: A tent, a camera or a pair of binoculars can turn curiosity into a first adventure.
 
 Between the books at a new library in Colorado, you can find a tent, binoculars and a camera for watching wildlife. You do not need to buy them. A library card is enough. The Anythink Nature Library opened in August 2026 with a simple idea: wanting to try camping, birdwatching or stargazing should not mean spending a large amount of money before you even know whether you will enjoy it.
 
-The library is in Thornton, near Denver. It has thousands of books and around 850 sets of equipment that visitors can borrow and bring back. Some contain tools for watching birds or studying insects. Others help people go hiking, look at stars or try camping. The idea is simple. If you want to learn about nature, you should not have to buy everything before getting started.
+The library is in Thornton, near Denver. It has thousands of books and around 850 sets of equipment that visitors can borrow and bring back. Some contain tools for watching birds or studying insects. Others help people go hiking, look at stars or try camping. The thinking behind this is straightforward: if you want to learn about nature, you should not have to buy everything before getting started.
 
 The building itself is part of the experience. It stands beside open land and has gardens, paths and places for children to explore. There are rocks to climb, areas where children can play in mud and plants that attract birds and insects. The library also uses solar panels and an energy-efficient heating and cooling system. Staff organise activities to help visitors pick up new skills.
 
@@ -28,7 +28,7 @@ The library's director, Mark Fink, believes that people do not need to travel fa
 
 The nature library is still a public library, so people can read, study and borrow ordinary books. What makes it different is the idea that learning can happen outside as well as inside a building. A tent, a camera or a pair of binoculars might encourage somebody to try something new. Perhaps the library's most useful gift is not the equipment itself, but the confidence to go outdoors and discover what is there.
 
-=== Intermediate ===
+=== B2 ===
 
 title: A Library Card for the Great Outdoors
 
@@ -44,7 +44,7 @@ There is a wider social argument behind the project. Outdoor activities can invo
 
 The project also asks us to think again about what a public library is for. Libraries have traditionally provided shared access to things individuals might not be able to afford, especially books and information. Lending outdoor equipment follows the same principle, only with a wider understanding of learning. A visitor might leave with a novel, a tent or a new interest in the natural world. The point is that curiosity should not depend on the size of someone's bank account.
 
-=== Advanced ===
+=== C1-C2 ===
 
 title: The Library Lending More Than Books
 summary: The project extends a library's oldest principle: opportunity should not depend on what an individual can afford.
@@ -65,12 +65,12 @@ At a time when public libraries are frequently required to justify their existen
 
 - What is the most surprising thing a library could lend?
 - Which outdoor activity would you try if the equipment were free?
-- Is access to a park enough to make nature equally available to everyone?
+- How far does having a park nearby make nature available to everyone?
 
 === Talk about it ===
 
-- Should libraries lend equipment as well as information?
+- Should libraries lend equipment as well as information? Why or why not?
 - Which barriers to outdoor activities are financial, and which are psychological?
-- Could a similar service work in your town or city?
+- How well would a similar service work in your town or city?
 - What other rarely used objects should communities share?
 - How should the library judge whether the project is successful?

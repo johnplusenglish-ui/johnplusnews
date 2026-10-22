@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/world/2026/sep/05/colonialism
 image: images/the-influencers-targeting-the-worlds-most-isolated-people-8fec4d.jpg
 image-plain: images/the-influencers-targeting-the-worlds-most-isolated-people-plain-23e4d7.jpg
 ---
-=== Core ===
+=== B1 ===
 
 title: The Island That Wants to Be Left Alone
 summary: Some people try to film communities that want to be left alone. Why can this be so dangerous?
@@ -21,7 +21,7 @@ Some social media creators want to make videos of places that other people canno
 
 Not every film about Indigenous people is harmful. Some communities choose to welcome visitors and work with filmmakers. In those cases, people can give permission and tell their own stories. North Sentinel Island is different because its inhabitants have refused contact. Technology makes it possible to travel further and film more than ever before, but it does not give people the right to go everywhere. Sometimes respecting others means accepting that they do not want to be seen.
 
-=== Intermediate ===
+=== B2 ===
 
 When American traveller Mykhailo Polyakov set off towards North Sentinel Island in March 2025, he took a small inflatable boat, a camera and several gifts, including a coconut and a can of Diet Coke. His aim was to reach one of the world's most isolated Indigenous communities and record his visit. He managed to land on the island, but did not meet any of its inhabitants. The trip ended with his arrest by Indian authorities.
 
@@ -35,18 +35,18 @@ There is an important difference between filming a community that has agreed to 
 
 Supporters of exploration sometimes argue that the public has an interest in learning about remote societies. Curiosity can certainly encourage understanding, but it does not automatically create a right to enter another community's territory. Polyakov's case highlights a difficult boundary in the age of social media. Cameras and boats can take people to places that once seemed unreachable. Respecting a community's wishes may require steering clear of the island and leaving the camera switched off.
 
-=== Advanced ===
+=== C1-C2 ===
 
 title: Colonialism for Clicks: The Influencers Pursuing Uncontacted Peoples
 summary: Content creators are chasing exclusive footage of the world's most isolated communities. For campaigners, the real issue is consent, and the risk is deadly disease.
 
 The objects in Mykhailo Polyakov's boat were almost absurdly ordinary: a camera, a coconut and a can of Diet Coke. The destination was anything but. In March 2025, the American traveller headed for North Sentinel Island, home to an Indigenous community that has consistently rejected outside contact. He landed, attempted to draw attention and departed without encountering residents. Indian authorities subsequently arrested him. The episode exposed the uneasy intersection of digital ambition, personal curiosity and the rights of people who have chosen to remain isolated.
 
-The Sentinelese inhabit a forested island in the Andaman archipelago, where legal restrictions are intended to prevent unauthorised visits. Those protections are not merely symbolic. Communities with little exposure to outside populations may be exceptionally vulnerable to infectious diseases, while past encounters with outsiders have demonstrated the potential for violence and exploitation. The fact that Polyakov apparently failed to meet anyone does not cancel out the risk created by his arrival.
+The Sentinelese inhabit a forested island in the Andaman archipelago, where legal restrictions are intended to prevent unauthorised visits. Those protections are not merely symbolic. Communities with little exposure to outside populations may be exceptionally vulnerable to infectious diseases, while past encounters with outsiders have demonstrated the potential for violence and exploitation. The fact that Polyakov apparently failed to meet anyone does not cancel out the risk created by his arrival; what matters is the contact that might have occurred, not merely the contact that did.
 
 His expedition reflects a broader problem in the attention economy. The more elusive a place or community appears, the greater its potential value as online content. Creators increasingly zero in on the most isolated communities for exactly that reason. Images presented as unprecedented can draw in enormous audiences, converting novelty into advertising income and a public profile. In that calculation, Indigenous people risk becoming scenery in somebody else's account of adventure. What might be described as exploration from the visitor's perspective can look very different to those whose boundaries have been ignored.
 
-Survival International estimates that 196 uncontacted groups remain worldwide, many in regions threatened by logging, mining or land encroachment. The label "uncontacted" should not be mistaken for ignorance or a lack of agency. Avoiding outsiders can be a deliberate response to historical experience, including disease, violence and dispossession. To present isolation as a mystery waiting to be solved is to deny communities the capacity to decide their own future.
+Survival International estimates that 196 uncontacted groups remain worldwide, many in regions threatened by logging, mining or land encroachment. The label "uncontacted" should not be mistaken for ignorance or a lack of agency. Avoiding outsiders can be a deliberate response to historical experience, including disease, violence and dispossession. To present isolation as a mystery waiting to be solved is to deny communities the capacity to decide their own future, and to treat their refusal as an obstacle rather than an answer.
 
 The distinction between consent and intrusion is essential. Indigenous groups that invite journalists or researchers can negotiate conditions, control access and decide how they are represented. Others choose to use digital media themselves to make political claims and document threats to their territory. Those partnerships differ fundamentally from an unsolicited approach to a population that has repeatedly rejected visitors. Public interest cannot be established merely by the fact that an image would attract attention.
 
@@ -61,7 +61,7 @@ The ethical challenge extends beyond one traveller. Satellite imagery, drones an
 === Talk about it ===
 
 - Why do you think some communities choose to stay isolated?
-- Is it ever acceptable to film isolated communities if they agree? Where would you draw the line?
-- Do views, sponsorship deals and fame make people take bigger risks online? Can you think of an example?
-- The article says curiosity has to be balanced with the right to be left alone. Do you agree?
+- Where would you draw the line between respectful filming and intrusion?
+- How far do views and sponsorship deals push people into taking bigger risks online?
+- How should curiosity be balanced against a community's right to be left alone?
 - What should governments do to protect isolated communities?

@@ -12,7 +12,7 @@ image-licence-url: https://creativecommons.org/licenses/by-sa/4.0/
 image-credit-note: Kipchoge at the Berlin Marathon, 2022, via Wikimedia Commons, cropped and resized
 image-plain: images/the-marathon-legend-who-refuses-to-get-old-plain-9f3e69.jpg
 ---
-=== Core ===
+=== B1 ===
 
 summary: Eliud Kipchoge is 41 and still winning. He won the Melbourne Marathon in a record time. What does his story teach us about age?
 
@@ -28,7 +28,7 @@ There was another side to the day. Some ordinary participants complained that wa
 
 Kipchoge's latest win does not mean that age has stopped affecting him. It does show that an athlete can remain competitive, and keep testing their limits, after the years when most people expect them to slow down. He has often spoken about the importance of discipline and enjoying the process of running. His Melbourne result offered a simple lesson: growing older may change what success looks like, but it need not mean giving up on ambitious goals.
 
-=== Intermediate ===
+=== B2 ===
 
 By the time most runners reach their forties, their fastest races are usually behind them. Eliud Kipchoge has never been particularly interested in following the usual timetable. On 11 October 2026, the Kenyan athlete won the Melbourne Marathon in 2:09:10, breaking the course record at the age of 41. He pulled away from his closest rivals during the final ten kilometres and crossed the finish line at the Melbourne Cricket Ground, once again turning a major race into a celebration of an extraordinary career.
 
@@ -42,7 +42,7 @@ Not everybody had such an enjoyable race. Other participants reported shortages 
 
 For Kipchoge, the Melbourne result is unlikely to silence every question about retirement. Nor should one race be treated as proof that athletes can simply ignore ageing. What it does challenge is the idea that sporting achievement has a fixed expiry date. His pace has changed, but his competitive instincts remain intact. For anyone whose own ambitions have been written off as unrealistic, that may be the most compelling part of his story.
 
-=== Advanced ===
+=== C1-C2 ===
 
 summary: Kipchoge's record run in Melbourne was overshadowed by reports of water shortages on the course. What does his longevity show, and what went wrong for other runners?
 
@@ -62,12 +62,12 @@ The question of when he ought to stop remains open. Kipchoge's Melbourne triumph
 
 - At what age do you think professional runners are usually at their best?
 - What matters more in sport: natural talent, discipline or experience?
-- Do people sometimes give up on goals because they think they are too old?
+- What makes some people give up on goals once they feel too old?
 
 === Talk about it ===
 
 - Why might a victory at 41 mean more to Kipchoge than some earlier wins?
 - How should athletes decide when it is time to retire?
-- What can amateur runners learn from elite athletes, and what advice might not suit them?
-- Should race organisers be held responsible when ordinary participants cannot access enough drinking water?
+- What can amateur runners usefully learn from elite athletes?
+- How responsible are race organisers when ordinary runners cannot get enough water?
 - Is success about beating other people, beating your previous record or simply continuing to improve?

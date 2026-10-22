@@ -6,14 +6,14 @@ source: Channel NewsAsia | https://www.channelnewsasia.com/asia/indonesia-bali-c
 image: images/balis-foreigners-problem-who-really-benefits-from-paradise-f11bfb.jpg
 image-plain: images/balis-foreigners-problem-who-really-benefits-from-paradise-plain-566ba3.jpg
 ---
-=== Core ===
+=== B1 ===
 
 title: Who Benefits from Bali's Tourism Boom?
 summary: Tourists and remote workers bring money, but they also change housing, business and everyday life.
 
 On a phone screen, Bali can look like a perfect office: a laptop beside a swimming pool, warm weather and the beach after work. Now imagine seeing the same picture from the other side. New villas and cafés can bring jobs, but they can also change neighbourhoods and make land more expensive. Bali's argument is not simply about whether foreign visitors are welcome. It is about who benefits when a home becomes a global lifestyle.
 
-Bali welcomed almost seven million international visitors in 2025, according to figures reported by Business Insider. Tourism supports hotels, restaurants, guides and thousands of other jobs. Many foreign visitors respect the island's customs and spend money with local businesses. Others, however, have been accused of breaking rules or behaving disrespectfully, especially in places that are important to Balinese religious life.
+Bali welcomed almost seven million international visitors in 2025, according to figures reported by Business Insider. Tourism supports hotels, restaurants, guides and thousands of other jobs. Many foreign visitors respect the island's customs and spend money with local businesses. Others, however, have been accused of breaking rules or behaving disrespectfully, especially at sacred sites that matter deeply in Balinese religious life.
 
 One issue is work. Some foreigners enter Indonesia on tourist visas and then carry out activities that require a different permit. In August 2026, Channel NewsAsia reported that Bali's immigration authorities were checking more closely whether foreign social-media creators were making money or promoting businesses without the right permission. Indonesian officials said 342 foreign nationals had been deported from Bali during the first six months of 2026 for various immigration and legal violations. The figure does not mean they were all influencers.
 
@@ -23,7 +23,7 @@ The situation is not as simple as locals against foreigners. Some international 
 
 Bali faces a difficult choice. Tourism brings in money and opportunities, but it can also change the places people love. The island is not just a beautiful background for holiday videos. It is home to communities with their own traditions, jobs and everyday problems. Visitors may be welcome, but being welcomed does not mean they can ignore the people who live there.
 
-=== Intermediate ===
+=== B2 ===
 
 title: Bali's Tourism Boom: Paradise for Whom?
 
@@ -31,7 +31,7 @@ On social media, Bali appears almost frictionless: private pools, laptop-friendl
 
 Bali's tourism industry remains a powerful source of employment and investment. Nearly seven million international visitors arrived in 2025, according to figures cited by Business Insider. Yet the popularity that supports local businesses can also put pressure on neighbourhoods. In areas where expensive villas and foreign-run services have multiplied, residents worry about rising land values and competition with people whose income is much higher than local wages. The result is a growing argument about who gains from Bali's success and who pays the price.
 
-The authorities are taking a tougher approach to foreigners who work without the right permits. In August 2026, Channel NewsAsia reported that immigration officers were paying closer attention to influencers and content creators. A tourist who accepts a hotel stay or meals in exchange for promotional posts may be carrying out commercial work, even if no cash changes hands. Indonesian officials reported 342 foreign nationals deported during the first half of 2026 for a range of immigration and legal offences. The number should not be mistaken for a count of influencers alone.
+The authorities are taking a tougher approach to foreigners who work without the right permits. In August 2026, Channel NewsAsia reported that immigration officers were paying closer attention to influencers and content creators. A tourist who accepts a hotel stay or meals in exchange for promotional posts may in effect be taking on commercial work, even if no cash changes hands. Indonesian officials reported 342 foreign nationals deported during the first half of 2026 for a range of immigration and legal offences. The number should not be mistaken for a count of influencers alone.
 
 The crackdown goes beyond social media. Bali has restricted new foreign investment applications in 18 business categories, including certain cafés and motorcycle-rental businesses. Officials say the aim is to protect opportunities for local entrepreneurs. Supporters argue that outsiders should not be able to use their spending power to take over businesses that local people have traditionally operated. Others warn that unclear or inconsistently enforced regulations could discourage legitimate investment that creates jobs.
 
@@ -39,7 +39,7 @@ There is also a cultural dimension. Bali's Hindu traditions are central to daily
 
 What Bali needs may be less a choice between welcoming foreigners and keeping them out than a clearer set of expectations. Visitors should understand the laws and traditions of the place they enter, while officials need rules that distinguish an ordinary travel video from paid commercial activity. The island's future cannot be judged solely by how attractive it looks on Instagram. A successful destination should also be a place where the people who live there can afford a home, run a business and feel respected.
 
-=== Advanced ===
+=== C1-C2 ===
 
 title: Bali Beyond the Hashtags: Who Shapes the Island's Future?
 summary: Bali's challenge is not foreigners versus locals, but whether international success leaves residents with control of their communities.
@@ -58,8 +58,8 @@ For Bali, the challenge is to move beyond the false choice between unrestricted 
 
 === Before you read ===
 
-- How can a place benefit from tourism and still protect local life?
-- Should remote workers follow different rules from ordinary tourists?
+- How has tourism changed a place you know well?
+- Should remote workers follow different rules from ordinary tourists, and why?
 - What does a visitor owe to the community they enter?
 
 === Talk about it ===

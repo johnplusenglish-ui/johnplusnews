@@ -6,58 +6,62 @@ source: Ahram Online | https://english.ahram.org.eg/NewsContent/9/40/578928/Anti
 image: images/a-strange-stone-outside-his-home-turned-out-to-be-3000-years-old-7a54d8.jpg
 image-plain: images/a-strange-stone-outside-his-home-turned-out-to-be-3000-years-old-plain-3e89e7.jpg
 ---
-=== Core ===
+=== B1 ===
 
-Imagine finding a strange stone in front of your house. You notice marks on it, but you do not know what they mean. Would you keep it, throw it away or call an expert? A man in northern Egypt made the third choice, and his discovery led archaeologists to something remarkable.
+Imagine finding a strange stone in front of your house. You notice marks on it, but you have no idea what they mean. Would you keep it, throw it away or call an expert? A man in northern Egypt made the third choice, and his decision led archaeologists to something remarkable.
 
-In October 2026, a resident of Bahbit al-Higara, a village in the Nile Delta, reported a stone with writing on it. Experts from Egypt's antiquities authorities examined the area. When they began digging, they found parts of two enormous statues and a block of pink granite with ancient writing.
+In October 2026, a resident of Bahbit al-Higara, a village in the Nile Delta, reported a stone with writing on it. Experts from Egypt's antiquities authorities came to take a closer look. When they began digging, they dug up parts of two enormous statues and a block of pink granite covered in ancient writing.
 
-The statues were connected to Ramesses II, one of Egypt's most famous pharaohs. He ruled more than 3,000 years ago and is remembered for building impressive temples and monuments. One statue head was about 1.6 metres tall. Experts believe its complete statue may once have stood around 8.5 metres high.
+The statues were connected to Ramesses II, one of Egypt's most famous pharaohs. He ruled more than 3,000 years ago and is remembered for building impressive temples and monuments. One statue head was about 1.6 metres tall. Experts believe the complete statue may once have stood around 8.5 metres high, which is taller than a two-storey house.
 
-The objects were found near the remains of a temple linked to Isis, an important goddess in ancient Egyptian religion. This makes the location interesting to archaeologists. The new finds may help them understand how people used the area thousands of years ago.
+The objects were found near the remains of a temple linked to Isis, an important goddess in ancient Egyptian religion. That makes the location especially interesting to archaeologists. A giant statue of a king standing close to a temple can show how religion and royal power were connected. The new finds may also help experts work out how people used the area thousands of years ago.
 
-Discoveries like this are not simply about beautiful old objects. A broken statue can tell historians about religion, power and the way people organised their cities. Even the position of an object in the ground can provide important information.
+Discoveries like this are not simply about beautiful old objects. A broken statue can tell historians about religion, power and the way people organised their cities. Even the exact position of an object in the ground can provide valuable information. If somebody digs a statue up and carries it away, that information is lost for good.
 
-The man who reported the stone could not have known what was waiting below the surface. His decision to contact the authorities helped protect the site for future study. Sometimes a small discovery opens the door to a much bigger piece of history.
+The man who reported the stone could not have known what was waiting beneath the surface. By getting in touch with the authorities, he helped protect the site for future study. Archaeologists still have plenty of work to do before they can explain where the statues once stood. Sometimes a small discovery opens the door to a much bigger piece of history.
 
-=== Intermediate ===
+=== B2 ===
 
-An ordinary piece of land in northern Egypt turned into an archaeological site after a resident noticed an unusual inscribed stone. Instead of trying to move or sell it, he contacted the authorities. The resulting excavation revealed fragments of two huge royal statues associated with Ramesses II, along with a granite block bearing hieroglyphs.
+An ordinary piece of land in northern Egypt turned into an archaeological site after a resident noticed an unusual inscribed stone. Instead of trying to move it or sell it on, he contacted the authorities. The resulting excavation brought to light fragments of two huge royal statues associated with Ramesses II, along with a granite block bearing hieroglyphs.
 
-The discovery was announced in October 2026 in Bahbit al-Higara, a village in the Nile Delta. The site is close to the remains of a temple connected with Isis, an important goddess in ancient Egyptian religion. Specialists from Egypt's Supreme Council of Antiquities carried out rescue excavations after inspecting the original stone.
+The discovery was announced in October 2026 in Bahbit al-Higara, a village in the Nile Delta. The site lies close to the remains of a temple connected with Isis, an important goddess in ancient Egyptian religion. Specialists from Egypt's Supreme Council of Antiquities carried out rescue excavations after inspecting the original stone, a careful process designed to record everything in place before anything is lifted out of the ground.
 
-One of the most striking finds was a statue head measuring roughly 1.6 metres high. Archaeologists estimate that the complete figure may originally have been approximately 8.5 metres tall. Such enormous monuments were not merely decorative. They helped communicate the authority of kings and the close relationship between royal power and religion.
+One of the most striking finds was a statue head measuring roughly 1.6 metres high. Archaeologists estimate that the complete figure may originally have been approximately 8.5 metres tall. A head alone of that size gives some idea of the effort that went into cutting, moving and raising the finished statue. Monuments on that scale were not merely decorative. Such figures were presumably meant to be seen from a distance, and they helped communicate the authority of kings and the close relationship between royal power and religion.
 
-Ramesses II ruled during the thirteenth century BC and is famous for the monumental buildings associated with his long reign. The newly discovered pieces are especially valuable because they were found in an archaeological context. Their location, the surrounding material and the inscriptions may help researchers understand how this part of the Nile Delta developed.
+Ramesses II ruled during the thirteenth century BC and is famous for the monumental buildings associated with his long reign. The newly discovered pieces are especially valuable because they turned up in an archaeological context. Their position, the material around them and the inscriptions may shed light on how this part of the Nile Delta developed, and on how a sacred landscape was laid out.
 
-Archaeology involves much more than discovering treasure. Removing an artefact without documenting where it lay can destroy evidence about its history. That is why the resident's decision to report the stone was so significant. The authorities could investigate the site systematically instead of receiving an isolated object with no clear background.
+Archaeology involves far more than digging up treasure. Removing an artefact without documenting where it lay tends to destroy evidence about its history, and that evidence cannot be recovered afterwards. An object that has been pulled out of the ground by chance may still be beautiful, but it is likely to tell researchers very little.
 
-There is still work to do before researchers can explain precisely where the statues stood and what purpose they served. Nevertheless, the find offers a reminder that the ancient world has not disappeared. Sometimes it is still hidden beneath the places where people live and work today.
+That is why the resident's decision to report the stone was so significant. The authorities were able to investigate the site systematically instead of being handed an isolated object with no clear background. The alternative is that finds slip quietly into private hands, taking their history with them.
 
-=== Advanced ===
+There is still work to do before researchers can explain precisely where the statues stood and what purpose they served. They will want to compare the fragments with other monuments from the same reign before they draw any firm conclusions. Nevertheless, the find offers a reminder that the ancient world has not disappeared. Sometimes it is still hidden beneath the places where people live and work today.
 
-Archaeology occasionally begins not with an organised expedition but with an ordinary person's decision to take an unusual object seriously. In October 2026, a resident of Bahbit al-Higara in Egypt's Nile Delta reported an inscribed stone discovered while working on land near his home. A subsequent investigation by antiquities officials uncovered fragments of two colossal royal statues associated with Ramesses II.
+=== C1-C2 ===
 
-The rescue excavation also revealed a block of pink granite inscribed with hieroglyphs. One of the statue heads, approximately 1.6 metres tall, is believed to have belonged to a monument originally standing around 8.5 metres high. The finds were made near a major ancient sanctuary associated with the goddess Isis, adding to the site's archaeological significance.
+Archaeology occasionally begins not with an organised expedition but with an ordinary person's decision to take an unusual object seriously. In October 2026, a resident of Bahbit al-Higara in Egypt's Nile Delta reported an inscribed stone he had come across while working on land near his home. A subsequent investigation by antiquities officials uncovered fragments of two colossal royal statues associated with Ramesses II, turning a patch of everyday ground into a site of national interest.
 
-Ramesses II, who ruled during the thirteenth century BC, invested heavily in monumental architecture. Colossal statues of the king helped express political and religious authority, projecting an image of royal permanence far beyond an individual lifetime. Their remains can reveal information about artistic conventions, construction methods and the symbolic geography of a sacred site.
+The rescue excavation, carried out by specialists from Egypt's Supreme Council of Antiquities, also brought to light a block of pink granite inscribed with hieroglyphs. One of the statue heads, approximately 1.6 metres tall, is believed to have belonged to a monument originally standing around 8.5 metres high. That the fragments emerged close to a major ancient sanctuary associated with the goddess Isis only adds to their significance, since the proximity of a royal monument to a temple is rarely accidental.
 
-Yet the most important evidence may be less visually dramatic than the surviving stone itself. Archaeologists examine the relationship between objects, buildings and layers of material in the ground. If a statue is removed without proper documentation, crucial information about its original setting can disappear. Reporting an unexpected find therefore contributes directly to the preservation of historical knowledge.
+Ramesses II, who ruled during the thirteenth century BC, invested heavily in monumental architecture. Colossal statues of the king helped express political and religious authority, projecting an image of royal permanence far beyond an individual lifetime. Scaled well above the human body, such figures were built to be looked up at, literally and otherwise. Their remains, even when badly broken, can reveal a good deal about artistic conventions, construction methods and the symbolic geography of a sacred site. Quite how masses of stone on this scale were quarried, moved and raised is a question that every new fragment helps to refine.
 
-There are still unanswered questions. The original arrangement of the statues and the role they played within the surrounding religious complex require further study. It would be premature to treat the discovery as a complete explanation of the site. Scientific interpretation develops through careful comparison, excavation and sometimes disagreement.
+Yet the most valuable evidence is often considerably less dramatic than the carved stone itself. Archaeologists read the relationships between objects, buildings and the layers of material that gather around them, and it is those relationships, rather than any single artefact, that carry the argument. Remove a statue without documenting precisely where it lay, and crucial information about its original setting disappears with it. What is left is an impressive object stripped of the context that would allow anyone to interpret it.
 
-The episode also challenges the image of archaeology as a pursuit reserved for distant specialists. Local communities occupy landscapes shaped by centuries of earlier human activity. Their observations can be indispensable, provided discoveries are documented and protected rather than treated as private treasures to be removed from context.
+Seen in that light, the decision to report an unfamiliar stone rather than quietly dispose of it is no minor courtesy but a substantive contribution to knowledge. Objects that surface by chance and then pass into private hands tend to reach scholars, if they reach them at all, with their histories erased.
+
+Plenty of questions remain open. The original arrangement of the statues, and the role they played within the surrounding religious complex, will require a good deal of further study. It would be premature to treat the discovery as a settled explanation of the site, since scientific interpretation develops through patient comparison, further excavation and, not infrequently, disagreement between specialists.
+
+The episode also challenges the image of archaeology as a pursuit reserved for distant experts. Local communities live on landscapes shaped by centuries of earlier human activity, and what they notice while digging a foundation or clearing a field can prove indispensable, provided that discoveries are documented and protected rather than carried off as private treasure. Heritage protection, on this reading, rests less on spectacular excavation than on the quiet habit of reporting whatever turns up.
 
 === Before you read ===
 
-- Have you ever found an old object and wondered where it came from?
+- What is the oldest object you have ever held or owned?
 - What would you do if you discovered something valuable in your garden?
-- Why should ancient objects be studied rather than sold privately?
+- How interested are you in history, and where does that interest come from?
 
 === Talk about it ===
 
 - Why was the man's decision to report the stone important?
-- How did statues help ancient rulers show their power?
+- How did huge statues help ancient rulers show their power?
 - What information can be lost when an object is removed from its original location?
-- Who should own archaeological discoveries made on private property?
-- Are there places near your home where important history might still be hidden?
+- Who should own archaeological discoveries made on private land, and why?
+- What history might still be hidden near where you live?

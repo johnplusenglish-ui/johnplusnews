@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/society/2026/oct/07/gene-ther
 image: images/can-scientists-give-blind-people-their-sight-back-df5f8e.jpg
 image-plain: images/can-scientists-give-blind-people-their-sight-back-plain-4dc2b5.jpg
 ---
-=== Core ===
+=== B1 ===
 
 summary: A new treatment uses gene therapy and special goggles to help some blind people see more. It is not a cure, but it is a step forward.
 
@@ -22,7 +22,7 @@ The trial mainly tested whether the treatment was safe. One serious eye-related 
 
 Even small improvements can matter in daily life. Finding an object independently or moving around a room with greater confidence may seem ordinary to someone with good vision, but it can be significant for somebody with severe sight loss. Scientists hope the approach will become more effective in the future. For now, it is an early medical step, not a cure for blindness, and the next challenge is to turn a promising experiment into help that more people can actually use.
 
-=== Intermediate ===
+=== B2 ===
 
 Imagine being able to detect a doorway after years of seeing almost nothing. That may sound like a modest achievement, but for somebody with severe sight loss it could make a practical difference. Researchers have reported encouraging results from an experimental treatment that combines gene therapy with electronic goggles. The study, published in the New England Journal of Medicine in October 2026, involved ten patients whose vision had been badly damaged by an inherited condition called retinitis pigmentosa.
 
@@ -36,11 +36,11 @@ Safety was the main purpose of the trial. Researchers recorded eye-related side 
 
 Nevertheless, the research represents a meaningful step forward. Rather than depending on the exact genetic cause of the disease, the method targets nerve cells that may survive several different forms of retinal damage. Further work will be needed to improve the images, test more patients and narrow down who might benefit most. For people who have lost their sight, the prospect of detecting an object or moving more confidently through a familiar room offers hope. The challenge is to turn those early gains into reliable improvements in everyday life.
 
-=== Advanced ===
+=== C1-C2 ===
 
 summary: A small trial of gene therapy and electronic goggles has given some blind patients partial sight. What does it show, and what does it leave unproven?
 
-The promise of restored vision invites sweeping headlines. The reality of medical progress is usually more incremental. In October 2026, researchers published the results of an experimental treatment that enabled some people with profound sight loss to detect more light and perform simple visual tasks. The achievement is substantial, but it does not amount to curing blindness. In a trial involving ten patients with advanced retinitis pigmentosa, scientists combined a form of gene therapy with electronic goggles to create a new, limited route for visual information to reach the brain.
+The promise of restored vision invites sweeping headlines. The reality of medical progress is usually more incremental. In October 2026, researchers set out the results of an experimental treatment that enabled some people with profound sight loss to detect more light and perform simple visual tasks. The achievement is substantial, but it does not amount to curing blindness. In a trial involving ten patients with advanced retinitis pigmentosa, scientists combined a form of gene therapy with electronic goggles to create a new, limited route for visual information to reach the brain.
 
 Retinitis pigmentosa gradually damages the retina's photoreceptors, the specialised cells that normally convert light into signals the nervous system can interpret. By the later stages, these cells may no longer function, making conventional restoration extremely difficult. Yet other retinal cells, including ganglion cells that transmit information towards the brain, can remain relatively intact. The experimental approach seeks to build on that distinction rather than reconstruct the eye's original machinery.
 
@@ -50,18 +50,18 @@ The results require careful interpretation. Seven of the ten participants experi
 
 Safety, rather than proof of clinical effectiveness, was the study's primary objective. Most recorded eye-related adverse events were mild or moderate; one serious complication occurred immediately after an injection and resolved rapidly with treatment. The trial was small, open-label and lacked a control group, so it cannot establish how widely or reliably the benefits might be reproduced. Independent researchers nevertheless welcomed the evidence that optogenetic stimulation can provide visual function over an extended period.
 
-Medicine advances not only through spectacular recoveries but through the steady accumulation of smaller capabilities. For someone with severe visual impairment, identifying a doorway or reaching towards an object can offer a measure of independence even when familiar faces remain invisible. The next challenge is to improve resolution, assess safety in larger studies and determine whether the laboratory results translate into sustained benefits outside controlled settings. The treatment cannot yet return the world to patients as they once saw it. What it may eventually offer is a new way of navigating that world.
+Medicine advances not only through spectacular recoveries but through the steady accumulation of smaller capabilities. For someone with severe visual impairment, identifying a doorway or reaching towards an object can offer a measure of independence even when familiar faces remain invisible. The next challenge is to improve resolution, assess safety in larger studies and determine whether gains achieved in the laboratory hold up outside controlled settings. The treatment cannot yet return the world to patients as they once saw it. What it may eventually offer is a new way of navigating that world.
 
 === Before you read ===
 
-- What daily tasks depend most on having good eyesight?
+- Which of your daily tasks would be hardest without good eyesight?
 - How can technology improve the lives of people with disabilities?
-- What would count as a successful medical treatment if a complete cure were impossible?
+- How do people in your country get access to brand new medical treatments?
 
 === Talk about it ===
 
-- Why is it important to distinguish partial sight improvement from restored normal vision?
-- Would being able to find a doorway or notebook make a meaningful difference to someone's independence?
+- How important is the difference between partial sight and normal vision?
+- How much difference could finding a doorway or an object make to someone's independence?
 - How should journalists report promising results from very small medical trials?
 - Who should pay for expensive experimental treatments if they eventually become available?
-- Can a medical treatment be considered successful even if it does not cure a condition?
+- When can a treatment be called a success, even if it does not cure anything?

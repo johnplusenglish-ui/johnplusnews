@@ -12,7 +12,7 @@ image-licence-url: https://www.jpl.nasa.gov/jpl-image-use-policy/
 image-credit-note: the film's cast and crew visit NASA's Jet Propulsion Laboratory, February 2026, resized
 image-plain: images/project-hail-mary-the-space-adventure-that-makes-science-exciting-plain-1798fb.jpg
 ---
-=== Core ===
+=== B1 ===
 
 summary: A film about a science teacher who must save the Sun has become a big hit. What makes it different from other space films?
 
@@ -28,9 +28,9 @@ The film was directed by Phil Lord and Christopher Miller, who are known for mix
 
 Perhaps its cleverest idea is making a science teacher the hero of a major space adventure. Grace does not always have the right answer, and he makes mistakes along the way. He succeeds by asking questions, testing ideas and accepting help from someone very different from himself. You do not need to understand advanced physics to enjoy Project Hail Mary. You only need to be curious about what might be possible.
 
-=== Intermediate ===
+=== B2 ===
 
-A man wakes up aboard a spacecraft, unable to remember his name or how he got there. His crewmates are dead, Earth is a very long way away and the future of humanity may depend on what he does next. It sounds like the beginning of a familiar Hollywood disaster film. But Project Hail Mary, released in March 2026, has an unusual hero. Ryland Grace, played by Ryan Gosling, is a science teacher whose most valuable equipment is not a weapon but his ability to think his way through problems. The film is adapted from Andy Weir's bestselling 2021 novel.
+A man comes round aboard a spacecraft, unable to remember his name or how he got there. His crewmates are dead, Earth is a very long way away and the future of humanity may depend on what he does next. It sounds like the beginning of a familiar Hollywood disaster film. But Project Hail Mary, released in March 2026, has an unusual hero. Ryland Grace, played by Ryan Gosling, is a science teacher whose most valuable equipment is not a weapon but his ability to think his way through problems. The film is adapted from Andy Weir's bestselling 2021 novel.
 
 Grace has been sent to investigate a mysterious threat to the Sun. In the story, tiny alien organisms are absorbing energy from stars, putting life on Earth at risk. His destination is a distant star system where researchers believe the answer may lie. Rather than relying on spectacular battles, much of the drama comes from small experiments, unexpected failures and improvised solutions. He is knowledgeable, but he is hardly the fearless astronaut usually found at the centre of a blockbuster.
 
@@ -42,7 +42,7 @@ Directors Phil Lord and Christopher Miller bring an energetic, comic style to th
 
 What makes Project Hail Mary distinctive is not that it gets every scientific detail right. It is the pleasure it takes in curiosity itself. Problems are investigated rather than simply overcome by force, and the most important breakthrough comes through an unlikely partnership. In an era when space adventures often concentrate on destruction, a blockbuster about asking better questions feels like a refreshing change.
 
-=== Advanced ===
+=== C1-C2 ===
 
 summary: Ryan Gosling's reluctant science teacher saves the world by testing ideas, not firing weapons. How much of the film's science is real, and does it matter?
 
@@ -60,14 +60,14 @@ For all its fictional physics, Project Hail Mary makes a serious argument about 
 
 === Before you read ===
 
-- Have you read a science-fiction novel or watched a film that made you think differently about science?
-- Would you agree to travel into space if the mission was very dangerous?
+- Which film or book has changed the way you think about science?
+- Would you travel into space on a dangerous mission, and why?
 - What makes a good hero: courage, intelligence or the ability to work with others?
 
 === Talk about it ===
 
 - Why is Ryland Grace an unusual hero for a Hollywood blockbuster?
-- Which scientific ideas in Project Hail Mary come from reality, and which are invented?
+- What makes an invented scientific idea feel believable in a story?
 - How does the relationship between Grace and Rocky change the story?
-- Do films need to be scientifically accurate to inspire an interest in science?
+- How far should a film bend the facts to tell a better story?
 - Would you rather read a detailed science-fiction novel or watch its film adaptation? Why?

@@ -6,7 +6,7 @@ source: Japan Ministry of Health, Labour and Welfare | https://www.mhlw.go.jp/st
 image: images/work-work-work-is-japan-rethinking-the-office-life-9afa89.jpg
 image-plain: images/work-work-work-is-japan-rethinking-the-office-life-plain-42436d.jpg
 ---
-=== Core ===
+=== B1 ===
 
 title: Finished Your Work, but Can You Go Home?
 summary: The work is done and the manager is still at the desk. Leaving can feel harder than it should.
@@ -23,11 +23,11 @@ Not every worker wants the same arrangement. In a labour ministry survey reporte
 
 The difficulty is finding a balance between what businesses need and what people can reasonably give. A shorter working day is not automatically a happier one, especially if employees must complete the same amount of work under more pressure. But long hours are not proof of commitment either. Japan's debate asks a question that matters in every country: should success at work be measured by the hours people spend at their desks, or by the quality of what they do?
 
-=== Intermediate ===
+=== B2 ===
 
 title: Why Some Japanese Workers Still Cannot Leave on Time
 
-The official working day is over, but nobody moves. One employee has finished every task and wants to catch the train home; the manager is still at the desk. Leaving first should be an ordinary decision, yet in some Japanese workplaces it can feel like a public statement about loyalty. That small moment helps explain why office reform is not only about legal limits. It is also about the pressure people read in the room.
+The official working day is over, but nobody moves. One employee has finished every task and wants to clock off in time for the train home; the manager is still at the desk. Leaving first should be an ordinary decision, yet in some Japanese workplaces it can feel like a public statement about loyalty. That small moment helps explain why office reform is not only about legal limits. It is also about the pressure people read in the room.
 
 The dangers are real enough to have produced a specific word: "karoshi", death caused by excessive work. Campaigning and high-profile cases have led to reforms intended to reduce overtime, encourage annual leave and recognise the damage caused by workplace stress. In October 2026, the labour ministry's latest white paper again examined compensation claims and prevention. Its continuing existence shows that written rules have not removed the problem.
 
@@ -39,7 +39,7 @@ Japan's changing social habits offer another clue. Traditional after-work drinki
 
 The challenge is that Japan cannot solve its labour shortage simply by telling people to work harder. Greater productivity, better technology and workplaces that attract people who might otherwise drop out of the labour market all have a role. Ultimately, the most meaningful change may be cultural: creating offices where leaving on time is normal rather than something an employee feels compelled to explain.
 
-=== Advanced ===
+=== C1-C2 ===
 
 title: Japan's Office Dilemma: When Loyalty Looks Like Overtime
 summary: A shrinking workforce is testing reforms designed to separate professional commitment from physical presence.
@@ -58,14 +58,14 @@ Japan's dilemma is not unique. Ageing societies must find ways to sustain public
 
 === Before you read ===
 
-- Would you feel comfortable leaving work before your manager?
-- Is working longer usually the same as working harder?
+- How would you feel about leaving work before your manager?
+- What is the difference between working longer and working harder?
 - When can "voluntary" overtime become pressure?
 
 === Talk about it ===
 
 - Should success be measured by hours, results or something else?
-- Can a worker freely choose overtime if promotion depends on appearing committed?
+- How free is a worker's choice about overtime if promotion depends on appearing committed?
 - How can Japan address labour shortages without encouraging overwork?
-- Would a four-day week improve working life if the workload stayed the same?
+- What would a four-day week change if the workload stayed the same?
 - Which workplace expectations in your country deserve to change?

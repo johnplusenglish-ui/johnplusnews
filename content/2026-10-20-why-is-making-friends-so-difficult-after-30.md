@@ -5,7 +5,7 @@ tags: Relationships, Society
 source: World Health Organization | https://www.who.int/groups/commission-on-social-connection
 image-plain: images/why-is-making-friends-so-difficult-after-30-plain-2cb5a4.jpg
 ---
-=== Core ===
+=== B1 ===
 
 When you are at school, making friends can feel natural. You see the same people every day, and there is usually time to talk. As an adult, things may be different. Work, family, moving house and busy schedules can make meeting people more difficult. Many people notice this change in their thirties. Friends get married, have children or move to other cities. A simple plan to meet for coffee suddenly requires several messages and two free weekends. Some friendships become less close, even when nobody has done anything wrong.
 
@@ -13,7 +13,7 @@ Loneliness is a much bigger issue than one age group. In 2025, the World Health 
 
 There is a difference between being alone and feeling lonely. Some people enjoy spending time by themselves. Loneliness happens when we want more or better social connection than we have. Someone can even feel lonely while living with other people.
 
-Making new friends usually takes repeated contact. Joining a class, walking with a group or volunteering can create chances to meet the same people again. But building trust takes time, and not every friendly conversation becomes a close relationship.
+Making new friends usually takes repeated contact. Joining a class, walking with a group or volunteering can create chances to meet the same people again. But building trust takes time, and not every friendly conversation turns into a close friendship.
 
 Modern technology can help people keep in touch when they live far apart. This is particularly useful when someone moves abroad or works unusual hours. Still, sending messages is not always the same as spending time together. A person may have hundreds of contacts and very few people they can call when something goes wrong. Good friendships usually need more than occasional likes on social media.
 
@@ -21,9 +21,9 @@ They involve listening, helping and finding time to meet when possible. Sometime
 
 Perhaps we should treat friendship as something worth planning for, not just something that happens by accident. Sending a message, suggesting a simple walk or accepting an invitation can be a small beginning. A strong social life does not always need a large number of friends. Sometimes one dependable person matters more than dozens of contacts online.
 
-=== Intermediate ===
+=== B2 ===
 
-At school or university, friendships often develop almost automatically. People spend time together every day, share experiences and gradually become close. In adult life, those opportunities are less predictable. A friendship that once involved spontaneous evenings out may now depend on finding a date that suits several crowded calendars. At school or university, friendship often begins almost by accident. You see the same people every day, share a timetable and have endless small chances to talk. The problem can become especially noticeable after 30, when careers, children, relationships and house moves reshape daily routines. Meeting new people requires effort, while maintaining existing friendships can feel like another responsibility. Yet the pressure is not unique to middle age.
+At school or university, friendships often develop almost automatically. People spend time together every day, share experiences and gradually become close. In adult life, those opportunities are less predictable. A friendship that once involved spontaneous evenings out may now depend on finding a date that suits several crowded calendars. Those early friendships often begin almost by accident: you see the same people every day, share a timetable and have endless small chances to talk. The problem can become especially noticeable after 30, when careers, children, relationships and house moves reshape daily routines. Meeting new people requires effort, while maintaining existing friendships can feel like another responsibility. Yet the pressure is not unique to middle age.
 
 The World Health Organization's 2025 report on social connection estimated that one in six people worldwide experienced loneliness. Its figures suggested that loneliness was particularly common among adolescents and younger adults, challenging the stereotype that loneliness mainly affects older people. Those global estimates cannot explain every individual's friendships, but they show the scale of the issue.
 
@@ -31,13 +31,13 @@ Loneliness and social isolation are different. Somebody might have only a few so
 
 Friendships tend to develop through repeated contact, shared interests and trust. Adult routines often provide fewer natural opportunities for those ingredients. Community groups, classes and volunteering can help, although joining an activity does not guarantee a close friendship. People also need time, accessible spaces and the confidence to suggest meeting again.
 
-Technology has changed the practical side of friendship. Voice messages and video calls allow relationships to survive international moves, irregular work schedules and long periods without meeting. Yet these tools do not automatically provide the emotional support people need. The number of contacts in an app tells us little about whether somebody has a person they can rely on during a difficult week.
+Technology has changed the practical side of friendship. Voice messages and video calls allow relationships to survive international moves, irregular work schedules and long periods without meeting. Yet these tools do not automatically provide the emotional support people need. The number of contacts in an app tells us little about whether somebody has anyone to fall back on during a difficult week.
 
-Relationships also change without necessarily ending badly. Two friends may become less close as their circumstances diverge, while new friendships can emerge through shared interests much later in life. Recognising this may reduce some of the pressure surrounding adult social networks. Not every friendship needs to remain equally intense forever, but meaningful connection usually requires attention, reciprocity and opportunities to spend time together.
+Relationships also change without necessarily ending badly. Two friends may drift apart as their circumstances diverge, while new friendships can spring up through shared interests much later in life. Recognising this may reduce some of the pressure surrounding adult social networks. Not every friendship needs to remain equally intense forever, but meaningful connection usually requires attention, reciprocity and opportunities to spend time together.
 
 Perhaps we should stop treating adult friendship as an optional extra. Relationships require attention in much the same way that careers and physical health do. A brief message or regular coffee can help maintain a bond, but creating communities where people have time to connect may be just as important.
 
-=== Advanced ===
+=== C1-C2 ===
 
 Adult friendship has a logistical problem. Two people can care deeply about each other and still struggle to find an evening when neither is working, caring for relatives or travelling across a city. The difficulty is often described as a personal failure, yet the routines of modern life make sustained connection remarkably demanding. Friendship rarely appears out of nowhere. In education, repeated contact, shared experiences and available time quietly do much of the work that adults later have to arrange deliberately. The challenge may become visible in one's thirties, when professional commitments, parenting and geographical mobility reshape social networks. Unlike school or university, adult life rarely guarantees repeated contact with potential friends in relaxed circumstances. Relationships must be maintained deliberately, and every cancelled plan can make the next invitation feel slightly more awkward.
 
@@ -49,20 +49,20 @@ Advice about joining clubs or arranging regular meetings can be helpful, but it 
 
 Digital communication complicates the distinction between connection and companionship. Technology makes it easier to maintain relationships across borders and demanding schedules, yet frequent contact is not identical to emotional support. A person may exchange daily messages with dozens of acquaintances while lacking somebody to turn to during a crisis. Conversely, infrequent but reliable contact with a longstanding friend can remain deeply meaningful.
 
-Friendships also evolve as people's circumstances change, and a reduction in contact does not always indicate rejection or failure. The challenge is to create opportunities for reciprocal relationships rather than simply accumulating interactions. Public institutions, employers and community organisations may all influence whether adults can find the time and space to build that kind of connection.
+Friendships also evolve as people's circumstances change, and contact that tails off does not always indicate rejection or failure. The challenge is to create opportunities for reciprocal relationships rather than simply accumulating interactions. Public institutions, employers and community organisations may all influence whether adults can find the time and space to build that kind of connection.
 
 Perhaps friendship deserves to be understood as essential social infrastructure rather than something squeezed into the gaps around paid work and family duties. The goal is not endless networking or an impressive number of contacts. It is the slower, less glamorous task of building relationships in which people feel known and supported.
 
 === Before you read ===
 
 - Where did you meet your closest friends?
-- Has your social life changed as you have got older?
+- What is different about your social life now compared with ten years ago?
 - What makes a friendship last?
 
 === Talk about it ===
 
 - Why do friendships sometimes weaken without an argument?
-- Is making friends easier online or in person?
+- Is it easier to make friends online or in person, and why?
 - Should employers consider social wellbeing when setting working hours?
-- What public places help people meet repeatedly?
+- Which places in your town make it easy to meet new people?
 - What is one practical way to maintain an old friendship?

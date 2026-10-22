@@ -5,7 +5,7 @@ tags: Health, Lifestyle
 source: Journal of Neuroscience | https://pubmed.ncbi.nlm.nih.gov/40345833/
 image-plain: images/why-are-we-so-tired-when-we-havent-done-much-plain-d1d184.jpg
 ---
-=== Core ===
+=== B1 ===
 
 You have spent the day at home answering emails, paying bills and sorting things out. You have hardly walked anywhere. Yet by the evening, even choosing a film seems difficult. Why are you so tired? Mental work uses energy too. We need to concentrate, remember information and make decisions. When we do these things for a long time, our minds can start to feel exhausted. This feeling is often called mental or cognitive fatigue.
 
@@ -15,13 +15,13 @@ The research suggests that mental fatigue can affect what we feel ready to do ne
 
 Stress, poor sleep, illness and many other things can also cause tiredness. Feeling exhausted for weeks without a clear reason should not automatically be blamed on too many decisions. It may be important to speak to a healthcare professional.
 
-Mental tiredness can also make ordinary choices feel surprisingly important. Imagine arriving home hungry after a busy day. You have several meals you could cook, but choosing one seems difficult. You may order food or eat the easiest thing available. This does not mean your brain cannot make decisions. It may mean you do not feel ready for another demanding task.
+Mental tiredness can also make ordinary choices feel surprisingly important. Imagine arriving home hungry after a busy day. You have several meals you could cook, but choosing one seems difficult. You may end up ordering food or eating the easiest thing available. This does not mean your brain cannot make decisions. It may mean you do not feel ready for another demanding task.
 
-People sometimes find that planning meals in advance or sharing household jobs makes evenings easier. However, turning every part of life into a strict schedule can also create pressure. Rest can include enjoyable activities that do not ask too much of us. And if feeling tired becomes a regular problem, it is sensible to look beyond a busy day for possible causes.
+People sometimes find that planning meals in advance or sharing out household jobs makes evenings easier. However, turning every part of life into a strict schedule can also create pressure. Rest can include enjoyable activities that do not ask too much of us. And if feeling tired becomes a regular problem, it is sensible to look beyond a busy day for possible causes.
 
 Short breaks, reasonable workloads and time away from demanding tasks may help some people. But there is no magic solution for everybody. What the research reminds us is simple: a busy mind can feel tired even when the body has spent most of the day sitting down.
 
-=== Intermediate ===
+=== B2 ===
 
 At the end of a day filled with emails, meetings and small decisions, you may feel too exhausted to do anything enjoyable. Yet when somebody asks what you have been doing, it can seem difficult to explain. There was no heavy lifting or long journey, just hours of thinking. Why does mental work leave us feeling drained? After a day of difficult conversations, paperwork and small decisions, someone may feel worn out despite barely moving. It does not mean their tiredness is imaginary or that exercise is pointless. Researchers describe this experience as cognitive fatigue. In a 2025 Journal of Neuroscience study, 28 participants performed demanding tasks before making decisions about further mental effort and possible rewards. After becoming fatigued, they were less willing to choose more demanding options, even when those options could bring greater benefits.
 
@@ -37,7 +37,7 @@ Rather, fatigue may change how costly an additional task feels compared with its
 
 Still, the findings challenge the idea that only physical activity can justify feeling tired. Mental demands are real demands. Recognising them may help people build breaks into their schedules, share responsibilities and take recovery seriously rather than dismissing exhaustion simply because they have been sitting down.
 
-=== Advanced ===
+=== C1-C2 ===
 
 Modern exhaustion is often difficult to account for in physical terms. A person may spend the day seated, moving little more than their fingers across a keyboard, and still find the smallest evening decision intolerably demanding. Such experiences challenge the assumption that fatigue is proportional to visible physical activity. Cognitive effort has no obvious physical scoreboard. A difficult meeting can leave somebody feeling flattened, even though their step counter suggests they have barely left the chair. A 2025 study in the Journal of Neuroscience explored how cognitive exertion shapes subsequent choices. Researchers used functional brain imaging while 28 participants completed demanding mental tasks and chose between options involving different levels of effort and reward. Following the fatiguing tasks, participants became less willing to pursue options requiring greater cognitive effort. The findings suggest that fatigue alters how future mental demands are evaluated.
 
@@ -47,7 +47,7 @@ Nevertheless, the experiment connects with experiences of contemporary work. Peo
 
 It would be a mistake, however, to attribute persistent exhaustion automatically to cognitive fatigue. Sleep deprivation, medication, illness and mental health difficulties can cause similar symptoms. When tiredness is severe, unexplained or prolonged, clinical assessment may be appropriate rather than simply experimenting with productivity techniques. Instead of treating every exhausted person as insufficiently disciplined, we might ask what demands they have been carrying and whether the pace of their lives is sustainable.
 
-There are implications beyond individual wellbeing. Employers and institutions frequently evaluate effort according to visible hours, completed tasks or physical demands. Cognitive work is harder to observe, and emotionally difficult interactions can be dismissed as routine if they leave no tangible product. Recognising mental fatigue may therefore require organisations to reconsider scheduling, break policies and the expectation that attention can be sustained indefinitely.
+There are implications beyond individual wellbeing. Employers and institutions frequently evaluate effort according to visible hours, completed tasks or physical demands. Cognitive work is harder to observe, and emotionally difficult interactions can be brushed aside as routine if they leave no tangible product. Recognising mental fatigue may therefore require organisations to reconsider scheduling, break policies and the expectation that attention can be sustained indefinitely.
 
 At the same time, fatigue should not be used as an all-purpose explanation for persistent symptoms. Its causes are diverse, and the existence of a plausible cognitive mechanism does not rule out illness, medication effects or sleep disorders. A nuanced understanding allows us to take mental demands seriously without converting a single laboratory finding into a universal diagnosis.
 
@@ -55,14 +55,14 @@ The wider lesson concerns how we value effort. A day without visible physical ac
 
 === Before you read ===
 
-- Do you feel more tired after physical or mental work?
-- Can worrying make a person exhausted?
+- Do you feel more tired after physical work or mental work, and why?
+- What kind of day leaves you feeling most tired?
 - What helps you recover after a difficult day?
 
 === Talk about it ===
 
 - Why is mental effort harder to see than physical effort?
-- Does modern life involve too many small decisions?
-- Can a job be exhausting even when it is not stressful?
+- Some people say we make too many small decisions every day. Do you agree?
+- What makes a job tiring, apart from long hours?
 - What would make your working day less mentally demanding?
-- When should persistent tiredness be investigated medically?
+- How do people know when tiredness is more than just a busy week?

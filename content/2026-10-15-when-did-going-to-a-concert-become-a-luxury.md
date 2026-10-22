@@ -6,7 +6,7 @@ source: The Arizona State Press and LBC | https://www.statepress.com/article/202
 image: images/when-did-going-to-a-concert-become-a-luxury-4371ea.jpg
 image-plain: images/when-did-going-to-a-concert-become-a-luxury-plain-2d54b7.jpg
 ---
-=== Core ===
+=== B1 ===
 
 title: Why Are Concert Tickets So Expensive?
 summary: Concert tickets cost much more than they used to. Why are prices so high, and who can afford to go?
@@ -17,11 +17,11 @@ Big concerts are expensive to organise. Artists need to pay musicians, technicia
 
 The way tickets are sold can make the problem worse. Some concerts have several price levels. When cheaper tickets sell out, only more expensive ones remain. This caused anger during the sale for Oasis's reunion concerts. Fans waited in long online queues without realising that standing tickets were being sold at different fixed prices. The UK's competition authority later made Ticketmaster agree to explain prices more clearly.
 
-There are other problems for fans. Resale websites sometimes show tickets at much higher prices than the original cost. Extra fees can also increase the total. People feel pressure to pay because their favourite artist may not return for years. Social media adds to the feeling that everyone else is going to the event. Missing out can be difficult, even when paying would damage someone's budget.
+There are other problems for fans. Resale websites sometimes show tickets at much higher prices than the original cost. Extra fees can also increase the total, so fans often pay much more than the price they first saw. People feel pressure to pay because their favourite artist may not come back for years. Social media adds to the feeling that everyone else is going to the event. Missing out can be difficult, even when paying would damage someone's budget.
 
-Some people argue that artists should charge whatever fans are willing to pay. Others believe that live music should not become a luxury only wealthy people can afford. Smaller local concerts can still offer great experiences for less money, but seeing a famous artist in a stadium is different. The question is whether rising prices will change who can take part in those shared moments. Music brings people together, but expensive tickets can keep many fans outside the gates.
+Some people argue that artists should charge whatever fans are willing to pay. Others believe that live music should not become a luxury only wealthy people can afford. Smaller local concerts can still offer great experiences and better value for money, but seeing a famous artist in a stadium is different. The question is whether rising prices will change who can take part in those shared moments. Music brings people together, but expensive tickets can keep many fans outside the gates.
 
-=== Intermediate ===
+=== B2 ===
 
 The excitement of seeing a favourite artist can disappear surprisingly quickly when ticket sales begin. Fans wait in online queues, watch prices appear and make rushed decisions about forking out hundreds of pounds on a single evening. For younger people in particular, live music is starting to feel less like an affordable night out and more like an expensive treat they must save up for.
 
@@ -35,26 +35,26 @@ Resale websites create additional frustration. Tickets that originally cost a re
 
 Some musicians and promoters have tried to keep prices down, while critics say the industry should be clearer about fees and ticket availability. Others argue that artists have a right to earn as much as the market allows. Meanwhile, small independent venues often struggle despite offering much cheaper live music. Nobody expects a major concert to be free, but there is a difference between paying fairly for an experience and being priced out of it altogether. The more exclusive live music becomes, the less it resembles the shared experience that made it popular in the first place.
 
-=== Advanced ===
+=== C1-C2 ===
 
 title: When Did Live Music Become a Luxury?
 summary: Tickets to see the biggest artists now cost hundreds of pounds. Why have prices climbed so far, and who is being priced out?
 
-For a generation raised on almost limitless access to recorded music, the experience of seeing an artist in person has become increasingly difficult to afford. The ritual is familiar: join an online queue, wait for the available tickets to appear and decide, with little time to think, whether an evening's entertainment is worth a sizeable portion of your monthly income. Stadium tours still sell out, but their success conceals a growing unease about who can participate in live music.
+For a generation raised on almost limitless access to recorded music, the experience of seeing an artist in person has become increasingly difficult to afford. The ritual is familiar: join an online queue, wait for the available tickets to appear and decide, with little time to think, whether an evening's entertainment is worth a sizeable portion of your monthly income. Stadium tours are still snapped up, but their success conceals a growing unease about who can participate in live music.
 
-The economics are undeniably complicated. Ambitious concerts employ large production teams and involve transport, insurance, security, equipment and venue costs that have risen in recent years. Artists also operate in an industry transformed by streaming, where global exposure does not necessarily translate into the revenue once associated with successful physical releases. Ticket income consequently carries substantial financial importance, although the balance between artist earnings and the costs of touring differs widely across the industry.
+The economics are undeniably complicated. Ambitious concerts employ large production teams and involve transport, insurance, security, equipment and venue costs that have risen in recent years. Artists also operate in an industry transformed by streaming, where global exposure does not necessarily translate into the revenue once associated with successful physical releases. Ticket income consequently carries substantial financial importance, although the balance between artist earnings and the costs of touring differs widely across the industry. Those costs do not disappear quietly; sooner or later, in one line of the price breakdown or another, they are passed on to the person standing in the queue.
 
 The controversy surrounding Oasis's reunion ticket sales illustrates how consumer trust can unravel. Fans who had expected one price for standing admission found that cheaper tickets had sold out, leaving more expensive tickets available under a tiered pricing system. An investigation by Britain's Competition and Markets Authority concluded that Ticketmaster had not communicated key information adequately. It secured undertakings requiring clearer advance warnings about ticket tiers, better price information in queues and more accurate descriptions of ticket benefits.
 
-Crucially, the authority did not establish that Oasis tickets were subject to real-time algorithmic price fluctuations. That distinction matters because the phrase "dynamic pricing" has become a catch-all explanation for almost any disappointing ticket sale. The underlying concern, however, remains the same: customers should understand what they are buying and how much it may cost before investing hours in the process.
+Crucially, the authority did not establish that Oasis tickets were subject to real-time algorithmic price fluctuations. That distinction matters because the phrase "dynamic pricing" has become a catch-all explanation for almost any disappointing ticket sale. The underlying concern, however, remains the same: customers should understand what they are buying and how much it may cost before investing hours in the process. Transparency is not the same thing as affordability, but its absence makes an expensive purchase feel like a trick.
 
-The secondary market creates another layer of distortion. Scarce tickets may be advertised at enormous mark-ups, while additional fees further eat away at the sense that advertised prices reflect what customers will actually pay. Demand is reinforced by the fear of missing a culturally significant occasion. A concert is no longer simply a performance; it is also content to share, a memory to display and, for some fans, proof of belonging to a community.
+The secondary market creates another layer of distortion. Scarce tickets may be advertised at enormous mark-ups, while additional fees further eat away at the sense that advertised prices reflect what customers will actually pay. Demand is reinforced by the fear of missing a culturally significant occasion. Hesitation becomes expensive, and reflection a luxury in itself. A concert is no longer simply a performance; it is also content to share, a memory to display and, for some fans, proof of belonging to a community.
 
 Defenders of high prices argue that no performer is obliged to sell below what audiences are willing to pay. Critics counter that an industry built around shared cultural experience risks becoming increasingly divided by income. Neither argument removes the pressure on independent venues, where musicians develop and audiences can encounter live music without shouldering substantial expense. The question is not whether major artists deserve to be paid. It is whether a market that celebrates music's ability to unite people is comfortable turning attendance into a privilege reserved for those who can afford it.
 
 === Before you read ===
 
-- When did you last go to a concert or a big live event? How much was the ticket?
+- What do you enjoy most about seeing live music?
 - How much would you be willing to pay to see your favourite artist?
 - How do you usually find out about ticket sales and prices?
 
@@ -62,6 +62,6 @@ Defenders of high prices argue that no performer is obliged to sell below what a
 
 - Is dynamic pricing fair? Why or why not?
 - Who should decide how much a concert ticket costs: the artist, the promoter or the market?
-- The article says smaller venues often offer more affordable gigs. Do you prefer big shows or small ones?
+- Would you rather see a small local gig or a huge stadium show, and why?
 - If ticket prices keep rising, what could happen to live music in the future?
-- Have you ever missed a concert because of the cost? How did that feel?
+- At what point does a ticket price stop being worth it for you?

@@ -5,7 +5,7 @@ tags: Travel, Lifestyle
 source: Marist Poll | https://maristpoll.marist.edu/polls/summer-travel-july-2025/
 image-plain: images/is-the-best-holiday-one-where-you-do-absolutely-nothing-plain-5736d6.jpg
 ---
-=== Core ===
+=== B1 ===
 
 Imagine going on holiday and waking up without any plans. You have no museum tickets, no early train and no list of places you must visit. You could sit in a café for two hours or take a walk and see where you end up. Would that sound relaxing or boring? Many holidays are full of activities. People want to visit famous places, eat at popular restaurants and take beautiful photographs. When they have only a week away, they may feel that every minute needs to count. But a busy holiday can leave people feeling tired.
 
@@ -21,7 +21,7 @@ A family with young children may want an easy beach holiday, while a person who 
 
 Perhaps the best holiday is not the busiest or the quietest one. It is the one that gives you what you actually need. Before planning every hour, it may be worth asking: am I going away to see everything, or to enjoy being somewhere different?
 
-=== Intermediate ===
+=== B2 ===
 
 A week in a new country can sometimes feel like an unusually demanding job. There are famous landmarks to visit, restaurants to book and photographs to take before moving on to the next destination. Travellers return home with hundreds of pictures and a strange feeling that they need another holiday to recover. A packed itinerary can be enjoyable, especially on a first visit. But there is little room for surprises when every meal, museum and train journey has been booked months in advance. Against this approach is the appeal of slow travel: spending more time in fewer places, allowing ordinary moments to become part of the experience. Instead of rushing between attractions, someone might spend a morning in a neighbourhood café, wander without a plan or return to the same beach several days in a row.
 
@@ -33,15 +33,15 @@ There are practical disadvantages. Some travellers cannot afford extended time a
 
 Slower travel can also influence spending and the local economy. Staying in one area may mean fewer expensive transfers and more opportunities to use neighbourhood shops and restaurants. But its environmental impact depends on much more than how long a visitor remains. The journey to the destination, the type of accommodation and the activities chosen all matter. Nor is a longer stay automatically affordable or sustainable.
 
-A couple with limited annual leave may get more satisfaction from a carefully planned weekend than from an unstructured two-week holiday they cannot realistically take. The idea of travelling slowly is best understood as a possible approach rather than a new set of rules. It encourages people to leave room for unexpected pleasures instead of making every hour serve a checklist.
+A couple with limited annual leave may get more out of a carefully planned weekend than an unstructured two-week holiday they cannot realistically take. The idea of travelling slowly is best understood as a possible approach rather than a new set of rules. It encourages people to leave room for unexpected pleasures instead of making every hour serve a checklist.
 
 Perhaps the important choice is not between doing everything and doing nothing. It is recognising that a successful holiday does not need to be measured by the number of places visited. Sometimes one memorable afternoon can matter more than a long checklist of sights.
 
-=== Advanced ===
+=== C1-C2 ===
 
 The modern holiday is often organised around a fear of missing out. Research, booking platforms and social media produce an endless catalogue of experiences that supposedly deserve a place on every itinerary. What was intended as a break can become an exhausting exercise in scheduling, navigation and documenting one's leisure. Holiday planning increasingly resembles project management, complete with colour-coded schedules and a fear of missing out. The result may be impressive, but not necessarily restorative. An alternative is to travel more slowly: choosing fewer destinations, leaving unstructured time and allowing a place to become familiar rather than treating it as a collection of attractions. The appeal is easy to understand. A long lunch, an aimless walk or a morning spent reading beside the sea may provide a sense of freedom that a tightly managed itinerary cannot.
 
-A July 2025 Marist Poll offers useful context. Among Americans planning a summer holiday, 45% identified rest and relaxation as their principal aim, while others prioritised visiting loved ones, adventure or cultural experiences. The survey did not directly measure slow travel, nor should its US results be presented as a global trend. It does, however, show that recovery is a major motivation for taking time away. There is a subtle difference between travelling slowly and simply staying still. A visitor can explore a place attentively without rushing, while another may spend a fortnight indoors and see very little.
+A July 2025 Marist Poll offers useful context. Among Americans planning a summer holiday, 45% identified rest and relaxation as their principal aim, while others prioritised visiting loved ones, adventure or cultural experiences. The survey did not directly measure slow travel, nor should its US results be presented as a global trend. It does, however, show that recovery is a major motivation for taking time away. There is a subtle difference between travelling slowly and simply staying still. A visitor can explore a place attentively without rushing, while another may shut themselves away indoors for a fortnight and see very little.
 
 Slow travel can sometimes encourage more sustained engagement with local life, particularly when visitors move beyond the most photographed landmarks. Yet there is a danger in assuming that lingering somewhere automatically makes tourism more responsible. Transport choices, accommodation, visitor numbers and the needs of residents also matter.
 
@@ -51,18 +51,18 @@ The economics of leisure also influence how holidays are planned. International 
 
 Those outcomes depend on travel distances, accommodation and the wider tourism model. Slow travel is therefore most useful as a challenge to the assumption that value is proportional to the number of attractions completed. It invites travellers to consider what they genuinely want from a journey, whether that means time with family, a particular cultural experience or simple recovery from everyday pressures.
 
-Perhaps the real problem is the expectation that holidays must be optimised. Restful and adventurous travel can both be rewarding when they reflect genuine preferences rather than pressure to collect experiences. The most successful trip may be the one that leaves a person feeling they actually spent time somewhere, rather than merely passed through it.
+Perhaps the real problem is the expectation that holidays must be optimised. Restful and adventurous travel can both be rewarding when they reflect genuine preferences rather than pressure to tick off experiences. The most successful trip may be the one that leaves a person feeling they actually spent time somewhere, rather than merely passed through it.
 
 === Before you read ===
 
-- Do you plan every day when you go on holiday?
-- Would you enjoy spending a week in one small town?
-- Do you take photos of everything you see?
+- How much do you plan before you go away, and why?
+- How would you feel about spending a whole week in one small town?
+- What do you want most from a holiday?
 
 === Talk about it ===
 
-- Would you feel guilty about doing nothing on holiday?
-- Do social media photographs change how people travel?
-- Is it better to visit many places or know one place well?
-- Can slow travel be more respectful of local communities?
+- Would you feel guilty doing nothing on holiday, and why?
+- How do social media photographs change the way people travel?
+- Is it better to visit many places or get to know one well, and why?
+- In your country, what kind of holiday do most people take?
 - What would your ideal seven-day holiday look like?

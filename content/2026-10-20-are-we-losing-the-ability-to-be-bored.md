@@ -7,29 +7,29 @@ source: Communications Psychology | https://www.nature.com/articles/s44271-024-0
 image: images/are-we-losing-the-ability-to-be-bored-da847f.jpg
 image-plain: images/are-we-losing-the-ability-to-be-bored-plain-9b2620.jpg
 ---
-=== Core ===
+=== B1 ===
 
-You are waiting for a friend who is ten minutes late. What do you do? Many of us immediately pull out our phones. We watch a video, check the news or look at social media. We can find something to do almost anywhere, at any time. You might think this means people feel less bored than in the past. However, two psychologists writing in the journal Communications Psychology in 2024 discussed evidence that boredom may actually be increasing. They suggested that digital entertainment could be one possible reason.
+You are waiting for a friend who is ten minutes late. What do you do? Many of us immediately pull out our phones. We watch a video, check the news or scroll through social media. There is always something to pass the time with, almost anywhere and at any time. You might think this means people feel less bored than in the past. However, two psychologists writing in the journal Communications Psychology in 2024 discussed evidence that boredom may actually be increasing. They suggested that digital entertainment could be one possible reason.
 
 A phone offers thousands of choices. But when we move quickly from one short video to another, it may become harder to enjoy one thing for long. We get used to something new appearing every few seconds. An ordinary conversation or a slow afternoon can then seem less exciting.
 
 This does not mean that phones are bad or that everybody is more bored today. We use them to talk to friends, learn new things and organise our lives. The researchers were discussing a possible explanation for a bigger change, not proving that every minute online creates boredom.
 
-Boredom can sometimes tell us something useful. Maybe we need a change, a challenge or more contact with other people. It can also encourage us to start a conversation, try a new activity or simply notice the world around us.
+Boredom can sometimes tell us something useful. Maybe we need a change, a challenge or more contact with other people. It can also encourage us to start a conversation, take up a new activity or simply notice the world around us.
 
 People do not all feel boredom in the same way. A young child may find a long car journey difficult, while an adult might enjoy looking at the scenery. Someone who works in a busy hospital may welcome ten quiet minutes. A person who spends the whole day alone may want more conversation and excitement. This means there is no perfect amount of entertainment for everyone.
 
-The key is understanding why a moment feels empty. Are we tired, lonely or simply looking for something to do? A new video may distract us for a short time, but it might not answer the real need. Sometimes making a plan with a friend or learning something new can be more satisfying. At other times, doing nothing is exactly what we need.
+The key is understanding why a moment feels empty. Are we tired, lonely or simply looking for something to do? A new video may take our mind off it for a short time, but it might not answer the real need. Sometimes making a plan with a friend or learning something new can be more satisfying. At other times, doing nothing is exactly what we need.
 
-Next time you have five empty minutes, you could try leaving your phone in your pocket. You might feel uncomfortable at first. Or you might notice something interesting. Either way, being bored for a moment is not necessarily a problem that needs an immediate solution.
+Next time you have five empty minutes, you could try putting your phone away. You might feel uncomfortable at first. Or you might notice something interesting. Either way, being bored for a moment is not necessarily a problem that needs an immediate solution.
 
-=== Intermediate ===
+=== B2 ===
 
-Standing in a queue used to involve looking around, daydreaming or chatting to a stranger. Today, it often takes only seconds before somebody reaches for their phone. Entertainment is constantly available, so why do researchers suggest that boredom may be becoming more common? Think about the last time you stood in a queue without taking out your phone. Did you look around, start a conversation or immediately feel that something was missing? In a 2024 perspective article for Communications Psychology, researchers Katy Tam and Michael Inzlicht discussed evidence of rising boredom and proposed a possible explanation: digital media may sometimes make boredom worse instead of relieving it. Their article presents an interpretation of existing research, not a single experiment proving that smartphones cause a worldwide increase.
+Standing in a queue used to involve looking around, daydreaming or chatting to a stranger. Today, it often takes only seconds before somebody reaches for their phone, and for many of us that movement has become second nature. Entertainment is constantly available, so why do researchers suggest that boredom may be becoming more common? Think about the last time you stood in a queue without taking out your phone. Did you look around, start a conversation or immediately feel that something was missing? In a 2024 perspective article for Communications Psychology, researchers Katy Tam and Michael Inzlicht discussed evidence of rising boredom and proposed a possible explanation: digital media may sometimes make boredom worse instead of relieving it. Their article presents an interpretation of existing research, not a single experiment proving that smartphones cause a worldwide increase.
 
-Part of the problem may be the speed with which we consume content. Short videos and endless feeds encourage us to move on as soon as our attention weakens. Having unlimited alternatives can make an ordinary activity feel disappointing. Instead of becoming absorbed in one experience, we repeatedly search for something more stimulating.
+Part of the problem may be the speed with which we consume content. Short videos and endless feeds encourage us to move on as soon as our attention weakens. Having unlimited alternatives can make an ordinary activity feel disappointing. Instead of becoming absorbed in one experience, we give up on it and look around for something more stimulating.
 
-Yet it would be unfair to blame all digital entertainment. People use technology for meaningful learning, creativity and relationships. Boredom is also influenced by working conditions, emotional health and whether daily activities offer a sense of purpose. A phone can provide genuine enjoyment or simply help someone pass a difficult journey. Being bored is not always a sign that something has gone wrong. It may simply be the point at which our minds stop receiving instructions and begin looking for something of their own to do.
+Yet it would be unfair to blame all digital entertainment. People use technology for meaningful learning, creativity and keeping up with the people they care about. Boredom is also influenced by working conditions, emotional health and whether daily activities offer a sense of purpose. A phone can provide genuine enjoyment or simply help someone pass a difficult journey. Being bored is not always a sign that something has gone wrong. It may simply be the point at which our minds stop receiving instructions and begin looking for something of their own to do.
 
 Researchers distinguish between an occasional boring moment and persistent boredom that interferes with wellbeing. The first can be perfectly normal. It may signal a need for a new activity or provide a chance for our thoughts to wander. The second deserves more attention, particularly when it is connected with low mood or isolation.
 
@@ -39,11 +39,11 @@ The researchers' hypothesis therefore should not become a rule that everybody ne
 
 Perhaps the interesting experiment is not deleting every app but noticing our habits. If every pause is immediately filled, we may never discover whether we need entertainment, connection, rest or a new challenge. Sometimes the ability to tolerate a little boredom gives us room to make that choice.
 
-=== Advanced ===
+=== C1-C2 ===
 
 Modern life offers an extraordinary solution to an ancient human problem: whenever boredom appears, we can summon an almost limitless supply of stimulation. Yet the anticipated disappearance of boredom has not materialised. Instead, some evidence suggests that people report feeling increasingly bored, prompting researchers to question the consequences of constant digital distraction. A few seconds of waiting can now feel like a gap that demands to be filled. The phone offers an effortless escape, but it may also make ordinary, unstimulating moments harder to tolerate. In a 2024 perspective published in Communications Psychology, Katy Tam and Michael Inzlicht examined this paradox and proposed that digital media might contribute to the very feeling it promises to eliminate. Their argument is a research-informed hypothesis, not definitive evidence of a single cause. Nevertheless, it raises a useful challenge to the assumption that more entertainment necessarily means greater satisfaction.
 
-Digital platforms often reward rapid switching. A video loses our attention and another begins; an article seems slow and we open a new tab. This can create expectations of immediate novelty against which ordinary activities struggle to compete. The problem is not merely the quantity of content but the habit of disengaging whenever stimulation declines. The problem is not that modern entertainment is uniquely harmful. It is that instant distraction can prevent us from noticing the difference between a passing lack of stimulation and deeper dissatisfaction.
+Digital platforms often reward rapid switching. A video loses our attention and another begins; an article seems slow and we move on to a new tab before boredom can set in. This can create expectations of immediate novelty against which ordinary activities struggle to compete. The problem is not merely the quantity of content but the habit of disengaging whenever stimulation declines. The problem is not that modern entertainment is uniquely harmful. It is that instant distraction can prevent us from noticing the difference between a passing lack of stimulation and deeper dissatisfaction.
 
 Boredom itself is more complicated than an empty schedule. Someone can be busy yet deeply bored if their activities feel meaningless. Conversely, a person sitting quietly might be content, curious or creatively absorbed. Persistent boredom can be distressing, but brief periods without obvious stimulation may prompt reflection or reveal unmet needs.
 
@@ -58,13 +58,13 @@ The more useful question may concern our tolerance for mental silence. If every 
 === Before you read ===
 
 - What do you do when you are waiting for a bus?
-- When was the last time you felt bored?
-- Is boredom always a bad thing?
+- When did you last feel really bored, and what did you do?
+- How do you feel when you have nothing to do?
 
 === Talk about it ===
 
 - Do you think people are more bored now than 20 years ago?
-- Are short videos changing our expectations of entertainment?
+- How are short videos changing what we expect from entertainment?
 - When can boredom be useful?
-- Should schools teach children to spend time without screens?
+- Should schools teach children to spend time without screens, and why?
 - What would happen if you stopped using your phone in queues?

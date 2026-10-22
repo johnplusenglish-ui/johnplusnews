@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/food/2026/sep/10/people-waite
 image: images/would-you-queue-24-hours-for-a-jacket-potato-a82133.jpg
 image-plain: images/would-you-queue-24-hours-for-a-jacket-potato-plain-4d8558.jpg
 ---
-=== Core ===
+=== B1 ===
 
 summary: People have waited 24 hours for a jacket potato. Why do some foods become so popular online, and what does it mean for small restaurants?
 
@@ -22,9 +22,9 @@ But internet fame has a downside. Staff can feel exhausted, local people may fin
 
 There is nothing wrong with enjoying a baked potato, and the brothers have worked hard to make their business successful. Yet their story says something interesting about how we choose where to eat. We often trust what we see online, especially when thousands of other people seem excited. The next time you see a huge queue outside a café, it might be worth asking whether everyone is waiting for the food or for the chance to say they joined the queue.
 
-=== Intermediate ===
+=== B2 ===
 
-A baked potato is hardly the kind of food you would normally travel across the country for. Yet in Preston, Lancashire, people have reportedly camped out and waited almost 24 hours to buy one. The attraction is SpudBros, a business run by brothers Jacob and Harley Nelson from a converted tram. Their potatoes come piled high with fillings, but the extraordinary queues owe as much to social media as to the food itself. A traditional British lunch has been turned into an unlikely online sensation.
+A baked potato is hardly the kind of food you would normally travel across the country for. Yet in Preston, Lancashire, people have reportedly queued overnight and waited almost 24 hours to buy one. The attraction is SpudBros, a business run by brothers Jacob and Harley Nelson from a converted tram. Their potatoes come piled high with fillings, but the extraordinary queues owe as much to social media as to the food itself. A traditional British lunch has been turned into an unlikely online sensation.
 
 The brothers began posting videos when business was difficult during the pandemic. Their clips showed potatoes being prepared, customers reacting and enormous portions being served. The format was simple, entertaining and easy to share. As their following grew, so did the crowds. Visitors arrived from distant towns and overseas, hoping to taste the potatoes they had already watched countless times on their phones. The brothers now operate in the strange space between running a food business and being internet personalities.
 
@@ -34,13 +34,13 @@ But going viral creates problems of its own. Staff may struggle to keep up with 
 
 There is a psychological element to all this. People are more likely to become interested in something when they can see that others want it. A long queue acts as a public recommendation, while posting a photograph proves that you were part of the moment. Some customers probably care just as much about the story they can tell afterwards as the meal they have bought. Restaurants are not simply selling food; increasingly, they are selling an experience that can be shared online.
 
-The Nelson brothers have shown how much a small business can achieve by understanding that world. But their success also reveals its limits. Online attention is unpredictable, and even the most enthusiastic followers eventually move on. For customers, the more interesting question is whether the potato would still be worth buying without the camera, the famous visitors or the queue. Perhaps the test of a good lunch is whether you would return for more when nobody is filming.
+The Nelson brothers have shown how much a small business can achieve by understanding that world. But their success also reveals its limits. Online attention is unpredictable, and even the most enthusiastic followers eventually drift away. For customers, the more interesting question is whether the potato would still be worth buying without the camera, the famous visitors or the queue. Perhaps the test of a good lunch is whether you would return for more when nobody is filming.
 
-=== Advanced ===
+=== C1-C2 ===
 
 summary: Viral queues can bring fame and pressure to small restaurants. What do 24-hour waits for a baked potato say about social media and food?
 
-There was a time when a queue outside a food stall suggested either unusually good cooking or a shortage of places to eat. Today it may be evidence of something rather different: an exceptionally successful social-media strategy. In Preston, Lancashire, the brothers behind SpudBros say customers have camped out and waited almost 24 hours for one of their loaded jacket potatoes. Their business, operating from a converted tram, has helped turn an inexpensive British staple into a minor cultural event. The food is real enough, but the anticipation is increasingly part of the product.
+There was a time when a queue outside a food stall suggested either unusually good cooking or a shortage of places to eat. Today it may be evidence of something rather different: an exceptionally successful social-media strategy. In Preston, Lancashire, the brothers behind SpudBros say customers have bedded down overnight and waited almost 24 hours for one of their loaded jacket potatoes. Their business, operating from a converted tram, has helped turn an inexpensive British staple into a minor cultural event. The food is real enough, but the anticipation is increasingly part of the product.
 
 Jacob and Harley Nelson built up their following by filming the everyday business of preparing and selling potatoes. Their videos captured generous toppings, lively encounters with customers and the brothers' own on-camera personalities. The approach came about during a difficult period for the business and eventually attracted audiences far beyond Preston. Visitors began arriving from other parts of Britain and overseas, drawn not merely by the promise of lunch but by the opportunity to participate in a story they already knew from their screens.
 
@@ -54,14 +54,14 @@ None of this means the food is poor or that customers are foolish. SpudBros has 
 
 === Before you read ===
 
-- Have you ever queued for a restaurant or food item because you saw it online?
-- What makes a simple food become fashionable?
+- What would persuade you to join a long queue for food?
+- Which foods or places have suddenly become fashionable in your country?
 - How much do online reviews influence where you eat?
 
 === Talk about it ===
 
 - Why might people wait for hours for something they could buy elsewhere?
 - Is viral fame more helpful or harmful for small restaurants?
-- Should businesses encourage very long queues if customers might be unsafe or uncomfortable?
-- Can food influencers be trusted to give independent opinions?
+- What responsibility does a business have when its queue becomes uncomfortable?
+- How much do you trust food influencers to give independent opinions?
 - Would you rather run a consistently popular neighbourhood café or a business that becomes famous overnight?

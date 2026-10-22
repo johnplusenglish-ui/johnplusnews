@@ -5,7 +5,7 @@ tags: Health, Science
 source: Environmental Research | https://doi.org/10.1016/j.envres.2026.123689
 image-plain: images/what-happens-when-your-bedroom-never-gets-dark-plain-0656b8.jpg
 ---
-=== Core ===
+=== B1 ===
 
 Look around your bedroom when you turn off the light. Is it completely dark? You may notice light from the street, a phone charger or a television. These small lights are common, but researchers are interested in how they affect our sleep. Our bodies follow a daily rhythm. Light helps tell us when to be awake, and darkness helps prepare us for sleep. Bright light at the wrong time may make this rhythm less clear. The problem is not only what we do before bed. Light can also enter a room while we are sleeping.
 
@@ -21,25 +21,25 @@ That is an important reason not to tell everybody to switch off every light. The
 
 The research does not mean one small light will ruin your night. But it suggests that the environment around us deserves attention. We often think about how many hours we sleep. Perhaps we should also think about what our bedrooms are like during those hours.
 
-=== Intermediate ===
+=== B2 ===
 
-When you switch off your bedroom light, darkness does not always follow. Streetlamps shine through curtains, a television flashes in the corner and electronic devices display tiny coloured lights. These details are easy to ignore, but researchers increasingly suspect that nighttime lighting can affect sleep quality. A bedroom can appear dark while still containing tiny light sources: a charging cable, a television standby lamp or a bright streetlight leaking around the curtains. Human sleep is influenced by the body's internal clock, which responds partly to patterns of light and darkness. Artificial light late in the evening may interfere with signals associated with preparing for sleep. Researchers also want to understand the effects of exposure during the night itself.
+When you put out your bedroom light, darkness does not always follow. Streetlamps shine through curtains, a television flashes in the corner and electronic devices display tiny coloured lights. These details are easy to ignore, but researchers increasingly suspect that nighttime lighting can affect sleep quality. A bedroom can appear dark while still containing tiny light sources: a charging cable, a television standby lamp or a bright streetlight leaking around the curtains. Human sleep is influenced by the body's internal clock, which responds partly to patterns of light and darkness. Artificial light late in the evening may interfere with signals associated with preparing for sleep. Researchers also want to understand the effects of exposure during the night itself.
 
 A systematic review published in Environmental Research in March 2026 combined evidence from 15 studies involving more than 765,000 people. Participants with the greatest exposure to artificial light at night had a 27% higher prevalence of sleep disturbance than those with little or no exposure. The result was an association, and most included studies had some risk of bias.
 
 That distinction matters. People living in brightly lit areas may also experience traffic noise, stressful conditions or other factors linked to poorer sleep. Measuring the light somebody receives is difficult, particularly when researchers rely on outdoor estimates rather than measurements inside bedrooms. Not everybody can simply install perfect blinds. People renting a room or working night shifts may have little control over their sleeping environment, so practical solutions need to be realistic.
 
-Nevertheless, there are practical reasons to pay attention to lighting. Curtains that block streetlights, reduced screen brightness before bed and switching off unnecessary devices may create a more comfortable sleep environment. People working nights or living in busy cities may have fewer options.
+Nevertheless, there are practical reasons to pay attention to lighting. Curtains that block streetlights, reduced screen brightness before bed and shutting down unnecessary devices may create a more comfortable sleep environment. People working nights or living in busy cities may have fewer options.
 
 The timing of light exposure is just as important as its presence. Brightness during the morning and daytime helps the body distinguish waking hours from the night, while excessive illumination close to bedtime may send less helpful signals. A practical approach is therefore not to make homes dark all day, but to provide appropriate lighting at different times. Safety also matters.
 
-An older person who needs to get up during the night may reasonably prefer a low-level light rather than walking through a completely dark room. Researchers and public-health advisers must balance such needs instead of turning darkness into an absolute rule. Alongside lighting, consistent routines, manageable noise and any underlying medical conditions influence sleep quality. Good advice recognises the whole environment.
+An older person moving around the house at night may reasonably prefer a low-level light to walking through a completely dark room. Researchers and public-health advisers must balance such needs instead of turning darkness into an absolute rule. Alongside lighting, consistent routines, manageable noise and any underlying medical conditions influence sleep quality. Good advice recognises the whole environment.
 
 No single change guarantees good sleep, and persistent difficulties can require professional advice. But the study offers a useful reminder: sleep is influenced by our surroundings as well as our routines. Sometimes improving a bedroom begins with noticing the small sources of light we stopped seeing years ago.
 
-=== Advanced ===
+=== C1-C2 ===
 
-A bedroom can appear dark while remaining surprisingly illuminated. Light leaks around blinds, a phone charges beside the bed and the glow of nearby buildings reaches through the curtains. Because these sources are familiar, they seldom attract much attention. Yet growing research suggests that artificial light at night deserves a place in discussions about sleep health. The glowing dot of a charger may seem insignificant beside the demands of work and family. Yet our sleeping environment is made up of exactly such small, easily overlooked details. Our circadian system responds to the daily pattern of light and darkness. Exposure at biologically inappropriate times may alter signals involved in preparing for sleep. A systematic review and meta-analysis published in Environmental Research in March 2026 examined epidemiological research on nighttime illumination and sleep disturbance.
+A bedroom can appear dark while remaining surprisingly illuminated. Light leaks around blinds, a phone charges beside the bed and the glow of nearby buildings reaches through the curtains. Because these sources are so familiar, we tend to tune them out. Yet growing research suggests that artificial light at night deserves a place in discussions about sleep health. The glowing dot of a charger may seem insignificant beside the demands of work and family. Yet our sleeping environment is made up of exactly such small, easily overlooked details. Our circadian system responds to the daily pattern of light and darkness. Exposure at biologically inappropriate times may alter signals involved in preparing for sleep. A systematic review and meta-analysis published in Environmental Research in March 2026 examined epidemiological research on nighttime illumination and sleep disturbance.
 
 Across 15 studies involving more than 765,000 participants, the authors found that higher exposure was associated with poorer sleep. In the studies suitable for pooled analysis, those with the greatest exposure had a 27% higher prevalence of sleep disturbance compared with groups receiving little or no artificial light at night. The figure describes relative association, not an individual's probability of having insomnia. Observational research cannot isolate every influence. People exposed to more nighttime light may also differ in working hours, neighbourhood conditions or existing health problems, all of which complicate interpretation.
 
@@ -51,18 +51,18 @@ A simplistic reading of the evidence could lead to the conclusion that less arti
 
 This creates a design challenge rather than a demand to eliminate every light source. Buildings and streets can potentially be illuminated where necessary while reducing unnecessary glare or light spilling into bedrooms. The review's findings therefore have implications for architects and city authorities as well as individuals deciding whether to buy blackout curtains.
 
-There is also a wider policy question. Public lighting supports safety and access, so turning everything off is not a practical solution. Better-designed lighting could balance those benefits with reduced disturbance to residents. A good night's sleep may depend partly on decisions made far beyond the bedroom walls.
+There is also a wider policy question. Public lighting supports safety and access, so plunging streets into darkness is not a practical solution. Better-designed lighting could balance those benefits with reduced disturbance to residents. A good night's sleep may depend partly on decisions made far beyond the bedroom walls.
 
 === Before you read ===
 
-- Is your bedroom completely dark at night?
-- Do you sleep with a television or light on?
+- How dark is your bedroom at night?
+- How do you feel about sleeping with a light or television on?
 - What usually wakes you up at night?
 
 === Talk about it ===
 
-- How dark is your bedroom?
-- Should cities reduce unnecessary nighttime lighting?
-- Why is an association not the same as a proven cause?
-- Would you give up screens for an hour before bed?
-- What changes to bedrooms are easiest and hardest to make?
+- In your country, how bright are streets and homes at night?
+- Should cities reduce unnecessary nighttime lighting, and why?
+- Why should we be careful with headlines that say one thing causes another?
+- Would you give up screens for an hour before bed, and why?
+- Which changes to a bedroom would be hardest for people to make?

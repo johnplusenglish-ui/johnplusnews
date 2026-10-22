@@ -6,7 +6,7 @@ source: Associated Press | https://apnews.com/article/france-renoir-art-heist-98
 image: images/the-4-2-million-art-heist-that-went-wrong-4be007.jpg
 image-plain: images/the-4-2-million-art-heist-that-went-wrong-plain-26c6fa.jpg
 ---
-=== Core ===
+=== B1 ===
 
 summary: Thieves broke into Renoir's old home in France and took two paintings. The police found them hidden behind a wall. How?
 
@@ -22,9 +22,9 @@ Police eventually recovered the two missing Renoirs from a hiding place behind a
 
 The case raised questions about protecting valuable art. Small museums often have fewer security resources than famous galleries, yet they may hold paintings worth millions. There is also the problem of selling stolen masterpieces: buyers know that such works are recognised around the world. The thieves had apparently planned an ambitious crime, but their escape left behind the very clues that helped police find the art.
 
-=== Intermediate ===
+=== B2 ===
 
-Shortly before six in the morning, an alarm sounded at a quiet museum on the French Riviera. By the time the local police arrived, two intruders had disappeared, leaving behind a confused scene and two paintings they had apparently intended to steal. Two other works by Pierre-Auguste Renoir were missing. It was 8 September 2026, and a museum devoted to one of France's best-known painters had become the centre of an international art-theft investigation. The surviving haul was later valued by the Marseille prosecutor at approximately €4.2 million.
+Shortly before six in the morning, an alarm sounded at a quiet museum on the French Riviera. By the time the local police arrived, two intruders had disappeared, leaving behind a confused scene and two paintings they had apparently intended to steal. Two other works by Pierre-Auguste Renoir were missing. It was 8 September 2026, and a museum devoted to one of France's best-known painters had become the centre of an international art-theft investigation. The haul the thieves got away with was later valued by the Marseille prosecutor at approximately €4.2 million.
 
 The setting made the robbery particularly striking. The Renoir Museum in Cagnes-sur-Mer occupies the artist's former home, a place that attracts visitors interested in his life as much as his paintings. French officials said the intruders cut through a garden fence and entered through a window. They targeted four works, but the alarm forced them to abandon two during their escape. The paintings that vanished were Portrait of Madame Colonna Romano and Young Woman at the Well, both on loan from the Musée d'Orsay in Paris. For weeks, investigators had no public answer to the obvious question: where had they gone?
 
@@ -36,7 +36,7 @@ The missing paintings were recovered from behind a concealed wall beneath a stai
 
 The investigation reopened an uncomfortable debate about museum security. A small cultural institution can hold works of immense financial and historical value without having the resources of a national gallery. Meanwhile, the criminals face a practical difficulty of their own: famous paintings are extraordinarily difficult to sell openly. In this case, a carefully planned break-in ended with abandoned evidence, suspected preparations for another robbery and two priceless objects hidden in a wall. It was hardly the elegant operation imagined in an art-heist film.
 
-=== Advanced ===
+=== C1-C2 ===
 
 summary: An alarm, a DNA trace and a hiding place under a staircase: how an ambitious theft of two Renoirs at Cagnes-sur-Mer unravelled.
 
@@ -44,7 +44,7 @@ At 5.48am on 8 September 2026, the alarm at the Renoir Museum in Cagnes-sur-Mer 
 
 The museum occupies the painter's former home on the French Riviera, a setting better known for its association with Impressionist art than organised crime. According to the French Ministry of Culture, the burglars breached a fence and entered through a window before removing four works. The alarm cut the operation short, and two paintings were discarded nearby. The thieves nevertheless escaped with Portrait of Madame Colonna Romano and Young Woman at the Well, works that had been deposited at the museum by Paris's Musée d'Orsay. Their cultural significance made the disappearance especially troubling, regardless of which financial valuation was used.
 
-Investigators eventually found an important trace on a protective cover abandoned during the getaway. DNA helped identify a suspect who was already under investigation in a separate case, meaning police had access to information about his vehicle's movements. Combined with surveillance and communications evidence, those details allowed officers to reconstruct links between individuals and locations. The investigation illustrated a persistent weakness of elaborate criminal schemes: the more people and journeys involved, the more opportunities there are to leave an identifiable trail.
+Investigators eventually came across an important trace on a protective cover abandoned during the getaway. DNA helped identify a suspect who was already under investigation in a separate case, meaning police had access to information about his vehicle's movements. Combined with surveillance and communications evidence, those details allowed officers to reconstruct links between individuals and locations. The investigation illustrated a persistent weakness of elaborate criminal schemes: the more people and journeys involved, the more opportunities there are to leave an identifiable trail.
 
 Police did not wait for every question to be resolved. After surveillance suggested that one suspect had visited the Maeght Foundation, another prominent art institution, the Marseille prosecutor said investigators feared a further robbery was imminent. Arrests followed. Six people were detained and four men were given preliminary charges relating to organised theft, receiving stolen property or alleged criminal association. The legal distinction matters: prosecutors had set out their case, but the suspects had not been convicted. Describing the investigation as a solved mystery should not be mistaken for treating all allegations as established facts.
 
@@ -54,14 +54,14 @@ Beyond the improbable hiding place, the case exposed a vulnerability shared by m
 
 === Before you read ===
 
-- Why might famous paintings attract thieves?
-- Would a small museum be easier to rob than a major gallery?
-- What evidence could help police solve an art theft?
+- How often do you visit museums or galleries, and what do you enjoy about them?
+- Why do you think famous paintings attract thieves?
+- What kind of evidence do you think helps police solve a theft?
 
 === Talk about it ===
 
-- Why would criminals steal artworks that are so well known?
-- Should museums display original treasures if there is a risk of theft?
-- Which detail of the police investigation surprised you most?
-- How much should governments spend protecting art and cultural heritage?
-- Should stolen artworks be restored immediately, or should some damage remain visible as part of their history?
+- Is it realistic for a thief to sell a world-famous painting, and why?
+- Should museums show original treasures when there is a risk of theft, or copies?
+- Which part of the police investigation surprised you most, and why?
+- How well does your country look after its art and historic buildings?
+- Should stolen artworks be restored immediately, or should some damage stay visible?

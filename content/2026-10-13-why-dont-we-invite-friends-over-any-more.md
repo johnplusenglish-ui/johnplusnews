@@ -5,7 +5,7 @@ tags: Relationships, Lifestyle
 image: images/why-dont-we-invite-friends-over-any-more-ebb963.jpg
 image-plain: images/why-dont-we-invite-friends-over-any-more-plain-b64ce6.jpg
 ---
-=== Core ===
+=== B1 ===
 
 title: Why Don't We Invite Friends In?
 summary: We want to see our friends, but the laundry, the cooking and the cleaning can stop us asking.
@@ -16,11 +16,11 @@ One reason is the pressure to make everything look perfect. Social media is full
 
 Food can be another problem. People may have different diets, allergies or strong preferences. A simple dinner suddenly needs lots of planning. Then there is shopping, cooking and cleaning up afterwards. Everyone is busy, and arranging a free evening can involve many messages. It can seem easier to meet somewhere else and let somebody else do the washing-up.
 
-But there are good reasons to spend time together at home. A quiet evening on the sofa can make it easier to have a proper conversation. Nobody needs to order an expensive meal or leave when the café closes. Friends can relax, bring something to share and stay as long as they like. A simple invitation may also help someone who has been feeling lonely.
+But there are good reasons to spend time together at home. A quiet evening on the sofa can make it easier to have a proper conversation. Nobody needs to order an expensive meal or leave when the café closes. Friends can relax, bring something to share and stay as long as they like. There is no bill at the end of the evening either. A simple invitation may also mean a lot to someone who has been feeling lonely.
 
-Perhaps we need to change what we expect from being a good host. It is fine to buy pizza instead of cooking. Guests can help make tea, and there is no need to tidy away every sign of normal life. If we wait until our homes and schedules are perfect, we may never invite anyone. Most friends would probably prefer an untidy kitchen and good company to a beautifully arranged table with nobody sitting around it.
+Perhaps we need to change what we expect from being a good host. It is fine to buy pizza instead of cooking. Nobody is expecting a restaurant meal. Guests can help make the tea, and there is no need to tidy away every sign of normal life. If we wait until our homes and schedules are perfect, we may never invite anyone. Most friends would probably prefer an untidy kitchen and good company to a beautifully arranged table with nobody sitting around it.
 
-=== Intermediate ===
+=== B2 ===
 
 title: When Did Having Friends Over Become Such a Big Event?
 
@@ -30,22 +30,22 @@ Part of the problem is the pressure to present a perfect home. Social media offe
 
 Food adds another layer of stress. A host may worry about allergies, dietary preferences or whether a meal is interesting enough. A relaxed get-together can turn into hours of shopping, cooking and cleaning. Busy working lives make arranging it harder still. Some people live far from friends, while others have become accustomed to arranging almost every social event weeks in advance. Popping round unexpectedly, once common in many communities, may now feel inconsiderate.
 
-There are signs that social time has changed more widely. Research using the American Time Use Survey has found that people in the United States spend less time socialising with friends than they did in the past. Even Friday evenings, traditionally associated with going out, have become quieter. Streaming services, home entertainment and the convenience of staying in offer attractive alternatives, particularly when everyone is tired.
+There are signs that social time has changed more widely. Research using the American Time Use Survey has found that people in the United States spend less time socialising with friends than they did in the past. Even Friday evenings, traditionally associated with going out, have become quieter. Streaming services, home entertainment and the convenience of staying in offer attractive alternatives, particularly when everyone is tired. Once the sofa has won a few Fridays in a row, it tends to keep on winning, and the habit quietly settles in.
 
 Of course, choosing a quiet evening at home is not necessarily a problem. People need rest, and meeting in public places can be enjoyable. But regular friendships usually require more than exchanging messages and reacting to photographs. Spending time in someone's home can create a different kind of closeness, one that does not depend on buying anything or organising an elaborate activity.
 
 Perhaps the answer is to lower our standards rather than abandon hosting. Ask friends to bring a dish, order a takeaway or simply offer tea and biscuits. Tell them the house is a mess and invite them anyway. The most memorable evenings are not always the ones with the best food or the cleanest furniture. Often they are the evenings when people feel comfortable enough to stay for one more conversation.
 
-=== Advanced ===
+=== C1-C2 ===
 
 title: Hospitality or Performance? Why We Stopped Inviting People In
 summary: Domestic perfection has turned an ordinary act of friendship into a test many people would rather avoid.
 
 The invitation is almost sent. Then the host notices the laundry, the crowded kitchen and the absence of anything impressive to serve. A casual evening is postponed until the home looks better and everyone's diary aligns. What ought to be an ordinary expression of friendship has acquired the demands of a minor production. The result is a curious paradox: people who want more connection can be prevented from asking for it by the performance of being a good host.
 
-Much of the anxiety is about presentation. Social media has helped establish an aesthetic of domestic perfection in which homes look permanently ready for a magazine photograph. Against that background, the ordinary evidence of living can begin to feel like failure. A pile of washing, an ageing sofa or a crowded kitchen becomes something to apologise for, although friends rarely visit in the hope of inspecting the furniture. Hosting is no longer simply about welcoming people; it can feel like a test of competence and taste.
+Much of the anxiety is about presentation. Social media has helped establish an aesthetic of domestic perfection in which homes look permanently ready for a magazine photograph. Against that background, the ordinary evidence of living can begin to feel like failure. A pile of washing, an ageing sofa or a crowded kitchen becomes something to apologise for, although friends rarely visit in the hope of inspecting the furniture. Hosting is no longer simply about welcoming people; it can feel like a test of competence and taste. Few people would put it that baldly, yet the hesitation before sending an invitation suggests the standard has been internalised, whether or not anyone else is actually applying it.
 
-Practical obstacles are real, too. Dietary requirements call for thought, working patterns leave limited free time, and friendships are increasingly spread across cities. The spontaneous visit has given way to a chain of messages comparing schedules several weeks into the future. Meanwhile, entertainment is available without leaving the sofa. A streaming subscription offers relaxation on demand, without the trouble of shopping, washing-up or waiting for someone who is running late.
+Practical obstacles are real, too. Dietary requirements call for thought, working patterns leave limited free time, and friendships are increasingly spread across cities. The spontaneous visit has given way to a chain of messages comparing schedules several weeks into the future. Meanwhile, entertainment is available without leaving the sofa. A streaming subscription offers relaxation on demand, without the trouble of shopping, washing-up or waiting for someone who is running late. Convenience, in other words, has quietly raised the relative cost of company, and the easier option is rarely the more sociable one.
 
 The change sits within a broader retreat from face-to-face socialising. Analysis of the American Time Use Survey has suggested a long-term decline in time spent with friends, including the once-busy Friday evening. Such figures do not prove that hosting has disappeared, and cultural habits vary considerably between countries. They do, however, capture a familiar shift: opportunities for casual companionship are being crowded out by routines that are easier to manage but often less sociable.
 
@@ -57,12 +57,12 @@ What may need reviving is not the elaborate dinner party but the modest invitati
 
 - When did you last invite someone over without a special reason?
 - What would you worry about most: the food, the mess or the conversation?
-- Would an unexpected visit feel friendly or inconsiderate?
+- Would an unexpected visit from a friend feel friendly or inconsiderate, and why?
 
 === Talk about it ===
 
-- Has social media changed what a "presentable" home looks like?
+- How has social media changed what people think a home should look like?
 - Why can meeting in a public place feel easier than inviting someone in?
-- Who usually does the work when people are hosted at home?
+- In your country, who usually does the work when people have guests at home?
 - What is the difference between hospitality and performance?
 - What is the simplest invitation you could realistically make this week?

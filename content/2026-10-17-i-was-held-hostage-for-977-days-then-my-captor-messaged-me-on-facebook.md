@@ -6,11 +6,11 @@ source: The Guardian | https://www.theguardian.com/news/ng-interactive/2026/oct/
 image: images/i-was-held-hostage-for-977-days-then-my-captor-messaged-me-on-facebook-9a52c3.jpg
 image-plain: images/i-was-held-hostage-for-977-days-then-my-captor-messaged-me-on-facebook-plain-4bc101.jpg
 ---
-=== Core ===
+=== B1 ===
 
 summary: Michael Scott Moore was a hostage of Somali pirates for 977 days. Two months after he was freed, one of his guards sent him a friendly message. What happened next?
 
-Two months after escaping from Somali pirates, journalist Michael Scott Moore received an extraordinary Facebook message out of the blue. It came from one of the men who had guarded him during his captivity. The man, Mohamed Tahlil, said he was pleased Moore was free and described himself as a friend. Moore had spent 977 days as a hostage. Now someone involved in that terrible experience wanted to talk to him online.
+Two months after his release from Somali pirates, journalist Michael Scott Moore received an extraordinary Facebook message out of the blue. It came from one of the men who had guarded him during his captivity. The man, Mohamed Tahlil, said he was pleased Moore was free and described himself as a friend. Moore had spent 977 days as a hostage. Now someone involved in that terrible experience wanted to talk to him online.
 
 Moore set off for Somalia in January 2012 to research a book about piracy. He was kidnapped shortly after arriving and held for more than two and a half years. His captors moved him between buildings, outdoor camps and a hijacked fishing boat. He often felt frightened and alone. He was sometimes beaten, and armed guards controlled his daily life. In September 2014, a large ransom payment finally secured his release.
 
@@ -22,7 +22,7 @@ The case became more complicated during the trial. Evidence showed that Tahlil h
 
 Moore has written openly about the difficult question of forgiveness. During captivity, trying not to hate his guards helped him survive. But forgiving someone does not mean pretending that their actions were acceptable. He still wanted justice, even when he felt uncomfortable about harsh punishment. His story shows how complicated recovery can be: a person may want answers, peace and accountability at the same time.
 
-=== Intermediate ===
+=== B2 ===
 
 Imagine receiving a Facebook message from someone who had helped keep you prisoner for almost three years. Would you delete it, report it to the police or reply? American journalist Michael Scott Moore faced that decision in late 2014, just two months after being released from captivity in Somalia. The message came from Mohamed Tahlil, a man Moore remembered as one of his less aggressive guards. Tahlil greeted him almost as an old friend. After everything he had suffered, Moore found that friendliness difficult to believe.
 
@@ -36,7 +36,7 @@ Both men were convicted in 2023 of serious crimes connected with the kidnapping 
 
 The experience raises an uncomfortable distinction. Forgiving someone does not require forgetting what they did or protecting them from the consequences. For Moore, trying to let go of hatred had helped him survive long before the trials began. Justice was a public process involving judges and evidence; recovery was far more personal. The strange Facebook message connected those two worlds, but could not offer an easy ending to either.
 
-=== Advanced ===
+=== C1-C2 ===
 
 summary: A friendly Facebook message from a former captor drew Michael Scott Moore into an FBI operation that ended in a 30-year sentence. Can justice and forgiveness exist side by side?
 
@@ -50,18 +50,18 @@ Moore's participation left him profoundly ambivalent. He wanted those responsibl
 
 The case might appear to offer a narrative of justice eventually catching up with its targets. Moore's account is more unsettled. He does not dispute the seriousness of the crimes, but he questions the assumption that punishment automatically supplies psychological closure. During captivity he had found that loosening his grip on anger could preserve a measure of independence in circumstances designed to strip him of control. That private understanding of forgiveness was quite separate from acquitting a captor of responsibility, or agreeing that every participant deserved an identical sentence.
 
-His experience challenges the assumption that sympathy for a captor always reflects manipulation. Victims may distinguish between individuals, change their assessments as evidence emerges and still resist the desire for vengeance. None of those responses necessarily diminishes the harm they suffered. The Facebook correspondence forced Moore to confront uncomfortable questions about trust, complicity and mercy, but it did not deliver a tidy reconciliation. Sometimes the struggle to understand the past continues long after the legal case has ended.
+His experience challenges the assumption that sympathy for a captor always reflects manipulation. Victims may distinguish between individuals, change their assessments as evidence emerges and still resist the desire for vengeance. None of those responses necessarily diminishes the harm they suffered. The Facebook correspondence forced Moore to confront uncomfortable questions about trust, complicity and mercy, but it did not bring about a tidy reconciliation. Sometimes the struggle to understand the past continues long after the legal case has ended.
 
 === Before you read ===
 
 - How do you think a person might cope with a very long period of captivity?
-- Why might a former hostage want to speak to someone involved in their kidnapping?
-- Is forgiving somebody the same thing as excusing their behaviour?
+- How easy do you find it to talk about a bad experience, and why?
+- What makes it easier or harder to forgive someone, do you think?
 
 === Talk about it ===
 
-- Would you reply to a message from a person who had held you hostage?
+- Would you reply to a message from a person who had held you hostage, and why?
 - What is the difference between forgiveness and justice?
-- Can speaking to someone who harmed you ever help you recover?
-- Should a victim have a say in how severely an offender is punished?
-- Why is it sometimes difficult to understand another person's choices after trauma?
+- Do you think talking to someone who harmed you can help you recover, and why?
+- Should a victim have a say in how severely an offender is punished, and why?
+- How does your country deal with serious crimes: with punishment or with rehabilitation?
