@@ -1,0 +1,109 @@
+{
+  "slug": "can-a-walk-in-nature-really-make-you-happier",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "____ and trees may make people feel better.", "a": "Fresh air" },
+          { "s": "____ from noise and traffic may help people relax.", "a": "Getting away" },
+          { "s": "Studies of stress produced ____.", "a": "mixed results" },
+          { "s": "Others have to ____ busy roads and few parks nearby.", "a": "put up with" },
+          { "s": "A short walk is ____ when a day feels difficult.", "a": "worth trying" }
+        ],
+        "extra": ["catch up", "peaceful"]
+      },
+      "match": [
+        { "t": "put up with", "d": "accept something unpleasant without complaining" },
+        { "t": "mixed results", "d": "outcomes that point in different directions" },
+        { "t": "catch up", "d": "exchange news with somebody you have not seen" },
+        { "t": "peaceful", "d": "quiet and free from disturbance" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "Researchers ____ how time in nature affects our minds.", "cue": "study", "a": "have studied" },
+          { "s": "A review ____ in 2025 examined experiments with adults.", "cue": "publish", "a": "published" },
+          { "s": "People may feel calmer after ____ time outside.", "cue": "spend", "a": "spending" },
+          { "s": "Towns must ____ care of these spaces.", "cue": "take", "a": "take" },
+          { "s": "You do not need ____ every step.", "cue": "count", "a": "to count" }
+        ]
+      },
+      "tfn": [
+        { "s": "The review found good evidence that natural places improve mood.", "a": "T" },
+        { "s": "The evidence for memory and concentration was equally strong.", "a": "F" },
+        { "s": "Access to nature is not equal for everyone.", "a": "T" },
+        { "s": "Walking by the sea is better than walking in a park.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Researchers have been trying to ____ where the benefit comes from.", "a": "work out" },
+          { "s": "Enjoying a walk may make it easier to ____.", "a": "keep up" },
+          { "s": "A woodland path is a luxury if you cannot ____ to travel.", "a": "spare the time" },
+          { "s": "Meeting a friend combines movement, conversation and ____.", "a": "a change of environment" },
+          { "s": "This complexity should not ____ cities creating green spaces.", "a": "put off" },
+          { "s": "Nature does not ____, but it can support mood.", "a": "work miracles" }
+        ],
+        "extra": ["look after", "restorative"]
+      },
+      "match": [
+        { "t": "work miracles", "d": "achieve something that seems impossible" },
+        { "t": "spare the time", "d": "manage to free up part of your day" },
+        { "t": "look after", "d": "take care of somebody or something" },
+        { "t": "restorative", "d": "making you feel rested and well again" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Evidence was strongest for ____ in mood.", "cue": "IMPROVE", "a": "improvements" },
+          { "s": "Findings for attention and memory were less ____.", "cue": "CONSIST", "a": "consistent" },
+          { "s": "Separating these influences scientifically is not always ____.", "cue": "FORWARD", "a": "straightforward" },
+          { "s": "Cities should create ____ green spaces.", "cue": "ACCESS", "a": "accessible" },
+          { "s": "Good design means safe paths, seating and ____.", "cue": "MAINTAIN", "a": "maintenance" }
+        ]
+      },
+      "tfn": [
+        { "s": "The review appeared in the Journal of Environmental Psychology in November 2025.", "a": "T" },
+        { "s": "A single walk transforms everybody's concentration.", "a": "F" },
+        { "s": "Weather and mobility can limit people's outdoor choices.", "a": "T" },
+        { "s": "Most British cities have increased their park budgets.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Nature is often presented as ____ for modern exhaustion.", "a": "a universal remedy" },
+          { "s": "Such claims ____ an inexpensive activity as a solution.", "a": "dress up" },
+          { "s": "Experiments struggle to ____ these ingredients.", "a": "tease apart" },
+          { "s": "Residents may ____ obstacles that motivation cannot solve.", "a": "come up against" },
+          { "s": "There is no ____ natural setting.", "a": "one-size-fits-all" },
+          { "s": "Nature is not ____.", "a": "a substitute for healthcare" }
+        ],
+        "extra": ["affluent", "measured"]
+      },
+      "match": [
+        { "t": "tease apart", "d": "separate things that are closely mixed" },
+        { "t": "dress something up", "d": "present something as better than it is" },
+        { "t": "affluent", "d": "having plenty of money" },
+        { "t": "measured", "d": "careful and not exaggerated" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The scientific picture is more ____ than the headlines suggest.", "cue": "SELECT", "a": "selective" },
+          { "s": "There are ____ explanations for why nature feels restorative.", "cue": "PLAUSIBILITY", "a": "plausible" },
+          { "s": "A second review suggested modest attention-____ benefits.", "cue": "RESTORE", "a": "restoration" },
+          { "s": "There is an environmental ____ dimension too.", "cue": "JUST", "a": "justice" },
+          { "s": "The ____ availability of nature shows the limits of personal choice.", "cue": "EVEN", "a": "uneven" }
+        ]
+      },
+      "tfn": [
+        { "s": "The review found relatively strong evidence for improvements in mood.", "a": "T" },
+        { "s": "The writer presents nature as a guaranteed psychological treatment.", "a": "F" },
+        { "s": "The article says research findings are averages, not guarantees.", "a": "T" },
+        { "s": "Urban park funding has fallen across Europe.", "a": "N" }
+      ]
+    }
+  }
+}

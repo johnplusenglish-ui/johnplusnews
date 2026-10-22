@@ -1,0 +1,109 @@
+{
+  "slug": "has-your-phone-changed-the-way-you-think",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "You read a message and ____ your book.", "a": "go back to" },
+          { "s": "Seven seconds may ____.", "a": "not sound like much" },
+          { "s": "The alerts ____ friends, shops, work chats and news apps.", "a": "come from" },
+          { "s": "Many phones let us ____ alerts for individual apps.", "a": "turn off" },
+          { "s": "Workplaces should discuss sensible rules about messages ____.", "a": "outside working hours" }
+        ],
+        "extra": ["keep in touch", "unnecessary"]
+      },
+      "match": [
+        { "t": "go back to", "d": "return to what you were doing before" },
+        { "t": "turn off", "d": "stop a device or function from working" },
+        { "t": "keep in touch", "d": "stay in regular contact with somebody" },
+        { "t": "unnecessary", "d": "not needed at all" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "You are ____ a book when your phone makes a sound.", "cue": "read", "a": "reading" },
+          { "s": "In research ____ in 2026, people completed an attention task.", "cue": "publish", "a": "published" },
+          { "s": "The researchers ____ that the messages caused a short slowdown.", "cue": "find", "a": "found" },
+          { "s": "The study did not ____ that phones damage our brains.", "cue": "show", "a": "show" },
+          { "s": "Good concentration ____ just about personal discipline.", "cue": "be", "a": "is not" }
+        ]
+      },
+      "tfn": [
+        { "s": "The slowdown lasted about seven seconds.", "a": "T" },
+        { "s": "The study showed that phones permanently damage the brain.", "a": "F" },
+        { "s": "The research was published in 2026.", "a": "T" },
+        { "s": "Most participants were university students.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "The interruption seems ____, yet concentration may be affected.", "a": "harmless" },
+          { "s": "Notifications produced a ____ slowdown of about seven seconds.", "a": "temporary" },
+          { "s": "A phone nearby reminds us that something could demand attention ____.", "a": "at any moment" },
+          { "s": "Some people put the phone ____ during important tasks.", "a": "out of sight" },
+          { "s": "The aim is not to reject technology but to ____.", "a": "take back control" },
+          { "s": "Silencing notifications can feel ____ rather than sensible.", "a": "rude" }
+        ],
+        "extra": ["switch off", "relevant"]
+      },
+      "match": [
+        { "t": "out of sight", "d": "where it cannot be seen" },
+        { "t": "take back control", "d": "regain power over your own situation" },
+        { "t": "switch off", "d": "stop a device from working" },
+        { "t": "relevant", "d": "closely connected to the matter in hand" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "A study ____ the immediate effects of notifications.", "cue": "INVESTIGATION", "a": "investigated" },
+          { "s": "Participants completed a task requiring ____.", "cue": "ATTEND", "a": "attention" },
+          { "s": "The ____ was related to how relevant the alerts appeared.", "cue": "DISRUPT", "a": "disruption" },
+          { "s": "Constant ____ carries a cost that is not always visible.", "cue": "RESPOND", "a": "responsiveness" },
+          { "s": "Individuals can separate essential alerts from ____ ones.", "cue": "PROMOTE", "a": "promotional" }
+        ]
+      },
+      "tfn": [
+        { "s": "The study appeared in Computers in Human Behavior in 2026.", "a": "T" },
+        { "s": "The experiment demonstrated a permanent loss of intelligence.", "a": "F" },
+        { "s": "Teams can agree which messages are urgent.", "a": "T" },
+        { "s": "Most companies now ban messages after six o'clock.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Moments later we return to ____.", "a": "the task at hand" },
+          { "s": "The experiment identified ____ changes under particular conditions.", "a": "short-lived" },
+          { "s": "There are good reasons to resist ____ conclusions.", "a": "sweeping" },
+          { "s": "Notifications ____ our sensitivity to important information.", "a": "play on" },
+          { "s": "The issue is not an argument for ____ smartphones.", "a": "doing away with" },
+          { "s": "Managing interruptions becomes ____ rather than self-control.", "a": "a social negotiation" }
+        ],
+        "extra": ["design out", "trivial"]
+      },
+      "match": [
+        { "t": "play on", "d": "take advantage of a feeling somebody has" },
+        { "t": "design something out", "d": "remove a problem by changing the system" },
+        { "t": "trivial", "d": "of very little importance" },
+        { "t": "sweeping", "d": "far too general to be accurate" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Attention is not restored as ____ as the sequence suggests.", "cue": "EFFORT", "a": "effortlessly" },
+          { "s": "The effect varied with the perceived ____ of the notification.", "cue": "RELEVANT", "a": "relevance" },
+          { "s": "Quick communication supports families and ____ tools help many users.", "cue": "ACCESS", "a": "accessibility" },
+          { "s": "That repeated ____ competes with the original activity.", "cue": "APPRAISE", "a": "appraisal" },
+          { "s": "Organisations should consider the ____ cost of constant interruption.", "cue": "PRODUCT", "a": "productivity" }
+        ]
+      },
+      "tfn": [
+        { "s": "The effect varied with habitual patterns of phone interaction.", "a": "T" },
+        { "s": "The writer argues that people should give up smartphones.", "a": "F" },
+        { "s": "The article says notifications communicate an expectation of attention.", "a": "T" },
+        { "s": "The researchers plan a follow-up study in workplaces.", "a": "N" }
+      ]
+    }
+  }
+}

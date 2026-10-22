@@ -1,0 +1,109 @@
+{
+  "slug": "why-are-we-so-tired-when-we-havent-done-much",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "You have spent the day answering emails and ____ things.", "a": "sorting out" },
+          { "s": "We need to concentrate, remember information and ____.", "a": "make decisions" },
+          { "s": "You may ____ ordering food instead of cooking.", "a": "end up" },
+          { "s": "Planning meals ____ can make evenings easier.", "a": "in advance" },
+          { "s": "____ for everybody.", "a": "There is no magic solution" }
+        ],
+        "extra": ["share out", "demanding"]
+      },
+      "match": [
+        { "t": "sort out", "d": "deal with a task and put it right" },
+        { "t": "end up", "d": "reach a situation you did not plan" },
+        { "t": "demanding", "d": "needing a lot of effort or attention" },
+        { "t": "share out", "d": "divide something between people" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "In a 2025 study, researchers ____ people to do thinking tasks.", "cue": "ask", "a": "asked" },
+          { "s": "Mental work ____ energy too.", "cue": "use", "a": "uses" },
+          { "s": "The study ____ 28 people.", "cue": "involve", "a": "involved" },
+          { "s": "Feeling exhausted for weeks should not ____ on a busy day.", "cue": "blame", "a": "be blamed" },
+          { "s": "A busy mind can feel tired even when the body ____ all day.", "cue": "sit", "a": "has been sitting" }
+        ]
+      },
+      "tfn": [
+        { "s": "The 2025 study involved 28 participants.", "a": "T" },
+        { "s": "The study explains all kinds of tiredness.", "a": "F" },
+        { "s": "Stress, poor sleep and illness can also cause tiredness.", "a": "T" },
+        { "s": "Mental fatigue affects younger people more than older ones.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "There was no ____ or long journey, just hours of thinking.", "a": "heavy lifting" },
+          { "s": "Someone may feel ____ despite barely moving all day.", "a": "worn out" },
+          { "s": "Fatigue can change our willingness to ____ difficult tasks.", "a": "take on" },
+          { "s": "The brain has not simply ____ energy like an empty battery.", "a": "run out of" },
+          { "s": "Ordinary tiredness may become ____ if it persists.", "a": "a warning sign" },
+          { "s": "People should ____ rather than dismissing exhaustion.", "a": "take recovery seriously" }
+        ],
+        "extra": ["use up", "persistent"]
+      },
+      "match": [
+        { "t": "wear out", "d": "make somebody extremely tired" },
+        { "t": "run out of", "d": "have no more of something left" },
+        { "t": "use something up", "d": "finish the whole supply of something" },
+        { "t": "persistent", "d": "continuing for a long time without stopping" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Researchers describe this experience as ____ fatigue.", "cue": "COGNITION", "a": "cognitive" },
+          { "s": "It does not mean their tiredness is ____.", "cue": "IMAGINE", "a": "imaginary" },
+          { "s": "They used brain ____ to investigate mental exertion.", "cue": "IMAGE", "a": "imaging" },
+          { "s": "Persistent tiredness has many possible causes, including psychological ____.", "cue": "DISTRESSING", "a": "distress" },
+          { "s": "The real problem may be ____ demands or poor sleep.", "cue": "EXCESS", "a": "excessive" }
+        ]
+      },
+      "tfn": [
+        { "s": "The study appeared in the Journal of Neuroscience in 2025.", "a": "T" },
+        { "s": "The study shows the brain runs out of energy like a battery.", "a": "F" },
+        { "s": "The experiment was relatively small.", "a": "T" },
+        { "s": "A larger follow-up study is under way.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Modern exhaustion is difficult to ____ in physical terms.", "a": "account for" },
+          { "s": "____ suggests they have barely left the chair.", "a": "A step counter" },
+          { "s": "The ____ demand can make further concentration unattractive.", "a": "cumulative" },
+          { "s": "Emotional interactions can be ____ as routine.", "a": "brushed aside" },
+          { "s": "Fatigue should not be used as ____.", "a": "an all-purpose explanation" },
+          { "s": "A plausible mechanism does not ____ illness or sleep disorders.", "a": "rule out" }
+        ],
+        "extra": ["strenuous", "nuanced"]
+      },
+      "match": [
+        { "t": "account for", "d": "provide an explanation for something" },
+        { "t": "rule something out", "d": "decide something is not a possibility" },
+        { "t": "strenuous", "d": "needing great physical effort" },
+        { "t": "nuanced", "d": "aware of small but important differences" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Cognitive effort has no obvious physical ____.", "cue": "SCORE", "a": "scoreboard" },
+          { "s": "The findings suggest that fatigue alters how demands are ____.", "cue": "EVALUATION", "a": "evaluated" },
+          { "s": "Sleep ____ can cause similar symptoms.", "cue": "DEPRIVE", "a": "deprivation" },
+          { "s": "Emotionally difficult work leaves no ____ product.", "cue": "TANGIBLY", "a": "tangible" },
+          { "s": "Better workloads and genuine ____ matter for mental work too.", "cue": "RECOVER", "a": "recovery" }
+        ]
+      },
+      "tfn": [
+        { "s": "Researchers used functional brain imaging with 28 participants.", "a": "T" },
+        { "s": "The article says cognitive fatigue explains all persistent exhaustion.", "a": "F" },
+        { "s": "The writer says institutions often judge effort by visible hours.", "a": "T" },
+        { "s": "Employers have begun introducing longer breaks as a result.", "a": "N" }
+      ]
+    }
+  }
+}

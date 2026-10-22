@@ -1,0 +1,109 @@
+{
+  "slug": "need-a-grandma-in-japan-you-can-hire-one",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Customers can ask an older woman to cook, teach a skill or ____ them.", "a": "spend time with" },
+          { "s": "A job like this can ____ money and fill the day with activity.", "a": "bring in" },
+          { "s": "Some families live ____, so visiting is not easy.", "a": "far away from one another" },
+          { "s": "A younger person can ____ a skill from somebody experienced.", "a": "pick up" },
+          { "s": "The older worker may enjoy ____ again.", "a": "feeling needed" }
+        ],
+        "extra": ["drop in", "patient"]
+      },
+      "match": [
+        { "t": "pick up", "d": "learn something without formal lessons" },
+        { "t": "drop in", "d": "visit somebody briefly and casually" },
+        { "t": "patient", "d": "able to wait calmly without complaining" },
+        { "t": "lonely", "d": "unhappy because you have nobody around" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "The service ____ OK! Obaachan.", "cue": "call", "a": "is called" },
+          { "s": "It ____ in 2011 and is run by a company called Client Partners.", "cue": "start", "a": "started" },
+          { "s": "Taeko Kaji ____ 69 when she spoke to Australian journalists.", "cue": "be", "a": "was" },
+          { "s": "She said she ____ going to different places.", "cue": "enjoy", "a": "enjoyed" },
+          { "s": "A paid visitor ____ a job, even if they are kind and friendly.", "cue": "do", "a": "is doing" }
+        ]
+      },
+      "tfn": [
+        { "s": "The service began in 2011.", "a": "T" },
+        { "s": "Every worker in the service is a real grandmother.", "a": "F" },
+        { "s": "Taeko Kaji was 69 when she spoke to journalists in 2025.", "a": "T" },
+        { "s": "The service is the largest of its kind in Japan.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Customers can arrange for an older woman to ____ practical knowledge.", "a": "pass on" },
+          { "s": "The business has been running since 2011 and shows no sign of ____.", "a": "winding down" },
+          { "s": "Workers may cook or ____ belongings for a customer.", "a": "sort out" },
+          { "s": "Others simply need ____ someone patient and experienced.", "a": "a hand from" },
+          { "s": "For older people, this work can mean income as well as ____.", "a": "a sense of purpose" },
+          { "s": "If contact between generations matters, why do we ____?", "a": "leave it to chance" }
+        ],
+        "extra": ["build up", "uncomfortable"]
+      },
+      "match": [
+        { "t": "pass on", "d": "give knowledge to somebody else" },
+        { "t": "wind down", "d": "gradually reduce activity before stopping" },
+        { "t": "build up", "d": "develop gradually over time" },
+        { "t": "uncomfortable", "d": "making you feel uneasy about something" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The women are paid ____ rather than volunteers.", "cue": "PROFESSION", "a": "professionals" },
+          { "s": "Some customers are looking for ____.", "cue": "COMPANION", "a": "companionship" },
+          { "s": "Skills built up over decades do not stop being ____.", "cue": "VALUE", "a": "valuable" },
+          { "s": "The service attracted attention because of growing social ____.", "cue": "ISOLATE", "a": "isolation" },
+          { "s": "Many valuable relationships involve professional ____.", "cue": "BOUND", "a": "boundaries" }
+        ]
+      },
+      "tfn": [
+        { "s": "The company does not claim the workers replace a customer's relatives.", "a": "T" },
+        { "s": "The writer says professional relationships are always fake.", "a": "F" },
+        { "s": "Taeko Kaji described enjoying the variety the job brings.", "a": "T" },
+        { "s": "The service has expanded outside Japan.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "The expression sounds almost deliberately ____.", "a": "provocative" },
+          { "s": "Something intimate has been ____ like any other service.", "a": "put on the market" },
+          { "s": "Clients value somebody willing to listen ____.", "a": "without judgement" },
+          { "s": "Those of ____ may find themselves priced out of reassurance.", "a": "limited means" },
+          { "s": "A visit cannot replicate the ____ of a family relationship.", "a": "mutual obligations" },
+          { "s": "____ the business as social decline would be too easy.", "a": "Writing off" }
+        ],
+        "extra": ["dwell on", "accumulated"]
+      },
+      "match": [
+        { "t": "write something off", "d": "dismiss something as having no value" },
+        { "t": "dwell on", "d": "spend time thinking carefully about something" },
+        { "t": "accumulated", "d": "collected gradually over a long period" },
+        { "t": "provocative", "d": "deliberately likely to cause argument" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The phrase invites a joke, and coverage has duly ____ one.", "cue": "SUPPLY", "a": "supplied" },
+          { "s": "The relationship is ____ professional.", "cue": "EXPLICIT", "a": "explicitly" },
+          { "s": "Paid companionship raises questions about ____ and inequality.", "cue": "AUTHENTIC", "a": "authenticity" },
+          { "s": "A commercial solution may relieve families of their ____.", "cue": "OBLIGE", "a": "obligations" },
+          { "s": "People have always sought wisdom beyond their ____ families.", "cue": "IMMEDIACY", "a": "immediate" }
+        ]
+      },
+      "tfn": [
+        { "s": "The service was set up by Client Partners in 2011.", "a": "T" },
+        { "s": "The writer concludes the business proves society is in decline.", "a": "F" },
+        { "s": "The article says people have always sought support beyond their families.", "a": "T" },
+        { "s": "Most customers of the service are under forty.", "a": "N" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "the-library-where-you-can-borrow-a-tent",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "You do not need to buy them. ____.", "a": "A library card is enough" },
+          { "s": "You should not have to buy everything before ____.", "a": "getting started" },
+          { "s": "The building itself is ____.", "a": "part of the experience" },
+          { "s": "Staff organise activities to help visitors ____.", "a": "pick up new skills" },
+          { "s": "A camera might encourage somebody to ____.", "a": "try something new" }
+        ],
+        "extra": ["bring back", "energy-efficient"]
+      },
+      "match": [
+        { "t": "pick up", "d": "learn something without formal lessons" },
+        { "t": "get started", "d": "begin doing something new" },
+        { "t": "energy-efficient", "d": "using as little power as possible" },
+        { "t": "bring back", "d": "return something you borrowed" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "The Anythink Nature Library ____ in August 2026.", "cue": "open", "a": "opened" },
+          { "s": "It has around 850 sets of equipment that visitors can ____.", "cue": "borrow", "a": "borrow" },
+          { "s": "The building ____ beside open land and has gardens and paths.", "cue": "stand", "a": "stands" },
+          { "s": "For children ____ up in cities, exploring outside may be valuable.", "cue": "grow", "a": "growing" },
+          { "s": "Some visitors said camping equipment ____ normally be too expensive.", "cue": "will", "a": "would" }
+        ]
+      },
+      "tfn": [
+        { "s": "The library is in Thornton, near Denver.", "a": "T" },
+        { "s": "Visitors must pay to borrow the nature equipment.", "a": "F" },
+        { "s": "The library uses solar panels.", "a": "T" },
+        { "s": "Other American states plan to copy the idea.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Many families cannot justify ____ on expensive equipment.", "a": "splashing out" },
+          { "s": "Another family borrowed a gardening kit to ____ a space for bees.", "a": "set up" },
+          { "s": "Access to the right equipment makes an activity feel less ____.", "a": "intimidating" },
+          { "s": "Outdoor activities involve costs that are ____.", "a": "easy to overlook" },
+          { "s": "Noticing birds in a local neighbourhood can be ____.", "a": "a meaningful starting point" },
+          { "s": "Curiosity should not depend on ____.", "a": "the size of someone's bank account" }
+        ],
+        "extra": ["take home", "accessible"]
+      },
+      "match": [
+        { "t": "splash out on", "d": "spend a lot of money on something enjoyable" },
+        { "t": "set up", "d": "arrange or create something new" },
+        { "t": "accessible", "d": "easy for anybody to reach or use" },
+        { "t": "take home", "d": "carry something back to where you live" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The idea is particularly ____ to families on a budget.", "cue": "ATTRACT", "a": "attractive" },
+          { "s": "The gardens are designed for different plants and ____.", "cue": "POLLINATE", "a": "pollinators" },
+          { "s": "Green spaces may not feel equally ____ to everybody.", "cue": "ACCESS", "a": "accessible" },
+          { "s": "Experiencing nature need not involve an ____ expedition.", "cue": "AMBITION", "a": "ambitious" },
+          { "s": "Libraries have traditionally provided ____ access to information.", "cue": "SHARE", "a": "shared" }
+        ]
+      },
+      "tfn": [
+        { "s": "The library offers about 850 sets of nature equipment.", "a": "T" },
+        { "s": "The library no longer lends ordinary books.", "a": "F" },
+        { "s": "The site covers 15 acres next to a larger area of open land.", "a": "T" },
+        { "s": "The equipment is funded by a local outdoor retailer.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "The Colorado experiment offers a more ____ definition of a library.", "a": "expansive" },
+          { "s": "Borrowing equipment ____ of trying something new.", "a": "lowered the financial and psychological stakes" },
+          { "s": "It offers a first encounter with activities that might remain ____.", "a": "out of reach" },
+          { "s": "Enjoying the outdoors can require time, clothing and ____.", "a": "a sense of belonging" },
+          { "s": "City residents may ____ very different obstacles.", "a": "come up against" },
+          { "s": "Borrowing shared equipment can ____ individual purchases.", "a": "cut down on" }
+        ],
+        "extra": ["inventive", "turn into"]
+      },
+      "match": [
+        { "t": "come up against", "d": "meet a difficulty you did not expect" },
+        { "t": "cut down on", "d": "reduce the amount of something" },
+        { "t": "inventive", "d": "full of original and clever ideas" },
+        { "t": "turn into", "d": "change and become something else" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Alongside a ____ collection of books, the library lends equipment.", "cue": "CONVENTION", "a": "conventional" },
+          { "s": "Adults can learn about ____ gardening and wildlife photography.", "cue": "DROUGHT", "a": "drought-resistant" },
+          { "s": "The library does not promise to make every visitor an ____ naturalist.", "cue": "ACCOMPLISH", "a": "accomplished" },
+          { "s": "Older people with limited ____ face different obstacles.", "cue": "MOBILE", "a": "mobility" },
+          { "s": "Public libraries are frequently required to ____ their existence.", "cue": "JUSTIFICATION", "a": "justify" }
+        ]
+      },
+      "tfn": [
+        { "s": "The library opened in Thornton in August 2026.", "a": "T" },
+        { "s": "The writer says environmental knowledge automatically changes behaviour.", "a": "F" },
+        { "s": "The building uses a geothermal heating and cooling system.", "a": "T" },
+        { "s": "Borrowing numbers have exceeded the library's own forecasts.", "a": "N" }
+      ]
+    }
+  }
+}

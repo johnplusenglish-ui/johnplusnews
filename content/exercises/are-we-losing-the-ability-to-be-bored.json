@@ -1,0 +1,109 @@
+{
+  "slug": "are-we-losing-the-ability-to-be-bored",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Many of us immediately ____ our phones.", "a": "pull out" },
+          { "s": "We watch a video or ____ social media.", "a": "scroll through" },
+          { "s": "There is always something to ____ with.", "a": "pass the time" },
+          { "s": "Boredom can encourage us to ____ a new activity.", "a": "take up" },
+          { "s": "A new video may ____ for a short time.", "a": "take our mind off it" }
+        ],
+        "extra": ["get used to", "uncomfortable"]
+      },
+      "match": [
+        { "t": "scroll through", "d": "move down a screen looking at content" },
+        { "t": "take up", "d": "start doing a new activity regularly" },
+        { "t": "get used to", "d": "become familiar with something new" },
+        { "t": "uncomfortable", "d": "feeling awkward or uneasy" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "You are ____ for a friend who is ten minutes late.", "cue": "wait", "a": "waiting" },
+          { "s": "Two psychologists ____ in 2024 discussed evidence about boredom.", "cue": "write", "a": "writing" },
+          { "s": "We ____ to something new appearing every few seconds.", "cue": "get", "a": "get used" },
+          { "s": "The researchers ____ a possible explanation, not proving a cause.", "cue": "discuss", "a": "were discussing" },
+          { "s": "Next time you have five empty minutes, you could try ____ your phone away.", "cue": "put", "a": "putting" }
+        ]
+      },
+      "tfn": [
+        { "s": "The article in Communications Psychology appeared in 2024.", "a": "T" },
+        { "s": "The researchers proved that phones cause boredom.", "a": "F" },
+        { "s": "People do not all feel boredom in the same way.", "a": "T" },
+        { "s": "Children are more easily bored than adults, according to the study.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "For many of us, reaching for a phone has become ____.", "a": "second nature" },
+          { "s": "Short videos encourage us to ____ as soon as our attention weakens.", "a": "move on" },
+          { "s": "Instead of becoming absorbed, we ____ an experience.", "a": "give up on" },
+          { "s": "Boredom depends on whether activities offer ____.", "a": "a sense of purpose" },
+          { "s": "An occasional boring moment allows our ____.", "a": "thoughts to wander" },
+          { "s": "Being bored is not always a sign that something has ____.", "a": "gone wrong" }
+        ],
+        "extra": ["keeping up with", "unbearable"]
+      },
+      "match": [
+        { "t": "second nature", "d": "done so often that it feels automatic" },
+        { "t": "give up on", "d": "stop trying with something or somebody" },
+        { "t": "keep up with", "d": "stay in contact with people or changes" },
+        { "t": "unbearable", "d": "too unpleasant to put up with" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Their article presents an ____ of existing research.", "cue": "INTERPRET", "a": "interpretation" },
+          { "s": "Having unlimited alternatives makes an activity feel ____.", "cue": "DISAPPOINT", "a": "disappointing" },
+          { "s": "Boredom is influenced by emotional health and ____.", "cue": "ISOLATE", "a": "isolation" },
+          { "s": "Researchers distinguish an occasional moment from ____ boredom.", "cue": "PERSIST", "a": "persistent" },
+          { "s": "The hypothesis questions a pattern of ____ consumption.", "cue": "AUTOMATE", "a": "automatic" }
+        ]
+      },
+      "tfn": [
+        { "s": "Katy Tam and Michael Inzlicht wrote the 2024 perspective article.", "a": "T" },
+        { "s": "The article proves smartphones cause a worldwide rise in boredom.", "a": "F" },
+        { "s": "The writers distinguish occasional boredom from persistent boredom.", "a": "T" },
+        { "s": "Boredom has risen fastest among teenagers.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "A few seconds of waiting can feel like ____.", "a": "a gap that demands to be filled" },
+          { "s": "The phone offers an ____ escape from the moment.", "a": "effortless" },
+          { "s": "Their argument is ____, not definitive evidence.", "a": "a research-informed hypothesis" },
+          { "s": "We move on before boredom can ____.", "a": "set in" },
+          { "s": "Brief periods without stimulation may reveal ____.", "a": "unmet needs" },
+          { "s": "None of this requires ____.", "a": "a heroic digital detox" }
+        ],
+        "extra": ["habitual", "interchangeable"]
+      },
+      "match": [
+        { "t": "set in", "d": "begin and seem likely to continue" },
+        { "t": "effortless", "d": "requiring no work at all" },
+        { "t": "habitual", "d": "done regularly without thinking" },
+        { "t": "interchangeable", "d": "able to be swapped without any difference" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The anticipated ____ of boredom has not materialised.", "cue": "DISAPPEAR", "a": "disappearance" },
+          { "s": "Digital platforms often reward rapid ____.", "cue": "SWITCH", "a": "switching" },
+          { "s": "Persistent boredom can be ____.", "cue": "DISTRESS", "a": "distressing" },
+          { "s": "There is also a risk of ____ about earlier generations.", "cue": "NOSTALGIC", "a": "nostalgia" },
+          { "s": "Deliberate ____ in a creative project may help.", "cue": "PARTICIPATE", "a": "participation" }
+        ]
+      },
+      "tfn": [
+        { "s": "The writers suggest digital media may contribute to the feeling it promises to remove.", "a": "T" },
+        { "s": "The article concludes that all screen time is interchangeable.", "a": "F" },
+        { "s": "Someone can be busy and still feel deeply bored.", "a": "T" },
+        { "s": "The researchers recommend a daily limit on phone use.", "a": "N" }
+      ]
+    }
+  }
+}

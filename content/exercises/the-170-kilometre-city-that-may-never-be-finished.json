@@ -1,0 +1,109 @@
+{
+  "slug": "the-170-kilometre-city-that-may-never-be-finished",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Nobody would spend an hour ____ on the way to work.", "a": "stuck in traffic" },
+          { "s": "The pictures looked like ____.", "a": "something from a science-fiction film" },
+          { "s": "They hoped it would help the country ____ new industries.", "a": "build up" },
+          { "s": "In May 2026, major work on The Line had been ____ until after 2030.", "a": "put off" },
+          { "s": "Costs can also ____ while the work goes on.", "a": "go up" }
+        ],
+        "extra": ["turn into", "costly"]
+      },
+      "match": [
+        { "t": "put something off", "d": "delay something until a later time" },
+        { "t": "build up", "d": "develop something gradually over time" },
+        { "t": "costly", "d": "requiring a great deal of money" },
+        { "t": "turn into", "d": "change and become something else" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "Imagine a city that ____ 170 kilometres long.", "cue": "be", "a": "is" },
+          { "s": "The Line ____ as part of NEOM.", "cue": "introduce", "a": "was introduced" },
+          { "s": "Designers ____ a completely new way of life.", "cue": "imagine", "a": "imagined" },
+          { "s": "Nobody ____ a city in a straight line before.", "cue": "build", "a": "has built" },
+          { "s": "A plan that looked affordable at the start may ____ impossible later.", "cue": "become", "a": "become" }
+        ]
+      },
+      "tfn": [
+        { "s": "The Line was planned to be 170 kilometres long.", "a": "T" },
+        { "s": "The project was officially cancelled in May 2026.", "a": "F" },
+        { "s": "The Line forms part of a larger plan called NEOM.", "a": "T" },
+        { "s": "Construction workers have been sent home.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "____, the design solved problems older cities have struggled with.", "a": "On paper" },
+          { "s": "Daily necessities would be ____ for every resident.", "a": "within easy reach" },
+          { "s": "A city on this scale would ____ vast amounts of material.", "a": "call for" },
+          { "s": "Work had been ____ until after 2030.", "a": "put back" },
+          { "s": "The report pointed to ____ between the vision and reality.", "a": "a widening gap" },
+          { "s": "Governments face ____ on their budgets.", "a": "competing demands" }
+        ],
+        "extra": ["get off the ground", "extraordinary"]
+      },
+      "match": [
+        { "t": "call for", "d": "require something in order to succeed" },
+        { "t": "put something back", "d": "move an event to a later date" },
+        { "t": "get off the ground", "d": "start and begin to succeed" },
+        { "t": "extraordinary", "d": "far beyond what is usual" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Homes would be stacked into a narrow, high-____ structure.", "cue": "DENSE", "a": "density" },
+          { "s": "NEOM is intended to attract international ____.", "cue": "INVEST", "a": "investment" },
+          { "s": "Ambitious experiments can drive ____ even when scaled back.", "cue": "INNOVATE", "a": "innovation" },
+          { "s": "Critics question whether the money is being invested ____.", "cue": "WISE", "a": "wisely" },
+          { "s": "A project that slips loses the ____ it was designed around.", "cue": "TECHNOLOGICAL", "a": "technology" }
+        ]
+      },
+      "tfn": [
+        { "s": "Semafor reported in May 2026 that work had been put back until after 2030.", "a": "T" },
+        { "s": "The report established that the plan had been permanently abandoned.", "a": "F" },
+        { "s": "The Line was intended to reduce dependence on private cars.", "a": "T" },
+        { "s": "Investors have asked for their money back.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "It was, ____, an unprecedented proposition.", "a": "by any measure" },
+          { "s": "The proposal was ____ a broader national ambition.", "a": "inseparable from" },
+          { "s": "The scale complicated any ____ assessment of delivery.", "a": "credible" },
+          { "s": "Work had been ____ until after 2030.", "a": "put on hold" },
+          { "s": "Megaprojects elsewhere have been quietly ____.", "a": "pared back" },
+          { "s": "What is built may bear only ____ to what was announced.", "a": "a family resemblance" }
+        ],
+        "extra": ["held to account", "unsustainable"]
+      },
+      "match": [
+        { "t": "put something on hold", "d": "stop work on something for now" },
+        { "t": "pare something back", "d": "reduce something to a smaller version" },
+        { "t": "hold somebody to account", "d": "make somebody answer for what they did" },
+        { "t": "unsustainable", "d": "impossible to continue for long" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "It was an ____ proposition in the history of city planning.", "cue": "PRECEDENT", "a": "unprecedented" },
+          { "s": "Its striking visual ____ turned a plan into a symbol.", "cue": "IDENTIFY", "a": "identity" },
+          { "s": "The systems must function in an extreme ____.", "cue": "ENVIRON", "a": "environment" },
+          { "s": "The language of sustainable ____ sits awkwardly with the costs.", "cue": "URBAN", "a": "urbanism" },
+          { "s": "Advocates argue that new solutions require ____.", "cue": "RISKY", "a": "risk" }
+        ]
+      },
+      "tfn": [
+        { "s": "The Line was designed to work with minimal reliance on conventional roads.", "a": "T" },
+        { "s": "Semafor declared the project officially cancelled.", "a": "F" },
+        { "s": "The writer says a scheme deferred by a decade re-emerges into a changed world.", "a": "T" },
+        { "s": "Saudi Arabia has announced a replacement project.", "a": "N" }
+      ]
+    }
+  }
+}

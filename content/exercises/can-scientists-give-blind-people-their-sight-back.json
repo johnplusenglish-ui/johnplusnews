@@ -1,0 +1,109 @@
+{
+  "slug": "can-scientists-give-blind-people-their-sight-back",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Scientists are ____ an unusual treatment that may help some people.", "a": "trying out" },
+          { "s": "The results of a small study ____, although the treatment is experimental.", "a": "offer some hope" },
+          { "s": "The goggles ____ pictures of the world into light signals.", "a": "turned" },
+          { "s": "The technology did not allow patients to ____ faces.", "a": "make out" },
+          { "s": "It is ____ whether similar results would occur in a larger group.", "a": "too early to know" }
+        ],
+        "extra": ["move around", "harmless"]
+      },
+      "match": [
+        { "t": "try out", "d": "test something to see whether it works" },
+        { "t": "make out", "d": "manage to see or hear something with difficulty" },
+        { "t": "harmless", "d": "unable to cause any damage" },
+        { "t": "move around", "d": "go from place to place within a space" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "The study ____ ten people with advanced retinitis pigmentosa.", "cue": "involve", "a": "involved" },
+          { "s": "First, doctors ____ a harmless virus into one eye.", "cue": "inject", "a": "injected" },
+          { "s": "The trial mainly ____ whether the treatment was safe.", "cue": "test", "a": "tested" },
+          { "s": "One serious problem ____ during an injection.", "cue": "occur", "a": "occurred" },
+          { "s": "Scientists hope the approach ____ more effective in the future.", "cue": "become", "a": "will become" }
+        ]
+      },
+      "tfn": [
+        { "s": "Ten people took part in the study.", "a": "T" },
+        { "s": "The treatment allowed patients to recognise faces.", "a": "F" },
+        { "s": "Six of the ten patients showed an important improvement in light sensitivity.", "a": "T" },
+        { "s": "The goggles will be available in shops next year.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "That may sound like a ____ achievement, but it could matter a great deal.", "a": "modest" },
+          { "s": "For somebody with severe sight loss it could ____.", "a": "make a practical difference" },
+          { "s": "The new treatment finds an unusual way to ____ the problem.", "a": "get around" },
+          { "s": "Six participants showed what researchers considered a ____ improvement.", "a": "clinically meaningful" },
+          { "s": "The system produced only a ____ form of visual information.", "a": "restricted" },
+          { "s": "It is important not to suggest the treatment is ____.", "a": "ready for general use" }
+        ],
+        "extra": ["carry out", "untreated"]
+      },
+      "match": [
+        { "t": "get around", "d": "find a way past a difficulty" },
+        { "t": "modest", "d": "small, and not claiming to be impressive" },
+        { "t": "carry out", "d": "perform a task that has been set" },
+        { "t": "untreated", "d": "given no medical help at all" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The disease destroys the light-____ cells in the retina.", "cue": "SENSE", "a": "sensitive" },
+          { "s": "The virus delivered ____ instructions for a light-sensitive protein.", "cue": "GENE", "a": "genetic" },
+          { "s": "Researchers recorded eye-related side effects, most of them ____.", "cue": "MODERATION", "a": "moderate" },
+          { "s": "It is important not to ____ the results of a small study.", "cue": "EXAGGERATION", "a": "exaggerate" },
+          { "s": "Further work will improve the images and test more ____.", "cue": "PARTICIPATE", "a": "participants" }
+        ]
+      },
+      "tfn": [
+        { "s": "The study appeared in the New England Journal of Medicine.", "a": "T" },
+        { "s": "The trial included an untreated comparison group.", "a": "F" },
+        { "s": "Patients who practised more with the goggles generally performed better.", "a": "T" },
+        { "s": "The treatment costs less than existing eye surgery.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "The reality of medical progress is usually more ____.", "a": "incremental" },
+          { "s": "The achievement is substantial, but it does not ____.", "a": "amount to curing blindness" },
+          { "s": "The approach seeks to ____ that distinction rather than rebuild the eye.", "a": "build on" },
+          { "s": "The visual information remained ____.", "a": "crude" },
+          { "s": "Detecting an outline is ____ restoring everyday sight.", "a": "a considerable distance from" },
+          { "s": "The trial was small, open-label and ____.", "a": "lacked a control group" }
+        ],
+        "extra": ["hold up", "adverse"]
+      },
+      "match": [
+        { "t": "incremental", "d": "happening in small stages rather than all at once" },
+        { "t": "crude", "d": "rough and lacking fine detail" },
+        { "t": "hold up", "d": "remain true when tested in harder conditions" },
+        { "t": "adverse", "d": "harmful, and the opposite of what was wanted" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The treatment enabled some people with ____ sight loss to detect light.", "cue": "PROFUNDITY", "a": "profound" },
+          { "s": "Photoreceptors are the ____ cells that convert light into signals.", "cue": "SPECIAL", "a": "specialised" },
+          { "s": "Several causes of retinal ____ might be addressed by the same mechanism.", "cue": "DEGENERATE", "a": "degeneration" },
+          { "s": "The results require careful ____.", "cue": "INTERPRET", "a": "interpretation" },
+          { "s": "For someone with severe visual ____, finding a doorway matters.", "cue": "IMPAIR", "a": "impairment" }
+        ]
+      },
+      "tfn": [
+        { "s": "The light-sensitive protein used in the study is called ChrimsonR.", "a": "T" },
+        { "s": "The trial proved how widely the benefits can be reproduced.", "a": "F" },
+        { "s": "Independent researchers welcomed the evidence from the study.", "a": "T" },
+        { "s": "A larger trial has been approved for next year.", "a": "N" }
+      ]
+    }
+  }
+}

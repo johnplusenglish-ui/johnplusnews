@@ -1,0 +1,109 @@
+{
+  "slug": "where-will-everyone-want-to-travel-in-2027",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Holbox is an island where tourists come for nature and ____.", "a": "a slower pace" },
+          { "s": "Before choosing a trending destination, it is sensible to ____.", "a": "do your homework" },
+          { "s": "____ whether local buses and trains are convenient.", "a": "Find out" },
+          { "s": "A famous restaurant may be ____ months in advance.", "a": "fully booked" },
+          { "s": "A beautiful island may be hard to ____.", "a": "get to" }
+        ],
+        "extra": ["pick up", "crowded"]
+      },
+      "match": [
+        { "t": "do your homework", "d": "find out the facts before you decide" },
+        { "t": "fully booked", "d": "with no places left to reserve" },
+        { "t": "crowded", "d": "containing too many people for the space" },
+        { "t": "pick up", "d": "gain ideas or skills along the way" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "In October 2026, Expedia ____ a list of fast-growing destinations.", "cue": "publish", "a": "published" },
+          { "s": "Busan ____ for beaches, markets and city life.", "cue": "know", "a": "is known" },
+          { "s": "Searches do not prove that millions of tourists ____ next year.", "cue": "arrive", "a": "will arrive" },
+          { "s": "A place ____ popular can be good for local businesses.", "cue": "become", "a": "becoming" },
+          { "s": "Online lists cannot tell you what ____ your family or budget.", "cue": "suit", "a": "will suit" }
+        ]
+      },
+      "tfn": [
+        { "s": "Expedia's list included Busan, Perugia, Punta del Este and Holbox.", "a": "T" },
+        { "s": "The searches prove that millions will visit these places.", "a": "F" },
+        { "s": "Expedia compared interest on its own platforms with an earlier period.", "a": "T" },
+        { "s": "Flights to Busan have become cheaper.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Some destinations have spent years ____.", "a": "outside the spotlight" },
+          { "s": "A city may suddenly ____ everywhere online after a popular film.", "a": "pop up" },
+          { "s": "The numbers ____ before anybody books a flight.", "a": "deserve careful reading" },
+          { "s": "Sudden popularity can ____ accommodation costs.", "a": "push up" },
+          { "s": "It is worth ____ transport options and seasonal crowding.", "a": "looking into" },
+          { "s": "The description ____ can be misleading.", "a": "hidden gem" }
+        ],
+        "extra": ["lively", "informed"]
+      },
+      "match": [
+        { "t": "pop up", "d": "appear suddenly in many places" },
+        { "t": "push up", "d": "cause a price to rise" },
+        { "t": "lively", "d": "full of energy and activity" },
+        { "t": "informed", "d": "based on good knowledge of the facts" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The list reflects growing ____ about a variety of places.", "cue": "CURIOUS", "a": "curiosity" },
+          { "s": "Rising interest does not necessarily ____ into bookings.", "cue": "TRANSLATION", "a": "translate" },
+          { "s": "Sudden popularity can place pressure on local ____.", "cue": "STRUCTURE", "a": "infrastructure" },
+          { "s": "Local authorities worry about housing costs and ____ damage.", "cue": "ENVIRON", "a": "environmental" },
+          { "s": "A company's ____ ranking is only one piece of information.", "cue": "POPULAR", "a": "popularity" }
+        ]
+      },
+      "tfn": [
+        { "s": "Expedia's Unpack '27 report was released in October 2026.", "a": "T" },
+        { "s": "All the places on the list are undiscovered.", "a": "F" },
+        { "s": "The list also featured places in Japan, Australia and Canada.", "a": "T" },
+        { "s": "Expedia has published the same list for five years.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "A destination that barely ____ last year is suddenly the place to visit.", "a": "cropped up" },
+          { "s": "The relationship between curiosity and experience is ____.", "a": "far from straightforward" },
+          { "s": "Predictions have a way of becoming ____.", "a": "self-fulfilling" },
+          { "s": "The report used ____ in flight and accommodation searches.", "a": "year-on-year growth" },
+          { "s": "Promotional language can ____ the consequences of rising demand.", "a": "play down" },
+          { "s": "Popularity alone is ____ understanding a place.", "a": "a poor substitute for" }
+        ],
+        "extra": ["weigh up", "impartial"]
+      },
+      "match": [
+        { "t": "crop up", "d": "appear or arise unexpectedly" },
+        { "t": "play something down", "d": "make something seem less serious" },
+        { "t": "weigh up", "d": "compare the factors before deciding" },
+        { "t": "impartial", "d": "not favouring one side over another" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Travel forecasts are designed to create ____.", "cue": "ANTICIPATE", "a": "anticipation" },
+          { "s": "The report's ____ is essential to understanding its claims.", "cue": "METHOD", "a": "methodology" },
+          { "s": "Publicity can ____ visitor pressure rather than reduce it.", "cue": "DIRECT", "a": "redirect" },
+          { "s": "A coastal location may rely on a ____ ecosystem.", "cue": "FRAGILITY", "a": "fragile" },
+          { "s": "A ____ interpretation requires more than enthusiasm.", "cue": "RESPOND", "a": "responsible" }
+        ]
+      },
+      "tfn": [
+        { "s": "Expedia compared searches from September 2025 to July 2026 with an earlier period.", "a": "T" },
+        { "s": "A percentage increase shows global visitor numbers.", "a": "F" },
+        { "s": "Holbox limits vehicle access on the island.", "a": "T" },
+        { "s": "Perugia has introduced a tourist tax.", "a": "N" }
+      ]
+    }
+  }
+}

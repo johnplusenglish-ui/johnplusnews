@@ -1,0 +1,109 @@
+{
+  "slug": "the-influencers-targeting-the-worlds-most-isolated-people",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "They have lived separately and ____ with the outside world.", "a": "have little contact" },
+          { "s": "Indian law ____ outsiders who have no permission.", "a": "keeps out" },
+          { "s": "He did not ____ any of the island's residents before leaving.", "a": "come across" },
+          { "s": "The concern is not simply that someone ____.", "a": "broke a rule" },
+          { "s": "The Sentinelese have ____ that they do not want contact.", "a": "made it clear" }
+        ],
+        "extra": ["pull in", "harmful"]
+      },
+      "match": [
+        { "t": "come across", "d": "meet or find somebody by chance" },
+        { "t": "make something clear", "d": "say something so nobody can misunderstand" },
+        { "t": "pull in", "d": "attract a large number of people" },
+        { "t": "harmful", "d": "causing damage to a person or thing" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "In March 2025, Mykhailo Polyakov ____ by small boat towards the island.", "cue": "travel", "a": "travelled" },
+          { "s": "The trip ____ with his arrest by Indian police.", "cue": "end", "a": "ended" },
+          { "s": "Outsiders ____ to travel there without permission.", "cue": "allow", "a": "are not allowed" },
+          { "s": "Even an ordinary infection can ____ terrible results.", "cue": "have", "a": "have" },
+          { "s": "Some communities choose ____ visitors and work with filmmakers.", "cue": "welcome", "a": "to welcome" }
+        ]
+      },
+      "tfn": [
+        { "s": "Polyakov was arrested by Indian police.", "a": "T" },
+        { "s": "He met and filmed several Sentinelese people.", "a": "F" },
+        { "s": "Survival International says there are almost 200 uncontacted groups.", "a": "T" },
+        { "s": "Polyakov was later fined by an Indian court.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "When Polyakov ____ towards the island, he took a camera and gifts.", "a": "set off" },
+          { "s": "Members of the community may be especially ____ to introduced diseases.", "a": "vulnerable" },
+          { "s": "The absence of any encounter does not make the visit ____.", "a": "harmless" },
+          { "s": "The incident is part of a debate about ____ for extraordinary footage.", "a": "the lengths some will go to" },
+          { "s": "____ such communities as unaware of the modern world is misleading.", "a": "Writing off" },
+          { "s": "Respecting a community's wishes may require ____ the island.", "a": "steering clear of" }
+        ],
+        "extra": ["keep away", "uninvited"]
+      },
+      "match": [
+        { "t": "set off", "d": "begin a journey to somewhere" },
+        { "t": "write somebody off", "d": "decide somebody has no value or ability" },
+        { "t": "keep away", "d": "stay at a distance from something" },
+        { "t": "uninvited", "d": "arriving without being asked" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The Sentinelese have repeatedly ____ contact with outsiders.", "cue": "RESISTANCE", "a": "resisted" },
+          { "s": "A rare video may attract followers or advertising ____.", "cue": "REVENUES", "a": "revenue" },
+          { "s": "Some groups use their own media to campaign for land ____.", "cue": "RIGHTFUL", "a": "rights" },
+          { "s": "Visitors may ____ the consequences of even a brief encounter.", "cue": "ESTIMATE", "a": "underestimate" },
+          { "s": "____ can encourage understanding, but it creates no right of entry.", "cue": "CURIOUS", "a": "Curiosity" }
+        ]
+      },
+      "tfn": [
+        { "s": "Survival International estimates there are 196 uncontacted groups.", "a": "T" },
+        { "s": "No Indigenous group has ever agreed to work with filmmakers.", "a": "F" },
+        { "s": "Polyakov landed on the island but met nobody.", "a": "T" },
+        { "s": "Indian authorities have increased patrols around the island.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "The episode exposed ____ digital ambition and Indigenous rights.", "a": "the uneasy intersection of" },
+          { "s": "Communities with little exposure may be ____ to infectious diseases.", "a": "exceptionally vulnerable" },
+          { "s": "His failure to meet anyone does not ____ the risk his arrival created.", "a": "cancel out" },
+          { "s": "His expedition reflects a broader problem in ____.", "a": "the attention economy" },
+          { "s": "Creators increasingly ____ the most isolated communities.", "a": "zero in on" },
+          { "s": "The label should not be mistaken for ignorance or ____.", "a": "a lack of agency" }
+        ],
+        "extra": ["draw in", "unsolicited"]
+      },
+      "match": [
+        { "t": "zero in on", "d": "give all your attention to one target" },
+        { "t": "cancel out", "d": "remove the effect of something else" },
+        { "t": "draw in", "d": "attract a large audience" },
+        { "t": "unsolicited", "d": "given or done without being asked for" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The more ____ a place appears, the greater its value as content.", "cue": "ELUDE", "a": "elusive" },
+          { "s": "Images presented as ____ can draw in enormous audiences.", "cue": "PRECEDENT", "a": "unprecedented" },
+          { "s": "Past encounters demonstrated the potential for violence and ____.", "cue": "EXPLOIT", "a": "exploitation" },
+          { "s": "Avoiding outsiders can be a ____ response to historical experience.", "cue": "DELIBERATION", "a": "deliberate" },
+          { "s": "Many groups live in regions threatened by logging and land ____.", "cue": "ENCROACH", "a": "encroachment" }
+        ]
+      },
+      "tfn": [
+        { "s": "The writer says public interest is not created simply by attracting attention.", "a": "T" },
+        { "s": "The piece argues that technical access grants moral permission.", "a": "F" },
+        { "s": "Some Indigenous groups use digital media to document threats to their land.", "a": "T" },
+        { "s": "Drone flights over North Sentinel Island have been banned.", "a": "N" }
+      ]
+    }
+  }
+}

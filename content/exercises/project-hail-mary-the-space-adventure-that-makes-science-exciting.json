@@ -1,0 +1,109 @@
+{
+  "slug": "project-hail-mary-the-space-adventure-that-makes-science-exciting",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Imagine ____ on a spaceship with no memory of how you got there.", "a": "waking up" },
+          { "s": "____, you may be the only person who can save Earth.", "a": "Worse still" },
+          { "s": "The film is ____ a popular novel by Andy Weir.", "a": "based on" },
+          { "s": "Grace travels towards a distant star to ____ an answer.", "a": "look for" },
+          { "s": "He makes mistakes ____ but keeps testing his ideas.", "a": "along the way" }
+        ],
+        "extra": ["come from", "frightened"]
+      },
+      "match": [
+        { "t": "based on", "d": "using something else as a starting point" },
+        { "t": "worse still", "d": "used to add an even more serious point" },
+        { "t": "frightened", "d": "feeling afraid of something" },
+        { "t": "come from", "d": "have a particular place as your origin" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "The science-fiction film, ____ in March 2026, stars Ryan Gosling.", "cue": "release", "a": "released" },
+          { "s": "Strange microorganisms ____ energy from the Sun.", "cue": "take", "a": "are taking" },
+          { "s": "If nobody stops them, Earth ____ too cold for people.", "cue": "become", "a": "will become" },
+          { "s": "The film ____ by Phil Lord and Christopher Miller.", "cue": "direct", "a": "was directed" },
+          { "s": "Audiences responded enthusiastically, and the film ____ millions of dollars.", "cue": "earn", "a": "earned" }
+        ]
+      },
+      "tfn": [
+        { "s": "Ryan Gosling plays a school science teacher.", "a": "T" },
+        { "s": "The organisms that threaten the Sun are based on real science.", "a": "F" },
+        { "s": "The filmmakers spoke to NASA experts.", "a": "T" },
+        { "s": "Andy Weir wrote the screenplay himself.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "A man ____ aboard a spacecraft, unable to remember his name.", "a": "comes round" },
+          { "s": "The filmmakers wanted to ____ Weir's scientific detail.", "a": "hold on to" },
+          { "s": "Scientists have ____ that the premise is not consistent with physics.", "a": "pointed out" },
+          { "s": "Gradually, the two ____ ways to communicate.", "a": "come up with" },
+          { "s": "He is hardly the ____ astronaut usually found in a blockbuster.", "a": "fearless" },
+          { "s": "A film must make a discovery understandable ____.", "a": "in a matter of seconds" }
+        ],
+        "extra": ["improvised", "mysterious"]
+      },
+      "match": [
+        { "t": "come round", "d": "become conscious again after being unconscious" },
+        { "t": "hold on to", "d": "keep something you already have" },
+        { "t": "improvised", "d": "invented quickly with whatever is available" },
+        { "t": "mysterious", "d": "strange and not yet explained" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The film is adapted from Andy Weir's ____ 2021 novel.", "cue": "SELL", "a": "bestselling" },
+          { "s": "Much of the drama comes from unexpected ____ and improvised solutions.", "cue": "FAIL", "a": "failures" },
+          { "s": "Nevertheless, ____ has its limits.", "cue": "PLAUSIBLE", "a": "plausibility" },
+          { "s": "The film asks what strangers might achieve through ____.", "cue": "COOPERATE", "a": "cooperation" },
+          { "s": "What makes the film ____ is its pleasure in curiosity.", "cue": "DISTINGUISH", "a": "distinctive" }
+        ]
+      },
+      "tfn": [
+        { "s": "The film earned more than $680 million worldwide.", "a": "T" },
+        { "s": "Reviews of the film were unanimous.", "a": "F" },
+        { "s": "Tau Ceti and 40 Eridani are real star systems.", "a": "T" },
+        { "s": "A sequel has been announced.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Project Hail Mary begins with ____ stakes.", "a": "apocalyptic" },
+          { "s": "His survival depends on the ____ business of working things out.", "a": "painstaking" },
+          { "s": "The central mechanism remains firmly ____.", "a": "in the realm of invention" },
+          { "s": "The film occupies an intriguing ____ between accuracy and invention.", "a": "middle ground" },
+          { "s": "Their relationship supplies the story with ____.", "a": "comic relief" },
+          { "s": "Adapting the novel meant ____ lengthy explanations into visual sequences.", "a": "boiling down" }
+        ],
+        "extra": ["exuberant", "conscientious"]
+      },
+      "match": [
+        { "t": "boil down", "d": "reduce something to its essential parts" },
+        { "t": "a middle ground", "d": "a position between two opposing views" },
+        { "t": "exuberant", "d": "full of lively energy and enthusiasm" },
+        { "t": "conscientious", "d": "careful to do a job thoroughly and well" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Its unlikely saviour is a teacher with almost no memory of his ____.", "cue": "MISSIONARY", "a": "mission" },
+          { "s": "The crisis is ____ imagined.", "cue": "EXTRAVAGANCE", "a": "extravagantly" },
+          { "s": "Astrophage is gloriously ____ under established physics.", "cue": "PLAUSIBLE", "a": "implausible" },
+          { "s": "First contact requires patience, ____ and mutual trust.", "cue": "HUMBLE", "a": "humility" },
+          { "s": "Detractors found some of the ____ overly emphatic.", "cue": "SENTIMENTAL", "a": "sentiment" }
+        ]
+      },
+      "tfn": [
+        { "s": "Astrophysicists have questioned the energy Astrophage would need to store.", "a": "T" },
+        { "s": "The film treats first contact as a contest for domination.", "a": "F" },
+        { "s": "Critics disagreed about the film's shifts in tone.", "a": "T" },
+        { "s": "The film won an award for its visual effects.", "a": "N" }
+      ]
+    }
+  }
+}

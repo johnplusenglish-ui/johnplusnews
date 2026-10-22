@@ -1,0 +1,109 @@
+{
+  "slug": "what-happens-when-your-bedroom-never-gets-dark",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "____ your bedroom when you turn off the light.", "a": "Look around" },
+          { "s": "Other reasons for poor sleep include stress and ____.", "a": "irregular working hours" },
+          { "s": "Many people enjoy softer light when they are ____.", "a": "getting ready for bed" },
+          { "s": "Some people need a nightlight when they ____ in the night.", "a": "get up" },
+          { "s": "Light is only one part of ____ of healthy sleep.", "a": "a much bigger picture" }
+        ],
+        "extra": ["switch off", "unnecessary"]
+      },
+      "match": [
+        { "t": "look around", "d": "turn your eyes over a whole space" },
+        { "t": "get up", "d": "leave your bed and stand" },
+        { "t": "unnecessary", "d": "not needed for any purpose" },
+        { "t": "switch off", "d": "stop a light or device working" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "Light ____ tell us when to be awake.", "cue": "help", "a": "helps" },
+          { "s": "In 2026, researchers ____ a review of 15 studies.", "cue": "publish", "a": "published" },
+          { "s": "They ____ that the highest exposure carried a 27% higher risk.", "cue": "find", "a": "found" },
+          { "s": "This was an association, not proof that light ____ every problem.", "cue": "cause", "a": "caused" },
+          { "s": "Light can enter a room while we ____.", "cue": "sleep", "a": "are sleeping" }
+        ]
+      },
+      "tfn": [
+        { "s": "The review involved more than 765,000 participants.", "a": "T" },
+        { "s": "The study proved that light causes sleep problems.", "a": "F" },
+        { "s": "Thick curtains may block streetlights.", "a": "T" },
+        { "s": "Most bedrooms in cities are too bright at night.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "When you ____ your bedroom light, darkness does not always follow.", "a": "put out" },
+          { "s": "Most of the included studies had some ____.", "a": "risk of bias" },
+          { "s": "____ unnecessary devices may create a better sleep environment.", "a": "Shutting down" },
+          { "s": "People working ____ may have fewer options.", "a": "night shifts" },
+          { "s": "An older person ____ at night may prefer a low light.", "a": "moving around" },
+          { "s": "Advisers must balance needs instead of making darkness ____.", "a": "an absolute rule" }
+        ],
+        "extra": ["rely on", "underlying"]
+      },
+      "match": [
+        { "t": "put out", "d": "make a light stop shining" },
+        { "t": "shut down", "d": "turn a device completely off" },
+        { "t": "rely on", "d": "depend on something for what you need" },
+        { "t": "underlying", "d": "below the surface and causing the problem" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Artificial light may ____ with signals for sleep.", "cue": "INTERFERENCE", "a": "interfere" },
+          { "s": "Participants with the greatest ____ had more sleep disturbance.", "cue": "EXPOSE", "a": "exposure" },
+          { "s": "Practical solutions need to be ____.", "cue": "REAL", "a": "realistic" },
+          { "s": "____ illumination close to bedtime sends unhelpful signals.", "cue": "EXCESS", "a": "Excessive" },
+          { "s": "____ difficulties can require professional advice.", "cue": "PERSIST", "a": "Persistent" }
+        ]
+      },
+      "tfn": [
+        { "s": "The review appeared in Environmental Research in March 2026.", "a": "T" },
+        { "s": "The review established that light alone causes poor sleep.", "a": "F" },
+        { "s": "Measuring the light somebody receives is difficult.", "a": "T" },
+        { "s": "Blackout blinds are recommended by sleep doctors.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Because these sources are familiar, we tend to ____ them.", "a": "tune out" },
+          { "s": "Our sleeping environment is ____ easily overlooked details.", "a": "made up of" },
+          { "s": "The glowing dot of a charger may seem ____.", "a": "insignificant" },
+          { "s": "The sensible conclusion is modest rather than ____.", "a": "alarmist" },
+          { "s": "This creates ____ rather than a demand to remove every light.", "a": "a design challenge" },
+          { "s": "____ is not a practical solution.", "a": "Plunging streets into darkness" }
+        ],
+        "extra": ["spill into", "preferable"]
+      },
+      "match": [
+        { "t": "tune out", "d": "stop noticing something familiar" },
+        { "t": "alarmist", "d": "creating more fear than the facts justify" },
+        { "t": "spill into", "d": "spread beyond where it belongs" },
+        { "t": "preferable", "d": "better than the alternative" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "A bedroom can appear dark while remaining surprisingly ____.", "cue": "ILLUMINATE", "a": "illuminated" },
+          { "s": "Exposure at biologically ____ times may alter sleep signals.", "cue": "APPROPRIATE", "a": "inappropriate" },
+          { "s": "Observational research cannot easily ____ these factors.", "cue": "TANGLE", "a": "disentangle" },
+          { "s": "A ____ reading could suggest that less light is always better.", "cue": "SIMPLE", "a": "simplistic" },
+          { "s": "Residents with mobility ____ may need low-level lighting.", "cue": "DIFFICULT", "a": "difficulties" }
+        ]
+      },
+      "tfn": [
+        { "s": "Across 15 studies, higher exposure was associated with poorer sleep.", "a": "T" },
+        { "s": "The 27% figure describes an individual's probability of insomnia.", "a": "F" },
+        { "s": "The findings have implications for architects and city authorities.", "a": "T" },
+        { "s": "Several cities have reduced their street lighting as a result.", "a": "N" }
+      ]
+    }
+  }
+}

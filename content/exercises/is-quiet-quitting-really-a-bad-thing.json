@@ -1,0 +1,109 @@
+{
+  "slug": "is-quiet-quitting-really-a-bad-thing",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "A worker arrives ____ and goes home when the day ends.", "a": "on time" },
+          { "s": "They do not ____ extra projects without pay.", "a": "take on" },
+          { "s": "Managers believe a good worker should ____ colleagues.", "a": "help out" },
+          { "s": "Workers may feel that ____ every week is unfair.", "a": "unpaid overtime" },
+          { "s": "Some teams give workers ____ after extra hours.", "a": "time off" }
+        ],
+        "extra": ["end up", "committed"]
+      },
+      "match": [
+        { "t": "help out", "d": "give assistance to somebody who needs it" },
+        { "t": "show initiative", "d": "act without waiting to be told" },
+        { "t": "committed", "d": "willing to give time and effort" },
+        { "t": "end up", "d": "reach a situation you did not plan" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "The name is confusing because these people ____ actually left their jobs.", "cue": "have", "a": "have not" },
+          { "s": "A 2026 Gallup report ____ that only 20% of employees were engaged.", "cue": "find", "a": "found" },
+          { "s": "Someone can work hard during paid hours and still ____ evenings free.", "cue": "keep", "a": "keep" },
+          { "s": "Managers should not assume that every emergency ____ by free work.", "cue": "solve", "a": "can be solved" },
+          { "s": "When people feel ____ fairly, they may be happier to help.", "cue": "treat", "a": "treated" }
+        ]
+      },
+      "tfn": [
+        { "s": "Gallup found 20% of employees worldwide were engaged in 2025.", "a": "T" },
+        { "s": "Quiet quitting means an employee has left the job.", "a": "F" },
+        { "s": "Some teams pay overtime for extra hours.", "a": "T" },
+        { "s": "Quiet quitting is most common among younger workers.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "The phrase became popular as workers debated ____.", "a": "work-life balance" },
+          { "s": "Judging colleagues only by their departure time ____.", "a": "misses the point" },
+          { "s": "An office worker may be able to ____ at the end of the day.", "a": "switch off" },
+          { "s": "Employers who ____ unpaid overtime may be hiding deeper problems.", "a": "rely on" },
+          { "s": "Unpaid goodwill can ____ problems that need real investment.", "a": "paper over" },
+          { "s": "A healthy workplace makes those ____ explicit.", "a": "trade-offs" }
+        ],
+        "extra": ["on call", "unremarkable"]
+      },
+      "match": [
+        { "t": "paper over", "d": "hide a problem instead of solving it" },
+        { "t": "miss the point", "d": "fail to understand what really matters" },
+        { "t": "on call", "d": "available to work if needed" },
+        { "t": "unremarkable", "d": "ordinary and not worth noticing" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "One manager might describe the person as ____ and sensible.", "cue": "DEPEND", "a": "dependable" },
+          { "s": "The discussion takes place against a problem of employee ____.", "cue": "ENGAGE", "a": "disengagement" },
+          { "s": "In another team, the same behaviour might be treated as ____.", "cue": "LOYAL", "a": "disloyalty" },
+          { "s": "Staffing levels determine whether flexibility feels like ____.", "cue": "EXPLOIT", "a": "exploitation" },
+          { "s": "A useful discussion concerns fair workloads and ____ expectations.", "cue": "REAL", "a": "realistic" }
+        ]
+      },
+      "tfn": [
+        { "s": "Gallup's 2026 report covered engagement in 2025.", "a": "T" },
+        { "s": "Engagement and quiet quitting measure the same thing.", "a": "F" },
+        { "s": "A healthcare worker may face an emergency just before a shift ends.", "a": "T" },
+        { "s": "Gallup found engagement had fallen since the previous year.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Limiting effort to the responsibilities ____ in a contract worries some managers.", "a": "set out" },
+          { "s": "Exceptional effort can quietly become the ____ for everybody.", "a": "baseline" },
+          { "s": "Organisations may benefit from ____.", "a": "an invisible extension of the working week" },
+          { "s": "A further complication is unequal ____.", "a": "bargaining power" },
+          { "s": "Employees should not be accused of refusing to ____.", "a": "pick up the slack" },
+          { "s": "The debate raises a question about ____ between staff and organisations.", "a": "the unwritten contract" }
+        ],
+        "extra": ["give up", "humane"]
+      },
+      "match": [
+        { "t": "pick up the slack", "d": "do the work somebody else has left" },
+        { "t": "bargaining power", "d": "the strength to negotiate good terms" },
+        { "t": "give something up", "d": "stop having or doing something" },
+        { "t": "humane", "d": "treating people with proper consideration" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The label is ____ because it implies something has been withdrawn.", "cue": "PROVOKE", "a": "provocative" },
+          { "s": "It is an ____ label applied to very different behaviours.", "cue": "PRECISE", "a": "imprecise" },
+          { "s": "Staff in ____ roles risk punishment for refusing extra work.", "cue": "SECURE", "a": "insecure" },
+          { "s": "The debate tends to ____ differences between sectors.", "cue": "OBSCURITY", "a": "obscure" },
+          { "s": "Transparent arrangements distinguish ____ flexibility from overwork.", "cue": "LEGITIMACY", "a": "legitimate" }
+        ]
+      },
+      "tfn": [
+        { "s": "Gallup estimated 20% of employees were engaged in 2025.", "a": "T" },
+        { "s": "The writer says employees have no responsibilities towards colleagues.", "a": "F" },
+        { "s": "The article notes that highly paid professionals can negotiate more easily.", "a": "T" },
+        { "s": "Gallup surveyed more than a million workers.", "a": "N" }
+      ]
+    }
+  }
+}

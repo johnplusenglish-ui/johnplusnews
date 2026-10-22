@@ -1,0 +1,109 @@
+{
+  "slug": "why-is-making-friends-so-difficult-after-30",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Friends ____, have children or move to other cities.", "a": "get married" },
+          { "s": "Technology can help people ____ when they live far apart.", "a": "keep in touch" },
+          { "s": "A person may have few people they can call when something ____.", "a": "goes wrong" },
+          { "s": "Other friendships can begin ____, in unexpected places.", "a": "later in life" },
+          { "s": "Friendship is worth planning for, not just something that happens ____.", "a": "by accident" }
+        ],
+        "extra": ["turn into", "dependable"]
+      },
+      "match": [
+        { "t": "keep in touch", "d": "stay in regular contact with somebody" },
+        { "t": "by accident", "d": "without anybody planning it" },
+        { "t": "dependable", "d": "able to be trusted when you need help" },
+        { "t": "turn into", "d": "change and become something else" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "When you are at school, ____ friends can feel natural.", "cue": "make", "a": "making" },
+          { "s": "Many people ____ this change in their thirties.", "cue": "notice", "a": "notice" },
+          { "s": "In 2025, the WHO ____ that one in six people felt lonely.", "cue": "report", "a": "reported" },
+          { "s": "Loneliness ____ when we want more connection than we have.", "cue": "happen", "a": "happens" },
+          { "s": "Building trust ____ time.", "cue": "take", "a": "takes" }
+        ]
+      },
+      "tfn": [
+        { "s": "The WHO reported that about one in six people worldwide felt lonely.", "a": "T" },
+        { "s": "Loneliness only affects people over thirty.", "a": "F" },
+        { "s": "Someone can feel lonely while living with other people.", "a": "T" },
+        { "s": "Most new friendships begin at work.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Those early friendships often begin ____.", "a": "almost by accident" },
+          { "s": "A friendship that once involved ____ evenings now needs planning.", "a": "spontaneous" },
+          { "s": "Someone usually has to ____ and suggest meeting again.", "a": "take the next step" },
+          { "s": "Two friends may ____ as their circumstances diverge.", "a": "drift apart" },
+          { "s": "New friendships can ____ much later in life.", "a": "spring up" },
+          { "s": "We should stop treating adult friendship as ____.", "a": "an optional extra" }
+        ],
+        "extra": ["fall back on", "content"]
+      },
+      "match": [
+        { "t": "drift apart", "d": "gradually become less close" },
+        { "t": "spring up", "d": "appear suddenly and unexpectedly" },
+        { "t": "fall back on", "d": "rely on somebody when you need support" },
+        { "t": "content", "d": "quietly satisfied with how things are" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The WHO's 2025 report on social ____ estimated the scale.", "cue": "CONNECT", "a": "connection" },
+          { "s": "The findings challenged a common ____ about older people.", "cue": "STEREOTYPICAL", "a": "stereotype" },
+          { "s": "Loneliness and social ____ are different things.", "cue": "ISOLATE", "a": "isolation" },
+          { "s": "People need time, ____ spaces and confidence.", "cue": "ACCESS", "a": "accessible" },
+          { "s": "Meaningful connection requires attention and ____.", "cue": "RECIPROCAL", "a": "reciprocity" }
+        ]
+      },
+      "tfn": [
+        { "s": "The WHO figures suggested loneliness was common among younger adults.", "a": "T" },
+        { "s": "Joining an activity guarantees a close friendship.", "a": "F" },
+        { "s": "Voice messages and video calls help relationships survive long distances.", "a": "T" },
+        { "s": "Loneliness has increased since the pandemic.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Friendship rarely appears ____.", "a": "out of nowhere" },
+          { "s": "The evidence resists a ____ narrative about loneliness after 30.", "a": "simplistic" },
+          { "s": "Both may fear seeming too keen or ____.", "a": "intrusive" },
+          { "s": "Making room for contact and ____ a good conversation matters.", "a": "following up" },
+          { "s": "A person may lack somebody to ____ during a crisis.", "a": "turn to" },
+          { "s": "Contact that ____ does not always indicate rejection.", "a": "tails off" }
+        ],
+        "extra": ["glamorous", "reciprocal"]
+      },
+      "match": [
+        { "t": "tail off", "d": "gradually become less frequent" },
+        { "t": "turn to", "d": "go to somebody for help" },
+        { "t": "glamorous", "d": "attractive and exciting to others" },
+        { "t": "reciprocal", "d": "given by each side to the other" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Modern routines make ____ connection remarkably demanding.", "cue": "SUSTAIN", "a": "sustained" },
+          { "s": "Professional commitments and geographical ____ reshape networks.", "cue": "MOBILE", "a": "mobility" },
+          { "s": "The practical difficulties are easy to ____.", "cue": "ESTIMATE", "a": "underestimate" },
+          { "s": "Another person may lack somebody with whom they can be ____.", "cue": "VULNERABILITY", "a": "vulnerable" },
+          { "s": "Expensive transport and ____ venues limit opportunities.", "cue": "ACCESS", "a": "inaccessible" }
+        ]
+      },
+      "tfn": [
+        { "s": "The WHO report estimated loneliness at about one in six people.", "a": "T" },
+        { "s": "The writer says becoming more outgoing is the solution.", "a": "F" },
+        { "s": "The article distinguishes loneliness from social isolation.", "a": "T" },
+        { "s": "Community funding for social spaces has been cut.", "a": "N" }
+      ]
+    }
+  }
+}

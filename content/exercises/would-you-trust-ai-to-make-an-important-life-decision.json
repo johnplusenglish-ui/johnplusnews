@@ -1,0 +1,109 @@
+{
+  "slug": "would-you-trust-ai-to-make-an-important-life-decision",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "It quickly ____ the advantages and disadvantages.", "a": "sets out" },
+          { "s": "AI can help us ____ useful questions.", "a": "come up with" },
+          { "s": "Acting on an incorrect answer could ____.", "a": "cause harm" },
+          { "s": "We can use its ideas and still ____ important facts.", "a": "look up" },
+          { "s": "This does not mean we should ____ AI completely.", "a": "give up on" }
+        ],
+        "extra": ["check the facts", "qualified"]
+      },
+      "match": [
+        { "t": "come up with", "d": "think of a new idea or question" },
+        { "t": "give up on", "d": "stop believing something is useful" },
+        { "t": "qualified", "d": "having the training needed for a job" },
+        { "t": "check the facts", "d": "make sure the information is correct" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "You have two job offers and ____ decide which to accept.", "cue": "can", "a": "cannot" },
+          { "s": "In a 2025 survey, Pew Research Center ____ Americans about AI.", "cue": "ask", "a": "asked" },
+          { "s": "AI can ____ mistakes or sound confident when it is wrong.", "cue": "make", "a": "make" },
+          { "s": "Suppose you ____ of moving to another country.", "cue": "think", "a": "are thinking" },
+          { "s": "The final responsibility still ____ to us.", "cue": "belong", "a": "belongs" }
+        ]
+      },
+      "tfn": [
+        { "s": "Pew asked Americans about different uses of AI in 2025.", "a": "T" },
+        { "s": "People were comfortable with AI deciding whether two people should be together.", "a": "F" },
+        { "s": "AI might help somebody prepare for a conversation with a doctor.", "a": "T" },
+        { "s": "Most chatbots now warn users about serious decisions.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "A mistaken medical or financial decision can be ____.", "a": "hard to undo" },
+          { "s": "____ opposed AI judging whether two people could fall in love.", "a": "A clear majority" },
+          { "s": "A chatbot could ____ considerations somebody had overlooked.", "a": "point out" },
+          { "s": "The tool can improve preparation without replacing ____.", "a": "professional judgement" },
+          { "s": "Users should not treat a chatbot like ____.", "a": "a confidential adviser" },
+          { "s": "____ AI altogether would mean losing useful support.", "a": "Ruling out" }
+        ],
+        "extra": ["hand over", "fluent"]
+      },
+      "match": [
+        { "t": "rule something out", "d": "decide against a possibility completely" },
+        { "t": "point out", "d": "draw attention to a fact" },
+        { "t": "hand over", "d": "give something to somebody else" },
+        { "t": "fluent", "d": "flowing smoothly and sounding natural" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Within seconds it produces a ____ answer.", "cue": "CONVINCE", "a": "convincing" },
+          { "s": "Respondents accepted AI less in ____ areas of life.", "cue": "INTIMACY", "a": "intimate" },
+          { "s": "It may provide ____ information in a confident tone.", "cue": "ACCURATE", "a": "inaccurate" },
+          { "s": "A patient could use it to understand medical ____.", "cue": "TERM", "a": "terminology" },
+          { "s": "Sharing financial details may expose ____ material.", "cue": "SENSE", "a": "sensitive" }
+        ]
+      },
+      "tfn": [
+        { "s": "The Pew survey covered more than 5,000 US adults.", "a": "T" },
+        { "s": "The article says AI should never be used for personal questions.", "a": "F" },
+        { "s": "A chatbot only knows the version of events you type.", "a": "T" },
+        { "s": "Pew repeated the survey in Europe.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "The growing use of AI for personal advice ____.", "a": "deserves scrutiny" },
+          { "s": "Producing a recommendation is not the same as possessing ____.", "a": "sound judgement" },
+          { "s": "Two-thirds believed AI should ____ in judging romantic compatibility.", "a": "have no role" },
+          { "s": "Serious decisions need ____.", "a": "qualified human oversight" },
+          { "s": "Its polished presentation can ____ missing context.", "a": "gloss over" },
+          { "s": "____ is considerably more dangerous than outsourcing thinking.", "a": "Outsourcing accountability" }
+        ],
+        "extra": ["fall back on", "receptive"]
+      },
+      "match": [
+        { "t": "gloss over", "d": "avoid dealing with an awkward fact" },
+        { "t": "fall back on", "d": "rely on something when nothing else is available" },
+        { "t": "receptive", "d": "willing to accept a new idea" },
+        { "t": "scrutiny", "d": "careful and critical examination" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "A ____ answer can be mistaken for a trustworthy one.", "cue": "PERSUADE", "a": "persuasive" },
+          { "s": "The technology organises information with ____ speed.", "cue": "REMARK", "a": "remarkable" },
+          { "s": "An AI system may reproduce ____ in its training data.", "cue": "BIASED", "a": "biases" },
+          { "s": "A ____ approach combines verification and expert advice.", "cue": "ROBUSTNESS", "a": "robust" },
+          { "s": "The more ____ the decision, the greater the need for evidence.", "cue": "CONSEQUENCE", "a": "consequential" }
+        ]
+      },
+      "tfn": [
+        { "s": "The Pew survey of 5,023 US adults took place in September 2025.", "a": "T" },
+        { "s": "The writer recommends ruling out AI assistance altogether.", "a": "F" },
+        { "s": "The article notes that human advisers can also be biased or expensive.", "a": "T" },
+        { "s": "AI companies have agreed to display accuracy warnings.", "a": "N" }
+      ]
+    }
+  }
+}

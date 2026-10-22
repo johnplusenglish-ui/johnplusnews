@@ -1,0 +1,109 @@
+{
+  "slug": "the-capybaras-taking-over-argentinas-richest-neighbourhood",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Imagine ____ your kitchen window and seeing an enormous animal.", "a": "looking out of" },
+          { "s": "For some residents, the animals are ____.", "a": "part of local life" },
+          { "s": "They worry about animals suddenly ____ in front of cars at night.", "a": "turning up" },
+          { "s": "As people ____ and built more homes, the animals lost space.", "a": "moved in" },
+          { "s": "The animals lost ____ of their natural space.", "a": "a great deal" }
+        ],
+        "extra": ["move around", "calm"]
+      },
+      "match": [
+        { "t": "move in", "d": "start living in a new place" },
+        { "t": "turn up", "d": "appear somewhere, often unexpectedly" },
+        { "t": "calm", "d": "relaxed and not easily upset" },
+        { "t": "move around", "d": "travel from one place to another" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "They ____ the world's largest living rodents.", "cue": "be", "a": "are" },
+          { "s": "In September 2026, a resident ____ firing a gun at capybaras.", "cue": "film", "a": "was filmed" },
+          { "s": "The incident ____ to complaints and an investigation.", "cue": "lead", "a": "led" },
+          { "s": "Before the houses ____, this land was part of a wetland.", "cue": "build", "a": "were built" },
+          { "s": "Campaigners have ____ protecting the natural areas that are left.", "cue": "suggest", "a": "suggested" }
+        ]
+      },
+      "tfn": [
+        { "s": "Capybaras are the world's largest living rodents.", "a": "T" },
+        { "s": "All residents of Nordelta enjoy having the animals nearby.", "a": "F" },
+        { "s": "The area was part of a wetland before the houses were built.", "a": "T" },
+        { "s": "The resident who fired the gun was arrested.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Capybaras wander across lawns ____.", "a": "as if they own the place" },
+          { "s": "The wetlands once ____ for miles around the development.", "a": "spread out" },
+          { "s": "The tension ____ in September 2026 after a shooting incident.", "a": "flared up" },
+          { "s": "Residents who had quietly ____ the situation found themselves arguing.", "a": "put up with" },
+          { "s": "Talk of an invasion turns the real history ____.", "a": "upside down" },
+          { "s": "Relocation may look straightforward ____.", "a": "on paper" }
+        ],
+        "extra": ["take over", "semi-aquatic"]
+      },
+      "match": [
+        { "t": "flare up", "d": "suddenly become much more intense" },
+        { "t": "spread out", "d": "cover a wide area of land" },
+        { "t": "take over", "d": "gain control of a place or thing" },
+        { "t": "semi-aquatic", "d": "living partly in water and partly on land" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The result is an ____ kind of coexistence.", "cue": "COMFORT", "a": "uncomfortable" },
+          { "s": "Capybaras are ____ to South America.", "cue": "NATURE", "a": "native" },
+          { "s": "Some residents report damage and awkward ____ with pets.", "cue": "COUNTER", "a": "encounters" },
+          { "s": "Environmental ____ argue that the history is being reversed.", "cue": "CAMPAIGN", "a": "campaigners" },
+          { "s": "Population control raises ____ and ethical questions.", "cue": "ECOLOGY", "a": "ecological" }
+        ]
+      },
+      "tfn": [
+        { "s": "The capybaras are native to South American wetlands.", "a": "T" },
+        { "s": "The capybaras arrived in Argentina from another continent.", "a": "F" },
+        { "s": "The September 2026 incident prompted formal complaints.", "a": "T" },
+        { "s": "Nordelta has built wildlife corridors since the incident.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Residents enjoy ____ gardens and artificial lakes.", "a": "landscaped" },
+          { "s": "The animals' ____ presence disrupts that arrangement.", "a": "unhurried" },
+          { "s": "The dispute ____ in September 2026 when footage emerged.", "a": "took a disturbing turn" },
+          { "s": "Relocation depends on somewhere the development has ____.", "a": "done away with" },
+          { "s": "The argument exposes ____ worth noticing.", "a": "a linguistic trap" },
+          { "s": "Whoever controls the vocabulary is ____ the policy.", "a": "halfway to controlling" }
+        ],
+        "extra": ["break up", "aberrant"]
+      },
+      "match": [
+        { "t": "do away with", "d": "get rid of something completely" },
+        { "t": "break something up", "d": "divide something into separate parts" },
+        { "t": "aberrant", "d": "different from what is normal" },
+        { "t": "unhurried", "d": "moving calmly and without rushing" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The animals are not newcomers in any meaningful ____ sense.", "cue": "ECOLOGY", "a": "ecological" },
+          { "s": "A family grazing on a lawn is entirely ____ wetland behaviour.", "cue": "ORDER", "a": "ordinary" },
+          { "s": "People raise concerns about ____ interactions with pets.", "cue": "PREDICT", "a": "unpredictable" },
+          { "s": "Residents seeking safety measures have ____ interests.", "cue": "LEGITIMACY", "a": "legitimate" },
+          { "s": "The challenge is to separate ____ management from assumption.", "cue": "EVIDENT", "a": "evidence-based" }
+        ]
+      },
+      "tfn": [
+        { "s": "Capybaras are group-dwelling relatives of the guinea pig.", "a": "T" },
+        { "s": "The writer dismisses the residents' safety concerns entirely.", "a": "F" },
+        { "s": "Footage of a resident firing at the animals emerged in September 2026.", "a": "T" },
+        { "s": "The Argentinian government has passed a law protecting capybaras.", "a": "N" }
+      ]
+    }
+  }
+}

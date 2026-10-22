@@ -1,0 +1,109 @@
+{
+  "slug": "why-do-we-feel-guilty-when-were-doing-nothing",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "You ____ with a cup of tea and immediately feel uneasy.", "a": "sit down" },
+          { "s": "They think about cleaning, exercising or ____ messages.", "a": "catching up on" },
+          { "s": "Some people call this feeling ____.", "a": "productivity guilt" },
+          { "s": "These moments may help us return to a problem with ____.", "a": "fresh energy" },
+          { "s": "You can simply decide what you ____.", "a": "feel like doing" }
+        ],
+        "extra": ["put down", "impressive"]
+      },
+      "match": [
+        { "t": "catch up on", "d": "do something you did not have time for" },
+        { "t": "feel like doing", "d": "want to do at that moment" },
+        { "t": "impressive", "d": "good enough to earn admiration" },
+        { "t": "put down", "d": "stop holding something in your hand" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "Many people find it difficult to relax without ____ guilty.", "cue": "feel", "a": "feeling" },
+          { "s": "In March 2026, Nature ____ to neuroscientist Joseph Jebelli.", "cue": "speak", "a": "spoke" },
+          { "s": "He described how he once ____ his value to his work.", "cue": "connect", "a": "connected" },
+          { "s": "Rest does not always ____ sleeping.", "cue": "mean", "a": "mean" },
+          { "s": "Other people do not need ____ of how you rest.", "cue": "approve", "a": "to approve" }
+        ]
+      },
+      "tfn": [
+        { "s": "Nature interviewed Joseph Jebelli in March 2026.", "a": "T" },
+        { "s": "Every type of rest works the same way for everybody.", "a": "F" },
+        { "s": "Rest can include sitting quietly or going for a slow walk.", "a": "T" },
+        { "s": "Jebelli's book became a bestseller.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "An empty weekend looks like a problem rather than a chance to ____.", "a": "slow down" },
+          { "s": "The feeling is sometimes called ____.", "a": "productivity guilt" },
+          { "s": "Activities that should be relaxing can ____ goals.", "a": "turn into" },
+          { "s": "A break may help people return with ____.", "a": "a clearer perspective" },
+          { "s": "We talk as though relaxation ____.", "a": "creates a debt" },
+          { "s": "We say we must ____ a lazy morning.", "a": "make up for" }
+        ],
+        "extra": ["fall behind", "unhurried"]
+      },
+      "match": [
+        { "t": "slow down", "d": "move or work at an easier pace" },
+        { "t": "make up for", "d": "compensate for something missed" },
+        { "t": "fall behind", "d": "fail to keep level with a schedule" },
+        { "t": "unhurried", "d": "done calmly, with no sense of rush" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Jebelli measured his personal ____ through hours spent working.", "cue": "VALUABLE", "a": "value" },
+          { "s": "Rest deserves a more important place in our ____.", "cue": "ROUTE", "a": "routines" },
+          { "s": "Telling everybody to rest more ignores real ____.", "cue": "EQUAL", "a": "inequalities" },
+          { "s": "Some workers have ____ schedules.", "cue": "PREDICT", "a": "unpredictable" },
+          { "s": "There is nothing ____ wrong with goals.", "cue": "INHERENT", "a": "inherently" }
+        ]
+      },
+      "tfn": [
+        { "s": "Jebelli discussed measuring his worth through working hours.", "a": "T" },
+        { "s": "The article says one routine suits everybody.", "a": "F" },
+        { "s": "Parents and carers may rarely have uninterrupted time.", "a": "T" },
+        { "s": "Productivity guilt is more common in cities.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Rest is sometimes justified only because it increases future ____.", "a": "productivity" },
+          { "s": "The instruction to 'just ____' sounds hollow to some people.", "a": "switch off" },
+          { "s": "____ a problem can sometimes support fresh thinking.", "a": "Stepping away from" },
+          { "s": "The challenge is to defend a walk that ____.", "a": "leads nowhere" },
+          { "s": "The vocabulary of self-improvement ____ where it once seemed odd.", "a": "crops up" },
+          { "s": "The most radical response may be declining to measure everything ____.", "a": "in the first place" }
+        ],
+        "extra": ["instrumental", "aimless"]
+      },
+      "match": [
+        { "t": "crop up", "d": "appear somewhere without being planned" },
+        { "t": "step away from", "d": "leave a task for a while" },
+        { "t": "instrumental", "d": "useful mainly as a means to something else" },
+        { "t": "aimless", "d": "without any particular purpose" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The pressure to be ____ has become familiar.", "cue": "PRODUCT", "a": "productive" },
+          { "s": "Personal value seems to depend on visible ____.", "cue": "PUT", "a": "output" },
+          { "s": "Career advice encourages constant professional ____.", "cue": "DEVELOP", "a": "development" },
+          { "s": "The instruction can sound ____ for some people.", "cue": "HOLLOWNESS", "a": "hollow" },
+          { "s": "Broad claims about rest require ____.", "cue": "CAUTIOUS", "a": "caution" }
+        ]
+      },
+      "tfn": [
+        { "s": "Jebelli argued that mental wandering can form part of effective thinking.", "a": "T" },
+        { "s": "The writer says every nap increases creativity.", "a": "F" },
+        { "s": "The article notes that not everyone has equal access to rest.", "a": "T" },
+        { "s": "Nature published a second interview on the same subject.", "a": "N" }
+      ]
+    }
+  }
+}

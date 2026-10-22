@@ -1,0 +1,109 @@
+{
+  "slug": "why-are-thousands-of-french-students-going-on-strike",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "When students refuse to go to school, it is usually because they want ____.", "a": "a day off" },
+          { "s": "They blocked entrances and ____ demonstrations.", "a": "joined in" },
+          { "s": "Students in other towns said they were ____ the same problems.", "a": "putting up with" },
+          { "s": "Greta Thunberg visited students in Saint-Denis to ____.", "a": "show her support" },
+          { "s": "They want schools that give everyone ____.", "a": "a fair chance" }
+        ],
+        "extra": ["stay away", "crowded"]
+      },
+      "match": [
+        { "t": "put up with", "d": "accept something unpleasant without complaining" },
+        { "t": "join in", "d": "take part in an activity with others" },
+        { "t": "crowded", "d": "containing too many people for the space" },
+        { "t": "stay away", "d": "not go to a place you normally go to" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "Thousands of teenagers ____ lessons for a very different reason.", "cue": "miss", "a": "have been missing" },
+          { "s": "At some schools, lessons ____ because there are not enough staff.", "cue": "cancel", "a": "are cancelled" },
+          { "s": "On 13 October, large demonstrations ____ place across France.", "cue": "take", "a": "took" },
+          { "s": "The government said it ____ send extra teachers to schools.", "cue": "will", "a": "would" },
+          { "s": "Many of them say they ____ not asking for luxury.", "cue": "be", "a": "are" }
+        ]
+      },
+      "tfn": [
+        { "s": "More than 160,000 people joined the demonstrations on 13 October.", "a": "T" },
+        { "s": "Every parent and teacher supported the student protests.", "a": "F" },
+        { "s": "The French government promised extra replacement teachers.", "a": "T" },
+        { "s": "The protests have already led to new school buildings.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Thousands of secondary-school students have ____ of lessons.", "a": "walked out" },
+          { "s": "Students describe ____ classrooms and buildings in poor condition.", "a": "overcrowded" },
+          { "s": "What began as local anger quickly ____ a wider movement.", "a": "grew into" },
+          { "s": "Organisers ____ than the official estimate.", "a": "put the figure much higher" },
+          { "s": "Their demands are modest, which is part of why they are hard to ____.", "a": "brush off" },
+          { "s": "Unions argue the shortage has been ____ for years.", "a": "building up" }
+        ],
+        "extra": ["clear up", "temporary"]
+      },
+      "match": [
+        { "t": "walk out", "d": "leave a place suddenly as a protest" },
+        { "t": "brush off", "d": "refuse to take a complaint seriously" },
+        { "t": "temporary", "d": "lasting only a short time" },
+        { "t": "clear up", "d": "deal with a problem so it no longer exists" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Their complaint is ____: schools are struggling.", "cue": "FORWARD", "a": "straightforward" },
+          { "s": "Unions argued that temporary measures would not solve years of ____.", "cue": "INVEST", "a": "underinvestment" },
+          { "s": "Some marches led to clashes with police, injuries and ____.", "cue": "ARREST", "a": "arrests" },
+          { "s": "Campaigners accused police of using ____ force.", "cue": "EXCESS", "a": "excessive" },
+          { "s": "The movement raises the question of educational ____.", "cue": "EQUAL", "a": "inequality" }
+        ]
+      },
+      "tfn": [
+        { "s": "The campaign gained attention at Lycée Paul Éluard in Saint-Denis.", "a": "T" },
+        { "s": "All the marches passed off peacefully.", "a": "F" },
+        { "s": "The government promised 3,000 additional replacement teachers.", "a": "T" },
+        { "s": "The education minister met the student organisers.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Pupils have mobilised in protest at ____ buildings and staff shortages.", "a": "dilapidated" },
+          { "s": "Students described an environment that ____ the promised standards.", "a": "fell short of" },
+          { "s": "Pupils have been quick to ____ that the gap is their daily timetable.", "a": "point out" },
+          { "s": "Campaigners insist that ____ cannot replace sustained investment.", "a": "stopgap staffing arrangements" },
+          { "s": "Competing priorities make additional spending ____.", "a": "contentious" },
+          { "s": "Supporters respond that accepting ____ carries its own long-term cost.", "a": "the status quo" }
+        ],
+        "extra": ["lay bare", "chronic"]
+      },
+      "match": [
+        { "t": "fall short of", "d": "fail to reach the level that was promised" },
+        { "t": "the status quo", "d": "the way things are at the moment" },
+        { "t": "lay bare", "d": "show clearly something that was hidden" },
+        { "t": "chronic", "d": "lasting a long time and hard to cure" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Pupils protested at ____ facilities and disrupted timetables.", "cue": "ADEQUATE", "a": "inadequate" },
+          { "s": "Their grievances ____ well beyond the school gates.", "cue": "RESONANCE", "a": "resonated" },
+          { "s": "Schools are supposed to embody republican ____.", "cue": "EQUAL", "a": "equality" },
+          { "s": "Shortages and ____ infrastructure are not distributed evenly.", "cue": "DETERIORATE", "a": "deteriorating" },
+          { "s": "Many teenagers are encountering organised political ____ for the first time.", "cue": "ACTIVE", "a": "activism" }
+        ]
+      },
+      "tfn": [
+        { "s": "Official figures put the 13 October turnout above 160,000.", "a": "T" },
+        { "s": "The writer concludes that the movement has already secured lasting change.", "a": "F" },
+        { "s": "Ministers face pressure to contain public expenditure and debt.", "a": "T" },
+        { "s": "Similar school protests have begun in Belgium and Spain.", "a": "N" }
+      ]
+    }
+  }
+}

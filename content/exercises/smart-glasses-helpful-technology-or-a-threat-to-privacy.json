@@ -1,0 +1,109 @@
+{
+  "slug": "smart-glasses-helpful-technology-or-a-threat-to-privacy",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Imagine ____ glasses that can read a menu aloud.", "a": "putting on" },
+          { "s": "Some can give information without the wearer ____ a phone.", "a": "taking out" },
+          { "s": "Private moments could ____ in the wrong hands.", "a": "end up" },
+          { "s": "Once a video is online, it is very hard to ____.", "a": "take it back" },
+          { "s": "These concerns have ____ stronger rules in Australia.", "a": "led to calls for" }
+        ],
+        "extra": ["take away", "harmful"]
+      },
+      "match": [
+        { "t": "end up", "d": "reach a situation you did not plan" },
+        { "t": "in the wrong hands", "d": "held by somebody who should not have it" },
+        { "t": "harmful", "d": "causing damage to a person or thing" },
+        { "t": "take away", "d": "remove something that somebody had" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "These glasses already ____.", "cue": "exist", "a": "exist" },
+          { "s": "Someone might ____ at school or at work without knowing about it.", "cue": "film", "a": "be filmed" },
+          { "s": "Matt Henderson ____ deaf since birth.", "cue": "be", "a": "has been" },
+          { "s": "In 2026, the Australian Greens ____ a temporary ban on certain glasses.", "cue": "propose", "a": "proposed" },
+          { "s": "The government said it ____ not planning its own import ban.", "cue": "be", "a": "was" }
+        ]
+      },
+      "tfn": [
+        { "s": "Chris Edwards uses smart glasses to read recipes and find his way around.", "a": "T" },
+        { "s": "Australia has already banned imports of camera-equipped smart glasses.", "a": "F" },
+        { "s": "The Greens' proposal included exceptions for disability devices.", "a": "T" },
+        { "s": "Smart glasses are more expensive in Australia than elsewhere.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "That difference is ____ a growing privacy debate in Australia.", "a": "at the centre of" },
+          { "s": "Some models allow users to record people ____.", "a": "discreetly" },
+          { "s": "An investigation into cheap devices has ____ about security.", "a": "raised concerns" },
+          { "s": "The proposal would stop ____ access to recordings and data.", "a": "unauthorised" },
+          { "s": "Users have to ____ the glasses for captions to appear.", "a": "rely on" },
+          { "s": "Good rules may struggle to ____ rapidly changing devices.", "a": "keep up with" }
+        ],
+        "extra": ["take out", "inappropriate"]
+      },
+      "match": [
+        { "t": "raise concerns", "d": "make people start to worry about something" },
+        { "t": "unauthorised", "d": "done without official permission" },
+        { "t": "take out", "d": "remove something from a bag or pocket" },
+        { "t": "inappropriate", "d": "not suitable for the situation" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The features that make the glasses practical can also make them ____.", "cue": "INTRUDE", "a": "intrusive" },
+          { "s": "Both men describe the technology as reducing their ____ on other people.", "cue": "DEPEND", "a": "dependence" },
+          { "s": "Clear recording ____ could protect privacy without removing benefits.", "cue": "INDICATE", "a": "indicators" },
+          { "s": "Disability ____ worry about suspicion towards people who use the glasses.", "cue": "ADVOCACY", "a": "advocates" },
+          { "s": "Stronger rules need meaningful ____ for misuse.", "cue": "PENALISE", "a": "penalties" }
+        ]
+      },
+      "tfn": [
+        { "s": "Matt Henderson is an Australian town planner who uses live captions.", "a": "T" },
+        { "s": "The federal government planned to introduce its own import ban.", "a": "F" },
+        { "s": "The Greens proposed a 12-month ban on certain imports.", "a": "T" },
+        { "s": "Several Australian schools have already banned smart glasses.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "The tension has ____ a technological debate into national politics.", "a": "spilled over from" },
+          { "s": "Proposals to ____ imports prompted warnings about unintended consequences.", "a": "crack down on" },
+          { "s": "He obtains information that sighted people often ____.", "a": "take for granted" },
+          { "s": "The prospect of ____ footage raises obvious questions about consent.", "a": "covert" },
+          { "s": "As wearable technology becomes less ____, the usual social signals disappear.", "a": "conspicuous" },
+          { "s": "Accessibility cannot be invoked as ____ for unrestricted recording.", "a": "a blanket justification" }
+        ],
+        "extra": ["foolproof", "throw up"]
+      },
+      "match": [
+        { "t": "crack down on", "d": "deal with something much more strictly" },
+        { "t": "conspicuous", "d": "easy to see and hard to miss" },
+        { "t": "foolproof", "d": "so simple or safe that it cannot fail" },
+        { "t": "throw up", "d": "produce a question or problem unexpectedly" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "To critics, smart glasses are an ____ development in everyday surveillance.", "cue": "SETTLE", "a": "unsettling" },
+          { "s": "For some Australians, the devices represent a ____ gain in independence.", "cue": "PROFUNDITY", "a": "profound" },
+          { "s": "____ cameras can blur the distinction between looking and recording.", "cue": "MINIATURE", "a": "Miniaturised" },
+          { "s": "Cheap devices may lack ____ safeguards against unauthorised access.", "cue": "ADEQUACY", "a": "adequate" },
+          { "s": "A camera can undermine one person's ____ while helping another regain it.", "cue": "AUTONOMOUS", "a": "autonomy" }
+        ]
+      },
+      "tfn": [
+        { "s": "Chris Edwards works with Vision Australia.", "a": "T" },
+        { "s": "The Greens' measure was an existing national prohibition.", "a": "F" },
+        { "s": "The writer argues that enforcement gets harder as devices shrink.", "a": "T" },
+        { "s": "Manufacturers have agreed to add brighter recording lights.", "a": "N" }
+      ]
+    }
+  }
+}

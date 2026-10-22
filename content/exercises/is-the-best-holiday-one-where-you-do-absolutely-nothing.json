@@ -1,0 +1,109 @@
+{
+  "slug": "is-the-best-holiday-one-where-you-do-absolutely-nothing",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Imagine ____ without any plans at all.", "a": "waking up" },
+          { "s": "You could take a walk and see where you ____.", "a": "end up" },
+          { "s": "With only a week away, people feel that ____.", "a": "every minute needs to count" },
+          { "s": "You could simply enjoy ____ in the sunshine.", "a": "a long lunch" },
+          { "s": "Travelling slowly can be expensive if you need more days ____.", "a": "away from work" }
+        ],
+        "extra": ["go away", "restful"]
+      },
+      "match": [
+        { "t": "end up", "d": "arrive somewhere you did not plan" },
+        { "t": "fit something into", "d": "find room for it in a busy schedule" },
+        { "t": "restful", "d": "giving you a feeling of calm" },
+        { "t": "go away", "d": "leave home for a holiday" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "But a busy holiday can ____ people feeling tired.", "cue": "leave", "a": "leave" },
+          { "s": "A 2025 survey ____ that 45% wanted rest and relaxation.", "cue": "find", "a": "found" },
+          { "s": "Some people have ____ money for years to see famous sights.", "cue": "save", "a": "saved" },
+          { "s": "Even a short weekend can feel restful if you do not try ____ too much in.", "cue": "fit", "a": "to fit" },
+          { "s": "Before ____ every hour, it may be worth asking what you need.", "cue": "plan", "a": "planning" }
+        ]
+      },
+      "tfn": [
+        { "s": "A 2025 Marist Poll found 45% named rest and relaxation as their aim.", "a": "T" },
+        { "s": "The article says everyone should take a slow holiday.", "a": "F" },
+        { "s": "A slower holiday might mean staying in one place.", "a": "T" },
+        { "s": "Slow holidays are becoming more popular in Europe.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "____ can be enjoyable, especially on a first visit.", "a": "A packed itinerary" },
+          { "s": "Travellers rush between attractions before ____ to the next place.", "a": "moving on" },
+          { "s": "Someone might return to the same beach ____.", "a": "several days in a row" },
+          { "s": "Staying longer creates chances to ____ a neighbourhood.", "a": "get to know" },
+          { "s": "An empty itinerary might feel like ____.", "a": "a missed opportunity" },
+          { "s": "A couple with limited ____ may prefer a planned weekend.", "a": "annual leave" }
+        ],
+        "extra": ["get more out of", "unstructured"]
+      },
+      "match": [
+        { "t": "get to know", "d": "become familiar with a place or person" },
+        { "t": "a packed itinerary", "d": "a travel plan with no spare time in it" },
+        { "t": "get more out of", "d": "gain greater benefit from something" },
+        { "t": "unstructured", "d": "without a fixed plan or order" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "A week abroad can feel like an unusually ____ job.", "cue": "DEMAND", "a": "demanding" },
+          { "s": "The desire for rest is not ____.", "cue": "IMAGINE", "a": "imaginary" },
+          { "s": "Visitors should not ____ ordinary communities as entertainment.", "cue": "ROMANTIC", "a": "romanticise" },
+          { "s": "Its ____ impact depends on more than the length of stay.", "cue": "ENVIRON", "a": "environmental" },
+          { "s": "Nor is a longer stay automatically ____.", "cue": "SUSTAIN", "a": "sustainable" }
+        ]
+      },
+      "tfn": [
+        { "s": "The Marist Poll was published in July 2025.", "a": "T" },
+        { "s": "The survey proves slow travel is becoming more popular everywhere.", "a": "F" },
+        { "s": "Slow travel means accepting that you will miss things.", "a": "T" },
+        { "s": "Younger travellers prefer slower holidays.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "The modern holiday is often organised around ____.", "a": "a fear of missing out" },
+          { "s": "Holiday planning increasingly resembles ____.", "a": "project management" },
+          { "s": "A visitor may ____ indoors for a fortnight and see very little.", "a": "shut themselves away" },
+          { "s": "Slow travel encourages visitors to ____ the photographed landmarks.", "a": "move beyond" },
+          { "s": "International travel can require ____ and limited leave.", "a": "substantial expenditure" },
+          { "s": "Value is not proportional to the number of attractions ____.", "a": "ticked off" }
+        ],
+        "extra": ["pass through", "liberating"]
+      },
+      "match": [
+        { "t": "tick something off", "d": "mark an item as completed on a list" },
+        { "t": "shut yourself away", "d": "stay indoors away from other people" },
+        { "t": "pass through", "d": "go somewhere briefly without stopping properly" },
+        { "t": "liberating", "d": "giving a welcome sense of freedom" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Booking platforms produce an ____ catalogue of experiences.", "cue": "END", "a": "endless" },
+          { "s": "The result may be impressive, but not necessarily ____.", "cue": "RESTORE", "a": "restorative" },
+          { "s": "An ____ walk may provide a sense of freedom.", "cue": "AIM", "a": "aimless" },
+          { "s": "The survey did not directly measure slow travel, nor its ____.", "cue": "POPULAR", "a": "popularity" },
+          { "s": "Perhaps the most ____ decision is to leave some hours unclaimed.", "cue": "LIBERTY", "a": "liberating" }
+        ]
+      },
+      "tfn": [
+        { "s": "In the poll, 45% of those planning a holiday named rest as their main aim.", "a": "T" },
+        { "s": "The writer says staying longer automatically makes tourism responsible.", "a": "F" },
+        { "s": "The freedom to travel slowly is unequally distributed.", "a": "T" },
+        { "s": "The poll was repeated in several European countries.", "a": "N" }
+      ]
+    }
+  }
+}

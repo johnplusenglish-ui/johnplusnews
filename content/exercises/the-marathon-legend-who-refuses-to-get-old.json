@@ -1,0 +1,109 @@
+{
+  "slug": "the-marathon-legend-who-refuses-to-get-old",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Some people have suggested that ____.", "a": "his best days are behind him" },
+          { "s": "In recent years, things ____.", "a": "have not always gone his way" },
+          { "s": "Running ____ is hard on the body.", "a": "at the highest level" },
+          { "s": "He stayed with the leaders before ____ in the final ten kilometres.", "a": "breaking away" },
+          { "s": "For many runners, simply reaching ____ was a major achievement.", "a": "the finish line" }
+        ],
+        "extra": ["run out of", "ambitious"]
+      },
+      "match": [
+        { "t": "break away", "d": "move ahead of the group you were with" },
+        { "t": "run out of", "d": "have no more of something left" },
+        { "t": "ambitious", "d": "aiming at something difficult to achieve" },
+        { "t": "give up on", "d": "stop believing something is possible" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "On 11 October 2026, the Kenyan runner ____ the Melbourne Marathon.", "cue": "win", "a": "won" },
+          { "s": "Thousands of people had ____ to watch one of the most famous runners.", "cue": "come", "a": "come" },
+          { "s": "Younger athletes often find it easier ____ their speed.", "cue": "maintain", "a": "to maintain" },
+          { "s": "In 2019, he also ____ a marathon distance in under two hours.", "cue": "run", "a": "ran" },
+          { "s": "Some participants complained that water stations ____ out of drinks.", "cue": "run", "a": "had run" }
+        ]
+      },
+      "tfn": [
+        { "s": "Kipchoge won the Melbourne Marathon in 2:09:10.", "a": "T" },
+        { "s": "His 2019 sub-two-hour run counted as an official world record.", "a": "F" },
+        { "s": "Some participants complained about overcrowding at the event.", "a": "T" },
+        { "s": "Kipchoge has said he will retire after this season.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "He ____ from his closest rivals during the final ten kilometres.", "a": "pulled away" },
+          { "s": "He ____ at the Melbourne Cricket Ground.", "a": "crossed the finish line" },
+          { "s": "There comes a point when experience can no longer ____ lost speed.", "a": "make up for" },
+          { "s": "He ran a controlled race and ____ late on.", "a": "made his decisive move" },
+          { "s": "His pace has changed, but his competitive instincts ____.", "a": "remain intact" },
+          { "s": "The result challenges the idea that achievement has ____.", "a": "a fixed expiry date" }
+        ],
+        "extra": ["write off", "elite"]
+      },
+      "match": [
+        { "t": "pull away", "d": "move further ahead of the others" },
+        { "t": "make up for", "d": "compensate for something that is missing" },
+        { "t": "write somebody off", "d": "decide somebody can no longer succeed" },
+        { "t": "elite", "d": "among the very best in a field" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "His 2019 run was not ____ for an official record.", "cue": "ELIGIBILITY", "a": "eligible" },
+          { "s": "Results did not match his earlier ____.", "cue": "DOMINANT", "a": "dominance" },
+          { "s": "Training places enormous pressure on muscles and ____.", "cue": "JOINT", "a": "joints" },
+          { "s": "Questions about retirement followed ____.", "cue": "EVITABLE", "a": "inevitably" },
+          { "s": "The complaints became a story about the ____ of a mass event.", "cue": "ORGANISE", "a": "organisation" }
+        ]
+      },
+      "tfn": [
+        { "s": "Kipchoge won Olympic marathon titles in Rio and Tokyo.", "a": "T" },
+        { "s": "His Melbourne time was a personal best.", "a": "F" },
+        { "s": "Thomas Do Canto and Reece Edwards could not stay with him.", "a": "T" },
+        { "s": "The organisers have apologised for the water shortages.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "____, with a final moment of applause before the decline.", "a": "Sport likes a neat farewell" },
+          { "s": "He offered an ____ response to his critics.", "a": "emphatic" },
+          { "s": "Some observers had begun to ____.", "a": "regard his retirement as overdue" },
+          { "s": "Recent years brought setbacks and ____ performances.", "a": "inconsistent" },
+          { "s": "The spectacle also had ____.", "a": "an uncomfortable counterpoint" },
+          { "s": "There is ____ in adapting without surrendering ambition.", "a": "a quieter kind of excellence" }
+        ],
+        "extra": ["put to rest", "delicate"]
+      },
+      "match": [
+        { "t": "put something to rest", "d": "settle a question so it stops being asked" },
+        { "t": "emphatic", "d": "expressed with great force and clarity" },
+        { "t": "delicate", "d": "easily upset and needing careful handling" },
+        { "t": "draw on", "d": "use experience or knowledge you already have" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Sporting greatness rarely provides ____ from decline.", "cue": "IMMUNE", "a": "immunity" },
+          { "s": "Marathon running exposes the body's ____ with particular cruelty.", "cue": "LIMIT", "a": "limitations" },
+          { "s": "His victory was ____ because it needed no record pace.", "cue": "NOTE", "a": "noteworthy" },
+          { "s": "Their accounts raised ____ questions about the organisers.", "cue": "LEGITIMACY", "a": "legitimate" },
+          { "s": "His own performances have ____ in recent seasons.", "cue": "FLUCTUATION", "a": "fluctuated" }
+        ]
+      },
+      "tfn": [
+        { "s": "Kipchoge set a course record at Melbourne at the age of 41.", "a": "T" },
+        { "s": "The writer says one result erases the effects of age.", "a": "F" },
+        { "s": "Recreational runners complained of congestion and inadequate facilities.", "a": "T" },
+        { "s": "Kipchoge plans to run the Melbourne Marathon again next year.", "a": "N" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "the-side-hustle-trap-can-you-really-make-money-while-you-sleep",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Another payment has arrived, with money ____ while she sleeps.", "a": "coming in" },
+          { "s": "These can be useful ways to ____.", "a": "earn extra cash" },
+          { "s": "____ a shop is one thing; finding customers is another.", "a": "Setting up" },
+          { "s": "Some gained enough money to ____.", "a": "cover small expenses" },
+          { "s": "Good reviews rarely ____ when nobody knows you.", "a": "appear overnight" }
+        ],
+        "extra": ["turn into", "second-hand"]
+      },
+      "match": [
+        { "t": "set up", "d": "start a business or organisation" },
+        { "t": "come in", "d": "arrive as income or money" },
+        { "t": "second-hand", "d": "already owned and used by somebody else" },
+        { "t": "turn into", "d": "change and become something else" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "An influencer ____ breakfast, looks at her phone and smiles.", "cue": "make", "a": "makes" },
+          { "s": "The camera shows the payment, not the hours ____ on designing.", "cue": "spend", "a": "spent" },
+          { "s": "In a 2026 survey, 29% of students said they ____ a side hustle.", "cue": "have", "a": "had" },
+          { "s": "Fees can reduce your profits, especially when you ____ just starting out.", "cue": "be", "a": "are" },
+          { "s": "Making money online is possible, but ____ it without hard work is unlikely.", "cue": "do", "a": "doing" }
+        ]
+      },
+      "tfn": [
+        { "s": "In the 2026 survey, 29% of students said they had a business or side hustle.", "a": "T" },
+        { "s": "Most students with a side hustle earned thousands of pounds.", "a": "F" },
+        { "s": "Side hustles can sometimes turn into full-time work.", "a": "T" },
+        { "s": "Most students start a side hustle while still at school.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "A side hustle is an activity that ____ income alongside a job.", "a": "brings in" },
+          { "s": "For anyone squeezed by ____, the promise is powerful.", "a": "the cost of living" },
+          { "s": "The evidence suggests that spectacular earnings are ____.", "a": "far from typical" },
+          { "s": "Setting something up is rarely the same as making it ____.", "a": "profitable" },
+          { "s": "____ is useful when an opportunity promises easy money.", "a": "A healthy dose of scepticism" },
+          { "s": "Research your competitors and ____ where your customers would come from.", "a": "work out" }
+        ],
+        "extra": ["leave out", "genuine"]
+      },
+      "match": [
+        { "t": "bring in", "d": "produce money as income" },
+        { "t": "work out", "d": "reach an answer by calculating" },
+        { "t": "leave out", "d": "fail to include something" },
+        { "t": "genuine", "d": "real rather than pretended" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "These can be ____ businesses rather than empty promises.", "cue": "LEGITIMACY", "a": "legitimate" },
+          { "s": "Others earn ____ by recommending products.", "cue": "COMMIT", "a": "commissions" },
+          { "s": "Software ____ and listing fees reduce the profit.", "cue": "SUBSCRIBE", "a": "subscriptions" },
+          { "s": "Some are experienced ____ who offer valuable advice.", "cue": "ENTERPRISE", "a": "entrepreneurs" },
+          { "s": "Financial ____ may begin with a good idea.", "cue": "DEPEND", "a": "independence" }
+        ]
+      },
+      "tfn": [
+        { "s": "79% of those with a side hustle had made less than £500 in a year.", "a": "T" },
+        { "s": "All surveys of side hustles produce the same figures.", "a": "F" },
+        { "s": "A Guardian journalist tested several online money-making methods.", "a": "T" },
+        { "s": "Most side hustles fail within the first year.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "The promise of effortless independence is ____.", "a": "irresistible" },
+          { "s": "That makes the sales pitch worth ____ rather than envying.", "a": "picking apart" },
+          { "s": "Somebody still has to persuade strangers to ____ their money.", "a": "part with" },
+          { "s": "The figures provide ____ to the extraordinary success stories online.", "a": "a useful counterweight" },
+          { "s": "Low ____ also attract competitors to digital marketplaces.", "a": "barriers to entry" },
+          { "s": "Small ventures can ____ low wages and develop useful skills.", "a": "top up" }
+        ],
+        "extra": ["dubious", "representative"]
+      },
+      "match": [
+        { "t": "pick apart", "d": "examine something closely to find its faults" },
+        { "t": "part with", "d": "give away something you would rather keep" },
+        { "t": "dubious", "d": "probably not honest or reliable" },
+        { "t": "representative", "d": "typical of a larger group" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The creator announces that a ____ payment has arrived.", "cue": "SUBSTANCE", "a": "substantial" },
+          { "s": "There is nothing ____ dubious about earning extra money.", "cue": "INHERENT", "a": "inherently" },
+          { "s": "A commission link is worthless without attention and ____.", "cue": "CREDIBLE", "a": "credibility" },
+          { "s": "Courses are supported by carefully selected ____.", "cue": "TESTIFY", "a": "testimonials" },
+          { "s": "A ____ founder needs to know the customer and the competition.", "cue": "PROSPECT", "a": "prospective" }
+        ]
+      },
+      "tfn": [
+        { "s": "The Guardian investigation was published in October 2026.", "a": "T" },
+        { "s": "The writer concludes that entrepreneurship has no value.", "a": "F" },
+        { "s": "Profit is what remains after charges, advertising and the value of time.", "a": "T" },
+        { "s": "Most course sellers earn more than the businesses they describe.", "a": "N" }
+      ]
+    }
+  }
+}

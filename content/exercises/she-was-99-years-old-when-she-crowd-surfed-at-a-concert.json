@@ -1,0 +1,109 @@
+{
+  "slug": "she-was-99-years-old-when-she-crowd-surfed-at-a-concert",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "At a concert in Texas, people ____ and saw something extraordinary.", "a": "looked up" },
+          { "s": "They ____ making videos together, and millions began following them.", "a": "carried on" },
+          { "s": "Ross ____ the idea of breaking a world record.", "a": "came up with" },
+          { "s": "Pauline tried activities that many younger people would ____.", "a": "think twice about" },
+          { "s": "Pauline decided to turn that idea ____.", "a": "on its head" }
+        ],
+        "extra": ["give up", "cheerful"]
+      },
+      "match": [
+        { "t": "come up with", "d": "think of a new idea or plan" },
+        { "t": "think twice about", "d": "hesitate because something seems risky" },
+        { "t": "give it a go", "d": "try something, even if you may not succeed" },
+        { "t": "extraordinary", "d": "very unusual and surprising" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "High above their heads ____ a woman of ninety-nine.", "cue": "be", "a": "was" },
+          { "s": "Her grandson had helped ____ the adventure.", "cue": "organise", "a": "organise" },
+          { "s": "Years earlier, Ross had ____ his grandmother playing basketball with him.", "cue": "film", "a": "filmed" },
+          { "s": "She enjoyed ____ other people laugh.", "cue": "make", "a": "making" },
+          { "s": "In October 2026, Pauline ____ her experience in the Guardian.", "cue": "describe", "a": "described" }
+        ]
+      },
+      "tfn": [
+        { "s": "Pauline was ninety-nine years and 274 days old when she crowd-surfed.", "a": "T" },
+        { "s": "Pauline jumped into the crowd without anybody knowing in advance.", "a": "F" },
+        { "s": "Pauline had crowd-surfed once before, in her eighties.", "a": "N" },
+        { "s": "Ross and Pauline became known online for the videos they made together.", "a": "T" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "The sight of her floating above the fans was ____.", "a": "unforgettable" },
+          { "s": "The basketball video ____, and the pair gained an enormous following.", "a": "caught on" },
+          { "s": "Ross and Pauline ____ build a social media audience of millions.", "a": "went on to" },
+          { "s": "When Ross suggested a record attempt, Pauline was ____ to give it a go.", "a": "keen" },
+          { "s": "Their clips celebrate Pauline's ____ personality.", "a": "lively" },
+          { "s": "Her example does not mean everyone should ____ extreme activities.", "a": "take up" }
+        ],
+        "extra": ["spectacular", "take risks"]
+      },
+      "match": [
+        { "t": "catch on", "d": "become popular with a lot of people" },
+        { "t": "keen", "d": "very willing and eager to do something" },
+        { "t": "spectacular", "d": "impressive and exciting to watch" },
+        { "t": "take risks", "d": "do things that could easily go wrong" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Guinness confirmed an afternoon that might otherwise have seemed ____.", "cue": "POSSIBLE", "a": "impossible" },
+          { "s": "Their unusual ____ began with a short basketball video.", "cue": "PARTNER", "a": "partnership" },
+          { "s": "We imagine that people become less ____ as the years pass.", "cue": "ADVENTURE", "a": "adventurous" },
+          { "s": "It challenges the expectation that later life must be quiet and ____.", "cue": "PREDICT", "a": "predictable" },
+          { "s": "Guinness later confirmed the ____, providing a permanent record.", "cue": "ACHIEVE", "a": "achievement" }
+        ]
+      },
+      "tfn": [
+        { "s": "The concert took place in Bellville, Texas.", "a": "T" },
+        { "s": "Pauline decided to crowd-surf suddenly, without any arrangement.", "a": "F" },
+        { "s": "Ross and Pauline have appeared together on television.", "a": "N" },
+        { "s": "By October 2026, Pauline had turned one hundred.", "a": "T" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "The attempt was coordinated rather than ____.", "a": "spontaneous" },
+          { "s": "The pair built their videos around her ____ personality.", "a": "mischievous" },
+          { "s": "What could have been a ____ experience became a triumphant parade.", "a": "nerve-racking" },
+          { "s": "The adventure ____ a remarkable creative partnership with her grandson.", "a": "grew out of" },
+          { "s": "Those realities matter, but they do not ____ the whole person.", "a": "account for" },
+          { "s": "Their age difference became ____, not a reason to keep them apart.", "a": "a source of comedy" }
+        ],
+        "extra": ["joyful", "join in"]
+      },
+      "match": [
+        { "t": "mischievous", "d": "enjoying causing playful trouble" },
+        { "t": "account for", "d": "explain or cover all of something" },
+        { "t": "joyful", "d": "full of great happiness" },
+        { "t": "join in", "d": "take part in an activity with other people" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The image challenged the ____ commonly attached to advanced age.", "cue": "ASSUME", "a": "assumptions" },
+          { "s": "Later life is frequently described in terms of decline and ____.", "cue": "DEPEND", "a": "dependence" },
+          { "s": "____, humour and the wish for new experiences do not vanish on a birthday.", "cue": "CURIOUS", "a": "curiosity" },
+          { "s": "Their partnership has become an ongoing ____ between two generations.", "cue": "COLLABORATE", "a": "collaboration" },
+          { "s": "The pair built their content around Pauline's ____ to join in.", "cue": "WILLING", "a": "willingness" }
+        ]
+      },
+      "tfn": [
+        { "s": "Guinness recorded Pauline's age as ninety-nine years and 274 days.", "a": "T" },
+        { "s": "The writer presents the record as proof that age imposes no limits at all.", "a": "F" },
+        { "s": "The videos began with a clip of Pauline blocking Ross's basketball shot.", "a": "T" },
+        { "s": "Pauline has said that she is planning another record attempt.", "a": "N" }
+      ]
+    }
+  }
+}

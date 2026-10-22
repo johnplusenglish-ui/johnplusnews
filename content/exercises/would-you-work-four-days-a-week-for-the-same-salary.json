@@ -1,0 +1,109 @@
+{
+  "slug": "would-you-work-four-days-a-week-for-the-same-salary",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "You can have Fridays off and ____.", "a": "take home the same pay" },
+          { "s": "Companies ____ ways to work more efficiently.", "a": "looked for" },
+          { "s": "They ____ unnecessary meetings before the trial began.", "a": "cut down on" },
+          { "s": "Employees reported improvements in ____ and mental health.", "a": "job satisfaction" },
+          { "s": "A shorter week should not make people ____ every task.", "a": "rush through" }
+        ],
+        "extra": ["a day off", "flexible"]
+      },
+      "match": [
+        { "t": "cut down on", "d": "reduce the amount of something" },
+        { "t": "rush through", "d": "do something too quickly to do it well" },
+        { "t": "flexible", "d": "able to change to suit new conditions" },
+        { "t": "a day off", "d": "a day when you do not have to work" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "In 2025, researchers ____ the results of a large trial.", "cue": "publish", "a": "published" },
+          { "s": "It ____ 2,896 employees at 141 organisations.", "cue": "involve", "a": "involved" },
+          { "s": "The workplaces tried shorter weeks without ____ pay.", "cue": "reduce", "a": "reducing" },
+          { "s": "Hospitals and shops still ____ enough staff every day.", "cue": "need", "a": "need" },
+          { "s": "If a shorter week means four stressful days, employees ____ the benefits.", "cue": "feel", "a": "may not feel" }
+        ]
+      },
+      "tfn": [
+        { "s": "The trial involved 2,896 employees at 141 organisations.", "a": "T" },
+        { "s": "The study proves every employer can shorten the week.", "a": "F" },
+        { "s": "Employees reported less burnout than the comparison group.", "a": "T" },
+        { "s": "Most trial companies kept the four-day week afterwards.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Employees need a ____, not just a new timetable.", "a": "realistic workload" },
+          { "s": "Squeezing forty hours into four ____ days is different.", "a": "exhausting" },
+          { "s": "Reducing hours could mean ____ additional employees.", "a": "taking on" },
+          { "s": "Businesses operating across seven days may need ____ shifts.", "a": "staggered" },
+          { "s": "The study provides ____ evidence about the five-day model.", "a": "substantial" },
+          { "s": "Staff should not be expected to ____ at night.", "a": "catch up" }
+        ],
+        "extra": ["sort out", "narrow"]
+      },
+      "match": [
+        { "t": "take on", "d": "employ somebody to do a job" },
+        { "t": "catch up", "d": "do work you did not finish earlier" },
+        { "t": "sort out", "d": "organise or deal with a problem" },
+        { "t": "staggered", "d": "arranged to start at different times" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Participants reported improvements in job ____.", "cue": "SATISFY", "a": "satisfaction" },
+          { "s": "The changes were not seen at the twelve ____ organisations.", "cue": "COMPARE", "a": "comparison" },
+          { "s": "Businesses had to reconsider meetings and ____.", "cue": "COMMUNICATE", "a": "communication" },
+          { "s": "An extra day could allow greater ____ in community life.", "cue": "PARTICIPATE", "a": "participation" },
+          { "s": "These benefits are hard to capture through a ____ measure.", "cue": "NARROWLY", "a": "narrow" }
+        ]
+      },
+      "tfn": [
+        { "s": "Twelve comparison organisations kept their usual schedules.", "a": "T" },
+        { "s": "The study proves every employer can raise productivity.", "a": "F" },
+        { "s": "Care workers and transport staff provide services across the week.", "a": "T" },
+        { "s": "Trade unions have called for a national four-day week.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "____ challenges the assumption about the five-day week.", "a": "A growing body of evidence" },
+          { "s": "Organisations often ended up ____ unnecessary meetings.", "a": "doing away with" },
+          { "s": "A sensible assessment must ____ enthusiastic testimonials.", "a": "look beyond" },
+          { "s": "The design matters as much as ____.", "a": "its headline promise" },
+          { "s": "Research on early adopters provides ____.", "a": "a valuable starting point" },
+          { "s": "The research is not an excuse to ____ shorter hours.", "a": "write off" }
+        ],
+        "extra": ["roll out", "transferable"]
+      },
+      "match": [
+        { "t": "do away with", "d": "get rid of something completely" },
+        { "t": "write something off", "d": "dismiss something as not worth trying" },
+        { "t": "roll something out", "d": "introduce a plan more widely" },
+        { "t": "transferable", "d": "able to be used in another situation" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The five-day week is the product of historical ____.", "cue": "NEGOTIATE", "a": "negotiations" },
+          { "s": "This was not simply a ____ week's workload in four days.", "cue": "CONVENTION", "a": "conventional" },
+          { "s": "Staff on ____ contracts may worry about lower income.", "cue": "PRECARIOUSLY", "a": "precarious" },
+          { "s": "Preserving pay and ensuring ____ schedules would be central.", "cue": "PREDICT", "a": "predictable" },
+          { "s": "The trials involved ____ participation by willing employers.", "cue": "VOLUNTEER", "a": "voluntary" }
+        ]
+      },
+      "tfn": [
+        { "s": "The study appeared in Nature Human Behaviour in July 2025.", "a": "T" },
+        { "s": "The writer presents the four-day week as a universal prescription.", "a": "F" },
+        { "s": "People who reduced hours more tended to report greater wellbeing gains.", "a": "T" },
+        { "s": "Several governments have begun their own trials.", "a": "N" }
+      ]
+    }
+  }
+}

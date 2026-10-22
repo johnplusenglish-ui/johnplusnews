@@ -1,0 +1,109 @@
+{
+  "slug": "can-fashion-help-save-ukraines-culture",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Some designers are using everyday objects to help ____.", "a": "keep their culture alive" },
+          { "s": "A very old idea can ____ in a very new form.", "a": "turn up" },
+          { "s": "Glassblowing and weaving can ____.", "a": "take years of practice" },
+          { "s": "These skills are usually ____ from older workers to younger ones.", "a": "handed down" },
+          { "s": "A fashion brand cannot protect a country's history ____.", "a": "on its own" }
+        ],
+        "extra": ["die out", "handmade"]
+      },
+      "match": [
+        { "t": "hand down", "d": "pass something to a younger generation" },
+        { "t": "die out", "d": "gradually disappear until none are left" },
+        { "t": "handmade", "d": "made by a person rather than a machine" },
+        { "t": "carry on", "d": "continue doing something as before" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "It ____ clothes, jewellery, candles and plates.", "cue": "make", "a": "makes" },
+          { "s": "The company does not simply ____ old objects.", "cue": "copy", "a": "copy" },
+          { "s": "GUNIA says it ____ with more than 150 craftspeople.", "cue": "work", "a": "works" },
+          { "s": "Artists may have ____ to a safer part of the country.", "cue": "move", "a": "to move" },
+          { "s": "If a workshop closes, the skills inside it may slowly ____.", "cue": "die", "a": "die out" }
+        ]
+      },
+      "tfn": [
+        { "s": "GUNIA Project is based in Kyiv.", "a": "T" },
+        { "s": "The company makes exact copies of museum objects.", "a": "F" },
+        { "s": "GUNIA says it works with more than 150 craftspeople.", "a": "T" },
+        { "s": "The company exports most of its products to Europe.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Rather than ____ exact copies, its designers adapt old patterns.", "a": "turning out" },
+          { "s": "Its designers ____ folk traditions for ideas.", "a": "look into" },
+          { "s": "A familiar symbol might ____ on an unusual candle.", "a": "crop up" },
+          { "s": "The aim seems to be ____.", "a": "recognition rather than reproduction" },
+          { "s": "After 2022, cultural preservation ____ greater urgency.", "a": "took on" },
+          { "s": "Designers have to ____ respectful reinterpretation and decoration.", "a": "weigh up" }
+        ],
+        "extra": ["end up", "awkward"]
+      },
+      "match": [
+        { "t": "crop up", "d": "appear somewhere without being planned" },
+        { "t": "weigh up", "d": "compare two things before deciding" },
+        { "t": "end up", "d": "finish in a situation you did not plan" },
+        { "t": "awkward", "d": "difficult to answer or deal with" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The designers adapt old patterns for ____ customers.", "cue": "TEMPORARY", "a": "contemporary" },
+          { "s": "The brand creates clothing, tableware and ____ objects.", "cue": "DECORATE", "a": "decorative" },
+          { "s": "Military attacks and ____ have placed traditions under pressure.", "cue": "DISPLACE", "a": "displacement" },
+          { "s": "Designers must choose between respectful ____ and decoration.", "cue": "INTERPRET", "a": "reinterpretation" },
+          { "s": "Cultural ____ took on greater urgency after 2022.", "cue": "PRESERVE", "a": "preservation" }
+        ]
+      },
+      "tfn": [
+        { "s": "GUNIA works with artisans using ceramics, weaving and blown glass.", "a": "T" },
+        { "s": "The article says handmade products are affordable for everyone.", "a": "F" },
+        { "s": "The writer says preserving culture can mean giving a skill new customers.", "a": "T" },
+        { "s": "The company has opened a shop outside Ukraine.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Cultural preservation tends to ____ archives and museums.", "a": "conjure up" },
+          { "s": "The approach ____ conventional notions of heritage.", "a": "sits oddly with" },
+          { "s": "Its production network ____ more than 150 artisans.", "a": "takes in" },
+          { "s": "Heritage is ____ when artisans are displaced and markets collapse.", "a": "put at risk" },
+          { "s": "Reinterpretation risks leaving motifs ____.", "a": "stripped of context" },
+          { "s": "Those questions cannot simply be ____.", "a": "brushed aside" }
+        ],
+        "extra": ["stumble upon", "irreplaceable"]
+      },
+      "match": [
+        { "t": "conjure up", "d": "bring an image into somebody's mind" },
+        { "t": "take in", "d": "include something within a larger whole" },
+        { "t": "stumble upon", "d": "discover something by accident" },
+        { "t": "irreplaceable", "d": "impossible to replace if lost" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Preservation usually suggests ____ restoration work.", "cue": "PAIN", "a": "painstaking" },
+          { "s": "Russia's invasion has made such work particularly ____.", "cue": "RESONANCE", "a": "resonant" },
+          { "s": "Specialist knowledge may cease to be economically ____.", "cue": "VIABILITY", "a": "viable" },
+          { "s": "The relationship between commerce and heritage remains ____.", "cue": "EASE", "a": "uneasy" },
+          { "s": "Protecting monuments is comparatively ____.", "cue": "FORWARD", "a": "straightforward" }
+        ]
+      },
+      "tfn": [
+        { "s": "GUNIA's method begins with research into historical motifs.", "a": "T" },
+        { "s": "The writer says a craft usually dies out in a single dramatic event.", "a": "F" },
+        { "s": "The article says techniques survive partly because they are adapted.", "a": "T" },
+        { "s": "The Ukrainian government funds the company's work.", "a": "N" }
+      ]
+    }
+  }
+}

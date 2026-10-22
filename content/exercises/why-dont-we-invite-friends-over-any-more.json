@@ -1,0 +1,109 @@
+{
+  "slug": "why-dont-we-invite-friends-over-any-more",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "You start writing a message: 'Would you like to ____ tonight?'", "a": "come over" },
+          { "s": "There is shopping, cooking and ____ afterwards.", "a": "cleaning up" },
+          { "s": "It can seem easier to let somebody else ____.", "a": "do the washing-up" },
+          { "s": "A simple invitation may ____ who has been feeling lonely.", "a": "mean a lot to someone" },
+          { "s": "There is no need to ____ every sign of normal life.", "a": "tidy away" }
+        ],
+        "extra": ["messy", "empty"]
+      },
+      "match": [
+        { "t": "come over", "d": "visit somebody at their home" },
+        { "t": "tidy away", "d": "put things back where they belong" },
+        { "t": "messy", "d": "untidy, with things left out of place" },
+        { "t": "good company", "d": "people who are pleasant to spend time with" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "Then you ____ the dishes in the sink and delete the message.", "cue": "notice", "a": "notice" },
+          { "s": "Social media ____ full of clean kitchens and beautiful tables.", "cue": "be", "a": "is" },
+          { "s": "Some people worry that visitors ____ these things.", "cue": "notice", "a": "will notice" },
+          { "s": "____ a free evening can involve a great many messages.", "cue": "arrange", "a": "Arranging" },
+          { "s": "Most friends would prefer an untidy kitchen to a beautifully ____ table.", "cue": "arrange", "a": "arranged" }
+        ]
+      },
+      "tfn": [
+        { "s": "The article says friends probably do not care about a few dishes.", "a": "T" },
+        { "s": "The writer says you should always cook a proper meal for guests.", "a": "F" },
+        { "s": "Meeting at home means there is no bill at the end of the evening.", "a": "T" },
+        { "s": "Most people now meet friends in cafés rather than at home.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Social media offers endless photographs of ____ kitchens.", "a": "spotless" },
+          { "s": "There is perhaps a bathroom that ____.", "a": "could do with cleaning" },
+          { "s": "A relaxed ____ can turn into hours of shopping and cooking.", "a": "get-together" },
+          { "s": "Many people now arrange social events ____.", "a": "weeks in advance" },
+          { "s": "____ unexpectedly may now feel inconsiderate.", "a": "Popping round" },
+          { "s": "Once the sofa has won a few Fridays, the habit quietly ____.", "a": "settles in" }
+        ],
+        "extra": ["hang up", "elaborate"]
+      },
+      "match": [
+        { "t": "get-together", "d": "an informal meeting of friends or family" },
+        { "t": "pop round", "d": "make a short, casual visit nearby" },
+        { "t": "elaborate", "d": "planned in great detail, with many parts" },
+        { "t": "hang up", "d": "put clothes on a hook or rail" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Social media shows ____ furniture and carefully prepared meals.", "cue": "STYLE", "a": "stylish" },
+          { "s": "It is easy to feel ____ about these ordinary things.", "cue": "EMBARRASS", "a": "embarrassed" },
+          { "s": "A host may worry about allergies or ____ preferences.", "cue": "DIET", "a": "dietary" },
+          { "s": "Streaming services and the ____ of staying in offer alternatives.", "cue": "CONVENIENT", "a": "convenience" },
+          { "s": "The most ____ evenings are not always the ones with the best food.", "cue": "MEMORY", "a": "memorable" }
+        ]
+      },
+      "tfn": [
+        { "s": "Research using the American Time Use Survey found less time spent socialising.", "a": "T" },
+        { "s": "The article says choosing a quiet evening at home is always a problem.", "a": "F" },
+        { "s": "Friday evenings have become quieter than they used to be.", "a": "T" },
+        { "s": "The decline is sharper in cities than in the countryside.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "An ordinary expression of friendship has acquired the demands of ____.", "a": "a minor production" },
+          { "s": "Few people would ____, yet the hesitation suggests the standard is felt.", "a": "put it baldly" },
+          { "s": "The ____ visit has given way to a chain of messages about diaries.", "a": "spontaneous" },
+          { "s": "A streaming subscription offers relaxation ____.", "a": "on demand" },
+          { "s": "Opportunities for casual companionship are being ____ by easier routines.", "a": "crowded out" },
+          { "s": "The labour of cooking has often fallen ____ on women.", "a": "disproportionately" }
+        ],
+        "extra": ["unhurried", "clear away"]
+      },
+      "match": [
+        { "t": "crowd out", "d": "take up the space that something else needed" },
+        { "t": "on demand", "d": "available the moment you want it" },
+        { "t": "unhurried", "d": "done calmly, with no sense of rush" },
+        { "t": "clear away", "d": "remove things after a meal or activity" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The ordinary evidence of living can begin to feel like ____.", "cue": "FAIL", "a": "failure" },
+          { "s": "Hosting can feel like a test of ____ and taste.", "cue": "COMPETENT", "a": "competence" },
+          { "s": "Dietary ____ call for thought when planning a meal.", "cue": "REQUIRE", "a": "requirements" },
+          { "s": "It would be unfair to ____ the past.", "cue": "ROMANTIC", "a": "romanticise" },
+          { "s": "Restaurants can offer genuinely neutral ground, especially for people in ____ housing.", "cue": "SHARE", "a": "shared" }
+        ]
+      },
+      "tfn": [
+        { "s": "The writer accepts that restaurants can offer genuinely neutral ground.", "a": "T" },
+        { "s": "The article calls for a return to the elaborate dinner party.", "a": "F" },
+        { "s": "The writer notes that cultural habits vary considerably between countries.", "a": "T" },
+        { "s": "British people host friends at home less often than Americans do.", "a": "N" }
+      ]
+    }
+  }
+}

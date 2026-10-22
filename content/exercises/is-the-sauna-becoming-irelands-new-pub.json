@@ -1,0 +1,109 @@
+{
+  "slug": "is-the-sauna-becoming-irelands-new-pub",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Plenty of people ____ on their own and join in anyway.", "a": "turn up" },
+          { "s": "Neighbours ____ at the pub.", "a": "catch up on local news" },
+          { "s": "A few simply want a different way to ____.", "a": "spend time together" },
+          { "s": "Everyone ____ their phone before going in.", "a": "puts away" },
+          { "s": "It is a relaxed place where it is easy to ____.", "a": "get to know somebody" }
+        ],
+        "extra": ["join in", "welcoming"]
+      },
+      "match": [
+        { "t": "turn up", "d": "arrive somewhere, often without booking" },
+        { "t": "put away", "d": "place something out of sight" },
+        { "t": "welcoming", "d": "making people feel glad to be there" },
+        { "t": "join in", "d": "take part with other people" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "Saunas ____ much more popular in Ireland in recent years.", "cue": "become", "a": "have become" },
+          { "s": "Visitors usually book a short session and ____ for it.", "cue": "pay", "a": "pay" },
+          { "s": "A person who arrives alone may leave ____ spoken to several strangers.", "cue": "have", "a": "having" },
+          { "s": "The high temperatures ____ not suitable for everybody.", "cue": "be", "a": "are" },
+          { "s": "Ireland may simply ____ another way to bring people together.", "cue": "find", "a": "be finding" }
+        ]
+      },
+      "tfn": [
+        { "s": "Some Irish saunas are beside the sea.", "a": "T" },
+        { "s": "A sauna can do everything a pub does.", "a": "F" },
+        { "s": "People put their phones away before going into the sauna.", "a": "T" },
+        { "s": "Most sauna visitors are under thirty.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Strangers sit ____ while the Atlantic crashes outside.", "a": "shoulder to shoulder" },
+          { "s": "They all want to ____ somewhere that is neither home nor work.", "a": "wind down" },
+          { "s": "Saunas have been ____ along the Irish coast and in towns.", "a": "springing up" },
+          { "s": "Regulars tend to ____ at the same time each week.", "a": "drop in" },
+          { "s": "Anyone ____ may struggle to find an alternative to the pub.", "a": "watching their spending" },
+          { "s": "Researchers call such informal gathering places ____.", "a": "third places" }
+        ],
+        "extra": ["fall back on", "compact"]
+      },
+      "match": [
+        { "t": "wind down", "d": "relax after a period of effort" },
+        { "t": "spring up", "d": "appear suddenly in large numbers" },
+        { "t": "fall back on", "d": "rely on something when you need help" },
+        { "t": "compact", "d": "small and neatly arranged" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "It is a ____ picture of modern Ireland.", "cue": "CURIOSITY", "a": "curious" },
+          { "s": "Its Irish popularity has a distinctly local ____.", "cue": "CHARACTERISE", "a": "character" },
+          { "s": "Conversation can develop ____ in a sauna.", "cue": "NATURE", "a": "naturally" },
+          { "s": "A paid session is not necessarily ____.", "cue": "AFFORD", "a": "affordable" },
+          { "s": "The experience may be medically ____ for some people.", "cue": "SUIT", "a": "unsuitable" }
+        ]
+      },
+      "tfn": [
+        { "s": "The sauna tradition is strongly associated with Finland.", "a": "T" },
+        { "s": "The writer says saunas solve Ireland's loneliness problem.", "a": "F" },
+        { "s": "Third places are spaces outside the home and workplace.", "a": "T" },
+        { "s": "Sauna bookings in Ireland doubled during 2026.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Irish social identity is often ____ the pub.", "a": "bound up with" },
+          { "s": "The ritual ____ northern European tradition.", "a": "draws on" },
+          { "s": "Nobody has to explain why they are ____ a round.", "a": "turning down" },
+          { "s": "The shared experience does ____ some familiar social barriers.", "a": "strip away" },
+          { "s": "The usual markers of status ____ something more level.", "a": "give way to" },
+          { "s": "A sauna is ____ accessible in the economic sense.", "a": "by no means" }
+        ],
+        "extra": ["take over", "enduring"]
+      },
+      "match": [
+        { "t": "strip away", "d": "remove a surface layer completely" },
+        { "t": "give way to", "d": "be replaced by something else" },
+        { "t": "take over", "d": "begin doing what somebody else did" },
+        { "t": "enduring", "d": "continuing for a very long time" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The emergence of the sauna is an ____ development.", "cue": "INTRIGUE", "a": "intriguing" },
+          { "s": "Relationships develop without ____ planning.", "cue": "ELABORATION", "a": "elaborate" },
+          { "s": "Those ____ from alcohol may find opportunities limited.", "cue": "ABSTAIN", "a": "abstaining" },
+          { "s": "Confident claims about health benefits should not disguise real ____.", "cue": "RISKY", "a": "risks" },
+          { "s": "A pleasant encounter does not guarantee a deeper sense of ____.", "cue": "BELONG", "a": "belonging" }
+        ]
+      },
+      "tfn": [
+        { "s": "Sessions often combine intense heat with a brief plunge into the sea.", "a": "T" },
+        { "s": "The writer says warmth and sociability are the same as community.", "a": "F" },
+        { "s": "The piece notes that cold-water immersion carries risks for some people.", "a": "T" },
+        { "s": "Irish pubs have reported falling custom because of saunas.", "a": "N" }
+      ]
+    }
+  }
+}

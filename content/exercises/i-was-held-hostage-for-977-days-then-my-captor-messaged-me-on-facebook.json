@@ -1,0 +1,109 @@
+{
+  "slug": "i-was-held-hostage-for-977-days-then-my-captor-messaged-me-on-facebook",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Moore received an extraordinary Facebook message ____.", "a": "out of the blue" },
+          { "s": "Moore ____ Somalia in January 2012 to research a book.", "a": "set off for" },
+          { "s": "In September 2014, a large ransom payment finally ____.", "a": "secured his release" },
+          { "s": "Moore decided to reply because he wanted to ____ more.", "a": "find out" },
+          { "s": "Evidence showed that Tahlil had ____ than Moore had understood.", "a": "played a more important role" }
+        ],
+        "extra": ["in return", "uncomfortable"]
+      },
+      "match": [
+        { "t": "out of the blue", "d": "suddenly and without any warning" },
+        { "t": "set off for", "d": "begin a journey to a place" },
+        { "t": "in return", "d": "as payment for something received" },
+        { "t": "uncomfortable", "d": "feeling awkward or uneasy" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "The message ____ from one of the men who had guarded him.", "cue": "come", "a": "came" },
+          { "s": "He ____ shortly after arriving in Somalia.", "cue": "kidnap", "a": "was kidnapped" },
+          { "s": "His captors ____ him between buildings and outdoor camps.", "cue": "move", "a": "moved" },
+          { "s": "In 2018, Tahlil flew to New York ____ he would receive help.", "cue": "believe", "a": "believing" },
+          { "s": "Forgiving someone does not mean ____ their actions were acceptable.", "cue": "pretend", "a": "pretending" }
+        ]
+      },
+      "tfn": [
+        { "s": "Moore spent 977 days as a hostage.", "a": "T" },
+        { "s": "Tahlil received help to settle in the United States.", "a": "F" },
+        { "s": "Both men were sentenced to 30 years in prison in 2024.", "a": "T" },
+        { "s": "Moore has visited Tahlil in prison.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "He was often ____ about when he would see his family again.", "a": "kept in the dark" },
+          { "s": "Rather than immediately ____, he began exchanging messages.", "a": "cutting off contact" },
+          { "s": "Tahlil had his own reasons for ____.", "a": "staying in touch" },
+          { "s": "He eventually agreed to help ____ to bring Tahlil to America.", "a": "set up an operation" },
+          { "s": "Moore felt uneasy about having ____ in the arrest.", "a": "played a part" },
+          { "s": "The outcome did not ____ outsiders might expect.", "a": "bring him the simple satisfaction" }
+        ],
+        "extra": ["let go of", "makeshift"]
+      },
+      "match": [
+        { "t": "cut off contact", "d": "stop communicating with somebody" },
+        { "t": "keep somebody in the dark", "d": "deliberately leave somebody without information" },
+        { "t": "let go of", "d": "stop holding on to a feeling" },
+        { "t": "makeshift", "d": "built quickly from whatever was available" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Tahlil was one of his less ____ guards.", "cue": "AGGRESSION", "a": "aggressive" },
+          { "s": "Moore doubted how ____ this kindness was.", "cue": "GENUINELY", "a": "genuine" },
+          { "s": "Prosecutors presented Tahlil as a more ____ participant.", "cue": "INFLUENCE", "a": "influential" },
+          { "s": "Moore supported ____ for what had happened.", "cue": "ACCOUNTABLE", "a": "accountability" },
+          { "s": "Justice was a public process; ____ was far more personal.", "cue": "RECOVER", "a": "recovery" }
+        ]
+      },
+      "tfn": [
+        { "s": "Tahlil taught Moore some Somali words during his captivity.", "a": "T" },
+        { "s": "Moore kept the Facebook messages secret from the FBI.", "a": "F" },
+        { "s": "Abdi Yusuf Hassan was linked to the operation and its ransom demands.", "a": "T" },
+        { "s": "Moore's book became a bestseller.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "The correspondence eventually ____ an FBI operation.", "a": "drew Moore into" },
+          { "s": "Such distinctions were dangerously ____.", "a": "unreliable" },
+          { "s": "Moore had already ____ federal investigators about the messages.", "a": "tipped off" },
+          { "s": "He feared that senior figures ____ while a guard faced punishment.", "a": "remained beyond reach" },
+          { "s": "____ could preserve a measure of independence in captivity.", "a": "Loosening his grip on anger" },
+          { "s": "He questions whether punishment automatically supplies ____.", "a": "psychological closure" }
+        ],
+        "extra": ["bring about", "subordinate"]
+      },
+      "match": [
+        { "t": "tip somebody off", "d": "secretly warn the authorities about something" },
+        { "t": "bring about", "d": "cause something to happen" },
+        { "t": "subordinate", "d": "lower in rank or importance" },
+        { "t": "ambivalent", "d": "having two opposing feelings at once" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Tahlil appeared comparatively ____ at first.", "cue": "CONSIDER", "a": "considerate" },
+          { "s": "He carried home the psychological ____ of a long ordeal.", "cue": "CONSEQUENT", "a": "consequences" },
+          { "s": "Moore's participation left him profoundly ____.", "cue": "AMBIVALENCE", "a": "ambivalent" },
+          { "s": "Hassan used his government position in ways that ____ the kidnapping.", "cue": "FACILITY", "a": "facilitated" },
+          { "s": "Victims may change their ____ as new evidence emerges.", "cue": "ASSESS", "a": "assessments" }
+        ]
+      },
+      "tfn": [
+        { "s": "Moore was released in September 2014 after a ransom was paid.", "a": "T" },
+        { "s": "The writer says punishment reliably provides psychological closure.", "a": "F" },
+        { "s": "Trial evidence showed Tahlil had responsibility for weapons.", "a": "T" },
+        { "s": "Moore has campaigned for shorter sentences for his captors.", "a": "N" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "australia-banned-social-media-for-teenagers-did-it-work",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "In December 2025, Australia ____ a major change to social media.", "a": "brought in" },
+          { "s": "Companies were required to ____ to stop under-16s having accounts.", "a": "take reasonable steps" },
+          { "s": "Young people may ____ staring at their phones.", "a": "spend too many hours" },
+          { "s": "Waiting until 16 might give them time to ____.", "a": "build healthy habits" },
+          { "s": "Few parents want their children to ____ an official document.", "a": "hand over" }
+        ],
+        "extra": ["come across", "upsetting"]
+      },
+      "match": [
+        { "t": "bring in", "d": "introduce a new rule or law" },
+        { "t": "hand over", "d": "give something to somebody in authority" },
+        { "t": "upsetting", "d": "making you feel unhappy or worried" },
+        { "t": "come across", "d": "find something without looking for it" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "Companies ____ to stop children under 16 from having accounts.", "cue": "require", "a": "were required" },
+          { "s": "The government said it ____ to protect young people.", "cue": "want", "a": "wanted" },
+          { "s": "Teenagers may give a false age or ____ other ways to reach the apps.", "cue": "find", "a": "find" },
+          { "s": "There were signs that accounts ____ down.", "cue": "take", "a": "were being taken" },
+          { "s": "It may be years before anybody can say whether teenagers ____ happier.", "cue": "be", "a": "are" }
+        ]
+      },
+      "tfn": [
+        { "s": "The rules came into force in December 2025.", "a": "T" },
+        { "s": "Under-16s can no longer use any part of the internet.", "a": "F" },
+        { "s": "Some parents welcomed the rules.", "a": "T" },
+        { "s": "The rules will be reviewed after three years.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Young people can still ____ public material that needs no login.", "a": "get at" },
+          { "s": "Several messaging and gaming services ____ the rules.", "a": "fall outside" },
+          { "s": "A national rule turns a family argument into ____.", "a": "a fact of life" },
+          { "s": "Stronger age checks tend to ____.", "a": "raise privacy concerns" },
+          { "s": "It is unclear whether restricting accounts ____ the time spent online.", "a": "cuts down" },
+          { "s": "The early findings were not ____ on the policy's effects.", "a": "a final verdict" }
+        ],
+        "extra": ["try out", "imprecise"]
+      },
+      "match": [
+        { "t": "get at", "d": "manage to reach something" },
+        { "t": "fall outside", "d": "not be covered by a rule" },
+        { "t": "try out", "d": "test something to see whether it works" },
+        { "t": "imprecise", "d": "not exact or clearly defined" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Australia began enforcing one of the world's most ____ age restrictions.", "cue": "AMBITION", "a": "ambitious" },
+          { "s": "Supporters point to concerns about ____ content and online pressure.", "cue": "HARM", "a": "harmful" },
+          { "s": "The difficult part is ____.", "cue": "FORCE", "a": "enforcement" },
+          { "s": "Platforms need to estimate or ____ a user's age.", "cue": "CONFIRMATION", "a": "confirm" },
+          { "s": "A platform can point to deleted profiles without showing improved ____.", "cue": "WELL", "a": "wellbeing" }
+        ]
+      },
+      "tfn": [
+        { "s": "Australia's eSafety Commissioner published early findings in July 2026.", "a": "T" },
+        { "s": "The policy blocks under-16s from every messaging service.", "a": "F" },
+        { "s": "Critics say some teenagers rely on online communities for support.", "a": "T" },
+        { "s": "Other countries have copied the Australian rules.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "It was a problem regulators had struggled to ____.", "a": "get to grips with" },
+          { "s": "The policy shifted responsibility towards companies, ____.", "a": "a notable change of emphasis" },
+          { "s": "The policy may ____ parents who argue alone with their children.", "a": "take the pressure off" },
+          { "s": "Parents are otherwise left to ____ by themselves.", "a": "hold the line" },
+          { "s": "Some adolescents ____ online communities for support.", "a": "fall back on" },
+          { "s": "What Australia has created is ____ rather than a settled answer.", "a": "an international test case" }
+        ],
+        "extra": ["let in", "unresolved"]
+      },
+      "match": [
+        { "t": "get to grips with", "d": "begin to deal with something difficult" },
+        { "t": "fall back on", "d": "turn to something when nothing else works" },
+        { "t": "let somebody in", "d": "allow somebody to enter" },
+        { "t": "unresolved", "d": "still waiting to be settled" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The decision was presented as a ____ intervention.", "cue": "BOLDNESS", "a": "bold" },
+          { "s": "____ platforms had to take reasonable steps to remove accounts.", "cue": "DESIGNATE", "a": "Designated" },
+          { "s": "Age assurance must limit access without encouraging ____ data collection.", "cue": "EXCESS", "a": "excessive" },
+          { "s": "Separating administrative results from real change is a ____ task.", "cue": "DEMAND", "a": "demanding" },
+          { "s": "Both readings of the first figures would be ____.", "cue": "MATURE", "a": "premature" }
+        ]
+      },
+      "tfn": [
+        { "s": "The rules apply from 10 December 2025 to designated platforms.", "a": "T" },
+        { "s": "Compliance figures show whether teenagers feel better.", "a": "F" },
+        { "s": "There is no comparison available with an Australia that kept the old rules.", "a": "T" },
+        { "s": "The eSafety Commissioner recommended extending the age limit.", "a": "N" }
+      ]
+    }
+  }
+}

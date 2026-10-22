@@ -1,0 +1,109 @@
+{
+  "slug": "could-retiring-early-be-bad-for-your-brain",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "You say goodbye to your colleagues and ____ a life without early alarms.", "a": "look forward to" },
+          { "s": "One result ____: longer in retirement was linked to lower scores on some tasks.", "a": "stood out" },
+          { "s": "Staying in an ____ job simply to keep your brain busy may be a bad idea.", "a": "exhausting" },
+          { "s": "Retired people can find other ways to ____.", "a": "stay sharp" },
+          { "s": "Learning a language or ____ a new hobby can give the brain plenty to do.", "a": "picking up" }
+        ],
+        "extra": ["deal with", "lonely"]
+      },
+      "match": [
+        { "t": "look forward to", "d": "feel pleased about something that will happen" },
+        { "t": "stay sharp", "d": "keep your mind quick and clear" },
+        { "t": "lonely", "d": "unhappy because you have nobody around you" },
+        { "t": "deal with", "d": "take action to handle a problem or situation" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "A study from Germany, ____ in 2026, asked an interesting question.", "cue": "publish", "a": "published" },
+          { "s": "The change made some women ____ longer before retiring early.", "cue": "wait", "a": "wait" },
+          { "s": "The researchers ____ on women in their sixties.", "cue": "focus", "a": "focused" },
+          { "s": "Spending longer in retirement ____ to lower scores on some tasks.", "cue": "link", "a": "was linked" },
+          { "s": "The researchers ____ not find evidence of more cognitive disorders.", "cue": "do", "a": "did" }
+        ]
+      },
+      "tfn": [
+        { "s": "The study looked at a group of German women in their sixties.", "a": "T" },
+        { "s": "The researchers found that retirement causes dementia.", "a": "F" },
+        { "s": "Some health measures, such as sleep problems, improved in retirement.", "a": "T" },
+        { "s": "Most German women now retire before the age of sixty.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "The reform ____ the early retirement age for certain German women.", "a": "raised" },
+          { "s": "Flexible thinking is used to deal with ____ problems or new information.", "a": "unfamiliar" },
+          { "s": "A headline claiming that retiring early damages the brain would ____.", "a": "go too far" },
+          { "s": "Working life gives people regular chances to ____ complex information.", "a": "keep up with" },
+          { "s": "Volunteering or ____ an instrument can create fresh challenges.", "a": "taking up" },
+          { "s": "Freedom from work offers time to pursue ____ interests.", "a": "neglected" }
+        ],
+        "extra": ["sit around", "stimulating"]
+      },
+      "match": [
+        { "t": "keep up with", "d": "stay level with something that is moving or changing" },
+        { "t": "go too far", "d": "say or do more than is reasonable" },
+        { "t": "stimulating", "d": "interesting enough to make you think" },
+        { "t": "sit around", "d": "spend time doing nothing useful" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The researchers found no increase in diagnoses of ____ disorders.", "cue": "COGNITION", "a": "cognitive" },
+          { "s": "Some health ____, including depression and sleep problems, improved.", "cue": "INDICATE", "a": "indicators" },
+          { "s": "Work can also bring ____ stress, and many people leave for health reasons.", "cue": "EXHAUST", "a": "exhausting" },
+          { "s": "Joining community groups can maintain social ____.", "cue": "CONNECT", "a": "connections" },
+          { "s": "Leaving the office may be a ____ decision for many workers.", "cue": "SENSE", "a": "sensible" }
+        ]
+      },
+      "tfn": [
+        { "s": "The reform raised the early retirement age from sixty to sixty-three.", "a": "T" },
+        { "s": "Accumulated knowledge declined in the same way as flexible thinking.", "a": "F" },
+        { "s": "The study was published in the Journal of Health Economics in July 2026.", "a": "T" },
+        { "s": "Similar research has been carried out on German men.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Leaving employment removes a regular source of ____.", "a": "mental stimulation" },
+          { "s": "The researchers ____ a German policy reform to study the question.", "a": "exploited" },
+          { "s": "That complexity makes ____ headlines misleading.", "a": "sweeping" },
+          { "s": "A stimulating job is not equivalent to ____ stressful work.", "a": "chronically" },
+          { "s": "Once those daily challenges ____, some skills receive less practice.", "a": "fall away" },
+          { "s": "A good retirement may involve continuing to ____ fresh experiences.", "a": "seek out" }
+        ],
+        "extra": ["liberating", "punishing"]
+      },
+      "match": [
+        { "t": "sweeping", "d": "far too general to be accurate" },
+        { "t": "fall away", "d": "gradually stop being there" },
+        { "t": "liberating", "d": "giving you a welcome new sense of freedom" },
+        { "t": "punishing", "d": "so hard that it wears you down" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Because ____ changed according to birth cohort, the reform allowed comparison.", "cue": "ELIGIBLE", "a": "eligibility" },
+          { "s": "The analysis combined cognitive tests with ____ health records.", "cue": "ADMINISTER", "a": "administrative" },
+          { "s": "Certain indicators of health moved in a more ____ direction.", "cue": "FAVOUR", "a": "favourable" },
+          { "s": "Employment itself varies ____ from one job to the next.", "cue": "ENORMOUS", "a": "enormously" },
+          { "s": "Others ____ when they finally have time for family and creativity.", "cue": "FLOUR", "a": "flourish" }
+        ]
+      },
+      "tfn": [
+        { "s": "The reform changed who could retire early according to year of birth.", "a": "T" },
+        { "s": "Additional years in retirement raised the rate of diagnosed cognitive disorders.", "a": "F" },
+        { "s": "Crystallised intelligence appeared less affected than fluid intelligence.", "a": "T" },
+        { "s": "The authors recommend raising the retirement age across Europe.", "a": "N" }
+      ]
+    }
+  }
+}

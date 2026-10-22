@@ -1,0 +1,109 @@
+{
+  "slug": "who-are-you-when-youre-not-working",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "A job can give us friends, confidence and ____.", "a": "a reason to get up in the morning" },
+          { "s": "What happens if somebody retires or ____ a new career?", "a": "takes up" },
+          { "s": "One person might spend weekends ____ an older relative.", "a": "looking after" },
+          { "s": "Parents often do work that does not appear ____.", "a": "on a business card" },
+          { "s": "A career does not have to be ____.", "a": "the whole story" }
+        ],
+        "extra": ["look for", "uncomfortable"]
+      },
+      "match": [
+        { "t": "take up", "d": "start doing something new" },
+        { "t": "look after", "d": "take care of somebody who needs help" },
+        { "t": "uncomfortable", "d": "feeling awkward or uneasy" },
+        { "t": "look for", "d": "try to find something you need" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "At a party, you ____ someone new and ask their name.", "cue": "meet", "a": "meet" },
+          { "s": "In a 2023 survey, 39% of employees ____ their job was very important.", "cue": "say", "a": "said" },
+          { "s": "A nurse may feel proud ____ patients.", "cue": "help", "a": "to help" },
+          { "s": "A person can be a parent or a volunteer without ____ paid.", "cue": "be", "a": "being" },
+          { "s": "Having several interests can make change ____.", "cue": "easy", "a": "easier" }
+        ]
+      },
+      "tfn": [
+        { "s": "In the 2023 Pew survey, 39% said their job was very or extremely important to identity.", "a": "T" },
+        { "s": "People without paid jobs do no important work.", "a": "F" },
+        { "s": "Some people find the question about work uncomfortable.", "a": "T" },
+        { "s": "The survey was repeated in Britain.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "It is a question worth ____.", "a": "turning around" },
+          { "s": "Work gives structure and offers a ____.", "a": "sense of identity" },
+          { "s": "Community involvement can provide a ____ during career changes.", "a": "sense of belonging" },
+          { "s": "Psychologists encourage people to ____ meaning beyond employment.", "a": "build up" },
+          { "s": "Somebody may be ____ without a recognised occupation.", "a": "making a difference" },
+          { "s": "We can ____ different answers in conversation.", "a": "leave room for" }
+        ],
+        "extra": ["look after", "demanding"]
+      },
+      "match": [
+        { "t": "build up", "d": "develop something gradually over time" },
+        { "t": "leave room for", "d": "deliberately allow space for something" },
+        { "t": "look after", "d": "take care of somebody or something" },
+        { "t": "demanding", "d": "needing a lot of effort and attention" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "It sounds ____, but the answer can shape how we judge people.", "cue": "INNOCENCE", "a": "innocent" },
+          { "s": "People who find ____ in work may feel motivated to contribute.", "cue": "MEAN", "a": "meaning" },
+          { "s": "There is a risk in connecting self-____ to a job title.", "cue": "WORTHY", "a": "worth" },
+          { "s": "Some jobs receive public ____ while others are rarely celebrated.", "cue": "ADMIRE", "a": "admiration" },
+          { "s": "Professional labels leave unpaid contributions almost ____.", "cue": "VISION", "a": "invisible" }
+        ]
+      },
+      "tfn": [
+        { "s": "The Pew survey took place in 2023.", "a": "T" },
+        { "s": "The writer says we should stop caring about work.", "a": "F" },
+        { "s": "People working long hours may have little energy for other activities.", "a": "T" },
+        { "s": "Most people change careers at least three times.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Try ____ the question and asking what keeps somebody busy.", "a": "turning round" },
+          { "s": "Professional roles become ____ people's understanding of themselves.", "a": "woven into" },
+          { "s": "A promotion may ____ or an industry may change.", "a": "fall through" },
+          { "s": "An industry can change ____.", "a": "beyond recognition" },
+          { "s": "Employment operates as ____ estimating income or status.", "a": "a shortcut for" },
+          { "s": "A broader identity gives a person more to ____.", "a": "fall back on" }
+        ],
+        "extra": ["line up with", "resilient"]
+      },
+      "match": [
+        { "t": "fall through", "d": "fail to happen as planned" },
+        { "t": "fall back on", "d": "rely on something when other things fail" },
+        { "t": "line up with", "d": "match or correspond to something else" },
+        { "t": "resilient", "d": "able to recover quickly from difficulty" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "One of the most ____ questions is also the most ordinary.", "cue": "REVEAL", "a": "revealing" },
+          { "s": "Meaningful work can create ____, belonging and pride.", "cue": "COMPETENT", "a": "competence" },
+          { "s": "Redundancy reveals the ____ of that arrangement.", "cue": "FRAGILE", "a": "fragility" },
+          { "s": "Occupational ____ influences how others treat us.", "cue": "PRESTIGIOUS", "a": "prestige" },
+          { "s": "Those judgements can be unreliable and socially ____.", "cue": "DIVIDE", "a": "divisive" }
+        ]
+      },
+      "tfn": [
+        { "s": "The Pew figure was 39% of US employees who were not self-employed.", "a": "T" },
+        { "s": "The writer says total devotion to work is the healthiest approach.", "a": "F" },
+        { "s": "The article notes that job applications encourage a neat career narrative.", "a": "T" },
+        { "s": "Pew found the figure had risen since 2019.", "a": "N" }
+      ]
+    }
+  }
+}

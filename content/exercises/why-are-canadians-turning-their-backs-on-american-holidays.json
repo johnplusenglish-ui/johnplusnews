@@ -1,0 +1,109 @@
+{
+  "slug": "why-are-canadians-turning-their-backs-on-american-holidays",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "For years, ____ when Canadians crossed the border.", "a": "nobody thought twice about it" },
+          { "s": "Many travellers ____ trips south during 2025 and 2026.", "a": "cut back on" },
+          { "s": "Businesses in those areas began to ____.", "a": "feel the effects" },
+          { "s": "Some people ____ travelling south for work or family.", "a": "carried on" },
+          { "s": "A hotel worker ____ a government decision.", "a": "has nothing to do with" }
+        ],
+        "extra": ["stay away", "nervous"]
+      },
+      "match": [
+        { "t": "cut back on", "d": "reduce the amount of something you do" },
+        { "t": "stay away", "d": "avoid going to a place" },
+        { "t": "nervous", "d": "worried about what might happen" },
+        { "t": "welcome", "d": "made to feel that people are glad you came" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "They can ____ across the border to shop or visit friends.", "cue": "drive", "a": "drive" },
+          { "s": "During 2025 and 2026, fewer Canadians ____ these journeys.", "cue": "make", "a": "made" },
+          { "s": "Relations between the two countries ____ more difficult.", "cue": "become", "a": "became" },
+          { "s": "In September 2026, reports ____ tourist organisations offering discounts.", "cue": "describe", "a": "described" },
+          { "s": "Travel is usually ____ as a way of bringing people together.", "cue": "describe", "a": "described" }
+        ]
+      },
+      "tfn": [
+        { "s": "Some Canadians travel south in winter to escape the cold.", "a": "T" },
+        { "s": "Every Canadian stopped travelling to the United States.", "a": "F" },
+        { "s": "Reports in September 2026 described discounts aimed at Canadians.", "a": "T" },
+        { "s": "Canadian visits have begun to rise again.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Discounts were ____ in destinations that depend on cross-border spending.", "a": "rolled out" },
+          { "s": "The campaigns followed a ____ decline in Canadian visits.", "a": "noticeable" },
+          { "s": "Prices and exchange rates also ____.", "a": "weigh on their decisions" },
+          { "s": "Critics call a consumer boycott ____.", "a": "a blunt instrument" },
+          { "s": "Some communities welcome the same visitors ____.", "a": "year after year" },
+          { "s": "A traveller who has found a new destination may be ____ to return.", "a": "in no hurry" }
+        ],
+        "extra": ["spill over", "uneasy"]
+      },
+      "match": [
+        { "t": "roll something out", "d": "introduce a plan across many places" },
+        { "t": "a blunt instrument", "d": "a method too crude for a delicate problem" },
+        { "t": "spill over", "d": "affect a situation beyond the original one" },
+        { "t": "uneasy", "d": "slightly worried and not relaxed" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "A short drive once made an American trip feel entirely ____.", "cue": "ROUTE", "a": "routine" },
+          { "s": "Some travellers object to political ____ or trade policies.", "cue": "RHETORICAL", "a": "rhetoric" },
+          { "s": "Avoiding a destination can be a peaceful form of political ____.", "cue": "EXPRESS", "a": "expression" },
+          { "s": "Personal and economic ____ have built up over generations.", "cue": "CONNECT", "a": "connections" },
+          { "s": "Holidays never take place in a political ____.", "cue": "VACANT", "a": "vacuum" }
+        ]
+      },
+      "tfn": [
+        { "s": "Some Canadians chose to holiday in Mexico or within Canada instead.", "a": "T" },
+        { "s": "Everyone stayed away for the same political reason.", "a": "F" },
+        { "s": "The writer says winning customers back may take longer than losing them.", "a": "T" },
+        { "s": "Canadian airlines have cut flights to the United States.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "A large northern customer base had been ____ rather than courted.", "a": "taken for granted" },
+          { "s": "A decision never really made ____ can be abandoned easily.", "a": "in the first place" },
+          { "s": "Such a trip can be dropped ____.", "a": "without much soul-searching" },
+          { "s": "It would be inaccurate to ____ a single political cause.", "a": "put every cancelled trip down to" },
+          { "s": "Border relationships absorb ____ of a dispute.", "a": "the first shock" },
+          { "s": "Travellers with alternatives may feel ____ about returning.", "a": "no particular urgency" }
+        ],
+        "extra": ["move on", "negligible"]
+      },
+      "match": [
+        { "t": "take something for granted", "d": "assume something will always be there" },
+        { "t": "move on", "d": "stop giving attention to something" },
+        { "t": "negligible", "d": "too small to be worth considering" },
+        { "t": "habitual", "d": "done regularly without thinking" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Political friction has shown how ____ consumer confidence can be.", "cue": "FRAGILITY", "a": "fragile" },
+          { "s": "The impact was most ____ in businesses with Canadian customers.", "cue": "CONSPICUOUSLY", "a": "conspicuous" },
+          { "s": "Such trips were ____ rather than deliberate.", "cue": "HABIT", "a": "habitual" },
+          { "s": "Economic ____ raises the cost of a quarrel.", "cue": "DEPEND", "a": "interdependence" },
+          { "s": "Discounts work less well against feeling like an ____ guest.", "cue": "WANT", "a": "unwanted" }
+        ]
+      },
+      "tfn": [
+        { "s": "US tourism organisations launched promotions aimed at Canadians in September 2026.", "a": "T" },
+        { "s": "The writer says tourism always improves relations between neighbours.", "a": "F" },
+        { "s": "The article says the immediate consequences fall on workers and small firms.", "a": "T" },
+        { "s": "Canadian visits fell by a third in 2026.", "a": "N" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "why-is-brazil-breeding-millions-of-mosquitoes",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "The bacterium makes it harder for a mosquito to ____ viruses to humans.", "a": "pass" },
+          { "s": "The aim is to ____ the number of people who catch dengue.", "a": "bring down" },
+          { "s": "Spraying chemicals can help, but the insects keep ____.", "a": "coming back" },
+          { "s": "People still need to ____ standing water around their homes.", "a": "get rid of" },
+          { "s": "The new factory is designed to produce mosquitoes ____.", "a": "on a much larger scale" }
+        ],
+        "extra": ["set up", "harmless"]
+      },
+      "match": [
+        { "t": "bring down", "d": "reduce a number or level" },
+        { "t": "get rid of", "d": "remove something you do not want" },
+        { "t": "harmless", "d": "unable to cause any damage" },
+        { "t": "set up", "d": "create or establish something new" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "In July 2025, a large mosquito factory ____ in Curitiba.", "cue": "open", "a": "opened" },
+          { "s": "The bacterium ____ naturally in many insects.", "cue": "find", "a": "is found" },
+          { "s": "Scientists ____ the insects in carefully controlled conditions.", "cue": "raise", "a": "raise" },
+          { "s": "When the mosquitoes ____, they breed with the local ones.", "cue": "release", "a": "are released" },
+          { "s": "Brazil ____ already used the method in other cities.", "cue": "have", "a": "has" }
+        ]
+      },
+      "tfn": [
+        { "s": "The factory in Curitiba opened in July 2025.", "a": "T" },
+        { "s": "Mosquitoes carrying Wolbachia cannot bite.", "a": "F" },
+        { "s": "The programme works alongside older methods such as removing water.", "a": "T" },
+        { "s": "The factory produces a million mosquitoes a week.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Releasing mosquitoes sounds like ____ a health department should do.", "a": "the last thing" },
+          { "s": "The aim is to ____ a population in which Wolbachia is common.", "a": "build up" },
+          { "s": "Released mosquitoes ____ Wolbachia to later generations.", "a": "pass" },
+          { "s": "Insecticide campaigns can be ____ quickly.", "a": "rolled out" },
+          { "s": "A population in which Wolbachia has ____ needs less re-treatment.", "a": "taken hold" },
+          { "s": "Nobody is presenting the method as ____.", "a": "a quick fix" }
+        ],
+        "extra": ["from nothing", "essential"]
+      },
+      "match": [
+        { "t": "roll something out", "d": "introduce a plan across many places" },
+        { "t": "take hold", "d": "become firmly established in a place" },
+        { "t": "from nothing", "d": "starting with no existing basis" },
+        { "t": "essential", "d": "absolutely necessary and impossible to omit" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Wolbachia reduces the insect's ability to ____ several viruses.", "cue": "TRANSMISSION", "a": "transmit" },
+          { "s": "The facility was built to ____ an existing programme.", "cue": "EXPANSION", "a": "expand" },
+          { "s": "Results from some locations have been ____.", "cue": "COURAGE", "a": "encouraging" },
+          { "s": "Authorities must track ____ rates over several seasons.", "cue": "INFECT", "a": "infection" },
+          { "s": "Clear ____ about the method are essential.", "cue": "EXPLAIN", "a": "explanations" }
+        ]
+      },
+      "tfn": [
+        { "s": "Wolbachia is found naturally in many insects.", "a": "T" },
+        { "s": "The Curitiba facility started the programme from nothing.", "a": "F" },
+        { "s": "A fall in dengue cases can have more than one cause.", "a": "T" },
+        { "s": "Dengue cases in Curitiba have halved since the factory opened.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Wolbachia is a naturally occurring, largely ____ bacterium.", "a": "benign" },
+          { "s": "The intervention may appear ____ to the public.", "a": "counter-intuitive" },
+          { "s": "The approach seeks a more ____ change in transmission capacity.", "a": "durable" },
+          { "s": "The mosquitoes must be released for the bacterium to ____.", "a": "take root" },
+          { "s": "It only works as a ____ operation, not a one-off intervention.", "a": "sustained" },
+          { "s": "No responsible scientist would present it as ____.", "a": "a silver bullet" }
+        ],
+        "extra": ["opt out", "candid"]
+      },
+      "match": [
+        { "t": "take root", "d": "become established and begin to spread" },
+        { "t": "a silver bullet", "d": "a single solution to a complicated problem" },
+        { "t": "opt out", "d": "choose not to take part in something" },
+        { "t": "candid", "d": "honest, even when the truth is awkward" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "A production facility was ____ in Curitiba in July 2025.", "cue": "AUGUR", "a": "inaugurated" },
+          { "s": "Programmes must coexist with ____ and sanitation.", "cue": "SURVEY", "a": "surveillance" },
+          { "s": "Spraying offers visible, immediate ____.", "cue": "REASSURE", "a": "reassurance" },
+          { "s": "Collective agreement is harder to secure than the ____ kind.", "cue": "INDIVIDUALLY", "a": "individual" },
+          { "s": "Officials must explain the method without ____ the evidence.", "cue": "STATE", "a": "overstating" }
+        ]
+      },
+      "tfn": [
+        { "s": "Released insects reproduce with wild populations and spread the bacterium.", "a": "T" },
+        { "s": "The writer says the mosquitoes have become entirely harmless.", "a": "F" },
+        { "s": "The article notes that nobody can opt out of mosquitoes in their street.", "a": "T" },
+        { "s": "Other South American countries have built similar factories.", "a": "N" }
+      ]
+    }
+  }
+}

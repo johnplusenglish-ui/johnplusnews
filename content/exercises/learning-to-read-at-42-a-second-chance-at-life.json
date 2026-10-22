@@ -1,0 +1,109 @@
+{
+  "slug": "learning-to-read-at-42-a-second-chance-at-life",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Peter could drive a lorry, remember routes and ____ his family.", "a": "look after" },
+          { "s": "An ordinary trip to the supermarket persuaded him to ____.", "a": "ask for help" },
+          { "s": "Sometimes the work was frustrating, but this time he did not ____.", "a": "give up" },
+          { "s": "He wanted to read the first Harry Potter book ____.", "a": "from beginning to end" },
+          { "s": "Learning to read has ____ a very different future.", "a": "opened up" }
+        ],
+        "extra": ["grow up", "hidden"]
+      },
+      "match": [
+        { "t": "look after", "d": "take care of somebody or something" },
+        { "t": "give up", "d": "stop trying to do something difficult" },
+        { "t": "grow up", "d": "become an adult over a period of years" },
+        { "t": "hidden", "d": "kept where nobody can see or know" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "For most of his adult life, he ____ this problem hidden.", "cue": "keep", "a": "kept" },
+          { "s": "Peter ____ up in Lancashire and was partially deaf from birth.", "cue": "grow", "a": "grew" },
+          { "s": "He ____ education at 16 without qualifications.", "cue": "leave", "a": "left" },
+          { "s": "He started ____ a volunteer coach called Alison twice a week.", "cue": "meet", "a": "meeting" },
+          { "s": "Today, Peter ____ read recipes and share books with his son.", "cue": "can", "a": "can" }
+        ]
+      },
+      "tfn": [
+        { "s": "Peter was partially deaf from birth.", "a": "T" },
+        { "s": "Peter learned to read while he was still at school.", "a": "F" },
+        { "s": "He finished the first Harry Potter book after three years of lessons.", "a": "T" },
+        { "s": "His son has also had reading lessons with Read Easy.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "A letter through the post could leave him feeling ____.", "a": "helpless" },
+          { "s": "His wife ____ when he needed to understand documents.", "a": "stepped in" },
+          { "s": "____, there was little to suggest how much effort ordinary tasks required.", "a": "From the outside" },
+          { "s": "____ came during the Covid lockdowns.", "a": "The turning point" },
+          { "s": "Peter was hesitant, but he decided to ____.", "a": "give it another go" },
+          { "s": "The early lessons involved ____ before moving on to longer texts.", "a": "going back to basics" }
+        ],
+        "extra": ["fill in", "gradual"]
+      },
+      "match": [
+        { "t": "step in", "d": "become involved in order to help" },
+        { "t": "the turning point", "d": "the moment when a situation starts to change" },
+        { "t": "fill in", "d": "write the information a form asks for" },
+        { "t": "gradual", "d": "happening slowly over a long period" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Yet he was ____, finding his own ways to manage.", "cue": "RESOURCE", "a": "resourceful" },
+          { "s": "He left school at 16 without ____.", "cue": "QUALIFY", "a": "qualifications" },
+          { "s": "Read Easy is a charity offering individual reading ____ to adults.", "cue": "SUPPORTIVE", "a": "support" },
+          { "s": "He became an ____ for the charity.", "cue": "AMBASSADORIAL", "a": "ambassador" },
+          { "s": "Low ____ does not mean a lack of intelligence.", "cue": "LITERATE", "a": "literacy" }
+        ]
+      },
+      "tfn": [
+        { "s": "Peter was matched with a volunteer coach called Alison.", "a": "T" },
+        { "s": "Peter had never tried to learn to read before contacting Read Easy.", "a": "F" },
+        { "s": "He hopes to earn an English GCSE.", "a": "T" },
+        { "s": "Read Easy has coaches in every part of Britain.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "He had spent much of his life ____ the fact that he struggled to read.", "a": "covering up" },
+          { "s": "Partially deaf from birth, Peter found the classroom an ____ place.", "a": "unforgiving" },
+          { "s": "Most people ____ reading, and few notice the workarounds.", "a": "take for granted" },
+          { "s": "The supermarket incident ____ the reassurance those strategies provided.", "a": "stripped away" },
+          { "s": "Peter could no longer ____ the practical risks.", "a": "brush aside" },
+          { "s": "Three years later, he had read it ____.", "a": "from cover to cover" }
+        ],
+        "extra": ["painstaking", "guarded"]
+      },
+      "match": [
+        { "t": "cover up", "d": "hide a fact you do not want others to know" },
+        { "t": "brush aside", "d": "refuse to take something seriously" },
+        { "t": "painstaking", "d": "done with great care over a long time" },
+        { "t": "guarded", "d": "kept private and not spoken about" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "His working life demonstrated considerable ____.", "cue": "INGENIOUS", "a": "ingenuity" },
+          { "s": "He relied on an ____ system of workarounds.", "cue": "ELABORATION", "a": "elaborate" },
+          { "s": "People may have limited reading skills because of ____ education.", "cue": "DISRUPT", "a": "disrupted" },
+          { "s": "His ____ about a previously guarded struggle carries real weight.", "cue": "CANDID", "a": "candour" },
+          { "s": "Support is of little use to anyone too ____ to walk through the door.", "cue": "SHAME", "a": "ashamed" }
+        ]
+      },
+      "tfn": [
+        { "s": "Peter was 42 at the time of the supermarket incident.", "a": "T" },
+        { "s": "The writer says limited reading skills indicate low intelligence.", "a": "F" },
+        { "s": "Alison offered regular one-to-one sessions.", "a": "T" },
+        { "s": "Peter has started training as a reading coach himself.", "a": "N" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "no-influencers-allowed-are-restaurants-fighting-back-against-social-media",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Some businesses have decided that ____.", "a": "enough is enough" },
+          { "s": "Some visitors had booked a meal and then ____ with bags of clothes.", "a": "turned up" },
+          { "s": "The aim is to let staff ____ with their work.", "a": "get on" },
+          { "s": "Travellers often ____ places online before making plans.", "a": "look up" },
+          { "s": "Long photoshoots and strangers in videos can ____.", "a": "spoil the atmosphere" }
+        ],
+        "extra": ["deal with", "uncomfortable"]
+      },
+      "match": [
+        { "t": "turn up", "d": "arrive somewhere, often unexpectedly" },
+        { "t": "look up", "d": "search for information about something" },
+        { "t": "deal with", "d": "take action to handle a problem" },
+        { "t": "uncomfortable", "d": "feeling awkward or uneasy" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "At the next table, someone ____ photographs of every corner.", "cue": "take", "a": "is taking" },
+          { "s": "In October 2026, reports ____ hotels that were limiting photography.", "cue": "describe", "a": "described" },
+          { "s": "One hotel in Antibes now ____ permission for organised photoshoots.", "cue": "require", "a": "requires" },
+          { "s": "A café that appears in a popular video may suddenly ____ people queuing.", "cue": "have", "a": "have" },
+          { "s": "Perhaps the best photograph is the one you take before ____ your phone away.", "cue": "put", "a": "putting" }
+        ]
+      },
+      "tfn": [
+        { "s": "The Hollies restricted filming between ten and four.", "a": "T" },
+        { "s": "The article says photography should be banned completely.", "a": "F" },
+        { "s": "A good photograph can help a small restaurant attract customers.", "a": "T" },
+        { "s": "The Hollies has lost customers because of the new rule.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "For them, the hotel is ____ rather than a place to relax.", "a": "a backdrop" },
+          { "s": "That clash has persuaded some businesses to ____ their approach.", "a": "rethink" },
+          { "s": "A short video can ____ an unknown café.", "a": "put on the map" },
+          { "s": "Telling customers to put their phones away may seem ____.", "a": "hypocritical" },
+          { "s": "Small interruptions can ____ into an argument about privacy.", "a": "build up" },
+          { "s": "The sensible answer may lie between a photoshoot and ____.", "a": "a blanket ban" }
+        ],
+        "extra": ["get on with", "irresistible"]
+      },
+      "match": [
+        { "t": "put somewhere on the map", "d": "make a place widely known" },
+        { "t": "build up", "d": "grow gradually into something larger" },
+        { "t": "get on with", "d": "continue doing what you were doing" },
+        { "t": "irresistible", "d": "too attractive to refuse" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The problem is not limited to ____ hotels.", "cue": "EXCLUDE", "a": "exclusive" },
+          { "s": "Management wanted to protect the ____ of other guests.", "cue": "PRIVATE", "a": "privacy" },
+          { "s": "Businesses often benefit ____ from social media publicity.", "cue": "ENORMOUS", "a": "enormously" },
+          { "s": "Influencers point out that their work involves real planning and ____.", "cue": "PROMOTE", "a": "promotion" },
+          { "s": "Including strangers in a video without their ____ is different.", "cue": "AGREE", "a": "agreement" }
+        ]
+      },
+      "tfn": [
+        { "s": "Hotel du Cap-Eden-Roc now requires permission for organised photoshoots.", "a": "T" },
+        { "s": "The writer says influencers do no real work.", "a": "F" },
+        { "s": "The Hollies became popular after being featured by a celebrity.", "a": "T" },
+        { "s": "Most French hotels have introduced similar rules.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "The neighbouring table becomes ____ as outfits are unpacked.", "a": "a changing room" },
+          { "s": "An October 2026 report described venues ____ intrusive photography.", "a": "clamping down on" },
+          { "s": "What looks like free publicity can become ____ for staff.", "a": "an operational headache" },
+          { "s": "There is a striking ____ at the heart of these bans.", "a": "contradiction" },
+          { "s": "The tension becomes especially ____ in an intimate setting.", "a": "acute" },
+          { "s": "Customers also have a responsibility to ____.", "a": "read the room" }
+        ],
+        "extra": ["pick up the pieces", "proportionate"]
+      },
+      "match": [
+        { "t": "clamp down on", "d": "take strong action to stop something" },
+        { "t": "pick up the pieces", "d": "deal with the mess somebody else left" },
+        { "t": "proportionate", "d": "sensible in relation to the size of the problem" },
+        { "t": "acute", "d": "severe and keenly felt" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The terrace promised ____ service and an unhurried lunch.", "cue": "PECCABLE", "a": "impeccable" },
+          { "s": "The hotel requires prior ____ for organised photoshoots.", "cue": "AUTHORISE", "a": "authorisation" },
+          { "s": "Staff try to maintain a ____, luxurious environment.", "cue": "DISCRETION", "a": "discreet" },
+          { "s": "Dismissing every creator as ____ overlooks genuine work.", "cue": "DISRUPT", "a": "disruptive" },
+          { "s": "Venues could introduce ____ rules instead of total bans.", "cue": "PROPORTION", "a": "proportionate" }
+        ]
+      },
+      "tfn": [
+        { "s": "The Guardian report appeared in October 2026.", "a": "T" },
+        { "s": "The writer calls for a complete ban on filming in restaurants.", "a": "F" },
+        { "s": "The article suggests designated filming times as one solution.", "a": "T" },
+        { "s": "Influencers have organised a campaign against the restrictions.", "a": "N" }
+      ]
+    }
+  }
+}

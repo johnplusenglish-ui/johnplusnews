@@ -387,6 +387,18 @@ def parse_tags(value):
     return out
 
 
+def load_exercises(slug):
+    """One file per article, content/exercises/<slug>.json, written by hand or by the
+    exercise script. An article without one simply shows no exercise row."""
+    f = CONTENT / "exercises" / (slug + ".json")
+    if not f.exists():
+        return None
+    try:
+        return json.loads(f.read_text(encoding="utf-8"))["levels"]
+    except Exception as err:
+        raise SystemExit("{}: {}".format(f.name, err))
+
+
 def parse_article(path):
     try:
         meta, body = split_article(path.read_text(encoding="utf-8"))
@@ -424,8 +436,9 @@ def parse_article(path):
         else:
             source_name = bits[0]
 
+    slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", path.stem)
     return {
-        "slug": re.sub(r"^\d{4}-\d{2}-\d{2}-", "", path.stem),
+        "slug": slug,
         "title": meta["title"],
         "date": date,
         "date_label": meta.get("date-label", ""),
@@ -442,6 +455,7 @@ def parse_article(path):
         "source_name": source_name,
         "source_url": source_url,
         "questions": questions,
+        "exercises": load_exercises(slug),
         "tags": parse_tags(meta.get("tags", "")),
         "versions": [
             {"level": v["level"], "html": mark_language(body_html(v["text"]), language.get(v["level"], []), path, v["level"]),
@@ -842,10 +856,132 @@ def questions_html(a, key):
     qs = a["questions"].get(key) or []
     if not qs:
         return ""
-    return ('<details class="qs qs-{key}"><summary><span class="qs-label">{label}</span>'
-            '<span class="qs-count">{n} question{s}</span>{chev}</summary><ol>{items}</ol></details>'
-            ).format(key=key, label=label, n=len(qs), s="" if len(qs) == 1 else "s", chev=CHEVRON_ICON,
-                     items="".join("<li>{}</li>".format(inline(q)) for q in qs))
+    row = ('<details class="qs qs-{key}"><summary><span class="qs-label">{label}</span>'
+           '<span class="qs-count">{n} question{s}</span>{chev}</summary><ol>{items}</ol></details>'
+           ).format(key=key, label=label, n=len(qs), s="" if len(qs) == 1 else "s", chev=CHEVRON_ICON,
+                    items="".join("<li>{}</li>".format(inline(q)) for q in qs))
+    # "Before you read" sits alone above the article, in a panel of its own
+    return '<div class="qs-group">{}</div>'.format(row) if key == "before" else row
+
+
+
+EX_LEAD = {
+    "gap": ("Complete the sentences",
+            "Drag a word into each gap, or tap a word and then tap a gap. "
+            "Tap a filled gap to put the word back. Two words are not needed."),
+    "match": ("Match the meaning",
+              "Choose the meaning of each word or phrase as it is used in the article."),
+    "verb": ("Put the verb in the right form", "Write the correct form of the verb in brackets."),
+    "word": ("Make the right word", "Use the word in brackets to make a word that fits the gap."),
+    "tfn": ("True, false or not given",
+            "Choose <b>Not given</b> if the article does not say, even when you think "
+            "the statement is probably true."),
+}
+EX_ACTIONS = ('<div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button>'
+              '<button type="button" class="ex-btn ex-ghost" data-show>Show answers</button>'
+              '<button type="button" class="ex-btn ex-ghost" data-reset>Try again</button>'
+              '<span class="ex-score" role="status"></span></div>')
+EX_TOTAL = ('<section class="ex-total"><div class="ex-total-head"><h3 class="ex-h">Your score</h3>'
+            '<p class="ex-lead">Do all four, then add them up.</p></div>'
+            '<div class="ex-total-actions">'
+            '<button type="button" class="ex-btn ex-big" data-total>Total my score</button>'
+            '<button type="button" class="ex-btn ex-ghost" data-resetall>Start all four again</button></div>'
+            '<div class="ex-total-out" role="status" hidden>'
+            '<div class="ex-total-num"><b data-total-right>0</b><span>out of <b data-total-all>0</b></span></div>'
+            '<ul class="ex-total-list" data-total-list></ul>'
+            '<p class="ex-total-msg" data-total-msg></p></div></section>')
+EX_TFN_OPTS = [("T", "True"), ("F", "False"), ("N", "Not given")]
+
+
+def ex_block(n, kind, body):
+    head, lead = EX_LEAD[kind]
+    return ('<section class="ex-block" data-ex="{k}"><h3 class="ex-h">{n}. {h}</h3>'
+            '<p class="ex-lead">{l}</p>{body}{a}</section>').format(
+                k="grammar" if kind in ("verb", "word") else kind, n=n, h=esc(head), l=lead,
+                body=body, a=EX_ACTIONS)
+
+
+def ex_gap(data):
+    words = sorted({i["a"] for i in data["items"]} | set(data.get("extra") or []), key=str.lower)
+    bank = "".join('<button type="button" class="ex-chip" draggable="true" data-w="{w}">{w}</button>'.format(w=esc(w))
+                   for w in words)
+    rows = []
+    for i, item in enumerate(data["items"], 1):
+        before, after = item["s"].split("____", 1)
+        rows.append('<li>{b}<button type="button" class="ex-gap" data-a="{a}" aria-label="Gap {i}, empty">'
+                    '</button>{af}</li>'.format(b=esc(before), a=esc(item["a"]), i=i, af=esc(after)))
+    return ('<div class="ex-bank" data-bank>{bank}</div><ol class="ex-list">{rows}</ol>'
+            ).format(bank=bank, rows="".join(rows))
+
+
+def ex_match(pairs):
+    opts = "".join('<option value="{}">{}</option>'.format(i, esc(p["d"])) for i, p in enumerate(pairs))
+    rows = "".join('<li><span class="ex-term">{t}</span>'
+                   '<select class="ex-sel" data-a="{i}" aria-label="Meaning of {t}">'
+                   '<option value="">Choose a meaning</option>{o}</select></li>'.format(
+                       t=esc(p["t"]), i=i, o=opts) for i, p in enumerate(pairs))
+    return '<ol class="ex-list ex-match">{}</ol>'.format(rows)
+
+
+def ex_grammar(data):
+    rows = []
+    for item in data["items"]:
+        before, after = item["s"].split("____", 1)
+        width = max(len(x) for x in item["a"].split("|")) + 2
+        rows.append('<li>{b}<input type="text" class="ex-in" size="{w}" autocomplete="off" autocapitalize="off" '
+                    'spellcheck="false" data-a="{a}" aria-label="Answer for {c}">{af} '
+                    '<span class="ex-cue">({c})</span></li>'.format(
+                        b=esc(before), w=width, a=esc(item["a"]), af=esc(after), c=esc(item["cue"])))
+    return '<ol class="ex-list">{}</ol>'.format("".join(rows))
+
+
+def ex_tfn(items):
+    rows = []
+    for item in items:
+        opts = "".join('<button type="button" class="ex-opt" data-v="{v}">{l}</button>'.format(v=v, l=l)
+                       for v, l in EX_TFN_OPTS)
+        rows.append('<li><span class="ex-stmt">{s}</span><span class="ex-tfn" data-a="{a}" role="group" '
+                    'aria-label="True, false or not given">{o}</span></li>'.format(
+                        s=esc(item["s"]), a=esc(item["a"]), o=opts))
+    return '<ol class="ex-list ex-tfns">{}</ol>'.format("".join(rows))
+
+
+def exercises_html(a):
+    """Four tasks per reading level, from content/exercises/<slug>.json. The panels follow
+    the level tabs, so a reader only ever sees the set for the version they are reading."""
+    ex = a.get("exercises")
+    if not ex:
+        return ""
+    panels = []
+    for v in a["versions"]:
+        key = v["level"].lower()
+        d = ex.get(key)
+        if not d:
+            continue
+        g = d["grammar"]
+        panels.append('<div class="ex-level" data-ex-level="{k}"{hid}>{a}{b}{c}{e}{tot}</div>'.format(
+            k=key, hid="" if v is a["versions"][default_index(a["versions"])] else " hidden",
+            a=ex_block(1, "gap", ex_gap(d["gap"])), b=ex_block(2, "match", ex_match(d["match"])),
+            c=ex_block(3, g["kind"], ex_grammar(g)), e=ex_block(4, "tfn", ex_tfn(d["tfn"])), tot=EX_TOTAL))
+    if not panels:
+        return ""
+    return ('<details class="qs qs-ex"><summary><span class="qs-label">Exercises</span>'
+            '<span class="qs-count">4 exercises</span>{chev}</summary>'
+            '<div class="ex-wrap">{p}</div></details>').format(chev=CHEVRON_ICON, p="".join(panels))
+
+
+def exercises_script(a):
+    f = STATIC / "exercises.js"
+    if not a.get("exercises") or not f.exists():
+        return ""
+    return '<script src="/exercises.js?v={}" defer></script>\n'.format(
+        hashlib.md5(f.read_bytes()).hexdigest()[:8])
+
+
+def study_html(a):
+    """The two end-of-article rows share one rounded panel."""
+    rows = questions_html(a, "after") + exercises_html(a)
+    return '<div class="qs-group">{}</div>'.format(rows) if rows else ""
 
 
 def listen_html(a):
@@ -958,17 +1094,17 @@ def article_page(a, newer, older):
 {before}
 </header>
 {versions}
-{after}
+{study}
 {source}
 {topics}
 {pager}
 <p class="print-foot">{foot}</p>
 </article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
-                     topics=topics_html(a), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), after=questions_html(a, "after"), source=source, pager=pager,
+                     topics=topics_html(a), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), study=study_html(a), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))
     no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=first["title"], desc=first["summary"], image=a["image"] or None, kind="article",
-                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script() + timer_script() + listen_script(a))
+                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script() + timer_script() + listen_script(a) + exercises_script(a))
 
 
 def not_found_page():

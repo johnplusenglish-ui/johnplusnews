@@ -1,0 +1,109 @@
+{
+  "slug": "would-you-give-your-child-a-phone-without-social-media",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Their parents want to ____ with their child during the day.", "a": "stay in touch" },
+          { "s": "An American company has ____ an answer.", "a": "come up with" },
+          { "s": "The aim is to give children some ____ without the whole internet.", "a": "independence" },
+          { "s": "The company wants children to go out and explore rather than ____ videos.", "a": "scroll through" },
+          { "s": "Could children with this phone feel ____?", "a": "left out" }
+        ],
+        "extra": ["deal with", "reassuring"]
+      },
+      "match": [
+        { "t": "come up with", "d": "think of a new idea or plan" },
+        { "t": "left out", "d": "not included in what other people are doing" },
+        { "t": "reassuring", "d": "making you feel less worried" },
+        { "t": "deal with", "d": "take action to handle something difficult" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "The device ____ Freckle.", "cue": "call", "a": "is called" },
+          { "s": "It ____ mainly for children aged seven to thirteen.", "cue": "design", "a": "is designed" },
+          { "s": "The phone ____ to cost $199.", "cue": "expect", "a": "is expected" },
+          { "s": "Its first deliveries ____ for December 2026.", "cue": "plan", "a": "were planned" },
+          { "s": "Children can collect their discoveries in a digital book and ____ them later.", "cue": "look", "a": "look at" }
+        ]
+      },
+      "tfn": [
+        { "s": "Freckle has no app store, YouTube or web browser.", "a": "T" },
+        { "s": "Children can message anybody they like on the Freckle phone.", "a": "F" },
+        { "s": "The camera can help children recognise plants, birds and insects.", "a": "T" },
+        { "s": "The phone is already on sale in Europe.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "A simple request can ____ an argument about safety and screen time.", "a": "open up" },
+          { "s": "A normal smartphone provides instant access to countless ____.", "a": "distractions" },
+          { "s": "Freckle protects children from online spaces they are not ready to ____.", "a": "navigate" },
+          { "s": "Those tools could offer ____ when children start going out alone.", "a": "reassurance" },
+          { "s": "Promotional claims should be ____.", "a": "treated cautiously" },
+          { "s": "A child whose friends use popular apps may ____.", "a": "feel left out" }
+        ],
+        "extra": ["keep in touch", "proven"]
+      },
+      "match": [
+        { "t": "navigate", "d": "find your way through something complicated" },
+        { "t": "distraction", "d": "anything that stops you concentrating" },
+        { "t": "keep in touch", "d": "continue to contact somebody regularly" },
+        { "t": "proven", "d": "shown by experience to work" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The device is aimed ____ at children aged seven to thirteen.", "cue": "PRIME", "a": "primarily" },
+          { "s": "Parents can receive ____ linked to selected areas.", "cue": "ALERTED", "a": "alerts" },
+          { "s": "The tools raise questions about privacy and constant ____.", "cue": "SUPERVISE", "a": "supervision" },
+          { "s": "The challenge is finding a balance between protection and ____.", "cue": "RESPONSIBLE", "a": "responsibility" },
+          { "s": "Other families will introduce internet access ____.", "cue": "GRADUAL", "a": "gradually" }
+        ]
+      },
+      "tfn": [
+        { "s": "The phone runs the company's own ClayOS software.", "a": "T" },
+        { "s": "The device had been tested by large numbers of families before launch.", "a": "F" },
+        { "s": "Parents manage the phone's features through a separate app.", "a": "T" },
+        { "s": "Teachers have welcomed the phone in schools.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Handing over a ____ device can mean opening the door to social media.", "a": "conventional" },
+          { "s": "The company is trying to ____ between a basic phone and a connected world.", "a": "occupy the middle ground" },
+          { "s": "Technology becomes a reason to head out rather than ____ from the world.", "a": "withdraw" },
+          { "s": "Promises about its effects on childhood behaviour remained largely ____.", "a": "untested" },
+          { "s": "A device that ____ those channels could make a child feel excluded.", "a": "shuts out" },
+          { "s": "Expecting young users to manage ____ platforms places a heavy burden on them.", "a": "persuasive" }
+        ],
+        "extra": ["resilient", "delicate"]
+      },
+      "match": [
+        { "t": "shut out", "d": "prevent somebody from taking part in something" },
+        { "t": "untested", "d": "not yet shown to work in real conditions" },
+        { "t": "resilient", "d": "able to recover quickly from difficulty" },
+        { "t": "delicate", "d": "needing to be handled with great care" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Even adults struggle to navigate those spaces ____.", "cue": "RESPONSIBLE", "a": "responsibly" },
+          { "s": "Its most ____ feature may be a camera that identifies plants and birds.", "cue": "DISTINGUISH", "a": "distinctive" },
+          { "s": "Location tracking could give parents greater ____.", "cue": "CONFIDENT", "a": "confidence" },
+          { "s": "Children increasingly organise friendships through shared online spaces, which raises the problem of social ____.", "cue": "BELONG", "a": "belonging" },
+          { "s": "Expecting young users to cope alone places a burden on developing ____.", "cue": "JUDGE", "a": "judgement" }
+        ]
+      },
+      "tfn": [
+        { "s": "Freckle excludes a general web browser and an app store.", "a": "T" },
+        { "s": "The writer concludes that the device removes the need for family rules.", "a": "F" },
+        { "s": "The phone was expected to begin shipping in December 2026.", "a": "T" },
+        { "s": "Rival companies have announced similar devices for children.", "a": "N" }
+      ]
+    }
+  }
+}

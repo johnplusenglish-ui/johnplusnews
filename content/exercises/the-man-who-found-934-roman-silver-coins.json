@@ -1,0 +1,109 @@
+{
+  "slug": "the-man-who-found-934-roman-silver-coins",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "Oliver Riedl was searching a field when his metal detector ____.", "a": "went off" },
+          { "s": "____ the money was never collected.", "a": "What is certain is that" },
+          { "s": "A Roman soldier could have needed years to ____ a similar amount.", "a": "put aside" },
+          { "s": "Hiding coins ____ forgetting the location.", "a": "came with the risk of" },
+          { "s": "He was ____ a permitted search when he made the discovery.", "a": "carrying out" }
+        ],
+        "extra": ["come back", "sensible"]
+      },
+      "match": [
+        { "t": "go off", "d": "suddenly make a loud noise or signal" },
+        { "t": "put aside", "d": "save money for later use" },
+        { "t": "sensible", "d": "showing good practical judgement" },
+        { "t": "come back", "d": "return to a place you left" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "He ____ local archaeology experts instead of digging everything himself.", "cue": "contact", "a": "contacted" },
+          { "s": "The full discovery ____ publicly in September 2026.", "cue": "announce", "a": "was announced" },
+          { "s": "The coins had probably ____ in the second century AD.", "cue": "bury", "a": "been buried" },
+          { "s": "Archaeologists eventually ____ 934 silver coins.", "cue": "recover", "a": "recovered" },
+          { "s": "Visitors can now see money that somebody ____ almost 1,900 years ago.", "cue": "hide", "a": "hid" }
+        ]
+      },
+      "tfn": [
+        { "s": "Archaeologists recovered 934 silver coins weighing about 3.1 kilograms.", "a": "T" },
+        { "s": "Experts know who buried the coins.", "a": "F" },
+        { "s": "The collection went on display at a museum in Bonn.", "a": "T" },
+        { "s": "Riedl received a reward for the discovery.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "Riedl was an amateur archaeologist carrying out an ____ search.", "a": "authorised" },
+          { "s": "Specialists ____ recover a hoard of 934 denarii.", "a": "went on to" },
+          { "s": "Who owned such a fortune ____.", "a": "remains a mystery" },
+          { "s": "It could have been hidden for safety ____.", "a": "during uncertain times" },
+          { "s": "Perhaps the owner died, ____ or forgot the place.", "a": "moved away" },
+          { "s": "The find ____ a more human question about the owner's plans.", "a": "leaves room for" }
+        ],
+        "extra": ["dig up", "intriguing"]
+      },
+      "match": [
+        { "t": "go on to", "d": "do something next, after what came before" },
+        { "t": "remain a mystery", "d": "stay unexplained despite investigation" },
+        { "t": "dig up", "d": "remove something from under the ground" },
+        { "t": "intriguing", "d": "interesting because something is unexplained" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The money might have belonged to a ____ individual or a trader.", "cue": "WEALTH", "a": "wealthy" },
+          { "s": "The container probably did not survive ____.", "cue": "INTACTNESS", "a": "intact" },
+          { "s": "The amount was ____, representing years of savings.", "cue": "CONSIDER", "a": "considerable" },
+          { "s": "His decision to inform the ____ mattered as much as the find.", "cue": "AUTHORISE", "a": "authorities" },
+          { "s": "Such details provide ____ about how the money was hidden.", "cue": "CLUE", "a": "clues" }
+        ]
+      },
+      "tfn": [
+        { "s": "The oldest coin in the hoard dates from 148 BC.", "a": "T" },
+        { "s": "The container holding the coins survived undamaged.", "a": "F" },
+        { "s": "It is the largest hoard from Hadrian's period found in Germany.", "a": "T" },
+        { "s": "The coins will be sold at auction after the exhibition.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "The coins offer a ____ history of Roman power.", "a": "compressed" },
+          { "s": "Such comparisons are necessarily ____.", "a": "approximate" },
+          { "s": "An attractive explanation is not necessarily a ____ one.", "a": "demonstrated" },
+          { "s": "It is unlikely that the coins alone will ever ____ the mystery.", "a": "clear up" },
+          { "s": "The comparison helps ____ that this was not loose change.", "a": "get across" },
+          { "s": "The person who buried them remains ____ the metal detector.", "a": "beyond the reach of" }
+        ],
+        "extra": ["absorbing", "come to light"]
+      },
+      "match": [
+        { "t": "clear up", "d": "provide an explanation for something puzzling" },
+        { "t": "get across", "d": "succeed in making an idea understood" },
+        { "t": "absorbing", "d": "holding your attention completely" },
+        { "t": "come to light", "d": "become known after being hidden" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The subsequent ____ yielded 934 denarii.", "cue": "INVESTIGATE", "a": "investigation" },
+          { "s": "The collection was deliberately ____ in the second century AD.", "cue": "CONCEAL", "a": "concealed" },
+          { "s": "Death and ____ both remain plausible explanations.", "cue": "DISPLACE", "a": "displacement" },
+          { "s": "An impressive collection acquired without ____ loses much of its value.", "cue": "DOCUMENT", "a": "documentation" },
+          { "s": "Visitors can study the changing ____ of Roman authority.", "cue": "IMAGE", "a": "imagery" }
+        ]
+      },
+      "tfn": [
+        { "s": "The youngest coin was struck in AD 124 or 125.", "a": "T" },
+        { "s": "Archaeologists have established why the coins were never collected.", "a": "F" },
+        { "s": "The hoard is considered Germany's largest from Hadrian's reign.", "a": "T" },
+        { "s": "The field where the coins were found has been protected by law.", "a": "N" }
+      ]
+    }
+  }
+}

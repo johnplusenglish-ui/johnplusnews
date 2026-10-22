@@ -1,0 +1,109 @@
+{
+  "slug": "when-did-we-start-taking-our-hobbies-so-seriously",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          { "s": "You start running because you want some ____.", "a": "fresh air" },
+          { "s": "Soon you are ____ training tips and entering races.", "a": "looking up" },
+          { "s": "Someone who makes candles may be told to ____ an online shop.", "a": "set up" },
+          { "s": "You can read only ____.", "a": "when you feel like it" },
+          { "s": "It is easy to forget why you ____ the hobby at the start.", "a": "took up" }
+        ],
+        "extra": ["in the first place", "talented"]
+      },
+      "match": [
+        { "t": "take up", "d": "start doing a new activity regularly" },
+        { "t": "look up", "d": "search for information about something" },
+        { "t": "talented", "d": "naturally good at something" },
+        { "t": "in the first place", "d": "at the very beginning of something" }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          { "s": "After a few weeks, you have ____ a watch that measures your speed.", "cue": "buy", "a": "bought" },
+          { "s": "People share photographs of cakes they have ____.", "cue": "make", "a": "made" },
+          { "s": "In a 2026 Forbes article, a writer ____ the difficulties of selling a hobby.", "cue": "explore", "a": "explored" },
+          { "s": "A good cook may be ____ to start selling food.", "cue": "encourage", "a": "encouraged" },
+          { "s": "What begins as a challenge may later ____ a quiet pleasure.", "cue": "become", "a": "become" }
+        ]
+      },
+      "tfn": [
+        { "s": "A 2026 Forbes article looked at making money from a hobby.", "a": "T" },
+        { "s": "The article says everyone should aim to be excellent.", "a": "F" },
+        { "s": "Taking orders and meeting deadlines can make a hobby feel like a job.", "a": "T" },
+        { "s": "Most people who sell their crafts give up within a year.", "a": "N" }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          { "s": "A hobby can ____ a series of targets and comparisons.", "a": "turn into" },
+          { "s": "The difficulty ____ when improvement stops being a choice.", "a": "creeps in" },
+          { "s": "Someone may ____ worrying about prices and complaints.", "a": "end up" },
+          { "s": "The activity resembles the job it once offered ____.", "a": "an escape from" },
+          { "s": "Jewellery making may be a genuinely rewarding ____.", "a": "source of extra income" },
+          { "s": "You can enjoy an afternoon when you ____.", "a": "leave the stopwatch at home" }
+        ],
+        "extra": ["inadequate", "exceptional"]
+      },
+      "match": [
+        { "t": "creep in", "d": "appear gradually without being noticed" },
+        { "t": "an escape from", "d": "a relief from something unpleasant" },
+        { "t": "inadequate", "d": "not good enough for what is needed" },
+        { "t": "exceptional", "d": "far better than the usual standard" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "The change reflects a wider culture of self-____.", "cue": "IMPROVE", "a": "improvement" },
+          { "s": "Many people find ____ in developing a skill.", "cue": "SATISFY", "a": "satisfaction" },
+          { "s": "Once a hobby has customers, there is ____ to manage.", "cue": "MARKET", "a": "marketing" },
+          { "s": "Some people find a genuinely ____ source of extra income.", "cue": "REWARD", "a": "rewarding" },
+          { "s": "Recognising that goals are ____ protects the freedom of a hobby.", "cue": "OPT", "a": "optional" }
+        ]
+      },
+      "tfn": [
+        { "s": "The Forbes article appeared in May 2026.", "a": "T" },
+        { "s": "The writer says everybody can keep leisure separate from income.", "a": "F" },
+        { "s": "Social media makes exceptional achievements more visible.", "a": "T" },
+        { "s": "Most hobby businesses make a loss in the first year.", "a": "N" }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          { "s": "Leisure is now discussed ____ growth and productivity.", "a": "in terms of" },
+          { "s": "People are told their hobby should deliver ____.", "a": "a second income" },
+          { "s": "Defending leisure should not involve ____ economic realities.", "a": "brushing aside" },
+          { "s": "An activity that helped somebody ____ should not become another job.", "a": "switch off" },
+          { "s": "Trouble ____ when achievement becomes the default standard.", "a": "sets in" },
+          { "s": "A hobby should not become another arena for ____.", "a": "performance reviews" }
+        ],
+        "extra": ["a side hustle", "spontaneous"]
+      },
+      "match": [
+        { "t": "brush aside", "d": "refuse to take an objection seriously" },
+        { "t": "set in", "d": "begin and seem likely to continue" },
+        { "t": "a side hustle", "d": "paid work done alongside a main job" },
+        { "t": "spontaneous", "d": "happening naturally, without planning" }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          { "s": "Leisure is expected to deliver a ____ portfolio or an audience.", "cue": "POLISH", "a": "polished" },
+          { "s": "The decision is not ____ good or bad.", "cue": "INHERENT", "a": "inherently" },
+          { "s": "____ a musical instrument may produce confidence.", "cue": "MASTER", "a": "Mastering" },
+          { "s": "There is a social ____ embedded in such advice.", "cue": "EQUAL", "a": "inequality" },
+          { "s": "Both are ____ relationships with an activity.", "cue": "LEGITIMACY", "a": "legitimate" }
+        ]
+      },
+      "tfn": [
+        { "s": "The writer says discipline and enjoyment are not opposites.", "a": "T" },
+        { "s": "The article argues that nobody should earn money from a hobby.", "a": "F" },
+        { "s": "Digital platforms make achievement visible and measurable.", "a": "T" },
+        { "s": "Forbes surveyed readers about their hobbies.", "a": "N" }
+      ]
+    }
+  }
+}
