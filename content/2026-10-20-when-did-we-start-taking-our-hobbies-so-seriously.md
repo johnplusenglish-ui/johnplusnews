@@ -3,7 +3,7 @@ date: 2026-05-30
 summary: Running, reading and baking can all become targets. Has the pressure to improve changed how we enjoy our free time?
 tags: Lifestyle, Society
 source: Forbes | https://www.forbes.com/sites/cherylrobinson/2026/05/30/before-turning-a-hobby-into-a-business-ask-yourself-these-4-questions/
-image-plain: images/when-did-we-start-taking-our-hobbies-so-seriously-plain-875fcd.jpg
+image-plain: images/when-did-we-start-taking-our-hobbies-so-seriously-plain-7a1875.jpg
 ---
 === Core ===
 
