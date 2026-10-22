@@ -9,6 +9,42 @@
   var root = document.getElementById("acct-root");
   var PAGE = root ? root.getAttribute("data-page") : "";
 
+  /* Loading, empty and error states -------------------------------------------
+     The session check and the first data fetch are two separate round trips, so without
+     this the page would sit empty until both finished. One polite status line carries the
+     message; the grey placeholder rows only reserve space and are hidden from screen readers. */
+  var bootFailed = false;
+  function skeleton(rows) {
+    var box = el("div", "acct-skel");
+    box.setAttribute("aria-hidden", "true");
+    for (var i = 0; i < rows; i++) box.appendChild(el("div", "sk-row"));
+    return box;
+  }
+  function showLoading(text, rows) {
+    if (!root) return;
+    clear(root);
+    root.setAttribute("aria-busy", "true");
+    var p = el("p", "acct-note acct-loading", text);
+    p.setAttribute("role", "status");
+    root.appendChild(p);
+    root.appendChild(skeleton(rows || 3));
+  }
+  function showError(text, retry) {
+    if (!root) return;
+    clear(root);
+    root.removeAttribute("aria-busy");
+    var p = el("p", "acct-err", text);
+    p.setAttribute("role", "alert");
+    root.appendChild(p);
+    if (retry) {
+      var b = el("button", "acct-go", "Try again");
+      b.type = "button";
+      b.addEventListener("click", retry);
+      root.appendChild(b);
+    }
+  }
+  function ready() { if (root) root.removeAttribute("aria-busy"); }
+
   function el(tag, cls, text) {
     var e = document.createElement(tag);
     if (cls) e.className = cls;
@@ -114,6 +150,8 @@
     if (/rate limit|too many|429/i.test(m + c) || (e && e.status === 429)) return "Too many tries. Wait a minute and try again.";
     if (/password/i.test(m) && /(least|short|weak|characters)/i.test(m)) return "Choose a longer password, at least 8 characters.";
     if (/valid email|email address/i.test(m) && /invalid/i.test(m)) return "That email address does not look right.";
+    // a server that answers with a page rather than a message must not have it read out at the reader
+    if (/^\s*</.test(m) || m.length > 160) return "Something went wrong at our end. Please try again.";
     return m || "Something went wrong. Please try again.";
   }
   function signIn(email, password) {
@@ -289,10 +327,29 @@
     clearTimeout(toast.t); toast.t = setTimeout(function () { toastEl.classList.remove("on"); }, 3200);
   }
 
+  /* A signed-in reader gets a way straight back to their words from the home page,
+     so the feature is not hidden behind the avatar menu. */
+  function homeLinks() {
+    var box = document.getElementById("home-links");
+    if (!box) return;
+    clear(box);
+    if (!me) { box.hidden = true; return; }
+    var a = el("a", "intro-link", "My words");
+    a.href = "/words/";
+    box.appendChild(a);
+    if (me.role === "teacher") {
+      var t = el("a", "intro-link", "Teacher view");
+      t.href = "/teacher/";
+      box.appendChild(t);
+    }
+    box.hidden = false;
+  }
+
   /* ================================================================= the header button */
   var holder = null, menu = null, menuBtn = null;
   function closeMenu() { if (menu) { menu.hidden = true; if (menuBtn) menuBtn.setAttribute("aria-expanded", "false"); } }
   function drawHeader() {
+    homeLinks();
     var wrap = document.querySelector(".site-header .wrap");
     if (!wrap) return;
     if (!holder) { holder = el("div", "acct"); wrap.appendChild(holder); }
@@ -543,7 +600,13 @@
     return order.map(function (k) { return { key: k, rows: m[k] }; });
   }
   function signInPrompt(text) {
+    if (bootFailed) {
+      showError("We could not reach your account just now. Check your connection and try again.",
+                function () { bootFailed = false; init(); });
+      return;
+    }
     clear(root);
+    ready();
     root.appendChild(el("p", "acct-note", text));
     var b = el("button", "acct-go", "Sign in"); b.type = "button"; b.addEventListener("click", function () { openDialog("signin"); });
     root.appendChild(b);
@@ -589,11 +652,10 @@
 
   function renderWords() {
     if (!me) { signInPrompt("Sign in to see the words you have saved."); return; }
-    clear(root);
-    root.appendChild(el("p", "acct-note", "Loading your words"));
+    showLoading("Loading your words", 4);
     Promise.all([loadTitles(), getAll("/rest/v1/news_words?select=id,slug,level,text,sentence,created_at&user_id=eq." + enc(me.id) + "&order=created_at.desc")]).then(function (res) {
       var rows = res[1], q = "";
-      clear(root);
+      clear(root); ready();
       var bar = el("div", "wd-bar");
       var search = el("input", "wd-search"); search.type = "search"; search.placeholder = "Search your words"; search.setAttribute("aria-label", "Search your words");
       var cp = el("button", "wd-btn", "Copy words"); cp.type = "button";
@@ -646,14 +708,13 @@
         download("my-words.csv", csv([["Word", "Sentence", "Article", "Level", "Saved"]].concat(shown().map(function (r) { return [r.text, r.sentence, titleOf(r.slug), lvName(r.level), fmtDate(r.created_at)]; }))));
       });
       draw();
-    }).catch(function (er) { clear(root); root.appendChild(el("p", "acct-err", nice(er))); });
+    }).catch(function (er) { showError(nice(er), renderWords); });
   }
 
   function renderTeacher() {
     if (!me) { signInPrompt("Sign in to see the teacher view."); return; }
     if (me.role !== "teacher") { clear(root); root.appendChild(el("p", "acct-note", "This page is for the teacher.")); return; }
-    clear(root);
-    root.appendChild(el("p", "acct-note", "Loading the members"));
+    showLoading("Loading the members", 6);
     Promise.all([loadTitles(), getAll("/rest/v1/news_profiles?select=id,email,display_name,role,created_at&order=created_at.asc"),
                  getAll("/rest/v1/news_words?select=user_id,slug,level,text,sentence,created_at&order=created_at.desc"),
                  getAll("/rest/v1/news_progress?select=user_id,slug,status,level,updated_at")]).then(function (res) {
@@ -671,7 +732,7 @@
         var stamps = ws.map(function (w) { return w.created_at; }).concat(pr.map(function (x) { return x.updated_at; }));
         return { p: p, ws: ws, pr: pr, done: pr.filter(function (x) { return x.status === "finished"; }).length, last: stamps.sort().pop() || "" };
       });
-      clear(root);
+      clear(root); ready();
 
       /* the headline numbers */
       var active = info.filter(function (s) { return recent(s.last); }).length;
@@ -826,7 +887,7 @@
         d.appendChild(ul); panes.articles.appendChild(d);
       });
       pick("members");
-    }).catch(function (er) { clear(root); root.appendChild(el("p", "acct-err", nice(er))); });
+    }).catch(function (er) { showError(nice(er), renderTeacher); });
   }
 
   function renderPage() {
@@ -899,6 +960,8 @@
   }
 
   function init() {
+    if (PAGE === "words") showLoading("Loading your words", 4);
+    else if (PAGE === "teacher") showLoading("Loading the members", 6);
     fromAddress().then(function (res) {
       var fresh = !!(res && !res.error);
       return start(fresh).then(function () {
@@ -907,7 +970,7 @@
         else if (res) toast("You are signed in.");
         else if (!me && !PAGE) nudge();
       });
-    }).catch(function () { drawHeader(); renderPage(); });
+    }).catch(function () { bootFailed = true; drawHeader(); renderPage(); });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init); else init();
 })();

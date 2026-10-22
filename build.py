@@ -509,7 +509,8 @@ def page(path, main, title=None, desc=None, current=None, image=None, kind="webs
     desc = desc or SITE["tagline"]
     canon = SITE["url"] + path
     nav = "".join(
-        '<a href="{}"{}>{}</a>'.format(href, ' aria-current="page"' if href == current else "", label)
+        '<a class="nav-{}" href="{}"{}>{}</a>'.format(
+            label.lower().replace(" ", "-"), href, ' aria-current="page"' if href == current else "", label)
         for href, label in NAV
     )
     head_extra = (GUEST_JS if accounts_on() else "") + head_extra + account_scripts()
@@ -584,6 +585,13 @@ def article_meta(a):
     return '<p class="meta">{}</p>'.format("".join(bits))
 
 
+LEVEL_HELP = {
+    "core": "Short sentences and everyday words.",
+    "intermediate": "Longer sentences and more detail.",
+    "advanced": "Complex sentences and ideas to argue with.",
+}
+
+
 def level_tabs(a):
     """A small level switch for the date line. Only articles with more than one version have one."""
     v = a["versions"]
@@ -591,8 +599,9 @@ def level_tabs(a):
         return ""
     d = default_index(v)
     tabs = "".join(
-        '<button type="button" role="tab" id="tab-{k}" aria-controls="v-{k}" aria-selected="{sel}" tabindex="{ti}" data-level="{k}" data-title="{t}" data-sub="{u}">{label}</button>'
-        .format(k=x["level"].lower(), sel="true" if i == d else "false", ti=0 if i == d else -1, t=esc(x["title"]), u=esc(x["summary"]), label=esc(x["level"]))
+        '<button type="button" role="tab" id="tab-{k}" aria-controls="v-{k}" aria-selected="{sel}" tabindex="{ti}" data-level="{k}" data-title="{t}" data-sub="{u}" title="{help}">{label}</button>'
+        .format(k=x["level"].lower(), sel="true" if i == d else "false", ti=0 if i == d else -1, t=esc(x["title"]), u=esc(x["summary"]),
+                label=esc(x["level"]), help=esc(LEVEL_HELP.get(x["level"].lower(), "")))
         for i, x in enumerate(v))
     return '<div class="vtabs" role="tablist" aria-label="Reading level" data-tabs>{}</div>'.format(tabs)
 
@@ -665,8 +674,13 @@ def gallery_page(arts, topics=(), topic=None):
     else:
         body = '<p class="empty">The first article is coming soon.</p>'
     heading = esc(topic["label"]) if topic else esc(SITE["tagline"])
-    main = ('<section class="banner"><div class="wrap"><h1 class="intro">{}</h1></div></section>\n'
-            '<div class="wrap">{}{}</div>\n<script>{}</script>').format(heading, filters_html(topics, topic["slug"] if topic else None), body, FINDER_JS)
+    # only the home page explains the routine; a topic page is already further in
+    lead = ('<p class="intro-sub">Every story comes at three levels. Save the words you want to keep, '
+            'then practise with exercises and questions to talk about.</p>'
+            '<p class="intro-links" id="home-links" hidden></p>') if not topic else ""
+    main = ('<section class="banner"><div class="wrap"><h1 class="intro">{}</h1>{}</div></section>\n'
+            '<div class="wrap">{}{}</div>\n<script>{}</script>').format(
+                heading, lead, filters_html(topics, topic["slug"] if topic else None), body, FINDER_JS)
     if topic is FREE_TOPIC:
         return page("/free/", main, title=topic["label"], current="/", wide=True,
                     desc="The articles on johnplusnews that anyone can read, with no account needed.",
@@ -1056,6 +1070,24 @@ def versions_html(a):
     return '<div class="panels">{}</div>\n<script>{}</script>'.format(panels, TABS_JS + (LANG_JS if any_lang else ""))
 
 
+FIRSTRUN = ('<aside class="guide" id="firstrun" hidden aria-labelledby="firstrun-h">'
+            '<h2 id="firstrun-h">New here? This is how it works.</h2>'
+            '<ul>'
+            '<li>Pick <b>Core</b>, <b>Intermediate</b> or <b>Advanced</b> above. Same story, different English.</li>'
+            '<li>Select any words you want to keep, then press Highlight.</li>'
+            '<li>They wait for you in <b>My words</b>, with the sentence you found them in.</li>'
+            '<li>Scroll to the bottom for exercises and questions to talk about.</li>'
+            '</ul>'
+            '<button type="button" class="guide-x">Got it</button></aside>')
+
+FIRSTRUN_JS = ("(function(){function go(){var g=document.getElementById('firstrun');if(!g)return;"
+               "var K='jpn_guide_seen';try{if(localStorage.getItem(K)==='1')return;}catch(e){}"
+               "g.hidden=false;"
+               "g.querySelector('.guide-x').addEventListener('click',function(){g.hidden=true;"
+               "try{localStorage.setItem(K,'1');}catch(e){}});}"
+               "if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();})();")
+
+
 def article_page(a, newer, older):
     first = a["versions"][default_index(a["versions"])]
     img = ""
@@ -1085,9 +1117,10 @@ def article_page(a, newer, older):
 <header class="article-head">
 <a class="back" href="/">&larr; All articles</a>
 <div class="metarow{tabcls}"><div class="metaleft"{printlevel}>{tabs}{meta}</div>{picker}</div>
+{firstrun}
 <script>{fontjs}</script>
 <script>{printjs}</script>
-<h1>{title}</h1>
+{storyid}<h1>{title}</h1>
 <p class="dek">{summary}</p>
 {img}
 {listen}
@@ -1099,12 +1132,15 @@ def article_page(a, newer, older):
 {topics}
 {pager}
 <p class="print-foot">{foot}</p>
-</article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
+</article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, firstrun=FIRSTRUN, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
+                     storyid=('<p class="story-id">{}</p>'.format(esc(a["title"]))
+                              if any(v["title"] != a["title"] for v in a["versions"]) else ""),
                      topics=topics_html(a), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), study=study_html(a), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))
     no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=first["title"], desc=first["summary"], image=a["image"] or None, kind="article",
-                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script() + timer_script() + listen_script(a) + exercises_script(a))
+                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script() + timer_script() + listen_script(a) + exercises_script(a)
+                          + "<script>" + FIRSTRUN_JS + "</script>\n")
 
 
 def not_found_page():
