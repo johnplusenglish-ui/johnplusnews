@@ -4,6 +4,7 @@ summary: Mosquitoes spread dangerous diseases. So why has Brazil opened a huge f
 tags: Science, Health
 source: Paraná State Health Department | https://www.saude.pr.gov.br/Noticia/Parana-inaugura-maior-biofabrica-de-mosquitos-do-mundo-de-combate-dengue
 image: images/why-is-brazil-breeding-millions-of-mosquitoes-f9956b.jpg
+image-plain: images/why-is-brazil-breeding-millions-of-mosquitoes-plain-1af6e9.jpg
 ---
 === Core ===
 
