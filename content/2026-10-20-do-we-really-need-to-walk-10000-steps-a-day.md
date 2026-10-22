@@ -4,6 +4,7 @@ date-label: July 2025
 summary: The famous daily target began as a marketing idea. What do newer studies say about the number that matters?
 tags: Health, Lifestyle
 source: The Lancet Public Health | https://pubmed.ncbi.nlm.nih.gov/40713949/
+image-plain: images/do-we-really-need-to-walk-10000-steps-a-day-plain-8b601b.jpg
 ---
 === Core ===
 
