@@ -3,7 +3,7 @@ date: 2026-03-01
 summary: Streetlights, glowing screens and the wrong curtains may be affecting how well we sleep.
 tags: Health, Science
 source: Environmental Research | https://doi.org/10.1016/j.envres.2026.123689
-image-plain: images/what-happens-when-your-bedroom-never-gets-dark-plain-0656b8.jpg
+image: images/what-happens-when-your-bedroom-never-gets-dark-plain-0656b8.jpg
 ---
 === Core ===
 

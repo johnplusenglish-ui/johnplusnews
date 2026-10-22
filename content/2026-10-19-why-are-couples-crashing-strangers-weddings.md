@@ -3,9 +3,7 @@ date: 2026-07-01
 summary: In South Korea, some couples have been slipping into weddings they were never invited to. They are not looking for cake. They are shopping for a venue.
 tags: Relationships, Lifestyle
 source: Korea JoongAng Daily | https://www.koreajoongangdaily.com/korea/couplesnbspcrash-strangers-weddings-to-catch-free-glimpses-of-venues/12740550
-image: images/why-are-couples-crashing-strangers-weddings-dc1765.jpg
-image-origin: AI-generated
-image-plain: images/why-are-couples-crashing-strangers-weddings-plain-abf85b.jpg
+image: images/why-are-couples-crashing-strangers-weddings-plain-abf85b.jpg
 ---
 === Core ===
 

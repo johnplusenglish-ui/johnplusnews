@@ -3,8 +3,7 @@ date: 2026-07-22
 summary: Climbing the world's highest mountain is dangerous, expensive and increasingly popular. Nepal is debating whether visitors should prove their experience before attempting it.
 tags: Travel, Sport
 source: Kathmandu Post | https://kathmandupost.com/money/2026/07/22/lawmakers-seek-tougher-everest-climbing-rules-with-263-amendments-to-tourism-bill
-image: images/has-mount-everest-become-too-popular-for-its-own-good-64d087.jpg
-image-plain: images/has-mount-everest-become-too-popular-for-its-own-good-plain-b07a4d.jpg
+image: images/has-mount-everest-become-too-popular-for-its-own-good-plain-b07a4d.jpg
 ---
 === Core ===
 

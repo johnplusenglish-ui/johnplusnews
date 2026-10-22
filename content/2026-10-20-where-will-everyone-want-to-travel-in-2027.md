@@ -4,7 +4,7 @@ date-label: October 2026
 summary: A new travel report points beyond the biggest tourist capitals. But do rising searches really predict the next holiday hotspots?
 tags: Travel, Culture
 source: Expedia UK Newsroom | https://www.expedia.co.uk/newsroom/unpack-27-expedia-and-hotels-com-unveil-the-trends-driving-travel-in-2027/
-image-plain: images/where-will-everyone-want-to-travel-in-2027-plain-922283.jpg
+image: images/where-will-everyone-want-to-travel-in-2027-plain-922283.jpg
 ---
 === Core ===
 

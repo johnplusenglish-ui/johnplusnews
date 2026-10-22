@@ -22,13 +22,6 @@ header .live { margin-left:auto; font-size:.9375rem; text-decoration:none; font-
 main { max-width:1280px; margin:0 auto; padding:26px 20px 40px; }
 h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; }
 .lead { margin:0 0 20px; color:var(--muted); max-width:72ch; }
-.stylebox { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 20px; margin:0 0 18px; display:flex; flex-wrap:wrap; gap:10px 28px; align-items:center; }
-.stylebox h2 { margin:0; font-size:1rem; color:var(--ink); }
-.stylebox p { margin:2px 0 0; font-size:.875rem; color:var(--muted); max-width:62ch; }
-.big { display:inline-flex; border:1px solid #cfd4dc; border-radius:999px; overflow:hidden; background:#fff; }
-.big button { font:inherit; font-weight:600; font-size:.9375rem; padding:9px 20px; border:0; background:#fff; color:var(--text); cursor:pointer; }
-.big button[aria-pressed="true"] { background:var(--accent); color:#fff; }
-.big button:disabled { cursor:wait; }
 .tools { display:flex; flex-wrap:wrap; gap:12px 16px; align-items:center; margin:0 0 14px; }
 .tools input[type=search] { font:inherit; padding:9px 12px; border:1px solid #cfd4dc; border-radius:10px; min-width:240px; background:#fff; color:var(--ink); }
 .segs { display:flex; flex-wrap:wrap; gap:6px; }
@@ -37,16 +30,14 @@ h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; 
 .btn { font:inherit; font-weight:600; padding:10px 20px; border-radius:10px; border:1px solid var(--accent); cursor:pointer; background:#fff; color:var(--accent); }
 .btn.primary { background:var(--accent); color:#fff; }
 .btn:disabled { opacity:.5; cursor:default; }
-.btn:focus-visible, .segs button:focus-visible, .big button:focus-visible, .linkbtn:focus-visible, .thumb:focus-visible { outline:2px solid var(--ink); outline-offset:2px; }
-.multi { border:1.5px dashed #b9c0cb; border-radius:12px; padding:14px 18px; background:#fbfcfd; color:var(--muted); margin:0 0 20px; display:flex; flex-wrap:wrap; gap:8px 16px; align-items:center; }
+.btn:focus-visible, .segs button:focus-visible, .multi { border:1.5px dashed #b9c0cb; border-radius:12px; padding:14px 18px; background:#fbfcfd; color:var(--muted); margin:0 0 20px; display:flex; flex-wrap:wrap; gap:8px 16px; align-items:center; }
 .multi.over { border-color:var(--accent); background:var(--accent-soft); }
 .multi strong { color:var(--ink); }
 .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(380px, 1fr)); gap:18px; }
 .pcard { background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; display:flex; flex-direction:column; }
 .pcard[hidden] { display:none; }
 .pcard.dirty { border-color:var(--accent); box-shadow:0 0 0 2px var(--accent-soft); }
-.pair { display:grid; grid-template-columns:1fr 1fr; gap:2px; background:var(--line); }
-.slot { background:var(--card); display:flex; flex-direction:column; }
+.slot { background:var(--card); display:flex; flex-direction:column; border-bottom:1px solid var(--line); }
 .thumb { position:relative; aspect-ratio:3 / 2; background:var(--accent-soft); cursor:pointer; display:block; width:100%; border:0; padding:0; text-align:center; }
 .thumb img { width:100%; height:100%; object-fit:cover; display:block; }
 .thumb .none { display:flex; height:100%; align-items:center; justify-content:center; padding:10px; color:var(--muted); font-size:.875rem; }
@@ -57,7 +48,6 @@ h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; 
 .badge.new { background:var(--accent); color:#fff; }
 .badge.warn { background:var(--amber-soft); color:var(--amber); }
 .badge.live { background:var(--green-soft); color:var(--green); }
-.badge.site { background:var(--ink); color:#fff; }
 .slotbar { display:flex; align-items:center; flex-wrap:wrap; gap:2px 12px; padding:6px 10px 8px; }
 .slotname { font-weight:700; font-size:.8125rem; color:var(--ink); letter-spacing:.02em; margin-right:auto; }
 .body { padding:10px 14px 4px; }
@@ -69,9 +59,6 @@ h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; 
 .linkbtn[hidden] { display:none; }
 .details { border-top:1px solid var(--line); padding:12px 14px 14px; background:#fbfcfd; }
 .details[hidden] { display:none; }
-.details .which { margin:0 0 10px; }
-.details .which button { font-size:.8125rem; padding:5px 12px; }
-.fieldset[hidden] { display:none; }
 .details label { display:block; font-size:.8125rem; font-weight:600; color:var(--ink); margin:10px 0 3px; }
 .details input[type=text], .details input[type=url], .details select { width:100%; font:inherit; font-size:.9375rem; padding:8px 10px; border:1px solid #cfd4dc; border-radius:8px; background:#fff; color:var(--ink); }
 .details .hint { font-size:.75rem; color:var(--muted); margin:3px 0 0; }
@@ -87,6 +74,13 @@ h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; 
 .status.err { background:#fdeaea; color:#9b1c1c; }
 .statuswrap { max-width:1280px; margin:0 auto; padding:0 20px; }
 @media (max-width: 560px) { .grid { grid-template-columns:1fr; } .tools input[type=search] { min-width:0; width:100%; } .two { grid-template-columns:1fr; } }
+.ptype { display:inline-block; font-size:.6875rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:2px 8px; border-radius:999px; background:var(--accent-soft); color:var(--accent); margin-left:8px; vertical-align:middle; }
+.prompt { border-top:1px solid var(--line); padding:12px 14px 14px; background:#fbfcfd; }
+.prompt[hidden] { display:none; }
+.prompt .idea { margin:0 0 8px; font-size:.875rem; color:var(--muted); }
+.prompt textarea { width:100%; min-height:260px; font:inherit; font-size:.8125rem; line-height:1.5; padding:10px; border:1px solid #cfd4dc; border-radius:8px; background:#fff; color:var(--ink); resize:vertical; }
+.prompt .row { display:flex; gap:12px; align-items:center; margin-top:8px; }
+.prompt .row .ok { color:var(--green); font-size:.8125rem; font-weight:600; }
 </style>
 </head>
 <body>
@@ -96,23 +90,12 @@ h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; 
 
 <main>
   <h1>Pictures</h1>
-  <p class="lead">Every article can hold two pictures: the <strong>Vox style</strong> one and a <strong>plain</strong> one. Keep both ready and choose below which set the whole site shows. You can flip it whenever you like. Drop a picture onto a slot, click it to choose a file, or hover over it and paste. Then press <strong>Publish pictures</strong> once. The articles' text is never touched.</p>
+  <p class="lead">Every article has one picture. Drop a picture onto a card, click it to choose a file, or hover over it and paste. Each card also holds a ready-made <strong>photo prompt</strong> for that article: press <strong>Copy prompt</strong>, paste it into your image tool, then drop the result back here. Press <strong>Publish pictures</strong> once when you are done. The articles' text is never touched.</p>
 
   <div class="statuswrap"><div class="status info" id="status" role="status" hidden></div></div>
 
-  <section class="stylebox" aria-labelledby="sbTitle">
-    <div>
-      <h2 id="sbTitle">Pictures the site shows right now</h2>
-      <p id="styleNote">Loading...</p>
-    </div>
-    <div class="big" id="styleSeg" role="group" aria-label="Pictures the site shows">
-      <button type="button" data-s="vox" aria-pressed="false">Vox style</button>
-      <button type="button" data-s="plain" aria-pressed="false">Plain</button>
-    </div>
-  </section>
-
   <div class="multi" id="multi">
-    <span><strong>Many at once:</strong> drop several pictures here. A file named like its article (for example <code>fast-fashion-the-clothes-nobody-wants.jpg</code>) goes to that article's Vox slot. Add <code>-plain</code> to the name (<code>fast-fashion-the-clothes-nobody-wants-plain.jpg</code>) for the plain slot.</span>
+    <span><strong>Many at once:</strong> drop several pictures here. A file named like its article (for example <code>fast-fashion-the-clothes-nobody-wants.jpg</code>) goes to that article.</span>
     <button class="btn" id="pickMany" type="button">Choose pictures</button>
     <input type="file" id="manyInput" accept="image/*" multiple hidden>
   </div>
@@ -121,8 +104,7 @@ h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; 
     <input type="search" id="find" placeholder="Search articles" aria-label="Search articles">
     <div class="segs" id="filters" role="group" aria-label="Show">
       <button type="button" data-f="all" aria-pressed="true">All</button>
-      <button type="button" data-f="novox" aria-pressed="false">No Vox picture</button>
-      <button type="button" data-f="noplain" aria-pressed="false">No plain picture</button>
+      <button type="button" data-f="nopic" aria-pressed="false">No picture</button>
       <button type="button" data-f="origin" aria-pressed="false">No source info</button>
       <button type="button" data-f="pending" aria-pressed="false">Changed</button>
     </div>
@@ -140,10 +122,10 @@ h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; 
 
 <script>
 const TOKEN = "__TOKEN__";
-const SLOTS = ["vox", "plain"], LABEL = { vox: "Vox style", plain: "Plain" }, WORD = { vox: "Vox style", plain: "plain" };
 const $ = id => document.getElementById(id);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-let PICS = [], KINDS = [], STYLE = "vox", COUNTS = { total: 0, vox: 0, plain: 0 };
+const TYPE = { people: "People", object: "Object", place: "Place" };
+let PICS = [], KINDS = [], PROMPTS = {};
 const cards = new Map();   // slug -> card
 let hoverTarget = null, waitId = 0;
 
@@ -193,112 +175,120 @@ async function prepImage(file) {
   const blob = await new Promise(r => c.toBlob(r, "image/jpeg", 0.9));
   return { data: await blobToBase64(blob), preview: URL.createObjectURL(blob), name: file.name.replace(/\.[^.]+$/, "") + ".jpg" };
 }
+async function copyText(text) {
+  try { await navigator.clipboard.writeText(text); return true; } catch (e) {}
+  const t = el("textarea"); t.value = text; t.style.cssText = "position:fixed;left:-999px;top:0"; document.body.appendChild(t); t.select();
+  let ok = false; try { ok = document.execCommand("copy"); } catch (e) {}
+  t.remove(); return ok;
+}
 
 /* ------------------------------------------------------------------ cards */
-function makeSlot(c, slot) {
-  const p = c.p, o = splitOrigin(p[slot].origin), d = {};
-  const root = el("div", "slot");
-  const thumb = el("button", "thumb"); thumb.type = "button"; thumb.setAttribute("aria-label", LABEL[slot] + " picture for " + p.title);
+function makeCard(p) {
+  const c = { p, el: el("article", "pcard"), live: false, img: null, remove: false, d: {} };
+  c.el.dataset.slug = p.slug;
+  const o = splitOrigin(p.origin), d = c.d;
+
+  const slot = el("div", "slot");
+  const thumb = el("button", "thumb"); thumb.type = "button"; thumb.setAttribute("aria-label", "Picture for " + p.title);
   const media = el("div"); media.style.cssText = "width:100%;height:100%";
   const over = el("div", "over", "Drop here"); const badges = el("div", "badges");
   thumb.appendChild(media); thumb.appendChild(over); thumb.appendChild(badges);
   const file = el("input"); file.type = "file"; file.accept = "image/*"; file.hidden = true;
-  const bar = el("div", "slotbar"); bar.appendChild(el("span", "slotname", LABEL[slot]));
+  const bar = el("div", "slotbar");
   const bChoose = el("button", "linkbtn"); bChoose.type = "button";
   const bRemove = el("button", "linkbtn danger", "Remove"); bRemove.type = "button";
   const bUndo = el("button", "linkbtn", "Undo"); bUndo.type = "button"; bUndo.hidden = true;
   [bChoose, bRemove, bUndo].forEach(b => bar.appendChild(b));
-  root.appendChild(thumb); root.appendChild(bar); root.appendChild(file);
+  slot.appendChild(thumb); slot.appendChild(bar); slot.appendChild(file);
 
-  // the detail fields for this slot
-  const fs = el("div", "fieldset"); fs.hidden = slot !== "vox";
+  const body = el("div", "body"); const h3 = el("h3", "", p.title);
+  const pr = PROMPTS[p.slug];
+  if (pr) h3.appendChild(el("span", "ptype", TYPE[pr.type] || pr.type));
+  body.appendChild(h3); body.appendChild(el("small", "", p.date));
+
+  const btns = el("div", "btns");
+  const bDetails = el("button", "linkbtn", "Details"); bDetails.type = "button"; bDetails.setAttribute("aria-expanded", "false");
+  btns.appendChild(bDetails);
+  let pbox = null;
+  if (pr) {
+    const bCopy = el("button", "linkbtn", "Copy prompt"); bCopy.type = "button";
+    const bShow = el("button", "linkbtn", "Show prompt"); bShow.type = "button"; bShow.setAttribute("aria-expanded", "false");
+    btns.appendChild(bCopy); btns.appendChild(bShow);
+    pbox = el("div", "prompt"); pbox.hidden = true;
+    pbox.appendChild(el("p", "idea", pr.idea));
+    const ta = el("textarea"); ta.readOnly = true; ta.value = pr.prompt; ta.setAttribute("aria-label", "Photo prompt for " + p.title);
+    pbox.appendChild(ta);
+    const row = el("div", "row"); const bCopy2 = el("button", "btn", "Copy prompt"); bCopy2.type = "button"; const done = el("span", "ok"); done.setAttribute("role", "status");
+    row.appendChild(bCopy2); row.appendChild(done); pbox.appendChild(row);
+    const doCopy = async () => { const ok = await copyText(pr.prompt); done.textContent = ok ? "Copied" : "Copy did not work: select the text and copy it"; bCopy.textContent = ok ? "Copied" : "Copy prompt"; setTimeout(() => { done.textContent = ""; bCopy.textContent = "Copy prompt"; }, 2500); };
+    bCopy.addEventListener("click", doCopy); bCopy2.addEventListener("click", doCopy);
+    bShow.addEventListener("click", () => { pbox.hidden = !pbox.hidden; bShow.textContent = pbox.hidden ? "Show prompt" : "Hide prompt"; bShow.setAttribute("aria-expanded", String(!pbox.hidden)); });
+  }
+  const bLive = el("a", "linkbtn", "View article"); bLive.href = p.live_url; bLive.target = "_blank"; bLive.rel = "noopener"; btns.appendChild(bLive);
+
+  const det = el("div", "details"); det.hidden = true;
   d.kind = el("select"); d.kind.appendChild(new Option("Choose...", "")); KINDS.forEach(k => d.kind.appendChild(new Option(k, k))); d.kind.value = o.kind;
   d.oDetail = el("input"); d.oDetail.type = "text"; d.oDetail.value = o.detail; d.oDetail.placeholder = "Which tool, photographer or website?";
-  d.alt = el("input"); d.alt.type = "text"; d.alt.value = p[slot].alt; d.alt.placeholder = "Describe the picture for readers who cannot see it";
-  d.credit = el("input"); d.credit.type = "text"; d.credit.value = p[slot].credit; d.credit.placeholder = "Name to credit, if any";
-  d.creditUrl = el("input"); d.creditUrl.type = "url"; d.creditUrl.value = p[slot].credit_url; d.creditUrl.placeholder = "Link to the original";
-  d.licence = el("input"); d.licence.type = "text"; d.licence.value = p[slot].licence; d.licence.placeholder = "For example CC BY 4.0";
-  d.licenceUrl = el("input"); d.licenceUrl.type = "url"; d.licenceUrl.value = p[slot].licence_url; d.licenceUrl.placeholder = "Link to the licence";
-  d.note = el("input"); d.note.type = "text"; d.note.value = p[slot].note; d.note.placeholder = "For example: cropped and resized";
-  fs.appendChild(field("Where did this picture come from?", d.kind));
-  fs.appendChild(field("Tool or source", d.oDetail, "A private record for you. It is not shown on the site."));
-  fs.appendChild(field("Alt text", d.alt));
-  const two = el("div", "two"); two.appendChild(field("Credit", d.credit)); two.appendChild(field("Credit link", d.creditUrl)); fs.appendChild(two);
-  const two2 = el("div", "two"); two2.appendChild(field("Licence", d.licence)); two2.appendChild(field("Licence link", d.licenceUrl)); fs.appendChild(two2);
-  fs.appendChild(field("Note shown under the picture", d.note));
+  d.alt = el("input"); d.alt.type = "text"; d.alt.value = p.alt; d.alt.placeholder = "Describe the picture for readers who cannot see it";
+  d.credit = el("input"); d.credit.type = "text"; d.credit.value = p.credit; d.credit.placeholder = "Name to credit, if any";
+  d.creditUrl = el("input"); d.creditUrl.type = "url"; d.creditUrl.value = p.credit_url; d.creditUrl.placeholder = "Link to the original";
+  d.licence = el("input"); d.licence.type = "text"; d.licence.value = p.licence; d.licence.placeholder = "For example CC BY 4.0";
+  d.licenceUrl = el("input"); d.licenceUrl.type = "url"; d.licenceUrl.value = p.licence_url; d.licenceUrl.placeholder = "Link to the licence";
+  d.note = el("input"); d.note.type = "text"; d.note.value = p.note; d.note.placeholder = "For example: cropped and resized";
+  det.appendChild(field("Where did this picture come from?", d.kind));
+  det.appendChild(field("Tool or source", d.oDetail, "A private record for you. It is not shown on the site."));
+  det.appendChild(field("Alt text", d.alt));
+  const two = el("div", "two"); two.appendChild(field("Credit", d.credit)); two.appendChild(field("Credit link", d.creditUrl)); det.appendChild(two);
+  const two2 = el("div", "two"); two2.appendChild(field("Licence", d.licence)); two2.appendChild(field("Licence link", d.licenceUrl)); det.appendChild(two2);
+  det.appendChild(field("Note shown under the picture", d.note));
+  bDetails.addEventListener("click", () => { det.hidden = !det.hidden; bDetails.setAttribute("aria-expanded", String(!det.hidden)); });
+  c.openDetails = () => { det.hidden = false; bDetails.setAttribute("aria-expanded", "true"); };
 
-  const S = { slot, root, thumb, media, badges, bChoose, bRemove, bUndo, file, fs, d, img: null, remove: false };
-  S.values = () => ({ alt: d.alt.value.trim(), origin: joinOrigin(d.kind.value, d.oDetail.value), credit: d.credit.value.trim(), credit_url: d.creditUrl.value.trim(), licence: d.licence.value.trim(), licence_url: d.licenceUrl.value.trim(), note: d.note.value.trim() });
-  S.dirty = () => {
-    if (S.img || S.remove) return true;
-    const v = S.values(), q = p[slot];
-    return v.alt !== (q.alt || "") || v.origin !== (q.origin || "") || v.credit !== (q.credit || "") || v.credit_url !== (q.credit_url || "") || v.licence !== (q.licence || "") || v.licence_url !== (q.licence_url || "") || v.note !== (q.note || "");
+  c.values = () => ({ alt: d.alt.value.trim(), origin: joinOrigin(d.kind.value, d.oDetail.value), credit: d.credit.value.trim(), credit_url: d.creditUrl.value.trim(), licence: d.licence.value.trim(), licence_url: d.licenceUrl.value.trim(), note: d.note.value.trim() });
+  c.dirty = () => {
+    if (c.img || c.remove) return true;
+    const v = c.values();
+    return v.alt !== (p.alt || "") || v.origin !== (p.origin || "") || v.credit !== (p.credit || "") || v.credit_url !== (p.credit_url || "") || v.licence !== (p.licence || "") || v.licence_url !== (p.licence_url || "") || v.note !== (p.note || "");
   };
-  S.hasPic = () => S.remove ? false : (S.img ? true : !!p[slot].image);
+  c.hasPic = () => c.remove ? false : (c.img ? true : !!p.image);
   Object.values(d).forEach(i => i.addEventListener("input", () => c.refresh()));
   d.kind.addEventListener("change", () => c.refresh());
   const choose = () => file.click();
   thumb.addEventListener("click", choose); bChoose.addEventListener("click", choose);
-  file.addEventListener("change", async () => { if (file.files[0]) await setPicture(p.slug, slot, file.files[0]); file.value = ""; });
-  bRemove.addEventListener("click", () => { S.img = null; S.remove = true; c.refresh(); });
-  bUndo.addEventListener("click", () => { S.img = null; S.remove = false; c.refresh(); });
-  ["dragenter", "dragover"].forEach(ev => thumb.addEventListener(ev, e => { e.preventDefault(); root.classList.add("drag"); }));
-  ["dragleave", "drop"].forEach(ev => thumb.addEventListener(ev, e => { e.preventDefault(); root.classList.remove("drag"); }));
-  thumb.addEventListener("drop", async e => { const f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0]; if (f) await setPicture(p.slug, slot, f); });
-  root.addEventListener("mouseenter", () => { hoverTarget = { slug: p.slug, slot }; });
-  root.addEventListener("mouseleave", () => { if (hoverTarget && hoverTarget.slug === p.slug && hoverTarget.slot === slot) hoverTarget = null; });
-  root.addEventListener("focusin", () => { hoverTarget = { slug: p.slug, slot }; });
-  return S;
-}
+  file.addEventListener("change", async () => { if (file.files[0]) await setPicture(p.slug, file.files[0]); file.value = ""; });
+  bRemove.addEventListener("click", () => { c.img = null; c.remove = true; c.refresh(); });
+  bUndo.addEventListener("click", () => { c.img = null; c.remove = false; c.refresh(); });
+  ["dragenter", "dragover"].forEach(ev => thumb.addEventListener(ev, e => { e.preventDefault(); slot.classList.add("drag"); }));
+  ["dragleave", "drop"].forEach(ev => thumb.addEventListener(ev, e => { e.preventDefault(); slot.classList.remove("drag"); }));
+  thumb.addEventListener("drop", async e => { const f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0]; if (f) await setPicture(p.slug, f); });
+  slot.addEventListener("mouseenter", () => { hoverTarget = p.slug; });
+  slot.addEventListener("mouseleave", () => { if (hoverTarget === p.slug) hoverTarget = null; });
+  slot.addEventListener("focusin", () => { hoverTarget = p.slug; });
 
-function makeCard(p) {
-  const c = { p, el: el("article", "pcard"), live: false, slots: {} };
-  c.el.dataset.slug = p.slug;
-  const pair = el("div", "pair");
-  SLOTS.forEach(slot => { c.slots[slot] = makeSlot(c, slot); pair.appendChild(c.slots[slot].root); });
-  const body = el("div", "body"); body.appendChild(el("h3", "", p.title)); body.appendChild(el("small", "", p.date));
-  const btns = el("div", "btns");
-  const bDetails = el("button", "linkbtn", "Details"); bDetails.type = "button"; bDetails.setAttribute("aria-expanded", "false");
-  const bLive = el("a", "linkbtn", "View article"); bLive.href = p.live_url; bLive.target = "_blank"; bLive.rel = "noopener";
-  btns.appendChild(bDetails); btns.appendChild(bLive);
-  const det = el("div", "details"); det.hidden = true;
-  const which = el("div", "segs which"); which.setAttribute("role", "group"); which.setAttribute("aria-label", "Details for");
-  SLOTS.forEach(slot => { const b = el("button", "", LABEL[slot]); b.type = "button"; b.dataset.slot = slot; b.setAttribute("aria-pressed", String(slot === "vox")); which.appendChild(b); });
-  which.addEventListener("click", e => { const b = e.target.closest("button[data-slot]"); if (!b) return; [...which.children].forEach(x => x.setAttribute("aria-pressed", String(x === b))); SLOTS.forEach(s => { c.slots[s].fs.hidden = s !== b.dataset.slot; }); });
-  det.appendChild(which); SLOTS.forEach(slot => det.appendChild(c.slots[slot].fs));
-  bDetails.addEventListener("click", () => { det.hidden = !det.hidden; bDetails.setAttribute("aria-expanded", String(!det.hidden)); });
-  c.openDetails = slot => { det.hidden = false; bDetails.setAttribute("aria-expanded", "true"); [...which.children].forEach(x => x.setAttribute("aria-pressed", String(x.dataset.slot === slot))); SLOTS.forEach(s => { c.slots[s].fs.hidden = s !== slot; }); };
-  c.el.appendChild(pair); c.el.appendChild(body); c.el.appendChild(btns); c.el.appendChild(det);
-  c.dirty = () => SLOTS.some(s => c.slots[s].dirty());
-  c.refresh = () => refreshCard(c);
+  c.refresh = () => {
+    media.textContent = "";
+    if (c.remove) media.appendChild(el("div", "none", "Picture will be removed"));
+    else if (c.img) { const i = el("img"); i.src = c.img.preview; i.alt = ""; media.appendChild(i); }
+    else if (p.thumb) { const i = el("img"); i.src = "/media/" + p.thumb + "?v=" + (p.image || ""); i.alt = ""; i.loading = "lazy"; media.appendChild(i); }
+    else media.appendChild(el("div", "none", "No picture yet. Drop one here."));
+    badges.textContent = "";
+    if (c.dirty()) badges.appendChild(el("span", "badge new", c.remove ? "Removal not published" : "Not published yet"));
+    if (c.hasPic() && !c.values().origin) badges.appendChild(el("span", "badge warn", "No source info"));
+    bChoose.textContent = c.hasPic() ? "Replace" : "Add";
+    bRemove.hidden = !c.hasPic() || c.remove;
+    bUndo.hidden = !(c.img || c.remove);
+    c.el.classList.toggle("dirty", c.dirty());
+    updateBar(); applyFilter();
+  };
+  c.el.appendChild(slot); c.el.appendChild(body); c.el.appendChild(btns); c.el.appendChild(det); if (pbox) c.el.appendChild(pbox);
   cards.set(p.slug, c);
-  refreshCard(c);
+  c.refresh();
   return c.el;
 }
 
-function refreshCard(c) {
-  SLOTS.forEach(slot => {
-    const S = c.slots[slot], q = c.p[slot];
-    S.media.textContent = "";
-    if (S.remove) S.media.appendChild(el("div", "none", "Picture will be removed"));
-    else if (S.img) { const i = el("img"); i.src = S.img.preview; i.alt = ""; S.media.appendChild(i); }
-    else if (q.thumb) { const i = el("img"); i.src = "/media/" + q.thumb + "?v=" + (q.image || ""); i.alt = ""; i.loading = "lazy"; S.media.appendChild(i); }
-    else S.media.appendChild(el("div", "none", "No " + WORD[slot] + " picture yet. Drop one here."));
-    S.badges.textContent = "";
-    if (STYLE === slot) S.badges.appendChild(el("span", "badge site", "Shown on the site"));
-    if (S.dirty()) S.badges.appendChild(el("span", "badge new", S.remove ? "Removal not published" : "Not published yet"));
-    if (S.hasPic() && !S.values().origin) S.badges.appendChild(el("span", "badge warn", "No source info"));
-    S.bChoose.textContent = S.hasPic() ? "Replace" : "Add";
-    S.bRemove.hidden = !S.hasPic() || S.remove;
-    S.bUndo.hidden = !(S.img || S.remove);
-  });
-  c.el.classList.toggle("dirty", c.dirty());
-  updateBar(); applyFilter();
-}
-
-async function setPicture(slug, slot, file) {
+async function setPicture(slug, file) {
   const c = cards.get(slug); if (!c) return;
-  try { const img = await prepImage(file); const S = c.slots[slot]; S.img = img; S.remove = false; c.live = false; c.openDetails(slot); hideStatus(); }
+  try { const img = await prepImage(file); c.img = img; c.remove = false; c.live = false; c.openDetails(); hideStatus(); }
   catch (e) { setStatus("err", e.message); return; }
   c.refresh();
 }
@@ -314,10 +304,10 @@ let filter = "all";
 function applyFilter() {
   const q = $("find").value.trim().toLowerCase();
   cards.forEach(c => {
+    if (!c.refresh) return;
     let ok = !q || c.p.title.toLowerCase().includes(q);
-    if (filter === "novox") ok = ok && !c.slots.vox.hasPic();
-    if (filter === "noplain") ok = ok && !c.slots.plain.hasPic();
-    if (filter === "origin") ok = ok && SLOTS.some(s => c.slots[s].hasPic() && !c.slots[s].values().origin);
+    if (filter === "nopic") ok = ok && !c.hasPic();
+    if (filter === "origin") ok = ok && c.hasPic() && !c.values().origin;
     if (filter === "pending") ok = ok && c.dirty();
     c.el.hidden = !ok;
   });
@@ -334,13 +324,12 @@ async function matchFiles(files) {
   const unmatched = []; let matched = 0;
   for (const f of files) {
     if (!f.type.startsWith("image/")) continue;
-    let n = norm(f.name), slot = "vox";
-    if (n.endsWith("-plain")) { slot = "plain"; n = n.slice(0, -6); }
+    const n = norm(f.name);
     let hit = null;
     for (const c of cards.values()) { const s = c.p.slug; if (n === s || (n.length >= 12 && (s.startsWith(n) || n.startsWith(s)))) { hit = c; break; } }
-    if (hit) { await setPicture(hit.p.slug, slot, f); matched++; } else unmatched.push(f.name);
+    if (hit) { await setPicture(hit.p.slug, f); matched++; } else unmatched.push(f.name);
   }
-  if (unmatched.length) setStatus("warn", matched + " matched. No article matched: " + unmatched.join(", ") + ". Drop those onto the right slot instead.");
+  if (unmatched.length) setStatus("warn", matched + " matched. No article matched: " + unmatched.join(", ") + ". Drop those onto the right card instead.");
   else if (matched) setStatus("ok", matched + " picture" + (matched === 1 ? "" : "s") + " matched. Check them below, then press Publish pictures.");
 }
 const multi = $("multi");
@@ -352,19 +341,19 @@ $("manyInput").addEventListener("change", () => { matchFiles([...$("manyInput").
 document.addEventListener("paste", async e => {
   const item = [...(e.clipboardData ? e.clipboardData.items : [])].find(i => i.type.startsWith("image/"));
   if (!item) return;
-  if (!hoverTarget) { setStatus("warn", "Hover over a picture slot first, then paste."); return; }
-  e.preventDefault(); const f = item.getAsFile(); if (f) await setPicture(hoverTarget.slug, hoverTarget.slot, new File([f], "pasted.png", { type: f.type }));
+  if (!hoverTarget) { setStatus("warn", "Hover over a picture first, then paste."); return; }
+  e.preventDefault(); const f = item.getAsFile(); if (f) await setPicture(hoverTarget, new File([f], "pasted.png", { type: f.type }));
 });
 window.addEventListener("dragover", e => e.preventDefault()); window.addEventListener("drop", e => e.preventDefault());
 
 /* ------------------------------------------------------------------ publish */
 $("discard").addEventListener("click", () => {
   if (!confirm("Throw away all the changes you have not published?")) return;
-  cards.forEach(c => SLOTS.forEach(slot => {
-    const S = c.slots[slot], q = c.p[slot], o = splitOrigin(q.origin);
-    S.img = null; S.remove = false; S.d.kind.value = o.kind; S.d.oDetail.value = o.detail; S.d.alt.value = q.alt; S.d.credit.value = q.credit; S.d.creditUrl.value = q.credit_url;
-    S.d.licence.value = q.licence; S.d.licenceUrl.value = q.licence_url; S.d.note.value = q.note;
-  }));
+  cards.forEach(c => {
+    const q = c.p, o = splitOrigin(q.origin), d = c.d;
+    c.img = null; c.remove = false; d.kind.value = o.kind; d.oDetail.value = o.detail; d.alt.value = q.alt; d.credit.value = q.credit; d.creditUrl.value = q.credit_url;
+    d.licence.value = q.licence; d.licenceUrl.value = q.licence_url; d.note.value = q.note;
+  });
   cards.forEach(c => c.refresh()); hideStatus();
 });
 
@@ -385,14 +374,12 @@ $("publish").addEventListener("click", async () => {
   const mine = ++waitId;
   const list = dirtyCards();
   if (!list.length) return;
-  const changes = [];
-  list.forEach(c => SLOTS.forEach(slot => {
-    const S = c.slots[slot]; if (!S.dirty()) return;
-    const ch = Object.assign({ slug: c.p.slug, rev: c.p.rev, slot }, S.values());
-    if (S.img) ch.image = { name: S.img.name, data: S.img.data };
-    if (S.remove) ch.remove = true;
-    changes.push(ch);
-  }));
+  const changes = list.map(c => {
+    const ch = Object.assign({ slug: c.p.slug, rev: c.p.rev }, c.values());
+    if (c.img) ch.image = { name: c.img.name, data: c.img.data };
+    if (c.remove) ch.remove = true;
+    return ch;
+  });
   $("publish").disabled = true; $("discard").disabled = true;
   setStatus("info", "Resizing the pictures, building the site and sending it to GitHub...");
   let r;
@@ -404,7 +391,7 @@ $("publish").addEventListener("click", async () => {
     await reload(); updateBar(); return;
   }
   const slugs = r.changed || [];
-  await reload();   // the saved pictures are now the baseline, and the counts are fresh
+  await reload();   // the saved pictures are now the baseline
   setStatus("info", "Sent to GitHub. Waiting for johnplusnews.com to show " + slugs.length + (slugs.length === 1 ? " article" : " articles") + " (this usually takes one to two minutes).");
   let done = 0;
   const results = await Promise.all(slugs.map(async s => { const ok = await waitLive("/articles/" + s + "/", (r.verify || {})[s]); if (ok) { done++; if (mine === waitId) setStatus("info", done + " of " + slugs.length + " live on johnplusnews.com so far."); } return ok; }));
@@ -413,47 +400,21 @@ $("publish").addEventListener("click", async () => {
   else setStatus("warn", "Sent to GitHub, but not all of them are showing yet. Give it a few more minutes and check the site.");
 });
 
-/* ------------------------------------------------------------------ the site-wide switch */
-function drawStyleBox() {
-  [...$("styleSeg").children].forEach(b => b.setAttribute("aria-pressed", String(b.dataset.s === STYLE)));
-  const other = STYLE === "vox" ? "plain" : "vox", missing = COUNTS.total - COUNTS[STYLE];
-  $("styleNote").textContent = "Vox style: " + COUNTS.vox + " of " + COUNTS.total + " articles have one. Plain: " + COUNTS.plain + " of " + COUNTS.total + ". An article with no " + WORD[STYLE] + " picture shows its other picture instead" + (missing > 0 ? " (" + missing + " right now)." : ".");
-}
-$("styleSeg").addEventListener("click", async e => {
-  const b = e.target.closest("button[data-s]"); if (!b || b.dataset.s === STYLE) return;
-  const want = b.dataset.s, have = COUNTS[want];
-  const warn = have < COUNTS.total ? "\n\n" + (COUNTS.total - have) + " articles have no " + WORD[want] + " picture yet and will keep showing their other one." : "";
-  if (!confirm("Switch the whole site to the " + LABEL[want] + " pictures?" + warn + "\n\nThis publishes straight away.")) return;
-  const mine = ++waitId; [...$("styleSeg").children].forEach(x => x.disabled = true);
-  setStatus("info", "Switching the site to " + LABEL[want] + " and sending it to GitHub...");
-  try {
-    const r = await api("/api/imagestyle", { style: want });
-    STYLE = want; drawStyleBox(); cards.forEach(c => c.refresh());
-    if (!r.pushed) setStatus("warn", (r.auth ? "GitHub needs your sign-in. " : "") + (r.note || "") + " The site is set to " + LABEL[want] + " on this Mac but is not sent yet.");
-    else {
-      setStatus("info", "Sent to GitHub. Waiting for johnplusnews.com to show the " + LABEL[want] + " pictures (this usually takes one to two minutes).");
-      const ok = await waitLive("/", r.verify);
-      if (mine === waitId) setStatus(ok ? "ok" : "warn", ok ? "The site now shows the " + LABEL[want] + " pictures." : "Sent to GitHub, but the home page is not showing it yet. Give it a few more minutes.");
-    }
-  } catch (er) { setStatus("err", er.message); }
-  [...$("styleSeg").children].forEach(x => x.disabled = false);
-});
-
 /* ------------------------------------------------------------------ record download */
 $("record").addEventListener("click", () => {
   const q = v => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"';
-  const rows = [["Article", "Date", "Style", "Picture file", "Where it came from", "Credit", "Licence", "Alt text", "Article address"]];
-  PICS.forEach(p => SLOTS.forEach(s => { if (p[s].image) rows.push([p.title, p.date, LABEL[s], p[s].image, p[s].origin, p[s].credit, p[s].licence, p[s].alt, p.live_url]); }));
+  const rows = [["Article", "Date", "Picture file", "Where it came from", "Credit", "Licence", "Alt text", "Article address"]];
+  PICS.forEach(p => { if (p.image) rows.push([p.title, p.date, p.image, p.origin, p.credit, p.licence, p.alt, p.live_url]); });
   const blob = new Blob(["﻿" + rows.map(r => r.map(q).join(",")).join("\r\n")], { type: "text/csv;charset=utf-8" });
   const a = el("a"); a.href = URL.createObjectURL(blob); a.download = "johnplusnews-picture-record.csv"; document.body.appendChild(a); a.click(); a.remove();
 });
 
 /* ------------------------------------------------------------------ start */
 async function reload() {
-  const j = await api("/api/pictures"); PICS = j.pictures; KINDS = j.kinds; STYLE = j.style; COUNTS = j.counts;
+  const j = await api("/api/pictures"); PICS = j.pictures; KINDS = j.kinds; PROMPTS = j.prompts || {};
   const grid = $("grid"); grid.textContent = ""; cards.clear();
   PICS.forEach(p => grid.appendChild(makeCard(p)));
-  drawStyleBox(); applyFilter(); updateBar();
+  applyFilter(); updateBar();
 }
 reload().catch(e => setStatus("err", e.message));
 window.addEventListener("beforeunload", e => { if (dirtyCards().length) { e.preventDefault(); e.returnValue = ""; } });

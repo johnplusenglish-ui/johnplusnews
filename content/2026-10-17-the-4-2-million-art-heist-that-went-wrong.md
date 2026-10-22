@@ -3,8 +3,7 @@ date: 2026-10-12
 summary: Two Renoir paintings worth about 4.2 million euros were stolen from the painter's former home. The clues the thieves left behind led police to a wall under a staircase.
 tags: Crime, Culture
 source: Associated Press | https://apnews.com/article/france-renoir-art-heist-983f9fc01e189a4862b55a30ea33a8d8
-image: images/the-4-2-million-art-heist-that-went-wrong-4be007.jpg
-image-plain: images/the-4-2-million-art-heist-that-went-wrong-plain-26c6fa.jpg
+image: images/the-4-2-million-art-heist-that-went-wrong-plain-26c6fa.jpg
 ---
 === Core ===
 

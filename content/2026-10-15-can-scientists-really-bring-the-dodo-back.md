@@ -3,8 +3,7 @@ date: 2026-10-14
 summary: A US company says it is making progress towards bringing back the dodo. Can scientists really undo an extinction?
 tags: Science, Environment
 source: Reuters | https://www.reuters.com/science/us-company-announces-progress-toward-resurrecting-extinct-dodo-2026-10-14/
-image: images/can-scientists-really-bring-the-dodo-back-df7b99.jpg
-image-plain: images/can-scientists-really-bring-the-dodo-back-plain-172bdb.jpg
+image: images/can-scientists-really-bring-the-dodo-back-plain-172bdb.jpg
 ---
 === Core ===
 

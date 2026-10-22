@@ -3,8 +3,7 @@ date: 2026-10-09
 summary: Japan wants healthier workplaces, but labour shortages are reopening the argument about longer hours.
 tags: Work, Society
 source: Japan Ministry of Health, Labour and Welfare | https://www.mhlw.go.jp/stf/newpage_76612.html
-image: images/work-work-work-is-japan-rethinking-the-office-life-9afa89.jpg
-image-plain: images/work-work-work-is-japan-rethinking-the-office-life-plain-42436d.jpg
+image: images/work-work-work-is-japan-rethinking-the-office-life-plain-42436d.jpg
 ---
 === Core ===
 

@@ -4,8 +4,7 @@ date-label: June–July 2026
 summary: In Portugal, residents protested against a plan they feared would restrict access to beautiful beaches. Should nature ever become a private luxury?
 tags: Travel, Society
 source: The Guardian | https://www.theguardian.com/commentisfree/2026/jul/04/fight-beaches-real-villain-europe-overtourism-big-business
-image: images/who-owns-the-beach-portugals-fight-for-its-coastline-8536e0.jpg
-image-plain: images/who-owns-the-beach-portugals-fight-for-its-coastline-plain-feeef3.jpg
+image: images/who-owns-the-beach-portugals-fight-for-its-coastline-plain-feeef3.jpg
 ---
 === Core ===
 

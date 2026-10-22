@@ -4,7 +4,7 @@ date-label: August 2026
 summary: A job can give us money, purpose and a place in the world. But should it tell us who we are?
 tags: Work, Society
 source: Pew Research Center | https://www.pewresearch.org/social-trends/2023/03/30/how-americans-view-their-jobs/
-image-plain: images/who-are-you-when-youre-not-working-plain-7381d0.jpg
+image: images/who-are-you-when-youre-not-working-plain-7381d0.jpg
 ---
 === Core ===
 

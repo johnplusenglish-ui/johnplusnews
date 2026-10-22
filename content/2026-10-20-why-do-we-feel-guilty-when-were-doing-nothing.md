@@ -3,7 +3,7 @@ date: 2026-03-26
 summary: Even a free afternoon can come with a feeling that we should be achieving something. Why is rest so difficult?
 tags: Lifestyle, Health
 source: Nature Careers | https://www.nature.com/articles/d41586-026-00549-1
-image-plain: images/why-do-we-feel-guilty-when-were-doing-nothing-plain-81a178.jpg
+image: images/why-do-we-feel-guilty-when-were-doing-nothing-plain-81a178.jpg
 ---
 === Core ===
 

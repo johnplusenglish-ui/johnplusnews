@@ -2,8 +2,7 @@ title: Learning to Read at 42: A Second Chance at Life
 date: 2026-10-14
 summary: For most people, reading is something they learn as children. But one British man spent decades unable to read a book, a menu or even a food label. Then, at the age of 42, everything began to change.
 tags: Education, Society
-image: images/learning-to-read-at-42-a-second-chance-at-life-97b848.jpg
-image-plain: images/learning-to-read-at-42-a-second-chance-at-life-plain-15bbe3.jpg
+image: images/learning-to-read-at-42-a-second-chance-at-life-plain-15bbe3.jpg
 ---
 === Core ===
 

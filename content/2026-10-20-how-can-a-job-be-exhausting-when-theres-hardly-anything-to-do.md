@@ -3,7 +3,7 @@ date: 2026-09-01
 summary: Burnout comes from too much pressure. But boredom and a lack of purpose can also leave workers drained.
 tags: Work, Health
 source: American Psychological Association | https://www.apa.org/monitor/2026/09/workplace-rustout-boredom-employees
-image-plain: images/how-can-a-job-be-exhausting-when-theres-hardly-anything-to-do-plain-e98d82.jpg
+image: images/how-can-a-job-be-exhausting-when-theres-hardly-anything-to-do-plain-e98d82.jpg
 ---
 === Core ===
 

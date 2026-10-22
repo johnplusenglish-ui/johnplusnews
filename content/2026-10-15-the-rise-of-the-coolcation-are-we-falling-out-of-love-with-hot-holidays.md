@@ -3,8 +3,7 @@ date: 2026-10-02
 summary: After another punishing European summer, northern weather has become part of the attraction.
 tags: Travel, Environment
 source: BBC News | https://www.bbc.co.uk/news/articles/c74gp1024lpo
-image: images/the-rise-of-the-coolcation-are-we-falling-out-of-love-with-hot-holidays-a06056.jpg
-image-plain: images/the-rise-of-the-coolcation-are-we-falling-out-of-love-with-hot-holidays-plain-d220e1.jpg
+image: images/the-rise-of-the-coolcation-are-we-falling-out-of-love-with-hot-holidays-plain-d220e1.jpg
 ---
 === Core ===
 
