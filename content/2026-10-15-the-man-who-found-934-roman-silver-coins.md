@@ -4,6 +4,7 @@ summary: A metal detector led to 934 Roman silver coins in a German field. What 
 tags: History, Culture
 source: LVR Office for Archaeological Monument Preservation | https://www.lvr.de/bodendenkmalpflege/zentrale-infos/presse/sensationeller-roemischer-muenzschatz.html
 image: images/the-man-who-found-934-roman-silver-coins-e8ff4d.jpg
+image-plain: images/the-man-who-found-934-roman-silver-coins-plain-bea145.jpg
 ---
 === Core ===
 

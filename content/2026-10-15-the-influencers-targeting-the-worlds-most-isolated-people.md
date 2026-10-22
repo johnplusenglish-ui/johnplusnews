@@ -4,6 +4,7 @@ summary: Some content creators try to film communities that want to be left alon
 tags: Technology, Society
 source: The Guardian | https://www.theguardian.com/world/2026/sep/05/colonialism-for-clicks-influencers-attempting-meet-film-worlds-most-isolated-tribes
 image: images/the-influencers-targeting-the-worlds-most-isolated-people-8fec4d.jpg
+image-plain: images/the-influencers-targeting-the-worlds-most-isolated-people-plain-23e4d7.jpg
 ---
 === Core ===
 

@@ -5,6 +5,7 @@ tags: Relationships, Lifestyle
 source: Korea JoongAng Daily | https://www.koreajoongangdaily.com/korea/couplesnbspcrash-strangers-weddings-to-catch-free-glimpses-of-venues/12740550
 image: images/why-are-couples-crashing-strangers-weddings-dc1765.jpg
 image-origin: AI-generated
+image-plain: images/why-are-couples-crashing-strangers-weddings-plain-abf85b.jpg
 ---
 === Core ===
 

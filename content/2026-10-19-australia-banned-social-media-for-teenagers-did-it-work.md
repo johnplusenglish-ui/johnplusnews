@@ -4,6 +4,7 @@ summary: Australia introduced strict rules for social media accounts held by und
 tags: Technology, Society
 source: Australian eSafety Commissioner | https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions
 image: images/australia-banned-social-media-for-teenagers-did-it-work-4292c1.jpg
+image-plain: images/australia-banned-social-media-for-teenagers-did-it-work-plain-323e25.jpg
 ---
 === Core ===
 
