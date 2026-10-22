@@ -767,6 +767,6 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .hl-def-ask { color: var(--accent); font-weight: 600; cursor: pointer; }
 /* Floats faintly below the panel, outside its card. Almost invisible until
    looked for: the reader came for the meaning, not to delete. */
-.hl-rm { position: absolute; z-index: 69; font: inherit; font-size: 0.75rem; line-height: 1; color: #aeb4bd; background: none; border: 0; padding: 6px 8px; cursor: pointer; opacity: 0.75; transition: opacity 0.12s, color 0.12s; }
+.hl-rm { position: absolute; z-index: 69; font: inherit; font-size: 0.8125rem; line-height: 1; color: #6b7280; background: none; border: 0; padding: 6px 9px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: #c9ced6; transition: color 0.12s; }
 .hl-rm[hidden] { display: none; }
-.hl-rm:hover, .hl-rm:focus-visible { opacity: 1; color: #b42318; }
+.hl-rm:hover, .hl-rm:focus-visible { color: #b42318; text-decoration-color: currentColor; }
