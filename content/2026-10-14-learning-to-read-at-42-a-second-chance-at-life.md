@@ -1,15 +1,16 @@
-title: Learning to Read at 42: A Second Chance at Life
+title: Learning to Read at 46: A Second Chance at Life
 date: 2026-10-14
-summary: For most people, reading is something they learn as children. But one British man spent decades unable to read a book, a menu or even a food label. Then, at the age of 42, everything began to change.
+source: LiverpoolWorld | https://www.liverpoolworld.uk/news/people/i-learned-to-read-in-my-forties-and-it-gave-me-a-second-chance-at-life-4633235
+summary: For most people, reading is something they learn as children. But one British man spent decades unable to read a book, a menu or even a food label. Then, at the age of 46, everything began to change.
 tags: Education, Society
 image: images/learning-to-read-at-42-a-second-chance-at-life-15bbe3.jpg
 ---
 === Core ===
 
-title: The Man Who Learnt to Read at 42
-summary: Peter Lloyd could drive a lorry across Britain, but he could not read a food label. At 42, he finally asked for help.
+title: The Man Who Learnt to Read at 46
+summary: Peter Lloyd could drive a lorry across Britain, but he could not read a food label. At 46, he finally asked for help.
 
-Peter Lloyd could drive a lorry across Britain, remember complicated routes and look after his family. But there was one thing he could not do: read a food label. For most of his adult life, he kept this problem hidden. At the age of 42, an ordinary trip to the supermarket finally persuaded him to ask for help.
+Peter Lloyd could drive a lorry across Britain, remember complicated routes and look after his family. But there was one thing he could not do: read a food label. For most of his adult life, he kept this problem hidden. At the age of 46, an ordinary trip to the supermarket finally persuaded him to ask for help.
 
 Peter grew up in Lancashire and was partially deaf from birth. At school, it was difficult for him to hear the teachers, especially when other children were talking. He moved to a different school, but he still struggled with reading and writing. He left education at 16 without qualifications. Like many adults who find reading difficult, he learnt ways to manage. He remembered roads, used pictures and numbers, and asked his wife to help with letters and forms.
 
@@ -24,7 +25,7 @@ Today, Peter can read recipes and share books with his son. He also talks public
 title: Hiding It for Thirty Years, Then Asking for Help
 summary: Peter Lloyd built a career and raised a family while hiding the fact that he could not read. A supermarket shelf finally changed that.
 
-For years, Peter Lloyd found ways to avoid reading in public. As a lorry driver, he could remember complicated routes and recognise road signs, but a letter arriving through the post could leave him feeling helpless. He had built a working life and raised a family while hiding a difficulty that many people assume only children face. Then, aged 42, he found himself unable to complete a simple supermarket shop.
+For years, Peter Lloyd found ways to avoid reading in public. As a lorry driver, he could remember complicated routes and recognise road signs, but a letter arriving through the post could leave him feeling helpless. He had built a working life and raised a family while hiding a difficulty that many people assume only children face. Then, aged 46, he found himself unable to complete a simple supermarket shop.
 
 Peter was born partially deaf in Lancashire and struggled to follow lessons in noisy classrooms. Moving schools did little to help. He left at 16 without qualifications and with very limited reading skills. Yet he was resourceful. His strong visual memory helped him navigate Britain's roads, and later a talking satnav made driving easier. His wife stepped in when he needed to understand documents or fill in forms. From the outside, there was little to suggest how much effort ordinary tasks required.
 
@@ -41,7 +42,7 @@ Low literacy does not mean a lack of intelligence, yet shame can stop adults fro
 title: The Man Who Couldn't Read: Why It's Never Too Late to Start Again
 summary: For more than four decades, Peter Lloyd navigated a world of written instructions, road signs and official documents without being able to read. His remarkable journey towards literacy offers a powerful reminder of how easily adults can fall through the cracks of the education system.
 
-The trouble began in the dairy aisle. Peter Lloyd, a lorry driver from Lancashire, was trying to buy milk suitable for his wife and son, both of whom had allergies. Surrounded by cartons covered in information he could barely decipher, he realised how easily a routine errand could become a serious mistake. He was 42, with a job and a family, but he had spent much of his life covering up the fact that he struggled to read.
+The trouble began in the dairy aisle. Peter Lloyd, a lorry driver from Lancashire, was trying to buy milk suitable for his wife and son, both of whom had allergies. Surrounded by cartons covered in information he could barely decipher, he realised how easily a routine errand could become a serious mistake. He was 46, with a job and a family, but he had spent much of his life covering up the fact that he struggled to read.
 
 Partially deaf from birth, Peter had found the classroom an unforgiving place. Competing voices made lessons difficult to follow, and a move to another school failed to provide the support he needed. He left education at 16 without qualifications, carrying into adulthood a problem that society often treats as a personal failure. Yet his working life demonstrated considerable ingenuity. He learnt routes through visual memory, recognised landmarks and relied on technology and his wife's help to negotiate paperwork. Most people take reading for granted, and few notice the elaborate system of workarounds that sustained what looked like independence.
 

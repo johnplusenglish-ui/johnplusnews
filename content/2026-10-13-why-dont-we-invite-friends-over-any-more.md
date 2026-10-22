@@ -1,5 +1,6 @@
 title: Why Don't We Invite Friends Over Any More?
 date: 2026-10-06
+source: Socius | https://journals.sagepub.com/doi/full/10.1177/23780231261478215
 summary: A casual cup of tea has acquired a long list of conditions: a clean home, impressive food and a free evening.
 tags: Relationships, Lifestyle
 image: images/why-dont-we-invite-friends-over-any-more-b64ce6.jpg

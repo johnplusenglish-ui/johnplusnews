@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "In July and August, the car parks near the sea ____ quickly.", "a": "fill up" },
-          { "s": "The beach is a place they ____ visiting as children.", "a": "grew up" },
-          { "s": "They want their children to use it without ____.", "a": "paying for the privilege" },
-          { "s": "Those services usually ____.", "a": "come at a price" },
-          { "s": "Somebody has to ____ cleaning, parking and safety.", "a": "pay for" }
+          {
+            "s": "In July and August, the car parks near the sea ____ quickly.",
+            "a": "fill up"
+          },
+          {
+            "s": "The beach is a place they ____ visiting as children.",
+            "a": "grew up"
+          },
+          {
+            "s": "They want their children to use it without ____.",
+            "a": "paying for the privilege"
+          },
+          {
+            "s": "Those services usually ____.",
+            "a": "come at a price"
+          },
+          {
+            "s": "Somebody has to ____ cleaning, parking and safety.",
+            "a": "pay for"
+          }
         ],
-        "extra": ["come back", "private"]
+        "extra": [
+          "come back",
+          "private"
+        ]
       },
       "match": [
-        { "t": "fill up", "d": "become completely full of something" },
-        { "t": "come at a price", "d": "have a cost attached to it" },
-        { "t": "private", "d": "owned by a person or company, not the public" },
-        { "t": "come back", "d": "return after being away" }
+        {
+          "t": "fill up",
+          "d": "become completely full of something"
+        },
+        {
+          "t": "come at a price",
+          "d": "have a cost attached to it"
+        },
+        {
+          "t": "private",
+          "d": "owned by a person or company, not the public"
+        },
+        {
+          "t": "come back",
+          "d": "return after being away"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "In 2026, that question ____ into a public argument.", "cue": "turn", "a": "turned" },
-          { "s": "Residents ____ against plans connected with several beaches.", "cue": "protest", "a": "protested" },
-          { "s": "They were afraid that development could ____ access more difficult.", "cue": "make", "a": "make" },
-          { "s": "The area ____ for clear water and green hills.", "cue": "know", "a": "is known" },
-          { "s": "The question keeps ____ in many countries.", "cue": "come", "a": "coming back" }
+          {
+            "s": "In 2026, that question ____ into a public argument.",
+            "cue": "turn",
+            "a": "turned"
+          },
+          {
+            "s": "Residents ____ against plans connected with several beaches.",
+            "cue": "protest",
+            "a": "protested"
+          },
+          {
+            "s": "They were afraid that development could ____ access more difficult.",
+            "cue": "make",
+            "a": "make"
+          },
+          {
+            "s": "The area ____ for clear water and green hills.",
+            "cue": "know",
+            "a": "is known"
+          },
+          {
+            "s": "The question keeps ____ back in many countries.",
+            "cue": "come",
+            "a": "coming"
+          }
         ]
       },
       "tfn": [
-        { "s": "Arrábida lies south of Lisbon.", "a": "T" },
-        { "s": "Every beach in the area has already become private property.", "a": "F" },
-        { "s": "Tourism can create jobs for people who live nearby.", "a": "T" },
-        { "s": "The development plans were cancelled after the protests.", "a": "N" }
+        {
+          "s": "Arrábida lies south of Lisbon.",
+          "a": "T",
+          "why": "The text says: \"Residents and campaigners protested against plans connected with several beaches in Arrábida, a beautiful coastal area south of Lisbon.\""
+        },
+        {
+          "s": "The development plans were cancelled after the protests.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Tourism can create jobs for people who live nearby.",
+          "a": "T",
+          "why": "The text says: \"Businesses can provide parking, cleaning, restaurants and other useful services, and tourism creates jobs for people who live nearby.\""
+        },
+        {
+          "s": "The protesters wanted the beaches to be run by private companies.",
+          "a": "F",
+          "why": "The text says the opposite: \"The protesters argued that the coastline should stay something everyone can enjoy.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "The sea seems like ____ rather than a product.", "a": "a shared resource" },
-          { "s": "The protest was as much about ____ as about parking spaces.", "a": "local identity" },
-          { "s": "Improvements can also ____ charges or restrictions.", "a": "bring in" },
-          { "s": "Residents need ordinary, affordable access ____.", "a": "all year round" },
-          { "s": "Tourism can ____ the people who live closest to a destination.", "a": "price out" },
-          { "s": "The protest ____ because it touched on belonging.", "a": "struck such a nerve" }
+          {
+            "s": "The sea seems like ____ rather than a product.",
+            "a": "a shared resource"
+          },
+          {
+            "s": "The protest was as much about ____ as about parking spaces.",
+            "a": "local identity"
+          },
+          {
+            "s": "Improvements can also ____ charges or restrictions.",
+            "a": "bring in"
+          },
+          {
+            "s": "Residents need ordinary, affordable access ____.",
+            "a": "all year round"
+          },
+          {
+            "s": "Tourism can ____ the people who live closest to a destination.",
+            "a": "price out"
+          },
+          {
+            "s": "The protest ____ because it touched on belonging.",
+            "a": "struck such a nerve"
+          }
         ],
-        "extra": ["shut out", "seasonal"]
+        "extra": [
+          "shut out",
+          "seasonal"
+        ]
       },
       "match": [
-        { "t": "price somebody out", "d": "make something too expensive for somebody" },
-        { "t": "strike a nerve", "d": "touch on something people feel strongly about" },
-        { "t": "shut somebody out", "d": "prevent somebody from taking part" },
-        { "t": "seasonal", "d": "happening only at certain times of year" }
+        {
+          "t": "price somebody out",
+          "d": "make something too expensive for somebody"
+        },
+        {
+          "t": "strike a nerve",
+          "d": "touch on something people feel strongly about"
+        },
+        {
+          "t": "shut somebody out",
+          "d": "prevent somebody from taking part"
+        },
+        {
+          "t": "seasonal",
+          "d": "happening only at certain times of year"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The beaches lie in a ____ coastal area south of Lisbon.", "cue": "PROTECT", "a": "protected" },
-          { "s": "Measures protect ____ habitats from heavy visitor numbers.", "cue": "SENSE", "a": "sensitive" },
-          { "s": "____ tourism provides employment throughout the year.", "cue": "MANAGE", "a": "Well-managed" },
-          { "s": "Residents need ordinary, ____ access to the coast.", "cue": "AFFORD", "a": "affordable" },
-          { "s": "Public access and private ____ raise different legal questions.", "cue": "OWN", "a": "ownership" }
+          {
+            "s": "The beaches lie in a ____ coastal area south of Lisbon.",
+            "cue": "PROTECT",
+            "a": "protected"
+          },
+          {
+            "s": "Measures protect ____ habitats from heavy visitor numbers.",
+            "cue": "SENSE",
+            "a": "sensitive"
+          },
+          {
+            "s": "Carefully ____ tourism provides employment throughout the year.",
+            "cue": "MANAGE",
+            "a": "managed"
+          },
+          {
+            "s": "Residents need ordinary, ____ access to the coast.",
+            "cue": "AFFORD",
+            "a": "affordable"
+          },
+          {
+            "s": "Public access and private ____ raise different legal questions.",
+            "cue": "OWN",
+            "a": "ownership"
+          }
         ]
       },
       "tfn": [
-        { "s": "The protests concerned beaches in a protected coastal area.", "a": "T" },
-        { "s": "The article says the whole coastline has already been privatised.", "a": "F" },
-        { "s": "Many tourism jobs last only a few months.", "a": "T" },
-        { "s": "The Portuguese government has blocked the development.", "a": "N" }
+        {
+          "s": "The article says the whole coastline has already been privatised.",
+          "a": "F",
+          "why": "The text says the opposite: \"Opposition to a proposal is not the same as proof that an entire coastline has already been privatised.\""
+        },
+        {
+          "s": "The protests concerned beaches in a protected coastal area.",
+          "a": "T",
+          "why": "The text says: \"Campaigners opposed plans affecting access to several beaches in the protected coastal area south of Lisbon.\""
+        },
+        {
+          "s": "The Portuguese government has blocked the development.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Many tourism jobs last only a few months.",
+          "a": "T",
+          "why": "The text says: \"Seasonal work adds another layer, since many of the jobs tourism creates last only a few months.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The idea that a coastline belongs to everyone is emotionally ____.", "a": "compelling" },
-          { "s": "A charge that strikes a visitor as ____ may be a barrier to a family.", "a": "modest" },
-          { "s": "Vehicle caps may be ecologically ____.", "a": "indispensable" },
-          { "s": "There is a broader question of ____ here.", "a": "environmental justice" },
-          { "s": "Earlier generations preserved the landscape rather than ____.", "a": "cashing in" },
-          { "s": "Councils must decide what to defend when money is ____.", "a": "on the table" }
+          {
+            "s": "The idea that a coastline belongs to everyone is emotionally ____.",
+            "a": "compelling"
+          },
+          {
+            "s": "A charge that strikes a visitor as ____ may be a barrier to a family.",
+            "a": "modest"
+          },
+          {
+            "s": "Vehicle caps may be ecologically ____.",
+            "a": "indispensable"
+          },
+          {
+            "s": "There is a broader question of ____ here.",
+            "a": "environmental justice"
+          },
+          {
+            "s": "Earlier generations preserved the landscape rather than ____.",
+            "a": "cashing in"
+          },
+          {
+            "s": "Councils must decide what to defend when money is ____.",
+            "a": "on the table"
+          }
         ],
-        "extra": ["work out", "genuine"]
+        "extra": [
+          "work out",
+          "genuine"
+        ]
       },
       "match": [
-        { "t": "cash in", "d": "take profit from an opportunity" },
-        { "t": "on the table", "d": "available for people to consider or take" },
-        { "t": "work something out", "d": "find a method after thinking carefully" },
-        { "t": "genuine", "d": "real rather than pretended" }
+        {
+          "t": "cash in",
+          "d": "take profit from an opportunity"
+        },
+        {
+          "t": "on the table",
+          "d": "available for people to consider or take"
+        },
+        {
+          "t": "work something out",
+          "d": "find a method after thinking carefully"
+        },
+        {
+          "t": "genuine",
+          "d": "real rather than pretended"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The management of a popular beach is rarely ____.", "cue": "FORWARD", "a": "straightforward" },
-          { "s": "Arrábida's striking coastal ____ draws visitors from far away.", "cue": "SCENE", "a": "scenery" },
-          { "s": "The benefits of development tend to be distributed ____.", "cue": "EVEN", "a": "unevenly" },
-          { "s": "Identical restrictions can function as a ____ for discouraging visitors.", "cue": "MECHANICAL", "a": "mechanism" },
-          { "s": "Tourism policy is also about ____ and belonging.", "cue": "GOVERN", "a": "governance" }
+          {
+            "s": "The management of a popular beach is rarely ____.",
+            "cue": "FORWARD",
+            "a": "straightforward"
+          },
+          {
+            "s": "Arrábida's striking coastal ____ draws visitors from far away.",
+            "cue": "SCENE",
+            "a": "scenery"
+          },
+          {
+            "s": "The benefits of development tend to be distributed ____.",
+            "cue": "EVEN",
+            "a": "unevenly"
+          },
+          {
+            "s": "Identical restrictions can function as a ____ for discouraging visitors.",
+            "cue": "MECHANICAL",
+            "a": "mechanism"
+          },
+          {
+            "s": "Tourism policy is also about ____ and belonging.",
+            "cue": "GOVERN",
+            "a": "governance"
+          }
         ]
       },
       "tfn": [
-        { "s": "The writer says protected status complicates rather than resolves the issue.", "a": "T" },
-        { "s": "The article reports that the anticipated restrictions have taken effect.", "a": "F" },
-        { "s": "Visitor pressure in the region is concentrated into a few months.", "a": "T" },
-        { "s": "Local councils have agreed a new access plan.", "a": "N" }
+        {
+          "s": "The writer says protected status complicates rather than resolves the issue.",
+          "a": "T",
+          "why": "The text says: \"Protected status complicates the picture rather than resolving it.\""
+        },
+        {
+          "s": "Visitor pressure in the region is concentrated into a few months.",
+          "a": "T",
+          "why": "The text says: \"The pressure is concentrated into a few months, which makes it harder to manage and easier to underestimate in the planning stage.\""
+        },
+        {
+          "s": "Local councils have agreed a new access plan.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The article states that the anticipated restrictions are already in force.",
+          "a": "F",
+          "why": "The text says the opposite: \"Nor should fears about a proposed project be reported as though the anticipated restrictions had already taken effect.\""
+        }
       ]
     }
   }

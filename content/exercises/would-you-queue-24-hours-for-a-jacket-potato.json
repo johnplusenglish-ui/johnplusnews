@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "Some people have ____ nearby and waited almost 24 hours.", "a": "camped out" },
-          { "s": "They began ____ videos on social media.", "a": "putting out" },
-          { "s": "Popularity can disappear quickly when viewers ____.", "a": "move on" },
-          { "s": "But internet fame ____.", "a": "has a downside" },
-          { "s": "Customers who have travelled ____ may be disappointed.", "a": "a long way" }
+          {
+            "s": "Some people have ____ nearby and waited almost 24 hours.",
+            "a": "camped out"
+          },
+          {
+            "s": "They began ____ videos on social media.",
+            "a": "putting out"
+          },
+          {
+            "s": "Popularity can disappear quickly when viewers ____.",
+            "a": "move on"
+          },
+          {
+            "s": "But internet fame ____.",
+            "a": "has a downside"
+          },
+          {
+            "s": "Customers who have travelled ____ may be disappointed.",
+            "a": "a long way"
+          }
         ],
-        "extra": ["join the queue", "exhausted"]
+        "extra": [
+          "join the queue",
+          "exhausted"
+        ]
       },
       "match": [
-        { "t": "camp out", "d": "sleep outdoors while waiting for something" },
-        { "t": "move on", "d": "stop giving attention to one thing" },
-        { "t": "exhausted", "d": "extremely tired, with no energy left" },
-        { "t": "ridiculous", "d": "so silly that people laugh at it" }
+        {
+          "t": "camp out",
+          "d": "sleep outdoors while waiting for something"
+        },
+        {
+          "t": "move on",
+          "d": "stop giving attention to one thing"
+        },
+        {
+          "t": "exhausted",
+          "d": "extremely tired, with no energy left"
+        },
+        {
+          "t": "ridiculous",
+          "d": "so silly that people laugh at it"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "Jacob and Harley Nelson ____ baked potatoes from a converted tram.", "cue": "sell", "a": "sell" },
-          { "s": "People enjoyed ____ them prepare the food.", "cue": "watch", "a": "watching" },
-          { "s": "Their videos ____ millions of viewers.", "cue": "reach", "a": "reached" },
-          { "s": "A normal lunch ____ an experience.", "cue": "become", "a": "had become" },
-          { "s": "A small business that ____ to struggle may suddenly be busy.", "cue": "use", "a": "used" }
+          {
+            "s": "Jacob and Harley Nelson ____ baked potatoes from a converted tram.",
+            "cue": "sell",
+            "a": "sell"
+          },
+          {
+            "s": "People enjoyed ____ them prepare the food.",
+            "cue": "watch",
+            "a": "watching"
+          },
+          {
+            "s": "Their videos ____ millions of viewers.",
+            "cue": "reach",
+            "a": "reached"
+          },
+          {
+            "s": "A normal lunch ____ an experience.",
+            "cue": "become",
+            "a": "had become"
+          },
+          {
+            "s": "A small business that ____ to struggle may suddenly be busy.",
+            "cue": "use",
+            "a": "used"
+          }
         ]
       },
       "tfn": [
-        { "s": "SpudBros operates from a converted tram in Preston.", "a": "T" },
-        { "s": "The brothers became famous through newspaper advertising.", "a": "F" },
-        { "s": "Fans have travelled from other countries to visit.", "a": "T" },
-        { "s": "The brothers plan to open a second location.", "a": "N" }
+        {
+          "s": "SpudBros sell baked potatoes from a converted tram.",
+          "a": "T",
+          "why": "The text says: \"Jacob and Harley Nelson sell baked potatoes from a converted tram.\""
+        },
+        {
+          "s": "The brothers became famous through newspaper advertising.",
+          "a": "F",
+          "why": "The text says the opposite: \"They began putting out videos on social media.\""
+        },
+        {
+          "s": "The brothers plan to open a second location.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Fans have travelled from other countries to visit.",
+          "a": "T",
+          "why": "The text says: \"Fans travelled to Preston from other towns and even other countries.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "A traditional British lunch has become an ____ online sensation.", "a": "unlikely" },
-          { "s": "For owners facing rising costs, attention can be ____.", "a": "a lifeline" },
-          { "s": "Staff may struggle to ____.", "a": "keep up with demand" },
-          { "s": "Regular customers can feel ____ by the crowds.", "a": "pushed aside" },
-          { "s": "A perfectly good meal may seem ____ after a three-hour journey.", "a": "underwhelming" },
-          { "s": "Posting a photograph proves that you were ____.", "a": "part of the moment" }
+          {
+            "s": "A traditional British lunch has become an ____ online sensation.",
+            "a": "unlikely"
+          },
+          {
+            "s": "For owners facing rising costs, attention can be ____.",
+            "a": "a lifeline"
+          },
+          {
+            "s": "Staff may struggle to ____.",
+            "a": "keep up with demand"
+          },
+          {
+            "s": "Regular customers can feel ____ by the crowds.",
+            "a": "pushed aside"
+          },
+          {
+            "s": "A perfectly good meal may seem ____ after a three-hour journey.",
+            "a": "underwhelming"
+          },
+          {
+            "s": "Posting a photograph proves that you were ____.",
+            "a": "part of the moment"
+          }
         ],
-        "extra": ["drift away", "unpredictable"]
+        "extra": [
+          "drift away",
+          "unpredictable"
+        ]
       },
       "match": [
-        { "t": "a lifeline", "d": "help that arrives when a situation is desperate" },
-        { "t": "push somebody aside", "d": "treat somebody as less important than before" },
-        { "t": "drift away", "d": "gradually lose interest and leave" },
-        { "t": "unpredictable", "d": "impossible to know about in advance" }
+        {
+          "t": "a lifeline",
+          "d": "help that arrives when a situation is desperate"
+        },
+        {
+          "t": "push somebody aside",
+          "d": "treat somebody as less important than before"
+        },
+        {
+          "t": "drift away",
+          "d": "gradually lose interest and leave"
+        },
+        {
+          "t": "unpredictable",
+          "d": "impossible to know about in advance"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Their potatoes come piled high with ____ portions.", "cue": "ENORMITY", "a": "enormous" },
-          { "s": "A ____ from the right creator can transform a café.", "cue": "RECOMMEND", "a": "recommendation" },
-          { "s": "Free ____ may achieve what an advertising campaign could not.", "cue": "PUBLIC", "a": "publicity" },
-          { "s": "Neighbourhoods have to deal with crowds and the resulting ____.", "cue": "DISRUPT", "a": "disruption" },
-          { "s": "There is a ____ element to all this.", "cue": "PSYCHOLOGY", "a": "psychological" }
+          {
+            "s": "Their potatoes come piled high with ____ portions.",
+            "cue": "ENORMITY",
+            "a": "enormous"
+          },
+          {
+            "s": "A ____ from the right creator can transform a café.",
+            "cue": "RECOMMEND",
+            "a": "recommendation"
+          },
+          {
+            "s": "Free ____ may achieve what an advertising campaign could not.",
+            "cue": "PUBLIC",
+            "a": "publicity"
+          },
+          {
+            "s": "Neighbourhoods have to deal with crowds and the resulting ____.",
+            "cue": "DISRUPT",
+            "a": "disruption"
+          },
+          {
+            "s": "There is a ____ element to all this.",
+            "cue": "PSYCHOLOGY",
+            "a": "psychological"
+          }
         ]
       },
       "tfn": [
-        { "s": "The brothers started posting videos during the pandemic.", "a": "T" },
-        { "s": "Online attention is reliable and lasts for years.", "a": "F" },
-        { "s": "A long queue acts as a kind of public recommendation.", "a": "T" },
-        { "s": "Preston council has complained about the crowds.", "a": "N" }
+        {
+          "s": "Online attention is reliable and lasts for years.",
+          "a": "F",
+          "why": "The text says the opposite: \"Online attention is unpredictable, and even the most enthusiastic followers eventually drift away.\""
+        },
+        {
+          "s": "The brothers started posting videos during the pandemic.",
+          "a": "T",
+          "why": "The text says: \"The brothers began posting videos when business was difficult during the pandemic.\""
+        },
+        {
+          "s": "Preston council has complained about the crowds.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "A long queue acts as a kind of public recommendation.",
+          "a": "T",
+          "why": "The text says: \"A long queue acts as a public recommendation, while posting a photograph proves that you were part of the moment.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "Customers have ____ overnight to wait for a potato.", "a": "bedded down" },
-          { "s": "The brothers ____ their following by filming everyday business.", "a": "built up" },
-          { "s": "The approach ____ during a difficult period for the business.", "a": "came about" },
-          { "s": "Virality delivers attention ____.", "a": "at remarkable speed" },
-          { "s": "Residents must ____ unexpected crowds.", "a": "put up with" },
-          { "s": "Businesses need loyal customers, not just ____.", "a": "a brief spell of internet celebrity" }
+          {
+            "s": "Customers have ____ overnight to wait for a potato.",
+            "a": "bedded down"
+          },
+          {
+            "s": "The brothers ____ their following by filming everyday business.",
+            "a": "built up"
+          },
+          {
+            "s": "The approach ____ during a difficult period for the business.",
+            "a": "came about"
+          },
+          {
+            "s": "Virality delivers attention ____.",
+            "a": "at remarkable speed"
+          },
+          {
+            "s": "Residents must ____ unexpected crowds.",
+            "a": "put up with"
+          },
+          {
+            "s": "Businesses need loyal customers, not just ____.",
+            "a": "a brief spell of internet celebrity"
+          }
         ],
-        "extra": ["turn towards", "precarious"]
+        "extra": [
+          "turn towards",
+          "precarious"
+        ]
       },
       "match": [
-        { "t": "bed down", "d": "settle somewhere to sleep for the night" },
-        { "t": "come about", "d": "happen, often without being planned" },
-        { "t": "turn towards", "d": "begin giving attention to something else" },
-        { "t": "precarious", "d": "insecure and likely to fail" }
+        {
+          "t": "bed down",
+          "d": "settle somewhere to sleep for the night"
+        },
+        {
+          "t": "come about",
+          "d": "happen, often without being planned"
+        },
+        {
+          "t": "turn towards",
+          "d": "begin giving attention to something else"
+        },
+        {
+          "t": "precarious",
+          "d": "insecure and likely to fail"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The business turned an ____ British staple into a cultural event.", "cue": "EXPENSE", "a": "inexpensive" },
-          { "s": "Restaurants discovered that one ____ recommendation can create queues.", "cue": "ENTHUSIASM", "a": "enthusiastic" },
-          { "s": "During a period of rising costs, sudden ____ can rescue a business.", "cue": "VISIBLE", "a": "visibility" },
-          { "s": "A meal can disappoint once ____ expectations are taken into account.", "cue": "INFLATE", "a": "inflated" },
-          { "s": "The experience is self-____: a crowd attracts more people.", "cue": "FORCE", "a": "reinforcing" }
+          {
+            "s": "The business turned an ____ British staple into a cultural event.",
+            "cue": "EXPENSE",
+            "a": "inexpensive"
+          },
+          {
+            "s": "Restaurants discovered that one ____ recommendation can create queues.",
+            "cue": "ENTHUSIASM",
+            "a": "enthusiastic"
+          },
+          {
+            "s": "During a period of rising costs, sudden ____ can rescue a business.",
+            "cue": "VISIBLE",
+            "a": "visibility"
+          },
+          {
+            "s": "A meal can disappoint once ____ expectations are taken into account.",
+            "cue": "INFLATE",
+            "a": "inflated"
+          },
+          {
+            "s": "The experience is self-____: a crowd attracts more people.",
+            "cue": "FORCE",
+            "a": "reinforcing"
+          }
         ]
       },
       "tfn": [
-        { "s": "The writer says consumer research links visible approval to food choices.", "a": "T" },
-        { "s": "The article concludes that the customers are foolish.", "a": "F" },
-        { "s": "The brothers filmed the everyday business of preparing potatoes.", "a": "T" },
-        { "s": "SpudBros now employs more than twenty people.", "a": "N" }
+        {
+          "s": "SpudBros now employs more than twenty people.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The writer says consumer research links visible approval to food choices.",
+          "a": "T",
+          "why": "The text says: \"Research into consumer behaviour suggests that visible approval from others can influence food choices, while social platforms reward places that photograph well and generate strong reactions.\""
+        },
+        {
+          "s": "The brothers filmed the everyday business of preparing potatoes.",
+          "a": "T",
+          "why": "The text says: \"Jacob and Harley Nelson built up their following by filming the everyday business of preparing and selling potatoes.\""
+        },
+        {
+          "s": "The article concludes that the customers are foolish.",
+          "a": "F",
+          "why": "The text says the opposite: \"None of this means the food is poor or that customers are foolish.\""
+        }
       ]
     }
   }

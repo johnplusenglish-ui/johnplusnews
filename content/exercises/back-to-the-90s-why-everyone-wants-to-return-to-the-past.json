@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "____ jeans and 1990s bands are popular again.", "a": "Baggy" },
-          { "s": "Most people did not ____ the internet in their pockets.", "a": "carry around" },
-          { "s": "Friends often ____ on a home telephone.", "a": "made plans" },
-          { "s": "They had to wait for the film to be developed to ____ how the pictures looked.", "a": "find out" },
-          { "s": "Going out meant ____ without constantly receiving messages.", "a": "spending time together" }
+          {
+            "s": "____ jeans and 1990s bands are popular again.",
+            "a": "Baggy"
+          },
+          {
+            "s": "Most people did not ____ the internet in their pockets.",
+            "a": "carry around"
+          },
+          {
+            "s": "Friends often ____ on a home telephone.",
+            "a": "made plans"
+          },
+          {
+            "s": "They had to wait for the film to be developed to ____ how the pictures looked.",
+            "a": "find out"
+          },
+          {
+            "s": "Going out meant ____ without constantly receiving messages.",
+            "a": "spending time together"
+          }
         ],
-        "extra": ["turn out", "distracted"]
+        "extra": [
+          "turn out",
+          "distracted"
+        ]
       },
       "match": [
-        { "t": "baggy", "d": "loose and much larger than the body" },
-        { "t": "find out", "d": "learn something you did not know before" },
-        { "t": "distracted", "d": "unable to give your attention to one thing" },
-        { "t": "turn out", "d": "end in a particular way" }
+        {
+          "t": "baggy",
+          "d": "loose and much larger than the body"
+        },
+        {
+          "t": "find out",
+          "d": "learn something you did not know before"
+        },
+        {
+          "t": "distracted",
+          "d": "unable to give your attention to one thing"
+        },
+        {
+          "t": "turn out",
+          "d": "end in a particular way"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "A teenager ____ an old camera even though a phone takes clearer photographs.", "cue": "buy", "a": "buys" },
-          { "s": "In October 2026, Tate Britain ____ an exhibition about the 1990s.", "cue": "open", "a": "opened" },
-          { "s": "Music from the period ____ everywhere from shops to social media.", "cue": "appear", "a": "is appearing" },
-          { "s": "This sounds attractive to people who feel ____ of their smartphones.", "cue": "tire", "a": "tired" },
-          { "s": "We cannot ____ back in time, but we can choose how we use our phones.", "cue": "go", "a": "go" }
+          {
+            "s": "A teenager ____ an old camera even though a phone takes clearer photographs.",
+            "cue": "buy",
+            "a": "buys"
+          },
+          {
+            "s": "In October 2026, Tate Britain ____ an exhibition about the 1990s.",
+            "cue": "open",
+            "a": "opened"
+          },
+          {
+            "s": "Music from the period ____ everywhere from shops to social media.",
+            "cue": "appear",
+            "a": "is appearing"
+          },
+          {
+            "s": "People ____ to albums on CD players and waited to see their photographs.",
+            "cue": "listen",
+            "a": "listened"
+          },
+          {
+            "s": "We cannot ____ back in time, but we can choose how we use our phones.",
+            "cue": "go",
+            "a": "go"
+          }
         ]
       },
       "tfn": [
-        { "s": "Tate Britain opened an exhibition about the 1990s in October 2026.", "a": "T" },
-        { "s": "Everyone buying 90s clothes remembers the decade personally.", "a": "F" },
-        { "s": "The 1990s also had wars, discrimination and financial worries.", "a": "T" },
-        { "s": "Sales of film cameras doubled in Britain in 2026.", "a": "N" }
+        {
+          "s": "Everyone buying 90s clothes remembers the decade personally.",
+          "a": "F",
+          "why": "The text says the opposite: \"Baggy jeans and 1990s bands are popular again, often with people who were not alive when they first appeared.\""
+        },
+        {
+          "s": "Tate Britain opened an exhibition about the 1990s in October 2026.",
+          "a": "T",
+          "why": "The text says: \"In October 2026, Tate Britain in London opened an exhibition about art and fashion from the 1990s.\""
+        },
+        {
+          "s": "The 1990s also had wars, discrimination and financial worries.",
+          "a": "T",
+          "why": "The text says: \"The 1990s had problems too, including wars, discrimination and financial worries.\""
+        },
+        {
+          "s": "Sales of film cameras doubled in Britain in 2026.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "It is tempting to ____ nostalgia, but that only goes so far.", "a": "put the trend down to" },
-          { "s": "Styles that once looked ____ eventually seem fresh again.", "a": "old-fashioned" },
-          { "s": "Fashion ____, so an old look returns every few decades.", "a": "moves in cycles" },
-          { "s": "The pressure to ____ everyone else rarely gives us a moment's peace.", "a": "keep up with" },
-          { "s": "It is easy to ____ through rose-tinted glasses.", "a": "look back" },
-          { "s": "Without today's technology, ____ across countries could be expensive.", "a": "keeping in touch" }
+          {
+            "s": "It is tempting to ____ nostalgia, but that only goes so far.",
+            "a": "put the trend down to"
+          },
+          {
+            "s": "Styles that once looked ____ eventually seem fresh again.",
+            "a": "old-fashioned"
+          },
+          {
+            "s": "Fashion ____, so an old look returns every few decades.",
+            "a": "moves in cycles"
+          },
+          {
+            "s": "The pressure to ____ everyone else rarely gives us a moment's peace.",
+            "a": "keep up with"
+          },
+          {
+            "s": "It is easy to ____ through rose-tinted glasses.",
+            "a": "look back"
+          },
+          {
+            "s": "Without today's technology, ____ across countries could be expensive.",
+            "a": "keeping in touch"
+          }
         ],
-        "extra": ["grow up", "convenient"]
+        "extra": [
+          "grow up",
+          "convenient"
+        ]
       },
       "match": [
-        { "t": "rose-tinted glasses", "d": "a way of remembering the past as better than it was" },
-        { "t": "keep up with", "d": "stay level with other people or with change" },
-        { "t": "grow up", "d": "become an adult over a period of years" },
-        { "t": "convenient", "d": "easy to use and saving you trouble" }
+        {
+          "t": "rose-tinted glasses",
+          "d": "a way of remembering the past as better than it was"
+        },
+        {
+          "t": "keep up with",
+          "d": "stay level with other people or with change"
+        },
+        {
+          "t": "grow up",
+          "d": "become an adult over a period of years"
+        },
+        {
+          "t": "convenient",
+          "d": "easy to use and saving you trouble"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Music came on ____ albums rather than files.", "cue": "PHYSICS", "a": "physical" },
-          { "s": "To a generation raised online, that sounds like a form of ____.", "cue": "PRIVATE", "a": "privacy" },
-          { "s": "A period that once seemed ____ is suddenly everywhere.", "cue": "DISTANCE", "a": "distant" },
-          { "s": "Using an old camera requires a little more ____.", "cue": "PATIENT", "a": "patience" },
-          { "s": "Their appeal may say more about our ____ with modern habits.", "cue": "SATISFY", "a": "dissatisfaction" }
+          {
+            "s": "Music came on ____ albums rather than files.",
+            "cue": "PHYSICS",
+            "a": "physical"
+          },
+          {
+            "s": "To a generation raised online, that sounds like a form of ____.",
+            "cue": "PRIVATE",
+            "a": "privacy"
+          },
+          {
+            "s": "A period that once seemed ____ is suddenly everywhere.",
+            "cue": "DISTANCE",
+            "a": "distant"
+          },
+          {
+            "s": "Using an old camera requires a little more ____.",
+            "cue": "PATIENT",
+            "a": "patience"
+          },
+          {
+            "s": "Their appeal may say more about our ____ with modern habits.",
+            "cue": "SATISFY",
+            "a": "dissatisfaction"
+          }
         ]
       },
       "tfn": [
-        { "s": "Some people buying 1990s clothes have no personal memory of the decade.", "a": "T" },
-        { "s": "The article says the 1990s were a simpler world for everybody.", "a": "F" },
-        { "s": "The AIDS crisis affected millions of lives during the decade.", "a": "T" },
-        { "s": "CD sales have overtaken streaming among younger listeners.", "a": "N" }
+        {
+          "s": "The AIDS crisis affected millions of lives during the decade.",
+          "a": "T",
+          "why": "The text says: \"Wars, discrimination and the AIDS crisis affected millions of lives.\""
+        },
+        {
+          "s": "Some people buying 1990s clothes have no personal memory of the decade.",
+          "a": "T",
+          "why": "The text says: \"Plenty of the people buying 90s clothes or listening to Britpop have no personal memories of the period.\""
+        },
+        {
+          "s": "CD sales have overtaken streaming among younger listeners.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The article says the 1990s were a simpler world for everybody.",
+          "a": "F",
+          "why": "The text says the opposite: \"The decade was not a simpler world for everyone.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The decade has ____ a mythology as the last truly analogue period.", "a": "taken on" },
-          { "s": "The imagined decade is ____ from clothing, photographs and stories.", "a": "pieced together" },
-          { "s": "The current interest in Britpop and ____ photography reacts against convenience.", "a": "grainy" },
-          { "s": "Any claim that the era was ____ is difficult to sustain.", "a": "carefree" },
-          { "s": "Revivals that ____ those realities reduce a decade to a mood board.", "a": "gloss over" },
-          { "s": "Freedom from surveillance ____ slower communication for many people.", "a": "came at the cost of" }
+          {
+            "s": "The decade has ____ a mythology as the last truly analogue period.",
+            "a": "taken on"
+          },
+          {
+            "s": "The imagined decade is ____ from clothing, photographs and stories.",
+            "a": "pieced together"
+          },
+          {
+            "s": "The current interest in Britpop and ____ photography reacts against convenience.",
+            "a": "grainy"
+          },
+          {
+            "s": "Any claim that the era was ____ is difficult to sustain.",
+            "a": "carefree"
+          },
+          {
+            "s": "Revivals that ____ those realities reduce a decade to a mood board.",
+            "a": "gloss over"
+          },
+          {
+            "s": "Freedom from surveillance ____ slower communication for many people.",
+            "a": "came at the cost of"
+          }
         ],
-        "extra": ["contested", "turn into"]
+        "extra": [
+          "contested",
+          "turn into"
+        ]
       },
       "match": [
-        { "t": "take on", "d": "begin to have a particular quality or meaning" },
-        { "t": "gloss over", "d": "avoid dealing with an awkward fact" },
-        { "t": "contested", "d": "argued about rather than agreed on" },
-        { "t": "grainy", "d": "showing a rough texture instead of sharp detail" }
+        {
+          "t": "take on",
+          "d": "begin to have a particular quality or meaning"
+        },
+        {
+          "t": "gloss over",
+          "d": "avoid dealing with an awkward fact"
+        },
+        {
+          "t": "contested",
+          "d": "argued about rather than agreed on"
+        },
+        {
+          "t": "grainy",
+          "d": "showing a rough texture instead of sharp detail"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The decade contrasts with a present shaped by the expectation of permanent ____.", "cue": "AVAILABLE", "a": "availability" },
-          { "s": "Revivals strip familiar objects of their original ____.", "cue": "ASSOCIATE", "a": "associations" },
-          { "s": "The decade also contained economic ____ and cultural exclusions.", "cue": "EQUAL", "a": "inequality" },
-          { "s": "Artists explored questions of class, identity, race and ____.", "cue": "REPRESENT", "a": "representation" },
-          { "s": "Looking closely at their work ____ the idea that the period was innocent.", "cue": "COMPLEX", "a": "complicates" }
+          {
+            "s": "The decade contrasts with a present shaped by the expectation of permanent ____.",
+            "cue": "AVAILABLE",
+            "a": "availability"
+          },
+          {
+            "s": "Revivals strip familiar objects of their original ____.",
+            "cue": "ASSOCIATE",
+            "a": "associations"
+          },
+          {
+            "s": "The decade also contained economic ____ and cultural exclusions.",
+            "cue": "EQUAL",
+            "a": "inequality"
+          },
+          {
+            "s": "Artists explored questions of class, identity, race and ____.",
+            "cue": "REPRESENT",
+            "a": "representation"
+          },
+          {
+            "s": "Looking closely at their work ____ the idea that the period was innocent.",
+            "cue": "COMPLEX",
+            "a": "complicates"
+          }
         ]
       },
       "tfn": [
-        { "s": "The Tate exhibition was curated by Edward Enninful.", "a": "T" },
-        { "s": "The writer argues the 1990s were genuinely more innocent than today.", "a": "F" },
-        { "s": "Digital technology has turned attention into a valuable commodity.", "a": "T" },
-        { "s": "The exhibition sold out within a week of opening.", "a": "N" }
+        {
+          "s": "The Tate exhibition was curated by Edward Enninful.",
+          "a": "T",
+          "why": "The text says: \"Tate's exhibition, curated by Edward Enninful, offers an opportunity to revisit the decade as a contested cultural moment rather than a collection of fashionable accessories.\""
+        },
+        {
+          "s": "The writer argues the 1990s were genuinely more innocent than today.",
+          "a": "F",
+          "why": "The text says the opposite: \"Looking closely at their work complicates the idea that the period was simply more innocent or authentic.\""
+        },
+        {
+          "s": "Digital technology has turned attention into a valuable commodity.",
+          "a": "T",
+          "why": "The text says: \"Digital technology has delivered remarkable convenience, but it has also turned attention into a valuable commodity.\""
+        },
+        {
+          "s": "The exhibition sold out within a week of opening.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     }
   }

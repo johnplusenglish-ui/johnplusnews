@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "Police soon ____ that the person had probably been killed decades ago.", "a": "worked out" },
-          { "s": "The discovery ____ memories of Las Vegas in the days of organised crime.", "a": "brought back" },
-          { "s": "Researchers also ____ information about the man's family.", "a": "followed up" },
-          { "s": "The news finally ____ a mystery that had lasted forty years.", "a": "put a name to" },
-          { "s": "Detectives still wanted to ____ who had killed him.", "a": "find out" }
+          {
+            "s": "Police soon ____ that the person had probably been killed decades ago.",
+            "a": "worked out"
+          },
+          {
+            "s": "The discovery ____ memories of Las Vegas in the days of organised crime.",
+            "a": "brought back"
+          },
+          {
+            "s": "Researchers also ____ information about the man's family.",
+            "a": "followed up"
+          },
+          {
+            "s": "The news finally ____ a mystery that had lasted forty years.",
+            "a": "put a name to"
+          },
+          {
+            "s": "Detectives still wanted to ____ who had killed him.",
+            "a": "find out"
+          }
         ],
-        "extra": ["end up", "terrible"]
+        "extra": [
+          "end up",
+          "terrible"
+        ]
       },
       "match": [
-        { "t": "work out", "d": "reach an answer by thinking carefully" },
-        { "t": "follow up", "d": "take further action on information you have" },
-        { "t": "end up", "d": "reach a place or situation you did not plan" },
-        { "t": "terrible", "d": "extremely bad or shocking" }
+        {
+          "t": "work out",
+          "d": "reach an answer by thinking carefully"
+        },
+        {
+          "t": "follow up",
+          "d": "take further action on information you have"
+        },
+        {
+          "t": "end up",
+          "d": "reach a place or situation you did not plan"
+        },
+        {
+          "t": "terrible",
+          "d": "extremely bad or shocking"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "In May 2022, some people ____ on Lake Mead noticed a rusty barrel.", "cue": "boat", "a": "boating" },
-          { "s": "The victim ____ in the head.", "cue": "shoot", "a": "had been shot" },
-          { "s": "Places that had been underwater ____ now dry.", "cue": "be", "a": "were" },
-          { "s": "In October 2026, officials ____ the name of the victim.", "cue": "announce", "a": "announced" },
-          { "s": "Nobody ____ him missing at the time.", "cue": "report", "a": "had reported" }
+          {
+            "s": "In May 2022, some people ____ on Lake Mead noticed a rusty barrel.",
+            "cue": "boat",
+            "a": "boating"
+          },
+          {
+            "s": "The victim ____ in the head.",
+            "cue": "shoot",
+            "a": "had been shot"
+          },
+          {
+            "s": "Places that had been underwater ____ now dry.",
+            "cue": "be",
+            "a": "were"
+          },
+          {
+            "s": "In October 2026, officials ____ the name of the victim.",
+            "cue": "announce",
+            "a": "announced"
+          },
+          {
+            "s": "Nobody ____ him missing at the time.",
+            "cue": "report",
+            "a": "had reported"
+          }
         ]
       },
       "tfn": [
-        { "s": "The barrel was found because the lake's water level had fallen.", "a": "T" },
-        { "s": "Police proved that the Mafia was responsible for the death.", "a": "F" },
-        { "s": "The victim was identified as Edward Lelburian Jackson in October 2026.", "a": "T" },
-        { "s": "Jackson's family has spoken publicly about the news.", "a": "N" }
+        {
+          "s": "The victim was identified as Edward Lelburian Jackson in October 2026.",
+          "a": "T",
+          "why": "The text says: \"In October 2026, officials announced that the victim was Edward Lelburian Jackson, known as Buddy.\""
+        },
+        {
+          "s": "Jackson's family has spoken publicly about the news.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The barrel was found because the lake's water level had fallen.",
+          "a": "T",
+          "why": "The text says: \"Lake Mead's falling water level had revealed one secret, while modern science revealed another.\""
+        },
+        {
+          "s": "Police proved that the Mafia was responsible for the death.",
+          "a": "F",
+          "why": "The text says the opposite: \"But police warned that there was no evidence proving a connection.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Boaters ____ a rusted barrel on a newly exposed shoreline.", "a": "spotted" },
-          { "s": "Someone had left it in the lake, perhaps believing the water would ____.", "a": "keep the secret" },
-          { "s": "The case attracted attention because Las Vegas had a ____ history of crime.", "a": "notorious" },
-          { "s": "Traditional clues had ____.", "a": "taken them only so far" },
-          { "s": "Because he was ____ travelling alone, nobody reported him missing.", "a": "accustomed to" },
-          { "s": "Responsible reporting requires ____ from what merely sounds convincing.", "a": "separating what is known" }
+          {
+            "s": "Boaters ____ a rusted barrel on a newly exposed shoreline.",
+            "a": "spotted"
+          },
+          {
+            "s": "Someone had left it in the lake, perhaps believing the water would ____.",
+            "a": "keep the secret"
+          },
+          {
+            "s": "The case attracted attention because Las Vegas had a ____ history of crime.",
+            "a": "notorious"
+          },
+          {
+            "s": "Traditional clues had ____.",
+            "a": "taken them only so far"
+          },
+          {
+            "s": "Because he was ____ travelling alone, nobody reported him missing.",
+            "a": "accustomed to"
+          },
+          {
+            "s": "Responsible reporting requires ____ from what merely sounds convincing.",
+            "a": "separating what is known"
+          }
         ],
-        "extra": ["move forward", "uncertain"]
+        "extra": [
+          "move forward",
+          "uncertain"
+        ]
       },
       "match": [
-        { "t": "notorious", "d": "famous for something bad" },
-        { "t": "accustomed to", "d": "used to doing something regularly" },
-        { "t": "move forward", "d": "make progress towards a result" },
-        { "t": "uncertain", "d": "not known or decided yet" }
+        {
+          "t": "notorious",
+          "d": "famous for something bad"
+        },
+        {
+          "t": "accustomed to",
+          "d": "used to doing something regularly"
+        },
+        {
+          "t": "move forward",
+          "d": "make progress towards a result"
+        },
+        {
+          "t": "uncertain",
+          "d": "not known or decided yet"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Prolonged drought and falling water levels had revealed areas once ____.", "cue": "WATER", "a": "underwater" },
-          { "s": "The contents of the barrel were far more ____.", "cue": "DISTURB", "a": "disturbing" },
-          { "s": "Forensic ____ can link unidentified remains to living relatives.", "cue": "GENEALOGICAL", "a": "genealogy" },
-          { "s": "His history included some minor criminal matters, but the ____ remained unclear.", "cue": "MOTIVATE", "a": "motive" },
-          { "s": "The falling level was an ____ warning for communities nearby.", "cue": "ENVIRONMENT", "a": "environmental" }
+          {
+            "s": "Prolonged drought and falling water levels had revealed areas once ____.",
+            "cue": "WATER",
+            "a": "underwater"
+          },
+          {
+            "s": "The contents of the barrel were far more ____.",
+            "cue": "DISTURB",
+            "a": "disturbing"
+          },
+          {
+            "s": "Forensic ____ can link unidentified remains to living relatives.",
+            "cue": "GENEALOGICAL",
+            "a": "genealogy"
+          },
+          {
+            "s": "His history included some minor criminal matters, but the ____ remained unclear.",
+            "cue": "MOTIVATE",
+            "a": "motive"
+          },
+          {
+            "s": "The falling level was an ____ warning for communities nearby.",
+            "cue": "ENVIRONMENT",
+            "a": "environmental"
+          }
         ]
       },
       "tfn": [
-        { "s": "The barrel was spotted on 1 May 2022.", "a": "T" },
-        { "s": "Investigators established a clear link to organised crime.", "a": "F" },
-        { "s": "Jackson came from Arkansas.", "a": "T" },
-        { "s": "Police have named a suspect in the killing.", "a": "N" }
+        {
+          "s": "The barrel was spotted on 1 May 2022.",
+          "a": "T",
+          "why": "The text says: \"On 1 May 2022, boaters exploring Lake Mead near Las Vegas spotted a rusted barrel on a newly exposed stretch of shoreline.\""
+        },
+        {
+          "s": "Jackson came from Arkansas.",
+          "a": "T",
+          "why": "The text says: \"The man was Edward Lelburian Jackson, who was known to his family as Buddy and came from Arkansas.\""
+        },
+        {
+          "s": "Police have named a suspect in the killing.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Investigators established a clear link to organised crime.",
+          "a": "F",
+          "why": "The text says the opposite: \"Detectives, however, stressed that the dramatic circumstances did not prove any connection with the Mafia.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "Boaters ____ an object that looked oddly out of place.", "a": "came across" },
-          { "s": "What appeared to be a ____ soon became a homicide investigation.", "a": "grim curiosity" },
-          { "s": "Public speculation ____ almost immediately.", "a": "took off" },
-          { "s": "Establishing a name proved ____.", "a": "painstaking" },
-          { "s": "With little conventional evidence ____, investigators turned to DNA.", "a": "to go on" },
-          { "s": "The challenge is ____ turning speculation into fact.", "a": "resisting the urge to" }
+          {
+            "s": "Boaters ____ an object that looked oddly out of place.",
+            "a": "came across"
+          },
+          {
+            "s": "What appeared to be a ____ soon became a homicide investigation.",
+            "a": "grim curiosity"
+          },
+          {
+            "s": "Public speculation ____ almost immediately.",
+            "a": "took off"
+          },
+          {
+            "s": "Establishing a name proved ____.",
+            "a": "painstaking"
+          },
+          {
+            "s": "With little conventional evidence ____, investigators turned to DNA.",
+            "a": "to go on"
+          },
+          {
+            "s": "The challenge is ____ turn speculation into fact.",
+            "a": "resisting the urge to"
+          }
         ],
-        "extra": ["erase", "credible"]
+        "extra": [
+          "erase",
+          "credible"
+        ]
       },
       "match": [
-        { "t": "come across", "d": "find something by chance" },
-        { "t": "take off", "d": "suddenly start to grow very quickly" },
-        { "t": "credible", "d": "convincing enough to be believed" },
-        { "t": "erase", "d": "remove something so no trace is left" }
+        {
+          "t": "come across",
+          "d": "find something by chance"
+        },
+        {
+          "t": "take off",
+          "d": "suddenly start to grow very quickly"
+        },
+        {
+          "t": "credible",
+          "d": "convincing enough to be believed"
+        },
+        {
+          "t": "erase",
+          "d": "remove something so no trace is left"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The reservoir had been shrinking, exposing ground long ____.", "cue": "SUBMERGE", "a": "submerged" },
-          { "s": "Mob figures once exerted considerable ____ over the city.", "cue": "INFLUENTIAL", "a": "influence" },
-          { "s": "Such methods can reopen apparently ____ cases.", "cue": "HOPE", "a": "hopeless" },
-          { "s": "Officials gave a ____ identification four years after the discovery.", "cue": "CREDIBILITY", "a": "credible" },
-          { "s": "Giving a name to ____ remains is not a minor achievement.", "cue": "IDENTIFY", "a": "unidentified" }
+          {
+            "s": "The reservoir had been shrinking, exposing ground long ____.",
+            "cue": "SUBMERGE",
+            "a": "submerged"
+          },
+          {
+            "s": "Mob figures once exerted considerable ____ over the city.",
+            "cue": "INFLUENTIAL",
+            "a": "influence"
+          },
+          {
+            "s": "Such methods can reopen apparently ____ cases.",
+            "cue": "HOPE",
+            "a": "hopeless"
+          },
+          {
+            "s": "Officials gave a ____ identification four years after the discovery.",
+            "cue": "CREDIBILITY",
+            "a": "credible"
+          },
+          {
+            "s": "Giving a name to ____ remains is not a minor achievement.",
+            "cue": "IDENTIFY",
+            "a": "unidentified"
+          }
         ]
       },
       "tfn": [
-        { "s": "The remains showed a gunshot wound to the head.", "a": "T" },
-        { "s": "The writer treats the Mafia theory as established fact.", "a": "F" },
-        { "s": "Jackson's absence did not lead to a missing-person report at the time.", "a": "T" },
-        { "s": "Other barrels have since been found in the same reservoir.", "a": "N" }
+        {
+          "s": "Jackson's absence did not lead to a missing-person report at the time.",
+          "a": "T",
+          "why": "The text says: \"Because Jackson travelled independently, his absence had not resulted in a missing-person report at the time.\""
+        },
+        {
+          "s": "The writer treats the Mafia theory as established fact.",
+          "a": "F",
+          "why": "The text says the opposite: \"Yet detectives repeatedly cautioned that a barrel and a dramatic setting did not constitute evidence of a Mafia connection.\""
+        },
+        {
+          "s": "The remains showed a gunshot wound to the head.",
+          "a": "T",
+          "why": "The text says: \"The victim had suffered a gunshot wound to the head, and details of his clothing suggested a death in the late 1970s or early 1980s.\""
+        },
+        {
+          "s": "Other barrels have since been found in the same reservoir.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     }
   }

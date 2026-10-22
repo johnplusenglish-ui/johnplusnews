@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "He worried that customers might ____, but instead they began turning up.", "a": "stay away" },
-          { "s": "Social media has helped ____ about the new shop.", "a": "spread the word" },
-          { "s": "For years, many people tried to ____ butter because of saturated fat.", "a": "cut down on" },
-          { "s": "Good butter can be ____, rich and slightly salty.", "a": "creamy" },
-          { "s": "The sensible approach is to enjoy good butter without ____.", "a": "going overboard" }
+          {
+            "s": "He worried that customers might ____, but instead they began turning up.",
+            "a": "stay away"
+          },
+          {
+            "s": "Social media has helped ____ about the new shop.",
+            "a": "spread the word"
+          },
+          {
+            "s": "For years, many people tried to ____ butter because of saturated fat.",
+            "a": "cut down on"
+          },
+          {
+            "s": "Good butter can be ____, rich and slightly salty.",
+            "a": "creamy"
+          },
+          {
+            "s": "The sensible approach is to enjoy good butter without ____.",
+            "a": "going overboard"
+          }
         ],
-        "extra": ["turn up", "appetising"]
+        "extra": [
+          "turn up",
+          "appetising"
+        ]
       },
       "match": [
-        { "t": "cut down on", "d": "eat or use less of something" },
-        { "t": "go overboard", "d": "do far more of something than you need to" },
-        { "t": "turn up", "d": "arrive somewhere, often without warning" },
-        { "t": "appetising", "d": "looking or smelling good to eat" }
+        {
+          "t": "cut down on",
+          "d": "eat or use less of something"
+        },
+        {
+          "t": "go overboard",
+          "d": "do far more of something than you need to"
+        },
+        {
+          "t": "turn up",
+          "d": "arrive somewhere, often without warning"
+        },
+        {
+          "t": "appetising",
+          "d": "looking or smelling good to eat"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "On a hot summer day in Paris, Erwan Leo ____ a new shop.", "cue": "open", "a": "opened" },
-          { "s": "Butter was not always ____ with this much love.", "cue": "treat", "a": "treated" },
-          { "s": "Chefs whip it until it ____ soft.", "cue": "be", "a": "is" },
-          { "s": "Tourists come ____ for something unusual to take home.", "cue": "look", "a": "looking" },
-          { "s": "Nutrition advice ____ not disappeared just because an ingredient is fashionable.", "cue": "have", "a": "has" }
+          {
+            "s": "On a hot summer day in Paris, Erwan Leo ____ a new shop.",
+            "cue": "open",
+            "a": "opened"
+          },
+          {
+            "s": "Butter was not always ____ with this much love.",
+            "cue": "treat",
+            "a": "treated"
+          },
+          {
+            "s": "Chefs whip it until it ____ soft.",
+            "cue": "be",
+            "a": "is"
+          },
+          {
+            "s": "Tourists come ____ for something unusual to take home.",
+            "cue": "look",
+            "a": "looking"
+          },
+          {
+            "s": "Nutrition advice ____ not disappeared just because an ingredient is fashionable.",
+            "cue": "have",
+            "a": "has"
+          }
         ]
       },
       "tfn": [
-        { "s": "Le Butter sells around fifty different types of butter.", "a": "T" },
-        { "s": "Butter has become a health food, according to the article.", "a": "F" },
-        { "s": "Temperatures in Paris were close to 41 degrees when the shop opened.", "a": "T" },
-        { "s": "The shop plans to open branches in other countries.", "a": "N" }
+        {
+          "s": "Le Butter sells around fifty different types of butter.",
+          "a": "T",
+          "why": "The text says: \"It sells around fifty different types, including special salted varieties.\""
+        },
+        {
+          "s": "Temperatures in Paris were close to 41 degrees when the shop opened.",
+          "a": "T",
+          "why": "The text says: \"With temperatures close to 41°C, he worried that the fridges might struggle and customers might stay away.\""
+        },
+        {
+          "s": "Butter has become a health food, according to the article.",
+          "a": "F",
+          "why": "The text says the opposite: \"The new excitement does not mean butter has suddenly become a health food.\""
+        },
+        {
+          "s": "The shop plans to open branches in other countries.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "He was unsure whether enough customers would ____.", "a": "turn up" },
-          { "s": "The humble ingredient had become a destination ____.", "a": "in its own right" },
-          { "s": "Butter spent decades struggling with an ____ reputation.", "a": "unfashionable" },
-          { "s": "Health advice encouraged many households to ____ and switch spreads.", "a": "cut back" },
-          { "s": "Bread and butter is now a highlight rather than an ____.", "a": "afterthought" },
-          { "s": "When larger luxuries feel ____, people look for smaller pleasures.", "a": "out of reach" }
+          {
+            "s": "He was unsure whether enough customers would ____.",
+            "a": "turn up"
+          },
+          {
+            "s": "The humble ingredient had become a destination ____.",
+            "a": "in its own right"
+          },
+          {
+            "s": "Butter spent decades struggling with an ____ reputation.",
+            "a": "unfashionable"
+          },
+          {
+            "s": "Health advice encouraged many households to ____ and switch spreads.",
+            "a": "cut back"
+          },
+          {
+            "s": "Bread and butter is now a highlight rather than an ____.",
+            "a": "afterthought"
+          },
+          {
+            "s": "When larger luxuries feel ____, people look for smaller pleasures.",
+            "a": "out of reach"
+          }
         ],
-        "extra": ["die down", "irresistible"]
+        "extra": [
+          "die down",
+          "irresistible"
+        ]
       },
       "match": [
-        { "t": "in its own right", "d": "important because of what it is, not what it goes with" },
-        { "t": "out of reach", "d": "impossible to get or afford" },
-        { "t": "die down", "d": "gradually become weaker or quieter" },
-        { "t": "irresistible", "d": "so attractive that you cannot say no" }
+        {
+          "t": "in its own right",
+          "d": "important because of what it is, not what it goes with"
+        },
+        {
+          "t": "out of reach",
+          "d": "impossible to get or afford"
+        },
+        {
+          "t": "die down",
+          "d": "gradually become weaker or quieter"
+        },
+        {
+          "t": "irresistible",
+          "d": "so attractive that you cannot say no"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The product needs careful ____ in hot weather.", "cue": "REFRIGERATE", "a": "refrigeration" },
-          { "s": "Food ____ discuss flavour and texture with great seriousness.", "cue": "ENTHUSIASM", "a": "enthusiasts" },
-          { "s": "Chefs shape the butter into ____ pieces for the table.", "cue": "DECORATE", "a": "decorative" },
-          { "s": "There may also be an ____ explanation for the trend.", "cue": "ECONOMY", "a": "economic" },
-          { "s": "Some chefs question whether the displays are about ____ rather than food.", "cue": "ATTEND", "a": "attention" }
+          {
+            "s": "The product needs careful ____ in hot weather.",
+            "cue": "REFRIGERATE",
+            "a": "refrigeration"
+          },
+          {
+            "s": "Food ____ discuss flavour and texture with great seriousness.",
+            "cue": "ENTHUSIASM",
+            "a": "enthusiasts"
+          },
+          {
+            "s": "Chefs shape the butter into ____ pieces for the table.",
+            "cue": "DECORATE",
+            "a": "decorative"
+          },
+          {
+            "s": "There may also be an ____ explanation for the trend.",
+            "cue": "ECONOMY",
+            "a": "economic"
+          },
+          {
+            "s": "Some chefs question whether the displays are about ____ rather than food.",
+            "cue": "ATTEND",
+            "a": "attention"
+          }
         ]
       },
       "tfn": [
-        { "s": "A Guardian report on the trend appeared in October 2026.", "a": "T" },
-        { "s": "The article says the nutritional concerns about butter have disappeared.", "a": "F" },
-        { "s": "Some chefs worry that large butter displays are wasteful.", "a": "T" },
-        { "s": "Butter sales in France rose by a fifth in 2026.", "a": "N" }
+        {
+          "s": "A Guardian report on the trend appeared in October 2026.",
+          "a": "T",
+          "why": "The text says: \"According to a Guardian report in October 2026, butter is appearing at fashionable events, on restaurant tables and across social media in increasingly elaborate forms.\""
+        },
+        {
+          "s": "The article says the nutritional concerns about butter have disappeared.",
+          "a": "F",
+          "why": "The text says the opposite: \"There is also a tension between describing butter as a natural, comforting ingredient and pretending that the nutritional concerns have vanished.\""
+        },
+        {
+          "s": "Butter sales in France rose by a fifth in 2026.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Some chefs worry that large butter displays are wasteful.",
+          "a": "T",
+          "why": "The text says: \"Some chefs question whether extravagant butter displays are more about getting attention than enjoying food.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "Opening a butter shop in that heat looked like an ____ commercial gamble.", "a": "eccentric" },
-          { "s": "A substance that had been a ____ kitchen essential became a souvenir.", "a": "mundane" },
-          { "s": "Its ____ is remarkable given the ingredient's recent history.", "a": "rehabilitation" },
-          { "s": "Part of the appeal lies in what might be called ____.", "a": "affordable indulgence" },
-          { "s": "Social media helps such small pleasures ____.", "a": "catch on" },
-          { "s": "Once the novelty has ____, butter will do what it always did.", "a": "worn off" }
+          {
+            "s": "Opening a butter shop in that heat looked like an ____ commercial gamble.",
+            "a": "eccentric"
+          },
+          {
+            "s": "A substance that had been a ____ kitchen essential became a souvenir.",
+            "a": "mundane"
+          },
+          {
+            "s": "Its ____ is remarkable given the ingredient's recent history.",
+            "a": "rehabilitation"
+          },
+          {
+            "s": "Part of the appeal lies in what might be called ____.",
+            "a": "affordable indulgence"
+          },
+          {
+            "s": "Social media helps such small pleasures ____.",
+            "a": "catch on"
+          },
+          {
+            "s": "Once the novelty has ____, butter will do what it always did.",
+            "a": "worn off"
+          }
         ],
-        "extra": ["theatrical", "artisanal"]
+        "extra": [
+          "theatrical",
+          "artisanal"
+        ]
       },
       "match": [
-        { "t": "mundane", "d": "so ordinary that nobody pays it any attention" },
-        { "t": "wear off", "d": "gradually stop having an effect" },
-        { "t": "theatrical", "d": "exaggerated in order to be noticed" },
-        { "t": "artisanal", "d": "made in small amounts by skilled hand" }
+        {
+          "t": "mundane",
+          "d": "so ordinary that nobody pays it any attention"
+        },
+        {
+          "t": "wear off",
+          "d": "gradually stop having an effect"
+        },
+        {
+          "t": "theatrical",
+          "d": "exaggerated in order to be noticed"
+        },
+        {
+          "t": "artisanal",
+          "d": "made in small amounts by skilled hand"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The shop drew enough attention to ____ managing queues outside.", "cue": "WARRANTY", "a": "warrant" },
-          { "s": "Customers compare the ____ flavours of salted and cultured butters.", "cue": "SUBTLETY", "a": "subtle" },
-          { "s": "Chefs have long valued butter for its richness and ____.", "cue": "VERSATILE", "a": "versatility" },
-          { "s": "Restaurants that pride themselves on ____ may struggle to justify the waste.", "cue": "SUSTAIN", "a": "sustainability" },
-          { "s": "Trends encourage us to confuse ____ and packaging with lasting value.", "cue": "SCARCE", "a": "scarcity" }
+          {
+            "s": "The shop drew enough attention to ____ managing queues outside.",
+            "cue": "WARRANTY",
+            "a": "warrant"
+          },
+          {
+            "s": "Customers compare the ____ flavours of salted and cultured butters.",
+            "cue": "SUBTLETY",
+            "a": "subtle"
+          },
+          {
+            "s": "Chefs have long valued butter for its richness and ____.",
+            "cue": "VERSATILE",
+            "a": "versatility"
+          },
+          {
+            "s": "Restaurants that pride themselves on ____ may struggle to justify the waste.",
+            "cue": "SUSTAIN",
+            "a": "sustainability"
+          },
+          {
+            "s": "Trends encourage us to confuse ____ and packaging with lasting value.",
+            "cue": "SCARCE",
+            "a": "scarcity"
+          }
         ]
       },
       "tfn": [
-        { "s": "Morwenna Ferrier reported on the trend for the Guardian in October 2026.", "a": "T" },
-        { "s": "The writer argues that unlimited butter consumption is now considered harmless.", "a": "F" },
-        { "s": "The Paris boutique stocks roughly fifty varieties.", "a": "T" },
-        { "s": "Butter producers have raised their prices because of the trend.", "a": "N" }
+        {
+          "s": "The Paris boutique stocks roughly fifty varieties.",
+          "a": "T",
+          "why": "The text says: \"The Paris boutique stocks roughly fifty varieties, while a celebrated food hall elsewhere in the city offers an even more extensive selection.\""
+        },
+        {
+          "s": "Butter producers have raised their prices because of the trend.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The writer argues that unlimited butter consumption is now considered harmless.",
+          "a": "F",
+          "why": "The text says the opposite: \"The claim that something is traditional, artisanal or beautifully presented should not be mistaken for scientific evidence that unlimited consumption is harmless.\""
+        },
+        {
+          "s": "Morwenna Ferrier reported on the trend for the Guardian in October 2026.",
+          "a": "T",
+          "why": "The text says: \"Reporting for the Guardian in October 2026, Morwenna Ferrier described tourists stocking up, restaurants presenting elaborate butter dishes and fashionable events using the ingredient as decoration.\""
+        }
       ]
     }
   }

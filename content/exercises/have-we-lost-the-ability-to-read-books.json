@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "You read the same paragraph twice, but it still does not ____.", "a": "make sense" },
-          { "s": "____ has become less common in some places.", "a": "Reading for pleasure" },
-          { "s": "Phones may be ____.", "a": "part of the problem" },
-          { "s": "Naomi Alderman described a plan to help people ____ reading.", "a": "get back into" },
-          { "s": "Someone might begin with ten minutes and then ____ longer sessions.", "a": "work towards" }
+          {
+            "s": "You read the same paragraph twice, but it still does not ____.",
+            "a": "make sense"
+          },
+          {
+            "s": "____ has become less common in some places.",
+            "a": "Reading for pleasure"
+          },
+          {
+            "s": "Phones may be ____.",
+            "a": "part of the problem"
+          },
+          {
+            "s": "Naomi Alderman described a plan to help people ____ reading.",
+            "a": "get back into"
+          },
+          {
+            "s": "Someone might begin with ten minutes and then ____ longer sessions.",
+            "a": "work towards"
+          }
         ],
-        "extra": ["switch off", "quiet"]
+        "extra": [
+          "switch off",
+          "quiet"
+        ]
       },
       "match": [
-        { "t": "make sense", "d": "be clear and easy to understand" },
-        { "t": "get back into", "d": "start doing something you used to do" },
-        { "t": "switch off", "d": "turn a device so that it stops working" },
-        { "t": "quiet", "d": "with very little noise" }
+        {
+          "t": "make sense",
+          "d": "be clear and easy to understand"
+        },
+        {
+          "t": "get back into",
+          "d": "start doing something you used to do"
+        },
+        {
+          "t": "switch off",
+          "d": "turn a device so that it stops working"
+        },
+        {
+          "t": "quiet",
+          "d": "with very little noise"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "Your phone ____ a sound a few minutes ago.", "cue": "make", "a": "made" },
-          { "s": "A study ____ in 2025 looked at how Americans spent their time.", "cue": "publish", "a": "published" },
-          { "s": "A book asks us ____ with one story for longer.", "cue": "stay", "a": "to stay" },
-          { "s": "That can feel difficult when we are used to ____ activities often.", "cue": "change", "a": "changing" },
-          { "s": "Regular practice can make it easier ____.", "cue": "concentrate", "a": "to concentrate" }
+          {
+            "s": "Your phone ____ a sound a few minutes ago.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "A study ____ in 2025 looked at how Americans spent their time.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "A book asks us ____ with one story for longer.",
+            "cue": "stay",
+            "a": "to stay"
+          },
+          {
+            "s": "That can feel difficult when we are used to ____ activities often.",
+            "cue": "change",
+            "a": "changing"
+          },
+          {
+            "s": "Regular practice can make it easier ____.",
+            "cue": "concentrate",
+            "a": "to concentrate"
+          }
         ]
       },
       "tfn": [
-        { "s": "A 2025 study looked at how Americans spent their time from 2003 to 2023.", "a": "T" },
-        { "s": "Naomi Alderman's plan aimed to help people finish as many books as possible.", "a": "F" },
-        { "s": "Her programme lasted eight weeks.", "a": "T" },
-        { "s": "The plan has been tried by thousands of readers.", "a": "N" }
+        {
+          "s": "Her programme lasted eight weeks.",
+          "a": "T",
+          "why": "The text says: \"In August 2026, the novelist Naomi Alderman described an eight-week plan to help people get back into reading.\""
+        },
+        {
+          "s": "A 2025 study looked at how Americans spent their time from 2003 to 2023.",
+          "a": "T",
+          "why": "The text says: \"A study published in 2025 looked at how Americans spent their time between 2003 and 2023.\""
+        },
+        {
+          "s": "Naomi Alderman's plan aimed to help people finish as many books as possible.",
+          "a": "F",
+          "why": "The text says the opposite: \"The aim was not to finish as many books as possible, but to enjoy the habit again.\""
+        },
+        {
+          "s": "The plan has been tried by thousands of readers.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "For people who once became ____ in stories, the change feels like a loss.", "a": "absorbed" },
-          { "s": "Smartphones are ____.", "a": "an obvious suspect" },
-          { "s": "A book requires ____ attention.", "a": "sustained" },
-          { "s": "Forcing yourself through a classic that ____ rarely works.", "a": "feels like homework" },
-          { "s": "Keeping your phone ____ can make regular reading easier.", "a": "out of reach" },
-          { "s": "Recovering that experience does not require ____.", "a": "a dramatic lifestyle change" }
+          {
+            "s": "For people who once became ____ in stories, the change feels like a loss.",
+            "a": "absorbed"
+          },
+          {
+            "s": "Smartphones are ____.",
+            "a": "an obvious suspect"
+          },
+          {
+            "s": "A book requires ____ attention.",
+            "a": "sustained"
+          },
+          {
+            "s": "Forcing yourself through a classic that ____ rarely works.",
+            "a": "feels like homework"
+          },
+          {
+            "s": "Keeping your phone ____ can make regular reading easier.",
+            "a": "out of reach"
+          },
+          {
+            "s": "Recovering that experience does not require ____.",
+            "a": "a dramatic lifestyle change"
+          }
         ],
-        "extra": ["take over", "manageable"]
+        "extra": [
+          "take over",
+          "manageable"
+        ]
       },
       "match": [
-        { "t": "absorbed", "d": "giving all your attention to one thing" },
-        { "t": "an obvious suspect", "d": "the first thing people blame for a problem" },
-        { "t": "take over", "d": "begin to control or fill something" },
-        { "t": "manageable", "d": "small enough to deal with easily" }
+        {
+          "t": "absorbed",
+          "d": "giving all your attention to one thing"
+        },
+        {
+          "t": "an obvious suspect",
+          "d": "the first thing people blame for a problem"
+        },
+        {
+          "t": "take over",
+          "d": "begin to control or fill something"
+        },
+        {
+          "t": "manageable",
+          "d": "small enough to deal with easily"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The study analysed the ____ of people reading on an average day.", "cue": "PROPORTIONAL", "a": "proportion" },
-          { "s": "The findings are not ____.", "cue": "CONTRADICT", "a": "contradictory" },
-          { "s": "Long working hours and family ____ leave people tired.", "cue": "RESPONSIBLE", "a": "responsibilities" },
-          { "s": "Choosing a short, ____ book is often better than forcing a classic.", "cue": "ENJOY", "a": "enjoyable" },
-          { "s": "Books give us time to follow ideas without constant ____.", "cue": "INTERRUPT", "a": "interruption" }
+          {
+            "s": "The study analysed the ____ of people reading on an average day.",
+            "cue": "PROPORTIONAL",
+            "a": "proportion"
+          },
+          {
+            "s": "The findings are not ____.",
+            "cue": "CONTRADICT",
+            "a": "contradictory"
+          },
+          {
+            "s": "Long working hours and family ____ leave people tired.",
+            "cue": "RESPONSIBLE",
+            "a": "responsibilities"
+          },
+          {
+            "s": "Choosing a short, ____ book is often better than forcing a classic.",
+            "cue": "ENJOY",
+            "a": "enjoyable"
+          },
+          {
+            "s": "Books give us time to follow ideas without constant ____.",
+            "cue": "INTERRUPT",
+            "a": "interruption"
+          }
         ]
       },
       "tfn": [
-        { "s": "The 2025 study found the daily figure fell from about 28% to 16%.", "a": "T" },
-        { "s": "The two sets of findings contradict each other.", "a": "F" },
-        { "s": "Alderman's programme was inspired by the Couch to 5K approach.", "a": "T" },
-        { "s": "Book sales in the United States have fallen since 2023.", "a": "N" }
+        {
+          "s": "Book sales in the United States have fallen since 2023.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The 2025 study found the daily figure fell from about 28% to 16%.",
+          "a": "T",
+          "why": "The text says: \"A study published in 2025 analysed American time-use data collected over two decades and found that the proportion of people reading for pleasure on an average day had fallen from around 28% in 2004 to 16% in 2023.\""
+        },
+        {
+          "s": "Alderman's programme was inspired by the Couch to 5K approach.",
+          "a": "T",
+          "why": "The text says: \"In August 2026, novelist Naomi Alderman proposed an eight-week reading programme inspired by the popular Couch to 5K approach to running.\""
+        },
+        {
+          "s": "The two sets of findings contradict each other.",
+          "a": "F",
+          "why": "The text says the opposite: \"The findings are not contradictory: reading something during a whole year is very different from reading regularly.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The book has not become less interesting; ____.", "a": "the thread of attention has been cut" },
-          { "s": "A 2025 study ____ two decades of time-use data.", "a": "drawing on" },
-          { "s": "That measure has remained ____.", "a": "comparatively stable" },
-          { "s": "A phone promises ____.", "a": "a succession of immediate rewards" },
-          { "s": "Reading becomes less inviting when treated as ____.", "a": "a test of cultural sophistication" },
-          { "s": "The practical response may be ____.", "a": "disarmingly modest" }
+          {
+            "s": "The book has not become less interesting; ____.",
+            "a": "the thread of attention has been cut"
+          },
+          {
+            "s": "A 2025 study ____ two decades of time-use data to reach that figure.",
+            "a": "drew on"
+          },
+          {
+            "s": "That measure has remained ____.",
+            "a": "comparatively stable"
+          },
+          {
+            "s": "A phone promises ____.",
+            "a": "a succession of immediate rewards"
+          },
+          {
+            "s": "Reading becomes less inviting when treated as ____.",
+            "a": "a test of cultural sophistication"
+          },
+          {
+            "s": "The practical response may be ____.",
+            "a": "disarmingly modest"
+          }
         ],
-        "extra": ["set aside", "precarious"]
+        "extra": [
+          "set aside",
+          "precarious"
+        ]
       },
       "match": [
-        { "t": "draw on", "d": "use a source of information or experience" },
-        { "t": "set aside", "d": "keep time or money for one purpose" },
-        { "t": "precarious", "d": "insecure and likely to go wrong" },
-        { "t": "a badge of refinement", "d": "something shown off to appear cultured" }
+        {
+          "t": "draw on",
+          "d": "use a source of information or experience"
+        },
+        {
+          "t": "set aside",
+          "d": "keep time or money for one purpose"
+        },
+        {
+          "t": "precarious",
+          "d": "insecure and likely to go wrong"
+        },
+        {
+          "t": "a badge of refinement",
+          "d": "something shown off to appear cultured"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The novel is open and the intention is ____.", "cue": "SINCERITY", "a": "sincere" },
-          { "s": "A phone offers constant opportunities for ____ and interruption.", "cue": "NOVEL", "a": "novelty" },
-          { "s": "The analogy replaces an unhelpful moral ____ with the idea of practice.", "cue": "JUDGE", "a": "judgement" },
-          { "s": "There is reason to avoid ____ books as inherently virtuous.", "cue": "ROMANTIC", "a": "romanticising" },
-          { "s": "Those abilities matter in education and public ____.", "cue": "DEBATABLE", "a": "debate" }
+          {
+            "s": "The novel is open and the intention is ____.",
+            "cue": "SINCERITY",
+            "a": "sincere"
+          },
+          {
+            "s": "A phone offers constant opportunities for ____ and interruption.",
+            "cue": "NOVEL",
+            "a": "novelty"
+          },
+          {
+            "s": "The analogy replaces an unhelpful moral ____ with the idea of practice.",
+            "cue": "JUDGE",
+            "a": "judgement"
+          },
+          {
+            "s": "There is reason to avoid ____ books as inherently virtuous.",
+            "cue": "ROMANTIC",
+            "a": "romanticising"
+          },
+          {
+            "s": "Those abilities matter in education and public ____.",
+            "cue": "DEBATABLE",
+            "a": "debate"
+          }
         ]
       },
       "tfn": [
-        { "s": "Pew reported in 2026 that around 75% of American adults had read some of a book.", "a": "T" },
-        { "s": "The writer dismisses audiobooks as an inferior form of reading.", "a": "F" },
-        { "s": "Alderman's approach treats concentration as something that can be practised.", "a": "T" },
-        { "s": "Schools in Britain have adopted the eight-week programme.", "a": "N" }
+        {
+          "s": "Schools in Britain have adopted the eight-week programme.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Pew reported in 2026 that around 75% of American adults had read some of a book.",
+          "a": "T",
+          "why": "The text says: \"Yet Pew Research Center reported in 2026 that around 75% of American adults had read at least some of a book during the previous year, a measure that has remained comparatively stable.\""
+        },
+        {
+          "s": "The writer dismisses audiobooks as an inferior form of reading.",
+          "a": "F",
+          "why": "The text says the opposite: \"There is reason to avoid romanticising books as inherently virtuous or dismissing audiobooks and digital formats as inferior.\""
+        },
+        {
+          "s": "Alderman's approach treats concentration as something that can be practised.",
+          "a": "T",
+          "why": "The text says: \"Her eight-week approach encouraged people to rebuild reading stamina through progressively longer sessions, beginning with manageable periods rather than ambitious targets.\""
+        }
       ]
     }
   }

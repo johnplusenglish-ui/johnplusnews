@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "It tries to help people spend more time ____ one person.", "a": "getting to know" },
-          { "s": "FirstDate is being ____ with single public-service workers aged 21 to 35.", "a": "tried out" },
-          { "s": "On other apps, people can ____ looking even after finding someone interesting.", "a": "keep on" },
-          { "s": "It gives people more information and asks them to ____.", "a": "make a decision" },
-          { "s": "Others believe the government should ____ people's private lives.", "a": "stay out of" }
+          {
+            "s": "It tries to help people spend more time ____ one person.",
+            "a": "getting to know"
+          },
+          {
+            "s": "FirstDate is being ____ with single public-service workers aged 21 to 35.",
+            "a": "tried out"
+          },
+          {
+            "s": "On other apps, people can ____ looking even after finding someone interesting.",
+            "a": "keep on"
+          },
+          {
+            "s": "It gives people more information and asks them to ____.",
+            "a": "make a decision"
+          },
+          {
+            "s": "Others believe the government should ____ people's private lives.",
+            "a": "stay out of"
+          }
         ],
-        "extra": ["find out", "concerned"]
+        "extra": [
+          "find out",
+          "concerned"
+        ]
       },
       "match": [
-        { "t": "try out", "d": "test something to see whether it works" },
-        { "t": "stay out of", "d": "avoid becoming involved in something" },
-        { "t": "concerned", "d": "worried about a possible problem" },
-        { "t": "find out", "d": "discover a piece of information" }
+        {
+          "t": "try out",
+          "d": "test something to see whether it works"
+        },
+        {
+          "t": "stay out of",
+          "d": "avoid becoming involved in something"
+        },
+        {
+          "t": "concerned",
+          "d": "worried about a possible problem"
+        },
+        {
+          "t": "find out",
+          "d": "discover a piece of information"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "FirstDate ____ as a project at Singapore's government technology agency.", "cue": "begin", "a": "began" },
-          { "s": "Users ____ questions about their interests, habits and values.", "cue": "answer", "a": "answer" },
-          { "s": "Fewer children ____ born, and the population is getting older.", "cue": "be", "a": "are being" },
-          { "s": "Officials have not ____ whether the service will grow.", "cue": "decide", "a": "decided" },
-          { "s": "It cannot promise that they ____ in love.", "cue": "fall", "a": "will fall" }
+          {
+            "s": "FirstDate ____ as a project at Singapore's government technology agency.",
+            "cue": "begin",
+            "a": "began"
+          },
+          {
+            "s": "Users ____ questions about their interests, habits and values.",
+            "cue": "answer",
+            "a": "answer"
+          },
+          {
+            "s": "Fewer children ____ born, and the population is getting older.",
+            "cue": "be",
+            "a": "are being"
+          },
+          {
+            "s": "Officials have not ____ whether the service will grow.",
+            "cue": "decide",
+            "a": "decided"
+          },
+          {
+            "s": "It cannot promise that they ____ in love.",
+            "cue": "fall",
+            "a": "will fall"
+          }
         ]
       },
       "tfn": [
-        { "s": "FirstDate suggests one possible partner at a time.", "a": "T" },
-        { "s": "The service is open to everyone living in Singapore.", "a": "F" },
-        { "s": "Both users can decide whether to share their contact details.", "a": "T" },
-        { "s": "The service has already produced several marriages.", "a": "N" }
+        {
+          "s": "The service has already produced several marriages.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The service is open to everyone living in Singapore.",
+          "a": "F",
+          "why": "The text says the opposite: \"It is being tried out with single public-service workers aged 21 to 35.\""
+        },
+        {
+          "s": "Both users can decide whether to share their contact details.",
+          "a": "T",
+          "why": "The text says: \"Both people can decide whether they want to share their contact details.\""
+        },
+        {
+          "s": "FirstDate suggests one possible partner at a time.",
+          "a": "T",
+          "why": "The text says: \"The system then suggests one possible partner at a time, instead of showing hundreds of profiles.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Instead of offering an ____ stream of partners, it introduces one person.", "a": "endless" },
-          { "s": "The system suggests a ____ match and provides a score.", "a": "compatible" },
-          { "s": "Two people may look ideal ____ and still have nothing to say.", "a": "on paper" },
-          { "s": "Fewer marriages could eventually ____ a smaller workforce.", "a": "add up to" },
-          { "s": "The government has ____ supporting matchmaking initiatives.", "a": "a history of" },
-          { "s": "The technology can ____ dating by removing some of the searching.", "a": "take the pressure off" }
+          {
+            "s": "Instead of offering an ____ stream of partners, it introduces one person.",
+            "a": "endless"
+          },
+          {
+            "s": "The system suggests a ____ match and provides a score.",
+            "a": "compatible"
+          },
+          {
+            "s": "Two people may look ideal ____ and still have nothing to say.",
+            "a": "on paper"
+          },
+          {
+            "s": "Fewer marriages could eventually ____ a smaller workforce.",
+            "a": "add up to"
+          },
+          {
+            "s": "The government has ____ supporting matchmaking initiatives.",
+            "a": "a history of"
+          },
+          {
+            "s": "The technology can ____ dating by removing some of the searching.",
+            "a": "take the pressure off"
+          }
         ],
-        "extra": ["roll out", "demanding"]
+        "extra": [
+          "roll out",
+          "demanding"
+        ]
       },
       "match": [
-        { "t": "on paper", "d": "when judged only by written details" },
-        { "t": "add up to", "d": "produce a particular result in the end" },
-        { "t": "roll out", "d": "make something available to more people" },
-        { "t": "demanding", "d": "needing a lot of effort and attention" }
+        {
+          "t": "on paper",
+          "d": "when judged only by written details"
+        },
+        {
+          "t": "add up to",
+          "d": "produce a particular result in the end"
+        },
+        {
+          "t": "roll out",
+          "d": "make something available to more people"
+        },
+        {
+          "t": "demanding",
+          "d": "needing a lot of effort and attention"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "It is being tested with ____ public officers aged 21 to 35.", "cue": "MARRY", "a": "unmarried" },
-          { "s": "Participants complete a questionnaire about values, routines and ____.", "cue": "PREFER", "a": "preferences" },
-          { "s": "Matching interests is not the same as creating ____.", "cue": "CHEMICAL", "a": "chemistry" },
-          { "s": "____ worry that fewer births could mean a smaller workforce.", "cue": "POLICY", "a": "Policymakers" },
-          { "s": "The platform has published privacy ____.", "cue": "SAFE", "a": "safeguards" }
+          {
+            "s": "It is being tested with ____ public officers aged 21 to 35.",
+            "cue": "MARRY",
+            "a": "unmarried"
+          },
+          {
+            "s": "Participants complete a questionnaire about values, routines and ____.",
+            "cue": "PREFER",
+            "a": "preferences"
+          },
+          {
+            "s": "Matching interests is not the same as creating ____.",
+            "cue": "CHEMICAL",
+            "a": "chemistry"
+          },
+          {
+            "s": "____ worry that fewer births could mean a smaller workforce.",
+            "cue": "POLICY",
+            "a": "Policymakers"
+          },
+          {
+            "s": "The platform has published privacy ____.",
+            "cue": "SAFE",
+            "a": "safeguards"
+          }
         ]
       },
       "tfn": [
-        { "s": "FirstDate uses the Gale-Shapley matching method.", "a": "T" },
-        { "s": "The creators present FirstDate as a guaranteed answer to the birth rate.", "a": "F" },
-        { "s": "Only a proposed match can see a user's profile.", "a": "T" },
-        { "s": "Other governments have asked to copy the system.", "a": "N" }
+        {
+          "s": "FirstDate uses the Gale-Shapley matching method.",
+          "a": "T",
+          "why": "The text says: \"The technology uses the Gale-Shapley matching method, a mathematical approach designed to produce stable pairings based on people's preferences.\""
+        },
+        {
+          "s": "Other governments have asked to copy the system.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Only a proposed match can see a user's profile.",
+          "a": "T",
+          "why": "The text says: \"Only the proposed match can see a person's profile, and the platform says it does not sell personal data.\""
+        },
+        {
+          "s": "The creators present FirstDate as a guaranteed answer to the birth rate.",
+          "a": "F",
+          "why": "The text says the opposite: \"Nevertheless, its creators describe it as a pilot designed to explore a better dating experience, rather than a guaranteed answer to demographic problems.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "Dating apps promise ____, yet many users feel overwhelmed by it.", "a": "an abundance of choice" },
-          { "s": "FirstDate offers an unusually ____ alternative.", "a": "restrained" },
-          { "s": "Contact details are exchanged solely ____.", "a": "by mutual agreement" },
-          { "s": "Official efforts to encourage relationships have precedents ____ decades.", "a": "stretching back" },
-          { "s": "Its creators are careful to ____ that framing.", "a": "sidestep" },
-          { "s": "Whether a narrower choice produces lasting relationships ____.", "a": "has yet to be demonstrated" }
+          {
+            "s": "Dating apps promise ____, yet many users feel overwhelmed by it.",
+            "a": "an abundance of choice"
+          },
+          {
+            "s": "FirstDate offers an unusually ____ alternative.",
+            "a": "restrained"
+          },
+          {
+            "s": "Contact details are exchanged solely ____.",
+            "a": "by mutual agreement"
+          },
+          {
+            "s": "Official efforts to encourage relationships have precedents ____ decades.",
+            "a": "stretching back"
+          },
+          {
+            "s": "Its creators are careful to ____ that framing.",
+            "a": "sidestep"
+          },
+          {
+            "s": "Whether a narrower choice produces lasting relationships ____.",
+            "a": "has yet to be demonstrated"
+          }
         ],
-        "extra": ["intrusive", "hand over"]
+        "extra": [
+          "intrusive",
+          "hand over"
+        ]
       },
       "match": [
-        { "t": "sidestep", "d": "avoid dealing with a difficult question" },
-        { "t": "restrained", "d": "deliberately modest rather than showy" },
-        { "t": "intrusive", "d": "going further into private life than is welcome" },
-        { "t": "hand over", "d": "give something to another person or body" }
+        {
+          "t": "sidestep",
+          "d": "avoid dealing with a difficult question"
+        },
+        {
+          "t": "restrained",
+          "d": "deliberately modest rather than showy"
+        },
+        {
+          "t": "intrusive",
+          "d": "going further into private life than is welcome"
+        },
+        {
+          "t": "hand over",
+          "d": "give something to another person or body"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "FirstDate recommends a single ____ match at a time.", "cue": "PROSPECT", "a": "prospective" },
-          { "s": "Singapore has long expressed concern about low ____.", "cue": "FERTILE", "a": "fertility" },
-          { "s": "No algorithm can resolve the ____ pressures facing younger adults.", "cue": "STRUCTURE", "a": "structural" },
-          { "s": "Trust will depend on ____ and on how the service works in practice.", "cue": "TRANSPARENT", "a": "transparency" },
-          { "s": "A successful match is an ____ measure of the project.", "cue": "AMBIGUITY", "a": "ambiguous" }
+          {
+            "s": "FirstDate recommends a single ____ match at a time.",
+            "cue": "PROSPECT",
+            "a": "prospective"
+          },
+          {
+            "s": "Singapore has long expressed concern about low ____.",
+            "cue": "FERTILE",
+            "a": "fertility"
+          },
+          {
+            "s": "No algorithm can resolve the ____ pressures facing younger adults.",
+            "cue": "STRUCTURE",
+            "a": "structural"
+          },
+          {
+            "s": "Trust will depend on ____ and on how the service works in practice.",
+            "cue": "TRANSPARENT",
+            "a": "transparency"
+          },
+          {
+            "s": "A successful match is an ____ measure of the project.",
+            "cue": "AMBIGUITY",
+            "a": "ambiguous"
+          }
         ]
       },
       "tfn": [
-        { "s": "The pilot involves unmarried public-service employees aged 21 to 35.", "a": "T" },
-        { "s": "FirstDate sells participants' data to commercial third parties.", "a": "F" },
-        { "s": "Commercial platforms often benefit when users keep returning.", "a": "T" },
-        { "s": "A decision on expanding the pilot is expected next year.", "a": "N" }
+        {
+          "s": "A decision on expanding the pilot is expected next year.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "FirstDate sells participants' data to commercial third parties.",
+          "a": "F",
+          "why": "The text says the opposite: \"FirstDate says the data is handled under government security standards and is not sold to commercial third parties.\""
+        },
+        {
+          "s": "Commercial platforms often benefit when users keep returning.",
+          "a": "T",
+          "why": "The text says: \"Commercial platforms often benefit when people keep returning; FirstDate proposes that a more limited selection could serve users better.\""
+        },
+        {
+          "s": "The pilot involves unmarried public-service employees aged 21 to 35.",
+          "a": "T",
+          "why": "The text says: \"Developed by staff at GovTech and being piloted among unmarried public-service employees aged 21 to 35, FirstDate asks participants about their habits, preferences and values.\""
+        }
       ]
     }
   }

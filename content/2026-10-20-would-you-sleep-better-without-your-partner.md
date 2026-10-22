@@ -3,7 +3,7 @@ date: 2026-01-01
 date-label: 2025–2026
 summary: More couples are questioning the idea that sharing a bed is essential for a happy relationship.
 tags: Relationships, Health
-source: Health.com | https://www.health.com/do-sleep-divorces-lead-to-better-sleep-11780674
+source: American Academy of Sleep Medicine | https://aasm.org/new-survey-data-sleep-divorce/
 image: images/would-you-sleep-better-without-your-partner-d29714.jpg
 ---
 === Core ===
@@ -51,7 +51,7 @@ summary: Snoring, incompatible schedules and high rents rarely make elegant roma
 
 A shared bed remains one of the strongest cultural symbols of a committed relationship. Consequently, the decision to sleep separately can carry an implication of emotional distance, even when the real problem is considerably less dramatic: snoring, incompatible schedules or a partner who takes up most of the mattress. A shared bed is often treated as proof of intimacy, although it is also a practical arrangement involving temperature, light, noise and the timing of two separate bodies. The expression sleep divorce describes an arrangement in which a couple chooses separate beds or rooms for better rest, without separating romantically. Reporting on a 2025 US sleep survey suggested that the practice was far from exceptional. Yet the popularity of a phrase does not establish whether the arrangement improves relationships or how widely it occurs outside the surveyed population.
 
-There is a plausible argument in its favour. Chronic sleep disruption can affect mood, attention and tolerance, making everyday disagreements more difficult to manage. A couple who both sleep better may consequently have more energy for their relationship. However, physical closeness can also be reassuring, and sleeping apart may feel lonely or rejected if one partner experiences the decision differently. The phrase 'sleep divorce' makes the choice sound more dramatic than it may be. For some couples it is a temporary experiment; for others, an ordinary routine that protects both people's rest.
+There is a plausible argument in its favour. Chronic sleep disruption can affect mood, attention and tolerance, making everyday disagreements more difficult to manage. A couple who both sleep better may consequently have more energy for their relationship. However, physical closeness can also be reassuring, and one partner may feel lonely or rejected if they experience the decision differently. The phrase 'sleep divorce' makes the choice sound more dramatic than it may be. For some couples it is a temporary experiment; for others, an ordinary routine that protects both people's rest.
 
 Rather than treating separate sleeping as a permanent binary choice, some couples negotiate flexible arrangements. They may share a bedroom most nights while allowing separate space during illness or demanding working periods. Others look into temperature, bedding or bedtime routines before changing rooms. The relevant measure of success is whether the arrangement suits both people.
 

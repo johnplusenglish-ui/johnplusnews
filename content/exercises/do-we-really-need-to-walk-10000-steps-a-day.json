@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "The number did not originally ____ a medical discovery.", "a": "come from" },
-          { "s": "This does not mean 7,000 is ____.", "a": "a magic number" },
-          { "s": "Walking is useful because it can ____ ordinary routines.", "a": "fit into" },
-          { "s": "A short walk or ____ can all add up.", "a": "taking the stairs" },
-          { "s": "A step counter can help you ____ your habits.", "a": "keep track of" }
+          {
+            "s": "The number did not originally ____ a medical discovery.",
+            "a": "come from"
+          },
+          {
+            "s": "This does not mean 7,000 is ____.",
+            "a": "a magic number"
+          },
+          {
+            "s": "Walking is useful because it can ____ ordinary routines.",
+            "a": "fit into"
+          },
+          {
+            "s": "Short walks and ____ can add up.",
+            "a": "taking the stairs"
+          },
+          {
+            "s": "A step counter can help you ____ your habits.",
+            "a": "keep track of"
+          }
         ],
-        "extra": ["add up", "ashamed"]
+        "extra": [
+          "add up",
+          "ashamed"
+        ]
       },
       "match": [
-        { "t": "fit into", "d": "find a place within an existing plan" },
-        { "t": "keep track of", "d": "follow how something changes over time" },
-        { "t": "add up", "d": "combine to make a larger total" },
-        { "t": "ashamed", "d": "feeling bad about something you did" }
+        {
+          "t": "fit into",
+          "d": "find a place within an existing plan"
+        },
+        {
+          "t": "keep track of",
+          "d": "follow how something changes over time"
+        },
+        {
+          "t": "add up",
+          "d": "combine to make a larger total"
+        },
+        {
+          "t": "ashamed",
+          "d": "feeling bad about something you did"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "It became popular through a Japanese product ____ in the 1960s.", "cue": "sell", "a": "sold" },
-          { "s": "In 2025, researchers ____ a large review in The Lancet Public Health.", "cue": "publish", "a": "published" },
-          { "s": "It ____ 57 studies about daily steps.", "cue": "examine", "a": "examined" },
-          { "s": "Walking 7,000 steps a day ____ with important health benefits.", "cue": "link", "a": "was linked" },
-          { "s": "A step counter should not ____ every day feel like a test.", "cue": "make", "a": "make" }
+          {
+            "s": "It became popular through a Japanese product ____ in the 1960s.",
+            "cue": "sell",
+            "a": "sold"
+          },
+          {
+            "s": "In 2025, researchers ____ a large review in The Lancet Public Health.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "It ____ 57 studies about daily steps.",
+            "cue": "examine",
+            "a": "examined"
+          },
+          {
+            "s": "Walking 7,000 steps a day ____ with important health benefits.",
+            "cue": "link",
+            "a": "was linked"
+          },
+          {
+            "s": "A step counter should not ____ every day feel like a test.",
+            "cue": "make",
+            "a": "make"
+          }
         ]
       },
       "tfn": [
-        { "s": "The 10,000-step idea became popular through a Japanese product.", "a": "T" },
-        { "s": "The review proved that 7,000 steps prevent illness.", "a": "F" },
-        { "s": "Step totals cannot show how hard somebody is working.", "a": "T" },
-        { "s": "Most watch owners reach 10,000 steps a day.", "a": "N" }
+        {
+          "s": "The review proved that 7,000 steps prevent illness.",
+          "a": "F",
+          "why": "The text says the opposite: \"The review found that walking around 7,000 steps per day was linked with important health benefits compared with much lower activity levels.\""
+        },
+        {
+          "s": "The 10,000-step idea became popular through a Japanese product.",
+          "a": "T",
+          "why": "The text says: \"It became popular through a Japanese step-counting product sold in the 1960s.\""
+        },
+        {
+          "s": "Most watch owners reach 10,000 steps a day.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Step totals cannot show how hard somebody is working.",
+          "a": "T",
+          "why": "The text says: \"Step totals cannot show everything about exercise, such as how hard someone is working or whether they are getting stronger.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "____ is easy to remember and share.", "a": "A neat round number" },
-          { "s": "That may explain why the target ____ so widely.", "a": "took off" },
-          { "s": "____ gradually could be more realistic than chasing a fixed number.", "a": "Building up" },
-          { "s": "What matters is making movement a habit rather than collecting ____.", "a": "a perfect score" },
-          { "s": "The famous target may remain ____ for some people.", "a": "out of reach" },
-          { "s": "Step counts also ____ important information about activity.", "a": "leave out" }
+          {
+            "s": "____ is easy to remember and share.",
+            "a": "A neat round number"
+          },
+          {
+            "s": "That may explain why the target ____ so widely.",
+            "a": "took off"
+          },
+          {
+            "s": "____ gradually could be more realistic than chasing a fixed number.",
+            "a": "Building up"
+          },
+          {
+            "s": "What matters is making movement a habit rather than collecting ____.",
+            "a": "a perfect score"
+          },
+          {
+            "s": "The famous target may remain ____ for some people.",
+            "a": "out of reach"
+          },
+          {
+            "s": "Step counts also ____ important information about activity.",
+            "a": "leave out"
+          }
         ],
-        "extra": ["demanding", "arbitrary"]
+        "extra": [
+          "demanding",
+          "arbitrary"
+        ]
       },
       "match": [
-        { "t": "take off", "d": "suddenly become very popular" },
-        { "t": "leave something out", "d": "fail to include something important" },
-        { "t": "demanding", "d": "needing a lot of effort or attention" },
-        { "t": "arbitrary", "d": "chosen without a clear reason" }
+        {
+          "t": "take off",
+          "d": "suddenly become very popular"
+        },
+        {
+          "t": "leave something out",
+          "d": "fail to include something important"
+        },
+        {
+          "t": "demanding",
+          "d": "needing a lot of effort or attention"
+        },
+        {
+          "t": "arbitrary",
+          "d": "chosen without a clear reason"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "A Japanese pedometer helped ____ the round figure.", "cue": "POPULAR", "a": "popularise" },
-          { "s": "7,000 steps were associated with ____ health benefits.", "cue": "SUBSTANCE", "a": "substantial" },
-          { "s": "The findings need careful ____.", "cue": "INTERPRET", "a": "interpretation" },
-          { "s": "The intensity of ____ also influences the picture.", "cue": "MOVE", "a": "movement" },
-          { "s": "Conventional targets may be ____ for some people.", "cue": "APPROPRIATE", "a": "inappropriate" }
+          {
+            "s": "A Japanese pedometer helped ____ the round figure.",
+            "cue": "POPULAR",
+            "a": "popularise"
+          },
+          {
+            "s": "7,000 steps were associated with ____ health benefits.",
+            "cue": "SUBSTANCE",
+            "a": "substantial"
+          },
+          {
+            "s": "The findings need careful ____.",
+            "cue": "INTERPRET",
+            "a": "interpretation"
+          },
+          {
+            "s": "The intensity of ____ also influences the picture.",
+            "cue": "MOVE",
+            "a": "movement"
+          },
+          {
+            "s": "Conventional targets may be ____ for some people.",
+            "cue": "APPROPRIATE",
+            "a": "inappropriate"
+          }
         ]
       },
       "tfn": [
-        { "s": "The Lancet Public Health review covered 57 studies.", "a": "T" },
-        { "s": "The review says everybody should stop moving after 7,000 steps.", "a": "F" },
-        { "s": "The studies largely observed activity and later health outcomes.", "a": "T" },
-        { "s": "Fitness watches will be updated to show the new target.", "a": "N" }
+        {
+          "s": "The studies largely observed activity and later health outcomes.",
+          "a": "T",
+          "why": "The text says: \"The studies largely observed people's activity and subsequent health outcomes, so they cannot establish that walking alone caused every difference.\""
+        },
+        {
+          "s": "Fitness watches will be updated to show the new target.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The review says everybody should stop moving after 7,000 steps.",
+          "a": "F",
+          "why": "The text says the opposite: \"Nor does the review suggest that everybody should stop moving after step number 7,000.\""
+        },
+        {
+          "s": "The Lancet Public Health review covered 57 studies.",
+          "a": "T",
+          "why": "The text says: \"In July 2025, The Lancet Public Health published a systematic review covering 57 studies.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "Reaching ____ earns digital congratulations.", "a": "five figures" },
-          { "s": "Subsequent research has ____ determine how steps relate to health.", "a": "set out to" },
-          { "s": "Several relationships showed ____ beyond about 7,000 steps.", "a": "diminishing returns" },
-          { "s": "For somebody with ____, a modest increase is worthwhile.", "a": "a low baseline" },
-          { "s": "A target becomes counterproductive when ____ feels like failure.", "a": "falling short of it" },
-          { "s": "Statistical methods cannot ____ every source of uncertainty.", "a": "rule out" }
+          {
+            "s": "Reaching ____ earns digital congratulations.",
+            "a": "five figures"
+          },
+          {
+            "s": "Subsequent research has ____ determine how steps relate to health.",
+            "a": "set out to"
+          },
+          {
+            "s": "Several relationships showed ____ beyond about 7,000 steps.",
+            "a": "diminishing returns"
+          },
+          {
+            "s": "For somebody with ____, a modest increase is worthwhile.",
+            "a": "a low baseline"
+          },
+          {
+            "s": "A target becomes counterproductive when ____ feels like failure.",
+            "a": "falling short of it"
+          },
+          {
+            "s": "Statistical methods cannot ____ every source of uncertainty.",
+            "a": "rule out"
+          }
         ],
-        "extra": ["exclusionary", "observational"]
+        "extra": [
+          "exclusionary",
+          "observational"
+        ]
       },
       "match": [
-        { "t": "set out to", "d": "begin something with a clear aim" },
-        { "t": "rule something out", "d": "decide something is not a possibility" },
-        { "t": "exclusionary", "d": "leaving certain people out" },
-        { "t": "observational", "d": "based on watching rather than experimenting" }
+        {
+          "t": "set out to",
+          "d": "begin something with a clear aim"
+        },
+        {
+          "t": "rule something out",
+          "d": "decide something is not a possibility"
+        },
+        {
+          "t": "exclusionary",
+          "d": "leaving certain people out"
+        },
+        {
+          "t": "observational",
+          "d": "based on watching rather than experimenting"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The figure proved ____ and motivational.", "cue": "MEMORY", "a": "memorable" },
-          { "s": "It was not a clinical calculation identifying a ____.", "cue": "THRESH", "a": "threshold" },
-          { "s": "A pedometer gives limited information about muscle ____.", "cue": "STRONG", "a": "strengthening" },
-          { "s": "____ matters too for people with mobility limitations.", "cue": "ACCESS", "a": "Accessibility" },
-          { "s": "Reverse ____ is a potential complication in such research.", "cue": "CAUSE", "a": "causation" }
+          {
+            "s": "The figure proved ____ and motivational.",
+            "cue": "MEMORY",
+            "a": "memorable"
+          },
+          {
+            "s": "It was not a ____ calculation identifying a safe limit.",
+            "cue": "CLINIC",
+            "a": "clinical"
+          },
+          {
+            "s": "A pedometer gives limited information about muscle ____.",
+            "cue": "STRONG",
+            "a": "strengthening"
+          },
+          {
+            "s": "____ matters too for people with mobility limitations.",
+            "cue": "ACCESS",
+            "a": "Accessibility"
+          },
+          {
+            "s": "Reverse ____ is a potential complication in such research.",
+            "cue": "CAUSE",
+            "a": "causation"
+          }
         ]
       },
       "tfn": [
-        { "s": "The review included 57 studies, with 31 in specific meta-analyses.", "a": "T" },
-        { "s": "Adding 5,000 steps will reduce an individual's risk by exactly 47%.", "a": "F" },
-        { "s": "Healthier participants may be able to take more steps because they are healthier.", "a": "T" },
-        { "s": "The authors recommend replacing step targets with activity minutes.", "a": "N" }
+        {
+          "s": "Adding 5,000 steps will reduce an individual's risk by exactly 47%.",
+          "a": "F",
+          "why": "The text says the opposite: \"This is a relative comparison from observational evidence, not a promise that adding 5,000 steps will reduce an individual's risk by exactly that amount.\""
+        },
+        {
+          "s": "Healthier participants may be able to take more steps because they are healthier.",
+          "a": "T",
+          "why": "The text says: \"Healthier participants may be capable of taking more steps partly because they are already healthier.\""
+        },
+        {
+          "s": "The review included 57 studies, with 31 in specific meta-analyses.",
+          "a": "T",
+          "why": "The text says: \"A systematic review published in The Lancet Public Health in July 2025 included 57 studies, with 31 contributing to specific meta-analyses.\""
+        },
+        {
+          "s": "The authors recommend replacing step targets with activity minutes.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     }
   }

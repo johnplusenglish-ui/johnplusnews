@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "Lord Elgin received permission to ____ work at the ancient site.", "a": "carry out" },
-          { "s": "Greece wants visitors to see how the ____ pieces originally fitted together.", "a": "surviving" },
-          { "s": "The British Museum ____ on the question.", "a": "takes a different view" },
-          { "s": "A British law normally stops the museum ____ items from its collection.", "a": "giving away" },
-          { "s": "The objects ____ a very long time ago.", "a": "changed hands" }
+          {
+            "s": "Lord Elgin received permission to ____ work at the ancient site.",
+            "a": "carry out"
+          },
+          {
+            "s": "Greece wants visitors to see how the ____ pieces originally fitted together.",
+            "a": "surviving"
+          },
+          {
+            "s": "The British Museum ____ on the question.",
+            "a": "takes a different view"
+          },
+          {
+            "s": "A British law normally stops the museum ____ items from its collection.",
+            "a": "giving away"
+          },
+          {
+            "s": "The objects ____ a very long time ago.",
+            "a": "changed hands"
+          }
         ],
-        "extra": ["fit together", "ancient"]
+        "extra": [
+          "fit together",
+          "ancient"
+        ]
       },
       "match": [
-        { "t": "carry out", "d": "do a piece of work that has been planned" },
-        { "t": "change hands", "d": "pass from one owner to another" },
-        { "t": "ancient", "d": "from a time thousands of years ago" },
-        { "t": "fit together", "d": "join to form one complete thing" }
+        {
+          "t": "carry out",
+          "d": "do a piece of work that has been planned"
+        },
+        {
+          "t": "change hands",
+          "d": "pass from one owner to another"
+        },
+        {
+          "t": "ancient",
+          "d": "from a time thousands of years ago"
+        },
+        {
+          "t": "fit together",
+          "d": "join to form one complete thing"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "The sculptures once ____ the Parthenon, a famous temple in Athens.", "cue": "decorate", "a": "decorated" },
-          { "s": "When the sculptures ____, Greece was controlled by the Ottoman Empire.", "cue": "remove", "a": "were removed" },
-          { "s": "The sculptures ____ in the British Museum for more than 200 years.", "cue": "be", "a": "have been" },
-          { "s": "Officials have ____ possible loans between the two countries.", "cue": "discuss", "a": "discussed" },
-          { "s": "Some people believe those objects should ____ to the places where they were made.", "cue": "return", "a": "return" }
+          {
+            "s": "The sculptures once ____ the Parthenon, a famous temple in Athens.",
+            "cue": "decorate",
+            "a": "decorated"
+          },
+          {
+            "s": "When the sculptures ____, Greece was controlled by the Ottoman Empire.",
+            "cue": "remove",
+            "a": "were removed"
+          },
+          {
+            "s": "The sculptures ____ in the British Museum for more than 200 years.",
+            "cue": "be",
+            "a": "have been"
+          },
+          {
+            "s": "Officials have ____ possible loans between the two countries.",
+            "cue": "discuss",
+            "a": "discussed"
+          },
+          {
+            "s": "Some people believe those objects should ____ to the places where they were made.",
+            "cue": "return",
+            "a": "return"
+          }
         ]
       },
       "tfn": [
-        { "s": "The sculptures are more than 2,000 years old.", "a": "T" },
-        { "s": "The British Museum has agreed to send the sculptures back to Greece.", "a": "F" },
-        { "s": "The Acropolis Museum has space to display the sculptures.", "a": "T" },
-        { "s": "Most British people want the sculptures returned.", "a": "N" }
+        {
+          "s": "The Acropolis Museum has space to display the sculptures.",
+          "a": "T",
+          "why": "The text says: \"The Acropolis Museum, near the Parthenon, has space to display them.\""
+        },
+        {
+          "s": "The sculptures are more than 2,000 years old.",
+          "a": "T",
+          "why": "The text says: \"The sculptures are more than 2,000 years old.\""
+        },
+        {
+          "s": "Most British people want the sculptures returned.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The British Museum says the sculptures were taken illegally.",
+          "a": "F",
+          "why": "The text says the opposite: \"It argues that the sculptures were acquired legally and that displaying them alongside objects from other cultures helps people learn about world history.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Their beauty is rarely disputed. Who should own them is ____.", "a": "another matter entirely" },
-          { "s": "Removing them from their original setting ____ a single monument.", "a": "splits up" },
-          { "s": "Displaying objects from different civilisations ____ encourages connections.", "a": "side by side" },
-          { "s": "The museum is generally unable to ____ objects from its collection.", "a": "hand over" },
-          { "s": "Discussions have ____ for years without agreement.", "a": "dragged on" },
-          { "s": "Returning objects may help ____.", "a": "put right historic injustices" }
+          {
+            "s": "Their beauty is rarely disputed. Who should own them is ____.",
+            "a": "another matter entirely"
+          },
+          {
+            "s": "Removing them from their original setting ____ a single monument.",
+            "a": "splits up"
+          },
+          {
+            "s": "Displaying objects from different civilisations ____ encourages connections.",
+            "a": "side by side"
+          },
+          {
+            "s": "The museum is generally unable to ____ objects from its collection.",
+            "a": "hand over"
+          },
+          {
+            "s": "Discussions have ____ for years without agreement.",
+            "a": "dragged on"
+          },
+          {
+            "s": "Returning objects may help ____.",
+            "a": "put right historic injustices"
+          }
         ],
-        "extra": ["decorative", "permanent"]
+        "extra": [
+          "decorative",
+          "permanent"
+        ]
       },
       "match": [
-        { "t": "drag on", "d": "continue for much longer than it should" },
-        { "t": "hand over", "d": "give something to another person or body" },
-        { "t": "decorative", "d": "made to look attractive rather than to be used" },
-        { "t": "permanent", "d": "meant to stay the same for ever" }
+        {
+          "t": "drag on",
+          "d": "continue for much longer than it should"
+        },
+        {
+          "t": "hand over",
+          "d": "give something to another person or body"
+        },
+        {
+          "t": "decorative",
+          "d": "made to look attractive rather than to be used"
+        },
+        {
+          "t": "permanent",
+          "d": "meant to stay the same for ever"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Visitors can admire a ____ collection of ancient Greek sculptures.", "cue": "REMARK", "a": "remarkable" },
-          { "s": "He maintained that he had permission from the Ottoman ____.", "cue": "AUTHORISE", "a": "authorities" },
-          { "s": "The sculptures are part of the country's history and ____.", "cue": "IDENTIFY", "a": "identity" },
-          { "s": "Under ____ passed in 1963, the museum cannot give objects away.", "cue": "LEGISLATE", "a": "legislation" },
-          { "s": "International museums argue that their collections have ____ value.", "cue": "EDUCATE", "a": "educational" }
+          {
+            "s": "Visitors can admire a ____ collection of ancient Greek sculptures.",
+            "cue": "REMARK",
+            "a": "remarkable"
+          },
+          {
+            "s": "He maintained that he had permission from the Ottoman ____.",
+            "cue": "AUTHORISE",
+            "a": "authorities"
+          },
+          {
+            "s": "The sculptures are part of the country's history and ____.",
+            "cue": "IDENTIFY",
+            "a": "identity"
+          },
+          {
+            "s": "Under ____ passed in 1963, the museum cannot give objects away.",
+            "cue": "LEGISLATE",
+            "a": "legislation"
+          },
+          {
+            "s": "International museums argue that their collections have ____ value.",
+            "cue": "EDUCATE",
+            "a": "educational"
+          }
         ]
       },
       "tfn": [
-        { "s": "The British government bought the collection in 1816.", "a": "T" },
-        { "s": "Greece has accepted a loan that recognises British ownership.", "a": "F" },
-        { "s": "George Osborne suggested the sculptures might spend time in both countries.", "a": "T" },
-        { "s": "The Acropolis Museum attracts more visitors than the British Museum.", "a": "N" }
+        {
+          "s": "George Osborne suggested the sculptures might spend time in both countries.",
+          "a": "T",
+          "why": "The text says: \"In October 2026, British Museum chairman George Osborne expressed hope that an arrangement could still be reached, suggesting that the sculptures might spend periods in both countries.\""
+        },
+        {
+          "s": "The Acropolis Museum attracts more visitors than the British Museum.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The British government bought the collection in 1816.",
+          "a": "T",
+          "why": "The text says: \"The British government bought the collection in 1816, and it became part of the British Museum.\""
+        },
+        {
+          "s": "Greece has accepted a loan that recognises British ownership.",
+          "a": "F",
+          "why": "The text says the opposite: \"Such a plan could bring the pieces to Athens, but Greece has resisted any deal that appears to require it to recognise British ownership.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The dispute ____ the early nineteenth century.", "a": "traces back to" },
-          { "s": "Defenders argue the transaction was lawful ____.", "a": "by the standards of the period" },
-          { "s": "Successive Greek administrations have ____ the sculptures' return.", "a": "pressed for" },
-          { "s": "Trustees also face a significant ____ obstacle.", "a": "statutory" },
-          { "s": "Discussions have explored partnership arrangements, including ____ loans.", "a": "reciprocal" },
-          { "s": "Neither side can afford to be seen ____.", "a": "backing down" }
+          {
+            "s": "The dispute ____ the early nineteenth century.",
+            "a": "traces back to"
+          },
+          {
+            "s": "Defenders argue the transaction was lawful ____.",
+            "a": "by the standards of the period"
+          },
+          {
+            "s": "Successive Greek administrations have ____ the sculptures' return.",
+            "a": "pressed for"
+          },
+          {
+            "s": "Trustees also face a significant ____ obstacle.",
+            "a": "statutory"
+          },
+          {
+            "s": "Discussions have explored partnership arrangements, including ____ loans.",
+            "a": "reciprocal"
+          },
+          {
+            "s": "Neither side can afford to be seen ____.",
+            "a": "backing down"
+          }
         ],
-        "extra": ["iron out", "encyclopaedic"]
+        "extra": [
+          "iron out",
+          "encyclopaedic"
+        ]
       },
       "match": [
-        { "t": "trace back to", "d": "have its origin in an earlier time" },
-        { "t": "back down", "d": "give up a position you argued for" },
-        { "t": "iron out", "d": "settle the small difficulties in an agreement" },
-        { "t": "encyclopaedic", "d": "covering an enormous range of subjects" }
+        {
+          "t": "trace back to",
+          "d": "have its origin in an earlier time"
+        },
+        {
+          "t": "back down",
+          "d": "give up a position you argued for"
+        },
+        {
+          "t": "iron out",
+          "d": "settle the small difficulties in an agreement"
+        },
+        {
+          "t": "encyclopaedic",
+          "d": "covering an enormous range of subjects"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Campaigners dispute the scope and ____ of that authorisation.", "cue": "LEGITIMATE", "a": "legitimacy" },
-          { "s": "For Athens, their ____ is a matter of cultural integrity.", "cue": "UNITE", "a": "reunification" },
-          { "s": "The pieces were not independent ____ assembled from different places.", "cue": "ARTEFACT", "a": "artefacts" },
-          { "s": "The Act severely restricts the ____ of objects from the collection.", "cue": "DISPOSE", "a": "disposal" },
-          { "s": "An agreement could seem to Athens like a demand to ____ the removal.", "cue": "LEGITIMATE", "a": "legitimise" }
+          {
+            "s": "Campaigners dispute the scope and ____ of that authorisation.",
+            "cue": "LEGITIMATE",
+            "a": "legitimacy"
+          },
+          {
+            "s": "For Athens, their ____ is a matter of cultural integrity.",
+            "cue": "REUNITE",
+            "a": "reunification"
+          },
+          {
+            "s": "The pieces were not independent ____ assembled from different places.",
+            "cue": "ARTEFACT",
+            "a": "artefacts"
+          },
+          {
+            "s": "The Act severely restricts the ____ of objects from the collection.",
+            "cue": "DISPOSE",
+            "a": "disposal"
+          },
+          {
+            "s": "An agreement could seem to Athens like a demand to ____ the removal.",
+            "cue": "LEGITIMATE",
+            "a": "legitimise"
+          }
         ]
       },
       "tfn": [
-        { "s": "The sculptures were carved for a fifth-century BC temple.", "a": "T" },
-        { "s": "The writer says one sweeping solution could settle every similar case.", "a": "F" },
-        { "s": "The British Museum Act 1963 restricts disposal of objects.", "a": "T" },
-        { "s": "The Greek government has taken the case to an international court.", "a": "N" }
+        {
+          "s": "The Greek government has taken the case to an international court.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The writer says one sweeping solution could settle every similar case.",
+          "a": "F",
+          "why": "The text says the opposite: \"Each case has its own legal and historical circumstances, making sweeping solutions difficult.\""
+        },
+        {
+          "s": "The sculptures were carved for a fifth-century BC temple.",
+          "a": "T",
+          "why": "The text says: \"Carved for the fifth-century BC temple on the Acropolis, the surviving sculptures are now divided principally between Britain and Greece.\""
+        },
+        {
+          "s": "The British Museum Act 1963 restricts disposal of objects.",
+          "a": "T",
+          "why": "The text says: \"The British Museum Act 1963 severely restricts the disposal of objects from the collection, meaning that a permanent transfer would be legally complicated.\""
+        }
       ]
     }
   }

@@ -10,7 +10,7 @@ image: images/the-cafe-where-you-pay-with-rubbish-b8d591.jpg
 title: A Meal for a Bag of Plastic
 summary: In the Indian city of Ambikapur, a café opened in 2019. Bring one kilogram of plastic waste and you receive a full meal.
 
-Imagine walking into a café, ordering a hot lunch and paying with an old plastic bottle. In the Indian city of Ambikapur, the idea is real. The Garbage Café gives people food in exchange for plastic waste, including used bottles, bags and food packaging that most of us would throw away without thinking.
+Imagine walking into a café, ordering a hot lunch and paying with a bag of plastic waste. In the Indian city of Ambikapur, the idea is real. The Garbage Café gives people food in exchange for plastic waste, including used bottles, bags and food packaging that most of us would throw away without thinking.
 
 The café opened in 2019 with support from the local authorities. Customers can bring one kilogram of plastic waste and receive a full meal in return. That might include rice, vegetables, bread and other dishes. The plastic is then collected and sent into the city's waste system, instead of being left on the streets or blown into a river.
 
@@ -20,11 +20,11 @@ The café also draws attention to a growing problem. Single-use plastic is cheap
 
 Of course, one small café cannot solve India's plastic problem on its own. The city produces far more waste than the café could ever collect. People also need good rubbish collection, proper ways to recycle, and good reasons to use less plastic in the first place. Shops and factories play a part too, because they decide how much packaging ends up in the bin.
 
-Still, the idea changes the way we think about rubbish. A bottle that looks worthless to one person may be worth a hot meal to somebody else. The café shows that a simple local project can help people and encourage a cleaner city at the same time.
+Still, the idea changes the way we think about rubbish. Plastic that looks worthless to one person may be worth a hot meal to somebody else. The café shows that a simple local project can help people and encourage a cleaner city at the same time.
 
 === Intermediate ===
 
-title: What a Discarded Bottle Is Actually Worth
+title: What a Bag of Discarded Plastic Is Worth
 summary: Ambikapur's Garbage Café pays informal collectors in food rather than small change. It cannot absorb a city's plastic, but it does make their work visible.
 
 Most cafés expect their customers to pay by cash or card. In Ambikapur, a city in central India, one café accepts a far less attractive form of payment: plastic waste. Customers can hand over discarded packaging and, in return, receive a cooked meal. The project ties together two challenges that are usually discussed separately, hunger and pollution, and it does so in a way anyone can grasp in a sentence.
@@ -37,7 +37,7 @@ Ambikapur has also developed broader waste-sorting and recycling initiatives, so
 
 Single-use plastic is cheap and convenient, which is precisely why it turns up everywhere. It can block drains, spoil open land and break down into fragments that are too small to pick up, so anything that is not collected tends to stay in the environment for decades.
 
-There are limits. A café cannot process all the plastic produced by a city, and collecting more waste is not the same as cutting down on waste in the first place. Critics could also question whether handing out meals in return for rubbish addresses the deeper causes of poverty, or merely makes them slightly easier to live with. Nobody at the café would claim otherwise.
+There are limits. A café cannot process all the plastic produced by a city, and collecting more waste is not the same as cutting down on waste in the first place. Critics could also question whether handing out meals in return for rubbish addresses the deeper causes of poverty, or merely makes them slightly easier to live with.
 
 Nevertheless, the concept works because it is easy to understand. Instead of asking people to worry about a distant environmental crisis, it offers a direct exchange with an immediate benefit. A kilogram of plastic becomes a plate of food, and an abstract argument about waste turns into a practical question about what a community actually values.
 

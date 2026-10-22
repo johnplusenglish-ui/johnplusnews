@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "For many climbers, reaching the top is ____.", "a": "a lifelong dream" },
-          { "s": "Standing still in the freezing cold, ____, can be deadly.", "a": "high above the clouds" },
-          { "s": "Many climbers ____ from the Nepali side.", "a": "set off" },
-          { "s": "Climbers should first have ____ of another 7,000-metre mountain.", "a": "got to the top" },
-          { "s": "These ideas were still being discussed, so they are not yet ____.", "a": "in force" }
+          {
+            "s": "For many climbers, reaching the top is ____.",
+            "a": "a lifelong dream"
+          },
+          {
+            "s": "Standing still in the freezing cold, ____, can be deadly.",
+            "a": "high above the clouds"
+          },
+          {
+            "s": "Many climbers ____ from the Nepali side.",
+            "a": "set off"
+          },
+          {
+            "s": "Climbers should first have ____ of another 7,000-metre mountain.",
+            "a": "got to the top"
+          },
+          {
+            "s": "These ideas were still being discussed, so they are not yet ____.",
+            "a": "in force"
+          }
         ],
-        "extra": ["leave behind", "avoidable"]
+        "extra": [
+          "leave behind",
+          "avoidable"
+        ]
       },
       "match": [
-        { "t": "set off", "d": "begin a journey to somewhere" },
-        { "t": "in force", "d": "officially operating as a rule" },
-        { "t": "avoidable", "d": "able to be prevented" },
-        { "t": "leave behind", "d": "go away without taking something" }
+        {
+          "t": "set off",
+          "d": "begin a journey to somewhere"
+        },
+        {
+          "t": "in force",
+          "d": "officially operating as a rule"
+        },
+        {
+          "t": "avoidable",
+          "d": "able to be prevented"
+        },
+        {
+          "t": "leave behind",
+          "d": "go away without taking something"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "Climbers sometimes have to ____ in long queues near the summit.", "cue": "wait", "a": "wait" },
-          { "s": "If something ____ wrong high on the mountain, guides are in danger too.", "cue": "go", "a": "goes" },
-          { "s": "In 2026, politicians in Nepal ____ stricter rules.", "cue": "discuss", "a": "discussed" },
-          { "s": "They may have to climb back into the thin air ____ somebody down.", "cue": "bring", "a": "to bring" },
-          { "s": "Everest ____ important income to Nepal every year.", "cue": "bring", "a": "brings" }
+          {
+            "s": "Climbers sometimes have to ____ in long queues near the summit.",
+            "cue": "wait",
+            "a": "wait"
+          },
+          {
+            "s": "If something ____ wrong high on the mountain, guides are in danger too.",
+            "cue": "go",
+            "a": "goes"
+          },
+          {
+            "s": "In 2026, politicians in Nepal ____ stricter rules.",
+            "cue": "discuss",
+            "a": "discussed"
+          },
+          {
+            "s": "They may have to climb back into the thin air ____ somebody down.",
+            "cue": "bring",
+            "a": "to bring"
+          },
+          {
+            "s": "Everest ____ important income to Nepal every year.",
+            "cue": "bring",
+            "a": "brings"
+          }
         ]
       },
       "tfn": [
-        { "s": "Everest sits on the border between Nepal and China.", "a": "T" },
-        { "s": "The proposed experience rules are already law.", "a": "F" },
-        { "s": "Everest brings important income to Nepal.", "a": "T" },
-        { "s": "The number of permits has fallen since 2025.", "a": "N" }
+        {
+          "s": "Everest sits on the border between Nepal and China.",
+          "a": "T",
+          "why": "The text says: \"Everest is in the Himalayas, on the border between Nepal and China.\""
+        },
+        {
+          "s": "The number of permits has fallen since 2025.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The proposed experience rules are already law.",
+          "a": "F",
+          "why": "The text says the opposite: \"These ideas were still being discussed as part of a new law, so they should not all be treated as rules already in force.\""
+        },
+        {
+          "s": "Everest brings important income to Nepal.",
+          "a": "T",
+          "why": "The text says: \"Everest also brings important income to Nepal, including work for guides, porters and local businesses.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "The mountain has ____ a commercial destination.", "a": "turned into" },
-          { "s": "The safest chance to reach the summit may be a brief ____.", "a": "weather window" },
-          { "s": "A climber ____ near the top is losing precious oxygen.", "a": "held up" },
-          { "s": "Previous climbs are ____.", "a": "no guarantee of good judgement" },
-          { "s": "Expeditions provide income in areas with few ways of ____.", "a": "making a living" },
-          { "s": "The risks are shared by everybody ____ when a client is in trouble.", "a": "coming to the rescue" }
+          {
+            "s": "The mountain has ____ a commercial destination.",
+            "a": "turned into"
+          },
+          {
+            "s": "The safest chance to reach the summit may be a brief ____.",
+            "a": "weather window"
+          },
+          {
+            "s": "A climber ____ near the top is losing precious oxygen.",
+            "a": "held up"
+          },
+          {
+            "s": "Previous climbs are ____.",
+            "a": "no guarantee of good judgement"
+          },
+          {
+            "s": "Expeditions provide income in areas with few ways of ____.",
+            "a": "making a living"
+          },
+          {
+            "s": "The risks are shared by everybody ____ when a client is in trouble.",
+            "a": "coming to the rescue"
+          }
         ],
-        "extra": ["put off", "unpredictable"]
+        "extra": [
+          "put off",
+          "unpredictable"
+        ]
       },
       "match": [
-        { "t": "hold somebody up", "d": "delay somebody from moving on" },
-        { "t": "a weather window", "d": "a short period when conditions allow an attempt" },
-        { "t": "put somebody off", "d": "make somebody decide not to do something" },
-        { "t": "unpredictable", "d": "impossible to know about in advance" }
+        {
+          "t": "hold somebody up",
+          "d": "delay somebody from moving on"
+        },
+        {
+          "t": "a weather window",
+          "d": "a short period when conditions allow an attempt"
+        },
+        {
+          "t": "put somebody off",
+          "d": "make somebody decide not to do something"
+        },
+        {
+          "t": "unpredictable",
+          "d": "impossible to know about in advance"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Climbers pay ____ sums for permits and equipment.", "cue": "SUBSTANCE", "a": "substantial" },
-          { "s": "Proposals also covered insurance and waste ____.", "cue": "MANAGE", "a": "management" },
-          { "s": "Experience rules could put off ____ prepared climbers.", "cue": "POOR", "a": "poorly" },
-          { "s": "Extra qualifying expeditions could narrow access to a ____ group.", "cue": "WEALTH", "a": "wealthier" },
-          { "s": "Any system must weigh safety against local ____.", "cue": "LIVE", "a": "livelihoods" }
+          {
+            "s": "Climbers pay ____ sums for permits and equipment.",
+            "cue": "SUBSTANCE",
+            "a": "substantial"
+          },
+          {
+            "s": "Proposals also covered insurance and waste ____.",
+            "cue": "MANAGE",
+            "a": "management"
+          },
+          {
+            "s": "Experience rules could put off ____ prepared climbers.",
+            "cue": "POOR",
+            "a": "poorly"
+          },
+          {
+            "s": "Extra qualifying expeditions could narrow access to a ____ group.",
+            "cue": "WEALTH",
+            "a": "wealthier"
+          },
+          {
+            "s": "Any system must weigh safety against local ____.",
+            "cue": "LIVE",
+            "a": "livelihoods"
+          }
         ]
       },
       "tfn": [
-        { "s": "One proposal required a previous climb above 7,000 metres in Nepal.", "a": "T" },
-        { "s": "Parliament has already passed all the suggested restrictions.", "a": "F" },
-        { "s": "Queues can build up when several expeditions use the same window.", "a": "T" },
-        { "s": "Nepal has raised the cost of an Everest permit.", "a": "N" }
+        {
+          "s": "Parliament has already passed all the suggested restrictions.",
+          "a": "F",
+          "why": "The text says the opposite: \"Parliamentary discussions do not mean that every suggested restriction has already been brought in.\""
+        },
+        {
+          "s": "Nepal has raised the cost of an Everest permit.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Queues can build up when several expeditions use the same window.",
+          "a": "T",
+          "why": "The text says: \"When several expeditions set out on the same route during a suitable weather window, queues can build up in places where waiting is itself a danger.\""
+        },
+        {
+          "s": "One proposal required a previous climb above 7,000 metres in Nepal.",
+          "a": "T",
+          "why": "The text says: \"During 2026, lawmakers discussed measures including a requirement for Everest applicants to show that they had previously climbed a mountain above 7,000 metres in Nepal.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "Mount Everest occupies an ____ position between challenge and industry.", "a": "uneasy" },
-          { "s": "The commercial infrastructure ____ around expeditions fuelled concern.", "a": "built up" },
-          { "s": "Guides rarely have the option of ____ alone.", "a": "turning back" },
-          { "s": "A qualification based on previous summits is ____.", "a": "an imperfect proxy for competence" },
-          { "s": "Rules intended to ____ the unprepared may exclude the less wealthy.", "a": "filter out" },
-          { "s": "Responsible policy has to ____.", "a": "hold both considerations in view" }
+          {
+            "s": "Mount Everest occupies an ____ position between challenge and industry.",
+            "a": "uneasy"
+          },
+          {
+            "s": "The commercial infrastructure ____ around expeditions fuelled concern.",
+            "a": "built up"
+          },
+          {
+            "s": "Guides rarely have the option of ____ alone.",
+            "a": "turning back"
+          },
+          {
+            "s": "A qualification based on previous summits is ____.",
+            "a": "an imperfect proxy for competence"
+          },
+          {
+            "s": "Rules intended to ____ the unprepared may exclude the less wealthy.",
+            "a": "filter out"
+          },
+          {
+            "s": "Responsible policy has to ____.",
+            "a": "hold both considerations in view"
+          }
         ],
-        "extra": ["do away with", "aspiring"]
+        "extra": [
+          "do away with",
+          "aspiring"
+        ]
       },
       "match": [
-        { "t": "filter out", "d": "remove the unwanted part of a group" },
-        { "t": "do away with", "d": "get rid of something completely" },
-        { "t": "aspiring", "d": "hoping to achieve a particular position" },
-        { "t": "at stake", "d": "able to be won or lost in a situation" }
+        {
+          "t": "filter out",
+          "d": "remove the unwanted part of a group"
+        },
+        {
+          "t": "do away with",
+          "d": "get rid of something completely"
+        },
+        {
+          "t": "aspiring",
+          "d": "hoping to achieve a particular position"
+        },
+        {
+          "t": "at stake",
+          "d": "able to be won or lost in a situation"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The summit still demands ____ endurance.", "cue": "EXCEPTION", "a": "exceptional" },
-          { "s": "There is a ____ argument for requiring experience.", "cue": "COMPEL", "a": "compelling" },
-          { "s": "Organised support cannot remove the need for physical ____.", "cue": "PREPARE", "a": "preparation" },
-          { "s": "Extra climbing could push up the environmental ____ of an ambition.", "cue": "FOOT", "a": "footprint" },
-          { "s": "Competence is harder to ____ than altitude.", "cue": "CERTIFICATE", "a": "certify" }
+          {
+            "s": "The summit still demands ____ endurance.",
+            "cue": "EXCEPTION",
+            "a": "exceptional"
+          },
+          {
+            "s": "There is a ____ argument for requiring experience.",
+            "cue": "COMPEL",
+            "a": "compelling"
+          },
+          {
+            "s": "Organised support cannot remove the need for physical ____.",
+            "cue": "PREPARE",
+            "a": "preparation"
+          },
+          {
+            "s": "Extra climbing could push up the ____ cost of an ambitious season.",
+            "cue": "ENVIRONMENT",
+            "a": "environmental"
+          },
+          {
+            "s": "Competence is harder to ____ than altitude.",
+            "cue": "CERTIFICATE",
+            "a": "certify"
+          }
         ]
       },
       "tfn": [
-        { "s": "Nepalese lawmakers considered revisions to tourism legislation in 2026.", "a": "T" },
-        { "s": "The writer says one version of the rules leaves every interest untouched.", "a": "F" },
-        { "s": "Restrictions that cut visitor numbers would be felt first by guides.", "a": "T" },
-        { "s": "Expedition companies have opposed the proposed insurance rules.", "a": "N" }
+        {
+          "s": "Expedition companies have opposed the proposed insurance rules.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Restrictions that cut visitor numbers would be felt first by guides.",
+          "a": "T",
+          "why": "The text says: \"Restrictions that sharply reduce visitor numbers would be felt first by guides and local communities, while rules that prioritise volume expose those same workers to avoidable danger.\""
+        },
+        {
+          "s": "The writer says one version of the rules leaves every interest untouched.",
+          "a": "F",
+          "why": "The text says the opposite: \"No version of the rules leaves every interest untouched; the real question is which trade-off can be defended.\""
+        },
+        {
+          "s": "Nepalese lawmakers considered revisions to tourism legislation in 2026.",
+          "a": "T",
+          "why": "The text says: \"In 2026, Nepalese lawmakers considered revisions to tourism legislation that would impose more demanding qualifications on aspiring Everest climbers.\""
+        }
       ]
     }
   }

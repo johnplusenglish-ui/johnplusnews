@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "Rain and wind are slowly ____ the soft rock beneath the village.", "a": "wearing away" },
-          { "s": "Tourists ____ in large numbers at busy times, then leave again.", "a": "turn up" },
-          { "s": "A real community needs jobs and services ____, not only visitors.", "a": "all year" },
-          { "s": "The announcement is ____ the area.", "a": "good news for" },
-          { "s": "There is a problem that art cannot solve ____.", "a": "on its own" }
+          {
+            "s": "Rain and wind are slowly ____ the soft rock beneath the village.",
+            "a": "wearing away"
+          },
+          {
+            "s": "Tourists ____ in large numbers at busy times, then leave again.",
+            "a": "turn up"
+          },
+          {
+            "s": "A real community needs jobs and services ____, not only visitors.",
+            "a": "all year"
+          },
+          {
+            "s": "The announcement is ____ the area.",
+            "a": "good news for"
+          },
+          {
+            "s": "There is a problem that art cannot solve ____.",
+            "a": "on its own"
+          }
         ],
-        "extra": ["look down", "narrow"]
+        "extra": [
+          "look down",
+          "narrow"
+        ]
       },
       "match": [
-        { "t": "wear away", "d": "slowly remove the surface of something" },
-        { "t": "turn up", "d": "arrive somewhere, often in numbers" },
-        { "t": "narrow", "d": "small in width from one side to the other" },
-        { "t": "look down", "d": "move your eyes towards the ground" }
+        {
+          "t": "wear away",
+          "d": "slowly remove the surface of something"
+        },
+        {
+          "t": "turn up",
+          "d": "arrive somewhere, often in numbers"
+        },
+        {
+          "t": "narrow",
+          "d": "small in width from one side to the other"
+        },
+        {
+          "t": "look down",
+          "d": "move your eyes towards the ground"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "The village ____ more than 2,500 years ago.", "cue": "found", "a": "was founded" },
-          { "s": "Only a small number of people now ____ permanently in the old centre.", "cue": "live", "a": "live" },
-          { "s": "Parts of the hill have already ____.", "cue": "disappear", "a": "disappeared" },
-          { "s": "Italy's culture minister ____ the award in October 2026.", "cue": "announce", "a": "announced" },
-          { "s": "Their joint project ____ one million euros.", "cue": "receive", "a": "will receive" }
+          {
+            "s": "The village ____ more than 2,500 years ago.",
+            "cue": "found",
+            "a": "was founded"
+          },
+          {
+            "s": "Only a small number of people now ____ permanently in the old centre.",
+            "cue": "live",
+            "a": "live"
+          },
+          {
+            "s": "Parts of the hill have already ____.",
+            "cue": "disappear",
+            "a": "disappeared"
+          },
+          {
+            "s": "Italy's culture minister ____ the award in October 2026.",
+            "cue": "announce",
+            "a": "announced"
+          },
+          {
+            "s": "Their joint project ____ one million euros.",
+            "cue": "receive",
+            "a": "will receive"
+          }
         ]
       },
       "tfn": [
-        { "s": "Civita was founded more than 2,500 years ago.", "a": "T" },
-        { "s": "Civita won the title on its own, without any other town.", "a": "F" },
-        { "s": "The joint project will receive one million euros.", "a": "T" },
-        { "s": "The village has fewer than twenty permanent residents.", "a": "N" }
+        {
+          "s": "The village has fewer than twenty permanent residents.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Civita won the title on its own, without any other town.",
+          "a": "F",
+          "why": "The text says the opposite: \"In October 2026, Italy's culture minister announced that Civita and the nearby town of Bolsena had won the title of Italian Capital of Contemporary Art for 2028.\""
+        },
+        {
+          "s": "Civita was founded more than 2,500 years ago.",
+          "a": "T",
+          "why": "The text says: \"The village was founded more than 2,500 years ago, but only a small number of people now live permanently in its old centre.\""
+        },
+        {
+          "s": "The joint project will receive one million euros.",
+          "a": "T",
+          "why": "The text says: \"Their joint project will receive one million euros for cultural activities.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Erosion has been ____ the soft rock for centuries.", "a": "eating into" },
-          { "s": "The nickname describes the land ____ and the tiny community on it.", "a": "falling away" },
-          { "s": "The settlement ____ more than 2,500 years.", "a": "dates back" },
-          { "s": "Only ____ people now live permanently in the old centre.", "a": "a handful of" },
-          { "s": "Tourism does not automatically reverse ____.", "a": "population decline" },
-          { "s": "Art cannot ____.", "a": "hold the ground together" }
+          {
+            "s": "Erosion has been ____ the soft rock for centuries.",
+            "a": "eating into"
+          },
+          {
+            "s": "The nickname describes the land ____ and the tiny community on it.",
+            "a": "falling away"
+          },
+          {
+            "s": "The settlement ____ more than 2,500 years.",
+            "a": "dates back"
+          },
+          {
+            "s": "Only ____ people now live permanently in the old centre.",
+            "a": "a handful of"
+          },
+          {
+            "s": "Tourism does not automatically reverse ____.",
+            "a": "population decline"
+          },
+          {
+            "s": "Art cannot ____.",
+            "a": "hold the ground together"
+          }
         ],
-        "extra": ["die down", "inconvenient"]
+        "extra": [
+          "die down",
+          "inconvenient"
+        ]
       },
       "match": [
-        { "t": "eat into", "d": "gradually destroy or use up something" },
-        { "t": "date back", "d": "have existed since a time long ago" },
-        { "t": "die down", "d": "gradually become quieter or weaker" },
-        { "t": "inconvenient", "d": "causing trouble or extra effort" }
+        {
+          "t": "eat into",
+          "d": "gradually destroy or use up something"
+        },
+        {
+          "t": "date back",
+          "d": "have existed since a time long ago"
+        },
+        {
+          "t": "die down",
+          "d": "gradually become quieter or weaker"
+        },
+        {
+          "t": "inconvenient",
+          "d": "causing trouble or extra effort"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The hilltop is not merely ____; it is unstable.", "cue": "PICTURE", "a": "picturesque" },
-          { "s": "In October 2026, Civita received an ____ opportunity.", "cue": "EXPECT", "a": "unexpected" },
-          { "s": "Tourism does not restore the services and ____ a village needs.", "cue": "EMPLOY", "a": "employment" },
-          { "s": "The decision is more ____ than simply organising a festival.", "cue": "AMBITION", "a": "ambitious" },
-          { "s": "There are reasons to be ____, however.", "cue": "CAUTION", "a": "cautious" }
+          {
+            "s": "The hilltop is not merely ____; it is unstable.",
+            "cue": "PICTURE",
+            "a": "picturesque"
+          },
+          {
+            "s": "In October 2026, Civita received an ____ opportunity.",
+            "cue": "EXPECT",
+            "a": "unexpected"
+          },
+          {
+            "s": "Tourism does not restore the services and ____ a village needs.",
+            "cue": "EMPLOY",
+            "a": "employment"
+          },
+          {
+            "s": "The decision is more ____ than simply organising a festival.",
+            "cue": "AMBITION",
+            "a": "ambitious"
+          },
+          {
+            "s": "There are reasons to be ____, however.",
+            "cue": "CAUTION",
+            "a": "cautious"
+          }
         ]
       },
       "tfn": [
-        { "s": "Civita and Bolsena were chosen together for the 2028 title.", "a": "T" },
-        { "s": "Capri, Padua and Pozzuoli also reached the final stage.", "a": "T" },
-        { "s": "The award guarantees that young people will stay in the area.", "a": "F" },
-        { "s": "Bolsena has a larger permanent population than Civita.", "a": "N" }
+        {
+          "s": "Bolsena has a larger permanent population than Civita.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Civita and Bolsena were chosen together for the 2028 title.",
+          "a": "T",
+          "why": "The text says: \"The two places were chosen together as Italy's Capital of Contemporary Art for 2028, beating other finalists including Capri, Padua and Pozzuoli.\""
+        },
+        {
+          "s": "Capri, Padua and Pozzuoli also reached the final stage.",
+          "a": "T",
+          "why": "The text says: \"The two places were chosen together as Italy's Capital of Contemporary Art for 2028, beating other finalists including Capri, Padua and Pozzuoli.\""
+        },
+        {
+          "s": "The award guarantees that young people will stay in the area.",
+          "a": "F",
+          "why": "The text says the opposite: \"If the project helps people work, create and remain in the area, it may offer the village something more valuable than another successful tourist season.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The Dying Town is not simply an ____ nickname.", "a": "evocative" },
-          { "s": "Permanent settlement has ____ a tiny community.", "a": "dwindled to" },
-          { "s": "Tourism sustains cafés without solving the problems of ____.", "a": "rural depopulation" },
-          { "s": "A well-designed programme can ____ investment and new partnerships.", "a": "bring in" },
-          { "s": "Funding cycles ____, and visiting artists move on.", "a": "come to an end" },
-          { "s": "The institutions left behind are too thinly staffed to ____ the work.", "a": "shore up" }
+          {
+            "s": "The Dying Town is not simply an ____ nickname.",
+            "a": "evocative"
+          },
+          {
+            "s": "Permanent settlement has ____ a tiny community.",
+            "a": "dwindled to"
+          },
+          {
+            "s": "Tourism sustains cafés without solving the problems of ____.",
+            "a": "rural depopulation"
+          },
+          {
+            "s": "A well-designed programme can ____ investment and new partnerships.",
+            "a": "bring in"
+          },
+          {
+            "s": "Funding cycles ____, and visiting artists move on.",
+            "a": "come to an end"
+          },
+          {
+            "s": "The institutions left behind are too thinly staffed to ____ the work.",
+            "a": "shore up"
+          }
         ],
-        "extra": ["indispensable", "come along"]
+        "extra": [
+          "indispensable",
+          "come along"
+        ]
       },
       "match": [
-        { "t": "dwindle to", "d": "become gradually smaller until very little is left" },
-        { "t": "shore up", "d": "support something that is in danger of failing" },
-        { "t": "indispensable", "d": "so necessary that you cannot do without it" },
-        { "t": "come along", "d": "appear or happen, often by chance" }
+        {
+          "t": "dwindle to",
+          "d": "become gradually smaller until very little is left"
+        },
+        {
+          "t": "shore up",
+          "d": "support something that is in danger of failing"
+        },
+        {
+          "t": "indispensable",
+          "d": "so necessary that you cannot do without it"
+        },
+        {
+          "t": "come along",
+          "d": "appear or happen, often by chance"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Medieval houses cling to a shrinking fragment of hilltop above the ____ valleys.", "cue": "ERODE", "a": "eroded" },
-          { "s": "The Dying Town is a ____ description as much as a nickname.", "cue": "GEOLOGY", "a": "geological" },
-          { "s": "The choice reflects an increasingly ____ view of culture.", "cue": "INFLUENCE", "a": "influential" },
-          { "s": "Cultural projects struggle to convert attention into ____ opportunities.", "cue": "DURATION", "a": "durable" },
-          { "s": "Civita's particular ____ makes this tension sharper.", "cue": "VULNERABLE", "a": "vulnerability" }
+          {
+            "s": "Medieval houses cling to a shrinking fragment of hilltop above the ____ valleys.",
+            "cue": "ERODE",
+            "a": "eroded"
+          },
+          {
+            "s": "The Dying Town is a ____ description as much as a nickname.",
+            "cue": "GEOLOGY",
+            "a": "geological"
+          },
+          {
+            "s": "The choice reflects an increasingly ____ view of culture.",
+            "cue": "INFLUENCE",
+            "a": "influential"
+          },
+          {
+            "s": "Cultural projects struggle to convert attention into ____ opportunities.",
+            "cue": "DURATION",
+            "a": "durable"
+          },
+          {
+            "s": "Civita's particular ____ makes this tension sharper.",
+            "cue": "VULNERABLE",
+            "a": "vulnerability"
+          }
         ]
       },
       "tfn": [
-        { "s": "Civita has survived since Etruscan times.", "a": "T" },
-        { "s": "The writer believes the art programme will solve the erosion problem.", "a": "F" },
-        { "s": "The winning proposal secured a million euros of public funding.", "a": "T" },
-        { "s": "Engineers have already begun work to stabilise the hilltop.", "a": "N" }
+        {
+          "s": "Civita has survived since Etruscan times.",
+          "a": "T",
+          "why": "The text says: \"Civita has survived since Etruscan times, but permanent settlement has dwindled to a tiny community.\""
+        },
+        {
+          "s": "Engineers have already begun work to stabilise the hilltop.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The winning proposal secured a million euros of public funding.",
+          "a": "T",
+          "why": "The text says: \"Their proposal, \"Arte che viene, arte che va\", won against entries from Capri, Padua and Pozzuoli, securing a million euros of public funding.\""
+        },
+        {
+          "s": "The writer believes the art programme will solve the erosion problem.",
+          "a": "F",
+          "why": "The text says the opposite: \"Art can stimulate discussion and attract resources, but it cannot remedy the erosion of the volcanic material supporting the settlement.\""
+        }
       ]
     }
   }

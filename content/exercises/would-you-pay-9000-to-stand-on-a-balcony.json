@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "The streets ____ early and can become extremely crowded.", "a": "fill up" },
-          { "s": "Some property owners ____ these spaces to visitors.", "a": "rent out" },
-          { "s": "Balconies were renting for around €6,000 ____.", "a": "for the whole week" },
-          { "s": "Nobody has to ____ if they think it is too expensive.", "a": "take the offer" },
-          { "s": "They fear that ordinary residents will be ____ from the best places.", "a": "pushed away" }
+          {
+            "s": "The streets ____ early and can become extremely crowded.",
+            "a": "fill up"
+          },
+          {
+            "s": "Some property owners ____ these spaces to visitors.",
+            "a": "rent out"
+          },
+          {
+            "s": "Balconies were renting for around €6,000 ____.",
+            "a": "for the whole week"
+          },
+          {
+            "s": "Nobody has to ____ if they think it is too expensive.",
+            "a": "take the offer"
+          },
+          {
+            "s": "They fear that ordinary residents will be ____ from the best places.",
+            "a": "pushed away"
+          }
         ],
-        "extra": ["make a profit", "religious"]
+        "extra": [
+          "make a profit",
+          "religious"
+        ]
       },
       "match": [
-        { "t": "rent out", "d": "let somebody use your property for money" },
-        { "t": "fill up", "d": "become completely full of people" },
-        { "t": "religious", "d": "connected with belief in a god" },
-        { "t": "make a profit", "d": "earn more than you spend" }
+        {
+          "t": "rent out",
+          "d": "let somebody use your property for money"
+        },
+        {
+          "t": "fill up",
+          "d": "become completely full of people"
+        },
+        {
+          "t": "religious",
+          "d": "connected with belief in a god"
+        },
+        {
+          "t": "make a profit",
+          "d": "earn more than you spend"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "Religious groups ____ large decorated images through the streets.", "cue": "carry", "a": "carry" },
-          { "s": "Holy Week ____ as Semana Santa in Spanish.", "cue": "know", "a": "is known" },
-          { "s": "In March 2026, local professionals ____ the average prices.", "cue": "report", "a": "reported" },
-          { "s": "Some fear the celebration is ____ into a show for visitors.", "cue": "turn", "a": "turning" },
-          { "s": "People can still watch many processions without ____ anything.", "cue": "pay", "a": "paying" }
+          {
+            "s": "Religious groups ____ large decorated images through the streets.",
+            "cue": "carry",
+            "a": "carry"
+          },
+          {
+            "s": "Holy Week ____ as Semana Santa in Spanish.",
+            "cue": "know",
+            "a": "is known"
+          },
+          {
+            "s": "In March 2026, local professionals ____ the average prices.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "Some fear the celebration is ____ into a show for visitors.",
+            "cue": "turn",
+            "a": "turning"
+          },
+          {
+            "s": "People can still watch many processions without ____ anything.",
+            "cue": "pay",
+            "a": "paying"
+          }
         ]
       },
       "tfn": [
-        { "s": "Holy Week is the biggest event of the year in Seville.", "a": "T" },
-        { "s": "Nobody can watch the processions without paying.", "a": "F" },
-        { "s": "The quoted prices cover the whole week, not a single procession.", "a": "T" },
-        { "s": "The city council has limited balcony rental prices.", "a": "N" }
+        {
+          "s": "The city council has limited balcony rental prices.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Holy Week is the biggest event of the year in Seville.",
+          "a": "T",
+          "why": "The text says: \"Holy Week, known in Spanish as Semana Santa, is the biggest event of the year in Seville.\""
+        },
+        {
+          "s": "Nobody can watch the processions without paying.",
+          "a": "F",
+          "why": "The text says the opposite: \"Of course, people can still watch many processions from the public streets without paying anything.\""
+        },
+        {
+          "s": "The quoted prices cover the whole week, not a single procession.",
+          "a": "T",
+          "why": "The text says: \"These are prices for the week, not the price of standing outside for a few minutes.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Brotherhoods carry ____ images through the historic centre.", "a": "elaborate" },
-          { "s": "The best positions are ____ well in advance.", "a": "snapped up" },
-          { "s": "A balcony offers a comfortable and ____ view.", "a": "uninterrupted" },
-          { "s": "A balcony removes the waiting and the blocked streets ____.", "a": "at a stroke" },
-          { "s": "Critics fear commercial competition is ____ of the event.", "a": "pricing local families out" },
-          { "s": "The best of anything drifts ____ of local people.", "a": "out of reach" }
+          {
+            "s": "Brotherhoods carry ____ images through the historic centre.",
+            "a": "elaborate"
+          },
+          {
+            "s": "The best positions are ____ well in advance.",
+            "a": "snapped up"
+          },
+          {
+            "s": "A balcony offers a comfortable and ____ view.",
+            "a": "uninterrupted"
+          },
+          {
+            "s": "A balcony removes the waiting and the blocked streets ____.",
+            "a": "at a stroke"
+          },
+          {
+            "s": "Critics fear commercial competition is ____ of the event.",
+            "a": "pricing local families out"
+          },
+          {
+            "s": "The best of anything drifts ____ of local people.",
+            "a": "out of reach"
+          }
         ],
-        "extra": ["handed down", "premium"]
+        "extra": [
+          "handed down",
+          "premium"
+        ]
       },
       "match": [
-        { "t": "snap something up", "d": "buy something quickly before others can" },
-        { "t": "at a stroke", "d": "with a single action, all at once" },
-        { "t": "hand something down", "d": "pass something to a later generation" },
-        { "t": "premium", "d": "of higher quality and higher price" }
+        {
+          "t": "snap something up",
+          "d": "buy something quickly before others can"
+        },
+        {
+          "t": "at a stroke",
+          "d": "with a single action, all at once"
+        },
+        {
+          "t": "hand something down",
+          "d": "pass something to a later generation"
+        },
+        {
+          "t": "premium",
+          "d": "of higher quality and higher price"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The cost of renting a balcony was ____.", "cue": "ORDINARY", "a": "extraordinary" },
-          { "s": "Owners can earn substantial sums from space used ____.", "cue": "PRIVATE", "a": "privately" },
-          { "s": "Visitors pay for convenience and ____.", "cue": "EXCLUDE", "a": "exclusivity" },
-          { "s": "Access to convenient spaces becomes ____.", "cue": "EQUAL", "a": "unequal" },
-          { "s": "Good fortune in the property market is not a ____ to the tradition.", "cue": "CONTRIBUTE", "a": "contribution" }
+          {
+            "s": "The cost of renting a balcony was ____.",
+            "cue": "ORDINARY",
+            "a": "extraordinary"
+          },
+          {
+            "s": "Owners can earn substantial sums from space used ____.",
+            "cue": "PRIVATE",
+            "a": "privately"
+          },
+          {
+            "s": "Visitors pay for convenience and ____.",
+            "cue": "EXCLUDE",
+            "a": "exclusivity"
+          },
+          {
+            "s": "Access to convenient spaces becomes ____.",
+            "cue": "EQUAL",
+            "a": "unequal"
+          },
+          {
+            "s": "Good fortune in the property market is not a ____ to the tradition.",
+            "cue": "CONTRIBUTE",
+            "a": "contribution"
+          }
         ]
       },
       "tfn": [
-        { "s": "Seville's property administrators released the figures in March 2026.", "a": "T" },
-        { "s": "Balcony owners are legally required to offer space to residents.", "a": "F" },
-        { "s": "Premium positions with catering could approach €9,000.", "a": "T" },
-        { "s": "Hotel prices in Seville rose by the same amount.", "a": "N" }
+        {
+          "s": "Seville's property administrators released the figures in March 2026.",
+          "a": "T",
+          "why": "The text says: \"According to information released by Seville's property administrators in March 2026, the average price for a centrally located balcony during the week had reached around €6,000.\""
+        },
+        {
+          "s": "Supporters argue that the processions can no longer be seen from the public streets.",
+          "a": "F",
+          "why": "The text says the opposite: \"Supporters reply that the processions remain visible from public streets and that privately owned balconies are not public property.\""
+        },
+        {
+          "s": "Premium positions with catering could approach €9,000.",
+          "a": "T",
+          "why": "The text says: \"Premium positions along the main procession route, especially with food and drink included, could approach €9,000.\""
+        },
+        {
+          "s": "Hotel prices in Seville rose by the same amount.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The ability to view them from a ____ position has become an asset.", "a": "privileged" },
-          { "s": "The supply of balconies on the central route is ____.", "a": "fixed" },
-          { "s": "What ____ reveals is scarcity rather than quality.", "a": "the going rate" },
-          { "s": "Residents regard the ceremonies as ____.", "a": "a shared inheritance" },
-          { "s": "The finest ____ are increasingly taken by wealthy visitors.", "a": "vantage points" },
-          { "s": "Tourist spending can sustain the local economy ____.", "a": "in turn" }
+          {
+            "s": "The ability to view them from a ____ position has become an asset.",
+            "a": "privileged"
+          },
+          {
+            "s": "The supply of balconies on the central route is ____.",
+            "a": "fixed"
+          },
+          {
+            "s": "What ____ reveals is scarcity rather than quality.",
+            "a": "the going rate"
+          },
+          {
+            "s": "Residents regard the ceremonies as ____.",
+            "a": "a shared inheritance"
+          },
+          {
+            "s": "The finest ____ are increasingly taken by wealthy visitors.",
+            "a": "vantage points"
+          },
+          {
+            "s": "Tourist spending can sustain the local economy ____.",
+            "a": "in turn"
+          }
         ],
-        "extra": ["cashed in on", "lucrative"]
+        "extra": [
+          "cashed in on",
+          "lucrative"
+        ]
       },
       "match": [
-        { "t": "the going rate", "d": "the price people are currently paying" },
-        { "t": "cash in on", "d": "take financial advantage of a situation" },
-        { "t": "lucrative", "d": "producing a great deal of money" },
-        { "t": "vantage point", "d": "a position giving a good view" }
+        {
+          "t": "the going rate",
+          "d": "the price people are currently paying"
+        },
+        {
+          "t": "cash in on",
+          "d": "take financial advantage of a situation"
+        },
+        {
+          "t": "lucrative",
+          "d": "producing a great deal of money"
+        },
+        {
+          "t": "vantage point",
+          "d": "a position giving a good view"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The processions are expressions of religious ____ and civic identity.", "cue": "DEVOTE", "a": "devotion" },
-          { "s": "The economics are readily ____.", "cue": "UNDERSTAND", "a": "understandable" },
-          { "s": "The cultural ____ are less straightforward.", "cue": "IMPLY", "a": "implications" },
-          { "s": "Formal access is not the same as ____ access.", "cue": "MEAN", "a": "meaningful" },
-          { "s": "Traditions are maintained largely by habit, and habits are ____.", "cue": "FRAGILITY", "a": "fragile" }
+          {
+            "s": "The processions are expressions of religious ____ and civic identity.",
+            "cue": "DEVOTE",
+            "a": "devotion"
+          },
+          {
+            "s": "The economics are readily ____.",
+            "cue": "UNDERSTAND",
+            "a": "understandable"
+          },
+          {
+            "s": "The cultural ____ are less straightforward.",
+            "cue": "IMPLY",
+            "a": "implications"
+          },
+          {
+            "s": "Formal access is not the same as ____ access.",
+            "cue": "MEAN",
+            "a": "meaningful"
+          },
+          {
+            "s": "Traditions are maintained largely by habit, and habits are ____.",
+            "cue": "FRAGILITY",
+            "a": "fragile"
+          }
         ]
       },
       "tfn": [
-        { "s": "The article says the supply of central balconies cannot be expanded.", "a": "T" },
-        { "s": "The writer argues that owners should be banned from charging.", "a": "F" },
-        { "s": "The piece notes that festivals have long supported local businesses.", "a": "T" },
-        { "s": "Procession routes have already been changed for visitors.", "a": "N" }
+        {
+          "s": "Procession routes have already been changed for visitors.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The writer argues that owners should be banned from charging.",
+          "a": "F",
+          "why": "The text says the opposite: \"Defenders of the market point out that the streets remain publicly accessible and that balcony owners are entitled to control private space.\""
+        },
+        {
+          "s": "The piece notes that festivals have long supported local businesses.",
+          "a": "T",
+          "why": "The text says: \"Festivals have long supported hotels, restaurants and small businesses, and tourist spending can help sustain a local economy that sustains the festival in turn.\""
+        },
+        {
+          "s": "The article says the supply of central balconies cannot be expanded.",
+          "a": "T",
+          "why": "The text says: \"The processions attract enormous crowds, while the supply of balconies overlooking the central route is fixed and cannot be expanded.\""
+        }
       ]
     }
   }

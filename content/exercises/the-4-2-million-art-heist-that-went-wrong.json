@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "At 5.48am an alarm ____ at a small museum on the French Riviera.", "a": "went off" },
-          { "s": "Within minutes, police were ____, and the thieves were running out of time.", "a": "on their way" },
-          { "s": "The thieves ____ a fence and entered through a window.", "a": "cut through" },
-          { "s": "For several weeks, the missing paintings were ____.", "a": "nowhere to be found" },
-          { "s": "These clues helped investigators ____.", "a": "follow the trail" }
+          {
+            "s": "At 5.48am an alarm ____ at a small museum on the French Riviera.",
+            "a": "went off"
+          },
+          {
+            "s": "Within minutes, police were ____, and the thieves were running out of time.",
+            "a": "on their way"
+          },
+          {
+            "s": "The thieves ____ a fence and entered through a window.",
+            "a": "cut through"
+          },
+          {
+            "s": "For several weeks, the missing paintings were ____.",
+            "a": "nowhere to be found"
+          },
+          {
+            "s": "These clues helped investigators ____.",
+            "a": "follow the trail"
+          }
         ],
-        "extra": ["left behind", "damaged"]
+        "extra": [
+          "left behind",
+          "damaged"
+        ]
       },
       "match": [
-        { "t": "go off", "d": "start ringing loudly as a warning" },
-        { "t": "leave behind", "d": "go away without taking something" },
-        { "t": "damaged", "d": "harmed so that it is no longer perfect" },
-        { "t": "valuable", "d": "worth a great deal of money" }
+        {
+          "t": "go off",
+          "d": "start ringing loudly as a warning"
+        },
+        {
+          "t": "leave behind",
+          "d": "go away without taking something"
+        },
+        {
+          "t": "damaged",
+          "d": "harmed so that it is no longer perfect"
+        },
+        {
+          "t": "valuable",
+          "d": "worth a great deal of money"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "Two people had ____ into the former home of the painter.", "cue": "break", "a": "broken" },
-          { "s": "They ____ with two artworks but left the other two behind.", "cue": "escape", "a": "escaped" },
-          { "s": "Both paintings ____ to the museum by the Musée d'Orsay.", "cue": "lend", "a": "had been lent" },
-          { "s": "Police eventually ____ the two missing Renoirs.", "cue": "recover", "a": "recovered" },
-          { "s": "Specialists ____ to examine them before their return.", "cue": "ask", "a": "were asked" }
+          {
+            "s": "Two people had ____ into the former home of the painter.",
+            "cue": "break",
+            "a": "broken"
+          },
+          {
+            "s": "They ____ with two artworks but left the other two behind.",
+            "cue": "escape",
+            "a": "escaped"
+          },
+          {
+            "s": "Both paintings ____ to the museum by the Musée d'Orsay.",
+            "cue": "lend",
+            "a": "had been lent"
+          },
+          {
+            "s": "Police eventually ____ the two missing Renoirs.",
+            "cue": "recover",
+            "a": "recovered"
+          },
+          {
+            "s": "Specialists ____ to examine them before their return.",
+            "cue": "ask",
+            "a": "were asked"
+          }
         ]
       },
       "tfn": [
-        { "s": "The alarm sounded at 5.48am on 8 September 2026.", "a": "T" },
-        { "s": "The thieves escaped with all four paintings.", "a": "F" },
-        { "s": "A cover left behind contained DNA that helped identify a suspect.", "a": "T" },
-        { "s": "The museum has since installed new security cameras.", "a": "N" }
+        {
+          "s": "The alarm sounded at 5.48am on 8 September 2026.",
+          "a": "T",
+          "why": "The text says: \"At 5.48am on 8 September 2026, an alarm went off at a small museum on the French Riviera.\""
+        },
+        {
+          "s": "The thieves escaped with all four paintings.",
+          "a": "F",
+          "why": "The text says the opposite: \"They escaped with two artworks but left the other two behind.\""
+        },
+        {
+          "s": "The museum has since installed new security cameras.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "A cover left behind contained DNA that helped identify a suspect.",
+          "a": "T",
+          "why": "The text says: \"A cover left behind during the escape contained DNA that helped identify a suspect.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "The paintings were ____ the Musée d'Orsay in Paris.", "a": "on loan from" },
-          { "s": "The haul the thieves ____ was valued at about €4.2 million.", "a": "got away with" },
-          { "s": "Tracking information helped officers ____ the movements afterwards.", "a": "piece together" },
-          { "s": "Prosecutors believed a second theft might be ____.", "a": "imminent" },
-          { "s": "Four men received preliminary charges connected with ____.", "a": "handling stolen goods" },
-          { "s": "Their survival ____, though one canvas had a tear.", "a": "came as a relief" }
+          {
+            "s": "The paintings were ____ the Musée d'Orsay in Paris.",
+            "a": "on loan from"
+          },
+          {
+            "s": "The haul the thieves ____ was valued at about €4.2 million.",
+            "a": "got away with"
+          },
+          {
+            "s": "Tracking information helped officers ____ the movements afterwards.",
+            "a": "piece together"
+          },
+          {
+            "s": "Prosecutors believed a second theft might be ____.",
+            "a": "imminent"
+          },
+          {
+            "s": "Four men received preliminary charges connected with ____.",
+            "a": "handling stolen goods"
+          },
+          {
+            "s": "Their survival ____, though one canvas had a tear.",
+            "a": "came as a relief"
+          }
         ],
-        "extra": ["tracked down", "glamorous"]
+        "extra": [
+          "tracked down",
+          "glamorous"
+        ]
       },
       "match": [
-        { "t": "get away with", "d": "escape while keeping something stolen" },
-        { "t": "piece together", "d": "build a whole picture from scattered details" },
-        { "t": "track somebody down", "d": "find somebody after a long search" },
-        { "t": "glamorous", "d": "exciting and attractive in an unusual way" }
+        {
+          "t": "get away with",
+          "d": "escape while keeping something stolen"
+        },
+        {
+          "t": "piece together",
+          "d": "build a whole picture from scattered details"
+        },
+        {
+          "t": "track somebody down",
+          "d": "find somebody after a long search"
+        },
+        {
+          "t": "glamorous",
+          "d": "exciting and attractive in an unusual way"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The setting made the robbery particularly ____.", "cue": "STRIKE", "a": "striking" },
-          { "s": "Officers used tracking information and further ____.", "cue": "SURVEY", "a": "surveillance" },
-          { "s": "A small institution can hold works of ____ value.", "cue": "IMMENSITY", "a": "immense" },
-          { "s": "Those charges were ____ to be tested in court.", "cue": "ALLEGE", "a": "allegations" },
-          { "s": "The investigation reopened an ____ debate about museum security.", "cue": "COMFORT", "a": "uncomfortable" }
+          {
+            "s": "The setting made the robbery particularly ____.",
+            "cue": "STRIKE",
+            "a": "striking"
+          },
+          {
+            "s": "Officers used tracking information and further ____.",
+            "cue": "SURVEY",
+            "a": "surveillance"
+          },
+          {
+            "s": "A small institution can hold works of ____ value.",
+            "cue": "IMMENSITY",
+            "a": "immense"
+          },
+          {
+            "s": "Those charges were ____ to be tested in court.",
+            "cue": "ALLEGE",
+            "a": "allegations"
+          },
+          {
+            "s": "The investigation reopened an ____ debate about museum security.",
+            "cue": "COMFORT",
+            "a": "uncomfortable"
+          }
         ]
       },
       "tfn": [
-        { "s": "The Marseille prosecutor valued the stolen works at about €4.2 million.", "a": "T" },
-        { "s": "The four men charged had been convicted of the theft.", "a": "F" },
-        { "s": "One suspect had visited the Maeght Foundation.", "a": "T" },
-        { "s": "The stolen paintings were insured for their full value.", "a": "N" }
+        {
+          "s": "The Marseille prosecutor valued the stolen works at about €4.2 million.",
+          "a": "T",
+          "why": "The text says: \"The haul the thieves got away with was later valued by the Marseille prosecutor at approximately €4.2 million.\""
+        },
+        {
+          "s": "The stolen paintings were insured for their full value.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "One suspect had visited the Maeght Foundation.",
+          "a": "T",
+          "why": "The text says: \"Police observed that one suspect had visited the Maeght Foundation, another institution with important works of art.\""
+        },
+        {
+          "s": "The four men charged had been convicted of the theft.",
+          "a": "F",
+          "why": "The text says the opposite: \"Six people were arrested in total, and four men received preliminary charges connected with the theft or handling stolen goods.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The intruders had already ____, abandoning half their haul.", "a": "made off" },
-          { "s": "Investigators faced an unusually ____ theft.", "a": "conspicuous" },
-          { "s": "The alarm ____ before all four works could be taken.", "a": "cut the operation short" },
-          { "s": "Investigators eventually ____ an important trace on a cover.", "a": "came across" },
-          { "s": "The case illustrated ____ of elaborate criminal schemes.", "a": "a persistent weakness" },
-          { "s": "The harder a masterpiece is to ____ discreetly, the riskier the crime.", "a": "dispose of" }
+          {
+            "s": "The intruders had already ____, abandoning half their haul.",
+            "a": "made off"
+          },
+          {
+            "s": "Investigators faced an unusually ____ theft.",
+            "a": "conspicuous"
+          },
+          {
+            "s": "The alarm ____ before all four works could be taken.",
+            "a": "cut the operation short"
+          },
+          {
+            "s": "Investigators eventually ____ an important trace on a cover.",
+            "a": "came across"
+          },
+          {
+            "s": "The case illustrated ____ of elaborate criminal schemes.",
+            "a": "a persistent weakness"
+          },
+          {
+            "s": "The harder a masterpiece is to ____ discreetly, the riskier the crime.",
+            "a": "dispose of"
+          }
         ],
-        "extra": ["unscathed", "formidable"]
+        "extra": [
+          "unscathed",
+          "formidable"
+        ]
       },
       "match": [
-        { "t": "make off", "d": "leave quickly, usually after doing wrong" },
-        { "t": "dispose of", "d": "get rid of something unwanted" },
-        { "t": "unscathed", "d": "not harmed in any way" },
-        { "t": "formidable", "d": "impressively large or powerful" }
+        {
+          "t": "make off",
+          "d": "leave quickly, usually after doing wrong"
+        },
+        {
+          "t": "dispose of",
+          "d": "get rid of something unwanted"
+        },
+        {
+          "t": "unscathed",
+          "d": "not harmed in any way"
+        },
+        {
+          "t": "formidable",
+          "d": "impressively large or powerful"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The suspect was already under ____ in a separate case.", "cue": "INVESTIGATE", "a": "investigation" },
-          { "s": "Their cultural ____ made the disappearance troubling.", "cue": "SIGNIFY", "a": "significance" },
-          { "s": "Officers reconstructed links between individuals and ____.", "cue": "LOCATE", "a": "locations" },
-          { "s": "The works were transferred for specialist examination and potential ____.", "cue": "RESTORE", "a": "restoration" },
-          { "s": "Regional museums share a ____ that major galleries do not.", "cue": "VULNERABLE", "a": "vulnerability" }
+          {
+            "s": "The suspect was already under ____ in a separate case.",
+            "cue": "INVESTIGATE",
+            "a": "investigation"
+          },
+          {
+            "s": "Their cultural ____ made the disappearance troubling.",
+            "cue": "SIGNIFY",
+            "a": "significance"
+          },
+          {
+            "s": "Officers reconstructed links between individuals and ____.",
+            "cue": "LOCATE",
+            "a": "locations"
+          },
+          {
+            "s": "The works were transferred for specialist examination and potential ____.",
+            "cue": "RESTORE",
+            "a": "restoration"
+          },
+          {
+            "s": "Regional museums share a ____ that major galleries do not.",
+            "cue": "VULNERABLE",
+            "a": "vulnerability"
+          }
         ]
       },
       "tfn": [
-        { "s": "Municipal police reached the museum five minutes after the alarm.", "a": "T" },
-        { "s": "The article treats all the allegations as established facts.", "a": "F" },
-        { "s": "Officials reported a torn canvas and damage to a frame.", "a": "T" },
-        { "s": "A trial date has been set for the four men charged.", "a": "N" }
+        {
+          "s": "Officials reported a torn canvas and damage to a frame.",
+          "a": "T",
+          "why": "The text says: \"The paintings were recovered, but not unscathed: officials reported a torn canvas and damage to a frame.\""
+        },
+        {
+          "s": "Municipal police reached the museum five minutes after the alarm.",
+          "a": "T",
+          "why": "The text says: \"Five minutes later, municipal police were at the scene.\""
+        },
+        {
+          "s": "A trial date has been set for the four men charged.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The article treats all the allegations as established facts.",
+          "a": "F",
+          "why": "The text says the opposite: \"Describing the investigation as a solved mystery should not be mistaken for treating all allegations as established facts.\""
+        }
       ]
     }
   }

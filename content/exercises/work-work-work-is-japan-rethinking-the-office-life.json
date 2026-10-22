@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "Your manager is still at their desk, so you ____ again.", "a": "sit down" },
-          { "s": "Japan has a word, karoshi, which means ____.", "a": "death from overwork" },
-          { "s": "The report showed that the problem has not ____.", "a": "gone away" },
-          { "s": "Many industries are finding it difficult to ____ staff.", "a": "take on" },
-          { "s": "Long hours are not ____ either.", "a": "proof of commitment" }
+          {
+            "s": "Your manager is still at their desk, so you ____ again.",
+            "a": "sit down"
+          },
+          {
+            "s": "Japan has a word, karoshi, which means ____.",
+            "a": "death from overwork"
+          },
+          {
+            "s": "The report showed that the problem has not ____.",
+            "a": "gone away"
+          },
+          {
+            "s": "Many industries are finding it difficult to ____ staff.",
+            "a": "take on"
+          },
+          {
+            "s": "Long hours are not ____ either.",
+            "a": "proof of commitment"
+          }
         ],
-        "extra": ["go home", "flexible"]
+        "extra": [
+          "go home",
+          "flexible"
+        ]
       },
       "match": [
-        { "t": "take on", "d": "employ somebody to do a job" },
-        { "t": "go away", "d": "stop being present or troubling" },
-        { "t": "flexible", "d": "able to change to suit new conditions" },
-        { "t": "go home", "d": "return to the place where you live" }
+        {
+          "t": "take on",
+          "d": "employ somebody to do a job"
+        },
+        {
+          "t": "go away",
+          "d": "stop being present or troubling"
+        },
+        {
+          "t": "flexible",
+          "d": "able to change to suit new conditions"
+        },
+        {
+          "t": "go home",
+          "d": "return to the place where you live"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "In some Japanese offices, employees have ____ that leaving first looks disloyal.", "cue": "feel", "a": "felt" },
-          { "s": "The government has ____ rules and campaigns to reduce overtime.", "cue": "introduce", "a": "introduced" },
-          { "s": "In October 2026, the ministry ____ another report on overwork.", "cue": "publish", "a": "published" },
-          { "s": "Its population ____, and workers are hard to find.", "cue": "age", "a": "is ageing" },
-          { "s": "A shorter working day is not automatically a ____ one.", "cue": "happy", "a": "happier" }
+          {
+            "s": "In some Japanese offices, employees have ____ that leaving first looks disloyal.",
+            "cue": "feel",
+            "a": "felt"
+          },
+          {
+            "s": "The government has ____ rules and campaigns to reduce overtime.",
+            "cue": "introduce",
+            "a": "introduced"
+          },
+          {
+            "s": "In October 2026, the ministry ____ another report on overwork.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "Its population ____, and workers are hard to find.",
+            "cue": "age",
+            "a": "is ageing"
+          },
+          {
+            "s": "In a survey reported in March 2026, 30% of respondents said they ____ to work fewer hours.",
+            "cue": "want",
+            "a": "wanted"
+          }
         ]
       },
       "tfn": [
-        { "s": "Karoshi means death from overwork.", "a": "T" },
-        { "s": "The September 2026 change removed all legal limits on overtime.", "a": "F" },
-        { "s": "About 11% of survey respondents said they wanted to work more hours.", "a": "T" },
-        { "s": "Japanese offices now close at a fixed time by law.", "a": "N" }
+        {
+          "s": "Japanese offices now close at a fixed time by law.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "About 11% of survey respondents said they wanted to work more hours.",
+          "a": "T",
+          "why": "The text says: \"In a labour ministry survey reported in March 2026, 30% of respondents said they wanted to work fewer hours, while about 11% wanted to work more.\""
+        },
+        {
+          "s": "The September 2026 change removed all legal limits on overtime.",
+          "a": "F",
+          "why": "The text says the opposite: \"In September 2026, the government changed the way it advises companies about a recommended monthly overtime limit.\""
+        },
+        {
+          "s": "Karoshi means death from overwork.",
+          "a": "T",
+          "why": "The text says: \"Japan has a word, \"karoshi\", which means death from overwork.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "One employee wants to ____ in time for the train home.", "a": "clock off" },
-          { "s": "Reforms were intended to encourage ____ and reduce overtime.", "a": "annual leave" },
-          { "s": "Japan has an ageing population and a severe ____.", "a": "labour shortage" },
-          { "s": "That hardly amounts to an ____ demand for longer hours.", "a": "overwhelming" },
-          { "s": "Careers should not depend on never ____.", "a": "saying no" },
-          { "s": "Workplaces should attract people who might otherwise ____ of the labour market.", "a": "drop out" }
+          {
+            "s": "One employee wants to ____ in time for the train home.",
+            "a": "clock off"
+          },
+          {
+            "s": "Reforms were intended to encourage ____ and reduce overtime.",
+            "a": "annual leave"
+          },
+          {
+            "s": "Japan has an ageing population and a severe ____.",
+            "a": "labour shortage"
+          },
+          {
+            "s": "That hardly amounts to an ____ demand for longer hours.",
+            "a": "overwhelming"
+          },
+          {
+            "s": "Careers should not depend on never ____.",
+            "a": "saying no"
+          },
+          {
+            "s": "Workplaces should attract people who might otherwise ____ of the labour market.",
+            "a": "drop out"
+          }
         ],
-        "extra": ["keep up", "eligible"]
+        "extra": [
+          "keep up",
+          "eligible"
+        ]
       },
       "match": [
-        { "t": "clock off", "d": "finish work and leave for the day" },
-        { "t": "drop out", "d": "stop taking part in something" },
-        { "t": "keep up", "d": "continue at the same rate as others" },
-        { "t": "eligible", "d": "allowed to take part or receive something" }
+        {
+          "t": "clock off",
+          "d": "finish work and leave for the day"
+        },
+        {
+          "t": "drop out",
+          "d": "stop taking part in something"
+        },
+        {
+          "t": "keep up",
+          "d": "continue at the same rate as others"
+        },
+        {
+          "t": "eligible",
+          "d": "allowed to take part or receive something"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Leaving first should be an ____ decision.", "cue": "ORDER", "a": "ordinary" },
-          { "s": "Campaigning and ____ cases have led to reforms.", "cue": "PROFILE", "a": "high-profile" },
-          { "s": "Japan has a ____ labour shortage in several sectors.", "cue": "SEVERITY", "a": "severe" },
-          { "s": "Existing legal ____ were not simply abolished.", "cue": "PROTECT", "a": "protections" },
-          { "s": "Greater ____ and better technology both have a role.", "cue": "PRODUCTIVE", "a": "productivity" }
+          {
+            "s": "Leaving first should be a ____ decision.",
+            "cue": "NORM",
+            "a": "normal"
+          },
+          {
+            "s": "Campaigning and widely ____ cases have led to reforms.",
+            "cue": "REPORT",
+            "a": "reported"
+          },
+          {
+            "s": "Japan has a ____ labour shortage in several sectors.",
+            "cue": "SEVERITY",
+            "a": "severe"
+          },
+          {
+            "s": "Existing legal ____ were not simply abolished.",
+            "cue": "PROTECT",
+            "a": "protections"
+          },
+          {
+            "s": "Greater ____ and better technology both have a role.",
+            "cue": "PRODUCTIVE",
+            "a": "productivity"
+          }
         ]
       },
       "tfn": [
-        { "s": "From September 2026 the government stopped universally urging a 45-hour overtime limit.", "a": "T" },
-        { "s": "The labour ministry survey showed an overwhelming demand for longer hours.", "a": "F" },
-        { "s": "Tokyo's metropolitan government has offered eligible staff a four-day week.", "a": "T" },
-        { "s": "Most Japanese companies have adopted the four-day week.", "a": "N" }
+        {
+          "s": "Most Japanese companies have adopted the four-day week.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Tokyo's metropolitan government has offered eligible staff a four-day week.",
+          "a": "T",
+          "why": "The text says: \"Tokyo's metropolitan government has offered a four-day working-week option to eligible staff, though it is not a national requirement.\""
+        },
+        {
+          "s": "The labour ministry survey showed an overwhelming demand for longer hours.",
+          "a": "F",
+          "why": "The text says the opposite: \"A labour ministry survey reported in March found that 30% of respondents wanted shorter hours, around one in ten wanted longer ones and the majority were satisfied with their current schedule.\""
+        },
+        {
+          "s": "From September 2026 the government stopped universally urging a 45-hour overtime limit.",
+          "a": "T",
+          "why": "The text says: \"From September 2026, the government stopped universally urging companies to hold overtime to a recommended 45 hours a month.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The ____ fact may be whether the manager has stood up.", "a": "decisive" },
-          { "s": "That tension sits ____ Japan's struggle with office culture.", "a": "at the heart of" },
-          { "s": "The consequences have sometimes been ____.", "a": "devastating" },
-          { "s": "Employers have ____ greater flexibility over working hours.", "a": "pressed for" },
-          { "s": "It prompted fears that ____ could be diluted.", "a": "hard-won reforms" },
-          { "s": "A workplace should ____ a life outside employment.", "a": "leave room for" }
+          {
+            "s": "The ____ fact may be whether the manager has stood up.",
+            "a": "decisive"
+          },
+          {
+            "s": "That tension sits ____ Japan's struggle with office culture.",
+            "a": "at the heart of"
+          },
+          {
+            "s": "The consequences have sometimes been ____.",
+            "a": "devastating"
+          },
+          {
+            "s": "Employers have ____ greater flexibility over working hours.",
+            "a": "pressed for"
+          },
+          {
+            "s": "It prompted fears that ____ could be diluted.",
+            "a": "hard-won reforms"
+          },
+          {
+            "s": "A workplace should ____ a life outside employment.",
+            "a": "leave room for"
+          }
         ],
-        "extra": ["let down", "uneven"]
+        "extra": [
+          "let down",
+          "uneven"
+        ]
       },
       "match": [
-        { "t": "press for", "d": "demand something repeatedly and firmly" },
-        { "t": "let somebody down", "d": "fail to do what others expected of you" },
-        { "t": "uneven", "d": "not the same everywhere" },
-        { "t": "in practice", "d": "in real situations rather than in theory" }
+        {
+          "t": "press for",
+          "d": "demand something repeatedly and firmly"
+        },
+        {
+          "t": "let somebody down",
+          "d": "fail to do what others expected of you"
+        },
+        {
+          "t": "uneven",
+          "d": "not the same everywhere"
+        },
+        {
+          "t": "in practice",
+          "d": "in real situations rather than in theory"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Physical presence has functioned as a visible measure of ____.", "cue": "DEDICATE", "a": "dedication" },
-          { "s": "Public campaigning has made the issue impossible to ____.", "cue": "DISMISSAL", "a": "dismiss" },
-          { "s": "This was a change in guidance, not a wholesale ____ of protections.", "cue": "ABOLISH", "a": "abolition" },
-          { "s": "Fatigue, illness and ____ carry costs of their own.", "cue": "ENGAGE", "a": "disengagement" },
-          { "s": "A more ____ measure of success would value achievement over appearances.", "cue": "DURATION", "a": "durable" }
+          {
+            "s": "Physical presence has functioned as a visible measure of ____.",
+            "cue": "DEDICATE",
+            "a": "dedication"
+          },
+          {
+            "s": "Public campaigning has made the issue impossible to ____.",
+            "cue": "DISMISSAL",
+            "a": "dismiss"
+          },
+          {
+            "s": "This was a change in guidance, not a wholesale ____ of protections.",
+            "cue": "ABOLISH",
+            "a": "abolition"
+          },
+          {
+            "s": "Fatigue, illness and ____ carry costs of their own.",
+            "cue": "ENGAGE",
+            "a": "disengagement"
+          },
+          {
+            "s": "A more ____ measure of success would value achievement over appearances.",
+            "cue": "DURATION",
+            "a": "durable"
+          }
         ]
       },
       "tfn": [
-        { "s": "The October 2026 white paper examined compensation claims and mental-health risks.", "a": "T" },
-        { "s": "Statutory overtime protections were abolished in September 2026.", "a": "F" },
-        { "s": "30% of survey respondents wanted fewer hours, against 10.5% who wanted more.", "a": "T" },
-        { "s": "Karoshi cases have fallen since the reforms began.", "a": "N" }
+        {
+          "s": "Karoshi cases have fallen since the reforms began.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "30% of survey respondents wanted fewer hours, against 10.5% who wanted more.",
+          "a": "T",
+          "why": "The text says: \"In a labour ministry survey reported in March, 30% of respondents wanted fewer hours, compared with 10.5% who wanted to work more.\""
+        },
+        {
+          "s": "Statutory overtime protections were abolished in September 2026.",
+          "a": "F",
+          "why": "The text says the opposite: \"This was a change in guidance, not a wholesale abolition of statutory overtime protections, yet it prompted fears that hard-won reforms could be diluted.\""
+        },
+        {
+          "s": "The October 2026 white paper examined compensation claims and mental-health risks.",
+          "a": "T",
+          "why": "The text says: \"The labour ministry's October 2026 white paper continued to examine compensation claims, mental-health risks and prevention.\""
+        }
       ]
     }
   }

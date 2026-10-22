@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "Nobody invited them, so why have they ____?", "a": "turned up" },
-          { "s": "Some couples visit other people's weddings to ____ the venue.", "a": "look around" },
-          { "s": "It can help couples decide whether a venue is ____.", "a": "worth the money" },
-          { "s": "Uninvited visitors may also ____ of the staff.", "a": "get in the way" },
-          { "s": "A real wedding gives visitors ____.", "a": "a much more complete picture" }
+          {
+            "s": "Nobody invited them, so why have they ____?",
+            "a": "turned up"
+          },
+          {
+            "s": "Some couples visit other people's weddings to ____ the venue.",
+            "a": "look around"
+          },
+          {
+            "s": "It can help couples decide whether a venue is ____.",
+            "a": "worth the money"
+          },
+          {
+            "s": "Uninvited visitors may also ____ of the staff.",
+            "a": "get in the way"
+          },
+          {
+            "s": "A real wedding gives visitors ____.",
+            "a": "a much more complete picture"
+          }
         ],
-        "extra": ["find out", "awkward"]
+        "extra": [
+          "find out",
+          "awkward"
+        ]
       },
       "match": [
-        { "t": "look around", "d": "walk through a place to see what it is like" },
-        { "t": "get in the way", "d": "stop somebody doing what they need to do" },
-        { "t": "awkward", "d": "uncomfortable and difficult to handle" },
-        { "t": "find out", "d": "discover a piece of information" }
+        {
+          "t": "look around",
+          "d": "walk through a place to see what it is like"
+        },
+        {
+          "t": "get in the way",
+          "d": "stop somebody doing what they need to do"
+        },
+        {
+          "t": "awkward",
+          "d": "uncomfortable and difficult to handle"
+        },
+        {
+          "t": "find out",
+          "d": "discover a piece of information"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "The practice ____ an undercover tour.", "cue": "call", "a": "has been called" },
-          { "s": "Booking a venue often means ____ a large deposit.", "cue": "pay", "a": "paying" },
-          { "s": "However, the idea ____ some people angry.", "cue": "make", "a": "has made" },
-          { "s": "Wedding crashers are usually ____ as people looking for free food.", "cue": "imagine", "a": "imagined" },
-          { "s": "They are studying the room rather than ____ themselves.", "cue": "enjoy", "a": "enjoying" }
+          {
+            "s": "The practice ____ an undercover tour.",
+            "cue": "call",
+            "a": "has been called"
+          },
+          {
+            "s": "Booking a venue often means ____ a large deposit.",
+            "cue": "pay",
+            "a": "paying"
+          },
+          {
+            "s": "However, the idea ____ some people angry.",
+            "cue": "make",
+            "a": "has made"
+          },
+          {
+            "s": "Wedding crashers are usually ____ as people looking for free food.",
+            "cue": "imagine",
+            "a": "imagined"
+          },
+          {
+            "s": "They are studying the room rather than ____ themselves.",
+            "cue": "enjoy",
+            "a": "enjoying"
+          }
         ]
       },
       "tfn": [
-        { "s": "The visitors are studying the room rather than celebrating.", "a": "T" },
-        { "s": "Couples can always change their booking after paying a deposit.", "a": "F" },
-        { "s": "A couple can book an official tour instead.", "a": "T" },
-        { "s": "Venues in South Korea have banned the practice.", "a": "N" }
+        {
+          "s": "Couples can always change their booking after paying a deposit.",
+          "a": "F",
+          "why": "The text says the opposite: \"Booking a venue often means paying a large deposit months before the day, and it is not easy to change your mind later.\""
+        },
+        {
+          "s": "A couple can book an official tour instead.",
+          "a": "T",
+          "why": "The text says: \"A couple can book an official tour, or ask the venue to show them a video of a real event.\""
+        },
+        {
+          "s": "Venues in South Korea have banned the practice.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The visitors are studying the room rather than celebrating.",
+          "a": "T",
+          "why": "The text says: \"They are carrying out research, and they are studying the room rather than enjoying themselves.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Some couples have been ____ at strangers' ceremonies.", "a": "turning up" },
-          { "s": "The tour allows customers to see a hall ____.", "a": "in action" },
-          { "s": "There is pressure to ____ of the day.", "a": "get every detail right" },
-          { "s": "____ later would mean losing money.", "a": "Backing out" },
-          { "s": "Nobody would buy a car without ____ first.", "a": "taking it out for a drive" },
-          { "s": "Clear pricing would help couples book with some ____.", "a": "peace of mind" }
+          {
+            "s": "Some couples have been ____ at strangers' ceremonies.",
+            "a": "turning up"
+          },
+          {
+            "s": "The tour allows customers to see a hall ____.",
+            "a": "in action"
+          },
+          {
+            "s": "There is pressure to ____.",
+            "a": "get every detail right"
+          },
+          {
+            "s": "____ later would mean losing money.",
+            "a": "Backing out"
+          },
+          {
+            "s": "Nobody would buy a car without ____ first.",
+            "a": "taking it out for a drive"
+          },
+          {
+            "s": "Clear pricing would help couples book with some ____.",
+            "a": "peace of mind"
+          }
         ],
-        "extra": ["wander around", "supervised"]
+        "extra": [
+          "wander around",
+          "supervised"
+        ]
       },
       "match": [
-        { "t": "back out", "d": "withdraw from an agreement you made" },
-        { "t": "in action", "d": "actually working or being used" },
-        { "t": "wander around", "d": "walk about with no fixed direction" },
-        { "t": "supervised", "d": "watched over by somebody responsible" }
+        {
+          "t": "back out",
+          "d": "withdraw from an agreement you made"
+        },
+        {
+          "t": "in action",
+          "d": "actually working or being used"
+        },
+        {
+          "t": "wander around",
+          "d": "walk about with no fixed direction"
+        },
+        {
+          "t": "supervised",
+          "d": "watched over by somebody responsible"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The tour allows ____ customers to see the venue.", "cue": "PROSPECT", "a": "prospective" },
-          { "s": "Invited guests may feel ____ when strangers wander around.", "cue": "COMFORT", "a": "uncomfortable" },
-          { "s": "A wedding is not a public product ____.", "cue": "DEMONSTRATE", "a": "demonstration" },
-          { "s": "Choosing a venue unseen may feel ____.", "cue": "RISK", "a": "risky" },
-          { "s": "Venues could reduce the ____ with supervised visits.", "cue": "TEMPT", "a": "temptation" }
+          {
+            "s": "The tour allows ____ customers to see the venue.",
+            "cue": "PROSPECT",
+            "a": "prospective"
+          },
+          {
+            "s": "Invited guests may feel ____ when strangers wander around.",
+            "cue": "COMFORT",
+            "a": "uncomfortable"
+          },
+          {
+            "s": "A wedding is not a public product ____.",
+            "cue": "DEMONSTRATE",
+            "a": "demonstration"
+          },
+          {
+            "s": "Choosing a venue unseen may feel ____.",
+            "cue": "RISK",
+            "a": "risky"
+          },
+          {
+            "s": "Venues could reduce the ____ with supervised visits.",
+            "cue": "TEMPT",
+            "a": "temptation"
+          }
         ]
       },
       "tfn": [
-        { "s": "Supporters present the practice as sensible research.", "a": "T" },
-        { "s": "The couple getting married have agreed to the visits.", "a": "F" },
-        { "s": "The article suggests supervised visits as an alternative.", "a": "T" },
-        { "s": "Most South Korean venues now offer video tours.", "a": "N" }
+        {
+          "s": "Supporters present the practice as sensible research.",
+          "a": "T",
+          "why": "The text says: \"Supporters of the practice present it as sensible research.\""
+        },
+        {
+          "s": "The couple getting married have agreed to the visits.",
+          "a": "F",
+          "why": "The text says the opposite: \"Invited guests may feel uncomfortable when unfamiliar people wander around, and the couple getting married may resent strangers using their celebration for research.\""
+        },
+        {
+          "s": "The article suggests supervised visits as an alternative.",
+          "a": "T",
+          "why": "The text says: \"Supervised visits during real events, arranged with the couple's permission, would give customers the same information without the secrecy.\""
+        },
+        {
+          "s": "Most South Korean venues now offer video tours.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "Some couples have adopted an ____ method of assessing venues.", "a": "unconventional" },
-          { "s": "A ____ showroom presentation reveals little about the real atmosphere.", "a": "polished" },
-          { "s": "____ while it is working is the one test marketing cannot stage.", "a": "Sizing the place up" },
-          { "s": "The customers ____ an inspection have not secured consent.", "a": "carrying out" },
-          { "s": "A booking starts to feel less like a purchase than ____.", "a": "a leap of faith" },
-          { "s": "A venue confident that its service ____ loses little.", "a": "stands up to scrutiny" }
+          {
+            "s": "Some couples have adopted an ____ method of assessing venues.",
+            "a": "unconventional"
+          },
+          {
+            "s": "A ____ showroom presentation reveals little about the real atmosphere.",
+            "a": "polished"
+          },
+          {
+            "s": "____ while it is working is the one test marketing cannot stage.",
+            "a": "Sizing the place up"
+          },
+          {
+            "s": "The customers ____ an inspection have not secured consent.",
+            "a": "carrying out"
+          },
+          {
+            "s": "A booking starts to feel less like a purchase than ____.",
+            "a": "a leap of faith"
+          },
+          {
+            "s": "A venue confident that its service ____ loses little.",
+            "a": "stands up to scrutiny"
+          }
         ],
-        "extra": ["fall back on", "flawless"]
+        "extra": [
+          "fall back on",
+          "flawless"
+        ]
       },
       "match": [
-        { "t": "size somebody up", "d": "form a judgement by observing carefully" },
-        { "t": "fall back on", "d": "rely on something when nothing else helps" },
-        { "t": "flawless", "d": "with nothing at all wrong with it" },
-        { "t": "glossy", "d": "attractive on the surface but shallow" }
+        {
+          "t": "size somebody up",
+          "d": "form a judgement by observing carefully"
+        },
+        {
+          "t": "fall back on",
+          "d": "rely on something when nothing else helps"
+        },
+        {
+          "t": "flawless",
+          "d": "with nothing at all wrong with it"
+        },
+        {
+          "t": "glossy",
+          "d": "attractive on the surface but shallow"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Ceremonies can involve substantial ____ and intense expectations.", "cue": "EXPEND", "a": "expenditure" },
-          { "s": "A brochure reveals little about the ____ of the staff.", "cue": "COMPETENT", "a": "competence" },
-          { "s": "____, on that reading, is a question of consent.", "cue": "DISCREET", "a": "Discretion" },
-          { "s": "Permission-based sessions would increase ____.", "cue": "TRANSPARENT", "a": "transparency" },
-          { "s": "Ordinary caution can shade into something closer to ____.", "cue": "SURVEY", "a": "surveillance" }
+          {
+            "s": "Ceremonies can involve substantial ____ and intense expectations.",
+            "cue": "EXPEND",
+            "a": "expenditure"
+          },
+          {
+            "s": "A brochure reveals little about the ____ of the staff.",
+            "cue": "COMPETENT",
+            "a": "competence"
+          },
+          {
+            "s": "____, on that reading, is a question of consent.",
+            "cue": "DISCREET",
+            "a": "Discretion"
+          },
+          {
+            "s": "Permission-based sessions would increase ____.",
+            "cue": "TRANSPARENT",
+            "a": "transparency"
+          },
+          {
+            "s": "Ordinary caution can shade into something closer to ____.",
+            "cue": "INTRUDE",
+            "a": "intrusion"
+          }
         ]
       },
       "tfn": [
-        { "s": "Wedding venues are commercial premises hosting private occasions.", "a": "T" },
-        { "s": "The writer says research can establish how an evening will feel.", "a": "F" },
-        { "s": "The article suggests the industry helped create the behaviour.", "a": "T" },
-        { "s": "Korean wedding spending has risen in recent years.", "a": "N" }
+        {
+          "s": "The article suggests the industry helped create the behaviour.",
+          "a": "T",
+          "why": "The text says: \"If a wedding has become something to be researched like a car or a property investment, perhaps the industry itself has helped create the behaviour it now finds so awkward.\""
+        },
+        {
+          "s": "The writer says research can establish how an evening will feel.",
+          "a": "F",
+          "why": "The text says the opposite: \"Research can establish how a hall functions; it cannot establish how an evening will feel, which is why couples eventually have to fall back on judgement.\""
+        },
+        {
+          "s": "Korean wedding spending has risen in recent years.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Wedding venues are commercial premises hosting private occasions.",
+          "a": "T",
+          "why": "The text says: \"Wedding venues are commercial premises, but the ceremonies taking place inside them are private occasions.\""
+        }
       ]
     }
   }

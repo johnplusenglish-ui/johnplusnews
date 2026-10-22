@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "When a friend ____ for something small, it should be a treat, not a loan.", "a": "picks up the bill" },
-          { "s": "Some friends prefer to ____ each time they meet.", "a": "split the bill" },
-          { "s": "A student watching every penny may find several coffees a week ____.", "a": "expensive" },
-          { "s": "If a friend always forgets to pay, small costs soon ____.", "a": "add up" },
-          { "s": "Nobody wants to feel that somebody is ____ them.", "a": "taking advantage of" }
+          {
+            "s": "When a friend ____ for something small, it should be a treat, not a loan.",
+            "a": "picks up the bill"
+          },
+          {
+            "s": "Some friends prefer to ____ each time they meet.",
+            "a": "split the bill"
+          },
+          {
+            "s": "A student watching every penny may find several coffees a week ____.",
+            "a": "expensive"
+          },
+          {
+            "s": "If a friend always forgets to pay, small costs soon ____.",
+            "a": "add up"
+          },
+          {
+            "s": "Nobody wants to feel that somebody is ____ them.",
+            "a": "taking advantage of"
+          }
         ],
-        "extra": ["speak up", "unfair"]
+        "extra": [
+          "speak up",
+          "unfair"
+        ]
       },
       "match": [
-        { "t": "add up", "d": "slowly become a large amount" },
-        { "t": "take advantage of", "d": "use somebody unfairly for your own benefit" },
-        { "t": "speak up", "d": "say what you think, even when it is difficult" },
-        { "t": "unfair", "d": "not treating everybody in the same way" }
+        {
+          "t": "add up",
+          "d": "slowly become a large amount"
+        },
+        {
+          "t": "take advantage of",
+          "d": "use somebody unfairly for your own benefit"
+        },
+        {
+          "t": "speak up",
+          "d": "say what you think, even when it is difficult"
+        },
+        {
+          "t": "unfair",
+          "d": "not treating everybody in the same way"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "Johanna Cosgrove ____ on a train when her phone lit up.", "cue": "sit", "a": "was sitting" },
-          { "s": "In an article ____ in September 2026, she described why the message upset her.", "cue": "publish", "a": "published" },
-          { "s": "Prices ____ up in many places in recent years.", "cue": "go", "a": "have gone" },
-          { "s": "Payment apps ____ this very simple.", "cue": "make", "a": "make" },
-          { "s": "Nobody wants to feel that they ____ advantage of.", "cue": "take", "a": "are being taken" }
+          {
+            "s": "Johanna Cosgrove ____ on a train when her phone lit up.",
+            "cue": "sit",
+            "a": "was sitting"
+          },
+          {
+            "s": "In an article ____ in September 2026, she described why the message upset her.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "Prices ____ up in many places in recent years.",
+            "cue": "go",
+            "a": "have gone"
+          },
+          {
+            "s": "Payment apps ____ this very simple.",
+            "cue": "make",
+            "a": "make"
+          },
+          {
+            "s": "Nobody wants to feel that they ____ advantage of.",
+            "cue": "take",
+            "a": "are being taken"
+          }
         ]
       },
       "tfn": [
-        { "s": "Cosgrove's friend asked her for A$12.50 after they met.", "a": "T" },
-        { "s": "Cosgrove believes every bill between friends should be split exactly.", "a": "F" },
-        { "s": "Payment apps let people send small amounts in seconds.", "a": "T" },
-        { "s": "Most Australians now use payment apps to split restaurant bills.", "a": "N" }
+        {
+          "s": "Most Australians now use payment apps to split restaurant bills.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Cosgrove believes every bill between friends should be split exactly.",
+          "a": "F",
+          "why": "The text says the opposite: \"She believes that when a friend picks up the bill for something small, it should be a treat, not a loan.\""
+        },
+        {
+          "s": "Payment apps let people send small amounts in seconds.",
+          "a": "T",
+          "why": "The text says: \"You can send a small amount in seconds, while walking home.\""
+        },
+        {
+          "s": "Cosgrove's friend asked her for A$12.50 after they met.",
+          "a": "T",
+          "why": "The text says: \"Then came an unexpected message: her friend wanted A$12.50 for the drink.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Friends should be able to treat each other without keeping a ____.", "a": "running total" },
-          { "s": "If one person picks up the tab, the other can ____ another day.", "a": "return the favour" },
-          { "s": "One reason the argument ____ is that people have different ideas about money.", "a": "strikes a nerve" },
-          { "s": "Nobody feels indebted and everything is ____.", "a": "above board" },
-          { "s": "A generous friend who always pays might eventually feel ____.", "a": "taken for granted" },
-          { "s": "An honest conversation could ____ before annoyance builds up.", "a": "clear the air" }
+          {
+            "s": "Friends should be able to treat each other without keeping a ____.",
+            "a": "running total"
+          },
+          {
+            "s": "If one person picks up the tab, the other can ____ another day.",
+            "a": "return the favour"
+          },
+          {
+            "s": "One reason the argument ____ is that people have different ideas about money.",
+            "a": "strikes a nerve"
+          },
+          {
+            "s": "Nobody feels indebted and everything is ____.",
+            "a": "above board"
+          },
+          {
+            "s": "A generous friend who always pays might eventually feel ____.",
+            "a": "taken for granted"
+          },
+          {
+            "s": "An honest conversation could ____ before annoyance builds up.",
+            "a": "clear the air"
+          }
         ],
-        "extra": ["laugh it off", "considerate"]
+        "extra": [
+          "laugh it off",
+          "considerate"
+        ]
       },
       "match": [
-        { "t": "above board", "d": "open and honest, with nothing hidden" },
-        { "t": "strike a nerve", "d": "touch on something people feel strongly about" },
-        { "t": "laugh something off", "d": "treat a problem as a joke so it seems small" },
-        { "t": "considerate", "d": "thinking about how other people feel" }
+        {
+          "t": "above board",
+          "d": "open and honest, with nothing hidden"
+        },
+        {
+          "t": "strike a nerve",
+          "d": "touch on something people feel strongly about"
+        },
+        {
+          "t": "laugh something off",
+          "d": "treat a problem as a joke so it seems small"
+        },
+        {
+          "t": "considerate",
+          "d": "thinking about how other people feel"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "A casual catch-up had suddenly turned into a ____.", "cue": "TRANSACT", "a": "transaction" },
-          { "s": "To some, splitting every bill is a sign of ____.", "cue": "RESPECTFUL", "a": "respect" },
-          { "s": "A$12.50 may be ____ to one person and a real expense to another.", "cue": "SIGNIFICANCE", "a": "insignificant" },
-          { "s": "What seems selfish in one culture can seem ____ in another.", "cue": "CONSIDER", "a": "considerate" },
-          { "s": "A harmless difference in habits can become a lasting ____.", "cue": "UNDERSTAND", "a": "misunderstanding" }
+          {
+            "s": "A casual catch-up had suddenly turned into a ____.",
+            "cue": "TRANSACT",
+            "a": "transaction"
+          },
+          {
+            "s": "To some, splitting every bill is a sign of ____.",
+            "cue": "RESPECTFUL",
+            "a": "respect"
+          },
+          {
+            "s": "A$12.50 may be ____ to one person and a real expense to another.",
+            "cue": "SIGNIFICANCE",
+            "a": "insignificant"
+          },
+          {
+            "s": "What seems selfish in one culture can seem ____ in another.",
+            "cue": "CONSIDER",
+            "a": "considerate"
+          },
+          {
+            "s": "A harmless difference in habits can become a lasting ____.",
+            "cue": "UNDERSTAND",
+            "a": "misunderstanding"
+          }
         ]
       },
       "tfn": [
-        { "s": "Cosgrove's personal rule concerns expenses below A$15.", "a": "T" },
-        { "s": "Cosgrove presents her rule as a law that everybody should follow.", "a": "F" },
-        { "s": "Instant transfers have made settling up easier than before.", "a": "T" },
-        { "s": "Cosgrove's friend apologised after reading the article.", "a": "N" }
+        {
+          "s": "Cosgrove's friend apologised after reading the article.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Cosgrove's personal rule concerns expenses below A$15.",
+          "a": "T",
+          "why": "The text says: \"Her personal rule is that expenses below A$15 should generally be left alone.\""
+        },
+        {
+          "s": "Cosgrove presents her rule as a law that everybody should follow.",
+          "a": "F",
+          "why": "The text says the opposite: \"It was her opinion, not a universal law, but it raises a question: where does fairness end and generosity begin?\""
+        },
+        {
+          "s": "Instant transfers have made settling up easier than before.",
+          "a": "T",
+          "why": "The text says: \"The rise of instant transfers has made settling up effortless, but it has also made it easier to put a price on moments that once passed without comment.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "A message ____ an otherwise enjoyable afternoon.", "a": "took the shine off" },
-          { "s": "Cosgrove made the case for financial ____ between friends.", "a": "looseness" },
-          { "s": "Digital payments have made settling up almost ____.", "a": "frictionless" },
-          { "s": "Between close friends, precision may come across as oddly ____.", "a": "formal" },
-          { "s": "It is easy to mistake a financial boundary for a ____.", "a": "personal slight" },
-          { "s": "An arrangement that looked generous can start to feel ____.", "a": "exploitative" }
+          {
+            "s": "A message ____ an otherwise enjoyable afternoon.",
+            "a": "took the shine off"
+          },
+          {
+            "s": "Cosgrove made the case for financial ____ between friends.",
+            "a": "looseness"
+          },
+          {
+            "s": "Digital payments have made settling up almost ____.",
+            "a": "frictionless"
+          },
+          {
+            "s": "Between close friends, precision may come across as oddly ____.",
+            "a": "formal"
+          },
+          {
+            "s": "It is easy to mistake a financial boundary for a ____.",
+            "a": "personal slight"
+          },
+          {
+            "s": "An arrangement that looked generous can start to feel ____.",
+            "a": "exploitative"
+          }
         ],
-        "extra": ["short-changed", "reassuring"]
+        "extra": [
+          "short-changed",
+          "reassuring"
+        ]
       },
       "match": [
-        { "t": "take the shine off", "d": "spoil the pleasure of an occasion" },
-        { "t": "frictionless", "d": "happening with no effort or difficulty at all" },
-        { "t": "short-changed", "d": "given less than you were fairly owed" },
-        { "t": "reassuring", "d": "making worry easier to bear" }
+        {
+          "t": "take the shine off",
+          "d": "spoil the pleasure of an occasion"
+        },
+        {
+          "t": "frictionless",
+          "d": "happening with no effort or difficulty at all"
+        },
+        {
+          "t": "short-changed",
+          "d": "given less than you were fairly owed"
+        },
+        {
+          "t": "reassuring",
+          "d": "making worry easier to bear"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "An immediate transfer is a ____ way of avoiding an obligation.", "cue": "CONSIDER", "a": "considerate" },
-          { "s": "Someone repaying every penny might be protecting their ____.", "cue": "DEPEND", "a": "independence" },
-          { "s": "Those differences can quickly lead to ____.", "cue": "RESENT", "a": "resentment" },
-          { "s": "A quiet conversation may preserve ____ more effectively than a system of requests.", "cue": "GOOD", "a": "goodwill" },
-          { "s": "We want friendships to feel ____, yet we also want fairness.", "cue": "SPONTANEITY", "a": "spontaneous" }
+          {
+            "s": "An immediate transfer is a ____ way of avoiding an obligation.",
+            "cue": "CONSIDER",
+            "a": "considerate"
+          },
+          {
+            "s": "Someone repaying every penny might be protecting their ____.",
+            "cue": "DEPEND",
+            "a": "independence"
+          },
+          {
+            "s": "Those differences can quickly lead to ____.",
+            "cue": "RESENT",
+            "a": "resentment"
+          },
+          {
+            "s": "A quiet conversation may preserve a ____ more effectively than a payment request.",
+            "cue": "FRIEND",
+            "a": "friendship"
+          },
+          {
+            "s": "We want friendships to feel ____, yet we also want fairness.",
+            "cue": "SPONTANEITY",
+            "a": "spontaneous"
+          }
         ]
       },
       "tfn": [
-        { "s": "Cosgrove's informal threshold for treating a friend was A$15.", "a": "T" },
-        { "s": "The writer argues that everyone should adopt a universal price limit.", "a": "F" },
-        { "s": "The piece accepts that culture and income affect ideas of fairness.", "a": "T" },
-        { "s": "The column was the most read article on the Guardian site that week.", "a": "N" }
+        {
+          "s": "The writer argues that everyone should adopt a universal price limit.",
+          "a": "F",
+          "why": "The text says the opposite: \"The solution may be less about setting a universal price limit than about reading the room.\""
+        },
+        {
+          "s": "The piece accepts that culture and income affect ideas of fairness.",
+          "a": "T",
+          "why": "The text says: \"Culture and income complicate the question of fairness.\""
+        },
+        {
+          "s": "Cosgrove's informal threshold for treating a friend was A$15.",
+          "a": "T",
+          "why": "The text says: \"Her informal threshold was A$15: below that, she felt, one person ought to pick up the tab and trust that the favour would eventually be returned.\""
+        },
+        {
+          "s": "The column was the most read article on the Guardian site that week.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     }
   }

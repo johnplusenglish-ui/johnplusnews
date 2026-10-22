@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "You do not want to go ____, so you pay somebody to come with you.", "a": "on your own" },
-          { "s": "People move to large cities and ____ living far from family.", "a": "end up" },
-          { "s": "Long working hours make it difficult to ____ with old friends.", "a": "keep in touch" },
-          { "s": "Students use the work to ____.", "a": "earn extra money" },
-          { "s": "The hours can ____ their studies.", "a": "fit around" }
+          {
+            "s": "You do not want to go ____, so you pay somebody to come with you.",
+            "a": "on your own"
+          },
+          {
+            "s": "People move to large cities and ____ living far from family.",
+            "a": "end up"
+          },
+          {
+            "s": "Long working hours make it difficult to ____ with old friends.",
+            "a": "keep in touch"
+          },
+          {
+            "s": "Students use the work to ____.",
+            "a": "earn extra money"
+          },
+          {
+            "s": "The hours can ____ their studies.",
+            "a": "fit around"
+          }
         ],
-        "extra": ["get on", "unfamiliar"]
+        "extra": [
+          "get on",
+          "unfamiliar"
+        ]
       },
       "match": [
-        { "t": "fit around", "d": "be arranged to suit another commitment" },
-        { "t": "keep in touch", "d": "stay in regular contact with somebody" },
-        { "t": "unfamiliar", "d": "not known to you from before" },
-        { "t": "get on", "d": "have a friendly relationship with somebody" }
+        {
+          "t": "fit around",
+          "d": "be arranged to suit another commitment"
+        },
+        {
+          "t": "keep in touch",
+          "d": "stay in regular contact with somebody"
+        },
+        {
+          "t": "unfamiliar",
+          "d": "not known to you from before"
+        },
+        {
+          "t": "get on",
+          "d": "have a friendly relationship with somebody"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "In China, some people ____ an unusual answer.", "cue": "find", "a": "have found" },
-          { "s": "In June 2026, Reuters ____ on this business in China.", "cue": "report", "a": "reported" },
-          { "s": "One company ____ companions for hikes on Mount Tai.", "cue": "offer", "a": "offered" },
-          { "s": "The customers were not necessarily ____ for a lifelong friend.", "cue": "look", "a": "looking" },
-          { "s": "A paid companion is not automatically a close friend, even when they ____ well.", "cue": "get", "a": "get on" }
+          {
+            "s": "In China, some people ____ an unusual answer.",
+            "cue": "find",
+            "a": "have found"
+          },
+          {
+            "s": "In June 2026, Reuters ____ on this business in China.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "One company ____ companions for hikes on Mount Tai.",
+            "cue": "offer",
+            "a": "offered"
+          },
+          {
+            "s": "The customers were not necessarily ____ for a lifelong friend.",
+            "cue": "look",
+            "a": "looking"
+          },
+          {
+            "s": "A paid companion is not automatically a close friend, even when the client ____ on well with them.",
+            "cue": "get",
+            "a": "gets"
+          }
         ]
       },
       "tfn": [
-        { "s": "Reuters reported on the business in June 2026.", "a": "T" },
-        { "s": "Customers are usually looking for a lifelong friend.", "a": "F" },
-        { "s": "Some companions know the area well and make the day easier.", "a": "T" },
-        { "s": "The service costs about the same as a tour guide.", "a": "N" }
+        {
+          "s": "Customers are usually looking for a lifelong friend.",
+          "a": "F",
+          "why": "The text says the opposite: \"The customers were not necessarily looking for a lifelong friend.\""
+        },
+        {
+          "s": "Some companions know the area well and make the day easier.",
+          "a": "T",
+          "why": "The text says: \"Some companions help people feel more confident in an unfamiliar place, while others know the area well and can make the day easier and more enjoyable.\""
+        },
+        {
+          "s": "Reuters reported on the business in June 2026.",
+          "a": "T",
+          "why": "The text says: \"In June 2026, Reuters reported on this business in China.\""
+        },
+        {
+          "s": "The service costs about the same as a tour guide.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "A paid outing becomes ____ rather than a lonely one.", "a": "a shared experience" },
-          { "s": "The other person will definitely be there, even ____.", "a": "at short notice" },
-          { "s": "Most people have had plans ____.", "a": "fall through" },
-          { "s": "An arrangement that cannot be cancelled ____ has obvious appeal.", "a": "on a whim" },
-          { "s": "Company is the product itself, not something that ____ a tour.", "a": "comes along with" },
-          { "s": "Does a relationship become less meaningful once ____?", "a": "money changes hands" }
+          {
+            "s": "A paid outing becomes ____ rather than a lonely one.",
+            "a": "a shared experience"
+          },
+          {
+            "s": "The other person has agreed to be there, even ____.",
+            "a": "at short notice"
+          },
+          {
+            "s": "Most people have had plans ____.",
+            "a": "fall through"
+          },
+          {
+            "s": "An arrangement that is unlikely to be cancelled ____ has obvious appeal.",
+            "a": "on a whim"
+          },
+          {
+            "s": "Company is the product itself, not something that ____ a tour.",
+            "a": "comes along with"
+          },
+          {
+            "s": "Does a relationship become less meaningful once ____?",
+            "a": "money changes hands"
+          }
         ],
-        "extra": ["strike up", "flexible"]
+        "extra": [
+          "strike up",
+          "flexible"
+        ]
       },
       "match": [
-        { "t": "fall through", "d": "fail to happen as arranged" },
-        { "t": "on a whim", "d": "because of a sudden, unplanned wish" },
-        { "t": "strike up", "d": "begin a conversation with somebody" },
-        { "t": "flexible", "d": "able to change to suit the situation" }
+        {
+          "t": "fall through",
+          "d": "fail to happen as arranged"
+        },
+        {
+          "t": "on a whim",
+          "d": "because of a sudden, unplanned wish"
+        },
+        {
+          "t": "strike up",
+          "d": "begin a conversation with somebody"
+        },
+        {
+          "t": "flexible",
+          "d": "able to change to suit the situation"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Their value is not necessarily ____ intimacy.", "cue": "EMOTION", "a": "emotional" },
-          { "s": "Traditional social networks ____ in large cities.", "cue": "WEAK", "a": "weaken" },
-          { "s": "That ____ may explain more of the appeal than loneliness.", "cue": "RELY", "a": "reliability" },
-          { "s": "It may be ____ to describe every customer as isolated.", "cue": "MISLEAD", "a": "misleading" },
-          { "s": "The service overlaps with tourism and personal ____.", "cue": "ASSIST", "a": "assistance" }
+          {
+            "s": "Their value is not necessarily ____ intimacy.",
+            "cue": "EMOTION",
+            "a": "emotional"
+          },
+          {
+            "s": "Traditional social networks ____ in large cities.",
+            "cue": "WEAK",
+            "a": "weaken"
+          },
+          {
+            "s": "That ____ may explain more of the appeal than loneliness.",
+            "cue": "RELY",
+            "a": "reliability"
+          },
+          {
+            "s": "It may be ____ to describe every customer as isolated.",
+            "cue": "MISLEAD",
+            "a": "misleading"
+          },
+          {
+            "s": "The service overlaps with tourism and personal ____.",
+            "cue": "ASSIST",
+            "a": "assistance"
+          }
         ]
       },
       "tfn": [
-        { "s": "Some providers specialise in helping customers climb Mount Tai.", "a": "T" },
-        { "s": "The article says every customer is isolated.", "a": "F" },
-        { "s": "A paid day out ends with a payment rather than a plan to meet again.", "a": "T" },
-        { "s": "The industry is regulated by the Chinese government.", "a": "N" }
+        {
+          "s": "Some providers specialise in helping customers climb Mount Tai.",
+          "a": "T",
+          "why": "The text says: \"Some providers specialise in particular activities, such as helping customers climb Mount Tai.\""
+        },
+        {
+          "s": "A paid day out ends with a payment rather than a plan to meet again.",
+          "a": "T",
+          "why": "The text says: \"A good day out with a paid companion ends with a payment rather than a plan to meet up again, which some customers will find perfectly comfortable and others may find faintly sad.\""
+        },
+        {
+          "s": "The article says every customer is isolated.",
+          "a": "F",
+          "why": "The text says the opposite: \"It may also be misleading to describe every customer as isolated.\""
+        },
+        {
+          "s": "The industry is regulated by the Chinese government.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The phrase sounds like ____.", "a": "a contradiction in terms" },
-          { "s": "Jobs and ____ social networks leave people without companions.", "a": "fragmented" },
-          { "s": "Cleaning and childcare were gradually ____ the formal economy.", "a": "drawn into" },
-          { "s": "Much of the discomfort may ____ a question of honesty.", "a": "boil down to" },
-          { "s": "Social life has always involved favours and ____.", "a": "quiet accounting" },
-          { "s": "Reliable human presence has become a surprisingly ____.", "a": "scarce commodity" }
+          {
+            "s": "The phrase sounds like ____.",
+            "a": "a contradiction in terms"
+          },
+          {
+            "s": "Jobs and ____ social networks leave people without companions.",
+            "a": "fragmented"
+          },
+          {
+            "s": "Cleaning and childcare were gradually ____ the formal economy.",
+            "a": "drawn into"
+          },
+          {
+            "s": "Much of the discomfort may ____ a question of honesty.",
+            "a": "boil down to"
+          },
+          {
+            "s": "Social life has always involved favours and ____.",
+            "a": "quiet accounting"
+          },
+          {
+            "s": "Reliable human presence has become a surprisingly ____.",
+            "a": "scarce commodity"
+          }
         ],
-        "extra": ["draw on", "simplistic"]
+        "extra": [
+          "draw on",
+          "simplistic"
+        ]
       },
       "match": [
-        { "t": "boil down to", "d": "be reducible to one essential point" },
-        { "t": "draw on", "d": "use a skill or resource you already have" },
-        { "t": "simplistic", "d": "treating something as simpler than it is" },
-        { "t": "reciprocal", "d": "given by each side to the other" }
+        {
+          "t": "boil down to",
+          "d": "be reducible to one essential point"
+        },
+        {
+          "t": "draw on",
+          "d": "use a skill or resource you already have"
+        },
+        {
+          "t": "simplistic",
+          "d": "treating something as simpler than it is"
+        },
+        {
+          "t": "reciprocal",
+          "d": "given by each side to the other"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Friendship is understood as voluntary and ____ to calculation.", "cue": "RESIST", "a": "resistant" },
-          { "s": "Geographic ____ leaves people surrounded by strangers.", "cue": "MOBILE", "a": "mobility" },
-          { "s": "Commercialising companionship introduces an unusual kind of ____.", "cue": "CLEAR", "a": "clarity" },
-          { "s": "The transaction may sharpen existing ____.", "cue": "EQUAL", "a": "inequalities" },
-          { "s": "Those skills are easy to ____ and easy to undervalue.", "cue": "ROMANTIC", "a": "romanticise" }
+          {
+            "s": "Friendship is understood as voluntary and ____ to calculation.",
+            "cue": "RESIST",
+            "a": "resistant"
+          },
+          {
+            "s": "Geographic ____ leaves people surrounded by strangers.",
+            "cue": "MOBILE",
+            "a": "mobility"
+          },
+          {
+            "s": "Commercialising companionship introduces an unusual kind of ____.",
+            "cue": "CLEAR",
+            "a": "clarity"
+          },
+          {
+            "s": "The transaction may sharpen existing ____.",
+            "cue": "EQUAL",
+            "a": "inequalities"
+          },
+          {
+            "s": "Those skills are easy to ____ and easy to undervalue.",
+            "cue": "ROMANTIC",
+            "a": "romanticise"
+          }
         ]
       },
       "tfn": [
-        { "s": "Reporting in June 2026 described providers offering encouragement on mountain walks.", "a": "T" },
-        { "s": "The writer treats the industry as proof that friendship has disappeared.", "a": "F" },
-        { "s": "The article says the work is easy to undervalue.", "a": "T" },
-        { "s": "Most companions are university students.", "a": "N" }
+        {
+          "s": "Reporting in June 2026 described providers offering encouragement on mountain walks.",
+          "a": "T",
+          "why": "The text says: \"Reporting in June 2026 described providers offering everything from practical assistance to encouragement on demanding mountain walks.\""
+        },
+        {
+          "s": "Most companions are university students.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The writer treats the industry as proof that friendship has disappeared.",
+          "a": "F",
+          "why": "The text says the opposite: \"It would be simplistic, however, to write the industry off as proof that friendship has disappeared.\""
+        },
+        {
+          "s": "The article says the work is easy to undervalue.",
+          "a": "T",
+          "why": "The text says: \"Remaining attentive, cheerful and interested for a paying stranger is genuinely demanding, and those who draw on such skills professionally are performing a job that is easy to romanticise and easy to undervalue at the same time.\""
+        }
       ]
     }
   }

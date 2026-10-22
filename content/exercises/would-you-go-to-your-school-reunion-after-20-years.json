@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "Mike had not joined in, but he had not ____ him either.", "a": "stood up for" },
-          { "s": "At the reunion, he found his old friend and ____ what had happened.", "a": "brought up" },
-          { "s": "School reunions often ____ powerful memories.", "a": "bring back" },
-          { "s": "Old classmates sometimes ____ the same roles they had at school.", "a": "fall back into" },
-          { "s": "You might finally ____ an old disappointment.", "a": "let go of" }
+          {
+            "s": "Mike had not joined in, but he had not ____ him either.",
+            "a": "stood up for"
+          },
+          {
+            "s": "At the reunion, he found his old friend and ____ what had happened.",
+            "a": "brought up"
+          },
+          {
+            "s": "School reunions often ____ powerful memories.",
+            "a": "bring back"
+          },
+          {
+            "s": "Old classmates sometimes ____ the same roles they had at school.",
+            "a": "fall back into"
+          },
+          {
+            "s": "You might finally ____ an old disappointment.",
+            "a": "let go of"
+          }
         ],
-        "extra": ["catch up with", "awkward"]
+        "extra": [
+          "catch up with",
+          "awkward"
+        ]
       },
       "match": [
-        { "t": "stand up for", "d": "defend somebody who is being treated badly" },
-        { "t": "bring up", "d": "start talking about a subject" },
-        { "t": "awkward", "d": "uncomfortable and difficult to handle" },
-        { "t": "catch up with", "d": "exchange news with somebody" }
+        {
+          "t": "stand up for",
+          "d": "defend somebody who is being treated badly"
+        },
+        {
+          "t": "bring up",
+          "d": "start talking about a subject"
+        },
+        {
+          "t": "awkward",
+          "d": "uncomfortable and difficult to handle"
+        },
+        {
+          "t": "catch up with",
+          "d": "exchange news with somebody"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "Twenty years ____ since he left school.", "cue": "pass", "a": "had passed" },
-          { "s": "A boy he knew ____ because he was gay.", "cue": "bully", "a": "had been bullied" },
-          { "s": "Mike ____ his story to the Guardian in October 2026.", "cue": "tell", "a": "told" },
-          { "s": "Some former students look forward to ____ everyone again.", "cue": "meet", "a": "meeting" },
-          { "s": "The people we knew at school ____ up, just as we have.", "cue": "grow", "a": "have grown" }
+          {
+            "s": "Twenty years ____ since he left school.",
+            "cue": "pass",
+            "a": "had passed"
+          },
+          {
+            "s": "A boy he knew ____ because he was gay.",
+            "cue": "bully",
+            "a": "had been bullied"
+          },
+          {
+            "s": "Mike ____ his story to the Guardian in October 2026.",
+            "cue": "tell",
+            "a": "told"
+          },
+          {
+            "s": "Some former students look forward to ____ everyone again.",
+            "cue": "meet",
+            "a": "meeting"
+          },
+          {
+            "s": "The people we knew at school ____ up, just as we have.",
+            "cue": "grow",
+            "a": "have grown"
+          }
         ]
       },
       "tfn": [
-        { "s": "Mike is a firefighter in his forties.", "a": "T" },
-        { "s": "Mike had joined in with the bullying at school.", "a": "F" },
-        { "s": "The two men reconnected after their conversation.", "a": "T" },
-        { "s": "Mike has been to several reunions before.", "a": "N" }
+        {
+          "s": "Mike has been to several reunions before.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Mike had joined in with the bullying at school.",
+          "a": "F",
+          "why": "The text says the opposite: \"Mike had not joined in, but he had not stood up for him either.\""
+        },
+        {
+          "s": "Mike is a firefighter in his forties.",
+          "a": "T",
+          "why": "The text says: \"Mike, a firefighter in his forties, told his story to the Guardian in October 2026.\""
+        },
+        {
+          "s": "The two men reconnected after their conversation.",
+          "a": "T",
+          "why": "The text says: \"Still, the two men reconnected.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "One memory ____ after twenty years.", "a": "refused to fade" },
-          { "s": "He managed to find his old friend and ____ the past.", "a": "bring up" },
-          { "s": "In trying to ____, he asked someone else to handle his feelings.", "a": "make amends" },
-          { "s": "Old nicknames ____ and half-forgotten arguments are mentioned.", "a": "resurface" },
-          { "s": "Comparisons about jobs and appearance can ____ old insecurities.", "a": "stir up" },
-          { "s": "Approach a reunion with curiosity rather than ____.", "a": "a scorecard" }
+          {
+            "s": "One memory ____ after twenty years.",
+            "a": "refused to fade"
+          },
+          {
+            "s": "He managed to find his old friend and ____ the past.",
+            "a": "bring up"
+          },
+          {
+            "s": "In trying to ____, he asked someone else to handle his feelings.",
+            "a": "make amends"
+          },
+          {
+            "s": "Old nicknames ____ and half-forgotten arguments are mentioned.",
+            "a": "resurface"
+          },
+          {
+            "s": "Comparisons about jobs and appearance can ____ old insecurities.",
+            "a": "stir up"
+          },
+          {
+            "s": "Approach a reunion with curiosity rather than ____.",
+            "a": "a scorecard"
+          }
         ],
-        "extra": ["get along", "extraordinary"]
+        "extra": [
+          "get along",
+          "extraordinary"
+        ]
       },
       "match": [
-        { "t": "make amends", "d": "do something to put a past wrong right" },
-        { "t": "stir up", "d": "cause strong feelings to begin again" },
-        { "t": "get along", "d": "have a friendly relationship" },
-        { "t": "extraordinary", "d": "far beyond what is usual" }
+        {
+          "t": "make amends",
+          "d": "do something to put a past wrong right"
+        },
+        {
+          "t": "stir up",
+          "d": "cause strong feelings to begin again"
+        },
+        {
+          "t": "get along",
+          "d": "have a friendly relationship"
+        },
+        {
+          "t": "extraordinary",
+          "d": "far beyond what is usual"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "As a teenager he had watched a friend experience ____ bullying.", "cue": "HOMOPHOBIA", "a": "homophobic" },
-          { "s": "The apology did not ____ quite as he had imagined.", "cue": "FOLD", "a": "unfold" },
-          { "s": "He recognised the uncomfortable ____ in what had happened.", "cue": "IRONIC", "a": "irony" },
-          { "s": "The confident adult may remember being an ____ fifteen-year-old.", "cue": "SECURE", "a": "insecure" },
-          { "s": "Their online profile reveals only what they choose to ____.", "cue": "SHOWN", "a": "show" }
+          {
+            "s": "As a teenager he had watched a friend experience ____ bullying.",
+            "cue": "HOMOPHOBIA",
+            "a": "homophobic"
+          },
+          {
+            "s": "The apology did not ____ quite as he had imagined.",
+            "cue": "FOLD",
+            "a": "unfold"
+          },
+          {
+            "s": "He recognised the uncomfortable ____ in what had happened.",
+            "cue": "IRONIC",
+            "a": "irony"
+          },
+          {
+            "s": "The confident adult may remember being an ____ fifteen-year-old.",
+            "cue": "SECURE",
+            "a": "insecure"
+          },
+          {
+            "s": "Their online profile reveals only what they choose to ____.",
+            "cue": "SHOWN",
+            "a": "show"
+          }
         ]
       },
       "tfn": [
-        { "s": "The Guardian article appeared in October 2026.", "a": "T" },
-        { "s": "The apology went exactly as Mike had planned.", "a": "F" },
-        { "s": "The two men reconnected over drinks.", "a": "T" },
-        { "s": "Mike plans to attend the next reunion.", "a": "N" }
+        {
+          "s": "The two men reconnected over drinks.",
+          "a": "T",
+          "why": "The text says: \"Nevertheless, the two reconnected over drinks, giving the story a warmer ending than he might have expected.\""
+        },
+        {
+          "s": "Mike plans to attend the next reunion.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The apology went exactly as Mike had planned.",
+          "a": "F",
+          "why": "The text says the opposite: \"The apology did not unfold quite as he had imagined.\""
+        },
+        {
+          "s": "The Guardian article appeared in October 2026.",
+          "a": "T",
+          "why": "The text says: \"Speaking to the Guardian for an October 2026 article, Mike explained that he managed to find his old friend and bring up the past.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "Returning to school was not merely an exercise in ____.", "a": "nostalgia" },
-          { "s": "He ____ to acknowledge his silence.", "a": "made up his mind" },
-          { "s": "The exchange ____ when the other man began comforting him.", "a": "took an uncomfortable turn" },
-          { "s": "School reunions are uniquely capable of ____.", "a": "collapsing time" },
-          { "s": "A reunion comes with ____ that people have spent years escaping.", "a": "a ready-made social hierarchy" },
-          { "s": "The temptation to ____ does not disappear with the uniform.", "a": "keep score" }
+          {
+            "s": "Returning to school was not merely an exercise in ____.",
+            "a": "nostalgia"
+          },
+          {
+            "s": "He ____ to acknowledge his silence.",
+            "a": "made up his mind"
+          },
+          {
+            "s": "The exchange ____ when the other man began comforting him.",
+            "a": "took an uncomfortable turn"
+          },
+          {
+            "s": "School reunions are uniquely capable of ____.",
+            "a": "collapsing time"
+          },
+          {
+            "s": "A reunion comes with ____ that people have spent years escaping.",
+            "a": "a ready-made social hierarchy"
+          },
+          {
+            "s": "The temptation to ____ does not disappear with the uniform.",
+            "a": "keep score"
+          }
         ],
-        "extra": ["flourish", "delicate"]
+        "extra": [
+          "flourish",
+          "delicate"
+        ]
       },
       "match": [
-        { "t": "make up your mind", "d": "reach a firm decision" },
-        { "t": "keep score", "d": "compare who is doing better" },
-        { "t": "flourish", "d": "grow strongly in good conditions" },
-        { "t": "delicate", "d": "needing to be handled with great care" }
+        {
+          "t": "make up your mind",
+          "d": "reach a firm decision"
+        },
+        {
+          "t": "keep score",
+          "d": "compare who is doing better"
+        },
+        {
+          "t": "flourish",
+          "d": "grow strongly in good conditions"
+        },
+        {
+          "t": "delicate",
+          "d": "needing to be handled with great care"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "His account shows how ____ such encounters can be.", "cue": "PREDICT", "a": "unpredictable" },
-          { "s": "He had not been among the ____.", "cue": "PERPETRATE", "a": "perpetrators" },
-          { "s": "He had ____ placed another burden on someone already wronged.", "cue": "ADVERT", "a": "inadvertently" },
-          { "s": "Former classmates might discover unexpected common ____.", "cue": "GROUNDED", "a": "ground" },
-          { "s": "Envy can flourish when we compare ourselves with a polished public ____.", "cue": "IMAGINE", "a": "image" }
+          {
+            "s": "His account shows how ____ such encounters can be.",
+            "cue": "PREDICT",
+            "a": "unpredictable"
+          },
+          {
+            "s": "He had not been among the ____.",
+            "cue": "PERPETRATE",
+            "a": "perpetrators"
+          },
+          {
+            "s": "He had ____ placed another burden on someone already wronged.",
+            "cue": "ADVERT",
+            "a": "inadvertently"
+          },
+          {
+            "s": "Former classmates might discover unexpected common ____.",
+            "cue": "GROUNDED",
+            "a": "ground"
+          },
+          {
+            "s": "Envy can flourish when we compare ourselves with a polished public ____.",
+            "cue": "IMAGINE",
+            "a": "image"
+          }
         ]
       },
       "tfn": [
-        { "s": "Mike had not intervened when his classmate was bullied.", "a": "T" },
-        { "s": "The writer concludes that every apology helps the person who hears it.", "a": "F" },
-        { "s": "The article says an edited feed is not the same as a real conversation.", "a": "T" },
-        { "s": "The two men now meet regularly.", "a": "N" }
+        {
+          "s": "Mike had not intervened when his classmate was bullied.",
+          "a": "T",
+          "why": "The text says: \"He had not been among the perpetrators, but neither had he intervened.\""
+        },
+        {
+          "s": "The two men now meet regularly.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The article says an edited feed is not the same as a real conversation.",
+          "a": "T",
+          "why": "The text says: \"But an edited feed is not the same as a sustained conversation, and envy can flourish when we compare our untidy private lives with someone else's carefully polished public image.\""
+        },
+        {
+          "s": "The writer concludes that every apology helps the person who hears it.",
+          "a": "F",
+          "why": "The text says the opposite: \"Mike's story raises a particularly delicate issue: can an apology help heal a past injury, or does it sometimes serve primarily the person offering it?\""
+        }
       ]
     }
   }

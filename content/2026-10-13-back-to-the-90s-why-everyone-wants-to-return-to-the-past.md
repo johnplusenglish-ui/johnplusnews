@@ -1,5 +1,6 @@
 title: Back to the 90s: Why Everyone Wants to Return to the Past
 date: 2026-10-08
+source: Tate Britain | https://www.tate.org.uk/press/press-releases/the-90s-art-and-fashion-open
 summary: The attraction may be less about the past itself than about escaping constant connection in the present.
 tags: Culture, Technology
 image: images/back-to-the-90s-why-everyone-wants-to-return-to-the-past-e7cb8d.jpg

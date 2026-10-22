@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "It feels like ____: the shop can raise money and someone else can enjoy the clothes.", "a": "a good ending" },
-          { "s": "Staff still had to ____ everything, using time and money.", "a": "sort through" },
-          { "s": "Social media helps trends ____.", "a": "catch on" },
-          { "s": "Affordable clothes matter, especially for families ____.", "a": "on limited budgets" },
-          { "s": "A cheap T-shirt is not ____ if it is worn once.", "a": "a bargain" }
+          {
+            "s": "It feels like ____: the shop can raise money and someone else can enjoy the clothes.",
+            "a": "a good ending"
+          },
+          {
+            "s": "Staff still had to ____ everything, using time and money.",
+            "a": "sort through"
+          },
+          {
+            "s": "Social media helps trends ____.",
+            "a": "catch on"
+          },
+          {
+            "s": "Affordable clothes matter, especially for families ____.",
+            "a": "on limited budgets"
+          },
+          {
+            "s": "A cheap T-shirt is not ____ if it is worn once.",
+            "a": "a bargain"
+          }
         ],
-        "extra": ["throw away", "unsold"]
+        "extra": [
+          "throw away",
+          "unsold"
+        ]
       },
       "match": [
-        { "t": "catch on", "d": "become popular with many people" },
-        { "t": "sort through", "d": "look at a pile of things one by one" },
-        { "t": "unsold", "d": "still in the shop because nobody bought it" },
-        { "t": "throw away", "d": "put something in the bin" }
+        {
+          "t": "catch on",
+          "d": "become popular with many people"
+        },
+        {
+          "t": "sort through",
+          "d": "look at a pile of things one by one"
+        },
+        {
+          "t": "unsold",
+          "d": "still in the shop because nobody bought it"
+        },
+        {
+          "t": "throw away",
+          "d": "put something in the bin"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "You fill a bag with clothes you no longer ____.", "cue": "wear", "a": "wear" },
-          { "s": "Then the bag ____.", "cue": "open", "a": "is opened" },
-          { "s": "In October 2026, one charity said it ____ as many as 100 bags a day.", "cue": "receive", "a": "received" },
-          { "s": "Research by Oxfam ____ that 32% of clothes were never worn.", "cue": "find", "a": "found" },
-          { "s": "Large EU companies ____ from destroying most unsold clothing.", "cue": "ban", "a": "were banned" }
+          {
+            "s": "You fill a bag with clothes you no longer ____.",
+            "cue": "wear",
+            "a": "wear"
+          },
+          {
+            "s": "Then the bag ____.",
+            "cue": "open",
+            "a": "is opened"
+          },
+          {
+            "s": "In October 2026, one charity said it ____ as many as 100 bags a day.",
+            "cue": "receive",
+            "a": "received"
+          },
+          {
+            "s": "Research by Oxfam ____ that 32% of clothes were never worn.",
+            "cue": "find",
+            "a": "found"
+          },
+          {
+            "s": "Large EU companies ____ from destroying most unsold clothing.",
+            "cue": "ban",
+            "a": "were banned"
+          }
         ]
       },
       "tfn": [
-        { "s": "One south London charity received as many as 100 bags a day.", "a": "T" },
-        { "s": "All donated clothes can be sold in the shop.", "a": "F" },
-        { "s": "Oxfam found that 32% of clothes in British wardrobes were never worn.", "a": "T" },
-        { "s": "Charity shop donations have fallen since 2025.", "a": "N" }
+        {
+          "s": "Oxfam found that 32% of clothes in British wardrobes were never worn.",
+          "a": "T",
+          "why": "The text says: \"Research by Oxfam in 2026 found that 32% of clothes in British wardrobes were never worn.\""
+        },
+        {
+          "s": "All donated clothes can be sold in the shop.",
+          "a": "F",
+          "why": "The text says the opposite: \"That is happening more often as charity shops receive more clothes than they can sell.\""
+        },
+        {
+          "s": "Charity shop donations have fallen since 2025.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "One south London charity received as many as 100 bags a day.",
+          "a": "T",
+          "why": "The text says: \"In October 2026, one charity operation in south London said it received as many as 100 bags a day.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "A bag left outside a charity shop carries a ____ promise.", "a": "comforting" },
-          { "s": "Staff discover damaged seams and garments with almost no ____.", "a": "resale value" },
-          { "s": "Social media encourages ____ by showing new looks constantly.", "a": "impulse purchases" },
-          { "s": "Shoppers see ____ new styles every day.", "a": "a constant stream of" },
-          { "s": "Clothing can be replaced before it has ____.", "a": "worn out" },
-          { "s": "Consumers can help by ____ new purchases.", "a": "cutting back on" }
+          {
+            "s": "A bag left outside a charity shop carries a ____ promise.",
+            "a": "comforting"
+          },
+          {
+            "s": "Staff discover damaged seams and garments with almost no ____.",
+            "a": "resale value"
+          },
+          {
+            "s": "Social media encourages ____ by showing new looks constantly.",
+            "a": "impulse purchases"
+          },
+          {
+            "s": "Shoppers see ____ new styles every day.",
+            "a": "a constant stream of"
+          },
+          {
+            "s": "Clothing can be replaced before it has ____.",
+            "a": "worn out"
+          },
+          {
+            "s": "Consumers can help by ____ new purchases.",
+            "a": "cutting back on"
+          }
         ],
-        "extra": ["put out", "sustainable"]
+        "extra": [
+          "put out",
+          "sustainable"
+        ]
       },
       "match": [
-        { "t": "wear out", "d": "become too old or damaged to use" },
-        { "t": "cut back on", "d": "reduce the amount of something you do" },
-        { "t": "sustainable", "d": "able to continue without harming the planet" },
-        { "t": "put out", "d": "release a product for people to buy" }
+        {
+          "t": "wear out",
+          "d": "become too old or damaged to use"
+        },
+        {
+          "t": "cut back on",
+          "d": "reduce the amount of something you do"
+        },
+        {
+          "t": "sustainable",
+          "d": "able to continue without harming the planet"
+        },
+        {
+          "t": "put out",
+          "d": "release a product for people to buy"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Donating is better than throwing away ____ items.", "cue": "USE", "a": "usable" },
-          { "s": "A generous gesture can become an ____ expense.", "cue": "EXPECT", "a": "unexpected" },
-          { "s": "That creates an enormous ____ cost.", "cue": "ENVIRONMENT", "a": "environmental" },
-          { "s": "____ fabrics may cause problems when washed or discarded.", "cue": "SYNTHESIS", "a": "Synthetic" },
-          { "s": "Retailers must also consider ____ and the volume they produce.", "cue": "DURABLE", "a": "durability" }
+          {
+            "s": "Donating is better than throwing away ____ items.",
+            "cue": "USE",
+            "a": "usable"
+          },
+          {
+            "s": "A generous gesture can become an ____ expense.",
+            "cue": "EXPECT",
+            "a": "unexpected"
+          },
+          {
+            "s": "That creates an enormous ____ cost.",
+            "cue": "ENVIRONMENT",
+            "a": "environmental"
+          },
+          {
+            "s": "____ fabrics may cause problems when washed or discarded.",
+            "cue": "SYNTHESIS",
+            "a": "Synthetic"
+          },
+          {
+            "s": "Retailers must also consider ____ and the volume they produce.",
+            "cue": "DURABLE",
+            "a": "durability"
+          }
         ]
       },
       "tfn": [
-        { "s": "Oxfam found that 64% of people surveyed bought clothes they had not planned to buy.", "a": "T" },
-        { "s": "The EU rules prevent cheap garments from being produced.", "a": "F" },
-        { "s": "Many garments contain fibre combinations that are hard to separate.", "a": "T" },
-        { "s": "Charity shops in Scotland report the same problem.", "a": "N" }
+        {
+          "s": "Oxfam found that 64% of people surveyed bought clothes they had not planned to buy.",
+          "a": "T",
+          "why": "The text says: \"In its 2026 State of Style report, Oxfam found that 64% of people surveyed in Britain had bought clothes they were not actively looking for after seeing something online.\""
+        },
+        {
+          "s": "Charity shops in Scotland report the same problem.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The EU rules prevent cheap garments from being produced.",
+          "a": "F",
+          "why": "The text says the opposite: \"However, preventing destruction does not necessarily reduce the number of cheap garments being produced in the first place.\""
+        },
+        {
+          "s": "Many garments contain fibre combinations that are hard to separate.",
+          "a": "T",
+          "why": "The text says: \"Recycling is not always possible because many garments contain combinations of fibres that are difficult to separate.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The donation bag provides a ____ ending to the story of a garment.", "a": "reassuring" },
-          { "s": "Charity shops report being ____ damaged or worthless clothing.", "a": "inundated with" },
-          { "s": "Disposal costs ____.", "a": "eat into charitable income" },
-          { "s": "Charities are effectively ____ for somebody else's decisions.", "a": "picking up the bill" },
-          { "s": "Clothing is marketed as a quick response to ____.", "a": "a passing mood" },
-          { "s": "No amount of reselling can ____ the cost of an extra garment.", "a": "write off" }
+          {
+            "s": "The donation bag provides a ____ ending to the story of a garment.",
+            "a": "reassuring"
+          },
+          {
+            "s": "Charity shops report being ____ damaged or worthless clothing.",
+            "a": "inundated with"
+          },
+          {
+            "s": "Disposal costs ____.",
+            "a": "eat into charitable income"
+          },
+          {
+            "s": "Charities are effectively ____ for somebody else's decisions.",
+            "a": "picking up the bill"
+          },
+          {
+            "s": "Clothing is marketed as a quick response to ____.",
+            "a": "a passing mood"
+          },
+          {
+            "s": "No amount of reselling can ____ the cost of an extra garment.",
+            "a": "write off"
+          }
         ],
-        "extra": ["serviceable", "relentless"]
+        "extra": [
+          "serviceable",
+          "relentless"
+        ]
       },
       "match": [
-        { "t": "inundated with", "d": "receiving far more than can be handled" },
-        { "t": "write off", "d": "treat something as a loss that can be ignored" },
-        { "t": "serviceable", "d": "still good enough to be used" },
-        { "t": "relentless", "d": "continuing without ever easing" }
+        {
+          "t": "inundated with",
+          "d": "receiving far more than can be handled"
+        },
+        {
+          "t": "write off",
+          "d": "treat something as a loss that can be ignored"
+        },
+        {
+          "t": "serviceable",
+          "d": "still good enough to be used"
+        },
+        {
+          "t": "relentless",
+          "d": "continuing without ever easing"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "British charity shops receive commercially ____ clothing.", "cue": "WORTH", "a": "worthless" },
-          { "s": "Consumption has become entwined with digital ____.", "cue": "INFLUENTIAL", "a": "influence" },
-          { "s": "Among younger adults, ____ recommendations were especially strong.", "cue": "ALGORITHM", "a": "algorithmic" },
-          { "s": "Textile production consumes ____ water and energy.", "cue": "SUBSTANCE", "a": "substantial" },
-          { "s": "Low-cost clothing serves a real need for households facing financial ____.", "cue": "CONSTRAIN", "a": "constraints" }
+          {
+            "s": "British charity shops receive commercially ____ clothing.",
+            "cue": "WORTH",
+            "a": "worthless"
+          },
+          {
+            "s": "Consumption has become entwined with digital ____.",
+            "cue": "INFLUENTIAL",
+            "a": "influence"
+          },
+          {
+            "s": "Among younger adults, ____ recommendations were especially strong.",
+            "cue": "ALGORITHM",
+            "a": "algorithmic"
+          },
+          {
+            "s": "Textile production consumes ____ water and energy.",
+            "cue": "SUBSTANCE",
+            "a": "substantial"
+          },
+          {
+            "s": "Low-cost clothing serves a real need for households facing financial ____.",
+            "cue": "CONSTRAIN",
+            "a": "constraints"
+          }
         ]
       },
       "tfn": [
-        { "s": "Reporting in October 2026 described up to 100 bags a day at St Raphael's Hospice.", "a": "T" },
-        { "s": "The writer blames individual shoppers alone for the problem.", "a": "F" },
-        { "s": "The EU measure does not directly challenge the pace of new collections.", "a": "T" },
-        { "s": "Britain plans to copy the EU rules on unsold clothing.", "a": "N" }
+        {
+          "s": "Reporting in October 2026 described up to 100 bags a day at St Raphael's Hospice.",
+          "a": "T",
+          "why": "The text says: \"The pressure is visible at St Raphael's Hospice in south London, where reporting in October 2026 described as many as 100 bags arriving each day and only a minority of their contents being fit for sale.\""
+        },
+        {
+          "s": "The EU measure does not directly challenge the pace of new collections.",
+          "a": "T",
+          "why": "The text says: \"It marks a shift towards holding businesses responsible for what happens after products fail to sell, although it does not directly challenge the relentless pace at which new collections are launched.\""
+        },
+        {
+          "s": "Britain plans to copy the EU rules on unsold clothing.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The writer blames individual shoppers alone for the problem.",
+          "a": "F",
+          "why": "The text says the opposite: \"There is a danger in presenting individual shoppers as the sole cause of the problem.\""
+        }
       ]
     }
   }

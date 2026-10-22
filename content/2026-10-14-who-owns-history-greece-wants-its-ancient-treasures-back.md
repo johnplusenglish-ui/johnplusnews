@@ -1,5 +1,6 @@
 title: Who Owns History? Greece Wants Its Ancient Treasures Back
 date: 2026-10-06
+source: ARTnews | https://www.artnews.com/art-news/news/diplomatic-tensions-british-museum-parthenon-marbles-george-osborne-1234802403/
 summary: For more than 200 years, some of Greece's most famous ancient sculptures have been displayed in the British Museum. Now, the Greek prime minister is increasing pressure on Britain to return them. But who really owns these pieces of history?
 tags: Culture, History
 image: images/who-owns-history-greece-wants-its-ancient-treasures-back-481f76.jpg

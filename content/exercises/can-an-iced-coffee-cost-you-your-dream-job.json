@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "She explained that ____ with a drink might look too relaxed.", "a": "turning up" },
-          { "s": "She wanted candidates to make ____.", "a": "a good first impression" },
-          { "s": "They ____ that coffee has nothing to do with someone's ability.", "a": "pointed out" },
-          { "s": "Supporters said small choices show whether somebody ____.", "a": "takes it seriously" },
-          { "s": "Young applicants may find it hard to ____ which rules apply.", "a": "work out" }
+          {
+            "s": "She explained that ____ with a drink might look too relaxed.",
+            "a": "turning up"
+          },
+          {
+            "s": "She wanted candidates to make ____.",
+            "a": "a good first impression"
+          },
+          {
+            "s": "They ____ that coffee has nothing to do with someone's ability.",
+            "a": "pointed out"
+          },
+          {
+            "s": "Supporters said small choices show whether somebody ____.",
+            "a": "takes it seriously"
+          },
+          {
+            "s": "Young applicants may find it hard to ____ which rules apply.",
+            "a": "work out"
+          }
         ],
-        "extra": ["misleading", "formal"]
+        "extra": [
+          "misleading",
+          "formal"
+        ]
       },
       "match": [
-        { "t": "turn up", "d": "arrive at a place" },
-        { "t": "point out", "d": "draw attention to a fact" },
-        { "t": "misleading", "d": "giving a false idea of something" },
-        { "t": "formal", "d": "following strict rules of behaviour or dress" }
+        {
+          "t": "turn up",
+          "d": "arrive at a place"
+        },
+        {
+          "t": "point out",
+          "d": "draw attention to a fact"
+        },
+        {
+          "t": "misleading",
+          "d": "giving a false idea of something"
+        },
+        {
+          "t": "formal",
+          "d": "following strict rules of behaviour or dress"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "Imagine ____ carefully for a job interview.", "cue": "prepare", "a": "preparing" },
-          { "s": "A recruiter in Florida ____ that iced coffees look too relaxed.", "cue": "suggest", "a": "suggested" },
-          { "s": "She ____ in recruitment for 16 years.", "cue": "work", "a": "has worked" },
-          { "s": "Later, she said her advice ____ on the company.", "cue": "depend", "a": "depended" },
-          { "s": "Someone's skills should ____ more weight than a plastic cup.", "cue": "carry", "a": "carry" }
+          {
+            "s": "Imagine ____ carefully for a job interview.",
+            "cue": "prepare",
+            "a": "preparing"
+          },
+          {
+            "s": "A recruiter in Florida ____ that iced coffees look too relaxed.",
+            "cue": "suggest",
+            "a": "suggested"
+          },
+          {
+            "s": "She ____ in recruitment for 16 years.",
+            "cue": "work",
+            "a": "has worked"
+          },
+          {
+            "s": "Later, she said her advice ____ on the company.",
+            "cue": "depend",
+            "a": "depended"
+          },
+          {
+            "s": "Someone's skills should ____ more weight than a plastic cup.",
+            "cue": "carry",
+            "a": "carry"
+          }
         ]
       },
       "tfn": [
-        { "s": "Caitlin Wehniainen has worked in recruitment for 16 years.", "a": "T" },
-        { "s": "She said the rule applies to every kind of workplace.", "a": "F" },
-        { "s": "The CIPD recommends structured interviews with clear criteria.", "a": "T" },
-        { "s": "Her video was removed from TikTok.", "a": "N" }
+        {
+          "s": "The CIPD recommends structured interviews with clear criteria.",
+          "a": "T",
+          "why": "The text says: \"The professional body CIPD recommends structured interviews, where candidates answer the same questions and are judged using clear criteria.\""
+        },
+        {
+          "s": "She said the rule applies to every kind of workplace.",
+          "a": "F",
+          "why": "The text says the opposite: \"She was mainly talking about formal office jobs, not every kind of workplace.\""
+        },
+        {
+          "s": "Her video was removed from TikTok.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Caitlin Wehniainen has worked in recruitment for 16 years.",
+          "a": "T",
+          "why": "The text says: \"The recruiter, Caitlin Wehniainen, has worked in recruitment for 16 years.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "You have rehearsed how to ____ your strengths.", "a": "sum up" },
-          { "s": "According to one recruiter, that small detail could ____ you.", "a": "work against" },
-          { "s": "An interview should not look like an errand ____ a crowded morning.", "a": "squeezed into" },
-          { "s": "The response revealed a familiar ____ between generations.", "a": "clash of expectations" },
-          { "s": "The rules are rarely written down, so applicants must learn ____.", "a": "unspoken rules" },
-          { "s": "Interviewers should ____ superficial details.", "a": "look past" }
+          {
+            "s": "You have rehearsed how to ____ your strengths.",
+            "a": "sum up"
+          },
+          {
+            "s": "According to one recruiter, that small detail could ____ you.",
+            "a": "work against"
+          },
+          {
+            "s": "An interview should not look like an errand ____ a crowded morning.",
+            "a": "squeezed into"
+          },
+          {
+            "s": "The response revealed a familiar ____ between generations.",
+            "a": "clash of expectations"
+          },
+          {
+            "s": "The rules are rarely written down, so applicants must learn ____.",
+            "a": "unspoken rules"
+          },
+          {
+            "s": "Interviewers should ____ superficial details.",
+            "a": "look past"
+          }
         ],
-        "extra": ["arbitrary", "harmless"]
+        "extra": [
+          "arbitrary",
+          "harmless"
+        ]
       },
       "match": [
-        { "t": "sum up", "d": "express something briefly and clearly" },
-        { "t": "work against", "d": "make success less likely for somebody" },
-        { "t": "arbitrary", "d": "decided by preference rather than reason" },
-        { "t": "harmless", "d": "unable to cause any damage" }
+        {
+          "t": "sum up",
+          "d": "express something briefly and clearly"
+        },
+        {
+          "t": "work against",
+          "d": "make success less likely for somebody"
+        },
+        {
+          "t": "arbitrary",
+          "d": "decided by preference rather than reason"
+        },
+        {
+          "t": "harmless",
+          "d": "not causing harm"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "What seems ____ in one office is normal in another.", "cue": "APPROPRIATE", "a": "inappropriate" },
-          { "s": "After the ____, she clarified that her advice was not universal.", "cue": "LASH", "a": "backlash" },
-          { "s": "Employers may notice how applicants behave towards ____.", "cue": "RECEIVE", "a": "receptionists" },
-          { "s": "Personal preferences can be disguised as professional ____.", "cue": "STANDARDISE", "a": "standards" },
-          { "s": "Remote interviews have brought their own ____ questions.", "cue": "AWKWARDNESS", "a": "awkward" }
+          {
+            "s": "What seems ____ in one office is normal in another.",
+            "cue": "APPROPRIATE",
+            "a": "inappropriate"
+          },
+          {
+            "s": "After the ____, she clarified that her advice was not universal.",
+            "cue": "LASH",
+            "a": "backlash"
+          },
+          {
+            "s": "Employers may notice how applicants behave towards ____.",
+            "cue": "RECEIVE",
+            "a": "receptionists"
+          },
+          {
+            "s": "Personal preferences can be disguised as professional ____.",
+            "cue": "STANDARDISE",
+            "a": "standards"
+          },
+          {
+            "s": "Remote interviews have brought their own ____ questions.",
+            "cue": "AWKWARDNESS",
+            "a": "awkward"
+          }
         ]
       },
       "tfn": [
-        { "s": "Wehniainen said her advice was not a universal rule.", "a": "T" },
-        { "s": "Tattoos and trainers are now unacceptable in most industries.", "a": "F" },
-        { "s": "The CIPD recommends consistent questions and agreed scoring criteria.", "a": "T" },
-        { "s": "Most recruiters now use structured interviews.", "a": "N" }
+        {
+          "s": "Tattoos and trainers are now unacceptable in most industries.",
+          "a": "F",
+          "why": "The text says the opposite: \"Tattoos, trainers and informal emails are no longer automatically seen as unacceptable in many industries.\""
+        },
+        {
+          "s": "Most recruiters now use structured interviews.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Wehniainen said her advice was not a universal rule.",
+          "a": "T",
+          "why": "The text says: \"After the backlash, she clarified that her advice was not a universal rule.\""
+        },
+        {
+          "s": "The CIPD recommends consistent questions and agreed scoring criteria.",
+          "a": "T",
+          "why": "The text says: \"The Chartered Institute of Personnel and Development recommends structured interviews, with consistent questions and agreed scoring criteria, as a way to improve fairness.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The modern recruitment process offers a ____ range of mistakes.", "a": "bewildering" },
-          { "s": "Arrive too early and you appear ____.", "a": "overeager" },
-          { "s": "Her advice was ____, not a blanket prohibition.", "a": "contextual" },
-          { "s": "A small detail becomes ____, with little evidence behind it.", "a": "a proxy for seriousness" },
-          { "s": "Employers should not rely on nostalgia for ____.", "a": "an imagined golden age" },
-          { "s": "Candidates would still be wise to ____.", "a": "read the room" }
+          {
+            "s": "The modern recruitment process offers a ____ range of mistakes.",
+            "a": "bewildering"
+          },
+          {
+            "s": "Arrive too early and you appear ____.",
+            "a": "overeager"
+          },
+          {
+            "s": "Her advice was ____, not a blanket prohibition.",
+            "a": "contextual"
+          },
+          {
+            "s": "A small detail becomes ____, with little evidence behind it.",
+            "a": "a proxy for seriousness"
+          },
+          {
+            "s": "Employers should not rely on nostalgia for ____.",
+            "a": "an imagined golden age"
+          },
+          {
+            "s": "Candidates would still be wise to ____.",
+            "a": "read the room"
+          }
         ],
-        "extra": ["stick to", "elaborate"]
+        "extra": [
+          "stick to",
+          "elaborate"
+        ]
       },
       "match": [
-        { "t": "read the room", "d": "judge the mood and adjust your behaviour" },
-        { "t": "stick to", "d": "continue following a rule or plan" },
-        { "t": "elaborate", "d": "involving many detailed parts" },
-        { "t": "overeager", "d": "keener than the situation calls for" }
+        {
+          "t": "read the room",
+          "d": "judge the mood and adjust your behaviour"
+        },
+        {
+          "t": "stick to",
+          "d": "continue following a rule or plan"
+        },
+        {
+          "t": "elaborate",
+          "d": "involving many detailed parts"
+        },
+        {
+          "t": "overeager",
+          "d": "keener than the situation calls for"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Her comments prompted a ____ backlash online.", "cue": "SPIRIT", "a": "spirited" },
-          { "s": "Such expectations can act as cultural ____.", "cue": "FILTRATION", "a": "filters" },
-          { "s": "Arriving ____ can reveal something about reliability.", "cue": "PUNCTUAL", "a": "punctually" },
-          { "s": "Debates about manners often conceal disagreements over ____.", "cue": "CONFORM", "a": "conformity" },
-          { "s": "The CIPD advocates explicit scoring criteria to reduce ____.", "cue": "BIASED", "a": "bias" }
+          {
+            "s": "Her comments prompted a ____ backlash online.",
+            "cue": "SPIRIT",
+            "a": "spirited"
+          },
+          {
+            "s": "Such expectations can act as cultural ____.",
+            "cue": "FILTRATION",
+            "a": "filters"
+          },
+          {
+            "s": "Arriving ____ can reveal something about reliability.",
+            "cue": "PUNCTUAL",
+            "a": "punctually"
+          },
+          {
+            "s": "Debates about manners often conceal disagreements over ____.",
+            "cue": "CONFORM",
+            "a": "conformity"
+          },
+          {
+            "s": "The CIPD advocates explicit scoring criteria to reduce ____.",
+            "cue": "BIASED",
+            "a": "bias"
+          }
         ]
       },
       "tfn": [
-        { "s": "Studies suggest early impressions can influence later assessments.", "a": "T" },
-        { "s": "The writer concludes that social behaviour is irrelevant in interviews.", "a": "F" },
-        { "s": "Wehniainen later said her advice depended on the context.", "a": "T" },
-        { "s": "British employers have issued new guidance on interview conduct.", "a": "N" }
+        {
+          "s": "Studies suggest early impressions can influence later assessments.",
+          "a": "T",
+          "why": "The text says: \"Studies suggest that first impressions formed during the opening moments of interviews can influence subsequent assessments, even when later questions are highly structured.\""
+        },
+        {
+          "s": "Wehniainen later said her advice depended on the context.",
+          "a": "T",
+          "why": "The text says: \"Wehniainen subsequently played down her comments, emphasising that her advice was contextual, not a blanket prohibition.\""
+        },
+        {
+          "s": "British employers have issued new guidance on interview conduct.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The writer concludes that social behaviour is irrelevant in interviews.",
+          "a": "F",
+          "why": "The text says the opposite: \"None of this means social behaviour is irrelevant.\""
+        }
       ]
     }
   }

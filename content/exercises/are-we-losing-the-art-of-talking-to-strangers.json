@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "They could exchange a few words, share a joke or discover that they ____.", "a": "have something in common" },
-          { "s": "Phones help us pass the time and ____ with people we already know.", "a": "keep in touch" },
-          { "s": "Some people are naturally shy and find small talk ____.", "a": "uncomfortable" },
-          { "s": "A simple question about a delayed train can ____.", "a": "break the ice" },
-          { "s": "What might happen if one of them ____ and started a conversation?", "a": "looked up" }
+          {
+            "s": "They could exchange a few words, share a joke or discover that they ____.",
+            "a": "have something in common"
+          },
+          {
+            "s": "Phones help us pass the time and ____ with people we already know.",
+            "a": "keep in touch"
+          },
+          {
+            "s": "Some people are naturally shy and find small talk ____.",
+            "a": "uncomfortable"
+          },
+          {
+            "s": "A simple question about a delayed train can ____.",
+            "a": "break the ice"
+          },
+          {
+            "s": "What might happen if one of them ____ and started a conversation?",
+            "a": "looked up"
+          }
         ],
-        "extra": ["put away", "pleasant"]
+        "extra": [
+          "put away",
+          "pleasant"
+        ]
       },
       "match": [
-        { "t": "break the ice", "d": "make people feel more relaxed at the start of a conversation" },
-        { "t": "small talk", "d": "polite chat about simple, everyday subjects" },
-        { "t": "shy", "d": "nervous about meeting or speaking to new people" },
-        { "t": "have something in common", "d": "share an interest or a quality with another person" }
+        {
+          "t": "break the ice",
+          "d": "make people feel more relaxed at the start of a conversation"
+        },
+        {
+          "t": "small talk",
+          "d": "polite chat about simple, everyday subjects"
+        },
+        {
+          "t": "shy",
+          "d": "nervous about meeting or speaking to new people"
+        },
+        {
+          "t": "have something in common",
+          "d": "share an interest or a quality with another person"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "An article in the Guardian ____ whether we are forgetting how to talk to strangers.", "cue": "ask", "a": "asked" },
-          { "s": "The writer described ____ people in ordinary places.", "cue": "meet", "a": "meeting" },
-          { "s": "It is harder to say hello to someone who ____ at a screen.", "cue": "stare", "a": "is staring" },
-          { "s": "Research ____ in the article suggests that short conversations can be pleasant.", "cue": "discuss", "a": "discussed" },
-          { "s": "Nobody ____ to talk to every stranger they meet.", "cue": "need", "a": "needs" }
+          {
+            "s": "An article in the Guardian ____ whether we are forgetting how to talk to strangers.",
+            "cue": "ask",
+            "a": "asked"
+          },
+          {
+            "s": "The writer described ____ people in ordinary places.",
+            "cue": "meet",
+            "a": "meeting"
+          },
+          {
+            "s": "It is harder to say hello to someone who ____ at a screen.",
+            "cue": "stare",
+            "a": "is staring"
+          },
+          {
+            "s": "Research ____ in the article suggests that short conversations can be pleasant.",
+            "cue": "discuss",
+            "a": "discussed"
+          },
+          {
+            "s": "Nobody ____ to talk to every stranger they meet.",
+            "cue": "need",
+            "a": "needs"
+          }
         ]
       },
       "tfn": [
-        { "s": "People sometimes expect a conversation with a stranger to be less enjoyable than it really is.", "a": "T" },
-        { "s": "The two passengers on the train talk to each other during the journey.", "a": "F" },
-        { "s": "Most people in cities say they would like more conversations with strangers.", "a": "N" },
-        { "s": "Phones and headphones can make it harder to start a conversation.", "a": "T" }
+        {
+          "s": "People sometimes expect a conversation with a stranger to be less enjoyable than it really is.",
+          "a": "T",
+          "why": "The text says: \"Still, research discussed in the article suggests that people sometimes underestimate how enjoyable a conversation with a stranger might be.\""
+        },
+        {
+          "s": "Phones and headphones can make it harder to start a conversation.",
+          "a": "T",
+          "why": "The text says: \"These things are useful, but they can also stop conversations before they begin.\""
+        },
+        {
+          "s": "Most people in cities say they would like more conversations with strangers.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The two passengers on the train talk to each other during the journey.",
+          "a": "F",
+          "why": "The text says the opposite: \"But what might happen if one of them looked up and started a conversation?\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "You board a train, sit beside another passenger and immediately ____ your phone.", "a": "reach for" },
-          { "s": "The article asked whether we are losing the ability to ____ ordinary conversations.", "a": "strike up" },
-          { "s": "Many people are afraid of annoying someone who wants to ____.", "a": "be left alone" },
-          { "s": "If they give short answers and ____, it is reasonable to let the exchange end.", "a": "look away" },
-          { "s": "We could learn to ____ and recognise when a conversation might be welcome.", "a": "read the room" },
-          { "s": "Ask a simple question without expecting anything ____.", "a": "in return" }
+          {
+            "s": "You board a train, sit beside another passenger and immediately ____ your phone.",
+            "a": "reach for"
+          },
+          {
+            "s": "The article asked whether we are losing the ability to ____ ordinary conversations.",
+            "a": "strike up"
+          },
+          {
+            "s": "Many people are afraid of annoying someone who wants to ____.",
+            "a": "be left alone"
+          },
+          {
+            "s": "If they give short answers and ____, it is reasonable to let the exchange end.",
+            "a": "look away"
+          },
+          {
+            "s": "We could learn to ____ and recognise when a conversation might be welcome.",
+            "a": "read the room"
+          },
+          {
+            "s": "Ask a simple question without expecting anything ____.",
+            "a": "in return"
+          }
         ],
-        "extra": ["carry on", "unapproachable"]
+        "extra": [
+          "carry on",
+          "unapproachable"
+        ]
       },
       "match": [
-        { "t": "strike up", "d": "start a conversation with someone you do not know" },
-        { "t": "unapproachable", "d": "seeming unfriendly and difficult to speak to" },
-        { "t": "read the room", "d": "notice how the people around you are feeling before you act" },
-        { "t": "convenient", "d": "easy and useful in a particular situation" }
+        {
+          "t": "strike up",
+          "d": "start a conversation with someone you do not know"
+        },
+        {
+          "t": "unapproachable",
+          "d": "seeming unfriendly and difficult to speak to"
+        },
+        {
+          "t": "read the room",
+          "d": "notice how the people around you are feeling before you act"
+        },
+        {
+          "t": "convenient",
+          "d": "easy and useful in a particular situation"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Our ____ private routines may be costing us something valuable.", "cue": "INCREASE", "a": "increasingly" },
-          { "s": "For shy people, small talk can feel like an ____ test.", "cue": "NECESSARY", "a": "unnecessary" },
-          { "s": "Everybody outside our immediate circle can seem unfamiliar or ____.", "cue": "APPROACH", "a": "unapproachable" },
-          { "s": "A friendly chat will not solve ____ or political division.", "cue": "LONELY", "a": "loneliness" },
-          { "s": "Smartphones offer endless ____, so empty moments rarely stay empty.", "cue": "ENTERTAIN", "a": "entertainment" }
+          {
+            "s": "Our ____ private routines may be costing us something valuable.",
+            "cue": "INCREASE",
+            "a": "increasingly"
+          },
+          {
+            "s": "For shy people, small talk can feel like an ____ test.",
+            "cue": "NECESSARY",
+            "a": "unnecessary"
+          },
+          {
+            "s": "Everybody outside our immediate circle can seem unfamiliar or ____.",
+            "cue": "APPROACH",
+            "a": "unapproachable"
+          },
+          {
+            "s": "A friendly chat will not solve ____ or political division.",
+            "cue": "LONELY",
+            "a": "loneliness"
+          },
+          {
+            "s": "Smartphones offer endless ____, so empty moments rarely stay empty.",
+            "cue": "ENTERTAIN",
+            "a": "entertainment"
+          }
         ]
       },
       "tfn": [
-        { "s": "The writer's encounters included a conversation with an older passenger.", "a": "T" },
-        { "s": "The article argues that everybody should become more outgoing.", "a": "F" },
-        { "s": "Research suggests conversations with strangers often go better than people expect.", "a": "T" },
-        { "s": "Train companies have started campaigns encouraging passengers to talk.", "a": "N" }
+        {
+          "s": "The writer's encounters included a conversation with an older passenger.",
+          "a": "T",
+          "why": "The text says: \"The writer described brief encounters that turned out to be unexpectedly meaningful, including a conversation with an older passenger and a friendly exchange with someone working in a café.\""
+        },
+        {
+          "s": "Train companies have started campaigns encouraging passengers to talk.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The article argues that everybody should become more outgoing.",
+          "a": "F",
+          "why": "The text says the opposite: \"Perhaps the answer is not to insist that everyone becomes outgoing.\""
+        },
+        {
+          "s": "Research suggests conversations with strangers often go better than people expect.",
+          "a": "T",
+          "why": "The text says: \"Nevertheless, psychological research discussed in the article suggests that we sometimes expect conversations with strangers to go worse than they actually do.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "Both passengers may have perfectly ____ reasons for wanting privacy.", "a": "legitimate" },
-          { "s": "Such moments can be ____, but they may leave a lasting impression.", "a": "fleeting" },
-          { "s": "A conversation that feels harmless to one person may feel ____ to another.", "a": "intrusive" },
-          { "s": "The important skill is noticing whether someone seems ____.", "a": "receptive" },
-          { "s": "The pandemic may have reinforced habits of ____.", "a": "keeping our distance" },
-          { "s": "We could leave room for an exchange instead of automatically ____.", "a": "shutting ourselves away" }
+          {
+            "s": "Both passengers may have perfectly ____ reasons for wanting privacy.",
+            "a": "legitimate"
+          },
+          {
+            "s": "Such moments can be ____, but they may leave a lasting impression.",
+            "a": "fleeting"
+          },
+          {
+            "s": "A conversation that feels harmless to one person may feel ____ to another.",
+            "a": "intrusive"
+          },
+          {
+            "s": "The important skill is noticing whether someone seems ____.",
+            "a": "receptive"
+          },
+          {
+            "s": "The pandemic may have reinforced habits of ____.",
+            "a": "keeping our distance"
+          },
+          {
+            "s": "We could leave room for an exchange instead of automatically ____.",
+            "a": "shutting ourselves away"
+          }
         ],
-        "extra": ["restorative", "back off"]
+        "extra": [
+          "restorative",
+          "back off"
+        ]
       },
       "match": [
-        { "t": "fleeting", "d": "lasting only a very short time" },
-        { "t": "intrusive", "d": "unwelcome because it enters someone's private space" },
-        { "t": "restorative", "d": "leaving you rested and stronger than before" },
-        { "t": "out of proportion to", "d": "far greater than you would expect from" }
+        {
+          "t": "fleeting",
+          "d": "lasting only a very short time"
+        },
+        {
+          "t": "intrusive",
+          "d": "unwelcome because it enters someone's private space"
+        },
+        {
+          "t": "restorative",
+          "d": "leaving you rested and stronger than before"
+        },
+        {
+          "t": "out of proportion to",
+          "d": "far greater than you would expect from"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Two passengers share a carriage yet scarcely acknowledge each other's ____.", "cue": "EXIST", "a": "existence" },
-          { "s": "Any appeal for more interaction must acknowledge ____ experiences of safety.", "cue": "EQUAL", "a": "unequal" },
-          { "s": "Research suggests that we systematically ____ the pleasure of talking to strangers.", "cue": "ESTIMATE", "a": "underestimate" },
-          { "s": "There are less visible barriers too, including ____ about etiquette.", "cue": "CERTAIN", "a": "uncertainty" },
-          { "s": "The skill worth preserving is not constant ____ but a willingness to notice.", "cue": "SOCIABLE", "a": "sociability" }
+          {
+            "s": "Two passengers share a carriage yet scarcely acknowledge each other's ____.",
+            "cue": "EXIST",
+            "a": "existence"
+          },
+          {
+            "s": "Any appeal for more interaction must acknowledge ____ experiences of safety.",
+            "cue": "EQUAL",
+            "a": "unequal"
+          },
+          {
+            "s": "Research suggests that we systematically ____ the pleasure of talking to strangers.",
+            "cue": "ESTIMATE",
+            "a": "underestimate"
+          },
+          {
+            "s": "There are less visible barriers too, including ____ about etiquette.",
+            "cue": "CERTAIN",
+            "a": "uncertainty"
+          },
+          {
+            "s": "The skill worth preserving is not constant ____ but a willingness to notice.",
+            "cue": "SOCIABLE",
+            "a": "sociability"
+          }
         ]
       },
       "tfn": [
-        { "s": "The encounters the writer describes led to lasting friendships.", "a": "F" },
-        { "s": "The piece accepts that an exchange welcome to one person may feel threatening to another.", "a": "T" },
-        { "s": "Researchers have measured how long the average unplanned conversation lasts.", "a": "N" },
-        { "s": "The writer accepts that silence can be good for people.", "a": "T" }
+        {
+          "s": "The writer accepts that silence can be good for people.",
+          "a": "T",
+          "why": "The text says: \"Neither is behaving badly, and both may have perfectly legitimate reasons for wanting privacy.\""
+        },
+        {
+          "s": "Researchers have measured how long the average unplanned conversation lasts.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The writer presents these encounters as life-changing friendships.",
+          "a": "F",
+          "why": "The text says the opposite: \"These were not life-changing friendships or dramatic revelations.\""
+        },
+        {
+          "s": "The piece accepts that an exchange welcome to one person may feel threatening to another.",
+          "a": "T",
+          "why": "The text says: \"A conversation that feels harmless to one person may feel intrusive or threatening to another, particularly when boundaries are ignored.\""
+        }
       ]
     }
   }

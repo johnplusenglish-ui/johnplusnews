@@ -59,7 +59,7 @@ Mike's story raises a particularly delicate issue: can an apology help heal a pa
 === Before you read ===
 
 - Would you enjoy seeing your former classmates again?
-- Did you feel comfortable or uncomfortable at school?
+- What might make a school reunion comfortable or uncomfortable for someone?
 - Can an apology make a difference many years later?
 
 === Talk about it ===

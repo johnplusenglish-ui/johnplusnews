@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "It is ____ and one partner lies awake, exhausted.", "a": "the middle of the night" },
-          { "s": "Some couples choose separate beds so they can ____.", "a": "get a good night's sleep" },
-          { "s": "They may love each other and enjoy ____ during the day.", "a": "spending time together" },
-          { "s": "Serious snoring may ____ rather than a different bedroom.", "a": "need medical attention" },
-          { "s": "Good relationships involve ____ each other.", "a": "looking after" }
+          {
+            "s": "It is ____ and one partner lies awake, exhausted.",
+            "a": "the middle of the night"
+          },
+          {
+            "s": "Some couples choose separate beds so they can ____.",
+            "a": "get a good night's sleep"
+          },
+          {
+            "s": "They may love each other and enjoy ____ during the day.",
+            "a": "spending time together"
+          },
+          {
+            "s": "Serious snoring may ____ rather than a different bedroom.",
+            "a": "need medical attention"
+          },
+          {
+            "s": "Good relationships involve ____ each other.",
+            "a": "looking after"
+          }
         ],
-        "extra": ["turn over", "separate"]
+        "extra": [
+          "turn over",
+          "separate"
+        ]
       },
       "match": [
-        { "t": "look after", "d": "take care of somebody" },
-        { "t": "lie awake", "d": "stay in bed unable to sleep" },
-        { "t": "separate", "d": "kept apart from one another" },
-        { "t": "turn over", "d": "change position while lying down" }
+        {
+          "t": "look after",
+          "d": "take care of somebody"
+        },
+        {
+          "t": "lie awake",
+          "d": "stay in bed unable to sleep"
+        },
+        {
+          "t": "separate",
+          "d": "kept apart from one another"
+        },
+        {
+          "t": "turn over",
+          "d": "change position while lying down"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "They try ____ the pillow, but nothing helps.", "cue": "move", "a": "moving" },
-          { "s": "People sometimes ____ this a sleep divorce.", "cue": "call", "a": "call" },
-          { "s": "In 2025, a survey ____ that separate sleeping was fairly common.", "cue": "suggest", "a": "suggested" },
-          { "s": "If a couple ____ to sleep apart, they can still share evenings.", "cue": "decide", "a": "decides" },
-          { "s": "Nobody ____ to snore loudly.", "cue": "choose", "a": "chooses" }
+          {
+            "s": "They try ____ the pillow, but nothing helps.",
+            "cue": "move",
+            "a": "moving"
+          },
+          {
+            "s": "People sometimes ____ this a sleep divorce.",
+            "cue": "call",
+            "a": "call"
+          },
+          {
+            "s": "In 2025, a survey ____ that separate sleeping was fairly common.",
+            "cue": "suggest",
+            "a": "suggested"
+          },
+          {
+            "s": "If a couple ____ to sleep apart, they can still share evenings.",
+            "cue": "decide",
+            "a": "decides"
+          },
+          {
+            "s": "Nobody ____ to snore loudly.",
+            "cue": "choose",
+            "a": "chooses"
+          }
         ]
       },
       "tfn": [
-        { "s": "Couples who sleep separately have not ended their relationship.", "a": "T" },
-        { "s": "Separate bedrooms suit every relationship.", "a": "F" },
-        { "s": "Different blankets might help couples with different preferences.", "a": "T" },
-        { "s": "Most couples who try separate rooms go back to sharing.", "a": "N" }
+        {
+          "s": "Separate bedrooms suit every relationship.",
+          "a": "F",
+          "why": "The text says the opposite: \"There is no arrangement that suits every relationship.\""
+        },
+        {
+          "s": "Most couples who try separate rooms go back to sharing.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Couples who sleep separately have not ended their relationship.",
+          "a": "T",
+          "why": "The text says: \"People sometimes call this a sleep divorce, although nobody is ending the relationship.\""
+        },
+        {
+          "s": "Different blankets might help couples with different preferences.",
+          "a": "T",
+          "why": "The text says: \"Different blankets might help.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Bedtime can ____ a negotiation about windows and alarms.", "a": "turn into" },
-          { "s": "Somebody who sleeps peacefully may become less ____.", "a": "irritable" },
-          { "s": "Relatives might see separate bedrooms as ____.", "a": "a sign of trouble" },
-          { "s": "Couples often simply have to ____ the disturbance.", "a": "put up with" },
-          { "s": "Agreed rules may involve ____ screens late at night.", "a": "cutting down on" },
-          { "s": "Snoring is not something a person can control ____.", "a": "through willpower" }
+          {
+            "s": "Bedtime can ____ a negotiation about windows and alarms.",
+            "a": "turn into"
+          },
+          {
+            "s": "Somebody who sleeps peacefully may become less ____.",
+            "a": "irritable"
+          },
+          {
+            "s": "Relatives might see separate bedrooms as ____.",
+            "a": "a sign of trouble"
+          },
+          {
+            "s": "Couples often simply have to ____ the disturbance.",
+            "a": "put up with"
+          },
+          {
+            "s": "Agreed rules may involve ____ screens late at night.",
+            "a": "cutting down on"
+          },
+          {
+            "s": "Snoring is not something a person can control ____.",
+            "a": "through willpower"
+          }
         ],
-        "extra": ["carry out", "restless"]
+        "extra": [
+          "carry out",
+          "restless"
+        ]
       },
       "match": [
-        { "t": "put up with", "d": "accept something unpleasant without complaining" },
-        { "t": "cut down on", "d": "reduce the amount of something" },
-        { "t": "carry out", "d": "perform a study or piece of work" },
-        { "t": "restless", "d": "unable to stay still or calm" }
+        {
+          "t": "put up with",
+          "d": "accept something unpleasant"
+        },
+        {
+          "t": "cut down on",
+          "d": "reduce the amount of something"
+        },
+        {
+          "t": "carry out",
+          "d": "perform a study or piece of work"
+        },
+        {
+          "t": "restless",
+          "d": "unable to stay still or calm"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Reasons include ____ room temperatures and noise.", "cue": "CONFLICT", "a": "conflicting" },
-          { "s": "Separate beds can reduce opportunities for ____.", "cue": "CLOSE", "a": "closeness" },
-          { "s": "Loud snoring may indicate a condition requiring ____.", "cue": "ASSESS", "a": "assessment" },
-          { "s": "Moving rooms may not address the ____ problem.", "cue": "LIE", "a": "underlying" },
-          { "s": "Moving house purely to improve sleep is financially ____.", "cue": "REAL", "a": "unrealistic" }
+          {
+            "s": "Reasons include ____ room temperatures and noise.",
+            "cue": "CONFLICT",
+            "a": "conflicting"
+          },
+          {
+            "s": "Separate beds can reduce opportunities for ____.",
+            "cue": "CLOSE",
+            "a": "closeness"
+          },
+          {
+            "s": "Loud snoring may indicate a condition requiring ____.",
+            "cue": "ASSESS",
+            "a": "assessment"
+          },
+          {
+            "s": "Moving rooms may not address a ____ problem such as sleep apnoea.",
+            "cue": "MEDICINE",
+            "a": "medical"
+          },
+          {
+            "s": "Moving house purely to improve sleep is financially ____.",
+            "cue": "REAL",
+            "a": "unrealistic"
+          }
         ]
       },
       "tfn": [
-        { "s": "The 2025 survey was carried out by the American Academy of Sleep Medicine.", "a": "T" },
-        { "s": "The figures prove that separate bedrooms make couples happier.", "a": "F" },
-        { "s": "Separate bedrooms are not an option for everybody.", "a": "T" },
-        { "s": "Younger couples are more likely to sleep apart.", "a": "N" }
+        {
+          "s": "Younger couples are more likely to sleep apart.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The 2025 survey was carried out by the American Academy of Sleep Medicine.",
+          "a": "T",
+          "why": "The text says: \"A 2025 report discussing a survey carried out by the American Academy of Sleep Medicine suggested that sleeping separately was relatively common among US adults.\""
+        },
+        {
+          "s": "The figures prove that separate bedrooms make couples happier.",
+          "a": "F",
+          "why": "The text says the opposite: \"The figures describe reported behaviour, not proof that separate bedrooms produce happier relationships.\""
+        },
+        {
+          "s": "Separate bedrooms are not an option for everybody.",
+          "a": "T",
+          "why": "The text says: \"Separate bedrooms are not an option for everybody.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The real problem may be a partner who ____ most of the mattress.", "a": "takes up" },
-          { "s": "A 2025 survey suggested the practice was ____.", "a": "far from exceptional" },
-          { "s": "There is ____ for sleeping apart.", "a": "a plausible argument in its favour" },
-          { "s": "The underlying cause should not be ____.", "a": "brushed aside" },
-          { "s": "What matters is whether both partners ____.", "a": "have a say" },
-          { "s": "Physical proximity should not be ____.", "a": "the sole measure of affection" }
+          {
+            "s": "The real problem may be a partner who ____ most of the mattress.",
+            "a": "takes up"
+          },
+          {
+            "s": "A 2025 survey suggested the practice was ____.",
+            "a": "far from exceptional"
+          },
+          {
+            "s": "There is ____ sleeping apart.",
+            "a": "a plausible argument in favour of"
+          },
+          {
+            "s": "The underlying cause should not be ____.",
+            "a": "brushed aside"
+          },
+          {
+            "s": "What matters is whether both partners ____.",
+            "a": "have a say"
+          },
+          {
+            "s": "Physical proximity should not be ____.",
+            "a": "the sole measure of affection"
+          }
         ],
-        "extra": ["look into", "involuntary"]
+        "extra": [
+          "look into",
+          "involuntary"
+        ]
       },
       "match": [
-        { "t": "take up", "d": "occupy an amount of space" },
-        { "t": "brush aside", "d": "refuse to take something seriously" },
-        { "t": "look into", "d": "investigate a possible solution" },
-        { "t": "involuntary", "d": "not done by choice" }
+        {
+          "t": "take up",
+          "d": "occupy an amount of space"
+        },
+        {
+          "t": "brush aside",
+          "d": "refuse to take something seriously"
+        },
+        {
+          "t": "look into",
+          "d": "investigate a possible solution"
+        },
+        {
+          "t": "involuntary",
+          "d": "not done by choice"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "A shared bed is a symbol of a ____ relationship.", "cue": "COMMIT", "a": "committed" },
-          { "s": "The problem may be snoring or ____ schedules.", "cue": "COMPATIBLE", "a": "incompatible" },
-          { "s": "____ sleep disruption can affect mood and attention.", "cue": "CHRONICLE", "a": "Chronic" },
-          { "s": "Loud ____ snoring may indicate sleep apnoea.", "cue": "HABIT", "a": "habitual" },
-          { "s": "Housing conditions complicate the ____ presentation of the idea.", "cue": "FASHION", "a": "fashionable" }
+          {
+            "s": "A shared bed is a symbol of a ____ relationship.",
+            "cue": "COMMIT",
+            "a": "committed"
+          },
+          {
+            "s": "The problem may be snoring or ____ schedules.",
+            "cue": "COMPATIBLE",
+            "a": "incompatible"
+          },
+          {
+            "s": "Chronic sleep ____ can affect mood and attention.",
+            "cue": "DISRUPT",
+            "a": "disruption"
+          },
+          {
+            "s": "Loud ____ snoring may indicate sleep apnoea.",
+            "cue": "HABIT",
+            "a": "habitual"
+          },
+          {
+            "s": "Housing conditions complicate the ____ presentation of the idea.",
+            "cue": "FASHION",
+            "a": "fashionable"
+          }
         ]
       },
       "tfn": [
-        { "s": "The writer says the popularity of a phrase does not prove it improves relationships.", "a": "T" },
-        { "s": "The article presents separate rooms as the ideal arrangement.", "a": "F" },
-        { "s": "Separate rooms require space that many couples do not have.", "a": "T" },
-        { "s": "Sleep clinics now advise separate bedrooms for snorers.", "a": "N" }
+        {
+          "s": "The writer says the popularity of a phrase does not prove it improves relationships.",
+          "a": "T",
+          "why": "The text says: \"Yet the popularity of a phrase does not establish whether the arrangement improves relationships or how widely it occurs outside the surveyed population.\""
+        },
+        {
+          "s": "Sleep clinics now advise separate bedrooms for snorers.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Separate rooms require space that many couples do not have.",
+          "a": "T",
+          "why": "The text says: \"Separate rooms require space that many couples, particularly those facing high rents or crowded housing, simply do not have.\""
+        },
+        {
+          "s": "The article presents separate rooms as the ideal arrangement.",
+          "a": "F",
+          "why": "The text says the opposite: \"Separate rooms require space that many couples, particularly those facing high rents or crowded housing, simply do not have.\""
+        }
       ]
     }
   }

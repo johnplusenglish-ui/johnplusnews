@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "Your alarm does not ring, and you ____ for another hour.", "a": "stay in bed" },
-          { "s": "People who did not ____ sleep were more likely to have high blood pressure.", "a": "catch up on" },
-          { "s": "By Friday, many adults feel ____.", "a": "exhausted" },
-          { "s": "A lie-in cannot ____ every unhealthy habit.", "a": "make up for" },
-          { "s": "Try not to ____, and remember that sleep during the week matters most.", "a": "go overboard" }
+          {
+            "s": "Your alarm does not ring, and you ____ for another hour.",
+            "a": "stay in bed"
+          },
+          {
+            "s": "People who did not ____ sleep were more likely to have high blood pressure.",
+            "a": "catch up on"
+          },
+          {
+            "s": "By Friday, many adults feel ____.",
+            "a": "exhausted"
+          },
+          {
+            "s": "A lie-in cannot ____ every unhealthy habit.",
+            "a": "make up for"
+          },
+          {
+            "s": "Try not to ____, and remember that sleep during the week matters most.",
+            "a": "go overboard"
+          }
         ],
-        "extra": ["work out", "guilty"]
+        "extra": [
+          "work out",
+          "guilty"
+        ]
       },
       "match": [
-        { "t": "catch up on", "d": "do something you did not have time for earlier" },
-        { "t": "go overboard", "d": "do far more of something than you need to" },
-        { "t": "guilty", "d": "feeling bad because you think you did wrong" },
-        { "t": "work out", "d": "find the answer to something after thinking" }
+        {
+          "t": "catch up on",
+          "d": "do something you did not have time for earlier"
+        },
+        {
+          "t": "go overboard",
+          "d": "do far more of something than you need to"
+        },
+        {
+          "t": "guilty",
+          "d": "feeling bad because you think you did wrong"
+        },
+        {
+          "t": "work out",
+          "d": "find the answer to something after thinking"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "In August 2026, scientists ____ a study about weekend sleep.", "cue": "present", "a": "presented" },
-          { "s": "They looked at information from around 40,000 adults ____ in South Korea.", "cue": "live", "a": "living" },
-          { "s": "An extra hour in bed may help them ____ from some lost sleep.", "cue": "recover", "a": "recover" },
-          { "s": "Not ____ enough sleep may put extra pressure on the body.", "cue": "get", "a": "getting" },
-          { "s": "High blood pressure ____ the risk of heart disease and stroke.", "cue": "increase", "a": "increases" }
+          {
+            "s": "In August 2026, scientists ____ a study about weekend sleep.",
+            "cue": "present",
+            "a": "presented"
+          },
+          {
+            "s": "They looked at information from around 40,000 adults ____ in South Korea.",
+            "cue": "live",
+            "a": "living"
+          },
+          {
+            "s": "An extra hour in bed may help them ____ from some lost sleep.",
+            "cue": "recover",
+            "a": "recover"
+          },
+          {
+            "s": "Not ____ enough sleep may put extra pressure on the body.",
+            "cue": "get",
+            "a": "getting"
+          },
+          {
+            "s": "High blood pressure ____ the risk of heart disease and stroke.",
+            "cue": "increase",
+            "a": "increases"
+          }
         ]
       },
       "tfn": [
-        { "s": "The study followed about 40,000 adults in South Korea over seven years.", "a": "T" },
-        { "s": "The research proved that a weekend lie-in prevents high blood pressure.", "a": "F" },
-        { "s": "People who slept much longer than usual did not get the same benefits.", "a": "T" },
-        { "s": "Most South Korean adults sleep later at weekends than on weekdays.", "a": "N" }
+        {
+          "s": "Most South Korean adults sleep later at weekends than on weekdays.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The researchers used information from around 40,000 adults in South Korea.",
+          "a": "T",
+          "why": "The text says: \"They looked at information from around 40,000 adults in South Korea over seven years.\""
+        },
+        {
+          "s": "People who slept much longer than usual did not get the same benefits.",
+          "a": "T",
+          "why": "The text says: \"People who slept much longer than usual did not appear to get the same benefits.\""
+        },
+        {
+          "s": "The research proved that a weekend lie-in prevents high blood pressure.",
+          "a": "F",
+          "why": "The text says the opposite: \"The research found a connection, but it did not prove that a weekend lie-in directly prevents high blood pressure.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Even a pleasant lie-in can come with a ____.", "a": "feeling of guilt" },
-          { "s": "Participants who caught up on sleep had lower odds of ____.", "a": "hypertension" },
-          { "s": "By the weekend, many people are ____.", "a": "running on empty" },
-          { "s": "Catch-up sleep should not become an excuse for ____ on rest.", "a": "cutting back" },
-          { "s": "A ____ lie-in may be a reasonable way to catch your breath.", "a": "moderate" },
-          { "s": "Very long lie-ins could ____ regular sleep patterns.", "a": "disturb" }
+          {
+            "s": "Even a pleasant lie-in can come with a ____.",
+            "a": "feeling of guilt"
+          },
+          {
+            "s": "Participants who caught up on sleep had lower odds of ____.",
+            "a": "hypertension"
+          },
+          {
+            "s": "By the weekend, many people are ____.",
+            "a": "running on empty"
+          },
+          {
+            "s": "Catch-up sleep should not become an excuse for ____ on rest.",
+            "a": "cutting back"
+          },
+          {
+            "s": "A ____ lie-in may be a reasonable way to catch your breath.",
+            "a": "moderate"
+          },
+          {
+            "s": "Very long lie-ins could ____ regular sleep patterns.",
+            "a": "disturb"
+          }
         ],
-        "extra": ["look after", "consistent"]
+        "extra": [
+          "look after",
+          "consistent"
+        ]
       },
       "match": [
-        { "t": "running on empty", "d": "continuing although you have no energy left" },
-        { "t": "cut back", "d": "reduce the amount of something you use or do" },
-        { "t": "consistent", "d": "staying much the same from one day to the next" },
-        { "t": "look after", "d": "take care of somebody or something" }
+        {
+          "t": "running on empty",
+          "d": "continuing although you have no energy left"
+        },
+        {
+          "t": "cut back",
+          "d": "reduce the amount of something you use or do"
+        },
+        {
+          "t": "consistent",
+          "d": "staying much the same from one day to the next"
+        },
+        {
+          "t": "look after",
+          "d": "take care of somebody or something"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Participants who caught up on sleep had slightly lower ____ of hypertension.", "cue": "LIKELY", "a": "likelihood" },
-          { "s": "The possible ____ for the pattern is fairly straightforward.", "cue": "EXPLAIN", "a": "explanation" },
-          { "s": "The most ____ association was found at about an extra eighty-seven minutes.", "cue": "FAVOUR", "a": "favourable" },
-          { "s": "Experts recommend ____ bedtimes and waking times where possible.", "cue": "CONSIST", "a": "consistent" },
-          { "s": "Extra time in bed cannot replace exercise or a ____ diet.", "cue": "BALANCE", "a": "balanced" }
+          {
+            "s": "Participants who caught up on sleep had a slightly lower ____ of hypertension.",
+            "cue": "LIKELY",
+            "a": "likelihood"
+          },
+          {
+            "s": "The possible ____ for the pattern is fairly straightforward.",
+            "cue": "EXPLAIN",
+            "a": "explanation"
+          },
+          {
+            "s": "The most ____ association was found at about an extra eighty-seven minutes.",
+            "cue": "FAVOUR",
+            "a": "favourable"
+          },
+          {
+            "s": "Experts recommend ____ bedtimes and waking times where possible.",
+            "cue": "CONSIST",
+            "a": "consistent"
+          },
+          {
+            "s": "Extra time in bed cannot replace exercise or a ____ diet.",
+            "cue": "BALANCE",
+            "a": "balanced"
+          }
         ]
       },
       "tfn": [
-        { "s": "The research was discussed at a European heart conference in August 2026.", "a": "T" },
-        { "s": "The study proved that staying in bed directly lowers blood pressure.", "a": "F" },
-        { "s": "Researchers warned that very long weekend lie-ins could disturb sleep patterns.", "a": "T" },
-        { "s": "The study found that women benefited more than men.", "a": "N" }
+        {
+          "s": "The study proved that staying in bed directly lowers blood pressure.",
+          "a": "F",
+          "why": "The text says the opposite: \"The study showed an association, not proof that staying in bed directly reduces the risk of hypertension.\""
+        },
+        {
+          "s": "The research was discussed at a European heart conference in August 2026.",
+          "a": "T",
+          "why": "The text says: \"However, research discussed at a European heart conference in August 2026 suggests that a modest amount of catch-up sleep may be helpful.\""
+        },
+        {
+          "s": "Researchers warned that very long weekend lie-ins could disturb sleep patterns.",
+          "a": "T",
+          "why": "The text says: \"Researchers also warned that very long weekend lie-ins could disturb regular sleep patterns.\""
+        },
+        {
+          "s": "The study found that women benefited more than men.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "For people who have accumulated a ____ during the week, catch-up sleep may help.", "a": "sleep deficit" },
-          { "s": "That specific figure makes an ____ headline.", "a": "irresistible" },
-          { "s": "The weekend may be the only realistic chance to ____ some of the shortfall.", "a": "make up" },
-          { "s": "Very large differences between routines can ____ some of the benefits.", "a": "cancel out" },
-          { "s": "Getting more sleep may be sensible rather than ____.", "a": "self-indulgent" },
-          { "s": "The distinction between correlation and causation is ____.", "a": "crucial" }
+          {
+            "s": "For people who have accumulated a ____ during the week, catch-up sleep may help.",
+            "a": "sleep deficit"
+          },
+          {
+            "s": "That specific figure makes an ____ headline.",
+            "a": "irresistible"
+          },
+          {
+            "s": "The weekend may be the only realistic chance to ____ some of the shortfall.",
+            "a": "make up"
+          },
+          {
+            "s": "Very large differences between routines can ____ some of the benefits.",
+            "a": "cancel out"
+          },
+          {
+            "s": "Getting more sleep may be sensible rather than ____.",
+            "a": "self-indulgent"
+          },
+          {
+            "s": "The distinction between correlation and causation is ____.",
+            "a": "crucial"
+          }
         ],
-        "extra": ["plausible", "juggle"]
+        "extra": [
+          "plausible",
+          "juggle"
+        ]
       },
       "match": [
-        { "t": "cancel out", "d": "remove the effect of something else" },
-        { "t": "self-indulgent", "d": "allowing yourself more pleasure than you should" },
-        { "t": "plausible", "d": "reasonable enough to be believed" },
-        { "t": "juggle", "d": "manage several demands at the same time" }
+        {
+          "t": "cancel out",
+          "d": "remove the effect of something else"
+        },
+        {
+          "t": "self-indulgent",
+          "d": "allowing yourself more pleasure than you should"
+        },
+        {
+          "t": "plausible",
+          "d": "reasonable enough to be believed"
+        },
+        {
+          "t": "juggle",
+          "d": "manage several demands at the same time"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "____ sleep can interfere with the night-time fall in blood pressure.", "cue": "SUFFICIENT", "a": "insufficient" },
-          { "s": "It would be ____ to read the figure as an exact prescription.", "cue": "MISLEAD", "a": "misleading" },
-          { "s": "There is a ____ physiological explanation for the pattern.", "cue": "PLAUSIBILITY", "a": "plausible" },
-          { "s": "Sleep specialists emphasise the importance of ____ rest all week.", "cue": "ADEQUACY", "a": "adequate" },
-          { "s": "Neither ____ tells us much about how tired those people really are.", "cue": "JUDGE", "a": "judgement" }
+          {
+            "s": "____ sleep can interfere with the night-time fall in blood pressure.",
+            "cue": "SUFFICIENT",
+            "a": "Insufficient"
+          },
+          {
+            "s": "It would be ____ to read the figure as an exact prescription.",
+            "cue": "MISLEAD",
+            "a": "misleading"
+          },
+          {
+            "s": "There is a ____ physiological explanation for the pattern.",
+            "cue": "PLAUSIBILITY",
+            "a": "plausible"
+          },
+          {
+            "s": "Sleep specialists emphasise the importance of ____ rest all week.",
+            "cue": "ADEQUACY",
+            "a": "adequate"
+          },
+          {
+            "s": "Neither ____ tells us much about how tired those people really are.",
+            "cue": "JUDGE",
+            "a": "judgement"
+          }
         ]
       },
       "tfn": [
-        { "s": "The analysis covered roughly 40,000 South Korean adults over seven years.", "a": "T" },
-        { "s": "Researchers assigned people different amounts of weekend sleep.", "a": "F" },
-        { "s": "The strongest favourable association was at about an hour and twenty-seven minutes.", "a": "T" },
-        { "s": "The findings have changed official sleep guidance in South Korea.", "a": "N" }
+        {
+          "s": "The analysis covered roughly 40,000 South Korean adults over seven years.",
+          "a": "T",
+          "why": "The text says: \"At the European Society of Cardiology congress in August 2026, researchers presented an analysis of roughly 40,000 adults in South Korea whose data had been collected over seven years.\""
+        },
+        {
+          "s": "The findings have changed official sleep guidance in South Korea.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Researchers assigned people different amounts of weekend sleep.",
+          "a": "F",
+          "why": "The text says the opposite: \"The researchers did not assign people different amounts of weekend sleep and then prove that a lie-in prevented illness.\""
+        },
+        {
+          "s": "The strongest favourable association was at about an hour and twenty-seven minutes.",
+          "a": "T",
+          "why": "The text says: \"The strongest favourable association was reported at approximately one hour and twenty-seven minutes of additional sleep.\""
+        }
       ]
     }
   }

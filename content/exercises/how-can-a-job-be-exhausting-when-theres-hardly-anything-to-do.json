@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "You check the clock ____.", "a": "again and again" },
-          { "s": "They have few chances to ____ new skills.", "a": "pick up" },
-          { "s": "A worker could ____ a new project or more training.", "a": "take on" },
-          { "s": "You often have to remain at your desk and ____.", "a": "look busy" },
-          { "s": "Feeling bored all day is not the same as having ____.", "a": "free time" }
+          {
+            "s": "You check the clock ____.",
+            "a": "again and again"
+          },
+          {
+            "s": "They have few chances to ____ new skills.",
+            "a": "pick up"
+          },
+          {
+            "s": "A worker could ____ a new project or more training.",
+            "a": "take on"
+          },
+          {
+            "s": "You often have to remain at your desk and ____.",
+            "a": "look busy"
+          },
+          {
+            "s": "Feeling bored all day is not the same as having ____.",
+            "a": "free time"
+          }
         ],
-        "extra": ["look at", "repetitive"]
+        "extra": [
+          "look at",
+          "repetitive"
+        ]
       },
       "match": [
-        { "t": "pick up", "d": "learn something without formal lessons" },
-        { "t": "take on", "d": "accept a new piece of work" },
-        { "t": "repetitive", "d": "the same thing over and over again" },
-        { "t": "frustrated", "d": "annoyed because you cannot do what you want" }
+        {
+          "t": "pick up",
+          "d": "learn something without formal lessons"
+        },
+        {
+          "t": "take on",
+          "d": "accept a new piece of work"
+        },
+        {
+          "t": "repetitive",
+          "d": "the same thing over and over again"
+        },
+        {
+          "t": "frustrated",
+          "d": "annoyed because you cannot do what you want"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "Imagine ____ at your desk all day with nothing to do.", "cue": "sit", "a": "sitting" },
-          { "s": "The American Psychological Association ____ this problem in 2026.", "cue": "discuss", "a": "discussed" },
-          { "s": "Someone may stop ____ about their tasks.", "cue": "care", "a": "caring" },
-          { "s": "Over time, it can make ____ difficult.", "cue": "concentrate", "a": "concentrating" },
-          { "s": "They might want another job but ____ unable to leave.", "cue": "feel", "a": "feel" }
+          {
+            "s": "Imagine ____ at your desk all day with nothing to do.",
+            "cue": "sit",
+            "a": "sitting"
+          },
+          {
+            "s": "The American Psychological Association ____ this problem in 2026.",
+            "cue": "discuss",
+            "a": "discussed"
+          },
+          {
+            "s": "Someone may stop ____ about their tasks.",
+            "cue": "care",
+            "a": "caring"
+          },
+          {
+            "s": "Over time, it can make ____ difficult.",
+            "cue": "concentrate",
+            "a": "concentrating"
+          },
+          {
+            "s": "They might want another job but ____ unable to leave.",
+            "cue": "feel",
+            "a": "feel"
+          }
         ]
       },
       "tfn": [
-        { "s": "Rust-out can happen when work is too easy or repetitive.", "a": "T" },
-        { "s": "A short quiet period at work is the same as rust-out.", "a": "F" },
-        { "s": "The APA discussed the problem in a September 2026 article.", "a": "T" },
-        { "s": "Rust-out is more common in offices than in factories.", "a": "N" }
+        {
+          "s": "A short quiet period at work is the same as rust-out.",
+          "a": "F",
+          "why": "The text says the opposite: \"A short, quiet period at work may be welcome.\""
+        },
+        {
+          "s": "The APA discussed the problem in a September 2026 article.",
+          "a": "T",
+          "why": "The text says: \"The American Psychological Association discussed this problem in a September 2026 article.\""
+        },
+        {
+          "s": "Rust-out is more common in offices than in factories.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Rust-out can happen when work is too easy or repetitive.",
+          "a": "T",
+          "why": "The text says: \"But psychologists also talk about rust-out, which can happen when work is too easy, too repetitive or has little meaning.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Somebody can return home ____ after an undemanding day.", "a": "drained" },
-          { "s": "A worker spends the morning ____ and the afternoon waiting.", "a": "keeping up appearances" },
-          { "s": "They still have to ____ every hour.", "a": "account for" },
-          { "s": "Employers have ____ in solving the problem.", "a": "a role to play" },
-          { "s": "Rust-out can look like a privilege ____.", "a": "from the outside" },
-          { "s": "People can ____ between fear and frustration.", "a": "feel trapped" }
+          {
+            "s": "Somebody can return home ____ after an undemanding day.",
+            "a": "drained"
+          },
+          {
+            "s": "A worker spends the morning ____ and the afternoon waiting.",
+            "a": "keeping up appearances"
+          },
+          {
+            "s": "They still have to ____ every hour.",
+            "a": "account for"
+          },
+          {
+            "s": "Employers have ____ in solving the problem.",
+            "a": "a role to play"
+          },
+          {
+            "s": "Rust-out can look like a privilege ____.",
+            "a": "from the outside"
+          },
+          {
+            "s": "People can ____ between fear and frustration.",
+            "a": "feel trapped"
+          }
         ],
-        "extra": ["speak up", "reluctant"]
+        "extra": [
+          "speak up",
+          "reluctant"
+        ]
       },
       "match": [
-        { "t": "account for", "d": "explain how time or money was used" },
-        { "t": "keep up appearances", "d": "pretend things are better than they are" },
-        { "t": "speak up", "d": "say what you think, even when it is hard" },
-        { "t": "reluctant", "d": "unwilling and slow to act" }
+        {
+          "t": "account for",
+          "d": "explain how time or money was used"
+        },
+        {
+          "t": "keep up appearances",
+          "d": "pretend things are better than they are"
+        },
+        {
+          "t": "speak up",
+          "d": "say what you think, even when it is hard"
+        },
+        {
+          "t": "reluctant",
+          "d": "unwilling and slow to act"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Burnout is associated with ____ workplace stress.", "cue": "EXCESS", "a": "excessive" },
-          { "s": "Rust-out involves ____ boredom and a lack of purpose.", "cue": "CHRONICLE", "a": "chronic" },
-          { "s": "Repetitive tasks offer no opportunity for ____.", "cue": "CREATE", "a": "creativity" },
-          { "s": "Employers can give staff more ____.", "cue": "AUTONOMOUS", "a": "autonomy" },
-          { "s": "People may become seriously ____ before they complain.", "cue": "ENGAGE", "a": "disengaged" }
+          {
+            "s": "Burnout is associated with ____ workplace stress.",
+            "cue": "EXCESS",
+            "a": "excessive"
+          },
+          {
+            "s": "Rust-out involves long-term boredom and a lack of ____.",
+            "cue": "MOTIVATE",
+            "a": "motivation"
+          },
+          {
+            "s": "Repetitive tasks offer no opportunity for ____.",
+            "cue": "CREATE",
+            "a": "creativity"
+          },
+          {
+            "s": "Employers can give staff more ____.",
+            "cue": "AUTONOMOUS",
+            "a": "autonomy"
+          },
+          {
+            "s": "People may become seriously ____ before they complain.",
+            "cue": "ENGAGE",
+            "a": "disengaged"
+          }
         ]
       },
       "tfn": [
-        { "s": "Rust-out differs from burnout in its cause.", "a": "T" },
-        { "s": "Reducing an employee's workload always makes work healthier.", "a": "F" },
-        { "s": "Financial commitments can make leaving a job impossible.", "a": "T" },
-        { "s": "Rust-out affects more workers than burnout.", "a": "N" }
+        {
+          "s": "Financial commitments can make leaving a job impossible.",
+          "a": "T",
+          "why": "The text says: \"Financial commitments can make leaving impossible.\""
+        },
+        {
+          "s": "Reducing an employee's workload always makes work healthier.",
+          "a": "F",
+          "why": "The text says the opposite: \"Simply reducing an employee's workload does not necessarily make their working life healthier.\""
+        },
+        {
+          "s": "Rust-out affects more workers than burnout.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Rust-out differs from burnout in its cause.",
+          "a": "T",
+          "why": "The text says: \"Unlike burnout, which is associated with excessive workplace stress, rust-out involves chronic boredom, insufficient challenge and a lack of purpose.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "Chronic under-stimulation is a substantial problem ____.", "a": "in its own right" },
-          { "s": "Such circumstances create ____.", "a": "an uncomfortable trap" },
-          { "s": "Leaving an unfulfilling job may seem financially ____.", "a": "reckless" },
-          { "s": "Employees should not ____ for putting the problem right.", "a": "bear sole responsibility" },
-          { "s": "The appearance of productivity adds ____ to the boredom.", "a": "a layer of frustration" },
-          { "s": "Simply ____ more tasks is not an effective intervention.", "a": "piling on" }
+          {
+            "s": "Chronic under-stimulation is a substantial problem ____.",
+            "a": "in its own right"
+          },
+          {
+            "s": "Such circumstances create ____.",
+            "a": "an uncomfortable trap"
+          },
+          {
+            "s": "Leaving an unfulfilling job may seem financially ____.",
+            "a": "reckless"
+          },
+          {
+            "s": "Employees should not ____ for putting the problem right.",
+            "a": "bear sole responsibility"
+          },
+          {
+            "s": "The appearance of productivity adds ____ to the boredom.",
+            "a": "a layer of frustration"
+          },
+          {
+            "s": "Simply ____ more tasks is not an effective intervention.",
+            "a": "piling on"
+          }
         ],
-        "extra": ["monotonous", "restorative"]
+        "extra": [
+          "monotonous",
+          "restorative"
+        ]
       },
       "match": [
-        { "t": "pile something on", "d": "add much more of something" },
-        { "t": "in its own right", "d": "important on its own, not as part of something else" },
-        { "t": "monotonous", "d": "dull because it never changes" },
-        { "t": "restorative", "d": "leaving you rested and stronger" }
+        {
+          "t": "pile something on",
+          "d": "add much more of something"
+        },
+        {
+          "t": "in its own right",
+          "d": "important on its own, not as part of something else"
+        },
+        {
+          "t": "monotonous",
+          "d": "dull because it never changes"
+        },
+        {
+          "t": "restorative",
+          "d": "leaving you rested and stronger"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "How can somebody spend eight ____ hours and feel exhausted?", "cue": "DEMAND", "a": "undemanding" },
-          { "s": "Rust-out describes a persistent sense of ____.", "cue": "ENGAGE", "a": "disengagement" },
-          { "s": "Inactivity can erode motivation and self-____.", "cue": "CONFIDENT", "a": "confidence" },
-          { "s": "Employees may feel ____ about complaining.", "cue": "GUILT", "a": "guilty" },
-          { "s": "A genuinely ____ job requires an appropriate level of challenge.", "cue": "SUSTAIN", "a": "sustainable" }
+          {
+            "s": "How can somebody spend eight ____ hours and feel exhausted?",
+            "cue": "DEMAND",
+            "a": "undemanding"
+          },
+          {
+            "s": "Rust-out describes a persistent sense of ____.",
+            "cue": "ENGAGE",
+            "a": "disengagement"
+          },
+          {
+            "s": "Inactivity can erode motivation and self-____.",
+            "cue": "CONFIDENT",
+            "a": "confidence"
+          },
+          {
+            "s": "Employees may feel ____ about complaining.",
+            "cue": "GUILT",
+            "a": "guilty"
+          },
+          {
+            "s": "A genuinely ____ job requires an appropriate level of challenge.",
+            "cue": "SUSTAIN",
+            "a": "sustainable"
+          }
         ]
       },
       "tfn": [
-        { "s": "The APA feature appeared in September 2026.", "a": "T" },
-        { "s": "The writer says adding more tasks always restores engagement.", "a": "F" },
-        { "s": "Job design features such as autonomy and feedback can help.", "a": "T" },
-        { "s": "Rust-out is now recognised as a medical condition.", "a": "N" }
+        {
+          "s": "The writer says adding more tasks always restores engagement.",
+          "a": "F",
+          "why": "The text says the opposite: \"This helps explain why simply piling on more tasks is not necessarily an effective intervention.\""
+        },
+        {
+          "s": "Job design features such as autonomy and feedback can help.",
+          "a": "T",
+          "why": "The text says: \"Autonomy, task variety, feedback and opportunities for development can make a difference.\""
+        },
+        {
+          "s": "Rust-out is now recognised as a medical condition.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The APA feature appeared in September 2026.",
+          "a": "T",
+          "why": "The text says: \"In a September 2026 feature, the American Psychological Association highlighted emerging evidence that workplace boredom is not merely an inconvenience but can affect psychological and physical wellbeing.\""
+        }
       ]
     }
   }

@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "The dodo lived on Mauritius until it ____ in the seventeenth century.", "a": "died out" },
-          { "s": "Today the bird is famous as ____.", "a": "a symbol of extinction" },
-          { "s": "The Nicobar pigeon is the dodo's ____.", "a": "closest living relative" },
-          { "s": "This is not like bringing an original dodo ____.", "a": "back from the dead" },
-          { "s": "The research could ____ new ways of protecting endangered animals.", "a": "lead to" }
+          {
+            "s": "The dodo lived on Mauritius until it ____ in the seventeenth century.",
+            "a": "died out"
+          },
+          {
+            "s": "Today the bird is famous as ____.",
+            "a": "a symbol of extinction"
+          },
+          {
+            "s": "The Nicobar pigeon is the dodo's ____.",
+            "a": "closest living relative"
+          },
+          {
+            "s": "This is not like bringing an original dodo ____.",
+            "a": "back from the dead"
+          },
+          {
+            "s": "The research could ____ new ways of protecting endangered animals.",
+            "a": "lead to"
+          }
         ],
-        "extra": ["bring back", "colourful"]
+        "extra": [
+          "bring back",
+          "colourful"
+        ]
       },
       "match": [
-        { "t": "die out", "d": "gradually disappear until none are left" },
-        { "t": "lead to", "d": "cause something to happen later" },
-        { "t": "colourful", "d": "having many bright colours" },
-        { "t": "endangered", "d": "at serious risk of disappearing for ever" }
+        {
+          "t": "die out",
+          "d": "gradually disappear until none are left"
+        },
+        {
+          "t": "lead to",
+          "d": "cause something to happen later"
+        },
+        {
+          "t": "colourful",
+          "d": "having many bright colours"
+        },
+        {
+          "t": "endangered",
+          "d": "at serious risk of disappearing for ever"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "The dodo was a large bird that could not ____.", "cue": "fly", "a": "fly" },
-          { "s": "In October 2026, the company ____ progress in its dodo project.", "cue": "announce", "a": "announced" },
-          { "s": "Researchers said they ____ most of the bird's genetic information.", "cue": "reconstruct", "a": "had reconstructed" },
-          { "s": "The original birds ____ after people arrived on Mauritius.", "cue": "disappear", "a": "disappeared" },
-          { "s": "Any future bird ____ a safe place to survive.", "cue": "need", "a": "would need" }
+          {
+            "s": "The dodo was a large bird that could not ____.",
+            "cue": "fly",
+            "a": "fly"
+          },
+          {
+            "s": "In October 2026, the company ____ progress in its dodo project.",
+            "cue": "announce",
+            "a": "announced"
+          },
+          {
+            "s": "Researchers said they ____ most of the bird's genetic information.",
+            "cue": "reconstruct",
+            "a": "had reconstructed"
+          },
+          {
+            "s": "The original birds ____ after people arrived on Mauritius.",
+            "cue": "disappear",
+            "a": "disappeared"
+          },
+          {
+            "s": "Any future bird ____ a safe place to survive.",
+            "cue": "need",
+            "a": "would need"
+          }
         ]
       },
       "tfn": [
-        { "s": "The dodo lived on the island of Mauritius.", "a": "T" },
-        { "s": "Scientists have produced a living dodo.", "a": "F" },
-        { "s": "Some experts think the money would be better spent on living species.", "a": "T" },
-        { "s": "The Nicobar pigeon is also endangered.", "a": "N" }
+        {
+          "s": "Some experts think the money would be better spent on living species.",
+          "a": "T",
+          "why": "The text says: \"Others believe that the money would be better spent saving species that are still alive.\""
+        },
+        {
+          "s": "Scientists have produced a living dodo.",
+          "a": "F",
+          "why": "The text says the opposite: \"The scientists have not produced a living dodo, and nobody can simply copy one from an old bone.\""
+        },
+        {
+          "s": "The Nicobar pigeon is also endangered.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The dodo lived on the island of Mauritius.",
+          "a": "T",
+          "why": "The text says: \"It lived on the island of Mauritius in the Indian Ocean until it died out in the seventeenth century.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Hunting and introduced animals helped to ____ the dodo.", "a": "wipe out" },
-          { "s": "A company is ____ do something that sounds like science fiction.", "a": "setting out to" },
-          { "s": "An AI-assisted system helps ____ changes linked to the bird's beak.", "a": "pick out" },
-          { "s": "De-extinction projects ____ partly because famous animals are involved.", "a": "attract publicity" },
-          { "s": "The project is only beginning to ____.", "a": "take shape" },
-          { "s": "Its value may lie in techniques developed ____.", "a": "along the way" }
+          {
+            "s": "Hunting and introduced animals helped to ____ the dodo.",
+            "a": "wipe out"
+          },
+          {
+            "s": "A company is ____ do something that sounds like science fiction.",
+            "a": "setting out to"
+          },
+          {
+            "s": "An AI-assisted system helps ____ changes linked to the bird's beak.",
+            "a": "pick out"
+          },
+          {
+            "s": "De-extinction projects ____ partly because famous animals are involved.",
+            "a": "attract publicity"
+          },
+          {
+            "s": "The project is only beginning to ____.",
+            "a": "take shape"
+          },
+          {
+            "s": "Its value may lie in techniques developed ____.",
+            "a": "along the way"
+          }
         ],
-        "extra": ["glamorous", "uncertain"]
+        "extra": [
+          "glamorous",
+          "uncertain"
+        ]
       },
       "match": [
-        { "t": "wipe out", "d": "destroy a group of living things completely" },
-        { "t": "take shape", "d": "begin to develop into something clear" },
-        { "t": "glamorous", "d": "attractive and exciting to the public" },
-        { "t": "uncertain", "d": "not known or settled yet" }
+        {
+          "t": "wipe out",
+          "d": "destroy a group of living things completely"
+        },
+        {
+          "t": "take shape",
+          "d": "begin to develop into something clear"
+        },
+        {
+          "t": "glamorous",
+          "d": "attractive and exciting to the public"
+        },
+        {
+          "t": "uncertain",
+          "d": "not known or settled yet"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The large, ____ creature once lived on Mauritius.", "cue": "FLIGHT", "a": "flightless" },
-          { "s": "The system identifies the dodo's ____ features.", "cue": "DISTINGUISH", "a": "distinctive" },
-          { "s": "The pigeon and the dodo share an ____ history.", "cue": "EVOLVE", "a": "evolutionary" },
-          { "s": "Better protection of genetic ____ could help living species.", "cue": "DIVERSE", "a": "diversity" },
-          { "s": "Some researchers object to the word ____.", "cue": "RESURRECT", "a": "resurrection" }
+          {
+            "s": "The large, ____ creature once lived on Mauritius.",
+            "cue": "FLIGHT",
+            "a": "flightless"
+          },
+          {
+            "s": "The system identifies the dodo's ____ features.",
+            "cue": "DISTINGUISH",
+            "a": "distinctive"
+          },
+          {
+            "s": "The pigeon and the dodo share an ____ history.",
+            "cue": "EVOLVE",
+            "a": "evolutionary"
+          },
+          {
+            "s": "Better protection of genetic ____ could help living species.",
+            "cue": "DIVERSE",
+            "a": "diversity"
+          },
+          {
+            "s": "Some researchers object to the word ____.",
+            "cue": "RESURRECT",
+            "a": "resurrection"
+          }
         ]
       },
       "tfn": [
-        { "s": "Colossal says it has reconstructed about 95% of the dodo's genome.", "a": "T" },
-        { "s": "Colossal has produced a dodo-like bird through the programme.", "a": "F" },
-        { "s": "The company is working with people in Mauritius on habitat.", "a": "T" },
-        { "s": "The project is funded mainly by the Mauritian government.", "a": "N" }
+        {
+          "s": "The project is funded mainly by the Mauritian government.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Colossal says it has reconstructed about 95% of the dodo's genome.",
+          "a": "T",
+          "why": "The text says: \"The company said it had reconstructed about 95% of the dodo's genome, the collection of genetic instructions that helped determine how the bird developed.\""
+        },
+        {
+          "s": "The company is working with people in Mauritius on habitat.",
+          "a": "T",
+          "why": "The text says: \"The company is also working with people in Mauritius to explore how suitable habitat might be restored.\""
+        },
+        {
+          "s": "Colossal has produced a dodo-like bird through the programme.",
+          "a": "F",
+          "why": "The text says the opposite: \"Colossal has not yet produced a living dodo or dodo-like bird through this programme.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "An ____, flightless bird, the dodo vanished in the seventeenth century.", "a": "ungainly" },
-          { "s": "It has become ____ itself.", "a": "shorthand for extinction" },
-          { "s": "Scientists may ____ a genetic approximation of the bird.", "a": "piece together" },
-          { "s": "____, however remarkable, is not the recovery of a vanished organism.", "a": "A proxy species" },
-          { "s": "Releasing such a bird without addressing those pressures would ____.", "a": "make little ecological sense" },
-          { "s": "The company has not ____ extinction.", "a": "done away with" }
+          {
+            "s": "An ____, flightless bird, the dodo vanished in the seventeenth century.",
+            "a": "ungainly"
+          },
+          {
+            "s": "It has become ____ itself.",
+            "a": "shorthand for extinction"
+          },
+          {
+            "s": "Scientists may ____ a genetic approximation of the bird.",
+            "a": "piece together"
+          },
+          {
+            "s": "____, however remarkable, is not the recovery of a vanished organism.",
+            "a": "A proxy species"
+          },
+          {
+            "s": "Releasing such a bird without addressing those pressures would ____.",
+            "a": "make little ecological sense"
+          },
+          {
+            "s": "The company has not ____ extinction.",
+            "a": "done away with"
+          }
         ],
-        "extra": ["grapple with", "viable"]
+        "extra": [
+          "grapple with",
+          "viable"
+        ]
       },
       "match": [
-        { "t": "piece together", "d": "assemble something from separate parts" },
-        { "t": "do away with", "d": "get rid of something completely" },
-        { "t": "grapple with", "d": "struggle to deal with a hard problem" },
-        { "t": "viable", "d": "able to survive and work in practice" }
+        {
+          "t": "piece together",
+          "d": "assemble something from separate parts"
+        },
+        {
+          "t": "do away with",
+          "d": "get rid of something completely"
+        },
+        {
+          "t": "grapple with",
+          "d": "struggle to deal with a hard problem"
+        },
+        {
+          "t": "viable",
+          "d": "able to survive and work in practice"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "That makes it an ____ candidate for a biotechnology company.", "cue": "RESIST", "a": "irresistible" },
-          { "s": "The reproductive challenges involved are ____.", "cue": "FORM", "a": "formidable" },
-          { "s": "A bird engineered to resemble it might not reproduce its ____ role.", "cue": "ECOLOGY", "a": "ecological" },
-          { "s": "Several biologists argue that de-extinction is a ____ description.", "cue": "MISLEAD", "a": "misleading" },
-          { "s": "Critics say such projects attract ____ attention and resources.", "cue": "PROPORTION", "a": "disproportionate" }
+          {
+            "s": "That makes it an ____ candidate for a biotechnology company.",
+            "cue": "RESIST",
+            "a": "irresistible"
+          },
+          {
+            "s": "The ____ challenges involved are formidable.",
+            "cue": "REPRODUCE",
+            "a": "reproductive"
+          },
+          {
+            "s": "A bird engineered to resemble it might not reproduce its ____ role.",
+            "cue": "ECOLOGY",
+            "a": "ecological"
+          },
+          {
+            "s": "Several biologists argue that de-extinction is a ____ description.",
+            "cue": "MISLEAD",
+            "a": "misleading"
+          },
+          {
+            "s": "Critics say such projects attract ____ attention and resources.",
+            "cue": "PROPORTION",
+            "a": "disproportionate"
+          }
         ]
       },
       "tfn": [
-        { "s": "Colossal proposes introducing genetic changes into the Nicobar pigeon.", "a": "T" },
-        { "s": "The writer treats a convincing likeness as equal to ecological recovery.", "a": "F" },
-        { "s": "Habitat preparation is described as slow and unglamorous work.", "a": "T" },
-        { "s": "Mauritius has agreed to release any engineered bird into the wild.", "a": "N" }
+        {
+          "s": "Habitat preparation is described as slow and unglamorous work.",
+          "a": "T",
+          "why": "The text says: \"Habitat preparation is slow, unglamorous work, and it would have to succeed before any engineered bird could be released with any prospect of surviving.\""
+        },
+        {
+          "s": "The writer treats a convincing likeness as equal to ecological recovery.",
+          "a": "F",
+          "why": "The text says the opposite: \"Whether it would repair the ecological loss that made the dodo famous is an altogether more demanding question.\""
+        },
+        {
+          "s": "Colossal proposes introducing genetic changes into the Nicobar pigeon.",
+          "a": "T",
+          "why": "The text says: \"Its proposed route involves introducing selected changes into a living relative, the Nicobar pigeon, and addressing the formidable reproductive challenges involved in producing genetically modified birds.\""
+        },
+        {
+          "s": "Mauritius has agreed to release any engineered bird into the wild.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     }
   }

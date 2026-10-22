@@ -16,7 +16,7 @@ The Line was introduced as part of NEOM, a large plan to develop an area in the 
 
 The pictures of the planned city looked like something from a science-fiction film. Supporters believed the project could show the world a different way to build cities. They also hoped it would attract workers, tourists and businesses, and help Saudi Arabia build up industries that do not depend on oil.
 
-But turning a beautiful picture into a real city is extremely difficult. Builders need huge quantities of materials, electricity and water. The desert creates extra challenges, and every part of the project has to be connected to services that work every single day, not just on the day the photographs are taken. Nobody has built a city in a straight line before, so there are no older projects to copy and learn from.
+But turning a beautiful picture into a real city is extremely difficult. Builders need huge quantities of materials, electricity and water. The desert creates extra challenges, and every part of the project has to be connected to services that work every single day, not just on the day the photographs are taken. Nobody has built a city of this size in a straight line before, so there are no older projects to copy and learn from.
 
 In May 2026, Semafor reported that major work on The Line had been put off until after 2030. That did not mean the entire project had officially been cancelled. However, it raised new questions about whether the original 170-kilometre plan would ever be finished in the way it was announced.
 

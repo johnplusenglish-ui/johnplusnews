@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "Experts came to ____ at the inscribed stone.", "a": "take a closer look" },
-          { "s": "When they began digging, they ____ parts of two enormous statues.", "a": "dug up" },
-          { "s": "The finds may help experts ____ how people used the area.", "a": "work out" },
-          { "s": "If somebody carries a statue away, that information is ____.", "a": "lost for good" },
-          { "s": "By ____ the authorities, he helped protect the site.", "a": "getting in touch with" }
+          {
+            "s": "Experts came to ____ at the inscribed stone.",
+            "a": "take a closer look"
+          },
+          {
+            "s": "When they began digging, they ____ parts of two enormous statues.",
+            "a": "dug up"
+          },
+          {
+            "s": "The finds may help experts ____ how people used the area.",
+            "a": "work out"
+          },
+          {
+            "s": "If somebody carries a statue away, that information is ____.",
+            "a": "lost for good"
+          },
+          {
+            "s": "By ____ the authorities, he helped protect the site.",
+            "a": "getting in touch with"
+          }
         ],
-        "extra": ["throw it away", "remarkable"]
+        "extra": [
+          "throw it away",
+          "remarkable"
+        ]
       },
       "match": [
-        { "t": "dig up", "d": "remove something from under the ground" },
-        { "t": "lost for good", "d": "gone permanently and impossible to recover" },
-        { "t": "remarkable", "d": "unusual enough to be worth noticing" },
-        { "t": "throw away", "d": "get rid of something you do not want" }
+        {
+          "t": "dig up",
+          "d": "remove something from under the ground"
+        },
+        {
+          "t": "lost for good",
+          "d": "gone permanently and impossible to recover"
+        },
+        {
+          "t": "remarkable",
+          "d": "unusual enough to be worth noticing"
+        },
+        {
+          "t": "throw away",
+          "d": "get rid of something you do not want"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "A man in northern Egypt ____ the third choice.", "cue": "make", "a": "made" },
-          { "s": "His decision ____ archaeologists to something remarkable.", "cue": "lead", "a": "led" },
-          { "s": "Ramesses II ____ more than 3,000 years ago.", "cue": "rule", "a": "ruled" },
-          { "s": "He ____ for building impressive temples and monuments.", "cue": "remember", "a": "is remembered" },
-          { "s": "Archaeologists still have plenty of work ____.", "cue": "do", "a": "to do" }
+          {
+            "s": "A man in northern Egypt ____ the third choice.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "His decision ____ archaeologists to something remarkable.",
+            "cue": "lead",
+            "a": "led"
+          },
+          {
+            "s": "Ramesses II ____ more than 3,000 years ago.",
+            "cue": "rule",
+            "a": "ruled"
+          },
+          {
+            "s": "He ____ for building impressive temples and monuments.",
+            "cue": "remember",
+            "a": "is remembered"
+          },
+          {
+            "s": "Archaeologists still have plenty of work ____.",
+            "cue": "do",
+            "a": "to do"
+          }
         ]
       },
       "tfn": [
-        { "s": "One statue head was about 1.6 metres tall.", "a": "T" },
-        { "s": "The resident kept the stone and sold it privately.", "a": "F" },
-        { "s": "The objects were found near the remains of a temple linked to Isis.", "a": "T" },
-        { "s": "The statues will be moved to a museum in Cairo.", "a": "N" }
+        {
+          "s": "One statue head was about 1.6 metres tall.",
+          "a": "T",
+          "why": "The text says: \"One statue head was about 1.6 metres tall.\""
+        },
+        {
+          "s": "The objects were found near the remains of a temple linked to Isis.",
+          "a": "T",
+          "why": "The text says: \"The objects were found near the remains of a temple linked to Isis, an important goddess in ancient Egyptian religion.\""
+        },
+        {
+          "s": "The statues will be moved to a museum in Cairo.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The resident kept the stone and sold it privately.",
+          "a": "F",
+          "why": "The text says the opposite: \"In October 2026, a resident of Bahbit al-Higara, a village in the Nile Delta, reported a stone with writing on it.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Instead of trying to move it or ____, he contacted the authorities.", "a": "sell it on" },
-          { "s": "The excavation ____ fragments of two huge royal statues.", "a": "brought to light" },
-          { "s": "Specialists ____ rescue excavations after inspecting the stone.", "a": "carried out" },
-          { "s": "The pieces are valuable because they ____.", "a": "turned up in an archaeological context" },
-          { "s": "The inscriptions may ____ how the Delta developed.", "a": "shed light on" },
-          { "s": "The alternative is that finds ____.", "a": "slip quietly into private hands" }
+          {
+            "s": "Instead of trying to move it or ____, he contacted the authorities.",
+            "a": "sell it on"
+          },
+          {
+            "s": "The excavation ____ fragments of two huge royal statues.",
+            "a": "brought to light"
+          },
+          {
+            "s": "Specialists ____ rescue excavations after inspecting the stone.",
+            "a": "carried out"
+          },
+          {
+            "s": "The pieces are valuable because they ____.",
+            "a": "turned up in an archaeological context"
+          },
+          {
+            "s": "The inscriptions may ____ how the Delta developed.",
+            "a": "shed light on"
+          },
+          {
+            "s": "The alternative is that finds ____.",
+            "a": "slip quietly into private hands"
+          }
         ],
-        "extra": ["laid out", "decorative"]
+        "extra": [
+          "laid out",
+          "decorative"
+        ]
       },
       "match": [
-        { "t": "sell something on", "d": "pass something to another buyer for money" },
-        { "t": "shed light on", "d": "help explain something that was unclear" },
-        { "t": "lay out", "d": "arrange something across a space" },
-        { "t": "decorative", "d": "made to look attractive rather than to be used" }
+        {
+          "t": "sell something on",
+          "d": "pass something to another buyer for money"
+        },
+        {
+          "t": "shed light on",
+          "d": "help explain something that was unclear"
+        },
+        {
+          "t": "lay out",
+          "d": "arrange something across a space"
+        },
+        {
+          "t": "decorative",
+          "d": "made to look attractive rather than to be used"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "A resident noticed an unusual ____ stone.", "cue": "INSCRIPTION", "a": "inscribed" },
-          { "s": "One of the most ____ finds was a statue head.", "cue": "STRIKE", "a": "striking" },
-          { "s": "Ramesses II is famous for his ____ buildings.", "cue": "MONUMENT", "a": "monumental" },
-          { "s": "Removing an artefact without ____ where it lay destroys evidence.", "cue": "DOCUMENT", "a": "documenting" },
-          { "s": "The authorities investigated the site ____.", "cue": "SYSTEM", "a": "systematically" }
+          {
+            "s": "A resident noticed an unusual ____ stone.",
+            "cue": "INSCRIPTION",
+            "a": "inscribed"
+          },
+          {
+            "s": "One of the most ____ finds was a statue head.",
+            "cue": "STRIKE",
+            "a": "striking"
+          },
+          {
+            "s": "Ramesses II is famous for his ____ buildings.",
+            "cue": "MONUMENT",
+            "a": "monumental"
+          },
+          {
+            "s": "Removing an artefact without ____ where it lay destroys evidence.",
+            "cue": "DOCUMENT",
+            "a": "documenting"
+          },
+          {
+            "s": "The authorities investigated the site ____.",
+            "cue": "SYSTEM",
+            "a": "systematically"
+          }
         ]
       },
       "tfn": [
-        { "s": "The discovery was announced in October 2026.", "a": "T" },
-        { "s": "Researchers already know exactly where the statues stood.", "a": "F" },
-        { "s": "Archaeologists estimate the complete figure was about 8.5 metres tall.", "a": "T" },
-        { "s": "The resident received a payment from the antiquities authority.", "a": "N" }
+        {
+          "s": "Archaeologists estimate the complete figure was about 8.5 metres tall.",
+          "a": "T",
+          "why": "The text says: \"Archaeologists estimate that the complete figure may originally have been approximately 8.5 metres tall.\""
+        },
+        {
+          "s": "The resident received a payment from the antiquities authority.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The discovery was announced in October 2026.",
+          "a": "T",
+          "why": "The text says: \"The discovery was announced in October 2026 in Bahbit al-Higara, a village in the Nile Delta.\""
+        },
+        {
+          "s": "Researchers already know exactly where the statues stood.",
+          "a": "F",
+          "why": "The text says the opposite: \"There is still work to do before researchers can explain precisely where the statues stood and what purpose they served.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "He reported an inscribed stone he had ____ while working on his land.", "a": "come across" },
-          { "s": "A subsequent investigation uncovered fragments of two ____ statues.", "a": "colossal" },
-          { "s": "Their proximity to the sanctuary only ____.", "a": "adds to their significance" },
-          { "s": "It is the relationships between objects that ____.", "a": "carry the argument" },
-          { "s": "Objects that ____ reach scholars with their histories erased.", "a": "pass into private hands" },
-          { "s": "It would be ____ to treat the discovery as a settled explanation.", "a": "premature" }
+          {
+            "s": "He reported an inscribed stone he had ____ while working on his land.",
+            "a": "come across"
+          },
+          {
+            "s": "A subsequent investigation uncovered fragments of two ____ statues.",
+            "a": "colossal"
+          },
+          {
+            "s": "Their proximity to the sanctuary only ____.",
+            "a": "adds to their significance"
+          },
+          {
+            "s": "It is the relationships between objects that ____.",
+            "a": "carry the argument"
+          },
+          {
+            "s": "Objects that ____ reach scholars with their histories erased.",
+            "a": "pass into private hands"
+          },
+          {
+            "s": "It would be ____ to treat the discovery as a settled explanation.",
+            "a": "premature"
+          }
         ],
-        "extra": ["dispose of", "indispensable"]
+        "extra": [
+          "dispose of",
+          "indispensable"
+        ]
       },
       "match": [
-        { "t": "come across", "d": "find something without looking for it" },
-        { "t": "colossal", "d": "extremely large in size" },
-        { "t": "dispose of", "d": "get rid of something unwanted" },
-        { "t": "indispensable", "d": "so necessary that you cannot manage without it" }
+        {
+          "t": "come across",
+          "d": "find something without looking for it"
+        },
+        {
+          "t": "colossal",
+          "d": "extremely large in size"
+        },
+        {
+          "t": "dispose of",
+          "d": "get rid of something unwanted"
+        },
+        {
+          "t": "indispensable",
+          "d": "so necessary that you cannot manage without it"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The proximity of a monument to a temple is rarely ____.", "cue": "ACCIDENT", "a": "accidental" },
-          { "s": "Ramesses II invested heavily in ____ architecture.", "cue": "MONUMENT", "a": "monumental" },
-          { "s": "Statues projected an image of royal ____.", "cue": "PERMANENT", "a": "permanence" },
-          { "s": "Scientific ____ develops through patient comparison.", "cue": "INTERPRET", "a": "interpretation" },
-          { "s": "Heritage protection rests less on ____ excavation than on reporting.", "cue": "SPECTACLE", "a": "spectacular" }
+          {
+            "s": "The proximity of a monument to a temple is rarely ____.",
+            "cue": "ACCIDENT",
+            "a": "accidental"
+          },
+          {
+            "s": "Ramesses II invested heavily in ____ architecture.",
+            "cue": "MONUMENT",
+            "a": "monumental"
+          },
+          {
+            "s": "Statues projected an image of royal ____.",
+            "cue": "PERMANENT",
+            "a": "permanence"
+          },
+          {
+            "s": "Scientific ____ develops through patient comparison.",
+            "cue": "INTERPRET",
+            "a": "interpretation"
+          },
+          {
+            "s": "Heritage protection rests less on ____ excavation than on reporting.",
+            "cue": "SPECTACLE",
+            "a": "spectacular"
+          }
         ]
       },
       "tfn": [
-        { "s": "The excavation also uncovered a pink granite block with hieroglyphs.", "a": "T" },
-        { "s": "The writer says archaeology is only for distant experts.", "a": "F" },
-        { "s": "Specialists from the Supreme Council of Antiquities carried out the dig.", "a": "T" },
-        { "s": "Other inscribed stones have been reported in the same village.", "a": "N" }
+        {
+          "s": "The writer says archaeology is only for distant experts.",
+          "a": "F",
+          "why": "The text says the opposite: \"The episode also challenges the image of archaeology as a pursuit reserved for distant experts.\""
+        },
+        {
+          "s": "The excavation also uncovered a pink granite block with hieroglyphs.",
+          "a": "T",
+          "why": "The text says: \"The rescue excavation, carried out by specialists from Egypt's Supreme Council of Antiquities, also brought to light a block of pink granite inscribed with hieroglyphs.\""
+        },
+        {
+          "s": "Other inscribed stones have been reported in the same village.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Specialists from the Supreme Council of Antiquities carried out the dig.",
+          "a": "T",
+          "why": "The text says: \"The rescue excavation, carried out by specialists from Egypt's Supreme Council of Antiquities, also brought to light a block of pink granite inscribed with hieroglyphs.\""
+        }
       ]
     }
   }

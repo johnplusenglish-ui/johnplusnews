@@ -169,6 +169,9 @@
       } else if (chosen) {
         chosen.classList.toggle("ok", ok); chosen.classList.toggle("no", !ok);
       }
+      // the reason appears once this statement has been answered, never before
+      var why = g.parentNode.querySelector(".ex-why");
+      if (why && (chosen || reveal)) why.hidden = false;
     });
     [].forEach.call(block.querySelectorAll(".ex-sel"), function (s) {
       total++;
@@ -177,6 +180,7 @@
       if (reveal && !ok) { s.value = s.dataset.a; s.classList.remove("no"); s.classList.add("ok"); }
       else { s.classList.toggle("ok", ok); s.classList.toggle("no", !ok && (s.value !== "" || reveal)); }
     });
+    if (reveal) block.dataset.revealed = "1";
     var out = block.querySelector(".ex-score");
     out.textContent = reveal ? "Answers shown" : right + " of " + total + " correct";
     out.classList.toggle("good", !reveal && right === total);
@@ -189,27 +193,37 @@
     [].forEach.call(block.querySelectorAll(".ex-sel"), function (s) { s.value = ""; s.classList.remove("ok", "no"); });
     [].forEach.call(block.querySelectorAll(".ex-in"), function (i) { i.value = ""; i.classList.remove("ok", "no"); });
     [].forEach.call(block.querySelectorAll(".ex-opt"), function (b) { b.classList.remove("on", "ok", "no"); });
+    [].forEach.call(block.querySelectorAll(".ex-why"), function (w) { w.hidden = true; });
+    delete block.dataset.revealed;
     var out = block.querySelector(".ex-score"); out.textContent = ""; out.classList.remove("good");
     clearPick();
   }
 
   function tally(level) {
-    var right = 0, all = 0, rows = "";
+    var right = 0, all = 0, shown = 0, rows = "";
     [].forEach.call(level.querySelectorAll("[data-ex]"), function (b) {
       var r = mark(b, false);
+      var name = b.querySelector(".ex-h").textContent;
+      if (b.dataset.revealed) {            // the answers were shown, so this one is not a score
+        shown++;
+        rows += '<li><span>' + name + '</span><b class="shown">answers shown</b></li>';
+        return;
+      }
       right += r.right; all += r.total;
-      rows += '<li><span>' + b.querySelector(".ex-h").textContent + '</span><b class="'
+      rows += '<li><span>' + name + '</span><b class="'
             + (r.right === r.total ? "full" : "") + '">' + r.right + " / " + r.total + "</b></li>";
     });
     level.querySelector("[data-total-right]").textContent = right;
     level.querySelector("[data-total-all]").textContent = all;
     level.querySelector("[data-total-list]").innerHTML = rows;
     var pct = all ? Math.round(right / all * 100) : 0;
-    level.querySelector("[data-total-msg]").textContent =
+    var note = !all ? "You showed the answers for all four, so there is nothing to score yet. Press Start all four again to have a go." :
       pct === 100 ? "Everything right. Nothing left to look up." :
       pct >= 80 ? "Strong. Read back over the ones you missed." :
       pct >= 50 ? "A good start. Every answer is somewhere in the article above." :
                   "Worth reading the article once more, then trying again.";
+    if (all && shown) note += " Exercises where you showed the answers are left out of the score.";
+    level.querySelector("[data-total-msg]").textContent = note;
     level.querySelector(".ex-total-out").hidden = false;
   }
 

@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "In November 1998, Karl Bushby ____ from the southern tip of Chile.", "a": "set off" },
-          { "s": "In the Darién Gap he had to ____ the threat of armed groups.", "a": "deal with" },
-          { "s": "After reaching North America, Karl ____ towards Alaska.", "a": "carried on" },
-          { "s": "Money, closed borders and the pandemic all ____ his progress.", "a": "held up" },
-          { "s": "He has depended on ____ for food and shelter.", "a": "the kindness of strangers" }
+          {
+            "s": "In November 1998, Karl Bushby ____ from the southern tip of Chile.",
+            "a": "set off"
+          },
+          {
+            "s": "In the Darién Gap he had to ____ the threat of armed groups.",
+            "a": "deal with"
+          },
+          {
+            "s": "After reaching North America, Karl ____ towards Alaska.",
+            "a": "carried on"
+          },
+          {
+            "s": "Money, closed borders and the pandemic all ____ his progress.",
+            "a": "held up"
+          },
+          {
+            "s": "He has depended on ____ for food and shelter.",
+            "a": "the kindness of strangers"
+          }
         ],
-        "extra": ["get used to", "ordinary"]
+        "extra": [
+          "get used to",
+          "ordinary"
+        ]
       },
       "match": [
-        { "t": "set off", "d": "begin a journey to somewhere" },
-        { "t": "hold up", "d": "delay somebody or something" },
-        { "t": "get used to", "d": "become comfortable with something new" },
-        { "t": "ordinary", "d": "normal, with nothing special about it" }
+        {
+          "t": "set off",
+          "d": "begin a journey to somewhere"
+        },
+        {
+          "t": "hold up",
+          "d": "delay somebody or something"
+        },
+        {
+          "t": "get used to",
+          "d": "become comfortable with something new"
+        },
+        {
+          "t": "ordinary",
+          "d": "normal, with nothing special about it"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "He wanted ____ home to Hull, in northern England.", "cue": "walk", "a": "to walk" },
-          { "s": "He thought the journey ____ about 12 years.", "cue": "take", "a": "would take" },
-          { "s": "In 2006, he and another explorer ____ the Bering Strait on sea ice.", "cue": "cross", "a": "crossed" },
-          { "s": "The authorities arrested them because they ____ at an official border.", "cue": "enter", "a": "had not entered" },
-          { "s": "He has ____ years with his family.", "cue": "miss", "a": "missed" }
+          {
+            "s": "He wanted ____ home to Hull, in northern England.",
+            "cue": "walk",
+            "a": "to walk"
+          },
+          {
+            "s": "He thought the journey ____ about 12 years.",
+            "cue": "take",
+            "a": "would take"
+          },
+          {
+            "s": "In 2006, he and another explorer ____ the Bering Strait on sea ice.",
+            "cue": "cross",
+            "a": "crossed"
+          },
+          {
+            "s": "The authorities arrested them because they had not ____ at an official border.",
+            "cue": "enter",
+            "a": "entered"
+          },
+          {
+            "s": "He has ____ years with his family.",
+            "cue": "miss",
+            "a": "missed"
+          }
         ]
       },
       "tfn": [
-        { "s": "Karl Bushby started his journey in November 1998.", "a": "T" },
-        { "s": "He reached Hull on 5 October 2026.", "a": "F" },
-        { "s": "He crossed the Bering Strait on moving sea ice in 2006.", "a": "T" },
-        { "s": "His son has joined him for part of the walk.", "a": "N" }
+        {
+          "s": "He crossed the Bering Strait on moving sea ice in 2006.",
+          "a": "T",
+          "why": "The text says: \"In 2006, he and another explorer crossed the Bering Strait on moving sea ice.\""
+        },
+        {
+          "s": "He reached Hull on 5 October 2026.",
+          "a": "F",
+          "why": "The text says the opposite: \"On 5 October 2026, he reached Dover after swimming across the English Channel.\""
+        },
+        {
+          "s": "Karl Bushby started his journey in November 1998.",
+          "a": "T",
+          "why": "The text says: \"In November 1998, Karl Bushby set off from the southern tip of Chile with a small amount of money and a very unusual plan.\""
+        },
+        {
+          "s": "His son has joined him for part of the walk.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "This October he finally ____ for the first time since 1998.", "a": "set foot on British soil" },
-          { "s": "He set himself two ____ conditions for the journey.", "a": "strict" },
-          { "s": "His original estimate of 12 years ____.", "a": "turned out to be wildly optimistic" },
-          { "s": "Their progress depended on ____ sea ice.", "a": "unstable" },
-          { "s": "Bushby spent years ____ visa restrictions and closed borders.", "a": "working around" },
-          { "s": "The journey has ____ to him and his family.", "a": "come at a personal cost" }
+          {
+            "s": "This October he finally ____ for the first time since 1998.",
+            "a": "set foot on British soil"
+          },
+          {
+            "s": "He set himself two ____ conditions for the journey.",
+            "a": "strict"
+          },
+          {
+            "s": "His original estimate of 12 years ____.",
+            "a": "turned out to be wildly optimistic"
+          },
+          {
+            "s": "Their progress depended on ____ sea ice.",
+            "a": "unstable"
+          },
+          {
+            "s": "Bushby spent years ____ visa restrictions and closed borders.",
+            "a": "working around"
+          },
+          {
+            "s": "The journey has ____ to him and his family.",
+            "a": "come at a personal cost"
+          }
         ],
-        "extra": ["run into", "lengthy"]
+        "extra": [
+          "run into",
+          "lengthy"
+        ]
       },
       "match": [
-        { "t": "work around", "d": "find a way to avoid an obstacle" },
-        { "t": "run into", "d": "meet a problem unexpectedly" },
-        { "t": "lengthy", "d": "taking much longer than usual" },
-        { "t": "the final stretch", "d": "the last part of a long journey" }
+        {
+          "t": "work around",
+          "d": "find a way to avoid an obstacle"
+        },
+        {
+          "t": "run into",
+          "d": "meet a problem unexpectedly"
+        },
+        {
+          "t": "lengthy",
+          "d": "taking much longer than usual"
+        },
+        {
+          "t": "the final stretch",
+          "d": "the last part of a long journey"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "He began with an ambition that sounded almost ____.", "cue": "POSSIBLE", "a": "impossible" },
-          { "s": "Their progress depended on ____ sea ice.", "cue": "STABLE", "a": "unstable" },
-          { "s": "Bushby faced financial ____ as well as physical danger.", "cue": "SET", "a": "setbacks" },
-          { "s": "He says the ____ of strangers has changed his view of humanity.", "cue": "GENEROUS", "a": "generosity" },
-          { "s": "Discovering what comes next may be the bigger ____.", "cue": "ADJUST", "a": "adjustment" }
+          {
+            "s": "He began with an ambition that sounded almost ____.",
+            "cue": "POSSIBLE",
+            "a": "impossible"
+          },
+          {
+            "s": "Their progress depended on ____ sea ice.",
+            "cue": "STABLE",
+            "a": "unstable"
+          },
+          {
+            "s": "Bushby faced financial ____ as well as physical danger.",
+            "cue": "SET",
+            "a": "setbacks"
+          },
+          {
+            "s": "He says the ____ of strangers has changed his view of humanity.",
+            "cue": "GENEROUS",
+            "a": "generosity"
+          },
+          {
+            "s": "Discovering what comes next may be the bigger ____.",
+            "cue": "ADJUST",
+            "a": "adjustment"
+          }
         ]
       },
       "tfn": [
-        { "s": "Bushby began his journey in Punta Arenas.", "a": "T" },
-        { "s": "He reached Britain by ferry from France.", "a": "F" },
-        { "s": "About 400 kilometres remained between Dover and Hull.", "a": "T" },
-        { "s": "A film company is making a documentary about the expedition.", "a": "N" }
+        {
+          "s": "Bushby began his journey in Punta Arenas.",
+          "a": "T",
+          "why": "The text says: \"Bushby began in Punta Arenas, near the southern tip of South America.\""
+        },
+        {
+          "s": "About 400 kilometres remained between Dover and Hull.",
+          "a": "T",
+          "why": "The text says: \"About 400 kilometres remained between the landing point and Hull.\""
+        },
+        {
+          "s": "He reached Britain by ferry from France.",
+          "a": "F",
+          "why": "The text says the opposite: \"On 5 October 2026, Bushby landed near Dover after swimming across the English Channel.\""
+        },
+        {
+          "s": "A film company is making a documentary about the expedition.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "It was an ____ distance after everything that had preceded it.", "a": "absurdly small" },
-          { "s": "His rules were ____: no mechanised transport and no going home early.", "a": "uncompromising" },
-          { "s": "He intended to complete the journey ____.", "a": "under his own power" },
-          { "s": "Instead of celebrating, they ____ immigration authorities.", "a": "ran afoul of" },
-          { "s": "Consular complications and ____ delayed him for years.", "a": "a shortage of funds" },
-          { "s": "The transition from expedition to everyday life offers ____.", "a": "no marked trail" }
+          {
+            "s": "It was an ____ distance after everything that had preceded it.",
+            "a": "absurdly small"
+          },
+          {
+            "s": "His rules were ____: no mechanised transport and no going home early.",
+            "a": "uncompromising"
+          },
+          {
+            "s": "He intended to complete the journey ____.",
+            "a": "under his own power"
+          },
+          {
+            "s": "Instead of celebrating, they ____ immigration authorities.",
+            "a": "ran afoul of"
+          },
+          {
+            "s": "Consular complications and ____ delayed him for years.",
+            "a": "a shortage of funds"
+          },
+          {
+            "s": "The transition from expedition to everyday life offers ____.",
+            "a": "no marked trail"
+          }
         ],
-        "extra": ["gloss over", "formidable"]
+        "extra": [
+          "gloss over",
+          "formidable"
+        ]
       },
       "match": [
-        { "t": "run afoul of", "d": "get into trouble with people in authority" },
-        { "t": "uncompromising", "d": "refusing to accept any change or exception" },
-        { "t": "gloss over", "d": "avoid dealing with an awkward fact" },
-        { "t": "formidable", "d": "large enough to seem frightening" }
+        {
+          "t": "run afoul of",
+          "d": "get into trouble with people in authority"
+        },
+        {
+          "t": "uncompromising",
+          "d": "refusing to accept any change or exception"
+        },
+        {
+          "t": "gloss over",
+          "d": "avoid dealing with an awkward fact"
+        },
+        {
+          "t": "formidable",
+          "d": "large enough to seem frightening"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The incident ____ years of consular difficulty.", "cue": "SHADOW", "a": "foreshadowed" },
-          { "s": "____ borders set his progress back more than bad weather.", "cue": "RESTRICT", "a": "Restrictive" },
-          { "s": "The final approach to Britain demanded ____.", "cue": "IMPROVISE", "a": "improvisation" },
-          { "s": "He has sacrificed relationships and ____.", "cue": "STABLE", "a": "stability" },
-          { "s": "Strangers provided help with little ____ of anything in return.", "cue": "EXPECT", "a": "expectation" }
+          {
+            "s": "The incident ____ years of consular difficulty.",
+            "cue": "SHADOW",
+            "a": "foreshadowed"
+          },
+          {
+            "s": "____ borders set his progress back more than bad weather.",
+            "cue": "RESTRICT",
+            "a": "Restrictive"
+          },
+          {
+            "s": "The final approach to Britain demanded ____.",
+            "cue": "IMPROVISE",
+            "a": "improvisation"
+          },
+          {
+            "s": "He has sacrificed relationships and ____.",
+            "cue": "STABLE",
+            "a": "stability"
+          },
+          {
+            "s": "Strangers provided help with little ____ of anything in return.",
+            "cue": "EXPECT",
+            "a": "expectation"
+          }
         ]
       },
       "tfn": [
-        { "s": "Bushby is a former British paratrooper.", "a": "T" },
-        { "s": "He was allowed to walk through the Channel Tunnel.", "a": "F" },
-        { "s": "He crossed the Caspian Sea by swimming with a support team in 2024.", "a": "T" },
-        { "s": "He intends to write a book about the journey.", "a": "N" }
+        {
+          "s": "He intends to write a book about the journey.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "He crossed the Caspian Sea by swimming with a support team in 2024.",
+          "a": "T",
+          "why": "The text says: \"In 2024 he crossed it by swimming, assisted by a support team, before continuing through Azerbaijan, Georgia and Turkey.\""
+        },
+        {
+          "s": "He was allowed to walk through the Channel Tunnel.",
+          "a": "F",
+          "why": "The text says the opposite: \"Unable to secure permission for a pedestrian passage through the Channel Tunnel, he ended up swimming the Channel instead.\""
+        },
+        {
+          "s": "Bushby is a former British paratrooper.",
+          "a": "T",
+          "why": "The text says: \"Bushby, a former British paratrooper, intended to travel through the Americas, cross into Siberia and return to England across Eurasia.\""
+        }
       ]
     }
   }

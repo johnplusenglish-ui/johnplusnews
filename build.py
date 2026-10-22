@@ -928,8 +928,13 @@ def ex_gap(data):
             ).format(bank=bank, rows="".join(rows))
 
 
-def ex_match(pairs):
-    opts = "".join('<option value="{}">{}</option>'.format(i, esc(p["d"])) for i, p in enumerate(pairs))
+def ex_match(pairs, seed=""):
+    """The meanings are listed in a shuffled order, so the first term is not answered by the
+    first option. The order is settled by a hash, so it is the same in the page and the PDF,
+    and the answer travels as the pair's own number rather than its position in the list."""
+    order = sorted(range(len(pairs)),
+                   key=lambda i: hashlib.md5((seed + "|" + pairs[i]["t"]).encode("utf-8")).hexdigest())
+    opts = "".join('<option value="{}">{}</option>'.format(i, esc(pairs[i]["d"])) for i in order)
     rows = "".join('<li><span class="ex-term">{t}</span>'
                    '<select class="ex-sel" data-a="{i}" aria-label="Meaning of {t}">'
                    '<option value="">Choose a meaning</option>{o}</select></li>'.format(
@@ -954,9 +959,10 @@ def ex_tfn(items):
     for item in items:
         opts = "".join('<button type="button" class="ex-opt" data-v="{v}">{l}</button>'.format(v=v, l=l)
                        for v, l in EX_TFN_OPTS)
+        why = ('<p class="ex-why" hidden>{}</p>'.format(esc(item["why"])) if item.get("why") else "")
         rows.append('<li><span class="ex-stmt">{s}</span><span class="ex-tfn" data-a="{a}" role="group" '
-                    'aria-label="True, false or not given">{o}</span></li>'.format(
-                        s=esc(item["s"]), a=esc(item["a"]), o=opts))
+                    'aria-label="True, false or not given">{o}</span>{w}</li>'.format(
+                        s=esc(item["s"]), a=esc(item["a"]), o=opts, w=why))
     return '<ol class="ex-list ex-tfns">{}</ol>'.format("".join(rows))
 
 
@@ -975,7 +981,7 @@ def exercises_html(a):
         g = d["grammar"]
         panels.append('<div class="ex-level" data-ex-level="{k}"{hid}>{a}{b}{c}{e}{tot}</div>'.format(
             k=key, hid="" if v is a["versions"][default_index(a["versions"])] else " hidden",
-            a=ex_block(1, "gap", ex_gap(d["gap"])), b=ex_block(2, "match", ex_match(d["match"])),
+            a=ex_block(1, "gap", ex_gap(d["gap"])), b=ex_block(2, "match", ex_match(d["match"], a["slug"] + key)),
             c=ex_block(3, g["kind"], ex_grammar(g)), e=ex_block(4, "tfn", ex_tfn(d["tfn"])), tot=EX_TOTAL))
     if not panels:
         return ""

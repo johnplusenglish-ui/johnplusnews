@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "For you, the story is over. For the jacket, ____.", "a": "it has only just begun" },
-          { "s": "Customers cannot ____ clothes before ordering them online.", "a": "try on" },
-          { "s": "Some items are damaged or ____, so retailers struggle to sell them.", "a": "out of season" },
-          { "s": "To ____, some shops have introduced return fees.", "a": "cut costs" },
-          { "s": "Retailers must ____: save money or risk losing shoppers.", "a": "make a difficult choice" }
+          {
+            "s": "For you, the story is over. For the jacket, ____.",
+            "a": "it has only just begun"
+          },
+          {
+            "s": "Customers cannot ____ clothes before ordering them online.",
+            "a": "try on"
+          },
+          {
+            "s": "Some items are damaged or ____, so retailers struggle to sell them.",
+            "a": "out of season"
+          },
+          {
+            "s": "To ____, some shops have introduced return fees.",
+            "a": "cut costs"
+          },
+          {
+            "s": "Retailers must ____: save money or risk losing shoppers.",
+            "a": "make a difficult choice"
+          }
         ],
-        "extra": ["send back", "unnecessary"]
+        "extra": [
+          "send back",
+          "unnecessary"
+        ]
       },
       "match": [
-        { "t": "try on", "d": "put clothes on to see whether they fit" },
-        { "t": "out of season", "d": "no longer right for the time of year" },
-        { "t": "unnecessary", "d": "not needed at all" },
-        { "t": "send back", "d": "return something to where it came from" }
+        {
+          "t": "try on",
+          "d": "put clothes on to see whether they fit"
+        },
+        {
+          "t": "out of season",
+          "d": "no longer right for the time of year"
+        },
+        {
+          "t": "unnecessary",
+          "d": "not needed at all"
+        },
+        {
+          "t": "send back",
+          "d": "return something to where it came from"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "A jacket ____ at your door looking perfect.", "cue": "arrive", "a": "arrives" },
-          { "s": "Almost one in five online purchases ____ to be returned in 2025.", "cue": "expect", "a": "was expected" },
-          { "s": "Workers may need to open the parcel and ____ the product.", "cue": "inspect", "a": "inspect" },
-          { "s": "A 2026 investigation ____ that several retailers had broken the rules.", "cue": "find", "a": "found" },
-          { "s": "Some shops have ____ return fees or shorter deadlines.", "cue": "introduce", "a": "introduced" }
+          {
+            "s": "A jacket ____ at your door looking perfect.",
+            "cue": "arrive",
+            "a": "arrives"
+          },
+          {
+            "s": "Almost one in five online purchases ____ to be returned in 2025.",
+            "cue": "expect",
+            "a": "was expected"
+          },
+          {
+            "s": "Workers may need to open the parcel and ____ the product.",
+            "cue": "inspect",
+            "a": "inspect"
+          },
+          {
+            "s": "A 2026 investigation ____ that several retailers had broken the rules.",
+            "cue": "find",
+            "a": "found"
+          },
+          {
+            "s": "Some shops have ____ return fees or shorter deadlines.",
+            "cue": "introduce",
+            "a": "introduced"
+          }
         ]
       },
       "tfn": [
-        { "s": "Returns are especially common with clothes bought online.", "a": "T" },
-        { "s": "Free returns cost retailers nothing.", "a": "F" },
-        { "s": "UK shoppers usually have 14 days after delivery to cancel an order.", "a": "T" },
-        { "s": "Most British shops now charge for returns.", "a": "N" }
+        {
+          "s": "Returns are especially common with clothes bought online.",
+          "a": "T",
+          "why": "The text says: \"Online returns are especially common with clothes because customers cannot try them on first.\""
+        },
+        {
+          "s": "Most British shops now charge for returns.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "UK shoppers usually have 14 days after delivery to cancel an order.",
+          "a": "T",
+          "why": "The text says: \"In the UK, people buying most goods online usually have 14 days after delivery to cancel their order, followed by another 14 days to return it.\""
+        },
+        {
+          "s": "Free returns cost retailers nothing.",
+          "a": "F",
+          "why": "The text says the opposite: \"Free returns are convenient, but they are not truly free.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Returns are ____; they involve collection, inspection and storage.", "a": "no small side operation" },
-          { "s": "The figure is not the processing bill, but it reveals ____.", "a": "the scale of the problem" },
-          { "s": "Each item may need checking, repackaging and ____.", "a": "putting back into stock" },
-          { "s": "Making customers pay a small fee can help ____ some costs.", "a": "claw back" },
-          { "s": "Shoppers may decide the shop is no longer ____.", "a": "worth the trouble" },
-          { "s": "Pretending returns cost nothing stops people understanding ____.", "a": "the trade-offs involved" }
+          {
+            "s": "Returns are ____; they involve collection, inspection and storage.",
+            "a": "no small side operation"
+          },
+          {
+            "s": "The figure is not the processing bill, but it reveals ____.",
+            "a": "the scale of the problem"
+          },
+          {
+            "s": "Each item may need checking, repackaging and ____.",
+            "a": "putting back into stock"
+          },
+          {
+            "s": "Making customers pay a small fee can help ____ some costs.",
+            "a": "claw back"
+          },
+          {
+            "s": "Shoppers may decide the shop is no longer ____.",
+            "a": "worth the trouble"
+          },
+          {
+            "s": "Pretending returns cost nothing stops people understanding ____.",
+            "a": "the trade-offs involved"
+          }
         ],
-        "extra": ["end up", "faulty"]
+        "extra": [
+          "end up",
+          "faulty"
+        ]
       },
       "match": [
-        { "t": "claw back", "d": "recover money that has been lost" },
-        { "t": "worth the trouble", "d": "good enough to justify the effort" },
-        { "t": "faulty", "d": "not working as it should" },
-        { "t": "end up", "d": "reach a situation that was not planned" }
+        {
+          "t": "claw back",
+          "d": "recover money that has been lost"
+        },
+        {
+          "t": "worth the trouble",
+          "d": "good enough to justify the effort"
+        },
+        {
+          "t": "faulty",
+          "d": "not working as it should"
+        },
+        {
+          "t": "end up",
+          "d": "reach a situation that was not planned"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The ____ jackets begin a journey in the wrong direction.", "cue": "WANT", "a": "unwanted" },
-          { "s": "A ____ returns policy has consequences for profits and the planet.", "cue": "GENEROSITY", "a": "generous" },
-          { "s": "Retailers have responded with charges and ____ conditions.", "cue": "STRICT", "a": "stricter" },
-          { "s": "Research has highlighted the ____ impact of clothing returns.", "cue": "ENVIRONMENT", "a": "environmental" },
-          { "s": "More ____ product descriptions could prevent unnecessary orders.", "cue": "DEPEND", "a": "dependable" }
+          {
+            "s": "The ____ jackets begin a journey in the wrong direction.",
+            "cue": "WANT",
+            "a": "unwanted"
+          },
+          {
+            "s": "A ____ returns policy has consequences for profits and the planet.",
+            "cue": "GENEROSITY",
+            "a": "generous"
+          },
+          {
+            "s": "Retailers have responded with charges and ____ conditions.",
+            "cue": "STRICT",
+            "a": "stricter"
+          },
+          {
+            "s": "Research has highlighted the ____ impact of clothing returns.",
+            "cue": "ENVIRONMENT",
+            "a": "environmental"
+          },
+          {
+            "s": "More ____ product descriptions could prevent unnecessary orders.",
+            "cue": "DEPEND",
+            "a": "dependable"
+          }
         ]
       },
       "tfn": [
-        { "s": "The National Retail Federation expected about 19% of online sales to be returned in 2025.", "a": "T" },
-        { "s": "Retailers never have to refund the original delivery charge.", "a": "F" },
-        { "s": "A Which? investigation found some shops failed to meet refund obligations.", "a": "T" },
-        { "s": "Return fees have reduced the number of online orders in Britain.", "a": "N" }
+        {
+          "s": "The National Retail Federation expected about 19% of online sales to be returned in 2025.",
+          "a": "T",
+          "why": "The text says: \"The US National Retail Federation expected around 19% of online sales to be returned in 2025, with goods worth nearly $850 billion flowing back to American retailers across all types of shopping.\""
+        },
+        {
+          "s": "Return fees have reduced the number of online orders in Britain.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "A Which? investigation found some shops failed to meet refund obligations.",
+          "a": "T",
+          "why": "The text says: \"found that some well-known shops failed to meet their refund obligations, even when customers were entitled to their money back.\""
+        },
+        {
+          "s": "Retailers never have to refund the original delivery charge.",
+          "a": "F",
+          "why": "The text says the opposite: \"They may have to cover the return postage for unwanted items when properly informed, while the retailer must normally refund the standard original delivery charge.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The rest are sent back ____.", "a": "at the click of a button" },
-          { "s": "The scale of the problem is ____.", "a": "formidable" },
-          { "s": "Charging for returns may ____ buyers who want to check the fit.", "a": "put off" },
-          { "s": "Retailers face ____.", "a": "a classic tension between short-term savings and long-term loyalty" },
-          { "s": "An easy service may ____ if it encourages repeat purchases.", "a": "make commercial sense" },
-          { "s": "Several retailers failed to provide refunds ____.", "a": "in accordance with the law" }
+          {
+            "s": "The rest are sent back ____.",
+            "a": "at the click of a button"
+          },
+          {
+            "s": "The scale of the problem is ____.",
+            "a": "formidable"
+          },
+          {
+            "s": "Charging for returns may ____ buyers who want to check the fit.",
+            "a": "put off"
+          },
+          {
+            "s": "Retailers face ____.",
+            "a": "a classic tension between short-term savings and long-term loyalty"
+          },
+          {
+            "s": "An easy service may ____ if it encourages repeat purchases.",
+            "a": "make commercial sense"
+          },
+          {
+            "s": "Several retailers failed to provide refunds ____.",
+            "a": "in accordance with the law"
+          }
         ],
-        "extra": ["wind back", "statutory"]
+        "extra": [
+          "wind back",
+          "statutory"
+        ]
       },
       "match": [
-        { "t": "put off", "d": "make somebody decide not to do something" },
-        { "t": "wind back", "d": "reduce something to an earlier level" },
-        { "t": "statutory", "d": "required by law rather than by choice" },
-        { "t": "formidable", "d": "large enough to be worrying" }
+        {
+          "t": "put off",
+          "d": "make somebody decide not to do something"
+        },
+        {
+          "t": "wind back",
+          "d": "reduce something to an earlier level"
+        },
+        {
+          "t": "statutory",
+          "d": "required by law rather than by choice"
+        },
+        {
+          "t": "formidable",
+          "d": "large enough to be worrying"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "The transaction feels almost ____ because the label is free.", "cue": "RISK", "a": "risk-free" },
-          { "s": "Reverse logistics absorbs labour, transport capacity and ____ space.", "cue": "STORE", "a": "storage" },
-          { "s": "Research has linked fashion returns to substantial ____ and waste.", "cue": "EMIT", "a": "emissions" },
-          { "s": "Companies should treat the cost as a ____ operating expense.", "cue": "PREDICT", "a": "predictable" },
-          { "s": "More efficient sorting could preserve the value of ____ clothing.", "cue": "WEAR", "a": "wearable" }
+          {
+            "s": "The transaction feels almost risk-free, which makes an impulsive purchase more ____.",
+            "cue": "LIKE",
+            "a": "likely"
+          },
+          {
+            "s": "Reverse logistics absorbs labour, transport capacity and ____ space.",
+            "cue": "STORE",
+            "a": "storage"
+          },
+          {
+            "s": "Research has linked fashion returns to substantial ____ and waste.",
+            "cue": "EMIT",
+            "a": "emissions"
+          },
+          {
+            "s": "Companies should treat the cost as a ____ operating expense.",
+            "cue": "PREDICT",
+            "a": "predictable"
+          },
+          {
+            "s": "More efficient sorting could preserve the value of ____ clothing.",
+            "cue": "WEAR",
+            "a": "wearable"
+          }
         ]
       },
       "tfn": [
-        { "s": "The NRF projected nearly $850 billion in returned merchandise.", "a": "T" },
-        { "s": "The writer says adding a charge at checkout will solve the problem.", "a": "F" },
-        { "s": "UK customers normally have fourteen days after delivery to cancel.", "a": "T" },
-        { "s": "European retailers resell most returned clothing successfully.", "a": "N" }
+        {
+          "s": "UK customers normally have fourteen days after delivery to cancel.",
+          "a": "T",
+          "why": "The text says: \"Under UK distance-selling rules, customers normally have fourteen days after delivery to cancel most online purchases without giving a reason and a further fourteen days to send the goods back.\""
+        },
+        {
+          "s": "The NRF projected nearly $850 billion in returned merchandise.",
+          "a": "T",
+          "why": "The text says: \"The US National Retail Federation estimated that 19.3% of online sales would be returned in 2025 and projected nearly $850 billion in returned merchandise across retail.\""
+        },
+        {
+          "s": "The writer says adding a charge at checkout will solve the problem.",
+          "a": "F",
+          "why": "The text says the opposite: \"Winding back that expectation without damaging trust will require more than adding a charge at checkout.\""
+        },
+        {
+          "s": "European retailers resell most returned clothing successfully.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     }
   }

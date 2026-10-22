@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "The café gives people food ____ plastic waste.", "a": "in exchange for" },
-          { "s": "Most of us would ____ a used bottle without thinking.", "a": "throw away" },
-          { "s": "Customers bring a kilogram of plastic and receive a meal ____.", "a": "in return" },
-          { "s": "____ is cheap and convenient, but it lasts a very long time.", "a": "Single-use plastic" },
-          { "s": "People need good reasons to use less plastic ____.", "a": "in the first place" }
+          {
+            "s": "The café gives people food ____ plastic waste.",
+            "a": "in exchange for"
+          },
+          {
+            "s": "Most of us would ____ a used bottle without thinking.",
+            "a": "throw away"
+          },
+          {
+            "s": "Customers bring a kilogram of plastic and receive a meal ____.",
+            "a": "in return"
+          },
+          {
+            "s": "____ is cheap and convenient, but it lasts a very long time.",
+            "a": "Single-use plastic"
+          },
+          {
+            "s": "People need good reasons to use less plastic ____.",
+            "a": "in the first place"
+          }
         ],
-        "extra": ["break down", "worthless"]
+        "extra": [
+          "break down",
+          "worthless"
+        ]
       },
       "match": [
-        { "t": "in exchange for", "d": "given as payment for something else" },
-        { "t": "break down", "d": "separate into much smaller pieces" },
-        { "t": "worthless", "d": "having no value at all" },
-        { "t": "clear away", "d": "remove something so a space is tidy" }
+        {
+          "t": "in exchange for",
+          "d": "given as payment for something else"
+        },
+        {
+          "t": "break down",
+          "d": "separate into much smaller pieces"
+        },
+        {
+          "t": "worthless",
+          "d": "having no value at all"
+        },
+        {
+          "t": "clear away",
+          "d": "remove something so a space is tidy"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "The café ____ in 2019 with support from local authorities.", "cue": "open", "a": "opened" },
-          { "s": "The plastic is then ____ and sent into the city's waste system.", "cue": "collect", "a": "collected" },
-          { "s": "Waste collectors may spend hours ____ for material they can sell.", "cue": "look", "a": "looking" },
-          { "s": "Plastic slowly ____ down into tiny pieces nobody can clear away.", "cue": "break", "a": "breaks" },
-          { "s": "Shops and factories ____ how much packaging ends up in the bin.", "cue": "decide", "a": "decide" }
+          {
+            "s": "The café ____ in 2019 with support from local authorities.",
+            "cue": "open",
+            "a": "opened"
+          },
+          {
+            "s": "The plastic is then ____ and sent into the city's waste system.",
+            "cue": "collect",
+            "a": "collected"
+          },
+          {
+            "s": "Waste collectors may spend hours ____ for material they can sell.",
+            "cue": "look",
+            "a": "looking"
+          },
+          {
+            "s": "Plastic slowly ____ down into tiny pieces nobody can clear away.",
+            "cue": "break",
+            "a": "breaks"
+          },
+          {
+            "s": "Shops and factories ____ how much packaging ends up in the bin.",
+            "cue": "decide",
+            "a": "decide"
+          }
         ]
       },
       "tfn": [
-        { "s": "Customers can bring one kilogram of plastic for a full meal.", "a": "T" },
-        { "s": "The café collects all the plastic waste the city produces.", "a": "F" },
-        { "s": "The café opened in 2019.", "a": "T" },
-        { "s": "Other Indian cities have opened similar cafés.", "a": "N" }
+        {
+          "s": "The café opened in 2019.",
+          "a": "T",
+          "why": "The text says: \"The café opened in 2019 with support from the local authorities.\""
+        },
+        {
+          "s": "Customers can bring one kilogram of plastic for a full meal.",
+          "a": "T",
+          "why": "The text says: \"Customers can bring one kilogram of plastic waste and receive a full meal in return.\""
+        },
+        {
+          "s": "The café collects all the plastic waste the city produces.",
+          "a": "F",
+          "why": "The text says the opposite: \"The city produces far more waste than the café could ever collect.\""
+        },
+        {
+          "s": "Other Indian cities have opened similar cafés.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Customers can ____ discarded packaging and receive a meal.", "a": "hand over" },
-          { "s": "The Garbage Café was ____ in 2019 with local authorities.", "a": "set up" },
-          { "s": "Collectors spend hours ____ rubbish in difficult conditions.", "a": "sorting through" },
-          { "s": "The food arrives the same day, not ____.", "a": "at the end of a long month" },
-          { "s": "Single-use plastic is cheap, which is why it ____ everywhere.", "a": "turns up" },
-          { "s": "Collecting waste is not the same as ____ waste.", "a": "cutting down on" }
+          {
+            "s": "Customers can ____ discarded packaging and receive a meal.",
+            "a": "hand over"
+          },
+          {
+            "s": "The Garbage Café was ____ in 2019 with local authorities.",
+            "a": "set up"
+          },
+          {
+            "s": "Collectors spend hours ____ rubbish in difficult conditions.",
+            "a": "sorting through"
+          },
+          {
+            "s": "The food arrives the same day, not ____.",
+            "a": "at the end of a long month"
+          },
+          {
+            "s": "Single-use plastic is cheap, which is why it ____ everywhere.",
+            "a": "turns up"
+          },
+          {
+            "s": "Collecting waste is not the same as ____ waste.",
+            "a": "cutting down on"
+          }
         ],
-        "extra": ["hand out", "recyclable"]
+        "extra": [
+          "hand out",
+          "recyclable"
+        ]
       },
       "match": [
-        { "t": "hand over", "d": "give something to another person" },
-        { "t": "sort through", "d": "look at a pile of things one by one" },
-        { "t": "hand out", "d": "give something to many people" },
-        { "t": "recyclable", "d": "able to be processed and used again" }
+        {
+          "t": "hand over",
+          "d": "give something to another person"
+        },
+        {
+          "t": "sort through",
+          "d": "look at a pile of things one by one"
+        },
+        {
+          "t": "hand out",
+          "d": "give something to many people"
+        },
+        {
+          "t": "recyclable",
+          "d": "able to be processed and used again"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Customers hand over ____ packaging.", "cue": "DISCARD", "a": "discarded" },
-          { "s": "Its most ____ offer is a meal for a kilogram of plastic.", "cue": "MEMORY", "a": "memorable" },
-          { "s": "The arrangement is meaningful for ____ waste collectors.", "cue": "FORM", "a": "informal" },
-          { "s": "It is a ____ way of involving the public.", "cue": "VISION", "a": "visible" },
-          { "s": "Plastic breaks down into ____ that are too small to pick up.", "cue": "FRAGMENT", "a": "fragments" }
+          {
+            "s": "Customers hand over ____ packaging.",
+            "cue": "DISCARD",
+            "a": "discarded"
+          },
+          {
+            "s": "Its most ____ offer is a meal for a kilogram of plastic.",
+            "cue": "MEMORY",
+            "a": "memorable"
+          },
+          {
+            "s": "The arrangement is meaningful for ____ waste collectors.",
+            "cue": "FORM",
+            "a": "informal"
+          },
+          {
+            "s": "It is a ____ way of involving the public.",
+            "cue": "PRACTICE",
+            "a": "practical"
+          },
+          {
+            "s": "Plastic breaks down into ____ that are too small to pick up.",
+            "cue": "FRAGMENT",
+            "a": "fragments"
+          }
         ]
       },
       "tfn": [
-        { "s": "Ambikapur has developed broader waste-sorting initiatives too.", "a": "T" },
-        { "s": "The café was intended to be the city's entire environmental strategy.", "a": "F" },
-        { "s": "Collectors may earn very little from selling material to dealers.", "a": "T" },
-        { "s": "The café serves more than a hundred meals a day.", "a": "N" }
+        {
+          "s": "The café serves more than a hundred meals a day.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Collectors may earn very little from selling material to dealers.",
+          "a": "T",
+          "why": "The text says: \"They may earn very little from selling material to dealers, even after spending hours sorting through rubbish in difficult conditions.\""
+        },
+        {
+          "s": "The café was intended to be the city's entire environmental strategy.",
+          "a": "F",
+          "why": "The text says the opposite: \"Ambikapur has also developed broader waste-sorting and recycling initiatives, so the café was never intended to be the city's entire environmental strategy.\""
+        },
+        {
+          "s": "Ambikapur has developed broader waste-sorting initiatives too.",
+          "a": "T",
+          "why": "The text says: \"Ambikapur has also developed broader waste-sorting and recycling initiatives, so the café was never intended to be the city's entire environmental strategy.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "The café relies on a strikingly ____ incentive.", "a": "tangible" },
-          { "s": "It links waste management to ____.", "a": "food insecurity" },
-          { "s": "Discarded packaging becomes a form of ____.", "a": "purchasing power" },
-          { "s": "Recognition of that kind is in remarkably ____.", "a": "short supply" },
-          { "s": "The café is not a strategy ____.", "a": "in its own right" },
-          { "s": "Measured by tonnage, it collects ____.", "a": "a drop in the ocean" }
+          {
+            "s": "The café relies on a strikingly ____ incentive.",
+            "a": "tangible"
+          },
+          {
+            "s": "It links waste management to ____.",
+            "a": "food insecurity"
+          },
+          {
+            "s": "Discarded packaging becomes a form of ____.",
+            "a": "purchasing power"
+          },
+          {
+            "s": "Recognition of that kind is in remarkably ____.",
+            "a": "short supply"
+          },
+          {
+            "s": "The café is not a strategy ____.",
+            "a": "in its own right"
+          },
+          {
+            "s": "Measured by tonnage, it collects ____.",
+            "a": "a drop in the ocean"
+          }
         ],
-        "extra": ["brush aside", "compassionate"]
+        "extra": [
+          "brush aside",
+          "compassionate"
+        ]
       },
       "match": [
-        { "t": "a drop in the ocean", "d": "far too small to make much difference" },
-        { "t": "in short supply", "d": "hard to find because there is little of it" },
-        { "t": "brush something aside", "d": "refuse to take an objection seriously" },
-        { "t": "compassionate", "d": "showing concern for people who suffer" }
+        {
+          "t": "a drop in the ocean",
+          "d": "far too small to make much difference"
+        },
+        {
+          "t": "in short supply",
+          "d": "hard to find because there is little of it"
+        },
+        {
+          "t": "brush something aside",
+          "d": "refuse to take an objection seriously"
+        },
+        {
+          "t": "compassionate",
+          "d": "showing concern for people who suffer"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "Environmental campaigns struggle to make ____ problems feel immediate.", "cue": "ABSTRACTION", "a": "abstract" },
-          { "s": "The work is unpleasant and physically ____.", "cue": "DEMAND", "a": "demanding" },
-          { "s": "Their contribution to urban ____ is routinely overlooked.", "cue": "CLEAN", "a": "cleanliness" },
-          { "s": "Providing food through waste collection is ____.", "cue": "INVENT", "a": "inventive" },
-          { "s": "A policy can leave the ____ causes of poverty untouched.", "cue": "STRUCTURE", "a": "structural" }
+          {
+            "s": "Environmental campaigns struggle to make ____ problems feel immediate.",
+            "cue": "ABSTRACTION",
+            "a": "abstract"
+          },
+          {
+            "s": "The work is unpleasant and physically ____.",
+            "cue": "DEMAND",
+            "a": "demanding"
+          },
+          {
+            "s": "Their contribution to urban ____ is routinely overlooked.",
+            "cue": "CLEAN",
+            "a": "cleanliness"
+          },
+          {
+            "s": "Providing food through waste collection is ____.",
+            "cue": "INVENT",
+            "a": "inventive"
+          },
+          {
+            "s": "A policy can leave the ____ causes of poverty untouched.",
+            "cue": "STRUCTURE",
+            "a": "structural"
+          }
         ]
       },
       "tfn": [
-        { "s": "The café was established in 2019 with municipal involvement.", "a": "T" },
-        { "s": "The writer says incentives alone can undo the damage from packaging.", "a": "F" },
-        { "s": "The article says schemes like this work best on top of collection services.", "a": "T" },
-        { "s": "The café is funded by a plastics manufacturer.", "a": "N" }
+        {
+          "s": "The café was established in 2019 with municipal involvement.",
+          "a": "T",
+          "why": "The text says: \"Established in 2019 with municipal involvement, the café offers a meal in exchange for approximately one kilogram of plastic waste, and the collected material is then fed into the city's waste-management network.\""
+        },
+        {
+          "s": "The article says schemes like this work best on top of collection services.",
+          "a": "T",
+          "why": "The text says: \"Schemes of this kind work best when they sit on top of functioning collection services, not in place of them.\""
+        },
+        {
+          "s": "The writer says incentives alone can undo the damage from packaging.",
+          "a": "F",
+          "why": "The text says the opposite: \"It cannot absorb the vast quantities of plastic that consumers produce, and its popularity is certainly no proof that incentives alone can undo the environmental damage caused by disposable packaging.\""
+        },
+        {
+          "s": "The café is funded by a plastics manufacturer.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
       ]
     }
   }

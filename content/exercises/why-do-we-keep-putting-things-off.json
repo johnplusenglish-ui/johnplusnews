@@ -4,105 +4,309 @@
     "core": {
       "gap": {
         "items": [
-          { "s": "Most people ____ difficult or boring tasks sometimes.", "a": "put off" },
-          { "s": "Researchers have been trying to ____ why we do it.", "a": "work out" },
-          { "s": "Breaking a large job into little steps can make it feel less ____.", "a": "frightening" },
-          { "s": "____ your phone for fifteen minutes and see what happens.", "a": "Put away" },
-          { "s": "In the end, they rush to finish and feel ____ with the result.", "a": "disappointed" }
+          {
+            "s": "Most people ____ difficult or boring tasks sometimes.",
+            "a": "put off"
+          },
+          {
+            "s": "Researchers have been trying to ____ why we do it.",
+            "a": "work out"
+          },
+          {
+            "s": "Breaking a large job into little steps can make it feel less ____.",
+            "a": "frightening"
+          },
+          {
+            "s": "____ your phone for fifteen minutes and see what happens.",
+            "a": "Put away"
+          },
+          {
+            "s": "In the end, they rush to finish and feel ____ with the result.",
+            "a": "disappointed"
+          }
         ],
-        "extra": ["lazy", "stressful"]
+        "extra": [
+          "lazy",
+          "stressful"
+        ]
       },
       "match": [
-        { "t": "put off", "d": "delay doing something you do not want to do" },
-        { "t": "work out", "d": "find the answer to something after thinking about it" },
-        { "t": "lazy", "d": "not wanting to work or make an effort" },
-        { "t": "stressful", "d": "causing a lot of worry and pressure" }
+        {
+          "t": "put off",
+          "d": "delay doing something you do not want to do"
+        },
+        {
+          "t": "work out",
+          "d": "find the answer to something after thinking about it"
+        },
+        {
+          "t": "lazy",
+          "d": "not wanting to work or make an effort"
+        },
+        {
+          "t": "stressful",
+          "d": "causing a lot of worry and pressure"
+        }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
-          { "s": "Suddenly, an hour ____ by and the email is still there.", "cue": "go", "a": "has gone" },
-          { "s": "In 2026, several studies ____ at procrastination among university students.", "cue": "look", "a": "looked" },
-          { "s": "Students who want everything to be perfect find it harder ____.", "cue": "begin", "a": "to begin" },
-          { "s": "Motivation sometimes ____ after you start, not before.", "cue": "come", "a": "comes" },
-          { "s": "It also helps to stop ____ until you feel completely ready.", "cue": "wait", "a": "waiting" }
+          {
+            "s": "Suddenly, an hour ____ by and the email is still there.",
+            "cue": "go",
+            "a": "has gone"
+          },
+          {
+            "s": "In 2026, several studies ____ at procrastination among university students.",
+            "cue": "look",
+            "a": "looked"
+          },
+          {
+            "s": "Students who want everything to be perfect find it harder ____.",
+            "cue": "begin",
+            "a": "to begin"
+          },
+          {
+            "s": "Motivation sometimes ____ after you start, not before.",
+            "cue": "come",
+            "a": "comes"
+          },
+          {
+            "s": "It also helps to stop ____ until you feel completely ready.",
+            "cue": "wait",
+            "a": "waiting"
+          }
         ]
       },
       "tfn": [
-        { "s": "Recent studies suggest that procrastination is simply laziness.", "a": "F" },
-        { "s": "Experts suggest beginning with a very small part of the task.", "a": "T" },
-        { "s": "Procrastination is more common among younger people than older people.", "a": "N" },
-        { "s": "The 2026 studies showed connections rather than proof of a cause.", "a": "T" }
+        {
+          "s": "Experts suggest beginning with a very small part of the task.",
+          "a": "T",
+          "why": "The text says: \"Experts often suggest starting small.\""
+        },
+        {
+          "s": "The 2026 studies showed connections rather than proof of a cause.",
+          "a": "T",
+          "why": "The text says: \"These studies showed connections, not proof that one problem always causes another.\""
+        },
+        {
+          "s": "Procrastination is more common among younger people than older people.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Recent studies suggest that procrastination is simply laziness.",
+          "a": "F",
+          "why": "The text says the opposite: \"One common explanation is that people are simply lazy, but recent studies suggest a more complicated picture.\""
+        }
       ]
     },
     "intermediate": {
       "gap": {
         "items": [
-          { "s": "Procrastination means delaying something although you know it may ____.", "a": "make matters worse" },
-          { "s": "Starting a difficult task can ____ anxiety, frustration or the fear of failing.", "a": "bring up" },
-          { "s": "Each possible sentence seems ____, so the student keeps reading instead.", "a": "inadequate" },
-          { "s": "Breaking the cycle usually requires making a task feel ____.", "a": "manageable" },
-          { "s": "Progress can ____ once the first step has been taken.", "a": "build up" },
-          { "s": "Progress is usually slower and less ____ than the plans we imagined.", "a": "glamorous" }
+          {
+            "s": "Procrastination means delaying something although you know it may ____.",
+            "a": "make matters worse"
+          },
+          {
+            "s": "Starting a difficult task can ____ anxiety, frustration or the fear of failing.",
+            "a": "bring up"
+          },
+          {
+            "s": "Each possible sentence seems ____, so the student keeps reading instead.",
+            "a": "inadequate"
+          },
+          {
+            "s": "Breaking the cycle usually requires making a task feel ____.",
+            "a": "manageable"
+          },
+          {
+            "s": "Progress can ____ once the first step has been taken.",
+            "a": "build up"
+          },
+          {
+            "s": "Progress is usually slower and less ____ than the plans we imagined.",
+            "a": "glamorous"
+          }
         ],
-        "extra": ["rough", "exhausted"]
+        "extra": [
+          "rough",
+          "exhausted"
+        ]
       },
       "match": [
-        { "t": "bring up", "d": "make a feeling or subject start to appear" },
-        { "t": "manageable", "d": "small or simple enough to deal with" },
-        { "t": "rough", "d": "quickly done and not yet finished properly" },
-        { "t": "exhausted", "d": "extremely tired, with no energy left" }
+        {
+          "t": "bring up",
+          "d": "make a feeling or subject start to appear"
+        },
+        {
+          "t": "manageable",
+          "d": "small or simple enough to deal with"
+        },
+        {
+          "t": "rough",
+          "d": "quickly done and not yet finished properly"
+        },
+        {
+          "t": "exhausted",
+          "d": "extremely tired, with no energy left"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "You answer a few ____ messages and make another cup of tea.", "cue": "NECESSARY", "a": "unnecessary" },
-          { "s": "Studies found relationships between delay and ____.", "cue": "PERFECT", "a": "perfectionism" },
-          { "s": "The researchers also examined ____ social media use.", "cue": "PROBLEM", "a": "problematic" },
-          { "s": "Repeatedly putting off important work can damage ____ and increase stress.", "cue": "CONFIDENT", "a": "confidence" },
-          { "s": "The attempt to produce ____ work prevented any work from being produced.", "cue": "EXCEL", "a": "excellent" }
+          {
+            "s": "You answer a few ____ messages and make another cup of tea.",
+            "cue": "NECESSARY",
+            "a": "unnecessary"
+          },
+          {
+            "s": "Studies found relationships between delay and ____.",
+            "cue": "PERFECT",
+            "a": "perfectionism"
+          },
+          {
+            "s": "The researchers also examined ____ social media use.",
+            "cue": "PROBLEM",
+            "a": "problematic"
+          },
+          {
+            "s": "Repeatedly putting off important work can damage ____ and increase stress.",
+            "cue": "CONFIDENT",
+            "a": "confidence"
+          },
+          {
+            "s": "The attempt to produce ____ work prevented any work from being produced.",
+            "cue": "EXCEL",
+            "a": "excellent"
+          }
         ]
       },
       "tfn": [
-        { "s": "One Italian study combined questionnaires with tests of attention and self-control.", "a": "T" },
-        { "s": "The research proves that phones cause procrastination.", "a": "F" },
-        { "s": "Psychologists increasingly look at the emotions behind the behaviour.", "a": "T" },
-        { "s": "Procrastination is more common in students than in people at work.", "a": "N" }
+        {
+          "s": "Procrastination is more common in students than in people at work.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Psychologists increasingly look at the emotions behind the behaviour.",
+          "a": "T",
+          "why": "The text says: \"People often describe procrastinators as lazy or badly organised, but psychologists increasingly look at the emotions behind the behaviour.\""
+        },
+        {
+          "s": "One Italian study combined questionnaires with tests of attention and self-control.",
+          "a": "T",
+          "why": "The text says: \"One Italian investigation combined questionnaires with tests of attention and self-control.\""
+        },
+        {
+          "s": "The research proves that phones cause procrastination.",
+          "a": "F",
+          "why": "The text says the opposite: \"Because much of this research observes people at one moment in time, it cannot establish that phones or perfectionism directly cause procrastination in every individual.\""
+        }
       ]
     },
     "advanced": {
       "gap": {
         "items": [
-          { "s": "An important task can ____ fear of failure, boredom or uncertainty.", "a": "stir up" },
-          { "s": "Avoiding it provides a ____ escape from those feelings.", "a": "short-lived" },
-          { "s": "The decision may be ____ in the long run.", "a": "self-defeating" },
-          { "s": "Research becomes an ____ form of avoidance.", "a": "elaborate" },
-          { "s": "The supposedly higher standard has ____, leaving less time and more stress.", "a": "backfired" },
-          { "s": "The goal is to stop letting temporary discomfort ____.", "a": "run the show" }
+          {
+            "s": "An important task can ____ fear of failure, boredom or uncertainty.",
+            "a": "stir up"
+          },
+          {
+            "s": "Avoiding it provides a ____ escape from those feelings.",
+            "a": "short-lived"
+          },
+          {
+            "s": "The decision may be ____ in the long run.",
+            "a": "self-defeating"
+          },
+          {
+            "s": "Research becomes an ____ form of avoidance.",
+            "a": "elaborate"
+          },
+          {
+            "s": "The supposedly higher standard has ____, leaving less time and more stress.",
+            "a": "backfired"
+          },
+          {
+            "s": "The goal is to stop letting temporary discomfort ____.",
+            "a": "run the show"
+          }
         ],
-        "extra": ["intimidating", "flawless"]
+        "extra": [
+          "intimidating",
+          "flawless"
+        ]
       },
       "match": [
-        { "t": "stir up", "d": "cause strong feelings to begin" },
-        { "t": "backfire", "d": "have the opposite effect to the one intended" },
-        { "t": "intimidating", "d": "making you feel nervous and not confident enough" },
-        { "t": "flawless", "d": "with nothing at all wrong with it" }
+        {
+          "t": "stir up",
+          "d": "cause strong feelings to begin"
+        },
+        {
+          "t": "backfire",
+          "d": "have the opposite effect to the one intended"
+        },
+        {
+          "t": "intimidating",
+          "d": "making you feel nervous and not confident enough"
+        },
+        {
+          "t": "flawless",
+          "d": "with nothing at all wrong with it"
+        }
       ],
       "grammar": {
         "kind": "word",
         "items": [
-          { "s": "A task can stir up the pressure to meet ____ expectations.", "cue": "REAL", "a": "unrealistic" },
-          { "s": "Many of the studies were ____ rather than controlled.", "cue": "OBSERVE", "a": "observational" },
-          { "s": "Someone may postpone writing because nothing sounds ____ impressive.", "cue": "SUFFICIENT", "a": "sufficiently" },
-          { "s": "Delay can create a cycle of guilt and the ____ that we are incapable.", "cue": "CONVINCE", "a": "conviction" },
-          { "s": "Small actions reduce the ____ attached to starting.", "cue": "RESIST", "a": "resistance" }
+          {
+            "s": "A task can stir up the pressure to meet ____ expectations.",
+            "cue": "REAL",
+            "a": "unrealistic"
+          },
+          {
+            "s": "Many of the studies were ____ rather than controlled.",
+            "cue": "OBSERVE",
+            "a": "observational"
+          },
+          {
+            "s": "Someone may postpone writing because nothing sounds ____ impressive.",
+            "cue": "SUFFICIENT",
+            "a": "sufficiently"
+          },
+          {
+            "s": "Delay can create a cycle of guilt and the ____ that we are incapable.",
+            "cue": "CONVINCE",
+            "a": "conviction"
+          },
+          {
+            "s": "Small actions reduce the ____ attached to starting.",
+            "cue": "RESIST",
+            "a": "resistance"
+          }
         ]
       },
       "tfn": [
-        { "s": "The writer argues that procrastination always shows a lack of discipline.", "a": "F" },
-        { "s": "Some of the research described was observational rather than experimental.", "a": "T" },
-        { "s": "A perfectionist may end up with less time than a less demanding writer.", "a": "T" },
-        { "s": "The Italian study found that men procrastinate more than women.", "a": "N" }
+        {
+          "s": "The Italian study found that men procrastinate more than women.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The writer argues that procrastination always shows a lack of discipline.",
+          "a": "F",
+          "why": "The text says the opposite: \"The research points less at discipline than at the discomfort we are trying to escape.\""
+        },
+        {
+          "s": "Some of the research described was observational rather than experimental.",
+          "a": "T",
+          "why": "The text says: \"These findings help explain the behaviour, although many of the studies were observational.\""
+        },
+        {
+          "s": "A perfectionist may end up with less time than a less demanding writer.",
+          "a": "T",
+          "why": "The text says: \"The supposedly higher standard has backfired, leaving the perfectionist with less time and a more stressful deadline.\""
+        }
       ]
     }
   }

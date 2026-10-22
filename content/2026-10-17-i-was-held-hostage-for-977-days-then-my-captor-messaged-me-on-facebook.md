@@ -59,7 +59,7 @@ His experience challenges the assumption that sympathy for a captor always refle
 === Before you read ===
 
 - How do you think a person might cope with a very long period of captivity?
-- How easy do you find it to talk about a bad experience, and why?
+- What might make it easier or harder for someone to talk about a bad experience?
 - What makes it easier or harder to forgive someone, do you think?
 
 === Talk about it ===
