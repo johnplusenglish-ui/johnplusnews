@@ -600,21 +600,66 @@
      the next reader gets it for nothing. The same headword test runs on the
      server, so a sentence can never be sent for generation. */
   var GLOSS_API = "https://johnplusdictionary.com/news-gloss";
-  var glossCache = {};               // lower(word) -> row, so reopening is free
-  function glossRequest(word) {
-    var key = word.toLowerCase();
-    if (glossCache[key]) return Promise.resolve(glossCache[key]);
+  var glossCache = {};        // lower(word) -> row WITH a definition
+  var glossMissing = {};      // lower(word) -> true, known to have no entry yet
+  var defNodes = {};          // lower(word) -> [nodes on screen], for the prefetch
+  function glossPost(words, preview) {
     return fetch(GLOSS_API, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ words: [word] })
+      body: JSON.stringify(preview ? { words: words, preview: true }
+                                   : { words: words })
     }).then(function (res) {
       if (!res.ok) throw new Error("http " + res.status);
       return res.json();
-    }).then(function (d) {
+    });
+  }
+  function glossRequest(word) {
+    var key = word.toLowerCase();
+    if (glossCache[key]) return Promise.resolve(glossCache[key]);
+    return glossPost([word], false).then(function (d) {
       var row = (d.results || [])[0] || null;
-      if (row) { row.notice = d.notice || ""; glossCache[key] = row; }
+      if (row) {
+        row.notice = d.notice || "";
+        if (row.gloss) { glossCache[key] = row; delete glossMissing[key]; }
+      }
       return row;
+    });
+  }
+  /* Fill in every definition we already have the moment My words opens, so a
+     reader does not wait on a request per word. preview:true means the
+     dictionary only reports what it knows - it never generates and never
+     charges - so opening this page costs nothing however many words are saved.
+     A word with no entry yet stays quiet and is only created if the reader
+     actually opens it. */
+  function prefetchGlosses(words) {
+    var want = [];
+    words.forEach(function (w) {
+      var k = w.toLowerCase();
+      if (!isHeadword(w) || glossCache[k] || glossMissing[k]) return;
+      if (want.indexOf(w) < 0) want.push(w);
+    });
+    if (!want.length) return;
+    var CHUNK = 10;             // the endpoint's own batch limit
+    for (var i = 0; i < want.length; i += CHUNK) {
+      (function (batch) {
+        glossPost(batch, true).then(function (d) {
+          (d.results || []).forEach(function (row) {
+            var k = (row.input || "").toLowerCase();
+            if (row.gloss) { glossCache[k] = row; paintGloss(k, row); }
+            else { glossMissing[k] = true; }
+          });
+        }).catch(function () { /* silent: the row still works on open */ });
+      })(want.slice(i, i + CHUNK));
+    }
+  }
+  function paintGloss(key, row) {
+    (defNodes[key] || []).forEach(function (node) {
+      if (node.getAttribute("data-state") === "done") return;
+      node.setAttribute("data-state", "done");
+      node.textContent = "";
+      if (row.pos) node.appendChild(el("span", "wd-pos", row.pos));
+      node.appendChild(el("span", "wd-gloss", row.gloss));
     });
   }
   /* Only asked for when the reader actually opens a word, so a long list costs
@@ -737,6 +782,8 @@
         var rs = shown();
         count.textContent = rows.length ? rs.length + (rs.length === 1 ? " word" : " words") + (q ? " found" : " saved") : "";
         clear(list);
+        defNodes = {};                       // the old nodes just went away
+        prefetchGlosses(rs.map(function (r) { return r.text; }));
         if (!rows.length) {
           var p = el("p", "acct-note", "You have not saved any words yet. Open an article, select the words you want to keep and press Highlight. They will appear here.");
           list.appendChild(p);
@@ -769,10 +816,16 @@
               var def = el("div", "wd-def");
               def.setAttribute("aria-live", "polite");
               body.appendChild(def);
-              d.addEventListener("toggle", function () {
-                if (d.open) loadGloss(r.text, def);
-              });
-              if (d.open) loadGloss(r.text, def);   // a search opens rows itself
+              var dkey = r.text.toLowerCase();
+              (defNodes[dkey] = defNodes[dkey] || []).push(def);
+              if (glossCache[dkey]) {
+                paintGloss(dkey, glossCache[dkey]);   // already known, no wait
+              } else {
+                d.addEventListener("toggle", function () {
+                  if (d.open) loadGloss(r.text, def);
+                });
+                if (d.open) loadGloss(r.text, def);   // a search opens rows itself
+              }
             }
             var acts = el("div", "wd-acts");
             var x = el("button", "wd-x", "Remove"); x.type = "button"; x.setAttribute("aria-label", "Remove " + r.text);
