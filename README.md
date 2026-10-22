@@ -1,6 +1,6 @@
 # johnplusnews
 
-News articles from around the world for English learners. The home page is a gallery of cards, newest first, each with a thumbnail, the heading and a short summary. Each article can be written at up to three levels, Core, Intermediate and Advanced, and readers switch between them with tabs on the article page. Readers can also choose a reading font. Each article is a plain text file; a small script turns the files into the site.
+News articles from around the world for English learners. The home page is a gallery of cards, newest first, each with a thumbnail, the heading and a short summary. Each article can be written at up to three levels, B1, B2 and C1-C2, and readers switch between them with tabs on the article page. Readers can also choose a reading font. Each article is a plain text file; a small script turns the files into the site.
 
 ## Add an article with the publisher (easiest)
 
@@ -8,7 +8,7 @@ Double-click `Publish an article.command`. A Terminal window opens and the publi
 
 1. Fill in the title and check the date.
 2. Choose a picture (click the box, drag a picture onto it, or paste one). It is shrunk automatically and a small copy is made for the gallery cards.
-3. Tick each level you are adding (Core, Intermediate, Advanced). A box appears for each ticked level, so paste that level's text into it. If a level has its own headline or subheading, put them in that box's optional fields, otherwise leave them empty. Tick one level for a single version, or two or three to give the article tabs. Add a summary line, and a source name and link if you want them.
+3. Tick each level you are adding (B1, B2, C1-C2). A box appears for each ticked level, so paste that level's text into it. If a level has its own headline or subheading, put them in that box's optional fields, otherwise leave them empty. Tick one level for a single version, or two or three to give the article tabs. Add a summary line, and a source name and link if you want them.
 4. Press **Preview** to see it exactly as it will look, without publishing anything.
 5. Press **Publish**. The site is rebuilt and sent to GitHub, and the page tells you when the article is live on johnplusnews.com, usually within one to two minutes. When it is live, a **View the live article** button appears under the Publish button.
 
@@ -48,7 +48,7 @@ Readers can sign in with an email and password to save the words they highlight,
 ## Add an article by hand
 
 1. Create a file in `content/` named `YYYY-MM-DD-short-title.md`, for example `2026-10-20-the-news-title.md`.
-2. Write the header, then a line containing only `---`, then the article. For one level, put `level: Advanced` in the header. For several levels, leave `level:` out and start each version with a line like `=== Intermediate ===` (see Levels below).
+2. Write the header, then a line containing only `---`, then the article. For one level, put `level: C1-C2` in the header. For several levels, leave `level:` out and start each version with a line like `=== B2 ===` (see Levels below).
 3. Run `python3 build.py`. The finished site is written to `docs/`.
 4. Preview with `python3 build.py --serve` and open http://localhost:8123.
 
@@ -61,7 +61,7 @@ title: The article title          (required)
 date: 2026-10-20                  (required, year-month-day; use the date of the news story, the home page lists articles newest first by this date)
 summary: One or two sentences.    (optional, shown under the title and in lists)
 tags: Technology, Society          (optional, up to 8 topics separated by commas, see Topics and search)
-level: Advanced                   (only for an article with ONE version, see Levels below)
+level: C1-C2                      (only for an article with ONE version, see Levels below)
 source: Name | https://link       (optional, shown at the bottom)
 image: images/photo.jpg           (the card thumbnail and article picture, a file in static/images/)
 image-alt: What the photo shows   (optional)
@@ -89,23 +89,23 @@ Give an article `tags:` in its header (in the publisher, the **Tags** box: type 
 
 ## Levels and tabs
 
-An article has one version for each level it is written at. There are three levels: Core (B1), Intermediate (B2) and Advanced (C1). Readers get a tab for each version on the article page, and the page remembers the level they chose last, so they land on their own level in every article. A reader who has not chosen yet lands on Intermediate (or on the first version if an article has no Intermediate). If an article has only one version, there are no tabs and its level is simply shown above the title.
+An article has one version for each level it is written at. There are three levels: B1 (intermediate), B2 (upper intermediate) and C1-C2 (advanced). Readers get a tab for each version on the article page, and the page remembers the level they chose last, so they land on their own level in every article. A reader who has not chosen yet lands on B2 (or on the first version if an article has no B2). If an article has only one version, there are no tabs and its level is simply shown above the title.
 
-By hand, an article with one version uses `level: Advanced` in the header. An article with several versions leaves `level:` out and starts each version with a marker line:
+By hand, an article with one version uses `level: C1-C2` in the header. An article with several versions leaves `level:` out and starts each version with a marker line:
 
 ```
 title: The article title
 date: 2026-10-20
 ---
-=== Core ===
+=== B1 ===
 
 The simplest text goes here.
 
-=== Intermediate ===
+=== B2 ===
 
 The middle text goes here.
 
-=== Advanced ===
+=== C1-C2 ===
 
 The more demanding text goes here.
 ```
@@ -113,7 +113,7 @@ The more demanding text goes here.
 The title, summary, picture and source are shared by all the versions unless a version has its own headline and subheading. To give a version its own, put `title:` and/or `summary:` lines straight after its marker, then a blank line, then the text:
 
 ```
-=== Advanced ===
+=== C1-C2 ===
 
 title: A different headline for this level
 summary: A different subheading for this level
@@ -125,7 +125,7 @@ When a reader switches tab, the headline, the subheading and the browser tab tit
 
 ## Questions before and after the article
 
-An article can have two optional sets of questions: **Before you read** (warm-up questions) and **Talk about it** (discussion questions). On the page they are two quiet one-line rows, one under the picture and one under the text, closed until a reader opens them, so the article itself stays clean. The PDF always prints both open, in a tinted box. Every level shares the same questions, so keep the wording simple enough for the Core level.
+An article can have two optional sets of questions: **Before you read** (warm-up questions) and **Talk about it** (discussion questions). On the page they are two quiet one-line rows, one under the picture and one under the text, closed until a reader opens them, so the article itself stays clean. The PDF always prints both open, in a tinted box. Every level shares the same questions, so keep the wording simple enough for the B1 level.
 
 ## Timer
 
@@ -138,7 +138,7 @@ The language boxes are switched off at the moment (`LANGUAGE_ON = False` in buil
 Each level can carry a short list of the useful language in its text: adjectives, phrasal verbs and phrases (three of each is the house minimum, written into the article so they read naturally). In the file, put a section after that level's text:
 
 ```
-=== Core language ===
+=== B1 language ===
 
 - turn up (phrasal verb): to arrive somewhere
 - exhausting (adjective): making you very tired

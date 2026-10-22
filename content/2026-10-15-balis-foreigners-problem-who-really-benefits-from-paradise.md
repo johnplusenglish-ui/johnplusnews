@@ -26,6 +26,7 @@ Bali faces a difficult choice. Tourism brings in money and opportunities, but it
 === B2 ===
 
 title: Bali's Tourism Boom: Paradise for Whom?
+summary: Bali looks frictionless online: private pools, laptop cafés and a beach after work. From a neighbourhood facing rising land values, the same success looks different.
 
 On social media, Bali appears almost frictionless: private pools, laptop-friendly cafés and a beach waiting after work. The same success looks more complicated from a neighbourhood where land values are rising and new businesses cater to people earning foreign salaries. Tourism creates jobs and opportunities, but it also changes who can afford to live and trade in popular areas. The real argument is not whether Bali should welcome visitors; it is how the rewards and costs are shared.
 

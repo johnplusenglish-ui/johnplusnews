@@ -24,6 +24,7 @@ There are plenty of ways to make reading easier. Choose a book that interests yo
 === B2 ===
 
 title: Have We Lost the Habit of Reading?
+summary: One message, and the paragraph has to be read again. The wish to read is still there; the uninterrupted half hour is not.
 
 You return to the novel after checking one message and realise that you have forgotten who is speaking. The same paragraph must be read again. Nothing is wrong with the book, and the desire to read is still there; the protected attention has gone. For people who once became absorbed in stories for hours, that change can feel less like a new habit than the loss of an old ability.
 

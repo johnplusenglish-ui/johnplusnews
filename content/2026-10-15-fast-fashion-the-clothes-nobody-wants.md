@@ -24,6 +24,7 @@ Affordable clothes are important, especially for families on limited budgets. Th
 === B2 ===
 
 title: The Charity-Shop Bag Nobody Wants
+summary: The bag outside the shop carries a comforting promise. In the sorting room, staff find clothes too worn or too cheap to sell to anyone.
 
 A bag left outside a charity shop carries a comforting promise: these clothes will find new owners and help a good cause. Inside the sorting room, the story can be very different. Staff open the bag and discover damaged seams, weak fabric and garments with almost no resale value. The donation has not removed the waste. It has transferred the difficult decision, and sometimes the disposal bill, to the charity.
 

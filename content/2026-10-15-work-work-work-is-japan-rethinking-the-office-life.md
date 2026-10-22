@@ -26,6 +26,7 @@ The difficulty is finding a balance between what businesses need and what people
 === B2 ===
 
 title: Why Some Japanese Workers Still Cannot Leave on Time
+summary: The tasks are finished and the train is due, but the manager has not moved. Legal limits on overtime cannot easily change what a room expects.
 
 The official working day is over, but nobody moves. One employee has finished every task and wants to clock off in time for the train home; the manager is still at the desk. Leaving first should be an ordinary decision, yet in some Japanese workplaces it can feel like a public statement about loyalty. That small moment helps explain why office reform is not only about legal limits. It is also about the pressure people read in the room.
 

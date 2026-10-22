@@ -24,6 +24,7 @@ There is also a problem that art cannot solve on its own. Civita's hill is still
 === B2 ===
 
 title: The Village Crumbling Beneath Its Visitors
+summary: A footbridge, a famous view and a crumbling cliff. Civita draws visitors all summer, but keeping people there through the winter is the harder problem.
 
 Halfway across the footbridge to Civita di Bagnoregio, the village seems to float above the valley. Its medieval buildings attract cameras from every direction, but the dramatic view is also a warning. Erosion has been eating into the soft rock for centuries. The hilltop is not merely picturesque; it is unstable. Civita's nickname, the Dying Town, describes both the land falling away and the tiny community trying to remain on it.
 

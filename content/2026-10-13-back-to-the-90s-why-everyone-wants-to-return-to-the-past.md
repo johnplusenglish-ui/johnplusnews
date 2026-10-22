@@ -23,6 +23,7 @@ But memories of the past are not always fair. The 1990s had problems too, includ
 === B2 ===
 
 title: The 1990s Are Back, but What Are We Really Missing?
+summary: Objects that are slower and less reliable than a phone are selling well. The appeal may be the limits they impose rather than the decade itself.
 
 A young music fan buys a CD released before she was born. Someone else carries an old camera that cannot show whether the photograph worked. These objects are slower and less convenient than the phones already in their pockets, and that may be the point. The return of 1990s clothes, music and technology is not only nostalgia. For people with no memory of the decade, it can represent a life with fewer notifications and less pressure to record everything.
 

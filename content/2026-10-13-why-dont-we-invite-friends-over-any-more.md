@@ -23,6 +23,7 @@ Perhaps we need to change what we expect from being a good host. It is fine to b
 === B2 ===
 
 title: When Did Having Friends Over Become Such a Big Event?
+summary: The message goes unsent because the flat is untidy and dinner would be a takeaway. Somewhere along the way, the standard for having people round quietly rose.
 
 You are about to invite a friend round when you notice the laundry, the dishes and the fact that dinner would probably be a takeaway. The message remains unsent. A simple visit has somehow become an event for which the home, the food and the host must all be properly prepared. Meeting in a café next week feels easier, even if next week eventually becomes next month.
 

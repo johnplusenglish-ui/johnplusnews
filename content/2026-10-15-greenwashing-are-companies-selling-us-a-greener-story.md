@@ -24,6 +24,7 @@ For shoppers, the best question is often a simple one: what exactly has improved
 === B2 ===
 
 title: Greenwashing: When Eco-Friendly Claims Do Not Add Up
+summary: Shoppers respond to the story an advertisement tells, not to a company's full environmental record. That gap is where the claim does its work.
 
 A shopper reaches for the bottle with leaves on the label. A traveller chooses the flight described as climate-conscious. Neither person has time to investigate a company's entire environmental record; they respond to the story the advertisement tells. That is what makes greenwashing effective. The claim does not always need to be completely false. It only needs to create a greener impression than the evidence can support.
 

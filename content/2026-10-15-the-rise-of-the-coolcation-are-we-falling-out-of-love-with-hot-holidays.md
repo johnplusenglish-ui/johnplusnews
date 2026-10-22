@@ -26,6 +26,7 @@ Perhaps the biggest change will be when people travel, rather than where. A fami
 === B2 ===
 
 title: The Holidaymakers Heading North
+summary: Shutters closed, streets empty and sightseeing postponed until sunset. After a run of punishing summers, some travellers are booking north instead.
 
 Imagine arriving for a long-awaited city break and discovering that the afternoon is too hot for sightseeing. The streets empty, the shutters close and the holiday moves indoors until sunset. After another summer of intense European heat, some travellers have decided that guaranteed sunshine is no longer a guarantee of enjoyment. They are looking north instead, for fresh air, cooler nights and the freedom to stay outside.
 

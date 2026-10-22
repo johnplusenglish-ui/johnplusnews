@@ -26,6 +26,7 @@ Better size guides, accurate photos and helpful reviews could prevent some unnec
 === B2 ===
 
 title: The Returned Jacket Nobody Wants
+summary: The label prints in seconds and the parcel leaves your life. Inside the retailer's warehouse, somebody still has to decide what that jacket is now worth.
 
 You try on three jackets, keep one and seal the other two in their original bags. A returns label appears in seconds, and the parcel disappears from your life. Inside the retailer's system, however, the unwanted jackets begin a difficult journey in the wrong direction. They must be collected, opened, inspected and given a new destination. Some return to stock. Others end up losing value with every mile.
 

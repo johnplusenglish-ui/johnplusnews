@@ -26,6 +26,7 @@ None of this means side hustles are a bad idea. They can build confidence, teach
 === B2 ===
 
 title: The Side-Hustle Trap: What the Videos Leave Out
+summary: The video opens with coffee and a payment notification. It rarely shows the months of unpaid work, or the thousands of people selling the same thing.
 
 The video begins with coffee and a payment notification. Its creator says a small online business covers the bills while leaving plenty of time for family, travel and sleep. What the camera does not show is the crowded marketplace, the advertising costs or the weeks when nobody buys anything. For anyone squeezed by the cost of living, the promise is powerful. The missing work is exactly what deserves attention.
 
