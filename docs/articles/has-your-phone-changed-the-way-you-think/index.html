@@ -19,7 +19,7 @@
 <script>try{if(!localStorage.getItem("jpn_session"))document.documentElement.classList.add("jpn-guest")}catch(e){document.documentElement.classList.add("jpn-guest")}setTimeout(function(){if(!window.jpnGateReady)document.documentElement.classList.remove("jpn-guest")},6000)</script>
 <script>(function(){try{var f=localStorage.getItem("jpn_font");if(f==="outfit")document.documentElement.setAttribute("data-font","outfit")}catch(e){}})();</script>
 <noscript><style>.tools{display:none}.vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}</style></noscript>
-<script src="/highlight.js?v=8259058d" defer></script>
+<script src="/highlight.js?v=bff8d7cf" defer></script>
 <script src="/timer.js?v=127fe3e2" defer></script>
 <script src="/exercises.js?v=8df55c3c" defer></script>
 <script>(function(){function go(){var g=document.getElementById('firstrun');if(!g)return;var K='jpn_guide_seen';try{if(localStorage.getItem(K)==='1')return;}catch(e){}g.hidden=false;g.querySelector('.guide-x').addEventListener('click',function(){g.hidden=true;try{localStorage.setItem(K,'1');}catch(e){}});}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();})();</script>
@@ -784,13 +784,18 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 }
 
 /* The definition shown when a reader taps one of their own highlights. Sits
-   just under the highlight pill; the pill is a button, so this cannot live
-   inside it. */
-.hl-def { position: absolute; z-index: 60; max-width: min(320px, calc(100vw - 16px)); background: #fff; color: var(--text); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 10px 28px -12px rgba(16, 24, 40, 0.34); padding: 9px 12px; font-size: 0.9375rem; line-height: 1.45; }
+   below the line where there is room, so the word itself stays visible, and
+   repeats the word so the reader keeps their place. */
+.hl-def { position: absolute; z-index: 70; max-width: min(330px, calc(100vw - 16px)); background: #fff; color: var(--text); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 14px 34px -14px rgba(16, 24, 40, 0.38); padding: 11px 14px 9px; font-size: 0.9375rem; line-height: 1.45; }
 .hl-def[hidden] { display: none; }
+.hl-def-w { display: block; font-weight: 700; font-size: 1rem; margin-bottom: 3px; }
+.hl-def-body { display: block; }
 .hl-def-pos { font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 7px; }
 .hl-def-note { color: #98a0ad; }
 .hl-def-ask { color: var(--accent); font-weight: 600; cursor: pointer; }
+/* Deliberately quiet: the reader came for the meaning, not to delete. */
+.hl-def-rm { display: block; margin: 8px -4px -2px; padding: 4px; font: inherit; font-size: 0.8125rem; color: #98a0ad; background: none; border: 0; cursor: pointer; }
+.hl-def-rm:hover { color: #b42318; }
 </style>
 </head>
 <body>

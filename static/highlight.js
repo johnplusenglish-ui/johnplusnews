@@ -269,53 +269,81 @@
   defBox.hidden = true;
   defBox.setAttribute("role", "status");
   document.body.appendChild(defBox);
-  function hideDef() { defBox.hidden = true; defBox.textContent = ""; defBox.onclick = null; }
-  function setDef(parts) {
+  var defRect = null;        // the highlight being described
+  function hideDef() { defBox.hidden = true; defBox.textContent = ""; defBox.onclick = null; defRect = null; }
+  /* The word, then its definition, then a quiet "Remove highlight".
+     The word is repeated here deliberately: the panel sits over the line you
+     were reading, so without it you lose sight of what you asked about. */
+  function setDef(word, parts, st, id) {
     defBox.textContent = "";
+    if (word) {
+      var h = document.createElement("span");
+      h.className = "hl-def-w"; h.textContent = word;
+      defBox.appendChild(h);
+    }
+    var body = document.createElement("span");
+    body.className = "hl-def-body";
     parts.forEach(function (p) {
-      var s = document.createElement("span");
-      s.className = p[0]; s.textContent = p[1];
-      defBox.appendChild(s);
+      var sp = document.createElement("span");
+      sp.className = p[0]; sp.textContent = p[1];
+      body.appendChild(sp);
     });
+    defBox.appendChild(body);
+    if (st && id != null) {
+      var rm = document.createElement("button");
+      rm.type = "button"; rm.className = "hl-def-rm"; rm.textContent = "Remove highlight";
+      rm.addEventListener("click", function (ev) {
+        ev.stopPropagation(); removeItem(st, id); hideDef(); hidePill();
+      });
+      defBox.appendChild(rm);
+    }
     defBox.hidden = false;
     placeDef();
   }
-  /* Sits under the pill, clamped to the viewport exactly as the pill is. */
+  /* Below the highlighted line where there is room, above it otherwise, so the
+     word being defined stays visible. */
   function placeDef() {
-    if (defBox.hidden) return;
-    var sx = window.pageXOffset;
-    var w = defBox.offsetWidth;
-    var pl = parseFloat(pill.style.left) || 0, pt = parseFloat(pill.style.top) || 0;
-    var left = pl + pill.offsetWidth / 2 - w / 2;
-    left = Math.max(sx + 8, Math.min(left, sx + document.documentElement.clientWidth - w - 8));
+    if (defBox.hidden || !defRect) return;
+    var sx = window.pageXOffset, sy = window.pageYOffset;
+    var w = defBox.offsetWidth, h = defBox.offsetHeight;
+    var vw = document.documentElement.clientWidth, vh = document.documentElement.clientHeight;
+    var left = defRect.left + sx + defRect.width / 2 - w / 2;
+    left = Math.max(sx + 8, Math.min(left, sx + vw - w - 8));
+    var below = defRect.bottom + sy + 10;
+    var above = defRect.top + sy - h - 10;
+    var top = (defRect.bottom + h + 16 <= vh || above < sy + 8) ? below : above;
     defBox.style.left = Math.round(left) + "px";
-    defBox.style.top = Math.round(pt + pill.offsetHeight + 8) + "px";
+    defBox.style.top = Math.round(top) + "px";
   }
   function defParts(row) {
     return row.pos ? [["hl-def-pos", row.pos], ["hl-def-g", row.gloss]]
                    : [["hl-def-g", row.gloss]];
   }
-  function fetchDef(text) {
-    setDef([["hl-def-g", "Looking it up…"]]);
-    window.JPNGloss.lookup(text).then(function (row) {
-      if (row && row.gloss) setDef(defParts(row));
-      else if (row && row.source === "capped") setDef([["hl-def-note", row.notice || "Daily limit reached."]]);
-      else setDef([["hl-def-note", "No definition for that one."]]);
-    }).catch(function () { setDef([["hl-def-note", "Could not reach the dictionary."]]); });
+  function fetchDef(word, st, id) {
+    setDef(word, [["hl-def-g", "Looking it up…"]], st, id);
+    window.JPNGloss.lookup(word).then(function (row) {
+      if (row && row.gloss) setDef(word, defParts(row), st, id);
+      else if (row && row.source === "capped") setDef(word, [["hl-def-note", row.notice || "Daily limit reached."]], st, id);
+      else setDef(word, [["hl-def-note", "No definition for that one."]], st, id);
+    }).catch(function () { setDef(word, [["hl-def-note", "Could not reach the dictionary."]], st, id); });
   }
-  function showDefFor(text) {
+  /* Returns true if it is showing a panel, so the caller knows the heavy black
+     pill is not needed. */
+  function showDefFor(text, rect, st, id) {
     var G = window.JPNGloss;
-    if (!G || !G.isHeadword(text)) { hideDef(); return; }
+    defRect = rect;
+    if (!G || !G.isHeadword(text)) { hideDef(); return false; }
     var have = G.cached(text);
-    if (have) { setDef(defParts(have)); return; }
+    if (have) { setDef(text, defParts(have), st, id); return true; }
     if (G.isMissing(text)) {
       /* Not in the dictionary yet, and asking creates the entry, so it stays a
          deliberate tap rather than something a passing tap pays for. */
-      setDef([["hl-def-ask", "Tap for a definition"]]);
-      defBox.onclick = function () { defBox.onclick = null; fetchDef(text); };
-      return;
+      setDef(text, [["hl-def-ask", "Tap for a definition"]], st, id);
+      defBox.onclick = function () { defBox.onclick = null; fetchDef(text, st, id); };
+      return true;
     }
-    fetchDef(text);
+    fetchDef(text, st, id);
+    return true;
   }
 
   function showPill(mode, rect, info) {
@@ -399,10 +427,22 @@
       var id = +m.getAttribute("data-hl"), st = null;
       states.forEach(function (x) { if (x.prose.contains(m)) st = x; });
       if (st) {
-        showPill("remove", m.getBoundingClientRect(), { st: st, id: id });
         var it = null;
         st.items.forEach(function (x) { if (x.id === id) it = x; });
-        if (it) showDefFor(it.text);
+        var rect = m.getBoundingClientRect();
+        /* When we can describe the word, the panel carries its own quiet
+           remove link and the heavy black pill is left out entirely: it
+           dominated the screen when all the reader wanted was the meaning.
+           Anything we cannot define (a whole sentence) still gets the pill. */
+        if (it && showDefFor(it.text, rect, st, id)) {
+          /* Hide the pill itself WITHOUT hidePill(), which would also close
+             the panel we just opened. target still says "remove" so the
+             tap-away handler below still dismisses both. */
+          pill.hidden = true;
+          target = { st: st, id: id, mode: "remove" };
+        } else {
+          showPill("remove", rect, { st: st, id: id });
+        }
       }
     } else if (!pill.contains(e.target) && target && target.mode === "remove" && (!s || s.isCollapsed)) {
       hidePill();
