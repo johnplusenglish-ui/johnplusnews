@@ -41,6 +41,7 @@ TOKEN = secrets.token_urlsafe(16)
 LOCK = threading.Lock()
 STATE = {"preview": None, "tmp": None}
 DRY_RUN = os.environ.get("JPN_DRY_RUN") == "1"
+PHOTOS_ONLY = False   # tools/photos.py turns this on: the separate pictures-only publisher
 MAX_BODY = 90 * 1024 * 1024
 GENERATED = re.compile(r"-[0-9a-f]{6}\.jpg$")  # only pictures made by this program are ever pruned
 GENERATED_AUDIO = re.compile(r"-[0-9a-f]{6}\.m4a$")  # and only recordings made by this program
@@ -365,6 +366,10 @@ def do_pictures(p):
     if len(changes) > 60:
         raise UserError("That is a lot at once. Publish up to 60 articles' pictures at a time.")
     with LOCK:
+        if PHOTOS_ONLY:
+            problem = sync_with_github()
+            if problem:
+                raise UserError(problem + " Nothing was published.")
         # Try the whole batch in a throwaway copy first, so a mistake never touches the real site.
         tmp = Path(tempfile.mkdtemp(prefix="jpn-pic-"))
         try:
@@ -666,10 +671,26 @@ def is_auth_problem(text):
     return any(h in low for h in AUTH_HINTS)
 
 
+def sync_with_github():
+    """Photos-only publisher: bring this separate copy up to date with GitHub before showing or changing pictures.
+    Returns a short problem description, or "" when all is well."""
+    if DRY_RUN:
+        return ""
+    f = run(["git", "fetch", "-q", "origin", "main"])
+    if f.returncode != 0:
+        return "Could not reach GitHub, so this may not show the newest articles."
+    if run(["git", "rev-parse", "HEAD"]).stdout.strip() == run(["git", "rev-parse", "origin/main"]).stdout.strip():
+        return ""
+    m = run(["git", "merge", "-q", "--ff-only", "origin/main"])
+    if m.returncode != 0:
+        return "This copy has changes that clash with the newest version on GitHub. Ask Claude to tidy it up."
+    return ""
+
+
 def git_publish(message):
     if DRY_RUN:
         return {"pushed": False, "note": "Dry run: nothing was committed or sent."}
-    run(["git", "add", "content", "static", "docs", "site.json"])
+    run(["git", "add", "content", "static", "docs", "site.json"] + (["tools/photo_prompts.json"] if PHOTOS_ONLY else []))
     if run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
         c = run(["git", "commit", "-q", "-m", message])
         if c.returncode != 0:
@@ -800,6 +821,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
             return self.send_json({"error": "Not allowed"}, 403)
         url = urllib.parse.urlparse(self.path)
         q = urllib.parse.parse_qs(url.query)
+        if PHOTOS_ONLY and url.path == "/":
+            url = url._replace(path="/pictures")
         if url.path == "/":
             body = PAGE.replace("__TOKEN__", TOKEN).replace("__LEVELS__", json.dumps(build.LEVELS)).replace("__LIVE__", build.SITE["url"]).encode()
             self.send_response(200)
@@ -809,7 +832,10 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self.end_headers()
             return self.wfile.write(body)
         if url.path == "/pictures":
-            body = PICTURES_PAGE.replace("__TOKEN__", TOKEN).replace("__LIVE__", build.SITE["url"]).encode()
+            page = PICTURES_PAGE
+            if PHOTOS_ONLY:   # no link to the article form, and the tag says what this window is
+                page = re.sub(r'<a class="navl" href="/">Articles</a>', "", page).replace('<span class="tag">Publisher</span>', '<span class="tag">Photos</span>')
+            body = page.replace("__TOKEN__", TOKEN).replace("__LIVE__", build.SITE["url"]).encode()
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.send_header("Content-Length", str(len(body)))
@@ -829,12 +855,19 @@ class Handler(http.server.BaseHTTPRequestHandler):
         if not self.api_ok():
             return self.send_json({"error": "Not allowed"}, 403)
         try:
+            if PHOTOS_ONLY and url.path in ("/api/articles", "/api/article"):
+                return self.send_json({"error": "Not found"}, 404)
             if url.path == "/api/articles":
                 return self.send_json({"articles": list_articles()})
             if url.path == "/api/article":
                 return self.send_json(get_article(q.get("slug", [""])[0]))
             if url.path == "/api/pictures":
-                return self.send_json({"pictures": list_pictures(), "kinds": ORIGIN_KINDS, "prompts": photo_prompts()})
+                with LOCK:
+                    note = sync_with_github() if PHOTOS_ONLY else ""
+                    out = {"pictures": list_pictures(), "kinds": ORIGIN_KINDS, "prompts": photo_prompts()}
+                if note:
+                    out["warning"] = note
+                return self.send_json(out)
             if url.path == "/api/check":
                 assets = [a for a in q.get("assets", [""])[0].split(",") if a.startswith("/images/")]
                 return self.send_json(check_live(q.get("path", ["/"])[0], int(q.get("expect", ["200"])[0]), q.get("sha", [""])[0], assets))
@@ -850,6 +883,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
             if length > MAX_BODY:
                 raise UserError("That is too much to send at once. Try a smaller picture.")
             payload = json.loads(self.rfile.read(length) or b"{}")
+            if PHOTOS_ONLY and self.path in ("/api/preview", "/api/publish", "/api/remove"):
+                return self.send_json({"error": "Not found"}, 404)
             if self.path == "/api/preview":
                 return self.send_json(do_preview(payload))
             if self.path == "/api/publish":

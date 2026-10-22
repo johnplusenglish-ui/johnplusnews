@@ -18,6 +18,8 @@ If GitHub does not accept the upload, the page says so. Your article is still sa
 
 ## Change pictures (the Pictures page)
 
+There is also a separate, pictures-only publisher in its own folder, `johnplusnews-photos`. Double-click `Open the photo publisher.command` there (it opens http://127.0.0.1:8775). It has no article form, can run at the same time as the article publisher, brings itself up to date with GitHub whenever you open or publish, and publishes only pictures and photo prompts. Everything below works the same in either window.
+
 In the publisher, press **Pictures** at the top (or open http://127.0.0.1:8765/pictures). Every article is a card.
 
 - Drop a picture onto a card, click it to choose a file, or hover over it and paste (Cmd+V). You can change as many as you like.

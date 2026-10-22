@@ -444,6 +444,7 @@ $("record").addEventListener("click", () => {
 /* ------------------------------------------------------------------ start */
 async function reload() {
   const j = await api("/api/pictures"); PICS = j.pictures; KINDS = j.kinds; PROMPTS = j.prompts || {};
+  if (j.warning) setStatus("warn", j.warning);
   const grid = $("grid"); grid.textContent = ""; cards.clear();
   PICS.forEach(p => grid.appendChild(makeCard(p)));
   applyFilter(); updateBar();
