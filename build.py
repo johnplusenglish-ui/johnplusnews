@@ -43,7 +43,7 @@ SITE = {
 NAV = [("/", "Articles"), ("/about/", "About")]
 LEVELS = ["Core", "Intermediate", "Advanced"]
 LANGUAGE_ON = False  # the useful-language boxes are paused; the lists stay in the article files
-FREE_COUNT = 3  # readers who are not signed in see only this many of the newest articles (when accounts are switched on)
+FREE_COUNT = 3  # unused; site.json "free_articles" decides what readers who are not signed in can open
 FREE_SLUGS = set()
 DEFAULT_LEVEL = "Intermediate"  # the tab a new reader lands on (the first one if an article has no Intermediate)
 
@@ -71,8 +71,10 @@ def read_settings():
     except (OSError, ValueError):
         data = {}
     style = data.get("image_style", "vox")
-    free = data.get("free_articles", "all")        # how many of the newest articles readers who are not signed in can read: a number, or "all" (the default, so a missing line never locks anything)
-    if free != "all":
+    free = data.get("free_articles", "all")        # what readers who are not signed in can read: a list of article slugs, a number (that many of the newest), or "all" (the default, so a missing line never locks anything)
+    if isinstance(free, list):
+        free = [x for x in free if isinstance(x, str) and x] or "all"
+    elif free != "all":
         free = free if isinstance(free, int) and free >= 0 else "all"
     return {"image_style": style if style in IMAGE_STYLES else "vox", "free_articles": free}
 
@@ -639,7 +641,7 @@ FINDER_JS = (
     '(function(){var i=document.getElementById("q");if(!i)return;i.closest(".finder").hidden=false;'
     'var c=[].slice.call(document.querySelectorAll(".gallery .card")),n=document.getElementById("nomatch");'
     'function go(){var t=i.value.toLowerCase().split(/\\s+/).filter(Boolean),k=0;'
-    'c.forEach(function(x){var q=x.getAttribute("data-q")||"",ok=t.every(function(w){return q.indexOf(w)>-1});x.hidden=!ok;if(ok&&(!document.documentElement.classList.contains("jpn-guest")||x.hasAttribute("data-free")))k++});'
+    'c.forEach(function(x){var q=x.getAttribute("data-q")||"",ok=t.every(function(w){return q.indexOf(w)>-1});x.hidden=!ok;if(ok)k++});'
     'if(n)n.hidden=k>0}'
     'i.addEventListener("input",go);go()})();'
 )
@@ -669,6 +671,9 @@ def card(a):
         free=' data-free="1"' if a["slug"] in FREE_SLUGS else "")
 
 
+FREE_TOPIC = {"slug": "free", "label": "Free to read"}   # the /free/ page: the articles readers who are not signed in can open
+
+
 def gallery_page(arts, topics=(), topic=None):
     """The home page (topic is None) or the page for one topic."""
     if arts:
@@ -678,6 +683,10 @@ def gallery_page(arts, topics=(), topic=None):
     heading = esc(topic["label"]) if topic else esc(SITE["tagline"])
     main = ('<section class="banner"><div class="wrap"><h1 class="intro">{}</h1></div></section>\n'
             '<div class="wrap">{}{}</div>\n<script>{}</script>').format(heading, filters_html(topics, topic["slug"] if topic else None), body, FINDER_JS)
+    if topic is FREE_TOPIC:
+        return page("/free/", main, title=topic["label"], current="/", wide=True,
+                    desc="The articles on johnplusnews that anyone can read, with no account needed.",
+                    image=(arts[0]["image"] if arts else "") or None)
     if topic:
         return page("/tags/{}/".format(topic["slug"]), main, title=topic["label"], current="/", wide=True,
                     desc="{} articles for English learners on johnplusnews.".format(topic["label"]),
@@ -1031,7 +1040,13 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
     attach_thumbs(arts, static_dir)
     FREE_SLUGS.clear()
     free = read_settings()["free_articles"]
-    FREE_SLUGS.update(a["slug"] for a in (arts if free == "all" else arts[:free]))
+    if isinstance(free, list):
+        known = {a["slug"] for a in arts}
+        for slug in free:
+            if slug not in known:
+                print("Note: site.json lists a free article that does not exist: {}".format(slug))
+        free = [a for a in arts if a["slug"] in free] or "all"
+    FREE_SLUGS.update(a["slug"] for a in (arts if free == "all" else free if isinstance(free, list) else arts[:free]))
     OUT = out_dir
     if out_dir.exists():
         shutil.rmtree(out_dir)
@@ -1043,6 +1058,7 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
 
     topics = collect_topics(arts)
     write("index.html", gallery_page(arts, topics))
+    write("free/index.html", gallery_page([a for a in arts if a["slug"] in FREE_SLUGS], topics, FREE_TOPIC))
     for t in topics:
         write("tags/{}/index.html".format(t["slug"]), gallery_page(t["arts"], topics, t))
     write("about/index.html", about_page())

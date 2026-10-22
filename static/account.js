@@ -760,21 +760,22 @@
   }
 
   /* ================================================================= the free articles
-     Anyone who is not signed in sees only the newest few articles; the rest are hidden by the page (CSS keys off the jpn-guest class). */
+     Anyone who is not signed in can open only the free articles (listed on /free/); the rest show a members panel instead of the text (CSS keys off the jpn-guest class). */
   function applyGate() {
     document.documentElement.classList.toggle("jpn-guest", !me);
     [].forEach.call(document.querySelectorAll(".gate-note, .lock-panel"), function (n) { n.parentNode.removeChild(n); });
     if (me) return;
     var gallery = document.querySelector(".gallery");
     if (gallery) {
-      var hidden = gallery.querySelectorAll(".card:not([data-free])").length;
-      if (hidden) {
+      var all = gallery.querySelectorAll(".card").length, free = gallery.querySelectorAll(".card[data-free]").length;
+      if (free < all) {
         var note = el("div", "gate-note");
-        var p = el("p"); p.appendChild(el("strong", "", hidden + (hidden === 1 ? " more article is" : " more articles are") + " for members."));
+        var p = el("p"); p.appendChild(el("strong", "", free ? free + " of these " + all + " articles " + (free === 1 ? "is" : "are") + " free to read." : "These articles are for members."));
         p.appendChild(document.createTextNode(" Create a free account to read them all."));
         var b = el("button", "acct-go", "Create a free account"); b.type = "button"; b.addEventListener("click", function () { openDialog("signup"); });
-        note.appendChild(p); note.appendChild(b);
-        gallery.parentNode.insertBefore(note, gallery.nextSibling);
+        var f = el("a", "more", "Read the free articles"); f.href = "/free/";
+        note.appendChild(p); note.appendChild(b); note.appendChild(f);
+        gallery.parentNode.insertBefore(note, gallery);
       }
     }
     var art = document.querySelector("article[data-locked]");
@@ -785,7 +786,7 @@
       q.appendChild(document.createTextNode(" Create a free account to read it, and to save the words you highlight."));
       var go = el("button", "acct-go", "Create a free account"); go.type = "button"; go.addEventListener("click", function () { openDialog("signup"); });
       var si = el("button", "acct-link", "I already have an account"); si.type = "button"; si.addEventListener("click", function () { openDialog("signin"); });
-      var more = el("a", "more", "Read the free articles"); more.href = "/";
+      var more = el("a", "more", "Read the free articles"); more.href = "/free/";
       panel.appendChild(q); panel.appendChild(go); panel.appendChild(si); panel.appendChild(more);
       head.appendChild(panel);
     }

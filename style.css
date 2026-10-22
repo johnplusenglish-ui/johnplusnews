@@ -371,15 +371,18 @@ html.acct-lock { overflow: hidden; }
 @keyframes acct-fade { from { opacity: 0; } to { opacity: 1; } }
 @keyframes acct-rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .acct-back, .acct-dlg { animation: none; } }
-/* readers who are not signed in see only the newest few articles */
-html.jpn-guest .card:not([data-free]) { display: none !important; }
-html.jpn-guest .pager a[data-lock] { visibility: hidden; }
+/* readers who are not signed in can open only the free articles (site.json); the rest carry a Members tag and show a members panel */
+html.jpn-guest .card:not([data-free]) .thumb::after { content: 'Members'; position: absolute; top: 10px; left: 10px; padding: 3px 10px; font-size: 0.8125rem; font-weight: 600; color: var(--ink); background: #fff; border-radius: 999px; }
+html.jpn-guest .card:not([data-free]) .thumb { position: relative; }
 html.jpn-guest article[data-locked] > :not(.article-head),
 html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.lock-panel) { display: none !important; }
 .gate-note, .lock-panel { margin: 26px 0 40px; padding: 22px 24px; border: 1px solid var(--line); border-radius: 14px; background: var(--accent-soft); }
 .gate-note p, .lock-panel p { margin: 0 0 14px; color: var(--text); }
 .gate-note strong, .lock-panel strong { color: var(--ink); }
 .gate-note .acct-go, .lock-panel .acct-go { width: auto; padding: 10px 22px; }
+.gate-note { margin: 0 0 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.gate-note p { flex: 0 0 100%; margin: 0; }
+.gate-note .more { font-size: 0.9375rem; }
 .lock-panel { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
 .lock-panel p { flex: 0 0 100%; margin: 0; }
 .lock-panel .acct-link { font-size: 0.9375rem; padding: 6px 0; }
