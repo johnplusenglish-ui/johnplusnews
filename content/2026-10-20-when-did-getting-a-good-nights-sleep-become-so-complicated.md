@@ -5,7 +5,7 @@ tags: Health, Technology
 source: Journal of Clinical Sleep Medicine | https://doi.org/10.5664/jcsm.6472
 image-plain: images/when-did-getting-a-good-nights-sleep-become-so-complicated-plain-8c4d01.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Your Watch Says You Slept Badly
 summary: You wake up feeling fine. Then your smartwatch gives you a low score and the day starts badly.
@@ -24,7 +24,7 @@ A person may feel tired after a night with a good score, or surprisingly energet
 
 Perhaps the best question in the morning is not 'How did my watch rate me?' It is 'How do I actually feel?' Sleep is necessary for life, not a competition that we have to win every night.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Morning Score That Decides How Tired You Feel
 summary: Trackers estimate sleep from movement and heart rate, but the numbers look more certain than they really are. In 2017, researchers gave that worry a name.
@@ -43,7 +43,7 @@ Neither response necessarily reflects what a clinician would conclude. Healthy t
 
 Perhaps we should treat sleep technology like other health tools: useful when it informs a reasonable decision, unhelpful when it creates endless pressure. Rest should be something we experience, not merely a number we try to improve.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Orthosomnia: What Happens When Rest Becomes a Nightly Performance Review
 summary: Wrist-worn devices infer sleep from indirect signals, yet a number shown to one decimal place carries an authority its methods may not justify. Measurement can alter the thing it measures.

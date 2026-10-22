@@ -6,7 +6,7 @@ tags: Work, Society
 source: Gallup | https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx
 image-plain: images/is-quiet-quitting-really-a-bad-thing-plain-fbb0b0.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Leaving Work on Time Is Not Quitting
 summary: A Gallup report found only 20% of employees worldwide felt engaged at work in 2025. That does not mean everyone else has given up.
@@ -25,7 +25,7 @@ Clear rules help both sides understand what is expected. Some teams discuss busy
 
 Perhaps the real question is what a reasonable working relationship looks like. Employers need reliable people, and workers need time to live. If both sides agree on clear expectations, leaving the office on time should not have to be treated as a problem.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Two Colleagues Leave at Six: Only One Has Finished
 summary: The label covers everything from sensible boundaries to genuine withdrawal, and it travels badly between workplaces. Gallup's engagement figures are not a count of quiet quitters.
@@ -44,7 +44,7 @@ Employers who rely routinely on unpaid overtime may be using workers' goodwill t
 
 The phrase quiet quitting turns a complicated negotiation into an argument about attitude. A more useful discussion might concern fair workloads, realistic expectations and whether employees have any influence over how their jobs are organised. Commitment should not have to mean being permanently on call.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: The Unwritten Contract: Whose Goodwill Keeps the Job Running?
 summary: Bargaining power decides who can set a boundary and who risks punishment for trying. Making the cost of flexibility visible matters more than ruling on whether the attitude is virtuous or lazy.

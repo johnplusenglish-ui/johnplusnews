@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/food/2026/sep/10/people-waite
 image: images/would-you-queue-24-hours-for-a-jacket-potato-a82133.jpg
 image-plain: images/would-you-queue-24-hours-for-a-jacket-potato-plain-4d8558.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Waiting for the Food or the Photo?
 summary: People have waited 24 hours for a jacket potato. Why do some foods become so popular online, and what does it mean for small restaurants?
@@ -23,7 +23,7 @@ But internet fame has a downside. Staff can feel exhausted, local people may fin
 
 There is nothing wrong with enjoying a baked potato, and the brothers have worked hard to make their business successful. Yet their story says something interesting about how we choose where to eat. We often trust what we see online, especially when thousands of other people seem excited. The next time you see a huge queue outside a café, it might be worth asking whether everyone is waiting for the food or for the chance to say they joined the queue.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Would the Potato Be Worth It Without the Camera?
 summary: Jacob and Harley Nelson sell baked potatoes from a converted tram in Preston. Their videos brought the crowds, and the crowds became the attraction.
@@ -40,7 +40,7 @@ There is a psychological element to all this. People are more likely to become i
 
 The Nelson brothers have shown how much a small business can achieve by understanding that world. But their success also reveals its limits. Online attention is unpredictable, and even the most enthusiastic followers eventually drift away. For customers, the more interesting question is whether the potato would still be worth buying without the camera, the famous visitors or the queue. Perhaps the test of a good lunch is whether you would return for more when nobody is filming.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Selling the Anticipation: When a Restaurant's Queue Becomes the Product
 summary: Viral queues can bring fame and pressure to small restaurants. What do 24-hour waits for a baked potato say about social media and food?

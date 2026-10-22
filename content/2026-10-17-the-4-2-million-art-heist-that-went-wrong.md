@@ -6,7 +6,7 @@ source: Associated Press | https://apnews.com/article/france-renoir-art-heist-98
 image: images/the-4-2-million-art-heist-that-went-wrong-4be007.jpg
 image-plain: images/the-4-2-million-art-heist-that-went-wrong-plain-26c6fa.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Thieves Who Left Their DNA Behind
 summary: Thieves broke into Renoir's old home in France and took two paintings. The police found them hidden behind a wall. How?
@@ -23,7 +23,7 @@ Police eventually recovered the two missing Renoirs from a hiding place behind a
 
 The case raised questions about protecting valuable art. Small museums often have fewer security resources than famous galleries, yet they may hold paintings worth millions. There is also the problem of selling stolen masterpieces: buyers know that such works are recognised around the world. The thieves had apparently planned an ambitious crime, but their escape left behind the very clues that helped police find the art.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Hidden Under the Stairs: How Two Renoirs Came Home
 summary: The burglars fled when the alarm sounded, dropping half their haul and a cover carrying DNA. That mistake led police to six arrests.
@@ -40,7 +40,7 @@ The missing paintings were recovered from behind a concealed wall beneath a stai
 
 The investigation reopened an uncomfortable debate about museum security. A small cultural institution can hold works of immense financial and historical value without having the resources of a national gallery. Meanwhile, the criminals face a practical difficulty of their own: famous paintings are extraordinarily difficult to sell openly. In this case, a carefully planned break-in ended with abandoned evidence, suspected preparations for another robbery and two priceless objects hidden in a wall. It was hardly the elegant operation imagined in an art-heist film.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Stolen but Unsellable: The Quiet Vulnerability of Regional Museums
 summary: An alarm, a DNA trace and a hiding place under a staircase: how an ambitious theft of two Renoirs at Cagnes-sur-Mer unravelled.

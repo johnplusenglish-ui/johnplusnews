@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/books/2026/aug/02/could-a-cou
 image: images/have-we-lost-the-ability-to-read-books-a138cd.jpg
 image-plain: images/have-we-lost-the-ability-to-read-books-plain-aafaa4.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Why Is It So Hard to Finish a Book?
 summary: The book is open, the phone makes a sound and twenty minutes disappear.
@@ -21,7 +21,7 @@ In August 2026, the novelist Naomi Alderman described an eight-week plan to help
 
 There are plenty of ways to make reading easier. Choose a book that interests you rather than one you think you should read. Switch your phone off for a while, or listen to an audiobook when travelling. Reading with a friend can also help. Finishing a chapter may not seem like a huge achievement, but regular practice can make it easier to concentrate. A book does not need to compete with everything on your phone. Sometimes it simply needs ten quiet minutes.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Have We Lost the Habit of Reading?
 summary: One message, and the paragraph has to be read again. The wish to read is still there; the uninterrupted half hour is not.
@@ -38,7 +38,7 @@ That approach may be particularly useful for people who have fallen out of the h
 
 The real concern is not that everyone should spend hours reading novels. It is that losing the habit of sustained attention may make longer, more complex writing feel increasingly difficult. Books give us time to follow ideas and characters without constant interruption. Recovering that experience does not require a dramatic lifestyle change. It may start with putting the phone away, opening a book and allowing ourselves to be bored for a few minutes before the story takes over.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: The Books We Buy and the Attention We Cannot Keep
 summary: Reading has not vanished, but the routine that allows sustained attention may be eroding.

@@ -6,7 +6,7 @@ tags: Health, Environment
 source: Journal of Environmental Psychology | https://doi.org/10.1016/j.jenvp.2025.102802
 image-plain: images/can-a-walk-in-nature-really-make-you-happier-plain-eac73e.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: A Walk in the Park Can Lift Your Mood
 summary: Researchers found good evidence that time outside makes people feel calmer. The evidence for memory and concentration was much weaker.
@@ -25,7 +25,7 @@ Nature can be a shared experience too. Walking with a friend gives people time t
 
 Nature is not a cure for every problem, but it may offer a simple opportunity to feel better. Perhaps the next time a day feels difficult, a short walk is worth trying. You do not need to count every step or turn the experience into another task.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Good for Your Mood, Less Sure About Your Memory
 summary: A 2025 review found the strongest results for mood and mixed ones for attention and stress. Access to a decent park is not shared equally.
@@ -44,7 +44,7 @@ Meeting a friend for a walk combines movement, conversation and a change of envi
 
 The reasonable conclusion is neither that nature works miracles nor that its benefits are imaginary. Spending time in green or coastal spaces can support mood, and cities may have good reasons to look after such places. A walk is not a replacement for medical care, but it can be a valuable part of ordinary life.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Mood, Not Miracles: The Uneven Geography of Restorative Space
 summary: The evidence points one way for emotional wellbeing and another for attention and stress. It also exposes a question of planning rather than motivation: whether a safe, pleasant park is within reach at all.

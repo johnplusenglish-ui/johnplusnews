@@ -7,7 +7,7 @@ image: images/why-are-couples-crashing-strangers-weddings-dc1765.jpg
 image-origin: AI-generated
 image-plain: images/why-are-couples-crashing-strangers-weddings-plain-abf85b.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Wedding Guests Nobody Invited
 summary: In South Korea, some couples visit other people's weddings before they book their own. They are checking the lighting, the tables and the car park.
@@ -28,7 +28,7 @@ The story is funny because wedding crashers are usually imagined as people looki
 
 Yet the awkward question stays the same. A wedding is somebody's big day, not a shop window. When is curiosity a good enough reason to walk into it?
 
-=== B2 ===
+=== Intermediate ===
 
 title: A Test Drive at Somebody Else's Wedding
 summary: Prospective customers want to see a hall under real pressure, with guests arriving and staff working. The couple paying for the day never agreed to the inspection.
@@ -49,7 +49,7 @@ Venues could easily reduce the temptation. Supervised visits during real events,
 
 The story is a reminder that consumer pressure can produce unexpected behaviour. When an occasion is marketed as the most important day of someone's life, prospective customers start treating every detail as a financial risk. The real challenge is finding out enough to feel confident without crossing a line and turning another person's celebration into your research project.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Inspection Without Consent: When a Wedding Becomes Market Research
 summary: South Korean couples facing expensive packages and anxious planning are observing strangers' ceremonies to judge a venue properly. An industry that sells a flawless day may have taught them to manage one like a project.

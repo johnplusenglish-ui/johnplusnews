@@ -5,7 +5,7 @@ tags: Technology, Society
 source: Pew Research Center | https://www.pewresearch.org/science/2025/09/17/how-americans-view-ai-and-its-impact-on-people-and-society/
 image-plain: images/would-you-trust-ai-to-make-an-important-life-decision-plain-1ee5f6.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Should a Chatbot Help You Choose a Job?
 summary: AI can set out the good and bad points in seconds. It does not know your family, your feelings, or when it is wrong.
@@ -24,7 +24,7 @@ The same idea works for money and health questions: ask for explanations or a li
 
 Perhaps the best role for AI is not to tell us what to do. It is to help us understand our choices more clearly. The final responsibility still belongs to us, especially when the decision could change our lives.
 
-=== B2 ===
+=== Intermediate ===
 
 title: What Happens if the Advice Turns Out to Be Wrong?
 summary: A poor restaurant suggestion costs you an evening. A mistaken medical or financial choice is far harder to undo, and a chatbot only knows the version of events you typed.
@@ -43,7 +43,7 @@ These uses treat AI as a tool for preparing decisions, not as a substitute for t
 
 The central issue is not whether AI is intelligent enough to have an opinion. It is whether we understand its limitations. A sensible approach may be to ask AI better questions rather than allow it to make our decisions for us.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Fluency Is Not Judgement: The Limits of Automated Advice
 summary: Pew found that roughly two-thirds of its 5,023 respondents would keep AI out of judgements about love. The harder question is not what the technology can analyse, but where responsibility quietly changes hands.

@@ -6,7 +6,7 @@ source: UK Advertising Standards Authority | https://www.asa.org.uk/rulings/euro
 image: images/greenwashing-are-companies-selling-us-a-greener-story-4aca0c.jpg
 image-plain: images/greenwashing-are-companies-selling-us-a-greener-story-plain-17abcf.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Can You Trust That Green Label?
 summary: A bottle looks good for the planet, but what does the label actually prove?
@@ -21,7 +21,7 @@ The European Union has also brought in stronger rules against unclear environmen
 
 For shoppers, the best question is often a simple one: what exactly has improved? If packaging says it is recycled, find out how much recycled material it contains. If a company says it has reduced pollution, ask what figures support the claim. Not every business using green advertising is dishonest, and small improvements are worth making. But a leaf on a label is not proof that a product is good for the planet. Real progress needs more than a nice picture.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Greenwashing: When Eco-Friendly Claims Do Not Add Up
 summary: Shoppers respond to the story an advertisement tells, not to a company's full environmental record. That gap is where the claim does its work.
@@ -38,7 +38,7 @@ However, understanding environmental impact is not always straightforward. A pro
 
 There are practical ways to be more careful. Look for specific figures rather than broad promises, and check whether a claim has been independently verified. Ask whether the advertised improvement concerns the whole product or just one part of it. Companies deserve recognition for genuine progress, but they also need to acknowledge what has not improved. Buying something with a green label should not require an act of faith. If a business makes an environmental promise, it should be able to back it up.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Selling Sustainability: How Greenwashing Wins Our Trust
 summary: Greenwashing succeeds in the gap between what an advertisement suggests and what a company can substantiate.

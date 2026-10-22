@@ -5,7 +5,7 @@ tags: Work, Business
 source: Nature Human Behaviour | https://www.nature.com/articles/s41562-025-02259-6
 image-plain: images/would-you-work-four-days-a-week-for-the-same-salary-plain-384fa8.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: A Free Friday, and the Same Pay
 summary: Nearly 3,000 workers in six countries tried a shorter week. They reported better health, but hospitals, shops and public transport still need staff every day.
@@ -24,7 +24,7 @@ A four-day week does not have to mean the same day off for everybody. Some teams
 
 The four-day week may be possible for many workplaces, especially when they improve how they operate. It is not a magic plan for every job. Still, the research encourages a bigger question: if we can work differently, why should a five-day week always be the normal choice?
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Four-Day Week Only Works if the Work Shrinks
 summary: Across 141 organisations, staff reported less burnout and better health after six months. Care workers, retailers and small businesses may find that timetable much harder to copy.
@@ -43,7 +43,7 @@ On the other hand, businesses operating across seven days may need staggered shi
 
 The study does not prove that every employer can increase productivity while reducing time at work. Nevertheless, it provides substantial evidence that the traditional five-day schedule is not the only practical model. The real question is how companies can distribute work fairly while protecting services, salaries and employees' health.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Who Gets the Fifth Day? The Four-Day Week's Uneven Promise
 summary: The reported gains followed a deliberate reorganisation of tasks and meetings, not goodwill alone. Extend the model beyond willing employers and the questions become staffing costs, precarious contracts and who absorbs the unpaid care.

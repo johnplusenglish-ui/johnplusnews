@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/fashion/2026/mar/09/inside-th
 image: images/why-are-so-many-people-flying-to-turkey-for-new-hair-c879bd.jpg
 image-plain: images/why-are-so-many-people-flying-to-turkey-for-new-hair-plain-1439af.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Bandages You See at Istanbul Airport
 summary: People fly to Turkey because the treatment costs far less. But if a problem appears three weeks later, the clinic is in another country.
@@ -25,7 +25,7 @@ The popularity of transplants is also connected to appearance. Some people feel 
 
 Istanbul's hair-transplant industry shows how beauty, medicine and tourism are becoming connected. The most important question may not be whether people should change their appearance. It may be how they can make up their minds safely, with realistic expectations, and without feeling pushed into it by other people's opinions.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Why the Flight Home Is Not the End
 summary: Istanbul clinics sell the surgery, a hotel and the transfers in one package. The scalp still needs months to heal, and some patients need a second session.
@@ -46,7 +46,7 @@ There is also a social dimension to the boom. Hair loss can affect confidence, a
 
 Turkey's hair-transplant industry sits at the meeting point of personal choice and commercial persuasion. Its popularity does not make the procedure right or wrong for anybody in particular. The challenge is separating a carefully considered medical decision from an impulsive response to advertising or insecurity.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Priced to Compete: When Surgery Is Sold Like a Holiday
 summary: Istanbul's prices have widened access to a treatment that might otherwise stay with the wealthy, yet competition also rewards the best marketing rather than the best surgery. A patient comparing offers from abroad has limited means of telling them apart.

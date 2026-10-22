@@ -6,7 +6,7 @@ source: Ahram Online | https://english.ahram.org.eg/NewsContent/9/40/578928/Anti
 image: images/a-strange-stone-outside-his-home-turned-out-to-be-3000-years-old-7a54d8.jpg
 image-plain: images/a-strange-stone-outside-his-home-turned-out-to-be-3000-years-old-plain-3e89e7.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Stone That Led to a Giant Statue
 summary: A man in a Nile Delta village reported a stone with writing on it. Below it lay two huge statues of Ramesses II.
@@ -23,7 +23,7 @@ Discoveries like this are not simply about beautiful old objects. A broken statu
 
 The man who reported the stone could not have known what was waiting beneath the surface. By getting in touch with the authorities, he helped protect the site for future study. Archaeologists still have plenty of work to do before they can explain where the statues once stood. Sometimes a small discovery opens the door to a much bigger piece of history.
 
-=== B2 ===
+=== Intermediate ===
 
 title: What Archaeologists Lose When a Statue Is Carried Away
 summary: A resident of Bahbit al-Higara could have moved the inscribed stone or sold it. Instead he called the authorities, and a careful excavation began.
@@ -42,7 +42,7 @@ That is why the resident's decision to report the stone was so significant. The 
 
 There is still work to do before researchers can explain precisely where the statues stood and what purpose they served. They will want to compare the fragments with other monuments from the same reign before they draw any firm conclusions. Nevertheless, the find offers a reminder that the ancient world has not disappeared. Sometimes it is still hidden beneath the places where people live and work today.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Not the Statue but the Setting: Why Archaeology Depends on Ordinary Neighbours
 summary: Fragments of two colossal statues of Ramesses II emerged near a sanctuary of Isis because one resident chose to report an inscribed stone rather than remove it. The evidence survives only where the context does.

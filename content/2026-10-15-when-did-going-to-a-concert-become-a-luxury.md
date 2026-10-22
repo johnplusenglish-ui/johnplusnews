@@ -6,7 +6,7 @@ source: The Arizona State Press and LBC | https://www.statepress.com/article/202
 image: images/when-did-going-to-a-concert-become-a-luxury-4371ea.jpg
 image-plain: images/when-did-going-to-a-concert-become-a-luxury-plain-2d54b7.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Why Are Concert Tickets So Expensive?
 summary: Concert tickets cost much more than they used to. Why are prices so high, and who can afford to go?
@@ -21,7 +21,7 @@ There are other problems for fans. Resale websites sometimes show tickets at muc
 
 Some people argue that artists should charge whatever fans are willing to pay. Others believe that live music should not become a luxury only wealthy people can afford. Smaller local concerts can still offer great experiences and better value for money, but seeing a famous artist in a stadium is different. The question is whether rising prices will change who can take part in those shared moments. Music brings people together, but expensive tickets can keep many fans outside the gates.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Queue, the Price and the Disappearing Cheap Seats
 summary: Dynamic pricing, booking fees and standing tickets that vanish in seconds have changed what a night out costs. Who gets left outside?
@@ -38,7 +38,7 @@ Resale websites create additional frustration. Tickets that originally cost a re
 
 Some musicians and promoters have tried to keep prices down, while critics say the industry should be clearer about fees and ticket availability. Others argue that artists have a right to earn as much as the market allows. Meanwhile, small independent venues often struggle despite offering much cheaper live music. Nobody expects a major concert to be free, but there is a difference between paying fairly for an experience and being priced out of it altogether. The more exclusive live music becomes, the less it resembles the shared experience that made it popular in the first place.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: When Did Live Music Become a Luxury?
 summary: Tickets to see the biggest artists now cost hundreds of pounds. Why have prices climbed so far, and who is being priced out?

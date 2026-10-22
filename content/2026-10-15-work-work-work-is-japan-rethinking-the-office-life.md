@@ -6,7 +6,7 @@ source: Japan Ministry of Health, Labour and Welfare | https://www.mhlw.go.jp/st
 image: images/work-work-work-is-japan-rethinking-the-office-life-9afa89.jpg
 image-plain: images/work-work-work-is-japan-rethinking-the-office-life-plain-42436d.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Finished Your Work, but Can You Go Home?
 summary: The work is done and the manager is still at the desk. Leaving can feel harder than it should.
@@ -23,7 +23,7 @@ Not every worker wants the same arrangement. In a labour ministry survey reporte
 
 The difficulty is finding a balance between what businesses need and what people can reasonably give. A shorter working day is not automatically a happier one, especially if employees must complete the same amount of work under more pressure. But long hours are not proof of commitment either. Japan's debate asks a question that matters in every country: should success at work be measured by the hours people spend at their desks, or by the quality of what they do?
 
-=== B2 ===
+=== Intermediate ===
 
 title: Why Some Japanese Workers Still Cannot Leave on Time
 summary: The tasks are finished and the train is due, but the manager has not moved. Legal limits on overtime cannot easily change what a room expects.
@@ -40,7 +40,7 @@ Japan's changing social habits offer another clue. Traditional after-work drinki
 
 The challenge is that Japan cannot solve its labour shortage simply by telling people to work harder. Greater productivity, better technology and workplaces that attract people who might otherwise drop out of the labour market all have a role. Ultimately, the most meaningful change may be cultural: creating offices where leaving on time is normal rather than something an employee feels compelled to explain.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Japan's Office Dilemma: When Loyalty Looks Like Overtime
 summary: A shrinking workforce is testing reforms designed to separate professional commitment from physical presence.

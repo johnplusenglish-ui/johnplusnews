@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/society/2026/oct/07/gene-ther
 image: images/can-scientists-give-blind-people-their-sight-back-df5f8e.jpg
 image-plain: images/can-scientists-give-blind-people-their-sight-back-plain-4dc2b5.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Goggles That Help Blind People Find a Door
 summary: A new treatment uses gene therapy and special goggles to help some blind people see more. It is not a cure, but it is a step forward.
@@ -23,7 +23,7 @@ The trial mainly tested whether the treatment was safe. One serious eye-related 
 
 Even small improvements can matter in daily life. Finding an object independently or moving around a room with greater confidence may seem ordinary to someone with good vision, but it can be significant for somebody with severe sight loss. Scientists hope the approach will become more effective in the future. For now, it is an early medical step, not a cure for blindness, and the next challenge is to turn a promising experiment into help that more people can actually use.
 
-=== B2 ===
+=== Intermediate ===
 
 title: A Virus, Some Goggles and a Glimpse of Light
 summary: Ten patients with advanced retinitis pigmentosa took part in the trial. Six showed a meaningful gain, though none of them could recognise a face.
@@ -40,7 +40,7 @@ Safety was the main purpose of the trial. Researchers recorded eye-related side 
 
 Nevertheless, the research represents a meaningful step forward. Rather than depending on the exact genetic cause of the disease, the method targets nerve cells that may survive several different forms of retinal damage. Further work will be needed to improve the images, test more patients and narrow down who might benefit most. For people who have lost their sight, the prospect of detecting an object or moving more confidently through a familiar room offers hope. The challenge is to turn those early gains into reliable improvements in everyday life.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Light Without Faces: The Limits of a Vision Breakthrough
 summary: A small trial of gene therapy and electronic goggles has given some blind patients partial sight. What does it show, and what does it leave unproven?

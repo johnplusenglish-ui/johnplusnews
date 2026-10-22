@@ -5,7 +5,7 @@ tags: Education, Society
 image: images/learning-to-read-at-42-a-second-chance-at-life-97b848.jpg
 image-plain: images/learning-to-read-at-42-a-second-chance-at-life-plain-15bbe3.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Man Who Learnt to Read at 42
 summary: Peter Lloyd could drive a lorry across Britain, but he could not read a food label. At 42, he finally asked for help.
@@ -20,7 +20,7 @@ Peter started meeting a volunteer coach called Alison twice a week. They worked 
 
 Today, Peter can read recipes and share books with his son. He also talks publicly about his experience to encourage other adults to seek help. Many people struggle with reading, even if they have jobs and families. Some are afraid that others will judge them. Peter's story shows why that fear can be so damaging. Learning to read has not changed his past, but it has opened up a very different future.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Hiding It for Thirty Years, Then Asking for Help
 summary: Peter Lloyd built a career and raised a family while hiding the fact that he could not read. A supermarket shelf finally changed that.
@@ -37,7 +37,7 @@ Three years later, he reached the final page. What mattered was not only the ach
 
 Low literacy does not mean a lack of intelligence, yet shame can stop adults from seeking support for years. Peter's experience reveals how easily reading difficulties can remain hidden in a society built around written information. He hopes to earn an English GCSE and eventually help others. A trip to the supermarket exposed a problem he had spent decades concealing. It also gave him the reason to change his life.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: The Man Who Couldn't Read: Why It's Never Too Late to Start Again
 summary: For more than four decades, Peter Lloyd navigated a world of written instructions, road signs and official documents without being able to read. His remarkable journey towards literacy offers a powerful reminder of how easily adults can fall through the cracks of the education system.

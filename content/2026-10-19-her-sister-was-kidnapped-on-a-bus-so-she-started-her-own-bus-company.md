@@ -7,7 +7,7 @@ source: BBC World Service, Outlook programme | https://wspartners.bbc.com/schedu
 image: images/her-sister-was-kidnapped-on-a-bus-so-she-started-her-own-bus-company-f8a69f.jpg
 image-plain: images/her-sister-was-kidnapped-on-a-bus-so-she-started-her-own-bus-company-plain-d385c6.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: A Safer Way to Get to Work
 summary: Damilola Olokesusi started Shuttlers in Lagos in 2015. Passengers book a seat on a planned route instead of waiting at the roadside.
@@ -24,7 +24,7 @@ Over time, the company grew and began serving organisations as well as individua
 
 The story is not about a single person magically making a whole city safe. It is about noticing a serious problem and trying to build a practical answer to it. A frightening experience did not have a happy ending in itself, but it helped inspire a service designed to make other people's journeys better.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Business of Making a Journey Ordinary
 summary: Shuttlers needed drivers, vehicles and finance, but trust was the hardest part. It had to be earned one journey at a time.
@@ -41,7 +41,7 @@ A successful shared transport service can potentially improve safety and cut dow
 
 What makes Damilola's story compelling is the link between personal experience and practical problem-solving. People often talk about the need for safer cities in general terms, and the conversation tends to stop there. She and her colleagues set about building one specific alternative instead, showing how frustration with an everyday system can turn into the beginning of a business. That shift, from complaining about a service to running an alternative, is what makes the story worth telling.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Reliability Is Not an App: What Shuttlers Had to Build in Lagos
 summary: Damilola Olokesusi turned her family's frightening encounter with criminals posing as transport operators into a scheduled bus service. The harder question is what becomes of the commuters a commercial model cannot profitably reach.

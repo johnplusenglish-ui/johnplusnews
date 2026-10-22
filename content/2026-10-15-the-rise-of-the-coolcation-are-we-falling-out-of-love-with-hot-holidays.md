@@ -6,7 +6,7 @@ source: BBC News | https://www.bbc.co.uk/news/articles/c74gp1024lpo
 image: images/the-rise-of-the-coolcation-are-we-falling-out-of-love-with-hot-holidays-a06056.jpg
 image-plain: images/the-rise-of-the-coolcation-are-we-falling-out-of-love-with-hot-holidays-plain-d220e1.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Too Hot for a Beach Holiday?
 summary: Some travellers are swapping hot beaches for cool air, rain and a good night's sleep.
@@ -23,7 +23,7 @@ Cooler destinations also have their own problems. Norway's Lofoten Islands, for 
 
 Perhaps the biggest change will be when people travel, rather than where. A family might still choose Greece, but visit in May or October instead of August. Others might spend summer in the mountains or by a northern lake. Sunshine will always be part of the holiday dream for many people. But as summers grow hotter, a little rain and a comfortable night's sleep are starting to sound surprisingly attractive.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Holidaymakers Heading North
 summary: Shutters closed, streets empty and sightseeing postponed until sunset. After a run of punishing summers, some travellers are booking north instead.
@@ -40,7 +40,7 @@ Nor is heading north a perfect solution. In Norway's Lofoten Islands, growing vi
 
 A more lasting change may be a shift in the holiday calendar. People who love Spain or Italy might still visit, but choose spring or autumn instead of the height of summer. Others may discover that their happiest holiday involves a mountain path rather than a sunlounger. The appetite for sunshine has hardly disappeared. But when a holiday starts to feel more like hard work than a break, it's understandable that a grey sky can suddenly look rather inviting.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: When Sunshine Stops Feeling Like a Holiday
 summary: The coolcation may be an awkward label, but it captures a serious change in how travellers think about summer.

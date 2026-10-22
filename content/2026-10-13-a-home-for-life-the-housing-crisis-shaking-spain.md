@@ -11,7 +11,7 @@ image-licence-url: https://creativecommons.org/licenses/by-sa/4.0/
 image-credit-note: via Wikimedia Commons, resized and cropped
 image-plain: images/a-home-for-life-the-housing-crisis-shaking-spain-plain-1545b7.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Woman Who Lost Her Home After 70 Years
 summary: A woman in Madrid lost the flat where she had lived for more than 70 years. Her story has led to protests about housing across Spain.
@@ -26,7 +26,7 @@ Across Spain, many people struggle with high rents and the price of buying a hom
 
 There are different views about the best solution. Housing groups want stronger protection for tenants and more affordable homes. Property owners argue that they also have rights and that Spain needs to build more housing. Maricarmen's story has become a symbol because it shows what these arguments can mean for one person. Behind every discussion about rents and laws, there is someone who simply wants a secure place to live.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Seventy Years in One Flat, Then an Eviction Notice
 summary: Maricarmen Abascal was forced out of her Madrid home at 87. Her case has turned private worry about housing into public protest.
@@ -43,7 +43,7 @@ The argument over who is responsible quickly becomes political. Campaigners crit
 
 Maricarmen's death prompted further demonstrations, with supporters demanding changes in the law. Her story should not be reduced to a slogan: she was a person with a long life, a family and a home she wanted to keep. But the public response illustrates why housing debates have become so emotional. For those worried about losing their home, the issue is not an investment or an economic statistic. It is whether the place they belong can suddenly become somewhere they can no longer afford to stay.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Priced Out: How One Woman's Eviction Exposed Spain's Housing Crisis
 summary: The death of an 87-year-old pensioner, just two weeks after being forced from her lifelong home, has become a rallying cry for a generation increasingly priced out of the housing market.

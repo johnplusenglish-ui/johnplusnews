@@ -5,7 +5,7 @@ tags: Lifestyle, Society
 source: Forbes | https://www.forbes.com/sites/cherylrobinson/2026/05/30/before-turning-a-hobby-into-a-business-ask-yourself-these-4-questions/
 image-plain: images/when-did-we-start-taking-our-hobbies-so-seriously-plain-7a1875.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: When a Hobby Starts to Feel Like Work
 summary: You start running for the fresh air. A few weeks later you have a watch, training tips and a race to enter.
@@ -24,7 +24,7 @@ Sometimes learning a new skill is fun because progress is clear. Sometimes repea
 
 Perhaps the most useful question is not 'How can I get better at this?' or 'Could this make money?' It is 'Am I still enjoying myself?' A hobby does not need a medal, an audience or a business plan to be worth doing.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Kind Compliment That Turns a Pleasure into a Job
 summary: Apps count our free time and friends suggest an online shop. A 2026 Forbes article weighed up what happens when an interest becomes an income.
@@ -43,7 +43,7 @@ The same principle applies to creative interests. Someone might enjoy learning d
 
 Perhaps the healthiest attitude is to decide what you want from each activity. Sometimes competition is exciting and progress matters. At other times, the pleasure comes from being free to do something imperfectly, without needing to explain its value to anyone else.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: The Productive Pastime: When Leisure Starts Sounding Like a Performance Review
 summary: Monetising an interest can be an opportunity or an obligation, and advice to resist it quietly assumes a secure income. The real question is whether the ambition was chosen or imposed.

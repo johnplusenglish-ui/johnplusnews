@@ -6,7 +6,7 @@ source: Europa Press | https://www.europapress.es/andalucia/sevilla-00357/notici
 image: images/would-you-pay-9000-to-stand-on-a-balcony-2ab73b.jpg
 image-plain: images/would-you-pay-9000-to-stand-on-a-balcony-plain-230bb6.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Best View in Seville Is Not Free
 summary: During Holy Week, some people rent a balcony above the route. The streets are free, but you wait three hours behind a wall of people.
@@ -27,7 +27,7 @@ Of course, people can still watch many processions from the public streets witho
 
 So the story raises an interesting question. Should the best seats in the house at a shared tradition always go to the person who can pay the most?
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Money Goes to Whoever Owns the Right Street
 summary: Central balconies averaged around €6,000 for the week in March 2026. The families who carry the images through the city are not the ones collecting the rent.
@@ -48,7 +48,7 @@ It is also worth remembering who the money reaches. Balcony rentals benefit the 
 
 The disagreement is familiar in tourist cities everywhere. When visitors are willing to spend far more than residents, access to the most convenient spaces becomes unequal, and the best of anything drifts out of reach of the people who live there year on year. Seville's expensive balconies ask where to draw the line between making money from culture and making culture less welcoming to the people who sustain it.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Scarcity, Not Quality: What Seville's Balcony Prices Actually Measure
 summary: The view has not improved; the number of people competing for it has. A balcony let to visitors is one a family no longer watches from, and habits are fragile when the places that housed them change hands each spring.

@@ -6,7 +6,7 @@ source: Semafor | https://www.semafor.com/article/05/22/2026/saudis-neom-halts-w
 image: images/the-170-kilometre-city-that-may-never-be-finished-3b2246.jpg
 image-plain: images/the-170-kilometre-city-that-may-never-be-finished-plain-0c612a.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The City Built in a Straight Line
 summary: Saudi Arabia planned a city 170 kilometres long. In May 2026, a report said the main work had been put off until after 2030.
@@ -23,7 +23,7 @@ In May 2026, Semafor reported that major work on The Line had been put off until
 
 The story is about more than one country or one expensive project. It asks what should happen when an exciting idea turns out to be too costly or too complicated. Costs can also go up while the work goes on, so a plan that looked affordable at the start may become impossible later. Is it better to make a dream smaller, or to keep trying to build something nobody has ever built before?
 
-=== B2 ===
+=== Intermediate ===
 
 title: When the Pictures Are Easier Than the Building
 summary: The Line promised mirrored walls, rapid transport and homes within easy reach. Semafor reported in May 2026 that further work would wait until after 2030.
@@ -40,7 +40,7 @@ Large projects often change as costs rise and governments face competing demands
 
 The Line is a particularly dramatic example of a familiar dilemma. An impressive design can persuade people that the future is already visible and more or less paid for. Construction forces them to confront far less glamorous questions: how much will it cost, who will live there, and what happens if the financial plan no longer adds up?
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Renderings and Reality: The Slow Deferral of a Linear City
 summary: A postponement is not a cancellation. But a scheme deferred by a decade re-emerges into a world whose costs, technologies and political priorities have all moved on.

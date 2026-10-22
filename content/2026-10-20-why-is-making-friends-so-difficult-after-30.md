@@ -5,7 +5,7 @@ tags: Relationships, Society
 source: World Health Organization | https://www.who.int/groups/commission-on-social-connection
 image-plain: images/why-is-making-friends-so-difficult-after-30-plain-2cb5a4.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Why a Simple Coffee Takes Two Free Weekends
 summary: At school you see the same people every day. In 2025, the World Health Organization reported that about one in six people worldwide felt lonely.
@@ -24,7 +24,7 @@ They involve listening, helping and finding time to meet when possible. Sometime
 
 Perhaps we should treat friendship as something worth planning for, not just something that happens by accident. Sending a message, suggesting a simple walk or accepting an invitation can be a small beginning. A strong social life does not always need a large number of friends. Sometimes one dependable person matters more than dozens of contacts online.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Loneliness Is Not a Problem That Starts at 30
 summary: The World Health Organization's 2025 report put the figure at one in six, with adolescents and younger adults reporting it most. Adult friendship has to be arranged rather than assumed.
@@ -43,7 +43,7 @@ Relationships also change without necessarily ending badly. Two friends may drif
 
 Perhaps we should stop treating adult friendship as an optional extra. Relationships require attention in much the same way that careers and physical health do. A brief message or regular coffee can help maintain a bond, but creating communities where people have time to connect may be just as important.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Friendship as Infrastructure: Why Connection Stopped Happening by Accident
 summary: School supplied repeated contact for free, while adulthood requires you to schedule it. WHO figures put loneliness highest among adolescents and young adults, which undercuts the story that the trouble begins at 30.

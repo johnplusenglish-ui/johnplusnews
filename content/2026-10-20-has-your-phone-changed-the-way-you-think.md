@@ -7,7 +7,7 @@ source: Computers in Human Behavior | https://doi.org/10.1016/j.chb.2026.108926
 image: images/has-your-phone-changed-the-way-you-think-34fe63.jpg
 image-plain: images/has-your-phone-changed-the-way-you-think-plain-0fac14.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Seven Seconds to Lose Your Place
 summary: In a 2026 study, phone alerts slowed people's thinking for about seven seconds. Most of us get dozens of alerts every day.
@@ -26,7 +26,7 @@ We can also explain to friends that we may not reply immediately. Of course, thi
 
 Still, we can choose when we want to be available. Turning off unnecessary alerts or putting the phone in another room may make reading or studying easier. The goal is not to live without technology. It is to decide when we want technology to have our attention.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Alert You Did Not Open Still Cost You
 summary: The slowdown depended on how relevant the message seemed and how often people usually checked their phones. Switching off alerts is a social negotiation as well as a setting.
@@ -45,7 +45,7 @@ Individuals can also separate essential alerts from promotional ones, schedule p
 
 Simple changes can create more control: limiting non-essential notifications, keeping phones out of sight during demanding activities or agreeing on times to respond to messages. Rather than asking whether phones are good or bad, perhaps we should ask who is choosing when our attention changes direction.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Entitled to Your Attention: What a Seven-Second Delay Reveals
 summary: The experiment identified short-lived slowdowns under particular conditions, not permanent cognitive decline. The harder question is whether workplaces and friendships have quietly made our attention permanently available.

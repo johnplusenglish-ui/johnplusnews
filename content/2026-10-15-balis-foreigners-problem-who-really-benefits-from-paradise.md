@@ -6,7 +6,7 @@ source: Channel NewsAsia | https://www.channelnewsasia.com/asia/indonesia-bali-c
 image: images/balis-foreigners-problem-who-really-benefits-from-paradise-f11bfb.jpg
 image-plain: images/balis-foreigners-problem-who-really-benefits-from-paradise-plain-566ba3.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Who Benefits from Bali's Tourism Boom?
 summary: Tourists and remote workers bring money, but they also change housing, business and everyday life.
@@ -23,7 +23,7 @@ The situation is not as simple as locals against foreigners. Some international 
 
 Bali faces a difficult choice. Tourism brings in money and opportunities, but it can also change the places people love. The island is not just a beautiful background for holiday videos. It is home to communities with their own traditions, jobs and everyday problems. Visitors may be welcome, but being welcomed does not mean they can ignore the people who live there.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Bali's Tourism Boom: Paradise for Whom?
 summary: Bali looks frictionless online: private pools, laptop cafés and a beach after work. From a neighbourhood facing rising land values, the same success looks different.
@@ -40,7 +40,7 @@ There is also a cultural dimension. Bali's Hindu traditions are central to daily
 
 What Bali needs may be less a choice between welcoming foreigners and keeping them out than a clearer set of expectations. Visitors should understand the laws and traditions of the place they enter, while officials need rules that distinguish an ordinary travel video from paid commercial activity. The island's future cannot be judged solely by how attractive it looks on Instagram. A successful destination should also be a place where the people who live there can afford a home, run a business and feel respected.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Bali Beyond the Hashtags: Who Shapes the Island's Future?
 summary: Bali's challenge is not foreigners versus locals, but whether international success leaves residents with control of their communities.

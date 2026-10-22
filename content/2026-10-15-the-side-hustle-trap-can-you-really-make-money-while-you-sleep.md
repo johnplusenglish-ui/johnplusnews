@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/business/ng-interactive/2026/
 image: images/the-side-hustle-trap-can-you-really-make-money-while-you-sleep-c985cc.jpg
 image-plain: images/the-side-hustle-trap-can-you-really-make-money-while-you-sleep-plain-d963f3.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Can You Really Make Money While You Sleep?
 summary: A laptop and a few spare hours sound like enough. The first customer may be much harder to find.
@@ -23,7 +23,7 @@ Affiliate marketing is another popular option. People earn a small payment when 
 
 None of this means side hustles are a bad idea. They can build confidence, teach business skills and sometimes turn into full-time work. Before starting, ask yourself: Who will buy what I'm selling? How much will it cost? What will I actually earn after expenses? Making money online is possible. Doing it without working hard is much less likely.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Side-Hustle Trap: What the Videos Leave Out
 summary: The video opens with coffee and a payment notification. It rarely shows the months of unpaid work, or the thousands of people selling the same thing.
@@ -40,7 +40,7 @@ Perhaps the most awkward question concerns the influencers themselves. If a part
 
 It would be a mistake to dismiss side hustles altogether. They can provide flexibility, teach commercial skills and give people more control over their income. But a healthy dose of scepticism is useful when an opportunity promises big returns for little work. Before paying for software or a training course, calculate the likely costs, research your competitors and work out where your customers would come from. Financial independence may begin with a good idea, but it rarely begins with doing nothing.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: The Side-Hustle Sales Pitch and the Work Outside the Frame
 summary: Low barriers to entry make online business accessible, and make profitable attention difficult to win.

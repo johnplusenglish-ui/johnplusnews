@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/business/2026/oct/04/retailer
 image: images/the-hidden-cost-of-free-returns-who-really-pays-16d44c.jpg
 image-plain: images/the-hidden-cost-of-free-returns-who-really-pays-plain-626186.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: What Happens to the Clothes You Send Back?
 summary: The return costs you nothing. The parcel's journey has only just begun.
@@ -23,7 +23,7 @@ Customers also have legal rights. In the UK, people buying most goods online usu
 
 Better size guides, accurate photos and helpful reviews could prevent some unnecessary returns. Shoppers can help by checking sizes carefully instead of ordering several versions automatically. Free returns are convenient, but they are not truly free. The question is who should cover the cost without making online shopping unfair or too expensive.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Returned Jacket Nobody Wants
 summary: The label prints in seconds and the parcel leaves your life. Inside the retailer's warehouse, somebody still has to decide what that jacket is now worth.
@@ -40,7 +40,7 @@ There is also a legal difference between returning something because you have ch
 
 The more useful solution may begin before the customer clicks Buy. Accurate measurements, photographs showing clothes on different body types and more dependable product descriptions could prevent unnecessary orders. Customers, meanwhile, can avoid ordering a pile of items with little intention of keeping them. Easy returns remain an important part of online shopping, but pretending they cost nothing helps nobody understand the trade-offs involved.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Free Returns and the Journey Backwards
 summary: The convenience of a home fitting room depends on a costly system moving unwanted goods in reverse.

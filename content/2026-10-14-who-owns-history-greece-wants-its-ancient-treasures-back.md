@@ -5,7 +5,7 @@ tags: Culture, History
 image: images/who-owns-history-greece-wants-its-ancient-treasures-back-0c78d2.jpg
 image-plain: images/who-owns-history-greece-wants-its-ancient-treasures-back-plain-481f76.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Should Britain Return Greece's Ancient Sculptures?
 summary: Greece wants the Parthenon sculptures in the British Museum to come home. Who do they really belong to?
@@ -20,7 +20,7 @@ The British Museum takes a different view. It argues that the sculptures were ac
 
 This argument is bigger than one museum. Collections around the world contain important objects from countries that were once ruled by foreign powers. Some people believe those objects should return to the places where they were made. Others think large international museums allow more people to see them. The difficulty is deciding what is fair today when the objects changed hands so long ago. Whatever happens, the debate asks an important question: who has the right to tell a country's history?
 
-=== B2 ===
+=== Intermediate ===
 
 title: Two Hundred Years Away from Home
 summary: The Parthenon sculptures have been in London since the 1800s. Greece says it is time they went back, and Britain is still deciding.
@@ -37,7 +37,7 @@ Discussions have dragged on for years and have included proposals for a partners
 
 The dispute reflects a much wider question facing major museums. Many collections include objects acquired during wars, colonial rule or periods when local people had little political power. Returning them may help put right historic injustices, while international museums argue that their collections have educational value. There is no solution that satisfies everyone. But the Parthenon debate has made one thing clear: the stories museums tell are shaped not only by what they display but also by who gets to decide where those objects belong.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Who Owns the Past? The Continuing Battle for the Parthenon Marbles
 summary: Two centuries after ancient Greek sculptures were removed from Athens and taken to Britain, the dispute over their ownership remains unresolved. Now, Greece's prime minister has promised to intensify his campaign for their return, raising fundamental questions about cultural heritage, historical justice and the responsibilities of museums.

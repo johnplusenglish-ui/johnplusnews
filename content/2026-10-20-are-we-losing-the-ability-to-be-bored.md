@@ -7,7 +7,7 @@ source: Communications Psychology | https://www.nature.com/articles/s44271-024-0
 image: images/are-we-losing-the-ability-to-be-bored-da847f.jpg
 image-plain: images/are-we-losing-the-ability-to-be-bored-plain-9b2620.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: What Happens in Five Minutes Without Your Phone?
 summary: There is always a video to watch while you wait. Yet researchers have discussed evidence that people may be feeling more bored, not less.
@@ -26,7 +26,7 @@ The key is understanding why a moment feels empty. Are we tired, lonely or simpl
 
 Next time you have five empty minutes, you could try putting your phone away. You might feel uncomfortable at first. Or you might notice something interesting. Either way, being bored for a moment is not necessarily a problem that needs an immediate solution.
 
-=== B2 ===
+=== Intermediate ===
 
 title: When Every Pause Is Filled Before You Notice It
 summary: Katy Tam and Michael Inzlicht argue that digital media may sometimes deepen boredom rather than relieve it. Their article interprets existing research; it proves no single cause.
@@ -45,7 +45,7 @@ The researchers' hypothesis therefore should not become a rule that everybody ne
 
 Perhaps the interesting experiment is not deleting every app but noticing our habits. If every pause is immediately filled, we may never discover whether we need entertainment, connection, rest or a new challenge. Sometimes the ability to tolerate a little boredom gives us room to make that choice.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: The Cure That Feeds the Complaint: Boredom in an Age of Abundance
 summary: Tam and Inzlicht's 2024 perspective suggests that constant novelty makes unstimulating moments harder to tolerate. Counting screen hours misses the point, since what matters is whether the switching corresponds to anything we actually wanted.

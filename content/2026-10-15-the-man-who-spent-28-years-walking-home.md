@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/oct/13/karl
 image: images/the-man-who-spent-28-years-walking-home-1ffaab.jpg
 image-plain: images/the-man-who-spent-28-years-walking-home-plain-2e72ee.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Longest Walk Home
 summary: In 1998, Karl Bushby left Chile to walk home to Hull. After almost 28 years, he is nearly there.
@@ -21,7 +21,7 @@ Money, closed borders and the pandemic all held up Karl's progress. In 2024, he 
 
 The adventure has been exciting, but it has also cost him a great deal. Karl has missed years with his family, including much of his son's childhood. He has also depended on the kindness of strangers for food, shelter and help. These experiences have made him more positive about people. After nearly three decades on the road, one question remains. When he finally arrives home, how will he get used to ordinary life again?
 
-=== B2 ===
+=== Intermediate ===
 
 title: Twenty-Eight Years, One Journey Home
 summary: Karl Bushby left the bottom of Chile in 1998 and refused to take a lift. He is now a few hundred kilometres from his own front door.
@@ -38,7 +38,7 @@ On 5 October 2026, Bushby landed near Dover after swimming across the English Ch
 
 The journey has come at a personal cost. Bushby missed much of his son's childhood, important family occasions and the ordinary routines that shape most people's lives. At the same time, he says that the generosity of strangers has changed his view of humanity. People with very little often offered him food or somewhere to sleep. Soon the mission that has organised almost all his adult life will be complete. Reaching home will be an achievement. Discovering what comes next may be the bigger adjustment.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Twenty-Eight Years on the Road: The Man Still Walking Home
 summary: After almost three decades on foot, Karl Bushby is finally close to home. But what does a man do when the journey that defined his life comes to an end?

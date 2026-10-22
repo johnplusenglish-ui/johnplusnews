@@ -5,7 +5,7 @@ tags: Relationships, Lifestyle
 image: images/why-dont-we-invite-friends-over-any-more-ebb963.jpg
 image-plain: images/why-dont-we-invite-friends-over-any-more-plain-b64ce6.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Why Don't We Invite Friends In?
 summary: We want to see our friends, but the laundry, the cooking and the cleaning can stop us asking.
@@ -20,7 +20,7 @@ But there are good reasons to spend time together at home. A quiet evening on th
 
 Perhaps we need to change what we expect from being a good host. It is fine to buy pizza instead of cooking. Nobody is expecting a restaurant meal. Guests can help make the tea, and there is no need to tidy away every sign of normal life. If we wait until our homes and schedules are perfect, we may never invite anyone. Most friends would probably prefer an untidy kitchen and good company to a beautifully arranged table with nobody sitting around it.
 
-=== B2 ===
+=== Intermediate ===
 
 title: When Did Having Friends Over Become Such a Big Event?
 summary: The message goes unsent because the flat is untidy and dinner would be a takeaway. Somewhere along the way, the standard for having people round quietly rose.
@@ -37,7 +37,7 @@ Of course, choosing a quiet evening at home is not necessarily a problem. People
 
 Perhaps the answer is to lower our standards rather than abandon hosting. Ask friends to bring a dish, order a takeaway or simply offer tea and biscuits. Tell them the house is a mess and invite them anyway. The most memorable evenings are not always the ones with the best food or the cleanest furniture. Often they are the evenings when people feel comfortable enough to stay for one more conversation.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Hospitality or Performance? Why We Stopped Inviting People In
 summary: Domestic perfection has turned an ordinary act of friendship into a test many people would rather avoid.

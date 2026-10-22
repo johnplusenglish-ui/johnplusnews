@@ -503,8 +503,8 @@
     if (titles) return Promise.resolve(titles);
     return fetch("/articles.json").then(function (r) { return r.json(); }).then(function (j) { titles = j; return j; }).catch(function () { titles = {}; return titles; });
   }
-  var LV_OLD = { core: "B1", intermediate: "B2", advanced: "C1-C2" };
-  function lvName(v) { if (!v || v === "single") return ""; var k = String(v).toLowerCase(); return LV_OLD[k] || v.toUpperCase(); }
+  var LV_OLD = { b1: "Core", b2: "Intermediate", "c1-c2": "Advanced" };  // levels saved while the CEFR names were live
+  function lvName(v) { if (!v || v === "single") return ""; var k = String(v).toLowerCase(); return LV_OLD[k] || k.charAt(0).toUpperCase() + k.slice(1); }
   function titleOf(slug) {
     if (titles && titles[slug]) return titles[slug].title;
     return slug.replace(/-/g, " ").replace(/^./, function (c) { return c.toUpperCase(); });

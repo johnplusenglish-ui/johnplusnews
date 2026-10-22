@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/news/ng-interactive/2026/oct/
 image: images/i-was-held-hostage-for-977-days-then-my-captor-messaged-me-on-facebook-9a52c3.jpg
 image-plain: images/i-was-held-hostage-for-977-days-then-my-captor-messaged-me-on-facebook-plain-4bc101.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Guard Who Sent a Friendly Message
 summary: Michael Scott Moore was a hostage of Somali pirates for 977 days. Two months after he was freed, one of his guards sent him a friendly message. What happened next?
@@ -23,7 +23,7 @@ The case became more complicated during the trial. Evidence showed that Tahlil h
 
 Moore has written openly about the difficult question of forgiveness. During captivity, trying not to hate his guards helped him survive. But forgiving someone does not mean pretending that their actions were acceptable. He still wanted justice, even when he felt uncomfortable about harsh punishment. His story shows how complicated recovery can be: a person may want answers, peace and accountability at the same time.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Guard Who Wanted to Come to America
 summary: Michael Scott Moore went on replying to his former guard, then told the FBI. Federal agents were waiting when Mohamed Tahlil arrived in New York.
@@ -40,7 +40,7 @@ Both men were convicted in 2023 of serious crimes connected with the kidnapping 
 
 The experience raises an uncomfortable distinction. Forgiving someone does not require forgetting what they did or protecting them from the consequences. For Moore, trying to let go of hatred had helped him survive long before the trials began. Justice was a public process involving judges and evidence; recovery was far more personal. The strange Facebook message connected those two worlds, but could not offer an easy ending to either.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Forgiveness Without Absolution: A Hostage, His Guard and a 30-Year Sentence
 summary: A friendly Facebook message from a former captor drew Michael Scott Moore into an FBI operation that ended in a 30-year sentence. Can justice and forgiveness exist side by side?

@@ -6,7 +6,7 @@ source: Reuters | https://www.reuters.com/world/denmark-plans-ban-sharing-ai-dee
 image: images/should-you-own-the-rights-to-your-own-face-1755df.jpg
 image-plain: images/should-you-own-the-rights-to-your-own-face-plain-d7c98e.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: A Video of You That Never Happened
 summary: AI can copy a face and a voice in minutes. In October 2026, Denmark announced plans for a law to protect people.
@@ -23,7 +23,7 @@ However, the issue is complicated. Films, jokes and political cartoons have alwa
 
 The internet made it easy to copy photographs. AI now makes it possible to invent actions and speech as well, so a picture is no longer proof that something happened. Denmark's proposal asks a simple but very difficult question: if somebody can create a convincing digital version of you, who should decide what that version is allowed to do?
 
-=== B2 ===
+=== Intermediate ===
 
 title: Denmark Wants to Make Your Face Harder to Copy
 summary: The proposed rules would strengthen your ability to challenge convincing digital impersonations. Separating harmful fakes from obvious comedy is the part nobody has solved.
@@ -42,7 +42,7 @@ Enforcement presents another difficulty. Images can be generated cheaply and sha
 
 Denmark's proposal reflects a wider change in how people think about privacy. The concern is no longer only who may photograph you, but who may invent a convincing version of you and send it out into the world. In an age of increasingly powerful AI tools, control over personal identity may end up mattering as much as control over personal information.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Your Digital Double: Denmark Tests the Limits of Likeness
 summary: A photograph once implied that something had happened in front of a camera. Generative tools have quietly dismantled that assumption, leaving legislators to decide who may manufacture a persuasive version of you.

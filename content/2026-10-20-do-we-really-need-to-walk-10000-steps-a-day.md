@@ -6,7 +6,7 @@ tags: Health, Lifestyle
 source: The Lancet Public Health | https://pubmed.ncbi.nlm.nih.gov/40713949/
 image-plain: images/do-we-really-need-to-walk-10000-steps-a-day-plain-8b601b.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Is 7,000 Steps Enough?
 summary: The 10,000 target came from a Japanese product sold in the 1960s. A 2025 review linked about 7,000 steps a day with real health benefits.
@@ -25,7 +25,7 @@ For people who use wheelchairs, step counts may not be a useful measurement at a
 
 A step counter can help you keep track of your habits, but it should not make every day feel like a test. Instead of worrying about being 2,000 steps short, you might ask a simpler question: am I moving more than I used to? The best target is often one that encourages activity without adding another source of stress.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Step Target That Marketing Built
 summary: A 2025 review of 57 studies found substantial benefits by about 7,000 steps. Moving from 2,000 to 4,000 may matter more than reaching the famous figure.
@@ -44,7 +44,7 @@ The simplicity that makes a step counter attractive can therefore become mislead
 
 Fitness tracking is most useful when it supports healthier habits without turning movement into a competition. The value of a walk is not limited to the number shown on a screen. Enjoyment, consistency and individual circumstances may matter more than completing an arbitrary daily challenge.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Five Figures of Authority: How a Pedometer Became a Prescription
 summary: The Lancet Public Health review places the substantial gains at roughly 7,000 steps, with diminishing returns beyond that. The 47% figure is a relative comparison drawn from observation, not a personal guarantee.

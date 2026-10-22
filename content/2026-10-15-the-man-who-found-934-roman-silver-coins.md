@@ -6,7 +6,7 @@ source: LVR Office for Archaeological Monument Preservation | https://www.lvr.de
 image: images/the-man-who-found-934-roman-silver-coins-e8ff4d.jpg
 image-plain: images/the-man-who-found-934-roman-silver-coins-plain-bea145.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Savings Nobody Came Back For
 summary: A man with a metal detector found 934 Roman silver coins in a field in Germany. Who hid them, and why?
@@ -23,7 +23,7 @@ Riedl's behaviour was also important. He was carrying out a permitted search and
 
 The collection went on display at the LVR State Museum in Bonn in September 2026. Visitors can now see money that somebody held, saved and eventually hid almost 1,900 years ago. The mystery of its owner may never be solved. But the story reminds us that history is not only about emperors, battles and famous buildings. Sometimes it is about an ordinary person who buried their savings and never came back.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Why Telling the Authorities Mattered as Much as the Find
 summary: The hoard holds 934 denarii, the oldest struck in 148 BC. It is the largest find from Hadrian's period yet recorded in Germany.
@@ -40,7 +40,7 @@ Riedl's decision to inform the authorities mattered almost as much as the discov
 
 The coins have since been displayed at the LVR State Museum in Bonn, where visitors can inspect a fortune that lay hidden for nearly 1,900 years. The find gives historians another small piece of evidence about Roman life in what is now western Germany. It also leaves room for a more human question: what plans did the owner have for all that money? We may never know, but the fact that nobody returned to collect it is what makes the treasure so intriguing.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: The Absent Owner: Nineteen Centuries Under Ordinary Farmland
 summary: Germany's largest hoard of coins from Hadrian's reign was found by a detectorist who followed the rules. What does it reveal, and what remains a mystery?

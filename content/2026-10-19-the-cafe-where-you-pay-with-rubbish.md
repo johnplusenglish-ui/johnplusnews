@@ -6,7 +6,7 @@ source: BBC Future | https://www.bbc.com/future/article/20250818-the-indian-garb
 image: images/the-cafe-where-you-pay-with-rubbish-885275.jpg
 image-plain: images/the-cafe-where-you-pay-with-rubbish-plain-b8d591.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: A Meal for a Bag of Plastic
 summary: In the Indian city of Ambikapur, a café opened in 2019. Bring one kilogram of plastic waste and you receive a full meal.
@@ -23,7 +23,7 @@ Of course, one small café cannot solve India's plastic problem on its own. The 
 
 Still, the idea changes the way we think about rubbish. A bottle that looks worthless to one person may be worth a hot meal to somebody else. The café shows that a simple local project can help people and encourage a cleaner city at the same time.
 
-=== B2 ===
+=== Intermediate ===
 
 title: What a Discarded Bottle Is Actually Worth
 summary: Ambikapur's Garbage Café pays informal collectors in food rather than small change. It cannot absorb a city's plastic, but it does make their work visible.
@@ -42,7 +42,7 @@ There are limits. A café cannot process all the plastic produced by a city, and
 
 Nevertheless, the concept works because it is easy to understand. Instead of asking people to worry about a distant environmental crisis, it offers a direct exchange with an immediate benefit. A kilogram of plastic becomes a plate of food, and an abstract argument about waste turns into a practical question about what a community actually values.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Rubbish as Currency: One Small Café and Two Large Problems
 summary: Measured by tonnage, the scheme collects a drop in the ocean. Its real achievement lies in the relationships it exposes between waste, work and basic needs, and in the insecurity it leaves untouched.

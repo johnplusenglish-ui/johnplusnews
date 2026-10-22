@@ -5,7 +5,7 @@ tags: Culture, Technology
 image: images/back-to-the-90s-why-everyone-wants-to-return-to-the-past-2f3c92.jpg
 image-plain: images/back-to-the-90s-why-everyone-wants-to-return-to-the-past-plain-e7cb8d.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Why Are the 1990s Back?
 summary: Young people are choosing old cameras, CDs and baggy jeans, even when they never lived through the decade.
@@ -20,7 +20,7 @@ This sounds attractive to people who feel tired of their smartphones. They may w
 
 But memories of the past are not always fair. The 1990s had problems too, including wars, discrimination and financial worries. Modern technology has made many parts of life easier and safer. Perhaps the real attraction is not the decade itself but the idea of being less distracted. We cannot go back in time, but we can choose how we use our phones and how much attention we pay to the people around us.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The 1990s Are Back, but What Are We Really Missing?
 summary: Objects that are slower and less reliable than a phone are selling well. The appeal may be the limits they impose rather than the decade itself.
@@ -37,7 +37,7 @@ However, it is easy to look back through rose-tinted glasses. The 1990s were not
 
 Perhaps today's revival is less about wanting to live in the past than choosing what to bring into the present. People can enjoy old music, clothes and technology without pretending that an earlier generation had everything right. The interesting question is why objects that were once replaced by newer inventions now seem worth using again. Their attraction may tell us more about our dissatisfaction with modern habits than about the 1990s themselves.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: The 1990s Revival: Nostalgia for a Decade We Never Knew
 summary: For a generation raised online, analogue inconvenience can feel like a form of freedom.

@@ -12,7 +12,7 @@ image-licence-url: https://www.jpl.nasa.gov/jpl-image-use-policy/
 image-credit-note: the film's cast and crew visit NASA's Jet Propulsion Laboratory, February 2026, resized
 image-plain: images/project-hail-mary-the-space-adventure-that-makes-science-exciting-plain-f5a7d5.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Space Hero Who Is Often Afraid
 summary: A film about a science teacher who must save the Sun has become a big hit. What makes it different from other space films?
@@ -29,7 +29,7 @@ The film was directed by Phil Lord and Christopher Miller, who are known for mix
 
 Perhaps its cleverest idea is making a science teacher the hero of a major space adventure. Grace does not always have the right answer, and he makes mistakes along the way. He succeeds by asking questions, testing ideas and accepting help from someone very different from himself. You do not need to understand advanced physics to enjoy Project Hail Mary. You only need to be curious about what might be possible.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Saving the World by Getting Things Wrong
 summary: Ryan Gosling plays a teacher who meets an alien with the same problem. Their slow attempt to understand each other is the heart of the film.
@@ -46,7 +46,7 @@ Directors Phil Lord and Christopher Miller bring an energetic, comic style to th
 
 What makes Project Hail Mary distinctive is not that it gets every scientific detail right. It is the pleasure it takes in curiosity itself. Problems are investigated rather than simply overcome by force, and the most important breakthrough comes through an unlikely partnership. In an era when space adventures often concentrate on destruction, a blockbuster about asking better questions feels like a refreshing change.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: In Defence of Curiosity: A Blockbuster Built on Trial and Error
 summary: Ryan Gosling's reluctant science teacher saves the world by testing ideas, not firing weapons. How much of the film's science is real, and does it matter?

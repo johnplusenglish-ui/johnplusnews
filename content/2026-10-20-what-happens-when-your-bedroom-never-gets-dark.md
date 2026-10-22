@@ -5,7 +5,7 @@ tags: Health, Science
 source: Environmental Research | https://doi.org/10.1016/j.envres.2026.123689
 image-plain: images/what-happens-when-your-bedroom-never-gets-dark-plain-0656b8.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Your Bedroom Is Not as Dark as You Think
 summary: A 2026 review of 15 studies found more sleep problems among people with the most light at night. Thick curtains are a sensible place to start.
@@ -24,7 +24,7 @@ That is an important reason not to tell everybody to switch off every light. The
 
 The research does not mean one small light will ruin your night. But it suggests that the environment around us deserves attention. We often think about how many hours we sleep. Perhaps we should also think about what our bedrooms are like during those hours.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Small Lights You Stopped Noticing Years Ago
 summary: The 27% figure is an association rather than proof, and most of the studies carried some risk of bias. Timing matters as much as darkness.
@@ -43,7 +43,7 @@ An older person moving around the house at night may reasonably prefer a low-lev
 
 No single change guarantees good sleep, and persistent difficulties can require professional advice. But the study offers a useful reminder: sleep is influenced by our surroundings as well as our routines. Sometimes improving a bedroom begins with noticing the small sources of light we stopped seeing years ago.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Light at the Bedside: A Design Problem, Not an Absolute Rule
 summary: Observational evidence cannot separate a streetlight from traffic noise or irregular shifts. The practical response lies with blinds, lamp placement and city lighting policy, not with another demand for perfect sleep habits.

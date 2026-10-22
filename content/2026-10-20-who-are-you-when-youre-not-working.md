@@ -6,7 +6,7 @@ tags: Work, Society
 source: Pew Research Center | https://www.pewresearch.org/social-trends/2023/03/30/how-americans-view-their-jobs/
 image-plain: images/who-are-you-when-youre-not-working-plain-7381d0.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The First Question People Ask at a Party
 summary: We ask about work before anything else. In a 2023 American survey, 39% of employees called their job very or extremely important to their identity.
@@ -25,7 +25,7 @@ Parents and carers often do important work that does not appear on a business ca
 
 Perhaps the question at a party should not always be, 'What do you do?' We could ask, 'What do you enjoy?' instead. A career can be an important chapter in someone's life. It does not have to be the whole story.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Try Introducing Yourself Without Mentioning Your Job
 summary: A job title can hide the parent, the carer and the volunteer. Pew found that 39% of American employees tie their sense of self closely to their work.
@@ -44,7 +44,7 @@ Someone enjoying an established career may welcome questions about work, while a
 
 The goal is not to stop caring about work. It is to give other parts of life space to grow. Perhaps we need to become more curious about the person behind the professional label and remember that identity can change without disappearing.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: The Convenient Label: What a Job Title Leaves Out
 summary: Pew put the figure at 39%, and institutions keep reinforcing it through applications, networking events and online profiles. Redundancy then takes colleagues, routine and status along with the salary.

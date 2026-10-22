@@ -6,7 +6,7 @@ source: Reuters | https://www.reuters.com/science/us-company-announces-progress-
 image: images/can-scientists-really-bring-the-dodo-back-df7b99.jpg
 image-plain: images/can-scientists-really-bring-the-dodo-back-plain-172bdb.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Can a Pigeon Become a Dodo?
 summary: Scientists want to bring back the dodo, a bird that disappeared in the 1600s. Is that possible, and is it a good idea?
@@ -23,7 +23,7 @@ Some conservation experts think the research could lead to useful new ways of pr
 
 For now, the dodo remains extinct. Colossal's announcement is about progress in genetic research, not a successful return. But the project raises an interesting question. If humans helped cause an animal's disappearance, should we try to bring it back, or should we focus on preventing the next extinction? The answer could shape how conservation works for many years to come.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Bird That Would Not Quite Be a Dodo
 summary: Colossal Biosciences has rebuilt most of the dodo's genome and hopes to edit a Nicobar pigeon. Critics ask what the finished bird would actually be.
@@ -40,7 +40,7 @@ Critics question the priorities. De-extinction projects attract publicity and in
 
 The dodo project is only beginning to take shape and remains an experiment with an uncertain outcome. Its value may eventually lie in techniques developed along the way rather than in producing a perfect copy of an extinct bird. Even so, the ambition forces us to confront an uncomfortable question about conservation. If we can spend enormous resources trying to reverse one historic loss, how much should we spend preventing the ordinary, less famous losses taking place around us today?
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Restoration or Imitation: What a Rebuilt Dodo Would Really Be
 summary: A start-up claims progress towards resurrecting the dodo, while independent scientists question what that would achieve. Is de-extinction science or spectacle?

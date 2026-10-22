@@ -12,7 +12,7 @@ image-licence-url: https://creativecommons.org/licenses/by/2.0/
 image-credit-note: A library of things in Portsmouth, England, via Wikimedia Commons, cropped and resized
 image-plain: images/the-library-where-you-can-borrow-a-tent-plain-0ce6e5.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Borrow a Tent, Not Just a Book
 summary: A tent, a camera or a pair of binoculars can turn curiosity into a first adventure.
@@ -29,7 +29,7 @@ The library's director, Mark Fink, believes that people do not need to travel fa
 
 The nature library is still a public library, so people can read, study and borrow ordinary books. What makes it different is the idea that learning can happen outside as well as inside a building. A tent, a camera or a pair of binoculars might encourage somebody to try something new. Perhaps the library's most useful gift is not the equipment itself, but the confidence to go outdoors and discover what is there.
 
-=== B2 ===
+=== Intermediate ===
 
 title: A Library Card for the Great Outdoors
 summary: A tent, a wildlife camera, a telescope. A Colorado library has decided that outdoor equipment can be lent out like any other resource.
@@ -46,7 +46,7 @@ There is a wider social argument behind the project. Outdoor activities can invo
 
 The project also asks us to think again about what a public library is for. Libraries have traditionally provided shared access to things individuals might not be able to afford, especially books and information. Lending outdoor equipment follows the same principle, only with a wider understanding of learning. A visitor might leave with a novel, a tent or a new interest in the natural world. The point is that curiosity should not depend on the size of someone's bank account.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: The Library Lending More Than Books
 summary: The project extends a library's oldest principle: opportunity should not depend on what an individual can afford.

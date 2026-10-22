@@ -6,7 +6,7 @@ source: RTÉ Lifestyle | https://www.rte.ie/lifestyle/living/2026/0128/1555340-d
 image: images/is-the-sauna-becoming-irelands-new-pub-2d1ffe.jpg
 image-plain: images/is-the-sauna-becoming-irelands-new-pub-plain-5db10a.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Meeting Strangers in a Hot Wooden Room
 summary: Beside the sea in Ireland, people book a short session in a sauna. Many arrive on their own and leave having talked to strangers.
@@ -23,7 +23,7 @@ Of course, a sauna cannot replace everything a pub does. It costs money, the hig
 
 Still, the popularity of seaside saunas suggests that many people want more welcoming places where they can relax and meet others. Ireland is not necessarily saying goodbye to the pub. It may simply be finding another way to bring people together.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Where Ireland Goes When It Does Not Want a Pint
 summary: Small cabins along the coast offer heat, a cold dip and conversation without alcohol. Regulars drop in at the same time each week, so familiar faces soon appear.
@@ -40,7 +40,7 @@ That does not mean saunas are an answer to Ireland's loneliness problem. A paid 
 
 The interesting question is not whether saunas will replace pubs. It is why so many people welcome another way to gather. Perhaps the popularity of these cabins reflects a wider shift towards alcohol-free socialising, wellbeing and activities that feel a little less organised than everyday life. Perhaps it simply reflects how pleasant it is to be warm while the weather does its worst outside.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Towels, Not Titles: Ireland Finds a Third Place by the Sea
 summary: A booked hour in a timber cabin strips away the usual markers of status, but it cannot replicate the unplanned dropping in that made the pub a social institution.

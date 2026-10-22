@@ -6,7 +6,7 @@ source: Reuters | https://www.reuters.com/world/asia-pacific/hiking-hotpot-lonel
 image: images/would-you-pay-someone-to-be-your-friend-00e7b0.jpg
 image-plain: images/would-you-pay-someone-to-be-your-friend-plain-475fbe.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Walking Partner You Can Hire
 summary: In China you can pay someone to join you for a meal, a walk or a trip. Students do the work to earn extra money.
@@ -25,7 +25,7 @@ Perhaps the idea sounds less strange when we compare it with services we already
 
 That is what makes the story interesting. It makes us ask why spending time together has become something people sometimes need to buy, and whether life in a busy city is making it harder for friends to meet up at all.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Paying for the One Friend Who Never Cancels
 summary: Hundreds of online contacts do not guarantee company on a shared afternoon. An arrangement that cannot be cancelled on a whim may be the real product.
@@ -48,7 +48,7 @@ There is also the question of what happens afterwards. A good day out with a pai
 
 Nevertheless, its popularity reveals something about modern society. People can have hundreds of online contacts and still find it hard to arrange a real conversation or a shared afternoon. The companionship economy may be selling convenience, but the demand behind it points to a much less convenient problem.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: An Exchange Stated Openly: Why Paid Friendship Unsettles Us
 summary: Social life has always involved obligation, favours and quiet accounting. China's companions simply put a price on it, and in doing so make reliable human presence look like a scarce commodity rather than a given.

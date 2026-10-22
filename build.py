@@ -41,11 +41,11 @@ SITE = {
 }
 
 NAV = [("/", "Articles"), ("/about/", "About")]
-LEVELS = ["B1", "B2", "C1-C2"]
+LEVELS = ["Core", "Intermediate", "Advanced"]
 LANGUAGE_ON = False  # the useful-language boxes are paused; the lists stay in the article files
 FREE_COUNT = 3  # unused; site.json "free_articles" decides what readers who are not signed in can open
 FREE_SLUGS = set()
-DEFAULT_LEVEL = "B2"  # the tab a new reader lands on (the first one if an article has no B2)
+DEFAULT_LEVEL = "Intermediate"  # the tab a new reader lands on (the first one if an article has no Intermediate)
 
 
 def esc(s):
@@ -270,7 +270,7 @@ HEAD_LINE = re.compile(r"^(title|summary|audio|voice):[ \t]*(.*)$", re.I)
 ANY_MARK = re.compile(r"^===[ \t]*([A-Za-z][A-Za-z0-9 -]*?)[ \t]*===[ \t]*$", re.M)
 QUESTION_SETS = [("before", "Before you read"), ("after", "Talk about it")]
 SET_KEYS = {label.lower(): key for key, label in QUESTION_SETS}
-# Optional "useful language" lists, one per level, written as === B1 language === followed by one item per line:
+# Optional "useful language" lists, one per level, written as === Core language === followed by one item per line:
 #   - turn up (phrasal verb): to arrive somewhere
 LANG_MARK = re.compile(r"^(" + "|".join(re.escape(l) for l in LEVELS) + r") language$", re.I)
 LANG_LINE = re.compile(r"^(.+?)\s*\(([A-Za-z][A-Za-z /-]*)\)\s*:\s*(.+)$")
@@ -360,7 +360,7 @@ def take_head(text):
 
 def parse_versions(meta, body):
     """Return [{'level','text','title','summary'}] in LEVELS order. An article is either one text with a
-    'level:' header, or several texts, each starting with a line like === C1-C2 ===. A version may
+    'level:' header, or several texts, each starting with a line like === Advanced ===. A version may
     also carry its own headline and subheading (title:/summary: lines right after its marker).
     Question sets (=== Before you read === and so on) are ignored here; see split_sections. Raises ValueError."""
     body = split_sections(body)[0]
@@ -369,7 +369,7 @@ def parse_versions(meta, body):
     if not marks:
         level = levels.get(meta.get("level", "").lower())
         if not level:
-            raise ValueError("add a 'level:' header, or start each version with a line like === C1-C2 ===")
+            raise ValueError("add a 'level:' header, or start each version with a line like === Advanced ===")
         if not body.strip():
             raise ValueError("the article text is empty")
         return [{"level": level, "text": body.strip(), "title": "", "summary": "",
@@ -577,7 +577,7 @@ def levels_label(a):
 
 
 def default_index(versions):
-    """Index of the version shown first: B2 if the article has it, otherwise the first version."""
+    """Index of the version shown first: Intermediate if the article has it, otherwise the first version."""
     for i, v in enumerate(versions):
         if v["level"] == DEFAULT_LEVEL:
             return i

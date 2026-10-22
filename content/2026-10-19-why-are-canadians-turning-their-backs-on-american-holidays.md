@@ -7,7 +7,7 @@ source: Associated Press | https://apnews.com/article/42ea6dd35e3ee24898f6a07495
 image: images/why-are-canadians-turning-their-backs-on-american-holidays-32d046.jpg
 image-plain: images/why-are-canadians-turning-their-backs-on-american-holidays-plain-c3423d.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Holiday Trip Canadians Stopped Taking
 summary: Driving south to shop or spending the winter in a warmer place used to be simple. Now some Canadians are choosing Mexico instead.
@@ -26,7 +26,7 @@ Travel is usually described as a way of bringing people from different cultures 
 
 So is a cancelled holiday a useful protest, or does it mainly hurt ordinary people who depend on tourism? Canadians are making up their minds one trip at a time, and in the long run their choices may say as much about the two countries as any official statement.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Discounts That May Not Bring the Visitors Back
 summary: American destinations are offering deals to win back Canadian travellers. But a family that has discovered Mexico may be in no hurry to return.
@@ -47,7 +47,7 @@ It is also worth asking how long the effect will last. Travel habits are not eas
 
 The industry often promises an escape from everyday problems, but holidays never take place in a political vacuum. Canada's changing travel patterns show how quickly ideas about hospitality, national identity and trust can affect a commercial relationship that previously looked secure.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: A Boycott Nobody Organised: The Quiet Cost of a Trade Dispute
 summary: Canadians can register their disapproval simply by staying at home, and such a protest costs them nothing. The bill arrives at hotel reception desks and half-empty restaurants with no influence over national policy.

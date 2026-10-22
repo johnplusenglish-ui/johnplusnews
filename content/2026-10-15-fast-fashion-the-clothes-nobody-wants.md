@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/fashion/2026/oct/13/people-se
 image: images/fast-fashion-the-clothes-nobody-wants-9fec72.jpg
 image-plain: images/fast-fashion-the-clothes-nobody-wants-plain-ecce18.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Where Do Your Donated Clothes Really Go?
 summary: The bag leaves your wardrobe, but some of the clothes inside may never reach another customer.
@@ -21,7 +21,7 @@ There are ways to reduce waste. People can buy fewer clothes, choose items that 
 
 Affordable clothes are important, especially for families on limited budgets. The answer cannot simply be to tell everyone to buy expensive brands. Clothing companies also need to make better products and avoid creating more waste than necessary. Before buying something new, it may help to ask whether you will still want to wear it next year. A cheap T-shirt is not always a bargain if it is only worn once and then thrown away.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Charity-Shop Bag Nobody Wants
 summary: The bag outside the shop carries a comforting promise. In the sorting room, staff find clothes too worn or too cheap to sell to anyone.
@@ -38,7 +38,7 @@ Governments have begun to respond. Since July 2026, large companies in the EU ha
 
 Consumers can make a difference by cutting back on new purchases, repairing clothes and choosing second-hand items, but it would be unfair to place all responsibility on shoppers. Affordable clothing matters, and not everyone can pay more for supposedly sustainable brands. Retailers must also consider durability and the volume of new products they put out. The simplest question may be one we rarely ask while shopping: will this still be worth wearing after the excitement of buying it has disappeared?
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Fast Fashion's Final Stop: The Charity Shop
 summary: Charities are inheriting the disposal costs of an industry built on constant replacement.

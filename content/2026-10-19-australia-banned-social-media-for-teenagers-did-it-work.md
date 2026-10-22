@@ -6,7 +6,7 @@ source: Australian eSafety Commissioner | https://www.esafety.gov.au/about-us/in
 image: images/australia-banned-social-media-for-teenagers-did-it-work-4292c1.jpg
 image-plain: images/australia-banned-social-media-for-teenagers-did-it-work-plain-323e25.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: No Social Media Account Until You Are 16
 summary: Instagram, TikTok and Snapchat must keep younger teenagers out. The early results do not give a simple answer.
@@ -23,7 +23,7 @@ During 2026, Australia's online safety regulator published information about the
 
 Some parents welcomed the rules because they no longer had to argue alone with their children. Other people worried that teenagers could lose valuable friendships or support, especially if their friends live far away. Australia's experiment shows that protecting young people online involves much more than pressing a button marked "ban".
 
-=== B2 ===
+=== Intermediate ===
 
 title: A Ban in Name, Not Quite in Practice
 summary: Removing an account is easy to count. Whether teenagers are sleeping better, or simply moving somewhere nobody is watching, is much harder to measure.
@@ -42,7 +42,7 @@ Critics also warn that some teenagers depend on online communities for friendshi
 
 The Australian experiment raises a question that goes well beyond one age limit. If a service is potentially harmful because of the way it is designed, should society concentrate on keeping children away from it, or on making companies redesign it for everyone?
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Compliance or Care: What Australia's Under-16 Rules Can Actually Achieve
 summary: Deleted profiles make for impressive figures, yet there is no alternative Australia to compare them with. If the harm lies in how platforms are designed, keeping children out may leave the design untouched.

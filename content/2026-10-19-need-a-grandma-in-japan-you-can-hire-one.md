@@ -6,7 +6,7 @@ source: ABC Australia | https://www.abc.net.au/news/2025-08-03/japan-rent-grandm
 image: images/need-a-grandma-in-japan-you-can-hire-one-a614e0.jpg
 image-plain: images/need-a-grandma-in-japan-you-can-hire-one-plain-839364.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: A Job for Grandmothers in Japan
 summary: A company sends older women to cook, tidy, teach a skill or simply spend time with somebody. The service started in 2011.
@@ -23,7 +23,7 @@ However, money changes the relationship. A paid visitor is doing a job, even if 
 
 The idea may sound strange at first, but people already pay teachers, carers and guides for their knowledge and their time. Perhaps the most interesting question is not why anyone would hire a grandmother. It is why spending time with older people has become so difficult to arrange.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Grandmother You Book by the Hour
 summary: OK! Obaachan has matched customers with experienced older women since 2011. For the workers it can mean income, variety and a reason to leave the house.
@@ -40,7 +40,7 @@ Critics might argue that companionship should never be turned into a product. Th
 
 Perhaps the service is best understood not as friendship for sale but as a practical way of connecting people whose needs happen to fit together. Its success raises an awkward question for every society: if contact between the generations is genuinely valuable, why do we so often leave it to chance? Schools, workplaces and neighbourhoods rarely bring young and old together on purpose, so whatever contact does happen tends to be accidental.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Rentable Grandmothers: Honest Terms for an Awkward Modern Need
 summary: The arrangement is openly commercial, which may be its most honest feature. The harder question is why contact between the generations now has to be booked at all.

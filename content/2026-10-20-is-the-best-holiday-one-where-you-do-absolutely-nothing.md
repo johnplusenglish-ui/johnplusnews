@@ -5,7 +5,7 @@ tags: Travel, Lifestyle
 source: Marist Poll | https://maristpoll.marist.edu/polls/summer-travel-july-2025/
 image-plain: images/is-the-best-holiday-one-where-you-do-absolutely-nothing-plain-5736d6.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: A Holiday with No Plans at All
 summary: A 2025 survey found that 45% of Americans wanted rest and relaxation from a summer holiday. Others wanted adventure, culture or family time.
@@ -24,7 +24,7 @@ A family with young children may want an easy beach holiday, while a person who 
 
 Perhaps the best holiday is not the busiest or the quietest one. It is the one that gives you what you actually need. Before planning every hour, it may be worth asking: am I going away to see everything, or to enjoy being somewhere different?
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Trip You Need a Holiday to Recover From
 summary: Slow travel means fewer places and more unplanned hours. It is not automatically cheaper or greener, and it is hard to manage on limited annual leave.
@@ -43,7 +43,7 @@ A couple with limited annual leave may get more out of a carefully planned weeke
 
 Perhaps the important choice is not between doing everything and doing nothing. It is recognising that a successful holiday does not need to be measured by the number of places visited. Sometimes one memorable afternoon can matter more than a long checklist of sights.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Optimised Leisure: When a Break Resembles Project Management
 summary: The Marist Poll shows recovery is a major motive for travelling, though it never measured slow travel. Lingering somewhere is no guarantee of responsible tourism, and the freedom to linger is unevenly shared.

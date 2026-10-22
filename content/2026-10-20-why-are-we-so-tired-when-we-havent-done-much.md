@@ -5,7 +5,7 @@ tags: Health, Lifestyle
 source: Journal of Neuroscience | https://pubmed.ncbi.nlm.nih.gov/40345833/
 image-plain: images/why-are-we-so-tired-when-we-havent-done-much-plain-d1d184.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Tired After a Day of Sitting Down
 summary: Thinking, remembering and deciding all use energy. In one 2025 study, tired people avoided the harder task even when the reward was bigger.
@@ -24,7 +24,7 @@ People sometimes find that planning meals in advance or sharing out household jo
 
 Short breaks, reasonable workloads and time away from demanding tasks may help some people. But there is no magic solution for everybody. What the research reminds us is simple: a busy mind can feel tired even when the body has spent most of the day sitting down.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Why the Evening Decision Feels Harder Than the Day's Work
 summary: Cognitive fatigue is not a phone battery running flat. Twenty-eight people in a 2025 study became less willing to take on demanding tasks, even for greater rewards.
@@ -43,7 +43,7 @@ Rather, fatigue may change how costly an additional task feels compared with its
 
 Still, the findings challenge the idea that only physical activity can justify feeling tired. Mental demands are real demands. Recognising them may help people build breaks into their schedules, share responsibilities and take recovery seriously rather than dismissing exhaustion simply because they have been sitting down.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Effort Without a Scoreboard: Why Mental Work Leaves No Visible Trace
 summary: A 2025 imaging study of 28 participants suggests exertion changes how we price future effort, rather than draining a fixed supply of fuel. One small finding is not a diagnosis.

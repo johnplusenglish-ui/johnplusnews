@@ -6,7 +6,7 @@ source: Kathmandu Post | https://kathmandupost.com/money/2026/07/22/lawmakers-se
 image: images/has-mount-everest-become-too-popular-for-its-own-good-64d087.jpg
 image-plain: images/has-mount-everest-become-too-popular-for-its-own-good-plain-b07a4d.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Queues at the Top of the World
 summary: Nepal is discussing stricter rules for Everest climbers. One idea is that you must first climb another Nepali mountain above 7,000 metres.
@@ -23,7 +23,7 @@ These ideas were still being discussed as part of a new law, so they should not 
 
 Everest also brings important income to Nepal, including work for guides, porters and local businesses. Many families in the mountain areas live on what they earn during the short climbing season. The challenge is to keep climbing possible without putting visitors, workers and the mountain itself at unnecessary risk. Adventure may involve danger, but should there be a limit to how much danger people are allowed to buy?
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Mountain with a Price List
 summary: Nepal's lawmakers have discussed proof of experience, insurance and waste rules. None of it is law yet, and guides' wages depend on how it ends.
@@ -42,7 +42,7 @@ There are important local interests as well. International expeditions provide i
 
 The debate is ultimately about the difference between a challenging adventure and a commercial product. On Everest, the risks of that product are not confined to the paying customer. They are shared by everybody carrying the loads, fixing the ropes and coming to the rescue when a client runs into trouble.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Competence Cannot Be Certified: Nepal's Difficult Search for an Everest Rule
 summary: A previous summit above 7,000 metres is an imperfect proxy for judgement, and an expensive one. Whichever way the bill goes, it is guides and porters who carry the consequences of a decision taken about clients.

@@ -5,7 +5,7 @@ tags: Lifestyle, Health
 source: Nature Careers | https://www.nature.com/articles/d41586-026-00549-1
 image-plain: images/why-do-we-feel-guilty-when-were-doing-nothing-plain-81a178.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Shouldn't I Be Doing Something Useful?
 summary: A free afternoon turns into a list of jobs. The neuroscientist Joseph Jebelli says breaks and time to think matter, especially for difficult mental work.
@@ -24,7 +24,7 @@ Sometimes listening to music or talking to a friend is enough. It can help to ch
 
 Work, family and financial pressures can also make it hard to find time to rest. Not everybody has the same amount of free time. Still, it may help to remember that a day is not a competition. We need time to achieve things, but we also need time when nothing has to be achieved.
 
-=== B2 ===
+=== Intermediate ===
 
 title: An Empty Weekend Is Not a Problem to Solve
 summary: We waste an afternoon or fall behind, as though rest created a debt. For carers and shift workers, though, the shortage of time is practical, not cultural.
@@ -43,7 +43,7 @@ Watching several fast-moving videos may be enjoyable without providing the same 
 
 Perhaps the most useful change is not another wellbeing routine. It is accepting that free time does not require a measurable result. You are allowed to enjoy an afternoon without turning it into an achievement.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Productivity Guilt: In Defence of an Afternoon That Proves Nothing
 summary: Neuroscientist Joseph Jebelli told Nature that mental wandering can form part of good thinking. The trap is defending rest only because it makes better workers, which leaves no case for pleasure.

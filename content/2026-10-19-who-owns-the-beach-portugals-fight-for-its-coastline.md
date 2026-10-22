@@ -7,7 +7,7 @@ source: The Guardian | https://www.theguardian.com/commentisfree/2026/jul/04/fig
 image: images/who-owns-the-beach-portugals-fight-for-its-coastline-8536e0.jpg
 image-plain: images/who-owns-the-beach-portugals-fight-for-its-coastline-plain-feeef3.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Will a Day at the Beach Cost Money?
 summary: In 2026, people in Portugal protested about plans near several beaches in Arrábida. They were afraid local families would find it harder to visit.
@@ -24,7 +24,7 @@ There is an important difference between owning a beach and running services nea
 
 The dispute asks a question that matters in many countries. A coastline may be valuable because it is beautiful, but that is exactly why companies want to make money from it. Can local people, visitors and businesses all benefit without turning a shared natural place into somewhere only wealthier families feel comfortable? The answer may be different in every country, but the question keeps coming back.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Small Charge That Only Local Families Pay Fifty Times
 summary: Opposing a development is not the same as proving a coastline has been privatised. The Arrábida protests were really about who decides how a shared landscape is run.
@@ -43,7 +43,7 @@ A related concern is that tourism can price out the people who live closest to a
 
 The Arrábida dispute is therefore not simply a choice between protecting beaches and welcoming business. It raises a more practical question: who gets to decide how a shared landscape is managed, and how can the benefits of tourism be spread around without shutting out the communities that live there? Neither question is settled by pointing at the revenue figures.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Access by Purchase: What Arrábida Reveals About Public Space
 summary: Coastlines become commercially valuable precisely because earlier generations shared them rather than cashing in. When access starts to depend on spending power, the loss is real and almost impossible to price.

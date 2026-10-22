@@ -5,7 +5,7 @@ tags: Work, Health
 source: American Psychological Association | https://www.apa.org/monitor/2026/09/workplace-rustout-boredom-employees
 image-plain: images/how-can-a-job-be-exhausting-when-theres-hardly-anything-to-do-plain-e98d82.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Bored at Work and Still Exhausted
 summary: Psychologists call it rust-out. Work that is too easy or too repetitive can wear someone down for weeks or months.
@@ -24,7 +24,7 @@ At work, you often have to remain at your desk and look busy, even when there is
 
 The surprising lesson is that being busy and being interested are not the same thing. People usually need more than a salary or a full day of tasks. They also want to feel that their time and abilities are being used for something worthwhile.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Problem Nobody Dares Complain About
 summary: Rust-out looks like a privilege from the outside, so people stay quiet while colleagues are overwhelmed. Being paid to look busy is not the same as free time.
@@ -43,7 +43,7 @@ A quiet hour after a busy morning can be refreshing, whereas being expected to s
 
 The debate about modern work often focuses on reducing pressure. Rust-out suggests that balance involves more than doing fewer hours. People also need tasks that stretch their abilities, opportunities to grow and a convincing reason to care about what they do.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Rust-Out: When Being Paid to Look Busy Becomes Its Own Burden
 summary: The American Psychological Association points towards job design rather than individual attitude. Adding more monotonous tasks raises activity without restoring engagement, because the missing ingredients are autonomy and purpose.

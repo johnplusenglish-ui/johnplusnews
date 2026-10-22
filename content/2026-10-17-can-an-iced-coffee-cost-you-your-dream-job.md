@@ -6,7 +6,7 @@ source: BBC World Service | https://www.bbc.co.uk/programmes/w3ct8q64
 image: images/can-an-iced-coffee-cost-you-your-dream-job-9177b8.jpg
 image-plain: images/can-an-iced-coffee-cost-you-your-dream-job-plain-1eed64.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Should You Finish Your Coffee Before the Interview?
 summary: A recruiter said that bringing an iced coffee to a job interview looks too relaxed. Is she right, or is the rule unfair?
@@ -23,7 +23,7 @@ There is another issue: fairness. The professional body CIPD recommends structur
 
 So what should an applicant do? It makes sense to learn about the company, arrive on time and be ready to explain what you can offer. Finishing your coffee beforehand might avoid an unnecessary distraction at a traditional workplace. But the bigger question is for employers: are they hiring the person who can do the job, or simply the person who follows their unwritten rules?
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Unwritten Rules of the Interview Room
 summary: Caitlin Wehniainen has recruited for 16 years. Her TikTok advice split viewers, and research suggests first impressions really can shape how later answers are judged.
@@ -40,7 +40,7 @@ There is evidence that initial impressions can influence how interviewers evalua
 
 There is practical advice for applicants nevertheless. Research the company, prepare thoughtful examples of your work and avoid anything that might distract you during the conversation. Leaving the iced coffee outside a particularly formal interview is an easy way to play it safe. But the controversy also asks something of employers. If finding talent is the purpose of recruitment, perhaps they should be more interested in what candidates know than what they are carrying.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: A Proxy for Seriousness: Who the Iced Latte Filters Out
 summary: A recruiter's warning about takeaway coffee at interviews exposed an awkward truth: the unwritten rules of hiring may say more about employers than about candidates.

@@ -12,7 +12,7 @@ image-licence-url: https://creativecommons.org/licenses/by-sa/4.0/
 image-credit-note: Kipchoge at the Berlin Marathon, 2022, via Wikimedia Commons, cropped and resized
 image-plain: images/the-marathon-legend-who-refuses-to-get-old-plain-9f3e69.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Why Kipchoge Did Not Need His Fastest Time
 summary: Eliud Kipchoge is 41 and still winning. He won the Melbourne Marathon in a record time. What does his story teach us about age?
@@ -29,7 +29,7 @@ There was another side to the day. Some ordinary participants complained that wa
 
 Kipchoge's latest win does not mean that age has stopped affecting him. It does show that an athlete can remain competitive, and keep testing their limits, after the years when most people expect them to slow down. He has often spoken about the importance of discipline and enjoying the process of running. His Melbourne result offered a simple lesson: growing older may change what success looks like, but it need not mean giving up on ambitious goals.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Nobody Told Kipchoge When to Retire
 summary: He won in 2:09:10, some way short of his personal best, pulling clear in the last ten kilometres. Other runners reported shortages of water.
@@ -46,7 +46,7 @@ Not everybody had such an enjoyable race. Other participants reported shortages 
 
 For Kipchoge, the Melbourne result is unlikely to silence every question about retirement. Nor should one race be treated as proof that athletes can simply ignore ageing. What it does challenge is the idea that sporting achievement has a fixed expiry date. His pace has changed, but his competitive instincts remain intact. For anyone whose own ambitions have been written off as unrealistic, that may be the most compelling part of his story.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: No Neat Farewell: Kipchoge Complicates the Story of Decline
 summary: Kipchoge's record run in Melbourne was overshadowed by reports of water shortages on the course. What does his longevity show, and what went wrong for other runners?

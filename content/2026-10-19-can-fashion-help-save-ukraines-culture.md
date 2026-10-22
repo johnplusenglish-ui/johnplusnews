@@ -7,7 +7,7 @@ source: Financial Times | https://www.ft.com/content/4d273c11-7dac-471b-a4a3-18c
 image: images/can-fashion-help-save-ukraines-culture-81404a.jpg
 image-plain: images/can-fashion-help-save-ukraines-culture-plain-2891b9.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Company Keeping Old Skills Alive
 summary: GUNIA Project in Kyiv works with more than 150 craftspeople. Their weaving, glass and embroidery now appear on modern plates and clothes.
@@ -24,7 +24,7 @@ Not everyone can afford expensive handmade products, and a fashion brand cannot 
 
 Culture is not only something we find in museums or history books. It can be part of what we wear, use and give as gifts. Sometimes the most ordinary objects help people remember who they are.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Tradition Is a Habit, Not a Museum Case
 summary: Break the chain between an older craftsperson and a younger one and the technique goes too. Paying customers, awkwardly, may be what keeps it going.
@@ -41,7 +41,7 @@ There are tensions in this approach. Handmade products may be too expensive for 
 
 Even so, the project challenges a familiar assumption about tradition. Preserving culture does not always mean keeping old objects untouched behind glass, where nobody uses them and few people look closely. It can also mean giving a skill new customers, new uses and a reason to survive. Tradition, on this view, is less a museum case than a working habit that has to be passed on.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Keeping the Network Intact: Ukrainian Craft as a Wartime Business
 summary: GUNIA Project's artisans are not curators, and their work is sold rather than catalogued. That commercial footing raises awkward questions about who speaks for a tradition, and supplies the one thing reverence cannot: an income.

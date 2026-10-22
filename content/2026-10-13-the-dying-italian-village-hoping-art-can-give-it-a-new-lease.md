@@ -6,7 +6,7 @@ image: images/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-eb382
 image-alt: A medieval stone village on a crumbling hilltop in central Italy, reached by a long footbridge, with green valleys and mountains behind it.
 image-plain: images/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-plain-318d1f.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Can Art Save Italy's Dying Town?
 summary: Civita has tourists, beauty and a new art prize, but the ground beneath it is disappearing.
@@ -21,7 +21,7 @@ The announcement is good news for the area. Exhibitions and cultural events coul
 
 There is also a problem that art cannot solve on its own. Civita's hill is still slowly changing, and protecting its buildings needs engineering work and money. The new cultural title offers a chance to look beyond the village's famous views and think about its future. Whether it succeeds will depend on what happens after the visitors have gone home. A village needs more than attention to stay alive.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Village Crumbling Beneath Its Visitors
 summary: A footbridge, a famous view and a crumbling cliff. Civita draws visitors all summer, but keeping people there through the winter is the harder problem.
@@ -38,7 +38,7 @@ There are reasons to be cautious, however. Tourism does not automatically revers
 
 Still, the award changes the conversation. Instead of being known only as a beautiful place that may eventually disappear, Civita has a chance to become a centre for new cultural activity. The true test will come after 2028, when the exhibitions have ended and the publicity has died down. If the project helps people work, create and remain in the area, it may offer the village something more valuable than another successful tourist season.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Can Culture Keep Civita Alive?
 summary: Contemporary art may bring attention and opportunity; keeping a community alive demands something more durable.

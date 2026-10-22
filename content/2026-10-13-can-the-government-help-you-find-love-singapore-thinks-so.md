@@ -11,7 +11,7 @@ image-licence-url: https://creativecommons.org/licenses/by-sa/2.0/
 image-credit-note: "A couple watching skycrapers at night in Marina Bay", via Wikimedia Commons, resized and cropped
 image-plain: images/can-the-government-help-you-find-love-singapore-thinks-so-plain-123894.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Can a Government Help People Find Love?
 summary: Singapore's government has launched a dating platform. Can a government really help people find love?
@@ -26,7 +26,7 @@ Singapore has another reason to be interested in relationships. Fewer children a
 
 Some people like the idea of a dating service that focuses on shared values. Others believe the government should stay out of people's private lives. FirstDate is still a small experiment, and officials have not decided whether it will grow. A computer system may be able to introduce two people who like the same things. It cannot promise that they will enjoy their first date, or that they will fall in love.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Dating App Built by a Government
 summary: Singapore is testing a platform that offers one match at a time. Can a careful algorithm do better than endless swiping?
@@ -43,7 +43,7 @@ Critics argue that a dating app cannot solve the reasons some young adults put o
 
 For now, there is no decision about rolling out the scheme beyond public-service workers. Its success may depend less on how clever the algorithm is than on whether users find the experience less exhausting than conventional apps. The technology can offer an introduction and perhaps take the pressure off dating. What happens after that still belongs to the two people meeting for the first time.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Swipe Right for the State: Can Singapore Engineer Love?
 summary: Faced with a collapsing birth rate and a generation disillusioned with online dating, Singapore has turned to an unlikely matchmaker: the government. But can algorithms succeed where romance has failed?

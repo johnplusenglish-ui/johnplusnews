@@ -5,7 +5,7 @@ tags: Technology, Society
 image: images/smart-glasses-helpful-technology-or-a-threat-to-privacy-c7974b.jpg
 image-plain: images/smart-glasses-helpful-technology-or-a-threat-to-privacy-plain-e0e6ee.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Smart Glasses: A Useful Tool or a Privacy Problem?
 summary: Smart glasses can help people with disabilities, but some people worry about secret recording. Australia is debating new rules.
@@ -20,7 +20,7 @@ In 2026, the Australian Greens proposed a temporary ban on importing certain cam
 
 People on both sides have important concerns. Everyone should be able to know when they are being recorded, but a person who needs smart glasses to read or communicate should not lose access to them. Better security, clearer recording lights and rules against secret filming could help. The difficult question is how to stop harmful uses of technology without taking away the freedom it gives other people.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Glasses That Can Watch You Back
 summary: Wearable cameras are helping people with disabilities and worrying everyone else. Australia is weighing up where the limits should be.
@@ -37,7 +37,7 @@ Disability advocates worry that describing the devices mainly as tools for secre
 
 Neither side has an easy solution. Clear recording indicators, stronger security standards and meaningful penalties for misuse could protect privacy without removing accessibility benefits. But even good rules may struggle to keep up with rapidly changing devices. The debate illustrates a familiar problem with new technology: a feature that provides independence for one person can threaten the privacy of another. Effective regulation has to take both experiences seriously.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: A Threat to Privacy or a Lifeline? The Smart Glasses Dividing Australia
 summary: As politicians consider restrictions on wearable technology capable of recording unsuspecting strangers, disability advocates warn that a crackdown could deprive thousands of people of newfound independence.

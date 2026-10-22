@@ -5,7 +5,7 @@ tags: Education, Politics
 image: images/why-are-thousands-of-french-students-going-on-strike-fb1ec3.jpg
 image-plain: images/why-are-thousands-of-french-students-going-on-strike-plain-3b3e23.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Why French Students Are Leaving Their Classrooms
 summary: Thousands of teenagers across France are missing lessons to protest. They say their schools need more help.
@@ -20,7 +20,7 @@ The French government said it would send in thousands of extra replacement teach
 
 There is no easy answer. Improving public schools costs money, and governments must decide how to spend limited budgets. But students in poorer areas may already have fewer opportunities than children in wealthier places. For the teenagers taking part, the protests are about more than missing a lesson. They want schools that give everyone a fair chance. Many of them say they are not asking for luxury, only for lessons that actually take place. Their biggest challenge is turning attention in the streets into real changes in the classroom.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Teenagers Who Walked Out of School
 summary: Secondary-school students across France are blocking their own gates. They say the buildings, the class sizes and the staffing have been ignored for years.
@@ -37,7 +37,7 @@ The protests have not been entirely peaceful. Some marches led to clashes with p
 
 That contradiction is central to the debate. Continuing to attend poorly equipped schools may seem pointless to frustrated teenagers, yet prolonged disruption could leave them further behind. The movement also raises the question of educational inequality. If children in richer areas have more reliable lessons and better facilities, how equal are their opportunities? Whatever happens next, these students have spelled out what they expect: to have a say in decisions that shape their future.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Lessons in Resistance: France's Students Take to the Streets
 summary: Overcrowded classrooms, crumbling buildings and chronic teacher shortages have triggered a wave of student-led demonstrations across France. But the protests are rapidly becoming a wider confrontation over inequality, public spending and the right of young people to be heard.

@@ -6,7 +6,7 @@ tags: Travel, Culture
 source: Expedia UK Newsroom | https://www.expedia.co.uk/newsroom/unpack-27-expedia-and-hotels-com-unveil-the-trends-driving-travel-in-2027/
 image-plain: images/where-will-everyone-want-to-travel-in-2027-plain-922283.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: A Holiday List Without Paris or Rome
 summary: Expedia says searches are growing for Busan, Perugia, Punta del Este and Holbox. But a search is not a booking.
@@ -25,7 +25,7 @@ You can also think about how visitors affect people who live there all year. Res
 
 Perhaps the best travel choice is not the place everybody is talking about. It is the place that matches your interests, budget and the way you enjoy spending time. A travel trend can help you discover somewhere new, but it should not make the decision for you.
 
-=== B2 ===
+=== Intermediate ===
 
 title: What a Search Box Can and Cannot Tell You
 summary: Expedia compared searches on its own platforms from September 2025 to July 2026. Rising curiosity is not the same as arrivals, and some of these places are busy already.
@@ -44,7 +44,7 @@ Local authorities may welcome additional visitors while worrying about housing c
 
 A useful travel list should therefore start a conversation rather than settle it. Where do you actually want to spend time, and what kind of experience are you hoping for? Choosing a destination because it fits your interests may be more rewarding than following the latest prediction about where everybody else is heading.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Hidden Gems, Widely Advertised: The Paradox of the Travel Forecast
 summary: Coverage breeds curiosity, curiosity lifts the search figures, and the figures generate more coverage. Promoting a quieter alternative may simply redirect visitor pressure rather than relieve it.

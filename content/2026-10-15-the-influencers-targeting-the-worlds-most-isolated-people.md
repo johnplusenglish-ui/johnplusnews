@@ -6,7 +6,7 @@ source: The Guardian | https://www.theguardian.com/world/2026/sep/05/colonialism
 image: images/the-influencers-targeting-the-worlds-most-isolated-people-8fec4d.jpg
 image-plain: images/the-influencers-targeting-the-worlds-most-isolated-people-plain-23e4d7.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: The Island That Wants to Be Left Alone
 summary: Some people try to film communities that want to be left alone. Why can this be so dangerous?
@@ -21,7 +21,7 @@ Some social media creators want to make videos of places that other people canno
 
 Not every film about Indigenous people is harmful. Some communities choose to welcome visitors and work with filmmakers. In those cases, people can give permission and tell their own stories. North Sentinel Island is different because its inhabitants have refused contact. Technology makes it possible to travel further and film more than ever before, but it does not give people the right to go everywhere. Sometimes respecting others means accepting that they do not want to be seen.
 
-=== B2 ===
+=== Intermediate ===
 
 title: Filming the People Who Do Not Want to Be Found
 summary: A traveller landed on a forbidden island with a camera and a can of Diet Coke. The risk he took was not only his own.
@@ -38,7 +38,7 @@ There is an important difference between filming a community that has agreed to 
 
 Supporters of exploration sometimes argue that the public has an interest in learning about remote societies. Curiosity can certainly encourage understanding, but it does not automatically create a right to enter another community's territory. Polyakov's case highlights a difficult boundary in the age of social media. Cameras and boats can take people to places that once seemed unreachable. Respecting a community's wishes may require steering clear of the island and leaving the camera switched off.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Colonialism for Clicks: The Influencers Pursuing Uncontacted Peoples
 summary: Content creators are chasing exclusive footage of the world's most isolated communities. For campaigners, the real issue is consent, and the risk is deadly disease.

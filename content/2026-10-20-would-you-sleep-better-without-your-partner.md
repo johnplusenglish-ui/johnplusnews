@@ -6,7 +6,7 @@ tags: Relationships, Health
 source: Health.com | https://www.health.com/do-sleep-divorces-lead-to-better-sleep-11780674
 image-plain: images/would-you-sleep-better-without-your-partner-plain-d29714.jpg
 ---
-=== B1 ===
+=== Core ===
 
 title: Should Couples Sleep in Separate Rooms?
 summary: Some people call it a sleep divorce, but nobody is leaving. They just want a quiet night and fewer arguments.
@@ -25,7 +25,7 @@ It is important to talk about these things without making the other person feel 
 
 Perhaps the strangest thing about the phrase sleep divorce is that it makes a practical decision sound like a romantic disaster. Good relationships involve looking after each other. Sometimes that means sharing a bed. Sometimes it means letting the other person sleep.
 
-=== B2 ===
+=== Intermediate ===
 
 title: The Bed That Became a Negotiation
 summary: Open windows, late television and different alarms can wear a couple down. Separate rooms may help, though a small flat rarely leaves much space to experiment.
@@ -44,7 +44,7 @@ The best solution depends on the source of disturbance, the available space and 
 
 Rather than seeing bed-sharing as a test of love, couples might ask what allows both people to feel rested and connected. A relationship is built from communication, trust and everyday care. The location of two pillows is unlikely to tell the whole story.
 
-=== C1-C2 ===
+=== Advanced ===
 
 title: Sleep Divorce: The Language Is Harsher Than the Decision
 summary: Snoring, incompatible schedules and high rents rarely make elegant romantic narratives. Yet what a couple settles on at night says less about their affection than about the space, and the honesty, available to them.
