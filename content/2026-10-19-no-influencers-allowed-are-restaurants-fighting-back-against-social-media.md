@@ -3,6 +3,7 @@ date: 2026-10-19
 summary: Hotels, restaurants and beauty spots are putting up "no influencers" signs. Are venues right to limit photoshoots, or are they missing out?
 tags: Society, Technology
 source: The Guardian | https://www.theguardian.com/media/2026/oct/19/no-influencers-hotels-restaurants-beauty-spots-restricting-photoshoots
+image: images/no-influencers-allowed-are-restaurants-fighting-back-against-social-media-576aae.jpg
 ---
 === Core ===
 

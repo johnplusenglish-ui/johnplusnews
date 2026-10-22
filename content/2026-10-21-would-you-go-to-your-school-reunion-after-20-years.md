@@ -3,6 +3,7 @@ date: 2026-10-21
 summary: One man went to his school reunion with a single aim: to apologise to a friend who was bullied years ago. What do reunions really give us?
 tags: Relationships, Society
 source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/oct/21/curiosity-atonement-how-to-get-through-high-school-reunions
+image: images/would-you-go-to-your-school-reunion-after-20-years-e144f0.jpg
 ---
 === Core ===
 

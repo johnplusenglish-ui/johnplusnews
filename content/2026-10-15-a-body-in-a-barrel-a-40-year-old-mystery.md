@@ -3,6 +3,7 @@ date: 2026-10-15
 summary: When Lake Mead fell during a drought, a rusted barrel with human remains appeared. After four decades, science finally gave the victim a name.
 tags: Crime, Society
 source: Associated Press | https://apnews.com/article/aa380c6826d788a3123fd36378c7caf9
+image: images/a-body-in-a-barrel-a-40-year-old-mystery-b2ac3c.jpg
 ---
 === Core ===
 

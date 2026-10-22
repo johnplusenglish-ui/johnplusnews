@@ -3,6 +3,7 @@ date: 2026-03-13
 summary: Scientists analysed how more than 15,000 people spent their days. Is there a pattern behind the days people call better than usual?
 tags: Lifestyle, Health
 source: PNAS Nexus | https://academic.oup.com/pnasnexus/article/5/3/pgag014/8519258
+image: images/is-there-a-secret-formula-for-having-a-good-day-4c2722.jpg
 ---
 === Core ===
 

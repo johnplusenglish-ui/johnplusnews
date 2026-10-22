@@ -3,6 +3,7 @@ date: 2026-02-24
 summary: A short chat with a stranger can brighten a day, yet most of us avoid it. Are we losing the art of talking to people we do not know?
 tags: Society, Relationships
 source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/feb/24/stranger-secret-how-to-talk-to-anyone-why-you-should
+image: images/are-we-losing-the-art-of-talking-to-strangers-07dc7f.jpg
 ---
 === Core ===
 

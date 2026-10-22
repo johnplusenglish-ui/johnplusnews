@@ -3,6 +3,7 @@ date: 2026-06-04
 summary: At 99, Pauline Kana was passed over a Texas crowd and set a world record. What can her story teach us about growing older?
 tags: Lifestyle, Music
 source: Guinness World Records | https://www.guinnessworldrecords.com/news/2026/6/gangster-granny-crowd-surfs-at-age-99-during-concert-claims-record-for-rockin-ride
+image: images/she-was-99-years-old-when-she-crowd-surfed-at-a-concert-8c2c61.jpg
 ---
 === Core ===
 

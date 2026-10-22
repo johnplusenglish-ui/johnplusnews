@@ -4,6 +4,7 @@ date-label: July 2026
 summary: A German study found that longer retirement was linked to weaker flexible thinking in some women, but not to more dementia. What should we make of it?
 tags: Work, Health
 source: Journal of Health Economics | https://www.sciencedirect.com/science/article/pii/S0167629626000597
+image: images/could-retiring-early-be-bad-for-your-brain-ec6066.jpg
 ---
 === Core ===
 

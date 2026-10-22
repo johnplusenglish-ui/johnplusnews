@@ -3,6 +3,7 @@ date: 2026-08-30
 summary: New research on 40,000 adults links weekend lie-ins with slightly lower odds of high blood pressure. Should we stop feeling guilty about them?
 tags: Health, Lifestyle
 source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/aug/30/sleeping-in-weekend-may-be-good-for-you-study
+image: images/is-a-weekend-lie-in-actually-good-for-you-63fd76.jpg
 ---
 === Core ===
 

@@ -3,6 +3,7 @@ date: 2026-03-31
 summary: You know what you should be doing, and yet you do something else. Psychologists say the reason has more to do with emotions than with laziness.
 tags: Lifestyle, Work
 source: Nature Humanities and Social Sciences Communications | https://www.nature.com/articles/s41599-026-07088-0
+image: images/why-do-we-keep-putting-things-off-9b754a.jpg
 ---
 === Core ===
 

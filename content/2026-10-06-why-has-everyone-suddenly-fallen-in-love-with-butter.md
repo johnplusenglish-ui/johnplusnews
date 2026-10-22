@@ -3,6 +3,7 @@ date: 2026-10-06
 summary: A shop in Paris is devoted almost entirely to butter, and it has become a hit. Why has such an ordinary ingredient suddenly become fashionable?
 tags: Food, Lifestyle
 source: The Guardian | https://www.theguardian.com/food/2026/oct/06/the-butter-boom-how-the-world-fell-back-in-love-with-the-glorious-golden-spread
+image: images/why-has-everyone-suddenly-fallen-in-love-with-butter-f0a32e.jpg
 ---
 === Core ===
 

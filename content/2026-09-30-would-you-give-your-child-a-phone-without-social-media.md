@@ -3,6 +3,7 @@ date: 2026-09-30
 summary: A new phone for children has no browser, no app store and no social media. Is that the answer for worried parents?
 tags: Technology, Society
 source: Fast Company | https://www.fastcompany.com/91612943/freckle-phone-designed-to-get-kids-into-the-world
+image: images/would-you-give-your-child-a-phone-without-social-media-760e58.jpg
 ---
 === Core ===
 
