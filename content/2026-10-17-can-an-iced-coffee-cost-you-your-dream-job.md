@@ -56,16 +56,41 @@ Recruitment research adds a cautionary note. Studies suggest that first impressi
 
 Candidates would still be wise to read the room. Bringing a drink to an informal conversation at a creative studio is different from juggling a cup during a tightly scheduled corporate panel interview. Avoiding an unnecessary distraction is sensible, not a surrender to outdated authority. Yet the burden of good judgement belongs to interviewers too. If a recruitment decision turns on the presence of an iced coffee rather than the candidate's experience, preparation and judgement, the person being assessed may not be the only one who should feel uncomfortable.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What small things might affect an interviewer's first impression?
-- Would you bring a drink into a job interview? Why?
-- Which workplace rules seem old-fashioned to you?
+- What would you wear to a job interview?
+- What makes a good first impression?
+- Have you had an interview that went badly?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- How much should small details like a takeaway coffee count in an interview?
-- Are dress codes and manners important, or should skills matter more?
-- How might expectations differ between a bank and a design studio?
-- What counts as professional behaviour at an interview in your country?
-- How could employers make interviews fairer for every candidate?
+- A recruiter said a takeaway coffee looks too relaxed. Is that fair? Start with: I think ... because ...
+- What should you never bring to an interview?
+- Someone says these rules are silly and old-fashioned. What do you say to them? Start with: I agree, because ... or They exist because ...
+- What would you want an interviewer to notice about you?
+
+=== Intermediate before you read ===
+
+- Who writes the unwritten rules of interviews?
+- Should an employer judge how you look?
+- Have workplace rules relaxed, or just changed?
+
+=== Intermediate talk about it ===
+
+- She later said her advice was not universal. Why did the first version spread further?
+- Compare a structured interview with a conversational one. Which is fairer, and why?
+- Someone tells you: "If you cannot follow small rules, you will not follow big ones." What would you say back?
+- First impressions can influence later judgements even in structured interviews. What should an employer do about that?
+
+=== Advanced before you read ===
+
+- Do unwritten rules test suitability or conformity?
+- Who is disadvantaged by a rule nobody states?
+- Can hiring ever be made genuinely fair?
+
+=== Advanced talk about it ===
+
+- The writer says the rules may reveal more about employers than candidates. What exactly do they reveal?
+- Argue against this: "Dress and manner are legitimate signals, and pretending otherwise helps nobody."
+- The CIPD recommends consistent questions and agreed scoring. Why is that still not enough?
+- What unwritten rule did you have to learn the hard way?

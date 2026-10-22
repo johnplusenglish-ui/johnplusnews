@@ -60,16 +60,41 @@ Plenty of questions remain open. The original arrangement of the statues, and th
 
 The episode also challenges the image of archaeology as a pursuit reserved for distant experts. Local communities live on landscapes shaped by centuries of earlier human activity, and what they notice while digging a foundation or clearing a field can prove indispensable, provided that discoveries are documented and protected rather than carried off as private treasure. Heritage protection, on this reading, rests less on spectacular excavation than on the quiet habit of reporting whatever turns up.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What is the oldest object you have ever held or owned?
-- What would you do if you discovered something valuable in your garden?
-- How interested are you in history, and where does that interest come from?
+- Is there anything very old near your home?
+- What would you do if you found something unusual?
+- Are you interested in ancient Egypt?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why was the man's decision to report the stone important?
-- How did huge statues help ancient rulers show their power?
-- What information can be lost when an object is removed from its original location?
-- Who should own archaeological discoveries made on private land, and why?
-- What history might still be hidden near where you live?
+- A resident reported a stone and two huge statues were found. Would you have reported it? Start with: I would ... because ...
+- Who should own objects found under a house?
+- Someone says he should have kept it quiet. What do you say to them? Start with: I disagree, because ... or I understand, but ...
+- What would you like archaeologists to find near you?
+
+=== Intermediate before you read ===
+
+- Why do important finds often come from ordinary people?
+- What happens if something is dug up without records?
+- Should building work stop for archaeology?
+
+=== Intermediate talk about it ===
+
+- The statue head alone was about 1.6 metres tall. What does the scale tell you about the original site?
+- Compare a find reported properly with one sold privately. What is lost in the second case?
+- Someone tells you: "Archaeology is for experts, not villagers." What would you say back?
+- Researchers still cannot say exactly where the statues stood. Why does that uncertainty remain?
+
+=== Advanced before you read ===
+
+- Who owns what lies beneath a house?
+- Is archaeology a science or a form of stewardship?
+- What does a country gain from a find like this?
+
+=== Advanced talk about it ===
+
+- The episode challenges the image of archaeology as the work of distant experts. What follows from that, practically?
+- Argue against this: "Rewarding finders encourages digging, and digging destroys context."
+- A pink granite block with hieroglyphs came up too. What makes an inscription worth more than a statue?
+- What would make you report a find rather than keep it?

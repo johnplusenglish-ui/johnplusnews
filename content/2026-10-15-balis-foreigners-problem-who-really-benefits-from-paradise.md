@@ -56,16 +56,41 @@ Cultural tensions complicate the debate further. Bali's religious traditions are
 
 For Bali, the challenge is to move beyond the false choice between unrestricted tourism and an island closed to foreigners. Transparent visa rules, fair business enforcement, responsible development and stronger opportunities for local entrepreneurs could preserve the benefits of international interest without treating residents as background scenery. The island has successfully sold the world an image of freedom. The next test is whether that freedom can coexist with the rights, livelihoods and cultural identity of the people who were there long before the hashtags.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How has tourism changed a place you know well?
-- Should remote workers follow different rules from ordinary tourists, and why?
-- What does a visitor owe to the community they enter?
+- Would you like to work in another country?
+- What do tourists bring to a place, good and bad?
+- Has your town changed because of visitors?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Who gains most from Bali's popularity, and who carries the costs?
-- When does a travel post become paid commercial work?
-- Are restrictions on foreign-owned small businesses fair protection or harmful control?
-- How can rules target genuine problems without blaming every foreign resident?
-- What would responsible tourism in Bali look like in practice?
+- Visitors bring money but change prices. Is that a fair trade? Start with: I think ... because ...
+- Should foreigners be allowed to run businesses anywhere?
+- Someone says tourists should just be grateful for the money they bring. What do you say to them? Start with: I agree, because ... or That misses ...
+- What makes a visitor a good guest?
+
+=== Intermediate before you read ===
+
+- Why might local people resent remote workers?
+- Who gains most from tourism in a small place?
+- Should a country limit who can buy land there?
+
+=== Intermediate talk about it ===
+
+- Bali restricted foreign investment in 18 business categories. Is that protection or protectionism? Why?
+- Compare a tourist who stays a week with a remote worker who stays a year. Which affects a neighbourhood more?
+- Someone tells you: "Without tourism there would be no jobs at all." What would you say back?
+- 342 people were deported for various violations. Why is it misleading to call them all influencers?
+
+=== Advanced before you read ===
+
+- Can a place be popular and still belong to the people who live there?
+- Is a digital nomad a guest, a resident, or something else?
+- What would a fair deal between visitors and residents look like?
+
+=== Advanced talk about it ===
+
+- The writer frames this as control rather than foreigners against locals. Does that reframing help, or soften a real conflict?
+- Argue against this: "Restricting foreign business punishes outsiders for a failure of local planning."
+- Indonesian creators say the issue is fair competition. What would fair competition actually require?
+- Would you move somewhere knowing your presence raised the cost of living for people already there?

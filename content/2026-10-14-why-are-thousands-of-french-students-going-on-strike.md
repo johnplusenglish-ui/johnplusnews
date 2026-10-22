@@ -54,16 +54,41 @@ Policing has become a further source of controversy. Most demonstrations have be
 
 There is an uncomfortable paradox at the heart of the strikes. By refusing to attend lessons, students risk losing more of the teaching they say they are being denied. Supporters respond that accepting the status quo carries its own long-term cost. Whether the movement secures lasting changes remains uncertain. What is already evident is a generation of pupils unwilling to be treated as passive recipients of government policy. In demanding better schools, they are also insisting on a voice in the institutions that shape their lives.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What would persuade you to take part in a protest or a strike?
-- What are the biggest problems in schools in your country?
-- How much say should students have in how their schools are run?
+- Is your local school in good condition?
+- Have you ever joined a protest?
+- What would make school better where you live?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Do you think students are right to miss lessons in order to protest? Why or why not?
-- Missing lessons might harm the students themselves. How would you weigh up that risk?
-- How much should governments spend on education compared with other things?
-- Why might a student in a poorer area have fewer opportunities than one in a richer area?
-- How do you feel about the way the police have responded to the protests?
+- Students are missing lessons to protest about schools. Is that a good way to be heard? Start with: I think ... because ...
+- How many students should be in one class?
+- Someone says protesting during school hours is wrong. What do you say to them? Start with: I see that, but ... or I agree, because ...
+- What one change would improve your nearest school?
+
+=== Intermediate before you read ===
+
+- When is missing school worth it?
+- Why do students sometimes protest before adults do?
+- Who should pay for school buildings?
+
+=== Intermediate talk about it ===
+
+- Some parents supported the students and others worried about lost lessons. Which worry is stronger, and why?
+- Compare a student protest with a teachers' strike. Which gets more attention, and why?
+- Someone tells you: "They just want a day off." What would you say back?
+- The government promised 3,000 replacement teachers. Why might a promise not settle the argument?
+
+=== Advanced before you read ===
+
+- Does disruption earn attention, or only resentment?
+- Should young people be listened to differently from adults?
+- Can a government fix a staffing shortage with money alone?
+
+=== Advanced talk about it ===
+
+- The demands are modest, which the article says made them hard to dismiss. Is modesty a strength or a limitation in a protest?
+- Argue against this: "Students should finish their exams first and campaign afterwards."
+- Ministers face pressure to contain public spending. How should that constraint change what protesters ask for?
+- What would you have been willing to miss a week of school for?

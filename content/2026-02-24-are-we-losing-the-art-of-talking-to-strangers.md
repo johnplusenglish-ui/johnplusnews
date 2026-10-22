@@ -56,16 +56,41 @@ There are wider consequences to consider. When our social worlds are increasingl
 
 The solution is not a campaign to make every commuter talkative. Silence can be restorative, and nobody owes strangers their attention. But we could leave room for the occasional unplanned exchange instead of automatically shutting ourselves away. Looking up from a screen, offering a genuine compliment or asking a simple question can be enough. Sometimes nothing comes of it. On other days, a conversation breaks through the anonymity and changes the mood of an entire journey. The skill worth preserving is not constant sociability, but the willingness to recognise a possible human connection when it appears.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Do you ever speak to strangers on trains or in cafés?
-- Do phones make public places friendlier or quieter?
-- What makes a stranger seem approachable?
+- Do you talk to strangers on buses or trains?
+- What do you usually do on a long journey?
+- Is it easy to start a conversation in your language?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Have people genuinely become less sociable, or have the rules of public life simply changed?
-- When is starting a conversation with a stranger welcome, and when is it intrusive?
-- Do headphones send a clear message that someone wants privacy?
-- Can small talk reduce loneliness, even if nobody becomes friends?
-- What is the most memorable conversation you have had with someone you did not know?
+- Would you enjoy a chat with a stranger on a train, or would you rather be left alone? Start with: I would rather ... because ...
+- When is it a bad idea to talk to a stranger?
+- Someone says talking to strangers is a waste of time. What do you say to them? Start with: I agree, because ... or I don't think so, because ...
+- What is an easy thing to say to start a conversation?
+
+=== Intermediate before you read ===
+
+- Why do you think people avoid talking to strangers now?
+- Does a phone make a journey better or just shorter?
+- Is small talk a skill, or something you either have or you don't?
+
+=== Intermediate talk about it ===
+
+- The article says we expect these conversations to go worse than they do. Has that been true for you? Why?
+- Compare a city you know with a smaller town. Where do strangers talk more, and why?
+- Someone tells you: "Leave people alone, they have headphones on for a reason." What do you say back?
+- Whose job is it to start a conversation: the person who is bored, or the person who looks friendly?
+
+=== Advanced before you read ===
+
+- Is the silence on a train a loss, or simply privacy that people have chosen?
+- Has politeness changed, or only the places we practise it?
+- Would you accept more interruption in exchange for more connection?
+
+=== Advanced talk about it ===
+
+- The writer admits some people feel unsafe when approached. Does that weaken the argument, or make it more honest?
+- Argue against this: "Talking to strangers is a nostalgic hobby for people who are not at risk."
+- Is the decline a personal failing, or the result of how public space is now designed?
+- Which of your own habits makes you harder to approach, and would you give it up?

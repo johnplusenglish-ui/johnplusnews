@@ -54,16 +54,41 @@ The challenge is that environmental performance involves trade-offs that resist 
 
 There is a danger, too, that fear of regulatory action encourages companies to say nothing about worthwhile initiatives. The solution is not to ban environmental communication but to tighten it up. Claims should identify the specific benefit, the evidence supporting it and the limitations of the improvement. Consumers are entitled to know whether a company has substantially reduced harm or merely found a flattering way to describe a modest change. Sustainability cannot become credible while remaining principally a matter of choosing the right adjectives.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What makes you trust an environmental claim on a product?
-- What would persuade you to pay more for a greener product?
-- How misleading is an advert whose words are true but whose overall message is not?
+- Do you look at labels when you shop?
+- What does the word green mean on a product?
+- Would you pay more for something better for the planet?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Which is more persuasive: a green design, a specific figure or an independent label?
-- How should companies be dealt with when a green claim creates a false impression?
-- Are carbon-offset claims useful, misleading or both?
-- How much responsibility should fall on shoppers rather than businesses and regulators?
-- Choose a familiar "green" claim. What evidence would you want before believing it?
+- A label says a bottle is green. Do you believe it? Start with: I usually ... because ...
+- Which products do you trust most, and why?
+- Someone says all advertising exaggerates, so this is normal. What do you say to them? Start with: I agree, because ... or This is different, because ...
+- What would make a green claim believable to you?
+
+=== Intermediate before you read ===
+
+- Why do companies advertise their environmental record?
+- Can a claim be true and misleading at the same time?
+- Who should check what companies say?
+
+=== Intermediate talk about it ===
+
+- The UK regulator criticised two airlines' adverts. Is regulation the right tool here, and why?
+- Compare a product that uses less plastic but more energy. Which is greener, and how would a shopper know?
+- Someone tells you: "If the claim is technically true, it is fine." What would you say back?
+- New EU rules restrict vague green claims. What would you still allow a company to say?
+
+=== Advanced before you read ===
+
+- Is honest environmental advertising possible?
+- Does regulation improve claims, or just silence them?
+- Who is responsible for a misleading impression nobody technically stated?
+
+=== Advanced talk about it ===
+
+- Greenwashing works in the gap between suggestion and substantiation. How would you close that gap in a rule?
+- Argue against this: "Tighter rules make companies say nothing, which helps nobody."
+- The writer warns that fear of regulators may silence worthwhile initiatives. Is that a real cost or a lobbying line?
+- What environmental claim have you believed without checking?

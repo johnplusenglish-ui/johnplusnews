@@ -56,16 +56,41 @@ Identifying him, however, was not the same as solving his murder. The circumstan
 
 The case sits at an unsettling intersection of environmental change, technological progress and human loss. Receding water revealed what someone had attempted to hide, while DNA analysis recovered an identity that time had almost erased. Neither development could restore the decades that Jackson's relatives spent without answers. Yet giving a name to unidentified remains is not a minor achievement: it returns a life to the centre of a story otherwise dominated by the manner of death. The next chapter, if there is one, will depend on discovering who placed Buddy Jackson in that barrel and why.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Have you ever heard of a mystery being solved decades later?
-- How can new technology help police investigate old crimes?
-- Should journalists report exciting theories when there is little evidence?
+- Do you watch programmes about real crimes?
+- Why are people interested in old mysteries?
+- Has the weather changed anything where you live?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why do cold cases capture so much public attention?
-- Was it reasonable for people to suspect organised crime, or did the setting influence them too much?
-- How might finding a victim's identity affect relatives after forty years?
-- Is there a danger in treating real murders as entertainment?
-- Which discovery was more important here: the falling water level or DNA technology?
+- Falling water revealed the barrel after forty years. Does that feel like luck or justice? Start with: It feels like ... because ...
+- Should police keep working on very old cases?
+- Someone says old cases are a waste of money. What do you say to them? Start with: I disagree, because ... or I understand that, but ...
+- Why does giving the victim a name matter?
+
+=== Intermediate before you read ===
+
+- Why do cold cases fascinate people?
+- What can science tell us that witnesses cannot?
+- Should a family be told about a case after forty years?
+
+=== Intermediate talk about it ===
+
+- Detectives warned that a dramatic setting is not evidence. Why is that warning easy to ignore?
+- Compare what DNA solved here with what it did not. Which gap matters more?
+- Someone tells you: "Las Vegas, a barrel, a gun. It is obviously the Mafia." What would you say back?
+- Drought exposed the shoreline. What else might a changing climate uncover?
+
+=== Advanced before you read ===
+
+- Why do we want a story to fit a familiar shape?
+- Is naming a victim a form of justice, or a substitute for it?
+- Who is served by a cold case being reopened?
+
+=== Advanced talk about it ===
+
+- The writer says the challenge is resisting the urge to turn speculation into fact. Where does the article come closest to failing that test?
+- Argue against this: "Without a conviction, identifying the victim changes nothing."
+- Environmental change uncovered the body and science recovered the name. Which of those is the real story?
+- What would you want known about you if you disappeared, and what would you want left alone?

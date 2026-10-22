@@ -56,16 +56,41 @@ Behind the entertaining spectacle sits a more serious question about the way soc
 
 By the time Pauline reflected on the adventure in October 2026, she had celebrated her hundredth birthday. Yet the real story reaches beyond the record itself. Ross and Pauline have spent years making each other laugh, taking on unfamiliar challenges and creating an archive of shared experiences. Their partnership turns a familiar family relationship into an ongoing collaboration, one in which both generations seem to benefit. The lasting image is not simply a grandmother being lifted through a crowd. It is a woman refusing to let other people's expectations decide when the fun should stop.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What activities do people often say they are too old to try?
-- Do you know an older person who surprises people with their energy?
-- Would you ever want to break a world record?
+- What is the most exciting thing you have done?
+- Do older people in your family try new things?
+- Have you ever been to a big concert?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- What makes Pauline's story so appealing to people of different ages?
-- Can social media strengthen relationships between grandparents and grandchildren?
-- Is our society too negative about ageing?
-- Where is the line between a brave adventure and an unnecessary risk?
-- What is one new activity you hope to try when you are older?
+- Pauline was 99 when she crowd-surfed. Would you do it? Start with: I would ... because ...
+- Is there an age when people should stop doing adventurous things?
+- Someone says this was dangerous and silly. What do you say to them? Start with: I agree, because ... or I don't think so, because ...
+- What would you like to be doing at 99?
+
+=== Intermediate before you read ===
+
+- Why do stories about older people doing young things spread so fast?
+- Is it the age that makes the story, or the person?
+- What stops people trying new things as they get older?
+
+=== Intermediate talk about it ===
+
+- The attempt was carefully planned with the organisers. Does that make it less impressive, or more sensible? Why?
+- Compare Pauline's story with an ordinary 99-year-old's day. Which tells you more about ageing?
+- Someone says: "These videos make the rest of us feel bad." What would you say back?
+- Her grandson films their adventures. Is that a kind thing or a use of her? Give a reason.
+
+=== Advanced before you read ===
+
+- Do stories like this challenge our ideas about age, or flatter them?
+- Is a record attempt a personal achievement or a piece of content?
+- Whose ambitions get taken seriously at 99?
+
+=== Advanced talk about it ===
+
+- The writer says the story is not proof that age imposes no limits. Why is that distinction worth making?
+- Argue against this: "Celebrating one extraordinary pensioner distracts from how badly most older people are treated."
+- The event was arranged, supported and recorded. What does that tell you about what is actually being celebrated?
+- What would you want other people to assume about you at 99, and what would you want them to ask instead?

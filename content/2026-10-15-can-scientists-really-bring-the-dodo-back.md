@@ -56,16 +56,41 @@ Advocates see wider benefits in the research. Methods developed for gene editing
 
 For now, the dodo belongs to history rather than to the forests of Mauritius. The company has advanced aspects of a research programme; it has not done away with extinction. Perhaps the most useful contribution of such ambitious science will be to sharpen rather than dissolve the distinction between restoration and imitation. A convincing likeness could be a remarkable scientific achievement. Whether it would repair the ecological loss that made the dodo famous is an altogether more demanding question.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What do you know about animals that have disappeared from the Earth?
-- How much of the environmental damage we have caused can we actually repair?
-- How do you feel about scientists trying to do things that once seemed impossible?
+- Which extinct animal would you most like to see?
+- Why do animals become extinct?
+- Should we spend money on animals that are still alive instead?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Would a bird that only looked like a dodo really be a dodo? Why or why not?
-- Should research money go towards extinct animals or endangered living species?
-- What risks might arise if a recreated animal were released into the wild?
-- How might the techniques developed for de-extinction help ordinary conservation work?
-- How valuable are spectacular scientific projects that never achieve their original goal?
+- Scientists want to bring back the dodo. Is that a good idea? Start with: I think ... because ...
+- Would a new bird really be a dodo?
+- Someone says this money should save living animals. What do you say to them? Start with: I agree, because ... or Both matter, because ...
+- What animal near you needs protecting?
+
+=== Intermediate before you read ===
+
+- Is bringing back a species science or spectacle?
+- What would an extinct animal need in order to survive now?
+- Who should decide whether to try?
+
+=== Intermediate talk about it ===
+
+- The company has 95% of the genome but no bird. Why is the remaining part so difficult?
+- Compare de-extinction with protecting a habitat. Which would you fund, and why?
+- Someone tells you: "If we can fix extinction, there is less reason to prevent it." What would you say back?
+- Mauritius habitat work is slow and unglamorous. Why does it matter more than the genetics?
+
+=== Advanced before you read ===
+
+- Is an animal its genome, or its ecological role?
+- Does de-extinction change how seriously we take extinction?
+- Who profits from the promise, and who carries the risk?
+
+=== Advanced talk about it ===
+
+- A convincing likeness could be a real achievement without repairing the ecological loss. Which would you call success?
+- Argue against this: "De-extinction is a technology demonstration wearing a conservation costume."
+- Editing a Nicobar pigeon raises reproductive challenges the article calls formidable. What should be proven before release?
+- Is there something you would want restored even if the restoration were imperfect?

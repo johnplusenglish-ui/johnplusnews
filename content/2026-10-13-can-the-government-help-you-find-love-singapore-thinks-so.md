@@ -55,16 +55,41 @@ The privacy questions are equally delicate. A platform that asks users to descri
 
 There is also something refreshing about a dating service that declines to maximise the time users spend browsing. Commercial platforms often benefit when people keep returning; FirstDate proposes that a more limited selection could serve users better. Whether a narrower choice produces more lasting relationships has yet to be demonstrated, and a pilot of this size is unlikely to settle the question. For now, the platform remains a public-service pilot, with no decision about expansion. Its most revealing lesson may be that technology can organise introductions remarkably well while remaining almost powerless over what makes two people fall for each other.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Do you think dating apps help people find love? Why or why not?
-- What is the best way to meet a partner, in your opinion?
-- How would you feel if your government offered a dating service?
+- How do people meet partners in your country?
+- Have you used a dating app, or do you know someone who has?
+- Would you trust a computer to choose for you?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why do you think the Singapore government wants to help young people meet each other?
-- Would you try a dating platform run by the government? Why or why not?
-- The platform focuses on shared values rather than appearance. How good a basis is that for a relationship?
-- Is finding a partner a personal matter, or something a country should care about?
-- How important are attraction and chemistry compared with shared values and a similar way of life?
+- Singapore's service gives one match at a time. Is that better than hundreds? Start with: I think ... because ...
+- Should a government help people find love?
+- Someone says this is not the government's business. What do you say to them? Start with: I agree, because ... or Actually, ...
+- What makes two people a good match?
+
+=== Intermediate before you read ===
+
+- Why might endless choice make dating harder?
+- Should a government care about how many babies are born?
+- What would make you trust a dating service?
+
+=== Intermediate talk about it ===
+
+- The service is open only to public servants. Is that sensible testing or unfair? Why?
+- Compare one match a month with unlimited swiping. Which would you prefer, and why?
+- Someone tells you: "A government knowing your romantic preferences is a step too far." What would you say back?
+- The platform says it does not sell data. Why is that promise more important here than elsewhere?
+
+=== Advanced before you read ===
+
+- Can a state solve a problem that is fundamentally private?
+- Is a low birth rate a problem for government, or a result of its policies?
+- Would a better algorithm fix dating, or is the dissatisfaction the point?
+
+=== Advanced talk about it ===
+
+- The creators call it a pilot, not an answer to demographics. Why might they be careful to say so?
+- Argue against this: "If commercial apps profit from keeping you single, a public alternative is overdue."
+- Scarcity is the design: one match, 72 hours. What does that assume about how people decide?
+- Where is the line, for you, between a government helping and a government arranging?

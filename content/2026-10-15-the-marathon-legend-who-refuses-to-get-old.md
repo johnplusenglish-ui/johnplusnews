@@ -57,16 +57,41 @@ The spectacle also had an uncomfortable counterpoint. Numerous recreational runn
 
 The question of when he ought to stop remains open. Kipchoge's Melbourne triumph will not put the question to rest, and nor should it. The competitive landscape has changed, his own performances have fluctuated and one result cannot erase the consequences of age. What he has challenged is the assumption that decline must make achievement meaningless. There is a quieter kind of excellence in adapting to circumstances without surrendering ambition. Kipchoge is no longer being asked whether he can run faster than any man in history. For now, he is showing that he can still outrun the people standing beside him.
 
-=== Before you read ===
+=== Core before you read ===
 
-- At what age do you think professional runners are usually at their best?
-- What matters more in sport: natural talent, discipline or experience?
-- What makes some people give up on goals once they feel too old?
+- Do you run, or do another sport?
+- At what age do athletes usually stop?
+- Have you ever been to a big sporting event?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why might a victory at 41 mean more to Kipchoge than some earlier wins?
-- How should athletes decide when it is time to retire?
-- What can amateur runners usefully learn from elite athletes?
-- How responsible are race organisers when ordinary runners cannot get enough water?
-- Is success about beating other people, beating your previous record or simply continuing to improve?
+- Kipchoge won at 41 with a course record. Does age matter in sport? Start with: I think ... because ...
+- Should athletes retire while they are winning?
+- Someone says he should stop before he loses. What do you say to them? Start with: I disagree, because ... or I understand, because ...
+- What keeps a person going after forty?
+
+=== Intermediate before you read ===
+
+- Why do we expect athletes to retire at their peak?
+- Is a course record at 41 more impressive than a world record at 30?
+- What else goes wrong at a big public event?
+
+=== Intermediate talk about it ===
+
+- Runners complained about water shortages and crowding at the same race. How should those two stories be reported together?
+- Compare an elite athlete's race with an ordinary runner's. Who is the event actually for?
+- Someone tells you: "One good result does not mean he has beaten age." What would you say back?
+- His 2019 sub-two-hour run did not count as a record. Should it have?
+
+=== Advanced before you read ===
+
+- Does sport need the neat farewell it keeps demanding?
+- Who is a mass-participation race built to serve?
+- Is longevity in sport talent, method, or money?
+
+=== Advanced talk about it ===
+
+- The writer says one result cannot erase the consequences of age. Why is that worth saying about a winner?
+- Argue against this: "Celebrating one 41-year-old's win tells us nothing about ageing and everything about selection."
+- The elite race succeeded while the mass event struggled. What does that gap reveal about priorities?
+- What would make you decide it was time to stop doing something you were still good at?

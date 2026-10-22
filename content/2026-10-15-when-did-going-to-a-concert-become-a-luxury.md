@@ -54,16 +54,41 @@ The secondary market creates another layer of distortion. Scarce tickets may be 
 
 Defenders of high prices argue that no performer is obliged to sell below what audiences are willing to pay. Critics counter that an industry built around shared cultural experience risks becoming increasingly divided by income. Neither argument removes the pressure on independent venues, where musicians develop and audiences can encounter live music without shouldering substantial expense. The question is not whether major artists deserve to be paid. It is whether a market that celebrates music's ability to unite people is comfortable turning attendance into a privilege reserved for those who can afford it.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What do you enjoy most about seeing live music?
-- How much would you be willing to pay to see your favourite artist?
-- How do you usually find out about ticket sales and prices?
+- When did you last go to a concert?
+- How much is too much for a ticket?
+- Who is your favourite musician?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Is dynamic pricing fair? Why or why not?
-- Who should decide how much a concert ticket costs: the artist, the promoter or the market?
-- Would you rather see a small local gig or a huge stadium show, and why?
-- If ticket prices keep rising, what could happen to live music in the future?
-- At what point does a ticket price stop being worth it for you?
+- Tickets now cost hundreds. Is live music still for everyone? Start with: I think ... because ...
+- Would you pay more for a better view?
+- Someone says if people pay, the price is fair. What do you say to them? Start with: I disagree, because ... or That is true, because ...
+- How could concerts be made cheaper?
+
+=== Intermediate before you read ===
+
+- Why have ticket prices risen so fast?
+- Do musicians get the money, or someone else?
+- Should resale be allowed?
+
+=== Intermediate talk about it ===
+
+- Streaming pays musicians differently from album sales. How does that change what a tour has to do?
+- Compare a big stadium show with a small local gig. What are you paying for in each?
+- Someone tells you: "Nobody has to go. It is entertainment, not bread." What would you say back?
+- The CMA made Ticketmaster explain prices more clearly. Is clearer pricing enough?
+
+=== Advanced before you read ===
+
+- Is a concert ticket a cultural good or a commodity?
+- Should the state regulate the price of entertainment?
+- Who is excluded when live music becomes expensive?
+
+=== Advanced talk about it ===
+
+- The authority did not find evidence of real-time dynamic pricing for the Oasis sale. Why did so many people believe it had?
+- Argue against this: "High prices are simply the market telling artists what they are worth."
+- Touring costs have genuinely risen. How would you separate real costs from what the market will bear?
+- What cultural experience would you protect from pricing, and how?

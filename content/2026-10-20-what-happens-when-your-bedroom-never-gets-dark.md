@@ -62,16 +62,41 @@ This creates a design challenge rather than a demand to eliminate every light so
 
 There is also a wider policy question. Public lighting supports safety and access, so plunging streets into darkness is not a practical solution. Better-designed lighting could balance those benefits with reduced disturbance to residents. A good night's sleep may depend partly on decisions made far beyond the bedroom walls.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How dark is your bedroom at night?
-- How do you feel about sleeping with a light or television on?
-- What usually wakes you up at night?
+- Is your bedroom dark at night?
+- What lights are near your window?
+- Do you sleep well?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- In your country, how bright are streets and homes at night?
-- Should cities reduce unnecessary nighttime lighting, and why?
-- Why should we be careful with headlines that say one thing causes another?
-- Would you give up screens for an hour before bed, and why?
-- Which changes to a bedroom would be hardest for people to make?
+- People with most light at night had more sleep problems. Does that surprise you? Start with: It ... me, because ...
+- What would you change in your bedroom?
+- Someone says a small light makes no difference. What do you say to them? Start with: Maybe, but ... or I agree, because ...
+- What helps you fall asleep?
+
+=== Intermediate before you read ===
+
+- Why is darkness important for sleep?
+- Who controls the light outside your window?
+- Can you test your own sleep?
+
+=== Intermediate talk about it ===
+
+- The result was an association, not proof. What else could explain the link?
+- Compare blackout curtains with changing street lighting. Which would help more people, and why?
+- Someone tells you: "Just buy an eye mask." What would you say back?
+- Measuring the light someone receives is difficult. Why does that weaken the findings?
+
+=== Advanced before you read ===
+
+- Is light pollution a private inconvenience or a public health issue?
+- Who should pay for darkness?
+- How much certainty should precede a planning rule?
+
+=== Advanced talk about it ===
+
+- Observational evidence cannot separate a streetlight from traffic noise or shift work. What study would?
+- Argue against this: "Advising blackout blinds privatises a problem created by public lighting."
+- The 27% figure is a relative association, not an individual risk. Why do such numbers travel so well?
+- What in your environment do you treat as fixed that could be changed?

@@ -62,16 +62,41 @@ The greater danger arises when its polished presentation glosses over missing co
 
 What matters is maintaining a distinction between support and delegation. A useful system should make its limitations visible, encourage verification and strengthen the user's judgement. The more consequential the decision, the greater the need for reliable evidence, relevant professionals and personal responsibility. Outsourcing thinking is convenient; outsourcing accountability is considerably more dangerous.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How common is it for people where you live to ask AI for advice?
-- Which decisions should people make alone?
-- What makes you trust somebody's advice?
+- Have you asked an AI for advice?
+- Who do you ask about big decisions?
+- What makes advice good?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- What kinds of decisions should AI help with?
-- How do you decide whether an answer you read online is reliable?
-- When might AI advice be more useful than advice from friends?
-- How would you feel about sharing private information with a chatbot, and why?
-- How could schools teach people to check AI recommendations?
+- AI can list advantages in seconds. Would you follow it? Start with: I would ... because ...
+- What should AI never decide?
+- Someone says AI is more objective than people. What do you say to them? Start with: I disagree, because ... or Sometimes, because ...
+- Who gives you the best advice?
+
+=== Intermediate before you read ===
+
+- Why does a confident answer feel like a correct one?
+- What does a chatbot not know about you?
+- Would you tell an AI something private?
+
+=== Intermediate talk about it ===
+
+- Pew found most people accept AI for analysis but not for love. Why that line, do you think?
+- Compare asking a friend with asking a chatbot. What does each get wrong?
+- Someone tells you: "Human advisers are biased too." What would you say back?
+- A chatbot only knows the version you type. How much does that limit it?
+
+=== Advanced before you read ===
+
+- Is fluency being mistaken for judgement?
+- Who is accountable for advice that turns out badly?
+- Should some decisions stay slow on purpose?
+
+=== Advanced talk about it ===
+
+- The writer says the solution is not ruling out AI altogether. What would a sensible boundary look like?
+- Argue against this: "If an AI gives better advice than an overworked human, the objection is sentimental."
+- Roughly two-thirds would keep AI out of judgements about love. Is that wisdom or squeamishness?
+- What decision would you refuse to delegate, and to anyone or only to a machine?

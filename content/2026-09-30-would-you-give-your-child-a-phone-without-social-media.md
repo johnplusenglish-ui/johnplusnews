@@ -56,16 +56,41 @@ There is also the problem of social belonging. Children increasingly organise fr
 
 Freckle's most valuable contribution may be less the hardware than the question it forces families to confront. Why do we assume that a phone must provide access to everything, immediately and without stages? A carefully limited device may help some children gain confidence outside the home, while others will need a different approach. No single product can remove the difficult work of setting boundaries, having conversations and gradually handing over responsibility. But an alternative to the all-purpose smartphone makes it easier to imagine technology serving childhood, rather than childhood being organised around technology.
 
-=== Before you read ===
+=== Core before you read ===
 
-- At what age did you get your first phone?
-- Should parents be able to check exactly where their children are?
-- Do children need social media to maintain friendships?
+- At what age should a child get a phone?
+- What do children use phones for?
+- Did you have a phone when you were twelve?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Would the Freckle phone have appealed to you when you were ten?
-- Are phones without browsers safer, or do they simply delay learning important digital skills?
-- When does protecting a child become controlling them?
-- Should schools set rules about smartphones, or is it a family decision?
-- What three features would you include in the ideal first phone for a child?
+- Would you give a child this phone, with no apps and no internet? Start with: I would ... because ...
+- What is the best thing a child's phone should do?
+- Someone says children need the same phone as their friends. What do you say to them? Start with: That is a good point, because ... or I don't agree, because ...
+- What rules would you set for a child with a phone?
+
+=== Intermediate before you read ===
+
+- Why do parents worry about giving children phones?
+- Is being left out of a group chat a small problem or a big one?
+- Should a parent be able to see where their child is?
+
+=== Intermediate talk about it ===
+
+- The phone protects a child but may shut them out of their friends' group chats. How would you weigh that, and why?
+- Compare a limited phone with clear family rules on a normal phone. Which would work better, and why?
+- Someone tells you: "Just delay it. No child needs a phone at eleven." What would you say back?
+- The camera identifies birds and plants. Is that a real feature or a way of making limits feel generous?
+
+=== Advanced before you read ===
+
+- Does a safer device teach judgement, or delay it?
+- Is tracking a child care or surveillance, and does the child get a say?
+- Who should decide what a twelve-year-old can see: parents, companies or regulators?
+
+=== Advanced talk about it ===
+
+- The writer says no product settles the trade-off. What is left for parents to decide once the device is chosen?
+- Argue against this: "A locked-down phone just moves the problem to the first unlocked one they get."
+- Family rules, friendship groups and local safety all shape the outcome. Which of those can a product actually influence?
+- What would you have wanted an adult to restrict for you, and what would you have resented?

@@ -62,16 +62,41 @@ That reasoning is persuasive to an employer, yet it leaves little room for exper
 
 Perhaps the deeper question is why leisure must be justified through improved performance at all. Rest may make us better workers, but its value does not depend solely on that outcome. The right to spend an hour doing nothing can be defended without turning it into yet another productivity technique.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How easy do you find it to relax without your phone?
-- What do you usually do with a completely free afternoon?
-- How do you feel when you are not being productive?
+- What do you do with a free afternoon?
+- Do you feel guilty when you rest?
+- What does resting look like for you?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- When, if ever, do you feel guilty about resting?
-- How does social media affect what you think a good day looks like?
-- Should employers encourage staff to take more breaks, or is that their own business?
-- Are hobbies less enjoyable when we set goals for them?
-- How could society make rest easier for people with little free time?
+- A free afternoon becomes a list of jobs. Does that happen to you? Start with: It does ... because ... or It doesn't, because ...
+- Is doing nothing lazy?
+- Someone says rest must be earned. What do you say to them? Start with: I disagree, because ... or I understand, because ...
+- What is the most restful thing you do?
+
+=== Intermediate before you read ===
+
+- Why does rest feel like something to justify?
+- Is scrolling restful?
+- Who has time to rest where you live?
+
+=== Intermediate talk about it ===
+
+- Jebelli says mental wandering can be part of good thinking. Does that make rest easier to allow yourself? Why?
+- Compare planned rest with unplanned rest. Which works better for you, and why?
+- Someone tells you: "Rest is just a productivity technique." What would you say back?
+- Telling everyone to rest more ignores real inequalities. Who is left out of that advice?
+
+=== Advanced before you read ===
+
+- Does rest need a justification to be allowed?
+- Who is permitted to do nothing?
+- Has wellbeing become another form of work?
+
+=== Advanced talk about it ===
+
+- The trap is defending rest only because it makes you more productive. What is the better defence?
+- Argue against this: "Encouraging rest without changing workloads is advice that costs employers nothing."
+- Not every kind of rest works for everybody. How should advice handle that?
+- What would you do with an afternoon you did not have to account for?

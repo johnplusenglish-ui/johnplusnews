@@ -70,16 +70,41 @@ Timing complicates the picture further. Once a tradition is valuable, the pressu
 
 Seville's balconies therefore offer a revealing example of a wider tension. Cultural traditions are powerful partly because they bring communities together, yet their very popularity can turn access into a scarce commodity and squeeze out the people for whom the occasion means most. The question is not whether an owner may charge for a view, but whether an increasingly commercial setting changes the meaning of what spectators have come to see.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Which annual celebration matters most in your country, and why?
-- When would you pay extra for a better view of an event?
-- What makes a festival feel open to everyone?
+- What big celebrations happen where you live?
+- Would you pay for a better view?
+- Are local festivals changing where you are?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why are particular balconies so valuable during Seville's Holy Week?
-- Is it fair for owners to charge whatever the market will pay?
-- Can an event still feel open to everyone when the best places are expensive?
-- How does tourism change traditional celebrations in your country?
-- Would you rather watch from the street or pay for a balcony, and why?
+- A balcony for Holy Week can cost thousands. Is that fair? Start with: I think ... because ...
+- Is it better to watch from the street with everyone else?
+- Someone says owners can charge what they like. What do you say to them? Start with: Legally yes, but ... or I agree, because ...
+- What makes a celebration belong to a city?
+
+=== Intermediate before you read ===
+
+- Who should benefit from a city's traditions?
+- Does paying change how you experience an event?
+- Can a free event still exclude people?
+
+=== Intermediate talk about it ===
+
+- The streets remain free, but you wait hours behind crowds. Is the event still open to everyone? Why?
+- Compare a paid balcony with a free spot three hours early. What is each person really buying?
+- Someone tells you: "Nobody is obliged to rent a balcony." What would you say back?
+- The money goes to whoever owns the right street. Does that matter?
+
+=== Advanced before you read ===
+
+- Can a public tradition be privately monetised without changing it?
+- Who is a festival for once it attracts visitors?
+- Is scarcity a reason for a high price or an argument for regulation?
+
+=== Advanced talk about it ===
+
+- A balcony let to visitors is one a family no longer watches from. Is that a loss the city should act on?
+- Argue against this: "Charging for the best views funds the traditions everyone else enjoys free."
+- Supply of central balconies is fixed. What does that mean for where the price settles?
+- What local tradition would you protect from pricing, and how?

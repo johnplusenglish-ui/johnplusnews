@@ -62,16 +62,41 @@ Social platforms can intensify this pressure by making extraordinary performance
 
 Ultimately, the question is who controls the purpose of an activity. A hobby may be competitive, commercially successful or deliberately unproductive. What makes it meaningful is not necessarily how impressive the result appears. There is value in maintaining at least some spaces where a person can be a beginner, make mistakes and enjoy the process without having to demonstrate progress.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What do you enjoy doing without being very good at it?
-- How would you feel about making money from something you enjoy?
-- How do you feel about competition in your free time?
+- What do you do for fun?
+- Do you try to improve at it?
+- Would you sell something you made?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- What effect does social media have on the way people enjoy their hobbies?
-- Would you turn your favourite hobby into a business, and why?
-- Is being bad at an activity a good reason to stop?
-- Some people say a hobby needs goals to stay interesting. Do you agree?
-- Why might free time feel like another form of work?
+- You start running for air and end up entering a race. Is that good? Start with: I think ... because ...
+- Does a hobby need a goal?
+- Someone says every hobby should earn money. What do you say to them? Start with: I disagree, because ... or Sometimes, because ...
+- What do you do purely because you enjoy it?
+
+=== Intermediate before you read ===
+
+- Why do hobbies turn competitive?
+- Does sharing something online change it?
+- What do you lose when a hobby becomes work?
+
+=== Intermediate talk about it ===
+
+- Taking orders and meeting deadlines can turn a pleasure into a job. Where is your line?
+- Compare a hobby you keep private with one you share. Which lasts longer, and why?
+- Someone tells you: "If you are good at something, never do it for free." What would you say back?
+- Not everybody can afford to keep leisure separate from income. How does that change the advice?
+
+=== Advanced before you read ===
+
+- Is an unproductive hobby a luxury?
+- Does measurement improve enjoyment or replace it?
+- Who is the audience for your free time?
+
+=== Advanced talk about it ===
+
+- Advice to resist monetising assumes a secure income. How should that shape what we tell people?
+- Argue against this: "Turning a hobby into a business is the only honest way to take it seriously."
+- Platforms make achievement visible and measurable. What does that do to ordinary pleasure?
+- What would you keep doing if nobody ever saw it?

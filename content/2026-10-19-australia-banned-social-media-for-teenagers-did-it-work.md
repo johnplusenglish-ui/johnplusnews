@@ -58,16 +58,41 @@ Early research published by the eSafety Commissioner in July 2026 offered insigh
 
 What Australia has created, then, is an international test case rather than a settled answer. Governments watching closely will be tempted to read the first figures as vindication or as proof of futility, and both readings would be premature. If the underlying harm arises from the design of online platforms, age restrictions may deliver partial protection without touching the commercial incentives that shape the technology in the first place. The broader debate is less about when young people should be let in than about what kind of digital environment they are eventually entering.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What was social media like when you first started using it?
-- How well do you think social media companies protect younger users?
-- Should parents, governments or teenagers decide when to open an account?
+- At what age should people use social media?
+- What is good and bad about these apps?
+- Would a ban work in your country?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Would an age limit like Australia's work in your country, and why?
-- What might teenagers lose if they cannot have a social media account?
-- How can platforms check somebody's age without collecting too much private data?
-- What evidence would convince you that the restrictions were working?
-- Should similar rules apply to adults who spend too long on social media, and why?
+- Australia stopped under-16s having accounts. Good idea? Start with: I think ... because ...
+- What should a teenager be allowed to do online?
+- Someone says teenagers will just find a way round it. What do you say to them? Start with: Probably, but ... or I agree, because ...
+- What would help young people most online?
+
+=== Intermediate before you read ===
+
+- Can a law change how young people spend their time?
+- Who should decide: parents, schools or government?
+- What would you measure to see if a ban worked?
+
+=== Intermediate talk about it ===
+
+- Platforms can point to deleted accounts without showing teenagers are better off. What should be measured instead?
+- Compare a ban with teaching young people to use these apps well. Which would you choose, and why?
+- Someone tells you: "Some teenagers depend on online communities for support." How does that change your view?
+- There is no alternative Australia to compare with. Why does that make judging the policy so hard?
+
+=== Advanced before you read ===
+
+- Can a country run an experiment on its own children?
+- Is the harm in the time spent, or in how platforms are built?
+- Who benefits from a rule that is easy to announce and hard to check?
+
+=== Advanced talk about it ===
+
+- If the harm lies in how platforms are designed, does an age limit address it at all?
+- Argue against this: "A ban in name is not a ban in practice, so the policy is theatre."
+- Compliance figures look impressive and reveal little. What would honest reporting of this policy include?
+- What would convince you the ban had worked, or failed?

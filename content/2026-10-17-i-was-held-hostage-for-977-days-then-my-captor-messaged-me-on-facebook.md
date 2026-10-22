@@ -56,16 +56,41 @@ The case might appear to offer a narrative of justice eventually catching up wit
 
 His experience challenges the assumption that sympathy for a captor always reflects manipulation. Victims may distinguish between individuals, change their assessments as evidence emerges and still resist the desire for vengeance. None of those responses necessarily diminishes the harm they suffered. The Facebook correspondence forced Moore to confront uncomfortable questions about trust, complicity and mercy, but it did not bring about a tidy reconciliation. Sometimes the struggle to understand the past continues long after the legal case has ended.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How do you think a person might cope with a very long period of captivity?
-- What might make it easier or harder for someone to talk about a bad experience?
-- What makes it easier or harder to forgive someone, do you think?
+- What would be hardest about being far from home?
+- Can you forgive someone who hurt you?
+- What is the difference between forgiving and forgetting?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Would you reply to a message from a person who had held you hostage, and why?
-- What is the difference between forgiveness and justice?
-- Do you think talking to someone who harmed you can help you recover, and why?
-- Should a victim have a say in how severely an offender is punished, and why?
-- How does your country deal with serious crimes: with punishment or with rehabilitation?
+- A former guard sent Moore a friendly message. Would you reply? Start with: I would ... because ...
+- Is a long prison sentence the right answer?
+- Someone says he should never have spoken to him. What do you say to them? Start with: I understand, but ... or I agree, because ...
+- What helps someone recover after something terrible?
+
+=== Intermediate before you read ===
+
+- Why might a victim want to talk to the person who harmed them?
+- Is justice the same as closure?
+- Should a victim help an investigation?
+
+=== Intermediate talk about it ===
+
+- Moore informed the FBI and helped set up the operation. Was that justice, or a second betrayal? Why?
+- Compare punishment with rehabilitation. Which does more for a victim, and why?
+- Someone tells you: "Thirty years is the only answer here." What would you say back?
+- Trial evidence showed the guard had more authority than Moore realised. How should that change his view?
+
+=== Advanced before you read ===
+
+- Does punishment deliver closure, or only finality?
+- Can a victim fairly influence a sentence?
+- Is understanding a captor a form of forgiveness?
+
+=== Advanced talk about it ===
+
+- Moore questions the assumption that punishment supplies psychological closure. What would supply it instead?
+- Argue against this: "A victim's feelings should have no bearing on sentencing."
+- He wanted those responsible held to account but was uneasy about a subordinate facing a severe sentence. Is that inconsistent, or precise?
+- What would you need before you could consider a matter closed?

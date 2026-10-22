@@ -70,16 +70,41 @@ The work itself deserves more attention than it usually receives. Remaining atte
 
 It would be simplistic, however, to write the industry off as proof that friendship has disappeared. People have long paid guides, coaches and entertainers to make shared experiences possible. The distinctive feature here is how openly company itself is valued. China's paid companions suggest that in an age of abundant digital communication, reliable human presence has become a surprisingly scarce commodity. Whether that scarcity is a cause for concern or simply a feature of modern urban life is, in the end, a question the industry leaves its customers to answer for themselves.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What do you do when you want to go somewhere and nobody is free?
-- How easy is it to make new friends as an adult?
-- Would paying for someone's company feel strange to you, and why?
+- What do you do when nobody is free to go with you?
+- Would you go to a restaurant alone?
+- Who do you call when you want company?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Which activities would you consider doing with a paid companion?
-- What is the difference between companionship, guidance and friendship?
-- Does living in a large city make loneliness more or less likely?
-- What rules should protect both customers and people providing the service?
-- Could businesses like this reduce loneliness, or might they make it worse?
+- In China you can pay someone to join you for a day out. Would you? Start with: I would ... because ...
+- Is paid company better than no company?
+- Someone says this is just sad. What do you say to them? Start with: I disagree, because ... or Maybe, but ...
+- What makes a good companion for a day out?
+
+=== Intermediate before you read ===
+
+- Why might someone hire a companion rather than ask a friend?
+- Does paying remove the obligation, or add a different one?
+- What skills does this job need?
+
+=== Intermediate talk about it ===
+
+- A paid day ends with a payment, not a plan to meet again. Is that freeing or hollow? Why?
+- Compare hiring a companion with joining a club. Which would you try, and why?
+- Someone tells you: "If you pay for it, it is not friendship." What would you say back?
+- Not every customer is isolated. Why is that worth saying?
+
+=== Advanced before you read ===
+
+- Has friendship always involved quiet accounting?
+- Does naming a price make an exchange more honest or less?
+- What work is involved in being good company?
+
+=== Advanced talk about it ===
+
+- The writer says these companions simply put a price on what social life already involved. Does that reframing hold?
+- Argue against this: "A companionship market is a symptom to treat, not a service to admire."
+- Remaining attentive and cheerful for a stranger is called genuinely demanding. Why is that work so easy to undervalue?
+- What do your friendships quietly ask of you that you have never named?

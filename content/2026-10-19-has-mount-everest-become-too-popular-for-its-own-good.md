@@ -58,16 +58,41 @@ The economics weigh just as heavily. Mountaineering generates employment and rev
 
 The controversy illustrates a broader problem in adventure tourism. Paying for professional support can open up remarkable experiences to people who would never have reached them unaided, but no amount of money buys immunity from physical risk. Everest is simply the most dramatic illustration of a straightforward principle: the freedom to pursue a dream does not cancel the responsibility to consider who else bears its consequences. That holds well beyond the Himalayas, wherever difficulty itself has been packaged up and sold.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What is the most adventurous thing you have ever done?
-- How far should people be allowed to go in search of adventure?
-- Who do you think is responsible if a tourist gets into trouble abroad?
+- Would you like to climb a mountain?
+- Why do people take dangerous risks?
+- Should dangerous activities be controlled?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why might large numbers of climbers make Everest more dangerous?
-- Should climbers have to prove their experience by law, and why?
-- What responsibilities do expedition companies have towards their guides and porters?
-- Does tourism in your country ever put local people or places under pressure?
-- Is attempting Everest a right, a privilege or simply a service you can buy?
+- Nepal may require climbers to have climbed a 7,000-metre peak first. Good rule? Start with: I think ... because ...
+- Who should decide who can climb Everest?
+- Someone says people should be free to take any risk. What do you say to them? Start with: I agree, because ... or Not when ...
+- What makes a person ready for something difficult?
+
+=== Intermediate before you read ===
+
+- Does experience make a climber safe?
+- Who is put at risk when a climber is unprepared?
+- Should a poorer country turn away tourist money?
+
+=== Intermediate talk about it ===
+
+- Queues form when expeditions share a weather window. Why is waiting itself dangerous?
+- Compare limiting numbers with raising the price. Which is fairer, and why?
+- Someone tells you: "Everest income matters more than Everest rules." What would you say back?
+- The measures were still being discussed. Why do proposals get reported as rules?
+
+=== Advanced before you read ===
+
+- Can a rule measure judgement?
+- Who carries the risk created by someone else's ambition?
+- Should access to a mountain be rationed, and by what?
+
+=== Advanced talk about it ===
+
+- A previous 7,000-metre summit is called an imperfect and expensive proxy. What would be a better test, and could it be enforced?
+- Argue against this: "Restricting Everest protects the mountain's reputation, not the people on it."
+- Guides and local communities feel the effect first either way. How should that shape the law?
+- What risk would you take that you would not want someone else to take for you?

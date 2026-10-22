@@ -54,16 +54,41 @@ Tate's exhibition, curated by Edward Enninful, offers an opportunity to revisit 
 
 Perhaps the renewed enthusiasm for the 1990s tells us less about what life was actually like then than about the aspects of modern living that people feel powerless to change. Digital technology has delivered remarkable convenience, but it has also turned attention into a valuable commodity. Choosing an old camera will not solve that problem. It may, however, offer a small reminder that convenience is not the only measure of a satisfying life, and that not every moment needs to be shared to be worth remembering.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Which decade's music, clothes or films do you enjoy most, and why?
-- How can people feel nostalgic for a time they never actually lived through?
-- Which modern convenience would you give up for a slower way of doing things, and why?
+- What were you doing in the 1990s, or where were your parents?
+- Do you like old music or old films?
+- Would you use a camera that is not a phone?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Are young people drawn to the 1990s, or just fed up with the present?
-- Why can an old camera feel more special than a better phone camera?
-- When people look back fondly on a decade, what tends to get left out?
-- Which parts of 1990s life would you definitely not want back?
-- Do slower habits really help us concentrate, or are they just fashionable?
+- Young people are buying old cameras and CDs. Why do you think that is? Start with: I think it is because ...
+- Which decade would you most like to visit?
+- Someone says the past was better. What do you say to them? Start with: In some ways yes, because ... or I don't agree, because ...
+- What is one thing from twenty years ago you would bring back?
+
+=== Intermediate before you read ===
+
+- Why do people feel nostalgic for a time they never lived through?
+- Is slower technology ever better technology?
+- What do you think people will miss about today in thirty years?
+
+=== Intermediate talk about it ===
+
+- The article says the appeal may be the limits these objects impose. Do you find limits freeing or frustrating? Why?
+- Compare a film camera with a phone camera. What do you gain and lose with each?
+- Someone tells you: "This is just fashion, and it will pass." What would you say back?
+- The 1990s also had wars, inequality and the AIDS crisis. Why do those parts rarely appear in the nostalgia?
+
+=== Advanced before you read ===
+
+- Is nostalgia a feeling about the past or a complaint about the present?
+- Can you be nostalgic for something you never experienced?
+- Who profits when a decade becomes a style?
+
+=== Advanced talk about it ===
+
+- The writer calls analogue inconvenience a form of freedom. Is that insight, or a comfortable story for people with choices?
+- Argue against this: "Romanticising the 1990s erases everyone the decade treated badly."
+- Tate's exhibition reframes the decade as contested rather than golden. What does a museum gain by doing that?
+- What limit would you willingly accept in your own life, and why have you not accepted it yet?

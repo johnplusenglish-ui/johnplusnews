@@ -56,16 +56,41 @@ Social media adds another layer of complexity. We may think we know what became 
 
 Mike's story raises a particularly delicate issue: can an apology help heal a past injury, or does it sometimes serve primarily the person offering it? Intentions matter, but so does the effect on the person listening. Anyone turning up at a reunion hoping to put things right might first consider whether an old classmate wants that conversation at all. The most valuable outcome may be neither forgiveness nor renewed friendship, but a more generous understanding of who everyone has become. After twenty years, perhaps growing up means no longer needing to win at school.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Would you enjoy seeing your former classmates again?
-- What might make a school reunion comfortable or uncomfortable for someone?
-- Can an apology make a difference many years later?
+- Are you in touch with people from school?
+- Would you go to a reunion?
+- Do people change after twenty years?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why do old school friendships sometimes feel different from adult friendships?
-- Was Mike right to apologise, even though the conversation became awkward?
-- Does social media make reunions less interesting or more stressful?
-- Do people really change, or do their school personalities remain underneath?
-- What would you want to ask a classmate you had not seen for twenty years?
+- Mike wanted to apologise to a classmate. Was that the right thing? Start with: I think ... because ...
+- Is it ever too late to say sorry?
+- Someone says the past should stay in the past. What do you say to them? Start with: I disagree, because ... or I understand, because ...
+- What would you want to ask an old classmate?
+
+=== Intermediate before you read ===
+
+- Why do school memories stay so strong?
+- What might make a reunion uncomfortable for someone?
+- Does social media make reunions easier or harder?
+
+=== Intermediate talk about it ===
+
+- The apology did not go as Mike imagined. Does that make it less worthwhile? Why?
+- Compare apologising privately with apologising at a reunion. Which is braver, and why?
+- Someone tells you: "He apologised to feel better, not to help." What would you say back?
+- The man who was bullied ended up comforting Mike. What does that tell you about apologies?
+
+=== Advanced before you read ===
+
+- Does an apology serve the wronged or the speaker?
+- Can a reunion restore an old hierarchy as easily as it dissolves one?
+- Is silence in the face of cruelty its own act?
+
+=== Advanced talk about it ===
+
+- Mike had not joined in, but had not intervened either. How should that be judged twenty years on?
+- Argue against this: "Late apologies impose the apologiser's needs on someone who had moved on."
+- Intentions matter, but so does the effect on the listener. How would you apologise given that?
+- What would make an apology to you feel genuine rather than tidy?

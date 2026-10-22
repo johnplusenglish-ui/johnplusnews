@@ -57,16 +57,41 @@ Directors Phil Lord and Christopher Miller bring a playful sensibility to materi
 
 For all its fictional physics, Project Hail Mary makes a serious argument about the value of intellectual curiosity. Its central figure is frightened, frequently wrong and dependent on knowledge he cannot possess alone. The film's optimism does not come from the comforting assumption that everything will work out, but from the conviction that people can make progress by testing their assumptions and learning to cooperate. Hollywood's latest attempt to save the world hinges on curiosity and cooperation, making it, among other things, a spirited defence of thinking before acting.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Which film or book has changed the way you think about science?
-- Would you travel into space on a dangerous mission, and why?
-- What makes a good hero: courage, intelligence or the ability to work with others?
+- Do you like science fiction films?
+- What makes a good film hero?
+- Did you enjoy science at school?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why is Ryland Grace an unusual hero for a Hollywood blockbuster?
-- What makes an invented scientific idea feel believable in a story?
-- How does the relationship between Grace and Rocky change the story?
-- How far should a film bend the facts to tell a better story?
-- Would you rather read a detailed science-fiction novel or watch its film adaptation? Why?
+- The hero solves problems with experiments, not weapons. Do you like that? Start with: I do ... because ...
+- Should films try to get the science right?
+- Someone says science fiction should just be fun. What do you say to them? Start with: I agree, because ... or It can be both, because ...
+- Which film made you curious about something real?
+
+=== Intermediate before you read ===
+
+- Can a film teach science, or only interest you in it?
+- Why are most film heroes fighters?
+- Does accuracy make a story better or slower?
+
+=== Intermediate talk about it ===
+
+- NASA advised on the film, but the organisms are invented. Where should a film draw that line?
+- Compare this film with another space story you know. What does each one value?
+- Someone tells you: "If the science is wrong, the film has failed." What would you say back?
+- Critics disagreed about the tone. Why might warmth divide an audience?
+
+=== Advanced before you read ===
+
+- Is optimism in fiction honest or comforting?
+- What does popular science fiction teach people to expect of scientists?
+- Can cooperation carry a story the way conflict does?
+
+=== Advanced talk about it ===
+
+- The film's optimism comes from testing assumptions rather than assuming success. Is that a meaningful distinction?
+- Argue against this: "Audiences learn bad science from good films, and the charm makes it worse."
+- Astrophysicists question the energy Astrophage would store. Does a known impossibility matter if the method is right?
+- What would a film have to get wrong before you stopped enjoying it?

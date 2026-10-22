@@ -54,16 +54,41 @@ It would be unfair to romanticise the past. Invitations were never equally conve
 
 What may need reviving is not the elaborate dinner party but the modest invitation. A pot of tea, a shop-bought dessert or a simple supper can create room for conversations that rarely develop through hurried messages. Friendship does not require polished surroundings. It requires repeated opportunities to spend unhurried time together. The real loss would be to mistake hospitality for performance and, in doing so, forget how easy it can be to make someone feel welcome.
 
-=== Before you read ===
+=== Core before you read ===
 
-- When did you last invite someone over without a special reason?
-- What would you worry about most: the food, the mess or the conversation?
-- Would an unexpected visit from a friend feel friendly or inconsiderate, and why?
+- Do you invite friends to your home?
+- Do you prefer to meet at home or in a café?
+- What do you do before visitors arrive?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- How has social media changed what people think a home should look like?
-- Why can meeting in a public place feel easier than inviting someone in?
-- In your country, who usually does the work when people have guests at home?
-- What is the difference between hospitality and performance?
-- What is the simplest invitation you could realistically make this week?
+- Do you worry about your home being tidy before friends come? Start with: I do ... because ... or I don't, because ...
+- What is the easiest way to see friends?
+- Someone says you need to cook a proper meal for guests. What do you say to them? Start with: I agree, because ... or Nobody expects that, because ...
+- What makes you feel welcome in someone's home?
+
+=== Intermediate before you read ===
+
+- Has it become harder to invite people over, do you think?
+- Why do we hold our homes to a higher standard than we used to?
+- Is meeting out always more expensive than meeting in?
+
+=== Intermediate talk about it ===
+
+- The article says the standard for hosting quietly rose. Who or what raised it, do you think?
+- Compare an evening at home with an evening in a restaurant. What does each one make possible?
+- Someone tells you: "Just invite people and stop worrying." Why is that harder than it sounds?
+- Research shows people socialise less than they used to. What would change that trend?
+
+=== Advanced before you read ===
+
+- Has hospitality become a performance?
+- Is the decline in hosting about money, housing, or expectations?
+- What does a home that nobody visits cost its owner?
+
+=== Advanced talk about it ===
+
+- The writer says domestic perfection turned friendship into a test. Who set that standard, and who benefits from it?
+- Argue against this: "People stopped hosting because their homes got smaller and their rents got higher, not because of Instagram."
+- Caren's research finds Friday nights now look like any weeknight. What has replaced them?
+- What would you have to stop caring about before you invited someone over tonight?

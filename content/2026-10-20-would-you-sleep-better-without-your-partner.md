@@ -63,16 +63,41 @@ The language used between partners also matters. Sleep disruption is often invol
 
 The wider debate reveals how readily cultural expectations become mistaken for relationship rules. Two people can share a bed and feel emotionally distant, or sleep in different rooms and maintain a close partnership. Rather than holding up one arrangement as the romantic ideal, perhaps couples should be encouraged to discuss sleep as they would any other shared responsibility: honestly and without embarrassment.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How easy do you find it to sleep when someone else is in the room?
-- What habits can disturb a partner at night?
-- How much of their daily routine do couples really need to share?
+- Do you share a bed?
+- What stops you sleeping: noise, light or something else?
+- Is sleep a common argument in couples?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- How important do you think sharing a bed is in a relationship?
-- What would you do if a partner kept you awake?
-- What do you think of "sleep divorce" as a name for this?
-- How common are separate bedrooms for couples in your country?
-- When might sleeping separately hide a problem rather than solve it?
+- Some couples sleep in separate rooms. Is that a problem? Start with: I think ... because ...
+- What would help two people sleep better together?
+- Someone says separate beds mean the relationship is over. What do you say to them? Start with: I disagree, because ... or I see why, but ...
+- What does a good night's sleep do for you?
+
+=== Intermediate before you read ===
+
+- Why does the phrase sleep divorce sound dramatic?
+- Is sharing a bed a choice or an expectation?
+- Does poor sleep damage a relationship?
+
+=== Intermediate talk about it ===
+
+- Nearly a third of US adults report sleeping apart. Does that number change how it sounds? Why?
+- Compare separate rooms with separate blankets. Which would you try first, and why?
+- Someone tells you: "If you cannot share a bed, something is wrong." What would you say back?
+- Separate rooms need space many couples do not have. Who does this advice actually serve?
+
+=== Advanced before you read ===
+
+- Why is a sleeping arrangement read as a statement about a relationship?
+- Who can afford a second bedroom?
+- Does naming something make it more acceptable or more alarming?
+
+=== Advanced talk about it ===
+
+- The writer says the arrangement says less about a relationship than the phrase implies. What does it actually say?
+- Argue against this: "Sleep divorce is a lifestyle story that ignores housing costs."
+- Snoring and shift work rarely make elegant romantic narratives. Why does that shape the coverage?
+- What ordinary arrangement in your life would sound alarming if it had a dramatic name?

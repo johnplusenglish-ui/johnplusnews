@@ -57,16 +57,41 @@ What sets this kind of design apart from simple nostalgia is its refusal to trea
 
 Ukraine's experience points to a broader lesson. A culture is not only a collection of irreplaceable monuments; it is also a network of people who know how to make things, pass that knowledge on and invest familiar symbols with contemporary meaning. Protecting the monuments is comparatively straightforward. Keeping the network intact, particularly under wartime conditions, may call for as much creativity as conservation. It is an unglamorous form of preservation, and quite possibly a more durable one.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How interested are you in traditional crafts such as weaving or pottery?
-- Do you prefer handmade things or factory-made things, and why?
-- Which object in your home means the most to you, and why?
+- What traditional crafts does your country have?
+- Would you buy something handmade?
+- How do people keep old skills alive?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- What traditional crafts in your country are at risk of disappearing?
-- Can luxury brands help preserve culture, or do they make it less accessible?
-- What is the difference between copying an old design and creatively adapting it?
-- Why might cultural heritage become especially important during a war?
-- Should governments support traditional craftspeople financially, and why?
+- GUNIA works with over 150 craftspeople. Does selling crafts help keep them alive? Start with: I think ... because ...
+- Is handmade always better?
+- Someone says traditional things belong in a museum. What do you say to them? Start with: I disagree, because ... or Partly, because ...
+- What craft would you like to learn?
+
+=== Intermediate before you read ===
+
+- Can a craft survive without customers?
+- Does changing a tradition damage it?
+- Who should decide what counts as traditional?
+
+=== Intermediate talk about it ===
+
+- The company adapts old patterns rather than copying them. Is that preservation or reinvention? Why?
+- Compare a museum collection with a working workshop. Which keeps a skill alive, and why?
+- Someone tells you: "Selling culture as luxury helps the rich, not the craft." What would you say back?
+- Handmade goods may be unaffordable for many. Does that undermine the project?
+
+=== Advanced before you read ===
+
+- Is a living tradition one that changes?
+- Who profits when heritage becomes a product?
+- Can culture be defended commercially during a war?
+
+=== Advanced talk about it ===
+
+- The artisans sell rather than catalogue their work. What does that commercial footing protect, and what does it put at risk?
+- Argue against this: "Turning craft into luxury goods is preservation for people who can afford it."
+- A craft rarely dies in a single event. What actually kills one, and what would stop it?
+- What from your own culture would you want sold, and what would you want left alone?

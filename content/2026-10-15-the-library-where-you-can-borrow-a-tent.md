@@ -57,16 +57,41 @@ There is an environmental argument, too, although it deserves a little caution. 
 
 At a time when public libraries are frequently required to justify their existence, the Colorado experiment offers a more expansive definition of what they provide. Its central innovation is not the tent itself but the removal of a threshold. A person can try camping without buying equipment, learn to recognise local birds without first becoming an expert, or explore a garden without owning one. The institution remains recognisably a library: a place where resources are shared so that opportunities need not belong exclusively to those who can afford them.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What is the most surprising thing a library could lend?
-- Which outdoor activity would you try if the equipment were free?
-- How far does having a park nearby make nature available to everyone?
+- What can you borrow from your local library?
+- Have you ever been camping?
+- What equipment is too expensive to buy?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Should libraries lend equipment as well as information? Why or why not?
-- Which barriers to outdoor activities are financial, and which are psychological?
-- How well would a similar service work in your town or city?
-- What other rarely used objects should communities share?
-- How should the library judge whether the project is successful?
+- A library that lends tents and microscopes. Would you use it? Start with: I would ... because ...
+- What else should libraries lend?
+- Someone says libraries should only lend books. What do you say to them? Start with: I disagree, because ... or I see the point, because ...
+- What would you try if the equipment were free?
+
+=== Intermediate before you read ===
+
+- What is a library actually for?
+- Does borrowing change what you are willing to try?
+- Who misses out when equipment is expensive?
+
+=== Intermediate talk about it ===
+
+- The library lends 850 sets of equipment alongside its books. Is that still a library? Why?
+- Compare buying a tent with borrowing one. What changes besides the cost?
+- Someone tells you: "People will not look after things they do not own." What would you say back?
+- The building uses solar panels and geothermal heating. Does that strengthen the message, or is it decoration?
+
+=== Advanced before you read ===
+
+- Should access to hobbies depend on income?
+- Is lending equipment a public service or a subsidy?
+- What does a library signal about a community's priorities?
+
+=== Advanced talk about it ===
+
+- The writer calls this the library's oldest principle extended. Is that persuasive, or a nice way to justify an expensive scheme?
+- Argue against this: "Lending gear is a middle-class convenience dressed as equality."
+- Environmental knowledge does not automatically change behaviour. What would have to accompany the tents?
+- What would you borrow that you have talked yourself out of buying?

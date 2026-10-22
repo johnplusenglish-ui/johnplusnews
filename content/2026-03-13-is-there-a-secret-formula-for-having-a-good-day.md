@@ -56,16 +56,41 @@ There is also a danger in treating happiness as another project to optimise. If 
 
 Nevertheless, the findings provide a useful prompt to pay attention to the texture of ordinary life. Are you endlessly putting off the walk that usually clears your head? Do you spend your evenings scrolling because it is easy, even though meeting a friend would leave you more content? Small adjustments may be possible without transforming your entire schedule. The most sensible conclusion is neither to worship a formula nor ignore the evidence. It is to experiment thoughtfully, recognise your constraints and make deliberate space for the activities that give your days meaning.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What three things usually make a day feel good to you?
-- Does having a very busy day make you happier or more tired?
-- Would you follow a scientific plan for a better day?
+- What makes a day good for you?
+- How much time do you spend with other people each day?
+- Do you plan your free time, or decide as you go?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Which result of the study is most surprising to you?
-- Does the amount of time spent with friends matter more than the quality of the time?
-- Are people with flexible working hours at an unfair advantage?
-- Can measuring happiness too carefully make us less happy?
-- If you could change one hour of your normal day, what would you do with it?
+- The study found that time with people mattered most. Is that true for you? Start with: For me it is ... because ...
+- Would you follow a timetable for a good day, or does that ruin it?
+- Someone says happiness cannot be studied. What do you say to them? Start with: I think they are right, because ... or I don't agree, because ...
+- What is one small thing that always improves your day?
+
+=== Intermediate before you read ===
+
+- Can science tell you how to spend a Saturday?
+- Why might happy people and sociable people be the same people?
+- Is a good day something you plan, or something that happens?
+
+=== Intermediate talk about it ===
+
+- The benefit of socialising levelled off after about two hours. Does that match your experience? Why?
+- Compare a planned day with an unplanned one. Which usually ends better for you, and why?
+- Someone says: "If the research shows it, I should just follow it." What would you say back?
+- The study shows links, not causes. Why does that difference matter here?
+
+=== Advanced before you read ===
+
+- Is there anything lost in treating a good day as a problem to solve?
+- Would you want to know the formula, if one existed?
+- Who benefits most from the idea that happiness can be optimised?
+
+=== Advanced talk about it ===
+
+- The writer warns against turning happiness into another project. Is that warning fair, or just a way of avoiding effort?
+- Argue against this: "Averages from 15,000 people tell you nothing useful about your own Tuesday."
+- The models examined more than a hundred activities. What can that method never capture?
+- Is there a part of your life you would refuse to measure, even if measuring it helped?

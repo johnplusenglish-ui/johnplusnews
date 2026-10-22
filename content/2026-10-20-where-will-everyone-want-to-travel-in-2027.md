@@ -63,16 +63,41 @@ The fact that a company has recorded growing search interest does not establish 
 
 Perhaps the most useful lesson from a travel forecast is not to book immediately. It is to ask why these places are appealing, what sort of experience they offer and whether increased attention will change them. The best destination for 2027 will not be the same for everybody, regardless of what a ranking says.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Where would you most like to travel next year, and why?
-- Do you prefer famous cities or quieter places, and why?
-- How do you decide where to go on holiday?
+- Where would you like to travel next?
+- How do you choose a destination?
+- Do you follow travel accounts online?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- What makes a destination suddenly fashionable?
-- Would you choose a holiday because a website said it was trending, and why?
-- How much do you trust online lists of the best places to visit?
-- How can popular destinations protect local communities?
-- Which less well-known place would you recommend to international visitors?
+- Expedia says searches are growing for these places. Does a search mean anything? Start with: I think ... because ...
+- Would you visit somewhere just because it is popular?
+- Someone says these lists are advertising. What do you say to them? Start with: I agree, because ... or They are useful, because ...
+- Which place near you deserves more visitors?
+
+=== Intermediate before you read ===
+
+- Who writes travel lists, and why?
+- Does being on a list change a place?
+- What would make you book rather than browse?
+
+=== Intermediate talk about it ===
+
+- A search is not a booking. What else would you want to know before calling this a trend?
+- Compare a famous destination with one outside the spotlight. What do you gain in each?
+- Someone tells you: "If everyone reads the list, the quiet places stop being quiet." What would you say back?
+- The list includes places that are already famous. Does that weaken it?
+
+=== Advanced before you read ===
+
+- Can a prediction create the thing it predicts?
+- Who benefits when a destination is named?
+- Is promoting a quieter alternative ever responsible?
+
+=== Advanced talk about it ===
+
+- Coverage breeds curiosity, curiosity lifts the figures, and the figures generate coverage. How would you break that loop?
+- Argue against this: "Travel lists are market research published as journalism."
+- A percentage rise measures interest inside one platform, not global visitor numbers. Why is that so often blurred?
+- What would you want said about your own town in a list like this?

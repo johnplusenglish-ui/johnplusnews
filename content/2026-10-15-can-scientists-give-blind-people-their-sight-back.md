@@ -56,16 +56,41 @@ Safety, rather than proof of clinical effectiveness, was the study's primary obj
 
 Medicine advances not only through spectacular recoveries but through the steady accumulation of smaller capabilities. For someone with severe visual impairment, identifying a doorway or reaching towards an object can offer a measure of independence even when familiar faces remain invisible. The next challenge is to improve resolution, assess safety in larger studies and determine whether gains achieved in the laboratory hold up outside controlled settings. The treatment cannot yet return the world to patients as they once saw it. What it may eventually offer is a new way of navigating that world.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Which of your daily tasks would be hardest without good eyesight?
-- How can technology improve the lives of people with disabilities?
-- How do people in your country get access to brand new medical treatments?
+- How much do you use your eyes in your work?
+- What helps blind people where you live?
+- Would you try a new medical treatment?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- How important is the difference between partial sight and normal vision?
-- How much difference could finding a doorway or an object make to someone's independence?
-- How should journalists report promising results from very small medical trials?
-- Who should pay for expensive experimental treatments if they eventually become available?
-- When can a treatment be called a success, even if it does not cure anything?
+- Six of ten patients improved but none could see faces. Is that a success? Start with: I think ... because ...
+- What would you most want to see again?
+- Someone says this is not a real cure so it does not count. What do you say to them? Start with: I disagree, because ... or In a way, yes, but ...
+- Which new technology would help people most?
+
+=== Intermediate before you read ===
+
+- What does it mean to call a treatment experimental?
+- Is partial sight a big change or a small one?
+- How should doctors talk about hope?
+
+=== Intermediate talk about it ===
+
+- Patients who practised more with the goggles did better. What does that add to the result?
+- Compare this treatment with a pair of glasses. What makes one simple and the other difficult?
+- Someone tells you: "Small trials prove nothing." What would you say back?
+- The study had ten patients and no comparison group. Why does that matter for what we can claim?
+
+=== Advanced before you read ===
+
+- How much certainty should a patient need before trying something new?
+- Who decides which conditions get research money?
+- Is a headline about restored sight ever honest?
+
+=== Advanced talk about it ===
+
+- The trial was small, open-label and uncontrolled. What exactly can it establish, and what can it not?
+- Argue against this: "Reporting early-stage trials gives false hope and should be restrained."
+- Independent researchers welcomed evidence of lasting visual function. Why is duration the interesting part?
+- What would you want to know before agreeing to be patient number one?

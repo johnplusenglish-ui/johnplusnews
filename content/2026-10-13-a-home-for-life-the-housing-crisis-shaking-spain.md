@@ -55,16 +55,41 @@ Competing explanations produce competing remedies. Tenant organisations call for
 
 That is why Abascal's story struck a nerve. The law may establish who has the right to occupy a particular flat, but it cannot fully express the significance of decades spent living there. A successful housing policy has to grapple with affordability, supply and legal certainty; it must also acknowledge that a home is not interchangeable with any other address. Behind the arguments about market efficiency lies a simple concern: whether people can remain in the communities to which they have devoted their lives.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How easy is it for young people to rent or buy a home where you live?
-- What makes a place feel like home to you, rather than just somewhere you sleep?
-- What sort of issue would be important enough to make you join a protest?
+- How long have you lived in your home?
+- Is it easy to find somewhere to live in your city?
+- What makes a place feel like home?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why do you think Maricarmen's story affected so many people in Spain?
-- Who should be responsible for making homes affordable: the government, landlords, or the people who need them?
-- Some people say tourist flats and big investors push prices up. What do you think?
-- Should there be a limit on how much a landlord can raise the rent? Why or why not?
-- What would make it easier for young people in your country to find a home?
+- Maricarmen lived in the same flat for over 70 years. How would it feel to lose that? Start with: I think it would ... because ...
+- Should older people have extra protection from eviction?
+- Someone says a landlord has the right to raise the rent. What do you say to them? Start with: That is true, but ... or I agree, because ...
+- What would help people in your city find homes they can afford?
+
+=== Intermediate before you read ===
+
+- Why has housing become such an angry subject?
+- Can one person's story change a national argument?
+- Who do you think should fix a housing shortage?
+
+=== Intermediate talk about it ===
+
+- Her case turned private worry into public protest. Why do you think this story spread, and not others?
+- Compare renting with owning in your country. Which gives people more security, and why?
+- Someone tells you: "The law was followed, so there is nothing to protest about." What would you say back?
+- Investment funds now own many flats. Does that change what renting means?
+
+=== Advanced before you read ===
+
+- Is housing a market like any other, or something else?
+- Does a single death change a policy argument, or only its volume?
+- Whose interests does a long tenancy protect, and whose does it cost?
+
+=== Advanced talk about it ===
+
+- The article is careful not to claim the eviction caused her death. Why does that care matter when feelings are running high?
+- Argue against this: "Rent protection helps the tenants who already have homes and nobody else."
+- Tenant groups want security, regulation and social housing. Which would change the most, and what would it cost?
+- What would have to be true for housing in your country to feel settled rather than contested?

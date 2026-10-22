@@ -63,16 +63,41 @@ Compensated overtime, reliable staffing and transparent arrangements for excepti
 
 Perhaps the debate should move beyond deciding whether quiet quitting is virtuous or lazy. It raises a more practical question about the unwritten contract between organisations and their staff. Sustainable commitment depends not just on individual motivation but also on fairness, trust and an honest agreement about what a job actually requires.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What makes you willing to do more than you are asked to do?
-- How do you feel about answering work messages in the evening?
-- What makes someone a good employee?
+- Do you answer work messages in the evening?
+- What are your working hours?
+- Is it wrong to do only your job?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Is quiet quitting a useful term, or is it unfair to workers?
-- In your country, how normal is it to work unpaid extra hours?
-- Should employers pay for every extra hour, and why?
-- Does ambition always make life better, or can it cost too much?
-- How can teams balance individual boundaries with shared responsibilities?
+- Doing your job and no more. Is that quiet quitting or just working? Start with: I think it is ... because ...
+- Should you be paid for extra hours?
+- Someone says this attitude lets colleagues down. What do you say to them? Start with: Sometimes, but ... or I agree, because ...
+- What makes a fair day's work?
+
+=== Intermediate before you read ===
+
+- Why did this phrase become so popular?
+- Can you be committed and still leave on time?
+- Who decides what extra means?
+
+=== Intermediate talk about it ===
+
+- Gallup found 20% engaged, but that is not the same as quiet quitting. Why do the two get confused?
+- Compare an office worker with a nurse at the end of a shift. How do boundaries differ?
+- Someone tells you: "Setting limits is just doing less." What would you say back?
+- Some teams give time off after busy periods. Why does agreeing that in advance matter?
+
+=== Advanced before you read ===
+
+- Is a boundary a right or a privilege?
+- Who can afford to refuse extra work?
+- Does naming a behaviour change how it is judged?
+
+=== Advanced talk about it ===
+
+- Bargaining power decides who can set a boundary safely. How should that shape the public argument?
+- Argue against this: "Quiet quitting is a media label for ordinary employment terms being honoured."
+- An employee's right to boundaries does not remove duties to colleagues. Where is the line?
+- What have you agreed to at work that you would renegotiate now?

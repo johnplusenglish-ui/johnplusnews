@@ -61,17 +61,41 @@ There is a broader question of environmental justice here. Attractive landscapes
 
 Portugal's coastal controversy demonstrates that tourism policy is not only a matter of visitor numbers and revenue. It is also about governance, belonging and the meaning of public space, and about which of those things a council is willing to defend when money is on the table. A successful coastal economy ought to be judged not simply by the income it generates, but by whether the people who live beside it retain a genuine place within it. On that measure, the protests themselves may be the most useful evidence available.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How do you feel about paying to use a beach?
-- What stops people from getting to the beaches or parks near them?
-- How has tourism changed a place you know well?
+- Do you live near the sea?
+- Should beaches be free to everyone?
+- Who looks after public spaces near you?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why do beaches matter to local communities beyond tourism?
-- What is the difference between owning a beach and running services on it?
-- Can charging for facilities protect a natural area, or does it exclude people?
-- Who should have the strongest voice in decisions about the coastline?
-- What rules would you introduce to protect public access to beaches?
+- People protested about plans near beaches in Portugal. Why does it matter? Start with: I think ... because ...
+- Should you ever pay to reach a beach?
+- Someone says businesses provide useful services at beaches. What do you say to them? Start with: True, but ... or I agree, because ...
+- What makes a public place feel welcoming?
 
+=== Intermediate before you read ===
+
+- Who should control access to a coastline?
+- Does tourism help or crowd out local families?
+- What services at a beach are worth paying for?
+
+=== Intermediate talk about it ===
+
+- Protesters feared development would make access harder. Is fear of a plan a reason to stop it? Why?
+- Compare a managed beach with an unmanaged one. What do you gain and lose?
+- Someone tells you: "Someone has to pay for cleaning and safety." What would you say back?
+- Many tourism jobs last only a few months. How does seasonality change the argument?
+
+=== Advanced before you read ===
+
+- Who owns a view?
+- Does protection of a landscape ever work as exclusion?
+- What makes shared space valuable in the first place?
+
+=== Advanced talk about it ===
+
+- Coastlines become valuable because earlier generations shared them. What follows from that for who should profit now?
+- Argue against this: "Commercial management is the only way crowded beaches survive."
+- Managed facilities, restricted routes and private ownership are different things. Why do they get conflated?
+- What shared place near you would you fight to keep open, and to whom?

@@ -62,16 +62,41 @@ The person may be required to maintain an appearance of productivity, which adds
 
 For years, workplace wellbeing has been framed as a question of protecting people from excessive demands. Rust-out complicates that picture. A genuinely sustainable job may require an appropriate level of challenge as well as manageable pressure. The opposite of exhaustion is not necessarily having nothing to do. Sometimes it is having something worth doing.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What makes a day at work or school feel long?
-- What do you do when you feel bored at work or school?
-- What makes a task feel worthwhile?
+- Have you ever had a job with too little to do?
+- Is a quiet day at work good or bad?
+- What makes work feel worthwhile?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Is boredom at work a serious problem or a luxury, and why?
-- Why might someone find it hard to admit they are bored at work?
-- Should employers make every job interesting, or is that unrealistic?
-- In your country, do people value a secure job over an interesting one?
-- Would you prefer a secure but boring job or an exciting but stressful one, and why?
+- Psychologists call it rust-out. Does an easy job sound tiring to you? Start with: I think ... because ...
+- Would you rather be too busy or not busy enough?
+- Someone says being paid for little is lucky. What do you say to them? Start with: I see that, but ... or I agree, because ...
+- What would make a quiet job better?
+
+=== Intermediate before you read ===
+
+- Why might boredom at work be harmful?
+- Is it easy to leave a job that is too easy?
+- What is the difference between rest and emptiness?
+
+=== Intermediate talk about it ===
+
+- Rust-out involves boredom and a lack of purpose, unlike burnout. Which would be harder to explain to a manager, and why?
+- Compare adding tasks with changing the kind of task. Which would help more, and why?
+- Someone tells you: "If you are bored, find another job." What would you say back?
+- Financial commitments can make leaving impossible. How does that change the advice?
+
+=== Advanced before you read ===
+
+- Is being underused a workplace failure or a personal one?
+- Does a job owe you meaning?
+- Who designs a role, and who lives in it?
+
+=== Advanced talk about it ===
+
+- The APA points at job design rather than attitude. What would a redesigned role actually change?
+- Argue against this: "Complaining about an easy, well-paid job is a problem most workers would like to have."
+- Being paid to stay available while deprived of influence is not leisure. Why is that distinction easy to miss?
+- What part of your work would you redesign if you could?

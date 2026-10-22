@@ -54,16 +54,41 @@ Disability organisations have been alarmed by rhetoric portraying the glasses pr
 
 The most credible regulatory options include clearer recording indicators, minimum security standards, restrictions on covert filming and accessible complaints procedures. None is foolproof, and enforcement becomes progressively harder as devices shrink, multiply and evolve beyond the categories the law was written for. But the choice need not be between banning useful technology and abandoning privacy altogether. Smart glasses reveal the difficulty of governing tools whose value depends on context. A camera can undermine one person's autonomy while helping another regain it. Lawmakers who ignore either side risk solving one problem by creating another.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Have you ever tried smart glasses, and what would you want to use them for?
-- Do you think it is acceptable to be filmed in public without knowing? Why or why not?
-- How can technology help people with disabilities to live more independently?
+- Would you wear glasses with a camera in them?
+- How do you feel about being filmed in public?
+- What technology helps people with disabilities where you live?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Do the benefits for people with disabilities outweigh the privacy risks of smart glasses? Why or why not?
-- Where, if anywhere, should smart glasses be banned, and why?
-- How would you feel talking to someone who was wearing smart glasses?
-- Which rules would you introduce: recording lights, security standards, or strict penalties for misuse?
-- Can you think of another technology that is helpful for some people and a risk for others?
+- These glasses help blind people but can record strangers. Which matters more? Start with: For me ... because ...
+- Should people have to say when they are recording?
+- Someone says if you are in public, anyone can film you. What do you say to them? Start with: That is the law, but ... or I agree, because ...
+- Where should cameras never be allowed?
+
+=== Intermediate before you read ===
+
+- Is privacy in public a realistic idea any more?
+- Who should decide what technology comes into a country?
+- What would you accept in exchange for more privacy?
+
+=== Intermediate talk about it ===
+
+- The Greens' proposal has an exception for disability devices. Is that exception workable, or easy to abuse? Why?
+- Compare smart glasses with a phone camera. Why do the glasses worry people more?
+- Someone tells you: "A ban on imports solves nothing, people will buy them online." What would you say back?
+- The federal government chose consultation instead of a ban. Which approach suits a fast-moving technology better?
+
+=== Advanced before you read ===
+
+- Should a technology be restricted because of how a minority will misuse it?
+- Does consent mean anything when recording is invisible?
+- Who bears the cost when privacy law lags behind a device?
+
+=== Advanced talk about it ===
+
+- Disability advocates warn a crackdown could remove a genuine aid. How should a lawmaker weigh that against the risk of covert filming?
+- Argue against this: "Enforcement is impossible, so the only honest response is to regulate the footage, not the device."
+- The article stresses this was a proposal, not a law. Why does reporting so often blur that line?
+- Would you change your own behaviour in public if you assumed you were always being recorded?

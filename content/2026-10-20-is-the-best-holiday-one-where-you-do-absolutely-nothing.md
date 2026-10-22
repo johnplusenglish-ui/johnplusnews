@@ -62,16 +62,41 @@ Those outcomes depend on travel distances, accommodation and the wider tourism m
 
 Perhaps the real problem is the expectation that holidays must be optimised. Restful and adventurous travel can both be rewarding when they reflect genuine preferences rather than pressure to tick off experiences. The most successful trip may be the one that leaves a person feeling they actually spent time somewhere, rather than merely passed through it.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How much do you plan before you go away, and why?
-- How would you feel about spending a whole week in one small town?
-- What do you want most from a holiday?
+- Do you plan your holidays or decide as you go?
+- What do you need from a holiday?
+- Do you come home from holidays tired?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Would you feel guilty doing nothing on holiday, and why?
-- How do social media photographs change the way people travel?
-- Is it better to visit many places or get to know one well, and why?
-- In your country, what kind of holiday do most people take?
-- What would your ideal seven-day holiday look like?
+- 45% wanted rest from a summer holiday. Is that what you want? Start with: For me ... because ...
+- Is a busy holiday a real break?
+- Someone says doing nothing is a waste of a holiday. What do you say to them? Start with: I disagree, because ... or I agree, because ...
+- What is your perfect day away?
+
+=== Intermediate before you read ===
+
+- Why do we feel we should see everything?
+- Is rest a luxury or a necessity?
+- What makes a holiday feel too short?
+
+=== Intermediate talk about it ===
+
+- The survey measured rest, not slow travel. Why is that distinction worth keeping?
+- Compare one city for a week with four cities in a week. What does each give you?
+- Someone tells you: "You can rest at home. Travel to see things." What would you say back?
+- Slow travel means accepting you will miss things. Is that easy for you?
+
+=== Advanced before you read ===
+
+- Is a holiday recovery from work, or an escape from it?
+- Who can afford to travel slowly?
+- Does a slower holiday reduce its impact, or just change it?
+
+=== Advanced talk about it ===
+
+- Lingering somewhere is no guarantee of responsible tourism. What would make it responsible?
+- Argue against this: "Slow travel is the same consumption at a more flattering pace."
+- The poll is American and does not prove a global shift. How should a trend piece handle that?
+- What would you have to give up to come home actually rested?

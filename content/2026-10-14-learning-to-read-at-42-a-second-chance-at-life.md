@@ -54,16 +54,41 @@ The achievement did not erase his earlier experiences, but it changed his relati
 
 Adult literacy is frequently misunderstood. People may have limited reading skills for reasons involving disability, disrupted education or inadequate support, none of which is a reliable measure of intelligence. The greatest obstacle can become the expectation that an adult ought already to know how to read, an assumption that encourages silence. Support exists, as Read Easy demonstrates, but it is of little use to anyone too ashamed to walk through the door, which is partly why Peter's candour carries such weight. Peter's story challenges the idea that learning follows a fixed timetable. It also suggests that dignity in education may matter as much as the lessons themselves.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How did you learn to read? What do you remember about it?
-- How much do you read in a normal day, and what sort of things?
-- What would be the hardest part of daily life if you could not read?
+- How old were you when you learned to read?
+- What do you read every day?
+- Is it hard to ask for help?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why do you think Peter kept his difficulty secret for so long?
-- Peter's goal was to read one Harry Potter book. Why can a small, personal goal be so powerful?
-- What new skill would you like to learn as an adult, and why?
-- What could schools or workplaces do to make asking for help easier?
-- Who is responsible for making sure everyone can read: schools, families, the government, or the individual?
+- Peter hid the problem for years. Why do you think he did that? Start with: I think it was because ...
+- What would be most difficult if you could not read?
+- Someone says adults should be able to teach themselves. What do you say to them? Start with: Sometimes, but ... or I agree, because ...
+- What new skill would you like to learn now?
+
+=== Intermediate before you read ===
+
+- Why might an adult hide a difficulty like this?
+- What jobs can someone do without reading well?
+- Who should help adults who missed out at school?
+
+=== Intermediate talk about it ===
+
+- Peter built a career and a family while hiding it. What does that tell you about the skills schools actually measure?
+- Compare learning to read as a child with learning as an adult. What is harder about each?
+- Someone tells you: "If he managed for forty years, he did not really need it." What would you say back?
+- A supermarket shelf was the turning point. Why do small moments change things more than big ones?
+
+=== Advanced before you read ===
+
+- What does a society assume about everyone who walks into a shop?
+- Is literacy a skill, or a form of access?
+- Who is failed first when a school is under pressure?
+
+=== Advanced talk about it ===
+
+- Peter was partially deaf and left school without qualifications. How much of this story is about reading, and how much about the system around him?
+- Argue against this: "Adult literacy is a personal problem, not a public one."
+- The article says limited reading is no measure of intelligence. Why does that need saying at all?
+- What have you worked hard to hide, and what would it take to ask for help with it?

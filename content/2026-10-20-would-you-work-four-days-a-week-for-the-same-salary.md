@@ -62,16 +62,41 @@ The design of a four-day week therefore matters at least as much as its headline
 
 The research is therefore neither a universal prescription nor an excuse to write off shorter working hours as unrealistic. It demonstrates that a different arrangement can work under particular conditions. The challenge now is identifying which aspects are transferable, who bears the costs and whether reduced working time can become a broadly shared benefit rather than an employment privilege.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What would you do with a three-day weekend every week?
-- How do you feel about the hours you work or study?
-- What might make a shorter week difficult?
+- How many days a week do you work or study?
+- What would you do with an extra day?
+- Could your work be done in less time?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Would a four-day week make you more productive, and why?
-- Which jobs in your country would find a four-day week hardest?
-- Would you rather work fewer hours or longer days, and why?
-- Would you accept slightly lower pay for an extra day off, and why?
-- How could a shorter week avoid being unfair to some workers?
+- Workers reported better health on a four-day week. Would it suit you? Start with: I think ... because ...
+- Which jobs could not do this?
+- Someone says the work would just pile up. What do you say to them? Start with: Maybe, but ... or I agree, because ...
+- What would make your working week better?
+
+=== Intermediate before you read ===
+
+- Why would a shorter week not reduce output?
+- Which services need people every day?
+- Would you accept less pay for an extra day?
+
+=== Intermediate talk about it ===
+
+- The gains followed a reorganisation of tasks and meetings, not goodwill. Why does that matter for copying the model?
+- Compare a four-day week in an office with one in a hospital. What changes?
+- Someone tells you: "If it worked, everyone would be doing it." What would you say back?
+- The companies volunteered. How does that affect what the study proves?
+
+=== Advanced before you read ===
+
+- Who would absorb the cost of a shorter week?
+- Is wellbeing evidence enough to change employment law?
+- Does flexibility always reach the people who need it most?
+
+=== Advanced talk about it ===
+
+- Extended beyond willing employers, the questions become staffing, contracts and unpaid care. Which worries you most?
+- Argue against this: "A four-day week is a benefit for knowledge workers funded by everyone else."
+- Self-selected participants and non-random comparisons limit the findings. What study would settle it?
+- What would you actually do with the fifth day, honestly?

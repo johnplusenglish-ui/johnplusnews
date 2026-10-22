@@ -54,16 +54,41 @@ There is reason to avoid romanticising books as inherently virtuous or dismissin
 
 The practical response may be disarmingly modest. Read something genuinely appealing, set aside a short period free from notifications and allow the habit to develop without turning it into another productivity target. A book need not compete with a phone on the phone's terms. Its pleasures are slower, less immediate and sometimes demanding. That difference is precisely what makes reading worth preserving, not as a badge of refinement, but as a way of paying attention to something long enough for it to change how we think.
 
-=== Before you read ===
+=== Core before you read ===
 
-- When did you last become completely absorbed in a book?
-- What usually interrupts you when you try to read?
-- Do you think audiobooks count as reading in the same way? Why or why not?
+- When did you last finish a book?
+- Where do you read best?
+- What interrupts you when you read?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Is the problem mainly the phone, or the way modern life is organised?
-- Can concentration be trained like physical fitness? Why do you think that?
-- Why do people buy books they never finish?
-- Should schools protect more time for reading purely for pleasure? Why?
-- What is one realistic change that would help you read more regularly?
+- You read the same paragraph twice. Why does that happen? Start with: I think it is because ...
+- Is reading on a phone the same as reading a book?
+- Someone says people do not read any more. What do you say to them? Start with: That is too simple, because ... or I agree, because ...
+- What would help you read more?
+
+=== Intermediate before you read ===
+
+- Has your attention changed in the last ten years?
+- Is an audiobook reading?
+- What makes a half hour of quiet hard to find?
+
+=== Intermediate talk about it ===
+
+- One study says daily reading fell from 28% to 16%; another says three-quarters read something in a year. Why do both matter?
+- Compare reading a novel with scrolling. What does each one train?
+- Someone tells you: "If you wanted to read, you would read." What would you say back?
+- Alderman's plan treats reading like exercise. Why might that framing work?
+
+=== Advanced before you read ===
+
+- Is attention a skill, a habit, or a resource other people compete for?
+- Would you give up something you enjoy to read more?
+- What is lost if nobody reads at length?
+
+=== Advanced talk about it ===
+
+- The writer says reading has not vanished but the routine supporting it may be eroding. Which is the more serious loss?
+- Argue against this: "Treating reading as virtuous is snobbery with a library card."
+- The two sets of findings are not contradictory. Why do they get reported as if they were?
+- What would you have to stop doing to read for an hour tonight?

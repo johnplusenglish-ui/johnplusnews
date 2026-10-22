@@ -56,16 +56,41 @@ There is an uncomfortable irony in the enthusiasm for cooler destinations. In pa
 
 The more consequential shift may therefore concern how holidays are organised, rather than the geographical direction of travel. If tourists spread their trips across different months and destinations, some overcrowded regions could gain breathing space while less-visited communities benefit economically. But that requires planning, infrastructure and an honest account of environmental costs, not simply a new label attached to another fashionable escape. Left to chance, the pattern is likely to repeat itself, with the same crowds arriving in the same few weeks somewhere colder. The coolcation captures a changing mood in European travel: sunshine is still desirable, but having enough of it may no longer be the same as having a good holiday.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What temperature is perfect for your ideal summer holiday?
-- Has extreme heat ever changed what you could do on a trip?
-- Could rain ever be a reason to choose a destination?
+- Do you prefer hot or cool weather on holiday?
+- Where would you go in August?
+- Has summer changed where you live?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Is the coolcation a lasting change or a fashionable label?
-- Would you rather change destination or travel outside the hottest months?
-- What new problems can tourism create in quieter northern regions?
-- Should travel companies warn customers more clearly about extreme heat?
-- Can a holiday based on escaping climate change also contribute to it?
+- Some people now choose cool holidays. Would you? Start with: I would ... because ...
+- What is the perfect holiday temperature?
+- Someone says a holiday without sun is not a holiday. What do you say to them? Start with: I disagree, because ... or I agree, because ...
+- Where would you go to escape the heat?
+
+=== Intermediate before you read ===
+
+- Why might people stop travelling south in summer?
+- Is a new travel word useful or just marketing?
+- What would change your usual holiday plans?
+
+=== Intermediate talk about it ===
+
+- One in five visitors to Norway named cooler weather as a reason. Is that a trend or a detail? Why?
+- Compare a crowded hot beach with a quiet cool one. What do you actually want from a holiday?
+- Someone tells you: "Spain and Greece are as busy as ever, so nothing has changed." What would you say back?
+- Scotland had wildfires the same summer. What does that complicate?
+
+=== Advanced before you read ===
+
+- Does moving tourism north solve anything?
+- Who can afford to change where they holiday?
+- Is climate adaptation a private choice or a public problem?
+
+=== Advanced talk about it ===
+
+- Tourism pressure does not become sustainable by moving north. Where does the pressure actually go?
+- Argue against this: "The coolcation is a media label attached to ordinary variation in travel."
+- Lofoten already has congestion and arguments over who pays for infrastructure. What should a destination do before it becomes popular?
+- Would you change where you travel because of climate, or only because of comfort?

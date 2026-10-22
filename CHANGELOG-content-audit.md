@@ -419,3 +419,21 @@ covers only the items whose wording, cue or key actually changed.
   2003 to 2024 and covers both the overall decline and the Friday night point.
 - Eight other articles gained a source line and two wrong links were replaced; all ten were
   opened and read against the claims they support. Every one of the 77 articles now has a source.
+
+## Graded questions, 22 October
+
+- Every article now carries its own question set for each reading level, in place of the eight
+  shared questions. 77 articles, 462 sets, 1,617 questions.
+- The purpose of each slot is unchanged, as John set it: "Before you read" is a hook to make a
+  reader curious, "Talk about it" is for reflection, opinion, relating the story to their own
+  life, and arguing back. No comprehension questions were added to either, because tasks 1 to 4
+  already test comprehension and the speaking time is better spent elsewhere.
+- What changes by level is how much a learner has to produce. Core asks short concrete questions
+  and supplies sentence starters where an answer needs more than a few words. Intermediate asks
+  for a reason or a comparison in every answer. Advanced asks the reader to hold a position, and
+  gives them a stated view to argue against.
+- Every "Talk about it" set now ends with a standing line: you can talk about people in general
+  instead of yourself, and you can pass on any question.
+- build.py accepts per-level blocks written as "=== Core before you read ===", alongside the old
+  shared blocks, which still work. The tab script shows the set for the open reading level.
+

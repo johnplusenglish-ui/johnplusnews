@@ -62,16 +62,41 @@ At the same time, fatigue should not be used as an all-purpose explanation for p
 
 The wider lesson concerns how we value effort. A day without visible physical achievements need not have been effortless. Better workloads, reasonable boundaries and genuine recovery may matter as much for people doing demanding mental work as they do for those performing physically strenuous jobs.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Do you feel more tired after physical work or mental work, and why?
-- What kind of day leaves you feeling most tired?
-- What helps you recover after a difficult day?
+- Do you feel tired after a day of thinking?
+- What makes you most tired?
+- How do you rest your mind?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why is mental effort harder to see than physical effort?
-- Some people say we make too many small decisions every day. Do you agree?
-- What makes a job tiring, apart from long hours?
-- What would make your working day less mentally demanding?
-- How do people know when tiredness is more than just a busy week?
+- Thinking uses energy, but it does not look like work. Is mental tiredness real? Start with: I think ... because ...
+- Which is more tiring for you: physical or mental work?
+- Someone says sitting at a desk is not tiring. What do you say to them? Start with: I disagree, because ... or Partly, because ...
+- What helps you recover after a hard day?
+
+=== Intermediate before you read ===
+
+- Why is mental effort hard to see?
+- Should employers count thinking as work?
+- What makes a decision exhausting?
+
+=== Intermediate talk about it ===
+
+- Tired participants avoided the harder task even for a bigger reward. What does that suggest about willpower?
+- Compare a day of meetings with a day of physical work. Which leaves you more tired, and why?
+- Someone tells you: "You are tired because you are unfit." What would you say back?
+- The study had 28 people. Why does that limit the conclusions?
+
+=== Advanced before you read ===
+
+- Is fatigue a shortage of fuel or a change in motivation?
+- How should invisible effort be recognised at work?
+- When does tiredness become a medical question?
+
+=== Advanced talk about it ===
+
+- The study suggests exertion changes how we price future effort rather than draining a fixed supply. How does that change what you would do about it?
+- Argue against this: "Calling mental effort tiring medicalises ordinary reluctance."
+- Employers measure visible hours and completed tasks. What would a better measure look like?
+- What drains you that nobody around you can see?

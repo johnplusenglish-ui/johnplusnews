@@ -244,6 +244,10 @@ SET_KEYS = {label.lower(): key for key, label in QUESTION_SETS}
 # Optional "useful language" lists, one per level, written as === Core language === followed by one item per line:
 #   - turn up (phrasal verb): to arrive somewhere
 LANG_MARK = re.compile(r"^(" + "|".join(re.escape(l) for l in LEVELS) + r") language$", re.I)
+# Questions may instead be written per level, as === Core before you read === and === Core talk about it ===,
+# following the same shape as the language lists. An article may use the shared sets or the per-level sets.
+QSET_MARK = re.compile(r"^(" + "|".join(re.escape(l) for l in LEVELS) + r") (" +
+                       "|".join(re.escape(lbl) for _, lbl in QUESTION_SETS) + r")$", re.I)
 LANG_LINE = re.compile(r"^(.+?)\s*\(([A-Za-z][A-Za-z /-]*)\)\s*:\s*(.+)$")
 LANG_GROUPS = [("adjective", "Adjectives"), ("phrasal", "Phrasal verbs"), ("phrase", "Phrases"), ("other", "Other words")]
 
@@ -289,7 +293,7 @@ def split_sections(body):
     """Take the question sets and the useful-language lists out of an article body.
     Returns (the rest of the body, {'before': [...], 'after': [...], 'language': {level: [items]}})."""
     marks = list(ANY_MARK.finditer(body))
-    sets = {"before": [], "after": [], "language": {}}
+    sets = {"before": [], "after": [], "language": {}, "levels": {}}
     if not marks:
         return body, sets
     kept = [body[:marks[0].start()]]
@@ -299,7 +303,14 @@ def split_sections(body):
         name = m.group(1).strip()
         key = SET_KEYS.get(name.lower())
         lang = LANG_MARK.match(name)
-        if key:
+        qset = QSET_MARK.match(name)
+        if qset:
+            level, which = levels[qset.group(1).lower()], SET_KEYS[qset.group(2).lower()]
+            per = sets["levels"].setdefault(level, {})
+            if which in per:
+                raise ValueError("'{}' appears twice".format(name))
+            per[which] = clean_questions(body[m.end():end])
+        elif key:
             if sets[key]:
                 raise ValueError("'{}' appears twice".format(name))
             sets[key] = clean_questions(body[m.end():end])
@@ -716,17 +727,21 @@ def about_page():
 TABS_JS = (
     '(function(){var r=document.querySelector("[data-tabs]");if(!r)return;'
     'var t=[].slice.call(r.querySelectorAll("[role=tab]"));'
+    'function qlev(k){[].forEach.call(document.querySelectorAll("[data-qlevel]"),function(p){p.hidden=p.getAttribute("data-qlevel")!==k})}'
     'function show(k,save){var ok=t.some(function(x){return x.getAttribute("data-level")===k});if(!ok)return false;'
     't.forEach(function(x){var l=x.getAttribute("data-level"),on=l===k;x.setAttribute("aria-selected",on);'
     'x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;var q=document.getElementById("l-"+l);if(q){q.hidden=!on;var au=q.querySelector("audio");if(au&&!on&&!au.paused)au.pause()}'
     'if(on){var tt=x.getAttribute("data-title"),ss=x.getAttribute("data-sub"),h=document.querySelector(".article-head h1"),d=document.querySelector(".dek"),ml=document.querySelector(".metaleft");if(ml)ml.setAttribute("data-print-level",x.textContent);'
     'if(h&&tt)h.textContent=tt;if(d&&ss)d.textContent=ss;if(tt)document.title=tt+" | "+document.title.split(" | ").pop()}});'
+    'qlev(k);'
     'if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}try{document.dispatchEvent(new CustomEvent("jpn:pref",{detail:{level:k}}))}catch(e){}}return true}'
     'var s="";try{s=localStorage.getItem("jpn_level")||""}catch(e){}'
     'if(!show(location.hash.slice(1).toLowerCase(),false))show(s,false);'
     't.forEach(function(x,i){x.addEventListener("click",function(){show(x.getAttribute("data-level"),true)});'
     'x.addEventListener("keydown",function(e){var n=e.key==="ArrowRight"?i+1:e.key==="ArrowLeft"?i-1:-1;'
     'if(n<0||n>=t.length)return;e.preventDefault();t[n].focus();show(t[n].getAttribute("data-level"),true)})});'
+    'function ready(){var s=r.querySelector(\'[role=tab][aria-selected="true"]\');if(s)qlev(s.getAttribute("data-level"))}'
+    'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",ready);else ready();'
     'window.addEventListener("hashchange",function(){show(location.hash.slice(1).toLowerCase(),false)})})();'
 )
 LANG_JS = (
@@ -864,18 +879,42 @@ def highlight_script():
     return '<script src="/highlight.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
 
 
-def questions_html(a, key):
-    """A quiet, closed-by-default row. Opens to a numbered list; the PDF prints it open."""
+def question_row(key, qs, level=""):
+    """A quiet, closed-by-default row. Opens to a numbered list; the PDF prints it open.
+    With a level, the row belongs to that reading tab and is shown only while it is open."""
     label = dict(QUESTION_SETS)[key]
-    qs = a["questions"].get(key) or []
-    if not qs:
-        return ""
-    row = ('<details class="qs qs-{key}"><summary><span class="qs-label">{label}</span>'
-           '<span class="qs-count">{n} question{s}</span>{chev}</summary><ol>{items}</ol></details>'
-           ).format(key=key, label=label, n=len(qs), s="" if len(qs) == 1 else "s", chev=CHEVRON_ICON,
-                    items="".join("<li>{}</li>".format(inline(q)) for q in qs))
+    at = ' data-qlevel="{}"'.format(level.lower()) if level else ""
+    # nobody has to disclose their own health, money or bad experiences to join in
+    note = ('<p class="qs-note">You can talk about people in general instead of yourself, '
+            'and you can pass on any question.</p>') if key == "after" else ""
+    return ('<details class="qs qs-{key}"{at}><summary><span class="qs-label">{label}</span>'
+            '<span class="qs-count">{n} question{s}</span>{chev}</summary><ol>{items}</ol>{note}</details>'
+            ).format(key=key, label=label, at=at, n=len(qs), s="" if len(qs) == 1 else "s", chev=CHEVRON_ICON,
+                     items="".join("<li>{}</li>".format(inline(q)) for q in qs), note=note)
+
+
+def questions_html(a, key):
+    """The shared set, or one row per reading level when the article has graded questions.
+    The row for the level a reader lands on is the only one not hidden, so the page is right
+    before any JavaScript runs."""
+    per = a["questions"].get("levels") or {}
+    graded = [(v["level"], per.get(v["level"], {}).get(key) or []) for v in a["versions"]]
+    if any(qs for _, qs in graded):
+        open_level = a["versions"][default_index(a["versions"])]["level"]
+        out = []
+        for level, qs in graded:
+            if not qs:
+                continue
+            row = question_row(key, qs, level)
+            out.append(row if level == open_level else row.replace("<details ", "<details hidden ", 1))
+        rows = "".join(out)
+    else:
+        qs = a["questions"].get(key) or []
+        if not qs:
+            return ""
+        rows = question_row(key, qs)
     # "Before you read" sits alone above the article, in a panel of its own
-    return '<div class="qs-group">{}</div>'.format(row) if key == "before" else row
+    return '<div class="qs-group">{}</div>'.format(rows) if key == "before" else rows
 
 
 

@@ -56,16 +56,41 @@ Still, the butter boom carries contradictions. Restaurants that pride themselves
 
 Perhaps the more revealing question is why we continually turn familiar foods into cultural events. A good ingredient deserves recognition, and skilled producers can offer real differences in flavour and quality. But trends also encourage us to confuse scarcity, packaging and online popularity with lasting value. Once the queues have shortened and the novelty has worn off, butter will still be doing what it has always done best: melting into warm bread, enriching a sauce and making a simple meal feel complete. That may be a more satisfying achievement than becoming the latest fashionable obsession.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Do you prefer butter, margarine or olive oil on bread?
-- Have you ever paid extra for a luxury version of an everyday food?
-- Can social media make ordinary foods seem exciting?
+- Do you cook with butter, oil, or something else?
+- Would you queue for food in hot weather?
+- What ordinary food do people in your country get excited about?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why do some foods suddenly become fashionable again?
-- Is a small, expensive food treat a sensible luxury?
-- When does beautiful food presentation become wasteful?
-- Should health concerns influence the way a food trend is reported?
-- What ordinary food from your country deserves a fashionable comeback?
+- Would you travel to a shop just to buy butter? Start with: I would ... because ...
+- Is expensive food usually better food?
+- Someone says this is silly and butter is just butter. What do you say to them? Start with: I agree, because ... or Actually, ...
+- What everyday food deserves more attention?
+
+=== Intermediate before you read ===
+
+- Why do ordinary foods suddenly become fashionable?
+- Does social media create these trends or just show them?
+- Is there a food you buy because it looks good?
+
+=== Intermediate talk about it ===
+
+- Fifty varieties in one shop. Is that choice, or is it marketing? Why?
+- Compare this trend with another food fashion you have seen. What did they have in common?
+- Someone tells you: "If it tastes better, who cares why it is popular?" What would you say back?
+- The article notes the nutritional concerns have not gone away. Why do trends tend to leave that part out?
+
+=== Advanced before you read ===
+
+- Can an everyday ingredient be a luxury, or only be sold as one?
+- Does calling food natural or artisanal tell you anything about it?
+- What does a food trend reveal about the people following it?
+
+=== Advanced talk about it ===
+
+- The writer says the trend reveals more about how we treat food than about butter. Do you agree, and what exactly does it reveal?
+- Argue against this: "Traditional and artisanal are marketing words, and nothing more."
+- Elaborate displays may lead to waste. How would you set the line between presentation and performance?
+- Is there something you buy mainly for what it says about you?

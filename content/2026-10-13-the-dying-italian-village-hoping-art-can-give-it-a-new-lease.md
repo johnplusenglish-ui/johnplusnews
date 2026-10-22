@@ -55,16 +55,41 @@ Civita's particular vulnerability makes this tension sharper. Art can stimulate 
 
 The significance of the 2028 programme will therefore depend on what survives it. Temporary installations and a crowded calendar may bring welcome publicity, but they will not in themselves secure a future for Civita or Bolsena. More meaningful success would involve permanent spaces for creative work, stronger local institutions and reasons for younger generations to remain connected to the area. The Dying Town does not need art to disguise its fragility. It needs a cultural project capable of working alongside the less glamorous business of keeping a community alive.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What makes a village a living community rather than a tourist attraction?
-- Why do young people leave small towns, in your experience?
-- How do you feel about visiting places that are famous mainly for their views?
+- Would you like to live in a very small village?
+- What brings visitors to places near you?
+- What makes young people leave a town?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Can cultural tourism reverse population decline, or only hide it for a while?
-- How should the prize money be spent: on events, jobs, buildings or safety?
-- How could greater popularity make life harder for the people who live there?
-- What would count as success five years after the 2028 programme?
-- Which matters more to Civita's future: attention, engineering or permanent work?
+- Civita is beautiful but almost empty. Can art bring people back? Start with: I think ... because ...
+- Is tourism good or bad for a small place?
+- Someone says money should go to bigger towns instead. What do you say to them? Start with: I see why, but ... or I agree, because ...
+- What would make you stay in a small village all year?
+
+=== Intermediate before you read ===
+
+- Why do beautiful places sometimes empty out?
+- Can culture create jobs, or only attract visitors?
+- What does a town need to keep its young people?
+
+=== Intermediate talk about it ===
+
+- The village gets visitors all summer but few residents in winter. Why is that the harder problem?
+- Compare a one-year arts programme with the same money spent on housing or transport. Which would you fund, and why?
+- Someone tells you: "If people want to leave, let them. Not every village must survive." What would you say back?
+- The cliff beneath Civita is eroding. How should that shape the plans?
+
+=== Advanced before you read ===
+
+- Is preserving a village heritage work or sentimentality?
+- Can attention be converted into a community?
+- Who decides which places are worth saving?
+
+=== Advanced talk about it ===
+
+- Art can attract resources but cannot stop the erosion. Does that make the award a distraction or a reasonable first step?
+- Argue against this: "Capital of Culture schemes produce a good year and leave nothing behind."
+- The test comes after 2028, when the publicity ends. What would count as success by then?
+- What would you want kept alive where you grew up, and what would you let go?

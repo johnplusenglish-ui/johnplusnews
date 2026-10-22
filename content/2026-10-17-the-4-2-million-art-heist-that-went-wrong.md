@@ -56,16 +56,41 @@ The two missing paintings were eventually discovered concealed behind a wall ben
 
 Beyond the improbable hiding place, the case exposed a vulnerability shared by many regional museums. They preserve works of enormous cultural importance while operating without the formidable security budgets of major national institutions. Yet the burglars confronted a paradox too. The more recognisable a stolen masterpiece becomes, the harder it is to dispose of it discreetly. This robbery may have been ambitious, but its aftermath was defined by ordinary evidence, the fear of another crime and two famous paintings concealed in a space barely large enough to hold them.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How often do you visit museums or galleries, and what do you enjoy about them?
-- Why do you think famous paintings attract thieves?
-- What kind of evidence do you think helps police solve a theft?
+- Have you been to an art museum?
+- Why do people steal famous paintings?
+- How do museums keep things safe?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Is it realistic for a thief to sell a world-famous painting, and why?
-- Should museums show original treasures when there is a risk of theft, or copies?
-- Which part of the police investigation surprised you most, and why?
-- How well does your country look after its art and historic buildings?
-- Should stolen artworks be restored immediately, or should some damage stay visible?
+- The thieves left two paintings behind. Why might that happen? Start with: Maybe because ...
+- Should museums show their most valuable works at all?
+- Someone says art is only paint and canvas. What do you say to them? Start with: I disagree, because ... or In a way, yes, but ...
+- What would you most want to protect in a museum?
+
+=== Intermediate before you read ===
+
+- What makes a stolen painting hard to sell?
+- Does modern science make theft harder?
+- Should small museums hold famous works?
+
+=== Intermediate talk about it ===
+
+- A cover left behind carried DNA that identified a suspect. What does that say about planning a crime today?
+- Compare stealing a painting with stealing money. Which is harder to turn into a profit, and why?
+- Someone tells you: "They were caught, so the system worked." What would you say back?
+- Four men received preliminary charges. Why is that not the same as a conviction?
+
+=== Advanced before you read ===
+
+- Is a painting's value its price or its presence?
+- Who should carry the cost of protecting cultural property?
+- Does a solved case tell us anything about the unsolved ones?
+
+=== Advanced talk about it ===
+
+- The paintings were recovered but damaged. How should a museum weigh display against risk after that?
+- Argue against this: "Works this valuable belong in secure storage, not on a wall."
+- The writer warns against treating allegations as established facts. Where is that temptation strongest in a story like this?
+- What would you accept losing to keep something open to the public?

@@ -63,16 +63,41 @@ The useful question is not merely how long people spend online but whether their
 
 The more useful question may concern our tolerance for mental silence. If every gap is filled before we can register it, boredom becomes something we react to automatically rather than understand. Learning when to put a device away may not eliminate boredom, but it could help us recognise what our attention is actually looking for.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What do you do when you are waiting for a bus?
-- When did you last feel really bored, and what did you do?
-- How do you feel when you have nothing to do?
+- What do you do when you are waiting?
+- When were you last bored?
+- Is being bored always bad?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Do you think people are more bored now than 20 years ago?
-- How are short videos changing what we expect from entertainment?
-- When can boredom be useful?
-- Should schools teach children to spend time without screens, and why?
-- What would happen if you stopped using your phone in queues?
+- We have endless videos, yet boredom may be rising. Why? Start with: I think it is because ...
+- Could you wait ten minutes with no phone?
+- Someone says boredom is good for you. What do you say to them? Start with: I agree, because ... or I am not sure, because ...
+- What do you think about when nothing is happening?
+
+=== Intermediate before you read ===
+
+- Can too much entertainment make you more bored?
+- Is scrolling rest or work?
+- What was the last thing that held your attention fully?
+
+=== Intermediate talk about it ===
+
+- Researchers suggest constant novelty makes quiet moments harder to tolerate. Does that match your experience? Why?
+- Compare being bored in a queue with being bored at work. What is different?
+- Someone tells you: "Just put the phone down." Why is that harder than it sounds?
+- The article is a perspective, not an experiment. What would an experiment need to show?
+
+=== Advanced before you read ===
+
+- Is boredom a feeling or a judgement about meaning?
+- Who profits from your intolerance of an empty minute?
+- Would you protect boredom if you could?
+
+=== Advanced talk about it ===
+
+- Someone can be busy and deeply bored if the activity feels meaningless. What does that do to the usual advice?
+- Argue against this: "Boredom is a luxury complaint from people with enough free time to notice it."
+- Treating all screen time as interchangeable obscures real differences. Which differences matter most?
+- When did an empty hour last lead you somewhere useful?

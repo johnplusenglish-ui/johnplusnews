@@ -68,16 +68,41 @@ It is worth noting how unusual such candour is in public health communication. C
 
 The larger lesson is that the relationship between humans and disease vectors is more complicated than a battle against insects. By altering a mosquito's ability to transmit infection rather than trying to wipe the species out, Brazil is testing whether an apparently counter-intuitive intervention can deliver a practical public-health benefit at scale.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How much of a problem are mosquitoes or other insects where you live?
-- Can you think of an occasion when doing the opposite of what seems sensible might work?
-- Would you support a science project you did not fully understand, and why?
+- Are mosquitoes a problem where you live?
+- What diseases do insects carry?
+- How do people protect themselves from bites?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why does this programme sound dangerous at first?
-- How does the Wolbachia method differ from spraying insecticide?
-- What information would you want before supporting releases near your home?
-- Should public money fund scientific ideas that sound strange, and why?
-- Where else could an unexpected solution work better than the obvious one?
+- Scientists are releasing mosquitoes to fight disease. Does that sound right? Start with: I think ... because ...
+- Would you want this in your street?
+- Someone says we should kill all mosquitoes instead. What do you say to them? Start with: I disagree, because ... or I agree, because ...
+- What else could reduce disease where you live?
+
+=== Intermediate before you read ===
+
+- Why release more insects instead of fewer?
+- Should neighbours be asked before a release?
+- How would you know if it had worked?
+
+=== Intermediate talk about it ===
+
+- The mosquitoes still bite but transmit dengue far less. Why does that distinction matter for public trust?
+- Compare releasing Wolbachia mosquitoes with spraying insecticide. What are the trade-offs?
+- Someone tells you: "Do not release anything you cannot recall." What would you say back?
+- A fall in dengue can have several causes. How should authorities prove this one worked?
+
+=== Advanced before you read ===
+
+- Can an individual opt out of a public health measure in the air?
+- Is biological control safer than chemical control, or just slower to show problems?
+- Who should consent to an intervention across a whole city?
+
+=== Advanced talk about it ===
+
+- An individual can refuse a treatment but nobody can opt out of the mosquitoes in their street. How should consent work at that scale?
+- Argue against this: "Self-spreading interventions should need a higher standard of proof than any drug."
+- It is biological control, not a claim the insects are harmless. Why is that wording so carefully chosen?
+- What public measure would you accept without being asked, and where is your limit?

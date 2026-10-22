@@ -56,16 +56,41 @@ Think of three people meeting every Friday. One enjoys treating the group, anoth
 
 Cosgrove's irritated train journey therefore points to a familiar paradox: we want friendships to feel spontaneous, yet we also want fairness. The solution may be less about setting a universal price limit than about reading the room. Offer a treat only when you genuinely mean it; agree to split costs when necessary; and speak up if you repeatedly feel short-changed. A coffee should not require a financial summit. But a little clarity might prevent a tiny payment from turning into a much bigger problem, especially when both people believe they are acting reasonably.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Do you usually take turns paying for coffee with friends?
-- Have you ever felt awkward asking somebody for money?
-- Is it more polite to offer a treat or to split the cost fairly?
+- Who usually pays when you meet a friend for coffee?
+- Do you use an app to send money to friends?
+- Is it rude to ask a friend for money?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Was Cosgrove justified in feeling offended by the payment request?
-- Does your culture have particular expectations about who pays for small purchases?
-- At what amount would you ask a friend to pay you back?
-- Do payment apps improve friendships or make everything too transactional?
-- What would you say to a friend who repeatedly lets you pay?
+- Would you ask a friend for 12 euros after a coffee? Start with: I would ... because ...
+- Is it easier to pay for a friend, or to split everything?
+- Someone says friends should always split the bill exactly. What do you say to them? Start with: I agree, because ... or I don't, because ...
+- What is a kind way to say you cannot afford something?
+
+=== Intermediate before you read ===
+
+- Have payment apps changed how friends handle money?
+- Why can a small amount of money feel like a big deal?
+- Is keeping score always a bad sign in a friendship?
+
+=== Intermediate talk about it ===
+
+- The writer thinks small amounts should be left alone. Where would you draw the line, and why?
+- Compare paying for each other in turns with splitting every bill. Which suits your friendships better, and why?
+- Someone tells you: "Asking for your share is just being honest." What would you say back?
+- Prices have risen. Does that strengthen or weaken the writer's argument?
+
+=== Advanced before you read ===
+
+- Is generosity between friends a gift or an unspoken debt?
+- Has instant payment made friendship more honest or more transactional?
+- Who is protected by a rule that nobody states out loud?
+
+=== Advanced talk about it ===
+
+- The writer calls her threshold personal, not universal. Does that make the argument stronger or let it off the hook?
+- Argue against this: "Unwritten rules about money always favour whoever has more of it."
+- Culture and income shape what feels fair here. How should a rule account for that, if it can?
+- Is there an unwritten rule in your own friendships that you have never said out loud?

@@ -63,16 +63,41 @@ Healthier participants may be capable of taking more steps partly because they a
 
 The research encourages a more flexible view of exercise. Step counters can motivate, but they cannot judge whether a walk was enjoyable or whether the goal was appropriate for the person using them. A useful health habit should promote movement without making a round number the sole definition of success.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How easy is it to walk to the places you need to get to?
-- How do you feel when you miss a fitness target?
-- What kind of walking do you enjoy most, and why?
+- Do you walk a lot, or not very much?
+- Does your phone or your watch count your steps?
+- How do you feel after a long walk?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Does a step counter motivate you or stress you out, and why?
-- Why do people trust round numbers?
-- Some people say one target for everyone is unfair. What do you think?
-- How could workplaces encourage more daily movement?
-- Would you prefer a daily step goal or a regular exercise routine, and why?
+- Would a step counter help you, or annoy you? Start with: It would ... me, because ...
+- Is 7,000 steps a lot for you, or not very much?
+- Your friend says counting steps is silly. What do you say to them? Start with: I think you are right, because ... or I don't agree, because ...
+- What is the best thing about going for a walk?
+
+=== Intermediate before you read ===
+
+- Why do you think 10,000 became the famous number?
+- Does counting something make you do more of it, or less?
+- When does a target stop being helpful?
+
+=== Intermediate talk about it ===
+
+- Does a number make you try harder, or make you feel guilty? Why?
+- Is it fair to give everybody the same target when people's lives are so different?
+- Someone tells you: "The number came from marketing, so ignore it completely." What do you say back to them?
+- Think of a target that actually worked for you. What made that one different?
+
+=== Advanced before you read ===
+
+- Is a fitness target motivation, or just a new way to feel you have failed?
+- Who gets to decide what counts as enough exercise, and should we trust them?
+- Would you rather be given a round number that is wrong, or a range that is right?
+
+=== Advanced talk about it ===
+
+- Knowing the target came from marketing, does it bother you that it worked? Should it?
+- Argue against this: "People need one simple number. Accuracy is a luxury for researchers."
+- Whose job is it to get a country moving: the individual, the employer or the state?
+- Is there something in your own life you measure that you would be happier not measuring?

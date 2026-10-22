@@ -63,16 +63,41 @@ Moreover, the type of environment matters: a crowded urban park, an exposed coas
 
 The evidence therefore supports a measured conclusion. Natural environments can contribute to wellbeing, especially emotional wellbeing, but they are neither a guaranteed psychological treatment nor a substitute for healthcare. Protecting accessible parks and public green spaces may be a sensible social investment, even without promising that every visitor will emerge healthier, calmer and more intelligent.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Where do you go when you want to relax, and why does it work for you?
-- How do you feel about walking in a park compared with walking in town?
-- How does the weather change the way you feel?
+- Is there a park near your home?
+- How do you feel after a walk outside?
+- Where do you go to relax?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Should governments spend more on public parks, and why?
-- Some people say indoor exercise is just as good as going outside. Do you agree?
-- Why do headlines sometimes exaggerate scientific findings?
-- Why might a walk lift your mood without helping you think more clearly?
-- In your country, who finds it hardest to reach a decent green space?
+- Research found nature helps mood more than memory. Does that match you? Start with: For me ... because ...
+- What stops you going outside more?
+- Someone says a walk cures everything. What do you say to them? Start with: I disagree, because ... or It helps, because ...
+- What would make your area better for walking?
+
+=== Intermediate before you read ===
+
+- Why might nature affect mood more than concentration?
+- Is access to green space equal in your city?
+- What else changes when you go for a walk?
+
+=== Intermediate talk about it ===
+
+- Evidence was strong for mood and weak for memory. Why might one be easier to measure than the other?
+- Compare a walk alone with a walk with a friend. Which does more, and why?
+- Someone tells you: "Just go outside, it is free." What would you say back?
+- Weather, mobility and work limit people's choices. Whose responsibility is that?
+
+=== Advanced before you read ===
+
+- Is nature a treatment or a condition for living well?
+- Who is prescribed a walk, and who is prescribed medicine?
+- Does measuring a benefit make it easier to fund, or easier to dismiss?
+
+=== Advanced talk about it ===
+
+- Findings are averages, not guarantees. How should that shape public advice?
+- Argue against this: "Green prescribing moves responsibility for health onto individuals and off services."
+- The writer calls this a planning question as much as a personal one. What would change in planning?
+- What would have to change near you before a daily walk were realistic?

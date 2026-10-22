@@ -60,17 +60,41 @@ The argument also exposes a linguistic trap worth noticing. Terms such as "pest"
 
 Nordelta's capybaras may look amusing in photographs, but they pose an uncomfortable question for cities everywhere. When property development manufactures a desirable address by transforming natural land, how much responsibility should fall to the people who benefit from it, and how much to the creatures that simply stayed where they were? The answer will matter wherever suburbs continue to expand into land that was never empty in the first place.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What wild animals do you see where you live?
-- How would you feel about living beside a lake full of wild animals?
-- Who should decide what happens when people and animals share a space?
+- What wild animals live near you?
+- Have animals ever caused problems where you live?
+- Who was there first, people or animals?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why do different residents have such different feelings about the capybaras?
-- How fair is it to call native animals "invaders"?
-- What would be a fair solution for both residents and wildlife?
-- What duties should builders have towards the wildlife already living on the land?
-- Would you choose to live in a place like Nordelta? Why or why not?
+- Capybaras live in a neighbourhood built on their wetland. Who should move? Start with: I think ... because ...
+- Are the animals a problem or a pleasure?
+- Someone says they should be removed. What do you say to them? Start with: I disagree, because ... or I understand, because ...
+- How should people and wild animals share space?
 
+=== Intermediate before you read ===
+
+- What happens when a town is built on an animal's habitat?
+- Are concerns about pets and traffic reasonable?
+- Who should pay to manage wildlife?
+
+=== Intermediate talk about it ===
+
+- Residents worry about pets, gardens and road accidents. Are those concerns fair? Why?
+- Compare moving the animals with changing how people live there. Which is realistic, and why?
+- Someone tells you: "They are rodents and they are a pest." What would you say back?
+- A resident was filmed firing at them. What should happen next?
+
+=== Advanced before you read ===
+
+- Who decides whether an animal is native or a nuisance?
+- Does language settle arguments before they start?
+- What does a gated development owe the land it replaced?
+
+=== Advanced talk about it ===
+
+- The writer says whoever controls the vocabulary is halfway to winning. Which words in this story are doing the most work?
+- Argue against this: "Residents who bought into a wetland development have no standing to complain."
+- Evidence-based management must be separated from assumption. What evidence would you want first?
+- What word have you heard used to settle an argument that should have stayed open?

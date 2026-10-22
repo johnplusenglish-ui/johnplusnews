@@ -56,16 +56,41 @@ Queues also change what people think they are buying. Research into consumer beh
 
 None of this means the food is poor or that customers are foolish. SpudBros has shown entrepreneurial skill, and there is something pleasing about a simple potato enjoying its moment in the spotlight. The concern is a hospitality culture in which survival increasingly depends on being noticed, preferably all at once. Small businesses need loyal customers and sustainable margins, not merely a brief spell of internet celebrity. Once the cameras turn towards the next sensation, a restaurant must still persuade people to return for the less glamorous reason that its food is worth eating.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What would persuade you to join a long queue for food?
-- Which foods or places have suddenly become fashionable in your country?
-- How much do online reviews influence where you eat?
+- What is the longest you have queued for anything?
+- Do you follow food accounts online?
+- What is your favourite cheap meal?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why might people wait for hours for something they could buy elsewhere?
-- Is viral fame more helpful or harmful for small restaurants?
-- What responsibility does a business have when its queue becomes uncomfortable?
-- How much do you trust food influencers to give independent opinions?
-- Would you rather run a consistently popular neighbourhood café or a business that becomes famous overnight?
+- People queued 24 hours for a baked potato. Why? Start with: I think it is because ...
+- Would you queue for food that looked good online?
+- Someone says these queues are ridiculous. What do you say to them? Start with: I agree, because ... or It is harmless, because ...
+- What local food deserves a queue?
+
+=== Intermediate before you read ===
+
+- Why do we trust a long queue?
+- Can a small business survive sudden fame?
+- What makes a video make you hungry?
+
+=== Intermediate talk about it ===
+
+- A long queue acts as a public recommendation. Is that reliable evidence? Why?
+- Compare a famous place with a quiet local one. Where do you eat better, and why?
+- Someone tells you: "They are only famous because of a video, not the food." What would you say back?
+- Online attention is unpredictable. What should an owner do while it lasts?
+
+=== Advanced before you read ===
+
+- Is virality luck, or a skill nobody admits to practising?
+- What does a queue cost the street around it?
+- Should a business chase attention it cannot control?
+
+=== Advanced talk about it ===
+
+- The writer says none of this means the food is poor or customers foolish. Why is that worth stating?
+- Argue against this: "Social media fame is a tax on small businesses, not a gift."
+- Research suggests visible approval shapes food choices. What does that do to our sense of taste?
+- What have you queued for, and what were you really buying?

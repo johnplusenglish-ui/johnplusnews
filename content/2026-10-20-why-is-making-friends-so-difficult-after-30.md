@@ -62,16 +62,41 @@ Friendships also evolve as people's circumstances change, and contact that tails
 
 Perhaps friendship deserves to be understood as essential social infrastructure rather than something squeezed into the gaps around paid work and family duties. The goal is not endless networking or an impressive number of contacts. It is the slower, less glamorous task of building relationships in which people feel known and supported.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Where did you meet your closest friends?
-- What is different about your social life now compared with ten years ago?
-- What makes a friendship last?
+- How did you meet your closest friends?
+- Is it harder to make friends now than at school?
+- What do you do with friends?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why do friendships sometimes weaken without an argument?
-- Is it easier to make friends online or in person, and why?
-- Should employers consider social wellbeing when setting working hours?
-- Which places in your town make it easy to meet new people?
-- What is one practical way to maintain an old friendship?
+- About one in six people worldwide feel lonely. Does that surprise you? Start with: It ... me, because ...
+- Where could an adult meet new people?
+- Someone says adults do not need new friends. What do you say to them? Start with: I disagree, because ... or Maybe, but ...
+- What makes someone a good friend?
+
+=== Intermediate before you read ===
+
+- What did school provide that adult life does not?
+- Can you schedule a friendship?
+- Is loneliness the same as being alone?
+
+=== Intermediate talk about it ===
+
+- School supplied repeated contact for free. What would recreate that as an adult?
+- Compare keeping an old friendship with starting a new one. Which takes more effort, and why?
+- Someone tells you: "Just join a club." Why is that harder than it sounds?
+- The WHO found loneliness highest among younger adults. Why might that be surprising?
+
+=== Advanced before you read ===
+
+- Is loneliness a personal condition or a design problem?
+- Who should be responsible for adult social infrastructure?
+- Does the internet replace contact or postpone it?
+
+=== Advanced talk about it ===
+
+- Adulthood requires you to schedule what school gave you for free. What would a society do differently if it took that seriously?
+- Argue against this: "Loneliness is a private feeling, and public policy cannot touch it."
+- Loneliness and social isolation are different things. Why does conflating them lead to bad advice?
+- What would you have to change in your week to make a new friendship possible?

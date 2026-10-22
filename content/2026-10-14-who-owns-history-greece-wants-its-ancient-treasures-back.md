@@ -54,16 +54,41 @@ The practical appeal of such a compromise is clear, but it does not iron out the
 
 The broader implications extend through museum collections worldwide. Artefacts acquired under empire, unequal treaties or military occupation come under renewed scrutiny, while arguments about universal access retain genuine force. Each case has its own legal and historical circumstances, making sweeping solutions difficult. Nor can the question be brushed aside as a relic of a distant era, since it is being pursued as energetically now as at any point in the past two centuries. What the Parthenon debate reveals is that museums are not neutral storehouses of the past. Their collections reflect decisions about power and possession, and those decisions remain open to challenge long after the people who made them are gone.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What is the most interesting museum you have ever visited?
-- Should very old objects belong to the country where they were made? Why or why not?
-- What would you do if you found something valuable that belonged to another country's history?
+- Have you visited a museum with objects from other countries?
+- Should old objects stay where they were made?
+- What is the most famous object in your country?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Who do you think the Elgin Marbles belong to, and why?
-- The British Museum says its collection helps people learn about world history. How convincing is that?
-- How much should it matter that Lord Elgin had permission from the authorities of the time?
-- Where would you draw the line on returning objects taken during colonial times?
-- How fair would a temporary loan or an exchange be for both sides?
+- Greece wants the sculptures back. Should Britain return them? Start with: I think ... because ...
+- Is it better to see world history in one museum, or objects in their home country?
+- Someone says the sculptures are safer in London. What do you say to them? Start with: That may be true, but ... or I agree, because ...
+- Which object would you most like to see returned to its home?
+
+=== Intermediate before you read ===
+
+- Who owns an object taken two hundred years ago?
+- Does it matter that the law of the time was different?
+- Should museums return everything, or only some things?
+
+=== Intermediate talk about it ===
+
+- Greece refuses any deal that recognises British ownership. Is that principle worth losing the sculptures over? Why?
+- Compare a permanent return with a long loan. What does each side gain and lose?
+- Someone tells you: "Return these and every museum empties." What would you say back?
+- A British law blocks permanent transfer. Should a law like that be changed for one case?
+
+=== Advanced before you read ===
+
+- Is this a legal argument or a moral one, and which should win?
+- Can a museum be universal and just at the same time?
+- What would a fair process for contested objects look like?
+
+=== Advanced talk about it ===
+
+- Osborne proposes rotation; Athens calls the Parthenon an exception. Which position is more defensible, and why?
+- Argue against this: "Each case is different, so sweeping restitution rules are impossible."
+- Mitsotakis says reunification is not an argument for emptying museums. Does that distinction hold?
+- If your country held a contested object, what would persuade you to give it back?

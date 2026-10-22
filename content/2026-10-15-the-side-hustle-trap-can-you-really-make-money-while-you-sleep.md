@@ -56,16 +56,41 @@ A further complication is the business of teaching other people to make money. S
 
 None of this undermines the value of entrepreneurship. Small ventures can create opportunities, top up low wages and develop skills that later become commercially valuable. The danger lies in presenting genuine enterprise as a shortcut around effort, risk and uncertainty. A prospective founder needs to know the customer, the competition, the likely costs and the time required before the first sale. Perhaps the most useful question is not whether a business can produce income while its owner sleeps, but how much work was necessary to get it there in the first place.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What does "passive income" make you imagine?
-- Which side-hustle promises have you seen online?
-- How much time would you invest before deciding that an idea was not working?
+- Do you know anyone with a second job?
+- What small business would you start?
+- Have you seen adverts promising easy money?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why are success stories more visible than ordinary or failed side hustles?
-- When does selling a business course become more profitable than the business itself?
-- How common are second jobs and side hustles in your country?
-- Which costs do online business videos tend to leave out?
-- What evidence would make you trust someone's income claim?
+- 79% of students earned under 500 pounds. Does that surprise you? Start with: It ... me, because ...
+- Is a side hustle worth the time?
+- Someone says anyone can make money online. What do you say to them? Start with: I disagree, because ... or Sometimes, but ...
+- What skill could you sell?
+
+=== Intermediate before you read ===
+
+- Why are side hustles so popular right now?
+- Is a second job a choice or a necessity?
+- What makes an online business fail?
+
+=== Intermediate talk about it ===
+
+- Most earned very little, yet the idea stays popular. Why do you think that is?
+- Compare a side hustle with overtime at a normal job. Which is the better deal, and why?
+- Someone tells you: "If you fail, you did not work hard enough." What would you say back?
+- Profit is what remains after costs and your own time. Why is time so often left out?
+
+=== Advanced before you read ===
+
+- Is the side hustle a sign of ambition or of inadequate wages?
+- Who profits most when everyone tries to sell something?
+- Does low cost of entry make a market open or crowded?
+
+=== Advanced talk about it ===
+
+- Low barriers make a business accessible and attention hard to win. Which of those shapes the outcome more?
+- Argue against this: "Promoting side hustles shifts responsibility for low pay onto the low paid."
+- The Guardian journalist tested several methods and found costs ate the profit. What would honest advertising for these schemes look like?
+- What would you need to earn from something you enjoy before it stopped being enjoyable?

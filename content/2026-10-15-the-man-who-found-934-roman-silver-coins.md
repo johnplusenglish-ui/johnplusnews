@@ -56,16 +56,41 @@ Of equal significance is the way the discovery was handled. Riedl was searching 
 
 Now exhibited at the LVR State Museum in Bonn, the denarii are both public treasure and private mystery. Visitors can study portraits of rulers and the changing imagery of Roman authority, but the most absorbing figure is absent from every coin. Somebody accumulated the money, judged the ground a safe place to hide it and expected, presumably, to return. Almost 1,900 years later, the coins have come to light. The person who put them there remains beyond the reach of the metal detector, and perhaps of history itself.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What is the most interesting thing you have ever found by accident?
-- What would you do if you discovered buried treasure?
-- Why might somebody hide money underground?
+- Have you ever found something valuable?
+- Who should own treasure found in a field?
+- Are you interested in ancient history?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Should people who discover ancient objects be allowed to keep them? Why or why not?
-- Why is the exact location of an archaeological discovery important?
-- What might have prevented the original owner from collecting the coins?
-- How do historians use ordinary objects to understand everyday life?
-- Are unsolved mysteries more interesting than ones with clear answers, and why?
+- He reported the coins instead of keeping them. Would you? Start with: I would ... because ...
+- Should finders get a reward?
+- Someone says he should have sold them quietly. What do you say to them? Start with: I disagree, because ... or I understand, but ...
+- What would you most like to dig up?
+
+=== Intermediate before you read ===
+
+- Why do people bury money?
+- What can objects tell us that writing cannot?
+- Should metal detecting be controlled?
+
+=== Intermediate talk about it ===
+
+- He called the authorities, so archaeologists could record the position. Why did that matter more than the coins?
+- Compare a hoard in a museum with one in a private collection. What is lost in each case?
+- Someone tells you: "Finders keepers. He did the work." What would you say back?
+- The oldest coin is from 148 BC and the newest from around AD 124. What does that range suggest?
+
+=== Advanced before you read ===
+
+- Does an object belong to the finder, the landowner, or the public?
+- What is the difference between treasure and evidence?
+- Can we ever know why something was hidden?
+
+=== Advanced talk about it ===
+
+- The owner's identity and the reason for burial are unknown. Does that make the find more interesting or less?
+- Argue against this: "Metal detecting destroys more history than it recovers."
+- Context, soil and container traces answer questions isolated coins cannot. What does that imply for how finds should be handled?
+- What would someone conclude about your life from what you left buried?

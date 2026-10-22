@@ -54,16 +54,41 @@ The distinction between consent and intrusion is essential. Indigenous groups th
 
 The ethical challenge extends beyond one traveller. Satellite imagery, drones and affordable cameras have made remote places increasingly visible, tempting outsiders to equate technical access with moral permission. It is possible to learn about Indigenous rights, protect land and challenge environmental destruction without attempting direct contact with people who refuse it. The most responsible documentary decision may be one that produces no extraordinary footage at all. Curiosity is valuable, but only when it recognises that other people's right to be left alone is not ours to trade for a few million views.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Have you ever been filmed or photographed without being asked? How did it feel?
-- Why do some people want to visit places that very few outsiders have ever seen?
-- Should some parts of the world be left alone? Why or why not?
+- Why do some communities avoid contact with outsiders?
+- Should people be allowed to film anywhere?
+- What makes a video worth watching?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why do you think some communities choose to stay isolated?
-- Where would you draw the line between respectful filming and intrusion?
-- How far do views and sponsorship deals push people into taking bigger risks online?
-- How should curiosity be balanced against a community's right to be left alone?
-- What should governments do to protect isolated communities?
+- A man landed on an island where people want to be left alone. Was that wrong? Start with: I think ... because ...
+- Should he have been arrested?
+- Someone says he was just curious and harmed nobody. What do you say to them? Start with: Maybe, but ... or I agree, because ...
+- What should a traveller never do?
+
+=== Intermediate before you read ===
+
+- Can you consent on behalf of a community?
+- Why might contact be dangerous for an isolated group?
+- Does a camera change what a visit means?
+
+=== Intermediate talk about it ===
+
+- Even an ordinary infection can be serious for an isolated community. How should that shape the law?
+- Compare a documentary made with a community with footage taken without asking. What exactly differs?
+- Someone tells you: "The world should see these places." What would you say back?
+- Some Indigenous groups use media themselves. Why does that matter to this argument?
+
+=== Advanced before you read ===
+
+- Does technical access ever create moral permission?
+- Who speaks for a community that will not speak to you?
+- Is public interest a real test or a convenient one?
+
+=== Advanced talk about it ===
+
+- The writer says public interest cannot be established by the fact that an image attracts attention. What would establish it?
+- Argue against this: "Filming uncontacted people is simply the oldest kind of exploitation with a new camera."
+- Drones and satellites make remote places visible. What should be forbidden even when it is easy?
+- What would you want recorded about your own community, and by whom?

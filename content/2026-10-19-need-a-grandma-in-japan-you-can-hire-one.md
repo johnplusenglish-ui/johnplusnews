@@ -56,17 +56,41 @@ Nevertheless, paid companionship raises uncomfortable questions about authentici
 
 But writing the business off as evidence of social decline would be too easy. People have always sought wisdom and support beyond their immediate families, falling back on neighbours, mentors and local institutions when relatives were unavailable or unsuitable. Perhaps what is genuinely new here is not the arrangement itself but the honesty of its financial terms. Japan's rentable grandmothers point to both the value of experience and the difficulty, in a busy and dispersed society, of creating ordinary places where the generations can meet without anybody having to make an appointment.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What is the most useful thing an older person has taught you?
-- Would you ever pay someone for friendly advice, and why?
-- How much time do different generations spend together in your country?
+- Do you spend time with people much older than you?
+- What can older people teach?
+- Would you hire someone for company?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Which tasks would you feel comfortable paying an older person to help with?
-- What might older workers gain from a service like this?
-- Is paid companionship less genuine than friendship, and why?
-- Why do younger and older generations sometimes struggle to meet?
-- What could communities do to build more relationships between generations?
+- You can hire a grandmother in Japan. What do you think of that? Start with: I think ... because ...
+- Is paid company still real company?
+- Someone says this is sad. What do you say to them? Start with: I agree, because ... or It is practical, because ...
+- Who taught you something useful?
 
+=== Intermediate before you read ===
+
+- Why might someone hire an older companion?
+- Are paid relationships less genuine?
+- What do generations lose by living apart?
+
+=== Intermediate talk about it ===
+
+- The company says the women are not substitutes for relatives. Why be so clear about that?
+- Compare this service with a teacher or a counsellor. What makes those feel different, if they do?
+- Someone tells you: "If you have to pay, it is not a relationship." What would you say back?
+- One worker described enjoying the variety. Does that change how you see the job?
+
+=== Advanced before you read ===
+
+- Is a market a symptom of a failure, or a sensible response to one?
+- What is owed between generations, and by whom?
+- Does paying for care make it more honest or less?
+
+=== Advanced talk about it ===
+
+- The writer calls the openly commercial basis the most honest feature. Do you agree, and what would the dishonest version look like?
+- Argue against this: "A rental grandmother is a society admitting it has given up."
+- The harder question is why contact between generations now needs arranging. What is your answer?
+- What would you pay for that you think you should not have to?

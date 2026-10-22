@@ -70,16 +70,41 @@ Prospective customers, for their part, may need to accept that no venue can guar
 
 What makes the phenomenon more than an amusing social-media story is the way it blurs the distinction between a personal milestone and a commercial product. If a wedding has become something to be researched like a car or a property investment, perhaps the industry itself has helped create the behaviour it now finds so awkward. Couples who have been taught to treat their celebration as a project can hardly be blamed for managing it like one.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What do you remember about the last big celebration you went to?
-- How much should people spend on a wedding, and why?
-- When is it acceptable to walk into an event you were not invited to?
+- Have you been to a wedding recently?
+- How do people choose a wedding venue?
+- Would you go to a stranger's wedding?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why might an unofficial visit show more than an organised venue tour?
-- Is attending a stranger's wedding without an invitation harmless or disrespectful?
-- What could wedding businesses do to help customers compare venues fairly?
-- How has social media changed what people expect from a wedding?
-- Which parts of a wedding are worth spending money on, and which are not?
+- Couples visit strangers' weddings to check the venue. Is that acceptable? Start with: I think ... because ...
+- What would you want to see before booking a big event?
+- Someone says it is harmless curiosity. What do you say to them? Start with: I disagree, because ... or I agree, because ...
+- What makes a wedding feel special?
+
+=== Intermediate before you read ===
+
+- Why do people research so carefully before booking?
+- Is a wedding a private event or a commercial one?
+- What should a venue have to show you?
+
+=== Intermediate talk about it ===
+
+- Guests and couples may feel uncomfortable with strangers present. Does the research justify that? Why?
+- Compare an official tour with watching a real event. What does each one hide?
+- Someone tells you: "The venue should offer supervised visits and the problem disappears." Would that work?
+- Deposits are large and hard to recover. How much does that explain the behaviour?
+
+=== Advanced before you read ===
+
+- Has the wedding industry trained couples to behave like investors?
+- Who consents on behalf of everyone in a room?
+- Can you research a feeling?
+
+=== Advanced talk about it ===
+
+- The writer suggests the industry helped create the behaviour it finds awkward. How exactly?
+- Argue against this: "If a venue sells an experience, buyers are entitled to inspect it."
+- Research can establish how a hall functions but not how an evening will feel. Where does that leave a couple?
+- What decision have you over-researched, and did it help?

@@ -56,17 +56,41 @@ There are competing interpretations, and both deserve a hearing. Advocates of ex
 
 Ultimately, The Line raises a question of political as well as architectural judgement. Should a government be praised for pursuing an extraordinary vision, or held to account if that vision proves financially unsustainable? Perhaps the real test of a futuristic city is not how impressive it looks in a rendering, but how responsibly its promises are revised once they come into contact with reality, and how honestly that revision is explained to the people paying for it.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How would you feel about living in a city with no ordinary roads?
-- What is the biggest building project you have ever seen?
-- When is it worth a government spending huge sums on a futuristic idea?
+- Would you live in a brand-new city?
+- What makes a city a good place to live?
+- What big building projects are happening near you?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Which problems of modern cities could a design like The Line solve?
-- Why might building it be more difficult than designing it?
-- Is reducing the scale of an ambitious project a failure or sensible planning?
-- How should governments choose between spectacular projects and ordinary infrastructure?
-- Would you want to live in a city like this, and why?
+- A city 170 kilometres long, now delayed. Would it work? Start with: I think ... because ...
+- Is it better to build new cities or improve old ones?
+- Someone says it was always impossible. What do you say to them? Start with: I agree, because ... or Maybe not, because ...
+- What would your ideal city have?
 
+=== Intermediate before you read ===
+
+- Why do huge projects get delayed?
+- Can a city be designed before anyone lives in it?
+- Who pays when a project stops?
+
+=== Intermediate talk about it ===
+
+- A report said work was postponed, not cancelled. Why is that difference important?
+- Compare a planned city with one that grew slowly. What does each get right?
+- Someone tells you: "The pictures were always fantasy." What would you say back?
+- Nobody has built a city of this size in a straight line. Why is having no precedent a problem?
+
+=== Advanced before you read ===
+
+- What is a megaproject for: the city, or the announcement?
+- Can ambition be separated from spectacle?
+- Who absorbs the cost of a decade's delay?
+
+=== Advanced talk about it ===
+
+- A scheme deferred by a decade re-emerges into changed costs, technology and politics. What is likely to survive of the original idea?
+- Argue against this: "Postponement is cancellation with better public relations."
+- Reporting a delay is not an official cancellation. How should journalists write about projects that never formally end?
+- What long project would you judge by its finished state rather than its promise?

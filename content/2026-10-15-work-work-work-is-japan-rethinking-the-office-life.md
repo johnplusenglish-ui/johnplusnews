@@ -56,16 +56,41 @@ Meanwhile, other aspects of Japanese working life are changing. The tradition of
 
 Japan's dilemma is not unique. Ageing societies must find ways to sustain public services and economic activity without exhausting the people who deliver them. Asking workers to spend longer at their desks may appear to offer a quick answer, but fatigue, illness and disengagement carry costs of their own. A more durable measure of success would be a workplace where extra hours are genuinely voluntary, achievement matters more than appearances and nobody has to choose between doing their job well and remaining healthy enough to enjoy the rest of their life.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How would you feel about leaving work before your manager?
-- What is the difference between working longer and working harder?
-- When can "voluntary" overtime become pressure?
+- What time do people finish work where you live?
+- Is it hard to leave before your boss?
+- What would you do with an extra hour each day?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Should success be measured by hours, results or something else?
-- How free is a worker's choice about overtime if promotion depends on appearing committed?
-- How can Japan address labour shortages without encouraging overwork?
-- What would a four-day week change if the workload stayed the same?
-- Which workplace expectations in your country deserve to change?
+- In some offices leaving first looks disloyal. Does that happen where you live? Start with: Yes, because ... or No, because ...
+- Should the law limit working hours?
+- Someone says long hours show commitment. What do you say to them? Start with: I disagree, because ... or Sometimes, but ...
+- What makes a good workplace?
+
+=== Intermediate before you read ===
+
+- Why is it hard to change an office culture?
+- Can a law change what people feel they should do?
+- Is time at a desk the same as work done?
+
+=== Intermediate talk about it ===
+
+- Japan has a word for death from overwork. What does having that word change?
+- Compare a legal limit on overtime with a change in what managers expect. Which would work faster, and why?
+- Someone tells you: "If workers want longer hours, let them." What would you say back?
+- 30% wanted fewer hours and about 11% wanted more. How should a government act on a split like that?
+
+=== Advanced before you read ===
+
+- Can presence ever be separated from commitment?
+- Does a shrinking workforce strengthen or weaken workers?
+- Who benefits from guidance rather than law?
+
+=== Advanced talk about it ===
+
+- September's change was to guidance, not statute. Why did it still alarm people who campaigned for reform?
+- Argue against this: "Flexibility for those who want longer hours is freedom, not a loophole."
+- A shrinking workforce is testing reforms meant to separate commitment from presence. Which pressure wins, and why?
+- What would you have to see in a workplace before you believed its stated culture?

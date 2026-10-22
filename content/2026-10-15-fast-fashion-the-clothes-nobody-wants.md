@@ -54,16 +54,41 @@ European policymakers have begun to intervene. Since July 2026, large companies 
 
 There is a danger in presenting individual shoppers as the sole cause of the problem. Low-cost clothing serves a real need, particularly for households facing financial constraints, and buying fewer but more expensive garments is not a realistic prescription for everyone. Shoppers can only choose from what the industry puts in front of them. Manufacturers determine durability, retailers shape purchasing behaviour and policymakers decide which costs businesses must bear. The central question is therefore not whether charity shops can find a better way to deal with discarded fashion, but whether the industry can succeed without producing so much clothing that almost nobody wants to keep.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What do you imagine happens after you donate a bag of clothes?
-- What makes you buy a piece of clothing you do not really need?
-- Who should pay when cheap clothing cannot be reused or recycled?
+- How often do you buy clothes?
+- What do you do with clothes you no longer wear?
+- Do you buy second-hand?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- How far does donating clothes solve the problem of buying too many?
-- Should fashion companies pay towards sorting and disposing of unwanted clothes? Why?
-- How do resale apps help charity shops, and how might they make the problem worse?
-- How realistic is "buy fewer, better clothes" for people on a tight budget?
-- Which one change would reduce clothing waste most effectively?
+- You donate a bag of clothes. Does that solve the problem? Start with: I think ... because ...
+- Why do we buy clothes we never wear?
+- Someone says cheap clothes help people with less money. What do you say to them? Start with: That is true, but ... or I agree, because ...
+- How could you make your clothes last longer?
+
+=== Intermediate before you read ===
+
+- Why do charity shops now receive more than they can sell?
+- Is buying less realistic for everyone?
+- Who should pay for clothes that nobody wants?
+
+=== Intermediate talk about it ===
+
+- Oxfam found 32% of clothes in British wardrobes were never worn. What does that figure say about how we shop?
+- Compare donating with repairing. Which does more good, and why?
+- Someone tells you: "Shop less and the problem goes away." What would you say back?
+- EU rules stop unsold clothes being destroyed. Why might that not reduce how many are made?
+
+=== Advanced before you read ===
+
+- Who should carry the cost of a product after it is sold?
+- Is donating a solution or a way of feeling better?
+- Can an industry built on replacement ever be sustainable?
+
+=== Advanced talk about it ===
+
+- Charities are inheriting an industry's disposal costs. Whose responsibility is that, and how would you enforce it?
+- Argue against this: "Blaming shoppers is the cheapest possible response to an industrial problem."
+- Preventing destruction does not slow production. What policy would?
+- What would change in your own wardrobe if clothes cost what they cost to dispose of?

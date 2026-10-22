@@ -69,16 +69,41 @@ Nor is the damage easily reversed. Habits broken over two seasons are not necess
 
 The Canadian response raises a broader ethical question. Individuals are entitled to choose destinations that reflect their values, yet those choices inevitably affect people who may share their objections to their own government. That there is no straightforward answer is precisely what makes consumer choice such a complicated form of political expression.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Would politics ever stop you from visiting a country, and why?
-- Which neighbouring country do people from your country visit most, and why?
-- What would make you cancel a trip you had already planned?
+- Where do people from your country go on holiday?
+- Would politics change where you travel?
+- Have you been to a neighbouring country?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why have some Canadians changed their plans for US holidays?
-- Who loses money when visitors stay away from a destination?
-- How effective is choosing not to travel as a political protest?
-- Can tourism help two countries get on better, and how?
-- Would you visit a country whose leaders you strongly disagreed with, and why?
+- Some Canadians stopped visiting the United States. Is that a good protest? Start with: I think ... because ...
+- Should holidays be political?
+- Someone says ordinary workers get hurt, not politicians. What do you say to them? Start with: That is true, but ... or I agree, because ...
+- Where would you go instead?
+
+=== Intermediate before you read ===
+
+- Can where you spend money be a political act?
+- Who feels a tourism boycott first?
+- Would discounts bring you back?
+
+=== Intermediate talk about it ===
+
+- Staying home costs the traveller nothing. Does that make it a weak protest or a clever one? Why?
+- Compare a boycott with a petition. Which gets noticed, and by whom?
+- Someone tells you: "Tourism brings countries together, so this is counterproductive." What would you say back?
+- Not everyone stayed away for political reasons. Why does that complicate the story?
+
+=== Advanced before you read ===
+
+- Is a consumer boycott politics or performance?
+- Should the people who suffer be the ones who decide if it worked?
+- Does tourism actually improve relations between countries?
+
+=== Advanced talk about it ===
+
+- The bill arrives at hotel receptions, not in government offices. Does that make the protest unjust, or simply how pressure works?
+- Argue against this: "Boycotts punish the powerless and comfort the people performing them."
+- Winning customers back may take longer than losing them. What does that asymmetry mean for policy?
+- What would you stop buying to make a point, and who would pay for it?

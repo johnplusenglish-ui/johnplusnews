@@ -63,16 +63,41 @@ The language of identity can therefore reinforce a hierarchy of occupations whil
 
 A broader identity is more resilient, and gives a person more to fall back on: friend, learner, parent, neighbour, artist or simply someone with values that survive changes in employment. Perhaps the healthiest relationship with work is neither total devotion nor indifference. It is allowing a career to contribute to a meaningful life without making it the only source of meaning.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How do you normally introduce yourself to a stranger?
-- Would you still do your job if you did not need the money, and why?
-- What else gives people a sense of identity?
+- What do you ask someone when you first meet them?
+- Do you enjoy talking about your job?
+- What else would you like to be asked?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- How do you feel when a stranger asks what you do for a living?
-- What are the risks of making your career the main part of your life?
-- How might retirement change someone's sense of self?
-- Which jobs in your country get less respect than they deserve?
-- If you could no longer do your current work, what would still define you?
+- 39% said their job is very important to who they are. Is that true for you? Start with: For me ... because ...
+- What would you do if you did not need money?
+- Someone says your job says nothing about you. What do you say to them? Start with: I disagree, because ... or Mostly true, because ...
+- What would you want people to know about you?
+
+=== Intermediate before you read ===
+
+- Why is work the first question at a party?
+- Is a job title useful information?
+- What happens to identity when work stops?
+
+=== Intermediate talk about it ===
+
+- Having several interests can make change easier. Why might that be?
+- Compare being asked about your job with being asked about your week. What does each invite?
+- Someone tells you: "Work is where adults spend their lives, so of course it defines them." What would you say back?
+- Some find the question uncomfortable, especially when looking for work. How would you ask instead?
+
+=== Advanced before you read ===
+
+- Is identity something you build or something assigned to you?
+- Who gains when people identify with their employer?
+- What should replace the work question?
+
+=== Advanced talk about it ===
+
+- Applications, networking and profiles keep reinforcing the work identity. Can an individual opt out of that?
+- Argue against this: "Separating yourself from your work is advice for people whose work is secure."
+- Redundancy removes more than income. What exactly does it remove?
+- Who are you when you are not working, and when did you last get to be that person?

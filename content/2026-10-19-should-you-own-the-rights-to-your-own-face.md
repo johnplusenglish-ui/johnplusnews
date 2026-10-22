@@ -60,17 +60,41 @@ Practical enforcement is equally challenging. Online content crosses borders alm
 
 The Danish initiative illustrates a genuine shift in the meaning of privacy. It is no longer merely a question of keeping existing personal information secret. It is also about preventing others from manufacturing a persuasive identity on somebody's behalf and setting it loose. As synthetic media becomes commonplace, societies will have to decide how much control individuals ought to retain over their own digital doubles, and who should bear the cost when that control fails. The answer will shape not only privacy law but the everyday business of believing what we see.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How easy do you find it to tell real photos from AI-generated ones?
-- How would you feel if someone copied your voice without asking?
-- Who should control how your face is used online?
+- Have you seen a fake video of a real person?
+- Could you tell it was fake?
+- Should it be illegal to copy someone's face?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- How could an AI deepfake harm someone who is not famous?
-- What kinds of imitation should stay legal as art or comedy?
-- Who should be responsible for removing damaging deepfake material?
-- Would you support a law protecting people's voices as well as their faces, and why?
-- How might widespread deepfakes change our trust in videos and photographs?
+- Denmark plans a law to protect people's faces and voices. Good idea? Start with: I think ... because ...
+- What would you do if someone made a fake video of you?
+- Someone says fake videos are just jokes. What do you say to them? Start with: Sometimes, but ... or I agree, because ...
+- How can we tell what is real online?
 
+=== Intermediate before you read ===
+
+- Can a law keep up with this technology?
+- Should public figures get the same protection as everyone else?
+- What would you want removed, and who would remove it?
+
+=== Intermediate talk about it ===
+
+- Taking a video off one platform achieves little if copies spread. What would actually work?
+- Compare parody of a politician with a fake video of a private person. What makes them different?
+- Someone tells you: "If you post photos online, you accept the risk." What would you say back?
+- The Danish law was still a proposal. Why does that distinction matter in reporting?
+
+=== Advanced before you read ===
+
+- What did a photograph used to prove, and what does it prove now?
+- Should your likeness be property, or something else?
+- Who is least able to defend themselves here?
+
+=== Advanced talk about it ===
+
+- Generative tools dismantled the assumption that a photo records something that happened. What replaces that assumption?
+- Argue against this: "Owning your face would make satire, journalism and art impossible."
+- Private individuals lack the lawyers and contacts a public figure has. How should a law correct for that?
+- What would you need to see before you believed a video of someone you know?

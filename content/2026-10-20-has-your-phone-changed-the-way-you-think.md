@@ -63,16 +63,41 @@ Individual settings such as scheduled focus periods can help, but they work best
 
 A more deliberate approach to alerts could restore some control over concentration. If we choose when to check rather than responding to every signal, we may reduce needless interruptions without rejecting the technology itself. The key question is no longer whether our phones can attract attention. It is whether we have designed our daily lives so they are entitled to it.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What pulls your attention away most when you are trying to focus?
-- How do notifications affect the way you concentrate?
-- When, if ever, do you put your phone on silent, and why?
+- How many times a day does your phone interrupt you?
+- Do you turn off notifications?
+- When do you concentrate best?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Which kinds of messages are hardest to ignore, and why?
-- Should employers expect instant replies from staff, and why?
-- In your country, is it normal to answer work messages late at night?
-- How could technology help us manage the distractions it creates?
-- Would you accept a phone-free period at work or school, and why?
+- Alerts slowed thinking by about seven seconds. Does that sound serious? Start with: I think ... because ...
+- Which notifications are worth keeping?
+- Someone says phones are ruining our brains. What do you say to them? Start with: That is too strong, because ... or I agree, because ...
+- What helps you focus?
+
+=== Intermediate before you read ===
+
+- Is distraction the phone's fault or ours?
+- Can a workplace reduce interruptions?
+- What would you lose by switching alerts off?
+
+=== Intermediate talk about it ===
+
+- The study measured a short-term effect in a controlled task. Why is that not the same as lasting damage?
+- Compare an interruption from a person with one from a phone. Which is easier to recover from, and why?
+- Someone tells you: "Seven seconds is nothing." What would you say back?
+- The effect varied with how relevant the notification seemed. What does that suggest about solutions?
+
+=== Advanced before you read ===
+
+- Is attention something you own or something sold on your behalf?
+- Should employers be allowed to expect instant replies?
+- Which interruptions genuinely matter?
+
+=== Advanced talk about it ===
+
+- The writer rejects both the panic and the dismissal. What is the more precise account of distraction?
+- Argue against this: "Designing out interruptions is a management problem dressed as neuroscience."
+- Notifications communicate an expectation of attention, not just information. Who set that expectation?
+- Which interruption in your day would you design out first?

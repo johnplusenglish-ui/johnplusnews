@@ -56,17 +56,41 @@ There are limits to the comparison. Commercial wellness businesses cannot simply
 
 Nevertheless, the trend raises a more substantial question than whether saunas are fashionable. If people increasingly seek out spaces free from screens, alcohol and organised entertainment, what does that reveal about the opportunities for connection in ordinary public life? The answer is unlikely to be especially flattering to the places most people pass through every day. Ireland's new social ritual may be telling us as much about what has quietly disappeared elsewhere as about the pleasures of getting warm.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Where do people in your country usually go to meet friends?
-- How would you feel about sitting in a very hot sauna with strangers?
-- Is socialising easier with or without alcohol, and why?
+- Where do people meet in your town?
+- Have you been in a sauna?
+- Do you talk to strangers at the gym or the pool?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- What makes a public place feel welcoming to people who arrive alone?
-- Why might people prefer a sauna to a pub or café?
-- How far should local councils pay for cheap places where strangers can meet?
-- How much can a short chat with a stranger really help someone who feels lonely?
-- Which social traditions in your country are changing?
+- People book a sauna and leave having talked to strangers. Why does that work? Start with: I think it is because ...
+- Is it easier to talk without phones?
+- Someone says a sauna can never replace a pub. What do you say to them? Start with: I agree, because ... or Maybe not, but ...
+- Where do you feel most comfortable meeting people?
 
+=== Intermediate before you read ===
+
+- What makes a place good for meeting people?
+- Does paying for something change the atmosphere?
+- Why might a pub be harder to replace than it looks?
+
+=== Intermediate talk about it ===
+
+- Everyone puts their phone away before going in. How much of the effect is that single rule?
+- Compare a booked sauna session with dropping into a pub. What does each make possible?
+- Someone tells you: "This is wellness marketing, not community." What would you say back?
+- Cold water and heat carry real risks. How should that sit alongside the social benefits?
+
+=== Advanced before you read ===
+
+- Can a paid hour create community, or only the feeling of it?
+- What did the pub do that nothing has replaced?
+- Is a third place still a third place if you book it?
+
+=== Advanced talk about it ===
+
+- The writer says warmth and sociability are not the same thing as community. What is the difference, concretely?
+- Argue against this: "Commercial wellness is simply charging people for what used to be free."
+- A booked session removes the unplanned dropping in. Does that matter, or is it an improvement?
+- Where in your life do you meet people you did not arrange to meet?

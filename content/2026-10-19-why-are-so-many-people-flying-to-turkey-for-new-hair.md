@@ -68,16 +68,41 @@ Nor is the pressure evenly distributed. A procedure that was once largely invisi
 
 Istanbul's success shows how international competition can broaden access to elective treatment while making medical decisions increasingly consumer-driven. For an individual considering a transplant, the sensible question is not where the procedure is cheapest, but whether its benefits, limitations and risks have been understood without the pressure of a persuasive sales pitch.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How much do people around you worry about their appearance?
-- Would you travel abroad for cheaper medical treatment, and why?
-- What matters more when choosing a clinic: price, reputation or safety?
+- Why do people worry about losing their hair?
+- Would you travel abroad for medical treatment?
+- What would you check before a treatment?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Why has Istanbul attracted so many international hair-transplant patients?
-- How is medical tourism different from an ordinary holiday?
-- What should patients check before choosing a clinic abroad?
-- How does social media change the way people see their own appearance?
-- Should society encourage people to accept ageing, or support their choice to change it?
+- People fly to Turkey because it costs less. Is that sensible? Start with: I think ... because ...
+- What should a clinic tell you before surgery?
+- Someone says it is only hair, so it does not matter. What do you say to them? Start with: I disagree, because ... or For some people, ...
+- What makes you trust a doctor?
+
+=== Intermediate before you read ===
+
+- Why is medical tourism growing?
+- What happens if something goes wrong abroad?
+- Do before-and-after photos tell you anything?
+
+=== Intermediate talk about it ===
+
+- Results take months and are not guaranteed. Why do advertisements rarely say so?
+- Compare a cheaper clinic abroad with an expensive one at home. What are you really paying for?
+- Someone tells you: "Lower prices mean more people can afford it, which is good." What would you say back?
+- A low advertised price says nothing about handling complications. What should a price include?
+
+=== Advanced before you read ===
+
+- Is cosmetic surgery a medical decision or a consumer one?
+- Who should regulate a treatment bought in another country?
+- Does competition improve medicine or marketing?
+
+=== Advanced talk about it ===
+
+- Competition widened access and rewards the best marketers rather than the best surgeons. Can both be true at once?
+- Argue against this: "Treating hair loss as a problem to correct is the real harm here."
+- Some experience hair loss as a threat to confidence and others as unremarkable ageing. Should medicine take a view?
+- What would you want a clinic to say that none of them say?

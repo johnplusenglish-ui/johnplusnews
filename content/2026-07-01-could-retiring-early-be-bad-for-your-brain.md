@@ -57,16 +57,41 @@ One interpretation is that professional life repeatedly calls on people to solve
 
 Perhaps the most productive question is therefore not whether to retire early, but what we intend to retire into. A sudden absence of structure may feel liberating at first and empty later, particularly for someone whose identity was closely tied to their job. Others flourish when they finally have time for family, creativity and rest. The study is a reminder that health cannot be reduced to a single score or a single recommendation. A good retirement may involve stepping away from paid work while continuing to seek out fresh experiences, useful challenges and reasons to get up in the morning.
 
-=== Before you read ===
+=== Core before you read ===
 
-- At what age would you ideally like to stop working?
-- What activities would fill your days if you retired tomorrow?
-- Can work be good and bad for health at the same time?
+- At what age would you like to stop working?
+- What would you do with your time if you stopped working?
+- Does your job make you think hard?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Which benefits of work might be difficult to replace after retirement?
-- Should retirement age depend on the type of job someone does?
-- Is learning a new skill as mentally valuable as staying employed?
-- Why is it important to distinguish poorer test results from dementia?
-- What would a meaningful retirement look like for you?
+- The study found some thinking skills got weaker but sleep and mood improved. Which matters more to you? Start with: For me ... because ...
+- Would you retire early if you could?
+- Someone says retiring makes people old quickly. What do you say to them? Start with: I think so, because ... or I don't agree, because ...
+- What could keep your brain busy after work ends?
+
+=== Intermediate before you read ===
+
+- Is work good for the brain, or just tiring?
+- Why might retirement change how someone thinks?
+- What would you miss most about working?
+
+=== Intermediate talk about it ===
+
+- Thinking skills slipped while sleep and mood improved. How would you weigh those against each other, and why?
+- Compare retiring at sixty with retiring at sixty-seven. What changes besides money?
+- Someone tells you: "Work keeps you sharp, so retire as late as you can." What would you say back?
+- The study looked at one group of German women. Why does that limit what it can tell us?
+
+=== Advanced before you read ===
+
+- Should the state use brain health as an argument for a later pension age?
+- Is the value of work mostly the work, or the structure around it?
+- Who can afford to retire early, and does that shape the findings?
+
+=== Advanced talk about it ===
+
+- The study found weaker flexible thinking alongside genuine health gains. Which finding would you put in a headline, and what does that choice reveal?
+- Argue against this: "If retirement dulls the mind, people should simply work longer."
+- A reform created a natural experiment. What can that design show that a survey cannot, and what can it still not prove?
+- What would you need in place before you could retire without losing something important?

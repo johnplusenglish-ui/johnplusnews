@@ -56,16 +56,41 @@ For this reason, sleep specialists still emphasise the importance of adequate, c
 
 The most refreshing aspect of the research may be its challenge to the moral language surrounding rest. A person who sleeps late is often described as lazy, while somebody who rises early is praised for discipline. Neither judgement tells us much about how tired those people actually are. If your week has left you exhausted, getting a little more sleep may be sensible rather than self-indulgent. The larger goal is not to win a contest over who gets up earliest, but to build a life in which proper rest is possible most nights.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Do you wake up later at weekends than during the week?
-- Have you ever felt guilty about sleeping late?
-- What usually stops you getting enough sleep?
+- Do you sleep later at the weekend?
+- How many hours of sleep do you need?
+- What stops you sleeping well?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Is a regular sleep schedule realistic for most working adults?
-- Why do some people associate getting up early with being successful?
-- How should journalists explain research findings that show a connection but not a cause?
-- Can one weekend lie-in make up for an exhausting week?
-- What change would most improve your sleeping habits?
+- Do you feel guilty about sleeping late? Start with: I do ... because ... or I don't, because ...
+- Is an extra hour in bed a treat or a problem?
+- Someone says you should wake at the same time every day. What do you say to them? Start with: That works for ... but ...
+- What is your best advice for sleeping well?
+
+=== Intermediate before you read ===
+
+- Why do doctors usually recommend the same wake-up time every day?
+- Can you catch up on lost sleep, do you think?
+- Is tiredness during the week a personal problem or a work problem?
+
+=== Intermediate talk about it ===
+
+- The strongest result was about eighty-seven minutes, not a whole morning. Why might the amount matter so much?
+- Compare a weekday morning with a weekend one. What actually changes, besides the alarm?
+- Someone tells you: "Sleep advice is just another way to make people feel they are failing." What would you say back?
+- The study shows a link, not a cause. What else could explain the connection?
+
+=== Advanced before you read ===
+
+- Is irregular sleep a health risk or a sign of an irregular life?
+- Who gets to choose when they wake up?
+- Would you change your sleep for a statistic?
+
+=== Advanced talk about it ===
+
+- The writer says an association is not a prescription. Why do health stories so often lose that distinction?
+- Argue against this: "If catch-up sleep helps, the real problem is the working week, not the lie-in."
+- The finding challenges the idea that all variation in sleep timing is harmful. What would it take to change standard advice?
+- Is there a health rule you follow without ever having checked the evidence for it?

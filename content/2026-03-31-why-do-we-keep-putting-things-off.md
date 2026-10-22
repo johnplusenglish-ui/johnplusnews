@@ -56,16 +56,41 @@ What helps is often less glamorous than waiting for inspiration. Breaking a task
 
 The real cost of procrastination extends beyond unfinished work. It can create a cycle of guilt, rushed decisions and the conviction that we are somehow incapable. Yet harsh self-criticism may simply add another unpleasant feeling to the task we already want to escape. It is more useful to ask what precisely we are avoiding: confusion, possible criticism, boredom or a standard nobody could reasonably meet. Once that obstacle is identified, progress becomes easier to design. The goal is not to turn every minute into productivity, but to stop letting temporary discomfort run the show.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Which tasks do you usually leave until the last minute?
-- Do you find it easier to begin a task or to finish it?
-- Can wanting to do something perfectly become a problem?
+- What do you do when you want to avoid a job?
+- Is there something you have been putting off this week?
+- Do you work better in the morning or the evening?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Is procrastination mainly a problem of motivation, emotion or organisation?
-- Can phones make people procrastinate, or do we pick up phones because we already want to avoid something?
-- Does pressure from deadlines help you or make things worse?
-- What is one practical way to make a difficult task easier to start?
-- Do people criticise themselves too much for procrastinating?
+- The article says putting things off is about feelings, not laziness. Do you agree? Start with: I think ... because ...
+- Which is harder for you: starting a task, or finishing it?
+- Someone says people who delay are just lazy. What do you say to them? Start with: That is true sometimes, but ... or I don't agree, because ...
+- What helps you start something difficult?
+
+=== Intermediate before you read ===
+
+- Why do we clean the kitchen instead of doing the hard job?
+- Is putting something off always a bad decision?
+- What kind of task do you delay most, and why?
+
+=== Intermediate talk about it ===
+
+- The article links delay to anxiety and perfectionism rather than discipline. Does that explanation fit you? Why?
+- Compare a deadline set by you with one set by somebody else. Which works better, and why?
+- Someone tells you: "Just start, and the feeling goes away." Is that good advice? Why?
+- Starting small is the usual advice. Why might it work better than a long plan?
+
+=== Advanced before you read ===
+
+- Is procrastination a character flaw or a coping strategy?
+- Would you rather work with someone who delays or someone who rushes?
+- Does a culture that praises productivity create the problem it complains about?
+
+=== Advanced talk about it ===
+
+- The research points at discomfort rather than discipline. Does that make the behaviour easier to excuse, or easier to change?
+- Argue against this: "Calling procrastination an emotional problem is just a comfortable way of avoiding responsibility."
+- Much of the research is observational. What would a stronger study have to show?
+- Is there something you keep researching instead of doing? What is the discomfort underneath it?

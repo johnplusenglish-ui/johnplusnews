@@ -56,16 +56,41 @@ Consumer protection complicates the picture further. Under UK distance-selling r
 
 The most promising improvements may be less confrontational. Better sizing information, accurate product images and more reliable descriptions could reduce the number of purchases that disappoint in the first place. More efficient sorting and resale systems could also preserve the value of goods that do come back, rather than writing off stock that is perfectly wearable. Yet the central contradiction remains: online retailers have encouraged consumers to behave as though their living rooms were fitting rooms with unlimited delivery. Winding back that expectation without damaging trust will require more than adding a charge at checkout.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How often do you return things you buy online, and why?
-- What work happens after you print a returns label?
-- Should returns always be free for the customer? Why or why not?
+- Do you buy clothes online?
+- Have you ever returned something?
+- Why do people order more than they need?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Who should pay for unwanted returns: the customer, the retailer or both?
-- Would a small return fee change the way you shop online, and how?
-- Which would reduce returns most: better sizing, better photos or stricter rules?
-- Is ordering several sizes sensible shopping or avoidable waste?
-- How can retailers protect consumer rights without encouraging unnecessary returns?
+- Free returns feel free. Who pays, do you think? Start with: I think ... pays, because ...
+- Would you order less if returns cost money?
+- Someone says shops should always offer free returns. What do you say to them? Start with: I agree, because ... or It depends, because ...
+- What would make online shopping easier and cleaner?
+
+=== Intermediate before you read ===
+
+- Why do people order three sizes of the same thing?
+- Is a free return really free?
+- Should shops charge for returns?
+
+=== Intermediate talk about it ===
+
+- Around 19% of online sales are returned. What does that rate tell you about how we shop?
+- Compare trying clothes in a shop with trying them at home. What are the hidden costs of each?
+- Someone tells you: "Charging for returns just punishes people who cannot get to shops." What would you say back?
+- Workers open and inspect each parcel. Why does that step rarely appear in the advertising?
+
+=== Advanced before you read ===
+
+- Has convenience been priced correctly?
+- Who should carry the cost of a system built on uncertainty?
+- Would you accept slower delivery for fewer returns?
+
+=== Advanced talk about it ===
+
+- The writer says the home fitting room depends on a costly reverse system. Should the price of that sit on the item, the return, or the retailer?
+- Argue against this: "Adding a charge at checkout would fix this overnight."
+- Winding back the expectation risks damaging trust. How would you change the norm without losing customers?
+- What is one convenience you rely on without knowing its full cost?

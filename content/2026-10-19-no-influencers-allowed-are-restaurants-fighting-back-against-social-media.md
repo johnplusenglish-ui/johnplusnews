@@ -56,16 +56,41 @@ The real dividing line may be behaviour rather than professional status. A visit
 
 Rather than declaring war on social media, venues could introduce proportionate rules: designated filming times, consent requirements and advance approval for commercial shoots. Customers also have a responsibility to read the room. A memorable visit cannot be measured entirely by the images it generates, and there is something faintly absurd about paying for an experience only to spend it documenting yourself having one. Perhaps the most radical act in a photogenic restaurant is to put the phone down, taste the food and enjoy the company.
 
-=== Before you read ===
+=== Core before you read ===
 
-- Do you photograph your food or places you visit? Why or why not?
-- Have you ever been disturbed by somebody filming in public?
-- Can social media attention help and harm a business at the same time?
+- Do you photograph your food?
+- Does filming in restaurants annoy you?
+- Why do places want to look good online?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Should restaurants be allowed to ban photography completely?
-- Where is the line between taking a memory and disturbing other customers?
-- Would a restaurant with a no-phone rule appeal to you?
-- Do influencers deserve special treatment if they bring a business publicity?
-- How could businesses make fair rules without treating every customer like a problem?
+- Some venues now limit photography. Fair? Start with: I think ... because ...
+- Should you ask before filming other people?
+- Someone says a photo harms nobody. What do you say to them? Start with: Usually true, but ... or I agree, because ...
+- What is polite behaviour in a restaurant?
+
+=== Intermediate before you read ===
+
+- Do restaurants need social media more than it needs them?
+- Where is the line between a photo and a production?
+- Should businesses charge for filming?
+
+=== Intermediate talk about it ===
+
+- The Hollies restricted filming only during busy hours. Is a partial rule better than a full ban? Why?
+- Compare a diner photographing a cake with someone setting up lights. What exactly separates them?
+- Someone tells you: "They want the free publicity but not the filming." What would you say back?
+- Influencers say their work involves real planning and editing. Does that earn them access?
+
+=== Advanced before you read ===
+
+- Can a venue accept the benefits of attention and refuse its costs?
+- Who owns the atmosphere of a public room?
+- Is a customer with a camera a guest or a business?
+
+=== Advanced talk about it ===
+
+- The dividing line may be behaviour rather than intent. Is behaviour easier to police, or just easier to defend?
+- Argue against this: "A restaurant that built its trade on social media has no right to restrict it."
+- The article suggests designated filming times and consent requirements. Would those work in practice?
+- What would you want asked before someone filmed you eating?

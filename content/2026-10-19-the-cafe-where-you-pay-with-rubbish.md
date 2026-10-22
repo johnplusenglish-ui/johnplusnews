@@ -60,17 +60,41 @@ There are social questions as well, and they are not easily brushed aside. Provi
 
 Even with those qualifications, the café offers a valuable example of local problem-solving. Measured by tonnage it collects a drop in the ocean, yet its real achievement may lie elsewhere: in the relationships it exposes between waste, work and basic needs. Sometimes an effective public idea begins not with new technology but by changing the perceived value of something everybody else is ready to throw away. Once a discarded bottle is understood as lunch, it becomes very hard to walk past.
 
-=== Before you read ===
+=== Core before you read ===
 
-- What do you usually do with empty plastic bottles and bags?
-- What would make you take your plastic waste somewhere to be recycled?
-- How could shops encourage people to recycle more?
+- What happens to plastic waste where you live?
+- Would you collect rubbish for a free meal?
+- Who cleans your streets?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- How well do you think the café's payment system works?
-- What might waste collectors gain from the scheme besides food?
-- Is recycling enough, or should governments also reduce plastic production?
-- What could go wrong if a city tried a similar scheme?
-- What unusual rewards might encourage people to behave more sustainably?
+- A kilogram of plastic buys a meal. Does that help? Start with: I think ... because ...
+- Should recycling be rewarded?
+- Someone says this does not solve anything. What do you say to them? Start with: Partly true, but ... or I agree, because ...
+- What would reduce plastic where you live?
 
+=== Intermediate before you read ===
+
+- Why reward people for collecting waste?
+- Is collecting rubbish the same as reducing it?
+- Who does this kind of work in your country?
+
+=== Intermediate talk about it ===
+
+- The café cannot collect all the city's plastic. Does that make it a failure, or the wrong measure?
+- Compare paying people to collect waste with stopping it being produced. Which matters more, and why?
+- Someone tells you: "Giving meals for rubbish is charity dressed as policy." What would you say back?
+- Ambikapur also has wider waste schemes. Why does that context change the story?
+
+=== Advanced before you read ===
+
+- Can an incentive change a system, or only behaviour within it?
+- Who should be paid for handling waste nobody wanted to make?
+- Is dignity part of what a scheme like this provides?
+
+=== Advanced talk about it ===
+
+- The writer says the real achievement lies in the relationships it exposes between waste, work and worth. What relationships does it expose?
+- Argue against this: "Trading food for plastic makes poverty a collection service."
+- Collecting more waste is not preventing it. What policy would address the second?
+- What would you be willing to sort, carry or return if the system made it worth doing?

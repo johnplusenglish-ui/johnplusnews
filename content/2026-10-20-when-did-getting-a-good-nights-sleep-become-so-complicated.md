@@ -62,16 +62,41 @@ Concern about the result may influence how a person approaches bedtime, while re
 
 The deeper issue is cultural. We increasingly quantify ordinary human experiences, from exercise to productivity and recovery. Numbers can sharpen awareness, but they also invite comparison and perfectionism. Good sleep is essential; a perfect nightly score is not. Sometimes the healthiest response to an imperfect graph may be to put the device down and carry on with the day.
 
-=== Before you read ===
+=== Core before you read ===
 
-- How do you usually know whether you have slept well?
-- How much sleep do you need before you feel your best?
-- What helps you fall asleep?
+- Do you track your sleep?
+- How do you know if you slept well?
+- Does a bad score change your day?
 
-=== Talk about it ===
+=== Core talk about it ===
 
-- Would you want to see a sleep score every morning, and why?
-- Some people say health apps do more harm than good. Do you agree?
-- How much should people trust the numbers a watch gives them?
-- What could employers do to help people sleep better?
-- How can people recognise when self-improvement has become an obsession?
+- You feel fine, then a watch gives you a low score. What do you trust? Start with: I would trust ... because ...
+- Is tracking sleep helpful or stressful?
+- Someone says these devices are useless. What do you say to them? Start with: Not entirely, because ... or I agree, because ...
+- What would improve your sleep most?
+
+=== Intermediate before you read ===
+
+- Can measuring something make it worse?
+- What can a wrist device actually detect?
+- Would you stop tracking if it worried you?
+
+=== Intermediate talk about it ===
+
+- A score to one decimal place suggests precision the method may not have. Why is that persuasive anyway?
+- Compare a tracker with simply noticing how you feel. Which is more useful, and why?
+- Someone tells you: "If the data says you slept badly, you slept badly." What would you say back?
+- Orthosomnia came from case reports, not a general finding. What does that limit?
+
+=== Advanced before you read ===
+
+- Does measurement create the anxiety it then detects?
+- Who benefits from sleep becoming a performance?
+- Should health devices be regulated like medical ones?
+
+=== Advanced talk about it ===
+
+- Tracking can reveal irregular bedtimes and also create worry. How should someone decide whether to keep using one?
+- Argue against this: "Consumer sleep scores should carry the same warnings as a medical test."
+- A number carries an authority its method may not deserve. Where else does that happen to you?
+- What would you stop measuring tomorrow if you trusted yourself instead?
