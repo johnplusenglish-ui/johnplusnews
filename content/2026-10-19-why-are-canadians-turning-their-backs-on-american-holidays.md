@@ -4,7 +4,7 @@ date-label: September 2026
 summary: Canadians have long been frequent visitors to the United States. But political tensions are changing some people's travel plans, and American tourist businesses are noticing.
 tags: Travel, Politics
 source: Associated Press | https://apnews.com/article/42ea6dd35e3ee24898f6a07495576435
-image: images/why-are-canadians-turning-their-backs-on-american-holidays-plain-c3423d.jpg
+image: images/why-are-canadians-turning-their-backs-on-american-holidays-c3423d.jpg
 ---
 === Core ===
 

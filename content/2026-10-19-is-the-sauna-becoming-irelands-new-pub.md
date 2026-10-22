@@ -3,7 +3,7 @@ date: 2026-01-28
 summary: On Ireland's coast, a new kind of meeting place is bringing strangers together. There is plenty of heat, but no need for a pint.
 tags: Lifestyle, Society
 source: RTÉ Lifestyle | https://www.rte.ie/lifestyle/living/2026/0128/1555340-does-our-growing-sauna-culture-prove-a-hunger-for-community/
-image: images/is-the-sauna-becoming-irelands-new-pub-plain-5db10a.jpg
+image: images/is-the-sauna-becoming-irelands-new-pub-5db10a.jpg
 ---
 === Core ===
 

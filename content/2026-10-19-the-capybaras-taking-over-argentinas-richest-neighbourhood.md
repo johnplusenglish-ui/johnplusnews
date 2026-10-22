@@ -3,7 +3,7 @@ date: 2026-10-06
 summary: Giant rodents are roaming the lawns of an exclusive neighbourhood near Buenos Aires. But who was there first?
 tags: Society, Environment
 source: El País Argentina | https://elpais.com/argentina/2026-10-06/un-vecino-del-barrio-privado-mas-conocido-de-buenos-aires-dispara-a-carpinchos-en-su-jardin.html
-image: images/the-capybaras-taking-over-argentinas-richest-neighbourhood-plain-897343.jpg
+image: images/the-capybaras-taking-over-argentinas-richest-neighbourhood-897343.jpg
 ---
 === Core ===
 

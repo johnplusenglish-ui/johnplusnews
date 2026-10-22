@@ -3,7 +3,7 @@ date: 2026-09-22
 summary: A metal detector led to 934 Roman silver coins in a German field. What can a hidden hoard tell us about ordinary life nearly 1,900 years ago?
 tags: History, Culture
 source: LVR Office for Archaeological Monument Preservation | https://www.lvr.de/bodendenkmalpflege/zentrale-infos/presse/sensationeller-roemischer-muenzschatz.html
-image: images/the-man-who-found-934-roman-silver-coins-plain-bea145.jpg
+image: images/the-man-who-found-934-roman-silver-coins-bea145.jpg
 ---
 === Core ===
 

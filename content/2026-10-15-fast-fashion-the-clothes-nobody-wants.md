@@ -3,7 +3,7 @@ date: 2026-10-13
 summary: A well-meant donation can become an expense when cheap clothing is too poor to sell again.
 tags: Environment, Lifestyle
 source: The Guardian | https://www.theguardian.com/fashion/2026/oct/13/people-sell-their-best-stuff-on-vinted-how-charity-shops-became-a-dumping-ground-for-unsellable-clothes
-image: images/fast-fashion-the-clothes-nobody-wants-plain-ecce18.jpg
+image: images/fast-fashion-the-clothes-nobody-wants-ecce18.jpg
 ---
 === Core ===
 

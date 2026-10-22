@@ -4,7 +4,7 @@ date-label: April 2026
 summary: Millions of workers are questioning how much of their lives employers should be entitled to.
 tags: Work, Society
 source: Gallup | https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx
-image: images/is-quiet-quitting-really-a-bad-thing-plain-fbb0b0.jpg
+image: images/is-quiet-quitting-really-a-bad-thing-fbb0b0.jpg
 ---
 === Core ===
 

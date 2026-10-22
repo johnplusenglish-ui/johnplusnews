@@ -3,7 +3,7 @@ date: 2026-09-24
 summary: A recruiter's warning about iced coffee at interviews started an argument about manners, generations and what employers should really be judging.
 tags: Work, Society
 source: BBC World Service | https://www.bbc.co.uk/programmes/w3ct8q64
-image: images/can-an-iced-coffee-cost-you-your-dream-job-plain-1eed64.jpg
+image: images/can-an-iced-coffee-cost-you-your-dream-job-1eed64.jpg
 ---
 === Core ===
 

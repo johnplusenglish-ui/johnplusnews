@@ -2,7 +2,7 @@ title: The Dying Italian Village Hoping Art Can Save Its Future
 date: 2026-10-12
 summary: A million-euro cultural programme offers hope to a hilltop village threatened by erosion and depopulation.
 tags: Culture, Travel
-image: images/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-plain-318d1f.jpg
+image: images/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-318d1f.jpg
 image-alt: A medieval stone village on a crumbling hilltop in central Italy, reached by a long footbridge, with green valleys and mountains behind it.
 ---
 === Core ===

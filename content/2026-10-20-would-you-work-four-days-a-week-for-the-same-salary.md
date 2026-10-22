@@ -3,7 +3,7 @@ date: 2025-07-21
 summary: A large international trial suggests shorter working weeks may benefit employees. Could every industry make them work?
 tags: Work, Business
 source: Nature Human Behaviour | https://www.nature.com/articles/s41562-025-02259-6
-image: images/would-you-work-four-days-a-week-for-the-same-salary-plain-384fa8.jpg
+image: images/would-you-work-four-days-a-week-for-the-same-salary-384fa8.jpg
 ---
 === Core ===
 
