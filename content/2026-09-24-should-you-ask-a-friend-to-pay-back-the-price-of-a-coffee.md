@@ -6,6 +6,9 @@ source: The Guardian | https://www.theguardian.com/commentisfree/2026/sep/24/it-
 ---
 === Core ===
 
+title: Would You Ask a Friend to Pay You Back?
+summary: A writer bought a drink with a friend. Then came a message asking her to transfer the money.
+
 Johanna Cosgrove was sitting on a train in Australia when her phone lit up. She had just met a friend for a green juice. They had talked and said goodbye. Then came an unexpected message: her friend wanted A$12.50 for the drink. It was not much money, but Cosgrove felt uncomfortable. Wasn't it easier to buy a friend a drink and forget about the money?
 
 In an article published in September 2026, the New Zealand-born writer described why the message had upset her. She believes that when a friend picks up the bill for something small, it should be a treat, not a loan. Next time, the other person can pay. To her, this is part of being kind. You give a little, and one day someone gives something back.
@@ -20,6 +23,9 @@ So what should you do next time you meet a friend for coffee? There is no one-si
 
 === Intermediate ===
 
+title: The Message That Turned a Catch-Up into a Transaction
+summary: Payment apps have made settling up effortless. They have also made it easier to put a price on moments that once passed without comment.
+
 A message arrived as Johanna Cosgrove travelled home by train. The New Zealand-born writer had just caught up with a colleague over green juice in Australia. But on the journey, her friend asked her to transfer A$12.50 to cover the drink. The amount was small; the feeling it left behind was not. For Cosgrove, a casual catch-up had suddenly turned into a transaction, and what should have been a pleasant memory became an awkward question about money and friendship.
 
 Writing in the Guardian in September 2026, Cosgrove argued that friends should be able to treat each other without keeping a running total. If one person picks up the tab for a modest purchase, the other can return the favour another day. No reminders or uncomfortable calculations are necessary. Her personal rule is that expenses below A$15 should generally be left alone. It was her opinion, not a universal law, but it raises a question: where does fairness end and generosity begin?
@@ -33,6 +39,9 @@ Imagine three friends meeting each Friday. One likes paying for the whole table,
 Perhaps the best approach is to spell things out without making a fuss. If you mean to treat somebody, say, 'This one's on me.' If you'd prefer to share the cost, suggest it before reaching the till. And if a friend consistently leaves you out of pocket, raise the issue rather than letting resentment build. Friendship works best when nobody has to keep score, but neither person feels they are always the one paying.
 
 === Advanced ===
+
+title: Below Fifteen Dollars: Where Fairness Ends and Generosity Begins
+summary: One writer's informal threshold struck a nerve. The dispute is less about money than about unwritten rules nobody states out loud.
 
 Johanna Cosgrove was travelling home by train when a message took the shine off an enjoyable afternoon. The New Zealand-born writer had been catching up with a colleague over green juice in Australia. Instead of simply remembering their conversation, she was being asked to transfer A$12.50 for her drink. The sum left her uncomfortable. What bothered her was not so much the money as the suggestion that an ordinary social gesture came with an invoice attached, turning what she had understood as a friendly treat into an account to settle.
 

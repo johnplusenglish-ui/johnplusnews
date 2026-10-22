@@ -6,6 +6,9 @@ source: Guinness World Records | https://www.guinnessworldrecords.com/news/2026/
 ---
 === Core ===
 
+title: A 99-Year-Old Above the Crowd
+summary: Pauline Kana was passed over the heads of a Texas audience, and into the record books.
+
 At a concert in Texas, people looked up and saw something extraordinary. High above their heads was a woman of ninety-nine. She was lying on a special stretcher while the crowd gently passed her towards the stage. People cheered, music played and she began waving her arms. Her name was Pauline Kana, and she was about to become the oldest person ever to crowd-surf.
 
 The record took place in May 2026 at a concert by American singer Brantley Gilbert. Pauline was ninety-nine years and 274 days old. Her grandson, Ross Smith, had helped organise the adventure. The audience knew what was happening, and Pauline was safely supported as she moved above several rows of fans. When she reached the front, she stood up and enjoyed the moment on stage.
@@ -20,6 +23,9 @@ Of course, nobody should try a dangerous stunt simply to prove that age does not
 
 === Intermediate ===
 
+title: The Grandmother Who Broke a World Record at a Rock Concert
+summary: Pauline Kana was ninety-nine years and 274 days old. Her grandson planned the attempt, as he has planned their adventures for years.
+
 The crowd at a country-rock concert in Texas had already come for an exciting evening. Then the singer announced an unusual guest: a ninety-nine-year-old grandmother who was about to attempt a world record. Moments later, Pauline Kana was lifted above the audience on a specially prepared stretcher. As dozens of hands passed her towards the stage, she loosened her grip and started waving. The cheering grew louder. By the time she reached the front, Pauline had achieved something no other person her age had officially done.
 
 The record-breaking moment took place in May 2026 at a Brantley Gilbert concert in Bellville, Texas. According to Guinness World Records, Pauline was ninety-nine years and 274 days old. She became the oldest person to crowd-surf, travelling over several rows of spectators before reaching the stage. It was carefully arranged with the organisers and the audience, rather than an elderly concertgoer suddenly deciding to jump into a crowd. Nevertheless, the sight of her floating above the fans was unforgettable.
@@ -33,6 +39,9 @@ The story touches on an uncomfortable assumption about old age. We tend to imagi
 By October 2026, Pauline had turned one hundred and was still sharing stories about her adventures. The most appealing part of the record may be the relationship that made it possible. Ross did not merely encourage his grandmother from a distance; he joined in, planned the attempt and celebrated beside her. What began with a silly basketball video developed into years of shared memories. Pauline's journey above a concert crowd was spectacular, but the connection between two generations was perhaps the real achievement.
 
 === Advanced ===
+
+title: Ninety-Nine, Crowd-Surfing, and What Old Age Is Supposed to Look Like
+summary: A carefully arranged record attempt is not proof that age imposes no limits. It is a reminder that those limits need not define somebody's ambitions.
 
 Concertgoers at a country-rock show in Texas were prepared for noise, excitement and perhaps a few surprises. They were unlikely, however, to expect a ninety-nine-year-old woman to be carried above their heads. Yet that was precisely the spectacle unfolding at a Brantley Gilbert performance in Bellville in May 2026. Pauline Kana lay on a specially prepared stretcher as the audience passed her carefully towards the stage. Initially gripping the edges, she soon began waving to the cheering crowd, visibly delighted by her extraordinary journey.
 

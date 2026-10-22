@@ -6,6 +6,9 @@ source: PNAS Nexus | https://academic.oup.com/pnasnexus/article/5/3/pgag014/8519
 ---
 === Core ===
 
+title: What Makes a Day a Good One?
+summary: Scientists looked at how more than 15,000 people spent their time. Being with other people stood out, but there is no perfect timetable.
+
 What makes a day good? Maybe you enjoy breakfast, finish work and meet a friend. Or perhaps you do very little and still feel happy. American scientists wanted to find out which activities were connected with better days. Their research suggests that the way we spend our time can matter, but it does not provide a perfect timetable for happiness.
 
 The researchers studied information from two large American surveys, one from 2013 and another from 2021. More than 15,000 people took part in total. They described what they did during a day and said whether that day felt better than usual. The team then used computer methods to look for patterns across more than one hundred different activities.
@@ -20,6 +23,9 @@ Still, the research gives us something to think about. Small changes may help: c
 
 === Intermediate ===
 
+title: The Science of a Good Day, and Its Limits
+summary: Socialising helped, although the benefit levelled off after about two hours. The study shows links rather than causes, and life rarely fits a plan.
+
 Imagine waking up with a blank diary and being told to design the happiest possible day. Would you spend the morning exercising, meet friends for lunch or stay at home with a book? Most of us have strong opinions about what makes us feel good, but scientists wanted to investigate whether there were patterns across thousands of people's everyday experiences. Their 2026 research suggested that good days are not completely mysterious, although happiness is far too complicated to be reduced to a simple schedule.
 
 The researchers analysed information from the American Time Use Survey, using responses from 2013 and 2021. More than 15,000 participants reported how they had spent a day and whether they considered it better than usual. The team used computer models to examine over one hundred activities, including working, socialising and leisure. Their aim was not to discover a magic routine, but to work out which patterns were linked to people reporting a particularly good day.
@@ -33,6 +39,9 @@ The biggest limitation is that the research shows relationships rather than caus
 Even so, the findings are a useful invitation to rethink our routines. Instead of treating free time as whatever is left over, we might deliberately make room to catch up with friends, enjoy a hobby or go for a walk. We can also notice when passive entertainment leaves us feeling flat rather than rested. Perhaps the secret is not copying somebody else's ideal day, but recognising what genuinely helps us feel connected, active and satisfied with our own.
 
 === Advanced ===
+
+title: Designing the Perfect Day, and Why the Data Will Not Let You
+summary: Machine-learning models examined more than a hundred activities. They found real patterns, and also found that happiness resists being optimised.
 
 Suppose you were given an entirely free day and asked to arrange it for maximum happiness. You might schedule coffee with friends, a satisfying period of work, some exercise and a relaxing evening. Someone else might prefer solitude, a slow breakfast and a long afternoon reading. Our private recipes for a good day vary enormously, yet researchers have wondered whether there are broader patterns hidden beneath these preferences. A 2026 American study used large-scale survey data to ask what separates an unusually good day from an ordinary one.
 

@@ -6,6 +6,9 @@ source: Associated Press | https://apnews.com/article/aa380c6826d788a3123fd36378
 ---
 === Core ===
 
+title: The Barrel the Falling Lake Revealed
+summary: Drought exposed the shoreline of Lake Mead. Inside a rusty barrel were human remains, hidden for about forty years.
+
 In May 2022, some people boating on Lake Mead, near Las Vegas, noticed a large rusty barrel beside the water. The lake was unusually low after years of drought. Places that had been underwater were now dry. When the boaters looked more closely, they made a terrible discovery. Inside the barrel were human remains. Someone had hidden a body in the lake many years earlier.
 
 Police soon worked out that the person had probably been killed decades ago. The victim had been shot in the head. His clothes and shoes suggested that he died around the late 1970s or early 1980s. But nobody knew his name. Detectives were trying to solve a murder without knowing who the victim was, where he came from or why he had disappeared.
@@ -20,6 +23,9 @@ But identifying Jackson did not solve the murder. Detectives still wanted to fin
 
 === Intermediate ===
 
+title: A Name at Last for the Man in the Barrel
+summary: Four years after boaters found the remains, DNA gave the victim back his identity. The murder itself is still unsolved.
+
 On 1 May 2022, boaters exploring Lake Mead near Las Vegas spotted a rusted barrel on a newly exposed stretch of shoreline. Prolonged drought and falling water levels had revealed areas that had remained underwater for decades. The discovery seemed unusual, but the contents were far more disturbing: human remains. Someone had put a body inside the barrel and left it in the lake, perhaps believing that the water would keep the secret forever. Instead, a changing landscape had brought a possible murder back into the light.
 
 Investigators established that the victim had been shot in the head. His clothing and shoes suggested he had died in the late 1970s or early 1980s. The case immediately attracted attention because Las Vegas had a notorious history of organised crime. A body sealed inside a barrel seemed to belong in a gangster film, and rumours began to spread. Detectives, however, stressed that the dramatic circumstances did not prove any connection with the Mafia.
@@ -33,6 +39,9 @@ There was still a gap between identifying Jackson and understanding his death. P
 The case is also a reminder that new discoveries can emerge from unexpected places. The falling water level was an environmental warning for communities that depend on the Colorado River. At the same time, it exposed a long-buried crime. Modern scientific techniques supplied a name that the barrel itself could not reveal. For Jackson's family, that identification mattered enormously, even though it could not answer every question. The mystery of who killed him remains open, waiting for someone to provide the final missing piece.
 
 === Advanced ===
+
+title: Receding Water, Forensic Genealogy and a Man Called Buddy
+summary: Environmental change uncovered what somebody had hidden, and modern science recovered a name that time had almost erased. Neither explains who put him there.
 
 On a stretch of newly exposed shoreline at Lake Mead in May 2022, a group of boaters came across an object that looked oddly out of place: a corroded metal barrel. The reservoir near Las Vegas had been shrinking as drought and heavy water use brought down its level, exposing ground that had been submerged for decades. Inside the barrel were human remains. What at first appeared to be a grim curiosity soon became the centre of a homicide investigation reaching back roughly forty years.
 

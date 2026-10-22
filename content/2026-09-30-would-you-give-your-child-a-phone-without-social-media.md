@@ -6,6 +6,9 @@ source: Fast Company | https://www.fastcompany.com/91612943/freckle-phone-design
 ---
 === Core ===
 
+title: A First Phone With No Social Media
+summary: An American company has built a phone for children aged seven to thirteen. It calls home, but it will not open the internet.
+
 A child asks for a phone. Their parents want to stay in touch, but they worry about social media, strange websites and too much time staring at a screen. It is a familiar problem in many families. An American company has come up with an answer: a colourful phone that lets children call home but does not give them the whole internet.
 
 The device is called Freckle. It is designed mainly for children aged seven to thirteen and was announced in 2026. Unlike a normal smartphone, it does not have social media apps, an app store, YouTube or a web browser. Children can call and send messages to contacts approved by their parents. The aim is to give them some independence without opening the door to everything online.
@@ -20,6 +23,9 @@ For many parents, the real choice is between safety and freedom. They want child
 
 === Intermediate ===
 
+title: The Phone That Sends Children Outside
+summary: Freckle has no browser, no app store and a camera that identifies birds and plants. It also lets parents see where their child is.
+
 The request sounds simple: 'Can I have a phone?' For a parent, however, it can open up an argument about social media, online safety, independence and how much screen time is too much. A normal smartphone allows a child to contact home, but it also provides instant access to videos, strangers and countless distractions. In 2026, an American company introduced a possible compromise: a phone designed to connect children to their families without pulling them into the wider internet.
 
 The Freckle phone is aimed primarily at children aged seven to thirteen. It has no general web browser, app store, social media or YouTube. Children can call and message contacts that their parents have approved, while adults manage features through a separate app. The device runs the company's own ClayOS software and uses colourful hardware with a small, square screen. According to its creators, the goal is to give children greater freedom while protecting them from online environments they may not yet be ready to navigate.
@@ -33,6 +39,9 @@ There is another difficulty: children do not use technology in isolation. A chil
 Freckle is unlikely to settle the debate about childhood and smartphones. Some families will prefer a basic phone, while others will introduce internet access gradually and discuss the risks openly. The important question is not whether children should use technology at all, but what we want technology to help them do. If a device makes it easier to keep in touch, go outside and build independence, perhaps it is serving a more useful purpose than a screen filled with endless notifications.
 
 === Advanced ===
+
+title: Freckle and the Question Behind Every First Phone
+summary: A deliberately limited device may protect a child from harmful content while shutting them out of their friends' group chats. No product settles that trade-off.
 
 Few parenting decisions seem to generate quite as much anxiety as the first smartphone. Adults want children to be able to call home, arrange to meet friends and develop independence. At the same time, handing over a conventional device can mean opening the door to social media, addictive video feeds and online spaces that even adults struggle to navigate responsibly. An American start-up called Freckle entered that debate in 2026 with an alternative proposition: what if a child's first phone were designed to encourage exploration rather than endless scrolling?
 

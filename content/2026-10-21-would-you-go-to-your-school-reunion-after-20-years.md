@@ -6,6 +6,9 @@ source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/oct/21/curi
 ---
 === Core ===
 
+title: He Went Back to Say Sorry
+summary: Mike had watched a classmate being bullied and said nothing. Twenty years later, he wanted to apologise.
+
 When Mike walked into his school reunion in Melbourne, Australia, he was not just hoping to see old friends. He had something important to say. Twenty years had passed since he left school, but one memory had stayed with him. A boy he knew had been bullied because he was gay. Mike had not joined in, but he had not stood up for him either. Now he wanted to apologise.
 
 Mike, a firefighter in his forties, told his story to the Guardian in October 2026. At the reunion, he found the old friend and brought up what had happened at school. The conversation was awkward. The other man ended up trying to make Mike feel better about his guilt. Mike realised that his apology had placed an unfair responsibility on the person who had suffered. Still, the two men reconnected.
@@ -20,6 +23,9 @@ So is going to a reunion a good idea? It depends on what you expect. You might c
 
 === Intermediate ===
 
+title: The Apology That Did Not Go to Plan
+summary: Mike found his old friend at the reunion. The man he had failed to defend ended up reassuring him instead.
+
 Mike had been out of school for twenty years, but one memory refused to fade. As a teenager in Melbourne, he had watched a friend experience homophobic bullying. He had never joined in, yet he had not spoken up either. Now, in his forties and working as a firefighter, he was heading to a school reunion with a particular purpose: he wanted to apologise for his silence. An evening that might have been about old photographs and familiar faces carried a rather heavier emotional weight.
 
 Speaking to the Guardian for an October 2026 article, Mike explained that he managed to find his old friend and bring up the past. The apology did not unfold quite as he had imagined. Instead, the man who had been bullied ended up reassuring Mike that he need not feel guilty. Mike came away recognising the uncomfortable irony: in trying to make amends, he had asked someone else to deal with his feelings. Nevertheless, the two reconnected over drinks, giving the story a warmer ending than he might have expected.
@@ -33,6 +39,9 @@ Social media complicates that sense of discovery. You may have followed someone'
 Perhaps the healthiest way to approach a reunion is with curiosity rather than a scorecard. You do not have to prove that you have become more successful, attractive or interesting than the person sitting opposite you. Nor is it always wise to treat the occasion as a chance to settle every old grievance. Mike's experience suggests that an apology can matter, but it needs to leave room for the other person's wishes. Sometimes the most revealing thing about returning to school is discovering how little the old rankings matter.
 
 === Advanced ===
+
+title: Twenty Years On: Whose Apology Is It?
+summary: A reunion collapses time and restores an old hierarchy. It also asks whether making amends serves the person wronged or the person speaking.
 
 For Mike, returning to school after two decades was not merely an exercise in nostalgia. The Melbourne firefighter, now in his forties, had spent years thinking about a classmate who endured homophobic bullying. He had not been among the perpetrators, but neither had he intervened. As the date of the reunion approached, he made up his mind to acknowledge his silence. What began as an opportunity to revisit the past became a test of whether confronting it could offer any meaningful sense of closure.
 

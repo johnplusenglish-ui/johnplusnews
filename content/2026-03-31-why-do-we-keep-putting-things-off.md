@@ -6,6 +6,9 @@ source: Nature Humanities and Social Sciences Communications | https://www.natur
 ---
 === Core ===
 
+title: The Email You Keep Not Writing
+summary: You make coffee, tidy the desk and check the weather. An hour later, the task is still waiting.
+
 It's Monday morning. You have an important email to write, and you know it will take only twenty minutes. First, you make coffee. Then you look at your phone. You tidy your desk and check the weather. Suddenly, an hour has gone by and the email is still there. You promise to start after lunch. If this sounds familiar, you are not alone. Most people put off difficult or boring tasks sometimes.
 
 This behaviour is called procrastination. It means delaying something even when you know the delay may cause problems. Researchers have been trying to work out why we do it. One common explanation is that people are simply lazy, but recent studies suggest a more complicated picture. Feelings such as worry, fear and pressure can make starting a task surprisingly difficult.
@@ -20,6 +23,9 @@ Of course, everyone has days when they are tired, busy or simply not interested.
 
 === Intermediate ===
 
+title: Procrastination Is Not Laziness
+summary: Psychologists increasingly look at the feelings behind the delay: anxiety, perfectionism and the fear of doing a poor job.
+
 The deadline is tomorrow, but your presentation is still an empty document. You know exactly what you ought to be doing. Instead, you answer a few unnecessary messages, make another cup of tea and suddenly decide your desk needs cleaning. By the time you finally sit down to work, the evening has disappeared. If this sounds familiar, you have experienced procrastination: putting something off despite knowing that the delay may make matters worse.
 
 People often describe procrastinators as lazy or badly organised, but psychologists increasingly look at the emotions behind the behaviour. Starting a difficult task can bring up anxiety, frustration or the fear of doing a poor job. Avoiding it offers immediate relief, even if that relief disappears when the deadline approaches. The brain chooses a pleasant feeling now over a better result later, and the decision can seem perfectly reasonable for a few minutes.
@@ -33,6 +39,9 @@ Breaking the cycle usually requires making a task feel manageable. You might put
 None of this means that procrastination is harmless. Repeatedly putting off important work can damage confidence, increase stress and leave people exhausted by last-minute efforts. But blaming yourself for being lazy may miss the point. A better response is to identify what makes the task uncomfortable and change the conditions around it, accepting that progress is usually slower and less glamorous than the plans we imagined. Starting before you feel ready, accepting an imperfect first attempt and taking one practical step can be more effective than waiting for a sudden burst of motivation.
 
 === Advanced ===
+
+title: Watching Yourself Make the Wrong Decision
+summary: Avoiding a task buys immediate relief and a worse tomorrow. The research points less at discipline than at the discomfort we are trying to escape.
 
 You have a presentation to finish, a deadline approaching and a perfectly usable desk. Yet instead of opening the document, you find yourself rearranging folders, checking messages and making a cup of tea you didn't particularly want. You know that delaying the work will make tomorrow more unpleasant. Somehow, that knowledge changes nothing. Procrastination has a peculiar power: it effectively allows us to watch ourselves make a poor decision while feeling momentarily relieved by it.
 

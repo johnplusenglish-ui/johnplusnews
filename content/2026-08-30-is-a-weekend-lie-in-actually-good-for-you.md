@@ -6,6 +6,9 @@ source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/aug/30/slee
 ---
 === Core ===
 
+title: Is It Bad to Sleep Late on Saturday?
+summary: Doctors usually say wake at the same time every day. A study of 40,000 adults suggests an extra hour may help.
+
 It's Saturday morning. Your alarm does not ring, and you stay in bed for another hour. When you finally get up, you feel wonderful. But then you remember something you have heard many times: doctors say we should wake up at the same time every day. Have you done something unhealthy by enjoying a lie-in? New research suggests that the answer may not be so simple.
 
 In August 2026, scientists presented a study about weekend sleep and blood pressure. They looked at information from around 40,000 adults in South Korea over seven years. People who slept a little longer at weekends were less likely to have high blood pressure than people who did not catch up on sleep. The researchers found that about an extra hour and a half was linked to a particularly positive result.
@@ -20,6 +23,9 @@ So what should you do when Saturday comes around? If you are tired after a busy 
 
 === Intermediate ===
 
+title: The Case for an Extra Hour in Bed
+summary: Catch-up sleep was linked to slightly lower odds of high blood pressure. The best figure was about eighty-seven minutes, not a whole morning.
+
 Saturday morning arrives, and for the first time all week there is no alarm. You could get up at your usual time, make coffee and start being productive. Or you could stay under the duvet for another hour. For years, people have heard that sleeping late at weekends is bad for the body clock, so even a pleasant lie-in can come with a feeling of guilt. However, research discussed at a European heart conference in August 2026 suggests that a modest amount of catch-up sleep may be helpful.
 
 Scientists examined data from approximately 40,000 adults in South Korea, collected over seven years. They compared people's sleep on weekdays and weekends with the likelihood of having high blood pressure. Participants who caught up on sleep at weekends had slightly lower odds of hypertension overall. The most favourable association was found around an extra hour and twenty-seven minutes of sleep. That sounds wonderfully precise, but it should not be treated as a magic number that suits everybody.
@@ -33,6 +39,9 @@ Experts therefore continue to recommend consistent bedtimes and waking times whe
 Perhaps the most useful conclusion is a practical one. If you have had an exhausting week, a moderate lie-in may be a reasonable way to catch your breath. But if you are permanently tired, it is worth looking at the wider pattern: when you go to bed, how well you sleep and what keeps you awake. Rest is not a reward for finishing every task. It is an essential part of looking after yourself.
 
 === Advanced ===
+
+title: Catch-Up Sleep, Hypertension and the Moral Language of Rest
+summary: An association is not a prescription. But the findings challenge the assumption that every variation in sleep timing must be harmful.
 
 Saturday morning offers a small but surprisingly complicated choice. The alarm has finally been switched off, the bedroom is comfortable and another hour under the duvet sounds irresistible. Yet years of advice about consistent sleep schedules may leave you wondering whether a lie-in is undermining your health. Recent findings suggest that the familiar warning deserves some nuance. For people who have accumulated a sleep deficit during the working week, modest weekend catch-up sleep may not be the enemy it has sometimes been made out to be.
 

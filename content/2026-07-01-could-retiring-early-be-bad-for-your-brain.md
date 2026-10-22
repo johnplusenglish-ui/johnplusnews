@@ -7,6 +7,9 @@ source: Journal of Health Economics | https://www.sciencedirect.com/science/arti
 ---
 === Core ===
 
+title: What Happens to Your Brain When Work Stops?
+summary: A German study followed women into retirement. Some thinking skills slipped, while sleep and mood improved.
+
 Imagine your final day at work. You close your computer, say goodbye to your colleagues and look forward to a life without early alarms. Perhaps you plan to travel, read books or spend more time in the garden. Retirement sounds wonderful to many people. But a study from Germany, published in 2026, asked an interesting question: could leaving work change the way our brains perform?
 
 The researchers studied the effects of a change in German retirement rules for women. The change made some women wait longer before they could retire early. This allowed the researchers to compare people who left work at different times. They focused on women in their sixties and looked at several tests of thinking and memory.
@@ -21,6 +24,9 @@ The real question may not be when we stop working, but how we spend the years af
 
 === Intermediate ===
 
+title: Retirement Is Good for Your Health and Harder on Your Thinking
+summary: A reform that raised the early retirement age let researchers compare women who left work at different ages. The results pointed in both directions.
+
 On the last day of work, retirement can look like the beginning of a permanent holiday. No more early alarms, demanding meetings or emails arriving late in the evening. There might finally be time to travel, learn an instrument or spend long afternoons with friends. Yet a German study published in the Journal of Health Economics in July 2026 raised a more complicated question: what happens to our thinking abilities when the daily challenges of working life disappear?
 
 The researchers examined a reform that raised the early retirement age for certain German women from sixty to sixty-three. That policy change created an opportunity to study the effects of spending different lengths of time in retirement. They focused on women aged sixty-three to sixty-seven and used tests involving memory, language and the ability to process information, alongside health insurance records. The approach was designed to separate the effects of retirement from some of the differences between people who simply choose to stop working.
@@ -34,6 +40,9 @@ One possible explanation is that working life gives people regular opportunities
 Perhaps the most useful lesson is to plan for retirement as a new stage of life rather than an endless weekend. Freedom from work can be a genuine gift, offering time to recover, spend with family and pursue neglected interests. The challenge is finding enough purpose and variety to keep life stimulating without recreating the pressures people wanted to escape. Leaving the office may be a sensible decision. Leaving curiosity behind would be a different matter entirely.
 
 === Advanced ===
+
+title: Fluid Intelligence, Blood Pressure and the Price of Leaving Work
+summary: A policy change in Germany created a natural experiment. It found weaker performance on flexible thinking, alongside genuine gains in health.
 
 Retirement is often imagined as the long-awaited reward for decades of effort: the final commute, the farewell gathering and the promise of mornings no longer dictated by an alarm. Yet while escaping workplace pressures may improve wellbeing, leaving employment also removes a regular source of mental stimulation. A study published in the Journal of Health Economics in July 2026 examined whether that change affects cognitive abilities, offering a more complicated picture than the familiar argument that people should retire as early as they possibly can.
 

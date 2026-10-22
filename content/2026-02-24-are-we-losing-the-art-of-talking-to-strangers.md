@@ -6,6 +6,9 @@ source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/feb/24/stra
 ---
 === Core ===
 
+title: An Hour on a Train Without a Word
+summary: Two passengers, two phones and no conversation. One simple question could change the journey.
+
 Two people sit next to each other on a train. One looks at a phone, and the other puts on headphones. They spend an hour together without saying a word. This is a normal scene in many cities. But what might happen if one of them looked up and started a conversation? They could exchange a few polite words, share a joke or discover that they have something in common.
 
 An article in the Guardian in February 2026 asked whether we are forgetting how to talk to strangers. The writer described meeting people in ordinary places and finding that even short conversations could be surprisingly pleasant. It raised a simple question: if we have more ways to contact each other than ever before, why do we sometimes avoid speaking to the person standing right beside us?
@@ -20,6 +23,9 @@ Nobody needs to talk to every stranger they meet. Sometimes silence is exactly w
 
 === Intermediate ===
 
+title: The Conversations We No Longer Start
+summary: Phones and headphones make silence easy. Yet research suggests we expect a chat with a stranger to go far worse than it actually does.
+
 You board a train, sit beside another passenger and immediately reach for your phone. They put on headphones. For the next hour, the two of you travel through the same landscape without exchanging a word. There is nothing particularly rude about this; it is simply how many journeys work now. Yet a Guardian article published in February 2026 asked whether our increasingly private routines are costing us something valuable: the ability to strike up ordinary conversations with people we have never met.
 
 The writer described brief encounters that turned out to be unexpectedly meaningful, including a conversation with an older passenger and a friendly exchange with someone working in a café. These moments were not dramatic, but that was precisely the point. A small conversation can make an anonymous public place feel more human. It may also remind us that other people have stories we would never come across through the familiar circles of our own social media accounts.
@@ -33,6 +39,9 @@ Talking to strangers also has a social value beyond making an individual day mor
 Perhaps the answer is not to insist that everyone becomes outgoing. Privacy, silence and personal space remain important. Instead, we could learn to read the room and recognise when a relaxed conversation might be welcome. Put away the phone for a moment, thank someone properly or ask a simple question without expecting anything in return. The aim is not to collect new friends on every journey. It is to remember that everyday life can include moments of connection that no app has arranged for us.
 
 === Advanced ===
+
+title: The Quiet Disappearance of the Unplanned Conversation
+summary: Small talk once punctuated queues, journeys and café visits. Its absence may say more about how our social worlds are organised than about anyone's shyness.
 
 Two passengers share a train carriage for an hour, yet scarcely acknowledge each other's existence. One disappears into a stream of messages; the other retreats behind headphones. Neither is behaving badly, and both may have perfectly legitimate reasons for wanting privacy. Still, the scene captures a shift in everyday social life. A Guardian feature published in February 2026 asked whether the small, unplanned conversations that once punctuated journeys, queues and café visits are quietly disappearing, and whether their absence matters more than we realise.
 

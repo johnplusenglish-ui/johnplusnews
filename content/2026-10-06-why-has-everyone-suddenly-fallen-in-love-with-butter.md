@@ -6,6 +6,9 @@ source: The Guardian | https://www.theguardian.com/food/2026/oct/06/the-butter-b
 ---
 === Core ===
 
+title: The Shop That Sells Almost Nothing but Butter
+summary: A Paris shop opened in 41-degree heat and still had queues outside. Butter has become something worth travelling for.
+
 On a hot summer day in Paris, Erwan Leo opened a new shop. The strange thing was that it sold almost nothing but butter. With temperatures close to 41°C, he worried that the fridges might struggle and customers might stay away. Instead, people began turning up. Some even had to wait outside. Butter, a food most of us keep quietly in the fridge, had become something worth travelling for.
 
 The shop, called Le Butter, opened in 2026. It sells around fifty different types, including special salted varieties. The colourful displays look beautiful in photographs, and social media has helped spread the word. Nearby, another famous food shop offers an even bigger choice. Tourists come looking for something unusual to take home, while cooks compare flavours like other people compare expensive wines.
@@ -20,6 +23,9 @@ The new excitement does not mean butter has suddenly become a health food. It st
 
 === Intermediate ===
 
+title: How Butter Became a Destination
+summary: Fifty varieties, a crowded shop and social media doing the rest. The ingredient most of us hide in the fridge is having a moment.
+
 When Erwan Leo opened a shop devoted to butter in Paris during the summer of 2026, he had reasons to be nervous. The temperature was approaching 41°C, hardly ideal weather for selling a product that needs careful refrigeration. He was also unsure whether enough customers would turn up. Yet within months, Le Butter had attracted such interest that people sometimes had to queue outside. The humble ingredient normally hidden in our fridges had become a destination in its own right.
 
 Inside the shop, customers can choose from around fifty varieties, including carefully produced salted butters. Some travellers buy several packets to take home, while food enthusiasts discuss flavour and texture with the seriousness usually reserved for cheese or wine. Elsewhere in Paris, a prestigious food department offers an even larger selection. According to a Guardian report in October 2026, butter is appearing at fashionable events, on restaurant tables and across social media in increasingly elaborate forms.
@@ -33,6 +39,9 @@ Not everybody welcomes the obsession. Some chefs question whether extravagant bu
 Perhaps the trend says more about how we treat food than about butter itself. We have a habit of rediscovering familiar ingredients, giving them stylish packaging and turning them into objects of desire. Sometimes that encourages people to appreciate quality and craftsmanship; sometimes it simply creates another expensive craze. When the excitement dies down, the best test may be surprisingly ordinary: does the butter make a piece of bread taste wonderful? If it does, perhaps that is enough.
 
 === Advanced ===
+
+title: Affordable Indulgence: What the Butter Boom Says About Us
+summary: A mundane kitchen essential has been repackaged as a luxury. The trend may reveal more about how we treat food than about butter itself.
 
 In the summer of 2026, opening a shop dedicated to butter in Paris looked like an eccentric commercial gamble. The city was enduring temperatures approaching 41°C, and proprietor Erwan Leo was understandably anxious about his refrigerators, let alone the size of his potential customer base. Yet his shop, Le Butter, quickly drew enough attention to warrant managing queues outside. A substance that had spent decades as a mundane kitchen essential was being transformed into a desirable souvenir, an object of culinary expertise and, increasingly, a social media spectacle.
 
