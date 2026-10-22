@@ -4,6 +4,7 @@ summary: A Japanese service offers help from older women, from cooking and advic
 tags: Relationships, Society
 source: ABC Australia | https://www.abc.net.au/news/2025-08-03/japan-rent-grandma-loneliness-epidemic-unemployment/105584684
 image: images/need-a-grandma-in-japan-you-can-hire-one-a614e0.jpg
+image-plain: images/need-a-grandma-in-japan-you-can-hire-one-plain-839364.jpg
 ---
 === Core ===
 
