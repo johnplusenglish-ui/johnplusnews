@@ -590,8 +590,7 @@
      dictionary would charge for an entry and then mark it as not standard English. Six words
      covers the long idioms ("kill two birds with one stone"); ordinary prose does not fit. */
   function isHeadword(s) {
-    var t = (s || "").trim();
-    return !!t && t.length <= 45 && t.split(/\s+/).length <= 6 && !/[.!?,;:\d]/.test(t);
+    return window.JPNGloss ? window.JPNGloss.isHeadword(s) : false;
   }
   /* The dictionary's public, token-free gloss endpoint. Readers here have no
      dictionary account, so sending them to johnplusdictionary.com/w/<word> hit
@@ -599,59 +598,56 @@
      returns the definition instead, and writes the entry on a first miss, so
      the next reader gets it for nothing. The same headword test runs on the
      server, so a sentence can never be sent for generation. */
-  var GLOSS_API = "https://johnplusdictionary.com/news-gloss";
-  var glossCache = {};        // lower(word) -> row WITH a definition
-  var glossMissing = {};      // lower(word) -> true, known to have no entry yet
+  /* Word look-ups live in gloss.js (shared with the highlighter). */
+  var G = function () { return window.JPNGloss; };
   var defNodes = {};          // lower(word) -> [nodes on screen], for the prefetch
-  function glossPost(words, preview) {
-    return fetch(GLOSS_API, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(preview ? { words: words, preview: true }
-                                   : { words: words })
-    }).then(function (res) {
-      if (!res.ok) throw new Error("http " + res.status);
-      return res.json();
-    });
-  }
-  function glossRequest(word) {
-    var key = word.toLowerCase();
-    if (glossCache[key]) return Promise.resolve(glossCache[key]);
-    return glossPost([word], false).then(function (d) {
-      var row = (d.results || [])[0] || null;
-      if (row) {
-        row.notice = d.notice || "";
-        if (row.gloss) { glossCache[key] = row; delete glossMissing[key]; }
-      }
-      return row;
-    });
-  }
   /* Fill in every definition we already have the moment My words opens, so a
-     reader does not wait on a request per word. preview:true means the
-     dictionary only reports what it knows - it never generates and never
-     charges - so opening this page costs nothing however many words are saved.
-     A word with no entry yet stays quiet and is only created if the reader
-     actually opens it. */
+     reader does not wait on a request per word. This asks look-only, so it
+     never generates and never charges however many words are saved. A word
+     with no entry yet stays quiet and is created only if the reader opens it. */
   function prefetchGlosses(words) {
-    var want = [];
-    words.forEach(function (w) {
-      var k = w.toLowerCase();
-      if (!isHeadword(w) || glossCache[k] || glossMissing[k]) return;
-      if (want.indexOf(w) < 0) want.push(w);
+    if (!G()) return;
+    G().preview(words, function (row) {
+      if (row.gloss) paintGloss((row.input || "").toLowerCase(), row);
     });
-    if (!want.length) return;
-    var CHUNK = 10;             // the endpoint's own batch limit
-    for (var i = 0; i < want.length; i += CHUNK) {
-      (function (batch) {
-        glossPost(batch, true).then(function (d) {
-          (d.results || []).forEach(function (row) {
-            var k = (row.input || "").toLowerCase();
-            if (row.gloss) { glossCache[k] = row; paintGloss(k, row); }
-            else { glossMissing[k] = true; }
-          });
-        }).catch(function () { /* silent: the row still works on open */ });
-      })(want.slice(i, i + CHUNK));
-    }
+  }
+  /* Only asked for when the reader actually opens a word. */
+  function loadGloss(word, node) {
+    if (!G()) return;
+    if (node.getAttribute("data-state")) return;    // already asked
+    var k = word.toLowerCase();
+    var have = G().cached(word);
+    if (have) { paintGloss(k, have); return; }
+    node.setAttribute("data-state", "loading");
+    node.textContent = "Looking it up\u2026";
+    G().lookup(word).then(function (row) {
+      node.setAttribute("data-state", "done");
+      node.textContent = "";
+      if (!row || row.source === "failed") {
+        node.appendChild(el("span", "wd-def-note", "Could not look that one up just now."));
+        node.setAttribute("data-state", "");        // let them try again
+        return;
+      }
+      if (row.source === "capped") {
+        node.appendChild(el("span", "wd-def-note", row.notice ||
+          "The daily limit for new words has been reached. Try again tomorrow."));
+        node.setAttribute("data-state", "");
+        return;
+      }
+      if (row.source === "not-headword" || !row.gloss) {
+        node.appendChild(el("span", "wd-def-note", "No dictionary entry for that one."));
+        return;
+      }
+      if (row.pos) node.appendChild(el("span", "wd-pos", row.pos));
+      node.appendChild(el("span", "wd-gloss", row.gloss));
+      if (row.standard === false) {
+        node.appendChild(el("span", "wd-def-note", "Not standard English."));
+      }
+    }).catch(function () {
+      node.setAttribute("data-state", "");          // transient; allow a retry
+      node.textContent = "";
+      node.appendChild(el("span", "wd-def-note", "Could not reach the dictionary just now."));
+    });
   }
   function paintGloss(key, row) {
     (defNodes[key] || []).forEach(function (node) {
@@ -818,8 +814,9 @@
               body.appendChild(def);
               var dkey = r.text.toLowerCase();
               (defNodes[dkey] = defNodes[dkey] || []).push(def);
-              if (glossCache[dkey]) {
-                paintGloss(dkey, glossCache[dkey]);   // already known, no wait
+              var hit = window.JPNGloss && window.JPNGloss.cached(r.text);
+              if (hit) {
+                paintGloss(dkey, hit);                // already known, no wait
               } else {
                 d.addEventListener("toggle", function () {
                   if (d.open) loadGloss(r.text, def);

@@ -867,8 +867,18 @@ GUEST_JS = ('<script>try{if(!localStorage.getItem("jpn_session"))document.docume
 
 
 def account_scripts():
-    """Sign-in lives in static/account.js and does nothing until static/config.js names a Supabase project."""
-    return versioned("config.js") + versioned("account.js")
+    """Sign-in lives in static/account.js and does nothing until static/config.js names a Supabase project.
+    gloss.js first: account.js reads window.JPNGloss for the My words definitions."""
+    return versioned("config.js") + versioned("gloss.js") + versioned("account.js")
+
+
+def gloss_script():
+    """Shared word look-ups (static/gloss.js), used by the highlighter and by
+    My words. Must load BEFORE both, since they read window.JPNGloss."""
+    f = STATIC / "gloss.js"
+    if not f.exists():
+        return ""
+    return '<script src="/gloss.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
 
 
 def highlight_script():

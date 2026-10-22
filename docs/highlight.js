@@ -260,8 +260,67 @@
   document.body.appendChild(pill);
   var target = null;   // {mode: "add"|"remove", st, sel | id, rect}
 
+  /* The definition of a highlighted word, shown beside the pill when a reader
+     taps their own highlight. A separate element, NOT inside the pill: the
+     pill is itself a button, so text placed in it would remove the highlight
+     when tapped. Hidden whenever the pill hides. */
+  var defBox = document.createElement("div");
+  defBox.className = "hl-def";
+  defBox.hidden = true;
+  defBox.setAttribute("role", "status");
+  document.body.appendChild(defBox);
+  function hideDef() { defBox.hidden = true; defBox.textContent = ""; defBox.onclick = null; }
+  function setDef(parts) {
+    defBox.textContent = "";
+    parts.forEach(function (p) {
+      var s = document.createElement("span");
+      s.className = p[0]; s.textContent = p[1];
+      defBox.appendChild(s);
+    });
+    defBox.hidden = false;
+    placeDef();
+  }
+  /* Sits under the pill, clamped to the viewport exactly as the pill is. */
+  function placeDef() {
+    if (defBox.hidden) return;
+    var sx = window.pageXOffset;
+    var w = defBox.offsetWidth;
+    var pl = parseFloat(pill.style.left) || 0, pt = parseFloat(pill.style.top) || 0;
+    var left = pl + pill.offsetWidth / 2 - w / 2;
+    left = Math.max(sx + 8, Math.min(left, sx + document.documentElement.clientWidth - w - 8));
+    defBox.style.left = Math.round(left) + "px";
+    defBox.style.top = Math.round(pt + pill.offsetHeight + 8) + "px";
+  }
+  function defParts(row) {
+    return row.pos ? [["hl-def-pos", row.pos], ["hl-def-g", row.gloss]]
+                   : [["hl-def-g", row.gloss]];
+  }
+  function fetchDef(text) {
+    setDef([["hl-def-g", "Looking it up…"]]);
+    window.JPNGloss.lookup(text).then(function (row) {
+      if (row && row.gloss) setDef(defParts(row));
+      else if (row && row.source === "capped") setDef([["hl-def-note", row.notice || "Daily limit reached."]]);
+      else setDef([["hl-def-note", "No definition for that one."]]);
+    }).catch(function () { setDef([["hl-def-note", "Could not reach the dictionary."]]); });
+  }
+  function showDefFor(text) {
+    var G = window.JPNGloss;
+    if (!G || !G.isHeadword(text)) { hideDef(); return; }
+    var have = G.cached(text);
+    if (have) { setDef(defParts(have)); return; }
+    if (G.isMissing(text)) {
+      /* Not in the dictionary yet, and asking creates the entry, so it stays a
+         deliberate tap rather than something a passing tap pays for. */
+      setDef([["hl-def-ask", "Tap for a definition"]]);
+      defBox.onclick = function () { defBox.onclick = null; fetchDef(text); };
+      return;
+    }
+    fetchDef(text);
+  }
+
   function showPill(mode, rect, info) {
     target = info; target.mode = mode;
+    if (mode === "add") hideDef();      // nothing is selected yet to define
     pillLabel.textContent = mode === "add" ? "Highlight" : "Remove highlight";
     pill.setAttribute("aria-label", mode === "add" ? "Highlight the selected words" : "Remove this highlight");
     pill.hidden = false;
@@ -274,8 +333,9 @@
     var top = (coarse || above < sy + 8) ? below : above;
     pill.style.left = Math.round(left) + "px";
     pill.style.top = Math.round(top) + "px";
+    placeDef();
   }
-  function hidePill() { pill.hidden = true; target = null; }
+  function hidePill() { pill.hidden = true; target = null; hideDef(); }
   function clearSelection() { var s = window.getSelection(); if (s && s.removeAllRanges) s.removeAllRanges(); }
 
   pill.addEventListener("mousedown", function (e) { e.preventDefault(); });
@@ -338,7 +398,12 @@
     if (m && s && s.isCollapsed) {
       var id = +m.getAttribute("data-hl"), st = null;
       states.forEach(function (x) { if (x.prose.contains(m)) st = x; });
-      if (st) showPill("remove", m.getBoundingClientRect(), { st: st, id: id });
+      if (st) {
+        showPill("remove", m.getBoundingClientRect(), { st: st, id: id });
+        var it = null;
+        st.items.forEach(function (x) { if (x.id === id) it = x; });
+        if (it) showDefFor(it.text);
+      }
     } else if (!pill.contains(e.target) && target && target.mode === "remove" && (!s || s.isCollapsed)) {
       hidePill();
     }
@@ -353,6 +418,23 @@
 
   /* ------------------------------------------------------------------------ start */
   states.forEach(function (st) { buildBox(st); restore(st); });
+  /* Ask the dictionary, look-only, for every word already highlighted on this
+     page. It never generates, so this costs nothing, and it means tapping a
+     highlight usually shows its meaning with no wait at all. */
+  function prefetchHighlighted() {
+    try {
+      var allWords = [];
+      states.forEach(function (st) {
+        (st.items || []).forEach(function (it) { if (it.text) allWords.push(it.text); });
+      });
+      if (allWords.length && window.JPNGloss) window.JPNGloss.preview(allWords);
+    } catch (e) {}
+  }
+  /* gloss.js is a separate deferred script and may run AFTER this one, so wait
+     for the document rather than depending on tag order. Deferred scripts all
+     execute before DOMContentLoaded, so window.JPNGloss is there by then. */
+  if (document.readyState === "complete") prefetchHighlighted();
+  else document.addEventListener("DOMContentLoaded", prefetchHighlighted);
   buildHint();
   states.forEach(render);
 })();
