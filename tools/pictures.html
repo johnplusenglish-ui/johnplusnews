@@ -74,12 +74,16 @@ h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; 
 .status.err { background:#fdeaea; color:#9b1c1c; }
 .statuswrap { max-width:1280px; margin:0 auto; padding:0 20px; }
 @media (max-width: 560px) { .grid { grid-template-columns:1fr; } .tools input[type=search] { min-width:0; width:100%; } .two { grid-template-columns:1fr; } }
+.stats { display:flex; gap:10px; flex-wrap:wrap; margin:0 0 16px; }
+.stat { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:6px 14px; font-weight:600; color:var(--ink); }
+.stat span { color:var(--muted); font-weight:500; margin-left:4px; }
+.idea { margin:6px 0 0; font-size:.875rem; color:var(--text); }
 .ptype { display:inline-block; font-size:.6875rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:2px 8px; border-radius:999px; background:var(--accent-soft); color:var(--accent); margin-left:8px; vertical-align:middle; }
 .prompt { border-top:1px solid var(--line); padding:12px 14px 14px; background:#fbfcfd; }
 .prompt[hidden] { display:none; }
-.prompt .idea { margin:0 0 8px; font-size:.875rem; color:var(--muted); }
 .prompt textarea { width:100%; min-height:260px; font:inherit; font-size:.8125rem; line-height:1.5; padding:10px; border:1px solid #cfd4dc; border-radius:8px; background:#fff; color:var(--ink); resize:vertical; }
 .prompt .row { display:flex; gap:12px; align-items:center; margin-top:8px; }
+.prompt .row .note { color:var(--muted); font-size:.8125rem; }
 .prompt .row .ok { color:var(--green); font-size:.8125rem; font-weight:600; }
 </style>
 </head>
@@ -90,9 +94,11 @@ h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; 
 
 <main>
   <h1>Pictures</h1>
-  <p class="lead">Every article has one picture. Drop a picture onto a card, click it to choose a file, or hover over it and paste. Each card also holds a ready-made <strong>photo prompt</strong> for that article: press <strong>Copy prompt</strong>, paste it into your image tool, then drop the result back here. Press <strong>Publish pictures</strong> once when you are done. The articles' text is never touched.</p>
+  <p class="lead">Every article has one picture. Drop a picture onto a card, click it to choose a file, or hover over it and paste. Each card also holds a ready-made <strong>photo prompt</strong> for that article: press <strong>Copy prompt</strong>, paste it into your image tool, then drop the result back here. You can change a prompt in its box and press <strong>Save prompt</strong> to keep your wording. Press <strong>Publish pictures</strong> once when you are done. The articles' text is never touched.</p>
 
   <div class="statuswrap"><div class="status info" id="status" role="status" hidden></div></div>
+
+  <div class="stats"><div class="stat" id="sTotal"></div><div class="stat" id="sPic"></div><div class="stat" id="sTodo"></div></div>
 
   <div class="multi" id="multi">
     <span><strong>Many at once:</strong> drop several pictures here. A file named like its article (for example <code>fast-fashion-the-clothes-nobody-wants.jpg</code>) goes to that article.</span>
@@ -101,7 +107,13 @@ h1 { font-size:1.6rem; margin:0 0 4px; color:var(--ink); letter-spacing:-.02em; 
   </div>
 
   <div class="tools">
-    <input type="search" id="find" placeholder="Search articles" aria-label="Search articles">
+    <input type="search" id="find" placeholder="Search titles, ideas or prompts" aria-label="Search titles, ideas or prompts">
+    <div class="segs" id="types" role="group" aria-label="Prompt type">
+      <button type="button" data-t="all" aria-pressed="true">All types</button>
+      <button type="button" data-t="people" aria-pressed="false">People</button>
+      <button type="button" data-t="object" aria-pressed="false">Object</button>
+      <button type="button" data-t="place" aria-pressed="false">Place</button>
+    </div>
     <div class="segs" id="filters" role="group" aria-label="Show">
       <button type="button" data-f="all" aria-pressed="true">All</button>
       <button type="button" data-f="nopic" aria-pressed="false">No picture</button>
@@ -205,6 +217,7 @@ function makeCard(p) {
   const pr = PROMPTS[p.slug];
   if (pr) h3.appendChild(el("span", "ptype", TYPE[pr.type] || pr.type));
   body.appendChild(h3); body.appendChild(el("small", "", p.date));
+  if (pr && pr.idea) body.appendChild(el("p", "idea", pr.idea));
 
   const btns = el("div", "btns");
   const bDetails = el("button", "linkbtn", "Details"); bDetails.type = "button"; bDetails.setAttribute("aria-expanded", "false");
@@ -215,12 +228,23 @@ function makeCard(p) {
     const bShow = el("button", "linkbtn", "Show prompt"); bShow.type = "button"; bShow.setAttribute("aria-expanded", "false");
     btns.appendChild(bCopy); btns.appendChild(bShow);
     pbox = el("div", "prompt"); pbox.hidden = true;
-    pbox.appendChild(el("p", "idea", pr.idea));
-    const ta = el("textarea"); ta.readOnly = true; ta.value = pr.prompt; ta.setAttribute("aria-label", "Photo prompt for " + p.title);
+    if (p.summary) pbox.appendChild(el("p", "hint", "The article: " + p.summary));
+    const ta = el("textarea"); ta.value = pr.prompt; ta.setAttribute("aria-label", "Photo prompt for " + p.title); ta.spellcheck = false;
     pbox.appendChild(ta);
-    const row = el("div", "row"); const bCopy2 = el("button", "btn", "Copy prompt"); bCopy2.type = "button"; const done = el("span", "ok"); done.setAttribute("role", "status");
-    row.appendChild(bCopy2); row.appendChild(done); pbox.appendChild(row);
-    const doCopy = async () => { const ok = await copyText(pr.prompt); done.textContent = ok ? "Copied" : "Copy did not work: select the text and copy it"; bCopy.textContent = ok ? "Copied" : "Copy prompt"; setTimeout(() => { done.textContent = ""; bCopy.textContent = "Copy prompt"; }, 2500); };
+    const row = el("div", "row"); const bCopy2 = el("button", "btn", "Copy prompt"); bCopy2.type = "button";
+    const bSave = el("button", "btn", "Save prompt"); bSave.type = "button"; bSave.hidden = true;
+    const bReset = el("button", "linkbtn", "Undo my edits"); bReset.type = "button"; bReset.hidden = true;
+    const done = el("span", "ok"); done.setAttribute("role", "status");
+    row.appendChild(bCopy2); row.appendChild(bSave); row.appendChild(bReset); row.appendChild(done); pbox.appendChild(row);
+    ta.addEventListener("input", () => { const ch = ta.value.trim() !== pr.prompt.trim(); bSave.hidden = !ch; bReset.hidden = !ch; });
+    bReset.addEventListener("click", () => { ta.value = pr.prompt; bSave.hidden = true; bReset.hidden = true; });
+    bSave.addEventListener("click", async () => {
+      bSave.disabled = true;
+      try { await api("/api/prompts/save", { slug: p.slug, prompt: ta.value }); pr.prompt = ta.value.trim(); ta.value = pr.prompt; bSave.hidden = true; bReset.hidden = true; done.textContent = "Saved"; setTimeout(() => { done.textContent = ""; }, 2500); }
+      catch (e) { done.textContent = e.message; }
+      bSave.disabled = false;
+    });
+    const doCopy = async () => { const ok = await copyText(ta.value.trim()); done.textContent = ok ? "Copied" : "Copy did not work: select the text and copy it"; bCopy.textContent = ok ? "Copied" : "Copy prompt"; setTimeout(() => { done.textContent = ""; bCopy.textContent = "Copy prompt"; }, 2500); };
     bCopy.addEventListener("click", doCopy); bCopy2.addEventListener("click", doCopy);
     bShow.addEventListener("click", () => { pbox.hidden = !pbox.hidden; bShow.textContent = pbox.hidden ? "Show prompt" : "Hide prompt"; bShow.setAttribute("aria-expanded", String(!pbox.hidden)); });
   }
@@ -299,13 +323,17 @@ function updateBar() {
   const n = dirtyCards().length;
   $("count").textContent = n ? n + (n === 1 ? " article changed" : " articles changed") + ", not published yet" : "No changes yet";
   $("publish").disabled = !n; $("discard").disabled = !n;
+  const all = [...cards.values()], withPic = all.filter(c => c.hasPic && c.hasPic()).length;
+  $("sTotal").innerHTML = all.length + "<span>articles</span>"; $("sPic").innerHTML = withPic + "<span>with a picture</span>"; $("sTodo").innerHTML = (all.length - withPic) + "<span>still need one</span>";
 }
-let filter = "all";
+let filter = "all", typeFilter = "all";
 function applyFilter() {
   const q = $("find").value.trim().toLowerCase();
   cards.forEach(c => {
     if (!c.refresh) return;
-    let ok = !q || c.p.title.toLowerCase().includes(q);
+    const pr = PROMPTS[c.p.slug] || {};
+    let ok = !q || (c.p.title + " " + (c.p.summary || "") + " " + (pr.idea || "") + " " + (pr.prompt || "")).toLowerCase().includes(q);
+    if (typeFilter !== "all") ok = ok && pr.type === typeFilter;
     if (filter === "nopic") ok = ok && !c.hasPic();
     if (filter === "origin") ok = ok && c.hasPic() && !c.values().origin;
     if (filter === "pending") ok = ok && c.dirty();
@@ -313,6 +341,10 @@ function applyFilter() {
   });
 }
 $("find").addEventListener("input", applyFilter);
+$("types").addEventListener("click", e => {
+  const b = e.target.closest("button[data-t]"); if (!b) return;
+  typeFilter = b.dataset.t; [...$("types").children].forEach(x => x.setAttribute("aria-pressed", String(x === b))); applyFilter();
+});
 $("filters").addEventListener("click", e => {
   const b = e.target.closest("button[data-f]"); if (!b) return;
   filter = b.dataset.f; [...$("filters").children].forEach(x => x.setAttribute("aria-pressed", String(x === b))); applyFilter();

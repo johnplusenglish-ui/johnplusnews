@@ -263,13 +263,31 @@ def photo_prompts():
         return {}
 
 
+def save_prompt(slug, text):
+    """Keep a hand-edited photo prompt. Only tools/photo_prompts.json changes; nothing is published."""
+    prompts = photo_prompts()
+    if slug not in prompts:
+        raise UserError("There is no prompt for that article.")
+    text = (text or "").replace("\r\n", "\n").strip()
+    if not text:
+        raise UserError("A prompt cannot be empty.")
+    if len(text) > 20000:
+        raise UserError("That prompt is too long.")
+    prompts[slug]["prompt"] = text
+    dest = Path(__file__).resolve().parent / "photo_prompts.json"
+    tmp = dest.with_suffix(".tmp")
+    tmp.write_text(json.dumps(prompts, ensure_ascii=False, indent=1), encoding="utf-8")
+    tmp.replace(dest)
+    return {"ok": True}
+
+
 def list_pictures():
     rows = []
     order = {}
     for path, meta, body, slug in article_files(CONTENT):
         order[slug] = (meta.get("date", ""), build.added_at(path), slug)
         v = pic_values(meta)
-        rows.append({"slug": slug, "title": meta.get("title", slug), "date": meta.get("date", ""), "rev": file_rev(path),
+        rows.append({"slug": slug, "title": meta.get("title", slug), "date": meta.get("date", ""), "summary": meta.get("summary", ""), "rev": file_rev(path),
                      "live_url": "{}/articles/{}/".format(build.SITE["url"], slug),
                      "image": v["image"], "thumb": thumb_of(v["image"]), "alt": v["alt"], "origin": v["origin"],
                      "credit": v["credit"], "credit_url": v["credit-url"], "licence": v["licence"],
@@ -838,6 +856,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 return self.send_json(do_publish(payload))
             if self.path == "/api/pictures/save":
                 return self.send_json(do_pictures(payload))
+            if self.path == "/api/prompts/save":
+                return self.send_json(save_prompt(payload.get("slug", ""), payload.get("prompt", "")))
             if self.path == "/api/remove":
                 return self.send_json(do_remove(payload.get("slug", "")))
             if self.path == "/api/signin":
