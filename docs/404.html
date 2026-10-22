@@ -780,16 +780,18 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 /* The definition shown when a reader taps one of their own highlights. Sits
    below the line where there is room, so the word itself stays visible, and
    repeats the word so the reader keeps their place. */
-.hl-def { position: absolute; z-index: 70; max-width: min(330px, calc(100vw - 16px)); background: #fff; color: var(--text); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 14px 34px -14px rgba(16, 24, 40, 0.38); padding: 11px 14px 9px; font-size: 0.9375rem; line-height: 1.45; }
+.hl-def { position: absolute; z-index: 70; max-width: min(330px, calc(100vw - 16px)); background: #fff; color: var(--text); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 14px 34px -14px rgba(16, 24, 40, 0.38); padding: 11px 14px 12px; font-size: 0.9375rem; line-height: 1.45; }
 .hl-def[hidden] { display: none; }
 .hl-def-w { display: block; font-weight: 700; font-size: 1rem; margin-bottom: 3px; }
 .hl-def-body { display: block; }
 .hl-def-pos { font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 7px; }
 .hl-def-note { color: #98a0ad; }
 .hl-def-ask { color: var(--accent); font-weight: 600; cursor: pointer; }
-/* Deliberately quiet: the reader came for the meaning, not to delete. */
-.hl-def-rm { display: block; margin: 8px -4px -2px; padding: 4px; font: inherit; font-size: 0.8125rem; color: #98a0ad; background: none; border: 0; cursor: pointer; }
-.hl-def-rm:hover { color: #b42318; }
+/* Floats faintly below the panel, outside its card. Almost invisible until
+   looked for: the reader came for the meaning, not to delete. */
+.hl-rm { position: absolute; z-index: 69; font: inherit; font-size: 0.75rem; line-height: 1; color: #aeb4bd; background: none; border: 0; padding: 6px 8px; cursor: pointer; opacity: 0.75; transition: opacity 0.12s, color 0.12s; }
+.hl-rm[hidden] { display: none; }
+.hl-rm:hover, .hl-rm:focus-visible { opacity: 1; color: #b42318; }
 </style>
 </head>
 <body>

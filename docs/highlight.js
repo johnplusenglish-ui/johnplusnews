@@ -269,8 +269,22 @@
   defBox.hidden = true;
   defBox.setAttribute("role", "status");
   document.body.appendChild(defBox);
+  /* Removing a highlight is a rare, secondary action, so it floats faintly
+     BELOW the panel rather than sitting inside it competing with the meaning
+     the reader actually came for. Its own element so it can sit outside the
+     panel's white card. */
+  var rmBox = document.createElement("button");
+  rmBox.type = "button";
+  rmBox.className = "hl-rm";
+  rmBox.textContent = "Remove highlight";
+  rmBox.hidden = true;
+  document.body.appendChild(rmBox);
   var defRect = null;        // the highlight being described
-  function hideDef() { defBox.hidden = true; defBox.textContent = ""; defBox.onclick = null; defRect = null; }
+  function hideDef() {
+    defBox.hidden = true; defBox.textContent = ""; defBox.onclick = null;
+    rmBox.hidden = true; rmBox.onclick = null;
+    defRect = null;
+  }
   /* The word, then its definition, then a quiet "Remove highlight".
      The word is repeated here deliberately: the panel sits over the line you
      were reading, so without it you lose sight of what you asked about. */
@@ -290,12 +304,12 @@
     });
     defBox.appendChild(body);
     if (st && id != null) {
-      var rm = document.createElement("button");
-      rm.type = "button"; rm.className = "hl-def-rm"; rm.textContent = "Remove highlight";
-      rm.addEventListener("click", function (ev) {
+      rmBox.onclick = function (ev) {
         ev.stopPropagation(); removeItem(st, id); hideDef(); hidePill();
-      });
-      defBox.appendChild(rm);
+      };
+      rmBox.hidden = false;
+    } else {
+      rmBox.hidden = true;
     }
     defBox.hidden = false;
     placeDef();
@@ -314,6 +328,14 @@
     var top = (defRect.bottom + h + 16 <= vh || above < sy + 8) ? below : above;
     defBox.style.left = Math.round(left) + "px";
     defBox.style.top = Math.round(top) + "px";
+    if (!rmBox.hidden) {
+      /* Centred just beneath the panel, outside its card. */
+      var rw = rmBox.offsetWidth;
+      var rl = left + w / 2 - rw / 2;
+      rl = Math.max(sx + 8, Math.min(rl, sx + vw - rw - 8));
+      rmBox.style.left = Math.round(rl) + "px";
+      rmBox.style.top = Math.round(top + h + 6) + "px";
+    }
   }
   function defParts(row) {
     return row.pos ? [["hl-def-pos", row.pos], ["hl-def-g", row.gloss]]
