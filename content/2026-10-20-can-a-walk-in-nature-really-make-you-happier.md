@@ -8,6 +8,9 @@ image-plain: images/can-a-walk-in-nature-really-make-you-happier-plain-eac73e.jp
 ---
 === B1 ===
 
+title: A Walk in the Park Can Lift Your Mood
+summary: Researchers found good evidence that time outside makes people feel calmer. The evidence for memory and concentration was much weaker.
+
 Imagine that you have had a stressful morning. You could sit inside and scroll through your phone, or you could go for a short walk through a park. Many people believe that fresh air and trees will make them feel better. But is there any science behind this idea? Researchers have studied how time in nature affects our minds. A review published in the Journal of Environmental Psychology in 2025 examined experiments with adults. It found good evidence that natural places can improve people's mood. People may feel calmer or experience fewer negative emotions after spending time outside.
 
 However, the results were not the same for everything. The evidence that nature improves memory and concentration was much weaker. Studies of stress also produced mixed results. This means a walk in the woods may help someone feel happier without automatically making them better at difficult mental tasks.
@@ -24,6 +27,9 @@ Nature is not a cure for every problem, but it may offer a simple opportunity to
 
 === B2 ===
 
+title: Good for Your Mood, Less Sure About Your Memory
+summary: A 2025 review found the strongest results for mood and mixed ones for attention and stress. Access to a decent park is not shared equally.
+
 After a stressful morning, many people feel better following a walk among trees or beside the sea. The experience is familiar, but researchers have been trying to work out how much of the benefit comes from nature itself and which aspects of our wellbeing are most affected. There is a difference between exercising because you feel you should and going outside because you genuinely enjoy it. The second may be easier to keep up in the long run. A systematic review published in the Journal of Environmental Psychology in November 2025 examined randomised experiments involving adults and natural environments. The evidence was strongest for improvements in mood, such as feeling calmer and experiencing fewer negative emotions. Findings for attention and memory were less consistent, while results relating to stress depended partly on how stress was measured.
 
 This matters because articles about nature sometimes promise too much. A pleasant afternoon outdoors is not necessarily a treatment for a mental health condition, and a single walk will not transform everybody's concentration. Research suggests useful benefits, but their size and reliability vary between outcomes and studies.
@@ -39,6 +45,9 @@ Meeting a friend for a walk combines movement, conversation and a change of envi
 The reasonable conclusion is neither that nature works miracles nor that its benefits are imaginary. Spending time in green or coastal spaces can support mood, and cities may have good reasons to look after such places. A walk is not a replacement for medical care, but it can be a valuable part of ordinary life.
 
 === C1-C2 ===
+
+title: Mood, Not Miracles: The Uneven Geography of Restorative Space
+summary: The evidence points one way for emotional wellbeing and another for attention and stress. It also exposes a question of planning rather than motivation: whether a safe, pleasant park is within reach at all.
 
 Nature is frequently presented as a universal remedy for modern exhaustion: a walk through the woods supposedly reduces stress, sharpens attention and restores emotional balance. Such claims are attractive because they dress up an inexpensive everyday activity as a solution for several complicated problems. The scientific picture, however, is more selective. The appeal of a walk is partly that it asks so little of us: no expensive equipment, no competitive target and no obligation to turn the outing into a personal achievement. A systematic review published in the Journal of Environmental Psychology in November 2025 assessed randomised studies of natural environments and adult wellbeing. Researchers found relatively strong evidence that exposure to nature improved mood, while findings concerning memory and attention were inconsistent. Measures of stress produced mixed results. The contrast is important: feeling emotionally better after a walk does not necessarily imply improved performance on a cognitive test.
 

@@ -8,6 +8,9 @@ image-plain: images/a-strange-stone-outside-his-home-turned-out-to-be-3000-years
 ---
 === B1 ===
 
+title: The Stone That Led to a Giant Statue
+summary: A man in a Nile Delta village reported a stone with writing on it. Below it lay two huge statues of Ramesses II.
+
 Imagine finding a strange stone in front of your house. You notice marks on it, but you have no idea what they mean. Would you keep it, throw it away or call an expert? A man in northern Egypt made the third choice, and his decision led archaeologists to something remarkable.
 
 In October 2026, a resident of Bahbit al-Higara, a village in the Nile Delta, reported a stone with writing on it. Experts from Egypt's antiquities authorities came to take a closer look. When they began digging, they dug up parts of two enormous statues and a block of pink granite covered in ancient writing.
@@ -21,6 +24,9 @@ Discoveries like this are not simply about beautiful old objects. A broken statu
 The man who reported the stone could not have known what was waiting beneath the surface. By getting in touch with the authorities, he helped protect the site for future study. Archaeologists still have plenty of work to do before they can explain where the statues once stood. Sometimes a small discovery opens the door to a much bigger piece of history.
 
 === B2 ===
+
+title: What Archaeologists Lose When a Statue Is Carried Away
+summary: A resident of Bahbit al-Higara could have moved the inscribed stone or sold it. Instead he called the authorities, and a careful excavation began.
 
 An ordinary piece of land in northern Egypt turned into an archaeological site after a resident noticed an unusual inscribed stone. Instead of trying to move it or sell it on, he contacted the authorities. The resulting excavation brought to light fragments of two huge royal statues associated with Ramesses II, along with a granite block bearing hieroglyphs.
 
@@ -37,6 +43,9 @@ That is why the resident's decision to report the stone was so significant. The 
 There is still work to do before researchers can explain precisely where the statues stood and what purpose they served. They will want to compare the fragments with other monuments from the same reign before they draw any firm conclusions. Nevertheless, the find offers a reminder that the ancient world has not disappeared. Sometimes it is still hidden beneath the places where people live and work today.
 
 === C1-C2 ===
+
+title: Not the Statue but the Setting: Why Archaeology Depends on Ordinary Neighbours
+summary: Fragments of two colossal statues of Ramesses II emerged near a sanctuary of Isis because one resident chose to report an inscribed stone rather than remove it. The evidence survives only where the context does.
 
 Archaeology occasionally begins not with an organised expedition but with an ordinary person's decision to take an unusual object seriously. In October 2026, a resident of Bahbit al-Higara in Egypt's Nile Delta reported an inscribed stone he had come across while working on land near his home. A subsequent investigation by antiquities officials uncovered fragments of two colossal royal statues associated with Ramesses II, turning a patch of everyday ground into a site of national interest.
 

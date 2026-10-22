@@ -9,6 +9,9 @@ image-plain: images/has-your-phone-changed-the-way-you-think-plain-0fac14.jpg
 ---
 === B1 ===
 
+title: Seven Seconds to Lose Your Place
+summary: In a 2026 study, phone alerts slowed people's thinking for about seven seconds. Most of us get dozens of alerts every day.
+
 You are reading a book when your phone makes a sound. You look at the screen, read a message and go back to your book. The interruption took only a few seconds. But did it affect your concentration? Researchers studying phone notifications asked a similar question. In research published in 2026 in Computers in Human Behavior, people completed an attention task while receiving notifications similar to those from social media. The researchers found that the messages caused a short slowdown in thinking, lasting about seven seconds.
 
 Seven seconds may not sound like much. But many people receive dozens of alerts during the day. They come from friends, shops, work chats, news apps and social media. We can start expecting another message even when the phone is quiet.
@@ -25,6 +28,9 @@ Still, we can choose when we want to be available. Turning off unnecessary alert
 
 === B2 ===
 
+title: The Alert You Did Not Open Still Cost You
+summary: The slowdown depended on how relevant the message seemed and how often people usually checked their phones. Switching off alerts is a social negotiation as well as a setting.
+
 You sit down to read an article, but before you reach the third paragraph, a notification appears. It might be a message from a friend or an offer from a shopping app. You glance at it and return to your reading. The interruption seems harmless, yet your concentration may already have been affected. Try reading a long article while your phone lights up beside you. Even if you resist opening the message, part of your attention may shift towards wondering who contacted you. A study published in Computers in Human Behavior in 2026 investigated the immediate effects of social-media-style notifications. Participants completed a task requiring attention while researchers measured their responses. Notifications produced a temporary slowdown in processing lasting approximately seven seconds. The disruption was related not just to the alerts themselves but also to how relevant they appeared and people's usual phone-checking habits.
 
 This finding helps explain why constant availability can feel tiring. Our attention is repeatedly invited to move from one activity to another, even when we do not respond to every message. A phone sitting nearby may become a regular reminder that something else could demand our attention at any moment.
@@ -40,6 +46,9 @@ Individuals can also separate essential alerts from promotional ones, schedule p
 Simple changes can create more control: limiting non-essential notifications, keeping phones out of sight during demanding activities or agreeing on times to respond to messages. Rather than asking whether phones are good or bad, perhaps we should ask who is choosing when our attention changes direction.
 
 === C1-C2 ===
+
+title: Entitled to Your Attention: What a Seven-Second Delay Reveals
+summary: The experiment identified short-lived slowdowns under particular conditions, not permanent cognitive decline. The harder question is whether workplaces and friendships have quietly made our attention permanently available.
 
 A smartphone interruption is often too brief to register as a meaningful loss of time. A banner flashes on the screen, our eyes move towards it and, moments later, we return to the task at hand. Yet attention is not necessarily restored as effortlessly as the sequence suggests. Attention is not an unlimited resource that we can divide without consequence. A notification may be brief, but the mental effort required to re-enter a complex task can be frustrating. A 2026 study published in Computers in Human Behavior examined how social-media-style notifications influence cognitive processing. While participants performed an attention task, incoming alerts produced a temporary slowdown lasting roughly seven seconds. The effect varied with the perceived relevance of the notification and with habitual patterns of phone interaction, rather than simply the total amount of time spent using a device.
 

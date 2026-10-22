@@ -9,6 +9,9 @@ image-plain: images/can-fashion-help-save-ukraines-culture-plain-2891b9.jpg
 ---
 === B1 ===
 
+title: The Company Keeping Old Skills Alive
+summary: GUNIA Project in Kyiv works with more than 150 craftspeople. Their weaving, glass and embroidery now appear on modern plates and clothes.
+
 A plate can be much more than a plate. It can show a flower, an old pattern or a picture that people in a country have used for hundreds of years. In Ukraine, some designers are using everyday objects to help keep their culture alive.
 
 One example is GUNIA Project, a design company based in Kyiv. It makes clothes, jewellery, candles, plates and other objects. Many of its designs come from traditional Ukrainian art and craft. The company does not simply copy old objects. It works with artists to create new pieces that fit modern homes and lives, so a very old idea can turn up in a very new form.
@@ -23,6 +26,9 @@ Culture is not only something we find in museums or history books. It can be par
 
 === B2 ===
 
+title: Tradition Is a Habit, Not a Museum Case
+summary: Break the chain between an older craftsperson and a younger one and the technique goes too. Paying customers, awkwardly, may be what keeps it going.
+
 How can a ceramic plate or a hand-embroidered shirt become part of a country's cultural survival? In Ukraine, designers are answering that question by turning traditional crafts into modern products. One of the best-known examples is GUNIA Project, a Kyiv-based company that works with artisans from across the country.
 
 The brand creates clothing, jewellery, tableware and decorative objects inspired by historical designs. Rather than turning out exact copies of museum pieces, its designers look into folk traditions and adapt their patterns, materials and techniques for contemporary customers. A familiar symbol might crop up on an unusual candle, while traditional embroidery may become part of a modern garment. The aim seems to be recognition rather than reproduction: a buyer should sense where a design came from without mistaking the object for an antique.
@@ -36,6 +42,9 @@ There are tensions in this approach. Handmade products may be too expensive for 
 Even so, the project challenges a familiar assumption about tradition. Preserving culture does not always mean keeping old objects untouched behind glass, where nobody uses them and few people look closely. It can also mean giving a skill new customers, new uses and a reason to survive. Tradition, on this view, is less a museum case than a working habit that has to be passed on.
 
 === C1-C2 ===
+
+title: Keeping the Network Intact: Ukrainian Craft as a Wartime Business
+summary: GUNIA Project's artisans are not curators, and their work is sold rather than catalogued. That commercial footing raises awkward questions about who speaks for a tradition, and supplies the one thing reverence cannot: an income.
 
 Cultural preservation tends to conjure up archives, museums and painstaking restoration work. Yet in Ukraine, some of the most visible attempts to sustain traditional craftsmanship are taking place in the commercial world of design. Kyiv-based GUNIA Project has built a business around reinterpreting inherited artistic practices as contemporary clothing, ceramics and household objects, an approach that sits oddly with conventional notions of heritage and works rather well in practice.
 

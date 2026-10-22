@@ -8,6 +8,9 @@ image-plain: images/need-a-grandma-in-japan-you-can-hire-one-plain-839364.jpg
 ---
 === B1 ===
 
+title: A Job for Grandmothers in Japan
+summary: A company sends older women to cook, tidy, teach a skill or simply spend time with somebody. The service started in 2011.
+
 What if you could hire a grandmother for an afternoon? In Japan, there is a real service that lets people do something very similar. Customers can ask an older woman to cook a meal, help organise their home, teach them a skill or simply spend time with them.
 
 The service is called OK! Obaachan, which means something like "OK! Grandma". It started in 2011 and is run by a company called Client Partners. Not every worker is actually a grandmother, and the service is not only for people who feel lonely. Some customers just need practical help with a job they cannot manage on their own, and they want someone patient who has done it many times before.
@@ -22,6 +25,9 @@ The idea may sound strange at first, but people already pay teachers, carers and
 
 === B2 ===
 
+title: The Grandmother You Book by the Hour
+summary: OK! Obaachan has matched customers with experienced older women since 2011. For the workers it can mean income, variety and a reason to leave the house.
+
 Japan has an unusual answer to the problem of needing a calm, experienced person nearby: hire a grandmother. Through a service called OK! Obaachan, customers can arrange for an older woman to visit them, help with everyday tasks or pass on practical knowledge. The idea sounds like a comedy sketch, but the business has been running since 2011 and shows no sign of winding down.
 
 The company behind the service, Client Partners, provides a wide range of personal assistance. Workers may cook, sort out belongings, offer guidance or accompany somebody on an outing. Some customers are looking for companionship, while others simply need a hand from someone patient and experienced who will not make them feel foolish. The women are paid professionals, and the company does not pretend they are substitutes for a customer's relatives.
@@ -35,6 +41,9 @@ Critics might argue that companionship should never be turned into a product. Th
 Perhaps the service is best understood not as friendship for sale but as a practical way of connecting people whose needs happen to fit together. Its success raises an awkward question for every society: if contact between the generations is genuinely valuable, why do we so often leave it to chance? Schools, workplaces and neighbourhoods rarely bring young and old together on purpose, so whatever contact does happen tends to be accidental.
 
 === C1-C2 ===
+
+title: Rentable Grandmothers: Honest Terms for an Awkward Modern Need
+summary: The arrangement is openly commercial, which may be its most honest feature. The harder question is why contact between the generations now has to be booked at all.
 
 The expression "rent a grandma" sounds almost deliberately provocative. It suggests that something intimate and familiar, the presence of an older relative, has been repackaged as a commercial transaction and put on the market like any other service. The phrase invites a joke, and a good deal of international coverage has duly supplied one. Yet Japan's OK! Obaachan service turns out to be rather more complicated than its attention-grabbing description implies.
 

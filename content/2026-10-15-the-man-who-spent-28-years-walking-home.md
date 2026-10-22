@@ -23,6 +23,9 @@ The adventure has been exciting, but it has also cost him a great deal. Karl has
 
 === B2 ===
 
+title: Twenty-Eight Years, One Journey Home
+summary: Karl Bushby left the bottom of Chile in 1998 and refused to take a lift. He is now a few hundred kilometres from his own front door.
+
 For most people, getting home is a matter of catching a bus, train or plane. For Karl Bushby, it has taken almost 28 years. The former British soldier left southern Chile in 1998 with a few hundred dollars and an ambition that sounded almost impossible: to reach his hometown of Hull without using transport to move forwards along his route. This October, after crossing continents and swimming the English Channel, he finally set foot on British soil.
 
 Bushby began in Punta Arenas, near the southern tip of South America. He planned to walk north through the Americas, cross the Bering Strait into Russia and continue west towards Europe. He set himself two strict conditions. He could not take transport to advance, and he could not go home until the expedition was complete. He originally expected it to take about 12 years. That estimate turned out to be wildly optimistic.

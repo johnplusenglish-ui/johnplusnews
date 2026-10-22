@@ -8,6 +8,9 @@ image-plain: images/has-mount-everest-become-too-popular-for-its-own-good-plain-
 ---
 === B1 ===
 
+title: Queues at the Top of the World
+summary: Nepal is discussing stricter rules for Everest climbers. One idea is that you must first climb another Nepali mountain above 7,000 metres.
+
 Mount Everest is the highest mountain in the world. For many climbers, reaching its top is a lifelong dream. But the journey can be extremely dangerous. There is very little oxygen, the weather can change quickly and climbers sometimes have to wait in long queues near the summit. Standing still in the freezing cold, high above the clouds, can be deadly.
 
 Everest is in the Himalayas, on the border between Nepal and China. Many climbers set off from the Nepali side and pay large amounts of money for permits, equipment and professional support. Taking on experienced local guides is an important part of most expeditions.
@@ -21,6 +24,9 @@ These ideas were still being discussed as part of a new law, so they should not 
 Everest also brings important income to Nepal, including work for guides, porters and local businesses. Many families in the mountain areas live on what they earn during the short climbing season. The challenge is to keep climbing possible without putting visitors, workers and the mountain itself at unnecessary risk. Adventure may involve danger, but should there be a limit to how much danger people are allowed to buy?
 
 === B2 ===
+
+title: The Mountain with a Price List
+summary: Nepal's lawmakers have discussed proof of experience, insurance and waste rules. None of it is law yet, and guides' wages depend on how it ends.
 
 Reaching the summit of Mount Everest remains one of the world's most famous sporting achievements. Yet the mountain has also turned into a commercial destination, with climbers paying substantial sums for permits, equipment and organised expeditions. The question is whether the growing market for adventure has made an already dangerous activity unnecessarily risky. Everest, in other words, is no longer only a mountain. It is also a service with a price list.
 
@@ -37,6 +43,9 @@ There are important local interests as well. International expeditions provide i
 The debate is ultimately about the difference between a challenging adventure and a commercial product. On Everest, the risks of that product are not confined to the paying customer. They are shared by everybody carrying the loads, fixing the ropes and coming to the rescue when a client runs into trouble.
 
 === C1-C2 ===
+
+title: Competence Cannot Be Certified: Nepal's Difficult Search for an Everest Rule
+summary: A previous summit above 7,000 metres is an imperfect proxy for judgement, and an expensive one. Whichever way the bill goes, it is guides and porters who carry the consequences of a decision taken about clients.
 
 Mount Everest occupies an uneasy position between an extraordinary mountaineering challenge and a global adventure industry. Its summit still demands exceptional endurance, but the commercial infrastructure built up around expeditions has fuelled concern about inexperienced climbers taking on the world's highest mountain with extensive paid assistance. Nepal's debate over tougher entry requirements reflects precisely that tension.
 

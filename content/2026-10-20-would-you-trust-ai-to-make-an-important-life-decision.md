@@ -7,6 +7,9 @@ image-plain: images/would-you-trust-ai-to-make-an-important-life-decision-plain-
 ---
 === B1 ===
 
+title: Should a Chatbot Help You Choose a Job?
+summary: AI can set out the good and bad points in seconds. It does not know your family, your feelings, or when it is wrong.
+
 You have two job offers and cannot decide which one to accept. One pays more, but the other sounds more interesting. You ask an AI chatbot for help. It quickly sets out the advantages and disadvantages. Should you follow its advice? AI tools can explain difficult information, compare options and help us come up with questions. But giving information is different from making a decision for someone. A computer may not understand your family, personality or feelings as well as a close friend does.
 
 In a 2025 survey, Pew Research Center asked Americans about different uses of AI. Many people supported using it for tasks such as weather forecasting and medical research. They were much less comfortable with AI taking a role in very personal decisions, including deciding whether two people should be together.
@@ -23,6 +26,9 @@ Perhaps the best role for AI is not to tell us what to do. It is to help us unde
 
 === B2 ===
 
+title: What Happens if the Advice Turns Out to Be Wrong?
+summary: A poor restaurant suggestion costs you an evening. A mistaken medical or financial choice is far harder to undo, and a chatbot only knows the version of events you typed.
+
 Imagine asking an AI chatbot whether to move abroad, end a relationship or accept a new job. Within seconds it produces a convincing answer, carefully organised into advantages and disadvantages. The advice may be useful, but how much authority should we give it when the consequences are personal? A useful test is to ask what happens if the recommendation turns out to be wrong. A poor restaurant suggestion is inconvenient; a mistaken medical or financial decision can be much harder to undo. Pew Research Center explored public attitudes in a September 2025 survey of more than 5,000 US adults. Respondents were more willing to accept AI involvement in analysing complex information, such as forecasting weather or developing medicines, than in intimate areas of life. A clear majority opposed AI playing a role in judging whether two people could fall in love.
 
 The distinction makes sense. AI can process large quantities of text and identify patterns, but it does not have human experience or direct knowledge of someone's circumstances. It may also provide inaccurate information in an extremely confident tone. An answer that sounds compassionate is not necessarily reliable.
@@ -38,6 +44,9 @@ These uses treat AI as a tool for preparing decisions, not as a substitute for t
 The central issue is not whether AI is intelligent enough to have an opinion. It is whether we understand its limitations. A sensible approach may be to ask AI better questions rather than allow it to make our decisions for us.
 
 === C1-C2 ===
+
+title: Fluency Is Not Judgement: The Limits of Automated Advice
+summary: Pew found that roughly two-thirds of its 5,023 respondents would keep AI out of judgements about love. The harder question is not what the technology can analyse, but where responsibility quietly changes hands.
 
 A persuasive answer can be mistaken for a trustworthy one, particularly when it arrives instantly and is expressed with apparent confidence. This is one reason the growing use of AI for personal advice deserves scrutiny. The technology can organise complicated information with remarkable speed, but the ability to produce a convincing recommendation is not the same as possessing sound judgement. The temptation is understandable. An automated adviser is available late at night, never seems impatient and can organise a confusing situation into clear-looking options within seconds. A September 2025 survey of 5,023 US adults, carried out by Pew Research Center, revealed an important distinction in public attitudes. Respondents were generally more receptive to AI being used for analytical tasks, including weather forecasting and scientific research, than for intimate personal matters. Roughly two-thirds believed AI should have no role in judging whether two people might fall in love. Those findings describe American opinion, not a universal rule about what AI can achieve.
 

@@ -23,6 +23,9 @@ Not every film about Indigenous people is harmful. Some communities choose to we
 
 === B2 ===
 
+title: Filming the People Who Do Not Want to Be Found
+summary: A traveller landed on a forbidden island with a camera and a can of Diet Coke. The risk he took was not only his own.
+
 When American traveller Mykhailo Polyakov set off towards North Sentinel Island in March 2025, he took a small inflatable boat, a camera and several gifts, including a coconut and a can of Diet Coke. His aim was to reach one of the world's most isolated Indigenous communities and record his visit. He managed to land on the island, but did not meet any of its inhabitants. The trip ended with his arrest by Indian authorities.
 
 The Sentinelese live on a small forested island in the Andaman archipelago and have repeatedly resisted contact with outsiders. Indian law restricts access to protect the community, whose members may be especially vulnerable to infectious diseases introduced by visitors. Polyakov attempted to attract attention before leaving, but the absence of any encounter does not make the visit harmless. It placed the island's inhabitants at risk without their agreement.

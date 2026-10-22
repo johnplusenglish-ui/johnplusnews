@@ -8,6 +8,9 @@ image-plain: images/the-170-kilometre-city-that-may-never-be-finished-plain-0c61
 ---
 === B1 ===
 
+title: The City Built in a Straight Line
+summary: Saudi Arabia planned a city 170 kilometres long. In May 2026, a report said the main work had been put off until after 2030.
+
 Imagine a city that is 170 kilometres long but only a short distance across. Its buildings have shiny outside walls, and people travel from one end to the other without needing ordinary cars. This was the idea behind The Line, one of Saudi Arabia's most famous building projects, and for a while it was everywhere online.
 
 The Line was introduced as part of NEOM, a large plan to develop an area in the north-west of the country. Designers imagined a completely new way of life, with homes, shops and workplaces close together. Fast transport would carry residents from one part of the city to another in minutes, so nobody would spend an hour stuck in traffic.
@@ -22,6 +25,9 @@ The story is about more than one country or one expensive project. It asks what 
 
 === B2 ===
 
+title: When the Pictures Are Easier Than the Building
+summary: The Line promised mirrored walls, rapid transport and homes within easy reach. Semafor reported in May 2026 that further work would wait until after 2030.
+
 Saudi Arabia once presented The Line as a radically different answer to urban life. Instead of spreading outwards like an ordinary city, it would stretch for 170 kilometres through the desert, with homes and services stacked into a narrow, high-density structure. Promotional images showed two enormous mirrored walls cutting across the landscape, and they travelled around the world within days.
 
 The Line forms part of NEOM, a development project intended to attract international investment and support Saudi Arabia's effort to diversify its economy away from oil. Its promoters imagined neighbourhoods linked by rapid transport, with daily necessities within easy reach and far less dependence on private cars. On paper, it solved problems that older cities have struggled with for a century.
@@ -35,6 +41,9 @@ Large projects often change as costs rise and governments face competing demands
 The Line is a particularly dramatic example of a familiar dilemma. An impressive design can persuade people that the future is already visible and more or less paid for. Construction forces them to confront far less glamorous questions: how much will it cost, who will live there, and what happens if the financial plan no longer adds up?
 
 === C1-C2 ===
+
+title: Renderings and Reality: The Slow Deferral of a Linear City
+summary: A postponement is not a cancellation. But a scheme deferred by a decade re-emerges into a world whose costs, technologies and political priorities have all moved on.
 
 Few proposed cities have captured the tension between architectural imagination and economic reality as vividly as The Line. Announced as part of Saudi Arabia's NEOM development, it envisaged a linear urban settlement extending 170 kilometres through the desert, enclosed within mirrored structures and designed to function with minimal reliance on conventional roads. It was, by any measure, an unprecedented proposition, and it was received accordingly, with equal measures of admiration and disbelief.
 

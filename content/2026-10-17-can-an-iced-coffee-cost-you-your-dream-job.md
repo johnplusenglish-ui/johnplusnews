@@ -8,6 +8,7 @@ image-plain: images/can-an-iced-coffee-cost-you-your-dream-job-plain-1eed64.jpg
 ---
 === B1 ===
 
+title: Should You Finish Your Coffee Before the Interview?
 summary: A recruiter said that bringing an iced coffee to a job interview looks too relaxed. Is she right, or is the rule unfair?
 
 Imagine preparing carefully for a job interview. You choose your clothes, research the company and practise your answers. You buy an iced coffee. Could that final decision damage your chances of getting the job? In September 2026, a discussion about this simple drink became a huge argument online. A recruiter in Florida suggested that young people who arrive at interviews holding iced coffees can look too relaxed. Some people agreed with her. Others thought the idea was ridiculous.
@@ -24,6 +25,9 @@ So what should an applicant do? It makes sense to learn about the company, arriv
 
 === B2 ===
 
+title: The Unwritten Rules of the Interview Room
+summary: Caitlin Wehniainen has recruited for 16 years. Her TikTok advice split viewers, and research suggests first impressions really can shape how later answers are judged.
+
 By the time you reach a job interview, you have probably spent hours preparing. You have researched the company, checked the journey and rehearsed how to sum up your strengths without sounding unbearable. Then you walk through the door carrying an iced latte. According to one American recruiter, that small detail could work against you. In September 2026, advice from a Florida recruitment specialist became an unlikely internet controversy, dividing people over whether a takeaway coffee is a harmless drink or a sign that someone doesn't take an interview seriously.
 
 Caitlin Wehniainen, who has spent 16 years recruiting staff, suggested in a TikTok video that candidates arriving with iced coffee can appear too casual, particularly when applying to formal corporate employers. Her concern was less about caffeine than the impression it creates. She argued that an interview should not look like one more errand squeezed into a crowded morning. After the backlash, she clarified that her advice was not a universal rule. What seems inappropriate in a traditional office might be perfectly normal at a warehouse, a technology company or a creative business.
@@ -38,6 +42,7 @@ There is practical advice for applicants nevertheless. Research the company, pre
 
 === C1-C2 ===
 
+title: A Proxy for Seriousness: Who the Iced Latte Filters Out
 summary: A recruiter's warning about takeaway coffee at interviews exposed an awkward truth: the unwritten rules of hiring may say more about employers than about candidates.
 
 For anyone already nervous about a job interview, the modern recruitment process offers a bewildering range of potential mistakes. Arrive too early and you appear overeager. Dress too formally and you may look out of place. Forget to research the interviewer and you risk seeming unprepared. In September 2026, the list acquired an unlikely addition: the iced latte. A Florida recruiter's warning against arriving with takeaway coffee gave rise to an argument about professionalism, generational stereotypes and the increasingly elaborate rules imposed on young jobseekers.

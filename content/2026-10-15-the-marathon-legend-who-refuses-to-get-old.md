@@ -14,6 +14,7 @@ image-plain: images/the-marathon-legend-who-refuses-to-get-old-plain-9f3e69.jpg
 ---
 === B1 ===
 
+title: Why Kipchoge Did Not Need His Fastest Time
 summary: Eliud Kipchoge is 41 and still winning. He won the Melbourne Marathon in a record time. What does his story teach us about age?
 
 At 41, many athletes have already retired. Eliud Kipchoge is still racing. On 11 October 2026, the Kenyan runner won the Melbourne Marathon in Australia, finishing the 42.2-kilometre race in two hours, nine minutes and ten seconds. It was a new record for the event. Thousands of people had come to watch one of the most famous runners in the world, and he gave them another reason to cheer.
@@ -30,6 +31,9 @@ Kipchoge's latest win does not mean that age has stopped affecting him. It does 
 
 === B2 ===
 
+title: Nobody Told Kipchoge When to Retire
+summary: He won in 2:09:10, some way short of his personal best, pulling clear in the last ten kilometres. Other runners reported shortages of water.
+
 By the time most runners reach their forties, their fastest races are usually behind them. Eliud Kipchoge has never been particularly interested in following the usual timetable. On 11 October 2026, the Kenyan athlete won the Melbourne Marathon in 2:09:10, breaking the course record at the age of 41. He pulled away from his closest rivals during the final ten kilometres and crossed the finish line at the Melbourne Cricket Ground, once again turning a major race into a celebration of an extraordinary career.
 
 Kipchoge is already one of the most successful distance runners in history. He won Olympic marathon titles in Rio and Tokyo, set world records and, in a specially arranged event in Vienna in 2019, became the first person to complete the distance in under two hours. That run was not eligible for an official record because it used special conditions, including rotating pacemakers. Even so, it changed the way millions of people thought about the limits of human endurance.
@@ -44,6 +48,7 @@ For Kipchoge, the Melbourne result is unlikely to silence every question about r
 
 === C1-C2 ===
 
+title: No Neat Farewell: Kipchoge Complicates the Story of Decline
 summary: Kipchoge's record run in Melbourne was overshadowed by reports of water shortages on the course. What does his longevity show, and what went wrong for other runners?
 
 Sport likes a neat farewell. A champion reaches the summit, enjoys a final moment of applause and disappears before the inevitable decline becomes too obvious. Eliud Kipchoge appears determined to complicate that narrative. At 41, the Kenyan distance-running great won the Melbourne Marathon on 11 October 2026 in 2:09:10, establishing a course record and offering an emphatic response to those who had begun to regard his retirement as overdue. The winning move came in the final ten kilometres, when he separated himself from the other contenders and headed towards the Melbourne Cricket Ground.

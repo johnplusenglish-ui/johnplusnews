@@ -9,6 +9,9 @@ image-plain: images/why-are-canadians-turning-their-backs-on-american-holidays-p
 ---
 === B1 ===
 
+title: The Holiday Trip Canadians Stopped Taking
+summary: Driving south to shop or spending the winter in a warmer place used to be simple. Now some Canadians are choosing Mexico instead.
+
 For many Canadians, taking a holiday in the United States has always been simple. They can drive across the border to shop, visit friends or spend a few days in another city. Some older Canadians also travel south in winter to escape the cold. For years, nobody thought twice about it.
 
 But during 2025 and 2026, fewer Canadians made these journeys. Relations between the two countries became more difficult because of political arguments and trade disputes. Some travellers said they no longer felt welcome, and a few felt nervous about crossing the border at all. Others did not want to spend their money in the United States while the arguments continued, so they cut back on trips south.
@@ -24,6 +27,9 @@ Travel is usually described as a way of bringing people from different cultures 
 So is a cancelled holiday a useful protest, or does it mainly hurt ordinary people who depend on tourism? Canadians are making up their minds one trip at a time, and in the long run their choices may say as much about the two countries as any official statement.
 
 === B2 ===
+
+title: The Discounts That May Not Bring the Visitors Back
+summary: American destinations are offering deals to win back Canadian travellers. But a family that has discovered Mexico may be in no hurry to return.
 
 Canadians have traditionally been among the United States' most important international visitors. A short drive across the border can lead to a shopping trip, a weekend away or an extended winter holiday. Yet political tensions and trade disputes have encouraged some travellers to reconsider a journey that once felt entirely routine.
 
@@ -42,6 +48,9 @@ It is also worth asking how long the effect will last. Travel habits are not eas
 The industry often promises an escape from everyday problems, but holidays never take place in a political vacuum. Canada's changing travel patterns show how quickly ideas about hospitality, national identity and trust can affect a commercial relationship that previously looked secure.
 
 === C1-C2 ===
+
+title: A Boycott Nobody Organised: The Quiet Cost of a Trade Dispute
+summary: Canadians can register their disapproval simply by staying at home, and such a protest costs them nothing. The bill arrives at hotel reception desks and half-empty restaurants with no influence over national policy.
 
 Cross-border tourism between Canada and the United States has historically rested on more than attractive destinations. Geographic proximity, family connections and a deep sense of familiarity made an American holiday the default choice for millions of Canadians. Political friction has unsettled that relationship, demonstrating how fragile consumer confidence becomes once travellers begin to wonder whether they are genuinely welcome.
 

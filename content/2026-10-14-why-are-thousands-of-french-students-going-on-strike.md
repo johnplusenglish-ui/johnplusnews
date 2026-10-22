@@ -22,6 +22,9 @@ There is no easy answer. Improving public schools costs money, and governments m
 
 === B2 ===
 
+title: The Teenagers Who Walked Out of School
+summary: Secondary-school students across France are blocking their own gates. They say the buildings, the class sizes and the staffing have been ignored for years.
+
 France has a long history of street demonstrations, but the latest wave of protests has been led by an unusually young group of campaigners. Since late September 2026, thousands of secondary-school students have walked out of lessons, blocked school gates and marched through city centres. Their complaint is straightforward: schools are struggling, and the government is not doing enough to fix them.
 
 Students describe overcrowded classrooms, buildings in poor condition and lessons cancelled because no teacher is available. The campaign gained attention in Saint-Denis, near Paris, where pupils at Lycée Paul Éluard protested against serious problems at their school. What began as anger over local conditions quickly grew into a wider movement. Young people in other cities recognised similar problems in their own schools and began to organise.

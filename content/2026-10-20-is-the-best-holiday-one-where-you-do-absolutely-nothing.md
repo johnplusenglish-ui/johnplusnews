@@ -7,6 +7,9 @@ image-plain: images/is-the-best-holiday-one-where-you-do-absolutely-nothing-plai
 ---
 === B1 ===
 
+title: A Holiday with No Plans at All
+summary: A 2025 survey found that 45% of Americans wanted rest and relaxation from a summer holiday. Others wanted adventure, culture or family time.
+
 Imagine going on holiday and waking up without any plans. You have no museum tickets, no early train and no list of places you must visit. You could sit in a café for two hours or take a walk and see where you end up. Would that sound relaxing or boring? Many holidays are full of activities. People want to visit famous places, eat at popular restaurants and take beautiful photographs. When they have only a week away, they may feel that every minute needs to count. But a busy holiday can leave people feeling tired.
 
 A 2025 survey by the Marist Poll found that 45% of Americans planning a summer holiday said their main aim was rest and relaxation. Other people wanted adventure, cultural experiences or time with family and friends. The results remind us that travellers do not all want the same thing.
@@ -23,6 +26,9 @@ Perhaps the best holiday is not the busiest or the quietest one. It is the one t
 
 === B2 ===
 
+title: The Trip You Need a Holiday to Recover From
+summary: Slow travel means fewer places and more unplanned hours. It is not automatically cheaper or greener, and it is hard to manage on limited annual leave.
+
 A week in a new country can sometimes feel like an unusually demanding job. There are famous landmarks to visit, restaurants to book and photographs to take before moving on to the next destination. Travellers return home with hundreds of pictures and a strange feeling that they need another holiday to recover. A packed itinerary can be enjoyable, especially on a first visit. But there is little room for surprises when every meal, museum and train journey has been booked months in advance. Against this approach is the appeal of slow travel: spending more time in fewer places, allowing ordinary moments to become part of the experience. Instead of rushing between attractions, someone might spend a morning in a neighbourhood café, wander without a plan or return to the same beach several days in a row.
 
 The desire for rest is not imaginary. In a July 2025 Marist Poll, 45% of Americans who planned a summer holiday said rest and relaxation were their main goal. The survey also found travellers who preferred seeing family, exploring new places or experiencing culture. It does not prove that slow travel is becoming more popular everywhere, but it illustrates that relaxation is a major reason for travelling.
@@ -38,6 +44,9 @@ A couple with limited annual leave may get more out of a carefully planned weeke
 Perhaps the important choice is not between doing everything and doing nothing. It is recognising that a successful holiday does not need to be measured by the number of places visited. Sometimes one memorable afternoon can matter more than a long checklist of sights.
 
 === C1-C2 ===
+
+title: Optimised Leisure: When a Break Resembles Project Management
+summary: The Marist Poll shows recovery is a major motive for travelling, though it never measured slow travel. Lingering somewhere is no guarantee of responsible tourism, and the freedom to linger is unevenly shared.
 
 The modern holiday is often organised around a fear of missing out. Research, booking platforms and social media produce an endless catalogue of experiences that supposedly deserve a place on every itinerary. What was intended as a break can become an exhausting exercise in scheduling, navigation and documenting one's leisure. Holiday planning increasingly resembles project management, complete with colour-coded schedules and a fear of missing out. The result may be impressive, but not necessarily restorative. An alternative is to travel more slowly: choosing fewer destinations, leaving unstructured time and allowing a place to become familiar rather than treating it as a collection of attractions. The appeal is easy to understand. A long lunch, an aimless walk or a morning spent reading beside the sea may provide a sense of freedom that a tightly managed itinerary cannot.
 

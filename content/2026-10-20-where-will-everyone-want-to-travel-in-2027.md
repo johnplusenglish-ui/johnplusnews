@@ -8,6 +8,9 @@ image-plain: images/where-will-everyone-want-to-travel-in-2027-plain-922283.jpg
 ---
 === B1 ===
 
+title: A Holiday List Without Paris or Rome
+summary: Expedia says searches are growing for Busan, Perugia, Punta del Este and Holbox. But a search is not a booking.
+
 Where will people want to go on holiday in 2027? Paris and Rome will still attract visitors, but a new travel report suggests that many people are looking at places that receive less attention. In October 2026, Expedia published a list of destinations with fast-growing searches for flights and places to stay. The list included Busan in South Korea, Perugia in Italy, Punta del Este in Uruguay and Holbox in Mexico. These are very different places, from busy cities to relaxed coastal destinations.
 
 Busan is known for beaches, markets and city life. Perugia offers historic streets, food and cultural festivals. Punta del Este attracts visitors to its Atlantic beaches, while Holbox is an island where tourists come for nature and a slower pace. Each place offers something different from the usual holiday in a famous capital.
@@ -24,6 +27,9 @@ Perhaps the best travel choice is not the place everybody is talking about. It i
 
 === B2 ===
 
+title: What a Search Box Can and Cannot Tell You
+summary: Expedia compared searches on its own platforms from September 2025 to July 2026. Rising curiosity is not the same as arrivals, and some of these places are busy already.
+
 Every year brings a new list of destinations that travellers are supposedly about to discover. Some are already famous, while others have spent years outside the international spotlight. What makes a location suddenly attractive, and can a travel company really predict where people will go next? A city may suddenly pop up everywhere online after a popular film, a new flight route or a few beautiful photographs. The buzz can build long before most travellers know much about it. Expedia's Unpack '27 report, released in October 2026, identified destinations where searches for flights and accommodation had grown compared with the previous period. Its selections included Busan in South Korea, the Italian city of Perugia, Holbox in Mexico and Uruguay's Punta del Este. The list also featured places in Japan, Australia, Canada, Britain and the United States.
 
 The destinations appeal to different kinds of travellers. Busan combines beaches with lively urban markets, while Perugia offers medieval streets and cultural festivals. Holbox is known for its quieter island atmosphere, and Punta del Este attracts holidaymakers to Atlantic beaches and seaside restaurants. Rather than following one theme, the list reflects growing curiosity about a wide variety of places.
@@ -39,6 +45,9 @@ Local authorities may welcome additional visitors while worrying about housing c
 A useful travel list should therefore start a conversation rather than settle it. Where do you actually want to spend time, and what kind of experience are you hoping for? Choosing a destination because it fits your interests may be more rewarding than following the latest prediction about where everybody else is heading.
 
 === C1-C2 ===
+
+title: Hidden Gems, Widely Advertised: The Paradox of the Travel Forecast
+summary: Coverage breeds curiosity, curiosity lifts the search figures, and the figures generate more coverage. Promoting a quieter alternative may simply redirect visitor pressure rather than relieve it.
 
 Travel-industry forecasts are designed to create anticipation. A destination that barely cropped up in holiday conversations last year is suddenly presented as the place to visit next. But the relationship between online curiosity, actual bookings and a genuinely rewarding travel experience is far from straightforward. Predictions about the next fashionable destination have a way of becoming self-fulfilling. Media coverage generates curiosity, curiosity increases searches, and the resulting figures produce yet more headlines. Expedia's October 2026 Unpack '27 report used year-on-year growth in flight and accommodation searches to identify destinations attracting increasing interest. Among those highlighted were Busan in South Korea, Perugia in Italy, Holbox in Mexico and Punta del Este in Uruguay. The wider list also included Hyogo, the Tweed region, Chichester and several North American destinations.
 

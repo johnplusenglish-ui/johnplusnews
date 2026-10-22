@@ -8,6 +8,9 @@ image-plain: images/the-cafe-where-you-pay-with-rubbish-plain-b8d591.jpg
 ---
 === B1 ===
 
+title: A Meal for a Bag of Plastic
+summary: In the Indian city of Ambikapur, a café opened in 2019. Bring one kilogram of plastic waste and you receive a full meal.
+
 Imagine walking into a café, ordering a hot lunch and paying with an old plastic bottle. In the Indian city of Ambikapur, the idea is real. The Garbage Café gives people food in exchange for plastic waste, including used bottles, bags and food packaging that most of us would throw away without thinking.
 
 The café opened in 2019 with support from the local authorities. Customers can bring one kilogram of plastic waste and receive a full meal in return. That might include rice, vegetables, bread and other dishes. The plastic is then collected and sent into the city's waste system, instead of being left on the streets or blown into a river.
@@ -21,6 +24,9 @@ Of course, one small café cannot solve India's plastic problem on its own. The 
 Still, the idea changes the way we think about rubbish. A bottle that looks worthless to one person may be worth a hot meal to somebody else. The café shows that a simple local project can help people and encourage a cleaner city at the same time.
 
 === B2 ===
+
+title: What a Discarded Bottle Is Actually Worth
+summary: Ambikapur's Garbage Café pays informal collectors in food rather than small change. It cannot absorb a city's plastic, but it does make their work visible.
 
 Most cafés expect their customers to pay by cash or card. In Ambikapur, a city in central India, one café accepts a far less attractive form of payment: plastic waste. Customers can hand over discarded packaging and, in return, receive a cooked meal. The project ties together two challenges that are usually discussed separately, hunger and pollution, and it does so in a way anyone can grasp in a sentence.
 
@@ -37,6 +43,9 @@ There are limits. A café cannot process all the plastic produced by a city, and
 Nevertheless, the concept works because it is easy to understand. Instead of asking people to worry about a distant environmental crisis, it offers a direct exchange with an immediate benefit. A kilogram of plastic becomes a plate of food, and an abstract argument about waste turns into a practical question about what a community actually values.
 
 === C1-C2 ===
+
+title: Rubbish as Currency: One Small Café and Two Large Problems
+summary: Measured by tonnage, the scheme collects a drop in the ocean. Its real achievement lies in the relationships it exposes between waste, work and basic needs, and in the insecurity it leaves untouched.
 
 Environmental campaigns often struggle to make abstract problems feel immediate. The Garbage Café in Ambikapur, central India, relies instead on a strikingly tangible incentive: bring in discarded plastic and receive a hot meal. It is an arrangement that links urban waste management to food insecurity, two problems that would otherwise appear to have very little to do with one another.
 

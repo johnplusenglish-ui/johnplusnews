@@ -22,6 +22,9 @@ Today, Peter can read recipes and share books with his son. He also talks public
 
 === B2 ===
 
+title: Hiding It for Thirty Years, Then Asking for Help
+summary: Peter Lloyd built a career and raised a family while hiding the fact that he could not read. A supermarket shelf finally changed that.
+
 For years, Peter Lloyd found ways to avoid reading in public. As a lorry driver, he could remember complicated routes and recognise road signs, but a letter arriving through the post could leave him feeling helpless. He had built a working life and raised a family while hiding a difficulty that many people assume only children face. Then, aged 42, he found himself unable to complete a simple supermarket shop.
 
 Peter was born partially deaf in Lancashire and struggled to follow lessons in noisy classrooms. Moving schools did little to help. He left at 16 without qualifications and with very limited reading skills. Yet he was resourceful. His strong visual memory helped him navigate Britain's roads, and later a talking satnav made driving easier. His wife stepped in when he needed to understand documents or fill in forms. From the outside, there was little to suggest how much effort ordinary tasks required.

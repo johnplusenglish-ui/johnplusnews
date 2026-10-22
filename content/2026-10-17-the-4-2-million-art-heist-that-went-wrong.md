@@ -8,6 +8,7 @@ image-plain: images/the-4-2-million-art-heist-that-went-wrong-plain-26c6fa.jpg
 ---
 === B1 ===
 
+title: The Thieves Who Left Their DNA Behind
 summary: Thieves broke into Renoir's old home in France and took two paintings. The police found them hidden behind a wall. How?
 
 At 5.48am on 8 September 2026, an alarm went off at a small museum on the French Riviera. Two people had broken into the former home of the famous painter Pierre-Auguste Renoir. They were trying to steal four paintings. Within minutes, police were on their way, and the thieves were running out of time. They escaped with two artworks but left the other two behind. The paintings they took were later valued by a prosecutor at around €4.2 million.
@@ -24,6 +25,9 @@ The case raised questions about protecting valuable art. Small museums often hav
 
 === B2 ===
 
+title: Hidden Under the Stairs: How Two Renoirs Came Home
+summary: The burglars fled when the alarm sounded, dropping half their haul and a cover carrying DNA. That mistake led police to six arrests.
+
 Shortly before six in the morning, an alarm sounded at a quiet museum on the French Riviera. By the time the local police arrived, two intruders had disappeared, leaving behind a confused scene and two paintings they had apparently intended to steal. Two other works by Pierre-Auguste Renoir were missing. It was 8 September 2026, and a museum devoted to one of France's best-known painters had become the centre of an international art-theft investigation. The haul the thieves got away with was later valued by the Marseille prosecutor at approximately €4.2 million.
 
 The setting made the robbery particularly striking. The Renoir Museum in Cagnes-sur-Mer occupies the artist's former home, a place that attracts visitors interested in his life as much as his paintings. French officials said the intruders cut through a garden fence and entered through a window. They targeted four works, but the alarm forced them to abandon two during their escape. The paintings that vanished were Portrait of Madame Colonna Romano and Young Woman at the Well, both on loan from the Musée d'Orsay in Paris. For weeks, investigators had no public answer to the obvious question: where had they gone?
@@ -38,6 +42,7 @@ The investigation reopened an uncomfortable debate about museum security. A smal
 
 === C1-C2 ===
 
+title: Stolen but Unsellable: The Quiet Vulnerability of Regional Museums
 summary: An alarm, a DNA trace and a hiding place under a staircase: how an ambitious theft of two Renoirs at Cagnes-sur-Mer unravelled.
 
 At 5.48am on 8 September 2026, the alarm at the Renoir Museum in Cagnes-sur-Mer began sounding. Five minutes later, municipal police were at the scene. The intruders had already made off, apparently abandoning half their intended haul in the rush to escape. Two paintings by Pierre-Auguste Renoir remained missing, leaving investigators with an unusually conspicuous theft and a rather less glamorous collection of forensic clues. By October, prosecutors placed the combined value of the missing works at approximately €4.2 million, although earlier estimates in the press had been considerably higher.

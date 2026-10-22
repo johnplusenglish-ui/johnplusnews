@@ -8,6 +8,9 @@ image-plain: images/why-is-brazil-breeding-millions-of-mosquitoes-plain-1af6e9.j
 ---
 === B1 ===
 
+title: The Factory That Makes Mosquitoes on Purpose
+summary: A new factory in Curitiba breeds mosquitoes carrying a bacterium called Wolbachia. The insects can still bite, but they pass on dengue far less easily.
+
 Imagine hearing that your city plans to release thousands of mosquitoes into the streets. Most people would probably be worried. Mosquitoes can spread dengue fever, a disease that can make people very ill. Yet in Brazil, releasing certain mosquitoes is part of an unusual plan to protect the public.
 
 In July 2025, a large mosquito factory opened in Curitiba, in southern Brazil. Its purpose is not to create more dangerous insects. The factory produces mosquitoes that carry a bacterium called Wolbachia. The bacterium is found naturally in many insects, and it makes it much harder for a mosquito to pass some viruses on to humans.
@@ -23,6 +26,9 @@ Public health workers also have to explain the plan to local residents. It is na
 Brazil has already used the method in other cities, and the new factory is designed to produce mosquitoes on a much larger scale. Sometimes the best answer to a problem is not to fight nature harder. In the long run, it may be to understand nature well enough to work with it.
 
 === B2 ===
+
+title: Not Fewer Mosquitoes, but Different Ones
+summary: Spraying treats a neighbourhood and then wears off. Brazil is trying to change the local insect population itself, and asking residents to trust a much slower answer.
 
 Releasing mosquitoes into residential neighbourhoods sounds like the last thing a health department should do during a dengue outbreak. Yet Brazil is doing precisely that. In July 2025, officials opened a major production centre in Curitiba dedicated to breeding mosquitoes that can help interrupt the spread of infectious diseases.
 
@@ -41,6 +47,9 @@ Winning over the public is a separate challenge. Residents may reasonably ask wh
 What makes the story remarkable is the reversal of an everyday assumption. People associate fewer mosquitoes with better health, but the more important question here is which mosquitoes are present. Brazil's experiment shows how understanding a disease carrier can lead, in the long term, to a far more subtle form of disease control.
 
 === C1-C2 ===
+
+title: Nobody Can Opt Out: The Consent Problem in Biological Control
+summary: Curitiba's plant breeds Aedes aegypti carrying Wolbachia so that whole wild populations become poorer at transmitting infection. The promised benefit is statistical, gradual and invisible, and residents are asked to accept more of an insect they dislike.
 
 For generations, public-health campaigns have conveyed a simple message: reduce mosquito populations and you reduce mosquito-borne disease. Brazil's expanding Wolbachia programme challenges that intuition. Rather than attempting to exterminate every disease-carrying insect, researchers are deliberately introducing mosquitoes whose biology makes them less effective at transmitting viruses.
 

@@ -9,6 +9,9 @@ image-plain: images/why-are-couples-crashing-strangers-weddings-plain-abf85b.jpg
 ---
 === B1 ===
 
+title: The Wedding Guests Nobody Invited
+summary: In South Korea, some couples visit other people's weddings before they book their own. They are checking the lighting, the tables and the car park.
+
 You are enjoying your wedding when you notice two strangers at the back of the room. They are not friends or relatives, and nobody invited them. So why have they turned up? Perhaps they are planning a wedding of their own.
 
 In South Korea, some couples have started visiting other people's weddings to look around the venue. They want to see the room when it is full of guests, check the lighting and find out how everything works. They may look at the parking area, the tables and the way the staff organise the event. A photograph on a website cannot tell them any of that.
@@ -27,6 +30,9 @@ Yet the awkward question stays the same. A wedding is somebody's big day, not a 
 
 === B2 ===
 
+title: A Test Drive at Somebody Else's Wedding
+summary: Prospective customers want to see a hall under real pressure, with guests arriving and staff working. The couple paying for the day never agreed to the inspection.
+
 Wedding guests normally have a simple reason for attending: they know the people getting married. But in South Korea, some couples have been turning up at strangers' ceremonies with an entirely different purpose. They want to inspect the venue before spending a large sum on their own celebration.
 
 The practice, sometimes described as an "undercover tour", allows prospective customers to see a wedding hall in action. Advertisements and official viewings can make almost any room look attractive. A real event reveals far more practical detail: how guests move through the building, whether the staff are organised, what the lighting actually looks like and how easy it is to park.
@@ -44,6 +50,9 @@ Venues could easily reduce the temptation. Supervised visits during real events,
 The story is a reminder that consumer pressure can produce unexpected behaviour. When an occasion is marketed as the most important day of someone's life, prospective customers start treating every detail as a financial risk. The real challenge is finding out enough to feel confident without crossing a line and turning another person's celebration into your research project.
 
 === C1-C2 ===
+
+title: Inspection Without Consent: When a Wedding Becomes Market Research
+summary: South Korean couples facing expensive packages and anxious planning are observing strangers' ceremonies to judge a venue properly. An industry that sells a flawless day may have taught them to manage one like a project.
 
 Few industries trade as heavily on the promise of perfection as the wedding business. In South Korea, where ceremonies can involve substantial expenditure and intense expectations, some prospective couples have adopted an unconventional method of assessing venues: attending complete strangers' weddings without an invitation.
 

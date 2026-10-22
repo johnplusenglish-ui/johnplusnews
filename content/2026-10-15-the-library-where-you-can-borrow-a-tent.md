@@ -14,6 +14,8 @@ image-plain: images/the-library-where-you-can-borrow-a-tent-plain-0ce6e5.jpg
 ---
 === B1 ===
 
+title: Borrow a Tent, Not Just a Book
+
 summary: A tent, a camera or a pair of binoculars can turn curiosity into a first adventure.
 
 Between the books at a new library in Colorado, you can find a tent, binoculars and a camera for watching wildlife. You do not need to buy them. A library card is enough. The Anythink Nature Library opened in August 2026 with a simple idea: wanting to try camping, birdwatching or stargazing should not mean spending a large amount of money before you even know whether you will enjoy it.

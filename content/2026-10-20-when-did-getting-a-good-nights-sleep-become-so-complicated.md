@@ -7,6 +7,9 @@ image-plain: images/when-did-getting-a-good-nights-sleep-become-so-complicated-p
 ---
 === B1 ===
 
+title: Your Watch Says You Slept Badly
+summary: You wake up feeling fine. Then your smartwatch gives you a low score and the day starts badly.
+
 You wake up feeling refreshed. Then you look at your smartwatch. It gives you a poor sleep score. Suddenly, you begin to wonder whether you slept badly after all. Can technology make sleep more stressful than it needs to be? Smartwatches and sleep apps can estimate how long we sleep and how often we wake up. Some also show numbers for different stages of sleep. These tools can be interesting, especially for people trying to understand their routines. But the numbers are not always perfectly accurate.
 
 In 2017, sleep researchers described a problem they called orthosomnia. They had seen patients becoming so worried about their sleep-tracker results that they focused on trying to achieve perfect scores. The term describes a pattern of behaviour discussed in clinical reports; it is not an official diagnosis for everyone who uses a watch.
@@ -23,6 +26,9 @@ Perhaps the best question in the morning is not 'How did my watch rate me?' It i
 
 === B2 ===
 
+title: The Morning Score That Decides How Tired You Feel
+summary: Trackers estimate sleep from movement and heart rate, but the numbers look more certain than they really are. In 2017, researchers gave that worry a name.
+
 Going to bed used to involve a pillow, a blanket and the hope of waking up refreshed. Today, a smartwatch may analyse the night and deliver a score before breakfast. For some people, the information is helpful. For others, it creates a new source of worry: what if they are not sleeping well enough? A sleep score might look precise, but it is still an estimate produced by a device. Seeing a low number can make someone feel disappointed before they have even got out of bed. Researchers described the term orthosomnia in a 2017 article in the Journal of Clinical Sleep Medicine. They reported patients who became preoccupied with the apparently imperfect sleep recorded by wearable devices. Some trusted their tracker data so strongly that they questioned their own experience of feeling rested.
 
 The technology has improved, but sleep is still difficult to measure precisely outside a clinical setting. Consumer devices estimate sleep stages and duration using signals such as movement and heart rate. Their reports can be useful for spotting patterns, yet they are not equivalent to a medical sleep assessment.
@@ -38,6 +44,9 @@ Neither response necessarily reflects what a clinician would conclude. Healthy t
 Perhaps we should treat sleep technology like other health tools: useful when it informs a reasonable decision, unhelpful when it creates endless pressure. Rest should be something we experience, not merely a number we try to improve.
 
 === C1-C2 ===
+
+title: Orthosomnia: What Happens When Rest Becomes a Nightly Performance Review
+summary: Wrist-worn devices infer sleep from indirect signals, yet a number shown to one decimal place carries an authority its methods may not justify. Measurement can alter the thing it measures.
 
 Sleep has become an unlikely arena for personal optimisation. A smartwatch records movement, estimates sleeping stages and produces a morning judgement, often before its wearer has decided whether they feel refreshed. The promise is greater control over rest. The paradox is that measuring sleep can occasionally make people more anxious about it. Consider the strange morning ritual of checking a device to discover whether you slept well. The verdict can colour the day before you have had time to assess how you actually feel. In 2017, clinicians writing in the Journal of Clinical Sleep Medicine introduced the term orthosomnia to describe patients whose pursuit of ideal sleep-tracker measurements appeared to interfere with their relationship with sleep. Their observations were case reports, not evidence that tracking routinely causes insomnia or that orthosomnia is a universally recognised medical diagnosis.
 

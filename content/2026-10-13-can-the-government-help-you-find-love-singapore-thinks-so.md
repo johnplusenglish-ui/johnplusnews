@@ -28,6 +28,9 @@ Some people like the idea of a dating service that focuses on shared values. Oth
 
 === B2 ===
 
+title: The Dating App Built by a Government
+summary: Singapore is testing a platform that offers one match at a time. Can a careful algorithm do better than endless swiping?
+
 After hours of swiping through profiles, another dating app match may feel less exciting than it should. Singapore's government technology agency has been testing a different approach: instead of offering people an endless stream of possible partners, it introduces them to just one person at a time. The platform, called FirstDate, aims to help users focus on a meaningful connection rather than the search itself.
 
 The project began among staff at GovTech and is currently being tested with unmarried public officers aged between 21 and 35. Participants complete a questionnaire about their values, routines, interests and preferences. The system then suggests a compatible match and provides a score explaining how closely their answers fit. If both users agree, they can exchange contact details and arrange to meet. Only the proposed match can see a person's profile, and the platform says it does not sell personal data.

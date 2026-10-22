@@ -4,8 +4,12 @@ date-label: 2025–2026
 summary: More couples are questioning the idea that sharing a bed is essential for a happy relationship.
 tags: Relationships, Health
 source: Health.com | https://www.health.com/do-sleep-divorces-lead-to-better-sleep-11780674
+image-plain: images/would-you-sleep-better-without-your-partner-plain-d29714.jpg
 ---
 === B1 ===
+
+title: Should Couples Sleep in Separate Rooms?
+summary: Some people call it a sleep divorce, but nobody is leaving. They just want a quiet night and fewer arguments.
 
 It is the middle of the night. One person is sleeping peacefully, but their partner lies awake and exhausted because of loud snoring. They try moving the pillow and turning over. Nothing helps. Would sleeping in another room be a terrible idea? Some couples choose separate beds or bedrooms so they can get a good night's sleep. People sometimes call this a sleep divorce, although nobody is ending the relationship. They may love each other and enjoy spending time together but have very different habits at night.
 
@@ -23,6 +27,9 @@ Perhaps the strangest thing about the phrase sleep divorce is that it makes a pr
 
 === B2 ===
 
+title: The Bed That Became a Negotiation
+summary: Open windows, late television and different alarms can wear a couple down. Separate rooms may help, though a small flat rarely leaves much space to experiment.
+
 Sharing a bed is often treated as a symbol of a successful relationship. Yet anyone who has spent hours listening to a partner snore knows that intimacy and a good night's sleep do not always fit comfortably together. This tension has encouraged discussion of so-called sleep divorce: couples choosing separate sleeping arrangements without ending their relationship. One partner may need the window open and the other may prefer a warm room. Add different alarms or a habit of watching television late, and bedtime can turn into a negotiation. Reasons vary from different work schedules to restless movement, conflicting room temperatures and noise. A 2025 report discussing a survey carried out by the American Academy of Sleep Medicine suggested that sleeping separately was relatively common among US adults. The figures describe reported behaviour, not proof that separate bedrooms produce happier relationships.
 
 There are possible advantages. Somebody who sleeps more peacefully may become less irritable and better able to enjoy time with their partner. Couples may also feel relieved when they stop blaming one another for interrupted nights. However, separate beds can reduce opportunities for closeness if the decision is not discussed openly.
@@ -38,6 +45,9 @@ The best solution depends on the source of disturbance, the available space and 
 Rather than seeing bed-sharing as a test of love, couples might ask what allows both people to feel rested and connected. A relationship is built from communication, trust and everyday care. The location of two pillows is unlikely to tell the whole story.
 
 === C1-C2 ===
+
+title: Sleep Divorce: The Language Is Harsher Than the Decision
+summary: Snoring, incompatible schedules and high rents rarely make elegant romantic narratives. Yet what a couple settles on at night says less about their affection than about the space, and the honesty, available to them.
 
 A shared bed remains one of the strongest cultural symbols of a committed relationship. Consequently, the decision to sleep separately can carry an implication of emotional distance, even when the real problem is considerably less dramatic: snoring, incompatible schedules or a partner who takes up most of the mattress. A shared bed is often treated as proof of intimacy, although it is also a practical arrangement involving temperature, light, noise and the timing of two separate bodies. The expression sleep divorce describes an arrangement in which a couple chooses separate beds or rooms for better rest, without separating romantically. Reporting on a 2025 US sleep survey suggested that the practice was far from exceptional. Yet the popularity of a phrase does not establish whether the arrangement improves relationships or how widely it occurs outside the surveyed population.
 

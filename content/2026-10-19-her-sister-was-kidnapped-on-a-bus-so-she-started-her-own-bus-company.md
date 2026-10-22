@@ -1,4 +1,4 @@
-title: Her Sister Was Kidnapped on a Bus. So She Started Her Own Bus Company.
+title: Her Sister Was Targeted by Fake Bus Drivers. So She Started Her Own Bus Company.
 date: 2026-05-28
 date-label: 28–29 May 2026
 summary: After a frightening experience in her family, a Nigerian entrepreneur helped create a safer and more predictable way to get around Lagos.
@@ -8,6 +8,9 @@ image: images/her-sister-was-kidnapped-on-a-bus-so-she-started-her-own-bus-compa
 image-plain: images/her-sister-was-kidnapped-on-a-bus-so-she-started-her-own-bus-company-plain-d385c6.jpg
 ---
 === B1 ===
+
+title: A Safer Way to Get to Work
+summary: Damilola Olokesusi started Shuttlers in Lagos in 2015. Passengers book a seat on a planned route instead of waiting at the roadside.
 
 For millions of people in Lagos, Nigeria, getting to work can be the hardest part of the day. Traffic is heavy, buses can be crowded and passengers may spend a long time waiting at the side of the road. For Damilola Olokesusi, there was also a more frightening reason to think about transport.
 
@@ -23,6 +26,9 @@ The story is not about a single person magically making a whole city safe. It is
 
 === B2 ===
 
+title: The Business of Making a Journey Ordinary
+summary: Shuttlers needed drivers, vehicles and finance, but trust was the hardest part. It had to be earned one journey at a time.
+
 The daily commute in Lagos can be unpredictable. Passengers put up with crowded roads, unreliable journey times and worries about personal safety. Nigerian entrepreneur Damilola Olokesusi decided that this familiar frustration could become the starting point for a different kind of transport service. If a city makes the same journey difficult every single morning, there is a market in making it ordinary.
 
 Her motivation was sharpened by a frightening incident involving her sister and criminals operating a fake bus service. Rather than writing off dangerous and inconvenient transport as inevitable, Damilola helped set up Shuttlers in 2015. The business set out to offer organised shared journeys with clearer routes and a more dependable booking process. The idea was not a glamorous one. It was a bus that turned up when it said it would.
@@ -36,6 +42,9 @@ A successful shared transport service can potentially improve safety and cut dow
 What makes Damilola's story compelling is the link between personal experience and practical problem-solving. People often talk about the need for safer cities in general terms, and the conversation tends to stop there. She and her colleagues set about building one specific alternative instead, showing how frustration with an everyday system can turn into the beginning of a business. That shift, from complaining about a service to running an alternative, is what makes the story worth telling.
 
 === C1-C2 ===
+
+title: Reliability Is Not an App: What Shuttlers Had to Build in Lagos
+summary: Damilola Olokesusi turned her family's frightening encounter with criminals posing as transport operators into a scheduled bus service. The harder question is what becomes of the commuters a commercial model cannot profitably reach.
 
 In Lagos, commuting is not merely a matter of getting from one address to another. It involves negotiating congestion, unpredictable journey times and, for some passengers, well-founded doubts about the reliability and safety of whatever transport happens to be available. For the entrepreneur Damilola Olokesusi, these pressures became the foundation of a business aimed at making shared journeys more predictable. Few urban irritations are as widely shared, or as rarely treated as a commercial opportunity.
 

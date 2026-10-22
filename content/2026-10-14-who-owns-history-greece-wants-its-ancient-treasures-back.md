@@ -22,6 +22,9 @@ This argument is bigger than one museum. Collections around the world contain im
 
 === B2 ===
 
+title: Two Hundred Years Away from Home
+summary: The Parthenon sculptures have been in London since the 1800s. Greece says it is time they went back, and Britain is still deciding.
+
 Visitors to the British Museum in London can admire a remarkable collection of ancient Greek sculptures. For centuries, these marble figures and decorative panels formed part of the Parthenon, a temple on the Acropolis in Athens. Today they are better known as the Parthenon Marbles, or sometimes the Elgin Marbles. Their beauty is rarely disputed. Who should own and display them is another matter entirely.
 
 The disagreement began more than 200 years ago. In the early 1800s, Greece was under Ottoman rule when Lord Elgin, a British diplomat, arranged for sculptures to be removed from the Acropolis. He maintained that he had permission from Ottoman authorities, though the exact limits of that permission have been debated ever since. The British government bought the collection in 1816, and it became part of the British Museum.

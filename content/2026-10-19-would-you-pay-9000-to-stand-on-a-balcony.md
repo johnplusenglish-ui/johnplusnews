@@ -8,6 +8,9 @@ image-plain: images/would-you-pay-9000-to-stand-on-a-balcony-plain-230bb6.jpg
 ---
 === B1 ===
 
+title: The Best View in Seville Is Not Free
+summary: During Holy Week, some people rent a balcony above the route. The streets are free, but you wait three hours behind a wall of people.
+
 Imagine paying €9,000 to watch people walking through the streets. It sounds impossible, but during Holy Week in Seville, Spain, some of the best balconies cost almost that much to rent for the celebrations.
 
 Holy Week, known in Spanish as Semana Santa, is the biggest event of the year in Seville. Religious groups carry large decorated images through the streets, and crowds gather to watch them pass. Some people come because of their faith. Others come for the music, the history and the atmosphere.
@@ -26,6 +29,9 @@ So the story raises an interesting question. Should the best seats in the house 
 
 === B2 ===
 
+title: The Money Goes to Whoever Owns the Right Street
+summary: Central balconies averaged around €6,000 for the week in March 2026. The families who carry the images through the city are not the ones collecting the rent.
+
 Seville's Holy Week processions are among Spain's most recognisable cultural traditions. Thousands of people fill the streets to watch religious brotherhoods carry elaborate images through the historic centre. Yet in 2026, the headlines about the celebrations focused on something far more commercial: the extraordinary cost of renting a balcony overlooking the route.
 
 According to information released by Seville's property administrators in March 2026, the average price for a centrally located balcony during the week had reached around €6,000. Premium positions along the main procession route, especially with food and drink included, could approach €9,000. The figures referred to packages covering the celebrations, not an ordinary ticket for a single procession.
@@ -43,6 +49,9 @@ It is also worth remembering who the money reaches. Balcony rentals benefit the 
 The disagreement is familiar in tourist cities everywhere. When visitors are willing to spend far more than residents, access to the most convenient spaces becomes unequal, and the best of anything drifts out of reach of the people who live there year on year. Seville's expensive balconies ask where to draw the line between making money from culture and making culture less welcoming to the people who sustain it.
 
 === C1-C2 ===
+
+title: Scarcity, Not Quality: What Seville's Balcony Prices Actually Measure
+summary: The view has not improved; the number of people competing for it has. A balcony let to visitors is one a family no longer watches from, and habits are fragile when the places that housed them change hands each spring.
 
 Seville's Holy Week processions are public expressions of religious devotion, civic identity and centuries-old tradition. Yet the ability to view them from a privileged position has become an increasingly lucrative commercial asset. By March 2026, reports put the average weekly rental price of a central balcony at approximately €6,000, with particularly desirable locations approaching €9,000 once hospitality services were included.
 

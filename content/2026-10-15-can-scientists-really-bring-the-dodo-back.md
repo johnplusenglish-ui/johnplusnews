@@ -8,6 +8,7 @@ image-plain: images/can-scientists-really-bring-the-dodo-back-plain-172bdb.jpg
 ---
 === B1 ===
 
+title: Can a Pigeon Become a Dodo?
 summary: Scientists want to bring back the dodo, a bird that disappeared in the 1600s. Is that possible, and is it a good idea?
 
 The dodo was a large bird that could not fly. It lived on the island of Mauritius in the Indian Ocean until it died out in the seventeenth century. Today, the bird is famous as a symbol of extinction. But scientists at an American biotechnology company are trying to do something extraordinary: create a living bird with some of the dodo's characteristics.
@@ -24,6 +25,9 @@ For now, the dodo remains extinct. Colossal's announcement is about progress in 
 
 === B2 ===
 
+title: The Bird That Would Not Quite Be a Dodo
+summary: Colossal Biosciences has rebuilt most of the dodo's genome and hopes to edit a Nicobar pigeon. Critics ask what the finished bird would actually be.
+
 The dodo has been extinct for more than three centuries, yet it may be one of the most recognisable birds in history. The large, flightless creature once lived on Mauritius, where hunting and animals introduced by humans helped to wipe it out. Now a biotechnology company in the United States is setting out to do something that sounds more like a science-fiction plot than a conservation project: producing a living bird with the distinctive features of the long-lost dodo.
 
 Colossal Biosciences announced fresh progress in October 2026. The company said it had reconstructed about 95% of the dodo's genome, the collection of genetic instructions that helped determine how the bird developed. It is also using an AI-assisted system to pick out changes linked to features such as the dodo's unusually shaped beak. Researchers hope to introduce selected changes into the genes of a living relative, the Nicobar pigeon.
@@ -38,6 +42,7 @@ The dodo project is only beginning to take shape and remains an experiment with 
 
 === C1-C2 ===
 
+title: Restoration or Imitation: What a Rebuilt Dodo Would Really Be
 summary: A start-up claims progress towards resurrecting the dodo, while independent scientists question what that would achieve. Is de-extinction science or spectacle?
 
 Few animals have acquired the dodo's symbolic importance. An ungainly, flightless bird that vanished from Mauritius in the seventeenth century, it has become shorthand for extinction itself. That makes it an irresistible candidate for a biotechnology company seeking to challenge the assumption that disappearance is necessarily permanent. In October 2026, the US-based Colossal Biosciences announced further progress towards engineering a bird with some of the dodo's defining characteristics. The ambition is striking. The scientific meaning of success is rather less straightforward.

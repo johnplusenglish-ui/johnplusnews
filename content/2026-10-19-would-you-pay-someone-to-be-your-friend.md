@@ -8,6 +8,9 @@ image-plain: images/would-you-pay-someone-to-be-your-friend-plain-475fbe.jpg
 ---
 === B1 ===
 
+title: The Walking Partner You Can Hire
+summary: In China you can pay someone to join you for a meal, a walk or a trip. Students do the work to earn extra money.
+
 You want to visit a mountain, try a new restaurant or spend an afternoon sightseeing. But your friends are busy, and you do not want to go on your own. In China, some people have found an unusual answer: they pay a person to come with them.
 
 This is part of a growing business sometimes called the companionship economy. Customers can hire someone to join them for a meal, a walk or a trip. Some companions help people feel more confident in an unfamiliar place, while others know the area well and can make the day easier and more enjoyable.
@@ -23,6 +26,9 @@ Perhaps the idea sounds less strange when we compare it with services we already
 That is what makes the story interesting. It makes us ask why spending time together has become something people sometimes need to buy, and whether life in a busy city is making it harder for friends to meet up at all.
 
 === B2 ===
+
+title: Paying for the One Friend Who Never Cancels
+summary: Hundreds of online contacts do not guarantee company on a shared afternoon. An arrangement that cannot be cancelled on a whim may be the real product.
 
 Making plans is easy until you realise that nobody is free to join you. In China, an expanding market for paid companionship is offering an unusual solution. Customers hire somebody to accompany them to restaurants, tourist attractions or hiking trails, turning what might have been a lonely outing into a shared experience.
 
@@ -43,6 +49,9 @@ There is also the question of what happens afterwards. A good day out with a pai
 Nevertheless, its popularity reveals something about modern society. People can have hundreds of online contacts and still find it hard to arrange a real conversation or a shared afternoon. The companionship economy may be selling convenience, but the demand behind it points to a much less convenient problem.
 
 === C1-C2 ===
+
+title: An Exchange Stated Openly: Why Paid Friendship Unsettles Us
+summary: Social life has always involved obligation, favours and quiet accounting. China's companions simply put a price on it, and in doing so make reliable human presence look like a scarce commodity rather than a given.
 
 The phrase "companionship economy" sounds like a contradiction in terms. Friendship is conventionally understood as voluntary, reciprocal and resistant to commercial calculation. Yet in China, an expanding market allows customers to pay others to accompany them on hikes, sightseeing trips and visits to restaurants, turning social presence into a clearly priced service.
 

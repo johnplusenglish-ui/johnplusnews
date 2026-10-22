@@ -8,6 +8,7 @@ image-plain: images/i-was-held-hostage-for-977-days-then-my-captor-messaged-me-o
 ---
 === B1 ===
 
+title: The Guard Who Sent a Friendly Message
 summary: Michael Scott Moore was a hostage of Somali pirates for 977 days. Two months after he was freed, one of his guards sent him a friendly message. What happened next?
 
 Two months after his release from Somali pirates, journalist Michael Scott Moore received an extraordinary Facebook message out of the blue. It came from one of the men who had guarded him during his captivity. The man, Mohamed Tahlil, said he was pleased Moore was free and described himself as a friend. Moore had spent 977 days as a hostage. Now someone involved in that terrible experience wanted to talk to him online.
@@ -24,6 +25,9 @@ Moore has written openly about the difficult question of forgiveness. During cap
 
 === B2 ===
 
+title: The Guard Who Wanted to Come to America
+summary: Michael Scott Moore went on replying to his former guard, then told the FBI. Federal agents were waiting when Mohamed Tahlil arrived in New York.
+
 Imagine receiving a Facebook message from someone who had helped keep you prisoner for almost three years. Would you delete it, report it to the police or reply? American journalist Michael Scott Moore faced that decision in late 2014, just two months after being released from captivity in Somalia. The message came from Mohamed Tahlil, a man Moore remembered as one of his less aggressive guards. Tahlil greeted him almost as an old friend. After everything he had suffered, Moore found that friendliness difficult to believe.
 
 Moore had travelled to Somalia in January 2012 to investigate piracy and its effects on the region. Soon afterwards, armed men kidnapped him. Over the next 977 days he was moved between makeshift prisons, outdoor camps and a hijacked fishing vessel. He endured isolation, fear and violence, often kept in the dark about when, or whether, he would see his family again. Early on, Tahlil had seemed comparatively gentle, teaching Moore Somali words and presenting himself as different from other guards. Moore doubted how genuine this kindness was.
@@ -38,6 +42,7 @@ The experience raises an uncomfortable distinction. Forgiving someone does not r
 
 === C1-C2 ===
 
+title: Forgiveness Without Absolution: A Hostage, His Guard and a 30-Year Sentence
 summary: A friendly Facebook message from a former captor drew Michael Scott Moore into an FBI operation that ended in a 30-year sentence. Can justice and forgiveness exist side by side?
 
 In November 2014, a few weeks after reclaiming his freedom, American journalist Michael Scott Moore received a Facebook message from a man who had helped oversee his imprisonment. The sender, Mohamed Tahlil, addressed him with the familiarity of an old acquaintance. Moore had spent 977 days in the hands of Somali pirates, enduring violence, isolation and deep uncertainty. Yet the man contacting him seemed to imagine that their relationship could simply resume as a friendly exchange. The correspondence eventually drew Moore into an FBI operation against his former captor.

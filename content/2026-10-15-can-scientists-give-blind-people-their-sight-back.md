@@ -8,6 +8,7 @@ image-plain: images/can-scientists-give-blind-people-their-sight-back-plain-4dc2
 ---
 === B1 ===
 
+title: Goggles That Help Blind People Find a Door
 summary: A new treatment uses gene therapy and special goggles to help some blind people see more. It is not a cure, but it is a step forward.
 
 For a person who has lost much of their sight, being able to find a door or see where an object is placed could make daily life easier. Scientists are trying out an unusual treatment that may help some people do these things. It uses a form of gene therapy together with special electronic goggles. The results of a small study, published in October 2026, offer some hope, although the treatment is still experimental.
@@ -24,6 +25,9 @@ Even small improvements can matter in daily life. Finding an object independentl
 
 === B2 ===
 
+title: A Virus, Some Goggles and a Glimpse of Light
+summary: Ten patients with advanced retinitis pigmentosa took part in the trial. Six showed a meaningful gain, though none of them could recognise a face.
+
 Imagine being able to detect a doorway after years of seeing almost nothing. That may sound like a modest achievement, but for somebody with severe sight loss it could make a practical difference. Researchers have reported encouraging results from an experimental treatment that combines gene therapy with electronic goggles. The study, published in the New England Journal of Medicine in October 2026, involved ten patients whose vision had been badly damaged by an inherited condition called retinitis pigmentosa.
 
 The disease gradually destroys the light-sensitive cells in the retina, the tissue at the back of the eye that detects light and helps create images. When the damage becomes advanced, restoring sight is extremely difficult. The new treatment finds an unusual way to get around the problem. Instead of repairing the cells that have already been lost, it aims to make other surviving cells respond to light.
@@ -38,6 +42,7 @@ Nevertheless, the research represents a meaningful step forward. Rather than dep
 
 === C1-C2 ===
 
+title: Light Without Faces: The Limits of a Vision Breakthrough
 summary: A small trial of gene therapy and electronic goggles has given some blind patients partial sight. What does it show, and what does it leave unproven?
 
 The promise of restored vision invites sweeping headlines. The reality of medical progress is usually more incremental. In October 2026, researchers set out the results of an experimental treatment that enabled some people with profound sight loss to detect more light and perform simple visual tasks. The achievement is substantial, but it does not amount to curing blindness. In a trial involving ten patients with advanced retinitis pigmentosa, scientists combined a form of gene therapy with electronic goggles to create a new, limited route for visual information to reach the brain.

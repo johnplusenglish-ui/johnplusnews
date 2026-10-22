@@ -23,6 +23,9 @@ Some people argue that artists should charge whatever fans are willing to pay. O
 
 === B2 ===
 
+title: The Queue, the Price and the Disappearing Cheap Seats
+summary: Dynamic pricing, booking fees and standing tickets that vanish in seconds have changed what a night out costs. Who gets left outside?
+
 The excitement of seeing a favourite artist can disappear surprisingly quickly when ticket sales begin. Fans wait in online queues, watch prices appear and make rushed decisions about forking out hundreds of pounds on a single evening. For younger people in particular, live music is starting to feel less like an affordable night out and more like an expensive treat they must save up for.
 
 There are understandable reasons why prices have risen. Large concerts require sound and lighting equipment, transport, venue staff, security and sometimes enormous stage productions. Touring costs have increased, while the music industry itself has changed. Streaming gives listeners easy access to songs, but the income musicians receive from it is very different from the old business of selling physical albums. Touring has become an important source of revenue for many artists.

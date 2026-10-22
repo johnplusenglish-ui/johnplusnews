@@ -7,6 +7,9 @@ image-plain: images/why-do-we-feel-guilty-when-were-doing-nothing-plain-81a178.j
 ---
 === B1 ===
 
+title: Shouldn't I Be Doing Something Useful?
+summary: A free afternoon turns into a list of jobs. The neuroscientist Joseph Jebelli says breaks and time to think matter, especially for difficult mental work.
+
 You have a free afternoon. Nobody needs your help and there is nothing important to finish. You sit down with a cup of tea. A few minutes later, a thought appears: 'Shouldn't I be doing something useful?' Many people find it difficult to relax without feeling guilty. They think about cleaning, exercising, learning a skill or catching up on messages. Even free time can become a list of jobs. Some people call this feeling productivity guilt.
 
 In March 2026, the science journal Nature spoke to neuroscientist Joseph Jebelli about his book on rest. He described how he once connected his value as a person to how much work he completed. He argued that breaks and time to think are important, especially when someone does difficult mental work.
@@ -23,6 +26,9 @@ Work, family and financial pressures can also make it hard to find time to rest.
 
 === B2 ===
 
+title: An Empty Weekend Is Not a Problem to Solve
+summary: We waste an afternoon or fall behind, as though rest created a debt. For carers and shift workers, though, the shortage of time is practical, not cultural.
+
 Picture a rare afternoon without plans. You could read, sit in a café or simply stare through the window. Yet instead of feeling peaceful, you begin thinking about everything you could be doing: reorganising the kitchen, improving your fitness or learning a language. Free time has somehow become another test of productivity. For many people, the guilt starts before they have even sat down. An empty weekend looks like a problem to solve, rather than a welcome chance to slow down. This feeling is sometimes called productivity guilt. The idea is that time only counts if we use it to achieve something visible. In a March 2026 interview with Nature, neuroscientist Joseph Jebelli discussed how he had once measured his personal value through the hours he spent working. His argument was that mental rest deserves a more important place in our routines.
 
 There are reasons why this is difficult. People receive praise for working hard, and social media shows friends running marathons or launching businesses. Activities that should be relaxing can turn into goals. Even reading might feel like a challenge to complete a certain number of books every month.
@@ -38,6 +44,9 @@ Watching several fast-moving videos may be enjoyable without providing the same 
 Perhaps the most useful change is not another wellbeing routine. It is accepting that free time does not require a measurable result. You are allowed to enjoy an afternoon without turning it into an achievement.
 
 === C1-C2 ===
+
+title: Productivity Guilt: In Defence of an Afternoon That Proves Nothing
+summary: Neuroscientist Joseph Jebelli told Nature that mental wandering can form part of good thinking. The trap is defending rest only because it makes better workers, which leaves no case for pleasure.
 
 A free afternoon ought to be one of life's small luxuries. Yet for many people it produces an uncomfortable question: what am I accomplishing? The pressure to be productive has become so familiar that even leisure is assessed according to whether it improves our health, skills or future prospects. The irony is that leisure is increasingly assessed using the language of work. We optimise routines, track personal progress and ask whether an activity has been sufficiently worthwhile. The phenomenon is often described as productivity guilt, a sense that personal value depends on visible output. In a March 2026 interview published by Nature, neuroscientist Joseph Jebelli reflected on measuring his worth through long working hours. He argued that periods of rest and mental wandering are not necessarily obstacles to effective thinking but can form part of it.
 

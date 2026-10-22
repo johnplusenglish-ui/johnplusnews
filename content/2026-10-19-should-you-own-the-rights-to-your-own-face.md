@@ -8,6 +8,9 @@ image-plain: images/should-you-own-the-rights-to-your-own-face-plain-d7c98e.jpg
 ---
 === B1 ===
 
+title: A Video of You That Never Happened
+summary: AI can copy a face and a voice in minutes. In October 2026, Denmark announced plans for a law to protect people.
+
 Imagine opening your phone and watching a video of yourself saying something terrible. You know you never said it, and the video was never recorded. Someone has used artificial intelligence to make up a fake version of your face and your voice. What could you do about it?
 
 This kind of video is called a deepfake. AI can now create realistic pictures, sound recordings and moving images in a few minutes. Some are made for jokes or films, but others are used to embarrass, deceive or hurt people. The real problem is that ordinary viewers cannot always tell the difference between a fake and a genuine recording.
@@ -21,6 +24,9 @@ However, the issue is complicated. Films, jokes and political cartoons have alwa
 The internet made it easy to copy photographs. AI now makes it possible to invent actions and speech as well, so a picture is no longer proof that something happened. Denmark's proposal asks a simple but very difficult question: if somebody can create a convincing digital version of you, who should decide what that version is allowed to do?
 
 === B2 ===
+
+title: Denmark Wants to Make Your Face Harder to Copy
+summary: The proposed rules would strengthen your ability to challenge convincing digital impersonations. Separating harmful fakes from obvious comedy is the part nobody has solved.
 
 Your face used to be difficult to copy convincingly. A skilled actor, make-up artist or video editor might imitate you, but the result was rarely good enough to pass off as the real thing. Artificial intelligence has changed that. It is now possible to produce realistic footage or audio of a person saying things they never said, which raises concerns about reputation, consent and personal identity.
 
@@ -37,6 +43,9 @@ Enforcement presents another difficulty. Images can be generated cheaply and sha
 Denmark's proposal reflects a wider change in how people think about privacy. The concern is no longer only who may photograph you, but who may invent a convincing version of you and send it out into the world. In an age of increasingly powerful AI tools, control over personal identity may end up mattering as much as control over personal information.
 
 === C1-C2 ===
+
+title: Your Digital Double: Denmark Tests the Limits of Likeness
+summary: A photograph once implied that something had happened in front of a camera. Generative tools have quietly dismantled that assumption, leaving legislators to decide who may manufacture a persuasive version of you.
 
 For much of photographic history, the credibility of an image rested on a simple assumption: that some recognisable event had taken place in front of a camera. Generative artificial intelligence has quietly dismantled that assumption. It can produce plausible representations of people performing actions or making statements that never occurred, giving rise to new difficulties around consent, reputation and the public's capacity to evaluate evidence at all.
 

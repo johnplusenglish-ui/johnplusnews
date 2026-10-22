@@ -7,6 +7,9 @@ image-plain: images/why-are-we-so-tired-when-we-havent-done-much-plain-d1d184.jp
 ---
 === B1 ===
 
+title: Tired After a Day of Sitting Down
+summary: Thinking, remembering and deciding all use energy. In one 2025 study, tired people avoided the harder task even when the reward was bigger.
+
 You have spent the day at home answering emails, paying bills and sorting things out. You have hardly walked anywhere. Yet by the evening, even choosing a film seems difficult. Why are you so tired? Mental work uses energy too. We need to concentrate, remember information and make decisions. When we do these things for a long time, our minds can start to feel exhausted. This feeling is often called mental or cognitive fatigue.
 
 In a 2025 study published in the Journal of Neuroscience, researchers asked people to do demanding thinking tasks. Afterwards, participants were less willing to choose a task that needed more mental effort, even when it offered a bigger reward. The study involved 28 people, so we should not treat it as an explanation for all tiredness.
@@ -23,6 +26,9 @@ Short breaks, reasonable workloads and time away from demanding tasks may help s
 
 === B2 ===
 
+title: Why the Evening Decision Feels Harder Than the Day's Work
+summary: Cognitive fatigue is not a phone battery running flat. Twenty-eight people in a 2025 study became less willing to take on demanding tasks, even for greater rewards.
+
 At the end of a day filled with emails, meetings and small decisions, you may feel too exhausted to do anything enjoyable. Yet when somebody asks what you have been doing, it can seem difficult to explain. There was no heavy lifting or long journey, just hours of thinking. Why does mental work leave us feeling drained? After a day of difficult conversations, paperwork and small decisions, someone may feel worn out despite barely moving. It does not mean their tiredness is imaginary or that exercise is pointless. Researchers describe this experience as cognitive fatigue. In a 2025 Journal of Neuroscience study, 28 participants performed demanding tasks before making decisions about further mental effort and possible rewards. After becoming fatigued, they were less willing to choose more demanding options, even when those options could bring greater benefits.
 
 The researchers also used brain imaging to investigate how mental exertion might influence the value people attach to future effort. Their work suggests that fatigue can change our willingness to take on difficult tasks. It does not mean that the brain has simply run out of energy like a phone with an empty battery.
@@ -38,6 +44,9 @@ Rather, fatigue may change how costly an additional task feels compared with its
 Still, the findings challenge the idea that only physical activity can justify feeling tired. Mental demands are real demands. Recognising them may help people build breaks into their schedules, share responsibilities and take recovery seriously rather than dismissing exhaustion simply because they have been sitting down.
 
 === C1-C2 ===
+
+title: Effort Without a Scoreboard: Why Mental Work Leaves No Visible Trace
+summary: A 2025 imaging study of 28 participants suggests exertion changes how we price future effort, rather than draining a fixed supply of fuel. One small finding is not a diagnosis.
 
 Modern exhaustion is often difficult to account for in physical terms. A person may spend the day seated, moving little more than their fingers across a keyboard, and still find the smallest evening decision intolerably demanding. Such experiences challenge the assumption that fatigue is proportional to visible physical activity. Cognitive effort has no obvious physical scoreboard. A difficult meeting can leave somebody feeling flattened, even though their step counter suggests they have barely left the chair. A 2025 study in the Journal of Neuroscience explored how cognitive exertion shapes subsequent choices. Researchers used functional brain imaging while 28 participants completed demanding mental tasks and chose between options involving different levels of effort and reward. Following the fatiguing tasks, participants became less willing to pursue options requiring greater cognitive effort. The findings suggest that fatigue alters how future mental demands are evaluated.
 

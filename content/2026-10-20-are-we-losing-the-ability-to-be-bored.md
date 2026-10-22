@@ -9,6 +9,9 @@ image-plain: images/are-we-losing-the-ability-to-be-bored-plain-9b2620.jpg
 ---
 === B1 ===
 
+title: What Happens in Five Minutes Without Your Phone?
+summary: There is always a video to watch while you wait. Yet researchers have discussed evidence that people may be feeling more bored, not less.
+
 You are waiting for a friend who is ten minutes late. What do you do? Many of us immediately pull out our phones. We watch a video, check the news or scroll through social media. There is always something to pass the time with, almost anywhere and at any time. You might think this means people feel less bored than in the past. However, two psychologists writing in the journal Communications Psychology in 2024 discussed evidence that boredom may actually be increasing. They suggested that digital entertainment could be one possible reason.
 
 A phone offers thousands of choices. But when we move quickly from one short video to another, it may become harder to enjoy one thing for long. We get used to something new appearing every few seconds. An ordinary conversation or a slow afternoon can then seem less exciting.
@@ -25,6 +28,9 @@ Next time you have five empty minutes, you could try putting your phone away. Yo
 
 === B2 ===
 
+title: When Every Pause Is Filled Before You Notice It
+summary: Katy Tam and Michael Inzlicht argue that digital media may sometimes deepen boredom rather than relieve it. Their article interprets existing research; it proves no single cause.
+
 Standing in a queue used to involve looking around, daydreaming or chatting to a stranger. Today, it often takes only seconds before somebody reaches for their phone, and for many of us that movement has become second nature. Entertainment is constantly available, so why do researchers suggest that boredom may be becoming more common? Think about the last time you stood in a queue without taking out your phone. Did you look around, start a conversation or immediately feel that something was missing? In a 2024 perspective article for Communications Psychology, researchers Katy Tam and Michael Inzlicht discussed evidence of rising boredom and proposed a possible explanation: digital media may sometimes make boredom worse instead of relieving it. Their article presents an interpretation of existing research, not a single experiment proving that smartphones cause a worldwide increase.
 
 Part of the problem may be the speed with which we consume content. Short videos and endless feeds encourage us to move on as soon as our attention weakens. Having unlimited alternatives can make an ordinary activity feel disappointing. Instead of becoming absorbed in one experience, we give up on it and look around for something more stimulating.
@@ -40,6 +46,9 @@ The researchers' hypothesis therefore should not become a rule that everybody ne
 Perhaps the interesting experiment is not deleting every app but noticing our habits. If every pause is immediately filled, we may never discover whether we need entertainment, connection, rest or a new challenge. Sometimes the ability to tolerate a little boredom gives us room to make that choice.
 
 === C1-C2 ===
+
+title: The Cure That Feeds the Complaint: Boredom in an Age of Abundance
+summary: Tam and Inzlicht's 2024 perspective suggests that constant novelty makes unstimulating moments harder to tolerate. Counting screen hours misses the point, since what matters is whether the switching corresponds to anything we actually wanted.
 
 Modern life offers an extraordinary solution to an ancient human problem: whenever boredom appears, we can summon an almost limitless supply of stimulation. Yet the anticipated disappearance of boredom has not materialised. Instead, some evidence suggests that people report feeling increasingly bored, prompting researchers to question the consequences of constant digital distraction. A few seconds of waiting can now feel like a gap that demands to be filled. The phone offers an effortless escape, but it may also make ordinary, unstimulating moments harder to tolerate. In a 2024 perspective published in Communications Psychology, Katy Tam and Michael Inzlicht examined this paradox and proposed that digital media might contribute to the very feeling it promises to eliminate. Their argument is a research-informed hypothesis, not definitive evidence of a single cause. Nevertheless, it raises a useful challenge to the assumption that more entertainment necessarily means greater satisfaction.
 

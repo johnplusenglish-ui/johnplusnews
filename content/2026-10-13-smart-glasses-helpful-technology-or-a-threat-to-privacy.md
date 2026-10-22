@@ -22,6 +22,9 @@ People on both sides have important concerns. Everyone should be able to know wh
 
 === B2 ===
 
+title: The Glasses That Can Watch You Back
+summary: Wearable cameras are helping people with disabilities and worrying everyone else. Australia is weighing up where the limits should be.
+
 A pair of smart glasses can look almost identical to ordinary spectacles. Inside the frames, however, there may be cameras, microphones and software capable of describing objects, translating speech or recording video. For some users, the technology is a convenient way to capture everyday moments without taking out a phone. For others, it has become an important tool for living independently. That difference is at the centre of a growing privacy debate in Australia.
 
 Chris Edwards, who is blind, uses smart glasses to read recipes, identify settings on household appliances and follow directions while walking with his guide dog. Because he can receive information without holding a phone, his hands remain free. Matt Henderson, an Australian town planner who has been deaf since birth, uses live captions during conversations and meetings. Both describe the technology as giving them confidence and reducing their dependence on other people.

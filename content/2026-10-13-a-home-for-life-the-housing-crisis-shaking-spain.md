@@ -28,6 +28,9 @@ There are different views about the best solution. Housing groups want stronger 
 
 === B2 ===
 
+title: Seventy Years in One Flat, Then an Eviction Notice
+summary: Maricarmen Abascal was forced out of her Madrid home at 87. Her case has turned private worry about housing into public protest.
+
 For more than seven decades, Maricarmen Abascal lived in the same Madrid flat. She had watched neighbours come and go and the city around her change. By the time she was 87, her home held most of the memories of her adult life. Yet in September 2026, after a long legal dispute over her rental agreement, she was evicted. Her case became a powerful symbol of Spain's growing anger over housing costs and tenants' rights.
 
 Maricarmen lived in the Retiro area of Madrid under an older rental arrangement that gave her some protection from market prices. When ownership of the building changed, a legal struggle developed over whether she could remain. Housing campaigners and neighbours organised support, arguing that an elderly resident should not be forced from the only home she had known for so long. The owners pressed ahead with their legal claim, and the authorities eventually ordered an eviction.

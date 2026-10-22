@@ -7,6 +7,9 @@ image-plain: images/why-is-making-friends-so-difficult-after-30-plain-2cb5a4.jpg
 ---
 === B1 ===
 
+title: Why a Simple Coffee Takes Two Free Weekends
+summary: At school you see the same people every day. In 2025, the World Health Organization reported that about one in six people worldwide felt lonely.
+
 When you are at school, making friends can feel natural. You see the same people every day, and there is usually time to talk. As an adult, things may be different. Work, family, moving house and busy schedules can make meeting people more difficult. Many people notice this change in their thirties. Friends get married, have children or move to other cities. A simple plan to meet for coffee suddenly requires several messages and two free weekends. Some friendships become less close, even when nobody has done anything wrong.
 
 Loneliness is a much bigger issue than one age group. In 2025, the World Health Organization reported that about one in six people worldwide experienced loneliness. Younger adults actually reported loneliness more often than older adults in its estimates. So difficulty with friendship is not only a problem after 30.
@@ -23,6 +26,9 @@ Perhaps we should treat friendship as something worth planning for, not just som
 
 === B2 ===
 
+title: Loneliness Is Not a Problem That Starts at 30
+summary: The World Health Organization's 2025 report put the figure at one in six, with adolescents and younger adults reporting it most. Adult friendship has to be arranged rather than assumed.
+
 At school or university, friendships often develop almost automatically. People spend time together every day, share experiences and gradually become close. In adult life, those opportunities are less predictable. A friendship that once involved spontaneous evenings out may now depend on finding a date that suits several crowded calendars. Those early friendships often begin almost by accident: you see the same people every day, share a timetable and have endless small chances to talk. The problem can become especially noticeable after 30, when careers, children, relationships and house moves reshape daily routines. Meeting new people requires effort, while maintaining existing friendships can feel like another responsibility. Yet the pressure is not unique to middle age.
 
 The World Health Organization's 2025 report on social connection estimated that one in six people worldwide experienced loneliness. Its figures suggested that loneliness was particularly common among adolescents and younger adults, challenging the stereotype that loneliness mainly affects older people. Those global estimates cannot explain every individual's friendships, but they show the scale of the issue.
@@ -38,6 +44,9 @@ Relationships also change without necessarily ending badly. Two friends may drif
 Perhaps we should stop treating adult friendship as an optional extra. Relationships require attention in much the same way that careers and physical health do. A brief message or regular coffee can help maintain a bond, but creating communities where people have time to connect may be just as important.
 
 === C1-C2 ===
+
+title: Friendship as Infrastructure: Why Connection Stopped Happening by Accident
+summary: School supplied repeated contact for free, while adulthood requires you to schedule it. WHO figures put loneliness highest among adolescents and young adults, which undercuts the story that the trouble begins at 30.
 
 Adult friendship has a logistical problem. Two people can care deeply about each other and still struggle to find an evening when neither is working, caring for relatives or travelling across a city. The difficulty is often described as a personal failure, yet the routines of modern life make sustained connection remarkably demanding. Friendship rarely appears out of nowhere. In education, repeated contact, shared experiences and available time quietly do much of the work that adults later have to arrange deliberately. The challenge may become visible in one's thirties, when professional commitments, parenting and geographical mobility reshape social networks. Unlike school or university, adult life rarely guarantees repeated contact with potential friends in relaxed circumstances. Relationships must be maintained deliberately, and every cancelled plan can make the next invitation feel slightly more awkward.
 

@@ -8,6 +8,9 @@ image-plain: images/why-are-so-many-people-flying-to-turkey-for-new-hair-plain-1
 ---
 === B1 ===
 
+title: The Bandages You See at Istanbul Airport
+summary: People fly to Turkey because the treatment costs far less. But if a problem appears three weeks later, the clinic is in another country.
+
 At Istanbul's airport, you may see travellers wearing special bandages around their heads. Some of them have just had a hair transplant and are flying home. They are part of a large group of visitors who come to Turkey for treatment that can help hair grow in areas where it has been lost.
 
 A hair transplant is a medical procedure, not a haircut. A specialist moves small groups of hair follicles from one part of the head to another. The aim is to create a natural-looking hairline, or to add hair to an area that has become thin. Results take months to appear, and the treatment does not work in the same way for everyone.
@@ -23,6 +26,9 @@ The popularity of transplants is also connected to appearance. Some people feel 
 Istanbul's hair-transplant industry shows how beauty, medicine and tourism are becoming connected. The most important question may not be whether people should change their appearance. It may be how they can make up their minds safely, with realistic expectations, and without feeling pushed into it by other people's opinions.
 
 === B2 ===
+
+title: Why the Flight Home Is Not the End
+summary: Istanbul clinics sell the surgery, a hotel and the transfers in one package. The scalp still needs months to heal, and some patients need a second session.
 
 Istanbul has become one of the world's most recognisable destinations for hair transplantation. Travellers arrive for a medical procedure and return home a few days later, sometimes still wearing visible dressings. The growing industry brings together lower prices, cheap international travel and the modern pressure to maintain a youthful appearance.
 
@@ -41,6 +47,9 @@ There is also a social dimension to the boom. Hair loss can affect confidence, a
 Turkey's hair-transplant industry sits at the meeting point of personal choice and commercial persuasion. Its popularity does not make the procedure right or wrong for anybody in particular. The challenge is separating a carefully considered medical decision from an impulsive response to advertising or insecurity.
 
 === C1-C2 ===
+
+title: Priced to Compete: When Surgery Is Sold Like a Holiday
+summary: Istanbul's prices have widened access to a treatment that might otherwise stay with the wealthy, yet competition also rewards the best marketing rather than the best surgery. A patient comparing offers from abroad has limited means of telling them apart.
 
 The sight of recently treated patients travelling through Istanbul has become an emblem of a flourishing medical-tourism industry. Hair transplantation, once a comparatively discreet procedure, is now marketed through international clinics, online testimonials and packages combining surgery with accommodation and transport. Turkey's competitive prices have made it a particularly prominent destination.
 

@@ -8,6 +8,9 @@ image-plain: images/the-capybaras-taking-over-argentinas-richest-neighbourhood-p
 ---
 === B1 ===
 
+title: The Animals That Were Here Before the Houses
+summary: Capybaras walk across lawns and roads in Nordelta, near Buenos Aires. In September 2026, a resident was filmed firing a gun at them.
+
 Imagine looking out of your kitchen window and seeing an enormous brown animal eating the grass beside your swimming pool. For some people living in Nordelta, an expensive neighbourhood near Buenos Aires in Argentina, that is an ordinary morning rather than a surprise.
 
 The animals are capybaras, called carpinchos in Argentina. They are the world's largest living rodents and are related to guinea pigs, although they are far bigger. They love water and usually live in groups near rivers, lakes and wetlands. In Nordelta, they can be seen walking across lawns, crossing roads and resting beside the artificial lakes that were built for the residents.
@@ -21,6 +24,9 @@ Finding a solution is difficult. Moving capybaras somewhere else is not always s
 The story has become famous partly because capybaras look calm and friendly in photographs. But the argument behind it is serious: when people build a new community in an animal's home, who has the right to stay? That question matters far beyond Argentina, because towns and cities everywhere are still growing into places where animals already live.
 
 === B2 ===
+
+title: A Wetland That Was Built On, and the Animals That Stayed
+summary: Residents report damaged gardens, road risks and awkward encounters with pets. Campaigners reply that the capybaras came from nowhere else: the neighbourhood expanded around them.
 
 In most wealthy neighbourhoods, homeowners complain about parking, noisy neighbours or the cost of maintenance. In Nordelta, a large residential development outside Buenos Aires, the most unusual dispute concerns capybaras: giant, semi-aquatic rodents that wander across carefully maintained lawns as if they own the place.
 
@@ -37,6 +43,9 @@ Possible responses include protecting the remaining habitat, providing wildlife 
 The capybara has become an internet favourite thanks to its relaxed expression and its surprising friendships with other species. Nordelta's dispute is a useful reminder that real wildlife is not a cute social-media character. It is a living part of an ecosystem, and sharing space with it turns out to be considerably more complicated than liking a photograph.
 
 === C1-C2 ===
+
+title: Invasion or Inheritance: Who Intruded on Whom in Nordelta?
+summary: Words such as pest and invasion do a great deal of work before the argument has formally begun. Whoever controls the vocabulary is halfway to controlling the policy that follows.
 
 Few disputes illustrate the contradictions of suburban development as neatly as the capybara controversy in Nordelta, a gated community outside Buenos Aires. Its residents enjoy landscaped gardens, artificial lakes and the promise of orderly, well-managed living. Yet the neighbourhood is also home to large numbers of carpinchos, the semi-aquatic rodents known internationally as capybaras, whose unhurried presence disrupts that carefully arranged environment.
 
