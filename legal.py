@@ -41,7 +41,7 @@ def privacy(site):
 <p>johnplusnews is run by {who} in Ireland. We are the controller of the personal information described here. You can reach us on the <a href="/contact/">contact page</a>.</p>
 
 <h2>What we collect</h2>
-<p>You can read every article without an account. If you create an account, we collect:</p>
+<p>You can read the free articles without an account. To read the others you need a free account. If you create one, we collect:</p>
 <ul>
 <li>your name and email address;</li>
 <li>your password, which is handled by our sign-in provider and stored in scrambled form, so we cannot read it;</li>
@@ -55,7 +55,7 @@ def privacy(site):
 <p>To run your account and give you the features you asked for: saving words, remembering your place, and sending sign-in and password emails. We do not use your information for advertising and we do not sell it.</p>
 
 <h2>Who can see it</h2>
-<p>Your teacher, who runs this site, can see your name, email, saved words, and which articles you have opened or finished. This is the point of the student view. Nobody else can see it. The sign-up form tells you this before you create an account.</p>
+<p>Your teacher, who runs this site, can see your name, email, the date you joined, when you were last active, your saved words, and which articles you have opened or finished. This is the point of the student view. Nobody else can see it. The sign-up form tells you this before you create an account.</p>
 
 <h2>Cookies and similar storage</h2>
 <p>We do not use advertising or tracking cookies, and we do not use analytics. The site stores a small amount of information in your browser that it needs to work: your sign-in, your highlights and your preferences. This is strictly necessary for the features you use, so we do not show a cookie banner. You can clear it at any time in your browser settings, or by signing out.</p>

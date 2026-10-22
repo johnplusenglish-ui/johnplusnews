@@ -465,6 +465,20 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .t-art { border-top: 1px solid var(--line); padding: 4px 0; }
 .t-art summary { cursor: pointer; display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; font-weight: 600; color: var(--ink); }
 .t-art-n { font-size: 0.8125rem; font-weight: 500; color: var(--muted); white-space: nowrap; }
+.t-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 0 0 22px; }
+.t-stat { padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--accent-soft); min-width: 0; }
+.t-stat strong { display: block; font-size: 1.625rem; line-height: 1.1; color: var(--ink); }
+.t-stat span { display: block; font-size: 0.8125rem; color: var(--muted); }
+.t-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 0 0 10px; }
+.t-filter select { font: inherit; font-size: 0.875rem; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); }
+.t-count { font-size: 0.8125rem; color: var(--muted); }
+.t-sub { font-size: 0.75rem !important; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.t-reads { list-style: none; margin: 4px 0 12px; padding: 0; }
+.t-reads li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding: 8px 0; border-top: 1px solid var(--line); font-size: 0.9375rem; }
+.t-reads a { color: var(--accent); text-decoration: none; }
+.t-reads a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+.t-who { font-weight: 600; color: var(--ink); }
+.t-when { font-size: 0.8125rem; color: var(--muted); white-space: nowrap; }
 @media (max-width: 560px) {
   .site-header .wrap { gap: 10px; }
   .site-nav { gap: 14px; }
@@ -473,8 +487,8 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
   .acct-btn { padding: 5px 11px; font-size: 0.8125rem; }
   .acct-name { display: none; }
   .acct-me { padding: 3px; }
-  .t-table .num:nth-child(3) { display: none; }
-  .t-table th:nth-child(3) { display: none; }
+  .t-members td:nth-child(2), .t-members th:nth-child(2), .t-members td:nth-child(3), .t-members th:nth-child(3), .t-members td:nth-child(5), .t-members th:nth-child(5) { display: none; }
+  .t-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .t-detail td { padding: 12px; }
 }
 

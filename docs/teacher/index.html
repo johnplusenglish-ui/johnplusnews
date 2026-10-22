@@ -19,7 +19,7 @@
 <script>try{if(!localStorage.getItem("jpn_session"))document.documentElement.classList.add("jpn-guest")}catch(e){document.documentElement.classList.add("jpn-guest")}setTimeout(function(){if(!window.jpnGateReady)document.documentElement.classList.remove("jpn-guest")},6000)</script>
 <meta name="robots" content="noindex">
 <script src="/config.js?v=63006f50" defer></script>
-<script src="/account.js?v=2312e0e8" defer></script>
+<script src="/account.js?v=ec0b4020" defer></script>
 <style>/* Outfit is hosted on this site (static/fonts), so visitors' devices never contact Google. Georgia is already on readers' devices. */
 @font-face { font-family: 'Outfit'; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/fonts/outfit-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
 @font-face { font-family: 'Outfit'; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/fonts/outfit-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
@@ -487,6 +487,20 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .t-art { border-top: 1px solid var(--line); padding: 4px 0; }
 .t-art summary { cursor: pointer; display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; font-weight: 600; color: var(--ink); }
 .t-art-n { font-size: 0.8125rem; font-weight: 500; color: var(--muted); white-space: nowrap; }
+.t-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 0 0 22px; }
+.t-stat { padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--accent-soft); min-width: 0; }
+.t-stat strong { display: block; font-size: 1.625rem; line-height: 1.1; color: var(--ink); }
+.t-stat span { display: block; font-size: 0.8125rem; color: var(--muted); }
+.t-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 0 0 10px; }
+.t-filter select { font: inherit; font-size: 0.875rem; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); }
+.t-count { font-size: 0.8125rem; color: var(--muted); }
+.t-sub { font-size: 0.75rem !important; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.t-reads { list-style: none; margin: 4px 0 12px; padding: 0; }
+.t-reads li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding: 8px 0; border-top: 1px solid var(--line); font-size: 0.9375rem; }
+.t-reads a { color: var(--accent); text-decoration: none; }
+.t-reads a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+.t-who { font-weight: 600; color: var(--ink); }
+.t-when { font-size: 0.8125rem; color: var(--muted); white-space: nowrap; }
 @media (max-width: 560px) {
   .site-header .wrap { gap: 10px; }
   .site-nav { gap: 14px; }
@@ -495,8 +509,8 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
   .acct-btn { padding: 5px 11px; font-size: 0.8125rem; }
   .acct-name { display: none; }
   .acct-me { padding: 3px; }
-  .t-table .num:nth-child(3) { display: none; }
-  .t-table th:nth-child(3) { display: none; }
+  .t-members td:nth-child(2), .t-members th:nth-child(2), .t-members td:nth-child(3), .t-members th:nth-child(3), .t-members td:nth-child(5), .t-members th:nth-child(5) { display: none; }
+  .t-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .t-detail td { padding: 12px; }
 }
 

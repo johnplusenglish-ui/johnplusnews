@@ -653,7 +653,7 @@
     if (!me) { signInPrompt("Sign in to see the teacher view."); return; }
     if (me.role !== "teacher") { clear(root); root.appendChild(el("p", "acct-note", "This page is for the teacher.")); return; }
     clear(root);
-    root.appendChild(el("p", "acct-note", "Loading the class"));
+    root.appendChild(el("p", "acct-note", "Loading the members"));
     Promise.all([loadTitles(), getAll("/rest/v1/news_profiles?select=id,email,display_name,role,created_at&order=created_at.asc"),
                  getAll("/rest/v1/news_words?select=user_id,slug,level,text,sentence,created_at&order=created_at.desc"),
                  getAll("/rest/v1/news_progress?select=user_id,slug,status,level,updated_at")]).then(function (res) {
@@ -662,78 +662,151 @@
       var byId = {}; people.forEach(function (p) { byId[p.id] = p; });
       words = words.filter(function (w) { return byId[w.user_id]; });
       prog = prog.filter(function (p) { return byId[p.user_id]; });
-      function nameOf(p) { return p.display_name || (p.email || "").split("@")[0] || "Student"; }
+      function nameOf(p) { return p.display_name || (p.email || "").split("@")[0] || "Member"; }
+      var weekAgo = new Date(Date.now() - 7 * 864e5).toISOString();
+      function recent(iso) { return !!iso && new Date(iso).toISOString() >= weekAgo; }
+      var info = people.map(function (p) {
+        var ws = words.filter(function (w) { return w.user_id === p.id; });
+        var pr = prog.filter(function (x) { return x.user_id === p.id; });
+        var stamps = ws.map(function (w) { return w.created_at; }).concat(pr.map(function (x) { return x.updated_at; }));
+        return { p: p, ws: ws, pr: pr, done: pr.filter(function (x) { return x.status === "finished"; }).length, last: stamps.sort().pop() || "" };
+      });
       clear(root);
+
+      /* the headline numbers */
+      var active = info.filter(function (s) { return recent(s.last); }).length;
+      var joined = people.filter(function (p) { return recent(p.created_at); }).length;
+      var stats = el("div", "t-stats");
+      [[people.length, people.length === 1 ? "member" : "members"], [active, "active this week"], [joined, "joined this week"],
+       [prog.length, prog.length === 1 ? "article opened" : "articles opened"]].forEach(function (s) {
+        var b = el("div", "t-stat"); b.appendChild(el("strong", "", String(s[0]))); b.appendChild(el("span", "", s[1])); stats.appendChild(b);
+      });
+      root.appendChild(stats);
 
       var tabs = el("div", "t-tabs"); tabs.setAttribute("role", "tablist");
       var panes = {}, btns = {};
-      [["students", "Students"], ["articles", "By article"]].forEach(function (t) {
+      [["members", "Members"], ["reading", "Articles read"], ["articles", "Words by article"]].forEach(function (t) {
         var b = el("button", "t-tab", t[1]); b.type = "button"; b.setAttribute("role", "tab");
         b.addEventListener("click", function () { pick(t[0]); });
         tabs.appendChild(b); btns[t[0]] = b; panes[t[0]] = el("div", "t-pane");
       });
       function pick(k) { Object.keys(panes).forEach(function (n) { panes[n].hidden = n !== k; btns[n].setAttribute("aria-selected", n === k ? "true" : "false"); }); }
       var tools = el("div", "wd-bar");
+      var dm = el("button", "wd-btn", "Download members (CSV)"); dm.type = "button";
+      dm.addEventListener("click", function () {
+        download("members.csv", csv([["Name", "Email", "Joined", "Last active", "Articles opened", "Articles finished", "Words saved"]].concat(info.map(function (s) {
+          return [nameOf(s.p), s.p.email, fmtDate(s.p.created_at), s.last ? fmtDate(s.last) : "", s.pr.length, s.done, s.ws.length];
+        }))));
+      });
       var dl = el("button", "wd-btn", "Download all words (CSV)"); dl.type = "button";
       dl.addEventListener("click", function () {
-        download("class-words.csv", csv([["Student", "Email", "Article", "Level", "Word", "Sentence", "Saved"]].concat(words.map(function (w) {
+        download("class-words.csv", csv([["Member", "Email", "Article", "Level", "Word", "Sentence", "Saved"]].concat(words.map(function (w) {
           var p = byId[w.user_id]; return [nameOf(p), p.email, titleOf(w.slug), lvName(w.level), w.text, w.sentence, fmtDate(w.created_at)];
         }))));
       });
-      tools.appendChild(dl);
-      root.appendChild(tabs); root.appendChild(tools); root.appendChild(panes.students); root.appendChild(panes.articles);
+      tools.appendChild(dm); tools.appendChild(dl);
+      root.appendChild(tabs); root.appendChild(tools); root.appendChild(panes.members); root.appendChild(panes.reading); root.appendChild(panes.articles);
 
-      /* students */
-      if (!people.length) panes.students.appendChild(el("p", "acct-note", "No students have created an account yet."));
+      /* members */
+      if (!people.length) panes.members.appendChild(el("p", "acct-note", "Nobody has created an account yet."));
       else {
-        var tbl = el("table", "t-table");
-        var head = el("tr"); ["Student", "Words", "Articles read", "Last active"].forEach(function (h, i) { var th = el("th", i ? "num" : "", h); th.scope = "col"; head.appendChild(th); });
+        var bar = el("div", "t-filter");
+        var show = el("select"); show.setAttribute("aria-label", "Which members to show");
+        [["all", "All members"], ["active", "Active this week"], ["new", "Joined this week"]].forEach(function (o) { var op = el("option", "", o[1]); op.value = o[0]; show.appendChild(op); });
+        var order = el("select"); order.setAttribute("aria-label", "Order");
+        [["last", "Last active first"], ["joined", "Newest members first"], ["name", "By name"]].forEach(function (o) { var op = el("option", "", o[1]); op.value = o[0]; order.appendChild(op); });
+        var count = el("span", "t-count");
+        bar.appendChild(show); bar.appendChild(order); bar.appendChild(count);
+        panes.members.appendChild(bar);
+        var tbl = el("table", "t-table t-members");
+        var head = el("tr"); ["Member", "Joined", "Opened", "Finished", "Words", "Last active"].forEach(function (h, i) { var th = el("th", i ? "num" : "", h); th.scope = "col"; head.appendChild(th); });
         var thead = el("thead"); thead.appendChild(head); tbl.appendChild(thead);
-        var tb = el("tbody");
-        var info = people.map(function (p) {
-          var ws = words.filter(function (w) { return w.user_id === p.id; });
-          var pr = prog.filter(function (x) { return x.user_id === p.id; });
-          var stamps = ws.map(function (w) { return w.created_at; }).concat(pr.map(function (x) { return x.updated_at; }));
-          return { p: p, ws: ws, pr: pr, last: stamps.sort().pop() || "" };
-        }).sort(function (a, b) { return a.last < b.last ? 1 : a.last > b.last ? -1 : 0; });
+        var tb = el("tbody"); tbl.appendChild(tb); panes.members.appendChild(tbl);
+        var none = el("p", "acct-small", "Nobody matches."); none.hidden = true; panes.members.appendChild(none);
         info.forEach(function (s) {
           var tr = el("tr", "t-row");
           var td = el("td"); var nb = el("button", "t-name", nameOf(s.p)); nb.type = "button"; nb.setAttribute("aria-expanded", "false");
           td.appendChild(nb); td.appendChild(el("span", "t-mail", s.p.email || ""));
           tr.appendChild(td);
+          tr.appendChild(el("td", "num", s.p.created_at ? fmtDate(s.p.created_at) : ""));
+          tr.appendChild(el("td", "num", String(s.pr.length)));
+          tr.appendChild(el("td", "num", String(s.done)));
           tr.appendChild(el("td", "num", String(s.ws.length)));
-          tr.appendChild(el("td", "num", s.pr.filter(function (x) { return x.status === "finished"; }).length + " of " + s.pr.length));
           tr.appendChild(el("td", "num", s.last ? fmtDate(s.last) : "Never"));
-          tb.appendChild(tr);
           var dr = el("tr", "t-detail"); dr.hidden = true;
-          var dc = el("td"); dc.colSpan = 4;
-          dr.appendChild(dc); tb.appendChild(dr);
+          var dc = el("td"); dc.colSpan = 6;
+          dr.appendChild(dc);
+          s.rows = [tr, dr];
           var built = false;
           function toggle() {
             var open = dr.hidden; dr.hidden = !open; nb.setAttribute("aria-expanded", open ? "true" : "false");
             if (open && !built) {
               built = true;
+              dc.appendChild(el("h3", "t-sub", "Articles"));
+              if (!s.pr.length) dc.appendChild(el("p", "acct-small", "No articles opened yet."));
+              else {
+                var ul = el("ul", "t-reads");
+                s.pr.slice().sort(function (a, b) { return a.updated_at < b.updated_at ? 1 : -1; }).forEach(function (r) {
+                  var li = el("li"); var a = el("a", "", titleOf(r.slug)); a.href = "/articles/" + r.slug + "/"; li.appendChild(a);
+                  li.appendChild(el("span", "t-when", [r.status === "finished" ? "Finished" : "Opened", lvName(r.level), fmtDate(r.updated_at)].filter(Boolean).join(" · ")));
+                  ul.appendChild(li);
+                });
+                dc.appendChild(ul);
+              }
+              dc.appendChild(el("h3", "t-sub", "Saved words"));
               if (!s.ws.length) dc.appendChild(el("p", "acct-small", "No words saved yet."));
               groupBy(s.ws, "slug").forEach(function (g) {
                 var h = el("h3"); var a = el("a", "", titleOf(g.key)); a.href = "/articles/" + g.key + "/"; h.appendChild(a); dc.appendChild(h);
-                var ul = el("ul", "wd-words");
-                g.rows.forEach(function (r) { var li = el("li"); li.appendChild(el("span", "wd-w", r.text)); if (r.sentence) li.appendChild(sentenceNode(r.sentence, r.text)); ul.appendChild(li); });
-                dc.appendChild(ul);
+                var wl = el("ul", "wd-words");
+                g.rows.forEach(function (r) { var li = el("li"); li.appendChild(el("span", "wd-w", r.text)); if (r.sentence) li.appendChild(sentenceNode(r.sentence, r.text)); wl.appendChild(li); });
+                dc.appendChild(wl);
               });
             }
           }
           nb.addEventListener("click", toggle);
         });
-        tbl.appendChild(tb); panes.students.appendChild(tbl);
+        var draw = function () {
+          var list = info.filter(function (s) { return show.value === "active" ? recent(s.last) : show.value === "new" ? recent(s.p.created_at) : true; });
+          var key = order.value;
+          list.sort(function (a, b) {
+            if (key === "name") return nameOf(a.p).toLowerCase() < nameOf(b.p).toLowerCase() ? -1 : 1;
+            var x = key === "joined" ? a.p.created_at || "" : a.last, y = key === "joined" ? b.p.created_at || "" : b.last;
+            return x < y ? 1 : x > y ? -1 : 0;
+          });
+          clear(tb);
+          list.forEach(function (s) { tb.appendChild(s.rows[0]); tb.appendChild(s.rows[1]); });
+          count.textContent = list.length + (list.length === 1 ? " member" : " members");
+          tbl.hidden = !list.length; none.hidden = !!list.length;
+        };
+        show.addEventListener("change", draw); order.addEventListener("change", draw);
+        draw();
       }
 
-      /* by article: which words the class is saving */
+      /* articles read: who opened and finished each article */
+      if (!prog.length) panes.reading.appendChild(el("p", "acct-note", "No articles have been opened by members yet."));
+      groupBy(prog, "slug").sort(function (a, b) { return b.rows.length - a.rows.length; }).forEach(function (g) {
+        var fin = g.rows.filter(function (r) { return r.status === "finished"; }).length;
+        var d = el("details", "t-art");
+        var sm = el("summary"); sm.appendChild(el("span", "t-art-title", titleOf(g.key)));
+        sm.appendChild(el("span", "t-art-n", g.rows.length + (g.rows.length === 1 ? " reader" : " readers") + " · " + fin + " finished"));
+        d.appendChild(sm);
+        var open = el("a", "t-open", "Open the article"); open.href = "/articles/" + g.key + "/"; d.appendChild(open);
+        var ul = el("ul", "t-reads");
+        g.rows.slice().sort(function (a, b) { return a.updated_at < b.updated_at ? 1 : -1; }).forEach(function (r) {
+          var li = el("li"); li.appendChild(el("span", "t-who", nameOf(byId[r.user_id])));
+          li.appendChild(el("span", "t-when", [r.status === "finished" ? "Finished" : "Opened", lvName(r.level), fmtDate(r.updated_at)].filter(Boolean).join(" · ")));
+          ul.appendChild(li);
+        });
+        d.appendChild(ul); panes.reading.appendChild(d);
+      });
+
+      /* words by article: which words members are saving */
       if (!words.length) panes.articles.appendChild(el("p", "acct-note", "No words have been saved yet."));
       groupBy(words, "slug").forEach(function (g) {
         var people_n = {}; g.rows.forEach(function (r) { people_n[r.user_id] = 1; });
         var d = el("details", "t-art");
         var sm = el("summary"); sm.appendChild(el("span", "t-art-title", titleOf(g.key)));
-        sm.appendChild(el("span", "t-art-n", Object.keys(people_n).length + (Object.keys(people_n).length === 1 ? " student" : " students")));
+        sm.appendChild(el("span", "t-art-n", Object.keys(people_n).length + (Object.keys(people_n).length === 1 ? " member" : " members")));
         d.appendChild(sm);
         var open = el("a", "t-open", "Open the article"); open.href = "/articles/" + g.key + "/"; d.appendChild(open);
         var tally = {};
@@ -747,12 +820,12 @@
         var ul = el("ul", "wd-words");
         arr.forEach(function (w) {
           var li = el("li"); var top = el("div", "wd-top");
-          top.appendChild(el("span", "wd-w", w.text)); top.appendChild(el("span", "wd-lv", w.n + (w.n === 1 ? " student" : " students")));
+          top.appendChild(el("span", "wd-w", w.text)); top.appendChild(el("span", "wd-lv", w.n + (w.n === 1 ? " member" : " members")));
           li.appendChild(top); if (w.sentence) li.appendChild(sentenceNode(w.sentence, w.text)); ul.appendChild(li);
         });
         d.appendChild(ul); panes.articles.appendChild(d);
       });
-      pick("students");
+      pick("members");
     }).catch(function (er) { clear(root); root.appendChild(el("p", "acct-err", nice(er))); });
   }
 
