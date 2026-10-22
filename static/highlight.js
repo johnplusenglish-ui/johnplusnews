@@ -323,18 +323,25 @@
     var vw = document.documentElement.clientWidth, vh = document.documentElement.clientHeight;
     var left = defRect.left + sx + defRect.width / 2 - w / 2;
     left = Math.max(sx + 8, Math.min(left, sx + vw - w - 8));
+    /* Room for the panel AND the pill below it, or we flip above the line. */
+    var rh = rmBox.hidden ? 0 : rmBox.offsetHeight + 6;
     var below = defRect.bottom + sy + 10;
     var above = defRect.top + sy - h - 10;
-    var top = (defRect.bottom + h + 16 <= vh || above < sy + 8) ? below : above;
+    var goBelow = (defRect.bottom + h + rh + 16 <= vh) || above - rh < sy + 8;
+    var top = goBelow ? below : above;
     defBox.style.left = Math.round(left) + "px";
     defBox.style.top = Math.round(top) + "px";
     if (!rmBox.hidden) {
-      /* Centred just beneath the panel, outside its card. */
+      /* Always on the far side of the panel from the word: below the panel
+         when the panel is below the line, above it when the panel is above.
+         Putting it below in both cases laid the pill straight over the word
+         being defined. */
       var rw = rmBox.offsetWidth;
       var rl = left + w / 2 - rw / 2;
       rl = Math.max(sx + 8, Math.min(rl, sx + vw - rw - 8));
       rmBox.style.left = Math.round(rl) + "px";
-      rmBox.style.top = Math.round(top + h + 6) + "px";
+      rmBox.style.top = Math.round(goBelow ? top + h + 6
+                                           : top - rmBox.offsetHeight - 6) + "px";
     }
   }
   function defParts(row) {
