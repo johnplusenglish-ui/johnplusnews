@@ -975,10 +975,17 @@ def ex_match(pairs, seed=""):
                    key=lambda i: hashlib.md5((seed + "|" + pairs[i]["t"]).encode("utf-8")).hexdigest())
     opts = "".join('<option value="{}">{}</option>'.format(i, esc(pairs[i]["d"])) for i in order)
     rows = "".join('<li><span class="ex-term">{t}</span>'
+                   '<span class="ex-write"></span>'
                    '<select class="ex-sel" data-a="{i}" aria-label="Meaning of {t}">'
                    '<option value="">Choose a meaning</option>{o}</select></li>'.format(
                        t=esc(p["t"]), i=i, o=opts) for i, p in enumerate(pairs))
-    return '<ol class="ex-list ex-match">{}</ol>'.format(rows)
+    # On paper the dropdown is no use, so the meanings are also laid out as a lettered list
+    # and each term gets a line to write its letter on. Screen hides both.
+    key = "".join('<li><b>{L}</b> {d}</li>'.format(L=chr(65 + n), d=esc(pairs[i]["d"]))
+                  for n, i in enumerate(order))
+    return ('<ol class="ex-list ex-match">{rows}</ol>'
+            '<p class="ex-write-hint">Write the letter of the meaning next to each word.</p>'
+            '<ul class="ex-key">{key}</ul>').format(rows=rows, key=key)
 
 
 def ex_grammar(data):

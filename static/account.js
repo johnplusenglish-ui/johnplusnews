@@ -685,18 +685,33 @@
           var ul = el("ul", "wd-words");
           g.rows.forEach(function (r) {
             var li = el("li");
-            var top = el("div", "wd-top");
-            top.appendChild(el("span", "wd-w", r.text));
-            top.appendChild(el("span", "wd-lv", lvName(r.level)));
-            var x = el("button", "wd-x", "×"); x.type = "button"; x.setAttribute("aria-label", "Remove " + r.text);
+            /* one compact row per word; the sentence and the controls stay folded away
+               until the reader opens it, so a long list can be scanned at a glance */
+            var d = el("details", "wd-item");
+            if (q) d.open = true;                       // a search shows its matches in context
+            var sum = document.createElement("summary");
+            sum.appendChild(el("span", "wd-w", r.text));
+            sum.appendChild(el("span", "wd-lv", lvName(r.level)));
+            sum.appendChild(el("span", "wd-chev"));
+            d.appendChild(sum);
+            var body = el("div", "wd-body");
+            if (r.sentence) body.appendChild(sentenceNode(r.sentence, r.text));
+            var acts = el("div", "wd-acts");
+            var look = el("a", "wd-dict", "Look it up");
+            look.href = "https://johnplusdictionary.com/w/" + encodeURIComponent(r.text);
+            look.target = "_blank"; look.rel = "noopener";
+            look.setAttribute("aria-label", "Look up " + r.text + " in the dictionary");
+            acts.appendChild(look);
+            var x = el("button", "wd-x", "Remove"); x.type = "button"; x.setAttribute("aria-label", "Remove " + r.text);
             x.addEventListener("click", function () {
               api("DELETE", "/rest/v1/news_words?id=eq." + r.id, { prefer: "return=minimal" }).then(function () {
                 rows = rows.filter(function (z) { return z !== r; }); draw();
               }).catch(function (er) { toast(nice(er)); });
             });
-            top.appendChild(x);
-            li.appendChild(top);
-            if (r.sentence) li.appendChild(sentenceNode(r.sentence, r.text));
+            acts.appendChild(x);
+            body.appendChild(acts);
+            d.appendChild(body);
+            li.appendChild(d);
             ul.appendChild(li);
           });
           sec.appendChild(ul); list.appendChild(sec);
