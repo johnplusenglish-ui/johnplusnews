@@ -11,7 +11,9 @@ image: images/is-quiet-quitting-really-a-bad-thing-fbb0b0.jpg
 title: Leaving Work on Time Is Not Quitting
 summary: A Gallup report found only 20% of employees worldwide felt engaged at work in 2025. That does not mean everyone else has given up.
 
-A worker arrives on time, finishes their tasks and goes home when the working day ends. They do not answer emails on Sunday or take on extra projects without pay. Are they a bad employee? Some people call this behaviour quiet quitting. The name is confusing because these people have not actually left their jobs. They are choosing to do what their contract requires, without making work the centre of their lives. For some, this is a way to protect their free time. For others, it may show they have lost interest in their work.
+A worker arrives on time, finishes their tasks and goes home when the working day ends. They do not answer emails on Sunday or take on extra projects without pay. Are they a bad employee?
+
+Some people call this behaviour quiet quitting. The name is confusing because these people have not actually left their jobs. They are choosing to do what their contract requires, without making work the centre of their lives. For some, this is a way to protect their free time. For others, it may show they have lost interest in their work.
 
 A 2026 Gallup report found that only 20% of employees around the world were engaged at work in 2025. Gallup uses engagement to measure how connected workers feel to their jobs and workplaces. This number does not mean that the other 80% were all quiet quitting.
 
@@ -27,10 +29,10 @@ Perhaps the real question is what a reasonable working relationship looks like. 
 
 === Intermediate ===
 
-title: Two Colleagues Leave at Six: Only One Has Finished
+title: Leaving on Time: What Does a Job Really Expect?
 summary: The label covers everything from sensible boundaries to genuine withdrawal, and it travels badly between workplaces. Gallup's engagement figures are not a count of quiet quitters.
 
-Imagine an employee who performs their duties carefully but refuses to check messages after hours. One manager might describe that person as dependable and sensible. Another might claim they are quiet quitting. The difference says a great deal about changing expectations in the workplace. Consider two colleagues who both leave at six. One has finished their work; the other has spent the afternoon avoiding it. Judging them only by their departure time misses the point. Despite the dramatic label, quiet quitting usually means remaining employed while rejecting the idea that success requires constant extra effort. It became a popular phrase as workers debated work-life balance, unpaid overtime and whether their careers deserved such a large share of their energy.
+Imagine an employee who performs their duties carefully but refuses to check messages after hours. One manager might describe that person as dependable and sensible. Another might claim they are quiet quitting. The difference says a great deal about changing expectations in the workplace. Despite the dramatic label, quiet quitting usually means remaining employed while rejecting the idea that success requires constant extra effort. It became a popular phrase as workers debated work-life balance, unpaid overtime and whether their careers deserved such a large share of their energy.
 
 The discussion takes place against a wider problem of employee disengagement. Gallup's 2026 State of the Global Workplace report found that 20% of employees worldwide were engaged in 2025. However, its categories of engagement are not the same as quiet quitting, and people can be committed to their work without being available every evening.
 
@@ -49,7 +51,11 @@ The phrase quiet quitting turns a complicated negotiation into an argument about
 title: The Unwritten Contract: Whose Goodwill Keeps the Job Running?
 summary: Bargaining power decides who can set a boundary and who risks punishment for trying. Making the cost of flexibility visible matters more than ruling on whether the attitude is virtuous or lazy.
 
-The popularity of the phrase quiet quitting reveals how differently employers and employees understand professional commitment. To some managers, limiting effort to the responsibilities set out in a contract represents a troubling loss of ambition. To some workers, the same behaviour represents a long-overdue rejection of unpaid labour and constant availability. The label is provocative partly because it suggests that an employee has withdrawn something they previously owed. Yet the boundary between contractual obligation and voluntary goodwill is rarely made explicit. Despite its name, quiet quitting does not involve resignation. It is an imprecise label applied to behaviours ranging from sensible boundary-setting to genuine disengagement. That ambiguity matters, because a person who works conscientiously for their contracted hours may be unfairly grouped with somebody who has stopped taking their responsibilities seriously.
+The popularity of the phrase quiet quitting reveals how differently employers and employees understand professional commitment. To some managers, limiting effort to the responsibilities set out in a contract represents a troubling loss of ambition. To some workers, the same behaviour represents a long-overdue rejection of unpaid labour and constant availability.
+
+The label is provocative partly because it suggests that an employee has withdrawn something they previously owed. Yet the boundary between contractual obligation and voluntary goodwill is rarely made explicit.
+
+Despite its name, quiet quitting does not involve resignation. It is an imprecise label applied to behaviours ranging from sensible boundary-setting to genuine disengagement. That ambiguity matters, because a person who works conscientiously for their contracted hours may be unfairly grouped with somebody who has stopped taking their responsibilities seriously.
 
 There is a broader context. Gallup's 2026 global workplace report estimated that just 20% of employees were engaged in 2025. Engagement measures employees' psychological connection to their work and organisation; it is not a direct count of quiet quitters. Treating the figures as interchangeable would create a misleading picture of modern employment. Managers who celebrate staff for 'going the extra mile' may genuinely appreciate dedication. Problems arise when exceptional effort quietly becomes the baseline against which everybody else is judged.
 

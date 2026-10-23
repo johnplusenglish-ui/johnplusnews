@@ -41,7 +41,7 @@ The Nelson brothers have shown how much a small business can achieve by understa
 
 === Advanced ===
 
-title: Selling the Anticipation: When a Restaurant's Queue Becomes the Product
+title: Is the Queue Part of What People Are Buying?
 summary: Viral queues can bring fame and pressure to small restaurants. What do 24-hour waits for a baked potato say about social media and food?
 
 There was a time when a queue outside a food stall suggested either unusually good cooking or a shortage of places to eat. Today it may be evidence of something rather different: an exceptionally successful social-media strategy. In Preston, Lancashire, the brothers behind SpudBros say customers have bedded down overnight and waited almost 24 hours for one of their loaded jacket potatoes. Their business, operating from a converted tram, has helped turn an inexpensive British staple into a minor cultural event. The food is real enough, but the anticipation is increasingly part of the product.

@@ -26,7 +26,7 @@ That is what makes the story interesting. It makes us ask why spending time toge
 
 === Intermediate ===
 
-title: Paying for the One Friend Who Never Cancels
+title: Paying for Company When Friends Are Busy
 summary: Hundreds of online contacts do not guarantee company on a shared afternoon. An arrangement that cannot be cancelled on a whim may be the real product.
 
 Making plans is easy until you realise that nobody is free to join you. In China, an expanding market for paid companionship is offering an unusual solution. Customers hire somebody to accompany them to restaurants, tourist attractions or hiking trails, turning what might have been a lonely outing into a shared experience.
@@ -49,7 +49,7 @@ Nevertheless, its popularity reveals something about modern society. People can 
 
 === Advanced ===
 
-title: An Exchange Stated Openly: Why Paid Friendship Unsettles Us
+title: What Are You Buying When You Pay for Company?
 summary: Social life has always involved obligation, favours and quiet accounting. China's companions simply put a price on it, and in doing so make reliable human presence look like a scarce commodity rather than a given.
 
 The phrase "companionship economy" sounds like a contradiction in terms. Friendship is conventionally understood as voluntary, reciprocal and resistant to commercial calculation. Yet in China, an expanding market allows customers to pay others to accompany them on hikes, sightseeing trips and visits to restaurants, turning social presence into a clearly priced service.
@@ -66,7 +66,7 @@ Much of the discomfort the idea provokes may boil down to a question of honesty 
 
 That clarity nonetheless comes with complications. Boundaries, personal safety and the risk of misunderstanding require careful management, particularly where a stranger is engaged for hours in an isolated setting. The transaction may also sharpen existing inequalities: some people can purchase experiences that others can reach only through personal relationships, while providers depend on turning social and emotional skills into marketable labour.
 
-The work itself deserves more attention than it usually receives. Remaining attentive, cheerful and interested for a paying stranger is genuinely demanding, and those who draw on such skills professionally are performing a job that is easy to romanticise and easy to undervalue at the same time.
+The work itself deserves more attention than it usually receives. Remaining attentive and interested for a paying stranger is genuinely demanding, and it is a job that is easy to romanticise and easy to undervalue at the same time.
 
 It would be simplistic, however, to write the industry off as proof that friendship has disappeared. People have long paid guides, coaches and entertainers to make shared experiences possible. The distinctive feature here is how openly company itself is valued. China's paid companions suggest that in an age of abundant digital communication, reliable human presence has become a surprisingly scarce commodity. Whether that scarcity is a cause for concern or simply a feature of modern urban life is, in the end, a question the industry leaves its customers to answer for themselves.
 

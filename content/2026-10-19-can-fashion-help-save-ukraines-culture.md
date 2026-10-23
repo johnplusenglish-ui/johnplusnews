@@ -25,7 +25,7 @@ Culture is not only something we find in museums or history books. It can be par
 
 === Intermediate ===
 
-title: Tradition Is a Habit, Not a Museum Case
+title: Old Craft Skills, New Designs in Ukraine
 summary: Break the chain between an older craftsperson and a younger one and the technique goes too. Paying customers, awkwardly, may be what keeps it going.
 
 How can a ceramic plate or a hand-embroidered shirt become part of a country's cultural survival? In Ukraine, designers are answering that question by turning traditional crafts into modern products. One of the best-known examples is GUNIA Project, a Kyiv-based company that works with artisans from across the country.
@@ -42,14 +42,14 @@ Even so, the project challenges a familiar assumption about tradition. Preservin
 
 === Advanced ===
 
-title: Keeping the Network Intact: Ukrainian Craft as a Wartime Business
+title: How Ukrainian Designers Are Keeping Old Craft Skills Alive
 summary: GUNIA Project's artisans are not curators, and their work is sold rather than catalogued. That commercial footing raises awkward questions about who speaks for a tradition, and supplies the one thing reverence cannot: an income.
 
 Cultural preservation tends to conjure up archives, museums and painstaking restoration work. Yet in Ukraine, some of the most visible attempts to sustain traditional craftsmanship are taking place in the commercial world of design. Kyiv-based GUNIA Project has built a business around reinterpreting inherited artistic practices as contemporary clothing, ceramics and household objects, an approach that sits oddly with conventional notions of heritage and works rather well in practice.
 
 The company's method begins with research into historical motifs and techniques, followed by collaborations with working craftspeople. According to GUNIA, its production network takes in more than 150 artisans across Ukraine and draws on disciplines ranging from embroidery and weaving to blown glass and fine ceramics. A traditional image, lifted out of its original setting, is given a new function without necessarily shedding its cultural associations. What results is neither replica nor invention, but something closer to translation.
 
-Russia's full-scale invasion in 2022 has made such work particularly resonant. Cultural heritage can be put at risk not only when buildings or artefacts are destroyed, but also when artisans are displaced, local markets collapse or specialist knowledge ceases to be economically viable. War accelerates a process that peacetime neglect manages perfectly well on its own. A craft rarely dies out through a single dramatic event. It fades when the last person who can teach it has nobody left to teach and no reason to keep working. In those circumstances, commercial demand supplies something that reverence cannot: a livelihood attached to a disappearing skill.
+Russia's full-scale invasion in 2022 has made such work particularly resonant. Heritage is lost not only when buildings or artefacts are destroyed, but when artisans are displaced, local markets collapse and specialist knowledge stops paying its way. A craft rarely dies out through a single dramatic event. It fades when the last person who can teach it has nobody left to teach and no reason to keep working. In those circumstances, commercial demand supplies something that reverence cannot: a livelihood attached to a disappearing skill.
 
 The relationship between commerce and heritage remains uneasy, nonetheless. Luxury positioning may narrow the audience for objects presented as national culture, while reinterpretation risks turning complex traditions into attractive motifs stripped of context. Who speaks for a tradition, and who profits from it, are questions that cannot simply be brushed aside. Nor are they settled by good intentions: they have to be managed case by case, in decisions about pricing, credit and whose name appears on the label. Supporters counter that the alternative, allowing valuable techniques to drop out of ordinary use altogether, would represent a far greater loss.
 

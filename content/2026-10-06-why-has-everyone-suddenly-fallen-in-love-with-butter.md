@@ -41,7 +41,7 @@ Perhaps the trend says more about how we treat food than about butter itself. We
 
 === Advanced ===
 
-title: Affordable Indulgence: What the Butter Boom Says About Us
+title: Why Butter Has Become a Small Luxury
 summary: A mundane kitchen essential has been repackaged as a luxury. The trend may reveal more about how we treat food than about butter itself.
 
 In the summer of 2026, opening a shop dedicated to butter in Paris looked like an eccentric commercial gamble. The city was enduring temperatures approaching 41°C, and proprietor Erwan Leo was understandably anxious about his refrigerators, let alone the size of his potential customer base. Yet his shop, Le Butter, quickly drew enough attention to warrant managing queues outside. A substance that had spent decades as a mundane kitchen essential was being transformed into a desirable souvenir, an object of culinary expertise and, increasingly, a social media spectacle.

@@ -39,7 +39,7 @@ That contradiction is central to the debate. Continuing to attend poorly equippe
 
 === Advanced ===
 
-title: Lessons in Resistance: France's Students Take to the Streets
+title: Why French Students Are Walking Out of Class
 summary: Overcrowded classrooms, crumbling buildings and chronic teacher shortages have triggered a wave of student-led demonstrations across France. But the protests are rapidly becoming a wider confrontation over inequality, public spending and the right of young people to be heard.
 
 The blocked gates and handwritten placards might resemble any familiar French confrontation between protesters and the state. What distinguishes the latest demonstrations is that many of those demanding change are still young enough to be sitting school examinations. Since late September, secondary-school pupils have mobilised across France in protest at dilapidated buildings, staff shortages and what they regard as a failure to invest adequately in public education.
@@ -48,7 +48,9 @@ At Lycée Paul Éluard in Saint-Denis, north of Paris, complaints about inadequa
 
 The demonstrations expose a difficult tension in France's understanding of public education. Schools are supposed to embody republican equality, offering children opportunities that do not depend on their parents' income or postcode. Yet pupils argue that shortages and deteriorating infrastructure are not distributed evenly. When one school repeatedly cancels lessons and another is adequately staffed, the promise of equal opportunity becomes increasingly hard to defend. Pupils in Saint-Denis have been quick to point out that this gap is not an abstraction but their daily timetable.
 
-The government's response has included a pledge to roll out 3,000 additional replacement teachers. That may alleviate immediate disruption, but campaigners insist that stopgap staffing arrangements cannot make up for sustained underinvestment. Ministers face another political constraint: pressure to contain public expenditure and debt. Better recruitment, maintenance and classroom support require money, while competing priorities make additional spending contentious. The protests have laid bare the effects of years of underinvestment, so the dispute is as much about national choices as it is about local school conditions. Ministers who concede the principle while holding back the money are unlikely to satisfy anyone for long.
+The government's response has included a pledge to roll out 3,000 additional replacement teachers. That may alleviate immediate disruption, but campaigners insist that stopgap staffing arrangements cannot make up for sustained underinvestment.
+
+Ministers face another political constraint: pressure to contain public expenditure and debt. Better recruitment, maintenance and classroom support require money, while competing priorities make additional spending contentious. The protests have laid bare the effects of years of underinvestment, so the dispute is as much about national choices as it is about local school conditions. Ministers who concede the principle while holding back the money are unlikely to satisfy anyone for long.
 
 Policing has become a further source of controversy. Most demonstrations have been peaceful, but confrontations have produced injuries and arrests, and campaigners have accused officers of excessive force. Authorities point to incidents of violence and the need to maintain public order. These competing accounts underline the difficulty of policing a movement involving teenagers, many of whom are encountering organised political activism for the first time. The debate has widened from educational standards to the limits of protest and the state's responsibility towards young citizens. Those are questions that will not be settled by clearing a street.
 

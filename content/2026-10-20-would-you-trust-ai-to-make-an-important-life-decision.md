@@ -10,7 +10,9 @@ image: images/would-you-trust-ai-to-make-an-important-life-decision-1ee5f6.jpg
 title: Should a Chatbot Help You Choose a Job?
 summary: AI can set out the good and bad points in seconds. It does not know your family, your feelings, or when it is wrong.
 
-You have two job offers and cannot decide which one to accept. One pays more, but the other sounds more interesting. You ask an AI chatbot for help. It quickly sets out the advantages and disadvantages. Should you follow its advice? AI tools can explain difficult information, compare options and help us come up with questions. But giving information is different from making a decision for someone. A computer may not understand your family, personality or feelings as well as a close friend does.
+You have two job offers and cannot decide which one to accept. One pays more, but the other sounds more interesting. You ask an AI chatbot for help. It quickly sets out the advantages and disadvantages. Should you follow its advice?
+
+AI tools can explain difficult information, compare options and help us come up with questions. But giving information is different from making a decision for someone. A computer may not understand your family, personality or feelings as well as a close friend does.
 
 In a 2025 survey, Pew Research Center asked Americans about different uses of AI. Many people supported using it for tasks such as weather forecasting and medical research. They were much less comfortable with AI taking a role in very personal decisions, including deciding whether two people should be together.
 
@@ -29,7 +31,11 @@ Perhaps the best role for AI is not to tell us what to do. It is to help us unde
 title: What Happens if the Advice Turns Out to Be Wrong?
 summary: A poor restaurant suggestion costs you an evening. A mistaken medical or financial choice is far harder to undo, and a chatbot only knows the version of events you typed.
 
-Imagine asking an AI chatbot whether to move abroad, end a relationship or accept a new job. Within seconds it produces a convincing answer, carefully organised into advantages and disadvantages. The advice may be useful, but how much authority should we give it when the consequences are personal? A useful test is to ask what happens if the recommendation turns out to be wrong. A poor restaurant suggestion is inconvenient; a mistaken medical or financial decision can be much harder to undo. Pew Research Center surveyed more than 5,000 US adults in June 2025 and published the findings that September. Respondents were more willing to accept AI involvement in analysing complex information, such as forecasting weather or developing medicines, than in intimate areas of life. A clear majority opposed AI playing a role in judging whether two people could fall in love.
+Imagine asking an AI chatbot whether to move abroad, end a relationship or accept a new job. Within seconds it produces a convincing answer, carefully organised into advantages and disadvantages. The advice may be useful, but how much authority should we give it when the consequences are personal?
+
+A useful test is to ask what happens if the recommendation turns out to be wrong. A poor restaurant suggestion is inconvenient; a mistaken medical or financial decision can be much harder to undo.
+
+Pew Research Center surveyed more than 5,000 US adults in June 2025 and published the findings that September. Respondents were more willing to accept AI involvement in analysing complex information, such as forecasting weather or developing medicines, than in intimate areas of life. A clear majority opposed AI playing a role in judging whether two people could fall in love.
 
 The distinction makes sense. AI can process large quantities of text and identify patterns, but it does not have human experience or direct knowledge of someone's circumstances. It may also provide inaccurate information in an extremely confident tone. An answer that sounds compassionate is not necessarily reliable.
 
@@ -45,10 +51,12 @@ The central issue is not whether AI is intelligent enough to have an opinion. It
 
 === Advanced ===
 
-title: Fluency Is Not Judgement: The Limits of Automated Advice
+title: The Chatbot Sounds Sure. Should You Trust It?
 summary: Pew found that roughly two-thirds of its 5,023 respondents would keep AI out of judgements about love. The harder question is not what the technology can analyse, but where responsibility quietly changes hands.
 
-A persuasive answer can be mistaken for a trustworthy one, particularly when it arrives instantly and is expressed with apparent confidence. This is one reason the growing use of AI for personal advice deserves scrutiny. The technology can organise complicated information with remarkable speed, but the ability to produce a convincing recommendation is not the same as possessing sound judgement. The temptation is understandable. An automated adviser is available late at night, never seems impatient and can organise a confusing situation into clear-looking options within seconds. A survey of 5,023 US adults, carried out by Pew Research Center in June 2025 and published that September, revealed an important distinction in public attitudes. Respondents were generally more receptive to AI being used for analytical tasks, including weather forecasting and scientific research, than for intimate personal matters. Roughly two-thirds believed AI should have no role in judging whether two people might fall in love. Those findings describe American opinion, not a universal rule about what AI can achieve.
+An AI chatbot can seem like an ideal adviser when a decision feels difficult: it replies instantly, organises your options and never seems impatient. The help may be useful, but a confident answer can still miss important details. Its neat presentation should not settle the decision for you.
+
+Pew Research Center surveyed 5,023 US adults in June 2025 and published the findings that September. Respondents were more open to AI helping with analytical tasks, such as weather forecasting, than with intimate personal matters. Roughly two-thirds thought AI should have no role in judging whether two people could fall in love. Those findings describe US opinion, rather than what the technology can reliably do.
 
 Practical value and decision-making authority should be separated. AI might help a prospective employee identify questions about a contract, or help a patient understand unfamiliar medical language. Such uses are different from trusting a chatbot to recommend a particular treatment, relationship decision or risky investment without qualified human oversight. But fluent language is not the same as sound judgement. An AI system may overlook missing information, reproduce biases or present an uncertain suggestion with more confidence than it deserves.
 

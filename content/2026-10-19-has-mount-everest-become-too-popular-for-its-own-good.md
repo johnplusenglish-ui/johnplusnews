@@ -43,12 +43,12 @@ The debate is ultimately about the difference between a challenging adventure an
 
 === Advanced ===
 
-title: Competence Cannot Be Certified: Nepal's Difficult Search for an Everest Rule
+title: Who Should Be Allowed to Climb Everest?
 summary: A previous summit above 7,000 metres is an imperfect proxy for judgement, and an expensive one. Whichever way the bill goes, it is guides and porters who carry the consequences of a decision taken about clients.
 
 Mount Everest occupies an uneasy position between an extraordinary mountaineering challenge and a global adventure industry. Its summit still demands exceptional endurance, but the commercial infrastructure built up around expeditions has fuelled concern about inexperienced climbers taking on the world's highest mountain with extensive paid assistance. Nepal's debate over tougher entry requirements reflects precisely that tension.
 
-At extreme altitude, danger is not confined to dramatic storms or technical accidents. Thin air, fatigue and narrow weather windows can render delays life-threatening, while crowded sections of a route leave little room for individual judgement. Numbers compound every other hazard, turning a manageable delay into an emergency. What would be a minor inconvenience at sea level becomes, high on Everest, a question of how much oxygen is left in the cylinder. A poorly prepared participant may place additional pressure on the guides, porters and rescue workers whose livelihoods depend on supporting expeditions, and who rarely have the option of turning back alone.
+At extreme altitude, danger is not confined to dramatic storms or technical accidents. Thin air, fatigue and narrow weather windows can render delays life-threatening, while crowded sections of a route leave little room for individual judgement. Numbers compound every other hazard: what would be a minor inconvenience at sea level becomes, high on Everest, a question of how much oxygen is left in the cylinder. A poorly prepared climber adds to the pressure on guides, porters and rescue workers, who rarely have the option of turning back alone.
 
 In 2026, Nepalese lawmakers considered revisions to tourism legislation that would impose more demanding qualifications on aspiring Everest climbers. One prominent proposal required applicants to have summited another mountain above 7,000 metres in Nepal. Other suggested changes concerned insurance, environmental responsibilities and the regulation of expedition companies. These measures formed part of a legislative process rather than a settled body of newly enforceable rules, a distinction easily lost once a headline announces that Everest has been closed to novices. Coverage that collapses the two risks misleading precisely the climbers any new rule is meant to protect.
 

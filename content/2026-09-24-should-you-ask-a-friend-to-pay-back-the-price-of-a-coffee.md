@@ -41,7 +41,7 @@ Perhaps the best approach is to spell things out without making a fuss. If you m
 
 === Advanced ===
 
-title: Below Fifteen Dollars: Where Fairness Ends and Generosity Begins
+title: When a Coffee Turns into a Question About Friendship
 summary: One writer's informal threshold struck a nerve. The dispute is less about money than about unwritten rules nobody states out loud.
 
 Johanna Cosgrove was travelling home by train when a message took the shine off an enjoyable afternoon. The New Zealand-born writer had been catching up with a colleague over green juice in Australia. Instead of simply remembering their conversation, she was being asked to transfer A$12.50 for her drink. The sum left her uncomfortable. What bothered her was not so much the money as the suggestion that an ordinary social gesture came with an invoice attached, turning what she had understood as a friendly treat into an account to settle.
@@ -50,7 +50,7 @@ In a September 2026 column for the Guardian, Cosgrove made the case for financia
 
 Of course, the same gesture can carry entirely different meanings. For one friend, an immediate transfer is a considerate way of avoiding an obligation; for another, it reduces warmth to bookkeeping. Digital payments have made settling up almost frictionless, encouraging us to divide costs down to the last penny. That precision can be reassuring, particularly among acquaintances. Between close friends, however, it may come across as oddly formal, as though the relationship were subject to a running audit. Neither side necessarily realises the other follows different unwritten rules, and those differences can quickly lead to resentment.
 
-Not everyone can afford to be relaxed about money. A modest drink might represent loose change to one person and a carefully considered expense to another. Someone who regularly covers the bill could find the costs mounting up, particularly if their companions seldom offer to take a turn. At the other extreme, someone who insists on repaying every penny might be protecting their independence, not rejecting generosity. It's easy to mistake a financial boundary for a personal slight when the expectations haven't been made explicit. Culture and income complicate the question of fairness.
+Not everyone can afford to be relaxed about money. A modest drink might represent loose change to one person and a carefully considered expense to another. Someone who regularly covers the bill could find the costs mounting up, particularly if their companions seldom offer to take a turn. At the other extreme, someone who insists on repaying every penny might be protecting their independence, not rejecting generosity. It's easy to mistake a financial boundary for a personal slight when the expectations haven't been made explicit.
 
 Think of three people meeting every Friday. One enjoys treating the group, another immediately repays whatever they owe, while the third rarely offers to contribute. Nothing is said because nobody wants to spoil the mood over a few pounds. Yet the silence creates its own problem. Over time, an arrangement that looked generous can start to feel exploitative. This is where the language of friendship becomes important: a quiet conversation about expectations may preserve goodwill more effectively than an elaborate system of repayment requests.
 

@@ -22,7 +22,7 @@ Today, Peter can read recipes and share books with his son. He also talks public
 
 === Intermediate ===
 
-title: Hiding It for Thirty Years, Then Asking for Help
+title: The Reading Problem He Hid for Years
 summary: Peter Lloyd built a career and raised a family while hiding the fact that he could not read. A supermarket shelf finally changed that.
 
 For years, Peter Lloyd found ways to avoid reading in public. As a lorry driver, he could remember complicated routes and recognise road signs, but a letter arriving through the post could leave him feeling helpless. He had built a working life and raised a family while hiding a difficulty that many people assume only children face. Then, aged 46, he found himself unable to complete a simple supermarket shop.
@@ -39,7 +39,7 @@ Low literacy does not mean a lack of intelligence, yet shame can stop adults fro
 
 === Advanced ===
 
-title: The Man Who Couldn't Read: Why It's Never Too Late to Start Again
+title: Learning to Read at 46 Changed His Everyday Life
 summary: For more than four decades, Peter Lloyd navigated a world of written instructions, road signs and official documents without being able to read. His remarkable journey towards literacy offers a powerful reminder of how easily adults can fall through the cracks of the education system.
 
 The trouble began in the dairy aisle. Peter Lloyd, a lorry driver from Lancashire, was trying to buy milk suitable for his wife and son, both of whom had allergies. Surrounded by cartons covered in information he could barely decipher, he realised how easily a routine errand could become a serious mistake. He was 46, with a job and a family, but he had spent much of his life covering up the fact that he struggled to read.
@@ -52,7 +52,9 @@ Twice-weekly lessons began with fundamental reading skills. It was painstaking w
 
 The achievement did not erase his earlier experiences, but it changed his relationship with everyday life. Recipes became accessible, books became a source of pleasure, and tasks that once required another person's help could increasingly be handled alone. Peter has since spoken publicly as an ambassador for Read Easy and hopes to obtain an English GCSE before pursuing work that supports others. His willingness to discuss a previously guarded struggle is significant in itself, not least because so few people in his position are prepared to do so publicly.
 
-Adult literacy is frequently misunderstood. People may have limited reading skills for reasons involving disability, disrupted education or inadequate support, none of which is a reliable measure of intelligence. The greatest obstacle can become the expectation that an adult ought already to know how to read, an assumption that encourages silence. Support exists, as Read Easy demonstrates, but it is of little use to anyone too ashamed to walk through the door, which is partly why Peter's candour carries such weight. Peter's story challenges the idea that learning follows a fixed timetable. It also suggests that dignity in education may matter as much as the lessons themselves.
+Adult literacy is frequently misunderstood. People may have limited reading skills for reasons involving disability, disrupted education or inadequate support, none of which is a reliable measure of intelligence. The greatest obstacle can become the expectation that an adult ought already to know how to read, an assumption that encourages silence.
+
+Support exists, as Read Easy demonstrates, but it is of little use to anyone too ashamed to walk through the door, which is partly why Peter's candour carries such weight. Peter's story challenges the idea that learning follows a fixed timetable.
 
 === Core before you read ===
 

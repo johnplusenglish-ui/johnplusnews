@@ -25,7 +25,7 @@ The real question may not be when we stop working, but how we spend the years af
 
 === Intermediate ===
 
-title: Retirement Is Good for Your Health and Harder on Your Thinking
+title: Could Leaving Work Change How We Think?
 summary: A reform that raised the early retirement age let researchers compare women who left work at different ages. The results pointed in both directions.
 
 On the last day of work, retirement can look like the beginning of a permanent holiday. No more early alarms, demanding meetings or emails arriving late in the evening. There might finally be time to travel, learn an instrument or spend long afternoons with friends. Yet a German study published in the Journal of Health Economics in July 2026 raised a more complicated question: what happens to our thinking abilities when the daily challenges of working life disappear?
@@ -42,7 +42,7 @@ Perhaps the most useful lesson is to plan for retirement as a new stage of life 
 
 === Advanced ===
 
-title: Fluid Intelligence, Blood Pressure and the Price of Leaving Work
+title: What Might Your Brain Miss When You Leave Work?
 summary: A policy change in Germany created a natural experiment. It found weaker performance on flexible thinking, alongside genuine gains in health.
 
 Retirement is often imagined as the long-awaited reward for decades of effort: the final commute, the farewell gathering and the promise of mornings no longer dictated by an alarm. Yet while escaping workplace pressures may improve wellbeing, leaving employment also removes a regular source of mental stimulation. A study published in the Journal of Health Economics in July 2026 examined whether that change affects cognitive abilities, offering a more complicated picture than the familiar argument that people should retire as early as they possibly can.

@@ -41,7 +41,7 @@ The investigation reopened an uncomfortable debate about museum security. A smal
 
 === Advanced ===
 
-title: Stolen but Unsellable: The Quiet Vulnerability of Regional Museums
+title: How Two Stolen Renoirs Were Found Behind a Wall
 summary: An alarm, a DNA trace and a hiding place under a staircase: how an ambitious theft of two Renoirs at Cagnes-sur-Mer unravelled.
 
 At 5.48am on 8 September 2026, the alarm at the Renoir Museum in Cagnes-sur-Mer began sounding. Five minutes later, municipal police were at the scene. The intruders had already made off, apparently abandoning half their intended haul in the rush to escape. Two paintings by Pierre-Auguste Renoir remained missing, leaving investigators with an unusually conspicuous theft and a rather less glamorous collection of forensic clues. By October, prosecutors placed the combined value of the missing works at approximately €4.2 million, although earlier estimates in the press had been considerably higher.

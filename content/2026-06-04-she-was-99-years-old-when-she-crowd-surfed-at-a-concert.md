@@ -24,7 +24,7 @@ Of course, nobody should try a dangerous stunt simply to prove that age does not
 
 === Intermediate ===
 
-title: The Grandmother Who Broke a World Record at a Rock Concert
+title: A World Record at a Rock Concert, Aged 99
 summary: Pauline Kana was ninety-nine years and 274 days old. Her grandson planned the attempt, as he has planned their adventures for years.
 
 The crowd at a country-rock concert in Texas had already come for an exciting evening. Then the singer announced an unusual guest: a ninety-nine-year-old grandmother who was about to attempt a world record. Moments later, Pauline Kana was lifted above the audience on a specially prepared stretcher. As dozens of hands passed her towards the stage, she loosened her grip and started waving. The cheering grew louder. By the time she reached the front, Pauline had achieved something no other person her age had officially done.
@@ -41,18 +41,18 @@ By October 2026, Pauline had turned one hundred and was still sharing stories ab
 
 === Advanced ===
 
-title: Ninety-Nine, Crowd-Surfing, and What Old Age Is Supposed to Look Like
+title: Who Says a Rock Concert Has an Age Limit?
 summary: A carefully arranged record attempt is not proof that age imposes no limits. It is a reminder that those limits need not define somebody's ambitions.
 
 Concertgoers at a country-rock show in Texas were prepared for noise, excitement and perhaps a few surprises. They were unlikely, however, to expect a ninety-nine-year-old woman to be carried above their heads. Yet that was precisely the spectacle unfolding at a Brantley Gilbert performance in Bellville in May 2026. Pauline Kana lay on a specially prepared stretcher as the audience passed her carefully towards the stage. Initially gripping the edges, she soon began waving to the cheering crowd, visibly delighted by her extraordinary journey.
 
-Guinness World Records subsequently recognised Pauline as the oldest person to crowd-surf, recording her age as ninety-nine years and 274 days. The attempt was coordinated rather than spontaneous, with the musician introducing the occasion and spectators supporting the stretcher. That distinction matters: it was a planned public event, not an invitation for older people to attempt unsafe stunts. Nonetheless, the image of Pauline sailing through the audience offered an unusually joyful challenge to the assumptions commonly attached to advanced age.
+Guinness World Records subsequently recognised Pauline as the oldest person to crowd-surf, recording her age as ninety-nine years and 274 days. The attempt was coordinated rather than spontaneous, with the musician introducing the occasion and spectators supporting the stretcher. That distinction matters: it was a planned public event, not an invitation for older people to attempt unsafe stunts. Nonetheless, the sight of Pauline waving from a stretcher above the crowd was not the kind of image a ninety-nine-year-old usually appears in.
 
 The adventure grew out of a remarkable creative partnership with her grandson, Ross Smith. Years earlier, Ross had filmed Pauline playing basketball with him, capturing a moment when she successfully blocked his shot. The clip caught on, and their humorous videos gradually attracted millions of followers. Rather than portraying Pauline as a passive grandmother watching younger people have adventures, the pair built their content around her mischievous personality and willingness to join in. Their age difference became a source of comedy, not a reason to keep them apart.
 
 When Ross came up with the idea of a Guinness title, Pauline was apparently delighted to give it a try. On the day, she wore a T-shirt celebrating the pleasures of growing older and took her place on the stretcher. The crowd began chanting as she travelled over their heads; what could easily have become a nerve-racking experience turned into something resembling a triumphant parade. At the front, she joined Ross on stage and celebrated. Later, a recording showed her proudly displaying the certificate confirming her place in the record books.
 
-Behind the entertaining spectacle sits a more serious question about the way society talks about ageing. Later life is frequently described in terms of decline, dependence and things that can no longer be done. Those realities matter, but they do not account for the whole person. Curiosity, humour and the desire to experience something new do not vanish on a particular birthday. Pauline's story is not proof that age imposes no limits. It is a reminder that those limits should not automatically define somebody's identity, ambitions or enjoyment of life.
+Behind the entertaining spectacle sits a more serious question about the way society talks about ageing. Later life is frequently described in terms of decline, dependence and things that can no longer be done. Those realities matter, but they do not account for the whole person. Curiosity, humour and the desire to experience something new do not vanish on a particular birthday. Pauline's story is not proof that age imposes no limits, but a reminder that those limits need not decide somebody's ambitions or enjoyment of life.
 
 By the time Pauline reflected on the adventure in October 2026, she had celebrated her hundredth birthday. Yet the real story reaches beyond the record itself. Ross and Pauline have spent years making each other laugh, taking on unfamiliar challenges and creating an archive of shared experiences. Their partnership turns a familiar family relationship into an ongoing collaboration, one in which both generations seem to benefit. The lasting image is not simply a grandmother being lifted through a crowd. It is a woman refusing to let other people's expectations decide when the fun should stop.
 

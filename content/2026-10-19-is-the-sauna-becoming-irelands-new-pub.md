@@ -24,7 +24,7 @@ Still, the popularity of seaside saunas suggests that many people want more welc
 
 === Intermediate ===
 
-title: Where Ireland Goes When It Does Not Want a Pint
+title: Could the Sauna Be a New Place to Meet?
 summary: Small cabins along the coast offer heat, a cold dip and conversation without alcohol. Regulars drop in at the same time each week, so familiar faces soon appear.
 
 It is a curious picture of modern Ireland: strangers sitting shoulder to shoulder in a wooden sauna while Atlantic waves crash a few metres away. Some have come for the heat, some for a cold-water dip, and others simply for a conversation. What they all share is a desire to wind down somewhere that is neither home nor work.
@@ -33,7 +33,9 @@ Saunas have been springing up along the Irish coast and in towns, often as compa
 
 The trend has encouraged comparisons with the Irish pub. For generations, pubs have offered much more than alcohol. They have been places to celebrate, exchange news and keep friendships alive. Yet anyone who is avoiding alcohol, watching their spending or tired of noisy evenings may struggle to find a similarly welcoming alternative, particularly in a small town where the options are limited.
 
-A shared sauna changes the usual rules of socialising. Phones are put away, people are dressed simply and nobody needs to organise a formal activity. Conversation can develop naturally, and it is unusually easy to strike up a conversation with a stranger when everyone is sitting still, waiting for the heat to build. Social researchers sometimes call such informal gathering places "third places", meaning spaces outside the home and workplace that help communities stay connected. The argument behind the term is straightforward: without somewhere easy to drop into, people rely entirely on arranged meetings, and those tend to fall away as life gets busier.
+A shared sauna changes the usual rules of socialising. Phones are put away, people are dressed simply and nobody needs to organise a formal activity. Conversation can develop naturally, and it is unusually easy to strike up a conversation with a stranger when everyone is sitting still, waiting for the heat to build.
+
+Social researchers sometimes call such informal gathering places "third places", meaning spaces outside the home and workplace that help communities stay connected. The argument behind the term is straightforward: without somewhere easy to drop into, people rely entirely on arranged meetings, and those tend to fall away as life gets busier.
 
 That does not mean saunas are an answer to Ireland's loneliness problem. A paid session is not necessarily affordable, especially for anyone who would like to go every week, and the experience may be uncomfortable or medically unsuitable for some people. A fifteen-minute chat with a stranger is also very different from building a dependable social network, the kind that people fall back on when something goes wrong.
 
@@ -41,7 +43,7 @@ The interesting question is not whether saunas will replace pubs. It is why so m
 
 === Advanced ===
 
-title: Towels, Not Titles: Ireland Finds a Third Place by the Sea
+title: The Irish Saunas Bringing Strangers Together
 summary: A booked hour in a timber cabin strips away the usual markers of status, but it cannot replicate the unplanned dropping in that made the pub a social institution.
 
 Picture a winter morning on Ireland's Atlantic coast. Rain moves across the horizon, the water is bitterly cold and, inside a timber cabin, half a dozen strangers are discussing everything from local gossip to their working lives. For a country whose social identity is so often bound up with the pub, the emergence of the communal sauna as a fashionable meeting place is an intriguing development, and one that few would have predicted a decade ago.

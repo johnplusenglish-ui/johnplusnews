@@ -8,7 +8,7 @@ image-alt: Eliud Kipchoge running in a white vest with the number 1 bib, with sp
 ---
 === Core ===
 
-title: Why Kipchoge Did Not Need His Fastest Time
+title: Kipchoge Is Still Winning at 41
 summary: Eliud Kipchoge is 41 and still winning. He won the Melbourne Marathon in a record time. What does his story teach us about age?
 
 At 41, many athletes have already retired. Eliud Kipchoge is still racing. On 11 October 2026, the Kenyan runner won the Melbourne Marathon in Australia, finishing the 42.2-kilometre race in two hours, nine minutes and ten seconds. It was a new record for the event. Thousands of people had come to watch one of the most famous runners in the world, and he gave them another reason to cheer.
@@ -25,7 +25,7 @@ Kipchoge's latest win does not mean that age has stopped affecting him. It does 
 
 === Intermediate ===
 
-title: Nobody Told Kipchoge When to Retire
+title: Why Kipchoge Keeps Coming Back to Race
 summary: He won in 2:09:10, some way short of his personal best, pulling clear in the last ten kilometres. Other runners reported shortages of water.
 
 By the time most runners reach their forties, their fastest races are usually behind them. Eliud Kipchoge has never been particularly interested in following the usual timetable. On 11 October 2026, the Kenyan athlete won the Melbourne Marathon in 2:09:10, breaking the course record at the age of 41. He pulled away from his closest rivals during the final ten kilometres and crossed the finish line at the Melbourne Cricket Ground, once again turning a major race into a celebration of an extraordinary career.
@@ -42,7 +42,7 @@ For Kipchoge, the Melbourne result is unlikely to silence every question about r
 
 === Advanced ===
 
-title: No Neat Farewell: Kipchoge Complicates the Story of Decline
+title: How Do You Decide When It Is Time to Stop Racing?
 summary: Kipchoge's record run in Melbourne was overshadowed by reports of water shortages on the course. What does his longevity show, and what went wrong for other runners?
 
 Sport likes a neat farewell. A champion reaches the summit, enjoys a final moment of applause and disappears before the inevitable decline becomes too obvious. Eliud Kipchoge appears determined to complicate that narrative. At 41, the Kenyan distance-running great won the Melbourne Marathon on 11 October 2026 in 2:09:10, establishing a course record and offering an emphatic response to those who had begun to regard his retirement as overdue. The winning move came in the final ten kilometres, when he separated himself from the other contenders and headed towards the Melbourne Cricket Ground.
@@ -55,7 +55,7 @@ His success rested instead on judgement and control. He remained patient while t
 
 The spectacle also had an uncomfortable counterpoint. Numerous recreational runners complained of water shortages, congestion and inadequate facilities at an event whose appeal had extended well beyond its elite field. Their accounts raised legitimate questions about the responsibilities of organisers when participation grows faster than provision. A record-breaking winner may dominate the headlines, but a marathon's success is also measured by what happens to the less celebrated people behind him. For those runners, adequate drinking water is rather more pressing than the philosophy of longevity.
 
-The question of when he ought to stop remains open. Kipchoge's Melbourne triumph will not put the question to rest, and nor should it. The competitive landscape has changed, his own performances have fluctuated and one result cannot erase the consequences of age. What he has challenged is the assumption that decline must make achievement meaningless. There is a quieter kind of excellence in adapting to circumstances without surrendering ambition. Kipchoge is no longer being asked whether he can run faster than any man in history. For now, he is showing that he can still outrun the people standing beside him.
+The question of when he ought to stop remains open. The competitive landscape has changed, his own performances have fluctuated and one result cannot erase the consequences of age. What he has challenged is the assumption that decline must make achievement meaningless. There is a quieter kind of excellence in adapting to circumstances without surrendering ambition. Kipchoge is no longer being asked whether he can run faster than any man in history. For now, he is showing that he can still outrun the people standing beside him.
 
 === Core before you read ===
 

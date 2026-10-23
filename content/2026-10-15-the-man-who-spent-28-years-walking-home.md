@@ -39,7 +39,7 @@ The journey has come at a personal cost. Bushby missed much of his son's childho
 
 === Advanced ===
 
-title: Twenty-Eight Years on the Road: The Man Still Walking Home
+title: What Keeps a Man Walking Home for 28 Years?
 summary: After almost three decades on foot, Karl Bushby is finally close to home. But what does a man do when the journey that defined his life comes to an end?
 
 When Karl Bushby emerged from the English Channel at Dover on 5 October, he had already walked, and occasionally swum, a route that had consumed almost three decades of his life. He was back on British soil, but not quite home. Hull, where his extraordinary undertaking began as an idea, still lay roughly 400 kilometres away. It was an almost absurdly small distance after everything that had preceded it.

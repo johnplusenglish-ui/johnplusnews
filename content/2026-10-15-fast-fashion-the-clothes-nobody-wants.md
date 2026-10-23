@@ -39,7 +39,7 @@ Consumers can make a difference by cutting back on new purchases, repairing clot
 
 === Advanced ===
 
-title: Fast Fashion's Final Stop: The Charity Shop
+title: Why Your Donated Clothes May Be Hard to Sell
 summary: Charities are inheriting the disposal costs of an industry built on constant replacement.
 
 The donation bag provides a reassuring ending to the story of an unwanted garment. The wardrobe is clearer, the clothes avoid the bin and a charity may earn money. In the sorting room, that neat narrative can collapse. British charity shops report being inundated with weak, damaged or commercially worthless clothing. The consumer has passed the garment on, but the social and environmental cost has not disappeared; it has simply arrived at somebody else's door.

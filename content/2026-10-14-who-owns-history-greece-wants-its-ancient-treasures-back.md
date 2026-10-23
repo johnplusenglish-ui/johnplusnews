@@ -22,7 +22,7 @@ This argument is bigger than one museum. Collections around the world contain im
 
 === Intermediate ===
 
-title: Two Hundred Years Away from Home
+title: The Ancient Sculptures Dividing Athens and London
 summary: The Parthenon sculptures have been in London since the 1800s. Greece says it is time they went back, and Britain is still deciding.
 
 Visitors to the British Museum in London can admire a remarkable collection of ancient Greek sculptures. For centuries, these marble figures and decorative panels formed part of the Parthenon, a temple on the Acropolis in Athens. Today they are better known as the Parthenon Marbles, or sometimes the Elgin Marbles. Their beauty is rarely disputed. Who should own and display them is another matter entirely.
@@ -39,12 +39,14 @@ The dispute reflects a much wider question facing major museums. Many collection
 
 === Advanced ===
 
-title: Who Owns the Past? The Continuing Battle for the Parthenon Marbles
+title: Where Should the Parthenon Marbles Be Displayed?
 summary: Two centuries after ancient Greek sculptures were removed from Athens and taken to Britain, the dispute over their ownership remains unresolved. Now, Greece's prime minister has promised to intensify his campaign for their return, raising fundamental questions about cultural heritage, historical justice and the responsibilities of museums.
 
 The Parthenon Marbles are among the British Museum's most celebrated objects, yet their continued presence in London is inseparable from one of the institution's most persistent controversies. Carved for the fifth-century BC temple on the Acropolis, the surviving sculptures are now divided principally between Britain and Greece. For Athens, their reunification is a matter of cultural integrity. For the museum's trustees, the question involves legal ownership, public access and the future of encyclopaedic collections.
 
-The dispute traces back to the early nineteenth century, when Lord Elgin arranged for sculptures to be removed from the Acropolis under Ottoman rule. He asserted that he had obtained the necessary permission, but historians and campaigners continue to dispute the scope and legitimacy of that authorisation. In 1816, the British state purchased his collection and placed it in the museum. Its defenders argue that the transaction was lawful by the standards of the period; critics reply that the Greek population had no meaningful control over the decisions being made about its heritage. Successive Greek administrations have pressed for the sculptures' return ever since, and the campaign has never entirely died down.
+The dispute traces back to the early nineteenth century, when Lord Elgin arranged for sculptures to be removed from the Acropolis under Ottoman rule. He asserted that he had obtained the necessary permission, but historians and campaigners continue to dispute the scope and legitimacy of that authorisation.
+
+In 1816, the British state purchased his collection and placed it in the museum. Its defenders argue that the transaction was lawful by the standards of the period; critics reply that the Greek population had no meaningful control over the decisions being made about its heritage. Successive Greek administrations have pressed for the sculptures' return ever since, and the campaign has never entirely died down.
 
 Greek governments have long maintained that the marbles belong with the remaining architectural sculpture in Athens. The argument is unusually strong because the pieces were not independent artefacts assembled from different locations: they formed an artistic programme associated with one identifiable monument. The Acropolis Museum offers a setting in which the surviving elements could be interpreted together, with the temple itself visible nearby. Reunification, in this view, would restore a context that a divided collection cannot fully provide.
 
@@ -52,7 +54,7 @@ The British Museum counters that its international displays place ancient Greek 
 
 The practical appeal of such a compromise is clear, but it does not iron out the central disagreement. A loan generally assumes that the lender owns what it is lending, an assumption Greece has been reluctant to accept. The dispute is consequently about language and recognition as much as physical possession. An agreement that appears generous in London could still seem to Athens like a demand to legitimise an earlier removal. Neither side can afford to be seen backing down, which is why one initiative after another has stalled at precisely the same point.
 
-The broader implications extend through museum collections worldwide. Artefacts acquired under empire, unequal treaties or military occupation come under renewed scrutiny, while arguments about universal access retain genuine force. Each case has its own legal and historical circumstances, making sweeping solutions difficult. Nor can the question be brushed aside as a relic of a distant era, since it is being pursued as energetically now as at any point in the past two centuries. What the Parthenon debate reveals is that museums are not neutral storehouses of the past. Their collections reflect decisions about power and possession, and those decisions remain open to challenge long after the people who made them are gone.
+The broader implications extend through museum collections worldwide. Artefacts acquired under empire, unequal treaties or military occupation come under renewed scrutiny, while arguments about universal access retain genuine force. Each case has its own legal and historical circumstances, making sweeping solutions difficult. What the Parthenon debate reveals is that museums are not neutral storehouses of the past. Their collections record decisions about power and possession, and those decisions stay open to challenge.
 
 === Core before you read ===
 

@@ -7,7 +7,7 @@ image: images/australia-banned-social-media-for-teenagers-did-it-work-323e25.jpg
 ---
 === Core ===
 
-title: No Social Media Account Until You Are 16
+title: Australia's Under-16 Social Media Ban
 summary: Instagram, TikTok and Snapchat must keep younger teenagers out. The early results do not give a simple answer.
 
 In December 2025, Australia brought in a major change to social media. Companies such as Instagram, TikTok and Snapchat were required to take reasonable steps to stop children under 16 from having accounts. The government said it wanted to protect young people from online harm. Very few other countries had tried anything this strict.
@@ -24,7 +24,7 @@ Some parents welcomed the rules because they no longer had to argue alone with t
 
 === Intermediate ===
 
-title: A Ban in Name, Not Quite in Practice
+title: What Happens After a Social Media Age Ban?
 summary: Removing an account is easy to count. Whether teenagers are sleeping better, or simply moving somewhere nobody is watching, is much harder to measure.
 
 On 10 December 2025, Australia began enforcing one of the world's most ambitious age restrictions on social media. Major platforms were required to take reasonable steps to prevent Australians under 16 from creating or keeping accounts. The policy was presented as a way of giving teenagers more time before they enter an online environment designed to hold on to their attention.
@@ -43,7 +43,7 @@ The Australian experiment raises a question that goes well beyond one age limit.
 
 === Advanced ===
 
-title: Compliance or Care: What Australia's Under-16 Rules Can Actually Achieve
+title: The Ban Is in Place. Are Teenagers Better Off?
 summary: Deleted profiles make for impressive figures, yet there is no alternative Australia to compare them with. If the harm lies in how platforms are designed, keeping children out may leave the design untouched.
 
 Australia's decision to restrict social-media accounts for under-16s was presented as a bold intervention in a problem that parents, schools and regulators had struggled to get to grips with. From 10 December 2025, designated platforms were required to take reasonable steps to prevent younger Australians from maintaining accounts. The policy shifted responsibility towards technology companies, a notable change of emphasis, but it left open the more difficult question of what success would actually look like.

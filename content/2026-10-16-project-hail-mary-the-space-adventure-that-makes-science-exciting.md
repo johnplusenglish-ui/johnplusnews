@@ -42,7 +42,7 @@ What makes Project Hail Mary distinctive is not that it gets every scientific de
 
 === Advanced ===
 
-title: In Defence of Curiosity: A Blockbuster Built on Trial and Error
+title: The Space Adventure That Makes Curiosity the Hero
 summary: Ryan Gosling's reluctant science teacher saves the world by testing ideas, not firing weapons. How much of the film's science is real, and does it matter?
 
 Hollywood has destroyed Earth often enough for audiences to recognise the warning signs. The music swells and a reluctant hero must save civilisation. Project Hail Mary begins with similarly apocalyptic stakes, but its unlikely saviour is a science teacher who wakes aboard an unfamiliar spacecraft with almost no memory of his mission. Released in March 2026, the film adapts Andy Weir's 2021 novel, with Ryan Gosling playing Ryland Grace, a man whose survival depends less on physical courage than on the messy, painstaking business of working things out.

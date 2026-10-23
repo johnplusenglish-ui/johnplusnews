@@ -7,7 +7,7 @@ image: images/need-a-grandma-in-japan-you-can-hire-one-839364.jpg
 ---
 === Core ===
 
-title: A Job for Grandmothers in Japan
+title: In Japan, You Can Hire a Grandmother
 summary: A company sends older women to cook, tidy, teach a skill or simply spend time with somebody. The service started in 2011.
 
 What if you could hire a grandmother for an afternoon? In Japan, there is a real service that lets people do something very similar. Customers can ask an older woman to cook a meal, help organise their home, teach them a skill or simply spend time with them.
@@ -41,7 +41,7 @@ Perhaps the service is best understood not as friendship for sale but as a pract
 
 === Advanced ===
 
-title: Rentable Grandmothers: Honest Terms for an Awkward Modern Need
+title: What Are You Buying When You Hire a Grandmother?
 summary: The arrangement is openly commercial, which may be its most honest feature. The harder question is why contact between the generations now has to be booked at all.
 
 The expression "rent a grandma" sounds almost deliberately provocative. It suggests that something intimate and familiar, the presence of an older relative, has been repackaged as a commercial transaction and put on the market like any other service. The phrase invites a joke, and a good deal of international coverage has duly supplied one. Yet Japan's OK! Obaachan service turns out to be rather more complicated than its attention-grabbing description implies.

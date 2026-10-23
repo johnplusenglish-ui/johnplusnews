@@ -24,7 +24,7 @@ The man who reported the stone could not have known what was waiting beneath the
 
 === Intermediate ===
 
-title: What Archaeologists Lose When a Statue Is Carried Away
+title: The Ancient Statues Found Near Someone's Home
 summary: A resident of Bahbit al-Higara could have moved the inscribed stone or sold it. Instead he called the authorities, and a careful excavation began.
 
 An ordinary piece of land in northern Egypt turned into an archaeological site after a resident noticed an unusual inscribed stone. Instead of trying to move it or sell it on, he contacted the authorities. The resulting excavation brought to light fragments of two huge royal statues associated with Ramesses II, along with a granite block bearing hieroglyphs.
@@ -43,7 +43,7 @@ There is still work to do before researchers can explain precisely where the sta
 
 === Advanced ===
 
-title: Not the Statue but the Setting: Why Archaeology Depends on Ordinary Neighbours
+title: A Strange Stone and the Ancient Statues It Revealed
 summary: Fragments of two colossal statues of Ramesses II emerged near a sanctuary of Isis because one resident chose to report an inscribed stone rather than remove it. The evidence survives only where the context does.
 
 Archaeology occasionally begins not with an organised expedition but with an ordinary person's decision to take an unusual object seriously. In October 2026, a resident of Bahbit al-Higara in Egypt's Nile Delta reported an inscribed stone he had come across while working on land near his home. A subsequent investigation by antiquities officials uncovered fragments of two colossal royal statues associated with Ramesses II, turning a patch of everyday ground into a site of national interest.

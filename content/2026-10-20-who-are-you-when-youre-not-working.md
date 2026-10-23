@@ -11,7 +11,11 @@ image: images/who-are-you-when-youre-not-working-7381d0.jpg
 title: The First Question People Ask at a Party
 summary: We ask about work before anything else. In a 2023 American survey, 39% of employees called their job very or extremely important to their identity.
 
-At a party, you meet someone new. After asking their name, what do you usually ask? For many people, the next question is about work. We often talk about our jobs before we talk about our interests, families or dreams. But does a job really tell someone who we are? Work is a big part of adult life. We spend many hours doing it, and it can give us friends, confidence and a reason to get up in the morning. In a 2023 American survey by Pew Research Center, 39% of employees who were not self-employed said their job or career was very or extremely important to their identity.
+At a party, you meet someone new. After asking their name, what do you usually ask? For many people, the next question is about work. We often talk about our jobs before we talk about our interests, families or dreams. But does a job really tell someone who we are?
+
+Work is a big part of adult life. We spend many hours doing it, and it can give us friends, confidence and a reason to get up in the morning.
+
+In a 2023 American survey by Pew Research Center, 39% of employees who were not self-employed said their job or career was very or extremely important to their identity.
 
 For some people, this is a good thing. A nurse may feel proud to help patients. A musician might love being known for their music. A skilled worker may enjoy solving difficult problems. Being good at a job can make someone feel useful.
 
@@ -30,7 +34,9 @@ Perhaps the question at a party should not always be, 'What do you do?' We could
 title: Try Introducing Yourself Without Mentioning Your Job
 summary: A job title can hide the parent, the carer and the volunteer. Pew found that 39% of American employees tie their sense of self closely to their work.
 
-When two strangers meet, a familiar question often arrives within minutes: 'What do you do?' It sounds innocent, but the answer can shape how we judge each other. Someone might introduce themselves as a teacher or engineer rather than explaining what they are passionate about. Has employment become a convenient way to describe our entire identity? It is a question worth turning around: if you had to introduce yourself without mentioning your occupation, what would you say? For some people, the answer takes a moment to come. For many adults, work provides more than a salary. It gives their week a structure, introduces them to colleagues and offers opportunities to develop skills. According to a Pew Research Center survey in 2023, 39% of American employees who were not self-employed described their job or career as extremely or very important to their sense of identity. Many others considered it somewhat important.
+When two strangers meet, a familiar question often arrives within minutes: 'What do you do?' It sounds innocent, but the answer can shape how we judge each other. Someone might introduce themselves as a teacher or engineer rather than explaining what they are passionate about. Has employment become a convenient way to describe our entire identity? It is a question worth turning around: if you had to introduce yourself without mentioning your occupation, what would you say? For some people, the answer takes a moment to come.
+
+For many adults, work provides more than a salary. It gives their week a structure, introduces them to colleagues and offers opportunities to develop skills. According to a Pew Research Center survey in 2023, 39% of American employees who were not self-employed described their job or career as extremely or very important to their sense of identity. Many others considered it somewhat important.
 
 Strong professional pride can be positive. People who find meaning in their work may feel motivated to improve and contribute to society. But there is a risk in connecting self-worth too closely to a job title. Redundancy, retirement or a change of industry can suddenly make someone question who they are without that role.
 
@@ -46,10 +52,14 @@ The goal is not to stop caring about work. It is to give other parts of life spa
 
 === Advanced ===
 
-title: The Convenient Label: What a Job Title Leaves Out
+title: What Does Your Job Title Leave Out?
 summary: Pew put the figure at 39%, and institutions keep reinforcing it through applications, networking events and online profiles. Redundancy then takes colleagues, routine and status along with the salary.
 
-One of the most revealing questions in everyday conversation is also one of the most ordinary: 'What do you do?' The question is usually meant as a friendly introduction, yet it can reduce a complex individual to a profession. For people whose careers dominate their routines and social circles, that description may gradually become more than a convenient label. Try turning the question round: 'What has been keeping you busy lately?' The answers might reveal interests and responsibilities that a title leaves out. A 2023 Pew Research Center survey found that 39% of US employees who were not self-employed regarded their job or career as extremely or very important to their overall identity. The figure is not evidence that everyone is obsessed with work. It does, however, illustrate how deeply professional roles can become woven into people's understanding of themselves.
+One of the most revealing questions in everyday conversation is also one of the most ordinary: 'What do you do?' The question is usually meant as a friendly introduction, yet it can reduce a complex individual to a profession. For people whose careers dominate their routines and social circles, that description may gradually become more than a convenient label.
+
+Try turning the question round: 'What has been keeping you busy lately?' The answers might reveal interests and responsibilities that a title leaves out.
+
+A 2023 Pew Research Center survey found that 39% of US employees who were not self-employed regarded their job or career as extremely or very important to their overall identity. The figure is not evidence that everyone is obsessed with work. It does, however, illustrate how deeply professional roles can become woven into people's understanding of themselves.
 
 This attachment is not inherently unhealthy. Meaningful work can create competence, belonging and pride, while specialised skills may take years to develop. A teacher might value opening opportunities for students; an engineer might enjoy solving problems that matter. Professional identity becomes more complicated when recognition, confidence and relationships depend almost entirely on continuing in the same role. There is a further complication: professional identity is often reinforced by institutions. Job applications, networking events and social media profiles encourage us to package a complicated life into a neat career narrative.
 

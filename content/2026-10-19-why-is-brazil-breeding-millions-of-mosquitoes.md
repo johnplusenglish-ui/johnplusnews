@@ -47,7 +47,7 @@ What makes the story remarkable is the reversal of an everyday assumption. Peopl
 
 === Advanced ===
 
-title: Nobody Can Opt Out: The Consent Problem in Biological Control
+title: How Do You Persuade a City to Welcome Mosquitoes?
 summary: Curitiba's plant breeds Aedes aegypti carrying Wolbachia so that whole wild populations become poorer at transmitting infection. The promised benefit is statistical, gradual and invisible, and residents are asked to accept more of an insect they dislike.
 
 For generations, public-health campaigns have conveyed a simple message: reduce mosquito populations and you reduce mosquito-borne disease. Brazil's expanding Wolbachia programme challenges that intuition. Rather than attempting to exterminate every disease-carrying insect, researchers are deliberately introducing mosquitoes whose biology makes them less effective at transmitting viruses.

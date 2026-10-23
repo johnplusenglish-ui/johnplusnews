@@ -24,7 +24,7 @@ So where should businesses draw the line? A complete ban may seem too strict, es
 
 === Intermediate ===
 
-title: Restaurants Draw the Line on the Photoshoot
+title: When Restaurants Say No to Photoshoots
 summary: A famous hotel on the French Riviera now requires permission for organised shoots. A Cheshire farm shop has restricted filming during its busiest hours.
 
 Picture a romantic lunch on the French Riviera. The sea is sparkling, the tables are beautifully laid and the food is about to arrive. Then a group at the next table starts unpacking several outfits, rearranging furniture and taking photographs from every possible angle. For them, the hotel is a backdrop. For everyone else, it is supposed to be somewhere to relax. That clash has persuaded some businesses to rethink their relationship with influencers.
@@ -35,13 +35,15 @@ The problem is not limited to exclusive hotels. The Hollies, a farm shop in Ches
 
 There is an obvious complication: businesses often benefit enormously from social media publicity. A short video can put an unknown café on the map, especially if the food looks irresistible. Restaurants use attractive photographs in their own advertising, so telling paying customers to put their phones away may seem rather hypocritical. Influencers also point out that their work involves real planning, editing and promotion, not merely taking a few selfies.
 
-Yet the atmosphere of a public place depends on unwritten rules. Taking a quick photograph of a dessert is very different from blocking a corridor for twenty minutes or including strangers in a video without their agreement. Customers may have paid for a peaceful meal, not an unexpected appearance on somebody else's channel. Staff can end up caught in the middle, expected to satisfy content creators and frustrated guests simultaneously. For employees, the problem may begin with an innocent request for a better angle, then build up into an argument about blocked tables, privacy and whose enjoyment matters most. Small interruptions can change the character of a whole meal.
+Yet the atmosphere of a public place depends on unwritten rules. Taking a quick photograph of a dessert is very different from blocking a corridor for twenty minutes or including strangers in a video without their agreement. Customers may have paid for a peaceful meal, not an unexpected appearance on somebody else's channel.
+
+Staff can end up caught in the middle, expected to satisfy content creators and frustrated guests simultaneously. For employees, the problem may begin with an innocent request for a better angle, then build up into an argument about blocked tables, privacy and whose enjoyment matters most. Small interruptions can change the character of a whole meal.
 
 The sensible answer may lie between an unrestricted photoshoot and a blanket ban. Businesses could set clear limits, offer dedicated photography periods or ask creators to arrange filming in advance. Customers, meanwhile, could consider whether their perfect image comes at somebody else's expense. Social media can bring people together and help independent businesses thrive. But if everyone is performing for an audience, who is actually enjoying the place they came to visit?
 
 === Advanced ===
 
-title: Whose Experience Is It? Hospitality Against the Content Economy
+title: When Your Meal Becomes Someone Else's Photoshoot
 summary: Venues depend on looking good online, yet some now restrict the very photography that promotes them. The dividing line may be behaviour rather than profession.
 
 The setting sounds ideal: a terrace overlooking the Mediterranean, impeccable service and the prospect of an unhurried lunch. Then the neighbouring table becomes a changing room. Garments are unpacked, photographs are staged and furniture is shifted to capture the perfect angle. For the would-be influencers, the venue is raw material for an online identity; for other guests, it is somewhere they have paid handsomely to escape precisely that sort of commotion. Increasingly, hospitality businesses are deciding that the two experiences cannot always coexist.

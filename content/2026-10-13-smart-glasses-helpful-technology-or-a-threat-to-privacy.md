@@ -39,7 +39,7 @@ Neither side has an easy solution. Clear recording indicators, stronger security
 
 === Advanced ===
 
-title: A Threat to Privacy or a Lifeline? The Smart Glasses Dividing Australia
+title: The Glasses That Help One Person May Worry Another
 summary: As politicians consider restrictions on wearable technology capable of recording unsuspecting strangers, disability advocates warn that a crackdown could deprive thousands of people of newfound independence.
 
 To critics, smart glasses are an unsettling development in everyday surveillance: cameras concealed inside familiar frames, capable of recording people who may have no idea they are being filmed. To some Australians with disabilities, the same devices represent a profound gain in independence. That tension has spilled over from a technological debate into national politics, with proposals to crack down on imports prompting warnings about the unintended consequences of protecting privacy.

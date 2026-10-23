@@ -29,7 +29,11 @@ Short breaks, reasonable workloads and time away from demanding tasks may help s
 title: Why the Evening Decision Feels Harder Than the Day's Work
 summary: Cognitive fatigue is not a phone battery running flat. Twenty-eight people in a 2025 study became less willing to take on demanding tasks, even for greater rewards.
 
-At the end of a day filled with emails, meetings and small decisions, you may feel too exhausted to do anything enjoyable. Yet when somebody asks what you have been doing, it can seem difficult to explain. There was no heavy lifting or long journey, just hours of thinking. Why does mental work leave us feeling drained? After a day of difficult conversations, paperwork and small decisions, someone may feel worn out despite barely moving. It does not mean their tiredness is imaginary or that exercise is pointless. Researchers describe this experience as cognitive fatigue. In a 2025 Journal of Neuroscience study, 28 participants performed demanding tasks before making decisions about further mental effort and possible rewards. After becoming fatigued, they were less willing to choose more demanding options, even when those options could bring greater benefits.
+At the end of a day filled with emails, meetings and small decisions, you may feel too exhausted to do anything enjoyable. Yet when somebody asks what you have been doing, it can seem difficult to explain. There was no heavy lifting or long journey, just hours of thinking. Why does mental work leave us feeling drained?
+
+After a day of difficult conversations, paperwork and small decisions, someone may feel worn out despite barely moving. It does not mean their tiredness is imaginary or that exercise is pointless.
+
+Researchers describe this experience as cognitive fatigue. In a 2025 Journal of Neuroscience study, 28 participants performed demanding tasks before making decisions about further mental effort and possible rewards. After becoming fatigued, they were less willing to choose more demanding options, even when those options could bring greater benefits.
 
 The researchers also used brain imaging to investigate how mental exertion might influence the value people attach to future effort. Their work suggests that fatigue can change our willingness to take on difficult tasks. It does not mean that the brain has simply run out of energy like a phone with an empty battery.
 
@@ -45,10 +49,12 @@ Still, the findings challenge the idea that only physical activity can justify f
 
 === Advanced ===
 
-title: Effort Without a Scoreboard: Why Mental Work Leaves No Visible Trace
+title: The Work Nobody Sees Can Still Wear You Out
 summary: A 2025 imaging study of 28 participants suggests exertion changes how we price future effort, rather than draining a fixed supply of fuel. One small finding is not a diagnosis.
 
-Modern exhaustion is often difficult to account for in physical terms. A person may spend the day seated, moving little more than their fingers across a keyboard, and still find the smallest evening decision intolerably demanding. Such experiences challenge the assumption that fatigue is proportional to visible physical activity. Cognitive effort has no obvious physical scoreboard. A difficult meeting can leave somebody feeling flattened, even though their step counter suggests they have barely left the chair. A 2025 study in the Journal of Neuroscience explored how cognitive exertion shapes subsequent choices. Researchers used functional brain imaging while 28 participants completed demanding mental tasks and chose between options involving different levels of effort and reward. Following the fatiguing tasks, participants became less willing to pursue options requiring greater cognitive effort. The findings suggest that fatigue alters how future mental demands are evaluated.
+Modern exhaustion is often difficult to account for in physical terms. A person may spend the day seated, moving little more than their fingers across a keyboard, and still find the smallest evening decision intolerably demanding. Such experiences challenge the assumption that fatigue is proportional to visible physical activity. Cognitive effort has no obvious physical scoreboard. A difficult meeting can leave somebody feeling flattened.
+
+A 2025 study in the Journal of Neuroscience explored how cognitive exertion shapes subsequent choices. Researchers used functional brain imaging while 28 participants completed demanding mental tasks and chose between options involving different levels of effort and reward. Following the fatiguing tasks, participants became less willing to pursue options requiring greater cognitive effort. The findings suggest that fatigue alters how future mental demands are evaluated.
 
 That is more nuanced than the popular metaphor of an exhausted brain 'running out of fuel'. The research concerned the interaction between mental exertion and decision-making, not a simple depletion of a fixed daily energy supply. The small sample also limits how broadly its conclusions can be applied. The distinction matters because fatigue is a symptom, not a single diagnosis. Sleep, illness, medication, emotional strain and lifestyle can all contribute, sometimes in overlapping ways.
 

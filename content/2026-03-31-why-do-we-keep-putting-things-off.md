@@ -24,7 +24,7 @@ Of course, everyone has days when they are tired, busy or simply not interested.
 
 === Intermediate ===
 
-title: Procrastination Is Not Laziness
+title: What Makes a Simple Task So Hard to Start?
 summary: Psychologists increasingly look at the feelings behind the delay: anxiety, perfectionism and the fear of doing a poor job.
 
 The deadline is tomorrow, but your presentation is still an empty document. You know exactly what you ought to be doing. Instead, you answer a few unnecessary messages, make another cup of tea and suddenly decide your desk needs cleaning. By the time you finally sit down to work, the evening has disappeared. If this sounds familiar, you have experienced procrastination: putting something off despite knowing that the delay may make matters worse.
@@ -41,7 +41,7 @@ None of this means that procrastination is harmless. Repeatedly putting off impo
 
 === Advanced ===
 
-title: Watching Yourself Make the Wrong Decision
+title: Why We Put Off the Things We Want to Finish
 summary: Avoiding a task buys immediate relief and a worse tomorrow. The research points less at discipline than at the discomfort we are trying to escape.
 
 You have a presentation to finish, a deadline approaching and a perfectly usable desk. Yet instead of opening the document, you find yourself rearranging folders, checking messages and making a cup of tea you didn't particularly want. You know that delaying the work will make tomorrow more unpleasant. Somehow, that knowledge changes nothing. Procrastination has a peculiar power: it effectively allows us to watch ourselves make a poor decision while feeling momentarily relieved by it.

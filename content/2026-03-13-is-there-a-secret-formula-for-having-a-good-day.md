@@ -41,7 +41,7 @@ Even so, the findings are a useful invitation to rethink our routines. Instead o
 
 === Advanced ===
 
-title: Designing the Perfect Day, and Why the Data Will Not Let You
+title: Can You Put a Good Day on a Timetable?
 summary: Machine-learning models examined more than a hundred activities. They found real patterns, and also found that happiness resists being optimised.
 
 Suppose you were given an entirely free day and asked to arrange it for maximum happiness. You might schedule coffee with friends, a satisfying period of work, some exercise and a relaxing evening. Someone else might prefer solitude, a slow breakfast and a long afternoon reading. Our private recipes for a good day vary enormously, yet researchers have wondered whether there are broader patterns hidden beneath these preferences. A 2026 American study used large-scale survey data to ask what separates an unusually good day from an ordinary one.

@@ -7,7 +7,7 @@ image: images/the-man-who-found-934-roman-silver-coins-bea145.jpg
 ---
 === Core ===
 
-title: The Savings Nobody Came Back For
+title: The Man Who Found 934 Roman Coins
 summary: A man with a metal detector found 934 Roman silver coins in a field in Germany. Who hid them, and why?
 
 Oliver Riedl was searching a field near Wesseling, in western Germany, when his metal detector went off. He found a Roman silver coin, then another. The machine kept signalling, and he realised there was probably something important under the ground. He contacted local archaeology experts instead of trying to remove everything himself. What they found was one of the most remarkable Roman discoveries in Germany in recent years.
@@ -24,7 +24,7 @@ The collection went on display at the LVR State Museum in Bonn in September 2026
 
 === Intermediate ===
 
-title: Why Telling the Authorities Mattered as Much as the Find
+title: The Roman Coins Hidden in a German Field
 summary: The hoard holds 934 denarii, the oldest struck in 148 BC. It is the largest find from Hadrian's period yet recorded in Germany.
 
 When Oliver Riedl's metal detector continued to signal in a field near Wesseling, south of Cologne, he began to suspect that he had found more than a few lost coins. Riedl, an amateur archaeologist carrying out an authorised search, uncovered several Roman silver pieces and contacted specialists. They went on to recover a hoard of 934 denarii, weighing 3.1 kilograms. The first coins were discovered in October 2025, while the remarkable find was announced publicly in September 2026.
@@ -41,7 +41,7 @@ The coins have since been displayed at the LVR State Museum in Bonn, where visit
 
 === Advanced ===
 
-title: The Absent Owner: Nineteen Centuries Under Ordinary Farmland
+title: Who Hid 934 Roman Coins in This Field?
 summary: Germany's largest hoard of coins from Hadrian's reign was found by a detectorist who followed the rules. What does it reveal, and what remains a mystery?
 
 A metal detector that refuses to fall silent can be either a nuisance or the beginning of an extraordinary discovery. For Oliver Riedl, searching an agricultural field near Wesseling in western Germany, it proved to be the latter. Having unearthed several Roman silver coins in October 2025, the amateur archaeologist alerted the regional authorities, whose subsequent investigation yielded 934 denarii weighing approximately 3.1 kilograms. The find was announced publicly in September 2026 and is considered Germany's largest known hoard associated with the reign of the emperor Hadrian.

@@ -40,14 +40,16 @@ Maricarmen's death prompted further demonstrations, with supporters demanding ch
 
 === Advanced ===
 
-title: Priced Out: How One Woman's Eviction Exposed Spain's Housing Crisis
+title: What One Eviction Revealed About Spain's Housing Crisis
 summary: The death of an 87-year-old pensioner, just two weeks after being forced from her lifelong home, has become a rallying cry for a generation increasingly priced out of the housing market.
 
 A home is usually discussed as a financial asset: a price, a rental contract, an investment that rises or falls in value. For Maricarmen Abascal, an 87-year-old Madrid resident, the meaning was rather different. She had occupied the same flat for more than 70 years, long enough for its walls and surrounding streets to hold most of her personal history. In September 2026, following a prolonged legal dispute, that connection was severed by an eviction that would reverberate far beyond her neighbourhood.
 
 After the property changed hands, Abascal became embroiled in a battle over an older tenancy agreement that allowed her to remain on relatively favourable terms. Campaigners viewed the effort to force her out as an example of the pressure placed on long-standing residents in an increasingly lucrative housing market. On 23 September, despite a gathering of supporters outside the building, the eviction proceeded. Photographs of the frail woman being carried away on a stretcher became a stark illustration of the human stakes of a legal process.
 
-Abascal died on 7 October. She had been in poor health, and campaigners said the prolonged conflict caused severe distress. The circumstances prompted widespread outrage, although attributing her death directly to the eviction would go beyond the available medical evidence. An agreement that could have enabled her return had reportedly been reached, but came too late for her to resume living in the flat. Her case galvanised protests in Madrid and elsewhere, turning a dispute over one tenancy into an argument about the direction of Spanish housing policy. Those who turned out in her name were not merely mourning a neighbour; they were demanding a change in the law, so that no one in old age could be stripped of a home occupied for a lifetime.
+Abascal died on 7 October. She had been in poor health, and campaigners said the prolonged conflict caused severe distress. The circumstances prompted widespread outrage, although attributing her death directly to the eviction would go beyond the available medical evidence. An agreement that could have enabled her return had reportedly been reached, but came too late for her to resume living in the flat.
+
+Her case galvanised protests in Madrid and elsewhere, turning a dispute over one tenancy into an argument about the direction of Spanish housing policy. Those who turned out in her name were not merely mourning a neighbour; they were demanding a change in the law, so that no one in old age could be stripped of a home occupied for a lifetime.
 
 The pressures are familiar in much of the country. In major cities and popular coastal destinations, demand for housing has risen amid limited supply, tourism and investor interest. Wage growth has not consistently matched the cost of renting or buying, leaving younger workers struggling to establish independent households. Holiday accommodation removes some properties from the longer-term rental market, although its impact varies by location. The cumulative result is a growing sense that employment no longer guarantees access to a secure home.
 

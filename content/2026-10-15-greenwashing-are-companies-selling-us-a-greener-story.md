@@ -39,7 +39,7 @@ There are practical ways to be more careful. Look for specific figures rather th
 
 === Advanced ===
 
-title: Selling Sustainability: How Greenwashing Wins Our Trust
+title: How Green Adverts Win Our Trust
 summary: Greenwashing succeeds in the gap between what an advertisement suggests and what a company can substantiate.
 
 The most persuasive environmental claim may be the one a consumer barely notices. A muted green label, a photograph of leaves and a reassuring phrase about sustainability can turn an ordinary purchase into something that feels almost ethical. Few shoppers can investigate the full history of every product, so they rely on signals. Greenwashing exploits that reliance: it offers the comfort of a responsible choice before the evidence has earned it. The visual language does part of the argument without ever becoming a claim that can easily be tested.

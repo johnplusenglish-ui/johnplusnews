@@ -24,7 +24,7 @@ The story has become famous partly because capybaras look calm and friendly in p
 
 === Intermediate ===
 
-title: A Wetland That Was Built On, and the Animals That Stayed
+title: Sharing a Neighbourhood with Giant Rodents
 summary: Residents report damaged gardens, road risks and awkward encounters with pets. Campaigners reply that the capybaras came from nowhere else: the neighbourhood expanded around them.
 
 In most wealthy neighbourhoods, homeowners complain about parking, noisy neighbours or the cost of maintenance. In Nordelta, a large residential development outside Buenos Aires, the most unusual dispute concerns capybaras: giant, semi-aquatic rodents that wander across carefully maintained lawns as if they own the place.
@@ -43,7 +43,7 @@ The capybara has become an internet favourite thanks to its relaxed expression a
 
 === Advanced ===
 
-title: Invasion or Inheritance: Who Intruded on Whom in Nordelta?
+title: The Capybaras Were There First. What Happens Now?
 summary: Words such as pest and invasion do a great deal of work before the argument has formally begun. Whoever controls the vocabulary is halfway to controlling the policy that follows.
 
 Few disputes illustrate the contradictions of suburban development as neatly as the capybara controversy in Nordelta, a gated community outside Buenos Aires. Its residents enjoy landscaped gardens, artificial lakes and the promise of orderly, well-managed living. Yet the neighbourhood is also home to large numbers of carpinchos, the semi-aquatic rodents known internationally as capybaras, whose unhurried presence disrupts that carefully arranged environment.
@@ -56,7 +56,7 @@ The resulting tension is not entirely imaginary, and it would be unfair to prete
 
 Campaigners advocate better habitat protection, ecological corridors and forms of coexistence that acknowledge how thoroughly the development has reshaped the wetland. Residents seeking practical safety measures have legitimate interests too, and dismissing them outright achieves nothing beyond hardening the argument. Relocation, often proposed as the obvious remedy, depends on there being somewhere suitable to move the animals to, which is precisely what the development has done away with. The challenge is to separate evidence-based management from the comfortable assumption that wildlife ought to disappear the moment it becomes inconvenient.
 
-The argument also exposes a linguistic trap worth noticing. Terms such as "pest", "invasion" and "wildlife problem" quietly suggest that nature has intruded upon a settled human order. The underlying history is frequently the reverse: construction has broken up a functioning habitat, pushing animals out of the places they relied on and leaving them to negotiate an increasingly artificial environment on terms they never chose. Language of that sort does a good deal of work before any argument has formally begun, and it tends to work in one direction only. Whoever controls the vocabulary is halfway to controlling the policy that follows.
+The argument also exposes a linguistic trap worth noticing. Terms such as "pest", "invasion" and "wildlife problem" quietly suggest that nature has intruded upon a settled human order. The underlying history is frequently the reverse: construction has broken up a functioning habitat, pushing animals out of the places they relied on and leaving them to negotiate an increasingly artificial environment on terms they never chose. Language of that sort does a good deal of work before the argument has formally begun, and whoever controls the vocabulary is halfway to controlling the policy that follows.
 
 Nordelta's capybaras may look amusing in photographs, but they pose an uncomfortable question for cities everywhere. When property development manufactures a desirable address by transforming natural land, how much responsibility should fall to the people who benefit from it, and how much to the creatures that simply stayed where they were? The answer will matter wherever suburbs continue to expand into land that was never empty in the first place.
 

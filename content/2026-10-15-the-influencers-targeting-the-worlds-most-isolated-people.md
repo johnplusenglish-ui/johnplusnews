@@ -7,7 +7,7 @@ image: images/the-influencers-targeting-the-worlds-most-isolated-people-23e4d7.j
 ---
 === Core ===
 
-title: The Island That Wants to Be Left Alone
+title: The People Who Want to Be Left Alone
 summary: Some people try to film communities that want to be left alone. Why can this be so dangerous?
 
 In March 2025, an American traveller called Mykhailo Polyakov travelled by small boat towards North Sentinel Island in the Indian Ocean. He carried a camera and gifts, including a coconut and a can of Diet Coke. His plan was to visit and film a community that has very little contact with the outside world. The trip ended with his arrest by Indian police.
@@ -39,7 +39,7 @@ Supporters of exploration sometimes argue that the public has an interest in lea
 
 === Advanced ===
 
-title: Colonialism for Clicks: The Influencers Pursuing Uncontacted Peoples
+title: What Happens When the Camera Is Not Welcome?
 summary: Content creators are chasing exclusive footage of the world's most isolated communities. For campaigners, the real issue is consent, and the risk is deadly disease.
 
 The objects in Mykhailo Polyakov's boat were almost absurdly ordinary: a camera, a coconut and a can of Diet Coke. The destination was anything but. In March 2025, the American traveller headed for North Sentinel Island, home to an Indigenous community that has consistently rejected outside contact. He landed, attempted to draw attention and departed without encountering residents. Indian authorities subsequently arrested him. The episode exposed the uneasy intersection of digital ambition, personal curiosity and the rights of people who have chosen to remain isolated.

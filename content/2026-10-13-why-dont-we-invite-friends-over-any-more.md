@@ -39,12 +39,12 @@ Perhaps the answer is to lower our standards rather than abandon hosting. Ask fr
 
 === Advanced ===
 
-title: Hospitality or Performance? Why We Stopped Inviting People In
+title: When Did Inviting Friends Over Become So Much Work?
 summary: Domestic perfection has turned an ordinary act of friendship into a test many people would rather avoid.
 
 The invitation is almost sent. Then the host notices the laundry, the crowded kitchen and the absence of anything impressive to serve. A casual evening is postponed until the home looks better and everyone's diary aligns. What ought to be an ordinary expression of friendship has acquired the demands of a minor production. The result is a curious paradox: people who want more connection can be prevented from asking for it by the performance of being a good host.
 
-Much of the anxiety is about presentation. Social media has helped establish an aesthetic of domestic perfection in which homes look permanently ready for a magazine photograph. Against that background, the ordinary evidence of living can begin to feel like failure. A pile of washing, an ageing sofa or a crowded kitchen becomes something to apologise for, although friends rarely visit in the hope of inspecting the furniture. Hosting is no longer simply about welcoming people; it can feel like a test of competence and taste. Few people would put it that baldly, yet the hesitation before sending an invitation suggests the standard has been internalised, whether or not anyone else is actually applying it.
+Much of the anxiety is about presentation. Social media has helped establish an aesthetic of domestic perfection in which homes look permanently ready for a magazine photograph. Against that background, the ordinary evidence of living can begin to feel like failure. A pile of washing, an ageing sofa or a crowded kitchen becomes something to apologise for, although friends rarely visit in the hope of inspecting the furniture. Hosting is no longer simply about welcoming people; it can feel like a test of competence and taste.
 
 Practical obstacles are real, too. Dietary requirements call for thought, working patterns leave limited free time, and friendships are increasingly spread across cities. The spontaneous visit has given way to a chain of messages comparing schedules several weeks into the future. Meanwhile, entertainment is available without leaving the sofa. A streaming subscription offers relaxation on demand, without the trouble of shopping, washing-up or waiting for someone who is running late. Convenience, in other words, has quietly raised the relative cost of company, and the easier option is rarely the more sociable one.
 

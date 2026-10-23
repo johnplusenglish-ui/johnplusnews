@@ -43,7 +43,7 @@ Nevertheless, the concept works because it is easy to understand. Instead of ask
 
 === Advanced ===
 
-title: Rubbish as Currency: One Small Café and Two Large Problems
+title: A Café Where Plastic Pays for a Meal
 summary: Measured by tonnage, the scheme collects a drop in the ocean. Its real achievement lies in the relationships it exposes between waste, work and basic needs, and in the insecurity it leaves untouched.
 
 Environmental campaigns often struggle to make abstract problems feel immediate. The Garbage Café in Ambikapur, central India, relies instead on a strikingly tangible incentive: bring in discarded plastic and receive a hot meal. It is an arrangement that links urban waste management to food insecurity, two problems that would otherwise appear to have very little to do with one another.

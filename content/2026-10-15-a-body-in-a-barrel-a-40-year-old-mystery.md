@@ -7,7 +7,7 @@ image: images/a-body-in-a-barrel-a-40-year-old-mystery-b2ac3c.jpg
 ---
 === Core ===
 
-title: The Barrel the Falling Lake Revealed
+title: The Body Found When the Lake Fell
 summary: Drought exposed the shoreline of Lake Mead. Inside a rusty barrel were human remains, hidden for about forty years.
 
 In May 2022, some people boating on Lake Mead, near Las Vegas, noticed a large rusty barrel beside the water. The lake was unusually low after years of drought. Places that had been underwater were now dry. When the boaters looked more closely, they made a terrible discovery. Inside the barrel were human remains. Someone had hidden a body in the lake many years earlier.
@@ -41,7 +41,7 @@ The case is also a reminder that new discoveries can emerge from unexpected plac
 
 === Advanced ===
 
-title: Receding Water, Forensic Genealogy and a Man Called Buddy
+title: The Lake Mead Mystery Finally Has a Name
 summary: Environmental change uncovered what somebody had hidden, and modern science recovered a name that time had almost erased. Neither explains who put him there.
 
 On a stretch of newly exposed shoreline at Lake Mead in May 2022, a group of boaters came across an object that looked oddly out of place: a corroded metal barrel. The reservoir near Las Vegas had been shrinking as drought and heavy water use brought down its level, exposing ground that had been submerged for decades. Inside the barrel were human remains. What at first appeared to be a grim curiosity soon became the centre of a homicide investigation reaching back roughly forty years.
@@ -54,7 +54,7 @@ At a press conference in October 2026, officials revealed that the remains belon
 
 Identifying him, however, was not the same as solving his murder. The circumstances of his final days remained uncertain, as did the identity of whoever shot him and disposed of the body. Police acknowledged aspects of Jackson's past that investigators considered relevant, but they had not established a connection to organised crime. A compelling narrative practically writes itself when a body emerges from a desert reservoir near Las Vegas; the challenge is resisting the urge to turn speculation into fact. Investigators still need evidence, witnesses or new leads to reconstruct what actually happened.
 
-The case sits at an unsettling intersection of environmental change, technological progress and human loss. Receding water revealed what someone had attempted to hide, while DNA analysis recovered an identity that time had almost erased. Neither development could restore the decades that Jackson's relatives spent without answers. Yet giving a name to unidentified remains is not a minor achievement: it returns a life to the centre of a story otherwise dominated by the manner of death. The next chapter, if there is one, will depend on discovering who placed Buddy Jackson in that barrel and why.
+Receding water revealed what someone had attempted to hide, while DNA analysis recovered an identity that time had almost erased. Neither development could restore the decades that Jackson's relatives spent without answers. Yet giving a name to unidentified remains is not a minor achievement: it returns a life to the centre of a story otherwise dominated by the manner of death. The next chapter, if there is one, will depend on discovering who placed Buddy Jackson in that barrel and why.
 
 === Core before you read ===
 

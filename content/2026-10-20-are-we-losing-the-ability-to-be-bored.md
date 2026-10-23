@@ -11,7 +11,9 @@ image: images/are-we-losing-the-ability-to-be-bored-9b2620.jpg
 title: What Happens in Five Minutes Without Your Phone?
 summary: There is always a video to watch while you wait. Yet researchers have discussed evidence that people may be feeling more bored, not less.
 
-You are waiting for a friend who is ten minutes late. What do you do? Many of us immediately pull out our phones. We watch a video, check the news or scroll through social media. There is always something to pass the time with, almost anywhere and at any time. You might think this means people feel less bored than in the past. However, two psychologists writing in the journal Communications Psychology in 2024 discussed evidence that boredom may actually be increasing. They suggested that digital entertainment could be one possible reason.
+You are waiting for a friend who is ten minutes late. What do you do? Many of us immediately pull out our phones. We watch a video, check the news or scroll through social media. There is always something to pass the time with, almost anywhere and at any time.
+
+You might think this means people feel less bored than in the past. However, two psychologists writing in the journal Communications Psychology in 2024 discussed evidence that boredom may actually be increasing. They suggested that digital entertainment could be one possible reason.
 
 A phone offers thousands of choices. But when we move quickly from one short video to another, it may become harder to enjoy one thing for long. We get used to something new appearing every few seconds. An ordinary conversation or a slow afternoon can then seem less exciting.
 
@@ -30,7 +32,11 @@ Next time you have five empty minutes, you could try putting your phone away. Yo
 title: When Every Pause Is Filled Before You Notice It
 summary: Katy Tam and Michael Inzlicht argue that digital media may sometimes deepen boredom rather than relieve it. Their article interprets existing research; it proves no single cause.
 
-Standing in a queue used to involve looking around, daydreaming or chatting to a stranger. Today, it often takes only seconds before somebody reaches for their phone, and for many of us that movement has become second nature. Entertainment is constantly available, so why do researchers suggest that boredom may be becoming more common? Think about the last time you stood in a queue without taking out your phone. Did you look around, start a conversation or immediately feel that something was missing? In a 2024 perspective article for Communications Psychology, researchers Katy Tam and Michael Inzlicht discussed evidence of rising boredom and proposed a possible explanation: digital media may sometimes make boredom worse instead of relieving it. Their article presents an interpretation of existing research, not a single experiment proving that smartphones cause a worldwide increase.
+Standing in a queue used to involve looking around, daydreaming or chatting to a stranger. Today, it often takes only seconds before somebody reaches for their phone, and for many of us that movement has become second nature. Entertainment is constantly available, so why do researchers suggest that boredom may be becoming more common?
+
+Think about the last time you stood in a queue without taking out your phone. Did you look around, start a conversation or immediately feel that something was missing?
+
+In a 2024 perspective article for Communications Psychology, researchers Katy Tam and Michael Inzlicht discussed evidence of rising boredom and proposed a possible explanation: digital media may sometimes make boredom worse instead of relieving it. Their article presents an interpretation of existing research, not a single experiment proving that smartphones cause a worldwide increase.
 
 Part of the problem may be the speed with which we consume content. Short videos and endless feeds encourage us to move on as soon as our attention weakens. Having unlimited alternatives can make an ordinary activity feel disappointing. Instead of becoming absorbed in one experience, we give up on it and look around for something more stimulating.
 
@@ -46,12 +52,14 @@ Perhaps the interesting experiment is not deleting every app but noticing our ha
 
 === Advanced ===
 
-title: The Cure That Feeds the Complaint: Boredom in an Age of Abundance
+title: Why More Entertainment May Not Mean Less Boredom
 summary: Tam and Inzlicht's 2024 perspective suggests that constant novelty makes unstimulating moments harder to tolerate. Counting screen hours misses the point, since what matters is whether the switching corresponds to anything we actually wanted.
 
-Modern life offers an extraordinary solution to an ancient human problem: whenever boredom appears, we can summon an almost limitless supply of stimulation. Yet the anticipated disappearance of boredom has not materialised. Instead, some evidence suggests that people report feeling increasingly bored, prompting researchers to question the consequences of constant digital distraction. A few seconds of waiting can now feel like a gap that demands to be filled. The phone offers an effortless escape, but it may also make ordinary, unstimulating moments harder to tolerate. In a 2024 perspective published in Communications Psychology, Katy Tam and Michael Inzlicht examined this paradox and proposed that digital media might contribute to the very feeling it promises to eliminate. Their argument is a research-informed hypothesis, not definitive evidence of a single cause. Nevertheless, it raises a useful challenge to the assumption that more entertainment necessarily means greater satisfaction.
+Modern life offers an extraordinary solution to an ancient human problem: whenever boredom appears, we can summon an almost limitless supply of stimulation. Yet the anticipated disappearance of boredom has not materialised. A few seconds of waiting can now feel like a gap that demands to be filled. The phone offers an effortless escape, but it may also make ordinary, unstimulating moments harder to tolerate.
 
-Digital platforms often reward rapid switching. A video loses our attention and another begins; an article seems slow and we move on to a new tab before boredom can set in. This can create expectations of immediate novelty against which ordinary activities struggle to compete. The problem is not merely the quantity of content but the habit of disengaging whenever stimulation declines. The problem is not that modern entertainment is uniquely harmful. It is that instant distraction can prevent us from noticing the difference between a passing lack of stimulation and deeper dissatisfaction.
+In a 2024 perspective published in Communications Psychology, Katy Tam and Michael Inzlicht examined this paradox and proposed that digital media might contribute to the very feeling it promises to eliminate. Their argument is a research-informed hypothesis, not definitive evidence of a single cause. Nevertheless, it raises a useful challenge to the assumption that more entertainment necessarily means greater satisfaction.
+
+Digital platforms often reward rapid switching. A video loses our attention and another begins; an article seems slow and we move on to a new tab before boredom can set in. This can create expectations of immediate novelty against which ordinary activities struggle to compete. The problem is not merely the quantity of content, nor that modern entertainment is uniquely harmful. It is the habit of disengaging whenever stimulation declines, which can prevent us from noticing the difference between a passing lack of stimulation and deeper dissatisfaction.
 
 Boredom itself is more complicated than an empty schedule. Someone can be busy yet deeply bored if their activities feel meaningless. Conversely, a person sitting quietly might be content, curious or creatively absorbed. Persistent boredom can be distressing, but brief periods without obvious stimulation may prompt reflection or reveal unmet needs.
 

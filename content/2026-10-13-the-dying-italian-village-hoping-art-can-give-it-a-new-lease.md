@@ -8,7 +8,7 @@ image-alt: A medieval stone village on a crumbling hilltop in central Italy, rea
 ---
 === Core ===
 
-title: Can Art Save Italy's Dying Town?
+title: Can Art Give an Italian Village a Future?
 summary: Civita has tourists, beauty and a new art prize, but the ground beneath it is disappearing.
 
 The bridge to Civita di Bagnoregio hangs high above a valley. Visitors walk across it towards stone houses, narrow streets and a view that looks almost unreal. Then they look down. Rain and wind are slowly wearing away the soft rock beneath the village. Parts of the hill have already disappeared. Civita is beautiful, famous and in physical danger, which is why local people have long called it the Dying Town.
@@ -23,7 +23,7 @@ There is also a problem that art cannot solve on its own. Civita's hill is still
 
 === Intermediate ===
 
-title: The Village Crumbling Beneath Its Visitors
+title: Can Art Bring New Life to a Crumbling Village?
 summary: A footbridge, a famous view and a crumbling cliff. Civita draws visitors all summer, but keeping people there through the winter is the harder problem.
 
 Halfway across the footbridge to Civita di Bagnoregio, the village seems to float above the valley. Its medieval buildings attract cameras from every direction, but the dramatic view is also a warning. Erosion has been eating into the soft rock for centuries. The hilltop is not merely picturesque; it is unstable. Civita's nickname, the Dying Town, describes both the land falling away and the tiny community trying to remain on it.
@@ -49,7 +49,9 @@ Civita has survived since Etruscan times, but permanent settlement has dwindled 
 
 An answer, or at least a new experiment, came along in October 2026 when Civita and nearby Bolsena were jointly designated Italy's Capital of Contemporary Art for 2028. Their proposal, "Arte che viene, arte che va", won against entries from Capri, Padua and Pozzuoli, securing a million euros of public funding. The scheme envisages more than temporary exhibitions. Its ambitions include creative infrastructure, collaboration with educational institutions and opportunities for younger artists to engage with the region.
 
-The choice reflects an increasingly influential view of culture as a tool for regional development. A well-designed programme can bring in investment, new partnerships and year-round activity to places otherwise known largely for their heritage. Contemporary art may also challenge the tendency to treat historic villages as finished objects, picturesque surroundings to be consumed rather than communities capable of change. Yet cultural projects often struggle to convert short-term attention into durable economic opportunities. Funding cycles come to an end, visiting artists move on, and the institutions left behind are frequently too thinly staffed to shore up what the programme began. Whether Civita and Bolsena can avoid that familiar pattern is, for the moment, an open question.
+The choice reflects an increasingly influential view of culture as a tool for regional development. A well-designed programme can bring in investment, new partnerships and year-round activity to places otherwise known largely for their heritage. Contemporary art may also challenge the tendency to treat historic villages as finished objects, picturesque surroundings to be consumed rather than communities capable of change.
+
+Yet cultural projects often struggle to convert short-term attention into durable economic opportunities. Funding cycles come to an end, visiting artists move on, and the institutions left behind are frequently too thinly staffed to shore up what the programme began. Whether Civita and Bolsena can avoid that familiar pattern is, for the moment, an open question.
 
 Civita's particular vulnerability makes this tension sharper. Art can stimulate discussion and attract resources, but it cannot remedy the erosion of the volcanic material supporting the settlement. Conservation and engineering remain indispensable, as does investment in the practical conditions that enable permanent residents to stay. There is a risk, too, that an increasingly celebrated village becomes more attractive to visitors and property investors than to people seeking an ordinary home.
 

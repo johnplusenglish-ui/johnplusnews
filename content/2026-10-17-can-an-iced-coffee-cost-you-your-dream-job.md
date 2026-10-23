@@ -41,7 +41,7 @@ There is practical advice for applicants nevertheless. Research the company, pre
 
 === Advanced ===
 
-title: A Proxy for Seriousness: Who the Iced Latte Filters Out
+title: Would You Judge a Job Candidate by Their Coffee?
 summary: A recruiter's warning about takeaway coffee at interviews exposed an awkward truth: the unwritten rules of hiring may say more about employers than about candidates.
 
 For anyone already nervous about a job interview, the modern recruitment process offers a bewildering range of potential mistakes. Arrive too early and you appear overeager. Dress too formally and you may look out of place. Forget to research the interviewer and you risk seeming unprepared. In September 2026, the list acquired an unlikely addition: the iced latte. A Florida recruiter's warning against arriving with takeaway coffee gave rise to an argument about professionalism, generational stereotypes and the increasingly elaborate rules imposed on young jobseekers.

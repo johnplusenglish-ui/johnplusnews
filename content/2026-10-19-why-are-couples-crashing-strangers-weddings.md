@@ -49,7 +49,7 @@ The story is a reminder that consumer pressure can produce unexpected behaviour.
 
 === Advanced ===
 
-title: Inspection Without Consent: When a Wedding Becomes Market Research
+title: Would You Let Strangers Inspect Your Wedding?
 summary: South Korean couples facing expensive packages and anxious planning are observing strangers' ceremonies to judge a venue properly. An industry that sells a flawless day may have taught them to manage one like a project.
 
 Few industries trade as heavily on the promise of perfection as the wedding business. In South Korea, where ceremonies can involve substantial expenditure and intense expectations, some prospective couples have adopted an unconventional method of assessing venues: attending complete strangers' weddings without an invitation.

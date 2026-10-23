@@ -25,7 +25,7 @@ The dispute asks a question that matters in many countries. A coastline may be v
 
 === Intermediate ===
 
-title: The Small Charge That Only Local Families Pay Fifty Times
+title: Could a Day at the Beach Become a Luxury?
 summary: Opposing a development is not the same as proving a coastline has been privatised. The Arrábida protests were really about who decides how a shared landscape is run.
 
 For most people, the right to visit the seaside feels obvious. Beaches may require maintenance, cleaning and transport links, but the sea itself seems like a shared resource rather than a product. In Portugal, protests around the Arrábida coast during the summer of 2026 revealed how complicated that assumption becomes once private development and mass tourism enter the picture.
@@ -44,7 +44,7 @@ The Arrábida dispute is therefore not simply a choice between protecting beache
 
 === Advanced ===
 
-title: Access by Purchase: What Arrábida Reveals About Public Space
+title: Who Gets to Enjoy a Public Beach?
 summary: Coastlines become commercially valuable precisely because earlier generations shared them rather than cashing in. When access starts to depend on spending power, the loss is real and almost impossible to price.
 
 The idea that a coastline belongs to everyone is emotionally compelling, yet the practical management of a popular beach is rarely straightforward. Access roads, conservation rules, commercial concessions and private development all influence who is actually able to reach the sand. In Portugal's Arrábida region, opposition to development plans affecting several beaches made those tensions unusually visible during 2026.

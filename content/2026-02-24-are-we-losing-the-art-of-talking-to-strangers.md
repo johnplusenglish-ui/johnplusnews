@@ -41,7 +41,7 @@ Perhaps the answer is not to insist that everyone becomes outgoing. Privacy, sil
 
 === Advanced ===
 
-title: The Quiet Disappearance of the Unplanned Conversation
+title: Why Do We Avoid Talking to Strangers?
 summary: Small talk once punctuated queues, journeys and café visits. Its absence may say more about how our social worlds are organised than about anyone's shyness.
 
 Two passengers share a train carriage for an hour, yet scarcely acknowledge each other's existence. One disappears into a stream of messages; the other retreats behind headphones. Neither is behaving badly, and both may have perfectly legitimate reasons for wanting privacy. Still, the scene captures a shift in everyday social life. A Guardian feature published in February 2026 asked whether the small, unplanned conversations that once punctuated journeys, queues and café visits are quietly disappearing, and whether their absence matters more than we realise.
@@ -54,7 +54,7 @@ Yet research into social interaction suggests that we may systematically underes
 
 There are wider consequences to consider. When our social worlds are increasingly organised around existing friends, algorithms and shared interests, we lose some opportunities to encounter perspectives that differ from our own. Brief conversations are hardly a cure for loneliness, but they can make a city feel less anonymous and remind us that strangers have complicated lives. They may also soften the tendency to treat people outside our group as a faceless crowd. A society can be highly connected digitally while allowing everyday curiosity about other people to wither.
 
-The solution is not a campaign to make every commuter talkative. Silence can be restorative, and nobody owes strangers their attention. But we could leave room for the occasional unplanned exchange instead of automatically shutting ourselves away. Looking up from a screen, offering a genuine compliment or asking a simple question can be enough. Sometimes nothing comes of it. On other days, a conversation breaks through the anonymity and changes the mood of an entire journey. The skill worth preserving is not constant sociability, but the willingness to recognise a possible human connection when it appears.
+The solution is not a campaign to make every commuter talkative. Silence can be restorative, and nobody owes strangers their attention. But we could leave room for the occasional unplanned exchange instead of automatically shutting ourselves away. Looking up from a screen, offering a genuine compliment or asking a simple question can be enough. Sometimes nothing comes of it. On other days, a conversation breaks through the anonymity and changes the mood of an entire journey.
 
 === Core before you read ===
 

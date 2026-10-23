@@ -8,7 +8,7 @@ image-alt: Shelves in the Portsmouth Library of Things holding a sewing machine,
 ---
 === Core ===
 
-title: Borrow a Tent, Not Just a Book
+title: The Library Where You Can Borrow a Tent
 summary: A tent, a camera or a pair of binoculars can turn curiosity into a first adventure.
 
 Between the books at a new library in Colorado, you can find a tent, binoculars and a camera for watching wildlife. You do not need to buy them. A library card is enough. The Anythink Nature Library opened in August 2026 with a simple idea: wanting to try camping, birdwatching or stargazing should not mean spending a large amount of money before you even know whether you will enjoy it.
@@ -42,7 +42,7 @@ The project also asks us to think again about what a public library is for. Libr
 
 === Advanced ===
 
-title: The Library Lending More Than Books
+title: What Should You Be Able to Borrow from a Library?
 summary: The project extends a library's oldest principle: opportunity should not depend on what an individual can afford.
 
 On the shelves of a new Colorado library, a tent and a wildlife camera perform the same social function as a book. They allow someone to try an experience without first having to buy access to it. The Anythink Nature Library, opened in Thornton in August 2026, extends the library's traditional promise beyond information. Curiosity about camping, birdwatching or stargazing need not depend on disposable income, specialist knowledge or the confidence to arrive already prepared.

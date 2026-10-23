@@ -7,7 +7,7 @@ image: images/would-you-work-four-days-a-week-for-the-same-salary-384fa8.jpg
 ---
 === Core ===
 
-title: A Free Friday, and the Same Pay
+title: A Shorter Working Week with the Same Pay
 summary: Nearly 3,000 workers in six countries tried a shorter week. They reported better health, but hospitals, shops and public transport still need staff every day.
 
 Imagine your boss saying, 'From next month, you can have Fridays off and take home the same pay.' It sounds wonderful. But what would happen to the work that normally gets done on Friday? In 2025, researchers published the results of a large international four-day week trial. It involved 2,896 employees at 141 organisations in six countries, including Ireland and the UK. The participating workplaces tried shorter working weeks without reducing employees' pay.
@@ -26,10 +26,14 @@ The four-day week may be possible for many workplaces, especially when they impr
 
 === Intermediate ===
 
-title: The Four-Day Week Only Works if the Work Shrinks
+title: What Has to Change for a Four-Day Week?
 summary: Across 141 organisations, staff reported less burnout and better health after six months. Care workers, retailers and small businesses may find that timetable much harder to copy.
 
-What would you do with an extra day off every week? Learn a language, see friends or simply recover from work? For many employees, the idea of receiving the same salary for a four-day week sounds almost too good to be true. Yet a large international study suggests it may be a realistic option for some organisations. Imagine finishing on Thursday with a whole extra weekday ahead of you. You might finally sort out appointments, spend time with family or simply wake up without an alarm. Research published in Nature Human Behaviour in July 2025 examined 2,896 employees across 141 organisations in Australia, Canada, Ireland, New Zealand, the UK and the United States. Companies introduced shorter working weeks without cutting pay, following a period in which they tried to improve efficiency and cooperation.
+What would you do with an extra day off every week? Learn a language, see friends or simply recover from work? For many employees, the idea of receiving the same salary for a four-day week sounds almost too good to be true. Yet a large international study suggests it may be a realistic option for some organisations.
+
+Imagine finishing on Thursday with a whole extra weekday ahead of you. You might finally sort out appointments, spend time with family or simply wake up without an alarm.
+
+Research published in Nature Human Behaviour in July 2025 examined 2,896 employees across 141 organisations in Australia, Canada, Ireland, New Zealand, the UK and the United States. Companies introduced shorter working weeks without cutting pay, following a period in which they tried to improve efficiency and cooperation.
 
 Over six months, participants reported improvements in job satisfaction, burnout, mental health and physical health. These changes were not seen in the same way at twelve comparison organisations that maintained their usual schedules. The results suggest that reducing working time can support wellbeing, rather than merely shifting the same problems into a different timetable.
 
@@ -45,10 +49,12 @@ The study does not prove that every employer can increase productivity while red
 
 === Advanced ===
 
-title: Who Gets the Fifth Day? The Four-Day Week's Uneven Promise
+title: Who Really Gets to Enjoy a Four-Day Week?
 summary: The reported gains followed a deliberate reorganisation of tasks and meetings, not goodwill alone. Extend the model beyond willing employers and the questions become staffing costs, precarious contracts and who absorbs the unpaid care.
 
-The five-day working week is so firmly established that it can appear almost natural, rather than the product of historical negotiations about labour and leisure. Yet a growing body of evidence challenges the assumption that full-time work must occupy five days to remain economically useful. A free Friday sounds attractive, but the policy is more ambitious than offering a longer weekend. It challenges the assumption that productivity must be measured principally by hours spent at work. In July 2025, a study published in Nature Human Behaviour examined a six-month reduction in working hours across 141 organisations and 2,896 employees in six countries. Participants retained their pay while workplaces first reorganised tasks and collaboration. Compared with twelve control companies, the participating organisations reported improvements in burnout, job satisfaction and measures of mental and physical wellbeing.
+The five-day working week is so firmly established that it can appear almost natural, rather than the product of historical negotiations about labour and leisure. Yet a growing body of evidence challenges the assumption that full-time work must occupy five days to remain economically useful. A free Friday sounds attractive, but the policy is more ambitious than offering a longer weekend.
+
+In July 2025, a study published in Nature Human Behaviour examined a six-month reduction in working hours across 141 organisations and 2,896 employees in six countries. Participants retained their pay while workplaces first reorganised tasks and collaboration. Compared with twelve control companies, the participating organisations reported improvements in burnout, job satisfaction and measures of mental and physical wellbeing.
 
 The detail of the intervention matters. This was not simply an instruction to deliver a conventional week's workload in four compressed days. Organisations examined their processes, often doing away with unnecessary meetings or changing workflows. Individuals who reduced their hours more substantially tended to experience greater wellbeing gains, suggesting that time recovered outside work is an important part of the mechanism. A four-day arrangement also depends on what actually changes. Compressing forty hours into four exhausting shifts is a fundamentally different proposition from reducing weekly hours without cutting pay.
 

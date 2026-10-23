@@ -41,7 +41,7 @@ Perhaps the most useful conclusion is a practical one. If you have had an exhaus
 
 === Advanced ===
 
-title: Catch-Up Sleep, Hypertension and the Moral Language of Rest
+title: Is Sleeping In Really Such a Bad Habit?
 summary: An association is not a prescription. But the findings challenge the assumption that every variation in sleep timing must be harmful.
 
 Saturday morning offers a small but surprisingly complicated choice. The alarm has finally been switched off, the bedroom is comfortable and another hour under the duvet sounds irresistible. Yet years of advice about consistent sleep schedules may leave you wondering whether a lie-in is undermining your health. Recent findings suggest that the familiar warning deserves some nuance. For people who have accumulated a sleep deficit during the working week, modest weekend catch-up sleep may not be the enemy it has sometimes been made out to be.

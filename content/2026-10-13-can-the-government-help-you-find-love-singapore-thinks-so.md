@@ -23,7 +23,7 @@ Some people like the idea of a dating service that focuses on shared values. Oth
 
 === Intermediate ===
 
-title: The Dating App Built by a Government
+title: Singapore's Government Is Trying Matchmaking
 summary: Singapore is testing a platform that offers one match at a time. Can a careful algorithm do better than endless swiping?
 
 After hours of swiping through profiles, another dating app match may feel less exciting than it should. Singapore's government technology agency has been testing a different approach: instead of offering people an endless stream of possible partners, it introduces them to just one person at a time. The platform, called FirstDate, aims to help users focus on a meaningful connection rather than the search itself.
@@ -40,20 +40,22 @@ For now, there is no decision about rolling out the scheme beyond public-service
 
 === Advanced ===
 
-title: Swipe Right for the State: Can Singapore Engineer Love?
+title: Can a Government Make Dating Less Exhausting?
 summary: Faced with a collapsing birth rate and a generation disillusioned with online dating, Singapore has turned to an unlikely matchmaker: the government. But can algorithms succeed where romance has failed?
 
 There is a particular kind of fatigue that comes from endlessly reviewing strangers as potential romantic partners. Dating apps promise an abundance of choice, yet many users describe feeling overwhelmed by it. Singapore's FirstDate project offers an unusually restrained alternative: fewer profiles, greater emphasis on compatibility and a single prospective match at a time. More surprisingly, it stems from the government's own technology agency.
 
 Developed by staff at GovTech and being piloted among unmarried public-service employees aged 21 to 35, FirstDate asks participants about their habits, preferences and values. It applies a form of the Gale-Shapley stable-matching algorithm to recommend pairings, then allows both parties to accept or decline an introduction. Profiles are visible only to proposed matches, and contact details are exchanged solely by mutual agreement. The designers present the system as an experiment in more considered dating rather than another marketplace of faces.
 
-Its existence nevertheless invites questions about the role of the state in intimate life. Singapore has long expressed concern about low fertility and an ageing population, and official efforts to encourage relationships have precedents stretching back decades. In that context, even a modest matchmaking pilot acquires a wider significance. Is it simply an employee service, or another attempt to address the demographic consequences of delayed marriage and parenthood? Its creators are careful to sidestep that framing, describing the platform as a pilot aimed at improving the experience of dating rather than a lever for raising the birth rate. The distinction is a fine one, and sceptics will not be slow to collapse it.
+Its existence nevertheless invites questions about the role of the state in intimate life. Singapore has long expressed concern about low fertility and an ageing population, and official efforts to encourage relationships have precedents stretching back decades. In that context, even a modest matchmaking pilot acquires a wider significance.
+
+Is it simply an employee service, or another attempt to address the demographic consequences of delayed marriage and parenthood? Its creators are careful to sidestep that framing, describing the platform as a pilot aimed at improving the experience of dating rather than a lever for raising the birth rate.
 
 A successful match, of course, is an ambiguous measure. The Gale-Shapley method can identify pairings that satisfy a particular set of preferences, but romantic attraction cannot be reduced to a mathematical score. Shared values may help two people agree on the important things; they cannot guarantee emotional warmth, good timing or a sense of humour. Nor can any algorithm resolve the structural pressures facing younger adults, including expensive housing, professional demands and the considerable financial commitments associated with raising children.
 
 The privacy questions are equally delicate. A platform that asks users to describe their preferences, habits and relationship aspirations collects information they may be reluctant to hand over to an employer-connected system. FirstDate says the data is handled under government security standards and is not sold to commercial third parties. Those commitments matter, but trust will depend on transparency and how the service operates in practice. Participation must remain a genuine choice if a well-intentioned initiative is to avoid feeling intrusive.
 
-There is also something refreshing about a dating service that declines to maximise the time users spend browsing. Commercial platforms often benefit when people keep returning; FirstDate proposes that a more limited selection could serve users better. Whether a narrower choice produces more lasting relationships has yet to be demonstrated, and a pilot of this size is unlikely to settle the question. For now, the platform remains a public-service pilot, with no decision about expansion. Its most revealing lesson may be that technology can organise introductions remarkably well while remaining almost powerless over what makes two people fall for each other.
+There is also something refreshing about a dating service that declines to maximise the time users spend browsing. Commercial platforms often benefit when people keep returning; FirstDate proposes that a more limited selection could serve users better. Whether a narrower choice produces more lasting relationships has yet to be demonstrated, and a pilot of this size is unlikely to settle the question. For now, the platform remains a public-service pilot, with no decision about expansion.
 
 === Core before you read ===
 

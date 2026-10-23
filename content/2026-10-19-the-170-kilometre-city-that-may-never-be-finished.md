@@ -7,7 +7,7 @@ image: images/the-170-kilometre-city-that-may-never-be-finished-0c612a.jpg
 ---
 === Core ===
 
-title: The City Built in a Straight Line
+title: The Plan for a City in a Straight Line
 summary: Saudi Arabia planned a city 170 kilometres long. In May 2026, a report said the main work had been put off until after 2030.
 
 Imagine a city that is 170 kilometres long but only a short distance across. Its buildings have shiny outside walls, and people travel from one end to the other without needing ordinary cars. This was the idea behind The Line, one of Saudi Arabia's most famous building projects, and for a while it was everywhere online.
@@ -41,7 +41,7 @@ The Line is a particularly dramatic example of a familiar dilemma. An impressive
 
 === Advanced ===
 
-title: Renderings and Reality: The Slow Deferral of a Linear City
+title: What Happened to the 170-Kilometre City?
 summary: A postponement is not a cancellation. But a scheme deferred by a decade re-emerges into a world whose costs, technologies and political priorities have all moved on.
 
 Few proposed cities have captured the tension between architectural imagination and economic reality as vividly as The Line. Announced as part of Saudi Arabia's NEOM development, it envisaged a linear urban settlement extending 170 kilometres through the desert, enclosed within mirrored structures and designed to function with minimal reliance on conventional roads. It was, by any measure, an unprecedented proposition, and it was received accordingly, with equal measures of admiration and disbelief.

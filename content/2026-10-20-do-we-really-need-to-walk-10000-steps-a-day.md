@@ -8,7 +8,7 @@ image: images/do-we-really-need-to-walk-10000-steps-a-day-8b601b.jpg
 ---
 === Core ===
 
-title: Is 7,000 Steps Enough?
+title: Where Did the 10,000-Step Target Come From?
 summary: The 10,000 target came from a Japanese product sold in the 1960s. A 2025 review linked about 7,000 steps a day with real health benefits.
 
 Your watch says you have walked 8,000 steps today. You feel quite pleased. Then you remember the famous goal: 10,000 steps. Should you go outside again just to reach the number? The idea of walking 10,000 steps a day is familiar to millions of people. But the number did not originally come from a medical discovery. It became popular through a Japanese step-counting product sold in the 1960s. Over time, it started to sound like an official health rule.
@@ -30,7 +30,11 @@ A step counter can help you keep track of your habits, but it should not make ev
 title: The Step Target That Marketing Built
 summary: A 2025 review of 57 studies found substantial benefits by about 7,000 steps. Moving from 2,000 to 4,000 may matter more than reaching the famous figure.
 
-Few health targets are as widely recognised as 10,000 steps a day. Fitness watches celebrate when we reach it, and some people take an extra walk before bed just to complete the challenge. Yet the number's history is more closely connected to marketing than to a precise scientific calculation. A neat round number is easy to remember and share. That may explain why 10,000 steps took off so widely, even among people who have never read a study about exercise. A Japanese pedometer introduced in the 1960s helped popularise the round figure. Although walking is beneficial, scientists have continued investigating whether health improvements really depend on reaching that particular target. The answer appears to be more flexible than the number suggests.
+Few health targets are as widely recognised as 10,000 steps a day. Fitness watches celebrate when we reach it, and some people take an extra walk before bed just to complete the challenge. Yet the number's history is more closely connected to marketing than to a precise scientific calculation.
+
+A neat round number is easy to remember and share. That may explain why 10,000 steps took off so widely, even among people who have never read a study about exercise.
+
+A Japanese pedometer introduced in the 1960s helped popularise the round figure. Although walking is beneficial, scientists have continued investigating whether health improvements really depend on reaching that particular target. The answer appears to be more flexible than the number suggests.
 
 In July 2025, The Lancet Public Health published a systematic review covering 57 studies. Researchers found that approximately 7,000 daily steps were associated with substantial health benefits compared with very low step counts. For example, the analysis linked 7,000 rather than 2,000 daily steps with a considerably lower risk of death during the periods studied.
 
@@ -46,10 +50,10 @@ Fitness tracking is most useful when it supports healthier habits without turnin
 
 === Advanced ===
 
-title: Five Figures of Authority: How a Pedometer Became a Prescription
+title: Rethinking the 10,000-Step Rule
 summary: The Lancet Public Health review places the substantial gains at roughly 7,000 steps, with diminishing returns beyond that. The 47% figure is a relative comparison drawn from observation, not a personal guarantee.
 
-For millions of people, the fitness watch has transformed walking into a numerical challenge. A day ending at 9,800 steps can feel like a narrow failure, while reaching five figures earns digital congratulations. Yet the authority of the 10,000-step target has always exceeded the scientific basis for that exact number. A number that fits on a smartwatch screen can acquire the authority of a medical prescription. Yet memorable targets are not necessarily the same as evidence-based thresholds. The familiar figure was popularised through the marketing of a Japanese pedometer in the 1960s. It proved memorable and motivational, but it was not the result of a clinical calculation identifying a universal threshold for good health. Subsequent research has set out to determine how step counts relate to a variety of health outcomes.
+For millions of people, the fitness watch has transformed walking into a numerical challenge. A day ending at 9,800 steps can feel like a narrow failure, while reaching five figures earns digital congratulations. Yet the authority of the 10,000-step target has always exceeded the scientific basis for that exact number. The familiar figure was popularised through the marketing of a Japanese pedometer in the 1960s. It proved memorable and motivational, but it was not the result of a clinical calculation identifying a universal threshold for good health. Subsequent research has set out to determine how step counts relate to a variety of health outcomes.
 
 A systematic review published in The Lancet Public Health in July 2025 included 57 studies, with 31 contributing to specific meta-analyses. The authors found that approximately 7,000 steps per day were associated with substantial benefits compared with lower activity levels. Several relationships showed diminishing returns beyond roughly 5,000 to 7,000 steps, although the pattern varied by outcome. The meaning of a step count also changes with context. Seven thousand steps on a steep route may feel very different from the same number accumulated slowly around a shopping centre.
 

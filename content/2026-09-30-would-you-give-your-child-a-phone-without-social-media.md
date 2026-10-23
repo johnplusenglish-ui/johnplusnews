@@ -24,7 +24,7 @@ For many parents, the real choice is between safety and freedom. They want child
 
 === Intermediate ===
 
-title: The Phone That Sends Children Outside
+title: What Should a Child's First Phone Leave Out?
 summary: Freckle has no browser, no app store and a camera that identifies birds and plants. It also lets parents see where their child is.
 
 The request sounds simple: 'Can I have a phone?' For a parent, however, it can open up an argument about social media, online safety, independence and how much screen time is too much. A normal smartphone allows a child to contact home, but it also provides instant access to videos, strangers and countless distractions. In 2026, an American company introduced a possible compromise: a phone designed to connect children to their families without pulling them into the wider internet.
@@ -41,7 +41,7 @@ Freckle is unlikely to settle the debate about childhood and smartphones. Some f
 
 === Advanced ===
 
-title: Freckle and the Question Behind Every First Phone
+title: Would You Buy a Phone That Does Less?
 summary: A deliberately limited device may protect a child from harmful content while shutting them out of their friends' group chats. No product settles that trade-off.
 
 Few parenting decisions seem to generate quite as much anxiety as the first smartphone. Adults want children to be able to call home, arrange to meet friends and develop independence. At the same time, handing over a conventional device can mean opening the door to social media, addictive video feeds and online spaces that even adults struggle to navigate responsibly. An American start-up called Freckle entered that debate in 2026 with an alternative proposition: what if a child's first phone were designed to encourage exploration rather than endless scrolling?
@@ -54,7 +54,7 @@ Announced at $199 with a wireless plan of approximately $25 a month, the phone w
 
 There is also the problem of social belonging. Children increasingly organise friendships through group chats, games and shared online spaces. A device that shuts out those channels could protect a child from harmful content while simultaneously making them feel excluded. Conversely, expecting very young users to manage persuasive platforms without guidance places a heavy burden on developing judgement. Parents are caught between two legitimate goals: reducing exposure to risks and teaching children to recognise those risks for themselves.
 
-Freckle's most valuable contribution may be less the hardware than the question it forces families to confront. Why do we assume that a phone must provide access to everything, immediately and without stages? A carefully limited device may help some children gain confidence outside the home, while others will need a different approach. No single product can remove the difficult work of setting boundaries, having conversations and gradually handing over responsibility. But an alternative to the all-purpose smartphone makes it easier to imagine technology serving childhood, rather than childhood being organised around technology.
+Freckle's most valuable contribution may be less the hardware than the question it forces families to confront. Why do we assume that a phone must provide access to everything, immediately and without stages? A carefully limited device may suit some children, while others will need a different approach. No single product can remove the difficult work of setting boundaries, having conversations and gradually handing over responsibility. But an alternative to the all-purpose smartphone makes it easier to imagine technology serving childhood, rather than childhood being organised around technology.
 
 === Core before you read ===
 

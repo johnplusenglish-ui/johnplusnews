@@ -8,7 +8,7 @@ image: images/why-are-canadians-turning-their-backs-on-american-holidays-c3423d.
 ---
 === Core ===
 
-title: The Holiday Trip Canadians Stopped Taking
+title: Why Some Canadians Are Skipping US Holidays
 summary: Driving south to shop or spending the winter in a warmer place used to be simple. Now some Canadians are choosing Mexico instead.
 
 For many Canadians, taking a holiday in the United States has always been simple. They can drive across the border to shop, visit friends or spend a few days in another city. Some older Canadians also travel south in winter to escape the cold. For years, nobody thought twice about it.
