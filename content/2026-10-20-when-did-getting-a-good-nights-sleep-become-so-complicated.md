@@ -83,7 +83,7 @@ The deeper issue is cultural. We increasingly quantify ordinary human experience
 - You feel fine, then a watch gives you a low score. What do you trust? Start with: I would trust ... because ...
 - Is tracking sleep helpful or stressful?
 - Someone says these devices are useless. What do you say to them? Start with: Not entirely, because ... or I agree, because ...
-- What would improve your sleep most?
+- A friend is worried about one low sleep score. What would you say to them?
 
 === Intermediate before you read ===
 

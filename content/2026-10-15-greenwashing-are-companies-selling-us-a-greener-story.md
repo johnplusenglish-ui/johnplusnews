@@ -65,7 +65,7 @@ There is a danger, too, that fear of regulatory action encourages companies to s
 - A label says a bottle is green. Do you believe it? Start with: I usually ... because ...
 - Which products do you trust most, and why?
 - Someone says all advertising exaggerates, so this is normal. What do you say to them? Start with: I agree, because ... or This is different, because ...
-- What would make a green claim believable to you?
+- You are choosing between two products with green labels. What would help you decide?
 
 === Intermediate before you read ===
 

@@ -67,7 +67,7 @@ The solution is not a campaign to make every commuter talkative. Silence can be 
 - Would you enjoy a chat with a stranger on a train, or would you rather be left alone? Start with: I would rather ... because ...
 - When is it a bad idea to talk to a stranger?
 - Someone says talking to strangers is a waste of time. What do you say to them? Start with: I agree, because ... or I don't think so, because ...
-- What is an easy thing to say to start a conversation?
+- You are waiting beside a stranger. What would make you start a conversation?
 
 === Intermediate before you read ===
 

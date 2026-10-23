@@ -71,7 +71,7 @@ The episode also challenges the image of archaeology as a pursuit reserved for d
 - A resident reported a stone and two huge statues were found. Would you have reported it? Start with: I would ... because ...
 - Who should own objects found under a house?
 - Someone says he should have kept it quiet. What do you say to them? Start with: I disagree, because ... or I understand, but ...
-- What would you like archaeologists to find near you?
+- If you reported something valuable, what would feel like a fair reward: money, your name in a museum, or something else?
 
 === Intermediate before you read ===
 

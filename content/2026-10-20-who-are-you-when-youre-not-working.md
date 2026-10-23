@@ -84,7 +84,7 @@ A broader identity is more resilient, and gives a person more to fall back on: f
 - 39% said their job is very important to who they are. Is that true for you? Start with: For me ... because ...
 - What would you do if you did not need money?
 - Someone says your job says nothing about you. What do you say to them? Start with: I disagree, because ... or Mostly true, because ...
-- What would you want people to know about you?
+- Someone asks what you do at a party. What would you like them to ask next?
 
 === Intermediate before you read ===
 

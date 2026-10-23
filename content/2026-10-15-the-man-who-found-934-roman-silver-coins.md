@@ -67,7 +67,7 @@ Now exhibited at the LVR State Museum in Bonn, the denarii are both public treas
 - He reported the coins instead of keeping them. Would you? Start with: I would ... because ...
 - Should finders get a reward?
 - Someone says he should have sold them quietly. What do you say to them? Start with: I disagree, because ... or I understand, but ...
-- What would you most like to dig up?
+- If you could leave one everyday object for people to find in 1,000 years, what would you choose?
 
 === Intermediate before you read ===
 

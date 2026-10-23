@@ -68,7 +68,7 @@ There is also something refreshing about a dating service that declines to maxim
 - Singapore's service gives one match at a time. Is that better than hundreds? Start with: I think ... because ...
 - Should a government help people find love?
 - Someone says this is not the government's business. What do you say to them? Start with: I agree, because ... or Actually, ...
-- What makes two people a good match?
+- A friend asks you to introduce them to someone. What would you think about first?
 
 === Intermediate before you read ===
 

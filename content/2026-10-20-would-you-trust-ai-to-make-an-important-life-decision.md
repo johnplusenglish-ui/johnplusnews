@@ -81,7 +81,7 @@ What matters is maintaining a distinction between support and delegation. A usef
 - AI can list advantages in seconds. Would you follow it? Start with: I would ... because ...
 - What should AI never decide?
 - Someone says AI is more objective than people. What do you say to them? Start with: I disagree, because ... or Sometimes, because ...
-- Who gives you the best advice?
+- A friend says a chatbot understands them better than anyone. How would you reply?
 
 === Intermediate before you read ===
 

@@ -68,7 +68,7 @@ Perhaps the most productive question is therefore not whether to retire early, b
 - The study found some thinking skills got weaker but sleep and mood improved. Which matters more to you? Start with: For me ... because ...
 - Would you retire early if you could?
 - Someone says retiring makes people old quickly. What do you say to them? Start with: I think so, because ... or I don't agree, because ...
-- What could keep your brain busy after work ends?
+- If you retired next month, what would you want a normal Tuesday to look like?
 
 === Intermediate before you read ===
 

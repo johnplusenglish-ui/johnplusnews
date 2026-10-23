@@ -79,7 +79,7 @@ The wider lesson concerns how we value effort. A day without visible physical ac
 - Thinking uses energy, but it does not look like work. Is mental tiredness real? Start with: I think ... because ...
 - Which is more tiring for you: physical or mental work?
 - Someone says sitting at a desk is not tiring. What do you say to them? Start with: I disagree, because ... or Partly, because ...
-- What helps you recover after a hard day?
+- You can change one part of tomorrow to make the evening easier. What would you choose?
 
 === Intermediate before you read ===
 

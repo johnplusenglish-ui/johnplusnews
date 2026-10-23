@@ -84,7 +84,7 @@ Perhaps the most useful lesson from a travel forecast is not to book immediately
 - Expedia says searches are growing for these places. Does a search mean anything? Start with: I think ... because ...
 - Would you visit somewhere just because it is popular?
 - Someone says these lists are advertising. What do you say to them? Start with: I agree, because ... or They are useful, because ...
-- Which place near you deserves more visitors?
+- You have to recommend a less obvious place to go. How would you sell the idea to a friend?
 
 === Intermediate before you read ===
 

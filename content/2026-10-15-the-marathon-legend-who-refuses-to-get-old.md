@@ -68,7 +68,7 @@ The question of when he ought to stop remains open. The competitive landscape ha
 - Kipchoge won at 41 with a course record. Does age matter in sport? Start with: I think ... because ...
 - Should athletes retire while they are winning?
 - Someone says he should stop before he loses. What do you say to them? Start with: I disagree, because ... or I understand, because ...
-- What keeps a person going after forty?
+- A friend says they are too old to start a sport. How would you reply?
 
 === Intermediate before you read ===
 

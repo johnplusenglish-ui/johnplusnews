@@ -80,7 +80,7 @@ The evidence therefore supports a measured conclusion. Natural environments can 
 === Core talk about it ===
 
 - Research found nature helps mood more than memory. Does that match you? Start with: For me ... because ...
-- What stops you going outside more?
+- You have twenty minutes free. Would you choose a walk, a chat, or somewhere quiet to sit?
 - Someone says a walk cures everything. What do you say to them? Start with: I disagree, because ... or It helps, because ...
 - What would make your area better for walking?
 

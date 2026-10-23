@@ -67,7 +67,7 @@ The more consequential shift may therefore concern how holidays are organised, r
 === Core talk about it ===
 
 - Some people now choose cool holidays. Would you? Start with: I would ... because ...
-- What is the perfect holiday temperature?
+- You are booking a summer holiday. How hot would be too hot?
 - Someone says a holiday without sun is not a holiday. What do you say to them? Start with: I disagree, because ... or I agree, because ...
 - Where would you go to escape the heat?
 

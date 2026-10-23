@@ -79,7 +79,7 @@ There is also a wider policy question. Public lighting supports safety and acces
 === Core talk about it ===
 
 - People with most light at night had more sleep problems. Does that surprise you? Start with: It ... me, because ...
-- What would you change in your bedroom?
+- If you looked around your bedroom at night, where would the light be coming from?
 - Someone says a small light makes no difference. What do you say to them? Start with: Maybe, but ... or I agree, because ...
 - What helps you fall asleep?
 

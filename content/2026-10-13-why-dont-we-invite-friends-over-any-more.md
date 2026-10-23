@@ -63,7 +63,7 @@ What may need reviving is not the elaborate dinner party but the modest invitati
 === Core talk about it ===
 
 - Do you worry about your home being tidy before friends come? Start with: I do ... because ... or I don't, because ...
-- What is the easiest way to see friends?
+- A friend says sorry because their home is small or untidy. What would you say?
 - Someone says you need to cook a proper meal for guests. What do you say to them? Start with: I agree, because ... or Nobody expects that, because ...
 - What makes you feel welcome in someone's home?
 

@@ -65,7 +65,7 @@ There is an uncomfortable paradox at the heart of the strikes. By refusing to at
 === Core talk about it ===
 
 - Students are missing lessons to protest about schools. Is that a good way to be heard? Start with: I think ... because ...
-- How many students should be in one class?
+- You are the head teacher meeting the protesters. What would you ask them first?
 - Someone says protesting during school hours is wrong. What do you say to them? Start with: I see that, but ... or I agree, because ...
 - What one change would improve your nearest school?
 

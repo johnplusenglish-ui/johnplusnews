@@ -79,7 +79,7 @@ Perhaps friendship deserves to be understood as essential social infrastructure 
 === Core talk about it ===
 
 - About one in six people worldwide feel lonely. Does that surprise you? Start with: It ... me, because ...
-- Where could an adult meet new people?
+- You meet someone you get on with. What would make it easy to suggest meeting again?
 - Someone says adults do not need new friends. What do you say to them? Start with: I disagree, because ... or Maybe, but ...
 - What makes someone a good friend?
 

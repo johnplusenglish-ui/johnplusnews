@@ -67,7 +67,7 @@ The most refreshing aspect of the research may be its challenge to the moral lan
 - Do you feel guilty about sleeping late? Start with: I do ... because ... or I don't, because ...
 - Is an extra hour in bed a treat or a problem?
 - Someone says you should wake at the same time every day. What do you say to them? Start with: That works for ... but ...
-- What is your best advice for sleeping well?
+- If you had a free weekend morning, what would make it feel like a real rest?
 
 === Intermediate before you read ===
 

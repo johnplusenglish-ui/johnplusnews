@@ -81,7 +81,7 @@ For years, workplace wellbeing has been framed as a question of protecting peopl
 - Psychologists call it rust-out. Does an easy job sound tiring to you? Start with: I think ... because ...
 - Would you rather be too busy or not busy enough?
 - Someone says being paid for little is lucky. What do you say to them? Start with: I see that, but ... or I agree, because ...
-- What would make a quiet job better?
+- You have almost nothing to do at work but must stay all afternoon. How would that feel after a month?
 
 === Intermediate before you read ===
 

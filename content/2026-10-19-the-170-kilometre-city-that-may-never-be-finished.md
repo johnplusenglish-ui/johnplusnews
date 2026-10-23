@@ -67,7 +67,7 @@ Ultimately, The Line raises a question of political as well as architectural jud
 - A city 170 kilometres long, now delayed. Would it work? Start with: I think ... because ...
 - Is it better to build new cities or improve old ones?
 - Someone says it was always impossible. What do you say to them? Start with: I agree, because ... or Maybe not, because ...
-- What would your ideal city have?
+- If you could redesign one part of your town, what would you change first?
 
 === Intermediate before you read ===
 

@@ -67,7 +67,7 @@ The real cost of procrastination extends beyond unfinished work. It can create a
 - The article says putting things off is about feelings, not laziness. Do you agree? Start with: I think ... because ...
 - Which is harder for you: starting a task, or finishing it?
 - Someone says people who delay are just lazy. What do you say to them? Start with: That is true sometimes, but ... or I don't agree, because ...
-- What helps you start something difficult?
+- A friend keeps avoiding an important job. What would you say to help them start?
 
 === Intermediate before you read ===
 

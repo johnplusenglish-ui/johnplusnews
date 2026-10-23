@@ -79,7 +79,7 @@ Ultimately, the question is who controls the purpose of an activity. A hobby may
 === Core talk about it ===
 
 - You start running for air and end up entering a race. Is that good? Start with: I think ... because ...
-- Does a hobby need a goal?
+- A friend wants to sell something they make for fun. What would you ask before saying yes?
 - Someone says every hobby should earn money. What do you say to them? Start with: I disagree, because ... or Sometimes, because ...
 - What do you do purely because you enjoy it?
 

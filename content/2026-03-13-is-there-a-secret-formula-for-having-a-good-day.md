@@ -67,7 +67,7 @@ Nevertheless, the findings provide a useful prompt to pay attention to the textu
 - The study found that time with people mattered most. Is that true for you? Start with: For me it is ... because ...
 - Would you follow a timetable for a good day, or does that ruin it?
 - Someone says happiness cannot be studied. What do you say to them? Start with: I think they are right, because ... or I don't agree, because ...
-- What is one small thing that always improves your day?
+- You can add one hour to tomorrow. Where would you put it?
 
 === Intermediate before you read ===
 

@@ -69,7 +69,7 @@ The controversy illustrates a broader problem in adventure tourism. Paying for p
 - Nepal may require climbers to have climbed a 7,000-metre peak first. Good rule? Start with: I think ... because ...
 - Who should decide who can climb Everest?
 - Someone says people should be free to take any risk. What do you say to them? Start with: I agree, because ... or Not when ...
-- What makes a person ready for something difficult?
+- You are choosing between a famous crowded route and a quieter one. What would matter most to you?
 
 === Intermediate before you read ===
 

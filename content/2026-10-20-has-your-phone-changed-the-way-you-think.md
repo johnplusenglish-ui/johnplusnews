@@ -82,7 +82,7 @@ A more deliberate approach to alerts could restore some control over concentrati
 - Alerts slowed thinking by about seven seconds. Does that sound serious? Start with: I think ... because ...
 - Which notifications are worth keeping?
 - Someone says phones are ruining our brains. What do you say to them? Start with: That is too strong, because ... or I agree, because ...
-- What helps you focus?
+- You are planning a meeting. What phone rule would really help people concentrate?
 
 === Intermediate before you read ===
 

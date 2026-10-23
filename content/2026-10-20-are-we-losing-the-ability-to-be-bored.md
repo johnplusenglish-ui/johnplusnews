@@ -82,7 +82,7 @@ The more useful question may concern our tolerance for mental silence. If every 
 - We have endless videos, yet boredom may be rising. Why? Start with: I think it is because ...
 - Could you wait ten minutes with no phone?
 - Someone says boredom is good for you. What do you say to them? Start with: I agree, because ... or I am not sure, because ...
-- What do you think about when nothing is happening?
+- You are designing a waiting room. What would make the wait easier without adding another screen?
 
 === Intermediate before you read ===
 

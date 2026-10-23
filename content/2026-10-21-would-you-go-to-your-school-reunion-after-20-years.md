@@ -67,7 +67,7 @@ Mike's story raises a particularly delicate issue: can an apology help heal a pa
 - Mike wanted to apologise to a classmate. Was that the right thing? Start with: I think ... because ...
 - Is it ever too late to say sorry?
 - Someone says the past should stay in the past. What do you say to them? Start with: I disagree, because ... or I understand, because ...
-- What would you want to ask an old classmate?
+- You are organising the reunion. What would you do to make people feel welcome?
 
 === Intermediate before you read ===
 

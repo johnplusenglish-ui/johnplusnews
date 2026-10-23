@@ -65,7 +65,7 @@ Defenders of high prices argue that no performer is obliged to sell below what a
 - Tickets now cost hundreds. Is live music still for everyone? Start with: I think ... because ...
 - Would you pay more for a better view?
 - Someone says if people pay, the price is fair. What do you say to them? Start with: I disagree, because ... or That is true, because ...
-- How could concerts be made cheaper?
+- You are organising a concert. How could you make some tickets cheap without losing money?
 
 === Intermediate before you read ===
 

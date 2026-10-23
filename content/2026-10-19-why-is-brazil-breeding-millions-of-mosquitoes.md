@@ -77,7 +77,7 @@ The larger lesson is that the relationship between humans and disease vectors is
 === Core talk about it ===
 
 - Scientists are releasing mosquitoes to fight disease. Does that sound right? Start with: I think ... because ...
-- Would you want this in your street?
+- You hear that officials will release mosquitoes near your home. What would you ask at the public meeting?
 - Someone says we should kill all mosquitoes instead. What do you say to them? Start with: I disagree, because ... or I agree, because ...
 - What else could reduce disease where you live?
 

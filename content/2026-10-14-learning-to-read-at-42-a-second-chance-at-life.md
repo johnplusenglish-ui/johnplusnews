@@ -67,7 +67,7 @@ Support exists, as Read Easy demonstrates, but it is of little use to anyone too
 - Peter hid the problem for years. Why do you think he did that? Start with: I think it was because ...
 - What would be most difficult if you could not read?
 - Someone says adults should be able to teach themselves. What do you say to them? Start with: Sometimes, but ... or I agree, because ...
-- What new skill would you like to learn now?
+- You are choosing a book for someone who has just learned to read. What kind of book would you pick?
 
 === Intermediate before you read ===
 

@@ -66,7 +66,7 @@ For all its fictional physics, Project Hail Mary makes a serious argument about 
 === Core talk about it ===
 
 - The hero solves problems with experiments, not weapons. Do you like that? Start with: I do ... because ...
-- Should films try to get the science right?
+- A friend says the science in the film is wrong. Would that change how much you enjoyed it?
 - Someone says science fiction should just be fun. What do you say to them? Start with: I agree, because ... or It can be both, because ...
 - Which film made you curious about something real?
 

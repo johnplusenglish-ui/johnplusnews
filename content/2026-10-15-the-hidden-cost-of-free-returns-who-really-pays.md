@@ -67,7 +67,7 @@ The most promising improvements may be less confrontational. Better sizing infor
 - Free returns feel free. Who pays, do you think? Start with: I think ... pays, because ...
 - Would you order less if returns cost money?
 - Someone says shops should always offer free returns. What do you say to them? Start with: I agree, because ... or It depends, because ...
-- What would make online shopping easier and cleaner?
+- You are not sure about a size. Would you order two and send one back, or do something else?
 
 === Intermediate before you read ===
 

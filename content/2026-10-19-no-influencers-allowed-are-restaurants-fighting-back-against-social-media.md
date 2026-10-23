@@ -69,7 +69,7 @@ Rather than declaring war on social media, venues could introduce proportionate 
 - Some venues now limit photography. Fair? Start with: I think ... because ...
 - Should you ask before filming other people?
 - Someone says a photo harms nobody. What do you say to them? Start with: Usually true, but ... or I agree, because ...
-- What is polite behaviour in a restaurant?
+- You own a small restaurant. Would you give influencers a free meal for publicity?
 
 === Intermediate before you read ===
 
