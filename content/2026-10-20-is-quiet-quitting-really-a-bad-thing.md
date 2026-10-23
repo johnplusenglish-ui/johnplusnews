@@ -93,7 +93,7 @@ Perhaps the debate should move beyond deciding whether quiet quitting is virtuou
 - Gallup found 20% engaged, but that is not the same as quiet quitting. Why do the two get confused?
 - Compare an office worker with a nurse at the end of a shift. How do boundaries differ?
 - Someone tells you: "Setting limits is just doing less." What would you say back?
-- Some teams give time off after busy periods. Why does agreeing that in advance matter?
+- Your manager asks for a small task just as you are leaving. What would affect your answer?
 
 === Advanced before you read ===
 

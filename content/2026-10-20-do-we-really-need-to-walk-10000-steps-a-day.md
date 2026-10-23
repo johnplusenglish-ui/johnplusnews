@@ -88,10 +88,10 @@ The research encourages a more flexible view of exercise. Step counters can moti
 
 === Intermediate talk about it ===
 
-- Does a number make you try harder, or make you feel guilty? Why?
-- Is it fair to give everybody the same target when people's lives are so different?
+- The review found substantial benefits by about 7,000 steps. Does that change how you read the 10,000 target? Why?
+- Compare counting steps with counting time spent moving. Which would suit your week better, and why?
 - Someone tells you: "The number came from marketing, so ignore it completely." What do you say back to them?
-- Think of a target that actually worked for you. What made that one different?
+- The studies observed people rather than testing them. Why does that make the results harder to read?
 
 === Advanced before you read ===
 

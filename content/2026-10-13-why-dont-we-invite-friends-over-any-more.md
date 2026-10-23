@@ -78,7 +78,7 @@ What may need reviving is not the elaborate dinner party but the modest invitati
 - The article says the standard for hosting quietly rose. Who or what raised it, do you think?
 - Compare an evening at home with an evening in a restaurant. What does each one make possible?
 - Someone tells you: "Just invite people and stop worrying." Why is that harder than it sounds?
-- Research shows people socialise less than they used to. What would change that trend?
+- You want to see friends but do not want to cook a full meal. What would you suggest?
 
 === Advanced before you read ===
 

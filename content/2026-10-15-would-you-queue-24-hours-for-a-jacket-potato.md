@@ -80,7 +80,7 @@ None of this means the food is poor or that customers are foolish. SpudBros has 
 - A long queue acts as a public recommendation. Is that reliable evidence? Why?
 - Compare a famous place with a quiet local one. Where do you eat better, and why?
 - Someone tells you: "They are only famous because of a video, not the food." What would you say back?
-- Online attention is unpredictable. What should an owner do while it lasts?
+- You run the restaurant. How would you look after regular customers while welcoming new ones?
 
 === Advanced before you read ===
 
