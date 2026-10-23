@@ -90,7 +90,8 @@ The practical response may be disarmingly modest. Read something genuinely appea
 
 === Advanced talk about it ===
 
-- The writer says reading has not vanished but the routine supporting it may be eroding. Which is the more serious loss?
+- The thread gets cut and the paragraph has to be read again. Does that happen to you with books, or only with screens?
 - Argue against this: "Treating reading as virtuous is snobbery with a library card."
-- The two sets of findings are not contradictory. Why do they get reported as if they were?
+- Have you ever pretended to have read something? What made that feel necessary?
 - What would you have to stop doing to read for an hour tonight?
+
