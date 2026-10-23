@@ -42,7 +42,7 @@ SITE = {
 
 NAV = [("/", "Articles"), ("/about/", "About")]
 LEVELS = ["Core", "Intermediate", "Advanced"]
-LANGUAGE_ON = True  # the useful-language boxes; an article shows them only if it carries a language list
+LANGUAGE_ON = False  # the useful-language boxes are paused; the lists stay in the article files
 FREE_COUNT = 3  # unused; site.json "free_articles" decides what readers who are not signed in can open
 FREE_SLUGS = set()
 DEFAULT_LEVEL = "Intermediate"  # the tab a new reader lands on (the first one if an article has no Intermediate)
