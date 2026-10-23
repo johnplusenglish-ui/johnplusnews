@@ -1218,6 +1218,41 @@ def write(rel, text):
     p.write_text(text, encoding="utf-8")
 
 
+def last_changed(content_dir, slug, fallback):
+    """The day an article's file was last committed, for the sitemap. A file git does not know about uses its publish date."""
+    for path in content_dir.glob("*-{}.md".format(slug)):
+        try:
+            out = subprocess.run(["git", "log", "-1", "--format=%cs", "--", path.name], cwd=str(content_dir),
+                                 capture_output=True, text=True, timeout=20).stdout.strip()
+            if re.fullmatch(r"\d{4}-\d{2}-\d{2}", out):
+                return out
+        except (OSError, subprocess.SubprocessError):
+            pass
+    return str(fallback)
+
+
+def sitemap_xml(arts, topics, content_dir):
+    """Every page a search engine should know about. The My words and Teacher view pages are left out: they are for signed-in readers and are marked noindex."""
+    base = SITE["url"].rstrip("/")
+    changed = {a["slug"]: last_changed(content_dir, a["slug"], a["date"]) for a in arts}
+    newest = max(changed.values()) if changed else None
+    rows = [("/", newest)]
+    rows += [("/free/", None)]
+    for t in topics:
+        rows.append(("/tags/{}/".format(t["slug"]), max((changed[a["slug"]] for a in t["arts"]), default=None)))
+    rows += [("/about/", None), ("/contact/", None), ("/privacy/", None), ("/terms/", None)]
+    rows += [(url_of(a), changed[a["slug"]]) for a in arts]
+    out = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for path, mod in rows:
+        out.append("  <url><loc>{}</loc>{}</url>".format(esc(base + path), "<lastmod>{}</lastmod>".format(mod) if mod else ""))
+    out.append("</urlset>")
+    return "\n".join(out) + "\n"
+
+
+def robots_txt():
+    return "User-agent: *\nAllow: /\n\nSitemap: {}/sitemap.xml\n".format(SITE["url"].rstrip("/"))
+
+
 def attach_thumbs(arts, static_dir):
     """Cards use images/thumbs/<same file name> when it exists, so the gallery loads small files."""
     for a in arts:
@@ -1272,6 +1307,8 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
     write("words/index.html", account_page("/words/", "My words", "words", "The words and phrases you have highlighted in articles, saved to your account."))
     write("teacher/index.html", account_page("/teacher/", "Teacher view", "teacher", "The words your students have saved, and what they have read."))
     write("articles.json", json.dumps({a["slug"]: {"title": a["title"]} for a in arts}, ensure_ascii=False))
+    write("sitemap.xml", sitemap_xml(arts, topics, content_dir))
+    write("robots.txt", robots_txt())
     write("404.html", not_found_page())
     for i, a in enumerate(arts):
         newer = arts[i - 1] if i > 0 else None

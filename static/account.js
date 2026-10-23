@@ -284,7 +284,8 @@
     function link(text, to) { var b = el("button", "acct-link", text); b.type = "button"; b.addEventListener("click", function () { if (to) openDialog(to); else closeDialog(); }); return b; }
     if (mode === "signin") { alt.appendChild(link("Create an account", "signup")); alt.appendChild(link("Forgotten your password?", "forgot")); }
     if (mode === "signup" || mode === "forgot") alt.appendChild(link("I already have an account", "signin"));
-    if (mode === "signin" || mode === "signup") alt.appendChild(link("Not now, just read", null));
+    // on a locked article, "just read" would promise something the page does not give a guest
+    if (mode === "signin" || mode === "signup") alt.appendChild(link(!me && document.querySelector("article[data-locked]") ? "Not now" : "Not now, just read", null));
     if (alt.firstChild) box.appendChild(alt);
 
     form.addEventListener("submit", function (e) {
