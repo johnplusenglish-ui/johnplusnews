@@ -80,7 +80,7 @@ There is an uncomfortable paradox at the heart of the strikes. By refusing to at
 - Some parents supported the students and others worried about lost lessons. Which worry is stronger, and why?
 - Compare a student protest with a teachers' strike. Which gets more attention, and why?
 - Someone tells you: "They just want a day off." What would you say back?
-- The government promised 3,000 replacement teachers. Why might a promise not settle the argument?
+- What was the worst thing about the building you studied in?
 
 === Advanced before you read ===
 
@@ -90,7 +90,8 @@ There is an uncomfortable paradox at the heart of the strikes. By refusing to at
 
 === Advanced talk about it ===
 
-- The demands are modest, which the article says made them hard to dismiss. Is modesty a strength or a limitation in a protest?
+- What would get you out on the street, and what has not, so far?
 - Argue against this: "Students should finish their exams first and campaign afterwards."
 - Ministers face pressure to contain public spending. How should that constraint change what protesters ask for?
 - What would you have been willing to miss a week of school for?
+

@@ -80,7 +80,7 @@ Cosgrove's irritated train journey therefore points to a familiar paradox: we wa
 - The writer thinks small amounts should be left alone. Where would you draw the line, and why?
 - Compare paying for each other in turns with splitting every bill. Which suits your friendships better, and why?
 - Someone tells you: "Asking for your share is just being honest." What would you say back?
-- Prices have risen. Does that strengthen or weaken the writer's argument?
+- What is the largest amount you would let go without asking for it back?
 
 === Advanced before you read ===
 
@@ -92,5 +92,6 @@ Cosgrove's irritated train journey therefore points to a familiar paradox: we wa
 
 - The writer calls her threshold personal, not universal. Does that make the argument stronger or let it off the hook?
 - Argue against this: "Unwritten rules about money always favour whoever has more of it."
-- Culture and income shape what feels fair here. How should a rule account for that, if it can?
+- Has a friend's way of handling money ever quietly changed how you felt about them?
 - Is there an unwritten rule in your own friendships that you have never said out loud?
+

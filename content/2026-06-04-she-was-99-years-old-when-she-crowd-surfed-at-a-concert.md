@@ -80,7 +80,7 @@ By the time Pauline reflected on the adventure in October 2026, she had celebrat
 - The attempt was carefully planned with the organisers. Does that make it less impressive, or more sensible? Why?
 - Compare Pauline's story with an ordinary 99-year-old's day. Which tells you more about ageing?
 - Someone says: "These videos make the rest of us feel bad." What would you say back?
-- Her grandson films their adventures. Is that a kind thing or a use of her? Give a reason.
+- Would you want your family filming you at 99 and putting it online?
 
 === Advanced before you read ===
 
@@ -90,7 +90,8 @@ By the time Pauline reflected on the adventure in October 2026, she had celebrat
 
 === Advanced talk about it ===
 
-- The writer says the story is not proof that age imposes no limits. Why is that distinction worth making?
+- What do you expect to still be doing at 90, and who would be surprised?
 - Argue against this: "Celebrating one extraordinary pensioner distracts from how badly most older people are treated."
 - The event was arranged, supported and recorded. What does that tell you about what is actually being celebrated?
 - What would you want other people to assume about you at 99, and what would you want them to ask instead?
+

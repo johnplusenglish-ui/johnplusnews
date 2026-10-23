@@ -80,7 +80,7 @@ His experience challenges the assumption that sympathy for a captor always refle
 - Moore informed the FBI and helped set up the operation. Was that justice, or a second betrayal? Why?
 - Compare punishment with rehabilitation. Which does more for a victim, and why?
 - Someone tells you: "Thirty years is the only answer here." What would you say back?
-- Trial evidence showed the guard had more authority than Moore realised. How should that change his view?
+- Would you have replied to that first message?
 
 === Advanced before you read ===
 
@@ -92,5 +92,6 @@ His experience challenges the assumption that sympathy for a captor always refle
 
 - Moore questions the assumption that punishment supplies psychological closure. What would supply it instead?
 - Argue against this: "A victim's feelings should have no bearing on sentencing."
-- He wanted those responsible held to account but was uneasy about a subordinate facing a severe sentence. Is that inconsistent, or precise?
+- Is there someone you would want held to account, but not as harshly as the law would?
 - What would you need before you could consider a matter closed?
+

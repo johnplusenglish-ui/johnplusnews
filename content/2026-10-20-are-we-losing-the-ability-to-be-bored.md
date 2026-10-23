@@ -95,7 +95,7 @@ The more useful question may concern our tolerance for mental silence. If every 
 - Researchers suggest constant novelty makes quiet moments harder to tolerate. Does that match your experience? Why?
 - Compare being bored in a queue with being bored at work. What is different?
 - Someone tells you: "Just put the phone down." Why is that harder than it sounds?
-- The article is a perspective, not an experiment. What would an experiment need to show?
+- When did you last do nothing at all? How long did it last?
 
 === Advanced before you read ===
 
@@ -107,5 +107,6 @@ The more useful question may concern our tolerance for mental silence. If every 
 
 - Someone can be busy and deeply bored if the activity feels meaningless. What does that do to the usual advice?
 - Argue against this: "Boredom is a luxury complaint from people with enough free time to notice it."
-- Treating all screen time as interchangeable obscures real differences. Which differences matter most?
+- Which screen time leaves you feeling better, and which leaves you worse? How can you tell?
 - When did an empty hour last lead you somewhere useful?
+

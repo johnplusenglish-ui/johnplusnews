@@ -80,7 +80,7 @@ Medicine advances not only through spectacular recoveries but through the steady
 - Patients who practised more with the goggles did better. What does that add to the result?
 - Compare this treatment with a pair of glasses. What makes one simple and the other difficult?
 - Someone tells you: "Small trials prove nothing." What would you say back?
-- The study had ten patients and no comparison group. Why does that matter for what we can claim?
+- Ten patients took part. Would you want to be one of the first, or wait for the hundredth?
 
 === Advanced before you read ===
 
@@ -90,7 +90,8 @@ Medicine advances not only through spectacular recoveries but through the steady
 
 === Advanced talk about it ===
 
-- The trial was small, open-label and uncontrolled. What exactly can it establish, and what can it not?
+- Six of ten improved, but nobody could recognise a face. Would you call that getting your sight back?
 - Argue against this: "Reporting early-stage trials gives false hope and should be restrained."
 - Independent researchers welcomed evidence of lasting visual function. Why is duration the interesting part?
 - What would you want to know before agreeing to be patient number one?
+

@@ -81,7 +81,7 @@ At a time when public libraries are frequently required to justify their existen
 - The library lends 850 sets of equipment alongside its books. Is that still a library? Why?
 - Compare buying a tent with borrowing one. What changes besides the cost?
 - Someone tells you: "People will not look after things they do not own." What would you say back?
-- The building uses solar panels and geothermal heating. Does that strengthen the message, or is it decoration?
+- What would you borrow from a library if you could borrow anything?
 
 === Advanced before you read ===
 
@@ -91,7 +91,8 @@ At a time when public libraries are frequently required to justify their existen
 
 === Advanced talk about it ===
 
-- The writer calls this the library's oldest principle extended. Is that persuasive, or a nice way to justify an expensive scheme?
+- What do you own that you have used fewer than five times?
 - Argue against this: "Lending gear is a middle-class convenience dressed as equality."
 - Environmental knowledge does not automatically change behaviour. What would have to accompany the tents?
 - What would you borrow that you have talked yourself out of buying?
+

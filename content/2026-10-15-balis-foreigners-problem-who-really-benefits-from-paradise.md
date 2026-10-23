@@ -82,7 +82,7 @@ For Bali, the challenge is to move beyond the false choice between unrestricted 
 - Bali restricted foreign investment in 18 business categories. Is that protection or protectionism? Why?
 - Compare a tourist who stays a week with a remote worker who stays a year. Which affects a neighbourhood more?
 - Someone tells you: "Without tourism there would be no jobs at all." What would you say back?
-- 342 people were deported for various violations. Why is it misleading to call them all influencers?
+- Have you been somewhere that felt built for visitors rather than residents? How could you tell?
 
 === Advanced before you read ===
 
@@ -92,7 +92,8 @@ For Bali, the challenge is to move beyond the false choice between unrestricted 
 
 === Advanced talk about it ===
 
-- The writer frames this as control rather than foreigners against locals. Does that reframing help, or soften a real conflict?
+- Would you take a job that existed only because foreigners had moved in?
 - Argue against this: "Restricting foreign business punishes outsiders for a failure of local planning."
 - Indonesian creators say the issue is fair competition. What would fair competition actually require?
 - Would you move somewhere knowing your presence raised the cost of living for people already there?
+

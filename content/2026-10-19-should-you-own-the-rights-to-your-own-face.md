@@ -84,7 +84,7 @@ The Danish initiative illustrates a genuine shift in the meaning of privacy. It 
 - Taking a video off one platform achieves little if copies spread. What would actually work?
 - Compare parody of a politician with a fake video of a private person. What makes them different?
 - Someone tells you: "If you post photos online, you accept the risk." What would you say back?
-- The Danish law was still a proposal. Why does that distinction matter in reporting?
+- Would you recognise a fake video of yourself? What would give it away?
 
 === Advanced before you read ===
 

@@ -78,7 +78,7 @@ Perhaps the renewed enthusiasm for the 1990s tells us less about what life was a
 - The article says the appeal may be the limits these objects impose. Do you find limits freeing or frustrating? Why?
 - Compare a film camera with a phone camera. What do you gain and lose with each?
 - Someone tells you: "This is just fashion, and it will pass." What would you say back?
-- The 1990s also had wars, inequality and the AIDS crisis. Why do those parts rarely appear in the nostalgia?
+- Which decade do you feel nostalgic for, and were you even there?
 
 === Advanced before you read ===
 
@@ -90,5 +90,6 @@ Perhaps the renewed enthusiasm for the 1990s tells us less about what life was a
 
 - The writer calls analogue inconvenience a form of freedom. Is that insight, or a comfortable story for people with choices?
 - Argue against this: "Romanticising the 1990s erases everyone the decade treated badly."
-- Tate's exhibition reframes the decade as contested rather than golden. What does a museum gain by doing that?
+- What object from your past would you actually go back to using?
 - What limit would you willingly accept in your own life, and why have you not accepted it yet?
+

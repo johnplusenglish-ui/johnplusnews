@@ -81,7 +81,7 @@ Ukraine's experience points to a broader lesson. A culture is not only a collect
 - The company adapts old patterns rather than copying them. Is that preservation or reinvention? Why?
 - Compare a museum collection with a working workshop. Which keeps a skill alive, and why?
 - Someone tells you: "Selling culture as luxury helps the rich, not the craft." What would you say back?
-- Handmade goods may be unaffordable for many. Does that undermine the project?
+- What would you pay more for, if you knew it kept a skill alive?
 
 === Advanced before you read ===
 
@@ -93,5 +93,6 @@ Ukraine's experience points to a broader lesson. A culture is not only a collect
 
 - The artisans sell rather than catalogue their work. What does that commercial footing protect, and what does it put at risk?
 - Argue against this: "Turning craft into luxury goods is preservation for people who can afford it."
-- A craft rarely dies in a single event. What actually kills one, and what would stop it?
+- Is there a skill in your family that stopped with you?
 - What from your own culture would you want sold, and what would you want left alone?
+

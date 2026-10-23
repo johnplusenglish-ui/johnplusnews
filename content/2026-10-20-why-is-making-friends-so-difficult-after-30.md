@@ -91,10 +91,10 @@ Perhaps friendship deserves to be understood as essential social infrastructure 
 
 === Intermediate talk about it ===
 
-- School supplied repeated contact for free. What would recreate that as an adult?
+- What gave you your oldest friendship, and could that happen to you now?
 - Compare keeping an old friendship with starting a new one. Which takes more effort, and why?
 - Someone tells you: "Just join a club." Why is that harder than it sounds?
-- The WHO found loneliness highest among younger adults. Why might that be surprising?
+- Who was the last new friend you made, and how did it happen?
 
 === Advanced before you read ===
 

@@ -93,5 +93,6 @@ For all its fictional physics, Project Hail Mary makes a serious argument about 
 
 - The film's optimism comes from testing assumptions rather than assuming success. Is that a meaningful distinction?
 - Argue against this: "Audiences learn bad science from good films, and the charm makes it worse."
-- Astrophysicists question the energy Astrophage would store. Does a known impossibility matter if the method is right?
+- Which film last made you look something up afterwards?
 - What would a film have to get wrong before you stopped enjoying it?
+

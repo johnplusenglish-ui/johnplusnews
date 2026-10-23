@@ -80,7 +80,7 @@ The most refreshing aspect of the research may be its challenge to the moral lan
 - The strongest result was about eighty-seven minutes, not a whole morning. Why might the amount matter so much?
 - Compare a weekday morning with a weekend one. What actually changes, besides the alarm?
 - Someone tells you: "Sleep advice is just another way to make people feel they are failing." What would you say back?
-- The study shows a link, not a cause. What else could explain the connection?
+- Do you catch up at the weekend, and does it actually work for you?
 
 === Advanced before you read ===
 
@@ -92,5 +92,6 @@ The most refreshing aspect of the research may be its challenge to the moral lan
 
 - The writer says an association is not a prescription. Why do health stories so often lose that distinction?
 - Argue against this: "If catch-up sleep helps, the real problem is the working week, not the lie-in."
-- The finding challenges the idea that all variation in sleep timing is harmful. What would it take to change standard advice?
+- Would you give up your lie-in if the evidence told you to? Be honest.
 - Is there a health rule you follow without ever having checked the evidence for it?
+

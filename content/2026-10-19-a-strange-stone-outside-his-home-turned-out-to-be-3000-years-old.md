@@ -96,5 +96,6 @@ The episode also challenges the image of archaeology as a pursuit reserved for d
 
 - The episode challenges the image of archaeology as the work of distant experts. What follows from that, practically?
 - Argue against this: "Rewarding finders encourages digging, and digging destroys context."
-- A pink granite block with hieroglyphs came up too. What makes an inscription worth more than a statue?
+- What have you walked past a hundred times without ever looking at properly?
 - What would make you report a find rather than keep it?
+

@@ -78,7 +78,7 @@ The ethical challenge extends beyond one traveller. Satellite imagery, drones an
 - Even an ordinary infection can be serious for an isolated community. How should that shape the law?
 - Compare a documentary made with a community with footage taken without asking. What exactly differs?
 - Someone tells you: "The world should see these places." What would you say back?
-- Some Indigenous groups use media themselves. Why does that matter to this argument?
+- Would you watch the video, knowing how it was made?
 
 === Advanced before you read ===
 
@@ -88,7 +88,8 @@ The ethical challenge extends beyond one traveller. Satellite imagery, drones an
 
 === Advanced talk about it ===
 
-- The writer says public interest cannot be established by the fact that an image attracts attention. What would establish it?
+- Is there footage you would refuse to watch, however famous it became?
 - Argue against this: "Filming uncontacted people is simply the oldest kind of exploitation with a new camera."
 - Drones and satellites make remote places visible. What should be forbidden even when it is easy?
 - What would you want recorded about your own community, and by whom?
+

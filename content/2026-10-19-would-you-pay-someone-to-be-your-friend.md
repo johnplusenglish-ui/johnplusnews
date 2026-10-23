@@ -104,7 +104,8 @@ It would be simplistic, however, to write the industry off as proof that friends
 
 === Advanced talk about it ===
 
-- The writer says these companions simply put a price on what social life already involved. Does that reframing hold?
+- What would you happily pay someone to do with you?
 - Argue against this: "A companionship market is a symptom to treat, not a service to admire."
 - Remaining attentive and cheerful for a stranger is called genuinely demanding. Why is that work so easy to undervalue?
 - What do your friendships quietly ask of you that you have never named?
+

@@ -92,7 +92,7 @@ The research is therefore neither a universal prescription nor an excuse to writ
 - The gains followed a reorganisation of tasks and meetings, not goodwill. Why does that matter for copying the model?
 - Compare a four-day week in an office with one in a hospital. What changes?
 - Someone tells you: "If it worked, everyone would be doing it." What would you say back?
-- The companies volunteered. How does that affect what the study proves?
+- Would your workplace have volunteered for this? What does your answer say about it?
 
 === Advanced before you read ===
 
@@ -104,5 +104,6 @@ The research is therefore neither a universal prescription nor an excuse to writ
 
 - Extended beyond willing employers, the questions become staffing, contracts and unpaid care. Which worries you most?
 - Argue against this: "A four-day week is a benefit for knowledge workers funded by everyone else."
-- Self-selected participants and non-random comparisons limit the findings. What study would settle it?
+- Would you trade a day's pay for a day off, if it came to that?
 - What would you actually do with the fifth day, honestly?
+

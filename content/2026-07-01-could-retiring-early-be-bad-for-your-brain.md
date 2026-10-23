@@ -81,7 +81,7 @@ Perhaps the most productive question is therefore not whether to retire early, b
 - Thinking skills slipped while sleep and mood improved. How would you weigh those against each other, and why?
 - Compare retiring at sixty with retiring at sixty-seven. What changes besides money?
 - Someone tells you: "Work keeps you sharp, so retire as late as you can." What would you say back?
-- The study looked at one group of German women. Why does that limit what it can tell us?
+- If you stopped work tomorrow, what would you miss first: the money, the routine or the people?
 
 === Advanced before you read ===
 
@@ -93,5 +93,6 @@ Perhaps the most productive question is therefore not whether to retire early, b
 
 - The study found weaker flexible thinking alongside genuine health gains. Which finding would you put in a headline, and what does that choice reveal?
 - Argue against this: "If retirement dulls the mind, people should simply work longer."
-- A reform created a natural experiment. What can that design show that a survey cannot, and what can it still not prove?
+- What would you want to keep from working life even after you stopped being paid for it?
 - What would you need in place before you could retire without losing something important?
+

@@ -94,5 +94,6 @@ The more consequential shift may therefore concern how holidays are organised, r
 
 - Tourism pressure does not become sustainable by moving north. Where does the pressure actually go?
 - Argue against this: "The coolcation is a media label attached to ordinary variation in travel."
-- Lofoten already has congestion and arguments over who pays for infrastructure. What should a destination do before it becomes popular?
+- Would you give up a beach for somewhere cooler and quieter? What would you miss?
 - Would you change where you travel because of climate, or only because of comfort?
+

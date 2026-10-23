@@ -84,7 +84,7 @@ Even with those qualifications, the café offers a valuable example of local pro
 - The café cannot collect all the city's plastic. Does that make it a failure, or the wrong measure?
 - Compare paying people to collect waste with stopping it being produced. Which matters more, and why?
 - Someone tells you: "Giving meals for rubbish is charity dressed as policy." What would you say back?
-- Ambikapur also has wider waste schemes. Why does that context change the story?
+- Would you sort your rubbish for a free meal?
 
 === Advanced before you read ===
 
@@ -94,7 +94,8 @@ Even with those qualifications, the café offers a valuable example of local pro
 
 === Advanced talk about it ===
 
-- The writer says the real achievement lies in the relationships it exposes between waste, work and worth. What relationships does it expose?
+- Who collects your rubbish, and have you ever spoken to them?
 - Argue against this: "Trading food for plastic makes poverty a collection service."
 - Collecting more waste is not preventing it. What policy would address the second?
 - What would you be willing to sort, carry or return if the system made it worth doing?
+

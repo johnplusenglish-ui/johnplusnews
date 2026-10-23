@@ -80,7 +80,7 @@ Beyond the improbable hiding place, the case exposed a vulnerability shared by m
 - A cover left behind carried DNA that identified a suspect. What does that say about planning a crime today?
 - Compare stealing a painting with stealing money. Which is harder to turn into a profit, and why?
 - Someone tells you: "They were caught, so the system worked." What would you say back?
-- Four men received preliminary charges. Why is that not the same as a conviction?
+- They were named before any trial. Would that bother you, if it were your brother?
 
 === Advanced before you read ===
 
@@ -92,5 +92,6 @@ Beyond the improbable hiding place, the case exposed a vulnerability shared by m
 
 - The paintings were recovered but damaged. How should a museum weigh display against risk after that?
 - Argue against this: "Works this valuable belong in secure storage, not on a wall."
-- The writer warns against treating allegations as established facts. Where is that temptation strongest in a story like this?
+- What would you do with a painting you could never sell or show to anyone?
 - What would you accept losing to keep something open to the public?
+

@@ -84,7 +84,7 @@ Nordelta's capybaras may look amusing in photographs, but they pose an uncomfort
 - Residents worry about pets, gardens and road accidents. Are those concerns fair? Why?
 - Compare moving the animals with changing how people live there. Which is realistic, and why?
 - Someone tells you: "They are rodents and they are a pest." What would you say back?
-- A resident was filmed firing at them. What should happen next?
+- Would you want them on your street, or only in photographs?
 
 === Advanced before you read ===
 
@@ -96,5 +96,6 @@ Nordelta's capybaras may look amusing in photographs, but they pose an uncomfort
 
 - The writer says whoever controls the vocabulary is halfway to winning. Which words in this story are doing the most work?
 - Argue against this: "Residents who bought into a wetland development have no standing to complain."
-- Evidence-based management must be separated from assumption. What evidence would you want first?
+- Which animal near you gets called a pest, and who decided that?
 - What word have you heard used to settle an argument that should have stayed open?
+

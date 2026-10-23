@@ -80,7 +80,7 @@ The broader implications extend through museum collections worldwide. Artefacts 
 - Greece refuses any deal that recognises British ownership. Is that principle worth losing the sculptures over? Why?
 - Compare a permanent return with a long loan. What does each side gain and lose?
 - Someone tells you: "Return these and every museum empties." What would you say back?
-- A British law blocks permanent transfer. Should a law like that be changed for one case?
+- If something from your country sat in a foreign museum, would you want it back or want it seen?
 
 === Advanced before you read ===
 
@@ -92,5 +92,6 @@ The broader implications extend through museum collections worldwide. Artefacts 
 
 - Osborne proposes rotation; Athens calls the Parthenon an exception. Which position is more defensible, and why?
 - Argue against this: "Each case is different, so sweeping restitution rules are impossible."
-- Mitsotakis says reunification is not an argument for emptying museums. Does that distinction hold?
+- Does your family argue about who should keep something? Same fight, smaller scale.
 - If your country held a contested object, what would persuade you to give it back?
+

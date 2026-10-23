@@ -80,7 +80,7 @@ Japan's dilemma is not unique. Ageing societies must find ways to sustain public
 - Japan has a word for death from overwork. What does having that word change?
 - Compare a legal limit on overtime with a change in what managers expect. Which would work faster, and why?
 - Someone tells you: "If workers want longer hours, let them." What would you say back?
-- 30% wanted fewer hours and about 11% wanted more. How should a government act on a split like that?
+- Would you leave at five if your manager was still at their desk?
 
 === Advanced before you read ===
 
@@ -92,5 +92,6 @@ Japan's dilemma is not unique. Ageing societies must find ways to sustain public
 
 - September's change was to guidance, not statute. Why did it still alarm people who campaigned for reform?
 - Argue against this: "Flexibility for those who want longer hours is freedom, not a loophole."
-- A shrinking workforce is testing reforms meant to separate commitment from presence. Which pressure wins, and why?
+- What does being seen at your desk say about you where you work?
 - What would you have to see in a workplace before you believed its stated culture?
+

@@ -78,7 +78,7 @@ The question of when he ought to stop remains open. The competitive landscape ha
 
 === Intermediate talk about it ===
 
-- Runners complained about water shortages and crowding at the same race. How should those two stories be reported together?
+- Which would ruin a race for you: finishing slowly, or running out of water?
 - Compare an elite athlete's race with an ordinary runner's. Who is the event actually for?
 - Someone tells you: "One good result does not mean he has beaten age." What would you say back?
 - His 2019 sub-two-hour run did not count as a record. Should it have?
@@ -91,7 +91,8 @@ The question of when he ought to stop remains open. The competitive landscape ha
 
 === Advanced talk about it ===
 
-- The writer says one result cannot erase the consequences of age. Why is that worth saying about a winner?
+- What are you better at now than you were ten years ago?
 - Argue against this: "Celebrating one 41-year-old's win tells us nothing about ageing and everything about selection."
 - The elite race succeeded while the mass event struggled. What does that gap reveal about priorities?
 - What would make you decide it was time to stop doing something you were still good at?
+

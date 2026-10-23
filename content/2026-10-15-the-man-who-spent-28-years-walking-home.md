@@ -78,7 +78,7 @@ The public celebration of extraordinary endurance can gloss over a more difficul
 - He swam the Channel because he could not walk through the tunnel. What does that say about his rules?
 - Compare a goal that takes a month with one that takes thirty years. What does each demand?
 - Someone tells you: "He should have stopped years ago." What would you say back?
-- He was arrested for crossing a border unofficially. Should rules bend for an expedition?
+- Could you keep a promise to yourself for 28 years? Which one would it be?
 
 === Advanced before you read ===
 

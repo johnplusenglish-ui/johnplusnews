@@ -92,5 +92,6 @@ Support exists, as Read Easy demonstrates, but it is of little use to anyone too
 
 - Peter was partially deaf and left school without qualifications. How much of this story is about reading, and how much about the system around him?
 - Argue against this: "Adult literacy is a personal problem, not a public one."
-- The article says limited reading is no measure of intelligence. Why does that need saying at all?
+- Who would you tell first if you needed help with something most adults can do?
 - What have you worked hard to hide, and what would it take to ask for help with it?
+

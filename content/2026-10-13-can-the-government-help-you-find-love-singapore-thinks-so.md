@@ -81,7 +81,7 @@ There is also something refreshing about a dating service that declines to maxim
 - The service is open only to public servants. Is that sensible testing or unfair? Why?
 - Compare one match a month with unlimited swiping. Which would you prefer, and why?
 - Someone tells you: "A government knowing your romantic preferences is a step too far." What would you say back?
-- The platform says it does not sell data. Why is that promise more important here than elsewhere?
+- Would you let an algorithm choose one person for you, if it meant no more swiping?
 
 === Advanced before you read ===
 
@@ -91,7 +91,8 @@ There is also something refreshing about a dating service that declines to maxim
 
 === Advanced talk about it ===
 
-- The creators call it a pilot, not an answer to demographics. Why might they be careful to say so?
+- One match, 72 hours, no browsing. Would that make you take it more seriously, or panic?
 - Argue against this: "If commercial apps profit from keeping you single, a public alternative is overdue."
 - Scarcity is the design: one match, 72 hours. What does that assume about how people decide?
 - Where is the line, for you, between a government helping and a government arranging?
+

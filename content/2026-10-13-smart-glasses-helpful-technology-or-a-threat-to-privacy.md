@@ -78,7 +78,7 @@ The most credible regulatory options include clearer recording indicators, minim
 - The Greens' proposal has an exception for disability devices. Is that exception workable, or easy to abuse? Why?
 - Compare smart glasses with a phone camera. Why do the glasses worry people more?
 - Someone tells you: "A ban on imports solves nothing, people will buy them online." What would you say back?
-- The federal government chose consultation instead of a ban. Which approach suits a fast-moving technology better?
+- Would you wear them? And would you tell people you were?
 
 === Advanced before you read ===
 
@@ -90,5 +90,6 @@ The most credible regulatory options include clearer recording indicators, minim
 
 - Disability advocates warn a crackdown could remove a genuine aid. How should a lawmaker weigh that against the risk of covert filming?
 - Argue against this: "Enforcement is impossible, so the only honest response is to regulate the footage, not the device."
-- The article stresses this was a proposal, not a law. Why does reporting so often blur that line?
+- Who in your life would you not want wearing these, and why them?
 - Would you change your own behaviour in public if you assumed you were always being recorded?
+

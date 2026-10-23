@@ -92,5 +92,6 @@ None of this undermines the value of entrepreneurship. Small ventures can create
 
 - Low barriers make a business accessible and attention hard to win. Which of those shapes the outcome more?
 - Argue against this: "Promoting side hustles shifts responsibility for low pay onto the low paid."
-- The Guardian journalist tested several methods and found costs ate the profit. What would honest advertising for these schemes look like?
+- Have you ever tried to make money from something you enjoyed? What happened to the enjoyment?
 - What would you need to earn from something you enjoy before it stopped being enjoyable?
+

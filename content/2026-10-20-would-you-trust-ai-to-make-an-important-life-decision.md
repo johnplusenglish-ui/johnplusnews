@@ -104,7 +104,8 @@ What matters is maintaining a distinction between support and delegation. A usef
 
 === Advanced talk about it ===
 
-- The writer says the solution is not ruling out AI altogether. What would a sensible boundary look like?
+- What decision would you never hand to a machine, even if it were right more often than you?
 - Argue against this: "If an AI gives better advice than an overworked human, the objection is sentimental."
 - Roughly two-thirds would keep AI out of judgements about love. Is that wisdom or squeamishness?
 - What decision would you refuse to delegate, and to anyone or only to a machine?
+

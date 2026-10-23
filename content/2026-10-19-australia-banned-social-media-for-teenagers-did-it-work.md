@@ -94,5 +94,6 @@ What Australia has created, then, is an international test case rather than a se
 
 - If the harm lies in how platforms are designed, does an age limit address it at all?
 - Argue against this: "A ban in name is not a ban in practice, so the policy is theatre."
-- Compliance figures look impressive and reveal little. What would honest reporting of this policy include?
+- Millions of accounts were deleted. If you were 15, where would you have gone instead?
 - What would convince you the ban had worked, or failed?
+

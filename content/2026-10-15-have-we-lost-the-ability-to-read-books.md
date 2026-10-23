@@ -77,7 +77,7 @@ The practical response may be disarmingly modest. Read something genuinely appea
 
 === Intermediate talk about it ===
 
-- One study says daily reading fell from 28% to 16%; another says three-quarters read something in a year. Why do both matter?
+- Do you finish books, or collect them? Which one did you abandon most recently?
 - Compare reading a novel with scrolling. What does each one train?
 - Someone tells you: "If you wanted to read, you would read." What would you say back?
 - Alderman's plan treats reading like exercise. Why might that framing work?

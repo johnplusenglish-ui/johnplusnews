@@ -80,7 +80,7 @@ Ultimately, The Line raises a question of political as well as architectural jud
 - A report said work was postponed, not cancelled. Why is that difference important?
 - Compare a planned city with one that grew slowly. What does each get right?
 - Someone tells you: "The pictures were always fantasy." What would you say back?
-- Nobody has built a city of this size in a straight line. Why is having no precedent a problem?
+- Would you move into a city that was still being built?
 
 === Advanced before you read ===
 
@@ -92,5 +92,6 @@ Ultimately, The Line raises a question of political as well as architectural jud
 
 - A scheme deferred by a decade re-emerges into changed costs, technology and politics. What is likely to survive of the original idea?
 - Argue against this: "Postponement is cancellation with better public relations."
-- Reporting a delay is not an official cancellation. How should journalists write about projects that never formally end?
+- What have you waited years for that never arrived?
 - What long project would you judge by its finished state rather than its promise?
+

@@ -81,7 +81,7 @@ That is why Abascal's story struck a nerve. The law may establish who has the ri
 - Her case turned private worry into public protest. Why do you think this story spread, and not others?
 - Compare renting with owning in your country. Which gives people more security, and why?
 - Someone tells you: "The law was followed, so there is nothing to protest about." What would you say back?
-- Investment funds now own many flats. Does that change what renting means?
+- Do you feel settled where you live, or temporary? What would change that?
 
 === Advanced before you read ===
 
@@ -93,5 +93,6 @@ That is why Abascal's story struck a nerve. The law may establish who has the ri
 
 - The article is careful not to claim the eviction caused her death. Why does that care matter when feelings are running high?
 - Argue against this: "Rent protection helps the tenants who already have homes and nobody else."
-- Tenant groups want security, regulation and social housing. Which would change the most, and what would it cost?
+- How long would you have to live somewhere before you would call it yours?
 - What would have to be true for housing in your country to feel settled rather than contested?
+

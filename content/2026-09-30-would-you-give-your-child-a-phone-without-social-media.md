@@ -80,7 +80,7 @@ Freckle's most valuable contribution may be less the hardware than the question 
 - The phone protects a child but may shut them out of their friends' group chats. How would you weigh that, and why?
 - Compare a limited phone with clear family rules on a normal phone. Which would work better, and why?
 - Someone tells you: "Just delay it. No child needs a phone at eleven." What would you say back?
-- The camera identifies birds and plants. Is that a real feature or a way of making limits feel generous?
+- What age would you give a child their first phone, and what would you put on it?
 
 === Advanced before you read ===
 
@@ -90,7 +90,8 @@ Freckle's most valuable contribution may be less the hardware than the question 
 
 === Advanced talk about it ===
 
-- The writer says no product settles the trade-off. What is left for parents to decide once the device is chosen?
+- Would you rather your child saw something harmful, or felt left out? You have to pick one.
 - Argue against this: "A locked-down phone just moves the problem to the first unlocked one they get."
 - Family rules, friendship groups and local safety all shape the outcome. Which of those can a product actually influence?
 - What would you have wanted an adult to restrict for you, and what would you have resented?
+

@@ -82,7 +82,7 @@ The controversy illustrates a broader problem in adventure tourism. Paying for p
 - Queues form when expeditions share a weather window. Why is waiting itself dangerous?
 - Compare limiting numbers with raising the price. Which is fairer, and why?
 - Someone tells you: "Everest income matters more than Everest rules." What would you say back?
-- The measures were still being discussed. Why do proposals get reported as rules?
+- If a guide told you to turn back, would you?
 
 === Advanced before you read ===
 
@@ -94,5 +94,6 @@ The controversy illustrates a broader problem in adventure tourism. Paying for p
 
 - A previous 7,000-metre summit is called an imperfect and expensive proxy. What would be a better test, and could it be enforced?
 - Argue against this: "Restricting Everest protects the mountain's reputation, not the people on it."
-- Guides and local communities feel the effect first either way. How should that shape the law?
+- Who do you think should carry the risk: the climber who pays, or the guide who is paid?
 - What risk would you take that you would not want someone else to take for you?
+

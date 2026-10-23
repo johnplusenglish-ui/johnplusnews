@@ -93,7 +93,7 @@ The Canadian response raises a broader ethical question. Individuals are entitle
 - Staying home costs the traveller nothing. Does that make it a weak protest or a clever one? Why?
 - Compare a boycott with a petition. Which gets noticed, and by whom?
 - Someone tells you: "Tourism brings countries together, so this is counterproductive." What would you say back?
-- Not everyone stayed away for political reasons. Why does that complicate the story?
+- Would you stop visiting a country over its politics? For how long?
 
 === Advanced before you read ===
 
@@ -105,5 +105,6 @@ The Canadian response raises a broader ethical question. Individuals are entitle
 
 - The bill arrives at hotel receptions, not in government offices. Does that make the protest unjust, or simply how pressure works?
 - Argue against this: "Boycotts punish the powerless and comfort the people performing them."
-- Winning customers back may take longer than losing them. What does that asymmetry mean for policy?
+- What would bring you back to a place you had decided to avoid?
 - What would you stop buying to make a point, and who would pay for it?
+

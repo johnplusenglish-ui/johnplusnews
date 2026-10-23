@@ -94,7 +94,7 @@ For years, workplace wellbeing has been framed as a question of protecting peopl
 - Rust-out involves boredom and a lack of purpose, unlike burnout. Which would be harder to explain to a manager, and why?
 - Compare adding tasks with changing the kind of task. Which would help more, and why?
 - Someone tells you: "If you are bored, find another job." What would you say back?
-- Financial commitments can make leaving impossible. How does that change the advice?
+- Would you tell anyone if your job had too little in it?
 
 === Advanced before you read ===
 
@@ -106,5 +106,6 @@ For years, workplace wellbeing has been framed as a question of protecting peopl
 
 - The APA points at job design rather than attitude. What would a redesigned role actually change?
 - Argue against this: "Complaining about an easy, well-paid job is a problem most workers would like to have."
-- Being paid to stay available while deprived of influence is not leisure. Why is that distinction easy to miss?
+- Would you take a boring job for more money? For how long?
 - What part of your work would you redesign if you could?
+

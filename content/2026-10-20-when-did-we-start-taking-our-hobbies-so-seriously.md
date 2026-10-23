@@ -106,5 +106,6 @@ Ultimately, the question is who controls the purpose of an activity. A hobby may
 
 - Advice to resist monetising assumes a secure income. How should that shape what we tell people?
 - Argue against this: "Turning a hobby into a business is the only honest way to take it seriously."
-- Platforms make achievement visible and measurable. What does that do to ordinary pleasure?
+- Do you still have one thing you are happy to be bad at?
 - What would you keep doing if nobody ever saw it?
+

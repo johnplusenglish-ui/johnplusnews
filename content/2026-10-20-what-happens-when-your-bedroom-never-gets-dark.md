@@ -94,7 +94,7 @@ There is also a wider policy question. Public lighting supports safety and acces
 - The result was an association, not proof. What else could explain the link?
 - Compare blackout curtains with changing street lighting. Which would help more people, and why?
 - Someone tells you: "Just buy an eye mask." What would you say back?
-- Measuring the light someone receives is difficult. Why does that weaken the findings?
+- What would you have to unplug tonight to make your room properly dark?
 
 === Advanced before you read ===
 
@@ -104,7 +104,8 @@ There is also a wider policy question. Public lighting supports safety and acces
 
 === Advanced talk about it ===
 
-- Observational evidence cannot separate a streetlight from traffic noise or shift work. What study would?
+- A streetlight, traffic noise and an early shift all arrive together. Which would you blame for your worst night's sleep?
 - Argue against this: "Advising blackout blinds privatises a problem created by public lighting."
 - The 27% figure is a relative association, not an individual risk. Why do such numbers travel so well?
 - What in your environment do you treat as fixed that could be changed?
+

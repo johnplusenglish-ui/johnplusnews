@@ -80,7 +80,7 @@ Perhaps the more revealing question is why we continually turn familiar foods in
 - Fifty varieties in one shop. Is that choice, or is it marketing? Why?
 - Compare this trend with another food fashion you have seen. What did they have in common?
 - Someone tells you: "If it tastes better, who cares why it is popular?" What would you say back?
-- The article notes the nutritional concerns have not gone away. Why do trends tend to leave that part out?
+- What is the most you have paid for an everyday food, and was it worth it?
 
 === Advanced before you read ===
 

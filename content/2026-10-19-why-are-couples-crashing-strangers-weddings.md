@@ -91,10 +91,10 @@ What makes the phenomenon more than an amusing social-media story is the way it 
 
 === Intermediate talk about it ===
 
-- Guests and couples may feel uncomfortable with strangers present. Does the research justify that? Why?
+- Would you mind strangers watching your wedding to check the venue?
 - Compare an official tour with watching a real event. What does each one hide?
 - Someone tells you: "The venue should offer supervised visits and the problem disappears." Would that work?
-- Deposits are large and hard to recover. How much does that explain the behaviour?
+- Would you lose a deposit rather than go ahead with a venue you doubted?
 
 === Advanced before you read ===
 
@@ -106,5 +106,6 @@ What makes the phenomenon more than an amusing social-media story is the way it 
 
 - The writer suggests the industry helped create the behaviour it finds awkward. How exactly?
 - Argue against this: "If a venue sells an experience, buyers are entitled to inspect it."
-- Research can establish how a hall functions but not how an evening will feel. Where does that leave a couple?
+- What would you need to see before spending a year's savings on one day?
 - What decision have you over-researched, and did it help?
+

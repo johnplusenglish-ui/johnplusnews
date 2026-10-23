@@ -92,7 +92,7 @@ A more deliberate approach to alerts could restore some control over concentrati
 
 === Intermediate talk about it ===
 
-- The study measured a short-term effect in a controlled task. Why is that not the same as lasting damage?
+- How many notifications are waiting on your phone right now?
 - Compare an interruption from a person with one from a phone. Which is easier to recover from, and why?
 - Someone tells you: "Seven seconds is nothing." What would you say back?
 - The effect varied with how relevant the notification seemed. What does that suggest about solutions?
@@ -105,7 +105,8 @@ A more deliberate approach to alerts could restore some control over concentrati
 
 === Advanced talk about it ===
 
-- The writer rejects both the panic and the dismissal. What is the more precise account of distraction?
+- Would you turn off every alert for a week? What would you be afraid of missing?
 - Argue against this: "Designing out interruptions is a management problem dressed as neuroscience."
 - Notifications communicate an expectation of attention, not just information. Who set that expectation?
 - Which interruption in your day would you design out first?
+

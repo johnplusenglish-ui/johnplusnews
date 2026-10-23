@@ -92,7 +92,7 @@ The evidence therefore supports a measured conclusion. Natural environments can 
 
 === Intermediate talk about it ===
 
-- Evidence was strong for mood and weak for memory. Why might one be easier to measure than the other?
+- Does a walk actually change your mood, or do you just believe it does?
 - Compare a walk alone with a walk with a friend. Which does more, and why?
 - Someone tells you: "Just go outside, it is free." What would you say back?
 - Weather, mobility and work limit people's choices. Whose responsibility is that?
@@ -107,5 +107,6 @@ The evidence therefore supports a measured conclusion. Natural environments can 
 
 - Findings are averages, not guarantees. How should that shape public advice?
 - Argue against this: "Green prescribing moves responsibility for health onto individuals and off services."
-- The writer calls this a planning question as much as a personal one. What would change in planning?
+- How far is your nearest green space, and when were you last in it?
 - What would have to change near you before a daily walk were realistic?
+

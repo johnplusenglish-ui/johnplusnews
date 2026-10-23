@@ -105,5 +105,6 @@ Perhaps the debate should move beyond deciding whether quiet quitting is virtuou
 
 - Bargaining power decides who can set a boundary safely. How should that shape the public argument?
 - Argue against this: "Quiet quitting is a media label for ordinary employment terms being honoured."
-- An employee's right to boundaries does not remove duties to colleagues. Where is the line?
+- Who at your work could set a boundary without paying for it, and who could not?
 - What have you agreed to at work that you would renegotiate now?
+

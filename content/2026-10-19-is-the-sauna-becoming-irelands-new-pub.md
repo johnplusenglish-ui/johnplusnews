@@ -82,7 +82,7 @@ Nevertheless, the trend raises a more substantial question than whether saunas a
 - Everyone puts their phone away before going in. How much of the effect is that single rule?
 - Compare a booked sauna session with dropping into a pub. What does each make possible?
 - Someone tells you: "This is wellness marketing, not community." What would you say back?
-- Cold water and heat carry real risks. How should that sit alongside the social benefits?
+- Where do you see people without arranging it first?
 
 === Advanced before you read ===
 
@@ -92,7 +92,8 @@ Nevertheless, the trend raises a more substantial question than whether saunas a
 
 === Advanced talk about it ===
 
-- The writer says warmth and sociability are not the same thing as community. What is the difference, concretely?
+- What would make you walk into a place alone, with nobody expecting you?
 - Argue against this: "Commercial wellness is simply charging people for what used to be free."
 - A booked session removes the unplanned dropping in. Does that matter, or is it an improvement?
 - Where in your life do you meet people you did not arrange to meet?
+

@@ -97,5 +97,6 @@ Portugal's coastal controversy demonstrates that tourism policy is not only a ma
 
 - Coastlines become valuable because earlier generations shared them. What follows from that for who should profit now?
 - Argue against this: "Commercial management is the only way crowded beaches survive."
-- Managed facilities, restricted routes and private ownership are different things. Why do they get conflated?
+- Is there a place near you that used to be free? What happened to it?
 - What shared place near you would you fight to keep open, and to whom?
+

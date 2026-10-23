@@ -106,5 +106,6 @@ Seville's balconies therefore offer a revealing example of a wider tension. Cult
 
 - A balcony let to visitors is one a family no longer watches from. Is that a loss the city should act on?
 - Argue against this: "Charging for the best views funds the traditions everyone else enjoys free."
-- Supply of central balconies is fixed. What does that mean for where the price settles?
+- Would you rent out your window for a week's wages? What would stop you?
 - What local tradition would you protect from pricing, and how?
+

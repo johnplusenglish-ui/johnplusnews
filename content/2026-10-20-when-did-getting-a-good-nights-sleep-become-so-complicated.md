@@ -96,7 +96,7 @@ The deeper issue is cultural. We increasingly quantify ordinary human experience
 - A score to one decimal place suggests precision the method may not have. Why is that persuasive anyway?
 - Compare a tracker with simply noticing how you feel. Which is more useful, and why?
 - Someone tells you: "If the data says you slept badly, you slept badly." What would you say back?
-- Orthosomnia came from case reports, not a general finding. What does that limit?
+- Would you keep wearing a tracker that kept telling you bad news?
 
 === Advanced before you read ===
 

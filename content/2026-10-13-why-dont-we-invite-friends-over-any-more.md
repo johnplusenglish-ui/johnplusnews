@@ -90,5 +90,6 @@ What may need reviving is not the elaborate dinner party but the modest invitati
 
 - The writer says domestic perfection turned friendship into a test. Who set that standard, and who benefits from it?
 - Argue against this: "People stopped hosting because their homes got smaller and their rents got higher, not because of Instagram."
-- Caren's research finds Friday nights now look like any weeknight. What has replaced them?
+- When did you last have someone round with no tidying and no cooking? How did it go?
 - What would you have to stop caring about before you invited someone over tonight?
+

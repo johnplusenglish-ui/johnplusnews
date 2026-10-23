@@ -80,7 +80,7 @@ The solution is not a campaign to make every commuter talkative. Silence can be 
 - The article says we expect these conversations to go worse than they do. Has that been true for you? Why?
 - Compare a city you know with a smaller town. Where do strangers talk more, and why?
 - Someone tells you: "Leave people alone, they have headphones on for a reason." What do you say back?
-- Whose job is it to start a conversation: the person who is bored, or the person who looks friendly?
+- When did a stranger last speak to you? Were you glad, or did you wish they hadn't?
 
 === Advanced before you read ===
 
@@ -92,5 +92,6 @@ The solution is not a campaign to make every commuter talkative. Silence can be 
 
 - The writer admits some people feel unsafe when approached. Does that weaken the argument, or make it more honest?
 - Argue against this: "Talking to strangers is a nostalgic hobby for people who are not at risk."
-- Is the decline a personal failing, or the result of how public space is now designed?
+- Who was the last stranger you spoke to for more than a minute, and what made it possible?
 - Which of your own habits makes you harder to approach, and would you give it up?
+

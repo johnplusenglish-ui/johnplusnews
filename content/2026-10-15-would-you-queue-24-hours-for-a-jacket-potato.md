@@ -92,5 +92,6 @@ None of this means the food is poor or that customers are foolish. SpudBros has 
 
 - The writer says none of this means the food is poor or customers foolish. Why is that worth stating?
 - Argue against this: "Social media fame is a tax on small businesses, not a gift."
-- Research suggests visible approval shapes food choices. What does that do to our sense of taste?
+- Would you queue an hour for food? Where is your limit?
 - What have you queued for, and what were you really buying?
+

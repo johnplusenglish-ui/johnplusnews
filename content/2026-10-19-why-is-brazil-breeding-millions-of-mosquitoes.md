@@ -92,7 +92,7 @@ The larger lesson is that the relationship between humans and disease vectors is
 - The mosquitoes still bite but transmit dengue far less. Why does that distinction matter for public trust?
 - Compare releasing Wolbachia mosquitoes with spraying insecticide. What are the trade-offs?
 - Someone tells you: "Do not release anything you cannot recall." What would you say back?
-- A fall in dengue can have several causes. How should authorities prove this one worked?
+- Would you let them release mosquitoes on your street? What would you need to hear first?
 
 === Advanced before you read ===
 
@@ -104,5 +104,6 @@ The larger lesson is that the relationship between humans and disease vectors is
 
 - An individual can refuse a treatment but nobody can opt out of the mosquitoes in their street. How should consent work at that scale?
 - Argue against this: "Self-spreading interventions should need a higher standard of proof than any drug."
-- It is biological control, not a claim the insects are harmless. Why is that wording so carefully chosen?
+- Would you trust an official who said the mosquitoes were safe? What would change your mind?
 - What public measure would you accept without being asked, and where is your limit?
+

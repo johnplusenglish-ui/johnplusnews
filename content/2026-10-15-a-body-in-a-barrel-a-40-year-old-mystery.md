@@ -77,7 +77,7 @@ Receding water revealed what someone had attempted to hide, while DNA analysis r
 
 === Intermediate talk about it ===
 
-- Detectives warned that a dramatic setting is not evidence. Why is that warning easy to ignore?
+- You hear a true-crime story with a great theory and no proof. Do you keep listening?
 - Compare what DNA solved here with what it did not. Which gap matters more?
 - Someone tells you: "Las Vegas, a barrel, a gun. It is obviously the Mafia." What would you say back?
 - Drought exposed the shoreline. What else might a changing climate uncover?
@@ -90,7 +90,8 @@ Receding water revealed what someone had attempted to hide, while DNA analysis r
 
 === Advanced talk about it ===
 
-- The writer says the challenge is resisting the urge to turn speculation into fact. Where does the article come closest to failing that test?
+- Does knowing his name change anything for you, if nobody is ever charged?
 - Argue against this: "Without a conviction, identifying the victim changes nothing."
 - Environmental change uncovered the body and science recovered the name. Which of those is the real story?
 - What would you want known about you if you disappeared, and what would you want left alone?
+

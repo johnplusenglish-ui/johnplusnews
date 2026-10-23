@@ -104,5 +104,6 @@ Istanbul's success shows how international competition can broaden access to ele
 
 - Competition widened access and rewards the best marketers rather than the best surgeons. Can both be true at once?
 - Argue against this: "Treating hair loss as a problem to correct is the real harm here."
-- Some experience hair loss as a threat to confidence and others as unremarkable ageing. Should medicine take a view?
+- Would you fly abroad for a procedure you could not afford at home?
 - What would you want a clinic to say that none of them say?
+

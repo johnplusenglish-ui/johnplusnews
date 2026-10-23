@@ -106,5 +106,6 @@ Perhaps the real problem is the expectation that holidays must be optimised. Res
 
 - Lingering somewhere is no guarantee of responsible tourism. What would make it responsible?
 - Argue against this: "Slow travel is the same consumption at a more flattering pace."
-- The poll is American and does not prove a global shift. How should a trend piece handle that?
+- Do you come home from holidays rested, or needing another one?
 - What would you have to give up to come home actually rested?
+

@@ -80,7 +80,7 @@ Nevertheless, the findings provide a useful prompt to pay attention to the textu
 - The benefit of socialising levelled off after about two hours. Does that match your experience? Why?
 - Compare a planned day with an unplanned one. Which usually ends better for you, and why?
 - Someone says: "If the research shows it, I should just follow it." What would you say back?
-- The study shows links, not causes. Why does that difference matter here?
+- Think of your best day this month. Which of the article's ingredients were in it?
 
 === Advanced before you read ===
 
@@ -92,5 +92,6 @@ Nevertheless, the findings provide a useful prompt to pay attention to the textu
 
 - The writer warns against turning happiness into another project. Is that warning fair, or just a way of avoiding effort?
 - Argue against this: "Averages from 15,000 people tell you nothing useful about your own Tuesday."
-- The models examined more than a hundred activities. What can that method never capture?
+- What was in your best day recently that no model would have counted?
 - Is there a part of your life you would refuse to measure, even if measuring it helped?
+

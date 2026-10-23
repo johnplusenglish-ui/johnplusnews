@@ -105,7 +105,8 @@ The wider debate reveals how readily cultural expectations become mistaken for r
 
 === Advanced talk about it ===
 
-- The writer says the arrangement says less about a relationship than the phrase implies. What does it actually say?
+- Would you tell people if you slept in separate rooms? Why would that matter?
 - Argue against this: "Sleep divorce is a lifestyle story that ignores housing costs."
 - Snoring and shift work rarely make elegant romantic narratives. Why does that shape the coverage?
 - What ordinary arrangement in your life would sound alarming if it had a dramatic name?
+

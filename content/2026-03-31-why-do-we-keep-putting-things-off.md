@@ -80,7 +80,7 @@ The real cost of procrastination extends beyond unfinished work. It can create a
 - The article links delay to anxiety and perfectionism rather than discipline. Does that explanation fit you? Why?
 - Compare a deadline set by you with one set by somebody else. Which works better, and why?
 - Someone tells you: "Just start, and the feeling goes away." Is that good advice? Why?
-- Starting small is the usual advice. Why might it work better than a long plan?
+- What has been on your list the longest? What is actually stopping you?
 
 === Advanced before you read ===
 
@@ -92,5 +92,6 @@ The real cost of procrastination extends beyond unfinished work. It can create a
 
 - The research points at discomfort rather than discipline. Does that make the behaviour easier to excuse, or easier to change?
 - Argue against this: "Calling procrastination an emotional problem is just a comfortable way of avoiding responsibility."
-- Much of the research is observational. What would a stronger study have to show?
+- Does calling it discomfort rather than laziness make you more forgiving of yourself, or less?
 - Is there something you keep researching instead of doing? What is the discomfort underneath it?
+

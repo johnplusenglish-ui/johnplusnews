@@ -80,7 +80,7 @@ Now exhibited at the LVR State Museum in Bonn, the denarii are both public treas
 - He called the authorities, so archaeologists could record the position. Why did that matter more than the coins?
 - Compare a hoard in a museum with one in a private collection. What is lost in each case?
 - Someone tells you: "Finders keepers. He did the work." What would you say back?
-- The oldest coin is from 148 BC and the newest from around AD 124. What does that range suggest?
+- Would you hand in a hoard worth a fortune, with nobody watching?
 
 === Advanced before you read ===
 
@@ -92,5 +92,6 @@ Now exhibited at the LVR State Museum in Bonn, the denarii are both public treas
 
 - The owner's identity and the reason for burial are unknown. Does that make the find more interesting or less?
 - Argue against this: "Metal detecting destroys more history than it recovers."
-- Context, soil and container traces answer questions isolated coins cannot. What does that imply for how finds should be handled?
+- Would you have called someone, or kept digging?
 - What would someone conclude about your life from what you left buried?
+

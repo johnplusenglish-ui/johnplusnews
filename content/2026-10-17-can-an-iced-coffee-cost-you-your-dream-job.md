@@ -80,7 +80,7 @@ Candidates would still be wise to read the room. Bringing a drink to an informal
 - She later said her advice was not universal. Why did the first version spread further?
 - Compare a structured interview with a conversational one. Which is fairer, and why?
 - Someone tells you: "If you cannot follow small rules, you will not follow big ones." What would you say back?
-- First impressions can influence later judgements even in structured interviews. What should an employer do about that?
+- What would you never do at an interview, and who told you that?
 
 === Advanced before you read ===
 
@@ -90,7 +90,8 @@ Candidates would still be wise to read the room. Bringing a drink to an informal
 
 === Advanced talk about it ===
 
-- The writer says the rules may reveal more about employers than candidates. What exactly do they reveal?
+- What unwritten rule at work did you only learn by breaking it?
 - Argue against this: "Dress and manner are legitimate signals, and pretending otherwise helps nobody."
 - The CIPD recommends consistent questions and agreed scoring. Why is that still not enough?
 - What unwritten rule did you have to learn the hard way?
+

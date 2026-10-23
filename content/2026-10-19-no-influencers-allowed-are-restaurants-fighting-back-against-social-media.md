@@ -82,7 +82,7 @@ Rather than declaring war on social media, venues could introduce proportionate 
 - The Hollies restricted filming only during busy hours. Is a partial rule better than a full ban? Why?
 - Compare a diner photographing a cake with someone setting up lights. What exactly separates them?
 - Someone tells you: "They want the free publicity but not the filming." What would you say back?
-- Influencers say their work involves real planning and editing. Does that earn them access?
+- Would you ask permission before filming in a café? Honestly?
 
 === Advanced before you read ===
 
@@ -94,5 +94,6 @@ Rather than declaring war on social media, venues could introduce proportionate 
 
 - The dividing line may be behaviour rather than intent. Is behaviour easier to police, or just easier to defend?
 - Argue against this: "A restaurant that built its trade on social media has no right to restrict it."
-- The article suggests designated filming times and consent requirements. Would those work in practice?
+- Have you chosen a place to eat because of how it looked online? Was it right?
 - What would you want asked before someone filmed you eating?
+

@@ -93,5 +93,6 @@ The significance of the 2028 programme will therefore depend on what survives it
 
 - Art can attract resources but cannot stop the erosion. Does that make the award a distraction or a reasonable first step?
 - Argue against this: "Capital of Culture schemes produce a good year and leave nothing behind."
-- The test comes after 2028, when the publicity ends. What would count as success by then?
+- Is there a place you have watched empty out? What went first?
 - What would you want kept alive where you grew up, and what would you let go?
+

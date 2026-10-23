@@ -78,7 +78,7 @@ There is a danger in presenting individual shoppers as the sole cause of the pro
 - Oxfam found 32% of clothes in British wardrobes were never worn. What does that figure say about how we shop?
 - Compare donating with repairing. Which does more good, and why?
 - Someone tells you: "Shop less and the problem goes away." What would you say back?
-- EU rules stop unsold clothes being destroyed. Why might that not reduce how many are made?
+- You put a bag outside the shop and feel better. Should you?
 
 === Advanced before you read ===
 
