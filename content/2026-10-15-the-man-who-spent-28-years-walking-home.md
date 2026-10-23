@@ -92,3 +92,31 @@ The public celebration of extraordinary endurance can gloss over a more difficul
 - Argue against this: "A 28-year walk is an act of endurance, not an achievement anyone benefits from."
 - His rules forbade transport but allowed a support team for the swim. Where is the line in a feat like this?
 - Is there something you have pursued so long that stopping would be harder than continuing?
+
+=== Core language ===
+
+- set off (phrasal verb): to begin a journey
+- deal with (phrasal verb): to take action about a problem
+- carry on (phrasal verb): to continue doing something
+- route (noun): the way you travel from one place to another
+- the threat of (phrase): the danger that something bad may happen
+- official (adjective): agreed or allowed by the authorities
+
+=== Intermediate language ===
+
+- set foot on (phrase): to arrive somewhere, especially for the first time
+- turn out (phrasal verb): to happen in a particular way in the end
+- an obstacle (noun): something that blocks your progress
+- setback (noun): a problem that delays your progress
+- work around (phrasal verb): to find a way past a problem without removing it
+- wildly optimistic (collocation): far more hopeful than the facts allow
+
+=== Advanced language ===
+
+- undertaking (noun): a large or difficult task that somebody takes on
+- uncompromising (adjective): refusing to change your demands or standards
+- foreshadow (verb): to be an early sign of something that happens later
+- a shortage of (phrase): not enough of something
+- geographical hazards (collocation): dangers created by the land itself
+- straightforward (adjective): simple and easy to do
+
