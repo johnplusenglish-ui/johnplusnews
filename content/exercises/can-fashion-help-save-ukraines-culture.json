@@ -40,12 +40,12 @@
           "d": "gradually disappear until none are left"
         },
         {
-          "t": "handmade",
-          "d": "made by a person rather than a machine"
-        },
-        {
           "t": "carry on",
           "d": "continue doing something as before"
+        },
+        {
+          "t": "handmade",
+          "d": "made by a person rather than a machine"
         }
       ],
       "grammar": {
@@ -244,12 +244,12 @@
           "d": "bring an image into somebody's mind"
         },
         {
-          "t": "take in",
-          "d": "include something within a larger whole"
-        },
-        {
           "t": "stumble upon",
           "d": "discover something by accident"
+        },
+        {
+          "t": "take in",
+          "d": "include something within a larger whole"
         },
         {
           "t": "irreplaceable",

@@ -36,12 +36,12 @@
           "d": "start doing a new activity regularly"
         },
         {
-          "t": "look up",
-          "d": "search for information about something"
-        },
-        {
           "t": "talented",
           "d": "naturally good at something"
+        },
+        {
+          "t": "look up",
+          "d": "search for information about something"
         },
         {
           "t": "in the first place",
@@ -136,12 +136,12 @@
       },
       "match": [
         {
-          "t": "creep in",
-          "d": "appear gradually without being noticed"
-        },
-        {
           "t": "an escape from",
           "d": "a relief from something unpleasant"
+        },
+        {
+          "t": "creep in",
+          "d": "appear gradually without being noticed"
         },
         {
           "t": "inadequate",

@@ -40,12 +40,12 @@
           "d": "leave your bed and stand"
         },
         {
-          "t": "unnecessary",
-          "d": "not needed for any purpose"
-        },
-        {
           "t": "switch off",
           "d": "stop a light or device working"
+        },
+        {
+          "t": "unnecessary",
+          "d": "not needed for any purpose"
         }
       ],
       "grammar": {
@@ -140,16 +140,16 @@
           "d": "make a light stop shining"
         },
         {
-          "t": "shut down",
-          "d": "turn a device completely off"
-        },
-        {
           "t": "rely on",
           "d": "depend on something for what you need"
         },
         {
           "t": "underlying",
           "d": "below the surface and causing the problem"
+        },
+        {
+          "t": "shut down",
+          "d": "turn a device completely off"
         }
       ],
       "grammar": {

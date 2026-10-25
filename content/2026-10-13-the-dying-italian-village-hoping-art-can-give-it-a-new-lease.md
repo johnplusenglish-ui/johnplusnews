@@ -59,40 +59,37 @@ The significance of the 2028 programme will therefore depend on what survives it
 
 === Core before you read ===
 
-- Would you like to live in a very small village?
-- What brings visitors to places near you?
-- What makes young people leave a town?
+- Would you live in a beautiful village with very few neighbours?
+- What makes a place feel alive beyond having visitors?
+- Can an arts event change how people see a town?
 
 === Core talk about it ===
 
-- Civita is beautiful but almost empty. Can art bring people back? Start with: I think ... because ...
-- Is tourism good or bad for a small place?
-- Someone says money should go to bigger towns instead. What do you say to them? Start with: I see why, but ... or I agree, because ...
-- What would make you stay in a small village all year?
+- What would persuade younger people to stay in a small town?
+- Would you rather protect a place exactly as it is or let it change?
+- What should still be there after a big cultural festival ends?
 
 === Intermediate before you read ===
 
-- Why do beautiful places sometimes empty out?
-- Can culture create jobs, or only attract visitors?
-- What does a town need to keep its young people?
+- Would you live in a beautiful village with very few neighbours?
+- What makes a place feel alive beyond having visitors?
+- Can an arts event change how people see a town?
 
 === Intermediate talk about it ===
 
-- The village gets visitors all summer but few residents in winter. Why is that the harder problem?
-- Compare a one-year arts programme with the same money spent on housing or transport. Which would you fund, and why?
-- Someone tells you: "If people want to leave, let them. Not every village must survive." What would you say back?
-- The cliff beneath Civita is eroding. How should that shape the plans?
+- What would persuade younger people to stay in a small town?
+- Would you rather protect a place exactly as it is or let it change?
+- What should still be there after a big cultural festival ends?
 
 === Advanced before you read ===
 
-- Is preserving a village heritage work or sentimentality?
-- Can attention be converted into a community?
-- Who decides which places are worth saving?
+- Would you live in a beautiful village with very few neighbours?
+- What makes a place feel alive beyond having visitors?
+- Can an arts event change how people see a town?
 
 === Advanced talk about it ===
 
-- Art can attract resources but cannot stop the erosion. Does that make the award a distraction or a reasonable first step?
-- Argue against this: "Capital of Culture schemes produce a good year and leave nothing behind."
-- Is there a place you have watched empty out? What went first?
-- What would you want kept alive where you grew up, and what would you let go?
+- What would persuade younger people to stay in a small town?
+- Would you rather protect a place exactly as it is or let it change?
+- What should still be there after a big cultural festival ends?
 

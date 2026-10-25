@@ -140,16 +140,16 @@
           "d": "escape while keeping something stolen"
         },
         {
-          "t": "piece together",
-          "d": "build a whole picture from scattered details"
-        },
-        {
           "t": "track somebody down",
           "d": "find somebody after a long search"
         },
         {
           "t": "glamorous",
           "d": "exciting and attractive in an unusual way"
+        },
+        {
+          "t": "piece together",
+          "d": "build a whole picture from scattered details"
         }
       ],
       "grammar": {

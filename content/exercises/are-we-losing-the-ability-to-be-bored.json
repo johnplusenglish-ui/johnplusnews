@@ -36,12 +36,12 @@
           "d": "move down a screen looking at content"
         },
         {
-          "t": "take up",
-          "d": "start doing a new activity regularly"
-        },
-        {
           "t": "get used to",
           "d": "become familiar with something new"
+        },
+        {
+          "t": "take up",
+          "d": "start doing a new activity regularly"
         },
         {
           "t": "uncomfortable",
@@ -144,12 +144,12 @@
           "d": "stop trying with something or somebody"
         },
         {
-          "t": "keep up with",
-          "d": "stay in contact with people or changes"
-        },
-        {
           "t": "unbearable",
           "d": "too unpleasant to put up with"
+        },
+        {
+          "t": "keep up with",
+          "d": "stay in contact with people or changes"
         }
       ],
       "grammar": {

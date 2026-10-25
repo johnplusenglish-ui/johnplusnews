@@ -36,12 +36,12 @@
           "d": "find out the facts before you decide"
         },
         {
-          "t": "fully booked",
-          "d": "with no places left to reserve"
-        },
-        {
           "t": "crowded",
           "d": "containing too many people for the space"
+        },
+        {
+          "t": "fully booked",
+          "d": "with no places left to reserve"
         },
         {
           "t": "pick up",

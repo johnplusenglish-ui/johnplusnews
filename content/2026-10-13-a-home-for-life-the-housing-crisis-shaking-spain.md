@@ -59,40 +59,37 @@ That is why Abascal's story struck a nerve. The law may establish who has the ri
 
 === Core before you read ===
 
-- How long have you lived in your home?
-- Is it easy to find somewhere to live in your city?
-- What makes a place feel like home?
+- What makes somewhere feel like home?
+- Would you rather have more space or feel settled in a neighbourhood?
+- Which local place would you miss most if you moved away?
 
 === Core talk about it ===
 
-- Maricarmen lived in the same flat for over 70 years. How would it feel to lose that? Start with: I think it would ... because ...
-- Should older people have extra protection from eviction?
-- Someone says a landlord has the right to raise the rent. What do you say to them? Start with: That is true, but ... or I agree, because ...
-- What would help people in your city find homes they can afford?
+- What should matter when someone has rented the same home for decades?
+- What would make a neighbourhood easier to stay in as people grow older?
+- Should a city judge its success by how many people can afford to remain?
 
 === Intermediate before you read ===
 
-- Why has housing become such an angry subject?
-- Can one person's story change a national argument?
-- Who do you think should fix a housing shortage?
+- What makes somewhere feel like home?
+- Would you rather have more space or feel settled in a neighbourhood?
+- Which local place would you miss most if you moved away?
 
 === Intermediate talk about it ===
 
-- Her case turned private worry into public protest. Why do you think this story spread, and not others?
-- Compare renting with owning in your country. Which gives people more security, and why?
-- Someone tells you: "The law was followed, so there is nothing to protest about." What would you say back?
-- Do you feel settled where you live, or temporary? What would change that?
+- What should matter when someone has rented the same home for decades?
+- What would make a neighbourhood easier to stay in as people grow older?
+- Should a city judge its success by how many people can afford to remain?
 
 === Advanced before you read ===
 
-- Is housing a market like any other, or something else?
-- Does a single death change a policy argument, or only its volume?
-- Whose interests does a long tenancy protect, and whose does it cost?
+- What makes somewhere feel like home?
+- Would you rather have more space or feel settled in a neighbourhood?
+- Which local place would you miss most if you moved away?
 
 === Advanced talk about it ===
 
-- The article is careful not to claim the eviction caused her death. Why does that care matter when feelings are running high?
-- Argue against this: "Rent protection helps the tenants who already have homes and nobody else."
-- How long would you have to live somewhere before you would call it yours?
-- What would have to be true for housing in your country to feel settled rather than contested?
+- What should matter when someone has rented the same home for decades?
+- What would make a neighbourhood easier to stay in as people grow older?
+- Should a city judge its success by how many people can afford to remain?
 

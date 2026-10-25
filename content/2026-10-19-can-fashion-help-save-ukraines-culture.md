@@ -59,40 +59,37 @@ Ukraine's experience points to a broader lesson. A culture is not only a collect
 
 === Core before you read ===
 
-- What traditional crafts does your country have?
-- Would you buy something handmade?
-- How do people keep old skills alive?
+- Can clothes tell a story without using words?
+- What makes you notice a new designer?
+- Would knowing who made an outfit change how you saw it?
 
 === Core talk about it ===
 
-- GUNIA works with over 150 craftspeople. Does selling crafts help keep them alive? Start with: I think ... because ...
-- Is handmade always better?
-- Someone says traditional things belong in a museum. What do you say to them? Start with: I disagree, because ... or Partly, because ...
-- What craft would you like to learn?
+- What should a fashion story show beyond a dramatic photograph?
+- How can designers refer to difficult events without turning them into a selling point?
+- What would you want people abroad to notice about creativity where you live?
 
 === Intermediate before you read ===
 
-- Can a craft survive without customers?
-- Does changing a tradition damage it?
-- Who should decide what counts as traditional?
+- Can clothes tell a story without using words?
+- What makes you notice a new designer?
+- Would knowing who made an outfit change how you saw it?
 
 === Intermediate talk about it ===
 
-- The company adapts old patterns rather than copying them. Is that preservation or reinvention? Why?
-- Compare a museum collection with a working workshop. Which keeps a skill alive, and why?
-- Someone tells you: "Selling culture as luxury helps the rich, not the craft." What would you say back?
-- What would you pay more for, if you knew it kept a skill alive?
+- What should a fashion story show beyond a dramatic photograph?
+- How can designers refer to difficult events without turning them into a selling point?
+- What would you want people abroad to notice about creativity where you live?
 
 === Advanced before you read ===
 
-- Is a living tradition one that changes?
-- Who profits when heritage becomes a product?
-- Can culture be defended commercially during a war?
+- Can clothes tell a story without using words?
+- What makes you notice a new designer?
+- Would knowing who made an outfit change how you saw it?
 
 === Advanced talk about it ===
 
-- The artisans sell rather than catalogue their work. What does that commercial footing protect, and what does it put at risk?
-- Argue against this: "Turning craft into luxury goods is preservation for people who can afford it."
-- Is there a skill in your family that stopped with you?
-- What from your own culture would you want sold, and what would you want left alone?
+- What should a fashion story show beyond a dramatic photograph?
+- How can designers refer to difficult events without turning them into a selling point?
+- What would you want people abroad to notice about creativity where you live?
 

@@ -56,40 +56,37 @@ Perhaps the renewed enthusiasm for the 1990s tells us less about what life was a
 
 === Core before you read ===
 
-- What were you doing in the 1990s, or where were your parents?
-- Do you like old music or old films?
-- Would you use a camera that is not a phone?
+- Which old object would you choose over its modern version?
+- Can you miss a time you never lived through?
+- What do you think people will miss about life today?
 
 === Core talk about it ===
 
-- Young people are buying old cameras and CDs. Why do you think that is? Start with: I think it is because ...
-- Which decade would you most like to visit?
-- Someone says the past was better. What do you say to them? Start with: In some ways yes, because ... or I don't agree, because ...
-- What is one thing from twenty years ago you would bring back?
+- Which older habit would you bring back for a week?
+- Is using an old device a real break from modern life or another trend?
+- What makes an inconvenient object enjoyable to use?
 
 === Intermediate before you read ===
 
-- Why do people feel nostalgic for a time they never lived through?
-- Is slower technology ever better technology?
-- What do you think people will miss about today in thirty years?
+- Which old object would you choose over its modern version?
+- Can you miss a time you never lived through?
+- What do you think people will miss about life today?
 
 === Intermediate talk about it ===
 
-- The article says the appeal may be the limits these objects impose. Do you find limits freeing or frustrating? Why?
-- Compare a film camera with a phone camera. What do you gain and lose with each?
-- Someone tells you: "This is just fashion, and it will pass." What would you say back?
-- Which decade do you feel nostalgic for, and were you even there?
+- Which older habit would you bring back for a week?
+- Is using an old device a real break from modern life or another trend?
+- What makes an inconvenient object enjoyable to use?
 
 === Advanced before you read ===
 
-- Is nostalgia a feeling about the past or a complaint about the present?
-- Can you be nostalgic for something you never experienced?
-- Who profits when a decade becomes a style?
+- Which old object would you choose over its modern version?
+- Can you miss a time you never lived through?
+- What do you think people will miss about life today?
 
 === Advanced talk about it ===
 
-- The writer calls analogue inconvenience a form of freedom. Is that insight, or a comfortable story for people with choices?
-- Argue against this: "Romanticising the 1990s erases everyone the decade treated badly."
-- What object from your past would you actually go back to using?
-- What limit would you willingly accept in your own life, and why have you not accepted it yet?
+- Which older habit would you bring back for a week?
+- Is using an old device a real break from modern life or another trend?
+- What makes an inconvenient object enjoyable to use?
 

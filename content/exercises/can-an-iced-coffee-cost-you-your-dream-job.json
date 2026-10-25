@@ -32,20 +32,20 @@
       },
       "match": [
         {
-          "t": "turn up",
-          "d": "arrive at a place"
-        },
-        {
           "t": "point out",
           "d": "draw attention to a fact"
         },
         {
-          "t": "misleading",
-          "d": "giving a false idea of something"
+          "t": "turn up",
+          "d": "arrive at a place"
         },
         {
           "t": "formal",
           "d": "following strict rules of behaviour or dress"
+        },
+        {
+          "t": "misleading",
+          "d": "giving a false idea of something"
         }
       ],
       "grammar": {
@@ -144,12 +144,12 @@
           "d": "make success less likely for somebody"
         },
         {
-          "t": "arbitrary",
-          "d": "decided by preference rather than reason"
-        },
-        {
           "t": "harmless",
           "d": "not causing harm"
+        },
+        {
+          "t": "arbitrary",
+          "d": "decided by preference rather than reason"
         }
       ],
       "grammar": {
@@ -240,12 +240,12 @@
       },
       "match": [
         {
-          "t": "read the room",
-          "d": "judge the mood and adjust your behaviour"
-        },
-        {
           "t": "stick to",
           "d": "continue following a rule or plan"
+        },
+        {
+          "t": "read the room",
+          "d": "judge the mood and adjust your behaviour"
         },
         {
           "t": "elaborate",

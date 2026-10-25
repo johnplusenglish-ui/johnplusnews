@@ -32,12 +32,12 @@
       },
       "match": [
         {
-          "t": "put up with",
-          "d": "accept something unpleasant"
-        },
-        {
           "t": "mixed results",
           "d": "outcomes that point in different directions"
+        },
+        {
+          "t": "put up with",
+          "d": "accept something unpleasant"
         },
         {
           "t": "catch up",
@@ -240,12 +240,12 @@
       },
       "match": [
         {
-          "t": "tease apart",
-          "d": "separate things that are closely mixed"
-        },
-        {
           "t": "dress something up",
           "d": "present something as better than it is"
+        },
+        {
+          "t": "tease apart",
+          "d": "separate things that are closely mixed"
         },
         {
           "t": "affluent",

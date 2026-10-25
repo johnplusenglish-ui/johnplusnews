@@ -40,12 +40,12 @@
           "d": "held by somebody who should not have it"
         },
         {
-          "t": "harmful",
-          "d": "causing damage to a person or thing"
-        },
-        {
           "t": "take away",
           "d": "remove something that somebody had"
+        },
+        {
+          "t": "harmful",
+          "d": "causing damage to a person or thing"
         }
       ],
       "grammar": {
@@ -136,20 +136,20 @@
       },
       "match": [
         {
-          "t": "raise concerns",
-          "d": "make people start to worry about something"
-        },
-        {
           "t": "unauthorised",
           "d": "done without official permission"
         },
         {
-          "t": "take out",
-          "d": "remove something from a bag or pocket"
+          "t": "raise concerns",
+          "d": "make people start to worry about something"
         },
         {
           "t": "inappropriate",
           "d": "not suitable for the situation"
+        },
+        {
+          "t": "take out",
+          "d": "remove something from a bag or pocket"
         }
       ],
       "grammar": {
@@ -248,12 +248,12 @@
           "d": "easy to see and hard to miss"
         },
         {
-          "t": "foolproof",
-          "d": "so simple or safe that it cannot fail"
-        },
-        {
           "t": "throw up",
           "d": "produce a question or problem unexpectedly"
+        },
+        {
+          "t": "foolproof",
+          "d": "so simple or safe that it cannot fail"
         }
       ],
       "grammar": {

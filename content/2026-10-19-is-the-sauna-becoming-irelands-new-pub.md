@@ -60,40 +60,37 @@ Nevertheless, the trend raises a more substantial question than whether saunas a
 
 === Core before you read ===
 
-- Where do people meet in your town?
-- Have you been in a sauna?
-- Do you talk to strangers at the gym or the pool?
+- Would you try a sauna by the sea on a cold day?
+- What makes a place feel like somewhere people belong?
+- Would you rather relax in silence or with a friendly conversation?
 
 === Core talk about it ===
 
-- People book a sauna and leave having talked to strangers. Why does that work? Start with: I think it is because ...
-- Is it easier to talk without phones?
-- Someone says a sauna can never replace a pub. What do you say to them? Start with: I agree, because ... or Maybe not, but ...
-- Where do you feel most comfortable meeting people?
+- What could make a new social space welcoming to people who arrive alone?
+- Would a regular shared ritual make it easier to form friendships?
+- Could a place stay special once it became a popular tourist stop?
 
 === Intermediate before you read ===
 
-- What makes a place good for meeting people?
-- Does paying for something change the atmosphere?
-- Why might a pub be harder to replace than it looks?
+- Would you try a sauna by the sea on a cold day?
+- What makes a place feel like somewhere people belong?
+- Would you rather relax in silence or with a friendly conversation?
 
 === Intermediate talk about it ===
 
-- Everyone puts their phone away before going in. How much of the effect is that single rule?
-- Compare a booked sauna session with dropping into a pub. What does each make possible?
-- Someone tells you: "This is wellness marketing, not community." What would you say back?
-- Where do you see people without arranging it first?
+- What could make a new social space welcoming to people who arrive alone?
+- Would a regular shared ritual make it easier to form friendships?
+- Could a place stay special once it became a popular tourist stop?
 
 === Advanced before you read ===
 
-- Can a paid hour create community, or only the feeling of it?
-- What did the pub do that nothing has replaced?
-- Is a third place still a third place if you book it?
+- Would you try a sauna by the sea on a cold day?
+- What makes a place feel like somewhere people belong?
+- Would you rather relax in silence or with a friendly conversation?
 
 === Advanced talk about it ===
 
-- What would make you walk into a place alone, with nobody expecting you?
-- Argue against this: "Commercial wellness is simply charging people for what used to be free."
-- A booked session removes the unplanned dropping in. Does that matter, or is it an improvement?
-- Where in your life do you meet people you did not arrange to meet?
+- What could make a new social space welcoming to people who arrive alone?
+- Would a regular shared ritual make it easier to form friendships?
+- Could a place stay special once it became a popular tourist stop?
 

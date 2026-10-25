@@ -48,7 +48,7 @@ The industry often promises an escape from everyday problems, but holidays never
 
 === Advanced ===
 
-title: A Boycott Nobody Organised: The Quiet Cost of a Trade Dispute
+title: Why Some Canadians Are Choosing a Different Holiday
 summary: Canadians can register their disapproval simply by staying at home, and such a protest costs them nothing. The bill arrives at hotel reception desks and half-empty restaurants with no influence over national policy.
 
 Cross-border tourism between Canada and the United States has historically rested on more than attractive destinations. Geographic proximity, family connections and a deep sense of familiarity made an American holiday the default choice for millions of Canadians. Political friction has unsettled that relationship, demonstrating how fragile consumer confidence becomes once travellers begin to wonder whether they are genuinely welcome.
@@ -71,40 +71,37 @@ The Canadian response raises a broader ethical question. Individuals are entitle
 
 === Core before you read ===
 
-- Where do people from your country go on holiday?
-- Would politics change where you travel?
-- Have you been to a neighbouring country?
+- Would a political disagreement change where you went on holiday?
+- How much do you think about a country's reputation before visiting?
+- Would you rather return to a favourite place or try somewhere new?
 
 === Core talk about it ===
 
-- Some Canadians stopped visiting the United States. Is that a good protest? Start with: I think ... because ...
-- Should holidays be political?
-- Someone says ordinary workers get hurt, not politicians. What do you say to them? Start with: That is true, but ... or I agree, because ...
-- Where would you go instead?
+- Can choosing where to travel be an effective way to make a point?
+- Who feels the effect when visitors stay away?
+- What would persuade you to return to a destination you had stopped visiting?
 
 === Intermediate before you read ===
 
-- Can where you spend money be a political act?
-- Who feels a tourism boycott first?
-- Would discounts bring you back?
+- Would a political disagreement change where you went on holiday?
+- How much do you think about a country's reputation before visiting?
+- Would you rather return to a favourite place or try somewhere new?
 
 === Intermediate talk about it ===
 
-- Staying home costs the traveller nothing. Does that make it a weak protest or a clever one? Why?
-- Compare a boycott with a petition. Which gets noticed, and by whom?
-- Someone tells you: "Tourism brings countries together, so this is counterproductive." What would you say back?
-- Would you stop visiting a country over its politics? For how long?
+- Can choosing where to travel be an effective way to make a point?
+- Who feels the effect when visitors stay away?
+- What would persuade you to return to a destination you had stopped visiting?
 
 === Advanced before you read ===
 
-- Is a consumer boycott politics or performance?
-- Should the people who suffer be the ones who decide if it worked?
-- Does tourism actually improve relations between countries?
+- Would a political disagreement change where you went on holiday?
+- How much do you think about a country's reputation before visiting?
+- Would you rather return to a favourite place or try somewhere new?
 
 === Advanced talk about it ===
 
-- The bill arrives at hotel receptions, not in government offices. Does that make the protest unjust, or simply how pressure works?
-- Argue against this: "Boycotts punish the powerless and comfort the people performing them."
-- What would bring you back to a place you had decided to avoid?
-- What would you stop buying to make a point, and who would pay for it?
+- Can choosing where to travel be an effective way to make a point?
+- Who feels the effect when visitors stay away?
+- What would persuade you to return to a destination you had stopped visiting?
 

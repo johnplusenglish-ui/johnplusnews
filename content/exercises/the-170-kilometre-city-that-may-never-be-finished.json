@@ -144,12 +144,12 @@
           "d": "move an event to a later date"
         },
         {
-          "t": "get off the ground",
-          "d": "start and begin to succeed"
-        },
-        {
           "t": "extraordinary",
           "d": "far beyond what is usual"
+        },
+        {
+          "t": "get off the ground",
+          "d": "start and begin to succeed"
         }
       ],
       "grammar": {
@@ -240,20 +240,20 @@
       },
       "match": [
         {
-          "t": "put something on hold",
-          "d": "stop work on something for now"
-        },
-        {
           "t": "pare something back",
           "d": "reduce something to a smaller version"
         },
         {
-          "t": "hold somebody to account",
-          "d": "make somebody answer for what they did"
+          "t": "put something on hold",
+          "d": "stop work on something for now"
         },
         {
           "t": "unsustainable",
           "d": "impossible to continue for long"
+        },
+        {
+          "t": "hold somebody to account",
+          "d": "make somebody answer for what they did"
         }
       ],
       "grammar": {

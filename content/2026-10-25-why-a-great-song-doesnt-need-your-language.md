@@ -71,45 +71,39 @@ That makes a recommendation more interesting than it looks. If you share a song 
 
 === Core before you read ===
 
-- What matters first to you: the beat, the voice or the words?
-- Would you rather find a new artist or hear an old favourite?
-- Can a quiet song give you energy?
+- Which song would you play for someone who did not speak your language?
+- Can you love a song without understanding its words?
+- What makes you replay a song: the voice, the beat or the story?
 
 === Intermediate before you read ===
 
-- What matters first to you: the beat, the voice or the words? Does it change with the song?
-- Would you rather discover a new artist or hear a familiar favourite?
-- Can a quiet song give you energy? What is your example?
+- Which song would you play for someone who did not speak your language?
+- Can you love a song without understanding its words?
+- What makes you replay a song: the voice, the beat or the story?
 
 === Advanced before you read ===
 
-- What do you notice first in a song, and has that ever surprised you?
-- Would you rather discover a new artist or return to a familiar favourite, and when does each win?
-- Can a quiet song give you energy? What is it doing that a loud one isn't?
+- Which song would you play for someone who did not speak your language?
+- Can you love a song without understanding its words?
+- What makes you replay a song: the voice, the beat or the story?
 
 === Core talk about it ===
 
-- What would make you try a song in a language you don't speak? Start with: I would try it if ...
-- Could learning what a song means make you like it less? Why?
-- You can share one song with a class in another country. How would you introduce it?
-- Do you prefer a translation that sounds good or one that is closer to the real meaning?
-- When a song becomes popular in another country, what might new listeners miss?
+- Would you look up a translation before sharing a song?
+- Has a song ever made you curious about a language or a place?
+- Would a translated version feel like the same song to you?
 
 === Intermediate talk about it ===
 
-- What would make you try a song in a language you don't speak?
-- Could learning what a song means make you like it less?
-- You can share one song with a class in another country. How would you introduce it?
-- Would you choose a catchy translation or a version closer to the original meaning?
-- If a song becomes popular abroad, what might new listeners miss, and what might they notice differently?
+- Would you look up a translation before sharing a song?
+- Has a song ever made you curious about a language or a place?
+- Would a translated version feel like the same song to you?
 
 === Advanced talk about it ===
 
-- What would make you try a song in a language you don't speak, and who usually persuades you?
-- Could learning what a song means make you like it less, and would you still want to know?
-- You can share one song with a class in another country. Would you explain it first or let them hear it cold, and why?
-- Would you choose a catchy translation or a version closer to the original meaning? What does each one protect?
-- If a song becomes popular abroad, what might new listeners miss, and what might they notice that the original audience doesn't?
+- Would you look up a translation before sharing a song?
+- Has a song ever made you curious about a language or a place?
+- Would a translated version feel like the same song to you?
 
 === Activity ===
 

@@ -144,12 +144,12 @@
           "d": "a travel plan with no spare time in it"
         },
         {
-          "t": "get more out of",
-          "d": "gain greater benefit from something"
-        },
-        {
           "t": "unstructured",
           "d": "without a fixed plan or order"
+        },
+        {
+          "t": "get more out of",
+          "d": "gain greater benefit from something"
         }
       ],
       "grammar": {
@@ -240,12 +240,12 @@
       },
       "match": [
         {
-          "t": "tick something off",
-          "d": "mark an item as completed on a list"
-        },
-        {
           "t": "shut yourself away",
           "d": "stay indoors away from other people"
+        },
+        {
+          "t": "tick something off",
+          "d": "mark an item as completed on a list"
         },
         {
           "t": "pass through",

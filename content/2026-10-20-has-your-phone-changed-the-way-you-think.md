@@ -73,40 +73,37 @@ A more deliberate approach to alerts could restore some control over concentrati
 
 === Core before you read ===
 
-- How many times a day does your phone interrupt you?
-- Do you turn off notifications?
-- When do you concentrate best?
+- Which notification is genuinely worth interrupting you for?
+- Does a silent phone still tempt you to check it?
+- Would you prefer one daily update or messages as they arrive?
 
 === Core talk about it ===
 
-- Alerts slowed thinking by about seven seconds. Does that sound serious? Start with: I think ... because ...
-- Which notifications are worth keeping?
-- Someone says phones are ruining our brains. What do you say to them? Start with: That is too strong, because ... or I agree, because ...
-- You are planning a meeting. What phone rule would really help people concentrate?
+- Who should decide what counts as an urgent notification?
+- What would you switch off if you could try it for only one day?
+- Should apps have to earn the right to interrupt you?
 
 === Intermediate before you read ===
 
-- Is distraction the phone's fault or ours?
-- Can a workplace reduce interruptions?
-- What would you lose by switching alerts off?
+- Which notification is genuinely worth interrupting you for?
+- Does a silent phone still tempt you to check it?
+- Would you prefer one daily update or messages as they arrive?
 
 === Intermediate talk about it ===
 
-- How many notifications are waiting on your phone right now?
-- Compare an interruption from a person with one from a phone. Which is easier to recover from, and why?
-- Someone tells you: "Seven seconds is nothing." What would you say back?
-- The effect varied with how relevant the notification seemed. What does that suggest about solutions?
+- Who should decide what counts as an urgent notification?
+- What would you switch off if you could try it for only one day?
+- Should apps have to earn the right to interrupt you?
 
 === Advanced before you read ===
 
-- Is attention something you own or something sold on your behalf?
-- Should employers be allowed to expect instant replies?
-- Which interruptions genuinely matter?
+- Which notification is genuinely worth interrupting you for?
+- Does a silent phone still tempt you to check it?
+- Would you prefer one daily update or messages as they arrive?
 
 === Advanced talk about it ===
 
-- Would you turn off every alert for a week? What would you be afraid of missing?
-- Argue against this: "Designing out interruptions is a management problem dressed as neuroscience."
-- Notifications communicate an expectation of attention, not just information. Who set that expectation?
-- Which interruption in your day would you design out first?
+- Who should decide what counts as an urgent notification?
+- What would you switch off if you could try it for only one day?
+- Should apps have to earn the right to interrupt you?
 

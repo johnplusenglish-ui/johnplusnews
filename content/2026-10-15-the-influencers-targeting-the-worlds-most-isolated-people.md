@@ -56,40 +56,37 @@ The ethical challenge extends beyond one traveller. Satellite imagery, drones an
 
 === Core before you read ===
 
-- Why do some communities avoid contact with outsiders?
-- Should people be allowed to film anywhere?
-- What makes a video worth watching?
+- Would you want strangers visiting your home because they had seen a video of it?
+- Can a travel video show respect for a place?
+- When does sharing a place online change it?
 
 === Core talk about it ===
 
-- A man landed on an island where people want to be left alone. Was that wrong? Start with: I think ... because ...
-- Should he have been arrested?
-- Someone says he was just curious and harmed nobody. What do you say to them? Start with: Maybe, but ... or I agree, because ...
-- What should a traveller never do?
+- Who should decide whether a small community welcomes visitors?
+- Does asking one person's permission make it fair to film everyone?
+- What should a creator leave out even if it would get more views?
 
 === Intermediate before you read ===
 
-- Can you consent on behalf of a community?
-- Why might contact be dangerous for an isolated group?
-- Does a camera change what a visit means?
+- Would you want strangers visiting your home because they had seen a video of it?
+- Can a travel video show respect for a place?
+- When does sharing a place online change it?
 
 === Intermediate talk about it ===
 
-- Even an ordinary infection can be serious for an isolated community. How should that shape the law?
-- Compare a documentary made with a community with footage taken without asking. What exactly differs?
-- Someone tells you: "The world should see these places." What would you say back?
-- Would you watch the video, knowing how it was made?
+- Who should decide whether a small community welcomes visitors?
+- Does asking one person's permission make it fair to film everyone?
+- What should a creator leave out even if it would get more views?
 
 === Advanced before you read ===
 
-- Does technical access ever create moral permission?
-- Who speaks for a community that will not speak to you?
-- Is public interest a real test or a convenient one?
+- Would you want strangers visiting your home because they had seen a video of it?
+- Can a travel video show respect for a place?
+- When does sharing a place online change it?
 
 === Advanced talk about it ===
 
-- Is there footage you would refuse to watch, however famous it became?
-- Argue against this: "Filming uncontacted people is simply the oldest kind of exploitation with a new camera."
-- Drones and satellites make remote places visible. What should be forbidden even when it is easy?
-- What would you want recorded about your own community, and by whom?
+- Who should decide whether a small community welcomes visitors?
+- Does asking one person's permission make it fair to film everyone?
+- What should a creator leave out even if it would get more views?
 

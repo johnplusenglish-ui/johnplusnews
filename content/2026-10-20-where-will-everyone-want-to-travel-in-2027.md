@@ -52,7 +52,7 @@ A useful travel list should therefore start a conversation rather than settle it
 
 === Advanced ===
 
-title: When a Hidden Gem Becomes Everyone's Next Destination
+title: When a Travel Report Puts a Quiet Place on the Map
 summary: Coverage breeds curiosity, curiosity lifts the search figures, and the figures generate more coverage. Promoting a quieter alternative may simply redirect visitor pressure rather than relieve it.
 
 Travel-industry forecasts are designed to create anticipation. A destination that barely cropped up in holiday conversations last year is suddenly presented as the place to visit next. But the relationship between online curiosity, actual bookings and a genuinely rewarding travel experience is far from straightforward.
@@ -75,39 +75,37 @@ Perhaps the most useful lesson from a travel forecast is not to book immediately
 
 === Core before you read ===
 
-- Where would you like to travel next?
-- How do you choose a destination?
-- Do you follow travel accounts online?
+- Would a TV series ever make you want to visit a place?
+- What can make a busy destination feel worth the crowds?
+- Would you rather plan a trip around food, a story or an event?
 
 === Core talk about it ===
 
-- Expedia says searches are growing for these places. Does a search mean anything? Start with: I think ... because ...
-- Would you visit somewhere just because it is popular?
-- Someone says these lists are advertising. What do you say to them? Start with: I agree, because ... or They are useful, because ...
-- You have to recommend a less obvious place to go. How would you sell the idea to a friend?
+- Would you visit the place everyone was talking about or go somewhere quieter?
+- How much should a travel company's predictions influence your plans?
+- What would make a holiday feel like your own choice?
 
 === Intermediate before you read ===
 
-- Who writes travel lists, and why?
-- Does being on a list change a place?
-- What would make you book rather than browse?
+- Would a TV series ever make you want to visit a place?
+- What can make a busy destination feel worth the crowds?
+- Would you rather plan a trip around food, a story or an event?
 
 === Intermediate talk about it ===
 
-- A search is not a booking. What else would you want to know before calling this a trend?
-- Compare a famous destination with one outside the spotlight. What do you gain in each?
-- Someone tells you: "If everyone reads the list, the quiet places stop being quiet." What would you say back?
-- The list includes places that are already famous. Does that weaken it?
+- Would you visit the place everyone was talking about or go somewhere quieter?
+- How much should a travel company's predictions influence your plans?
+- What would make a holiday feel like your own choice?
 
 === Advanced before you read ===
 
-- Can a prediction create the thing it predicts?
-- Who benefits when a destination is named?
-- Is promoting a quieter alternative ever responsible?
+- Would a TV series ever make you want to visit a place?
+- What can make a busy destination feel worth the crowds?
+- Would you rather plan a trip around food, a story or an event?
 
 === Advanced talk about it ===
 
-- Coverage breeds curiosity, curiosity lifts the figures, and the figures generate coverage. How would you break that loop?
-- Argue against this: "Travel lists are market research published as journalism."
-- A percentage rise measures interest inside one platform, not global visitor numbers. Why is that so often blurred?
-- What would you want said about your own town in a list like this?
+- Would you visit the place everyone was talking about or go somewhere quieter?
+- How much should a travel company's predictions influence your plans?
+- What would make a holiday feel like your own choice?
+

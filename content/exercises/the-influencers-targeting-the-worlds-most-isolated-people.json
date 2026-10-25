@@ -40,12 +40,12 @@
           "d": "say something so nobody can misunderstand"
         },
         {
-          "t": "pull in",
-          "d": "attract a large number of people"
-        },
-        {
           "t": "harmful",
           "d": "causing damage to a person or thing"
+        },
+        {
+          "t": "pull in",
+          "d": "attract a large number of people"
         }
       ],
       "grammar": {
@@ -240,20 +240,20 @@
       },
       "match": [
         {
-          "t": "zero in on",
-          "d": "give all your attention to one target"
-        },
-        {
           "t": "cancel out",
           "d": "remove the effect of something else"
         },
         {
-          "t": "draw in",
-          "d": "attract a large audience"
+          "t": "zero in on",
+          "d": "give all your attention to one target"
         },
         {
           "t": "unsolicited",
           "d": "given or done without being asked for"
+        },
+        {
+          "t": "draw in",
+          "d": "attract a large audience"
         }
       ],
       "grammar": {

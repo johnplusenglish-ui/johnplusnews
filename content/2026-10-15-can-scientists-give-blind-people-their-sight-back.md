@@ -58,40 +58,37 @@ Medicine advances not only through spectacular recoveries but through the steady
 
 === Core before you read ===
 
-- How much do you use your eyes in your work?
-- What helps blind people where you live?
-- Would you try a new medical treatment?
+- What everyday invention do you wish someone would improve?
+- What makes a science headline sound too good to be true?
+- Can a small improvement be life-changing?
 
 === Core talk about it ===
 
-- Six of ten patients improved but none could see faces. Is that a success? Start with: I think ... because ...
-- What would you most want to see again?
-- Someone says this is not a real cure so it does not count. What do you say to them? Start with: I disagree, because ... or In a way, yes, but ...
-- Which new technology would help people most?
+- How should a headline explain a treatment that helps some people a little?
+- What should researchers explain before asking people to try a new treatment?
+- Which matters more in a science story: the breakthrough or what it changes in daily life?
 
 === Intermediate before you read ===
 
-- What does it mean to call a treatment experimental?
-- Is partial sight a big change or a small one?
-- How should doctors talk about hope?
+- What everyday invention do you wish someone would improve?
+- What makes a science headline sound too good to be true?
+- Can a small improvement be life-changing?
 
 === Intermediate talk about it ===
 
-- Patients who practised more with the goggles did better. What does that add to the result?
-- Compare this treatment with a pair of glasses. What makes one simple and the other difficult?
-- Someone tells you: "Small trials prove nothing." What would you say back?
-- Ten patients took part. Would you want to be one of the first, or wait for the hundredth?
+- How should a headline explain a treatment that helps some people a little?
+- What should researchers explain before asking people to try a new treatment?
+- Which matters more in a science story: the breakthrough or what it changes in daily life?
 
 === Advanced before you read ===
 
-- How much certainty should a patient need before trying something new?
-- Who decides which conditions get research money?
-- Is a headline about restored sight ever honest?
+- What everyday invention do you wish someone would improve?
+- What makes a science headline sound too good to be true?
+- Can a small improvement be life-changing?
 
 === Advanced talk about it ===
 
-- Six of ten improved, but nobody could recognise a face. Would you call that getting your sight back?
-- Argue against this: "Reporting early-stage trials gives false hope and should be restrained."
-- Independent researchers welcomed evidence of lasting visual function. Why is duration the interesting part?
-- What would you want to know before agreeing to be patient number one?
+- How should a headline explain a treatment that helps some people a little?
+- What should researchers explain before asking people to try a new treatment?
+- Which matters more in a science story: the breakthrough or what it changes in daily life?
 

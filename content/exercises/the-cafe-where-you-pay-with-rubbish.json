@@ -40,12 +40,12 @@
           "d": "separate into much smaller pieces"
         },
         {
-          "t": "worthless",
-          "d": "having no value at all"
-        },
-        {
           "t": "clear away",
           "d": "remove something so a space is tidy"
+        },
+        {
+          "t": "worthless",
+          "d": "having no value at all"
         }
       ],
       "grammar": {
@@ -136,12 +136,12 @@
       },
       "match": [
         {
-          "t": "hand over",
-          "d": "give something to another person"
-        },
-        {
           "t": "sort through",
           "d": "look at a pile of things one by one"
+        },
+        {
+          "t": "hand over",
+          "d": "give something to another person"
         },
         {
           "t": "hand out",
@@ -240,12 +240,12 @@
       },
       "match": [
         {
-          "t": "a drop in the ocean",
-          "d": "far too small to make much difference"
-        },
-        {
           "t": "in short supply",
           "d": "hard to find because there is little of it"
+        },
+        {
+          "t": "a drop in the ocean",
+          "d": "far too small to make much difference"
         },
         {
           "t": "brush something aside",

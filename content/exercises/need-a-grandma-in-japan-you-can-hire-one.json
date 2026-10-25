@@ -240,20 +240,20 @@
       },
       "match": [
         {
-          "t": "write something off",
-          "d": "dismiss something as having no value"
-        },
-        {
           "t": "dwell on",
           "d": "spend time thinking carefully about something"
         },
         {
-          "t": "accumulated",
-          "d": "collected gradually over a long period"
+          "t": "write something off",
+          "d": "dismiss something as having no value"
         },
         {
           "t": "provocative",
           "d": "deliberately likely to cause argument"
+        },
+        {
+          "t": "accumulated",
+          "d": "collected gradually over a long period"
         }
       ],
       "grammar": {

@@ -58,40 +58,37 @@ Nevertheless, the findings provide a useful prompt to pay attention to the textu
 
 === Core before you read ===
 
-- What makes a day good for you?
-- How much time do you spend with other people each day?
-- Do you plan your free time, or decide as you go?
+- What small thing can rescue an ordinary day?
+- Would your ideal day have more plans or more empty space?
+- Does knowing what makes you happy make it easier to do?
 
 === Core talk about it ===
 
-- The study found that time with people mattered most. Is that true for you? Start with: For me it is ... because ...
-- Would you follow a timetable for a good day, or does that ruin it?
-- Someone says happiness cannot be studied. What do you say to them? Start with: I think they are right, because ... or I don't agree, because ...
-- You can add one hour to tomorrow. Where would you put it?
+- Would a fixed recipe for a good day work for you?
+- Which part of a good day would you protect when life got busy?
+- Can trying too hard to have a good day spoil it?
 
 === Intermediate before you read ===
 
-- Can science tell you how to spend a Saturday?
-- Why might happy people and sociable people be the same people?
-- Is a good day something you plan, or something that happens?
+- What small thing can rescue an ordinary day?
+- Would your ideal day have more plans or more empty space?
+- Does knowing what makes you happy make it easier to do?
 
 === Intermediate talk about it ===
 
-- The benefit of socialising levelled off after about two hours. Does that match your experience? Why?
-- Compare a planned day with an unplanned one. Which usually ends better for you, and why?
-- Someone says: "If the research shows it, I should just follow it." What would you say back?
-- Think of your best day this month. Which of the article's ingredients were in it?
+- Would a fixed recipe for a good day work for you?
+- Which part of a good day would you protect when life got busy?
+- Can trying too hard to have a good day spoil it?
 
 === Advanced before you read ===
 
-- Is there anything lost in treating a good day as a problem to solve?
-- Would you want to know the formula, if one existed?
-- Who benefits most from the idea that happiness can be optimised?
+- What small thing can rescue an ordinary day?
+- Would your ideal day have more plans or more empty space?
+- Does knowing what makes you happy make it easier to do?
 
 === Advanced talk about it ===
 
-- The writer warns against turning happiness into another project. Is that warning fair, or just a way of avoiding effort?
-- Argue against this: "Averages from 15,000 people tell you nothing useful about your own Tuesday."
-- What was in your best day recently that no model would have counted?
-- Is there a part of your life you would refuse to measure, even if measuring it helped?
+- Would a fixed recipe for a good day work for you?
+- Which part of a good day would you protect when life got busy?
+- Can trying too hard to have a good day spoil it?
 

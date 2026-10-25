@@ -62,40 +62,37 @@ Even with those qualifications, the café offers a valuable example of local pro
 
 === Core before you read ===
 
-- What happens to plastic waste where you live?
-- Would you collect rubbish for a free meal?
-- Who cleans your streets?
+- What would persuade you to pick up litter you did not drop?
+- Can a free meal be a good reason to help a neighbourhood?
+- Would a small reward change a habit you already cared about?
 
 === Core talk about it ===
 
-- A kilogram of plastic buys a meal. Does that help? Start with: I think ... because ...
-- Should recycling be rewarded?
-- Someone says this does not solve anything. What do you say to them? Start with: Partly true, but ... or I agree, because ...
-- What would reduce plastic where you live?
+- What would make a rubbish-for-food scheme feel welcoming rather than embarrassing?
+- Should people need a reward to look after shared spaces?
+- Which everyday problem could your neighbourhood tackle with a simple exchange?
 
 === Intermediate before you read ===
 
-- Why reward people for collecting waste?
-- Is collecting rubbish the same as reducing it?
-- Who does this kind of work in your country?
+- What would persuade you to pick up litter you did not drop?
+- Can a free meal be a good reason to help a neighbourhood?
+- Would a small reward change a habit you already cared about?
 
 === Intermediate talk about it ===
 
-- The café cannot collect all the city's plastic. Does that make it a failure, or the wrong measure?
-- Compare paying people to collect waste with stopping it being produced. Which matters more, and why?
-- Someone tells you: "Giving meals for rubbish is charity dressed as policy." What would you say back?
-- Would you sort your rubbish for a free meal?
+- What would make a rubbish-for-food scheme feel welcoming rather than embarrassing?
+- Should people need a reward to look after shared spaces?
+- Which everyday problem could your neighbourhood tackle with a simple exchange?
 
 === Advanced before you read ===
 
-- Can an incentive change a system, or only behaviour within it?
-- Who should be paid for handling waste nobody wanted to make?
-- Is dignity part of what a scheme like this provides?
+- What would persuade you to pick up litter you did not drop?
+- Can a free meal be a good reason to help a neighbourhood?
+- Would a small reward change a habit you already cared about?
 
 === Advanced talk about it ===
 
-- Who collects your rubbish, and have you ever spoken to them?
-- Argue against this: "Trading food for plastic makes poverty a collection service."
-- Collecting more waste is not preventing it. What policy would address the second?
-- What would you be willing to sort, carry or return if the system made it worth doing?
+- What would make a rubbish-for-food scheme feel welcoming rather than embarrassing?
+- Should people need a reward to look after shared spaces?
+- Which everyday problem could your neighbourhood tackle with a simple exchange?
 

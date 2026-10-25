@@ -58,40 +58,37 @@ His experience challenges the assumption that sympathy for a captor always refle
 
 === Core before you read ===
 
-- What would be hardest about being far from home?
-- Can you forgive someone who hurt you?
-- What is the difference between forgiving and forgetting?
+- What makes a story about a real person stay with you?
+- Can you understand someone's actions without forgiving them?
+- When does replying to an unwanted message make things harder?
 
 === Core talk about it ===
 
-- A former guard sent Moore a friendly message. Would you reply? Start with: I would ... because ...
-- Is a long prison sentence the right answer?
-- Someone says he should never have spoken to him. What do you say to them? Start with: I understand, but ... or I agree, because ...
-- What helps someone recover after something terrible?
+- Should someone who has suffered a crime feel any pressure to forgive?
+- What do journalists owe people when they retell a painful story?
+- Can a court judgment give a story a clear ending?
 
 === Intermediate before you read ===
 
-- Why might a victim want to talk to the person who harmed them?
-- Is justice the same as closure?
-- Should a victim help an investigation?
+- What makes a story about a real person stay with you?
+- Can you understand someone's actions without forgiving them?
+- When does replying to an unwanted message make things harder?
 
 === Intermediate talk about it ===
 
-- Moore informed the FBI and helped set up the operation. Was that justice, or a second betrayal? Why?
-- Compare punishment with rehabilitation. Which does more for a victim, and why?
-- Someone tells you: "Thirty years is the only answer here." What would you say back?
-- Would you have replied to that first message?
+- Should someone who has suffered a crime feel any pressure to forgive?
+- What do journalists owe people when they retell a painful story?
+- Can a court judgment give a story a clear ending?
 
 === Advanced before you read ===
 
-- Does punishment deliver closure, or only finality?
-- Can a victim fairly influence a sentence?
-- Is understanding a captor a form of forgiveness?
+- What makes a story about a real person stay with you?
+- Can you understand someone's actions without forgiving them?
+- When does replying to an unwanted message make things harder?
 
 === Advanced talk about it ===
 
-- Moore questions the assumption that punishment supplies psychological closure. What would supply it instead?
-- Argue against this: "A victim's feelings should have no bearing on sentencing."
-- Is there someone you would want held to account, but not as harshly as the law would?
-- What would you need before you could consider a matter closed?
+- Should someone who has suffered a crime feel any pressure to forgive?
+- What do journalists owe people when they retell a painful story?
+- Can a court judgment give a story a clear ending?
 

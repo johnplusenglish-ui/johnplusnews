@@ -32,20 +32,20 @@
       },
       "match": [
         {
-          "t": "keep in touch",
-          "d": "stay in regular contact with somebody"
-        },
-        {
           "t": "by accident",
           "d": "without anybody planning it"
         },
         {
-          "t": "dependable",
-          "d": "able to be trusted when you need help"
+          "t": "keep in touch",
+          "d": "stay in regular contact with somebody"
         },
         {
           "t": "turn into",
           "d": "change and become something else"
+        },
+        {
+          "t": "dependable",
+          "d": "able to be trusted when you need help"
         }
       ],
       "grammar": {
@@ -144,12 +144,12 @@
           "d": "appear suddenly and unexpectedly"
         },
         {
-          "t": "fall back on",
-          "d": "rely on somebody when you need support"
-        },
-        {
           "t": "content",
           "d": "quietly satisfied with how things are"
+        },
+        {
+          "t": "fall back on",
+          "d": "rely on somebody when you need support"
         }
       ],
       "grammar": {

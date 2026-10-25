@@ -71,45 +71,39 @@ Which would you rather have: a free outfit you designed yourself, or an expensiv
 
 === Core before you read ===
 
-- Do you play any game where you can choose how your character looks?
-- What would you wear if you could wear anything for one day?
-- Would you choose a look that is like you, or a look that is different?
+- Would your avatar look like you or someone completely different?
+- What can an outfit say without words?
+- Would you rather design one great digital item or collect lots of them?
 
 === Intermediate before you read ===
 
-- If you could design a character for a game, would it look like you? Why or why not?
-- What would you wear for a day if nobody could judge it?
-- Is a digital item worth having if you cannot touch it?
+- Would your avatar look like you or someone completely different?
+- What can an outfit say without words?
+- Would you rather design one great digital item or collect lots of them?
 
 === Advanced before you read ===
 
-- If you could design a character for a game, would it look like you, an invented person or something completely different?
-- What could an outfit say about someone who never shows their face?
-- When is a digital item worth having, and when is it not?
+- Would your avatar look like you or someone completely different?
+- What can an outfit say without words?
+- Would you rather design one great digital item or collect lots of them?
 
 === Core talk about it ===
 
-- Would you make your avatar look like you, like an invented person, or like something completely different?
-- What can an outfit say without showing a real face?
-- Would you try a style in a game that you would never wear outside it?
-- What would make a digital item worth having for you?
-- How could a game make free outfits as creative as paid ones?
+- Can a digital outfit feel worth having even if you cannot touch it?
+- What should a game let people express without spending money?
+- Would you choose the avatar you liked most or the one your friends recognised?
 
 === Intermediate talk about it ===
 
-- Would you make an avatar look like you, an invented character or something completely different?
-- What could an outfit communicate without showing somebody's real face?
-- Would you try a style in a game that you would never wear outside it?
-- What would make a digital item worth having to you, or not worth having?
-- How could a game make free outfits feel just as creative as paid ones?
+- Can a digital outfit feel worth having even if you cannot touch it?
+- What should a game let people express without spending money?
+- Would you choose the avatar you liked most or the one your friends recognised?
 
 === Advanced talk about it ===
 
-- Would you make an avatar look like you, an invented character or something completely different, and what does your choice say about you?
-- What could an outfit communicate without showing somebody's real face, and could it be misleading?
-- Would you try a style in a game that you would never wear outside it, and what would you hope to learn?
-- What would make a digital item worth having to you, or not worth having, and does owning it matter?
-- How could a game make free outfits feel just as creative as paid ones, and who benefits if it does?
+- Can a digital outfit feel worth having even if you cannot touch it?
+- What should a game let people express without spending money?
+- Would you choose the avatar you liked most or the one your friends recognised?
 
 === Activity ===
 

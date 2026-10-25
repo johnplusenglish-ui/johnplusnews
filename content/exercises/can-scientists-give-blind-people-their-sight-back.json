@@ -144,12 +144,12 @@
           "d": "small, and not claiming to be impressive"
         },
         {
-          "t": "carry out",
-          "d": "perform a task that has been set"
-        },
-        {
           "t": "untreated",
           "d": "given no medical help at all"
+        },
+        {
+          "t": "carry out",
+          "d": "perform a task that has been set"
         }
       ],
       "grammar": {
@@ -248,12 +248,12 @@
           "d": "rough and lacking fine detail"
         },
         {
-          "t": "hold up",
-          "d": "remain true when tested in harder conditions"
-        },
-        {
           "t": "adverse",
           "d": "harmful, and the opposite of what was wanted"
+        },
+        {
+          "t": "hold up",
+          "d": "remain true when tested in harder conditions"
         }
       ],
       "grammar": {

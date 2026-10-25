@@ -47,7 +47,7 @@ Turkey's hair-transplant industry sits at the meeting point of personal choice a
 
 === Advanced ===
 
-title: Priced to Compete: When Surgery Is Sold Like a Holiday
+title: Would You Fly Abroad for Cheaper Surgery?
 summary: Istanbul's prices have widened access to a treatment that might otherwise stay with the wealthy, yet competition also rewards the best marketing rather than the best surgery. A patient comparing offers from abroad has limited means of telling them apart.
 
 The sight of recently treated patients travelling through Istanbul has become an emblem of a flourishing medical-tourism industry. Hair transplantation, once a comparatively discreet procedure, is now marketed through international clinics, online testimonials and packages combining surgery with accommodation and transport. Turkey's competitive prices have made it a particularly prominent destination.
@@ -70,40 +70,37 @@ Istanbul's success shows how international competition can broaden access to ele
 
 === Core before you read ===
 
-- Why do people worry about losing their hair?
-- Would you travel abroad for medical treatment?
-- What would you check before a treatment?
+- Would you travel abroad for a service that cost less?
+- What makes you trust a clinic's before-and-after photos?
+- How much should appearance matter in how someone feels about themselves?
 
 === Core talk about it ===
 
-- People fly to Turkey because it costs less. Is that sensible? Start with: I think ... because ...
-- What should a clinic tell you before surgery?
-- Someone says it is only hair, so it does not matter. What do you say to them? Start with: I disagree, because ... or For some people, ...
-- What makes you trust a doctor?
+- What would you want to know beyond the headline price?
+- When does a cosmetic choice become pressure to look a certain way?
+- Should the support after a procedure matter as much as the procedure itself?
 
 === Intermediate before you read ===
 
-- Why is medical tourism growing?
-- What happens if something goes wrong abroad?
-- Do before-and-after photos tell you anything?
+- Would you travel abroad for a service that cost less?
+- What makes you trust a clinic's before-and-after photos?
+- How much should appearance matter in how someone feels about themselves?
 
 === Intermediate talk about it ===
 
-- Results take months and are not guaranteed. Why do advertisements rarely say so?
-- Compare a cheaper clinic abroad with an expensive one at home. What are you really paying for?
-- Someone tells you: "Lower prices mean more people can afford it, which is good." What would you say back?
-- A low advertised price says nothing about handling complications. What should a price include?
+- What would you want to know beyond the headline price?
+- When does a cosmetic choice become pressure to look a certain way?
+- Should the support after a procedure matter as much as the procedure itself?
 
 === Advanced before you read ===
 
-- Is cosmetic surgery a medical decision or a consumer one?
-- Who should regulate a treatment bought in another country?
-- Does competition improve medicine or marketing?
+- Would you travel abroad for a service that cost less?
+- What makes you trust a clinic's before-and-after photos?
+- How much should appearance matter in how someone feels about themselves?
 
 === Advanced talk about it ===
 
-- Competition widened access and rewards the best marketers rather than the best surgeons. Can both be true at once?
-- Argue against this: "Treating hair loss as a problem to correct is the real harm here."
-- Would you fly abroad for a procedure you could not afford at home?
-- What would you want a clinic to say that none of them say?
+- What would you want to know beyond the headline price?
+- When does a cosmetic choice become pressure to look a certain way?
+- Should the support after a procedure matter as much as the procedure itself?
 

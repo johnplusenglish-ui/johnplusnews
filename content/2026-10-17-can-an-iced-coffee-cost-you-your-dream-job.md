@@ -58,40 +58,37 @@ Candidates would still be wise to read the room. Bringing a drink to an informal
 
 === Core before you read ===
 
-- What would you wear to a job interview?
-- What makes a good first impression?
-- Have you had an interview that went badly?
+- Would carrying a coffee into an interview change your first impression of someone?
+- What tiny detail makes someone seem confident?
+- Which interview rule do you find hardest to explain?
 
 === Core talk about it ===
 
-- A recruiter said a takeaway coffee looks too relaxed. Is that fair? Start with: I think ... because ...
-- What should you never bring to an interview?
-- Someone says these rules are silly and old-fashioned. What do you say to them? Start with: I agree, because ... or They exist because ...
-- What would you want an interviewer to notice about you?
+- What should an interviewer notice before judging someone's manners?
+- Could a relaxed candidate make a better colleague than a polished one?
+- What would you change about a typical job interview?
 
 === Intermediate before you read ===
 
-- Who writes the unwritten rules of interviews?
-- Should an employer judge how you look?
-- Have workplace rules relaxed, or just changed?
+- Would carrying a coffee into an interview change your first impression of someone?
+- What tiny detail makes someone seem confident?
+- Which interview rule do you find hardest to explain?
 
 === Intermediate talk about it ===
 
-- She later said her advice was not universal. Why did the first version spread further?
-- Compare a structured interview with a conversational one. Which is fairer, and why?
-- Someone tells you: "If you cannot follow small rules, you will not follow big ones." What would you say back?
-- What would you never do at an interview, and who told you that?
+- What should an interviewer notice before judging someone's manners?
+- Could a relaxed candidate make a better colleague than a polished one?
+- What would you change about a typical job interview?
 
 === Advanced before you read ===
 
-- Do unwritten rules test suitability or conformity?
-- Who is disadvantaged by a rule nobody states?
-- Can hiring ever be made genuinely fair?
+- Would carrying a coffee into an interview change your first impression of someone?
+- What tiny detail makes someone seem confident?
+- Which interview rule do you find hardest to explain?
 
 === Advanced talk about it ===
 
-- What unwritten rule at work did you only learn by breaking it?
-- Argue against this: "Dress and manner are legitimate signals, and pretending otherwise helps nobody."
-- The CIPD recommends consistent questions and agreed scoring. Why is that still not enough?
-- What unwritten rule did you have to learn the hard way?
+- What should an interviewer notice before judging someone's manners?
+- Could a relaxed candidate make a better colleague than a polished one?
+- What would you change about a typical job interview?
 

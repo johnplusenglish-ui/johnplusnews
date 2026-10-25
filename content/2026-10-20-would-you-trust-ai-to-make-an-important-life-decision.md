@@ -72,40 +72,37 @@ What matters is maintaining a distinction between support and delegation. A usef
 
 === Core before you read ===
 
-- Have you asked an AI for advice?
-- Who do you ask about big decisions?
-- What makes advice good?
+- What decision would you happily ask an AI chatbot to help with?
+- Does a confident answer make you more likely to trust advice?
+- Would you prefer advice from a person who knows you or a tool with lots of information?
 
 === Core talk about it ===
 
-- AI can list advantages in seconds. Would you follow it? Start with: I would ... because ...
-- What should AI never decide?
-- Someone says AI is more objective than people. What do you say to them? Start with: I disagree, because ... or Sometimes, because ...
-- A friend says a chatbot understands them better than anyone. How would you reply?
+- Which decisions should always stay with a person?
+- What would you check before acting on an AI suggestion?
+- Could asking for advice too often make choosing harder on your own?
 
 === Intermediate before you read ===
 
-- Why does a confident answer feel like a correct one?
-- What does a chatbot not know about you?
-- Would you tell an AI something private?
+- What decision would you happily ask an AI chatbot to help with?
+- Does a confident answer make you more likely to trust advice?
+- Would you prefer advice from a person who knows you or a tool with lots of information?
 
 === Intermediate talk about it ===
 
-- Pew found most people accept AI for analysis but not for love. Why that line, do you think?
-- Compare asking a friend with asking a chatbot. What does each get wrong?
-- Someone tells you: "Human advisers are biased too." What would you say back?
-- A chatbot only knows the version you type. How much does that limit it?
+- Which decisions should always stay with a person?
+- What would you check before acting on an AI suggestion?
+- Could asking for advice too often make choosing harder on your own?
 
 === Advanced before you read ===
 
-- Is fluency being mistaken for judgement?
-- Who is accountable for advice that turns out badly?
-- Should some decisions stay slow on purpose?
+- What decision would you happily ask an AI chatbot to help with?
+- Does a confident answer make you more likely to trust advice?
+- Would you prefer advice from a person who knows you or a tool with lots of information?
 
 === Advanced talk about it ===
 
-- What decision would you never hand to a machine, even if it were right more often than you?
-- Argue against this: "If an AI gives better advice than an overworked human, the objection is sentimental."
-- Roughly two-thirds would keep AI out of judgements about love. Is that wisdom or squeamishness?
-- What decision would you refuse to delegate, and to anyone or only to a machine?
+- Which decisions should always stay with a person?
+- What would you check before acting on an AI suggestion?
+- Could asking for advice too often make choosing harder on your own?
 

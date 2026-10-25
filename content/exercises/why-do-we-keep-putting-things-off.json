@@ -36,12 +36,12 @@
           "d": "delay doing something you do not want to do"
         },
         {
-          "t": "work out",
-          "d": "find the answer to something after thinking about it"
-        },
-        {
           "t": "lazy",
           "d": "not wanting to work or make an effort"
+        },
+        {
+          "t": "work out",
+          "d": "find the answer to something after thinking about it"
         },
         {
           "t": "stressful",
@@ -136,12 +136,12 @@
       },
       "match": [
         {
-          "t": "bring up",
-          "d": "make a feeling or subject start to appear"
-        },
-        {
           "t": "manageable",
           "d": "small or simple enough to deal with"
+        },
+        {
+          "t": "bring up",
+          "d": "make a feeling or subject start to appear"
         },
         {
           "t": "rough",

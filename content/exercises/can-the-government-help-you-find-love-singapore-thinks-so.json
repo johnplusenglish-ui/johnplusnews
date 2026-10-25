@@ -40,12 +40,12 @@
           "d": "avoid becoming involved in something"
         },
         {
-          "t": "concerned",
-          "d": "worried about a possible problem"
-        },
-        {
           "t": "find out",
           "d": "discover a piece of information"
+        },
+        {
+          "t": "concerned",
+          "d": "worried about a possible problem"
         }
       ],
       "grammar": {
@@ -136,20 +136,20 @@
       },
       "match": [
         {
-          "t": "on paper",
-          "d": "when judged only by written details"
-        },
-        {
           "t": "add up to",
           "d": "produce a particular result in the end"
         },
         {
-          "t": "roll out",
-          "d": "make something available to more people"
+          "t": "on paper",
+          "d": "when judged only by written details"
         },
         {
           "t": "demanding",
           "d": "needing a lot of effort and attention"
+        },
+        {
+          "t": "roll out",
+          "d": "make something available to more people"
         }
       ],
       "grammar": {
@@ -248,12 +248,12 @@
           "d": "deliberately modest rather than showy"
         },
         {
-          "t": "intrusive",
-          "d": "going further into private life than is welcome"
-        },
-        {
           "t": "hand over",
           "d": "give something to another person or body"
+        },
+        {
+          "t": "intrusive",
+          "d": "going further into private life than is welcome"
         }
       ],
       "grammar": {

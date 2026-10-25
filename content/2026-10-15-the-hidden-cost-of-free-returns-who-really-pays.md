@@ -41,7 +41,7 @@ The more useful solution may begin before the customer clicks Buy. Accurate meas
 
 === Advanced ===
 
-title: Free Returns and the Journey Backwards
+title: The Long Journey of the Clothes We Send Back
 summary: The convenience of a home fitting room depends on a costly system moving unwanted goods in reverse.
 
 The customer's living room has become an unofficial fitting room. Several sizes arrive, one survives the inspection and the rest are sent back at the click of a button. The transaction feels almost risk-free because the returns label is free. Yet the unwanted garment must now travel backwards through a system built to move products towards customers. Its commercial value can fall while the transport, labour and storage costs continue to rise.
@@ -58,39 +58,37 @@ The most promising improvements may be less confrontational. Better sizing infor
 
 === Core before you read ===
 
-- Do you buy clothes online?
-- Have you ever returned something?
-- Why do people order more than they need?
+- Would you order three sizes if returns were free?
+- What makes you hesitate before buying clothes online?
+- Would you pay a little more for a shop with a fitting room?
 
 === Core talk about it ===
 
-- Free returns feel free. Who pays, do you think? Start with: I think ... pays, because ...
-- Would you order less if returns cost money?
-- Someone says shops should always offer free returns. What do you say to them? Start with: I agree, because ... or It depends, because ...
-- You are not sure about a size. Would you order two and send one back, or do something else?
+- Who should cover the cost when an online size guide is wrong?
+- Would a small return fee change how carefully you choose?
+- What would make online shopping easier without sending so many parcels back?
 
 === Intermediate before you read ===
 
-- Why do people order three sizes of the same thing?
-- Is a free return really free?
-- Should shops charge for returns?
+- Would you order three sizes if returns were free?
+- What makes you hesitate before buying clothes online?
+- Would you pay a little more for a shop with a fitting room?
 
 === Intermediate talk about it ===
 
-- Around 19% of online sales are returned. What does that rate tell you about how we shop?
-- Compare trying clothes in a shop with trying them at home. What are the hidden costs of each?
-- Someone tells you: "Charging for returns just punishes people who cannot get to shops." What would you say back?
-- Workers open and inspect each parcel. Why does that step rarely appear in the advertising?
+- Who should cover the cost when an online size guide is wrong?
+- Would a small return fee change how carefully you choose?
+- What would make online shopping easier without sending so many parcels back?
 
 === Advanced before you read ===
 
-- Has convenience been priced correctly?
-- Who should carry the cost of a system built on uncertainty?
-- Would you accept slower delivery for fewer returns?
+- Would you order three sizes if returns were free?
+- What makes you hesitate before buying clothes online?
+- Would you pay a little more for a shop with a fitting room?
 
 === Advanced talk about it ===
 
-- The writer says the home fitting room depends on a costly reverse system. Should the price of that sit on the item, the return, or the retailer?
-- Argue against this: "Adding a charge at checkout would fix this overnight."
-- Winding back the expectation risks damaging trust. How would you change the norm without losing customers?
-- What is one convenience you rely on without knowing its full cost?
+- Who should cover the cost when an online size guide is wrong?
+- Would a small return fee change how carefully you choose?
+- What would make online shopping easier without sending so many parcels back?
+

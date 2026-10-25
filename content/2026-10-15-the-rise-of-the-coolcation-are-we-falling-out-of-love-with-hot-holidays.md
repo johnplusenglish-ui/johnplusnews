@@ -60,40 +60,37 @@ The more consequential shift may therefore concern how holidays are organised, r
 
 === Core before you read ===
 
-- Do you prefer hot or cool weather on holiday?
-- Where would you go in August?
-- Has summer changed where you live?
+- Would you choose a cool holiday over a hot one?
+- What weather can spoil a trip for you?
+- Do you prefer following the sun or avoiding the crowds?
 
 === Core talk about it ===
 
-- Some people now choose cool holidays. Would you? Start with: I would ... because ...
-- You are booking a summer holiday. How hot would be too hot?
-- Someone says a holiday without sun is not a holiday. What do you say to them? Start with: I disagree, because ... or I agree, because ...
-- Where would you go to escape the heat?
+- Would you change a favourite destination because its summers felt too hot?
+- What makes a place a good holiday choice beyond its weather?
+- Could becoming a popular cool destination create new problems for local people?
 
 === Intermediate before you read ===
 
-- Why might people stop travelling south in summer?
-- Is a new travel word useful or just marketing?
-- What would change your usual holiday plans?
+- Would you choose a cool holiday over a hot one?
+- What weather can spoil a trip for you?
+- Do you prefer following the sun or avoiding the crowds?
 
 === Intermediate talk about it ===
 
-- One in five visitors to Norway named cooler weather as a reason. Is that a trend or a detail? Why?
-- Compare a crowded hot beach with a quiet cool one. What do you actually want from a holiday?
-- Someone tells you: "Spain and Greece are as busy as ever, so nothing has changed." What would you say back?
-- Scotland had wildfires the same summer. What does that complicate?
+- Would you change a favourite destination because its summers felt too hot?
+- What makes a place a good holiday choice beyond its weather?
+- Could becoming a popular cool destination create new problems for local people?
 
 === Advanced before you read ===
 
-- Does moving tourism north solve anything?
-- Who can afford to change where they holiday?
-- Is climate adaptation a private choice or a public problem?
+- Would you choose a cool holiday over a hot one?
+- What weather can spoil a trip for you?
+- Do you prefer following the sun or avoiding the crowds?
 
 === Advanced talk about it ===
 
-- Tourism pressure does not become sustainable by moving north. Where does the pressure actually go?
-- Argue against this: "The coolcation is a media label attached to ordinary variation in travel."
-- Would you give up a beach for somewhere cooler and quieter? What would you miss?
-- Would you change where you travel because of climate, or only because of comfort?
+- Would you change a favourite destination because its summers felt too hot?
+- What makes a place a good holiday choice beyond its weather?
+- Could becoming a popular cool destination create new problems for local people?
 

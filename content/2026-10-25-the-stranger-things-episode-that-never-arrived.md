@@ -71,45 +71,39 @@ How would you correct a rumour in a group chat without spoiling somebody's enjoy
 
 === Core before you read ===
 
-- Have you ever believed a rumour that turned out to be false?
-- Do you like to guess what will happen in a story?
-- How do you check if news is true?
+- Have you ever liked a fan theory more than a show's ending?
+- What makes an online rumour seem believable?
+- Would you rather know an ending early or avoid every clue?
 
 === Intermediate before you read ===
 
-- Have you ever believed a rumour that turned out to be false? Use an invented example if you prefer.
-- Is guessing what will happen next in a story more fun for you than finding out?
-- When a friend shares a surprising claim, what do you do first?
+- Have you ever liked a fan theory more than a show's ending?
+- What makes an online rumour seem believable?
+- Would you rather know an ending early or avoid every clue?
 
 === Advanced before you read ===
 
-- Think of a time you believed something because it was exciting, not because you had checked it. What happened?
-- Is guessing what will happen next in a story as enjoyable as finding out, or more?
-- When a friend shares a surprising claim, how do you decide whether it deserves your trust?
+- Have you ever liked a fan theory more than a show's ending?
+- What makes an online rumour seem believable?
+- Would you rather know an ending early or avoid every clue?
 
 === Core talk about it ===
 
-- A friend says a surprise episode is coming tonight. What do you check first?
-- Is a theory still fun if you know it is probably wrong?
-- What is the difference between "I think", "someone says" and "the creators announced"?
-- Would you like the creators of a story to explain every mystery?
-- How could you tell a friend a rumour is false without spoiling their fun?
+- What would make you check a fan theory before sharing it?
+- Does a series owe fans the ending they want?
+- When does guessing together become more fun than watching the show?
 
 === Intermediate talk about it ===
 
-- A friend says a surprise episode is coming tonight. What would you check first?
-- Is theorising still fun if you know you are probably wrong?
-- What is the difference between "I think", "someone says" and "the creators announced"?
-- Would you want a story's creators to explain every mystery?
-- How could you correct a false rumour without spoiling somebody's enjoyment?
+- What would make you check a fan theory before sharing it?
+- Does a series owe fans the ending they want?
+- When does guessing together become more fun than watching the show?
 
 === Advanced talk about it ===
 
-- A friend says a surprise episode is coming tonight. What would you check first, and why?
-- Is theorising still fun if you know you are probably wrong, or does the fun depend on believing?
-- What is the difference between "I think", "someone says" and "the creators announced", and who should say which one?
-- Would you want a story's creators to explain every mystery, or are unanswered questions part of the pleasure?
-- How could you correct a false rumour without spoiling somebody's enjoyment, and when is it not worth doing?
+- What would make you check a fan theory before sharing it?
+- Does a series owe fans the ending they want?
+- When does guessing together become more fun than watching the show?
 
 === Activity ===
 

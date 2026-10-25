@@ -70,40 +70,37 @@ The larger lesson is that the relationship between humans and disease vectors is
 
 === Core before you read ===
 
-- Are mosquitoes a problem where you live?
-- What diseases do insects carry?
-- How do people protect themselves from bites?
+- What would you think if someone said they were releasing more mosquitoes near your home?
+- What makes you trust a surprising scientific idea?
+- Who would you want to explain a new local health project?
 
 === Core talk about it ===
 
-- Scientists are releasing mosquitoes to fight disease. Does that sound right? Start with: I think ... because ...
-- You hear that officials will release mosquitoes near your home. What would you ask at the public meeting?
-- Someone says we should kill all mosquitoes instead. What do you say to them? Start with: I disagree, because ... or I agree, because ...
-- What else could reduce disease where you live?
+- What would residents need to know before welcoming these mosquitoes?
+- Would a successful trial elsewhere persuade you to support a local project?
+- How could scientists earn trust before asking people to accept a change?
 
 === Intermediate before you read ===
 
-- Why release more insects instead of fewer?
-- Should neighbours be asked before a release?
-- How would you know if it had worked?
+- What would you think if someone said they were releasing more mosquitoes near your home?
+- What makes you trust a surprising scientific idea?
+- Who would you want to explain a new local health project?
 
 === Intermediate talk about it ===
 
-- The mosquitoes still bite but transmit dengue far less. Why does that distinction matter for public trust?
-- Compare releasing Wolbachia mosquitoes with spraying insecticide. What are the trade-offs?
-- Someone tells you: "Do not release anything you cannot recall." What would you say back?
-- Would you let them release mosquitoes on your street? What would you need to hear first?
+- What would residents need to know before welcoming these mosquitoes?
+- Would a successful trial elsewhere persuade you to support a local project?
+- How could scientists earn trust before asking people to accept a change?
 
 === Advanced before you read ===
 
-- Can an individual opt out of a public health measure in the air?
-- Is biological control safer than chemical control, or just slower to show problems?
-- Who should consent to an intervention across a whole city?
+- What would you think if someone said they were releasing more mosquitoes near your home?
+- What makes you trust a surprising scientific idea?
+- Who would you want to explain a new local health project?
 
 === Advanced talk about it ===
 
-- An individual can refuse a treatment but nobody can opt out of the mosquitoes in their street. How should consent work at that scale?
-- Argue against this: "Self-spreading interventions should need a higher standard of proof than any drug."
-- Would you trust an official who said the mosquitoes were safe? What would change your mind?
-- What public measure would you accept without being asked, and where is your limit?
+- What would residents need to know before welcoming these mosquitoes?
+- Would a successful trial elsewhere persuade you to support a local project?
+- How could scientists earn trust before asking people to accept a change?
 

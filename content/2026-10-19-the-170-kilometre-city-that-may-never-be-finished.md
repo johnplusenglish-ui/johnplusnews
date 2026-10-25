@@ -58,40 +58,37 @@ Ultimately, The Line raises a question of political as well as architectural jud
 
 === Core before you read ===
 
-- Would you live in a brand-new city?
-- What makes a city a good place to live?
-- What big building projects are happening near you?
+- Would you live in a city with no private cars?
+- What would you want within ten minutes of your front door?
+- Would a completely planned city make everyday life simpler?
 
 === Core talk about it ===
 
-- A city 170 kilometres long, now delayed. Would it work? Start with: I think ... because ...
-- Is it better to build new cities or improve old ones?
-- Someone says it was always impossible. What do you say to them? Start with: I agree, because ... or Maybe not, because ...
-- If you could redesign one part of your town, what would you change first?
+- What would you ask the people behind a huge new city before moving there?
+- Can a city designed on paper leave room for unexpected ways of living?
+- Would you rather improve an existing city or build a new one?
 
 === Intermediate before you read ===
 
-- Why do huge projects get delayed?
-- Can a city be designed before anyone lives in it?
-- Who pays when a project stops?
+- Would you live in a city with no private cars?
+- What would you want within ten minutes of your front door?
+- Would a completely planned city make everyday life simpler?
 
 === Intermediate talk about it ===
 
-- A report said work was postponed, not cancelled. Why is that difference important?
-- Compare a planned city with one that grew slowly. What does each get right?
-- Someone tells you: "The pictures were always fantasy." What would you say back?
-- Would you move into a city that was still being built?
+- What would you ask the people behind a huge new city before moving there?
+- Can a city designed on paper leave room for unexpected ways of living?
+- Would you rather improve an existing city or build a new one?
 
 === Advanced before you read ===
 
-- What is a megaproject for: the city, or the announcement?
-- Can ambition be separated from spectacle?
-- Who absorbs the cost of a decade's delay?
+- Would you live in a city with no private cars?
+- What would you want within ten minutes of your front door?
+- Would a completely planned city make everyday life simpler?
 
 === Advanced talk about it ===
 
-- A scheme deferred by a decade re-emerges into changed costs, technology and politics. What is likely to survive of the original idea?
-- Argue against this: "Postponement is cancellation with better public relations."
-- What have you waited years for that never arrived?
-- What long project would you judge by its finished state rather than its promise?
+- What would you ask the people behind a huge new city before moving there?
+- Can a city designed on paper leave room for unexpected ways of living?
+- Would you rather improve an existing city or build a new one?
 

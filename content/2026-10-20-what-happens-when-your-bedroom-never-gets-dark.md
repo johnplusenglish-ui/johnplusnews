@@ -72,40 +72,37 @@ There is also a wider policy question. Public lighting supports safety and acces
 
 === Core before you read ===
 
-- Is your bedroom dark at night?
-- What lights are near your window?
-- Do you sleep well?
+- What makes a bedroom feel restful?
+- Would you choose complete darkness or a little light at night?
+- Which bedtime habit would be easiest for you to change?
 
 === Core talk about it ===
 
-- People with most light at night had more sleep problems. Does that surprise you? Start with: It ... me, because ...
-- If you looked around your bedroom at night, where would the light be coming from?
-- Someone says a small light makes no difference. What do you say to them? Start with: Maybe, but ... or I agree, because ...
-- What helps you fall asleep?
+- How could a city make nights darker without making streets feel unsafe?
+- Would you change your bedroom because of one study?
+- What makes health advice easy enough to fit real life?
 
 === Intermediate before you read ===
 
-- Why is darkness important for sleep?
-- Who controls the light outside your window?
-- Can you test your own sleep?
+- What makes a bedroom feel restful?
+- Would you choose complete darkness or a little light at night?
+- Which bedtime habit would be easiest for you to change?
 
 === Intermediate talk about it ===
 
-- The result was an association, not proof. What else could explain the link?
-- Compare blackout curtains with changing street lighting. Which would help more people, and why?
-- Someone tells you: "Just buy an eye mask." What would you say back?
-- What would you have to unplug tonight to make your room properly dark?
+- How could a city make nights darker without making streets feel unsafe?
+- Would you change your bedroom because of one study?
+- What makes health advice easy enough to fit real life?
 
 === Advanced before you read ===
 
-- Is light pollution a private inconvenience or a public health issue?
-- Who should pay for darkness?
-- How much certainty should precede a planning rule?
+- What makes a bedroom feel restful?
+- Would you choose complete darkness or a little light at night?
+- Which bedtime habit would be easiest for you to change?
 
 === Advanced talk about it ===
 
-- A streetlight, traffic noise and an early shift all arrive together. Which would you blame for your worst night's sleep?
-- Argue against this: "Advising blackout blinds privatises a problem created by public lighting."
-- The 27% figure is a relative association, not an individual risk. Why do such numbers travel so well?
-- What in your environment do you treat as fixed that could be changed?
+- How could a city make nights darker without making streets feel unsafe?
+- Would you change your bedroom because of one study?
+- What makes health advice easy enough to fit real life?
 

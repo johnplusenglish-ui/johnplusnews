@@ -58,40 +58,37 @@ Now exhibited at the LVR State Museum in Bonn, the denarii are both public treas
 
 === Core before you read ===
 
-- Have you ever found something valuable?
-- Who should own treasure found in a field?
-- Are you interested in ancient history?
+- What would you do first if you found a pot of old coins?
+- Would you rather find one rare object or hundreds of ordinary ones?
+- What makes buried treasure exciting beyond the money?
 
 === Core talk about it ===
 
-- He reported the coins instead of keeping them. Would you? Start with: I would ... because ...
-- Should finders get a reward?
-- Someone says he should have sold them quietly. What do you say to them? Start with: I disagree, because ... or I understand, but ...
-- If you could leave one everyday object for people to find in 1,000 years, what would you choose?
+- Should a finder get to keep something that matters to a place's history?
+- What can ordinary objects tell us that grand buildings cannot?
+- Which object from your life would help a future historian understand today?
 
 === Intermediate before you read ===
 
-- Why do people bury money?
-- What can objects tell us that writing cannot?
-- Should metal detecting be controlled?
+- What would you do first if you found a pot of old coins?
+- Would you rather find one rare object or hundreds of ordinary ones?
+- What makes buried treasure exciting beyond the money?
 
 === Intermediate talk about it ===
 
-- He called the authorities, so archaeologists could record the position. Why did that matter more than the coins?
-- Compare a hoard in a museum with one in a private collection. What is lost in each case?
-- Someone tells you: "Finders keepers. He did the work." What would you say back?
-- Would you hand in a hoard worth a fortune, with nobody watching?
+- Should a finder get to keep something that matters to a place's history?
+- What can ordinary objects tell us that grand buildings cannot?
+- Which object from your life would help a future historian understand today?
 
 === Advanced before you read ===
 
-- Does an object belong to the finder, the landowner, or the public?
-- What is the difference between treasure and evidence?
-- Can we ever know why something was hidden?
+- What would you do first if you found a pot of old coins?
+- Would you rather find one rare object or hundreds of ordinary ones?
+- What makes buried treasure exciting beyond the money?
 
 === Advanced talk about it ===
 
-- The owner's identity and the reason for burial are unknown. Does that make the find more interesting or less?
-- Argue against this: "Metal detecting destroys more history than it recovers."
-- Would you have called someone, or kept digging?
-- What would someone conclude about your life from what you left buried?
+- Should a finder get to keep something that matters to a place's history?
+- What can ordinary objects tell us that grand buildings cannot?
+- Which object from your life would help a future historian understand today?
 

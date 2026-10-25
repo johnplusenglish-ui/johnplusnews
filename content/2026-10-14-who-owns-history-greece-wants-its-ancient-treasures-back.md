@@ -58,40 +58,37 @@ The broader implications extend through museum collections worldwide. Artefacts 
 
 === Core before you read ===
 
-- Have you visited a museum with objects from other countries?
-- Should old objects stay where they were made?
-- What is the most famous object in your country?
+- Would you rather see an ancient object where it was made or in a big world museum?
+- What gives an object a sense of belonging to a place?
+- Would a perfect copy offer the same museum experience?
 
 === Core talk about it ===
 
-- Greece wants the sculptures back. Should Britain return them? Start with: I think ... because ...
-- Is it better to see world history in one museum, or objects in their home country?
-- Someone says the sculptures are safer in London. What do you say to them? Start with: That may be true, but ... or I agree, because ...
-- Which object would you most like to see returned to its home?
+- What would a fair agreement over the sculptures look like?
+- Does easy access for visitors settle where an object should stay?
+- Who should help tell the story beside an object in a museum?
 
 === Intermediate before you read ===
 
-- Who owns an object taken two hundred years ago?
-- Does it matter that the law of the time was different?
-- Should museums return everything, or only some things?
+- Would you rather see an ancient object where it was made or in a big world museum?
+- What gives an object a sense of belonging to a place?
+- Would a perfect copy offer the same museum experience?
 
 === Intermediate talk about it ===
 
-- Greece refuses any deal that recognises British ownership. Is that principle worth losing the sculptures over? Why?
-- Compare a permanent return with a long loan. What does each side gain and lose?
-- Someone tells you: "Return these and every museum empties." What would you say back?
-- If something from your country sat in a foreign museum, would you want it back or want it seen?
+- What would a fair agreement over the sculptures look like?
+- Does easy access for visitors settle where an object should stay?
+- Who should help tell the story beside an object in a museum?
 
 === Advanced before you read ===
 
-- Is this a legal argument or a moral one, and which should win?
-- Can a museum be universal and just at the same time?
-- What would a fair process for contested objects look like?
+- Would you rather see an ancient object where it was made or in a big world museum?
+- What gives an object a sense of belonging to a place?
+- Would a perfect copy offer the same museum experience?
 
 === Advanced talk about it ===
 
-- Osborne proposes rotation; Athens calls the Parthenon an exception. Which position is more defensible, and why?
-- Argue against this: "Each case is different, so sweeping restitution rules are impossible."
-- Does your family argue about who should keep something? Same fight, smaller scale.
-- If your country held a contested object, what would persuade you to give it back?
+- What would a fair agreement over the sculptures look like?
+- Does easy access for visitors settle where an object should stay?
+- Who should help tell the story beside an object in a museum?
 

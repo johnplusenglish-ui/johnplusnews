@@ -71,45 +71,39 @@ So would you wear it? Perhaps the better question is what you would say if a fri
 
 === Core before you read ===
 
-- Would you choose a shirt for its colour, its comfort or its meaning?
-- Can a piece of clothing tell a story?
-- Would you rather design a team's shirt or its badge?
+- Would you wear a rival team's shirt if you loved its design?
+- Can you enjoy football shirts without following football?
+- Which matters more in an outfit: its look or its meaning?
 
 === Intermediate before you read ===
 
-- Would you choose a shirt for its colour, its comfort or its meaning? Does it depend on the shirt?
-- Can a piece of clothing tell a story? What is your example?
-- Would you rather design a team's shirt or its badge, and why?
+- Would you wear a rival team's shirt if you loved its design?
+- Can you enjoy football shirts without following football?
+- Which matters more in an outfit: its look or its meaning?
 
 === Advanced before you read ===
 
-- Would you choose a shirt for its colour, its comfort or its meaning, and which would you be embarrassed to admit?
-- Can a piece of clothing tell a story, and who is it telling it to?
-- Would you rather design a team's shirt or its badge, and what would you want people to feel?
+- Would you wear a rival team's shirt if you loved its design?
+- Can you enjoy football shirts without following football?
+- Which matters more in an outfit: its look or its meaning?
 
 === Core talk about it ===
 
-- You love a shirt's design, but it belongs to your friend's rival team. Would you wear it? Start with: I would ... because ...
-- Is it strange to wear a team's shirt if you never watch its matches? Why?
-- What is most important in a school team's kit: the colour, the badge or the price?
-- How can someone show support for a team without buying anything new?
-- A club changes its famous colours for one season. Is that exciting or a bad idea?
+- Who gets to decide what someone else's shirt means?
+- Would you rather wear something everyone recognised or something nobody else had?
+- What could change a shirt from sportswear into a fashion item?
 
 === Intermediate talk about it ===
 
-- You love a shirt's design, but it belongs to your friend's rival team. Would you wear it?
-- Is it strange to wear a team's shirt if you never watch its matches?
-- What should matter most in a school or local team's kit?
-- How could someone show support without buying new merchandise?
-- A club changes its traditional colours for a season. What would make that an exciting idea or a bad one?
+- Who gets to decide what someone else's shirt means?
+- Would you rather wear something everyone recognised or something nobody else had?
+- What could change a shirt from sportswear into a fashion item?
 
 === Advanced talk about it ===
 
-- You love a shirt's design, but it belongs to your friend's rival team. Would you wear it, and what would you say if they asked why?
-- Is it strange to wear a team's shirt if you never watch its matches, and who gets to decide?
-- What should matter most in a school or local team's kit, and who should choose?
-- How could someone show support without buying new merchandise, and does that kind of support count as much?
-- A club changes its traditional colours for a season. What would make that exciting, and what would make it feel like a betrayal?
+- Who gets to decide what someone else's shirt means?
+- Would you rather wear something everyone recognised or something nobody else had?
+- What could change a shirt from sportswear into a fashion item?
 
 === Activity ===
 

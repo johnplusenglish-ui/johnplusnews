@@ -73,45 +73,39 @@ So who makes the rules in your group chat? Perhaps whoever has been there longes
 
 === Core before you read ===
 
-- Does "OK" sound friendly, neutral or annoyed to you?
-- Would you rather get a long message or a short voice note?
-- How can you show you are joking without an emoji?
+- What makes a group chat fun to open?
+- Would you rather miss some messages or have your phone keep buzzing?
+- Should every group chat have a few rules?
 
 === Intermediate before you read ===
 
-- Does "OK" sound friendly, neutral or annoyed to you? Does it depend on who sends it?
-- Would you rather receive a long message or a short voice note, and when?
-- How could you show you are joking without using an emoji?
+- What makes a group chat fun to open?
+- Would you rather miss some messages or have your phone keep buzzing?
+- Should every group chat have a few rules?
 
 === Advanced before you read ===
 
-- Does "OK" sound friendly, neutral or annoyed to you, and what would change your reading?
-- Would you rather receive a long message or a short voice note? Does the choice say something about the sender?
-- How could you show you are joking in writing without an emoji, and would it always work?
+- What makes a group chat fun to open?
+- Would you rather miss some messages or have your phone keep buzzing?
+- Should every group chat have a few rules?
 
 === Core talk about it ===
 
-- Someone answers your idea with "fine". What could it mean? What could you say next? Start with: I might say ...
-- Is a quick reaction enough to show you have read an important message?
-- Should everyone in a group reply quickly? Why?
-- A new student joins a chat full of private jokes. What could make them feel included?
-- Choose one chat rule you would keep and one you would refuse. Why?
+- What one rule would improve a class group chat?
+- Should replying late ever need an apology?
+- Who should step in when a joke stops being funny?
 
 === Intermediate talk about it ===
 
-- Someone replies "fine" to your idea. What could it mean, and what might you say next?
-- Is a quick reaction enough to show you have read an important message?
-- Should a group expect everyone to reply quickly?
-- A new student joins a chat full of private jokes. What could make them feel included?
-- Choose one group-chat rule you would keep and one you would refuse. Why?
+- What one rule would improve a class group chat?
+- Should replying late ever need an apology?
+- Who should step in when a joke stops being funny?
 
 === Advanced talk about it ===
 
-- Someone replies "fine" to your idea. What could it mean, and how could you find out without making it awkward?
-- Is a quick reaction enough to show you have read an important message, or does it only show you have seen it?
-- Should a group expect everyone to reply quickly, and who pays the price when they don't?
-- A new student joins a chat full of private jokes. What could the group do so the jokes include them rather than leave them out?
-- Choose one group-chat rule you would keep and one you would refuse. Who gets to decide, and how?
+- What one rule would improve a class group chat?
+- Should replying late ever need an apology?
+- Who should step in when a joke stops being funny?
 
 === Activity ===
 

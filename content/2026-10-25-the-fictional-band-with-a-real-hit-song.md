@@ -69,45 +69,39 @@ So which would you choose: a concert by the cartoon band, or a concert by the re
 
 === Core before you read ===
 
-- Have you ever been a fan of a character, not a real person?
-- What do you want from a song in a film?
-- Can a cartoon band be as exciting as a real one?
+- Can a fictional band become one of your favourite bands?
+- What makes a song stick even if you have not seen the film?
+- Would you rather perform a song or create the character who sings it?
 
 === Intermediate before you read ===
 
-- Have you ever loved a character's song as much as a real singer's song? What was it?
-- What should a song in a film do besides sound good?
-- Can a cartoon band be as exciting as a real one? What would it need?
+- Can a fictional band become one of your favourite bands?
+- What makes a song stick even if you have not seen the film?
+- Would you rather perform a song or create the character who sings it?
 
 === Advanced before you read ===
 
-- Think of a character you care about. Is liking them different from liking a real person?
-- What should a song in a film do besides sound good?
-- Is a fictional band less "real" to its fans than a human one?
+- Can a fictional band become one of your favourite bands?
+- What makes a song stick even if you have not seen the film?
+- Would you rather perform a song or create the character who sings it?
 
 === Core talk about it ===
 
-- Could you become a fan of a fictional musician? What would win you over?
-- Does knowing the real singer change how you feel about a character's song?
-- What should a song in a film do besides sound good?
-- Would you choose a character's concert, the real singers' concert or neither?
-- If a fictional band made another song, what would make it fit its characters?
+- Who should get the most credit for a fictional band's hit?
+- Would seeing the real singers change how you imagined the characters?
+- What makes a soundtrack work as music on its own?
 
 === Intermediate talk about it ===
 
-- Could you become a fan of a fictional musician? What would win you over?
-- Does knowing the real singer change your connection to a character's song?
-- What should a song in a film do besides sound good?
-- Would you choose a character's concert, the real singers' concert or neither?
-- If a fictional band released another song, what would make it feel true to its characters?
+- Who should get the most credit for a fictional band's hit?
+- Would seeing the real singers change how you imagined the characters?
+- What makes a soundtrack work as music on its own?
 
 === Advanced talk about it ===
 
-- Could you become a fan of a fictional musician, and what exactly would you be a fan of?
-- Does knowing the real singer change your connection to a character's song, or add to it?
-- What should a song in a film do besides sound good, and can it do both at once?
-- Would you choose a character's concert, the real singers' concert or neither, and why?
-- If a fictional band released another song, what would make it feel true to its characters, not just to its audience?
+- Who should get the most credit for a fictional band's hit?
+- Would seeing the real singers change how you imagined the characters?
+- What makes a soundtrack work as music on its own?
 
 === Activity ===
 

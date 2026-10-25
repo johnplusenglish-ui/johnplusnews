@@ -36,12 +36,12 @@
           "d": "learn something without formal lessons"
         },
         {
-          "t": "get started",
-          "d": "begin doing something new"
-        },
-        {
           "t": "energy-efficient",
           "d": "using as little power as possible"
+        },
+        {
+          "t": "get started",
+          "d": "begin doing something new"
         },
         {
           "t": "bring back",
@@ -240,20 +240,20 @@
       },
       "match": [
         {
-          "t": "come up against",
-          "d": "meet a difficulty you did not expect"
-        },
-        {
           "t": "cut down on",
           "d": "reduce the amount of something"
         },
         {
-          "t": "inventive",
-          "d": "full of original and clever ideas"
+          "t": "come up against",
+          "d": "meet a difficulty you did not expect"
         },
         {
           "t": "turn into",
           "d": "change and become something else"
+        },
+        {
+          "t": "inventive",
+          "d": "full of original and clever ideas"
         }
       ],
       "grammar": {

@@ -60,40 +60,37 @@ For Bali, the challenge is to move beyond the false choice between unrestricted 
 
 === Core before you read ===
 
-- Would you like to work in another country?
-- What do tourists bring to a place, good and bad?
-- Has your town changed because of visitors?
+- What can make a beautiful holiday destination disappointing?
+- Would you pay a visitor fee if it helped a place you loved?
+- When do visitors start changing what they came to enjoy?
 
 === Core talk about it ===
 
-- Visitors bring money but change prices. Is that a fair trade? Start with: I think ... because ...
-- Should foreigners be allowed to run businesses anywhere?
-- Someone says tourists should just be grateful for the money they bring. What do you say to them? Start with: I agree, because ... or That misses ...
-- What makes a visitor a good guest?
+- What should a destination protect even if it means fewer tourists?
+- Who should have the strongest say over tourism in a place?
+- Would you choose a quieter trip if it meant giving up a famous photo?
 
 === Intermediate before you read ===
 
-- Why might local people resent remote workers?
-- Who gains most from tourism in a small place?
-- Should a country limit who can buy land there?
+- What can make a beautiful holiday destination disappointing?
+- Would you pay a visitor fee if it helped a place you loved?
+- When do visitors start changing what they came to enjoy?
 
 === Intermediate talk about it ===
 
-- Bali restricted foreign investment in 18 business categories. Is that protection or protectionism? Why?
-- Compare a tourist who stays a week with a remote worker who stays a year. Which affects a neighbourhood more?
-- Someone tells you: "Without tourism there would be no jobs at all." What would you say back?
-- Have you been somewhere that felt built for visitors rather than residents? How could you tell?
+- What should a destination protect even if it means fewer tourists?
+- Who should have the strongest say over tourism in a place?
+- Would you choose a quieter trip if it meant giving up a famous photo?
 
 === Advanced before you read ===
 
-- Can a place be popular and still belong to the people who live there?
-- Is a digital nomad a guest, a resident, or something else?
-- What would a fair deal between visitors and residents look like?
+- What can make a beautiful holiday destination disappointing?
+- Would you pay a visitor fee if it helped a place you loved?
+- When do visitors start changing what they came to enjoy?
 
 === Advanced talk about it ===
 
-- Would you take a job that existed only because foreigners had moved in?
-- Argue against this: "Restricting foreign business punishes outsiders for a failure of local planning."
-- Indonesian creators say the issue is fair competition. What would fair competition actually require?
-- Would you move somewhere knowing your presence raised the cost of living for people already there?
+- What should a destination protect even if it means fewer tourists?
+- Who should have the strongest say over tourism in a place?
+- Would you choose a quieter trip if it meant giving up a famous photo?
 

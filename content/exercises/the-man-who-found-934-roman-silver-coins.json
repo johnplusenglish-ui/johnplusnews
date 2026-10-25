@@ -32,12 +32,12 @@
       },
       "match": [
         {
-          "t": "go off",
-          "d": "suddenly make a loud noise or signal"
-        },
-        {
           "t": "put aside",
           "d": "save money for later use"
+        },
+        {
+          "t": "go off",
+          "d": "suddenly make a loud noise or signal"
         },
         {
           "t": "sensible",
@@ -248,12 +248,12 @@
           "d": "succeed in making an idea understood"
         },
         {
-          "t": "absorbing",
-          "d": "holding your attention completely"
-        },
-        {
           "t": "come to light",
           "d": "become known after being hidden"
+        },
+        {
+          "t": "absorbing",
+          "d": "holding your attention completely"
         }
       ],
       "grammar": {

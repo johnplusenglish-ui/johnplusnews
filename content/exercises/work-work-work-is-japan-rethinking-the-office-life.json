@@ -140,16 +140,16 @@
           "d": "finish work and leave for the day"
         },
         {
-          "t": "drop out",
-          "d": "stop taking part in something"
-        },
-        {
           "t": "keep up",
           "d": "continue at the same rate as others"
         },
         {
           "t": "eligible",
           "d": "allowed to take part or receive something"
+        },
+        {
+          "t": "drop out",
+          "d": "stop taking part in something"
         }
       ],
       "grammar": {

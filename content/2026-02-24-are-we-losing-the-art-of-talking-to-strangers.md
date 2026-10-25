@@ -58,40 +58,37 @@ The solution is not a campaign to make every commuter talkative. Silence can be 
 
 === Core before you read ===
 
-- Do you talk to strangers on buses or trains?
-- What do you usually do on a long journey?
-- Is it easy to start a conversation in your language?
+- What makes it easy to start talking to someone you do not know?
+- Would you enjoy a journey more if a stranger spoke to you?
+- Where does a short conversation feel welcome?
 
 === Core talk about it ===
 
-- Would you enjoy a chat with a stranger on a train, or would you rather be left alone? Start with: I would rather ... because ...
-- When is it a bad idea to talk to a stranger?
-- Someone says talking to strangers is a waste of time. What do you say to them? Start with: I agree, because ... or I don't think so, because ...
-- You are waiting beside a stranger. What would make you start a conversation?
+- How can someone invite a conversation without making the other person feel trapped?
+- Would a place feel friendlier if more people said hello?
+- Which matters more for a good conversation: having something in common or being curious?
 
 === Intermediate before you read ===
 
-- Why do you think people avoid talking to strangers now?
-- Does a phone make a journey better or just shorter?
-- Is small talk a skill, or something you either have or you don't?
+- What makes it easy to start talking to someone you do not know?
+- Would you enjoy a journey more if a stranger spoke to you?
+- Where does a short conversation feel welcome?
 
 === Intermediate talk about it ===
 
-- The article says we expect these conversations to go worse than they do. Has that been true for you? Why?
-- Compare a city you know with a smaller town. Where do strangers talk more, and why?
-- Someone tells you: "Leave people alone, they have headphones on for a reason." What do you say back?
-- When did a stranger last speak to you? Were you glad, or did you wish they hadn't?
+- How can someone invite a conversation without making the other person feel trapped?
+- Would a place feel friendlier if more people said hello?
+- Which matters more for a good conversation: having something in common or being curious?
 
 === Advanced before you read ===
 
-- Is the silence on a train a loss, or simply privacy that people have chosen?
-- Has politeness changed, or only the places we practise it?
-- Would you accept more interruption in exchange for more connection?
+- What makes it easy to start talking to someone you do not know?
+- Would you enjoy a journey more if a stranger spoke to you?
+- Where does a short conversation feel welcome?
 
 === Advanced talk about it ===
 
-- The writer admits some people feel unsafe when approached. Does that weaken the argument, or make it more honest?
-- Argue against this: "Talking to strangers is a nostalgic hobby for people who are not at risk."
-- Who was the last stranger you spoke to for more than a minute, and what made it possible?
-- Which of your own habits makes you harder to approach, and would you give it up?
+- How can someone invite a conversation without making the other person feel trapped?
+- Would a place feel friendlier if more people said hello?
+- Which matters more for a good conversation: having something in common or being curious?
 

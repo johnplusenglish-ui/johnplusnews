@@ -136,20 +136,20 @@
       },
       "match": [
         {
-          "t": "look into",
-          "d": "investigate something in order to learn more"
-        },
-        {
           "t": "a false economy",
           "d": "a saving that costs more in the end"
         },
         {
-          "t": "end up",
-          "d": "finish in a particular situation"
+          "t": "look into",
+          "d": "investigate something in order to learn more"
         },
         {
           "t": "impulsive",
           "d": "done suddenly, without thinking"
+        },
+        {
+          "t": "end up",
+          "d": "finish in a particular situation"
         }
       ],
       "grammar": {
@@ -248,12 +248,12 @@
           "d": "avoid dealing with an awkward fact"
         },
         {
-          "t": "elective",
-          "d": "chosen rather than medically required"
-        },
-        {
           "t": "the small print",
           "d": "the conditions easily overlooked in a contract"
+        },
+        {
+          "t": "elective",
+          "d": "chosen rather than medically required"
         }
       ],
       "grammar": {

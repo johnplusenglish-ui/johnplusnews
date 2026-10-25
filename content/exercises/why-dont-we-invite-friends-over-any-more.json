@@ -32,12 +32,12 @@
       },
       "match": [
         {
-          "t": "come over",
-          "d": "visit somebody at their home"
-        },
-        {
           "t": "tidy away",
           "d": "put things back where they belong"
+        },
+        {
+          "t": "come over",
+          "d": "visit somebody at their home"
         },
         {
           "t": "messy",
@@ -248,12 +248,12 @@
           "d": "available the moment you want it"
         },
         {
-          "t": "unhurried",
-          "d": "done calmly, with no sense of rush"
-        },
-        {
           "t": "clear away",
           "d": "remove things after a meal or activity"
+        },
+        {
+          "t": "unhurried",
+          "d": "done calmly, with no sense of rush"
         }
       ],
       "grammar": {

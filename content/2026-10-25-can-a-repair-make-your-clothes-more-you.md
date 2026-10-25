@@ -71,45 +71,39 @@ What it does give us is a practical, low-cost way to ask about taste. So if you 
 
 === Core before you read ===
 
-- Would you choose a hidden repair or a bright patch?
-- What makes an everyday thing feel like yours?
-- Which would you rather learn to fix: a bag, a T-shirt or a zip?
+- Would you wear a repaired item if the repair was easy to see?
+- Which item of clothing would you most want to keep?
+- Would you rather learn to sew or learn to customise trainers?
 
 === Intermediate before you read ===
 
-- Would you choose a hidden repair or a bright, visible patch? Does it depend on the item?
-- What makes an everyday item feel like yours?
-- Which would you rather learn to fix: a bag, a T-shirt or a zip, and why?
+- Would you wear a repaired item if the repair was easy to see?
+- Which item of clothing would you most want to keep?
+- Would you rather learn to sew or learn to customise trainers?
 
 === Advanced before you read ===
 
-- Would you choose a hidden repair or a bright, visible patch, and who are you imagining looking at it?
-- What makes an everyday item feel like yours, and does it have to be new to feel that way?
-- Which would you rather learn to fix: a bag, a T-shirt or a zip? What does your choice say about what you value?
+- Would you wear a repaired item if the repair was easy to see?
+- Which item of clothing would you most want to keep?
+- Would you rather learn to sew or learn to customise trainers?
 
 === Core talk about it ===
 
-- Your favourite bag has a hole. Would you hide the repair or make it a feature? Start with: I would ... because ...
-- Could a repaired thing be more interesting than a new one? Why?
-- What would help a beginner feel comfortable at a repair workshop?
-- Is something more special if you helped to make or change it?
-- Plan a no-buy style challenge for a class. How can everyone join without comparing what they own?
+- Could a visible repair make something look better?
+- What would make a clothes-repair session with friends fun?
+- Would you care more about clothes if you helped make or mend them?
 
 === Intermediate talk about it ===
 
-- Your favourite bag has a hole. Would you hide the repair, make it a feature or choose another solution?
-- Could a repaired item become more interesting than a new one?
-- What would make a beginner feel comfortable at a repair workshop?
-- Is something more valuable if you have helped make or change it?
-- Plan a no-buy style challenge for a fictional class. How could everyone take part without comparing what they own?
+- Could a visible repair make something look better?
+- What would make a clothes-repair session with friends fun?
+- Would you care more about clothes if you helped make or mend them?
 
 === Advanced talk about it ===
 
-- Your favourite bag has a hole. Would you hide the repair, make it a feature or choose another solution, and who are you picturing?
-- Could a repaired item become more interesting than a new one, and could the same patch mean something different on different people?
-- What would make a beginner feel comfortable at a repair workshop, and who might not come at all?
-- Is something more valuable if you have helped make or change it, or is that a story we tell ourselves?
-- Plan a no-buy style challenge for a fictional class. How could everyone take part without comparing what they own, and what rule would you need?
+- Could a visible repair make something look better?
+- What would make a clothes-repair session with friends fun?
+- Would you care more about clothes if you helped make or mend them?
 
 === Activity ===
 

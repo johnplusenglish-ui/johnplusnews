@@ -58,40 +58,37 @@ The most refreshing aspect of the research may be its challenge to the moral lan
 
 === Core before you read ===
 
-- Do you sleep later at the weekend?
-- How many hours of sleep do you need?
-- What stops you sleeping well?
+- What makes a weekend morning feel well spent?
+- Would you choose an extra hour in bed or an unhurried breakfast?
+- Can a day off become another thing to organise perfectly?
 
 === Core talk about it ===
 
-- Do you feel guilty about sleeping late? Start with: I do ... because ... or I don't, because ...
-- Is an extra hour in bed a treat or a problem?
-- Someone says you should wake at the same time every day. What do you say to them? Start with: That works for ... but ...
-- If you had a free weekend morning, what would make it feel like a real rest?
+- Should people feel bad about sleeping late on a free day?
+- Would a simple sleep routine make your weekend easier or less free?
+- What would a restful Sunday look like without tracking anything?
 
 === Intermediate before you read ===
 
-- Why do doctors usually recommend the same wake-up time every day?
-- Can you catch up on lost sleep, do you think?
-- Is tiredness during the week a personal problem or a work problem?
+- What makes a weekend morning feel well spent?
+- Would you choose an extra hour in bed or an unhurried breakfast?
+- Can a day off become another thing to organise perfectly?
 
 === Intermediate talk about it ===
 
-- The strongest result was about eighty-seven minutes, not a whole morning. Why might the amount matter so much?
-- Compare a weekday morning with a weekend one. What actually changes, besides the alarm?
-- Someone tells you: "Sleep advice is just another way to make people feel they are failing." What would you say back?
-- Do you catch up at the weekend, and does it actually work for you?
+- Should people feel bad about sleeping late on a free day?
+- Would a simple sleep routine make your weekend easier or less free?
+- What would a restful Sunday look like without tracking anything?
 
 === Advanced before you read ===
 
-- Is irregular sleep a health risk or a sign of an irregular life?
-- Who gets to choose when they wake up?
-- Would you change your sleep for a statistic?
+- What makes a weekend morning feel well spent?
+- Would you choose an extra hour in bed or an unhurried breakfast?
+- Can a day off become another thing to organise perfectly?
 
 === Advanced talk about it ===
 
-- The writer says an association is not a prescription. Why do health stories so often lose that distinction?
-- Argue against this: "If catch-up sleep helps, the real problem is the working week, not the lie-in."
-- Would you give up your lie-in if the evidence told you to? Be honest.
-- Is there a health rule you follow without ever having checked the evidence for it?
+- Should people feel bad about sleeping late on a free day?
+- Would a simple sleep routine make your weekend easier or less free?
+- What would a restful Sunday look like without tracking anything?
 

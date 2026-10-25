@@ -50,7 +50,7 @@ The story is not really about winning money. It is about a question hidden insid
 
 === Advanced ===
 
-title: What Can a Folded Wing Teach a Teenage Inventor?
+title: The Folded Wing That Gave Hikaru a Question to Solve
 summary: A 17-year-old turned a hobby, paper folding, into research on how structures move. His story is useful for what it claims, and for what it carefully does not.
 
 Folding paper is an old art, and it hides real questions. How can a flat sheet become a three-dimensional shape? And how can that shape open again without tearing? In May 2026, a 17-year-old in Japan was rewarded for a new way of studying that second question.
@@ -71,45 +71,39 @@ Which ordinary activity of yours might hide a question worth investigating, and 
 
 === Core before you read ===
 
-- Have you ever folded paper into a shape? What did you make?
-- What is a hobby of yours that other people might think is simple?
-- Can a hobby help you learn something serious?
+- What could you make from one sheet of paper?
+- Would you rather follow instructions or invent a design?
+- Can an ordinary hobby turn into a serious question?
 
 === Intermediate before you read ===
 
-- What hobby could you explain to a complete beginner? What would you start with?
-- Have you ever wondered how an ordinary object works? Use an invented example if you prefer.
-- Do hobbies and science have anything in common?
+- What could you make from one sheet of paper?
+- Would you rather follow instructions or invent a design?
+- Can an ordinary hobby turn into a serious question?
 
 === Advanced before you read ===
 
-- Which hobby could you explain well to someone who knew nothing about it? What would be the hardest part?
-- Think of an ordinary object. What question about it could be worth investigating?
-- Can a hobby ever be as serious as school work? What makes it so?
+- What could you make from one sheet of paper?
+- Would you rather follow instructions or invent a design?
+- Can an ordinary hobby turn into a serious question?
 
 === Core talk about it ===
 
-- Which hobby would you enjoy explaining to someone who knew nothing about it?
-- Have you ever wondered how an everyday object works? An invented example is fine.
-- Would you rather build one working model or write a computer program that tests many designs?
-- What could nature teach a designer who wants to save space?
-- Could a project be worth doing even if it never wins a prize?
+- What makes this paper-folding story interesting beyond winning a prize?
+- Would you keep working on an idea if most attempts failed?
+- Which everyday object would you like to understand more deeply?
 
 === Intermediate talk about it ===
 
-- Which hobby would you enjoy explaining to someone who knew nothing about it?
-- Have you ever wondered how an ordinary object works? An invented example is fine.
-- Would you rather build one working model or write a program that tests many possible designs?
-- What could nature teach a designer who is trying to save space?
-- Could a project be worthwhile even if it never wins a prize or becomes a product?
+- What makes this paper-folding story interesting beyond winning a prize?
+- Would you keep working on an idea if most attempts failed?
+- Which everyday object would you like to understand more deeply?
 
 === Advanced talk about it ===
 
-- Which hobby would you enjoy explaining to someone who knew nothing about it, and how would you make them curious?
-- Have you ever wondered how an ordinary object works? An invented example is fine. How would you find out?
-- Would you rather build one working model or write a program that tests many possible designs, and what would each teach you?
-- What could nature teach a designer who is trying to save space, and what might it fail to teach?
-- Could a project be worthwhile even if it never wins a prize or becomes a product, and who decides?
+- What makes this paper-folding story interesting beyond winning a prize?
+- Would you keep working on an idea if most attempts failed?
+- Which everyday object would you like to understand more deeply?
 
 === Activity ===
 

@@ -73,40 +73,37 @@ The evidence therefore supports a measured conclusion. Natural environments can 
 
 === Core before you read ===
 
-- Is there a park near your home?
-- How do you feel after a walk outside?
-- Where do you go to relax?
+- Where would you go for a walk if you had twenty minutes?
+- Would you rather walk somewhere familiar or explore a new route?
+- What helps you notice your surroundings?
 
 === Core talk about it ===
 
-- Research found nature helps mood more than memory. Does that match you? Start with: For me ... because ...
-- You have twenty minutes free. Would you choose a walk, a chat, or somewhere quiet to sit?
-- Someone says a walk cures everything. What do you say to them? Start with: I disagree, because ... or It helps, because ...
-- What would make your area better for walking?
+- What would make it easier for more people to spend time outdoors?
+- Does a walk need to be somewhere beautiful to be worthwhile?
+- Would you protect a daily walk if it meant leaving another task unfinished?
 
 === Intermediate before you read ===
 
-- Why might nature affect mood more than concentration?
-- Is access to green space equal in your city?
-- What else changes when you go for a walk?
+- Where would you go for a walk if you had twenty minutes?
+- Would you rather walk somewhere familiar or explore a new route?
+- What helps you notice your surroundings?
 
 === Intermediate talk about it ===
 
-- Does a walk actually change your mood, or do you just believe it does?
-- Compare a walk alone with a walk with a friend. Which does more, and why?
-- Someone tells you: "Just go outside, it is free." What would you say back?
-- Weather, mobility and work limit people's choices. Whose responsibility is that?
+- What would make it easier for more people to spend time outdoors?
+- Does a walk need to be somewhere beautiful to be worthwhile?
+- Would you protect a daily walk if it meant leaving another task unfinished?
 
 === Advanced before you read ===
 
-- Is nature a treatment or a condition for living well?
-- Who is prescribed a walk, and who is prescribed medicine?
-- Does measuring a benefit make it easier to fund, or easier to dismiss?
+- Where would you go for a walk if you had twenty minutes?
+- Would you rather walk somewhere familiar or explore a new route?
+- What helps you notice your surroundings?
 
 === Advanced talk about it ===
 
-- Findings are averages, not guarantees. How should that shape public advice?
-- Argue against this: "Green prescribing moves responsibility for health onto individuals and off services."
-- How far is your nearest green space, and when were you last in it?
-- What would have to change near you before a daily walk were realistic?
+- What would make it easier for more people to spend time outdoors?
+- Does a walk need to be somewhere beautiful to be worthwhile?
+- Would you protect a daily walk if it meant leaving another task unfinished?
 

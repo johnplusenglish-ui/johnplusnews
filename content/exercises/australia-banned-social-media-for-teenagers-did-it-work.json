@@ -32,20 +32,20 @@
       },
       "match": [
         {
-          "t": "bring in",
-          "d": "introduce a new rule or law"
-        },
-        {
           "t": "hand over",
           "d": "give something to somebody in authority"
         },
         {
-          "t": "upsetting",
-          "d": "making you feel unhappy or worried"
+          "t": "bring in",
+          "d": "introduce a new rule or law"
         },
         {
           "t": "come across",
           "d": "find something without looking for it"
+        },
+        {
+          "t": "upsetting",
+          "d": "making you feel unhappy or worried"
         }
       ],
       "grammar": {
@@ -136,12 +136,12 @@
       },
       "match": [
         {
-          "t": "get at",
-          "d": "manage to reach something"
-        },
-        {
           "t": "fall outside",
           "d": "not be covered by a rule"
+        },
+        {
+          "t": "get at",
+          "d": "manage to reach something"
         },
         {
           "t": "try out",
@@ -244,12 +244,12 @@
           "d": "begin to deal with something difficult"
         },
         {
-          "t": "fall back on",
-          "d": "turn to something when nothing else works"
-        },
-        {
           "t": "let somebody in",
           "d": "allow somebody to enter"
+        },
+        {
+          "t": "fall back on",
+          "d": "turn to something when nothing else works"
         },
         {
           "t": "unresolved",

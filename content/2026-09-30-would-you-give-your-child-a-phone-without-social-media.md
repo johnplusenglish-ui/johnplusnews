@@ -58,40 +58,37 @@ Freckle's most valuable contribution may be less the hardware than the question 
 
 === Core before you read ===
 
-- At what age should a child get a phone?
-- What do children use phones for?
-- Did you have a phone when you were twelve?
+- What is a phone useful for besides social media?
+- Would you choose a phone that could call and play music but had no feed?
+- Who should help decide a child's first phone rules?
 
 === Core talk about it ===
 
-- Would you give a child this phone, with no apps and no internet? Start with: I would ... because ...
-- What is the best thing a child's phone should do?
-- Someone says children need the same phone as their friends. What do you say to them? Start with: That is a good point, because ... or I don't agree, because ...
-- What rules would you set for a child with a phone?
+- What would make a limited phone feel like freedom rather than punishment?
+- Should phone rules depend more on age or on how someone uses it?
+- What would a phone designed around what children actually need look like?
 
 === Intermediate before you read ===
 
-- Why do parents worry about giving children phones?
-- Is being left out of a group chat a small problem or a big one?
-- Should a parent be able to see where their child is?
+- What is a phone useful for besides social media?
+- Would you choose a phone that could call and play music but had no feed?
+- Who should help decide a child's first phone rules?
 
 === Intermediate talk about it ===
 
-- The phone protects a child but may shut them out of their friends' group chats. How would you weigh that, and why?
-- Compare a limited phone with clear family rules on a normal phone. Which would work better, and why?
-- Someone tells you: "Just delay it. No child needs a phone at eleven." What would you say back?
-- What age would you give a child their first phone, and what would you put on it?
+- What would make a limited phone feel like freedom rather than punishment?
+- Should phone rules depend more on age or on how someone uses it?
+- What would a phone designed around what children actually need look like?
 
 === Advanced before you read ===
 
-- Does a safer device teach judgement, or delay it?
-- Is tracking a child care or surveillance, and does the child get a say?
-- Who should decide what a twelve-year-old can see: parents, companies or regulators?
+- What is a phone useful for besides social media?
+- Would you choose a phone that could call and play music but had no feed?
+- Who should help decide a child's first phone rules?
 
 === Advanced talk about it ===
 
-- Would you rather your child saw something harmful, or felt left out? You have to pick one.
-- Argue against this: "A locked-down phone just moves the problem to the first unlocked one they get."
-- Family rules, friendship groups and local safety all shape the outcome. Which of those can a product actually influence?
-- What would you have wanted an adult to restrict for you, and what would you have resented?
+- What would make a limited phone feel like freedom rather than punishment?
+- Should phone rules depend more on age or on how someone uses it?
+- What would a phone designed around what children actually need look like?
 

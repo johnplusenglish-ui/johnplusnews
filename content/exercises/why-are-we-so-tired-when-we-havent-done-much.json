@@ -40,12 +40,12 @@
           "d": "reach a situation you did not plan"
         },
         {
-          "t": "demanding",
-          "d": "needing a lot of effort or attention"
-        },
-        {
           "t": "share out",
           "d": "divide something between people"
+        },
+        {
+          "t": "demanding",
+          "d": "needing a lot of effort or attention"
         }
       ],
       "grammar": {
@@ -144,12 +144,12 @@
           "d": "have no more of something left"
         },
         {
-          "t": "use something up",
-          "d": "finish the whole supply of something"
-        },
-        {
           "t": "persistent",
           "d": "continuing for a long time without stopping"
+        },
+        {
+          "t": "use something up",
+          "d": "finish the whole supply of something"
         }
       ],
       "grammar": {
@@ -240,12 +240,12 @@
       },
       "match": [
         {
-          "t": "account for",
-          "d": "provide an explanation for something"
-        },
-        {
           "t": "rule something out",
           "d": "decide something is not a possibility"
+        },
+        {
+          "t": "account for",
+          "d": "provide an explanation for something"
         },
         {
           "t": "strenuous",

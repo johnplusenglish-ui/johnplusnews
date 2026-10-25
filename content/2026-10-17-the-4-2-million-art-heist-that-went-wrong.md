@@ -58,40 +58,37 @@ Beyond the improbable hiding place, the case exposed a vulnerability shared by m
 
 === Core before you read ===
 
-- Have you been to an art museum?
-- Why do people steal famous paintings?
-- How do museums keep things safe?
+- Why do some paintings become worth millions?
+- Would you rather own a famous picture or one you simply love?
+- What makes a real-life theft different from a film heist?
 
 === Core talk about it ===
 
-- The thieves left two paintings behind. Why might that happen? Start with: Maybe because ...
-- Should museums show their most valuable works at all?
-- Someone says art is only paint and canvas. What do you say to them? Start with: I disagree, because ... or In a way, yes, but ...
-- What would you most want to protect in a museum?
+- What does a museum owe visitors as well as the objects it protects?
+- Would a stolen painting be worth anything if you could never show it?
+- Should museums display a convincing copy when an original is missing?
 
 === Intermediate before you read ===
 
-- What makes a stolen painting hard to sell?
-- Does modern science make theft harder?
-- Should small museums hold famous works?
+- Why do some paintings become worth millions?
+- Would you rather own a famous picture or one you simply love?
+- What makes a real-life theft different from a film heist?
 
 === Intermediate talk about it ===
 
-- A cover left behind carried DNA that identified a suspect. What does that say about planning a crime today?
-- Compare stealing a painting with stealing money. Which is harder to turn into a profit, and why?
-- Someone tells you: "They were caught, so the system worked." What would you say back?
-- They were named before any trial. Would that bother you, if it were your brother?
+- What does a museum owe visitors as well as the objects it protects?
+- Would a stolen painting be worth anything if you could never show it?
+- Should museums display a convincing copy when an original is missing?
 
 === Advanced before you read ===
 
-- Is a painting's value its price or its presence?
-- Who should carry the cost of protecting cultural property?
-- Does a solved case tell us anything about the unsolved ones?
+- Why do some paintings become worth millions?
+- Would you rather own a famous picture or one you simply love?
+- What makes a real-life theft different from a film heist?
 
 === Advanced talk about it ===
 
-- The paintings were recovered but damaged. How should a museum weigh display against risk after that?
-- Argue against this: "Works this valuable belong in secure storage, not on a wall."
-- What would you do with a painting you could never sell or show to anyone?
-- What would you accept losing to keep something open to the public?
+- What does a museum owe visitors as well as the objects it protects?
+- Would a stolen painting be worth anything if you could never show it?
+- Should museums display a convincing copy when an original is missing?
 

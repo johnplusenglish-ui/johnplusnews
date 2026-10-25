@@ -72,40 +72,37 @@ Ultimately, the question is who controls the purpose of an activity. A hobby may
 
 === Core before you read ===
 
-- What do you do for fun?
-- Do you try to improve at it?
-- Would you sell something you made?
+- Would you keep a hobby if you never improved at it?
+- What do you enjoy doing without showing anyone the result?
+- Does sharing a hobby online make it more fun or more work?
 
 === Core talk about it ===
 
-- You start running for air and end up entering a race. Is that good? Start with: I think ... because ...
-- A friend wants to sell something they make for fun. What would you ask before saying yes?
-- Someone says every hobby should earn money. What do you say to them? Start with: I disagree, because ... or Sometimes, because ...
-- What do you do purely because you enjoy it?
+- When does a hobby start feeling like another job?
+- Would you rather be average at something you loved or excellent at something you disliked?
+- What could help someone try a hobby without feeling judged?
 
 === Intermediate before you read ===
 
-- Why do hobbies turn competitive?
-- Does sharing something online change it?
-- What do you lose when a hobby becomes work?
+- Would you keep a hobby if you never improved at it?
+- What do you enjoy doing without showing anyone the result?
+- Does sharing a hobby online make it more fun or more work?
 
 === Intermediate talk about it ===
 
-- Taking orders and meeting deadlines can turn a pleasure into a job. Where is your line?
-- Compare a hobby you keep private with one you share. Which lasts longer, and why?
-- Someone tells you: "If you are good at something, never do it for free." What would you say back?
-- Not everybody can afford to keep leisure separate from income. How does that change the advice?
+- When does a hobby start feeling like another job?
+- Would you rather be average at something you loved or excellent at something you disliked?
+- What could help someone try a hobby without feeling judged?
 
 === Advanced before you read ===
 
-- Is an unproductive hobby a luxury?
-- Does measurement improve enjoyment or replace it?
-- Who is the audience for your free time?
+- Would you keep a hobby if you never improved at it?
+- What do you enjoy doing without showing anyone the result?
+- Does sharing a hobby online make it more fun or more work?
 
 === Advanced talk about it ===
 
-- Advice to resist monetising assumes a secure income. How should that shape what we tell people?
-- Argue against this: "Turning a hobby into a business is the only honest way to take it seriously."
-- Do you still have one thing you are happy to be bad at?
-- What would you keep doing if nobody ever saw it?
+- When does a hobby start feeling like another job?
+- Would you rather be average at something you loved or excellent at something you disliked?
+- What could help someone try a hobby without feeling judged?
 

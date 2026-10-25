@@ -32,12 +32,12 @@
       },
       "match": [
         {
-          "t": "set up",
-          "d": "start a business or organisation"
-        },
-        {
           "t": "come in",
           "d": "arrive as income or money"
+        },
+        {
+          "t": "set up",
+          "d": "start a business or organisation"
         },
         {
           "t": "second-hand",
@@ -144,12 +144,12 @@
           "d": "reach an answer by calculating"
         },
         {
-          "t": "leave out",
-          "d": "fail to include something"
-        },
-        {
           "t": "genuine",
           "d": "real rather than pretended"
+        },
+        {
+          "t": "leave out",
+          "d": "fail to include something"
         }
       ],
       "grammar": {
@@ -240,20 +240,20 @@
       },
       "match": [
         {
-          "t": "pick apart",
-          "d": "examine something closely to find its faults"
-        },
-        {
           "t": "part with",
           "d": "give away something you would rather keep"
         },
         {
-          "t": "dubious",
-          "d": "probably not honest or reliable"
+          "t": "pick apart",
+          "d": "examine something closely to find its faults"
         },
         {
           "t": "representative",
           "d": "typical of a larger group"
+        },
+        {
+          "t": "dubious",
+          "d": "probably not honest or reliable"
         }
       ],
       "grammar": {

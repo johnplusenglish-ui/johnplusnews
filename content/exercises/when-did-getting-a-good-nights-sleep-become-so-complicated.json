@@ -136,20 +136,20 @@
       },
       "match": [
         {
-          "t": "preoccupied",
-          "d": "thinking about something so much that you cannot focus on anything else"
-        },
-        {
           "t": "persuasive",
           "d": "able to make you believe something"
         },
         {
-          "t": "consistent",
-          "d": "always behaving or happening in the same way"
+          "t": "preoccupied",
+          "d": "thinking about something so much that you cannot focus on anything else"
         },
         {
           "t": "in isolation",
           "d": "separately, without considering anything else"
+        },
+        {
+          "t": "consistent",
+          "d": "always behaving or happening in the same way"
         }
       ],
       "grammar": {
@@ -248,12 +248,12 @@
           "d": "more than is reasonable or necessary"
         },
         {
-          "t": "proportionate",
-          "d": "sensible in relation to the size of the problem"
-        },
-        {
           "t": "at face value",
           "d": "accepted as true without being questioned"
+        },
+        {
+          "t": "proportionate",
+          "d": "sensible in relation to the size of the problem"
         }
       ],
       "grammar": {

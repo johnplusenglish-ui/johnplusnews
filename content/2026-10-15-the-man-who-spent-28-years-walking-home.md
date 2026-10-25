@@ -56,39 +56,37 @@ The public celebration of extraordinary endurance can gloss over a more difficul
 
 === Core before you read ===
 
-- What is the longest journey you have made?
-- Would you like to travel on foot?
-- What would you miss if you left home for years?
+- What is the longest journey you would willingly make on foot?
+- Would you enjoy travelling without a fixed return date?
+- What would you miss most on a very long journey?
 
 === Core talk about it ===
 
-- Karl Bushby has walked for almost 28 years. Why would someone do that? Start with: I think ... because ...
-- Is finishing more important than starting?
-- Someone says this was a waste of a life. What do you say to them? Start with: I disagree, because ... or In a way, because ...
-- What long goal would you like to set yourself?
+- When does sticking to a plan become harder to admire?
+- Would you rather finish a huge challenge or enjoy every stage of it?
+- What could make arriving home feel strange after years away?
 
 === Intermediate before you read ===
 
-- What keeps someone going for decades?
-- Is an expedition selfish, or does it belong to everyone following it?
-- What would be hardest: the walking or the paperwork?
+- What is the longest journey you would willingly make on foot?
+- Would you enjoy travelling without a fixed return date?
+- What would you miss most on a very long journey?
 
 === Intermediate talk about it ===
 
-- He swam the Channel because he could not walk through the tunnel. What does that say about his rules?
-- Compare a goal that takes a month with one that takes thirty years. What does each demand?
-- Someone tells you: "He should have stopped years ago." What would you say back?
-- Could you keep a promise to yourself for 28 years? Which one would it be?
+- When does sticking to a plan become harder to admire?
+- Would you rather finish a huge challenge or enjoy every stage of it?
+- What could make arriving home feel strange after years away?
 
 === Advanced before you read ===
 
-- What happens to a person when the defining project ends?
-- Is a self-imposed rule an achievement or an arbitrary constraint?
-- Who pays for a journey like this, in money and in time?
+- What is the longest journey you would willingly make on foot?
+- Would you enjoy travelling without a fixed return date?
+- What would you miss most on a very long journey?
 
 === Advanced talk about it ===
 
-- The writer asks what a man does when the journey that defined his life ends. What would you expect the answer to be?
-- Argue against this: "A 28-year walk is an act of endurance, not an achievement anyone benefits from."
-- His rules forbade transport but allowed a support team for the swim. Where is the line in a feat like this?
-- Is there something you have pursued so long that stopping would be harder than continuing?
+- When does sticking to a plan become harder to admire?
+- Would you rather finish a huge challenge or enjoy every stage of it?
+- What could make arriving home feel strange after years away?
+

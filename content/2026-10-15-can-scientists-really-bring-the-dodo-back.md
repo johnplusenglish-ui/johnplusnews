@@ -62,39 +62,37 @@ For now, the dodo belongs to history rather than to the forests of Mauritius. Th
 
 === Core before you read ===
 
-- Which extinct animal would you most like to see?
-- Why do animals become extinct?
-- Should we spend money on animals that are still alive instead?
+- Which extinct animal would you most like to see alive?
+- Would you visit a place to see an animal created by scientists?
+- What makes an animal worth protecting?
 
 === Core talk about it ===
 
-- Scientists want to bring back the dodo. Is that a good idea? Start with: I think ... because ...
-- Would a new bird really be a dodo?
-- Someone says this money should save living animals. What do you say to them? Start with: I agree, because ... or Both matter, because ...
-- What animal near you needs protecting?
+- Would a bird that looked like a dodo count as bringing it back?
+- Would you spend more on protecting living species or recreating extinct ones?
+- Could the promise of bringing animals back make extinction seem less serious?
 
 === Intermediate before you read ===
 
-- Is bringing back a species science or spectacle?
-- What would an extinct animal need in order to survive now?
-- Who should decide whether to try?
+- Which extinct animal would you most like to see alive?
+- Would you visit a place to see an animal created by scientists?
+- What makes an animal worth protecting?
 
 === Intermediate talk about it ===
 
-- The company has 95% of the genome but no bird. Why is the remaining part so difficult?
-- Compare de-extinction with protecting a habitat. Which would you fund, and why?
-- Someone tells you: "If we can fix extinction, there is less reason to prevent it." What would you say back?
-- Mauritius habitat work is slow and unglamorous. Why does it matter more than the genetics?
+- Would a bird that looked like a dodo count as bringing it back?
+- Would you spend more on protecting living species or recreating extinct ones?
+- Could the promise of bringing animals back make extinction seem less serious?
 
 === Advanced before you read ===
 
-- Is an animal its genome, or its ecological role?
-- Does de-extinction change how seriously we take extinction?
-- Who profits from the promise, and who carries the risk?
+- Which extinct animal would you most like to see alive?
+- Would you visit a place to see an animal created by scientists?
+- What makes an animal worth protecting?
 
 === Advanced talk about it ===
 
-- A convincing likeness could be a real achievement without repairing the ecological loss. Which would you call success?
-- Argue against this: "De-extinction is a technology demonstration wearing a conservation costume."
-- Editing a Nicobar pigeon raises reproductive challenges the article calls formidable. What should be proven before release?
-- Is there something you would want restored even if the restoration were imperfect?
+- Would a bird that looked like a dodo count as bringing it back?
+- Would you spend more on protecting living species or recreating extinct ones?
+- Could the promise of bringing animals back make extinction seem less serious?
+

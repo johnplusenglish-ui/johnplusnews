@@ -48,7 +48,7 @@ The phrase quiet quitting turns a complicated negotiation into an argument about
 
 === Advanced ===
 
-title: The Unwritten Contract: Whose Goodwill Keeps the Job Running?
+title: Is Leaving on Time Really Doing Too Little?
 summary: Bargaining power decides who can set a boundary and who risks punishment for trying. Making the cost of flexibility visible matters more than ruling on whether the attitude is virtuous or lazy.
 
 The popularity of the phrase quiet quitting reveals how differently employers and employees understand professional commitment. To some managers, limiting effort to the responsibilities set out in a contract represents a troubling loss of ambition. To some workers, the same behaviour represents a long-overdue rejection of unpaid labour and constant availability.
@@ -71,40 +71,37 @@ Perhaps the debate should move beyond deciding whether quiet quitting is virtuou
 
 === Core before you read ===
 
-- Do you answer work messages in the evening?
-- What are your working hours?
-- Is it wrong to do only your job?
+- What does doing a job well look like when you leave on time?
+- Would you answer a routine work message on a day off?
+- When does helping out become an expectation?
 
 === Core talk about it ===
 
-- Doing your job and no more. Is that quiet quitting or just working? Start with: I think it is ... because ...
-- Should you be paid for extra hours?
-- Someone says this attitude lets colleagues down. What do you say to them? Start with: Sometimes, but ... or I agree, because ...
-- What makes a fair day's work?
+- Where would you draw the line between being reliable and always being available?
+- Should doing exactly the agreed job ever count as doing too little?
+- What could make people want to contribute more without feeling pressured?
 
 === Intermediate before you read ===
 
-- Why did this phrase become so popular?
-- Can you be committed and still leave on time?
-- Who decides what extra means?
+- What does doing a job well look like when you leave on time?
+- Would you answer a routine work message on a day off?
+- When does helping out become an expectation?
 
 === Intermediate talk about it ===
 
-- Gallup found 20% engaged, but that is not the same as quiet quitting. Why do the two get confused?
-- Compare an office worker with a nurse at the end of a shift. How do boundaries differ?
-- Someone tells you: "Setting limits is just doing less." What would you say back?
-- Your manager asks for a small task just as you are leaving. What would affect your answer?
+- Where would you draw the line between being reliable and always being available?
+- Should doing exactly the agreed job ever count as doing too little?
+- What could make people want to contribute more without feeling pressured?
 
 === Advanced before you read ===
 
-- Is a boundary a right or a privilege?
-- Who can afford to refuse extra work?
-- Does naming a behaviour change how it is judged?
+- What does doing a job well look like when you leave on time?
+- Would you answer a routine work message on a day off?
+- When does helping out become an expectation?
 
 === Advanced talk about it ===
 
-- Bargaining power decides who can set a boundary safely. How should that shape the public argument?
-- Argue against this: "Quiet quitting is a media label for ordinary employment terms being honoured."
-- Who at your work could set a boundary without paying for it, and who could not?
-- What have you agreed to at work that you would renegotiate now?
+- Where would you draw the line between being reliable and always being available?
+- Should doing exactly the agreed job ever count as doing too little?
+- What could make people want to contribute more without feeling pressured?
 

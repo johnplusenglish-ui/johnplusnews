@@ -60,40 +60,37 @@ The controversy illustrates a broader problem in adventure tourism. Paying for p
 
 === Core before you read ===
 
-- Would you like to climb a mountain?
-- Why do people take dangerous risks?
-- Should dangerous activities be controlled?
+- Would you still want a summit photo if you had to queue for it?
+- What makes an adventure feel like an achievement?
+- Is a famous challenge more appealing because many people want to do it?
 
 === Core talk about it ===
 
-- Nepal may require climbers to have climbed a 7,000-metre peak first. Good rule? Start with: I think ... because ...
-- Who should decide who can climb Everest?
-- Someone says people should be free to take any risk. What do you say to them? Start with: I agree, because ... or Not when ...
-- You are choosing between a famous crowded route and a quieter one. What would matter most to you?
+- Who should be able to decide how many climbers a mountain receives?
+- Would you choose a less famous mountain for a better experience?
+- What should a visitor owe the people who make a dangerous trip possible?
 
 === Intermediate before you read ===
 
-- Does experience make a climber safe?
-- Who is put at risk when a climber is unprepared?
-- Should a poorer country turn away tourist money?
+- Would you still want a summit photo if you had to queue for it?
+- What makes an adventure feel like an achievement?
+- Is a famous challenge more appealing because many people want to do it?
 
 === Intermediate talk about it ===
 
-- Queues form when expeditions share a weather window. Why is waiting itself dangerous?
-- Compare limiting numbers with raising the price. Which is fairer, and why?
-- Someone tells you: "Everest income matters more than Everest rules." What would you say back?
-- If a guide told you to turn back, would you?
+- Who should be able to decide how many climbers a mountain receives?
+- Would you choose a less famous mountain for a better experience?
+- What should a visitor owe the people who make a dangerous trip possible?
 
 === Advanced before you read ===
 
-- Can a rule measure judgement?
-- Who carries the risk created by someone else's ambition?
-- Should access to a mountain be rationed, and by what?
+- Would you still want a summit photo if you had to queue for it?
+- What makes an adventure feel like an achievement?
+- Is a famous challenge more appealing because many people want to do it?
 
 === Advanced talk about it ===
 
-- A previous 7,000-metre summit is called an imperfect and expensive proxy. What would be a better test, and could it be enforced?
-- Argue against this: "Restricting Everest protects the mountain's reputation, not the people on it."
-- Who do you think should carry the risk: the climber who pays, or the guide who is paid?
-- What risk would you take that you would not want someone else to take for you?
+- Who should be able to decide how many climbers a mountain receives?
+- Would you choose a less famous mountain for a better experience?
+- What should a visitor owe the people who make a dangerous trip possible?
 

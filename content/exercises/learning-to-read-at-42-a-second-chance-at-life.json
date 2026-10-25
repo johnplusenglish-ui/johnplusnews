@@ -40,12 +40,12 @@
           "d": "stop trying to do something difficult"
         },
         {
-          "t": "grow up",
-          "d": "become an adult over a period of years"
-        },
-        {
           "t": "hidden",
           "d": "kept where nobody can see or know"
+        },
+        {
+          "t": "grow up",
+          "d": "become an adult over a period of years"
         }
       ],
       "grammar": {
@@ -244,12 +244,12 @@
           "d": "hide a fact you do not want others to know"
         },
         {
-          "t": "brush aside",
-          "d": "refuse to take something seriously"
-        },
-        {
           "t": "painstaking",
           "d": "done with great care over a long time"
+        },
+        {
+          "t": "brush aside",
+          "d": "refuse to take something seriously"
         },
         {
           "t": "guarded",

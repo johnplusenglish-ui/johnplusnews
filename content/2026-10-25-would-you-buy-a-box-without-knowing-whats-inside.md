@@ -71,45 +71,39 @@ So the question is yours. When you want something, are you mostly after the obje
 
 === Core before you read ===
 
-- Would you rather choose a gift or be surprised?
-- What makes an ordinary object worth keeping?
-- Can something be special if lots of people have one?
+- Would you buy a mystery box or choose exactly what you wanted?
+- What makes something worth collecting?
+- Is a surprise still fun if you get the same thing twice?
 
 === Intermediate before you read ===
 
-- Would you rather choose a gift or be surprised, and does it depend on who gives it?
-- What makes an ordinary object worth keeping?
-- Can something be special if lots of people own it?
+- Would you buy a mystery box or choose exactly what you wanted?
+- What makes something worth collecting?
+- Is a surprise still fun if you get the same thing twice?
 
 === Advanced before you read ===
 
-- Would you rather choose a gift or be surprised, and what does your answer say about how you like to be given things?
-- What makes an ordinary object worth keeping, and who decides?
-- Can something be special if lots of people own it, or does being rare matter more than you'd like to admit?
+- Would you buy a mystery box or choose exactly what you wanted?
+- What makes something worth collecting?
+- Is a surprise still fun if you get the same thing twice?
 
 === Core talk about it ===
 
-- Two boxes cost the same. One shows what is inside. The other is a surprise. Which do you choose, or neither? Start with: I would choose ... because ...
-- Is getting the same toy twice always disappointing? What could you do with it?
-- Would you still want a collectible if nobody else could see it?
-- What makes a trend fun? What can make it feel like pressure?
-- Design a collectible that people would keep without buying again and again. What makes them keep it?
+- Would you swap a rare toy for one you simply liked more?
+- What would make a collectible special without making it expensive?
+- How could a seller keep the surprise without pushing people to buy again?
 
 === Intermediate talk about it ===
 
-- Two boxes cost the same. One shows exactly what is inside; the other is a surprise. Which would you choose, or would you choose neither?
-- Is getting a duplicate always disappointing? What could someone do with it?
-- Would you still want a collectible if nobody else would see it?
-- What makes a trend enjoyable, and what can make it feel like pressure?
-- Design a collectible people could enjoy without repeated purchases. What would make them keep it?
+- Would you swap a rare toy for one you simply liked more?
+- What would make a collectible special without making it expensive?
+- How could a seller keep the surprise without pushing people to buy again?
 
 === Advanced talk about it ===
 
-- Two boxes cost the same. One shows exactly what is inside; the other is a surprise. Which would you choose, or would you choose neither, and what does your choice say about you?
-- Is getting a duplicate always disappointing? What could someone do with it, and what does that say about the value of the surprise?
-- Would you still want a collectible if nobody else would see it, and what would be left of its appeal?
-- What makes a trend enjoyable, and when does it tip into pressure? How can you tell the difference in yourself?
-- Design a collectible people could enjoy without repeated purchases. What would make them keep it, and what would the seller lose?
+- Would you swap a rare toy for one you simply liked more?
+- What would make a collectible special without making it expensive?
+- How could a seller keep the surprise without pushing people to buy again?
 
 === Activity ===
 

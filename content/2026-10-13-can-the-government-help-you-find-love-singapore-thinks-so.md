@@ -59,40 +59,37 @@ There is also something refreshing about a dating service that declines to maxim
 
 === Core before you read ===
 
-- How do people meet partners in your country?
-- Have you used a dating app, or do you know someone who has?
-- Would you trust a computer to choose for you?
+- Would you let a friend choose a date for you?
+- Does having more choice make choosing easier?
+- What would make a dating app feel less tiring?
 
 === Core talk about it ===
 
-- Singapore's service gives one match at a time. Is that better than hundreds? Start with: I think ... because ...
-- Should a government help people find love?
-- Someone says this is not the government's business. What do you say to them? Start with: I agree, because ... or Actually, ...
-- A friend asks you to introduce them to someone. What would you think about first?
+- Would one carefully chosen introduction beat hundreds of profiles?
+- Would government involvement make you trust a dating service more or less?
+- What should people be able to decide without an app's help?
 
 === Intermediate before you read ===
 
-- Why might endless choice make dating harder?
-- Should a government care about how many babies are born?
-- What would make you trust a dating service?
+- Would you let a friend choose a date for you?
+- Does having more choice make choosing easier?
+- What would make a dating app feel less tiring?
 
 === Intermediate talk about it ===
 
-- The service is open only to public servants. Is that sensible testing or unfair? Why?
-- Compare one match a month with unlimited swiping. Which would you prefer, and why?
-- Someone tells you: "A government knowing your romantic preferences is a step too far." What would you say back?
-- Would you let an algorithm choose one person for you, if it meant no more swiping?
+- Would one carefully chosen introduction beat hundreds of profiles?
+- Would government involvement make you trust a dating service more or less?
+- What should people be able to decide without an app's help?
 
 === Advanced before you read ===
 
-- Can a state solve a problem that is fundamentally private?
-- Is a low birth rate a problem for government, or a result of its policies?
-- Would a better algorithm fix dating, or is the dissatisfaction the point?
+- Would you let a friend choose a date for you?
+- Does having more choice make choosing easier?
+- What would make a dating app feel less tiring?
 
 === Advanced talk about it ===
 
-- One match, 72 hours, no browsing. Would that make you take it more seriously, or panic?
-- Argue against this: "If commercial apps profit from keeping you single, a public alternative is overdue."
-- Scarcity is the design: one match, 72 hours. What does that assume about how people decide?
-- Where is the line, for you, between a government helping and a government arranging?
+- Would one carefully chosen introduction beat hundreds of profiles?
+- Would government involvement make you trust a dating service more or less?
+- What should people be able to decide without an app's help?
 

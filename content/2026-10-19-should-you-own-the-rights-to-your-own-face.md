@@ -43,7 +43,7 @@ Denmark's proposal reflects a wider change in how people think about privacy. Th
 
 === Advanced ===
 
-title: Your Digital Double: Denmark Tests the Limits of Likeness
+title: Who Should Control a Copy of Your Face?
 summary: A photograph once implied that something had happened in front of a camera. Generative tools have quietly dismantled that assumption, leaving legislators to decide who may manufacture a persuasive version of you.
 
 For much of photographic history, the credibility of an image rested on a simple assumption: that some recognisable event had taken place in front of a camera. Generative artificial intelligence has quietly dismantled that assumption. It can produce plausible representations of people performing actions or making statements that never occurred, giving rise to new difficulties around consent, reputation and the public's capacity to evaluate evidence at all.
@@ -62,39 +62,37 @@ The Danish initiative illustrates a genuine shift in the meaning of privacy. It 
 
 === Core before you read ===
 
-- Have you seen a fake video of a real person?
-- Could you tell it was fake?
-- Should it be illegal to copy someone's face?
+- Would you recognise a convincing fake video of yourself?
+- When is copying someone's voice funny, and when does it go too far?
+- Would you trust a surprising video before checking where it came from?
 
 === Core talk about it ===
 
-- Denmark plans a law to protect people's faces and voices. Good idea? Start with: I think ... because ...
-- What would you do if someone made a fake video of you?
-- Someone says fake videos are just jokes. What do you say to them? Start with: Sometimes, but ... or I agree, because ...
-- How can we tell what is real online?
+- Who should have to remove a fake: the person posting it or the platform?
+- Would a clear AI label make every fake video acceptable?
+- What would help ordinary people challenge a fake about them?
 
 === Intermediate before you read ===
 
-- Can a law keep up with this technology?
-- Should public figures get the same protection as everyone else?
-- What would you want removed, and who would remove it?
+- Would you recognise a convincing fake video of yourself?
+- When is copying someone's voice funny, and when does it go too far?
+- Would you trust a surprising video before checking where it came from?
 
 === Intermediate talk about it ===
 
-- Taking a video off one platform achieves little if copies spread. What would actually work?
-- Compare parody of a politician with a fake video of a private person. What makes them different?
-- Someone tells you: "If you post photos online, you accept the risk." What would you say back?
-- Would you recognise a fake video of yourself? What would give it away?
+- Who should have to remove a fake: the person posting it or the platform?
+- Would a clear AI label make every fake video acceptable?
+- What would help ordinary people challenge a fake about them?
 
 === Advanced before you read ===
 
-- What did a photograph used to prove, and what does it prove now?
-- Should your likeness be property, or something else?
-- Who is least able to defend themselves here?
+- Would you recognise a convincing fake video of yourself?
+- When is copying someone's voice funny, and when does it go too far?
+- Would you trust a surprising video before checking where it came from?
 
 === Advanced talk about it ===
 
-- Generative tools dismantled the assumption that a photo records something that happened. What replaces that assumption?
-- Argue against this: "Owning your face would make satire, journalism and art impossible."
-- Private individuals lack the lawyers and contacts a public figure has. How should a law correct for that?
-- What would you need to see before you believed a video of someone you know?
+- Who should have to remove a fake: the person posting it or the platform?
+- Would a clear AI label make every fake video acceptable?
+- What would help ordinary people challenge a fake about them?
+

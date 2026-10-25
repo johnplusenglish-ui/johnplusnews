@@ -140,16 +140,16 @@
           "d": "do something to put a past wrong right"
         },
         {
-          "t": "stir up",
-          "d": "cause strong feelings to begin again"
-        },
-        {
           "t": "get along",
           "d": "have a friendly relationship"
         },
         {
           "t": "extraordinary",
           "d": "far beyond what is usual"
+        },
+        {
+          "t": "stir up",
+          "d": "cause strong feelings to begin again"
         }
       ],
       "grammar": {
@@ -240,12 +240,12 @@
       },
       "match": [
         {
-          "t": "make up your mind",
-          "d": "reach a firm decision"
-        },
-        {
           "t": "keep score",
           "d": "compare who is doing better"
+        },
+        {
+          "t": "make up your mind",
+          "d": "reach a firm decision"
         },
         {
           "t": "flourish",

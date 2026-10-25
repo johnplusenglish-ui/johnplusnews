@@ -60,40 +60,37 @@ What Australia has created, then, is an international test case rather than a se
 
 === Core before you read ===
 
-- At what age should people use social media?
-- What is good and bad about these apps?
-- Would a ban work in your country?
+- Would you have wanted an age limit on social media when you were younger?
+- What makes an online space feel suitable for young people?
+- Would an age limit change a habit if friends kept using the app?
 
 === Core talk about it ===
 
-- Australia stopped under-16s having accounts. Good idea? Start with: I think ... because ...
-- What should a teenager be allowed to do online?
-- Someone says teenagers will just find a way round it. What do you say to them? Start with: Probably, but ... or I agree, because ...
-- What would help young people most online?
+- What should a platform fix besides checking someone's age?
+- Would a ban help someone whose friends organised everything online?
+- What would make a social-media rule feel fair to the teenagers affected?
 
 === Intermediate before you read ===
 
-- Can a law change how young people spend their time?
-- Who should decide: parents, schools or government?
-- What would you measure to see if a ban worked?
+- Would you have wanted an age limit on social media when you were younger?
+- What makes an online space feel suitable for young people?
+- Would an age limit change a habit if friends kept using the app?
 
 === Intermediate talk about it ===
 
-- Platforms can point to deleted accounts without showing teenagers are better off. What should be measured instead?
-- Compare a ban with teaching young people to use these apps well. Which would you choose, and why?
-- Someone tells you: "Some teenagers depend on online communities for support." How does that change your view?
-- There is no alternative Australia to compare with. Why does that make judging the policy so hard?
+- What should a platform fix besides checking someone's age?
+- Would a ban help someone whose friends organised everything online?
+- What would make a social-media rule feel fair to the teenagers affected?
 
 === Advanced before you read ===
 
-- Can a country run an experiment on its own children?
-- Is the harm in the time spent, or in how platforms are built?
-- Who benefits from a rule that is easy to announce and hard to check?
+- Would you have wanted an age limit on social media when you were younger?
+- What makes an online space feel suitable for young people?
+- Would an age limit change a habit if friends kept using the app?
 
 === Advanced talk about it ===
 
-- If the harm lies in how platforms are designed, does an age limit address it at all?
-- Argue against this: "A ban in name is not a ban in practice, so the policy is theatre."
-- Millions of accounts were deleted. If you were 15, where would you have gone instead?
-- What would convince you the ban had worked, or failed?
+- What should a platform fix besides checking someone's age?
+- Would a ban help someone whose friends organised everything online?
+- What would make a social-media rule feel fair to the teenagers affected?
 

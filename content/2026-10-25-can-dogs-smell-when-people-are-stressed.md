@@ -73,45 +73,39 @@ That leaves the next experiment to you. You could change the smell, the task or 
 
 === Core before you read ===
 
-- Which animal sense would you most like to borrow for a day?
-- What can you notice about a person before they speak?
+- What do you think animals notice about people?
+- Would you rather understand what a dog smells or what it hears?
 - What would make an animal experiment convincing to you?
 
 === Intermediate before you read ===
 
-- Which animal sense would you most like to borrow for a day, and what would you do with it?
-- What can you notice about someone before they speak?
-- What would make an animal experiment convincing to you, and what would make you doubt it?
+- What do you think animals notice about people?
+- Would you rather understand what a dog smells or what it hears?
+- What would make an animal experiment convincing to you?
 
 === Advanced before you read ===
 
-- Which animal sense would you most like to borrow for a day, and what would be the downside?
-- What can you notice about someone before they speak, and how sure are you that you're right?
-- What would make an animal experiment convincing to you, and what would be unfair to the animals?
+- What do you think animals notice about people?
+- Would you rather understand what a dog smells or what it hears?
+- What would make an animal experiment convincing to you?
 
 === Core talk about it ===
 
-- Would you rather have a dog's nose or an eagle's eyes for one day? Start with: I would choose ... because ...
-- How could you tell if a dog expects food without asking it?
-- Does a slow walk always mean an animal is worried? What else could it mean?
-- A headline says "Dogs can read your mind". What would you change?
-- What question about animals would you like scientists to study next?
+- Does this study change how you think about dogs?
+- What would you like researchers to find out next?
+- Should a small experiment become a big claim in a headline?
 
 === Intermediate talk about it ===
 
-- Would you rather have a dog's sense of smell or an eagle's eyesight for a day? Where would you use it?
-- How could you tell whether a dog expected to find food without asking it?
-- Does a slow approach always mean an animal is worried? What else might explain it?
-- If a headline said "Dogs can read your mind", what would you change?
-- What question about animal behaviour would you like scientists to investigate next?
+- Does this study change how you think about dogs?
+- What would you like researchers to find out next?
+- Should a small experiment become a big claim in a headline?
 
 === Advanced talk about it ===
 
-- Would you rather have a dog's sense of smell or an eagle's eyesight for a day? What would you miss most from your own senses?
-- How could you tell whether a dog expected to find food without asking it, and how sure could you be?
-- Does a slow approach always mean an animal is worried? Give two other explanations and a way to test one.
-- If a headline said "Dogs can read your mind", what would you change, and who is responsible for the wording?
-- What question about animal behaviour would you like scientists to investigate next, and what would count as a fair test?
+- Does this study change how you think about dogs?
+- What would you like researchers to find out next?
+- Should a small experiment become a big claim in a headline?
 
 === Activity ===
 

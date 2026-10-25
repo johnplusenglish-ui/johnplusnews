@@ -69,39 +69,37 @@ The research encourages a more flexible view of exercise. Step counters can moti
 
 === Core before you read ===
 
-- Do you walk a lot, or not very much?
-- Does your phone or your watch count your steps?
-- How do you feel after a long walk?
+- Does a round number make a goal easier to follow?
+- Would you walk more for a score or for somewhere enjoyable to go?
+- What makes a healthy habit easy to keep?
 
 === Core talk about it ===
 
-- Would a step counter help you, or annoy you? Start with: It would ... me, because ...
-- Is 7,000 steps a lot for you, or not very much?
-- Your friend says counting steps is silly. What do you say to them? Start with: I think you are right, because ... or I don't agree, because ...
-- What is the best thing about going for a walk?
+- Would a lower target encourage you or make you do less?
+- Should an activity app celebrate small improvements instead of perfect days?
+- What could make everyday movement easier without turning it into homework?
 
 === Intermediate before you read ===
 
-- Why do you think 10,000 became the famous number?
-- Does counting something make you do more of it, or less?
-- When does a target stop being helpful?
+- Does a round number make a goal easier to follow?
+- Would you walk more for a score or for somewhere enjoyable to go?
+- What makes a healthy habit easy to keep?
 
 === Intermediate talk about it ===
 
-- The review found substantial benefits by about 7,000 steps. Does that change how you read the 10,000 target? Why?
-- Compare counting steps with counting time spent moving. Which would suit your week better, and why?
-- Someone tells you: "The number came from marketing, so ignore it completely." What do you say back to them?
-- The studies observed people rather than testing them. Why does that make the results harder to read?
+- Would a lower target encourage you or make you do less?
+- Should an activity app celebrate small improvements instead of perfect days?
+- What could make everyday movement easier without turning it into homework?
 
 === Advanced before you read ===
 
-- Is a fitness target motivation, or just a new way to feel you have failed?
-- Who gets to decide what counts as enough exercise, and should we trust them?
-- Would you rather be given a round number that is wrong, or a range that is right?
+- Does a round number make a goal easier to follow?
+- Would you walk more for a score or for somewhere enjoyable to go?
+- What makes a healthy habit easy to keep?
 
 === Advanced talk about it ===
 
-- Knowing the target came from marketing, does it bother you that it worked? Should it?
-- Argue against this: "People need one simple number. Accuracy is a luxury for researchers."
-- Whose job is it to get a country moving: the individual, the employer or the state?
-- Is there something in your own life you measure that you would be happier not measuring?
+- Would a lower target encourage you or make you do less?
+- Should an activity app celebrate small improvements instead of perfect days?
+- What could make everyday movement easier without turning it into homework?
+

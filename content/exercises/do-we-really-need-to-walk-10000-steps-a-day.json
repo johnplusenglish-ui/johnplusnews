@@ -144,12 +144,12 @@
           "d": "fail to include something important"
         },
         {
-          "t": "demanding",
-          "d": "needing a lot of effort or attention"
-        },
-        {
           "t": "arbitrary",
           "d": "chosen without a clear reason"
+        },
+        {
+          "t": "demanding",
+          "d": "needing a lot of effort or attention"
         }
       ],
       "grammar": {
@@ -248,12 +248,12 @@
           "d": "decide something is not a possibility"
         },
         {
-          "t": "exclusionary",
-          "d": "leaving certain people out"
-        },
-        {
           "t": "observational",
           "d": "based on watching rather than experimenting"
+        },
+        {
+          "t": "exclusionary",
+          "d": "leaving certain people out"
         }
       ],
       "grammar": {

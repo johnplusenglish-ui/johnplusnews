@@ -14,7 +14,7 @@ image-credit-label: AI-generated image
 ---
 === Core ===
 
-title: A Tiny Satellite Students Can Build
+title: Students Build a Model Satellite in a Can
 summary: In the CanSat project, students build a model satellite the size of a drinks can. It doesn't go into space, but it has a real job.
 
 Hold a drinks can in your hand. Now imagine that this can is a satellite. It is small, light and a little silly. But in the European Space Agency's CanSat project, a satellite the size and shape of a can is a real school challenge.
@@ -73,45 +73,39 @@ Keep the limits in mind. The article is ESA's own report of a past event, so it 
 
 === Core before you read ===
 
-- What useful thing would you try to fit inside a drinks can?
-- Would you rather design, build, test or present a project?
-- What makes a small invention impressive?
+- Would you rather build a tiny satellite or design a game?
+- What role would you choose in a team making something new?
+- What would you want to measure if you could send a sensor into the sky?
 
 === Intermediate before you read ===
 
-- What useful thing would you try to fit inside a drinks can, and why would it matter?
-- Would you rather design, build, test or present a project, and what would you avoid?
-- What makes a small invention impressive?
+- Would you rather build a tiny satellite or design a game?
+- What role would you choose in a team making something new?
+- What would you want to measure if you could send a sensor into the sky?
 
 === Advanced before you read ===
 
-- What useful thing would you try to fit inside a drinks can, and what would you have to leave out?
-- Would you rather design, build, test or present a project, and what does that say about how you work in a team?
-- What makes a small invention impressive: how small it is, or what it can do?
+- Would you rather build a tiny satellite or design a game?
+- What role would you choose in a team making something new?
+- What would you want to measure if you could send a sensor into the sky?
 
 === Core talk about it ===
 
-- Your team can measure one extra thing with a tiny device. What would you choose? Start with: I would measure ... because ...
-- Which job would you like: designer, builder, tester or presenter? Why?
-- Two teammates have different good ideas, and they don't fit together. How should the team decide?
-- A first test fails. What do you want to know before you change the design?
-- Is a project still a success if it answers a good question but wins nothing?
+- What could make this project fun for someone who was not keen on science?
+- Would a project still be a success if the device failed but the team learned a lot?
+- What local problem could students investigate with a simple invention?
 
 === Intermediate talk about it ===
 
-- Your team can measure one extra thing with a tiny device. What would you choose, and why?
-- Which role would you prefer: designer, builder, tester or presenter?
-- Two teammates have excellent but incompatible ideas. How should the team decide?
-- A first test fails. What would you want to know before changing the design?
-- Would a project still feel successful if it answered an interesting question but did not win anything?
+- What could make this project fun for someone who was not keen on science?
+- Would a project still be a success if the device failed but the team learned a lot?
+- What local problem could students investigate with a simple invention?
 
 === Advanced talk about it ===
 
-- Your team can measure one extra thing with a tiny device. What would you choose, and what would count as a surprising result?
-- Which role would you prefer: designer, builder, tester or presenter? Which would you be worst at, and why?
-- Two teammates have excellent but incompatible ideas. How should the team decide, and what should happen to the idea that loses?
-- A first test fails. What would you want to know before changing the design, and who needs to hear the bad news?
-- Would a project still feel successful if it answered an interesting question but did not win anything? Who decides what success is?
+- What could make this project fun for someone who was not keen on science?
+- Would a project still be a success if the device failed but the team learned a lot?
+- What local problem could students investigate with a simple invention?
 
 === Activity ===
 

@@ -73,45 +73,39 @@ What would you want from a team where you were the youngest? Advice before your 
 
 === Core before you read ===
 
-- Have you ever joined a group where everyone was older than you?
-- What helps you most when you try something new: advice before, or feedback after?
-- Do you think a 17-year-old can play with adults at a big tournament?
+- Would you want to play a huge match at 17?
+- What makes you trust a young player in a big moment?
+- Would you rather be a substitute on a winning team or the star of a smaller one?
 
 === Intermediate before you read ===
 
-- Think about the last time you joined a group where you knew nobody. What helped you settle in?
-- Do you prefer advice before your first big attempt, or feedback afterwards?
-- Would you want to be famous for something at 17? What would worry you?
+- Would you want to play a huge match at 17?
+- What makes you trust a young player in a big moment?
+- Would you rather be a substitute on a winning team or the star of a smaller one?
 
 === Advanced before you read ===
 
-- Think about the last time you were the newest person in a group. What did the others do that helped, or didn't?
-- Do you prefer advice before your first big attempt or feedback afterwards, and does it depend on the task?
-- Would you want to be called a future star at 17, or would the label feel like a weight?
+- Would you want to play a huge match at 17?
+- What makes you trust a young player in a big moment?
+- Would you rather be a substitute on a winning team or the star of a smaller one?
 
 === Core talk about it ===
 
-- You join a team where everyone is older. What would help you feel at home?
-- Would you like advice before your first big attempt, or feedback afterwards? Why?
-- What could a newcomer give a team that older players might not have?
-- Is it nice, strange or heavy to hear people say you are the next big star?
-- What should a good teammate do when a new player makes a mistake?
+- What should a coach do to protect a talented young player from too much pressure?
+- Is being called the next big thing helpful or annoying?
+- What would make a young player's first World Cup a success beyond scoring?
 
 === Intermediate talk about it ===
 
-- You join a team where everyone is older. What would help you settle in?
-- Would you prefer advice before your first big attempt, or feedback afterwards?
-- What can a newcomer contribute that an experienced teammate might miss?
-- Is being called the next big star encouraging, uncomfortable or both?
-- What should a good teammate do when a new player makes a mistake?
+- What should a coach do to protect a talented young player from too much pressure?
+- Is being called the next big thing helpful or annoying?
+- What would make a young player's first World Cup a success beyond scoring?
 
 === Advanced talk about it ===
 
-- You join a team where everyone is older. What would help you settle in, and what would make it harder?
-- Would you prefer advice before your first big attempt, or feedback afterwards, and does the answer change when the stakes are high?
-- What can a newcomer contribute that an experienced teammate might miss, and how can a team make space for it?
-- Is being called the next big star encouraging, uncomfortable or both? Who benefits from that label?
-- What should a good teammate do when a new player makes a mistake in front of everyone?
+- What should a coach do to protect a talented young player from too much pressure?
+- Is being called the next big thing helpful or annoying?
+- What would make a young player's first World Cup a success beyond scoring?
 
 === Activity ===
 

@@ -59,40 +59,37 @@ For all its fictional physics, Project Hail Mary makes a serious argument about 
 
 === Core before you read ===
 
-- Do you like science fiction films?
-- What makes a good film hero?
-- Did you enjoy science at school?
+- Would you rather explore space or the bottom of the sea?
+- What makes a film about science exciting?
+- Who would you want beside you when a plan goes wrong?
 
 === Core talk about it ===
 
-- The hero solves problems with experiments, not weapons. Do you like that? Start with: I do ... because ...
-- A friend says the science in the film is wrong. Would that change how much you enjoyed it?
-- Someone says science fiction should just be fun. What do you say to them? Start with: I agree, because ... or It can be both, because ...
-- Which film made you curious about something real?
+- Would an ordinary person make a more interesting hero than a superhero?
+- What could make people trust someone very different from them?
+- Which everyday skill might be surprisingly useful in space?
 
 === Intermediate before you read ===
 
-- Can a film teach science, or only interest you in it?
-- Why are most film heroes fighters?
-- Does accuracy make a story better or slower?
+- Would you rather explore space or the bottom of the sea?
+- What makes a film about science exciting?
+- Who would you want beside you when a plan goes wrong?
 
 === Intermediate talk about it ===
 
-- NASA advised on the film, but the organisms are invented. Where should a film draw that line?
-- Compare this film with another space story you know. What does each one value?
-- Someone tells you: "If the science is wrong, the film has failed." What would you say back?
-- Critics disagreed about the tone. Why might warmth divide an audience?
+- Would an ordinary person make a more interesting hero than a superhero?
+- What could make people trust someone very different from them?
+- Which everyday skill might be surprisingly useful in space?
 
 === Advanced before you read ===
 
-- Is optimism in fiction honest or comforting?
-- What does popular science fiction teach people to expect of scientists?
-- Can cooperation carry a story the way conflict does?
+- Would you rather explore space or the bottom of the sea?
+- What makes a film about science exciting?
+- Who would you want beside you when a plan goes wrong?
 
 === Advanced talk about it ===
 
-- The film's optimism comes from testing assumptions rather than assuming success. Is that a meaningful distinction?
-- Argue against this: "Audiences learn bad science from good films, and the charm makes it worse."
-- Which film last made you look something up afterwards?
-- What would a film have to get wrong before you stopped enjoying it?
+- Would an ordinary person make a more interesting hero than a superhero?
+- What could make people trust someone very different from them?
+- Which everyday skill might be surprisingly useful in space?
 

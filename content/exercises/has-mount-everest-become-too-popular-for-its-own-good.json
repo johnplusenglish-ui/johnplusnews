@@ -32,12 +32,12 @@
       },
       "match": [
         {
-          "t": "set off",
-          "d": "begin a journey to somewhere"
-        },
-        {
           "t": "in force",
           "d": "officially operating as a rule"
+        },
+        {
+          "t": "set off",
+          "d": "begin a journey to somewhere"
         },
         {
           "t": "avoidable",

@@ -52,7 +52,7 @@ For a teenager, the most interesting part is the choice itself. A famous team gi
 
 === Advanced ===
 
-title: Mbappé's Next Move Is About More Than Wearing the Boots
+title: Why Mbappé Chose a New Sportswear Partner
 summary: A footballer's switch from Nike to a Swiss newcomer is not a transfer. It is a bet on a different kind of career, and it raises a question many of us face.
 
 When a footballer changes teams, everyone notices. When one changes boots, fewer people do, yet that kind of move can say just as much about how athletes think about their careers. On 18 September 2026, the Swiss company On announced its entry into football with Kylian Mbappé as a global ambassador, ending something that had lasted for roughly twenty years.
@@ -71,45 +71,39 @@ Perhaps the best test is a practical one. Think about a group you belong to, or 
 
 === Core before you read ===
 
-- Have you ever stayed in a group for a long time? What did you like about it?
-- Would you rather join a team that always wins or a team that is just starting?
-- What do you think a football boot designer needs to know?
+- Would a favourite player's trainers make you curious about a brand?
+- What makes sportswear look good away from sport?
+- Would you rather wear a famous logo or something different?
 
 === Intermediate before you read ===
 
-- Think of a group you have belonged to for years. What would it take to make you leave?
-- Would you rather join a team that always wins or help build one from nothing?
-- If a famous athlete helped to design a boot, what would you want them to test?
+- Would a favourite player's trainers make you curious about a brand?
+- What makes sportswear look good away from sport?
+- Would you rather wear a famous logo or something different?
 
 === Advanced before you read ===
 
-- Think of a group you have belonged to for years. What would have to change for you to walk away?
-- Is it braver to stay with something that works or to join something unproven?
-- If a famous athlete helped to design a boot, what would you want them to test, and would you believe the result?
+- Would a favourite player's trainers make you curious about a brand?
+- What makes sportswear look good away from sport?
+- Would you rather wear a famous logo or something different?
 
 === Core talk about it ===
 
-- Would you rather join a successful team or help a new team get started? Why?
-- What would make you leave a group you had been in for years?
-- If a famous athlete helped to design equipment, what would you want them to test?
-- When a famous person says they love a brand, do you feel curious, sure or neither?
-- You are choosing a partner for a school project. What matters most: experience, enthusiasm or listening to your ideas?
+- Would this deal change which trainers you chose?
+- What should a player care about when choosing a brand to work with?
+- Can a sponsorship feel believable if a player was famous for wearing something else?
 
 === Intermediate talk about it ===
 
-- Would you rather join a successful team or help a new team get started? Why?
-- What would make you leave a group you had been part of for years?
-- If an athlete helped to design equipment, what would you want them to test?
-- Does a famous person's support make you curious, convinced or neither?
-- Imagine choosing a partner for a school project. What matters more: experience, enthusiasm or listening to your ideas?
+- Would this deal change which trainers you chose?
+- What should a player care about when choosing a brand to work with?
+- Can a sponsorship feel believable if a player was famous for wearing something else?
 
 === Advanced talk about it ===
 
-- Would you rather join a successful team or help a new team get started, and what would you want in writing first?
-- What would make you leave a group you had been part of for years, and would you tell them why?
-- If an athlete helped to design equipment, what would you want them to test, and who should check the results?
-- Does a famous person's support make you curious, convinced or neither, and does it matter if they own a share of the company?
-- Imagine choosing a partner for a school project. What matters more: experience, enthusiasm or a willingness to listen to your ideas?
+- Would this deal change which trainers you chose?
+- What should a player care about when choosing a brand to work with?
+- Can a sponsorship feel believable if a player was famous for wearing something else?
 
 === Activity ===
 

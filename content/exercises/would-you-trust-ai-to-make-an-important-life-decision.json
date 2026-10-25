@@ -40,12 +40,12 @@
           "d": "stop believing something is useful"
         },
         {
-          "t": "qualified",
-          "d": "having the training needed for a job"
-        },
-        {
           "t": "check the facts",
           "d": "make sure the information is correct"
+        },
+        {
+          "t": "qualified",
+          "d": "having the training needed for a job"
         }
       ],
       "grammar": {
@@ -144,12 +144,12 @@
           "d": "draw attention to a fact"
         },
         {
-          "t": "hand over",
-          "d": "give something to somebody else"
-        },
-        {
           "t": "fluent",
           "d": "flowing smoothly and sounding natural"
+        },
+        {
+          "t": "hand over",
+          "d": "give something to somebody else"
         }
       ],
       "grammar": {
@@ -248,12 +248,12 @@
           "d": "rely on something when nothing else is available"
         },
         {
-          "t": "receptive",
-          "d": "willing to accept a new idea"
-        },
-        {
           "t": "scrutiny",
           "d": "careful and critical examination"
+        },
+        {
+          "t": "receptive",
+          "d": "willing to accept a new idea"
         }
       ],
       "grammar": {

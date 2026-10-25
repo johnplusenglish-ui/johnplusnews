@@ -41,7 +41,7 @@ It would be a mistake to dismiss side hustles altogether. They can provide flexi
 
 === Advanced ===
 
-title: The Side-Hustle Sales Pitch and the Work Outside the Frame
+title: The Work Behind the Side-Hustle Pitch
 summary: Low barriers to entry make online business accessible, and make profitable attention difficult to win.
 
 The performance has become familiar: a creator prepares breakfast, checks a phone and casually announces that another substantial payment has arrived from a business requiring almost no attention. The payment notification is real enough; the hours outside the frame are harder to see. In an economy where secure employment does not guarantee comfort, the promise of effortless independence is irresistible. That makes the sales pitch worth picking apart rather than simply envying.
@@ -58,40 +58,37 @@ None of this undermines the value of entrepreneurship. Small ventures can create
 
 === Core before you read ===
 
-- Do you know anyone with a second job?
-- What small business would you start?
-- Have you seen adverts promising easy money?
+- What makes an online money-making promise sound believable?
+- Would you rather earn extra money from a hobby or keep it just for fun?
+- What would you ask someone who claimed their business ran itself?
 
 === Core talk about it ===
 
-- 79% of students earned under 500 pounds. Does that surprise you? Start with: It ... me, because ...
-- Is a side hustle worth the time?
-- Someone says anyone can make money online. What do you say to them? Start with: I disagree, because ... or Sometimes, but ...
-- What skill could you sell?
+- Which part of an online success story would you most want to see?
+- When does useful advice become a sales pitch?
+- Could turning a hobby into a business change how you feel about it?
 
 === Intermediate before you read ===
 
-- Why are side hustles so popular right now?
-- Is a second job a choice or a necessity?
-- What makes an online business fail?
+- What makes an online money-making promise sound believable?
+- Would you rather earn extra money from a hobby or keep it just for fun?
+- What would you ask someone who claimed their business ran itself?
 
 === Intermediate talk about it ===
 
-- Most earned very little, yet the idea stays popular. Why do you think that is?
-- Compare a side hustle with overtime at a normal job. Which is the better deal, and why?
-- Someone tells you: "If you fail, you did not work hard enough." What would you say back?
-- Profit is what remains after costs and your own time. Why is time so often left out?
+- Which part of an online success story would you most want to see?
+- When does useful advice become a sales pitch?
+- Could turning a hobby into a business change how you feel about it?
 
 === Advanced before you read ===
 
-- Is the side hustle a sign of ambition or of inadequate wages?
-- Who profits most when everyone tries to sell something?
-- Does low cost of entry make a market open or crowded?
+- What makes an online money-making promise sound believable?
+- Would you rather earn extra money from a hobby or keep it just for fun?
+- What would you ask someone who claimed their business ran itself?
 
 === Advanced talk about it ===
 
-- Low barriers make a business accessible and attention hard to win. Which of those shapes the outcome more?
-- Argue against this: "Promoting side hustles shifts responsibility for low pay onto the low paid."
-- Have you ever tried to make money from something you enjoyed? What happened to the enjoyment?
-- What would you need to earn from something you enjoy before it stopped being enjoyable?
+- Which part of an online success story would you most want to see?
+- When does useful advice become a sales pitch?
+- Could turning a hobby into a business change how you feel about it?
 

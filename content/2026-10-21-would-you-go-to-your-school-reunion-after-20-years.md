@@ -58,39 +58,37 @@ Mike's story raises a particularly delicate issue: can an apology help heal a pa
 
 === Core before you read ===
 
-- Are you in touch with people from school?
-- Would you go to a reunion?
-- Do people change after twenty years?
+- Would you go to a school reunion if none of your friends were going?
+- What would surprise your old classmates most about you now?
+- Is it easier to say sorry in person or in a message?
 
 === Core talk about it ===
 
-- Mike wanted to apologise to a classmate. Was that the right thing? Start with: I think ... because ...
-- Is it ever too late to say sorry?
-- Someone says the past should stay in the past. What do you say to them? Start with: I disagree, because ... or I understand, because ...
-- You are organising the reunion. What would you do to make people feel welcome?
+- What makes an apology feel sincere?
+- Would you rather catch up with an old friend or meet someone new?
+- Should people be allowed to leave their school reputation behind?
 
 === Intermediate before you read ===
 
-- Why do school memories stay so strong?
-- What might make a reunion uncomfortable for someone?
-- Does social media make reunions easier or harder?
+- Would you go to a school reunion if none of your friends were going?
+- What would surprise your old classmates most about you now?
+- Is it easier to say sorry in person or in a message?
 
 === Intermediate talk about it ===
 
-- The apology did not go as Mike imagined. Does that make it less worthwhile? Why?
-- Compare apologising privately with apologising at a reunion. Which is braver, and why?
-- Someone tells you: "He apologised to feel better, not to help." What would you say back?
-- The man who was bullied ended up comforting Mike. What does that tell you about apologies?
+- What makes an apology feel sincere?
+- Would you rather catch up with an old friend or meet someone new?
+- Should people be allowed to leave their school reputation behind?
 
 === Advanced before you read ===
 
-- Does an apology serve the wronged or the speaker?
-- Can a reunion restore an old hierarchy as easily as it dissolves one?
-- Is silence in the face of cruelty its own act?
+- Would you go to a school reunion if none of your friends were going?
+- What would surprise your old classmates most about you now?
+- Is it easier to say sorry in person or in a message?
 
 === Advanced talk about it ===
 
-- Mike had not joined in, but had not intervened either. How should that be judged twenty years on?
-- Argue against this: "Late apologies impose the apologiser's needs on someone who had moved on."
-- Intentions matter, but so does the effect on the listener. How would you apologise given that?
-- What would make an apology to you feel genuine rather than tidy?
+- What makes an apology feel sincere?
+- Would you rather catch up with an old friend or meet someone new?
+- Should people be allowed to leave their school reputation behind?
+

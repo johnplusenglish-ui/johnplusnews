@@ -56,40 +56,37 @@ What may need reviving is not the elaborate dinner party but the modest invitati
 
 === Core before you read ===
 
-- Do you invite friends to your home?
-- Do you prefer to meet at home or in a café?
-- What do you do before visitors arrive?
+- Would you invite friends over if your home was untidy?
+- What makes an evening with friends feel effortless?
+- Would you rather bring food or help clear up?
 
 === Core talk about it ===
 
-- Do you worry about your home being tidy before friends come? Start with: I do ... because ... or I don't, because ...
-- A friend says sorry because their home is small or untidy. What would you say?
-- Someone says you need to cook a proper meal for guests. What do you say to them? Start with: I agree, because ... or Nobody expects that, because ...
-- What makes you feel welcome in someone's home?
+- What one rule would make hosting feel easier?
+- Have online images raised expectations for an ordinary evening at home?
+- Which would you choose: a perfect dinner next month or a simple one tonight?
 
 === Intermediate before you read ===
 
-- Has it become harder to invite people over, do you think?
-- Why do we hold our homes to a higher standard than we used to?
-- Is meeting out always more expensive than meeting in?
+- Would you invite friends over if your home was untidy?
+- What makes an evening with friends feel effortless?
+- Would you rather bring food or help clear up?
 
 === Intermediate talk about it ===
 
-- The article says the standard for hosting quietly rose. Who or what raised it, do you think?
-- Compare an evening at home with an evening in a restaurant. What does each one make possible?
-- Someone tells you: "Just invite people and stop worrying." Why is that harder than it sounds?
-- You want to see friends but do not want to cook a full meal. What would you suggest?
+- What one rule would make hosting feel easier?
+- Have online images raised expectations for an ordinary evening at home?
+- Which would you choose: a perfect dinner next month or a simple one tonight?
 
 === Advanced before you read ===
 
-- Has hospitality become a performance?
-- Is the decline in hosting about money, housing, or expectations?
-- What does a home that nobody visits cost its owner?
+- Would you invite friends over if your home was untidy?
+- What makes an evening with friends feel effortless?
+- Would you rather bring food or help clear up?
 
 === Advanced talk about it ===
 
-- The writer says domestic perfection turned friendship into a test. Who set that standard, and who benefits from it?
-- Argue against this: "People stopped hosting because their homes got smaller and their rents got higher, not because of Instagram."
-- When did you last have someone round with no tidying and no cooking? How did it go?
-- What would you have to stop caring about before you invited someone over tonight?
+- What one rule would make hosting feel easier?
+- Have online images raised expectations for an ordinary evening at home?
+- Which would you choose: a perfect dinner next month or a simple one tonight?
 

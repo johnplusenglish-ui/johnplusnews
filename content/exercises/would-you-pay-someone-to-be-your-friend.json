@@ -36,16 +36,16 @@
           "d": "be arranged to suit another commitment"
         },
         {
-          "t": "keep in touch",
-          "d": "stay in regular contact with somebody"
-        },
-        {
           "t": "unfamiliar",
           "d": "not known to you from before"
         },
         {
           "t": "get on",
           "d": "have a friendly relationship with somebody"
+        },
+        {
+          "t": "keep in touch",
+          "d": "stay in regular contact with somebody"
         }
       ],
       "grammar": {
@@ -140,16 +140,16 @@
           "d": "fail to happen as arranged"
         },
         {
-          "t": "on a whim",
-          "d": "because of a sudden, unplanned wish"
-        },
-        {
           "t": "strike up",
           "d": "begin a conversation with somebody"
         },
         {
           "t": "flexible",
           "d": "able to change to suit the situation"
+        },
+        {
+          "t": "on a whim",
+          "d": "because of a sudden, unplanned wish"
         }
       ],
       "grammar": {
@@ -240,12 +240,12 @@
       },
       "match": [
         {
-          "t": "boil down to",
-          "d": "be reducible to one essential point"
-        },
-        {
           "t": "draw on",
           "d": "use a skill or resource you already have"
+        },
+        {
+          "t": "boil down to",
+          "d": "be reducible to one essential point"
         },
         {
           "t": "simplistic",

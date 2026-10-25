@@ -28,7 +28,7 @@ The surprising lesson is that being busy and being interested are not the same t
 
 === Intermediate ===
 
-title: The Problem Nobody Dares Complain About
+title: A Quiet Job Can Still Be a Draining One
 summary: Rust-out looks like a privilege from the outside, so people stay quiet while colleagues are overwhelmed. Being paid to look busy is not the same as free time.
 
 We normally associate exhaustion with being overworked. Yet somebody can return home drained after a day in which almost nothing demanding happened. This apparent contradiction has attracted attention from workplace psychologists, who describe a problem known as rust-out or boreout.
@@ -72,40 +72,37 @@ For years, workplace wellbeing has been framed as a question of protecting peopl
 
 === Core before you read ===
 
-- Have you ever had a job with too little to do?
-- Is a quiet day at work good or bad?
-- What makes work feel worthwhile?
+- Can an easy job still leave someone exhausted?
+- Would you rather have too much to do or too little?
+- What makes a quiet afternoon feel different from a boring one?
 
 === Core talk about it ===
 
-- Psychologists call it rust-out. Does an easy job sound tiring to you? Start with: I think ... because ...
-- Would you rather be too busy or not busy enough?
-- Someone says being paid for little is lucky. What do you say to them? Start with: I see that, but ... or I agree, because ...
-- You have almost nothing to do at work but must stay all afternoon. How would that feel after a month?
+- What could a manager change before adding more tasks?
+- When does boredom become a reason to leave a job?
+- Could a more interesting life outside work make an ordinary job easier to enjoy?
 
 === Intermediate before you read ===
 
-- Why might boredom at work be harmful?
-- Is it easy to leave a job that is too easy?
-- What is the difference between rest and emptiness?
+- Can an easy job still leave someone exhausted?
+- Would you rather have too much to do or too little?
+- What makes a quiet afternoon feel different from a boring one?
 
 === Intermediate talk about it ===
 
-- Rust-out involves boredom and a lack of purpose, unlike burnout. Which would be harder to explain to a manager, and why?
-- Compare adding tasks with changing the kind of task. Which would help more, and why?
-- Someone tells you: "If you are bored, find another job." What would you say back?
-- Would you tell anyone if your job had too little in it?
+- What could a manager change before adding more tasks?
+- When does boredom become a reason to leave a job?
+- Could a more interesting life outside work make an ordinary job easier to enjoy?
 
 === Advanced before you read ===
 
-- Is being underused a workplace failure or a personal one?
-- Does a job owe you meaning?
-- Who designs a role, and who lives in it?
+- Can an easy job still leave someone exhausted?
+- Would you rather have too much to do or too little?
+- What makes a quiet afternoon feel different from a boring one?
 
 === Advanced talk about it ===
 
-- The APA points at job design rather than attitude. What would a redesigned role actually change?
-- Argue against this: "Complaining about an easy, well-paid job is a problem most workers would like to have."
-- Would you take a boring job for more money? For how long?
-- What part of your work would you redesign if you could?
+- What could a manager change before adding more tasks?
+- When does boredom become a reason to leave a job?
+- Could a more interesting life outside work make an ordinary job easier to enjoy?
 

@@ -60,40 +60,37 @@ Rather than declaring war on social media, venues could introduce proportionate 
 
 === Core before you read ===
 
-- Do you photograph your food?
-- Does filming in restaurants annoy you?
-- Why do places want to look good online?
+- When does taking a photo start to spoil a meal?
+- Would a photo of a restaurant persuade you to try it?
+- Should you ask before including a stranger in a video?
 
 === Core talk about it ===
 
-- Some venues now limit photography. Fair? Start with: I think ... because ...
-- Should you ask before filming other people?
-- Someone says a photo harms nobody. What do you say to them? Start with: Usually true, but ... or I agree, because ...
-- You own a small restaurant. Would you give influencers a free meal for publicity?
+- What filming rule would make a restaurant better for everyone?
+- Would you visit a place that banned all customer photos?
+- Can a place become less enjoyable because it is famous online?
 
 === Intermediate before you read ===
 
-- Do restaurants need social media more than it needs them?
-- Where is the line between a photo and a production?
-- Should businesses charge for filming?
+- When does taking a photo start to spoil a meal?
+- Would a photo of a restaurant persuade you to try it?
+- Should you ask before including a stranger in a video?
 
 === Intermediate talk about it ===
 
-- The Hollies restricted filming only during busy hours. Is a partial rule better than a full ban? Why?
-- Compare a diner photographing a cake with someone setting up lights. What exactly separates them?
-- Someone tells you: "They want the free publicity but not the filming." What would you say back?
-- Would you ask permission before filming in a café? Honestly?
+- What filming rule would make a restaurant better for everyone?
+- Would you visit a place that banned all customer photos?
+- Can a place become less enjoyable because it is famous online?
 
 === Advanced before you read ===
 
-- Can a venue accept the benefits of attention and refuse its costs?
-- Who owns the atmosphere of a public room?
-- Is a customer with a camera a guest or a business?
+- When does taking a photo start to spoil a meal?
+- Would a photo of a restaurant persuade you to try it?
+- Should you ask before including a stranger in a video?
 
 === Advanced talk about it ===
 
-- The dividing line may be behaviour rather than intent. Is behaviour easier to police, or just easier to defend?
-- Argue against this: "A restaurant that built its trade on social media has no right to restrict it."
-- Have you chosen a place to eat because of how it looked online? Was it right?
-- What would you want asked before someone filmed you eating?
+- What filming rule would make a restaurant better for everyone?
+- Would you visit a place that banned all customer photos?
+- Can a place become less enjoyable because it is famous online?
 

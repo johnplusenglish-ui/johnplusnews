@@ -75,45 +75,39 @@ How could a group make space for the one person whose idea is different?
 
 === Core before you read ===
 
-- Do you like to dance? Would you dance in front of other people?
-- When you do something creative, do you like to follow a model or try your own idea?
-- Can strange be better than perfect? When?
+- Would you rather copy a famous dance or invent your own?
+- Can an awkward dance be more interesting than a perfect one?
+- What makes a character's style memorable?
 
 === Intermediate before you read ===
 
-- Would you dance alone at a school event if you could do anything you liked? What would you do?
-- When you make something, do you prefer to follow a model or try your own idea?
-- Can something awkward be better than something perfect? Give an invented example.
+- Would you rather copy a famous dance or invent your own?
+- Can an awkward dance be more interesting than a perfect one?
+- What makes a character's style memorable?
 
 === Advanced before you read ===
 
-- If you had to perform in front of your whole school and nobody would judge you, what would you do?
-- When you create something, do you start from a model or from your own idea? Does it depend on the audience?
-- Can awkward ever be more convincing than polished? When?
+- Would you rather copy a famous dance or invent your own?
+- Can an awkward dance be more interesting than a perfect one?
+- What makes a character's style memorable?
 
 === Core talk about it ===
 
-- You have to perform. Would you follow a routine or create your own? Why?
-- Can something strange still be a good creative choice?
-- What can a character say about themselves with only a walk or a pose?
-- Where is the line between taking an idea and copying?
-- How could a group make space for a person with a different idea?
+- Why might a dance that feels different become so easy to copy?
+- Would you prefer an actor to follow instructions or bring their own ideas?
+- What small choice could make a familiar character feel new?
 
 === Intermediate talk about it ===
 
-- For a performance, would you rather follow a routine or create your own?
-- Can something awkward-looking still be a good creative choice?
-- What could a character's movement tell you without any words?
-- Where is the line between taking inspiration and copying?
-- How could a group make space for somebody whose idea is different?
+- Why might a dance that feels different become so easy to copy?
+- Would you prefer an actor to follow instructions or bring their own ideas?
+- What small choice could make a familiar character feel new?
 
 === Advanced talk about it ===
 
-- For a performance, would you rather follow a routine or create your own, and what would you risk by choosing the second?
-- Can something awkward-looking still be a good creative choice, and who decides?
-- What could a character's movement tell an audience that words could not?
-- Where is the line between taking inspiration and copying, and does saying where an idea came from change it?
-- How could a group make space for somebody whose idea is different, without losing its own direction?
+- Why might a dance that feels different become so easy to copy?
+- Would you prefer an actor to follow instructions or bring their own ideas?
+- What small choice could make a familiar character feel new?
 
 === Activity ===
 

@@ -32,20 +32,20 @@
       },
       "match": [
         {
-          "t": "sell out",
-          "d": "be bought until none are left"
-        },
-        {
           "t": "miss out",
           "d": "lose a chance that others are taking"
         },
         {
-          "t": "wealthy",
-          "d": "having a great deal of money"
+          "t": "sell out",
+          "d": "be bought until none are left"
         },
         {
           "t": "value for money",
           "d": "worth the amount you have paid"
+        },
+        {
+          "t": "wealthy",
+          "d": "having a great deal of money"
         }
       ],
       "grammar": {
@@ -136,20 +136,20 @@
       },
       "match": [
         {
-          "t": "fork out",
-          "d": "pay a large amount unwillingly"
-        },
-        {
           "t": "save up for",
           "d": "put money aside to buy something"
         },
         {
-          "t": "price somebody out",
-          "d": "make something too expensive for somebody"
+          "t": "fork out",
+          "d": "pay a large amount unwillingly"
         },
         {
           "t": "exclusive",
           "d": "available only to a small group"
+        },
+        {
+          "t": "price somebody out",
+          "d": "make something too expensive for somebody"
         }
       ],
       "grammar": {

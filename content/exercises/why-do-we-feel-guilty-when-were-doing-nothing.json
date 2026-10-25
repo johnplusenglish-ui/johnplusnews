@@ -32,20 +32,20 @@
       },
       "match": [
         {
-          "t": "catch up on",
-          "d": "do something you did not have time for"
-        },
-        {
           "t": "feel like doing",
           "d": "want to do at that moment"
         },
         {
-          "t": "impressive",
-          "d": "good enough to earn admiration"
+          "t": "catch up on",
+          "d": "do something you did not have time for"
         },
         {
           "t": "put down",
           "d": "stop holding something in your hand"
+        },
+        {
+          "t": "impressive",
+          "d": "good enough to earn admiration"
         }
       ],
       "grammar": {
@@ -140,12 +140,12 @@
           "d": "move or work at an easier pace"
         },
         {
-          "t": "make up for",
-          "d": "compensate for something missed"
-        },
-        {
           "t": "fall behind",
           "d": "fail to keep level with a schedule"
+        },
+        {
+          "t": "make up for",
+          "d": "compensate for something missed"
         },
         {
           "t": "unhurried",
@@ -244,12 +244,12 @@
           "d": "appear somewhere without being planned"
         },
         {
-          "t": "step away from",
-          "d": "leave a task for a while"
-        },
-        {
           "t": "instrumental",
           "d": "useful mainly as a means to something else"
+        },
+        {
+          "t": "step away from",
+          "d": "leave a task for a while"
         },
         {
           "t": "aimless",

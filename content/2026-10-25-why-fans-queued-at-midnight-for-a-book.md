@@ -77,45 +77,39 @@ If you designed a launch event for a book, who would you most want to welcome, a
 
 === Core before you read ===
 
-- Would you wait in a queue for a new book, film or game? What would be worth it?
-- Do you like to read a book at the same time as your friends?
-- What is the best way to enjoy a story: alone, or with other people?
+- Would you go to a midnight event for a book, game or album?
+- Do you prefer enjoying a new release alone or with other fans?
+- What makes waiting for something part of the fun?
 
 === Intermediate before you read ===
 
-- Would you wait in a queue for something new that you love? How long would you wait?
-- Do you prefer to read or watch something at the same time as your friends, or later by yourself?
-- What is the best part of waiting for something exciting?
+- Would you go to a midnight event for a book, game or album?
+- Do you prefer enjoying a new release alone or with other fans?
+- What makes waiting for something part of the fun?
 
 === Advanced before you read ===
 
-- Think of something you waited for and found that the waiting was part of the pleasure. What was it?
-- Do you prefer to experience a new story at the same time as other people, or on your own later?
-- What can a crowd add to an experience you could have alone?
+- Would you go to a midnight event for a book, game or album?
+- Do you prefer enjoying a new release alone or with other fans?
+- What makes waiting for something part of the fun?
 
 === Core talk about it ===
 
-- Would you rather get a new story first or enjoy it later without a crowd?
-- What could make a book event fun for someone who has not read the book?
-- How long should fans wait before they tell others what happens?
-- Would you rather read a favourite book again or start something new?
-- What makes an event welcoming and not a test of who is the biggest fan?
+- Would the book feel different if you bought it quietly the next day?
+- What makes a fan event welcoming to someone who knows less than everyone else?
+- Can excitement around a release make it harder to admit you did not like it?
 
 === Intermediate talk about it ===
 
-- Would you rather get a new story first or enjoy it later without a crowd?
-- What could make a book event enjoyable for someone who has not read the series?
-- How long should fans wait before sharing spoilers?
-- Would rereading a favourite book be more appealing than starting something unknown?
-- What makes an event feel welcoming and not like a test of who is the biggest fan?
+- Would the book feel different if you bought it quietly the next day?
+- What makes a fan event welcoming to someone who knows less than everyone else?
+- Can excitement around a release make it harder to admit you did not like it?
 
 === Advanced talk about it ===
 
-- Would you rather get a new story first or enjoy it later without a crowd, and what do you gain either way?
-- What could make a book event enjoyable for someone who has not read the series, and how would you tell them?
-- How long should fans wait before sharing spoilers, and who should decide?
-- Would rereading a favourite book be more appealing than starting something unknown, and why?
-- What makes an event feel welcoming and not like a test of who is the biggest fan, and how could organisers make sure it does?
+- Would the book feel different if you bought it quietly the next day?
+- What makes a fan event welcoming to someone who knows less than everyone else?
+- Can excitement around a release make it harder to admit you did not like it?
 
 === Activity ===
 

@@ -75,45 +75,39 @@ If you had to describe the place where you live using only three ordinary detail
 
 === Core before you read ===
 
-- Can you tell which country a photo is from? What do you look at?
-- What is one thing in your country that visitors always notice?
-- Do you like guessing games? Why?
+- What clue would you look for first in a street photo?
+- Would you rather recognise a place instantly or work it out slowly?
+- Which place near you would be hard for strangers to guess?
 
 === Intermediate before you read ===
 
-- Look at a photo of a street you do not know. What would you look at first?
-- What ordinary detail of your country would a visitor notice that you may not?
-- Do you like guessing games where you have to explain your answer?
+- What clue would you look for first in a street photo?
+- Would you rather recognise a place instantly or work it out slowly?
+- Which place near you would be hard for strangers to guess?
 
 === Advanced before you read ===
 
-- If you had to identify a place from one photo, what would you trust most: a sign, a building or a plant?
-- What ordinary detail of your own country do you think you overlook?
-- Is a good explanation more satisfying than a correct answer? When?
+- What clue would you look for first in a street photo?
+- Would you rather recognise a place instantly or work it out slowly?
+- Which place near you would be hard for strangers to guess?
 
 === Core talk about it ===
 
-- In a picture of an unfamiliar street, what would you look at first?
-- Would you trust a clear sign more than a landscape that looks familiar?
-- What ordinary detail might a visitor notice about your country that you do not? A made-up place is fine too.
-- Is explaining a good guess more interesting than guessing correctly by luck?
-- Could a game make you curious about a place you never wanted to visit?
+- Could a guessing game change how you look at streets around you?
+- What makes noticing tiny details a useful skill outside games?
+- Would you enjoy this game more as a competition or a way to explore?
 
 === Intermediate talk about it ===
 
-- In a picture of an unfamiliar street, what would you look at first?
-- Would you trust a clear sign more than a familiar-looking landscape?
-- What ordinary detail might a visitor notice about your country that you overlook? A fictional place is also fine.
-- Is explaining a good guess more interesting than guessing correctly by luck?
-- Could a game make you curious about somewhere you had never wanted to visit?
+- Could a guessing game change how you look at streets around you?
+- What makes noticing tiny details a useful skill outside games?
+- Would you enjoy this game more as a competition or a way to explore?
 
 === Advanced talk about it ===
 
-- In a picture of an unfamiliar street, what would you look at first, and how would you know you were right to trust it?
-- Would you trust a clear sign more than a familiar-looking landscape, and when might a sign mislead you?
-- What ordinary detail might a visitor notice about your country that you overlook? A fictional place is also fine.
-- Is explaining a good guess more interesting than guessing correctly by luck, and does the answer change if the stakes are high?
-- Could a game make you curious about somewhere you had never wanted to visit, and what would it need to show you?
+- Could a guessing game change how you look at streets around you?
+- What makes noticing tiny details a useful skill outside games?
+- Would you enjoy this game more as a competition or a way to explore?
 
 === Activity ===
 

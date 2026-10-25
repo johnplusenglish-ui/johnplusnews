@@ -136,12 +136,12 @@
       },
       "match": [
         {
-          "t": "strike up",
-          "d": "start a conversation with someone you do not know"
-        },
-        {
           "t": "unapproachable",
           "d": "seeming unfriendly and difficult to speak to"
+        },
+        {
+          "t": "strike up",
+          "d": "start a conversation with someone you do not know"
         },
         {
           "t": "read the room",

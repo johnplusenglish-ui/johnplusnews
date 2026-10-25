@@ -36,12 +36,12 @@
           "d": "feel pleased about something that will happen"
         },
         {
-          "t": "stay sharp",
-          "d": "keep your mind quick and clear"
-        },
-        {
           "t": "lonely",
           "d": "unhappy because you have nobody around you"
+        },
+        {
+          "t": "stay sharp",
+          "d": "keep your mind quick and clear"
         },
         {
           "t": "deal with",
@@ -248,12 +248,12 @@
           "d": "gradually stop being there"
         },
         {
-          "t": "liberating",
-          "d": "giving you a welcome new sense of freedom"
-        },
-        {
           "t": "punishing",
           "d": "so hard that it wears you down"
+        },
+        {
+          "t": "liberating",
+          "d": "giving you a welcome new sense of freedom"
         }
       ],
       "grammar": {

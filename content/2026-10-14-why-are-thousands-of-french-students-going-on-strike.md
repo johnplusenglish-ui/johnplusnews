@@ -58,40 +58,37 @@ There is an uncomfortable paradox at the heart of the strikes. By refusing to at
 
 === Core before you read ===
 
-- Is your local school in good condition?
-- Have you ever joined a protest?
-- What would make school better where you live?
+- What one change would improve a school you know?
+- Can missing a lesson ever teach someone something useful?
+- What makes adults take young people's opinions seriously?
 
 === Core talk about it ===
 
-- Students are missing lessons to protest about schools. Is that a good way to be heard? Start with: I think ... because ...
-- You are the head teacher meeting the protesters. What would you ask them first?
-- Someone says protesting during school hours is wrong. What do you say to them? Start with: I see that, but ... or I agree, because ...
-- What one change would improve your nearest school?
+- What would make a student protest worth supporting?
+- Should students help decide how a school spends its money?
+- What could a school do to show it had really listened?
 
 === Intermediate before you read ===
 
-- When is missing school worth it?
-- Why do students sometimes protest before adults do?
-- Who should pay for school buildings?
+- What one change would improve a school you know?
+- Can missing a lesson ever teach someone something useful?
+- What makes adults take young people's opinions seriously?
 
 === Intermediate talk about it ===
 
-- Some parents supported the students and others worried about lost lessons. Which worry is stronger, and why?
-- Compare a student protest with a teachers' strike. Which gets more attention, and why?
-- Someone tells you: "They just want a day off." What would you say back?
-- What was the worst thing about the building you studied in?
+- What would make a student protest worth supporting?
+- Should students help decide how a school spends its money?
+- What could a school do to show it had really listened?
 
 === Advanced before you read ===
 
-- Does disruption earn attention, or only resentment?
-- Should young people be listened to differently from adults?
-- Can a government fix a staffing shortage with money alone?
+- What one change would improve a school you know?
+- Can missing a lesson ever teach someone something useful?
+- What makes adults take young people's opinions seriously?
 
 === Advanced talk about it ===
 
-- What would get you out on the street, and what has not, so far?
-- Argue against this: "Students should finish their exams first and campaign afterwards."
-- Ministers face pressure to contain public spending. How should that constraint change what protesters ask for?
-- What would you have been willing to miss a week of school for?
+- What would make a student protest worth supporting?
+- Should students help decide how a school spends its money?
+- What could a school do to show it had really listened?
 

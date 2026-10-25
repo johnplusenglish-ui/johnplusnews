@@ -72,40 +72,37 @@ Perhaps the real problem is the expectation that holidays must be optimised. Res
 
 === Core before you read ===
 
-- Do you plan your holidays or decide as you go?
-- What do you need from a holiday?
-- Do you come home from holidays tired?
+- Would you enjoy a holiday with nothing booked?
+- What makes doing very little feel different on holiday?
+- Would you rather discover one place slowly or see several quickly?
 
 === Core talk about it ===
 
-- 45% wanted rest from a summer holiday. Is that what you want? Start with: For me ... because ...
-- Is a busy holiday a real break?
-- Someone says doing nothing is a waste of a holiday. What do you say to them? Start with: I disagree, because ... or I agree, because ...
-- What is your perfect day away?
+- Can an uneventful holiday still give you a good story?
+- What would you leave out of a trip to enjoy it more?
+- Would you need to travel at all to take the break you wanted?
 
 === Intermediate before you read ===
 
-- Why do we feel we should see everything?
-- Is rest a luxury or a necessity?
-- What makes a holiday feel too short?
+- Would you enjoy a holiday with nothing booked?
+- What makes doing very little feel different on holiday?
+- Would you rather discover one place slowly or see several quickly?
 
 === Intermediate talk about it ===
 
-- The survey measured rest, not slow travel. Why is that distinction worth keeping?
-- Compare one city for a week with four cities in a week. What does each give you?
-- Someone tells you: "You can rest at home. Travel to see things." What would you say back?
-- Slow travel means accepting you will miss things. Is that easy for you?
+- Can an uneventful holiday still give you a good story?
+- What would you leave out of a trip to enjoy it more?
+- Would you need to travel at all to take the break you wanted?
 
 === Advanced before you read ===
 
-- Is a holiday recovery from work, or an escape from it?
-- Who can afford to travel slowly?
-- Does a slower holiday reduce its impact, or just change it?
+- Would you enjoy a holiday with nothing booked?
+- What makes doing very little feel different on holiday?
+- Would you rather discover one place slowly or see several quickly?
 
 === Advanced talk about it ===
 
-- Lingering somewhere is no guarantee of responsible tourism. What would make it responsible?
-- Argue against this: "Slow travel is the same consumption at a more flattering pace."
-- Do you come home from holidays rested, or needing another one?
-- What would you have to give up to come home actually rested?
+- Can an uneventful holiday still give you a good story?
+- What would you leave out of a trip to enjoy it more?
+- Would you need to travel at all to take the break you wanted?
 

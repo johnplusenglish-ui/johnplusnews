@@ -36,12 +36,12 @@
           "d": "reach a situation you did not plan"
         },
         {
-          "t": "fill up",
-          "d": "become completely full of people"
-        },
-        {
           "t": "exhausted",
           "d": "extremely tired, with no energy left"
+        },
+        {
+          "t": "fill up",
+          "d": "become completely full of people"
         },
         {
           "t": "cool down",
@@ -140,16 +140,16 @@
           "d": "suddenly become popular or successful"
         },
         {
-          "t": "play something down",
-          "d": "make something seem less important than it is"
-        },
-        {
           "t": "add to",
           "d": "make an existing amount larger"
         },
         {
           "t": "cautious",
           "d": "careful to avoid risk or error"
+        },
+        {
+          "t": "play something down",
+          "d": "make something seem less important than it is"
         }
       ],
       "grammar": {

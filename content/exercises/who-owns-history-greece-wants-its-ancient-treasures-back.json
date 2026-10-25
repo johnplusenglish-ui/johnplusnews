@@ -40,12 +40,12 @@
           "d": "pass from one owner to another"
         },
         {
-          "t": "ancient",
-          "d": "from a time thousands of years ago"
-        },
-        {
           "t": "fit together",
           "d": "join to form one complete thing"
+        },
+        {
+          "t": "ancient",
+          "d": "from a time thousands of years ago"
         }
       ],
       "grammar": {
@@ -140,12 +140,12 @@
           "d": "continue for much longer than it should"
         },
         {
-          "t": "hand over",
-          "d": "give something to another person or body"
-        },
-        {
           "t": "decorative",
           "d": "made to look attractive rather than to be used"
+        },
+        {
+          "t": "hand over",
+          "d": "give something to another person or body"
         },
         {
           "t": "permanent",
@@ -240,12 +240,12 @@
       },
       "match": [
         {
-          "t": "trace back to",
-          "d": "have its origin in an earlier time"
-        },
-        {
           "t": "back down",
           "d": "give up a position you argued for"
+        },
+        {
+          "t": "trace back to",
+          "d": "have its origin in an earlier time"
         },
         {
           "t": "iron out",

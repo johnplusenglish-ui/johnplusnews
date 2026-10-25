@@ -73,45 +73,39 @@ Think of a time when a bad start did not decide the result. What changed, and wh
 
 === Core before you read ===
 
-- Have you ever had a bad start to a game, a test or a project? What happened next?
-- Do you like comebacks? Why?
-- What helps you when things go wrong?
+- Would you rather start first with pressure or last with nothing to lose?
+- What makes a comeback exciting to watch?
+- How do you react when a plan goes wrong early?
 
 === Intermediate before you read ===
 
-- Think of a time you started badly at something and still did well. What turned it around?
-- Do you prefer to win easily or to win after a difficult start?
-- When things go wrong early, do you usually change your plan or keep going?
+- Would you rather start first with pressure or last with nothing to lose?
+- What makes a comeback exciting to watch?
+- How do you react when a plan goes wrong early?
 
 === Advanced before you read ===
 
-- Think of a time you started badly at something and recovered. What did you change?
-- Is a comeback more satisfying than an easy win? Would your answer be different if you were only watching?
-- When things go wrong early, how do you decide whether to change the plan or stay with it?
+- Would you rather start first with pressure or last with nothing to lose?
+- What makes a comeback exciting to watch?
+- How do you react when a plan goes wrong early?
 
 === Core talk about it ===
 
-- After a bad start to a game or project, what helps you try the next step?
-- When is it wise to change a plan?
-- Can someone deserve a win and still be lucky with timing?
-- What does a team add that a headline about one winner can hide?
-- Would you like an easy win or a hard comeback? Would it change if you were watching?
+- Would winning from 19th feel better than winning from first?
+- What should people notice about a driver besides the final result?
+- Can a bad start ever help someone take a useful risk?
 
 === Intermediate talk about it ===
 
-- After a bad start to a game or project, what helps you try the next step?
-- When is changing a plan wiser than sticking to it?
-- Can someone deserve a win and still have benefited from good timing?
-- What does a team contribute that a headline about one winner can hide?
-- Would you prefer a comfortable win or a difficult comeback? Would your answer change if you were watching, not taking part?
+- Would winning from 19th feel better than winning from first?
+- What should people notice about a driver besides the final result?
+- Can a bad start ever help someone take a useful risk?
 
 === Advanced talk about it ===
 
-- After a bad start to a game or project, what helps you try the next step, and who helps you?
-- When is changing a plan wiser than sticking to it, and how do you know?
-- Can someone deserve a win and still have benefited from good timing?
-- What does a team contribute that a headline about one winner can hide, and why do headlines hide it?
-- Would you prefer a comfortable win or a difficult comeback? Would your answer change if you were watching, not taking part?
+- Would winning from 19th feel better than winning from first?
+- What should people notice about a driver besides the final result?
+- Can a bad start ever help someone take a useful risk?
 
 === Activity ===
 

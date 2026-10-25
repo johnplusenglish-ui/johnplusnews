@@ -68,39 +68,37 @@ Perhaps the deeper question is why leisure must be justified through improved pe
 
 === Core before you read ===
 
-- What do you do with a free afternoon?
-- Do you feel guilty when you rest?
-- What does resting look like for you?
+- When does taking a break start to feel like wasting time?
+- Would you enjoy a free afternoon more if it was planned?
+- Do you find it easier to rest alone or with other people?
 
 === Core talk about it ===
 
-- A free afternoon becomes a list of jobs. Does that happen to you? Start with: It does ... because ... or It doesn't, because ...
-- Is doing nothing lazy?
-- Someone says rest must be earned. What do you say to them? Start with: I disagree, because ... or I understand, because ...
-- What is the most restful thing you do?
+- Should rest have to make you more productive afterwards?
+- What would make a day feel worthwhile without achieving anything?
+- Which everyday pressure makes switching off hardest?
 
 === Intermediate before you read ===
 
-- Why does rest feel like something to justify?
-- Is scrolling restful?
-- Who has time to rest where you live?
+- When does taking a break start to feel like wasting time?
+- Would you enjoy a free afternoon more if it was planned?
+- Do you find it easier to rest alone or with other people?
 
 === Intermediate talk about it ===
 
-- Jebelli says mental wandering can be part of good thinking. Does that make rest easier to allow yourself? Why?
-- Compare planned rest with unplanned rest. Which works better for you, and why?
-- Someone tells you: "Rest is just a productivity technique." What would you say back?
-- Telling everyone to rest more ignores real inequalities. Who is left out of that advice?
+- Should rest have to make you more productive afterwards?
+- What would make a day feel worthwhile without achieving anything?
+- Which everyday pressure makes switching off hardest?
 
 === Advanced before you read ===
 
-- Does rest need a justification to be allowed?
-- Who is permitted to do nothing?
-- Has wellbeing become another form of work?
+- When does taking a break start to feel like wasting time?
+- Would you enjoy a free afternoon more if it was planned?
+- Do you find it easier to rest alone or with other people?
 
 === Advanced talk about it ===
 
-- The trap is defending rest only because it makes you more productive. What is the better defence?
-- Argue against this: "Encouraging rest without changing workloads is advice that costs employers nothing."
-- Not every kind of rest works for everybody. How should advice handle that?
-- What would you do with an afternoon you did not have to account for?
+- Should rest have to make you more productive afterwards?
+- What would make a day feel worthwhile without achieving anything?
+- Which everyday pressure makes switching off hardest?
+

@@ -32,20 +32,20 @@
       },
       "match": [
         {
-          "t": "bring down",
-          "d": "reduce a number or level"
-        },
-        {
           "t": "get rid of",
           "d": "remove something you do not want"
         },
         {
-          "t": "harmless",
-          "d": "not causing harm"
+          "t": "bring down",
+          "d": "reduce a number or level"
         },
         {
           "t": "set up",
           "d": "create or establish something new"
+        },
+        {
+          "t": "harmless",
+          "d": "not causing harm"
         }
       ],
       "grammar": {
@@ -136,12 +136,12 @@
       },
       "match": [
         {
-          "t": "roll something out",
-          "d": "introduce a plan across many places"
-        },
-        {
           "t": "take hold",
           "d": "become firmly established in a place"
+        },
+        {
+          "t": "roll something out",
+          "d": "introduce a plan across many places"
         },
         {
           "t": "from nothing",
@@ -248,12 +248,12 @@
           "d": "a single solution to a complicated problem"
         },
         {
-          "t": "opt out",
-          "d": "choose not to take part in something"
-        },
-        {
           "t": "candid",
           "d": "honest, even when the truth is awkward"
+        },
+        {
+          "t": "opt out",
+          "d": "choose not to take part in something"
         }
       ],
       "grammar": {

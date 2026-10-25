@@ -40,12 +40,12 @@
           "d": "produce money or income"
         },
         {
-          "t": "sacred",
-          "d": "holy and treated with great respect"
-        },
-        {
           "t": "expensive",
           "d": "costing a lot of money"
+        },
+        {
+          "t": "sacred",
+          "d": "holy and treated with great respect"
         }
       ],
       "grammar": {
@@ -244,16 +244,16 @@
           "d": "remove the strength from something gradually"
         },
         {
-          "t": "flashpoint",
-          "d": "an issue where conflict easily breaks out"
-        },
-        {
           "t": "stir up",
           "d": "cause strong feelings to begin"
         },
         {
           "t": "assertive",
           "d": "confident in stating what you want"
+        },
+        {
+          "t": "flashpoint",
+          "d": "an issue where conflict easily breaks out"
         }
       ],
       "grammar": {

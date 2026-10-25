@@ -58,39 +58,37 @@ But writing the business off as evidence of social decline would be too easy. Pe
 
 === Core before you read ===
 
-- Do you spend time with people much older than you?
-- What can older people teach?
-- Would you hire someone for company?
+- What practical skill would you like an older person to teach you?
+- Can someone feel like family without being related?
+- Would you ask for advice from someone with a very different life?
 
 === Core talk about it ===
 
-- You can hire a grandmother in Japan. What do you think of that? Start with: I think ... because ...
-- Is paid company still real company?
-- Someone says this is sad. What do you say to them? Start with: I agree, because ... or It is practical, because ...
-- Who taught you something useful?
+- What could make paid help feel warm without pretending it was family?
+- Which kinds of experience become more valuable with age?
+- What could different generations enjoy doing together?
 
 === Intermediate before you read ===
 
-- Why might someone hire an older companion?
-- Are paid relationships less genuine?
-- What do generations lose by living apart?
+- What practical skill would you like an older person to teach you?
+- Can someone feel like family without being related?
+- Would you ask for advice from someone with a very different life?
 
 === Intermediate talk about it ===
 
-- The company says the women are not substitutes for relatives. Why be so clear about that?
-- Compare this service with a teacher or a counsellor. What makes those feel different, if they do?
-- Someone tells you: "If you have to pay, it is not a relationship." What would you say back?
-- One worker described enjoying the variety. Does that change how you see the job?
+- What could make paid help feel warm without pretending it was family?
+- Which kinds of experience become more valuable with age?
+- What could different generations enjoy doing together?
 
 === Advanced before you read ===
 
-- Is a market a symptom of a failure, or a sensible response to one?
-- What is owed between generations, and by whom?
-- Does paying for care make it more honest or less?
+- What practical skill would you like an older person to teach you?
+- Can someone feel like family without being related?
+- Would you ask for advice from someone with a very different life?
 
 === Advanced talk about it ===
 
-- The writer calls the openly commercial basis the most honest feature. Do you agree, and what would the dishonest version look like?
-- Argue against this: "A rental grandmother is a society admitting it has given up."
-- The harder question is why contact between generations now needs arranging. What is your answer?
-- What would you pay for that you think you should not have to?
+- What could make paid help feel warm without pretending it was family?
+- Which kinds of experience become more valuable with age?
+- What could different generations enjoy doing together?
+

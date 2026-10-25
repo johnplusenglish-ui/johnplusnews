@@ -59,40 +59,37 @@ Perhaps the most productive question is therefore not whether to retire early, b
 
 === Core before you read ===
 
-- At what age would you like to stop working?
-- What would you do with your time if you stopped working?
-- Does your job make you think hard?
+- What would you do with a weekday that had no timetable?
+- Which activities keep you interested without feeling like work?
+- Would you enjoy retiring with lots of plans or no plans?
 
 === Core talk about it ===
 
-- The study found some thinking skills got weaker but sleep and mood improved. Which matters more to you? Start with: For me ... because ...
-- Would you retire early if you could?
-- Someone says retiring makes people old quickly. What do you say to them? Start with: I think so, because ... or I don't agree, because ...
-- If you retired next month, what would you want a normal Tuesday to look like?
+- What could people keep from working life after they stop working?
+- Should a good retirement include learning something new?
+- How could a community make it easier to stay involved at any age?
 
 === Intermediate before you read ===
 
-- Is work good for the brain, or just tiring?
-- Why might retirement change how someone thinks?
-- What would you miss most about working?
+- What would you do with a weekday that had no timetable?
+- Which activities keep you interested without feeling like work?
+- Would you enjoy retiring with lots of plans or no plans?
 
 === Intermediate talk about it ===
 
-- Thinking skills slipped while sleep and mood improved. How would you weigh those against each other, and why?
-- Compare retiring at sixty with retiring at sixty-seven. What changes besides money?
-- Someone tells you: "Work keeps you sharp, so retire as late as you can." What would you say back?
-- If you stopped work tomorrow, what would you miss first: the money, the routine or the people?
+- What could people keep from working life after they stop working?
+- Should a good retirement include learning something new?
+- How could a community make it easier to stay involved at any age?
 
 === Advanced before you read ===
 
-- Should the state use brain health as an argument for a later pension age?
-- Is the value of work mostly the work, or the structure around it?
-- Who can afford to retire early, and does that shape the findings?
+- What would you do with a weekday that had no timetable?
+- Which activities keep you interested without feeling like work?
+- Would you enjoy retiring with lots of plans or no plans?
 
 === Advanced talk about it ===
 
-- The study found weaker flexible thinking alongside genuine health gains. Which finding would you put in a headline, and what does that choice reveal?
-- Argue against this: "If retirement dulls the mind, people should simply work longer."
-- What would you want to keep from working life even after you stopped being paid for it?
-- What would you need in place before you could retire without losing something important?
+- What could people keep from working life after they stop working?
+- Should a good retirement include learning something new?
+- How could a community make it easier to stay involved at any age?
 

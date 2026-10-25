@@ -136,12 +136,12 @@
       },
       "match": [
         {
-          "t": "in its own right",
-          "d": "important because of what it is, not what it goes with"
-        },
-        {
           "t": "out of reach",
           "d": "impossible to get or afford"
+        },
+        {
+          "t": "in its own right",
+          "d": "important because of what it is, not what it goes with"
         },
         {
           "t": "die down",
@@ -240,12 +240,12 @@
       },
       "match": [
         {
-          "t": "mundane",
-          "d": "so ordinary that nobody pays it any attention"
-        },
-        {
           "t": "wear off",
           "d": "gradually stop having an effect"
+        },
+        {
+          "t": "mundane",
+          "d": "so ordinary that nobody pays it any attention"
         },
         {
           "t": "theatrical",

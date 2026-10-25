@@ -71,45 +71,39 @@ Imagine a classmate's invented expression became popular in your school. What ev
 
 === Core before you read ===
 
-- What is a word you use with friends that your teacher might not like?
-- Do you think slang makes a language richer or messier?
-- How do you think a new word gets into a dictionary?
+- What word do you use that an adult might misunderstand?
+- Does explaining a joke make it less funny?
+- When does a new word start to feel overused?
 
 === Intermediate before you read ===
 
-- What is a word you use with friends that an adult might call "not a real word"?
-- Does slang feel different to you when an adult starts using it?
-- Who do you think decides whether a new word is "real"?
+- What word do you use that an adult might misunderstand?
+- Does explaining a joke make it less funny?
+- When does a new word start to feel overused?
 
 === Advanced before you read ===
 
-- Think of a word you use with friends that an adult might call "not a real word". What does it do that a normal word cannot?
-- Does slang lose something when adults start using it?
-- Who, if anyone, should decide whether a new word counts as "real" English?
+- What word do you use that an adult might misunderstand?
+- Does explaining a joke make it less funny?
+- When does a new word start to feel overused?
 
 === Core talk about it ===
 
-- A teacher says a word you use is not a real word. What would you say?
-- Does a slang word feel different when an adult uses it? Why?
-- Which matters more to you: being understood or using the newest word?
-- Would you use the same words in a game, in a school talk and in a message to a relative?
-- What evidence would you collect before adding a new word to a learner's dictionary?
+- Does a slang word lose something when it enters a dictionary?
+- Would you rather invent a word or make an old one popular again?
+- Who decides when a word is too old to use?
 
 === Intermediate talk about it ===
 
-- What would you say if a teacher told you a word you use is not a real word?
-- Does a slang word feel different when an adult starts using it?
-- Which matters more: being understood or using the newest expression?
-- Would you use the same words in a game, in a school presentation and in a message to a relative?
-- What evidence would you collect before adding a new word to a learner's dictionary?
+- Does a slang word lose something when it enters a dictionary?
+- Would you rather invent a word or make an old one popular again?
+- Who decides when a word is too old to use?
 
 === Advanced talk about it ===
 
-- What would you say if a teacher told you a word you use is not a real word, and how would you prove it?
-- Does a slang word feel different when an adult starts using it, and does that matter?
-- Which matters more: being understood or using the newest expression, and when does the answer change?
-- Would you use the same words in a game, in a school presentation and in a message to a relative? What decides it?
-- What evidence would you collect before adding a new word to a learner's dictionary, and who should make the final call?
+- Does a slang word lose something when it enters a dictionary?
+- Would you rather invent a word or make an old one popular again?
+- Who decides when a word is too old to use?
 
 === Activity ===
 

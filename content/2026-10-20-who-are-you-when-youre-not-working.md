@@ -75,39 +75,37 @@ A broader identity is more resilient, and gives a person more to fall back on: f
 
 === Core before you read ===
 
-- What do you ask someone when you first meet them?
-- Do you enjoy talking about your job?
-- What else would you like to be asked?
+- What do people learn about you when you tell them your job?
+- Which part of your life would you mention first to someone new?
+- Would you enjoy a hobby more if nobody asked whether you were good at it?
 
 === Core talk about it ===
 
-- 39% said their job is very important to who they are. Is that true for you? Start with: For me ... because ...
-- What would you do if you did not need money?
-- Someone says your job says nothing about you. What do you say to them? Start with: I disagree, because ... or Mostly true, because ...
-- Someone asks what you do at a party. What would you like them to ask next?
+- What is a better opening question than "What do you do?"?
+- Could loving a job make it harder to take a break from it?
+- What would you want to keep if your work changed completely?
 
 === Intermediate before you read ===
 
-- Why is work the first question at a party?
-- Is a job title useful information?
-- What happens to identity when work stops?
+- What do people learn about you when you tell them your job?
+- Which part of your life would you mention first to someone new?
+- Would you enjoy a hobby more if nobody asked whether you were good at it?
 
 === Intermediate talk about it ===
 
-- Having several interests can make change easier. Why might that be?
-- Compare being asked about your job with being asked about your week. What does each invite?
-- Someone tells you: "Work is where adults spend their lives, so of course it defines them." What would you say back?
-- Some find the question uncomfortable, especially when looking for work. How would you ask instead?
+- What is a better opening question than "What do you do?"?
+- Could loving a job make it harder to take a break from it?
+- What would you want to keep if your work changed completely?
 
 === Advanced before you read ===
 
-- Is identity something you build or something assigned to you?
-- Who gains when people identify with their employer?
-- What should replace the work question?
+- What do people learn about you when you tell them your job?
+- Which part of your life would you mention first to someone new?
+- Would you enjoy a hobby more if nobody asked whether you were good at it?
 
 === Advanced talk about it ===
 
-- Applications, networking and profiles keep reinforcing the work identity. Can an individual opt out of that?
-- Argue against this: "Separating yourself from your work is advice for people whose work is secure."
-- Redundancy removes more than income. What exactly does it remove?
-- Who are you when you are not working, and when did you last get to be that person?
+- What is a better opening question than "What do you do?"?
+- Could loving a job make it harder to take a break from it?
+- What would you want to keep if your work changed completely?
+

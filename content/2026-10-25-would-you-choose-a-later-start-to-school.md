@@ -54,7 +54,7 @@ So, if your school offered the choice for a month, which would you pick: an extr
 
 === Advanced ===
 
-title: A Later Start, a Later Finish: Would You Take the Deal?
+title: School Starts Later. What Changes?
 summary: Swiss students who could start school later mostly did, and slept longer. The study did not test a later finish, so that half of the deal is a question for you.
 
 It looks like a simple trade: an hour more in bed in exchange for a school day that ends an hour later. Ask yourself at seven in the morning and again at four in the afternoon, and you may well give two different answers. The Swiss study behind this story did not actually make students accept a later finish. It asked something narrower and more practical, namely what happens to teenagers' sleep when they are allowed to start later.
@@ -73,45 +73,39 @@ So the question in the headline remains open, and it is a personal one. Would yo
 
 === Core before you read ===
 
-- Would you rather have an extra half-hour before school or after school?
-- What makes a school morning feel rushed?
-- Which lesson would you put first in the day?
+- Would you choose a later start to school?
+- Which is more useful to you: an extra hour in the morning or afternoon?
+- What would make getting to school easier?
 
 === Intermediate before you read ===
 
-- Would you rather have an extra half-hour before school or after school? Why?
-- What is the hardest part of your school morning?
-- Which lesson would you put first in the day, and which would you move to the end?
+- Would you choose a later start to school?
+- Which is more useful to you: an extra hour in the morning or afternoon?
+- What would make getting to school easier?
 
 === Advanced before you read ===
 
-- Would you rather have an extra half-hour before school or after school, and what would you do with it?
-- What makes a school morning feel rushed, and what could change that without moving the start time?
-- If you designed the timetable, which lesson would you put first, and why?
+- Would you choose a later start to school?
+- Which is more useful to you: an extra hour in the morning or afternoon?
+- What would make getting to school easier?
 
 === Core talk about it ===
 
-- School could start 45 minutes later but finish 45 minutes later. Would you choose that? Start with: I would ... because ...
-- What could you do with a calmer morning, apart from sleeping?
-- Who might find a later finish difficult? Give one reason.
-- Some students arrive early. What could they do with that time?
-- Your school wants to try a new timetable for a month. What two questions should it ask students?
+- What school start time would you try for a month?
+- Should everyone follow the same timetable?
+- What should a school ask students before changing the day?
 
 === Intermediate talk about it ===
 
-- School could start 45 minutes later but finish 45 minutes later. Would you choose that, and what would you give up?
-- Apart from sleep, what might a student gain from a flexible morning?
-- Who might find a later timetable inconvenient, and why?
-- If some students arrived earlier than others, what could the early group do with that time?
-- Your school wants to test a new timetable for a month. What should it ask students before and after?
+- What school start time would you try for a month?
+- Should everyone follow the same timetable?
+- What should a school ask students before changing the day?
 
 === Advanced talk about it ===
 
-- A later start would mean a later finish. At what point would the deal stop being worth it for you?
-- Apart from sleep, what might a student gain from a flexible morning, and what might a school lose?
-- Who might find a later timetable inconvenient, and who would hardly notice? Why?
-- If some students arrived earlier than others, what could the early group do, and would that be fair to everyone?
-- Your school will test a new timetable for a month. What should it measure besides sleep, and who should decide?
+- What school start time would you try for a month?
+- Should everyone follow the same timetable?
+- What should a school ask students before changing the day?
 
 === Activity ===
 

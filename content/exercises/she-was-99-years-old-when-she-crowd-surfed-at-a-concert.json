@@ -40,12 +40,12 @@
           "d": "hesitate because something seems risky"
         },
         {
-          "t": "give it a go",
-          "d": "try something, even if you may not succeed"
-        },
-        {
           "t": "extraordinary",
           "d": "very unusual and surprising"
+        },
+        {
+          "t": "give it a go",
+          "d": "try something, even if you may not succeed"
         }
       ],
       "grammar": {
@@ -140,12 +140,12 @@
           "d": "become popular with a lot of people"
         },
         {
-          "t": "keen",
-          "d": "very willing and eager to do something"
-        },
-        {
           "t": "spectacular",
           "d": "impressive and exciting to watch"
+        },
+        {
+          "t": "keen",
+          "d": "very willing and eager to do something"
         },
         {
           "t": "take risks",
@@ -248,12 +248,12 @@
           "d": "explain or cover all of something"
         },
         {
-          "t": "joyful",
-          "d": "full of great happiness"
-        },
-        {
           "t": "join in",
           "d": "take part in an activity with other people"
+        },
+        {
+          "t": "joyful",
+          "d": "full of great happiness"
         }
       ],
       "grammar": {

@@ -140,16 +140,16 @@
           "d": "pretend something is what it is not"
         },
         {
-          "t": "chip away at",
-          "d": "gradually weaken something over time"
-        },
-        {
           "t": "work out",
           "d": "decide the details of a plan"
         },
         {
           "t": "legitimate",
           "d": "reasonable and allowed by law"
+        },
+        {
+          "t": "chip away at",
+          "d": "gradually weaken something over time"
         }
       ],
       "grammar": {
@@ -240,20 +240,20 @@
       },
       "match": [
         {
-          "t": "flag up",
-          "d": "draw attention to a possible problem"
-        },
-        {
           "t": "set loose",
           "d": "release something so it moves freely"
         },
         {
-          "t": "persuasive",
-          "d": "convincing enough to change your mind"
+          "t": "flag up",
+          "d": "draw attention to a possible problem"
         },
         {
           "t": "bear the cost",
           "d": "be the one who pays or suffers"
+        },
+        {
+          "t": "persuasive",
+          "d": "convincing enough to change your mind"
         }
       ],
       "grammar": {

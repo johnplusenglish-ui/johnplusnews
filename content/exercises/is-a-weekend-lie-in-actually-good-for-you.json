@@ -32,12 +32,12 @@
       },
       "match": [
         {
-          "t": "catch up on",
-          "d": "do something you did not have time for earlier"
-        },
-        {
           "t": "go overboard",
           "d": "do far more of something than you need to"
+        },
+        {
+          "t": "catch up on",
+          "d": "do something you did not have time for earlier"
         },
         {
           "t": "guilty",
@@ -144,12 +144,12 @@
           "d": "reduce the amount of something you use or do"
         },
         {
-          "t": "consistent",
-          "d": "staying much the same from one day to the next"
-        },
-        {
           "t": "look after",
           "d": "take care of somebody or something"
+        },
+        {
+          "t": "consistent",
+          "d": "staying much the same from one day to the next"
         }
       ],
       "grammar": {
@@ -244,12 +244,12 @@
           "d": "remove the effect of something else"
         },
         {
-          "t": "self-indulgent",
-          "d": "allowing yourself more pleasure than you should"
-        },
-        {
           "t": "plausible",
           "d": "reasonable enough to be believed"
+        },
+        {
+          "t": "self-indulgent",
+          "d": "allowing yourself more pleasure than you should"
         },
         {
           "t": "juggle",

@@ -58,40 +58,37 @@ The real cost of procrastination extends beyond unfinished work. It can create a
 
 === Core before you read ===
 
-- What do you do when you want to avoid a job?
-- Is there something you have been putting off this week?
-- Do you work better in the morning or the evening?
+- Which task becomes harder the longer you put it off?
+- Would you rather start something badly or wait for the right mood?
+- What makes a small task feel surprisingly big?
 
 === Core talk about it ===
 
-- The article says putting things off is about feelings, not laziness. Do you agree? Start with: I think ... because ...
-- Which is harder for you: starting a task, or finishing it?
-- Someone says people who delay are just lazy. What do you say to them? Start with: That is true sometimes, but ... or I don't agree, because ...
-- A friend keeps avoiding an important job. What would you say to help them start?
+- What would help someone begin a task they were avoiding?
+- Can a deadline be useful without becoming stressful?
+- Which would you change first: the task, the place or your expectations?
 
 === Intermediate before you read ===
 
-- Why do we clean the kitchen instead of doing the hard job?
-- Is putting something off always a bad decision?
-- What kind of task do you delay most, and why?
+- Which task becomes harder the longer you put it off?
+- Would you rather start something badly or wait for the right mood?
+- What makes a small task feel surprisingly big?
 
 === Intermediate talk about it ===
 
-- The article links delay to anxiety and perfectionism rather than discipline. Does that explanation fit you? Why?
-- Compare a deadline set by you with one set by somebody else. Which works better, and why?
-- Someone tells you: "Just start, and the feeling goes away." Is that good advice? Why?
-- What has been on your list the longest? What is actually stopping you?
+- What would help someone begin a task they were avoiding?
+- Can a deadline be useful without becoming stressful?
+- Which would you change first: the task, the place or your expectations?
 
 === Advanced before you read ===
 
-- Is procrastination a character flaw or a coping strategy?
-- Would you rather work with someone who delays or someone who rushes?
-- Does a culture that praises productivity create the problem it complains about?
+- Which task becomes harder the longer you put it off?
+- Would you rather start something badly or wait for the right mood?
+- What makes a small task feel surprisingly big?
 
 === Advanced talk about it ===
 
-- The research points at discomfort rather than discipline. Does that make the behaviour easier to excuse, or easier to change?
-- Argue against this: "Calling procrastination an emotional problem is just a comfortable way of avoiding responsibility."
-- Does calling it discomfort rather than laziness make you more forgiving of yourself, or less?
-- Is there something you keep researching instead of doing? What is the discomfort underneath it?
+- What would help someone begin a task they were avoiding?
+- Can a deadline be useful without becoming stressful?
+- Which would you change first: the task, the place or your expectations?
 

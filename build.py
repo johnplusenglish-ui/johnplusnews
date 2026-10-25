@@ -624,7 +624,7 @@ def article_meta(a):
 LEVEL_HELP = {
     "core": "Short sentences and everyday words.",
     "intermediate": "Longer sentences and more detail.",
-    "advanced": "Complex sentences and ideas to argue with.",
+    "advanced": "Natural language, richer detail and room for discussion.",
 }
 
 
@@ -975,6 +975,12 @@ def highlight_script():
     return '<script src="/highlight.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
 
 
+CORE_STARTERS = {
+    "before": ["I'd choose ... because ...", "For me, ...", "I think ... because ..."],
+    "after": ["I think ... because ...", "One reason is ...", "For me, ..."],
+}
+
+
 def question_row(key, qs, level="", teens=False):
     """A quiet, closed-by-default row. Opens to a numbered list; the PDF prints it open.
     With a level, the row belongs to that reading tab and is shown only while it is open."""
@@ -983,10 +989,15 @@ def question_row(key, qs, level="", teens=False):
     # nobody has to disclose their own health, money or bad experiences to join in
     note = ('<p class="qs-note">You can talk about people in general instead of yourself, '
             'and you can pass on any question.</p>') if key == "after" else ""
+    # Core readers get optional sentence starters, kept outside the numbered questions
+    help_ = ""
+    if level.lower() == "core":
+        starters = CORE_STARTERS["before" if key == "before" else "after"]
+        help_ = '<p class="qs-help"><b>Sentence help (optional):</b> {}</p>'.format(" &middot; ".join(esc(x) for x in starters))
     return ('<details class="qs qs-{key}"{at}{op}><summary><span class="qs-label">{label}</span>'
-            '<span class="qs-count">{n} question{s}</span>{chev}</summary><ol>{items}</ol>{note}</details>'
+            '<span class="qs-count">{n} question{s}</span>{chev}</summary><ol>{items}</ol>{help}{note}</details>'
             ).format(key=key, label=label, at=at, op=" open" if teens and key == "after" else "", n=len(qs), s="" if len(qs) == 1 else "s", chev=CHEVRON_ICON,
-                     items="".join("<li>{}</li>".format(inline(q)) for q in qs), note=note)
+                     items="".join("<li>{}</li>".format(inline(q)) for q in qs), help=help_, note=note)
 
 
 def questions_html(a, key):

@@ -40,12 +40,12 @@
           "d": "take part in an activity with others"
         },
         {
-          "t": "crowded",
-          "d": "containing too many people for the space"
-        },
-        {
           "t": "stay away",
           "d": "not go to a place you normally go to"
+        },
+        {
+          "t": "crowded",
+          "d": "containing too many people for the space"
         }
       ],
       "grammar": {
@@ -144,12 +144,12 @@
           "d": "refuse to take a complaint seriously"
         },
         {
-          "t": "temporary",
-          "d": "lasting only a short time"
-        },
-        {
           "t": "clear up",
           "d": "deal with a problem so it no longer exists"
+        },
+        {
+          "t": "temporary",
+          "d": "lasting only a short time"
         }
       ],
       "grammar": {

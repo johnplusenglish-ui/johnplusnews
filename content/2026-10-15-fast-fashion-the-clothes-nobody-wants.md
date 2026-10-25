@@ -56,39 +56,37 @@ There is a danger in presenting individual shoppers as the sole cause of the pro
 
 === Core before you read ===
 
-- How often do you buy clothes?
-- What do you do with clothes you no longer wear?
-- Do you buy second-hand?
+- What makes you stop wearing something that still fits?
+- Would you buy fewer clothes if each one cost more?
+- What do you imagine happens after you donate clothes?
 
 === Core talk about it ===
 
-- You donate a bag of clothes. Does that solve the problem? Start with: I think ... because ...
-- Why do we buy clothes we never wear?
-- Someone says cheap clothes help people with less money. What do you say to them? Start with: That is true, but ... or I agree, because ...
-- How could you make your clothes last longer?
+- What should someone check before putting clothes in a donation bag?
+- Would you rather own ten reliable outfits or lots of cheap choices?
+- Who could make the biggest difference to clothing waste?
 
 === Intermediate before you read ===
 
-- Why do charity shops now receive more than they can sell?
-- Is buying less realistic for everyone?
-- Who should pay for clothes that nobody wants?
+- What makes you stop wearing something that still fits?
+- Would you buy fewer clothes if each one cost more?
+- What do you imagine happens after you donate clothes?
 
 === Intermediate talk about it ===
 
-- Oxfam found 32% of clothes in British wardrobes were never worn. What does that figure say about how we shop?
-- Compare donating with repairing. Which does more good, and why?
-- Someone tells you: "Shop less and the problem goes away." What would you say back?
-- You put a bag outside the shop and feel better. Should you?
+- What should someone check before putting clothes in a donation bag?
+- Would you rather own ten reliable outfits or lots of cheap choices?
+- Who could make the biggest difference to clothing waste?
 
 === Advanced before you read ===
 
-- Who should carry the cost of a product after it is sold?
-- Is donating a solution or a way of feeling better?
-- Can an industry built on replacement ever be sustainable?
+- What makes you stop wearing something that still fits?
+- Would you buy fewer clothes if each one cost more?
+- What do you imagine happens after you donate clothes?
 
 === Advanced talk about it ===
 
-- Charities are inheriting an industry's disposal costs. Whose responsibility is that, and how would you enforce it?
-- Argue against this: "Blaming shoppers is the cheapest possible response to an industrial problem."
-- Preventing destruction does not slow production. What policy would?
-- What would change in your own wardrobe if clothes cost what they cost to dispose of?
+- What should someone check before putting clothes in a donation bag?
+- Would you rather own ten reliable outfits or lots of cheap choices?
+- Who could make the biggest difference to clothing waste?
+

@@ -58,40 +58,37 @@ The practical response may be disarmingly modest. Read something genuinely appea
 
 === Core before you read ===
 
-- When did you last finish a book?
-- Where do you read best?
-- What interrupts you when you read?
+- What makes you put a book down after a few pages?
+- Would you rather reread a favourite or try something unfamiliar?
+- Where do you find it easiest to pay attention?
 
 === Core talk about it ===
 
-- You read the same paragraph twice. Why does that happen? Start with: I think it is because ...
-- Is reading on a phone the same as reading a book?
-- Someone says people do not read any more. What do you say to them? Start with: That is too simple, because ... or I agree, because ...
-- What would help you read more?
+- What would make reading feel like a pleasure again?
+- Does an audiobook give you what you want from a book?
+- Would reading ten pages happily beat finishing a book you disliked?
 
 === Intermediate before you read ===
 
-- Has your attention changed in the last ten years?
-- Is an audiobook reading?
-- What makes a half hour of quiet hard to find?
+- What makes you put a book down after a few pages?
+- Would you rather reread a favourite or try something unfamiliar?
+- Where do you find it easiest to pay attention?
 
 === Intermediate talk about it ===
 
-- Do you finish books, or collect them? Which one did you abandon most recently?
-- Compare reading a novel with scrolling. What does each one train?
-- Someone tells you: "If you wanted to read, you would read." What would you say back?
-- Alderman's plan treats reading like exercise. Why might that framing work?
+- What would make reading feel like a pleasure again?
+- Does an audiobook give you what you want from a book?
+- Would reading ten pages happily beat finishing a book you disliked?
 
 === Advanced before you read ===
 
-- Is attention a skill, a habit, or a resource other people compete for?
-- Would you give up something you enjoy to read more?
-- What is lost if nobody reads at length?
+- What makes you put a book down after a few pages?
+- Would you rather reread a favourite or try something unfamiliar?
+- Where do you find it easiest to pay attention?
 
 === Advanced talk about it ===
 
-- The thread gets cut and the paragraph has to be read again. Does that happen to you with books, or only with screens?
-- Argue against this: "Treating reading as virtuous is snobbery with a library card."
-- Have you ever pretended to have read something? What made that feel necessary?
-- What would you have to stop doing to read for an hour tonight?
+- What would make reading feel like a pleasure again?
+- Does an audiobook give you what you want from a book?
+- Would reading ten pages happily beat finishing a book you disliked?
 

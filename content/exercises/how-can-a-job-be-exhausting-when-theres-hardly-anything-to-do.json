@@ -36,16 +36,16 @@
           "d": "learn something without formal lessons"
         },
         {
-          "t": "take on",
-          "d": "accept a new piece of work"
-        },
-        {
           "t": "repetitive",
           "d": "the same thing over and over again"
         },
         {
           "t": "frustrated",
           "d": "annoyed because you cannot do what you want"
+        },
+        {
+          "t": "take on",
+          "d": "accept a new piece of work"
         }
       ],
       "grammar": {
@@ -144,12 +144,12 @@
           "d": "pretend things are better than they are"
         },
         {
-          "t": "speak up",
-          "d": "say what you think, even when it is hard"
-        },
-        {
           "t": "reluctant",
           "d": "unwilling and slow to act"
+        },
+        {
+          "t": "speak up",
+          "d": "say what you think, even when it is hard"
         }
       ],
       "grammar": {

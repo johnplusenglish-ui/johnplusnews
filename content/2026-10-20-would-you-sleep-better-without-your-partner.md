@@ -73,40 +73,37 @@ The wider debate reveals how readily cultural expectations become mistaken for r
 
 === Core before you read ===
 
-- Do you share a bed?
-- What stops you sleeping: noise, light or something else?
-- Is sleep a common argument in couples?
+- Would separate beds make a relationship seem less close to you?
+- Which matters more for sharing a space: routines or plenty of room?
+- Why do some ordinary household choices make people feel judged?
 
 === Core talk about it ===
 
-- Some couples sleep in separate rooms. Is that a problem? Start with: I think ... because ...
-- What would help two people sleep better together?
-- Someone says separate beds mean the relationship is over. What do you say to them? Start with: I disagree, because ... or I see why, but ...
-- What does a good night's sleep do for you?
+- Should a couple explain sleeping separately to anyone else?
+- What other relationship rule deserves to be questioned?
+- What would make a practical compromise feel caring rather than distant?
 
 === Intermediate before you read ===
 
-- Why does the phrase sleep divorce sound dramatic?
-- Is sharing a bed a choice or an expectation?
-- Does poor sleep damage a relationship?
+- Would separate beds make a relationship seem less close to you?
+- Which matters more for sharing a space: routines or plenty of room?
+- Why do some ordinary household choices make people feel judged?
 
 === Intermediate talk about it ===
 
-- Nearly a third of US adults report sleeping apart. Does that number change how it sounds? Why?
-- Compare separate rooms with separate blankets. Which would you try first, and why?
-- Someone tells you: "If you cannot share a bed, something is wrong." What would you say back?
-- Separate rooms need space many couples do not have. Who does this advice actually serve?
+- Should a couple explain sleeping separately to anyone else?
+- What other relationship rule deserves to be questioned?
+- What would make a practical compromise feel caring rather than distant?
 
 === Advanced before you read ===
 
-- Why is a sleeping arrangement read as a statement about a relationship?
-- Who can afford a second bedroom?
-- Does naming something make it more acceptable or more alarming?
+- Would separate beds make a relationship seem less close to you?
+- Which matters more for sharing a space: routines or plenty of room?
+- Why do some ordinary household choices make people feel judged?
 
 === Advanced talk about it ===
 
-- Would you tell people if you slept in separate rooms? Why would that matter?
-- Argue against this: "Sleep divorce is a lifestyle story that ignores housing costs."
-- Snoring and shift work rarely make elegant romantic narratives. Why does that shape the coverage?
-- What ordinary arrangement in your life would sound alarming if it had a dramatic name?
+- Should a couple explain sleeping separately to anyone else?
+- What other relationship rule deserves to be questioned?
+- What would make a practical compromise feel caring rather than distant?
 

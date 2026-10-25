@@ -32,12 +32,12 @@
       },
       "match": [
         {
-          "t": "cut back on",
-          "d": "reduce the amount of something you do"
-        },
-        {
           "t": "stay away",
           "d": "avoid going to a place"
+        },
+        {
+          "t": "cut back on",
+          "d": "reduce the amount of something you do"
         },
         {
           "t": "nervous",
@@ -244,12 +244,12 @@
           "d": "assume something will always be there"
         },
         {
-          "t": "move on",
-          "d": "stop giving attention to something"
-        },
-        {
           "t": "negligible",
           "d": "too small to be worth considering"
+        },
+        {
+          "t": "move on",
+          "d": "stop giving attention to something"
         },
         {
           "t": "habitual",

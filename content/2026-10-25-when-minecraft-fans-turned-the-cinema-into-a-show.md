@@ -71,45 +71,39 @@ If you could design one screening that worked for both the loud fans and the qui
 
 === Core before you read ===
 
-- Do you like a quiet cinema or a loud one?
-- Have you ever shouted or laughed out loud at a film with friends?
-- What would make a film more fun for you: a quiet room or a lively crowd?
+- Would you enjoy a cinema where everyone cheered at the same moment?
+- Which film would be most fun to watch with a room full of fans?
+- When does joining in start spoiling things for someone else?
 
 === Intermediate before you read ===
 
-- Do you prefer a quiet screening or a lively one? Does it depend on the film?
-- Have you ever shared a joke with a whole room of strangers? What was it like?
-- What do you think a cinema should do when people want different things?
+- Would you enjoy a cinema where everyone cheered at the same moment?
+- Which film would be most fun to watch with a room full of fans?
+- When does joining in start spoiling things for someone else?
 
 === Advanced before you read ===
 
-- Do you prefer a quiet screening or a lively one, and does your answer change with the film?
-- What makes a shared experience enjoyable for strangers? What spoils it?
-- Who should decide what a room full of different people is allowed to do?
+- Would you enjoy a cinema where everyone cheered at the same moment?
+- Which film would be most fun to watch with a room full of fans?
+- When does joining in start spoiling things for someone else?
 
 === Core talk about it ===
 
-- Would you choose a quiet showing or a showing where everyone joins in?
-- When does a shared joke make the film worse for people who do not know it?
-- Is cheering different from throwing popcorn?
-- What should a cinema tell people before a special showing?
-- Design a film event that works for loud fans and quiet viewers.
+- Should cinemas offer separate loud and quiet screenings?
+- What would make a fan screening fun without damaging the cinema?
+- Does being part of the crowd change how much you enjoy a film?
 
 === Intermediate talk about it ===
 
-- Would you choose a quiet screening or a lively audience-participation screening?
-- When does a shared joke make an experience better for people who do not know it?
-- Is cheering different from recording other audience members or throwing popcorn?
-- What should a cinema tell ticket buyers before a special screening?
-- Design a film event that would work for both enthusiastic fans and quieter viewers.
+- Should cinemas offer separate loud and quiet screenings?
+- What would make a fan screening fun without damaging the cinema?
+- Does being part of the crowd change how much you enjoy a film?
 
 === Advanced talk about it ===
 
-- Would you choose a quiet screening or a lively audience-participation screening, and would you tell your friends which one you booked?
-- When does a shared joke make an experience better for people who do not know it, and when does it exclude them?
-- Is cheering different from recording other audience members or throwing popcorn, and where does the line fall?
-- What should a cinema tell ticket buyers before a special screening, and how could it make sure they read it?
-- Design a film event that would work for both enthusiastic fans and quieter viewers. What is the first rule?
+- Should cinemas offer separate loud and quiet screenings?
+- What would make a fan screening fun without damaging the cinema?
+- Does being part of the crowd change how much you enjoy a film?
 
 === Activity ===
 

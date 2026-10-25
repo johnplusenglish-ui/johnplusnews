@@ -56,39 +56,37 @@ There is a danger, too, that fear of regulatory action encourages companies to s
 
 === Core before you read ===
 
-- Do you look at labels when you shop?
-- What does the word green mean on a product?
-- Would you pay more for something better for the planet?
+- Which words on a product make it sound environmentally friendly?
+- Do you trust a simple green label or want more detail?
+- Would a smaller choice of well-explained products make shopping easier?
 
 === Core talk about it ===
 
-- A label says a bottle is green. Do you believe it? Start with: I usually ... because ...
-- Which products do you trust most, and why?
-- Someone says all advertising exaggerates, so this is normal. What do you say to them? Start with: I agree, because ... or This is different, because ...
-- You are choosing between two products with green labels. What would help you decide?
+- What would a useful environmental label actually tell you?
+- Who should have to prove a green claim is true?
+- Would you trust a brand more if it admitted where it still caused harm?
 
 === Intermediate before you read ===
 
-- Why do companies advertise their environmental record?
-- Can a claim be true and misleading at the same time?
-- Who should check what companies say?
+- Which words on a product make it sound environmentally friendly?
+- Do you trust a simple green label or want more detail?
+- Would a smaller choice of well-explained products make shopping easier?
 
 === Intermediate talk about it ===
 
-- The UK regulator criticised two airlines' adverts. Is regulation the right tool here, and why?
-- Compare a product that uses less plastic but more energy. Which is greener, and how would a shopper know?
-- Someone tells you: "If the claim is technically true, it is fine." What would you say back?
-- New EU rules restrict vague green claims. What would you still allow a company to say?
+- What would a useful environmental label actually tell you?
+- Who should have to prove a green claim is true?
+- Would you trust a brand more if it admitted where it still caused harm?
 
 === Advanced before you read ===
 
-- Is honest environmental advertising possible?
-- Does regulation improve claims, or just silence them?
-- Who is responsible for a misleading impression nobody technically stated?
+- Which words on a product make it sound environmentally friendly?
+- Do you trust a simple green label or want more detail?
+- Would a smaller choice of well-explained products make shopping easier?
 
 === Advanced talk about it ===
 
-- Greenwashing works in the gap between suggestion and substantiation. How would you close that gap in a rule?
-- Argue against this: "Tighter rules make companies say nothing, which helps nobody."
-- The writer warns that fear of regulators may silence worthwhile initiatives. Is that a real cost or a lobbying line?
-- What environmental claim have you believed without checking?
+- What would a useful environmental label actually tell you?
+- Who should have to prove a green claim is true?
+- Would you trust a brand more if it admitted where it still caused harm?
+

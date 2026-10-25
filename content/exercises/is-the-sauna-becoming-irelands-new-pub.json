@@ -240,12 +240,12 @@
       },
       "match": [
         {
-          "t": "strip away",
-          "d": "remove a surface layer completely"
-        },
-        {
           "t": "give way to",
           "d": "be replaced by something else"
+        },
+        {
+          "t": "strip away",
+          "d": "remove a surface layer completely"
         },
         {
           "t": "take over",

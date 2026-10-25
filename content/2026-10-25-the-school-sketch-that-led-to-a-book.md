@@ -73,45 +73,39 @@ If you noticed a friend's creative talent, how could you encourage them without 
 
 === Core before you read ===
 
-- Do you ever draw or make something when you are listening to someone? Why?
-- Who has noticed something you made? How did it feel?
-- Would you rather show your work to one person or to many people?
+- What would you draw if a publisher asked for one page?
+- Would you show unfinished work to someone you admired?
+- Which school project would you enjoy turning into something bigger?
 
 === Intermediate before you read ===
 
-- Do you ever draw or write while you are listening? What does it do for you?
-- Think of a time someone noticed something you had made. How did it feel?
-- Would you prefer to show a new drawing to one trusted person or to a whole group?
+- What would you draw if a publisher asked for one page?
+- Would you show unfinished work to someone you admired?
+- Which school project would you enjoy turning into something bigger?
 
 === Advanced before you read ===
 
-- Do you ever make something with your hands in order to concentrate? What does it do for you?
-- Think of a time someone noticed something you had made. What did they say that helped, or did not help?
-- Would you prefer to show new work to one trusted person or to a whole group, and why?
+- What would you draw if a publisher asked for one page?
+- Would you show unfinished work to someone you admired?
+- Which school project would you enjoy turning into something bigger?
 
 === Core talk about it ===
 
-- Would you rather show a new drawing to one person or to a group? Why?
-- What makes a comment about someone's work helpful?
-- Can doing something with your hands help you listen or think?
-- There are many ways to join in. How could someone join in without speaking in front of the class?
-- How could you encourage a friend who made something good, without making them feel nervous?
+- What could make it easier for a young person to share their work?
+- Would an important opportunity make a hobby more fun or more stressful?
+- What should adults do when they spot a young person's talent?
 
 === Intermediate talk about it ===
 
-- Would you prefer to show a new drawing to one trusted person or to a whole group?
-- What makes feedback useful when somebody has worked hard on something?
-- Can doing something with your hands help you listen or think?
-- What are different ways to contribute when someone does not want to speak in front of a class?
-- If you noticed a friend's creative talent, how could you encourage them without putting them under pressure?
+- What could make it easier for a young person to share their work?
+- Would an important opportunity make a hobby more fun or more stressful?
+- What should adults do when they spot a young person's talent?
 
 === Advanced talk about it ===
 
-- Would you prefer to show a new drawing to one trusted person or to a whole group, and what makes the difference?
-- What makes feedback useful when somebody has worked hard on something, and what makes it feel empty?
-- Can doing something with your hands help you listen or think, and why might that be?
-- What are different ways to contribute when someone does not want to speak in front of a class, and how can a teacher make them count?
-- If you noticed a friend's creative talent, how could you encourage them without putting them under pressure?
+- What could make it easier for a young person to share their work?
+- Would an important opportunity make a hobby more fun or more stressful?
+- What should adults do when they spot a young person's talent?
 
 === Activity ===
 

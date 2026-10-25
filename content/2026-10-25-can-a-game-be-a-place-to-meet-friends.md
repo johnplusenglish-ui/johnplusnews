@@ -73,45 +73,39 @@ That puts the weight on the group. A team that waits for a beginner, makes it ea
 
 === Core before you read ===
 
-- Would you rather win alone or lose with a good team?
-- What makes someone fun to play with?
-- Name an activity where talking is half the fun.
+- Would you rather play with friends or with people who were very good?
+- What makes a group easy to join?
+- Can hanging out online feel like being in the same room?
 
 === Intermediate before you read ===
 
-- Would you rather win alone or lose with a good team? Why?
-- What makes someone enjoyable to play with?
-- Name an activity where talking is half the fun. What would be boring without the people?
+- Would you rather play with friends or with people who were very good?
+- What makes a group easy to join?
+- Can hanging out online feel like being in the same room?
 
 === Advanced before you read ===
 
-- Would you rather win alone or lose with a good team, and what does your answer say about why you play?
-- What makes someone enjoyable to play with, and what makes someone exhausting?
-- Name an activity where talking is half the fun. Would it still be fun with strangers?
+- Would you rather play with friends or with people who were very good?
+- What makes a group easy to join?
+- Can hanging out online feel like being in the same room?
 
 === Core talk about it ===
 
-- A friend invites you to a game you've never played. What would help you enjoy the first ten minutes? Start with: It would help if ...
-- Would you keep playing a game you don't like because your friends love it? Why?
-- What does a good teammate say when the team is losing?
-- Is it easier to talk while you do something together? Why?
-- A friend can't play the same game as the group. What could the group change?
+- What should a good team do when someone is new?
+- Can a friendship that starts in a game become just as close as one from school?
+- Would you keep playing a game you disliked if your friends loved it?
 
 === Intermediate talk about it ===
 
-- A friend invites you into a game you've never played. What would help you enjoy the first ten minutes?
-- Would you keep playing a game you disliked if your friends loved it? Why?
-- What makes someone a good teammate when the group is losing?
-- Can doing an activity together make conversation easier than simply sitting and talking?
-- A group wants to include a friend who cannot play the same game. What could they change?
+- What should a good team do when someone is new?
+- Can a friendship that starts in a game become just as close as one from school?
+- Would you keep playing a game you disliked if your friends loved it?
 
 === Advanced talk about it ===
 
-- A friend invites you into a game you've never played. What would the group have to do for you to want to join a second time?
-- Would you keep playing a game you disliked if your friends loved it, and what does your answer say about why you play?
-- What makes someone a good teammate when the group is losing, and who decides what counts as "good"?
-- Can an activity make conversation easier than simply sitting and talking, and does that change what a friend "made in a game" means?
-- A group wants to include a friend who cannot play the same game. What could they change, and what might they lose?
+- What should a good team do when someone is new?
+- Can a friendship that starts in a game become just as close as one from school?
+- Would you keep playing a game you disliked if your friends loved it?
 
 === Activity ===
 

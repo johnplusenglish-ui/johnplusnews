@@ -58,40 +58,37 @@ None of this means the food is poor or that customers are foolish. SpudBros has 
 
 === Core before you read ===
 
-- What is the longest you have queued for anything?
-- Do you follow food accounts online?
-- What is your favourite cheap meal?
+- What food would you queue an hour to try?
+- Does a long queue make something look better to you?
+- Would you travel for a snack you had seen in a video?
 
 === Core talk about it ===
 
-- People queued 24 hours for a baked potato. Why? Start with: I think it is because ...
-- Would you queue for food that looked good online?
-- Someone says these queues are ridiculous. What do you say to them? Start with: I agree, because ... or It is harmless, because ...
-- What local food deserves a queue?
+- When does the queue become part of the experience?
+- Would you trust local advice or a viral food review more?
+- What would persuade you that a famous food was worth the wait?
 
 === Intermediate before you read ===
 
-- Why do we trust a long queue?
-- Can a small business survive sudden fame?
-- What makes a video make you hungry?
+- What food would you queue an hour to try?
+- Does a long queue make something look better to you?
+- Would you travel for a snack you had seen in a video?
 
 === Intermediate talk about it ===
 
-- A long queue acts as a public recommendation. Is that reliable evidence? Why?
-- Compare a famous place with a quiet local one. Where do you eat better, and why?
-- Someone tells you: "They are only famous because of a video, not the food." What would you say back?
-- You run the restaurant. How would you look after regular customers while welcoming new ones?
+- When does the queue become part of the experience?
+- Would you trust local advice or a viral food review more?
+- What would persuade you that a famous food was worth the wait?
 
 === Advanced before you read ===
 
-- Is virality luck, or a skill nobody admits to practising?
-- What does a queue cost the street around it?
-- Should a business chase attention it cannot control?
+- What food would you queue an hour to try?
+- Does a long queue make something look better to you?
+- Would you travel for a snack you had seen in a video?
 
 === Advanced talk about it ===
 
-- The writer says none of this means the food is poor or customers foolish. Why is that worth stating?
-- Argue against this: "Social media fame is a tax on small businesses, not a gift."
-- Would you queue an hour for food? Where is your limit?
-- What have you queued for, and what were you really buying?
+- When does the queue become part of the experience?
+- Would you trust local advice or a viral food review more?
+- What would persuade you that a famous food was worth the wait?
 

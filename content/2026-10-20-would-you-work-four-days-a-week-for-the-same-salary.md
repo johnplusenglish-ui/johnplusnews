@@ -70,40 +70,37 @@ The research is therefore neither a universal prescription nor an excuse to writ
 
 === Core before you read ===
 
-- How many days a week do you work or study?
-- What would you do with an extra day?
-- Could your work be done in less time?
+- Would you choose a free Friday or shorter days all week?
+- What task at work takes more time than it deserves?
+- Could a team finish the same work with fewer meetings?
 
 === Core talk about it ===
 
-- Workers reported better health on a four-day week. Would it suit you? Start with: I think ... because ...
-- Which jobs could not do this?
-- Someone says the work would just pile up. What do you say to them? Start with: Maybe, but ... or I agree, because ...
-- What would make your working week better?
+- What would have to change before a shorter week felt genuinely easier?
+- Would you accept longer days in exchange for a three-day weekend?
+- Who might find a four-day week harder to arrange?
 
 === Intermediate before you read ===
 
-- Why would a shorter week not reduce output?
-- Which services need people every day?
-- Would you accept less pay for an extra day?
+- Would you choose a free Friday or shorter days all week?
+- What task at work takes more time than it deserves?
+- Could a team finish the same work with fewer meetings?
 
 === Intermediate talk about it ===
 
-- The gains followed a reorganisation of tasks and meetings, not goodwill. Why does that matter for copying the model?
-- Compare a four-day week in an office with one in a hospital. What changes?
-- Someone tells you: "If it worked, everyone would be doing it." What would you say back?
-- Would your workplace have volunteered for this? What does your answer say about it?
+- What would have to change before a shorter week felt genuinely easier?
+- Would you accept longer days in exchange for a three-day weekend?
+- Who might find a four-day week harder to arrange?
 
 === Advanced before you read ===
 
-- Who would absorb the cost of a shorter week?
-- Is wellbeing evidence enough to change employment law?
-- Does flexibility always reach the people who need it most?
+- Would you choose a free Friday or shorter days all week?
+- What task at work takes more time than it deserves?
+- Could a team finish the same work with fewer meetings?
 
 === Advanced talk about it ===
 
-- Extended beyond willing employers, the questions become staffing, contracts and unpaid care. Which worries you most?
-- Argue against this: "A four-day week is a benefit for knowledge workers funded by everyone else."
-- Would you trade a day's pay for a day off, if it came to that?
-- What would you actually do with the fifth day, honestly?
+- What would have to change before a shorter week felt genuinely easier?
+- Would you accept longer days in exchange for a three-day weekend?
+- Who might find a four-day week harder to arrange?
 

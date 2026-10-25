@@ -32,12 +32,12 @@
       },
       "match": [
         {
-          "t": "wear away",
-          "d": "slowly remove the surface of something"
-        },
-        {
           "t": "turn up",
           "d": "arrive somewhere, often in numbers"
+        },
+        {
+          "t": "wear away",
+          "d": "slowly remove the surface of something"
         },
         {
           "t": "narrow",
@@ -140,12 +140,12 @@
           "d": "gradually destroy or use up something"
         },
         {
-          "t": "date back",
-          "d": "have existed since a time long ago"
-        },
-        {
           "t": "die down",
           "d": "gradually become quieter or weaker"
+        },
+        {
+          "t": "date back",
+          "d": "have existed since a time long ago"
         },
         {
           "t": "inconvenient",
@@ -244,16 +244,16 @@
           "d": "become gradually smaller until very little is left"
         },
         {
-          "t": "shore up",
-          "d": "support something that is in danger of failing"
-        },
-        {
           "t": "indispensable",
           "d": "so necessary that you cannot do without it"
         },
         {
           "t": "come along",
           "d": "appear or happen, often by chance"
+        },
+        {
+          "t": "shore up",
+          "d": "support something that is in danger of failing"
         }
       ],
       "grammar": {

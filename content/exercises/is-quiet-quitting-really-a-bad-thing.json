@@ -36,16 +36,16 @@
           "d": "give assistance to somebody who needs it"
         },
         {
-          "t": "show initiative",
-          "d": "act without waiting to be told"
-        },
-        {
           "t": "committed",
           "d": "willing to give time and effort"
         },
         {
           "t": "end up",
           "d": "reach a situation you did not plan"
+        },
+        {
+          "t": "show initiative",
+          "d": "act without waiting to be told"
         }
       ],
       "grammar": {
@@ -244,12 +244,12 @@
           "d": "do the work somebody else has left"
         },
         {
-          "t": "bargaining power",
-          "d": "the strength to negotiate good terms"
-        },
-        {
           "t": "give something up",
           "d": "stop having or doing something"
+        },
+        {
+          "t": "bargaining power",
+          "d": "the strength to negotiate good terms"
         },
         {
           "t": "humane",

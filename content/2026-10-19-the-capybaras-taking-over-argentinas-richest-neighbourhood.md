@@ -62,40 +62,37 @@ Nordelta's capybaras may look amusing in photographs, but they pose an uncomfort
 
 === Core before you read ===
 
-- What wild animals live near you?
-- Have animals ever caused problems where you live?
-- Who was there first, people or animals?
+- How would you react to a capybara outside your front door?
+- What wildlife do people welcome near their homes?
+- When do people start calling an animal a problem?
 
 === Core talk about it ===
 
-- Capybaras live in a neighbourhood built on their wetland. Who should move? Start with: I think ... because ...
-- Are the animals a problem or a pleasure?
-- Someone says they should be removed. What do you say to them? Start with: I disagree, because ... or I understand, because ...
-- How should people and wild animals share space?
+- If homes are built in an animal's habitat, who should adapt?
+- Would you accept a less tidy garden to leave more room for wildlife?
+- What would make sharing a neighbourhood with wild animals workable?
 
 === Intermediate before you read ===
 
-- What happens when a town is built on an animal's habitat?
-- Are concerns about pets and traffic reasonable?
-- Who should pay to manage wildlife?
+- How would you react to a capybara outside your front door?
+- What wildlife do people welcome near their homes?
+- When do people start calling an animal a problem?
 
 === Intermediate talk about it ===
 
-- Residents worry about pets, gardens and road accidents. Are those concerns fair? Why?
-- Compare moving the animals with changing how people live there. Which is realistic, and why?
-- Someone tells you: "They are rodents and they are a pest." What would you say back?
-- Would you want them on your street, or only in photographs?
+- If homes are built in an animal's habitat, who should adapt?
+- Would you accept a less tidy garden to leave more room for wildlife?
+- What would make sharing a neighbourhood with wild animals workable?
 
 === Advanced before you read ===
 
-- Who decides whether an animal is native or a nuisance?
-- Does language settle arguments before they start?
-- What does a gated development owe the land it replaced?
+- How would you react to a capybara outside your front door?
+- What wildlife do people welcome near their homes?
+- When do people start calling an animal a problem?
 
 === Advanced talk about it ===
 
-- The writer says whoever controls the vocabulary is halfway to winning. Which words in this story are doing the most work?
-- Argue against this: "Residents who bought into a wetland development have no standing to complain."
-- Which animal near you gets called a pest, and who decided that?
-- What word have you heard used to settle an argument that should have stayed open?
+- If homes are built in an animal's habitat, who should adapt?
+- Would you accept a less tidy garden to leave more room for wildlife?
+- What would make sharing a neighbourhood with wild animals workable?
 

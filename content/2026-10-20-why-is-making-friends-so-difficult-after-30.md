@@ -72,39 +72,37 @@ Perhaps friendship deserves to be understood as essential social infrastructure 
 
 === Core before you read ===
 
-- How did you meet your closest friends?
-- Is it harder to make friends now than at school?
-- What do you do with friends?
+- Where do adults get a chance to see the same people regularly?
+- What makes it easier to turn an acquaintance into a friend?
+- Would you rather meet one person for coffee or join a group?
 
 === Core talk about it ===
 
-- About one in six people worldwide feel lonely. Does that surprise you? Start with: It ... me, because ...
-- You meet someone you get on with. What would make it easy to suggest meeting again?
-- Someone says adults do not need new friends. What do you say to them? Start with: I disagree, because ... or Maybe, but ...
-- What makes someone a good friend?
+- What would make someone feel welcome after arriving in a new city?
+- Can a regular small plan do more for friendship than a big occasional one?
+- Which matters more for staying friends: shared interests or making time?
 
 === Intermediate before you read ===
 
-- What did school provide that adult life does not?
-- Can you schedule a friendship?
-- Is loneliness the same as being alone?
+- Where do adults get a chance to see the same people regularly?
+- What makes it easier to turn an acquaintance into a friend?
+- Would you rather meet one person for coffee or join a group?
 
 === Intermediate talk about it ===
 
-- What gave you your oldest friendship, and could that happen to you now?
-- Compare keeping an old friendship with starting a new one. Which takes more effort, and why?
-- Someone tells you: "Just join a club." Why is that harder than it sounds?
-- Who was the last new friend you made, and how did it happen?
+- What would make someone feel welcome after arriving in a new city?
+- Can a regular small plan do more for friendship than a big occasional one?
+- Which matters more for staying friends: shared interests or making time?
 
 === Advanced before you read ===
 
-- Is loneliness a personal condition or a design problem?
-- Who should be responsible for adult social infrastructure?
-- Does the internet replace contact or postpone it?
+- Where do adults get a chance to see the same people regularly?
+- What makes it easier to turn an acquaintance into a friend?
+- Would you rather meet one person for coffee or join a group?
 
 === Advanced talk about it ===
 
-- Adulthood requires you to schedule what school gave you for free. What would a society do differently if it took that seriously?
-- Argue against this: "Loneliness is a private feeling, and public policy cannot touch it."
-- Loneliness and social isolation are different things. Why does conflating them lead to bad advice?
-- What would you have to change in your week to make a new friendship possible?
+- What would make someone feel welcome after arriving in a new city?
+- Can a regular small plan do more for friendship than a big occasional one?
+- Which matters more for staying friends: shared interests or making time?
+

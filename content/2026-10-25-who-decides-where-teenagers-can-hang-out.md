@@ -70,45 +70,39 @@ Remember what the page does not say. It describes aims and a schedule, not outco
 
 === Core before you read ===
 
-- What makes a place good for spending an hour with friends?
-- Would you choose shade, seats, sports space or somewhere quiet?
-- Can a place be welcoming without selling anything?
+- Where can friends spend an hour without buying anything?
+- What makes a place feel welcoming to teenagers?
+- Would you choose more seats, more shade or more space to play?
 
 === Intermediate before you read ===
 
-- What makes a place good for spending an hour with friends, and what makes one bad?
-- Would you choose shade, seats, sports space or somewhere quiet, and why?
-- Can a place be welcoming without selling anything? Think of an example.
+- Where can friends spend an hour without buying anything?
+- What makes a place feel welcoming to teenagers?
+- Would you choose more seats, more shade or more space to play?
 
 === Advanced before you read ===
 
-- What makes a place good for spending an hour with friends, and who decided what it would be?
-- Would you choose shade, seats, sports space or somewhere quiet, and does your answer change with your age?
-- Can a place be welcoming without selling anything, and who does it welcome less?
+- Where can friends spend an hour without buying anything?
+- What makes a place feel welcoming to teenagers?
+- Would you choose more seats, more shade or more space to play?
 
 === Core talk about it ===
 
-- A small public square can get one new thing: seats, shade, lights or a sports area. Which would you choose? Start with: I would choose ... because ...
-- How could the same space work for people of different ages?
-- How can people spend time together without buying anything?
-- A neighbour likes quiet. A group wants music. What is a fair solution?
-- If students helped design a public place, which decision should they make themselves?
+- What would you add to a small square near your school?
+- How could a hangout work for both teenagers and neighbours who want quiet?
+- Which decision about a local space should students help make?
 
 === Intermediate talk about it ===
 
-- A small public space can gain one feature: seats, shade, lights or a sports area. Which would you choose?
-- What could make the same space work for different ages?
-- How can people spend time together without being expected to buy something?
-- A neighbour likes quiet and a group wants music. What compromise might work?
-- If students helped design a public space, what decision should they genuinely be allowed to make?
+- What would you add to a small square near your school?
+- How could a hangout work for both teenagers and neighbours who want quiet?
+- Which decision about a local space should students help make?
 
 === Advanced talk about it ===
 
-- A small public space can gain one feature: seats, shade, lights or a sports area. Which would you choose, and who would lose out?
-- What could make the same space work for different ages without turning it into a space for no one?
-- How can people spend time together without being expected to buy something, and who pays for places that cost nothing to use?
-- A neighbour likes quiet and a group wants music. What compromise might work, and who should propose it?
-- If students helped design a public space, what decision should they genuinely be allowed to make, and what would make that real rather than a gesture?
+- What would you add to a small square near your school?
+- How could a hangout work for both teenagers and neighbours who want quiet?
+- Which decision about a local space should students help make?
 
 === Activity ===
 

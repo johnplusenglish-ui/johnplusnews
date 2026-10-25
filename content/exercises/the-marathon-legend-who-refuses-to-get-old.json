@@ -32,20 +32,20 @@
       },
       "match": [
         {
-          "t": "break away",
-          "d": "move ahead of the group you were with"
-        },
-        {
           "t": "run out of",
           "d": "have no more of something left"
         },
         {
-          "t": "ambitious",
-          "d": "aiming at something difficult to achieve"
+          "t": "break away",
+          "d": "move ahead of the group you were with"
         },
         {
           "t": "give up on",
           "d": "stop believing something is possible"
+        },
+        {
+          "t": "ambitious",
+          "d": "aiming at something difficult to achieve"
         }
       ],
       "grammar": {

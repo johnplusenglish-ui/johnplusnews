@@ -32,12 +32,12 @@
       },
       "match": [
         {
-          "t": "come up with",
-          "d": "think of a new idea or plan"
-        },
-        {
           "t": "left out",
           "d": "not included in what other people are doing"
+        },
+        {
+          "t": "come up with",
+          "d": "think of a new idea or plan"
         },
         {
           "t": "reassuring",
@@ -140,12 +140,12 @@
           "d": "find your way through something complicated"
         },
         {
-          "t": "distraction",
-          "d": "anything that stops you concentrating"
-        },
-        {
           "t": "keep in touch",
           "d": "continue to contact somebody regularly"
+        },
+        {
+          "t": "distraction",
+          "d": "anything that stops you concentrating"
         },
         {
           "t": "proven",

@@ -59,40 +59,37 @@ The question of when he ought to stop remains open. The competitive landscape ha
 
 === Core before you read ===
 
-- Do you run, or do another sport?
-- At what age do athletes usually stop?
-- Have you ever been to a big sporting event?
+- At what age do people start telling others to slow down?
+- Would you rather beat your own record or win a race?
+- What makes a sports comeback exciting?
 
 === Core talk about it ===
 
-- Kipchoge won at 41 with a course record. Does age matter in sport? Start with: I think ... because ...
-- Should athletes retire while they are winning?
-- Someone says he should stop before he loses. What do you say to them? Start with: I disagree, because ... or I understand, because ...
-- A friend says they are too old to start a sport. How would you reply?
+- Who should decide when an athlete has had enough?
+- Can a slower performance still be someone's greatest achievement?
+- Which ambition would you like people to stop putting an age limit on?
 
 === Intermediate before you read ===
 
-- Why do we expect athletes to retire at their peak?
-- Is a course record at 41 more impressive than a world record at 30?
-- What else goes wrong at a big public event?
+- At what age do people start telling others to slow down?
+- Would you rather beat your own record or win a race?
+- What makes a sports comeback exciting?
 
 === Intermediate talk about it ===
 
-- Which would ruin a race for you: finishing slowly, or running out of water?
-- Compare an elite athlete's race with an ordinary runner's. Who is the event actually for?
-- Someone tells you: "One good result does not mean he has beaten age." What would you say back?
-- His 2019 sub-two-hour run did not count as a record. Should it have?
+- Who should decide when an athlete has had enough?
+- Can a slower performance still be someone's greatest achievement?
+- Which ambition would you like people to stop putting an age limit on?
 
 === Advanced before you read ===
 
-- Does sport need the neat farewell it keeps demanding?
-- Who is a mass-participation race built to serve?
-- Is longevity in sport talent, method, or money?
+- At what age do people start telling others to slow down?
+- Would you rather beat your own record or win a race?
+- What makes a sports comeback exciting?
 
 === Advanced talk about it ===
 
-- What are you better at now than you were ten years ago?
-- Argue against this: "Celebrating one 41-year-old's win tells us nothing about ageing and everything about selection."
-- The elite race succeeded while the mass event struggled. What does that gap reveal about priorities?
-- What would make you decide it was time to stop doing something you were still good at?
+- Who should decide when an athlete has had enough?
+- Can a slower performance still be someone's greatest achievement?
+- Which ambition would you like people to stop putting an age limit on?
 

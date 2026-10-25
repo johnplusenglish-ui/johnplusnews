@@ -56,39 +56,37 @@ Defenders of high prices argue that no performer is obliged to sell below what a
 
 === Core before you read ===
 
-- When did you last go to a concert?
-- How much is too much for a ticket?
-- Who is your favourite musician?
+- What makes a concert worth saving up for?
+- Would you rather sit close once or go to several cheaper gigs?
+- Can watching a live performance on a screen still feel special?
 
 === Core talk about it ===
 
-- Tickets now cost hundreds. Is live music still for everyone? Start with: I think ... because ...
-- Would you pay more for a better view?
-- Someone says if people pay, the price is fair. What do you say to them? Start with: I disagree, because ... or That is true, because ...
-- You are organising a concert. How could you make some tickets cheap without losing money?
+- What would make concert tickets feel fairly priced?
+- Should the best view always go to whoever can pay most?
+- Which part of a concert would you miss most if you stayed home?
 
 === Intermediate before you read ===
 
-- Why have ticket prices risen so fast?
-- Do musicians get the money, or someone else?
-- Should resale be allowed?
+- What makes a concert worth saving up for?
+- Would you rather sit close once or go to several cheaper gigs?
+- Can watching a live performance on a screen still feel special?
 
 === Intermediate talk about it ===
 
-- Streaming pays musicians differently from album sales. How does that change what a tour has to do?
-- Compare a big stadium show with a small local gig. What are you paying for in each?
-- Someone tells you: "Nobody has to go. It is entertainment, not bread." What would you say back?
-- The CMA made Ticketmaster explain prices more clearly. Is clearer pricing enough?
+- What would make concert tickets feel fairly priced?
+- Should the best view always go to whoever can pay most?
+- Which part of a concert would you miss most if you stayed home?
 
 === Advanced before you read ===
 
-- Is a concert ticket a cultural good or a commodity?
-- Should the state regulate the price of entertainment?
-- Who is excluded when live music becomes expensive?
+- What makes a concert worth saving up for?
+- Would you rather sit close once or go to several cheaper gigs?
+- Can watching a live performance on a screen still feel special?
 
 === Advanced talk about it ===
 
-- The authority did not find evidence of real-time dynamic pricing for the Oasis sale. Why did so many people believe it had?
-- Argue against this: "High prices are simply the market telling artists what they are worth."
-- Touring costs have genuinely risen. How would you separate real costs from what the market will bear?
-- What cultural experience would you protect from pricing, and how?
+- What would make concert tickets feel fairly priced?
+- Should the best view always go to whoever can pay most?
+- Which part of a concert would you miss most if you stayed home?
+

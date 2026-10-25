@@ -73,40 +73,37 @@ The more useful question may concern our tolerance for mental silence. If every 
 
 === Core before you read ===
 
-- What do you do when you are waiting?
-- When were you last bored?
-- Is being bored always bad?
+- What do you reach for when you have two minutes with nothing to do?
+- When was waiting more enjoyable than you expected?
+- Would you rather be bored alone or entertained by something you did not choose?
 
 === Core talk about it ===
 
-- We have endless videos, yet boredom may be rising. Why? Start with: I think it is because ...
-- Could you wait ten minutes with no phone?
-- Someone says boredom is good for you. What do you say to them? Start with: I agree, because ... or I am not sure, because ...
-- You are designing a waiting room. What would make the wait easier without adding another screen?
+- What might you notice if you left your phone in your pocket for ten minutes?
+- Should every empty moment need a purpose?
+- Could making a phone less convenient make a day more enjoyable?
 
 === Intermediate before you read ===
 
-- Can too much entertainment make you more bored?
-- Is scrolling rest or work?
-- What was the last thing that held your attention fully?
+- What do you reach for when you have two minutes with nothing to do?
+- When was waiting more enjoyable than you expected?
+- Would you rather be bored alone or entertained by something you did not choose?
 
 === Intermediate talk about it ===
 
-- Researchers suggest constant novelty makes quiet moments harder to tolerate. Does that match your experience? Why?
-- Compare being bored in a queue with being bored at work. What is different?
-- Someone tells you: "Just put the phone down." Why is that harder than it sounds?
-- When did you last do nothing at all? How long did it last?
+- What might you notice if you left your phone in your pocket for ten minutes?
+- Should every empty moment need a purpose?
+- Could making a phone less convenient make a day more enjoyable?
 
 === Advanced before you read ===
 
-- Is boredom a feeling or a judgement about meaning?
-- Who profits from your intolerance of an empty minute?
-- Would you protect boredom if you could?
+- What do you reach for when you have two minutes with nothing to do?
+- When was waiting more enjoyable than you expected?
+- Would you rather be bored alone or entertained by something you did not choose?
 
 === Advanced talk about it ===
 
-- Someone can be busy and deeply bored if the activity feels meaningless. What does that do to the usual advice?
-- Argue against this: "Boredom is a luxury complaint from people with enough free time to notice it."
-- Which screen time leaves you feeling better, and which leaves you worse? How can you tell?
-- When did an empty hour last lead you somewhere useful?
+- What might you notice if you left your phone in your pocket for ten minutes?
+- Should every empty moment need a purpose?
+- Could making a phone less convenient make a day more enjoyable?
 

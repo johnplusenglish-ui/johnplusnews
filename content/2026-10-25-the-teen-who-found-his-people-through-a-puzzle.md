@@ -73,45 +73,39 @@ Would you enter a competition for the people instead of the prize? What would a 
 
 === Core before you read ===
 
-- Do you have a hobby that you do alone? Would you like to do it with other people?
-- Have you ever joined a club or group where you knew nobody?
-- What makes a beginner feel welcome?
+- What puzzle could keep you busy for an hour?
+- Would you rather solve something quickly or discover a new method?
+- What makes it easy to find people who share an unusual interest?
 
 === Intermediate before you read ===
 
-- Do you have a hobby that you do mostly alone? Would you like a group to share it with?
-- Think of the first time you joined a group where you knew nobody. What helped?
-- Do you need to be good at something before you join a club for it?
+- What puzzle could keep you busy for an hour?
+- Would you rather solve something quickly or discover a new method?
+- What makes it easy to find people who share an unusual interest?
 
 === Advanced before you read ===
 
-- Think of a hobby that looks solitary from outside. How might it also be social?
-- Think of the first time you joined a group where you knew nobody. What helped, and what did not?
-- Can a competition be friendly? What would it need?
+- What puzzle could keep you busy for an hour?
+- Would you rather solve something quickly or discover a new method?
+- What makes it easy to find people who share an unusual interest?
 
 === Core talk about it ===
 
-- Would you join a hobby group before you were good at the hobby?
-- What should an experienced member do when a complete beginner arrives?
-- Is it better to beat your own time or to beat other people? Why?
-- Which hobby may be more social than it looks from outside?
-- What would make you want to come back to a club after your first visit?
+- Would meeting other fans change how much you enjoyed a hobby?
+- Which matters more at a hobby event: doing well or feeling welcome?
+- What could a school do for students whose interests are not very common?
 
 === Intermediate talk about it ===
 
-- Would you join a hobby group before you were good at the hobby?
-- What should an experienced member do when a complete beginner arrives?
-- Would improving your own time matter more than beating someone else?
-- Which hobby might be more social than it looks from the outside?
-- What would make you want to return to a club after your first visit?
+- Would meeting other fans change how much you enjoyed a hobby?
+- Which matters more at a hobby event: doing well or feeling welcome?
+- What could a school do for students whose interests are not very common?
 
 === Advanced talk about it ===
 
-- Would you join a hobby group before you were good at the hobby, and what would you want to know first?
-- What should an experienced member do when a complete beginner arrives, and what should they avoid doing?
-- Would improving your own time matter more than beating someone else, or does the answer depend on the people around you?
-- Which hobby might be more social than it looks from the outside, and what would a newcomer need to know to join?
-- What would make you want to return to a club after your first visit, and what would make you stay away?
+- Would meeting other fans change how much you enjoyed a hobby?
+- Which matters more at a hobby event: doing well or feeling welcome?
+- What could a school do for students whose interests are not very common?
 
 === Activity ===
 

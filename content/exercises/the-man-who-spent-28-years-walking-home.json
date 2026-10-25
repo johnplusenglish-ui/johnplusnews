@@ -40,12 +40,12 @@
           "d": "delay somebody or something"
         },
         {
-          "t": "get used to",
-          "d": "become comfortable with something new"
-        },
-        {
           "t": "ordinary",
           "d": "normal, with nothing special about it"
+        },
+        {
+          "t": "get used to",
+          "d": "become comfortable with something new"
         }
       ],
       "grammar": {
@@ -136,20 +136,20 @@
       },
       "match": [
         {
-          "t": "work around",
-          "d": "find a way to avoid an obstacle"
-        },
-        {
           "t": "run into",
           "d": "meet a problem unexpectedly"
         },
         {
-          "t": "lengthy",
-          "d": "taking much longer than usual"
+          "t": "work around",
+          "d": "find a way to avoid an obstacle"
         },
         {
           "t": "the final stretch",
           "d": "the last part of a long journey"
+        },
+        {
+          "t": "lengthy",
+          "d": "taking much longer than usual"
         }
       ],
       "grammar": {
@@ -240,20 +240,20 @@
       },
       "match": [
         {
-          "t": "run afoul of",
-          "d": "get into trouble with people in authority"
-        },
-        {
           "t": "uncompromising",
           "d": "refusing to accept any change or exception"
         },
         {
-          "t": "gloss over",
-          "d": "avoid dealing with an awkward fact"
+          "t": "run afoul of",
+          "d": "get into trouble with people in authority"
         },
         {
           "t": "formidable",
           "d": "large enough to seem frightening"
+        },
+        {
+          "t": "gloss over",
+          "d": "avoid dealing with an awkward fact"
         }
       ],
       "grammar": {

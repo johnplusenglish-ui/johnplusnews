@@ -56,40 +56,37 @@ The most credible regulatory options include clearer recording indicators, minim
 
 === Core before you read ===
 
-- Would you wear glasses with a camera in them?
-- How do you feel about being filmed in public?
-- What technology helps people with disabilities where you live?
+- Would you notice if someone nearby was wearing a camera?
+- Would smart glasses make a conversation more comfortable or less?
+- Where would you most want people to put recording devices away?
 
 === Core talk about it ===
 
-- These glasses help blind people but can record strangers. Which matters more? Start with: For me ... because ...
-- Should people have to say when they are recording?
-- Someone says if you are in public, anyone can film you. What do you say to them? Start with: That is the law, but ... or I agree, because ...
-- Where should cameras never be allowed?
+- Should a visible recording light be enough to make filming strangers acceptable?
+- What rule would let useful smart glasses coexist with privacy?
+- Would your answer change if the glasses helped someone see or hear?
 
 === Intermediate before you read ===
 
-- Is privacy in public a realistic idea any more?
-- Who should decide what technology comes into a country?
-- What would you accept in exchange for more privacy?
+- Would you notice if someone nearby was wearing a camera?
+- Would smart glasses make a conversation more comfortable or less?
+- Where would you most want people to put recording devices away?
 
 === Intermediate talk about it ===
 
-- The Greens' proposal has an exception for disability devices. Is that exception workable, or easy to abuse? Why?
-- Compare smart glasses with a phone camera. Why do the glasses worry people more?
-- Someone tells you: "A ban on imports solves nothing, people will buy them online." What would you say back?
-- Would you wear them? And would you tell people you were?
+- Should a visible recording light be enough to make filming strangers acceptable?
+- What rule would let useful smart glasses coexist with privacy?
+- Would your answer change if the glasses helped someone see or hear?
 
 === Advanced before you read ===
 
-- Should a technology be restricted because of how a minority will misuse it?
-- Does consent mean anything when recording is invisible?
-- Who bears the cost when privacy law lags behind a device?
+- Would you notice if someone nearby was wearing a camera?
+- Would smart glasses make a conversation more comfortable or less?
+- Where would you most want people to put recording devices away?
 
 === Advanced talk about it ===
 
-- Disability advocates warn a crackdown could remove a genuine aid. How should a lawmaker weigh that against the risk of covert filming?
-- Argue against this: "Enforcement is impossible, so the only honest response is to regulate the footage, not the device."
-- Who in your life would you not want wearing these, and why them?
-- Would you change your own behaviour in public if you assumed you were always being recorded?
+- Should a visible recording light be enough to make filming strangers acceptable?
+- What rule would let useful smart glasses coexist with privacy?
+- Would your answer change if the glasses helped someone see or hear?
 

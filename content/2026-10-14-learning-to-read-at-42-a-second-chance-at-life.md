@@ -58,40 +58,37 @@ Support exists, as Read Easy demonstrates, but it is of little use to anyone too
 
 === Core before you read ===
 
-- How old were you when you learned to read?
-- What do you read every day?
-- Is it hard to ask for help?
+- What skill would make everyday life easier for you?
+- Why can asking for help feel harder than learning something?
+- Would you rather learn alone or with one patient teacher?
 
 === Core talk about it ===
 
-- Peter hid the problem for years. Why do you think he did that? Start with: I think it was because ...
-- What would be most difficult if you could not read?
-- Someone says adults should be able to teach themselves. What do you say to them? Start with: Sometimes, but ... or I agree, because ...
-- You are choosing a book for someone who has just learned to read. What kind of book would you pick?
+- What would make it easier for an adult to admit they cannot read well?
+- Which everyday task do people underestimate until they struggle with it?
+- What should a good teacher do when a learner feels embarrassed?
 
 === Intermediate before you read ===
 
-- Why might an adult hide a difficulty like this?
-- What jobs can someone do without reading well?
-- Who should help adults who missed out at school?
+- What skill would make everyday life easier for you?
+- Why can asking for help feel harder than learning something?
+- Would you rather learn alone or with one patient teacher?
 
 === Intermediate talk about it ===
 
-- Peter built a career and a family while hiding it. What does that tell you about the skills schools actually measure?
-- Compare learning to read as a child with learning as an adult. What is harder about each?
-- Someone tells you: "If he managed for forty years, he did not really need it." What would you say back?
-- A supermarket shelf was the turning point. Why do small moments change things more than big ones?
+- What would make it easier for an adult to admit they cannot read well?
+- Which everyday task do people underestimate until they struggle with it?
+- What should a good teacher do when a learner feels embarrassed?
 
 === Advanced before you read ===
 
-- What does a society assume about everyone who walks into a shop?
-- Is literacy a skill, or a form of access?
-- Who is failed first when a school is under pressure?
+- What skill would make everyday life easier for you?
+- Why can asking for help feel harder than learning something?
+- Would you rather learn alone or with one patient teacher?
 
 === Advanced talk about it ===
 
-- Peter was partially deaf and left school without qualifications. How much of this story is about reading, and how much about the system around him?
-- Argue against this: "Adult literacy is a personal problem, not a public one."
-- Who would you tell first if you needed help with something most adults can do?
-- What have you worked hard to hide, and what would it take to ask for help with it?
+- What would make it easier for an adult to admit they cannot read well?
+- Which everyday task do people underestimate until they struggle with it?
+- What should a good teacher do when a learner feels embarrassed?
 

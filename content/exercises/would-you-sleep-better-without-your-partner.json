@@ -32,12 +32,12 @@
       },
       "match": [
         {
-          "t": "look after",
-          "d": "take care of somebody"
-        },
-        {
           "t": "lie awake",
           "d": "stay in bed unable to sleep"
+        },
+        {
+          "t": "look after",
+          "d": "take care of somebody"
         },
         {
           "t": "separate",
@@ -144,12 +144,12 @@
           "d": "reduce the amount of something"
         },
         {
-          "t": "carry out",
-          "d": "perform a study or piece of work"
-        },
-        {
           "t": "restless",
           "d": "unable to stay still or calm"
+        },
+        {
+          "t": "carry out",
+          "d": "perform a study or piece of work"
         }
       ],
       "grammar": {

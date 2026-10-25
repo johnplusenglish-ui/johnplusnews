@@ -63,40 +63,37 @@ Portugal's coastal controversy demonstrates that tourism policy is not only a ma
 
 === Core before you read ===
 
-- Do you live near the sea?
-- Should beaches be free to everyone?
-- Who looks after public spaces near you?
+- What should a day at the beach cost?
+- Would you pay for a cleaner beach with better facilities?
+- Can a small fee still stop people doing something?
 
 === Core talk about it ===
 
-- People protested about plans near beaches in Portugal. Why does it matter? Start with: I think ... because ...
-- Should you ever pay to reach a beach?
-- Someone says businesses provide useful services at beaches. What do you say to them? Start with: True, but ... or I agree, because ...
-- What makes a public place feel welcoming?
+- What should everyone be able to enjoy at a beach without paying?
+- Would a local discount solve the problem of repeated entry fees?
+- Who should help pay to look after a popular stretch of coast?
 
 === Intermediate before you read ===
 
-- Who should control access to a coastline?
-- Does tourism help or crowd out local families?
-- What services at a beach are worth paying for?
+- What should a day at the beach cost?
+- Would you pay for a cleaner beach with better facilities?
+- Can a small fee still stop people doing something?
 
 === Intermediate talk about it ===
 
-- Protesters feared development would make access harder. Is fear of a plan a reason to stop it? Why?
-- Compare a managed beach with an unmanaged one. What do you gain and lose?
-- Someone tells you: "Someone has to pay for cleaning and safety." What would you say back?
-- Many tourism jobs last only a few months. How does seasonality change the argument?
+- What should everyone be able to enjoy at a beach without paying?
+- Would a local discount solve the problem of repeated entry fees?
+- Who should help pay to look after a popular stretch of coast?
 
 === Advanced before you read ===
 
-- Who owns a view?
-- Does protection of a landscape ever work as exclusion?
-- What makes shared space valuable in the first place?
+- What should a day at the beach cost?
+- Would you pay for a cleaner beach with better facilities?
+- Can a small fee still stop people doing something?
 
 === Advanced talk about it ===
 
-- Coastlines become valuable because earlier generations shared them. What follows from that for who should profit now?
-- Argue against this: "Commercial management is the only way crowded beaches survive."
-- Is there a place near you that used to be free? What happened to it?
-- What shared place near you would you fight to keep open, and to whom?
+- What should everyone be able to enjoy at a beach without paying?
+- Would a local discount solve the problem of repeated entry fees?
+- Who should help pay to look after a popular stretch of coast?
 

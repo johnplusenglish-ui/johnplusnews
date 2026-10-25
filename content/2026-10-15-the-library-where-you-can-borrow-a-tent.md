@@ -59,40 +59,37 @@ At a time when public libraries are frequently required to justify their existen
 
 === Core before you read ===
 
-- What can you borrow from your local library?
-- Have you ever been camping?
-- What equipment is too expensive to buy?
+- What would you borrow if a library lent more than books?
+- Would you try a new hobby if you could borrow all the equipment?
+- Which thing do people buy and hardly ever use?
 
 === Core talk about it ===
 
-- A library that lends tents and microscopes. Would you use it? Start with: I would ... because ...
-- What else should libraries lend?
-- Someone says libraries should only lend books. What do you say to them? Start with: I disagree, because ... or I see the point, because ...
-- What would you try if the equipment were free?
+- What should every neighbourhood be able to borrow?
+- Would you lend something you loved to a stranger through a library?
+- What would turn a library into a place you wanted to spend time?
 
 === Intermediate before you read ===
 
-- What is a library actually for?
-- Does borrowing change what you are willing to try?
-- Who misses out when equipment is expensive?
+- What would you borrow if a library lent more than books?
+- Would you try a new hobby if you could borrow all the equipment?
+- Which thing do people buy and hardly ever use?
 
 === Intermediate talk about it ===
 
-- The library lends 850 sets of equipment alongside its books. Is that still a library? Why?
-- Compare buying a tent with borrowing one. What changes besides the cost?
-- Someone tells you: "People will not look after things they do not own." What would you say back?
-- What would you borrow from a library if you could borrow anything?
+- What should every neighbourhood be able to borrow?
+- Would you lend something you loved to a stranger through a library?
+- What would turn a library into a place you wanted to spend time?
 
 === Advanced before you read ===
 
-- Should access to hobbies depend on income?
-- Is lending equipment a public service or a subsidy?
-- What does a library signal about a community's priorities?
+- What would you borrow if a library lent more than books?
+- Would you try a new hobby if you could borrow all the equipment?
+- Which thing do people buy and hardly ever use?
 
 === Advanced talk about it ===
 
-- What do you own that you have used fewer than five times?
-- Argue against this: "Lending gear is a middle-class convenience dressed as equality."
-- Environmental knowledge does not automatically change behaviour. What would have to accompany the tents?
-- What would you borrow that you have talked yourself out of buying?
+- What should every neighbourhood be able to borrow?
+- Would you lend something you loved to a stranger through a library?
+- What would turn a library into a place you wanted to spend time?
 

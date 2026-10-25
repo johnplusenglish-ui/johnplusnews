@@ -140,16 +140,16 @@
           "d": "where it cannot be seen"
         },
         {
-          "t": "take back control",
-          "d": "regain power over your own situation"
-        },
-        {
           "t": "switch off",
           "d": "stop a device from working"
         },
         {
           "t": "relevant",
           "d": "closely connected to the matter in hand"
+        },
+        {
+          "t": "take back control",
+          "d": "regain power over your own situation"
         }
       ],
       "grammar": {

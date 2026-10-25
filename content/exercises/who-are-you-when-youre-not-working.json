@@ -32,20 +32,20 @@
       },
       "match": [
         {
-          "t": "take up",
-          "d": "start doing something new"
-        },
-        {
           "t": "look after",
           "d": "take care of somebody who needs help"
         },
         {
-          "t": "uncomfortable",
-          "d": "feeling awkward or uneasy"
+          "t": "take up",
+          "d": "start doing something new"
         },
         {
           "t": "look for",
           "d": "try to find something you need"
+        },
+        {
+          "t": "uncomfortable",
+          "d": "feeling awkward or uneasy"
         }
       ],
       "grammar": {
@@ -140,16 +140,16 @@
           "d": "develop something gradually over time"
         },
         {
-          "t": "leave room for",
-          "d": "deliberately allow space for something"
-        },
-        {
           "t": "look after",
           "d": "take care of somebody or something"
         },
         {
           "t": "demanding",
           "d": "needing a lot of effort and attention"
+        },
+        {
+          "t": "leave room for",
+          "d": "deliberately allow space for something"
         }
       ],
       "grammar": {
@@ -240,12 +240,12 @@
       },
       "match": [
         {
-          "t": "fall through",
-          "d": "fail to happen as planned"
-        },
-        {
           "t": "fall back on",
           "d": "rely on something when other things fail"
+        },
+        {
+          "t": "fall through",
+          "d": "fail to happen as planned"
         },
         {
           "t": "line up with",

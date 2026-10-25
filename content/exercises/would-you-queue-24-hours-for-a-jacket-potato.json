@@ -144,12 +144,12 @@
           "d": "treat somebody as less important than before"
         },
         {
-          "t": "drift away",
-          "d": "gradually lose interest and leave"
-        },
-        {
           "t": "unpredictable",
           "d": "impossible to know about in advance"
+        },
+        {
+          "t": "drift away",
+          "d": "gradually lose interest and leave"
         }
       ],
       "grammar": {
@@ -244,16 +244,16 @@
           "d": "settle somewhere to sleep for the night"
         },
         {
-          "t": "come about",
-          "d": "happen, often without being planned"
-        },
-        {
           "t": "turn towards",
           "d": "begin giving attention to something else"
         },
         {
           "t": "precarious",
           "d": "insecure and likely to fail"
+        },
+        {
+          "t": "come about",
+          "d": "happen, often without being planned"
         }
       ],
       "grammar": {

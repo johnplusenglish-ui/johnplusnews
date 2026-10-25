@@ -43,7 +43,7 @@ There is still work to do before researchers can explain precisely where the sta
 
 === Advanced ===
 
-title: A Strange Stone and the Ancient Statues It Revealed
+title: The Stone That Led to Two Giant Statues
 summary: Fragments of two colossal statues of Ramesses II emerged near a sanctuary of Isis because one resident chose to report an inscribed stone rather than remove it. The evidence survives only where the context does.
 
 Archaeology occasionally begins not with an organised expedition but with an ordinary person's decision to take an unusual object seriously. In October 2026, a resident of Bahbit al-Higara in Egypt's Nile Delta reported an inscribed stone he had come across while working on land near his home. A subsequent investigation by antiquities officials uncovered fragments of two colossal royal statues associated with Ramesses II, turning a patch of everyday ground into a site of national interest.
@@ -62,40 +62,37 @@ The episode also challenges the image of archaeology as a pursuit reserved for d
 
 === Core before you read ===
 
-- Is there anything very old near your home?
-- What would you do if you found something unusual?
-- Are you interested in ancient Egypt?
+- What is the most interesting old object you have seen?
+- If you found a strange object in your garden, what would you do first?
+- Would you rather uncover an ancient building or a tiny personal object?
 
 === Core talk about it ===
 
-- A resident reported a stone and two huge statues were found. Would you have reported it? Start with: I would ... because ...
-- Who should own objects found under a house?
-- Someone says he should have kept it quiet. What do you say to them? Start with: I disagree, because ... or I understand, but ...
-- If you reported something valuable, what would feel like a fair reward: money, your name in a museum, or something else?
+- Who should decide what happens to something old found on private land?
+- Which everyday object from today might interest people in 3,000 years?
+- Would you enjoy living near a place where history keeps turning up?
 
 === Intermediate before you read ===
 
-- Why do important finds often come from ordinary people?
-- What happens if something is dug up without records?
-- Should building work stop for archaeology?
+- What is the most interesting old object you have seen?
+- If you found a strange object in your garden, what would you do first?
+- Would you rather uncover an ancient building or a tiny personal object?
 
 === Intermediate talk about it ===
 
-- The statue head alone was about 1.6 metres tall. What does the scale tell you about the original site?
-- Compare a find reported properly with one sold privately. What is lost in the second case?
-- Someone tells you: "Archaeology is for experts, not villagers." What would you say back?
-- Researchers still cannot say exactly where the statues stood. Why does that uncertainty remain?
+- Who should decide what happens to something old found on private land?
+- Which everyday object from today might interest people in 3,000 years?
+- Would you enjoy living near a place where history keeps turning up?
 
 === Advanced before you read ===
 
-- Who owns what lies beneath a house?
-- Is archaeology a science or a form of stewardship?
-- What does a country gain from a find like this?
+- What is the most interesting old object you have seen?
+- If you found a strange object in your garden, what would you do first?
+- Would you rather uncover an ancient building or a tiny personal object?
 
 === Advanced talk about it ===
 
-- The episode challenges the image of archaeology as the work of distant experts. What follows from that, practically?
-- Argue against this: "Rewarding finders encourages digging, and digging destroys context."
-- What have you walked past a hundred times without ever looking at properly?
-- What would make you report a find rather than keep it?
+- Who should decide what happens to something old found on private land?
+- Which everyday object from today might interest people in 3,000 years?
+- Would you enjoy living near a place where history keeps turning up?
 

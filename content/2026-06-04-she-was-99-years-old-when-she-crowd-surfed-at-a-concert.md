@@ -58,40 +58,37 @@ By the time Pauline reflected on the adventure in October 2026, she had celebrat
 
 === Core before you read ===
 
-- What is the most exciting thing you have done?
-- Do older people in your family try new things?
-- Have you ever been to a big concert?
+- What makes a crowd feel exciting rather than overwhelming?
+- Would you try something new at 99 if everyone was watching?
+- Which age rule would you happily ignore?
 
 === Core talk about it ===
 
-- Pauline was 99 when she crowd-surfed. Would you do it? Start with: I would ... because ...
-- Is there an age when people should stop doing adventurous things?
-- Someone says this was dangerous and silly. What do you say to them? Start with: I agree, because ... or I don't think so, because ...
-- What would you like to be doing at 99?
+- What makes people say someone is "too old" for a good time?
+- Would the story be as interesting without the woman's age?
+- What would you want younger people to understand about growing older?
 
 === Intermediate before you read ===
 
-- Why do stories about older people doing young things spread so fast?
-- Is it the age that makes the story, or the person?
-- What stops people trying new things as they get older?
+- What makes a crowd feel exciting rather than overwhelming?
+- Would you try something new at 99 if everyone was watching?
+- Which age rule would you happily ignore?
 
 === Intermediate talk about it ===
 
-- The attempt was carefully planned with the organisers. Does that make it less impressive, or more sensible? Why?
-- Compare Pauline's story with an ordinary 99-year-old's day. Which tells you more about ageing?
-- Someone says: "These videos make the rest of us feel bad." What would you say back?
-- Would you want your family filming you at 99 and putting it online?
+- What makes people say someone is "too old" for a good time?
+- Would the story be as interesting without the woman's age?
+- What would you want younger people to understand about growing older?
 
 === Advanced before you read ===
 
-- Do stories like this challenge our ideas about age, or flatter them?
-- Is a record attempt a personal achievement or a piece of content?
-- Whose ambitions get taken seriously at 99?
+- What makes a crowd feel exciting rather than overwhelming?
+- Would you try something new at 99 if everyone was watching?
+- Which age rule would you happily ignore?
 
 === Advanced talk about it ===
 
-- What do you expect to still be doing at 90, and who would be surprised?
-- Argue against this: "Celebrating one extraordinary pensioner distracts from how badly most older people are treated."
-- The event was arranged, supported and recorded. What does that tell you about what is actually being celebrated?
-- What would you want other people to assume about you at 99, and what would you want them to ask instead?
+- What makes people say someone is "too old" for a good time?
+- Would the story be as interesting without the woman's age?
+- What would you want younger people to understand about growing older?
 

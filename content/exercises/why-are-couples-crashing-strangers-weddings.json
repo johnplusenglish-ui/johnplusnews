@@ -36,16 +36,16 @@
           "d": "walk through a place to see what it is like"
         },
         {
-          "t": "get in the way",
-          "d": "stop somebody doing what they need to do"
-        },
-        {
           "t": "awkward",
           "d": "uncomfortable and difficult to handle"
         },
         {
           "t": "find out",
           "d": "discover a piece of information"
+        },
+        {
+          "t": "get in the way",
+          "d": "stop somebody doing what they need to do"
         }
       ],
       "grammar": {
@@ -144,12 +144,12 @@
           "d": "actually working or being used"
         },
         {
-          "t": "wander around",
-          "d": "walk about with no fixed direction"
-        },
-        {
           "t": "supervised",
           "d": "watched over by somebody responsible"
+        },
+        {
+          "t": "wander around",
+          "d": "walk about with no fixed direction"
         }
       ],
       "grammar": {
@@ -240,20 +240,20 @@
       },
       "match": [
         {
-          "t": "size somebody up",
-          "d": "form a judgement by observing carefully"
-        },
-        {
           "t": "fall back on",
           "d": "rely on something when nothing else helps"
         },
         {
-          "t": "flawless",
-          "d": "with nothing at all wrong with it"
+          "t": "size somebody up",
+          "d": "form a judgement by observing carefully"
         },
         {
           "t": "glossy",
           "d": "attractive on the surface but shallow"
+        },
+        {
+          "t": "flawless",
+          "d": "with nothing at all wrong with it"
         }
       ],
       "grammar": {

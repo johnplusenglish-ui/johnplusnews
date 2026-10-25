@@ -41,7 +41,7 @@ Perhaps the best approach is to spell things out without making a fuss. If you m
 
 === Advanced ===
 
-title: When a Coffee Turns into a Question About Friendship
+title: The Payment Request That Spoilt a Catch-Up
 summary: One writer's informal threshold struck a nerve. The dispute is less about money than about unwritten rules nobody states out loud.
 
 Johanna Cosgrove was travelling home by train when a message took the shine off an enjoyable afternoon. The New Zealand-born writer had been catching up with a colleague over green juice in Australia. Instead of simply remembering their conversation, she was being asked to transfer A$12.50 for her drink. The sum left her uncomfortable. What bothered her was not so much the money as the suggestion that an ordinary social gesture came with an invoice attached, turning what she had understood as a friendly treat into an account to settle.
@@ -58,40 +58,37 @@ Cosgrove's irritated train journey therefore points to a familiar paradox: we wa
 
 === Core before you read ===
 
-- Who usually pays when you meet a friend for coffee?
-- Do you use an app to send money to friends?
-- Is it rude to ask a friend for money?
+- Would you ask a friend to repay the price of a coffee?
+- What makes splitting a bill awkward?
+- Do you prefer taking turns or paying exactly your share?
 
 === Core talk about it ===
 
-- Would you ask a friend for 12 euros after a coffee? Start with: I would ... because ...
-- Is it easier to pay for a friend, or to split everything?
-- Someone says friends should always split the bill exactly. What do you say to them? Start with: I agree, because ... or I don't, because ...
-- What is a kind way to say you cannot afford something?
+- When does keeping things fair start to feel unfriendly?
+- What money rule could friends agree before a trip?
+- Is generosity easier when nobody is keeping score?
 
 === Intermediate before you read ===
 
-- Have payment apps changed how friends handle money?
-- Why can a small amount of money feel like a big deal?
-- Is keeping score always a bad sign in a friendship?
+- Would you ask a friend to repay the price of a coffee?
+- What makes splitting a bill awkward?
+- Do you prefer taking turns or paying exactly your share?
 
 === Intermediate talk about it ===
 
-- The writer thinks small amounts should be left alone. Where would you draw the line, and why?
-- Compare paying for each other in turns with splitting every bill. Which suits your friendships better, and why?
-- Someone tells you: "Asking for your share is just being honest." What would you say back?
-- What is the largest amount you would let go without asking for it back?
+- When does keeping things fair start to feel unfriendly?
+- What money rule could friends agree before a trip?
+- Is generosity easier when nobody is keeping score?
 
 === Advanced before you read ===
 
-- Is generosity between friends a gift or an unspoken debt?
-- Has instant payment made friendship more honest or more transactional?
-- Who is protected by a rule that nobody states out loud?
+- Would you ask a friend to repay the price of a coffee?
+- What makes splitting a bill awkward?
+- Do you prefer taking turns or paying exactly your share?
 
 === Advanced talk about it ===
 
-- The writer calls her threshold personal, not universal. Does that make the argument stronger or let it off the hook?
-- Argue against this: "Unwritten rules about money always favour whoever has more of it."
-- Has a friend's way of handling money ever quietly changed how you felt about them?
-- Is there an unwritten rule in your own friendships that you have never said out loud?
+- When does keeping things fair start to feel unfriendly?
+- What money rule could friends agree before a trip?
+- Is generosity easier when nobody is keeping score?
 

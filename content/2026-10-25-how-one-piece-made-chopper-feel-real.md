@@ -73,45 +73,39 @@ If you had invented a creature and a studio wanted to put it on screen, what wou
 
 === Core before you read ===
 
-- Do you have a favourite cartoon or comic character? What do you like about them?
-- Would you like to see that character in a real film?
-- Which is more important in a character: the look or the personality?
+- What makes a strange creature feel believable on screen?
+- Would you rather design a character's face or voice?
+- Can a cartoon character feel more real than a human one?
 
 === Intermediate before you read ===
 
-- Think of a favourite drawn character. Would you want to see them played by real actors?
-- Which is more important in a character: how they look or how they act?
-- What would worry you most if your favourite story became a series?
+- What makes a strange creature feel believable on screen?
+- Would you rather design a character's face or voice?
+- Can a cartoon character feel more real than a human one?
 
 === Advanced before you read ===
 
-- Think of a drawn character you love. What would a live-action version have to get right before you accepted it?
-- Which matters more in a character: the look or the personality?
-- Can a very realistic design make a fantasy character less convincing?
+- What makes a strange creature feel believable on screen?
+- Would you rather design a character's face or voice?
+- Can a cartoon character feel more real than a human one?
 
 === Core talk about it ===
 
-- Would you rather see a favourite drawn character look real, or stay close to the drawing?
-- Which matters most: the voice, the face, the movement or the personality?
-- What change to a favourite character would be hardest for you to accept?
-- Can a very realistic design make a fantasy character less believable?
-- What would you tell a designer who is turning a creature you invented into a film character?
+- Which detail matters most in making Chopper feel alive?
+- Would knowing how an effect was made spoil the magic or make it better?
+- When should a screen version stay close to the original design?
 
 === Intermediate talk about it ===
 
-- Would you rather see a favourite drawn character look realistic or stay close to the original style?
-- Which matters most: the voice, the face, the movement or the personality?
-- What change to a favourite character would you find hardest to accept?
-- Can a very realistic design make a fantasy character less convincing?
-- What would you tell a designer adapting a creature you had invented?
+- Which detail matters most in making Chopper feel alive?
+- Would knowing how an effect was made spoil the magic or make it better?
+- When should a screen version stay close to the original design?
 
 === Advanced talk about it ===
 
-- Would you rather see a favourite drawn character look realistic or stay close to the original style, and what would you lose either way?
-- Which matters most: the voice, the face, the movement or the personality? Could you separate them?
-- What change to a favourite character would you find hardest to accept, and why does it matter to you?
-- Can a very realistic design make a fantasy character less convincing, or is that a question of skill?
-- What would you tell a designer adapting a creature you had invented, and would you trust them with the final decision?
+- Which detail matters most in making Chopper feel alive?
+- Would knowing how an effect was made spoil the magic or make it better?
+- When should a screen version stay close to the original design?
 
 === Activity ===
 

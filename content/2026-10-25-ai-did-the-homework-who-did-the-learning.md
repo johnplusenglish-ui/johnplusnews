@@ -71,45 +71,39 @@ A defensible rule has to answer two questions at once: what may a student receiv
 
 === Core before you read ===
 
-- Would you prefer a hint, an example or the finished answer?
-- How do you know when you really understand something?
-- What makes homework help useful?
+- When does help with homework become doing it for you?
+- Would you rather get a quick answer or a useful hint?
+- What would make you trust an AI explanation?
 
 === Intermediate before you read ===
 
-- Would you prefer a hint, an example or the finished answer, and does it depend on the subject?
-- How do you know when you really understand something?
-- What makes homework help useful, and what makes it useless?
+- When does help with homework become doing it for you?
+- Would you rather get a quick answer or a useful hint?
+- What would make you trust an AI explanation?
 
 === Advanced before you read ===
 
-- Would you prefer a hint, an example or the finished answer, and what does your choice say about how you work?
-- How do you know when you really understand something, and who else could tell?
-- What makes homework help useful, and when does help stop being help?
+- When does help with homework become doing it for you?
+- Would you rather get a quick answer or a useful hint?
+- What would make you trust an AI explanation?
 
 === Core talk about it ===
 
-- You can ask for one hint or the full answer to a hard task. Which would you choose? Start with: I would choose ... because ...
-- Is asking AI to explain a word different from asking it to write a paragraph for you? Why?
-- A homework answer looks excellent, but the student cannot explain it. What should the teacher do next?
-- What would be a fair rule about AI when some students have more technology than others?
-- Think of a task where students could use AI but still need to think. What is it?
+- What should a school allow AI to help with?
+- How could someone show they understood work made with AI help?
+- Would you use a tool that made a task quicker but taught you less?
 
 === Intermediate talk about it ===
 
-- You can ask for one hint or the full answer to a difficult task. Which would you choose, and when?
-- Is asking AI to explain a word different from asking it to write a paragraph for you?
-- A homework answer looks excellent, but its writer cannot explain it. What should the teacher do next?
-- What would a fair AI rule look like for students with different access to technology?
-- Design one task where students could use AI but would still need to show their own thinking.
+- What should a school allow AI to help with?
+- How could someone show they understood work made with AI help?
+- Would you use a tool that made a task quicker but taught you less?
 
 === Advanced talk about it ===
 
-- You can ask for one hint or the full answer to a difficult task. Which would you choose, and has your answer ever changed under pressure?
-- Is asking AI to explain a word different from asking it to write a paragraph for you, and where exactly does the difference begin?
-- A homework answer looks excellent, but its writer cannot explain it. What should the teacher do next, and what would be unfair to the student?
-- What would a fair AI rule look like for students with different access to technology, and who should be allowed to write it?
-- Design one task where students could use AI but would still need to show their own thinking. How would a teacher know?
+- What should a school allow AI to help with?
+- How could someone show they understood work made with AI help?
+- Would you use a tool that made a task quicker but taught you less?
 
 === Activity ===
 

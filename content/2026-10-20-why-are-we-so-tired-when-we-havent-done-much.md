@@ -70,39 +70,37 @@ The wider lesson concerns how we value effort. A day without visible physical ac
 
 === Core before you read ===
 
-- Do you feel tired after a day of thinking?
-- What makes you most tired?
-- How do you rest your mind?
+- When can a day of sitting still leave someone exhausted?
+- What makes your mind feel crowded?
+- Would you rather take a quiet break or do something completely different?
 
 === Core talk about it ===
 
-- Thinking uses energy, but it does not look like work. Is mental tiredness real? Start with: I think ... because ...
-- Which is more tiring for you: physical or mental work?
-- Someone says sitting at a desk is not tiring. What do you say to them? Start with: I disagree, because ... or Partly, because ...
-- You can change one part of tomorrow to make the evening easier. What would you choose?
+- What kind of break helps when you are tired of making decisions?
+- What could a workplace change before telling people to manage stress better?
+- Should feeling tired be enough reason to stop for a while?
 
 === Intermediate before you read ===
 
-- Why is mental effort hard to see?
-- Should employers count thinking as work?
-- What makes a decision exhausting?
+- When can a day of sitting still leave someone exhausted?
+- What makes your mind feel crowded?
+- Would you rather take a quiet break or do something completely different?
 
 === Intermediate talk about it ===
 
-- Tired participants avoided the harder task even for a bigger reward. What does that suggest about willpower?
-- Compare a day of meetings with a day of physical work. Which leaves you more tired, and why?
-- Someone tells you: "You are tired because you are unfit." What would you say back?
-- The study had 28 people. Why does that limit the conclusions?
+- What kind of break helps when you are tired of making decisions?
+- What could a workplace change before telling people to manage stress better?
+- Should feeling tired be enough reason to stop for a while?
 
 === Advanced before you read ===
 
-- Is fatigue a shortage of fuel or a change in motivation?
-- How should invisible effort be recognised at work?
-- When does tiredness become a medical question?
+- When can a day of sitting still leave someone exhausted?
+- What makes your mind feel crowded?
+- Would you rather take a quiet break or do something completely different?
 
 === Advanced talk about it ===
 
-- The study suggests exertion changes how we price future effort rather than draining a fixed supply. How does that change what you would do about it?
-- Argue against this: "Calling mental effort tiring medicalises ordinary reluctance."
-- Employers measure visible hours and completed tasks. What would a better measure look like?
-- What drains you that nobody around you can see?
+- What kind of break helps when you are tired of making decisions?
+- What could a workplace change before telling people to manage stress better?
+- Should feeling tired be enough reason to stop for a while?
+

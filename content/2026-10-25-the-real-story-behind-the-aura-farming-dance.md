@@ -71,45 +71,39 @@ Next time a clip makes you laugh, what is the one question you could ask before 
 
 === Core before you read ===
 
-- Have you ever copied a dance or a trend? Where did you see it?
-- Do you ever ask where a video comes from before you share it?
-- What does it mean to look "cool"?
+- What makes a dance worth watching twice?
+- Have you ever liked a clip before knowing its story?
+- Would you rather start a trend or stay unknown?
 
 === Intermediate before you read ===
 
-- Have you ever enjoyed a meme before you knew where it came from? Use an invented example if you like.
-- When you share a video, do you ever check who made it?
-- What do you think "aura" means when people say someone has a lot of it?
+- What makes a dance worth watching twice?
+- Have you ever liked a clip before knowing its story?
+- Would you rather start a trend or stay unknown?
 
 === Advanced before you read ===
 
-- Think of a meme you enjoyed without knowing its origin. Does it feel different once you learn the story?
-- When you share a clip, who do you think is responsible for its context: the person who posted it, or the person who shares it?
-- Can "looking cool" ever be a serious skill?
+- What makes a dance worth watching twice?
+- Have you ever liked a clip before knowing its story?
+- Would you rather start a trend or stay unknown?
 
 === Core talk about it ===
 
-- Have you ever enjoyed a meme before you knew where it came from? You can use an invented example.
-- Does knowing why a video was made change how you see it?
-- What information should stay with a clip when people share it again?
-- If a local activity from your town became famous, what would you want people to understand?
-- When is copying a dance a compliment? When might credit matter?
+- Does learning the story behind this dance change the clip for you?
+- What should people share when they copy a trend from another place?
+- Would going viral feel exciting if strangers made their own version of your moment?
 
 === Intermediate talk about it ===
 
-- Have you ever enjoyed a meme before you knew where it came from? Use an invented example if you prefer.
-- Does knowing a video's original purpose change how you see it?
-- What information should stay with a clip when it is reposted?
-- If a local activity became internationally famous, what would you want outsiders to understand?
-- When is copying a dance a compliment, and when might credit matter?
+- Does learning the story behind this dance change the clip for you?
+- What should people share when they copy a trend from another place?
+- Would going viral feel exciting if strangers made their own version of your moment?
 
 === Advanced talk about it ===
 
-- Have you ever enjoyed a meme before you knew where it came from? Use an invented example if you prefer, and say whether it changed how you felt.
-- Does knowing a video's original purpose change how you see it, or does the meme have a life of its own?
-- What information should stay with a clip when it is reposted, and who should make sure it does?
-- If a local activity became internationally famous, what would you want outsiders to understand, and what would you accept losing?
-- When is copying a dance a compliment, and when might credit matter more?
+- Does learning the story behind this dance change the clip for you?
+- What should people share when they copy a trend from another place?
+- Would going viral feel exciting if strangers made their own version of your moment?
 
 === Activity ===
 

@@ -40,12 +40,12 @@
           "d": "become completely full of people"
         },
         {
-          "t": "religious",
-          "d": "connected with belief in a god"
-        },
-        {
           "t": "make a profit",
           "d": "earn more than you spend"
+        },
+        {
+          "t": "religious",
+          "d": "connected with belief in a god"
         }
       ],
       "grammar": {
@@ -140,16 +140,16 @@
           "d": "buy something quickly before others can"
         },
         {
-          "t": "at a stroke",
-          "d": "with a single action, all at once"
-        },
-        {
           "t": "hand something down",
           "d": "pass something to a later generation"
         },
         {
           "t": "premium",
           "d": "of higher quality and higher price"
+        },
+        {
+          "t": "at a stroke",
+          "d": "with a single action, all at once"
         }
       ],
       "grammar": {
@@ -248,12 +248,12 @@
           "d": "take financial advantage of a situation"
         },
         {
-          "t": "lucrative",
-          "d": "producing a great deal of money"
-        },
-        {
           "t": "vantage point",
           "d": "a position giving a good view"
+        },
+        {
+          "t": "lucrative",
+          "d": "producing a great deal of money"
         }
       ],
       "grammar": {

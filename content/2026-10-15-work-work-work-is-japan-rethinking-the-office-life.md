@@ -41,7 +41,7 @@ The challenge is that Japan cannot solve its labour shortage simply by telling p
 
 === Advanced ===
 
-title: Japan's Office Dilemma: When Loyalty Looks Like Overtime
+title: Why Leaving on Time Can Feel Disloyal
 summary: A shrinking workforce is testing reforms designed to separate professional commitment from physical presence.
 
 At the end of the working day, the decisive fact may not be whether the work is finished but whether the manager has stood up. An employee who leaves first risks appearing less committed; one who remains can display loyalty without producing anything useful. That tension sits at the heart of Japan's long struggle with office culture. Physical presence has often functioned as a visible measure of dedication, even when it becomes a poor measure of achievement.
@@ -58,40 +58,37 @@ Japan's dilemma is not unique. Ageing societies must find ways to sustain public
 
 === Core before you read ===
 
-- What time do people finish work where you live?
-- Is it hard to leave before your boss?
-- What would you do with an extra hour each day?
+- Would you leave work on time if your manager stayed late?
+- What makes someone look busy without getting much done?
+- Would you prefer a shorter day or more freedom over your hours?
 
 === Core talk about it ===
 
-- In some offices leaving first looks disloyal. Does that happen where you live? Start with: Yes, because ... or No, because ...
-- Should the law limit working hours?
-- Someone says long hours show commitment. What do you say to them? Start with: I disagree, because ... or Sometimes, but ...
-- What makes a good workplace?
+- What should a workplace reward besides time at a desk?
+- Would you enjoy after-work events if everyone expected you to attend?
+- What would make leaving on time feel normal?
 
 === Intermediate before you read ===
 
-- Why is it hard to change an office culture?
-- Can a law change what people feel they should do?
-- Is time at a desk the same as work done?
+- Would you leave work on time if your manager stayed late?
+- What makes someone look busy without getting much done?
+- Would you prefer a shorter day or more freedom over your hours?
 
 === Intermediate talk about it ===
 
-- Japan has a word for death from overwork. What does having that word change?
-- Compare a legal limit on overtime with a change in what managers expect. Which would work faster, and why?
-- Someone tells you: "If workers want longer hours, let them." What would you say back?
-- Would you leave at five if your manager was still at their desk?
+- What should a workplace reward besides time at a desk?
+- Would you enjoy after-work events if everyone expected you to attend?
+- What would make leaving on time feel normal?
 
 === Advanced before you read ===
 
-- Can presence ever be separated from commitment?
-- Does a shrinking workforce strengthen or weaken workers?
-- Who benefits from guidance rather than law?
+- Would you leave work on time if your manager stayed late?
+- What makes someone look busy without getting much done?
+- Would you prefer a shorter day or more freedom over your hours?
 
 === Advanced talk about it ===
 
-- September's change was to guidance, not statute. Why did it still alarm people who campaigned for reform?
-- Argue against this: "Flexibility for those who want longer hours is freedom, not a loophole."
-- What does being seen at your desk say about you where you work?
-- What would you have to see in a workplace before you believed its stated culture?
+- What should a workplace reward besides time at a desk?
+- Would you enjoy after-work events if everyone expected you to attend?
+- What would make leaving on time feel normal?
 

@@ -40,12 +40,12 @@
           "d": "appear somewhere, often unexpectedly"
         },
         {
-          "t": "calm",
-          "d": "relaxed and not easily upset"
-        },
-        {
           "t": "move around",
           "d": "travel from one place to another"
+        },
+        {
+          "t": "calm",
+          "d": "relaxed and not easily upset"
         }
       ],
       "grammar": {
@@ -244,16 +244,16 @@
           "d": "get rid of something completely"
         },
         {
-          "t": "break something up",
-          "d": "divide something into separate parts"
-        },
-        {
           "t": "aberrant",
           "d": "different from what is normal"
         },
         {
           "t": "unhurried",
           "d": "moving calmly and without rushing"
+        },
+        {
+          "t": "break something up",
+          "d": "divide something into separate parts"
         }
       ],
       "grammar": {

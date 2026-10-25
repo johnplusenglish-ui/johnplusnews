@@ -72,40 +72,37 @@ What makes the phenomenon more than an amusing social-media story is the way it 
 
 === Core before you read ===
 
-- Have you been to a wedding recently?
-- How do people choose a wedding venue?
-- Would you go to a stranger's wedding?
+- Would you enjoy an event if you knew nobody there?
+- What makes a celebration feel welcoming?
+- Who should get to decide the guest list at a wedding?
 
 === Core talk about it ===
 
-- Couples visit strangers' weddings to check the venue. Is that acceptable? Start with: I think ... because ...
-- What would you want to see before booking a big event?
-- Someone says it is harmless curiosity. What do you say to them? Start with: I disagree, because ... or I agree, because ...
-- What makes a wedding feel special?
+- Would you invite a stranger if they helped pay for the party?
+- When does saving money change the meaning of a private celebration?
+- What would matter more at your ideal party: the guests or the setting?
 
 === Intermediate before you read ===
 
-- Why do people research so carefully before booking?
-- Is a wedding a private event or a commercial one?
-- What should a venue have to show you?
+- Would you enjoy an event if you knew nobody there?
+- What makes a celebration feel welcoming?
+- Who should get to decide the guest list at a wedding?
 
 === Intermediate talk about it ===
 
-- Would you mind strangers watching your wedding to check the venue?
-- Compare an official tour with watching a real event. What does each one hide?
-- Someone tells you: "The venue should offer supervised visits and the problem disappears." Would that work?
-- Would you lose a deposit rather than go ahead with a venue you doubted?
+- Would you invite a stranger if they helped pay for the party?
+- When does saving money change the meaning of a private celebration?
+- What would matter more at your ideal party: the guests or the setting?
 
 === Advanced before you read ===
 
-- Has the wedding industry trained couples to behave like investors?
-- Who consents on behalf of everyone in a room?
-- Can you research a feeling?
+- Would you enjoy an event if you knew nobody there?
+- What makes a celebration feel welcoming?
+- Who should get to decide the guest list at a wedding?
 
 === Advanced talk about it ===
 
-- The writer suggests the industry helped create the behaviour it finds awkward. How exactly?
-- Argue against this: "If a venue sells an experience, buyers are entitled to inspect it."
-- What would you need to see before spending a year's savings on one day?
-- What decision have you over-researched, and did it help?
+- Would you invite a stranger if they helped pay for the party?
+- When does saving money change the meaning of a private celebration?
+- What would matter more at your ideal party: the guests or the setting?
 

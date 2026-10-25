@@ -71,45 +71,39 @@ What it does offer is a useful distinction. A photograph can serve a public imag
 
 === Core before you read ===
 
-- Which would you keep: a clear photo of a boring moment, or a blurry photo of a great one?
-- What can a photo fail to show?
-- Would you rather take one picture carefully, or choose from twenty later?
+- Would you keep a blurry photo if it captured a great moment?
+- Who should get to choose which group photo is shared?
+- Does checking every photo make taking pictures less fun?
 
 === Intermediate before you read ===
 
-- Which would you keep: a sharp photo of a dull moment or a blurry photo of a great one? Why?
-- What can a photo fail to show?
-- Would you rather take one picture carefully, or choose from twenty later, and what changes if you can never retake it?
+- Would you keep a blurry photo if it captured a great moment?
+- Who should get to choose which group photo is shared?
+- Does checking every photo make taking pictures less fun?
 
 === Advanced before you read ===
 
-- Which would you keep: a sharp photo of a dull moment or a blurry photo of a great one, and who are you keeping it for?
-- What can a photo fail to show, and what can it show that you didn't intend?
-- Would you rather take one picture carefully, or choose from twenty later? What does each habit do to the moment?
+- Would you keep a blurry photo if it captured a great moment?
+- Who should get to choose which group photo is shared?
+- Does checking every photo make taking pictures less fun?
 
 === Core talk about it ===
 
-- A friend takes a funny photo of you that you don't like. What should they do before sharing it? Start with: They should ...
-- Can editing a photo change the way you remember the day? Why?
-- Would a photo feel different if you knew you would never post it?
-- You can save only three pictures from a class trip. How do you choose?
-- What could make an ordinary photo special in ten years?
+- Would you rather have three great trip photos or hundreds of ordinary ones?
+- What makes a photo feel like a real memory?
+- Could using a separate camera change how much you enjoyed a day?
 
 === Intermediate talk about it ===
 
-- A friend takes a funny but unflattering photo of you. What should they do before sharing it?
-- Can editing improve a memory, or does it change what you remember?
-- Would a photo feel different if you knew you would never post it?
-- If you could save only three pictures from an imaginary class trip, how would you choose?
-- What could make an ordinary everyday photo valuable in ten years?
+- Would you rather have three great trip photos or hundreds of ordinary ones?
+- What makes a photo feel like a real memory?
+- Could using a separate camera change how much you enjoyed a day?
 
 === Advanced talk about it ===
 
-- A friend takes a funny but unflattering photo of you. What should they do before sharing it, and what do you owe them when the situation is reversed?
-- Can editing improve a memory, or does it change what you remember? Where is the line?
-- Would a photo feel different if you knew you would never post it, and what does your answer say about why you take photos?
-- If you could save only three pictures from an imaginary class trip, how would you choose between the public pictures and the private ones?
-- What could make an ordinary everyday photo valuable in ten years, and who might it be valuable to?
+- Would you rather have three great trip photos or hundreds of ordinary ones?
+- What makes a photo feel like a real memory?
+- Could using a separate camera change how much you enjoyed a day?
 
 === Activity ===
 

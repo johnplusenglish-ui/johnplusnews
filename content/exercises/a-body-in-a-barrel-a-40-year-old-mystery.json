@@ -32,12 +32,12 @@
       },
       "match": [
         {
-          "t": "work out",
-          "d": "reach an answer by thinking carefully"
-        },
-        {
           "t": "follow up",
           "d": "take further action on information you have"
+        },
+        {
+          "t": "work out",
+          "d": "reach an answer by thinking carefully"
         },
         {
           "t": "end up",
@@ -140,12 +140,12 @@
           "d": "famous for something bad"
         },
         {
-          "t": "accustomed to",
-          "d": "used to doing something regularly"
-        },
-        {
           "t": "move forward",
           "d": "make progress towards a result"
+        },
+        {
+          "t": "accustomed to",
+          "d": "used to doing something regularly"
         },
         {
           "t": "uncertain",

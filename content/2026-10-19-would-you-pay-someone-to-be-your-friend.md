@@ -72,40 +72,37 @@ It would be simplistic, however, to write the industry off as proof that friends
 
 === Core before you read ===
 
-- What do you do when nobody is free to go with you?
-- Would you go to a restaurant alone?
-- Who do you call when you want company?
+- Would you pay for company at an event you did not want to attend alone?
+- What makes a good companion different from a good friend?
+- Can an enjoyable conversation feel genuine if someone is being paid?
 
 === Core talk about it ===
 
-- In China you can pay someone to join you for a day out. Would you? Start with: I would ... because ...
-- Is paid company better than no company?
-- Someone says this is just sad. What do you say to them? Start with: I disagree, because ... or Maybe, but ...
-- What makes a good companion for a day out?
+- What should a paid companion be honest about from the start?
+- Could paying for company make it easier to meet people elsewhere?
+- Which matters most in company: shared interests, attention or reliability?
 
 === Intermediate before you read ===
 
-- Why might someone hire a companion rather than ask a friend?
-- Does paying remove the obligation, or add a different one?
-- What skills does this job need?
+- Would you pay for company at an event you did not want to attend alone?
+- What makes a good companion different from a good friend?
+- Can an enjoyable conversation feel genuine if someone is being paid?
 
 === Intermediate talk about it ===
 
-- A paid day ends with a payment, not a plan to meet again. Is that freeing or hollow? Why?
-- Compare hiring a companion with joining a club. Which would you try, and why?
-- Someone tells you: "If you pay for it, it is not friendship." What would you say back?
-- Not every customer is isolated. Why is that worth saying?
+- What should a paid companion be honest about from the start?
+- Could paying for company make it easier to meet people elsewhere?
+- Which matters most in company: shared interests, attention or reliability?
 
 === Advanced before you read ===
 
-- Has friendship always involved quiet accounting?
-- Does naming a price make an exchange more honest or less?
-- What work is involved in being good company?
+- Would you pay for company at an event you did not want to attend alone?
+- What makes a good companion different from a good friend?
+- Can an enjoyable conversation feel genuine if someone is being paid?
 
 === Advanced talk about it ===
 
-- What would you happily pay someone to do with you?
-- Argue against this: "A companionship market is a symptom to treat, not a service to admire."
-- Remaining attentive and cheerful for a stranger is called genuinely demanding. Why is that work so easy to undervalue?
-- What do your friendships quietly ask of you that you have never named?
+- What should a paid companion be honest about from the start?
+- Could paying for company make it easier to meet people elsewhere?
+- Which matters most in company: shared interests, attention or reliability?
 

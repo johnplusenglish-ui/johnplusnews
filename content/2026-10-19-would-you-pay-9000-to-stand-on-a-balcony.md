@@ -72,40 +72,37 @@ Seville's balconies therefore offer a revealing example of a wider tension. Cult
 
 === Core before you read ===
 
-- What big celebrations happen where you live?
-- Would you pay for a better view?
-- Are local festivals changing where you are?
+- What would you pay for a perfect view of a special event?
+- Would you rather be close to the action or comfortable nearby?
+- When can an event start to feel more for visitors than local people?
 
 === Core talk about it ===
 
-- A balcony for Holy Week can cost thousands. Is that fair? Start with: I think ... because ...
-- Is it better to watch from the street with everyone else?
-- Someone says owners can charge what they like. What do you say to them? Start with: Legally yes, but ... or I agree, because ...
-- What makes a celebration belong to a city?
+- What should remain open to everyone during a major local celebration?
+- Does renting out a balcony change a neighbourhood tradition?
+- Would you choose a free crowded view or a quiet expensive one?
 
 === Intermediate before you read ===
 
-- Who should benefit from a city's traditions?
-- Does paying change how you experience an event?
-- Can a free event still exclude people?
+- What would you pay for a perfect view of a special event?
+- Would you rather be close to the action or comfortable nearby?
+- When can an event start to feel more for visitors than local people?
 
 === Intermediate talk about it ===
 
-- The streets remain free, but you wait hours behind crowds. Is the event still open to everyone? Why?
-- Compare a paid balcony with a free spot three hours early. What is each person really buying?
-- Someone tells you: "Nobody is obliged to rent a balcony." What would you say back?
-- The money goes to whoever owns the right street. Does that matter?
+- What should remain open to everyone during a major local celebration?
+- Does renting out a balcony change a neighbourhood tradition?
+- Would you choose a free crowded view or a quiet expensive one?
 
 === Advanced before you read ===
 
-- Can a public tradition be privately monetised without changing it?
-- Who is a festival for once it attracts visitors?
-- Is scarcity a reason for a high price or an argument for regulation?
+- What would you pay for a perfect view of a special event?
+- Would you rather be close to the action or comfortable nearby?
+- When can an event start to feel more for visitors than local people?
 
 === Advanced talk about it ===
 
-- A balcony let to visitors is one a family no longer watches from. Is that a loss the city should act on?
-- Argue against this: "Charging for the best views funds the traditions everyone else enjoys free."
-- Would you rent out your window for a week's wages? What would stop you?
-- What local tradition would you protect from pricing, and how?
+- What should remain open to everyone during a major local celebration?
+- Does renting out a balcony change a neighbourhood tradition?
+- Would you choose a free crowded view or a quiet expensive one?
 

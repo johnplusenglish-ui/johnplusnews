@@ -144,12 +144,12 @@
           "d": "touch on something people feel strongly about"
         },
         {
-          "t": "laugh something off",
-          "d": "treat a problem as a joke so it seems small"
-        },
-        {
           "t": "considerate",
           "d": "thinking about how other people feel"
+        },
+        {
+          "t": "laugh something off",
+          "d": "treat a problem as a joke so it seems small"
         }
       ],
       "grammar": {

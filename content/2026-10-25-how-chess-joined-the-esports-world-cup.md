@@ -73,45 +73,39 @@ Which ordinary activity could become surprisingly entertaining with good comment
 
 === Core before you read ===
 
-- Would you watch a game you do not understand? What would help?
-- Is chess exciting or boring to watch, in your opinion?
-- What makes a sport fun to watch?
+- Would you rather watch a great chess match or play one yourself?
+- What makes a game exciting to watch?
+- Does calling something a sport change how you see it?
 
 === Intermediate before you read ===
 
-- Think of a sport you do not play. What would help you enjoy watching it?
-- Do you think a board game can be exciting to watch? Why or why not?
-- What is the most tense moment you have ever seen in a game, live or on screen?
+- Would you rather watch a great chess match or play one yourself?
+- What makes a game exciting to watch?
+- Does calling something a sport change how you see it?
 
 === Advanced before you read ===
 
-- Think of a game or sport you rarely play but sometimes watch. What keeps you watching?
-- What does a good commentator add that the game alone cannot?
-- Can a quiet, thoughtful activity ever be thrilling to watch?
+- Would you rather watch a great chess match or play one yourself?
+- What makes a game exciting to watch?
+- Does calling something a sport change how you see it?
 
 === Core talk about it ===
 
-- Would you watch an expert play something you barely understand?
-- What helps you enjoy a new sport or game: a commentator, a friend or trying it yourself?
-- Does a time limit make a game more exciting or less interesting?
-- Would you rather watch perfect play or an unexpected comeback?
-- Which everyday activity could be fun to watch with good commentary?
+- Could a big esports event make chess more appealing to you?
+- What should count when deciding whether a game belongs at a sports event?
+- Would you prefer a slower match with explanation or a fast one with surprises?
 
 === Intermediate talk about it ===
 
-- Would you watch an expert play something you barely understand?
-- What helps you enjoy a new sport or game: a commentator, a friend or trying it yourself?
-- Does a time limit make a competition more exciting or less interesting?
-- Would you rather watch perfect play or an unpredictable comeback?
-- Which ordinary activity could become surprisingly entertaining with good commentary?
+- Could a big esports event make chess more appealing to you?
+- What should count when deciding whether a game belongs at a sports event?
+- Would you prefer a slower match with explanation or a fast one with surprises?
 
 === Advanced talk about it ===
 
-- Would you watch an expert play something you barely understand, and what would keep you there?
-- What helps you enjoy a new sport or game: a commentator, a friend or trying it yourself? Does the answer change with the game?
-- Does a time limit make a competition more exciting or less interesting, and for whom?
-- Would you rather watch perfect play or an unpredictable comeback, and what does your answer say about why you watch?
-- Which ordinary activity could become surprisingly entertaining with good commentary, and what would the commentator need to explain?
+- Could a big esports event make chess more appealing to you?
+- What should count when deciding whether a game belongs at a sports event?
+- Would you prefer a slower match with explanation or a fast one with surprises?
 
 === Activity ===
 

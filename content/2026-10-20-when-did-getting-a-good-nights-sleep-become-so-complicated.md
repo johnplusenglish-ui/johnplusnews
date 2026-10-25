@@ -28,7 +28,7 @@ Perhaps the best question in the morning is not 'How did my watch rate me?' It i
 
 === Intermediate ===
 
-title: The Morning Score That Decides How Tired You Feel
+title: Can Your Sleep Score Change How Tired You Feel?
 summary: Trackers estimate sleep from movement and heart rate, but the numbers look more certain than they really are. In 2017, researchers gave that worry a name.
 
 Going to bed used to involve a pillow, a blanket and the hope of waking up refreshed. Today, a smartwatch may analyse the night and deliver a score before breakfast. For some people, the information is helpful. For others, it creates a new source of worry: what if they are not sleeping well enough?
@@ -74,39 +74,37 @@ The deeper issue is cultural. We increasingly quantify ordinary human experience
 
 === Core before you read ===
 
-- Do you track your sleep?
-- How do you know if you slept well?
-- Does a bad score change your day?
+- Would a poor sleep score change how you felt about a good night's sleep?
+- What makes health information useful rather than worrying?
+- Would you rather follow a device or how you felt in the morning?
 
 === Core talk about it ===
 
-- You feel fine, then a watch gives you a low score. What do you trust? Start with: I would trust ... because ...
-- Is tracking sleep helpful or stressful?
-- Someone says these devices are useless. What do you say to them? Start with: Not entirely, because ... or I agree, because ...
-- A friend is worried about one low sleep score. What would you say to them?
+- What should a sleep tracker tell someone besides a score?
+- When does measuring a habit stop helping?
+- Would you try a week without checking your sleep data?
 
 === Intermediate before you read ===
 
-- Can measuring something make it worse?
-- What can a wrist device actually detect?
-- Would you stop tracking if it worried you?
+- Would a poor sleep score change how you felt about a good night's sleep?
+- What makes health information useful rather than worrying?
+- Would you rather follow a device or how you felt in the morning?
 
 === Intermediate talk about it ===
 
-- A score to one decimal place suggests precision the method may not have. Why is that persuasive anyway?
-- Compare a tracker with simply noticing how you feel. Which is more useful, and why?
-- Someone tells you: "If the data says you slept badly, you slept badly." What would you say back?
-- Would you keep wearing a tracker that kept telling you bad news?
+- What should a sleep tracker tell someone besides a score?
+- When does measuring a habit stop helping?
+- Would you try a week without checking your sleep data?
 
 === Advanced before you read ===
 
-- Does measurement create the anxiety it then detects?
-- Who benefits from sleep becoming a performance?
-- Should health devices be regulated like medical ones?
+- Would a poor sleep score change how you felt about a good night's sleep?
+- What makes health information useful rather than worrying?
+- Would you rather follow a device or how you felt in the morning?
 
 === Advanced talk about it ===
 
-- Tracking can reveal irregular bedtimes and also create worry. How should someone decide whether to keep using one?
-- Argue against this: "Consumer sleep scores should carry the same warnings as a medical test."
-- A number carries an authority its method may not deserve. Where else does that happen to you?
-- What would you stop measuring tomorrow if you trusted yourself instead?
+- What should a sleep tracker tell someone besides a score?
+- When does measuring a habit stop helping?
+- Would you try a week without checking your sleep data?
+

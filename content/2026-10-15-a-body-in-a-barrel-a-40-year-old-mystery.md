@@ -58,40 +58,37 @@ Receding water revealed what someone had attempted to hide, while DNA analysis r
 
 === Core before you read ===
 
-- Do you watch programmes about real crimes?
-- Why are people interested in old mysteries?
-- Has the weather changed anything where you live?
+- Why do unsolved mysteries hold people's attention?
+- Would you watch a mystery if you already knew the ending?
+- When does curiosity about a crime become intrusive?
 
 === Core talk about it ===
 
-- Falling water revealed the barrel after forty years. Does that feel like luck or justice? Start with: It feels like ... because ...
-- Should police keep working on very old cases?
-- Someone says old cases are a waste of money. What do you say to them? Start with: I disagree, because ... or I understand that, but ...
-- Why does giving the victim a name matter?
+- What do true-crime stories owe the people involved?
+- Should a mystery stay in the news until it is solved?
+- What makes a crime story worth telling beyond the shocking details?
 
 === Intermediate before you read ===
 
-- Why do cold cases fascinate people?
-- What can science tell us that witnesses cannot?
-- Should a family be told about a case after forty years?
+- Why do unsolved mysteries hold people's attention?
+- Would you watch a mystery if you already knew the ending?
+- When does curiosity about a crime become intrusive?
 
 === Intermediate talk about it ===
 
-- You hear a true-crime story with a great theory and no proof. Do you keep listening?
-- Compare what DNA solved here with what it did not. Which gap matters more?
-- Someone tells you: "Las Vegas, a barrel, a gun. It is obviously the Mafia." What would you say back?
-- Drought exposed the shoreline. What else might a changing climate uncover?
+- What do true-crime stories owe the people involved?
+- Should a mystery stay in the news until it is solved?
+- What makes a crime story worth telling beyond the shocking details?
 
 === Advanced before you read ===
 
-- Why do we want a story to fit a familiar shape?
-- Is naming a victim a form of justice, or a substitute for it?
-- Who is served by a cold case being reopened?
+- Why do unsolved mysteries hold people's attention?
+- Would you watch a mystery if you already knew the ending?
+- When does curiosity about a crime become intrusive?
 
 === Advanced talk about it ===
 
-- Does knowing his name change anything for you, if nobody is ever charged?
-- Argue against this: "Without a conviction, identifying the victim changes nothing."
-- Environmental change uncovered the body and science recovered the name. Which of those is the real story?
-- What would you want known about you if you disappeared, and what would you want left alone?
+- What do true-crime stories owe the people involved?
+- Should a mystery stay in the news until it is solved?
+- What makes a crime story worth telling beyond the shocking details?
 

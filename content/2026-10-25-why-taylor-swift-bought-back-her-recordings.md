@@ -75,45 +75,39 @@ So where would you draw the line? With a group project, a piece of music or a vi
 
 === Core before you read ===
 
-- Have you ever made something and then someone else decided what to do with it?
-- Is a new version of a favourite song the same song for you?
-- If you made a song, who would you want to hear it first?
+- Which song would you want to keep in its original form forever?
+- Should making a song mean owning the recording?
+- Would you notice if a favourite song was recorded again?
 
 === Intermediate before you read ===
 
-- Have you ever made something and then someone else made the decisions about it?
-- Would a new recording of your favourite song feel like the same song to you?
-- If you made a video that became popular, who should decide how it is used?
+- Which song would you want to keep in its original form forever?
+- Should making a song mean owning the recording?
+- Would you notice if a favourite song was recorded again?
 
 === Advanced before you read ===
 
-- Have you ever made something and then found that someone else controlled what happened to it?
-- Would a new recording of your favourite song feel like the same song, and would that depend on who made it?
-- If you made a video that became popular, who should decide how it is used, and why?
+- Which song would you want to keep in its original form forever?
+- Should making a song mean owning the recording?
+- Would you notice if a favourite song was recorded again?
 
 === Core talk about it ===
 
-- You make a song or a short film. Which decisions do you most want to control?
-- Would a new recording of a favourite song feel like the same song to you? Why?
-- Is your name on a project enough if someone else changes it?
-- Would you accept help with a project if the helper made the final decisions?
-- What should a new team agree before they make something together?
+- Would you choose an original recording or a new version if the artist asked?
+- What part of making music do fans rarely see?
+- Should knowing who owns a recording change how someone listens?
 
 === Intermediate talk about it ===
 
-- You make a song or a short film. Which decisions would you most want to keep control of?
-- Would a new recording of a favourite song feel like the same song to you?
-- Is being credited enough if someone changes how your work is used?
-- Would you accept help with a project if the helper could make the final decisions?
-- What should a creative team agree on before making something together?
+- Would you choose an original recording or a new version if the artist asked?
+- What part of making music do fans rarely see?
+- Should knowing who owns a recording change how someone listens?
 
 === Advanced talk about it ===
 
-- You make a song or a short film. Which decisions would you most want to keep control of, and which would you happily share?
-- Would a new recording of a favourite song feel like the same song to you, and what would decide it?
-- Is being credited enough if someone changes how your work is used, or does credit without control mean very little?
-- Would you accept help with a project if the helper could make the final decisions, and what would you ask for in return?
-- What should a creative team agree on before making something together, and when is the right time to talk about it?
+- Would you choose an original recording or a new version if the artist asked?
+- What part of making music do fans rarely see?
+- Should knowing who owns a recording change how someone listens?
 
 === Activity ===
 

@@ -36,16 +36,16 @@
           "d": "become popular with many people"
         },
         {
-          "t": "sort through",
-          "d": "look at a pile of things one by one"
-        },
-        {
           "t": "unsold",
           "d": "still in the shop because nobody bought it"
         },
         {
           "t": "throw away",
           "d": "put something in the bin"
+        },
+        {
+          "t": "sort through",
+          "d": "look at a pile of things one by one"
         }
       ],
       "grammar": {
