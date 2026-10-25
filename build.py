@@ -40,7 +40,8 @@ SITE = {
     ],
 }
 
-NAV = [("/", "Articles"), ("/about/", "About")]
+NAV = [("/", "Articles"), ("/teens/", "Teens"), ("/about/", "About")]
+TEENS_ON = False  # set by build(): the Teens link and page exist only once a Teens lesson is published
 LEVELS = ["Core", "Intermediate", "Advanced"]
 LANGUAGE_ON = False  # the useful-language boxes are paused; the lists stay in the article files
 FREE_COUNT = 3  # unused; site.json "free_articles" decides what readers who are not signed in can open
@@ -293,7 +294,7 @@ def split_sections(body):
     """Take the question sets and the useful-language lists out of an article body.
     Returns (the rest of the body, {'before': [...], 'after': [...], 'language': {level: [items]}})."""
     marks = list(ANY_MARK.finditer(body))
-    sets = {"before": [], "after": [], "language": {}, "levels": {}}
+    sets = {"before": [], "after": [], "language": {}, "levels": {}, "activity": ""}
     if not marks:
         return body, sets
     kept = [body[:marks[0].start()]]
@@ -310,6 +311,10 @@ def split_sections(body):
             if which in per:
                 raise ValueError("'{}' appears twice".format(name))
             per[which] = clean_questions(body[m.end():end])
+        elif name.lower() == "activity":
+            if sets["activity"]:
+                raise ValueError("'Activity' appears twice")
+            sets["activity"] = body[m.end():end].strip()
         elif key:
             if sets[key]:
                 raise ValueError("'{}' appears twice".format(name))
@@ -410,6 +415,16 @@ def load_exercises(slug):
         raise SystemExit("{}: {}".format(f.name, err))
 
 
+def parse_source(value):
+    """'The Guardian | https://...' -> ('The Guardian', 'https://...'). A bare address uses its host as the name."""
+    bits = [b.strip() for b in value.split("|", 1)]
+    if len(bits) == 2:
+        return bits[0], bits[1]
+    if bits[0].startswith("http"):
+        return re.sub(r"^https?://(www\.)?", "", bits[0]).split("/")[0], bits[0]
+    return bits[0], ""
+
+
 def parse_article(path):
     try:
         meta, body = split_article(path.read_text(encoding="utf-8"))
@@ -437,15 +452,18 @@ def parse_article(path):
         first_para = plain(re.split(r"\n\s*\n", versions[0]["text"])[0]).replace("\n", " ").strip()
         summary = first_para if len(first_para) <= 170 else first_para[:167].rsplit(" ", 1)[0] + "..."
 
-    source_name = source_url = ""
-    if meta.get("source"):
-        bits = [b.strip() for b in meta["source"].split("|", 1)]
-        if len(bits) == 2:
-            source_name, source_url = bits
-        elif bits[0].startswith("http"):
-            source_name, source_url = re.sub(r"^https?://(www\.)?", "", bits[0]).split("/")[0], bits[0]
-        else:
-            source_name = bits[0]
+    sources = []
+    for key, dkey in (("source", "source-date"), ("source-2", "source-2-date"), ("source-3", "source-3-date")):
+        if meta.get(key):
+            n, u = parse_source(meta[key])
+            sources.append({"name": n, "url": u, "date": meta.get(dkey, "")})
+    source_name = sources[0]["name"] if sources else ""
+    source_url = sources[0]["url"] if sources else ""
+    audience = meta.get("audience", "").strip().lower()
+    try:
+        order = int(meta.get("order", "0") or 0)
+    except ValueError:
+        fail(path, "order must be a number")
 
     slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", path.stem)
     return {
@@ -465,6 +483,11 @@ def parse_article(path):
         "image_credit_label": meta.get("image-credit-label", "") if meta.get("image") else "",
         "source_name": source_name,
         "source_url": source_url,
+        "sources": sources,
+        "audience": audience,
+        "teens": audience == "teens",
+        "category": meta.get("category", ""),
+        "order": order,
         "questions": questions,
         "exercises": load_exercises(slug),
         "tags": parse_tags(meta.get("tags", "")),
@@ -522,7 +545,7 @@ def page(path, main, title=None, desc=None, current=None, image=None, kind="webs
     nav = "".join(
         '<a class="nav-{}" href="{}"{}>{}</a>'.format(
             label.lower().replace(" ", "-"), href, ' aria-current="page"' if href == current else "", label)
-        for href, label in NAV
+        for href, label in NAV if href != "/teens/" or TEENS_ON
     )
     head_extra = (GUEST_JS if accounts_on() else "") + head_extra + account_scripts()
     og_image = '<meta property="og:image" content="{}">'.format(
@@ -590,6 +613,8 @@ def card_meta(a):
 def article_meta(a):
     v = a["versions"]
     bits = []
+    if a["teens"] and a["category"]:
+        bits.append('<span class="lvl">{}</span>'.format(esc(a["category"])))
     if len(v) == 1:
         bits.append('<span class="lvl">{}</span>'.format(esc(v[0]["level"])))
     bits.append("<span>{}</span>".format(esc(shown_date(a))))
@@ -678,7 +703,7 @@ def card(a):
 FREE_TOPIC = {"slug": "free", "label": "Free to read"}   # the /free/ page: the articles readers who are not signed in can open
 
 
-def gallery_page(arts, topics=(), topic=None):
+def gallery_page(arts, topics=(), topic=None, teens=0):
     """The home page (topic is None) or the page for one topic."""
     if arts:
         body = '<ul class="gallery">{}</ul><p class="empty" id="nomatch" hidden>No articles match your search.</p>'.format("".join(card(a) for a in arts))
@@ -689,6 +714,9 @@ def gallery_page(arts, topics=(), topic=None):
     lead = ('<p class="intro-sub">Every story comes at three levels. Save the words you want to keep, '
             'then practise with exercises and questions to talk about.</p>'
             '<p class="intro-links" id="home-links" hidden></p>') if not topic else ""
+    if teens and not topic:
+        lead += ('<p class="teens-note">These are articles for adults and older learners. '
+                 'Learners aged 12 to 18 have their own stories in <a href="/teens/">Teens</a>.</p>')
     main = ('<section class="banner"><div class="wrap"><h1 class="intro">{}</h1>{}</div></section>\n'
             '<div class="wrap">{}{}</div>\n<script>{}</script>').format(
                 heading, lead, filters_html(topics, topic["slug"] if topic else None), body, FINDER_JS)
@@ -701,6 +729,66 @@ def gallery_page(arts, topics=(), topic=None):
                     desc="{} articles for English learners on johnplusnews.".format(topic["label"]),
                     image=(arts[0]["image"] if arts else "") or None)
     return page("/", main, current="/", desc=SITE["tagline"], image=(arts[0]["image"] if arts else "") or None, wide=True)
+
+
+TEENS_JS = (
+    '(function(){var g=document.getElementById("tgrid");if(!g)return;var bar=document.getElementById("tcats");'
+    'var btns=[].slice.call(bar.querySelectorAll("button")),cards=[].slice.call(g.querySelectorAll(".card")),'
+    'none=document.getElementById("tnone"),count=document.getElementById("tcount");bar.hidden=false;'
+    'function show(k,save){btns.forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-cat")===k)});'
+    'var n=0;cards.forEach(function(c){var ok=k==="all"||c.getAttribute("data-cat")===k;c.hidden=!ok;if(ok)n++});'
+    'none.hidden=n>0;count.textContent=n+(n===1?" story":" stories");'
+    'if(save){try{history.replaceState(null,"",k==="all"?location.pathname+"#stories":"#"+k)}catch(e){}}}'
+    'btns.forEach(function(b){b.addEventListener("click",function(){show(b.getAttribute("data-cat"),true)})});'
+    'document.getElementById("treset").addEventListener("click",function(){show("all",true)});'
+    'var h=location.hash.slice(1);show(btns.some(function(b){return b.getAttribute("data-cat")===h})?h:"all",false)})();'
+)
+
+
+def teens_card(a, featured=False):
+    cat = a["category"]
+    if a["image"]:
+        thumb = '<img src="{}" alt="{}" loading="lazy" decoding="async">'.format(esc(asset(a.get("thumb") or a["image"])), esc(a["image_alt"]))
+    else:
+        thumb = '<span class="blank">{}</span>'.format(esc(cat))
+    feat = '<span class="feat">Featured</span>' if featured else ""
+    return (
+        '<li class="card tcard" data-cat="{cs}"{free}><div class="thumb">{thumb}</div>'
+        '<p class="meta"><span class="lvl">{cat}</span>{feat}</p>'
+        '<h2><a href="{url}">{title}</a></h2><p class="sub">{summary}</p>'
+        '<p class="lvls" aria-label="Available at {lv}">{lvs}</p></li>'
+    ).format(cs=tag_slug(cat), cat=esc(cat), feat=feat, thumb=thumb, url=url_of(a), title=esc(a["title"]), summary=esc(a["summary"]),
+             lv=esc(", ".join(a["levels"])), lvs=" &middot; ".join(esc(x) for x in a["levels"]),
+             free=' data-free="1"' if a["slug"] in FREE_SLUGS else "")
+
+
+TEENS_CATEGORIES = ["School life", "Games & online life", "Music & style", "Science & making", "Places & people"]
+
+
+def teens_page(teens):
+    """The Teens collection: a compact hero, then every published story in one grid (the first three are marked Featured)."""
+    cats = [c for c in TEENS_CATEGORIES if any(a["category"] == c for a in teens)]
+    cats += sorted({a["category"] for a in teens if a["category"] and a["category"] not in cats})
+    chips = '<button type="button" class="chip" data-cat="all" aria-pressed="true">All</button>' + "".join(
+        '<button type="button" class="chip" data-cat="{}" aria-pressed="false">{}</button>'.format(tag_slug(c), esc(c)) for c in cats)
+    grid = "".join(teens_card(a, i < 3) for i, a in enumerate(teens))
+    main = (
+        '<section class="banner teens-hero"><div class="wrap">'
+        '<p class="eyebrow">Teens</p>'
+        '<h1 class="teens-h">Stories worth talking about.</h1>'
+        '<p class="teens-copy">Games, music, school, science and the things that make everyday life interesting. '
+        'Pick a story, choose your English level and see where the conversation goes.</p>'
+        '<p class="teens-small">For learners aged 12 to 18. Every story comes in Core, Intermediate and Advanced English.</p>'
+        '<a class="btn-primary" href="#stories">Explore the stories</a></div></section>\n'
+        '<div class="wrap" id="stories"><div class="filters teens-filters">'
+        '<div class="chips" id="tcats" role="group" aria-label="Topics" hidden>{chips}</div>'
+        '<p class="tcount" id="tcount" role="status" aria-live="polite">{n} stories</p></div>'
+        '<ul class="gallery" id="tgrid">{grid}</ul>'
+        '<p class="empty" id="tnone" hidden>No stories in this topic yet. <button type="button" class="linkbtn" id="treset">Show all stories</button></p>'
+        '</div>\n<script>{js}</script>').format(chips=chips, n=len(teens), grid=grid, js=TEENS_JS)
+    return page("/teens/", main, title="Teens", current="/teens/", wide=True,
+                desc="Stories worth talking about for English learners aged 12 to 18, at Core, Intermediate and Advanced levels.",
+                image=(teens[0]["image"] if teens and teens[0]["image"] else "") or None)
 
 
 def account_page(path, heading, kind, note):
@@ -889,17 +977,17 @@ def highlight_script():
     return '<script src="/highlight.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
 
 
-def question_row(key, qs, level=""):
+def question_row(key, qs, level="", teens=False):
     """A quiet, closed-by-default row. Opens to a numbered list; the PDF prints it open.
     With a level, the row belongs to that reading tab and is shown only while it is open."""
-    label = dict(QUESTION_SETS)[key]
+    label = "Warm up" if teens and key == "before" else dict(QUESTION_SETS)[key]
     at = ' data-qlevel="{}"'.format(level.lower()) if level else ""
     # nobody has to disclose their own health, money or bad experiences to join in
     note = ('<p class="qs-note">You can talk about people in general instead of yourself, '
             'and you can pass on any question.</p>') if key == "after" else ""
-    return ('<details class="qs qs-{key}"{at}><summary><span class="qs-label">{label}</span>'
+    return ('<details class="qs qs-{key}"{at}{op}><summary><span class="qs-label">{label}</span>'
             '<span class="qs-count">{n} question{s}</span>{chev}</summary><ol>{items}</ol>{note}</details>'
-            ).format(key=key, label=label, at=at, n=len(qs), s="" if len(qs) == 1 else "s", chev=CHEVRON_ICON,
+            ).format(key=key, label=label, at=at, op=" open" if teens and key == "after" else "", n=len(qs), s="" if len(qs) == 1 else "s", chev=CHEVRON_ICON,
                      items="".join("<li>{}</li>".format(inline(q)) for q in qs), note=note)
 
 
@@ -915,14 +1003,14 @@ def questions_html(a, key):
         for level, qs in graded:
             if not qs:
                 continue
-            row = question_row(key, qs, level)
+            row = question_row(key, qs, level, a["teens"])
             out.append(row if level == open_level else row.replace("<details ", "<details hidden ", 1))
         rows = "".join(out)
     else:
         qs = a["questions"].get(key) or []
         if not qs:
             return ""
-        rows = question_row(key, qs)
+        rows = question_row(key, qs, "", a["teens"])
     # "Before you read" sits alone above the article, in a panel of its own
     return '<div class="qs-group">{}</div>'.format(rows) if key == "before" else rows
 
@@ -1054,9 +1142,18 @@ def exercises_script(a):
         hashlib.md5(f.read_bytes()).hexdigest()[:8])
 
 
+def activity_html(a):
+    """One practical task, the same at every level, shown in the open after the questions."""
+    text = (a["questions"].get("activity") or "").strip()
+    if not text:
+        return ""
+    paras = "".join("<p>{}</p>".format(inline(x.strip())) for x in re.split(r"\n\s*\n", text) if x.strip())
+    return '<section class="act"><h3 class="act-h">Try it</h3>{}</section>'.format(paras)
+
+
 def study_html(a):
     """The two end-of-article rows share one rounded panel."""
-    rows = questions_html(a, "after") + exercises_html(a)
+    rows = questions_html(a, "after") + activity_html(a) + exercises_html(a)
     return '<div class="qs-group">{}</div>'.format(rows) if rows else ""
 
 
@@ -1164,12 +1261,22 @@ def article_page(a, newer, older):
         img = '<figure class="hero"><img class="hero-img" src="{}" alt="{}">{}</figure>'.format(
             esc(asset(a["image"])), esc(a["image_alt"]), credit)
     source = ""
-    if a["source_name"]:
-        name = '<a href="{}">{}</a>'.format(esc(a["source_url"]), esc(a["source_name"])) if a["source_url"] else esc(a["source_name"])
-        source = '<p class="source">Source: {}</p>'.format(name)
+    if a["sources"]:
+        def one(s):
+            name = '<a href="{}">{}</a>'.format(esc(s["url"]), esc(s["name"])) if s["url"] else esc(s["name"])
+            return name + (", " + esc(s["date"]) if s["date"] else "")
+        source = '<p class="source">{}: {}</p>'.format("Sources" if len(a["sources"]) > 1 else "Source", "; ".join(one(s) for s in a["sources"]))
     source += '<p class="ai-note">Written with AI assistance and edited by John. Spotted a mistake? <a href="/contact/">Tell us</a>.</p>'
     pager = ""
-    if newer or older:
+    if a["teens"]:
+        def gate_t(x):
+            return "" if x["slug"] in FREE_SLUGS else " data-lock"
+        left = ('<a href="{}"{}><small>Previous Teens story</small>{}</a>'.format(url_of(older), gate_t(older), esc(older["title"]))
+                if older else "<span></span>")
+        right = ('<a class="next" href="{}"{}><small>Next Teens story</small>{}</a>'.format(url_of(newer), gate_t(newer), esc(newer["title"]))
+                 if newer else '<a class="next" href="/teens/"><small>Back to</small>All Teens stories</a>')
+        pager = '<nav class="pager" aria-label="More Teens stories">{}{}</nav>'.format(left, right)
+    elif newer or older:
         def gate(x):
             return "" if x["slug"] in FREE_SLUGS else " data-lock"
         left = '<a href="{}"{}><small>Older article</small>{}</a>'.format(url_of(older), gate(older), esc(older["title"])) if older else "<span></span>"
@@ -1177,7 +1284,7 @@ def article_page(a, newer, older):
         pager = '<nav class="pager" aria-label="More articles">{}{}</nav>'.format(left, right)
     main = """<article class="wrap"{locked}>
 <header class="article-head">
-<a class="back" href="/">&larr; All articles</a>
+{back}
 <div class="metarow{tabcls}"><div class="metaleft"{printlevel}>{tabs}{meta}</div>{picker}</div>
 {firstrun}
 <script>{fontjs}</script>
@@ -1197,11 +1304,13 @@ def article_page(a, newer, older):
 </article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, firstrun=FIRSTRUN, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
                      storyid=('<p class="story-id">{}</p>'.format(esc(a["title"]))
                               if any(v["title"] != a["title"] for v in a["versions"]) else ""),
-                     topics=topics_html(a), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), study=study_html(a), source=source, pager=pager,
+                     back=('<a class="back" href="/teens/">&larr; Teens</a>' if a["teens"] else '<a class="back" href="/">&larr; All articles</a>'),
+                     topics=("" if a["teens"] else topics_html(a)), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), study=study_html(a), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))
     no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=first["title"], desc=first["summary"], image=a["image"] or None, kind="article",
-                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script() + timer_script() + listen_script(a) + exercises_script(a)
+                current="/teens/" if a["teens"] else None,
+                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script() + ("" if a["teens"] else timer_script()) + listen_script(a) + exercises_script(a)
                           + "<script>" + FIRSTRUN_JS + "</script>\n")
 
 
@@ -1240,6 +1349,9 @@ def sitemap_xml(arts, topics, content_dir):
     rows += [("/free/", None)]
     for t in topics:
         rows.append(("/tags/{}/".format(t["slug"]), max((changed[a["slug"]] for a in t["arts"]), default=None)))
+    teens = [a for a in arts if a["teens"]]
+    if teens:
+        rows.insert(2, ("/teens/", max(changed[a["slug"]] for a in teens)))
     rows += [("/about/", None), ("/contact/", None), ("/privacy/", None), ("/terms/", None)]
     rows += [(url_of(a), changed[a["slug"]]) for a in arts]
     out = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -1285,7 +1397,11 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
             if slug not in known:
                 print("Note: site.json lists a free article that does not exist: {}".format(slug))
         free = [a for a in arts if a["slug"] in free] or "all"
-    FREE_SLUGS.update(a["slug"] for a in (arts if free == "all" else free if isinstance(free, list) else arts[:free]))
+    adults = [a for a in arts if not a["teens"]]
+    teens = sorted((a for a in arts if a["teens"]), key=lambda a: (a["order"] or 999, a["slug"]))
+    FREE_SLUGS.update(a["slug"] for a in (arts if free == "all" else free if isinstance(free, list) else adults[:free]))
+    global TEENS_ON
+    TEENS_ON = bool(teens)
     OUT = out_dir
     if out_dir.exists():
         shutil.rmtree(out_dir)
@@ -1295,8 +1411,10 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
             dest = out_dir / item.name
             shutil.copytree(item, dest) if item.is_dir() else shutil.copy2(item, dest)
 
-    topics = collect_topics(arts)
-    write("index.html", gallery_page(arts, topics))
+    topics = collect_topics(adults)
+    write("index.html", gallery_page(adults, topics, teens=len(teens)))
+    if teens:
+        write("teens/index.html", teens_page(teens))
     write("free/index.html", gallery_page([a for a in arts if a["slug"] in FREE_SLUGS], topics, FREE_TOPIC))
     for t in topics:
         write("tags/{}/index.html".format(t["slug"]), gallery_page(t["arts"], topics, t))
@@ -1310,10 +1428,15 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
     write("sitemap.xml", sitemap_xml(arts, topics, content_dir))
     write("robots.txt", robots_txt())
     write("404.html", not_found_page())
-    for i, a in enumerate(arts):
-        newer = arts[i - 1] if i > 0 else None
-        older = arts[i + 1] if i + 1 < len(arts) else None
-        write("articles/{}/index.html".format(a["slug"]), article_page(a, newer, older))
+    for group, is_teens in ((adults, False), (teens, True)):
+        for i, a in enumerate(group):
+            if is_teens:   # in the order of the collection: the previous story, then the next
+                newer = group[i + 1] if i + 1 < len(group) else None
+                older = group[i - 1] if i > 0 else None
+            else:
+                newer = group[i - 1] if i > 0 else None
+                older = group[i + 1] if i + 1 < len(group) else None
+            write("articles/{}/index.html".format(a["slug"]), article_page(a, newer, older))
     print("Built {} article(s) into {}".format(len(arts), out_dir))
 
 

@@ -1,0 +1,325 @@
+{
+  "slug": "could-you-build-a-satellite-that-fits-in-a-can",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "A CanSat doesn't go into ____.",
+            "a": "orbit"
+          },
+          {
+            "s": "A teacher or ____ guides each team.",
+            "a": "mentor"
+          },
+          {
+            "s": "Every CanSat must measure temperature and ____.",
+            "a": "pressure"
+          },
+          {
+            "s": "The can is ____ to about one kilometre above the ground.",
+            "a": "launched"
+          },
+          {
+            "s": "A ____ study is a plan that explains whether an idea could really work.",
+            "a": "feasibility"
+          }
+        ],
+        "extra": [
+          "satellite",
+          "competition"
+        ]
+      },
+      "match": [
+        {
+          "t": "satellite",
+          "d": "an object that travels around the Earth"
+        },
+        {
+          "t": "drone",
+          "d": "a small flying machine with no pilot inside"
+        },
+        {
+          "t": "invitation",
+          "d": "a request to come to something"
+        },
+        {
+          "t": "balloon",
+          "d": "a bag filled with gas that floats in the air"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Teams ____ three to six students.",
+            "cue": "have",
+            "a": "have"
+          },
+          {
+            "s": "ESA ____ to coordinate the project.",
+            "cue": "help",
+            "a": "helps"
+          },
+          {
+            "s": "In June 2026, about 170 students and teachers ____ in the Netherlands.",
+            "cue": "meet",
+            "a": "met"
+          },
+          {
+            "s": "Each group ____ a feasibility study on the last day.",
+            "cue": "present",
+            "a": "presented"
+          },
+          {
+            "s": "The can ____ launched to about one kilometre above the ground.",
+            "cue": "be",
+            "a": "is"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "A CanSat has the size and shape of a soft drink can.",
+          "a": "T",
+          "why": "The text says: \"A CanSat is a model of a real satellite, built to match the size and shape of a soft drink can.\""
+        },
+        {
+          "s": "A CanSat goes into orbit around the Earth.",
+          "a": "F",
+          "why": "The text says the opposite: \"It doesn't go into orbit.\""
+        },
+        {
+          "s": "Teams have three to six students aged 14 to 19.",
+          "a": "T",
+          "why": "The text says: \"Teams have three to six students aged 14 to 19, and a teacher or mentor guides them.\""
+        },
+        {
+          "s": "ESA says the event itself was a competition.",
+          "a": "F",
+          "why": "The text says the opposite: \"ESA says the event itself was not a competition.\""
+        },
+        {
+          "s": "Every team built a CanSat that measured wind speed.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "A CanSat is a ____ of a real satellite.",
+            "a": "simulation"
+          },
+          {
+            "s": "Students use several subjects at once, so it is an ____ school project.",
+            "a": "interdisciplinary"
+          },
+          {
+            "s": "Each team chooses a second ____ of its own.",
+            "a": "mission"
+          },
+          {
+            "s": "It may also be ____ from a drone, a platform or a balloon.",
+            "a": "deployed"
+          },
+          {
+            "s": "The event itself was described as ____.",
+            "a": "non-competitive"
+          }
+        ],
+        "extra": [
+          "atmosphere",
+          "orbit"
+        ]
+      },
+      "match": [
+        {
+          "t": "feasibility study",
+          "d": "a plan that checks whether an idea could really work"
+        },
+        {
+          "t": "atmosphere",
+          "d": "the layer of gases around the Earth"
+        },
+        {
+          "t": "honest",
+          "d": "truthful, and not hiding problems"
+        },
+        {
+          "t": "mentor",
+          "d": "an experienced person who gives advice and help"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Students design, build, test and ____ the CanSat.",
+            "cue": "launch",
+            "a": "launch"
+          },
+          {
+            "s": "ESA ____ the programme.",
+            "cue": "coordinate",
+            "a": "coordinates"
+          },
+          {
+            "s": "In June 2026, ESA ____ the CanSat Space Engineer for a Day event.",
+            "cue": "hold",
+            "a": "held"
+          },
+          {
+            "s": "National competitions ____ been held in 22 ESA member states.",
+            "cue": "have",
+            "a": "had"
+          },
+          {
+            "s": "On the final day, every group ____ a feasibility study.",
+            "cue": "present",
+            "a": "presented"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The event took place in June 2026.",
+          "a": "T",
+          "why": "The text says: \"In June 2026, ESA held the CanSat Space Engineer for a Day event at its technology centre in the Netherlands.\""
+        },
+        {
+          "s": "About 170 students and teachers from 12 countries took part.",
+          "a": "F",
+          "why": "The text says the opposite: \"About 170 students and teachers from 26 countries took part.\""
+        },
+        {
+          "s": "ESA described the event as non-competitive.",
+          "a": "T",
+          "why": "The text says: \"the event itself was described as non-competitive\""
+        },
+        {
+          "s": "The text says a CanSat is a satellite in orbit.",
+          "a": "F",
+          "why": "The text says the opposite: \"A CanSat is a simulation on the edge of the atmosphere, not a satellite in orbit.\""
+        },
+        {
+          "s": "ESA pays for the cost of building each CanSat.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Constraints like this are useful because they force ____.",
+            "a": "choices"
+          },
+          {
+            "s": "Every CanSat has a ____ mission: it must measure temperature and pressure.",
+            "a": "compulsory"
+          },
+          {
+            "s": "ESA's article gives no ____, which leaves the real decision to the students.",
+            "a": "examples"
+          },
+          {
+            "s": "A feasibility study values an honest account of ____.",
+            "a": "risk"
+          },
+          {
+            "s": "Disagreement about the second mission is almost ____.",
+            "a": "guaranteed"
+          }
+        ],
+        "extra": [
+          "launched",
+          "orbit"
+        ]
+      },
+      "match": [
+        {
+          "t": "constraints",
+          "d": "limits on what you can do or use"
+        },
+        {
+          "t": "feasibility study",
+          "d": "a plan that checks whether an idea could really work"
+        },
+        {
+          "t": "secondary mission",
+          "d": "an extra task chosen by the team"
+        },
+        {
+          "t": "non-competitive",
+          "d": "not a contest with winners"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "ESA described the event as non-____.",
+            "cue": "COMPETE",
+            "a": "competitive"
+          },
+          {
+            "s": "Teams are treated as ____ explaining a plan.",
+            "cue": "ENGINEER",
+            "a": "engineers"
+          },
+          {
+            "s": "The real ____ is left to the students.",
+            "cue": "DECIDE",
+            "a": "decision"
+          },
+          {
+            "s": "What counts as ____ changes when something goes wrong.",
+            "cue": "SUCCEED",
+            "a": "success"
+          },
+          {
+            "s": "____ about the second mission is almost guaranteed.",
+            "cue": "DISAGREE",
+            "a": "disagreement"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "A CanSat does not go into orbit.",
+          "a": "T",
+          "why": "The text says: \"and it doesn't go into orbit\""
+        },
+        {
+          "s": "Teams have between eight and ten students.",
+          "a": "F",
+          "why": "The text says the opposite: \"working in teams of three to six aged 14 to 19\""
+        },
+        {
+          "s": "About 170 students and teachers gathered at the event.",
+          "a": "T",
+          "why": "The text says: \"about 170 students and teachers from 26 countries\""
+        },
+        {
+          "s": "ESA's article gives examples of the teams' second missions.",
+          "a": "F",
+          "why": "The text says the opposite: \"ESA's article gives no examples\""
+        },
+        {
+          "s": "ESA plans to hold the event again in 2027.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "A feasibility study asks whether an idea could work.",
+          "a": "T",
+          "why": "The text says: \"It asks whether the idea could work, what it would need and where it could fail.\""
+        }
+      ]
+    }
+  }
+}

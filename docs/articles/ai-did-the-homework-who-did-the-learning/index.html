@@ -1,0 +1,928 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Did the Homework. Who Did the Learning? | johnplusnews</title>
+<meta name="description" content="More than half of UK children aged 8 to 17 use AI, according to Ofcom. The harder question is what a student still has to do for themselves.">
+<link rel="canonical" href="https://johnplusnews.com/articles/ai-did-the-homework-who-did-the-learning/">
+<meta property="og:site_name" content="johnplusnews">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI Did the Homework. Who Did the Learning? | johnplusnews">
+<meta property="og:description" content="More than half of UK children aged 8 to 17 use AI, according to Ofcom. The harder question is what a student still has to do for themselves.">
+<meta property="og:url" content="https://johnplusnews.com/articles/ai-did-the-homework-who-did-the-learning/">
+<meta property="og:image" content="https://johnplusnews.com/images/ai-did-the-homework-who-did-the-learning-324254.jpg">
+<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="preload" href="/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
+<script>try{if(!localStorage.getItem("jpn_session"))document.documentElement.classList.add("jpn-guest")}catch(e){document.documentElement.classList.add("jpn-guest")}setTimeout(function(){if(!window.jpnGateReady)document.documentElement.classList.remove("jpn-guest")},6000)</script>
+<script>(function(){try{var f=localStorage.getItem("jpn_font");if(f==="outfit")document.documentElement.setAttribute("data-font","outfit")}catch(e){}})();</script>
+<noscript><style>.tools{display:none}.vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}</style></noscript>
+<script src="/highlight.js?v=c6373fcd" defer></script>
+<script src="/exercises.js?v=8df55c3c" defer></script>
+<script>(function(){function go(){var g=document.getElementById('firstrun');if(!g)return;var K='jpn_guide_seen';try{if(localStorage.getItem(K)==='1')return;}catch(e){}g.hidden=false;g.querySelector('.guide-x').addEventListener('click',function(){g.hidden=true;try{localStorage.setItem(K,'1');}catch(e){}});}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();})();</script>
+<script src="/config.js?v=63006f50" defer></script>
+<script src="/gloss.js?v=8f64eaa3" defer></script>
+<script src="/account.js?v=24c4ddec" defer></script>
+<style>/* Outfit is hosted on this site (static/fonts), so visitors' devices never contact Google. Georgia is already on readers' devices. */
+@font-face { font-family: 'Outfit'; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/fonts/outfit-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Outfit'; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/fonts/outfit-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+:root {
+  --ink: #111318;
+  --text: #23262d;
+  --muted: #5f6672;
+  --line: #e6e8ec;
+  --bg: #ffffff;
+  --accent: #1d5fe0;
+  --accent-soft: #eef3fd;
+  --hl: #f59e0b;
+  --hl-ink: #c2410c;
+  --measure: 720px;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 400 1.0625rem/1.65 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-style: normal;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+em, i, cite, address, blockquote, dfn, var { font-style: normal; }
+
+a { color: var(--accent); text-underline-offset: 0.18em; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+.wrap { width: 100%; max-width: var(--measure); margin: 0 auto; padding: 0 20px; }
+
+.skip { position: absolute; left: -999px; top: 8px; background: var(--ink); color: #fff; padding: 8px 14px; border-radius: 6px; z-index: 10; }
+.skip:focus { left: 8px; }
+
+/* header */
+.site-header { border-bottom: 1px solid var(--line); }
+.site-header .wrap { display: flex; align-items: center; justify-content: space-between; min-height: 64px; gap: 16px; }
+.brand { display: inline-flex; align-items: center; min-width: 0; gap: 9px; font-weight: 700; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
+.brand svg { flex: none; color: var(--accent); }
+.brand .wm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.brand .wm span { color: var(--accent); }
+.site-nav { display: flex; gap: 22px; }
+.site-nav a { color: var(--muted); text-decoration: none; font-weight: 500; font-size: 0.9375rem; padding: 8px 0; border-bottom: 2px solid transparent; }
+.site-nav a:hover { color: var(--ink); }
+.site-nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
+
+main { flex: 1; width: 100%; }
+
+/* shared bits */
+.meta { font-size: 0.9375rem; color: var(--muted); }
+.meta span + span::before { content: '\00b7\200b'; margin: 0 0.55em; }
+
+h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-spacing: 0.08em; }
+
+/* gallery */
+/* the line under the menu is a banner, a quiet band that sets the site apart from the articles below it */
+.banner { background: #f4f6fa; border-bottom: 1px solid var(--line); }
+.banner .wrap { padding-bottom: 22px; }
+.intro { margin: 0; padding: 22px 0 0; font-size: clamp(1rem, 3.8vw, 1.25rem); font-weight: 500; line-height: 1.4; letter-spacing: 0; word-spacing: normal; color: var(--text); }
+.gallery { list-style: none; margin: 40px 0 72px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr)); gap: 40px 28px; }
+.card { position: relative; min-width: 0; }
+.thumb { aspect-ratio: 3 / 2; border-radius: 10px; overflow: hidden; background: var(--accent-soft); margin-bottom: 14px; }
+.thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.thumb .blank { display: flex; width: 100%; height: 100%; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; color: var(--accent); text-align: center; padding: 12px; }
+.card h2 { font-size: 1.3125rem; line-height: 1.25; margin: 4px 0 6px; }
+.card h2 a { color: var(--ink); text-decoration: none; }
+.card h2 a::after { content: ''; position: absolute; inset: 0; }
+.card:hover h2 a, .card h2 a:focus-visible { color: var(--accent); }
+.card h2 a:focus-visible { outline: none; }
+.card:has(h2 a:focus-visible) .thumb { outline: 2px solid var(--accent); outline-offset: 3px; }
+.card .sub { margin: 0; color: var(--muted); font-size: 1rem; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card .meta { font-size: 0.875rem; }
+.card h2, .card .sub { font-family: var(--rf); }
+.card h2 { letter-spacing: var(--hls); }
+.lvl { color: var(--accent); font-weight: 600; }
+
+.more { font-weight: 600; text-decoration: none; }
+.more:hover { text-decoration: underline; }
+.page-title { font-size: clamp(2rem, 6vw, 2.5rem); line-height: 1.1; margin: 52px 0 28px; }
+
+.social { list-style: none; margin: 0 0 80px; padding: 0; display: grid; gap: 12px; }
+.social a { display: flex; align-items: center; justify-content: space-between; padding: 20px 22px; border: 1px solid var(--line); border-radius: 10px; color: var(--ink); text-decoration: none; font-size: 1.1875rem; font-weight: 600; }
+.social a:hover { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+
+/* reading font and level tabs inside an article */
+/* the chosen reading font applies to the title, the subheading and the article text */
+:root { --rf: Georgia, 'Times New Roman', serif; --hls: -0.01em; --hlh: 1.15; }
+[data-font="outfit"] { --rf: 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; --fs: 1; --hls: -0.015em; --hlh: 1.12; }
+.article-head h1, .dek, .prose { font-family: var(--rf); }
+.article-head h1 { letter-spacing: var(--hls); line-height: var(--hlh); }
+.prose { line-height: var(--pl, 1.65); }
+.metarow { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; }
+.metarow .meta { margin: 0; }
+.metaleft { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; min-width: 0; }
+.vtabs { display: inline-flex; background: #fff; border: 1px solid #cfd4dc; border-radius: 8px; overflow: hidden; }
+.vtabs button { font: inherit; font-size: 0.8125rem; font-weight: 600; color: var(--muted); background: none; border: 0; border-radius: 0; padding: 4px 12px; min-height: 30px; cursor: pointer; }
+.vtabs button + button { border-left: 1px solid #cfd4dc; }
+.vtabs button:hover { color: var(--ink); }
+.vtabs button[aria-selected="true"] { background: var(--accent-soft); color: var(--accent); }
+.vtabs button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.tools { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+.pdfbtn { display: flex; align-items: center; gap: 6px; min-height: 32px; font: inherit; font-size: 0.8125rem; font-weight: 600; color: var(--ink); background: #fff; border: 1px solid #cfd4dc; border-radius: 8px; padding: 4px 11px 4px 9px; cursor: pointer; }
+.pdfbtn svg { width: 14px; height: 14px; color: var(--muted); }
+.pdfbtn:hover { border-color: var(--accent); }
+.pdfbtn:hover svg { color: var(--accent); }
+.pdfbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.fdrop { position: relative; }
+.fbtn { display: flex; align-items: center; gap: 6px; min-height: 32px; font: inherit; font-size: 0.8125rem; font-weight: 600; color: var(--ink); background: #fff; border: 1px solid #cfd4dc; border-radius: 8px; padding: 4px 8px 4px 10px; cursor: pointer; }
+.fbtn svg { width: 14px; height: 14px; }
+.fbtn .flab { font-weight: 500; color: var(--muted); }
+.fbtn .flab::after { content: ':'; }
+.fbtn:hover { border-color: var(--accent); }
+.fbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.fmenu { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; min-width: 220px; max-width: calc(100vw - 40px); margin: 0; padding: 5px; list-style: none; background: #fff; border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 12px 32px rgba(17, 19, 24, 0.16); }
+.fmenu[hidden] { display: none; }
+.fmenu li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 12px; border-radius: 8px; font-size: 1rem; line-height: 1.3; color: var(--ink); cursor: pointer; }
+.fmenu li:hover, .fmenu li:focus-visible { background: #f3f5f8; outline: none; }
+.fmenu li[aria-selected="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 700; }
+.fmenu .chk { visibility: hidden; flex: none; width: 16px; height: 16px; }
+.fmenu li[aria-selected="true"] .chk { visibility: visible; }
+.fo-default { font-family: Georgia, 'Times New Roman', serif; }
+.fo-outfit { font-family: 'Outfit', system-ui, sans-serif; }
+.lvl-head { display: none; font-size: 1.5rem; margin: 1.6em 0 0; }
+
+/* article */
+.article-head { padding: 52px 0 28px; }
+.article-head h1 { font-size: calc(clamp(2rem, 6.4vw, 2.875rem) * var(--fs, 1)); margin: 12px 0 16px; }
+.hero-img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; background: var(--line); }
+.hero { margin: 0; }
+.credit { font-size: 0.8125rem; line-height: 1.4; color: var(--muted); margin: 8px 2px 0; }
+.credit a { color: var(--muted); text-underline-offset: 0.18em; }
+.credit a:hover { color: var(--accent); }
+.dek { font-size: calc(1.3rem * var(--fs, 1)); line-height: 1.45; color: var(--muted); margin: 0 0 26px; }
+.prose { font-size: calc(1.1875rem * var(--fs, 1)); line-height: 1.65; padding-bottom: 28px; }
+.prose p { margin: 0 0 0.9em; }
+.prose h2 { font-size: 1.5rem; line-height: 1.25; margin: 2em 0 0.6em; }
+.prose h3 { font-size: 1.25rem; line-height: 1.3; margin: 1.7em 0 0.5em; }
+.prose ul { margin: 0 0 1.25em; padding-left: 1.3em; }
+.prose li { margin-bottom: 0.4em; }
+.prose blockquote { margin: 1.6em 0; padding: 18px 22px; background: var(--accent-soft); border-radius: 10px; color: var(--ink); }
+.prose blockquote p:last-child { margin-bottom: 0; }
+.prose figure { margin: 1.8em 0; }
+.prose figure img { display: block; width: 100%; height: auto; border-radius: 10px; }
+.source { font-size: 0.9375rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; margin: 12px 0 0; }
+
+.pager { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; border-top: 1px solid var(--line); margin: 36px 0 64px; padding-top: 24px; }
+.pager > * { min-width: 0; }
+.pager a { display: block; text-decoration: none; color: var(--ink); font-weight: 600; line-height: 1.35; }
+.pager a:hover { color: var(--accent); }
+.pager small { display: block; font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+.pager .next { text-align: right; grid-column: 2; }
+
+.empty { padding: 24px 0 96px; color: var(--muted); font-size: 1.125rem; }
+
+.back { display: inline-flex; align-items: center; min-height: 44px; font-size: 1.125rem; font-weight: 600; color: var(--ink); text-decoration: none; margin: -8px 0 10px; }
+.back:hover { color: var(--accent); }
+
+/* wide (gallery) pages */
+.wide .wrap { max-width: 1120px; }
+
+/* highlights */
+mark.hl { background: none; color: inherit; text-decoration: underline; text-decoration-color: var(--hl); text-decoration-thickness: 3px; text-underline-offset: 0.22em; text-decoration-skip-ink: none; cursor: pointer; }
+mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
+.hl-hint { font-size: 0.875rem; color: var(--muted); margin: 0 0 14px; }
+.hl-hint[hidden], .hl-list[hidden], .hl-pill[hidden] { display: none; }
+.hl-pill { position: absolute; z-index: 40; display: inline-flex; align-items: center; gap: 6px; background: var(--ink); color: #fff; border: 0; border-radius: 999px; padding: 8px 14px 8px 11px; font: 600 0.8125rem/1 'Outfit', system-ui, sans-serif; white-space: nowrap; cursor: pointer; box-shadow: 0 8px 22px rgba(17, 19, 24, 0.28); }
+.hl-pill:hover { background: #000; }
+.hl-pill:focus-visible { outline: 2px solid var(--hl); outline-offset: 2px; }
+.hl-list { margin: 34px 0 6px; padding-top: 16px; border-top: 1px solid var(--line); }
+.hl-title { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--hl-ink); margin: 0 0 8px; }
+.hl-list ol { list-style: none; margin: 0; padding: 0; }
+.hl-list li { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr) auto; align-items: baseline; gap: 0 8px; padding: 7px 0; border-bottom: 1px solid #f0f1f4; }
+.hl-list .n { font-size: 0.8125rem; font-weight: 700; color: var(--hl-ink); font-variant-numeric: tabular-nums; }
+.hl-list .w { font-size: 1.0625rem; line-height: 1.4; color: var(--ink); overflow-wrap: anywhere; }
+.hl-list .x { background: none; border: 0; color: var(--muted); font: inherit; font-size: 1.25rem; line-height: 1; padding: 2px 8px; border-radius: 6px; cursor: pointer; }
+.hl-list .x:hover { color: var(--hl-ink); background: #fff7e6; }
+.hl-list .x:focus-visible, .hl-actions button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hl-actions { display: flex; gap: 18px; margin-top: 10px; }
+.hl-actions button { background: none; border: 0; padding: 4px 0; font: inherit; font-size: 0.8125rem; font-weight: 600; color: var(--accent); cursor: pointer; }
+.hl-list .w { font-family: var(--rf); }
+
+/* topics: filter chips, search and the links under an article */
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; margin: 28px 0 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; flex: 1 1 auto; min-width: 0; }
+.chip { display: inline-flex; align-items: center; min-height: 34px; padding: 4px 14px; border: 1px solid #cfd4dc; border-radius: 999px; background: #fff; color: var(--text); font-size: 0.875rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.chip:hover { border-color: var(--accent); color: var(--accent); }
+.chip[aria-current="page"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.finder { flex: 0 1 260px; min-width: 0; }
+.finder[hidden] { display: none; }
+.finder input { width: 100%; font: inherit; font-size: 0.9375rem; color: var(--ink); background: #fff; border: 1px solid #cfd4dc; border-radius: 10px; padding: 8px 14px; }
+.finder input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+.filters + .gallery { margin-top: 28px; }
+.topics { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 24px 0 0; }
+.topics-label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+.topics .chip { min-height: 30px; padding: 2px 12px; font-size: 0.8125rem; }
+
+/* listen: a quiet player row under the picture */
+.listen { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin: 22px 0 0; padding: 12px 0; }
+.listen[hidden] { display: none; }
+.listen-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 12px; font-size: 0.8125rem; line-height: 1.3; }
+.listen-label { font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.listen-voice { color: var(--muted); }
+.listen-audio { display: block; width: 100%; margin-top: 8px; }
+.listen.lp-on { display: flex; align-items: center; gap: 12px; }
+.listen.lp-on[hidden] { display: none; }
+.listen.lp-on .listen-audio { display: none; }
+.lp-play { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--accent); color: #fff; cursor: pointer; }
+.lp-play:hover { background: #174fc0; }
+.lp-play:disabled { background: #b9c0cb; cursor: default; }
+.lp-play:focus-visible, .lp-back:focus-visible, .lp-speed:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.lp-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.lp-seek { width: 100%; margin: 0; height: 20px; accent-color: var(--accent); cursor: pointer; }
+.lp-side { flex: none; display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.lp-time { font-size: 0.8125rem; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+.lp-tools { display: flex; align-items: center; gap: 4px; }
+.lp-back, .lp-speed { display: inline-flex; align-items: center; justify-content: center; min-height: 30px; min-width: 30px; padding: 0 6px; border: 0; border-radius: 6px; background: none; color: var(--muted); font: inherit; font-size: 0.8125rem; font-weight: 600; cursor: pointer; }
+.lp-back:hover, .lp-speed:hover { color: var(--accent); background: var(--accent-soft); }
+
+/* questions: quiet rows that open on request */
+.qs { margin: 22px 0 0; }
+.qs summary { display: flex; align-items: center; gap: 12px; min-height: 46px; cursor: pointer; list-style: none; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.qs summary::-webkit-details-marker { display: none; }
+.qs summary:hover .qs-label { color: var(--accent); }
+.qs summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.qs-count { font-weight: 500; letter-spacing: 0; text-transform: none; }
+.qs summary svg { margin-left: auto; flex: none; transition: transform 0.15s; }
+.qs[open] summary svg { transform: rotate(180deg); }
+.qs ol { margin: 2px 0 20px; padding-left: 1.5em; font-size: 1.0625rem; line-height: 1.6; color: var(--ink); }
+.qs li { margin: 0 0 0.6em; padding-left: 0.25em; }
+.qs li::marker { color: var(--accent); font-weight: 700; }
+.qs ol { font-family: var(--rf); }
+
+/* every study row sits in a rounded panel: "Before you read" on its own above
+   the article, "Talk about it" and the exercises together below it */
+.qs-group { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; margin: 24px 0 0; }
+.qs-group .qs { margin: 0; padding: 0 18px; }
+.qs-group .qs + .qs { border-top: 1px solid var(--line); }
+.qs-group .qs[open] { background: #fbfcfe; }
+.qs-group .qs summary { min-height: 50px; }
+.qs-group .qs > ol { margin: 0 0 18px; }
+.qs-note { margin: -6px 0 16px; font-size: 0.875rem; line-height: 1.5; color: var(--muted); background: #f4f5f7; border-radius: 8px; padding: 8px 12px; }
+.listen:not([hidden]) ~ .qs-group { margin-top: 18px; }
+
+/* exercises: four tasks in their own cards, then a scoreboard.
+   The text stays in Outfit whatever the reader picks for the article,
+   because a sentence with a gap in it is interface, not journalism. */
+.ex-wrap { --sf: 'Outfit', system-ui, -apple-system, 'Segoe UI', sans-serif; margin: 2px 0 22px; }
+.ex-block { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 20px 20px 22px; }
+.ex-block + .ex-block, .ex-total { margin-top: 20px; }
+.ex-h { font-size: 0.9375rem; font-weight: 700; color: var(--ink); margin: 0 0 4px; letter-spacing: 0; text-transform: none; }
+.ex-lead { margin: 0 0 14px; font-size: 0.9375rem; color: var(--muted); }
+
+.ex-bank { display: flex; flex-wrap: wrap; gap: 8px; padding: 13px 14px; background: var(--accent-soft); border-radius: 10px; margin: 0 0 18px; min-height: 56px; }
+.ex-bank.over { outline: 2px dashed var(--accent); outline-offset: -3px; }
+.ex-chip { font: inherit; font-size: 0.875rem; font-weight: 600; color: var(--accent); background: #fff; border: 1px solid #d5e0f6; border-radius: 999px; padding: 4px 13px; cursor: grab; }
+.ex-chip:hover { border-color: var(--accent); }
+.ex-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ex-chip.sel { background: var(--accent); color: #fff; border-color: var(--accent); }
+.ex-chip.used { color: transparent; background: transparent; border-style: dashed; border-color: #ccd7ea; pointer-events: none; cursor: default; }
+.ex-chip.drag, .ex-gap.drag { opacity: 0.4; }
+
+.ex-wrap .ex-list { margin: 0; padding-left: 1.5em; font-family: var(--sf); font-size: 1rem; line-height: 2.05; color: var(--ink); }
+.ex-list li { margin: 0 0 0.35em; padding-left: 0.25em; }
+.ex-list li::marker { color: var(--accent); font-weight: 700; }
+
+.ex-gap { font: inherit; font-family: var(--sf); font-size: 0.9375rem; font-weight: 600; color: var(--accent); background: #fff; border: 0; border-bottom: 2px dashed #b9c2d0; border-radius: 3px; min-width: 8.5ch; min-height: 1.9em; padding: 1px 8px; margin: 0 2px; cursor: pointer; vertical-align: baseline; }
+.ex-gap:hover { border-bottom-color: var(--accent); background: var(--accent-soft); }
+.ex-gap:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ex-gap.filled { border-bottom-style: solid; border-bottom-color: var(--accent); background: var(--accent-soft); }
+.ex-gap.armed, .ex-gap.over { background: var(--accent-soft); border-bottom-color: var(--accent); box-shadow: inset 0 0 0 2px var(--accent); }
+.ex-gap.ok { color: #1f8a4c; border-bottom-color: #1f8a4c; background: #eaf6ee; box-shadow: none; }
+.ex-gap.no { color: #c33; border-bottom-color: #c33; background: #fdeeee; box-shadow: none; }
+
+.ex-match li { line-height: 1.5; margin-bottom: 0.7em; }
+.ex-term { display: inline-block; min-width: 10.5em; font-weight: 700; }
+.ex-sel { font: inherit; font-family: var(--sf); font-size: 0.9375rem; color: var(--ink); background: #fff; border: 1px solid #cfd4dc; border-radius: 8px; padding: 5px 9px; max-width: 100%; }
+.ex-sel:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.ex-sel.ok { border-color: #1f8a4c; color: #1f8a4c; }
+.ex-sel.no { border-color: #c33; color: #c33; }
+
+.ex-in { font: inherit; font-family: var(--sf); font-size: 0.9375rem; font-weight: 600; color: var(--accent); background: #fff; border: 0; border-bottom: 2px dashed #b9c2d0; border-radius: 3px; min-width: 7ch; padding: 1px 6px; margin: 0 2px; text-align: center; }
+.ex-in:focus { outline: 0; border-bottom-color: var(--accent); background: var(--accent-soft); }
+.ex-in.ok { color: #1f8a4c; border-bottom-color: #1f8a4c; background: #eaf6ee; }
+.ex-in.no { color: #c33; border-bottom-color: #c33; background: #fdeeee; }
+.ex-cue { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+
+.ex-tfns li { line-height: 1.5; margin-bottom: 0.9em; }
+.ex-stmt { display: block; margin-bottom: 7px; }
+.ex-tfn { display: inline-flex; gap: 6px; flex-wrap: wrap; }
+.ex-opt { font: inherit; font-size: 0.8125rem; font-weight: 600; color: var(--muted); background: #fff; border: 1px solid #cfd4dc; border-radius: 999px; padding: 4px 14px; min-height: 30px; cursor: pointer; }
+.ex-opt:hover { border-color: var(--accent); color: var(--accent); }
+.ex-opt.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.ex-opt.ok { background: #eaf6ee; border-color: #1f8a4c; color: #1f8a4c; }
+.ex-opt.no { background: #fdeeee; border-color: #c33; color: #c33; }
+.ex-write, .ex-key, .ex-write-hint { display: none; }
+.ex-why { margin: 7px 0 0; font-size: 0.8125rem; line-height: 1.5; color: var(--muted); background: #f4f5f7; border-radius: 8px; padding: 7px 11px; }
+
+.ex-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.ex-btn { font: inherit; font-size: 0.8125rem; font-weight: 600; min-height: 32px; padding: 4px 13px; color: #fff; background: var(--accent); border: 1px solid var(--accent); border-radius: 8px; cursor: pointer; }
+.ex-btn:hover { filter: brightness(1.06); }
+.ex-ghost { color: var(--ink); background: #fff; border-color: #cfd4dc; }
+.ex-ghost:hover { border-color: var(--accent); color: var(--accent); filter: none; }
+.ex-score { font-size: 0.875rem; font-weight: 700; color: var(--muted); margin-left: 2px; }
+.ex-score.good { color: #1f8a4c; }
+
+.ex-total { background: var(--accent-soft); border: 1px solid #d5e0f6; border-radius: 12px; padding: 18px 20px 20px; }
+.ex-total .ex-h { margin-bottom: 2px; }
+.ex-total .ex-lead { margin-bottom: 14px; }
+.ex-total-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.ex-big { font-size: 0.875rem; min-height: 38px; padding: 6px 18px; }
+.ex-total-out { margin-top: 18px; padding-top: 16px; border-top: 1px solid #d5e0f6; }
+.ex-total-num { display: flex; align-items: baseline; gap: 9px; }
+.ex-total-num > b { font-size: 2.25rem; font-weight: 700; line-height: 1; color: var(--accent); }
+.ex-total-num span { font-size: 0.9375rem; color: var(--muted); }
+.ex-total-list { list-style: none; margin: 14px 0 0; padding: 0; font-size: 0.9375rem; }
+.ex-total-list li { display: flex; justify-content: space-between; gap: 14px; padding: 6px 0; border-top: 1px solid #dde6f7; }
+.ex-total-list li:first-child { border-top: 0; }
+.ex-total-list b { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ex-total-list .full { color: #1f8a4c; }
+.ex-total-list .shown { color: var(--muted); font-weight: 500; }
+.ex-total-msg { margin: 12px 0 0; font-size: 0.9375rem; font-weight: 600; color: var(--ink); }
+
+@media (max-width: 640px) {
+  .ex-term { min-width: 0; display: block; margin-bottom: 3px; }
+  .ex-sel { width: 100%; }
+  .ex-chip { padding: 6px 13px; }
+  .ex-gap { min-height: 2.1em; }
+  .ex-opt { padding: 5px 13px; }
+}
+
+/* the story keeps one name while the headline changes with the level */
+.story-id { margin: 16px 0 2px; font-size: 0.875rem; font-weight: 600; letter-spacing: 0.01em; color: var(--muted); }
+
+/* what the site is for, under the home page headline */
+.intro-sub { margin: 10px 0 0; max-width: 46ch; font-size: 1.0625rem; color: var(--muted); }
+.intro-links { display: flex; flex-wrap: wrap; gap: 8px 10px; margin: 14px 0 0; }
+.intro-links[hidden] { display: none; }
+.intro-link { font-size: 0.9375rem; font-weight: 600; color: var(--accent); background: #fff; border: 1px solid var(--accent); border-radius: 999px; padding: 5px 14px; text-decoration: none; }
+.intro-link:hover { background: var(--accent-soft); }
+
+/* the first article a reader opens explains the routine, once */
+.guide { margin: 18px 0 0; padding: 16px 18px 14px; background: var(--accent-soft); border-radius: 12px; }
+.guide[hidden] { display: none; }
+.guide h2 { margin: 0 0 8px; font-size: 1rem; color: var(--ink); }
+.guide ul { margin: 0; padding-left: 1.2em; font-size: 0.9375rem; line-height: 1.6; color: var(--ink); }
+.guide li { margin: 0 0 4px; }
+.guide li::marker { color: var(--accent); }
+.guide-x { margin-top: 12px; font: inherit; font-size: 0.875rem; font-weight: 600; color: #fff; background: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: 6px 16px; cursor: pointer; }
+.guide-x:hover { filter: brightness(1.06); }
+
+/* loading placeholders on My words and the teacher view */
+.acct-loading { color: var(--muted); }
+.acct-skel { margin: 14px 0 0; }
+.sk-row { height: 56px; border-radius: 12px; margin-bottom: 10px; background: linear-gradient(90deg, #f2f4f7 25%, #e9edf3 37%, #f2f4f7 63%); background-size: 400% 100%; animation: sk 1.4s ease infinite; }
+.sk-row:nth-child(2n) { height: 44px; }
+@keyframes sk { 0% { background-position: 100% 50%; } 100% { background-position: 0 50%; } }
+@media (prefers-reduced-motion: reduce) { .sk-row { animation: none; } }
+
+/* footer */
+.site-footer { border-top: 1px solid var(--line); padding: 26px 0 34px; font-size: 0.875rem; color: var(--muted); }
+
+@media (max-width: 560px) {
+  body { font-size: 1rem; }
+  .site-nav { gap: 18px; }
+  .intro { padding: 18px 0 0; }
+  .gallery { gap: 0; margin: 0 0 48px; }
+  .filters { margin-top: 20px; }
+  .filters + .gallery { margin-top: 0; }
+  .finder { order: -1; flex: 1 0 100%; }
+  .chips { flex-wrap: nowrap; overflow-x: auto; margin: 0 -20px; padding: 0 20px 2px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; }
+  .card { padding: 36px 0 40px; }
+  .card:not([hidden]) ~ .card:not([hidden]) { border-top: 1px solid #b9c0cb; }
+  .thumb { margin-bottom: 18px; }
+  .card h2 { line-height: 1.3; margin: 6px 0 8px; }
+  .article-head { padding: 36px 0 22px; }
+  .page-title { margin-top: 36px; }
+  .prose { font-size: calc(1.125rem * var(--fs, 1)); }
+  .fbtn, .pdfbtn { min-height: 36px; }
+  .vtabs button { min-height: 34px; }
+  .metarow.has-tabs .metaleft { display: contents; }
+  .metarow.has-tabs .vtabs { order: 1; flex: 1 0 100%; }
+  .metarow.has-tabs .vtabs button { flex: 1; }
+  .metarow.has-tabs .meta { order: 2; flex: 1 0 auto; white-space: nowrap; }
+  .metarow.has-tabs .tools { order: 3; margin-left: auto; }
+}
+
+/* saving as a PDF: the page is printed as a tidy two-column sheet */
+.print-foot { display: none; }
+
+.kl { text-decoration: underline; text-decoration-style: dotted; text-decoration-color: var(--accent); text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; text-decoration-skip-ink: none; cursor: pointer; border-radius: 3px; }
+.kl:hover, .kl:focus-visible { background: var(--accent-soft); outline: none; }
+.kl-pop { position: absolute; z-index: 45; max-width: min(320px, calc(100vw - 16px)); background: var(--ink); color: #fff; border-radius: 10px; padding: 10px 14px 11px; font-family: 'Outfit', system-ui, sans-serif; font-size: 0.9375rem; line-height: 1.45; box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2); }
+.kl-pop b { display: block; font-size: 1.0625rem; }
+.kl-pop .kl-kind { display: block; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.75; margin: 1px 0 5px; }
+.kl-box { margin: 26px 0 32px; background: var(--accent-soft); border-radius: 12px; }
+.kl-box summary { display: flex; align-items: center; gap: 12px; min-height: 48px; padding: 6px 20px; cursor: pointer; list-style: none; }
+.kl-box summary::-webkit-details-marker { display: none; }
+.kl-box summary:hover .kl-title { text-decoration: underline; text-underline-offset: 3px; }
+.kl-box summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 12px; }
+.kl-box summary svg { margin-left: auto; flex: none; color: var(--accent); transition: transform 0.15s; }
+.kl-box[open] summary svg { transform: rotate(180deg); }
+.kl-title { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+.kl-count { font-size: 0.8125rem; font-weight: 500; color: var(--muted); }
+.kl-body { padding: 0 20px 10px; }
+.kl-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin: 0 0 2px; }
+.kl-note { font-size: 0.75rem; color: var(--muted); }
+.kl-btns { margin-left: auto; display: flex; gap: 16px; }
+.kl-toggle, .kl-copy { background: none; border: 0; padding: 4px 0; font: inherit; font-size: 0.8125rem; font-weight: 600; color: var(--accent); cursor: pointer; white-space: nowrap; }
+.kl-toggle:focus-visible, .kl-copy:focus-visible, .kl-row:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.kl-cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 22px; }
+.kl-h { font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin: 14px 0 4px; }
+.kl-list { margin: 0 0 6px; padding: 0; list-style: none; }
+.kl-row { position: relative; padding: 4px 0 6px; font-family: var(--rf); line-height: 1.35; }
+.kl-row::before { content: "\2022"; position: absolute; left: -14px; top: 2px; color: var(--accent); font-size: 1.05rem; line-height: 1.35; }
+.kl-blur .kl-row { cursor: pointer; }
+.kl-blur .kl-row:hover .kl-t { color: var(--accent); }
+.kl-note:empty { display: none; }
+.kl-t { display: block; font-size: 1rem; font-weight: 700; color: var(--ink); }
+.kl-m { display: block; font-size: 0.875rem; color: var(--muted); transition: filter 0.15s; }
+.kl-blur .kl-m:not(.kl-show) { filter: blur(6px); user-select: none; -webkit-user-select: none; }
+.kl-m.kl-done, .kl-copy.kl-done { color: #14633a; }
+@media (max-width: 700px) { .kl-cols { grid-template-columns: 1fr; } .kl-box summary { padding: 6px 18px; } .kl-body { padding: 0 18px 8px; } .kl-btns { margin-left: 0; width: 100%; } }
+
+.jt-bar { position: fixed; left: 0; top: 0; bottom: 0; width: 4px; z-index: 30; background: transparent; pointer-events: none; opacity: 0; transition: opacity 0.3s; }
+.jt-bar.jt-on { opacity: 1; background: rgba(29, 95, 224, 0.08); }
+.jt-fill { width: 100%; height: 0; background: var(--accent); opacity: 0.55; transition: height 0.3s linear; }
+.jt-bar.jt-late .jt-fill { background: #f59e0b; opacity: 0.85; }
+.jt { position: fixed; right: 14px; bottom: 14px; z-index: 35; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; font-family: 'Outfit', system-ui, sans-serif; }
+.jt-pill { display: inline-flex; align-items: center; gap: 6px; background: rgba(255, 255, 255, 0.92); color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px 6px 10px; font: inherit; font-size: 0.8125rem; font-weight: 600; font-variant-numeric: tabular-nums; cursor: pointer; opacity: 0.75; box-shadow: 0 2px 10px rgba(16, 24, 40, 0.08); transition: opacity 0.15s, color 0.15s; }
+.jt-pill:hover, .jt-pill:focus-visible, .jt-running .jt-pill, .jt-done .jt-pill { opacity: 1; }
+.jt-running .jt-pill { color: var(--accent); }
+.jt-late .jt-pill { color: #b45309; }
+.jt-done .jt-pill { color: #fff; background: #d97706; border-color: #d97706; animation: jt-pulse 1.4s ease-in-out 3; }
+.jt-pill:focus-visible, .jt-go:focus-visible, .jt-reset:focus-visible, .jt-preset:focus-visible, .jt-input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@keyframes jt-pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+.jt-panel { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; box-shadow: 0 8px 28px rgba(16, 24, 40, 0.14); width: 220px; }
+.jt-panel[hidden] { display: none; }
+.jt-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.jt-label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.jt-input { width: 76px; font: inherit; font-size: 1rem; font-weight: 600; text-align: center; color: var(--ink); background: #fff; border: 1px solid #cfd4dc; border-radius: 8px; padding: 6px 8px; font-variant-numeric: tabular-nums; }
+.jt-input:disabled { background: #f6f7f9; color: var(--muted); }
+.jt-presets { display: flex; gap: 6px; margin: 10px 0; }
+.jt-preset { flex: 1; font: inherit; font-size: 0.8125rem; font-weight: 600; padding: 5px 0; color: var(--accent); background: var(--accent-soft); border: 0; border-radius: 8px; cursor: pointer; }
+.jt-preset.jt-cur { background: var(--accent); color: #fff; }
+.jt-preset:disabled { opacity: 0.45; cursor: default; }
+.jt-acts { display: flex; gap: 8px; }
+.jt-go, .jt-reset { flex: 1; font: inherit; font-size: 0.875rem; font-weight: 600; padding: 8px 0; border-radius: 8px; cursor: pointer; }
+.jt-go { background: var(--accent); color: #fff; border: 1px solid var(--accent); }
+.jt-reset { background: #fff; color: var(--accent); border: 1px solid var(--accent); }
+@media (max-width: 560px) { .jt { right: 10px; bottom: 10px; } }
+
+/* accounts: sign-in button, dialog, My words and the teacher view */
+.site-nav { margin-left: auto; }
+.acct { position: relative; margin-left: 22px; }
+.acct-btn { white-space: nowrap; font: inherit; font-size: 0.875rem; font-weight: 600; color: var(--accent); background: #fff; border: 1px solid var(--accent); border-radius: 999px; padding: 6px 14px; cursor: pointer; line-height: 1.2; display: inline-flex; align-items: center; gap: 7px; }
+.acct-btn:hover { background: var(--accent-soft); }
+.acct-btn:focus-visible, .acct-go:focus-visible, .acct-link:focus-visible, .acct-x:focus-visible, .wd-btn:focus-visible, .wd-x:focus-visible, .t-tab:focus-visible, .t-name:focus-visible, .acct-menu a:focus-visible, .acct-menu button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.acct-me { padding: 3px 12px 3px 4px; }
+.acct-dot { width: 24px; height: 24px; border-radius: 50%; background: var(--accent); color: #fff; font-size: 0.8125rem; display: inline-flex; align-items: center; justify-content: center; }
+.acct-name { max-width: 9ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.acct-menu { position: absolute; right: 0; top: calc(100% + 8px); min-width: 200px; background: #fff; border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 10px 30px rgba(16, 24, 40, 0.14); padding: 6px; z-index: 40; }
+.acct-menu[hidden] { display: none; }
+.acct-who { margin: 0; padding: 8px 12px 6px; font-size: 0.8125rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; }
+.acct-menu a, .acct-menu button { display: block; width: 100%; text-align: left; font: inherit; font-size: 0.9375rem; font-weight: 500; color: var(--ink); background: none; border: 0; border-radius: 8px; padding: 8px 12px; cursor: pointer; text-decoration: none; }
+.acct-menu a:hover, .acct-menu button:hover { background: var(--accent-soft); }
+.acct-back { position: fixed; inset: 0; z-index: 60; background: rgba(17, 19, 24, 0.45); display: flex; align-items: center; justify-content: center; padding: 16px; }
+.acct-dlg { position: relative; background: #fff; border-radius: 16px; width: 100%; max-width: 380px; padding: 28px 26px 22px; box-shadow: 0 20px 60px rgba(16, 24, 40, 0.3); }
+.acct-dlg h2 { margin: 0 0 14px; font-size: 1.375rem; line-height: 1.2; color: var(--ink); }
+.acct-x { position: absolute; right: 10px; top: 8px; font: inherit; font-size: 1.5rem; line-height: 1; color: var(--muted); background: none; border: 0; cursor: pointer; padding: 6px 10px; border-radius: 8px; }
+.acct-x:hover { color: var(--ink); }
+.acct-notice { margin: 0 0 14px; padding: 10px 12px; font-size: 0.9375rem; background: var(--accent-soft); border-radius: 10px; color: var(--ink); }
+.acct-field { margin: 0 0 14px; }
+.acct-field label { display: block; font-size: 0.8125rem; font-weight: 600; color: var(--muted); margin-bottom: 5px; }
+.acct-field input { width: 100%; font: inherit; font-size: 1rem; padding: 10px 12px; border: 1px solid #cfd4dc; border-radius: 10px; color: var(--ink); background: #fff; }
+.acct-field input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+.acct-small { margin: 0 0 14px; font-size: 0.8125rem; line-height: 1.5; color: var(--muted); }
+.acct-err { margin: 0 0 12px; font-size: 0.875rem; font-weight: 500; color: #b42318; }
+.acct-err[hidden] { display: none; }
+.acct-go { font: inherit; font-size: 1rem; font-weight: 600; width: 100%; padding: 11px 0; color: #fff; background: var(--accent); border: 1px solid var(--accent); border-radius: 10px; cursor: pointer; }
+.acct-go:disabled { opacity: 0.6; cursor: default; }
+.acct-alt { margin: 14px 0 0; display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
+.acct-link { font: inherit; font-size: 0.875rem; font-weight: 500; color: var(--accent); background: none; border: 0; padding: 4px 0; cursor: pointer; text-decoration: underline; text-underline-offset: 0.18em; }
+.acct-lead { margin: -6px 0 16px; font-size: 0.9375rem; line-height: 1.5; color: var(--muted); }
+html.acct-lock { overflow: hidden; }
+.acct-back { animation: acct-fade 0.35s ease both; backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); }
+.acct-dlg { animation: acct-rise 0.4s ease both; max-height: calc(100vh - 32px); overflow-y: auto; }
+@keyframes acct-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes acct-rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .acct-back, .acct-dlg { animation: none; } }
+/* readers who are not signed in can open only the free articles (site.json); the rest carry a Members tag and show a members panel */
+html.jpn-guest .card:not([data-free]) .thumb::after { content: 'Members'; position: absolute; top: 10px; left: 10px; padding: 3px 10px; font-size: 0.8125rem; font-weight: 600; color: var(--ink); background: #fff; border-radius: 999px; }
+html.jpn-guest .card:not([data-free]) .thumb { position: relative; }
+html.jpn-guest article[data-locked] > :not(.article-head),
+html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.lock-panel) { display: none !important; }
+.gate-note, .lock-panel { margin: 26px 0 40px; padding: 22px 24px; border: 1px solid var(--line); border-radius: 14px; background: var(--accent-soft); }
+.gate-note p, .lock-panel p { margin: 0 0 14px; color: var(--text); }
+.gate-note strong, .lock-panel strong { color: var(--ink); }
+.gate-note .acct-go, .lock-panel .acct-go { width: auto; padding: 10px 22px; }
+.gate-note { margin: 0 0 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.gate-note p { flex: 0 0 100%; margin: 0; }
+.gate-note .more { font-size: 0.9375rem; }
+.lock-panel { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.lock-panel p { flex: 0 0 100%; margin: 0; }
+.lock-panel .acct-link { font-size: 0.9375rem; padding: 6px 0; }
+.lock-panel .more { font-size: 0.9375rem; }
+.site-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+.foot-links { display: flex; gap: 18px; }
+.foot-links a { color: var(--muted); text-decoration: none; }
+.foot-links a:hover { color: var(--accent); text-decoration: underline; }
+.ai-note { margin: 4px 0 0; font-size: 0.8125rem; color: var(--muted); }
+.ai-note a { color: var(--muted); }
+.legal { padding-bottom: 40px; }
+.legal h2 { font-size: 1.25rem; line-height: 1.3; margin: 32px 0 8px; color: var(--ink); }
+.legal p, .legal li { color: var(--text); }
+.legal ul { padding-left: 1.2em; }
+.legal li { margin: 4px 0; }
+.legal-date { color: var(--muted); font-size: 0.875rem; }
+.acct-danger { margin: 46px 0 10px; padding: 22px 24px; border: 1px solid var(--line); border-radius: 14px; }
+.acct-danger h2 { margin: 0 0 8px; font-size: 1.0625rem; color: var(--ink); }
+.acct-danger p { margin: 0 0 14px; font-size: 0.9375rem; color: var(--muted); }
+.acct-confirm { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; }
+.acct-confirm[hidden] { display: none; }
+.acct-confirm label { flex: 0 0 100%; font-size: 0.8125rem; font-weight: 600; color: var(--muted); }
+.acct-confirm input { font: inherit; font-size: 1rem; padding: 9px 12px; border: 1px solid #cfd4dc; border-radius: 10px; width: 160px; }
+.acct-confirm .acct-err { flex: 0 0 100%; margin: 0; }
+.wd-btn.wd-danger { color: #b42318; border-color: #b42318; }
+.wd-btn.wd-danger:hover { background: #fdecea; }
+.wd-btn.wd-danger:disabled { opacity: 0.45; cursor: default; background: #fff; }
+.wd-btn.wd-danger:focus-visible { outline: 2px solid #b42318; outline-offset: 2px; }
+.acct-toast { position: fixed; left: 50%; bottom: 20px; transform: translate(-50%, 20px); opacity: 0; pointer-events: none; z-index: 70; background: var(--ink); color: #fff; font-size: 0.9375rem; padding: 10px 18px; border-radius: 999px; transition: opacity 0.25s, transform 0.25s; }
+.acct-toast.on { opacity: 1; transform: translate(-50%, 0); }
+.acct-read { color: var(--muted); }
+.acct-read.done { color: #14633a; font-weight: 600; }
+.acct-intro { margin: -14px 0 24px; color: var(--muted); }
+.acct-note { color: var(--muted); margin: 0 0 16px; }
+.wd-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+.wd-search { flex: 1 1 200px; font: inherit; font-size: 1rem; padding: 9px 12px; border: 1px solid #cfd4dc; border-radius: 10px; color: var(--ink); background: #fff; }
+.wd-btn { font: inherit; font-size: 0.875rem; font-weight: 600; color: var(--accent); background: #fff; border: 1px solid var(--accent); border-radius: 10px; padding: 8px 14px; cursor: pointer; }
+.wd-btn:hover { background: var(--accent-soft); }
+.wd-count { margin: 0 0 18px; font-size: 0.875rem; color: var(--muted); }
+.wd-art { margin: 0 0 20px; border: 1px solid var(--line); border-radius: 14px; background: #fff; overflow: hidden; }
+.wd-head { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; padding: 13px 18px; background: var(--accent-soft); }
+.wd-head h2, .t-detail h3 { margin: 0; font-size: 1.0625rem; line-height: 1.3; font-weight: 600; }
+.wd-head h2 a, .t-detail h3 a { color: var(--accent); text-decoration: none; }
+.wd-head h2 a::after, .t-detail h3 a::after { content: ' \2192'; font-weight: 500; opacity: 0.7; }
+.wd-head h2 a:hover, .t-detail h3 a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+.wd-n { font-size: 0.8125rem; color: var(--muted); white-space: nowrap; }
+.wd-words { list-style: none; margin: 0; padding: 0; }
+.wd-art .wd-words li { border-top: 1px solid var(--line); }
+/* the teacher view reuses .wd-words with a plain row; .t-detail and .t-art pad those */
+.wd-top { display: flex; align-items: center; gap: 10px; }
+.wd-top + .wd-sent { margin-top: 5px; }
+.wd-art .wd-words li:first-child { border-top: 0; }
+.wd-item > summary { display: flex; align-items: center; gap: 10px; padding: 10px 18px; cursor: pointer; list-style: none; }
+.wd-item > summary::-webkit-details-marker { display: none; }
+.wd-item > summary:hover { background: #fafbfc; }
+.wd-item > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.wd-item[open] > summary { background: #fafbfc; }
+.wd-w { font-size: 1.0625rem; font-weight: 500; color: var(--ink); }
+.wd-lv { font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); background: #f1f3f6; border-radius: 999px; padding: 2px 9px; }
+.wd-lv:empty { display: none; }
+.wd-chev { margin-left: auto; width: 9px; height: 9px; flex: none; border-right: 2px solid #98a0ad; border-bottom: 2px solid #98a0ad; transform: rotate(45deg) translate(-2px, -2px); transition: transform 0.15s; }
+.wd-item[open] .wd-chev { transform: rotate(-135deg) translate(-2px, -2px); }
+.wd-body { padding: 0 18px 13px; }
+.wd-acts { display: flex; align-items: center; gap: 8px; margin-top: 9px; }
+.wd-dict { font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: #fff; border: 1px solid var(--accent); border-radius: 999px; padding: 4px 12px; text-decoration: none; }
+.wd-dict:hover { background: var(--accent-soft); }
+.wd-x { margin-left: auto; font: inherit; font-size: 0.8125rem; font-weight: 600; color: #98a0ad; background: none; border: 0; cursor: pointer; padding: 4px 10px; border-radius: 999px; }
+.wd-x:hover { color: #b42318; background: #fdecea; }
+.wd-sent { margin: 0; font-size: 0.9375rem; line-height: 1.55; color: var(--muted); }
+.wd-sent b { font-weight: 500; color: var(--text); background: rgba(245, 158, 11, 0.24); border-radius: 3px; padding: 1px 2px; }
+/* The definition, fetched from the dictionary when the word is opened. */
+.wd-def { margin-top: 9px; font-size: 0.9375rem; line-height: 1.5; color: var(--muted); }
+.wd-def:empty { display: none; }
+.wd-pos { font-style: normal; font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 8px; }
+.wd-gloss { color: var(--text); }
+.wd-def-note { color: #98a0ad; }
+.t-detail h3 { margin-top: 14px; }
+.t-detail h3:first-child { margin-top: 0; }
+.t-detail .wd-words { margin-top: 4px; }
+.t-detail .wd-words li { padding: 9px 0; border-top: 1px solid var(--line); }
+.t-open { display: inline-block; margin: 0 0 8px; font-size: 0.875rem; font-weight: 600; text-decoration: none; }
+.t-open::after { content: ' \2192'; }
+.t-open:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+.t-art .wd-words li { padding: 10px 0; border-top: 1px solid var(--line); }
+.t-tabs { display: flex; gap: 6px; margin: 0 0 14px; border-bottom: 1px solid var(--line); }
+.t-tab { font: inherit; font-size: 0.9375rem; font-weight: 600; color: var(--muted); background: none; border: 0; border-bottom: 2px solid transparent; padding: 8px 12px; cursor: pointer; margin-bottom: -1px; }
+.t-tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.t-pane[hidden] { display: none; }
+.t-table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; }
+.t-table th { text-align: left; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+.t-table td { padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.t-table .num { text-align: right; white-space: nowrap; }
+.t-name { display: block; font: inherit; font-weight: 600; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-align: left; }
+.t-mail { display: block; font-size: 0.8125rem; color: var(--muted); overflow-wrap: anywhere; }
+.t-detail td { background: #fafbfc; padding: 14px 16px; }
+.t-detail[hidden] { display: none; }
+.t-detail h3 { margin-top: 12px; }
+.t-detail h3:first-child { margin-top: 0; }
+.t-art { border-top: 1px solid var(--line); padding: 4px 0; }
+.t-art summary { cursor: pointer; display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; font-weight: 600; color: var(--ink); }
+.t-art-n { font-size: 0.8125rem; font-weight: 500; color: var(--muted); white-space: nowrap; }
+.t-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 0 0 22px; }
+.t-stat { padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--accent-soft); min-width: 0; }
+.t-stat strong { display: block; font-size: 1.625rem; line-height: 1.1; color: var(--ink); }
+.t-stat span { display: block; font-size: 0.8125rem; color: var(--muted); }
+.t-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 0 0 10px; }
+.t-filter select { font: inherit; font-size: 0.875rem; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); }
+.t-count { font-size: 0.8125rem; color: var(--muted); }
+.t-sub { font-size: 0.75rem !important; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.t-reads { list-style: none; margin: 4px 0 12px; padding: 0; }
+.t-reads li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding: 8px 0; border-top: 1px solid var(--line); font-size: 0.9375rem; }
+.t-reads a { color: var(--accent); text-decoration: none; }
+.t-reads a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+.t-who { font-weight: 600; color: var(--ink); }
+.t-when { font-size: 0.8125rem; color: var(--muted); white-space: nowrap; }
+/* Reflow: at small sizes or large text, a long headline word must break rather than
+   push the page sideways, and the footer links wrap onto a second line. */
+.card h2, .card .sub, .page-title, .article-head h1, .lvl-head h2 { overflow-wrap: break-word; }
+.foot-links { flex-wrap: wrap; }
+.thumb .blank { padding: 12px 6px; }
+
+/* Narrow phones: the logo already goes home, so the Articles link can stand down and
+   let the brand, About and the account button share 280px without the page scrolling sideways. */
+@media (max-width: 480px) {
+  .site-header .wrap { gap: 8px; min-height: 58px; }
+  .brand { font-size: 1.0625rem; gap: 7px; }
+  .brand svg { width: 22px; height: 22px; }
+  .site-nav .nav-articles { display: none; }
+  .acct { margin-left: 2px; }
+}
+
+@media (max-width: 560px) {
+  .site-header .wrap { gap: 10px; }
+  .site-nav { gap: 14px; }
+  .site-nav a { font-size: 0.875rem; }
+  .acct { margin-left: 4px; }
+  .acct-btn { padding: 5px 11px; font-size: 0.8125rem; }
+  .acct-name { display: none; }
+  .acct-me { padding: 3px; }
+  .t-members td:nth-child(2), .t-members th:nth-child(2), .t-members td:nth-child(3), .t-members th:nth-child(3), .t-members td:nth-child(5), .t-members th:nth-child(5) { display: none; }
+  .t-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .t-detail td { padding: 12px; }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm 15mm 17mm;
+    @bottom-left { content: "johnplusnews.com"; font: 500 7.5pt 'Outfit', system-ui, sans-serif; color: #7a808c; vertical-align: top; padding-top: 3mm; }
+    @bottom-right { content: counter(page) " / " counter(pages); font: 500 7.5pt 'Outfit', system-ui, sans-serif; color: #7a808c; vertical-align: top; padding-top: 3mm; }
+  }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { display: block; min-height: 0; background: #fff; color: #1b1d22; font-size: 10pt; line-height: 1.5; }
+  .jt, .jt-bar,
+  .skip, .site-header, .site-footer, .acct-toast, .acct-back, .back, .vtabs, .tools, .pager, .listen, .topics, .filters, .hl-hint, .guide, .intro-links, .hl-pill, .hl-actions, .hl-list .x, .lvl-head, noscript { display: none !important; }
+  main { display: block; }
+  .wrap { max-width: none; width: auto; margin: 0; padding: 0; }
+  a { color: inherit; text-decoration: none; }
+
+  .article-head { padding: 0 0 5mm; margin: 0 0 6mm; border-bottom: 0.5pt solid #cfd4dc; }
+  .metarow { display: block; margin: 0; }
+  .metaleft { display: flex; align-items: center; gap: 0 3mm; }
+  .metaleft[data-print-level]::before { content: attr(data-print-level); font-size: 7.5pt; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); }
+  .meta { font-size: 8.5pt; }
+  .article-head h1 { font-size: calc(25pt * var(--fs, 1)); line-height: 1.08; letter-spacing: -0.025em; margin: 3mm 0 3mm; break-after: avoid; text-wrap: balance; }
+  .dek { font-size: calc(12pt * var(--fs, 1)); line-height: 1.4; color: #4a4f5a; margin: 0 0 5mm; }
+  .hero { break-inside: avoid; }
+  .hero-img { width: 100%; height: 74mm; aspect-ratio: auto; object-fit: cover; object-position: center 40%; border-radius: 0; }
+  .credit { font-size: 7pt; line-height: 1.35; color: #6b7280; margin: 1.5mm 0 0; }
+
+  .prose { font-family: Georgia, 'Times New Roman', serif; font-size: calc(9.8pt * var(--fs, 1)); line-height: 1.5; padding: 0; column-count: 2; column-gap: 9mm; column-rule: 0.5pt solid #dcdfe5; text-align: justify; -webkit-hyphens: auto; hyphens: auto; orphans: 3; widows: 3; }
+  [data-font] .prose { line-height: 1.55; }
+  .prose p { margin: 0 0 0.7em; }
+  .prose h2 { font-size: 12pt; margin: 1em 0 0.35em; break-after: avoid; }
+  .prose h3 { font-size: 10.5pt; margin: 0.9em 0 0.3em; break-after: avoid; }
+  .prose ul { margin: 0 0 0.7em; }
+  .prose blockquote { margin: 0.8em 0; padding: 3mm 4mm; background: #f2f5fc; break-inside: avoid; }
+  .prose figure { margin: 0.8em 0; break-inside: avoid; }
+  .prose figure img { border-radius: 0; }
+
+  mark.hl { text-decoration-color: var(--hl); text-decoration-thickness: 1.3pt; text-underline-offset: 0.2em; }
+
+  .hl-list { margin: 7mm 0 0; padding-top: 4mm; border-top: 0.5pt solid #cfd4dc; }
+  .hl-title { font-size: 7.5pt; margin: 0 0 2mm; break-after: avoid; }
+  .hl-list ol { column-count: 2; column-gap: 9mm; }
+  .hl-list li { grid-template-columns: 7mm minmax(0, 1fr); padding: 1.4mm 0; border-bottom: 0.3pt solid #e6e8ec; break-inside: avoid; }
+  .hl-list .n { font-size: 7.5pt; }
+  .hl-list .w { font-size: 9.5pt; line-height: 1.35; }
+
+  .qs-group { border: 0; border-radius: 0; margin: 0; }
+  .qs-group .qs, .qs { border: 0; margin: 5mm 0 0; padding: 4mm 5mm 3mm; background: #f3f6fc; break-inside: avoid; }
+  .qs::details-content { content-visibility: visible; display: block; }
+  .qs summary { display: block; min-height: 0; margin: 0 0 2mm; font-size: 7.5pt; color: var(--accent); }
+  .qs summary svg, .qs-count { display: none; }
+  .qs ol { margin: 0; padding-left: 5mm; font-family: Georgia, 'Times New Roman', serif; font-size: calc(9.6pt * var(--fs, 1)); line-height: 1.45; }
+  .qs li { margin: 0 0 1.2mm; padding-left: 0; }
+  .ex-wrap { margin: 0; }
+  .ex-block, .ex-total { border: 0.3pt solid #ccc; border-radius: 0; padding: 3mm 4mm; margin-top: 3mm; break-inside: avoid; }
+  .ex-actions, .ex-sel, .ex-total { display: none; }
+  .ex-term { display: inline-block; min-width: 42mm; margin-bottom: 0; }
+  .ex-write { display: inline-block; min-width: 11mm; margin-left: 2mm; border-bottom: 0.5pt solid #333; }
+  .ex-write-hint { display: block; margin: 1.5mm 0 0; font-size: 8pt; color: #4a4f5a; }
+  .ex-key { display: block; list-style: none; margin: 1.5mm 0 0; padding: 0; font-size: calc(9pt * var(--fs, 1)); line-height: 1.5; }
+  .ex-key li { margin: 0 0 0.8mm; }
+  .ex-key b { display: inline-block; min-width: 5mm; color: var(--accent); }
+  .ex-bank { background: #f3f6fc; padding: 2.5mm 3mm; margin-bottom: 3mm; }
+  .ex-chip { font-size: 8pt; padding: 0.6mm 2.2mm; }
+  .ex-chip.used { color: var(--accent); background: #fff; border-style: solid; }
+  .ex-wrap .ex-list { font-size: calc(9.2pt * var(--fs, 1)); line-height: 2; padding-left: 5mm; }
+  .ex-gap, .ex-in { border-bottom: 0.5pt solid #333; background: none; box-shadow: none; color: #333; min-width: 16mm; }
+  .ex-opt { color: #333; border-color: #777; background: none; font-size: 7.5pt; padding: 0.4mm 2mm; min-height: 0; }
+  .ex-h { font-size: 9pt; }
+  .ex-lead { font-size: 8pt; }
+  .qs-before { margin: 6mm 0 0; }
+  .qs-after { margin: 7mm 0 0; }
+  .kl { text-decoration-color: var(--accent); text-decoration-thickness: 0.8pt; text-underline-offset: 0.18em; }
+  .kl-pop { display: none !important; }
+  .kl-box { margin: 5mm 0 6mm; padding: 0 5mm 1.5mm; background: #f3f6fc; border-radius: 0; break-inside: avoid; }
+  .kl-box::details-content { content-visibility: visible; display: block; }
+  .kl-box summary { display: block; min-height: 0; padding: 3.5mm 0 1mm; }
+  .kl-box summary svg, .kl-count { display: none; }
+  .kl-body { padding: 0; }
+  .kl-head { margin: 0; }
+  .kl-title { font-size: 7.5pt; }
+  .kl-note, .kl-btns { display: none !important; }
+  .kl-cols { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 5mm; }
+  .kl-h { font-size: 6.5pt; margin: 2mm 0 0.5mm; }
+  .kl-list { margin: 0 0 1mm; padding: 0; }
+  .kl-row::before { left: -3.2mm; top: 0; font-size: 9pt; }
+  .kl-row { padding: 0.5mm 0 1mm; line-height: 1.3; }
+  .kl-t { font-size: calc(9pt * var(--fs, 1)); }
+  .kl-m { font-size: calc(8pt * var(--fs, 1)); filter: none !important; }
+
+  .source { font-size: 8pt; margin: 5mm 0 0; padding-top: 2.5mm; }
+  .print-foot { display: block; margin: 3mm 0 0; font-size: 7pt; color: #7a808c; }
+}
+
+/* Chrome and Edge print their own date, title and web address in the page margin unless the margin is zero.
+   So where each page can repeat its own padding, the page margin is set to zero and the padding makes the white border instead. */
+@supports (box-decoration-break: clone) or (-webkit-box-decoration-break: clone) {
+  @media print {
+    @page { margin: 0; @bottom-left { content: none; } @bottom-right { content: none; } }
+    main > article.wrap { padding: 14mm 15mm 17mm; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+  }
+}
+
+/* The definition shown when a reader taps one of their own highlights. Sits
+   below the line where there is room, so the word itself stays visible, and
+   repeats the word so the reader keeps their place. */
+.hl-def { position: absolute; z-index: 70; max-width: min(330px, calc(100vw - 16px)); background: #fff; color: var(--text); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 14px 34px -14px rgba(16, 24, 40, 0.38); padding: 11px 14px 12px; font-size: 0.9375rem; line-height: 1.45; }
+.hl-def[hidden] { display: none; }
+.hl-def-w { display: block; font-weight: 700; font-size: 1rem; margin-bottom: 3px; }
+.hl-def-body { display: block; }
+.hl-def-pos { font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 7px; }
+.hl-def-note { color: #98a0ad; }
+.hl-def-ask { color: var(--accent); font-weight: 600; cursor: pointer; }
+/* A quiet pill floating below the panel, outside its card: the same shape
+   language as the highlight pill, but light rather than black, so removing
+   stays available without competing with the meaning the reader came for. */
+.hl-rm { position: absolute; z-index: 69; font: inherit; font-size: 0.8125rem; font-weight: 600; line-height: 1; color: #6b7280; background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; cursor: pointer; white-space: nowrap; box-shadow: 0 4px 12px -6px rgba(16, 24, 40, 0.3); transition: color 0.12s, border-color 0.12s, background 0.12s; }
+.hl-rm[hidden] { display: none; }
+.hl-rm:hover, .hl-rm:focus-visible { color: #b42318; border-color: #f0c2bd; background: #fdf4f3; }
+
+/* Teens: the collection page, its cards and the activity block */
+.eyebrow { margin: 0; padding-top: 30px; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+.teens-h { margin: 6px 0 0; font-size: clamp(2rem, 7.5vw, 3.25rem); line-height: 1.08; letter-spacing: -0.025em; word-spacing: normal; max-width: 14em; }
+.teens-copy { margin: 14px 0 0; max-width: 36em; font-size: 1.125rem; line-height: 1.55; color: var(--text); }
+.teens-small { margin: 8px 0 0; font-size: 0.9375rem; color: var(--muted); }
+.btn-primary { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; margin-top: 20px; padding: 0 26px; border-radius: 10px; background: var(--accent); color: #fff; font-weight: 600; font-size: 1rem; text-decoration: none; }
+.btn-primary:hover { background: #174cb8; }
+.btn-primary:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.teens-hero .wrap { padding-bottom: 30px; }
+.teens-filters { margin-top: 30px; }
+.teens-filters .chips[hidden] { display: none; }
+button.chip { font: inherit; font-size: 0.875rem; font-weight: 600; cursor: pointer; min-height: 44px; padding: 4px 16px; }
+.chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.tcount { margin: 0; font-size: 0.875rem; color: var(--muted); white-space: nowrap; }
+.tcard .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin: 0; }
+.tcard .meta span + span::before { content: none; }
+.feat { display: inline-block; padding: 1px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+.tcard .lvls { margin: 10px 0 0; font-size: 0.8125rem; font-weight: 600; color: var(--muted); letter-spacing: 0.02em; }
+.thumb .blank { background: var(--accent-soft); }
+.linkbtn { font: inherit; background: none; border: 0; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; text-underline-offset: 0.18em; }
+.teens-note { margin: 10px 0 0; font-size: 0.9375rem; color: var(--muted); }
+.act { margin: 0; padding: 18px 18px 8px; background: var(--accent-soft); border-top: 1px solid var(--line); }
+.act-h { margin: 0 0 6px; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); word-spacing: normal; }
+.act p { margin: 0 0 0.8em; color: var(--ink); }
+.qs-group .qs-after[open] { background: #fff; }
+/* on the Teens page the members notice is a slim strip, so the first story stays in view */
+#stories .gate-note { margin: 14px 0 0; padding: 12px 16px; gap: 8px 16px; border-radius: 12px; }
+#stories .gate-note p { font-size: 0.9375rem; line-height: 1.45; }
+#stories .gate-note .acct-go { padding: 8px 18px; font-size: 0.9375rem; min-height: 40px; }
+#stories .gate-note + .gallery { margin-top: 22px; }
+.teens-hero .btn-primary { margin-top: 16px; }
+.teens-copy { font-size: 1.0625rem; }
+@media (min-width: 700px) { .teens-copy { font-size: 1.125rem; } }
+@media (max-width: 560px) {
+  .eyebrow { padding-top: 18px; }
+  .teens-h { font-size: 1.875rem; margin-top: 4px; }
+  .teens-copy { font-size: 1rem; line-height: 1.5; margin-top: 10px; }
+  .teens-small { font-size: 0.875rem; margin-top: 6px; }
+  .teens-hero .btn-primary { min-height: 44px; margin-top: 12px; padding: 0 22px; }
+  .teens-hero .wrap { padding-bottom: 20px; }
+  .teens-filters { margin-top: 18px; }
+  #stories .gate-note { margin-top: 12px; }
+  #tgrid .card { padding-top: 22px; }
+}
+/* the smallest phones: the Teens link needs the room, so the logo shows as a wordmark only */
+@media (max-width: 340px) {
+  .brand svg { display: none; }
+  .site-nav { gap: 10px; }
+}
+
+/* Right and wrong are never shown by colour alone: a tick or cross, a strike-through and a border style say it too */
+.ex-opt.ok::before, .ex-opt.no::before, .ex-gap.ok::after, .ex-gap.no::after {
+  content: ""; display: inline-block; width: 0.85em; height: 0.85em; vertical-align: -0.08em; background: currentColor;
+  -webkit-mask: var(--ic) center / contain no-repeat; mask: var(--ic) center / contain no-repeat;
+}
+.ex-opt.ok::before { margin-right: 0.4em; }
+.ex-opt.no::before { margin-right: 0.4em; }
+.ex-gap.ok::after, .ex-gap.no::after { margin-left: 0.4em; }
+.ex-opt.ok, .ex-gap.ok { --ic: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5' fill='none' stroke='%23000' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+.ex-opt.no, .ex-gap.no { --ic: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 6l12 12M18 6L6 18' fill='none' stroke='%23000' stroke-width='3.4' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.ex-gap.no, .ex-in.no { text-decoration: line-through; text-decoration-thickness: 2px; }
+.ex-in.ok { border-bottom-width: 3px; }
+.ex-in.no { border-bottom-style: dashed; }
+.ex-sel.ok { border-width: 2px; border-style: solid; }
+.ex-sel.no { border-width: 2px; border-style: dashed; }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path d="M5 20h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.5A1.5 1.5 0 0 1 4.5 21 2.5 2.5 0 0 1 2 18.5V11a2 2 0 0 1 2-2h2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.5h8M10 11.5h8M10 15.5h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="wm">john<span>plus</span>news</span></a>
+    <nav class="site-nav" aria-label="Main"><a class="nav-articles" href="/">Articles</a><a class="nav-teens" href="/teens/" aria-current="page">Teens</a><a class="nav-about" href="/about/">About</a></nav>
+  </div>
+</header>
+<main id="main">
+<article class="wrap" data-locked="1">
+<header class="article-head">
+<a class="back" href="/teens/">&larr; Teens</a>
+<div class="metarow has-tabs"><div class="metaleft" data-print-level="Intermediate"><div class="vtabs" role="tablist" aria-label="Reading level" data-tabs><button type="button" role="tab" id="tab-core" aria-controls="v-core" aria-selected="false" tabindex="-1" data-level="core" data-title="Would You Let AI Help with Your Homework?" data-sub="Many young people in the UK use AI. Is it a helper or a shortcut? That depends on who does the thinking." title="Short sentences and everyday words.">Core</button><button type="button" role="tab" id="tab-intermediate" aria-controls="v-intermediate" aria-selected="true" tabindex="0" data-level="intermediate" data-title="AI Did the Homework. Who Did the Learning?" data-sub="More than half of UK children aged 8 to 17 use AI, according to Ofcom. The harder question is what a student still has to do for themselves." title="Longer sentences and more detail.">Intermediate</button><button type="button" role="tab" id="tab-advanced" aria-controls="v-advanced" aria-selected="false" tabindex="-1" data-level="advanced" data-title="When Does Homework Help Become Someone Else&#x27;s Work?" data-sub="Ofcom found that more than half of UK children aged 8 to 17 use AI. The harder question is not whether students use help, but what they still have to do themselves." title="Complex sentences and ideas to argue with.">Advanced</button></div><p class="meta"><span class="lvl">School life</span><span>25 October 2026</span></p></div><div class="tools"><div class="fontpick"><div class="fdrop"><button type="button" class="fbtn" id="fbtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="flab fcur"><span class="flab" id="flab">Font</span><span id="fcur">Georgia</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button><ul class="fmenu" id="fmenu" role="listbox" aria-labelledby="flab" hidden><li role="option" class="fo-default" data-font="default" data-short="Georgia" aria-selected="true" tabindex="-1"><span>Georgia</span><svg class="chk" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></li><li role="option" class="fo-outfit" data-font="outfit" data-short="Outfit" aria-selected="false" tabindex="-1"><span>Outfit</span><svg class="chk" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></li></ul></div></div><button type="button" class="pdfbtn" id="pdfbtn" aria-label="Save this article as a PDF"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 4v11M7 11l5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>PDF</span></button></div></div>
+<aside class="guide" id="firstrun" hidden aria-labelledby="firstrun-h"><h2 id="firstrun-h">New here? This is how it works.</h2><ul><li>Pick <b>Core</b>, <b>Intermediate</b> or <b>Advanced</b> above. Same story, different English.</li><li>Select any words you want to keep, then press Highlight.</li><li>They wait for you in <b>My words</b>, with the sentence you found them in.</li><li>Scroll to the bottom for exercises and questions to talk about.</li></ul><button type="button" class="guide-x">Got it</button></aside>
+<script>(function(){var b=document.getElementById("fbtn"),m=document.getElementById("fmenu"),c=document.getElementById("fcur");if(!b||!m)return;var o=[].slice.call(m.querySelectorAll("[role=option]"));function sel(k,save){var f=o.filter(function(x){return x.getAttribute("data-font")===k})[0]||o[0];k=f.getAttribute("data-font");o.forEach(function(x){x.setAttribute("aria-selected",x===f)});c.textContent=f.getAttribute("data-short")||f.firstChild.textContent;if(k==="default")document.documentElement.removeAttribute("data-font");else{document.documentElement.setAttribute("data-font",k)}if(save){try{localStorage.setItem("jpn_font",k)}catch(e){}try{document.dispatchEvent(new CustomEvent("jpn:pref",{detail:{font:k}}))}catch(e){}}}function open(){m.hidden=false;b.setAttribute("aria-expanded","true");(o.filter(function(x){return x.getAttribute("aria-selected")==="true"})[0]||o[0]).focus()}function close(back){m.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus()}var s="";try{s=localStorage.getItem("jpn_font")||""}catch(e){}sel(s,false);window.jpnFontSet=function(k){sel(k,false)};b.addEventListener("click",function(){m.hidden?open():close(true)});b.addEventListener("keydown",function(e){if(e.key==="ArrowDown"){e.preventDefault();open()}});o.forEach(function(x,i){x.addEventListener("click",function(){sel(x.getAttribute("data-font"),true);close(true)});x.addEventListener("keydown",function(e){var k=e.key;if(k==="ArrowDown"){e.preventDefault();o[Math.min(i+1,o.length-1)].focus()}else if(k==="ArrowUp"){e.preventDefault();o[Math.max(i-1,0)].focus()}else if(k==="Home"){e.preventDefault();o[0].focus()}else if(k==="End"){e.preventDefault();o[o.length-1].focus()}else if(k==="Enter"||k===" "){e.preventDefault();sel(x.getAttribute("data-font"),true);close(true)}else if(k==="Escape"||k==="Tab"){close(k==="Escape")}})});document.addEventListener("click",function(e){if(!m.hidden&&!e.target.closest(".fdrop"))close(false)})})();</script>
+<script>(function(){var b=document.getElementById("pdfbtn");if(!b)return;var old="";b.addEventListener("click",function(){window.print()});var shut=[];window.addEventListener("beforeprint",function(){shut=[].slice.call(document.querySelectorAll("details.qs,details.kl-box")).filter(function(d){return!d.open});shut.forEach(function(d){d.open=true});old=document.title;var h=document.querySelector(".article-head h1"),l=document.querySelector(".metaleft"),lv=l&&l.getAttribute("data-print-level");if(h)document.title=h.textContent+(lv?" ("+lv+")":"")});window.addEventListener("afterprint",function(){shut.forEach(function(d){d.open=false});shut=[];if(old)document.title=old})})();</script>
+<p class="story-id">AI Did the Homework. Who Did the Learning?</p><h1>AI Did the Homework. Who Did the Learning?</h1>
+<p class="dek">More than half of UK children aged 8 to 17 use AI, according to Ofcom. The harder question is what a student still has to do for themselves.</p>
+<figure class="hero"><img class="hero-img" src="/images/ai-did-the-homework-who-did-the-learning-324254.jpg" alt="An open notebook with a pencil and a speech bubble containing a sparkle."><figcaption class="credit">Illustration: created for johnplusnews</figcaption></figure>
+
+<div class="qs-group"><details hidden class="qs qs-before" data-qlevel="core"><summary><span class="qs-label">Warm up</span><span class="qs-count">3 questions</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><ol><li>Would you prefer a hint, an example or the finished answer?</li><li>How do you know when you really understand something?</li><li>What makes homework help useful?</li></ol></details><details class="qs qs-before" data-qlevel="intermediate"><summary><span class="qs-label">Warm up</span><span class="qs-count">3 questions</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><ol><li>Would you prefer a hint, an example or the finished answer, and does it depend on the subject?</li><li>How do you know when you really understand something?</li><li>What makes homework help useful, and what makes it useless?</li></ol></details><details hidden class="qs qs-before" data-qlevel="advanced"><summary><span class="qs-label">Warm up</span><span class="qs-count">3 questions</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><ol><li>Would you prefer a hint, an example or the finished answer, and what does your choice say about how you work?</li><li>How do you know when you really understand something, and who else could tell?</li><li>What makes homework help useful, and when does help stop being help?</li></ol></details></div>
+</header>
+<div class="panels"><section class="panel" role="tabpanel" id="v-core" aria-labelledby="tab-core" hidden><h2 class="lvl-head">Core version</h2><div class="prose">
+<p>Imagine you have a difficult homework question. You ask an AI tool, and ten seconds later you have a perfect answer. You copy it. The next day, your teacher asks, "Can you explain how you got this?" What do you say?</p>
+<p>In May 2026, Ofcom, the media regulator in the United Kingdom, published new research on children's online lives. It said that 56 out of 100 children aged 8 to 17 use AI. Among 16- and 17-year-olds, it is 66 out of 100.</p>
+<p>Ofcom also said that many children don't seem to know how AI works, and that few of them ask whether the answers are correct. These numbers come from the UK, so they don't tell us what students in your country do. And they don't show that AI makes students learn more or less.</p>
+<p>Not all help is the same. Think about three kinds. First, help that explains: a hint, or the meaning of a word. Second, help that checks: you write your own answer, and then someone shows you a mistake. Third, help that does the work: someone gives you the finished answer. The first two can help you learn. The third can leave you with a good answer and no idea how it works.</p>
+<p>There are two different problems here. One is accuracy: is the answer right? An AI tool can sound sure and still be wrong, so you need to check. The other is ownership: whose work is it? Even a correct answer isn't your learning if you didn't do the thinking.</p>
+<p>Teachers and schools have different rules, so find out what is allowed in your class. You can ask the same question about any help, from a book, a friend or a tool. Did I do the thinking?</p>
+<p>So here is your choice. You have one difficult task. You can ask for one hint, or you can ask for the whole answer. Which do you choose, and when would you change your mind?</p>
+</div></section><section class="panel" role="tabpanel" id="v-intermediate" aria-labelledby="tab-intermediate"><h2 class="lvl-head">Intermediate version</h2><div class="prose">
+<p>A student hands in a perfect paragraph on Monday. On Tuesday the teacher asks her to explain the second sentence, and she can't. Nothing in the paragraph is wrong. The problem is that nobody can say who did the thinking.</p>
+<p>That situation is becoming easier to imagine. In May 2026, the UK media regulator Ofcom published research on how children spend their time online. It reported that 56% of 8 to 17-year-olds in the UK use AI, rising to 66% of 16 and 17-year-olds. It also described limited understanding of how AI works. Many children didn't appear to distinguish between different AI tools, and few questioned the accuracy of what they were told.</p>
+<p>These figures describe children in the UK, not every teenager in the world, and they come from research about media use, not an experiment about learning. They don't show whether AI makes students learn more or less. They simply show that, for many young people, AI is already part of the routine.</p>
+<p>It helps to separate three kinds of help, although this is our own way of thinking, not an Ofcom finding. Help that explains gives you a hint, an example or the meaning of a word. Help that checks looks at your own attempt and points out mistakes. Help that replaces the task hands you the finished answer. In general, the first two leave the thinking with you, while the third takes it away.</p>
+<p>Two different questions follow. The first is accuracy: is the answer correct? A confident answer can still be wrong, so checking matters. The second is ownership: whose work is it? An accurate answer you cannot explain is still not your learning. A teacher who asks for an explanation is testing the second question, not the first.</p>
+<p>Rules differ from school to school, so the safest habit is to ask what is allowed for each task. Whatever the rule, you can use the same test for help from a tool, a friend or a book: could I explain this tomorrow without looking?</p>
+<p>So imagine you are stuck on a difficult task tonight. You can ask for one hint or for the full answer. Which would you choose, and what would make you choose the other?</p>
+</div></section><section class="panel" role="tabpanel" id="v-advanced" aria-labelledby="tab-advanced" hidden><h2 class="lvl-head">Advanced version</h2><div class="prose">
+<p>Every homework task contains a quiet agreement: the work you hand in shows what you can do. Help has always bent that agreement, from the parent who "just checks" to the friend who explains the method. AI did not create the problem, but it makes the finished answer arrive in seconds, which changes how tempting the shortcut is.</p>
+<p>In May 2026, Ofcom, the UK's media regulator, published its latest research on children's online lives. It reported that 56% of 8 to 17-year-olds used AI, rising to 66% among 16 and 17-year-olds. It also described limited understanding of how AI works: many children did not appear to distinguish between different tools, and few questioned the accuracy of the answers they received.</p>
+<p>Those figures need careful handling. They describe children in the UK, they come from media research rather than an education trial, and they say nothing about whether AI use helps or harms learning. Nor do they tell us how students use it, and asking for a definition and asking for an essay are both "using AI".</p>
+<p>A more useful question is what kind of help a student is receiving. Help that explains offers a hint, an example or a definition. Help that checks responds to an attempt that already exists. Help that replaces the task supplies the work itself. These categories are a teaching tool, not research findings, and the boundaries blur: a model paragraph might explain one student's problem and become another student's shortcut.</p>
+<p>Accuracy and ownership are separate tests, and a piece of work can pass one and fail the other. A fluent answer can be wrong, which is a problem of accuracy. A correct answer can be unexplained, which is a problem of ownership. Teachers who ask students to explain their work are mostly testing ownership, and a student who can explain an answer usually has some claim to it, whoever helped.</p>
+<p>Fairness complicates the picture. Access to devices, internet and better paid tools varies, and so does support at home, so a rule that assumes everyone can use AI equally may reward those who already have the most. A rule that bans it may be impossible to check. Some teachers change the task rather than the rule: they ask students to explain an answer aloud, to show drafts or to write part of the work in class, so that the thinking becomes visible whatever tools were used.</p>
+<p>A defensible rule has to answer two questions at once: what may a student receive, and what must they still do themselves? Where would you draw that line for a history essay, a maths problem and a speaking test? And would your answer change if every student had exactly the same access?</p>
+</div></section></div>
+<script>(function(){var r=document.querySelector("[data-tabs]");if(!r)return;var t=[].slice.call(r.querySelectorAll("[role=tab]"));function qlev(k){[].forEach.call(document.querySelectorAll("[data-qlevel]"),function(p){p.hidden=p.getAttribute("data-qlevel")!==k})}function show(k,save){var ok=t.some(function(x){return x.getAttribute("data-level")===k});if(!ok)return false;t.forEach(function(x){var l=x.getAttribute("data-level"),on=l===k;x.setAttribute("aria-selected",on);x.tabIndex=on?0:-1;document.getElementById("v-"+l).hidden=!on;var q=document.getElementById("l-"+l);if(q){q.hidden=!on;var au=q.querySelector("audio");if(au&&!on&&!au.paused)au.pause()}if(on){var tt=x.getAttribute("data-title"),ss=x.getAttribute("data-sub"),h=document.querySelector(".article-head h1"),d=document.querySelector(".dek"),ml=document.querySelector(".metaleft");if(ml)ml.setAttribute("data-print-level",x.textContent);if(h&&tt)h.textContent=tt;if(d&&ss)d.textContent=ss;if(tt)document.title=tt+" | "+document.title.split(" | ").pop()}});qlev(k);if(save){try{localStorage.setItem("jpn_level",k)}catch(e){}try{history.replaceState(null,"","#"+k)}catch(e){}try{document.dispatchEvent(new CustomEvent("jpn:pref",{detail:{level:k}}))}catch(e){}}return true}var s="";try{s=localStorage.getItem("jpn_level")||""}catch(e){}if(!show(location.hash.slice(1).toLowerCase(),false))show(s,false);t.forEach(function(x,i){x.addEventListener("click",function(){show(x.getAttribute("data-level"),true)});x.addEventListener("keydown",function(e){var n=e.key==="ArrowRight"?i+1:e.key==="ArrowLeft"?i-1:-1;if(n<0||n>=t.length)return;e.preventDefault();t[n].focus();show(t[n].getAttribute("data-level"),true)})});function ready(){var s=r.querySelector('[role=tab][aria-selected="true"]');if(s)qlev(s.getAttribute("data-level"))}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",ready);else ready();window.addEventListener("hashchange",function(){show(location.hash.slice(1).toLowerCase(),false)})})();</script>
+<div class="qs-group"><details hidden class="qs qs-after" data-qlevel="core" open><summary><span class="qs-label">Talk about it</span><span class="qs-count">5 questions</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><ol><li>You can ask for one hint or the full answer to a hard task. Which would you choose? Start with: I would choose ... because ...</li><li>Is asking AI to explain a word different from asking it to write a paragraph for you? Why?</li><li>A homework answer looks excellent, but the student cannot explain it. What should the teacher do next?</li><li>What would be a fair rule about AI when some students have more technology than others?</li><li>Think of a task where students could use AI but still need to think. What is it?</li></ol><p class="qs-note">You can talk about people in general instead of yourself, and you can pass on any question.</p></details><details class="qs qs-after" data-qlevel="intermediate" open><summary><span class="qs-label">Talk about it</span><span class="qs-count">5 questions</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><ol><li>You can ask for one hint or the full answer to a difficult task. Which would you choose, and when?</li><li>Is asking AI to explain a word different from asking it to write a paragraph for you?</li><li>A homework answer looks excellent, but its writer cannot explain it. What should the teacher do next?</li><li>What would a fair AI rule look like for students with different access to technology?</li><li>Design one task where students could use AI but would still need to show their own thinking.</li></ol><p class="qs-note">You can talk about people in general instead of yourself, and you can pass on any question.</p></details><details hidden class="qs qs-after" data-qlevel="advanced" open><summary><span class="qs-label">Talk about it</span><span class="qs-count">5 questions</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><ol><li>You can ask for one hint or the full answer to a difficult task. Which would you choose, and has your answer ever changed under pressure?</li><li>Is asking AI to explain a word different from asking it to write a paragraph for you, and where exactly does the difference begin?</li><li>A homework answer looks excellent, but its writer cannot explain it. What should the teacher do next, and what would be unfair to the student?</li><li>What would a fair AI rule look like for students with different access to technology, and who should be allowed to write it?</li><li>Design one task where students could use AI but would still need to show their own thinking. How would a teacher know?</li></ol><p class="qs-note">You can talk about people in general instead of yourself, and you can pass on any question.</p></details><section class="act"><h3 class="act-h">Try it</h3><p>Sort these six kinds of help into three groups: usually useful, depends on the task, and replaces the task. (1) A friend explains what a word in the question means. (2) You write a paragraph, then someone points out two spelling mistakes. (3) Someone gives you the full answer to copy. (4) A teacher shows a similar example with different numbers. (5) A tool suggests a better first sentence and you rewrite it in your own words. (6) A tool writes a whole essay and you change three words. In groups, explain one thing you disagreed about. No AI account or tool is needed, because this is a thinking task.</p></section><details class="qs qs-ex"><summary><span class="qs-label">Exercises</span><span class="qs-count">4 exercises</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><div class="ex-wrap"><div class="ex-level" data-ex-level="core" hidden><section class="ex-block" data-ex="gap"><h3 class="ex-h">1. Complete the sentences</h3><p class="ex-lead">Drag a word into each gap, or tap a word and then tap a gap. Tap a filled gap to put the word back. Two words are not needed.</p><div class="ex-bank" data-bank><button type="button" class="ex-chip" draggable="true" data-w="accuracy">accuracy</button><button type="button" class="ex-chip" draggable="true" data-w="ask">ask</button><button type="button" class="ex-chip" draggable="true" data-w="explains">explains</button><button type="button" class="ex-chip" draggable="true" data-w="published">published</button><button type="button" class="ex-chip" draggable="true" data-w="regulator">regulator</button><button type="button" class="ex-chip" draggable="true" data-w="routine">routine</button><button type="button" class="ex-chip" draggable="true" data-w="wrong">wrong</button></div><ol class="ex-list"><li>In May 2026, Ofcom <button type="button" class="ex-gap" data-a="published" aria-label="Gap 1, empty"></button> new research on children&#x27;s online lives.</li><li>Ofcom said that few children <button type="button" class="ex-gap" data-a="ask" aria-label="Gap 2, empty"></button> whether the answers are correct.</li><li>Help that <button type="button" class="ex-gap" data-a="explains" aria-label="Gap 3, empty"></button> gives you a hint or the meaning of a word.</li><li>An AI tool can sound sure and still be <button type="button" class="ex-gap" data-a="wrong" aria-label="Gap 4, empty"></button>.</li><li>One problem is <button type="button" class="ex-gap" data-a="accuracy" aria-label="Gap 5, empty"></button>: is the answer right?</li></ol><div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button><button type="button" class="ex-btn ex-ghost" data-show>Show answers</button><button type="button" class="ex-btn ex-ghost" data-reset>Try again</button><span class="ex-score" role="status"></span></div></section><section class="ex-block" data-ex="match"><h3 class="ex-h">2. Match the meaning</h3><p class="ex-lead">Choose the meaning of each word or phrase as it is used in the article.</p><ol class="ex-list ex-match"><li><span class="ex-term">accuracy</span><span class="ex-write"></span><select class="ex-sel" data-a="0" aria-label="Meaning of accuracy"><option value="">Choose a meaning</option><option value="1">an organisation that checks that rules are followed</option><option value="3">a small clue that helps you find an answer</option><option value="0">being correct</option><option value="2">the fact that something is yours</option></select></li><li><span class="ex-term">regulator</span><span class="ex-write"></span><select class="ex-sel" data-a="1" aria-label="Meaning of regulator"><option value="">Choose a meaning</option><option value="1">an organisation that checks that rules are followed</option><option value="3">a small clue that helps you find an answer</option><option value="0">being correct</option><option value="2">the fact that something is yours</option></select></li><li><span class="ex-term">ownership</span><span class="ex-write"></span><select class="ex-sel" data-a="2" aria-label="Meaning of ownership"><option value="">Choose a meaning</option><option value="1">an organisation that checks that rules are followed</option><option value="3">a small clue that helps you find an answer</option><option value="0">being correct</option><option value="2">the fact that something is yours</option></select></li><li><span class="ex-term">hint</span><span class="ex-write"></span><select class="ex-sel" data-a="3" aria-label="Meaning of hint"><option value="">Choose a meaning</option><option value="1">an organisation that checks that rules are followed</option><option value="3">a small clue that helps you find an answer</option><option value="0">being correct</option><option value="2">the fact that something is yours</option></select></li></ol><p class="ex-write-hint">Write the letter of the meaning next to each word.</p><ul class="ex-key"><li><b>A</b> an organisation that checks that rules are followed</li><li><b>B</b> a small clue that helps you find an answer</li><li><b>C</b> being correct</li><li><b>D</b> the fact that something is yours</li></ul><div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button><button type="button" class="ex-btn ex-ghost" data-show>Show answers</button><button type="button" class="ex-btn ex-ghost" data-reset>Try again</button><span class="ex-score" role="status"></span></div></section><section class="ex-block" data-ex="grammar"><h3 class="ex-h">3. Put the verb in the right form</h3><p class="ex-lead">Write the correct form of the verb in brackets.</p><ol class="ex-list"><li>In May 2026, Ofcom <input type="text" class="ex-in" size="11" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="published" aria-label="Answer for publish"> new research. <span class="ex-cue">(publish)</span></li><li>It <input type="text" class="ex-in" size="6" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="said" aria-label="Answer for say"> that 56 out of 100 children aged 8 to 17 use AI. <span class="ex-cue">(say)</span></li><li>Many children don&#x27;t seem to <input type="text" class="ex-in" size="6" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="know" aria-label="Answer for know"> how AI works. <span class="ex-cue">(know)</span></li><li>Second, help that checks: someone <input type="text" class="ex-in" size="7" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="shows" aria-label="Answer for show"> you a mistake. <span class="ex-cue">(show)</span></li><li>Even a correct answer isn&#x27;t your learning if you <input type="text" class="ex-in" size="5" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="did" aria-label="Answer for do"> not do the thinking. <span class="ex-cue">(do)</span></li></ol><div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button><button type="button" class="ex-btn ex-ghost" data-show>Show answers</button><button type="button" class="ex-btn ex-ghost" data-reset>Try again</button><span class="ex-score" role="status"></span></div></section><section class="ex-block" data-ex="tfn"><h3 class="ex-h">4. True, false or not given</h3><p class="ex-lead">Choose <b>Not given</b> if the article does not say, even when you think the statement is probably true.</p><ol class="ex-list ex-tfns"><li><span class="ex-stmt">Ofcom is the media regulator in the United Kingdom.</span><span class="ex-tfn" data-a="T" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>The text says: &quot;Ofcom, the media regulator in the United Kingdom, published new research on children&#x27;s online lives.&quot;</p></li><li><span class="ex-stmt">Ofcom says 56 out of 100 children aged 8 to 17 never use AI.</span><span class="ex-tfn" data-a="F" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>The text says the opposite: &quot;It said that 56 out of 100 children aged 8 to 17 use AI.&quot;</p></li><li><span class="ex-stmt">Among 16- and 17-year-olds, 66 out of 100 use AI.</span><span class="ex-tfn" data-a="T" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>The text says: &quot;Among 16- and 17-year-olds, it is 66 out of 100.&quot;</p></li><li><span class="ex-stmt">The numbers show that AI makes students learn more.</span><span class="ex-tfn" data-a="F" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>The text says the opposite: &quot;And they don&#x27;t show that AI makes students learn more or less.&quot;</p></li><li><span class="ex-stmt">Ofcom asked students in Spain about homework.</span><span class="ex-tfn" data-a="N" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>Not stated. This version does not give this information.</p></li></ol><div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button><button type="button" class="ex-btn ex-ghost" data-show>Show answers</button><button type="button" class="ex-btn ex-ghost" data-reset>Try again</button><span class="ex-score" role="status"></span></div></section><section class="ex-total"><div class="ex-total-head"><h3 class="ex-h">Your score</h3><p class="ex-lead">Do all four, then add them up.</p></div><div class="ex-total-actions"><button type="button" class="ex-btn ex-big" data-total>Total my score</button><button type="button" class="ex-btn ex-ghost" data-resetall>Start all four again</button></div><div class="ex-total-out" role="status" hidden><div class="ex-total-num"><b data-total-right>0</b><span>out of <b data-total-all>0</b></span></div><ul class="ex-total-list" data-total-list></ul><p class="ex-total-msg" data-total-msg></p></div></section></div><div class="ex-level" data-ex-level="intermediate"><section class="ex-block" data-ex="gap"><h3 class="ex-h">1. Complete the sentences</h3><p class="ex-lead">Drag a word into each gap, or tap a word and then tap a gap. Tap a filled gap to put the word back. Two words are not needed.</p><div class="ex-bank" data-bank><button type="button" class="ex-chip" draggable="true" data-w="checks">checks</button><button type="button" class="ex-chip" draggable="true" data-w="confident">confident</button><button type="button" class="ex-chip" draggable="true" data-w="limited">limited</button><button type="button" class="ex-chip" draggable="true" data-w="ownership">ownership</button><button type="button" class="ex-chip" draggable="true" data-w="questioned">questioned</button><button type="button" class="ex-chip" draggable="true" data-w="routine">routine</button><button type="button" class="ex-chip" draggable="true" data-w="thinking">thinking</button></div><ol class="ex-list"><li>The paragraph is not wrong. The problem is that nobody can say who did the <button type="button" class="ex-gap" data-a="thinking" aria-label="Gap 1, empty"></button>.</li><li>Ofcom described <button type="button" class="ex-gap" data-a="limited" aria-label="Gap 2, empty"></button> understanding of how AI works.</li><li>Few children <button type="button" class="ex-gap" data-a="questioned" aria-label="Gap 3, empty"></button> the accuracy of what they were told.</li><li>Help that <button type="button" class="ex-gap" data-a="checks" aria-label="Gap 4, empty"></button> looks at your own attempt and points out mistakes.</li><li>A <button type="button" class="ex-gap" data-a="confident" aria-label="Gap 5, empty"></button> answer can still be wrong, so checking matters.</li></ol><div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button><button type="button" class="ex-btn ex-ghost" data-show>Show answers</button><button type="button" class="ex-btn ex-ghost" data-reset>Try again</button><span class="ex-score" role="status"></span></div></section><section class="ex-block" data-ex="match"><h3 class="ex-h">2. Match the meaning</h3><p class="ex-lead">Choose the meaning of each word or phrase as it is used in the article.</p><ol class="ex-list ex-match"><li><span class="ex-term">regulator</span><span class="ex-write"></span><select class="ex-sel" data-a="0" aria-label="Meaning of regulator"><option value="">Choose a meaning</option><option value="3">to see the difference between two things</option><option value="0">an organisation that checks that rules are followed</option><option value="1">being correct</option><option value="2">the question of whose work something is</option></select></li><li><span class="ex-term">accuracy</span><span class="ex-write"></span><select class="ex-sel" data-a="1" aria-label="Meaning of accuracy"><option value="">Choose a meaning</option><option value="3">to see the difference between two things</option><option value="0">an organisation that checks that rules are followed</option><option value="1">being correct</option><option value="2">the question of whose work something is</option></select></li><li><span class="ex-term">ownership</span><span class="ex-write"></span><select class="ex-sel" data-a="2" aria-label="Meaning of ownership"><option value="">Choose a meaning</option><option value="3">to see the difference between two things</option><option value="0">an organisation that checks that rules are followed</option><option value="1">being correct</option><option value="2">the question of whose work something is</option></select></li><li><span class="ex-term">distinguish</span><span class="ex-write"></span><select class="ex-sel" data-a="3" aria-label="Meaning of distinguish"><option value="">Choose a meaning</option><option value="3">to see the difference between two things</option><option value="0">an organisation that checks that rules are followed</option><option value="1">being correct</option><option value="2">the question of whose work something is</option></select></li></ol><p class="ex-write-hint">Write the letter of the meaning next to each word.</p><ul class="ex-key"><li><b>A</b> to see the difference between two things</li><li><b>B</b> an organisation that checks that rules are followed</li><li><b>C</b> being correct</li><li><b>D</b> the question of whose work something is</li></ul><div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button><button type="button" class="ex-btn ex-ghost" data-show>Show answers</button><button type="button" class="ex-btn ex-ghost" data-reset>Try again</button><span class="ex-score" role="status"></span></div></section><section class="ex-block" data-ex="grammar"><h3 class="ex-h">3. Put the verb in the right form</h3><p class="ex-lead">Write the correct form of the verb in brackets.</p><ol class="ex-list"><li>A student <input type="text" class="ex-in" size="7" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="hands" aria-label="Answer for hand"> in a perfect paragraph on Monday. <span class="ex-cue">(hand)</span></li><li>Ofcom <input type="text" class="ex-in" size="11" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="published" aria-label="Answer for publish"> research on how children spend their time online. <span class="ex-cue">(publish)</span></li><li>Help that explains <input type="text" class="ex-in" size="7" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="gives" aria-label="Answer for give"> you a hint, an example or the meaning of a word. <span class="ex-cue">(give)</span></li><li>These figures <input type="text" class="ex-in" size="10" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="describe" aria-label="Answer for describe"> children in the UK, not every teenager. <span class="ex-cue">(describe)</span></li><li>A teacher who asks for an explanation <input type="text" class="ex-in" size="12" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="is testing|tests" aria-label="Answer for test"> the second question. <span class="ex-cue">(test)</span></li></ol><div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button><button type="button" class="ex-btn ex-ghost" data-show>Show answers</button><button type="button" class="ex-btn ex-ghost" data-reset>Try again</button><span class="ex-score" role="status"></span></div></section><section class="ex-block" data-ex="tfn"><h3 class="ex-h">4. True, false or not given</h3><p class="ex-lead">Choose <b>Not given</b> if the article does not say, even when you think the statement is probably true.</p><ol class="ex-list ex-tfns"><li><span class="ex-stmt">Ofcom reported that 56% of 8 to 17-year-olds in the UK use AI.</span><span class="ex-tfn" data-a="T" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>The text says: &quot;It reported that 56% of 8 to 17-year-olds in the UK use AI, rising to 66% of 16 and 17-year-olds.&quot;</p></li><li><span class="ex-stmt">The figures come from an experiment about learning.</span><span class="ex-tfn" data-a="F" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>The text says the opposite: &quot;they come from research about media use, not an experiment about learning&quot;</p></li><li><span class="ex-stmt">The three kinds of help are an Ofcom finding.</span><span class="ex-tfn" data-a="F" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>The text says the opposite: &quot;this is our own way of thinking, not an Ofcom finding&quot;</p></li><li><span class="ex-stmt">Many children did not appear to distinguish between different AI tools.</span><span class="ex-tfn" data-a="T" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>The text says: &quot;Many children didn&#x27;t appear to distinguish between different AI tools&quot;</p></li><li><span class="ex-stmt">Ofcom recommends a single AI rule for every school.</span><span class="ex-tfn" data-a="N" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>Not stated. This version does not give this information.</p></li></ol><div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button><button type="button" class="ex-btn ex-ghost" data-show>Show answers</button><button type="button" class="ex-btn ex-ghost" data-reset>Try again</button><span class="ex-score" role="status"></span></div></section><section class="ex-total"><div class="ex-total-head"><h3 class="ex-h">Your score</h3><p class="ex-lead">Do all four, then add them up.</p></div><div class="ex-total-actions"><button type="button" class="ex-btn ex-big" data-total>Total my score</button><button type="button" class="ex-btn ex-ghost" data-resetall>Start all four again</button></div><div class="ex-total-out" role="status" hidden><div class="ex-total-num"><b data-total-right>0</b><span>out of <b data-total-all>0</b></span></div><ul class="ex-total-list" data-total-list></ul><p class="ex-total-msg" data-total-msg></p></div></section></div><div class="ex-level" data-ex-level="advanced" hidden><section class="ex-block" data-ex="gap"><h3 class="ex-h">1. Complete the sentences</h3><p class="ex-lead">Drag a word into each gap, or tap a word and then tap a gap. Tap a filled gap to put the word back. Two words are not needed.</p><div class="ex-bank" data-bank><button type="button" class="ex-chip" draggable="true" data-w="accuracy">accuracy</button><button type="button" class="ex-chip" draggable="true" data-w="agreement">agreement</button><button type="button" class="ex-chip" draggable="true" data-w="check">check</button><button type="button" class="ex-chip" draggable="true" data-w="regulator">regulator</button><button type="button" class="ex-chip" draggable="true" data-w="rule">rule</button><button type="button" class="ex-chip" draggable="true" data-w="shortcut">shortcut</button><button type="button" class="ex-chip" draggable="true" data-w="tempting">tempting</button></div><ol class="ex-list"><li>Every homework task contains a quiet <button type="button" class="ex-gap" data-a="agreement" aria-label="Gap 1, empty"></button>: the work shows what you can do.</li><li>A model paragraph might explain one student&#x27;s problem and become another student&#x27;s <button type="button" class="ex-gap" data-a="shortcut" aria-label="Gap 2, empty"></button>.</li><li>A fluent answer can be wrong, which is a problem of <button type="button" class="ex-gap" data-a="accuracy" aria-label="Gap 3, empty"></button>.</li><li>A rule that bans AI may be impossible to <button type="button" class="ex-gap" data-a="check" aria-label="Gap 4, empty"></button>.</li><li>Some teachers change the task rather than the <button type="button" class="ex-gap" data-a="rule" aria-label="Gap 5, empty"></button>.</li></ol><div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button><button type="button" class="ex-btn ex-ghost" data-show>Show answers</button><button type="button" class="ex-btn ex-ghost" data-reset>Try again</button><span class="ex-score" role="status"></span></div></section><section class="ex-block" data-ex="match"><h3 class="ex-h">2. Match the meaning</h3><p class="ex-lead">Choose the meaning of each word or phrase as it is used in the article.</p><ol class="ex-list ex-match"><li><span class="ex-term">fluent</span><span class="ex-write"></span><select class="ex-sel" data-a="0" aria-label="Meaning of fluent"><option value="">Choose a meaning</option><option value="3">able to be seen</option><option value="0">smooth and easy to read or speak</option><option value="1">to become less clear</option><option value="2">able to be supported with good reasons</option></select></li><li><span class="ex-term">blur</span><span class="ex-write"></span><select class="ex-sel" data-a="1" aria-label="Meaning of blur"><option value="">Choose a meaning</option><option value="3">able to be seen</option><option value="0">smooth and easy to read or speak</option><option value="1">to become less clear</option><option value="2">able to be supported with good reasons</option></select></li><li><span class="ex-term">defensible</span><span class="ex-write"></span><select class="ex-sel" data-a="2" aria-label="Meaning of defensible"><option value="">Choose a meaning</option><option value="3">able to be seen</option><option value="0">smooth and easy to read or speak</option><option value="1">to become less clear</option><option value="2">able to be supported with good reasons</option></select></li><li><span class="ex-term">visible</span><span class="ex-write"></span><select class="ex-sel" data-a="3" aria-label="Meaning of visible"><option value="">Choose a meaning</option><option value="3">able to be seen</option><option value="0">smooth and easy to read or speak</option><option value="1">to become less clear</option><option value="2">able to be supported with good reasons</option></select></li></ol><p class="ex-write-hint">Write the letter of the meaning next to each word.</p><ul class="ex-key"><li><b>A</b> able to be seen</li><li><b>B</b> smooth and easy to read or speak</li><li><b>C</b> to become less clear</li><li><b>D</b> able to be supported with good reasons</li></ul><div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button><button type="button" class="ex-btn ex-ghost" data-show>Show answers</button><button type="button" class="ex-btn ex-ghost" data-reset>Try again</button><span class="ex-score" role="status"></span></div></section><section class="ex-block" data-ex="grammar"><h3 class="ex-h">3. Make the right word</h3><p class="ex-lead">Use the word in brackets to make a word that fits the gap.</p><ol class="ex-list"><li>Ofcom described a limited <input type="text" class="ex-in" size="15" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="understanding" aria-label="Answer for UNDERSTAND"> of how AI works. <span class="ex-cue">(UNDERSTAND)</span></li><li>The figures come from media research rather than an <input type="text" class="ex-in" size="11" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="education" aria-label="Answer for EDUCATE"> trial. <span class="ex-cue">(EDUCATE)</span></li><li>A rule may assume that everyone can use AI <input type="text" class="ex-in" size="9" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="equally" aria-label="Answer for EQUAL">. <span class="ex-cue">(EQUAL)</span></li><li>Students can make their <input type="text" class="ex-in" size="10" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="thinking" aria-label="Answer for THINK"> visible by explaining an answer aloud. <span class="ex-cue">(THINK)</span></li><li>A defensible rule has to deal with <input type="text" class="ex-in" size="11" autocomplete="off" autocapitalize="off" spellcheck="false" data-a="ownership" aria-label="Answer for OWN"> as well as accuracy. <span class="ex-cue">(OWN)</span></li></ol><div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button><button type="button" class="ex-btn ex-ghost" data-show>Show answers</button><button type="button" class="ex-btn ex-ghost" data-reset>Try again</button><span class="ex-score" role="status"></span></div></section><section class="ex-block" data-ex="tfn"><h3 class="ex-h">4. True, false or not given</h3><p class="ex-lead">Choose <b>Not given</b> if the article does not say, even when you think the statement is probably true.</p><ol class="ex-list ex-tfns"><li><span class="ex-stmt">Ofcom is the UK&#x27;s media regulator.</span><span class="ex-tfn" data-a="T" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>The text says: &quot;Ofcom, the UK&#x27;s media regulator, published its latest research on children&#x27;s online lives.&quot;</p></li><li><span class="ex-stmt">The figures show that AI use harms learning.</span><span class="ex-tfn" data-a="F" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>The text says the opposite: &quot;they say nothing about whether AI use helps or harms learning&quot;</p></li><li><span class="ex-stmt">The three kinds of help are described as research findings.</span><span class="ex-tfn" data-a="F" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>The text says the opposite: &quot;These categories are a teaching tool, not research findings&quot;</p></li><li><span class="ex-stmt">Some teachers ask students to show drafts or write part of the work in class.</span><span class="ex-tfn" data-a="T" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>The text says: &quot;they ask students to explain an answer aloud, to show drafts or to write part of the work in class&quot;</p></li><li><span class="ex-stmt">Ofcom also surveyed teachers about AI.</span><span class="ex-tfn" data-a="N" role="group" aria-label="True, false or not given"><button type="button" class="ex-opt" data-v="T">True</button><button type="button" class="ex-opt" data-v="F">False</button><button type="button" class="ex-opt" data-v="N">Not given</button></span><p class="ex-why" hidden>Not stated. This version does not give this information.</p></li></ol><div class="ex-actions"><button type="button" class="ex-btn" data-check>Check answers</button><button type="button" class="ex-btn ex-ghost" data-show>Show answers</button><button type="button" class="ex-btn ex-ghost" data-reset>Try again</button><span class="ex-score" role="status"></span></div></section><section class="ex-total"><div class="ex-total-head"><h3 class="ex-h">Your score</h3><p class="ex-lead">Do all four, then add them up.</p></div><div class="ex-total-actions"><button type="button" class="ex-btn ex-big" data-total>Total my score</button><button type="button" class="ex-btn ex-ghost" data-resetall>Start all four again</button></div><div class="ex-total-out" role="status" hidden><div class="ex-total-num"><b data-total-right>0</b><span>out of <b data-total-all>0</b></span></div><ul class="ex-total-list" data-total-list></ul><p class="ex-total-msg" data-total-msg></p></div></section></div></div></details></div>
+<p class="source">Source: <a href="https://www.ofcom.org.uk/online-safety/protecting-children/younger-phone-owners-the-rise-of-ai-and-consumption-over-creation-our-latest-look-at-uk-childrens-media-lives?language=en">Ofcom, Younger phone owners, the rise of AI, and consumption over creation</a>, 21 May 2026</p><p class="ai-note">Written with AI assistance and edited by John. Spotted a mistake? <a href="/contact/">Tell us</a>.</p>
+
+<nav class="pager" aria-label="More Teens stories"><a href="/articles/would-you-wear-a-rival-teams-shirt/" data-lock><small>Previous Teens story</small>Would You Wear a Rival Team&#x27;s Shirt?</a><a class="next" href="/articles/what-makes-a-bad-photo-a-good-memory/" data-lock><small>Next Teens story</small>What Makes a Bad Photo a Good Memory?</a></nav>
+<p class="print-foot">Read this article online: johnplusnews.com/articles/ai-did-the-homework-who-did-the-learning/</p>
+</article>
+</main>
+<footer class="site-footer">
+  <div class="wrap"><span>johnplusnews. News articles from around the world for English learners.</span><nav class="foot-links" aria-label="About this site"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></nav></div>
+</footer>
+</body>
+</html>

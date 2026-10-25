@@ -1,0 +1,325 @@
+{
+  "slug": "can-a-game-be-a-place-to-meet-friends",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "While you ____ for your friend, nobody talks about winning.",
+            "a": "wait"
+          },
+          {
+            "s": "Someone had called them an ____ name.",
+            "a": "offensive"
+          },
+          {
+            "s": "A good team is patient with ____.",
+            "a": "beginners"
+          },
+          {
+            "s": "Not every game group is ____ to new players.",
+            "a": "friendly"
+          },
+          {
+            "s": "The numbers don't ____ that games help people make better friends.",
+            "a": "prove"
+          }
+        ],
+        "extra": [
+          "harassment",
+          "join"
+        ]
+      },
+      "match": [
+        {
+          "t": "harassment",
+          "d": "unkind and hostile behaviour towards someone"
+        },
+        {
+          "t": "survey",
+          "d": "a set of questions asked to many people"
+        },
+        {
+          "t": "beginners",
+          "d": "people who are new to something"
+        },
+        {
+          "t": "welcome",
+          "d": "treated in a friendly way when you arrive"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Researchers ____ 1,423 teenagers about video games.",
+            "cue": "ask",
+            "a": "asked"
+          },
+          {
+            "s": "47 out of 100 players say they have ____ a friend online.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "About four in ten players said someone had ____ them an offensive name.",
+            "cue": "call",
+            "a": "called"
+          },
+          {
+            "s": "Imagine it's Friday evening and your team ____ ready.",
+            "cue": "be",
+            "a": "is"
+          },
+          {
+            "s": "While they wait, nobody ____ about winning.",
+            "cue": "talk",
+            "a": "talks"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The Pew survey asked teenagers in the United States.",
+          "a": "T",
+          "why": "The text says: \"The Pew Research Center, in the United States, asked 1,423 teenagers aged 13 to 17 about video games.\""
+        },
+        {
+          "s": "Only a few teenagers in the survey play video games.",
+          "a": "F",
+          "why": "The text says the opposite: \"Most of them play: 85 out of 100.\""
+        },
+        {
+          "s": "About 47 out of 100 players have made a friend online because of a game.",
+          "a": "T",
+          "why": "The text says: \"And 47 out of 100 say they have made a friend online because of a game they both play.\""
+        },
+        {
+          "s": "Players in the survey said they prefer playing alone.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The numbers prove that games help people make better friends.",
+          "a": "F",
+          "why": "The text says the opposite: \"They don't prove that games help people make better friends.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Pew published a survey that was ____ out in autumn 2023.",
+            "a": "carried"
+          },
+          {
+            "s": "Only about four in ten teenagers ____ themselves a gamer.",
+            "a": "call"
+          },
+          {
+            "s": "Of the gamers, 68% had made an online friend, ____ with 29% of other players.",
+            "a": "compared"
+          },
+          {
+            "s": "The UNICEF project looked at how games can support children's ____.",
+            "a": "well-being"
+          },
+          {
+            "s": "The survey can't ____ that games improve friendships.",
+            "a": "prove"
+          }
+        ],
+        "extra": [
+          "lobby",
+          "toolbox"
+        ]
+      },
+      "match": [
+        {
+          "t": "label",
+          "d": "a word used to describe what a person is"
+        },
+        {
+          "t": "compared with",
+          "d": "looked at together to see how they differ"
+        },
+        {
+          "t": "well-being",
+          "d": "how healthy, happy and comfortable you feel"
+        },
+        {
+          "t": "toolbox",
+          "d": "a set of practical ideas to use"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In May 2024, Pew ____ a survey of 1,423 teenagers.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "Among gamers, 68% ____ made an online friend through a game.",
+            "cue": "have",
+            "a": "had"
+          },
+          {
+            "s": "The survey ____ a darker side.",
+            "cue": "find",
+            "a": "found"
+          },
+          {
+            "s": "Games ____ out to be a social activity for most players.",
+            "cue": "turn",
+            "a": "turned"
+          },
+          {
+            "s": "The project ____ hundreds of children in six countries.",
+            "cue": "follow",
+            "a": "followed"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The survey was carried out in autumn 2023.",
+          "a": "T",
+          "why": "The text says: \"In May 2024, the Pew Research Center published a survey of 1,423 teenagers aged 13 to 17 in the United States, carried out in autumn 2023.\""
+        },
+        {
+          "s": "About nine in ten players said they play with other people.",
+          "a": "T",
+          "why": "The text says: \"About nine in ten (89%) said they play with other people, in person or online, and only 11% play entirely on their own.\""
+        },
+        {
+          "s": "The UNICEF project was part of the Pew survey.",
+          "a": "F",
+          "why": "The text says the opposite: \"A different project looked at games from the designers' side.\""
+        },
+        {
+          "s": "Gamers were more likely than other players to have made an online friend through a game.",
+          "a": "T",
+          "why": "The text says: \"Among players who call themselves gamers, 68% had made an online friend through a game, compared with 29% of players who don't use that label.\""
+        },
+        {
+          "s": "The researchers asked teenagers to stop playing games for a week.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Behind the headline figures, experiences ____ sharply.",
+            "a": "differ"
+          },
+          {
+            "s": "Some people assume online friendships are ____ than school friendships.",
+            "a": "shallower"
+          },
+          {
+            "s": "The survey records that a friendship began, not how ____ it became.",
+            "a": "close"
+          },
+          {
+            "s": "UNICEF's researchers ____ games from a different direction.",
+            "a": "approached"
+          },
+          {
+            "s": "A team that waits for a beginner is different from one where every mistake is ____.",
+            "a": "punished"
+          }
+        ],
+        "extra": [
+          "identical",
+          "tempting"
+        ]
+      },
+      "match": [
+        {
+          "t": "headline figures",
+          "d": "the main numbers a report puts first"
+        },
+        {
+          "t": "identical",
+          "d": "exactly the same"
+        },
+        {
+          "t": "tempting",
+          "d": "attractive, so that you want to do it"
+        },
+        {
+          "t": "log on",
+          "d": "start using an online game or system"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Behind the headline figures, the ____ between groups are large.",
+            "cue": "DIFFER",
+            "a": "differences"
+          },
+          {
+            "s": "Many ____ start with a shared activity.",
+            "cue": "FRIEND",
+            "a": "friendships"
+          },
+          {
+            "s": "____ in some teams is a real risk.",
+            "cue": "HARASS",
+            "a": "harassment"
+          },
+          {
+            "s": "The ____ benefits and the risks travel together.",
+            "cue": "SOCIETY",
+            "a": "social"
+          },
+          {
+            "s": "UNICEF's toolbox is meant for game ____.",
+            "cue": "DESIGN",
+            "a": "designers"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The Pew survey was published in May 2024.",
+          "a": "T",
+          "why": "The text says: \"The Pew Research Center, which published its survey in May 2024, gives that idea some numbers.\""
+        },
+        {
+          "s": "The Pew survey included teenagers from six countries.",
+          "a": "F",
+          "why": "The text says the opposite: \"It asked 1,423 teenagers in the United States, aged 13 to 17, about their video-game habits in autumn 2023.\""
+        },
+        {
+          "s": "In the survey, 62% of boys and 17% of girls call themselves gamers.",
+          "a": "T",
+          "why": "The text says: \"62% of boys call themselves gamers compared with 17% of girls\""
+        },
+        {
+          "s": "The survey shows that online friendships are shallower than school friendships.",
+          "a": "F",
+          "why": "The text says the opposite: \"It would be a mistake to assume that online friendships are shallower, and equally a mistake to assume they are identical to ones formed in person.\""
+        },
+        {
+          "s": "Players in the survey said they prefer online friends to school friends.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The UNICEF project studied children in six countries.",
+          "a": "T",
+          "why": "The text says: \"In the second phase of its RITEC project, researchers and four universities studied hundreds of children in six countries over many weeks.\""
+        }
+      ]
+    }
+  }
+}

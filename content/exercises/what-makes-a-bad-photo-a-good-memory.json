@@ -1,0 +1,325 @@
+{
+  "slug": "what-makes-a-bad-photo-a-good-memory",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "In the second photo, the picture is a little ____.",
+            "a": "blurry"
+          },
+          {
+            "s": "Someone's hand is in front of the ____.",
+            "a": "lens"
+          },
+          {
+            "s": "Rackham nearly forgot to charge the ____.",
+            "a": "battery"
+          },
+          {
+            "s": "Redman also likes the ____ of seeing the photos later.",
+            "a": "surprise"
+          },
+          {
+            "s": "People said they hadn't ____ one for years.",
+            "a": "seen"
+          }
+        ],
+        "extra": [
+          "laughing",
+          "decide"
+        ]
+      },
+      "match": [
+        {
+          "t": "blurry",
+          "d": "not clear, with soft edges"
+        },
+        {
+          "t": "lens",
+          "d": "the glass part of a camera that light goes through"
+        },
+        {
+          "t": "grainy",
+          "d": "looking rough, as if made of tiny dots"
+        },
+        {
+          "t": "surprise",
+          "d": "something you did not expect"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Rackham ____ a digital camera to a DJ set.",
+            "cue": "take",
+            "a": "took"
+          },
+          {
+            "s": "It was the camera she last ____ 15 years ago.",
+            "cue": "use",
+            "a": "used"
+          },
+          {
+            "s": "Some people ____ back to digital cameras and wired headphones.",
+            "cue": "go",
+            "a": "are going"
+          },
+          {
+            "s": "A blurry photo might ____ how a party felt.",
+            "cue": "show",
+            "a": "show"
+          },
+          {
+            "s": "Her friend is laughing so hard that her eyes ____ closed.",
+            "cue": "be",
+            "a": "are"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "A BBC reporter took an old digital camera to a DJ set.",
+          "a": "T",
+          "why": "The text says: \"She took a digital camera to a DJ set with her best friend.\""
+        },
+        {
+          "s": "The camera was new.",
+          "a": "F",
+          "why": "The text says the opposite: \"It was the camera she last used 15 years ago, on a family holiday.\""
+        },
+        {
+          "s": "Lily Redman is 26 years old.",
+          "a": "T",
+          "why": "The text says: \"Lily Redman, a 26-year-old content creator from South Wales\""
+        },
+        {
+          "s": "The article proves that most young people prefer old cameras.",
+          "a": "F",
+          "why": "The text says the opposite: \"so it doesn't prove that most young people prefer old cameras\""
+        },
+        {
+          "s": "Rackham sold her digital camera after the DJ set.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "In the first photo, everyone is ____ and the light is flattering.",
+            "a": "posing"
+          },
+          {
+            "s": "Redman says a digital camera captures a quality her phone can't ____.",
+            "a": "replicate"
+          },
+          {
+            "s": "She believes phone photos have ____ our perception of time.",
+            "a": "warped"
+          },
+          {
+            "s": "Endless options can cause decision ____.",
+            "a": "paralysis"
+          },
+          {
+            "s": "People want to be in ____ of their own experiences.",
+            "a": "control"
+          }
+        ],
+        "extra": [
+          "surprise",
+          "settings"
+        ]
+      },
+      "match": [
+        {
+          "t": "flattering",
+          "d": "making someone or something look attractive"
+        },
+        {
+          "t": "replicate",
+          "d": "to copy something exactly"
+        },
+        {
+          "t": "decision paralysis",
+          "d": "being unable to choose because there are too many options"
+        },
+        {
+          "t": "grit",
+          "d": "a rough, real quality that is not polished"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In August 2026, Annabel Rackham ____ a digital camera to a DJ set as an experiment.",
+            "cue": "take",
+            "a": "took"
+          },
+          {
+            "s": "She nearly ____ at the first hurdle by leaving the battery at home.",
+            "cue": "fall",
+            "a": "fell"
+          },
+          {
+            "s": "Strangers ____ the camera.",
+            "cue": "notice",
+            "a": "noticed"
+          },
+          {
+            "s": "Redman ____ a digital camera captures a quality her phone can't replicate.",
+            "cue": "say",
+            "a": "says"
+          },
+          {
+            "s": "He ____ that simpler technology appeals because people want control.",
+            "cue": "argue",
+            "a": "argues"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Rackham last used the camera 15 years ago on a family holiday.",
+          "a": "T",
+          "why": "The text says: \"It was the camera she last used 15 years ago on a family holiday\""
+        },
+        {
+          "s": "Redman says phone flash looks soft and flattering.",
+          "a": "F",
+          "why": "The text says the opposite: \"phone flash looks grainy and too high definition\""
+        },
+        {
+          "s": "Redman's idea about time is described as her opinion, not a proven fact.",
+          "a": "T",
+          "why": "The text says: \"That's her opinion, not a proven fact\""
+        },
+        {
+          "s": "The people interviewed are all school students.",
+          "a": "F",
+          "why": "The text says the opposite: \"The people interviewed are adults in their twenties and thirties, not school students\""
+        },
+        {
+          "s": "The article says digital cameras are cheaper than phones.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Redman's most ____ claim is that phone photos have warped our perception of time.",
+            "a": "provocative"
+          },
+          {
+            "s": "It raises a real question about what a photograph is supposed to ____.",
+            "a": "preserve"
+          },
+          {
+            "s": "A few interviews can't ____ what any generation prefers.",
+            "a": "establish"
+          },
+          {
+            "s": "What the piece does offer is a useful ____.",
+            "a": "distinction"
+          },
+          {
+            "s": "Endless choice can produce decision ____.",
+            "a": "paralysis"
+          }
+        ],
+        "extra": [
+          "settings",
+          "grit"
+        ]
+      },
+      "match": [
+        {
+          "t": "public image",
+          "d": "the way you want other people to see you"
+        },
+        {
+          "t": "feature",
+          "d": "a long article about a subject, not a news report"
+        },
+        {
+          "t": "perception",
+          "d": "the way you notice and understand something"
+        },
+        {
+          "t": "grainy",
+          "d": "looking rough, as if made of tiny dots"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Endless ____ can produce decision paralysis.",
+            "cue": "CHOOSE",
+            "a": "choice"
+          },
+          {
+            "s": "She talks about our ____ of time.",
+            "cue": "PERCEIVE",
+            "a": "perception"
+          },
+          {
+            "s": "It could have several ____, from image quality to similar-looking phone pictures.",
+            "cue": "EXPLAIN",
+            "a": "explanations"
+          },
+          {
+            "s": "It does not claim that older devices bring more ____.",
+            "cue": "HAPPY",
+            "a": "happiness"
+          },
+          {
+            "s": "Would you be ____ explaining why?",
+            "cue": "COMFORT",
+            "a": "comfortable"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The article is a feature, not a study.",
+          "a": "T",
+          "why": "The text says: \"It is a feature, not a study\""
+        },
+        {
+          "s": "Rackham used a camera she bought for the experiment.",
+          "a": "F",
+          "why": "The text says the opposite: \"a camera she had last used 15 years earlier\""
+        },
+        {
+          "s": "Redman's idea about time is described as a personal observation.",
+          "a": "T",
+          "why": "The text says: \"That is a personal observation, not a finding\""
+        },
+        {
+          "s": "The piece claims that smartphones are being abandoned.",
+          "a": "F",
+          "why": "The text says the opposite: \"the piece does not claim that older devices make anyone happier or that smartphones are being abandoned\""
+        },
+        {
+          "s": "Redman has been taking photos since she was a child.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Przybylski says endless choice can lead to decision paralysis.",
+          "a": "T",
+          "why": "The text says: \"Endless choice can produce decision paralysis, he says\""
+        }
+      ]
+    }
+  }
+}

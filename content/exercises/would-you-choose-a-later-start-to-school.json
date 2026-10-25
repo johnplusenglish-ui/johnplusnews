@@ -1,0 +1,325 @@
+{
+  "slug": "would-you-choose-a-later-start-to-school",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Before the change, classes began at 7:20. Then the school introduced ____ hours.",
+            "a": "flexible"
+          },
+          {
+            "s": "Students could ____ at 7:30, or they could wait until 8:30.",
+            "a": "arrive"
+          },
+          {
+            "s": "The study was a ____, so it shows what happened, not exactly why.",
+            "a": "survey"
+          },
+          {
+            "s": "A later ____ might mean a later finish, and that could change your evening.",
+            "a": "start"
+          },
+          {
+            "s": "In the study, almost all students ____ the later option.",
+            "a": "chose"
+          }
+        ],
+        "extra": [
+          "prove",
+          "tired"
+        ]
+      },
+      "match": [
+        {
+          "t": "catch",
+          "d": "a problem that is not obvious at first"
+        },
+        {
+          "t": "flexible",
+          "d": "able to change to fit different needs"
+        },
+        {
+          "t": "officially",
+          "d": "in a way that is formally decided"
+        },
+        {
+          "t": "prove",
+          "d": "to show that something is definitely true"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Before the change, classes ____ at 7:20.",
+            "cue": "begin",
+            "a": "began"
+          },
+          {
+            "s": "Researchers ____ students about their sleep and health.",
+            "cue": "ask",
+            "a": "asked"
+          },
+          {
+            "s": "On average, students ____ 45 minutes more on school days.",
+            "cue": "sleep",
+            "a": "slept"
+          },
+          {
+            "s": "The school ____ flexible hours.",
+            "cue": "introduce",
+            "a": "introduced"
+          },
+          {
+            "s": "Students woke up later, but they ____ to bed at about the same time.",
+            "cue": "go",
+            "a": "went"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Before the change, classes at the school in Gossau began at 7:20.",
+          "a": "T",
+          "why": "The text says: \"Before the change, classes there began at 7:20.\""
+        },
+        {
+          "s": "Every student had to start school at 8:30.",
+          "a": "F",
+          "why": "The text says the opposite: \"Students could arrive at 7:30, or they could wait until 8:30, when classes officially began.\""
+        },
+        {
+          "s": "Almost all of the students chose the later start.",
+          "a": "T",
+          "why": "The text says: \"Almost all of them chose the later start: 95 out of 100.\""
+        },
+        {
+          "s": "The students said they were happier at school.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The researchers say a later start is perfect for every school.",
+          "a": "F",
+          "why": "The text says the opposite: \"This doesn't prove that a later start is perfect for every school.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The researchers collected 754 ____ in total.",
+            "a": "responses"
+          },
+          {
+            "s": "Students were not placed in different timetables by ____, so other changes could also matter.",
+            "a": "chance"
+          },
+          {
+            "s": "A student who ____ on a bus from a village must follow the bus timetable.",
+            "a": "depends"
+          },
+          {
+            "s": "The ____ age of the students in the study was 14.",
+            "a": "median"
+          },
+          {
+            "s": "A survey cannot prove that the later start ____ every change.",
+            "a": "caused"
+          }
+        ],
+        "extra": [
+          "option",
+          "officially"
+        ]
+      },
+      "match": [
+        {
+          "t": "median",
+          "d": "the middle number when numbers are put in order"
+        },
+        {
+          "t": "depends on",
+          "d": "needs or relies on something"
+        },
+        {
+          "t": "play a part",
+          "d": "help to cause or affect something"
+        },
+        {
+          "t": "option",
+          "d": "one of the choices you can pick"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Researchers wanted to know what happens when students are actually ____ a choice.",
+            "cue": "give",
+            "a": "given"
+          },
+          {
+            "s": "Most students ____ up later but went to bed at about the same time.",
+            "cue": "wake",
+            "a": "woke"
+          },
+          {
+            "s": "Students were not ____ into different timetables by chance.",
+            "cue": "sort",
+            "a": "sorted"
+          },
+          {
+            "s": "A student who depends on a bus ____ to follow the bus timetable.",
+            "cue": "have",
+            "a": "has"
+          },
+          {
+            "s": "The team ____ 754 responses in total.",
+            "cue": "collect",
+            "a": "collected"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Classes at the secondary school in Gossau used to begin at 7:20.",
+          "a": "T",
+          "why": "The text says: \"At a secondary school in Gossau, classes used to begin at 7:20.\""
+        },
+        {
+          "s": "All 754 responses came from different students.",
+          "a": "F",
+          "why": "The text says the opposite: \"Some students answered both surveys and others answered only one, so the results describe groups of students as well as individuals.\""
+        },
+        {
+          "s": "On average, students slept about 45 minutes more on school days.",
+          "a": "T",
+          "why": "The text says: \"Most woke up later but went to bed at about the same time, so they slept about 45 minutes more on school days, on average.\""
+        },
+        {
+          "s": "The study proves that a later start improves maths and English scores.",
+          "a": "F",
+          "why": "The text says the opposite: \"That sounds like a clear win, but a survey like this cannot prove that the later start caused every change.\""
+        },
+        {
+          "s": "The researchers asked students to try a later finish for a month.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Nobody was ____ to a timetable by chance.",
+            "a": "assigned"
+          },
+          {
+            "s": "The authors make a ____ claim: flexible schedules may help, not that they always do.",
+            "a": "modest"
+          },
+          {
+            "s": "The university's summary ____ on Gossau, although the study covers two schools.",
+            "a": "concentrates"
+          },
+          {
+            "s": "A survey about sleep cannot ____ what a later arrival does to everything around it.",
+            "a": "capture"
+          },
+          {
+            "s": "Someone has to ____ and teach in the early slot.",
+            "a": "supervise"
+          }
+        ],
+        "extra": [
+          "randomised",
+          "clinically"
+        ]
+      },
+      "match": [
+        {
+          "t": "sleep deficits",
+          "d": "a regular shortage of the rest the body needs"
+        },
+        {
+          "t": "randomised experiment",
+          "d": "a test in which people are put into groups by chance"
+        },
+        {
+          "t": "staffing",
+          "d": "the number and kind of workers a school has"
+        },
+        {
+          "t": "guarantee",
+          "d": "a promise that something will definitely happen"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The survey results were reported by ____ at the University of Zurich.",
+            "cue": "RESEARCH",
+            "a": "researchers"
+          },
+          {
+            "s": "The main ____ of the model is that students can choose when to arrive.",
+            "cue": "ATTRACT",
+            "a": "attraction"
+          },
+          {
+            "s": "The study asked a narrower and more ____ question.",
+            "cue": "PRACTICE",
+            "a": "practical"
+          },
+          {
+            "s": "____ is what makes the model different from simply starting later.",
+            "cue": "FLEXIBLE",
+            "a": "flexibility"
+          },
+          {
+            "s": "The study was not a ____ experiment, because nobody was placed in a group by chance.",
+            "cue": "RANDOM",
+            "a": "randomised|randomized"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The published study covers only one school.",
+          "a": "F",
+          "why": "The text says the opposite: \"It covers two secondary schools in Switzerland, although the university's summary concentrates on Gossau.\""
+        },
+        {
+          "s": "Researchers surveyed students in spring 2022 and again in spring 2023.",
+          "a": "T",
+          "why": "The text says: \"Researchers from the University of Zurich surveyed students in spring 2022, before the change, and again in spring 2023, once it was in place.\""
+        },
+        {
+          "s": "212 students answered both surveys.",
+          "a": "T",
+          "why": "The text says: \"In all, 351 students answered the first survey and 403 the second, and 212 answered both times.\""
+        },
+        {
+          "s": "Students in the study had to accept a later finish to the school day.",
+          "a": "F",
+          "why": "The text says the opposite: \"The Swiss study behind this story did not actually make students accept a later finish.\""
+        },
+        {
+          "s": "Students who arrived at 7:30 did worse in maths than those who arrived later.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The median start time moved about 38 minutes later.",
+          "a": "T",
+          "why": "The text says: \"When offered the choice, 95% of students took the later option, and the median start moved about 38 minutes later.\""
+        }
+      ]
+    }
+  }
+}

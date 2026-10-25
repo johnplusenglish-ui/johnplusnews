@@ -1,0 +1,325 @@
+{
+  "slug": "can-dogs-smell-when-people-are-stressed",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "In one place, the bowl always had a ____.",
+            "a": "treat"
+          },
+          {
+            "s": "In the other place, the bowl was always ____.",
+            "a": "empty"
+          },
+          {
+            "s": "The scientists ____ how fast each dog went to the new bowl.",
+            "a": "measured"
+          },
+          {
+            "s": "With the stress smell, the dogs were ____ to go to the new bowl.",
+            "a": "slower"
+          },
+          {
+            "s": "The researchers' explanation is only an idea, not a ____.",
+            "a": "proof"
+          }
+        ],
+        "extra": [
+          "pessimistic",
+          "relaxed"
+        ]
+      },
+      "match": [
+        {
+          "t": "ambiguous",
+          "d": "not clear, with more than one possible answer"
+        },
+        {
+          "t": "stressed",
+          "d": "feeling worried or under a lot of pressure"
+        },
+        {
+          "t": "relaxed",
+          "d": "calm and not worried"
+        },
+        {
+          "t": "pessimistic",
+          "d": "expecting bad things to happen"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The researchers ____ with 18 dogs and their owners.",
+            "cue": "work",
+            "a": "worked"
+          },
+          {
+            "s": "First they ____ each dog with two food bowls.",
+            "cue": "train",
+            "a": "trained"
+          },
+          {
+            "s": "Soon the dogs ____ the difference.",
+            "cue": "learn",
+            "a": "learned|learnt"
+          },
+          {
+            "s": "The relaxed smell ____ not do that.",
+            "cue": "do",
+            "a": "did"
+          },
+          {
+            "s": "Some dog owners say their dogs ____ to know when they're upset.",
+            "cue": "seem",
+            "a": "seem"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The researchers worked with 18 dogs and their owners.",
+          "a": "T",
+          "why": "The text says: \"The researchers, from the University of Bristol, worked with 18 dogs and their owners.\""
+        },
+        {
+          "s": "In one place the bowl had a treat, and in the other place it was empty.",
+          "a": "T",
+          "why": "The text says: \"In one place, the bowl always had a treat. In the other place, the bowl was always empty.\""
+        },
+        {
+          "s": "The dogs went more slowly to the new bowl when they smelled the relaxed samples.",
+          "a": "F",
+          "why": "The text says the opposite: \"The relaxed smell did not do that.\""
+        },
+        {
+          "s": "The researchers say the study proves that dogs can read minds.",
+          "a": "F",
+          "why": "The text says the opposite: \"It doesn't mean dogs can read your mind.\""
+        },
+        {
+          "s": "The dogs were all less than a year old.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Is it a ____, or can the dog smell that something is wrong?",
+            "a": "coincidence"
+          },
+          {
+            "s": "Eight of the dogs were ____ teaching dogs at the university.",
+            "a": "registered"
+          },
+          {
+            "s": "The researchers placed bowls in new, ____ locations.",
+            "a": "ambiguous"
+          },
+          {
+            "s": "The dogs ____ the treat location faster than the empty one.",
+            "a": "approached"
+          },
+          {
+            "s": "They suggest the dogs formed a kind of ____ expectation about the new bowl.",
+            "a": "pessimistic"
+          }
+        ],
+        "extra": [
+          "separate",
+          "measure"
+        ]
+      },
+      "match": [
+        {
+          "t": "registered",
+          "d": "officially recorded on a list"
+        },
+        {
+          "t": "coincidence",
+          "d": "two things happening together by chance"
+        },
+        {
+          "t": "ambiguous",
+          "d": "not clear, with more than one possible answer"
+        },
+        {
+          "t": "pessimistic",
+          "d": "expecting bad things to happen"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In July 2024, researchers at the University of Bristol ____ a study.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "First, each dog ____ two rules.",
+            "cue": "learn",
+            "a": "learned|learnt"
+          },
+          {
+            "s": "A bowl in one place always ____ a treat.",
+            "cue": "contain",
+            "a": "contained"
+          },
+          {
+            "s": "The relaxed smell ____ no such effect.",
+            "cue": "have",
+            "a": "had"
+          },
+          {
+            "s": "The team ____ a change in speed.",
+            "cue": "see",
+            "a": "saw"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The researchers worked with 18 dogs and their owners.",
+          "a": "T",
+          "why": "The text says: \"They worked with 18 dogs and their owners.\""
+        },
+        {
+          "s": "All 18 dogs were registered teaching dogs.",
+          "a": "F",
+          "why": "The text says the opposite: \"eight of them were registered teaching dogs at the university\""
+        },
+        {
+          "s": "The relaxed smell did not slow the dogs down.",
+          "a": "T",
+          "why": "The text says: \"The relaxed smell had no such effect.\""
+        },
+        {
+          "s": "The study showed that dogs can read minds.",
+          "a": "F",
+          "why": "The text says the opposite: \"It did not show that dogs read minds.\""
+        },
+        {
+          "s": "The researchers tested cats as well as dogs.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "A slow walk could mean many things, because behaviour is easy to ____.",
+            "a": "over-read"
+          },
+          {
+            "s": "Dogs were slower to approach the ____ location nearest the empty-bowl spot.",
+            "a": "ambiguous"
+          },
+          {
+            "s": "Eighteen dogs is a small ____.",
+            "a": "sample"
+          },
+          {
+            "s": "It could be a way for a dog to ____ energy.",
+            "a": "conserve"
+          },
+          {
+            "s": "Each dog was ____ to one of three conditions.",
+            "a": "exposed"
+          }
+        ],
+        "extra": [
+          "pessimistic",
+          "ambiguity"
+        ]
+      },
+      "match": [
+        {
+          "t": "control",
+          "d": "a condition used for comparison, where nothing special is added"
+        },
+        {
+          "t": "pessimistic",
+          "d": "expecting bad things to happen"
+        },
+        {
+          "t": "exposed to",
+          "d": "placed in contact with something"
+        },
+        {
+          "t": "speculate",
+          "d": "to suggest an idea without strong evidence"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The researchers recorded how ____ a dog approached the bowl.",
+            "cue": "QUICK",
+            "a": "quickly"
+          },
+          {
+            "s": "The authors describe a negative ____ state.",
+            "cue": "EMOTION",
+            "a": "emotional"
+          },
+          {
+            "s": "Calling it pessimism is an ____ of the test results.",
+            "cue": "INTERPRET",
+            "a": "interpretation"
+          },
+          {
+            "s": "It is a ____ test, based on what the dogs do.",
+            "cue": "BEHAVE",
+            "a": "behavioural|behavioral"
+          },
+          {
+            "s": "One possible reason is to avoid ____.",
+            "cue": "DISAPPOINT",
+            "a": "disappointment"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The study was published in Scientific Reports in July 2024.",
+          "a": "T",
+          "why": "The text says: \"Their study, published in Scientific Reports in July 2024, involved 18 dog and owner pairs.\""
+        },
+        {
+          "s": "All of the dogs were registered teaching dogs.",
+          "a": "F",
+          "why": "The text says the opposite: \"eight were registered teaching dogs at the university\""
+        },
+        {
+          "s": "With the relaxed odour present, the dogs were slower to approach the ambiguous bowl.",
+          "a": "F",
+          "why": "The text says the opposite: \"The relaxed odour produced no such effect\""
+        },
+        {
+          "s": "Some of the samples came from people who were stressed by an arithmetic test.",
+          "a": "T",
+          "why": "The text says: \"There were sweat and breath samples from people who were stressed by an arithmetic test.\""
+        },
+        {
+          "s": "The teaching dogs behaved differently from the other dogs.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The authors speculate that the dogs' response might help a dog avoid disappointment.",
+          "a": "T",
+          "why": "The text says: \"they speculate that it could be a way for a dog to conserve energy and avoid disappointment\""
+        }
+      ]
+    }
+  }
+}

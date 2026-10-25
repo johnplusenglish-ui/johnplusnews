@@ -1,0 +1,325 @@
+{
+  "slug": "would-you-wear-a-rival-teams-shirt",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "The shirt belongs to the biggest ____ of your friend's team.",
+            "a": "rival"
+          },
+          {
+            "s": "The ____ on a shirt shows the team's symbol.",
+            "a": "badge"
+          },
+          {
+            "s": "A shirt has a history: old players, old ____ and special seasons.",
+            "a": "sponsors"
+          },
+          {
+            "s": "Some brands try to copy a club's history, community and ____ fans.",
+            "a": "loyal"
+          },
+          {
+            "s": "Remember that this is one writer's ____.",
+            "a": "opinion"
+          }
+        ],
+        "extra": [
+          "festivals",
+          "colours"
+        ]
+      },
+      "match": [
+        {
+          "t": "rival",
+          "d": "a person or team that you compete against"
+        },
+        {
+          "t": "biography",
+          "d": "the story of someone's life"
+        },
+        {
+          "t": "sponsors",
+          "d": "companies that pay a team and appear on its shirts"
+        },
+        {
+          "t": "loyal",
+          "d": "staying faithful to someone or something"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The colour ____ perfect.",
+            "cue": "be",
+            "a": "is"
+          },
+          {
+            "s": "In August 2026, a writer ____ an article for RTÉ.",
+            "cue": "write",
+            "a": "wrote"
+          },
+          {
+            "s": "People now ____ football shirts to festivals.",
+            "cue": "wear",
+            "a": "wear"
+          },
+          {
+            "s": "A shirt ____ with a kind of biography.",
+            "cue": "come",
+            "a": "comes"
+          },
+          {
+            "s": "A third person wears it because it ____ to someone in their family.",
+            "cue": "belong",
+            "a": "belonged"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The article was written for an Irish broadcaster.",
+          "a": "T",
+          "why": "The text says: \"the writer Katriona Flynn wrote an article for RTÉ, an Irish broadcaster\""
+        },
+        {
+          "s": "Katriona Flynn says people only wear football shirts at matches.",
+          "a": "F",
+          "why": "The text says the opposite: \"She says people now wear football shirts to festivals and on nights out, and people of all ages wear them, not only at matches.\""
+        },
+        {
+          "s": "The writer has sales numbers that prove everyone is wearing football shirts.",
+          "a": "F",
+          "why": "The text says the opposite: \"she doesn't have sales numbers to prove that everyone is wearing football shirts\""
+        },
+        {
+          "s": "Fashion brands find it hard to invent a shirt's history.",
+          "a": "T",
+          "why": "The text says: \"Fashion brands can't invent that.\""
+        },
+        {
+          "s": "Most teenagers prefer the shirt of their own team.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "A shirt arrives with a \"biography\" of ____, sponsors and eras.",
+            "a": "heritage"
+          },
+          {
+            "s": "Brands try to borrow history, ____, community and loyalty.",
+            "a": "authenticity"
+          },
+          {
+            "s": "A shirt is both a ____ product and a personal object.",
+            "a": "mass-produced"
+          },
+          {
+            "s": "Some fans find it ____ when people wear a shirt without caring about the club.",
+            "a": "disrespectful"
+          },
+          {
+            "s": "The evidence is mostly examples and brand ____.",
+            "a": "stories"
+          }
+        ],
+        "extra": [
+          "motives",
+          "festivals"
+        ]
+      },
+      "match": [
+        {
+          "t": "heritage",
+          "d": "the history and traditions of a group"
+        },
+        {
+          "t": "disrespectful",
+          "d": "showing a lack of respect"
+        },
+        {
+          "t": "motives",
+          "d": "reasons for doing something"
+        },
+        {
+          "t": "authenticity",
+          "d": "being real and not fake"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In August 2026, Katriona Flynn ____ that fashion has noticed the football shirt.",
+            "cue": "argue",
+            "a": "argued"
+          },
+          {
+            "s": "She ____ to people of every age wearing shirts far from any stadium.",
+            "cue": "point",
+            "a": "points"
+          },
+          {
+            "s": "Brands try to ____ the same feelings.",
+            "cue": "borrow",
+            "a": "borrow"
+          },
+          {
+            "s": "When Arsenal ____ a pale yellow third kit, the colour trend was already in fashion.",
+            "cue": "release",
+            "a": "released"
+          },
+          {
+            "s": "Burberry ____ touchlines, burger vans and Sunday League football.",
+            "cue": "use",
+            "a": "used"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The article was published on a website run by an Irish broadcaster.",
+          "a": "T",
+          "why": "The text says: \"an article for RTÉ Brainstorm, a website run by an Irish broadcaster\""
+        },
+        {
+          "s": "Flynn gives a firm answer to each question she asks.",
+          "a": "F",
+          "why": "The text says the opposite: \"She also asks questions without answering them firmly.\""
+        },
+        {
+          "s": "Flynn says a shirt is both a product made in large numbers and a personal object.",
+          "a": "T",
+          "why": "The text says: \"a shirt is both a mass-produced product and a personal object\""
+        },
+        {
+          "s": "The article proves that every teenager now wears football shirts.",
+          "a": "F",
+          "why": "The text says the opposite: \"There are no sales figures showing that every teenager now wears football shirts\""
+        },
+        {
+          "s": "Burberry paid football clubs to use their shirts in its campaign.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Her evidence is largely ____: shirts at festivals and on nights out.",
+            "a": "observational"
+          },
+          {
+            "s": "Brands are trying to acquire what clubs have ____ over decades.",
+            "a": "accumulated"
+          },
+          {
+            "s": "The examples are suggestive rather than ____.",
+            "a": "conclusive"
+          },
+          {
+            "s": "Flynn herself ____ that fashion did not make the shirt interesting.",
+            "a": "concedes"
+          },
+          {
+            "s": "A shirt worn only for its colour may feel like a ____ to a long-time supporter.",
+            "a": "costume"
+          }
+        ],
+        "extra": [
+          "interpretation",
+          "revenue"
+        ]
+      },
+      "match": [
+        {
+          "t": "anecdotal",
+          "d": "based on personal stories, not hard evidence"
+        },
+        {
+          "t": "suggestive",
+          "d": "hinting at something without proving it"
+        },
+        {
+          "t": "interpretation",
+          "d": "an explanation of what something means"
+        },
+        {
+          "t": "statement",
+          "d": "something that shows what you think or who you are"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Brands want ____, which they cannot manufacture.",
+            "cue": "AUTHENTIC",
+            "a": "authenticity"
+          },
+          {
+            "s": "____ to a club grows over many years.",
+            "cue": "LOYAL",
+            "a": "loyalty"
+          },
+          {
+            "s": "A shirt can be a ____ object as well as a product.",
+            "cue": "PERSON",
+            "a": "personal"
+          },
+          {
+            "s": "Pale yellow was ____ in luxury fashion at the time.",
+            "cue": "FASHION",
+            "a": "fashionable"
+          },
+          {
+            "s": "Both reactions are ____.",
+            "cue": "UNDERSTAND",
+            "a": "understandable"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The article was updated in August 2026.",
+          "a": "T",
+          "why": "The text says: \"an article for RTÉ Brainstorm, updated in August 2026\""
+        },
+        {
+          "s": "Flynn says fashion is what made the football shirt interesting.",
+          "a": "F",
+          "why": "The text says the opposite: \"Flynn herself concedes that fashion did not make the shirt interesting\""
+        },
+        {
+          "s": "Flynn asks whether Arsenal is following fashion, but does not answer firmly.",
+          "a": "T",
+          "why": "The text says: \"Flynn asks whether the club is following fashion without answering firmly\""
+        },
+        {
+          "s": "The butter yellow statistic counts searches for football shirts.",
+          "a": "F",
+          "why": "The text says the opposite: \"concerns searches for a colour in 2024 and 2025, not for football shirts\""
+        },
+        {
+          "s": "Burberry's campaign sold more clothes than football shirts did.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The text says the shirt is both a mass-produced product and a personal object.",
+          "a": "T",
+          "why": "The text says: \"the shirt is both a mass-produced product and a personal object\""
+        }
+      ]
+    }
+  }
+}

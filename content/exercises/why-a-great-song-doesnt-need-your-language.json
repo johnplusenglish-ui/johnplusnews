@@ -1,0 +1,325 @@
+{
+  "slug": "why-a-great-song-doesnt-need-your-language",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "A ____ is the part of a song that people sing together again and again.",
+            "a": "chorus"
+          },
+          {
+            "s": "The report said songs in 16 ____ reached the chart.",
+            "a": "languages"
+          },
+          {
+            "s": "There isn't one ____ answer.",
+            "a": "proven"
+          },
+          {
+            "s": "Some people look up a ____ and love the song more.",
+            "a": "translation"
+          },
+          {
+            "s": "Maybe it's the ____, the steady rhythm that makes you move.",
+            "a": "beat"
+          }
+        ],
+        "extra": [
+          "mystery",
+          "double"
+        ]
+      },
+      "match": [
+        {
+          "t": "chorus",
+          "d": "the part of a song that comes back again and again"
+        },
+        {
+          "t": "translation",
+          "d": "the same words written in another language"
+        },
+        {
+          "t": "double",
+          "d": "twice as much or twice as many"
+        },
+        {
+          "t": "mystery",
+          "d": "something that is hard to explain or understand"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In March 2026, Spotify ____ a report about its own data.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "Songs in 16 languages ____ its Global Top 50 chart in 2025.",
+            "cue": "reach",
+            "a": "reached"
+          },
+          {
+            "s": "Maybe it's a friend who ____ it for you.",
+            "cue": "play",
+            "a": "played"
+          },
+          {
+            "s": "That ____ more than double the number in 2020.",
+            "cue": "be",
+            "a": "is"
+          },
+          {
+            "s": "Others ____ the meaning disappointing and prefer the mystery.",
+            "cue": "find",
+            "a": "find"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The report was published in March 2026.",
+          "a": "T",
+          "why": "The text says: \"In March 2026, the music service Spotify published a report about its own data.\""
+        },
+        {
+          "s": "In 2025, songs in 16 languages reached the Global Top 50 chart.",
+          "a": "T",
+          "why": "The text says: \"It said that in 2025, songs in 16 different languages reached its Global Top 50 chart.\""
+        },
+        {
+          "s": "The report shows what every teenager in the world likes.",
+          "a": "F",
+          "why": "The text says the opposite: \"It doesn't tell us what every listener does, or what teenagers in your country like.\""
+        },
+        {
+          "s": "Scientists have proved why people enjoy songs in languages they don't speak.",
+          "a": "F",
+          "why": "The text says the opposite: \"There isn't one proven answer.\""
+        },
+        {
+          "s": "Most listeners in the report were under 20.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "By the end of the song you're ____ the melody.",
+            "a": "humming"
+          },
+          {
+            "s": "The report was based on Spotify's own ____ data.",
+            "a": "streaming"
+          },
+          {
+            "s": "Like most company reports, it also ____ the company.",
+            "a": "promotes"
+          },
+          {
+            "s": "The language of a song doesn't tell us the artist's ____.",
+            "a": "nationality"
+          },
+          {
+            "s": "Rhymes, jokes and ____ often don't survive the journey.",
+            "a": "wordplay"
+          }
+        ],
+        "extra": [
+          "universal",
+          "recommend"
+        ]
+      },
+      "match": [
+        {
+          "t": "nationality",
+          "d": "the country a person belongs to"
+        },
+        {
+          "t": "streaming",
+          "d": "playing music over the internet without downloading it"
+        },
+        {
+          "t": "wordplay",
+          "d": "clever use of words, such as puns"
+        },
+        {
+          "t": "universal",
+          "d": "true or the same for everyone"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In March 2026, Spotify ____ a report called Loud & Clear.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "Songs in 16 languages ____ its Global Top 50 in 2025.",
+            "cue": "reach",
+            "a": "reached"
+          },
+          {
+            "s": "Many fans enjoy ____ up a translation.",
+            "cue": "look",
+            "a": "looking"
+          },
+          {
+            "s": "Nobody has ever ____ the lyrics to you.",
+            "cue": "explain",
+            "a": "explained"
+          },
+          {
+            "s": "A voice can sound playful or fragile before you ____ a single word.",
+            "cue": "understand",
+            "a": "understand"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Spotify's report was based on its own streaming data.",
+          "a": "T",
+          "why": "The text says: \"In March 2026, Spotify published a report called Loud & Clear, based on its own streaming data.\""
+        },
+        {
+          "s": "The report named K-pop among the fastest-growing music styles on the service.",
+          "a": "T",
+          "why": "The text says: \"The report also named Brazilian funk, K-pop and reggaeton among the fastest-growing music styles on its service.\""
+        },
+        {
+          "s": "The report says how many listeners understand the languages of the songs.",
+          "a": "F",
+          "why": "The text says the opposite: \"It doesn't say how many listeners understand the languages, where they live or how old they are.\""
+        },
+        {
+          "s": "Researchers have tested and proved why songs travel across languages.",
+          "a": "F",
+          "why": "The text says the opposite: \"Nobody has a tested, universal answer\""
+        },
+        {
+          "s": "The report says teenagers in Spain listen to more songs in other languages than anyone else.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Weeks later you can ____ the sounds perfectly.",
+            "a": "imitate"
+          },
+          {
+            "s": "The language of a song doesn't ____ how well its listeners speak that language.",
+            "a": "establish"
+          },
+          {
+            "s": "Learning what the words mean can ____ a song or flatten it.",
+            "a": "deepen"
+          },
+          {
+            "s": "A natural-sounding version might change the ____, turning slang into something polite.",
+            "a": "register"
+          },
+          {
+            "s": "Artists on average earn more than half of their ____ from outside their home country.",
+            "a": "royalties"
+          }
+        ],
+        "extra": [
+          "attached",
+          "cold"
+        ]
+      },
+      "match": [
+        {
+          "t": "register",
+          "d": "how formal or informal the language is"
+        },
+        {
+          "t": "royalties",
+          "d": "money paid to artists when their music is used"
+        },
+        {
+          "t": "cold",
+          "d": "without any warning or explanation beforehand"
+        },
+        {
+          "t": "flatten",
+          "d": "make something less lively or less interesting"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The language of a song doesn't establish the artist's ____.",
+            "cue": "NATION",
+            "a": "nationality"
+          },
+          {
+            "s": "Rhythm and voice carry ____ before meaning arrives.",
+            "cue": "EMOTIONAL",
+            "a": "emotion"
+          },
+          {
+            "s": "____ makes a chorus easy to join.",
+            "cue": "REPEAT",
+            "a": "repetition"
+          },
+          {
+            "s": "That makes a ____ more interesting than it looks.",
+            "cue": "RECOMMEND",
+            "a": "recommendation"
+          },
+          {
+            "s": "A song can gain ____ far from where it began.",
+            "cue": "POPULAR",
+            "a": "popularity"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "On average, artists earn more than half of their royalties from outside their home country within two years of debuting, according to the report.",
+          "a": "T",
+          "why": "The text says: \"artists on average earn more than half of their royalties from outside their home country within two years of debuting\""
+        },
+        {
+          "s": "The report gives an exact count of the languages in the 2020 Global Top 50.",
+          "a": "F",
+          "why": "The text says the opposite: \"the report gives no exact count for 2020\""
+        },
+        {
+          "s": "In 2025, songs in 16 languages reached the Global Top 50, more than double the number in 2020.",
+          "a": "T",
+          "why": "The text says: \"songs in 16 languages reached the service's Global Top 50, more than double the number in 2020\""
+        },
+        {
+          "s": "The language of a song shows what nationality the artist has.",
+          "a": "F",
+          "why": "The text says the opposite: \"it certainly doesn't establish the artist's nationality\""
+        },
+        {
+          "s": "The report says reggaeton grew faster than K-pop.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Some listeners avoid translations on purpose to keep the mystery of a song.",
+          "a": "T",
+          "why": "The text says: \"Some listeners deliberately avoid translations to keep the mystery; others consider that a missed opportunity.\""
+        }
+      ]
+    }
+  }
+}

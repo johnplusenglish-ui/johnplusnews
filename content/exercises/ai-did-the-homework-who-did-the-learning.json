@@ -1,0 +1,320 @@
+{
+  "slug": "ai-did-the-homework-who-did-the-learning",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "In May 2026, Ofcom ____ new research on children's online lives.",
+            "a": "published"
+          },
+          {
+            "s": "Ofcom said that few children ____ whether the answers are correct.",
+            "a": "ask"
+          },
+          {
+            "s": "Help that ____ gives you a hint or the meaning of a word.",
+            "a": "explains"
+          },
+          {
+            "s": "An AI tool can sound sure and still be ____.",
+            "a": "wrong"
+          },
+          {
+            "s": "One problem is ____: is the answer right?",
+            "a": "accuracy"
+          }
+        ],
+        "extra": [
+          "regulator",
+          "routine"
+        ]
+      },
+      "match": [
+        {
+          "t": "accuracy",
+          "d": "being correct"
+        },
+        {
+          "t": "regulator",
+          "d": "an organisation that checks that rules are followed"
+        },
+        {
+          "t": "ownership",
+          "d": "the fact that something is yours"
+        },
+        {
+          "t": "hint",
+          "d": "a small clue that helps you find an answer"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In May 2026, Ofcom ____ new research.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "It ____ that 56 out of 100 children aged 8 to 17 use AI.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "Many children don't seem to ____ how AI works.",
+            "cue": "know",
+            "a": "know"
+          },
+          {
+            "s": "Second, help that checks: someone ____ you a mistake.",
+            "cue": "show",
+            "a": "shows"
+          },
+          {
+            "s": "Even a correct answer isn't your learning if you ____ not do the thinking.",
+            "cue": "do",
+            "a": "did"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Ofcom is the media regulator in the United Kingdom.",
+          "a": "T",
+          "why": "The text says: \"Ofcom, the media regulator in the United Kingdom, published new research on children's online lives.\""
+        },
+        {
+          "s": "Ofcom says 56 out of 100 children aged 8 to 17 never use AI.",
+          "a": "F",
+          "why": "The text says the opposite: \"It said that 56 out of 100 children aged 8 to 17 use AI.\""
+        },
+        {
+          "s": "Among 16- and 17-year-olds, 66 out of 100 use AI.",
+          "a": "T",
+          "why": "The text says: \"Among 16- and 17-year-olds, it is 66 out of 100.\""
+        },
+        {
+          "s": "The numbers show that AI makes students learn more.",
+          "a": "F",
+          "why": "The text says the opposite: \"And they don't show that AI makes students learn more or less.\""
+        },
+        {
+          "s": "Ofcom asked students in Spain about homework.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The paragraph is not wrong. The problem is that nobody can say who did the ____.",
+            "a": "thinking"
+          },
+          {
+            "s": "Ofcom described ____ understanding of how AI works.",
+            "a": "limited"
+          },
+          {
+            "s": "Few children ____ the accuracy of what they were told.",
+            "a": "questioned"
+          },
+          {
+            "s": "Help that ____ looks at your own attempt and points out mistakes.",
+            "a": "checks"
+          },
+          {
+            "s": "A ____ answer can still be wrong, so checking matters.",
+            "a": "confident"
+          }
+        ],
+        "extra": [
+          "routine",
+          "ownership"
+        ]
+      },
+      "match": [
+        {
+          "t": "regulator",
+          "d": "an organisation that checks that rules are followed"
+        },
+        {
+          "t": "accuracy",
+          "d": "being correct"
+        },
+        {
+          "t": "ownership",
+          "d": "the question of whose work something is"
+        },
+        {
+          "t": "distinguish",
+          "d": "to see the difference between two things"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "A student ____ in a perfect paragraph on Monday.",
+            "cue": "hand",
+            "a": "hands"
+          },
+          {
+            "s": "Ofcom ____ research on how children spend their time online.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "Help that explains ____ you a hint, an example or the meaning of a word.",
+            "cue": "give",
+            "a": "gives"
+          },
+          {
+            "s": "These figures ____ children in the UK, not every teenager.",
+            "cue": "describe",
+            "a": "describe"
+          },
+          {
+            "s": "A teacher who asks for an explanation ____ the second question.",
+            "cue": "test",
+            "a": "is testing|tests"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Ofcom reported that 56% of 8 to 17-year-olds in the UK use AI.",
+          "a": "T",
+          "why": "The text says: \"It reported that 56% of 8 to 17-year-olds in the UK use AI, rising to 66% of 16 and 17-year-olds.\""
+        },
+        {
+          "s": "The figures come from an experiment about learning.",
+          "a": "F",
+          "why": "The text says the opposite: \"they come from research about media use, not an experiment about learning\""
+        },
+        {
+          "s": "The three kinds of help are an Ofcom finding.",
+          "a": "F",
+          "why": "The text says the opposite: \"this is our own way of thinking, not an Ofcom finding\""
+        },
+        {
+          "s": "Many children did not appear to distinguish between different AI tools.",
+          "a": "T",
+          "why": "The text says: \"Many children didn't appear to distinguish between different AI tools\""
+        },
+        {
+          "s": "Ofcom recommends a single AI rule for every school.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Every homework task contains a quiet ____: the work shows what you can do.",
+            "a": "agreement"
+          },
+          {
+            "s": "A model paragraph might explain one student's problem and become another student's ____.",
+            "a": "shortcut"
+          },
+          {
+            "s": "A fluent answer can be wrong, which is a problem of ____.",
+            "a": "accuracy"
+          },
+          {
+            "s": "A rule that bans AI may be impossible to ____.",
+            "a": "check"
+          },
+          {
+            "s": "Some teachers change the task rather than the ____.",
+            "a": "rule"
+          }
+        ],
+        "extra": [
+          "regulator",
+          "tempting"
+        ]
+      },
+      "match": [
+        {
+          "t": "fluent",
+          "d": "smooth and easy to read or speak"
+        },
+        {
+          "t": "blur",
+          "d": "to become less clear"
+        },
+        {
+          "t": "defensible",
+          "d": "able to be supported with good reasons"
+        },
+        {
+          "t": "visible",
+          "d": "able to be seen"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Ofcom described a limited ____ of how AI works.",
+            "cue": "UNDERSTAND",
+            "a": "understanding"
+          },
+          {
+            "s": "The figures come from media research rather than an ____ trial.",
+            "cue": "EDUCATE",
+            "a": "education"
+          },
+          {
+            "s": "A rule may assume that everyone can use AI ____.",
+            "cue": "EQUAL",
+            "a": "equally"
+          },
+          {
+            "s": "Students can make their ____ visible by explaining an answer aloud.",
+            "cue": "THINK",
+            "a": "thinking"
+          },
+          {
+            "s": "A defensible rule has to deal with ____ as well as accuracy.",
+            "cue": "OWN",
+            "a": "ownership"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Ofcom is the UK's media regulator.",
+          "a": "T",
+          "why": "The text says: \"Ofcom, the UK's media regulator, published its latest research on children's online lives.\""
+        },
+        {
+          "s": "The figures show that AI use harms learning.",
+          "a": "F",
+          "why": "The text says the opposite: \"they say nothing about whether AI use helps or harms learning\""
+        },
+        {
+          "s": "The three kinds of help are described as research findings.",
+          "a": "F",
+          "why": "The text says the opposite: \"These categories are a teaching tool, not research findings\""
+        },
+        {
+          "s": "Some teachers ask students to show drafts or write part of the work in class.",
+          "a": "T",
+          "why": "The text says: \"they ask students to explain an answer aloud, to show drafts or to write part of the work in class\""
+        },
+        {
+          "s": "Ofcom also surveyed teachers about AI.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    }
+  }
+}

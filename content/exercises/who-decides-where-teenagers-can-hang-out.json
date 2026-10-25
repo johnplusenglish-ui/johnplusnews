@@ -1,0 +1,325 @@
+{
+  "slug": "who-decides-where-teenagers-can-hang-out",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "The project asks teenagers how public ____ should work.",
+            "a": "places"
+          },
+          {
+            "s": "A ____ is a small test of a new idea.",
+            "a": "pilot"
+          },
+          {
+            "s": "Students design and build ____, which are first versions that other places could copy.",
+            "a": "prototypes"
+          },
+          {
+            "s": "The project page describes plans, not ____.",
+            "a": "results"
+          },
+          {
+            "s": "A place can be good because it has seats, shade, light or ____ to move.",
+            "a": "room"
+          }
+        ],
+        "extra": [
+          "organised",
+          "squares"
+        ]
+      },
+      "match": [
+        {
+          "t": "round table",
+          "d": "a meeting where people sit together and discuss a topic"
+        },
+        {
+          "t": "compulsory",
+          "d": "something you must do because of a rule"
+        },
+        {
+          "t": "shade",
+          "d": "a cool area where the sun's light does not reach"
+        },
+        {
+          "t": "organised",
+          "d": "planned and run by someone"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The project ____ teenagers how public places should work.",
+            "cue": "ask",
+            "a": "asks"
+          },
+          {
+            "s": "The project ____ organised by B-Murals and El Globus Vermell.",
+            "cue": "be",
+            "a": "is"
+          },
+          {
+            "s": "It ____ from the ideas of a group of teenagers.",
+            "cue": "start",
+            "a": "started"
+          },
+          {
+            "s": "Four groups of students at the school ____ part.",
+            "cue": "take",
+            "a": "take"
+          },
+          {
+            "s": "The first two stages ____ planned for January to June 2026.",
+            "cue": "be",
+            "a": "were"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The project is a small test, called a pilot.",
+          "a": "T",
+          "why": "The text says: \"It is a pilot, which means a small test.\""
+        },
+        {
+          "s": "The project page says teenagers' needs are already well included in plans.",
+          "a": "F",
+          "why": "The text says the opposite: \"Its page says that the needs and experiences of teenagers are often missing from plans for streets and squares.\""
+        },
+        {
+          "s": "The students in the project are in the fourth year of ESO.",
+          "a": "T",
+          "why": "The text says: \"They are in the fourth year of ESO, the last year of compulsory secondary school in Spain.\""
+        },
+        {
+          "s": "The project page reports what was built and whether it worked.",
+          "a": "F",
+          "why": "The text says the opposite: \"The project page describes plans, not results.\""
+        },
+        {
+          "s": "The students chose to build a skate park.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The organisers want to encourage ____, which means designing spaces together with the people who use them.",
+            "a": "co-creation"
+          },
+          {
+            "s": "They want to design more ____ urban spaces.",
+            "a": "inclusive"
+          },
+          {
+            "s": "In the ____, students analyse how public spaces are used now.",
+            "a": "diagnosis"
+          },
+          {
+            "s": "Every design is a ____, and someone has to choose.",
+            "a": "compromise"
+          },
+          {
+            "s": "The neighbourhood is going through a major ____.",
+            "a": "transformation"
+          }
+        ],
+        "extra": [
+          "prototypes",
+          "budget"
+        ]
+      },
+      "match": [
+        {
+          "t": "prototypes",
+          "d": "first versions of something that can be copied or improved"
+        },
+        {
+          "t": "pilot",
+          "d": "a small test of a new idea"
+        },
+        {
+          "t": "round table",
+          "d": "a meeting where people sit together and discuss a topic"
+        },
+        {
+          "t": "sustainable",
+          "d": "able to continue without using up resources or harming the environment"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The page ____ the pilot with several city plans.",
+            "cue": "connect",
+            "a": "connects"
+          },
+          {
+            "s": "They ____ in the fourth year of ESO.",
+            "cue": "be",
+            "a": "are"
+          },
+          {
+            "s": "Seats ____ people who sit and talk.",
+            "cue": "attract",
+            "a": "attract"
+          },
+          {
+            "s": "It ____ from the reflections of a group of teenagers.",
+            "cue": "begin",
+            "a": "began"
+          },
+          {
+            "s": "Every design ____ a compromise.",
+            "cue": "be",
+            "a": "is"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The project is part of Barcelona's 2026 architecture programme.",
+          "a": "T",
+          "why": "The text says: \"it is part of Barcelona's 2026 architecture programme\""
+        },
+        {
+          "s": "The students in the project are in their first year of secondary school.",
+          "a": "F",
+          "why": "The text says the opposite: \"They are in the fourth year of ESO, the last year of compulsory secondary school in Spain.\""
+        },
+        {
+          "s": "The last stage of the project was planned for October 2026.",
+          "a": "T",
+          "why": "The text says: \"The first two stages were planned for January to June 2026, and the last for October 2026.\""
+        },
+        {
+          "s": "The page says the pilot proved that the students' designs work.",
+          "a": "F",
+          "why": "The text says the opposite: \"The page describes plans, not results\""
+        },
+        {
+          "s": "The students voted on which square to redesign.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "This is a possible ____, not a finding.",
+            "a": "dilemma"
+          },
+          {
+            "s": "The project aims to make young people active ____ in defining public spaces.",
+            "a": "protagonists"
+          },
+          {
+            "s": "Co-creation moves to designing and building ____ prototypes.",
+            "a": "replicable"
+          },
+          {
+            "s": "A pilot can't settle those conflicts, but it can make them ____.",
+            "a": "visible"
+          },
+          {
+            "s": "Teenagers may want seats, shade and room to move, with no ____ to spend money.",
+            "a": "obligation"
+          }
+        ],
+        "extra": [
+          "neighbour",
+          "square"
+        ]
+      },
+      "match": [
+        {
+          "t": "co-creation",
+          "d": "designing something together with the people who will use it"
+        },
+        {
+          "t": "assumes",
+          "d": "believes something is true without checking"
+        },
+        {
+          "t": "conflicts",
+          "d": "disagreements between people who want different things"
+        },
+        {
+          "t": "diagnosis",
+          "d": "a careful study of how something is at the moment"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The project wants more ____ urban spaces.",
+            "cue": "INCLUDE",
+            "a": "inclusive"
+          },
+          {
+            "s": "The situation will look ____ in a village and in a city centre.",
+            "cue": "DIFFER",
+            "a": "different"
+          },
+          {
+            "s": "The question isn't only about ____.",
+            "cue": "COMFORTABLE",
+            "a": "comfort"
+          },
+          {
+            "s": "The pilot begins in a ____ undergoing major change.",
+            "cue": "NEIGHBOUR",
+            "a": "neighbourhood"
+          },
+          {
+            "s": "The page uses the idea of a ____ city.",
+            "cue": "PLAY",
+            "a": "playable"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The project is run by B-Murals with El Globus Vermell.",
+          "a": "T",
+          "why": "The text says: \"It is run by B-Murals with El Globus Vermell.\""
+        },
+        {
+          "s": "The text presents the dilemma as a proven finding.",
+          "a": "F",
+          "why": "The text says the opposite: \"This is a possible dilemma, not a finding\""
+        },
+        {
+          "s": "The first two stages were scheduled for January to June 2026.",
+          "a": "T",
+          "why": "The text says: \"The first two stages were scheduled for January to June 2026 and the last for October 2026.\""
+        },
+        {
+          "s": "The page reports what the students concluded.",
+          "a": "F",
+          "why": "The text says the opposite: \"It describes aims and a schedule, not outcomes\""
+        },
+        {
+          "s": "The pilot included students from several cities.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "One pilot in one neighbourhood cannot speak for all teenagers in Spain.",
+          "a": "T",
+          "why": "The text says: \"One pilot in one neighbourhood can't speak for teenagers across Spain.\""
+        }
+      ]
+    }
+  }
+}

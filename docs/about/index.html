@@ -793,6 +793,72 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .hl-rm { position: absolute; z-index: 69; font: inherit; font-size: 0.8125rem; font-weight: 600; line-height: 1; color: #6b7280; background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; cursor: pointer; white-space: nowrap; box-shadow: 0 4px 12px -6px rgba(16, 24, 40, 0.3); transition: color 0.12s, border-color 0.12s, background 0.12s; }
 .hl-rm[hidden] { display: none; }
 .hl-rm:hover, .hl-rm:focus-visible { color: #b42318; border-color: #f0c2bd; background: #fdf4f3; }
+
+/* Teens: the collection page, its cards and the activity block */
+.eyebrow { margin: 0; padding-top: 30px; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+.teens-h { margin: 6px 0 0; font-size: clamp(2rem, 7.5vw, 3.25rem); line-height: 1.08; letter-spacing: -0.025em; word-spacing: normal; max-width: 14em; }
+.teens-copy { margin: 14px 0 0; max-width: 36em; font-size: 1.125rem; line-height: 1.55; color: var(--text); }
+.teens-small { margin: 8px 0 0; font-size: 0.9375rem; color: var(--muted); }
+.btn-primary { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; margin-top: 20px; padding: 0 26px; border-radius: 10px; background: var(--accent); color: #fff; font-weight: 600; font-size: 1rem; text-decoration: none; }
+.btn-primary:hover { background: #174cb8; }
+.btn-primary:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.teens-hero .wrap { padding-bottom: 30px; }
+.teens-filters { margin-top: 30px; }
+.teens-filters .chips[hidden] { display: none; }
+button.chip { font: inherit; font-size: 0.875rem; font-weight: 600; cursor: pointer; min-height: 44px; padding: 4px 16px; }
+.chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.tcount { margin: 0; font-size: 0.875rem; color: var(--muted); white-space: nowrap; }
+.tcard .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin: 0; }
+.tcard .meta span + span::before { content: none; }
+.feat { display: inline-block; padding: 1px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+.tcard .lvls { margin: 10px 0 0; font-size: 0.8125rem; font-weight: 600; color: var(--muted); letter-spacing: 0.02em; }
+.thumb .blank { background: var(--accent-soft); }
+.linkbtn { font: inherit; background: none; border: 0; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; text-underline-offset: 0.18em; }
+.teens-note { margin: 10px 0 0; font-size: 0.9375rem; color: var(--muted); }
+.act { margin: 0; padding: 18px 18px 8px; background: var(--accent-soft); border-top: 1px solid var(--line); }
+.act-h { margin: 0 0 6px; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); word-spacing: normal; }
+.act p { margin: 0 0 0.8em; color: var(--ink); }
+.qs-group .qs-after[open] { background: #fff; }
+/* on the Teens page the members notice is a slim strip, so the first story stays in view */
+#stories .gate-note { margin: 14px 0 0; padding: 12px 16px; gap: 8px 16px; border-radius: 12px; }
+#stories .gate-note p { font-size: 0.9375rem; line-height: 1.45; }
+#stories .gate-note .acct-go { padding: 8px 18px; font-size: 0.9375rem; min-height: 40px; }
+#stories .gate-note + .gallery { margin-top: 22px; }
+.teens-hero .btn-primary { margin-top: 16px; }
+.teens-copy { font-size: 1.0625rem; }
+@media (min-width: 700px) { .teens-copy { font-size: 1.125rem; } }
+@media (max-width: 560px) {
+  .eyebrow { padding-top: 18px; }
+  .teens-h { font-size: 1.875rem; margin-top: 4px; }
+  .teens-copy { font-size: 1rem; line-height: 1.5; margin-top: 10px; }
+  .teens-small { font-size: 0.875rem; margin-top: 6px; }
+  .teens-hero .btn-primary { min-height: 44px; margin-top: 12px; padding: 0 22px; }
+  .teens-hero .wrap { padding-bottom: 20px; }
+  .teens-filters { margin-top: 18px; }
+  #stories .gate-note { margin-top: 12px; }
+  #tgrid .card { padding-top: 22px; }
+}
+/* the smallest phones: the Teens link needs the room, so the logo shows as a wordmark only */
+@media (max-width: 340px) {
+  .brand svg { display: none; }
+  .site-nav { gap: 10px; }
+}
+
+/* Right and wrong are never shown by colour alone: a tick or cross, a strike-through and a border style say it too */
+.ex-opt.ok::before, .ex-opt.no::before, .ex-gap.ok::after, .ex-gap.no::after {
+  content: ""; display: inline-block; width: 0.85em; height: 0.85em; vertical-align: -0.08em; background: currentColor;
+  -webkit-mask: var(--ic) center / contain no-repeat; mask: var(--ic) center / contain no-repeat;
+}
+.ex-opt.ok::before { margin-right: 0.4em; }
+.ex-opt.no::before { margin-right: 0.4em; }
+.ex-gap.ok::after, .ex-gap.no::after { margin-left: 0.4em; }
+.ex-opt.ok, .ex-gap.ok { --ic: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5' fill='none' stroke='%23000' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+.ex-opt.no, .ex-gap.no { --ic: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 6l12 12M18 6L6 18' fill='none' stroke='%23000' stroke-width='3.4' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.ex-gap.no, .ex-in.no { text-decoration: line-through; text-decoration-thickness: 2px; }
+.ex-in.ok { border-bottom-width: 3px; }
+.ex-in.no { border-bottom-style: dashed; }
+.ex-sel.ok { border-width: 2px; border-style: solid; }
+.ex-sel.no { border-width: 2px; border-style: dashed; }
 </style>
 </head>
 <body>
@@ -800,7 +866,7 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path d="M5 20h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.5A1.5 1.5 0 0 1 4.5 21 2.5 2.5 0 0 1 2 18.5V11a2 2 0 0 1 2-2h2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.5h8M10 11.5h8M10 15.5h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="wm">john<span>plus</span>news</span></a>
-    <nav class="site-nav" aria-label="Main"><a class="nav-articles" href="/">Articles</a><a class="nav-about" href="/about/" aria-current="page">About</a></nav>
+    <nav class="site-nav" aria-label="Main"><a class="nav-articles" href="/">Articles</a><a class="nav-teens" href="/teens/">Teens</a><a class="nav-about" href="/about/" aria-current="page">About</a></nav>
   </div>
 </header>
 <main id="main">

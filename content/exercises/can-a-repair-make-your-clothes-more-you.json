@@ -1,0 +1,325 @@
+{
+  "slug": "can-a-repair-make-your-clothes-more-you",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "You can cover a hole with a bright ____.",
+            "a": "patch"
+          },
+          {
+            "s": "Hand-stitching means sewing with a needle and ____, with no machine.",
+            "a": "thread"
+          },
+          {
+            "s": "Visible mending means that you don't ____ a repair.",
+            "a": "hide"
+          },
+          {
+            "s": "The goal was to make less textile ____.",
+            "a": "waste"
+          },
+          {
+            "s": "____ means turning something old into something better or more useful.",
+            "a": "upcycling"
+          }
+        ],
+        "extra": [
+          "library",
+          "story"
+        ]
+      },
+      "match": [
+        {
+          "t": "workshop",
+          "d": "a short class where people learn by doing"
+        },
+        {
+          "t": "needle",
+          "d": "a thin, pointed tool for sewing"
+        },
+        {
+          "t": "listing",
+          "d": "a short description of an event on a list"
+        },
+        {
+          "t": "textile",
+          "d": "cloth or fabric"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The library ____ a workshop for teenagers aged 13 to 18.",
+            "cue": "advertise",
+            "a": "advertised"
+          },
+          {
+            "s": "The listing ____ that teenagers would learn three skills.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "People ____ asked to bring one small item.",
+            "cue": "be",
+            "a": "were"
+          },
+          {
+            "s": "A patch ____ a piece of cloth that covers a hole.",
+            "cue": "be",
+            "a": "is"
+          },
+          {
+            "s": "Some people ____ repairs to be invisible.",
+            "cue": "like",
+            "a": "like"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The workshop was for teenagers aged 13 to 18.",
+          "a": "T",
+          "why": "The text says: \"advertised a workshop for teenagers aged 13 to 18\""
+        },
+        {
+          "s": "The workshop was listed for 19 May 2026.",
+          "a": "F",
+          "why": "The text says the opposite: \"It was listed for 19 April 2026\""
+        },
+        {
+          "s": "People were asked to bring one small item that needed repair.",
+          "a": "T",
+          "why": "The text says: \"People were asked to bring one small item that needed repair, no bigger than a hand.\""
+        },
+        {
+          "s": "The listing says how many people came.",
+          "a": "F",
+          "why": "The text says the opposite: \"It doesn't tell us how many people came\""
+        },
+        {
+          "s": "Lucy Ornelas has taught for ten years.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "YAX is a ____ that offers free after-school arts programmes.",
+            "a": "nonprofit"
+          },
+          {
+            "s": "Participants should bring an item no larger than the ____ of a hand.",
+            "a": "palm"
+          },
+          {
+            "s": "The stated goals were to ____ clothing and reduce textile waste.",
+            "a": "upcycle"
+          },
+          {
+            "s": "The library's Youth Advisory Board ____ had spent the school year planning programmes.",
+            "a": "interns"
+          },
+          {
+            "s": "A neat ____ stitch says that nothing happened.",
+            "a": "invisible"
+          }
+        ],
+        "extra": [
+          "feature",
+          "workshop"
+        ]
+      },
+      "match": [
+        {
+          "t": "mending",
+          "d": "fixing damage so that something works again"
+        },
+        {
+          "t": "upcycling",
+          "d": "changing an old object into something new or better"
+        },
+        {
+          "t": "textile",
+          "d": "cloth or fabric"
+        },
+        {
+          "t": "visible mending",
+          "d": "a fix that is shown as part of the design"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The library ____ a workshop for ages 13 to 18.",
+            "cue": "advertise",
+            "a": "advertised"
+          },
+          {
+            "s": "Lucy Ornelas, a textile artist, ____ to lead the workshop.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "They ____ encouraged to bring one textile item.",
+            "cue": "be",
+            "a": "were"
+          },
+          {
+            "s": "The listing also ____ the library's interns.",
+            "cue": "credit",
+            "a": "credited"
+          },
+          {
+            "s": "Mending ____ damage so that something works again.",
+            "cue": "repair",
+            "a": "repairs"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The workshop was for ages 13 to 18.",
+          "a": "T",
+          "why": "The text says: \"The San Francisco Public Library advertised a workshop for ages 13 to 18\""
+        },
+        {
+          "s": "Participants were asked to bring a large item of clothing.",
+          "a": "F",
+          "why": "The text says the opposite: \"no larger than the palm of a hand\""
+        },
+        {
+          "s": "Mending can be invisible.",
+          "a": "T",
+          "why": "The text says: \"Mending repairs damage so that something works again, and it can be invisible.\""
+        },
+        {
+          "s": "The listing says how much waste the workshop saved.",
+          "a": "F",
+          "why": "The text says the opposite: \"it tells us what was advertised, not how many people attended, what they thought or how much waste they saved\""
+        },
+        {
+          "s": "Lucy Ornelas has her own clothing shop.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "The patch is the same, and the meaning changes with the ____.",
+            "a": "viewer"
+          },
+          {
+            "s": "Mending restores ____.",
+            "a": "function"
+          },
+          {
+            "s": "Visible mending turns a flaw into a ____.",
+            "a": "decision"
+          },
+          {
+            "s": "Others may read the same repair as ____.",
+            "a": "necessity"
+          },
+          {
+            "s": "But that taste isn't ____.",
+            "a": "neutral"
+          }
+        ],
+        "extra": [
+          "nonprofit",
+          "interns"
+        ]
+      },
+      "match": [
+        {
+          "t": "flaw",
+          "d": "a small fault in something"
+        },
+        {
+          "t": "purpose",
+          "d": "the reason something is made or used"
+        },
+        {
+          "t": "advertised",
+          "d": "announced publicly to attract people"
+        },
+        {
+          "t": "assumptions",
+          "d": "things you believe without checking"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "To one person the patch looks ____.",
+            "cue": "CREATE",
+            "a": "creative"
+          },
+          {
+            "s": "The workshop teaches a ____ skill.",
+            "cue": "PRACTICE",
+            "a": "practical"
+          },
+          {
+            "s": "Repaired clothes are not ____.",
+            "cue": "EMBARRASS",
+            "a": "embarrassing"
+          },
+          {
+            "s": "The listing is an ____ for the event.",
+            "cue": "ADVERTISE",
+            "a": "advertisement"
+          },
+          {
+            "s": "The listing gives no ____ figures.",
+            "cue": "ATTEND",
+            "a": "attendance"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The workshop was listed for Sunday 19 April 2026.",
+          "a": "T",
+          "why": "The text says: \"listed a workshop for ages 13 to 18 on Sunday 19 April 2026\""
+        },
+        {
+          "s": "Participants were told to bring any large item.",
+          "a": "F",
+          "why": "The text says the opposite: \"no larger than the palm of a hand\""
+        },
+        {
+          "s": "Mending restores function.",
+          "a": "T",
+          "why": "The text says: \"Mending restores function.\""
+        },
+        {
+          "s": "The text says the patch means the same to every viewer.",
+          "a": "F",
+          "why": "The text says the opposite: \"The patch is the same, and the meaning changes with the viewer.\""
+        },
+        {
+          "s": "The workshop was fully booked.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The listing mentions interns who planned programmes for young people.",
+          "a": "T",
+          "why": "The text says: \"It also mentions the library's Youth Advisory Board interns, who had spent the school year planning programmes for young people.\""
+        }
+      ]
+    }
+  }
+}

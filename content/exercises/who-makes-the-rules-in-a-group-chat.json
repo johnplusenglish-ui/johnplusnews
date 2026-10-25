@@ -1,0 +1,325 @@
+{
+  "slug": "who-makes-the-rules-in-a-group-chat",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "The same message can sound happy or ____.",
+            "a": "annoyed"
+          },
+          {
+            "s": "Every group chat has its own ____ rules.",
+            "a": "unwritten"
+          },
+          {
+            "s": "A ____ is a kind of mini-dictionary.",
+            "a": "glossary"
+          },
+          {
+            "s": "Before you decide a message is rude, think about the ____.",
+            "a": "context"
+          },
+          {
+            "s": "Asking is better than ____.",
+            "a": "guessing"
+          }
+        ],
+        "extra": [
+          "reply",
+          "include"
+        ]
+      },
+      "match": [
+        {
+          "t": "annoyed",
+          "d": "a little angry"
+        },
+        {
+          "t": "context",
+          "d": "the situation around something that helps you understand it"
+        },
+        {
+          "t": "unwritten rules",
+          "d": "habits and expectations that everyone follows, though nobody made them official"
+        },
+        {
+          "t": "glossary",
+          "d": "a list of special words with their meanings"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In October 2025, UNICEF Argentina ____ a guide for teenagers.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "Children and young people ____ the glossary, using their own voices.",
+            "cue": "start",
+            "a": "started"
+          },
+          {
+            "s": "Imagine a friend ____ you this message.",
+            "cue": "send",
+            "a": "sends"
+          },
+          {
+            "s": "The guide ____ the risks of online life in simple words.",
+            "cue": "explain",
+            "a": "explains"
+          },
+          {
+            "s": "Asking ____ better than guessing.",
+            "cue": "be",
+            "a": "is"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "UNICEF Argentina published its guide in October 2025.",
+          "a": "T",
+          "why": "The text says: \"In October 2025, UNICEF Argentina published a guide for teenagers.\""
+        },
+        {
+          "s": "The guide is written in English.",
+          "a": "F",
+          "why": "The text says the opposite: \"The guide, written in Spanish, explains in simple words the risks of online life.\""
+        },
+        {
+          "s": "The glossary has more than 100 words, short forms, phrases and emojis.",
+          "a": "T",
+          "why": "The text says: \"It has more than 100 words, short forms, phrases and emojis\""
+        },
+        {
+          "s": "Only adults started the glossary.",
+          "a": "F",
+          "why": "The text says the opposite: \"Children and young people started the glossary, using their own voices.\""
+        },
+        {
+          "s": "The glossary was tested in 20 countries.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The glossary includes terms, ____ and emojis that teenagers use.",
+            "a": "abbreviations"
+          },
+          {
+            "s": "These are expressions that ____ among teenagers online.",
+            "a": "circulate"
+          },
+          {
+            "s": "A message has no ____, so it can be read in different ways.",
+            "a": "tone"
+          },
+          {
+            "s": "For a new member, the unwritten rules can be ____.",
+            "a": "invisible"
+          },
+          {
+            "s": "The chat has no ____ of checking what a message meant.",
+            "a": "habit"
+          }
+        ],
+        "extra": [
+          "readings",
+          "jokes"
+        ]
+      },
+      "match": [
+        {
+          "t": "circulate",
+          "d": "move around from person to person"
+        },
+        {
+          "t": "invisible",
+          "d": "impossible to see or notice"
+        },
+        {
+          "t": "unwritten rules",
+          "d": "habits and expectations that everyone follows, though nobody made them official"
+        },
+        {
+          "t": "tone",
+          "d": "the feeling in the way something is said or written"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In October 2025, UNICEF Argentina ____ a guide for teenagers.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "The glossary was ____ by children and young people.",
+            "cue": "start",
+            "a": "started"
+          },
+          {
+            "s": "Nobody ____ on how fast you have to reply.",
+            "cue": "vote",
+            "a": "votes"
+          },
+          {
+            "s": "These rules ____ slowly.",
+            "cue": "grow",
+            "a": "grow"
+          },
+          {
+            "s": "After a long argument, Mia ____ a short message.",
+            "cue": "write",
+            "a": "writes"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The guide was published in October 2025.",
+          "a": "T",
+          "why": "The text says: \"In October 2025, UNICEF Argentina published a guide for teenagers called Convivencia Digital en la Adolescencia\""
+        },
+        {
+          "s": "The glossary shows which expressions are most common among teenagers in Argentina.",
+          "a": "F",
+          "why": "The text says the opposite: \"It doesn't tell us which expressions are most common, or that every teenager in Argentina uses them.\""
+        },
+        {
+          "s": "Adults started the glossary.",
+          "a": "F",
+          "why": "The text says the opposite: \"It was started by children and young people, using their own voices\""
+        },
+        {
+          "s": "Mia was angry when she wrote her message.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Both of the readings of Mia's message are described as fair.",
+          "a": "T",
+          "why": "The text says: \"Both readings are fair, because the message has no tone.\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "The message could be ____ dressed up as politeness.",
+            "a": "irritation"
+          },
+          {
+            "s": "The glossary ____ shared language; it doesn't turn it into a rulebook.",
+            "a": "documents"
+          },
+          {
+            "s": "An in-joke can make a ____ feel like a stranger.",
+            "a": "newcomer"
+          },
+          {
+            "s": "A group's ____ are as much about belonging as about manners.",
+            "a": "norms"
+          },
+          {
+            "s": "Answer confusion with a ____ rather than a defence.",
+            "a": "clarification"
+          }
+        ],
+        "extra": [
+          "constitution",
+          "teasing"
+        ]
+      },
+      "match": [
+        {
+          "t": "rulebook",
+          "d": "a book or list of official rules"
+        },
+        {
+          "t": "in-joke",
+          "d": "something funny that only the people in a group understand"
+        },
+        {
+          "t": "clarification",
+          "d": "an explanation that makes something easier to understand"
+        },
+        {
+          "t": "circulate",
+          "d": "to pass from person to person or group to group"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The message could simply express ____ that the argument is over.",
+            "cue": "RELIEVE",
+            "a": "relief"
+          },
+          {
+            "s": "Irritation can be dressed up as ____.",
+            "cue": "POLITE",
+            "a": "politeness"
+          },
+          {
+            "s": "Group norms are about ____ as well as manners.",
+            "cue": "BELONG",
+            "a": "belonging"
+          },
+          {
+            "s": "Reply to ____ with a clarification.",
+            "cue": "CONFUSE",
+            "a": "confusion"
+          },
+          {
+            "s": "The guide offers strategies for the ____ of young people.",
+            "cue": "PROTECT",
+            "a": "protection"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The UNICEF Argentina guide is written in Spanish.",
+          "a": "T",
+          "why": "The text says: \"published in October 2025 and written in Spanish\""
+        },
+        {
+          "s": "The glossary is a survey of which expressions teenagers use most.",
+          "a": "F",
+          "why": "The text says the opposite: \"It is a glossary, not a usage survey\""
+        },
+        {
+          "s": "The glossary contains more than 100 terms, abbreviations, phrases and emojis.",
+          "a": "T",
+          "why": "The text says: \"it collects more than 100 terms, abbreviations, phrases and emojis\""
+        },
+        {
+          "s": "The text says every group should write a constitution for its chat.",
+          "a": "F",
+          "why": "The text says the opposite: \"None of this means chats should have a written constitution\""
+        },
+        {
+          "s": "The glossary was translated into English.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "An emoji can mean different things in different chats.",
+          "a": "T",
+          "why": "The text says: \"an emoji that is affectionate in one chat can be ironic in another\""
+        }
+      ]
+    }
+  }
+}
