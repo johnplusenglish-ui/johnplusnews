@@ -9,10 +9,10 @@ source: Pew Research Center | https://www.pewresearch.org/internet/2024/05/09/te
 source-date: 9 May 2024
 source-2: UNICEF Innocenti, Responsible Innovation in Technology for Children | https://www.unicef.org/innocenti/reports/responsible-innovation-technology-children
 source-2-date: 2024
-image: images/can-a-game-be-a-place-to-meet-friends-649f85.jpg
-image-alt: Two game controllers, one blue and one red, with chat bubbles floating above them.
+image: images/can-a-game-be-a-place-to-meet-friends-fda804.jpg
+image-alt: Two friends laughing together on a big yellow beanbag, each holding a game controller.
 image-credit: created for johnplusnews
-image-credit-label: Illustration
+image-credit-label: AI-generated image
 ---
 === Core ===
 

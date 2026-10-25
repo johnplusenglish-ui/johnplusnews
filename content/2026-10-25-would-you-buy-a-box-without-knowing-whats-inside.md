@@ -7,10 +7,10 @@ category: Games & online life
 order: 10
 source: Associated Press, Michelle Chapman (updated 4 June 2025; a dated example, not a 2026 report) | https://apnews.com/article/labubu-viral-plushy-influencers-2de46ecf0b2101a16ef6df4e46f4bc48
 source-date: 4 June 2025
-image: images/would-you-buy-a-box-without-knowing-whats-inside-265597.jpg
-image-alt: A yellow box marked with question marks, with the shapes of small toys peeking out behind it.
+image: images/would-you-buy-a-box-without-knowing-whats-inside-ea2955.jpg
+image-alt: A young person holding a gift box with a question mark on it up to their ear and shaking it.
 image-credit: created for johnplusnews
-image-credit-label: Illustration
+image-credit-label: AI-generated image
 ---
 === Core ===
 

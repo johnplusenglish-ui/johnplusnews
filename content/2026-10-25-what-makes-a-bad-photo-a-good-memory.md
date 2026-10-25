@@ -7,10 +7,10 @@ category: Music & style
 order: 8
 source: BBC News, Annabel Rackham | https://www.bbc.com/news/articles/cly599xlllyo
 source-date: 8 August 2026
-image: images/what-makes-a-bad-photo-a-good-memory-718b74.jpg
-image-alt: A camera in front of two instant photos, one sharp and one blurry.
+image: images/what-makes-a-bad-photo-a-good-memory-581c24.jpg
+image-alt: A young person grinning and holding up a blurry instant photo of two laughing faces.
 image-credit: created for johnplusnews
-image-credit-label: Illustration
+image-credit-label: AI-generated image
 ---
 === Core ===
 

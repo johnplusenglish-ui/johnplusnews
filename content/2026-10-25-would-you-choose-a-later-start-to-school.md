@@ -9,10 +9,10 @@ source: University of Zurich | https://www.news.uzh.ch/en/articles/media/2026/sc
 source-date: 26 February 2026
 source-2: Journal of Adolescent Health, study abstract | https://pubmed.ncbi.nlm.nih.gov/41701119/
 source-2-date: 17 February 2026
-image: images/would-you-choose-a-later-start-to-school-bfda44.jpg
-image-alt: An alarm clock showing half past eight in front of a rising sun over green hills.
+image: images/would-you-choose-a-later-start-to-school-f7e802.jpg
+image-alt: A teenager sitting up in bed hugging a striped pillow with a relieved smile, next to a bedside alarm clock showing half past eight.
 image-credit: created for johnplusnews
-image-credit-label: Illustration
+image-credit-label: AI-generated image
 ---
 === Core ===
 

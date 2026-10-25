@@ -7,10 +7,10 @@ category: Music & style
 order: 6
 source: RTÉ Brainstorm, Katriona Flynn | https://www.rte.ie/brainstorm/2026/0827/1589113-football-jerseys-fashion-culture-design-brands-recognition/
 source-date: 27 August 2026
-image: images/would-you-wear-a-rival-teams-shirt-ec64ba.jpg
-image-alt: Two football shirts side by side, one red and one blue and white, with a question mark above them.
+image: images/would-you-wear-a-rival-teams-shirt-a49644.jpg
+image-alt: One friend holding up a blue and white striped football shirt while another, in a red shirt, folds their arms and raises an eyebrow.
 image-credit: created for johnplusnews
-image-credit-label: Illustration
+image-credit-label: AI-generated image
 ---
 === Core ===
 

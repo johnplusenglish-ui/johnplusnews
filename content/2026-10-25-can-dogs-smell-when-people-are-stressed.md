@@ -9,10 +9,10 @@ source: University of Bristol | https://www.bristol.ac.uk/news/2024/july/dogs-st
 source-date: 22 July 2024
 source-2: Scientific Reports, Parr-Cortes and colleagues | https://www.nature.com/articles/s41598-024-66147-1
 source-2-date: July 2024
-image: images/can-dogs-smell-when-people-are-stressed-74475d.jpg
-image-alt: A friendly cartoon dog sniffing the air, with three food bowls: one with treats, one marked with a question mark and one empty.
+image: images/can-dogs-smell-when-people-are-stressed-d7baab.jpg
+image-alt: A worried young person at a desk with a pile of papers, and a beagle beside the chair looking up at them.
 image-credit: created for johnplusnews
-image-credit-label: Illustration
+image-credit-label: AI-generated image
 ---
 === Core ===
 

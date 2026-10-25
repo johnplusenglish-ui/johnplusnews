@@ -7,10 +7,10 @@ category: Science & making
 order: 11
 source: ESA Education, CanSat Space Engineer for a Day 2026 (event held 17 to 19 June 2026) | https://education.esa.int/cansat_space_engineer_for_a_day_2026_event_inspires_next_space_generation/
 source-date: 10 September 2026
-image: images/could-you-build-a-satellite-that-fits-in-a-can-dfdf68.jpg
-image-alt: A drinks-can-shaped satellite with solar panels above the Earth in space.
+image: images/could-you-build-a-satellite-that-fits-in-a-can-929cea.jpg
+image-alt: Two friends proudly holding a model satellite shaped like a drinks can, with small solar panel wings.
 image-credit: created for johnplusnews
-image-credit-label: Illustration
+image-credit-label: AI-generated image
 ---
 === Core ===
 

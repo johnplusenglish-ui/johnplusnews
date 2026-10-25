@@ -7,10 +7,10 @@ category: Science & making
 order: 12
 source: San Francisco Public Library, event listing for Mending and Upcycling with Youth Art Exchange | https://sfpl.org/events/2026/04/19/workshop-mending-and-upcycling-youth-art-exchange
 source-date: event listed for 19 April 2026
-image: images/can-a-repair-make-your-clothes-more-you-77873a.jpg
-image-alt: A bright yellow patch with a star, stitched onto blue denim, with a needle and thread beside it.
+image: images/can-a-repair-make-your-clothes-more-you-ada8d1.jpg
+image-alt: A young person holding up a denim jacket with a bright yellow star patch sewn on.
 image-credit: created for johnplusnews
-image-credit-label: Illustration
+image-credit-label: AI-generated image
 ---
 === Core ===
 

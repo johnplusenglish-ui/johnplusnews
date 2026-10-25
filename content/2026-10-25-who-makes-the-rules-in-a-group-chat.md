@@ -9,10 +9,10 @@ source: UNICEF Argentina, Convivencia Digital en la Adolescencia | https://www.u
 source-date: October 2025
 source-2: UNICEF Argentina, Glosario Digital Adolescente (PDF in Spanish) | https://www.unicef.org/argentina/media/26531/file/Glosario%20Digital%20Adolescente.pdf
 source-2-date: 2025
-image: images/who-makes-the-rules-in-a-group-chat-a23aed.jpg
-image-alt: A phone showing a chat with coloured messages, surrounded by emoji faces and speech bubbles.
+image: images/who-makes-the-rules-in-a-group-chat-011daf.jpg
+image-alt: A young person looking at a phone with one eyebrow raised, unsure how to read a message.
 image-credit: created for johnplusnews
-image-credit-label: Illustration
+image-credit-label: AI-generated image
 ---
 === Core ===
 
