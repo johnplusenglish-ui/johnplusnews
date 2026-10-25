@@ -755,10 +755,8 @@ def teens_card(a, featured=False):
     return (
         '<li class="card tcard" data-cat="{cs}"{free}><div class="thumb">{thumb}</div>'
         '<p class="meta"><span class="lvl">{cat}</span>{feat}</p>'
-        '<h2><a href="{url}">{title}</a></h2><p class="sub">{summary}</p>'
-        '<p class="lvls" aria-label="Available at {lv}">{lvs}</p></li>'
+        '<h2><a href="{url}">{title}</a></h2><p class="sub">{summary}</p></li>'
     ).format(cs=tag_slug(cat), cat=esc(cat), feat=feat, thumb=thumb, url=url_of(a), title=esc(a["title"]), summary=esc(a["summary"]),
-             lv=esc(", ".join(a["levels"])), lvs=" &middot; ".join(esc(x) for x in a["levels"]),
              free=' data-free="1"' if a["slug"] in FREE_SLUGS else "")
 
 
