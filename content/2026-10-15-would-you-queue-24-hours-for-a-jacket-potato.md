@@ -10,9 +10,9 @@ image: images/would-you-queue-24-hours-for-a-jacket-potato-4d8558.jpg
 title: Waiting for the Food or the Photo?
 summary: People have waited 24 hours for a jacket potato. Why do some foods become so popular online, and what does it mean for small restaurants?
 
-Imagine waiting outside a food stall all night. You're not waiting for a famous chef or a special meal. You're waiting for a baked potato. It sounds ridiculous, but customers in Preston, in northern England, have done exactly that. The brothers behind a business called SpudBros say that some people have camped out nearby and waited almost 24 hours to buy one of their loaded jacket potatoes.
+Imagine waiting outside a food stall all night. You're not waiting for a famous chef or a special meal. You're waiting for a baked potato. It sounds ridiculous, but the owners of a business in Preston, in northern England, say it happens. The brothers behind SpudBros say that some people have camped out nearby and waited almost 24 hours to buy one of their loaded jacket potatoes. We only have the brothers' word for the waiting time.
 
-Jacob and Harley Nelson sell baked potatoes from a converted tram. Their food is simple: a potato with fillings such as cheese, beans or chilli. However, the brothers did something that changed their business. They began putting out videos on social media. People enjoyed watching them prepare the food, talk to customers and add generous amounts of filling. Their videos reached millions of viewers.
+Jacob and Harley Nelson sell baked potatoes from a converted tram. Their food is simple: a jacket potato, which is a large potato baked in its skin, with fillings such as cheese, beans or chilli. However, the brothers did something that changed their business. They began putting out videos on social media. People enjoyed watching them prepare the food, talk to customers and add generous amounts of filling. Their videos reached millions of viewers.
 
 The business soon became an internet attraction. Fans travelled to Preston from other towns and even other countries. Some wanted to taste the food, but they also wanted to take photos and tell their friends they had been there. A normal lunch had become an experience. The queue itself was part of the excitement, because a long line made the food look even more popular.
 
@@ -27,7 +27,7 @@ There is nothing wrong with enjoying a baked potato, and the brothers have worke
 title: Would the Potato Be Worth It Without the Camera?
 summary: Jacob and Harley Nelson sell baked potatoes from a converted tram in Preston. Their videos brought the crowds, and the crowds became the attraction.
 
-A baked potato is hardly the kind of food you would normally travel across the country for. Yet in Preston, Lancashire, people have reportedly queued overnight and waited almost 24 hours to buy one. The attraction is SpudBros, a business run by brothers Jacob and Harley Nelson from a converted tram. Their potatoes come piled high with fillings, but the extraordinary queues owe as much to social media as to the food itself. A traditional British lunch has been turned into an unlikely online sensation.
+SpudBros is a business run by brothers Jacob and Harley Nelson from a converted tram in Preston, Lancashire. It sells baked potatoes piled high with fillings, which is hardly the kind of food you would normally travel across the country for. Yet the brothers say that people have queued overnight and waited almost 24 hours to buy one.
 
 The brothers began posting videos when business was difficult during the pandemic. Their clips showed potatoes being prepared, customers reacting and enormous portions being served. The format was simple, entertaining and easy to share. As their following grew, so did the crowds. Visitors arrived from distant towns and overseas, hoping to taste the potatoes they had already watched countless times on their phones. The brothers now operate in the strange space between running a food business and being internet personalities.
 
@@ -44,7 +44,7 @@ The Nelson brothers have shown how much a small business can achieve by understa
 title: Is the Queue Part of What People Are Buying?
 summary: Viral queues can bring fame and pressure to small restaurants. What do 24-hour waits for a baked potato say about social media and food?
 
-There was a time when a queue outside a food stall suggested either unusually good cooking or a shortage of places to eat. Today it may be evidence of something rather different: an exceptionally successful social-media strategy. In Preston, Lancashire, the brothers behind SpudBros say customers have bedded down overnight and waited almost 24 hours for one of their loaded jacket potatoes. Their business, operating from a converted tram, has helped turn an inexpensive British staple into a minor cultural event. The food is real enough, but the anticipation is increasingly part of the product.
+A baked potato from a converted tram in Preston has become a destination. The brothers behind SpudBros say some customers have slept outside and waited almost 24 hours for their loaded jacket potatoes. Videos helped draw visitors from far beyond Lancashire. Now lunch comes with a second attraction: being part of the queue everyone has seen online.
 
 Jacob and Harley Nelson built up their following by filming the everyday business of preparing and selling potatoes. Their videos captured generous toppings, lively encounters with customers and the brothers' own on-camera personalities. The approach came about during a difficult period for the business and eventually attracted audiences far beyond Preston. Visitors began arriving from other parts of Britain and overseas, drawn not merely by the promise of lunch but by the opportunity to participate in a story they already knew from their screens.
 

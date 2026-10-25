@@ -14,7 +14,7 @@ Look around your bedroom when you turn off the light. Is it completely dark? You
 
 Our bodies follow a daily rhythm. Light helps tell us when to be awake, and darkness helps prepare us for sleep. Bright light at the wrong time may make this rhythm less clear. The problem is not only what we do before bed. Light can also enter a room while we are sleeping.
 
-In 2026, researchers published a review of 15 studies involving more than 765,000 participants. They found that people with the highest exposure to artificial light at night had a 27% higher risk of sleep disturbance than people with low or no exposure. This was an association, not proof that light caused every problem.
+In 2026, researchers published a review of 15 studies involving more than 765,000 participants. In the combined results, sleep problems were 27% more common in the group exposed to the most artificial light at night than in the group with low or no exposure. As an example only, if 10 in 100 people in the low-light group had sleep problems, 27% more would be about 13 in 100. This was a link, not proof that the light caused the problems.
 
 There are other reasons people sleep badly, including noise, stress, illness and irregular working hours. Some of the studies also had problems measuring exactly how much light people experienced. That makes it difficult to know how large the effect is for any one bedroom.
 
@@ -41,7 +41,7 @@ That distinction matters. People living in brightly lit areas may also experienc
 
 Nevertheless, there are practical reasons to pay attention to lighting. Curtains that block streetlights, reduced screen brightness before bed and shutting down unnecessary devices may create a more comfortable sleep environment. People working nights or living in busy cities may have fewer options.
 
-The timing of light exposure is just as important as its presence. Brightness during the morning and daytime helps the body distinguish waking hours from the night, while excessive illumination close to bedtime may send less helpful signals. A practical approach is therefore not to make homes dark all day, but to provide appropriate lighting at different times. Safety also matters.
+The timing of light exposure is just as important as its presence. Brightness during the morning and daytime helps the body distinguish waking hours from the night. Excessive illumination close to bedtime may send less helpful signals. A practical approach is therefore not to make homes dark all day, but to provide appropriate lighting at different times. Safety also matters.
 
 An older person moving around the house at night may reasonably prefer a low-level light to walking through a completely dark room. Researchers and public-health advisers must balance such needs instead of turning darkness into an absolute rule. Alongside lighting, consistent routines, manageable noise and any underlying medical conditions influence sleep quality. Good advice recognises the whole environment.
 
@@ -50,11 +50,11 @@ No single change guarantees good sleep, and persistent difficulties can require 
 === Advanced ===
 
 title: The Small Bedroom Lights We Barely Notice
-summary: Observational evidence cannot separate a streetlight from traffic noise or irregular shifts. The practical response lies with blinds, lamp placement and city lighting policy, not with another demand for perfect sleep habits.
+summary: A 2026 review pooled 15 studies on light at night and sleep disturbance. Its 27% figure is an association, and streetlights, noise and shift patterns are hard to separate.
 
 A bedroom can appear dark while remaining surprisingly illuminated. Light leaks around blinds, a phone charges beside the bed and the glow of nearby buildings reaches through the curtains. Because these sources are so familiar, we tend to tune them out. Yet growing research suggests that artificial light at night deserves a place in discussions about sleep health.
 
-The glowing dot of a charger may seem insignificant beside the demands of work and family. Yet our sleeping environment is made up of exactly such small, easily overlooked details.
+A charger's glow is one example of small light in a bedroom. The review did not test chargers or any single source. It looked at overall exposure to artificial light at night, which the studies measured in different ways and often estimated rather than recorded at the sleeper's eyes.
 
 Our circadian system responds to the daily pattern of light and darkness. Exposure at biologically inappropriate times may alter signals involved in preparing for sleep. A systematic review and meta-analysis published in Environmental Research in March 2026 examined epidemiological research on nighttime illumination and sleep disturbance.
 

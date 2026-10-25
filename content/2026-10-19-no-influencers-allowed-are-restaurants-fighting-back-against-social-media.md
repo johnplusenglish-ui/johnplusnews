@@ -20,14 +20,14 @@ Of course, social media is not always a problem. A lovely photograph can help a 
 
 But there is a difference between taking one quick picture of your cake and turning a dining room into a film studio. Flashing lights, long photoshoots and strangers appearing in videos can spoil the atmosphere. Staff may have to deal with unhappy customers, while other visitors feel uncomfortable. Nobody expects perfect silence in a restaurant, but most people want to eat in peace.
 
-So where should businesses draw the line? A complete ban may seem too strict, especially for customers who simply want a memory of a special day. Clear rules could be a better answer: no large equipment, no filming strangers and no blocking the way. After all, people go out to enjoy an experience, not just to show it off. Perhaps the best photograph is the one you take before putting your phone away.
+So where should businesses draw the line? A complete ban may seem too strict, especially for customers who simply want a memory of a special day. Clear rules could be a better answer: no large equipment, no filming strangers and no blocking the way.
 
 === Intermediate ===
 
 title: When Restaurants Say No to Photoshoots
 summary: A famous hotel on the French Riviera now requires permission for organised shoots. A Cheshire farm shop has restricted filming during its busiest hours.
 
-Picture a romantic lunch on the French Riviera. The sea is sparkling, the tables are beautifully laid and the food is about to arrive. Then a group at the next table starts unpacking several outfits, rearranging furniture and taking photographs from every possible angle. For them, the hotel is a backdrop. For everyone else, it is supposed to be somewhere to relax. That clash has persuaded some businesses to rethink their relationship with influencers.
+Picture a lunch on the French Riviera. Then a group at the next table starts unpacking several outfits, rearranging furniture and taking photographs from every possible angle. For them, the hotel is a backdrop. For everyone else, it is somewhere to relax. That clash has persuaded some businesses to rethink their relationship with influencers.
 
 In October 2026, the Guardian reported that hotels, restaurants and tourist destinations were introducing restrictions on photography. At the famous Hotel du Cap-Eden-Roc in Antibes, organised photoshoots now require permission. Reports suggest some visitors had booked tables for lunch, only to spend their reservations changing clothes and producing social media content. Management wanted to protect the privacy of other guests and preserve the atmosphere people had paid to enjoy.
 
@@ -46,7 +46,7 @@ The sensible answer may lie between an unrestricted photoshoot and a blanket ban
 title: When Your Meal Becomes Someone Else's Photoshoot
 summary: Venues depend on looking good online, yet some now restrict the very photography that promotes them. The dividing line may be behaviour rather than profession.
 
-The setting sounds ideal: a terrace overlooking the Mediterranean, impeccable service and the prospect of an unhurried lunch. Then the neighbouring table becomes a changing room. Garments are unpacked, photographs are staged and furniture is shifted to capture the perfect angle. For the would-be influencers, the venue is raw material for an online identity; for other guests, it is somewhere they have paid handsomely to escape precisely that sort of commotion. Increasingly, hospitality businesses are deciding that the two experiences cannot always coexist.
+Imagine settling down for lunch on a Mediterranean terrace, only for the next table to turn into a photoshoot. Clothes come out, furniture moves and the meal becomes a backdrop. Some guests want pictures; others want a quiet afternoon. For restaurants and hotels, deciding whose experience comes first is becoming a business decision.
 
 An October 2026 report in the Guardian described a growing number of venues clamping down on intrusive photography, and the businesses involved were hardly confined to one country or one luxury market. Hotel du Cap-Eden-Roc, the celebrated property in Antibes, requires prior authorisation for organised photoshoots. According to reporting, some visitors had secured lunch reservations only to spend much of their time changing outfits and creating content. What might look like free publicity to an outside observer can become an operational headache for staff trying to maintain a discreet, luxurious environment.
 
@@ -56,7 +56,7 @@ There is, however, a striking contradiction at the heart of these bans. The hosp
 
 The real dividing line may be behaviour rather than professional status. A visitor quietly photographing a birthday cake is hardly comparable to someone setting up lighting equipment, obstructing a doorway or filming strangers without permission. What one person considers harmless self-expression may feel like an invasion of privacy to another. The tension becomes especially acute when an intimate setting is treated as though it were a public stage, and employees are left to pick up the pieces when complaints start pouring in.
 
-Rather than declaring war on social media, venues could introduce proportionate rules: designated filming times, consent requirements and advance approval for commercial shoots. Customers also have a responsibility to read the room. A memorable visit cannot be measured entirely by the images it generates, and there is something faintly absurd about paying for an experience only to spend it documenting yourself having one. Perhaps the most radical act in a photogenic restaurant is to put the phone down, taste the food and enjoy the company.
+Rather than declaring war on social media, venues could introduce proportionate rules: designated filming times, consent requirements and advance approval for commercial shoots. Customers also have a responsibility to read the room. A dining room is doing several jobs at once. It is a place to eat, a place to meet friends and, for some visitors, a place to work. The rules work best when they leave space for all three.
 
 === Core before you read ===
 

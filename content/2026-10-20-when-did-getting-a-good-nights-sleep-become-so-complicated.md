@@ -35,7 +35,7 @@ Going to bed used to involve a pillow, a blanket and the hope of waking up refre
 
 A sleep score might look precise, but it is still an estimate produced by a device. Seeing a low number can make someone feel disappointed before they have even got out of bed.
 
-Researchers described the term orthosomnia in a 2017 article in the Journal of Clinical Sleep Medicine. They reported patients who became preoccupied with the apparently imperfect sleep recorded by wearable devices. Some trusted their tracker data so strongly that they questioned their own experience of feeling rested.
+Researchers described the term orthosomnia in a 2017 article in the Journal of Clinical Sleep Medicine. They reported patients who became preoccupied with the apparently imperfect sleep recorded by wearable devices. Some trusted their tracker data so strongly that they questioned their own experience of feeling rested. These were particular patients described by clinicians, not a picture of everyone who wears a tracker.
 
 The technology has improved, but sleep is still difficult to measure precisely outside a clinical setting. Consumer devices estimate sleep stages and duration using signals such as movement and heart rate. Their reports can be useful for spotting patterns, yet they are not equivalent to a medical sleep assessment.
 
@@ -52,11 +52,9 @@ Perhaps we should treat sleep technology like other health tools: useful when it
 === Advanced ===
 
 title: When Trying to Sleep Better Keeps You Awake
-summary: Wrist-worn devices infer sleep from indirect signals, yet a number shown to one decimal place carries an authority its methods may not justify. Measurement can alter the thing it measures.
+summary: Your watch gives you a sleep score before you have decided how you feel. In 2017, clinicians gave the name orthosomnia to patients who became preoccupied with such scores.
 
-Sleep has become an unlikely arena for personal optimisation. A smartwatch records movement, estimates sleeping stages and produces a morning judgement, often before its wearer has decided whether they feel refreshed. The promise is greater control over rest. The paradox is that measuring sleep can occasionally make people more anxious about it.
-
-Consider the strange morning ritual of checking a device to discover whether you slept well. The verdict can colour the day before you have had time to assess how you actually feel.
+The watch has judged your night's sleep before you have decided how you feel. It gives you a score, estimates your sleep stages and suggests what needs work. That information can be useful. For some people, though, the effort to get a better score becomes another reason to worry at bedtime.
 
 In 2017, clinicians writing in the Journal of Clinical Sleep Medicine introduced the term orthosomnia to describe patients whose pursuit of ideal sleep-tracker measurements appeared to interfere with their relationship with sleep. Their observations were case reports, not evidence that tracking routinely causes insomnia or that orthosomnia is a universally recognised medical diagnosis.
 
@@ -66,7 +64,7 @@ This creates an unusual feedback loop. A person wakes feeling reasonably well, s
 
 Yet dismissing sleep technology entirely would be excessive. Tracking can reveal irregular bedtimes and provide useful information for a discussion with a clinician. The distinction lies in whether measurements inform judgement or replace it. Persistent sleep problems require assessment based on symptoms and appropriate medical evidence, not just a consumer algorithm. The wider paradox is that an attempt to control sleep may introduce the very vigilance that makes rest difficult. Sometimes better habits require stepping away from the dashboard.
 
-The appearance of precision gives consumer sleep scores an authority that their underlying methods may not justify. A number displayed to one decimal place can conceal uncertainty about when a person was awake or how accurately particular sleep stages were identified. Users may nevertheless interpret small nightly changes as meaningful evidence of success or failure. This illustrates a broader problem with quantified self-monitoring: measurement can alter the experience being measured.
+The appearance of precision gives consumer sleep scores an authority that their underlying methods may not justify. A number displayed with apparent precision can conceal uncertainty about when a person was awake or how accurately particular sleep stages were identified. Users may nevertheless interpret small nightly changes as meaningful evidence of success or failure. This illustrates a broader problem with quantified self-monitoring: measurement can alter the experience being measured.
 
 Concern about the result may influence how a person approaches bedtime, while retrospective interpretation of fatigue may become anchored to the device's judgement. Rather than treating tracking as either a breakthrough or a threat, a proportionate approach asks whether the information leads to useful action. If monitoring primarily creates anxiety, its practical value deserves reconsideration.
 

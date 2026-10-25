@@ -13,13 +13,13 @@ summary: GUNIA Project in Kyiv works with more than 150 craftspeople. Their weav
 
 A plate can be much more than a plate. It can show a flower, an old pattern or a picture that people in a country have used for hundreds of years. In Ukraine, some designers are using everyday objects to help keep their culture alive.
 
-One example is GUNIA Project, a design company based in Kyiv. It makes clothes, jewellery, candles, plates and other objects. Many of its designs come from traditional Ukrainian art and craft. The company does not simply copy old objects. It works with artists to create new pieces that fit modern homes and lives, so a very old idea can turn up in a very new form.
+One example is GUNIA Project, a design company based in Kyiv. It makes clothes, jewellery, candles, plates and other objects. Take one of its plates: the pattern may come from traditional Ukrainian art, but the plate is made for a modern home. The company does not simply copy old objects. It works with artists to create new pieces that fit modern homes and lives, so a very old idea can turn up in a very new form.
 
 Some skills are very difficult to pick up. Glassblowing, weaving, embroidery and making ceramics can take years of practice, and they are usually handed down from older workers to younger ones. GUNIA says it works with more than 150 craftspeople across Ukraine. Buying handmade products can help these workers carry on using and teaching their skills.
 
 Since Russia's full-scale invasion in 2022, protecting Ukrainian culture has become especially important. War can damage museums, destroy buildings and force families to leave their homes. It can also make it much harder for small workshops to find materials or customers. Artists may have to move to a safer part of the country, far from the workshop where they trained. If a workshop closes, the skills inside it may slowly die out.
 
-Not everyone can afford expensive handmade products, and a fashion brand cannot protect a whole country's history on its own. Some people also ask who really benefits when old traditions are sold as luxury goods. But a successful design company can introduce younger buyers to traditions they might otherwise never notice. A pattern that once appeared on a traditional coat might now show up on a modern cushion or cup.
+Not everyone can afford expensive handmade products, and a fashion brand cannot protect a whole country's history on its own. Ukraine has many regions and many crafts, so one company cannot speak for all of them. Some people also ask who really benefits when old traditions are sold as luxury goods. But a successful design company can introduce younger buyers to traditions they might otherwise never notice. A pattern that once appeared on a traditional coat might now show up on a modern cushion or cup.
 
 Culture is not only something we find in museums or history books. It can be part of what we wear, use and give as gifts. Sometimes the most ordinary objects help people remember who they are.
 
@@ -38,14 +38,14 @@ After Russia's full-scale invasion of Ukraine in 2022, the idea of cultural pres
 
 There are tensions in this approach. Handmade products may be too expensive for many people, and selling cultural traditions as luxury goods can raise awkward questions about who really benefits. Designers also have to weigh up the difference between respectful reinterpretation and treating a community's heritage as decoration. A pattern taken out of its original setting can end up as little more than a pretty shape.
 
-Even so, the project challenges a familiar assumption about tradition. Preserving culture does not always mean keeping old objects untouched behind glass, where nobody uses them and few people look closely. It can also mean giving a skill new customers, new uses and a reason to survive. Tradition, on this view, is less a museum case than a working habit that has to be passed on.
+Even so, the project challenges a familiar assumption about tradition. Preserving culture does not always mean keeping old objects untouched behind glass. It can also mean giving a skill new customers, new uses and a reason to survive. Tradition, on this view, is less a museum case than a working habit that has to be passed on.
 
 === Advanced ===
 
 title: How Ukrainian Designers Are Keeping Old Craft Skills Alive
-summary: GUNIA Project's artisans are not curators, and their work is sold rather than catalogued. That commercial footing raises awkward questions about who speaks for a tradition, and supplies the one thing reverence cannot: an income.
+summary: A Kyiv company sells clothes, ceramics and household objects made with traditional Ukrainian crafts. Paying customers may keep a skill alive, but they also raise questions about who speaks for a tradition.
 
-Cultural preservation tends to conjure up archives, museums and painstaking restoration work. Yet in Ukraine, some of the most visible attempts to sustain traditional craftsmanship are taking place in the commercial world of design. Kyiv-based GUNIA Project has built a business around reinterpreting inherited artistic practices as contemporary clothing, ceramics and household objects, an approach that sits oddly with conventional notions of heritage and works rather well in practice.
+A plate, a shirt or a candle can carry a very old idea. Kyiv-based GUNIA Project makes clothing, ceramics and household objects that reinterpret traditional Ukrainian crafts for modern buyers. It is a business, not a museum, and that sits oddly with conventional ideas of heritage, though it seems to work in practice.
 
 The company's method begins with research into historical motifs and techniques, followed by collaborations with working craftspeople. According to GUNIA, its production network takes in more than 150 artisans across Ukraine and draws on disciplines ranging from embroidery and weaving to blown glass and fine ceramics. A traditional image, lifted out of its original setting, is given a new function without necessarily shedding its cultural associations. What results is neither replica nor invention, but something closer to translation.
 
@@ -53,7 +53,7 @@ Russia's full-scale invasion in 2022 has made such work particularly resonant. H
 
 The relationship between commerce and heritage remains uneasy, nonetheless. Luxury positioning may narrow the audience for objects presented as national culture, while reinterpretation risks turning complex traditions into attractive motifs stripped of context. Who speaks for a tradition, and who profits from it, are questions that cannot simply be brushed aside. Nor are they settled by good intentions: they have to be managed case by case, in decisions about pricing, credit and whose name appears on the label. Supporters counter that the alternative, allowing valuable techniques to drop out of ordinary use altogether, would represent a far greater loss.
 
-What sets this kind of design apart from simple nostalgia is its refusal to treat tradition as something fixed. Techniques survive partly because they are adapted, and a practice incapable of change is a practice waiting to be catalogued. A woven textile need not retain its original social function in order to preserve the knowledge required to make it, and a new buyer may stumble upon a much older history through an object intended for everyday use.
+What sets this kind of design apart from simple nostalgia is its refusal to treat tradition as something fixed. Techniques survive partly because they are adapted, and a practice incapable of change is a practice waiting to be catalogued. A new design can still keep an old skill in use. Someone buying a piece for their home may discover the history behind the way it was made.
 
 Ukraine's experience points to a broader lesson. A culture is not only a collection of irreplaceable monuments; it is also a network of people who know how to make things, pass that knowledge on and invest familiar symbols with contemporary meaning. Protecting the monuments is comparatively straightforward. Keeping the network intact, particularly under wartime conditions, may call for as much creativity as conservation. It is an unglamorous form of preservation, and quite possibly a more durable one.
 

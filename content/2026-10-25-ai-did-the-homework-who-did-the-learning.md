@@ -1,6 +1,6 @@
 title: AI Did the Homework. Who Did the Learning?
 date: 2026-10-25
-summary: More than half of UK children aged 8 to 17 use AI, according to Ofcom. The harder question is what a student still has to do for themselves.
+summary: More than half of UK children aged 8 to 17 use AI, according to Ofcom. What should a student still do for themselves?
 tags: Technology, Education
 audience: teens
 category: School life
@@ -23,24 +23,22 @@ In May 2026, Ofcom, the media regulator in the United Kingdom, published new res
 
 Ofcom also said that many children don't seem to know how AI works, and that few of them ask whether the answers are correct. These numbers come from the UK, so they don't tell us what students in your country do. And they don't show that AI makes students learn more or less.
 
-Not all help is the same. Think about three kinds. First, help that explains: a hint, or the meaning of a word. Second, help that checks: you write your own answer, and then someone shows you a mistake. Third, help that does the work: someone gives you the finished answer. The first two can help you learn. The third can leave you with a good answer and no idea how it works.
+Not all help is the same. Take one task: a paragraph about why the Roman Empire fell. There are three kinds of help. First, help that explains: a hint, or the meaning of a word. Second, help that checks: you write your own answer, and then someone shows you a mistake. Third, help that does the work: someone gives you the finished answer. The first two can help you learn. The third can leave you with a good answer and no idea how it works.
 
 There are two different problems here. One is accuracy: is the answer right? An AI tool can sound sure and still be wrong, so you need to check. The other is ownership: whose work is it? Even a correct answer isn't your learning if you didn't do the thinking.
 
 Teachers and schools have different rules, so find out what is allowed in your class. You can ask the same question about any help, from a book, a friend or a tool. Did I do the thinking?
 
-So here is your choice. You have one difficult task. You can ask for one hint, or you can ask for the whole answer. Which do you choose, and when would you change your mind?
-
 === Intermediate ===
 
 title: AI Did the Homework. Who Did the Learning?
-summary: More than half of UK children aged 8 to 17 use AI, according to Ofcom. The harder question is what a student still has to do for themselves.
+summary: More than half of UK children aged 8 to 17 use AI, according to Ofcom. What should a student still do for themselves?
 
 A student hands in a perfect paragraph on Monday. On Tuesday the teacher asks her to explain the second sentence, and she can't. Nothing in the paragraph is wrong. The problem is that nobody can say who did the thinking.
 
 That situation is becoming easier to imagine. In May 2026, the UK media regulator Ofcom published research on how children spend their time online. It reported that 56% of 8 to 17-year-olds in the UK use AI, rising to 66% of 16 and 17-year-olds. It also described limited understanding of how AI works. Many children didn't appear to distinguish between different AI tools, and few questioned the accuracy of what they were told.
 
-These figures describe children in the UK, not every teenager in the world, and they come from research about media use, not an experiment about learning. They don't show whether AI makes students learn more or less. They simply show that, for many young people, AI is already part of the routine.
+These figures describe children in the UK, and they don't show whether AI makes students learn more or less. They only show that, for many young people, AI is already part of the routine.
 
 It helps to separate three kinds of help, although this is our own way of thinking, not an Ofcom finding. Help that explains gives you a hint, an example or the meaning of a word. Help that checks looks at your own attempt and points out mistakes. Help that replaces the task hands you the finished answer. In general, the first two leave the thinking with you, while the third takes it away.
 
@@ -53,9 +51,9 @@ So imagine you are stuck on a difficult task tonight. You can ask for one hint o
 === Advanced ===
 
 title: When Does Homework Help Become Someone Else's Work?
-summary: Ofcom found that more than half of UK children aged 8 to 17 use AI. The harder question is not whether students use help, but what they still have to do themselves.
+summary: A student stuck on homework can get a finished answer in seconds. Ofcom found that more than half of UK children aged 8 to 17 use AI, so what should students still do themselves?
 
-Every homework task contains a quiet agreement: the work you hand in shows what you can do. Help has always bent that agreement, from the parent who "just checks" to the friend who explains the method. AI did not create the problem, but it makes the finished answer arrive in seconds, which changes how tempting the shortcut is.
+A student is stuck on a maths problem at ten at night. A friend suggests a method. A parent offers to check the answer. An AI tool offers the whole solution in seconds. All of these are help, but they are not the same kind of help. AI did not create the problem, but it makes the finished answer arrive so quickly that the shortcut is more tempting.
 
 In May 2026, Ofcom, the UK's media regulator, published its latest research on children's online lives. It reported that 56% of 8 to 17-year-olds used AI, rising to 66% among 16 and 17-year-olds. It also described limited understanding of how AI works: many children did not appear to distinguish between different tools, and few questioned the accuracy of the answers they received.
 
@@ -67,7 +65,7 @@ Accuracy and ownership are separate tests, and a piece of work can pass one and 
 
 Fairness complicates the picture. Access to devices, internet and better paid tools varies, and so does support at home, so a rule that assumes everyone can use AI equally may reward those who already have the most. A rule that bans it may be impossible to check. Some teachers change the task rather than the rule: they ask students to explain an answer aloud, to show drafts or to write part of the work in class, so that the thinking becomes visible whatever tools were used.
 
-A defensible rule has to answer two questions at once: what may a student receive, and what must they still do themselves? Where would you draw that line for a history essay, a maths problem and a speaking test? And would your answer change if every student had exactly the same access?
+A useful rule should make clear what help is allowed and what the student must still do. Getting an answer and understanding it are different achievements. Rules matter, but so do the small decisions a student makes at ten at night.
 
 === Core before you read ===
 

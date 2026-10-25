@@ -14,7 +14,7 @@ Mount Everest is the highest mountain in the world. For many climbers, reaching 
 
 Everest is in the Himalayas, on the border between Nepal and China. Many climbers set off from the Nepali side and pay large amounts of money for permits, equipment and professional support. Taking on experienced local guides is an important part of most expeditions.
 
-Some people worry that Everest has become too popular. Tourists may try to climb it without enough experience, even when they have the money to book a trip. If something goes wrong high on the mountain, guides and rescue teams end up in danger too. They may have to climb back into the same thin air and bad weather to bring somebody down.
+Some people worry that Everest has become too popular. Tourists may try to climb it without enough experience, even when they have the money to book a trip. High mountains test skills such as breathing in thin air and judging the weather, and those skills take years to learn. If something goes wrong high on the mountain, guides and rescue teams end up in danger too. They may have to climb back into the same thin air and bad weather to bring somebody down.
 
 In 2026, politicians in Nepal discussed stricter rules for people who want to climb Everest. One idea was that climbers should first have got to the top of another Nepali mountain higher than 7,000 metres. Other proposals dealt with better insurance and with the rubbish that expeditions leave behind on mountains.
 
@@ -35,7 +35,7 @@ Nepal, whose mountain communities rely heavily on climbing tourism, has been loo
 
 The distinction between a proposal and a law matters. Parliamentary discussions do not mean that every suggested restriction has already been brought in. Different lawmakers have backed different standards, and the final rules depend on how the legislative process turns out. Until a bill is passed, climbers and operators are planning around requirements that could still change.
 
-Supporters believe stronger experience requirements could put off poorly prepared climbers and take some pressure off guides and rescuers. Critics may argue that previous climbs are no guarantee of good judgement, while the expense of extra qualifying expeditions could narrow access to an even wealthier group of people.
+Supporters believe stronger experience requirements could put off poorly prepared climbers and take some pressure off guides and rescuers. Critics may argue that previous climbs are no guarantee of good judgement. They also note that extra qualifying expeditions cost money, so only an even wealthier group of people could afford to climb Everest.
 
 There are important local interests as well. International expeditions provide income for Nepali guides, transport providers and other businesses, often in areas with few other ways of making a living. Any new system has to weigh safety and environmental protection against the livelihoods of people who depend on the climbing season. Halving the number of permits would certainly ease the pressure on the mountain, but it would also halve somebody's wages.
 
@@ -44,7 +44,7 @@ The debate is ultimately about the difference between a challenging adventure an
 === Advanced ===
 
 title: Who Should Be Allowed to Climb Everest?
-summary: A previous summit above 7,000 metres is an imperfect proxy for judgement, and an expensive one. Whichever way the bill goes, it is guides and porters who carry the consequences of a decision taken about clients.
+summary: Nepal is considering stricter rules for Everest climbers. Experience may help safety, but it could also make the mountain more expensive, and guides and porters carry the risks.
 
 Mount Everest occupies an uneasy position between an extraordinary mountaineering challenge and a global adventure industry. Its summit still demands exceptional endurance, but the commercial infrastructure built up around expeditions has fuelled concern about inexperienced climbers taking on the world's highest mountain with extensive paid assistance. Nepal's debate over tougher entry requirements reflects precisely that tension.
 
@@ -52,7 +52,7 @@ At extreme altitude, danger is not confined to dramatic storms or technical acci
 
 In 2026, Nepalese lawmakers considered revisions to tourism legislation that would impose more demanding qualifications on aspiring Everest climbers. One prominent proposal required applicants to have summited another mountain above 7,000 metres in Nepal. Other suggested changes concerned insurance, environmental responsibilities and the regulation of expedition companies. These measures formed part of a legislative process rather than a settled body of newly enforceable rules, a distinction easily lost once a headline announces that Everest has been closed to novices. Coverage that collapses the two risks misleading precisely the climbers any new rule is meant to protect.
 
-There is a compelling argument for requiring demonstrable experience. Organised support cannot do away with the need for judgement, physical preparation and familiarity with high-altitude conditions. Yet a qualification based on previous summits is an imperfect proxy for competence, and the extra climbing it would mandate could push up both the cost and the environmental footprint of an Everest ambition. Rules intended to filter out the unprepared may end up filtering out the less wealthy. Competence, inconveniently, is harder to certify than altitude.
+There is a compelling argument for requiring demonstrable experience. Organised support cannot do away with the need for judgement, physical preparation and familiarity with high-altitude conditions. Climbing another mountain first is no guarantee of good judgement. Requiring extra expeditions could also make Everest more expensive and increase the travel involved. Rules intended to filter out the unprepared may end up filtering out the less wealthy. Competence, inconveniently, is harder to certify than altitude.
 
 The economics weigh just as heavily. Mountaineering generates employment and revenue in regions with few alternative opportunities. Restrictions that sharply reduce visitor numbers would be felt first by guides and local communities, while rules that prioritise volume expose those same workers to avoidable danger. Responsible policy has to hold both considerations in view rather than treating climbers as the only parties with interests at stake. No version of the rules leaves every interest untouched; the real question is which trade-off can be defended.
 

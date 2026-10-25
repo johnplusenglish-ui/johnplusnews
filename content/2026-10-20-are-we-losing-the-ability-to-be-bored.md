@@ -53,9 +53,9 @@ Perhaps the interesting experiment is not deleting every app but noticing our ha
 === Advanced ===
 
 title: Why More Entertainment May Not Mean Less Boredom
-summary: Tam and Inzlicht's 2024 perspective suggests that constant novelty makes unstimulating moments harder to tolerate. Counting screen hours misses the point, since what matters is whether the switching corresponds to anything we actually wanted.
+summary: There is always something to watch, yet waiting a few seconds can still feel unbearable. A 2024 article by Katy Tam and Michael Inzlicht asks whether constant stimulation makes dull moments harder to bear.
 
-Modern life offers an extraordinary solution to an ancient human problem: whenever boredom appears, we can summon an almost limitless supply of stimulation. Yet the anticipated disappearance of boredom has not materialised. A few seconds of waiting can now feel like a gap that demands to be filled. The phone offers an effortless escape, but it may also make ordinary, unstimulating moments harder to tolerate.
+Modern life offers an extraordinary solution to an ancient human problem: whenever boredom appears, we can summon an almost limitless supply of stimulation. There is always something to watch, yet waiting a few seconds can still feel unbearable. The phone offers an effortless escape, but it may also make ordinary, unstimulating moments harder to tolerate.
 
 In a 2024 perspective published in Communications Psychology, Katy Tam and Michael Inzlicht examined this paradox and proposed that digital media might contribute to the very feeling it promises to eliminate. Their argument is a research-informed hypothesis, not definitive evidence of a single cause. Nevertheless, it raises a useful challenge to the assumption that more entertainment necessarily means greater satisfaction.
 

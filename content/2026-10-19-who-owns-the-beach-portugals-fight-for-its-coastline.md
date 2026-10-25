@@ -17,16 +17,16 @@ Residents and campaigners protested against plans connected with several beaches
 
 The protesters argued that the coastline should stay something everyone can enjoy. For many residents, the beach is not just a tourist attraction. It is a place they grew up visiting as children, and they want their own children to be able to use it too, without paying for the privilege.
 
-Supporters of private investment may see things differently. Businesses can provide parking, cleaning, restaurants and other useful services, and tourism creates jobs for people who live nearby. But those services usually come at a price, and people worry when an ordinary afternoon at the beach starts to feel like an expensive holiday package. Cleaning, parking and safety all cost money, and somebody has to pay for them in the end.
+Supporters of private investment may see things differently. Businesses can provide parking, cleaning, restaurants and other useful services, and tourism creates jobs for people who live nearby. But those services usually come at a price, and people worry when an ordinary afternoon at the beach starts to feel like an expensive holiday package. Cleaning, parking and safety all cost money, and somebody has to pay for them in the end. A small fee may seem fair once, but a family that visits fifty times a summer would pay it fifty times.
 
-There is an important difference between owning a beach and running services near it. The public debate was about access and the possible effects of a proposed development. It was not proof that every beach in the area had already become private property.
+There is an important difference between owning a beach and running services near it. The public debate was about access and the possible effects of a proposed development. It was not proof that every beach in the area had already become private property, and rules differ from beach to beach.
 
 The dispute asks a question that matters in many countries. A coastline may be valuable because it is beautiful, but that is exactly why companies want to make money from it. Can local people, visitors and businesses all benefit without turning a shared natural place into somewhere only wealthier families feel comfortable? The answer may be different in every country, but the question keeps coming back.
 
 === Intermediate ===
 
 title: Could a Day at the Beach Become a Luxury?
-summary: Opposing a development is not the same as proving a coastline has been privatised. The Arrábida protests were really about who decides how a shared landscape is run.
+summary: Protests in Portugal's Arrábida region in 2026 opposed development plans affecting several beaches. They were about who decides how a shared landscape is run.
 
 For most people, the right to visit the seaside feels obvious. Beaches may require maintenance, cleaning and transport links, but the sea itself seems like a shared resource rather than a product. In Portugal, protests around the Arrábida coast during the summer of 2026 revealed how complicated that assumption becomes once private development and mass tourism enter the picture.
 
@@ -36,7 +36,7 @@ Developers and businesses can make a reasonable case for investment. Coastal des
 
 The argument requires careful wording. Opposition to a proposal is not the same as proof that an entire coastline has already been privatised. Public access, commercial concessions and outright private ownership raise quite different legal questions. What protesters feared was a future in which decisions about an important natural space increasingly reflected commercial priorities rather than local ones.
 
-Protected status complicates things further. Rules that limit building or cut the number of cars allowed near the sea can be genuinely necessary for conservation, yet the same rules may be felt as a way of keeping ordinary visitors away. Who a restriction protects, and who it inconveniences, depends a great deal on who draws it up.
+Protected status complicates things further. Rules that limit building or cut the number of cars allowed near the sea can be genuinely necessary for conservation, yet the same rules may be felt as a way of keeping ordinary visitors away. Who a restriction protects, and who it inconveniences, depends a great deal on who draws it up. Conservation rules, development plans and charges are different decisions, and each should be judged on its own.
 
 A related concern is that tourism can price out the people who live closest to a destination. Visitors may be happy to pay for a premium experience during a fortnight's holiday, while residents need ordinary, affordable access all year round. A charge that looks trivial once can look very different fifty times a summer, and it is the local family, not the holidaymaker, who pays it most often. Seasonal work adds another layer, since many of the jobs tourism creates last only a few months.
 
@@ -45,13 +45,13 @@ The Arrábida dispute is therefore not simply a choice between protecting beache
 === Advanced ===
 
 title: Who Gets to Enjoy a Public Beach?
-summary: Coastlines become commercially valuable precisely because earlier generations shared them rather than cashing in. When access starts to depend on spending power, the loss is real and almost impossible to price.
+summary: Who can reach the sand on a popular beach? In Portugal's Arrábida region in 2026, opposition to development plans made questions of access, conservation and private development unusually visible.
 
-The idea that a coastline belongs to everyone is emotionally compelling, yet the practical management of a popular beach is rarely straightforward. Access roads, conservation rules, commercial concessions and private development all influence who is actually able to reach the sand. In Portugal's Arrábida region, opposition to development plans affecting several beaches made those tensions unusually visible during 2026.
+Who can reach the sand on a popular beach? The answer depends on access roads, conservation rules, commercial concessions and private development. In Portugal's Arrábida region, opposition to development plans affecting several beaches made those tensions unusually visible during 2026.
 
 Protesters argued that stronger private control could undermine residents' ability to enjoy a landscape they regarded as part of their community's identity. Arrábida's clear waters and striking coastal scenery draw visitors from well beyond the region, creating economic opportunities while placing considerable pressure on infrastructure and on sensitive natural areas that were never designed for crowds. The pressure is concentrated into a few months, which makes it harder to manage and easier to underestimate in the planning stage.
 
-Those in favour of greater investment may reasonably emphasise improved facilities, better visitor management and employment. Yet the benefits of commercial development tend to be distributed unevenly. A charge that strikes an occasional visitor as modest may represent a significant barrier to a family accustomed to using the beach regularly and without substantial expense, which is precisely the group least likely to be consulted about it.
+Those in favour of greater investment may reasonably emphasise improved facilities, better visitor management and employment. Yet the benefits of commercial development tend to be distributed unevenly. A fee can seem small to someone visiting once. A local family going back throughout the summer may see a very different cost.
 
 Protected status complicates the picture rather than resolving it. Measures that limit construction or cap vehicle numbers may be ecologically indispensable, yet identical restrictions can function, or at least be experienced, as a mechanism for discouraging ordinary visitors. A great deal depends on who drafts the rules, who is consulted beforehand and whether the resulting inconvenience falls on day-trippers or on paying guests.
 

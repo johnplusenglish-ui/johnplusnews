@@ -24,12 +24,12 @@ A difficult part of rust-out is explaining it to other people. Imagine telling a
 
 At work, you often have to remain at your desk and look busy, even when there is nothing useful to do. You cannot simply leave and take a long walk. That loss of freedom can make the hours feel even longer. A short, quiet period at work may be welcome. Rust-out is different because the feeling continues for weeks or months and starts to affect how someone thinks about themselves.
 
-The surprising lesson is that being busy and being interested are not the same thing. People usually need more than a salary or a full day of tasks. They also want to feel that their time and abilities are being used for something worthwhile.
+Being busy and being interested are not the same thing. People usually need more than a salary or a full day of tasks. They also want to feel that their time and abilities are being used for something worthwhile.
 
 === Intermediate ===
 
 title: A Quiet Job Can Still Be a Draining One
-summary: Rust-out looks like a privilege from the outside, so people stay quiet while colleagues are overwhelmed. Being paid to look busy is not the same as free time.
+summary: A worker has an almost empty calendar but still has to account for every hour. Psychologists call the exhaustion that can follow rust-out or boreout.
 
 We normally associate exhaustion with being overworked. Yet somebody can return home drained after a day in which almost nothing demanding happened. This apparent contradiction has attracted attention from workplace psychologists, who describe a problem known as rust-out or boreout.
 
@@ -45,16 +45,16 @@ Employers have a role to play. They can offer training, vary responsibilities, i
 
 What makes rust-out particularly awkward is that it can look like a privilege from the outside. Employees dealing with demanding shifts may struggle to sympathise with a colleague who says their work is too easy. That misunderstanding can discourage people from speaking up about boredom until they have become seriously disengaged. There is also a difference between welcome downtime and enforced inactivity.
 
-A quiet hour after a busy morning can be refreshing, whereas being expected to sit at a desk all day while pretending to be occupied removes the freedom that might make spare time enjoyable. People can feel trapped between the fear of appearing ungrateful and the frustration of wasting abilities they worked hard to develop. Recognising this distinction may help managers identify problems that standard workload measures do not reveal.
+A quiet hour after a busy morning can be refreshing. Being expected to sit at a desk all day while pretending to be occupied is different: it removes the freedom that might make spare time enjoyable. People can feel trapped between the fear of appearing ungrateful and the frustration of wasting abilities they worked hard to develop. Recognising this distinction may help managers identify problems that standard workload measures do not reveal.
 
 The debate about modern work often focuses on reducing pressure. Rust-out suggests that balance involves more than doing fewer hours. People also need tasks that stretch their abilities, opportunities to grow and a convincing reason to care about what they do.
 
 === Advanced ===
 
 title: Why an Easy Job Can Leave You Exhausted
-summary: The American Psychological Association points towards job design rather than individual attitude. Adding more monotonous tasks raises activity without restoring engagement, because the missing ingredients are autonomy and purpose.
+summary: A quiet day at work can still leave you drained. The American Psychological Association says the problem may lie in how jobs are designed.
 
-How can somebody spend eight undemanding hours at a desk and still emerge emotionally exhausted? It sounds almost insulting to people coping with excessive workloads. Nevertheless, researchers increasingly recognise that chronic under-stimulation can be a substantial workplace problem in its own right. Imagine having to demonstrate enthusiasm for tasks that have become almost mechanical. The pressure to look occupied can, in itself, turn an undemanding day into an oddly draining experience.
+A quiet day at work sounds like a gift, until you have to spend eight hours pretending to be busy. The tasks are familiar, there is little to learn and leaving is not an option. That kind of boredom can be draining. It is different from enjoying a spare hour after a demanding morning.
 
 The term rust-out describes a persistent sense of disengagement associated with insufficient challenge, repetitive duties or work perceived as meaningless. It differs from burnout, although both can leave employees fatigued and detached. In a September 2026 feature, the American Psychological Association highlighted emerging evidence that workplace boredom is not merely an inconvenience but can affect psychological and physical wellbeing.
 

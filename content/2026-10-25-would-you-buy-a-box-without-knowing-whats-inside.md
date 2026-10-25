@@ -21,13 +21,13 @@ Imagine two boxes on a table. They cost the same. One box shows exactly what is 
 
 The second kind of box is called a blind box. You buy it without knowing which version of a toy is inside. In June 2025, the news agency Associated Press wrote about one famous example, a toy called Labubu, which has pointed ears and teeth.
 
-Labubu began as a character in three picture books in 2015. They were drawn by the artist Kasing Lung and inspired by Nordic myths. In 2019, Lung made a deal with a Chinese company called Pop Mart to sell Labubu figures. Then, in 2023, Pop Mart began selling Labubu plush toys on key rings, and they seemed to appear everywhere.
+Labubu began as a character in three picture books in 2015. They were drawn by the artist Kasing Lung. In 2019, Lung made a deal with a Chinese company called Pop Mart to sell Labubu figures. Then, in 2023, Pop Mart began selling Labubu plush toys on key rings, and they seemed to appear everywhere.
 
 AP says famous people were seen with them, and fans clipped them to bags, belts and backpacks. A Pop Mart manager called the toy a "collectible and style symbol". AP also said that many buyers were adults, and that adults often bought the toys for themselves.
 
 A surprise can be fun. It can also be disappointing. You might get a toy you didn't want, or the same one twice. When the toys were hard to find, there were long lines in some shops. In the UK, the company stopped some sales for a time.
 
-This is a story from 2025 about one toy. It isn't a report about what teenagers buy today, and it doesn't tell us about your country. Nobody needs a Labubu, or any collectible, to belong.
+This is a story from 2025 about one toy. It isn't a report about what teenagers buy today, and it doesn't tell us about your country. Some people love collecting, and others would rather spend their money elsewhere.
 
 So which box would you choose? And what makes something worth keeping: the surprise, the design or the story behind it?
 
@@ -38,9 +38,9 @@ summary: Blind boxes sell a toy you can't see until you open it. A 2025 AP story
 
 Two boxes sit on a table and cost exactly the same. One shows you the toy inside. The other is sealed, and the toy could be any one of several versions. Some people feel a small thrill at the second box. Others feel annoyed that they can't choose. Which are you?
 
-The sealed kind is called a blind box. In June 2025, the Associated Press published a story about the most famous example of the moment, Labubu. The character first appeared in 2015 in three picture books by the artist Kasing Lung, inspired by Nordic mythology, with pointed ears and teeth. In 2019, Lung signed a deal with the Chinese company Pop Mart, and in 2023, Pop Mart started selling Labubu plush toys on key rings.
+The sealed kind is called a blind box. In June 2025, the Associated Press published a story about the most famous example of the moment, Labubu. The character first appeared in 2015 in three picture books by the artist Kasing Lung, and in 2023 the Chinese company Pop Mart started selling Labubu plush toys on key rings.
 
-That is when the toys became hard to miss. AP reports that celebrities were photographed with them, that the singer Lisa of Blackpink posted about them to more than 100 million followers, and that fans attached them to handbags, backpacks and belts. Most products cost between $20 and $300, and limited editions cost more. Emily Brough, from Pop Mart, described the toy as a "collectible and style symbol".
+That is when the toys became hard to miss. AP reports that celebrities were photographed with them, that the singer Lisa of Blackpink posted about them to more than 100 million followers, and that fans attached them to handbags, backpacks and belts. AP said most products cost between $20 and $300 in 2025, and limited editions cost more. Emily Brough, from Pop Mart, described the toy as a "collectible and style symbol".
 
 AP also noted that many buyers were adults, who often bought the toys for themselves. Because the toys were hard to find, there were long lines, and in late May 2025 Pop Mart temporarily suspended its in-store and blind-box machine sales in the UK. Resellers charged high markups, and one shopper said the prices were "really bad".
 
@@ -53,7 +53,7 @@ So if you designed a toy people would love to keep, how would you make it specia
 === Advanced ===
 
 title: Do You Want the Toy, or the Surprise?
-summary: A 2025 AP story about Labubu shows a product that is part toy, part fashion accessory and part mystery. It also raises a fair question about what exactly people are paying for.
+summary: A 2025 AP story described Labubu, a toy sold in sealed blind boxes, as part toy, part fashion accessory and part mystery. Are buyers paying for the toy or the surprise?
 
 A blind box asks a strange question: would you pay for something you haven't seen? For some buyers the answer is yes, and the reason is the not seeing. The pleasure of the opening, the small moment before the lid comes off, is the thing they are buying, and the toy is almost a bonus. For other buyers the unknown is just an obstacle to getting what they want.
 
@@ -63,7 +63,7 @@ AP's account of the buyers is more interesting than the celebrity details. Many 
 
 The story also shows what happens when demand is higher than supply. There were long lines and, according to AP, at least one fight at a shopping centre in the UK. In late May 2025, Pop Mart temporarily suspended its in-store and blind-box machine sales there. Resellers charged high markups, and one shopper said that at a certain point you can't buy them at all.
 
-It would be easy to turn this into a story about manipulation, but the evidence doesn't support that. Nothing in AP's report shows that blind boxes make people spend more than they planned, and many collectors enjoy the surprise knowingly. A more careful question is about incentives. A seller whose toys are hidden in a box benefits when people buy again to complete a set, but that isn't the same as saying every buyer is tricked. The format can be fun and profitable at the same time.
+The surprise can be fun, but it also means a buyer may get a duplicate or a design they did not want. A seller can benefit when collectors buy again to complete a set. That does not tell us how every customer feels about the deal. The format can be fun and profitable at the same time.
 
 Keep the limits in view. This is a dated story from 2025 about one product, and its information comes from the company, its customers and market research on adult buyers, not from teenagers. It can't tell us what is popular where you live now, and it certainly doesn't show that anyone needs to buy anything to belong.
 

@@ -18,7 +18,7 @@ This problem is connected to fast fashion, which means producing inexpensive new
 
 There are ways to reduce waste. People can buy fewer clothes, choose items that last longer, repair small problems and use second-hand shops. But recycling clothes is often difficult, especially when different materials are mixed together. From July 2026, large companies in the European Union were also banned from destroying most unsold clothing and shoes, with some exceptions.
 
-Affordable clothes are important, especially for families on limited budgets. The answer cannot simply be to tell everyone to buy expensive brands. Clothing companies also need to make better products and avoid creating more waste than necessary. Before buying something new, it may help to ask whether you will still want to wear it next year. A cheap T-shirt is not always a bargain if it is only worn once and then thrown away.
+Affordable clothes are important, especially for families on limited budgets. The answer cannot simply be to tell everyone to buy expensive brands. Clothing companies also need to make better products and avoid creating more waste than necessary. Before buying something new, it may help to ask whether you will still want to wear it next year, though that is easier for some households than others.
 
 === Intermediate ===
 
@@ -27,7 +27,7 @@ summary: The bag outside the shop carries a comforting promise. In the sorting r
 
 A bag left outside a charity shop carries a comforting promise: these clothes will find new owners and help a good cause. Inside the sorting room, the story can be very different. Staff open the bag and discover damaged seams, weak fabric and garments with almost no resale value. The donation has not removed the waste. It has transferred the difficult decision, and sometimes the disposal bill, to the charity.
 
-Reporting from a hospice charity in south London described up to 100 bags arriving in a single day, while only around a quarter of the contents were suitable for sale. Every item still had to be checked and handled. Meanwhile, resale apps allow people to sell their most desirable pieces directly, potentially leaving charity shops with a greater share of the clothes nobody wants. A generous gesture can therefore become an unexpected expense.
+A hospice charity in south London told a reporter that up to 100 bags can arrive in a single day. Only around a quarter of the items inside were suitable for sale. Every item still had to be checked and handled. Meanwhile, resale apps allow people to sell their most desirable pieces directly, potentially leaving charity shops with a greater share of the clothes nobody wants. A generous gesture can therefore become an unexpected expense.
 
 The situation reflects the growth of fast fashion, an industry built around low prices and rapidly changing trends. Clothing can be advertised online, bought within seconds and replaced before it has worn out. Social media encourages impulse purchases by showing shoppers a constant stream of new looks. In its 2026 State of Style report, Oxfam found that 64% of people surveyed in Britain had bought clothes they were not actively looking for after seeing something online. The charity also estimated that nearly a third of clothing in British wardrobes was never worn.
 
@@ -42,7 +42,7 @@ Consumers can make a difference by cutting back on new purchases, repairing clot
 title: Why Your Donated Clothes May Be Hard to Sell
 summary: Charities are inheriting the disposal costs of an industry built on constant replacement.
 
-The donation bag provides a reassuring ending to the story of an unwanted garment. The wardrobe is clearer, the clothes avoid the bin and a charity may earn money. In the sorting room, that neat narrative can collapse. British charity shops report being inundated with weak, damaged or commercially worthless clothing. The consumer has passed the garment on, but the social and environmental cost has not disappeared; it has simply arrived at somebody else's door.
+The donation bag provides a reassuring ending to the story of an unwanted garment. The wardrobe is clearer, the clothes avoid the bin and a charity may earn money. In the sorting room, that neat narrative can collapse. British charity shops report being inundated with clothing that is too damaged or too poor in quality to sell. The consumer has passed the garment on, but the social and environmental cost has not disappeared; it has simply arrived at somebody else's door.
 
 The pressure is visible at St Raphael's Hospice in south London, where reporting in October 2026 described as many as 100 bags arriving each day and only a minority of their contents being fit for sale. Disposal costs eat into charitable income. At the same time, resale platforms encourage people to sell desirable pieces themselves, leaving shops to inherit more of the garments with little value. The charity sector is absorbing part of the cost of fast fashion's constant replacement cycle. Charities, in effect, are picking up the bill for decisions taken long before the bag reached their door.
 
@@ -52,7 +52,7 @@ The environmental consequences extend well beyond household clutter. Textile pro
 
 European policymakers have begun to intervene. Since July 2026, large companies have faced a prohibition on destroying most unsold apparel and footwear, with defined exceptions. The measure is intended to encourage resale, repair and reuse rather than disposal of perfectly serviceable goods. It marks a shift towards holding businesses responsible for what happens after products fail to sell, although it does not directly challenge the relentless pace at which new collections are launched.
 
-There is a danger in presenting individual shoppers as the sole cause of the problem. Low-cost clothing serves a real need, particularly for households facing financial constraints, and buying fewer but more expensive garments is not a realistic prescription for everyone. Shoppers can only choose from what the industry puts in front of them. Manufacturers determine durability, retailers shape purchasing behaviour and policymakers decide which costs businesses must bear. The central question is therefore not whether charity shops can find a better way to deal with discarded fashion, but whether the industry can succeed without producing so much clothing that almost nobody wants to keep.
+Cheap clothes meet a real need, and buying fewer, more expensive items is not an option for every household. Shoppers also have limited control over how well clothes are made. Manufacturers choose materials, shops encourage purchases and governments decide which disposal costs businesses bear. Charity shops are dealing with the result. They cannot solve overproduction on their own.
 
 === Core before you read ===
 

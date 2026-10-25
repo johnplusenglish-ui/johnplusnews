@@ -16,7 +16,7 @@ Holy Week, known in Spanish as Semana Santa, is the biggest event of the year in
 
 The streets fill up early and can become extremely crowded. A balcony above the main route gives you a clear, comfortable view without standing for hours among other people. Some property owners rent out these spaces to visitors, and special packages may include food and drinks, which makes the experience even more expensive.
 
-In March 2026, local property professionals reported that central balconies were renting for an average of around €6,000 for the whole week. Particularly desirable places, sometimes with catering included, could reach almost €9,000. These are prices for the week, not the price of standing outside for a few minutes.
+In March 2026, local property professionals reported that central balconies were renting for an average of around €6,000 for the whole week. Particularly desirable places, sometimes with catering included, could reach almost €9,000. These are prices for the week, not the price of standing outside for a few minutes, and the highest figures were for particular locations or packages, not for every balcony.
 
 Some people say that owners should be free to rent their property for whatever customers will pay. A balcony is private, nobody has to take the offer, and owners have every right to make a profit from a space they already own.
 
@@ -29,7 +29,7 @@ So the story raises an interesting question. Should the best seats in the house 
 === Intermediate ===
 
 title: Why a Balcony View Can Cost Thousands
-summary: Central balconies averaged around €6,000 for the week in March 2026. The families who carry the images through the city are not the ones collecting the rent.
+summary: In March 2026, central balconies along Seville's Holy Week route averaged around €6,000 for the week, with some packages near €9,000.
 
 Seville's Holy Week processions are among Spain's most recognisable cultural traditions. Thousands of people fill the streets to watch religious brotherhoods carry elaborate images through the historic centre. Yet in 2026, the headlines about the celebrations focused on something far more commercial: the extraordinary cost of renting a balcony overlooking the route.
 
@@ -45,16 +45,16 @@ Supporters reply that the processions remain visible from public streets and tha
 
 It is also worth remembering who the money reaches. Balcony rentals benefit the households and businesses that happen to own property on the right streets, which is a narrow group compared with the many families who take part in the processions themselves. Good fortune in the property market is not the same as a contribution to the tradition.
 
-The disagreement is familiar in tourist cities everywhere. When visitors are willing to spend far more than residents, access to the most convenient spaces becomes unequal, and the best of anything drifts out of reach of the people who live there year on year. Seville's expensive balconies ask where to draw the line between making money from culture and making culture less welcoming to the people who sustain it.
+The disagreement is familiar in tourist cities everywhere. Visitors may be willing to spend far more than residents. Access to the most convenient places can then become unequal, and the best of anything can drift out of reach of the people who live there. Seville's expensive balconies ask where to draw the line between making money from culture and making culture less welcoming to the people who sustain it.
 
 === Advanced ===
 
 title: What Makes a View Worth Thousands of Euros?
-summary: The view has not improved; the number of people competing for it has. A balcony let to visitors is one a family no longer watches from, and habits are fragile when the places that housed them change hands each spring.
+summary: A central balcony can cost around €6,000 for Holy Week, and up to €9,000 with services. The view has not improved; more people are competing for it.
 
-Seville's Holy Week processions are public expressions of religious devotion, civic identity and centuries-old tradition. Yet the ability to view them from a privileged position has become an increasingly lucrative commercial asset. By March 2026, reports put the average weekly rental price of a central balcony at approximately €6,000, with particularly desirable locations approaching €9,000 once hospitality services were included.
+A balcony above Seville's Holy Week processions can offer a remarkable view, and an equally remarkable bill. Reports in March 2026 put central balcony rentals at about €6,000 for the week, with some packages approaching €9,000. The processions take place in public streets. The best place to watch may be privately priced.
 
-The economics are readily understandable. The processions attract enormous crowds, while the supply of balconies overlooking the central route is fixed and cannot be expanded. Property owners and hospitality businesses are therefore able to sell an experience combining comfort, exclusivity and an unusually close view of ceremonies that most spectators watch from packed streets.
+Holy Week combines religious devotion, civic identity and centuries-old tradition, and the processions attract enormous crowds. The supply of balconies overlooking the central route is fixed and cannot be expanded, so property owners and hospitality businesses can sell comfort, exclusivity and an unusually close view of ceremonies that most spectators watch from packed streets.
 
 What the going rate reveals, in other words, is scarcity rather than quality. The balcony itself has not improved; the number of people competing for it has risen. This is the familiar logic of any tourist city in which demand grows faster than the physical space available to accommodate it.
 
@@ -64,9 +64,9 @@ Defenders of the market point out that the streets remain publicly accessible an
 
 There is no simple division between authentic culture and commercial activity. Festivals have long supported hotels, restaurants and small businesses, and tourist spending can help sustain a local economy that sustains the festival in turn. The concern arises when financial incentives begin to shape how an event is experienced, discussed or organised, rather than merely supporting something that already exists.
 
-Nor is the pressure purely financial. A balcony let to visitors is a balcony not occupied by the family that has watched from it for years, and that loss registers socially long before it appears in any economic account of the week. Traditions are maintained largely by habit, and habits are fragile when the places that housed them change hands each spring.
+Nor is the pressure purely financial. A balcony let to visitors is one that a local family may no longer watch from, and that loss could register socially long before it appears in any economic account of the week. Traditions are maintained largely by habit, and habits are fragile when the places that housed them change hands each spring.
 
-Timing complicates the picture further. Once a tradition is valuable, the pressure to protect its commercial appeal can give way to decisions no participant ever asked for: routes adjusted for visibility, schedules arranged around visitors, atmosphere managed rather than allowed to happen. None of that has to occur, but each step looks reasonable on its own.
+Timing complicates the picture further. Once a tradition is valuable, pressure to protect its commercial appeal could give way to decisions no participant asked for: routes adjusted for visibility, schedules arranged around visitors, atmosphere managed rather than allowed to happen. Such changes are a concern, not something documented here, and none has to occur, but each step could look reasonable on its own.
 
 Seville's balconies therefore offer a revealing example of a wider tension. Cultural traditions are powerful partly because they bring communities together, yet their very popularity can turn access into a scarce commodity and squeeze out the people for whom the occasion means most. The question is not whether an owner may charge for a view, but whether an increasingly commercial setting changes the meaning of what spectators have come to see.
 

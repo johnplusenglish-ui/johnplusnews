@@ -21,17 +21,15 @@ summary: Most teenage players in the United States play with other people. Almos
 
 Imagine it's Friday evening. Your team is ready, but one friend hasn't joined yet. While you wait, nobody talks about winning. People tell jokes, ask about each other's week and argue about snacks. Is this just a game, or is it a place to meet?
 
-The Pew Research Center, in the United States, asked 1,423 teenagers aged 13 to 17 about video games. Most of them play: 85 out of 100. And most players, about 89 out of 100, play with other people, either in the same room or online. Only 11 out of 100 play on their own.
+The Pew Research Center, in the United States, asked 1,423 teenagers aged 13 to 17 about video games. Most players, about 89 out of 100, play with other people, either in the same room or online. So for most players, a game is already something they do with other people.
 
-Many players say the other people are part of the reason. About 72 out of 100 say one reason they play is to spend time with others. And 47 out of 100 say they have made a friend online because of a game they both play.
+Many players say the other people are part of the reason they play. And 47 out of 100 players say they have made a friend online because of a game they both play.
 
-But a game group isn't always friendly. In the survey, 80 out of 100 teenagers said that harassment, which means unkind and hostile behaviour, is a problem for people their age. About four in ten players said someone had called them an offensive name while they played.
+But a game group isn't always friendly. In the survey, many teenagers said that harassment, which means unkind and hostile behaviour, is a problem for people their age. About four in ten players said someone had called them an offensive name while they played.
 
-So what makes a team good to play with? Think about the teams you know. Does it wait for beginners? Does it stay kind when it's losing?
+So what makes a team good to play with? Think about the teams you know. Does it wait for beginners? Does it stay kind when it's losing? Does anyone get left out when the match is over?
 
 These numbers come from American teenagers, and they show what players say about their own lives. They don't prove that games help people make better friends. And if you don't play games, the question still works. Where do you spend time with friends, and what do you do there?
-
-So, can a game be a place to meet friends? Think of a game, a sport or a club. What would make a stranger feel welcome there?
 
 === Intermediate ===
 
@@ -46,8 +44,6 @@ Games turned out to be a social activity for most players. About nine in ten (89
 
 Not everyone's experience is the same, though. Among players who call themselves gamers, 68% had made an online friend through a game, compared with 29% of players who don't use that label. The survey also found a darker side. In total, 80% of teenagers said harassment over video games is a problem for people their age, and 41% of players said they had been called an offensive name while playing.
 
-A different project looked at games from the designers' side. UNICEF's research office, Innocenti, worked with four universities on a study of how digital games can support children's well-being. In its second phase, it followed hundreds of children in six countries over many weeks, and it points game designers to a toolbox of practical ideas. It is a different kind of study from the Pew survey.
-
 All of this suggests that the group around the game may matter as much as the game itself. A team that waits for a beginner, shares tips and stays kind when it's losing can turn a game into a place to meet. A team that makes people nervous can do the opposite. Remember the limits, though. These are American teenagers describing their own experiences, so the survey can't prove that games improve friendships.
 
 So, if you had to introduce a friend to your favourite group activity, game or not, what would you want people to do in the first ten minutes?
@@ -57,15 +53,15 @@ So, if you had to introduce a friend to your favourite group activity, game or n
 title: Logging On to Spend Time Together
 summary: Most US teenage players play with other people, and almost half have made an online friend through a game. The survey measures how friendships start, not how good they are.
 
-A group of friends can be in four different places and still feel as if they are in the same room. They talk over each other, interrupt the match with stories, and nobody leaves when it ends. If you only counted the points, you would miss what was happening. For many players, the game is the reason to log on, and the company is the reason to stay.
+Picture a group of friends in four different places who still feel as if they are in the same room. They talk over each other, interrupt the match with stories, and nobody leaves when it ends. If you only counted the points, you would miss what was happening. For many players, the game is the reason to log on, and the company is the reason to stay.
 
 The Pew Research Center, which published its survey in May 2024, gives that idea some numbers. It asked 1,423 teenagers in the United States, aged 13 to 17, about their video-game habits in autumn 2023. Eighty-five per cent said they play. About nine in ten of those players (89%) play with other people, in person or online, and 72% give spending time with others as one reason. Around 47% of players said they had made a friend online because of a game they both play, which equals 40% of all the teenagers surveyed.
 
-Behind the headline figures, experiences differ sharply. Among teenagers who call themselves gamers, 68% had made an online friend through a game, but only 29% of players who don't use that label had. Nearly all boys (97%) and about three-quarters of girls play, but 62% of boys call themselves gamers compared with 17% of girls, so "a player" and "a gamer" are not the same thing.
+Behind the headline figures, experiences differ sharply. Among teenagers who call themselves gamers, 68% had made an online friend through a game, but only 29% of players who don't use that label had. Nearly all boys (97%) and about three-quarters of girls play, but 62% of boys call themselves gamers compared with 17% of girls. So "a player" and "a gamer" are not the same thing, and the headline 47% hides a wide gap between the two groups.
 
 The benefits and the risks also travel together: 80% of teenagers said harassment over video games is a problem for people their age, and 41% of players said they had been called an offensive name while playing.
 
-UNICEF's research office, Innocenti, approached games from a different direction. In the second phase of its RITEC project, researchers and four universities studied hundreds of children in six countries over many weeks. They asked how digital games can contribute to children's well-being, and the overview points designers to a toolbox of design features. That is a project about children and design, not a measurement of teenage friendships, so it shouldn't be read as backing for the Pew figures.
+The survey records that these friendships began through games. What happens after the first meeting still depends on the people in the group.
 
 It's tempting to ask whether friendships that start in a game are as good as the ones that start at school. The survey can't answer that. It records that a friendship began, not how close it became, how long it lasted or whether it moved into other parts of life. It would be a mistake to assume that online friendships are shallower, and equally a mistake to assume they are identical to ones formed in person. What the figures do show is that, for many players, a game is a place where people spend time together.
 

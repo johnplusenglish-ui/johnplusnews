@@ -12,11 +12,11 @@ summary: Capybaras walk across lawns and roads in Nordelta, near Buenos Aires. I
 
 Imagine looking out of your kitchen window and seeing an enormous brown animal eating the grass beside your swimming pool. For some people living in Nordelta, an expensive neighbourhood near Buenos Aires in Argentina, that is an ordinary morning rather than a surprise.
 
-The animals are capybaras, called carpinchos in Argentina. They are the world's largest living rodents and are related to guinea pigs, although they are far bigger. They love water and usually live in groups near rivers, lakes and wetlands. In Nordelta, they can be seen walking across lawns, crossing roads and resting beside the artificial lakes that were built for the residents.
+The animals are capybaras, called carpinchos in Argentina. They are the world's largest living rodents and are related to guinea pigs, although they are far bigger. They love water and usually live in groups near rivers, lakes and wetlands. Nordelta was built on wetland, where capybaras already lived. In Nordelta, they can be seen walking across lawns, crossing roads and resting beside the artificial lakes that were built for the residents.
 
 For some residents, the animals are a wonderful part of local life and visitors love taking photographs of them. Other people are much less happy. They worry about their pets, damaged gardens and animals suddenly turning up in front of cars at night. In September 2026, a resident was filmed firing a gun at capybaras near his home. The incident led to complaints and an investigation.
 
-Animal campaigners say the bigger problem is not the capybaras themselves. Before the houses, roads and shopping areas were built, this land was part of a wetland, and wild animals already lived there. As people moved in and built more homes, the animals lost a great deal of their natural space.
+Animal campaigners say the bigger problem is not the capybaras themselves. As people moved in and built more homes, the animals lost a great deal of their natural space.
 
 Finding a solution is difficult. Moving capybaras somewhere else is not always simple, and residents also need to feel safe in their own gardens. Campaigners have suggested protecting the natural areas that are left and creating routes where animals can move around without crossing busy streets. None of this is quick, and it costs money that somebody has to agree to spend.
 
@@ -29,7 +29,7 @@ summary: Residents report damaged gardens, road risks and awkward encounters wit
 
 In most wealthy neighbourhoods, homeowners complain about parking, noisy neighbours or the cost of maintenance. In Nordelta, a large residential development outside Buenos Aires, the most unusual dispute concerns capybaras: giant, semi-aquatic rodents that wander across carefully maintained lawns as if they own the place.
 
-Capybaras, known locally as carpinchos, are native to South America and naturally inhabit wetlands. Nordelta, however, was built in an area where those wetlands once spread out for miles. Its artificial lakes and green spaces still attract the animals, producing an uncomfortable kind of coexistence between wildlife and residents who had not expected to share their gardens with anything larger than a cat.
+Capybaras, known locally as carpinchos, are native to South America and naturally inhabit wetlands. Nordelta, however, was built in an area where those wetlands once spread out for miles. Its artificial lakes and green spaces still attract the animals. The result is an uncomfortable coexistence between wildlife and residents who had not expected to share their gardens with anything larger than a cat.
 
 It helps to know what a capybara actually is. They are the largest living rodents in the world, relatives of the guinea pig on a far greater scale, and they live in groups wherever there is water. A family of them grazing on a lawn is therefore perfectly normal wetland behaviour, simply carried out in an unexpected setting.
 
@@ -44,9 +44,9 @@ The capybara has become an internet favourite thanks to its relaxed expression a
 === Advanced ===
 
 title: The Capybaras Were There First. What Happens Now?
-summary: Words such as pest and invasion do a great deal of work before the argument has formally begun. Whoever controls the vocabulary is halfway to controlling the policy that follows.
+summary: Capybaras graze on the lawns of a gated community near Buenos Aires, on land that was once wetland. Who should adapt when homes are built in an animal's habitat?
 
-Few disputes illustrate the contradictions of suburban development as neatly as the capybara controversy in Nordelta, a gated community outside Buenos Aires. Its residents enjoy landscaped gardens, artificial lakes and the promise of orderly, well-managed living. Yet the neighbourhood is also home to large numbers of carpinchos, the semi-aquatic rodents known internationally as capybaras, whose unhurried presence disrupts that carefully arranged environment.
+Capybaras graze on the landscaped lawns of Nordelta, a gated community outside Buenos Aires, as if the gardens had been planted for them. The residents enjoy artificial lakes and the promise of orderly, well-managed living. Yet the neighbourhood is also home to large numbers of carpinchos, the semi-aquatic rodents known internationally as capybaras, whose unhurried presence disrupts that carefully arranged environment.
 
 The animals are not newcomers in any meaningful ecological sense. They are native to the wetlands on which the development expanded, and the waterways and vegetation created for human enjoyment have proved attractive habitat for the original inhabitants. What some residents describe as an invasion is better understood as the survival of wildlife within a landscape that has been comprehensively rebuilt around it.
 
@@ -56,7 +56,7 @@ The resulting tension is not entirely imaginary, and it would be unfair to prete
 
 Campaigners advocate better habitat protection, ecological corridors and forms of coexistence that acknowledge how thoroughly the development has reshaped the wetland. Residents seeking practical safety measures have legitimate interests too, and dismissing them outright achieves nothing beyond hardening the argument. Relocation, often proposed as the obvious remedy, depends on there being somewhere suitable to move the animals to, which is precisely what the development has done away with. The challenge is to separate evidence-based management from the comfortable assumption that wildlife ought to disappear the moment it becomes inconvenient.
 
-The argument also exposes a linguistic trap worth noticing. Terms such as "pest", "invasion" and "wildlife problem" quietly suggest that nature has intruded upon a settled human order. The underlying history is frequently the reverse: construction has broken up a functioning habitat, pushing animals out of the places they relied on and leaving them to negotiate an increasingly artificial environment on terms they never chose. Language of that sort does a good deal of work before the argument has formally begun, and whoever controls the vocabulary is halfway to controlling the policy that follows.
+The argument also exposes a linguistic trap worth noticing. Terms such as "pest", "invasion" and "wildlife problem" quietly suggest that nature has intruded upon a settled human order. Often the building came after the animals. Roads and homes broke up their habitat, leaving them to find food and space in a landscape people had changed. Language of that sort does a good deal of work before the argument has formally begun, and whoever controls the vocabulary is halfway to controlling the policy that follows.
 
 Nordelta's capybaras may look amusing in photographs, but they pose an uncomfortable question for cities everywhere. When property development manufactures a desirable address by transforming natural land, how much responsibility should fall to the people who benefit from it, and how much to the creatures that simply stayed where they were? The answer will matter wherever suburbs continue to expand into land that was never empty in the first place.
 

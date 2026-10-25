@@ -25,7 +25,7 @@ In March 2025, many fans did the second thing. The book was Sunrise on the Reapi
 
 In New York, hundreds of fans came to a bookshop at midnight. Some wore costumes of characters from the books. They did scavenger hunts, solved puzzles and played a trivia game. It was so hard that even the book's editor, David Levithan, said he could not answer every question.
 
-In Britain, the bookshop chain Waterstones held 110 midnight parties in its shops. The biggest was in its shop in Piccadilly, London, which a magazine for the book trade, The Bookseller, called a six-storey celebration.
+In Britain, the bookshop chain Waterstones held 110 midnight parties in its shops. The biggest party was in its shop in Piccadilly, London.
 
 Many of the fans in New York were adults in their twenties and thirties. They told the news agency AP that they first read the books when they were about twelve. Now they read the books again as adults and notice different things. One fan, Savannah Miller, said that as a child she focused on the plot, and now she connects more with the characters.
 
@@ -44,11 +44,11 @@ In March 2025, many fans of the Hunger Games chose the second option. Sunrise on
 
 At the New York party, according to AP, some people dressed as characters from the books. There were scavenger hunts, puzzles and a trivia game. It was so hard that even the author's editor, David Levithan, said he could not answer every question. In London, the flagship Waterstones shop in Piccadilly held what The Bookseller called a six-storey celebration.
 
-The people AP interviewed were not mainly teenagers. Many were women in their twenties and thirties who had loved the books in middle school. Savannah Miller, 26, said that as a child she focused on the plot and the action, and that as an adult she connects more with the characters. Ella Dolynchuk, 23, said that she has been reading the books since she was 12 and loves reading them again as an adult.
+Many of the fans AP interviewed were women in their twenties and thirties who had loved the books in middle school. Savannah Miller said that as a child she focused on the plot and the action, and that as an adult she connects more with the characters. Ella Dolynchuk said that she has been reading the books since she was 12 and loves reading them again as an adult.
 
 AP also reported that the book had reached number one on Amazon before it was published, and that some fans had posted videos of copies that were shipped or put on shelves too early. According to the publisher Scholastic, the four earlier books have sold tens of millions of copies and have been published in 55 languages.
 
-It would be wrong to say that this shows a general return to reading among young people, or that every fan joined a midnight queue. The reports describe particular events and particular people. Many readers wait for a quiet copy at home or borrow one from a library, and neither choice is worse than the other.
+The reports describe particular events and particular people, not every reader. Many readers prefer a quiet copy at home or one borrowed from a library, and neither choice is worse than the other.
 
 What the story does show is that reading can be a shared event as well as a private one. Part of the fun is anticipation, and part is meeting people who care about the same story. A spoiler rule is a good idea too: how long should fans wait before they tell others what happens?
 
@@ -63,13 +63,13 @@ A book does not need a crowd. You can read it alone, in silence, on any day you 
 
 The book was Sunrise on the Reaping, a new novel by Suzanne Collins in the Hunger Games series, published on 18 March 2025. According to AP, hundreds of fans attended the midnight launch party at a Barnes & Noble store in Manhattan, where some dressed as characters. There were scavenger hunts, puzzles and a trivia game so challenging that even the author's editor, David Levithan, said he could not answer every question. The Bookseller reported that the British bookshop chain Waterstones held 110 midnight parties, including a six-storey celebration at its Piccadilly shop.
 
-It is easy to assume that a midnight launch is a teenage event, but the people AP quoted do not fit that picture. Many of the fans were women in their twenties and thirties who had loved the books in middle school. Savannah Miller, 26, said that as a child she focused on the plot and action, and that as an adult she connects more with the characters and appreciates the writing. Ella Dolynchuk, 23, said that she has read the books since she was 12 and enjoys them more as an adult who can really understand them.
+Many of the fans AP quoted were women in their twenties and thirties who had loved the books in middle school. Savannah Miller, 26, said that as a child she focused on the plot and action, and that as an adult she connects more with the characters and appreciates the writing. Ella Dolynchuk, 23, said that she has read the books since she was 12 and enjoys them more as an adult who can really understand them.
 
 AP also reported that the novel was number one on Amazon before publication, and that some fans posted videos of copies that had been shipped early or put on shelves too soon. According to Scholastic, the four earlier books have sold tens of millions of copies and have been published in 55 languages. Anticipation, in other words, had been building for a long time.
 
 What is the crowd for? One answer is shared anticipation: waiting together makes the moment of getting the book feel bigger. Another is belonging: a costume, a puzzle or a trivia question is a way of saying "I am one of you", and a stranger who recognises the reference becomes a friend. A third is simply fun, which needs no further justification.
 
-There are limits to what the reports show. They describe particular events and particular people, not a general return to reading among the young, and they do not prove that waiting together is better than reading alone or borrowing a copy later. A fandom event can also feel like a test of who is the biggest fan, which could make a newcomer feel unwelcome.
+The reports describe particular launch parties, with many adult fans among those interviewed. They do not measure a wider change in teenage reading. The appeal here is simpler: people wanted to begin the same story together. A fandom event can also feel like a test of who is the biggest fan, which could make a newcomer feel unwelcome.
 
 That is why the details matter. A good book event might offer a beginner-friendly activity, a spoiler rule that gives everyone time to finish, and a way to join without buying a copy. The aim would be to keep the pleasure of waiting together while removing the pressure of proving yourself.
 

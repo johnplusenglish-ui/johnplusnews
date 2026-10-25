@@ -33,7 +33,7 @@ summary: Apps count our free time and friends suggest an online shop. A 2026 For
 
 A relaxing hobby can change surprisingly quickly. Somebody begins cycling for pleasure and soon measures every journey against a personal record. What began as free time becomes a series of targets, deadlines and comparisons. Sometimes the pressure arrives through a compliment. A friend tastes your cake and says, 'You should sell these!' What they mean kindly can turn a quiet pleasure into another obligation.
 
-The change reflects a wider culture of self-improvement. Apps record fitness results, social platforms display impressive achievements and online advice encourages people to turn personal interests into income. A May 2026 Forbes article examined the opportunities and risks involved in transforming a hobby into a business, including the possibility that commercial pressure changes the experience itself.
+Many people recognise the change from their own phones. Apps record fitness results, social platforms display impressive achievements and online advice encourages people to turn personal interests into income. A May 2026 Forbes article examined the opportunities and risks involved in transforming a hobby into a business. It is practical business advice rather than research proving a trend, but it shows how common the question has become.
 
 There is nothing wrong with ambition. Many people find satisfaction in developing a skill, joining competitions or sharing their creations. A person who loves photography might enjoy learning professional techniques, while someone who makes jewellery may find a genuinely rewarding source of extra income.
 
@@ -50,13 +50,13 @@ Perhaps the healthiest attitude is to decide what you want from each activity. S
 === Advanced ===
 
 title: When Your Hobby Starts Asking Too Much of You
-summary: Monetising an interest can be an opportunity or an obligation, and advice to resist it quietly assumes a secure income. The real question is whether the ambition was chosen or imposed.
+summary: A runner's watch counts every kilometre, and a friend says your cakes should be sold. A May 2026 Forbes article asked what is gained and lost when a hobby becomes a business.
 
-The language of leisure has become strangely similar to the language of work. Runners monitor performance, readers set annual targets and amateur cooks build online audiences. Activities once valued because they were free from professional expectations are increasingly discussed in terms of growth, productivity and commercial potential.
+The language of leisure can sound strangely similar to the language of work. Runners monitor performance, readers set annual targets and amateur cooks build online audiences. A run can become a target to beat, and a hobby can start to look like a business waiting to happen. For some people, the pressure follows them into the time meant to be their own.
 
 It is difficult to escape the message that leisure should deliver something: better fitness, a polished portfolio, an audience or preferably a second income. Pleasure alone can sound oddly insufficient.
 
-A May 2026 Forbes article considered the practical and psychological questions involved in turning a hobby into a business. That discussion reflects a broader tension: monetising an interest may create opportunity, but it can also replace spontaneous enjoyment with deadlines, customer expectations and financial risk. The decision is not inherently good or bad; its consequences depend on what the person wants from the activity.
+A May 2026 Forbes article considered the practical and psychological questions involved in turning a hobby into a business. It is business advice, not evidence of a social trend, but it points to a real tension: monetising an interest may create opportunity, but it can also replace spontaneous enjoyment with deadlines, customer expectations and financial risk. The decision is not inherently good or bad; its consequences depend on what the person wants from the activity.
 
 Personal development can be genuinely rewarding. Mastering a musical instrument or improving at a sport may produce confidence and satisfaction. The problem begins when improvement becomes an obligation rather than a chosen challenge, or when comparison with strangers online makes ordinary enjoyment seem insufficient. Of course, discipline and enjoyment are not opposites. Musicians may delight in practising a challenging piece, just as runners can find satisfaction in improving their times.
 

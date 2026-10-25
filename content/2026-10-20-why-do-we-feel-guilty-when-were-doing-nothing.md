@@ -27,13 +27,13 @@ Work, family and financial pressures can also make it hard to find time to rest.
 === Intermediate ===
 
 title: An Empty Weekend Is Not a Problem to Solve
-summary: We waste an afternoon or fall behind, as though rest created a debt. For carers and shift workers, though, the shortage of time is practical, not cultural.
+summary: A free afternoon turns into a list of jobs. In a March 2026 Nature interview, Joseph Jebelli described how he once measured his worth by his working hours.
 
 Picture a rare afternoon without plans. You could read, sit in a café or simply stare through the window. Yet instead of feeling peaceful, you begin thinking about everything you could be doing: reorganising the kitchen, improving your fitness or learning a language. Free time has somehow become another test of productivity.
 
 For many people, the guilt starts before they have even sat down. An empty weekend looks like a problem to solve, rather than a welcome chance to slow down.
 
-This feeling is sometimes called productivity guilt. The idea is that time only counts if we use it to achieve something visible. In a March 2026 interview with Nature, neuroscientist Joseph Jebelli discussed how he had once measured his personal value through the hours he spent working. His argument was that mental rest deserves a more important place in our routines.
+This feeling is sometimes called productivity guilt. The idea is that time only counts if we use it to achieve something visible. In a March 2026 interview with Nature, Joseph Jebelli, a neuroscientist who has written about rest, described how he had once measured his personal value by the hours he spent working. That is one person's account, not research evidence, but it names a feeling many people recognise.
 
 There are reasons why this is difficult. People receive praise for working hard, and social media shows friends running marathons or launching businesses. Activities that should be relaxing can turn into goals. Even reading might feel like a challenge to complete a certain number of books every month.
 
@@ -50,19 +50,17 @@ Perhaps the most useful change is not another wellbeing routine. It is accepting
 === Advanced ===
 
 title: What Makes It So Hard to Enjoy Doing Nothing?
-summary: Neuroscientist Joseph Jebelli told Nature that mental wandering can form part of good thinking. The trap is defending rest only because it makes better workers, which leaves no case for pleasure.
+summary: A free afternoon raises a nagging question: should I be doing something useful? In a March 2026 Nature interview, Joseph Jebelli described how he once measured his worth through working hours.
 
-A free afternoon ought to be one of life's small luxuries. Yet for many people it produces an uncomfortable question: what am I accomplishing? The pressure to be productive has become so familiar that even leisure is assessed in the language of work. We optimise routines, track personal progress and ask whether an activity has been sufficiently worthwhile. The phenomenon is often described as productivity guilt, a sense that personal value depends on visible output. In a March 2026 interview published by Nature, neuroscientist Joseph Jebelli reflected on measuring his worth through long working hours. He argued that periods of rest and mental wandering are not necessarily obstacles to effective thinking but can form part of it.
+The afternoon is free, but enjoying it is harder than expected. A thought keeps returning: should I be doing something useful? When even a walk or a quiet hour has to justify itself, taking a break can start to feel like failing at something.
 
-This outlook challenges a culture that treats inactivity as a problem to be solved. Fitness trackers turn movement into targets, reading apps count completed books and career advice encourages constant professional development. These tools can be motivating, but their logic may also colonise activities that were once enjoyable precisely because they served no practical purpose. Not everyone has equal access to rest. Caring responsibilities, unpredictable shifts and insecure housing make the instruction to 'just switch off' sound rather hollow for some people.
+In a March 2026 interview published by Nature, neuroscientist Joseph Jebelli reflected on measuring his worth through long working hours. He argued that periods of rest and mental wandering are not necessarily obstacles to effective thinking but can form part of it. That is an interview, not a study, but it challenges a culture that treats inactivity as a problem to be solved. Fitness trackers turn movement into targets, reading apps count completed books and career advice encourages constant professional development. These tools can be motivating, but their logic may also colonise activities that were once enjoyable precisely because they served no practical purpose.
 
 There is a scientific dimension, although broad claims require caution. Recovery from demanding tasks matters, and stepping away from a problem can sometimes support fresh thinking. That does not establish that every nap increases creativity or that unstructured time produces identical benefits for everybody. Rest is influenced by sleep, stress, individual needs and the nature of the activity.
 
 The argument also risks overlooking social realities. Telling an exhausted care worker or a single parent to prioritise downtime may sound absurd if their problem is insufficient control over their schedule. A culture of rest requires employers, families and public institutions to consider who actually has access to it. Perhaps the challenge is to defend time that produces no measurable result: an aimless conversation, a slow afternoon or a walk that leads absolutely nowhere in particular.
 
-The vocabulary of self-improvement increasingly crops up in situations where it once seemed out of place. Reading is tracked through annual totals, movement through daily targets, and travel through lists of essential experiences. These measurements can support meaningful ambitions, but they also risk making leisure subject to the same evaluation as paid work. Even rest is sometimes justified only because it supposedly increases future productivity.
-
-That reasoning is persuasive to an employer, yet it leaves little room for experiences valuable simply because they are pleasurable. It is worth separating the instrumental benefits of recovery from the broader human need for freedom and enjoyment. A slow afternoon need not demonstrate improved cognitive performance to have been worthwhile. Perhaps the most radical response to productivity guilt is declining to measure everything in the first place.
+Even rest is sometimes defended only because it supposedly increases future productivity. That reasoning is persuasive to an employer, yet it leaves little room for experiences valuable simply because they are pleasurable. It is worth separating the instrumental benefits of recovery from the broader human need for freedom and enjoyment. A slow afternoon need not demonstrate improved cognitive performance to have been worthwhile. Perhaps the most radical response to productivity guilt is declining to measure everything in the first place.
 
 Perhaps the deeper question is why leisure must be justified through improved performance at all. Rest may make us better workers, but its value does not depend solely on that outcome. The right to spend an hour doing nothing can be defended without turning it into yet another productivity technique.
 

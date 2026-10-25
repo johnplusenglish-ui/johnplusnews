@@ -25,7 +25,7 @@ Rackham says that older technology is "having a moment". On social media, some p
 
 Lily Redman, a 26-year-old content creator from South Wales, says her digital camera gives a look her phone can't copy. She thinks phone flash can look grainy and too sharp. She says people want something that feels "a bit more real".
 
-Redman also likes the surprise. With a digital camera, you see the photos later, when you put the memory card into a computer. You don't know exactly what you got. On a phone, you can check at once and try again.
+Redman also likes the surprise. She waits until she puts the memory card into a computer to see her photos, so she doesn't know exactly what she got. That is her own habit. A digital camera does not have to work that way, and on a phone you can check at once and try again.
 
 Remember who is in this story. The people are adults in their twenties and thirties, not school students. It's one article with a few voices, so it doesn't prove that most young people prefer old cameras. It's also about digital cameras, not film cameras, and it doesn't say that an old camera makes anyone happier.
 
@@ -46,28 +46,28 @@ Redman makes a bigger claim too. She says that photos her mother took when she w
 
 Andrew Przybylski, a professor at the University of Oxford, offers a different angle. He argues that simpler technology appeals because people want to be in control of their experiences. When you have endless options, he says, you can suffer from "decision paralysis", but when you choose to switch on a camera and play with its settings, you move towards something you want.
 
-It's important to remember the limits. The people interviewed are adults in their twenties and thirties, not school students, and one article can't show what most young people think. The experiment is about digital cameras rather than film cameras, and the piece doesn't claim that old technology makes people happier.
+It's important to remember the limits. This is one article with a few voices, and it can't show what most young people think. The experiment is about digital cameras rather than film cameras, and the piece doesn't claim that old technology makes people happier.
 
 So imagine you can keep only three photos from a class trip. Would you pick the best-looking ones, or the ones that bring the day back?
 
 === Advanced ===
 
 title: Would You Keep the Blurry Photo?
-summary: A BBC feature on the return of older cameras raises a question that has nothing to do with cameras: who is a photograph for, and what is it meant to remember?
+summary: A BBC reporter took a digital camera she last used 15 years ago to a DJ set. Who is a photograph for, and what is it meant to remember?
 
 Two photographs survive from the same evening. One is the picture everybody agreed on: posed, well lit, every face in focus. The other is slightly blurred, with a hand across the corner of the lens and one friend laughing so hard her eyes are shut. If you could keep only one, the answer depends on a question you may never have asked: who is the photograph for?
 
 In August 2026, the BBC culture reporter Annabel Rackham took a digital camera to a DJ set, a camera she had last used 15 years earlier. Her piece belongs to a wider mood, which she describes as older technology having a bit of a moment, with people online explaining why they are returning to digital cameras, wired headphones and early MP3 players. It is a feature, not a study, and its evidence is a handful of interviews and a few company sales figures.
 
-The most interesting of those voices is Lily Redman, a 26-year-old content creator from South Wales. Redman says a digital camera captures a quality her phone cannot replicate, and she finds phone flash grainy and too high definition. People, she suggests, are looking for a bit of grit or something that feels more real. She also values the element of surprise that comes from seeing the pictures only when the memory card goes into a computer.
+The most interesting of those voices is Lily Redman, a 26-year-old content creator from South Wales. Redman says a digital camera captures a quality her phone cannot replicate, and she finds phone flash grainy and too high definition. People, she suggests, are looking for a bit of grit or something that feels more real. Redman enjoys waiting until she transfers the pictures to a computer to see what she has captured. That delay is part of her routine, rather than something every digital camera requires.
 
-Redman's most provocative claim is that phone photos have warped our perception of time. Pictures her mother took when she was two look very old, she says, while her own from five years ago look as if they were taken yesterday. That is a personal observation, not a finding, and it could have several explanations, from image quality to the simple fact that phones make everyone's pictures look similar. But it raises a real question about what a photograph is supposed to preserve.
+Redman's most provocative claim is that phone photos have warped our perception of time. Pictures her mother took when she was two look very old, she says, while her own from five years ago look as if they were taken yesterday. That is a personal observation, not a finding, and it could have several explanations. But it raises a real question about what a photograph is supposed to preserve.
 
 Andrew Przybylski, a professor of technology and human behaviour at the University of Oxford, offers a wider explanation. He argues that fondness for simpler devices reflects a deep wish to be in control of one's experiences. Endless choice can produce decision paralysis, he says, whereas choosing to turn on a camera and adjust its settings means moving towards something you want rather than having it come at you.
 
 The limits matter. The people quoted are in their twenties and thirties, not at school, and a few interviews can't establish what any generation prefers. The experiment concerns digital cameras, not film, and the piece does not claim that older devices make anyone happier or that smartphones are being abandoned.
 
-What it does offer is a useful distinction. A photograph can serve a public image, which is the picture you would post, or a private memory, which is the picture that brings the evening back. They are often different pictures. So which of the two would you keep, and would you be comfortable explaining why?
+What it does offer is a useful distinction. A photograph can serve a public image, which is the picture you would post, or a private memory, which is the picture that brings the evening back. They are often different pictures. So which of the two would you keep?
 
 === Core before you read ===
 

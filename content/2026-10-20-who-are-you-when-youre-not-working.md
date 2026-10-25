@@ -53,9 +53,9 @@ The goal is not to stop caring about work. It is to give other parts of life spa
 === Advanced ===
 
 title: What Does Your Job Title Leave Out?
-summary: Pew put the figure at 39%, and institutions keep reinforcing it through applications, networking events and online profiles. Redundancy then takes colleagues, routine and status along with the salary.
+summary: The first question strangers ask is often about work. For people whose job fills the week, losing it can take colleagues, routine and status as well as a salary.
 
-One of the most revealing questions in everyday conversation is also one of the most ordinary: 'What do you do?' The question is usually meant as a friendly introduction, yet it can reduce a complex individual to a profession. For people whose careers dominate their routines and social circles, that description may gradually become more than a convenient label.
+"What do you do?" is an easy way to start a conversation. The answer usually names a job, although it leaves out most of a life. When work fills the week and supplies the people someone knows, that convenient introduction can start to feel like the whole story.
 
 Try turning the question round: 'What has been keeping you busy lately?' The answers might reveal interests and responsibilities that a title leaves out.
 

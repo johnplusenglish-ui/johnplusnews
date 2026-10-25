@@ -40,11 +40,11 @@ Here is a puzzle. A singer writes a song, records it and becomes famous. Years l
 
 The answer is that making something and owning it are not always the same. A song, meaning the music and the words, is one thing. A recording is a particular performance of it that has been saved so it can be played again. In many music deals, the company that pays for a recording ends up owning it, even though the artist wrote and sang the song.
 
-On 30 May 2025, Taylor Swift announced in a letter to her fans that she had bought the original recordings of her first six albums: Taylor Swift, Fearless, Speak Now, Red, 1989 and Reputation. The seller was Shamrock Capital. The price was not disclosed.
+On 30 May 2025, Taylor Swift announced in a letter to her fans that she had bought the original recordings of her first six albums. The seller was Shamrock Capital. The price was not disclosed.
 
 Those recordings had changed hands before. In 2019, a company called Ithaca Holdings bought the label that held them, and in 2020 they were sold on to Shamrock Capital. In other words, the person who made the music was not the person deciding who owned it.
 
-Swift had already released new recordings of four of the six albums, which she called Taylor's Version. By May 2025, her debut album and Reputation had not been re-recorded in this way.
+Swift had already released new recordings of four of the six albums, which she called Taylor's Version. The six albums were Taylor Swift, Fearless, Speak Now, Red, 1989 and Reputation. By May 2025, her debut album and Reputation had not been re-recorded in this way.
 
 In her letter, Swift said she wanted to own her music outright, with no strings attached and with full creative freedom. She said she now also owns her music videos, concert films, album art, photography and unreleased songs. She thanked her fans for supporting the new versions and her tour, and she thanked Shamrock for treating her honestly and fairly.
 
@@ -55,15 +55,15 @@ Imagine you make a short film with two friends. Which decisions would you keep f
 === Advanced ===
 
 title: Taylor Swift's Long Road to Owning Her Music
-summary: Most of us assume that if you make something, you own it. A famous singer's announcement shows how much that assumption depends on the small print.
+summary: On 30 May 2025, Taylor Swift announced that she had bought the original recordings of her first six albums. Why did a songwriter have to buy her own recordings?
 
 Most of us assume that if you make something, you own it. Music shows how complicated that idea can be. A song is the music and the words. A recording is one captured performance of it, and in many music deals the company that pays for the recording becomes its owner, even when the artist wrote every line.
 
-That is why, on 30 May 2025, Taylor Swift could announce something that sounds almost paradoxical: she had bought the original recordings of her first six albums, Taylor Swift, Fearless, Speak Now, Red, 1989 and Reputation. In a letter to her fans, she said the seller, Shamrock Capital, had been the first to offer her the chance to buy her music outright, and that the deal had been handled honestly and with respect. The price was not disclosed.
+On 30 May 2025, Taylor Swift announced that she had bought the original recordings of her first six albums. The price was not disclosed. For years, those recordings had been owned by other companies, even though they were performances of her songs. In a letter to her fans, she said the seller, Shamrock Capital, had been the first to offer her the chance to buy her music outright, and that the deal had been handled honestly and with respect.
 
 The recordings had a complicated history. In 2019, a company called Ithaca Holdings acquired the label that held them. In 2020, they were sold on to Shamrock. For several years, then, decisions about her earliest albums belonged to businesses rather than to the person who made them.
 
-Swift's answer was already under way. By May 2025 she had released new recordings of four of the six albums under the title Taylor's Version, while her debut album and Reputation had not yet been re-recorded. A new recording of a song is a different performance of the same song, which is what made the project possible.
+Swift's answer was already under way. By May 2025 she had released new recordings of four of the six albums under the title Taylor's Version, while her debut album and Reputation had not been re-recorded at that point. A new recording of a song is a different performance of the same song, which is what made the project possible.
 
 In the letter, she said she wanted to own her work outright, with no strings attached and with full creative freedom. She added that she now owns her music videos, concert films, album art, photography and unreleased songs, and she thanked fans for supporting the new recordings and her tour. She also said she was glad that more artists are now negotiating for ownership of their recordings.
 

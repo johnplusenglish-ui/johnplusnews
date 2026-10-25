@@ -11,9 +11,9 @@ image-alt: Two people lean on a railing beside Marina Bay in Singapore at night,
 title: Can a Government Help People Find Love?
 summary: Singapore's government has launched a dating platform. Can a government really help people find love?
 
-Many people use dating apps to meet someone new. They look at photographs, read short profiles and send messages. But after weeks of trying, they may still not find the right person. In Singapore, a group of government technology workers has created a different kind of dating service. It is called FirstDate, and it tries to help people spend less time looking and more time getting to know one person.
+Many people use dating apps to meet someone new. They look at photographs, read short profiles and send messages. But after weeks of trying, they may still not find the right person. In Singapore, a group of government technology workers has created a different kind of dating service. It is called FirstDate. Instead of showing hundreds of profiles, it introduces one person at a time, so users can spend less time looking and more time getting to know someone.
 
-FirstDate began as a project at Singapore's government technology agency, GovTech. It is being tried out with single public-service workers aged 21 to 35. Users answer questions about their interests, habits and values. The system then suggests one possible partner at a time, instead of showing hundreds of profiles. Both people can decide whether they want to share their contact details.
+FirstDate began as a project at Singapore's government technology agency, GovTech. It is being tried out with single public-service workers aged 21 to 35. Users answer questions about their interests, habits and values. The system then suggests one possible partner. Both people can decide whether they want to share their contact details.
 
 This idea is very different from many popular dating apps. On those apps, people can keep on looking even when they have already found someone interesting. FirstDate tries to reduce that feeling of having too many choices. It gives people more information about one person and asks them to make a decision. The service also explains how it protects personal information, which is important when a government organisation is involved.
 
@@ -26,7 +26,7 @@ Some people like the idea of a dating service that focuses on shared values. Oth
 title: Singapore's Government Is Trying Matchmaking
 summary: Singapore is testing a platform that offers one match at a time. Can a careful algorithm do better than endless swiping?
 
-After hours of swiping through profiles, another dating app match may feel less exciting than it should. Singapore's government technology agency has been testing a different approach: instead of offering people an endless stream of possible partners, it introduces them to just one person at a time. The platform, called FirstDate, aims to help users focus on a meaningful connection rather than the search itself.
+After hours of swiping through profiles, another dating app match may feel less exciting than it should. Singapore's government technology agency has been testing a different approach: instead of offering people an endless stream of possible partners, it introduces them to just one person at a time. The platform, called FirstDate, is still a pilot.
 
 The project began among staff at GovTech and is currently being tested with unmarried public officers aged between 21 and 35. Participants complete a questionnaire about their values, routines, interests and preferences. The system then suggests a compatible match and provides a score explaining how closely their answers fit. If both users agree, they can exchange contact details and arrange to meet. Only the proposed match can see a person's profile, and the platform says it does not sell personal data.
 
@@ -41,9 +41,9 @@ For now, there is no decision about rolling out the scheme beyond public-service
 === Advanced ===
 
 title: Can a Government Make Dating Less Exhausting?
-summary: Faced with a collapsing birth rate and a generation disillusioned with online dating, Singapore has turned to an unlikely matchmaker: the government. But can algorithms succeed where romance has failed?
+summary: Singapore's government technology agency is testing a dating service that offers one introduction at a time. It is a small pilot, with open questions about trust and privacy.
 
-There is a particular kind of fatigue that comes from endlessly reviewing strangers as potential romantic partners. Dating apps promise an abundance of choice, yet many users describe feeling overwhelmed by it. Singapore's FirstDate project offers an unusually restrained alternative: fewer profiles, greater emphasis on compatibility and a single prospective match at a time. More surprisingly, it stems from the government's own technology agency.
+There is a particular kind of fatigue that comes from endlessly reviewing strangers as potential romantic partners. Dating apps offer so many profiles that many users describe feeling overwhelmed. Singapore's FirstDate project tries a quieter approach: fewer profiles and one introduction at a time. More surprisingly, it comes from the government's own technology agency.
 
 Developed by staff at GovTech and being piloted among unmarried public-service employees aged 21 to 35, FirstDate asks participants about their habits, preferences and values. It applies a form of the Gale-Shapley stable-matching algorithm to recommend pairings, then allows both parties to accept or decline an introduction. Profiles are visible only to proposed matches, and contact details are exchanged solely by mutual agreement. The designers present the system as an experiment in more considered dating rather than another marketplace of faces.
 

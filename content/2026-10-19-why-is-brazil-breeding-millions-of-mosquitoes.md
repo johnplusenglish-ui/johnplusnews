@@ -12,7 +12,7 @@ summary: A new factory in Curitiba breeds mosquitoes carrying a bacterium called
 
 Imagine hearing that your city plans to release thousands of mosquitoes into the streets. Most people would probably be worried. Mosquitoes can spread dengue fever, a disease that can make people very ill. Yet in Brazil, releasing certain mosquitoes is part of an unusual plan to protect the public.
 
-In July 2025, a large mosquito factory opened in Curitiba, in southern Brazil. Its purpose is not to create more dangerous insects. The factory produces mosquitoes that carry a bacterium called Wolbachia. The bacterium is found naturally in many insects, and it makes it much harder for a mosquito to pass some viruses on to humans.
+Scientists have found that a bacterium called Wolbachia, found naturally in many insects, makes it much harder for a mosquito to pass some viruses on to humans. In July 2025, a large mosquito factory opened in Curitiba, in southern Brazil, to produce mosquitoes that carry it. Its purpose is not to create more dangerous insects.
 
 Scientists raise the insects in carefully controlled conditions. When mosquitoes carrying Wolbachia are released, they breed with the local mosquitoes. Over time, more and more of the mosquitoes in the area carry the bacterium. The aim is to bring down the number of people who catch dengue, Zika and chikungunya.
 
@@ -39,7 +39,7 @@ That distinction explains why the approach appeals to health authorities. Insect
 
 Researchers and authorities have tested the approach in Brazilian communities for years. Results from some locations have been encouraging, although the level of protection depends on local conditions and on how successfully the new mosquito population becomes established. The facility in Curitiba was built to expand a programme that already existed rather than to start one from nothing.
 
-Measuring success is not straightforward either. A fall in dengue cases can have more than one cause, so authorities have to track how far Wolbachia has spread among local mosquitoes as well as how infection rates change over several seasons. Encouraging figures from one city do not guarantee the same outcome somewhere with different conditions.
+Reach is not the same as results: how many mosquitoes are released is a different question from how many people avoid infection. Measuring success is not straightforward either. A fall in dengue cases can have more than one cause, so authorities have to track how far Wolbachia has spread among local mosquitoes as well as how infection rates change over several seasons. Encouraging figures from one city do not guarantee the same outcome somewhere with different conditions.
 
 Winning over the public is a separate challenge. Residents may reasonably ask why their government is deliberately adding insects that still bite. Clear explanations are essential: Wolbachia mosquitoes are not incapable of biting, and the strategy complements rather than replaces measures such as emptying water containers and protecting homes. Nobody involved is presenting it as a quick fix.
 
@@ -48,7 +48,7 @@ What makes the story remarkable is the reversal of an everyday assumption. Peopl
 === Advanced ===
 
 title: How Do You Persuade a City to Welcome Mosquitoes?
-summary: Curitiba's plant breeds Aedes aegypti carrying Wolbachia so that whole wild populations become poorer at transmitting infection. The promised benefit is statistical, gradual and invisible, and residents are asked to accept more of an insect they dislike.
+summary: A plant in Curitiba breeds Aedes aegypti carrying Wolbachia, which makes wild mosquitoes poorer at transmitting infection. Residents are asked to accept more of an insect they dislike for a slow, statistical benefit.
 
 For generations, public-health campaigns have conveyed a simple message: reduce mosquito populations and you reduce mosquito-borne disease. Brazil's expanding Wolbachia programme challenges that intuition. Rather than attempting to exterminate every disease-carrying insect, researchers are deliberately introducing mosquitoes whose biology makes them less effective at transmitting viruses.
 
@@ -56,7 +56,7 @@ A large-scale production facility inaugurated in Curitiba in July 2025 represent
 
 The innovation lies in population replacement rather than straightforward population reduction. Conventional measures such as insecticides may bring immediate benefits but generally require repeated application. The Wolbachia approach seeks a more durable change in a population's capacity to transmit infection. It is biological control, not a claim that the insects themselves have become entirely benign.
 
-Scaling that idea up is a considerable undertaking. Breeding insects to order demands tight control of temperature, feeding and quality, and the mosquitoes must then be released in sufficient numbers, in the right places, for the bacterium to take root in a wild population. A facility of this size is an admission that the method only works as a sustained operation, not as a one-off intervention.
+Scaling that idea up is a considerable undertaking. Breeding the mosquitoes requires careful control of temperature, food and quality. Enough of them must then be released in the right places for Wolbachia to spread through the local population. A facility of this size is an admission that the method only works as a sustained operation, not as a one-off intervention.
 
 Field results in Brazil and elsewhere have offered promising evidence, though outcomes vary. Local ecology, release strategies and the extent to which Wolbachia becomes established all influence effectiveness. Even successful programmes must coexist with surveillance, treatment, sanitation and the removal of breeding sites. No responsible scientist would present a single intervention as a silver bullet. Nor is the comparison with insecticide entirely one-sided, since spraying at least offers visible, immediate reassurance, whereas population replacement asks the public to wait for a benefit it cannot see.
 

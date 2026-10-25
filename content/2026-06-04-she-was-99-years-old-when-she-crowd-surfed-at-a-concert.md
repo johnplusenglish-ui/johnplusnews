@@ -1,6 +1,6 @@
 title: She Was 99 Years Old When She Crowd-Surfed at a Concert
 date: 2026-06-04
-summary: At 99, Pauline Kana was passed over a Texas crowd and set a world record. What can her story teach us about growing older?
+summary: At 99, Pauline Kana was passed over a Texas crowd on a stretcher and set a world record.
 tags: Lifestyle, Music
 source: Guinness World Records | https://www.guinnessworldrecords.com/news/2026/6/gangster-granny-crowd-surfs-at-age-99-during-concert-claims-record-for-rockin-ride
 image: images/she-was-99-years-old-when-she-crowd-surfed-at-a-concert-8c2c61.jpg
@@ -42,11 +42,11 @@ By October 2026, Pauline had turned one hundred and was still sharing stories ab
 === Advanced ===
 
 title: Who Says a Rock Concert Has an Age Limit?
-summary: A carefully arranged record attempt is not proof that age imposes no limits. It is a reminder that those limits need not define somebody's ambitions.
+summary: At a Brantley Gilbert concert in Texas in May 2026, 99-year-old Pauline Kana was passed over the crowd on a stretcher. Guinness World Records recognised her as the oldest person to crowd-surf.
 
-Concertgoers at a country-rock show in Texas were prepared for noise, excitement and perhaps a few surprises. They were unlikely, however, to expect a ninety-nine-year-old woman to be carried above their heads. Yet that was precisely the spectacle unfolding at a Brantley Gilbert performance in Bellville in May 2026. Pauline Kana lay on a specially prepared stretcher as the audience passed her carefully towards the stage. Initially gripping the edges, she soon began waving to the cheering crowd, visibly delighted by her extraordinary journey.
+At a Brantley Gilbert concert in Bellville, Texas, the crowd passed a specially prepared stretcher towards the stage. On it was 99-year-old Pauline Kana. At first she held the edges; then she began waving. The May 2026 moment was carefully arranged, and she appeared to be enjoying every second.
 
-Guinness World Records subsequently recognised Pauline as the oldest person to crowd-surf, recording her age as ninety-nine years and 274 days. The attempt was coordinated rather than spontaneous, with the musician introducing the occasion and spectators supporting the stretcher. That distinction matters: it was a planned public event, not an invitation for older people to attempt unsafe stunts. Nonetheless, the sight of Pauline waving from a stretcher above the crowd was not the kind of image a ninety-nine-year-old usually appears in.
+Guinness World Records subsequently recognised Pauline as the oldest person to crowd-surf, recording her age as ninety-nine years and 274 days. The attempt was coordinated rather than spontaneous, with the musician introducing the occasion and spectators supporting the stretcher. That distinction matters: it was a planned public event, not an invitation for older people to attempt unsafe stunts.
 
 The adventure grew out of a remarkable creative partnership with her grandson, Ross Smith. Years earlier, Ross had filmed Pauline playing basketball with him, capturing a moment when she successfully blocked his shot. The clip caught on, and their humorous videos gradually attracted millions of followers. Rather than portraying Pauline as a passive grandmother watching younger people have adventures, the pair built their content around her mischievous personality and willingness to join in. Their age difference became a source of comedy, not a reason to keep them apart.
 

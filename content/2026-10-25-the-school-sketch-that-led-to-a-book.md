@@ -1,6 +1,6 @@
 title: The School Sketch That Led to a Book
 date: 2026-10-25
-summary: A 15-year-old drew the author who was visiting her school. The portrait led to a published book, and to a lesson about how to encourage someone who finds speaking difficult.
+summary: A 15-year-old drew the author who was visiting her school. The portrait led to a published book.
 tags: Art, Young people
 audience: teens
 category: Hobbies
@@ -32,7 +32,7 @@ What can we learn? A person who is quiet may have a lot to say in another way. T
 === Intermediate ===
 
 title: The School Sketch That Led to a Book
-summary: A 15-year-old drew the author who was visiting her school. The portrait led to a published book, and to a lesson about how to encourage someone who finds speaking difficult.
+summary: A 15-year-old drew the author who was visiting her school. The portrait led to a published book.
 
 Imagine you are sitting in the audience at a school storytelling session. You would rather not speak in front of everyone, but you do not want to sit with nothing to do either. So you take out a pencil and start to draw.
 
@@ -55,7 +55,7 @@ Think about a friend who makes something creative. How could you encourage them 
 title: What Happens When Someone Notices Your Work?
 summary: A teenager's drawing, made to help her concentrate, was noticed by a visiting author. Her story is about encouragement, and about how easily an inspiring story can become an unfair one.
 
-Most creative work is made quietly and shown rarely. Sometimes it is noticed by exactly the right person at exactly the right time. In October 2026, the BBC reported on a 15-year-old from Cambridgeshire whose drawing was noticed in that way.
+During a school storytelling visit, Bethany drew the author in front of her. She later told the BBC that drawing helped her concentrate. The author, Chip Colquhoun, noticed the portrait. That small exchange led to something she had not expected: an invitation to illustrate a book.
 
 The girl, Bethany, was in the audience at a school storytelling session given by the author Chip Colquhoun. She drew a portrait of him. She told BBC Radio Cambridgeshire that she did it as a way to concentrate, because she needed something to draw and he was right there. Colquhoun said that the portrait wowed him, and that he was excited by the idea that she had used drawing to help her focus.
 
@@ -65,7 +65,7 @@ The report also gives context that is important for reading the story fairly. Be
 
 Bethany says that illustrating has improved her confidence a great deal and made her able to do things that she would have been too nervous to do a few years ago. According to her mother, she has been to two book launches and has been interviewed by two radio stations, and she is now working on a third book and on three drawings for another project. Her mother is also clear about the limits: Bethany still cannot do these things alone, and she still cannot go anywhere outside the house or school without support.
 
-That last point deserves attention. It would be easy to tell this as a story in which a talent solves a problem. The report does not say that, and it would be unfair to Bethany to suggest it. Creative success is not what makes a person deserve support, and being quiet is not a problem that needs to be fixed. What the story does show is that when someone finds one way of taking part difficult, another way may be available, and being noticed in a way that suits them can make a real difference.
+This is not a story in which a talent solves a problem, and the report does not say it is. Creative success is not what makes a person deserve support. What the story does show is that when someone finds one way of taking part difficult, another may be available, and being noticed in a way that suits them can make a real difference.
 
 It also shows something about the person who noticed. Colquhoun did not ask Bethany to speak. He looked at what she had made and answered it with a real job. Encouragement that responds to a person's actual work, in the form that suits them, is often more useful than general praise.
 

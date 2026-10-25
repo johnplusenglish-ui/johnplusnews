@@ -18,7 +18,7 @@ A 2025 survey by the Marist Poll found that 45% of Americans planning a summer h
 
 A slower holiday might mean staying in one place rather than changing hotels every night. You could explore local streets, go swimming, read a book or simply enjoy a long lunch. There may be fewer exciting photographs, but also less pressure to be somewhere at a particular time.
 
-Of course, doing nothing is not everybody's dream. Some people have saved money for years to see famous sights. Others love climbing mountains or visiting museums. Travelling slowly can also be expensive if you need more days away from work.
+Of course, doing nothing is not everybody's dream. Some people have saved money for years to see famous sights. Others love climbing mountains or visiting museums.
 
 Travelling slowly can also change how we spend money. Instead of paying for many tickets and long journeys, someone might choose a simple apartment and cook a few meals. Staying in one place may reduce transport costs, but longer holidays still need time away from work. Others enjoy organised trips because they do not have to think about every detail themselves.
 
@@ -45,16 +45,16 @@ There are practical disadvantages. Some travellers cannot afford extended time a
 
 Slower travel can also influence spending and the local economy. Staying in one area may mean fewer expensive transfers and more opportunities to use neighbourhood shops and restaurants. But its environmental impact depends on much more than how long a visitor remains. The journey to the destination, the type of accommodation and the activities chosen all matter. Nor is a longer stay automatically affordable or sustainable.
 
-A couple with limited annual leave may get more out of a carefully planned weekend than an unstructured two-week holiday they cannot realistically take. The idea of travelling slowly is best understood as a possible approach rather than a new set of rules. It encourages people to leave room for unexpected pleasures instead of making every hour serve a checklist.
+A couple with limited annual leave may get more out of a carefully planned weekend than an unstructured two-week holiday they cannot realistically take. The idea of travelling slowly is best understood as a possible approach rather than a new set of rules. It encourages people to leave room for unexpected pleasures.
 
 Perhaps the important choice is not between doing everything and doing nothing. It is recognising that a successful holiday does not need to be measured by the number of places visited. Sometimes one memorable afternoon can matter more than a long checklist of sights.
 
 === Advanced ===
 
 title: When Your Holiday Starts to Feel Like a Job
-summary: The Marist Poll shows recovery is a major motive for travelling, though it never measured slow travel. Lingering somewhere is no guarantee of responsible tourism, and the freedom to linger is unevenly shared.
+summary: A July 2025 Marist Poll found that 45% of Americans planning a summer holiday wanted rest and relaxation. It did not measure slow travel, and some travellers prefer a full itinerary.
 
-The modern holiday is often organised around a fear of missing out. Research, booking platforms and social media produce an endless catalogue of experiences that supposedly deserve a place on every itinerary. What was intended as a break can become an exhausting exercise in scheduling, navigation and documenting one's leisure. The result may be impressive, but not necessarily restorative.
+The modern holiday is often organised around a fear of missing out. A break can turn into a rush between bookings, directions and photographs. Someone can come home with plenty to show and little sense of having rested.
 
 An alternative is to travel more slowly: choosing fewer destinations, leaving unstructured time and allowing a place to become familiar rather than treating it as a collection of attractions. The appeal is easy to understand. A long lunch, an aimless walk or a morning spent reading beside the sea may provide a sense of freedom that a tightly managed itinerary cannot.
 

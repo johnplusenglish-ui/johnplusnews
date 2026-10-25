@@ -20,7 +20,7 @@ But the study does not mean that everyone should sleep until lunchtime on Sunday
 
 Sleep experts still recommend a regular routine. Going to bed at a sensible time and waking up at similar hours helps your body know when to feel sleepy. Exercise, food and stress also affect health. A lie-in cannot make up for every unhealthy habit. And people who regularly sleep badly may need to work out what is causing the problem rather than simply sleep longer at weekends.
 
-So what should you do when Saturday comes around? If you are tired after a busy week, there may be no reason to feel guilty about sleeping a little longer. Try not to go overboard, and remember that a good night's sleep during the week matters most. Perhaps the best news is that resting does not always mean being lazy. Sometimes your body really does need a quiet morning.
+So should you feel guilty about a lie-in? The study cannot answer that for every person. It suggests that a little extra sleep at the weekend is not necessarily harmful, and that it may help tired adults. A good night's sleep during the week still matters most.
 
 === Intermediate ===
 
@@ -37,14 +37,14 @@ There are important limits to the findings. The study showed an association, not
 
 Experts therefore continue to recommend consistent bedtimes and waking times where possible. Catch-up sleep should not become an excuse for repeatedly cutting back on rest during the week. Nor can extra time in bed replace exercise, a balanced diet or medical care for high blood pressure. The new research simply challenges the idea that every variation in sleep timing must be harmful. Real life rarely allows people to follow a perfect routine.
 
-Perhaps the most useful conclusion is a practical one. If you have had an exhausting week, a moderate lie-in may be a reasonable way to catch your breath. But if you are permanently tired, it is worth looking at the wider pattern: when you go to bed, how well you sleep and what keeps you awake. Rest is not a reward for finishing every task. It is an essential part of looking after yourself.
+One study does not cancel the advice to keep regular hours. It does suggest that a moderate lie-in after an exhausting week is not necessarily harmful. If you are permanently tired, it is worth looking at the wider pattern: when you go to bed, how well you sleep and what keeps you awake. Rest is not a reward for finishing every task.
 
 === Advanced ===
 
 title: Is Sleeping In Really Such a Bad Habit?
-summary: An association is not a prescription. But the findings challenge the assumption that every variation in sleep timing must be harmful.
+summary: A study of 40,000 adults linked about 87 minutes of catch-up sleep with slightly lower odds of high blood pressure. It shows an association, not a prescription.
 
-Saturday morning offers a small but surprisingly complicated choice. The alarm has finally been switched off, the bedroom is comfortable and another hour under the duvet sounds irresistible. Yet years of advice about consistent sleep schedules may leave you wondering whether a lie-in is undermining your health. Recent findings suggest that the familiar warning deserves some nuance. For people who have accumulated a sleep deficit during the working week, modest weekend catch-up sleep may not be the enemy it has sometimes been made out to be.
+Saturday morning offers a small but surprisingly complicated choice. The alarm is off, and another hour under the duvet sounds irresistible. Yet years of advice about consistent sleep schedules may leave you wondering whether a lie-in is harming your health. Recent findings add some nuance. For people who miss sleep during the working week, a modest weekend lie-in may help. The findings are more limited than a rule that sleeping late is always good or always bad.
 
 At the European Society of Cardiology congress in August 2026, researchers presented an analysis of roughly 40,000 adults in South Korea whose data had been collected over seven years. Weekend catch-up sleep was associated with slightly lower odds of hypertension, or high blood pressure. The strongest favourable association was reported at approximately one hour and twenty-seven minutes of additional sleep. That specific figure makes an irresistible headline, but it would be misleading to interpret it as an exact prescription for every tired adult.
 

@@ -46,16 +46,16 @@ The challenge is deciding which interruptions deserve our attention. An urgent c
 
 An important part of the debate concerns social expectations. If friends, colleagues and managers assume that every message deserves an immediate reply, silencing notifications can feel rude rather than sensible. Yet constant responsiveness carries a cost that is not always visible in working hours or task lists. Teams can make concentration easier by agreeing which messages are urgent and when a slower response is acceptable.
 
-Individuals can also separate essential alerts from promotional ones, schedule periods of uninterrupted work and leave devices out of reach while reading. None of this requires rejecting digital communication. Instead, it recognises that attention is limited and that a person's ability to concentrate is influenced by the behaviour of others as well as their own habits.
+Individuals can also separate essential alerts from promotional ones, schedule periods of uninterrupted work and leave devices out of reach while reading. None of this requires rejecting digital communication. Think of a group chat in which a colleague expects an answer within minutes: the alert is the same, but now it carries pressure to reply. Concentration depends on other people's expectations as well as our own habits.
 
 Simple changes can create more control: limiting non-essential notifications, keeping phones out of sight during demanding activities or agreeing on times to respond to messages. Rather than asking whether phones are good or bad, perhaps we should ask who is choosing when our attention changes direction.
 
 === Advanced ===
 
 title: Why a Notification Can Distract You Before You Open It
-summary: The experiment identified short-lived slowdowns under particular conditions, not permanent cognitive decline. The harder question is whether workplaces and friendships have quietly made our attention permanently available.
+summary: A banner flashes on your phone and you glance at it, then go back to work. A 2026 study found a slowdown of roughly seven seconds after notifications under particular conditions, not permanent cognitive decline.
 
-A smartphone interruption is often too brief to register as a meaningful loss of time. A banner flashes on the screen, our eyes move towards it and, moments later, we return to the task at hand. Yet attention is not necessarily restored as effortlessly as the sequence suggests. Attention is not an unlimited resource that we can divide without consequence. A notification may be brief, but the mental effort required to re-enter a complex task can be frustrating.
+A banner flashes on your phone. You glance at it and return to the work in front of you. The interruption took seconds, but finding your place can take longer. Research on notifications asks what happens in that gap, and why some interruptions are harder to shake off than others.
 
 A 2026 study published in Computers in Human Behavior examined how social-media-style notifications influence cognitive processing. While participants performed an attention task, incoming alerts produced a temporary slowdown lasting roughly seven seconds. The effect varied with the perceived relevance of the notification and with habitual patterns of phone interaction, rather than simply the total amount of time spent using a device.
 

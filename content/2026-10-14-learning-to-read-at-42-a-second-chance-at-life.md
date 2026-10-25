@@ -12,7 +12,7 @@ summary: Peter Lloyd could drive a lorry across Britain, but he could not read a
 
 Peter Lloyd could drive a lorry across Britain, remember complicated routes and look after his family. But there was one thing he could not do: read a food label. For most of his adult life, he kept this problem hidden. At the age of 46, an ordinary trip to the supermarket finally persuaded him to ask for help.
 
-Peter grew up in Lancashire and was partially deaf from birth. At school, it was difficult for him to hear the teachers, especially when other children were talking. He moved to a different school, but he still struggled with reading and writing. He left education at 16 without qualifications. Like many adults who find reading difficult, he learnt ways to manage. He remembered roads, used pictures and numbers, and asked his wife to help with letters and forms.
+Peter grew up in Lancashire and was partially deaf from birth. At school, it was difficult for him to hear the teachers, especially when other children were talking. He moved to a different school, but he still struggled with reading and writing. He left education at 16 without qualifications. Finding reading hard did not mean he was not clever. Like many adults who find reading difficult, he learnt ways to manage. He remembered roads, used pictures and numbers, and asked his wife to help with letters and forms.
 
 During the Covid lockdowns, Peter went shopping for milk that was safe for his wife and son, who had food allergies. In the supermarket, he realised that he could not understand the information on the cartons. He worried about buying the wrong one. Back at home, he told his wife how difficult things had become. She encouraged him to contact Read Easy, a charity that helps adults learn to read.
 
@@ -35,12 +35,12 @@ He was matched with volunteer coach Alison, and they began meeting twice a week.
 
 Three years later, he reached the final page. What mattered was not only the achievement itself but also the freedom it represented. Peter could now choose a book, follow a recipe and help his son with everyday tasks that had previously been out of reach. He became an ambassador for Read Easy, encouraging people in similar situations to take the first step.
 
-Low literacy does not mean a lack of intelligence, yet shame can stop adults from seeking support for years. Peter's experience reveals how easily reading difficulties can remain hidden in a society built around written information. He hopes to earn an English GCSE and eventually help others. A trip to the supermarket exposed a problem he had spent decades concealing. It also gave him the reason to change his life.
+Low literacy does not mean a lack of intelligence, yet some adults wait years before asking for help. Peter's experience reveals how easily reading difficulties can remain hidden in a society built around written information. He hopes to earn an English GCSE and eventually help others. A trip to the supermarket exposed a problem he had spent decades concealing. It also gave him the reason to change his life.
 
 === Advanced ===
 
 title: Learning to Read at 46 Changed His Everyday Life
-summary: For more than four decades, Peter Lloyd navigated a world of written instructions, road signs and official documents without being able to read. His remarkable journey towards literacy offers a powerful reminder of how easily adults can fall through the cracks of the education system.
+summary: Peter Lloyd spent decades working around words he could not read. A trip to the supermarket in lockdown finally made him ask for help.
 
 The trouble began in the dairy aisle. Peter Lloyd, a lorry driver from Lancashire, was trying to buy milk suitable for his wife and son, both of whom had allergies. Surrounded by cartons covered in information he could barely decipher, he realised how easily a routine errand could become a serious mistake. He was 46, with a job and a family, but he had spent much of his life covering up the fact that he struggled to read.
 
@@ -54,7 +54,7 @@ The achievement did not erase his earlier experiences, but it changed his relati
 
 Adult literacy is frequently misunderstood. People may have limited reading skills for reasons involving disability, disrupted education or inadequate support, none of which is a reliable measure of intelligence. The greatest obstacle can become the expectation that an adult ought already to know how to read, an assumption that encourages silence.
 
-Support exists, as Read Easy demonstrates, but it is of little use to anyone too ashamed to walk through the door, which is partly why Peter's candour carries such weight. Peter's story challenges the idea that learning follows a fixed timetable.
+Read Easy offers support, but asking for it can still feel daunting. Peter's decision to speak openly may help someone else take that first step. Peter's story challenges the idea that learning follows a fixed timetable.
 
 === Core before you read ===
 

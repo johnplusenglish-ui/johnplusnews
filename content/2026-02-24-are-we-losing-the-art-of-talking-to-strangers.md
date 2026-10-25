@@ -27,7 +27,7 @@ Nobody needs to talk to every stranger they meet. Sometimes silence is exactly w
 title: The Conversations We No Longer Start
 summary: Phones and headphones make silence easy. Yet research suggests we expect a chat with a stranger to go far worse than it actually does.
 
-You board a train, sit beside another passenger and immediately reach for your phone. They put on headphones. For the next hour, the two of you travel through the same landscape without exchanging a word. There is nothing particularly rude about this; it is simply how many journeys work now. Yet a Guardian article published in February 2026 asked whether our increasingly private routines are costing us something valuable: the ability to strike up ordinary conversations with people we have never met.
+You board a train, sit beside another passenger and immediately reach for your phone. They put on headphones. For the next hour, the two of you travel through the same landscape without exchanging a word. There is nothing particularly rude about this; it is simply how many journeys work now. Yet a Guardian article published in February 2026 asked whether our increasingly private routines are costing us something valuable: the ability to strike up ordinary conversations with people we have never met. The article explored that concern; it did not measure a decline across everyone's daily life.
 
 The writer described brief encounters that turned out to be unexpectedly meaningful, including a conversation with an older passenger and a friendly exchange with someone working in a café. These moments were not dramatic, but that was precisely the point. A small conversation can make an anonymous public place feel more human. It may also remind us that other people have stories we would never come across through the familiar circles of our own social media accounts.
 
@@ -42,9 +42,9 @@ Perhaps the answer is not to insist that everyone becomes outgoing. Privacy, sil
 === Advanced ===
 
 title: Why Do We Avoid Talking to Strangers?
-summary: Small talk once punctuated queues, journeys and café visits. Its absence may say more about how our social worlds are organised than about anyone's shyness.
+summary: Two imagined passengers share a train for an hour without speaking. A February 2026 Guardian feature asked whether small, unplanned conversations are being lost.
 
-Two passengers share a train carriage for an hour, yet scarcely acknowledge each other's existence. One disappears into a stream of messages; the other retreats behind headphones. Neither is behaving badly, and both may have perfectly legitimate reasons for wanting privacy. Still, the scene captures a shift in everyday social life. A Guardian feature published in February 2026 asked whether the small, unplanned conversations that once punctuated journeys, queues and café visits are quietly disappearing, and whether their absence matters more than we realise.
+Imagine two passengers sharing a train carriage for an hour, scarcely acknowledging each other's existence. One disappears into a stream of messages; the other retreats behind headphones. Neither is behaving badly, and both may have perfectly legitimate reasons for wanting privacy. Still, the scene is a familiar one. A Guardian feature in February 2026 asked whether we are losing small, unplanned conversations like these. It explored the concern rather than measuring a decline in everyone's daily life.
 
 The writer described encounters that had proved unexpectedly rewarding, including a conversation with an older woman on a train and an exchange with someone working in hospitality. These were not life-changing friendships or dramatic revelations. Their significance lay in their ordinariness. For a few minutes, two people stepped outside their established social circles and recognised each other as individuals rather than background characters in a busy public space. Such moments can be fleeting, but they may leave an impression out of proportion to their length.
 

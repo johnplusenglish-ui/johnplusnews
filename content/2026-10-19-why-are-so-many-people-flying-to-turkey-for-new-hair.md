@@ -12,9 +12,9 @@ summary: People fly to Turkey because the treatment costs far less. But if a pro
 
 At Istanbul's airport, you may see travellers wearing special bandages around their heads. Some of them have just had a hair transplant and are flying home. They are part of a large group of visitors who come to Turkey for treatment that can help hair grow in areas where it has been lost.
 
-A hair transplant is a medical procedure, not a haircut. A specialist moves small groups of hair follicles from one part of the head to another. The aim is to create a natural-looking hairline, or to add hair to an area that has become thin. Results take months to appear, and the treatment does not work in the same way for everyone.
+A hair transplant is surgery, not a haircut. A specialist moves small groups of hair follicles from one part of the head to another. The aim is to create a natural-looking hairline, or to add hair to an area that has become thin. Results take months to appear, and the treatment does not work in the same way for everyone.
 
-Many people choose Turkey because treatment can cost much less than in countries such as Britain or the United States. Some clinics offer packages that include the hotel and the transport from the airport. Istanbul is also easy to reach by plane from many parts of Europe and beyond, so a patient can fly out, have the procedure and be home again within a few days.
+Many people choose Turkey because treatment can cost much less than in countries such as Britain or the United States. Some clinics offer packages that include the hotel and the transport from the airport. Istanbul is also easy to reach by plane from many parts of Europe and beyond, so a patient can fly out, have the procedure and be home again within a few days. That does not mean the recovery is over.
 
 But a low price does not always mean a good choice. A hair transplant can involve pain, infection, scarring or disappointing results. Patients need to find out who will carry out the procedure, what qualifications that person has and what help will be available once they get home. If a problem appears three weeks later, the clinic is in another country.
 
@@ -37,7 +37,7 @@ Cost is a major attraction. Clinics in Istanbul may charge substantially less th
 
 Price, however, is not the same as quality. Patients should look into who will perform the operation, what professional qualifications they hold and how complications would be managed. Infections, scarring and unsatisfactory results are among the risks. The possibility of needing follow-up treatment matters particularly when the clinic is in another country and the patient has already flown home.
 
-Advertising deserves a degree of caution too. Reporting in March 2026 described Istanbul as the centre of this trade, where clinics compete for international customers through social media, before-and-after photographs and prices that can look remarkable at first glance. A package that seems too good to be true may turn out to be a false economy if it covers the operation but little of the care that should surround it.
+Advertising deserves a degree of caution too. Reporting in March 2026 described Istanbul as the centre of this trade. Clinics compete for international customers through social media, before-and-after photographs and prices that can look remarkable at first glance. It is worth asking exactly what a package price includes. A package that seems too good to be true may turn out to be a false economy if it covers the operation but little of the care that should surround it.
 
 Recovery also takes longer than a short trip abroad suggests. The scalp needs time to heal, the transplanted hair comes through slowly over the following months, and some patients need a second session before they see the result they hoped for. Anyone booking a few days away should understand that the flight home is the beginning of the process rather than the end of it.
 
@@ -48,15 +48,15 @@ Turkey's hair-transplant industry sits at the meeting point of personal choice a
 === Advanced ===
 
 title: Would You Fly Abroad for Cheaper Surgery?
-summary: Istanbul's prices have widened access to a treatment that might otherwise stay with the wealthy, yet competition also rewards the best marketing rather than the best surgery. A patient comparing offers from abroad has limited means of telling them apart.
+summary: You are comparing a quote at home with a cheaper package in Istanbul that includes the hotel and transfers. A low price does not show how complications would be handled, and neither does the strongest advertising.
 
-The sight of recently treated patients travelling through Istanbul has become an emblem of a flourishing medical-tourism industry. Hair transplantation, once a comparatively discreet procedure, is now marketed through international clinics, online testimonials and packages combining surgery with accommodation and transport. Turkey's competitive prices have made it a particularly prominent destination.
+You are comparing two quotes for a hair transplant. One is from a clinic at home. The other is from Istanbul, at a considerably lower price, with a hotel and airport transfers included. The cheaper offer is tempting, and it is also surgery in another country. Once a comparatively discreet procedure, hair transplantation is now marketed through international clinics, online testimonials and packages combining surgery with accommodation and transport.
 
 The procedure typically involves transferring hair follicles from one part of the scalp to areas affected by hair loss. Techniques have evolved, but the treatment remains surgery, with medical risks and variable results. A successful transplant depends on factors including the patient's existing hair, the skill of the practitioner and the management of expectations over the months that follow.
 
 Financial considerations are central to the appeal. Reporting in March 2026 highlighted how procedures in Istanbul could cost considerably less than similar treatment in much of western Europe or North America. The convenience of package deals reduces the logistical difficulties of travelling abroad for care, yet it can also encourage customers to approach a surgical decision as though they were weighing up an ordinary holiday.
 
-Competition on that scale cuts both ways. It has pushed prices down and widened access to a treatment that might otherwise remain the preserve of the wealthy, while also rewarding the clinics that are best at marketing rather than necessarily those that are best at surgery. A patient comparing offers from another country has limited means of telling the two apart, and the ordinary safeguards, a familiar health system and a practitioner one can go back to, are largely absent.
+Competition on that scale cuts both ways. Lower prices have made the procedure affordable to more people. They also make the choice harder to assess: the clinic with the strongest advertising is not necessarily the one offering the best care. A patient comparing offers from another country has limited means of telling them apart, and the ordinary safeguards, a familiar health system and a practitioner one can go back to, may be harder to reach.
 
 Professional standards therefore deserve careful scrutiny. Prospective patients need reliable information about qualifications, about who actually performs each stage of the procedure, about the possibility of infection or scarring, and about access to follow-up care once they are home. A low advertised price says nothing about how complications would be handled, and marketing material has an obvious incentive to gloss over them.
 

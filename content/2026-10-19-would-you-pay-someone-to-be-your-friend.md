@@ -22,7 +22,7 @@ The arrangement can help the person being hired, too. Students and other workers
 
 Perhaps the idea sounds less strange when we compare it with services we already accept. People pay guides to show them a city and teachers to help them learn, and nobody finds that odd. The unusual part here is paying for company itself, with no other reason attached to it.
 
-That is what makes the story interesting. It makes us ask why spending time together has become something people sometimes need to buy, and whether life in a busy city is making it harder for friends to meet up at all.
+That is what makes the story interesting. Is paid company simply another service, like a guide or a teacher, or does it say something about how hard it can be for friends to meet in a busy city? People may answer differently.
 
 === Intermediate ===
 
@@ -43,22 +43,20 @@ For students and other flexible workers, providing companionship can become a us
 
 It may also be misleading to describe every customer as isolated. Some simply want a hiking partner, or somebody who can navigate an unfamiliar place and strike up a conversation with the staff. In that sense, the service overlaps with tourism, coaching and personal assistance rather than replacing traditional friendship.
 
-There is also the question of what happens afterwards. A good day out with a paid companion ends with a payment rather than a plan to meet up again, which some customers will find perfectly comfortable and others may find faintly sad.
+There is also the question of what happens afterwards. A good day out with a paid companion ends with a payment rather than a plan to meet up again, which some customers will find perfectly comfortable and others may find less satisfying.
 
 Nevertheless, its popularity reveals something about modern society. People can have hundreds of online contacts and still find it hard to arrange a real conversation or a shared afternoon. The companionship economy may be selling convenience, but the demand behind it points to a much less convenient problem.
 
 === Advanced ===
 
 title: What Are You Buying When You Pay for Company?
-summary: Social life has always involved obligation, favours and quiet accounting. China's companions simply put a price on it, and in doing so make reliable human presence look like a scarce commodity rather than a given.
+summary: In China, customers pay companions to join them on hikes and meals. What exactly are they buying: friendship, a guide or a guarantee that someone will turn up?
 
-The phrase "companionship economy" sounds like a contradiction in terms. Friendship is conventionally understood as voluntary, reciprocal and resistant to commercial calculation. Yet in China, an expanding market allows customers to pay others to accompany them on hikes, sightseeing trips and visits to restaurants, turning social presence into a clearly priced service.
+You want to go for a hike, but none of your friends is free. In China, some customers solve that problem by paying someone to come along. Others book company for sightseeing or a restaurant visit. The meeting may be friendly, but it begins with an agreement about time, money and what each person expects.
 
-Reporting in June 2026 described providers offering everything from practical assistance to encouragement on demanding mountain walks. For customers, the appeal can be straightforward: an activity becomes easier, safer or more enjoyable in company. Some seek a guide with local expertise; others simply want the certainty of having somebody available at a particular time on a particular day.
+Reporting in June 2026 described this so-called companionship economy, with providers offering everything from practical assistance to encouragement on demanding mountain walks. For customers, the appeal can be straightforward: an activity becomes easier, safer or more enjoyable in company. Some seek a guide with local expertise; others simply want the certainty of having somebody available at a particular time on a particular day.
 
 The trend is associated with broader changes in urban life. Geographic mobility, demanding jobs and fragmented social networks can leave people surrounded by others yet lacking companions for ordinary activities. Digital communication provides constant contact without necessarily producing the dependable, face-to-face relationships on which plans depend.
-
-Nor should the phenomenon be read solely as a symptom of unhappiness. Demand of this sort can equally reflect a market filling a gap that busy, mobile lives have opened up, much as cleaning, cooking and childcare were gradually drawn into the formal economy without anyone concluding that households had stopped functioning.
 
 Commercialising companionship introduces an unusual kind of clarity. Unlike a reluctant friend, a paid companion has explicitly agreed to attend. Expectations can be negotiated in advance, payment compensates the provider for their time, and the arrangement may feel less emotionally demanding precisely because neither party has to pretend it is an enduring personal bond.
 

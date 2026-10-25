@@ -23,7 +23,7 @@ A football shirt can be two things at once. For a fan, it shows which team you s
 
 Flynn says that a shirt comes with a kind of "biography". It has a history: old players, old sponsors and special seasons. Fashion brands can't invent that. So some brands try to copy the feeling of a club, with its history, its community and its loyal fans.
 
-That is why one shirt can mean different things. One person wears it because they love the team. Another person wears it because they like the colours. A third person wears it because it belonged to someone in their family, and it tells part of a story.
+That is why wearing a shirt does not always mean you support the club. One person wears it because they love the team. Another person wears it because they like the colours. A third person wears it because it belonged to someone in their family, and it tells part of a story.
 
 Not everyone agrees about the rules. Some fans say you should only wear the shirt of the team you support. Others say that a good shirt is a good shirt. There isn't one official answer. And a joke from a friend can feel serious when a rivalry matters to them.
 
@@ -40,11 +40,11 @@ Imagine you are given a shirt that looks fantastic: bold colours, a clean badge,
 
 In August 2026, the writer Katriona Flynn wrote an article for RTÉ Brainstorm, a website run by an Irish broadcaster. She argues that fashion has finally noticed the football shirt, which had been working as fashion all along. She points to festivals, nights out and people of every age wearing shirts far from any stadium, and to fashion magazines describing the shirt as a going-out top.
 
-Her main idea is that a shirt arrives with a "biography": heritage, sponsors and eras that fashion brands find hard to manufacture. A shirt can tell people where you come from, which team you follow or what your family was doing in a certain decade. Brands, she says, try to borrow the same feelings: history, authenticity, community and loyalty.
+Her main idea is that a shirt arrives with a "biography": heritage, sponsors and eras that fashion brands find hard to manufacture. Brands, she says, try to borrow the same feelings: history, authenticity, community and loyalty.
 
 She also asks questions without answering them firmly. When Arsenal released a pale yellow third kit, it arrived at the same time as the "butter yellow" colour trend in luxury fashion, so was the club following fashion? She notes that Burberry's "A Good Sport" campaign for autumn 2026 used touchlines, burger vans and Sunday League football, with a mix of models and players. Is that a tribute to football culture or a way to sell clothes? You can decide for yourself.
 
-These examples show two different motives. One is identity: "this is my team." The other is design: "I like how this looks." Flynn notes that a shirt is both a mass-produced product and a personal object, so it can be worn without loyalty to the club. Some fans find that disrespectful. Others think shirts belong to anyone who enjoys them.
+These examples show two different motives. One is identity ("this is my team"). The other is design ("I like how this looks"). Flynn notes that a shirt is both a mass-produced product and a personal object, so it can be worn without loyalty to the club. Some fans find that disrespectful. Others think shirts belong to anyone who enjoys them.
 
 It's worth remembering the limits. This is an opinion article, and the evidence is mostly examples and brand stories. There are no sales figures showing that every teenager now wears football shirts, and the butter yellow data she mentions counts searches for a colour, not for shirts.
 
@@ -67,7 +67,7 @@ It is important to be clear about the limits of this evidence. The article is th
 
 That leaves the question your friends will actually ask. Who decides whether someone is a "real" fan? A supporter who has stood in the rain for decades may feel that a shirt worn for its colour is a costume. Someone who has never been to a match may feel that the shirt is simply theirs. Because the shirt is both a mass-produced product and a personal object, both reactions are understandable, and neither group controls what the shirt means.
 
-So would you wear it? Perhaps the better question is what you would say if a friend asked why. "I like the design" is honest, and it may not be enough.
+So would you wear it? One person sees a great design. Another sees a rival team. The same shirt can start two very different conversations.
 
 === Core before you read ===
 

@@ -33,7 +33,7 @@ In October 2026, Denmark announced plans to bring in legislation addressing the 
 
 Deepfakes can be used for entertainment, but the technology also creates serious risks. A fabricated video may spread false statements, humiliate a private individual or chip away at public trust in genuine evidence. Once an image has been shared widely, taking down every copy becomes extremely difficult, and the original clip tends to outlive any correction.
 
-Supporters of the Danish approach argue that control over your own face ought to be a basic right rather than a privilege reserved for the famous. A convincing fake can cost an ordinary person a job, a friendship or simply their peace of mind, and very few private individuals have the time, money or contacts to chase every copy across the internet.
+Supporters of the Danish approach argue that control over your own face ought to be a basic right rather than a privilege reserved for the famous. A convincing fake can cost an ordinary person a job, a friendship or simply their peace of mind. Very few private individuals have the time, money or contacts to chase every copy across the internet.
 
 There are challenges in deciding where protection should begin and end. A realistic fake designed to deceive is different from an obvious cartoon or a clearly labelled comedy sketch. Journalists, artists and campaigners may have perfectly legitimate reasons to criticise public figures through parody. Laws must be precise enough to protect personal dignity without blocking ordinary expression, and drawing that line is a well-known sticking point in every country that has tried.
 
@@ -44,9 +44,9 @@ Denmark's proposal reflects a wider change in how people think about privacy. Th
 === Advanced ===
 
 title: Who Should Control a Copy of Your Face?
-summary: A photograph once implied that something had happened in front of a camera. Generative tools have quietly dismantled that assumption, leaving legislators to decide who may manufacture a persuasive version of you.
+summary: Denmark has proposed giving people more control over AI copies of their face and voice. The harder questions are how to enforce it and what to protect.
 
-For much of photographic history, the credibility of an image rested on a simple assumption: that some recognisable event had taken place in front of a camera. Generative artificial intelligence has quietly dismantled that assumption. It can produce plausible representations of people performing actions or making statements that never occurred, giving rise to new difficulties around consent, reputation and the public's capacity to evaluate evidence at all.
+A video appears to show you saying something you never said. The face looks right. The voice sounds familiar. But no camera recorded it: someone made it with AI. Denmark's proposal to give people more control over copies of their face and voice starts with that unsettling possibility.
 
 Denmark responded in October 2026 by announcing proposed legislation aimed at limiting the unauthorised distribution of realistic AI-generated reproductions of individuals' faces and voices. Its significance lies in treating a person's digital likeness as something deserving specific protection, rather than as an incidental by-product of being photographed or recorded in public. Whether the eventual text can match that ambition is another matter. The proposal should not, however, be described as a law already in force.
 

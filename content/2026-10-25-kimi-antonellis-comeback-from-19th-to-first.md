@@ -40,7 +40,9 @@ Imagine you start a race in 19th place. Eighteen cars are ahead of you, and the 
 
 On 6 September 2026, Kimi Antonelli won the Italian Grand Prix at Monza after starting 19th, according to Formula 1's official report. He drives for Mercedes. He started so far back after taking new power unit components. The race was 53 laps long, and nothing about it followed the plan.
 
-The race was red-flagged early after Charles Leclerc crashed at the final corner. Before the red flag, Antonelli had already reached 12th place, and he moved through the order quickly at the restart. Later, a Virtual Safety Car came out. Antonelli went into the pits under it and changed to fresher tyres. His teammate George Russell stayed out on his old tyres, and he struggled with them late in the race.
+The race was red-flagged early after Charles Leclerc crashed at the final corner, which means it was stopped for a while. Before the red flag, Antonelli had already reached 12th place, and he moved through the order quickly at the restart. 
+
+Later, a Virtual Safety Car came out, which makes all drivers slow down. Antonelli went into the pits under it and changed to fresher tyres. His teammate George Russell stayed out on his old tyres, and he struggled with them late in the race.
 
 That left the two Mercedes drivers fighting for the lead. With four laps remaining, after a near-collision at the first chicane, Antonelli went onto the gravel at the exit. He recovered and passed Russell on the run to the Ascari chicane. He said afterwards that he had never expected to be in this position and that the win felt like a dream coming true. He also said that the moment in the gravel was frightening.
 
@@ -53,11 +55,11 @@ What helps after a bad start to a game or a project? Sometimes the answer is to 
 === Advanced ===
 
 title: A Bad Start Didn't Decide Antonelli's Race
-summary: Kimi Antonelli won the Italian Grand Prix after starting 19th. The story is better as a lesson about turning points and teamwork than about determination.
+summary: Kimi Antonelli won the Italian Grand Prix at Monza after starting 19th, helped by a red flag, a tyre change and a late pass.
 
-A bad starting position feels like a verdict: nineteen cars ahead, and nothing left to hope for. On 6 September 2026, at the Italian Grand Prix in Monza, Kimi Antonelli showed that it is not. He started 19th and won.
+Starting 19th meant eighteen cars ahead and a long afternoon of catching up. At Monza on 6 September 2026, Kimi Antonelli turned that starting position into a win. The comeback depended on driving, fresh tyres and being ready when the race changed around him.
 
-According to Formula 1's official report, Antonelli, who drives for Mercedes, started so far back after taking new power unit components. The race was red-flagged early after Charles Leclerc crashed at the final corner. By then, Antonelli had already reached 12th place, and he moved through the field quickly after the restart.
+According to Formula 1's official report, Antonelli, who drives for Mercedes, started so far back after taking new power unit components, which brings a grid penalty. The race was red-flagged early after Charles Leclerc crashed at the final corner. By then, Antonelli had already reached 12th place, and he moved through the field quickly after the restart.
 
 The decisive moment came under a Virtual Safety Car, when drivers must slow down. Antonelli pitted and changed to fresher tyres, while his teammate, George Russell, stayed out. Late in the race, Russell struggled with his tyres, and the two Mercedes drivers fought for the lead. With four laps remaining, after a near-collision at the first chicane, Antonelli went onto the gravel on the exit. He recovered and passed Russell on the run to the Ascari chicane.
 
@@ -65,9 +67,7 @@ Afterwards he said that he could never have imagined it, and that the win felt l
 
 It would be easy to turn this into a lesson about belief, but that would leave out most of the story. A red flag changed the race. A Virtual Safety Car gave him a chance to change tyres. His teammate stayed on a different strategy, and it did not work as well late on. Antonelli drove well, but he also benefited from timing, and from a car and a team that could use the chance.
 
-That is a more useful lesson than "never give up". A bad start changes the odds; it does not decide the result. What matters is whether you can read what is happening, change your plan and take the chance when it appears. And, as in any team sport, a lot depends on people who are not in the headline, such as the crew in the pit lane.
-
-None of this is an argument for taking risks on a public road. A race track has rules, medical teams and safety barriers. Everyday life has none of these, and the best comeback is one that does not put anyone in danger.
+That is a more useful lesson than "never give up". A bad start changes the odds; it does not decide the result. What matters is whether you can read what is happening, change your plan and take the chance when it appears. And, as in any team sport, a lot depends on people who are not in the headline, such as the crew in the pit lane. Strategy mattered as much as speed: stopping for tyres at the right moment was a decision for the team as well as the driver.
 
 Think of a time when a bad start did not decide the result. What changed, and who helped?
 

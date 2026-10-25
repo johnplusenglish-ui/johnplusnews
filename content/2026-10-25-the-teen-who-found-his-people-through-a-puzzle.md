@@ -1,6 +1,6 @@
 title: The Teen Who Found His People Through a Puzzle
 date: 2026-10-25
-summary: A 15-year-old from the north of England got a Rubik's Cube as a present, then found a community of people who love the same puzzle. A BBC report shows how a solitary hobby can become a social one.
+summary: A 15-year-old from the north of England got a Rubik's Cube as a present, then found a community of people who love the same puzzle.
 tags: Hobbies, Young people
 audience: teens
 category: Hobbies
@@ -21,7 +21,7 @@ Imagine you get a puzzle as a present. You play with it alone, and you get bette
 
 That is the story of Thomas, a 15-year-old from Ingleby Barwick, in the north of England. He got some Rubik's Cubes as a Christmas present. A Rubik's Cube is a puzzle that you solve by twisting it. The cube was invented by Erno Rubik in 1974, and at least 350 million have been sold.
 
-Thomas learned to solve the cube from a family friend. Soon he started going to competitions. Now he solves a normal cube in about nine seconds, on average. He also competes in a different puzzle called the clock. In May 2026, he was the sixth fastest in the UK for the clock.
+Thomas learned to solve the cube from a family friend. Soon he started going to competitions. Now he solves a normal cube in about nine seconds, on average. That is his own skill after lots of practice, not what every learner can expect. He also competes in a different puzzle called the clock. In May 2026, he was the sixth fastest in the UK for the clock.
 
 But Thomas says that speed is not the main reason he likes cubing. He says he mostly enjoys the social side. He says everyone at a competition speaks the same cube language, and they all get on well.
 
@@ -32,7 +32,7 @@ In May 2026, Allinson helped to arrange a cube competition in Darlington, with m
 === Intermediate ===
 
 title: The Teen Who Found His People Through a Puzzle
-summary: A 15-year-old from the north of England got a Rubik's Cube as a present, then found a community of people who love the same puzzle. A BBC report shows how a solitary hobby can become a social one.
+summary: A 15-year-old from the north of England got a Rubik's Cube as a present, then found a community of people who love the same puzzle.
 
 Imagine you are given a puzzle that you can only solve alone. At first, you spend hours twisting it and failing. Then someone shows you a method, you improve, and one day you find that other people love the same thing. How does that change the puzzle?
 
@@ -53,11 +53,11 @@ Would you join a hobby group before you were good at the hobby? What would make 
 === Advanced ===
 
 title: Would You Enter a Competition for the People, Not the Prize?
-summary: A teenage cuber says the best part of competitions is the community. His story raises a question: can a competition be friendly without being less competitive?
+summary: A 15-year-old cuber who averages about nine seconds says the best part of competitions is the people.
 
-Competitions are usually about winning, so it is interesting when someone says that the best part is the people. In May 2026, the BBC reported on Thomas, a 15-year-old from Ingleby Barwick, near Stockton-on-Tees, who says something close to that about Rubik's Cube competitions.
+Thomas can solve a standard Rubik's Cube in about nine seconds, but speed is not his favourite part of cubing. In a May 2026 BBC report, the 15-year-old described the people he met at competitions. The puzzle gave him something to practise alone and a reason to join a room full of others.
 
-The cube was invented by Erno Rubik in 1974, and at least 350 million have been sold worldwide. Thomas began cubing when he was given some as a Christmas present, learned from a family friend and soon started attending competitions. He now averages about nine seconds on a standard 3x3 cube, but his main event is a different puzzle called the clock, in which he was ranked sixth fastest in the UK when the report was published. That ranking dates from May 2026, and the clock and the standard cube are separate events.
+The cube was invented by Erno Rubik in 1974, and at least 350 million have been sold worldwide. Thomas began cubing when he was given some as a Christmas present, learned from a family friend and soon started attending competitions. At the time of the May 2026 report, he averaged about nine seconds on a standard 3x3 cube. His main event is a different puzzle called the clock, in which he was ranked sixth fastest in the UK in May 2026. The two events are separate.
 
 It is striking how he describes the appeal. He says it is mainly the social side that he enjoys, and that everyone at a competition speaks the same cube language and gets on well. A shared language is one of the quickest ways to turn a room of strangers into a group.
 

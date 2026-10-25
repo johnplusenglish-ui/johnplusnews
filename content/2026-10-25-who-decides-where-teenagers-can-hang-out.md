@@ -20,7 +20,7 @@ Imagine four friends who want to sit and talk for an hour after school. The caf�
 
 One project in Barcelona's 2026 architecture programme is called +Ciutat Jugable. "Ciutat Jugable" is Catalan for "Playable City". The project asks teenagers how public places should work. Its page says that the needs and experiences of teenagers are often missing from plans for streets and squares.
 
-The project is organised by B-Murals and El Globus Vermell. It is a pilot, which means a small test. It started from the ideas of a group of teenagers in Marina del Prat Vermell. This is a part of Barcelona that is changing a lot. Four groups of students at the Institut Domènech i Muntaner take part. They are in the fourth year of ESO, the last year of compulsory secondary school in Spain.
+It is a pilot, which means a small test. It started from the ideas of a group of teenagers in a part of Barcelona that is changing a lot. Four groups of students at a secondary school take part. They are in the fourth year of ESO, the last year of compulsory secondary school in Spain.
 
 The plan has three stages. First, the students look at how public places are used now. Second, they design and build prototypes, which are first versions that other places could copy. Third, there are walks and a round table for the public. The first two stages were planned for January to June 2026, and the third for October 2026.
 
@@ -37,11 +37,11 @@ summary: A pilot project in Barcelona asks teenagers how public spaces should wo
 
 Picture four friends with an hour to spare after school and no money to spend. The café is out. The park has no seats. The square has a sign saying no ball games, and a neighbour who doesn't like noise. They aren't doing anything wrong, but there is nowhere that clearly says they are welcome.
 
-A project in Barcelona is asking teenagers about exactly this kind of problem. It is called +Ciutat Jugable ("Ciutat Jugable" is Catalan for "Playable City"), and it is part of Barcelona's 2026 architecture programme. The organisers, B-Murals and El Globus Vermell, want to encourage co-creation, which means designing more inclusive urban spaces together with the people who use them. They start from the needs and experiences of teenagers, which, according to the project page, are often missing from planning.
+A project in Barcelona is asking teenagers about exactly this kind of problem. It is called +Ciutat Jugable ("Ciutat Jugable" is Catalan for "Playable City"), and it is part of Barcelona's 2026 architecture programme. The organisers, B-Murals and El Globus Vermell, want to design more inclusive public spaces together with the people who use them. They start from the needs and experiences of teenagers, which, according to the project page, are often missing from planning.
 
 It is described as a pilot, a small test. It began from the reflections of a group of teenagers in the Marina del Prat Vermell neighbourhood, an area going through a major transformation. Four groups of students take part at the Institut Domènech i Muntaner, as part of a school subject called Projectes. They are in the fourth year of ESO, the last year of compulsory secondary school in Spain.
 
-The plan has three stages. In the diagnosis, students analyse how public spaces are used now. In the co-creation stage, they design and build prototypes that could be repeated elsewhere. In the final stage, there are walking routes and a round table for the general public. The first two stages were planned for January to June 2026, and the last for October 2026.
+The plan has three stages. First, students look at how public spaces are used now. Then they design and test ideas that could be repeated elsewhere. In the final stage, there are walking routes and a round table for the general public. The first two stages were planned for January to June 2026, and the last for October 2026.
 
 The page also connects the pilot with several city plans, including one about play and the United Nations goal of sustainable cities. Its idea of a "playable city" goes beyond young children: it asks whether older teenagers also need places that are made for them.
 
@@ -52,21 +52,19 @@ The page describes plans, not results, so we can't say what was built or whether
 === Advanced ===
 
 title: Old Enough to Go Out. Nowhere to Sit.
-summary: A Barcelona pilot asks teenagers to help design public space. Its headline question is a possible dilemma, not a finding: what does a city offer people who are too old for playgrounds and not welcome in cafés?
+summary: A Barcelona project asks teenagers to help design public spaces. The challenge is making somewhere they can enjoy without forgetting everyone else who uses it.
 
-Teenagers are old enough to go out and, in many places, have nowhere obvious to go. The playground is for small children. The café expects you to buy something. The square has a sign about ball games and a neighbour who is tired of the noise. This is a possible dilemma, not a finding, and it will look different in a village, a suburb and a dense city centre. But it is the question behind a pilot project in Barcelona.
+Imagine having an hour after school to spend with friends and nowhere obvious to go. The café means buying something. The playground is for younger children. A square might have room, but no seats or shade. You do not need a grand new attraction. A comfortable place to sit together would do.
 
-The project is called +Ciutat Jugable, which is Catalan for "Playable City", and it is part of Barcelona's 2026 architecture programme. It is run by B-Murals with El Globus Vermell. Its stated aim is to encourage co-creation of more inclusive urban spaces, starting from the needs and experiences of adolescents, which the page says are often missing from public space planning.
+A project in Barcelona starts with teenagers' ideas about that kind of space. Called +Ciutat Jugable, or Playable City, it forms part of the city's 2026 architecture programme. The organisers, B-Murals and El Globus Vermell, say young people's needs are often missing from decisions about streets and squares. They want students to help make those decisions instead of simply living with the result.
 
-The pilot begins from the reflections of a group of adolescents in Marina del Prat Vermell, a neighbourhood undergoing major transformation. Four groups of students in the fourth year of ESO, the last year of compulsory secondary school in Spain, take part at the Institut Domènech i Muntaner, within a school subject called Projectes. The project aims to make young people active protagonists in defining and using public spaces.
+The pilot involves four groups of students at the Institut Domènech i Muntaner. They are in the fourth year of ESO, the final year of compulsory secondary education in Spain. It began with ideas from teenagers in Marina del Prat Vermell, a Barcelona neighbourhood undergoing major change. The aim is to connect what students notice in everyday life with what could actually be designed.
 
-Its method has three stages. A diagnosis analyses how public spaces are used now. Co-creation then moves to designing and building replicable prototypes. A final stage offers routes and a round table for the general public. The first two stages were scheduled for January to June 2026 and the last for October 2026. The page also links the project to city plans for neighbourhoods, climate and play, and to the United Nations goal of sustainable cities.
+First, the plan asks students to look at how public spaces are used. Next comes designing and building ideas that could also be tried elsewhere. Public walks and a round-table discussion are part of the programme too. The first stages were scheduled for January to June 2026, with the public activities in October. The project page describes that plan; it does not report what was eventually built or how well it worked.
 
-The most interesting phrase on the page is "playable city", because it extends an idea usually applied to childhood. If a city can be playable for a seven-year-old, what would that mean for a sixteen-year-old: not swings, perhaps, but seats, shade, light, room to move and no obligation to spend money? The question isn't only about comfort. It is about who a city assumes it is built for.
+The phrase Playable City usually brings children to mind. For older teenagers, it might mean something different: a seat in the shade, enough light to feel comfortable or space to move without paying for an activity. Asking the people who would use a place can reveal needs that are easy to miss from a planning desk.
 
-The difficulty is that public space is shared, so every addition has costs for somebody. Music that makes one group feel at home keeps a neighbour awake. A sports area uses room that another group wanted for sitting. A pilot can't settle those conflicts, but it can make them visible, and it can show teenagers that the decisions are made by people who could have chosen differently.
-
-Remember what the page does not say. It describes aims and a schedule, not outcomes, so we don't know what was built, whether it worked or what the students concluded. One pilot in one neighbourhood can't speak for teenagers across Spain. So in your own area, which decision would you want teenagers to make themselves, and which would you want to share with everyone else?
+But a square belongs to more than one group. Music can make it welcoming to friends and tiring for a neighbour. A sports area takes space that someone else might want for sitting. Giving students a voice will not remove those disagreements. It can make the choices clearer, and let teenagers help shape a place they are expected to share.
 
 === Core before you read ===
 

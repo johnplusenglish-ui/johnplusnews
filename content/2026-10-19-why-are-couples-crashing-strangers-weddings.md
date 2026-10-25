@@ -10,9 +10,9 @@ image: images/why-are-couples-crashing-strangers-weddings-abf85b.jpg
 title: The Wedding Guests Nobody Invited
 summary: In South Korea, some couples visit other people's weddings before they book their own. They are checking the lighting, the tables and the car park.
 
-You are enjoying your wedding when you notice two strangers at the back of the room. They are not friends or relatives, and nobody invited them. So why have they turned up? Perhaps they are planning a wedding of their own.
+Choosing a wedding venue is a big decision. In South Korea, some couples have started visiting other people's weddings to look around the venue. They want to see the room when it is full of guests, check the lighting and find out how everything works. They may look at the parking area, the tables and the way the staff organise the event. A photograph on a website cannot tell them any of that.
 
-In South Korea, some couples have started visiting other people's weddings to look around the venue. They want to see the room when it is full of guests, check the lighting and find out how everything works. They may look at the parking area, the tables and the way the staff organise the event. A photograph on a website cannot tell them any of that.
+Imagine you are enjoying your own wedding when you notice two strangers at the back of the room. They are not friends or relatives, and nobody invited them. Perhaps they are planning a wedding of their own.
 
 The practice has been called an "undercover tour". It can help couples make up their minds about whether an expensive venue is worth the money. A company may show beautiful photographs or an empty hall, but a real wedding gives visitors a much more complete picture.
 
@@ -33,7 +33,7 @@ summary: Prospective customers want to see a hall under real pressure, with gues
 
 Wedding guests normally have a simple reason for attending: they know the people getting married. But in South Korea, some couples have been turning up at strangers' ceremonies with an entirely different purpose. They want to inspect the venue before spending a large sum on their own celebration.
 
-The practice, sometimes described as an "undercover tour", allows prospective customers to see a wedding hall in action. Advertisements and official viewings can make almost any room look attractive. A real event reveals far more practical detail: how guests move through the building, whether the staff are organised, what the lighting actually looks like and how easy it is to park.
+The practice, sometimes described as an "undercover tour", allows prospective customers to see a wedding hall in action. Advertisements and official viewings can make almost any room look attractive. A real event reveals far more practical detail, such as the layout, the lighting and the parking.
 
 Couples have understandable reasons for weighing everything up so carefully. Packages can be expensive, deposits are often large, and there is considerable pressure to get every detail right. Choosing a venue without seeing how it performs during a real ceremony may feel risky, particularly when backing out later would mean losing money.
 
@@ -52,7 +52,7 @@ The story is a reminder that consumer pressure can produce unexpected behaviour.
 title: Would You Let Strangers Inspect Your Wedding?
 summary: South Korean couples facing expensive packages and anxious planning are observing strangers' ceremonies to judge a venue properly. An industry that sells a flawless day may have taught them to manage one like a project.
 
-Few industries trade as heavily on the promise of perfection as the wedding business. In South Korea, where ceremonies can involve substantial expenditure and intense expectations, some prospective couples have adopted an unconventional method of assessing venues: attending complete strangers' weddings without an invitation.
+Choosing a wedding venue can mean spending a lot before seeing what a real celebration feels like there. In South Korea, some couples have tried an unusual form of research: turning up at strangers' weddings without an invitation.
 
 The so-called undercover tour allows potential customers to observe a venue under real operating conditions. A polished showroom presentation may demonstrate the quality of the decorations but reveal little about the flow of guests, the competence of the staff or the atmosphere during a ceremony. For a couple facing an expensive commitment, firsthand observation can seem considerably more valuable than another glossy brochure.
 
@@ -66,7 +66,7 @@ Their behaviour can also be read as a response to the anxieties of modern weddin
 
 Businesses therefore have every incentive to offer greater transparency. Permission-based observation sessions, realistic recordings of ceremonies and clearer explanations of total costs would reduce the temptation to turn up unannounced. A venue confident that its service stands up to scrutiny loses very little by allowing customers to see it properly.
 
-Prospective customers, for their part, may need to accept that no venue can guarantee the perfect atmosphere, since an occasion depends at least as much on the people attending as on the room they are in. Research can establish how a hall functions; it cannot establish how an evening will feel, which is why couples eventually have to fall back on judgement.
+Couples choosing a venue, for their part, may need to accept that no venue can guarantee the perfect atmosphere, since an occasion depends at least as much on the people attending as on the room they are in. Research can establish how a hall functions; it cannot establish how an evening will feel, which is why couples eventually have to fall back on judgement.
 
 What makes the phenomenon more than an amusing social-media story is the way it blurs the distinction between a personal milestone and a commercial product. If a wedding has become something to be researched like a car or a property investment, perhaps the industry itself has helped create the behaviour it now finds so awkward. Couples who have been taught to treat their celebration as a project can hardly be blamed for managing it like one.
 

@@ -1,7 +1,7 @@
 title: Is Quiet Quitting Really a Bad Thing?
 date: 2026-04-01
 date-label: April 2026
-summary: Millions of workers are questioning how much of their lives employers should be entitled to.
+summary: A worker finishes their tasks and leaves on time. Is that quiet quitting, or simply doing the job?
 tags: Work, Society
 source: Gallup | https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx
 image: images/is-quiet-quitting-really-a-bad-thing-fbb0b0.jpg
@@ -30,7 +30,7 @@ Perhaps the real question is what a reasonable working relationship looks like. 
 === Intermediate ===
 
 title: Leaving on Time: What Does a Job Really Expect?
-summary: The label covers everything from sensible boundaries to genuine withdrawal, and it travels badly between workplaces. Gallup's engagement figures are not a count of quiet quitters.
+summary: One manager calls an employee who leaves on time dependable; another calls the same person a quiet quitter. Gallup's 2026 engagement figures are not a count of quiet quitters.
 
 Imagine an employee who performs their duties carefully but refuses to check messages after hours. One manager might describe that person as dependable and sensible. Another might claim they are quiet quitting. The difference says a great deal about changing expectations in the workplace. Despite the dramatic label, quiet quitting usually means remaining employed while rejecting the idea that success requires constant extra effort. It became a popular phrase as workers debated work-life balance, unpaid overtime and whether their careers deserved such a large share of their energy.
 
@@ -49,9 +49,9 @@ The phrase quiet quitting turns a complicated negotiation into an argument about
 === Advanced ===
 
 title: Is Leaving on Time Really Doing Too Little?
-summary: Bargaining power decides who can set a boundary and who risks punishment for trying. Making the cost of flexibility visible matters more than ruling on whether the attitude is virtuous or lazy.
+summary: Is leaving on time a lack of ambition or a reasonable boundary? Gallup's 2026 engagement figures add context, but they do not count quiet quitters.
 
-The popularity of the phrase quiet quitting reveals how differently employers and employees understand professional commitment. To some managers, limiting effort to the responsibilities set out in a contract represents a troubling loss of ambition. To some workers, the same behaviour represents a long-overdue rejection of unpaid labour and constant availability.
+One employee finishes the agreed work and leaves on time. A manager sees a lack of ambition; the employee sees a reasonable boundary. Much of the argument about quiet quitting begins with that difference. The phrase can mean doing a job properly within its hours, or it can mean quietly disengaging. Those are different situations.
 
 The label is provocative partly because it suggests that an employee has withdrawn something they previously owed. Yet the boundary between contractual obligation and voluntary goodwill is rarely made explicit.
 

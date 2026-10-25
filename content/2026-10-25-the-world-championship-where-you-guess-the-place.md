@@ -44,7 +44,7 @@ That is the idea behind GeoGuessr, a game in which you are placed in a street-vi
 
 The German newspaper taz, which reported on the final, says that about 2,000 fans came to the Tempodrom arena. The matches were best-of-five, with different rules in different games. In some, players can move along the street. In others, they can only turn and zoom. In the last, they see one image and cannot move, turn or zoom at all. Each guess has a 60-second limit.
 
-What do players look at? According to taz, they use street signs and the scripts on them, such as Hindi, Japanese Kanji and Cyrillic, as well as plants, buildings, telephone codes and regions. Some even recognise features of the camera car that took the picture, such as an antenna in Russia or a snorkel-like device in Kenya, and small local objects, such as a German road post.
+What do players look at? According to taz, they use street signs and the scripts on them, such as Hindi, Japanese Kanji and Cyrillic, as well as plants, buildings, telephone codes and regions. Some even recognise features of the camera car that took the picture, such as an antenna in Russia or a snorkel-like device in Kenya. Some clues are reliable, such as a script, and others are much weaker.
 
 The final was between Szabolcs Attila, known as Debre, from Hungary, and Blinky from France, the 2024 champion. Blinky led 2-0. Debre won the next three games and took the match 3-2. In the decisive round, the players saw one image with no moving, turning or zooming. Debre made what taz calls a bold hedge guess in northern Namibia, and it was correct. Blinky guessed Argentina.
 
@@ -55,9 +55,9 @@ Look at a photo of a street you do not know. Which three details would you use? 
 === Advanced ===
 
 title: What Would You Notice If the Map Disappeared?
-summary: A world championship of guessing places from street pictures is really a contest of attention. The way players handle uncertainty is as interesting as the answers.
+summary: A world championship of guessing places from street pictures rewards both geography and attention. The way players handle uncertainty is as interesting as the answers.
 
-Imagine you are dropped on a road somewhere on Earth. There is no map, no label and no name. You have sixty seconds. What do you look at first? It sounds like a game for geography experts, but it is really a game about attention.
+Imagine you are dropped on a road somewhere on Earth. There is no map, no label and no name. You have sixty seconds. What do you look at first? Geography helps, but so does noticing what other people overlook: a road sign, a plant or the shape of a roadside post.
 
 That is the idea behind GeoGuessr, in which players are shown a street-view image, look for clues and place a guess on a map. The 2026 world championship was held in Berlin from 2 to 5 September, as part of a four-day fan festival called GeoFest. According to the organisers, 24 of the world's best players took part, and every match was streamed live. The German newspaper taz reported that about 2,000 fans came to the final in the Tempodrom arena.
 
@@ -65,7 +65,7 @@ Matches were best-of-five, and the rules changed from game to game. In some, pla
 
 The final shows how that works under pressure. Szabolcs Attila, known as Debre, from Hungary, who had lost the 2025 final, faced Blinky of France, the 2024 champion. Blinky led 2-0, but Debre won the next three games and took the match 3-2. In the final round, with a single image and no movement, Debre made what taz calls a bold hedge guess in northern Namibia. A hedge is a guess placed to be reasonably close to several possible answers. It turned out to be correct. Blinky guessed Argentina.
 
-A hedge is interesting because it is honest about uncertainty: good players do not pretend that one clue settles the matter. Instead, they weigh evidence against assumption, accept that they may be wrong, and choose the guess that costs least if they are. That is a useful habit well beyond games.
+Debre's guess shows how a hedge works: it is placed where it would still be reasonably close if other clues pointed elsewhere. Good players weigh evidence against assumption, accept that they may be wrong and choose the guess that costs least if they are.
 
 There is also a caution. A landscape or a building does not prove a nationality, and a plant that grows in one country may also grow in others. The game rewards probabilities, not certainties, because a lucky guess, however impressive it looks, is not the same thing as a good explanation.
 

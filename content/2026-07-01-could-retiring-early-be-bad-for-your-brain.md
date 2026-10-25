@@ -15,7 +15,7 @@ Imagine your final day at work. You close your computer, say goodbye to your col
 
 The researchers studied the effects of a change in German retirement rules for women. The change made some women wait longer before they could retire early. This allowed the researchers to compare people who left work at different times. They focused on women in their sixties and looked at several tests of thinking and memory.
 
-One result stood out. Spending longer in retirement was linked to lower scores on some tasks involving flexible thinking, such as processing new information. However, other kinds of knowledge did not show the same decline. The researchers did not find evidence that extra years in retirement increased diagnoses of cognitive disorders. In fact, some health measures, including sleep problems and depression, improved.
+One result stood out. Among these women, spending longer in retirement was linked to lower scores on some tasks involving flexible thinking, such as processing new information. However, other kinds of knowledge did not show the same decline. The researchers did not find evidence that extra years in retirement increased diagnoses of cognitive disorders. In fact, some health measures, including sleep problems and depression, improved.
 
 This is not the same as saying that retirement causes dementia. The study looked at a particular group of German women and the effects of a specific change in the law. Its findings may not apply to everybody. Also, working life can be stressful or physically difficult. Staying in an exhausting job simply to keep your brain busy may not be a good idea.
 
@@ -38,14 +38,14 @@ That distinction matters. A headline claiming that retiring early damages the br
 
 One possible explanation is that working life gives people regular opportunities to solve problems, adapt to changes and keep up with complex information. When those demands disappear, certain mental skills may receive less practice. But retirement does not have to mean sitting around without anything to do. Volunteering, learning a new language, taking up a musical instrument or joining community groups can create fresh challenges and maintain social connections.
 
-Perhaps the most useful lesson is to plan for retirement as a new stage of life rather than an endless weekend. Freedom from work can be a genuine gift, offering time to recover, spend with family and pursue neglected interests. The challenge is finding enough purpose and variety to keep life stimulating without recreating the pressures people wanted to escape. Leaving the office may be a sensible decision. Leaving curiosity behind would be a different matter entirely.
+Perhaps the best response is to plan for retirement as a new stage of life rather than an endless weekend. Freedom from work can be a genuine gift, offering time to recover, spend with family and pursue neglected interests. The challenge is finding enough purpose and variety to keep life stimulating without recreating the pressures people wanted to escape. Leaving the office may be a sensible decision. Leaving curiosity behind would be a different matter entirely.
 
 === Advanced ===
 
 title: What Might Your Brain Miss When You Leave Work?
 summary: A policy change in Germany created a natural experiment. It found weaker performance on flexible thinking, alongside genuine gains in health.
 
-Retirement is often imagined as the long-awaited reward for decades of effort: the final commute, the farewell gathering and the promise of mornings no longer dictated by an alarm. Yet while escaping workplace pressures may improve wellbeing, leaving employment also removes a regular source of mental stimulation. A study published in the Journal of Health Economics in July 2026 examined whether that change affects cognitive abilities, offering a more complicated picture than the familiar argument that people should retire as early as they possibly can.
+Retirement removes the commute and the alarm clock, but it can also remove tasks that keep someone learning and solving problems. A German study published in the Journal of Health Economics in July 2026 examined what happens to thinking skills after people leave work. Its findings complicate the idea of retirement as either wholly good or wholly bad for us.
 
 The researchers exploited a German policy reform that raised the early retirement age for certain women from sixty to sixty-three. Because eligibility changed according to birth cohort, the reform provided a way to investigate the consequences of additional years spent outside the workforce. The analysis focused on women aged sixty-three to sixty-seven, combining objective cognitive tests with administrative health records. Such a design offers stronger evidence about the effects of retirement than simply comparing people who happened to stop working at different ages.
 

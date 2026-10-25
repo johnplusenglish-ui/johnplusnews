@@ -23,9 +23,9 @@ When you think of chess, what do you see? A quiet room, two players, a board and
 
 In the summer of 2025, that is what happened. Chess was part of the Esports World Cup in Riyadh, Saudi Arabia, for the first time. Esports means competitive video games, and the event had many other games too. Sixteen chess players took part, and the final was on 1 August.
 
-The winner was Magnus Carlsen, the world number one. He played for a team called Team Liquid. In the final, he beat Alireza Firouzja, a very fast player who had not lost a single game before the final.
-
 Why was it exciting to watch? One reason is the clock. In these games, each player had only ten minutes for the whole game, so players had to think fast. In one game of the final, one player had almost four minutes left, and the other had less than 30 seconds. Every second mattered.
+
+The winner was Magnus Carlsen, the world number one. He played for a team called Team Liquid. In the final, he beat Alireza Firouzja, a very fast player who had not lost a single game before the final.
 
 The organisers also made the games easier to follow. Commentators talked about the games for the audience. On screen, the audience could see each player's heart rate in the final. Crowds cheered, and another player, Hikaru Nakamura, said he enjoyed the fans and the atmosphere.
 
@@ -38,11 +38,11 @@ summary: A quiet board game was played on a big esports stage, with a clock, a c
 
 Think about the last time you watched something you barely understood, such as a sport you do not play. What made you keep watching? Perhaps it was the crowd, a good commentator, or one moment of tension.
 
-In July and August 2025, chess was given a very different stage. It joined the Esports World Cup in Riyadh, Saudi Arabia, for the first time, at the SNB Arena. Sixteen players qualified, twelve through a professional tour and four through a last-chance qualifier. They were split into four groups, and the top eight went through to a knockout round.
+In July and August 2025, chess was given a very different stage. It joined the Esports World Cup in Riyadh, Saudi Arabia, for the first time, at the SNB Arena. Sixteen players took part, split into four groups, and the top eight went through to a knockout round.
 
 Each chess player also belonged to an esports team. Magnus Carlsen, the world number one, represented Team Liquid, and Alireza Firouzja played for Team Falcons. On 1 August, Carlsen beat Firouzja in the final, even though Firouzja had not lost a single game on the way.
 
-The games were fast. Each player had ten minutes for the whole game, with no extra time added after each move. That makes the clock a character in the story. Chess.com's report describes one game in the final in which one player had almost four minutes left while the other had under 30 seconds.
+The games were fast. Each player had ten minutes for the whole game, with no extra time added after each move. That makes the clock a character in the story: a player with a winning position could still lose if time ran out. Chess.com's report describes one game in the final in which one player had almost four minutes left while the other had under 30 seconds.
 
 The broadcast helped newcomers follow the drama. A team of commentators, including grandmasters, talked viewers through the games. FIDE reported that each player's heart rate was shown on screen during the final. The crowds were large and enthusiastic, and Hikaru Nakamura praised the atmosphere and the fans.
 
@@ -53,13 +53,13 @@ So what makes something exciting to watch? Is it skill, risk, a close score, or 
 === Advanced ===
 
 title: Can a Quiet Board Game Be a Great Spectator Sport?
-summary: When chess joined the Esports World Cup, it gained a clock, a crowd and commentators. The result raises a question about what makes anything worth watching, and who has to explain it.
+summary: In 2025, chess joined the Esports World Cup in Riyadh, with ten-minute games, a crowd and commentators. Magnus Carlsen won the final.
 
 Chess has a reputation as the quietest of competitions: a board, two players and a silent room. So it seems strange that in the summer of 2025 chess appeared at the Esports World Cup in Riyadh, Saudi Arabia, in front of a crowd, under bright screens, with a team of commentators following every move.
 
 It was the first year that chess was part of the event. Sixteen players took part, twelve of them qualifying through the Champions Chess Tour and four through a last-chance qualifier, and each competed for an esports team. After a group stage, the top eight went into a knockout bracket. The final, played on 1 August, was won by Magnus Carlsen of Team Liquid against Alireza Firouzja of Team Falcons, who had not lost a single game before it.
 
-Two reports describe the structure of the final in slightly different ways, so it is better not to reproduce a set-by-set account. What is clear is the format of the games: ten minutes each, with no time added after each move. That single rule changes the drama. A player with a winning position can still lose if the clock runs out, so time becomes a second opponent. Chess.com describes a game in the final in which one player had almost four minutes left while the other had under 30 seconds.
+The games gave each player ten minutes, with no extra time added after a move. A winning position was not enough if the clock ran out. That made time part of what the audience was watching. Chess.com describes a game in the final in which one player had almost four minutes left while the other had under 30 seconds.
 
 The broadcast gave newcomers things to hold on to. A large team of commentators, including grandmasters, talked viewers through the games, and FIDE reports that each player's heart rate was shown on screen during the final. Large, enthusiastic crowds attended, and Hikaru Nakamura praised the fans and the atmosphere.
 

@@ -53,9 +53,9 @@ The reasonable conclusion is neither that nature works miracles nor that its ben
 === Advanced ===
 
 title: Why a Walk in Nature Is Easier for Some of Us
-summary: The evidence points one way for emotional wellbeing and another for attention and stress. It also exposes a question of planning rather than motivation: whether a safe, pleasant park is within reach at all.
+summary: A 2025 review found stronger evidence for mood than for attention or stress. Not everyone has a safe, pleasant park within reach.
 
-Nature is frequently presented as a universal remedy for modern exhaustion: a walk through the woods supposedly reduces stress, sharpens attention and restores emotional balance. Such claims are attractive because they dress up an inexpensive everyday activity as a solution for several complicated problems. The scientific picture, however, is more selective.
+A walk outdoors can change the feel of a day. The difficult question is what does the helping: the movement, the company, the time away from a screen or the surroundings themselves? Researchers have tried to separate those effects. The results are more useful than the promise that nature fixes everything.
 
 A systematic review published in the Journal of Environmental Psychology in November 2025 assessed randomised studies of natural environments and adult wellbeing. Researchers found relatively strong evidence that exposure to nature improved mood, while findings concerning memory and attention were inconsistent. Measures of stress produced mixed results. The contrast is important: feeling emotionally better after a walk does not necessarily imply improved performance on a cognitive test.
 

@@ -21,7 +21,7 @@ Can you be a fan of a band that does not exist? Many people are. In the animated
 
 The band is not real. The singers in the film are cartoon characters. But the voices you hear are real people. The singing voices of HUNTR/X come from three singers: EJAE, Audrey Nuna and Rei Ami. EJAE sings the voice of the character Rumi.
 
-The most famous song in the film is called "Golden". A team of writers made it. The film's directors, Maggie Kang and Chris Appelhans, wrote a memo about what the song needed to do. It had to help tell the story, and it had to be a real pop hit. It also had to be very hard to sing, because the character's voice is supposed to sound superhuman.
+The most famous song in the film is called "Golden". A team of writers made it. The film's directors wrote a memo about what the song needed to do. It had to help tell the story, and it had to be a real pop hit. It also had to be very hard to sing, because the character's voice is supposed to sound superhuman.
 
 The writers lived in different parts of the world, so they met every week on video calls. First, they made a plan for each part of the song. A music company called THEBLACKLABEL made the beat. Then EJAE wrote the melody very quickly, in a taxi on the way to a dentist appointment. The team made five or six versions of the song before the final one.
 
@@ -38,7 +38,7 @@ Can you be a fan of a band that does not exist? It sounds like a trick question,
 
 The group is fictional, but its voices are not. According to a Netflix article published in February 2026, the singing voices of HUNTR/X belong to three real performers: EJAE, Audrey Nuna and Rei Ami. EJAE also sings the vocals of the character Rumi. Fictional does not mean computer-made. Behind every note there is a person.
 
-The song was written by a team spread across the world. The directors, Maggie Kang and Chris Appelhans, and the producer, Michelle Wong, began with a seven-page memo explaining what the song had to do. It had to move the story forward, it had to sound like a real hit, and its main hook had to be hard to sing, because the character's voice was supposed to feel superhuman.
+The song was written by a team spread across the world. The directors, Maggie Kang and Chris Appelhans, and the producer, Michelle Wong, began with a seven-page memo explaining what the song had to do. It had to move the story forward and sound like a real hit. Separately, its main hook had to be hard to sing, because the character's voice was supposed to feel superhuman.
 
 The team met every week online. They planned the song section by section before writing the lyrics, so that every part had a job in the story. A production team called THEBLACKLABEL created the beat, and the K-pop songwriter EJAE wrote the melody quickly, in a taxi on her way to a dentist's appointment. Together with the musical-theatre writer Mark Sonnenblick, she shaped it into lyrics. The music supervisor, Ian Eisendrath, says they wrote five or six versions before they found the final one.
 
@@ -51,15 +51,17 @@ None of this requires you to like K-pop or to have seen the film. The real quest
 === Advanced ===
 
 title: Can You Be a Fan of a Band That Doesn't Exist?
-summary: A cartoon pop group has a very real hit song. How the song was made suggests that fandom for a fictional band is not so strange, and that it depends on a lot of real work.
+summary: A cartoon pop group has a hit song audiences love. A Netflix article describes the singers, writers and revisions behind it.
 
-Fans of fictional things are sometimes treated as if they had made a mistake: why love a band that cannot tour, give interviews or release a second album? The success of "Golden", the song at the centre of the animated film KPop Demon Hunters, shows how little that objection explains.
+HUNTR/X cannot step out of the film and go on tour. The voices behind the fictional band can. In KPop Demon Hunters, the song "Golden" works as both a piece of the story and a pop song people can play on its own. Making it do both jobs took real singers, writers and a lot of revisions.
 
 HUNTR/X, the pop group in the film, is fictional. Its singing voices are not. A Netflix oral history published in February 2026 names three performers: EJAE, Audrey Nuna and Rei Ami, with EJAE singing the vocals of the character Rumi. The film and its soundtrack came out in June 2025. It is worth saying plainly that fictional does not mean artificial: every note was performed by a person, and every line was written by one.
 
 The creation of the song was a negotiation between two jobs. The directors, Maggie Kang and Chris Appelhans, and the producer, Michelle Wong, began with a seven-page memo explaining what the song needed to achieve. It had to carry part of the plot, it had to work as a pop hit in its own right, and its central hook had to be extremely difficult to sing, so that the character's voice would feel superhuman. The writers, who were spread around the world, met online every week and mapped the song section by section before writing any lyrics.
 
-Within that structure, the details were human. The production team THEBLACKLABEL built the sound, and EJAE wrote the melody quickly, in a taxi on her way to a dentist's appointment. Working with the musical-theatre writer Mark Sonnenblick, she turned it into lyrics, and the music supervisor, Ian Eisendrath, says the team wrote five or six versions before settling on one. EJAE says that her own decade as a K-pop trainee made the song personal. The middle of the song drops from upbeat pop to a quieter, darker mood, which is a storytelling decision as much as a musical one.
+Within that structure, the details were human. The production team THEBLACKLABEL built the sound, and EJAE wrote the melody quickly, in a taxi on her way to a dentist's appointment. Working with the musical-theatre writer Mark Sonnenblick, she turned it into lyrics, and the music supervisor, Ian Eisendrath, says the team wrote five or six versions before settling on one.
+
+EJAE says that her own decade as a K-pop trainee made the song personal. The middle of the song drops from upbeat pop to a quieter, darker mood, which is a storytelling decision as much as a musical one.
 
 Netflix's article also reports the song's success, including eight weeks at number one on the Billboard Hot 100 and nearly four billion streams. These totals come from the platform that released the film, and they date from February 2026, so they are best read as the company's own claims rather than independent measurements.
 

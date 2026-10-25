@@ -1,6 +1,6 @@
 title: Jenna Ortega Made Wednesday's Dance Her Own
 date: 2026-10-25
-summary: A famous dance scene in a Netflix series was not planned by a choreographer. The actor made it up herself, and the story shows how to borrow ideas without copying.
+summary: A famous dance scene in a Netflix series was not planned by a choreographer. The actor made it up herself, and credited the performers who inspired her.
 tags: TV, Creativity
 audience: teens
 category: TV, film & fandom
@@ -23,7 +23,7 @@ That was the challenge in a scene from the Netflix series Wednesday. Wednesday A
 
 The actor Jenna Ortega decided to create the dance herself. The show's creators said they talked about hiring a professional choreographer, a person who plans dance steps. But Ortega told them she already had the dance in her head.
 
-She took ideas from other performers. She added a small side step to say thank you to Lisa Loring, who played Wednesday in the 1960s. It was her way of showing respect to an older actor. She also named the actor Denis Lavant and the choreographer Bob Fosse as influences.
+She took ideas from other performers. She added a small side step to say thank you to Lisa Loring, who played Wednesday in the 1960s. It was her way of showing respect to an older actor. She also named the choreographer Bob Fosse as an influence.
 
 The dance fits the character. Wednesday does not care what other people think, so her dance looks strange and sharp, not smooth and pretty. Ortega said it felt freeing to play a character who does not worry about other people's opinions. She said she was a people-pleaser before.
 
@@ -32,7 +32,7 @@ Of course, Ortega did not make the scene alone. The director, the actors and the
 === Intermediate ===
 
 title: Jenna Ortega Made Wednesday's Dance Her Own
-summary: A famous dance scene in a Netflix series was not planned by a choreographer. The actor made it up herself, and the story shows how to borrow ideas without copying.
+summary: A famous dance scene in a Netflix series was not planned by a choreographer. The actor made it up herself, and credited the performers who inspired her.
 
 Imagine you have to dance in front of an entire school, and you are not allowed to copy anyone. Where would you start?
 
@@ -40,7 +40,7 @@ That was the creative problem in an episode of the Netflix series Wednesday. In 
 
 A professional choreographer was one option. The show's co-creator, Miles Millar, said the team discussed this idea, but the actor Jenna Ortega insisted that she already had the dance in her head. She choreographed the routine herself.
 
-She took inspiration from a few performers. She included a side shuffle with her hands and feet as a tribute to Lisa Loring, who played the original Wednesday in the 1960s. She also credited the French actor Denis Lavant and the choreographer Bob Fosse, whose routine "The Rich Man's Frug" comes from the musical Sweet Charity, as influences.
+She took inspiration from a few performers. She included a side shuffle with her hands and feet as a tribute to Lisa Loring, who played the original Wednesday in the 1960s. She also credited the French actor Denis Lavant as an influence. She named the choreographer Bob Fosse too, whose routine "The Rich Man's Frug" comes from the musical Sweet Charity.
 
 The result looks nothing like a normal school-dance routine, and that is the point. The movement shows how unpredictable Wednesday is and how little she cares what other people think. Hunter Doohan, who plays Tyler, says he kept asking what the dance would be, and that Ortega surprised everyone when she performed it. His shocked reaction in the scene was improvised, and the director, Tim Burton, encouraged it.
 
@@ -53,15 +53,15 @@ Would you rather follow a routine or create your own? And if you borrow from oth
 === Advanced ===
 
 title: Why Wednesday's Dance Didn't Need to Look Like Everyone Else's
-summary: An actor's strange, stiff dance in a Netflix series was exactly right for the character. Her story raises a useful question: what is the difference between inspiration and copying?
+summary: In Netflix's Wednesday, an actor made up her character's strange, stiff dance at a school dance. She also credited the performers who inspired it.
 
-A dance can be memorable because it is not polished. The scene at the centre of this story, from the first season of the Netflix series Wednesday, is a good example of that.
+At the school dance in episode four of Netflix's Wednesday, Wednesday Addams does not do what the other students do. Her dance is stiff, sharp and strange, and it is memorable because it is not polished.
 
-In episode four, Wednesday Addams, the unsmiling title character, attends a school dance. According to the actor Hunter Doohan, the script said only that Wednesday dances and that his character, Tyler, copies her. Nobody had decided on the steps.
+According to the actor Hunter Doohan, the script said only that Wednesday dances and that his character, Tyler, copies her. Nobody had decided on the steps.
 
 The show's co-creator, Miles Millar, said the team had discussed using a professional choreographer. But the actor Jenna Ortega said she already had the dance in her head, and she choreographed the routine herself. Netflix's own article reports this, so it is the production's account of its own scene.
 
-She did not start from nothing. She included a side shuffle with her hands and feet as a tribute to Lisa Loring, who played the original Wednesday in the 1960s. She also credited the French actor Denis Lavant and Bob Fosse's routine "The Rich Man's Frug", from the musical Sweet Charity, as influences. That is an important distinction. Taking inspiration means learning from someone and saying so. Copying means presenting someone else's work as your own.
+She did not start from nothing. She included a side shuffle with her hands and feet as a tribute to Lisa Loring, who played the original Wednesday in the 1960s. She also credited the French actor Denis Lavant and Bob Fosse's routine "The Rich Man's Frug", from the musical Sweet Charity, as influences. Ortega drew on earlier performers and named her influences. Borrowing a step, making a tribute and claiming someone else's work as your own are different acts. Credit helps the audience see the difference.
 
 Think about how this works in everyday life. A student who learns a drawing technique from a teacher and says so is learning. A student who traces someone else's picture and signs it is copying. Between those two examples there is a large grey area, and honest people disagree about where it begins, which is why saying where an idea came from is such a useful habit.
 

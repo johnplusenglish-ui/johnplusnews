@@ -42,7 +42,7 @@ The clip was filmed at Pacu Jalur, a traditional boat race. "Pacu" means race an
 
 Online, the clip became a symbol of "aura farming", an internet phrase for looking cool and building your "aura", a word for charisma. The BBC reported that videos with this tag had millions of views on TikTok by early July. The football club Paris Saint-Germain and the American football player Travis Kelce posted their own versions.
 
-The attention reached Indonesia's government too. The culture minister, Fadli Zon, said that dancing at the front of the boat is not easy, because the dancer must keep his balance while motivating the rowers. Rayyan was named a cultural ambassador by the governor of his province. His mother, Rani Ridawati, said she worries that he might fall, but that he is a strong swimmer and a rescue team is nearby.
+The attention reached Indonesia's government too. The culture minister, Fadli Zon, said that dancing at the front of the boat is not easy. The dancer must keep his balance while also motivating the rowers. Rayyan was named a cultural ambassador by the governor of his province. His mother, Rani Ridawati, said she worries that he might fall, but that he is a strong swimmer and a rescue team is nearby.
 
 There is a difference between the dance, the race and the label. The dance belongs to Rayyan. The race is a tradition with its own rules and its own meaning for the people who take part. "Aura farming" is a phrase that the internet attached afterwards. The viral clip joined all three together, and most viewers saw only the cool part.
 
@@ -51,15 +51,15 @@ That is why the story is more interesting than a meme. When something travels fa
 === Advanced ===
 
 title: You Know the Meme. Do You Know Where It Came From?
-summary: A boy's calm dance at the front of a racing boat became a symbol of "aura farming". The story shows what happens to a tradition when a clip travels without its context.
+summary: At the front of a racing boat in Indonesia, a boy danced calmly while the rowers worked behind him. Online, the clip became "aura farming".
 
-Most memes arrive without a past. A clip appears on a screen, people copy it, and by the time it reaches you it has already become something else. In 2025, thousands of people copied a short video of a boy dancing at the front of a boat. Far fewer knew what they were copying.
+At the front of a racing boat in Indonesia, eleven-year-old Rayyan Arkan Dikha danced while the rowers worked behind him. The clip travelled far beyond the race. Viewers called it aura farming: a performance of effortless cool. Learning his name and the dancer's job changes what there is to see.
 
 The boy is Rayyan Arkan Dikha, then eleven, from Kuantan Singingi Regency in Indonesia. The BBC reported that he told BBC Indonesia he invented the moves himself and that it was spontaneous. The clip comes from the national Pacu Jalur boat race, where "pacu" means race and "jalur" refers to the long, canoe-like boats. Rayyan was making his debut as the Togak Luan, the dancer at the tip of the boat, whose role is to energise the crew.
 
 In the video, at least eleven adults are rowing, and he stands at the front in a traditional outfit with a headcloth, blowing kisses to either side before moving his arms with a calm, expressionless confidence. Online, that calm became the point. The clip came to stand for "aura farming", an internet phrase for the act of looking cool and building your "aura", or charisma. Sports teams and players, including Paris Saint-Germain and the American football player Travis Kelce, posted their own versions.
 
-Three things are tangled together here, and it helps to separate them. The dance was Rayyan's own moment of improvisation. The race is a tradition with its own rules, in which the dancer has a job to do for his crew. And "aura farming" is a label that internet users attached later. The clip is not evidence that the tradition was invented online, and it is not proof that the phrase is still fashionable in every classroom today.
+Three things are tangled together here, and it helps to separate them. The dance was Rayyan's own moment of improvisation. The race is a tradition with its own rules, in which the dancer has a job to do for his crew. And "aura farming" is a label that internet users attached later.
 
 The difference matters because meaning changes in transit. For the rowers, the dancer is part of the effort. For millions of viewers, he is a performer displaying effortless cool. Neither reading is foolish, but only one of them knows what the dance is for. Indonesia's culture minister, Fadli Zon, pointed to the practical side: dancing at the front of the boat is not simple, because the dancer must keep his balance while motivating the crew, which he suggested is why children are often chosen.
 

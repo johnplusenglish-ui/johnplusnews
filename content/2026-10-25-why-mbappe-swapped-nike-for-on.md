@@ -25,7 +25,7 @@ On 18 September 2026, the footballer Kylian Mbappé made a choice like this. Sin
 
 This is a sponsorship deal. It is not a move to a new football team. A sponsor pays a player, and the player wears and promotes its products. Mbappé will be a global ambassador for On. He will also work with the company's product teams to develop and test future boots and clothes.
 
-The money is a secret. On said the deal includes cash and equity, which means a small share in the company, but it did not say how much. Nike said it was proud of what they achieved together. Mbappé wrote online that this is a big change in his life. He said he is now working with people who want to try new ideas.
+The money is a secret. On said the deal includes cash and equity, which means a share, or stake, in the company, but it did not say how much. Nike said it was proud of what they achieved together. Mbappé wrote online that this is a big change in his life. He said he is now working with people who want to try new ideas.
 
 On says its first football boots are planned for 2027. It also named the former France star Thierry Henry as its director of football. The company says top players will test its products from the start. Remember, these are the company's own plans. We do not know yet if the boots will be better than other boots.
 
@@ -46,18 +46,18 @@ The terms were not made public. According to Reuters, On said the deal includes 
 
 On's co-founder and co-CEO, David Allemann, said football needs new ideas rather than more of the same. The company also named the former France star Thierry Henry as its director of football. It said that a Swiss international player, Sydney Schertenleib, will help to test products, including ones for the women's game.
 
-The plans are ambitious, but they are still plans. On says its development will be athlete-led, with elite players testing and improving products. Reuters reports that the first boots are planned for 2027. Until they exist, claims that they will be lighter or more precise than other boots are promotion, not proof, so it is fair to wait and see.
+The plans are ambitious, but they are still plans. On says its development will be athlete-led, with elite players testing and improving products. Reuters reports that the first boots are planned for 2027. Until they exist, claims that they will be lighter or more precise than other boots are promotion, not proof. Wearing a brand is not the same as a product being tested and proven, so it is fair to wait and see.
 
 For a teenager, the most interesting part is the choice itself. A famous team gives you experience, stability and people who already know what works. A new project offers less certainty, but your ideas might matter more. Imagine choosing a partner for a school project. Would you pick the most experienced person, the most enthusiastic one, or the one who really listens?
 
 === Advanced ===
 
 title: Why Mbappé Chose a New Sportswear Partner
-summary: A footballer's switch from Nike to a Swiss newcomer is not a transfer. It is a bet on a different kind of career, and it raises a question many of us face.
+summary: In September 2026, Kylian Mbappé left Nike for the Swiss company On. It is a sponsorship deal, not a transfer, and On's first football boots are planned for 2027.
 
-When a footballer changes teams, everyone notices. When one changes boots, fewer people do, yet that kind of move can say just as much about how athletes think about their careers. On 18 September 2026, the Swiss company On announced its entry into football with Kylian Mbappé as a global ambassador, ending something that had lasted for roughly twenty years.
+Kylian Mbappé has a new sportswear partner, and some of what it promises has not been made yet. On 18 September 2026, the Swiss company On announced him as a global ambassador, ending his long association with Nike. This was a sponsorship deal, not a move to a new football club. The agreement also gave him a role in developing products that had yet to reach the pitch.
 
-Reuters reported that Mbappé's relationship with Nike began in 2006, when he was nine. It is important to be precise about what changed. This is a sponsorship agreement, not a transfer: he has not joined a new club. He has changed the company that makes and promotes his equipment, and according to On he will also work directly with its product teams on developing and testing future footwear and clothing.
+Reuters reported that Mbappé's relationship with Nike began in 2006, when he was nine. He has not joined a new club. He has changed the company that makes and promotes his equipment, and according to On he will also work directly with its product teams on developing and testing future footwear and clothing.
 
 The most interesting detail is what has not been said. On said the agreement includes cash and equity, but no amount was disclosed. Equity, in general, means owning a small share of a company, so an owner benefits if the company grows. That would make this more than a fee for appearing in advertisements, because the athlete has a stake in whether the project succeeds. How large that stake is remains unknown.
 

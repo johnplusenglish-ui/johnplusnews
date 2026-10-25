@@ -39,11 +39,11 @@ Pew Research Center surveyed more than 5,000 US adults in June 2025 and publishe
 
 The distinction makes sense. AI can process large quantities of text and identify patterns, but it does not have human experience or direct knowledge of someone's circumstances. It may also provide inaccurate information in an extremely confident tone. An answer that sounds compassionate is not necessarily reliable.
 
-Nevertheless, ruling out AI altogether would mean losing some genuinely useful support. Someone facing a difficult career decision could ask a chatbot to point out considerations they had overlooked. A patient could use it to understand medical terminology before speaking to a doctor. In both cases, the tool can improve preparation without replacing professional judgement. AI can also sound confident while missing important details. If you ask it about a complicated relationship, it only knows the version of events you have chosen to type.
+Nevertheless, ruling out AI altogether would mean losing some genuinely useful support. Someone facing a difficult career decision could ask a chatbot to point out considerations they had overlooked. A patient could use it to understand medical terminology before speaking to a doctor. In both cases, the tool can improve preparation without replacing professional judgement. If you ask it about a complicated relationship, it only knows the version of events you have chosen to type.
 
 There are questions about privacy as well. Sharing intimate relationship problems, financial details or health information with a digital service may expose sensitive material. Users should understand how their data may be handled before treating a chatbot like a confidential adviser.
 
-One way to reduce the risks is to improve the questions we ask. A person considering a move abroad could request a checklist of financial, legal and practical issues rather than asking a chatbot to decide whether they should leave. Someone facing a complicated medical appointment could ask for an explanation of unfamiliar terms and then confirm it with their clinician.
+One way to reduce the risks is to improve the questions we ask. A person considering a move abroad could request a checklist of costs and practical issues rather than asking a chatbot to decide whether they should leave. Someone facing a complicated medical appointment could ask for an explanation of unfamiliar terms and then confirm it with their clinician.
 
 These uses treat AI as a tool for preparing decisions, not as a substitute for the people responsible for them. Users should also check official sources, question unsupported claims and avoid handing over unnecessary personal information. A fluent answer can hide important gaps: the chatbot may not know local regulations, family circumstances or recent changes. The ability to challenge its output is therefore part of using it intelligently.
 
@@ -52,7 +52,7 @@ The central issue is not whether AI is intelligent enough to have an opinion. It
 === Advanced ===
 
 title: The Chatbot Sounds Sure. Should You Trust It?
-summary: Pew found that roughly two-thirds of its 5,023 respondents would keep AI out of judgements about love. The harder question is not what the technology can analyse, but where responsibility quietly changes hands.
+summary: A chatbot sets out your options in seconds, neatly and confidently. In a June 2025 Pew survey of 5,023 US adults, roughly two-thirds said AI should have no role in judging whether two people could fall in love.
 
 An AI chatbot can seem like an ideal adviser when a decision feels difficult: it replies instantly, organises your options and never seems impatient. The help may be useful, but a confident answer can still miss important details. Its neat presentation should not settle the decision for you.
 
@@ -62,13 +62,13 @@ Practical value and decision-making authority should be separated. AI might help
 
 The technology can be inaccurate, may lack crucial context and sometimes presents uncertainty poorly. An additional concern is privacy: people may disclose information to a chatbot that they would hesitate to share with almost anybody else. The convenience of an apparently attentive conversational partner can obscure how the service handles sensitive data.
 
-There is a counterargument. Human advisers can be biased, impatient, expensive or unavailable. For those who cannot easily fall back on professional expertise, a digital tool that helps them explore possibilities may be valuable. The solution is therefore unlikely to lie in ruling out AI assistance altogether. A sensible approach is to let AI broaden the questions we ask, while retaining responsibility for the decision itself and involving qualified people where the consequences are serious.
+There is a counterargument. Human advisers can be biased, impatient, expensive or unavailable. For those who cannot easily fall back on professional expertise, a digital tool that helps them explore possibilities may be valuable. The solution is therefore unlikely to lie in ruling out AI assistance altogether. AI can help someone find questions they had missed. The answers still need checking, and serious decisions may need help from someone qualified to advise.
 
 Effective use of AI depends partly on the distinction between generating options and selecting among them. A chatbot might identify practical considerations for a career change, explain legal terminology or help a patient prepare questions for a consultation. These tasks can improve the quality of subsequent decisions without requiring the system to make them.
 
 The greater danger arises when its polished presentation glosses over missing context, uncertain evidence or errors in factual assumptions. People may mistake a coherent argument for one grounded in their specific circumstances. A robust approach therefore combines independent verification, appropriate expert advice and careful handling of private information. It also requires resisting the temptation to regard apparent empathy as evidence that the system understands personal consequences in the way a human adviser might.
 
-What matters is maintaining a distinction between support and delegation. A useful system should make its limitations visible, encourage verification and strengthen the user's judgement. The more consequential the decision, the greater the need for reliable evidence, relevant professionals and personal responsibility. Outsourcing thinking is convenient; outsourcing accountability is considerably more dangerous.
+What matters is maintaining a distinction between support and delegation. A useful system should make its limitations visible and encourage verification. Before a serious decision, a person could ask a chatbot for a checklist of questions, then take that list to someone qualified to answer them.
 
 === Core before you read ===
 

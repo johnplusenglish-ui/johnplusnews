@@ -17,7 +17,7 @@ image-credit-label: AI-generated image
 title: Students Build a Model Satellite in a Can
 summary: In the CanSat project, students build a model satellite the size of a drinks can. It doesn't go into space, but it has a real job.
 
-Hold a drinks can in your hand. Now imagine that this can is a satellite. It is small, light and a little silly. But in the European Space Agency's CanSat project, a satellite the size and shape of a can is a real school challenge.
+Hold a drinks can in your hand. Now imagine that this can is a model satellite. It is small, light and a little silly. But in the European Space Agency's CanSat project, a model satellite the size and shape of a can is a real school challenge.
 
 A CanSat is a model of a real satellite, built to match the size and shape of a soft drink can. It doesn't go into orbit. Students design it, build it, test it and launch it, and ESA helps to coordinate the project. Teams have three to six students aged 14 to 19, and a teacher or mentor guides them.
 
@@ -38,7 +38,7 @@ summary: Teams of students aged 14 to 19 build a model satellite the size of a d
 
 Take a soft drink can and imagine that it has to do the work of a satellite. It sounds like a joke until you read how seriously the European Space Agency (ESA) treats it. In the CanSat project, a can-sized satellite is the whole challenge.
 
-A CanSat is a simulation of a real satellite, built to match the size and shape of a soft drink can. It doesn't go into orbit. Instead, students design, build, test and launch it as an interdisciplinary school project, meaning that it uses several subjects at once, and ESA coordinates the programme. Teams of three to six students aged 14 to 19 work with a teacher or mentor.
+A CanSat is a simulation of a real satellite, built to match the size and shape of a soft drink can. It doesn't go into orbit. Instead, students design, build, test and launch it as a school project that brings several subjects together, and ESA coordinates the programme. Teams of three to six students aged 14 to 19 work with a teacher or mentor.
 
 The rules are simple. Every CanSat has to measure temperature and pressure. On top of that, each team chooses and completes a second mission of its own. The ESA article gives no examples, so the choice stays open: a team can decide what question is worth answering. The can is launched to about one kilometre up, or it can be deployed from a drone, a platform or a balloon.
 
@@ -53,11 +53,11 @@ So if your team could add one measurement, what would you choose, and which job 
 === Advanced ===
 
 title: One Can, One Mission, a Team Full of Ideas
-summary: ESA's CanSat project gives teams a can, a compulsory measurement and a free choice. The interesting part is not the can but what a team decides to ask.
+summary: In ESA's CanSat project, teams build a model satellite the size of a drinks can. Each must measure temperature and pressure, then choose a second job of its own.
 
 The constraint is almost comically small: a satellite that has to fit inside a soft drink can. Constraints like this are useful in engineering because they force choices. You can't carry everything, so you have to decide what matters.
 
-That is the idea behind the CanSat project run by the European Space Agency (ESA). A CanSat is a simulation of a real satellite, built to match the size and shape of a soft drink can, and it doesn't go into orbit. Students design, build, test and launch it as an interdisciplinary school project, working in teams of three to six aged 14 to 19 with a teacher or mentor.
+That is the idea behind the CanSat project run by the European Space Agency (ESA). A CanSat is a simulation of a real satellite, built to match the size and shape of a soft drink can, and it doesn't go into orbit. Students design, build, test and launch it as a school project that brings several subjects together, working in teams of three to six aged 14 to 19 with a teacher or mentor.
 
 Every CanSat has a compulsory mission: it must measure temperature and pressure. Each team then selects and completes a secondary mission of its own, and ESA's article gives no examples, which leaves the real decision to the students. Deployment is modest by space standards. The can is launched to about one kilometre or released from a drone, a platform or a balloon.
 
@@ -69,7 +69,7 @@ The team size matters too. Three to six students is small enough for everyone to
 
 A feasibility study also changes what success means when something goes wrong. If a first test fails, a team that only wanted to win has little to say. A team that was asking a question can ask which measurement failed, what the design didn't allow for, and what it would change. That is much closer to how real projects work.
 
-Keep the limits in mind. The article is ESA's own report of a past event, so it presents the programme positively, and it isn't an invitation to join or evidence about every country's schools. A CanSat is a simulation, not an orbiting satellite. So on paper, which extra measurement would you add, and what would you want to find out if the first test failed?
+A CanSat simulates parts of a satellite mission; it does not go into orbit. The small space forces a real engineering choice: what is worth fitting inside? So on paper, which extra measurement would you add, and what would you want to find out if the first test failed?
 
 === Core before you read ===
 

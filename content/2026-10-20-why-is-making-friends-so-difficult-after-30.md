@@ -37,7 +37,7 @@ The problem can become especially noticeable after 30, when careers, children, r
 
 The World Health Organization's 2025 report on social connection estimated that one in six people worldwide experienced loneliness. Its figures suggested that loneliness was particularly common among adolescents and younger adults, challenging the stereotype that loneliness mainly affects older people. Those global estimates cannot explain every individual's friendships, but they show the scale of the issue.
 
-Loneliness and social isolation are different. Somebody might have only a few social contacts and feel perfectly content, while another person could be surrounded by colleagues and still miss close emotional relationships. Quality matters as well as quantity. In adult life, that regular contact has to be arranged. A friendly conversation at work is not always enough; someone usually has to take the next step and suggest meeting again.
+Loneliness and social isolation are different. Somebody might have only a few social contacts and feel perfectly content, while another person could be surrounded by colleagues and still miss close emotional relationships. Quality matters as well as quantity. In adult life, regular contact has to be arranged. A friendly conversation at work is not always enough; someone usually has to take the next step and suggest meeting again.
 
 Friendships tend to develop through repeated contact, shared interests and trust. Adult routines often provide fewer natural opportunities for those ingredients. Community groups, classes and volunteering can help, although joining an activity does not guarantee a close friendship. People also need time, accessible spaces and the confidence to suggest meeting again.
 
@@ -52,7 +52,7 @@ Perhaps we should stop treating adult friendship as an optional extra. Relations
 title: When Did Seeing a Friend Need So Much Planning?
 summary: School supplied repeated contact for free, while adulthood requires you to schedule it. WHO figures put loneliness highest among adolescents and young adults, which undercuts the story that the trouble begins at 30.
 
-Adult friendship has a logistical problem. Two people can care deeply about each other and still struggle to find an evening when neither is working, caring for relatives or travelling across a city. The difficulty is often described as a personal failure, yet the routines of modern life make sustained connection remarkably demanding.
+Adult friendship has a logistical problem. Two people can care deeply about each other and still struggle to find an evening when neither is working, caring for relatives or travelling across a city. The difficulty is often described as a personal failure, yet work, travel and caring for other people can make meeting regularly difficult.
 
 Friendship rarely appears out of nowhere. In education, repeated contact, shared experiences and available time quietly do much of the work that adults later have to arrange deliberately. The challenge may become visible in one's thirties, when professional commitments, parenting and geographical mobility reshape social networks. Unlike school or university, adult life rarely guarantees repeated contact with potential friends in relaxed circumstances. Relationships must be maintained deliberately, and every cancelled plan can make the next invitation feel slightly more awkward.
 

@@ -13,7 +13,7 @@ summary: Driving south to shop or spending the winter in a warmer place used to 
 
 For many Canadians, taking a holiday in the United States has always been simple. They can drive across the border to shop, visit friends or spend a few days in another city. Some older Canadians also travel south in winter to escape the cold. For years, nobody thought twice about it.
 
-But during 2025 and 2026, fewer Canadians made these journeys. Relations between the two countries became more difficult because of political arguments and trade disputes. Some travellers said they no longer felt welcome, and a few felt nervous about crossing the border at all. Others did not want to spend their money in the United States while the arguments continued, so they cut back on trips south.
+But during 2025 and 2026, fewer Canadians made these journeys. The reasons varied. Relations between the two countries had become more difficult because of political arguments and trade disputes, and some travellers said they no longer felt welcome. Others did not want to spend their money in the United States while the arguments continued, so they cut back on trips south.
 
 This created problems for American businesses. Hotels, restaurants and shops in areas that usually rely on Canadian visitors began to feel the effects. In September 2026, reports described tourist organisations offering discounts and special deals to bring Canadian customers back. A quiet season is a serious worry for a small business that depends on a few busy months.
 
@@ -42,16 +42,16 @@ There are competing ways of interpreting this behaviour. Avoiding a destination 
 
 The situation is especially complicated along a border where personal and economic connections have built up over generations. Families, workers and businesses on both sides depend on regular travel, and some communities are used to welcoming the same visitors year after year. A disagreement between governments can therefore spill over into relationships that have very little to do with national politics.
 
-It is also worth asking how long the effect will last. Travel habits are not easily broken, and a traveller who has discovered a new destination may be in no hurry to go back to the old one. A family that spends a winter in Mexico, or finally takes the trip across Canada it had been putting off, is not guaranteed to return to its old routine once the arguments die down. Tourism organisations are likely to find that winning customers back takes considerably longer than losing them did.
+It is also worth asking how long the effect will last. Travel habits are not easily broken, and a traveller who has discovered a new destination may be in no hurry to go back. That is only an interpretation, and nobody can yet say whether habits have changed for good. Tourism organisations may find that winning customers back takes longer than losing them did.
 
 The industry often promises an escape from everyday problems, but holidays never take place in a political vacuum. Canada's changing travel patterns show how quickly ideas about hospitality, national identity and trust can affect a commercial relationship that previously looked secure.
 
 === Advanced ===
 
 title: Why Some Canadians Are Choosing a Different Holiday
-summary: Canadians can register their disapproval simply by staying at home, and such a protest costs them nothing. The bill arrives at hotel reception desks and half-empty restaurants with no influence over national policy.
+summary: Some Canadians have changed their travel plans, and US tourism organisations are offering deals to win them back. The effects fall on ordinary businesses on both sides of the border.
 
-Cross-border tourism between Canada and the United States has historically rested on more than attractive destinations. Geographic proximity, family connections and a deep sense of familiarity made an American holiday the default choice for millions of Canadians. Political friction has unsettled that relationship, demonstrating how fragile consumer confidence becomes once travellers begin to wonder whether they are genuinely welcome.
+Political friction has changed some Canadians' travel plans. A familiar destination can feel different once a visitor begins to wonder whether they are welcome. Cross-border tourism between Canada and the United States has historically rested on more than attractive destinations: geographic proximity, family connections and a deep sense of familiarity made an American holiday the default choice for millions of Canadians.
 
 In September 2026, reporting described US tourism organisations launching promotions aimed at coaxing Canadian visitors back after a substantial decline in travel. Destinations long accustomed to Canadian spending found hotels, restaurants and retailers under pressure. The impact was most conspicuous in businesses for which a large northern customer base had been taken for granted rather than actively courted.
 

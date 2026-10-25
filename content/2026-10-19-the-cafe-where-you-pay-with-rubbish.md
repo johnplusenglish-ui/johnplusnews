@@ -31,7 +31,7 @@ Most cafés expect their customers to pay by cash or card. In Ambikapur, a city 
 
 The Garbage Café was set up in 2019 with the involvement of local authorities. Its most memorable offer is a full meal in exchange for a kilogram of plastic. The food provides immediate value to people who collect recyclable material, while the plastic enters an organised waste-management system rather than ending up in streets or waterways.
 
-The arrangement is particularly meaningful for informal waste collectors. They may earn very little from selling material to dealers, even after spending hours sorting through rubbish in difficult conditions. Being able to exchange what they gather for something as essential as lunch changes the practical value of their work, and it does so on the same day rather than at the end of a long month.
+The arrangement is particularly meaningful for informal waste collectors. They may earn very little from selling material to dealers, even after spending hours sorting through rubbish in difficult conditions. Being able to exchange what they gather for something as essential as lunch changes the practical value of their work. The exchange happens on the same day rather than at the end of a long month.
 
 Ambikapur has also developed broader waste-sorting and recycling initiatives, so the café was never intended to be the city's entire environmental strategy. It is a visible way of involving the public and encouraging people to see plastic as material that has to be collected and managed, rather than simply thrown away and forgotten. A scheme that people can see working on their own high street is also far easier to talk about than a recycling target.
 
@@ -39,14 +39,14 @@ Single-use plastic is cheap and convenient, which is precisely why it turns up e
 
 There are limits. A café cannot process all the plastic produced by a city, and collecting more waste is not the same as cutting down on waste in the first place. Critics could also question whether handing out meals in return for rubbish addresses the deeper causes of poverty, or merely makes them slightly easier to live with.
 
-Nevertheless, the concept works because it is easy to understand. Instead of asking people to worry about a distant environmental crisis, it offers a direct exchange with an immediate benefit. A kilogram of plastic becomes a plate of food, and an abstract argument about waste turns into a practical question about what a community actually values.
+Nevertheless, the concept works because it is easy to understand. Instead of asking people to worry about a distant environmental crisis, it offers a direct exchange with an immediate benefit. A kilogram of plastic becomes a plate of food. An abstract argument about waste turns into a practical question about what a community actually values.
 
 === Advanced ===
 
 title: A Café Where Plastic Pays for a Meal
-summary: Measured by tonnage, the scheme collects a drop in the ocean. Its real achievement lies in the relationships it exposes between waste, work and basic needs, and in the insecurity it leaves untouched.
+summary: A kilogram of plastic waste buys a hot meal at the Garbage Café in Ambikapur. It collects little by tonnage, but it shows the link between waste, work and basic needs.
 
-Environmental campaigns often struggle to make abstract problems feel immediate. The Garbage Café in Ambikapur, central India, relies instead on a strikingly tangible incentive: bring in discarded plastic and receive a hot meal. It is an arrangement that links urban waste management to food insecurity, two problems that would otherwise appear to have very little to do with one another.
+At the Garbage Café in Ambikapur, India, a bag of discarded plastic can pay for a hot meal. The exchange gives waste an immediate value to the person who collects it. It also connects two everyday problems a city might otherwise handle separately: rubbish on the streets and people needing food.
 
 Established in 2019 with municipal involvement, the café offers a meal in exchange for approximately one kilogram of plastic waste, and the collected material is then fed into the city's waste-management network. For informal collectors, who may receive very little money for the plastic they recover, this exchange can turn hours of unpleasant and physically demanding work into a more dependable form of immediate support. A meal, unlike a fluctuating scrap price, is a known quantity.
 

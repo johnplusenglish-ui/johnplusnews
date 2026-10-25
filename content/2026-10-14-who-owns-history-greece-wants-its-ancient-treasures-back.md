@@ -12,7 +12,7 @@ summary: Greece wants the Parthenon sculptures in the British Museum to come hom
 
 Inside the British Museum in London, visitors can see ancient marble sculptures that once decorated the Parthenon, a famous temple in Athens. The sculptures are more than 2,000 years old. They are often called the Elgin Marbles, after the British diplomat who took them to Britain in the early 1800s. For many years, Greece has asked for them to be returned.
 
-When the sculptures were removed, Greece was controlled by the Ottoman Empire. Lord Elgin received permission from Ottoman officials to carry out work at the ancient site, but people still disagree about what he was allowed to take. Several large pieces were moved to Britain, and the British government later bought the collection. The sculptures have been in the British Museum for more than 200 years.
+When the sculptures were removed, Greece was controlled by the Ottoman Empire. Lord Elgin said he had permission from Ottoman officials to carry out work at the ancient site, but people still disagree about what he was allowed to take. Several large pieces were moved to Britain, and the British government later bought the collection. The sculptures have been in the British Museum for more than 200 years.
 
 The Greek government believes the pieces belong together with other Parthenon sculptures in Athens. It says they are part of an important ancient building and of Greek cultural history. The Acropolis Museum, near the Parthenon, has space to display them. Greece wants visitors to understand how the surviving pieces originally fitted together.
 
@@ -35,14 +35,14 @@ The British Museum argues that displaying objects from different civilisations s
 
 Discussions have dragged on for years and have included proposals for a partnership involving loans or the temporary movement of objects between London and Athens. In October 2026, British Museum chairman George Osborne expressed hope that an arrangement could still be reached, suggesting that the sculptures might spend periods in both countries. Such a plan could bring the pieces to Athens, but Greece has resisted any deal that appears to require it to recognise British ownership.
 
-The dispute reflects a much wider question facing major museums. Many collections include objects acquired during wars, colonial rule or periods when local people had little political power. Returning them may help put right historic injustices, while international museums argue that their collections have educational value. There is no solution that satisfies everyone. But the Parthenon debate has made one thing clear: the stories museums tell are shaped not only by what they display but also by who gets to decide where those objects belong.
+The dispute reflects a much wider question facing major museums. Many collections include objects acquired during wars, colonial rule or periods when local people had little political power. Returning them may help put right historic injustices, while international museums argue that their collections have educational value. There is no solution that satisfies everyone. At the heart of the Parthenon debate is a question about who tells the story of an object.
 
 === Advanced ===
 
 title: Where Should the Parthenon Marbles Be Displayed?
-summary: Two centuries after ancient Greek sculptures were removed from Athens and taken to Britain, the dispute over their ownership remains unresolved. Now, Greece's prime minister has promised to intensify his campaign for their return, raising fundamental questions about cultural heritage, historical justice and the responsibilities of museums.
+summary: Greece wants the Parthenon sculptures back in Athens. The British Museum says it holds them legally and that showing them in London has value of its own.
 
-The Parthenon Marbles are among the British Museum's most celebrated objects, yet their continued presence in London is inseparable from one of the institution's most persistent controversies. Carved for the fifth-century BC temple on the Acropolis, the surviving sculptures are now divided principally between Britain and Greece. For Athens, their reunification is a matter of cultural integrity. For the museum's trustees, the question involves legal ownership, public access and the future of encyclopaedic collections.
+The Parthenon Marbles are among the British Museum's most celebrated objects, yet their continued presence in London is inseparable from one of the institution's most persistent controversies. Carved for the fifth-century BC temple on the Acropolis, the surviving sculptures are now divided principally between Britain and Greece. Greece wants the surviving pieces reunited in Athens. The museum's trustees point to ownership law and the value of showing objects from different cultures together. Those arguments lead to a simple question with no easy agreement: where do the sculptures belong?
 
 The dispute traces back to the early nineteenth century, when Lord Elgin arranged for sculptures to be removed from the Acropolis under Ottoman rule. He asserted that he had obtained the necessary permission, but historians and campaigners continue to dispute the scope and legitimacy of that authorisation.
 

@@ -1,6 +1,6 @@
 title: The Teen Who Turned Paper Folding into Research
 date: 2026-10-25
-summary: A 17-year-old from Japan won a top science prize for studying how folded shapes move. His project shows how a hobby can turn into a serious question.
+summary: A 17-year-old from Japan won a top science prize for studying how folded shapes move, starting from a ladybird's wing.
 tags: Science, Young people
 audience: teens
 category: Science & making
@@ -19,9 +19,9 @@ summary: A student in Japan turned a question about folded shapes into a science
 
 Have you ever folded paper into a bird or a boat? You fold it, and then you open it again. It seems like a simple game. But for one student, it became a science question.
 
-Hikaru Kuribayashi is 17 and lives in Japan. He goes to Sapporo Kaisei Secondary School. In May 2026, he took part in a big science fair in Phoenix, in the United States, called Regeneron ISEF. He won a prize of $100,000.
+Hikaru Kuribayashi is 17 and lives in Japan. He asked: how do folded things move? Many things in nature are folded, like the wing of a ladybird. The wing opens and closes, and it is full of creases. Hikaru says that this is a kind of origami made by nature.
 
-Hikaru did not win for making paper animals. He won for research and computer work. He asked: how do folded things move? Many things in nature are folded, like the wing of a ladybird. The wing of a ladybird opens and closes, and it is full of creases. Hikaru says that this is a kind of origami made by nature.
+He did not win for making paper animals. Folding paper alone is not science. He turned his question into research and computer work. In May 2026, he took part in a big science fair in Phoenix, in the United States, called Regeneron ISEF, and won a prize of $100,000. He goes to Sapporo Kaisei Secondary School.
 
 Hikaru built a computer model of a ladybird wing. In his model, the wing opens and closes like a real wing. He used only the folds and small dents to work out how a shape can move. He also made a physical model to show the movement.
 
@@ -32,7 +32,7 @@ The story shows something simple. A hobby can hide a question. Which of your hob
 === Intermediate ===
 
 title: The Teen Who Turned Paper Folding into Research
-summary: A 17-year-old from Japan won a top science prize for studying how folded shapes move. His project shows how a hobby can turn into a serious question.
+summary: A 17-year-old from Japan won a top science prize for studying how folded shapes move, starting from a ladybird's wing.
 
 Think of something you do for fun, like folding paper or building with blocks. Could it hide a serious question? For one student in Japan, it did.
 
@@ -42,7 +42,7 @@ His project was about folding, but not about making paper animals. Its title was
 
 Folding is useful whenever something must be small when it is stored and larger when it is used. A wing is one example. That is why designers are interested in how folded structures open and close, and why Hikaru's question is not as strange as it first sounds.
 
-Engineers who study folding structures often map every shape a structure could take and then calculate the paths between them. Hikaru says that this follows one motion at a time. His probability-based method uses only the creases and the dotted indentations on a folded shape to model every possible motion, including the temporary bending of flexible materials. He built a computer model of the ladybird wing and showed its movement with a physical model.
+Hikaru's software helps work out how a folded shape can move. Engineers who study folding structures often map every shape a structure could take and then calculate the paths between them, which Hikaru says follows one motion at a time. His method uses probability, and it uses only the creases and the dotted indentations on a folded shape to model possible motions, including the temporary bending of flexible materials. He built a computer model of the ladybird wing and showed its movement with a physical model.
 
 The article suggests some possible uses: designing technology inspired by nature, analysing the way birds move, and modelling any mechanism that can be reduced to dots and lines. It is important to read these as possibilities. The article does not describe a finished product, and it does not independently check Hikaru's claims that his method can model every motion or that older methods cannot.
 
@@ -51,23 +51,19 @@ The story is not really about winning money. It is about a question hidden insid
 === Advanced ===
 
 title: The Folded Wing That Gave Hikaru a Question to Solve
-summary: A 17-year-old turned a hobby, paper folding, into research on how structures move. His story is useful for what it claims, and for what it carefully does not.
+summary: A Japanese teenager used a familiar idea from paper folding to investigate how structures move. The result was software, a model wing and a major science prize.
 
-Folding paper is an old art, and it hides real questions. How can a flat sheet become a three-dimensional shape? And how can that shape open again without tearing? In May 2026, a 17-year-old in Japan was rewarded for a new way of studying that second question.
+A folded sheet of paper can become a shape far larger than it looks when packed away. A ladybird's wing does something more useful: it folds up, then opens for flight. For Hikaru Kuribayashi, that movement offered a question to investigate. How could a computer work out the ways a folded structure might move?
 
-Hikaru Kuribayashi, from Sapporo Kaisei Secondary School, won the $100,000 George D. Yancopoulos Innovator Award at the 2026 Regeneron International Science and Engineering Fair in Phoenix, Arizona. He also won first place in the physics category, worth $6,000. The report on which this lesson is based was published by Science News Explores on 18 May 2026. It comes from the organisation that runs the fair, so it is a friendly account, not an independent check.
+In May 2026, the 17-year-old student from Sapporo Kaisei Secondary School in Japan won a major award for his research. He received the $100,000 George D. Yancopoulos Innovator Award at Regeneron ISEF, an international science and engineering fair in Phoenix, Arizona. He also won first place in the physics category. The work behind the prizes involved software as well as folds.
 
-His starting point was a ladybird's wing, which opens and closes and is full of creases. Hikaru calls the folded structures in nature a form of origami, which is a helpful way to see them: they can only move in the ways their creases allow. The title of his project, "MCMC Sampling of Origami and Linkages", belongs to physics, and the work was research and software, not a craft project.
+The difficulty is that a flexible structure can change in several ways at once. A crease influences where it bends, but the material can also warp as it moves. According to Hikaru, that makes some existing ways of calculating motion too limited. His approach uses probability to explore movement from information about the structure's creases and other key points.
 
-The difficulty is that a folded structure can move in many ways at once. According to Hikaru, engineers commonly map every shape a structure could take and then calculate the paths between them, which follows one motion at a time. His probability-based approach uses only the creases and dotted indentations on a folded shape to model every possible motion, including the temporary warping of flexible materials. He built a computer model of a ladybird wing that opens and closes like the real one, and demonstrated it with a physical model.
+To show the idea, he built a computer model of a ladybird's wing opening and closing. He also demonstrated it with a physical model. That made an unfamiliar piece of research easier to picture: the question was not just what shape something could become, but how it could get from one shape to another.
 
-The article suggests some possible applications: designing technology inspired by nature, analysing the way birds move, and modelling any mechanism that can be reduced to dots and lines. These are possibilities, not products. Nothing in the article says that anyone has built, tested or sold a device based on his method.
+The account comes from Science News Explores, which is published by the organisation behind the fair. Its explanation draws on Hikaru's description of his work. Broad claims about everything the method can do should therefore stay attributed to him. The report describes research, not a finished product that has been tested and put on sale.
 
-It is worth noticing what is not claimed. The prize recognised research and software, not a finished invention. And the statements that his method can model every possible motion, and that current approaches cannot account for all the warping of flexible materials, are Hikaru's own. The article does not test them independently.
-
-What makes the story useful to a reader of any age is its shape. It begins with something ordinary, folding, and ends with a precise question about how structures move. The hobby did not become a career overnight. It became a way of noticing.
-
-Which ordinary activity of yours might hide a question worth investigating, and how would you start to compare two versions of it?
+Possible uses include helping designers understand mechanisms inspired by nature. Those possibilities still need investigating. The immediate achievement is more specific: Hikaru took a movement he could observe and developed a way to study it. Paper folding and a beetle's wing were starting points for the same problem. Looking closely turned a familiar action into something worth working out.
 
 === Core before you read ===
 

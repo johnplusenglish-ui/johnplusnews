@@ -10,7 +10,7 @@ image: images/would-you-work-four-days-a-week-for-the-same-salary-384fa8.jpg
 title: A Shorter Working Week with the Same Pay
 summary: Nearly 3,000 workers in six countries tried a shorter week. They reported better health, but hospitals, shops and public transport still need staff every day.
 
-Imagine your boss saying, 'From next month, you can have Fridays off and take home the same pay.' It sounds wonderful. But what would happen to the work that normally gets done on Friday? In 2025, researchers published the results of a large international four-day week trial. It involved 2,896 employees at 141 organisations in six countries, including Ireland and the UK. The participating workplaces tried shorter working weeks without reducing employees' pay.
+Imagine your boss saying, 'From next month, you can have Fridays off and take home the same pay.' It sounds wonderful. But what would happen to the work that normally gets done on Friday? In 2025, researchers published the results of a large international four-day week trial. It involved 2,896 employees at 141 organisations in six countries, including Ireland and the UK. The participating workplaces tried shorter working weeks without reducing employees' pay. This meant fewer working hours, not the same hours squeezed into four days.
 
 Before the trial, companies looked for ways to work more efficiently. They cut down on unnecessary meetings and changed how tasks were organised. After six months, employees reported improvements in job satisfaction, mental health and physical health. The researchers also found less burnout compared with a group of workplaces that did not introduce the same change.
 
@@ -33,11 +33,11 @@ What would you do with an extra day off every week? Learn a language, see friend
 
 Imagine finishing on Thursday with a whole extra weekday ahead of you. You might finally sort out appointments, spend time with family or simply wake up without an alarm.
 
-Research published in Nature Human Behaviour in July 2025 examined 2,896 employees across 141 organisations in Australia, Canada, Ireland, New Zealand, the UK and the United States. Companies introduced shorter working weeks without cutting pay, following a period in which they tried to improve efficiency and cooperation.
+Research published in Nature Human Behaviour in July 2025 followed 2,896 employees. They worked at 141 organisations in Australia, Canada, Ireland, New Zealand, the UK and the United States. Companies introduced shorter working weeks without cutting pay, following a period in which they tried to improve efficiency and cooperation.
 
-Over six months, participants reported improvements in job satisfaction, burnout, mental health and physical health. These changes were not seen in the same way at twelve comparison organisations that maintained their usual schedules. The results suggest that reducing working time can support wellbeing, rather than merely shifting the same problems into a different timetable.
+Over six months, participants reported improvements in job satisfaction, burnout, mental health and physical health. These changes were not seen in the same way at twelve comparison organisations that maintained their usual schedules. The results suggest that reducing working time can support wellbeing, rather than merely shifting the same problems into a different timetable. The organisations had chosen to take part, so the results may not apply to every workplace.
 
-However, the changes required planning. Businesses had to reconsider meetings, communication and responsibilities. There is also an important difference between genuinely reducing weekly hours and squeezing forty hours into four exhausting ten-hour days. However, a shorter week can fail if five days of meetings are squeezed into four. Employees need a realistic workload, not just a new timetable and an expectation to catch up at night.
+However, the changes required planning. Businesses had to reconsider meetings, communication and responsibilities. There is also an important difference between genuinely reducing weekly hours and squeezing forty hours into four exhausting ten-hour days. Employees need a realistic workload, not just a new timetable and an expectation to catch up at night.
 
 Certain industries may face greater difficulties. Care workers, transport staff and retailers provide services across the week, and reducing hours could mean taking on additional employees. Small businesses may also struggle if customer demand and staffing costs remain unchanged.
 
@@ -50,9 +50,9 @@ The study does not prove that every employer can increase productivity while red
 === Advanced ===
 
 title: Who Really Gets to Enjoy a Four-Day Week?
-summary: The reported gains followed a deliberate reorganisation of tasks and meetings, not goodwill alone. Extend the model beyond willing employers and the questions become staffing costs, precarious contracts and who absorbs the unpaid care.
+summary: In a 2025 trial, 141 organisations reorganised meetings and tasks before cutting hours without cutting pay. Staff reported less burnout, but the participants were willing volunteers.
 
-The five-day working week is so firmly established that it can appear almost natural, rather than the product of historical negotiations about labour and leisure. Yet a growing body of evidence challenges the assumption that full-time work must occupy five days to remain economically useful. A free Friday sounds attractive, but the policy is more ambitious than offering a longer weekend.
+A free Friday sounds simple. Making it work is harder: meetings, shifts and customer needs still have to fit somewhere. Four-day-week trials ask whether teams can change how they work, rather than merely rush five days of tasks into four. The answer matters as much as the longer weekend.
 
 In July 2025, a study published in Nature Human Behaviour examined a six-month reduction in working hours across 141 organisations and 2,896 employees in six countries. Participants retained their pay while workplaces first reorganised tasks and collaboration. Compared with twelve control companies, the participating organisations reported improvements in burnout, job satisfaction and measures of mental and physical wellbeing.
 

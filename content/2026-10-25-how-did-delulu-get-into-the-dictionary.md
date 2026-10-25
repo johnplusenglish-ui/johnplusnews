@@ -19,7 +19,7 @@ summary: The Cambridge Dictionary added internet slang. How does a word get into
 
 Imagine a teacher says, "That is not a real word." But you and your friends use that word every day. Is the teacher right?
 
-In August 2025, the Cambridge Dictionary added some new words from the internet. Two of them are "delulu" and "skibidi". "Delulu" is short for "delusional". It is a playful, informal word. "Skibidi" is a slang word that can mean "cool" or "bad". It became popular because of a YouTube series called Skibidi Toilet.
+In August 2025, the Cambridge Dictionary added some new words from the internet. Two of them are "delulu" and "skibidi". "Delulu" is short for "delusional". It is a playful, informal word that describes someone who believes things that are not realistic, often because they want them to be true. "Skibidi" is a slang word that can mean "cool" or "bad". It became popular because of a YouTube series called Skibidi Toilet.
 
 How does a word get into a dictionary? The experts who write dictionaries are called lexicographers. They watch how words are used in books, in newspapers and online. They look for words that people keep using, not only for a week or a month. When they decide that a word has staying power, they can add it.
 
@@ -38,7 +38,7 @@ Imagine a teacher tells you, "That is not a real word." The problem is that you 
 
 In August 2025, the Cambridge Dictionary added a handful of internet slang words to its pages. Two of them were "delulu", short for "delusional", and "skibidi", a slangy way of saying "cool" or "bad" that became popular through the YouTube series Skibidi Toilet. Both words are informal, and they are mostly used for fun.
 
-A word does not get in just because it is trending. According to Karen Stollznow, who wrote about the additions for Cambridge University Press, the experts who compile dictionaries are called lexicographers, and they closely monitor how words are used in books, newspapers and online. In this case, they decided that the words showed staying power, which means that people were likely to keep using them.
+A word does not get in just because it is trending. Dictionary editors, called lexicographers, closely monitor how words are used in books, newspapers and online. According to a Cambridge University Press article by the linguist Karen Stollznow, they decided that these words showed staying power, which means that people were likely to keep using them.
 
 Slang makes that decision difficult, because it is often fleeting. Stollznow writes that slang frequently fails to survive the vetting process. The dictionary added more than 6,000 words in the previous twelve months, but many more candidates never made it in. Words can also be removed. An older example is "younker", a word that was once used for a young person, which was retired because it fell out of use.
 
@@ -63,7 +63,7 @@ The filter works in both directions. Words can also be removed when they fall ou
 
 Stollznow's most useful point is that a word's absence from a dictionary does not make it any less real. The reverse is also true: inclusion does not make a word correct everywhere, or good, or permanent. A dictionary describes; it does not give orders. Entries are reviewed over time, and labels such as informal can be added or changed, so the same word may be presented differently in the next edition.
 
-That leaves the question in the headline. One answer is yes: part of the pleasure of slang is that it signals membership of a group, and a reference book makes it available to everybody. Another answer is no: people who use a word for fun usually carry on, or drop it for other reasons, and a dictionary has little influence either way. The evidence does not settle it, so both arguments deserve a hearing.
+That leaves the question in the headline. Part of the pleasure of slang is that it signals membership of a group, and a dictionary entry makes a word easier for outsiders to understand. Some users may find that spoils the fun; others will carry on using it until another expression comes along. The entry records use rather than deciding who gets to say the word.
 
 Meanwhile, the practical lesson concerns audience. The same word can sound playful in a chat, strange in a presentation and risky in a job interview. Being skilled in a language means knowing which version suits which room. A dictionary entry tells you what a word means and, often, how informal it is. It cannot tell you who is listening.
 

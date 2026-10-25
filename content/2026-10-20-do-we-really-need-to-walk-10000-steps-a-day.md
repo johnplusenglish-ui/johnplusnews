@@ -42,7 +42,7 @@ However, the findings need careful interpretation. The studies largely observed 
 
 One positive message is that improvement matters. Somebody increasing their daily average from 2,000 to 4,000 steps may be making a meaningful change even if the famous target remains out of reach. A number that motivates one person can discourage another who struggles with mobility or a demanding schedule.
 
-Step counts also leave out important information about physical activity. Cycling, swimming and strength training can contribute to fitness without producing many recorded steps, while a slow stroll and a brisk walk may have different effects despite similar totals. For people with disabilities or reduced mobility, conventional targets may be inappropriate or impossible.
+Different kinds of movement do not produce comparable step totals, so step counts leave out important information about physical activity. Cycling, swimming and strength training can contribute to fitness without producing many recorded steps, while a slow stroll and a brisk walk may have different effects despite similar totals. For people with disabilities or reduced mobility, conventional targets may be inappropriate or impossible.
 
 The simplicity that makes a step counter attractive can therefore become misleading if the number is treated as a complete measure of health. Researchers also need to consider how accurately different devices record movement and whether participants' existing health influences how active they can be. A sensible recommendation takes account of those uncertainties and encourages movement in forms that people can sustain and enjoy.
 
@@ -53,7 +53,7 @@ Fitness tracking is most useful when it supports healthier habits without turnin
 title: Rethinking the 10,000-Step Rule
 summary: The Lancet Public Health review places the substantial gains at roughly 7,000 steps, with diminishing returns beyond that. The 47% figure is a relative comparison drawn from observation, not a personal guarantee.
 
-For millions of people, the fitness watch has transformed walking into a numerical challenge. A day ending at 9,800 steps can feel like a narrow failure, while reaching five figures earns digital congratulations. Yet the authority of the 10,000-step target has always exceeded the scientific basis for that exact number. The familiar figure was popularised through the marketing of a Japanese pedometer in the 1960s. It proved memorable and motivational, but it was not the result of a clinical calculation identifying a universal threshold for good health. Subsequent research has set out to determine how step counts relate to a variety of health outcomes.
+A day ending at 9,800 steps can feel like a near miss. The watch wanted five figures, although that exact target began as marketing for a Japanese pedometer in the 1960s. Later research has examined how steps relate to health. It offers a more useful picture than a single number everyone must reach.
 
 A systematic review published in The Lancet Public Health in July 2025 included 57 studies, with 31 contributing to specific meta-analyses. The authors found that approximately 7,000 steps per day were associated with substantial benefits compared with lower activity levels. Several relationships showed diminishing returns beyond roughly 5,000 to 7,000 steps, although the pattern varied by outcome. The meaning of a step count also changes with context. Seven thousand steps on a steep route may feel very different from the same number accumulated slowly around a shopping centre.
 

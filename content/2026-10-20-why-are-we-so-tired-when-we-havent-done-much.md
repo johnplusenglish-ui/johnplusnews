@@ -27,7 +27,7 @@ Short breaks, reasonable workloads and time away from demanding tasks may help s
 === Intermediate ===
 
 title: Why the Evening Decision Feels Harder Than the Day's Work
-summary: Cognitive fatigue is not a phone battery running flat. Twenty-eight people in a 2025 study became less willing to take on demanding tasks, even for greater rewards.
+summary: After a day of emails and small decisions, even choosing dinner feels hard. Twenty-eight people in a 2025 study became less willing to take on demanding tasks, even for greater rewards.
 
 At the end of a day filled with emails, meetings and small decisions, you may feel too exhausted to do anything enjoyable. Yet when somebody asks what you have been doing, it can seem difficult to explain. There was no heavy lifting or long journey, just hours of thinking. Why does mental work leave us feeling drained?
 
@@ -50,9 +50,9 @@ Still, the findings challenge the idea that only physical activity can justify f
 === Advanced ===
 
 title: The Work Nobody Sees Can Still Wear You Out
-summary: A 2025 imaging study of 28 participants suggests exertion changes how we price future effort, rather than draining a fixed supply of fuel. One small finding is not a diagnosis.
+summary: A 2025 imaging study of 28 participants found that after demanding tasks people were less willing to choose harder ones. One small study is not a diagnosis of persistent tiredness.
 
-Modern exhaustion is often difficult to account for in physical terms. A person may spend the day seated, moving little more than their fingers across a keyboard, and still find the smallest evening decision intolerably demanding. Such experiences challenge the assumption that fatigue is proportional to visible physical activity. Cognitive effort has no obvious physical scoreboard. A difficult meeting can leave somebody feeling flattened.
+You have been sitting for most of the day, yet choosing dinner feels like one decision too many. The work was not visible in tired legs or heavy lifting. It was in the calls, the concentration and the problems that kept arriving. A day can be demanding without involving much movement.
 
 A 2025 study in the Journal of Neuroscience explored how cognitive exertion shapes subsequent choices. Researchers used functional brain imaging while 28 participants completed demanding mental tasks and chose between options involving different levels of effort and reward. Following the fatiguing tasks, participants became less willing to pursue options requiring greater cognitive effort. The findings suggest that fatigue alters how future mental demands are evaluated.
 
@@ -66,7 +66,7 @@ There are implications beyond individual wellbeing. Employers and institutions f
 
 At the same time, fatigue should not be used as an all-purpose explanation for persistent symptoms. Its causes are diverse, and the existence of a plausible cognitive mechanism does not rule out illness, medication effects or sleep disorders. A nuanced understanding allows us to take mental demands seriously without converting a single laboratory finding into a universal diagnosis.
 
-The wider lesson concerns how we value effort. A day without visible physical achievements need not have been effortless. Better workloads, reasonable boundaries and genuine recovery may matter as much for people doing demanding mental work as they do for those performing physically strenuous jobs.
+The wider lesson concerns how we value effort. Better workloads, reasonable boundaries and genuine recovery may matter as much for people doing demanding mental work as they do for those performing physically strenuous jobs.
 
 === Core before you read ===
 

@@ -36,7 +36,7 @@ summary: At some screenings of A Minecraft Movie, the audience became part of th
 
 You have bought a ticket to a film, and you want to hear every word. The person two seats away wants to shout, laugh and join in. Who has the better claim to the evening?
 
-In April 2025, Australian cinemas reported something unusual during screenings of A Minecraft Movie. Many people in the audience knew a line from one scene, "chicken jockey", and when the scene arrived, they cheered and shouted it together. ABC News described screenings that ranged from delight to chaos.
+In April 2025, Australian cinemas reported something unusual during screenings of A Minecraft Movie. Many people in the audience knew a line from one scene, "chicken jockey". In the game, a chicken jockey is a tiny zombie riding a chicken. When the scene arrived, they cheered and shouted the line together. ABC News described screenings that ranged from delight to chaos.
 
 At one cinema in Forest Hill, Victoria, a cinema-goer named Tahlia Gass said she had never seen anything like it. According to ABC, people threw popcorn, toilet paper, flour and even a bin for 3D glasses. The manager stopped the film and security was called. Two boys were told to stop or be removed, and people who had not taken part were given refunds and free tickets.
 
@@ -55,17 +55,19 @@ summary: When fans turned screenings of A Minecraft Movie into a participation e
 
 A cinema is one of the few places where strangers agree, without a word, to share an experience. In April 2025, that agreement broke down in some Australian cinemas showing A Minecraft Movie. Audiences who had come to watch were joined by audiences who had come to shout along.
 
-The trigger was a line from one scene, "chicken jockey", which many people in the audience knew in advance. ABC News reported that cheering and shouting were common at screenings, and that in some cinemas the mood went well beyond cheering. At one cinema in Forest Hill, Victoria, a visitor named Tahlia Gass said that people threw popcorn, toilet paper, flour and even a bin for 3D glasses. The manager stopped the film and called security, and viewers who had not taken part were offered refunds and complimentary tickets.
+The trigger was a line from one scene, "chicken jockey", which many people in the audience knew in advance. ABC News reported that cheering and shouting were common at screenings, and that in some cinemas the mood went well beyond cheering. Not every screening was disrupted, and cheering is not the same as throwing things.
+
+At one cinema in Forest Hill, Victoria, a visitor named Tahlia Gass said that people threw popcorn, toilet paper, flour and even a bin for 3D glasses. The manager stopped the film and called security, and viewers who had not taken part were offered refunds and complimentary tickets.
 
 The chief executive of Palace Cinemas, Benjamin Zeccola, took a balanced view. He described the trend as mostly fun and communal, said that it brought more young people into cinemas, and called it largely innocent. At the same time, he said there is a line that can be crossed, and he gave throwing drinks at the screen as an example. His company's response was practical: extra staff, and more time between sessions for cleaning.
 
-It is worth noticing how different the commentators' explanations are. Jason DiRosso, of ABC RN's The Screen Show, said that the motivations are hard to pin down and that the behaviour is not fun for people who are not in on the joke. The critic Luke Goodsell suggested that social media is fuelling the trend and that it may be exaggerated online. The writer Jamie Tram suggested that some people take part in order to film reactions for social media.
+His description separates cheering from damage: he treats the first as part of the fun and the second as something that has to be stopped.
 
 Two cautions are needed. First, not every screening was disrupted, and cheering is not the same as throwing things, so treating one cinema's mess as evidence about all fans of the film would be unfair. Second, these are reports of individual incidents, so they cannot tell us how typical any one of them was.
 
 What the story offers is a clash of reasonable expectations. For some, the best way to enjoy a comedy is with a loud, laughing crowd. For others, a film is a story that needs silence. Neither group is wrong. The trouble is that a ticket does not usually say which kind of evening you have bought.
 
-That suggests a solution that depends less on rules than on information and consent. A cinema could label a screening as quiet, or as an audience-participation session, and set a few fair expectations for each: no throwing, no filming of strangers, and no leaving a mess for someone else to clear. People could then choose. Labels cannot guarantee behaviour, but they can change what it is reasonable to expect from the room.
+That suggests a solution that depends less on rules than on information and consent. A cinema could offer a quiet screening and a separate session for fans who want to shout along. Both would still need clear rules about mess, damage and filming other people. People could then choose. Clear labels cannot guarantee behaviour, but they can change what it is reasonable to expect from the room.
 
 If you could design one screening that worked for both the loud fans and the quiet viewers, what would its first rule be?
 
