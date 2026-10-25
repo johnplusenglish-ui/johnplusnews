@@ -1,0 +1,320 @@
+{
+  "slug": "when-minecraft-fans-turned-the-cinema-into-a-show",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "People threw popcorn, toilet paper and ____.",
+            "a": "flour"
+          },
+          {
+            "s": "The cinema ____ the film and called security.",
+            "a": "stopped"
+          },
+          {
+            "s": "People who were not part of the fun got their money ____.",
+            "a": "back"
+          },
+          {
+            "s": "The head of the company said most of the fun is ____.",
+            "a": "friendly"
+          },
+          {
+            "s": "Cheering is not the same as ____ things.",
+            "a": "throwing"
+          }
+        ],
+        "extra": [
+          "buying",
+          "laughing"
+        ]
+      },
+      "match": [
+        {
+          "t": "cheered",
+          "d": "shouted in a happy way to show support"
+        },
+        {
+          "t": "audience",
+          "d": "the people who watch a film, play or show"
+        },
+        {
+          "t": "trend",
+          "d": "something that many people start to do at the same time"
+        },
+        {
+          "t": "security",
+          "d": "people whose job is to keep a place safe and calm"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "A Minecraft Movie ____ out in April 2025.",
+            "cue": "come",
+            "a": "came"
+          },
+          {
+            "s": "Some people in the audience ____ and shouted the line together.",
+            "cue": "cheer",
+            "a": "cheered"
+          },
+          {
+            "s": "People ____ popcorn, toilet paper and flour.",
+            "cue": "throw",
+            "a": "threw"
+          },
+          {
+            "s": "Benjamin Zeccola ____ that most of the fun is friendly.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "The manager ____ the film.",
+            "cue": "stop",
+            "a": "stopped"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "In one cinema in Victoria, people threw popcorn.",
+          "a": "T",
+          "why": "The text says: \"people threw popcorn, toilet paper and flour\""
+        },
+        {
+          "s": "The manager kept the film playing without stopping.",
+          "a": "F",
+          "why": "The text says the opposite: \"The manager stopped the film and security was called.\""
+        },
+        {
+          "s": "Every cinema in Australia stopped showing the film.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Some people got their money back.",
+          "a": "T",
+          "why": "The text says: \"got their money back\""
+        },
+        {
+          "s": "All the experts said the noisy showings were fun for everyone.",
+          "a": "F",
+          "why": "The text says the opposite: \"it is not fun for people who do not know the joke\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Many people knew a line from one scene and shouted it ____.",
+            "a": "together"
+          },
+          {
+            "s": "People threw popcorn, toilet paper, flour and even a ____ for 3D glasses.",
+            "a": "bin"
+          },
+          {
+            "s": "The manager stopped the film and security was ____.",
+            "a": "called"
+          },
+          {
+            "s": "People who had not taken part were given ____ and free tickets.",
+            "a": "refunds"
+          },
+          {
+            "s": "There is a line that can be ____.",
+            "a": "crossed"
+          }
+        ],
+        "extra": [
+          "closed",
+          "finished"
+        ]
+      },
+      "match": [
+        {
+          "t": "refunds",
+          "d": "money that is given back to you"
+        },
+        {
+          "t": "communal",
+          "d": "shared by everyone in a group"
+        },
+        {
+          "t": "generalise",
+          "d": "say that something is true of everyone because it is true of some"
+        },
+        {
+          "t": "exaggerated",
+          "d": "made to seem bigger or more serious than it is"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In April 2025, Australian cinemas ____ something unusual.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "The manager ____ the film.",
+            "cue": "stop",
+            "a": "stopped"
+          },
+          {
+            "s": "Tahlia Gass ____ she had never seen anything like it.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "Benjamin Zeccola ____ the trend as mostly fun and communal.",
+            "cue": "describe",
+            "a": "described"
+          },
+          {
+            "s": "Luke Goodsell ____ that social media is fuelling the trend.",
+            "cue": "suggest",
+            "a": "suggested"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "A manager stopped the film in Forest Hill.",
+          "a": "T",
+          "why": "The text says: \"The manager stopped the film and security was called\""
+        },
+        {
+          "s": "Zeccola said the trend is not fun at all.",
+          "a": "F",
+          "why": "The text says the opposite: \"mostly fun and communal, with the whole room joining in\""
+        },
+        {
+          "s": "The cinema in Forest Hill closed for a month afterwards.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Luke Goodsell said the trend may be exaggerated online.",
+          "a": "T",
+          "why": "The text says: \"it may be exaggerated online\""
+        },
+        {
+          "s": "The reports say all fans of the film behaved badly.",
+          "a": "F",
+          "why": "The text says the opposite: \"They do not suggest that all fans of the film behave in the same way\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Audiences who had come to watch were joined by audiences who had come to ____ along.",
+            "a": "shout"
+          },
+          {
+            "s": "The manager stopped the film and called ____.",
+            "a": "security"
+          },
+          {
+            "s": "Viewers who had not taken part were offered refunds and ____ tickets.",
+            "a": "complimentary"
+          },
+          {
+            "s": "A ticket does not usually say which kind of ____ you have bought.",
+            "a": "evening"
+          },
+          {
+            "s": "Labels cannot guarantee behaviour, but they can change what it is ____ to expect from the room.",
+            "a": "reasonable"
+          }
+        ],
+        "extra": [
+          "quiet",
+          "popcorn"
+        ]
+      },
+      "match": [
+        {
+          "t": "complimentary",
+          "d": "given free of charge"
+        },
+        {
+          "t": "communal",
+          "d": "shared by everyone in a group"
+        },
+        {
+          "t": "exaggerated",
+          "d": "made to seem bigger or more serious than it is"
+        },
+        {
+          "t": "consent",
+          "d": "agreement to something, given freely"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The chief executive took a ____ view.",
+            "cue": "BALANCE",
+            "a": "balanced"
+          },
+          {
+            "s": "The ____ are hard to pin down.",
+            "cue": "MOTIVATE",
+            "a": "motivations"
+          },
+          {
+            "s": "Not every screening was ____.",
+            "cue": "DISRUPT",
+            "a": "disrupted"
+          },
+          {
+            "s": "What the story offers is a clash of reasonable ____.",
+            "cue": "EXPECT",
+            "a": "expectations"
+          },
+          {
+            "s": "A solution that depends less on rules than on ____ and consent.",
+            "cue": "INFORM",
+            "a": "information"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The manager at the Forest Hill cinema stopped the film.",
+          "a": "T",
+          "why": "The text says: \"The manager stopped the film and called security\""
+        },
+        {
+          "s": "Zeccola described the trend as entirely harmful.",
+          "a": "F",
+          "why": "The text says the opposite: \"He described the trend as mostly fun and communal\""
+        },
+        {
+          "s": "The cinema in Forest Hill closed for repairs.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Goodsell said social media may be exaggerating the trend.",
+          "a": "T",
+          "why": "The text says: \"it may be exaggerated online\""
+        },
+        {
+          "s": "The text says cheering is the same as throwing things.",
+          "a": "F",
+          "why": "The text says the opposite: \"cheering is not the same as throwing things\""
+        }
+      ]
+    }
+  }
+}

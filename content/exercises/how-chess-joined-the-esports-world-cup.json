@@ -1,0 +1,320 @@
+{
+  "slug": "how-chess-joined-the-esports-world-cup",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "In these games, each player had only ten ____ for the whole game.",
+            "a": "minutes"
+          },
+          {
+            "s": "Esports means competitive video ____.",
+            "a": "games"
+          },
+          {
+            "s": "The winner was Magnus Carlsen, the world number ____.",
+            "a": "one"
+          },
+          {
+            "s": "On screen, the audience could see each player's heart ____ in the final.",
+            "a": "rate"
+          },
+          {
+            "s": "Every ____ mattered.",
+            "a": "second"
+          }
+        ],
+        "extra": [
+          "hours",
+          "boards"
+        ]
+      },
+      "match": [
+        {
+          "t": "esports",
+          "d": "competitive video gaming"
+        },
+        {
+          "t": "clock",
+          "d": "a device that shows how much time each player has left"
+        },
+        {
+          "t": "commentators",
+          "d": "people who talk about what is happening in a game for the audience"
+        },
+        {
+          "t": "crowds",
+          "d": "large groups of people who watch something together"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Magnus Carlsen ____ the final.",
+            "cue": "win",
+            "a": "won"
+          },
+          {
+            "s": "Sixteen chess players ____ part.",
+            "cue": "take",
+            "a": "took"
+          },
+          {
+            "s": "Firouzja ____ not lost a single game before the final.",
+            "cue": "have",
+            "a": "had"
+          },
+          {
+            "s": "Hikaru Nakamura ____ he enjoyed the fans and the atmosphere.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "Crowds ____ at the games.",
+            "cue": "cheer",
+            "a": "cheered"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Chess was part of the Esports World Cup in 2025 for the first time.",
+          "a": "T",
+          "why": "The text says: \"Chess was part of the Esports World Cup in Riyadh, Saudi Arabia, for the first time\""
+        },
+        {
+          "s": "Twenty chess players took part.",
+          "a": "F",
+          "why": "The text says the opposite: \"Sixteen chess players took part\""
+        },
+        {
+          "s": "Carlsen won a car as a prize.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "In the final, the audience could see each player's heart rate.",
+          "a": "T",
+          "why": "The text says: \"the audience could see each player's heart rate in the final\""
+        },
+        {
+          "s": "Firouzja had lost three games before the final.",
+          "a": "F",
+          "why": "The text says the opposite: \"who had not lost a single game before the final\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Sixteen players qualified, twelve through a professional tour and four through a last-chance ____.",
+            "a": "qualifier"
+          },
+          {
+            "s": "Magnus Carlsen represented Team ____.",
+            "a": "Liquid"
+          },
+          {
+            "s": "Each player had ten minutes for the whole game, with no ____ time added after each move.",
+            "a": "extra"
+          },
+          {
+            "s": "A team of ____ talked viewers through the games.",
+            "a": "commentators"
+          },
+          {
+            "s": "It would be wrong to say that chess has suddenly become every teenager's favourite ____.",
+            "a": "hobby"
+          }
+        ],
+        "extra": [
+          "prize",
+          "trophy"
+        ]
+      },
+      "match": [
+        {
+          "t": "knockout",
+          "d": "a stage of a competition where the loser of each match is out"
+        },
+        {
+          "t": "spectacle",
+          "d": "an exciting public show"
+        },
+        {
+          "t": "grandmasters",
+          "d": "the best players in chess, who have earned the highest title"
+        },
+        {
+          "t": "commentators",
+          "d": "people who talk about what is happening in a game for the audience"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Chess ____ the Esports World Cup for the first time in 2025.",
+            "cue": "join",
+            "a": "joined"
+          },
+          {
+            "s": "Carlsen ____ Firouzja in the final.",
+            "cue": "beat",
+            "a": "beat"
+          },
+          {
+            "s": "Firouzja ____ not lost a game on the way.",
+            "cue": "have",
+            "a": "had"
+          },
+          {
+            "s": "FIDE ____ that each player's heart rate was shown on screen.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "Hikaru Nakamura ____ the atmosphere and the fans.",
+            "cue": "praise",
+            "a": "praised"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Carlsen played for Team Liquid.",
+          "a": "T",
+          "why": "The text says: \"represented Team Liquid\""
+        },
+        {
+          "s": "The event took place online only.",
+          "a": "F",
+          "why": "The text says the opposite: \"in Riyadh, Saudi Arabia, for the first time, at the SNB Arena\""
+        },
+        {
+          "s": "Carlsen has played chess since he was five.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Each player had ten minutes for the whole game.",
+          "a": "T",
+          "why": "The text says: \"Each player had ten minutes for the whole game\""
+        },
+        {
+          "s": "The text says this proves every teenager loves chess now.",
+          "a": "F",
+          "why": "The text says the opposite: \"It would be wrong to say that this proves chess has suddenly become every teenager's favourite hobby\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "A player with a winning position can still lose if the ____ runs out.",
+            "a": "clock"
+          },
+          {
+            "s": "Time becomes a second ____.",
+            "a": "opponent"
+          },
+          {
+            "s": "A large team of commentators talked viewers through the ____.",
+            "a": "games"
+          },
+          {
+            "s": "A spectator can still enjoy tension, but only if somebody turns the ____ into something visible.",
+            "a": "stakes"
+          },
+          {
+            "s": "People have played the game ____ for many years.",
+            "a": "online"
+          }
+        ],
+        "extra": [
+          "prizes",
+          "clubs"
+        ]
+      },
+      "match": [
+        {
+          "t": "stakes",
+          "d": "what a person could win or lose in a situation"
+        },
+        {
+          "t": "spectator",
+          "d": "a person who watches an event"
+        },
+        {
+          "t": "knockout",
+          "d": "a stage of a competition where the loser of each match is out"
+        },
+        {
+          "t": "grandmaster",
+          "d": "a player who has earned the highest title in chess"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Twelve players qualified through a tour and four through a last-chance ____.",
+            "cue": "QUALIFY",
+            "a": "qualifier"
+          },
+          {
+            "s": "A spectator can still enjoy ____ if somebody makes the stakes visible.",
+            "cue": "TENSE",
+            "a": "tension"
+          },
+          {
+            "s": "Large, ____ crowds attended the event.",
+            "cue": "ENTHUSIASM",
+            "a": "enthusiastic"
+          },
+          {
+            "s": "It may be the most important skill in turning a quiet game into a ____ sport.",
+            "cue": "SPECTATE",
+            "a": "spectator"
+          },
+          {
+            "s": "It does not mean that chess was ____ as an esport in 2025.",
+            "cue": "INVENT",
+            "a": "invented"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Carlsen won the final against Firouzja.",
+          "a": "T",
+          "why": "The text says: \"was won by Magnus Carlsen of Team Liquid against Alireza Firouzja\""
+        },
+        {
+          "s": "The text gives a full set-by-set account of the final.",
+          "a": "F",
+          "why": "The text says the opposite: \"it is better not to reproduce a set-by-set account\""
+        },
+        {
+          "s": "Firouzja asked for a rematch.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The games were ten minutes each, with no time added after each move.",
+          "a": "T",
+          "why": "The text says: \"ten minutes each, with no time added after each move\""
+        },
+        {
+          "s": "The text says the event proves chess is now every teenager's favourite hobby.",
+          "a": "F",
+          "why": "The text says the opposite: \"It does not prove that chess has become every teenager's favourite hobby\""
+        }
+      ]
+    }
+  }
+}

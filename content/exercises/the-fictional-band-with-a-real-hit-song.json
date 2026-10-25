@@ -1,0 +1,320 @@
+{
+  "slug": "the-fictional-band-with-a-real-hit-song",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "The band is not real, but the ____ you hear are real people.",
+            "a": "voices"
+          },
+          {
+            "s": "The team met every ____ on video calls.",
+            "a": "week"
+          },
+          {
+            "s": "A music company called THEBLACKLABEL made the ____.",
+            "a": "beat"
+          },
+          {
+            "s": "EJAE wrote the ____ very quickly, in a taxi.",
+            "a": "melody"
+          },
+          {
+            "s": "The song also had to be very hard to ____.",
+            "a": "sing"
+          }
+        ],
+        "extra": [
+          "colour",
+          "drum"
+        ]
+      },
+      "match": [
+        {
+          "t": "beat",
+          "d": "the steady rhythm in music that you can tap your foot to"
+        },
+        {
+          "t": "melody",
+          "d": "the tune of a song"
+        },
+        {
+          "t": "memo",
+          "d": "a short written note that says what is planned or needed"
+        },
+        {
+          "t": "trainee",
+          "d": "a person who is learning a skill by practising it"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "A music company ____ the beat.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "EJAE ____ the melody very quickly.",
+            "cue": "write",
+            "a": "wrote"
+          },
+          {
+            "s": "The team ____ every week on video calls.",
+            "cue": "meet",
+            "a": "met"
+          },
+          {
+            "s": "Netflix ____ the song was number one for eight weeks.",
+            "cue": "say",
+            "a": "says"
+          },
+          {
+            "s": "She ____ a K-pop trainee for ten years.",
+            "cue": "be",
+            "a": "was"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The voices of the band in the film belong to real people.",
+          "a": "T",
+          "why": "The text says: \"the voices you hear are real people\""
+        },
+        {
+          "s": "The writers met in the same room every week.",
+          "a": "F",
+          "why": "The text says the opposite: \"they met every week on video calls\""
+        },
+        {
+          "s": "The film cost 100 million dollars to make.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "EJAE wrote the melody in a taxi.",
+          "a": "T",
+          "why": "The text says: \"in a taxi on the way to a dentist appointment\""
+        },
+        {
+          "s": "The team made only one version of the song.",
+          "a": "F",
+          "why": "The text says the opposite: \"The team made five or six versions of the song before the final one.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The song was written by a team ____ across the world.",
+            "a": "spread"
+          },
+          {
+            "s": "The directors began with a seven-page ____ explaining what the song had to do.",
+            "a": "memo"
+          },
+          {
+            "s": "Its main ____ had to be hard to sing.",
+            "a": "hook"
+          },
+          {
+            "s": "The song drops from upbeat pop to something ____ and darker.",
+            "a": "quieter"
+          },
+          {
+            "s": "It is sensible to treat the figures as the platform's ____, not independent measurements.",
+            "a": "claims"
+          }
+        ],
+        "extra": [
+          "albums",
+          "rhythm"
+        ]
+      },
+      "match": [
+        {
+          "t": "memo",
+          "d": "a short written note that says what is planned or needed"
+        },
+        {
+          "t": "hook",
+          "d": "the part of a song that stays in your head"
+        },
+        {
+          "t": "trainee",
+          "d": "a person who is learning a skill by practising it"
+        },
+        {
+          "t": "superhuman",
+          "d": "much stronger or better than any normal person"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The film ____ out in June 2025.",
+            "cue": "come",
+            "a": "came"
+          },
+          {
+            "s": "The team ____ every week online.",
+            "cue": "meet",
+            "a": "met"
+          },
+          {
+            "s": "EJAE ____ the melody quickly, in a taxi.",
+            "cue": "write",
+            "a": "wrote"
+          },
+          {
+            "s": "Ian Eisendrath ____ they wrote five or six versions.",
+            "cue": "say",
+            "a": "says"
+          },
+          {
+            "s": "Netflix ____ that the song has spent eight weeks at number one.",
+            "cue": "say",
+            "a": "says"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The singing voices of HUNTR/X belong to three real performers.",
+          "a": "T",
+          "why": "The text says: \"the singing voices of HUNTR/X belong to three real performers\""
+        },
+        {
+          "s": "The song was written by one person alone.",
+          "a": "F",
+          "why": "The text says the opposite: \"The song was written by a team spread across the world.\""
+        },
+        {
+          "s": "EJAE has won a prize for the song.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "EJAE says her years as a K-pop trainee made the song feel personal.",
+          "a": "T",
+          "why": "The text says: \"EJAE says she could draw on her own ten years as a K-pop trainee\""
+        },
+        {
+          "s": "The article says the figures are independent measurements.",
+          "a": "F",
+          "why": "The text says the opposite: \"it is sensible to treat them as the platform's claims, not independent measurements\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Fictional does not mean ____.",
+            "a": "artificial"
+          },
+          {
+            "s": "The writers mapped the song section by section before writing any ____.",
+            "a": "lyrics"
+          },
+          {
+            "s": "The central hook had to be extremely ____ to sing.",
+            "a": "difficult"
+          },
+          {
+            "s": "The totals are best read as the company's own ____.",
+            "a": "claims"
+          },
+          {
+            "s": "Knowing the real singers can add something, because it shows the feeling was built by ____.",
+            "a": "people"
+          }
+        ],
+        "extra": [
+          "machines",
+          "tunes"
+        ]
+      },
+      "match": [
+        {
+          "t": "oral history",
+          "d": "a record of events told in the words of the people who were there"
+        },
+        {
+          "t": "hook",
+          "d": "the part of a song that stays in your head"
+        },
+        {
+          "t": "fandom",
+          "d": "the community of people who love the same thing"
+        },
+        {
+          "t": "superhuman",
+          "d": "much stronger or better than any normal person"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The middle of the song is a storytelling ____ as much as a musical one.",
+            "cue": "DECIDE",
+            "a": "decision"
+          },
+          {
+            "s": "The directors began with a seven-page memo explaining what the song needed to ____.",
+            "cue": "ACHIEVEMENT",
+            "a": "achieve"
+          },
+          {
+            "s": "EJAE says her decade as a K-pop ____ made the song personal.",
+            "cue": "TRAIN",
+            "a": "trainee"
+          },
+          {
+            "s": "The central hook had to be extremely ____ to sing.",
+            "cue": "DIFFICULTY",
+            "a": "difficult"
+          },
+          {
+            "s": "The totals come from the platform that ____ the film.",
+            "cue": "RELEASE",
+            "a": "released"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The film and its soundtrack came out in June 2025.",
+          "a": "T",
+          "why": "The text says: \"The film and its soundtrack came out in June 2025.\""
+        },
+        {
+          "s": "The text says a computer wrote the song.",
+          "a": "F",
+          "why": "The text says the opposite: \"every line was written by one\""
+        },
+        {
+          "s": "EJAE plans to release a new song next year.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The team wrote five or six versions before settling on one.",
+          "a": "T",
+          "why": "The text says: \"the team wrote five or six versions before settling on one\""
+        },
+        {
+          "s": "The text says the success figures are independent measurements.",
+          "a": "F",
+          "why": "The text says the opposite: \"they are best read as the company's own claims rather than independent measurements\""
+        }
+      ]
+    }
+  }
+}

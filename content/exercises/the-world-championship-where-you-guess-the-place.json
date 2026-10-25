@@ -1,0 +1,320 @@
+{
+  "slug": "the-world-championship-where-you-guess-the-place",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "GeoGuessr shows you a picture from a ____ somewhere in the world.",
+            "a": "street"
+          },
+          {
+            "s": "You look for clues, and then you click on a ____ to guess the place.",
+            "a": "map"
+          },
+          {
+            "s": "The best 24 players met in Berlin for the world ____.",
+            "a": "championship"
+          },
+          {
+            "s": "Players look at road signs and the ____ on them.",
+            "a": "writing"
+          },
+          {
+            "s": "Debre made a brave guess in northern ____.",
+            "a": "Namibia"
+          }
+        ],
+        "extra": [
+          "mountain",
+          "Spain"
+        ]
+      },
+      "match": [
+        {
+          "t": "clues",
+          "d": "small pieces of information that help you find an answer"
+        },
+        {
+          "t": "zoom",
+          "d": "to make a picture look closer"
+        },
+        {
+          "t": "championship",
+          "d": "a competition to find the best player or team"
+        },
+        {
+          "t": "guess",
+          "d": "to give an answer when you are not sure"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The game ____ you a picture taken on a street.",
+            "cue": "show",
+            "a": "shows"
+          },
+          {
+            "s": "Debre ____ back and won 3-2.",
+            "cue": "come",
+            "a": "came"
+          },
+          {
+            "s": "Blinky ____ 2-0 early in the final.",
+            "cue": "lead",
+            "a": "led"
+          },
+          {
+            "s": "Debre ____ a brave guess.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "The best 24 players ____ in Berlin.",
+            "cue": "meet",
+            "a": "met"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The world championship took place in Berlin.",
+          "a": "T",
+          "why": "The text says: \"met in Berlin, Germany, for the world championship\""
+        },
+        {
+          "s": "Only 24 fans came to watch.",
+          "a": "F",
+          "why": "The text says the opposite: \"About 2,000 fans came to watch\""
+        },
+        {
+          "s": "Debre has played the game for ten years.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Debre won the final 3-2.",
+          "a": "T",
+          "why": "The text says: \"Debre came back and won 3-2\""
+        },
+        {
+          "s": "Blinky guessed Namibia in the last round.",
+          "a": "F",
+          "why": "The text says the opposite: \"Blinky chose Argentina\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "In some games, players can only turn and ____.",
+            "a": "zoom"
+          },
+          {
+            "s": "Each guess has a 60-second ____.",
+            "a": "limit"
+          },
+          {
+            "s": "Some players even recognise features of the camera ____.",
+            "a": "car"
+          },
+          {
+            "s": "The final was between Debre from Hungary and Blinky from France, the 2024 ____.",
+            "a": "champion"
+          },
+          {
+            "s": "A landscape does not ____ a country.",
+            "a": "prove"
+          }
+        ],
+        "extra": [
+          "stadium",
+          "price"
+        ]
+      },
+      "match": [
+        {
+          "t": "streamed",
+          "d": "sent live over the internet so that people can watch"
+        },
+        {
+          "t": "scripts",
+          "d": "sets of letters or signs that are used for writing a language"
+        },
+        {
+          "t": "decisive",
+          "d": "deciding the result"
+        },
+        {
+          "t": "uncertainty",
+          "d": "the state of not being sure"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Blinky ____ 2-0 in the final.",
+            "cue": "lead",
+            "a": "led"
+          },
+          {
+            "s": "Debre ____ the match 3-2.",
+            "cue": "take",
+            "a": "took"
+          },
+          {
+            "s": "Taz ____ that about 2,000 fans came to the arena.",
+            "cue": "say",
+            "a": "says"
+          },
+          {
+            "s": "Debre ____ a bold guess in northern Namibia.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "Blinky ____ Argentina.",
+            "cue": "guess",
+            "a": "guessed"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The championship took place as part of a festival called GeoFest.",
+          "a": "T",
+          "why": "The text says: \"as part of a four-day fan festival called GeoFest\""
+        },
+        {
+          "s": "Every game was played with exactly the same rules.",
+          "a": "F",
+          "why": "The text says the opposite: \"with different rules in different games\""
+        },
+        {
+          "s": "Debre received a cash prize of 100,000 euros.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Debre won the final 3-2.",
+          "a": "T",
+          "why": "The text says: \"took the match 3-2\""
+        },
+        {
+          "s": "The text says that a landscape proves a country.",
+          "a": "F",
+          "why": "The text says the opposite: \"a landscape does not prove a country\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "In the decisive fifth game, players cannot move, turn or ____ at all.",
+            "a": "zoom"
+          },
+          {
+            "s": "A hedge is a guess placed to be reasonably close to several possible ____.",
+            "a": "answers"
+          },
+          {
+            "s": "Good players weigh evidence against ____.",
+            "a": "assumption"
+          },
+          {
+            "s": "The game rewards probabilities, not ____.",
+            "a": "certainties"
+          },
+          {
+            "s": "A lucky guess is not the same as a good ____.",
+            "a": "explanation"
+          }
+        ],
+        "extra": [
+          "maps",
+          "prizes"
+        ]
+      },
+      "match": [
+        {
+          "t": "hedge",
+          "d": "a guess placed to be reasonably close to several possible answers"
+        },
+        {
+          "t": "assumption",
+          "d": "something that you accept as true without proof"
+        },
+        {
+          "t": "streamed",
+          "d": "sent live over the internet so that people can watch"
+        },
+        {
+          "t": "probabilities",
+          "d": "how likely different things are to happen"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "It sounds like a game for experts, but it is really a game about ____.",
+            "cue": "ATTEND",
+            "a": "attention"
+          },
+          {
+            "s": "A hedge is interesting because it is honest about ____.",
+            "cue": "CERTAIN",
+            "a": "uncertainty"
+          },
+          {
+            "s": "A lucky guess is not the same as a good ____.",
+            "cue": "EXPLAIN",
+            "a": "explanation"
+          },
+          {
+            "s": "The clues include plants, buildings, telephone codes and ____ features.",
+            "cue": "REGION",
+            "a": "regional"
+          },
+          {
+            "s": "In the ____ fifth game they see a single image.",
+            "cue": "DECIDE",
+            "a": "decisive"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The 2026 championship was held in Berlin.",
+          "a": "T",
+          "why": "The text says: \"The 2026 world championship was held in Berlin\""
+        },
+        {
+          "s": "The rules were the same in every game.",
+          "a": "F",
+          "why": "The text says the opposite: \"the rules changed from game to game\""
+        },
+        {
+          "s": "Blinky has won the championship three times.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Blinky led 2-0 in the final.",
+          "a": "T",
+          "why": "The text says: \"Blinky led 2-0, but Debre won the next three games\""
+        },
+        {
+          "s": "The text says that one clue always settles the answer.",
+          "a": "F",
+          "why": "The text says the opposite: \"Good players do not pretend that one clue settles the matter\""
+        }
+      ]
+    }
+  }
+}

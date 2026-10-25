@@ -1,0 +1,320 @@
+{
+  "slug": "why-dress-up-an-avatar-nobody-can-touch",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "An ____ is a character that stands for you in a game.",
+            "a": "avatar"
+          },
+          {
+            "s": "Players can try on many items for ____.",
+            "a": "free"
+          },
+          {
+            "s": "If a player buys an item, it goes into the player's ____.",
+            "a": "inventory"
+          },
+          {
+            "s": "An outfit can say something about you, even when nobody can see your real ____.",
+            "a": "face"
+          },
+          {
+            "s": "You can try a style you would never ____ outside the game.",
+            "a": "wear"
+          }
+        ],
+        "extra": [
+          "sell",
+          "copy"
+        ]
+      },
+      "match": [
+        {
+          "t": "avatar",
+          "d": "a character that stands for you in a game"
+        },
+        {
+          "t": "outfit",
+          "d": "a set of clothes that you wear together"
+        },
+        {
+          "t": "inventory",
+          "d": "the list of things that a player owns in a game"
+        },
+        {
+          "t": "community",
+          "d": "a group of people who share an interest"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "A creator called Muneeb ____ it.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "Trying on an item ____ nothing.",
+            "cue": "cost",
+            "a": "costs"
+          },
+          {
+            "s": "The description ____ there are more than 50 million outfits.",
+            "cue": "say",
+            "a": "says"
+          },
+          {
+            "s": "A bought item ____ into the player's inventory.",
+            "cue": "go",
+            "a": "goes"
+          },
+          {
+            "s": "If a player ____ an item, it goes into the inventory.",
+            "cue": "buy",
+            "a": "buys"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Trying on an item in the experience costs nothing.",
+          "a": "T",
+          "why": "The text says: \"Trying on an item costs nothing.\""
+        },
+        {
+          "s": "Players cannot save their looks.",
+          "a": "F",
+          "why": "The text says the opposite: \"They can mix items, save a look and see outfits made by other players.\""
+        },
+        {
+          "s": "Muneeb is a teenager.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "A bought item can be used in any game.",
+          "a": "T",
+          "why": "The text says: \"the player can use it in any game\""
+        },
+        {
+          "s": "Everything in the experience must be bought.",
+          "a": "F",
+          "why": "The text says the opposite: \"players can try on many items for free\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "An avatar is the character that ____ you in a game.",
+            "a": "represents"
+          },
+          {
+            "s": "Players can ____ items and save the looks they like.",
+            "a": "combine"
+          },
+          {
+            "s": "The award and the number of outfits are the creator's own ____, not independent findings.",
+            "a": "claims"
+          },
+          {
+            "s": "Items that a player buys appear in their ____.",
+            "a": "inventory"
+          },
+          {
+            "s": "An outfit can communicate something about you without showing your real ____.",
+            "a": "face"
+          }
+        ],
+        "extra": [
+          "sell",
+          "earn"
+        ]
+      },
+      "match": [
+        {
+          "t": "avatar",
+          "d": "a character that stands for you in a game"
+        },
+        {
+          "t": "inventory",
+          "d": "the list of things that a player owns in a game"
+        },
+        {
+          "t": "experiment",
+          "d": "to try something new to see what happens"
+        },
+        {
+          "t": "self-expression",
+          "d": "showing your personality or ideas through what you make or wear"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "A developer called Muneeb ____ the experience.",
+            "cue": "create",
+            "a": "created"
+          },
+          {
+            "s": "The description ____ a clear line between trying and buying.",
+            "cue": "draw",
+            "a": "draws"
+          },
+          {
+            "s": "The experience ____ a Best Use of Fashion award, says the description.",
+            "cue": "win",
+            "a": "won"
+          },
+          {
+            "s": "Items that a player ____ appear in their inventory.",
+            "cue": "buy",
+            "a": "buys"
+          },
+          {
+            "s": "Others ____ it as a creative choice that took time and taste.",
+            "cue": "see",
+            "a": "see"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Trying items on in the experience is free.",
+          "a": "T",
+          "why": "The text says: \"Trying items on is free.\""
+        },
+        {
+          "s": "The text says all teenagers dress avatars like this.",
+          "a": "F",
+          "why": "The text says the opposite: \"so it would be wrong to say that all teenagers do\""
+        },
+        {
+          "s": "Muneeb earns money from the experience.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "A bought item can be used in any game.",
+          "a": "T",
+          "why": "The text says: \"can then be used in any game\""
+        },
+        {
+          "s": "The text says the award claim is independent proof.",
+          "a": "F",
+          "why": "The text says the opposite: \"These are the creator's own claims, not independent findings.\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Clothes protect us, but they also ____ who we are.",
+            "a": "announce"
+          },
+          {
+            "s": "Several details in the description are the creator's own ____.",
+            "a": "claims"
+          },
+          {
+            "s": "Items that a player buys appear in their ____.",
+            "a": "inventory"
+          },
+          {
+            "s": "An avatar lets you try a style you would never wear outside the game, with no ____ if you do not like it.",
+            "a": "cost"
+          },
+          {
+            "s": "A cynic would say a digital item has no value because it only exists on a ____.",
+            "a": "screen"
+          }
+        ],
+        "extra": [
+          "shop",
+          "fashion"
+        ]
+      },
+      "match": [
+        {
+          "t": "experiment",
+          "d": "to try something new to see what happens"
+        },
+        {
+          "t": "self-expression",
+          "d": "showing your personality or ideas through what you make or wear"
+        },
+        {
+          "t": "continuity",
+          "d": "an unbroken connection between one thing and the next"
+        },
+        {
+          "t": "cynic",
+          "d": "a person who tends to doubt that things are worth anything"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "____ is the obvious answer.",
+            "cue": "EXPRESS",
+            "a": "Self-expression"
+          },
+          {
+            "s": "Neither claim has been ____ checked.",
+            "cue": "INDEPENDENT",
+            "a": "independently"
+          },
+          {
+            "s": "Nobody needs to buy anything to be ____.",
+            "cue": "CREATE",
+            "a": "creative"
+          },
+          {
+            "s": "Part of the ____ is that you can become someone different.",
+            "cue": "PLEASE",
+            "a": "pleasure"
+          },
+          {
+            "s": "It keeps a sense of ____ between the player and the character.",
+            "cue": "CONTINUE",
+            "a": "continuity"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The page says players can try on items for free.",
+          "a": "T",
+          "why": "The text says: \"try on a wide range of catalogue items for free\""
+        },
+        {
+          "s": "The text says the award claim has been independently checked.",
+          "a": "F",
+          "why": "The text says the opposite: \"Neither claim has been independently checked\""
+        },
+        {
+          "s": "Muneeb is a teenager.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Items that a player buys can be used in any game.",
+          "a": "T",
+          "why": "The text says: \"can be used in any game\""
+        },
+        {
+          "s": "The text says an avatar that looks like you is more honest.",
+          "a": "F",
+          "why": "The text says the opposite: \"Neither is more honest\""
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "slug": "why-fans-queued-at-midnight-for-a-book",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "The book was Sunrise on the Reaping, a new ____ by Suzanne Collins.",
+            "a": "novel"
+          },
+          {
+            "s": "Some fans wore ____ of characters from the books.",
+            "a": "costumes"
+          },
+          {
+            "s": "They did scavenger hunts, solved puzzles and played a ____ game.",
+            "a": "trivia"
+          },
+          {
+            "s": "Many fans were adults who first read the books when they were about ____.",
+            "a": "twelve"
+          },
+          {
+            "s": "Waterstones held 110 midnight ____ in its shops.",
+            "a": "parties"
+          }
+        ],
+        "extra": [
+          "prizes",
+          "films"
+        ]
+      },
+      "match": [
+        {
+          "t": "costumes",
+          "d": "clothes that you wear to look like a character"
+        },
+        {
+          "t": "novel",
+          "d": "a long story in a book"
+        },
+        {
+          "t": "scavenger hunts",
+          "d": "games in which people search for hidden things or answers"
+        },
+        {
+          "t": "launch",
+          "d": "an event when a new product is shown or sold for the first time"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In March 2025, many fans ____ to the shops at midnight.",
+            "cue": "go",
+            "a": "went"
+          },
+          {
+            "s": "Some fans ____ costumes of characters from the books.",
+            "cue": "wear",
+            "a": "wore"
+          },
+          {
+            "s": "They ____ puzzles and played a trivia game.",
+            "cue": "solve",
+            "a": "solved"
+          },
+          {
+            "s": "Waterstones ____ 110 midnight parties.",
+            "cue": "hold",
+            "a": "held"
+          },
+          {
+            "s": "The editor ____ he could not answer every question.",
+            "cue": "say",
+            "a": "said"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Sunrise on the Reaping was published on 18 March 2025.",
+          "a": "T",
+          "why": "The text says: \"It was published on 18 March\""
+        },
+        {
+          "s": "The midnight parties were only in New York.",
+          "a": "F",
+          "why": "The text says the opposite: \"shops around the world held midnight parties the night before\""
+        },
+        {
+          "s": "Waterstones sold a million copies on the first night.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Some fans in New York wore costumes.",
+          "a": "T",
+          "why": "The text says: \"Some wore costumes of characters from the books\""
+        },
+        {
+          "s": "The editor answered every trivia question.",
+          "a": "F",
+          "why": "The text says the opposite: \"he could not answer every question\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The party included scavenger hunts, puzzles and a ____ game.",
+            "a": "trivia"
+          },
+          {
+            "s": "Part of the fun is ____.",
+            "a": "anticipation"
+          },
+          {
+            "s": "AP reported that the book had reached number one on Amazon before it was ____.",
+            "a": "published"
+          },
+          {
+            "s": "Some fans had posted videos of copies that were ____ too early.",
+            "a": "shipped"
+          },
+          {
+            "s": "The reports describe particular events and particular ____.",
+            "a": "people"
+          }
+        ],
+        "extra": [
+          "launched",
+          "hidden"
+        ]
+      },
+      "match": [
+        {
+          "t": "anticipation",
+          "d": "the feeling of waiting for something exciting"
+        },
+        {
+          "t": "spoiler",
+          "d": "information that tells you what happens in a story before you read it"
+        },
+        {
+          "t": "scavenger hunts",
+          "d": "games in which people search for hidden things or answers"
+        },
+        {
+          "t": "flagship",
+          "d": "the most important one of a group, such as a shop"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Suzanne Collins's novel ____ published on 18 March 2025.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "Savannah Miller ____ that she now connects more with the characters.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "AP ____ that the book had reached number one on Amazon.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "Some people ____ as characters from the books.",
+            "cue": "dress",
+            "a": "dressed"
+          },
+          {
+            "s": "Waterstones ____ 110 midnight parties.",
+            "cue": "hold",
+            "a": "held"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Waterstones held 110 midnight parties, according to The Bookseller.",
+          "a": "T",
+          "why": "The text says: \"The Bookseller reported 110 midnight parties at Waterstones shops in Britain\""
+        },
+        {
+          "s": "The fans AP interviewed were mainly teenagers.",
+          "a": "F",
+          "why": "The text says the opposite: \"The people AP interviewed were not mainly teenagers\""
+        },
+        {
+          "s": "The book sold more than a million copies in its first week.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Some fans posted videos of copies that were shipped early.",
+          "a": "T",
+          "why": "The text says: \"some fans had posted videos of copies that were shipped or put on shelves too early\""
+        },
+        {
+          "s": "The text says the story shows a general return to reading among young people.",
+          "a": "F",
+          "why": "The text says the opposite: \"It would be wrong to say that this shows a general return to reading among young people\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Waiting together makes the moment of getting the book feel ____.",
+            "a": "bigger"
+          },
+          {
+            "s": "A fandom event can feel like a ____ of who is the biggest fan.",
+            "a": "test"
+          },
+          {
+            "s": "A good book event might offer a ____ rule that gives everyone time to finish.",
+            "a": "spoiler"
+          },
+          {
+            "s": "Anticipation, in other words, had been ____ for a long time.",
+            "a": "building"
+          },
+          {
+            "s": "The reports do not prove that waiting together is better than reading ____.",
+            "a": "alone"
+          }
+        ],
+        "extra": [
+          "queueing",
+          "faster"
+        ]
+      },
+      "match": [
+        {
+          "t": "belonging",
+          "d": "the feeling of being accepted as part of a group"
+        },
+        {
+          "t": "anticipation",
+          "d": "the feeling of waiting for something exciting"
+        },
+        {
+          "t": "fandom",
+          "d": "the community of people who love the same thing"
+        },
+        {
+          "t": "spoiler",
+          "d": "information that tells you what happens in a story before you read it"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "One answer is shared ____: waiting together makes the moment feel bigger.",
+            "cue": "ANTICIPATE",
+            "a": "anticipation"
+          },
+          {
+            "s": "Another answer is ____: a costume or a trivia question is a way of saying \"I am one of you\".",
+            "cue": "BELONG",
+            "a": "belonging"
+          },
+          {
+            "s": "A third answer is simply fun, which needs no further ____.",
+            "cue": "JUSTIFY",
+            "a": "justification"
+          },
+          {
+            "s": "A fandom event could make a newcomer feel ____.",
+            "cue": "WELCOME",
+            "a": "unwelcome"
+          },
+          {
+            "s": "The aim is to remove the pressure of ____ yourself.",
+            "cue": "PROVE",
+            "a": "proving"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Some fans posted videos of copies that had been shipped early.",
+          "a": "T",
+          "why": "The text says: \"some fans posted videos of copies that had been shipped early\""
+        },
+        {
+          "s": "The text says all the fans at the party were teenagers.",
+          "a": "F",
+          "why": "The text says the opposite: \"the people AP quoted do not fit that picture\""
+        },
+        {
+          "s": "Suzanne Collins attended the Manhattan party.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Waterstones held 110 midnight parties, according to The Bookseller.",
+          "a": "T",
+          "why": "The text says: \"Waterstones held 110 midnight parties\""
+        },
+        {
+          "s": "The text says the reports prove that waiting together is better than reading alone.",
+          "a": "F",
+          "why": "The text says the opposite: \"they do not prove that waiting together is better than reading alone\""
+        }
+      ]
+    }
+  }
+}

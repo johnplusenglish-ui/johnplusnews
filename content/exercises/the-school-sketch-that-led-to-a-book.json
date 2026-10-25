@@ -1,0 +1,320 @@
+{
+  "slug": "the-school-sketch-that-led-to-a-book",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Bethany drew a ____ of the author while she listened.",
+            "a": "portrait"
+          },
+          {
+            "s": "She says that drawing helped her to ____.",
+            "a": "focus"
+          },
+          {
+            "s": "Chip Colquhoun asked her to draw the ____ for a new children's book.",
+            "a": "pictures"
+          },
+          {
+            "s": "Illustrating has given her a lot more ____.",
+            "a": "confidence"
+          },
+          {
+            "s": "A kind and specific ____ is better than a vague \"good job\".",
+            "a": "comment"
+          }
+        ],
+        "extra": [
+          "poem",
+          "price"
+        ]
+      },
+      "match": [
+        {
+          "t": "portrait",
+          "d": "a drawing or photograph of a person"
+        },
+        {
+          "t": "author",
+          "d": "a person who writes books"
+        },
+        {
+          "t": "focus",
+          "d": "to give all your attention to one thing"
+        },
+        {
+          "t": "confidence",
+          "d": "a feeling that you can do something well"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "An author called Chip Colquhoun ____ her school.",
+            "cue": "visit",
+            "a": "visited"
+          },
+          {
+            "s": "Bethany ____ a portrait of him.",
+            "cue": "draw",
+            "a": "drew"
+          },
+          {
+            "s": "Colquhoun ____ her portrait in one of his books.",
+            "cue": "use",
+            "a": "used"
+          },
+          {
+            "s": "The book ____ out in September 2026.",
+            "cue": "come",
+            "a": "came"
+          },
+          {
+            "s": "She often ____ in the evening.",
+            "cue": "draw",
+            "a": "draws"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Bethany drew a portrait of the author.",
+          "a": "T",
+          "why": "The text says: \"Bethany drew a portrait of him while she listened\""
+        },
+        {
+          "s": "Bethany is 12 years old.",
+          "a": "F",
+          "why": "The text says the opposite: \"She is 15 and lives in Cambridgeshire, in England\""
+        },
+        {
+          "s": "Bethany wants to study art at university.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The book came out in September 2026.",
+          "a": "T",
+          "why": "The text says: \"The book came out in September 2026\""
+        },
+        {
+          "s": "Bethany never draws in the evening.",
+          "a": "F",
+          "why": "The text says the opposite: \"She often draws in the evening\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "She drew the portrait to ____ during the session.",
+            "a": "concentrate"
+          },
+          {
+            "s": "Bethany says seeing her illustrations in print felt weird and ____.",
+            "a": "unreal"
+          },
+          {
+            "s": "Colquhoun asked her to ____ his children's book.",
+            "a": "illustrate"
+          },
+          {
+            "s": "She describes her first portrait as very ____.",
+            "a": "stylised"
+          },
+          {
+            "s": "A ____ comment helps more than a vague \"good job\".",
+            "a": "specific"
+          }
+        ],
+        "extra": [
+          "colourful",
+          "famous"
+        ]
+      },
+      "match": [
+        {
+          "t": "stylised",
+          "d": "drawn in a special way that is not completely realistic"
+        },
+        {
+          "t": "portrait",
+          "d": "a drawing or photograph of a person"
+        },
+        {
+          "t": "anxiety",
+          "d": "a strong feeling of worry or fear"
+        },
+        {
+          "t": "illustrate",
+          "d": "to draw pictures for a book"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Bethany ____ a portrait of the author.",
+            "cue": "draw",
+            "a": "drew"
+          },
+          {
+            "s": "Colquhoun ____ the portrait in one of his books.",
+            "cue": "use",
+            "a": "used"
+          },
+          {
+            "s": "The book ____ published in September 2026.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "Her mother ____ that Bethany still needs support.",
+            "cue": "say",
+            "a": "says"
+          },
+          {
+            "s": "Bethany ____ working on a third book.",
+            "cue": "be",
+            "a": "is"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Colquhoun used Bethany's portrait in one of his books.",
+          "a": "T",
+          "why": "The text says: \"He later used the portrait in one of his books\""
+        },
+        {
+          "s": "Bethany says her first portrait is in the style she draws in now.",
+          "a": "F",
+          "why": "The text says the opposite: \"it is not the style she draws in now\""
+        },
+        {
+          "s": "Bethany has a younger brother.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Bethany has been to two book launches.",
+          "a": "T",
+          "why": "The text says: \"she has been to two book launches\""
+        },
+        {
+          "s": "The text says that art cured Bethany's difficulties.",
+          "a": "F",
+          "why": "The text says the opposite: \"It would be wrong to read this as a story in which art cured a problem\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "She drew the portrait as a way to ____, because she needed something to draw.",
+            "a": "concentrate"
+          },
+          {
+            "s": "Colquhoun later asked her to ____ his children's book.",
+            "a": "illustrate"
+          },
+          {
+            "s": "She now describes that first portrait as very ____.",
+            "a": "stylised"
+          },
+          {
+            "s": "Creative success is not what makes a person ____ support.",
+            "a": "deserve"
+          },
+          {
+            "s": "Encouragement that responds to a person's actual work is often more useful than general ____.",
+            "a": "praise"
+          }
+        ],
+        "extra": [
+          "criticism",
+          "payment"
+        ]
+      },
+      "match": [
+        {
+          "t": "stylised",
+          "d": "drawn in a special way that is not completely realistic"
+        },
+        {
+          "t": "anxiety",
+          "d": "a strong feeling of worry or fear"
+        },
+        {
+          "t": "deserve",
+          "d": "to have earned something, or to be worthy of it"
+        },
+        {
+          "t": "illustrate",
+          "d": "to draw pictures for a book"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Illustrating has improved her ____ a great deal.",
+            "cue": "CONFIDENT",
+            "a": "confidence"
+          },
+          {
+            "s": "____ that responds to a person's actual work is often more useful than general praise.",
+            "cue": "ENCOURAGE",
+            "a": "Encouragement"
+          },
+          {
+            "s": "Creative ____ is not what makes a person deserve support.",
+            "cue": "SUCCESSFUL",
+            "a": "success"
+          },
+          {
+            "s": "What followed was ____.",
+            "cue": "PRACTICE",
+            "a": "practical"
+          },
+          {
+            "s": "She would have been too ____ to do these things a few years ago.",
+            "cue": "NERVE",
+            "a": "nervous"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Colquhoun used Bethany's portrait in one of his books.",
+          "a": "T",
+          "why": "The text says: \"He used the portrait in one of his books\""
+        },
+        {
+          "s": "The text says the report presents Bethany's difficulties as rudeness.",
+          "a": "F",
+          "why": "The text says the opposite: \"This is not rudeness, and it is not a choice.\""
+        },
+        {
+          "s": "Bethany wants to study illustration.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Bethany has been to two book launches, according to her mother.",
+          "a": "T",
+          "why": "The text says: \"she has been to two book launches\""
+        },
+        {
+          "s": "The text says Bethany can now do these things without support.",
+          "a": "F",
+          "why": "The text says the opposite: \"Bethany still cannot do these things alone\""
+        }
+      ]
+    }
+  }
+}

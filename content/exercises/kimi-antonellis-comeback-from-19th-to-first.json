@@ -1,0 +1,320 @@
+{
+  "slug": "kimi-antonellis-comeback-from-19th-to-first",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Antonelli started the race in 19th ____.",
+            "a": "place"
+          },
+          {
+            "s": "A crash stopped the race for a while. This is called a red ____.",
+            "a": "flag"
+          },
+          {
+            "s": "Antonelli went into the pits and changed to fresh ____.",
+            "a": "tyres"
+          },
+          {
+            "s": "George Russell is Antonelli's ____.",
+            "a": "teammate"
+          },
+          {
+            "s": "Antonelli is the first Italian driver to win the race for 60 ____.",
+            "a": "years"
+          }
+        ],
+        "extra": [
+          "weeks",
+          "gears"
+        ]
+      },
+      "match": [
+        {
+          "t": "tyres",
+          "d": "the rubber rings around the wheels of a car"
+        },
+        {
+          "t": "pits",
+          "d": "the area where a car stops during a race to change tyres"
+        },
+        {
+          "t": "laps",
+          "d": "full trips around the race track"
+        },
+        {
+          "t": "gravel",
+          "d": "small stones on the side of a track"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Antonelli ____ in 19th place.",
+            "cue": "start",
+            "a": "started"
+          },
+          {
+            "s": "A crash ____ the race for a while.",
+            "cue": "stop",
+            "a": "stopped"
+          },
+          {
+            "s": "Antonelli ____ Russell with four laps to go.",
+            "cue": "pass",
+            "a": "passed"
+          },
+          {
+            "s": "Russell ____ out on his old tyres.",
+            "cue": "stay",
+            "a": "stayed"
+          },
+          {
+            "s": "Antonelli ____ the race.",
+            "cue": "win",
+            "a": "won"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Antonelli started the Italian Grand Prix in 19th place.",
+          "a": "T",
+          "why": "The text says: \"he started in 19th place\""
+        },
+        {
+          "s": "Antonelli drives for a team called Ferrari.",
+          "a": "F",
+          "why": "The text says the opposite: \"He drives for the Mercedes Formula 1 team\""
+        },
+        {
+          "s": "Antonelli's mother watched the race.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Antonelli passed Russell with four laps to go.",
+          "a": "T",
+          "why": "The text says: \"With four laps to go, Antonelli passed Russell\""
+        },
+        {
+          "s": "No Italian driver had won the race for five years.",
+          "a": "F",
+          "why": "The text says the opposite: \"He is the first Italian driver to win it for 60 years\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Antonelli started 19th after taking new power unit ____.",
+            "a": "components"
+          },
+          {
+            "s": "A ____ Safety Car means that drivers must slow down.",
+            "a": "Virtual"
+          },
+          {
+            "s": "Russell stayed out and struggled with his ____ late in the race.",
+            "a": "tyres"
+          },
+          {
+            "s": "He passed Russell with four laps ____.",
+            "a": "remaining"
+          },
+          {
+            "s": "A bad start changes the odds, but it does not ____ the result.",
+            "a": "decide"
+          }
+        ],
+        "extra": [
+          "fuel",
+          "gears"
+        ]
+      },
+      "match": [
+        {
+          "t": "red flag",
+          "d": "a signal that stops a race for safety"
+        },
+        {
+          "t": "chicane",
+          "d": "a sharp double bend on a race track"
+        },
+        {
+          "t": "teammate",
+          "d": "a person who is on the same team as you"
+        },
+        {
+          "t": "gravel",
+          "d": "small stones on the side of a track"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Antonelli ____ in 19th place.",
+            "cue": "start",
+            "a": "started"
+          },
+          {
+            "s": "Charles Leclerc ____ at the final corner.",
+            "cue": "crash",
+            "a": "crashed"
+          },
+          {
+            "s": "Antonelli ____ into the pits under the Virtual Safety Car.",
+            "cue": "go",
+            "a": "went"
+          },
+          {
+            "s": "Russell ____ out on his old tyres.",
+            "cue": "stay",
+            "a": "stayed"
+          },
+          {
+            "s": "Antonelli ____ the race.",
+            "cue": "win",
+            "a": "won"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The race was stopped after Leclerc crashed.",
+          "a": "T",
+          "why": "The text says: \"after Charles Leclerc crashed at the final corner\""
+        },
+        {
+          "s": "Russell changed to fresher tyres under the Virtual Safety Car.",
+          "a": "F",
+          "why": "The text says the opposite: \"His teammate George Russell stayed out on his old tyres\""
+        },
+        {
+          "s": "Antonelli's team told him to slow down.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Antonelli is the first Italian winner of the race since 1966.",
+          "a": "T",
+          "why": "The text says: \"since Ludovico Scarfiotti in 1966\""
+        },
+        {
+          "s": "The text says Antonelli won only because he never gave up.",
+          "a": "F",
+          "why": "The text says the opposite: \"It would be wrong to say that he won only because he never gave up\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "A bad starting position feels like a ____.",
+            "a": "verdict"
+          },
+          {
+            "s": "Antonelli drove well, but he also benefited from ____.",
+            "a": "timing"
+          },
+          {
+            "s": "A Virtual Safety Car gave him a chance to change ____.",
+            "a": "tyres"
+          },
+          {
+            "s": "A bad start changes the odds; it does not ____ the result.",
+            "a": "decide"
+          },
+          {
+            "s": "The best comeback is one that does not put anyone in ____.",
+            "a": "danger"
+          }
+        ],
+        "extra": [
+          "weather",
+          "fuel"
+        ]
+      },
+      "match": [
+        {
+          "t": "strategy",
+          "d": "a plan for how to reach a goal"
+        },
+        {
+          "t": "verdict",
+          "d": "a final decision or judgement about something"
+        },
+        {
+          "t": "chicane",
+          "d": "a sharp double bend on a race track"
+        },
+        {
+          "t": "benefited",
+          "d": "received an advantage from something"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The ____ moment came under a Virtual Safety Car.",
+            "cue": "DECIDE",
+            "a": "decisive"
+          },
+          {
+            "s": "It would be easy to turn this into a lesson about ____.",
+            "cue": "BELIEVE",
+            "a": "belief"
+          },
+          {
+            "s": "He said that the moment in the gravel was ____.",
+            "cue": "FRIGHT",
+            "a": "frightening"
+          },
+          {
+            "s": "Antonelli drove well, but he also benefited from ____.",
+            "cue": "TIME",
+            "a": "timing"
+          },
+          {
+            "s": "That is a more ____ lesson than \"never give up\".",
+            "cue": "USE",
+            "a": "useful"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Antonelli started 19th at Monza and won.",
+          "a": "T",
+          "why": "The text says: \"He started 19th and won\""
+        },
+        {
+          "s": "Russell changed to fresher tyres while Antonelli stayed out.",
+          "a": "F",
+          "why": "The text says the opposite: \"while his teammate, George Russell, stayed out\""
+        },
+        {
+          "s": "Antonelli's team gave him no instructions during the race.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Antonelli is the first Italian to win the Italian Grand Prix since 1966.",
+          "a": "T",
+          "why": "The text says: \"since Ludovico Scarfiotti in 1966\""
+        },
+        {
+          "s": "The text says that belief alone explains the win.",
+          "a": "F",
+          "why": "The text says the opposite: \"that would leave out most of the story\""
+        }
+      ]
+    }
+  }
+}

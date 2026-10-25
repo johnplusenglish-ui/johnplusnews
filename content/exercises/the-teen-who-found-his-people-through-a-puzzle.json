@@ -1,0 +1,320 @@
+{
+  "slug": "the-teen-who-found-his-people-through-a-puzzle",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "A Rubik's Cube is a puzzle that you solve by ____ it.",
+            "a": "twisting"
+          },
+          {
+            "s": "Thomas learned to solve the cube from a family ____.",
+            "a": "friend"
+          },
+          {
+            "s": "Thomas also competes in a different puzzle called the ____.",
+            "a": "clock"
+          },
+          {
+            "s": "He says he mostly enjoys the ____ side.",
+            "a": "social"
+          },
+          {
+            "s": "Louise Allinson runs a cube ____ at the local library.",
+            "a": "club"
+          }
+        ],
+        "extra": [
+          "teacher",
+          "prize"
+        ]
+      },
+      "match": [
+        {
+          "t": "puzzle",
+          "d": "a game or toy that you try to solve"
+        },
+        {
+          "t": "confidence",
+          "d": "a feeling that you can do something well"
+        },
+        {
+          "t": "supportive",
+          "d": "helpful and encouraging to other people"
+        },
+        {
+          "t": "competitions",
+          "d": "events in which people try to win"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Thomas ____ some Rubik's Cubes as a Christmas present.",
+            "cue": "get",
+            "a": "got"
+          },
+          {
+            "s": "He ____ to solve the cube from a family friend.",
+            "cue": "learn",
+            "a": "learned"
+          },
+          {
+            "s": "The cube ____ invented by Erno Rubik in 1974.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "Thomas's mother ____ a cube club at the library.",
+            "cue": "run",
+            "a": "runs"
+          },
+          {
+            "s": "Thomas ____ he mostly enjoys the social side.",
+            "cue": "say",
+            "a": "says"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Thomas got some cubes as a Christmas present.",
+          "a": "T",
+          "why": "The text says: \"He got some Rubik's Cubes as a Christmas present\""
+        },
+        {
+          "s": "Thomas solves a normal cube in about nine minutes.",
+          "a": "F",
+          "why": "The text says the opposite: \"in about nine seconds, on average\""
+        },
+        {
+          "s": "Thomas has won a national championship.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Louise Allinson runs a cube club at the library.",
+          "a": "T",
+          "why": "The text says: \"runs a Rubik's Cube club at the local library\""
+        },
+        {
+          "s": "The Darlington event had fewer than ten competitors.",
+          "a": "F",
+          "why": "The text says the opposite: \"with more than 60 competitors\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "A Rubik's Cube is a puzzle that is solved by ____.",
+            "a": "twisting"
+          },
+          {
+            "s": "Thomas now ____ about nine seconds on a standard cube.",
+            "a": "averages"
+          },
+          {
+            "s": "The clock and the standard cube are different ____.",
+            "a": "events"
+          },
+          {
+            "s": "She says that the community is a wonderful and ____ one.",
+            "a": "supportive"
+          },
+          {
+            "s": "These are the views of Thomas and his mother, not a ____.",
+            "a": "study"
+          }
+        ],
+        "extra": [
+          "award",
+          "prize"
+        ]
+      },
+      "match": [
+        {
+          "t": "ranked",
+          "d": "given a place in a list according to how fast or good someone is"
+        },
+        {
+          "t": "solitary",
+          "d": "done alone"
+        },
+        {
+          "t": "community",
+          "d": "a group of people who share an interest"
+        },
+        {
+          "t": "guarantee",
+          "d": "a promise that something will definitely happen"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Thomas ____ from a family friend.",
+            "cue": "learn",
+            "a": "learned"
+          },
+          {
+            "s": "He ____ interested when he was given some cubes.",
+            "cue": "become",
+            "a": "became"
+          },
+          {
+            "s": "Louise Allinson ____ a club at the library.",
+            "cue": "run",
+            "a": "runs"
+          },
+          {
+            "s": "The report ____ published on 16 May 2026.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "He ____ that it is mainly the social side that he enjoys.",
+            "cue": "say",
+            "a": "says"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Thomas now averages about nine seconds on a standard cube.",
+          "a": "T",
+          "why": "The text says: \"He now averages about nine seconds on a standard 3x3 cube\""
+        },
+        {
+          "s": "Thomas's main event is the standard 3x3 cube.",
+          "a": "F",
+          "why": "The text says the opposite: \"His main event, though, is a different puzzle called the clock\""
+        },
+        {
+          "s": "Thomas has met Erno Rubik.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "One competition was held at a railway museum in Darlington.",
+          "a": "T",
+          "why": "The text says: \"at the Hopetown Railway Museum in Darlington\""
+        },
+        {
+          "s": "The text says the report proves puzzles improve social skills.",
+          "a": "F",
+          "why": "The text says the opposite: \"They do not show that puzzles improve everyone's social skills\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Thomas's main event is a different ____ called the clock.",
+            "a": "puzzle"
+          },
+          {
+            "s": "A shared ____ is one of the quickest ways to turn strangers into a group.",
+            "a": "language"
+          },
+          {
+            "s": "The comments come from Thomas and his mother, not from a ____.",
+            "a": "study"
+          },
+          {
+            "s": "A library club, a local competition and a clear first step all make a hobby easier to ____.",
+            "a": "join"
+          },
+          {
+            "s": "Improving together, comparing times and cheering for the winner are all part of the same ____.",
+            "a": "activity"
+          }
+        ],
+        "extra": [
+          "prize",
+          "ranking"
+        ]
+      },
+      "match": [
+        {
+          "t": "ranked",
+          "d": "given a place in a list according to how fast or good someone is"
+        },
+        {
+          "t": "rivals",
+          "d": "people or groups who compete against each other"
+        },
+        {
+          "t": "supportive",
+          "d": "helpful and encouraging to other people"
+        },
+        {
+          "t": "welcoming",
+          "d": "friendly to new people"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "He says it is mainly the ____ side that he enjoys.",
+            "cue": "SOCIETY",
+            "a": "social"
+          },
+          {
+            "s": "A library club and a local ____ make a hobby easier to join.",
+            "cue": "COMPETE",
+            "a": "competition"
+          },
+          {
+            "s": "Going to competitions has given Thomas ____.",
+            "cue": "CONFIDENT",
+            "a": "confidence"
+          },
+          {
+            "s": "We tend to think that competition makes people rivals, and that ____ needs a break from competing.",
+            "cue": "FRIEND",
+            "a": "friendship"
+          },
+          {
+            "s": "A hobby in which competition and ____ exist at the same time.",
+            "cue": "KIND",
+            "a": "kindness"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Thomas was ranked sixth fastest in the UK in the clock when the report was published.",
+          "a": "T",
+          "why": "The text says: \"ranked sixth fastest in the UK when the report was published\""
+        },
+        {
+          "s": "Thomas's main event is the standard cube.",
+          "a": "F",
+          "why": "The text says the opposite: \"his main event is a different puzzle called the clock\""
+        },
+        {
+          "s": "Thomas wants to organise his own national competition.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "More than 60 competitors were due to take part in the Darlington competition.",
+          "a": "T",
+          "why": "The text says: \"More than 60 competitors from around the UK were due to take part\""
+        },
+        {
+          "s": "The text says the report proves that puzzles improve social skills.",
+          "a": "F",
+          "why": "The text says the opposite: \"they do not show that puzzles improve everyone's social skills\""
+        }
+      ]
+    }
+  }
+}

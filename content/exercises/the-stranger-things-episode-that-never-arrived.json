@@ -1,0 +1,320 @@
+{
+  "slug": "the-stranger-things-episode-that-never-arrived",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "A ____ is an idea that tries to explain something.",
+            "a": "theory"
+          },
+          {
+            "s": "Fans looked for ____ in the show.",
+            "a": "clues"
+          },
+          {
+            "s": "Netflix said that all the episodes were already ____.",
+            "a": "available"
+          },
+          {
+            "s": "Many fans made jokes about the ____ on social media.",
+            "a": "disappointment"
+          },
+          {
+            "s": "The ____ of the show said there was hardly any film that they had not already used.",
+            "a": "creators"
+          }
+        ],
+        "extra": [
+          "rumours",
+          "season"
+        ]
+      },
+      "match": [
+        {
+          "t": "theory",
+          "d": "an idea that tries to explain something but has not been proved"
+        },
+        {
+          "t": "clues",
+          "d": "small pieces of information that help you find an answer"
+        },
+        {
+          "t": "creators",
+          "d": "the people who make something new, such as a TV show"
+        },
+        {
+          "t": "evidence",
+          "d": "facts that show whether something is true"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The last episode ____ out on New Year's Eve 2025.",
+            "cue": "come",
+            "a": "came"
+          },
+          {
+            "s": "Some fans ____ that it was not the real ending.",
+            "cue": "believe",
+            "a": "believed"
+          },
+          {
+            "s": "Netflix ____ that all the episodes were already available.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "No new episode ____ on 7 January.",
+            "cue": "appear",
+            "a": "appeared"
+          },
+          {
+            "s": "Fans ____ for clues in the show.",
+            "cue": "look",
+            "a": "looked"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Fans expected a secret episode on 7 January 2026.",
+          "a": "T",
+          "why": "The text says: \"one more secret episode would appear a week later, on 7 January 2026\""
+        },
+        {
+          "s": "A new episode appeared on 7 January.",
+          "a": "F",
+          "why": "The text says the opposite: \"no new episode appeared\""
+        },
+        {
+          "s": "The theory started in a chat group in Spain.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Netflix said that all the episodes were already available.",
+          "a": "T",
+          "why": "The text says: \"Netflix said that all the episodes were already available\""
+        },
+        {
+          "s": "The creators said they had hours of unused film.",
+          "a": "F",
+          "why": "The text says the opposite: \"there was hardly any film that they had not already used\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Some fans believed the finale was not the real ____.",
+            "a": "ending"
+          },
+          {
+            "s": "Fans pointed to hidden messages in objects on the ____.",
+            "a": "set"
+          },
+          {
+            "s": "The Duffer brothers said there was hardly any ____ that had not been used.",
+            "a": "footage"
+          },
+          {
+            "s": "About 390,000 people signed a ____ asking for unseen clips to be released.",
+            "a": "petition"
+          },
+          {
+            "s": "Each time a message is passed on, the ____ tends to disappear.",
+            "a": "uncertainty"
+          }
+        ],
+        "extra": [
+          "budget",
+          "sequel"
+        ]
+      },
+      "match": [
+        {
+          "t": "theory",
+          "d": "an idea that tries to explain something but has not been proved"
+        },
+        {
+          "t": "petition",
+          "d": "a request signed by many people, asking for a change"
+        },
+        {
+          "t": "rumour",
+          "d": "a story that people pass on without proof"
+        },
+        {
+          "t": "footage",
+          "d": "film or video that has been recorded"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Fans ____ a secret episode on 7 January.",
+            "cue": "expect",
+            "a": "expected"
+          },
+          {
+            "s": "No extra episode ____ on that day.",
+            "cue": "appear",
+            "a": "appeared"
+          },
+          {
+            "s": "The Duffer brothers ____ there was hardly any unused footage.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "Many jokes ____ the disappointment.",
+            "cue": "follow",
+            "a": "followed"
+          },
+          {
+            "s": "About 390,000 people ____ a petition.",
+            "cue": "sign",
+            "a": "signed"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Fans expected the extra episode a week after the finale.",
+          "a": "T",
+          "why": "The text says: \"a week after the finale\""
+        },
+        {
+          "s": "LBC confirmed that Netflix crashed.",
+          "a": "F",
+          "why": "The text says the opposite: \"this was not confirmed\""
+        },
+        {
+          "s": "The Duffer brothers read the fan theory online.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "About 390,000 people signed a petition.",
+          "a": "T",
+          "why": "The text says: \"About 390,000 people signed a petition\""
+        },
+        {
+          "s": "The petition asked Netflix to cancel the show.",
+          "a": "F",
+          "why": "The text says the opposite: \"asking for unseen clips to be released\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Fans can enjoy ____ without calling it news.",
+            "a": "speculation"
+          },
+          {
+            "s": "As a claim is repeated, its wording ____.",
+            "a": "hardens"
+          },
+          {
+            "s": "An attractive explanation can feel more ____ than the evidence justifies.",
+            "a": "believable"
+          },
+          {
+            "s": "It helps to separate a guess, a report and an official ____.",
+            "a": "statement"
+          },
+          {
+            "s": "The evidence has not changed at all. Only the ____ has.",
+            "a": "confidence"
+          }
+        ],
+        "extra": [
+          "ending",
+          "joke"
+        ]
+      },
+      "match": [
+        {
+          "t": "speculation",
+          "d": "guessing about something without enough facts"
+        },
+        {
+          "t": "hardens",
+          "d": "becomes firmer and less open to change"
+        },
+        {
+          "t": "petition",
+          "d": "a request signed by many people, asking for a change"
+        },
+        {
+          "t": "official",
+          "d": "coming from the people who have the authority to say it"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Fans can enjoy ____ without calling it news.",
+            "cue": "SPECULATE",
+            "a": "speculation"
+          },
+          {
+            "s": "An attractive explanation can feel more ____ than the evidence justifies.",
+            "cue": "BELIEVE",
+            "a": "believable"
+          },
+          {
+            "s": "A story with ____ questions can be better than one that answers all of them.",
+            "cue": "ANSWER",
+            "a": "unanswered"
+          },
+          {
+            "s": "The ____ skill is to enjoy a theory as a theory.",
+            "cue": "PRACTICE",
+            "a": "practical"
+          },
+          {
+            "s": "The evidence has not changed at all. Only the ____ has.",
+            "cue": "CONFIDENT",
+            "a": "confidence"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Fans expected an extra episode on 7 January 2026.",
+          "a": "T",
+          "why": "The text says: \"another episode would appear on Wednesday 7 January 2026\""
+        },
+        {
+          "s": "The text says the Netflix crash report was confirmed.",
+          "a": "F",
+          "why": "The text says the opposite: \"this has not been confirmed\""
+        },
+        {
+          "s": "The Duffer brothers laughed about the theory.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "About 390,000 people signed a petition.",
+          "a": "T",
+          "why": "The text says: \"About 390,000 people signed a petition\""
+        },
+        {
+          "s": "The text says most fans were trying to mislead people.",
+          "a": "F",
+          "why": "The text says the opposite: \"Most of them were not trying to mislead anyone\""
+        }
+      ]
+    }
+  }
+}

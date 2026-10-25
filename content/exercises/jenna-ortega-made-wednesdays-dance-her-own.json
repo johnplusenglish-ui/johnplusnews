@@ -1,0 +1,320 @@
+{
+  "slug": "jenna-ortega-made-wednesdays-dance-her-own",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "In episode four, Wednesday goes to a school ____.",
+            "a": "dance"
+          },
+          {
+            "s": "Jenna Ortega decided to ____ the dance herself.",
+            "a": "create"
+          },
+          {
+            "s": "The creators talked about hiring a professional ____.",
+            "a": "choreographer"
+          },
+          {
+            "s": "She added a small ____ step to say thank you to Lisa Loring.",
+            "a": "side"
+          },
+          {
+            "s": "Wednesday does not care what other people ____.",
+            "a": "think"
+          }
+        ],
+        "extra": [
+          "teacher",
+          "costume"
+        ]
+      },
+      "match": [
+        {
+          "t": "choreographer",
+          "d": "a person who plans the steps of a dance"
+        },
+        {
+          "t": "influences",
+          "d": "people or things that change how you think or make something"
+        },
+        {
+          "t": "freeing",
+          "d": "making you feel less worried about being controlled"
+        },
+        {
+          "t": "professional",
+          "d": "trained and paid to do a job as an expert"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In episode four, Wednesday ____ to a school dance.",
+            "cue": "go",
+            "a": "goes"
+          },
+          {
+            "s": "Ortega ____ to create the dance herself.",
+            "cue": "decide",
+            "a": "decided"
+          },
+          {
+            "s": "She ____ ideas from other performers.",
+            "cue": "take",
+            "a": "took"
+          },
+          {
+            "s": "Ortega ____ it felt freeing to play a character who does not worry.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "The writers ____ that she would dance.",
+            "cue": "know",
+            "a": "knew"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Jenna Ortega created the dance herself.",
+          "a": "T",
+          "why": "The text says: \"decided to create the dance herself\""
+        },
+        {
+          "s": "A professional choreographer planned every step.",
+          "a": "F",
+          "why": "The text says the opposite: \"Ortega told them she already had the dance in her head\""
+        },
+        {
+          "s": "Ortega practised the dance for a month.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Wednesday goes to a school dance in episode four.",
+          "a": "T",
+          "why": "The text says: \"in episode four she goes to a school dance\""
+        },
+        {
+          "s": "Ortega did not name any other performers.",
+          "a": "F",
+          "why": "The text says the opposite: \"She also named the actor Denis Lavant and the choreographer Bob Fosse as influences.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "She included a side shuffle as a ____ to Lisa Loring.",
+            "a": "tribute"
+          },
+          {
+            "s": "Ortega ____ that she already had the dance in her head.",
+            "a": "insisted"
+          },
+          {
+            "s": "The movement shows how ____ Wednesday is.",
+            "a": "unpredictable"
+          },
+          {
+            "s": "His shocked reaction in the scene was ____.",
+            "a": "improvised"
+          },
+          {
+            "s": "Where is the line between inspiration and ____?",
+            "a": "copying"
+          }
+        ],
+        "extra": [
+          "rehearsed",
+          "planned"
+        ]
+      },
+      "match": [
+        {
+          "t": "tribute",
+          "d": "something done to show respect and thanks to someone"
+        },
+        {
+          "t": "unpredictable",
+          "d": "likely to change in ways nobody expects"
+        },
+        {
+          "t": "improvised",
+          "d": "done without any preparation"
+        },
+        {
+          "t": "choreographer",
+          "d": "a person who plans the steps of a dance"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The co-creator ____ the team discussed hiring a professional.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "Ortega ____ the routine herself.",
+            "cue": "choreograph",
+            "a": "choreographed"
+          },
+          {
+            "s": "She ____ Denis Lavant as an influence.",
+            "cue": "credit",
+            "a": "credited"
+          },
+          {
+            "s": "Hunter Doohan ____ asking what the dance would be.",
+            "cue": "keep",
+            "a": "kept"
+          },
+          {
+            "s": "The director ____ his reaction.",
+            "cue": "encourage",
+            "a": "encouraged"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The co-creator says the team discussed using a professional choreographer.",
+          "a": "T",
+          "why": "The text says: \"said the team discussed this idea\""
+        },
+        {
+          "s": "Lisa Loring played the original Wednesday in the 1990s.",
+          "a": "F",
+          "why": "The text says the opposite: \"who played the original Wednesday in the 1960s\""
+        },
+        {
+          "s": "Ortega had dance lessons as a child.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Tim Burton encouraged Doohan's improvised reaction.",
+          "a": "T",
+          "why": "The text says: \"the director, Tim Burton, encouraged it\""
+        },
+        {
+          "s": "The Netflix account is an independent review of the scene.",
+          "a": "F",
+          "why": "The text says the opposite: \"this account comes from Netflix, which is talking about its own production\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Taking inspiration means learning from someone and ____ so.",
+            "a": "saying"
+          },
+          {
+            "s": "Copying means presenting someone else's work as your ____.",
+            "a": "own"
+          },
+          {
+            "s": "The movement reflects Wednesday's ____ and her indifference to other people's opinions.",
+            "a": "unpredictability"
+          },
+          {
+            "s": "This is a behind-the-scenes ____ from Netflix about its own production.",
+            "a": "account"
+          },
+          {
+            "s": "Awkward-looking can still be a good creative ____.",
+            "a": "choice"
+          }
+        ],
+        "extra": [
+          "habit",
+          "mistake"
+        ]
+      },
+      "match": [
+        {
+          "t": "indifference",
+          "d": "a lack of interest in what other people think or feel"
+        },
+        {
+          "t": "improvised",
+          "d": "done without any preparation"
+        },
+        {
+          "t": "tribute",
+          "d": "something done to show respect and thanks to someone"
+        },
+        {
+          "t": "account",
+          "d": "a description of events given by someone who was involved"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The movement reflects Wednesday's ____.",
+            "cue": "PREDICT",
+            "a": "unpredictability"
+          },
+          {
+            "s": "Playing her was ____ because the character does not need to please anyone.",
+            "cue": "FREE",
+            "a": "freeing"
+          },
+          {
+            "s": "The movement reflects her ____ to other people's opinions.",
+            "cue": "INDIFFERENT",
+            "a": "indifference"
+          },
+          {
+            "s": "It was a contrast with her own past as a people-____.",
+            "cue": "PLEASE",
+            "a": "pleaser"
+          },
+          {
+            "s": "Doohan's stunned ____ in the scene was improvised.",
+            "cue": "REACT",
+            "a": "reaction"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Ortega credited Denis Lavant as an influence.",
+          "a": "T",
+          "why": "The text says: \"credited the French actor Denis Lavant\""
+        },
+        {
+          "s": "The text says Ortega worked completely alone.",
+          "a": "F",
+          "why": "The text says the opposite: \"does not mean she worked alone\""
+        },
+        {
+          "s": "Ortega wrote the music for the scene.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The dance scene takes place in episode four.",
+          "a": "T",
+          "why": "The text says: \"In episode four\""
+        },
+        {
+          "s": "The text calls the Netflix article an independent assessment.",
+          "a": "F",
+          "why": "The text says the opposite: \"so it is more of a portrait than an independent assessment\""
+        }
+      ]
+    }
+  }
+}

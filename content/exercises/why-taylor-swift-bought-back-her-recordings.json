@@ -1,0 +1,320 @@
+{
+  "slug": "why-taylor-swift-bought-back-her-recordings",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "A song and a ____ are two different things.",
+            "a": "recording"
+          },
+          {
+            "s": "In many music deals, the company that pays for the recording ____ it.",
+            "a": "owns"
+          },
+          {
+            "s": "Swift bought the ____ recordings of her first six albums.",
+            "a": "original"
+          },
+          {
+            "s": "She wanted to own her music completely, with no ____ attached.",
+            "a": "strings"
+          },
+          {
+            "s": "Nobody said how much she ____.",
+            "a": "paid"
+          }
+        ],
+        "extra": [
+          "borrowed",
+          "famous"
+        ]
+      },
+      "match": [
+        {
+          "t": "recording",
+          "d": "one performance of a song that has been saved so it can be heard again"
+        },
+        {
+          "t": "original",
+          "d": "the first one, not a copy or a new version"
+        },
+        {
+          "t": "strings attached",
+          "d": "conditions that limit what you are free to do"
+        },
+        {
+          "t": "unreleased",
+          "d": "not yet shared with the public"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "On 30 May 2025, Swift ____ her fans that she had bought the recordings.",
+            "cue": "tell",
+            "a": "told"
+          },
+          {
+            "s": "She ____ them from a company called Shamrock Capital.",
+            "cue": "buy",
+            "a": "bought"
+          },
+          {
+            "s": "Swift had already ____ new versions of four of those albums.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "She ____ her fans for supporting her new versions and her tour.",
+            "cue": "thank",
+            "a": "thanked"
+          },
+          {
+            "s": "She also said she now ____ her music videos and concert films.",
+            "cue": "own",
+            "a": "owns"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Swift bought the recordings of her first six albums.",
+          "a": "T",
+          "why": "The text says: \"she had bought the original recordings of her first six albums\""
+        },
+        {
+          "s": "Swift bought the recordings from her own family.",
+          "a": "F",
+          "why": "The text says the opposite: \"She bought them from a company called Shamrock Capital.\""
+        },
+        {
+          "s": "Swift paid more than 100 million dollars for the recordings.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Swift had already made new versions of four of the albums.",
+          "a": "T",
+          "why": "The text says: \"Swift had already made new versions of four of those albums.\""
+        },
+        {
+          "s": "Swift did not thank her fans in her letter.",
+          "a": "F",
+          "why": "The text says the opposite: \"She thanked her fans for supporting her new versions and her tour.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "A ____ is a particular performance of a song that has been saved.",
+            "a": "recording"
+          },
+          {
+            "s": "The seller was Shamrock Capital, and the ____ was not disclosed.",
+            "a": "price"
+          },
+          {
+            "s": "The recordings had ____ hands before.",
+            "a": "changed"
+          },
+          {
+            "s": "She wanted to own her music ____, with no strings attached.",
+            "a": "outright"
+          },
+          {
+            "s": "It is one musician's account of her own ____, not a rule about every artist.",
+            "a": "experience"
+          }
+        ],
+        "extra": [
+          "decision",
+          "release"
+        ]
+      },
+      "match": [
+        {
+          "t": "outright",
+          "d": "completely, not partly or with conditions"
+        },
+        {
+          "t": "strings attached",
+          "d": "conditions that limit what you are free to do"
+        },
+        {
+          "t": "re-recorded",
+          "d": "performed and saved again"
+        },
+        {
+          "t": "terms",
+          "d": "the conditions of an agreement"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Swift ____ in a letter to her fans that she had bought the recordings.",
+            "cue": "announce",
+            "a": "announced"
+          },
+          {
+            "s": "In 2019, Ithaca Holdings ____ the label that held the recordings.",
+            "cue": "buy",
+            "a": "bought"
+          },
+          {
+            "s": "In 2020, the recordings ____ sold on to Shamrock Capital.",
+            "cue": "be",
+            "a": "were"
+          },
+          {
+            "s": "She ____ her fans for supporting the new versions.",
+            "cue": "thank",
+            "a": "thanked"
+          },
+          {
+            "s": "The letter ____ not give the price.",
+            "cue": "do",
+            "a": "does"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The recordings were sold to Shamrock Capital in 2020.",
+          "a": "T",
+          "why": "The text says: \"in 2020 they were sold on to Shamrock Capital\""
+        },
+        {
+          "s": "The price of the deal was announced in the letter.",
+          "a": "F",
+          "why": "The text says the opposite: \"The price was not disclosed.\""
+        },
+        {
+          "s": "Swift plans to re-record her debut album next year.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "By May 2025, Swift had released new recordings of four of the six albums.",
+          "a": "T",
+          "why": "The text says: \"Swift had already released new recordings of four of the six albums\""
+        },
+        {
+          "s": "This story shows how every artist's contract works.",
+          "a": "F",
+          "why": "The text says the opposite: \"not a rule about every artist's contract\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "A ____ is one captured performance of a song.",
+            "a": "recording"
+          },
+          {
+            "s": "Shamrock had been the first to offer her the chance to buy her music ____.",
+            "a": "outright"
+          },
+          {
+            "s": "The price was not ____.",
+            "a": "disclosed"
+          },
+          {
+            "s": "Credit helps, but it is not the same as ____.",
+            "a": "control"
+          },
+          {
+            "s": "Decisions about her earliest albums belonged to ____ rather than to the person who made them.",
+            "a": "businesses"
+          }
+        ],
+        "extra": [
+          "decades",
+          "lyrics"
+        ]
+      },
+      "match": [
+        {
+          "t": "outright",
+          "d": "completely, not partly or with conditions"
+        },
+        {
+          "t": "paradoxical",
+          "d": "seeming to say two opposite things at once"
+        },
+        {
+          "t": "disclosed",
+          "d": "made known to the public"
+        },
+        {
+          "t": "negotiating",
+          "d": "talking in order to agree on conditions"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "She wanted to own her work outright, with full creative ____.",
+            "cue": "FREE",
+            "a": "freedom"
+          },
+          {
+            "s": "Decisions belonged to ____ rather than to the person who made them.",
+            "cue": "BUSINESS",
+            "a": "businesses"
+          },
+          {
+            "s": "The company that pays for the recording becomes its ____.",
+            "cue": "OWN",
+            "a": "owner"
+          },
+          {
+            "s": "The details of her early ____ are not part of the announcement.",
+            "cue": "AGREE",
+            "a": "agreements"
+          },
+          {
+            "s": "The small print of a first agreement deserves ____.",
+            "cue": "ATTEND",
+            "a": "attention"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Swift said that Shamrock was the first to offer her the chance to buy her music outright.",
+          "a": "T",
+          "why": "The text says: \"had been the first to offer her the chance to buy her music outright\""
+        },
+        {
+          "s": "The price of the deal was announced.",
+          "a": "F",
+          "why": "The text says the opposite: \"The price was not disclosed.\""
+        },
+        {
+          "s": "Swift plans to re-record Reputation next year.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "By May 2025, four of the six albums had been re-recorded.",
+          "a": "T",
+          "why": "The text says: \"By May 2025 she had released new recordings of four of the six albums\""
+        },
+        {
+          "s": "Swift said she does not own her music videos.",
+          "a": "F",
+          "why": "The text says the opposite: \"she now owns her music videos, concert films, album art, photography and unreleased songs\""
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "slug": "the-real-story-behind-the-aura-farming-dance",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "He said the dance was ____, which means he did not plan it.",
+            "a": "spontaneous"
+          },
+          {
+            "s": "The video was filmed at a boat ____ called Pacu Jalur.",
+            "a": "race"
+          },
+          {
+            "s": "The dancer's job is to give the ____ energy.",
+            "a": "crew"
+          },
+          {
+            "s": "\"Aura farming\" means looking ____ and building your aura.",
+            "a": "cool"
+          },
+          {
+            "s": "A short video can travel far, but it can lose its ____.",
+            "a": "story"
+          }
+        ],
+        "extra": [
+          "quiet",
+          "weak"
+        ]
+      },
+      "match": [
+        {
+          "t": "spontaneous",
+          "d": "done suddenly, without planning"
+        },
+        {
+          "t": "crew",
+          "d": "the group of people who work together on a boat"
+        },
+        {
+          "t": "ambassador",
+          "d": "a person chosen to represent a place or a group"
+        },
+        {
+          "t": "tradition",
+          "d": "a custom that people have kept for many years"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "He ____ up the dance himself.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "The video ____ filmed at a boat race.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "People all over the world ____ his dance.",
+            "cue": "copy",
+            "a": "copied"
+          },
+          {
+            "s": "The governor ____ him a cultural ambassador.",
+            "cue": "name",
+            "a": "named"
+          },
+          {
+            "s": "She ____ there is a rescue team near the boats.",
+            "cue": "say",
+            "a": "said"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Rayyan was eleven years old in 2025.",
+          "a": "T",
+          "why": "The text says: \"In 2025, he was eleven years old.\""
+        },
+        {
+          "s": "Rayyan copied the dance from a teacher.",
+          "a": "F",
+          "why": "The text says the opposite: \"He told the BBC that he made up the dance himself.\""
+        },
+        {
+          "s": "Rayyan wants to be a footballer.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The governor of Rayyan's province named him a cultural ambassador.",
+          "a": "T",
+          "why": "The text says: \"The governor of his province named him a cultural ambassador.\""
+        },
+        {
+          "s": "There is no rescue team near the boats.",
+          "a": "F",
+          "why": "The text says the opposite: \"She said there is a rescue team near the boats.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Rayyan wore a traditional outfit and a ____ at the national race.",
+            "a": "headcloth"
+          },
+          {
+            "s": "The dancer's job is to ____ the crew.",
+            "a": "energise"
+          },
+          {
+            "s": "\"Aura\" is a word for ____.",
+            "a": "charisma"
+          },
+          {
+            "s": "\"Aura farming\" is a phrase that the internet attached ____.",
+            "a": "afterwards"
+          },
+          {
+            "s": "There is a difference between the dance, the race and the ____.",
+            "a": "label"
+          }
+        ],
+        "extra": [
+          "festival",
+          "prize"
+        ]
+      },
+      "match": [
+        {
+          "t": "charisma",
+          "d": "a special quality that makes people admire you and want to watch you"
+        },
+        {
+          "t": "crew",
+          "d": "the group of people who work together on a boat"
+        },
+        {
+          "t": "ambassador",
+          "d": "a person chosen to represent a place or a group"
+        },
+        {
+          "t": "tradition",
+          "d": "a custom that people have kept for many years"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Rayyan ____ eleven at the time.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "He ____ BBC Indonesia that he created the moves himself.",
+            "cue": "tell",
+            "a": "told"
+          },
+          {
+            "s": "The BBC ____ that videos with this tag had millions of views.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "His mother ____ she worries that he might fall.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "Videos with this tag ____ millions of views on TikTok by early July.",
+            "cue": "have",
+            "a": "had"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Rayyan was eleven at the time of the clip.",
+          "a": "T",
+          "why": "The text says: \"who was eleven at the time\""
+        },
+        {
+          "s": "The boat is rowed by two people.",
+          "a": "F",
+          "why": "The text says the opposite: \"the boat is rowed by at least eleven adults\""
+        },
+        {
+          "s": "Rayyan has won a national dance prize.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Rayyan was named a cultural ambassador by his governor.",
+          "a": "T",
+          "why": "The text says: \"Rayyan was named a cultural ambassador by the governor of his province\""
+        },
+        {
+          "s": "The dancer's job is to steer the boat.",
+          "a": "F",
+          "why": "The text says the opposite: \"his job is to energise the crew\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Rayyan was making his debut as the Togak Luan, whose role is to ____ the crew.",
+            "a": "energise"
+          },
+          {
+            "s": "He moves his arms with a calm, ____ confidence.",
+            "a": "expressionless"
+          },
+          {
+            "s": "The clip came to stand for \"aura farming\", an internet ____.",
+            "a": "phrase"
+          },
+          {
+            "s": "\"Aura farming\" is a ____ that internet users attached later.",
+            "a": "label"
+          },
+          {
+            "s": "Credit is what turns a copy into a ____.",
+            "a": "conversation"
+          }
+        ],
+        "extra": [
+          "result",
+          "victory"
+        ]
+      },
+      "match": [
+        {
+          "t": "improvisation",
+          "d": "something done without preparation, as the moment demands"
+        },
+        {
+          "t": "expressionless",
+          "d": "showing no feeling on the face"
+        },
+        {
+          "t": "credit",
+          "d": "public recognition of who made something"
+        },
+        {
+          "t": "tangled",
+          "d": "mixed together in a way that is hard to separate"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "He moves his arms with a calm, ____ confidence.",
+            "cue": "EXPRESSION",
+            "a": "expressionless"
+          },
+          {
+            "s": "For millions of viewers, he is a performer displaying ____ cool.",
+            "cue": "EFFORT",
+            "a": "effortless"
+          },
+          {
+            "s": "It is not proof that the phrase is still ____ in every classroom.",
+            "cue": "FASHION",
+            "a": "fashionable"
+          },
+          {
+            "s": "The minister pointed to the ____ side of the dance.",
+            "cue": "PRACTICE",
+            "a": "practical"
+          },
+          {
+            "s": "He stands at the front in a ____ outfit with a headcloth.",
+            "cue": "TRADITION",
+            "a": "traditional"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Rayyan said he invented the moves himself.",
+          "a": "T",
+          "why": "The text says: \"he invented the moves himself\""
+        },
+        {
+          "s": "The clip proves that the tradition was invented online.",
+          "a": "F",
+          "why": "The text says the opposite: \"not evidence that the tradition was invented online\""
+        },
+        {
+          "s": "Rayyan has appeared in a television advert.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The governor of his province named Rayyan a cultural ambassador.",
+          "a": "T",
+          "why": "The text says: \"He was named a cultural ambassador by the governor of his province\""
+        },
+        {
+          "s": "Rayyan recognised all the famous people who copied him.",
+          "a": "F",
+          "why": "The text says the opposite: \"he did not recognise the famous people who had copied him\""
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "slug": "how-did-delulu-get-into-the-dictionary",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "The experts who write dictionaries are called ____.",
+            "a": "lexicographers"
+          },
+          {
+            "s": "When they decide that a word has ____ power, they can add it.",
+            "a": "staying"
+          },
+          {
+            "s": "\"Delulu\" is a playful, ____ word.",
+            "a": "informal"
+          },
+          {
+            "s": "____ is often short-lived.",
+            "a": "Slang"
+          },
+          {
+            "s": "A dictionary is a ____ of how people use words.",
+            "a": "record"
+          }
+        ],
+        "extra": [
+          "fashion",
+          "rules"
+        ]
+      },
+      "match": [
+        {
+          "t": "lexicographers",
+          "d": "people who write or edit dictionaries"
+        },
+        {
+          "t": "slang",
+          "d": "very casual words that are popular with a certain group"
+        },
+        {
+          "t": "evidence",
+          "d": "facts that help you decide whether something is true"
+        },
+        {
+          "t": "informal",
+          "d": "used with friends, not in careful writing or speech"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In August 2025, the Cambridge Dictionary ____ some new words from the internet.",
+            "cue": "add",
+            "a": "added"
+          },
+          {
+            "s": "The experts who write dictionaries ____ called lexicographers.",
+            "cue": "be",
+            "a": "are"
+          },
+          {
+            "s": "\"Skibidi\" ____ popular because of a YouTube series.",
+            "cue": "become",
+            "a": "became"
+          },
+          {
+            "s": "Many other words ____ not get in.",
+            "cue": "do",
+            "a": "did"
+          },
+          {
+            "s": "Imagine a teacher ____, \"That is not a real word.\"",
+            "cue": "say",
+            "a": "says"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "In August 2025, the Cambridge Dictionary added new words from the internet.",
+          "a": "T",
+          "why": "The text says: \"In August 2025, the Cambridge Dictionary added some new words from the internet.\""
+        },
+        {
+          "s": "\"Skibidi\" became popular because of a cooking show.",
+          "a": "F",
+          "why": "The text says the opposite: \"It became popular because of a YouTube series called Skibidi Toilet.\""
+        },
+        {
+          "s": "\"Delulu\" is now used in school exams.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Words can leave a dictionary when people stop using them.",
+          "a": "T",
+          "why": "The text says: \"Words can also leave a dictionary when people stop using them.\""
+        },
+        {
+          "s": "If a word is not in a dictionary, it must be wrong.",
+          "a": "F",
+          "why": "The text says the opposite: \"that does not make it wrong or fake\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Karen Stollznow wrote about the additions for Cambridge University ____.",
+            "a": "Press"
+          },
+          {
+            "s": "The words showed staying power, which means that people were likely to keep ____ them.",
+            "a": "using"
+          },
+          {
+            "s": "Slang is often ____, so the decision is difficult.",
+            "a": "fleeting"
+          },
+          {
+            "s": "A dictionary is a record of how a language is used, not a list of ____.",
+            "a": "permissions"
+          },
+          {
+            "s": "Choosing words for your ____ is part of knowing a language.",
+            "a": "audience"
+          }
+        ],
+        "extra": [
+          "opinion",
+          "memory"
+        ]
+      },
+      "match": [
+        {
+          "t": "lexicographers",
+          "d": "people who write or edit dictionaries"
+        },
+        {
+          "t": "vetting",
+          "d": "careful checking before something is accepted"
+        },
+        {
+          "t": "fleeting",
+          "d": "lasting for only a very short time"
+        },
+        {
+          "t": "audience",
+          "d": "the people who read or listen to what you say"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The dictionary ____ a handful of internet slang words in August 2025.",
+            "cue": "add",
+            "a": "added"
+          },
+          {
+            "s": "Stollznow ____ about the additions for Cambridge University Press.",
+            "cue": "write",
+            "a": "wrote"
+          },
+          {
+            "s": "Slang frequently ____ to survive the vetting process.",
+            "cue": "fail",
+            "a": "fails"
+          },
+          {
+            "s": "Many more candidates never ____ it in.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "The word \"younker\" ____ retired because it fell out of use.",
+            "cue": "be",
+            "a": "was"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The dictionary added more than 6,000 words in the previous twelve months.",
+          "a": "T",
+          "why": "The text says: \"The dictionary added more than 6,000 words in the previous twelve months\""
+        },
+        {
+          "s": "Stollznow says a word that is not in a dictionary is not real.",
+          "a": "F",
+          "why": "The text says the opposite: \"a word's absence from a particular dictionary does not make it any less real or valid\""
+        },
+        {
+          "s": "Cambridge plans to add more slang words next year.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The experts who compile dictionaries are called lexicographers.",
+          "a": "T",
+          "why": "The text says: \"the experts who compile dictionaries are called lexicographers\""
+        },
+        {
+          "s": "A dictionary entry is a recommendation to use slang everywhere.",
+          "a": "F",
+          "why": "The text says the opposite: \"a dictionary entry is not a recommendation to use slang everywhere\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Slang is a difficult case, because it is often ____.",
+            "a": "fleeting"
+          },
+          {
+            "s": "Lexicographers closely ____ how words are used in books, newspapers and online.",
+            "a": "monitor"
+          },
+          {
+            "s": "A word's ____ from a dictionary does not make it any less real.",
+            "a": "absence"
+          },
+          {
+            "s": "A dictionary ____; it does not give orders.",
+            "a": "describes"
+          },
+          {
+            "s": "Part of the pleasure of slang is that it signals ____ of a group.",
+            "a": "membership"
+          }
+        ],
+        "extra": [
+          "approval",
+          "choice"
+        ]
+      },
+      "match": [
+        {
+          "t": "fleeting",
+          "d": "lasting for only a very short time"
+        },
+        {
+          "t": "vetting",
+          "d": "careful checking before something is accepted"
+        },
+        {
+          "t": "monitor",
+          "d": "to watch something carefully over a period of time"
+        },
+        {
+          "t": "audience",
+          "d": "the people who read or listen to what you say"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "A word's ____ from a dictionary does not make it any less real.",
+            "cue": "ABSENT",
+            "a": "absence"
+          },
+          {
+            "s": "____ is not taken lightly.",
+            "cue": "REMOVE",
+            "a": "Removal"
+          },
+          {
+            "s": "A careful review looks at a word's usage and ____.",
+            "cue": "POPULAR",
+            "a": "popularity"
+          },
+          {
+            "s": "____ does not make a word correct everywhere.",
+            "cue": "INCLUDE",
+            "a": "Inclusion"
+          },
+          {
+            "s": "Part of the pleasure of slang is that it signals ____ of a group.",
+            "cue": "MEMBER",
+            "a": "membership"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Stollznow says slang often fails to survive the vetting process.",
+          "a": "T",
+          "why": "The text says: \"slang frequently fails to survive the vetting process\""
+        },
+        {
+          "s": "Stollznow says a word that is not in a dictionary is not real.",
+          "a": "F",
+          "why": "The text says the opposite: \"a word's absence from a dictionary does not make it any less real\""
+        },
+        {
+          "s": "Cambridge plans to add more slang next year.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Words can be removed from a dictionary when they fall out of use.",
+          "a": "T",
+          "why": "The text says: \"Words can also be removed when they fall out of use\""
+        },
+        {
+          "s": "The text says the evidence clearly shows that slang loses something.",
+          "a": "F",
+          "why": "The text says the opposite: \"The evidence does not settle it\""
+        }
+      ]
+    }
+  }
+}

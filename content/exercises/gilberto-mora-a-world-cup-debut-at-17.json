@@ -1,0 +1,325 @@
+{
+  "slug": "gilberto-mora-a-world-cup-debut-at-17",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Mora plays for a club called Tijuana, and he plays in ____.",
+            "a": "midfield"
+          },
+          {
+            "s": "He came on as a ____ in Mexico's first match.",
+            "a": "substitute"
+          },
+          {
+            "s": "Abreu says Mora can find a ____ that nobody else sees.",
+            "a": "pass"
+          },
+          {
+            "s": "Antonio Rodríguez is the club's ____.",
+            "a": "goalkeeper"
+          },
+          {
+            "s": "Mora also ____, and he loves maths.",
+            "a": "studies"
+          }
+        ],
+        "extra": [
+          "defender",
+          "striker"
+        ]
+      },
+      "match": [
+        {
+          "t": "substitute",
+          "d": "a player who comes on to replace another during a match"
+        },
+        {
+          "t": "midfield",
+          "d": "the middle part of a football pitch, between defence and attack"
+        },
+        {
+          "t": "tournament",
+          "d": "a competition in which many teams or players take part"
+        },
+        {
+          "t": "newcomer",
+          "d": "a person who has just arrived in a group"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In June 2026, he ____ at the World Cup.",
+            "cue": "play",
+            "a": "played"
+          },
+          {
+            "s": "Mexico ____ the first match 2-0.",
+            "cue": "win",
+            "a": "won"
+          },
+          {
+            "s": "Abreu ____ that Mora is special.",
+            "cue": "say",
+            "a": "says"
+          },
+          {
+            "s": "Mora ____ on as a substitute in the first match.",
+            "cue": "come",
+            "a": "came"
+          },
+          {
+            "s": "Rodríguez ____ the first time he saw Mora train.",
+            "cue": "remember",
+            "a": "remembers"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Mora played at the World Cup in June 2026.",
+          "a": "T",
+          "why": "The text says: \"In June 2026, he played at the World Cup\""
+        },
+        {
+          "s": "Mora plays for a club in Spain.",
+          "a": "F",
+          "why": "The text says the opposite: \"Mora plays for a club called Tijuana\""
+        },
+        {
+          "s": "Mora has two brothers who are footballers.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Mora arrives at training at seven in the morning.",
+          "a": "T",
+          "why": "The text says: \"he arrives at training at seven in the morning\""
+        },
+        {
+          "s": "Rodríguez says the attention has changed Mora.",
+          "a": "F",
+          "why": "The text says the opposite: \"He says Mora is still the same person.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "FIFA says his debut made him the sixth-youngest ____ in World Cup history.",
+            "a": "debutant"
+          },
+          {
+            "s": "He had already played for the national team at 16, after making his ____ in Mexico's top league at 15.",
+            "a": "debut"
+          },
+          {
+            "s": "Abreu says Mora's strength is his ____: a pause at the right moment and a clever touch.",
+            "a": "thinking"
+          },
+          {
+            "s": "Rodríguez says Mora has not been ____ by all the praise.",
+            "a": "distracted"
+          },
+          {
+            "s": "These comments are friendly voices, not ____ ones.",
+            "a": "neutral"
+          }
+        ],
+        "extra": [
+          "ambitious",
+          "injured"
+        ]
+      },
+      "match": [
+        {
+          "t": "substitute",
+          "d": "a player who comes on to replace another during a match"
+        },
+        {
+          "t": "debutant",
+          "d": "a person who plays or performs for the first time"
+        },
+        {
+          "t": "neutral",
+          "d": "not supporting either side"
+        },
+        {
+          "t": "distracted",
+          "d": "unable to focus because something else takes your attention"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Sebastián Abreu ____ FIFA that Mora is not a physical player.",
+            "cue": "tell",
+            "a": "told"
+          },
+          {
+            "s": "In a training exercise, Mora ____ the ball and turned with one touch.",
+            "cue": "receive",
+            "a": "received"
+          },
+          {
+            "s": "Antonio Rodríguez ____ the first time he noticed him.",
+            "cue": "remember",
+            "a": "remembers"
+          },
+          {
+            "s": "A groin injury ____ Mora out for about two months.",
+            "cue": "keep",
+            "a": "kept"
+          },
+          {
+            "s": "AP ____ that Mexico's coach was careful with him.",
+            "cue": "report",
+            "a": "reports"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "FIFA says Mora is the sixth-youngest debutant in World Cup history.",
+          "a": "T",
+          "why": "The text says: \"made him the sixth-youngest debutant in World Cup history\""
+        },
+        {
+          "s": "Mora had never played in Mexico's top league before the World Cup.",
+          "a": "F",
+          "why": "The text says the opposite: \"after making his debut in Mexico's top league at 15\""
+        },
+        {
+          "s": "Mora wants to study maths at university.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Abreu says Mora loves mathematics.",
+          "a": "T",
+          "why": "The text says: \"Abreu says he loves mathematics.\""
+        },
+        {
+          "s": "Rodríguez says the praise has distracted Mora.",
+          "a": "F",
+          "why": "The text says the opposite: \"has not been distracted by all the praise\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "How do you ____ when you are the least experienced person in the room?",
+            "a": "contribute"
+          },
+          {
+            "s": "Abreu told FIFA that Mora is an ____ case.",
+            "a": "exceptional"
+          },
+          {
+            "s": "Any tactical ____ Mora creates, he argues, will be productive for the team.",
+            "a": "disorder"
+          },
+          {
+            "s": "Rodríguez also praises Mora's ____ on the ball.",
+            "a": "calmness"
+          },
+          {
+            "s": "The people around Mora describe teammates who treat him as a person, not a ____.",
+            "a": "headline"
+          }
+        ],
+        "extra": [
+          "habit",
+          "results"
+        ]
+      },
+      "match": [
+        {
+          "t": "contribute",
+          "d": "to give something that helps a group reach its goal"
+        },
+        {
+          "t": "exceptional",
+          "d": "much better or rarer than usual"
+        },
+        {
+          "t": "neutral",
+          "d": "not supporting either side"
+        },
+        {
+          "t": "disorder",
+          "d": "a lack of order or organisation"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Abreu told FIFA that Mora is an ____ case.",
+            "cue": "EXCEPTION",
+            "a": "exceptional"
+          },
+          {
+            "s": "Rodríguez also praises Mora's ____ on the ball.",
+            "cue": "CALM",
+            "a": "calmness"
+          },
+          {
+            "s": "Any tactical ____ Mora creates will be productive for the team.",
+            "cue": "ORDER",
+            "a": "disorder"
+          },
+          {
+            "s": "The people around Mora describe the ____ to play naturally.",
+            "cue": "FREE",
+            "a": "freedom"
+          },
+          {
+            "s": "His daily life is less ____ than the headlines suggest.",
+            "cue": "GLAMOUR",
+            "a": "glamorous"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Mora started a match against Czechia on 24 June.",
+          "a": "T",
+          "why": "The text says: \"started against Czechia on 24 June\""
+        },
+        {
+          "s": "Abreu wants to fix Mora in one position.",
+          "a": "F",
+          "why": "The text says the opposite: \"Abreu says he does not want to fix him in one position.\""
+        },
+        {
+          "s": "Mora's father is a famous coach in Europe.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Mexico's coach was careful with Mora in the first matches.",
+          "a": "T",
+          "why": "The text says: \"was careful with him in the first matches\""
+        },
+        {
+          "s": "Rodríguez says the attention has changed Mora.",
+          "a": "F",
+          "why": "The text says the opposite: \"Rodríguez adds that the attention has not changed him\""
+        },
+        {
+          "s": "Mora will play in the next World Cup.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    }
+  }
+}

@@ -760,7 +760,7 @@ def teens_card(a, featured=False):
              free=' data-free="1"' if a["slug"] in FREE_SLUGS else "")
 
 
-TEENS_CATEGORIES = ["School life", "Games & online life", "Music & style", "Science & making", "Places & people"]
+TEENS_CATEGORIES = ["School life", "Games & online life", "Music & style", "Science & making", "Places & people", "Sport", "TV, film & fandom", "Language & memes", "Hobbies"]
 
 
 def teens_page(teens):
@@ -774,7 +774,7 @@ def teens_page(teens):
         '<section class="banner teens-hero"><div class="wrap">'
         '<p class="eyebrow">Teens</p>'
         '<h1 class="teens-h">Stories worth talking about.</h1>'
-        '<p class="teens-copy">Games, music, school, science and the things that make everyday life interesting. '
+        '<p class="teens-copy">Sport, TV, games, music, school, science and the things that make everyday life interesting. '
         'Pick a story, choose your English level and see where the conversation goes.</p>'
         '<p class="teens-small">For learners aged 12 to 18. Every story comes in Core, Intermediate and Advanced English.</p>'
         '<a class="btn-primary" href="#stories">Explore the stories</a></div></section>\n'

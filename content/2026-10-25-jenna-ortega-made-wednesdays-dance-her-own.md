@@ -1,0 +1,120 @@
+title: Jenna Ortega Made Wednesday's Dance Her Own
+date: 2026-10-25
+summary: A famous dance scene in a Netflix series was not planned by a choreographer. The actor made it up herself, and the story shows how to borrow ideas without copying.
+tags: TV, Creativity
+audience: teens
+category: TV, film & fandom
+order: 18
+image: images/jenna-ortega-made-wednesdays-dance-her-own-6819c1.jpg
+image-alt: A young woman in a dark dress caught mid-move in a strange, sharp dance pose.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
+source: Netflix Tudum, John DiLillo, "Watch Jenna Ortega Get Down in the Haunting Wednesday Dance Scene" | https://www.netflix.com/tudum/articles/wednesday-dance-scene-jenna-ortega
+source-date: 25 November 2022
+---
+=== Core ===
+
+title: Jenna Ortega Created Wednesday's Dance
+summary: An actor made up a famous dance scene herself. How did she decide what it should look like?
+
+Imagine you have to dance in front of your whole school, and you cannot copy anyone. What would you do?
+
+That was the challenge in a scene from the Netflix series Wednesday. Wednesday Addams is a teenager at a school called Nevermore Academy. In episode four she goes to a school dance. At first, the script only said that Wednesday would dance. Nobody knew what her dance would look like.
+
+The actor Jenna Ortega decided to create the dance herself. The show's creators said they talked about hiring a professional choreographer, a person who plans dance steps. But Ortega told them she already had the dance in her head.
+
+She took ideas from other performers. She added a small side step to say thank you to Lisa Loring, who played Wednesday in the 1960s. It was her way of showing respect to an older actor. She also named the actor Denis Lavant and the choreographer Bob Fosse as influences.
+
+The dance fits the character. Wednesday does not care what other people think, so her dance looks strange and sharp, not smooth and pretty. Ortega said it felt freeing to play a character who does not worry about other people's opinions. She said she was a people-pleaser before.
+
+Of course, Ortega did not make the scene alone. The director, the actors and the crew all helped. But the movement was her idea. A good idea does not need to look like everyone else's. It needs to fit the person who uses it. Would you follow a routine, or make your own?
+
+=== Intermediate ===
+
+title: Jenna Ortega Made Wednesday's Dance Her Own
+summary: A famous dance scene in a Netflix series was not planned by a choreographer. The actor made it up herself, and the story shows how to borrow ideas without copying.
+
+Imagine you have to dance in front of an entire school, and you are not allowed to copy anyone. Where would you start?
+
+That was the creative problem in an episode of the Netflix series Wednesday. In episode four, the main character, Wednesday Addams, a teenager who does not follow the crowd, attends a school dance at Nevermore Academy. According to the cast, the script only said that Wednesday dances. Nobody had decided what the dance would look like.
+
+A professional choreographer was one option. The show's co-creator, Miles Millar, said the team discussed this idea, but the actor Jenna Ortega insisted that she already had the dance in her head. She choreographed the routine herself.
+
+She took inspiration from a few performers. She included a side shuffle with her hands and feet as a tribute to Lisa Loring, who played the original Wednesday in the 1960s. She also credited the French actor Denis Lavant and the choreographer Bob Fosse, whose routine "The Rich Man's Frug" comes from the musical Sweet Charity, as influences.
+
+The result looks nothing like a normal school-dance routine, and that is the point. The movement shows how unpredictable Wednesday is and how little she cares what other people think. Hunter Doohan, who plays Tyler, says he kept asking what the dance would be, and that Ortega surprised everyone when she performed it. His shocked reaction in the scene was improvised, and the director, Tim Burton, encouraged it.
+
+Ortega also said that playing Wednesday felt freeing, because the character never worries about other people's opinions. She described this as a contrast with her own past as a people-pleaser.
+
+It would be wrong to say she did it alone. The creators, the director, the other actors and the crew all shaped the scene, and this account comes from Netflix, which is talking about its own production. But the central idea, that the dance should be strange rather than perfect, was hers. A style does not have to look like everyone else's to work. It has to suit the person and the moment.
+
+Would you rather follow a routine or create your own? And if you borrow from other people, where is the line between inspiration and copying?
+
+=== Advanced ===
+
+title: Why Wednesday's Dance Didn't Need to Look Like Everyone Else's
+summary: An actor's strange, stiff dance in a Netflix series was exactly right for the character. Her story raises a useful question: what is the difference between inspiration and copying?
+
+A dance can be memorable because it is not polished. The scene at the centre of this story, from the first season of the Netflix series Wednesday, is a good example of that.
+
+In episode four, Wednesday Addams, the unsmiling title character, attends a school dance. According to the actor Hunter Doohan, the script said only that Wednesday dances and that his character, Tyler, copies her. Nobody had decided on the steps.
+
+The show's co-creator, Miles Millar, said the team had discussed using a professional choreographer. But the actor Jenna Ortega said she already had the dance in her head, and she choreographed the routine herself. Netflix's own article reports this, so it is the production's account of its own scene.
+
+She did not start from nothing. She included a side shuffle with her hands and feet as a tribute to Lisa Loring, who played the original Wednesday in the 1960s. She also credited the French actor Denis Lavant and Bob Fosse's routine "The Rich Man's Frug", from the musical Sweet Charity, as influences. That is an important distinction. Taking inspiration means learning from someone and saying so. Copying means presenting someone else's work as your own.
+
+Think about how this works in everyday life. A student who learns a drawing technique from a teacher and says so is learning. A student who traces someone else's picture and signs it is copying. Between those two examples there is a large grey area, and honest people disagree about where it begins, which is why saying where an idea came from is such a useful habit.
+
+The dance also expresses character. The movement reflects Wednesday's unpredictability and her indifference to other people's opinions, and Ortega said playing her was freeing precisely because the character does not need to please anyone, a contrast with her own past as a people-pleaser. Doohan said that his stunned reaction in the scene was improvised and that the director, Tim Burton, encouraged it, which suggests that part of the dance's effect came from surprise.
+
+Two cautions apply. First, this is a behind-the-scenes account from Netflix about its own production, so it is more of a portrait than an independent assessment. Second, "she choreographed it herself" does not mean she worked alone: the director, the cast and the crew all shaped what appeared on screen.
+
+Still, the story leaves a useful question for anyone who has ever had to perform. What do you do when the usual way does not suit you? One answer is to follow the routine because it is safe. Another is to make something unusual and accept that some people will not like it. Awkward-looking can still be a good creative choice, if it fits the idea.
+
+How could a group make space for the one person whose idea is different?
+
+=== Core before you read ===
+
+- Do you like to dance? Would you dance in front of other people?
+- When you do something creative, do you like to follow a model or try your own idea?
+- Can strange be better than perfect? When?
+
+=== Intermediate before you read ===
+
+- Would you dance alone at a school event if you could do anything you liked? What would you do?
+- When you make something, do you prefer to follow a model or try your own idea?
+- Can something awkward be better than something perfect? Give an invented example.
+
+=== Advanced before you read ===
+
+- If you had to perform in front of your whole school and nobody would judge you, what would you do?
+- When you create something, do you start from a model or from your own idea? Does it depend on the audience?
+- Can awkward ever be more convincing than polished? When?
+
+=== Core talk about it ===
+
+- You have to perform. Would you follow a routine or create your own? Why?
+- Can something strange still be a good creative choice?
+- What can a character say about themselves with only a walk or a pose?
+- Where is the line between taking an idea and copying?
+- How could a group make space for a person with a different idea?
+
+=== Intermediate talk about it ===
+
+- For a performance, would you rather follow a routine or create your own?
+- Can something awkward-looking still be a good creative choice?
+- What could a character's movement tell you without any words?
+- Where is the line between taking inspiration and copying?
+- How could a group make space for somebody whose idea is different?
+
+=== Advanced talk about it ===
+
+- For a performance, would you rather follow a routine or create your own, and what would you risk by choosing the second?
+- Can something awkward-looking still be a good creative choice, and who decides?
+- What could a character's movement tell an audience that words could not?
+- Where is the line between taking inspiration and copying, and does saying where an idea came from change it?
+- How could a group make space for somebody whose idea is different, without losing its own direction?
+
+=== Activity ===
+
+Invent a character and give them three notes about how they move or stand (for example: always leans to one side, walks very slowly, keeps their hands behind their back) and one detail of their costume. In pairs, explain how each choice shows the character's personality, and say where you took each idea from, so that you practise saying where inspiration came from. Watching the series is optional, and nobody has to perform anything in front of the class.

@@ -1,0 +1,325 @@
+{
+  "slug": "why-mbappe-swapped-nike-for-on",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "A sponsor pays a player, and the player wears and ____ its products.",
+            "a": "promotes"
+          },
+          {
+            "s": "On said the deal includes cash and ____, a small share in the company.",
+            "a": "equity"
+          },
+          {
+            "s": "The money is a ____. On did not say how much it is.",
+            "a": "secret"
+          },
+          {
+            "s": "Nike said it was proud of what they ____ together.",
+            "a": "achieved"
+          },
+          {
+            "s": "On wants to grow ____ running and tennis into football.",
+            "a": "beyond"
+          }
+        ],
+        "extra": [
+          "borrowed",
+          "famous"
+        ]
+      },
+      "match": [
+        {
+          "t": "sponsorship deal",
+          "d": "an agreement in which a company pays someone to use and show its products"
+        },
+        {
+          "t": "equity",
+          "d": "a share in the ownership of a company"
+        },
+        {
+          "t": "ambassador",
+          "d": "a person who represents a brand or group and speaks well of it"
+        },
+        {
+          "t": "director",
+          "d": "a person in charge of one part of an organisation"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "On 18 September 2026, Mbappé ____ a choice like this.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "Now he ____ Nike and joined On.",
+            "cue": "leave",
+            "a": "has left|left"
+          },
+          {
+            "s": "A sponsor ____ a player.",
+            "cue": "pay",
+            "a": "pays"
+          },
+          {
+            "s": "Nike ____ it was proud of what they achieved together.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "On ____ its first football boots are planned for 2027.",
+            "cue": "say",
+            "a": "says"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Mbappé left Nike and joined On.",
+          "a": "T",
+          "why": "The text says: \"Now he has left Nike and joined On\""
+        },
+        {
+          "s": "Mbappé is moving to a new football team.",
+          "a": "F",
+          "why": "The text says the opposite: \"It is not a move to a new football team.\""
+        },
+        {
+          "s": "On told the public how much the deal is worth.",
+          "a": "F",
+          "why": "The text says the opposite: \"The money is a secret.\""
+        },
+        {
+          "s": "Mbappé will wear On boots at the next World Cup.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "On says its first football boots are planned for 2027.",
+          "a": "T",
+          "why": "The text says: \"On says its first football boots are planned for 2027.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "It is a sponsorship deal, not a ____, so Mbappé has not joined a new football team.",
+            "a": "transfer"
+          },
+          {
+            "s": "On said the deal includes cash and ____, a share in the company itself.",
+            "a": "equity"
+          },
+          {
+            "s": "The ____ of the deal were not made public.",
+            "a": "terms"
+          },
+          {
+            "s": "Claims that the boots will be better are ____, not proof.",
+            "a": "promotion"
+          },
+          {
+            "s": "A famous team gives you experience, ____ and people who already know what works.",
+            "a": "stability"
+          }
+        ],
+        "extra": [
+          "freedom",
+          "loyalty"
+        ]
+      },
+      "match": [
+        {
+          "t": "ambassador",
+          "d": "a person who represents a brand and speaks well of it"
+        },
+        {
+          "t": "transfer",
+          "d": "the move of a player from one club to another"
+        },
+        {
+          "t": "equity",
+          "d": "ownership of a share in a company"
+        },
+        {
+          "t": "promotion",
+          "d": "advertising that aims to make people want something"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "On 18 September, On ____ that it was entering football.",
+            "cue": "announce",
+            "a": "announced"
+          },
+          {
+            "s": "Reuters ____ that his partnership with Nike began in 2006.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "Nike ____ it was proud of what it had achieved.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "Mbappé ____ on social media that the move is a big change in his life.",
+            "cue": "write",
+            "a": "wrote"
+          },
+          {
+            "s": "The first boots ____ planned for 2027.",
+            "cue": "be",
+            "a": "are"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Mbappé has not joined a new football team.",
+          "a": "T",
+          "why": "The text says: \"so Mbappé has not joined a new football team\""
+        },
+        {
+          "s": "On said exactly how much money the deal includes.",
+          "a": "F",
+          "why": "The text says the opposite: \"but it gave no figure\""
+        },
+        {
+          "s": "Reuters reported that Mbappé's partnership with Nike began in 2006.",
+          "a": "T",
+          "why": "The text says: \"his partnership with Nike began in 2006\""
+        },
+        {
+          "s": "Mbappé will wear On boots at the next World Cup.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Sydney Schertenleib will only help to test products for men.",
+          "a": "F",
+          "why": "The text says the opposite: \"including ones for the women's game\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "He has changed the company that makes and ____ his equipment.",
+            "a": "promotes"
+          },
+          {
+            "s": "Equity, in general, means owning a small ____ of a company.",
+            "a": "share"
+          },
+          {
+            "s": "Several of the claims in On's announcement are ____.",
+            "a": "promotional"
+          },
+          {
+            "s": "Staying with a famous partner offers experience, stability and a ____ way of working.",
+            "a": "proven"
+          },
+          {
+            "s": "Joining a newcomer offers less ____, but a bigger voice in what gets built.",
+            "a": "certainty"
+          }
+        ],
+        "extra": [
+          "disclosed",
+          "amount"
+        ]
+      },
+      "match": [
+        {
+          "t": "stake",
+          "d": "an interest in the result, because you could gain or lose by it"
+        },
+        {
+          "t": "equity",
+          "d": "ownership of a part of a company"
+        },
+        {
+          "t": "disclosed",
+          "d": "made known to the public"
+        },
+        {
+          "t": "promotional",
+          "d": "made to persuade people to buy or like something"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "It is important to be ____ about what changed.",
+            "cue": "PRECISION",
+            "a": "precise"
+          },
+          {
+            "s": "Mbappé's ____ with Nike began in 2006, when he was nine.",
+            "cue": "RELATE",
+            "a": "relationship"
+          },
+          {
+            "s": "This is a sponsorship ____, not a transfer.",
+            "cue": "AGREE",
+            "a": "agreement"
+          },
+          {
+            "s": "Staying offers experience, ____ and a proven way of working.",
+            "cue": "STABLE",
+            "a": "stability"
+          },
+          {
+            "s": "Joining a newcomer offers less ____.",
+            "cue": "CERTAIN",
+            "a": "certainty"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The deal is a sponsorship agreement, not a transfer.",
+          "a": "T",
+          "why": "The text says: \"This is a sponsorship agreement, not a transfer\""
+        },
+        {
+          "s": "The size of Mbappé's stake in On has been announced.",
+          "a": "F",
+          "why": "The text says the opposite: \"How large that stake is remains unknown.\""
+        },
+        {
+          "s": "Mbappé will play in On boots at the next World Cup.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "Reuters reports that the first boots are planned for 2027.",
+          "a": "T",
+          "why": "The text says: \"Reuters reports that the first boots are planned for 2027.\""
+        },
+        {
+          "s": "Nike refused to say anything about the move.",
+          "a": "F",
+          "why": "The text says the opposite: \"Nike said it was proud of what it had achieved with him on and off the pitch.\""
+        },
+        {
+          "s": "Mbappé helped to design the first On boot himself.",
+          "a": "N",
+          "why": "Not stated. This version does not give this information."
+        }
+      ]
+    }
+  }
+}
