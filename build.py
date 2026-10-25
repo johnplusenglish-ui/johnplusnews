@@ -897,8 +897,28 @@ CHEVRON_ICON = ('<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="tr
 
 
 PRINT_JS = (
-    '(function(){var b=document.getElementById("pdfbtn");if(!b)return;var old="";'
-    'b.addEventListener("click",function(){window.print()});'
+    '(function(){var b=document.getElementById("pdfbtn"),m=document.getElementById("pmenu"),go=document.getElementById("pdfgo");if(!b||!m)return;var old="";'
+    'var root=document.documentElement,opts=[].slice.call(m.querySelectorAll("[data-pdf]"));'
+    # the choice is remembered, so a teacher who always wants the answer key sets it once
+    'function apply(save){var s={};opts.forEach(function(o){var k=o.getAttribute("data-pdf"),on=o.getAttribute("aria-checked")==="true";s[k]=on;'
+    'if(k==="key")root.classList.toggle("pdf-key",on);else root.classList.toggle("pdf-no-"+k,!on)});'
+    'if(save){try{localStorage.setItem("jpn_pdf",JSON.stringify(s))}catch(e){}}}'
+    'try{var was=JSON.parse(localStorage.getItem("jpn_pdf")||"{}");opts.forEach(function(o){var k=o.getAttribute("data-pdf");'
+    'if(Object.prototype.hasOwnProperty.call(was,k))o.setAttribute("aria-checked",was[k]?"true":"false")})}catch(e){}'
+    'apply(false);'
+    'function open(){m.hidden=false;b.setAttribute("aria-expanded","true");opts[0].focus()}'
+    'function close(back){m.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus()}'
+    'b.addEventListener("click",function(){m.hidden?open():close(true)});'
+    'b.addEventListener("keydown",function(e){if(e.key==="ArrowDown"){e.preventDefault();open()}});'
+    'opts.forEach(function(x,i){x.addEventListener("click",function(){x.setAttribute("aria-checked",x.getAttribute("aria-checked")==="true"?"false":"true");apply(true)});'
+    'x.addEventListener("keydown",function(e){var k=e.key;'
+    'if(k==="ArrowDown"){e.preventDefault();(opts[i+1]||go).focus()}'
+    'else if(k==="ArrowUp"){e.preventDefault();(opts[i-1]||b).focus()}'
+    'else if(k==="Escape"){e.preventDefault();close(true)}})});'
+    'go.addEventListener("keydown",function(e){if(e.key==="Escape"){e.preventDefault();close(true)}'
+    'else if(e.key==="ArrowUp"){e.preventDefault();opts[opts.length-1].focus()}});'
+    'go.addEventListener("click",function(){close(false);window.print()});'
+    'document.addEventListener("click",function(e){if(!m.hidden&&!e.target.closest(".pdrop"))close(false)});'
     'var shut=[];window.addEventListener("beforeprint",function(){shut=[].slice.call(document.querySelectorAll("details.qs,details.kl-box")).filter(function(d){return!d.open});shut.forEach(function(d){d.open=true});old=document.title;var h=document.querySelector(".article-head h1"),'
     'l=document.querySelector(".metaleft"),lv=l&&l.getAttribute("data-print-level");if(h)document.title=h.textContent+(lv?" ("+lv+")":"")});'
     'window.addEventListener("afterprint",function(){shut.forEach(function(d){d.open=false});shut=[];if(old)document.title=old})})();'
@@ -908,10 +928,29 @@ PDF_ICON = ('<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
             'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
 
+PDF_OPTS = [("photo", "Photo", True), ("qs", "Questions", True), ("ex", "Exercises", True), ("key", "Answer key", False)]
+
+
+def pdf_picker():
+    """Save as PDF, with a short list of what to leave in. A teacher printing a worksheet rarely
+    wants the same page as a reader: the answer key starts off, everything else starts on."""
+    items = "".join(
+        '<li><button type="button" class="popt" role="switch" data-pdf="{k}" aria-checked="{a}">'
+        '<span>{label}</span>{chk}</button></li>'.format(k=k, a="true" if on else "false", label=label, chk=CHECK_ICON)
+        for k, label, on in PDF_OPTS)
+    return ('<div class="pdfpick"><div class="pdrop">'
+            '<button type="button" class="pdfbtn" id="pdfbtn" aria-haspopup="true" aria-expanded="false" '
+            'aria-label="Save this article as a PDF">{icon}<span>PDF</span>{chev}</button>'
+            '<div class="pmenu" id="pmenu" hidden>'
+            '<p class="pmenu-h" id="pmenu-h">Put in the PDF</p>'
+            '<ul class="pmenu-list" aria-labelledby="pmenu-h">{items}</ul>'
+            '<button type="button" class="pmenu-go" id="pdfgo">Save as PDF</button>'
+            '</div></div></div>').format(icon=PDF_ICON, chev=CHEVRON_ICON, items=items)
+
+
 def tools_html():
     """The two small controls at the right of the date line: reading font and save as PDF."""
-    pdf = ('<button type="button" class="pdfbtn" id="pdfbtn" aria-label="Save this article as a PDF">{}<span>PDF</span></button>').format(PDF_ICON)
-    return '<div class="tools">{}{}</div>'.format(font_picker(), pdf)
+    return '<div class="tools">{}{}</div>'.format(font_picker(), pdf_picker())
 
 
 def font_picker():
@@ -1074,12 +1113,18 @@ def ex_gap(data):
             ).format(bank=bank, rows="".join(rows))
 
 
+def match_order(seed, pairs):
+    """The order the meanings are listed in: a fixed shuffle, so the page, the printed list
+    and its answer key all agree about which letter belongs to which meaning."""
+    return sorted(range(len(pairs)),
+                  key=lambda i: hashlib.md5((seed + "|" + pairs[i]["t"]).encode("utf-8")).hexdigest())
+
+
 def ex_match(pairs, seed=""):
     """The meanings are listed in a shuffled order, so the first term is not answered by the
     first option. The order is settled by a hash, so it is the same in the page and the PDF,
     and the answer travels as the pair's own number rather than its position in the list."""
-    order = sorted(range(len(pairs)),
-                   key=lambda i: hashlib.md5((seed + "|" + pairs[i]["t"]).encode("utf-8")).hexdigest())
+    order = match_order(seed, pairs)
     opts = "".join('<option value="{}">{}</option>'.format(i, esc(pairs[i]["d"])) for i in order)
     rows = "".join('<li><span class="ex-term">{t}</span>'
                    '<span class="ex-write"></span>'
@@ -1119,6 +1164,24 @@ def ex_tfn(items):
     return '<ol class="ex-list ex-tfns">{}</ol>'.format("".join(rows))
 
 
+def ex_answers(d, seed):
+    """The answers to the four tasks, as a block the reader can ask for in the PDF menu.
+    Never shown on screen: a learner working through the exercises has Check answers for that."""
+    g = d["grammar"]
+    letters = {i: chr(65 + pos) for pos, i in enumerate(match_order(seed, d["match"]))}
+    rows = [
+        (EX_LEAD["gap"][0], [it["a"] for it in d["gap"]["items"]]),
+        (EX_LEAD["match"][0], ["{} = {}".format(p["t"], letters[i]) for i, p in enumerate(d["match"])]),
+        (EX_LEAD[g["kind"]][0], [it["a"].replace("|", " or ") for it in g["items"]]),
+        (EX_LEAD["tfn"][0], [dict(EX_TFN_OPTS)[it["a"]] for it in d["tfn"]]),
+    ]
+    items = "".join(
+        '<li><b>{h}</b><span>{ans}</span></li>'.format(
+            h=esc(head), ans=" &middot; ".join("{} {}".format(i, esc(x)) for i, x in enumerate(answers, 1)))
+        for head, answers in rows)
+    return '<section class="ex-ans"><h3 class="ex-h">Answer key</h3><ol class="ex-ans-list">{}</ol></section>'.format(items)
+
+
 def exercises_html(a):
     """Four tasks per reading level, from content/exercises/<slug>.json. The panels follow
     the level tabs, so a reader only ever sees the set for the version they are reading."""
@@ -1135,7 +1198,8 @@ def exercises_html(a):
         panels.append('<div class="ex-level" data-ex-level="{k}"{hid}>{a}{b}{c}{e}{tot}</div>'.format(
             k=key, hid="" if v is a["versions"][default_index(a["versions"])] else " hidden",
             a=ex_block(1, "gap", ex_gap(d["gap"])), b=ex_block(2, "match", ex_match(d["match"], a["slug"] + key)),
-            c=ex_block(3, g["kind"], ex_grammar(g)), e=ex_block(4, "tfn", ex_tfn(d["tfn"])), tot=EX_TOTAL))
+            c=ex_block(3, g["kind"], ex_grammar(g)), e=ex_block(4, "tfn", ex_tfn(d["tfn"])),
+            tot=EX_TOTAL + ex_answers(d, a["slug"] + key)))
     if not panels:
         return ""
     return ('<details class="qs qs-ex"><summary><span class="qs-label">Exercises</span>'
