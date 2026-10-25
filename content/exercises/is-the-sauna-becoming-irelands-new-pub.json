@@ -9,35 +9,35 @@
             "a": "turn up"
           },
           {
-            "s": "Neighbours ____ at the pub.",
-            "a": "catch up on local news"
+            "s": "At the pub, neighbours ____ local news.",
+            "a": "catch up on"
           },
           {
-            "s": "A few simply want a different way to ____.",
-            "a": "spend time together"
+            "s": "A pub does not ____, so some people look for a different place.",
+            "a": "suit everybody"
           },
           {
             "s": "Everyone ____ their phone before going in.",
             "a": "puts away"
           },
           {
-            "s": "It is a relaxed place where it is easy to ____.",
-            "a": "get to know somebody"
+            "s": "In a sauna, it is easy to ____ a stranger.",
+            "a": "get to know"
           }
         ],
         "extra": [
-          "join in",
+          "spend time together",
           "welcoming"
         ]
       },
       "match": [
         {
           "t": "turn up",
-          "d": "arrive somewhere"
+          "d": "arrive at a place or event, often without telling anyone first"
         },
         {
           "t": "put away",
-          "d": "place something out of sight"
+          "d": "place something where it cannot be seen or used"
         },
         {
           "t": "welcoming",
@@ -45,7 +45,7 @@
         },
         {
           "t": "join in",
-          "d": "take part with other people"
+          "d": "take part in an activity with other people"
         }
       ],
       "grammar": {
@@ -72,9 +72,9 @@
             "a": "are"
           },
           {
-            "s": "Ireland may simply ____ another way to bring people together.",
-            "cue": "find",
-            "a": "be finding"
+            "s": "Outside, the wind ____ across the sea.",
+            "cue": "blow",
+            "a": "blows"
           }
         ]
       },
@@ -87,10 +87,10 @@
         {
           "s": "Most sauna visitors are under thirty.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how old the visitors are."
         },
         {
-          "s": "Some Irish saunas are beside the sea.",
+          "s": "In Ireland, you can find saunas in town centres.",
           "a": "T",
           "why": "The text says: \"Some are beside the sea, while others are in town centres or at special events.\""
         },
@@ -184,14 +184,14 @@
       },
       "tfn": [
         {
-          "s": "The sauna tradition is strongly associated with Finland.",
+          "s": "Finland is closely linked with the sauna tradition.",
           "a": "T",
-          "why": "The text says: \"Although the tradition is strongly associated with Finland, its Irish popularity has a distinctly local character: dramatic weather, sea swimming and the chance to exchange a few words with people you would otherwise never meet.\""
+          "why": "The text says: \"The tradition is strongly associated with Finland.\""
         },
         {
-          "s": "Third places are spaces outside the home and workplace.",
+          "s": "Researchers use the term third places for informal spaces that are neither home nor work.",
           "a": "T",
-          "why": "The text says: \"Social researchers sometimes call such informal gathering places \"third places\", meaning spaces outside the home and workplace that help communities stay connected.\""
+          "why": "The text says: \"meaning spaces outside the home and workplace that help communities stay connected.\""
         },
         {
           "s": "The writer says saunas solve Ireland's loneliness problem.",
@@ -201,7 +201,7 @@
         {
           "s": "Sauna bookings in Ireland doubled during 2026.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text gives no figures for how many people book saunas."
         }
       ]
     },
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "Irish social identity is often ____ the pub.",
-            "a": "bound up with"
+            "s": "More people now ____ spaces free from screens, alcohol and organised entertainment.",
+            "a": "seek out"
           },
           {
             "s": "The ritual ____ northern European tradition.",
@@ -241,7 +241,7 @@
       "match": [
         {
           "t": "give way to",
-          "d": "be replaced by something else"
+          "d": "be replaced by something different"
         },
         {
           "t": "strip away",
@@ -249,7 +249,7 @@
         },
         {
           "t": "take over",
-          "d": "begin doing what somebody else did"
+          "d": "start doing a job or role that another person or group had"
         },
         {
           "t": "enduring",
@@ -260,24 +260,24 @@
         "kind": "word",
         "items": [
           {
-            "s": "The emergence of the sauna is an ____ development.",
-            "cue": "INTRIGUE",
-            "a": "intriguing"
+            "s": "That absence of obligation is easily ____.",
+            "cue": "ESTIMATE",
+            "a": "underestimated"
           },
           {
-            "s": "Relationships develop without ____ planning.",
-            "cue": "ELABORATION",
-            "a": "elaborate"
+            "s": "Conversation that would feel intrusive across an office desk becomes ____.",
+            "cue": "REMARK",
+            "a": "unremarkable"
           },
           {
-            "s": "Those ____ from alcohol may find opportunities limited.",
-            "cue": "ABSTAIN",
-            "a": "abstaining"
+            "s": "Sauna operators have found ____ customers in coastal communities and urban areas alike.",
+            "cue": "ENTHUSIASM",
+            "a": "enthusiastic"
           },
           {
-            "s": "Confident claims about health benefits should not disguise real ____.",
-            "cue": "RISKY",
-            "a": "risks"
+            "s": "Warmth and sociability, ____ though they are, are not the same thing as community.",
+            "cue": "AGREE",
+            "a": "agreeable"
           },
           {
             "s": "A pleasant encounter does not guarantee a deeper sense of ____.",
@@ -288,19 +288,19 @@
       },
       "tfn": [
         {
-          "s": "Sessions often combine intense heat with a brief plunge into the sea.",
+          "s": "A sauna session can include a short dip in the sea.",
           "a": "T",
-          "why": "The text says: \"Sessions typically combine intense heat with time outdoors, sometimes including a brief plunge into the sea.\""
+          "why": "The text says: \"sometimes including a brief plunge into the sea.\""
         },
         {
           "s": "The piece notes that cold-water immersion carries risks for some people.",
           "a": "T",
-          "why": "The text says: \"Commercial wellness businesses cannot simply take over from enduring community institutions, and confident claims about health benefits should not disguise the fact that intense heat and cold-water immersion carry real risks for some individuals.\""
+          "why": "The text says: \"intense heat and cold-water immersion carry real risks for some individuals.\""
         },
         {
           "s": "Irish pubs have reported falling custom because of saunas.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention any effect of saunas on pub business."
         },
         {
           "s": "The writer says warmth and sociability are the same as community.",

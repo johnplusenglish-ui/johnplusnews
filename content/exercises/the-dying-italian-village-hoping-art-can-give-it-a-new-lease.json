@@ -26,8 +26,8 @@
           }
         ],
         "extra": [
-          "look down",
-          "narrow"
+          "look beyond",
+          "stay alive"
         ]
       },
       "match": [
@@ -36,16 +36,16 @@
           "d": "arrive somewhere, often in numbers"
         },
         {
+          "t": "unreal",
+          "d": "like something from a dream, hard to believe"
+        },
+        {
           "t": "wear away",
           "d": "slowly remove the surface of something"
         },
         {
-          "t": "narrow",
-          "d": "small in width from one side to the other"
-        },
-        {
-          "t": "look down",
-          "d": "move your eyes towards the ground"
+          "t": "benefit",
+          "d": "get something good from a situation"
         }
       ],
       "grammar": {
@@ -72,9 +72,9 @@
             "a": "announced"
           },
           {
-            "s": "Their joint project ____ one million euros.",
-            "cue": "receive",
-            "a": "will receive"
+            "s": "Organisers also hope ____ young people and schools.",
+            "cue": "involve",
+            "a": "to involve"
           }
         ]
       },
@@ -82,7 +82,7 @@
         {
           "s": "The village has fewer than twenty permanent residents.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text only says a small number of people live there permanently, not how many."
         },
         {
           "s": "Civita won the title on its own, without any other town.",
@@ -90,12 +90,12 @@
           "why": "The text says the opposite: \"In October 2026, Italy's culture minister announced that Civita and the nearby town of Bolsena had won the title of Italian Capital of Contemporary Art for 2028.\""
         },
         {
-          "s": "Civita was founded more than 2,500 years ago.",
+          "s": "People first built Civita over 2,500 years ago.",
           "a": "T",
           "why": "The text says: \"The village was founded more than 2,500 years ago, but only a small number of people now live permanently in its old centre.\""
         },
         {
-          "s": "The joint project will receive one million euros.",
+          "s": "Civita and Bolsena will be given a million euros for cultural work.",
           "a": "T",
           "why": "The text says: \"Their joint project will receive one million euros for cultural activities.\""
         }
@@ -125,7 +125,7 @@
             "a": "population decline"
           },
           {
-            "s": "Art cannot ____.",
+            "s": "The hill is eroding, but art cannot ____.",
             "a": "hold the ground together"
           }
         ],
@@ -186,7 +186,7 @@
         {
           "s": "Bolsena has a larger permanent population than Civita.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not compare the populations of Bolsena and Civita."
         },
         {
           "s": "Civita and Bolsena were chosen together for the 2028 title.",
@@ -199,9 +199,9 @@
           "why": "The text says: \"The two places were chosen together as Italy's Capital of Contemporary Art for 2028, beating other finalists including Capri, Padua and Pozzuoli.\""
         },
         {
-          "s": "The award guarantees that young people will stay in the area.",
+          "s": "Tourism has brought many new permanent residents to Civita.",
           "a": "F",
-          "why": "The text says the opposite: \"If the project helps people work, create and remain in the area, it may offer the village something more valuable than another successful tourist season.\""
+          "why": "The text says the opposite: \"only a handful of people now live permanently in its old centre.\""
         }
       ]
     },
@@ -229,7 +229,7 @@
             "a": "come to an end"
           },
           {
-            "s": "The institutions left behind are too thinly staffed to ____ the work.",
+            "s": "The institutions left behind are often too thinly staffed to ____ what the programme began.",
             "a": "shore up"
           }
         ],
@@ -265,9 +265,9 @@
             "a": "eroded"
           },
           {
-            "s": "The Dying Town is a ____ description as much as a nickname.",
-            "cue": "GEOLOGY",
-            "a": "geological"
+            "s": "More ____ success would involve permanent spaces for creative work.",
+            "cue": "MEANING",
+            "a": "meaningful"
           },
           {
             "s": "The choice reflects an increasingly ____ view of culture.",
@@ -275,9 +275,9 @@
             "a": "influential"
           },
           {
-            "s": "Cultural projects struggle to convert attention into ____ opportunities.",
-            "cue": "DURATION",
-            "a": "durable"
+            "s": "The ____ of the 2028 programme will depend on what survives it.",
+            "cue": "SIGNIFICANT",
+            "a": "significance"
           },
           {
             "s": "Civita's particular ____ makes this tension sharper.",
@@ -288,22 +288,22 @@
       },
       "tfn": [
         {
-          "s": "Civita has survived since Etruscan times.",
+          "s": "Civita has existed since the Etruscan period.",
           "a": "T",
           "why": "The text says: \"Civita has survived since Etruscan times, but permanent settlement has dwindled to a tiny community.\""
         },
         {
           "s": "Engineers have already begun work to stabilise the hilltop.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether any engineering work has started."
         },
         {
-          "s": "The winning proposal secured a million euros of public funding.",
+          "s": "The proposal from Civita and Bolsena received a million euros in public money.",
           "a": "T",
           "why": "The text says: \"Their proposal, \"Arte che viene, arte che va\", won against entries from Capri, Padua and Pozzuoli, securing a million euros of public funding.\""
         },
         {
-          "s": "The writer believes the art programme will solve the erosion problem.",
+          "s": "Contemporary art can stop the erosion beneath the village.",
           "a": "F",
           "why": "The text says the opposite: \"Art can stimulate discussion and attract resources, but it cannot remedy the erosion of the volcanic material supporting the settlement.\""
         }

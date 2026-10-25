@@ -5,8 +5,8 @@
       "gap": {
         "items": [
           {
-            "s": "The bacterium makes it harder for a mosquito to ____ viruses to humans.",
-            "a": "pass"
+            "s": "The new programme ____ older methods, not instead of them.",
+            "a": "works together with"
           },
           {
             "s": "The aim is to ____ the number of people who catch dengue.",
@@ -45,7 +45,7 @@
         },
         {
           "t": "harmless",
-          "d": "not causing harm"
+          "d": "safe, with no risk of hurting anyone"
         }
       ],
       "grammar": {
@@ -92,12 +92,12 @@
         {
           "s": "Mosquitoes carrying Wolbachia cannot bite.",
           "a": "F",
-          "why": "The text says the opposite: \"When mosquitoes carrying Wolbachia are released, they breed with the local mosquitoes.\""
+          "why": "The text says the opposite: \"There is an important detail: these mosquitoes can still bite.\""
         },
         {
           "s": "The factory produces a million mosquitoes a week.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many mosquitoes the factory produces."
         }
       ]
     },
@@ -125,7 +125,7 @@
             "a": "taken hold"
           },
           {
-            "s": "Nobody is presenting the method as ____.",
+            "s": "The method is slow, so nobody is presenting it as ____.",
             "a": "a quick fix"
           }
         ],
@@ -136,12 +136,12 @@
       },
       "match": [
         {
-          "t": "take hold",
-          "d": "become firmly established in a place"
+          "t": "roll out",
+          "d": "introduce a plan across many places"
         },
         {
-          "t": "roll something out",
-          "d": "introduce a plan across many places"
+          "t": "take hold",
+          "d": "become firmly established in a place"
         },
         {
           "t": "from nothing",
@@ -156,14 +156,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "Wolbachia reduces the insect's ability to ____ several viruses.",
-            "cue": "TRANSMISSION",
-            "a": "transmit"
+            "s": "Releasing mosquitoes into ____ neighbourhoods sounds like the last thing a health department should do.",
+            "cue": "RESIDENT",
+            "a": "residential"
           },
           {
-            "s": "The facility was built to ____ an existing programme.",
-            "cue": "EXPANSION",
-            "a": "expand"
+            "s": "Officials opened a major ____ centre in Curitiba for breeding mosquitoes.",
+            "cue": "PRODUCE",
+            "a": "production"
           },
           {
             "s": "Results from some locations have been ____.",
@@ -184,7 +184,7 @@
       },
       "tfn": [
         {
-          "s": "Wolbachia is found naturally in many insects.",
+          "s": "Wolbachia occurs naturally in many insects.",
           "a": "T",
           "why": "The text says: \"The key is Wolbachia, a bacterium found naturally in many insects.\""
         },
@@ -196,12 +196,12 @@
         {
           "s": "Dengue cases in Curitiba have halved since the factory opened.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text gives no figures for dengue cases in Curitiba."
         },
         {
-          "s": "A fall in dengue cases can have more than one cause.",
+          "s": "Falling dengue figures may have more than one explanation.",
           "a": "T",
-          "why": "The text says: \"A fall in dengue cases can have more than one cause, so authorities have to track how far Wolbachia has spread among local mosquitoes as well as how infection rates change over several seasons.\""
+          "why": "The text says: \"A fall in dengue cases can have more than one cause\""
         }
       ]
     },
@@ -221,8 +221,8 @@
             "a": "durable"
           },
           {
-            "s": "The mosquitoes must be released for the bacterium to ____.",
-            "a": "take root"
+            "s": "Interventions that operate on an environment rather than a patient therefore ____ collective agreement.",
+            "a": "rest on"
           },
           {
             "s": "It only works as a ____ operation, not a one-off intervention.",
@@ -235,39 +235,39 @@
         ],
         "extra": [
           "opt out",
-          "candid"
+          "candour"
         ]
       },
       "match": [
         {
-          "t": "take root",
-          "d": "become established and begin to spread"
+          "t": "candour",
+          "d": "honesty in saying things that may be uncomfortable"
         },
         {
           "t": "a silver bullet",
           "d": "a single solution to a complicated problem"
         },
         {
-          "t": "candid",
-          "d": "honest, even when the truth is awkward"
-        },
-        {
           "t": "opt out",
           "d": "choose not to take part in something"
+        },
+        {
+          "t": "wipe out",
+          "d": "destroy something completely so that none is left"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "A production facility in Curitiba began ____ in July 2025.",
-            "cue": "OPERATE",
-            "a": "operations"
+            "s": "The ____ lies in population replacement rather than straightforward population reduction.",
+            "cue": "INNOVATE",
+            "a": "innovation"
           },
           {
-            "s": "Programmes must coexist with ____ and sanitation.",
-            "cue": "MONITOR",
-            "a": "monitoring"
+            "s": "It is worth noting how ____ such candour is in public health communication.",
+            "cue": "USUAL",
+            "a": "unusual"
           },
           {
             "s": "Spraying offers visible, immediate ____.",
@@ -275,9 +275,9 @@
             "a": "reassurance"
           },
           {
-            "s": "Collective agreement is harder to secure than the ____ kind.",
-            "cue": "INDIVIDUALLY",
-            "a": "individual"
+            "s": "That requires ____ about monitoring and genuine community consultation.",
+            "cue": "TRANSPARENT",
+            "a": "transparency"
           },
           {
             "s": "Officials must explain the method without ____ the evidence.",
@@ -288,19 +288,19 @@
       },
       "tfn": [
         {
-          "s": "Released insects reproduce with wild populations and spread the bacterium.",
+          "s": "Once released, the insects breed with wild mosquitoes and the bacterium spreads.",
           "a": "T",
           "why": "The text says: \"Released insects reproduce with wild populations, allowing the bacterium to spread across successive generations.\""
         },
         {
           "s": "Other South American countries have built similar factories.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention factories in other South American countries."
         },
         {
-          "s": "The article notes that nobody can opt out of mosquitoes in their street.",
+          "s": "Nobody can choose to avoid the mosquitoes in their own street.",
           "a": "T",
-          "why": "The text says: \"An individual may decline a medical treatment, but nobody can opt out of the mosquitoes in their own street.\""
+          "why": "The text says: \"nobody can opt out of the mosquitoes in their own street.\""
         },
         {
           "s": "The writer says the mosquitoes have become entirely harmless.",

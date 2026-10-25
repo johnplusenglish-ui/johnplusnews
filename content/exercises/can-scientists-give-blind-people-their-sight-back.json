@@ -13,8 +13,8 @@
             "a": "offer some hope"
           },
           {
-            "s": "The goggles ____ pictures of the world into light signals.",
-            "a": "turned"
+            "s": "For a person who has lost much of their sight, finding a door could ____.",
+            "a": "make daily life easier"
           },
           {
             "s": "The technology did not allow patients to ____ faces.",
@@ -27,21 +27,21 @@
         ],
         "extra": [
           "move around",
-          "harmless"
+          "encouraging"
         ]
       },
       "match": [
-        {
-          "t": "try out",
-          "d": "test something to see whether it works"
-        },
         {
           "t": "make out",
           "d": "manage to see or hear something with difficulty"
         },
         {
-          "t": "harmless",
-          "d": "not causing harm"
+          "t": "try out",
+          "d": "test something to see whether it works"
+        },
+        {
+          "t": "inherited",
+          "d": "passed from parents to children in the family"
         },
         {
           "t": "move around",
@@ -57,14 +57,14 @@
             "a": "involved"
           },
           {
-            "s": "First, doctors ____ a harmless virus into one eye.",
-            "cue": "inject",
-            "a": "injected"
+            "s": "The virus had been ____ so that it could carry instructions to the cells.",
+            "cue": "change",
+            "a": "changed"
           },
           {
-            "s": "The trial mainly ____ whether the treatment was safe.",
-            "cue": "test",
-            "a": "tested"
+            "s": "Finding an object or ____ around a room with confidence can matter a lot.",
+            "cue": "move",
+            "a": "moving"
           },
           {
             "s": "One serious problem ____ during an injection.",
@@ -72,25 +72,25 @@
             "a": "occurred"
           },
           {
-            "s": "Scientists hope the approach ____ more effective in the future.",
-            "cue": "become",
-            "a": "will become"
+            "s": "The results of the study, ____ in October 2026, offer some hope.",
+            "cue": "publish",
+            "a": "published"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Six of the ten patients showed an important improvement in light sensitivity.",
+          "s": "More than half of the patients showed a clear improvement in sensitivity to light.",
           "a": "T",
           "why": "The text says: \"Six of the ten patients showed an important improvement in how sensitive they were to light.\""
         },
         {
           "s": "The goggles will be available in shops next year.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say when the goggles might be sold."
         },
         {
-          "s": "Ten people took part in the study.",
+          "s": "The study was small, with ten patients.",
           "a": "T",
           "why": "The text says: \"The study involved ten people with advanced retinitis pigmentosa.\""
         },
@@ -109,8 +109,8 @@
             "a": "modest"
           },
           {
-            "s": "For somebody with severe sight loss it could ____.",
-            "a": "make a practical difference"
+            "s": "Further work will be needed to ____ who might benefit most.",
+            "a": "narrow down"
           },
           {
             "s": "The new treatment finds an unusual way to ____ the problem.",
@@ -166,19 +166,19 @@
             "a": "genetic"
           },
           {
-            "s": "Researchers recorded eye-related side effects, most of them ____.",
-            "cue": "MODERATION",
-            "a": "moderate"
+            "s": "Researchers want to turn early gains into ____ improvements in everyday life.",
+            "cue": "RELY",
+            "a": "reliable"
           },
           {
-            "s": "It is important not to ____ the results of a small study.",
-            "cue": "EXAGGERATION",
-            "a": "exaggerate"
+            "s": "Certain nerve cells react to ____ controlled signals.",
+            "cue": "CARE",
+            "a": "carefully"
           },
           {
-            "s": "Further work will improve the images and test more ____.",
+            "s": "Doctors injected a modified virus into one eye of each ____.",
             "cue": "PARTICIPATE",
-            "a": "participants"
+            "a": "participant"
           }
         ]
       },
@@ -186,7 +186,7 @@
         {
           "s": "The treatment costs less than existing eye surgery.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not compare the cost with other treatments."
         },
         {
           "s": "Patients who practised more with the goggles generally performed better.",
@@ -196,7 +196,7 @@
         {
           "s": "The study appeared in the New England Journal of Medicine.",
           "a": "T",
-          "why": "The text says: \"The study, published in the New England Journal of Medicine in October 2026, involved ten patients whose vision had been badly damaged by an inherited condition called retinitis pigmentosa.\""
+          "why": "The text says: \"The study, published in the New England Journal of Medicine in October 2026, involved ten patients whose vision had been badly damaged by an inherited eye disease called retinitis pigmentosa.\""
         },
         {
           "s": "The trial included an untreated comparison group.",
@@ -209,12 +209,12 @@
       "gap": {
         "items": [
           {
-            "s": "The reality of medical progress is usually more ____.",
-            "a": "incremental"
+            "s": "Yet other retinal cells, including ganglion cells, can remain ____.",
+            "a": "relatively intact"
           },
           {
-            "s": "The achievement is substantial, but it does not ____.",
-            "a": "amount to curing blindness"
+            "s": "The next challenge is to see whether gains in the laboratory ____ outside controlled settings.",
+            "a": "hold up"
           },
           {
             "s": "The approach seeks to ____ that distinction rather than rebuild the eye.",
@@ -234,14 +234,14 @@
           }
         ],
         "extra": [
-          "hold up",
-          "adverse"
+          "adverse",
+          "stimulate"
         ]
       },
       "match": [
         {
-          "t": "incremental",
-          "d": "happening in small stages rather than all at once"
+          "t": "accumulation",
+          "d": "slow build-up of something over time"
         },
         {
           "t": "crude",
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The treatment enabled some people with ____ sight loss to detect light.",
-            "cue": "PROFUNDITY",
-            "a": "profound"
+            "s": "These cells may no longer function, making conventional ____ extremely difficult.",
+            "cue": "RESTORE",
+            "a": "restoration"
           },
           {
             "s": "Photoreceptors are the ____ cells that convert light into signals.",
@@ -270,9 +270,9 @@
             "a": "specialised"
           },
           {
-            "s": "Several causes of retinal ____ might be addressed by the same mechanism.",
-            "cue": "DEGENERATE",
-            "a": "degeneration"
+            "s": "Optogenetics gives surviving nerve cells a role they would not ____ perform.",
+            "cue": "ORDINARY",
+            "a": "ordinarily"
           },
           {
             "s": "The results require careful ____.",
@@ -295,15 +295,15 @@
         {
           "s": "A larger trial has been approved for next year.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention approval of a larger trial."
         },
         {
-          "s": "The light-sensitive protein used in the study is called ChrimsonR.",
+          "s": "The study used a light-sensitive protein known as ChrimsonR.",
           "a": "T",
           "why": "The text says: \"Researchers delivered genetic instructions for a light-sensitive protein called ChrimsonR through a single injection into the worse-seeing eye of each participant.\""
         },
         {
-          "s": "Independent researchers welcomed the evidence from the study.",
+          "s": "Researchers outside the study team were pleased with the evidence.",
           "a": "T",
           "why": "The text says: \"Independent researchers nevertheless welcomed the evidence that optogenetic stimulation can provide visual function over an extended period.\""
         }

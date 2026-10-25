@@ -27,7 +27,7 @@
         ],
         "extra": [
           "run out of",
-          "ambitious"
+          "disappointing"
         ]
       },
       "match": [
@@ -40,12 +40,12 @@
           "d": "move ahead of the group you were with"
         },
         {
-          "t": "give up on",
-          "d": "stop believing something is possible"
+          "t": "recover",
+          "d": "get back your strength after hard effort"
         },
         {
-          "t": "ambitious",
-          "d": "aiming at something difficult to achieve"
+          "t": "remarkable",
+          "d": "so impressive that people notice and talk about it"
         }
       ],
       "grammar": {
@@ -67,14 +67,14 @@
             "a": "to maintain"
           },
           {
-            "s": "In 2019, he also ____ a marathon distance in under two hours.",
-            "cue": "run",
-            "a": "ran"
+            "s": "So far, Kipchoge ____ an extraordinary career.",
+            "cue": "enjoy",
+            "a": "has enjoyed"
           },
           {
-            "s": "Some participants complained that water stations ____ out of drinks.",
-            "cue": "run",
-            "a": "had run"
+            "s": "Kipchoge's win does not mean that age has stopped ____ him.",
+            "cue": "affect",
+            "a": "affecting"
           }
         ]
       },
@@ -85,17 +85,17 @@
           "why": "The text says the opposite: \"That performance was remarkable, although it did not count as an official world record because the conditions were different from a normal race.\""
         },
         {
-          "s": "Kipchoge won the Melbourne Marathon in 2:09:10.",
+          "s": "Kipchoge's winning time in Melbourne was a record for the race.",
           "a": "T",
-          "why": "The text says: \"On 11 October 2026, the Kenyan runner won the Melbourne Marathon in Australia, finishing the 42.2-kilometre race in two hours, nine minutes and ten seconds.\""
+          "why": "The text says: \"the Kenyan runner won the Melbourne Marathon in 2 hours, 9 minutes and 10 seconds, a new record for the race.\""
         },
         {
           "s": "Kipchoge has said he will retire after this season.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether he plans to retire."
         },
         {
-          "s": "Some participants complained about overcrowding at the event.",
+          "s": "Some people taking part said the event was too crowded.",
           "a": "T",
           "why": "The text says: \"Some ordinary participants complained that water stations ran out of drinks and that the event was overcrowded.\""
         }
@@ -109,8 +109,8 @@
             "a": "pulled away"
           },
           {
-            "s": "He ____ at the Melbourne Cricket Ground.",
-            "a": "crossed the finish line"
+            "s": "His winning time was ____ his personal best, but he still won easily.",
+            "a": "some way short of"
           },
           {
             "s": "There comes a point when experience can no longer ____ lost speed.",
@@ -144,8 +144,8 @@
           "d": "compensate for something that is missing"
         },
         {
-          "t": "write somebody off",
-          "d": "decide somebody can no longer succeed"
+          "t": "write off",
+          "d": "decide that someone or something cannot succeed"
         },
         {
           "t": "elite",
@@ -156,9 +156,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "His 2019 run was not ____ for an official record.",
-            "cue": "ELIGIBILITY",
-            "a": "eligible"
+            "s": "He did not need to reproduce the fastest performance of his life to win ____.",
+            "cue": "CONVINCE",
+            "a": "convincingly"
           },
           {
             "s": "Results did not match his earlier ____.",
@@ -166,13 +166,13 @@
             "a": "dominance"
           },
           {
-            "s": "Training places enormous pressure on muscles and ____.",
-            "cue": "JOINT",
-            "a": "joints"
+            "s": "For anyone whose ambitions have been written off as ____, that may be the most compelling part of his story.",
+            "cue": "REALISTIC",
+            "a": "unrealistic"
           },
           {
             "s": "Questions about retirement followed ____.",
-            "cue": "EVITABLE",
+            "cue": "INEVITABLE",
             "a": "inevitably"
           },
           {
@@ -184,9 +184,9 @@
       },
       "tfn": [
         {
-          "s": "Kipchoge won Olympic marathon titles in Rio and Tokyo.",
+          "s": "Kipchoge has won marathon titles at two different Olympic Games.",
           "a": "T",
-          "why": "The text says: \"He won Olympic marathon titles in Rio and Tokyo, set world records and, in a specially arranged event in Vienna in 2019, became the first person to complete the distance in under two hours.\""
+          "why": "The text says: \"He won Olympic marathon titles in Rio and Tokyo\""
         },
         {
           "s": "His Melbourne time was a personal best.",
@@ -196,10 +196,10 @@
         {
           "s": "The organisers have apologised for the water shortages.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the organisers apologised."
         },
         {
-          "s": "Thomas Do Canto and Reece Edwards could not stay with him.",
+          "s": "The two Australian runners could not keep up with the winner.",
           "a": "T",
           "why": "The text says: \"Australians Thomas Do Canto and Reece Edwards were unable to stay with him.\""
         }
@@ -209,16 +209,16 @@
       "gap": {
         "items": [
           {
-            "s": "____, with a final moment of applause before the decline.",
-            "a": "Sport likes a neat farewell"
+            "s": "He ____ over the final ten kilometres and headed for the finish.",
+            "a": "pulled away"
           },
           {
-            "s": "He offered an ____ response to his critics.",
-            "a": "emphatic"
+            "s": "Even the best-prepared athlete must ____ accumulated training stress.",
+            "a": "contend with"
           },
           {
-            "s": "Some observers had begun to ____.",
-            "a": "regard his retirement as overdue"
+            "s": "It was a performance that ____ years of experience rather than physical youth.",
+            "a": "drew on"
           },
           {
             "s": "Recent years brought setbacks and ____ performances.",
@@ -234,26 +234,26 @@
           }
         ],
         "extra": [
-          "put to rest",
-          "delicate"
+          "delicate",
+          "everlasting"
         ]
       },
       "match": [
         {
-          "t": "put something to rest",
-          "d": "settle a question so it stops being asked"
+          "t": "draw on",
+          "d": "use experience or knowledge you already have"
         },
         {
-          "t": "emphatic",
-          "d": "expressed with great force and clarity"
+          "t": "overlook",
+          "d": "fail to notice or think about something"
         },
         {
           "t": "delicate",
           "d": "easily upset and needing careful handling"
         },
         {
-          "t": "draw on",
-          "d": "use experience or knowledge you already have"
+          "t": "erase",
+          "d": "remove all sign of something"
         }
       ],
       "grammar": {
@@ -275,35 +275,35 @@
             "a": "noteworthy"
           },
           {
-            "s": "Their accounts raised ____ questions about the organisers.",
-            "cue": "LEGITIMACY",
-            "a": "legitimate"
+            "s": "Runners complained of water shortages, congestion and ____ facilities.",
+            "cue": "ADEQUATE",
+            "a": "inadequate"
           },
           {
-            "s": "His own performances have ____ in recent seasons.",
-            "cue": "FLUCTUATION",
-            "a": "fluctuated"
+            "s": "He accelerated ____ late in the race.",
+            "cue": "DECISIVE",
+            "a": "decisively"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The writer says one result erases the effects of age.",
+          "s": "One victory has shown that Kipchoge's age no longer matters.",
           "a": "F",
           "why": "The text says the opposite: \"The competitive landscape has changed, his own performances have fluctuated and one result cannot erase the consequences of age.\""
         },
         {
           "s": "Kipchoge plans to run the Melbourne Marathon again next year.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether he will return to Melbourne."
         },
         {
-          "s": "Kipchoge set a course record at Melbourne at the age of 41.",
+          "s": "Kipchoge set a course record in Melbourne at the age of 41.",
           "a": "T",
-          "why": "The text says: \"At 41, the Kenyan distance-running great won the Melbourne Marathon on 11 October 2026 in 2:09:10, establishing a course record and offering an emphatic response to those who had begun to regard his retirement as overdue.\""
+          "why": "The text says: \"The Kenyan runner won the Melbourne Marathon on 11 October 2026 in 2:09:10, a course record.\""
         },
         {
-          "s": "Recreational runners complained of congestion and inadequate facilities.",
+          "s": "Some amateur runners criticised the water and facilities provided.",
           "a": "T",
           "why": "The text says: \"Numerous recreational runners complained of water shortages, congestion and inadequate facilities at an event whose appeal had extended well beyond its elite field.\""
         }

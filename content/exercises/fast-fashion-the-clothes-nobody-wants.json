@@ -21,12 +21,12 @@
             "a": "on limited budgets"
           },
           {
-            "s": "A cheap T-shirt is not ____ if it is worn once.",
-            "a": "a bargain"
+            "s": "Making clothes uses water and energy, even if they are ____ used.",
+            "a": "hardly ever"
           }
         ],
         "extra": [
-          "throw away",
+          "damaged",
           "unsold"
         ]
       },
@@ -40,8 +40,8 @@
           "d": "still in the shop because nobody bought it"
         },
         {
-          "t": "throw away",
-          "d": "put something in the bin"
+          "t": "damaged",
+          "d": "harmed or broken so that it no longer works well"
         },
         {
           "t": "sort through",
@@ -64,38 +64,38 @@
           {
             "s": "In October 2026, one charity said it ____ as many as 100 bags a day.",
             "cue": "receive",
-            "a": "received"
+            "a": "received|receives|had received"
           },
           {
-            "s": "Research by Oxfam ____ that 32% of clothes were never worn.",
+            "s": "Research by Oxfam in 2026 ____ that 32% of clothes were never worn.",
             "cue": "find",
             "a": "found"
           },
           {
             "s": "Large EU companies ____ from destroying most unsold clothing.",
             "cue": "ban",
-            "a": "were banned"
+            "a": "were banned|have been banned"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Oxfam found that 32% of clothes in British wardrobes were never worn.",
+          "s": "According to Oxfam, nearly a third of clothes in British wardrobes were never worn.",
           "a": "T",
           "why": "The text says: \"Research by Oxfam in 2026 found that 32% of clothes in British wardrobes were never worn.\""
         },
         {
           "s": "All donated clothes can be sold in the shop.",
           "a": "F",
-          "why": "The text says the opposite: \"That is happening more often as charity shops receive more clothes than they can sell.\""
+          "why": "The text says the opposite: \"Only about one quarter of the items were suitable for resale.\""
         },
         {
           "s": "Charity shop donations have fallen since 2025.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether charity shop donations have gone up or down over time."
         },
         {
-          "s": "One south London charity received as many as 100 bags a day.",
+          "s": "A charity in London says it can get up to 100 donation bags in one day.",
           "a": "T",
           "why": "The text says: \"In October 2026, one charity operation in south London said it received as many as 100 bags a day.\""
         }
@@ -171,9 +171,9 @@
             "a": "environmental"
           },
           {
-            "s": "____ fabrics may cause problems when washed or discarded.",
-            "cue": "SYNTHESIS",
-            "a": "Synthetic"
+            "s": "The industry is built around low prices and ____ changing trends.",
+            "cue": "RAPID",
+            "a": "rapidly"
           },
           {
             "s": "Retailers must also consider ____ and the volume they produce.",
@@ -184,14 +184,14 @@
       },
       "tfn": [
         {
-          "s": "Oxfam found that 64% of people surveyed bought clothes they had not planned to buy.",
+          "s": "Most of the British people Oxfam surveyed had bought clothes they were not looking for after seeing them online.",
           "a": "T",
           "why": "The text says: \"In its 2026 State of Style report, Oxfam found that 64% of people surveyed in Britain had bought clothes they were not actively looking for after seeing something online.\""
         },
         {
           "s": "Charity shops in Scotland report the same problem.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether charity shops in Scotland report the same problem."
         },
         {
           "s": "The EU rules prevent cheap garments from being produced.",
@@ -199,7 +199,7 @@
           "why": "The text says the opposite: \"However, preventing destruction does not necessarily reduce the number of cheap garments being produced in the first place.\""
         },
         {
-          "s": "Many garments contain fibre combinations that are hard to separate.",
+          "s": "Some clothes cannot easily be recycled because of the mix of fibres they contain.",
           "a": "T",
           "why": "The text says: \"Recycling is not always possible because many garments contain combinations of fibres that are difficult to separate.\""
         }
@@ -213,7 +213,7 @@
             "a": "reassuring"
           },
           {
-            "s": "Charity shops report being ____ damaged or worthless clothing.",
+            "s": "Charity shops report being ____ clothing that is too damaged to sell.",
             "a": "inundated with"
           },
           {
@@ -245,7 +245,7 @@
         },
         {
           "t": "write off",
-          "d": "treat something as a loss that can be ignored"
+          "d": "accept that a cost or loss cannot be recovered"
         },
         {
           "t": "serviceable",
@@ -260,14 +260,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "British charity shops receive commercially ____ clothing.",
-            "cue": "WORTH",
-            "a": "worthless"
+            "s": "Durability, on that model, is close to ____.",
+            "cue": "RELEVANT",
+            "a": "irrelevant"
           },
           {
-            "s": "Consumption has become entwined with digital ____.",
-            "cue": "INFLUENTIAL",
-            "a": "influence"
+            "s": "Oxfam's report shows how ____ has become entwined with digital influence.",
+            "cue": "CONSUME",
+            "a": "consumption"
           },
           {
             "s": "Among younger adults, ____ recommendations were especially strong.",
@@ -280,32 +280,32 @@
             "a": "substantial"
           },
           {
-            "s": "Low-cost clothing serves a real need for households facing financial ____.",
-            "cue": "CONSTRAIN",
-            "a": "constraints"
+            "s": "Charity shops cannot solve ____ on their own.",
+            "cue": "PRODUCE",
+            "a": "overproduction"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Reporting in October 2026 described up to 100 bags a day at St Raphael's Hospice.",
+          "s": "A hospice in south London was reported to be receiving as many as 100 bags daily.",
           "a": "T",
           "why": "The text says: \"The pressure is visible at St Raphael's Hospice in south London, where reporting in October 2026 described as many as 100 bags arriving each day and only a minority of their contents being fit for sale.\""
         },
         {
-          "s": "The EU measure does not directly challenge the pace of new collections.",
+          "s": "The EU rule on unsold stock leaves the speed at which new clothes appear largely unchallenged.",
           "a": "T",
           "why": "The text says: \"It marks a shift towards holding businesses responsible for what happens after products fail to sell, although it does not directly challenge the relentless pace at which new collections are launched.\""
         },
         {
           "s": "Britain plans to copy the EU rules on unsold clothing.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Britain plans to introduce similar rules."
         },
         {
           "s": "The writer blames individual shoppers alone for the problem.",
           "a": "F",
-          "why": "The text says the opposite: \"There is a danger in presenting individual shoppers as the sole cause of the problem.\""
+          "why": "The text says the opposite: \"Shoppers also have limited control over how well clothes are made.\""
         }
       ]
     }

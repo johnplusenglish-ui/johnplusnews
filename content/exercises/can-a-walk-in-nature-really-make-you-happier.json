@@ -27,7 +27,7 @@
         ],
         "extra": [
           "catch up",
-          "peaceful"
+          "scroll through"
         ]
       },
       "match": [
@@ -37,11 +37,11 @@
         },
         {
           "t": "put up with",
-          "d": "accept something unpleasant"
+          "d": "accept something unpleasant because you cannot change it"
         },
         {
           "t": "catch up",
-          "d": "exchange news with somebody you have not seen"
+          "d": "talk to somebody and share news after some time apart"
         },
         {
           "t": "peaceful",
@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Researchers ____ how time in nature affects our minds.",
+            "s": "Researchers ____ how time in nature affects our minds for many years.",
             "cue": "study",
-            "a": "have studied"
+            "a": "have studied|have been studying"
           },
           {
             "s": "A review ____ in 2025 examined experiments with adults.",
@@ -85,19 +85,19 @@
           "why": "The text says the opposite: \"The evidence that nature improves memory and concentration was much weaker.\""
         },
         {
-          "s": "Access to nature is not equal for everyone.",
+          "s": "Not everybody can reach good green spaces easily.",
           "a": "T",
           "why": "The text says: \"Of course, access to nature is not equal.\""
         },
         {
-          "s": "The review found good evidence that natural places improve mood.",
+          "s": "The review suggested that time in nature can lift people's mood.",
           "a": "T",
           "why": "The text says: \"It found good evidence that natural places can improve people's mood.\""
         },
         {
-          "s": "Walking by the sea is better than walking in a park.",
+          "s": "The review was paid for by a government.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say who paid for the review."
         }
       ]
     },
@@ -166,9 +166,9 @@
             "a": "consistent"
           },
           {
-            "s": "Separating these influences scientifically is not ____.",
-            "cue": "EASE",
-            "a": "easy"
+            "s": "Separating these influences ____ is not always straightforward.",
+            "cue": "SCIENCE",
+            "a": "scientifically"
           },
           {
             "s": "Cities should create ____ green spaces.",
@@ -189,19 +189,19 @@
           "why": "The text says the opposite: \"A pleasant afternoon outdoors is not necessarily a treatment for a mental health condition, and a single walk will not transform everybody's concentration.\""
         },
         {
-          "s": "Weather and mobility can limit people's outdoor choices.",
+          "s": "Having little free time can limit how much people go outdoors.",
           "a": "T",
           "why": "The text says: \"Weather, mobility and the demands of work can further limit people's choices.\""
         },
         {
           "s": "Most British cities have increased their park budgets.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say anything about city park budgets."
         },
         {
-          "s": "The review appeared in the Journal of Environmental Psychology in November 2025.",
+          "s": "The review was published in late 2025.",
           "a": "T",
-          "why": "The text says: \"A systematic review published in the Journal of Environmental Psychology in November 2025 examined randomised experiments involving adults and natural environments.\""
+          "why": "The text says: \"published in the Journal of Environmental Psychology in November 2025\""
         }
       ]
     },
@@ -209,12 +209,12 @@
       "gap": {
         "items": [
           {
-            "s": "Nature is often presented as ____ for modern exhaustion.",
-            "a": "a universal remedy"
+            "s": "Wellbeing cannot be ____ personal choice.",
+            "a": "reduced to"
           },
           {
-            "s": "Such claims ____ an inexpensive activity as a solution.",
-            "a": "dress up"
+            "s": "The evidence therefore supports a ____ conclusion rather than a dramatic one.",
+            "a": "measured"
           },
           {
             "s": "Experiments struggle to ____ these ingredients.",
@@ -229,45 +229,45 @@
             "a": "one-size-fits-all"
           },
           {
-            "s": "Nature is not ____.",
+            "s": "Nature is neither a guaranteed psychological treatment nor ____.",
             "a": "a substitute for healthcare"
           }
         ],
         "extra": [
           "affluent",
-          "measured"
+          "inconsistent"
         ]
       },
       "match": [
-        {
-          "t": "dress something up",
-          "d": "present something as better than it is"
-        },
         {
           "t": "tease apart",
           "d": "separate things that are closely mixed"
         },
         {
           "t": "affluent",
-          "d": "having plenty of money"
+          "d": "having plenty of money and a comfortable life"
         },
         {
-          "t": "measured",
-          "d": "careful and not exaggerated"
+          "t": "inconsistent",
+          "d": "not giving the same result each time"
+        },
+        {
+          "t": "restorative",
+          "d": "helping people recover energy and feel refreshed"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "The scientific picture is more ____ than the headlines suggest.",
-            "cue": "SELECT",
-            "a": "selective"
+            "s": "It is entirely possible for an activity to improve mood while offering less ____ effects on other aspects of cognition.",
+            "cue": "PREDICT",
+            "a": "predictable"
           },
           {
-            "s": "There are ____ explanations for why nature feels restorative.",
-            "cue": "PLAUSIBILITY",
-            "a": "plausible"
+            "s": "Residents of neighbourhoods dominated by traffic or poor ____ may come up against obstacles.",
+            "cue": "MAINTAIN",
+            "a": "maintenance"
           },
           {
             "s": "A second review suggested modest attention-____ benefits.",
@@ -288,14 +288,14 @@
       },
       "tfn": [
         {
-          "s": "The article says research findings are averages, not guarantees.",
+          "s": "The writer notes that research findings describe averages rather than promises.",
           "a": "T",
           "why": "The text says: \"Still, research findings are averages, not guarantees.\""
         },
         {
           "s": "Urban park funding has fallen across Europe.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text says nothing about park funding in Europe."
         },
         {
           "s": "The writer presents nature as a guaranteed psychological treatment.",
@@ -303,7 +303,7 @@
           "why": "The text says the opposite: \"Natural environments can contribute to wellbeing, especially emotional wellbeing, but they are neither a guaranteed psychological treatment nor a substitute for healthcare.\""
         },
         {
-          "s": "The review found relatively strong evidence for improvements in mood.",
+          "s": "The review's evidence for mood was firmer than its evidence for memory and attention.",
           "a": "T",
           "why": "The text says: \"Researchers found relatively strong evidence that exposure to nature improved mood, while findings concerning memory and attention were inconsistent.\""
         }

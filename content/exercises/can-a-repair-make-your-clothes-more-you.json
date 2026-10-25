@@ -45,7 +45,7 @@
         },
         {
           "t": "textile",
-          "d": "cloth or fabric"
+          "d": "cloth or fabric, such as cotton or wool"
         }
       ],
       "grammar": {
@@ -67,9 +67,9 @@
             "a": "were"
           },
           {
-            "s": "A patch ____ a piece of cloth that covers a hole.",
-            "cue": "be",
-            "a": "is"
+            "s": "Which choice ____ more like you?",
+            "cue": "feel",
+            "a": "feels"
           },
           {
             "s": "Some people ____ repairs to be invisible.",
@@ -80,7 +80,7 @@
       },
       "tfn": [
         {
-          "s": "The workshop was for teenagers aged 13 to 18.",
+          "s": "The workshop was meant for young people between 13 and 18.",
           "a": "T",
           "why": "The text says: \"advertised a workshop for teenagers aged 13 to 18\""
         },
@@ -110,8 +110,8 @@
       "gap": {
         "items": [
           {
-            "s": "YAX is a ____ that offers free after-school arts programmes.",
-            "a": "nonprofit"
+            "s": "Teenagers could bring one textile item that needed ____.",
+            "a": "repair"
           },
           {
             "s": "Participants should bring an item no larger than the ____ of a hand.",
@@ -122,11 +122,11 @@
             "a": "upcycle"
           },
           {
-            "s": "The library's Youth Advisory Board ____ had spent the school year planning programmes.",
+            "s": "The listing credited the library's Youth Advisory Board ____, who helped plan programmes.",
             "a": "interns"
           },
           {
-            "s": "A neat ____ stitch says that nothing happened.",
+            "s": "A neat ____ stitch means that nothing happened.",
             "a": "invisible"
           }
         ],
@@ -137,8 +137,8 @@
       },
       "match": [
         {
-          "t": "mending",
-          "d": "fixing damage so that something works again"
+          "t": "essential",
+          "d": "very important and needed"
         },
         {
           "t": "upcycling",
@@ -146,7 +146,7 @@
         },
         {
           "t": "textile",
-          "d": "cloth or fabric"
+          "d": "cloth or fabric, such as cotton or wool"
         },
         {
           "t": "visible mending",
@@ -172,9 +172,9 @@
             "a": "were"
           },
           {
-            "s": "The listing also ____ the library's interns.",
-            "cue": "credit",
-            "a": "credited"
+            "s": "A bright patch ____ that the object has a history.",
+            "cue": "say",
+            "a": "says"
           },
           {
             "s": "Mending ____ damage so that something works again.",
@@ -185,7 +185,7 @@
       },
       "tfn": [
         {
-          "s": "The workshop was for ages 13 to 18.",
+          "s": "The workshop was meant for young people from 13 to 18.",
           "a": "T",
           "why": "The text says: \"The San Francisco Public Library advertised a workshop for ages 13 to 18\""
         },
@@ -215,7 +215,7 @@
       "gap": {
         "items": [
           {
-            "s": "The patch is the same, and the meaning changes with the ____.",
+            "s": "The ____'s assumptions do a lot of work here.",
             "a": "viewer"
           },
           {
@@ -227,7 +227,7 @@
             "a": "decision"
           },
           {
-            "s": "Others may read the same repair as ____.",
+            "s": "A person with less money may find that others read the same repair as ____, not as a choice.",
             "a": "necessity"
           },
           {
@@ -277,14 +277,14 @@
             "a": "embarrassing"
           },
           {
-            "s": "The listing is an ____ for the event.",
-            "cue": "ADVERTISE",
-            "a": "advertisement"
+            "s": "A repair can become the most ____ part of a bag.",
+            "cue": "NOTICE",
+            "a": "noticeable"
           },
           {
-            "s": "The listing gives no ____ figures.",
-            "cue": "ATTEND",
-            "a": "attendance"
+            "s": "Nor should we assume that ____ clothes are needed to take part.",
+            "cue": "EXPENSE",
+            "a": "expensive"
           }
         ]
       },
@@ -305,9 +305,9 @@
           "why": "The text says: \"Mending restores function.\""
         },
         {
-          "s": "The text says the patch means the same to every viewer.",
+          "s": "People read a visible repair in the same way, whoever wears it.",
           "a": "F",
-          "why": "The text says the opposite: \"The patch is the same, and the meaning changes with the viewer.\""
+          "why": "The text says the opposite: \"When a person who can easily afford new clothes wears a visible repair, it can read as a choice. When a person with less money wears the same repair, others may read it as necessity.\""
         },
         {
           "s": "The workshop was fully booked.",

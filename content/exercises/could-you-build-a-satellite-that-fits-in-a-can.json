@@ -26,8 +26,8 @@
           }
         ],
         "extra": [
-          "satellite",
-          "competition"
+          "event",
+          "project"
         ]
       },
       "match": [
@@ -67,14 +67,14 @@
             "a": "met"
           },
           {
-            "s": "Each group ____ a feasibility study on the last day.",
-            "cue": "present",
-            "a": "presented"
+            "s": "The event ____ called CanSat Space Engineer for a Day.",
+            "cue": "be",
+            "a": "was"
           },
           {
-            "s": "The can ____ launched to about one kilometre above the ground.",
-            "cue": "be",
-            "a": "is"
+            "s": "A team can ask a question that it ____ interesting.",
+            "cue": "find",
+            "a": "finds"
           }
         ]
       },
@@ -90,7 +90,7 @@
           "why": "The text says the opposite: \"It doesn't go into orbit.\""
         },
         {
-          "s": "Teams have three to six students aged 14 to 19.",
+          "s": "Each team has between three and six students.",
           "a": "T",
           "why": "The text says: \"Teams have three to six students aged 14 to 19, and a teacher or mentor guides them.\""
         },
@@ -114,8 +114,8 @@
             "a": "simulation"
           },
           {
-            "s": "Students use several subjects at once, so it is an ____ school project.",
-            "a": "interdisciplinary"
+            "s": "A feasibility study ____ a team that can explain its choices and its limits.",
+            "a": "rewards"
           },
           {
             "s": "Each team chooses a second ____ of its own.",
@@ -223,7 +223,7 @@
             "a": "compulsory"
           },
           {
-            "s": "ESA's article gives no ____, which leaves the real decision to the students.",
+            "s": "ESA's article gives no ____ of the second missions.",
             "a": "examples"
           },
           {
@@ -242,20 +242,20 @@
       },
       "match": [
         {
-          "t": "constraints",
-          "d": "limits on what you can do or use"
-        },
-        {
           "t": "feasibility study",
           "d": "a plan that checks whether an idea could really work"
+        },
+        {
+          "t": "constraints",
+          "d": "limits on what you can do or use"
         },
         {
           "t": "secondary mission",
           "d": "an extra task chosen by the team"
         },
         {
-          "t": "non-competitive",
-          "d": "not a contest with winners"
+          "t": "modest",
+          "d": "fairly small, not extreme or showy"
         }
       ],
       "grammar": {
@@ -282,9 +282,9 @@
             "a": "success"
           },
           {
-            "s": "____ about the second mission is almost guaranteed.",
-            "cue": "DISAGREE",
-            "a": "disagreement"
+            "s": "____ is modest by space standards.",
+            "cue": "DEPLOY",
+            "a": "deployment"
           }
         ]
       },

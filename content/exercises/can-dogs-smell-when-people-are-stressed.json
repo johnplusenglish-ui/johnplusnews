@@ -26,8 +26,8 @@
           }
         ],
         "extra": [
-          "pessimistic",
-          "relaxed"
+          "clever",
+          "patience"
         ]
       },
       "match": [
@@ -44,8 +44,8 @@
           "d": "calm and not worried"
         },
         {
-          "t": "pessimistic",
-          "d": "expecting bad things to happen"
+          "t": "expected",
+          "d": "thought that something would probably happen"
         }
       ],
       "grammar": {
@@ -57,9 +57,9 @@
             "a": "worked"
           },
           {
-            "s": "First they ____ each dog with two food bowls.",
-            "cue": "train",
-            "a": "trained"
+            "s": "This is ____ an \"ambiguous\" place.",
+            "cue": "call",
+            "a": "called"
           },
           {
             "s": "Soon the dogs ____ the difference.",
@@ -80,19 +80,19 @@
       },
       "tfn": [
         {
-          "s": "The researchers worked with 18 dogs and their owners.",
+          "s": "Eighteen dogs took part in the study together with their owners.",
           "a": "T",
           "why": "The text says: \"The researchers, from the University of Bristol, worked with 18 dogs and their owners.\""
         },
         {
-          "s": "In one place the bowl had a treat, and in the other place it was empty.",
+          "s": "One bowl place always held a treat and the other place never did.",
           "a": "T",
           "why": "The text says: \"In one place, the bowl always had a treat. In the other place, the bowl was always empty.\""
         },
         {
           "s": "The dogs went more slowly to the new bowl when they smelled the relaxed samples.",
           "a": "F",
-          "why": "The text says the opposite: \"The relaxed smell did not do that.\""
+          "why": "The text says the opposite: \"When the dogs smelled the stress samples, they were slower to go to the new bowl closest to the empty one. The relaxed smell did not do that.\""
         },
         {
           "s": "The researchers say the study proves that dogs can read minds.",
@@ -126,13 +126,13 @@
             "a": "approached"
           },
           {
-            "s": "They suggest the dogs formed a kind of ____ expectation about the new bowl.",
-            "a": "pessimistic"
+            "s": "Slow walking could have other ____.",
+            "a": "explanations"
           }
         ],
         "extra": [
           "separate",
-          "measure"
+          "careful"
         ]
       },
       "match": [
@@ -145,12 +145,12 @@
           "d": "two things happening together by chance"
         },
         {
-          "t": "ambiguous",
-          "d": "not clear, with more than one possible answer"
+          "t": "arithmetic",
+          "d": "working with numbers by adding, taking away and multiplying"
         },
         {
-          "t": "pessimistic",
-          "d": "expecting bad things to happen"
+          "t": "hopeful",
+          "d": "feeling that something good may happen"
         }
       ],
       "grammar": {
@@ -167,14 +167,14 @@
             "a": "learned|learnt"
           },
           {
-            "s": "A bowl in one place always ____ a treat.",
-            "cue": "contain",
-            "a": "contained"
+            "s": "The stress smell may have ____ the dogs less hopeful of finding food.",
+            "cue": "make",
+            "a": "made"
           },
           {
-            "s": "The relaxed smell ____ no such effect.",
-            "cue": "have",
-            "a": "had"
+            "s": "A dog ____ its head the moment you sit down after a terrible day.",
+            "cue": "lift",
+            "a": "lifts"
           },
           {
             "s": "The team ____ a change in speed.",
@@ -185,7 +185,7 @@
       },
       "tfn": [
         {
-          "s": "The researchers worked with 18 dogs and their owners.",
+          "s": "The study involved 18 dogs and their owners.",
           "a": "T",
           "why": "The text says: \"They worked with 18 dogs and their owners.\""
         },
@@ -197,7 +197,7 @@
         {
           "s": "The relaxed smell did not slow the dogs down.",
           "a": "T",
-          "why": "The text says: \"The relaxed smell had no such effect.\""
+          "why": "The text says: \"When the stress smell was present, the dogs were slower to approach the ambiguous bowl nearest the empty one. The relaxed smell had no such effect.\""
         },
         {
           "s": "The study showed that dogs can read minds.",
@@ -223,8 +223,8 @@
             "a": "ambiguous"
           },
           {
-            "s": "Eighteen dogs is a small ____.",
-            "a": "sample"
+            "s": "This is one small study of 18 dogs, and the slow approach is only a ____, not a report of what they felt.",
+            "a": "clue"
           },
           {
             "s": "It could be a way for a dog to ____ energy.",
@@ -236,8 +236,8 @@
           }
         ],
         "extra": [
-          "pessimistic",
-          "ambiguity"
+          "caution",
+          "negative"
         ]
       },
       "match": [
@@ -262,9 +262,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The researchers recorded how ____ a dog approached the bowl.",
-            "cue": "QUICK",
-            "a": "quickly"
+            "s": "Rooney said that the odour of a stressed, ____ person can affect a dog.",
+            "cue": "FAMILIAR",
+            "a": "unfamiliar"
           },
           {
             "s": "The authors describe a negative ____ state.",

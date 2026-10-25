@@ -26,35 +26,35 @@
           }
         ],
         "extra": [
-          "sell",
-          "copy"
+          "price",
+          "ticket"
         ]
       },
       "match": [
         {
-          "t": "avatar",
-          "d": "a character that stands for you in a game"
+          "t": "community",
+          "d": "a group of people who share an interest"
         },
         {
           "t": "outfit",
-          "d": "a set of clothes that you wear together"
+          "d": "a set of clothes chosen to go together"
         },
         {
-          "t": "inventory",
-          "d": "the list of things that a player owns in a game"
+          "t": "separate",
+          "d": "different and not joined to something else"
         },
         {
-          "t": "community",
-          "d": "a group of people who share an interest"
+          "t": "digital",
+          "d": "existing on a screen, not as a real object"
         }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
           {
-            "s": "A creator called Muneeb ____ it.",
-            "cue": "make",
-            "a": "made"
+            "s": "One Roblox experience was ____ just for this.",
+            "cue": "build",
+            "a": "built"
           },
           {
             "s": "Trying on an item ____ nothing.",
@@ -62,27 +62,27 @@
             "a": "costs"
           },
           {
-            "s": "The description ____ there are more than 50 million outfits.",
-            "cue": "say",
-            "a": "says"
-          },
-          {
-            "s": "A bought item ____ into the player's inventory.",
-            "cue": "go",
-            "a": "goes"
-          },
-          {
-            "s": "If a player ____ an item, it goes into the inventory.",
+            "s": "Saving a look is a separate step from ____.",
             "cue": "buy",
-            "a": "buys"
+            "a": "buying"
+          },
+          {
+            "s": "The page says that a bought item can be ____ in other games.",
+            "cue": "use",
+            "a": "used"
+          },
+          {
+            "s": "Players can ____ items, save a look and see outfits made by other players.",
+            "cue": "mix",
+            "a": "mix"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Trying on an item in the experience costs nothing.",
+          "s": "Players can see outfits made by other players.",
           "a": "T",
-          "why": "The text says: \"Trying on an item costs nothing.\""
+          "why": "The text says: \"They can mix items, save a look and see outfits made by other players.\""
         },
         {
           "s": "Players cannot save their looks.",
@@ -90,14 +90,14 @@
           "why": "The text says the opposite: \"They can mix items, save a look and see outfits made by other players.\""
         },
         {
-          "s": "Muneeb is a teenager.",
+          "s": "The experience can be played on a tablet.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say which devices the experience works on."
         },
         {
-          "s": "A bought item can be used in any game.",
+          "s": "Whether a bought item works in another game depends on the game.",
           "a": "T",
-          "why": "The text says: \"the player can use it in any game\""
+          "why": "The text says: \"The page says it can be used in other games, but that depends on the game.\""
         },
         {
           "s": "Everything in the experience must be bought.",
@@ -118,8 +118,8 @@
             "a": "combine"
           },
           {
-            "s": "The award and the number of outfits are the creator's own ____, not independent findings.",
-            "a": "claims"
+            "s": "Some people see a digital item as a ____, because it only exists on a screen.",
+            "a": "waste"
           },
           {
             "s": "Items that a player buys appear in their ____.",
@@ -131,19 +131,11 @@
           }
         ],
         "extra": [
-          "sell",
-          "earn"
+          "price",
+          "ticket"
         ]
       },
       "match": [
-        {
-          "t": "avatar",
-          "d": "a character that stands for you in a game"
-        },
-        {
-          "t": "inventory",
-          "d": "the list of things that a player owns in a game"
-        },
         {
           "t": "experiment",
           "d": "to try something new to see what happens"
@@ -151,15 +143,23 @@
         {
           "t": "self-expression",
           "d": "showing your personality or ideas through what you make or wear"
+        },
+        {
+          "t": "digital",
+          "d": "existing on a screen, not as a real object"
+        },
+        {
+          "t": "ridiculous",
+          "d": "very silly, so that people may laugh"
         }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
           {
-            "s": "A developer called Muneeb ____ the experience.",
-            "cue": "create",
-            "a": "created"
+            "s": "The experience is ____ entirely around that idea.",
+            "cue": "build",
+            "a": "built"
           },
           {
             "s": "The description ____ a clear line between trying and buying.",
@@ -167,19 +167,19 @@
             "a": "draws"
           },
           {
-            "s": "The experience ____ a Best Use of Fashion award, says the description.",
-            "cue": "win",
-            "a": "won"
+            "s": "They can browse outfits ____ by other users.",
+            "cue": "make",
+            "a": "made"
           },
           {
-            "s": "Items that a player ____ appear in their inventory.",
-            "cue": "buy",
-            "a": "buys"
+            "s": "One day you ____ a knight, and the next day you wear a ridiculous hat.",
+            "cue": "be",
+            "a": "are"
           },
           {
-            "s": "Others ____ it as a creative choice that took time and taste.",
-            "cue": "see",
-            "a": "see"
+            "s": "This lesson is based on the experience's public page, ____ in October 2026.",
+            "cue": "check",
+            "a": "checked"
           }
         ]
       },
@@ -195,19 +195,19 @@
           "why": "The text says the opposite: \"so it would be wrong to say that all teenagers do\""
         },
         {
-          "s": "Muneeb earns money from the experience.",
+          "s": "The experience can be played on a tablet.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say which devices the experience works on."
         },
         {
-          "s": "A bought item can be used in any game.",
+          "s": "A bought item may not work in every game.",
           "a": "T",
-          "why": "The text says: \"can then be used in any game\""
+          "why": "The text says: \"they can be used in other games, although that depends on the game\""
         },
         {
-          "s": "The text says the award claim is independent proof.",
+          "s": "The page says how many people play like this.",
           "a": "F",
-          "why": "The text says the opposite: \"These are the creator's own claims, not independent findings.\""
+          "why": "The text says the opposite: \"The page does not say how many people play like this\""
         }
       ]
     },
@@ -223,8 +223,8 @@
             "a": "claims"
           },
           {
-            "s": "Items that a player buys appear in their ____.",
-            "a": "inventory"
+            "s": "Whether an owned item works in another experience depends on the item's ____.",
+            "a": "compatibility"
           },
           {
             "s": "An avatar lets you try a style you would never wear outside the game, with no ____ if you do not like it.",
@@ -246,25 +246,25 @@
           "d": "to try something new to see what happens"
         },
         {
-          "t": "self-expression",
-          "d": "showing your personality or ideas through what you make or wear"
-        },
-        {
-          "t": "continuity",
-          "d": "an unbroken connection between one thing and the next"
-        },
-        {
           "t": "cynic",
           "d": "a person who tends to doubt that things are worth anything"
+        },
+        {
+          "t": "exaggerate",
+          "d": "to make something seem bigger or stronger than it is"
+        },
+        {
+          "t": "vanish",
+          "d": "to disappear suddenly and not be seen again"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "____ is the obvious answer.",
-            "cue": "EXPRESS",
-            "a": "Self-expression"
+            "s": "The truth probably depends on whether you made the ____.",
+            "cue": "DECIDE",
+            "a": "decision"
           },
           {
             "s": "Neither claim has been ____ checked.",
@@ -295,19 +295,19 @@
           "why": "The text says: \"try on a wide range of catalogue items for free\""
         },
         {
-          "s": "The text says the award claim has been independently checked.",
+          "s": "The text says the award claim has been verified by outside experts.",
           "a": "F",
           "why": "The text says the opposite: \"Neither claim has been independently checked\""
         },
         {
-          "s": "Muneeb is a teenager.",
+          "s": "The experience can be played on a tablet.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say which devices the experience works on."
         },
         {
-          "s": "Items that a player buys can be used in any game.",
+          "s": "Whether an owned item works elsewhere depends on the other experience.",
           "a": "T",
-          "why": "The text says: \"can be used in any game\""
+          "why": "The text says: \"depends on that experience and the item's compatibility\""
         },
         {
           "s": "The text says an avatar that looks like you is more honest.",

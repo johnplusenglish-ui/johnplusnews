@@ -67,14 +67,14 @@
             "a": "caring"
           },
           {
-            "s": "Over time, it can make ____ difficult.",
-            "cue": "concentrate",
-            "a": "concentrating"
+            "s": "At five o'clock, you ____ home feeling completely exhausted.",
+            "cue": "go",
+            "a": "go"
           },
           {
-            "s": "They might want another job but ____ unable to leave.",
-            "cue": "feel",
-            "a": "feel"
+            "s": "Rust-out is different because the feeling ____ for weeks or months.",
+            "cue": "continue",
+            "a": "continues"
           }
         ]
       },
@@ -82,17 +82,17 @@
         {
           "s": "A short quiet period at work is the same as rust-out.",
           "a": "F",
-          "why": "The text says the opposite: \"A short, quiet period at work may be welcome.\""
+          "why": "The text says the opposite: \"Rust-out is different because the feeling continues for weeks or months and starts to affect how someone thinks about themselves.\""
         },
         {
-          "s": "The APA discussed the problem in a September 2026 article.",
+          "s": "The American Psychological Association wrote about this problem in September 2026.",
           "a": "T",
           "why": "The text says: \"The American Psychological Association discussed this problem in a September 2026 article.\""
         },
         {
           "s": "Rust-out is more common in offices than in factories.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not compare rust-out in offices and factories."
         },
         {
           "s": "Rust-out can happen when work is too easy or repetitive.",
@@ -171,9 +171,9 @@
             "a": "creativity"
           },
           {
-            "s": "Employers can give staff more ____.",
-            "cue": "AUTONOMOUS",
-            "a": "autonomy"
+            "s": "Some workers fear that complaining about a secure job will make them seem ____.",
+            "cue": "GRATEFUL",
+            "a": "ungrateful"
           },
           {
             "s": "People may become seriously ____ before they complain.",
@@ -196,7 +196,7 @@
         {
           "s": "Rust-out affects more workers than burnout.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many workers rust-out affects compared with burnout."
         },
         {
           "s": "Rust-out differs from burnout in its cause.",
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "Chronic under-stimulation is a substantial problem ____.",
-            "a": "in its own right"
+            "s": "At the same time, inactivity can ____ motivation and self-confidence.",
+            "a": "erode"
           },
           {
             "s": "Such circumstances create ____.",
@@ -240,12 +240,12 @@
       },
       "match": [
         {
-          "t": "pile something on",
-          "d": "add much more of something"
+          "t": "superficial",
+          "d": "only on the surface, without real depth"
         },
         {
-          "t": "in its own right",
-          "d": "important on its own, not as part of something else"
+          "t": "pile on",
+          "d": "add much more of something"
         },
         {
           "t": "monotonous",
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "How can somebody spend eight ____ hours and feel exhausted?",
-            "cue": "DEMAND",
-            "a": "undemanding"
+            "s": "Workplace boredom is not merely an ____ but can affect wellbeing.",
+            "cue": "CONVENIENT",
+            "a": "inconvenience"
           },
           {
             "s": "Rust-out describes a persistent sense of ____.",
@@ -300,10 +300,10 @@
         {
           "s": "Rust-out is now recognised as a medical condition.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether rust-out is recognised as a medical condition."
         },
         {
-          "s": "The APA feature appeared in September 2026.",
+          "s": "The American Psychological Association published a feature on workplace boredom in September 2026.",
           "a": "T",
           "why": "The text says: \"In a September 2026 feature, the American Psychological Association highlighted emerging evidence that workplace boredom is not merely an inconvenience but can affect psychological and physical wellbeing.\""
         }

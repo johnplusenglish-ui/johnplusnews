@@ -72,9 +72,9 @@
             "a": "have"
           },
           {
-            "s": "Perhaps the best photograph is the one you take before ____ your phone away.",
-            "cue": "put",
-            "a": "putting"
+            "s": "Imagine ____ a table at a beautiful restaurant.",
+            "cue": "book",
+            "a": "booking"
           }
         ]
       },
@@ -87,15 +87,15 @@
         {
           "s": "The Hollies has lost customers because of the new rule.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the Hollies has lost any customers."
         },
         {
-          "s": "The Hollies restricted filming between ten and four.",
+          "s": "The Hollies limits filming during the busiest hours of the day.",
           "a": "T",
           "why": "The text says: \"It introduced restrictions on filming and taking photographs during busy daytime hours, from ten until four.\""
         },
         {
-          "s": "A good photograph can help a small restaurant attract customers.",
+          "s": "A nice picture online can bring new customers to a small restaurant.",
           "a": "T",
           "why": "The text says: \"A lovely photograph can help a small restaurant attract new customers.\""
         }
@@ -136,7 +136,7 @@
       },
       "match": [
         {
-          "t": "put somewhere on the map",
+          "t": "put on the map",
           "d": "make a place widely known"
         },
         {
@@ -144,12 +144,12 @@
           "d": "grow gradually into something larger"
         },
         {
-          "t": "get on with",
-          "d": "continue doing what you were doing"
-        },
-        {
           "t": "irresistible",
           "d": "too attractive to refuse"
+        },
+        {
+          "t": "get on with",
+          "d": "continue doing what you were doing"
         }
       ],
       "grammar": {
@@ -184,22 +184,22 @@
       },
       "tfn": [
         {
-          "s": "The writer says influencers do no real work.",
+          "s": "Restaurants never use photographs in their own advertising.",
           "a": "F",
-          "why": "The text says the opposite: \"Influencers also point out that their work involves real planning, editing and promotion, not merely taking a few selfies.\""
+          "why": "The text says the opposite: \"Restaurants use attractive photographs in their own advertising, so telling paying customers to put their phones away may seem rather hypocritical.\""
         },
         {
-          "s": "Hotel du Cap-Eden-Roc now requires permission for organised photoshoots.",
+          "s": "Organised photoshoots at the Antibes hotel can no longer go ahead without approval.",
           "a": "T",
           "why": "The text says: \"At the famous Hotel du Cap-Eden-Roc in Antibes, organised photoshoots now require permission.\""
         },
         {
           "s": "Most French hotels have introduced similar rules.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many French hotels have introduced similar rules."
         },
         {
-          "s": "The Hollies became popular after being featured by a celebrity.",
+          "s": "A celebrity helped make the Hollies a social media attraction.",
           "a": "T",
           "why": "The text says: \"The business had become a popular social media destination after being featured by a celebrity.\""
         }
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "The neighbouring table becomes ____ as outfits are unpacked.",
-            "a": "a changing room"
+            "s": "Employees are left to cope when complaints start ____.",
+            "a": "pouring in"
           },
           {
             "s": "An October 2026 report described venues ____ intrusive photography.",
@@ -229,7 +229,7 @@
             "a": "acute"
           },
           {
-            "s": "Customers also have a responsibility to ____.",
+            "s": "Customers also have a responsibility to ____ and notice how their behaviour affects others.",
             "a": "read the room"
           }
         ],
@@ -253,16 +253,16 @@
         },
         {
           "t": "acute",
-          "d": "severe and keenly felt"
+          "d": "very serious or strongly felt, and hard to ignore"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "The terrace promised ____ service and an unhurried lunch.",
-            "cue": "PECCABLE",
-            "a": "impeccable"
+            "s": "The question is not whether photography is inherently ____, but whose needs take priority.",
+            "cue": "OBJECT",
+            "a": "objectionable"
           },
           {
             "s": "The hotel requires prior ____ for organised photoshoots.",
@@ -270,9 +270,9 @@
             "a": "authorisation"
           },
           {
-            "s": "Staff try to maintain a ____, luxurious environment.",
-            "cue": "DISCRETION",
-            "a": "discreet"
+            "s": "Influencers can also provide valuable ____ work, particularly when advertising is beyond a small company's budget.",
+            "cue": "PROMOTE",
+            "a": "promotional"
           },
           {
             "s": "Dismissing every creator as ____ overlooks genuine work.",
@@ -280,15 +280,15 @@
             "a": "disruptive"
           },
           {
-            "s": "Venues could introduce ____ rules instead of total bans.",
-            "cue": "PROPORTION",
-            "a": "proportionate"
+            "s": "Dismissing every content creator as vain or disruptive risks overlooking genuine ____.",
+            "cue": "CREATE",
+            "a": "creativity"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The article suggests designated filming times as one solution.",
+          "s": "One proposed answer is to allow filming only at set times.",
           "a": "T",
           "why": "The text says: \"Rather than declaring war on social media, venues could introduce proportionate rules: designated filming times, consent requirements and advance approval for commercial shoots.\""
         },
@@ -300,12 +300,12 @@
         {
           "s": "Influencers have organised a campaign against the restrictions.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether influencers have organised any campaign."
         },
         {
-          "s": "The Guardian report appeared in October 2026.",
+          "s": "At the Hollies, the limits on photography apply when the shop is busiest.",
           "a": "T",
-          "why": "The text says: \"An October 2026 report in the Guardian described a growing number of venues clamping down on intrusive photography, and the businesses involved were hardly confined to one country or one luxury market.\""
+          "why": "The text says: \"The Hollies farm shop in Cheshire has restricted photography and filming during its busiest daytime hours after becoming a social media destination.\""
         }
       ]
     }

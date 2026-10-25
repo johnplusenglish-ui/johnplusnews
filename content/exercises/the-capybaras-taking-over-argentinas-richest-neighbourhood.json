@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "They ____ the world's largest living rodents.",
-            "cue": "be",
-            "a": "are"
+            "s": "In Nordelta, they can be ____ walking across lawns.",
+            "cue": "see",
+            "a": "seen"
           },
           {
             "s": "In September 2026, a resident ____ firing a gun at capybaras.",
@@ -67,9 +67,9 @@
             "a": "led"
           },
           {
-            "s": "Before the houses ____, this land was part of a wetland.",
-            "cue": "build",
-            "a": "were built"
+            "s": "____ capybaras somewhere else is not always simple.",
+            "cue": "move",
+            "a": "Moving"
           },
           {
             "s": "Campaigners have ____ protecting the natural areas that are left.",
@@ -80,12 +80,12 @@
       },
       "tfn": [
         {
-          "s": "The area was part of a wetland before the houses were built.",
+          "s": "Nordelta was built on land where capybaras already lived.",
           "a": "T",
-          "why": "The text says: \"Before the houses, roads and shopping areas were built, this land was part of a wetland, and wild animals already lived there.\""
+          "why": "The text says: \"Nordelta was built on wetland, where capybaras already lived.\""
         },
         {
-          "s": "Capybaras are the world's largest living rodents.",
+          "s": "No living rodent is bigger than the capybara.",
           "a": "T",
           "why": "The text says: \"They are the world's largest living rodents and are related to guinea pigs, although they are far bigger.\""
         },
@@ -97,7 +97,7 @@
         {
           "s": "All residents of Nordelta enjoy having the animals nearby.",
           "a": "F",
-          "why": "The text says the opposite: \"They worry about their pets, damaged gardens and animals suddenly turning up in front of cars at night.\""
+          "why": "The text says the opposite: \"Other people are much less happy.\""
         }
       ]
     },
@@ -161,14 +161,14 @@
             "a": "uncomfortable"
           },
           {
-            "s": "Wetlands are their ____ habitat.",
+            "s": "Capybaras ____ inhabit wetlands.",
             "cue": "NATURE",
-            "a": "natural"
+            "a": "naturally"
           },
           {
-            "s": "Some residents report damage and awkward ____ with pets.",
-            "cue": "COUNTER",
-            "a": "encounters"
+            "s": "A family grazing on a lawn is wetland behaviour in an ____ setting.",
+            "cue": "EXPECT",
+            "a": "unexpected"
           },
           {
             "s": "Environmental ____ argue that the history is being reversed.",
@@ -191,15 +191,15 @@
         {
           "s": "Nordelta has built wildlife corridors since the incident.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Nordelta has built wildlife corridors."
         },
         {
-          "s": "The capybaras are native to South American wetlands.",
+          "s": "Capybaras come originally from South America.",
           "a": "T",
           "why": "The text says: \"Capybaras, known locally as carpinchos, are native to South America and naturally inhabit wetlands.\""
         },
         {
-          "s": "The September 2026 incident prompted formal complaints.",
+          "s": "People made formal complaints after the incident in September 2026.",
           "a": "T",
           "why": "The text says: \"The incident prompted formal complaints and revived a long-running argument about how the neighbourhood should manage its animal population.\""
         }
@@ -213,7 +213,7 @@
             "a": "landscaped"
           },
           {
-            "s": "The animals' ____ presence disrupts that arrangement.",
+            "s": "The capybaras' calm, ____ presence disrupts that carefully arranged environment.",
             "a": "unhurried"
           },
           {
@@ -252,7 +252,7 @@
           "d": "moving calmly and without rushing"
         },
         {
-          "t": "break something up",
+          "t": "break up",
           "d": "divide something into separate parts"
         }
       ],
@@ -275,20 +275,20 @@
             "a": "unpredictable"
           },
           {
-            "s": "Residents seeking safety measures have ____ interests.",
-            "cue": "LEGITIMACY",
-            "a": "legitimate"
+            "s": "The wetland is a landscape that has been ____ rebuilt around the animals.",
+            "cue": "COMPREHENSIVE",
+            "a": "comprehensively"
           },
           {
-            "s": "The challenge is to separate management based on ____ from assumption.",
-            "cue": "EVIDENT",
-            "a": "evidence"
+            "s": "Some people think wildlife should disappear the moment it becomes ____.",
+            "cue": "CONVENIENT",
+            "a": "inconvenient"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Capybaras are group-dwelling relatives of the guinea pig.",
+          "s": "Capybaras live in groups and depend on water.",
           "a": "T",
           "why": "The text says: \"Capybaras are the largest living rodents on earth, group-dwelling relatives of the guinea pig that depend on water and graze on open vegetation.\""
         },
@@ -300,10 +300,10 @@
         {
           "s": "The Argentinian government has passed a law protecting capybaras.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention any law protecting capybaras."
         },
         {
-          "s": "Footage of a resident firing at the animals emerged in September 2026.",
+          "s": "In September 2026, a video appeared that showed a resident shooting at capybaras.",
           "a": "T",
           "why": "The text says: \"The dispute nonetheless took a disturbing turn in September 2026, when footage emerged of a resident firing at capybaras.\""
         }

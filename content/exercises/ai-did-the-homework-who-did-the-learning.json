@@ -27,13 +27,13 @@
         ],
         "extra": [
           "regulator",
-          "routine"
+          "copy"
         ]
       },
       "match": [
         {
           "t": "accuracy",
-          "d": "being correct"
+          "d": "the quality of being correct, with no mistakes"
         },
         {
           "t": "regulator",
@@ -57,9 +57,9 @@
             "a": "published"
           },
           {
-            "s": "It ____ that 56 out of 100 children aged 8 to 17 use AI.",
-            "cue": "say",
-            "a": "said"
+            "s": "Find out what is ____ in your class.",
+            "cue": "allow",
+            "a": "allowed"
           },
           {
             "s": "Many children don't seem to ____ how AI works.",
@@ -138,11 +138,11 @@
       "match": [
         {
           "t": "regulator",
-          "d": "an organisation that checks that rules are followed"
+          "d": "an official body that makes sure rules are followed"
         },
         {
           "t": "accuracy",
-          "d": "being correct"
+          "d": "the quality of being correct, with no mistakes"
         },
         {
           "t": "ownership",
@@ -167,9 +167,9 @@
             "a": "published"
           },
           {
-            "s": "Help that explains ____ you a hint, an example or the meaning of a word.",
-            "cue": "give",
-            "a": "gives"
+            "s": "It ____ that 56% of 8 to 17-year-olds in the UK use AI.",
+            "cue": "report",
+            "a": "reported"
           },
           {
             "s": "These figures ____ children in the UK, not every teenager.",
@@ -185,14 +185,14 @@
       },
       "tfn": [
         {
-          "s": "Ofcom reported that 56% of 8 to 17-year-olds in the UK use AI.",
+          "s": "More than half of 8 to 17-year-olds in the UK use AI, according to Ofcom.",
           "a": "T",
           "why": "The text says: \"It reported that 56% of 8 to 17-year-olds in the UK use AI, rising to 66% of 16 and 17-year-olds.\""
         },
         {
-          "s": "The figures come from an experiment about learning.",
+          "s": "The figures show that AI makes students learn more.",
           "a": "F",
-          "why": "The text says the opposite: \"they come from research about media use, not an experiment about learning\""
+          "why": "The text says the opposite: \"they don't show whether AI makes students learn more or less\""
         },
         {
           "s": "The three kinds of help are an Ofcom finding.",
@@ -200,7 +200,7 @@
           "why": "The text says the opposite: \"this is our own way of thinking, not an Ofcom finding\""
         },
         {
-          "s": "Many children did not appear to distinguish between different AI tools.",
+          "s": "Many children did not seem to tell different AI tools apart.",
           "a": "T",
           "why": "The text says: \"Many children didn't appear to distinguish between different AI tools\""
         },
@@ -215,8 +215,8 @@
       "gap": {
         "items": [
           {
-            "s": "Every homework task contains a quiet ____: the work shows what you can do.",
-            "a": "agreement"
+            "s": "Help that replaces the task ____ the work itself.",
+            "a": "supplies"
           },
           {
             "s": "A model paragraph might explain one student's problem and become another student's ____.",
@@ -250,8 +250,8 @@
           "d": "to become less clear"
         },
         {
-          "t": "defensible",
-          "d": "able to be supported with good reasons"
+          "t": "trial",
+          "d": "a test to find out whether something works well"
         },
         {
           "t": "visible",
@@ -272,9 +272,9 @@
             "a": "education"
           },
           {
-            "s": "A rule may assume that everyone can use AI ____.",
-            "cue": "EQUAL",
-            "a": "equally"
+            "s": "A correct answer can be ____, which is a problem of ownership.",
+            "cue": "EXPLAIN",
+            "a": "unexplained"
           },
           {
             "s": "Students can make their ____ visible by explaining an answer aloud.",
@@ -282,7 +282,7 @@
             "a": "thinking"
           },
           {
-            "s": "A defensible rule has to deal with ____ as well as accuracy.",
+            "s": "Teachers who ask students to explain their work are mostly testing ____.",
             "cue": "OWN",
             "a": "ownership"
           }

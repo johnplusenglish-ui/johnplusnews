@@ -5,8 +5,8 @@
       "gap": {
         "items": [
           {
-            "s": "The shirt belongs to the biggest ____ of your friend's team.",
-            "a": "rival"
+            "s": "For a fan, a shirt shows which team you ____.",
+            "a": "support"
           },
           {
             "s": "The ____ on a shirt shows the team's symbol.",
@@ -131,26 +131,26 @@
           }
         ],
         "extra": [
-          "motives",
+          "tribute",
           "festivals"
         ]
       },
       "match": [
         {
-          "t": "heritage",
-          "d": "the history and traditions of a group"
+          "t": "manufacture",
+          "d": "to make things in large amounts in a factory"
         },
         {
           "t": "disrespectful",
           "d": "showing a lack of respect"
         },
         {
-          "t": "motives",
-          "d": "reasons for doing something"
-        },
-        {
           "t": "authenticity",
           "d": "being real and not fake"
+        },
+        {
+          "t": "motives",
+          "d": "reasons for doing something"
         }
       ],
       "grammar": {
@@ -167,25 +167,25 @@
             "a": "points"
           },
           {
-            "s": "Brands try to ____ the same feelings.",
-            "cue": "borrow",
-            "a": "borrow"
+            "s": "Others think shirts ____ to anyone who enjoys them.",
+            "cue": "belong",
+            "a": "belong"
           },
           {
-            "s": "When Arsenal ____ a pale yellow third kit, the colour trend was already in fashion.",
+            "s": "When Arsenal ____ a pale yellow third kit, it arrived at the same time as a colour trend.",
             "cue": "release",
             "a": "released"
           },
           {
-            "s": "Burberry ____ touchlines, burger vans and Sunday League football.",
-            "cue": "use",
-            "a": "used"
+            "s": "She points to people of every age ____ shirts far from any stadium.",
+            "cue": "wear",
+            "a": "wearing"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The article was published on a website run by an Irish broadcaster.",
+          "s": "The article appeared on a site run by an Irish broadcaster.",
           "a": "T",
           "why": "The text says: \"an article for RTÉ Brainstorm, a website run by an Irish broadcaster\""
         },
@@ -236,8 +236,8 @@
           }
         ],
         "extra": [
-          "interpretation",
-          "revenue"
+          "heritage",
+          "statistic"
         ]
       },
       "match": [
@@ -315,7 +315,7 @@
           "why": "Not stated. This version does not give this information."
         },
         {
-          "s": "The text says the shirt is both a mass-produced product and a personal object.",
+          "s": "A shirt can be mass-produced and personal at the same time.",
           "a": "T",
           "why": "The text says: \"the shirt is both a mass-produced product and a personal object\""
         }

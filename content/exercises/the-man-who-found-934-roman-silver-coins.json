@@ -67,9 +67,9 @@
             "a": "been buried"
           },
           {
-            "s": "Archaeologists eventually ____ 934 silver coins.",
-            "cue": "recover",
-            "a": "recovered"
+            "s": "The machine kept ____.",
+            "cue": "signal",
+            "a": "signalling|signaling"
           },
           {
             "s": "Visitors can now see money that somebody ____ almost 1,900 years ago.",
@@ -82,7 +82,7 @@
         {
           "s": "Archaeologists recovered 934 silver coins.",
           "a": "T",
-          "why": "The text says: \"Archaeologists eventually recovered 934 silver coins, known as denarii.\""
+          "why": "The text says: \"Archaeologists eventually recovered 934 Roman silver coins.\""
         },
         {
           "s": "Experts know who buried the coins.",
@@ -92,7 +92,7 @@
         {
           "s": "Riedl received a reward for the discovery.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Riedl received a reward."
         },
         {
           "s": "The collection went on display at a museum in Bonn.",
@@ -105,12 +105,12 @@
       "gap": {
         "items": [
           {
-            "s": "Riedl was an amateur archaeologist carrying out an ____ search.",
+            "s": "Riedl had official permission, so his search was ____.",
             "a": "authorised"
           },
           {
-            "s": "Specialists ____ recover a hoard of 934 denarii.",
-            "a": "went on to"
+            "s": "The detector kept signalling, and it ____ several Roman silver pieces.",
+            "a": "led him to"
           },
           {
             "s": "Who owned such a fortune ____.",
@@ -130,22 +130,22 @@
           }
         ],
         "extra": [
-          "dig up",
+          "dug up",
           "intriguing"
         ]
       },
       "match": [
         {
-          "t": "go on to",
-          "d": "do something next, after what came before"
+          "t": "deliberately",
+          "d": "done on purpose, not by accident"
         },
         {
           "t": "remain a mystery",
           "d": "stay unexplained despite investigation"
         },
         {
-          "t": "dig up",
-          "d": "remove something from under the ground"
+          "t": "dug up",
+          "d": "taken out of the ground"
         },
         {
           "t": "intriguing",
@@ -161,9 +161,9 @@
             "a": "wealthy"
           },
           {
-            "s": "The container probably did not survive ____.",
-            "cue": "INTACTNESS",
-            "a": "intact"
+            "s": "What makes this collection ____ is not simply its weight.",
+            "cue": "USUAL",
+            "a": "unusual"
           },
           {
             "s": "The amount was ____, representing years of savings.",
@@ -171,14 +171,14 @@
             "a": "considerable"
           },
           {
-            "s": "His decision to inform the ____ mattered as much as the find.",
-            "cue": "AUTHORISE",
-            "a": "authorities"
+            "s": "Riedl's decision to inform the authorities mattered almost as much as the ____ itself.",
+            "cue": "DISCOVER",
+            "a": "discovery"
           },
           {
-            "s": "Such details provide ____ about how the money was hidden.",
-            "cue": "CLUE",
-            "a": "clues"
+            "s": "When ____ objects are dug up without proper records, much of their story can disappear.",
+            "cue": "HISTORY",
+            "a": "historical"
           }
         ]
       },
@@ -201,7 +201,7 @@
         {
           "s": "The coins will be sold at auction after the exhibition.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say what will happen to the coins after the exhibition."
         }
       ]
     },
@@ -209,7 +209,7 @@
       "gap": {
         "items": [
           {
-            "s": "The coins offer a ____ history of Roman power.",
+            "s": "The coins offer a ____ history of Roman power: the republic and the empire in a single hoard.",
             "a": "compressed"
           },
           {
@@ -265,9 +265,9 @@
             "a": "investigation"
           },
           {
-            "s": "The collection was deliberately ____ in the second century AD.",
-            "cue": "CONCEAL",
-            "a": "concealed"
+            "s": "The owner's identity is unknown, as are the circumstances that prevented ____.",
+            "cue": "RETRIEVE",
+            "a": "retrieval"
           },
           {
             "s": "Death and ____ both remain plausible explanations.",
@@ -290,7 +290,7 @@
         {
           "s": "The field where the coins were found has been protected by law.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the field is protected by law."
         },
         {
           "s": "Archaeologists have established why the coins were never collected.",
@@ -300,7 +300,7 @@
         {
           "s": "The hoard is considered Germany's largest from Hadrian's reign.",
           "a": "T",
-          "why": "The text says: \"The find was announced publicly in September 2026 and is considered Germany's largest known hoard associated with the reign of the emperor Hadrian.\""
+          "why": "The text says: \"Found in October 2025 and announced in September 2026, the hoard is described as Germany's largest known from the reign of Hadrian.\""
         },
         {
           "s": "The youngest coin was struck in AD 124 or 125.",

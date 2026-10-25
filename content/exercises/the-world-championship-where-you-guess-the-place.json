@@ -5,8 +5,8 @@
       "gap": {
         "items": [
           {
-            "s": "GeoGuessr shows you a picture from a ____ somewhere in the world.",
-            "a": "street"
+            "s": "They know special things about each country, like the shape of a road ____.",
+            "a": "post"
           },
           {
             "s": "You look for clues, and then you click on a ____ to guess the place.",
@@ -21,8 +21,8 @@
             "a": "writing"
           },
           {
-            "s": "Debre made a brave guess in northern ____.",
-            "a": "Namibia"
+            "s": "A picture can give you clues, but a clue is not ____.",
+            "a": "proof"
           }
         ],
         "extra": [
@@ -40,8 +40,8 @@
           "d": "to make a picture look closer"
         },
         {
-          "t": "championship",
-          "d": "a competition to find the best player or team"
+          "t": "likely",
+          "d": "probably true or probably going to happen"
         },
         {
           "t": "guess",
@@ -67,32 +67,32 @@
             "a": "led"
           },
           {
-            "s": "Debre ____ a brave guess.",
+            "s": "In the last round, Debre ____ a brave guess.",
             "cue": "make",
             "a": "made"
           },
           {
-            "s": "The best 24 players ____ in Berlin.",
-            "cue": "meet",
-            "a": "met"
+            "s": "The matches were also ____ live online.",
+            "cue": "show",
+            "a": "shown"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The world championship took place in Berlin.",
+          "s": "The best players in the world met in Berlin.",
           "a": "T",
           "why": "The text says: \"met in Berlin, Germany, for the world championship\""
         },
         {
-          "s": "Only 24 fans came to watch.",
+          "s": "Only 24 fans turned up to watch.",
           "a": "F",
           "why": "The text says the opposite: \"About 2,000 fans came to watch\""
         },
         {
-          "s": "Debre has played the game for ten years.",
+          "s": "The competition had a prize of 100,000 euros.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say what prize the winner received."
         },
         {
           "s": "Debre won the final 3-2.",
@@ -146,7 +146,7 @@
         },
         {
           "t": "decisive",
-          "d": "deciding the result"
+          "d": "deciding who wins or what happens in the end"
         },
         {
           "t": "uncertainty",
@@ -157,35 +157,35 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Blinky ____ 2-0 in the final.",
+            "s": "Blinky ____ 2-0, but Debre won the next three games.",
             "cue": "lead",
             "a": "led"
           },
           {
-            "s": "Debre ____ the match 3-2.",
+            "s": "Debre won the next three games and ____ the match 3-2.",
             "cue": "take",
             "a": "took"
           },
           {
-            "s": "Taz ____ that about 2,000 fans came to the arena.",
-            "cue": "say",
-            "a": "says"
-          },
-          {
-            "s": "Debre ____ a bold guess in northern Namibia.",
-            "cue": "make",
-            "a": "made"
-          },
-          {
-            "s": "Blinky ____ Argentina.",
+            "s": "In the decisive round, Debre picked northern Namibia and Blinky ____ Argentina.",
             "cue": "guess",
             "a": "guessed"
+          },
+          {
+            "s": "A plant or a building may ____ in many places.",
+            "cue": "appear",
+            "a": "appear"
+          },
+          {
+            "s": "The matches ____ best-of-five.",
+            "cue": "be",
+            "a": "were"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The championship took place as part of a festival called GeoFest.",
+          "s": "The competition was part of a festival called GeoFest.",
           "a": "T",
           "why": "The text says: \"as part of a four-day fan festival called GeoFest\""
         },
@@ -195,9 +195,9 @@
           "why": "The text says the opposite: \"with different rules in different games\""
         },
         {
-          "s": "Debre received a cash prize of 100,000 euros.",
+          "s": "The championship will be held in Berlin again next year.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say where the next championship will be held."
         },
         {
           "s": "Debre won the final 3-2.",
@@ -215,24 +215,24 @@
       "gap": {
         "items": [
           {
-            "s": "In the decisive fifth game, players cannot move, turn or ____ at all.",
+            "s": "In one game, players see one image and cannot move, turn or ____ at all.",
             "a": "zoom"
           },
           {
-            "s": "A hedge is a guess placed to be reasonably close to several possible ____.",
-            "a": "answers"
+            "s": "The final shows how that works under ____.",
+            "a": "pressure"
           },
           {
-            "s": "Good players weigh evidence against ____.",
-            "a": "assumption"
+            "s": "Good players ____ evidence against assumption.",
+            "a": "weigh"
           },
           {
-            "s": "The game rewards probabilities, not ____.",
-            "a": "certainties"
+            "s": "Ordinary details become ____ to the people who live with them every day.",
+            "a": "invisible"
           },
           {
-            "s": "A lucky guess is not the same as a good ____.",
-            "a": "explanation"
+            "s": "Geography helps, but so does noticing what other people ____.",
+            "a": "overlook"
           }
         ],
         "extra": [
@@ -262,14 +262,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "It sounds like a game for experts, but it is really a game about ____.",
-            "cue": "ATTEND",
-            "a": "attention"
+            "s": "The game rewards probabilities, not ____.",
+            "cue": "CERTAIN",
+            "a": "certainties"
           },
           {
-            "s": "A hedge is interesting because it is honest about ____.",
-            "cue": "CERTAIN",
-            "a": "uncertainty"
+            "s": "A landscape or a building does not prove a ____.",
+            "cue": "NATION",
+            "a": "nationality"
           },
           {
             "s": "A lucky guess is not the same as a good ____.",
@@ -300,9 +300,9 @@
           "why": "The text says the opposite: \"the rules changed from game to game\""
         },
         {
-          "s": "Blinky has won the championship three times.",
+          "s": "The next world championship will be held in Asia.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say where the next championship will be held."
         },
         {
           "s": "Blinky led 2-0 in the final.",
@@ -310,9 +310,9 @@
           "why": "The text says: \"Blinky led 2-0, but Debre won the next three games\""
         },
         {
-          "s": "The text says that one clue always settles the answer.",
+          "s": "The text says a landscape proves which country a place is in.",
           "a": "F",
-          "why": "The text says the opposite: \"Good players do not pretend that one clue settles the matter\""
+          "why": "The text says the opposite: \"A landscape or a building does not prove a nationality\""
         }
       ]
     }

@@ -5,12 +5,12 @@
       "gap": {
         "items": [
           {
-            "s": "They have lived separately and ____ with the outside world.",
-            "a": "have little contact"
+            "s": "His plan was to film a community that has ____ with the outside world.",
+            "a": "very little contact"
           },
           {
-            "s": "Indian law ____ outsiders who have no permission.",
-            "a": "keeps out"
+            "s": "They do not welcome visitors, and Indian law ____.",
+            "a": "keeps outsiders out"
           },
           {
             "s": "He did not ____ any of the island's residents before leaving.",
@@ -36,12 +36,12 @@
           "d": "meet or find somebody by chance"
         },
         {
-          "t": "make something clear",
-          "d": "say something so nobody can misunderstand"
-        },
-        {
           "t": "harmful",
           "d": "causing damage to a person or thing"
+        },
+        {
+          "t": "work with",
+          "d": "share a task or project and do it as a team"
         },
         {
           "t": "pull in",
@@ -57,9 +57,9 @@
             "a": "travelled"
           },
           {
-            "s": "The trip ____ with his arrest by Indian police.",
-            "cue": "end",
-            "a": "ended"
+            "s": "North Sentinel Island is home to a community that ____ separately from most other people for generations.",
+            "cue": "live",
+            "a": "has lived"
           },
           {
             "s": "Outsiders are not ____ to travel there without permission.",
@@ -87,7 +87,7 @@
         {
           "s": "Polyakov was later fined by an Indian court.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether an Indian court punished Polyakov."
         },
         {
           "s": "He met and filmed several Sentinelese people.",
@@ -117,8 +117,8 @@
             "a": "harmless"
           },
           {
-            "s": "The incident is part of a debate about ____ for extraordinary footage.",
-            "a": "the lengths some will go to"
+            "s": "The incident is part of a debate about ____ some adventurers and content creators will go to for extraordinary footage.",
+            "a": "the lengths"
           },
           {
             "s": "____ such communities as unaware of the modern world is misleading.",
@@ -140,35 +140,35 @@
           "d": "begin a journey to somewhere"
         },
         {
-          "t": "write somebody off",
-          "d": "decide somebody has no value or ability"
-        },
-        {
-          "t": "keep away",
-          "d": "stay at a distance from something"
+          "t": "write off",
+          "d": "decide that people have no value or importance"
         },
         {
           "t": "uninvited",
           "d": "arriving without being asked"
+        },
+        {
+          "t": "keep away",
+          "d": "stay at a distance from something"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "The Sentinelese have repeatedly ____ contact with outsiders.",
-            "cue": "RESISTANCE",
-            "a": "resisted"
+            "s": "Indian law protects the community, whose members may be especially vulnerable to ____ diseases.",
+            "cue": "INFECT",
+            "a": "infectious"
           },
           {
-            "s": "A rare video may attract followers or advertising ____.",
-            "cue": "REVENUES",
-            "a": "revenue"
+            "s": "The visit placed the island's inhabitants at risk without their ____.",
+            "cue": "AGREE",
+            "a": "agreement"
           },
           {
-            "s": "Some groups use their own media to campaign for land ____.",
-            "cue": "RIGHTFUL",
-            "a": "rights"
+            "s": "Cameras and boats can take people to places that once seemed ____.",
+            "cue": "REACH",
+            "a": "unreachable"
           },
           {
             "s": "Visitors may ____ the consequences of even a brief encounter.",
@@ -186,7 +186,7 @@
         {
           "s": "Indian authorities have increased patrols around the island.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Indian authorities have increased patrols."
         },
         {
           "s": "Polyakov landed on the island but met nobody.",
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "The episode exposed ____ digital ambition and Indigenous rights.",
-            "a": "the uneasy intersection of"
+            "s": "Satellite imagery has tempted outsiders to ____ technical access with moral permission.",
+            "a": "equate"
           },
           {
             "s": "Communities with little exposure may be ____ to infectious diseases.",
@@ -225,7 +225,7 @@
             "a": "the attention economy"
           },
           {
-            "s": "Creators increasingly ____ the most isolated communities.",
+            "s": "Creators increasingly ____ the most isolated communities, hoping to film them.",
             "a": "zero in on"
           },
           {
@@ -275,9 +275,9 @@
             "a": "exploitation"
           },
           {
-            "s": "Avoiding outsiders can be a ____ response to historical experience.",
-            "cue": "DELIBERATION",
-            "a": "deliberate"
+            "s": "Avoiding outsiders can be a response to disease, violence and ____.",
+            "cue": "DISPOSSESS",
+            "a": "dispossession"
           },
           {
             "s": "Many groups live in regions threatened by logging and land ____.",
@@ -300,7 +300,7 @@
         {
           "s": "Drone flights over North Sentinel Island have been banned.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether drone flights over the island are banned."
         },
         {
           "s": "The writer says public interest is not created simply by attracting attention.",

@@ -27,13 +27,13 @@
         ],
         "extra": [
           "laughing",
-          "decide"
+          "music"
         ]
       },
       "match": [
         {
-          "t": "blurry",
-          "d": "not clear, with soft edges"
+          "t": "habit",
+          "d": "something you do regularly, often without thinking"
         },
         {
           "t": "lens",
@@ -62,12 +62,12 @@
             "a": "used"
           },
           {
-            "s": "Some people ____ back to digital cameras and wired headphones.",
+            "s": "These days, some people ____ back to digital cameras and wired headphones.",
             "cue": "go",
-            "a": "are going"
+            "a": "are going|go"
           },
           {
-            "s": "A blurry photo might ____ how a party felt.",
+            "s": "A perfect picture can ____ how a party looked.",
             "cue": "show",
             "a": "show"
           },
@@ -80,7 +80,7 @@
       },
       "tfn": [
         {
-          "s": "A BBC reporter took an old digital camera to a DJ set.",
+          "s": "The reporter took an old digital camera to a DJ set with a friend.",
           "a": "T",
           "why": "The text says: \"She took a digital camera to a DJ set with her best friend.\""
         },
@@ -167,25 +167,25 @@
             "a": "fell"
           },
           {
-            "s": "Strangers ____ the camera.",
-            "cue": "notice",
-            "a": "noticed"
+            "s": "One man said he hadn't ____ one in years.",
+            "cue": "see",
+            "a": "seen"
           },
           {
-            "s": "Redman ____ a digital camera captures a quality her phone can't replicate.",
-            "cue": "say",
-            "a": "says"
+            "s": "In her view, phone flash ____ grainy and too high definition.",
+            "cue": "look",
+            "a": "looks"
           },
           {
-            "s": "He ____ that simpler technology appeals because people want control.",
+            "s": "He ____ that simpler technology appeals to many people.",
             "cue": "argue",
-            "a": "argues"
+            "a": "argues|argued"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Rackham last used the camera 15 years ago on a family holiday.",
+          "s": "Rackham had not used the camera for about 15 years before the DJ set.",
           "a": "T",
           "why": "The text says: \"It was the camera she last used 15 years ago on a family holiday\""
         },
@@ -200,9 +200,9 @@
           "why": "The text says: \"That's her opinion, not a proven fact\""
         },
         {
-          "s": "The people interviewed are all school students.",
+          "s": "The article says old technology makes people happier.",
           "a": "F",
-          "why": "The text says the opposite: \"The people interviewed are adults in their twenties and thirties, not school students\""
+          "why": "The text says the opposite: \"the piece doesn't claim that old technology makes people happier\""
         },
         {
           "s": "The article says digital cameras are cheaper than phones.",
@@ -215,7 +215,7 @@
       "gap": {
         "items": [
           {
-            "s": "Redman's most ____ claim is that phone photos have warped our perception of time.",
+            "s": "Redman makes a ____ claim that many people would argue with.",
             "a": "provocative"
           },
           {
@@ -262,17 +262,17 @@
         "kind": "word",
         "items": [
           {
-            "s": "Endless ____ can produce decision paralysis.",
-            "cue": "CHOOSE",
-            "a": "choice"
-          },
-          {
-            "s": "She talks about our ____ of time.",
+            "s": "She says phone photos have warped our ____ of time.",
             "cue": "PERCEIVE",
             "a": "perception"
           },
           {
-            "s": "It could have several ____, from image quality to similar-looking phone pictures.",
+            "s": "He argues that ____ for simpler devices reflects a deep wish to be in control.",
+            "cue": "FOND",
+            "a": "fondness"
+          },
+          {
+            "s": "That is a personal observation, not a finding, and it could have several ____.",
             "cue": "EXPLAIN",
             "a": "explanations"
           },
@@ -282,15 +282,15 @@
             "a": "happiness"
           },
           {
-            "s": "Would you be ____ explaining why?",
-            "cue": "COMFORT",
-            "a": "comfortable"
+            "s": "A few interviews can't prove what a generation's ____ are.",
+            "cue": "PREFER",
+            "a": "preferences"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The article is a feature, not a study.",
+          "s": "Rackham's piece is a feature article, not a piece of research.",
           "a": "T",
           "why": "The text says: \"It is a feature, not a study\""
         },

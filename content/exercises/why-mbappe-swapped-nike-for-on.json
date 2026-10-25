@@ -9,8 +9,8 @@
             "a": "promotes"
           },
           {
-            "s": "On said the deal includes cash and ____, a small share in the company.",
-            "a": "equity"
+            "s": "Top players will ____ the company's products from the start.",
+            "a": "test"
           },
           {
             "s": "The money is a ____. On did not say how much it is.",
@@ -26,8 +26,8 @@
           }
         ],
         "extra": [
-          "borrowed",
-          "famous"
+          "famous",
+          "boots"
         ]
       },
       "match": [
@@ -62,19 +62,19 @@
             "a": "has left|left"
           },
           {
-            "s": "A sponsor ____ a player.",
-            "cue": "pay",
-            "a": "pays"
+            "s": "Mbappé will also ____ with the company's product teams.",
+            "cue": "work",
+            "a": "work"
           },
           {
-            "s": "Nike ____ it was proud of what they achieved together.",
-            "cue": "say",
-            "a": "said"
+            "s": "Mbappé wrote online that this ____ a big change in his life.",
+            "cue": "be",
+            "a": "is"
           },
           {
             "s": "On ____ its first football boots are planned for 2027.",
             "cue": "say",
-            "a": "says"
+            "a": "says|said"
           }
         ]
       },
@@ -100,7 +100,7 @@
           "why": "Not stated. This version does not give this information."
         },
         {
-          "s": "On says its first football boots are planned for 2027.",
+          "s": "On plans to launch its first football boots in 2027.",
           "a": "T",
           "why": "The text says: \"On says its first football boots are planned for 2027.\""
         }
@@ -131,8 +131,8 @@
           }
         ],
         "extra": [
-          "freedom",
-          "loyalty"
+          "pitch",
+          "figure"
         ]
       },
       "match": [
@@ -141,16 +141,16 @@
           "d": "a person who represents a brand and speaks well of it"
         },
         {
-          "t": "transfer",
-          "d": "the move of a player from one club to another"
+          "t": "elite",
+          "d": "the best and most skilled in a group"
         },
         {
           "t": "equity",
           "d": "ownership of a share in a company"
         },
         {
-          "t": "promotion",
-          "d": "advertising that aims to make people want something"
+          "t": "ambitious",
+          "d": "wanting to achieve something big or difficult"
         }
       ],
       "grammar": {
@@ -167,9 +167,9 @@
             "a": "reported"
           },
           {
-            "s": "Nike ____ it was proud of what it had achieved.",
-            "cue": "say",
-            "a": "said"
+            "s": "Wearing a brand ____ not the same as a product being tested and proven.",
+            "cue": "be",
+            "a": "is"
           },
           {
             "s": "Mbappé ____ on social media that the move is a big change in his life.",
@@ -177,17 +177,17 @@
             "a": "wrote"
           },
           {
-            "s": "The first boots ____ planned for 2027.",
-            "cue": "be",
-            "a": "are"
+            "s": "Football ____ new ideas rather than more of the same.",
+            "cue": "need",
+            "a": "needs"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Mbappé has not joined a new football team.",
+          "s": "The deal does not mean Mbappé is playing for a different club.",
           "a": "T",
-          "why": "The text says: \"so Mbappé has not joined a new football team\""
+          "why": "The text says: \"It is a sponsorship deal, not a transfer, so Mbappé has not joined a new football team.\""
         },
         {
           "s": "On said exactly how much money the deal includes.",
@@ -237,7 +237,7 @@
         ],
         "extra": [
           "disclosed",
-          "amount"
+          "pitch"
         ]
       },
       "match": [
@@ -246,25 +246,25 @@
           "d": "an interest in the result, because you could gain or lose by it"
         },
         {
-          "t": "equity",
-          "d": "ownership of a part of a company"
-        },
-        {
-          "t": "disclosed",
-          "d": "made known to the public"
+          "t": "association",
+          "d": "a connection or relationship over a long time"
         },
         {
           "t": "promotional",
           "d": "made to persuade people to buy or like something"
+        },
+        {
+          "t": "disclosed",
+          "d": "made known to the public"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "It is important to be ____ about what changed.",
-            "cue": "PRECISION",
-            "a": "precise"
+            "s": "How large that stake is remains ____.",
+            "cue": "KNOWN",
+            "a": "unknown"
           },
           {
             "s": "Mbappé's ____ with Nike began in 2006, when he was nine.",
@@ -272,27 +272,27 @@
             "a": "relationship"
           },
           {
-            "s": "This is a sponsorship ____, not a transfer.",
+            "s": "The ____ also gave him a role in developing products.",
             "cue": "AGREE",
             "a": "agreement"
           },
           {
-            "s": "Staying offers experience, ____ and a proven way of working.",
-            "cue": "STABLE",
-            "a": "stability"
+            "s": "Mbappé said he was now surrounded by ____ with the same dreams.",
+            "cue": "INNOVATE",
+            "a": "innovators"
           },
           {
-            "s": "Joining a newcomer offers less ____.",
-            "cue": "CERTAIN",
-            "a": "certainty"
+            "s": "The company says its ____ will be athlete-led.",
+            "cue": "DEVELOP",
+            "a": "development"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The deal is a sponsorship agreement, not a transfer.",
+          "s": "The deal is a sponsorship, not a move to another football club.",
           "a": "T",
-          "why": "The text says: \"This is a sponsorship agreement, not a transfer\""
+          "why": "The text says: \"This was a sponsorship deal, not a move to a new football club.\""
         },
         {
           "s": "The size of Mbappé's stake in On has been announced.",

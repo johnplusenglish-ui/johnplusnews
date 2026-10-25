@@ -26,7 +26,7 @@
           }
         ],
         "extra": [
-          "get used to",
+          "positive",
           "ordinary"
         ]
       },
@@ -36,16 +36,16 @@
           "d": "begin a journey to somewhere"
         },
         {
-          "t": "hold up",
-          "d": "delay somebody or something"
-        },
-        {
           "t": "ordinary",
           "d": "normal, with nothing special about it"
         },
         {
-          "t": "get used to",
-          "d": "become comfortable with something new"
+          "t": "positive",
+          "d": "hopeful and sure that good things will happen"
+        },
+        {
+          "t": "hold up",
+          "d": "delay somebody or something"
         }
       ],
       "grammar": {
@@ -59,7 +59,7 @@
           {
             "s": "He thought the journey ____ about 12 years.",
             "cue": "take",
-            "a": "would take"
+            "a": "would take|might take|could take"
           },
           {
             "s": "In 2006, he and another explorer ____ the Bering Strait on sea ice.",
@@ -80,7 +80,7 @@
       },
       "tfn": [
         {
-          "s": "He crossed the Bering Strait on moving sea ice in 2006.",
+          "s": "In 2006, Karl and a fellow explorer went across the Bering Strait on ice.",
           "a": "T",
           "why": "The text says: \"In 2006, he and another explorer crossed the Bering Strait on moving sea ice.\""
         },
@@ -90,14 +90,14 @@
           "why": "The text says the opposite: \"On 5 October 2026, he reached Dover after swimming across the English Channel.\""
         },
         {
-          "s": "Karl Bushby started his journey in November 1998.",
+          "s": "Karl and his partner were arrested when they arrived in Russia.",
           "a": "T",
-          "why": "The text says: \"In November 1998, Karl Bushby set off from the southern tip of Chile with a small amount of money and a very unusual plan.\""
+          "why": "The text says: \"They finally reached Russia, but the authorities arrested them because they had not entered the country at an official border point.\""
         },
         {
           "s": "His son has joined him for part of the walk.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Karl's son has walked with him."
         }
       ]
     },
@@ -161,14 +161,14 @@
             "a": "impossible"
           },
           {
-            "s": "Their progress depended on ____ sea ice.",
-            "cue": "STABLE",
-            "a": "unstable"
+            "s": "The final stretch carries an enormous ____ weight.",
+            "cue": "EMOTION",
+            "a": "emotional"
           },
           {
-            "s": "Bushby faced financial ____ as well as physical danger.",
-            "cue": "SET",
-            "a": "setbacks"
+            "s": "Bushby spent years working around visa ____.",
+            "cue": "RESTRICT",
+            "a": "restrictions"
           },
           {
             "s": "He says the ____ of strangers has changed his view of humanity.",
@@ -184,12 +184,12 @@
       },
       "tfn": [
         {
-          "s": "Bushby began his journey in Punta Arenas.",
+          "s": "Bushby set out from the far south of South America.",
           "a": "T",
           "why": "The text says: \"Bushby began in Punta Arenas, near the southern tip of South America.\""
         },
         {
-          "s": "About 400 kilometres remained between Dover and Hull.",
+          "s": "After landing, Bushby still had roughly 400 kilometres to go to reach Hull.",
           "a": "T",
           "why": "The text says: \"About 400 kilometres remained between the landing point and Hull.\""
         },
@@ -201,7 +201,7 @@
         {
           "s": "A film company is making a documentary about the expedition.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention any documentary about the expedition."
         }
       ]
     },
@@ -235,7 +235,7 @@
         ],
         "extra": [
           "gloss over",
-          "formidable"
+          "isolated"
         ]
       },
       "match": [
@@ -248,12 +248,12 @@
           "d": "get into trouble with people in authority"
         },
         {
-          "t": "formidable",
-          "d": "large enough to seem frightening"
-        },
-        {
           "t": "gloss over",
           "d": "avoid dealing with an awkward fact"
+        },
+        {
+          "t": "isolated",
+          "d": "far away from other places or people"
         }
       ],
       "grammar": {
@@ -275,9 +275,9 @@
             "a": "improvisation"
           },
           {
-            "s": "He has sacrificed relationships and ____.",
-            "cue": "STABLE",
-            "a": "stability"
+            "s": "For a man who has spent 28 years trying to get home, staying there could prove the most ____ adventure.",
+            "cue": "FAMILIAR",
+            "a": "unfamiliar"
           },
           {
             "s": "Strangers provided help with little ____ of anything in return.",
@@ -290,10 +290,10 @@
         {
           "s": "He intends to write a book about the journey.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Bushby plans to write a book."
         },
         {
-          "s": "He crossed the Caspian Sea by swimming with a support team in 2024.",
+          "s": "A support team helped Bushby as he swam across the Caspian Sea.",
           "a": "T",
           "why": "The text says: \"In 2024 he crossed it by swimming, assisted by a support team, before continuing through Azerbaijan, Georgia and Turkey.\""
         },
@@ -303,7 +303,7 @@
           "why": "The text says the opposite: \"Unable to secure permission for a pedestrian passage through the Channel Tunnel, he ended up swimming the Channel instead.\""
         },
         {
-          "s": "Bushby is a former British paratrooper.",
+          "s": "Bushby once served as a paratrooper in the British forces.",
           "a": "T",
           "why": "The text says: \"Bushby, a former British paratrooper, intended to travel through the Americas, cross into Siberia and return to England across Eurasia.\""
         }

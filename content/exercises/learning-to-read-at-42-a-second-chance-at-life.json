@@ -26,7 +26,7 @@
           }
         ],
         "extra": [
-          "grow up",
+          "damaging",
           "hidden"
         ]
       },
@@ -44,8 +44,8 @@
           "d": "kept where nobody can see or know"
         },
         {
-          "t": "grow up",
-          "d": "become an adult over a period of years"
+          "t": "damaging",
+          "d": "causing harm or making things worse"
         }
       ],
       "grammar": {
@@ -62,9 +62,9 @@
             "a": "grew"
           },
           {
-            "s": "He ____ education at 16 without qualifications.",
-            "cue": "leave",
-            "a": "left"
+            "s": "Like many adults who ____ reading difficult, he learnt ways to manage.",
+            "cue": "find",
+            "a": "find"
           },
           {
             "s": "He started ____ a volunteer coach called Alison twice a week.",
@@ -72,9 +72,9 @@
             "a": "meeting"
           },
           {
-            "s": "Today, Peter ____ read recipes and share books with his son.",
-            "cue": "can",
-            "a": "can"
+            "s": "Some are afraid that others ____ them.",
+            "cue": "judge",
+            "a": "will judge|would judge"
           }
         ]
       },
@@ -82,20 +82,20 @@
         {
           "s": "Peter learned to read while he was still at school.",
           "a": "F",
-          "why": "The text says the opposite: \"He left education at 16 without qualifications.\""
+          "why": "The text says the opposite: \"He moved to a different school, but he still struggled with reading and writing.\""
         },
         {
           "s": "His son has also had reading lessons with Read Easy.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Peter's son has had reading lessons."
         },
         {
-          "s": "He finished the first Harry Potter book after three years of lessons.",
+          "s": "It took Peter about three years to read the first Harry Potter book.",
           "a": "T",
           "why": "The text says: \"After three years of lessons, he finished it.\""
         },
         {
-          "s": "Peter was partially deaf from birth.",
+          "s": "Peter had a hearing problem from the day he was born.",
           "a": "T",
           "why": "The text says: \"Peter grew up in Lancashire and was partially deaf from birth.\""
         }
@@ -166,14 +166,14 @@
             "a": "qualifications"
           },
           {
-            "s": "Read Easy is a charity offering individual reading ____ to adults.",
-            "cue": "SUPPORTIVE",
-            "a": "support"
+            "s": "He set himself a goal that was both ____ and personal.",
+            "cue": "AMBITION",
+            "a": "ambitious"
           },
           {
-            "s": "He became an ____ for the charity.",
-            "cue": "AMBASSADORIAL",
-            "a": "ambassador"
+            "s": "What mattered was not only the ____ itself but also the freedom it represented.",
+            "cue": "ACHIEVE",
+            "a": "achievement"
           },
           {
             "s": "Low ____ does not mean a lack of intelligence.",
@@ -184,12 +184,12 @@
       },
       "tfn": [
         {
-          "s": "He hopes to earn an English GCSE.",
+          "s": "Peter wants to gain a qualification in English.",
           "a": "T",
           "why": "The text says: \"He hopes to earn an English GCSE and eventually help others.\""
         },
         {
-          "s": "Peter was matched with a volunteer coach called Alison.",
+          "s": "A volunteer helped Peter to learn to read.",
           "a": "T",
           "why": "The text says: \"He was matched with volunteer coach Alison, and they began meeting twice a week.\""
         },
@@ -201,7 +201,7 @@
         {
           "s": "Read Easy has coaches in every part of Britain.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Read Easy has coaches across Britain."
         }
       ]
     },
@@ -265,42 +265,42 @@
             "a": "ingenuity"
           },
           {
-            "s": "He relied on an ____ system of workarounds.",
-            "cue": "ELABORATION",
-            "a": "elaborate"
+            "s": "Few people notice the system of workarounds that sustained what looked like ____.",
+            "cue": "INDEPENDENT",
+            "a": "independence"
           },
           {
-            "s": "People may have limited reading skills because of ____ education.",
-            "cue": "DISRUPT",
-            "a": "disrupted"
+            "s": "People may have limited reading skills because of disrupted education or ____ support.",
+            "cue": "ADEQUATE",
+            "a": "inadequate"
           },
           {
-            "s": "His ____ about a previously guarded struggle carries real weight.",
-            "cue": "CANDID",
-            "a": "candour"
+            "s": "Alison offered the freedom to progress without ____.",
+            "cue": "EMBARRASS",
+            "a": "embarrassment"
           },
           {
-            "s": "Support is of little use to anyone too ____ to walk through the door.",
-            "cue": "SHAME",
-            "a": "ashamed"
+            "s": "Adult literacy is frequently ____.",
+            "cue": "UNDERSTAND",
+            "a": "misunderstood"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Alison offered regular one-to-one sessions.",
+          "s": "Peter's coach met him individually on a regular basis.",
           "a": "T",
           "why": "The text says: \"He was paired with a volunteer coach, Alison, who offered regular one-to-one sessions and something Peter had rarely experienced at school: the freedom to progress without embarrassment.\""
         },
         {
-          "s": "Peter was 46 and had spent much of his life hiding that he struggled to read.",
+          "s": "At 46, Peter had a job and a family, yet still concealed his reading difficulty.",
           "a": "T",
           "why": "The text says: \"He was 46, with a job and a family, but he had spent much of his life covering up the fact that he struggled to read.\""
         },
         {
           "s": "Peter has started training as a reading coach himself.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Peter has started training as a reading coach."
         },
         {
           "s": "The writer says limited reading skills indicate low intelligence.",

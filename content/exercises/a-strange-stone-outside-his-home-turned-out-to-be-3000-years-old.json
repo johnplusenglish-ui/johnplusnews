@@ -9,8 +9,8 @@
             "a": "take a closer look"
           },
           {
-            "s": "When they began digging, they ____ parts of two enormous statues.",
-            "a": "dug up"
+            "s": "Sometimes a small discovery ____ a much bigger piece of history.",
+            "a": "opens the door to"
           },
           {
             "s": "The finds may help experts ____ how people used the area.",
@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "A man in northern Egypt ____ the third choice.",
-            "cue": "make",
-            "a": "made"
+            "s": "He could have ____ the stone away or kept it.",
+            "cue": "throw",
+            "a": "thrown"
           },
           {
             "s": "His decision ____ archaeologists to something remarkable.",
@@ -80,24 +80,24 @@
       },
       "tfn": [
         {
-          "s": "One statue head was about 1.6 metres tall.",
+          "s": "One of the statue heads was more than one and a half metres tall.",
           "a": "T",
           "why": "The text says: \"One statue head was about 1.6 metres tall.\""
         },
         {
-          "s": "The objects were found near the remains of a temple linked to Isis.",
+          "s": "Archaeologists found the statues close to a temple linked to a goddess.",
           "a": "T",
           "why": "The text says: \"The objects were found near the remains of a temple linked to Isis, an important goddess in ancient Egyptian religion.\""
         },
         {
           "s": "The statues will be moved to a museum in Cairo.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say where the statues will be kept after the excavation."
         },
         {
           "s": "The resident kept the stone and sold it privately.",
           "a": "F",
-          "why": "The text says the opposite: \"In October 2026, a resident of Bahbit al-Higara, a village in the Nile Delta, reported a stone with writing on it.\""
+          "why": "The text says the opposite: \"Instead, he reported it to the experts, and his decision led archaeologists to something remarkable.\""
         }
       ]
     },
@@ -113,7 +113,7 @@
             "a": "brought to light"
           },
           {
-            "s": "Specialists ____ rescue excavations after inspecting the stone.",
+            "s": "Specialists ____ a rescue excavation after inspecting the stone.",
             "a": "carried out"
           },
           {
@@ -136,16 +136,16 @@
       },
       "match": [
         {
-          "t": "sell something on",
-          "d": "pass something to another buyer for money"
-        },
-        {
           "t": "shed light on",
           "d": "help explain something that was unclear"
         },
         {
+          "t": "turn up",
+          "d": "be found or appear, often when nobody expected it"
+        },
+        {
           "t": "lay out",
-          "d": "arrange something across a space"
+          "d": "arrange or plan how parts are placed in an area"
         },
         {
           "t": "decorative",
@@ -156,14 +156,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "A resident noticed an unusual ____ stone.",
-            "cue": "INSCRIPTION",
-            "a": "inscribed"
+            "s": "A resident noticed an ____ inscribed stone.",
+            "cue": "USUAL",
+            "a": "unusual"
           },
           {
-            "s": "One of the most ____ finds was a statue head.",
-            "cue": "STRIKE",
-            "a": "striking"
+            "s": "An ordinary piece of land turned into an ____ site.",
+            "cue": "ARCHAEOLOGY",
+            "a": "archaeological"
           },
           {
             "s": "Ramesses II is famous for his ____ buildings.",
@@ -171,9 +171,9 @@
             "a": "monumental"
           },
           {
-            "s": "Removing an artefact without ____ where it lay destroys evidence.",
-            "cue": "DOCUMENT",
-            "a": "documenting"
+            "s": "The resident's decision to report the stone was so ____.",
+            "cue": "SIGNIFY",
+            "a": "significant"
           },
           {
             "s": "The authorities investigated the site ____.",
@@ -184,19 +184,19 @@
       },
       "tfn": [
         {
-          "s": "Archaeologists estimate the complete figure was about 8.5 metres tall.",
+          "s": "Experts think the whole statue may have been over eight metres high.",
           "a": "T",
           "why": "The text says: \"Archaeologists estimate that the complete figure may originally have been approximately 8.5 metres tall.\""
         },
         {
           "s": "The resident received a payment from the antiquities authority.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the resident was paid."
         },
         {
-          "s": "The discovery was announced in October 2026.",
+          "s": "Specialists inspected the stone before they started a rescue excavation.",
           "a": "T",
-          "why": "The text says: \"The discovery was announced in October 2026 in Bahbit al-Higara, a village in the Nile Delta.\""
+          "why": "The text says: \"Specialists from Egypt's Supreme Council of Antiquities inspected the original stone and then carried out a rescue excavation.\""
         },
         {
           "s": "Researchers already know exactly where the statues stood.",
@@ -209,103 +209,103 @@
       "gap": {
         "items": [
           {
-            "s": "He reported an inscribed stone he had ____ while working on his land.",
-            "a": "come across"
+            "s": "Even broken into pieces, the head ____ of the scale the builders were working on.",
+            "a": "gives a sense"
           },
           {
-            "s": "A subsequent investigation uncovered fragments of two ____ statues.",
-            "a": "colossal"
+            "s": "Researchers still need to ____ how the statues fitted into the surrounding site.",
+            "a": "work out"
           },
           {
-            "s": "Their proximity to the sanctuary only ____.",
-            "a": "adds to their significance"
+            "s": "Ramesses II commissioned monuments ____.",
+            "a": "on a grand scale"
           },
           {
-            "s": "It is the relationships between objects that ____.",
-            "a": "carry the argument"
+            "s": "Moving a fragment before its position is recorded can destroy information that cannot be ____.",
+            "a": "put back"
           },
           {
-            "s": "Objects that ____ reach scholars with their histories erased.",
-            "a": "pass into private hands"
+            "s": "The resident's decision let specialists investigate the stone ____.",
+            "a": "in place"
           },
           {
-            "s": "It would be ____ to treat the discovery as a settled explanation.",
-            "a": "premature"
+            "s": "For now, the stone has ____ a much larger site.",
+            "a": "opened a window onto"
           }
         ],
         "extra": [
-          "dispose of",
-          "indispensable"
+          "sanctuary",
+          "towering"
         ]
       },
       "match": [
         {
-          "t": "come across",
-          "d": "find something without looking for it"
+          "t": "commission",
+          "d": "order and pay for something to be made specially"
         },
         {
-          "t": "dispose of",
-          "d": "get rid of something unwanted"
+          "t": "towering",
+          "d": "very tall and impressive"
         },
         {
-          "t": "colossal",
-          "d": "extremely large in size"
+          "t": "sanctuary",
+          "d": "a sacred place such as a temple or shrine"
         },
         {
-          "t": "indispensable",
-          "d": "so necessary that you cannot manage without it"
+          "t": "arrangement",
+          "d": "the way things are placed in relation to one another"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "The proximity of a monument to a temple is rarely ____.",
-            "cue": "ACCIDENT",
-            "a": "accidental"
+            "s": "An ____ stone near a home in Egypt led officials to something much larger.",
+            "cue": "USUAL",
+            "a": "unusual"
           },
           {
-            "s": "Ramesses II invested heavily in ____ architecture.",
-            "cue": "MONUMENT",
-            "a": "monumental"
+            "s": "Beneath the everyday ____ were fragments of two enormous royal statues.",
+            "cue": "SURROUND",
+            "a": "surroundings"
           },
           {
-            "s": "Statues projected an image of royal ____.",
-            "cue": "PERMANENT",
-            "a": "permanence"
+            "s": "A head in a museum may be ____, but its original position could answer questions the carving cannot.",
+            "cue": "IMPRESS",
+            "a": "impressive"
           },
           {
-            "s": "Scientific ____ develops through patient comparison.",
-            "cue": "INTERPRET",
-            "a": "interpretation"
+            "s": "Further excavation and comparisons with other finds may change the ____.",
+            "cue": "EXPLAIN",
+            "a": "explanation"
           },
           {
-            "s": "Heritage protection rests less on ____ excavation than on reporting.",
-            "cue": "SPECTACLE",
-            "a": "spectacular"
+            "s": "Officials believe it came from a figure that ____ stood around 8.5 metres high.",
+            "cue": "ORIGIN",
+            "a": "originally"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The writer says archaeology is only for distant experts.",
-          "a": "F",
-          "why": "The text says the opposite: \"The episode also challenges the image of archaeology as a pursuit reserved for distant experts.\""
+          "s": "The find began with a local man telling officials about writing on a stone.",
+          "a": "T",
+          "why": "The text says: \"In October 2026, a resident of Bahbit al-Higara, in the Nile Delta, reported writing he had noticed on a stone while working on nearby land.\""
         },
         {
-          "s": "The excavation also uncovered a pink granite block with hieroglyphs.",
-          "a": "T",
-          "why": "The text says: \"The rescue excavation, carried out by specialists from Egypt's Supreme Council of Antiquities, also brought to light a block of pink granite inscribed with hieroglyphs.\""
+          "s": "Archaeologists remove an object first and record its position afterwards.",
+          "a": "F",
+          "why": "The text says the opposite: \"Archaeologists record the layers of earth, nearby buildings and other finds before moving a piece.\""
         },
         {
           "s": "Other inscribed stones have been reported in the same village.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether any other stones have been reported in the village."
         },
         {
-          "s": "Specialists from the Supreme Council of Antiquities carried out the dig.",
+          "s": "Specialists also found a block of pink granite that carried ancient writing.",
           "a": "T",
-          "why": "The text says: \"The rescue excavation, carried out by specialists from Egypt's Supreme Council of Antiquities, also brought to light a block of pink granite inscribed with hieroglyphs.\""
+          "why": "The text says: \"Specialists from Egypt's Supreme Council of Antiquities also uncovered a block of pink granite covered in hieroglyphs, the ancient Egyptian writing system.\""
         }
       ]
     }

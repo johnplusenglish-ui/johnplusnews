@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "A jacket ____ at your door looking perfect.",
-            "cue": "arrive",
-            "a": "arrives"
+            "s": "A van ____ the parcel, and a warehouse worker opens it.",
+            "cue": "collect",
+            "a": "collects"
           },
           {
             "s": "Almost one in five online purchases ____ to be returned in 2025.",
@@ -85,14 +85,14 @@
           "why": "The text says: \"Online returns are especially common with clothes because customers cannot try them on first.\""
         },
         {
-          "s": "Most British shops now charge for returns.",
+          "s": "Customers in the UK return more clothes than customers in the US.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text gives no comparison between the UK and the US."
         },
         {
           "s": "UK shoppers usually have 14 days after delivery to cancel an order.",
           "a": "T",
-          "why": "The text says: \"In the UK, people buying most goods online usually have 14 days after delivery to cancel their order, followed by another 14 days to return it.\""
+          "why": "The text says: \"In the UK, people buying most goods online usually have 14 days after delivery to cancel their order, followed by another 14 days to send the goods back.\""
         },
         {
           "s": "Free returns cost retailers nothing.",
@@ -161,9 +161,9 @@
             "a": "unwanted"
           },
           {
-            "s": "A ____ returns policy has consequences for profits and the planet.",
-            "cue": "GENEROSITY",
-            "a": "generous"
+            "s": "An accountant argued that ____ companies should plan for the normal cost of returns.",
+            "cue": "SENSE",
+            "a": "sensible"
           },
           {
             "s": "Retailers have responded with charges and ____ conditions.",
@@ -186,12 +186,12 @@
         {
           "s": "The National Retail Federation expected about 19% of online sales to be returned in 2025.",
           "a": "T",
-          "why": "The text says: \"The US National Retail Federation expected around 19% of online sales to be returned in 2025, with goods worth nearly $850 billion flowing back to American retailers across all types of shopping.\""
+          "why": "The text says: \"The US National Retail Federation expected around 19% of online sales to be returned in 2025.\""
         },
         {
           "s": "Return fees have reduced the number of online orders in Britain.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether return fees have reduced the number of orders."
         },
         {
           "s": "A Which? investigation found some shops failed to meet refund obligations.",
@@ -213,7 +213,7 @@
             "a": "at the click of a button"
           },
           {
-            "s": "The scale of the problem is ____.",
+            "s": "The scale of online returns is ____: nearly $850 billion in returned goods across retail.",
             "a": "formidable"
           },
           {
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The transaction feels almost risk-free, which makes an impulsive purchase more ____.",
-            "cue": "LIKE",
-            "a": "likely"
+            "s": "The customer's living room has become an ____ fitting room.",
+            "cue": "OFFICIAL",
+            "a": "unofficial"
           },
           {
             "s": "Reverse logistics absorbs labour, transport capacity and ____ space.",
@@ -303,9 +303,9 @@
           "why": "The text says the opposite: \"Winding back that expectation without damaging trust will require more than adding a charge at checkout.\""
         },
         {
-          "s": "European retailers resell most returned clothing successfully.",
+          "s": "Which? has asked the government to change the refund rules.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say what Which? asked the government to do."
         }
       ]
     }

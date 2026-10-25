@@ -27,7 +27,7 @@
         ],
         "extra": [
           "put away",
-          "pleasant"
+          "friendly"
         ]
       },
       "match": [
@@ -97,7 +97,7 @@
         {
           "s": "The two passengers on the train talk to each other during the journey.",
           "a": "F",
-          "why": "The text says the opposite: \"But what might happen if one of them looked up and started a conversation?\""
+          "why": "The text says the opposite: \"They spend an hour together without saying a word.\""
         }
       ]
     },
@@ -130,7 +130,7 @@
           }
         ],
         "extra": [
-          "carry on",
+          "unfamiliar",
           "unapproachable"
         ]
       },
@@ -166,9 +166,9 @@
             "a": "unnecessary"
           },
           {
-            "s": "Everybody outside our immediate circle can seem unfamiliar or ____.",
-            "cue": "APPROACH",
-            "a": "unapproachable"
+            "s": "Their meetings turned out to be ____ meaningful.",
+            "cue": "EXPECT",
+            "a": "unexpectedly"
           },
           {
             "s": "A friendly chat will not solve ____ or political division.",
@@ -176,7 +176,7 @@
             "a": "loneliness"
           },
           {
-            "s": "Smartphones offer endless ____, so empty moments rarely stay empty.",
+            "s": "Smartphones offer endless ____, while headphones create a barrier against interruption.",
             "cue": "ENTERTAIN",
             "a": "entertainment"
           }
@@ -194,12 +194,12 @@
           "why": "Not stated. This version does not give this information."
         },
         {
-          "s": "The article argues that everybody should become more outgoing.",
+          "s": "Everybody should become more outgoing.",
           "a": "F",
           "why": "The text says the opposite: \"Perhaps the answer is not to insist that everyone becomes outgoing.\""
         },
         {
-          "s": "Research suggests conversations with strangers often go better than people expect.",
+          "s": "People may expect a chat with a stranger to be worse than it turns out to be.",
           "a": "T",
           "why": "The text says: \"Nevertheless, psychological research discussed in the article suggests that we sometimes expect conversations with strangers to go worse than they actually do.\""
         }
@@ -280,17 +280,17 @@
             "a": "uncertainty"
           },
           {
-            "s": "The skill worth preserving is not constant ____ but a willingness to notice.",
-            "cue": "SOCIABLE",
-            "a": "sociability"
+            "s": "A society can be highly connected while allowing everyday ____ about other people to wither.",
+            "cue": "CURIOUS",
+            "a": "curiosity"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The writer accepts that silence can be good for people.",
+          "s": "Staying silent can be good for people.",
           "a": "T",
-          "why": "The text says: \"Neither is behaving badly, and both may have perfectly legitimate reasons for wanting privacy.\""
+          "why": "The text says: \"Silence can be restorative, and nobody owes strangers their attention.\""
         },
         {
           "s": "Researchers have measured how long the average unplanned conversation lasts.",
@@ -303,7 +303,7 @@
           "why": "The text says the opposite: \"These were not life-changing friendships or dramatic revelations.\""
         },
         {
-          "s": "The piece accepts that an exchange welcome to one person may feel threatening to another.",
+          "s": "A conversation that one person welcomes may feel threatening to someone else.",
           "a": "T",
           "why": "The text says: \"A conversation that feels harmless to one person may feel intrusive or threatening to another, particularly when boundaries are ignored.\""
         }

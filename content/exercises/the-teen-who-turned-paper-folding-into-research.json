@@ -5,12 +5,12 @@
       "gap": {
         "items": [
           {
-            "s": "Hikaru Kuribayashi is 17 and lives in ____.",
-            "a": "Japan"
+            "s": "Folding paper alone is not ____.",
+            "a": "science"
           },
           {
-            "s": "Hikaru won for research and ____ work.",
-            "a": "computer"
+            "s": "In May 2026, he took part in a big ____ in Phoenix, in the United States.",
+            "a": "fair"
           },
           {
             "s": "The wing of a ladybird opens and ____.",
@@ -52,19 +52,19 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Hikaru ____ a prize of $100,000.",
+            "s": "In May 2026, Hikaru ____ a prize of $100,000.",
             "cue": "win",
             "a": "won"
           },
           {
-            "s": "He ____ a computer model of a ladybird wing.",
+            "s": "Before the competition, Hikaru ____ a computer model of a ladybird wing.",
             "cue": "build",
             "a": "built"
           },
           {
-            "s": "Hikaru ____ that this is a kind of origami made by nature.",
-            "cue": "say",
-            "a": "says"
+            "s": "He did not win for making paper animals. He ____ his question into research.",
+            "cue": "turn",
+            "a": "turned"
           },
           {
             "s": "The wing of a ladybird ____ many creases.",
@@ -72,32 +72,32 @@
             "a": "has"
           },
           {
-            "s": "He ____ only the folds and small dents.",
-            "cue": "use",
-            "a": "used"
+            "s": "He thinks this could ____ scientists design new technology.",
+            "cue": "help",
+            "a": "help"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Hikaru is 17 years old.",
+          "s": "Hikaru went to a competition in the United States.",
           "a": "T",
-          "why": "The text says: \"Hikaru Kuribayashi is 17 and lives in Japan\""
+          "why": "The text says: \"In May 2026, he took part in a big science fair in Phoenix, in the United States\""
         },
         {
           "s": "Hikaru won a prize for making paper animals.",
           "a": "F",
-          "why": "The text says the opposite: \"Hikaru did not win for making paper animals\""
+          "why": "The text says the opposite: \"He did not win for making paper animals.\""
         },
         {
-          "s": "Hikaru wants to be an engineer.",
+          "s": "More than 1,000 students took part in the event.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many students took part."
         },
         {
-          "s": "Hikaru built a computer model of a ladybird wing.",
+          "s": "Hikaru made a computer model of a ladybird wing.",
           "a": "T",
-          "why": "The text says: \"Hikaru built a computer model of a ladybird wing\""
+          "why": "The text says: \"Hikaru built a computer model of a ladybird wing.\""
         },
         {
           "s": "The text says the new technology already exists.",
@@ -110,8 +110,8 @@
       "gap": {
         "items": [
           {
-            "s": "Hikaru won the $100,000 George D. Yancopoulos Innovator ____.",
-            "a": "Award"
+            "s": "Folding is useful whenever something must be small when it is stored and larger when it is ____.",
+            "a": "used"
           },
           {
             "s": "His project was research and computer ____, not a craft project.",
@@ -137,39 +137,39 @@
       },
       "match": [
         {
-          "t": "creases",
-          "d": "the lines that are made in paper when it is folded"
-        },
-        {
-          "t": "flexible",
-          "d": "able to bend without breaking"
+          "t": "mechanism",
+          "d": "a set of parts that operate together to make something move"
         },
         {
           "t": "indentations",
           "d": "small dents or marks pressed into a surface"
         },
         {
-          "t": "mechanism",
-          "d": "a set of parts that work together to make something move"
+          "t": "temporary",
+          "d": "lasting for a short time only"
+        },
+        {
+          "t": "probability",
+          "d": "how likely it is that something will happen"
         }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
           {
-            "s": "Hikaru ____ the $100,000 award.",
+            "s": "At the 2026 fair, Hikaru ____ the $100,000 award.",
             "cue": "win",
             "a": "won"
           },
           {
-            "s": "He ____ a computer model of the wing.",
+            "s": "He ____ a computer model of the ladybird wing and showed its movement with a physical model.",
             "cue": "build",
             "a": "built"
           },
           {
-            "s": "Hikaru ____ that older methods follow one motion at a time.",
-            "cue": "say",
-            "a": "says"
+            "s": "Engineers often ____ every shape a structure could take.",
+            "cue": "map",
+            "a": "map"
           },
           {
             "s": "The article ____ some possible uses.",
@@ -177,7 +177,7 @@
             "a": "suggests"
           },
           {
-            "s": "Science News Explores ____ the report on 18 May 2026.",
+            "s": "The report was ____ on 18 May 2026 by Science News Explores.",
             "cue": "publish",
             "a": "published"
           }
@@ -195,17 +195,17 @@
           "why": "The text says the opposite: \"His project was about folding, but not about making paper animals\""
         },
         {
-          "s": "Hikaru wants to build a machine next year.",
+          "s": "The fair is held in a different country every year.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say where the fair is held in other years."
         },
         {
-          "s": "The article suggests his method could help analyse how birds move.",
+          "s": "Birds' movement is one possible use mentioned for his method.",
           "a": "T",
           "why": "The text says: \"analysing the way birds move\""
         },
         {
-          "s": "The text says the article checked Hikaru's claims independently.",
+          "s": "The text says Hikaru's claims were tested by independent experts.",
           "a": "F",
           "why": "The text says the opposite: \"it does not independently check Hikaru's claims\""
         }
@@ -215,24 +215,24 @@
       "gap": {
         "items": [
           {
-            "s": "Folded structures can only move in the ways their ____ allow.",
-            "a": "creases"
+            "s": "A ____ influences where a folded structure bends.",
+            "a": "crease"
           },
           {
-            "s": "The work was research and ____, not a craft project.",
+            "s": "The work behind the prizes involved ____ as well as folds.",
             "a": "software"
           },
           {
-            "s": "The prize recognised research and software, not a finished ____.",
-            "a": "invention"
+            "s": "Hikaru took a movement he could ____ and developed a way to study it.",
+            "a": "observe"
           },
           {
-            "s": "Hikaru's claims are his own, and the article does not test them ____.",
-            "a": "independently"
+            "s": "The possible uses of the research still need ____.",
+            "a": "investigating"
           },
           {
-            "s": "The hobby did not become a career overnight. It became a way of ____.",
-            "a": "noticing"
+            "s": "Broad claims about the method should stay ____ to Hikaru.",
+            "a": "attributed"
           }
         ],
         "extra": [
@@ -242,16 +242,16 @@
       },
       "match": [
         {
-          "t": "creases",
-          "d": "the lines that are made in paper when it is folded"
-        },
-        {
           "t": "flexible",
           "d": "able to bend without breaking"
         },
         {
-          "t": "warping",
-          "d": "bending or twisting out of the normal shape"
+          "t": "warp",
+          "d": "to bend or twist out of the normal shape"
+        },
+        {
+          "t": "demonstrated",
+          "d": "showed clearly how something works"
         },
         {
           "t": "mechanism",
@@ -262,57 +262,57 @@
         "kind": "word",
         "items": [
           {
-            "s": "His ____-based approach uses only the creases and dotted indentations.",
+            "s": "His approach uses ____ to explore how a folded structure might move.",
             "cue": "PROBABLE",
             "a": "probability"
           },
           {
-            "s": "The article suggests some possible ____.",
-            "cue": "APPLY",
-            "a": "applications"
+            "s": "The ____ is that a flexible structure can change in several ways at once.",
+            "cue": "DIFFICULT",
+            "a": "difficulty"
           },
           {
-            "s": "The article does not test the statements ____.",
-            "cue": "INDEPENDENT",
-            "a": "independently"
+            "s": "The model made an ____ piece of research easier to picture.",
+            "cue": "FAMILIAR",
+            "a": "unfamiliar"
           },
           {
-            "s": "The story ends with a ____ question about how structures move.",
-            "cue": "PRECISION",
-            "a": "precise"
+            "s": "The immediate ____ is more specific than a new product.",
+            "cue": "ACHIEVE",
+            "a": "achievement"
           },
           {
-            "s": "The prize recognised research and software, not a finished ____.",
-            "cue": "INVENT",
-            "a": "invention"
+            "s": "Its ____ draws on Hikaru's description of his work.",
+            "cue": "EXPLAIN",
+            "a": "explanation"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The prize recognised research and software.",
+          "s": "The prize-winning work included computer programs as well as folding.",
           "a": "T",
-          "why": "The text says: \"The prize recognised research and software\""
+          "why": "The text says: \"The work behind the prizes involved software as well as folds.\""
         },
         {
-          "s": "The text says the article tested Hikaru's claims independently.",
+          "s": "The text says the article comes from a source with no link to the fair.",
           "a": "F",
-          "why": "The text says the opposite: \"The article does not test them independently\""
+          "why": "The text says the opposite: \"published by the organisation behind the fair\""
         },
         {
-          "s": "Hikaru is applying to university in the United States.",
+          "s": "More than 1,000 students entered the fair.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many students entered the fair."
         },
         {
-          "s": "Hikaru built a computer model of a ladybird wing.",
+          "s": "Hikaru made a computer model of a ladybird's wing opening and closing.",
           "a": "T",
-          "why": "The text says: \"He built a computer model of a ladybird wing\""
+          "why": "The text says: \"he built a computer model of a ladybird's wing opening and closing\""
         },
         {
-          "s": "The text says someone has already sold a device based on his method.",
+          "s": "The report describes a product that is already on sale.",
           "a": "F",
-          "why": "The text says the opposite: \"Nothing in the article says that anyone has built, tested or sold a device based on his method\""
+          "why": "The text says the opposite: \"The report describes research, not a finished product that has been tested and put on sale.\""
         }
       ]
     }

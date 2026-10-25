@@ -37,7 +37,7 @@
         },
         {
           "t": "take advantage of",
-          "d": "use somebody unfairly for your own benefit"
+          "d": "use a person's kindness or weakness for your own gain"
         },
         {
           "t": "speak up",
@@ -72,9 +72,9 @@
             "a": "make"
           },
           {
-            "s": "Nobody wants to feel that they ____ advantage of.",
-            "cue": "take",
-            "a": "are being taken"
+            "s": "She had just ____ a friend for a green juice.",
+            "cue": "meet",
+            "a": "met"
           }
         ]
       },
@@ -82,7 +82,7 @@
         {
           "s": "Most Australians now use payment apps to split restaurant bills.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many Australians use payment apps."
         },
         {
           "s": "Cosgrove believes every bill between friends should be split exactly.",
@@ -121,7 +121,7 @@
             "a": "above board"
           },
           {
-            "s": "A generous friend who always pays might eventually feel ____.",
+            "s": "A generous friend who always pays might eventually feel ____ when nobody thanks them.",
             "a": "taken for granted"
           },
           {
@@ -148,7 +148,7 @@
           "d": "thinking about how other people feel"
         },
         {
-          "t": "laugh something off",
+          "t": "laugh it off",
           "d": "treat a problem as a joke so it seems small"
         }
       ],
@@ -161,19 +161,19 @@
             "a": "transaction"
           },
           {
-            "s": "To some, splitting every bill is a sign of ____.",
-            "cue": "RESPECTFUL",
-            "a": "respect"
+            "s": "Cosgrove asks where fairness ends and ____ begins.",
+            "cue": "GENEROUS",
+            "a": "generosity"
           },
           {
             "s": "A$12.50 may be ____ to one person and a real expense to another.",
-            "cue": "SIGNIFICANCE",
+            "cue": "SIGNIFICANT",
             "a": "insignificant"
           },
           {
-            "s": "What seems selfish in one culture can seem ____ in another.",
-            "cue": "CONSIDER",
-            "a": "considerate"
+            "s": "The rise of instant transfers has made settling up ____.",
+            "cue": "EFFORT",
+            "a": "effortless"
           },
           {
             "s": "A harmless difference in habits can become a lasting ____.",
@@ -186,7 +186,7 @@
         {
           "s": "Cosgrove's friend apologised after reading the article.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Cosgrove's friend apologised."
         },
         {
           "s": "Cosgrove's personal rule concerns expenses below A$15.",
@@ -201,7 +201,7 @@
         {
           "s": "Instant transfers have made settling up easier than before.",
           "a": "T",
-          "why": "The text says: \"The rise of instant transfers has made settling up effortless, but it has also made it easier to put a price on moments that once passed without comment.\""
+          "why": "The text says: \"The rise of instant transfers has made settling up effortless, and it can make a small favour feel like a bill.\""
         }
       ]
     },
@@ -221,16 +221,16 @@
             "a": "frictionless"
           },
           {
-            "s": "Between close friends, precision may come across as oddly ____.",
-            "a": "formal"
+            "s": "Between close friends, precision may feel as though the relationship were subject to ____.",
+            "a": "a running audit"
           },
           {
             "s": "It is easy to mistake a financial boundary for a ____.",
             "a": "personal slight"
           },
           {
-            "s": "An arrangement that looked generous can start to feel ____.",
-            "a": "exploitative"
+            "s": "The solution may be less about a universal price limit than about ____.",
+            "a": "reading the room"
           }
         ],
         "extra": [
@@ -275,14 +275,14 @@
             "a": "resentment"
           },
           {
-            "s": "A quiet conversation may preserve a ____ more effectively than a payment request.",
-            "cue": "FRIEND",
-            "a": "friendship"
+            "s": "Over time, an arrangement that looked generous can start to feel ____.",
+            "cue": "EXPLOIT",
+            "a": "exploitative"
           },
           {
-            "s": "We want friendships to feel ____, yet we also want fairness.",
-            "cue": "SPONTANEITY",
-            "a": "spontaneous"
+            "s": "Neither side realises the other follows different ____ rules.",
+            "cue": "WRITE",
+            "a": "unwritten"
           }
         ]
       },
@@ -305,7 +305,7 @@
         {
           "s": "The column was the most read article on the Guardian site that week.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how widely the column was read."
         }
       ]
     }

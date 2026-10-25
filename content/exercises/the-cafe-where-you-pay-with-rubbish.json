@@ -33,15 +33,15 @@
       "match": [
         {
           "t": "in exchange for",
-          "d": "given as payment for something else"
+          "d": "given or received in place of something else"
         },
         {
           "t": "break down",
-          "d": "separate into much smaller pieces"
+          "d": "slowly divide into much smaller pieces"
         },
         {
           "t": "clear away",
-          "d": "remove something so a space is tidy"
+          "d": "remove things so that a place is tidy or empty"
         },
         {
           "t": "worthless",
@@ -97,7 +97,7 @@
         {
           "s": "Other Indian cities have opened similar cafés.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether other cities have opened similar cafés."
         }
       ]
     },
@@ -117,7 +117,7 @@
             "a": "sorting through"
           },
           {
-            "s": "The food arrives the same day, not ____.",
+            "s": "The food arrives on the same day, rather than ____.",
             "a": "at the end of a long month"
           },
           {
@@ -130,8 +130,8 @@
           }
         ],
         "extra": [
-          "hand out",
-          "recyclable"
+          "recyclable",
+          "essential"
         ]
       },
       "match": [
@@ -144,12 +144,12 @@
           "d": "give something to another person"
         },
         {
-          "t": "hand out",
-          "d": "give something to many people"
-        },
-        {
           "t": "recyclable",
           "d": "able to be processed and used again"
+        },
+        {
+          "t": "essential",
+          "d": "completely necessary, so that you cannot do without it"
         }
       ],
       "grammar": {
@@ -171,14 +171,14 @@
             "a": "informal"
           },
           {
-            "s": "It is a ____ way of involving the public.",
+            "s": "Being paid in lunch changes the ____ value of their work.",
             "cue": "PRACTICE",
             "a": "practical"
           },
           {
-            "s": "Plastic breaks down into ____ that are too small to pick up.",
-            "cue": "FRAGMENT",
-            "a": "fragments"
+            "s": "Instead of asking people to worry about a distant ____ crisis, it offers a direct exchange.",
+            "cue": "ENVIRONMENT",
+            "a": "environmental"
           }
         ]
       },
@@ -186,7 +186,7 @@
         {
           "s": "The café serves more than a hundred meals a day.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many meals the café serves."
         },
         {
           "s": "Collectors may earn very little from selling material to dealers.",
@@ -199,9 +199,9 @@
           "why": "The text says the opposite: \"Ambikapur has also developed broader waste-sorting and recycling initiatives, so the café was never intended to be the city's entire environmental strategy.\""
         },
         {
-          "s": "Ambikapur has developed broader waste-sorting initiatives too.",
+          "s": "Collectors receive food on the same day they hand in plastic.",
           "a": "T",
-          "why": "The text says: \"Ambikapur has also developed broader waste-sorting and recycling initiatives, so the café was never intended to be the city's entire environmental strategy.\""
+          "why": "The text says: \"The exchange happens on the same day rather than at the end of a long month.\""
         }
       ]
     },
@@ -209,12 +209,12 @@
       "gap": {
         "items": [
           {
-            "s": "The café relies on a strikingly ____ incentive.",
-            "a": "tangible"
+            "s": "A meal, unlike a fluctuating scrap price, is ____.",
+            "a": "a known quantity"
           },
           {
-            "s": "It links waste management to ____.",
-            "a": "food insecurity"
+            "s": "Schemes of this kind work best when they ____ functioning collection services, not in place of them.",
+            "a": "sit on top of"
           },
           {
             "s": "Discarded packaging becomes a form of ____.",
@@ -235,7 +235,7 @@
         ],
         "extra": [
           "brush aside",
-          "compassionate"
+          "distract attention"
         ]
       },
       "match": [
@@ -248,8 +248,8 @@
           "d": "far too small to make much difference"
         },
         {
-          "t": "brush something aside",
-          "d": "refuse to take an objection seriously"
+          "t": "brush aside",
+          "d": "dismiss something as unimportant without thinking about it"
         },
         {
           "t": "compassionate",
@@ -260,14 +260,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "Environmental campaigns struggle to make ____ problems feel immediate.",
-            "cue": "ABSTRACTION",
-            "a": "abstract"
+            "s": "Rubbish is ordinarily treated as something ____.",
+            "cue": "VALUE",
+            "a": "valueless"
           },
           {
-            "s": "The work is unpleasant and physically ____.",
-            "cue": "DEMAND",
-            "a": "demanding"
+            "s": "Waste that is not collected persists, dispersed and largely ____.",
+            "cue": "RECOVER",
+            "a": "unrecoverable"
           },
           {
             "s": "Their contribution to urban ____ is routinely overlooked.",
@@ -288,9 +288,9 @@
       },
       "tfn": [
         {
-          "s": "The café was established in 2019 with municipal involvement.",
+          "s": "The café began with the involvement of the municipal authorities.",
           "a": "T",
-          "why": "The text says: \"Established in 2019 with municipal involvement, the café offers a meal in exchange for approximately one kilogram of plastic waste, and the collected material is then fed into the city's waste-management network.\""
+          "why": "The text says: \"Established in 2019 with municipal involvement\""
         },
         {
           "s": "The article says schemes like this work best on top of collection services.",
@@ -305,7 +305,7 @@
         {
           "s": "The café is funded by a plastics manufacturer.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say who pays for the café."
         }
       ]
     }

@@ -57,7 +57,7 @@
             "a": "made"
           },
           {
-            "s": "The video ____ filmed at a boat race.",
+            "s": "In 2025, Rayyan ____ eleven years old.",
             "cue": "be",
             "a": "was"
           },
@@ -72,9 +72,9 @@
             "a": "named"
           },
           {
-            "s": "She ____ there is a rescue team near the boats.",
-            "cue": "say",
-            "a": "said"
+            "s": "He ____ sunglasses and moves his arms slowly and calmly.",
+            "cue": "wear",
+            "a": "wears"
           }
         ]
       },
@@ -85,17 +85,17 @@
           "why": "The text says: \"In 2025, he was eleven years old.\""
         },
         {
-          "s": "Rayyan copied the dance from a teacher.",
+          "s": "Rayyan learned the dance from a teacher.",
           "a": "F",
           "why": "The text says the opposite: \"He told the BBC that he made up the dance himself.\""
         },
         {
           "s": "Rayyan wants to be a footballer.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say what job Rayyan wants to do."
         },
         {
-          "s": "The governor of Rayyan's province named him a cultural ambassador.",
+          "s": "Rayyan became a cultural ambassador for his province.",
           "a": "T",
           "why": "The text says: \"The governor of his province named him a cultural ambassador.\""
         },
@@ -118,16 +118,16 @@
             "a": "energise"
           },
           {
-            "s": "\"Aura\" is a word for ____.",
-            "a": "charisma"
+            "s": "Rayyan was making his ____ at the national race.",
+            "a": "debut"
           },
           {
             "s": "\"Aura farming\" is a phrase that the internet attached ____.",
             "a": "afterwards"
           },
           {
-            "s": "There is a difference between the dance, the race and the ____.",
-            "a": "label"
+            "s": "The dancer must keep his ____ while also motivating the rowers.",
+            "a": "balance"
           }
         ],
         "extra": [
@@ -167,19 +167,19 @@
             "a": "told"
           },
           {
-            "s": "The BBC ____ that videos with this tag had millions of views.",
-            "cue": "report",
-            "a": "reported"
+            "s": "You have probably seen the clip. A boy in sunglasses ____ on the tip of a long, fast boat and blows kisses to each side.",
+            "cue": "stand",
+            "a": "stands"
           },
           {
-            "s": "His mother ____ she worries that he might fall.",
-            "cue": "say",
-            "a": "said"
+            "s": "By July 2025, people across the world were ____ him.",
+            "cue": "copy",
+            "a": "copying"
           },
           {
-            "s": "Videos with this tag ____ millions of views on TikTok by early July.",
-            "cue": "have",
-            "a": "had"
+            "s": "Rayyan was ____ a cultural ambassador by the governor of his province.",
+            "cue": "name",
+            "a": "named"
           }
         ]
       },
@@ -197,10 +197,10 @@
         {
           "s": "Rayyan has won a national dance prize.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Rayyan has won any dance prize."
         },
         {
-          "s": "Rayyan was named a cultural ambassador by his governor.",
+          "s": "A provincial governor made Rayyan a cultural ambassador.",
           "a": "T",
           "why": "The text says: \"Rayyan was named a cultural ambassador by the governor of his province\""
         },
@@ -215,12 +215,12 @@
       "gap": {
         "items": [
           {
-            "s": "Rayyan was making his debut as the Togak Luan, whose role is to ____ the crew.",
+            "s": "The Togak Luan's role is to ____ the crew.",
             "a": "energise"
           },
           {
-            "s": "He moves his arms with a calm, ____ confidence.",
-            "a": "expressionless"
+            "s": "Rayyan was making his ____ at the national Pacu Jalur boat race.",
+            "a": "debut"
           },
           {
             "s": "The clip came to stand for \"aura farming\", an internet ____.",
@@ -242,12 +242,12 @@
       },
       "match": [
         {
-          "t": "improvisation",
-          "d": "something done without preparation, as the moment demands"
+          "t": "modest",
+          "d": "not boasting about your own success"
         },
         {
-          "t": "expressionless",
-          "d": "showing no feeling on the face"
+          "t": "improvisation",
+          "d": "something done without preparation, as the moment demands"
         },
         {
           "t": "credit",
@@ -272,9 +272,9 @@
             "a": "effortless"
           },
           {
-            "s": "It is not proof that the phrase is still ____ in every classroom.",
-            "cue": "FASHION",
-            "a": "fashionable"
+            "s": "Neither reading is ____, but only one of them knows what the dance is for.",
+            "cue": "FOOL",
+            "a": "foolish"
           },
           {
             "s": "The minister pointed to the ____ side of the dance.",
@@ -282,30 +282,30 @@
             "a": "practical"
           },
           {
-            "s": "He stands at the front in a ____ outfit with a headcloth.",
-            "cue": "TRADITION",
-            "a": "traditional"
+            "s": "When a local tradition becomes ____ famous, outsiders can choose to learn something from it.",
+            "cue": "NATION",
+            "a": "internationally"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Rayyan said he invented the moves himself.",
+          "s": "The rowers and many online viewers understand the dancer's role differently.",
           "a": "T",
-          "why": "The text says: \"he invented the moves himself\""
+          "why": "The text says: \"For the rowers, the dancer is part of the effort. For millions of viewers, he is a performer displaying effortless cool.\""
         },
         {
-          "s": "The clip proves that the tradition was invented online.",
+          "s": "The rowers came up with the term aura farming.",
           "a": "F",
-          "why": "The text says the opposite: \"not evidence that the tradition was invented online\""
+          "why": "The text says the opposite: \"And \"aura farming\" is a label that internet users attached later.\""
         },
         {
           "s": "Rayyan has appeared in a television advert.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Rayyan has appeared in any advert."
         },
         {
-          "s": "The governor of his province named Rayyan a cultural ambassador.",
+          "s": "The governor of his province gave Rayyan the title of cultural ambassador.",
           "a": "T",
           "why": "The text says: \"He was named a cultural ambassador by the governor of his province\""
         },

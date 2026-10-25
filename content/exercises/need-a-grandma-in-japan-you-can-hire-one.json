@@ -62,19 +62,19 @@
             "a": "started"
           },
           {
-            "s": "Taeko Kaji ____ 69 when she spoke to Australian journalists.",
-            "cue": "be",
-            "a": "was"
+            "s": "Japan ____ an ageing population.",
+            "cue": "have",
+            "a": "has"
           },
           {
-            "s": "She said she ____ going to different places.",
-            "cue": "enjoy",
-            "a": "enjoyed"
+            "s": "She said she enjoyed ____ to different places and trying new experiences.",
+            "cue": "go",
+            "a": "going"
           },
           {
-            "s": "A paid visitor ____ a job, even if they are kind and friendly.",
-            "cue": "do",
-            "a": "is doing"
+            "s": "Customers can ask an older woman ____ a meal.",
+            "cue": "cook",
+            "a": "to cook"
           }
         ]
       },
@@ -87,7 +87,7 @@
         {
           "s": "The service is the largest of its kind in Japan.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how big the service is compared with others."
         },
         {
           "s": "Every worker in the service is a real grandmother.",
@@ -109,8 +109,8 @@
             "a": "pass on"
           },
           {
-            "s": "The business has been running since 2011 and shows no sign of ____.",
-            "a": "winding down"
+            "s": "Families may live far apart, and ____ takes effort that busy people do not always have.",
+            "a": "keeping in touch"
           },
           {
             "s": "Workers may cook or ____ belongings for a customer.",
@@ -130,22 +130,22 @@
           }
         ],
         "extra": [
-          "build up",
+          "accompany",
           "uncomfortable"
         ]
       },
       "match": [
         {
+          "t": "accompany",
+          "d": "go somewhere with another person"
+        },
+        {
           "t": "pass on",
           "d": "give knowledge to somebody else"
         },
         {
-          "t": "wind down",
-          "d": "gradually reduce activity before stopping"
-        },
-        {
-          "t": "build up",
-          "d": "develop gradually over time"
+          "t": "step away from",
+          "d": "stop being involved in something you did before"
         },
         {
           "t": "uncomfortable",
@@ -166,9 +166,9 @@
             "a": "companionship"
           },
           {
-            "s": "Skills built up over decades do not stop being ____.",
-            "cue": "VALUE",
-            "a": "valuable"
+            "s": "Younger adults rarely get the chance to spend ____ time with anyone much older.",
+            "cue": "MEANING",
+            "a": "meaningful"
           },
           {
             "s": "The service attracted attention because of growing social ____.",
@@ -189,19 +189,19 @@
           "why": "The text says the opposite: \"Yet plenty of valuable relationships already involve professional boundaries, including those with teachers, counsellors and care workers, and few people regard those as fake.\""
         },
         {
-          "s": "Taeko Kaji described enjoying the variety the job brings.",
+          "s": "Taeko Kaji liked the variety in her work.",
           "a": "T",
-          "why": "The text says: \"In a 2025 Australian news interview, worker Taeko Kaji described enjoying the variety the job brings.\""
+          "why": "The text says: \"worker Taeko Kaji described enjoying the variety the job brings.\""
         },
         {
           "s": "The service has expanded outside Japan.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the service operates outside Japan."
         },
         {
-          "s": "The company does not claim the workers replace a customer's relatives.",
+          "s": "The company is clear that the workers are not family substitutes.",
           "a": "T",
-          "why": "The text says: \"The women are paid professionals, and the company does not pretend they are substitutes for a customer's relatives.\""
+          "why": "The text says: \"the company does not pretend they are substitutes for a customer's relatives.\""
         }
       ]
     },
@@ -209,28 +209,28 @@
       "gap": {
         "items": [
           {
-            "s": "The expression sounds almost deliberately ____.",
-            "a": "provocative"
-          },
-          {
-            "s": "Something intimate has been ____ like any other service.",
-            "a": "put on the market"
+            "s": "People have always sought support beyond their immediate families, ____ neighbours, mentors and local institutions.",
+            "a": "falling back on"
           },
           {
             "s": "Clients value somebody willing to listen ____.",
             "a": "without judgement"
           },
           {
-            "s": "Those of ____ may find themselves priced out of reassurance.",
-            "a": "limited means"
+            "s": "If reassurance becomes a service to be bought, some people may find themselves ____ something that ought to be freely available.",
+            "a": "priced out of"
           },
           {
             "s": "A visit cannot replicate the ____ of a family relationship.",
             "a": "mutual obligations"
           },
           {
-            "s": "____ the business as social decline would be too easy.",
-            "a": "Writing off"
+            "s": "But ____ the business off as social decline would be too easy.",
+            "a": "writing"
+          },
+          {
+            "s": "Those of ____ may struggle to afford a paid visitor.",
+            "a": "limited means"
           }
         ],
         "extra": [
@@ -241,15 +241,15 @@
       "match": [
         {
           "t": "dwell on",
-          "d": "spend time thinking carefully about something"
+          "d": "think or talk about something for a long time"
         },
         {
-          "t": "write something off",
-          "d": "dismiss something as having no value"
+          "t": "write off",
+          "d": "decide that something is a failure or has no value"
         },
         {
-          "t": "provocative",
-          "d": "deliberately likely to cause argument"
+          "t": "enduring",
+          "d": "lasting for a very long time"
         },
         {
           "t": "accumulated",
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The phrase invites a joke, and coverage has duly ____ one.",
-            "cue": "SUPPLY",
-            "a": "supplied"
+            "s": "The relationship is explicitly professional, even when the experience feels warm and ____.",
+            "cue": "FORM",
+            "a": "informal"
           },
           {
             "s": "The relationship is ____ professional.",
@@ -275,27 +275,27 @@
             "a": "authenticity"
           },
           {
-            "s": "A commercial solution may relieve families of their ____.",
-            "cue": "OBLIGE",
-            "a": "obligations"
+            "s": "Others may value the ____ presence of somebody older who is willing to listen without judgement.",
+            "cue": "ASSURE",
+            "a": "reassuring"
           },
           {
-            "s": "People have always sought wisdom beyond their ____ families.",
-            "cue": "IMMEDIACY",
-            "a": "immediate"
+            "s": "People sought help from neighbours and mentors when relatives were unavailable or ____.",
+            "cue": "SUIT",
+            "a": "unsuitable"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The article says people have always sought support beyond their families.",
+          "s": "The writer notes that people have long relied on neighbours and mentors for support.",
           "a": "T",
-          "why": "The text says: \"People have always sought wisdom and support beyond their immediate families, falling back on neighbours, mentors and local institutions when relatives were unavailable or unsuitable.\""
+          "why": "The text says: \"People have always sought wisdom and support beyond their immediate families, falling back on neighbours, mentors and local institutions\""
         },
         {
-          "s": "The service was set up by Client Partners in 2011.",
+          "s": "Client Partners founded the service in 2011.",
           "a": "T",
-          "why": "The text says: \"Set up by Client Partners in 2011, the service matches customers with women who can provide practical assistance, companionship and accumulated life experience.\""
+          "why": "The text says: \"Set up by Client Partners in 2011, the service matches customers with women who can provide practical assistance\""
         },
         {
           "s": "The writer concludes the business proves society is in decline.",
@@ -305,7 +305,7 @@
         {
           "s": "Most customers of the service are under forty.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not give the ages of the customers."
         }
       ]
     }

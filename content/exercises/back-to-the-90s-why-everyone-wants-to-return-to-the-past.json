@@ -62,9 +62,9 @@
             "a": "opened"
           },
           {
-            "s": "Music from the period ____ everywhere from shops to social media.",
+            "s": "Old trainers and film cameras are ____ everywhere, from fashion shops to social media.",
             "cue": "appear",
-            "a": "is appearing"
+            "a": "appearing"
           },
           {
             "s": "People ____ to albums on CD players and waited to see their photographs.",
@@ -85,19 +85,19 @@
           "why": "The text says the opposite: \"Baggy jeans and 1990s bands are popular again, often with people who were not alive when they first appeared.\""
         },
         {
-          "s": "Tate Britain opened an exhibition about the 1990s in October 2026.",
+          "s": "The Tate Britain exhibition is about art and fashion from the 1990s.",
           "a": "T",
           "why": "The text says: \"In October 2026, Tate Britain in London opened an exhibition about art and fashion from the 1990s.\""
         },
         {
-          "s": "The 1990s also had wars, discrimination and financial worries.",
+          "s": "The 1990s had some serious problems.",
           "a": "T",
           "why": "The text says: \"The 1990s had problems too, including wars, discrimination and financial worries.\""
         },
         {
           "s": "Sales of film cameras doubled in Britain in 2026.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text gives no sales figures for film cameras."
         }
       ]
     },
@@ -113,8 +113,8 @@
             "a": "old-fashioned"
           },
           {
-            "s": "Fashion ____, so an old look returns every few decades.",
-            "a": "moves in cycles"
+            "s": "Objects once replaced by newer inventions now seem ____ again.",
+            "a": "worth using"
           },
           {
             "s": "The pressure to ____ everyone else rarely gives us a moment's peace.",
@@ -141,7 +141,7 @@
         },
         {
           "t": "keep up with",
-          "d": "stay level with other people or with change"
+          "d": "manage to stay at the same pace as others"
         },
         {
           "t": "grow up",
@@ -156,9 +156,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "Music came on ____ albums rather than files.",
-            "cue": "PHYSICS",
-            "a": "physical"
+            "s": "Many people buying 90s clothes have no ____ memories of the period.",
+            "cue": "PERSON",
+            "a": "personal"
           },
           {
             "s": "To a generation raised online, that sounds like a form of ____.",
@@ -184,22 +184,22 @@
       },
       "tfn": [
         {
-          "s": "The AIDS crisis affected millions of lives during the decade.",
+          "s": "The 1990s were affected by serious problems such as the AIDS crisis.",
           "a": "T",
           "why": "The text says: \"Wars, discrimination and the AIDS crisis affected millions of lives.\""
         },
         {
-          "s": "Some people buying 1990s clothes have no personal memory of the decade.",
+          "s": "Not everyone who buys 90s clothes remembers the decade.",
           "a": "T",
           "why": "The text says: \"Plenty of the people buying 90s clothes or listening to Britpop have no personal memories of the period.\""
         },
         {
           "s": "CD sales have overtaken streaming among younger listeners.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text gives no sales figures for CDs or streaming."
         },
         {
-          "s": "The article says the 1990s were a simpler world for everybody.",
+          "s": "The 1990s were a simpler world for everybody.",
           "a": "F",
           "why": "The text says the opposite: \"The decade was not a simpler world for everyone.\""
         }
@@ -221,21 +221,21 @@
             "a": "grainy"
           },
           {
-            "s": "Any claim that the era was ____ is difficult to sustain.",
+            "s": "Enjoying an old camera does not require pretending the decade was ____.",
             "a": "carefree"
           },
           {
-            "s": "Revivals that ____ those realities reduce a decade to a mood board.",
-            "a": "gloss over"
+            "s": "Fashion regularly ____ earlier periods, stripping familiar objects of their original associations.",
+            "a": "borrows from"
           },
           {
-            "s": "Freedom from surveillance ____ slower communication for many people.",
-            "a": "came at the cost of"
+            "s": "For younger people, the 1990s are ____ a remembered past as an imagined alternative.",
+            "a": "not so much"
           }
         ],
         "extra": [
-          "contested",
-          "turn into"
+          "conceal",
+          "urgent"
         ]
       },
       "match": [
@@ -244,8 +244,8 @@
           "d": "begin to have a particular quality or meaning"
         },
         {
-          "t": "gloss over",
-          "d": "avoid dealing with an awkward fact"
+          "t": "conceal",
+          "d": "hide something so that it cannot be seen"
         },
         {
           "t": "contested",
@@ -270,7 +270,7 @@
             "a": "associations"
           },
           {
-            "s": "The decade also contained economic ____ and cultural exclusions.",
+            "s": "The 1990s brought memorable music, but also ____, discrimination and war.",
             "cue": "EQUAL",
             "a": "inequality"
           },
@@ -280,15 +280,15 @@
             "a": "representation"
           },
           {
-            "s": "Looking closely at their work ____ the idea that the period was innocent.",
-            "cue": "COMPLEX",
-            "a": "complicates"
+            "s": "Some people feel ____ to change aspects of modern living.",
+            "cue": "POWER",
+            "a": "powerless"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The Tate exhibition was curated by Edward Enninful.",
+          "s": "Edward Enninful was the curator of Tate's 1990s exhibition.",
           "a": "T",
           "why": "The text says: \"Tate's exhibition, curated by Edward Enninful, offers an opportunity to revisit the decade as a contested cultural moment rather than a collection of fashionable accessories.\""
         },
@@ -298,14 +298,14 @@
           "why": "The text says the opposite: \"Looking closely at their work complicates the idea that the period was simply more innocent or authentic.\""
         },
         {
-          "s": "Digital technology has turned attention into a valuable commodity.",
+          "s": "Attention has become something valuable because of digital technology.",
           "a": "T",
           "why": "The text says: \"Digital technology has delivered remarkable convenience, but it has also turned attention into a valuable commodity.\""
         },
         {
           "s": "The exhibition sold out within a week of opening.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how well the exhibition sold."
         }
       ]
     }

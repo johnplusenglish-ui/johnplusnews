@@ -21,13 +21,13 @@
             "a": "disappointing"
           },
           {
-            "s": "Nobody needs a collectible to ____.",
-            "a": "belong"
+            "s": "In the UK, the company stopped some ____ for a time.",
+            "a": "sales"
           }
         ],
         "extra": [
           "version",
-          "stories"
+          "symbol"
         ]
       },
       "match": [
@@ -57,7 +57,7 @@
             "a": "wrote"
           },
           {
-            "s": "The books ____ inspired by Nordic myths.",
+            "s": "The three books ____ drawn by the artist Kasing Lung.",
             "cue": "be",
             "a": "were"
           },
@@ -67,14 +67,14 @@
             "a": "made"
           },
           {
-            "s": "Fans ____ the toys to bags, belts and backpacks.",
-            "cue": "clip",
-            "a": "clipped"
+            "s": "You buy it without ____ which version of a toy is inside.",
+            "cue": "know",
+            "a": "knowing"
           },
           {
-            "s": "Nobody ____ a Labubu to belong.",
-            "cue": "need",
-            "a": "needs"
+            "s": "A Pop Mart manager ____ the toy a \"collectible and style symbol\".",
+            "cue": "call",
+            "a": "called"
           }
         ]
       },
@@ -100,9 +100,9 @@
           "why": "The text says the opposite: \"It isn't a report about what teenagers buy today\""
         },
         {
-          "s": "Labubu toys are sold in every country.",
+          "s": "Kasing Lung also made a cartoon about Labubu.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Lung made a cartoon."
         }
       ]
     },
@@ -146,11 +146,11 @@
         },
         {
           "t": "celebrities",
-          "d": "very famous people"
+          "d": "people who are famous, such as singers and actors"
         },
         {
-          "t": "mythology",
-          "d": "old stories about gods and heroes"
+          "t": "attached",
+          "d": "fixed or joined to something"
         }
       ],
       "grammar": {
@@ -162,9 +162,9 @@
             "a": "appeared"
           },
           {
-            "s": "In 2019, Lung ____ a deal with Pop Mart.",
-            "cue": "sign",
-            "a": "signed"
+            "s": "Celebrities were ____ with them.",
+            "cue": "photograph",
+            "a": "photographed"
           },
           {
             "s": "In 2023, Pop Mart ____ selling Labubu plush toys on key rings.",
@@ -172,9 +172,9 @@
             "a": "started"
           },
           {
-            "s": "Resellers ____ high markups.",
-            "cue": "charge",
-            "a": "charged"
+            "s": "Collecting can be a pleasure, but you don't ____ a particular item to belong.",
+            "cue": "need",
+            "a": "need"
           },
           {
             "s": "AP ____ that many buyers were adults.",
@@ -195,9 +195,9 @@
           "why": "The text says the opposite: \"The character first appeared in 2015 in three picture books by the artist Kasing Lung\""
         },
         {
-          "s": "Most Labubu products cost between $20 and $300.",
+          "s": "Most Labubu products cost between $20 and $300 in 2025.",
           "a": "T",
-          "why": "The text says: \"Most products cost between $20 and $300, and limited editions cost more.\""
+          "why": "The text says: \"AP said most products cost between $20 and $300 in 2025, and limited editions cost more.\""
         },
         {
           "s": "AP's story shows what teenagers in your country buy now.",
@@ -227,17 +227,17 @@
             "a": "supply"
           },
           {
-            "s": "It would be easy to turn this into a story about ____.",
-            "a": "manipulation"
+            "s": "In late May 2025, Pop Mart temporarily ____ its in-store and blind-box machine sales there.",
+            "a": "suspended"
           },
           {
-            "s": "Many collectors enjoy the surprise ____.",
-            "a": "knowingly"
+            "s": "For some buyers, the moment of opening is the real product, and the toy is almost a ____.",
+            "a": "bonus"
           }
         ],
         "extra": [
-          "bonus",
-          "executive"
+          "executive",
+          "format"
         ]
       },
       "match": [
@@ -246,28 +246,28 @@
           "d": "the particular style or look of something"
         },
         {
-          "t": "incentives",
-          "d": "reasons that encourage people to act in a certain way"
-        },
-        {
           "t": "markups",
           "d": "extra amounts added to a price to make a profit"
         },
         {
           "t": "executive",
           "d": "a senior person in a company"
+        },
+        {
+          "t": "quirky",
+          "d": "unusual in an interesting or attractive way"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "Many ____ were adults, often buying for themselves.",
-            "cue": "BUY",
-            "a": "buyers"
+            "s": "The ____ of the opening is the thing some buyers are paying for.",
+            "cue": "PLEASE",
+            "a": "pleasure"
           },
           {
-            "s": "Many ____ enjoy the surprise knowingly.",
+            "s": "A seller can benefit when ____ buy again to complete a set.",
             "cue": "COLLECT",
             "a": "collectors"
           },
@@ -277,14 +277,14 @@
             "a": "profitable"
           },
           {
-            "s": "A ____ whose toys are hidden in a box benefits when people buy again.",
-            "cue": "SELL",
-            "a": "seller"
+            "s": "AP's account of the buyers is more ____ than the celebrity details.",
+            "cue": "INTEREST",
+            "a": "interesting"
           },
           {
-            "s": "A more ____ question is about incentives.",
-            "cue": "CARE",
-            "a": "careful"
+            "s": "That does not tell us how every ____ feels about the deal.",
+            "cue": "CUSTOM",
+            "a": "customer"
           }
         ]
       },
@@ -295,9 +295,9 @@
           "why": "The text says: \"In June 2025, the Associated Press published a story about the best-known example, Labubu.\""
         },
         {
-          "s": "The text says AP's report shows that blind boxes make people overspend.",
+          "s": "The deal between Lung and Pop Mart was signed in 2023.",
           "a": "F",
-          "why": "The text says the opposite: \"Nothing in AP's report shows that blind boxes make people spend more than they planned\""
+          "why": "The text says the opposite: \"In 2019 he signed a deal with the Chinese company Pop Mart\""
         },
         {
           "s": "According to AP, at least one fight happened at a shopping centre in the UK.",
@@ -305,9 +305,9 @@
           "why": "The text says: \"according to AP, at least one fight at a shopping centre in the UK\""
         },
         {
-          "s": "The text says the information comes mainly from teenagers.",
+          "s": "The information in the story comes mainly from teenagers.",
           "a": "F",
-          "why": "The text says the opposite: \"not from teenagers\""
+          "why": "The text says the opposite: \"its information comes from the company, its customers and market research on adult buyers, not from teenagers\""
         },
         {
           "s": "Labubu is more popular than any other toy.",
@@ -315,7 +315,7 @@
           "why": "Not stated. This version does not give this information."
         },
         {
-          "s": "A blind box can be fun and profitable at the same time.",
+          "s": "The blind-box format can be enjoyable and also make money for sellers.",
           "a": "T",
           "why": "The text says: \"The format can be fun and profitable at the same time.\""
         }

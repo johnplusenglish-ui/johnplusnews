@@ -5,7 +5,7 @@
       "gap": {
         "items": [
           {
-            "s": "For years, ____ when Canadians crossed the border.",
+            "s": "Visiting the United States was simple, and for years ____.",
             "a": "nobody thought twice about it"
           },
           {
@@ -27,7 +27,7 @@
         ],
         "extra": [
           "stay away",
-          "nervous"
+          "welcome"
         ]
       },
       "match": [
@@ -36,12 +36,12 @@
           "d": "avoid going to a place"
         },
         {
-          "t": "cut back on",
-          "d": "reduce the amount of something you do"
+          "t": "rely on",
+          "d": "need something or somebody in order to work well"
         },
         {
-          "t": "nervous",
-          "d": "worried about what might happen"
+          "t": "cut back on",
+          "d": "reduce the amount of something you do"
         },
         {
           "t": "welcome",
@@ -62,14 +62,14 @@
             "a": "made"
           },
           {
-            "s": "Relations between the two countries ____ more difficult.",
-            "cue": "become",
-            "a": "became"
+            "s": "The people who pay first ____ often the ones with the least power.",
+            "cue": "be",
+            "a": "are"
           },
           {
-            "s": "In September 2026, reports ____ tourist organisations offering discounts.",
-            "cue": "describe",
-            "a": "described"
+            "s": "In September 2026, reports described tourist organisations ____ discounts and special deals.",
+            "cue": "offer",
+            "a": "offering"
           },
           {
             "s": "Travel is usually ____ as a way of bringing people together.",
@@ -92,7 +92,7 @@
         {
           "s": "Canadian visits have begun to rise again.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Canadian visits have begun to rise again."
         },
         {
           "s": "Reports in September 2026 described discounts aimed at Canadians.",
@@ -117,7 +117,7 @@
             "a": "weigh on their decisions"
           },
           {
-            "s": "Critics call a consumer boycott ____.",
+            "s": "Critics call avoiding a destination ____.",
             "a": "a blunt instrument"
           },
           {
@@ -136,8 +136,8 @@
       },
       "match": [
         {
-          "t": "roll something out",
-          "d": "introduce a plan across many places"
+          "t": "roll out",
+          "d": "start offering a new product or plan widely"
         },
         {
           "t": "a blunt instrument",
@@ -156,14 +156,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "A short drive once made an American trip feel entirely ____.",
-            "cue": "ROUTE",
-            "a": "routine"
+            "s": "Closeness, a shared language and a sense of ____ made an American trip the obvious default.",
+            "cue": "FAMILIAR",
+            "a": "familiarity"
           },
           {
-            "s": "Some travellers object to political ____ or trade policies.",
-            "cue": "RHETORICAL",
-            "a": "rhetoric"
+            "s": "That is only an ____, and nobody can yet say whether habits have changed for good.",
+            "cue": "INTERPRET",
+            "a": "interpretation"
           },
           {
             "s": "Avoiding a destination can be a peaceful form of political ____.",
@@ -171,14 +171,14 @@
             "a": "expression"
           },
           {
-            "s": "Personal and economic ____ have built up over generations.",
-            "cue": "CONNECT",
-            "a": "connections"
+            "s": "A ____ between governments can affect ordinary families.",
+            "cue": "AGREE",
+            "a": "disagreement"
           },
           {
-            "s": "Holidays never take place in ____ from politics.",
-            "cue": "ISOLATE",
-            "a": "isolation"
+            "s": "Changing travel patterns can affect a ____ relationship that once looked secure.",
+            "cue": "COMMERCE",
+            "a": "commercial"
           }
         ]
       },
@@ -191,15 +191,15 @@
         {
           "s": "Canadian airlines have cut flights to the United States.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Canadian airlines have cut flights."
         },
         {
           "s": "The writer says winning customers back may take longer than losing them.",
           "a": "T",
-          "why": "The text says: \"Tourism organisations are likely to find that winning customers back takes considerably longer than losing them did.\""
+          "why": "The text says: \"Tourism organisations may find that winning customers back takes longer than losing them did.\""
         },
         {
-          "s": "Some Canadians chose to holiday in Mexico or within Canada instead.",
+          "s": "Some Canadians chose to holiday within Canada or in another country instead.",
           "a": "T",
           "why": "The text says: \"A number have chosen to holiday within Canada or head somewhere else entirely, which suggests the money has not disappeared so much as moved.\""
         }
@@ -240,39 +240,39 @@
       },
       "match": [
         {
-          "t": "take something for granted",
-          "d": "assume something will always be there"
-        },
-        {
           "t": "negligible",
           "d": "too small to be worth considering"
         },
         {
-          "t": "move on",
-          "d": "stop giving attention to something"
+          "t": "take for granted",
+          "d": "believe something will always stay the same, without valuing it"
         },
         {
           "t": "habitual",
           "d": "done regularly without thinking"
+        },
+        {
+          "t": "move on",
+          "d": "stop giving attention to something"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "Political friction has shown how ____ consumer confidence can be.",
-            "cue": "FRAGILITY",
-            "a": "fragile"
+            "s": "Cross-border tourism rested on ____ proximity, family connections and familiarity.",
+            "cue": "GEOGRAPHY",
+            "a": "geographic"
           },
           {
-            "s": "The impact was most ____ in businesses with Canadian customers.",
-            "cue": "CONSPICUOUSLY",
-            "a": "conspicuous"
+            "s": "Promotions followed a ____ decline in Canadian travel.",
+            "cue": "SUBSTANCE",
+            "a": "substantial"
           },
           {
-            "s": "Such trips were ____ rather than deliberate.",
-            "cue": "HABIT",
-            "a": "habitual"
+            "s": "Travellers can register ____ through their spending without attending a demonstration.",
+            "cue": "SATISFY",
+            "a": "dissatisfaction"
           },
           {
             "s": "Economic ____ raises the cost of a quarrel.",
@@ -300,7 +300,7 @@
         {
           "s": "Canadian visits fell by a third in 2026.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not give a figure for the fall in Canadian visits."
         },
         {
           "s": "The article says the immediate consequences fall on workers and small firms.",

@@ -9,7 +9,7 @@
             "a": "the middle of the night"
           },
           {
-            "s": "Some couples choose separate beds so they can ____.",
+            "s": "Some couples sleep in different beds so they can ____ and feel rested.",
             "a": "get a good night's sleep"
           },
           {
@@ -52,14 +52,14 @@
         "kind": "verb",
         "items": [
           {
-            "s": "They try ____ the pillow, but nothing helps.",
+            "s": "They try ____ the pillow and turning over.",
             "cue": "move",
             "a": "moving"
           },
           {
-            "s": "People sometimes ____ this a sleep divorce.",
-            "cue": "call",
-            "a": "call"
+            "s": "Although nobody ____ the relationship, people call it a sleep divorce.",
+            "cue": "end",
+            "a": "is ending"
           },
           {
             "s": "In 2025, a survey ____ that separate sleeping was fairly common.",
@@ -67,9 +67,9 @@
             "a": "suggested"
           },
           {
-            "s": "If a couple ____ to sleep apart, they can still share evenings.",
-            "cue": "decide",
-            "a": "decides"
+            "s": "If a couple decides ____ apart, they can still share evenings.",
+            "cue": "sleep",
+            "a": "to sleep"
           },
           {
             "s": "Nobody ____ to snore loudly.",
@@ -87,7 +87,7 @@
         {
           "s": "Most couples who try separate rooms go back to sharing.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether couples who try separate rooms go back to sharing."
         },
         {
           "s": "Couples who sleep separately have not ended their relationship.",
@@ -95,7 +95,7 @@
           "why": "The text says: \"People sometimes call this a sleep divorce, although nobody is ending the relationship.\""
         },
         {
-          "s": "Different blankets might help couples with different preferences.",
+          "s": "Using different blankets is one way couples might solve a problem.",
           "a": "T",
           "why": "The text says: \"Different blankets might help.\""
         }
@@ -109,7 +109,7 @@
             "a": "turn into"
           },
           {
-            "s": "Somebody who sleeps peacefully may become less ____.",
+            "s": "A well-rested person is less likely to feel ____ or snap at a partner.",
             "a": "irritable"
           },
           {
@@ -137,7 +137,7 @@
       "match": [
         {
           "t": "put up with",
-          "d": "accept something unpleasant"
+          "d": "accept something annoying and not try to change it"
         },
         {
           "t": "cut down on",
@@ -171,7 +171,7 @@
             "a": "assessment"
           },
           {
-            "s": "Moving rooms may not address a ____ problem such as sleep apnoea.",
+            "s": "There are ____ issues to consider.",
             "cue": "MEDICINE",
             "a": "medical"
           },
@@ -186,12 +186,12 @@
         {
           "s": "Younger couples are more likely to sleep apart.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say which age groups are more likely to sleep apart."
         },
         {
-          "s": "The 2025 survey was carried out by the American Academy of Sleep Medicine.",
+          "s": "The survey in the report came from an American sleep medicine organisation.",
           "a": "T",
-          "why": "The text says: \"A 2025 report discussing a survey carried out by the American Academy of Sleep Medicine suggested that sleeping separately was relatively common among US adults.\""
+          "why": "The text says: \"a survey carried out by the American Academy of Sleep Medicine\""
         },
         {
           "s": "The figures prove that separate bedrooms make couples happier.",
@@ -199,7 +199,7 @@
           "why": "The text says the opposite: \"The figures describe reported behaviour, not proof that separate bedrooms produce happier relationships.\""
         },
         {
-          "s": "Separate bedrooms are not an option for everybody.",
+          "s": "Some couples cannot sleep in separate rooms.",
           "a": "T",
           "why": "The text says: \"Separate bedrooms are not an option for everybody.\""
         }
@@ -209,16 +209,16 @@
       "gap": {
         "items": [
           {
-            "s": "The real problem may be a partner who ____ most of the mattress.",
-            "a": "takes up"
+            "s": "The other partner ____ clinging to the edge of the mattress.",
+            "a": "ends up"
           },
           {
-            "s": "A 2025 survey suggested the practice was ____.",
+            "s": "Reporting on the survey suggested that the practice was ____, rather than unusual.",
             "a": "far from exceptional"
           },
           {
-            "s": "There is ____ sleeping apart.",
-            "a": "a plausible argument in favour of"
+            "s": "There is ____ in its favour.",
+            "a": "a plausible argument"
           },
           {
             "s": "The underlying cause should not be ____.",
@@ -229,7 +229,7 @@
             "a": "have a say"
           },
           {
-            "s": "Physical proximity should not be ____.",
+            "s": "Couples should avoid making physical proximity ____.",
             "a": "the sole measure of affection"
           }
         ],
@@ -240,8 +240,8 @@
       },
       "match": [
         {
-          "t": "take up",
-          "d": "occupy an amount of space"
+          "t": "imposed",
+          "d": "forced on people whether they agree to it or not"
         },
         {
           "t": "brush aside",
@@ -260,14 +260,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "A shared bed is a symbol of a ____ relationship.",
-            "cue": "COMMIT",
-            "a": "committed"
+            "s": "Even separate beds may be ____.",
+            "cue": "PRACTICAL",
+            "a": "impractical"
           },
           {
-            "s": "The problem may be snoring or ____ schedules.",
-            "cue": "COMPATIBLE",
-            "a": "incompatible"
+            "s": "Physical closeness can also be ____.",
+            "cue": "ASSURE",
+            "a": "reassuring"
           },
           {
             "s": "Chronic sleep ____ can affect mood and attention.",
@@ -295,17 +295,17 @@
         {
           "s": "Sleep clinics now advise separate bedrooms for snorers.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention sleep clinics or what they advise."
         },
         {
-          "s": "Separate rooms require space that many couples do not have.",
+          "s": "Many couples do not have enough room to sleep apart.",
           "a": "T",
           "why": "The text says: \"Separate rooms require space that many couples, particularly those facing high rents or crowded housing, simply do not have.\""
         },
         {
-          "s": "The article presents separate rooms as the ideal arrangement.",
+          "s": "A separate-bedroom arrangement is the same whether one partner imposes it or both discuss it.",
           "a": "F",
-          "why": "The text says the opposite: \"Separate rooms require space that many couples, particularly those facing high rents or crowded housing, simply do not have.\""
+          "why": "The text says the opposite: \"Separate bedrooms imposed by one person are different from a decision discussed openly, with closeness maintained in other ways.\""
         }
       ]
     }

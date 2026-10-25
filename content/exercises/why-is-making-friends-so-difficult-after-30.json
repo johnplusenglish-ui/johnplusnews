@@ -87,7 +87,7 @@
         {
           "s": "Loneliness only affects people over thirty.",
           "a": "F",
-          "why": "The text says the opposite: \"In 2025, the World Health Organization reported that about one in six people worldwide experienced loneliness.\""
+          "why": "The text says the opposite: \"So difficulty with friendship is not only a problem after 30.\""
         },
         {
           "s": "Someone can feel lonely while living with other people.",
@@ -97,7 +97,7 @@
         {
           "s": "Most new friendships begin at work.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say where most new friendships begin."
         }
       ]
     },
@@ -105,8 +105,8 @@
       "gap": {
         "items": [
           {
-            "s": "Those early friendships often begin ____.",
-            "a": "almost by accident"
+            "s": "The number of contacts in an app tells us little about whether somebody has anyone to ____ in a difficult week.",
+            "a": "fall back on"
           },
           {
             "s": "A friendship that once involved ____ evenings now needs planning.",
@@ -130,8 +130,8 @@
           }
         ],
         "extra": [
-          "fall back on",
-          "content"
+          "content",
+          "crowded calendars"
         ]
       },
       "match": [
@@ -148,8 +148,8 @@
           "d": "quietly satisfied with how things are"
         },
         {
-          "t": "fall back on",
-          "d": "rely on somebody when you need support"
+          "t": "reshape",
+          "d": "change the pattern or form of something"
         }
       ],
       "grammar": {
@@ -161,9 +161,9 @@
             "a": "connection"
           },
           {
-            "s": "The findings challenged a common ____ about older people.",
-            "cue": "STEREOTYPICAL",
-            "a": "stereotype"
+            "s": "In adult life, those opportunities are less ____.",
+            "cue": "PREDICT",
+            "a": "predictable"
           },
           {
             "s": "Loneliness and social ____ are different things.",
@@ -196,12 +196,12 @@
         {
           "s": "Loneliness has increased since the pandemic.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether loneliness has risen since the pandemic."
         },
         {
-          "s": "Voice messages and video calls help relationships survive long distances.",
+          "s": "Video calls can help friendships last through moves abroad.",
           "a": "T",
-          "why": "The text says: \"Voice messages and video calls allow relationships to survive international moves, irregular work schedules and long periods without meeting.\""
+          "why": "The text says: \"Voice messages and video calls allow relationships to survive international moves\""
         }
       ]
     },
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "Modern routines make ____ connection remarkably demanding.",
-            "cue": "SUSTAIN",
-            "a": "sustained"
+            "s": "Adult friendship has a ____ problem.",
+            "cue": "LOGISTICS",
+            "a": "logistical"
           },
           {
             "s": "Professional commitments and geographical ____ reshape networks.",
@@ -275,9 +275,9 @@
             "a": "underestimate"
           },
           {
-            "s": "Another person may lack somebody with whom they can be ____.",
-            "cue": "VULNERABILITY",
-            "a": "vulnerable"
+            "s": "Making room for regular contact and accepting occasional ____ may matter more than charm.",
+            "cue": "AWKWARD",
+            "a": "awkwardness"
           },
           {
             "s": "Expensive transport and ____ venues limit opportunities.",
@@ -288,7 +288,7 @@
       },
       "tfn": [
         {
-          "s": "The article distinguishes loneliness from social isolation.",
+          "s": "The writer separates the feeling of loneliness from a lack of social contact.",
           "a": "T",
           "why": "The text says: \"It is also important to distinguish loneliness from social isolation.\""
         },
@@ -298,14 +298,14 @@
           "why": "The text says the opposite: \"The solution is not necessarily to become more outgoing.\""
         },
         {
-          "s": "The WHO report estimated loneliness at about one in six people.",
+          "s": "The WHO estimate suggests roughly one person in six is lonely.",
           "a": "T",
-          "why": "The text says: \"A 2025 World Health Organization report estimated that approximately one in six people worldwide experienced loneliness.\""
+          "why": "The text says: \"estimated that approximately one in six people worldwide experienced loneliness.\""
         },
         {
           "s": "Community funding for social spaces has been cut.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether community funding for social spaces has changed."
         }
       ]
     }

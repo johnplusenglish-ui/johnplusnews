@@ -17,7 +17,7 @@
             "a": "fit into"
           },
           {
-            "s": "Short walks and ____ can add up.",
+            "s": "A short walk to the shops, ____ or meeting a friend outdoors can all help.",
             "a": "taking the stairs"
           },
           {
@@ -62,9 +62,9 @@
             "a": "published"
           },
           {
-            "s": "It ____ 57 studies about daily steps.",
-            "cue": "examine",
-            "a": "examined"
+            "s": "Your watch says you ____ 8,000 steps today.",
+            "cue": "walk",
+            "a": "have walked"
           },
           {
             "s": "Walking 7,000 steps a day ____ with important health benefits.",
@@ -82,7 +82,7 @@
         {
           "s": "The review proved that 7,000 steps prevent illness.",
           "a": "F",
-          "why": "The text says the opposite: \"The review found that walking around 7,000 steps per day was linked with important health benefits compared with much lower activity levels.\""
+          "why": "The text says the opposite: \"The study also looked mainly at links between steps and health, rather than proving that one exact number prevents illness.\""
         },
         {
           "s": "The 10,000-step idea became popular through a Japanese product.",
@@ -92,7 +92,7 @@
         {
           "s": "Most watch owners reach 10,000 steps a day.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many watch owners reach 10,000 steps."
         },
         {
           "s": "Step totals cannot show how hard somebody is working.",
@@ -130,8 +130,8 @@
           }
         ],
         "extra": [
-          "demanding",
-          "arbitrary"
+          "arbitrary",
+          "comparable"
         ]
       },
       "match": [
@@ -140,12 +140,12 @@
           "d": "suddenly become very popular"
         },
         {
-          "t": "leave something out",
-          "d": "fail to include something important"
-        },
-        {
           "t": "arbitrary",
           "d": "chosen without a clear reason"
+        },
+        {
+          "t": "leave out",
+          "d": "fail to include something important"
         },
         {
           "t": "demanding",
@@ -184,14 +184,14 @@
       },
       "tfn": [
         {
-          "s": "The studies largely observed activity and later health outcomes.",
+          "s": "Most of the studies watched people's activity and what happened to their health afterwards.",
           "a": "T",
-          "why": "The text says: \"The studies largely observed people's activity and subsequent health outcomes, so they cannot establish that walking alone caused every difference.\""
+          "why": "The text says: \"The studies largely observed people's activity and subsequent health outcomes\""
         },
         {
           "s": "Fitness watches will be updated to show the new target.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention any plan to update fitness watches."
         },
         {
           "s": "The review says everybody should stop moving after 7,000 steps.",
@@ -213,8 +213,8 @@
             "a": "five figures"
           },
           {
-            "s": "Subsequent research has ____ determine how steps relate to health.",
-            "a": "set out to"
+            "s": "They simply ____ presenting any single number as a substitute for individually appropriate exercise.",
+            "a": "caution against"
           },
           {
             "s": "Several relationships showed ____ beyond about 7,000 steps.",
@@ -240,34 +240,34 @@
       },
       "match": [
         {
-          "t": "set out to",
-          "d": "begin something with a clear aim"
-        },
-        {
-          "t": "rule something out",
-          "d": "decide something is not a possibility"
-        },
-        {
           "t": "observational",
           "d": "based on watching rather than experimenting"
         },
         {
+          "t": "rule out",
+          "d": "decide that something is not possible"
+        },
+        {
           "t": "exclusionary",
           "d": "leaving certain people out"
+        },
+        {
+          "t": "counterproductive",
+          "d": "having the opposite effect to the one you wanted"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "The figure proved ____ and motivational.",
-            "cue": "MEMORY",
-            "a": "memorable"
+            "s": "The attraction of a single target is that it simplifies a complicated subject into something ____.",
+            "cue": "MEASURE",
+            "a": "measurable"
           },
           {
-            "s": "It was not a ____ calculation identifying a safe limit.",
-            "cue": "CLINIC",
-            "a": "clinical"
+            "s": "There is an additional ____ issue with treating step totals as a complete representation of exercise.",
+            "cue": "METHOD",
+            "a": "methodological"
           },
           {
             "s": "A pedometer gives limited information about muscle ____.",
@@ -293,19 +293,19 @@
           "why": "The text says the opposite: \"This is a relative comparison from observational evidence, not a promise that adding 5,000 steps will reduce an individual's risk by exactly that amount.\""
         },
         {
-          "s": "Healthier participants may be able to take more steps because they are healthier.",
+          "s": "People in better health may walk more partly because of that better health.",
           "a": "T",
           "why": "The text says: \"Healthier participants may be capable of taking more steps partly because they are already healthier.\""
         },
         {
-          "s": "The review included 57 studies, with 31 in specific meta-analyses.",
+          "s": "Only some of the reviewed studies fed into specific meta-analyses.",
           "a": "T",
-          "why": "The text says: \"A systematic review published in The Lancet Public Health in July 2025 included 57 studies, with 31 contributing to specific meta-analyses.\""
+          "why": "The text says: \"included 57 studies, with 31 contributing to specific meta-analyses.\""
         },
         {
           "s": "The authors recommend replacing step targets with activity minutes.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the authors suggest activity minutes instead of steps."
         }
       ]
     }

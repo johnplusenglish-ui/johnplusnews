@@ -21,8 +21,8 @@
             "a": "in advance"
           },
           {
-            "s": "____ for everybody.",
-            "a": "There is no magic solution"
+            "s": "Short breaks may help some people, but there is no ____ for everybody.",
+            "a": "magic solution"
           }
         ],
         "extra": [
@@ -62,9 +62,9 @@
             "a": "uses"
           },
           {
-            "s": "The study ____ 28 people.",
-            "cue": "involve",
-            "a": "involved"
+            "s": "Imagine ____ home hungry after a busy day.",
+            "cue": "arrive",
+            "a": "arriving"
           },
           {
             "s": "Feeling exhausted for weeks should not ____ on a busy day.",
@@ -72,9 +72,9 @@
             "a": "be blamed"
           },
           {
-            "s": "A busy mind can feel tired even when the body ____ all day.",
-            "cue": "sit",
-            "a": "has been sitting"
+            "s": "Participants were less willing ____ a task that needed more mental effort.",
+            "cue": "choose",
+            "a": "to choose"
           }
         ]
       },
@@ -90,14 +90,14 @@
           "why": "The text says: \"Stress, poor sleep, illness and many other things can also cause tiredness.\""
         },
         {
-          "s": "The 2025 study involved 28 participants.",
+          "s": "Mental tiredness can make everyday choices feel surprisingly important.",
           "a": "T",
-          "why": "The text says: \"The study involved 28 people, so we should not treat it as an explanation for all tiredness.\""
+          "why": "The text says: \"Mental tiredness can also make ordinary choices feel surprisingly important.\""
         },
         {
           "s": "Mental fatigue affects younger people more than older ones.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether younger or older people are more affected."
         }
       ]
     },
@@ -121,7 +121,7 @@
             "a": "run out of"
           },
           {
-            "s": "Ordinary tiredness may become ____ if it persists.",
+            "s": "A sudden change in how tired you feel may be ____ that something else is wrong.",
             "a": "a warning sign"
           },
           {
@@ -130,15 +130,11 @@
           }
         ],
         "extra": [
-          "use up",
-          "persistent"
+          "persistent",
+          "cognitive"
         ]
       },
       "match": [
-        {
-          "t": "wear out",
-          "d": "make somebody extremely tired"
-        },
         {
           "t": "run out of",
           "d": "have no more of something left"
@@ -148,8 +144,12 @@
           "d": "continuing for a long time without stopping"
         },
         {
-          "t": "use something up",
-          "d": "finish the whole supply of something"
+          "t": "diagnose",
+          "d": "identify what illness or problem a person has"
+        },
+        {
+          "t": "drained",
+          "d": "having no energy left"
         }
       ],
       "grammar": {
@@ -171,9 +171,9 @@
             "a": "imaging"
           },
           {
-            "s": "Persistent tiredness has many possible causes, including psychological ____.",
-            "cue": "DISTRESSING",
-            "a": "distress"
+            "s": "The researchers studied how mental ____ might influence the value people attach to future effort.",
+            "cue": "EXERT",
+            "a": "exertion"
           },
           {
             "s": "The real problem may be ____ demands or poor sleep.",
@@ -186,12 +186,12 @@
         {
           "s": "A larger follow-up study is under way.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention any follow-up study."
         },
         {
-          "s": "The study appeared in the Journal of Neuroscience in 2025.",
+          "s": "The study was reported in 2025 in a neuroscience journal.",
           "a": "T",
-          "why": "The text says: \"In a 2025 Journal of Neuroscience study, 28 participants performed demanding tasks before making decisions about further mental effort and possible rewards.\""
+          "why": "The text says: \"In a 2025 Journal of Neuroscience study, 28 participants performed demanding tasks\""
         },
         {
           "s": "The study shows the brain runs out of energy like a battery.",
@@ -199,9 +199,9 @@
           "why": "The text says the opposite: \"It does not mean that the brain has simply run out of energy like a phone with an empty battery.\""
         },
         {
-          "s": "The experiment was relatively small.",
+          "s": "The experiment did not involve a large number of people.",
           "a": "T",
-          "why": "The text says: \"The experiment was relatively small, and persistent tiredness has many possible causes, including health conditions, sleep problems and psychological distress.\""
+          "why": "The text says: \"The experiment was relatively small\""
         }
       ]
     },
@@ -209,15 +209,15 @@
       "gap": {
         "items": [
           {
-            "s": "Modern exhaustion is difficult to ____ in physical terms.",
-            "a": "account for"
+            "s": "People frequently ____ analytical tasks, emotional interactions and minor administrative decisions.",
+            "a": "switch between"
           },
           {
-            "s": "____ suggests they have barely left the chair.",
-            "a": "A step counter"
+            "s": "Sleep, illness, medication and strain can all contribute, sometimes ____.",
+            "a": "in overlapping ways"
           },
           {
-            "s": "The ____ demand can make further concentration unattractive.",
+            "s": "Each task seems manageable alone, but the ____ demand can make more concentration unattractive.",
             "a": "cumulative"
           },
           {
@@ -240,16 +240,16 @@
       },
       "match": [
         {
-          "t": "rule something out",
-          "d": "decide something is not a possibility"
-        },
-        {
-          "t": "account for",
-          "d": "provide an explanation for something"
-        },
-        {
           "t": "strenuous",
           "d": "needing great physical effort"
+        },
+        {
+          "t": "rule out",
+          "d": "decide that something is not possible"
+        },
+        {
+          "t": "tangible",
+          "d": "real, and able to be seen or measured"
         },
         {
           "t": "nuanced",
@@ -260,14 +260,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "Cognitive effort has no obvious physical ____.",
-            "cue": "MEASURE",
-            "a": "measurement"
+            "s": "We might ask whether the pace of their lives is ____.",
+            "cue": "SUSTAIN",
+            "a": "sustainable"
           },
           {
-            "s": "The findings suggest that fatigue alters how demands are ____.",
-            "cue": "EVALUATION",
-            "a": "evaluated"
+            "s": "When tiredness is severe, ____ or prolonged, clinical assessment may be appropriate.",
+            "cue": "EXPLAIN",
+            "a": "unexplained"
           },
           {
             "s": "Sleep ____ can cause similar symptoms.",
@@ -275,9 +275,9 @@
             "a": "deprivation"
           },
           {
-            "s": "Emotionally difficult work leaves no ____ product.",
-            "cue": "TANGIBLY",
-            "a": "tangible"
+            "s": "Instead of treating every exhausted person as ____ disciplined, we might ask what demands they have been carrying.",
+            "cue": "SUFFICIENT",
+            "a": "insufficiently"
           },
           {
             "s": "Better workloads and genuine ____ matter for mental work too.",
@@ -288,7 +288,7 @@
       },
       "tfn": [
         {
-          "s": "The writer says institutions often judge effort by visible hours.",
+          "s": "According to the writer, organisations tend to measure effort by what can be seen.",
           "a": "T",
           "why": "The text says: \"Employers and institutions frequently evaluate effort according to visible hours, completed tasks or physical demands.\""
         },
@@ -298,14 +298,14 @@
           "why": "The text says the opposite: \"It would be a mistake, however, to attribute persistent exhaustion automatically to cognitive fatigue.\""
         },
         {
-          "s": "Researchers used functional brain imaging with 28 participants.",
+          "s": "The researchers scanned participants' brains while they carried out demanding tasks.",
           "a": "T",
-          "why": "The text says: \"Researchers used functional brain imaging while 28 participants completed demanding mental tasks and chose between options involving different levels of effort and reward.\""
+          "why": "The text says: \"Researchers used functional brain imaging while 28 participants completed demanding mental tasks\""
         },
         {
           "s": "Employers have begun introducing longer breaks as a result.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether employers have introduced longer breaks."
         }
       ]
     }

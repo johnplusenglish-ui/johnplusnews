@@ -5,7 +5,7 @@
       "gap": {
         "items": [
           {
-            "s": "You ____ with a cup of tea and immediately feel uneasy.",
+            "s": "You ____ with a cup of tea, but a few minutes later you feel uneasy.",
             "a": "sit down"
           },
           {
@@ -67,9 +67,9 @@
             "a": "connected"
           },
           {
-            "s": "Rest does not always ____ sleeping.",
-            "cue": "mean",
-            "a": "mean"
+            "s": "Talking to a friend ____ enough to feel rested.",
+            "cue": "be",
+            "a": "is"
           },
           {
             "s": "Other people do not need ____ of how you rest.",
@@ -92,7 +92,7 @@
         {
           "s": "Jebelli's book became a bestseller.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how well the book sold."
         },
         {
           "s": "Nature interviewed Joseph Jebelli in March 2026.",
@@ -141,11 +141,11 @@
         },
         {
           "t": "fall behind",
-          "d": "fail to keep level with a schedule"
+          "d": "fail to keep up with other people or a plan"
         },
         {
           "t": "make up for",
-          "d": "compensate for something missed"
+          "d": "do something extra to balance a loss or mistake"
         },
         {
           "t": "unhurried",
@@ -156,14 +156,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "Jebelli measured his personal ____ through hours spent working.",
-            "cue": "VALUABLE",
-            "a": "value"
+            "s": "It can be useful to distinguish rest from entertainment and ____.",
+            "cue": "ACHIEVE",
+            "a": "achievement"
           },
           {
-            "s": "Treating rest as ____ makes it harder to stop working.",
-            "cue": "LAZY",
-            "a": "laziness"
+            "s": "Free time does not require a ____ result.",
+            "cue": "MEASURE",
+            "a": "measurable"
           },
           {
             "s": "Telling everybody to rest more ignores real ____.",
@@ -186,22 +186,22 @@
         {
           "s": "Productivity guilt is more common in cities.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say where productivity guilt is most common."
         },
         {
-          "s": "Parents and carers may rarely have uninterrupted time.",
+          "s": "Some parents and carers hardly ever get time without interruption.",
           "a": "T",
           "why": "The text says: \"Some workers have unpredictable schedules, while parents and carers may rarely have uninterrupted time.\""
         },
         {
-          "s": "The article says one routine suits everybody.",
+          "s": "One routine of rest suits everybody.",
           "a": "F",
-          "why": "The text says the opposite: \"Allowing individual choice may be more useful than prescribing one fashionable routine.\""
+          "why": "The text says the opposite: \"Equally, the ideal break depends on personal circumstances.\""
         },
         {
-          "s": "Jebelli discussed measuring his worth through working hours.",
+          "s": "Jebelli described measuring his worth by his working hours.",
           "a": "T",
-          "why": "The text says: \"In a March 2026 interview with Nature, neuroscientist Joseph Jebelli discussed how he had once measured his personal value through the hours he spent working.\""
+          "why": "The text says: \"In a March 2026 interview with Nature, Joseph Jebelli, a neuroscientist who has written about rest, described how he had once measured his personal value by the hours he spent working.\""
         }
       ]
     },
@@ -213,20 +213,20 @@
             "a": "productivity"
           },
           {
-            "s": "The instruction to 'just ____' sounds hollow to some people.",
-            "a": "switch off"
+            "s": "When even a walk has to ____, taking a break can feel like failing.",
+            "a": "justify itself"
           },
           {
             "s": "____ a problem can sometimes support fresh thinking.",
             "a": "Stepping away from"
           },
           {
-            "s": "The challenge is to defend a walk that ____.",
-            "a": "leads nowhere"
+            "s": "The challenge is to defend a walk that ____ in particular.",
+            "a": "leads absolutely nowhere"
           },
           {
-            "s": "The vocabulary of self-improvement ____ where it once seemed odd.",
-            "a": "crops up"
+            "s": "The logic of these tools may ____ activities that were once enjoyable.",
+            "a": "colonise"
           },
           {
             "s": "The most radical response may be declining to measure everything ____.",
@@ -240,34 +240,34 @@
       },
       "match": [
         {
-          "t": "crop up",
-          "d": "appear somewhere without being planned"
+          "t": "persuasive",
+          "d": "good at making people agree or believe"
         },
         {
           "t": "instrumental",
           "d": "useful mainly as a means to something else"
         },
         {
-          "t": "step away from",
-          "d": "leave a task for a while"
-        },
-        {
           "t": "aimless",
           "d": "without any particular purpose"
+        },
+        {
+          "t": "step away from",
+          "d": "leave a task for a while"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "The pressure to be ____ has become familiar.",
-            "cue": "PRODUCT",
-            "a": "productive"
+            "s": "There is a ____ dimension, although broad claims require caution.",
+            "cue": "SCIENCE",
+            "a": "scientific"
           },
           {
-            "s": "Personal value seems to depend on visible ____.",
-            "cue": "PRODUCE",
-            "a": "productivity"
+            "s": "Telling a single parent to rest may sound absurd if their problem is ____ control over their schedule.",
+            "cue": "SUFFICIENT",
+            "a": "insufficient"
           },
           {
             "s": "Career advice encourages constant professional ____.",
@@ -275,14 +275,14 @@
             "a": "development"
           },
           {
-            "s": "The instruction can sound ____ for some people.",
-            "cue": "HOLLOWNESS",
-            "a": "hollow"
+            "s": "Some experiences are valuable simply because they are ____.",
+            "cue": "PLEASURE",
+            "a": "pleasurable"
           },
           {
-            "s": "Broad claims about rest require ____.",
-            "cue": "CAUTIOUS",
-            "a": "caution"
+            "s": "People enjoy things precisely because they served no ____ purpose.",
+            "cue": "PRACTICE",
+            "a": "practical"
           }
         ]
       },
@@ -293,19 +293,19 @@
           "why": "The text says: \"He argued that periods of rest and mental wandering are not necessarily obstacles to effective thinking but can form part of it.\""
         },
         {
-          "s": "The writer says every nap increases creativity.",
+          "s": "Every nap has been shown to increase creativity.",
           "a": "F",
           "why": "The text says the opposite: \"That does not establish that every nap increases creativity or that unstructured time produces identical benefits for everybody.\""
         },
         {
-          "s": "The article notes that not everyone has equal access to rest.",
+          "s": "Access to rest is not the same for everybody.",
           "a": "T",
-          "why": "The text says: \"Not everyone has equal access to rest.\""
+          "why": "The text says: \"A culture of rest requires employers, families and public institutions to consider who actually has access to it.\""
         },
         {
           "s": "Nature published a second interview on the same subject.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention any second interview in Nature."
         }
       ]
     }

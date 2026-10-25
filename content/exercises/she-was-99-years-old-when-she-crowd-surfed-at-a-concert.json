@@ -17,8 +17,8 @@
             "a": "came up with"
           },
           {
-            "s": "Pauline tried activities that many younger people would ____.",
-            "a": "think twice about"
+            "s": "Pauline tried activities that many younger people would ____ about.",
+            "a": "think twice"
           },
           {
             "s": "Pauline decided to turn that idea ____.",
@@ -92,7 +92,7 @@
         {
           "s": "Pauline had crowd-surfed once before, in her eighties.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Pauline had crowd-surfed before."
         },
         {
           "s": "Pauline was ninety-nine years and 274 days old when she crowd-surfed.",
@@ -130,7 +130,7 @@
           }
         ],
         "extra": [
-          "spectacular",
+          "permanent",
           "take risks"
         ]
       },
@@ -176,9 +176,9 @@
             "a": "predictable"
           },
           {
-            "s": "Guinness later confirmed the ____, providing a permanent record.",
-            "cue": "ACHIEVE",
-            "a": "achievement"
+            "s": "Pauline's journey was spectacular, but the ____ between two generations was perhaps the real achievement.",
+            "cue": "CONNECT",
+            "a": "connection"
           }
         ]
       },
@@ -201,7 +201,7 @@
         {
           "s": "Ross and Pauline have appeared together on television.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Ross and Pauline have appeared on television."
         }
       ]
     },
@@ -217,7 +217,7 @@
             "a": "mischievous"
           },
           {
-            "s": "What could have been a ____ experience became a triumphant parade.",
+            "s": "What could easily have been a ____ experience became something like a parade.",
             "a": "nerve-racking"
           },
           {
@@ -234,7 +234,7 @@
           }
         ],
         "extra": [
-          "joyful",
+          "delighted",
           "join in"
         ]
       },
@@ -252,17 +252,17 @@
           "d": "take part in an activity with other people"
         },
         {
-          "t": "joyful",
-          "d": "full of great happiness"
+          "t": "triumphant",
+          "d": "showing great pleasure at winning or succeeding"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "The image challenged the ____ commonly attached to advanced age.",
-            "cue": "ASSUME",
-            "a": "assumptions"
+            "s": "Their ____ videos gradually attracted millions of followers.",
+            "cue": "HUMOUR",
+            "a": "humorous"
           },
           {
             "s": "Later life is frequently described in terms of decline and ____.",
@@ -280,9 +280,9 @@
             "a": "collaboration"
           },
           {
-            "s": "The pair built their content around Pauline's ____ to join in.",
-            "cue": "WILLING",
-            "a": "willingness"
+            "s": "Ross filmed a moment when Pauline ____ blocked his shot.",
+            "cue": "SUCCESS",
+            "a": "successfully"
           }
         ]
       },
@@ -295,7 +295,7 @@
         {
           "s": "Pauline has said that she is planning another record attempt.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Pauline plans another record attempt."
         },
         {
           "s": "Guinness recorded Pauline's age as ninety-nine years and 274 days.",

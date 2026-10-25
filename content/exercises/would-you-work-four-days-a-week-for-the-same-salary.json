@@ -26,8 +26,8 @@
           }
         ],
         "extra": [
-          "a day off",
-          "flexible"
+          "flexible",
+          "stressful"
         ]
       },
       "match": [
@@ -44,8 +44,8 @@
           "d": "able to change to suit new conditions"
         },
         {
-          "t": "a day off",
-          "d": "a day when you do not have to work"
+          "t": "stressful",
+          "d": "causing worry or tension that is hard to deal with"
         }
       ],
       "grammar": {
@@ -57,9 +57,9 @@
             "a": "published"
           },
           {
-            "s": "It ____ 2,896 employees at 141 organisations.",
-            "cue": "involve",
-            "a": "involved"
+            "s": "Would people feel pressure ____ five days of work in four?",
+            "cue": "complete",
+            "a": "to complete"
           },
           {
             "s": "The workplaces tried shorter weeks without ____ pay.",
@@ -67,14 +67,14 @@
             "a": "reducing"
           },
           {
-            "s": "Hospitals and shops still ____ enough staff every day.",
-            "cue": "need",
-            "a": "need"
+            "s": "They changed how tasks ____.",
+            "cue": "organise",
+            "a": "were organised"
           },
           {
-            "s": "If a shorter week means four stressful days, employees may not ____ the benefits.",
-            "cue": "feel",
-            "a": "feel"
+            "s": "The study ____ useful evidence but does not answer every problem.",
+            "cue": "give",
+            "a": "gives"
           }
         ]
       },
@@ -82,7 +82,7 @@
         {
           "s": "Most trial companies kept the four-day week afterwards.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the companies kept the four-day week after the trial."
         },
         {
           "s": "The trial involved 2,896 employees at 141 organisations.",
@@ -95,9 +95,9 @@
           "why": "The text says: \"The researchers also found less burnout compared with a group of workplaces that did not introduce the same change.\""
         },
         {
-          "s": "The study proves every employer can shorten the week.",
+          "s": "Every job can be organised in the same way.",
           "a": "F",
-          "why": "The text says the opposite: \"The study gives useful evidence but does not answer every problem.\""
+          "why": "The text says the opposite: \"But not every job can be organised in the same way.\""
         }
       ]
     },
@@ -121,7 +121,7 @@
             "a": "staggered"
           },
           {
-            "s": "The study provides ____ evidence about the five-day model.",
+            "s": "The study stops short of proof, but it provides ____ evidence that five days is not the only model.",
             "a": "substantial"
           },
           {
@@ -144,12 +144,12 @@
           "d": "organise or deal with a problem"
         },
         {
-          "t": "catch up",
-          "d": "do work you did not finish earlier"
+          "t": "narrow",
+          "d": "limited to a small range of things"
         },
         {
-          "t": "staggered",
-          "d": "arranged to start at different times"
+          "t": "catch up",
+          "d": "do work you did not finish earlier"
         }
       ],
       "grammar": {
@@ -166,9 +166,9 @@
             "a": "comparison"
           },
           {
-            "s": "Businesses had to reconsider meetings and ____.",
-            "cue": "COMMUNICATE",
-            "a": "communication"
+            "s": "Companies tried to improve ____ and cooperation before cutting the week.",
+            "cue": "EFFICIENT",
+            "a": "efficiency"
           },
           {
             "s": "An extra day could allow greater ____ in community life.",
@@ -176,17 +176,17 @@
             "a": "participation"
           },
           {
-            "s": "These benefits are hard to capture through a ____ measure.",
-            "cue": "NARROWLY",
-            "a": "narrow"
+            "s": "A successful policy would help companies distribute work ____.",
+            "cue": "FAIR",
+            "a": "fairly"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Twelve comparison organisations kept their usual schedules.",
+          "s": "Twelve organisations that did not change their schedules were used for comparison.",
           "a": "T",
-          "why": "The text says: \"These changes were not seen in the same way at twelve comparison organisations that maintained their usual schedules.\""
+          "why": "The text says: \"twelve comparison organisations that maintained their usual schedules.\""
         },
         {
           "s": "The study proves every employer can raise productivity.",
@@ -196,7 +196,7 @@
         {
           "s": "Trade unions have called for a national four-day week.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention trade unions or any national campaign."
         },
         {
           "s": "Care workers and transport staff provide services across the week.",
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "____ challenges the assumption about the five-day week.",
-            "a": "A growing body of evidence"
+            "s": "Their experiences may not ____ every sector.",
+            "a": "translate directly to"
           },
           {
             "s": "Organisations often ended up ____ unnecessary meetings.",
@@ -229,7 +229,7 @@
             "a": "a valuable starting point"
           },
           {
-            "s": "The research is not an excuse to ____ shorter hours.",
+            "s": "The research is not an excuse to ____ shorter hours as unrealistic.",
             "a": "write off"
           }
         ],
@@ -244,12 +244,12 @@
           "d": "get rid of something completely"
         },
         {
-          "t": "write something off",
-          "d": "dismiss something as not worth trying"
+          "t": "write off",
+          "d": "decide that something is not worth trying or considering"
         },
         {
-          "t": "roll something out",
-          "d": "introduce a plan more widely"
+          "t": "roll out",
+          "d": "introduce a plan or product more widely"
         },
         {
           "t": "transferable",
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The five-day week is the product of historical ____.",
-            "cue": "NEGOTIATE",
-            "a": "negotiations"
+            "s": "Preventing workload ____ would be central to judging whether the model is genuine progress.",
+            "cue": "INTENSE",
+            "a": "intensification"
           },
           {
             "s": "This was not simply a ____ week's workload in four days.",
@@ -270,9 +270,9 @@
             "a": "conventional"
           },
           {
-            "s": "Staff on ____ contracts may worry about lower income.",
-            "cue": "PRECARIOUSLY",
-            "a": "precarious"
+            "s": "There are questions about ____.",
+            "cue": "EQUAL",
+            "a": "inequality"
           },
           {
             "s": "Preserving pay and ensuring ____ schedules would be central.",
@@ -288,9 +288,9 @@
       },
       "tfn": [
         {
-          "s": "The study appeared in Nature Human Behaviour in July 2025.",
+          "s": "The study looked at a reduction in working hours lasting six months.",
           "a": "T",
-          "why": "The text says: \"In July 2025, a study published in Nature Human Behaviour examined a six-month reduction in working hours across 141 organisations and 2,896 employees in six countries.\""
+          "why": "The text says: \"examined a six-month reduction in working hours across 141 organisations\""
         },
         {
           "s": "People who reduced hours more tended to report greater wellbeing gains.",
@@ -300,12 +300,12 @@
         {
           "s": "Several governments have begun their own trials.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention any government trials."
         },
         {
           "s": "The writer presents the four-day week as a universal prescription.",
           "a": "F",
-          "why": "The text says the opposite: \"Unless additional staffing and costs are addressed, a four-day week could offer generous benefits to some workers while leaving others with intensified responsibilities.\""
+          "why": "The text says the opposite: \"The research is therefore neither a universal prescription nor an excuse to write off shorter working hours as unrealistic.\""
         }
       ]
     }

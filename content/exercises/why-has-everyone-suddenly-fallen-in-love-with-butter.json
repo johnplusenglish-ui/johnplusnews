@@ -62,9 +62,9 @@
             "a": "treated"
           },
           {
-            "s": "Chefs whip it until it ____ soft.",
-            "cue": "be",
-            "a": "is"
+            "s": "Perhaps the sensible approach is ____ good butter sometimes.",
+            "cue": "enjoy",
+            "a": "to enjoy"
           },
           {
             "s": "Tourists come ____ for something unusual to take home.",
@@ -72,32 +72,32 @@
             "a": "looking"
           },
           {
-            "s": "Nutrition advice ____ not disappeared just because an ingredient is fashionable.",
-            "cue": "have",
-            "a": "has"
+            "s": "Nutrition advice has not ____ just because an ingredient is fashionable.",
+            "cue": "disappear",
+            "a": "disappeared"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Le Butter sells around fifty different types of butter.",
+          "s": "The Paris shop sells roughly fifty kinds of butter.",
           "a": "T",
           "why": "The text says: \"It sells around fifty different types, including special salted varieties.\""
         },
         {
-          "s": "Temperatures in Paris were close to 41 degrees when the shop opened.",
+          "s": "It was very hot in Paris when the shop opened.",
           "a": "T",
           "why": "The text says: \"With temperatures close to 41°C, he worried that the fridges might struggle and customers might stay away.\""
         },
         {
-          "s": "Butter has become a health food, according to the article.",
+          "s": "The text says that butter is now a health food.",
           "a": "F",
-          "why": "The text says the opposite: \"The new excitement does not mean butter has suddenly become a health food.\""
+          "why": "The text says the opposite: \"The new excitement does not mean butter has become a health food.\""
         },
         {
           "s": "The shop plans to open branches in other countries.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the shop will open more branches."
         }
       ]
     },
@@ -161,9 +161,9 @@
             "a": "refrigeration"
           },
           {
-            "s": "Food ____ discuss flavour and texture with great seriousness.",
-            "cue": "ENTHUSIASM",
-            "a": "enthusiasts"
+            "s": "Some people pretend that the ____ concerns about butter have vanished.",
+            "cue": "NUTRITION",
+            "a": "nutritional"
           },
           {
             "s": "Chefs shape the butter into ____ pieces for the table.",
@@ -184,22 +184,22 @@
       },
       "tfn": [
         {
-          "s": "A Guardian report on the trend appeared in October 2026.",
+          "s": "A newspaper report in October 2026 described the butter trend.",
           "a": "T",
           "why": "The text says: \"According to a Guardian report in October 2026, butter is appearing at fashionable events, on restaurant tables and across social media in increasingly elaborate forms.\""
         },
         {
-          "s": "The article says the nutritional concerns about butter have disappeared.",
+          "s": "Butter's nutritional concerns have gone away.",
           "a": "F",
           "why": "The text says the opposite: \"There is also a tension between describing butter as a natural, comforting ingredient and pretending that the nutritional concerns have vanished.\""
         },
         {
           "s": "Butter sales in France rose by a fifth in 2026.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text gives no figures for butter sales."
         },
         {
-          "s": "Some chefs worry that large butter displays are wasteful.",
+          "s": "Some chefs think the butter displays are mainly about getting attention.",
           "a": "T",
           "why": "The text says: \"Some chefs question whether extravagant butter displays are more about getting attention than enjoying food.\""
         }
@@ -229,19 +229,19 @@
             "a": "catch on"
           },
           {
-            "s": "Once the novelty has ____, butter will do what it always did.",
-            "a": "worn off"
+            "s": "What is new is that a once-unremarkable ingredient is being ____ for admiration.",
+            "a": "singled out"
           }
         ],
         "extra": [
           "theatrical",
-          "artisanal"
+          "attainable"
         ]
       },
       "match": [
         {
-          "t": "wear off",
-          "d": "gradually stop having an effect"
+          "t": "stock up",
+          "d": "buy a large supply of something"
         },
         {
           "t": "mundane",
@@ -260,14 +260,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "The shop drew enough attention to ____ managing queues outside.",
-            "cue": "WARRANTY",
-            "a": "warrant"
+            "s": "Add crusty bread and a quiet evening, and an everyday meal can feel ____ luxurious.",
+            "cue": "EXPECT",
+            "a": "unexpectedly"
           },
           {
-            "s": "Customers compare the ____ flavours of salted and cultured butters.",
-            "cue": "SUBTLETY",
-            "a": "subtle"
+            "s": "A mundane essential was transformed into a ____ souvenir.",
+            "cue": "DESIRE",
+            "a": "desirable"
           },
           {
             "s": "Chefs have long valued butter for its richness and ____.",
@@ -288,14 +288,14 @@
       },
       "tfn": [
         {
-          "s": "The Paris boutique stocks roughly fifty varieties.",
+          "s": "The shop in Paris offers around fifty kinds of butter.",
           "a": "T",
           "why": "The text says: \"The Paris boutique stocks roughly fifty varieties, while a celebrated food hall elsewhere in the city offers an even more extensive selection.\""
         },
         {
           "s": "Butter producers have raised their prices because of the trend.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether producers have raised prices."
         },
         {
           "s": "The writer argues that unlimited butter consumption is now considered harmless.",
@@ -303,7 +303,7 @@
           "why": "The text says the opposite: \"The claim that something is traditional, artisanal or beautifully presented should not be mistaken for scientific evidence that unlimited consumption is harmless.\""
         },
         {
-          "s": "Morwenna Ferrier reported on the trend for the Guardian in October 2026.",
+          "s": "A Guardian journalist wrote about the trend in October 2026.",
           "a": "T",
           "why": "The text says: \"Reporting for the Guardian in October 2026, Morwenna Ferrier described tourists stocking up, restaurants presenting elaborate butter dishes and fashionable events using the ingredient as decoration.\""
         }

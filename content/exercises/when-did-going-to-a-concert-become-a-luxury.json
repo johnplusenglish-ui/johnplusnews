@@ -72,7 +72,7 @@
             "a": "made"
           },
           {
-            "s": "Transport and accommodation cost more than they ____ to.",
+            "s": "Concert tickets cost much more than they ____ to.",
             "cue": "use",
             "a": "used"
           }
@@ -80,7 +80,7 @@
       },
       "tfn": [
         {
-          "s": "The UK's competition authority made Ticketmaster explain prices more clearly.",
+          "s": "Ticketmaster agreed to explain prices more clearly after action by the UK's competition authority.",
           "a": "T",
           "why": "The text says: \"The UK's competition authority later made Ticketmaster agree to explain prices more clearly.\""
         },
@@ -92,7 +92,7 @@
         {
           "s": "Ticket prices have risen faster in Britain than elsewhere.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not compare ticket prices in Britain with other countries."
         },
         {
           "s": "Some concerts have several different price levels.",
@@ -125,12 +125,12 @@
             "a": "keep down"
           },
           {
-            "s": "Live music becomes less like the shared experience it was ____.",
+            "s": "Live music resembles less and less the shared experience that made it popular ____.",
             "a": "in the first place"
           }
         ],
         "extra": [
-          "price out",
+          "priced out",
           "exclusive"
         ]
       },
@@ -144,26 +144,26 @@
           "d": "pay a large amount unwillingly"
         },
         {
-          "t": "exclusive",
-          "d": "available only to a small group"
+          "t": "priced out",
+          "d": "unable to afford something because the cost has risen"
         },
         {
-          "t": "price somebody out",
-          "d": "make something too expensive for somebody"
+          "t": "exclusive",
+          "d": "available only to a small group"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "Touring has become an important source of ____ for many artists.",
-            "cue": "REVENUES",
-            "a": "revenue"
+            "s": "The ____ of seeing a favourite artist can disappear quickly when ticket sales begin.",
+            "cue": "EXCITE",
+            "a": "excitement"
           },
           {
-            "s": "Some events use ____ pricing, where prices move with demand.",
-            "cue": "DYNAMICS",
-            "a": "dynamic"
+            "s": "There are ____ reasons why prices have risen.",
+            "cue": "UNDERSTAND",
+            "a": "understandable"
           },
           {
             "s": "Following an ____, the authority secured commitments from Ticketmaster.",
@@ -189,19 +189,19 @@
           "why": "The text says: \"Streaming gives listeners easy access to songs, but the income musicians receive from it is very different from the old business of selling physical albums.\""
         },
         {
-          "s": "The CMA secured commitments from Ticketmaster about customer information.",
+          "s": "The UK's competition authority secured commitments from Ticketmaster about customer information.",
           "a": "T",
           "why": "The text says: \"Following an investigation, the UK's Competition and Markets Authority secured commitments from Ticketmaster to improve the information given to customers.\""
         },
         {
-          "s": "The CMA found that Oasis tickets changed price through real-time dynamic pricing.",
+          "s": "The competition authority found that Oasis tickets changed price through real-time dynamic pricing.",
           "a": "F",
           "why": "The text says the opposite: \"The authority did not find evidence that the Oasis tickets changed price through real-time dynamic pricing.\""
         },
         {
           "s": "Oasis have apologised to fans about the ticket sale.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Oasis apologised to fans."
         }
       ]
     },
@@ -213,12 +213,12 @@
             "a": "snapped up"
           },
           {
-            "s": "Tickets can cost a ____ portion of a monthly income.",
-            "a": "sizeable"
+            "s": "No performer is ____ sell tickets below what audiences will pay.",
+            "a": "obliged to"
           },
           {
-            "s": "Sooner or later those costs are ____ to the person in the queue.",
-            "a": "passed on"
+            "s": "Those costs ____, one way or another, in the price the person in the queue pays.",
+            "a": "end up"
           },
           {
             "s": "The phrase dynamic pricing has become ____ for a bad ticket sale.",
@@ -229,8 +229,8 @@
             "a": "undeniably"
           },
           {
-            "s": "Global exposure does not necessarily ____ the old revenue.",
-            "a": "translate into"
+            "s": "Hesitation becomes expensive, and reflection ____.",
+            "a": "a luxury in itself"
           }
         ],
         "extra": [
@@ -244,8 +244,8 @@
           "d": "buy something quickly before others can"
         },
         {
-          "t": "pass on",
-          "d": "make somebody else carry a cost"
+          "t": "undertakings",
+          "d": "formal promises to do something"
         },
         {
           "t": "eat away at",
@@ -260,7 +260,7 @@
         "kind": "word",
         "items": [
           {
-            "s": "A generation raised on almost ____ access to recorded music.",
+            "s": "In an age of almost ____ recorded music, seeing an artist in person has become harder to afford.",
             "cue": "LIMIT",
             "a": "limitless"
           },
@@ -270,14 +270,14 @@
             "a": "Ambitious"
           },
           {
-            "s": "Ticket income carries substantial financial ____.",
-            "cue": "IMPORTANT",
-            "a": "importance"
+            "s": "The authority concluded that Ticketmaster had not communicated key information ____.",
+            "cue": "ADEQUATE",
+            "a": "adequately"
           },
           {
-            "s": "The controversy illustrates how consumer trust can ____.",
-            "cue": "RAVEL",
-            "a": "unravel"
+            "s": "Their success conceals a growing ____ about who can take part in live music.",
+            "cue": "EASE",
+            "a": "unease"
           },
           {
             "s": "____ is not the same thing as affordability.",
@@ -288,7 +288,7 @@
       },
       "tfn": [
         {
-          "s": "The CMA secured undertakings about clearer advance warnings on ticket tiers.",
+          "s": "The competition authority secured undertakings about clearer advance warnings on ticket tiers.",
           "a": "T",
           "why": "The text says: \"It secured undertakings requiring clearer advance warnings about ticket tiers, better price information in queues and more accurate descriptions of ticket benefits.\""
         },
@@ -298,9 +298,9 @@
           "why": "The text says: \"Ambitious concerts employ large production teams and involve transport, insurance, security, equipment and venue costs that have risen in recent years.\""
         },
         {
-          "s": "The CMA fined Ticketmaster for the Oasis sale.",
+          "s": "The competition authority fined Ticketmaster for the Oasis sale.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Ticketmaster was fined."
         },
         {
           "s": "The authority established that Oasis tickets changed price in real time.",

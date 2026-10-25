@@ -5,8 +5,8 @@
       "gap": {
         "items": [
           {
-            "s": "You do not need to buy them. ____.",
-            "a": "A library card is enough"
+            "s": "The library's most useful gift may be the confidence to ____ and discover what is there.",
+            "a": "go outdoors"
           },
           {
             "s": "You should not have to buy everything before ____.",
@@ -72,32 +72,32 @@
             "a": "growing"
           },
           {
-            "s": "Some visitors said camping equipment ____ normally be too expensive.",
-            "cue": "will",
-            "a": "would"
+            "s": "One mother borrowed a camera that ____ her young son photograph insects and flowers.",
+            "cue": "help",
+            "a": "helped"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The library is in Thornton, near Denver.",
+          "s": "The Anythink Nature Library is just outside Denver.",
           "a": "T",
           "why": "The text says: \"The library is in Thornton, near Denver.\""
         },
         {
-          "s": "The library uses solar panels.",
+          "s": "The library has solar panels.",
           "a": "T",
           "why": "The text says: \"The library also uses solar panels and an energy-efficient heating and cooling system.\""
         },
         {
           "s": "Other American states plan to copy the idea.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether other states plan to copy the idea."
         },
         {
           "s": "Visitors must pay to borrow the nature equipment.",
           "a": "F",
-          "why": "The text says the opposite: \"It has thousands of books and around 850 sets of equipment that visitors can borrow and bring back.\""
+          "why": "The text says the opposite: \"You do not need to buy them. A library card is enough.\""
         }
       ]
     },
@@ -161,14 +161,14 @@
             "a": "attractive"
           },
           {
-            "s": "The gardens are designed for different plants and ____.",
-            "cue": "POLLINATE",
-            "a": "pollinators"
+            "s": "At the library, these objects are not ____ extras.",
+            "cue": "USUAL",
+            "a": "unusual"
           },
           {
-            "s": "Green spaces may not feel equally ____ to everybody.",
-            "cue": "ACCESS",
-            "a": "accessible"
+            "s": "Green spaces may not feel ____ accessible to everybody.",
+            "cue": "EQUAL",
+            "a": "equally"
           },
           {
             "s": "Experiencing nature need not involve an ____ expedition.",
@@ -184,14 +184,14 @@
       },
       "tfn": [
         {
-          "s": "The site covers 15 acres next to a larger area of open land.",
+          "s": "The library is built on land that has a much bigger open area beside it.",
           "a": "T",
           "why": "The text says: \"The building stands on a 15-acre site next to a much larger area of open land.\""
         },
         {
           "s": "The equipment is funded by a local outdoor retailer.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say who paid for the equipment."
         },
         {
           "s": "The library no longer lends ordinary books.",
@@ -199,7 +199,7 @@
           "why": "The text says the opposite: \"Alongside its large book collection, the library offers about 850 sets of nature-related equipment, including microscopes, gardening tools, hiking supplies and cameras.\""
         },
         {
-          "s": "The library offers about 850 sets of nature equipment.",
+          "s": "There are roughly 850 nature equipment kits to borrow.",
           "a": "T",
           "why": "The text says: \"Alongside its large book collection, the library offers about 850 sets of nature-related equipment, including microscopes, gardening tools, hiking supplies and cameras.\""
         }
@@ -265,7 +265,7 @@
             "a": "conventional"
           },
           {
-            "s": "Adults can learn about water-saving gardening and wildlife ____.",
+            "s": "Adults can learn about drought-resistant gardening, wildlife ____ or stargazing.",
             "cue": "PHOTOGRAPH",
             "a": "photography"
           },
@@ -280,32 +280,32 @@
             "a": "mobility"
           },
           {
-            "s": "Public libraries are frequently required to ____ their existence.",
-            "cue": "JUSTIFICATION",
-            "a": "justify"
+            "s": "There is an ____ argument, too, although it deserves a little caution.",
+            "cue": "ENVIRONMENT",
+            "a": "environmental"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The library opened in Thornton in August 2026.",
+          "s": "The library opened in August 2026.",
           "a": "T",
-          "why": "The text says: \"The Anythink Nature Library, opened in Thornton in August 2026, extends the library's traditional promise beyond information.\""
+          "why": "The text says: \"The Anythink Nature Library, opened in Thornton in August 2026, extends the library's traditional promise beyond books and information.\""
         },
         {
-          "s": "The writer says environmental knowledge automatically changes behaviour.",
+          "s": "Learning about wildlife automatically makes people behave in greener ways.",
           "a": "F",
           "why": "The text says the opposite: \"Yet the relationship between environmental knowledge and behaviour is not automatic.\""
         },
         {
-          "s": "The building uses a geothermal heating and cooling system.",
+          "s": "The library's heating and cooling system uses geothermal energy.",
           "a": "T",
           "why": "The text says: \"Solar panels and a geothermal heating and cooling system reinforce the environmental purpose of a public building that treats the outdoors as an extension of its reading rooms.\""
         },
         {
           "s": "Borrowing numbers have exceeded the library's own forecasts.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not compare borrowing numbers with any forecast."
         }
       ]
     }

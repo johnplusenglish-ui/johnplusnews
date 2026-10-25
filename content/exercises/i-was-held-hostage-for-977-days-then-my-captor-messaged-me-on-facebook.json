@@ -41,7 +41,7 @@
         },
         {
           "t": "in return",
-          "d": "as payment for something received"
+          "d": "given back in exchange for something you have done"
         },
         {
           "t": "uncomfortable",
@@ -62,9 +62,9 @@
             "a": "was kidnapped"
           },
           {
-            "s": "His captors ____ him between buildings and outdoor camps.",
-            "cue": "move",
-            "a": "moved"
+            "s": "Another man, Abdi Yusuf Hassan, ____ also involved.",
+            "cue": "be",
+            "a": "had been|was"
           },
           {
             "s": "In 2018, Tahlil flew to New York ____ he would receive help.",
@@ -80,19 +80,19 @@
       },
       "tfn": [
         {
-          "s": "Both men were sentenced to 30 years in prison in 2024.",
+          "s": "Tahlil and Hassan each received a 30-year sentence.",
           "a": "T",
           "why": "The text says: \"In 2024, they each received a 30-year prison sentence.\""
         },
         {
-          "s": "Moore spent 977 days as a hostage.",
+          "s": "Moore was a hostage for more than two and a half years.",
           "a": "T",
-          "why": "The text says: \"Moore had spent 977 days as a hostage.\""
+          "why": "The text says: \"He was kidnapped shortly after arriving and held for 977 days, more than two and a half years.\""
         },
         {
           "s": "Moore has visited Tahlil in prison.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Moore has ever visited Tahlil in prison."
         },
         {
           "s": "Tahlil received help to settle in the United States.",
@@ -140,30 +140,30 @@
           "d": "stop communicating with somebody"
         },
         {
-          "t": "keep somebody in the dark",
-          "d": "deliberately leave somebody without information"
-        },
-        {
-          "t": "makeshift",
-          "d": "built quickly from whatever was available"
+          "t": "keep in the dark",
+          "d": "not give somebody information they want or need"
         },
         {
           "t": "let go of",
           "d": "stop holding on to a feeling"
+        },
+        {
+          "t": "makeshift",
+          "d": "built quickly from whatever was available"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "Tahlil was one of his less ____ guards.",
-            "cue": "AGGRESSION",
-            "a": "aggressive"
+            "s": "After everything he had suffered, Moore found ____ difficult to believe.",
+            "cue": "FRIENDLY",
+            "a": "friendliness"
           },
           {
-            "s": "Moore doubted how ____ this kindness was.",
-            "cue": "GENUINELY",
-            "a": "genuine"
+            "s": "He endured ____, fear and violence.",
+            "cue": "ISOLATE",
+            "a": "isolation"
           },
           {
             "s": "Prosecutors presented Tahlil as a more ____ participant.",
@@ -184,24 +184,24 @@
       },
       "tfn": [
         {
-          "s": "Tahlil taught Moore some Somali words during his captivity.",
+          "s": "One of the guards taught Moore a few Somali words.",
           "a": "T",
           "why": "The text says: \"Early on, Tahlil had seemed comparatively gentle, teaching Moore Somali words and presenting himself as different from other guards.\""
         },
         {
-          "s": "Abdi Yusuf Hassan was linked to the operation and its ransom demands.",
+          "s": "Court evidence connected a second man to the ransom demands.",
           "a": "T",
           "why": "The text says: \"Another defendant, Abdi Yusuf Hassan, was linked to the operation and its ransom demands.\""
         },
         {
           "s": "Moore kept the Facebook messages secret from the FBI.",
           "a": "F",
-          "why": "The text says the opposite: \"Moore informed the FBI, which was already investigating the kidnapping, and eventually agreed to help set up an operation to bring Tahlil to America.\""
+          "why": "The text says the opposite: \"Moore told the FBI, the American federal agency that was already investigating the kidnapping.\""
         },
         {
           "s": "Moore's book became a bestseller.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how well Moore's book sold."
         }
       ]
     },
@@ -213,20 +213,20 @@
             "a": "drew Moore into"
           },
           {
-            "s": "Such distinctions were dangerously ____.",
-            "a": "unreliable"
+            "s": "Tahlil sometimes spoke gently, but Moore could not ____ those distinctions.",
+            "a": "rely on"
           },
           {
             "s": "Moore had already ____ federal investigators about the messages.",
             "a": "tipped off"
           },
           {
-            "s": "He feared that senior figures ____ while a guard faced punishment.",
+            "s": "He was uncomfortable that a guard might be punished while more senior figures ____.",
             "a": "remained beyond reach"
           },
           {
-            "s": "____ could preserve a measure of independence in captivity.",
-            "a": "Loosening his grip on anger"
+            "s": "During captivity, he found that ____ could preserve a measure of independence.",
+            "a": "loosening his grip on anger"
           },
           {
             "s": "He questions whether punishment automatically supplies ____.",
@@ -234,14 +234,14 @@
           }
         ],
         "extra": [
-          "bring about",
-          "subordinate"
+          "subordinate",
+          "ambivalent"
         ]
       },
       "match": [
         {
-          "t": "tip somebody off",
-          "d": "secretly warn somebody about something"
+          "t": "acquit",
+          "d": "officially decide that a person is not guilty of a crime"
         },
         {
           "t": "bring about",
@@ -260,24 +260,24 @@
         "kind": "word",
         "items": [
           {
-            "s": "Tahlil appeared comparatively ____ at first.",
-            "cue": "CONSIDER",
-            "a": "considerate"
+            "s": "The sender addressed him with the ____ of an old acquaintance.",
+            "cue": "FAMILIAR",
+            "a": "familiarity"
           },
           {
-            "s": "He carried home the psychological ____ of a long ordeal.",
-            "cue": "CONSEQUENT",
-            "a": "consequences"
+            "s": "Moore had spent 977 days enduring violence, isolation and deep ____.",
+            "cue": "CERTAIN",
+            "a": "uncertainty"
           },
           {
-            "s": "Moore's participation left him profoundly ____.",
-            "cue": "AMBIVALENCE",
-            "a": "ambivalent"
+            "s": "Moore's account of the case is more ____.",
+            "cue": "SETTLE",
+            "a": "unsettled"
           },
           {
-            "s": "Hassan used his government position in ways that ____ the kidnapping.",
-            "cue": "FACILITY",
-            "a": "facilitated"
+            "s": "The Facebook correspondence did not bring about a tidy ____.",
+            "cue": "RECONCILE",
+            "a": "reconciliation"
           },
           {
             "s": "Victims may change their ____ as new evidence emerges.",
@@ -288,24 +288,24 @@
       },
       "tfn": [
         {
-          "s": "The writer says punishment reliably provides psychological closure.",
+          "s": "Moore believes punishment automatically brings psychological closure.",
           "a": "F",
           "why": "The text says the opposite: \"He does not dispute the seriousness of the crimes, but he questions the assumption that punishment automatically supplies psychological closure.\""
         },
         {
-          "s": "Trial evidence showed Tahlil had responsibility for weapons.",
+          "s": "The trial showed that Tahlil had more power than Moore first thought.",
           "a": "T",
           "why": "The text says: \"Prosecutors demonstrated that Tahlil had exercised greater authority than Moore had understood, including responsibility for weapons used by the pirates.\""
         },
         {
           "s": "Moore has campaigned for shorter sentences for his captors.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Moore has campaigned about sentence lengths."
         },
         {
-          "s": "Moore was released in September 2014 after a ransom was paid.",
+          "s": "Family and supporters helped to pay the ransom that led to Moore's release.",
           "a": "T",
-          "why": "The text says: \"When his release was finally secured in September 2014, after a ransom funded by family members and supporters, he carried home the psychological consequences of an ordeal lasting more than two and a half years.\""
+          "why": "The text says: \"He was released in September 2014 after a ransom funded by family and supporters.\""
         }
       ]
     }

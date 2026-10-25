@@ -59,7 +59,7 @@
           {
             "s": "Strange microorganisms ____ energy from the Sun.",
             "cue": "take",
-            "a": "are taking"
+            "a": "are taking|take"
           },
           {
             "s": "If nobody stops them, Earth ____ too cold for people.",
@@ -82,17 +82,17 @@
         {
           "s": "Andy Weir wrote the screenplay himself.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say who wrote the screenplay."
         },
         {
-          "s": "The filmmakers spoke to NASA experts.",
+          "s": "The filmmakers asked space experts at NASA for information.",
           "a": "T",
           "why": "The text says: \"The filmmakers also spoke to NASA experts about space travel and life on a spacecraft.\""
         },
         {
-          "s": "Ryan Gosling plays a school science teacher.",
+          "s": "In the film, the person who must stop the danger is a teacher.",
           "a": "T",
-          "why": "The text says: \"The science-fiction film, released in March 2026, stars Ryan Gosling as Ryland Grace, a school science teacher who finds himself on an extraordinary mission.\""
+          "why": "The text says: \"Ryland Grace is a school science teacher, and he is the one who has to find a way to stop the danger.\""
         },
         {
           "s": "The organisms that threaten the Sun are based on real science.",
@@ -156,9 +156,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The film is adapted from Andy Weir's ____ 2021 novel.",
-            "cue": "SELL",
-            "a": "bestselling"
+            "s": "Astrophage would need to absorb an almost ____ amount of energy.",
+            "cue": "IMAGINE",
+            "a": "unimaginable"
           },
           {
             "s": "Much of the drama comes from unexpected ____ and improvised solutions.",
@@ -189,17 +189,17 @@
           "why": "The text says the opposite: \"The film became a commercial success, earning more than $680 million worldwide, although reviews were not entirely unanimous.\""
         },
         {
-          "s": "The film earned more than $680 million worldwide.",
+          "s": "Rocky is an alien who wants to protect his own world.",
           "a": "T",
-          "why": "The text says: \"The film became a commercial success, earning more than $680 million worldwide, although reviews were not entirely unanimous.\""
+          "why": "The text says: \"Grace meets Rocky, an alien trying to protect his own world from the same danger.\""
         },
         {
           "s": "A sequel has been announced.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether a sequel has been announced."
         },
         {
-          "s": "Tau Ceti and 40 Eridani are real star systems.",
+          "s": "Some of the stars in the story really exist.",
           "a": "T",
           "why": "The text says: \"NASA specialists offered advice during production, while the story uses real stars such as Tau Ceti and 40 Eridani.\""
         }
@@ -209,7 +209,7 @@
       "gap": {
         "items": [
           {
-            "s": "Project Hail Mary begins with ____ stakes.",
+            "s": "Earth's survival is at risk, so the story begins with ____ stakes.",
             "a": "apocalyptic"
           },
           {
@@ -260,13 +260,13 @@
         "kind": "word",
         "items": [
           {
-            "s": "Its unlikely saviour is a teacher with almost no memory of his ____.",
-            "cue": "MISSIONARY",
-            "a": "mission"
+            "s": "Its unlikely ____ is a science teacher who wakes aboard an unfamiliar spacecraft.",
+            "cue": "SAVE",
+            "a": "saviour"
           },
           {
             "s": "The crisis is ____ imagined.",
-            "cue": "EXTRAVAGANCE",
+            "cue": "EXTRAVAGANT",
             "a": "extravagantly"
           },
           {
@@ -280,9 +280,9 @@
             "a": "humility"
           },
           {
-            "s": "Detractors found some of the ____ overly emphatic.",
-            "cue": "SENTIMENTAL",
-            "a": "sentiment"
+            "s": "The film prompted lively ____ among critics.",
+            "cue": "AGREE",
+            "a": "disagreement"
           }
         ]
       },
@@ -290,10 +290,10 @@
         {
           "s": "Astrophysicists have questioned the energy Astrophage would need to store.",
           "a": "T",
-          "why": "The text says: \"Astrophage would have to capture and store quantities of stellar energy that make little sense under established physics, as astrophysicists have pointed out.\""
+          "why": "The text says: \"Astrophage would have to capture and store quantities of stellar energy that, as astrophysicists have pointed out, are hard to square with established physics.\""
         },
         {
-          "s": "Critics disagreed about the film's shifts in tone.",
+          "s": "Some critics were bothered by the film's changes of mood.",
           "a": "T",
           "why": "The text says: \"Admirers celebrated its warmth, intelligence and exuberant humour; detractors found the tonal shifts distracting and some of the sentiment overly emphatic.\""
         },
@@ -305,7 +305,7 @@
         {
           "s": "The film won an award for its visual effects.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention any awards for the film."
         }
       ]
     }

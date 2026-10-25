@@ -9,11 +9,11 @@
             "a": "make sense"
           },
           {
-            "s": "____ has become less common in some places.",
-            "a": "Reading for pleasure"
+            "s": "The first result is about one day and the second is about a year, so they do not ____ each other.",
+            "a": "contradict"
           },
           {
-            "s": "Phones may be ____.",
+            "s": "Phones may be ____, because they offer messages, games and videos at any moment.",
             "a": "part of the problem"
           },
           {
@@ -72,15 +72,15 @@
             "a": "changing"
           },
           {
-            "s": "Regular practice can make it easier ____.",
-            "cue": "concentrate",
-            "a": "to concentrate"
+            "s": "The study found that the number of people reading for pleasure had ____.",
+            "cue": "fall",
+            "a": "fallen"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Her programme lasted eight weeks.",
+          "s": "Naomi Alderman's plan lasted eight weeks.",
           "a": "T",
           "why": "The text says: \"In August 2026, the novelist Naomi Alderman described an eight-week plan to help people get back into reading.\""
         },
@@ -97,7 +97,7 @@
         {
           "s": "The plan has been tried by thousands of readers.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many people have tried the plan."
         }
       ]
     },
@@ -109,7 +109,7 @@
             "a": "absorbed"
           },
           {
-            "s": "Smartphones are ____.",
+            "s": "When people ask why reading has fallen, smartphones are ____.",
             "a": "an obvious suspect"
           },
           {
@@ -125,8 +125,8 @@
             "a": "out of reach"
           },
           {
-            "s": "Recovering that experience does not require ____.",
-            "a": "a dramatic lifestyle change"
+            "s": "The idea was to rebuild reading ____ gradually, with short sessions at first.",
+            "a": "stamina"
           }
         ],
         "extra": [
@@ -156,9 +156,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The study analysed the ____ of people reading on an average day.",
-            "cue": "PROPORTIONAL",
-            "a": "proportion"
+            "s": "Recovering that experience does not require a ____ lifestyle change.",
+            "cue": "DRAMA",
+            "a": "dramatic"
           },
           {
             "s": "The findings are not ____.",
@@ -186,12 +186,12 @@
         {
           "s": "Book sales in the United States have fallen since 2023.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text says nothing about book sales in the United States."
         },
         {
           "s": "The 2025 study found the daily figure fell from about 28% to 16%.",
           "a": "T",
-          "why": "The text says: \"A study published in 2025 analysed American time-use data collected over two decades and found that the proportion of people reading for pleasure on an average day had fallen from around 28% in 2004 to 16% in 2023.\""
+          "why": "The text says: \"It found that the share of people reading for pleasure on an average day fell from about 28% to 16%.\""
         },
         {
           "s": "Alderman's programme was inspired by the Couch to 5K approach.",
@@ -209,27 +209,27 @@
       "gap": {
         "items": [
           {
-            "s": "The book has not become less interesting; ____.",
-            "a": "the thread of attention has been cut"
+            "s": "Blaming everything on smartphones ____ other pressures on reading.",
+            "a": "glosses over"
           },
           {
-            "s": "A 2025 study ____ two decades of time-use data to reach that figure.",
-            "a": "drew on"
+            "s": "A 2025 study, ____ two decades of time-use data, found that daily reading had fallen.",
+            "a": "drawing on"
           },
           {
-            "s": "That measure has remained ____.",
+            "s": "The Pew figure barely changed, so that measure has remained ____.",
             "a": "comparatively stable"
           },
           {
-            "s": "A phone promises ____.",
-            "a": "a succession of immediate rewards"
+            "s": "A novel asks for patience, while a phone promises ____ immediate rewards.",
+            "a": "a succession of"
           },
           {
-            "s": "Reading becomes less inviting when treated as ____.",
-            "a": "a test of cultural sophistication"
+            "s": "Reading becomes less inviting when treated as a test of cultural ____.",
+            "a": "sophistication"
           },
           {
-            "s": "The practical response may be ____.",
+            "s": "The practical response may be ____: a small change rather than a grand plan.",
             "a": "disarmingly modest"
           }
         ],
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The novel is open and the intention is ____.",
-            "cue": "SINCERITY",
-            "a": "sincere"
+            "s": "Someone who struggles to concentrate is not necessarily lazy or ____.",
+            "cue": "CAPABLE",
+            "a": "incapable"
           },
           {
             "s": "A phone offers constant opportunities for ____ and interruption.",
@@ -272,17 +272,17 @@
           {
             "s": "The analogy replaces an unhelpful moral ____ with the idea of practice.",
             "cue": "JUDGE",
-            "a": "judgement"
+            "a": "judgement|judgment"
           },
           {
             "s": "There is reason to avoid ____ books as inherently virtuous.",
             "cue": "ROMANTIC",
-            "a": "romanticising"
+            "a": "romanticising|romanticizing"
           },
           {
-            "s": "Those abilities matter in education and public ____.",
-            "cue": "DEBATABLE",
-            "a": "debate"
+            "s": "The more persuasive argument concerns the capacity to follow ideas and to tolerate ____.",
+            "cue": "CERTAIN",
+            "a": "uncertainty"
           }
         ]
       },
@@ -290,7 +290,7 @@
         {
           "s": "Schools in Britain have adopted the eight-week programme.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say that any school has adopted the programme."
         },
         {
           "s": "Pew reported in 2026 that around 75% of American adults had read some of a book.",
@@ -305,7 +305,7 @@
         {
           "s": "Alderman's approach treats concentration as something that can be practised.",
           "a": "T",
-          "why": "The text says: \"Her eight-week approach encouraged people to rebuild reading stamina through progressively longer sessions, beginning with manageable periods rather than ambitious targets.\""
+          "why": "The text says: \"The analogy is useful because it replaces an unhelpful moral judgement with the idea of practice.\""
         }
       ]
     }

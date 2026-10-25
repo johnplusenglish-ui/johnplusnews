@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "After a few weeks, you have ____ a watch that measures your speed.",
-            "cue": "buy",
-            "a": "bought"
+            "s": "What ____ to the simple pleasure of going for a run?",
+            "cue": "happen",
+            "a": "happened"
           },
           {
             "s": "People share photographs of cakes they have ____.",
@@ -87,12 +87,12 @@
         {
           "s": "Most people who sell their crafts give up within a year.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how long people keep selling their crafts."
         },
         {
-          "s": "The article says everyone should aim to be excellent.",
+          "s": "Setting goals never helps anybody to improve.",
           "a": "F",
-          "why": "The text says the opposite: \"Not everybody wants to be excellent at everything.\""
+          "why": "The text says the opposite: \"Setting goals helps some people improve, and selling something you have made can be exciting.\""
         },
         {
           "s": "A 2026 Forbes article looked at making money from a hobby.",
@@ -105,8 +105,8 @@
       "gap": {
         "items": [
           {
-            "s": "A hobby can ____ a series of targets and comparisons.",
-            "a": "turn into"
+            "s": "One person runs slowly to ____ after a day at work.",
+            "a": "clear their mind"
           },
           {
             "s": "The difficulty ____ when improvement stops being a choice.",
@@ -137,7 +137,7 @@
       "match": [
         {
           "t": "an escape from",
-          "d": "a relief from something unpleasant"
+          "d": "a chance to avoid something unpleasant for a while"
         },
         {
           "t": "creep in",
@@ -156,7 +156,7 @@
         "kind": "word",
         "items": [
           {
-            "s": "The change reflects a wider culture of self-____.",
+            "s": "The difficulty creeps in when ____ stops being a choice.",
             "cue": "IMPROVE",
             "a": "improvement"
           },
@@ -166,14 +166,14 @@
             "a": "satisfaction"
           },
           {
-            "s": "Once a hobby has customers, there is ____ to manage.",
+            "s": "Someone may end up worrying about prices, ____ and complaints.",
             "cue": "MARKET",
             "a": "marketing"
           },
           {
-            "s": "Some people find a genuinely ____ source of extra income.",
-            "cue": "REWARD",
-            "a": "rewarding"
+            "s": "For some people, earning money is an important opportunity, not an ____ obsession.",
+            "cue": "NECESSARY",
+            "a": "unnecessary"
           },
           {
             "s": "Recognising that goals are ____ protects the freedom of a hobby.",
@@ -191,7 +191,7 @@
         {
           "s": "The Forbes article appeared in May 2026.",
           "a": "T",
-          "why": "The text says: \"A May 2026 Forbes article examined the opportunities and risks involved in transforming a hobby into a business, including the possibility that commercial pressure changes the experience itself.\""
+          "why": "The text says: \"A May 2026 Forbes article examined the opportunities and risks involved in transforming a hobby into a business.\""
         },
         {
           "s": "Social media makes exceptional achievements more visible.",
@@ -199,7 +199,7 @@
           "why": "The text says: \"Social media makes those comparisons particularly easy because exceptional achievements are more visible than ordinary pleasure.\""
         },
         {
-          "s": "The writer says everybody can keep leisure separate from income.",
+          "s": "Everybody can afford to keep leisure completely separate from income.",
           "a": "F",
           "why": "The text says the opposite: \"It would be unfair to suggest that everybody can afford to keep leisure completely separate from income.\""
         }
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "Leisure is now discussed ____ growth and productivity.",
-            "a": "in terms of"
+            "s": "A hobby can start to look like a business ____.",
+            "a": "waiting to happen"
           },
           {
             "s": "People are told their hobby should deliver ____.",
@@ -241,7 +241,7 @@
       "match": [
         {
           "t": "brush aside",
-          "d": "refuse to take an objection seriously"
+          "d": "treat something as unimportant and ignore it"
         },
         {
           "t": "set in",
@@ -270,9 +270,9 @@
             "a": "inherently"
           },
           {
-            "s": "____ a musical instrument may produce confidence.",
-            "cue": "MASTER",
-            "a": "Mastering"
+            "s": "Pleasure alone can sound oddly ____.",
+            "cue": "SUFFICIENT",
+            "a": "insufficient"
           },
           {
             "s": "There is a social ____ embedded in such advice.",
@@ -280,30 +280,30 @@
             "a": "inequality"
           },
           {
-            "s": "Both are ____ relationships with an activity.",
-            "cue": "LEGITIMACY",
-            "a": "legitimate"
+            "s": "Many people enjoy familiar songs played ____ at home.",
+            "cue": "PERFECT",
+            "a": "imperfectly"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Digital platforms make achievement visible and measurable.",
+          "s": "Online platforms make it easy to see and measure achievement.",
           "a": "T",
           "why": "The text says: \"Digital platforms intensify this possibility by making achievement visible and measurable.\""
         },
         {
-          "s": "The article argues that nobody should earn money from a hobby.",
+          "s": "Turning a hobby into a business is always a bad decision.",
           "a": "F",
-          "why": "The text says the opposite: \"Another person may welcome an opportunity to earn money from an existing skill because their regular income is inadequate.\""
+          "why": "The text says the opposite: \"The decision is not inherently good or bad; its consequences depend on what the person wants from the activity.\""
         },
         {
           "s": "Forbes surveyed readers about their hobbies.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Forbes asked readers about their hobbies."
         },
         {
-          "s": "The writer says discipline and enjoyment are not opposites.",
+          "s": "Working hard at something can still be enjoyable.",
           "a": "T",
           "why": "The text says: \"Of course, discipline and enjoyment are not opposites.\""
         }

@@ -33,7 +33,7 @@
       "match": [
         {
           "t": "refreshed",
-          "d": "feeling rested and full of energy"
+          "d": "feeling rested after sleep"
         },
         {
           "t": "stressful",
@@ -41,7 +41,7 @@
         },
         {
           "t": "energetic",
-          "d": "having a lot of energy"
+          "d": "full of energy and ready to do things"
         },
         {
           "t": "after all",
@@ -62,19 +62,19 @@
             "a": "gives"
           },
           {
-            "s": "Some people wake up ____ refreshed, and then check their phone.",
-            "cue": "feel",
-            "a": "feeling"
+            "s": "They focused on trying ____ perfect scores.",
+            "cue": "achieve",
+            "a": "to achieve"
           },
           {
-            "s": "If you ____ about every minute, it is harder to switch off.",
-            "cue": "worry",
-            "a": "worry"
+            "s": "These differences do not always mean the technology ____ failed.",
+            "cue": "have",
+            "a": "has"
           },
           {
-            "s": "The term orthosomnia ____ by sleep researchers in 2017.",
-            "cue": "use",
-            "a": "was used"
+            "s": "They had seen patients ____ so worried about their sleep-tracker results.",
+            "cue": "become",
+            "a": "becoming"
           }
         ]
       },
@@ -131,7 +131,7 @@
         ],
         "extra": [
           "in isolation",
-          "consistent"
+          "persuasive"
         ]
       },
       "match": [
@@ -217,8 +217,8 @@
             "a": "feedback loop"
           },
           {
-            "s": "The verdict can ____ before you have had time to assess how you actually feel.",
-            "a": "colour the day"
+            "s": "Sometimes the healthiest response to an imperfect graph is to put the device down and ____ with the day.",
+            "a": "carry on"
           },
           {
             "s": "Sometimes better habits require ____ the dashboard.",
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "Sleep has become an unlikely arena for personal ____.",
-            "cue": "OPTIMISE",
-            "a": "optimisation|optimization"
+            "s": "Wrist-worn devices infer sleep characteristics from ____ signals.",
+            "cue": "PHYSIOLOGY",
+            "a": "physiological"
           },
           {
             "s": "Estimates of individual sleep stages can be ____.",
@@ -270,27 +270,27 @@
             "a": "imperfect"
           },
           {
-            "s": "Their apparent precision invites confident ____.",
+            "s": "There is a gap between consumer measurements and clinical ____.",
             "cue": "INTERPRET",
             "a": "interpretation"
           },
           {
-            "s": "Dismissing sleep technology entirely would be ____.",
-            "cue": "EXCESS",
-            "a": "excessive"
+            "s": "An attempt to control sleep may introduce the very ____ that makes rest difficult.",
+            "cue": "VIGILANT",
+            "a": "vigilance"
           },
           {
-            "s": "If monitoring creates anxiety, its practical value deserves ____.",
-            "cue": "CONSIDER",
-            "a": "reconsideration"
+            "s": "The appearance of ____ gives consumer sleep scores an authority their methods may not justify.",
+            "cue": "PRECISE",
+            "a": "precision"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The writer concludes that sleep tracking should be abandoned.",
+          "s": "The text recommends giving up sleep technology completely.",
           "a": "F",
-          "why": "The text says the opposite: \"Tracking can reveal irregular bedtimes and provide useful information for a discussion with a clinician.\""
+          "why": "The text says the opposite: \"Yet dismissing sleep technology entirely would be excessive.\""
         },
         {
           "s": "Sleep trackers are more popular with younger users than with older ones.",
@@ -298,9 +298,9 @@
           "why": "Not stated. This version does not give this information."
         },
         {
-          "s": "A number given to one decimal place can conceal uncertainty about when someone was awake.",
+          "s": "A precise-looking number can hide doubt about when somebody was awake.",
           "a": "T",
-          "why": "The text says: \"A number displayed to one decimal place can conceal uncertainty about when a person was awake or how accurately particular sleep stages were identified.\""
+          "why": "The text says: \"A number displayed with apparent precision can conceal uncertainty about when a person was awake or how accurately particular sleep stages were identified.\""
         },
         {
           "s": "The 2017 paper proved that sleep tracking causes insomnia.",

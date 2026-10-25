@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "In China, some people ____ an unusual answer.",
-            "cue": "find",
-            "a": "have found"
+            "s": "In China, some people pay a person ____ with them.",
+            "cue": "come",
+            "a": "to come"
           },
           {
             "s": "In June 2026, Reuters ____ on this business in China.",
@@ -62,9 +62,9 @@
             "a": "reported"
           },
           {
-            "s": "One company ____ companions for hikes on Mount Tai.",
-            "cue": "offer",
-            "a": "offered"
+            "s": "Some activities ____ also simply nicer with company.",
+            "cue": "be",
+            "a": "are"
           },
           {
             "s": "The customers were not necessarily ____ for a lifelong friend.",
@@ -90,14 +90,14 @@
           "why": "The text says: \"Some companions help people feel more confident in an unfamiliar place, while others know the area well and can make the day easier and more enjoyable.\""
         },
         {
-          "s": "Reuters reported on the business in June 2026.",
+          "s": "In June 2026, Reuters wrote about the business in China.",
           "a": "T",
           "why": "The text says: \"In June 2026, Reuters reported on this business in China.\""
         },
         {
           "s": "The service costs about the same as a tour guide.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not compare the cost of the service with the cost of a tour guide."
         }
       ]
     },
@@ -191,17 +191,17 @@
         {
           "s": "A paid day out ends with a payment rather than a plan to meet again.",
           "a": "T",
-          "why": "The text says: \"A good day out with a paid companion ends with a payment rather than a plan to meet up again, which some customers will find perfectly comfortable and others may find faintly sad.\""
+          "why": "The text says: \"A good day out with a paid companion ends with a payment rather than a plan to meet up again, which some customers will find perfectly comfortable and others may find less satisfying.\""
         },
         {
-          "s": "The article says every customer is isolated.",
+          "s": "Every customer who hires a companion is lonely.",
           "a": "F",
           "why": "The text says the opposite: \"It may also be misleading to describe every customer as isolated.\""
         },
         {
           "s": "The industry is regulated by the Chinese government.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the Chinese government regulates the industry."
         }
       ]
     },
@@ -209,24 +209,24 @@
       "gap": {
         "items": [
           {
-            "s": "The phrase sounds like ____.",
-            "a": "a contradiction in terms"
+            "s": "In China, some customers pay someone to ____ on a hike.",
+            "a": "come along"
           },
           {
             "s": "Jobs and ____ social networks leave people without companions.",
             "a": "fragmented"
           },
           {
-            "s": "Cleaning and childcare were gradually ____ the formal economy.",
-            "a": "drawn into"
+            "s": "Reports described providers offering everything from practical help to encouragement on ____ mountain walks.",
+            "a": "demanding"
           },
           {
             "s": "Much of the discomfort may ____ a question of honesty.",
             "a": "boil down to"
           },
           {
-            "s": "Social life has always involved favours and ____.",
-            "a": "quiet accounting"
+            "s": "What unsettles observers is seeing the exchange stated in a price rather than left politely ____.",
+            "a": "unspoken"
           },
           {
             "s": "Reliable human presence has become a surprisingly ____.",
@@ -234,35 +234,35 @@
           }
         ],
         "extra": [
-          "draw on",
+          "dependable",
           "simplistic"
         ]
       },
       "match": [
         {
-          "t": "draw on",
-          "d": "use a skill or resource you already have"
+          "t": "write off",
+          "d": "decide that something is not worth taking seriously"
         },
         {
           "t": "boil down to",
           "d": "be reducible to one essential point"
         },
         {
-          "t": "simplistic",
-          "d": "treating something as simpler than it is"
+          "t": "marketable",
+          "d": "able to be sold or offered for money"
         },
         {
-          "t": "reciprocal",
-          "d": "given by each side to the other"
+          "t": "simplistic",
+          "d": "treating something as simpler than it is"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "Friendship is understood as voluntary and ____ to calculation.",
-            "cue": "RESIST",
-            "a": "resistant"
+            "s": "____ companionship introduces an unusual kind of clarity.",
+            "cue": "COMMERCIAL",
+            "a": "Commercialising|Commercializing"
           },
           {
             "s": "Geographic ____ leaves people surrounded by strangers.",
@@ -270,9 +270,9 @@
             "a": "mobility"
           },
           {
-            "s": "Commercialising companionship introduces an unusual kind of ____.",
-            "cue": "CLEAR",
-            "a": "clarity"
+            "s": "Neither party has to pretend that the arrangement is an ____ personal bond.",
+            "cue": "ENDURE",
+            "a": "enduring"
           },
           {
             "s": "The transaction may sharpen existing ____.",
@@ -282,7 +282,7 @@
           {
             "s": "Those skills are easy to ____ and easy to undervalue.",
             "cue": "ROMANTIC",
-            "a": "romanticise"
+            "a": "romanticise|romanticize"
           }
         ]
       },
@@ -290,12 +290,12 @@
         {
           "s": "Reporting in June 2026 described providers offering encouragement on mountain walks.",
           "a": "T",
-          "why": "The text says: \"Reporting in June 2026 described providers offering everything from practical assistance to encouragement on demanding mountain walks.\""
+          "why": "The text says: \"Reporting in June 2026 described this so-called companionship economy, with providers offering everything from practical assistance to encouragement on demanding mountain walks.\""
         },
         {
           "s": "Most companions are university students.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say who the companions are, for example students."
         },
         {
           "s": "The writer treats the industry as proof that friendship has disappeared.",
@@ -303,7 +303,7 @@
           "why": "The text says the opposite: \"It would be simplistic, however, to write the industry off as proof that friendship has disappeared.\""
         },
         {
-          "s": "The article says this kind of work is easy to undervalue.",
+          "s": "Paid companionship is a job that is easy to undervalue.",
           "a": "T",
           "why": "The text says: \"Remaining attentive and interested for a paying stranger is genuinely demanding, and it is a job that is easy to romanticise and easy to undervalue at the same time.\""
         }

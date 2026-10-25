@@ -5,7 +5,7 @@
       "gap": {
         "items": [
           {
-            "s": "A ____ is the part of a song that people sing together again and again.",
+            "s": "Everyone sings the ____ together, but only the singer knows every verse.",
             "a": "chorus"
           },
           {
@@ -57,19 +57,19 @@
             "a": "published"
           },
           {
-            "s": "Songs in 16 languages ____ its Global Top 50 chart in 2025.",
-            "cue": "reach",
-            "a": "reached"
+            "s": "Maybe it's a voice that ____ happy, sad or strong.",
+            "cue": "sound",
+            "a": "sounds"
           },
           {
-            "s": "Maybe it's a friend who ____ it for you.",
-            "cue": "play",
-            "a": "played"
+            "s": "Describe the song in three words without ____ anything.",
+            "cue": "translate",
+            "a": "translating"
           },
           {
-            "s": "That ____ more than double the number in 2020.",
+            "s": "Then check the meaning and see if you ____ close.",
             "cue": "be",
-            "a": "is"
+            "a": "were"
           },
           {
             "s": "Others ____ the meaning disappointing and prefer the mystery.",
@@ -80,19 +80,19 @@
       },
       "tfn": [
         {
-          "s": "The report was published in March 2026.",
+          "s": "Spotify's report came out in March 2026.",
           "a": "T",
           "why": "The text says: \"In March 2026, the music service Spotify published a report about its own data.\""
         },
         {
-          "s": "In 2025, songs in 16 languages reached the Global Top 50 chart.",
+          "s": "The number of languages in the Global Top 50 more than doubled between 2020 and 2025.",
           "a": "T",
-          "why": "The text says: \"It said that in 2025, songs in 16 different languages reached its Global Top 50 chart.\""
+          "why": "The text says: \"songs in 16 different languages reached its Global Top 50 chart, more than double the number in 2020\""
         },
         {
-          "s": "The report shows what every teenager in the world likes.",
+          "s": "The report comes from a group of different music companies.",
           "a": "F",
-          "why": "The text says the opposite: \"It doesn't tell us what every listener does, or what teenagers in your country like.\""
+          "why": "The text says the opposite: \"That is one company's figure about its own service\""
         },
         {
           "s": "Scientists have proved why people enjoy songs in languages they don't speak.",
@@ -118,8 +118,8 @@
             "a": "streaming"
           },
           {
-            "s": "Like most company reports, it also ____ the company.",
-            "a": "promotes"
+            "s": "A simple chorus is easy to ____ in, even if you only copy the sounds.",
+            "a": "join"
           },
           {
             "s": "The language of a song doesn't tell us the artist's ____.",
@@ -141,8 +141,8 @@
           "d": "the country a person belongs to"
         },
         {
-          "t": "streaming",
-          "d": "playing music over the internet without downloading it"
+          "t": "fragile",
+          "d": "delicate and easy to break"
         },
         {
           "t": "wordplay",
@@ -162,9 +162,9 @@
             "a": "published"
           },
           {
-            "s": "Songs in 16 languages ____ its Global Top 50 in 2025.",
-            "cue": "reach",
-            "a": "reached"
+            "s": "A song often ____ attached to a friend, a video or a moment.",
+            "cue": "arrive",
+            "a": "arrives"
           },
           {
             "s": "Many fans enjoy ____ up a translation.",
@@ -185,7 +185,7 @@
       },
       "tfn": [
         {
-          "s": "Spotify's report was based on its own streaming data.",
+          "s": "Spotify made its report using data from its own service.",
           "a": "T",
           "why": "The text says: \"In March 2026, Spotify published a report called Loud & Clear, based on its own streaming data.\""
         },
@@ -195,9 +195,9 @@
           "why": "The text says: \"The report also named Brazilian funk, K-pop and reggaeton among the fastest-growing music styles on its service.\""
         },
         {
-          "s": "The report says how many listeners understand the languages of the songs.",
+          "s": "The language of a song tells us the nationality of the artist.",
           "a": "F",
-          "why": "The text says the opposite: \"It doesn't say how many listeners understand the languages, where they live or how old they are.\""
+          "why": "The text says the opposite: \"the language of a song doesn't tell us the nationality of the artist\""
         },
         {
           "s": "Researchers have tested and proved why songs travel across languages.",
@@ -231,8 +231,8 @@
             "a": "register"
           },
           {
-            "s": "Artists on average earn more than half of their ____ from outside their home country.",
-            "a": "royalties"
+            "s": "A translation might ____ a joke you missed, or a story you did not expect.",
+            "a": "reveal"
           }
         ],
         "extra": [
@@ -246,8 +246,8 @@
           "d": "how formal or informal the language is"
         },
         {
-          "t": "royalties",
-          "d": "money paid to artists when their music is used"
+          "t": "deliberately",
+          "d": "done on purpose, not by accident"
         },
         {
           "t": "cold",
@@ -262,14 +262,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "The language of a song doesn't establish the artist's ____.",
+            "s": "The chart cannot tell us the artist's ____.",
             "cue": "NATION",
             "a": "nationality"
           },
           {
-            "s": "Rhythm and voice carry ____ before meaning arrives.",
-            "cue": "EMOTIONAL",
-            "a": "emotion"
+            "s": "Spotify is a company with an interest in showing ____.",
+            "cue": "GROW",
+            "a": "growth"
           },
           {
             "s": "____ makes a chorus easy to join.",
@@ -282,17 +282,17 @@
             "a": "recommendation"
           },
           {
-            "s": "A song can gain ____ far from where it began.",
-            "cue": "POPULAR",
-            "a": "popularity"
+            "s": "Joining in is a way of ____.",
+            "cue": "BELONG",
+            "a": "belonging"
           }
         ]
       },
       "tfn": [
         {
-          "s": "On average, artists earn more than half of their royalties from outside their home country within two years of debuting, according to the report.",
+          "s": "A song can reach the chart because it is played often, not because listeners adore it.",
           "a": "T",
-          "why": "The text says: \"artists on average earn more than half of their royalties from outside their home country within two years of debuting\""
+          "why": "The text says: \"A chart also counts plays, not love: a song can be played often because a friend sent it or because it suits the background, not because anyone adores it.\""
         },
         {
           "s": "The report gives an exact count of the languages in the 2020 Global Top 50.",
@@ -300,7 +300,7 @@
           "why": "The text says the opposite: \"the report gives no exact count for 2020\""
         },
         {
-          "s": "In 2025, songs in 16 languages reached the Global Top 50, more than double the number in 2020.",
+          "s": "The number of languages in Spotify's Global Top 50 more than doubled from 2020 to 2025.",
           "a": "T",
           "why": "The text says: \"songs in 16 languages reached the service's Global Top 50, more than double the number in 2020\""
         },

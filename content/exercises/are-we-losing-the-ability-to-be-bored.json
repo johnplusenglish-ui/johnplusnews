@@ -21,12 +21,12 @@
             "a": "take up"
           },
           {
-            "s": "A new video may ____ for a short time.",
+            "s": "If a moment feels empty, a new video may ____ for a short time.",
             "a": "take our mind off it"
           }
         ],
         "extra": [
-          "get used to",
+          "satisfying",
           "uncomfortable"
         ]
       },
@@ -57,19 +57,19 @@
             "a": "waiting"
           },
           {
-            "s": "Two psychologists ____ in 2024 discussed evidence about boredom.",
-            "cue": "write",
-            "a": "writing"
-          },
-          {
-            "s": "The brain ____ used to something new appearing every few seconds.",
-            "cue": "get",
-            "a": "gets"
-          },
-          {
-            "s": "The researchers ____ a possible explanation, not proving a cause.",
+            "s": "Two psychologists in 2024 ____ evidence that boredom may be increasing.",
             "cue": "discuss",
-            "a": "were discussing"
+            "a": "discussed"
+          },
+          {
+            "s": "A phone ____ thousands of choices.",
+            "cue": "offer",
+            "a": "offers"
+          },
+          {
+            "s": "We use phones ____ to friends, learn new things and organise our lives.",
+            "cue": "talk",
+            "a": "to talk"
           },
           {
             "s": "Next time you have five empty minutes, you could try ____ your phone away.",
@@ -85,14 +85,14 @@
           "why": "The text says: \"However, two psychologists writing in the journal Communications Psychology in 2024 discussed evidence that boredom may actually be increasing.\""
         },
         {
-          "s": "People do not all feel boredom in the same way.",
+          "s": "Different people experience boredom in different ways.",
           "a": "T",
           "why": "The text says: \"People do not all feel boredom in the same way.\""
         },
         {
           "s": "Children are more easily bored than adults, according to the study.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether children are more easily bored than adults."
         },
         {
           "s": "The researchers proved that phones cause boredom.",
@@ -121,8 +121,8 @@
             "a": "a sense of purpose"
           },
           {
-            "s": "An occasional boring moment allows our ____.",
-            "a": "thoughts to wander"
+            "s": "Researchers distinguish an occasional boring moment from ____ boredom that interferes with wellbeing.",
+            "a": "persistent"
           },
           {
             "s": "Being bored is not always a sign that something has ____.",
@@ -149,7 +149,7 @@
         },
         {
           "t": "keep up with",
-          "d": "stay in contact with people or changes"
+          "d": "stay in regular contact and know what is new in somebody's life"
         }
       ],
       "grammar": {
@@ -171,9 +171,9 @@
             "a": "isolation"
           },
           {
-            "s": "Researchers distinguish an occasional moment from ____ boredom.",
-            "cue": "PERSIST",
-            "a": "persistent"
+            "s": "Instead of becoming absorbed, we look around for something more ____.",
+            "cue": "STIMULATE",
+            "a": "stimulating"
           },
           {
             "s": "The hypothesis questions a pattern of ____ consumption.",
@@ -201,7 +201,7 @@
         {
           "s": "Boredom has risen fastest among teenagers.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say which age group has become most bored."
         }
       ]
     },
@@ -209,16 +209,16 @@
       "gap": {
         "items": [
           {
-            "s": "A few seconds of waiting can feel like ____.",
-            "a": "a gap that demands to be filled"
+            "s": "Whenever boredom appears, we can ____ an almost limitless supply of stimulation.",
+            "a": "summon"
           },
           {
             "s": "The phone offers an ____ escape from the moment.",
             "a": "effortless"
           },
           {
-            "s": "Their argument is ____, not definitive evidence.",
-            "a": "a research-informed hypothesis"
+            "s": "Their argument is a ____ hypothesis, not definitive evidence of a single cause.",
+            "a": "research-informed"
           },
           {
             "s": "We move on before boredom can ____.",
@@ -229,8 +229,8 @@
             "a": "unmet needs"
           },
           {
-            "s": "None of this requires ____.",
-            "a": "a heroic digital detox"
+            "s": "None of this requires a ____ digital detox.",
+            "a": "heroic"
           }
         ],
         "extra": [
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The anticipated ____ of boredom has not materialised.",
-            "cue": "DISAPPEAR",
-            "a": "disappearance"
+            "s": "Someone can be busy yet deeply bored if their activities feel ____.",
+            "cue": "MEANING",
+            "a": "meaningless"
           },
           {
             "s": "Digital platforms often reward rapid ____.",
@@ -275,9 +275,9 @@
             "a": "distressing"
           },
           {
-            "s": "There is also a risk of ____ about earlier generations.",
-            "cue": "NOSTALGIC",
-            "a": "nostalgia"
+            "s": "The same platform can provide relief or an ____ sequence of distractions.",
+            "cue": "SATISFY",
+            "a": "unsatisfying"
           },
           {
             "s": "Deliberate ____ in a creative project may help.",
@@ -290,7 +290,7 @@
         {
           "s": "The researchers recommend a daily limit on phone use.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say that the researchers recommend any daily limit on phone use."
         },
         {
           "s": "The writers suggest digital media may contribute to the feeling it promises to remove.",
@@ -303,7 +303,7 @@
           "why": "The text says: \"Someone can be busy yet deeply bored if their activities feel meaningless.\""
         },
         {
-          "s": "The article concludes that all screen time is interchangeable.",
+          "s": "All screen time has the same effect on boredom.",
           "a": "F",
           "why": "The text says the opposite: \"Treating all screen time as interchangeable obscures those differences and risks replacing one simplistic explanation with another.\""
         }

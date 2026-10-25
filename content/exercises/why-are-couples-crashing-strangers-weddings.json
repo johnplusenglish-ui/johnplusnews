@@ -5,8 +5,8 @@
       "gap": {
         "items": [
           {
-            "s": "Nobody invited them, so why have they ____?",
-            "a": "turned up"
+            "s": "Seeing a real wedding can help couples ____ about which venue to choose.",
+            "a": "make up their minds"
           },
           {
             "s": "Some couples visit other people's weddings to ____ the venue.",
@@ -21,8 +21,8 @@
             "a": "get in the way"
           },
           {
-            "s": "A real wedding gives visitors ____.",
-            "a": "a much more complete picture"
+            "s": "If the room feels wrong on the morning of the wedding, there is no ____.",
+            "a": "second chance"
           }
         ],
         "extra": [
@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "The practice ____ an undercover tour.",
-            "cue": "call",
-            "a": "has been called"
+            "s": "Imagine you ____ your own wedding when you notice two strangers at the back of the room.",
+            "cue": "enjoy",
+            "a": "are enjoying"
           },
           {
             "s": "Booking a venue often means ____ a large deposit.",
@@ -72,9 +72,9 @@
             "a": "imagined"
           },
           {
-            "s": "They are studying the room rather than ____ themselves.",
-            "cue": "enjoy",
-            "a": "enjoying"
+            "s": "Booking a venue is hard to undo, and it is not easy ____ your mind later.",
+            "cue": "change",
+            "a": "to change"
           }
         ]
       },
@@ -92,7 +92,7 @@
         {
           "s": "Venues in South Korea have banned the practice.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say that any South Korean venue has banned the practice."
         },
         {
           "s": "The visitors are studying the room rather than celebrating.",
@@ -113,16 +113,16 @@
             "a": "in action"
           },
           {
-            "s": "There is pressure to ____.",
-            "a": "get every detail right"
+            "s": "Couples have understandable reasons for ____ so carefully.",
+            "a": "weighing everything up"
           },
           {
             "s": "____ later would mean losing money.",
             "a": "Backing out"
           },
           {
-            "s": "Nobody would buy a car without ____ first.",
-            "a": "taking it out for a drive"
+            "s": "The couple getting married may ____ strangers using their celebration for research.",
+            "a": "resent"
           },
           {
             "s": "Clear pricing would help couples book with some ____.",
@@ -184,7 +184,7 @@
       },
       "tfn": [
         {
-          "s": "Supporters present the practice as sensible research.",
+          "s": "Supporters see the visits as a sensible way to research a venue.",
           "a": "T",
           "why": "The text says: \"Supporters of the practice present it as sensible research.\""
         },
@@ -194,14 +194,14 @@
           "why": "The text says the opposite: \"Invited guests may feel uncomfortable when unfamiliar people wander around, and the couple getting married may resent strangers using their celebration for research.\""
         },
         {
-          "s": "The article suggests supervised visits as an alternative.",
+          "s": "Supervised visits arranged with the couple's permission are put forward as an alternative.",
           "a": "T",
           "why": "The text says: \"Supervised visits during real events, arranged with the couple's permission, would give customers the same information without the secrecy.\""
         },
         {
           "s": "Most South Korean venues now offer video tours.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many South Korean venues offer video tours."
         }
       ]
     },
@@ -209,12 +209,12 @@
       "gap": {
         "items": [
           {
-            "s": "Some couples have adopted an ____ method of assessing venues.",
-            "a": "unconventional"
+            "s": "Some couples have tried an unusual form of research: ____ at strangers' weddings without an invitation.",
+            "a": "turning up"
           },
           {
-            "s": "A ____ showroom presentation reveals little about the real atmosphere.",
-            "a": "polished"
+            "s": "For a couple facing a big commitment, ____ observation can seem more valuable than another brochure.",
+            "a": "firsthand"
           },
           {
             "s": "____ while it is working is the one test marketing cannot stage.",
@@ -244,8 +244,8 @@
           "d": "rely on something when nothing else helps"
         },
         {
-          "t": "size somebody up",
-          "d": "form a judgement by observing carefully"
+          "t": "size up",
+          "d": "form a judgement about something by looking at it carefully"
         },
         {
           "t": "glossy",
@@ -260,14 +260,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "Ceremonies can involve substantial ____ and intense expectations.",
-            "cue": "EXPEND",
-            "a": "expenditure"
+            "s": "Critics are ____ by the comparison with other large purchases.",
+            "cue": "PERSUADE",
+            "a": "unpersuaded"
           },
           {
-            "s": "A brochure reveals little about the ____ of the staff.",
-            "cue": "COMPETENT",
-            "a": "competence"
+            "s": "The underlying logic is that of any ____ consumer.",
+            "cue": "CAUTION",
+            "a": "cautious"
           },
           {
             "s": "____, on that reading, is a question of consent.",
@@ -280,15 +280,15 @@
             "a": "transparency"
           },
           {
-            "s": "Ordinary caution can shade into something closer to ____.",
-            "cue": "INTRUDE",
-            "a": "intrusion"
+            "s": "Couples face complicated packages, limited ____ and high prices.",
+            "cue": "AVAILABLE",
+            "a": "availability"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The article suggests the industry helped create the behaviour.",
+          "s": "The writer wonders whether the wedding industry itself helped create the behaviour.",
           "a": "T",
           "why": "The text says: \"If a wedding has become something to be researched like a car or a property investment, perhaps the industry itself has helped create the behaviour it now finds so awkward.\""
         },
@@ -300,7 +300,7 @@
         {
           "s": "Korean wedding spending has risen in recent years.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether wedding spending in Korea has risen."
         },
         {
           "s": "Wedding venues are commercial premises hosting private occasions.",

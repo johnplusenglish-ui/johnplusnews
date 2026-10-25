@@ -62,14 +62,14 @@
             "a": "escaped"
           },
           {
-            "s": "Both paintings ____ to the museum by the Musée d'Orsay.",
-            "cue": "lend",
-            "a": "had been lent"
+            "s": "They were trying ____ four paintings.",
+            "cue": "steal",
+            "a": "to steal"
           },
           {
-            "s": "Police eventually ____ the two missing Renoirs.",
-            "cue": "recover",
-            "a": "recovered"
+            "s": "Buyers know that such works ____ around the world.",
+            "cue": "recognise",
+            "a": "are recognised"
           },
           {
             "s": "Specialists ____ to examine them before their return.",
@@ -87,15 +87,15 @@
         {
           "s": "The thieves escaped with all four paintings.",
           "a": "F",
-          "why": "The text says the opposite: \"They escaped with two artworks but left the other two behind.\""
+          "why": "The text says the opposite: \"They escaped with only two of the four.\""
         },
         {
           "s": "The museum has since installed new security cameras.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the museum has changed its security."
         },
         {
-          "s": "A cover left behind contained DNA that helped identify a suspect.",
+          "s": "DNA found on an item left at the scene helped police identify a suspect.",
           "a": "T",
           "why": "The text says: \"A cover left behind during the escape contained DNA that helped identify a suspect.\""
         }
@@ -140,12 +140,12 @@
           "d": "escape while keeping something stolen"
         },
         {
-          "t": "track somebody down",
-          "d": "find somebody after a long search"
-        },
-        {
           "t": "glamorous",
           "d": "exciting and attractive in an unusual way"
+        },
+        {
+          "t": "track down",
+          "d": "find a person or thing after a long search"
         },
         {
           "t": "piece together",
@@ -161,14 +161,14 @@
             "a": "striking"
           },
           {
-            "s": "Officers used tracking information and further ____.",
-            "cue": "SURVEY",
-            "a": "surveillance"
+            "s": "The paintings had escaped permanent ____.",
+            "cue": "DISAPPEAR",
+            "a": "disappearance"
           },
           {
-            "s": "A small institution can hold works of ____ value.",
-            "cue": "IMMENSITY",
-            "a": "immense"
+            "s": "A small cultural institution can hold works of immense ____ and historical value.",
+            "cue": "FINANCE",
+            "a": "financial"
           },
           {
             "s": "Those charges were ____ to be tested in court.",
@@ -184,14 +184,14 @@
       },
       "tfn": [
         {
-          "s": "The Marseille prosecutor valued the stolen works at about €4.2 million.",
+          "s": "According to a prosecutor, the stolen paintings were worth roughly €4.2 million.",
           "a": "T",
           "why": "The text says: \"The haul the thieves got away with was later valued by the Marseille prosecutor at approximately €4.2 million.\""
         },
         {
           "s": "The stolen paintings were insured for their full value.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the paintings were insured."
         },
         {
           "s": "One suspect had visited the Maeght Foundation.",
@@ -201,7 +201,7 @@
         {
           "s": "The four men charged had been convicted of the theft.",
           "a": "F",
-          "why": "The text says the opposite: \"Six people were arrested in total, and four men received preliminary charges connected with the theft or handling stolen goods.\""
+          "why": "The text says the opposite: \"Those charges were allegations to be tested through the legal process, not convictions.\""
         }
       ]
     },
@@ -213,8 +213,8 @@
             "a": "made off"
           },
           {
-            "s": "Investigators faced an unusually ____ theft.",
-            "a": "conspicuous"
+            "s": "Investigators had to work through the forensic clues the thieves had ____.",
+            "a": "left behind"
           },
           {
             "s": "The alarm ____ before all four works could be taken.",
@@ -229,7 +229,7 @@
             "a": "a persistent weakness"
           },
           {
-            "s": "The harder a masterpiece is to ____ discreetly, the riskier the crime.",
+            "s": "The more recognisable a stolen masterpiece becomes, the harder it is to ____ it discreetly.",
             "a": "dispose of"
           }
         ],
@@ -266,13 +266,13 @@
           },
           {
             "s": "Their cultural ____ made the disappearance troubling.",
-            "cue": "SIGNIFY",
+            "cue": "SIGNIFICANT",
             "a": "significance"
           },
           {
-            "s": "Officers reconstructed links between individuals and ____.",
-            "cue": "LOCATE",
-            "a": "locations"
+            "s": "The physical harm showed that art theft is not simply a dispute over ____.",
+            "cue": "OWN",
+            "a": "ownership"
           },
           {
             "s": "The works were transferred for specialist examination and potential ____.",
@@ -280,32 +280,32 @@
             "a": "restoration"
           },
           {
-            "s": "Regional museums share a ____ that major galleries do not.",
-            "cue": "VULNERABLE",
-            "a": "vulnerability"
+            "s": "Beyond the ____ hiding place, the case exposed a vulnerability shared by many regional museums.",
+            "cue": "PROBABLE",
+            "a": "improbable"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Officials reported a torn canvas and damage to a frame.",
+          "s": "The recovered works had suffered some physical damage.",
           "a": "T",
           "why": "The text says: \"The paintings were recovered, but not unscathed: officials reported a torn canvas and damage to a frame.\""
         },
         {
-          "s": "Municipal police reached the museum five minutes after the alarm.",
+          "s": "The police arrived within five minutes of the alarm starting.",
           "a": "T",
           "why": "The text says: \"Five minutes later, municipal police were at the scene.\""
         },
         {
           "s": "A trial date has been set for the four men charged.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention a trial or any court date."
         },
         {
-          "s": "The article treats all the allegations as established facts.",
+          "s": "The four men who were charged had already been convicted.",
           "a": "F",
-          "why": "The text says the opposite: \"Describing the investigation as a solved mystery should not be mistaken for treating all allegations as established facts.\""
+          "why": "The text says the opposite: \"The legal distinction matters: prosecutors had set out their case, but the suspects had not been convicted.\""
         }
       ]
     }

@@ -62,12 +62,12 @@
             "a": "was forced"
           },
           {
-            "s": "The building ____ bought by new owners.",
-            "cue": "have",
-            "a": "had been"
+            "s": "The building had been ____ by new owners.",
+            "cue": "buy",
+            "a": "bought"
           },
           {
-            "s": "Her death ____ to demonstrations across Spain.",
+            "s": "Her death ____ to demonstrations in the days after.",
             "cue": "lead",
             "a": "led"
           },
@@ -80,19 +80,19 @@
       },
       "tfn": [
         {
-          "s": "Maricarmen Abascal had lived in the same flat for more than 70 years.",
+          "s": "Maricarmen spent over seven decades in one Madrid flat.",
           "a": "T",
           "why": "The text says: \"For more than 70 years, Maricarmen Abascal lived in the same flat in Madrid.\""
         },
         {
-          "s": "Her death led to demonstrations about Spain's housing crisis.",
+          "s": "People protested about housing after she died.",
           "a": "T",
           "why": "The text says: \"Her death led to demonstrations and renewed anger about Spain's housing crisis.\""
         },
         {
           "s": "The new owners later apologised to her family.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention any apology from the new owners."
         },
         {
           "s": "She returned to her flat after the agreement was reached.",
@@ -140,16 +140,16 @@
           "d": "arrive and leave over a period of time"
         },
         {
-          "t": "price somebody out of",
-          "d": "make something too expensive for somebody"
-        },
-        {
-          "t": "rent out",
-          "d": "let other people use your property for money"
+          "t": "priced out of",
+          "d": "unable to live somewhere because it has become too expensive"
         },
         {
           "t": "strict",
           "d": "allowing very little freedom to do otherwise"
+        },
+        {
+          "t": "rent out",
+          "d": "let other people use your property for money"
         }
       ],
       "grammar": {
@@ -166,9 +166,9 @@
             "a": "elderly"
           },
           {
-            "s": "The ____ eventually ordered an eviction.",
-            "cue": "AUTHORISE",
-            "a": "authorities"
+            "s": "Her case became a symbol of Spain's growing ____ over housing costs.",
+            "cue": "ANGRY",
+            "a": "anger"
           },
           {
             "s": "Campaigners call for stronger tenant ____ and more public housing.",
@@ -189,19 +189,19 @@
           "why": "The text says: \"Maricarmen lived in the Retiro area of Madrid under an older rental arrangement that gave her some protection from market prices.\""
         },
         {
-          "s": "Popular tourist areas face extra pressure from short-term holiday rentals.",
+          "s": "Short-term holiday rentals add to the pressure in tourist areas.",
           "a": "T",
           "why": "The text says: \"Popular tourist areas face additional pressure from short-term holiday rentals.\""
         },
         {
           "s": "The Spanish government introduced new rent controls after her death.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the government introduced new rent controls."
         },
         {
           "s": "Doctors confirmed that the eviction caused her death.",
           "a": "F",
-          "why": "The text says the opposite: \"Her supporters linked the stress of the dispute to her suffering, although it would be wrong to claim that the eviction was medically established as the cause of her death.\""
+          "why": "The text says the opposite: \"But nobody has shown that the eviction caused her death.\""
         }
       ]
     },
@@ -217,16 +217,16 @@
             "a": "became embroiled in"
           },
           {
-            "s": "Her agreement allowed her to remain ____.",
-            "a": "on favourable terms"
+            "s": "That is why Abascal's story ____.",
+            "a": "struck a nerve"
           },
           {
             "s": "Photographs of the ____ woman became a stark illustration of the case.",
             "a": "frail"
           },
           {
-            "s": "The pictures showed ____ of a legal process.",
-            "a": "the human stakes"
+            "s": "A successful housing policy has to ____ affordability, supply and legal certainty.",
+            "a": "grapple with"
           },
           {
             "s": "Attributing her death directly to the eviction would ____ the medical evidence.",
@@ -235,7 +235,7 @@
         ],
         "extra": [
           "lucrative",
-          "force out"
+          "favourable"
         ]
       },
       "match": [
@@ -252,27 +252,27 @@
           "d": "producing a great deal of money"
         },
         {
-          "t": "force somebody out",
-          "d": "make somebody leave against their will"
+          "t": "obscure",
+          "d": "make something harder to see or understand"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "That connection was severed by an eviction that would ____ far beyond her street.",
-            "cue": "REVERBERATION",
-            "a": "reverberate"
+            "s": "Wage growth has not ____ matched the cost of renting or buying.",
+            "cue": "CONSISTENT",
+            "a": "consistently"
           },
           {
-            "s": "Campaigners pointed to the pressure on long-____ residents.",
-            "cue": "STAND",
-            "a": "standing"
+            "s": "Young workers are struggling to establish ____ households.",
+            "cue": "DEPEND",
+            "a": "independent"
           },
           {
-            "s": "The circumstances prompted widespread ____.",
-            "cue": "OUTRAGEOUS",
-            "a": "outrage"
+            "s": "Neither position should obscure the structural ____ of the crisis.",
+            "cue": "COMPLEX",
+            "a": "complexity"
           },
           {
             "s": "Daily routines can be destroyed by ____.",
@@ -290,12 +290,12 @@
         {
           "s": "The building's new owners were a foreign investment company.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say who the new owners were."
         },
         {
-          "s": "Abascal had occupied the same flat for more than 70 years.",
+          "s": "Abascal spent more than seven decades in one Madrid flat.",
           "a": "T",
-          "why": "The text says: \"She had occupied the same flat for more than 70 years, long enough for its walls and surrounding streets to hold most of her personal history.\""
+          "why": "The text says: \"Maricarmen Abascal had lived in the same Madrid flat for more than 70 years.\""
         },
         {
           "s": "Medical evidence established the eviction as the cause of her death.",
@@ -303,7 +303,7 @@
           "why": "The text says the opposite: \"The circumstances prompted widespread outrage, although attributing her death directly to the eviction would go beyond the available medical evidence.\""
         },
         {
-          "s": "Tenant organisations are calling for investment in social housing.",
+          "s": "Tenant groups want more social housing to be funded.",
           "a": "T",
           "why": "The text says: \"Tenant organisations call for greater security, stronger regulation and investment in social housing.\""
         }

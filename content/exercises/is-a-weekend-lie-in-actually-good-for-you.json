@@ -13,7 +13,7 @@
             "a": "catch up on"
           },
           {
-            "s": "By Friday, many adults feel ____.",
+            "s": "After a week of early starts, many adults feel ____ by Friday.",
             "a": "exhausted"
           },
           {
@@ -21,8 +21,8 @@
             "a": "make up for"
           },
           {
-            "s": "Try not to ____, and remember that sleep during the week matters most.",
-            "a": "go overboard"
+            "s": "Going to bed at a ____ time helps your body know when to feel sleepy.",
+            "a": "sensible"
           }
         ],
         "extra": [
@@ -32,8 +32,8 @@
       },
       "match": [
         {
-          "t": "go overboard",
-          "d": "do far more of something than you need to"
+          "t": "linked to",
+          "d": "connected with something, perhaps as a cause or an effect"
         },
         {
           "t": "catch up on",
@@ -57,9 +57,9 @@
             "a": "presented"
           },
           {
-            "s": "They looked at information from around 40,000 adults ____ in South Korea.",
-            "cue": "live",
-            "a": "living"
+            "s": "But then you remember something you have ____ many times.",
+            "cue": "hear",
+            "a": "heard"
           },
           {
             "s": "An extra hour in bed may help them ____ from some lost sleep.",
@@ -82,7 +82,7 @@
         {
           "s": "Most South Korean adults sleep later at weekends than on weekdays.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many South Korean adults sleep later at weekends."
         },
         {
           "s": "The researchers used information from around 40,000 adults in South Korea.",
@@ -109,7 +109,7 @@
             "a": "feeling of guilt"
           },
           {
-            "s": "Participants who caught up on sleep had lower odds of ____.",
+            "s": "Participants who caught up on sleep had lower odds of ____, or high blood pressure.",
             "a": "hypertension"
           },
           {
@@ -121,7 +121,7 @@
             "a": "cutting back"
           },
           {
-            "s": "A ____ lie-in may be a reasonable way to catch your breath.",
+            "s": "A ____ lie-in after an exhausting week is not necessarily harmful.",
             "a": "moderate"
           },
           {
@@ -156,7 +156,7 @@
         "kind": "word",
         "items": [
           {
-            "s": "Participants who caught up on sleep had a slightly lower ____ of hypertension.",
+            "s": "They compared people's sleep with the ____ of having high blood pressure.",
             "cue": "LIKELY",
             "a": "likelihood"
           },
@@ -171,9 +171,9 @@
             "a": "favourable"
           },
           {
-            "s": "Experts recommend ____ bedtimes and waking times where possible.",
-            "cue": "CONSIST",
-            "a": "consistent"
+            "s": "You could get up, make coffee and start being ____.",
+            "cue": "PRODUCE",
+            "a": "productive"
           },
           {
             "s": "Extra time in bed cannot replace exercise or a ____ diet.",
@@ -201,7 +201,7 @@
         {
           "s": "The study found that women benefited more than men.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not compare the results for women and men."
         }
       ]
     },
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "For people who have accumulated a ____ during the week, catch-up sleep may help.",
-            "a": "sleep deficit"
+            "s": "Recent findings add some ____ to the usual advice about sleep schedules.",
+            "a": "nuance"
           },
           {
             "s": "That specific figure makes an ____ headline.",
@@ -270,19 +270,19 @@
             "a": "misleading"
           },
           {
-            "s": "There is a ____ physiological explanation for the pattern.",
-            "cue": "PLAUSIBILITY",
-            "a": "plausible"
+            "s": "There is a plausible ____ explanation for the pattern.",
+            "cue": "PHYSIOLOGY",
+            "a": "physiological"
           },
           {
-            "s": "Sleep specialists emphasise the importance of ____ rest all week.",
-            "cue": "ADEQUACY",
-            "a": "adequate"
+            "s": "Catch-up sleep should not become a ____ justification for five nights of deprivation.",
+            "cue": "CONVENIENCE",
+            "a": "convenient"
           },
           {
             "s": "Neither ____ tells us much about how tired those people really are.",
             "cue": "JUDGE",
-            "a": "judgement"
+            "a": "judgement|judgment"
           }
         ]
       },
@@ -295,7 +295,7 @@
         {
           "s": "The findings have changed official sleep guidance in South Korea.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text says nothing about official sleep guidance in South Korea."
         },
         {
           "s": "Researchers assigned people different amounts of weekend sleep.",

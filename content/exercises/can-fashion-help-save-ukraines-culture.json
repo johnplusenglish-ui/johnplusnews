@@ -62,9 +62,9 @@
             "a": "copy"
           },
           {
-            "s": "GUNIA says it ____ with more than 150 craftspeople.",
-            "cue": "work",
-            "a": "works"
+            "s": "Since 2022, protecting Ukrainian culture ____ especially important.",
+            "cue": "become",
+            "a": "has become"
           },
           {
             "s": "Artists may have ____ to a safer part of the country.",
@@ -72,9 +72,9 @@
             "a": "to move"
           },
           {
-            "s": "If a workshop closes, the knowledge inside it slowly ____ out.",
-            "cue": "die",
-            "a": "dies"
+            "s": "Buying handmade products can help workers carry on ____ their skills.",
+            "cue": "use",
+            "a": "using"
           }
         ]
       },
@@ -92,7 +92,7 @@
         {
           "s": "The company exports most of its products to Europe.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say where the company sells its products."
         },
         {
           "s": "GUNIA Project is based in Kyiv.",
@@ -113,8 +113,8 @@
             "a": "look into"
           },
           {
-            "s": "A familiar symbol might ____ on an unusual candle.",
-            "a": "crop up"
+            "s": "For designers, producing objects ____ Ukrainian culture can be a business decision.",
+            "a": "rooted in"
           },
           {
             "s": "The aim seems to be ____.",
@@ -137,7 +137,7 @@
       "match": [
         {
           "t": "crop up",
-          "d": "appear somewhere without being planned"
+          "d": "appear suddenly in a place"
         },
         {
           "t": "weigh up",
@@ -145,7 +145,7 @@
         },
         {
           "t": "end up",
-          "d": "finish in a situation you did not plan"
+          "d": "finally be in a situation, often without planning to"
         },
         {
           "t": "awkward",
@@ -156,14 +156,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The designers adapt ____ patterns for modern customers.",
-            "cue": "TRADITION",
-            "a": "traditional"
-          },
-          {
-            "s": "The brand creates clothing, tableware and ____ objects.",
-            "cue": "DECORATE",
-            "a": "decorative"
+            "s": "The brand makes clothing and objects inspired by ____ designs.",
+            "cue": "HISTORY",
+            "a": "historical"
           },
           {
             "s": "Military attacks and ____ have placed traditions under pressure.",
@@ -171,14 +166,19 @@
             "a": "displacement"
           },
           {
-            "s": "Designers must choose between respectful ____ and decoration.",
-            "cue": "INTERPRET",
-            "a": "reinterpretation"
+            "s": "Handmade products may be too ____ for many people.",
+            "cue": "EXPENSE",
+            "a": "expensive"
           },
           {
-            "s": "Cultural ____ took on greater urgency after 2022.",
-            "cue": "PRESERVE",
-            "a": "preservation"
+            "s": "Can a plate become part of a country's cultural ____?",
+            "cue": "SURVIVE",
+            "a": "survival"
+          },
+          {
+            "s": "Preserving culture does not always mean keeping old objects ____ behind glass.",
+            "cue": "TOUCH",
+            "a": "untouched"
           }
         ]
       },
@@ -191,7 +191,7 @@
         {
           "s": "The company has opened a shop outside Ukraine.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the company has a shop outside Ukraine."
         },
         {
           "s": "The writer says preserving culture can mean giving a skill new customers.",
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "Cultural preservation tends to ____ archives and museums.",
-            "a": "conjure up"
+            "s": "Heritage is lost when specialist knowledge stops ____.",
+            "a": "paying its way"
           },
           {
             "s": "The approach ____ conventional notions of heritage.",
@@ -221,8 +221,8 @@
             "a": "takes in"
           },
           {
-            "s": "Heritage is ____ when artisans are displaced and markets collapse.",
-            "a": "put at risk"
+            "s": "Supporters argue that allowing valuable techniques to ____ ordinary use would be a far greater loss.",
+            "a": "drop out of"
           },
           {
             "s": "Reinterpretation risks leaving motifs ____.",
@@ -234,18 +234,18 @@
           }
         ],
         "extra": [
-          "stumble upon",
-          "irreplaceable"
+          "irreplaceable",
+          "reverence"
         ]
       },
       "match": [
         {
-          "t": "conjure up",
-          "d": "bring an image into somebody's mind"
+          "t": "livelihood",
+          "d": "a way of earning enough money to live"
         },
         {
-          "t": "stumble upon",
-          "d": "discover something by accident"
+          "t": "reverence",
+          "d": "deep respect and admiration for something"
         },
         {
           "t": "take in",
@@ -260,29 +260,29 @@
         "kind": "word",
         "items": [
           {
-            "s": "Preservation usually suggests ____ restoration work.",
-            "cue": "PAIN",
-            "a": "painstaking"
+            "s": "A practice ____ of change is a practice waiting to be catalogued.",
+            "cue": "CAPABLE",
+            "a": "incapable"
           },
           {
-            "s": "Russia's invasion has made such work particularly ____.",
-            "cue": "RESONANCE",
-            "a": "resonant"
+            "s": "Keeping the network intact may call for as much ____ as conservation.",
+            "cue": "CREATE",
+            "a": "creativity"
           },
           {
-            "s": "Specialist knowledge may cease to be economically ____.",
-            "cue": "VIABILITY",
-            "a": "viable"
+            "s": "It is an ____ form of preservation, and perhaps a more durable one.",
+            "cue": "GLAMOUR",
+            "a": "unglamorous"
           },
           {
-            "s": "The relationship between commerce and heritage remains ____.",
-            "cue": "EASE",
+            "s": "The relationship between commerce and heritage remains ____, nonetheless.",
+            "cue": "EASY",
             "a": "uneasy"
           },
           {
-            "s": "Protecting monuments is comparatively ____.",
-            "cue": "FORWARD",
-            "a": "straightforward"
+            "s": "Protecting the monuments is ____ straightforward.",
+            "cue": "COMPARE",
+            "a": "comparatively"
           }
         ]
       },
@@ -290,7 +290,7 @@
         {
           "s": "The Ukrainian government funds the company's work.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say who pays for the company's work."
         },
         {
           "s": "The article says techniques survive partly because they are adapted.",

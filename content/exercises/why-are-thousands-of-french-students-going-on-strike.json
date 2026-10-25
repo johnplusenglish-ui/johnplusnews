@@ -33,7 +33,7 @@
       "match": [
         {
           "t": "put up with",
-          "d": "accept something unpleasant"
+          "d": "keep accepting something annoying and do not complain"
         },
         {
           "t": "join in",
@@ -54,7 +54,7 @@
           {
             "s": "Thousands of teenagers ____ lessons for a very different reason.",
             "cue": "miss",
-            "a": "have been missing"
+            "a": "have been missing|have missed"
           },
           {
             "s": "At some schools, lessons ____ because there are not enough staff.",
@@ -85,19 +85,19 @@
           "why": "The text says the opposite: \"Some parents and teachers supported the students, while others worried that staying away from lessons would make learning even harder.\""
         },
         {
-          "s": "The French government promised extra replacement teachers.",
+          "s": "The government agreed to send in more replacement teachers.",
           "a": "T",
           "why": "The text says: \"The French government said it would send in thousands of extra replacement teachers to schools that needed them.\""
         },
         {
-          "s": "More than 160,000 people joined the demonstrations on 13 October.",
+          "s": "According to the government, over 160,000 people took part on 13 October.",
           "a": "T",
           "why": "The text says: \"More than 160,000 people joined them, according to government figures, although the organisers gave a higher number.\""
         },
         {
           "s": "The protests have already led to new school buildings.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether any new school buildings have been built."
         }
       ]
     },
@@ -121,8 +121,8 @@
             "a": "put the figure much higher"
           },
           {
-            "s": "Their demands are modest, which is part of why they are hard to ____.",
-            "a": "brush off"
+            "s": "Students want to ____ in the decisions that shape their future.",
+            "a": "have a say"
           },
           {
             "s": "Unions argue the shortage has been ____ for years.",
@@ -140,8 +140,8 @@
           "d": "leave a place suddenly as a protest"
         },
         {
-          "t": "brush off",
-          "d": "refuse to take a complaint seriously"
+          "t": "spell out",
+          "d": "explain something clearly and completely"
         },
         {
           "t": "clear up",
@@ -156,9 +156,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "Their complaint is ____: schools are struggling.",
-            "cue": "FORWARD",
-            "a": "straightforward"
+            "s": "Prolonged ____ could leave them further behind.",
+            "cue": "DISRUPT",
+            "a": "disruption"
           },
           {
             "s": "Unions argued that temporary measures would not solve years of ____.",
@@ -166,14 +166,14 @@
             "a": "underinvestment"
           },
           {
-            "s": "Some marches led to clashes with police, injuries and ____.",
-            "cue": "ARREST",
-            "a": "arrests"
+            "s": "Her presence gave the campaign further ____.",
+            "cue": "PUBLIC",
+            "a": "publicity"
           },
           {
-            "s": "Campaigners accused police of using ____ force.",
-            "cue": "EXCESS",
-            "a": "excessive"
+            "s": "The main concerns were practical: ____ lessons, decent buildings and enough teachers.",
+            "cue": "RELY",
+            "a": "reliable"
           },
           {
             "s": "The movement raises the question of educational ____.",
@@ -184,7 +184,7 @@
       },
       "tfn": [
         {
-          "s": "The campaign gained attention at Lycée Paul Éluard in Saint-Denis.",
+          "s": "Students at Lycée Paul Éluard in Saint-Denis protested about problems at their school.",
           "a": "T",
           "why": "The text says: \"The campaign gained attention in Saint-Denis, near Paris, where pupils at Lycée Paul Éluard protested against serious problems at their school.\""
         },
@@ -194,14 +194,14 @@
           "why": "The text says the opposite: \"Some marches led to clashes with police, injuries and arrests, prompting concerns about the treatment of young demonstrators.\""
         },
         {
-          "s": "The government promised 3,000 additional replacement teachers.",
+          "s": "The government offered several thousand extra replacement teachers.",
           "a": "T",
           "why": "The text says: \"The government promised to provide 3,000 additional replacement teachers in the worst-affected areas.\""
         },
         {
           "s": "The education minister met the student organisers.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the education minister met the student organisers."
         }
       ]
     },
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "Pupils have mobilised in protest at ____ buildings and staff shortages.",
-            "a": "dilapidated"
+            "s": "Pupils have protested about ____ buildings and staff shortages.",
+            "a": "run-down"
           },
           {
             "s": "Students described an environment that ____ the promised standards.",
@@ -234,8 +234,8 @@
           }
         ],
         "extra": [
-          "lay bare",
-          "chronic"
+          "alleviate",
+          "grievances"
         ]
       },
       "match": [
@@ -248,12 +248,12 @@
           "d": "the way things are at the moment"
         },
         {
-          "t": "lay bare",
-          "d": "show clearly something that was hidden"
+          "t": "alleviate",
+          "d": "make a problem or pain less severe"
         },
         {
-          "t": "chronic",
-          "d": "lasting a long time and hard to cure"
+          "t": "grievance",
+          "d": "a reason for feeling you have been treated unfairly"
         }
       ],
       "grammar": {
@@ -265,9 +265,9 @@
             "a": "inadequate"
           },
           {
-            "s": "Their grievances ____ well beyond the school gates.",
-            "cue": "RESONANCE",
-            "a": "resonated"
+            "s": "The strikes reveal a generation of pupils ____ to be treated as passive recipients of policy.",
+            "cue": "WILLING",
+            "a": "unwilling"
           },
           {
             "s": "Schools are supposed to embody republican ____.",
@@ -275,9 +275,9 @@
             "a": "equality"
           },
           {
-            "s": "Shortages and ____ infrastructure are not distributed evenly.",
-            "cue": "DETERIORATE",
-            "a": "deteriorating"
+            "s": "Whether the movement secures lasting changes remains ____.",
+            "cue": "CERTAIN",
+            "a": "uncertain"
           },
           {
             "s": "Many teenagers are encountering organised political ____ for the first time.",
@@ -290,10 +290,10 @@
         {
           "s": "Similar school protests have begun in Belgium and Spain.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether similar protests have begun in other countries."
         },
         {
-          "s": "Ministers face pressure to contain public expenditure and debt.",
+          "s": "The government is under pressure to keep public spending down.",
           "a": "T",
           "why": "The text says: \"Ministers face another political constraint: pressure to contain public expenditure and debt.\""
         },
@@ -303,7 +303,7 @@
           "why": "The text says the opposite: \"Whether the movement secures lasting changes remains uncertain.\""
         },
         {
-          "s": "Official figures put the 13 October turnout above 160,000.",
+          "s": "Organisers believed the 13 October crowds were bigger than official figures suggested.",
           "a": "T",
           "why": "The text says: \"By 13 October, nationwide demonstrations had drawn more than 160,000 participants according to official figures, with organisers estimating substantially larger crowds.\""
         }

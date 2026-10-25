@@ -26,8 +26,8 @@
           }
         ],
         "extra": [
-          "go away",
-          "restful"
+          "restful",
+          "explore"
         ]
       },
       "match": [
@@ -36,16 +36,16 @@
           "d": "arrive somewhere you did not plan"
         },
         {
-          "t": "fit something into",
-          "d": "find room for it in a busy schedule"
-        },
-        {
           "t": "restful",
           "d": "giving you a feeling of calm"
         },
         {
-          "t": "go away",
-          "d": "leave home for a holiday"
+          "t": "explore",
+          "d": "walk around a place to learn what it is like"
+        },
+        {
+          "t": "organised",
+          "d": "planned and arranged for you by other people"
         }
       ],
       "grammar": {
@@ -69,7 +69,7 @@
           {
             "s": "Even a short weekend can feel restful if you do not try ____ too much in.",
             "cue": "fit",
-            "a": "to fit"
+            "a": "to fit|fitting"
           },
           {
             "s": "Before ____ every hour, it may be worth asking what you need.",
@@ -82,7 +82,7 @@
         {
           "s": "Slow holidays are becoming more popular in Europe.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether slow holidays are becoming popular in Europe."
         },
         {
           "s": "A 2025 Marist Poll found 45% named rest and relaxation as their aim.",
@@ -97,7 +97,7 @@
         {
           "s": "The article says everyone should take a slow holiday.",
           "a": "F",
-          "why": "The text says the opposite: \"Perhaps the best holiday is not the busiest or the quietest one.\""
+          "why": "The text says the opposite: \"Of course, doing nothing is not everybody's dream.\""
         }
       ]
     },
@@ -130,8 +130,8 @@
           }
         ],
         "extra": [
-          "get more out of",
-          "unstructured"
+          "unstructured",
+          "affordable"
         ]
       },
       "match": [
@@ -172,7 +172,7 @@
           },
           {
             "s": "Its ____ impact depends on more than the length of stay.",
-            "cue": "ENVIRON",
+            "cue": "ENVIRONMENT",
             "a": "environmental"
           },
           {
@@ -184,7 +184,7 @@
       },
       "tfn": [
         {
-          "s": "The Marist Poll was published in July 2025.",
+          "s": "The Marist Poll was carried out in July 2025.",
           "a": "T",
           "why": "The text says: \"In a July 2025 Marist Poll, 45% of Americans who planned a summer holiday said rest and relaxation were their main goal.\""
         },
@@ -196,10 +196,10 @@
         {
           "s": "Younger travellers prefer slower holidays.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say which age groups prefer slower holidays."
         },
         {
-          "s": "Slow travel means accepting that you will miss things.",
+          "s": "Slow travel means that some sights will not be seen.",
           "a": "T",
           "why": "The text says: \"Slow travel also means accepting that you will miss things.\""
         }
@@ -213,8 +213,8 @@
             "a": "a fear of missing out"
           },
           {
-            "s": "Holiday planning increasingly resembles ____.",
-            "a": "project management"
+            "s": "Someone can ____ plenty to show and little sense of having rested.",
+            "a": "come home with"
           },
           {
             "s": "A visitor may ____ indoors for a fortnight and see very little.",
@@ -229,22 +229,22 @@
             "a": "substantial expenditure"
           },
           {
-            "s": "Value is not proportional to the number of attractions ____.",
-            "a": "ticked off"
+            "s": "Restful travel can be rewarding when it reflects genuine preferences rather than pressure to ____ experiences.",
+            "a": "tick off"
           }
         ],
         "extra": [
           "pass through",
-          "liberating"
+          "ambitious"
         ]
       },
       "match": [
         {
-          "t": "shut yourself away",
-          "d": "stay indoors away from other people"
+          "t": "linger",
+          "d": "stay somewhere for longer than you need to"
         },
         {
-          "t": "tick something off",
+          "t": "tick off",
           "d": "mark an item as completed on a list"
         },
         {
@@ -252,22 +252,22 @@
           "d": "go somewhere briefly without stopping properly"
         },
         {
-          "t": "liberating",
-          "d": "giving a welcome sense of freedom"
+          "t": "ambitious",
+          "d": "showing a strong wish to achieve a lot"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "Booking platforms produce an ____ catalogue of experiences.",
-            "cue": "END",
-            "a": "endless"
+            "s": "A visitor can explore a place ____ without rushing.",
+            "cue": "ATTENTIVE",
+            "a": "attentively"
           },
           {
-            "s": "The result may be impressive, but not necessarily ____.",
-            "cue": "RESTORE",
-            "a": "restorative"
+            "s": "Slow travel challenges the assumption that value is ____ to the number of attractions completed.",
+            "cue": "PROPORTION",
+            "a": "proportional"
           },
           {
             "s": "An ____ walk may provide a sense of freedom.",
@@ -275,9 +275,9 @@
             "a": "aimless"
           },
           {
-            "s": "The survey did not directly measure slow travel, nor its ____.",
-            "cue": "POPULAR",
-            "a": "popularity"
+            "s": "The freedom to travel slowly is ____ distributed.",
+            "cue": "EQUAL",
+            "a": "unequally"
           },
           {
             "s": "Perhaps the most ____ decision is to leave some hours unclaimed.",
@@ -290,7 +290,7 @@
         {
           "s": "The poll was repeated in several European countries.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention the poll being repeated in Europe."
         },
         {
           "s": "The writer says staying longer automatically makes tourism responsible.",
@@ -298,12 +298,12 @@
           "why": "The text says the opposite: \"Yet there is a danger in assuming that lingering somewhere automatically makes tourism more responsible.\""
         },
         {
-          "s": "In the poll, 45% of those planning a holiday named rest as their main aim.",
+          "s": "Almost half of the Americans planning a summer holiday named rest as their main aim.",
           "a": "T",
-          "why": "The text says: \"Among Americans planning a summer holiday, 45% identified rest and relaxation as their principal aim, while others prioritised visiting loved ones, adventure or cultural experiences.\""
+          "why": "The text says: \"Among Americans planning a summer holiday, 45% identified rest and relaxation as their principal aim\""
         },
         {
-          "s": "The freedom to travel slowly is unequally distributed.",
+          "s": "Not everybody has the same ability to travel slowly.",
           "a": "T",
           "why": "The text says: \"The freedom to travel slowly is unequally distributed.\""
         }

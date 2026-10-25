@@ -21,8 +21,8 @@
             "a": "mean a lot to someone"
           },
           {
-            "s": "There is no need to ____ every sign of normal life.",
-            "a": "tidy away"
+            "s": "Friends can relax, ____ and stay as long as they like.",
+            "a": "bring something to share"
           }
         ],
         "extra": [
@@ -32,20 +32,20 @@
       },
       "match": [
         {
-          "t": "tidy away",
-          "d": "put things back where they belong"
+          "t": "arrange",
+          "d": "plan and organise something so that it can happen"
         },
         {
           "t": "come over",
           "d": "visit somebody at their home"
         },
         {
-          "t": "messy",
-          "d": "untidy, with things left out of place"
-        },
-        {
           "t": "good company",
           "d": "people who are pleasant to spend time with"
+        },
+        {
+          "t": "messy",
+          "d": "untidy, with things left out of place"
         }
       ],
       "grammar": {
@@ -57,14 +57,14 @@
             "a": "notice"
           },
           {
-            "s": "Social media ____ full of clean kitchens and beautiful tables.",
-            "cue": "be",
-            "a": "is"
+            "s": "A simple invitation may mean a lot to someone who has been ____ lonely.",
+            "cue": "feel",
+            "a": "feeling"
           },
           {
-            "s": "Some people worry that visitors ____ these things.",
-            "cue": "notice",
-            "a": "will notice"
+            "s": "Perhaps we need ____ less of ourselves as hosts.",
+            "cue": "expect",
+            "a": "to expect"
           },
           {
             "s": "____ a free evening can involve a great many messages.",
@@ -72,32 +72,32 @@
             "a": "Arranging"
           },
           {
-            "s": "Most friends would prefer an untidy kitchen to a beautifully ____ table.",
-            "cue": "arrange",
-            "a": "arranged"
+            "s": "A simple dinner suddenly ____ lots of planning.",
+            "cue": "need",
+            "a": "needs"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Meeting at home means there is no bill at the end of the evening.",
+          "s": "Nobody gets a bill after an evening at home.",
           "a": "T",
           "why": "The text says: \"There is no bill at the end of the evening either.\""
         },
         {
-          "s": "The article says friends probably do not care about a few dishes.",
+          "s": "Friends probably care less about a messy home than the host expects.",
           "a": "T",
           "why": "The text says: \"Some people worry that visitors will notice these things, even though their friends probably do not care very much.\""
         },
         {
           "s": "Most people now meet friends in cafés rather than at home.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say where most people meet friends."
         },
         {
           "s": "The writer says you should always cook a proper meal for guests.",
           "a": "F",
-          "why": "The text says the opposite: \"Nobody is expecting a restaurant meal.\""
+          "why": "The text says the opposite: \"Buying pizza is fine, and so is asking a guest to help make the tea.\""
         }
       ]
     },
@@ -125,8 +125,8 @@
             "a": "Popping round"
           },
           {
-            "s": "Once the sofa has won a few Fridays, the habit quietly ____.",
-            "a": "settles in"
+            "s": "Once the sofa has won a few Fridays in a row, it tends to ____.",
+            "a": "keep on winning"
           }
         ],
         "extra": [
@@ -184,24 +184,24 @@
       },
       "tfn": [
         {
-          "s": "Research using the American Time Use Survey found less time spent socialising.",
+          "s": "A survey found that Americans spend less time with friends than they used to.",
           "a": "T",
-          "why": "The text says: \"Research using the American Time Use Survey has found that people in the United States spend less time socialising with friends than they did in the past.\""
+          "why": "The text says: \"has found that Americans spend less time socialising with friends than they used to.\""
         },
         {
-          "s": "Friday evenings have become quieter than they used to be.",
-          "a": "T",
-          "why": "The text says: \"Even Friday evenings, traditionally associated with going out, have become quieter.\""
-        },
-        {
-          "s": "The article says choosing a quiet evening at home is always a problem.",
+          "s": "The survey research can tell us about other countries too.",
           "a": "F",
-          "why": "The text says the opposite: \"Of course, choosing a quiet evening at home is not necessarily a problem.\""
+          "why": "The text says the opposite: \"It cannot tell us about other countries, but the pattern may feel familiar.\""
+        },
+        {
+          "s": "Staying in for an evening is not always a bad choice.",
+          "a": "T",
+          "why": "The text says: \"Of course, choosing a quiet evening at home is not necessarily a problem.\""
         },
         {
           "s": "The decline is sharper in cities than in the countryside.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not compare cities with the countryside."
         }
       ]
     },
@@ -213,8 +213,8 @@
             "a": "a minor production"
           },
           {
-            "s": "Few people would ____, yet the hesitation suggests the standard is felt.",
-            "a": "put it baldly"
+            "s": "A pile of washing or a crowded kitchen becomes something to ____.",
+            "a": "apologise for"
           },
           {
             "s": "The ____ visit has given way to a chain of messages about diaries.",
@@ -234,8 +234,8 @@
           }
         ],
         "extra": [
-          "unhurried",
-          "clear away"
+          "clear away",
+          "neutral"
         ]
       },
       "match": [
@@ -280,9 +280,9 @@
             "a": "romanticise"
           },
           {
-            "s": "Restaurants can offer genuinely neutral ground, especially for people in ____ housing.",
-            "cue": "SHARE",
-            "a": "shared"
+            "s": "The answer to an unequal division of domestic work need not be the ____ of hospitality.",
+            "cue": "ABANDON",
+            "a": "abandonment"
           }
         ]
       },
@@ -293,17 +293,17 @@
           "why": "The text says the opposite: \"What may need reviving is not the elaborate dinner party but the modest invitation.\""
         },
         {
-          "s": "The writer accepts that restaurants can offer genuinely neutral ground.",
+          "s": "Restaurants can be a fair choice of meeting place, especially for people with small homes.",
           "a": "T",
           "why": "The text says: \"Restaurants can offer genuinely neutral ground, especially for people whose homes are small or shared.\""
         },
         {
           "s": "British people host friends at home less often than Americans do.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not compare British and American hosting."
         },
         {
-          "s": "The writer notes that cultural habits vary considerably between countries.",
+          "s": "Habits of socialising differ from one country to another.",
           "a": "T",
           "why": "The text says: \"Such figures do not prove that hosting has disappeared, and cultural habits vary considerably between countries.\""
         }

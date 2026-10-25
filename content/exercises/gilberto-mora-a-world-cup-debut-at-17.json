@@ -13,12 +13,12 @@
             "a": "substitute"
           },
           {
-            "s": "Abreu says Mora can find a ____ that nobody else sees.",
+            "s": "Mora can find a ____ that nobody else sees.",
             "a": "pass"
           },
           {
-            "s": "Antonio Rodríguez is the club's ____.",
-            "a": "goalkeeper"
+            "s": "Mora turned with one touch and left an ____ behind.",
+            "a": "opponent"
           },
           {
             "s": "Mora also ____, and he loves maths.",
@@ -26,8 +26,8 @@
           }
         ],
         "extra": [
-          "defender",
-          "striker"
+          "shock",
+          "energy"
         ]
       },
       "match": [
@@ -67,9 +67,9 @@
             "a": "says"
           },
           {
-            "s": "Mora ____ on as a substitute in the first match.",
-            "cue": "come",
-            "a": "came"
+            "s": "Mora ____ not the biggest or the fastest player.",
+            "cue": "be",
+            "a": "is"
           },
           {
             "s": "Rodríguez ____ the first time he saw Mora train.",
@@ -90,12 +90,12 @@
           "why": "The text says the opposite: \"Mora plays for a club called Tijuana\""
         },
         {
-          "s": "Mora has two brothers who are footballers.",
+          "s": "Mora scored a goal at the World Cup.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Mora scored a goal."
         },
         {
-          "s": "Mora arrives at training at seven in the morning.",
+          "s": "Mora gets to training early in the morning.",
           "a": "T",
           "why": "The text says: \"he arrives at training at seven in the morning\""
         },
@@ -110,12 +110,12 @@
       "gap": {
         "items": [
           {
-            "s": "FIFA says his debut made him the sixth-youngest ____ in World Cup history.",
+            "s": "FIFA says his first match made him the sixth-youngest ____ in World Cup history.",
             "a": "debutant"
           },
           {
-            "s": "He had already played for the national team at 16, after making his ____ in Mexico's top league at 15.",
-            "a": "debut"
+            "s": "Mexico's coach was ____ with him in the first matches.",
+            "a": "careful"
           },
           {
             "s": "Abreu says Mora's strength is his ____: a pause at the right moment and a clever touch.",
@@ -131,8 +131,8 @@
           }
         ],
         "extra": [
-          "ambitious",
-          "injured"
+          "physical",
+          "captain"
         ]
       },
       "match": [
@@ -145,8 +145,8 @@
           "d": "a person who plays or performs for the first time"
         },
         {
-          "t": "neutral",
-          "d": "not supporting either side"
+          "t": "praise",
+          "d": "words that show you admire what someone has done"
         },
         {
           "t": "distracted",
@@ -177,7 +177,7 @@
             "a": "kept"
           },
           {
-            "s": "AP ____ that Mexico's coach was careful with him.",
+            "s": "The Associated Press ____ that he is the youngest Mexican player ever to appear at a World Cup.",
             "cue": "report",
             "a": "reports"
           }
@@ -195,9 +195,9 @@
           "why": "The text says the opposite: \"after making his debut in Mexico's top league at 15\""
         },
         {
-          "s": "Mora wants to study maths at university.",
+          "s": "Mora scored in his first World Cup match.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Mora scored."
         },
         {
           "s": "Abreu says Mora loves mathematics.",
@@ -215,76 +215,76 @@
       "gap": {
         "items": [
           {
-            "s": "How do you ____ when you are the least experienced person in the room?",
-            "a": "contribute"
+            "s": "Mexico's coach, Javier Aguirre, was ____ with him in the first matches.",
+            "a": "careful"
           },
           {
             "s": "Abreu told FIFA that Mora is an ____ case.",
             "a": "exceptional"
           },
           {
-            "s": "Any tactical ____ Mora creates, he argues, will be productive for the team.",
-            "a": "disorder"
+            "s": "Mora took the ball, turned with a single touch and left an ____ behind.",
+            "a": "opponent"
           },
           {
             "s": "Rodríguez also praises Mora's ____ on the ball.",
             "a": "calmness"
           },
           {
-            "s": "The people around Mora describe teammates who treat him as a person, not a ____.",
-            "a": "headline"
+            "s": "Words like gem and next big star can be encouraging, and they can also be ____.",
+            "a": "heavy"
           }
         ],
         "extra": [
-          "habit",
-          "results"
+          "family",
+          "headlines"
         ]
       },
       "match": [
-        {
-          "t": "contribute",
-          "d": "to give something that helps a group reach its goal"
-        },
-        {
-          "t": "exceptional",
-          "d": "much better or rarer than usual"
-        },
         {
           "t": "neutral",
           "d": "not supporting either side"
         },
         {
-          "t": "disorder",
-          "d": "a lack of order or organisation"
+          "t": "debutant",
+          "d": "a person who plays or performs for the first time"
+        },
+        {
+          "t": "tactical",
+          "d": "connected with a plan for how to play or compete"
+        },
+        {
+          "t": "subtle",
+          "d": "delicate and not obvious"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "Abreu told FIFA that Mora is an ____ case.",
-            "cue": "EXCEPTION",
-            "a": "exceptional"
-          },
-          {
-            "s": "Rodríguez also praises Mora's ____ on the ball.",
-            "cue": "CALM",
-            "a": "calmness"
-          },
-          {
-            "s": "Any tactical ____ Mora creates will be productive for the team.",
-            "cue": "ORDER",
-            "a": "disorder"
-          },
-          {
-            "s": "The people around Mora describe the ____ to play naturally.",
-            "cue": "FREE",
-            "a": "freedom"
-          },
-          {
             "s": "His daily life is less ____ than the headlines suggest.",
             "cue": "GLAMOUR",
             "a": "glamorous"
+          },
+          {
+            "s": "Mora walked into a competition full of older, more ____ players.",
+            "cue": "EXPERIENCE",
+            "a": "experienced"
+          },
+          {
+            "s": "Abreu argues that any tactical disorder Mora creates will be ____ for the team.",
+            "cue": "PRODUCE",
+            "a": "productive"
+          },
+          {
+            "s": "Rodríguez adds that the ____ has not changed him.",
+            "cue": "ATTEND",
+            "a": "attention"
+          },
+          {
+            "s": "A groin ____ kept him out for about two months earlier this year.",
+            "cue": "INJURE",
+            "a": "injury"
           }
         ]
       },
@@ -300,9 +300,9 @@
           "why": "The text says the opposite: \"Abreu says he does not want to fix him in one position.\""
         },
         {
-          "s": "Mora's father is a famous coach in Europe.",
+          "s": "Mora has signed for a European club.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Mora has signed for a club in Europe."
         },
         {
           "s": "Mexico's coach was careful with Mora in the first matches.",

@@ -17,8 +17,8 @@
             "a": "pointed out"
           },
           {
-            "s": "Supporters said small choices show whether somebody ____.",
-            "a": "takes it seriously"
+            "s": "Supporters said small choices show whether somebody understands the workplace and ____.",
+            "a": "takes the opportunity seriously"
           },
           {
             "s": "Young applicants may find it hard to ____ which rules apply.",
@@ -67,9 +67,9 @@
             "a": "has worked"
           },
           {
-            "s": "Later, she said her advice ____ on the company.",
-            "cue": "depend",
-            "a": "depended"
+            "s": "In some offices, smart clothes and formal greetings are still ____.",
+            "cue": "expect",
+            "a": "expected"
           },
           {
             "s": "Someone's skills should ____ more weight than a plastic cup.",
@@ -92,12 +92,12 @@
         {
           "s": "Her video was removed from TikTok.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the video was removed from TikTok."
         },
         {
-          "s": "Caitlin Wehniainen has worked in recruitment for 16 years.",
+          "s": "Caitlin Wehniainen explained her idea in a TikTok video.",
           "a": "T",
-          "why": "The text says: \"The recruiter, Caitlin Wehniainen, has worked in recruitment for 16 years.\""
+          "why": "The text says: \"In a TikTok video, she explained that turning up with a drink might give the impression that the interview is just another activity in a busy day.\""
         }
       ]
     },
@@ -145,7 +145,7 @@
         },
         {
           "t": "harmless",
-          "d": "not causing harm"
+          "d": "not likely to cause any trouble or damage"
         },
         {
           "t": "arbitrary",
@@ -161,37 +161,37 @@
             "a": "inappropriate"
           },
           {
-            "s": "After the ____, she clarified that her advice was not universal.",
-            "cue": "LASH",
-            "a": "backlash"
+            "s": "A candidate might argue that drinking coffee says nothing about their ____.",
+            "cue": "COMPETENT",
+            "a": "competence"
           },
           {
-            "s": "Employers may notice how applicants behave towards ____.",
-            "cue": "RECEIVE",
-            "a": "receptionists"
+            "s": "Remote interviews raise questions about what counts as ____ clothing.",
+            "cue": "SUIT",
+            "a": "suitable"
           },
           {
-            "s": "Personal preferences can be disguised as professional ____.",
-            "cue": "STANDARDISE",
-            "a": "standards"
+            "s": "Structured interviews are recommended as a way to improve ____.",
+            "cue": "FAIR",
+            "a": "fairness"
           },
           {
-            "s": "Remote interviews have brought their own ____ questions.",
-            "cue": "AWKWARDNESS",
-            "a": "awkward"
+            "s": "Employers notice whether applicants listen carefully and how ____ they introduce themselves.",
+            "cue": "CONFIDENT",
+            "a": "confidently"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Tattoos and trainers are now unacceptable in most industries.",
+          "s": "Most industries now forbid tattoos and trainers.",
           "a": "F",
           "why": "The text says the opposite: \"Tattoos, trainers and informal emails are no longer automatically seen as unacceptable in many industries.\""
         },
         {
           "s": "Most recruiters now use structured interviews.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many recruiters use structured interviews."
         },
         {
           "s": "Wehniainen said her advice was not a universal rule.",
@@ -209,12 +209,12 @@
       "gap": {
         "items": [
           {
-            "s": "The modern recruitment process offers a ____ range of mistakes.",
-            "a": "bewildering"
+            "s": "Wehniainen later ____ her original comments.",
+            "a": "played down"
           },
           {
-            "s": "Arrive too early and you appear ____.",
-            "a": "overeager"
+            "s": "Critics asked why an ordinary drink should ____ somebody's ability to perform a job.",
+            "a": "overshadow"
           },
           {
             "s": "Her advice was ____, not a blanket prohibition.",
@@ -235,7 +235,7 @@
         ],
         "extra": [
           "stick to",
-          "elaborate"
+          "advocate"
         ]
       },
       "match": [
@@ -248,12 +248,12 @@
           "d": "judge the mood and adjust your behaviour"
         },
         {
-          "t": "elaborate",
-          "d": "involving many detailed parts"
+          "t": "advocate",
+          "d": "publicly support an idea or plan"
         },
         {
-          "t": "overeager",
-          "d": "keener than the situation calls for"
+          "t": "conceal",
+          "d": "keep something hidden so it cannot be seen"
         }
       ],
       "grammar": {
@@ -265,9 +265,9 @@
             "a": "spirited"
           },
           {
-            "s": "Such expectations can act as cultural ____.",
-            "cue": "FILTRATION",
-            "a": "filters"
+            "s": "Was this sensible advice, or one more ____ rule for nervous jobseekers?",
+            "cue": "EXPLAIN",
+            "a": "unexplained"
           },
           {
             "s": "Arriving ____ can reveal something about reliability.",
@@ -280,9 +280,9 @@
             "a": "conformity"
           },
           {
-            "s": "The CIPD advocates explicit scoring criteria to reduce ____.",
-            "cue": "BIASED",
-            "a": "bias"
+            "s": "A practice considered ____ by one manager may barely register with another.",
+            "cue": "RESPECT",
+            "a": "disrespectful"
           }
         ]
       },
@@ -300,7 +300,7 @@
         {
           "s": "British employers have issued new guidance on interview conduct.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether any employers have issued new guidance."
         },
         {
           "s": "The writer concludes that social behaviour is irrelevant in interviews.",

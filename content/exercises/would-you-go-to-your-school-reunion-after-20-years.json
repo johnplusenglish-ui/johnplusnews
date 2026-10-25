@@ -21,8 +21,8 @@
             "a": "fall back into"
           },
           {
-            "s": "You might finally ____ an old disappointment.",
-            "a": "let go of"
+            "s": "The other man ____ trying to make Mike feel better about his guilt.",
+            "a": "ended up"
           }
         ],
         "extra": [
@@ -45,21 +45,21 @@
         },
         {
           "t": "catch up with",
-          "d": "exchange news with somebody"
+          "d": "talk to somebody and share recent news"
         }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
           {
-            "s": "Twenty years ____ since he left school.",
+            "s": "When Mike arrived at the reunion, twenty years ____ since he left school.",
             "cue": "pass",
             "a": "had passed"
           },
           {
             "s": "A boy he knew ____ because he was gay.",
             "cue": "bully",
-            "a": "had been bullied"
+            "a": "had been bullied|was bullied"
           },
           {
             "s": "Mike ____ his story to the Guardian in October 2026.",
@@ -72,9 +72,9 @@
             "a": "meeting"
           },
           {
-            "s": "The people we knew at school ____ up, just as we have.",
-            "cue": "grow",
-            "a": "have grown"
+            "s": "A person who ____ successful may be struggling.",
+            "cue": "appear",
+            "a": "appears"
           }
         ]
       },
@@ -82,7 +82,7 @@
         {
           "s": "Mike has been to several reunions before.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Mike had been to any reunions before."
         },
         {
           "s": "Mike had joined in with the bullying at school.",
@@ -90,12 +90,12 @@
           "why": "The text says the opposite: \"Mike had not joined in, but he had not stood up for him either.\""
         },
         {
-          "s": "Mike is a firefighter in his forties.",
+          "s": "Mike is in his forties and works in the fire service.",
           "a": "T",
           "why": "The text says: \"Mike, a firefighter in his forties, told his story to the Guardian in October 2026.\""
         },
         {
-          "s": "The two men reconnected after their conversation.",
+          "s": "The two men were back in contact after the awkward talk.",
           "a": "T",
           "why": "The text says: \"Still, the two men reconnected.\""
         }
@@ -141,7 +141,7 @@
         },
         {
           "t": "get along",
-          "d": "have a friendly relationship"
+          "d": "have a good, friendly relationship with somebody"
         },
         {
           "t": "extraordinary",
@@ -176,22 +176,22 @@
             "a": "insecure"
           },
           {
-            "s": "Their online profile reveals only what they choose to ____.",
-            "cue": "SHOWN",
-            "a": "show"
+            "s": "For other former students, the ____ of a reunion is obvious.",
+            "cue": "ATTRACT",
+            "a": "attraction"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The two men reconnected over drinks.",
+          "s": "Mike and his old friend had a drink together after the apology.",
           "a": "T",
           "why": "The text says: \"Nevertheless, the two reconnected over drinks, giving the story a warmer ending than he might have expected.\""
         },
         {
           "s": "Mike plans to attend the next reunion.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Mike plans to go to the next reunion."
         },
         {
           "s": "The apology went exactly as Mike had planned.",
@@ -199,9 +199,9 @@
           "why": "The text says the opposite: \"The apology did not unfold quite as he had imagined.\""
         },
         {
-          "s": "The Guardian article appeared in October 2026.",
+          "s": "The man who had been bullied tried to ease Mike's guilt.",
           "a": "T",
-          "why": "The text says: \"Speaking to the Guardian for an October 2026 article, Mike explained that he managed to find his old friend and bring up the past.\""
+          "why": "The text says: \"the man who had been bullied ended up reassuring Mike that he need not feel guilty.\""
         }
       ]
     },
@@ -209,19 +209,19 @@
       "gap": {
         "items": [
           {
-            "s": "Returning to school was not merely an exercise in ____.",
-            "a": "nostalgia"
+            "s": "Mike's attempt to ____ ended up burdening someone who had already been wronged.",
+            "a": "clear his conscience"
           },
           {
-            "s": "He ____ to acknowledge his silence.",
-            "a": "made up his mind"
+            "s": "A more honest encounter at a reunion depends on people being willing to ____.",
+            "a": "drop the performance"
           },
           {
-            "s": "The exchange ____ when the other man began comforting him.",
+            "s": "Mike did apologise, but the exchange ____ when the other man began comforting him.",
             "a": "took an uncomfortable turn"
           },
           {
-            "s": "School reunions are uniquely capable of ____.",
+            "s": "School reunions are uniquely capable of ____, making adults feel fifteen again.",
             "a": "collapsing time"
           },
           {
@@ -244,8 +244,8 @@
           "d": "compare who is doing better"
         },
         {
-          "t": "make up your mind",
-          "d": "reach a firm decision"
+          "t": "undermine",
+          "d": "weaken or damage a belief or idea gradually"
         },
         {
           "t": "flourish",
@@ -265,47 +265,47 @@
             "a": "unpredictable"
           },
           {
-            "s": "He had not been among the ____.",
-            "cue": "PERPETRATE",
-            "a": "perpetrators"
+            "s": "The pair caught up over drinks, suggesting that ____ conversations can still open a door.",
+            "cue": "PERFECT",
+            "a": "imperfect"
           },
           {
-            "s": "He had ____ placed another burden on someone already wronged.",
-            "cue": "ADVERT",
-            "a": "inadvertently"
+            "s": "____ matter, but so does the effect on the person listening.",
+            "cue": "INTEND",
+            "a": "intentions"
           },
           {
-            "s": "Former classmates might discover unexpected common ____.",
-            "cue": "GROUNDED",
-            "a": "ground"
+            "s": "A nickname, a particular laugh or the sight of a former rival can bring back ____ that seemed long settled.",
+            "cue": "SECURE",
+            "a": "insecurities"
           },
           {
-            "s": "Envy can flourish when we compare ourselves with a polished public ____.",
-            "cue": "IMAGINE",
-            "a": "image"
+            "s": "Social media adds another layer of ____.",
+            "cue": "COMPLEX",
+            "a": "complexity"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Mike had not intervened when his classmate was bullied.",
+          "s": "Mike took no part in the bullying but did nothing to stop it.",
           "a": "T",
-          "why": "The text says: \"He had not been among the perpetrators, but neither had he intervened.\""
+          "why": "The text says: \"He had not joined in the homophobic bullying, but he had stayed silent.\""
         },
         {
           "s": "The two men now meet regularly.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the two men still meet regularly."
         },
         {
-          "s": "The article says an edited feed is not the same as a real conversation.",
+          "s": "Reading classmates' online posts is no substitute for a proper conversation with them.",
           "a": "T",
-          "why": "The text says: \"But an edited feed is not the same as a sustained conversation, and envy can flourish when we compare our untidy private lives with someone else's carefully polished public image.\""
+          "why": "The text says: \"an edited feed is not the same as a sustained conversation\""
         },
         {
-          "s": "The writer concludes that every apology helps the person who hears it.",
+          "s": "Mike later felt his apology had lifted a burden from his old classmate.",
           "a": "F",
-          "why": "The text says the opposite: \"Mike's story raises a particularly delicate issue: can an apology help heal a past injury, or does it sometimes serve primarily the person offering it?\""
+          "why": "The text says the opposite: \"his attempt to clear his conscience had inadvertently placed another burden on someone already wronged.\""
         }
       ]
     }

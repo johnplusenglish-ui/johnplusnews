@@ -13,8 +13,8 @@
             "a": "take reasonable steps"
           },
           {
-            "s": "Young people may ____ staring at their phones.",
-            "a": "spend too many hours"
+            "s": "Teenagers may give ____ or find other ways to reach their favourite services.",
+            "a": "a false age"
           },
           {
             "s": "Waiting until 16 might give them time to ____.",
@@ -67,14 +67,14 @@
             "a": "find"
           },
           {
-            "s": "There were signs that accounts ____ down.",
-            "cue": "take",
-            "a": "were being taken"
+            "s": "Researchers were still ____ how young people used social media.",
+            "cue": "study",
+            "a": "studying"
           },
           {
-            "s": "It may be years before anybody can say whether teenagers ____ happier.",
-            "cue": "be",
-            "a": "are"
+            "s": "Australia's experiment ____ that protecting young people online involves much more than pressing a button.",
+            "cue": "show",
+            "a": "shows"
           }
         ]
       },
@@ -87,7 +87,7 @@
         {
           "s": "The rules will be reviewed after three years.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say that the rules will be reviewed or when."
         },
         {
           "s": "Under-16s can no longer use any part of the internet.",
@@ -117,7 +117,7 @@
             "a": "a fact of life"
           },
           {
-            "s": "Stronger age checks tend to ____.",
+            "s": "Stronger age checks tend to ____, because the platform learns more about its users.",
             "a": "raise privacy concerns"
           },
           {
@@ -171,14 +171,14 @@
             "a": "enforcement"
           },
           {
-            "s": "Platforms need to estimate or ____ a user's age.",
-            "cue": "CONFIRMATION",
-            "a": "confirm"
+            "s": "These were valuable ____, but they were not a final verdict on the policy.",
+            "cue": "OBSERVE",
+            "a": "observations"
           },
           {
-            "s": "A platform can point to deleted profiles without ____ that teenagers are better off.",
-            "cue": "PROVE",
-            "a": "proving"
+            "s": "Long-term changes in wellbeing take far longer to measure than the ____ of an account.",
+            "cue": "REMOVE",
+            "a": "removal"
           }
         ]
       },
@@ -201,7 +201,7 @@
         {
           "s": "Other countries have copied the Australian rules.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether any other country has copied the Australian rules."
         }
       ]
     },
@@ -213,8 +213,8 @@
             "a": "get to grips with"
           },
           {
-            "s": "The policy shifted responsibility towards companies, ____.",
-            "a": "a notable change of emphasis"
+            "s": "The policy shifted responsibility towards technology companies, but it ____ a harder question.",
+            "a": "left open"
           },
           {
             "s": "The policy may ____ parents who argue alone with their children.",
@@ -229,8 +229,8 @@
             "a": "fall back on"
           },
           {
-            "s": "What Australia has created is ____ rather than a settled answer.",
-            "a": "an international test case"
+            "s": "Governments may read the first figures as vindication or as proof of ____.",
+            "a": "futility"
           }
         ],
         "extra": [
@@ -241,15 +241,15 @@
       "match": [
         {
           "t": "get to grips with",
-          "d": "begin to deal with something difficult"
-        },
-        {
-          "t": "let somebody in",
-          "d": "allow somebody to enter"
+          "d": "start to understand and manage a difficult problem"
         },
         {
           "t": "fall back on",
           "d": "turn to something when nothing else works"
+        },
+        {
+          "t": "sever",
+          "d": "cut off completely, so that no link remains"
         },
         {
           "t": "unresolved",
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The decision was presented as a ____ intervention.",
-            "cue": "BOLDNESS",
-            "a": "bold"
+            "s": "The policy was presented as a bold ____ in a problem that regulators had struggled with.",
+            "cue": "INTERVENE",
+            "a": "intervention"
           },
           {
             "s": "____ platforms had to take reasonable steps to remove accounts.",
@@ -290,12 +290,12 @@
         {
           "s": "The rules apply from 10 December 2025 to designated platforms.",
           "a": "T",
-          "why": "The text says: \"From 10 December 2025, designated platforms were required to take reasonable steps to prevent younger Australians from maintaining accounts.\""
+          "why": "The text says: \"From 10 December 2025, designated social media platforms in Australia had to take reasonable steps to prevent under-16s from keeping accounts.\""
         },
         {
           "s": "The eSafety Commissioner recommended extending the age limit.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say that the eSafety Commissioner recommended any change to the age limit."
         },
         {
           "s": "There is no comparison available with an Australia that kept the old rules.",
@@ -303,9 +303,9 @@
           "why": "The text says: \"Nor is there any comparison available with an Australia that left the rules alone, which makes confident claims in either direction hard to sustain.\""
         },
         {
-          "s": "Compliance figures show whether teenagers feel better.",
+          "s": "The number of removed accounts shows whether teenagers feel better.",
           "a": "F",
-          "why": "The text says the opposite: \"A company that removes millions of accounts can point to impressive compliance figures, yet the number on its own reveals nothing about whether teenagers are spending less time online, drifting towards less visible alternatives or, in fact, feeling any better.\""
+          "why": "The text says the opposite: \"It does not tell us whether teenagers spend less time online, move to other apps or feel any better.\""
         }
       ]
     }

@@ -17,12 +17,12 @@
             "a": "tyres"
           },
           {
-            "s": "George Russell is Antonelli's ____.",
+            "s": "Russell drives for the same team, so he is Antonelli's ____.",
             "a": "teammate"
           },
           {
-            "s": "Antonelli is the first Italian driver to win the race for 60 ____.",
-            "a": "years"
+            "s": "Antonelli said that the moment in the gravel was ____.",
+            "a": "frightening"
           }
         ],
         "extra": [
@@ -32,34 +32,34 @@
       },
       "match": [
         {
-          "t": "tyres",
-          "d": "the rubber rings around the wheels of a car"
-        },
-        {
-          "t": "pits",
-          "d": "the area where a car stops during a race to change tyres"
-        },
-        {
           "t": "laps",
           "d": "full trips around the race track"
         },
         {
+          "t": "pits",
+          "d": "the area beside the track where cars stop during a race for repairs or other work"
+        },
+        {
           "t": "gravel",
           "d": "small stones on the side of a track"
+        },
+        {
+          "t": "recovered",
+          "d": "got back into a good position after a problem"
         }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
           {
-            "s": "Antonelli ____ in 19th place.",
-            "cue": "start",
-            "a": "started"
+            "s": "At the end of the race, he ____ first.",
+            "cue": "finish",
+            "a": "finished"
           },
           {
-            "s": "A crash ____ the race for a while.",
-            "cue": "stop",
-            "a": "stopped"
+            "s": "Before the restart, Antonelli had already ____ up the order.",
+            "cue": "move",
+            "a": "moved"
           },
           {
             "s": "Antonelli ____ Russell with four laps to go.",
@@ -67,20 +67,20 @@
             "a": "passed"
           },
           {
-            "s": "Russell ____ out on his old tyres.",
-            "cue": "stay",
-            "a": "stayed"
+            "s": "Near the end, Russell had problems, and Antonelli ____ him.",
+            "cue": "catch",
+            "a": "caught"
           },
           {
-            "s": "Antonelli ____ the race.",
-            "cue": "win",
-            "a": "won"
+            "s": "Antonelli said that it ____ like a dream.",
+            "cue": "feel",
+            "a": "felt"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Antonelli started the Italian Grand Prix in 19th place.",
+          "s": "Antonelli began the race behind eighteen other drivers.",
           "a": "T",
           "why": "The text says: \"he started in 19th place\""
         },
@@ -90,14 +90,14 @@
           "why": "The text says the opposite: \"He drives for the Mercedes Formula 1 team\""
         },
         {
-          "s": "Antonelli's mother watched the race.",
+          "s": "It rained during the race.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say what the weather was like."
         },
         {
-          "s": "Antonelli passed Russell with four laps to go.",
+          "s": "Antonelli overtook Russell late in the race.",
           "a": "T",
-          "why": "The text says: \"With four laps to go, Antonelli passed Russell\""
+          "why": "The text says: \"With four laps to go, Antonelli passed Russell.\""
         },
         {
           "s": "No Italian driver had won the race for five years.",
@@ -114,8 +114,8 @@
             "a": "components"
           },
           {
-            "s": "A ____ Safety Car means that drivers must slow down.",
-            "a": "Virtual"
+            "s": "Antonelli moved through the order quickly at the ____.",
+            "a": "restart"
           },
           {
             "s": "Russell stayed out and struggled with his ____ late in the race.",
@@ -131,8 +131,8 @@
           }
         ],
         "extra": [
-          "fuel",
-          "gears"
+          "colours",
+          "seasons"
         ]
       },
       "match": [
@@ -157,40 +157,40 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Antonelli ____ in 19th place.",
-            "cue": "start",
-            "a": "started"
+            "s": "On 6 September 2026, Antonelli ____ the Italian Grand Prix.",
+            "cue": "win",
+            "a": "won"
           },
           {
-            "s": "Charles Leclerc ____ at the final corner.",
+            "s": "The race was red-flagged early after Charles Leclerc ____ at the final corner.",
             "cue": "crash",
             "a": "crashed"
           },
           {
-            "s": "Antonelli ____ into the pits under the Virtual Safety Car.",
+            "s": "He said afterwards that he had never ____ to be in this position.",
+            "cue": "expect",
+            "a": "expected"
+          },
+          {
+            "s": "Later, a Virtual Safety Car ____ out, which makes all drivers slow down.",
+            "cue": "come",
+            "a": "came"
+          },
+          {
+            "s": "After a near-collision at the first chicane, Antonelli ____ onto the gravel.",
             "cue": "go",
             "a": "went"
-          },
-          {
-            "s": "Russell ____ out on his old tyres.",
-            "cue": "stay",
-            "a": "stayed"
-          },
-          {
-            "s": "Antonelli ____ the race.",
-            "cue": "win",
-            "a": "won"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The race was stopped after Leclerc crashed.",
+          "s": "A crash by Leclerc caused the race to be stopped.",
           "a": "T",
           "why": "The text says: \"after Charles Leclerc crashed at the final corner\""
         },
         {
-          "s": "Russell changed to fresher tyres under the Virtual Safety Car.",
+          "s": "Russell made a pit stop under the Virtual Safety Car.",
           "a": "F",
           "why": "The text says the opposite: \"His teammate George Russell stayed out on his old tyres\""
         },
@@ -215,24 +215,24 @@
       "gap": {
         "items": [
           {
-            "s": "A bad starting position feels like a ____.",
-            "a": "verdict"
+            "s": "Antonelli started so far back after taking new power unit components, which brings a grid ____.",
+            "a": "penalty"
           },
           {
-            "s": "Antonelli drove well, but he also benefited from ____.",
-            "a": "timing"
+            "s": "After a near-collision, Antonelli went onto the gravel. He ____ and passed Russell.",
+            "a": "recovered"
           },
           {
-            "s": "A Virtual Safety Car gave him a chance to change ____.",
+            "s": "Antonelli pitted and changed to fresher ____.",
             "a": "tyres"
           },
           {
-            "s": "A bad start changes the odds; it does not ____ the result.",
-            "a": "decide"
+            "s": "A bad start changes the ____; it does not decide the result.",
+            "a": "odds"
           },
           {
-            "s": "The best comeback is one that does not put anyone in ____.",
-            "a": "danger"
+            "s": "A lot depends on people who are not in the ____, such as the crew in the pit lane.",
+            "a": "headline"
           }
         ],
         "extra": [
@@ -246,16 +246,16 @@
           "d": "a plan for how to reach a goal"
         },
         {
-          "t": "verdict",
-          "d": "a final decision or judgement about something"
-        },
-        {
-          "t": "chicane",
-          "d": "a sharp double bend on a race track"
+          "t": "restart",
+          "d": "the moment when a stopped race begins again"
         },
         {
           "t": "benefited",
           "d": "received an advantage from something"
+        },
+        {
+          "t": "chicane",
+          "d": "a sharp double bend on a race track"
         }
       ],
       "grammar": {
@@ -277,9 +277,9 @@
             "a": "frightening"
           },
           {
-            "s": "Antonelli drove well, but he also benefited from ____.",
-            "cue": "TIME",
-            "a": "timing"
+            "s": "Stopping at the right moment was a decision for the team as well as the ____.",
+            "cue": "DRIVE",
+            "a": "driver"
           },
           {
             "s": "That is a more ____ lesson than \"never give up\".",
@@ -290,19 +290,19 @@
       },
       "tfn": [
         {
-          "s": "Antonelli started 19th at Monza and won.",
+          "s": "Antonelli won at Monza after starting 19th.",
           "a": "T",
-          "why": "The text says: \"He started 19th and won\""
+          "why": "The text says: \"At Monza on 6 September 2026, Kimi Antonelli turned that starting position into a win.\""
         },
         {
-          "s": "Russell changed to fresher tyres while Antonelli stayed out.",
+          "s": "Russell made a pit stop while Antonelli stayed out.",
           "a": "F",
           "why": "The text says the opposite: \"while his teammate, George Russell, stayed out\""
         },
         {
-          "s": "Antonelli's team gave him no instructions during the race.",
+          "s": "Antonelli's team has not yet decided on its plan for the next race.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say anything about the next race."
         },
         {
           "s": "Antonelli is the first Italian to win the Italian Grand Prix since 1966.",
@@ -310,7 +310,7 @@
           "why": "The text says: \"since Ludovico Scarfiotti in 1966\""
         },
         {
-          "s": "The text says that belief alone explains the win.",
+          "s": "The text says that confidence alone explains the win.",
           "a": "F",
           "why": "The text says the opposite: \"that would leave out most of the story\""
         }

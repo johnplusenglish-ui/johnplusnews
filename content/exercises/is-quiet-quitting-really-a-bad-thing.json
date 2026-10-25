@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "The name is confusing because these people ____ not actually left their jobs.",
-            "cue": "have",
-            "a": "have"
+            "s": "They are ____ to do what their contract requires.",
+            "cue": "choose",
+            "a": "choosing"
           },
           {
             "s": "A 2026 Gallup report ____ that only 20% of employees were engaged.",
@@ -62,9 +62,9 @@
             "a": "found"
           },
           {
-            "s": "Someone can work hard during paid hours and still ____ evenings free.",
-            "cue": "keep",
-            "a": "keep"
+            "s": "Gallup ____ engagement to measure how connected workers feel to their jobs.",
+            "cue": "use",
+            "a": "uses"
           },
           {
             "s": "Managers should not assume that every emergency can ____ by free work.",
@@ -92,12 +92,12 @@
         {
           "s": "Quiet quitting is most common among younger workers.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say which age group quiet quitting is most common in."
         },
         {
-          "s": "Some teams give workers time off after extra hours.",
+          "s": "Gallup's number does not mean that all the other workers were quiet quitting.",
           "a": "T",
-          "why": "The text says: \"Some teams discuss busy periods in advance and give workers time off after extra hours.\""
+          "why": "The text says: \"This number does not mean that the other 80% were all quiet quitting.\""
         }
       ]
     },
@@ -109,19 +109,19 @@
             "a": "work-life balance"
           },
           {
-            "s": "Judging colleagues only by their departure time ____.",
-            "a": "misses the point"
+            "s": "Businesses sometimes face unexpected problems, and colleagues ____ one another.",
+            "a": "depend on"
           },
           {
             "s": "An office worker may be able to ____ at the end of the day.",
             "a": "switch off"
           },
           {
-            "s": "Employers who ____ unpaid overtime may be hiding deeper problems.",
-            "a": "rely on"
+            "s": "The discussion ____ against a wider problem of employee disengagement.",
+            "a": "takes place"
           },
           {
-            "s": "Unpaid goodwill can ____ problems that need real investment.",
+            "s": "Employers may use workers' unpaid effort to ____ problems that need proper investment.",
             "a": "paper over"
           },
           {
@@ -140,8 +140,8 @@
           "d": "hide a problem instead of solving it"
         },
         {
-          "t": "miss the point",
-          "d": "fail to understand what really matters"
+          "t": "goodwill",
+          "d": "a friendly willingness to help without being asked or paid"
         },
         {
           "t": "on call",
@@ -186,7 +186,7 @@
         {
           "s": "Gallup found engagement had fallen since the previous year.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether engagement rose or fell compared with earlier years."
         },
         {
           "s": "A healthcare worker may face an emergency just before a shift ends.",
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "Limiting effort to the responsibilities ____ in a contract worries some managers.",
-            "a": "set out"
+            "s": "Managers who praise staff for ____ may genuinely appreciate dedication.",
+            "a": "going the extra mile"
           },
           {
             "s": "Exceptional effort can quietly become the ____ for everybody.",
@@ -234,18 +234,14 @@
           }
         ],
         "extra": [
-          "give up",
-          "humane"
+          "humane",
+          "unforeseen"
         ]
       },
       "match": [
         {
           "t": "pick up the slack",
-          "d": "do the work somebody else has left"
-        },
-        {
-          "t": "give something up",
-          "d": "stop having or doing something"
+          "d": "do work that other people are not doing"
         },
         {
           "t": "bargaining power",
@@ -253,7 +249,11 @@
         },
         {
           "t": "humane",
-          "d": "treating people with proper consideration"
+          "d": "kind and fair to people"
+        },
+        {
+          "t": "unforeseen",
+          "d": "not expected or predicted before it happened"
         }
       ],
       "grammar": {
@@ -275,20 +275,20 @@
             "a": "insecure"
           },
           {
-            "s": "The debate tends to ____ differences between sectors.",
-            "cue": "OBSCURITY",
-            "a": "obscure"
+            "s": "Engagement measures employees' ____ connection to their work and organisation.",
+            "cue": "PSYCHOLOGY",
+            "a": "psychological"
           },
           {
-            "s": "Transparent arrangements distinguish ____ flexibility from overwork.",
-            "cue": "LEGITIMACY",
-            "a": "legitimate"
+            "s": "Reliable staffing can separate legitimate flexibility from the ____ of overwork.",
+            "cue": "NORMAL",
+            "a": "normalisation|normalization"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The article notes that highly paid professionals can negotiate more easily.",
+          "s": "Well-paid professionals may find it easier to negotiate flexible hours.",
           "a": "T",
           "why": "The text says: \"Highly paid professionals may negotiate flexible hours, while staff in insecure or low-paid roles risk punishment for refusing extra work.\""
         },
@@ -298,14 +298,14 @@
           "why": "The text says: \"Gallup's 2026 global workplace report estimated that just 20% of employees were engaged in 2025.\""
         },
         {
-          "s": "The writer says employees have no responsibilities towards colleagues.",
+          "s": "Employees who set boundaries owe nothing to their colleagues.",
           "a": "F",
           "why": "The text says the opposite: \"Conversely, an employee's right to boundaries does not remove responsibilities towards colleagues or the people who depend on a service.\""
         },
         {
           "s": "Gallup surveyed more than a million workers.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many workers Gallup surveyed."
         }
       ]
     }

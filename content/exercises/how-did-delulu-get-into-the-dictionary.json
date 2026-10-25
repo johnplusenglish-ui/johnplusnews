@@ -17,8 +17,8 @@
             "a": "informal"
           },
           {
-            "s": "____ is often short-lived.",
-            "a": "Slang"
+            "s": "Many slang words are popular for a short time and then ____.",
+            "a": "disappear"
           },
           {
             "s": "A dictionary is a ____ of how people use words.",
@@ -57,45 +57,45 @@
             "a": "added"
           },
           {
-            "s": "The experts who write dictionaries ____ called lexicographers.",
-            "cue": "be",
-            "a": "are"
+            "s": "Dictionary experts ____ how words are used in books and online.",
+            "cue": "watch",
+            "a": "watch"
           },
           {
-            "s": "\"Skibidi\" ____ popular because of a YouTube series.",
+            "s": "First, the word \"skibidi\" ____ popular because of a YouTube series. Then the dictionary included it.",
             "cue": "become",
             "a": "became"
           },
           {
-            "s": "Many other words ____ not get in.",
+            "s": "In the last twelve months, the dictionary included more than 6,000 words, but many other words ____ not get in.",
             "cue": "do",
             "a": "did"
           },
           {
-            "s": "Imagine a teacher ____, \"That is not a real word.\"",
-            "cue": "say",
-            "a": "says"
+            "s": "They look for words that people keep ____, not only for a week or a month.",
+            "cue": "use",
+            "a": "using"
           }
         ]
       },
       "tfn": [
         {
-          "s": "In August 2025, the Cambridge Dictionary added new words from the internet.",
+          "s": "Some internet words joined the Cambridge Dictionary in August 2025.",
           "a": "T",
           "why": "The text says: \"In August 2025, the Cambridge Dictionary added some new words from the internet.\""
         },
         {
-          "s": "\"Skibidi\" became popular because of a cooking show.",
+          "s": "\"Skibidi\" grew popular because of a cooking show.",
           "a": "F",
           "why": "The text says the opposite: \"It became popular because of a YouTube series called Skibidi Toilet.\""
         },
         {
           "s": "\"Delulu\" is now used in school exams.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether \"delulu\" is used in school exams."
         },
         {
-          "s": "Words can leave a dictionary when people stop using them.",
+          "s": "Words can be dropped from a dictionary when nobody uses them any more.",
           "a": "T",
           "why": "The text says: \"Words can also leave a dictionary when people stop using them.\""
         },
@@ -110,8 +110,8 @@
       "gap": {
         "items": [
           {
-            "s": "Karen Stollznow wrote about the additions for Cambridge University ____.",
-            "a": "Press"
+            "s": "Dictionary editors closely ____ how words are used in books, newspapers and online.",
+            "a": "monitor"
           },
           {
             "s": "The words showed staying power, which means that people were likely to keep ____ them.",
@@ -162,9 +162,9 @@
             "a": "added"
           },
           {
-            "s": "Stollznow ____ about the additions for Cambridge University Press.",
-            "cue": "write",
-            "a": "wrote"
+            "s": "Words can also be ____ from a dictionary.",
+            "cue": "remove",
+            "a": "removed"
           },
           {
             "s": "Slang frequently ____ to survive the vetting process.",
@@ -172,7 +172,7 @@
             "a": "fails"
           },
           {
-            "s": "Many more candidates never ____ it in.",
+            "s": "The dictionary included more than 6,000 words in the previous twelve months, but many more candidates never ____ it in.",
             "cue": "make",
             "a": "made"
           },
@@ -185,7 +185,7 @@
       },
       "tfn": [
         {
-          "s": "The dictionary added more than 6,000 words in the previous twelve months.",
+          "s": "More than 6,000 words joined the dictionary in the previous twelve months.",
           "a": "T",
           "why": "The text says: \"The dictionary added more than 6,000 words in the previous twelve months\""
         },
@@ -197,15 +197,15 @@
         {
           "s": "Cambridge plans to add more slang words next year.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Cambridge will add more slang next year."
         },
         {
-          "s": "The experts who compile dictionaries are called lexicographers.",
+          "s": "A dictionary can show readers that a word is informal.",
           "a": "T",
-          "why": "The text says: \"the experts who compile dictionaries are called lexicographers\""
+          "why": "The text says: \"A dictionary can also tell you when a word is informal.\""
         },
         {
-          "s": "A dictionary entry is a recommendation to use slang everywhere.",
+          "s": "A dictionary entry tells readers to use slang in every situation.",
           "a": "F",
           "why": "The text says the opposite: \"a dictionary entry is not a recommendation to use slang everywhere\""
         }
@@ -223,16 +223,16 @@
             "a": "monitor"
           },
           {
-            "s": "A word's ____ from a dictionary does not make it any less real.",
-            "a": "absence"
+            "s": "Some users may find that spoils the fun, but others will ____ using it.",
+            "a": "carry on"
           },
           {
             "s": "A dictionary ____; it does not give orders.",
             "a": "describes"
           },
           {
-            "s": "Part of the pleasure of slang is that it signals ____ of a group.",
-            "a": "membership"
+            "s": "A dictionary entry makes a word easier for ____ to understand.",
+            "a": "outsiders"
           }
         ],
         "extra": [
@@ -242,20 +242,20 @@
       },
       "match": [
         {
-          "t": "fleeting",
-          "d": "lasting for only a very short time"
-        },
-        {
           "t": "vetting",
           "d": "careful checking before something is accepted"
+        },
+        {
+          "t": "fleeting",
+          "d": "lasting for only a very short time"
         },
         {
           "t": "monitor",
           "d": "to watch something carefully over a period of time"
         },
         {
-          "t": "audience",
-          "d": "the people who read or listen to what you say"
+          "t": "unscrupulous",
+          "d": "willing to be dishonest to get what you want"
         }
       ],
       "grammar": {
@@ -267,12 +267,12 @@
             "a": "absence"
           },
           {
-            "s": "____ is not taken lightly.",
+            "s": "Words can also be removed, but ____ is not taken lightly.",
             "cue": "REMOVE",
-            "a": "Removal"
+            "a": "removal"
           },
           {
-            "s": "A careful review looks at a word's usage and ____.",
+            "s": "Adding a word involves a careful review of its usage and ____.",
             "cue": "POPULAR",
             "a": "popularity"
           },
@@ -302,7 +302,7 @@
         {
           "s": "Cambridge plans to add more slang next year.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Cambridge will add more slang next year."
         },
         {
           "s": "Words can be removed from a dictionary when they fall out of use.",
@@ -310,9 +310,9 @@
           "why": "The text says: \"Words can also be removed when they fall out of use\""
         },
         {
-          "s": "The text says the evidence clearly shows that slang loses something.",
+          "s": "A dictionary entry can tell a speaker who is listening to them.",
           "a": "F",
-          "why": "The text says the opposite: \"The evidence does not settle it\""
+          "why": "The text says the opposite: \"It cannot tell you who is listening.\""
         }
       ]
     }

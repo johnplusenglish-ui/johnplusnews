@@ -33,7 +33,7 @@
       "match": [
         {
           "t": "look around",
-          "d": "turn your eyes over a whole space"
+          "d": "check all parts of a room or space with your eyes"
         },
         {
           "t": "get up",
@@ -45,7 +45,7 @@
         },
         {
           "t": "unnecessary",
-          "d": "not needed for any purpose"
+          "d": "not needed and could be avoided"
         }
       ],
       "grammar": {
@@ -62,9 +62,9 @@
             "a": "published"
           },
           {
-            "s": "They ____ that the highest exposure carried a 27% higher risk.",
-            "cue": "find",
-            "a": "found"
+            "s": "These small lights ____ common, but they may affect our sleep.",
+            "cue": "be",
+            "a": "are"
           },
           {
             "s": "This was an association, not proof that light ____ every problem.",
@@ -87,7 +87,7 @@
         {
           "s": "The study proved that light causes sleep problems.",
           "a": "F",
-          "why": "The text says the opposite: \"This was an association, not proof that light caused every problem.\""
+          "why": "The text says the opposite: \"This was a link, not proof that the light caused the problems.\""
         },
         {
           "s": "Most bedrooms in cities are too bright at night.",
@@ -156,9 +156,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "Artificial light may ____ with signals for sleep.",
-            "cue": "INTERFERENCE",
-            "a": "interfere"
+            "s": "Curtains that block streetlights may create a more ____ sleep environment.",
+            "cue": "COMFORT",
+            "a": "comfortable"
           },
           {
             "s": "Participants with the greatest ____ had more sleep disturbance.",
@@ -213,12 +213,12 @@
             "a": "tune them out"
           },
           {
-            "s": "Our sleeping environment is ____ easily overlooked details.",
-            "a": "made up of"
+            "s": "Observational research cannot ____ every influence.",
+            "a": "isolate"
           },
           {
-            "s": "The glowing dot of a charger may seem ____.",
-            "a": "insignificant"
+            "s": "Most studies had a high ____.",
+            "a": "risk of bias"
           },
           {
             "s": "The sensible conclusion is modest rather than ____.",
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "A bedroom can appear dark while remaining surprisingly ____.",
-            "cue": "ILLUMINATE",
-            "a": "illuminated"
+            "s": "The limitations of the review are ____.",
+            "cue": "SUBSTANCE",
+            "a": "substantial"
           },
           {
             "s": "Exposure at biologically ____ times may alter sleep signals.",
@@ -280,9 +280,9 @@
             "a": "simplistic"
           },
           {
-            "s": "Residents with mobility ____ may need low-level lighting.",
-            "cue": "DIFFICULT",
-            "a": "difficulties"
+            "s": "Estimates of nighttime ____ are not always accurate.",
+            "cue": "ILLUMINATE",
+            "a": "illumination"
           }
         ]
       },
@@ -303,7 +303,7 @@
           "why": "The text says: \"The review's findings therefore have implications for architects and city authorities as well as individuals deciding whether to buy blackout curtains.\""
         },
         {
-          "s": "Across 15 studies, higher exposure was associated with poorer sleep.",
+          "s": "The review linked greater exposure to artificial light with worse sleep.",
           "a": "T",
           "why": "The text says: \"Across 15 studies involving more than 765,000 participants, the authors found that higher exposure was associated with poorer sleep.\""
         }

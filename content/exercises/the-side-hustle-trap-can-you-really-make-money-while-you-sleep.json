@@ -5,8 +5,8 @@
       "gap": {
         "items": [
           {
-            "s": "Another payment has arrived, with money ____ while she sleeps.",
-            "a": "coming in"
+            "s": "Another payment has arrived from a business she says almost ____.",
+            "a": "runs itself"
           },
           {
             "s": "These can be useful ways to ____.",
@@ -32,8 +32,8 @@
       },
       "match": [
         {
-          "t": "come in",
-          "d": "arrive as income or money"
+          "t": "profit",
+          "d": "money left after you have paid all your costs"
         },
         {
           "t": "set up",
@@ -80,19 +80,19 @@
       },
       "tfn": [
         {
-          "s": "In the 2026 survey, 29% of students said they had a business or side hustle.",
+          "s": "About three in ten students said they had a business or side hustle.",
           "a": "T",
           "why": "The text says: \"In a 2026 Save the Student survey, 29% of students said they had a business or side hustle.\""
         },
         {
-          "s": "Side hustles can sometimes turn into full-time work.",
+          "s": "A side hustle can eventually become a full-time job.",
           "a": "T",
           "why": "The text says: \"They can build confidence, teach business skills and sometimes turn into full-time work.\""
         },
         {
           "s": "Most students start a side hustle while still at school.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say when students start their side hustles."
         },
         {
           "s": "Most students with a side hustle earned thousands of pounds.",
@@ -130,7 +130,7 @@
           }
         ],
         "extra": [
-          "leave out",
+          "dismiss",
           "genuine"
         ]
       },
@@ -148,22 +148,22 @@
           "d": "real rather than pretended"
         },
         {
-          "t": "leave out",
-          "d": "fail to include something"
+          "t": "dismiss",
+          "d": "decide that something is not worth thinking about"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "These can be ____ businesses rather than empty promises.",
-            "cue": "LEGITIMACY",
-            "a": "legitimate"
+            "s": "They can provide ____, teach commercial skills and give people more control over their income.",
+            "cue": "FLEXIBLE",
+            "a": "flexibility"
           },
           {
-            "s": "Others earn ____ by recommending products.",
-            "cue": "COMMIT",
-            "a": "commissions"
+            "s": "First you need people to trust your ____.",
+            "cue": "RECOMMEND",
+            "a": "recommendations"
           },
           {
             "s": "Software ____ and listing fees reduce the profit.",
@@ -189,17 +189,17 @@
           "why": "The text says the opposite: \"Other surveys produce different figures because they question different groups and define side hustles differently.\""
         },
         {
-          "s": "A Guardian journalist tested several online money-making methods.",
+          "s": "A journalist from the Guardian tried out several popular online money-making methods.",
           "a": "T",
           "why": "The text says: \"In a recent Guardian investigation, a journalist tested several popular online money-making methods and found that the costs and effort quickly undermined the promise of easy profits.\""
         },
         {
           "s": "Most side hustles fail within the first year.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many side hustles fail in their first year."
         },
         {
-          "s": "79% of those with a side hustle had made less than £500 in a year.",
+          "s": "Roughly four in five of those with a side hustle made under £500 in a year.",
           "a": "T",
           "why": "The text says: \"Of those, 79% had made less than £500 over the previous year.\""
         }
@@ -209,12 +209,12 @@
       "gap": {
         "items": [
           {
-            "s": "The promise of effortless independence is ____.",
-            "a": "irresistible"
+            "s": "Costs ____ in both cases.",
+            "a": "add up"
           },
           {
-            "s": "That makes the sales pitch worth ____ rather than envying.",
-            "a": "picking apart"
+            "s": "The ____ between social-media aspiration and ordinary earnings is revealing.",
+            "a": "gulf"
           },
           {
             "s": "Somebody still has to persuade strangers to ____ their money.",
@@ -244,8 +244,8 @@
           "d": "give away something you would rather keep"
         },
         {
-          "t": "pick apart",
-          "d": "examine something closely to find its faults"
+          "t": "lucrative",
+          "d": "producing a lot of money"
         },
         {
           "t": "representative",
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The creator announces that a ____ payment has arrived.",
-            "cue": "SUBSTANCE",
-            "a": "substantial"
+            "s": "A product sold repeatedly without being made again may be ____ to distribute.",
+            "cue": "EXPENSIVE",
+            "a": "inexpensive"
           },
           {
             "s": "There is nothing ____ dubious about earning extra money.",
@@ -275,9 +275,9 @@
             "a": "credibility"
           },
           {
-            "s": "Courses are supported by carefully selected ____.",
-            "cue": "TESTIFY",
-            "a": "testimonials"
+            "s": "None of this undermines the value of ____.",
+            "cue": "ENTREPRENEUR",
+            "a": "entrepreneurship"
           },
           {
             "s": "A ____ founder needs to know the customer and the competition.",
@@ -288,7 +288,7 @@
       },
       "tfn": [
         {
-          "s": "The piece defines profit as what remains after platform charges, subscriptions and advertising.",
+          "s": "In this piece, profit means the money left once fees, subscriptions and advertising have been paid.",
           "a": "T",
           "why": "The text says: \"Profit is what remains after platform charges, subscriptions and advertising.\""
         },
@@ -300,12 +300,12 @@
         {
           "s": "Most course sellers earn more than the businesses they describe.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how much course sellers earn compared with the businesses they describe."
         },
         {
-          "s": "The Guardian investigation was published in October 2026.",
+          "s": "The survey figures come from students rather than from all entrepreneurs.",
           "a": "T",
-          "why": "The text says: \"A Guardian investigation published in October 2026 documented how difficult several fashionable online ventures proved in practice, reinforcing the need to distinguish exceptional cases from representative outcomes.\""
+          "why": "The text says: \"These figures describe a particular student sample, not every entrepreneur, but they provide a useful counterweight to the extraordinary success stories filling online feeds.\""
         }
       ]
     }

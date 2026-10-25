@@ -57,9 +57,14 @@
             "a": "is called"
           },
           {
-            "s": "It ____ mainly for children aged seven to thirteen.",
-            "cue": "design",
-            "a": "is designed"
+            "s": "Unlike a normal smartphone, Freckle does not ____ an app store or a web browser.",
+            "cue": "have",
+            "a": "have"
+          },
+          {
+            "s": "A child ____ for a phone, but the parents worry about social media.",
+            "cue": "ask",
+            "a": "asks"
           },
           {
             "s": "The phone ____ to cost $199.",
@@ -67,14 +72,9 @@
             "a": "is expected"
           },
           {
-            "s": "Its first deliveries ____ for December 2026.",
-            "cue": "plan",
-            "a": "were planned"
-          },
-          {
-            "s": "A child who collects discoveries in a digital book often ____ at them later.",
-            "cue": "look",
-            "a": "looks"
+            "s": "Parents can use an app ____ which features their child can access.",
+            "cue": "manage",
+            "a": "to manage"
           }
         ]
       },
@@ -87,7 +87,7 @@
         {
           "s": "The phone is already on sale in Europe.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the phone is on sale in Europe."
         },
         {
           "s": "Children can message anybody they like on the Freckle phone.",
@@ -105,12 +105,12 @@
       "gap": {
         "items": [
           {
-            "s": "A simple request can ____ an argument about safety and screen time.",
-            "a": "open up"
+            "s": "A normal smartphone lets a child contact home, but it also ____ to much more.",
+            "a": "opens the door"
           },
           {
-            "s": "A normal smartphone provides instant access to countless ____.",
-            "a": "distractions"
+            "s": "The phone aims to connect children to their families without ____ the wider internet.",
+            "a": "pulling them into"
           },
           {
             "s": "Freckle protects children from online spaces they are not ready to ____.",
@@ -125,13 +125,13 @@
             "a": "treated cautiously"
           },
           {
-            "s": "A child whose friends use popular apps may ____.",
+            "s": "A child whose friends use popular apps may ____ when their own phone cannot access them.",
             "a": "feel left out"
           }
         ],
         "extra": [
           "keep in touch",
-          "proven"
+          "compromise"
         ]
       },
       "match": [
@@ -140,16 +140,16 @@
           "d": "find your way through something complicated"
         },
         {
+          "t": "in isolation",
+          "d": "alone, apart from other people or things"
+        },
+        {
           "t": "keep in touch",
           "d": "continue to contact somebody regularly"
         },
         {
-          "t": "distraction",
-          "d": "anything that stops you concentrating"
-        },
-        {
-          "t": "proven",
-          "d": "shown by experience to work"
+          "t": "compromise",
+          "d": "a solution where each side gives up something"
         }
       ],
       "grammar": {
@@ -157,13 +157,13 @@
         "items": [
           {
             "s": "The device is aimed ____ at children aged seven to thirteen.",
-            "cue": "PRIME",
+            "cue": "PRIMARY",
             "a": "primarily"
           },
           {
-            "s": "Parents can receive ____ linked to selected areas.",
-            "cue": "ALERTED",
-            "a": "alerts"
+            "s": "Many parents believe it is ____ to expect a ten-year-old to manage social media alone.",
+            "cue": "FAIR",
+            "a": "unfair"
           },
           {
             "s": "The tools raise questions about privacy and constant ____.",
@@ -186,12 +186,12 @@
         {
           "s": "The device had been tested by large numbers of families before launch.",
           "a": "F",
-          "why": "The text says the opposite: \"Families will need to see how the device works in everyday life and whether its restrictions remain useful as children grow older.\""
+          "why": "The text says the opposite: \"At the time of the announcement, the phone was still a new product rather than a proven solution.\""
         },
         {
           "s": "Teachers have welcomed the phone in schools.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether teachers have welcomed the phone."
         },
         {
           "s": "Parents manage the phone's features through a separate app.",
@@ -209,7 +209,7 @@
       "gap": {
         "items": [
           {
-            "s": "Handing over a ____ device can mean opening the door to social media.",
+            "s": "Handing over a ____ smartphone, with all its usual apps, can mean opening the door to social media.",
             "a": "conventional"
           },
           {
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "Even adults struggle to navigate those spaces ____.",
-            "cue": "RESPONSIBLE",
-            "a": "responsibly"
+            "s": "Parents may feel more confident as children begin travelling ____.",
+            "cue": "INDEPENDENT",
+            "a": "independently"
           },
           {
             "s": "Its most ____ feature may be a camera that identifies plants and birds.",
@@ -270,9 +270,9 @@
             "a": "distinctive"
           },
           {
-            "s": "Location tracking could give parents greater ____.",
-            "cue": "CONFIDENT",
-            "a": "confidence"
+            "s": "A separate application allows adults to introduce new ____ over time.",
+            "cue": "CAPABLE",
+            "a": "capabilities"
           },
           {
             "s": "Children increasingly organise friendships through shared online spaces, which raises the problem of social ____.",
@@ -280,9 +280,9 @@
             "a": "belonging"
           },
           {
-            "s": "Expecting young users to cope alone places a burden on developing ____.",
+            "s": "Expecting very young users to cope alone places a heavy burden on developing ____.",
             "cue": "JUDGE",
-            "a": "judgement"
+            "a": "judgement|judgment"
           }
         ]
       },
@@ -290,20 +290,20 @@
         {
           "s": "Rival companies have announced similar devices for children.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether other companies have announced similar devices."
         },
         {
-          "s": "The phone was expected to begin shipping in December 2026.",
+          "s": "Deliveries were expected to start in December 2026.",
           "a": "T",
           "why": "The text says: \"Announced at $199 with a wireless plan of approximately $25 a month, the phone was expected to begin shipping in December 2026.\""
         },
         {
           "s": "The writer concludes that the device removes the need for family rules.",
           "a": "F",
-          "why": "The text says the opposite: \"Family expectations, friendship groups, local safety and the child's own interests will all influence what happens once the device is taken out of the box.\""
+          "why": "The text says the opposite: \"No single product can remove the difficult work of setting boundaries, having conversations and gradually handing over responsibility.\""
         },
         {
-          "s": "Freckle excludes a general web browser and an app store.",
+          "s": "Freckle has no general web browser or app store.",
           "a": "T",
           "why": "The text says: \"Running on the company's ClayOS operating system, it excludes a general web browser, app store, social media platforms and YouTube.\""
         }

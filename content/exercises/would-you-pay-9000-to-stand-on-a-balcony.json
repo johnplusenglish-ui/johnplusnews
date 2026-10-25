@@ -37,7 +37,7 @@
         },
         {
           "t": "fill up",
-          "d": "become completely full of people"
+          "d": "become crowded until there is almost no space"
         },
         {
           "t": "make a profit",
@@ -82,7 +82,7 @@
         {
           "s": "The city council has limited balcony rental prices.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention any city council rules on balcony prices."
         },
         {
           "s": "Holy Week is the biggest event of the year in Seville.",
@@ -136,12 +136,8 @@
       },
       "match": [
         {
-          "t": "snap something up",
-          "d": "buy something quickly before others can"
-        },
-        {
-          "t": "hand something down",
-          "d": "pass something to a later generation"
+          "t": "snap up",
+          "d": "buy or get something quickly before anyone else can"
         },
         {
           "t": "premium",
@@ -150,6 +146,10 @@
         {
           "t": "at a stroke",
           "d": "with a single action, all at once"
+        },
+        {
+          "t": "hand down",
+          "d": "pass from one generation to the next"
         }
       ],
       "grammar": {
@@ -167,7 +167,7 @@
           },
           {
             "s": "Visitors pay for convenience and ____.",
-            "cue": "EXCLUDE",
+            "cue": "EXCLUSIVE",
             "a": "exclusivity"
           },
           {
@@ -201,7 +201,7 @@
         {
           "s": "Hotel prices in Seville rose by the same amount.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention hotel prices."
         }
       ]
     },
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "The ability to view them from a ____ position has become an asset.",
-            "a": "privileged"
+            "s": "Cultural traditions can turn access into a scarce ____.",
+            "a": "commodity"
           },
           {
             "s": "The supply of balconies on the central route is ____.",
@@ -229,13 +229,13 @@
             "a": "vantage points"
           },
           {
-            "s": "Tourist spending can sustain the local economy ____.",
+            "s": "Tourist spending can help a local economy that sustains the festival ____.",
             "a": "in turn"
           }
         ],
         "extra": [
           "cashed in on",
-          "lucrative"
+          "repackaged"
         ]
       },
       "match": [
@@ -244,16 +244,16 @@
           "d": "the price people are currently paying"
         },
         {
-          "t": "cash in on",
-          "d": "take financial advantage of a situation"
-        },
-        {
           "t": "vantage point",
           "d": "a position giving a good view"
         },
         {
-          "t": "lucrative",
-          "d": "producing a great deal of money"
+          "t": "cash in on",
+          "d": "take financial advantage of a situation"
+        },
+        {
+          "t": "squeeze out",
+          "d": "force people out by taking their place or space"
         }
       ],
       "grammar": {
@@ -265,9 +265,9 @@
             "a": "devotion"
           },
           {
-            "s": "The economics are readily ____.",
-            "cue": "UNDERSTAND",
-            "a": "understandable"
+            "s": "Commercial operators see demand for a service that can ____ be bought and sold.",
+            "cue": "LEGITIMATE",
+            "a": "legitimately"
           },
           {
             "s": "The cultural ____ are less straightforward.",
@@ -280,9 +280,9 @@
             "a": "meaningful"
           },
           {
-            "s": "Traditions are maintained largely by habit, and habits are ____.",
-            "cue": "FRAGILITY",
-            "a": "fragile"
+            "s": "Balconies sell an ____ close view of the ceremonies.",
+            "cue": "USUAL",
+            "a": "unusually"
           }
         ]
       },
@@ -290,22 +290,22 @@
         {
           "s": "Procession routes have already been changed for visitors.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say that any procession route has been altered."
         },
         {
-          "s": "The writer argues that owners should be banned from charging.",
+          "s": "The final paragraph says owners should not be allowed to charge for a view.",
           "a": "F",
-          "why": "The text says the opposite: \"Defenders of the market point out that the streets remain publicly accessible and that balcony owners are entitled to control private space.\""
+          "why": "The text says the opposite: \"The question is not whether an owner may charge for a view, but whether an increasingly commercial setting changes the meaning of what spectators have come to see.\""
         },
         {
-          "s": "The piece notes that festivals have long supported local businesses.",
+          "s": "Festivals have a long history of helping hotels and restaurants.",
           "a": "T",
           "why": "The text says: \"Festivals have long supported hotels, restaurants and small businesses, and tourist spending can help sustain a local economy that sustains the festival in turn.\""
         },
         {
-          "s": "The article says the supply of central balconies cannot be expanded.",
+          "s": "Demand for the balconies has grown, but the balconies themselves have not changed.",
           "a": "T",
-          "why": "The text says: \"The processions attract enormous crowds, while the supply of balconies overlooking the central route is fixed and cannot be expanded.\""
+          "why": "The text says: \"The balcony itself has not improved; the number of people competing for it has risen.\""
         }
       ]
     }

@@ -9,8 +9,8 @@
             "a": "sit down"
           },
           {
-            "s": "Japan has a word, karoshi, which means ____.",
-            "a": "death from overwork"
+            "s": "Extremely long hours and ____ can damage both physical and mental health.",
+            "a": "work-related stress"
           },
           {
             "s": "The report showed that the problem has not ____.",
@@ -26,8 +26,8 @@
           }
         ],
         "extra": [
-          "go home",
-          "flexible"
+          "flexible",
+          "silent expectations"
         ]
       },
       "match": [
@@ -40,12 +40,12 @@
           "d": "stop being present or troubling"
         },
         {
-          "t": "flexible",
-          "d": "able to change to suit new conditions"
+          "t": "pretend",
+          "d": "behave as if something is true when it is not"
         },
         {
-          "t": "go home",
-          "d": "return to the place where you live"
+          "t": "flexible",
+          "d": "able to change to suit new conditions"
         }
       ],
       "grammar": {
@@ -62,19 +62,19 @@
             "a": "introduced"
           },
           {
-            "s": "In October 2026, the ministry ____ another report on overwork.",
+            "s": "In October 2026, another report on overwork ____ by Japan's ministry.",
             "cue": "publish",
-            "a": "published"
+            "a": "was published"
           },
           {
             "s": "Its population ____, and workers are hard to find.",
             "cue": "age",
-            "a": "is ageing"
+            "a": "is ageing|is aging"
           },
           {
-            "s": "In a survey reported in March 2026, 30% of respondents said they ____ to work fewer hours.",
-            "cue": "want",
-            "a": "wanted"
+            "s": "There may also be pressure ____ colleagues for drinks after work.",
+            "cue": "join",
+            "a": "to join"
           }
         ]
       },
@@ -85,17 +85,17 @@
           "why": "Not stated. This version does not give this information."
         },
         {
-          "s": "About 11% of survey respondents said they wanted to work more hours.",
+          "s": "Fewer respondents wanted to work more hours than wanted to work fewer.",
           "a": "T",
           "why": "The text says: \"In a labour ministry survey reported in March 2026, 30% of respondents said they wanted to work fewer hours, while about 11% wanted to work more.\""
         },
         {
           "s": "The September 2026 change removed all legal limits on overtime.",
           "a": "F",
-          "why": "The text says the opposite: \"In September 2026, the government changed the way it advises companies about a recommended monthly overtime limit.\""
+          "why": "The text says the opposite: \"That was not the same as removing all legal limits, but it worried people who had fought for better working conditions.\""
         },
         {
-          "s": "Karoshi means death from overwork.",
+          "s": "Karoshi is a Japanese word for dying because of too much work.",
           "a": "T",
           "why": "The text says: \"Japan has a word, \"karoshi\", which means death from overwork.\""
         }
@@ -130,7 +130,7 @@
           }
         ],
         "extra": [
-          "keep up",
+          "high-profile",
           "eligible"
         ]
       },
@@ -140,8 +140,8 @@
           "d": "finish work and leave for the day"
         },
         {
-          "t": "keep up",
-          "d": "continue at the same rate as others"
+          "t": "compelled",
+          "d": "forced by a strong feeling or rule to do something"
         },
         {
           "t": "eligible",
@@ -161,14 +161,14 @@
             "a": "normal"
           },
           {
-            "s": "Campaigning and widely ____ cases have led to reforms.",
-            "cue": "REPORT",
-            "a": "reported"
+            "s": "Such changes suggest a growing ____ that rest deserves space alongside ambition.",
+            "cue": "RECOGNISE",
+            "a": "recognition"
           },
           {
-            "s": "Japan has a ____ labour shortage in several sectors.",
-            "cue": "SEVERITY",
-            "a": "severe"
+            "s": "Karoshi is a word for death caused by ____ work.",
+            "cue": "EXCESS",
+            "a": "excessive"
           },
           {
             "s": "Existing legal ____ were not simply abolished.",
@@ -189,17 +189,17 @@
           "why": "Not stated. This version does not give this information."
         },
         {
-          "s": "Tokyo's metropolitan government has offered eligible staff a four-day week.",
+          "s": "Eligible staff in Tokyo's metropolitan government can choose a four-day week.",
           "a": "T",
           "why": "The text says: \"Tokyo's metropolitan government has offered a four-day working-week option to eligible staff, though it is not a national requirement.\""
         },
         {
-          "s": "The labour ministry survey showed an overwhelming demand for longer hours.",
+          "s": "The survey showed that most workers wanted to work longer hours.",
           "a": "F",
-          "why": "The text says the opposite: \"A labour ministry survey reported in March found that 30% of respondents wanted shorter hours, around one in ten wanted longer ones and the majority were satisfied with their current schedule.\""
+          "why": "The text says the opposite: \"That hardly amounts to an overwhelming demand for a return to late nights at the office.\""
         },
         {
-          "s": "From September 2026 the government stopped universally urging a 45-hour overtime limit.",
+          "s": "Since September 2026, the government no longer universally urges firms to keep overtime to 45 hours a month.",
           "a": "T",
           "why": "The text says: \"From September 2026, the government stopped universally urging companies to hold overtime to a recommended 45 hours a month.\""
         }
@@ -217,7 +217,7 @@
             "a": "at the heart of"
           },
           {
-            "s": "The consequences have sometimes been ____.",
+            "s": "The consequences have sometimes been ____, as the word karoshi shows.",
             "a": "devastating"
           },
           {
@@ -244,16 +244,16 @@
           "d": "demand something repeatedly and firmly"
         },
         {
-          "t": "let somebody down",
-          "d": "fail to do what others expected of you"
-        },
-        {
-          "t": "uneven",
-          "d": "not the same everywhere"
+          "t": "let down",
+          "d": "disappoint someone by not doing what they expected"
         },
         {
           "t": "in practice",
           "d": "in real situations rather than in theory"
+        },
+        {
+          "t": "uneven",
+          "d": "not the same everywhere"
         }
       ],
       "grammar": {
@@ -265,9 +265,9 @@
             "a": "dedication"
           },
           {
-            "s": "Public campaigning has made the issue impossible to ____.",
-            "cue": "DISMISSAL",
-            "a": "dismiss"
+            "s": "A better workplace would make extra hours ____ voluntary.",
+            "cue": "GENUINE",
+            "a": "genuinely"
           },
           {
             "s": "This was a change in guidance, not a wholesale ____ of protections.",
@@ -280,20 +280,20 @@
             "a": "disengagement"
           },
           {
-            "s": "A more ____ measure of success would value achievement over appearances.",
-            "cue": "DURATION",
-            "a": "durable"
+            "s": "Flexible schedules are gaining ____.",
+            "cue": "VISIBLE",
+            "a": "visibility"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Karoshi cases have fallen since the reforms began.",
+          "s": "The labour ministry is planning another white paper next year.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say what the ministry will publish next."
         },
         {
-          "s": "30% of survey respondents wanted fewer hours, against 10.5% who wanted more.",
+          "s": "Fewer respondents wanted more hours than wanted fewer hours.",
           "a": "T",
           "why": "The text says: \"In a labour ministry survey reported in March, 30% of respondents wanted fewer hours, compared with 10.5% who wanted to work more.\""
         },
@@ -303,7 +303,7 @@
           "why": "The text says the opposite: \"This was a change in guidance, not a wholesale abolition of statutory overtime protections, yet it prompted fears that hard-won reforms could be diluted.\""
         },
         {
-          "s": "The October 2026 white paper examined compensation claims and mental-health risks.",
+          "s": "The white paper looked at mental-health risks as well as compensation claims.",
           "a": "T",
           "why": "The text says: \"The labour ministry's October 2026 white paper continued to examine compensation claims, mental-health risks and prevention.\""
         }

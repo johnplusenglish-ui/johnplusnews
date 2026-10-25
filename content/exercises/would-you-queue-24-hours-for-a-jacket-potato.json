@@ -27,7 +27,7 @@
         ],
         "extra": [
           "join the queue",
-          "exhausted"
+          "ridiculous"
         ]
       },
       "match": [
@@ -37,7 +37,7 @@
         },
         {
           "t": "move on",
-          "d": "stop giving attention to one thing"
+          "d": "stop paying attention to one thing and turn to something else"
         },
         {
           "t": "exhausted",
@@ -92,7 +92,7 @@
         {
           "s": "The brothers plan to open a second location.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the brothers plan a second location."
         },
         {
           "s": "Fans have travelled from other countries to visit.",
@@ -105,8 +105,8 @@
       "gap": {
         "items": [
           {
-            "s": "A traditional British lunch has become an ____ online sensation.",
-            "a": "unlikely"
+            "s": "In London, popular bakeries have found themselves ____ queues along the pavement.",
+            "a": "dealing with"
           },
           {
             "s": "For owners facing rising costs, attention can be ____.",
@@ -136,12 +136,12 @@
       },
       "match": [
         {
-          "t": "a lifeline",
-          "d": "help that arrives when a situation is desperate"
+          "t": "pushed aside",
+          "d": "treated as less important than before"
         },
         {
-          "t": "push somebody aside",
-          "d": "treat somebody as less important than before"
+          "t": "a lifeline",
+          "d": "help that arrives when a situation is desperate"
         },
         {
           "t": "unpredictable",
@@ -156,9 +156,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "Their potatoes come piled high with ____ portions.",
-            "cue": "ENORMITY",
-            "a": "enormous"
+            "s": "Even the most ____ followers eventually drift away.",
+            "cue": "ENTHUSIASM",
+            "a": "enthusiastic"
           },
           {
             "s": "A ____ from the right creator can transform a café.",
@@ -171,9 +171,9 @@
             "a": "publicity"
           },
           {
-            "s": "Neighbourhoods have to deal with crowds and the resulting ____.",
-            "cue": "DISRUPT",
-            "a": "disruption"
+            "s": "But the brothers' ____ also reveals its limits.",
+            "cue": "SUCCEED",
+            "a": "success"
           },
           {
             "s": "There is a ____ element to all this.",
@@ -196,7 +196,7 @@
         {
           "s": "Preston council has complained about the crowds.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Preston council has complained."
         },
         {
           "s": "A long queue acts as a kind of public recommendation.",
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "Customers have ____ overnight to wait for a potato.",
-            "a": "bedded down"
+            "s": "The phenomenon ____ potatoes.",
+            "a": "extends well beyond"
           },
           {
             "s": "The brothers ____ their following by filming everyday business.",
@@ -240,8 +240,8 @@
       },
       "match": [
         {
-          "t": "bed down",
-          "d": "settle somewhere to sleep for the night"
+          "t": "glamorous",
+          "d": "attractive in an exciting and fashionable way"
         },
         {
           "t": "turn towards",
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "The business turned an ____ British staple into a cultural event.",
-            "cue": "EXPENSE",
-            "a": "inexpensive"
+            "s": "SpudBros has shown ____ skill.",
+            "cue": "ENTREPRENEUR",
+            "a": "entrepreneurial"
           },
           {
             "s": "Restaurants discovered that one ____ recommendation can create queues.",
@@ -275,14 +275,14 @@
             "a": "visibility"
           },
           {
-            "s": "A meal can disappoint once ____ expectations are taken into account.",
-            "cue": "INFLATE",
-            "a": "inflated"
+            "s": "The camera ignores the practical ____ of obtaining the food.",
+            "cue": "CONVENIENT",
+            "a": "inconvenience"
           },
           {
-            "s": "The experience is self-____: a crowd attracts more people.",
-            "cue": "FORCE",
-            "a": "reinforcing"
+            "s": "Small businesses need loyal customers and ____ margins.",
+            "cue": "SUSTAIN",
+            "a": "sustainable"
           }
         ]
       },
@@ -290,7 +290,7 @@
         {
           "s": "SpudBros now employs more than twenty people.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how many people SpudBros employs."
         },
         {
           "s": "The writer says consumer research links visible approval to food choices.",
@@ -298,7 +298,7 @@
           "why": "The text says: \"Research into consumer behaviour suggests that visible approval from others can influence food choices, while social platforms reward places that photograph well and generate strong reactions.\""
         },
         {
-          "s": "The brothers filmed the everyday business of preparing potatoes.",
+          "s": "The Nelson brothers built their audience by filming their everyday work.",
           "a": "T",
           "why": "The text says: \"Jacob and Harley Nelson built up their following by filming the everyday business of preparing and selling potatoes.\""
         },

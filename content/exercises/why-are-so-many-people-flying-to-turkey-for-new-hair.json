@@ -13,7 +13,7 @@
             "a": "fly out"
           },
           {
-            "s": "Patients need to find out who will ____ the procedure.",
+            "s": "Patients need to know who will ____ the procedure.",
             "a": "carry out"
           },
           {
@@ -21,7 +21,7 @@
             "a": "shopping around"
           },
           {
-            "s": "A good clinic sets ____ rather than making promises.",
+            "s": "A good clinic helps patients have ____ rather than making big promises.",
             "a": "realistic expectations"
           }
         ],
@@ -62,17 +62,17 @@
             "a": "moves"
           },
           {
-            "s": "Results take months ____.",
-            "cue": "appear",
-            "a": "to appear"
+            "s": "Istanbul is easy ____ by plane from many parts of Europe.",
+            "cue": "reach",
+            "a": "to reach"
           },
           {
-            "s": "Many people choose Turkey because treatment can ____ much less.",
-            "cue": "cost",
-            "a": "cost"
+            "s": "Some of them have just ____ a hair transplant.",
+            "cue": "have",
+            "a": "had"
           },
           {
-            "s": "If a problem ____ three weeks later, the clinic is far away.",
+            "s": "If a problem ____ three weeks later, the clinic is in another country.",
             "cue": "appear",
             "a": "appears"
           }
@@ -90,7 +90,7 @@
           "why": "The text says the opposite: \"Results take months to appear, and the treatment does not work in the same way for everyone.\""
         },
         {
-          "s": "A hair transplant moves follicles from one part of the head to another.",
+          "s": "Hair taken from one part of the head can be placed on another part.",
           "a": "T",
           "why": "The text says: \"A specialist moves small groups of hair follicles from one part of the head to another.\""
         },
@@ -166,8 +166,8 @@
             "a": "expertise"
           },
           {
-            "s": "Clinics may charge ____ less than providers in Europe.",
-            "cue": "SUBSTANCE",
+            "s": "Clinics in Istanbul may charge ____ less than comparable providers in western Europe.",
+            "cue": "SUBSTANTIAL",
             "a": "substantially"
           },
           {
@@ -176,9 +176,9 @@
             "a": "unsatisfactory"
           },
           {
-            "s": "Advertising deserves a degree of ____.",
-            "cue": "CAUTIOUS",
-            "a": "caution"
+            "s": "The challenge is separating a considered decision from an impulsive response to advertising or ____.",
+            "cue": "SECURE",
+            "a": "insecurity"
           }
         ]
       },
@@ -199,9 +199,9 @@
           "why": "The text says: \"The scalp needs time to heal, the transplanted hair comes through slowly over the following months, and some patients need a second session before they see the result they hoped for.\""
         },
         {
-          "s": "Reporting in March 2026 described Istanbul as the centre of this trade.",
+          "s": "A March 2026 report called Istanbul the centre of the hair-transplant trade.",
           "a": "T",
-          "why": "The text says: \"Reporting in March 2026 described Istanbul as the centre of this trade, where clinics compete for international customers through social media, before-and-after photographs and prices that can look remarkable at first glance.\""
+          "why": "The text says: \"Reporting in March 2026 described Istanbul as the centre of this trade.\""
         }
       ]
     },
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "The sight has become an emblem of a ____ medical-tourism industry.",
-            "a": "flourishing"
+            "s": "A surgical decision may be approached as though customers were ____ an ordinary holiday.",
+            "a": "weighing up"
           },
           {
             "s": "Hair transplantation was once a comparatively ____ procedure.",
@@ -221,8 +221,8 @@
             "a": "cuts both ways"
           },
           {
-            "s": "It has ____ and widened access to the treatment.",
-            "a": "pushed prices down"
+            "s": "A patient comparing offers from another country has limited means of ____.",
+            "a": "telling them apart"
           },
           {
             "s": "A low advertised price ____ how complications would be handled.",
@@ -275,9 +275,9 @@
             "a": "scrutiny"
           },
           {
-            "s": "A clinic that is ____ about the timetable offers real value.",
-            "cue": "CANDOUR",
-            "a": "candid"
+            "s": "Others regard baldness as an ____ feature of ageing.",
+            "cue": "REMARKABLE",
+            "a": "unremarkable"
           },
           {
             "s": "Visibility tends to ____ a treatment before people examine it.",
@@ -288,9 +288,9 @@
       },
       "tfn": [
         {
-          "s": "The writer says competition rewards clinics that market well.",
+          "s": "Strong advertising does not show that a clinic offers the best care.",
           "a": "T",
-          "why": "The text says: \"It has pushed prices down and widened access to a treatment that might otherwise remain the preserve of the wealthy, while also rewarding the clinics that are best at marketing rather than necessarily those that are best at surgery.\""
+          "why": "The text says: \"They also make the choice harder to assess: the clinic with the strongest advertising is not necessarily the one offering the best care.\""
         },
         {
           "s": "Istanbul treats more international patients than any other city.",
@@ -298,9 +298,9 @@
           "why": "Not stated. This version does not give this information."
         },
         {
-          "s": "The article says baldness is a problem needing medical correction.",
+          "s": "Baldness is described as a medical problem that needs correcting.",
           "a": "F",
-          "why": "The text says the opposite: \"Some people experience hair loss as a threat to confidence; others regard baldness as an unremarkable feature of ageing.\""
+          "why": "The text says the opposite: \"The ethical concern arises when advertising reframes a normal physical change as an insecurity demanding immediate correction.\""
         },
         {
           "s": "Some patients require additional sessions before the final result.",

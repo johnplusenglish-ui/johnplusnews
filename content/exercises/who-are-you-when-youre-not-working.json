@@ -21,7 +21,7 @@
             "a": "on a business card"
           },
           {
-            "s": "A career does not have to be ____.",
+            "s": "A career can be an important chapter, but it does not have to be ____.",
             "a": "the whole story"
           }
         ],
@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "At a party, you ____ someone new and ask their name.",
-            "cue": "meet",
-            "a": "meet"
+            "s": "Others may find the question uncomfortable, especially if they ____ for work.",
+            "cue": "look",
+            "a": "are looking"
           },
           {
             "s": "In a 2023 survey, 39% of employees ____ their job was very important.",
@@ -72,9 +72,9 @@
             "a": "being"
           },
           {
-            "s": "One person might spend weekends ____ after an older relative.",
-            "cue": "look",
-            "a": "looking"
+            "s": "What happens if someone ____ their job?",
+            "cue": "lose",
+            "a": "loses"
           }
         ]
       },
@@ -87,7 +87,7 @@
         {
           "s": "The survey was repeated in Britain.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the survey was repeated in Britain."
         },
         {
           "s": "People without paid jobs do no important work.",
@@ -105,12 +105,12 @@
       "gap": {
         "items": [
           {
-            "s": "It is a question worth ____.",
+            "s": "'What do you do?' is a question worth ____: ask what people enjoy, not what they do.",
             "a": "turning around"
           },
           {
-            "s": "Work gives structure and offers a ____.",
-            "a": "sense of identity"
+            "s": "Telling someone they are 'so successful' because of their title may ____ whether they are happy.",
+            "a": "overlook"
           },
           {
             "s": "Community involvement can provide a ____ during career changes.",
@@ -156,9 +156,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "It sounds ____, but the answer can shape how we judge people.",
-            "cue": "INNOCENCE",
-            "a": "innocent"
+            "s": "Has employment become a ____ way to describe our entire identity?",
+            "cue": "CONVENIENCE",
+            "a": "convenient"
           },
           {
             "s": "People who find ____ in work may feel motivated to contribute.",
@@ -166,9 +166,9 @@
             "a": "meaning"
           },
           {
-            "s": "There is a risk in connecting self-____ to a job title.",
-            "cue": "WORTHY",
-            "a": "worth"
+            "s": "Even apparently ____ compliments can reinforce the problem.",
+            "cue": "HARM",
+            "a": "harmless"
           },
           {
             "s": "Some jobs receive public ____ while others are rarely celebrated.",
@@ -177,7 +177,7 @@
           },
           {
             "s": "Professional labels leave unpaid contributions almost ____.",
-            "cue": "VISION",
+            "cue": "VISIBLE",
             "a": "invisible"
           }
         ]
@@ -201,7 +201,7 @@
         {
           "s": "Most people change careers at least three times.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text says nothing about how many times people change careers."
         }
       ]
     },
@@ -209,19 +209,19 @@
       "gap": {
         "items": [
           {
-            "s": "Try ____ the question and asking what keeps somebody busy.",
-            "a": "turning round"
+            "s": "The answer usually names a job, although it ____ most of a life.",
+            "a": "leaves out"
           },
           {
             "s": "Professional roles become ____ people's understanding of themselves.",
             "a": "woven into"
           },
           {
-            "s": "A promotion may ____ or an industry may change.",
-            "a": "fall through"
+            "s": "People with wider identities cope better when a promotion ____.",
+            "a": "falls through"
           },
           {
-            "s": "An industry can change ____.",
+            "s": "Some industries change ____ within a generation, leaving workers without a familiar role.",
             "a": "beyond recognition"
           },
           {
@@ -260,7 +260,7 @@
         "kind": "word",
         "items": [
           {
-            "s": "One of the most ____ questions is also the most ordinary.",
+            "s": "Try asking a different question: its answers might be more ____ than a job title.",
             "cue": "REVEAL",
             "a": "revealing"
           },
@@ -275,9 +275,9 @@
             "a": "fragility"
           },
           {
-            "s": "Occupational ____ influences how others treat us.",
-            "cue": "PRESTIGIOUS",
-            "a": "prestige"
+            "s": "Someone who performs essential labour deserves no less respect than somebody with an ____ title.",
+            "cue": "IMPRESS",
+            "a": "impressive"
           },
           {
             "s": "Those judgements can be unreliable and socially ____.",
@@ -290,10 +290,10 @@
         {
           "s": "Pew found the figure had risen since 2019.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the Pew figure has risen or fallen over time."
         },
         {
-          "s": "The article notes that job applications encourage a neat career narrative.",
+          "s": "Job applications and social media profiles push people to turn a complicated life into a tidy career story.",
           "a": "T",
           "why": "The text says: \"Job applications, networking events and social media profiles encourage us to package a complicated life into a neat career narrative.\""
         },

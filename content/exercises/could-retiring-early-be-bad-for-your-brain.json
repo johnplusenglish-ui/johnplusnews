@@ -13,7 +13,7 @@
             "a": "stood out"
           },
           {
-            "s": "Staying in an ____ job simply to keep your brain busy may be a bad idea.",
+            "s": "Staying in an ____ job that makes you tired every day, just to keep your brain busy, may be a bad idea.",
             "a": "exhausting"
           },
           {
@@ -62,9 +62,9 @@
             "a": "wait"
           },
           {
-            "s": "The researchers ____ on women in their sixties.",
-            "cue": "focus",
-            "a": "focused"
+            "s": "Retirement ____ wonderful to many people.",
+            "cue": "sound",
+            "a": "sounds"
           },
           {
             "s": "Spending longer in retirement ____ to lower scores on some tasks.",
@@ -72,15 +72,15 @@
             "a": "was linked"
           },
           {
-            "s": "The researchers ____ not find evidence of more cognitive disorders.",
-            "cue": "do",
-            "a": "did"
+            "s": "This ____ the researchers to compare people who left work at different times.",
+            "cue": "allow",
+            "a": "allowed"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The study looked at a particular group of German women.",
+          "s": "The researchers studied one particular group of women in Germany.",
           "a": "T",
           "why": "The text says: \"The study looked at a particular group of German women and the effects of a specific change in the law.\""
         },
@@ -92,7 +92,7 @@
         {
           "s": "Most German women now retire before the age of sixty.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say at what age most German women now retire."
         },
         {
           "s": "The researchers found that retirement causes dementia.",
@@ -105,8 +105,8 @@
       "gap": {
         "items": [
           {
-            "s": "The reform ____ the early retirement age for certain German women.",
-            "a": "raised"
+            "s": "They used tests of memory and language, ____ health insurance records.",
+            "a": "alongside"
           },
           {
             "s": "Flexible thinking is used to deal with ____ problems or new information.",
@@ -125,7 +125,7 @@
             "a": "taking up"
           },
           {
-            "s": "Freedom from work offers time to pursue ____ interests.",
+            "s": "Retirement leaves time for interests that busy workers have ____.",
             "a": "neglected"
           }
         ],
@@ -137,7 +137,7 @@
       "match": [
         {
           "t": "keep up with",
-          "d": "stay level with something that is moving or changing"
+          "d": "stay at the same level as something that is changing quickly"
         },
         {
           "t": "go too far",
@@ -191,7 +191,7 @@
         {
           "s": "Similar research has been carried out on German men.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention any research on German men."
         },
         {
           "s": "The reform raised the early retirement age from sixty to sixty-three.",
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "Leaving employment removes a regular source of ____.",
-            "a": "mental stimulation"
+            "s": "A sudden absence of structure can be hard for someone whose identity was closely ____ their job.",
+            "a": "tied to"
           },
           {
             "s": "The researchers ____ a German policy reform to study the question.",
@@ -280,9 +280,9 @@
             "a": "enormously"
           },
           {
-            "s": "Others flourish when they finally have time for family and ____ work.",
+            "s": "Others flourish when they finally have time for family, ____ and rest.",
             "cue": "CREATE",
-            "a": "creative"
+            "a": "creativity"
           }
         ]
       },
@@ -295,7 +295,7 @@
         {
           "s": "The authors recommend raising the retirement age across Europe.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say that the authors recommend raising the retirement age anywhere."
         },
         {
           "s": "The reform changed who could retire early according to year of birth.",

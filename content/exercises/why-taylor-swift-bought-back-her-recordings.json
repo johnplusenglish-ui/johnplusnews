@@ -13,7 +13,7 @@
             "a": "owns"
           },
           {
-            "s": "Swift bought the ____ recordings of her first six albums.",
+            "s": "She now has the ____ recordings of her first six albums.",
             "a": "original"
           },
           {
@@ -26,14 +26,14 @@
           }
         ],
         "extra": [
-          "borrowed",
-          "famous"
+          "famous",
+          "tour"
         ]
       },
       "match": [
         {
-          "t": "recording",
-          "d": "one performance of a song that has been saved so it can be heard again"
+          "t": "puzzle",
+          "d": "a problem that is hard to understand or explain"
         },
         {
           "t": "original",
@@ -67,14 +67,14 @@
             "a": "made"
           },
           {
-            "s": "She ____ her fans for supporting her new versions and her tour.",
-            "cue": "thank",
-            "a": "thanked"
+            "s": "Wanting control does not ____ refusing help.",
+            "cue": "mean",
+            "a": "mean"
           },
           {
-            "s": "She also said she now ____ her music videos and concert films.",
-            "cue": "own",
-            "a": "owns"
+            "s": "Over the years, the recordings had been ____ from one company to another.",
+            "cue": "sell",
+            "a": "sold"
           }
         ]
       },
@@ -92,10 +92,10 @@
         {
           "s": "Swift paid more than 100 million dollars for the recordings.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text says nobody said how much she paid."
         },
         {
-          "s": "Swift had already made new versions of four of the albums.",
+          "s": "Four of the albums already had new versions.",
           "a": "T",
           "why": "The text says: \"Swift had already made new versions of four of those albums.\""
         },
@@ -131,8 +131,8 @@
           }
         ],
         "extra": [
-          "decision",
-          "release"
+          "puzzle",
+          "creative"
         ]
       },
       "match": [
@@ -172,14 +172,14 @@
             "a": "were"
           },
           {
-            "s": "She ____ her fans for supporting the new versions.",
-            "cue": "thank",
-            "a": "thanked"
+            "s": "Swift had already ____ new recordings of four of the six albums.",
+            "cue": "release",
+            "a": "released"
           },
           {
-            "s": "The letter ____ not give the price.",
-            "cue": "do",
-            "a": "does"
+            "s": "Wanting control ____ not the same as refusing help.",
+            "cue": "be",
+            "a": "is"
           }
         ]
       },
@@ -236,18 +236,18 @@
           }
         ],
         "extra": [
-          "decades",
-          "lyrics"
+          "tour",
+          "photography"
         ]
       },
       "match": [
         {
-          "t": "outright",
-          "d": "completely, not partly or with conditions"
+          "t": "acquired",
+          "d": "got something, often by buying it"
         },
         {
-          "t": "paradoxical",
-          "d": "seeming to say two opposite things at once"
+          "t": "outright",
+          "d": "completely, not partly or with conditions"
         },
         {
           "t": "disclosed",
@@ -262,19 +262,19 @@
         "kind": "word",
         "items": [
           {
-            "s": "She wanted to own her work outright, with full creative ____.",
+            "s": "She wanted full creative ____ over her work.",
             "cue": "FREE",
             "a": "freedom"
           },
           {
-            "s": "Decisions belonged to ____ rather than to the person who made them.",
-            "cue": "BUSINESS",
-            "a": "businesses"
+            "s": "She said she was glad that more artists are now negotiating for ____ of their recordings.",
+            "cue": "OWN",
+            "a": "ownership"
           },
           {
-            "s": "The company that pays for the recording becomes its ____.",
-            "cue": "OWN",
-            "a": "owner"
+            "s": "When something you made becomes ____, who should decide how it is used?",
+            "cue": "VALUE",
+            "a": "valuable"
           },
           {
             "s": "The details of her early ____ are not part of the announcement.",

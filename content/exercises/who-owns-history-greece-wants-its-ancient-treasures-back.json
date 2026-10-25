@@ -27,7 +27,7 @@
         ],
         "extra": [
           "fit together",
-          "ancient"
+          "disagree"
         ]
       },
       "match": [
@@ -44,8 +44,8 @@
           "d": "join to form one complete thing"
         },
         {
-          "t": "ancient",
-          "d": "from a time thousands of years ago"
+          "t": "acquire",
+          "d": "get something by buying it or being given it"
         }
       ],
       "grammar": {
@@ -72,20 +72,20 @@
             "a": "discussed"
           },
           {
-            "s": "Some people believe those objects should ____ to the places where they were made.",
+            "s": "For many years, Greece has asked for them ____.",
             "cue": "return",
-            "a": "return"
+            "a": "to be returned"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The Acropolis Museum has space to display the sculptures.",
+          "s": "The Acropolis Museum could show the sculptures.",
           "a": "T",
           "why": "The text says: \"The Acropolis Museum, near the Parthenon, has space to display them.\""
         },
         {
-          "s": "The sculptures are more than 2,000 years old.",
+          "s": "The sculptures are over two thousand years old.",
           "a": "T",
           "why": "The text says: \"The sculptures are more than 2,000 years old.\""
         },
@@ -161,9 +161,9 @@
             "a": "remarkable"
           },
           {
-            "s": "He maintained that he had permission from the Ottoman ____.",
-            "cue": "AUTHORISE",
-            "a": "authorities"
+            "s": "Returning objects may help put right ____ injustices.",
+            "cue": "HISTORY",
+            "a": "historic"
           },
           {
             "s": "The sculptures are part of the country's history and ____.",
@@ -184,7 +184,7 @@
       },
       "tfn": [
         {
-          "s": "George Osborne suggested the sculptures might spend time in both countries.",
+          "s": "George Osborne has hoped for a deal that would let the sculptures be shown in both countries.",
           "a": "T",
           "why": "The text says: \"In October 2026, British Museum chairman George Osborne expressed hope that an arrangement could still be reached, suggesting that the sculptures might spend periods in both countries.\""
         },
@@ -194,7 +194,7 @@
           "why": "Not stated. This version does not give this information."
         },
         {
-          "s": "The British government bought the collection in 1816.",
+          "s": "The British government purchased the collection in 1816.",
           "a": "T",
           "why": "The text says: \"The British government bought the collection in 1816, and it became part of the British Museum.\""
         },
@@ -235,7 +235,7 @@
         ],
         "extra": [
           "iron out",
-          "encyclopaedic"
+          "sweeping"
         ]
       },
       "match": [
@@ -252,8 +252,8 @@
           "d": "settle the small difficulties in an agreement"
         },
         {
-          "t": "encyclopaedic",
-          "d": "covering an enormous range of subjects"
+          "t": "scrutiny",
+          "d": "careful and critical examination of something"
         }
       ],
       "grammar": {
@@ -270,9 +270,9 @@
             "a": "reunification"
           },
           {
-            "s": "The pieces were not independent ____ assembled from different places.",
-            "cue": "ARTEFACT",
-            "a": "artefacts"
+            "s": "The sculptures' presence in London is ____ from one of the museum's most persistent controversies.",
+            "cue": "SEPARATE",
+            "a": "inseparable"
           },
           {
             "s": "The Act severely restricts the ____ of objects from the collection.",
@@ -280,9 +280,9 @@
             "a": "disposal"
           },
           {
-            "s": "An agreement could seem to Athens like a demand to ____ the removal.",
-            "cue": "LEGITIMATE",
-            "a": "legitimise"
+            "s": "The argument is ____ strong because the pieces formed one artistic programme.",
+            "cue": "USUAL",
+            "a": "unusually"
           }
         ]
       },
@@ -298,12 +298,12 @@
           "why": "The text says the opposite: \"Each case has its own legal and historical circumstances, making sweeping solutions difficult.\""
         },
         {
-          "s": "The sculptures were carved for a fifth-century BC temple.",
+          "s": "The Parthenon sculptures date from the fifth century BC.",
           "a": "T",
           "why": "The text says: \"Carved for the fifth-century BC temple on the Acropolis, the surviving sculptures are now divided principally between Britain and Greece.\""
         },
         {
-          "s": "The British Museum Act 1963 restricts disposal of objects.",
+          "s": "A British law of 1963 makes it hard for the museum to dispose of objects.",
           "a": "T",
           "why": "The text says: \"The British Museum Act 1963 severely restricts the disposal of objects from the collection, meaning that a permanent transfer would be legally complicated.\""
         }

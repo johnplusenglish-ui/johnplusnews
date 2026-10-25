@@ -13,16 +13,16 @@
             "a": "stopped"
           },
           {
-            "s": "People who were not part of the fun got their money ____.",
-            "a": "back"
+            "s": "For them, it was a ____ that everyone shared.",
+            "a": "joke"
           },
           {
             "s": "The head of the company said most of the fun is ____.",
             "a": "friendly"
           },
           {
-            "s": "Cheering is not the same as ____ things.",
-            "a": "throwing"
+            "s": "Not every film showing was ____.",
+            "a": "noisy"
           }
         ],
         "extra": [
@@ -32,20 +32,20 @@
       },
       "match": [
         {
-          "t": "cheered",
-          "d": "shouted in a happy way to show support"
+          "t": "reactions",
+          "d": "the way people feel and behave when something happens"
         },
         {
           "t": "audience",
           "d": "the people who watch a film, play or show"
         },
         {
-          "t": "trend",
-          "d": "something that many people start to do at the same time"
-        },
-        {
           "t": "security",
           "d": "people whose job is to keep a place safe and calm"
+        },
+        {
+          "t": "trend",
+          "d": "something that many people start to do at the same time"
         }
       ],
       "grammar": {
@@ -62,19 +62,19 @@
             "a": "cheered"
           },
           {
-            "s": "People ____ popcorn, toilet paper and flour.",
+            "s": "After the problems, his cinemas ____ more staff and left more time between films.",
+            "cue": "use",
+            "a": "used"
+          },
+          {
+            "s": "There is a line, and ____ drinks at the screen crosses it.",
             "cue": "throw",
-            "a": "threw"
+            "a": "throwing"
           },
           {
-            "s": "Benjamin Zeccola ____ that most of the fun is friendly.",
-            "cue": "say",
-            "a": "said"
-          },
-          {
-            "s": "The manager ____ the film.",
-            "cue": "stop",
-            "a": "stopped"
+            "s": "People who were not part of the fun ____ their money back.",
+            "cue": "get",
+            "a": "got"
           }
         ]
       },
@@ -85,22 +85,22 @@
           "why": "The text says: \"people threw popcorn, toilet paper and flour\""
         },
         {
-          "s": "The manager kept the film playing without stopping.",
+          "s": "The manager let the film continue.",
           "a": "F",
           "why": "The text says the opposite: \"The manager stopped the film and security was called.\""
         },
         {
-          "s": "Every cinema in Australia stopped showing the film.",
+          "s": "Every cinema in Australia took the film off its screens.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether other cinemas in Australia stopped showing the film."
         },
         {
-          "s": "Some people got their money back.",
+          "s": "Some people received a refund.",
           "a": "T",
-          "why": "The text says: \"got their money back\""
+          "why": "The text says: \"People who were not part of the fun got their money back.\""
         },
         {
-          "s": "All the experts said the noisy showings were fun for everyone.",
+          "s": "All the experts said the loud showings were fun for everyone.",
           "a": "F",
           "why": "The text says the opposite: \"it is not fun for people who do not know the joke\""
         }
@@ -137,8 +137,8 @@
       },
       "match": [
         {
-          "t": "refunds",
-          "d": "money that is given back to you"
+          "t": "disruptive",
+          "d": "causing trouble that stops something from running normally"
         },
         {
           "t": "communal",
@@ -162,24 +162,24 @@
             "a": "reported"
           },
           {
-            "s": "The manager ____ the film.",
-            "cue": "stop",
-            "a": "stopped"
-          },
-          {
             "s": "Tahlia Gass ____ she had never seen anything like it.",
             "cue": "say",
             "a": "said"
           },
           {
-            "s": "Benjamin Zeccola ____ the trend as mostly fun and communal.",
-            "cue": "describe",
-            "a": "described"
+            "s": "Two boys were ____ to stop or be removed.",
+            "cue": "tell",
+            "a": "told"
           },
           {
-            "s": "Luke Goodsell ____ that social media is fuelling the trend.",
-            "cue": "suggest",
-            "a": "suggested"
+            "s": "His company ____ extra staff on duty and added time between sessions for cleaning.",
+            "cue": "put",
+            "a": "put"
+          },
+          {
+            "s": "He also noted that some parents had been ____ off guard early in the film's run.",
+            "cue": "catch",
+            "a": "caught"
           }
         ]
       },
@@ -190,19 +190,19 @@
           "why": "The text says: \"The manager stopped the film and security was called\""
         },
         {
-          "s": "Zeccola said the trend is not fun at all.",
+          "s": "Zeccola described the trend as unpleasant.",
           "a": "F",
           "why": "The text says the opposite: \"mostly fun and communal, with the whole room joining in\""
         },
         {
           "s": "The cinema in Forest Hill closed for a month afterwards.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the Forest Hill cinema closed."
         },
         {
-          "s": "Luke Goodsell said the trend may be exaggerated online.",
+          "s": "Luke Goodsell thinks social media may be making the trend look bigger than it is.",
           "a": "T",
-          "why": "The text says: \"it may be exaggerated online\""
+          "why": "The text says: \"social media is fuelling the trend and that it may be exaggerated online\""
         },
         {
           "s": "The reports say all fans of the film behaved badly.",
@@ -231,8 +231,8 @@
             "a": "evening"
           },
           {
-            "s": "Labels cannot guarantee behaviour, but they can change what it is ____ to expect from the room.",
-            "a": "reasonable"
+            "s": "For others, a film is a story that needs ____.",
+            "a": "silence"
           }
         ],
         "extra": [
@@ -250,8 +250,8 @@
           "d": "shared by everyone in a group"
         },
         {
-          "t": "exaggerated",
-          "d": "made to seem bigger or more serious than it is"
+          "t": "innocent",
+          "d": "not meant to cause any harm"
         },
         {
           "t": "consent",
@@ -267,14 +267,14 @@
             "a": "balanced"
           },
           {
-            "s": "The ____ are hard to pin down.",
-            "cue": "MOTIVATE",
-            "a": "motivations"
+            "s": "Treating one cinema's mess as evidence about all fans of the film would be ____.",
+            "cue": "FAIR",
+            "a": "unfair"
           },
           {
-            "s": "Not every screening was ____.",
-            "cue": "DISRUPT",
-            "a": "disrupted"
+            "s": "His company's response was ____: extra staff, and more time between sessions for cleaning.",
+            "cue": "PRACTICE",
+            "a": "practical"
           },
           {
             "s": "What the story offers is a clash of reasonable ____.",
@@ -302,12 +302,12 @@
         {
           "s": "The cinema in Forest Hill closed for repairs.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the Forest Hill cinema closed."
         },
         {
-          "s": "Goodsell said social media may be exaggerating the trend.",
+          "s": "Zeccola said the trend brought more young people into cinemas.",
           "a": "T",
-          "why": "The text says: \"it may be exaggerated online\""
+          "why": "The text says: \"said that it brought more young people into cinemas\""
         },
         {
           "s": "The text says cheering is the same as throwing things.",

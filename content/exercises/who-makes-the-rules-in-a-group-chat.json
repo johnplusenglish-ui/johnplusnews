@@ -13,8 +13,8 @@
             "a": "unwritten"
           },
           {
-            "s": "A ____ is a kind of mini-dictionary.",
-            "a": "glossary"
+            "s": "Were they in a ____ when they wrote the message?",
+            "a": "hurry"
           },
           {
             "s": "Before you decide a message is rude, think about the ____.",
@@ -32,20 +32,20 @@
       },
       "match": [
         {
-          "t": "annoyed",
-          "d": "a little angry"
+          "t": "protect",
+          "d": "to keep someone safe from harm or danger"
         },
         {
           "t": "context",
           "d": "the situation around something that helps you understand it"
         },
         {
-          "t": "unwritten rules",
-          "d": "habits and expectations that everyone follows, though nobody made them official"
-        },
-        {
           "t": "glossary",
           "d": "a list of special words with their meanings"
+        },
+        {
+          "t": "unwritten rules",
+          "d": "habits and expectations that everyone follows, though nobody made them official"
         }
       ],
       "grammar": {
@@ -57,9 +57,9 @@
             "a": "published"
           },
           {
-            "s": "Children and young people ____ the glossary, using their own voices.",
-            "cue": "start",
-            "a": "started"
+            "s": "It is ____ in Spanish.",
+            "cue": "write",
+            "a": "written"
           },
           {
             "s": "Imagine a friend ____ you this message.",
@@ -72,25 +72,25 @@
             "a": "explains"
           },
           {
-            "s": "Asking ____ better than guessing.",
+            "s": "These ____ our examples, not entries from the glossary.",
             "cue": "be",
-            "a": "is"
+            "a": "are"
           }
         ]
       },
       "tfn": [
         {
-          "s": "UNICEF Argentina published its guide in October 2025.",
+          "s": "The guide came out in October 2025.",
           "a": "T",
           "why": "The text says: \"In October 2025, UNICEF Argentina published a guide for teenagers.\""
         },
         {
           "s": "The guide is written in English.",
           "a": "F",
-          "why": "The text says the opposite: \"The guide, written in Spanish, explains in simple words the risks of online life.\""
+          "why": "The text says the opposite: \"It is written in Spanish.\""
         },
         {
-          "s": "The glossary has more than 100 words, short forms, phrases and emojis.",
+          "s": "The glossary has over 100 words, phrases and emojis.",
           "a": "T",
           "why": "The text says: \"It has more than 100 words, short forms, phrases and emojis\""
         },
@@ -132,7 +132,7 @@
         ],
         "extra": [
           "readings",
-          "jokes"
+          "relief"
         ]
       },
       "match": [
@@ -145,12 +145,12 @@
           "d": "impossible to see or notice"
         },
         {
-          "t": "unwritten rules",
-          "d": "habits and expectations that everyone follows, though nobody made them official"
+          "t": "willing",
+          "d": "ready and happy to do something"
         },
         {
-          "t": "tone",
-          "d": "the feeling in the way something is said or written"
+          "t": "unwritten rules",
+          "d": "habits and expectations that everyone follows, though nobody made them official"
         }
       ],
       "grammar": {
@@ -177,17 +177,17 @@
             "a": "grow"
           },
           {
-            "s": "After a long argument, Mia ____ a short message.",
-            "cue": "write",
-            "a": "writes"
+            "s": "The guide aims at ____ a better online environment together.",
+            "cue": "build",
+            "a": "building"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The guide was published in October 2025.",
+          "s": "The guide came out in October 2025.",
           "a": "T",
-          "why": "The text says: \"In October 2025, UNICEF Argentina published a guide for teenagers called Convivencia Digital en la Adolescencia\""
+          "why": "The text says: \"In October 2025, UNICEF Argentina published a guide for teenagers\""
         },
         {
           "s": "The glossary shows which expressions are most common among teenagers in Argentina.",
@@ -197,7 +197,7 @@
         {
           "s": "Adults started the glossary.",
           "a": "F",
-          "why": "The text says the opposite: \"It was started by children and young people, using their own voices\""
+          "why": "The text says the opposite: \"was started by children and young people, using their own voices\""
         },
         {
           "s": "Mia was angry when she wrote her message.",
@@ -227,8 +227,8 @@
             "a": "newcomer"
           },
           {
-            "s": "A group's ____ are as much about belonging as about manners.",
-            "a": "norms"
+            "s": "An unwritten rule is often ____ only when somebody breaks it.",
+            "a": "discovered"
           },
           {
             "s": "Answer confusion with a ____ rather than a defence.",
@@ -237,13 +237,13 @@
         ],
         "extra": [
           "constitution",
-          "teasing"
+          "habit"
         ]
       },
       "match": [
         {
           "t": "rulebook",
-          "d": "a book or list of official rules"
+          "d": "a document listing what people must and must not do"
         },
         {
           "t": "in-joke",
@@ -267,30 +267,30 @@
             "a": "relief"
           },
           {
-            "s": "Irritation can be dressed up as ____.",
-            "cue": "POLITE",
-            "a": "politeness"
+            "s": "Nobody makes a formal ____ of that rule, but long-standing members know it.",
+            "cue": "ANNOUNCE",
+            "a": "announcement"
           },
           {
-            "s": "Group norms are about ____ as well as manners.",
-            "cue": "BELONG",
-            "a": "belonging"
+            "s": "It could be a plain ____ from someone who is simply busy.",
+            "cue": "CONFIRM",
+            "a": "confirmation"
           },
           {
-            "s": "Reply to ____ with a clarification.",
-            "cue": "CONFUSE",
-            "a": "confusion"
+            "s": "Emojis can have ____ in meaning between chats.",
+            "cue": "DIFFER",
+            "a": "differences"
           },
           {
-            "s": "The guide offers strategies for the ____ of young people.",
-            "cue": "PROTECT",
-            "a": "protection"
+            "s": "That ____ on context is one reason the guide is interesting.",
+            "cue": "DEPEND",
+            "a": "dependence"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The UNICEF Argentina guide is written in Spanish.",
+          "s": "The guide from UNICEF Argentina was published in Spanish.",
           "a": "T",
           "why": "The text says: \"published in October 2025 and written in Spanish\""
         },
@@ -300,7 +300,7 @@
           "why": "The text says the opposite: \"It is a glossary, not a usage survey\""
         },
         {
-          "s": "The glossary contains more than 100 terms, abbreviations, phrases and emojis.",
+          "s": "The glossary lists over 100 items, including emojis and abbreviations.",
           "a": "T",
           "why": "The text says: \"it collects more than 100 terms, abbreviations, phrases and emojis\""
         },

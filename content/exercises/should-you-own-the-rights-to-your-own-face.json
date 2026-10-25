@@ -13,8 +13,8 @@
             "a": "tell the difference"
           },
           {
-            "s": "A fake video can ____ or cost them their job.",
-            "a": "damage somebody's reputation"
+            "s": "The proposal covers realistic digital imitations, ____ copies shared without permission.",
+            "a": "in other words"
           },
           {
             "s": "Most ordinary people have no lawyers to ____.",
@@ -36,8 +36,8 @@
           "d": "invent something that is not real"
         },
         {
-          "t": "take something down",
-          "d": "remove content from a website"
+          "t": "take down",
+          "d": "remove something from a website"
         },
         {
           "t": "convincing",
@@ -67,32 +67,32 @@
             "a": "announced"
           },
           {
-            "s": "The proposal ____ make it easier to challenge fake videos.",
-            "cue": "will",
-            "a": "would"
+            "s": "It was a proposed law, not something that had already ____ the problem.",
+            "cue": "solve",
+            "a": "solved"
           },
           {
-            "s": "Laws also have to work when a video ____ in another country.",
-            "cue": "share",
-            "a": "is shared"
+            "s": "Laws also have to work when a video ____ in one country and shared in another.",
+            "cue": "make",
+            "a": "is made"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Denmark announced plans for a new law in October 2026.",
+          "s": "Denmark has proposed a law about AI copies of people's faces and voices.",
           "a": "T",
           "why": "The text says: \"In October 2026, Denmark announced plans for a law to protect people against certain AI copies of their appearance and voice.\""
         },
         {
-          "s": "Deepfakes can be used for jokes as well as to hurt people.",
+          "s": "Some deepfakes are made for fun or for films.",
           "a": "T",
           "why": "The text says: \"Some are made for jokes or films, but others are used to embarrass, deceive or hurt people.\""
         },
         {
           "s": "Other countries have copied the Danish proposal.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether other countries have copied the proposal."
         },
         {
           "s": "The Danish law had already solved the problem.",
@@ -106,7 +106,7 @@
         "items": [
           {
             "s": "The result was rarely good enough to ____ the real thing.",
-            "a": "pass as"
+            "a": "pass off as"
           },
           {
             "s": "Denmark announced plans to ____ new legislation.",
@@ -136,8 +136,8 @@
       },
       "match": [
         {
-          "t": "pass something off as",
-          "d": "pretend something is what it is not"
+          "t": "pass off as",
+          "d": "present something false as if it were genuine"
         },
         {
           "t": "work out",
@@ -145,7 +145,7 @@
         },
         {
           "t": "legitimate",
-          "d": "reasonable and allowed by law"
+          "d": "fair and reasonable, with good grounds behind it"
         },
         {
           "t": "chip away at",
@@ -161,18 +161,18 @@
             "a": "unauthorised"
           },
           {
-            "s": "A ____ video may spread false statements.",
-            "cue": "FABRICATE",
-            "a": "fabricated"
+            "s": "The new rules would help people challenge convincing digital ____.",
+            "cue": "IMPERSONATE",
+            "a": "impersonations"
           },
           {
-            "s": "Laws must protect personal ____ without blocking expression.",
-            "cue": "DIGNIFY",
-            "a": "dignity"
+            "s": "In an age of increasingly ____ AI tools, control over identity may matter more.",
+            "cue": "POWER",
+            "a": "powerful"
           },
           {
             "s": "____ presents another difficulty for regulators.",
-            "cue": "FORCE",
+            "cue": "ENFORCE",
             "a": "Enforcement"
           },
           {
@@ -184,7 +184,7 @@
       },
       "tfn": [
         {
-          "s": "The Danish legislation was a proposal at the time of the announcement.",
+          "s": "When it was announced, Denmark's plan was not yet a finished law.",
           "a": "T",
           "why": "The text says: \"At the time of the announcement, the legislation was still a proposal rather than an established legal solution, and the detail had yet to be worked out.\""
         },
@@ -196,10 +196,10 @@
         {
           "s": "Denmark has already prosecuted someone under the new rules.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not mention any prosecution under the rules."
         },
         {
-          "s": "Journalists may have legitimate reasons to criticise public figures through parody.",
+          "s": "Parody of public figures can have a reasonable purpose.",
           "a": "T",
           "why": "The text says: \"Journalists, artists and campaigners may have perfectly legitimate reasons to criticise public figures through parody.\""
         }
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "Generative AI can produce ____ representations of events that never occurred.",
-            "a": "plausible"
+            "s": "Online content ____ almost instantly.",
+            "a": "crosses borders"
           },
           {
             "s": "A likeness is not merely an incidental ____ of being photographed.",
@@ -221,7 +221,7 @@
             "a": "in force"
           },
           {
-            "s": "Few legislative tasks are more delicate than ____.",
+            "s": "Few legislative tasks are more delicate than ____ and making it hold.",
             "a": "drawing that line"
           },
           {
@@ -260,14 +260,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "Generative AI has dismantled the ____ of a photograph.",
-            "cue": "CREDIBLE",
-            "a": "credibility"
+            "s": "Denmark's proposal starts with that ____ possibility.",
+            "cue": "SETTLE",
+            "a": "unsettling"
           },
           {
-            "s": "Fabricated recordings can be used to ____ people.",
-            "cue": "PERSON",
-            "a": "impersonate"
+            "s": "Whether the eventual text can match that ____ is another matter.",
+            "cue": "AMBITIOUS",
+            "a": "ambition"
           },
           {
             "s": "Satire and artistic ____ may portray real people.",
@@ -276,7 +276,7 @@
           },
           {
             "s": "An ____ broad restriction could suppress criticism.",
-            "cue": "EXCESS",
+            "cue": "EXCESSIVE",
             "a": "excessively"
           },
           {
@@ -288,22 +288,22 @@
       },
       "tfn": [
         {
-          "s": "The writer says private individuals usually lack legal advice and contacts.",
+          "s": "Private individuals seldom have the legal advice or contacts that public figures have.",
           "a": "T",
           "why": "The text says: \"The argument carries particular force for private individuals, who seldom command the legal advice, publicity or platform contacts that allow a public figure to mount a rapid correction.\""
         },
         {
           "s": "The European Union plans similar legislation.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the European Union plans similar legislation."
         },
         {
-          "s": "Denmark's proposal treats a digital likeness as deserving specific protection.",
+          "s": "The proposal sees a person's digital likeness as worth special protection.",
           "a": "T",
           "why": "The text says: \"Its significance lies in treating a person's digital likeness as something deserving specific protection, rather than as an incidental by-product of being photographed or recorded in public.\""
         },
         {
-          "s": "Removing a video from one platform ends the problem.",
+          "s": "Deleting a video from one platform is enough to stop it spreading.",
           "a": "F",
           "why": "The text says the opposite: \"Taking a video down from one platform achieves little if copies continue circulating elsewhere.\""
         }

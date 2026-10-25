@@ -62,9 +62,9 @@
             "a": "announced"
           },
           {
-            "s": "Researchers said they ____ most of the bird's genetic information.",
-            "cue": "reconstruct",
-            "a": "had reconstructed"
+            "s": "It said it ____ most of the dodo's genetic information.",
+            "cue": "rebuild",
+            "a": "had rebuilt"
           },
           {
             "s": "The original birds ____ after people arrived on Mauritius.",
@@ -74,13 +74,13 @@
           {
             "s": "Any future bird ____ a safe place to survive.",
             "cue": "need",
-            "a": "would need"
+            "a": "would need|will need|needs"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Some experts think the money would be better spent on living species.",
+          "s": "Some experts would prefer to spend the money on animals that still exist.",
           "a": "T",
           "why": "The text says: \"Others believe that the money would be better spent saving species that are still alive.\""
         },
@@ -92,10 +92,10 @@
         {
           "s": "The Nicobar pigeon is also endangered.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the Nicobar pigeon is endangered."
         },
         {
-          "s": "The dodo lived on the island of Mauritius.",
+          "s": "The dodo came from an island in the Indian Ocean.",
           "a": "T",
           "why": "The text says: \"It lived on the island of Mauritius in the Indian Ocean until it died out in the seventeenth century.\""
         }
@@ -109,8 +109,8 @@
             "a": "wipe out"
           },
           {
-            "s": "A company is ____ do something that sounds like science fiction.",
-            "a": "setting out to"
+            "s": "Whether a dodo-like bird would ____ bringing the dodo back is another question.",
+            "a": "count as"
           },
           {
             "s": "An AI-assisted system helps ____ changes linked to the bird's beak.",
@@ -186,15 +186,15 @@
         {
           "s": "The project is funded mainly by the Mauritian government.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say who pays for the project."
         },
         {
-          "s": "Colossal says it has reconstructed about 95% of the dodo's genome.",
+          "s": "Colossal says it has rebuilt almost all of the dodo's genetic code.",
           "a": "T",
           "why": "The text says: \"The company said it had reconstructed about 95% of the dodo's genome, the collection of genetic instructions that helped determine how the bird developed.\""
         },
         {
-          "s": "The company is working with people in Mauritius on habitat.",
+          "s": "Colossal is cooperating with Mauritians to prepare places where birds could live.",
           "a": "T",
           "why": "The text says: \"The company is also working with people in Mauritius to explore how suitable habitat might be restored.\""
         },
@@ -209,8 +209,8 @@
       "gap": {
         "items": [
           {
-            "s": "An ____, flightless bird, the dodo vanished in the seventeenth century.",
-            "a": "ungainly"
+            "s": "Nor is that a gap which funding and publicity alone will ____.",
+            "a": "bridge"
           },
           {
             "s": "It has become ____ itself.",
@@ -221,8 +221,8 @@
             "a": "piece together"
           },
           {
-            "s": "____, however remarkable, is not the recovery of a vanished organism.",
-            "a": "A proxy species"
+            "s": "The deeper difficulty is ____, not merely technical.",
+            "a": "conceptual"
           },
           {
             "s": "Releasing such a bird without addressing those pressures would ____.",
@@ -253,16 +253,16 @@
         },
         {
           "t": "grapple with",
-          "d": "struggle to deal with a hard problem"
+          "d": "try hard to solve or understand a difficult problem"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "That makes it an ____ candidate for a biotechnology company.",
-            "cue": "RESIST",
-            "a": "irresistible"
+            "s": "Mauritius has changed profoundly since the dodo's ____.",
+            "cue": "APPEAR",
+            "a": "disappearance"
           },
           {
             "s": "The ____ challenges involved are formidable.",
@@ -275,9 +275,9 @@
             "a": "ecological"
           },
           {
-            "s": "Several biologists argue that de-extinction is a ____ description.",
-            "cue": "MISLEAD",
-            "a": "misleading"
+            "s": "The distance between identifying genetic targets and producing a viable animal remains ____.",
+            "cue": "CONSIDER",
+            "a": "considerable"
           },
           {
             "s": "Critics say such projects attract ____ attention and resources.",
@@ -288,24 +288,24 @@
       },
       "tfn": [
         {
-          "s": "Habitat preparation is described as slow and unglamorous work.",
+          "s": "Preparing habitat for the birds is neither quick nor glamorous.",
           "a": "T",
           "why": "The text says: \"Habitat preparation is slow, unglamorous work, and it would have to succeed before any engineered bird could be released with any prospect of surviving.\""
         },
         {
-          "s": "The writer treats a convincing likeness as equal to ecological recovery.",
+          "s": "The writer expects the dodo project to blur the line between restoration and imitation.",
           "a": "F",
-          "why": "The text says the opposite: \"Whether it would repair the ecological loss that made the dodo famous is an altogether more demanding question.\""
+          "why": "The text says the opposite: \"Perhaps the most useful contribution of such ambitious science will be to sharpen rather than dissolve the distinction between restoration and imitation.\""
         },
         {
-          "s": "Colossal proposes introducing genetic changes into the Nicobar pigeon.",
+          "s": "Colossal hopes to alter the genes of a bird that is related to the dodo.",
           "a": "T",
           "why": "The text says: \"Its proposed route involves introducing selected changes into a living relative, the Nicobar pigeon, and addressing the formidable reproductive challenges involved in producing genetically modified birds.\""
         },
         {
           "s": "Mauritius has agreed to release any engineered bird into the wild.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Mauritius has agreed to any release of engineered birds."
         }
       ]
     }

@@ -5,8 +5,8 @@
       "gap": {
         "items": [
           {
-            "s": "The series is based on a Japanese ____ by Eiichiro Oda.",
-            "a": "comic"
+            "s": "In the story, Chopper has a blue nose and a giant pink ____.",
+            "a": "hat"
           },
           {
             "s": "Chopper is made with ____, but real people make him feel alive.",
@@ -17,8 +17,8 @@
             "a": "voice"
           },
           {
-            "s": "A system records the movements of her ____.",
-            "a": "face"
+            "s": "Chopper is clever, and he wants to cure every ____.",
+            "a": "illness"
           },
           {
             "s": "Chopper looks sweet, but he is ____ than he seems.",
@@ -26,55 +26,55 @@
           }
         ],
         "extra": [
-          "bigger",
-          "older"
+          "street",
+          "kind"
         ]
       },
       "match": [
         {
           "t": "manga",
-          "d": "a Japanese comic book"
-        },
-        {
-          "t": "adaptation",
-          "d": "a new version of a story in a different form, such as a series"
+          "d": "a type of printed story told in drawings, from Japan"
         },
         {
           "t": "facial capture",
           "d": "recording the movements of a face so a computer character can copy them"
         },
         {
-          "t": "hybrid",
-          "d": "something that is a mixture of two different things"
+          "t": "loyal",
+          "d": "always supporting your friends and never letting them down"
+        },
+        {
+          "t": "adaptation",
+          "d": "a new version of a story in a different form, such as a series"
         }
       ],
       "grammar": {
         "kind": "verb",
         "items": [
           {
-            "s": "The series ____ based on a Japanese comic.",
-            "cue": "be",
-            "a": "is"
-          },
-          {
-            "s": "Oda ____ the work.",
-            "cue": "approve",
-            "a": "approved"
-          },
-          {
-            "s": "A company called Framestore ____ Oda's drawing into a character.",
+            "s": "Framestore ____ Oda's drawing into a character for the series, and then Oda approved the work.",
             "cue": "change",
             "a": "changed"
           },
           {
-            "s": "Mikaela Hoover also ____ facial capture.",
-            "cue": "do",
-            "a": "did"
+            "s": "Chopper is a small reindeer character who ____ as a doctor.",
+            "cue": "work",
+            "a": "works"
           },
           {
-            "s": "Hoover ____ people like him because he has a big heart.",
-            "cue": "say",
-            "a": "says"
+            "s": "These movements help the computer character ____ real feelings.",
+            "cue": "show",
+            "a": "show"
+          },
+          {
+            "s": "The series is ____ on a Japanese comic by Eiichiro Oda.",
+            "cue": "base",
+            "a": "based"
+          },
+          {
+            "s": "Chopper likes compliments, but he ____ to hide it.",
+            "cue": "try",
+            "a": "tries"
           }
         ]
       },
@@ -92,12 +92,12 @@
         {
           "s": "Chopper appears in every episode of the second season.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say which episodes Chopper appears in."
         },
         {
-          "s": "Mikaela Hoover gives Chopper his voice.",
+          "s": "Hoover's face movements were recorded for the computer character.",
           "a": "T",
-          "why": "The text says: \"gives Chopper his voice\""
+          "why": "The text says: \"a system records the movements of her face\""
         },
         {
           "s": "Chopper never likes compliments.",
@@ -114,12 +114,12 @@
             "a": "generated"
           },
           {
-            "s": "Oda ____ the work, and said it covered everything from Chopper's form to his voice.",
-            "a": "approved"
+            "s": "Oda said the work covered everything from Chopper's form and fur to his voice and the ____ of gravity.",
+            "a": "simulation"
           },
           {
-            "s": "Mikaela Hoover also performed his ____ capture.",
-            "a": "facial"
+            "s": "In the story, Chopper is also clever, ____ to cure all diseases, and fiercely loyal.",
+            "a": "determined"
           },
           {
             "s": "The appeal comes from the conflict between his aloof front and his big ____.",
@@ -131,8 +131,8 @@
           }
         ],
         "extra": [
-          "costume",
-          "comic"
+          "ticket",
+          "pattern"
         ]
       },
       "match": [
@@ -162,32 +162,32 @@
             "a": "revealed"
           },
           {
-            "s": "Framestore ____ his design on Oda's drawings.",
+            "s": "The series is ____ on the manga by Eiichiro Oda.",
             "cue": "base",
             "a": "based"
           },
           {
-            "s": "Oda ____ the work.",
+            "s": "After the company finished, Oda ____ the work.",
             "cue": "approve",
             "a": "approved"
           },
           {
-            "s": "She ____ she sees a little of Chopper in everyone.",
-            "cue": "say",
-            "a": "says"
+            "s": "Chopper ____ to hide his feelings, but he cannot.",
+            "cue": "try",
+            "a": "tries"
           },
           {
-            "s": "Mikaela Hoover ____ Chopper.",
-            "cue": "voice",
-            "a": "voices"
+            "s": "Hoover has ____ what makes Chopper appealing.",
+            "cue": "describe",
+            "a": "described"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Netflix revealed Chopper in 2025.",
+          "s": "Netflix showed Chopper to the public in 2025.",
           "a": "T",
-          "why": "The text says: \"Netflix revealed him in 2025\""
+          "why": "The text says: \"Netflix revealed him in 2025, ahead of the second season.\""
         },
         {
           "s": "Chopper is an actor in a costume.",
@@ -197,17 +197,17 @@
         {
           "s": "Chopper appears in every episode of the second season.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say which episodes Chopper appears in."
         },
         {
-          "s": "Hoover also performed Chopper's facial capture.",
+          "s": "Hoover's face was recorded to help guide Chopper's expressions.",
           "a": "T",
-          "why": "The text says: \"she also performed his facial capture\""
+          "why": "The text says: \"the recording of her face could guide the computer character\""
         },
         {
-          "s": "Hoover says she sees nothing of herself in Chopper.",
+          "s": "Hoover says Chopper shows his feelings on purpose.",
           "a": "F",
-          "why": "The text says the opposite: \"She says she sees a little of Chopper in everyone\""
+          "why": "The text says the opposite: \"he tries to hide his feelings, but he cannot\""
         }
       ]
     },
@@ -223,8 +223,8 @@
             "a": "simulation"
           },
           {
-            "s": "Computer imagery does not replace a human performance. It ____ on one.",
-            "a": "depends"
+            "s": "A very realistic design can make a fantasy character feel less ____.",
+            "a": "convincing"
           },
           {
             "s": "The appeal lies in the conflict between his ____ front and his big heart.",
@@ -246,25 +246,25 @@
           "d": "something that is a mixture of two different things"
         },
         {
-          "t": "simulation",
-          "d": "a computer model that copies how something behaves in real life"
-        },
-        {
           "t": "aloof",
           "d": "seeming distant and not friendly on the surface"
         },
         {
           "t": "faithful",
           "d": "staying close to the original"
+        },
+        {
+          "t": "literal",
+          "d": "following the exact details, not the deeper idea"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "A very realistic design can make a creature feel more ____.",
-            "cue": "PHYSICS",
-            "a": "physical"
+            "s": "Another meaning of faithful is ____: the same personality, expressed in a different medium.",
+            "cue": "EMOTION",
+            "a": "emotional"
           },
           {
             "s": "In the story, he is clever, ____ loyal and eager to cure every disease.",
@@ -277,37 +277,37 @@
             "a": "hopeful"
           },
           {
-            "s": "Some changes are ____.",
-            "cue": "NEED",
-            "a": "necessary"
+            "s": "A drawing allows an ____ that a camera does not.",
+            "cue": "EXAGGERATE",
+            "a": "exaggeration"
           },
           {
-            "s": "The articles give few technical ____.",
-            "cue": "DETAILED",
-            "a": "details"
+            "s": "Fans take his ____ so seriously.",
+            "cue": "APPEAR",
+            "a": "appearance"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Netflix revealed Chopper in 2025.",
+          "s": "Chopper was revealed publicly in 2025.",
           "a": "T",
-          "why": "The text says: \"Netflix revealed Chopper in 2025\""
+          "why": "The text says: \"Netflix revealed Chopper in 2025, ahead of the show's second season\""
         },
         {
-          "s": "The text says computers replace human performance completely.",
+          "s": "Chopper's computer-generated body was made without any human performance.",
           "a": "F",
-          "why": "The text says the opposite: \"computer imagery does not replace a human performance\""
+          "why": "The text says the opposite: \"the computer-generated body was shaped by a human performance\""
         },
         {
           "s": "Chopper appears in every episode of the second season.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say which episodes Chopper appears in."
         },
         {
-          "s": "Framestore based Chopper's design on Oda's drawings.",
+          "s": "The text suggests that Netflix's articles may show the show in a flattering way.",
           "a": "T",
-          "why": "The text says: \"based his design on Oda's drawings\""
+          "why": "The text says: \"so they present a hopeful picture and give few technical details\""
         },
         {
           "s": "The text says the articles name the software that was used.",

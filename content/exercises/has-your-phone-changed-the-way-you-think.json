@@ -9,7 +9,7 @@
             "a": "go back to"
           },
           {
-            "s": "Seven seconds may ____.",
+            "s": "Seven seconds may ____, but many people receive dozens of alerts every day.",
             "a": "not sound like much"
           },
           {
@@ -45,7 +45,7 @@
         },
         {
           "t": "unnecessary",
-          "d": "not needed at all"
+          "d": "not needed, and better left out"
         }
       ],
       "grammar": {
@@ -80,14 +80,14 @@
       },
       "tfn": [
         {
-          "s": "The research was published in 2026.",
+          "s": "The study came out in 2026.",
           "a": "T",
           "why": "The text says: \"In research published in 2026 in Computers in Human Behavior, people completed an attention task while receiving notifications similar to those from social media.\""
         },
         {
           "s": "Most participants were university students.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say who took part in the study."
         },
         {
           "s": "The slowdown lasted about seven seconds.",
@@ -145,20 +145,20 @@
         },
         {
           "t": "relevant",
-          "d": "closely connected to the matter in hand"
+          "d": "closely connected to the topic or situation"
         },
         {
           "t": "take back control",
-          "d": "regain power over your own situation"
+          "d": "get power over your own life again"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "A study ____ the immediate effects of notifications.",
-            "cue": "INVESTIGATION",
-            "a": "investigated"
+            "s": "Notifications produced a temporary slowdown lasting ____ seven seconds.",
+            "cue": "APPROXIMATE",
+            "a": "approximately"
           },
           {
             "s": "Participants completed a task requiring ____.",
@@ -196,7 +196,7 @@
         {
           "s": "Most companies now ban messages after six o'clock.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say what companies do about messages after work."
         },
         {
           "s": "The study appeared in Computers in Human Behavior in 2026.",
@@ -209,11 +209,11 @@
       "gap": {
         "items": [
           {
-            "s": "Moments later we return to ____.",
-            "a": "the task at hand"
+            "s": "Research asks why some interruptions are harder to ____ than others.",
+            "a": "shake off"
           },
           {
-            "s": "The experiment identified ____ changes under particular conditions.",
+            "s": "The experiment identified ____ changes; it did not measure permanent cognitive decline.",
             "a": "short-lived"
           },
           {
@@ -244,7 +244,7 @@
           "d": "take advantage of a feeling somebody has"
         },
         {
-          "t": "design something out",
+          "t": "design out",
           "d": "remove a problem by changing the system"
         },
         {
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "Attention is not restored as ____ as the sequence suggests.",
-            "cue": "EFFORT",
-            "a": "effortlessly"
+            "s": "If we choose when to check, we may reduce ____ interruptions.",
+            "cue": "NEED",
+            "a": "needless"
           },
           {
             "s": "The effect varied with the perceived ____ of the notification.",
@@ -270,7 +270,7 @@
             "a": "relevance"
           },
           {
-            "s": "Quick communication supports families and ____ tools help many users.",
+            "s": "Quick communication supports families, while ____ tools make everyday tasks easier.",
             "cue": "ACCESS",
             "a": "accessibility"
           },
@@ -288,19 +288,19 @@
       },
       "tfn": [
         {
-          "s": "The effect varied with habitual patterns of phone interaction.",
+          "s": "The size of the slowdown depended partly on people's usual phone habits.",
           "a": "T",
           "why": "The text says: \"The effect varied with the perceived relevance of the notification and with habitual patterns of phone interaction, rather than simply the total amount of time spent using a device.\""
         },
         {
-          "s": "The article says notifications communicate an expectation of attention.",
+          "s": "Notifications carry an unspoken message about how quickly people should respond.",
           "a": "T",
           "why": "The text says: \"Notifications are not merely technical signals; they communicate an expectation of attention.\""
         },
         {
           "s": "The researchers plan a follow-up study in workplaces.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the researchers plan more studies."
         },
         {
           "s": "The writer argues that people should give up smartphones.",

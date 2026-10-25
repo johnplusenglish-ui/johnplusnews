@@ -5,7 +5,7 @@
       "gap": {
         "items": [
           {
-            "s": "You ____ hiding in an air-conditioned room, waiting for the evening.",
+            "s": "You did not plan to stay inside, but you ____ hiding in an air-conditioned room.",
             "a": "end up"
           },
           {
@@ -57,9 +57,9 @@
             "a": "heading"
           },
           {
-            "s": "Scotland is one place ____ from the new interest in cooler holidays.",
-            "cue": "benefit",
-            "a": "benefiting"
+            "s": "Norway's Lofoten Islands ____ crowded roads and rubbish as tourism has grown.",
+            "cue": "experience",
+            "a": "have experienced"
           },
           {
             "s": "In August, the BBC ____ holiday-cottage owners near Glencoe.",
@@ -90,14 +90,14 @@
           "why": "The text says the opposite: \"Spain, Italy and Greece remain extremely popular, and people choose places for many reasons, including price, food, culture and beaches.\""
         },
         {
-          "s": "Norway's tourism organisation said about one in five visitors chose it for cooler weather.",
+          "s": "Norway's tourism organisation said about one in five foreign visitors chose Norway partly for its cooler weather.",
           "a": "T",
           "why": "The text says: \"Norway's tourism organisation said about one in five foreign visitors chose the country partly for its cooler weather.\""
         },
         {
           "s": "Flights to Scandinavia have become cheaper as a result.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text says nothing about the price of flights to Scandinavia."
         }
       ]
     },
@@ -109,8 +109,8 @@
             "a": "taken off"
           },
           {
-            "s": "Travellers want to explore without organising their day around ____ hours.",
-            "a": "the most punishing"
+            "s": "Travellers want to explore without organising their day around the most ____ hours of the afternoon heat.",
+            "a": "punishing"
           },
           {
             "s": "Weather that advertisements once tried to ____ became a selling point.",
@@ -148,15 +148,15 @@
           "d": "careful to avoid risk or error"
         },
         {
-          "t": "play something down",
-          "d": "make something seem less important than it is"
+          "t": "play down",
+          "d": "make something seem less serious or important"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "Imagine arriving for an eagerly ____ city break in the middle of a heatwave.",
+            "s": "Imagine arriving for a long-____ city break and finding it too hot for sightseeing.",
             "cue": "AWAIT",
             "a": "awaited"
           },
@@ -166,9 +166,9 @@
             "a": "memorable"
           },
           {
-            "s": "Tourism researchers are cautious about such ____.",
-            "cue": "DECLARE",
-            "a": "declarations"
+            "s": "Guaranteed sunshine is no longer a guarantee of ____.",
+            "cue": "ENJOY",
+            "a": "enjoyment"
           },
           {
             "s": "Climate is only one factor alongside cost and transport ____.",
@@ -176,9 +176,9 @@
             "a": "links"
           },
           {
-            "s": "Moving crowds around Europe could simply create new ____.",
-            "cue": "PROBLEMATIC",
-            "a": "problems"
+            "s": "But when a holiday feels like hard work, a grey sky can suddenly look rather ____.",
+            "cue": "INVITE",
+            "a": "inviting"
           }
         ]
       },
@@ -186,7 +186,7 @@
         {
           "s": "Norwegian hotels have raised their summer prices in response.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text says nothing about hotel prices in Norway."
         },
         {
           "s": "Scotland suffered a major wildfire in the Cairngorms that summer.",
@@ -300,12 +300,12 @@
         {
           "s": "Norway has introduced limits on visitor numbers to Lofoten.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Norway has limited visitor numbers in Lofoten."
         },
         {
-          "s": "Euronews reported research showing growing interest in northern regions.",
+          "s": "Euronews described growing interest in northern destinations.",
           "a": "T",
-          "why": "The text says: \"Euronews, reporting with AFP, cited tourism research showing growing interest in northern regions and noted that roughly one in five international visitors to Norway considered cooler summer weather among their reasons for travelling there.\""
+          "why": "The text says: \"Euronews, reporting with AFP, described growing interest in northern destinations.\""
         }
       ]
     }

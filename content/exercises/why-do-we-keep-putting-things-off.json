@@ -27,7 +27,7 @@
         ],
         "extra": [
           "lazy",
-          "stressful"
+          "distracted"
         ]
       },
       "match": [
@@ -92,7 +92,7 @@
         {
           "s": "Procrastination is more common among younger people than older people.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not compare younger and older people."
         },
         {
           "s": "Recent studies suggest that procrastination is simply laziness.",
@@ -130,7 +130,7 @@
           }
         ],
         "extra": [
-          "rough",
+          "last-minute",
           "exhausted"
         ]
       },
@@ -186,7 +186,7 @@
         {
           "s": "Procrastination is more common in students than in people at work.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not compare students with people at work."
         },
         {
           "s": "Psychologists increasingly look at the emotions behind the behaviour.",
@@ -194,9 +194,9 @@
           "why": "The text says: \"People often describe procrastinators as lazy or badly organised, but psychologists increasingly look at the emotions behind the behaviour.\""
         },
         {
-          "s": "One Italian study combined questionnaires with tests of attention and self-control.",
+          "s": "An Italian investigation measured attention and self-control as well as using questionnaires.",
           "a": "T",
-          "why": "The text says: \"One Italian investigation combined questionnaires with tests of attention and self-control.\""
+          "why": "The text says: \"One Italian investigation used questionnaires and tasks measuring attention and self-control.\""
         },
         {
           "s": "The research proves that phones cause procrastination.",
@@ -261,7 +261,7 @@
         "items": [
           {
             "s": "A task can stir up the pressure to meet ____ expectations.",
-            "cue": "REAL",
+            "cue": "REALISTIC",
             "a": "unrealistic"
           },
           {
@@ -290,17 +290,17 @@
         {
           "s": "The Italian study found that men procrastinate more than women.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not report any difference between men and women."
         },
         {
-          "s": "The writer argues that procrastination always shows a lack of discipline.",
+          "s": "Research supports the idea that procrastinators simply lack discipline.",
           "a": "F",
-          "why": "The text says the opposite: \"The research points less at discipline than at the discomfort we are trying to escape.\""
+          "why": "The text says the opposite: \"The standard explanation is that procrastinators lack discipline. Psychological research suggests something considerably more interesting.\""
         },
         {
           "s": "Some of the research described was observational rather than experimental.",
           "a": "T",
-          "why": "The text says: \"These findings help explain the behaviour, although many of the studies were observational.\""
+          "why": "The text says: \"The association does not establish why they put things off, and many of the studies were observational.\""
         },
         {
           "s": "A perfectionist may end up with less time than a less demanding writer.",

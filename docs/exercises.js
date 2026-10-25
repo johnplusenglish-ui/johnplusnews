@@ -38,7 +38,7 @@
       gap.draggable = false;
       gap.setAttribute("aria-label", "Gap, empty");
     }
-    gap.classList.remove("ok", "no");
+    gap.classList.remove("ok", "no", "blank");
   }
   function place(gap, chip) {
     var block = gap.closest("[data-ex]");
@@ -50,6 +50,9 @@
     clearPick();
   }
 
+  wrap.addEventListener("input", function (ev) { if (ev.target.classList) ev.target.classList.remove("blank"); });
+  wrap.addEventListener("change", function (ev) { if (ev.target.classList) ev.target.classList.remove("blank"); });
+
   wrap.addEventListener("click", function (ev) {
     var chip = ev.target.closest(".ex-chip");
     var gap = ev.target.closest(".ex-gap");
@@ -59,6 +62,7 @@
     if (opt) {                                 // one choice per statement
       var group = opt.closest(".ex-tfn");
       [].forEach.call(group.querySelectorAll(".ex-opt"), function (b) { b.classList.remove("on", "ok", "no"); });
+      group.classList.remove("blank");
       opt.classList.add("on");
       return;
     }
@@ -133,11 +137,14 @@
   });
 
   function mark(block, reveal) {
-    var right = 0, total = 0;
+    var right = 0, total = 0, blank = 0;
     [].forEach.call(block.querySelectorAll(".ex-gap"), function (g) {
       total++;
       var ok = norm(g.dataset.w || "") === norm(g.dataset.a);
+      var none = !g.dataset.w;
       if (ok) right++;
+      if (none && !reveal) blank++;
+      g.classList.toggle("blank", none && !reveal);
       if (reveal && !ok) {
         var chip = [].slice.call(block.querySelectorAll(".ex-chip")).filter(function (c) {
           return norm(c.dataset.w) === norm(g.dataset.a);
@@ -153,7 +160,10 @@
       total++;
       var accept = inp.dataset.a.split("|").map(norm);
       var ok = accept.indexOf(norm(inp.value)) >= 0;
+      var none = norm(inp.value) === "";
       if (ok) right++;
+      if (none && !reveal) blank++;
+      inp.classList.toggle("blank", none && !reveal);
       if (reveal && !ok) { inp.value = inp.dataset.a.split("|")[0]; inp.classList.remove("no"); inp.classList.add("ok"); }
       else { inp.classList.toggle("ok", ok); inp.classList.toggle("no", !ok && (norm(inp.value) !== "" || reveal)); }
     });
@@ -162,6 +172,8 @@
       var chosen = g.querySelector(".ex-opt.on");
       var ok = !!chosen && chosen.dataset.v === g.dataset.a;
       if (ok) right++;
+      if (!chosen && !reveal) blank++;
+      g.classList.toggle("blank", !chosen && !reveal);
       if (reveal && !ok) {
         [].forEach.call(g.querySelectorAll(".ex-opt"), function (b) { b.classList.remove("on", "ok", "no"); });
         var want = g.querySelector('.ex-opt[data-v="' + g.dataset.a + '"]');
@@ -177,22 +189,28 @@
       total++;
       var ok = s.value === s.dataset.a;
       if (ok) right++;
+      if (s.value === "" && !reveal) blank++;
+      s.classList.toggle("blank", s.value === "" && !reveal);
       if (reveal && !ok) { s.value = s.dataset.a; s.classList.remove("no"); s.classList.add("ok"); }
       else { s.classList.toggle("ok", ok); s.classList.toggle("no", !ok && (s.value !== "" || reveal)); }
     });
     if (reveal) block.dataset.revealed = "1";
     var out = block.querySelector(".ex-score");
-    out.textContent = reveal ? "Answers shown" : right + " of " + total + " correct";
-    out.classList.toggle("good", !reveal && right === total);
-    return { right: right, total: total };
+    var assisted = !!block.dataset.revealed;      // once the answers have been shown, this attempt is not a score
+    out.textContent = reveal ? "Answers shown" :
+      assisted ? "Answers were shown, so this is not a score. Press Try again to start fresh." :
+      right + " of " + total + " correct" + (blank ? ", " + blank + " not answered" : "");
+    out.classList.toggle("good", !reveal && !assisted && right === total);
+    return { right: right, total: total, blank: blank };
   }
 
   function reset(block) {
     [].forEach.call(block.querySelectorAll(".ex-gap"), function (g) { setGap(g, null); });
     [].forEach.call(block.querySelectorAll(".ex-chip"), function (c) { c.classList.remove("used", "sel", "drag"); });
-    [].forEach.call(block.querySelectorAll(".ex-sel"), function (s) { s.value = ""; s.classList.remove("ok", "no"); });
-    [].forEach.call(block.querySelectorAll(".ex-in"), function (i) { i.value = ""; i.classList.remove("ok", "no"); });
+    [].forEach.call(block.querySelectorAll(".ex-sel"), function (s) { s.value = ""; s.classList.remove("ok", "no", "blank"); });
+    [].forEach.call(block.querySelectorAll(".ex-in"), function (i) { i.value = ""; i.classList.remove("ok", "no", "blank"); });
     [].forEach.call(block.querySelectorAll(".ex-opt"), function (b) { b.classList.remove("on", "ok", "no"); });
+    [].forEach.call(block.querySelectorAll(".ex-tfn"), function (g) { g.classList.remove("blank"); });
     [].forEach.call(block.querySelectorAll(".ex-why"), function (w) { w.hidden = true; });
     delete block.dataset.revealed;
     var out = block.querySelector(".ex-score"); out.textContent = ""; out.classList.remove("good");

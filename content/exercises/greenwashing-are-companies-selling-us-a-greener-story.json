@@ -13,16 +13,16 @@
             "a": "a great deal of"
           },
           {
-            "s": "The claim may contain ____ while hiding the larger problem.",
-            "a": "a little truth"
+            "s": "The European Union has also ____ stronger rules against unclear environmental advertising.",
+            "a": "brought in"
           },
           {
             "s": "The regulator said the adverts gave a ____ impression.",
             "a": "misleading"
           },
           {
-            "s": "A leaf on a label is not proof. ____ needs more than a nice picture.",
-            "a": "Real progress"
+            "s": "Businesses now face restrictions on green claims that do not have ____.",
+            "a": "proper evidence"
           }
         ],
         "extra": [
@@ -82,7 +82,7 @@
         {
           "s": "The airlines were fined for their advertisements.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say that the airlines had to pay a fine."
         },
         {
           "s": "Every company that uses green advertising is dishonest.",
@@ -90,12 +90,12 @@
           "why": "The text says the opposite: \"Not every business using green advertising is dishonest, and small improvements are worth making.\""
         },
         {
-          "s": "The UK regulator criticised adverts from Eurowings and Qatar Airways.",
+          "s": "The UK advertising regulator criticised adverts from two airlines.",
           "a": "T",
           "why": "The text says: \"In July 2026, the UK's advertising regulator criticised advertisements from Eurowings and Qatar Airways.\""
         },
         {
-          "s": "New EU rules restrict general green claims without proper evidence.",
+          "s": "Rules in the EU now limit green claims that lack proper evidence.",
           "a": "T",
           "why": "The text says: \"Since September 2026, businesses have faced restrictions on general green claims that do not have proper evidence.\""
         }
@@ -105,12 +105,12 @@
       "gap": {
         "items": [
           {
-            "s": "Sometimes the trick is ____.",
-            "a": "selective attention"
+            "s": "The positive detail may be genuine, but it can ____ a much larger environmental cost.",
+            "a": "distract from"
           },
           {
-            "s": "What is ____ matters as much as what is put in it.",
-            "a": "left out of the frame"
+            "s": "What is ____ the frame matters as much as what is put in it.",
+            "a": "left out of"
           },
           {
             "s": "In July 2026, the Advertising Standards Authority ____ about two airlines.",
@@ -130,7 +130,7 @@
           }
         ],
         "extra": [
-          "add up",
+          "cancel out",
           "unreliable"
         ]
       },
@@ -140,30 +140,30 @@
           "d": "provide evidence that supports a claim"
         },
         {
-          "t": "win out",
-          "d": "succeed in the end against competition"
-        },
-        {
           "t": "unreliable",
           "d": "not to be trusted or depended on"
         },
         {
-          "t": "add up",
-          "d": "seem reasonable when you think about it"
+          "t": "win out",
+          "d": "succeed in the end against competition"
+        },
+        {
+          "t": "cancel out",
+          "d": "remove the effect of something else"
         }
       ],
       "grammar": {
         "kind": "word",
         "items": [
           {
-            "s": "The positive detail may be genuine, but it can be ____.",
-            "cue": "DISTRACT",
-            "a": "distracting"
+            "s": "That is what makes greenwashing ____.",
+            "cue": "EFFECT",
+            "a": "effective"
           },
           {
-            "s": "Regulators have become concerned about ____ promises.",
-            "cue": "VAGUENESS",
-            "a": "vague"
+            "s": "Regulators have become ____ concerned about vague promises.",
+            "cue": "INCREASE",
+            "a": "increasingly"
           },
           {
             "s": "The rules also address unreliable ____ labels.",
@@ -171,14 +171,14 @@
             "a": "sustainability"
           },
           {
-            "s": "Consumers cannot become experts in ____ science every time they shop.",
-            "cue": "CLIMATIC",
-            "a": "climate"
+            "s": "Accurate information and ____ checks matter, because shoppers cannot investigate everything.",
+            "cue": "DEPEND",
+            "a": "independent"
           },
           {
-            "s": "Check whether a claim has been independently ____.",
-            "cue": "VERIFICATION",
-            "a": "verified"
+            "s": "Look for ____ figures rather than broad promises.",
+            "cue": "SPECIFY",
+            "a": "specific"
           }
         ]
       },
@@ -201,7 +201,7 @@
         {
           "s": "Most shoppers say they distrust green labels.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say what shoppers think about green labels."
         }
       ]
     },
@@ -213,12 +213,12 @@
             "a": "glossing over"
           },
           {
-            "s": "Each statement can contain ____ while the impression remains misleading.",
-            "a": "a defensible fragment of truth"
+            "s": "The claims made must now ____ scrutiny.",
+            "a": "stand up to"
           },
           {
-            "s": "That rarely troubles a passenger ____.",
-            "a": "at the point of booking"
+            "s": "Simplification becomes dishonest when the complications are quietly ____.",
+            "a": "set aside"
           },
           {
             "s": "____ has shifted towards the companies making the claims.",
@@ -265,19 +265,19 @@
             "a": "persuasive"
           },
           {
-            "s": "Its most effective forms are rarely ____ lies.",
-            "cue": "CRUDITY",
-            "a": "crude"
+            "s": "Greenwashing exploits that ____: it offers the comfort of a responsible choice.",
+            "cue": "RELY",
+            "a": "reliance"
           },
           {
-            "s": "Assessing offsetting requires answering questions about ____.",
-            "cue": "PERMANENT",
-            "a": "permanence"
+            "s": "Each statement can contain a ____ fragment of truth.",
+            "cue": "DEFEND",
+            "a": "defensible"
           },
           {
-            "s": "Businesses must now explain their environmental ____.",
-            "cue": "CREDIBLE",
-            "a": "credentials"
+            "s": "Consumers rarely possess the information required to challenge complicated scientific ____.",
+            "cue": "ASSERT",
+            "a": "assertions"
           },
           {
             "s": "____ is not dishonest in itself.",
@@ -300,7 +300,7 @@
         {
           "s": "The airlines have since changed their offsetting schemes.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the airlines changed their offsetting schemes."
         },
         {
           "s": "The writer calls for a complete ban on environmental advertising.",

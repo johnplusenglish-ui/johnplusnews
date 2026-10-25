@@ -26,7 +26,7 @@
           }
         ],
         "extra": [
-          "find out",
+          "reduce",
           "concerned"
         ]
       },
@@ -40,8 +40,8 @@
           "d": "avoid becoming involved in something"
         },
         {
-          "t": "find out",
-          "d": "discover a piece of information"
+          "t": "reduce",
+          "d": "make something smaller or less"
         },
         {
           "t": "concerned",
@@ -64,7 +64,7 @@
           {
             "s": "Fewer children ____ born, and the population is getting older.",
             "cue": "be",
-            "a": "are being"
+            "a": "are being|are"
           },
           {
             "s": "Officials have not ____ whether the service will grow.",
@@ -82,7 +82,7 @@
         {
           "s": "The service has already produced several marriages.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether the service has led to any marriages."
         },
         {
           "s": "The service is open to everyone living in Singapore.",
@@ -90,14 +90,14 @@
           "why": "The text says the opposite: \"It is being tried out with single public-service workers aged 21 to 35.\""
         },
         {
-          "s": "Both users can decide whether to share their contact details.",
+          "s": "Both people choose whether to share their contact details.",
           "a": "T",
           "why": "The text says: \"Both people can decide whether they want to share their contact details.\""
         },
         {
-          "s": "FirstDate suggests one possible partner at a time.",
+          "s": "Users see one suggested partner rather than hundreds of profiles.",
           "a": "T",
-          "why": "The text says: \"The system then suggests one possible partner at a time, instead of showing hundreds of profiles.\""
+          "why": "The text says: \"Instead of showing hundreds of profiles, it introduces one person at a time, so users can spend less time looking and more time getting to know someone.\""
         }
       ]
     },
@@ -166,35 +166,35 @@
             "a": "preferences"
           },
           {
-            "s": "Matching interests is not the same as creating ____.",
-            "cue": "CHEMICAL",
-            "a": "chemistry"
+            "s": "Its ____ may depend less on how clever the algorithm is than on whether users enjoy the experience.",
+            "cue": "SUCCEED",
+            "a": "success"
           },
           {
-            "s": "____ worry that fewer births could mean a smaller workforce.",
-            "cue": "POLICY",
-            "a": "Policymakers"
+            "s": "The government has a history of matchmaking, so FirstDate is not entirely ____.",
+            "cue": "EXPECT",
+            "a": "unexpected"
           },
           {
-            "s": "The platform has published privacy ____.",
-            "cue": "SAFE",
-            "a": "safeguards"
+            "s": "Others are ____ with a government-run service collecting sensitive information.",
+            "cue": "COMFORT",
+            "a": "uncomfortable"
           }
         ]
       },
       "tfn": [
         {
-          "s": "FirstDate uses the Gale-Shapley matching method.",
+          "s": "The system uses a mathematical method for matching people.",
           "a": "T",
           "why": "The text says: \"The technology uses the Gale-Shapley matching method, a mathematical approach designed to produce stable pairings based on people's preferences.\""
         },
         {
           "s": "Other governments have asked to copy the system.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether any other government has asked to copy the system."
         },
         {
-          "s": "Only a proposed match can see a user's profile.",
+          "s": "Strangers cannot browse a participant's profile.",
           "a": "T",
           "why": "The text says: \"Only the proposed match can see a person's profile, and the platform says it does not sell personal data.\""
         },
@@ -209,12 +209,12 @@
       "gap": {
         "items": [
           {
-            "s": "Dating apps promise ____, yet many users feel overwhelmed by it.",
-            "a": "an abundance of choice"
+            "s": "Romantic attraction cannot be ____ a mathematical score.",
+            "a": "reduced to"
           },
           {
-            "s": "FirstDate offers an unusually ____ alternative.",
-            "a": "restrained"
+            "s": "A pilot of this size is unlikely to ____.",
+            "a": "settle the question"
           },
           {
             "s": "Contact details are exchanged solely ____.",
@@ -244,8 +244,8 @@
           "d": "avoid dealing with a difficult question"
         },
         {
-          "t": "restrained",
-          "d": "deliberately modest rather than showy"
+          "t": "delicate",
+          "d": "needing careful handling because it could cause problems"
         },
         {
           "t": "hand over",
@@ -260,9 +260,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "FirstDate recommends a single ____ match at a time.",
-            "cue": "PROSPECT",
-            "a": "prospective"
+            "s": "FirstDate is being piloted among ____ public-service employees aged 21 to 35.",
+            "cue": "MARRY",
+            "a": "unmarried"
           },
           {
             "s": "Singapore has long expressed concern about low ____.",
@@ -280,9 +280,9 @@
             "a": "transparency"
           },
           {
-            "s": "A successful match is an ____ measure of the project.",
-            "cue": "AMBIGUITY",
-            "a": "ambiguous"
+            "s": "Younger adults face expensive housing and the ____ financial commitments of raising children.",
+            "cue": "CONSIDER",
+            "a": "considerable"
           }
         ]
       },
@@ -290,7 +290,7 @@
         {
           "s": "A decision on expanding the pilot is expected next year.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say when a decision on expansion will be made."
         },
         {
           "s": "FirstDate sells participants' data to commercial third parties.",
@@ -298,12 +298,12 @@
           "why": "The text says the opposite: \"FirstDate says the data is handled under government security standards and is not sold to commercial third parties.\""
         },
         {
-          "s": "Commercial platforms often benefit when users keep returning.",
+          "s": "Online dating firms often profit when users keep coming back.",
           "a": "T",
           "why": "The text says: \"Commercial platforms often benefit when people keep returning; FirstDate proposes that a more limited selection could serve users better.\""
         },
         {
-          "s": "The pilot involves unmarried public-service employees aged 21 to 35.",
+          "s": "The pilot is limited to single people who work in the public service.",
           "a": "T",
           "why": "The text says: \"Developed by staff at GovTech and being piloted among unmarried public-service employees aged 21 to 35, FirstDate asks participants about their habits, preferences and values.\""
         }

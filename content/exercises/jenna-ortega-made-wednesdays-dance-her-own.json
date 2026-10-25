@@ -5,15 +5,11 @@
       "gap": {
         "items": [
           {
-            "s": "In episode four, Wednesday goes to a school ____.",
-            "a": "dance"
-          },
-          {
             "s": "Jenna Ortega decided to ____ the dance herself.",
             "a": "create"
           },
           {
-            "s": "The creators talked about hiring a professional ____.",
+            "s": "The show's creators talked about hiring a professional ____.",
             "a": "choreographer"
           },
           {
@@ -23,6 +19,10 @@
           {
             "s": "Wednesday does not care what other people ____.",
             "a": "think"
+          },
+          {
+            "s": "She wanted to show ____ to an older actor.",
+            "a": "respect"
           }
         ],
         "extra": [
@@ -37,7 +37,7 @@
         },
         {
           "t": "influences",
-          "d": "people or things that change how you think or make something"
+          "d": "people or things that affect how someone makes or does something"
         },
         {
           "t": "freeing",
@@ -57,9 +57,9 @@
             "a": "goes"
           },
           {
-            "s": "Ortega ____ to create the dance herself.",
-            "cue": "decide",
-            "a": "decided"
+            "s": "Ortega ____ them that she already had the dance in her head.",
+            "cue": "tell",
+            "a": "told"
           },
           {
             "s": "She ____ ideas from other performers.",
@@ -67,12 +67,12 @@
             "a": "took"
           },
           {
-            "s": "Ortega ____ it felt freeing to play a character who does not worry.",
-            "cue": "say",
-            "a": "said"
+            "s": "Lisa Loring ____ Wednesday in the 1960s.",
+            "cue": "play",
+            "a": "played"
           },
           {
-            "s": "The writers ____ that she would dance.",
+            "s": "At first, nobody ____ what her dance would look like.",
             "cue": "know",
             "a": "knew"
           }
@@ -85,24 +85,24 @@
           "why": "The text says: \"decided to create the dance herself\""
         },
         {
-          "s": "A professional choreographer planned every step.",
+          "s": "A hired expert planned every step of the dance.",
           "a": "F",
           "why": "The text says the opposite: \"Ortega told them she already had the dance in her head\""
         },
         {
           "s": "Ortega practised the dance for a month.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say how long Ortega practised the dance."
         },
         {
-          "s": "Wednesday goes to a school dance in episode four.",
+          "s": "Wednesday attends a school dance in the fourth episode.",
           "a": "T",
-          "why": "The text says: \"in episode four she goes to a school dance\""
+          "why": "The text says: \"In episode four she goes to a school dance.\""
         },
         {
-          "s": "Ortega did not name any other performers.",
+          "s": "Ortega did not take ideas from any other performers.",
           "a": "F",
-          "why": "The text says the opposite: \"She also named the actor Denis Lavant and the choreographer Bob Fosse as influences.\""
+          "why": "The text says the opposite: \"She took ideas from other performers.\""
         }
       ]
     },
@@ -118,11 +118,11 @@
             "a": "insisted"
           },
           {
-            "s": "The movement shows how ____ Wednesday is.",
-            "a": "unpredictable"
+            "s": "A style does not have to look like everyone else's to work. It has to ____ the person and the moment.",
+            "a": "suit"
           },
           {
-            "s": "His shocked reaction in the scene was ____.",
+            "s": "His shocked reaction was not in the script. It was ____ in the moment.",
             "a": "improvised"
           },
           {
@@ -145,8 +145,8 @@
           "d": "likely to change in ways nobody expects"
         },
         {
-          "t": "improvised",
-          "d": "done without any preparation"
+          "t": "central",
+          "d": "most important; forming the main part of something"
         },
         {
           "t": "choreographer",
@@ -157,27 +157,27 @@
         "kind": "verb",
         "items": [
           {
-            "s": "The co-creator ____ the team discussed hiring a professional.",
-            "cue": "say",
-            "a": "said"
+            "s": "In episode four, Wednesday ____ a school dance at Nevermore Academy.",
+            "cue": "attend",
+            "a": "attends"
           },
           {
-            "s": "Ortega ____ the routine herself.",
-            "cue": "choreograph",
-            "a": "choreographed"
+            "s": "Nobody had ____ what the dance would look like.",
+            "cue": "decide",
+            "a": "decided"
           },
           {
-            "s": "She ____ Denis Lavant as an influence.",
-            "cue": "credit",
-            "a": "credited"
+            "s": "When she created the dance, she ____ inspiration from a few performers.",
+            "cue": "take",
+            "a": "took"
           },
           {
-            "s": "Hunter Doohan ____ asking what the dance would be.",
+            "s": "Before the scene, Hunter Doohan ____ asking what the dance would be.",
             "cue": "keep",
             "a": "kept"
           },
           {
-            "s": "The director ____ his reaction.",
+            "s": "When Doohan reacted in that way, the director ____ it.",
             "cue": "encourage",
             "a": "encouraged"
           }
@@ -187,7 +187,7 @@
         {
           "s": "The co-creator says the team discussed using a professional choreographer.",
           "a": "T",
-          "why": "The text says: \"said the team discussed this idea\""
+          "why": "The text says: \"A professional choreographer was one option. The show's co-creator, Miles Millar, said the team discussed this idea\""
         },
         {
           "s": "Lisa Loring played the original Wednesday in the 1990s.",
@@ -197,10 +197,10 @@
         {
           "s": "Ortega had dance lessons as a child.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say whether Ortega had dance lessons."
         },
         {
-          "s": "Tim Burton encouraged Doohan's improvised reaction.",
+          "s": "The director supported Doohan's unplanned reaction.",
           "a": "T",
           "why": "The text says: \"the director, Tim Burton, encouraged it\""
         },
@@ -219,12 +219,12 @@
             "a": "saying"
           },
           {
-            "s": "Copying means presenting someone else's work as your ____.",
-            "a": "own"
+            "s": "Borrowing and claiming are different acts. Credit helps the audience see the ____.",
+            "a": "difference"
           },
           {
-            "s": "The movement reflects Wednesday's ____ and her indifference to other people's opinions.",
-            "a": "unpredictability"
+            "s": "Her dance is memorable because it is not ____.",
+            "a": "polished"
           },
           {
             "s": "This is a behind-the-scenes ____ from Netflix about its own production.",
@@ -236,14 +236,14 @@
           }
         ],
         "extra": [
-          "habit",
+          "rule",
           "mistake"
         ]
       },
       "match": [
         {
-          "t": "indifference",
-          "d": "a lack of interest in what other people think or feel"
+          "t": "grey area",
+          "d": "a situation that is not clearly one thing or the other"
         },
         {
           "t": "improvised",
@@ -262,7 +262,7 @@
         "kind": "word",
         "items": [
           {
-            "s": "The movement reflects Wednesday's ____.",
+            "s": "Wednesday never does what others expect, so her dance shows her ____.",
             "cue": "PREDICT",
             "a": "unpredictability"
           },
@@ -302,12 +302,12 @@
         {
           "s": "Ortega wrote the music for the scene.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "Not stated. The text does not say who wrote the music for the scene."
         },
         {
-          "s": "The dance scene takes place in episode four.",
+          "s": "The dance scene takes place at a school event in episode four.",
           "a": "T",
-          "why": "The text says: \"In episode four\""
+          "why": "The text says: \"At the school dance in episode four of Netflix's Wednesday\""
         },
         {
           "s": "The text calls the Netflix article an independent assessment.",
