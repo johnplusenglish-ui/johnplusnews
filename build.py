@@ -1467,7 +1467,7 @@ def highlights_rows(a):
         lv = v["level"].lower()
         at = ' data-qlevel="{}"'.format(lv) if multi else ""
         hide = " hidden" if multi and v["level"] != open_level else ""
-        out.append('<details class="qs qs-hl" id="highlights-{lv}"{at}{hide}>'
+        out.append('<details class="qs qs-hl" id="highlights-{lv}"{at}{hide} open>'
                    '<summary><span class="qs-label">Highlights</span>'
                    '<span class="qs-count" data-hl-count>0 saved</span>{chev}</summary>'
                    '<div class="hl-slot" data-hl-slot="{lv}"></div></details>'.format(
@@ -1482,6 +1482,8 @@ def study_html(a):
         return ""
     return ('<section class="study-tools" aria-labelledby="study-title">'
             '<h2 class="sec-h sec-h-sm" id="study-title">Study this story</h2>'
+            '<p class="study-lead">Save the words you want to keep, talk about the story, '
+            'then practise the language.</p>'
             '<div class="qs-group">{}</div></section>').format(rows)
 
 

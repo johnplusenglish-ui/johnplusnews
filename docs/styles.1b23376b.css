@@ -447,10 +447,18 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .study-tools { margin: var(--space-12) 0 0; }
 .study-tools + .continue-reading { margin-top: var(--space-16); }
 .study-tools .sec-h-sm { margin: 0 0 var(--space-4); }
-.study-tools .qs-group { border: 1px solid var(--line); border-radius: var(--radius-md); overflow: hidden; }
+/* The study panel is tinted and its rows are named plainly, so it reads as a place to work
+   rather than three quiet grey bars at the end of the page. */
+.study-tools .qs-group { background: var(--accent-soft); border: 1px solid #d5e0f6; border-radius: var(--radius-md); overflow: hidden; }
+.study-lead { margin: -4px 0 var(--space-4); color: var(--muted); font-size: 0.9375rem; }
+.study-tools .qs-label { font-size: 1rem; font-weight: 700; letter-spacing: 0; text-transform: none; color: var(--ink); }
+.study-tools .qs summary:hover .qs-label { color: var(--accent); }
+.study-tools .qs-count { color: var(--muted); }
+.study-tools .qs summary svg { color: var(--accent); }
+.study-tools .qs[open] { background: #fff; }
+.study-tools .qs + .qs { border-top: 1px solid #d5e0f6; }
 .study-tools .qs > summary { min-height: 56px; }
 .study-tools .qs-group .qs { padding: 0 22px; }
-.study-tools .qs > summary .qs-label { font-size: 0.875rem; }
 .hl-slot { padding: 0 0 22px; }
 .hl-list { margin: 0; }
 .hl-empty { margin: 0; color: var(--muted); font-size: 0.9375rem; }
@@ -910,7 +918,8 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
   .qs ol { margin: 0; padding-left: 5mm; font-family: Georgia, 'Times New Roman', serif; font-size: calc(9.6pt * var(--fs, 1)); line-height: 1.45; }
   .qs li { margin: 0 0 1.2mm; padding-left: 0; }
   .ex-wrap { margin: 0; }
-  .study-tools .qs-group { border: 0; }
+  .study-tools .qs-group { border: 0; background: none; }
+  .study-lead { display: none; }
   .hl-slot { padding: 0; }
   .hl-actions { display: none !important; }
   .ex-nav { display: none !important; }
