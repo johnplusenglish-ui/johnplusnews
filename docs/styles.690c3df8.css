@@ -445,10 +445,13 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 
 /* Study this story: one joined accordion for highlights, discussion and practice. */
 .study-tools { margin: var(--space-12) 0 0; }
-.study-tools .sec-h-sm { margin: 0 0 var(--space-3); }
+.study-tools + .continue-reading { margin-top: var(--space-16); }
+.study-tools .sec-h-sm { margin: 0 0 var(--space-4); }
 .study-tools .qs-group { border: 1px solid var(--line); border-radius: var(--radius-md); overflow: hidden; }
-.study-tools .qs > summary { min-height: 48px; }
-.hl-slot { padding: 0 18px 18px; }
+.study-tools .qs > summary { min-height: 56px; }
+.study-tools .qs-group .qs { padding: 0 22px; }
+.study-tools .qs > summary .qs-label { font-size: 0.875rem; }
+.hl-slot { padding: 0 0 22px; }
 .hl-list { margin: 0; }
 .hl-empty { margin: 0; color: var(--muted); font-size: 0.9375rem; }
 .hl-list ol { margin: 0; padding: 0; list-style: none; }
@@ -463,9 +466,9 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .article-info .source, .article-info .topics { margin-top: 0; padding-top: 0; border-top: 0; }
 
 /* Continue reading, and the same row on the 404 page. */
-.nextup { margin: var(--space-12) 0 0; padding-top: var(--space-6); border-top: 1px solid var(--line); }
+.nextup, .continue-reading { margin: var(--space-12) 0 var(--space-16); padding-top: var(--space-6); border-top: 1px solid var(--line); }
 .sec-h-sm { font-size: 1.25rem; }
-.nx-list { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-6); margin: var(--space-4) 0 0; padding: 0; }
+.nx-list { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-6); margin: var(--space-6) 0 0; padding: 0; }
 .nx { position: relative; min-width: 0; }
 .nx-img { display: block; aspect-ratio: 3 / 2; border-radius: var(--radius-md); overflow: hidden; background: var(--accent-soft); }
 .nx-img img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: var(--focal, 50% 50%); }
