@@ -4,6 +4,9 @@ summary: In China, people are hiring companions to join them for meals, walks an
 tags: Relationships, Society
 source: Reuters | https://www.reuters.com/world/asia-pacific/hiking-hotpot-lonely-consumers-china-fuel-74-billion-companionship-economy-2026-06-02/
 image: images/would-you-pay-someone-to-be-your-friend-475fbe.jpg
+image-alt: A woman holds out her phone to scan a QR code on a young man's phone on a willow-lined lakeside path, with pleasure boats and wooded hills behind them.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

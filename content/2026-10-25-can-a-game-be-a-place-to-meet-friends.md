@@ -10,7 +10,7 @@ source-date: 9 May 2024
 source-2: UNICEF Innocenti, Responsible Innovation in Technology for Children | https://www.unicef.org/innocenti/reports/responsible-innovation-technology-children
 source-2-date: 2024
 image: images/can-a-game-be-a-place-to-meet-friends-fda804.jpg
-image-alt: Two friends laughing together on a big yellow beanbag, each holding a game controller.
+image-alt: Two teenagers laughing at each other on a large yellow beanbag, each holding a game controller, against a plain purple background.
 image-credit: created for johnplusnews
 image-credit-label: AI-generated image
 ---

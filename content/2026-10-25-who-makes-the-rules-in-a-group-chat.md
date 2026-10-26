@@ -10,7 +10,7 @@ source-date: October 2025
 source-2: UNICEF Argentina, Glosario Digital Adolescente (PDF in Spanish) | https://www.unicef.org/argentina/media/26531/file/Glosario%20Digital%20Adolescente.pdf
 source-2-date: 2025
 image: images/who-makes-the-rules-in-a-group-chat-011daf.jpg
-image-alt: A young person looking at a phone with one eyebrow raised, unsure how to read a message.
+image-alt: A young woman in a mustard cardigan holding a phone in both hands, one eyebrow raised and her lips pressed in a doubtful look, against a green background.
 image-credit: created for johnplusnews
 image-credit-label: AI-generated image
 ---

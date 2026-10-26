@@ -5,6 +5,9 @@ summary: A job can give us money, purpose and a place in the world. But should i
 tags: Work, Society
 source: Pew Research Center | https://www.pewresearch.org/social-trends/2023/03/30/how-americans-view-their-jobs/
 image: images/who-are-you-when-youre-not-working-7381d0.jpg
+image-alt: A man in a blue shirt holding a plastic cup shakes hands with a smiling white-haired woman in a red cardigan at a sunny garden party.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

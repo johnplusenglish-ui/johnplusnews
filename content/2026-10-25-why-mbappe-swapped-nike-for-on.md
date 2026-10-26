@@ -6,7 +6,7 @@ audience: teens
 category: Sport
 order: 13
 image: images/why-mbappe-swapped-nike-for-on-8858b2.jpg
-image-alt: A footballer weighing a black Nike boot in one hand against a white On boot in the other, with a thoughtful smile.
+image-alt: A young man in a grey top and jogging bottoms holding up a white football boot in one hand and a black one in the other, against a red background.
 image-credit: created for johnplusnews
 image-credit-label: AI-generated image
 source: On, announcement of its entry into football | https://press.on-running.com/on-enters-football-alongside-kylian-mbappe

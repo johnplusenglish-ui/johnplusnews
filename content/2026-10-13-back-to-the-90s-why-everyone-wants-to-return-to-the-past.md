@@ -4,6 +4,9 @@ source: Tate Britain | https://www.tate.org.uk/press/press-releases/the-90s-art-
 summary: CDs, film cameras and 1990s clothes are selling again. Is the appeal the decade itself, or a break from constant connection?
 tags: Culture, Technology
 image: images/back-to-the-90s-why-everyone-wants-to-return-to-the-past-e7cb8d.jpg
+image-alt: A cassette tape, a CD and two jewel cases, a yellow personal stereo with orange headphones, a disposable camera and sunglasses laid out on a bright blue background.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

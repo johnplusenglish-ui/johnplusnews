@@ -4,6 +4,9 @@ summary: A US company says it is making progress towards bringing back the dodo.
 tags: Science, Environment
 source: Reuters | https://www.reuters.com/science/us-company-announces-progress-toward-resurrecting-extinct-dodo-2026-10-14/
 image: images/can-scientists-really-bring-the-dodo-back-172bdb.jpg
+image-alt: The mounted skeleton of a large flightless bird with a heavy hooked beak stands on a dark plinth inside a sunlit museum display case.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

@@ -4,6 +4,9 @@ source: France 24 | https://www.france24.com/fr/france/20261013-en-direct-france
 summary: Thousands of teenagers across France are refusing to attend lessons and joining demonstrations instead. They say their schools are falling apart and the government isn't doing enough to help.
 tags: Education, Politics
 image: images/why-are-thousands-of-french-students-going-on-strike-3b3e23.jpg
+image-alt: Masked teenagers stand behind a street barricade of burning green bins and wooden pallets, one raising a cardboard sign reading On veut juste un avenir, with riot police in smoke beyond.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

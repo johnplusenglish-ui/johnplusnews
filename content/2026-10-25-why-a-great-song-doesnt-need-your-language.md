@@ -8,7 +8,7 @@ order: 3
 source: Spotify Newsroom, Loud & Clear 2026 | https://newsroom.spotify.com/2026-03-11/loud-and-clear-music-economics-highlights/
 source-date: 11 March 2026
 image: images/why-a-great-song-doesnt-need-your-language-33f8bc.jpg
-image-alt: A young person in big headphones dancing with one fist raised, eyes closed, loving a song.
+image-alt: A young man in over-ear headphones and a blue zip-up jacket dances with one fist raised, his eyes closed and his mouth open in a wide grin.
 image-credit: created for johnplusnews
 image-credit-label: AI-generated image
 ---

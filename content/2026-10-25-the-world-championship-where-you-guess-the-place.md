@@ -6,7 +6,7 @@ audience: teens
 category: Games & online life
 order: 30
 image: images/the-world-championship-where-you-guess-the-place-ae6cca.jpg
-image-alt: A young woman in round glasses peering over a photo print with a red map pin on its back, trying to work out where the picture was taken.
+image-alt: A young woman in round glasses and a mustard cardigan studying a plain white card printed with a red map pin, against a bright green background.
 image-credit: created for johnplusnews
 image-credit-label: AI-generated image
 source: taz, Valérie Catil, Geoguessr-Weltmeisterschaft in Berlin (in German) | https://taz.de/Geoguessr-Weltmeisterschaft-in-Berlin/!6210533/

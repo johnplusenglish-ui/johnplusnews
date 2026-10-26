@@ -4,6 +4,9 @@ summary: Burnout comes from too much pressure. But boredom and a lack of purpose
 tags: Work, Health
 source: American Psychological Association | https://www.apa.org/monitor/2026/09/workplace-rustout-boredom-employees
 image: images/how-can-a-job-be-exhausting-when-theres-hardly-anything-to-do-e98d82.jpg
+image-alt: A woman in a tan blazer sits at an open-plan office desk nudging coloured paperclips into a neat row, looking down blankly, a wall clock behind her.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

@@ -4,6 +4,9 @@ summary: Scientists analysed how more than 15,000 people spent their days. Is th
 tags: Lifestyle, Health
 source: PNAS Nexus | https://academic.oup.com/pnasnexus/article/5/3/pgag014/8519258
 image: images/is-there-a-secret-formula-for-having-a-good-day-4c2722.jpg
+image-alt: Three adults laughing together at a metal table outside a tree-shaded cafe, with coffee, a beer, a plate of olives and an open notebook in front of them.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

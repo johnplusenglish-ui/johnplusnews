@@ -7,7 +7,7 @@ category: Places & people
 order: 9
 source: B-Murals, +Ciutat Jugable project page (in Catalan, undated, part of Barcelona's 2026 architecture programme) | https://www.bmurals.com/area-transformacio/ciutatjugable
 image: images/who-decides-where-teenagers-can-hang-out-f46411.jpg
-image-alt: One young person holding a basketball under a no-ball-games sign while a friend sits on a block and shrugs.
+image-alt: A teenage boy with a basketball stands beside a round sign showing a basketball crossed out, while a girl sitting on a concrete block shrugs at him.
 image-credit: created for johnplusnews
 image-credit-label: AI-generated image
 ---

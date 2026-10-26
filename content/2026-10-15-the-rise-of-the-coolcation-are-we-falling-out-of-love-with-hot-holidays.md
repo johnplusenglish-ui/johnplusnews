@@ -4,6 +4,9 @@ summary: After another punishing European summer, northern weather has become pa
 tags: Travel, Environment
 source: BBC News | https://www.bbc.co.uk/news/articles/c74gp1024lpo
 image: images/the-rise-of-the-coolcation-are-we-falling-out-of-love-with-hot-holidays-d220e1.jpg
+image-alt: Two hikers with backpacks stand on a narrow rock ledge jutting out over a deep blue fjord, one with an arm raised, snow-streaked mountains all around.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

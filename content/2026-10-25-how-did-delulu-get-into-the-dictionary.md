@@ -6,7 +6,7 @@ audience: teens
 category: Language & memes
 order: 16
 image: images/how-did-delulu-get-into-the-dictionary-16b9fd.jpg
-image-alt: A young woman pointing at a page in a thick dictionary with an excited, surprised face.
+image-alt: A young woman in a blue cardigan and jeans pointing at a page of a thick open book, mouth open in surprise, against a plain pink background.
 image-credit: created for johnplusnews
 image-credit-label: AI-generated image
 source: Cambridge University Press, Karen Stollznow | https://www.cambridge.org/core/blog/2025/08/29/cup-skibidi-delulu-tradwife-are-new-words-in-the-cambridge-dictionary/

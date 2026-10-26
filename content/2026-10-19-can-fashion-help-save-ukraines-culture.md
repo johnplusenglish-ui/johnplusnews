@@ -5,6 +5,9 @@ summary: Ukrainian designers are turning old patterns and skills into modern obj
 tags: Culture, Business
 source: Financial Times | https://www.ft.com/content/4d273c11-7dac-471b-a4a3-18c2ccd71fc8
 image: images/can-fashion-help-save-ukraines-culture-2891b9.jpg
+image-alt: Two weathered hands stitch a red and black cross-stitch pattern onto white linen, the person sewing wearing a shirt embroidered in the same colours.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

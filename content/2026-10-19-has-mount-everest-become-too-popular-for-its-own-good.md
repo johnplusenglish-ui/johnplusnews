@@ -4,6 +4,9 @@ summary: Climbing the world's highest mountain is dangerous, expensive and incre
 tags: Travel, Sport
 source: Kathmandu Post | https://kathmandupost.com/money/2026/07/22/lawmakers-seek-tougher-everest-climbing-rules-with-263-amendments-to-tourism-bill
 image: images/has-mount-everest-become-too-popular-for-its-own-good-b07a4d.jpg
+image-alt: A long queue of climbers in brightly coloured down suits and backpacks moves slowly up a narrow snow ridge towards a summit, with snowy peaks spread out below.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

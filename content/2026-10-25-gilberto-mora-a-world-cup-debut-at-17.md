@@ -6,7 +6,7 @@ audience: teens
 category: Sport
 order: 15
 image: images/gilberto-mora-a-world-cup-debut-at-17-866b05.jpg
-image-alt: A younger footballer in a green Mexico-style shirt standing between two older teammates, one with a hand on his shoulder, holding a ball.
+image-alt: A young footballer in a green and red kit holding a ball, standing between two older teammates, one with a hand on his shoulder, against a purple background.
 image-credit: created for johnplusnews
 image-credit-label: AI-generated image
 source: FIFA, Gilberto Mora, la joya del fútbol mexicano (in Spanish) | https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/gilberto-mora-joya-mexico-copa-mundial

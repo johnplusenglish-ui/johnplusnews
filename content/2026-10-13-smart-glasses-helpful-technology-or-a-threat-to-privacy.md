@@ -4,6 +4,9 @@ source: Australian Greens | https://greens.org.au/news/media-release/media-relea
 summary: Smart glasses can read signs, translate conversations and help people with disabilities live more independently. But fears about secret recording have led to calls for restrictions in Australia.
 tags: Technology, Society
 image: images/smart-glasses-helpful-technology-or-a-threat-to-privacy-e0e6ee.jpg
+image-alt: Close-up of a woman with grey-streaked hair touching the arm of her thick-framed glasses, which carry a small camera lens by the hinge, in a busy cafe.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

@@ -4,7 +4,9 @@ source: ITV News | https://www.itv.com/news/2026-10-07/maricarmen-the-87-year-ol
 summary: The eviction and death of an 87-year-old woman in Madrid have sparked protests across Spain, raising serious questions about the country's growing housing crisis.
 tags: Society, Politics
 image: images/a-home-for-life-the-housing-crisis-shaking-spain-1545b7.jpg
-image-alt: An orange funeral wreath and a Sindicato de Inquilinas T-shirt tied to a tree, at the memorial for Maricarmen Abascal outside the doorway of number 46 on her street in Madrid.
+image-alt: A raised hand holds up a bunch of keys above a square filled with tents and banners.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

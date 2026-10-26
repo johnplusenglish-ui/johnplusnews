@@ -5,6 +5,9 @@ summary: The famous daily target began as a marketing idea. What do newer studie
 tags: Health, Lifestyle
 source: The Lancet Public Health | https://pubmed.ncbi.nlm.nih.gov/40713949/
 image: images/do-we-really-need-to-walk-10000-steps-a-day-8b601b.jpg
+image-alt: Coral running shoes seen from above on grey stone, beside a black smartwatch showing a step counter, a small yellow stopwatch and a white water bottle.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

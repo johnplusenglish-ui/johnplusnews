@@ -4,6 +4,9 @@ summary: Hotels, restaurants and beauty spots are putting up "no influencers" si
 tags: Society, Technology
 source: The Guardian | https://www.theguardian.com/media/2026/oct/19/no-influencers-hotels-restaurants-beauty-spots-restricting-photoshoots
 image: images/no-influencers-allowed-are-restaurants-fighting-back-against-social-media-576aae.jpg
+image-alt: A woman in an orange dress poses with a wine glass beside a ring light on a sea-view restaurant terrace, watched by an older couple behind a no-photography sign.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

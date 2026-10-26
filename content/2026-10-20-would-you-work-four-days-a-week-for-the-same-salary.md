@@ -4,6 +4,9 @@ summary: A large international trial suggests shorter working weeks may benefit 
 tags: Work, Business
 source: Nature Human Behaviour | https://www.nature.com/articles/s41562-025-02259-6
 image: images/would-you-work-four-days-a-week-for-the-same-salary-384fa8.jpg
+image-alt: A hand draws a green circle around the 26 on a wall calendar, in a column where the 5th, 12th and 19th are already circled in the same pen.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

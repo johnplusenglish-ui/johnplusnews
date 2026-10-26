@@ -4,6 +4,9 @@ summary: Streetlights, glowing screens and the wrong curtains may be affecting h
 tags: Health, Science
 source: Environmental Research | https://doi.org/10.1016/j.envres.2026.123689
 image: images/what-happens-when-your-bedroom-never-gets-dark-0656b8.jpg
+image-alt: An older man sleeps on his side under a white duvet while orange street light spills through a gap between the bedroom curtains.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

@@ -4,6 +4,9 @@ summary: A Japanese service offers help from older women, from cooking and advic
 tags: Relationships, Society
 source: ABC Australia | https://www.abc.net.au/news/2025-08-03/japan-rent-grandma-loneliness-epidemic-unemployment/105584684
 image: images/need-a-grandma-in-japan-you-can-hire-one-839364.jpg
+image-alt: An older woman in a red cardigan and apron points into a pan as a young man in a yellow T-shirt turns a rolled omelette with chopsticks in a home kitchen.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

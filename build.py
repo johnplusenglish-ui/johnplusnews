@@ -690,7 +690,7 @@ def search_text(a):
 
 def card(a):
     if a["image"]:
-        thumb = '<img src="{}" alt="{}" loading="lazy" decoding="async">'.format(esc(asset(a.get("thumb") or a["image"])), esc(a["image_alt"]))
+        thumb = '<img src="{}" alt="{}" width="1000" height="666" loading="lazy" decoding="async">'.format(esc(asset(a.get("thumb") or a["image"])), esc(a["image_alt"]))
     else:
         thumb = '<span class="blank">{}</span>'.format(esc(" \u00b7 ".join(t["label"] for t in a["tags"]) or levels_label(a)))
     return (
@@ -748,7 +748,7 @@ TEENS_JS = (
 def teens_card(a, featured=False):
     cat = a["category"]
     if a["image"]:
-        thumb = '<img src="{}" alt="{}" loading="lazy" decoding="async">'.format(esc(asset(a.get("thumb") or a["image"])), esc(a["image_alt"]))
+        thumb = '<img src="{}" alt="{}" width="1000" height="666" loading="lazy" decoding="async">'.format(esc(asset(a.get("thumb") or a["image"])), esc(a["image_alt"]))
     else:
         thumb = '<span class="blank">{}</span>'.format(esc(cat))
     feat = '<span class="feat">Featured</span>' if featured else ""
@@ -1331,7 +1331,8 @@ def article_page(a, newer, older):
         if a["image_credit_note"]:
             parts.append(esc(a["image_credit_note"]))
         credit = '<figcaption class="credit">{}: {}</figcaption>'.format(esc(a["image_credit_label"] or "Photo"), ", ".join(parts)) if parts else ""
-        img = '<figure class="hero"><img class="hero-img" src="{}" alt="{}">{}</figure>'.format(
+        img = ('<figure class="hero"><img class="hero-img" src="{}" alt="{}" width="1400" height="933" '
+               'fetchpriority="high" decoding="async">{}</figure>').format(
             esc(asset(a["image"])), esc(a["image_alt"]), credit)
     source = ""
     if a["sources"]:

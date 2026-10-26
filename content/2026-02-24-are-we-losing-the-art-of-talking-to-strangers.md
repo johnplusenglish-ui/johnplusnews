@@ -4,6 +4,9 @@ summary: A short chat with a stranger can brighten a day, yet most of us avoid i
 tags: Society, Relationships
 source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/feb/24/stranger-secret-how-to-talk-to-anyone-why-you-should
 image: images/are-we-losing-the-art-of-talking-to-strangers-07dc7f.jpg
+image-alt: An older man in a flat cap and quilted jacket gestures mid-sentence towards a smiling young woman in a denim jacket in facing train seats.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 

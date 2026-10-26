@@ -4,6 +4,9 @@ source: ARTnews | https://www.artnews.com/art-news/news/diplomatic-tensions-brit
 summary: For more than 200 years, some of Greece's most famous ancient sculptures have been displayed in the British Museum. Now, the Greek prime minister is increasing pressure on Britain to return them. But who really owns these pieces of history?
 tags: Culture, History
 image: images/who-owns-history-greece-wants-its-ancient-treasures-back-481f76.jpg
+image-alt: Visitors stand in a bright museum gallery looking at a long marble frieze carved with horses and riders, with seated stone figures displayed at the far end.
+image-credit: created for johnplusnews
+image-credit-label: AI-generated image
 ---
 === Core ===
 
