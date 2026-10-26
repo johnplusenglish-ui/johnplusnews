@@ -495,7 +495,7 @@
       var r = m && progress[m[1]];
       if (!r) return;
       var meta = c.querySelector(".meta"); if (!meta) return;
-      meta.appendChild(el("span", "acct-read" + (r.status === "finished" ? " done" : ""), r.status === "finished" ? "Read" : "Started"));
+      meta.appendChild(el("span", "acct-read" + (r.status === "finished" ? " done" : ""), r.status === "finished" ? "Completed" : "In progress"));
     });
   }
 

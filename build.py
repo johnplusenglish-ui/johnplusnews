@@ -714,44 +714,75 @@ BROWSE_JS = (
     'none=document.getElementById("nomatch"),count=document.getElementById("rescount"),'
     'clear=document.getElementById("clearall"),more=document.getElementById("moretopics"),'
     'rest=document.getElementById("alltopics"),cats=document.getElementById("cats"),'
-    'secs=[].slice.call(document.querySelectorAll("[data-browse-hide]")),cat="all";'
+    'pager=document.getElementById("pager"),pages=document.getElementById("pager-pages"),'
+    'secs=[].slice.call(document.querySelectorAll("[data-browse-hide]")),'
+    'grid=[].slice.call(document.querySelectorAll(".gallery [data-q]")),cat="all",page=1;'
     'if(i)i.closest(".finder").hidden=false;'
     'var btns=cats?[].slice.call(cats.querySelectorAll("[data-cat]")):[];'
     'if(cats)cats.hidden=false;'
-    # the whole row only appears for readers who can actually use it
-    'function go(save){var t=(i?i.value:"").toLowerCase().split(/\\s+/).filter(Boolean),k=0;'
+    # how many of the archive to show at once, by how much room there is
+    'function per(){return window.matchMedia("(min-width: 901px)").matches?18:'
+    'window.matchMedia("(min-width: 600px)").matches?12:10}'
+    'function write(push){var u=new URL(location.href);var q=i?i.value.trim():"";'
+    'q?u.searchParams.set("q",q):u.searchParams.delete("q");'
+    'cat!=="all"?u.searchParams.set("topic",cat):u.searchParams.delete("topic");'
+    'page>1?u.searchParams.set("page",page):u.searchParams.delete("page");'
+    'var s=u.pathname+u.search;try{push?history.pushState({},"",s):history.replaceState({},"",s)}catch(e){}}'
+    'function go(push){var t=(i?i.value:"").toLowerCase().split(/\\s+/).filter(Boolean),hits=[];'
     'cards.forEach(function(x){var q=x.getAttribute("data-q")||"";'
     'var okq=t.every(function(w){return q.indexOf(w)>-1});'
     'var okc=cat==="all"||x.getAttribute("data-cat")===cat;'
-    'var ok=okq&&okc;x.hidden=!ok;if(ok)k++});'
+    'var ok=okq&&okc;x.hidden=!ok;if(ok)hits.push(x)});'
     'var filtering=t.length>0||cat!=="all";'
-    # with a search running, the edited sections step aside and every match is listed together
     'secs.forEach(function(s){s.hidden=filtering});'
-    'if(none)none.hidden=k>0;'
-    'if(count)count.textContent=k+(k===1?" story":" stories")+(filtering?" found":"");'
+    # only the archive is paged; a search shows everything it found
+    'var inGrid=hits.filter(function(x){return grid.indexOf(x)>-1});'
+    'var n=per(),last=Math.max(1,Math.ceil(inGrid.length/n));'
+    'if(page>last)page=last;'
+    'if(!filtering&&inGrid.length>n){inGrid.forEach(function(x,k){x.hidden=k<(page-1)*n||k>=page*n})}'
+    'if(none)none.hidden=hits.length>0;'
+    'if(count)count.textContent=hits.length+(hits.length===1?" story":" stories")+(filtering?" found":"");'
     'if(clear)clear.hidden=!filtering;'
     'btns.forEach(function(x){x.setAttribute("aria-pressed",x.getAttribute("data-cat")===cat)});'
-    'if(save){try{history.replaceState(null,"",cat==="all"?location.pathname:"#"+cat)}catch(e){}}}'
-    'if(i)i.addEventListener("input",function(){go(false)});'
-    'btns.forEach(function(x){x.addEventListener("click",function(){cat=x.getAttribute("data-cat");go(true)})});'
-    'if(clear)clear.addEventListener("click",function(){if(i)i.value="";cat="all";go(true);if(i)i.focus()});'
+    'if(pager){var show=!filtering&&last>1;pager.hidden=!show;'
+    'if(show){pages.textContent="";for(var p=1;p<=last;p++){(function(p){var a=document.createElement("button");'
+    'a.type="button";a.className="pager-num"+(p===page?" on":"");a.textContent=p;'
+    'if(p===page)a.setAttribute("aria-current","page");'
+    'a.setAttribute("aria-label","Page "+p+" of "+last);'
+    'a.addEventListener("click",function(){page=p;go(true);jump()});pages.appendChild(a)})(p)}'
+    'pager.querySelector("[data-page-prev]").disabled=page<=1;'
+    'pager.querySelector("[data-page-next]").disabled=page>=last}}'
+    'write(push)}'
+    'function jump(){var h=document.getElementById("latest");if(h)h.scrollIntoView({block:"start"})}'
+    'if(i)i.addEventListener("input",function(){page=1;go(false)});'
+    'btns.forEach(function(x){x.addEventListener("click",function(){cat=x.getAttribute("data-cat");page=1;go(true)})});'
+    'if(clear)clear.addEventListener("click",function(){if(i)i.value="";cat="all";page=1;go(true);if(i)i.focus()});'
     'if(more&&rest)more.addEventListener("click",function(){var open=rest.hidden;rest.hidden=!open;'
     'more.setAttribute("aria-expanded",open);more.textContent=open?"Fewer topics":"More topics"});'
-    'var h=decodeURIComponent(location.hash.slice(1));'
-    'if(btns.some(function(x){return x.getAttribute("data-cat")===h}))cat=h;'
-    'go(false)})();'
+    'if(pager){pager.querySelector("[data-page-prev]").addEventListener("click",function(){if(page>1){page--;go(true);jump()}});'
+    'pager.querySelector("[data-page-next]").addEventListener("click",function(){page++;go(true);jump()})}'
+    # the state lives in the address, so Back puts the reader where they were
+    'function read(){var u=new URL(location.href);if(i)i.value=u.searchParams.get("q")||"";'
+    'var c=u.searchParams.get("topic")||decodeURIComponent(location.hash.slice(1));'
+    'cat=btns.some(function(x){return x.getAttribute("data-cat")===c})?c:"all";'
+    'page=Math.max(1,parseInt(u.searchParams.get("page")||"1",10)||1)}'
+    'window.addEventListener("popstate",function(){read();go(false)});'
+    'window.addEventListener("resize",function(){go(false)});'
+    'read();go(false)})();'
 )
 
 
-def browse_html(topics=(), current=None, chips=None, total=0):
-    """The row above the stories: search, topics, how many are showing and a way back to all of them."""
+def browse_html(topics=(), current=None, chips=None, total=0, heading="Latest stories"):
+    """The main archive: a section heading with the count beside it, then one toolbar of
+    search and topics, then the stories themselves."""
     finder = ('<div class="finder" hidden><input type="search" id="q" placeholder="Search stories" aria-label="Search stories" '
               'autocomplete="off" spellcheck="false"></div>')
-    status = ('<p class="browse-status"><span id="rescount" role="status" aria-live="polite">{n} {w}</span>'
-              '<button type="button" class="linkbtn" id="clearall" hidden>Clear search and topics</button></p>'
-              ).format(n=total, w="story" if total == 1 else "stories")
-    return '<div class="browse" id="browse">{}{}{}</div>'.format(
-        finder, chips if chips is not None else chips_html(topics, current), status)
+    head = ('<div class="latest-head" id="latest"><h2 class="sec-h">{h}</h2>'
+            '<p class="browse-status"><span id="rescount" role="status" aria-live="polite">{n} {w}</span>'
+            '<button type="button" class="linkbtn" id="clearall" hidden>Clear filters</button></p></div>'
+            ).format(h=esc(heading), n=total, w="story" if total == 1 else "stories")
+    return '{}<div class="browse" id="browse">{}{}</div>'.format(
+        head, finder, chips if chips is not None else chips_html(topics, current))
 
 
 def search_text(a):
@@ -797,6 +828,12 @@ def pick_lead(arts):
     return arts[0]
 
 
+PAGER = ('<nav class="pager-nav" id="pager" aria-label="More stories" hidden>'
+         '<button type="button" class="pager-btn" data-page-prev>Previous</button>'
+         '<span class="pager-pages" id="pager-pages"></span>'
+         '<button type="button" class="pager-btn" data-page-next>Next</button></nav>')
+
+
 FREE_TOPIC = {"slug": "free", "label": "Free to read"}   # the /free/ page: the articles readers who are not signed in can open
 
 
@@ -819,9 +856,8 @@ def gallery_page(arts, topics=(), topic=None, teens=0):
                 used |= {t["slug"] for t in a["tags"]}
         picks += [a for a in others if a not in picks][:2 - len(picks)]
         rest = [a for a in arts if a is not first and a not in picks]
-        picked = ('<section class="front"><h2 class="sec-head" data-browse-hide>Start here</h2>'
-                  '<div class="front-grid">{lead}<div class="front-side">{side}</div></div></section>'
-                  '<h2 class="sec-head" data-browse-hide>Latest stories</h2>').format(
+        picked = ('<section class="front" data-browse-hide><h2 class="sec-h sec-h-quiet">Worth talking about</h2>'
+                  '<div class="front-grid">{lead}<div class="front-side">{side}</div></div></section>').format(
                       lead=lead_card(first, big=True), side="".join(lead_card(a) for a in picks))
     if arts:
         body = '<ul class="gallery">{}</ul><p class="empty" id="nomatch" hidden>No stories match your search.</p>'.format("".join(card(a) for a in rest))
@@ -830,13 +866,18 @@ def gallery_page(arts, topics=(), topic=None, teens=0):
     if topic:
         banner = '<section class="banner"><div class="wrap"><h1 class="intro">{}</h1></div></section>\n'.format(esc(topic["label"]))
     else:
-        banner = ('<section class="banner front-banner"><div class="wrap">'
-                  '<h1 class="intro">Real stories. Better conversations.</h1>'
-                  '<p class="intro-sub">Read at your level, save useful language and talk about what matters.</p>'
-                  '<p class="intro-links" id="home-links" hidden></p></div></section>\n')
-    main = ('{banner}<div class="wrap">{picked}{browse}{body}</div>\n<script>{js}</script>').format(
-                banner=banner, picked=picked, body=body, js=BROWSE_JS,
-                browse=browse_html(topics, topic["slug"] if topic else None, total=len(arts)))
+        banner = ('<section class="intro-block"><div class="wrap">'
+                  '<h1 class="intro-h">News worth talking about.</h1>'
+                  '<p class="intro-p">Real stories, rewritten at three levels of English, with useful language '
+                  'and questions that lead somewhere.</p>'
+                  '<p class="intro-cta"><a class="intro-go" href="#latest">Browse the latest '
+                  '<span aria-hidden="true">&rarr;</span></a>'
+                  '<a class="intro-quiet" href="/about/#levels">How it works</a></p>'
+                  '</div></section>\n')
+    main = ('{banner}<div class="wrap">{picked}{browse}{body}{pager}</div>\n<script>{js}</script>').format(
+                banner=banner, picked=picked, body=body, js=BROWSE_JS, pager=PAGER,
+                browse=browse_html(topics, topic["slug"] if topic else None, total=len(arts),
+                                   heading=("All stories" if topic else "Latest stories")))
     if topic is FREE_TOPIC:
         return page("/free/", main, title=topic["label"], current="/", wide=True,
                     desc="The articles on johnplusnews that anyone can read, with no account needed.",
@@ -886,9 +927,9 @@ def teens_page(teens):
         '<a class="btn-primary" href="#stories">Explore the stories</a></div></section>\n'
         '<div class="wrap" id="stories">{browse}'
         '<ul class="gallery" id="tgrid">{grid}</ul>'
-        '<p class="empty" id="nomatch" hidden>No stories match your search.</p>'
+        '<p class="empty" id="nomatch" hidden>No stories match your search.</p>{pager}'
         '</div>\n<script>{js}</script>').format(
-            browse=browse_html(chips=chips, total=len(teens)), grid=grid, js=BROWSE_JS)
+            browse=browse_html(chips=chips, total=len(teens), heading="All stories"), grid=grid, js=BROWSE_JS, pager=PAGER)
     return page("/teens/", main, title="Teens", current="/teens/", wide=True,
                 desc="Stories worth talking about for English learners aged 12 to 18, at Core, Intermediate and Advanced levels.",
                 image=(teens[0]["image"] if teens and teens[0]["image"] else "") or None)
@@ -926,7 +967,7 @@ def about_page():
             '<p>The site is written and edited by John, an English teacher. It is part of johnplusenglish, '
             'and it is a small independent site rather than a news organisation with a newsroom.</p>'
 
-            '<h2>The three levels</h2>'
+            '<h2 id="levels">The three levels</h2>'
             '<p>Every story is written three times. They tell the same story, with different English.</p>'
             '<ul class="about-levels">{levels}</ul>'
             '<p>Choose a level with the buttons at the top of any article. The reading, the questions and the '
