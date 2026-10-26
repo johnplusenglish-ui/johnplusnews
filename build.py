@@ -791,10 +791,11 @@ def search_text(a):
     return re.sub(r"\s+", " ", " ".join(bits)).lower()
 
 
-def card(a):
+def card(a, first=False):
     if a["image"]:
-        thumb = '<img src="{}"{} sizes="(max-width: 700px) 92vw, 330px" alt="{}" width="1000" height="666" loading="lazy" decoding="async">'.format(
-            esc(asset(a.get("thumb") or a["image"])), srcset(a.get("thumb") or a["image"], 1000), esc(a["image_alt"]))
+        thumb = '<img src="{}"{} sizes="(max-width: 700px) 92vw, 330px" alt="{}" width="1000" height="666" {} decoding="async">'.format(
+            esc(asset(a.get("thumb") or a["image"])), srcset(a.get("thumb") or a["image"], 1000), esc(a["image_alt"]),
+            'fetchpriority="high"' if first else 'loading="lazy"')
     else:
         thumb = '<span class="blank">{}</span>'.format(esc(" \u00b7 ".join(t["label"] for t in a["tags"]) or levels_label(a)))
     return (
@@ -802,30 +803,6 @@ def card(a):
         '<h2><a href="{url}">{title}</a></h2><p class="sub">{summary}</p></li>'
     ).format(thumb=thumb, meta=card_meta(a), url=url_of(a), title=esc(a["title"]), summary=esc(a["summary"]), q=esc(search_text(a)),
         free=' data-free="1"' if a["slug"] in FREE_SLUGS else "")
-
-
-def lead_card(a, big=False):
-    """The story the front page opens with, and the two beside it."""
-    lead_src = (a["image"] if big else a.get("thumb")) or a["image"]
-    img = ('<img src="{}"{} sizes="{}" alt="{}" width="1000" height="666" {} decoding="async">'.format(
-        esc(asset(lead_src)), srcset(lead_src, 1400 if big else 1000),
-        "(max-width: 820px) 92vw, 660px" if big else "(max-width: 820px) 92vw, 330px",
-        esc(a["image_alt"]), 'fetchpriority="high"' if big else 'loading="lazy"')) if a["image"] else ""
-    topic = a["tags"][0]["label"] if a["tags"] else ""
-    return ('<article class="lead{b}" data-q="{q}"><a class="lead-img" href="{url}" tabindex="-1" aria-hidden="true">{img}</a>'
-            '<div class="lead-text"><p class="lead-kicker">{topic}</p>'
-            '<h3 class="lead-h"><a href="{url}">{title}</a></h3>'
-            '<p class="lead-sub">{summary}</p></div></article>').format(
-                b=" lead-big" if big else "", q=esc(search_text(a)), url=url_of(a), img=img,
-                topic=esc(topic), title=esc(a["title"]), summary=esc(a["summary"]))
-
-
-def pick_lead(arts):
-    """The lead is whichever story is marked featured in its front matter, otherwise the newest."""
-    for a in arts:
-        if a.get("featured"):
-            return a
-    return arts[0]
 
 
 PAGER = ('<nav class="pager-nav" id="pager" aria-label="More stories" hidden>'
@@ -839,28 +816,9 @@ FREE_TOPIC = {"slug": "free", "label": "Free to read"}   # the /free/ page: the 
 
 def gallery_page(arts, topics=(), topic=None, teens=0):
     """The home page (topic is None) or the page for one topic."""
-    front = not topic and len(arts) >= 3
-    rest = arts
-    picked = ""
-    if front:
-        first = pick_lead(arts)
-        others = [a for a in arts if a is not first]
-        # two picks on other subjects, so the opening three are not all one topic
-        used = {t["slug"] for t in first["tags"]}
-        picks = []
-        for a in others:
-            if len(picks) == 2:
-                break
-            if not used & {t["slug"] for t in a["tags"]} or len(others) < 6:
-                picks.append(a)
-                used |= {t["slug"] for t in a["tags"]}
-        picks += [a for a in others if a not in picks][:2 - len(picks)]
-        rest = [a for a in arts if a is not first and a not in picks]
-        picked = ('<section class="front" data-browse-hide><h2 class="sec-h sec-h-quiet">Worth talking about</h2>'
-                  '<div class="front-grid">{lead}<div class="front-side">{side}</div></div></section>').format(
-                      lead=lead_card(first, big=True), side="".join(lead_card(a) for a in picks))
     if arts:
-        body = '<ul class="gallery">{}</ul><p class="empty" id="nomatch" hidden>No stories match your search.</p>'.format("".join(card(a) for a in rest))
+        body = '<ul class="gallery">{}</ul><p class="empty" id="nomatch" hidden>No stories match your search.</p>'.format(
+            "".join(card(a, first=(i == 0)) for i, a in enumerate(arts)))
     else:
         body = '<p class="empty">The first article is coming soon.</p>'
     if topic:
@@ -874,8 +832,8 @@ def gallery_page(arts, topics=(), topic=None, teens=0):
                   '<span aria-hidden="true">&rarr;</span></a>'
                   '<a class="intro-quiet" href="/about/#levels">How it works</a></p>'
                   '</div></section>\n')
-    main = ('{banner}<div class="wrap">{picked}{browse}{body}{pager}</div>\n<script>{js}</script>').format(
-                banner=banner, picked=picked, body=body, js=BROWSE_JS, pager=PAGER,
+    main = ('{banner}<div class="wrap">{browse}{body}{pager}</div>\n<script>{js}</script>').format(
+                banner=banner, body=body, js=BROWSE_JS, pager=PAGER,
                 browse=browse_html(topics, topic["slug"] if topic else None, total=len(arts),
                                    heading=("All stories" if topic else "Latest stories")))
     if topic is FREE_TOPIC:
