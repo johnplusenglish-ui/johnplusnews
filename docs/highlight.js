@@ -96,29 +96,57 @@
     return { prose: prose, key: "jpn_hl:" + slug + ":" + levelOf(prose), items: [], box: null, ol: null };
   });
 
+  function undoToast(st, gone) {
+    var t = document.querySelector(".hl-toast") || (function () {
+      var d = document.createElement("div"); d.className = "hl-toast"; d.setAttribute("role", "status");
+      document.body.appendChild(d); return d;
+    })();
+    t.textContent = "";
+    var msg = document.createElement("span");
+    msg.textContent = gone.length + (gone.length === 1 ? " highlight removed." : " highlights removed.");
+    var undo = document.createElement("button");
+    undo.type = "button"; undo.className = "hl-toast-btn"; undo.textContent = "Undo";
+    undo.addEventListener("click", function () {
+      gone.forEach(function (it) { place(st, it); });   // place() re-wraps and re-sorts on its own
+      save(st.key, st.items);
+      render(st);
+      t.hidden = true;
+    });
+    t.appendChild(msg); t.appendChild(undo);
+    t.hidden = false;
+    clearTimeout(t._hide);
+    t._hide = setTimeout(function () { t.hidden = true; }, 8000);
+  }
+
   function buildBox(st) {
-    var box = document.createElement("section");
+    /* the list lives in the Study this story accordion, so the saved words sit with the
+       other things the learner does with this article rather than in a block of their own */
+    var box = document.createElement("div");
     box.className = "hl-list";
-    box.hidden = true;
-    box.setAttribute("aria-label", "Highlights");
-    var h = document.createElement("h3");
-    h.className = "hl-title";
-    h.textContent = "Highlights";
+    var empty = document.createElement("p");
+    empty.className = "hl-empty";
+    empty.textContent = "Select a useful word or phrase in the article to save it here and in My words.";
     var ol = document.createElement("ol");
     var actions = document.createElement("div");
     actions.className = "hl-actions";
     var copy = document.createElement("button");
-    copy.type = "button"; copy.textContent = "Copy list";
+    copy.type = "button"; copy.className = "hl-copy"; copy.textContent = "Copy highlights";
+    var said = document.createElement("span");
+    said.className = "hl-said"; said.setAttribute("role", "status");
     var clear = document.createElement("button");
-    clear.type = "button"; clear.textContent = "Clear all";
-    actions.appendChild(copy); actions.appendChild(clear);
-    box.appendChild(h); box.appendChild(ol); box.appendChild(actions);
-    st.prose.parentNode.insertBefore(box, st.prose.nextSibling);
-    st.box = box; st.ol = ol;
+    clear.type = "button"; clear.className = "hl-clear"; clear.textContent = "Clear article highlights";
+    actions.appendChild(copy); actions.appendChild(clear); actions.appendChild(said);
+    box.appendChild(empty); box.appendChild(ol); box.appendChild(actions);
+    var slot = document.querySelector('[data-hl-slot="' + levelOf(st.prose) + '"]') ||
+               document.querySelector("[data-hl-slot]");
+    (slot || st.prose.parentNode).appendChild(box);
+    st.box = box; st.ol = ol; st.empty = empty; st.actions = actions;
+    st.row = slot ? slot.closest("details") : null;
 
     copy.addEventListener("click", function () {
       var text = st.items.map(function (it) { return it.text; }).join("\n");
-      function done() { copy.textContent = "Copied"; setTimeout(function () { copy.textContent = "Copy list"; }, 1500); }
+      // the label keeps its width, so confirming a copy never nudges the layout
+      function done() { said.textContent = "Copied"; setTimeout(function () { said.textContent = ""; }, 2500); }
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(text).then(done, fallback);
       } else fallback();
@@ -131,12 +159,15 @@
       }
     });
     clear.addEventListener("click", function () {
-      if (!st.items.length || !confirm("Remove all the highlights from this text?")) return;
-      st.items.slice().forEach(function (it) { unwrap(st.prose, it.id); });
+      if (!st.items.length) return;
+      var gone = st.items.slice();
+      gone.forEach(function (it) { unwrap(st.prose, it.id); });
       st.items = [];
       save(st.key, st.items);
       render(st);
       emit("clear", st, null);
+      // removal is immediate but reversible, so nobody loses a page of words to one click
+      undoToast(st, gone);
     });
   }
 
@@ -156,7 +187,14 @@
       li.appendChild(n); li.appendChild(w); li.appendChild(x);
       st.ol.appendChild(li);
     });
-    st.box.hidden = !st.items.length;
+    var n = st.items.length;
+    st.empty.hidden = n > 0;
+    st.ol.hidden = n === 0;
+    st.actions.hidden = n === 0;
+    if (st.row) {
+      var c = st.row.querySelector("[data-hl-count]");
+      if (c) c.textContent = n + (n === 1 ? " saved" : " saved");
+    }
     hints.forEach(function (h) { h.hidden = wasUsed(); });
   }
 

@@ -1084,6 +1084,21 @@ CHEVRON_ICON = ('<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="tr
                 'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
 
+STUDY_JS = (
+    '(function(){function init(){var s=document.querySelector(".study-tools");if(!s)return;'
+    'var rows=[].slice.call(s.querySelectorAll(":scope > .qs-group > details.qs"));'
+    'rows.forEach(function(d){d.addEventListener("toggle",function(){'
+    'if(!d.open)return;rows.forEach(function(o){if(o!==d&&o.open)o.open=false})})});'
+    # a shared link should land on the section it names, not near it
+    'function openFromHash(){var id=location.hash.slice(1);if(!id)return;'
+    'var t=document.getElementById(id);if(!t)return;'
+    'if(t.tagName==="DETAILS"){t.open=true;rows.forEach(function(o){if(o!==t)o.open=false})}'
+    'setTimeout(function(){t.scrollIntoView({block:"start"})},40)}'
+    'window.addEventListener("hashchange",openFromHash);openFromHash()}'
+    'if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init()})();'
+)
+
+
 PRINT_JS = (
     '(function(){var b=document.getElementById("pdfbtn"),m=document.getElementById("pmenu"),go=document.getElementById("pdfgo");if(!b||!m)return;var old="";'
     'var root=document.documentElement,opts=[].slice.call(m.querySelectorAll("[data-pdf]"));'
@@ -1136,9 +1151,17 @@ def pdf_picker():
             '</div></div></div>').format(icon=PDF_ICON, chev=CHEVRON_ICON, items=items)
 
 
-def tools_html():
-    """The two small controls at the right of the date line: reading font and save as PDF."""
-    return '<div class="tools">{}{}</div>'.format(font_picker(), pdf_picker())
+TIMER_ICON = ('<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">'
+              '<circle cx="12" cy="13" r="7.5" fill="none" stroke="currentColor" stroke-width="2"/>'
+              '<path d="M12 9.5V13l2.5 1.5M9.5 3h5" fill="none" stroke="currentColor" stroke-width="2" '
+              'stroke-linecap="round" stroke-linejoin="round"/></svg>')
+
+
+def tools_html(timer=False):
+    """The small controls at the top right of an article: reading font, save as PDF, and the
+    classroom timer, which only floats over the page once it is actually counting."""
+    slot = ('<div class="timerpick" id="timerslot"></div>') if timer else ""
+    return '<div class="tools">{}{}{}</div>'.format(font_picker(), pdf_picker(), slot)
 
 
 def font_picker():
@@ -1221,9 +1244,10 @@ def question_row(key, qs, level="", teens=False):
     if level.lower() == "core":
         starters = CORE_STARTERS["before" if key == "before" else "after"]
         help_ = '<p class="qs-help"><b>Sentence help (optional):</b> {}</p>'.format(" &middot; ".join(esc(x) for x in starters))
-    return ('<details class="qs qs-{key}"{at}{op}><summary><span class="qs-label">{label}</span>'
+    ident = ' id="discussion"' if key == "after" and (not level or level.lower() == "core") else ""
+    return ('<details class="qs qs-{key}"{at}{op}{ident}><summary><span class="qs-label">{label}</span>'
             '<span class="qs-count">{n} question{s}</span>{chev}</summary><ol>{items}</ol>{help}{note}</details>'
-            ).format(key=key, label=label, at=at, op=" open" if teens and key == "after" else "", n=len(qs), s="" if len(qs) == 1 else "s", chev=CHEVRON_ICON,
+            ).format(key=key, label=label, at=at, ident=ident, op=" open" if teens and key == "after" else "", n=len(qs), s="" if len(qs) == 1 else "s", chev=CHEVRON_ICON,
                      items="".join("<li>{}</li>".format(inline(q)) for q in qs), help=help_, note=note)
 
 
@@ -1411,7 +1435,7 @@ def exercises_html(a):
                 + ex_answers(d, a["slug"] + key)))
     if not panels:
         return ""
-    return ('<details class="qs qs-ex"><summary><span class="qs-label">Exercises</span>'
+    return ('<details class="qs qs-ex" id="exercises"><summary><span class="qs-label">Exercises</span>'
             '<span class="qs-count">4 exercises</span>{chev}</summary>'
             '<div class="ex-wrap">{p}</div></details>').format(chev=CHEVRON_ICON, p="".join(panels))
 
@@ -1433,10 +1457,32 @@ def activity_html(a):
     return '<section class="act"><h3 class="act-h">Try it</h3>{}</section>'.format(paras)
 
 
+def highlights_rows(a):
+    """One row per reading level, which static/highlight.js fills with that level's saved words.
+    The row exists even when nothing is saved, so the feature is visible rather than hidden."""
+    out = []
+    multi = len(a["versions"]) > 1
+    open_level = a["versions"][default_index(a["versions"])]["level"]
+    for v in a["versions"]:
+        lv = v["level"].lower()
+        at = ' data-qlevel="{}"'.format(lv) if multi else ""
+        hide = " hidden" if multi and v["level"] != open_level else ""
+        out.append('<details class="qs qs-hl" id="highlights-{lv}"{at}{hide}>'
+                   '<summary><span class="qs-label">Highlights</span>'
+                   '<span class="qs-count" data-hl-count>0 saved</span>{chev}</summary>'
+                   '<div class="hl-slot" data-hl-slot="{lv}"></div></details>'.format(
+                       lv=lv, at=at, hide=hide, chev=CHEVRON_ICON))
+    return "".join(out)
+
+
 def study_html(a):
-    """The two end-of-article rows share one rounded panel."""
-    rows = questions_html(a, "after") + activity_html(a) + exercises_html(a)
-    return '<div class="qs-group">{}</div>'.format(rows) if rows else ""
+    """Everything the learner does with this story, in one joined accordion under one heading."""
+    rows = highlights_rows(a) + questions_html(a, "after") + activity_html(a) + exercises_html(a)
+    if not rows:
+        return ""
+    return ('<section class="study-tools" aria-labelledby="study-title">'
+            '<h2 class="sec-h sec-h-sm" id="study-title">Study this story</h2>'
+            '<div class="qs-group">{}</div></section>').format(rows)
 
 
 def listen_html(a):
@@ -1571,22 +1617,9 @@ def article_page(a, newer, older, pool=()):
         source = '<p class="source">{}: {}</p>'.format("Sources" if len(a["sources"]) > 1 else "Source", "; ".join(one(s) for s in a["sources"]))
     source += '<p class="ai-note">Written with AI assistance and edited by John. Spotted a mistake? <a href="/contact/">Tell us</a>.</p>'
     more = related(a, pool)
-    pager = ('<section class="nextup"><h2 class="sec-h sec-h-sm">Continue reading</h2>'
+    pager = ('<section class="continue-reading" aria-labelledby="continue-title">'
+             '<h2 class="sec-h sec-h-sm" id="continue-title">Continue reading</h2>'
              '<ul class="nx-list">{}</ul></section>').format("".join(next_card(x) for x in more)) if more else ""
-    if a["teens"]:
-        def gate_t(x):
-            return "" if x["slug"] in FREE_SLUGS else " data-lock"
-        left = ('<a href="{}"{}><small>Previous Teens story</small>{}</a>'.format(url_of(older), gate_t(older), esc(older["title"]))
-                if older else "<span></span>")
-        right = ('<a class="next" href="{}"{}><small>Next Teens story</small>{}</a>'.format(url_of(newer), gate_t(newer), esc(newer["title"]))
-                 if newer else '<a class="next" href="/teens/"><small>Back to</small>All Teens stories</a>')
-        pager += '<nav class="pager" aria-label="More Teens stories">{}{}</nav>'.format(left, right)
-    if (newer or older) and not a["teens"]:
-        def gate(x):
-            return "" if x["slug"] in FREE_SLUGS else " data-lock"
-        left = '<a href="{}"{}><small>Older article</small>{}</a>'.format(url_of(older), gate(older), esc(older["title"])) if older else "<span></span>"
-        right = '<a class="next" href="{}"{}><small>Newer article</small>{}</a>'.format(url_of(newer), gate(newer), esc(newer["title"])) if newer else ""
-        pager += '<nav class="pager" aria-label="More articles">{}{}</nav>'.format(left, right)
     main = """<article class="wrap"{locked}>
 <header class="article-head">
 <div class="art-top">{back}{picker}</div>
@@ -1595,6 +1628,7 @@ def article_page(a, newer, older, pool=()):
 {firstrun}
 <script>{fontjs}</script>
 <script>{printjs}</script>
+<script>{studyjs}</script>
 <h1>{title}</h1>
 <p class="dek">{summary}</p>
 {img}
@@ -1602,12 +1636,14 @@ def article_page(a, newer, older, pool=()):
 {before}
 </header>
 {versions}
-{study}
+<footer class="article-info">
 {source}
 {topics}
+</footer>
+{study}
 {pager}
 <p class="print-foot">{foot}</p>
-</article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, firstrun=FIRSTRUN, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
+</article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(timer=not a["teens"]), fontjs=FONT_JS, printjs=PRINT_JS, studyjs=STUDY_JS, firstrun=FIRSTRUN, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
                      back=('<a class="back" href="/teens/">&larr; Teens</a>' if a["teens"] else '<a class="back" href="/">&larr; All articles</a>'),
                      topics=("" if a["teens"] else topics_html(a)), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), study=study_html(a), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))

@@ -205,7 +205,19 @@
 
   function mount() {
     document.body.appendChild(bar);
-    document.body.appendChild(wrap);
+    /* The timer sits with Font and PDF while it is idle, so nothing hovers over the reading.
+       Once it is counting it floats, where it stays visible as the reader scrolls. */
+    var slot = document.getElementById("timerslot");
+    function reseat() {
+      var floating = state === "running" || state === "paused" || state === "done";
+      var home = floating || !slot ? document.body : slot;
+      if (wrap.parentNode !== home) home.appendChild(wrap);
+      wrap.classList.toggle("jt-float", floating || !slot);
+      wrap.classList.toggle("jt-inline", !floating && !!slot);
+    }
+    reseat();
+    var paint = show;
+    show = function () { paint(); reseat(); };
     show();
   }
   if (document.body) mount(); else document.addEventListener("DOMContentLoaded", mount);
