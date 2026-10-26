@@ -9,8 +9,8 @@ source: RTÉ Brainstorm, Katriona Flynn | https://www.rte.ie/brainstorm/2026/082
 source-date: 27 August 2026
 image: images/would-you-wear-a-rival-teams-shirt-a49644.jpg
 image-alt: One friend holding up a blue and white striped football shirt while another, in a red shirt, folds their arms and raises an eyebrow.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

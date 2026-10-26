@@ -5,8 +5,8 @@ summary: The eviction and death of an 87-year-old woman in Madrid have sparked p
 tags: Society, Politics
 image: images/a-home-for-life-the-housing-crisis-shaking-spain-1545b7.jpg
 image-alt: A raised hand holds up a bunch of keys above a square filled with tents and banners.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

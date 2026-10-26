@@ -5,8 +5,8 @@ tags: Technology, Society
 source: Australian eSafety Commissioner | https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions
 image: images/australia-banned-social-media-for-teenagers-did-it-work-323e25.jpg
 image-alt: Seen over his shoulder, a teenage boy in school uniform and a wide-brimmed hat holds a phone showing his own face inside an oval scanning outline.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

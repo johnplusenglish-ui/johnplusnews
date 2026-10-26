@@ -6,8 +6,8 @@ tags: Travel, Society
 source: The Guardian | https://www.theguardian.com/commentisfree/2026/jul/04/fight-beaches-real-villain-europe-overtourism-big-business
 image: images/who-owns-the-beach-portugals-fight-for-its-coastline-feeef3.jpg
 image-alt: Golden cliffs and rock stacks curve around a small sandy cove of turquoise water, with a handful of swimmers and sunbathers scattered along the shore.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

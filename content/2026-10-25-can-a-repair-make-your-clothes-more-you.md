@@ -9,8 +9,8 @@ source: San Francisco Public Library, event listing for Mending and Upcycling wi
 source-date: event listed for 19 April 2026
 image: images/can-a-repair-make-your-clothes-more-you-ada8d1.jpg
 image-alt: A young person holding up a denim jacket with a bright yellow star patch sewn on.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

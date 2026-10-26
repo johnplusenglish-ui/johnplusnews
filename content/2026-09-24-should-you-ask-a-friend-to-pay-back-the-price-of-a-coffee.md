@@ -5,8 +5,8 @@ tags: Relationships, Business
 source: The Guardian | https://www.theguardian.com/commentisfree/2026/sep/24/it-pays-to-be-generous-theres-nothing-more-embarrassing-than-being-bank-transferred-the-price-of-a-coffee
 image: images/should-you-ask-a-friend-to-pay-back-the-price-of-a-coffee-9addf0.jpg
 image-alt: A woman holds up a phone showing a payment screen with $12.50 and a blue Pay button, while another woman across the cafe table watches over a green juice.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

@@ -5,8 +5,8 @@ tags: Relationships, Society
 source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/oct/21/curiosity-atonement-how-to-get-through-high-school-reunions
 image: images/would-you-go-to-your-school-reunion-after-20-years-e144f0.jpg
 image-alt: Two middle-aged men with drinks talk in a hall hung with blue and yellow balloons, one resting a hand on the other's shoulder, their badges reading Mike and Danny.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

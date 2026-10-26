@@ -7,8 +7,8 @@ category: Hobbies
 order: 27
 image: images/the-teen-who-found-his-people-through-a-puzzle-e98283.jpg
 image-alt: Two young people sitting on wooden stools against an orange background, each holding up a jumbled colour puzzle cube and laughing, one in a blue shirt, one in white.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 source: BBC News, Rubik's Cubes give us friendship and a community | https://www.bbc.com/news/articles/c1k2z18wppgo
 source-date: 16 May 2026
 ---

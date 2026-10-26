@@ -7,8 +7,8 @@ category: Science & making
 order: 26
 image: images/the-teen-who-turned-paper-folding-into-research-14a1fd.jpg
 image-alt: A young man studying a folded white paper model shaped like a wing, with a small ladybird on its edge.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 source: Science News Explores, Katie Grace Carpenter, 2026 Regeneron ISEF winners | https://www.snexplores.org/article/2026-regeneron-isef-winners-origami
 source-date: 18 May 2026
 ---

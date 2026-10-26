@@ -6,8 +6,8 @@ tags: Work, Society
 source: Gallup | https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx
 image: images/is-quiet-quitting-really-a-bad-thing-fbb0b0.jpg
 image-alt: A woman in a coral shirt closes her laptop and lifts her blue coat from a chair in an open-plan office while a colleague at the next desk carries on typing.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

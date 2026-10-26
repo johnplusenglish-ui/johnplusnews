@@ -11,8 +11,8 @@ source-2: Journal of Adolescent Health, study abstract | https://pubmed.ncbi.nlm
 source-2-date: 17 February 2026
 image: images/would-you-choose-a-later-start-to-school-f7e802.jpg
 image-alt: A teenager sits up in a bed with blue and white striped bedding, hugging a pillow with her eyes closed and smiling, beside a bedside alarm clock.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

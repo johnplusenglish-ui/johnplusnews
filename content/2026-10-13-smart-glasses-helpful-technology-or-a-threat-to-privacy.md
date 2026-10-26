@@ -5,8 +5,8 @@ summary: Smart glasses can read signs, translate conversations and help people w
 tags: Technology, Society
 image: images/smart-glasses-helpful-technology-or-a-threat-to-privacy-e0e6ee.jpg
 image-alt: Close-up of a woman with grey-streaked hair touching the arm of her thick-framed glasses, which carry a small camera lens by the hinge, in a busy cafe.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

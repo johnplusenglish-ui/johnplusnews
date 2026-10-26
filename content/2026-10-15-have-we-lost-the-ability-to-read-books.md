@@ -5,8 +5,8 @@ tags: Culture, Technology
 source: The Guardian | https://www.theguardian.com/books/2026/aug/02/could-a-couch-to-5k-for-books-get-you-back-into-reading
 image: images/have-we-lost-the-ability-to-read-books-aafaa4.jpg
 image-alt: A hand reaches past an open paperback resting on a sofa arm to tap a phone full of social media notifications, beside reading glasses and a mug of tea.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

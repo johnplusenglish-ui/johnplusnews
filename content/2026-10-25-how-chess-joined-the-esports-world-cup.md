@@ -7,8 +7,8 @@ category: Games & online life
 order: 24
 image: images/how-chess-joined-the-esports-world-cup-429a83.jpg
 image-alt: A focused chess player in headphones about to move a piece while a commentator with a microphone speaks excitedly behind him.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 source: FIDE, Magnus Carlsen wins first ever edition of Chess Esports World Cup | https://www.fide.com/magnus-carlsen-wins-first-ever-edition-of-chess-esports-world-cup/
 source-date: 2 August 2025
 source-2: Chess.com, Colin McGourty, 2025 Esports World Cup report | https://www.chess.com/news/view/2025-esports-world-cup-day-4

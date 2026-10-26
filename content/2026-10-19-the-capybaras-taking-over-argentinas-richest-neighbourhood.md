@@ -5,8 +5,8 @@ tags: Society, Environment
 source: El País Argentina | https://elpais.com/argentina/2026-10-06/un-vecino-del-barrio-privado-mas-conocido-de-buenos-aires-dispara-a-carpinchos-en-su-jardin.html
 image: images/the-capybaras-taking-over-argentinas-richest-neighbourhood-897343.jpg
 image-alt: Five capybaras of different sizes graze on a lawn outside a modern white house, with a man beside a parked car and a runner on a path by a lake behind them.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

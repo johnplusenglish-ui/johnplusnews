@@ -5,8 +5,8 @@ tags: Lifestyle, Society
 source: Forbes | https://www.forbes.com/sites/cherylrobinson/2026/05/30/before-turning-a-hobby-into-a-business-ask-yourself-these-4-questions/
 image: images/when-did-we-start-taking-our-hobbies-so-seriously-7a1875.jpg
 image-alt: A runner in an orange T-shirt checks his sports watch mid-stride on a riverside path, with walkers, a suspension footbridge and a church spire behind.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

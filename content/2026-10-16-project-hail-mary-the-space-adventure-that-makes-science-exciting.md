@@ -5,8 +5,8 @@ tags: Culture, Science
 source: Scientific American | https://www.scientificamerican.com/article/how-accurate-is-the-science-in-project-hail-mary/
 image: images/project-hail-mary-the-space-adventure-that-makes-science-exciting-f5a7d5.jpg
 image-alt: A notebook lies open on a workbench inside a spacecraft, showing lines of musical notation and a sketch of a five-limbed creature, with a bright star through a round window.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

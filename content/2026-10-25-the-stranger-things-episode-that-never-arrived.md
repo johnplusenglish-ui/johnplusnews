@@ -7,8 +7,8 @@ category: TV, film & fandom
 order: 21
 image: images/the-stranger-things-episode-that-never-arrived-2b7f70.jpg
 image-alt: A young woman sitting cross-legged on a cushion with a bowl of popcorn and a TV remote, staring ahead with a surprised, expectant face.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 source: LBC, William Mata, why Stranger Things did not have a secret final episode | https://www.lbc.co.uk/article/stranger-things-conformity-gate-not-real-5HjdQQ5_2/
 source-date: 8 January 2026, updated 10 February 2026
 ---

@@ -5,8 +5,8 @@ tags: Technology, Society
 source: Reuters | https://www.reuters.com/world/denmark-plans-ban-sharing-ai-deepfakes-without-consent-2026-10-08/
 image: images/should-you-own-the-rights-to-your-own-face-d7c98e.jpg
 image-alt: A woman in a blue jumper frowns and points at a laptop playing a video of herself, a phone in her other hand, at a desk beside a bright window.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

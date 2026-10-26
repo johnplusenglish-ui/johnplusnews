@@ -11,8 +11,8 @@ source-2: UNICEF Argentina, Glosario Digital Adolescente (PDF in Spanish) | http
 source-2-date: 2025
 image: images/who-makes-the-rules-in-a-group-chat-011daf.jpg
 image-alt: A young woman in a mustard cardigan holding a phone in both hands, one eyebrow raised and her lips pressed in a doubtful look, against a green background.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

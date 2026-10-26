@@ -5,8 +5,8 @@ summary: For more than 200 years, some of Greece's most famous ancient sculpture
 tags: Culture, History
 image: images/who-owns-history-greece-wants-its-ancient-treasures-back-481f76.jpg
 image-alt: Visitors stand in a bright museum gallery looking at a long marble frieze carved with horses and riders, with seated stone figures displayed at the far end.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

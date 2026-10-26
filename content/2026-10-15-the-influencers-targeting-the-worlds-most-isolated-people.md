@@ -5,8 +5,8 @@ tags: Technology, Society
 source: The Guardian | https://www.theguardian.com/world/2026/sep/05/colonialism-for-clicks-influencers-attempting-meet-film-worlds-most-isolated-tribes
 image: images/the-influencers-targeting-the-worlds-most-isolated-people-23e4d7.jpg
 image-alt: A man in a red top and cap sits in an inflatable boat filming himself on a phone held out on a selfie stick, facing a dense forested island across clear water.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

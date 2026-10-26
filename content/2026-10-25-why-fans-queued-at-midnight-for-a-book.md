@@ -7,8 +7,8 @@ category: TV, film & fandom
 order: 28
 image: images/why-fans-queued-at-midnight-for-a-book-bed5b1.jpg
 image-alt: Three friends in winter coats and scarves stand in a row, two hugging plain dark books while the third holds an alarm clock showing twelve above his head.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 source: Associated Press, Hillel Italie, Sunrise arrives at midnight for fans | https://apnews.com/article/hunger-games-sunrise-reaping-suzanne-collins-32e1a1c06e2dc2626d5dd3d7a9e68503
 source-date: 18 March 2025
 source-2: The Bookseller, Waterstones launches Sunrise on the Reaping with 110 in-store midnight parties | https://www.thebookseller.com/news/waterstones-launches-sunrise-on-the-reaping-with-110-in-store-midnight-parties

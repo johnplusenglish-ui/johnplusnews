@@ -7,8 +7,8 @@ category: Language & memes
 order: 17
 image: images/the-real-story-behind-the-aura-farming-dance-f8137e.jpg
 image-alt: A young dancer in traditional Malay dress and sunglasses standing calmly on the front of a long wooden racing boat while four rowers with paddles smile behind him.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 source: BBC News, Fan Wang, Astudestra Ajengrastri and Johanes Hutabarat | https://www.bbc.com/news/articles/czxe7ey59r0o
 source-date: 11 July 2025
 ---

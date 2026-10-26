@@ -9,8 +9,8 @@ source: Ofcom, Younger phone owners, the rise of AI, and consumption over creati
 source-date: 21 May 2026
 image: images/ai-did-the-homework-who-did-the-learning-f923f6.jpg
 image-alt: A smiling teenager in glasses writes in a spiral notebook beside an open laptop, with a yellow sticky note showing a drawn lightbulb on the page.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

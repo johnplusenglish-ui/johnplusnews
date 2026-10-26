@@ -7,8 +7,8 @@ category: Games & online life
 order: 30
 image: images/the-world-championship-where-you-guess-the-place-ae6cca.jpg
 image-alt: A young woman in round glasses and a mustard cardigan studying a plain white card printed with a red map pin, against a bright green background.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 source: taz, Valérie Catil, Geoguessr-Weltmeisterschaft in Berlin (in German) | https://taz.de/Geoguessr-Weltmeisterschaft-in-Berlin/!6210533/
 source-date: 7 September 2026
 source-2: GeoGuessr, official announcements on Steam | https://steamcommunity.com/app/3478870/allnews/?l=english

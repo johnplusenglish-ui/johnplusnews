@@ -6,8 +6,8 @@ tags: Technology, Health
 source: Computers in Human Behavior | https://doi.org/10.1016/j.chb.2026.108926
 image: images/has-your-phone-changed-the-way-you-think-0fac14.jpg
 image-alt: A student in a green headscarf and mustard jumper frowns at an open book in a library, a phone lighting up on the desk beside her.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

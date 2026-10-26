@@ -5,8 +5,8 @@ tags: Culture, Travel
 source: Europa Press | https://www.europapress.es/andalucia/sevilla-00357/noticia-semana-santa-sevilla-2026-precio-ver-toda-semana-santa-balcon-centro-20260324140206.html
 image: images/would-you-pay-9000-to-stand-on-a-balcony-230bb6.jpg
 image-alt: Three people lean over a flower-decked balcony holding small plates of food, looking down at a packed narrow street where a gilded religious float is carried past.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

@@ -51,7 +51,10 @@
   var icon = el("span", "jt-icon");
   icon.innerHTML = '<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><circle cx="12" cy="13" r="7.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 9.5V13l2.5 1.5M9.5 3h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var face = el("span", "jt-face", clock(total));
+  // idle, the pill says what it is; once it is counting, the clock speaks for itself
+  var word = el("span", "jt-word", "Timer");
   pill.appendChild(icon);
+  pill.appendChild(word);
   pill.appendChild(face);
 
   var panel = el("div", "jt-panel");
@@ -91,6 +94,7 @@
     bar.classList.toggle("jt-on", state === "running" || state === "paused" || state === "done");
     bar.classList.toggle("jt-late", state !== "idle" && left / total <= 0.1);
     wrap.classList.toggle("jt-running", state === "running");
+    wrap.classList.toggle("jt-idle", state === "idle");
     wrap.classList.toggle("jt-done", state === "done");
     wrap.classList.toggle("jt-late", state !== "idle" && state !== "done" && left / total <= 0.1);
     go.textContent = state === "running" ? "Pause" : state === "paused" ? "Resume" : state === "done" ? "Again" : "Start";

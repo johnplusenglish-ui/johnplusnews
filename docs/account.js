@@ -377,6 +377,7 @@
     item("My words", "/words/");
     if (me.role === "teacher") item("Teacher view", "/teacher/");
     item("Sign out", null, signOut);
+    menu.lastChild.className = "acct-out";
     menuBtn.addEventListener("click", function (e) {
       e.stopPropagation();
       var open = menu.hidden; menu.hidden = !open; menuBtn.setAttribute("aria-expanded", open ? "true" : "false");
@@ -495,7 +496,11 @@
       var r = m && progress[m[1]];
       if (!r) return;
       var meta = c.querySelector(".meta"); if (!meta) return;
-      meta.appendChild(el("span", "acct-read" + (r.status === "finished" ? " done" : ""), r.status === "finished" ? "Completed" : "In progress"));
+      var done = r.status === "finished";
+      var st = el("span", "acct-read" + (done ? " done" : ""));
+      st.setAttribute("aria-label", done ? "Completed" : "In progress");
+      st.appendChild(el("span", "acct-read-t", done ? "Completed" : "In progress"));
+      meta.appendChild(st);
     });
   }
 

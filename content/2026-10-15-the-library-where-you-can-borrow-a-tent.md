@@ -5,8 +5,8 @@ tags: Society, Environment
 source: The Guardian | https://www.theguardian.com/environment/2026/oct/07/nature-library-colorado-us-wilderness-stargazing-camping-outdoors-aoe
 image: images/the-library-where-you-can-borrow-a-tent-0ce6e5.jpg
 image-alt: A man and a boy pass a rolled sleeping mat across a library counter to be scanned, with binoculars, trekking poles and a microscope on the shelves behind.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

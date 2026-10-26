@@ -7,8 +7,8 @@ category: Games & online life
 order: 23
 image: images/why-dress-up-an-avatar-nobody-can-touch-fec113.jpg
 image-alt: A young man pointing and grinning at a life-size cardboard cutout of a colourful cartoon avatar in a sparkly jacket and cape.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 source: Roblox, Catalog Avatar Creator (experience page by Muneeb) | https://www.roblox.com/games/7041939546/Catalog-Avatar-Creator
 source-date: undated; checked 25 October 2026
 ---

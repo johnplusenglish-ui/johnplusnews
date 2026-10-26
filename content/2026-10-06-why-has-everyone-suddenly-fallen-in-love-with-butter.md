@@ -5,8 +5,8 @@ tags: Food, Lifestyle
 source: The Guardian | https://www.theguardian.com/food/2026/oct/06/the-butter-boom-how-the-world-fell-back-in-love-with-the-glorious-golden-spread
 image: images/why-has-everyone-suddenly-fallen-in-love-with-butter-f0a32e.jpg
 image-alt: Blocks and rolls of pale yellow butter with small blank labels fill a marble shop counter while a hand in white sleeves spreads some onto a slice of bread.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

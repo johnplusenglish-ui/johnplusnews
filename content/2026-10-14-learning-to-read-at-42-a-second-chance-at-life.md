@@ -5,8 +5,8 @@ summary: For most people, reading is something they learn as children. But one B
 tags: Education, Society
 image: images/learning-to-read-at-42-a-second-chance-at-life-15bbe3.jpg
 image-alt: An older woman in a mustard cardigan points at a line in an open book while a bearded man in a blue shirt follows it with a pencil at a bright kitchen table.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

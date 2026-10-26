@@ -5,8 +5,8 @@ tags: Food, Culture
 source: The Guardian | https://www.theguardian.com/food/2026/sep/10/people-waited-24-hours-for-a-potato-how-viral-queues-help-and-harm-restaurants
 image: images/would-you-queue-24-hours-for-a-jacket-potato-4d8558.jpg
 image-alt: A long queue of people in winter coats, some waiting in folding camping chairs on the pavement, stretches along a terraced street towards a green tram serving food.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

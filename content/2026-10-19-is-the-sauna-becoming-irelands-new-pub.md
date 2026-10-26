@@ -5,8 +5,8 @@ tags: Lifestyle, Society
 source: RTÉ Lifestyle | https://www.rte.ie/lifestyle/living/2026/0128/1555340-does-our-growing-sauna-culture-prove-a-hunger-for-community/
 image: images/is-the-sauna-becoming-irelands-new-pub-5db10a.jpg
 image-alt: Three people in swimwear sit laughing together on the wooden benches of a barrel sauna, one pouring water onto hot stones, with the sea visible through the glass door.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

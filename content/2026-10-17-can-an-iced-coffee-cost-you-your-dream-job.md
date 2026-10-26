@@ -5,8 +5,8 @@ tags: Work, Society
 source: BBC World Service | https://www.bbc.co.uk/programmes/w3ct8q64
 image: images/can-an-iced-coffee-cost-you-your-dream-job-1eed64.jpg
 image-alt: A young man in a navy suit, holding a blue folder and a plastic cup of iced coffee, leans on a marble reception desk and smiles at a receptionist in red.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

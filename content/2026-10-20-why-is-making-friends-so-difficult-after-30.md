@@ -5,8 +5,8 @@ tags: Relationships, Society
 source: World Health Organization | https://www.who.int/groups/commission-on-social-connection
 image: images/why-is-making-friends-so-difficult-after-30-2cb5a4.jpg
 image-alt: Four adults laugh around a colourful board game on a white table in a shop lined with shelves of games, two holding cards and one reaching for a piece.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

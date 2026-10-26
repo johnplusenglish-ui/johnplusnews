@@ -5,8 +5,8 @@ tags: Crime, Society
 source: Associated Press | https://apnews.com/article/aa380c6826d788a3123fd36378c7caf9
 image: images/a-body-in-a-barrel-a-40-year-old-mystery-b2ac3c.jpg
 image-alt: A rusted metal barrel lies on cracked dried mud beside a shrinking lake, with two people and a small boat on the far shoreline below rocky hills.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

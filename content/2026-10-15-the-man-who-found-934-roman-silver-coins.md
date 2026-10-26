@@ -5,8 +5,8 @@ tags: History, Culture
 source: LVR Office for Archaeological Monument Preservation | https://www.lvr.de/bodendenkmalpflege/zentrale-infos/presse/sensationeller-roemischer-muenzschatz.html
 image: images/the-man-who-found-934-roman-silver-coins-bea145.jpg
 image-alt: A gloved hand lifts one worn silver coin from a scatter of dozens more lying in dark soil, with a trowel and a soft brush at the edges of the frame.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 

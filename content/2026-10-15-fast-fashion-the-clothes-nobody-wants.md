@@ -5,8 +5,8 @@ tags: Environment, Lifestyle
 source: The Guardian | https://www.theguardian.com/fashion/2026/oct/13/people-sell-their-best-stuff-on-vinted-how-charity-shops-became-a-dumping-ground-for-unsellable-clothes
 image: images/fast-fashion-the-clothes-nobody-wants-ecce18.jpg
 image-alt: Two volunteers in navy aprons sort donated clothing, a grey-haired woman grimacing at a creased white T-shirt with a mark on the hem while a younger man pulls garments from a black bin bag.
-image-credit: created for johnplusnews
-image-credit-label: AI-generated image
+image-credit: JohnPlusNews, created with AI assistance
+image-credit-label: Illustration
 ---
 === Core ===
 
