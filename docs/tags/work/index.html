@@ -63,6 +63,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
 
 /* header */
 .site-header { border-bottom: 1px solid var(--line); }
+.site-header .wrap, .site-footer .wrap { max-width: 1120px; }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; min-height: 64px; gap: 16px; }
 .brand { display: inline-flex; align-items: center; min-width: 0; gap: 9px; font-weight: 700; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
 .brand svg { flex: none; color: var(--accent); }
@@ -174,7 +175,7 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 .article-head { padding: 52px 0 28px; }
 .article-head h1 { font-size: calc(clamp(2rem, 6.4vw, 2.875rem) * var(--fs, 1)); margin: 12px 0 16px; }
 .hero-img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 10px; background: var(--line); }
-.hero { margin: 0; }
+.hero { margin: 0 auto; max-width: 540px; }
 .credit { font-size: 0.8125rem; line-height: 1.4; color: var(--muted); margin: 8px 2px 0; }
 .credit a { color: var(--muted); text-underline-offset: 0.18em; }
 .credit a:hover { color: var(--accent); }
@@ -379,7 +380,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 }
 
 /* the story keeps one name while the headline changes with the level */
-.story-id { margin: 16px 0 2px; font-size: 0.875rem; font-weight: 600; letter-spacing: 0.01em; color: var(--muted); }
+.story-id { margin: 14px 0 6px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
 
 /* what the site is for, under the home page headline */
 .intro-sub { margin: 10px 0 0; max-width: 46ch; font-size: 1.0625rem; color: var(--muted); }
@@ -717,7 +718,7 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
   .meta { font-size: 8.5pt; }
   .article-head h1 { font-size: calc(25pt * var(--fs, 1)); line-height: 1.08; letter-spacing: -0.025em; margin: 3mm 0 3mm; break-after: avoid; text-wrap: balance; }
   .dek { font-size: calc(12pt * var(--fs, 1)); line-height: 1.4; color: #4a4f5a; margin: 0 0 5mm; }
-  .hero { break-inside: avoid; }
+  .hero { break-inside: avoid; max-width: none; }
   .hero-img { display: block; width: auto; max-width: 100%; height: auto; max-height: 80mm; margin: 0 auto; aspect-ratio: auto; object-fit: contain; border-radius: 0; }
   .credit { font-size: 7pt; line-height: 1.35; color: #6b7280; margin: 1.5mm 0 0; }
 

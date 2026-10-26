@@ -610,11 +610,17 @@ def card_meta(a):
     return '<p class="meta">{}<span>{}</span></p>'.format(first, shown_date(a, short=True))
 
 
+def kicker_html(a):
+    """The small label above the headline. It used to repeat the catalogue title, so the page
+    opened with the same story named twice; it now says what the story is about."""
+    label = a["category"] if a["teens"] else (a["tags"][0]["label"] if a["tags"] else "")
+    return '<p class="story-id">{}</p>'.format(esc(label)) if label else ""
+
+
 def article_meta(a):
     v = a["versions"]
     bits = []
-    if a["teens"] and a["category"]:
-        bits.append('<span class="lvl">{}</span>'.format(esc(a["category"])))
+    # the category is in the kicker now, so the date line does not repeat it
     if len(v) == 1:
         bits.append('<span class="lvl">{}</span>'.format(esc(v[0]["level"])))
     bits.append("<span>{}</span>".format(esc(shown_date(a))))
@@ -1376,8 +1382,7 @@ def article_page(a, newer, older):
 {pager}
 <p class="print-foot">{foot}</p>
 </article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(), fontjs=FONT_JS, printjs=PRINT_JS, firstrun=FIRSTRUN, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
-                     storyid=('<p class="story-id">{}</p>'.format(esc(a["title"]))
-                              if any(v["title"] != a["title"] for v in a["versions"]) else ""),
+                     storyid=kicker_html(a),
                      back=('<a class="back" href="/teens/">&larr; Teens</a>' if a["teens"] else '<a class="back" href="/">&larr; All articles</a>'),
                      topics=("" if a["teens"] else topics_html(a)), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), study=study_html(a), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))

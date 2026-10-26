@@ -69,6 +69,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
 
 /* header */
 .site-header { border-bottom: 1px solid var(--line); }
+.site-header .wrap, .site-footer .wrap { max-width: 1120px; }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; min-height: 64px; gap: 16px; }
 .brand { display: inline-flex; align-items: center; min-width: 0; gap: 9px; font-weight: 700; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
 .brand svg { flex: none; color: var(--accent); }
@@ -180,7 +181,7 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 .article-head { padding: 52px 0 28px; }
 .article-head h1 { font-size: calc(clamp(2rem, 6.4vw, 2.875rem) * var(--fs, 1)); margin: 12px 0 16px; }
 .hero-img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 10px; background: var(--line); }
-.hero { margin: 0; }
+.hero { margin: 0 auto; max-width: 540px; }
 .credit { font-size: 0.8125rem; line-height: 1.4; color: var(--muted); margin: 8px 2px 0; }
 .credit a { color: var(--muted); text-underline-offset: 0.18em; }
 .credit a:hover { color: var(--accent); }
@@ -385,7 +386,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 }
 
 /* the story keeps one name while the headline changes with the level */
-.story-id { margin: 16px 0 2px; font-size: 0.875rem; font-weight: 600; letter-spacing: 0.01em; color: var(--muted); }
+.story-id { margin: 14px 0 6px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
 
 /* what the site is for, under the home page headline */
 .intro-sub { margin: 10px 0 0; max-width: 46ch; font-size: 1.0625rem; color: var(--muted); }
@@ -723,7 +724,7 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
   .meta { font-size: 8.5pt; }
   .article-head h1 { font-size: calc(25pt * var(--fs, 1)); line-height: 1.08; letter-spacing: -0.025em; margin: 3mm 0 3mm; break-after: avoid; text-wrap: balance; }
   .dek { font-size: calc(12pt * var(--fs, 1)); line-height: 1.4; color: #4a4f5a; margin: 0 0 5mm; }
-  .hero { break-inside: avoid; }
+  .hero { break-inside: avoid; max-width: none; }
   .hero-img { display: block; width: auto; max-width: 100%; height: auto; max-height: 80mm; margin: 0 auto; aspect-ratio: auto; object-fit: contain; border-radius: 0; }
   .credit { font-size: 7pt; line-height: 1.35; color: #6b7280; margin: 1.5mm 0 0; }
 
@@ -914,7 +915,7 @@ button.chip { font: inherit; font-size: 0.875rem; font-weight: 600; cursor: poin
 <aside class="guide" id="firstrun" hidden aria-labelledby="firstrun-h"><h2 id="firstrun-h">New here? This is how it works.</h2><ul><li>Pick <b>Core</b>, <b>Intermediate</b> or <b>Advanced</b> above. Same story, different English.</li><li>Select any words you want to keep, then press Highlight.</li><li>They wait for you in <b>My words</b>, with the sentence you found them in.</li><li>Scroll to the bottom for exercises and questions to talk about.</li></ul><button type="button" class="guide-x">Got it</button></aside>
 <script>(function(){var b=document.getElementById("fbtn"),m=document.getElementById("fmenu"),c=document.getElementById("fcur");if(!b||!m)return;var o=[].slice.call(m.querySelectorAll("[role=option]"));function sel(k,save){var f=o.filter(function(x){return x.getAttribute("data-font")===k})[0]||o[0];k=f.getAttribute("data-font");o.forEach(function(x){x.setAttribute("aria-selected",x===f)});c.textContent=f.getAttribute("data-short")||f.firstChild.textContent;if(k==="default")document.documentElement.removeAttribute("data-font");else{document.documentElement.setAttribute("data-font",k)}if(save){try{localStorage.setItem("jpn_font",k)}catch(e){}try{document.dispatchEvent(new CustomEvent("jpn:pref",{detail:{font:k}}))}catch(e){}}}function open(){m.hidden=false;b.setAttribute("aria-expanded","true");(o.filter(function(x){return x.getAttribute("aria-selected")==="true"})[0]||o[0]).focus()}function close(back){m.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus()}var s="";try{s=localStorage.getItem("jpn_font")||""}catch(e){}sel(s,false);window.jpnFontSet=function(k){sel(k,false)};b.addEventListener("click",function(){m.hidden?open():close(true)});b.addEventListener("keydown",function(e){if(e.key==="ArrowDown"){e.preventDefault();open()}});o.forEach(function(x,i){x.addEventListener("click",function(){sel(x.getAttribute("data-font"),true);close(true)});x.addEventListener("keydown",function(e){var k=e.key;if(k==="ArrowDown"){e.preventDefault();o[Math.min(i+1,o.length-1)].focus()}else if(k==="ArrowUp"){e.preventDefault();o[Math.max(i-1,0)].focus()}else if(k==="Home"){e.preventDefault();o[0].focus()}else if(k==="End"){e.preventDefault();o[o.length-1].focus()}else if(k==="Enter"||k===" "){e.preventDefault();sel(x.getAttribute("data-font"),true);close(true)}else if(k==="Escape"||k==="Tab"){close(k==="Escape")}})});document.addEventListener("click",function(e){if(!m.hidden&&!e.target.closest(".fdrop"))close(false)})})();</script>
 <script>(function(){var b=document.getElementById("pdfbtn"),m=document.getElementById("pmenu"),go=document.getElementById("pdfgo");if(!b||!m)return;var old="";var root=document.documentElement,opts=[].slice.call(m.querySelectorAll("[data-pdf]"));function apply(save){var s={};opts.forEach(function(o){var k=o.getAttribute("data-pdf"),on=o.getAttribute("aria-checked")==="true";s[k]=on;if(k==="key")root.classList.toggle("pdf-key",on);else root.classList.toggle("pdf-no-"+k,!on)});if(save){try{localStorage.setItem("jpn_pdf",JSON.stringify(s))}catch(e){}}}try{var was=JSON.parse(localStorage.getItem("jpn_pdf")||"{}");opts.forEach(function(o){var k=o.getAttribute("data-pdf");if(Object.prototype.hasOwnProperty.call(was,k))o.setAttribute("aria-checked",was[k]?"true":"false")})}catch(e){}apply(false);function open(){m.hidden=false;b.setAttribute("aria-expanded","true");opts[0].focus()}function close(back){m.hidden=true;b.setAttribute("aria-expanded","false");if(back)b.focus()}b.addEventListener("click",function(){m.hidden?open():close(true)});b.addEventListener("keydown",function(e){if(e.key==="ArrowDown"){e.preventDefault();open()}});opts.forEach(function(x,i){x.addEventListener("click",function(){x.setAttribute("aria-checked",x.getAttribute("aria-checked")==="true"?"false":"true");apply(true)});x.addEventListener("keydown",function(e){var k=e.key;if(k==="ArrowDown"){e.preventDefault();(opts[i+1]||go).focus()}else if(k==="ArrowUp"){e.preventDefault();(opts[i-1]||b).focus()}else if(k==="Escape"){e.preventDefault();close(true)}})});go.addEventListener("keydown",function(e){if(e.key==="Escape"){e.preventDefault();close(true)}else if(e.key==="ArrowUp"){e.preventDefault();opts[opts.length-1].focus()}});go.addEventListener("click",function(){close(false);window.print()});document.addEventListener("click",function(e){if(!m.hidden&&!e.target.closest(".pdrop"))close(false)});var shut=[];window.addEventListener("beforeprint",function(){shut=[].slice.call(document.querySelectorAll("details.qs,details.kl-box")).filter(function(d){return!d.open});shut.forEach(function(d){d.open=true});old=document.title;var h=document.querySelector(".article-head h1"),l=document.querySelector(".metaleft"),lv=l&&l.getAttribute("data-print-level");if(h)document.title=h.textContent+(lv?" ("+lv+")":"")});window.addEventListener("afterprint",function(){shut.forEach(function(d){d.open=false});shut=[];if(old)document.title=old})})();</script>
-<p class="story-id">Bali&#x27;s Foreigners Problem: Who Really Benefits from Paradise?</p><h1>Bali&#x27;s Tourism Boom: Paradise for Whom?</h1>
+<p class="story-id">Travel</p><h1>Bali&#x27;s Tourism Boom: Paradise for Whom?</h1>
 <p class="dek">Bali looks frictionless online: private pools, laptop cafés and a beach after work. From a neighbourhood facing rising land values, the same success looks different.</p>
 <figure class="hero"><img class="hero-img" src="/images/balis-foreigners-problem-who-really-benefits-from-paradise-566ba3.jpg" alt="A man in a coral shirt films himself on a phone gimbal at a breakfast table while a waiter in a green headdress sets down a fresh coconut, rice fields behind." width="1400" height="933" fetchpriority="high" decoding="async"><figcaption class="credit">AI-generated image: created for johnplusnews</figcaption></figure>
 
