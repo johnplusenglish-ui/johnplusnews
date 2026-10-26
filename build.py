@@ -772,15 +772,15 @@ BROWSE_JS = (
 )
 
 
-def browse_html(topics=(), current=None, chips=None, total=0, heading="Latest stories"):
+def browse_html(topics=(), current=None, chips=None, total=0, heading="Latest stories", tag="h2"):
     """The main archive: a section heading with the count beside it, then one toolbar of
     search and topics, then the stories themselves."""
     finder = ('<div class="finder" hidden><input type="search" id="q" placeholder="Search stories" aria-label="Search stories" '
               'autocomplete="off" spellcheck="false"></div>')
-    head = ('<div class="latest-head" id="latest"><h2 class="sec-h">{h}</h2>'
+    head = ('<div class="latest-head" id="latest"><{t} class="sec-h">{h}</{t}>'
             '<p class="browse-status"><span id="rescount" role="status" aria-live="polite">{n} {w}</span>'
             '<button type="button" class="linkbtn" id="clearall" hidden>Clear filters</button></p></div>'
-            ).format(h=esc(heading), n=total, w="story" if total == 1 else "stories")
+            ).format(t=tag, h=esc(heading), n=total, w="story" if total == 1 else "stories")
     return '{}<div class="browse" id="browse">{}{}</div>'.format(
         head, finder, chips if chips is not None else chips_html(topics, current))
 
@@ -824,18 +824,12 @@ def gallery_page(arts, topics=(), topic=None, teens=0):
     if topic:
         banner = '<section class="banner"><div class="wrap"><h1 class="intro">{}</h1></div></section>\n'.format(esc(topic["label"]))
     else:
-        banner = ('<section class="intro-block"><div class="wrap">'
-                  '<h1 class="intro-h">News worth talking about.</h1>'
-                  '<p class="intro-p">Real stories, rewritten at three levels of English, with useful language '
-                  'and questions that lead somewhere.</p>'
-                  '<p class="intro-cta"><a class="intro-go" href="#latest">Browse the latest '
-                  '<span aria-hidden="true">&rarr;</span></a>'
-                  '<a class="intro-quiet" href="/about/#levels">How it works</a></p>'
-                  '</div></section>\n')
+        banner = ""
     main = ('{banner}<div class="wrap">{browse}{body}{pager}</div>\n<script>{js}</script>').format(
                 banner=banner, body=body, js=BROWSE_JS, pager=PAGER,
                 browse=browse_html(topics, topic["slug"] if topic else None, total=len(arts),
-                                   heading=("All stories" if topic else "Latest stories")))
+                                   heading=("All stories" if topic else "Latest stories"),
+                                   tag=("h2" if topic else "h1")))
     if topic is FREE_TOPIC:
         return page("/free/", main, title=topic["label"], current="/", wide=True,
                     desc="The articles on johnplusnews that anyone can read, with no account needed.",
