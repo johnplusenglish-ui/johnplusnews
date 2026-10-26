@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>About | johnplusnews</title>
-<meta name="description" content="johnplusnews on Telegram and Instagram.">
+<meta name="description" content="Who makes johnplusnews, how the three reading levels work, where the stories come from and how AI is used.">
 <link rel="canonical" href="https://johnplusnews.com/about/">
 <meta property="og:site_name" content="johnplusnews">
 <meta property="og:type" content="website">
 <meta property="og:title" content="About | johnplusnews">
-<meta property="og:description" content="johnplusnews on Telegram and Instagram.">
+<meta property="og:description" content="Who makes johnplusnews, how the three reading levels work, where the stories come from and how AI is used.">
 <meta property="og:url" content="https://johnplusnews.com/about/">
 
 <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
@@ -87,6 +87,33 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 .banner { background: #f4f6fa; border-bottom: 1px solid var(--line); }
 .banner .wrap { padding-bottom: 22px; }
 .intro { margin: 0; padding: 22px 0 0; font-size: clamp(1rem, 3.8vw, 1.25rem); font-weight: 500; line-height: 1.4; letter-spacing: 0; word-spacing: normal; color: var(--text); }
+.front-banner .wrap { padding-bottom: 18px; }
+.front-banner .intro { font-size: clamp(1.25rem, 4.2vw, 1.75rem); font-weight: 700; letter-spacing: -0.015em; }
+.front-banner .intro-sub { margin-top: 6px; }
+
+/* The edited opening: one lead story, two picks beside it. */
+.front { margin: 34px 0 0; }
+.sec-head { margin: 34px 0 0; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.sec-head[hidden] { display: none; }
+.front .sec-head { margin-top: 0; }
+.front-grid { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 28px 32px; margin: 14px 0 0; align-items: start; }
+.front-side { display: grid; gap: 24px; align-content: start; }
+.lead { display: block; min-width: 0; }
+.lead-img { display: block; border-radius: 10px; overflow: hidden; background: var(--accent-soft); aspect-ratio: 3 / 2; }
+.lead-img img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.lead-text { padding-top: 12px; }
+.lead-kicker { margin: 0 0 4px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.lead-kicker:empty { display: none; }
+.lead-h { margin: 0; font-family: var(--rf); font-size: 1.375rem; line-height: 1.22; letter-spacing: -0.015em; }
+.lead-h a { color: inherit; text-decoration: none; }
+.lead-h a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.lead-sub { margin: 8px 0 0; font-size: 0.9375rem; line-height: 1.5; color: var(--muted); }
+.lead-big .lead-h { font-size: clamp(1.625rem, 3.4vw, 2.25rem); }
+.lead-big .lead-sub { font-size: 1.0625rem; }
+.lead[hidden] { display: none; }
+@media (max-width: 820px) {
+  .front-grid { grid-template-columns: minmax(0, 1fr); gap: 26px; }
+}
 .gallery { list-style: none; margin: 40px 0 72px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr)); gap: 40px 28px; }
 .card { position: relative; min-width: 0; }
 .thumb { aspect-ratio: 3 / 2; border-radius: 10px; overflow: hidden; background: var(--accent-soft); margin-bottom: 14px; }
@@ -230,6 +257,17 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 
 /* topics: filter chips, search and the links under an article */
 .filters { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; margin: 28px 0 0; }
+.browse { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin: 30px 0 0; padding-top: 22px; border-top: 1px solid var(--line); }
+.sec-head + .browse { margin-top: 12px; border-top: 0; padding-top: 0; }
+.browse .finder { order: -1; flex: 0 1 260px; }
+.browse .finder[hidden] { display: none; }
+.browse .chips { flex: 1 1 auto; }
+.browse .chips-rest { flex-basis: 100%; }
+.browse .chips-rest[hidden] { display: none; }
+.chip-more { cursor: pointer; font-family: inherit; color: var(--accent); border-color: var(--accent); }
+.browse-status { display: flex; align-items: center; gap: 14px; margin: 0; font-size: 0.875rem; color: var(--muted); white-space: nowrap; }
+.browse-status .linkbtn[hidden] { display: none; }
+.browse + .gallery, .browse + .empty { margin-top: 26px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; flex: 1 1 auto; min-width: 0; }
 .chip { display: inline-flex; align-items: center; min-height: 34px; padding: 4px 14px; border: 1px solid #cfd4dc; border-radius: 999px; background: #fff; color: var(--text); font-size: 0.875rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
 .chip:hover { border-color: var(--accent); color: var(--accent); }
@@ -295,14 +333,21 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
    The text stays in Outfit whatever the reader picks for the article,
    because a sentence with a gap in it is interface, not journalism. */
 .ex-wrap { --sf: 'Outfit', system-ui, -apple-system, 'Segoe UI', sans-serif; margin: 2px 0 22px; }
-.ex-block { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 20px 20px 22px; }
-.ex-block + .ex-block, .ex-total { margin-top: 20px; }
+/* The task row. One activity shows at a time, so the panel below it needs no second frame. */
+.ex-nav { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 18px; padding: 0 0 14px; border-bottom: 1px solid var(--line); }
+.ex-nav button { font: inherit; font-size: 0.875rem; font-weight: 600; min-height: 40px; padding: 6px 15px; color: var(--muted); background: none; border: 1px solid transparent; border-radius: 8px; cursor: pointer; }
+.ex-nav button:hover { color: var(--accent); background: var(--accent-soft); }
+.ex-nav button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ex-nav button[aria-selected="true"] { color: var(--accent); background: var(--accent-soft); border-color: #d5e0f6; }
+.ex-block { background: #fff; border: 0; padding: 0; }
+.ex-block[hidden] { display: none; }
+.ex-total { margin-top: 0; }
 .ex-h { font-size: 0.9375rem; font-weight: 700; color: var(--ink); margin: 0 0 4px; letter-spacing: 0; text-transform: none; }
 .ex-lead { margin: 0 0 14px; font-size: 0.9375rem; color: var(--muted); }
 
 .ex-bank { display: flex; flex-wrap: wrap; gap: 8px; padding: 13px 14px; background: var(--accent-soft); border-radius: 10px; margin: 0 0 18px; min-height: 56px; }
 .ex-bank.over { outline: 2px dashed var(--accent); outline-offset: -3px; }
-.ex-chip { font: inherit; font-size: 0.875rem; font-weight: 600; color: var(--accent); background: #fff; border: 1px solid #d5e0f6; border-radius: 999px; padding: 4px 13px; cursor: grab; }
+.ex-chip { font: inherit; font-size: 0.875rem; font-weight: 600; color: var(--accent); background: #fff; border: 1px solid #d5e0f6; border-radius: 999px; padding: 7px 15px; min-height: 38px; cursor: grab; }
 .ex-chip:hover { border-color: var(--accent); }
 .ex-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .ex-chip.sel { background: var(--accent); color: #fff; border-color: var(--accent); }
@@ -310,10 +355,16 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .ex-chip.drag, .ex-gap.drag { opacity: 0.4; }
 
 .ex-wrap .ex-list { margin: 0; padding-left: 1.5em; font-family: var(--sf); font-size: 1rem; line-height: 2.05; color: var(--ink); }
+@media (max-width: 560px) {
+  .ex-match li { display: grid; gap: 6px; line-height: 1.4; padding: 8px 0; }
+  .ex-match .ex-sel { width: 100%; }
+  .ex-nav { gap: 4px; }
+  .ex-nav button { flex: 1 1 auto; padding: 6px 10px; }
+}
 .ex-list li { margin: 0 0 0.35em; padding-left: 0.25em; }
 .ex-list li::marker { color: var(--accent); font-weight: 700; }
 
-.ex-gap { font: inherit; font-family: var(--sf); font-size: 0.9375rem; font-weight: 600; color: var(--accent); background: #fff; border: 0; border-bottom: 2px dashed #b9c2d0; border-radius: 3px; min-width: 8.5ch; min-height: 1.9em; padding: 1px 8px; margin: 0 2px; cursor: pointer; vertical-align: baseline; }
+.ex-gap { font: inherit; font-family: var(--sf); font-size: 0.9375rem; font-weight: 600; color: var(--accent); background: #fff; border: 0; border-bottom: 2px dashed #b9c2d0; border-radius: 3px; min-width: 9ch; min-height: 2.1em; padding: 3px 9px; margin: 0 2px; cursor: pointer; vertical-align: baseline; }
 .ex-gap:hover { border-bottom-color: var(--accent); background: var(--accent-soft); }
 .ex-gap:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .ex-gap.filled { border-bottom-style: solid; border-bottom-color: var(--accent); background: var(--accent-soft); }
@@ -323,7 +374,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 
 .ex-match li { line-height: 1.5; margin-bottom: 0.7em; }
 .ex-term { display: inline-block; min-width: 10.5em; font-weight: 700; }
-.ex-sel { font: inherit; font-family: var(--sf); font-size: 0.9375rem; color: var(--ink); background: #fff; border: 1px solid #cfd4dc; border-radius: 8px; padding: 5px 9px; max-width: 100%; }
+.ex-sel { font: inherit; font-family: var(--sf); font-size: 0.9375rem; color: var(--ink); background: #fff; border: 1px solid #cfd4dc; border-radius: 8px; padding: 8px 10px; min-height: 40px; max-width: 100%; }
 .ex-sel:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
 .ex-sel.ok { border-color: #1f8a4c; color: #1f8a4c; }
 .ex-sel.no { border-color: #c33; color: #c33; }
@@ -337,7 +388,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .ex-tfns li { line-height: 1.5; margin-bottom: 0.9em; }
 .ex-stmt { display: block; margin-bottom: 7px; }
 .ex-tfn { display: inline-flex; gap: 6px; flex-wrap: wrap; }
-.ex-opt { font: inherit; font-size: 0.8125rem; font-weight: 600; color: var(--muted); background: #fff; border: 1px solid #cfd4dc; border-radius: 999px; padding: 4px 14px; min-height: 30px; cursor: pointer; }
+.ex-opt { font: inherit; font-size: 0.875rem; font-weight: 600; color: var(--muted); background: #fff; border: 1px solid #cfd4dc; border-radius: 999px; padding: 6px 16px; min-height: 38px; cursor: pointer; }
 .ex-opt:hover { border-color: var(--accent); color: var(--accent); }
 .ex-opt.on { background: var(--accent); border-color: var(--accent); color: #fff; }
 .ex-opt.ok { background: #eaf6ee; border-color: #1f8a4c; color: #1f8a4c; }
@@ -346,10 +397,27 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .ex-why { margin: 7px 0 0; font-size: 0.8125rem; line-height: 1.5; color: var(--muted); background: #f4f5f7; border-radius: 8px; padding: 7px 11px; }
 
 .ex-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
-.ex-btn { font: inherit; font-size: 0.8125rem; font-weight: 600; min-height: 32px; padding: 4px 13px; color: #fff; background: var(--accent); border: 1px solid var(--accent); border-radius: 8px; cursor: pointer; }
+.ex-btn { font: inherit; font-size: 0.875rem; font-weight: 600; min-height: 40px; padding: 6px 16px; color: #fff; background: var(--accent); border: 1px solid var(--accent); border-radius: 8px; cursor: pointer; }
 .ex-btn:hover { filter: brightness(1.06); }
 .ex-ghost { color: var(--ink); background: #fff; border-color: #cfd4dc; }
 .ex-ghost:hover { border-color: var(--accent); color: var(--accent); filter: none; }
+.about h2 { margin: 32px 0 8px; font-size: 1.125rem; }
+.about p { margin: 0 0 12px; line-height: 1.65; }
+.about-lead { font-size: 1.125rem; color: var(--muted); }
+.about-levels { margin: 0 0 14px; padding-left: 20px; line-height: 1.65; }
+.about-levels li { margin: 0 0 6px; }
+.about .social { margin-top: 16px; }
+
+/* The saving tip, and the confirmation that follows a save. */
+.hl-hint { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.hl-hint-x { font: inherit; font-size: 0.8125rem; font-weight: 700; color: var(--accent); background: none; border: 0; padding: 4px 2px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.hl-toast { position: fixed; left: 50%; bottom: 22px; transform: translateX(-50%); z-index: 60; display: flex; align-items: center; gap: 16px; max-width: calc(100vw - 32px); padding: 12px 18px; font-size: 0.9375rem; color: #fff; background: #1b1d22; border-radius: 10px; box-shadow: 0 10px 30px rgba(17, 19, 24, 0.28); }
+.hl-toast[hidden] { display: none; }
+.hl-toast-btn { font: inherit; font-weight: 700; color: #fff; background: none; border: 0; padding: 4px 2px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.hl-toast-link { color: #9ec2ff; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
+@media (prefers-reduced-motion: no-preference) { .hl-toast { animation: hl-rise 160ms ease-out; } }
+@keyframes hl-rise { from { opacity: 0; transform: translate(-50%, 8px); } to { opacity: 1; transform: translate(-50%, 0); } }
+
 .ex-gap.blank, .ex-in.blank, .ex-sel.blank, .ex-tfn.blank { outline: 2px dashed #a15c00; outline-offset: 2px; }
 .ex-score { font-size: 0.875rem; font-weight: 700; color: var(--muted); margin-left: 2px; }
 .ex-score.good { color: #1f8a4c; }
@@ -749,6 +817,8 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
   .qs ol { margin: 0; padding-left: 5mm; font-family: Georgia, 'Times New Roman', serif; font-size: calc(9.6pt * var(--fs, 1)); line-height: 1.45; }
   .qs li { margin: 0 0 1.2mm; padding-left: 0; }
   .ex-wrap { margin: 0; }
+  .ex-nav { display: none !important; }
+  .ex-block[hidden] { display: block !important; }
   .ex-block, .ex-total { border: 0.3pt solid #ccc; border-radius: 0; padding: 3mm 4mm; margin-top: 3mm; break-inside: avoid; }
   .ex-actions, .ex-sel, .ex-total { display: none; }
   .ex-term { display: inline-block; min-width: 42mm; margin-bottom: 0; }
@@ -834,7 +904,7 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .btn-primary:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
 .teens-hero .wrap { padding-bottom: 30px; }
 .teens-filters { margin-top: 30px; }
-.teens-filters .chips[hidden] { display: none; }
+.browse .chips[hidden] { display: none; }
 button.chip { font: inherit; font-size: 0.875rem; font-weight: 600; cursor: pointer; min-height: 44px; padding: 4px 16px; }
 .chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
 .tcount { margin: 0; font-size: 0.875rem; color: var(--muted); white-space: nowrap; }
@@ -902,7 +972,7 @@ button.chip { font: inherit; font-size: 0.875rem; font-weight: 600; cursor: poin
   </div>
 </header>
 <main id="main">
-<div class="wrap"><h1 class="page-title">About</h1><ul class="social"><li><a href="https://t.me/johnplusenglishchannel" target="_blank" rel="noopener noreferrer"><span>Telegram</span><span aria-hidden="true">&rarr;</span></a></li><li><a href="https://www.instagram.com/johnplusenglish/" target="_blank" rel="noopener noreferrer"><span>Instagram</span><span aria-hidden="true">&rarr;</span></a></li></ul></div>
+<div class="wrap about"><h1 class="page-title">About</h1><p class="about-lead">johnplusnews publishes real news stories rewritten for English learners, so that a learner can read about something worth talking about at a level that suits them.</p><h2>Who makes it</h2><p>The site is written and edited by John, an English teacher. It is part of johnplusenglish, and it is a small independent site rather than a news organisation with a newsroom.</p><h2>The three levels</h2><p>Every story is written three times. They tell the same story, with different English.</p><ul class="about-levels"><li><b>Core</b> Short sentences and everyday words.</li><li><b>Intermediate</b> Longer sentences and more detail.</li><li><b>Advanced</b> Natural language, richer detail and room for discussion.</li></ul><p>Choose a level with the buttons at the top of any article. The reading, the questions and the exercises all follow the level you choose. These are our own levels, written by eye for the learners we teach. They have not been formally calibrated against the CEFR, so we do not publish an A2 or B1 label.</p><h2>Where the stories come from</h2><p>Each article starts from a published report by a news organisation. The source is named and linked at the foot of every article, with its date, so you can read the original. We rewrite the story in our own words for learners; we do not republish anyone else’s text.</p><h2>How we use AI</h2><p>We are open about this because it affects how much you should trust what you read.</p><ul class="about-levels"><li><b>The writing</b> is drafted with AI assistance and then edited by John. Every article carries that note.</li><li><b>The images</b> are generated for this site. They are illustrations, not photographs of the events reported, and each one is labelled <b>AI-generated image</b> under the picture. Where a story is about a real named person, the image does not claim to show them.</li><li><b>The facts</b> are the part AI is worst at, so the figures, names and dates in an article should match the source we link to. If one does not, that is a mistake and we want to hear about it.</li></ul><h2>Saving words</h2><p>Select any word or phrase while you read and it is saved to <a href="/words/">My words</a>, with the sentence you found it in. With a free account your words follow you between devices, and a teacher you have joined can see the words you save and the articles you read. Nobody else can.</p><h2>Corrections</h2><p>If something is wrong, please tell us and we will correct it.</p><p>You can reach us through the channels below. Please include a link to the article.</p><ul class="social"><li><a href="https://t.me/johnplusenglishchannel" target="_blank" rel="noopener noreferrer"><span>Telegram</span><span aria-hidden="true">&rarr;</span></a></li><li><a href="https://www.instagram.com/johnplusenglish/" target="_blank" rel="noopener noreferrer"><span>Instagram</span><span aria-hidden="true">&rarr;</span></a></li></ul></div>
 </main>
 <footer class="site-footer">
   <div class="wrap"><span>johnplusnews. News articles from around the world for English learners.</span><nav class="foot-links" aria-label="About this site"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></nav></div>

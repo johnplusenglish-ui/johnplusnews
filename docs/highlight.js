@@ -178,6 +178,7 @@
     st.dropped = [];
     gone.forEach(function (g) { emit("remove", st, g); });
     emit("add", st, item);
+    saySaved(st, item);
   }
   function removeItem(st, id) {
     var gone = st.items.filter(function (it) { return it.id === id; })[0];
@@ -238,13 +239,59 @@
 
   /* ------------------------------------------------------------------ hint line */
   var hints = [];
+  function tipDismissed() {
+    try { return !!localStorage.getItem("jpn_hl_tip"); } catch (e) { return false; }
+  }
+  /* a short confirmation after a save, with a way straight back out of it */
+  var toast = null, toastTimer = null;
+  function saySaved(st, item) {
+    if (!toast) {
+      toast = document.createElement("div");
+      toast.className = "hl-toast";
+      toast.setAttribute("role", "status");
+      document.body.appendChild(toast);
+    }
+    toast.textContent = "";
+    var msg = document.createElement("span");
+    var n = st.items.length;
+    msg.textContent = "Saved. " + n + (n === 1 ? " word" : " words") + " on this page.";
+    var undo = document.createElement("button");
+    undo.type = "button";
+    undo.className = "hl-toast-btn";
+    undo.textContent = "Undo";
+    undo.addEventListener("click", function () {
+      removeItem(st, item.id);
+      hide();
+    });
+    var words = document.createElement("a");
+    words.className = "hl-toast-link";
+    words.href = "/words/";
+    words.textContent = "My words";
+    toast.appendChild(msg); toast.appendChild(undo); toast.appendChild(words);
+    toast.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(hide, 6000);
+    function hide() { clearTimeout(toastTimer); if (toast) toast.hidden = true; }
+  }
+
   function buildHint() {
     /* one hint directly above each text, so it stays next to the text whatever sits above it */
     proses.forEach(function (prose) {
       var h = document.createElement("p");
       h.className = "hl-hint";
-      h.textContent = "Select any words to highlight them. They are collected under the text.";
-      h.hidden = wasUsed();
+      var t = document.createElement("span");
+      t.textContent = "Select a word or phrase to save it. Your words are collected under the text.";
+      var x = document.createElement("button");
+      x.type = "button";
+      x.className = "hl-hint-x";
+      x.setAttribute("aria-label", "Hide this tip");
+      x.textContent = "Got it";
+      x.addEventListener("click", function () {
+        try { localStorage.setItem("jpn_hl_tip", "1"); } catch (e) {}
+        hints.forEach(function (p) { p.hidden = true; });
+      });
+      h.appendChild(t); h.appendChild(x);
+      h.hidden = wasUsed() || tipDismissed();
       prose.parentNode.insertBefore(h, prose);
       hints.push(h);
     });

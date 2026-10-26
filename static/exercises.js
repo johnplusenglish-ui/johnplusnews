@@ -243,13 +243,45 @@
     if (all && shown) note += " Exercises where you showed the answers are left out of the score.";
     level.querySelector("[data-total-msg]").textContent = note;
     level.querySelector(".ex-total-out").hidden = false;
+    showTask(level, "total", false);
   }
 
   function resetAll(level) {
     [].forEach.call(level.querySelectorAll("[data-ex]"), function (b) { reset(b); });
     level.querySelector(".ex-total-out").hidden = true;
-    level.querySelector("[data-ex]").scrollIntoView({ block: "start", behavior: "smooth" });
+    showTask(level, "gap", false);
+    level.querySelector(".ex-nav").scrollIntoView({ block: "start", behavior: "smooth" });
   }
+
+  // the task row: show one activity, keep the rest in the page for scoring and for the PDF
+  function showTask(level, key, focus) {
+    var tabs = [].slice.call(level.querySelectorAll('.ex-nav [role="tab"]'));
+    tabs.forEach(function (t) {
+      var on = t.dataset.task === key;
+      t.setAttribute("aria-selected", on);
+      t.tabIndex = on ? 0 : -1;
+      var panel = level.querySelector("#" + t.getAttribute("aria-controls"));
+      if (panel) panel.hidden = !on;
+      if (on && focus) t.focus();
+    });
+  }
+  wrap.addEventListener("click", function (ev) {
+    var tab = ev.target.closest('.ex-nav [role="tab"]');
+    if (!tab) return;
+    showTask(tab.closest(".ex-level"), tab.dataset.task, false);
+  });
+  wrap.addEventListener("keydown", function (ev) {
+    var tab = ev.target.closest('.ex-nav [role="tab"]');
+    if (!tab) return;
+    var level = tab.closest(".ex-level");
+    var tabs = [].slice.call(level.querySelectorAll('.ex-nav [role="tab"]'));
+    var i = tabs.indexOf(tab), go = null;
+    if (ev.key === "ArrowRight") go = tabs[(i + 1) % tabs.length];
+    else if (ev.key === "ArrowLeft") go = tabs[(i - 1 + tabs.length) % tabs.length];
+    else if (ev.key === "Home") go = tabs[0];
+    else if (ev.key === "End") go = tabs[tabs.length - 1];
+    if (go) { ev.preventDefault(); showTask(level, go.dataset.task, true); }
+  });
 
   // the exercises follow the reading-level tabs
   function showLevel(k) {

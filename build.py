@@ -103,6 +103,26 @@ def asset(src):
     return src if src.startswith("http") else "/" + src.lstrip("/")
 
 
+def small(src):
+    """The 700px (hero) or 500px (card) copy of a local image, if one has been made."""
+    if not src or src.startswith("http"):
+        return ""
+    rel = src.lstrip("/")
+    parts = rel.rsplit("/", 1)
+    if len(parts) != 2:
+        return ""
+    cand = parts[0] + "/small/" + parts[1]
+    return "/" + cand if (STATIC / cand).exists() else ""
+
+
+def srcset(src, wide_w):
+    """A phone does not need the full-width file. Offer the small copy too and let the browser choose."""
+    s = small(src)
+    if not s:
+        return ""
+    return ' srcset="{} {}w, {} {}w"'.format(esc(s), 700 if wide_w > 1000 else 500, esc(asset(src)), wide_w)
+
+
 def body_html(text):
     out = []
     for block in re.split(r"\n\s*\n", text.strip()):
@@ -486,6 +506,7 @@ def parse_article(path):
         "sources": sources,
         "audience": audience,
         "teens": audience == "teens",
+        "featured": meta.get("featured", "").strip().lower() in ("1", "yes", "true"),
         "category": meta.get("category", ""),
         "order": order,
         "questions": questions,
@@ -664,28 +685,73 @@ def collect_topics(arts):
     return out
 
 
+TOP_TOPICS = 6   # the busiest topics stay on the row; the rest sit behind More topics
+
+
 def chips_html(topics, current=None):
+    """Links to the topic pages. Only the busiest few are shown, so the page opens with stories
+    rather than a wall of topics, and the rest are one click away."""
     if not topics:
         return ""
-    items = ['<a class="chip" href="/"{}>All</a>'.format(' aria-current="page"' if current is None else "")]
-    items += ['<a class="chip" href="/tags/{}/"{}>{}</a>'.format(t["slug"], ' aria-current="page"' if t["slug"] == current else "", esc(t["label"])) for t in topics]
-    return '<nav class="chips" aria-label="Topics">{}</nav>'.format("".join(items))
+    def chip(slug, label, href):
+        return '<a class="chip" href="{}"{}>{}</a>'.format(href, ' aria-current="page"' if slug == current else "", esc(label))
+    head = [chip(None, "All topics", "/") if current else '<a class="chip" href="/" aria-current="page">All topics</a>']
+    head += [chip(t["slug"], t["label"], "/tags/{}/".format(t["slug"])) for t in topics[:TOP_TOPICS]]
+    rest = topics[TOP_TOPICS:]
+    out = '<nav class="chips" aria-label="Topics">{}{}</nav>'.format(
+        "".join(head),
+        ('<button type="button" class="chip chip-more" id="moretopics" aria-expanded="false" '
+         'aria-controls="alltopics">More topics</button>') if rest else "")
+    if rest:
+        out += '<nav class="chips chips-rest" id="alltopics" aria-label="More topics" hidden>{}</nav>'.format(
+            "".join(chip(t["slug"], t["label"], "/tags/{}/".format(t["slug"])) for t in rest))
+    return out
 
 
-FINDER_JS = (
-    '(function(){var i=document.getElementById("q");if(!i)return;i.closest(".finder").hidden=false;'
-    'var c=[].slice.call(document.querySelectorAll(".gallery .card")),n=document.getElementById("nomatch");'
-    'function go(){var t=i.value.toLowerCase().split(/\\s+/).filter(Boolean),k=0;'
-    'c.forEach(function(x){var q=x.getAttribute("data-q")||"",ok=t.every(function(w){return q.indexOf(w)>-1});x.hidden=!ok;if(ok)k++});'
-    'if(n)n.hidden=k>0}'
-    'i.addEventListener("input",go);go()})();'
+BROWSE_JS = (
+    '(function(){var b=document.getElementById("browse");if(!b)return;'
+    'var i=document.getElementById("q"),cards=[].slice.call(document.querySelectorAll("[data-q]")),'
+    'none=document.getElementById("nomatch"),count=document.getElementById("rescount"),'
+    'clear=document.getElementById("clearall"),more=document.getElementById("moretopics"),'
+    'rest=document.getElementById("alltopics"),cats=document.getElementById("cats"),'
+    'secs=[].slice.call(document.querySelectorAll("[data-browse-hide]")),cat="all";'
+    'if(i)i.closest(".finder").hidden=false;'
+    'var btns=cats?[].slice.call(cats.querySelectorAll("[data-cat]")):[];'
+    'if(cats)cats.hidden=false;'
+    # the whole row only appears for readers who can actually use it
+    'function go(save){var t=(i?i.value:"").toLowerCase().split(/\\s+/).filter(Boolean),k=0;'
+    'cards.forEach(function(x){var q=x.getAttribute("data-q")||"";'
+    'var okq=t.every(function(w){return q.indexOf(w)>-1});'
+    'var okc=cat==="all"||x.getAttribute("data-cat")===cat;'
+    'var ok=okq&&okc;x.hidden=!ok;if(ok)k++});'
+    'var filtering=t.length>0||cat!=="all";'
+    # with a search running, the edited sections step aside and every match is listed together
+    'secs.forEach(function(s){s.hidden=filtering});'
+    'if(none)none.hidden=k>0;'
+    'if(count)count.textContent=k+(k===1?" story":" stories")+(filtering?" found":"");'
+    'if(clear)clear.hidden=!filtering;'
+    'btns.forEach(function(x){x.setAttribute("aria-pressed",x.getAttribute("data-cat")===cat)});'
+    'if(save){try{history.replaceState(null,"",cat==="all"?location.pathname:"#"+cat)}catch(e){}}}'
+    'if(i)i.addEventListener("input",function(){go(false)});'
+    'btns.forEach(function(x){x.addEventListener("click",function(){cat=x.getAttribute("data-cat");go(true)})});'
+    'if(clear)clear.addEventListener("click",function(){if(i)i.value="";cat="all";go(true);if(i)i.focus()});'
+    'if(more&&rest)more.addEventListener("click",function(){var open=rest.hidden;rest.hidden=!open;'
+    'more.setAttribute("aria-expanded",open);more.textContent=open?"Fewer topics":"More topics"});'
+    'var h=decodeURIComponent(location.hash.slice(1));'
+    'if(btns.some(function(x){return x.getAttribute("data-cat")===h}))cat=h;'
+    'go(false)})();'
 )
 
 
-def filters_html(topics, current=None):
-    finder = ('<div class="finder" hidden><input type="search" id="q" placeholder="Search articles" aria-label="Search articles" '
+def browse_html(topics=(), current=None, chips=None, total=0):
+    """The row above the stories: search, topics, how many are showing and a way back to all of them."""
+    finder = ('<div class="finder" hidden><input type="search" id="q" placeholder="Search stories" aria-label="Search stories" '
               'autocomplete="off" spellcheck="false"></div>')
-    return '<div class="filters">{}{}</div>'.format(chips_html(topics, current), finder)
+    status = ('<p class="browse-status"><span id="rescount" role="status" aria-live="polite">{n} {w}</span>'
+              '<button type="button" class="linkbtn" id="clearall" hidden>Clear search and topics</button></p>'
+              ).format(n=total, w="story" if total == 1 else "stories")
+    return '<div class="browse" id="browse">{}{}{}</div>'.format(
+        finder, chips if chips is not None else chips_html(topics, current), status)
 
 
 def search_text(a):
@@ -696,7 +762,8 @@ def search_text(a):
 
 def card(a):
     if a["image"]:
-        thumb = '<img src="{}" alt="{}" width="1000" height="666" loading="lazy" decoding="async">'.format(esc(asset(a.get("thumb") or a["image"])), esc(a["image_alt"]))
+        thumb = '<img src="{}"{} sizes="(max-width: 700px) 92vw, 330px" alt="{}" width="1000" height="666" loading="lazy" decoding="async">'.format(
+            esc(asset(a.get("thumb") or a["image"])), srcset(a.get("thumb") or a["image"], 1000), esc(a["image_alt"]))
     else:
         thumb = '<span class="blank">{}</span>'.format(esc(" \u00b7 ".join(t["label"] for t in a["tags"]) or levels_label(a)))
     return (
@@ -706,26 +773,70 @@ def card(a):
         free=' data-free="1"' if a["slug"] in FREE_SLUGS else "")
 
 
+def lead_card(a, big=False):
+    """The story the front page opens with, and the two beside it."""
+    lead_src = (a["image"] if big else a.get("thumb")) or a["image"]
+    img = ('<img src="{}"{} sizes="{}" alt="{}" width="1000" height="666" {} decoding="async">'.format(
+        esc(asset(lead_src)), srcset(lead_src, 1400 if big else 1000),
+        "(max-width: 820px) 92vw, 660px" if big else "(max-width: 820px) 92vw, 330px",
+        esc(a["image_alt"]), 'fetchpriority="high"' if big else 'loading="lazy"')) if a["image"] else ""
+    topic = a["tags"][0]["label"] if a["tags"] else ""
+    return ('<article class="lead{b}" data-q="{q}"><a class="lead-img" href="{url}" tabindex="-1" aria-hidden="true">{img}</a>'
+            '<div class="lead-text"><p class="lead-kicker">{topic}</p>'
+            '<h3 class="lead-h"><a href="{url}">{title}</a></h3>'
+            '<p class="lead-sub">{summary}</p></div></article>').format(
+                b=" lead-big" if big else "", q=esc(search_text(a)), url=url_of(a), img=img,
+                topic=esc(topic), title=esc(a["title"]), summary=esc(a["summary"]))
+
+
+def pick_lead(arts):
+    """The lead is whichever story is marked featured in its front matter, otherwise the newest."""
+    for a in arts:
+        if a.get("featured"):
+            return a
+    return arts[0]
+
+
 FREE_TOPIC = {"slug": "free", "label": "Free to read"}   # the /free/ page: the articles readers who are not signed in can open
 
 
 def gallery_page(arts, topics=(), topic=None, teens=0):
     """The home page (topic is None) or the page for one topic."""
+    front = not topic and len(arts) >= 3
+    rest = arts
+    picked = ""
+    if front:
+        first = pick_lead(arts)
+        others = [a for a in arts if a is not first]
+        # two picks on other subjects, so the opening three are not all one topic
+        used = {t["slug"] for t in first["tags"]}
+        picks = []
+        for a in others:
+            if len(picks) == 2:
+                break
+            if not used & {t["slug"] for t in a["tags"]} or len(others) < 6:
+                picks.append(a)
+                used |= {t["slug"] for t in a["tags"]}
+        picks += [a for a in others if a not in picks][:2 - len(picks)]
+        rest = [a for a in arts if a is not first and a not in picks]
+        picked = ('<section class="front"><h2 class="sec-head" data-browse-hide>Start here</h2>'
+                  '<div class="front-grid">{lead}<div class="front-side">{side}</div></div></section>'
+                  '<h2 class="sec-head" data-browse-hide>Latest stories</h2>').format(
+                      lead=lead_card(first, big=True), side="".join(lead_card(a) for a in picks))
     if arts:
-        body = '<ul class="gallery">{}</ul><p class="empty" id="nomatch" hidden>No articles match your search.</p>'.format("".join(card(a) for a in arts))
+        body = '<ul class="gallery">{}</ul><p class="empty" id="nomatch" hidden>No stories match your search.</p>'.format("".join(card(a) for a in rest))
     else:
         body = '<p class="empty">The first article is coming soon.</p>'
-    heading = esc(topic["label"]) if topic else esc(SITE["tagline"])
-    # only the home page explains the routine; a topic page is already further in
-    lead = ('<p class="intro-sub">Every story comes at three levels. Save the words you want to keep, '
-            'then practise with exercises and questions to talk about.</p>'
-            '<p class="intro-links" id="home-links" hidden></p>') if not topic else ""
-    if teens and not topic:
-        lead += ('<p class="teens-note">These are articles for adults and older learners. '
-                 'Learners aged 12 to 18 have their own stories in <a href="/teens/">Teens</a>.</p>')
-    main = ('<section class="banner"><div class="wrap"><h1 class="intro">{}</h1>{}</div></section>\n'
-            '<div class="wrap">{}{}</div>\n<script>{}</script>').format(
-                heading, lead, filters_html(topics, topic["slug"] if topic else None), body, FINDER_JS)
+    if topic:
+        banner = '<section class="banner"><div class="wrap"><h1 class="intro">{}</h1></div></section>\n'.format(esc(topic["label"]))
+    else:
+        banner = ('<section class="banner front-banner"><div class="wrap">'
+                  '<h1 class="intro">Real stories. Better conversations.</h1>'
+                  '<p class="intro-sub">Read at your level, save useful language and talk about what matters.</p>'
+                  '<p class="intro-links" id="home-links" hidden></p></div></section>\n')
+    main = ('{banner}<div class="wrap">{picked}{browse}{body}</div>\n<script>{js}</script>').format(
+                banner=banner, picked=picked, body=body, js=BROWSE_JS,
+                browse=browse_html(topics, topic["slug"] if topic else None, total=len(arts)))
     if topic is FREE_TOPIC:
         return page("/free/", main, title=topic["label"], current="/", wide=True,
                     desc="The articles on johnplusnews that anyone can read, with no account needed.",
@@ -737,33 +848,20 @@ def gallery_page(arts, topics=(), topic=None, teens=0):
     return page("/", main, current="/", desc=SITE["tagline"], image=(arts[0]["image"] if arts else "") or None, wide=True)
 
 
-TEENS_JS = (
-    '(function(){var g=document.getElementById("tgrid");if(!g)return;var bar=document.getElementById("tcats");'
-    'var btns=[].slice.call(bar.querySelectorAll("button")),cards=[].slice.call(g.querySelectorAll(".card")),'
-    'none=document.getElementById("tnone"),count=document.getElementById("tcount");bar.hidden=false;'
-    'function show(k,save){btns.forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-cat")===k)});'
-    'var n=0;cards.forEach(function(c){var ok=k==="all"||c.getAttribute("data-cat")===k;c.hidden=!ok;if(ok)n++});'
-    'none.hidden=n>0;count.textContent=n+(n===1?" story":" stories");'
-    'if(save){try{history.replaceState(null,"",k==="all"?location.pathname+"#stories":"#"+k)}catch(e){}}}'
-    'btns.forEach(function(b){b.addEventListener("click",function(){show(b.getAttribute("data-cat"),true)})});'
-    'document.getElementById("treset").addEventListener("click",function(){show("all",true)});'
-    'var h=location.hash.slice(1);show(btns.some(function(b){return b.getAttribute("data-cat")===h})?h:"all",false)})();'
-)
-
-
 def teens_card(a, featured=False):
     cat = a["category"]
     if a["image"]:
-        thumb = '<img src="{}" alt="{}" width="1000" height="666" loading="lazy" decoding="async">'.format(esc(asset(a.get("thumb") or a["image"])), esc(a["image_alt"]))
+        thumb = '<img src="{}"{} sizes="(max-width: 700px) 92vw, 330px" alt="{}" width="1000" height="666" loading="lazy" decoding="async">'.format(
+            esc(asset(a.get("thumb") or a["image"])), srcset(a.get("thumb") or a["image"], 1000), esc(a["image_alt"]))
     else:
         thumb = '<span class="blank">{}</span>'.format(esc(cat))
     feat = '<span class="feat">Featured</span>' if featured else ""
     return (
-        '<li class="card tcard" data-cat="{cs}"{free}><div class="thumb">{thumb}</div>'
+        '<li class="card tcard" data-cat="{cs}" data-q="{q}"{free}><div class="thumb">{thumb}</div>'
         '<p class="meta"><span class="lvl">{cat}</span>{feat}</p>'
         '<h2><a href="{url}">{title}</a></h2><p class="sub">{summary}</p></li>'
     ).format(cs=tag_slug(cat), cat=esc(cat), feat=feat, thumb=thumb, url=url_of(a), title=esc(a["title"]), summary=esc(a["summary"]),
-             free=' data-free="1"' if a["slug"] in FREE_SLUGS else "")
+             q=esc(search_text(a)), free=' data-free="1"' if a["slug"] in FREE_SLUGS else "")
 
 
 TEENS_CATEGORIES = ["School life", "Games & online life", "Music & style", "Science & making", "Places & people", "Sport", "TV, film & fandom", "Language & memes", "Hobbies"]
@@ -773,8 +871,10 @@ def teens_page(teens):
     """The Teens collection: a compact hero, then every published story in one grid (the first three are marked Featured)."""
     cats = [c for c in TEENS_CATEGORIES if any(a["category"] == c for a in teens)]
     cats += sorted({a["category"] for a in teens if a["category"] and a["category"] not in cats})
-    chips = '<button type="button" class="chip" data-cat="all" aria-pressed="true">All</button>' + "".join(
-        '<button type="button" class="chip" data-cat="{}" aria-pressed="false">{}</button>'.format(tag_slug(c), esc(c)) for c in cats)
+    chips = ('<nav class="chips" id="cats" role="group" aria-label="Topics" hidden>'
+             '<button type="button" class="chip" data-cat="all" aria-pressed="true">All topics</button>' + "".join(
+                 '<button type="button" class="chip" data-cat="{}" aria-pressed="false">{}</button>'.format(tag_slug(c), esc(c)) for c in cats)
+             + '</nav>')
     grid = "".join(teens_card(a, i < 3) for i, a in enumerate(teens))
     main = (
         '<section class="banner teens-hero"><div class="wrap">'
@@ -784,12 +884,11 @@ def teens_page(teens):
         'Pick a story, choose your English level and see where the conversation goes.</p>'
         '<p class="teens-small">For learners aged 12 to 18. Every story comes in Core, Intermediate and Advanced English.</p>'
         '<a class="btn-primary" href="#stories">Explore the stories</a></div></section>\n'
-        '<div class="wrap" id="stories"><div class="filters teens-filters">'
-        '<div class="chips" id="tcats" role="group" aria-label="Topics" hidden>{chips}</div>'
-        '<p class="tcount" id="tcount" role="status" aria-live="polite">{n} stories</p></div>'
+        '<div class="wrap" id="stories">{browse}'
         '<ul class="gallery" id="tgrid">{grid}</ul>'
-        '<p class="empty" id="tnone" hidden>No stories in this topic yet. <button type="button" class="linkbtn" id="treset">Show all stories</button></p>'
-        '</div>\n<script>{js}</script>').format(chips=chips, n=len(teens), grid=grid, js=TEENS_JS)
+        '<p class="empty" id="nomatch" hidden>No stories match your search.</p>'
+        '</div>\n<script>{js}</script>').format(
+            browse=browse_html(chips=chips, total=len(teens)), grid=grid, js=BROWSE_JS)
     return page("/teens/", main, title="Teens", current="/teens/", wide=True,
                 desc="Stories worth talking about for English learners aged 12 to 18, at Core, Intermediate and Advanced levels.",
                 image=(teens[0]["image"] if teens and teens[0]["image"] else "") or None)
@@ -808,12 +907,60 @@ def legal_page(path, title, body, desc):
 
 
 def about_page():
+    """What the site is, how it is made and how to tell us we got something wrong.
+    Everything here describes what the site actually does; nothing is claimed that is not true of it."""
     links = "".join(
         '<li><a href="{}" target="_blank" rel="noopener noreferrer"><span>{}</span><span aria-hidden="true">&rarr;</span></a></li>'.format(esc(url), label)
         for label, url in SITE["social"]
     )
-    main = '<div class="wrap"><h1 class="page-title">About</h1><ul class="social">{}</ul></div>'.format(links)
-    return page("/about/", main, title="About", current="/about/", desc="johnplusnews on Telegram and Instagram.")
+    levels = "".join('<li><b>{}</b> {}</li>'.format(k.title(), LEVEL_HELP[k]) for k in ("core", "intermediate", "advanced"))
+    contact = ('<p>The quickest way to reach us is <a href="mailto:{e}">{e}</a>.</p>'.format(e=esc(SITE["email"]))
+               if SITE["email"] else
+               '<p>You can reach us through the channels below. Please include a link to the article.</p>')
+    main = ('<div class="wrap about">'
+            '<h1 class="page-title">About</h1>'
+            '<p class="about-lead">johnplusnews publishes real news stories rewritten for English learners, '
+            'so that a learner can read about something worth talking about at a level that suits them.</p>'
+
+            '<h2>Who makes it</h2>'
+            '<p>The site is written and edited by John, an English teacher. It is part of johnplusenglish, '
+            'and it is a small independent site rather than a news organisation with a newsroom.</p>'
+
+            '<h2>The three levels</h2>'
+            '<p>Every story is written three times. They tell the same story, with different English.</p>'
+            '<ul class="about-levels">{levels}</ul>'
+            '<p>Choose a level with the buttons at the top of any article. The reading, the questions and the '
+            'exercises all follow the level you choose. These are our own levels, written by eye for the learners '
+            'we teach. They have not been formally calibrated against the CEFR, so we do not publish an A2 or B1 label.</p>'
+
+            '<h2>Where the stories come from</h2>'
+            '<p>Each article starts from a published report by a news organisation. The source is named and linked '
+            'at the foot of every article, with its date, so you can read the original. We rewrite the story in our '
+            'own words for learners; we do not republish anyone else\u2019s text.</p>'
+
+            '<h2>How we use AI</h2>'
+            '<p>We are open about this because it affects how much you should trust what you read.</p>'
+            '<ul class="about-levels">'
+            '<li><b>The writing</b> is drafted with AI assistance and then edited by John. Every article carries that note.</li>'
+            '<li><b>The images</b> are generated for this site. They are illustrations, not photographs of the events '
+            'reported, and each one is labelled <b>AI-generated image</b> under the picture. Where a story is about a '
+            'real named person, the image does not claim to show them.</li>'
+            '<li><b>The facts</b> are the part AI is worst at, so the figures, names and dates in an article should match '
+            'the source we link to. If one does not, that is a mistake and we want to hear about it.</li>'
+            '</ul>'
+
+            '<h2>Saving words</h2>'
+            '<p>Select any word or phrase while you read and it is saved to <a href="/words/">My words</a>, with the '
+            'sentence you found it in. With a free account your words follow you between devices, and a teacher you '
+            'have joined can see the words you save and the articles you read. Nobody else can.</p>'
+
+            '<h2>Corrections</h2>'
+            '<p>If something is wrong, please tell us and we will correct it.</p>'
+            '{contact}'
+            '<ul class="social">{links}</ul>'
+            '</div>').format(levels=levels, links=links, contact=contact)
+    return page("/about/", main, title="About", current="/about/",
+                desc="Who makes johnplusnews, how the three reading levels work, where the stories come from and how AI is used.")
 
 
 TABS_JS = (
@@ -1098,12 +1245,30 @@ EX_TOTAL = ('<section class="ex-total"><div class="ex-total-head"><h3 class="ex-
 EX_TFN_OPTS = [("T", "True"), ("F", "False"), ("N", "Not given")]
 
 
-def ex_block(n, kind, body):
+EX_TAB = {"gap": "Vocabulary", "match": "Meanings", "verb": "Verb forms", "word": "Word forms", "tfn": "Understanding"}
+
+
+def ex_block(n, kind, body, level=""):
     head, lead = EX_LEAD[kind]
-    return ('<section class="ex-block" data-ex="{k}"><h3 class="ex-h">{n}. {h}</h3>'
+    k = "grammar" if kind in ("verb", "word") else kind
+    return ('<section class="ex-block" data-ex="{k}" id="task-{lv}-{k}" role="tabpanel" '
+            'aria-labelledby="tab-{lv}-{k}"{hid}><h3 class="ex-h">{n}. {h}</h3>'
             '<p class="ex-lead">{l}</p>{body}{a}</section>').format(
-                k="grammar" if kind in ("verb", "word") else kind, n=n, h=esc(head), l=lead,
+                k=k, lv=level, hid="" if n == 1 else " hidden", n=n, h=esc(head), l=lead,
                 body=body, a=EX_ACTIONS)
+
+
+def ex_nav(level, kinds):
+    """One task at a time, with the four of them listed above. The print view shows them all."""
+    tabs = "".join(
+        '<button type="button" role="tab" id="tab-{lv}-{k}" aria-controls="task-{lv}-{k}" '
+        'aria-selected="{sel}" tabindex="{tab}" data-task="{k}">{label}</button>'.format(
+            lv=level, k=("grammar" if kind in ("verb", "word") else kind), label=esc(EX_TAB[kind]),
+            sel="true" if i == 0 else "false", tab="0" if i == 0 else "-1")
+        for i, kind in enumerate(kinds))
+    tabs += ('<button type="button" role="tab" id="tab-{lv}-total" aria-controls="task-{lv}-total" '
+             'aria-selected="false" tabindex="-1" data-task="total">Your score</button>').format(lv=level)
+    return '<div class="ex-nav" role="tablist" aria-label="Practice tasks">{}</div>'.format(tabs)
 
 
 def ex_gap(data):
@@ -1201,11 +1366,14 @@ def exercises_html(a):
         if not d:
             continue
         g = d["grammar"]
-        panels.append('<div class="ex-level" data-ex-level="{k}"{hid}>{a}{b}{c}{e}{tot}</div>'.format(
+        panels.append('<div class="ex-level" data-ex-level="{k}"{hid}>{nav}{a}{b}{c}{e}{tot}</div>'.format(
             k=key, hid="" if v is a["versions"][default_index(a["versions"])] else " hidden",
-            a=ex_block(1, "gap", ex_gap(d["gap"])), b=ex_block(2, "match", ex_match(d["match"], a["slug"] + key)),
-            c=ex_block(3, g["kind"], ex_grammar(g)), e=ex_block(4, "tfn", ex_tfn(d["tfn"])),
-            tot=EX_TOTAL + ex_answers(d, a["slug"] + key)))
+            nav=ex_nav(key, ["gap", "match", g["kind"], "tfn"]),
+            a=ex_block(1, "gap", ex_gap(d["gap"]), key), b=ex_block(2, "match", ex_match(d["match"], a["slug"] + key), key),
+            c=ex_block(3, g["kind"], ex_grammar(g), key), e=ex_block(4, "tfn", ex_tfn(d["tfn"]), key),
+            tot=EX_TOTAL.replace('<section class="ex-total">',
+                                 '<section class="ex-total" id="task-{lv}-total" role="tabpanel" aria-labelledby="tab-{lv}-total" hidden>'.format(lv=key))
+                + ex_answers(d, a["slug"] + key)))
     if not panels:
         return ""
     return ('<details class="qs qs-ex"><summary><span class="qs-label">Exercises</span>'
@@ -1337,9 +1505,9 @@ def article_page(a, newer, older):
         if a["image_credit_note"]:
             parts.append(esc(a["image_credit_note"]))
         credit = '<figcaption class="credit">{}: {}</figcaption>'.format(esc(a["image_credit_label"] or "Photo"), ", ".join(parts)) if parts else ""
-        img = ('<figure class="hero"><img class="hero-img" src="{}" alt="{}" width="1400" height="933" '
-               'fetchpriority="high" decoding="async">{}</figure>').format(
-            esc(asset(a["image"])), esc(a["image_alt"]), credit)
+        img = ('<figure class="hero"><img class="hero-img" src="{}"{} sizes="(max-width: 600px) 92vw, 540px" '
+               'alt="{}" width="1400" height="933" fetchpriority="high" decoding="async">{}</figure>').format(
+            esc(asset(a["image"])), srcset(a["image"], 1400), esc(a["image_alt"]), credit)
     source = ""
     if a["sources"]:
         def one(s):
