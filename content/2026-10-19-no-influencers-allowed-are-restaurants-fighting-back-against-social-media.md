@@ -29,7 +29,7 @@ So where should businesses draw the line? A complete ban may seem too strict, es
 
 title: When Restaurants Say No to Photoshoots
 summary: A famous hotel on the French Riviera now requires permission for organised shoots. A Cheshire farm shop has restricted filming during its busiest hours.
-audio: audio/no-influencers-allowed-are-restaurants-fighting-back-against-social-media-intermediate-94328f.m4a
+audio: audio/no-influencers-allowed-are-restaurants-fighting-back-against-social-media-intermediate-b76dcd.m4a
 
 Picture a lunch on the French Riviera. Then a group at the next table starts unpacking several outfits, rearranging furniture and taking photographs from every possible angle. For them, the hotel is a backdrop. For everyone else, it is somewhere to relax. That clash has persuaded some businesses to rethink their relationship with influencers.
 
@@ -49,7 +49,7 @@ The sensible answer may lie between an unrestricted photoshoot and a blanket ban
 
 title: When Your Meal Becomes Someone Else's Photoshoot
 summary: Venues depend on looking good online, yet some now restrict the very photography that promotes them. The dividing line may be behaviour rather than profession.
-audio: audio/no-influencers-allowed-are-restaurants-fighting-back-against-social-media-advanced-ad7390.m4a
+audio: audio/no-influencers-allowed-are-restaurants-fighting-back-against-social-media-advanced-3e3c10.m4a
 
 Imagine settling down for lunch on a Mediterranean terrace, only for the next table to turn into a photoshoot. Clothes come out, furniture moves and the meal becomes a backdrop. Some guests want pictures; others want a quiet afternoon. For restaurants and hotels, deciding whose experience comes first is becoming a business decision.
 
@@ -62,6 +62,7 @@ There is, however, a striking contradiction at the heart of these bans. The hosp
 The real dividing line may be behaviour rather than professional status. A visitor quietly photographing a birthday cake is hardly comparable to someone setting up lighting equipment, obstructing a doorway or filming strangers without permission. What one person considers harmless self-expression may feel like an invasion of privacy to another. The tension becomes especially acute when an intimate setting is treated as though it were a public stage, and employees are left to pick up the pieces when complaints start pouring in.
 
 Rather than declaring war on social media, venues could introduce proportionate rules: designated filming times, consent requirements and advance approval for commercial shoots. Customers also have a responsibility to read the room. A dining room is doing several jobs at once. It is a place to eat, a place to meet friends and, for some visitors, a place to work. The rules work best when they leave space for all three.
+
 === Core before you read ===
 
 - When does taking a photo start to spoil a meal?
@@ -97,4 +98,3 @@ Rather than declaring war on social media, venues could introduce proportionate 
 - What filming rule would make a restaurant better for everyone?
 - Would you visit a place that banned all customer photos?
 - Can a place become less enjoyable because it is famous online?
-
