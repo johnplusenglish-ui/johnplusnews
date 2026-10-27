@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: Shouldn't I Be Doing Something Useful?
 summary: A free afternoon turns into a list of jobs. The neuroscientist Joseph Jebelli says breaks and time to think matter, especially for difficult mental work.
+audio: audio/why-do-we-feel-guilty-when-were-doing-nothing-core-f49791.m4a
 
 You have a free afternoon. Nobody needs your help and there is nothing important to finish. You sit down with a cup of tea. A few minutes later, a thought appears: 'Shouldn't I be doing something useful?' Many people find it difficult to relax without feeling guilty. They think about cleaning, exercising, learning a skill or catching up on messages. Even free time can become a list of jobs. Some people call this feeling productivity guilt.
 
@@ -30,6 +31,7 @@ Work, family and financial pressures can also make it hard to find time to rest.
 
 title: An Empty Weekend Is Not a Problem to Solve
 summary: A free afternoon turns into a list of jobs. In a March 2026 Nature interview, Joseph Jebelli described how he once measured his worth by his working hours.
+audio: audio/why-do-we-feel-guilty-when-were-doing-nothing-intermediate-4b31b9.m4a
 
 Picture a rare afternoon without plans. You could read, sit in a café or simply stare through the window. Yet instead of feeling peaceful, you begin thinking about everything you could be doing: reorganising the kitchen, improving your fitness or learning a language. Free time has somehow become another test of productivity.
 
@@ -53,6 +55,7 @@ Perhaps the most useful change is not another wellbeing routine. It is accepting
 
 title: What Makes It So Hard to Enjoy Doing Nothing?
 summary: A free afternoon raises a nagging question: should I be doing something useful? In a March 2026 Nature interview, Joseph Jebelli described how he once measured his worth through working hours.
+audio: audio/why-do-we-feel-guilty-when-were-doing-nothing-advanced-4b4973.m4a
 
 The afternoon is free, but enjoying it is harder than expected. A thought keeps returning: should I be doing something useful? When even a walk or a quiet hour has to justify itself, taking a break can start to feel like failing at something.
 
