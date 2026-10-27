@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: Meeting Strangers in a Hot Wooden Room
 summary: Beside the sea in Ireland, people book a short session in a sauna. Many arrive on their own and leave having talked to strangers.
+audio: audio/is-the-sauna-becoming-irelands-new-pub-core-27fbfb.m4a
 
 On a cold winter morning in Ireland, a group of people sit together inside a small wooden room. Outside, the wind blows across the sea and the water looks freezing. Inside, it is very hot. They are not at a gym or a luxury hotel. They have come to a sauna near the beach, and some of them have never met before.
 
@@ -28,6 +29,7 @@ Still, the popularity of seaside saunas suggests that many people want more welc
 
 title: Could the Sauna Be a New Place to Meet?
 summary: Small cabins along the coast offer heat, a cold dip and conversation without alcohol. Regulars drop in at the same time each week, so familiar faces soon appear.
+audio: audio/is-the-sauna-becoming-irelands-new-pub-intermediate-89d442.m4a
 
 It is a curious picture of modern Ireland: strangers sitting shoulder to shoulder in a wooden sauna while Atlantic waves crash a few metres away. Some have come for the heat, some for a cold-water dip, and others simply for a conversation. What they all share is a desire to wind down somewhere that is neither home nor work.
 
@@ -47,6 +49,7 @@ The interesting question is not whether saunas will replace pubs. It is why so m
 
 title: The Irish Saunas Bringing Strangers Together
 summary: Strangers share a timber cabin on a cold coast, talking about gossip and work. A booked hour offers company without a drink, though it is not the same as the pub's unplanned dropping in.
+audio: audio/is-the-sauna-becoming-irelands-new-pub-advanced-229225.m4a
 
 Picture a winter morning on Ireland's Atlantic coast. Rain moves across the horizon, the water is bitterly cold and, inside a timber cabin, half a dozen strangers are discussing everything from local gossip to their working lives. For some visitors, the attraction is company as well as heat. A shared cabin offers a place to talk without a drink in anyone's hand.
 
