@@ -318,6 +318,15 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .lp-tools { display: flex; align-items: center; gap: 4px; }
 .lp-back, .lp-speed { display: inline-flex; align-items: center; justify-content: center; min-height: 30px; min-width: 30px; padding: 0 6px; border: 0; border-radius: 6px; background: none; color: var(--muted); font: inherit; font-size: 0.8125rem; font-weight: 600; cursor: pointer; }
 .lp-back:hover, .lp-speed:hover { color: var(--accent); background: var(--accent-soft); }
+.lp-rate { position: relative; }
+.lp-menu { position: absolute; right: 0; bottom: calc(100% + 6px); z-index: 20; min-width: 132px; padding: 5px; background: #fff; border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow-popover); }
+.lp-menu[hidden] { display: none; }
+.lp-opt { display: flex; align-items: baseline; gap: 8px; width: 100%; min-height: 36px; padding: 6px 10px; border: 0; border-radius: 7px; background: none; color: var(--ink); font: inherit; font-size: 0.875rem; font-weight: 600; text-align: left; cursor: pointer; }
+.lp-opt span { font-weight: 400; color: var(--muted); }
+.lp-opt:hover { background: #f3f5f8; }
+.lp-opt:focus-visible { outline: none; box-shadow: inset 0 0 0 2px var(--accent); }
+.lp-opt[aria-checked="true"] { color: var(--accent); }
+@media (pointer: coarse) { .lp-back, .lp-speed { min-height: 44px; min-width: 44px; } .lp-opt { min-height: 44px; } }
 
 /* questions: quiet rows that open on request */
 .qs { margin: 22px 0 0; }

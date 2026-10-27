@@ -8,7 +8,8 @@
   var rows = [].slice.call(document.querySelectorAll(".listen"));
   if (!rows.length) return;
 
-  var SPEEDS = [1, 1.25, 1.5, 0.75];
+  /* Learners slow a recording down, they do not speed it up, so the steps run from normal to three quarters. */
+  var SPEEDS = [1, 0.95, 0.9, 0.85, 0.8, 0.75];
   var PLAY = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>';
   var PAUSE = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"/></svg>';
   var BACK = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 5a7 7 0 1 1-6.6 4.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M5 3.5v4.5h4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
@@ -37,6 +38,31 @@
   var speed = getSpeed();
   var all = [];
 
+  function closeMenus(except) {
+    [].slice.call(document.querySelectorAll(".lp-menu")).forEach(function (m) {
+      if (m === except || m.hidden) return;
+      m.hidden = true;
+      var b = m.parentNode.querySelector(".lp-speed");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+  }
+
+  /* One speed for the whole page, so switching level does not reset it. */
+  function setSpeed(v) {
+    speed = v;
+    saveSpeed(v);
+    all.forEach(function (o) { o.playbackRate = v; });
+    [].slice.call(document.querySelectorAll(".lp-speed")).forEach(function (b) { b.textContent = v + "x"; });
+    [].slice.call(document.querySelectorAll(".lp-opt")).forEach(function (o) {
+      o.setAttribute("aria-checked", parseFloat(o.getAttribute("data-v")) === v ? "true" : "false");
+    });
+  }
+
+  document.addEventListener("click", function () { closeMenus(null); });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeMenus(null);
+  });
+
   rows.forEach(function (row) {
     var audio = row.querySelector("audio");
     var head = row.querySelector(".listen-head");
@@ -60,9 +86,25 @@
     seek.value = "0";
     seek.setAttribute("aria-label", "Seek");
     var time = el("span", "lp-time", "0:00");
-    var rate = el("button", "lp-speed", "1x");
+    var rateWrap = el("div", "lp-rate");
+    var rate = el("button", "lp-speed", speed + "x");
     rate.type = "button";
     rate.setAttribute("aria-label", "Playback speed");
+    rate.setAttribute("aria-haspopup", "true");
+    rate.setAttribute("aria-expanded", "false");
+    var menu = el("div", "lp-menu");
+    menu.hidden = true;
+    menu.setAttribute("role", "menu");
+    SPEEDS.forEach(function (v) {
+      var o = el("button", "lp-opt", v + "x" + (v === 1 ? " <span>normal</span>" : ""));
+      o.type = "button";
+      o.setAttribute("role", "menuitemradio");
+      o.setAttribute("data-v", String(v));
+      o.setAttribute("aria-checked", v === speed ? "true" : "false");
+      menu.appendChild(o);
+    });
+    rateWrap.appendChild(rate);
+    rateWrap.appendChild(menu);
 
     var body = el("div", "lp-body");
     body.appendChild(head);
@@ -71,14 +113,14 @@
     side.appendChild(time);
     var tools = el("div", "lp-tools");
     tools.appendChild(back);
-    tools.appendChild(rate);
+    tools.appendChild(rateWrap);
     side.appendChild(tools);
     row.insertBefore(side, audio);
     row.insertBefore(body, side);
     row.insertBefore(play, body);
 
     var dragging = false;
-    function showRate() { rate.textContent = (audio.playbackRate || speed) + "x"; }
+    function showRate() { rate.textContent = speed + "x"; }
     function showTime() {
       var d = audio.duration;
       time.textContent = clock(audio.currentTime) + (isFinite(d) && d > 0 ? " / " + clock(d) : "");
@@ -126,12 +168,26 @@
       audio.currentTime = Math.max(0, audio.currentTime - 10);
       showTime();
     });
-    rate.addEventListener("click", function () {
-      var i = SPEEDS.indexOf(speed);
-      speed = SPEEDS[(i + 1) % SPEEDS.length];
-      saveSpeed(speed);
-      all.forEach(function (o) { o.playbackRate = speed; });
-      document.querySelectorAll(".lp-speed").forEach(function (b) { b.textContent = speed + "x"; });
+    rate.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var opening = menu.hidden;
+      closeMenus(opening ? menu : null);
+      menu.hidden = !opening;
+      rate.setAttribute("aria-expanded", opening ? "true" : "false");
+      if (opening) {
+        var c = menu.querySelector('[aria-checked="true"]') || menu.firstChild;
+        if (c && c.focus) c.focus();
+      }
+    });
+    menu.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var o = e.target;
+      while (o && o !== menu && o.className !== "lp-opt") o = o.parentNode;
+      if (!o || o === menu) return;
+      setSpeed(parseFloat(o.getAttribute("data-v")));
+      menu.hidden = true;
+      rate.setAttribute("aria-expanded", "false");
+      rate.focus();
     });
     seek.addEventListener("pointerdown", function () { dragging = true; });
     seek.addEventListener("pointerup", function () { dragging = false; });
