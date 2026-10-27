@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: Can a Pigeon Become a Dodo?
 summary: Scientists want to bring back the dodo, a bird that disappeared in the 1600s. Is that possible, and is it a good idea?
+audio: audio/can-scientists-really-bring-the-dodo-back-core-3e7287.m4a
 
 The dodo was a large bird that could not fly. It lived on the island of Mauritius in the Indian Ocean until it died out in the seventeenth century. Today, the bird is famous as a symbol of extinction. But scientists at an American biotechnology company are trying to do something extraordinary: create a living bird with some of the dodo's characteristics.
 
@@ -28,6 +29,7 @@ For now, the dodo remains extinct. Colossal's announcement is about progress in 
 
 title: The Bird That Would Not Quite Be a Dodo
 summary: Colossal Biosciences has rebuilt most of the dodo's genome and hopes to edit a Nicobar pigeon. Critics ask what the finished bird would actually be.
+audio: audio/can-scientists-really-bring-the-dodo-back-intermediate-efe8b9.m4a
 
 The dodo has been extinct for more than three centuries, yet it may be one of the most recognisable birds in history. The large, flightless creature once lived on Mauritius, where hunting and animals introduced by humans helped to wipe it out. Now a US biotechnology company wants to create a living bird with some of the dodo's distinctive features. Whether that would count as bringing the dodo back is another question.
 
@@ -45,6 +47,7 @@ The dodo project is only beginning to take shape and remains an experiment with 
 
 title: Could a New Bird Really Count as a Dodo?
 summary: A start-up claims progress towards resurrecting the dodo, while independent scientists question what that would achieve. Is de-extinction science or spectacle?
+audio: audio/can-scientists-really-bring-the-dodo-back-advanced-32d8d4.m4a
 
 The dodo is the bird everyone knows is gone. A large, flightless species that vanished from Mauritius in the seventeenth century, it has become shorthand for extinction. In October 2026, the US-based Colossal Biosciences announced further progress towards engineering a bird with some of the dodo's defining characteristics. The ambition is striking. What success would actually mean is much less clear.
 
