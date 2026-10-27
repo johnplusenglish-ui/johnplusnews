@@ -68,6 +68,9 @@
         }
 
         var times = data.w;
+        /* The reader can turn the highlighting off from the player menu. */
+        var following = true;
+        try { following = localStorage.getItem("jpn_follow") !== "0"; } catch (e) {}
         var hl = new Highlight();
         CSS.highlights.set("readalong", hl);
         var shown = -1;
@@ -105,6 +108,7 @@
         }
 
         function paint(force) {
+          if (!following) { if (shown !== -1) { shown = -1; hl.clear(); } return; }
           var i = find(audio.currentTime + (audio.paused ? 0 : LEAD));
           if (i === shown && force !== true) return;
           shown = i;
@@ -125,6 +129,13 @@
         function tick() { paint(); raf = requestAnimationFrame(tick); }
         function start() { if (!raf) raf = requestAnimationFrame(tick); }
         function stop() { if (raf) { cancelAnimationFrame(raf); raf = 0; } }
+
+        document.addEventListener("jpn:follow", function (e) {
+          following = !!(e.detail && e.detail.on);
+          shown = -1;
+          hl.clear();
+          if (following) paint(true);
+        });
 
         audio.addEventListener("play", start);
         audio.addEventListener("playing", start);

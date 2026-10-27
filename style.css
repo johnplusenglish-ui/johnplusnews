@@ -331,6 +331,21 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .lp-opt:hover { background: #f3f5f8; }
 .lp-opt:focus-visible { outline: none; box-shadow: inset 0 0 0 2px var(--accent); }
 .lp-opt[aria-checked="true"] { color: var(--accent); }
+.lp-sep { height: 1px; margin: 5px 6px; background: var(--line); }
+.lp-opt.lp-toggle { font-weight: 500; white-space: nowrap; }
+.lp-opt.lp-toggle::before { content: ""; flex: none; width: 15px; height: 15px; border: 1.5px solid #c3cad6; border-radius: 4px; }
+.lp-opt.lp-toggle[aria-checked="true"]::before { border-color: var(--accent); background: var(--accent) no-repeat center/10px 10px
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5' fill='none' stroke='%23fff' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+.lp-menu:has(.lp-toggle) { min-width: 232px; }
+
+/* the player keeps its place in the page while it is docked at the foot of the screen */
+.lp-spacer[hidden] { display: none; }
+.listen.lp-float { position: fixed; z-index: 30; left: 50%; transform: translateX(-50%); bottom: 0;
+  width: min(var(--reading), calc(100vw - 24px)); margin: 0; padding: 12px 18px;
+  background: #fff; border: 1px solid var(--line); border-bottom: 0; border-radius: 12px 12px 0 0;
+  box-shadow: 0 -8px 28px rgb(17 19 24 / 12%); }
+.listen.lp-float .lp-menu { bottom: calc(100% + 6px); }
+@media (max-width: 560px) { .listen.lp-float { padding: 10px 14px; } }
 /* the word being spoken; painted as a Range, so the article markup is untouched */
 ::highlight(readalong) { background-color: #cfe0fb; color: var(--ink); }
 @media (pointer: coarse) { .lp-back, .lp-speed { min-height: 44px; min-width: 44px; } .lp-opt { min-height: 44px; } }
