@@ -11,6 +11,8 @@ image-credit-label: AI illustration
 
 title: He Went Back to Say Sorry
 summary: Mike had watched a classmate being bullied and said nothing. Twenty years later, he wanted to apologise.
+audio: audio/would-you-go-to-your-school-reunion-after-20-years-core-c8484c.m4a
+voice: Read by John
 
 When Mike walked into his school reunion in Melbourne, Australia, he was not just hoping to see old friends. He had something important to say. Twenty years had passed since he left school, but one memory had stayed with him. A boy he knew had been bullied because he was gay. Mike had not joined in, but he had not stood up for him either. Now he wanted to apologise.
 
@@ -57,40 +59,3 @@ Yet reunions can also undermine the stories we have told ourselves about other p
 Social media adds another layer of complexity. We may think we know what became of classmates because we have glimpsed their promotions, weddings and holidays online. But an edited feed is not the same as a sustained conversation, and envy can flourish when we compare our untidy private lives with someone else's carefully polished public image. A reunion offers the possibility of a more honest encounter, although that depends on whether people are prepared to drop the performance. The temptation to keep score does not necessarily disappear when the school uniform comes off.
 
 Mike's story raises a particularly delicate issue: can an apology help heal a past injury, or does it sometimes serve primarily the person offering it? Intentions matter, but so does the effect on the person listening. Anyone turning up at a reunion hoping to put things right might first consider whether an old classmate wants that conversation at all. The most valuable outcome may be neither forgiveness nor renewed friendship, but a more generous understanding of who everyone has become.
-
-=== Core before you read ===
-
-- Would you go to a school reunion if none of your friends were going?
-- What would surprise your old classmates most about you now?
-- Is it easier to say sorry in person or in a message?
-
-=== Core talk about it ===
-
-- What makes an apology feel sincere?
-- Would you rather catch up with an old friend or meet someone new?
-- Should people be allowed to leave their school reputation behind?
-
-=== Intermediate before you read ===
-
-- Would you go to a school reunion if none of your friends were going?
-- What would surprise your old classmates most about you now?
-- Is it easier to say sorry in person or in a message?
-
-=== Intermediate talk about it ===
-
-- What makes an apology feel sincere?
-- Would you rather catch up with an old friend or meet someone new?
-- Should people be allowed to leave their school reputation behind?
-
-=== Advanced before you read ===
-
-- Would you go to a school reunion if none of your friends were going?
-- What would surprise your old classmates most about you now?
-- Is it easier to say sorry in person or in a message?
-
-=== Advanced talk about it ===
-
-- What makes an apology feel sincere?
-- Would you rather catch up with an old friend or meet someone new?
-- Should people be allowed to leave their school reputation behind?
-
