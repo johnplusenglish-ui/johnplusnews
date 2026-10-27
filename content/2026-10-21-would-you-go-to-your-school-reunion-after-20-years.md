@@ -11,7 +11,7 @@ image-credit-label: AI illustration
 
 title: He Went Back to Say Sorry
 summary: Mike had watched a classmate being bullied and said nothing. Twenty years later, he wanted to apologise.
-audio: audio/would-you-go-to-your-school-reunion-after-20-years-core-c8484c.m4a
+audio: audio/would-you-go-to-your-school-reunion-after-20-years-core-477308.m4a
 
 When Mike walked into his school reunion in Melbourne, Australia, he was not just hoping to see old friends. He had something important to say. Twenty years had passed since he left school, but one memory had stayed with him. A boy he knew had been bullied because he was gay. Mike had not joined in, but he had not stood up for him either. Now he wanted to apologise.
 
@@ -29,7 +29,7 @@ So is going to a reunion a good idea? It depends on what you expect. You might c
 
 title: The Apology That Did Not Go to Plan
 summary: Mike found his old friend at the reunion. The man he had failed to defend ended up reassuring him instead.
-audio: audio/would-you-go-to-your-school-reunion-after-20-years-intermediate-8cfd21.m4a
+audio: audio/would-you-go-to-your-school-reunion-after-20-years-intermediate-ad4900.m4a
 
 Mike had been out of school for twenty years, but one memory refused to fade. As a teenager in Melbourne, he had watched a friend experience homophobic bullying. He had never joined in, yet he had not spoken up either. Now, in his forties and working as a firefighter, he was heading to a school reunion with a particular purpose: he wanted to apologise for his silence.
 
@@ -47,7 +47,7 @@ Perhaps the healthiest way to approach a reunion is with curiosity rather than a
 
 title: Who Is an Apology Really For?
 summary: Mike went back to his school reunion to apologise to a friend he had failed to defend. The conversation did not go the way he planned.
-audio: audio/would-you-go-to-your-school-reunion-after-20-years-advanced-763fb9.m4a
+audio: audio/would-you-go-to-your-school-reunion-after-20-years-advanced-05f7f7.m4a
 
 Mike had spent twenty years thinking about the classmate he had failed to defend. Now the Melbourne firefighter was going back to school to apologise. He had not joined in the homophobic bullying, but he had stayed silent. At the reunion, he hoped to put that right.
 
