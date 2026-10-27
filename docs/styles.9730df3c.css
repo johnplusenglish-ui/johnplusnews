@@ -699,6 +699,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .jt-label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
 .jt-input { width: 76px; font: inherit; font-size: 1rem; font-weight: 600; text-align: center; color: var(--ink); background: #fff; border: 1px solid #cfd4dc; border-radius: 8px; padding: 6px 8px; font-variant-numeric: tabular-nums; }
 .jt-input:disabled { background: #f6f7f9; color: var(--muted); }
+.jt-hint { margin: 4px 0 0; text-align: right; font-size: 0.75rem; font-variant-numeric: tabular-nums; color: var(--muted); }
 .jt-presets { display: flex; gap: 6px; margin: 10px 0; }
 .jt-preset { flex: 1; font: inherit; font-size: 0.8125rem; font-weight: 600; padding: 5px 0; color: var(--accent); background: var(--accent-soft); border: 0; border-radius: 8px; cursor: pointer; }
 .jt-preset.jt-cur { background: var(--accent); color: #fff; }

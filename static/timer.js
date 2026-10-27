@@ -1,11 +1,12 @@
 /* johnplusnews: a small classroom timer.
    A quiet pill in the corner shows the time left. Tap it to set the minutes, then start. While it runs, a thin bar down
    the left edge of the page fills from the top, turns amber near the end and a soft two-note chime plays at zero.
-   The minutes you choose are remembered on this device, and a running timer carries on from article to article. */
+   The length you choose is remembered on this device, and a running timer carries on from article to article.
+   It can be set to the second: type 2.5 or 2.50 for two and a half minutes, or 2:30. */
 (function () {
   "use strict";
 
-  var KEY = "jpn_timer";          // {minutes}
+  var KEY = "jpn_timer";          // {minutes, seconds}: whole minutes for the account to sync, exact seconds for here
   var RUN = "jpn_timer_run";      // {endAt, total} while running, {left, total} while paused
   var PRESETS = [5, 10, 15, 20];
 
@@ -29,10 +30,25 @@
     return m + ":" + (r < 10 ? "0" : "") + r;
   }
 
+  var MIN_SECS = 5, MAX_SECS = 180 * 60;
+  function clampSecs(n) { return Math.max(MIN_SECS, Math.min(MAX_SECS, Math.round(n))); }
+  /* The account stores the length as a whole number of minutes, so that is what it is given. */
+  function asMinutes(n) { return Math.max(1, Math.round(n / 60)); }
+  /* "2.5", "2.50", "2,5" and "2:30" all mean the same thing. Anything else is not a length. */
+  function parse(text) {
+    var t = String(text).trim().replace(",", ".");
+    var m = t.match(/^(\d{1,3}):(\d{1,2})$/);
+    if (m) return Number(m[2]) > 59 ? null : Number(m[1]) * 60 + Number(m[2]);
+    if (/^(\d+\.?\d*|\.\d+)$/.test(t)) return Math.round(parseFloat(t) * 60);
+    return null;
+  }
+  function decimal(n) { return (n / 60).toFixed(2); }
+
   var saved = read(KEY);
-  var minutes = saved && saved.minutes > 0 ? Math.min(180, Math.round(saved.minutes)) : 10;
+  var secs = saved && saved.seconds >= MIN_SECS ? clampSecs(saved.seconds)
+           : saved && saved.minutes > 0 ? clampSecs(Math.round(saved.minutes) * 60) : 600;
   var state = "idle";             // idle | running | paused | done
-  var total = minutes * 60000;
+  var total = secs * 1000;
   var left = total;
   var endAt = 0;
   var tick = null;
@@ -61,8 +77,9 @@
   panel.hidden = true;
   var label = el("label", "jt-label", "Minutes");
   var input = el("input", "jt-input");
-  input.type = "number"; input.min = "1"; input.max = "180"; input.step = "1"; input.inputMode = "numeric";
-  input.value = String(minutes);
+  input.type = "text"; input.inputMode = "decimal"; input.autocomplete = "off"; input.spellcheck = false;
+  input.setAttribute("aria-describedby", "jt-hint");
+  input.value = decimal(secs);
   input.id = "jt-minutes";
   label.htmlFor = "jt-minutes";
   var presets = el("div", "jt-presets");
@@ -70,18 +87,20 @@
     var b = el("button", "jt-preset", String(m));
     b.type = "button";
     b.setAttribute("aria-label", m + " minutes");
-    b.addEventListener("click", function () { setMinutes(m); });
+    b.addEventListener("click", function () { setSecs(m * 60); });
     presets.appendChild(b);
   });
   var go = el("button", "jt-go", "Start");
   go.type = "button";
   var reset = el("button", "jt-reset", "Reset");
   reset.type = "button";
+  var hint = el("div", "jt-hint", clock(secs * 1000));
+  hint.id = "jt-hint";
   var row = el("div", "jt-row");
   row.appendChild(label); row.appendChild(input);
   var acts = el("div", "jt-acts");
   acts.appendChild(go); acts.appendChild(reset);
-  panel.appendChild(row); panel.appendChild(presets); panel.appendChild(acts);
+  panel.appendChild(row); panel.appendChild(hint); panel.appendChild(presets); panel.appendChild(acts);
 
   wrap.appendChild(panel);
   wrap.appendChild(pill);
@@ -99,7 +118,7 @@
     wrap.classList.toggle("jt-late", state !== "idle" && state !== "done" && left / total <= 0.1);
     go.textContent = state === "running" ? "Pause" : state === "paused" ? "Resume" : state === "done" ? "Again" : "Start";
     input.disabled = state === "running";
-    [].forEach.call(presets.children, function (b) { b.disabled = state === "running"; b.classList.toggle("jt-cur", Number(b.textContent) === minutes); });
+    [].forEach.call(presets.children, function (b) { b.disabled = state === "running"; b.classList.toggle("jt-cur", Number(b.textContent) * 60 === secs); });
   }
 
   function chime() {
@@ -137,22 +156,27 @@
     chime();
   }
 
-  function setMinutes(m, quiet) {
-    m = Math.round(Number(m));
-    if (!(m >= 1)) m = 1;
-    if (m > 180) m = 180;
-    minutes = m;
-    input.value = String(m);
-    write(KEY, { minutes: m });
-    if (!quiet) { try { document.dispatchEvent(new CustomEvent("jpn:pref", { detail: { timer: m } })); } catch (e) {} }
+  function setSecs(n, quiet) {
+    n = clampSecs(n);
+    secs = n;
+    input.value = decimal(n);
+    hint.textContent = clock(n * 1000);
+    write(KEY, { minutes: asMinutes(n), seconds: n });
+    if (!quiet) { try { document.dispatchEvent(new CustomEvent("jpn:pref", { detail: { timer: asMinutes(n) } })); } catch (e) {} }
     if (state === "idle" || state === "done" || state === "paused") {
-      state = "idle"; total = m * 60000; left = total; clear(RUN, sessionStorage);
+      state = "idle"; total = n * 1000; left = total; clear(RUN, sessionStorage);
     }
     show();
   }
+  /* What was typed becomes the length, or the box goes back to the last good one. */
+  function commit() {
+    var n = parse(input.value);
+    if (n === null) { input.value = decimal(secs); hint.textContent = clock(secs * 1000); return; }
+    setSecs(n);
+  }
 
   function start() {
-    if (state === "idle" || state === "done") { total = minutes * 60000; left = total; }
+    if (state === "idle" || state === "done") { total = secs * 1000; left = total; }
     state = "running";
     endAt = Date.now() + left;
     write(RUN, { endAt: endAt, total: total }, sessionStorage);
@@ -168,19 +192,29 @@
   }
   function restart() {
     stopTick();
-    state = "idle"; total = minutes * 60000; left = total;
+    state = "idle"; total = secs * 1000; left = total;
     clear(RUN, sessionStorage);
     show();
   }
 
-  window.jpnTimerSet = function (m) { setMinutes(m, true); };   // the account script uses this to bring a saved length to this device
+  /* The account script uses this to bring a saved length to this device. It only knows whole
+     minutes, so a length that already rounds to the same minute is left exactly as typed. */
+  window.jpnTimerSet = function (m) {
+    m = Math.round(Number(m));
+    if (!(m >= 1) || asMinutes(secs) === m) return;
+    setSecs(m * 60, true);
+  };
 
   go.addEventListener("click", function () {
     if (state === "running") pause(); else start();
   });
   reset.addEventListener("click", restart);
-  input.addEventListener("change", function () { setMinutes(input.value); });
-  input.addEventListener("keydown", function (e) { if (e.key === "Enter") { setMinutes(input.value); start(); } });
+  input.addEventListener("change", commit);
+  input.addEventListener("input", function () {
+    var n = parse(input.value);
+    hint.textContent = n === null ? "Try 2.5 or 2:30" : clock(clampSecs(n) * 1000);
+  });
+  input.addEventListener("keydown", function (e) { if (e.key === "Enter") { commit(); start(); } });
   pill.addEventListener("click", function () {
     var open = panel.hidden;
     panel.hidden = !open;
