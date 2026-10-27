@@ -7,6 +7,42 @@ image: images/project-hail-mary-the-space-adventure-that-makes-science-exciting-
 image-alt: A notebook lies open on a workbench inside a spacecraft, showing lines of musical notation and a sketch of a five-limbed creature, with a bright star through a round window.
 image-credit-label: AI illustration
 ---
+=== Core ===
+
+title: The Space Hero Who Is Often Afraid
+summary: A film about a science teacher who must save the Sun has become a big hit. What makes it different from other space films?
+
+Imagine waking up on a spaceship with no memory of how you got there. Worse still, you may be the only person who can save Earth. That is how Project Hail Mary begins. Ryland Grace is a school science teacher, and he is the one who has to find a way to stop the danger. The science-fiction film, released in March 2026, stars Ryan Gosling in the role. It is based on a novel by Andy Weir, the author of The Martian.
+
+In the story, strange microorganisms are taking energy from the Sun. If nobody stops them, Earth will become too cold for people to survive. Grace travels towards a distant star to look for an answer. He is not a typical action hero. He is frightened, confused and often unsure what to do next. Instead of fighting enemies with weapons, he tries to solve problems using experiments, calculations and ordinary scientific knowledge.
+
+Some of the science comes from the real world. The stars mentioned in the film, including Tau Ceti, really exist. The filmmakers also spoke to NASA experts about space travel and life on a spacecraft. But the tiny organisms that threaten the Sun are invented. Scientists say the way they store energy does not match real physics. The film mixes facts with imagination, rather than showing what could happen tomorrow.
+
+Grace also finds out that he is not the only traveller looking for a solution. He meets an alien he calls Rocky. The two come from completely different worlds and cannot communicate easily at first. Yet they slowly learn to understand each other. Their unusual friendship brings warmth and humour to a story that begins with a frightening problem.
+
+The film was directed by Phil Lord and Christopher Miller, who are known for mixing comedy with adventure. Audiences responded enthusiastically, and the film earned hundreds of millions of dollars around the world. Not every critic loved its jokes or its long running time, but its combination of science, danger and friendship attracted considerable attention.
+
+Perhaps its cleverest idea is making a science teacher the hero of a major space adventure. Grace does not always have the right answer, and he makes mistakes along the way. He succeeds by asking questions, testing ideas and accepting help from someone very different from himself. You do not need to understand advanced physics to enjoy Project Hail Mary. You only need to be curious about what might be possible.
+
+=== Intermediate ===
+
+title: Saving the World by Getting Things Wrong
+summary: Ryan Gosling plays a teacher who meets an alien with the same problem. Their slow attempt to understand each other is the heart of the film.
+
+A man comes round aboard a spacecraft, unable to remember his name or how he got there. His crewmates are dead, Earth is a very long way away and the future of humanity may depend on what he does next.
+
+It sounds like the beginning of a familiar Hollywood disaster film. But Project Hail Mary, released in March 2026, has an unusual hero. Ryland Grace, played by Ryan Gosling, is a science teacher whose most valuable equipment is not a weapon but his ability to think his way through problems.
+
+Grace has been sent to investigate a mysterious threat to the Sun. In the story, tiny alien organisms are absorbing energy from stars, putting life on Earth at risk. His destination is a distant star system where researchers believe the answer may lie. Rather than relying on spectacular battles, much of the drama comes from small experiments, unexpected failures and improvised solutions. He is knowledgeable, but he is hardly the fearless astronaut usually found at the centre of a blockbuster.
+
+The film adapts Andy Weir's bestselling 2021 novel. Weir is known for filling his fiction with scientific detail, and the filmmakers wanted to hold on to that quality. NASA specialists offered advice during production, while the story uses real stars such as Tau Ceti and 40 Eridani. Nevertheless, plausibility has its limits. Astrophage, the fictional organism responsible for the crisis, would need to absorb an almost unimaginable amount of energy. Scientists have pointed out that the way Astrophage stores energy does not fit known physics. The film invites viewers to accept one enormous invention, then takes many of its smaller scientific questions seriously.
+
+Its emotional centre is an encounter that would be difficult to imagine in most disaster films. Grace meets Rocky, an alien trying to protect his own world from the same danger. They cannot easily speak to one another, and their bodies work in very different ways. Gradually, however, they come up with ways to communicate and combine their knowledge. Instead of presenting alien life as something automatically threatening, the film asks what two strangers might achieve if they choose cooperation over fear.
+
+Directors Phil Lord and Christopher Miller bring an energetic, comic style to the adaptation. The film became a commercial success, earning more than $680 million worldwide, although reviews were not entirely unanimous. Some critics welcomed its warmth and imagination; others questioned its shifts between jokes and an extinction-level emergency. The novel and the film also place different demands on their audiences: a book can spend pages on calculations, while a film must make the same discoveries understandable in a matter of seconds.
+
+What makes Project Hail Mary distinctive is not that it gets every scientific detail right. It is the pleasure it takes in curiosity itself. Problems are investigated rather than simply overcome by force, and the most important breakthrough comes through an unlikely partnership. In an era when space adventures often concentrate on destruction, a blockbuster about asking better questions feels like a refreshing change.
+
 === Advanced ===
 
 title: The Space Adventure That Makes Curiosity the Hero
@@ -24,3 +60,40 @@ Its more compelling speculation concerns communication. Grace encounters an alie
 Directors Phil Lord and Christopher Miller bring a playful sensibility to material that could otherwise become forbiddingly technical. The resulting film earned more than $680 million worldwide and prompted lively disagreement among critics. Admirers celebrated its warmth, intelligence and exuberant humour; detractors found the tonal shifts distracting and some of the sentiment overly emphatic. Adapting the novel also meant boiling down lengthy scientific explanations into visual sequences, an unavoidable trade-off between the pleasures of reading a calculation and watching a character discover its consequences.
 
 For all its fictional physics, Project Hail Mary makes a serious argument about the value of intellectual curiosity. Its central figure is frightened, frequently wrong and dependent on knowledge he cannot possess alone. The film's optimism does not come from the comforting assumption that everything will work out, but from the conviction that people can make progress by testing their assumptions and learning to cooperate. Hollywood's latest attempt to save the world hinges on curiosity and cooperation, making it, among other things, a spirited defence of thinking before acting.
+
+=== Core before you read ===
+
+- Would you rather explore space or the bottom of the sea?
+- What makes a film about science exciting?
+- Who would you want beside you when a plan goes wrong?
+
+=== Core talk about it ===
+
+- Would an ordinary person make a more interesting hero than a superhero?
+- What could make people trust someone very different from them?
+- Which everyday skill might be surprisingly useful in space?
+
+=== Intermediate before you read ===
+
+- Would you rather explore space or the bottom of the sea?
+- What makes a film about science exciting?
+- Who would you want beside you when a plan goes wrong?
+
+=== Intermediate talk about it ===
+
+- Would an ordinary person make a more interesting hero than a superhero?
+- What could make people trust someone very different from them?
+- Which everyday skill might be surprisingly useful in space?
+
+=== Advanced before you read ===
+
+- Would you rather explore space or the bottom of the sea?
+- What makes a film about science exciting?
+- Who would you want beside you when a plan goes wrong?
+
+=== Advanced talk about it ===
+
+- Would an ordinary person make a more interesting hero than a superhero?
+- What could make people trust someone very different from them?
+- Which everyday skill might be surprisingly useful in space?
+

@@ -62,3 +62,39 @@ There is, however, a striking contradiction at the heart of these bans. The hosp
 The real dividing line may be behaviour rather than professional status. A visitor quietly photographing a birthday cake is hardly comparable to someone setting up lighting equipment, obstructing a doorway or filming strangers without permission. What one person considers harmless self-expression may feel like an invasion of privacy to another. The tension becomes especially acute when an intimate setting is treated as though it were a public stage, and employees are left to pick up the pieces when complaints start pouring in.
 
 Rather than declaring war on social media, venues could introduce proportionate rules: designated filming times, consent requirements and advance approval for commercial shoots. Customers also have a responsibility to read the room. A dining room is doing several jobs at once. It is a place to eat, a place to meet friends and, for some visitors, a place to work. The rules work best when they leave space for all three.
+=== Core before you read ===
+
+- When does taking a photo start to spoil a meal?
+- Would a photo of a restaurant persuade you to try it?
+- Should you ask before including a stranger in a video?
+
+=== Core talk about it ===
+
+- What filming rule would make a restaurant better for everyone?
+- Would you visit a place that banned all customer photos?
+- Can a place become less enjoyable because it is famous online?
+
+=== Intermediate before you read ===
+
+- When does taking a photo start to spoil a meal?
+- Would a photo of a restaurant persuade you to try it?
+- Should you ask before including a stranger in a video?
+
+=== Intermediate talk about it ===
+
+- What filming rule would make a restaurant better for everyone?
+- Would you visit a place that banned all customer photos?
+- Can a place become less enjoyable because it is famous online?
+
+=== Advanced before you read ===
+
+- When does taking a photo start to spoil a meal?
+- Would a photo of a restaurant persuade you to try it?
+- Should you ask before including a stranger in a video?
+
+=== Advanced talk about it ===
+
+- What filming rule would make a restaurant better for everyone?
+- Would you visit a place that banned all customer photos?
+- Can a place become less enjoyable because it is famous online?
+

@@ -53,18 +53,29 @@
         var scope = panelFor(row);
         var head = document.querySelector(".article-head h1");
         var dek = document.querySelector(".article-head .dek");
-        var paras = [].slice.call(scope.querySelectorAll(".prose p"));
-        var els = [];
-        if (head) els.push(head);
-        if (dek) els.push(dek);
-        els = els.concat(paras);
 
-        var words = [];
-        els.forEach(function (el) { words = words.concat(wordsIn(el)); });
-        if (words.length !== data.w.length) {
-          /* The text and the recording have drifted apart, so say nothing rather than mislead. */
-          if (window.console) console.warn("read-along off: " + words.length + " words on the page, " + data.w.length + " timed");
-          return;
+        /* The heading and standfirst belong to whichever level is showing, and the reader can
+           switch level at any time, so the word list is built when it is needed and rebuilt
+           whenever the heading changes rather than once at load. */
+        var words = null, builtFor = null;
+        function collect() {
+          var sig = (head ? head.textContent : "") + "\u0000" + (dek ? dek.textContent : "");
+          if (words && builtFor === sig) return true;
+          builtFor = sig;
+          var els = [];
+          if (head) els.push(head);
+          if (dek) els.push(dek);
+          els = els.concat([].slice.call(scope.querySelectorAll(".prose p")));
+          var list = [];
+          els.forEach(function (el) { list = list.concat(wordsIn(el)); });
+          if (list.length !== data.w.length) {
+            /* The page and the recording do not match, so say nothing rather than mislead. */
+            words = null;
+            return false;
+          }
+          words = list;
+          row.classList.add("ra-on");
+          return true;
         }
 
         var times = data.w;
@@ -108,7 +119,7 @@
         }
 
         function paint(force) {
-          if (!following) { if (shown !== -1) { shown = -1; hl.clear(); } return; }
+          if (!following || !collect()) { if (shown !== -1) { shown = -1; hl.clear(); } return; }
           var i = find(audio.currentTime + (audio.paused ? 0 : LEAD));
           if (i === shown && force !== true) return;
           shown = i;
@@ -145,7 +156,7 @@
         audio.addEventListener("seeked", function () { paint(true); });
         audio.addEventListener("ended", function () { stop(); shown = -1; hl.clear(); });
         if (!audio.paused) start();
-        row.classList.add("ra-on");
+        collect();
       })
       .catch(function () {});
   });

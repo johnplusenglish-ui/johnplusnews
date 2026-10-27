@@ -427,6 +427,7 @@ def compose(f):
     for key, label in build.QUESTION_SETS:
         if f[key]:
             blocks.append("=== {} ===\n\n{}".format(label, "\n".join("- " + q for q in f[key])))
+    blocks.extend(f.get("_keep") or [])
     body = "\n\n".join(blocks)
     return "\n".join(lines) + "\n---\n" + body + "\n"
 
@@ -564,6 +565,18 @@ def clean_fields(p, content_dir=None):
     return f
 
 
+def per_level_questions(body):
+    """The === Core before you read === style blocks, returned whole. The publisher does not edit
+    them, so the safe thing is to write them back untouched."""
+    out = []
+    for block in body.split("\n=== "):
+        head = block.split("\n", 1)[0].strip()
+        m = re.match(r"^(Core|Intermediate|Advanced) (before you read|talk about it) ===$", head, re.I)
+        if m:
+            out.append("=== " + block.rstrip("\n"))
+    return out
+
+
 def prepare(p, content_dir, static_dir):
     """Write the article (and its pictures) into the given folders. Returns (slug, title)."""
     f = clean_fields(p, content_dir)
@@ -582,6 +595,16 @@ def prepare(p, content_dir, static_dir):
             old_audio = {v["level"]: v["audio"] for v in build.parse_versions(match[0][1], match[0][2]) if v["audio"]}
         except ValueError:
             old_audio = {}
+        # The form has one Before you read and one Talk about it box, but an article may carry a
+        # set for each level. Those blocks are kept exactly as they are rather than thrown away.
+        f["_keep"] = per_level_questions(match[0][2])
+        old_levels = [v["level"] for v in build.parse_versions(match[0][1], match[0][2])]
+        going = [lv for lv in old_levels if lv not in {v["level"] for v in f["versions"]}]
+        if going:
+            raise UserError(
+                "Nothing was saved, because this would have deleted the {} text that the article already has. "
+                "Press Edit on the article again to load every level, then make your change."
+                .format(" and ".join(going)))
     else:
         slug = slugify(f["title"])
         taken = {x[3] for x in article_files(content_dir)}
