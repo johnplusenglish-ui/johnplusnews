@@ -1,14 +1,10 @@
 title: Therapy Is More Normal. Is It Easier to Get?
 date: 2026-10-27
+date-label: October 2026
 summary: In a UK survey of 5,058 adults, 37% said they had seen a therapist. Among those who thought about it and did not go, cost and waiting lists were the reasons given most often.
 tags: Health, Society
 source: British Association for Counselling and Psychotherapy, public perceptions survey | https://www.bacp.co.uk/about-us/about-bacp/bacp-public-perceptions-survey
-source-date: 2026
-source-2: OECD, The Economic Case for Preventing Mental Ill Health | https://www.oecd.org/en/publications/the-economic-case-for-preventing-mental-ill-health_16668f16-en/full-report/trends-and-patterns-in-mental-ill-health_43f77277.html
-source-2-date: 2026
-source-3: American Psychological Association, How to harness the power of therapy-speak | https://www.apa.org/monitor/2024/09/therapy-speak
-source-3-date: 1 September 2024
-date-label: October 2026
+image: images/therapy-is-more-normal-is-it-easier-to-get-9fd74b.jpg
 image-credit-label: AI illustration
 ---
 === Core ===
@@ -34,7 +30,6 @@ The harder question is for the rest of us. A country can be very comfortable dis
 
 === Intermediate ===
 
-title: Therapy Is More Normal. Is It Easier to Get?
 summary: Therapy has entered everyday conversation, yet openness, availability and good care are three different things.
 
 Mentioning a therapist used to require a certain amount of courage. Now it can pass without comment, somewhere between a dentist and a physiotherapist on the scale of ordinary appointments. The shame has faded faster than almost anyone predicted twenty years ago.
