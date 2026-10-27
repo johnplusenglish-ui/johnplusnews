@@ -976,7 +976,7 @@ def about_page():
             '<h2>How we use AI</h2>'
             '<p>We are open about this because it affects how much you should trust what you read.</p>'
             '<ul class="about-levels">'
-            '<li><b>The writing</b> is drafted with AI assistance and then edited by John. Every article carries that note.</li>'
+            '<li><b>The writing</b> is drafted with AI assistance and then edited by John. Every article says so, under <b>About this article</b> at the foot of the page.</li>'
             '<li><b>The images</b> are generated for this site. They are illustrations, not photographs of the events '
             'reported, and each one is labelled <b>AI-generated image</b> under the picture. Where a story is about a '
             'real named person, the image does not claim to show them.</li>'
@@ -1617,7 +1617,12 @@ def article_page(a, newer, older, pool=()):
             name = '<a href="{}">{}</a>'.format(esc(s["url"]), esc(s["name"])) if s["url"] else esc(s["name"])
             return name + (", " + esc(s["date"]) if s["date"] else "")
         source = '<p class="source">{}: {}</p>'.format("Sources" if len(a["sources"]) > 1 else "Source", "; ".join(one(s) for s in a["sources"]))
-    source += '<p class="ai-note">Written with AI assistance and edited by John. Spotted a mistake? <a href="/contact/">Tell us</a>.</p>'
+    # the AI note still sits on every article, but behind one quiet line instead of under the source;
+    # print keeps the plain sentence, since a closed details prints as nothing
+    source += ('<details class="art-about"><summary>About this article</summary>'
+               '<p class="ai-note">Written with AI assistance and edited by John. '
+               'Spotted a mistake? <a href="/contact/">Tell us</a>.</p></details>'
+               '<p class="ai-note ai-print">Written with AI assistance and edited by John.</p>')
     more = related(a, pool)
     pager = ('<section class="continue-reading" aria-labelledby="continue-title">'
              '<h2 class="sec-h sec-h-sm" id="continue-title">Continue reading</h2>'
