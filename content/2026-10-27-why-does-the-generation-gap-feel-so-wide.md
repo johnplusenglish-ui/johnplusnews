@@ -1,14 +1,10 @@
 title: Why Does the Generation Gap Feel So Wide?
 date: 2026-10-27
+date-label: October 2026
 summary: Younger people in the EU use social networks far more than the population as a whole. Researchers warn that a real difference in habits is not the same as a difference in character.
 tags: Society, Relationships
 source: Eurostat, 89% of young people in the EU used social networks in 2025 | https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260409-1
-source-date: 9 April 2026
-source-2: European Commission Joint Research Centre, Addressing ageism | https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/addressing-ageism-key-priority-society-longevity-2024-07-11_en
-source-2-date: 11 July 2024
-source-3: National Academies, Are Generational Categories Meaningful Distinctions for Workforce Management? | https://www.nationalacademies.org/read/25796/chapter/2
-source-3-date: 2020
-date-label: October 2026
+image: images/why-does-the-generation-gap-feel-so-wide-8d811d.jpg
 image-credit-label: AI illustration
 ---
 === Core ===
@@ -32,7 +28,6 @@ So the grandmother and the grandson have a choice. One of them can say that peop
 
 === Intermediate ===
 
-title: Why Does the Generation Gap Feel So Wide?
 summary: We talk constantly about Gen Z, millennials and boomers. Research suggests those labels can explain less than we imagine.
 
 One colleague books a meeting. Another replies that a two-line message would have done the job. Both think the other has misunderstood how work is supposed to happen, and both reach for the same explanation: it must be a generation thing.
