@@ -1,14 +1,10 @@
 title: Has Streaming Beaten the Cinema?
 date: 2026-10-27
+date-label: October 2026
 summary: Three quarters of American adults watched a new film at home last year rather than going out for it. Cinemas have not closed, but they are no longer the default.
 tags: Culture, Film
 source: AP-NORC, Streaming is overtaking theaters for movie watchers | https://apnorc.org/projects/more-people-are-enjoying-movies-from-the-comfort-of-home/
-source-date: 25 September 2025
-source-2: British Film Institute, Audience Screen Engagement Tracker | https://www.bfi.org.uk/industry-data-insights/reports/audience-screen-engagement-tracker
-source-2-date: March 2025
-source-3: European Audiovisual Observatory, Asia drives global box office growth | https://www.obs.coe.int/en/web/observatoire/-/asia-drives-global-box-office-growth-while-european-films-hold-strong-locally
-source-3-date: 2026
-date-label: October 2026
+image: images/has-streaming-beaten-the-cinema-acd1b8.jpg
 image-credit-label: AI illustration
 ---
 === Core ===
@@ -32,7 +28,6 @@ That may be the real change. The cinema used to be the normal way to see a new f
 
 === Intermediate ===
 
-title: Has Streaming Beaten the Cinema?
 summary: Streaming has changed an ordinary film night. Cinemas now need to offer an experience worth leaving home for.
 
 Friday night presents the same small decision in most households. There is a film worth seeing, and there are two ways to see it: buy tickets and travel, or wait a few weeks until it arrives on a service you already pay for. Convenience usually wins.
