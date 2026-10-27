@@ -1620,12 +1620,14 @@ def article_page(a, newer, older, pool=()):
         source = '<p class="source">{}: {}</p>'.format("Sources" if len(a["sources"]) > 1 else "Source", "; ".join(one(s) for s in a["sources"]))
     # the AI note still sits on every article, but behind one quiet line instead of under the source;
     # print keeps the plain sentence, since a closed details prints as nothing
+    read_aloud = (" The recording is read by a synthetic voice, not by a person."
+                  if any(v["audio"] for v in a["versions"]) else "")
     source += ('<details class="art-about"><summary>About this article</summary>'
                '<p class="ai-note">Written with AI assistance and edited by John. The illustration is '
-               'generated for this site; it is not a photograph of the events reported. '
+               'generated for this site; it is not a photograph of the events reported.{aloud} '
                'Spotted a mistake? <a href="/contact/">Tell us</a>.</p></details>'
                '<p class="ai-note ai-print">Written with AI assistance and edited by John. '
-               'The illustration is AI-generated.</p>')
+               'The illustration is AI-generated.{aloud}</p>').format(aloud=read_aloud)
     more = related(a, pool)
     pager = ('<section class="continue-reading" aria-labelledby="continue-title">'
              '<h2 class="sec-h sec-h-sm" id="continue-title">Continue reading</h2>'

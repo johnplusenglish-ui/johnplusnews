@@ -255,7 +255,7 @@ function renderLevels() {
     const ah = document.createElement("div"); ah.className = "hint"; ah.id = "auh-" + l;
     const ar = document.createElement("button"); ar.type = "button"; ar.className = "linkbtn danger"; ar.id = "aur-" + l; ar.hidden = true; ar.textContent = "Remove the recording";
     const vl = document.createElement("label"); vl.className = "opt"; vl.htmlFor = "av-" + l; vl.textContent = "Label shown beside the player";
-    const vi = document.createElement("input"); vi.type = "text"; vi.id = "av-" + l; vi.autocomplete = "off"; vi.maxLength = 60; vi.value = "Read by John"; vi.placeholder = "For example: Read by John";
+    const vi = document.createElement("input"); vi.type = "text"; vi.id = "av-" + l; vi.autocomplete = "off"; vi.maxLength = 60; vi.placeholder = "For example: Read by John, or AI voice";
     box.append(hl, ht, sl, st, bl, ta, h, ll, lg, lh, al, af, ah, ar, vl, vi); $("versions").appendChild(box);
     lg.addEventListener("input", () => { counts(); saveDraft(); });
     af.addEventListener("change", () => takeAudio(l, af.files[0]));
@@ -358,7 +358,7 @@ function resetForm() {
   ["title", "summary", "alt", "credit", "curl", "lic", "licurl", "clabel", "cnote", "sname", "surl", "qb", "qa"].forEach(id => $(id).value = "");
   tags = []; $("tagin").value = ""; renderTags();
   audioNew = {}; audioOld = {}; audioDel = {};
-  LEVELS.forEach(l => { $("ta-" + l).value = ""; $("lg-" + l).value = ""; setOwn(l, null); setChecked(l, false); $("au-" + l).value = ""; $("av-" + l).value = "Read by John"; showAudio(l); });
+  LEVELS.forEach(l => { $("ta-" + l).value = ""; $("lg-" + l).value = ""; setOwn(l, null); setChecked(l, false); $("au-" + l).value = ""; $("av-" + l).value = ""; showAudio(l); });
   $("date").value = today(); $("dlabel").value = "";
   $("file").value = "";
   $("formTitle").textContent = "New article";
@@ -468,7 +468,7 @@ async function openArticle(slug, force) {
     $("sname").value = a.source_name; $("surl").value = a.source_url; $("alt").value = a.image_alt; $("credit").value = a.image_credit || ""; $("curl").value = a.image_credit_url || ""; $("lic").value = a.image_licence || ""; $("licurl").value = a.image_licence_url || ""; $("cnote").value = a.image_credit_note || ""; $("clabel").value = a.image_credit_label || ""; $("qb").value = a.before || ""; $("qa").value = a.after || "";
     tags = (a.tags || []).slice(); $("tagin").value = ""; renderTags();
     audioNew = {}; audioDel = {}; audioOld = a.audio || {};
-    LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(a.versions, l); setChecked(l, on); $("ta-" + l).value = on ? a.versions[l] : ""; setOwn(l, on ? (a.overrides || {})[l] : null); $("lg-" + l).value = on ? ((a.language || {})[l] || "") : ""; $("au-" + l).value = ""; $("av-" + l).value = (a.voices || {})[l] || "Read by John"; showAudio(l); });
+    LEVELS.forEach(l => { const on = Object.prototype.hasOwnProperty.call(a.versions, l); setChecked(l, on); $("ta-" + l).value = on ? a.versions[l] : ""; setOwn(l, on ? (a.overrides || {})[l] : null); $("lg-" + l).value = on ? ((a.language || {})[l] || "") : ""; $("au-" + l).value = ""; $("av-" + l).value = (a.voices || {})[l] || ""; showAudio(l); });
     $("file").value = "";
     $("formTitle").textContent = "Edit article";
     $("editing").hidden = false;

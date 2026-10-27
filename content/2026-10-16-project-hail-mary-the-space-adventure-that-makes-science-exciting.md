@@ -12,7 +12,6 @@ image-credit-label: AI illustration
 title: The Space Adventure That Makes Curiosity the Hero
 summary: Ryan Gosling's reluctant science teacher saves the world by testing ideas, not firing weapons. How much of the film's science is real, and does it matter?
 audio: audio/project-hail-mary-the-space-adventure-that-makes-science-exciting-advanced-1068d7.m4a
-voice: Read by John
 
 Hollywood has destroyed Earth often enough for audiences to recognise the warning signs. The music swells and a reluctant hero must save civilisation. Project Hail Mary begins with similarly apocalyptic stakes, but its unlikely saviour is a science teacher who wakes aboard an unfamiliar spacecraft with almost no memory of his mission. Released in March 2026, the film adapts Andy Weir's 2021 novel and stars Ryan Gosling as Ryland Grace. His survival depends on the slow, messy work of figuring things out.
 

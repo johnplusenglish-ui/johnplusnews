@@ -12,7 +12,8 @@
   var SPEEDS = [1, 0.95, 0.9, 0.85, 0.8, 0.75];
   var PLAY = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>';
   var PAUSE = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"/></svg>';
-  var BACK = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 5a7 7 0 1 1-6.6 4.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M5 3.5v4.5h4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  /* A solid anticlockwise replay arrow, to match the filled play and pause marks. */
+  var BACK = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 5V2L7.5 6.5 12 11V8a5.5 5.5 0 1 1-5.5 5.5H4A8 8 0 1 0 12 5z" fill="currentColor"/></svg>';
 
   function getSpeed() {
     try {
@@ -121,10 +122,16 @@
 
     var dragging = false;
     function showRate() { rate.textContent = speed + "x"; }
+    /* The track is a gradient, so the played part has to be set as a custom property. */
+    function fill() {
+      var max = Number(seek.max) || 0;
+      seek.style.setProperty("--p", (max > 0 ? (Number(seek.value) / max) * 100 : 0) + "%");
+    }
     function showTime() {
       var d = audio.duration;
       time.textContent = clock(audio.currentTime) + (isFinite(d) && d > 0 ? " / " + clock(d) : "");
       if (!dragging) seek.value = String(Math.floor(audio.currentTime));
+      fill();
     }
     function applyMeta() {
       var d = audio.duration;
@@ -132,6 +139,7 @@
       audio.playbackRate = speed;
       showRate();
       showTime();
+      fill();
     }
     function setIcon() {
       var playing = !audio.paused && !audio.ended;
@@ -192,6 +200,7 @@
     seek.addEventListener("pointerdown", function () { dragging = true; });
     seek.addEventListener("pointerup", function () { dragging = false; });
     seek.addEventListener("input", function () {
+      fill();
       audio.currentTime = Number(seek.value);
       showTime();
     });

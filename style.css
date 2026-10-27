@@ -298,24 +298,30 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .topics .chip { min-height: 30px; padding: 2px 12px; font-size: 0.8125rem; }
 
 /* listen: a quiet player row under the picture */
-.listen { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin: 22px 0 0; padding: 12px 0; }
+.listen { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin: 22px 0 0; padding: 16px 0; }
 .listen[hidden] { display: none; }
 .listen-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 12px; font-size: 0.8125rem; line-height: 1.3; }
-.listen-label { font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.listen-label { font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
 .listen-voice { color: var(--muted); }
 .listen-audio { display: block; width: 100%; margin-top: 8px; }
-.listen.lp-on { display: flex; align-items: center; gap: 12px; }
+.listen.lp-on { display: flex; align-items: center; gap: 14px; }
 .listen.lp-on[hidden] { display: none; }
 .listen.lp-on .listen-audio { display: none; }
 .lp-play { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--accent); color: #fff; cursor: pointer; }
 .lp-play:hover { background: #174fc0; }
 .lp-play:disabled { background: #b9c0cb; cursor: default; }
 .lp-play:focus-visible, .lp-back:focus-visible, .lp-speed:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.lp-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
-.lp-seek { width: 100%; margin: 0; height: 20px; accent-color: var(--accent); cursor: pointer; }
-.lp-side { flex: none; display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
-.lp-time { font-size: 0.8125rem; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
-.lp-tools { display: flex; align-items: center; gap: 4px; }
+.lp-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 9px; }
+.listen-head::after { content: ""; flex: 1; }
+.lp-seek { -webkit-appearance: none; appearance: none; width: 100%; margin: 0; height: 6px; border-radius: 999px; cursor: pointer;
+  background: linear-gradient(to right, var(--accent) var(--p, 0%), #dfe3ea var(--p, 0%)); }
+.lp-seek::-webkit-slider-thumb { -webkit-appearance: none; width: 14px; height: 14px; border-radius: 50%; background: var(--accent); border: 2px solid #fff; box-shadow: 0 1px 3px rgb(17 19 24 / 28%); }
+.lp-seek::-moz-range-thumb { width: 12px; height: 12px; border-radius: 50%; background: var(--accent); border: 2px solid #fff; }
+.lp-seek::-moz-range-track { height: 6px; border-radius: 999px; background: #dfe3ea; }
+.lp-seek:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.lp-side { flex: none; display: flex; align-items: center; gap: 14px; align-self: flex-start; margin-top: 1px; }
+.lp-time { font-size: 0.8125rem; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--ink); white-space: nowrap; }
+.lp-tools { display: flex; align-items: center; gap: 2px; }
 .lp-back, .lp-speed { display: inline-flex; align-items: center; justify-content: center; min-height: 30px; min-width: 30px; padding: 0 6px; border: 0; border-radius: 6px; background: none; color: var(--muted); font: inherit; font-size: 0.8125rem; font-weight: 600; cursor: pointer; }
 .lp-back:hover, .lp-speed:hover { color: var(--accent); background: var(--accent-soft); }
 .lp-rate { position: relative; }
@@ -327,6 +333,14 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .lp-opt:focus-visible { outline: none; box-shadow: inset 0 0 0 2px var(--accent); }
 .lp-opt[aria-checked="true"] { color: var(--accent); }
 @media (pointer: coarse) { .lp-back, .lp-speed { min-height: 44px; min-width: 44px; } .lp-opt { min-height: 44px; } }
+/* On a phone the one-line layout squeezes the bar to nothing, so it drops to a line of its own. */
+@media (max-width: 560px) {
+  .listen.lp-on { flex-wrap: wrap; row-gap: 10px; }
+  .lp-body { display: contents; }
+  .listen-head { flex: 1; min-width: 0; }
+  .lp-seek { flex: 1 1 100%; order: 5; }
+  .lp-side { margin-left: auto; align-self: center; margin-top: 0; }
+}
 
 /* questions: quiet rows that open on request */
 .qs { margin: 22px 0 0; }
