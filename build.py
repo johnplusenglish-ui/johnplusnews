@@ -1497,11 +1497,15 @@ def listen_html(a):
         if not v["audio"]:
             continue
         voice = '<span class="listen-voice">{}</span>'.format(esc(v["voice"])) if v["voice"] else ""
+        # a words file next to the recording lets the reader follow the words as they are spoken
+        words = v["audio"].rsplit(".", 1)[0] + ".words.json"
+        has_words = (STATIC / words.lstrip("/")).is_file()
         out.append(
-            '<div class="listen"{id}{hidden} data-title="{title}"><div class="listen-head"><span class="listen-label">Listen</span>{voice}</div>'
+            '<div class="listen"{id}{hidden} data-title="{title}"{words}><div class="listen-head"><span class="listen-label">Listen</span>{voice}</div>'
             '<audio class="listen-audio" controls preload="metadata" src="{src}"></audio></div>'.format(
                 id=' id="l-{}"'.format(v["level"].lower()) if multi else "", hidden=" hidden" if multi and i != d else "",
-                title=esc(v["title"]), voice=voice, src=esc(v["audio"])))
+                title=esc(v["title"]), voice=voice, src=esc(v["audio"]),
+                words=' data-words="{}"'.format(esc(asset(words))) if has_words else ""))
     return "\n".join(out)
 
 
@@ -1509,7 +1513,12 @@ def listen_script(a):
     f = STATIC / "listen.js"
     if not f.exists() or not any(v["audio"] for v in a["versions"]):
         return ""
-    return '<script src="/listen.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
+    out = '<script src="/listen.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
+    r = STATIC / "readalong.js"
+    if r.exists() and any(v["audio"] and (STATIC / (v["audio"].lstrip("/").rsplit(".", 1)[0] + ".words.json")).is_file()
+                          for v in a["versions"]):
+        out += '<script src="/readalong.js?v={}" defer></script>\n'.format(hashlib.md5(r.read_bytes()).hexdigest()[:8])
+    return out
 
 
 def topics_html(a):

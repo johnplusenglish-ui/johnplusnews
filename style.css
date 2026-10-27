@@ -331,6 +331,8 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .lp-opt:hover { background: #f3f5f8; }
 .lp-opt:focus-visible { outline: none; box-shadow: inset 0 0 0 2px var(--accent); }
 .lp-opt[aria-checked="true"] { color: var(--accent); }
+/* the word being spoken; painted as a Range, so the article markup is untouched */
+::highlight(readalong) { background-color: #cfe0fb; color: var(--ink); }
 @media (pointer: coarse) { .lp-back, .lp-speed { min-height: 44px; min-width: 44px; } .lp-opt { min-height: 44px; } }
 /* On a phone the one-line layout squeezes the bar to nothing, so it drops to a line of its own. */
 @media (max-width: 560px) {
