@@ -8,8 +8,9 @@
   var rows = [].slice.call(document.querySelectorAll(".listen"));
   if (!rows.length) return;
 
-  /* Learners slow a recording down, they do not speed it up, so the steps run from normal to three quarters. */
-  var SPEEDS = [1, 0.95, 0.9, 0.85, 0.8, 0.75];
+  /* Two gentle steps down and no further: the browser time-stretches the audio to slow it, and past
+     about 0.9 that starts to sound watery, which helps nobody. */
+  var SPEEDS = [1, 0.95, 0.9];
   var PLAY = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>';
   var PAUSE = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"/></svg>';
   /* A solid anticlockwise replay arrow, to match the filled play and pause marks. */
