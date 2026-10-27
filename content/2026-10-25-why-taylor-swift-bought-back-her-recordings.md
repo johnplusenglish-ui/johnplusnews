@@ -7,8 +7,7 @@ category: Music & style
 order: 14
 image: images/why-taylor-swift-bought-back-her-recordings-aa0175.jpg
 image-alt: A young woman holding a vinyl record in a colourful sleeve against her chest and a small golden key in her other hand, smiling.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 source: Taylor Swift, letter to fans | https://www.taylorswift.com/read-my-letter/
 source-date: 30 May 2025
 source-2: Music Business Worldwide, report on the purchase | https://www.musicbusinessworldwide.com/taylor-swift-buys-back-master-rights-to-first-six-albums-from-shamrock-capital

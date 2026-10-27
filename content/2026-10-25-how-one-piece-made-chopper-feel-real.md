@@ -7,8 +7,7 @@ category: TV, film & fandom
 order: 20
 image: images/how-one-piece-made-chopper-feel-real-894e0b.jpg
 image-alt: A young man in a navy sweatshirt holds a soft plush reindeer in one hand and a sheet of paper with a cartoon reindeer drawing in the other.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 source: Netflix Tudum, introducing Tony Tony Chopper | https://www.netflix.com/tudum/articles/one-piece-season-2-tony-tony-chopper
 source-date: 2 June 2025
 source-2: Netflix Tudum, Bringing Chopper to Life in ONE PIECE Season 2 (video page) | https://www.netflix.com/tudum/videos/one-piece-season-2-bringing-chopper-to-life

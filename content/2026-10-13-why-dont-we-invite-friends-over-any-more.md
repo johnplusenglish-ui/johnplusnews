@@ -5,8 +5,7 @@ summary: A casual cup of tea has acquired a long list of conditions: a clean hom
 tags: Relationships, Lifestyle
 image: images/why-dont-we-invite-friends-over-any-more-b64ce6.jpg
 image-alt: Five adults clink wine glasses across a kitchen table loaded with pasta, salad and bread, laughing under a low lamp in a city flat at night.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

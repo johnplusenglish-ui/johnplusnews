@@ -5,8 +5,7 @@ tags: Music, Society
 source: The Arizona State Press and LBC | https://www.statepress.com/article/2026/09/priced-out-of-concerts
 image: images/when-did-going-to-a-concert-become-a-luxury-2d54b7.jpg
 image-alt: A hand holds a creased paper concert ticket from 2003 marked 42 euros beside a phone showing a digital ticket with a QR code and a price of 385 euros.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

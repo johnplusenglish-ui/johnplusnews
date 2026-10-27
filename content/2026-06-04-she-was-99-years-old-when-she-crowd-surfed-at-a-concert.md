@@ -5,8 +5,7 @@ tags: Lifestyle, Music
 source: Guinness World Records | https://www.guinnessworldrecords.com/news/2026/6/gangster-granny-crowd-surfs-at-age-99-during-concert-claims-record-for-rockin-ride
 image: images/she-was-99-years-old-when-she-crowd-surfed-at-a-concert-8c2c61.jpg
 image-alt: An older woman with white hair lies on a stretcher held up by many hands above a packed outdoor concert crowd at sunset, waving one arm and laughing.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

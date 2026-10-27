@@ -5,8 +5,7 @@ tags: Relationships, Society
 source: Reuters | https://www.reuters.com/world/asia-pacific/hiking-hotpot-lonely-consumers-china-fuel-74-billion-companionship-economy-2026-06-02/
 image: images/would-you-pay-someone-to-be-your-friend-475fbe.jpg
 image-alt: A woman holds out her phone to scan a QR code on a young man's phone on a willow-lined lakeside path, with pleasure boats and wooded hills behind them.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

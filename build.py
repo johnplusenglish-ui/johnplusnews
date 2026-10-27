@@ -978,7 +978,7 @@ def about_page():
             '<ul class="about-levels">'
             '<li><b>The writing</b> is drafted with AI assistance and then edited by John. Every article says so, under <b>About this article</b> at the foot of the page.</li>'
             '<li><b>The images</b> are generated for this site. They are illustrations, not photographs of the events '
-            'reported, and each one is labelled <b>AI-generated image</b> under the picture. Where a story is about a '
+            'reported, and each one is labelled <b>AI illustration</b> under the picture. Where a story is about a '
             'real named person, the image does not claim to show them.</li>'
             '<li><b>The facts</b> are the part AI is worst at, so the figures, names and dates in an article should match '
             'the source we link to. If one does not, that is a mistake and we want to hear about it.</li>'
@@ -1607,7 +1607,8 @@ def article_page(a, newer, older, pool=()):
                 parts.append('<a href="{}" target="_blank" rel="noopener noreferrer">{}</a>'.format(esc(url), esc(text)) if url else esc(text))
         if a["image_credit_note"]:
             parts.append(esc(a["image_credit_note"]))
-        credit = '<figcaption class="credit">{}: {}</figcaption>'.format(esc(a["image_credit_label"] or "Photograph"), ", ".join(parts)) if parts else ""
+        label = esc(a["image_credit_label"] or "Photograph")
+        credit = '<figcaption class="credit">{}</figcaption>'.format(label + (": " + ", ".join(parts) if parts else "")) if (parts or a["image_credit_label"]) else ""
         img = ('<figure class="hero"><img class="hero-img" src="{}"{} sizes="(max-width: 760px) 92vw, 680px" '
                'alt="{}" width="1400" height="933" fetchpriority="high" decoding="async">{}</figure>').format(
             esc(asset(a["image"])), srcset(a["image"], 1400), esc(a["image_alt"]), credit)
@@ -1620,9 +1621,11 @@ def article_page(a, newer, older, pool=()):
     # the AI note still sits on every article, but behind one quiet line instead of under the source;
     # print keeps the plain sentence, since a closed details prints as nothing
     source += ('<details class="art-about"><summary>About this article</summary>'
-               '<p class="ai-note">Written with AI assistance and edited by John. '
+               '<p class="ai-note">Written with AI assistance and edited by John. The illustration is '
+               'generated for this site; it is not a photograph of the events reported. '
                'Spotted a mistake? <a href="/contact/">Tell us</a>.</p></details>'
-               '<p class="ai-note ai-print">Written with AI assistance and edited by John.</p>')
+               '<p class="ai-note ai-print">Written with AI assistance and edited by John. '
+               'The illustration is AI-generated.</p>')
     more = related(a, pool)
     pager = ('<section class="continue-reading" aria-labelledby="continue-title">'
              '<h2 class="sec-h sec-h-sm" id="continue-title">Continue reading</h2>'

@@ -5,8 +5,7 @@ tags: Science, Health
 source: The Guardian | https://www.theguardian.com/society/2026/oct/07/gene-therapy-can-partly-restore-sight-in-blind-people-researchers-reveal
 image: images/can-scientists-give-blind-people-their-sight-back-4dc2b5.jpg
 image-alt: An older man in a blue jumper, wearing bulky electronic goggles, reaches for an orange notebook on a white table while a woman in a lab coat watches holding a tablet.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

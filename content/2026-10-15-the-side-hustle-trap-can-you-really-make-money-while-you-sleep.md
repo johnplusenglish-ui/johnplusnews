@@ -5,8 +5,7 @@ tags: Business, Work
 source: The Guardian | https://www.theguardian.com/business/ng-interactive/2026/oct/13/influencers-passive-income-side-hustles
 image: images/the-side-hustle-trap-can-you-really-make-money-while-you-sleep-d963f3.jpg
 image-alt: A woman in a coral jumper sits at a desk in a bedroom after dark, peeling a printed label onto a padded envelope beside a pile of parcels and an open laptop.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

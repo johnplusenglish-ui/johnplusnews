@@ -6,8 +6,7 @@ tags: Culture, Business
 source: Financial Times | https://www.ft.com/content/4d273c11-7dac-471b-a4a3-18c2ccd71fc8
 image: images/can-fashion-help-save-ukraines-culture-2891b9.jpg
 image-alt: Two weathered hands stitch a red and black cross-stitch pattern onto white linen, the person sewing wearing a shirt embroidered in the same colours.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

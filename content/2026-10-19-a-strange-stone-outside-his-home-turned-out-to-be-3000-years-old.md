@@ -5,8 +5,7 @@ tags: History, Culture
 source: Ahram Online | https://english.ahram.org.eg/NewsContent/9/40/578928/Antiquities/Ancient-Egypt/Egypt-discovers-remains-of-two-colossal-statues-of.aspx
 image: images/a-strange-stone-outside-his-home-turned-out-to-be-3000-years-old-343c0f.jpg
 image-alt: A large stone block carved with rows of hieroglyphs lies in a dusty village street, a bucket and a glass of tea resting on top and chickens pecking beside it.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

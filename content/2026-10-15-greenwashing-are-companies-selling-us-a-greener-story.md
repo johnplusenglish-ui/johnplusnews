@@ -5,8 +5,7 @@ tags: Environment, Society
 source: UK Advertising Standards Authority | https://www.asa.org.uk/rulings/eurowings-gmbh---a26-1326605-eurowings-gmbh.html
 image: images/greenwashing-are-companies-selling-us-a-greener-story-17abcf.jpg
 image-alt: A hand holds up a bright green plastic bottle labelled ECO, printed with leaves and a globe, in front of a factory with four smoking chimneys.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -9,8 +9,7 @@ source: BBC News, Annabel Rackham | https://www.bbc.com/news/articles/cly599xlll
 source-date: 8 August 2026
 image: images/what-makes-a-bad-photo-a-good-memory-581c24.jpg
 image-alt: A young person grinning and holding up a blurry instant photo of two laughing faces.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -9,8 +9,7 @@ source: Spotify Newsroom, Loud & Clear 2026 | https://newsroom.spotify.com/2026-
 source-date: 11 March 2026
 image: images/why-a-great-song-doesnt-need-your-language-33f8bc.jpg
 image-alt: A young man in over-ear headphones and a blue zip-up jacket dances with one fist raised, his eyes closed and his mouth open in a wide grin.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

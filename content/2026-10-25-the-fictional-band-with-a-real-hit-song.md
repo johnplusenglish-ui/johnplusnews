@@ -7,8 +7,7 @@ category: Music & style
 order: 19
 image: images/the-fictional-band-with-a-real-hit-song-9eaef7.jpg
 image-alt: A young woman in a cream hoodie with headphones round her neck, smiling and holding up a framed illustration of a three-piece cartoon band on stage.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 source: Netflix Tudum, Stephan Lee, oral history of "Golden" | https://www.netflix.com/tudum/features/kpop-demon-hunters-golden-oral-history
 source-date: 18 February 2026
 ---

@@ -5,8 +5,7 @@ tags: Work, Society
 source: Japan Ministry of Health, Labour and Welfare | https://www.mhlw.go.jp/stf/newpage_76612.html
 image: images/work-work-work-is-japan-rethinking-the-office-life-42436d.jpg
 image-alt: A young man in a white shirt holds his jacket and briefcase as if leaving, while an older colleague works on at a desk, a lit city skyline beyond the windows.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

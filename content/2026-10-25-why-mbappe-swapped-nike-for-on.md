@@ -7,8 +7,7 @@ category: Sport
 order: 13
 image: images/why-mbappe-swapped-nike-for-on-8858b2.jpg
 image-alt: A young man in a grey top and jogging bottoms holding up a white football boot in one hand and a black one in the other, against a red background.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 source: On, announcement of its entry into football | https://press.on-running.com/on-enters-football-alongside-kylian-mbappe
 source-date: 18 September 2026
 source-2: Reuters, republished by Investing.com | https://www.investing.com/news/stock-market-news/mbappe-leaves-nike-signs-with-on-as-swiss-sportswear-maker-forays-into-soccer-4907702

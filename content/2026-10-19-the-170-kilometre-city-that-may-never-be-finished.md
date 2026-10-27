@@ -5,8 +5,7 @@ tags: Technology, Business
 source: Semafor | https://www.semafor.com/article/05/22/2026/saudis-neom-halts-work-on-the-line-until-after-2030
 image: images/the-170-kilometre-city-that-may-never-be-finished-0c612a.jpg
 image-alt: A vast desert building site where concrete foundations, cranes and lorries stretch in a dead straight line to the horizon, with a man in white robes and a hard hat reading a tablet.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -7,8 +7,7 @@ category: Hobbies
 order: 25
 image: images/the-school-sketch-that-led-to-a-book-c41e0c.jpg
 image-alt: A young woman sitting on a stool with a sketchbook showing a pencil portrait of a smiling older man in a hat.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 source: BBC News, Mariam Issimdar, Teenage artist finds confidence in illustrating | https://www.bbc.com/news/articles/ckge433vgp7po
 source-date: 5 October 2026
 ---

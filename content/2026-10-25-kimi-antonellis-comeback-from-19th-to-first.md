@@ -7,8 +7,7 @@ category: Sport
 order: 29
 image: images/kimi-antonellis-comeback-from-19th-to-first-280bbc.jpg
 image-alt: A young racing driver in a silver suit holding up a golden trophy and a helmet, with a huge grin.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 source: Formula 1, Antonelli's Italian Grand Prix victory from P19 | https://www.formula1.com/en/latest/article/could-never-have-imagined-antonellis-italian-grand-prix-victory-from-p19-a-dream-coming-true.7oXpbc6pFWmhLpIULsFBfG
 source-date: 6 September 2026
 ---

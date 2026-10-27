@@ -5,8 +5,7 @@ tags: Travel, Lifestyle
 source: Marist Poll | https://maristpoll.marist.edu/polls/summer-travel-july-2025/
 image: images/is-the-best-holiday-one-where-you-do-absolutely-nothing-5736d6.jpg
 image-alt: People sit at blue cafe tables along a stone quayside in a whitewashed harbour village, with small fishing boats moored in clear turquoise water.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

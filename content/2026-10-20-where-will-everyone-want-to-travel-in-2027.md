@@ -6,8 +6,7 @@ tags: Travel, Culture
 source: Expedia UK Newsroom | https://www.expedia.co.uk/newsroom/unpack-27-expedia-and-hotels-com-unveil-the-trends-driving-travel-in-2027/
 image: images/where-will-everyone-want-to-travel-in-2027-922283.jpg
 image-alt: Four instant photographs of a clifftop coast, an iron tower by a river, a grand historic building and a palm-fringed beach lie on a folded world map, one held by a hand.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -5,8 +5,7 @@ tags: Relationships, Lifestyle
 source: Korea JoongAng Daily | https://www.koreajoongangdaily.com/korea/couplesnbspcrash-strangers-weddings-to-catch-free-glimpses-of-venues/12740550
 image: images/why-are-couples-crashing-strangers-weddings-abf85b.jpg
 image-alt: A smartly dressed couple peer round a wall at the back of a chandelier-lit wedding hall, the man holding up a phone and pressing a finger to his lips.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

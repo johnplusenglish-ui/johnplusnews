@@ -6,8 +6,7 @@ tags: Work, Health
 source: Journal of Health Economics | https://www.sciencedirect.com/science/article/pii/S0167629626000597
 image: images/could-retiring-early-be-bad-for-your-brain-ec6066.jpg
 image-alt: An older woman with short grey hair, in a coral shirt and denim apron, sits at a garden table with a pen to her lips over a newspaper crossword.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

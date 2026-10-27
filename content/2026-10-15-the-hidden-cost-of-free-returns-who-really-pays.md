@@ -5,8 +5,7 @@ tags: Business, Environment
 source: The Guardian | https://www.theguardian.com/business/2026/oct/04/retailers-returns-small-business
 image: images/the-hidden-cost-of-free-returns-who-really-pays-626186.jpg
 image-alt: Two warehouse workers in high-visibility vests sort returned clothing, one holding up a green jacket to inspect it while the other opens a box of bagged garments.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

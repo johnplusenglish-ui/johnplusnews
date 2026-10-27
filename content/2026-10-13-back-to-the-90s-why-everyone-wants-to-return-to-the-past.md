@@ -5,8 +5,7 @@ summary: CDs, film cameras and 1990s clothes are selling again. Is the appeal th
 tags: Culture, Technology
 image: images/back-to-the-90s-why-everyone-wants-to-return-to-the-past-e7cb8d.jpg
 image-alt: A cassette tape, a CD and two jewel cases, a yellow personal stereo with orange headphones, a disposable camera and sunglasses laid out on a bright blue background.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -5,8 +5,7 @@ tags: Travel, Lifestyle
 source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/oct/13/karl-bushby-incredible-28-year-walk-home-goliath-expedition-hull
 image: images/the-man-who-spent-28-years-walking-home-2e72ee.jpg
 image-alt: A lone hiker with a large orange rucksack and a wooden walking stick follows a stony path above a turquoise lake towards snow-covered mountain peaks.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

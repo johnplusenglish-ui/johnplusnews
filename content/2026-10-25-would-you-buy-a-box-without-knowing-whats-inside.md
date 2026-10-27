@@ -9,8 +9,7 @@ source: Associated Press, Michelle Chapman (updated 4 June 2025; a dated example
 source-date: 4 June 2025
 image: images/would-you-buy-a-box-without-knowing-whats-inside-ea2955.jpg
 image-alt: A grinning young man in a coral hoodie holding a brown box tied with red ribbon and marked with a large question mark up to his ear.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -6,8 +6,7 @@ tags: Health, Environment
 source: Journal of Environmental Psychology | https://doi.org/10.1016/j.jenvp.2025.102802
 image: images/can-a-walk-in-nature-really-make-you-happier-eac73e.jpg
 image-alt: A man in a blue jacket and a woman in a red jacket walk and laugh together along a gravel path through green woodland, with another walker and a dog behind them.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -7,8 +7,7 @@ category: TV, film & fandom
 order: 22
 image: images/when-minecraft-fans-turned-the-cinema-into-a-show-0c3d81.jpg
 image-alt: Three people in cinema seats: one cheering with a rubber chicken, one laughing with popcorn, and one covering his ears.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 source: ABC News, Sohani Goonetillake and Dannielle Maguire | https://www.abc.net.au/news/2025-04-17/a-minecraft-movie-chicken-jockey-cinema-/105177846
 source-date: 17 April 2025, updated 18 April 2025
 ---

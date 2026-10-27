@@ -7,8 +7,7 @@ category: Sport
 order: 15
 image: images/gilberto-mora-a-world-cup-debut-at-17-866b05.jpg
 image-alt: A young footballer in a green and red kit holding a ball, standing between two older teammates, one with a hand on his shoulder, against a purple background.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 source: FIFA, Gilberto Mora, la joya del fútbol mexicano (in Spanish) | https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/gilberto-mora-joya-mexico-copa-mundial
 source-date: 27 June 2026
 source-2: Associated Press, via WTOP | https://wtop.com/sports/2026/06/gilberto-mora-becomes-the-youngest-to-start-in-a-world-cup-for-mexico-at-age-17/

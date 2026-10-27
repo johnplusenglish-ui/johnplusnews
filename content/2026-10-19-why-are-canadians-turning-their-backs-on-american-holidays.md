@@ -6,8 +6,7 @@ tags: Travel, Politics
 source: Associated Press | https://apnews.com/article/42ea6dd35e3ee24898f6a07495576435
 image: images/why-are-canadians-turning-their-backs-on-american-holidays-c3423d.jpg
 image-alt: A family stands on a wooden jetty beside a row of red canoes looking out over a turquoise mountain lake, a small child crouching to dip a hand in the water.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

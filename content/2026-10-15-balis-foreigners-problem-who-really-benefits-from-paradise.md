@@ -5,8 +5,7 @@ tags: Travel, Society
 source: Channel NewsAsia | https://www.channelnewsasia.com/asia/indonesia-bali-content-creators-influencers-visa-crackdown-6311031
 image: images/balis-foreigners-problem-who-really-benefits-from-paradise-566ba3.jpg
 image-alt: A man in a coral shirt films himself on a phone gimbal at a breakfast table while a waiter in a green headdress sets down a fresh coconut, rice fields behind.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

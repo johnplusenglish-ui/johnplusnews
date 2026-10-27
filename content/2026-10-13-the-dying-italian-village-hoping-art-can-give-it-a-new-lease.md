@@ -5,8 +5,7 @@ summary: A million-euro cultural programme offers hope to a hilltop village thre
 tags: Culture, Travel
 image: images/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-318d1f.jpg
 image-alt: A stone hilltop village with a bell tower stands on an eroded cliff, reached by a long narrow footbridge, with wooded valleys and hazy hills behind.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -6,8 +6,7 @@ tags: Relationships, Health
 source: American Academy of Sleep Medicine | https://aasm.org/new-survey-data-sleep-divorce/
 image: images/would-you-sleep-better-without-your-partner-d29714.jpg
 image-alt: A grey-bearded man sleeps open-mouthed on his back in bed while the woman beside him presses a pillow over one ear and glares at him, lamps lit on both sides.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

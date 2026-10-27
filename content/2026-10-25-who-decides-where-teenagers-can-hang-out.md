@@ -8,8 +8,7 @@ order: 9
 source: B-Murals, +Ciutat Jugable project page (in Catalan, undated, part of Barcelona's 2026 architecture programme) | https://www.bmurals.com/area-transformacio/ciutatjugable
 image: images/who-decides-where-teenagers-can-hang-out-f46411.jpg
 image-alt: A teenage boy with a basketball stands beside a round sign showing a basketball crossed out, while a girl sitting on a concrete block shrugs at him.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

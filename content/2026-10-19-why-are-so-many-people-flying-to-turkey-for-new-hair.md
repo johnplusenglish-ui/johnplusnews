@@ -5,8 +5,7 @@ tags: Health, Lifestyle
 source: The Guardian | https://www.theguardian.com/fashion/2026/mar/09/inside-the-hair-transplant-capital-of-the-world-istanbul
 image: images/why-are-so-many-people-flying-to-turkey-for-new-hair-1439af.jpg
 image-alt: A doctor in a white coat draws a dotted line across a seated man's thinning hairline with a marker pen, holding a round mirror up in front of him.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

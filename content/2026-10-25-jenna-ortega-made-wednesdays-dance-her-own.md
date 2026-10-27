@@ -7,8 +7,7 @@ category: TV, film & fandom
 order: 18
 image: images/jenna-ortega-made-wednesdays-dance-her-own-6819c1.jpg
 image-alt: A young woman in a dark grey knitted dress and black boots posed mid-dance with her arms out and hands splayed, against a plain yellow background.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 source: Netflix Tudum, John DiLillo, "Watch Jenna Ortega Get Down in the Haunting Wednesday Dance Scene" | https://www.netflix.com/tudum/articles/wednesday-dance-scene-jenna-ortega
 source-date: 25 November 2022
 ---

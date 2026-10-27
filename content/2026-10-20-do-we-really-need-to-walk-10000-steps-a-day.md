@@ -6,8 +6,7 @@ tags: Health, Lifestyle
 source: The Lancet Public Health | https://pubmed.ncbi.nlm.nih.gov/40713949/
 image: images/do-we-really-need-to-walk-10000-steps-a-day-8b601b.jpg
 image-alt: Coral running shoes seen from above on grey stone, beside a black smartwatch showing a step counter, a small yellow stopwatch and a white water bottle.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -5,8 +5,7 @@ summary: Finding the right partner isn't always easy. Now, Singapore has launche
 tags: Technology, Relationships
 image: images/can-the-government-help-you-find-love-singapore-thinks-so-123894.jpg
 image-alt: Two people sit talking and laughing over iced coffee at an outdoor cafe table, with shophouses and city towers behind them.
-image-credit: JohnPlusNews, created with AI assistance
-image-credit-label: Illustration
+image-credit-label: AI illustration
 ---
 === Core ===
 
