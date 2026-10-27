@@ -1,0 +1,305 @@
+{
+  "slug": "has-streaming-beaten-the-cinema",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "You can stay where you are, make something to eat and ____ it on the screen in the corner of the room.",
+            "a": "stream"
+          },
+          {
+            "s": "Only 16% said they go to a cinema at least ____.",
+            "a": "once a month"
+          },
+          {
+            "s": "One monthly payment covers the whole ____, while cinema tickets are bought one at a time.",
+            "a": "household"
+          },
+          {
+            "s": "In Europe, about ____ cinema tickets were sold in 2025.",
+            "a": "796 million"
+          },
+          {
+            "s": "The habit has changed, not the ____.",
+            "a": "taste"
+          }
+        ],
+        "extra": [
+          "television",
+          "journey"
+        ]
+      },
+      "match": [
+        {
+          "t": "ticket",
+          "d": "what you buy to be allowed in"
+        },
+        {
+          "t": "stream",
+          "d": "watch something over the internet as it plays"
+        },
+        {
+          "t": "screen",
+          "d": "the flat surface a film is shown on"
+        },
+        {
+          "t": "household",
+          "d": "all the people who live together in one home"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "It is Friday evening and there ____ a new film you want to see.",
+            "cue": "be",
+            "a": "is"
+          },
+          {
+            "s": "AP-NORC ____ 1,182 adults in August 2025 about their film habits.",
+            "cue": "ask",
+            "a": "asked"
+          },
+          {
+            "s": "Three quarters of them ____ a recently released film at home.",
+            "cue": "watch",
+            "a": "had watched"
+          },
+          {
+            "s": "About 796 million cinema tickets ____ in Europe in 2025.",
+            "cue": "sell",
+            "a": "were sold"
+          },
+          {
+            "s": "People ____ the cinema for the films they think deserve it.",
+            "cue": "save",
+            "a": "save"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "AP-NORC asked 1,182 adults about their film habits in August 2025.",
+          "a": "T",
+          "why": "The text says: \"AP-NORC asked 1,182 adults in August 2025 about their film habits.\""
+        },
+        {
+          "s": "European cinemas sold more tickets in 2025 than in the year before.",
+          "a": "F",
+          "why": "The text says the opposite: \"That is fewer than the year before, but it is still an enormous number of people choosing to leave the house for a film.\""
+        },
+        {
+          "s": "Cinema tickets cost more now than they did ten years ago.",
+          "a": "N",
+          "why": "Not stated. The text says cinema tickets are bought one at a time, but it gives no prices from the past."
+        },
+        {
+          "s": "The British Film Institute found that younger adults valued the cinema as a place where they actually watch.",
+          "a": "T",
+          "why": "The text says: \"Research by the British Film Institute in 2025 found that younger adults valued the cinema partly because it is a place where they actually watch, without checking a phone.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "There are two ways to see it, and ____ usually wins.",
+            "a": "convenience"
+          },
+          {
+            "s": "Cinemas have responded by selling the ____ a living room cannot reproduce.",
+            "a": "atmosphere"
+          },
+          {
+            "s": "Around a third streamed a new ____ at home every month.",
+            "a": "release"
+          },
+          {
+            "s": "An ____ that chooses to be there is a smaller business than the one cinemas used to run.",
+            "a": "audience"
+          },
+          {
+            "s": "Only 14% wanted cinemas to relax their rules about talking or ____.",
+            "a": "phone use"
+          }
+        ],
+        "extra": [
+          "subscription",
+          "admissions"
+        ]
+      },
+      "match": [
+        {
+          "t": "atmosphere",
+          "d": "the feeling a place gives the people in it"
+        },
+        {
+          "t": "convenience",
+          "d": "the quality of being easy and causing little effort"
+        },
+        {
+          "t": "release",
+          "d": "a film that has recently been made available"
+        },
+        {
+          "t": "audience",
+          "d": "the people watching something together"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "A single ____ covers a household for a month.",
+            "cue": "SUBSCRIBE",
+            "a": "subscription"
+          },
+          {
+            "s": "European ____ fell by around 5.5% in 2025.",
+            "cue": "ADMIT",
+            "a": "admissions"
+          },
+          {
+            "s": "The attention is part of the ____ rather than an inconvenience.",
+            "cue": "ATTRACT",
+            "a": "attraction"
+          },
+          {
+            "s": "For some households it is the only ____ option.",
+            "cue": "REAL",
+            "a": "realistic"
+          },
+          {
+            "s": "They describe frequency rather than ____.",
+            "cue": "LOYAL",
+            "a": "loyalty"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "In the AP-NORC poll, 16% visited a cinema at least monthly.",
+          "a": "T",
+          "why": "The text says: \"Around a third streamed a new release at home every month, while only 16% visited a cinema that often.\""
+        },
+        {
+          "s": "Most people choose either streaming or the cinema, but not both.",
+          "a": "F",
+          "why": "The text says the opposite: \"The same poll suggests many people do both.\""
+        },
+        {
+          "s": "European box office revenue fell sharply in 2025.",
+          "a": "F",
+          "why": "The text says the opposite: \"European admissions fell by around 5.5% in 2025 to roughly 796 million, yet box office revenue stayed broadly level.\""
+        },
+        {
+          "s": "Cinema ticket prices in the UK rose during 2025.",
+          "a": "N",
+          "why": "Not stated. The text discusses what tickets cost per person but gives no figures for UK price changes."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Audiences did not abandon the building; they stopped treating it as the ____.",
+            "a": "default"
+          },
+          {
+            "s": "The building has to ____ on something other than access.",
+            "a": "compete"
+          },
+          {
+            "s": "What remains is ____ rather than convenient.",
+            "a": "distinctive"
+          },
+          {
+            "s": "European ____ dropped about 5.5% in 2025.",
+            "a": "attendance"
+          },
+          {
+            "s": "Global takings still sat about ____ below their pre-pandemic average.",
+            "a": "30%"
+          }
+        ],
+        "extra": [
+          "spectacle",
+          "equilibrium"
+        ]
+      },
+      "match": [
+        {
+          "t": "default",
+          "d": "what happens unless a different choice is made"
+        },
+        {
+          "t": "distinctive",
+          "d": "clearly different from everything else"
+        },
+        {
+          "t": "attendance",
+          "d": "the number of people who come"
+        },
+        {
+          "t": "spectacle",
+          "d": "something impressive to look at"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Recovery has been ____.",
+            "cue": "EVEN",
+            "a": "uneven"
+          },
+          {
+            "s": "A global figure assembled from very different national ____ should be handled carefully.",
+            "cue": "RECOVER",
+            "a": "recoveries"
+          },
+          {
+            "s": "It cannot be stretched into a global ____.",
+            "cue": "JUDGE",
+            "a": "judgement"
+          },
+          {
+            "s": "Scale, sound and the absence of a pause button amount to an argument for ____.",
+            "cue": "ATTEND",
+            "a": "attention"
+          },
+          {
+            "s": "Scarcity has a way of making that feel more ____, not less.",
+            "cue": "VALUE",
+            "a": "valuable"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The AP-NORC poll measured how often people watched films rather than which they preferred.",
+          "a": "T",
+          "why": "The text says: \"The poll is American and measures frequency, so it cannot be stretched into a global judgement, but the direction is not in doubt.\""
+        },
+        {
+          "s": "Global box office takings in 2025 were higher than before the pandemic.",
+          "a": "F",
+          "why": "The text says the opposite: \"Global takings grew roughly 5% in the same year and still sat about 30% below their pre-pandemic average.\""
+        },
+        {
+          "s": "Asia's largest markets accounted for most of the increase in 2025.",
+          "a": "T",
+          "why": "The text says: \"The Observatory credits Asia's largest markets with most of the 2025 increase, and national films led the box office in several of them.\""
+        },
+        {
+          "s": "Cinema chains in Europe closed screens during 2025.",
+          "a": "N",
+          "why": "Not stated. The text gives attendance and revenue figures but says nothing about closures."
+        }
+      ]
+    }
+  }
+}

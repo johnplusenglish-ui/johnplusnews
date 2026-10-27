@@ -1,0 +1,305 @@
+{
+  "slug": "therapy-is-more-normal-is-it-easier-to-get",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Of those who had seen a therapist, 72% said they found it ____.",
+            "a": "helpful"
+          },
+          {
+            "s": "Some need a different kind of ____ entirely.",
+            "a": "support"
+          },
+          {
+            "s": "Thirty-five per cent said the ____ stopped them.",
+            "a": "cost"
+          },
+          {
+            "s": "None of this makes ____ less valuable.",
+            "a": "listening"
+          },
+          {
+            "s": "What a person usually wants first is somewhere ____ to say the thing out loud.",
+            "a": "private"
+          }
+        ],
+        "extra": [
+          "appointment",
+          "improvement"
+        ]
+      },
+      "match": [
+        {
+          "t": "helpful",
+          "d": "making a situation easier or better"
+        },
+        {
+          "t": "support",
+          "d": "help given to someone who needs it"
+        },
+        {
+          "t": "appointment",
+          "d": "an arranged time to meet someone"
+        },
+        {
+          "t": "private",
+          "d": "not shared with other people"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Twenty years ago, saying \"I'm seeing a therapist\" could ____ a conversation.",
+            "cue": "stop",
+            "a": "stop"
+          },
+          {
+            "s": "Between February and March 2026, YouGov ____ 5,058 adults about therapy.",
+            "cue": "ask",
+            "a": "asked"
+          },
+          {
+            "s": "It does not mean therapy ____ for everybody.",
+            "cue": "work",
+            "a": "works"
+          },
+          {
+            "s": "Words from the therapy room ____ now used everywhere, in group chats and in videos online.",
+            "cue": "be",
+            "a": "are"
+          },
+          {
+            "s": "A country can be comfortable discussing mental health and still ____ people waiting months for support.",
+            "cue": "leave",
+            "a": "leave"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "In the survey, 37% said they had seen a therapist at some point.",
+          "a": "T",
+          "why": "The text says: \"Thirty-seven per cent said they had seen a therapist at some point, up from 35% the year before.\""
+        },
+        {
+          "s": "The survey shows that therapy works for everybody.",
+          "a": "F",
+          "why": "The text says the opposite: \"It does not mean therapy works for everybody, or that it is the right answer to every problem.\""
+        },
+        {
+          "s": "The survey was repeated in other European countries.",
+          "a": "N",
+          "why": "Not stated. The text describes a UK survey and says nothing about other countries."
+        },
+        {
+          "s": "Cost was given more often than waiting lists as a reason for not starting therapy.",
+          "a": "T",
+          "why": "The text says: \"Thirty-five per cent said the cost stopped them. Twenty-two per cent said the waiting list was too long.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Less ____ may be bringing people forward who would once have stayed quiet.",
+            "a": "stigma"
+          },
+          {
+            "s": "Openness is also cheap, and ____ is not.",
+            "a": "access"
+          },
+          {
+            "s": "Those are practical ____ rather than cultural ones.",
+            "a": "barriers"
+          },
+          {
+            "s": "Useful support depends on a ____ practitioner, a reasonable fit between two people and confidentiality.",
+            "a": "qualified"
+          },
+          {
+            "s": "These are modelled estimates rather than counted ____.",
+            "a": "appointments"
+          }
+        ],
+        "extra": [
+          "awareness",
+          "disagreement"
+        ]
+      },
+      "match": [
+        {
+          "t": "access",
+          "d": "the chance to reach or use something"
+        },
+        {
+          "t": "stigma",
+          "d": "shame attached to something by other people"
+        },
+        {
+          "t": "barriers",
+          "d": "things that stop people getting somewhere"
+        },
+        {
+          "t": "qualified",
+          "d": "properly trained and officially recognised"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Wider ____ may simply have told more people that the option exists.",
+            "cue": "AWARE",
+            "a": "awareness"
+          },
+          {
+            "s": "The shame has faded faster than almost anyone ____ twenty years ago.",
+            "cue": "PREDICTION",
+            "a": "predicted"
+          },
+          {
+            "s": "Clinical terms can be used to close a ____ rather than explore it.",
+            "cue": "AGREE",
+            "a": "disagreement"
+          },
+          {
+            "s": "Nearly two thirds of people in the EU who need mental healthcare face ____ access to it.",
+            "cue": "ADEQUATE",
+            "a": "inadequate"
+          },
+          {
+            "s": "Expectations ____ enough to survive a bad week are part of useful support.",
+            "cue": "REAL",
+            "a": "realistic"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The survey was carried out by YouGov for the British Association for Counselling and Psychotherapy.",
+          "a": "T",
+          "why": "The text says: \"For the British Association for Counselling and Psychotherapy, YouGov surveyed 5,058 UK adults between 16 February and 6 March 2026.\""
+        },
+        {
+          "s": "The survey identifies which single cause is behind the rise.",
+          "a": "F",
+          "why": "The text says the opposite: \"Rising numbers can mean several things at once, which is why the survey cannot settle the argument on its own.\""
+        },
+        {
+          "s": "The OECD figures are based on counted appointments.",
+          "a": "F",
+          "why": "The text says the opposite: \"These are modelled estimates rather than counted appointments, but the direction is consistent with what the UK survey describes.\""
+        },
+        {
+          "s": "Waiting times for therapy in the UK are longer than in the rest of Europe.",
+          "a": "N",
+          "why": "Not stated. The text reports that 22% cited long waiting lists but makes no comparison with other countries."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Therapy has become ____ in the plainest sense: it is discussed without explanation.",
+            "a": "mainstream"
+          },
+          {
+            "s": "The ____ is where the story turns.",
+            "a": "treatment gap"
+          },
+          {
+            "s": "Useful support depends on qualifications, on a reasonable fit between the person and the practitioner, and on ____.",
+            "a": "confidentiality"
+          },
+          {
+            "s": "Clinical vocabulary can also ____, flattening an ordinary conflict into a diagnosis.",
+            "a": "oversimplify"
+          },
+          {
+            "s": "Cultural permission arrived first; ____ has not followed.",
+            "a": "capacity"
+          }
+        ],
+        "extra": [
+          "provision",
+          "workforce"
+        ]
+      },
+      "match": [
+        {
+          "t": "mainstream",
+          "d": "accepted by most people as normal"
+        },
+        {
+          "t": "treatment gap",
+          "d": "the distance between the care people need and the care they get"
+        },
+        {
+          "t": "confidentiality",
+          "d": "the rule that what is said is not passed on"
+        },
+        {
+          "t": "oversimplify",
+          "d": "make something sound less complicated than it is"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Reduced stigma, increased distress, better information and expanded ____ would all produce the same upward line.",
+            "cue": "PROVIDE",
+            "a": "provision"
+          },
+          {
+            "s": "Self-reported ____ is a reasonable signal and a poor measure of clinical outcome.",
+            "cue": "HELP",
+            "a": "helpfulness"
+          },
+          {
+            "s": "The most recent UK evidence suggests a slow upward drift rather than a ____.",
+            "cue": "TRANSFORM",
+            "a": "transformation"
+          },
+          {
+            "s": "Whether that openness becomes an appointment is decided by funding, ____ and waiting times.",
+            "cue": "WORK",
+            "a": "workforce"
+          },
+          {
+            "s": "Choosing between them on a single trend line is a political ____ wearing the clothes of evidence.",
+            "cue": "PREFER",
+            "a": "preference"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The article treats self-reported helpfulness as a weaker measure than a clinical outcome.",
+          "a": "T",
+          "why": "The text says: \"Self-reported helpfulness is a reasonable signal and a poor measure of clinical outcome, and the distinction matters.\""
+        },
+        {
+          "s": "A single survey can show which of the possible causes produced the rise.",
+          "a": "F",
+          "why": "The text says the opposite: \"a single survey cannot separate them\""
+        },
+        {
+          "s": "The OECD recommends a specific level of funding for each member country.",
+          "a": "N",
+          "why": "Not stated. The text cites the OECD's estimates of prevalence and access, not any funding recommendation."
+        },
+        {
+          "s": "The OECD estimates that nearly two thirds of people in the EU needing mental healthcare encounter inadequate access.",
+          "a": "T",
+          "why": "The text says: \"nearly two thirds of people in the EU needing mental healthcare encounter inadequate access\""
+        }
+      ]
+    }
+  }
+}

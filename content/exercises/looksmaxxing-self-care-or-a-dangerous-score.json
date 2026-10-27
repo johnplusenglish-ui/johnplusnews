@@ -1,0 +1,305 @@
+{
+  "slug": "looksmaxxing-self-care-or-a-dangerous-score",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "It means trying to make your ____ as good as possible.",
+            "a": "appearance"
+          },
+          {
+            "s": "Some of the ____ is ordinary and safe.",
+            "a": "advice"
+          },
+          {
+            "s": "You can always find something to ____.",
+            "a": "compare"
+          },
+          {
+            "s": "The ____ is not an accident.",
+            "a": "pressure"
+          },
+          {
+            "s": "Researchers who studied one large looksmaxxing forum in 2023 read ____ comments.",
+            "a": "8,072"
+          }
+        ],
+        "extra": [
+          "skincare",
+          "exercise"
+        ]
+      },
+      "match": [
+        {
+          "t": "appearance",
+          "d": "the way a person looks"
+        },
+        {
+          "t": "advice",
+          "d": "an opinion about what someone should do"
+        },
+        {
+          "t": "compare",
+          "d": "look at two things to see how they differ"
+        },
+        {
+          "t": "pressure",
+          "d": "a strong feeling that you must do something"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "You want a better haircut, so you ____ a video about it.",
+            "cue": "watch",
+            "a": "watch"
+          },
+          {
+            "s": "Some videos push products that ____ never been tested.",
+            "cue": "have",
+            "a": "have"
+          },
+          {
+            "s": "Doctors at Johns Hopkins ____ that this content is reaching boys and teenagers.",
+            "cue": "warn",
+            "a": "have warned"
+          },
+          {
+            "s": "When every feature becomes a number, there is no point where you ____.",
+            "cue": "finish",
+            "a": "have finished"
+          },
+          {
+            "s": "None of this means you should ____ caring how you look.",
+            "cue": "stop",
+            "a": "stop"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Researchers read 8,072 comments from one large looksmaxxing forum.",
+          "a": "T",
+          "why": "The text says: \"Researchers who studied one large looksmaxxing forum in 2023 read 8,072 comments and found users examining each other's faces in tiny detail\""
+        },
+        {
+          "s": "All looksmaxxing advice is dangerous.",
+          "a": "F",
+          "why": "The text says the opposite: \"Some of the advice is ordinary and safe.\""
+        },
+        {
+          "s": "Most teenagers who watch skincare videos go on to watch extreme content.",
+          "a": "N",
+          "why": "Not stated. The text describes how the videos can change but gives no figure for how many viewers follow that path."
+        },
+        {
+          "s": "A doctor would recommend sleeping properly and getting some exercise.",
+          "a": "T",
+          "why": "The text says: \"Sleep properly. Drink water. Get some exercise. Wear clothes that fit you. A doctor would say the same things.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Nobody searches for an ____. They search for a haircut.",
+            "a": "insecurity"
+          },
+          {
+            "s": "The harder question is what the ____ culture does to the people inside it.",
+            "a": "rating"
+          },
+          {
+            "s": "The extreme end is where ____ products, severe diets and self-inflicted injury start to appear.",
+            "a": "unproven"
+          },
+          {
+            "s": "____ is not free, and attention is sold.",
+            "a": "Influence"
+          },
+          {
+            "s": "The report found that 61% of young men follow at least one ____ influencer.",
+            "a": "masculinity"
+          }
+        ],
+        "extra": [
+          "grooming",
+          "evidence"
+        ]
+      },
+      "match": [
+        {
+          "t": "insecurity",
+          "d": "a lack of confidence about yourself"
+        },
+        {
+          "t": "rating",
+          "d": "a score given to show how good something is"
+        },
+        {
+          "t": "influence",
+          "d": "the power to change what other people do"
+        },
+        {
+          "t": "unproven",
+          "d": "not yet shown to work"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The Centre for Young Lives ____ focus groups with boys aged 13 to 18 in late 2025.",
+            "cue": "run",
+            "a": "ran"
+          },
+          {
+            "s": "Boys ____ this content without looking for it.",
+            "cue": "meet",
+            "a": "were meeting"
+          },
+          {
+            "s": "In a study published in March 2025, researchers ____ 8,072 comments.",
+            "cue": "analyse",
+            "a": "analysed"
+          },
+          {
+            "s": "Looksmaxxing promises that effort ____ a result.",
+            "cue": "produce",
+            "a": "will produce"
+          },
+          {
+            "s": "Treating your face as a score is far harder to ____ down.",
+            "cue": "put",
+            "a": "put"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The Centre for Young Lives ran focus groups with boys aged 13 to 18.",
+          "a": "T",
+          "why": "The text says: \"The Centre for Young Lives, which ran focus groups with boys aged 13 to 18 in late 2025, reported in June 2026 that boys were meeting this content without looking for it\""
+        },
+        {
+          "s": "The forum study describes how every teenager who watches a skincare video responds.",
+          "a": "F",
+          "why": "The text says the opposite: \"That is evidence about one community rather than every teenager who watches a skincare video, and it should be read that way.\""
+        },
+        {
+          "s": "Appearance pressure is a new problem that did not exist before social media.",
+          "a": "F",
+          "why": "The text says the opposite: \"Appearance pressure has been aimed at girls for decades.\""
+        },
+        {
+          "s": "Social media companies have removed looksmaxxing content from their platforms.",
+          "a": "N",
+          "why": "Not stated. The text describes how the content spreads but says nothing about platforms removing it."
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "The authors describe sustained ____ of minute physical features.",
+            "a": "scrutiny"
+          },
+          {
+            "s": "What makes the ranking durable is how easily it can be ____.",
+            "a": "monetised"
+          },
+          {
+            "s": "A ____ with no top keeps everybody buying.",
+            "a": "hierarchy"
+          },
+          {
+            "s": "A person can refuse the premise that their ____ moves up and down with a score.",
+            "a": "self-worth"
+          },
+          {
+            "s": "A maximum implies a scale, and a scale implies a ____.",
+            "a": "rank"
+          }
+        ],
+        "extra": [
+          "alteration",
+          "premise"
+        ]
+      },
+      "match": [
+        {
+          "t": "scrutiny",
+          "d": "close and critical examination"
+        },
+        {
+          "t": "monetised",
+          "d": "turned into a source of money"
+        },
+        {
+          "t": "self-worth",
+          "d": "the value a person places on themselves"
+        },
+        {
+          "t": "hierarchy",
+          "d": "an order that ranks people above one another"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Looksmaxxing suggests effort, ____ and a plan.",
+            "cue": "DISCIPLINE",
+            "a": "discipline"
+          },
+          {
+            "s": "The content arrived ____, sitting between gym clips and general self-improvement.",
+            "cue": "REQUEST",
+            "a": "unrequested"
+          },
+          {
+            "s": "The authors describe encouragement towards substantial and sometimes dangerous ____.",
+            "cue": "ALTER",
+            "a": "alteration"
+          },
+          {
+            "s": "The first step is a matter of ordinary browsing rather than ____ search.",
+            "cue": "DELIBERATE",
+            "a": "deliberate"
+          },
+          {
+            "s": "Clinicians draw the ____ line.",
+            "cue": "PRACTICE",
+            "a": "practical"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The study analysed comments from the two most popular forums on a single looksmaxxing site.",
+          "a": "T",
+          "why": "The text says: \"analysed 8,072 comments from the two most popular forums on a single looksmaxxing site\""
+        },
+        {
+          "s": "The study can show how a casual viewer of this content responds.",
+          "a": "F",
+          "why": "The text says the opposite: \"it cannot tell us how a casual viewer responds\""
+        },
+        {
+          "s": "Johns Hopkins treats grooming, nutrition, sleep and exercise as the unremarkable end of the trend.",
+          "a": "T",
+          "why": "The text says: \"Johns Hopkins separates the unremarkable end of the trend, which is grooming, nutrition, sleep and exercise, from practices that risk genuine harm\""
+        },
+        {
+          "s": "Face-scoring apps are more popular than the forums the study examined.",
+          "a": "N",
+          "why": "Not stated. The text mentions both but never compares how many people use them."
+        }
+      ]
+    }
+  }
+}

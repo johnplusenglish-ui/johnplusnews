@@ -1,0 +1,305 @@
+{
+  "slug": "why-does-the-generation-gap-feel-so-wide",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "They simply have a ____.",
+            "a": "different habit"
+          },
+          {
+            "s": "There is an easy word for this: ____.",
+            "a": "generation"
+          },
+          {
+            "s": "A ____ about age can land on anyone.",
+            "a": "stereotype"
+          },
+          {
+            "s": "A habit is not a ____, though.",
+            "a": "personality"
+          },
+          {
+            "s": "In a European survey in 2023, 45% of people thought age discrimination was ____.",
+            "a": "widespread"
+          }
+        ],
+        "extra": [
+          "explanation",
+          "technology"
+        ]
+      },
+      "match": [
+        {
+          "t": "generation",
+          "d": "all the people born at about the same time"
+        },
+        {
+          "t": "stereotype",
+          "d": "a fixed idea about a group that is often unfair"
+        },
+        {
+          "t": "habit",
+          "d": "something a person does regularly without thinking about it"
+        },
+        {
+          "t": "widespread",
+          "d": "happening in many places or among many people"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Eurostat ____ in April 2026 that 89.3% of young people had used social networks.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "Three hours later nobody ____ it.",
+            "cue": "answer",
+            "a": "has answered"
+          },
+          {
+            "s": "Neither of them ____ to annoy the other.",
+            "cue": "try",
+            "a": "is trying"
+          },
+          {
+            "s": "Some things change simply because a person ____ older.",
+            "cue": "grow",
+            "a": "grows"
+          },
+          {
+            "s": "The second question ____ to get an answer.",
+            "cue": "tend",
+            "a": "tends"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Eurostat found that 89.3% of people aged 16 to 29 in the EU had used social networks.",
+          "a": "T",
+          "why": "The text says: \"Eurostat reported in April 2026 that 89.3% of people aged 16 to 29 in the EU had used social networks during 2025.\""
+        },
+        {
+          "s": "A person's habits show what kind of person they are.",
+          "a": "F",
+          "why": "The text says the opposite: \"A habit is not a personality, though.\""
+        },
+        {
+          "s": "Most young people in the EU prefer messages to phone calls.",
+          "a": "N",
+          "why": "Not stated. The text gives figures for social network use, not for what people prefer."
+        },
+        {
+          "s": "In the 2023 European survey, 52% said age was the main thing that could count against someone applying for a job.",
+          "a": "T",
+          "why": "The text says: \"52% said age was the main thing that could count against someone applying for a job.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "People at a particular ____ have different amounts of free time and responsibility.",
+            "a": "life stage"
+          },
+          {
+            "s": "A 2023 European survey found that 45% of people believed age discrimination was ____.",
+            "a": "widespread"
+          },
+          {
+            "s": "They carry an ____ that everyone lived through the same decades in the same way.",
+            "a": "assumption"
+          },
+          {
+            "s": "Two colleagues who assume they have nothing ____ because of a birth year will probably stop looking.",
+            "a": "in common"
+          },
+          {
+            "s": "The categories mixed up age, career stage and ____ so thoroughly that decisions based on them were unlikely to be sound.",
+            "a": "historical change"
+          }
+        ],
+        "extra": [
+          "recruitment",
+          "responsibility"
+        ]
+      },
+      "match": [
+        {
+          "t": "widespread",
+          "d": "found in many places or among many people"
+        },
+        {
+          "t": "life stage",
+          "d": "the point a person has reached in their life"
+        },
+        {
+          "t": "assumption",
+          "d": "something believed to be true without being checked"
+        },
+        {
+          "t": "in common",
+          "d": "shared by two or more people"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "It means age is one ____ among many.",
+            "cue": "EXPLAIN",
+            "a": "explanation"
+          },
+          {
+            "s": "They carry an ____ that everyone lived through the same decades in the same way.",
+            "cue": "ASSUME",
+            "a": "assumption"
+          },
+          {
+            "s": "52% named age as the main characteristic that could disadvantage a candidate during ____.",
+            "cue": "RECRUIT",
+            "a": "recruitment"
+          },
+          {
+            "s": "None of this means age is ____.",
+            "cue": "RELEVANT",
+            "a": "irrelevant"
+          },
+          {
+            "s": "Both think the other has ____ how work is supposed to happen.",
+            "cue": "UNDERSTAND",
+            "a": "misunderstood"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The US National Academies review concluded that generational categories were not useful for managing staff.",
+          "a": "T",
+          "why": "The text says: \"A 2020 evidence review by the US National Academies examined whether generational categories were useful for managing staff and concluded that they were not.\""
+        },
+        {
+          "s": "The familiar generation labels were originally developed in Europe.",
+          "a": "F",
+          "why": "The text says the opposite: \"The familiar generation names grew out of American history, with its own wars, economic cycles and cultural moments.\""
+        },
+        {
+          "s": "Social network use among older people in the EU is falling.",
+          "a": "N",
+          "why": "Not stated. The text gives one figure for the population aged 16 to 74 and does not say whether it is rising or falling."
+        },
+        {
+          "s": "Age discrimination affects younger applicants as well as older ones.",
+          "a": "T",
+          "why": "The text says: \"That pressure falls on the youngest applicants as well as the oldest.\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Only a genuine ____ effect belongs durably to those born in a particular stretch of years.",
+            "a": "cohort"
+          },
+          {
+            "s": "It is easy to ____ from one irritating colleague to an entire decade of births.",
+            "a": "overgeneralise"
+          },
+          {
+            "s": "Popular generational categories tend to blur age, career stage, ____ and individual experience.",
+            "a": "historical context"
+          },
+          {
+            "s": "The survey found a ____ that penalises the very young alongside the old.",
+            "a": "perception"
+          },
+          {
+            "s": "Any birth cohort contains people separated by income, education, city, health and ____.",
+            "a": "temperament"
+          }
+        ],
+        "extra": [
+          "variation",
+          "shorthand"
+        ]
+      },
+      "match": [
+        {
+          "t": "overgeneralise",
+          "d": "draw too broad a conclusion from too little evidence"
+        },
+        {
+          "t": "cohort",
+          "d": "a group of people born within the same period"
+        },
+        {
+          "t": "perception",
+          "d": "the way something is understood, whether or not it is accurate"
+        },
+        {
+          "t": "historical context",
+          "d": "the events of the time that shaped an experience"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The ____ is filed under a birth year.",
+            "cue": "AGREE",
+            "a": "disagreement"
+          },
+          {
+            "s": "What they conceal is the size of the ____ inside each group.",
+            "cue": "VARY",
+            "a": "variation"
+          },
+          {
+            "s": "That is a reasonable warning against treating any of it as ____.",
+            "cue": "UNIVERSE",
+            "a": "universal"
+          },
+          {
+            "s": "It has quietly discarded almost everything that made the individual ____.",
+            "cue": "PREDICT",
+            "a": "predictable"
+          },
+          {
+            "s": "The cost of the shorthand is ____.",
+            "cue": "MEASURE",
+            "a": "measurable"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Period effects are described as reaching everyone at the same time.",
+          "a": "T",
+          "why": "The text says: \"Period effects reach everyone at once, as a pandemic or a new platform does.\""
+        },
+        {
+          "s": "Differences within a birth cohort are usually smaller than the differences between cohorts.",
+          "a": "F",
+          "why": "The text says the opposite: \"those differences are usually larger than the average gap between one cohort and the next\""
+        },
+        {
+          "s": "The 2020 review recommended a new set of labels to replace generational categories.",
+          "a": "N",
+          "why": "Not stated. The text reports what the review concluded about the existing categories, not what it proposed instead."
+        },
+        {
+          "s": "A 2023 European survey found that 45% of respondents considered age discrimination widespread.",
+          "a": "T",
+          "why": "The text says: \"A 2023 European survey found 45% of respondents considered age discrimination widespread\""
+        }
+      ]
+    }
+  }
+}
