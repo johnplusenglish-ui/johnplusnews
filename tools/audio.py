@@ -283,13 +283,30 @@ class Handler(BaseHTTPRequestHandler):
             return self.send_json({"error": publish.mask(str(e))[:300]}, 200)
 
 
-def main():
+def open_page(url):
+    """Open the page in the default browser. `open` is what macOS itself uses, so try it first."""
+    import subprocess
     import webbrowser
-    srv = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
-    url = "http://127.0.0.1:{}/".format(PORT)
-    print("johnplusnews audio publisher: " + url)
-    print("Press Control-C to stop.")
+    try:
+        if subprocess.run(["open", url], check=False).returncode == 0:
+            return
+    except OSError:
+        pass
     webbrowser.open(url)
+
+
+def main():
+    url = "http://127.0.0.1:{}/".format(PORT)
+    try:
+        srv = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
+    except OSError:
+        # already running, probably from an earlier window: just show it rather than crashing
+        print("The audio publisher is already running. Opening it again.", flush=True)
+        open_page(url)
+        return
+    print("johnplusnews audio publisher is running at " + url, flush=True)
+    print("Keep this window open while you work. Close it, or press Control-C, to stop.", flush=True)
+    open_page(url)
     try:
         srv.serve_forever()
     except KeyboardInterrupt:
