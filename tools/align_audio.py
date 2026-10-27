@@ -123,9 +123,9 @@ def syllables(word):
 
 
 def cost_weight(word):
-    """Roughly how long a word takes to say, plus a beat for the punctuation after it."""
-    pause = 0.9 if word.endswith((",", ";", ":")) else 0.0
-    return syllables(word) + 0.4 + pause
+    """Roughly how long a word takes to say. The silence around it is excluded from the frames
+    being shared out, so no extra is added for punctuation."""
+    return syllables(word) + 0.35
 
 
 def align(audio_path, sentences, out_path, work):
@@ -228,11 +228,14 @@ def article_text(md_path, level):
 
 
 def split_sentences(text):
+    """Sentences, not clauses. Measured on a real recording, this voice pauses at sentence ends
+    (38 pauses over 300ms against 32 sentences) but mostly runs through commas, so anchoring on
+    commas made the fit worse, not better."""
     out = []
     for pi, para in enumerate([p.strip() for p in text.split("\n\n") if p.strip()]):
-        for s in re.split(r"(?<=[.!?])\s+", para):
-            if s.strip():
-                out.append([pi, s.strip()])
+        for piece in re.split(r"(?<=[.!?])\s+", para):
+            if piece.strip():
+                out.append([pi, piece.strip()])
     return out
 
 
