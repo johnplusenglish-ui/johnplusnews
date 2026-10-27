@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: The Longest Walk Home
 summary: In 1998, Karl Bushby left Chile to walk home to Hull. After almost 28 years, he is nearly there.
+audio: audio/the-man-who-spent-28-years-walking-home-core-0c059e.m4a
 
 In November 1998, Karl Bushby set off from the southern tip of Chile with a small amount of money and a very unusual plan. He wanted to walk home to Hull, in northern England. The journey would take him through the Americas, across the sea ice between Alaska and Russia, and eventually across Europe. He thought it might take 12 years. Almost 28 years later, he finally reached Britain. Walking is the short way to describe it: he also had to swim, and he was often stopped for months or years along the way.
 
@@ -26,6 +27,7 @@ The adventure has been exciting, but it has also cost him a great deal. Karl has
 
 title: Twenty-Eight Years, One Journey Home
 summary: Karl Bushby left the bottom of Chile in 1998 and refused to take a lift. He is now a few hundred kilometres from his own front door.
+audio: audio/the-man-who-spent-28-years-walking-home-intermediate-e73f63.m4a
 
 For most people, getting home is a matter of catching a bus, train or plane. For Karl Bushby, it has taken almost 28 years. The former British soldier left southern Chile in 1998 with a few hundred dollars. He wanted to reach his hometown of Hull without using transport to move forwards along his route. This October, after crossing continents and swimming the English Channel, he finally set foot on British soil.
 
@@ -43,6 +45,7 @@ The journey has come at a personal cost. Bushby missed much of his son's childho
 
 title: What Keeps a Man Walking Home for 28 Years?
 summary: After almost three decades on foot, Karl Bushby is finally close to home. But what does a man do when the journey that defined his life comes to an end?
+audio: audio/the-man-who-spent-28-years-walking-home-advanced-bada2c.m4a
 
 When Karl Bushby emerged from the English Channel at Dover on 5 October, he had already walked, and occasionally swum, a route that had consumed almost three decades of his life. He was back on British soil, but not quite home. Hull, where his extraordinary undertaking began as an idea, still lay roughly 400 kilometres away. It was an almost absurdly small distance after everything that had preceded it.
 
