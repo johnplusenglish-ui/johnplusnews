@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: Tired After a Day of Sitting Down
 summary: Thinking, remembering and deciding all use energy. In one 2025 study, tired people avoided the harder task even when the reward was bigger.
+audio: audio/why-are-we-so-tired-when-we-havent-done-much-core-d151d7.m4a
 
 You have spent the day at home answering emails, paying bills and sorting things out. You have hardly walked anywhere. Yet by the evening, even choosing a film seems difficult. Why are you so tired? Mental work uses energy too. We need to concentrate, remember information and make decisions. When we do these things for a long time, our minds can start to feel exhausted. This feeling is often called mental or cognitive fatigue.
 
@@ -30,6 +31,7 @@ Short breaks, reasonable workloads and time away from demanding tasks may help s
 
 title: Why the Evening Decision Feels Harder Than the Day's Work
 summary: After a day of emails and small decisions, even choosing dinner feels hard. Twenty-eight people in a 2025 study became less willing to take on demanding tasks, even for greater rewards.
+audio: audio/why-are-we-so-tired-when-we-havent-done-much-intermediate-499d76.m4a
 
 At the end of a day filled with emails, meetings and small decisions, you may feel too exhausted to do anything enjoyable. Yet when somebody asks what you have been doing, it can seem difficult to explain. There was no heavy lifting or long journey, just hours of thinking. Why does mental work leave us feeling drained?
 
@@ -53,6 +55,7 @@ Still, the findings challenge the idea that only physical activity can justify f
 
 title: The Work Nobody Sees Can Still Wear You Out
 summary: A 2025 imaging study of 28 participants found that after demanding tasks people were less willing to choose harder ones. One small study is not a diagnosis of persistent tiredness.
+audio: audio/why-are-we-so-tired-when-we-havent-done-much-advanced-9353fe.m4a
 
 You have been sitting for most of the day, yet choosing dinner feels like one decision too many. The work was not visible in tired legs or heavy lifting. It was in the calls, the concentration and the problems that kept arriving. A day can be demanding without involving much movement.
 
