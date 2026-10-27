@@ -17,17 +17,18 @@ import re
 import sys
 
 
-def article_text(md_path, level):
-    """Title, standfirst and body, in the order the recording reads them."""
+def article_text(md_path, level, head=True):
+    """The words to time. Some recordings open with the headline and standfirst and some go
+    straight into the article, so both are tried and whichever matches better is used."""
     blk = re.search(r"^=== " + level + r" ===\n(.*?)(?=^=== |\Z)",
                     md_path.read_text(encoding="utf-8"), re.S | re.M).group(1)
     title = re.search(r"^title: (.*)$", blk, re.M)
     summary = re.search(r"^summary: (.*)$", blk, re.M)
     body = re.sub(r"^(title|summary|audio|voice|language):.*$", "", blk, flags=re.M).strip()
     parts = []
-    if title:
+    if head and title:
         parts.append(title.group(1).rstrip(".") + ".")
-    if summary:
+    if head and summary:
         parts.append(summary.group(1))
     parts.append(body)
     return "\n\n".join(parts)
@@ -140,9 +141,14 @@ if __name__ == "__main__":
     from whisper_words import words_of
 
     heard = words_of(audio)
-    text_words = article_text(md, level).split()
-    spans, matched = timings(text_words, heard)
-    rate = matched / len(text_words)
+    best = None
+    for with_head in (True, False):
+        words = article_text(md, level, with_head).split()
+        spans, matched = timings(words, heard)
+        score = matched / len(words)
+        if best is None or score > best[0] + 0.01:
+            best = (score, spans, matched, words, with_head)
+    rate, spans, matched, text_words, with_head = best
     if rate < 0.85:
         # the recording and the text have drifted apart, usually because the article was edited
         # after it was read. Better no highlighting than highlighting the wrong words.
@@ -151,7 +157,9 @@ if __name__ == "__main__":
         print("MATCH_TOO_LOW {:.0f}% of the text was heard in the recording".format(rate * 100))
         raise SystemExit(3)
     out_path.write_text(
-        json.dumps({"dur": round(max(x["e"] for x in spans), 2), "w": spans}, separators=(",", ":")),
+        json.dumps({"dur": round(max(x["e"] for x in spans), 2), "head": with_head, "w": spans},
+                   separators=(",", ":")),
         encoding="utf-8")
-    print("MATCHED {:.0f}% ({} of {} words) -> {}".format(
-        rate * 100, matched, len(text_words), out_path.name))
+    print("MATCHED {:.0f}% ({} of {} words, {}) -> {}".format(
+        rate * 100, matched, len(text_words),
+        "headline read aloud" if with_head else "body only", out_path.name))

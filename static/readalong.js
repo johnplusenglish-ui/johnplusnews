@@ -63,8 +63,10 @@
           if (words && builtFor === sig) return true;
           builtFor = sig;
           var els = [];
-          if (head) els.push(head);
-          if (dek) els.push(dek);
+          if (data.head !== false) {
+            if (head) els.push(head);
+            if (dek) els.push(dek);
+          }
           els = els.concat([].slice.call(scope.querySelectorAll(".prose p")));
           var list = [];
           els.forEach(function (el) { list = list.concat(wordsIn(el)); });
