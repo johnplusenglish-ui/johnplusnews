@@ -86,7 +86,9 @@
             var mid = (lo + hi) >> 1;
             if (times[mid].s <= t) { best = mid; lo = mid + 1; } else { hi = mid - 1; }
           }
-          if (best >= 0 && t > times[best].e + 0.6) return -1;   /* a long gap: hold nothing */
+          /* The word has finished and the next has not begun: a real pause, so hold nothing.
+             The grace is long enough to ride over the tiny gaps between ordinary words. */
+          if (best >= 0 && t > times[best].e + 0.12) return -1;
           return best;
         }
 

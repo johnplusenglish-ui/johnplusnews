@@ -121,11 +121,15 @@ def align(audio_path, sentences, out_path, work):
         a, b = bounds[si], bounds[si + 1]
         frames = [i for i in range(a, b) if voiced[i]] or list(range(a, b))
         w = np.array([cost_weight(t) for t in ws], dtype=np.float64)
-        edges = np.concatenate([[0.0], np.cumsum(w) / w.sum()]) * (len(frames) - 1)
+        edges = np.concatenate([[0.0], np.cumsum(w) / w.sum()]) * len(frames)
         for wi, token in enumerate(ws):
-            start = frames[int(edges[wi])] * FRAME
-            end = frames[int(edges[wi + 1])] * FRAME
-            words_out.append({"s": round(start, 2), "e": round(max(end, start + 0.08), 2)})
+            lo = min(int(edges[wi]), len(frames) - 1)
+            hi = min(max(int(edges[wi + 1]) - 1, lo), len(frames) - 1)
+            # a word owns only the frames it is actually spoken over, so a pause between two words
+            # shows up as a gap in the timings instead of being swallowed by whichever word is next
+            start = frames[lo] * FRAME
+            end = (frames[hi] + 1) * FRAME
+            words_out.append({"s": round(start, 2), "e": round(max(end, start + 0.06), 2)})
 
     out_path.write_text(json.dumps({"dur": round(total_frames * FRAME, 2), "w": words_out},
                                    separators=(",", ":")), encoding="utf-8")
