@@ -1,9 +1,9 @@
-"""The audio publisher: recordings and nothing else.
+"""The audio publisher: one page, every article in the order the site shows them, three recording
+slots on each, one Publish button.
 
-Pick an article, add or replace a recording for any of its levels, press Publish. It touches only
-the `audio:` line inside each version block, so the article's words, questions, pictures and
-settings cannot be altered or lost from here. Runs on its own port beside the other two
-publishers.
+It only ever edits the `audio:` line inside a version block, so the article's words, questions,
+pictures and settings cannot be altered or lost from here. Runs on its own port beside the other
+two publishers.
 
     python3 tools/audio.py        then open http://127.0.0.1:8785
 """
@@ -13,6 +13,7 @@ import re
 import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from urllib.parse import unquote
 
 import publish
 from publish import UserError
@@ -20,25 +21,31 @@ from publish import UserError
 PORT = 8785
 LOCK = threading.Lock()
 HEAD_KEYS = ("title", "summary", "audio", "voice", "language")
+MAX_BODY = 90 * 1024 * 1024
 
 
-def articles():
-    out = []
-    for path, meta, body, slug in publish.article_files(publish.CONTENT):
-        try:
-            versions = publish.build.parse_versions(meta, body)
-        except ValueError:
-            continue
-        out.append({
-            "slug": slug,
-            "title": meta.get("title", slug),
-            "date": str(meta.get("date", "")),
-            "levels": [{"level": v["level"], "audio": v["audio"],
-                        "timed": bool(v["audio"]) and (publish.STATIC / (v["audio"].rsplit(".", 1)[0] + ".words.json")).is_file()}
-                       for v in versions],
-        })
-    out.sort(key=lambda a: (a["date"], a["title"]), reverse=True)
-    return out
+def paths_by_slug():
+    return {x[3]: x[0] for x in publish.article_files(publish.CONTENT)}
+
+
+def row(a):
+    levels = []
+    for v in a["versions"]:
+        rel = (v["audio"] or "").lstrip("/")
+        timed = bool(rel) and (publish.STATIC / (rel.rsplit(".", 1)[0] + ".words.json")).is_file()
+        levels.append({"level": v["level"], "audio": bool(rel), "timed": timed})
+    return {"slug": a["slug"], "title": a["title"], "date": str(a["date"]), "levels": levels}
+
+
+def listing():
+    """Articles exactly as the site orders them: the gallery newest first, then the Teens
+    collection in its own order."""
+    arts = publish.build.load_articles(publish.CONTENT)
+    adults = [a for a in arts if not a["teens"]]
+    teens = sorted((a for a in arts if a["teens"]), key=lambda a: (a["order"] or 999, a["slug"]))
+    st = publish.run(["git", "status", "--porcelain", "--", "content", "static/audio"])
+    return {"main": [row(a) for a in adults], "teens": [row(a) for a in teens],
+            "unpublished": len([l for l in st.stdout.splitlines() if l.strip()])}
 
 
 def set_audio(path, level, rel):
@@ -49,8 +56,7 @@ def set_audio(path, level, rel):
     m = pat.search(text)
     if not m:
         raise UserError("That article has no {} version.".format(level))
-    block = m.group(2)
-    lines = block.split("\n")
+    lines = m.group(2).split("\n")
     head = 0
     while head < len(lines) and re.match(r"^(" + "|".join(HEAD_KEYS) + r"): ", lines[head]):
         head += 1
@@ -67,12 +73,11 @@ def set_audio(path, level, rel):
     if not keep:
         while rest and rest[0] == "":
             rest = rest[1:]
-    new = "\n".join(keep + rest)
-    path.write_text(text[:m.start(2)] + new + text[m.end(2):], encoding="utf-8")
+    path.write_text(text[:m.start(2)] + "\n".join(keep + rest) + text[m.end(2):], encoding="utf-8")
 
 
 def prune_audio():
-    """Delete recordings and word timings no article points at any more."""
+    """Delete recordings and word timings that no article points at any more."""
     used = set()
     for path, meta, body, slug in publish.article_files(publish.CONTENT):
         try:
@@ -84,155 +89,196 @@ def prune_audio():
     folder = publish.STATIC / "audio"
     if not folder.is_dir():
         return
-    for f in folder.iterdir():
+    for f in list(folder.iterdir()):
         if f.suffix == ".m4a" and f.name not in used:
             f.unlink()
             f.with_suffix(".words.json").unlink(missing_ok=True)
-        if f.name.endswith(".words.json") and f.name[:-len(".words.json")] + ".m4a" not in used:
+        elif f.name.endswith(".words.json") and f.name[:-len(".words.json")] + ".m4a" not in used:
             f.unlink(missing_ok=True)
 
 
-def save(p):
+def level_of(name):
+    level = {l.lower(): l for l in publish.build.LEVELS}.get(publish.one_line(name).lower())
+    if not level:
+        raise UserError("Unknown level.")
+    return level
+
+
+def upload(p):
     slug = publish.one_line(p.get("slug"))
-    match = [x for x in publish.article_files(publish.CONTENT) if x[3] == slug]
-    if not match:
+    path = paths_by_slug().get(slug)
+    if not path:
         raise UserError("That article no longer exists.")
-    path = match[0][0]
-    if p.get("rev") and p["rev"] != publish.file_rev(path):
-        raise UserError("That article changed on disk after this page was loaded. Reload and try again.")
+    level = level_of(p.get("level"))
+    try:
+        raw = base64.b64decode(p.get("data") or "")
+    except Exception:
+        raise UserError("The recording could not be read.")
+    if not raw:
+        raise UserError("That file was empty.")
+    rel = publish.make_audio(raw, p.get("name", "recording"), slug, level, publish.STATIC)
+    set_audio(path, level, rel)
+    note = publish.align_new_audio(slug, {level})
+    timed = (publish.STATIC / (rel.rsplit(".", 1)[0] + ".words.json")).is_file()
+    return {"ok": True, "audio": True, "timed": timed, "note": note}
 
-    levels = {l.lower(): l for l in publish.build.LEVELS}
-    added = set()
-    for name, up in (p.get("uploads") or {}).items():
-        level = levels.get(publish.one_line(name).lower())
-        if not level or not isinstance(up, dict) or not up.get("data"):
-            continue
-        try:
-            raw = base64.b64decode(up["data"])
-        except Exception:
-            raise UserError("The {} recording could not be read.".format(level))
-        rel = publish.make_audio(raw, up.get("name", "recording"), slug, level, publish.STATIC)
-        set_audio(path, level, rel)
-        added.add(level)
-    for name in (p.get("removes") or []):
-        level = levels.get(publish.one_line(name).lower())
-        if level:
-            set_audio(path, level, None)
 
+def remove(p):
+    slug = publish.one_line(p.get("slug"))
+    path = paths_by_slug().get(slug)
+    if not path:
+        raise UserError("That article no longer exists.")
+    set_audio(path, level_of(p.get("level")), None)
+    return {"ok": True}
+
+
+def publish_all(_p):
     prune_audio()
-    note = publish.align_new_audio(slug, added)
     publish.run_build()
-    res = publish.git_publish("Update recordings: " + match[0][1].get("title", slug))
-    res.update({"ok": True, "slug": slug, "audio_note": note,
-                "live_url": "{}/articles/{}/".format(publish.build.SITE["url"], slug)})
+    res = publish.git_publish("Update recordings")
+    res["ok"] = True
     return res
 
 
-PAGE = """<!doctype html><html lang="en"><head><meta charset="utf-8">
+PAGE = r"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"><title>johnplusnews audio</title>
 <style>
-:root{--ink:#111318;--muted:#5f6672;--line:#e6e8ec;--accent:#1d5fe0;--soft:#eef3fd}
-*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#23262d;background:#fff}
-header{border-bottom:1px solid var(--line);padding:14px 20px;font-weight:700}
-header span{color:var(--accent)}
-.wrap{max-width:760px;margin:0 auto;padding:22px 20px 70px}
-input[type=search]{width:100%;padding:11px 13px;font:inherit;border:1px solid #cfd4dc;border-radius:9px}
-ul{list-style:none;margin:16px 0 0;padding:0}
-li{border-bottom:1px solid var(--line)}
-li button.pick{display:block;width:100%;text-align:left;padding:12px 2px;font:inherit;background:none;border:0;cursor:pointer}
-li button.pick:hover{color:var(--accent)}
-.meta{color:var(--muted);font-size:.8125rem}
-.lv{border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 12px}
-.lv h3{margin:0 0 6px;font-size:1rem}
-.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px}
-button{font:inherit;font-weight:600;padding:9px 15px;border-radius:9px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer}
-button.ghost{background:#fff;color:var(--accent)}
-button:disabled{opacity:.5;cursor:default}
-.status{margin-top:16px;padding:12px 14px;border-radius:10px;background:var(--soft)}
-.status.err{background:#fdeceb}
-a{color:var(--accent)}
+:root{--ink:#111318;--muted:#5f6672;--line:#e6e8ec;--accent:#1d5fe0;--soft:#eef3fd;--ok:#0f7a55}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#23262d;background:#fff}
+header{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line);padding:10px 20px}
+.bar{display:flex;gap:14px;align-items:center;max-width:1040px;margin:0 auto}
+.brand{font-weight:700;white-space:nowrap}.brand span{color:var(--accent)}
+#q{flex:1;min-width:120px;padding:9px 12px;font:inherit;border:1px solid #cfd4dc;border-radius:9px}
+button,.btn{font:inherit;font-weight:600;font-size:.8125rem;padding:7px 12px;border-radius:8px;border:1px solid var(--accent);background:#fff;color:var(--accent);cursor:pointer;white-space:nowrap}
+button.main{background:var(--accent);color:#fff;font-size:.9rem;padding:9px 16px}
+button:disabled{opacity:.45;cursor:default}
+.count{color:var(--muted);font-size:.8125rem;white-space:nowrap}
+#status{max-width:1040px;margin:12px auto 0;padding:11px 14px;border-radius:10px;background:var(--soft)}
+#status.err{background:#fdeceb}
+main{max-width:1040px;margin:0 auto;padding:6px 20px 80px}
+h2{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:26px 0 6px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) repeat(3,minmax(0,148px));gap:10px;align-items:center;padding:11px 0;border-bottom:1px solid var(--line)}
+.t{min-width:0}.t b{display:block;font-weight:600;overflow:hidden;text-overflow:ellipsis}
+.t small{color:var(--muted)}
+.slot{min-width:0}
+.slot .lbl{display:block;font-size:.6875rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.slot .st{font-size:.8125rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.slot .st.ok{color:var(--ok)}.slot .st.new{color:var(--accent);font-weight:600}.slot .st.gone{color:#b42318}
+.acts{display:flex;gap:6px;margin-top:4px}
+.acts button,.acts .btn{padding:3px 9px;font-size:.75rem}
+.hide{display:none}
+@media (max-width:720px){.row{grid-template-columns:1fr 1fr 1fr}.t{grid-column:1/-1}}
 </style></head><body>
-<header>johnplus<span>news</span> &nbsp;audio</header>
-<div class="wrap">
-  <div id="list">
-    <input type="search" id="q" placeholder="Search your articles" autocomplete="off">
-    <ul id="rows"></ul>
-  </div>
-  <div id="one" hidden>
-    <button class="ghost" id="back">&larr; All articles</button>
-    <h2 id="title"></h2>
-    <div id="levels"></div>
-    <div class="row"><button id="save">Publish recordings</button></div>
-  </div>
-  <div class="status" id="status" hidden></div>
-</div>
+<header><div class="bar">
+  <div class="brand">johnplus<span>news</span> audio</div>
+  <input id="q" type="search" placeholder="Filter by title" autocomplete="off">
+  <div class="count" id="count"></div>
+  <button class="main" id="go" disabled>Publish</button>
+</div></header>
+<div id="status" hidden></div>
+<main id="list"></main>
 <script>
 const $ = id => document.getElementById(id);
-let all = [], cur = null, picked = {}, drop = {};
-function say(kind, html){ const s=$("status"); s.hidden=false; s.className="status"+(kind==="err"?" err":""); s.innerHTML=html; }
+const LEVELS = ["Core", "Intermediate", "Advanced"];
+let data = {main: [], teens: [], unpublished: 0}, pending = {}, gone = {}, busy = false;
+const key = (s, l) => s + "|" + l;
+function say(kind, html){ const s = $("status"); s.hidden = false; s.className = kind === "err" ? "err" : ""; s.innerHTML = html; }
 async function api(path, body){
-  const r = await fetch(path, {method: body?"POST":"GET", headers:{"Content-Type":"application/json"}, body: body?JSON.stringify(body):undefined});
+  const r = await fetch(path, {method: body ? "POST" : "GET", headers: {"Content-Type": "application/json"}, body: body ? JSON.stringify(body) : undefined});
   const j = await r.json(); if (j.error) throw new Error(j.error); return j;
+}
+function slot(a, l){
+  const k = key(a.slug, l.level);
+  const box = document.createElement("div"); box.className = "slot"; box.id = "s-" + k;
+  const lbl = document.createElement("span"); lbl.className = "lbl"; lbl.textContent = l.level;
+  const st = document.createElement("div"); st.className = "st";
+  const acts = document.createElement("div"); acts.className = "acts";
+  const pick = (text) => {
+    const lab = document.createElement("label"); lab.className = "btn"; lab.textContent = text;
+    const inp = document.createElement("input"); inp.type = "file"; inp.className = "hide";
+    inp.accept = "audio/*,.m4a,.mp3,.wav,.aif,.aiff,.caf";
+    inp.onchange = () => { const f = inp.files[0]; if (!f || busy) return;
+      const fr = new FileReader();
+      fr.onload = () => { pending[k] = {slug: a.slug, level: l.level, name: f.name, data: String(fr.result).split(",")[1]}; delete gone[k]; refresh(a, l); };
+      fr.readAsDataURL(f); };
+    lab.appendChild(inp); return lab;
+  };
+  const btn = (text, fn) => { const b = document.createElement("button"); b.textContent = text; b.onclick = fn; return b; };
+  if (pending[k]) {
+    st.className = "st new"; st.textContent = pending[k].name;
+    acts.appendChild(btn("Undo", () => { delete pending[k]; refresh(a, l); }));
+  } else if (gone[k]) {
+    st.className = "st gone"; st.textContent = "Will be removed";
+    acts.appendChild(btn("Undo", () => { delete gone[k]; refresh(a, l); }));
+  } else if (l.audio) {
+    st.className = "st ok"; st.textContent = l.timed ? "Recorded, timed" : "Recorded, not timed";
+    acts.appendChild(pick("Replace"));
+    acts.appendChild(btn("Remove", () => { gone[k] = true; refresh(a, l); }));
+  } else {
+    st.textContent = "None";
+    acts.appendChild(pick("Add"));
+  }
+  box.append(lbl, st, acts); return box;
+}
+function refresh(a, l){ const old = $("s-" + key(a.slug, l.level)); if (old) old.replaceWith(slot(a, l)); tally(); }
+function tally(){
+  const n = Object.keys(pending).length + Object.keys(gone).length;
+  $("count").textContent = n ? n + " change" + (n > 1 ? "s" : "") + " ready" : (data.unpublished ? "Unpublished changes on this Mac" : "");
+  $("go").disabled = busy || !(n || data.unpublished);
 }
 function draw(){
   const t = $("q").value.trim().toLowerCase();
-  $("rows").innerHTML = "";
-  all.filter(a => !t || a.title.toLowerCase().includes(t)).slice(0, 60).forEach(a => {
-    const n = a.levels.filter(l => l.audio).length;
-    const li = document.createElement("li");
-    const b = document.createElement("button"); b.className = "pick";
-    b.innerHTML = a.title + '<div class="meta">' + a.date + (n ? " &middot; " + n + " recording" + (n>1?"s":"") : "") + "</div>";
-    b.onclick = () => open_(a.slug);
-    li.appendChild(b); $("rows").appendChild(li);
+  const root = $("list"); root.innerHTML = "";
+  [["Articles", data.main], ["Teens", data.teens]].forEach(([name, arts]) => {
+    const rows = arts.filter(a => !t || a.title.toLowerCase().includes(t));
+    if (!rows.length) return;
+    const h = document.createElement("h2"); h.textContent = name; root.appendChild(h);
+    rows.forEach(a => {
+      const r = document.createElement("div"); r.className = "row";
+      const tt = document.createElement("div"); tt.className = "t";
+      const b = document.createElement("b"); b.textContent = a.title;
+      const s = document.createElement("small"); s.textContent = a.date;
+      tt.append(b, s); r.appendChild(tt);
+      LEVELS.forEach(lv => { const l = a.levels.find(x => x.level === lv);
+        if (l) r.appendChild(slot(a, l)); else r.appendChild(document.createElement("div")); });
+      root.appendChild(r);
+    });
   });
+  tally();
 }
-async function open_(slug){
-  cur = await api("/api/one?slug=" + encodeURIComponent(slug));
-  picked = {}; drop = {};
-  $("list").hidden = true; $("one").hidden = false; $("status").hidden = true;
-  $("title").textContent = cur.title;
-  $("levels").innerHTML = "";
-  cur.levels.forEach(l => {
-    const d = document.createElement("div"); d.className = "lv";
-    d.innerHTML = "<h3>" + l.level + "</h3><div class='meta' id='st-"+l.level+"'></div>" +
-      "<div class='row'><input type='file' id='f-"+l.level+"' accept='audio/*,.m4a,.mp3,.wav,.aif,.aiff,.caf'>" +
-      "<button class='ghost' id='x-"+l.level+"'>Remove</button></div>";
-    $("levels").appendChild(d);
-    $("f-"+l.level).onchange = e => { const f = e.target.files[0]; if(!f) return;
-      const fr = new FileReader(); fr.onload = () => { picked[l.level] = {name: f.name, data: String(fr.result).split(",")[1]}; drop[l.level]=false; state(l); }; fr.readAsDataURL(f); };
-    $("x-"+l.level).onclick = () => { if (picked[l.level]) { delete picked[l.level]; $("f-"+l.level).value=""; } else if (l.audio) drop[l.level]=true; state(l); };
-    state(l);
-  });
-}
-function state(l){
-  const s = $("st-"+l.level);
-  const x = $("x-"+l.level);
-  if (picked[l.level]) { s.textContent = "New file chosen: " + picked[l.level].name; x.hidden = false; x.textContent = "Undo"; }
-  else if (drop[l.level]) { s.textContent = "The recording will be removed when you publish."; x.hidden = true; }
-  else if (l.audio) { s.textContent = "Has a recording" + (l.timed ? ", words timed" : ", words not timed"); x.hidden = false; x.textContent = "Remove"; }
-  else { s.textContent = "No recording"; x.hidden = true; }
-}
+async function load(){ data = await api("/api/list"); draw(); }
+function mark(k, text){ const e = document.querySelector("#s-" + CSS.escape(k) + " .st"); if (e){ e.className = "st new"; e.textContent = text; } }
 $("q").oninput = draw;
-$("back").onclick = () => { $("one").hidden = true; $("list").hidden = false; $("status").hidden = true; load(); };
-$("save").onclick = async () => {
-  const removes = Object.keys(drop).filter(k => drop[k]);
-  if (!Object.keys(picked).length && !removes.length) return say("err", "Choose a recording first.");
-  $("save").disabled = true;
-  say("", "Publishing. Timing the words takes about a minute and a half for each new recording.");
+$("go").onclick = async () => {
+  busy = true; tally();
+  const notes = [], errors = [];
   try {
-    const r = await api("/api/save", {slug: cur.slug, rev: cur.rev, uploads: picked, removes: removes});
-    say("", (r.pushed ? "Published." : (r.note || "Saved here but not sent.")) +
-        (r.audio_note ? "<br>" + r.audio_note : "") +
-        '<br><a href="' + r.live_url + '" target="_blank">View the live article</a>');
-    picked = {}; drop = {};
-    cur = await api("/api/one?slug=" + encodeURIComponent(cur.slug));
-    cur.levels.forEach(state);
+    for (const k of Object.keys(pending)) {
+      const up = pending[k];
+      mark(k, "Working, about 90 seconds...");
+      try {
+        const r = await api("/api/upload", up);
+        if (r.note) notes.push(up.level + " of " + (data.main.concat(data.teens).find(a => a.slug === up.slug) || {}).title + ": " + r.note);
+        delete pending[k];
+      } catch (e) { errors.push((data.main.concat(data.teens).find(a => a.slug === up.slug) || {}).title + " " + up.level + ": " + e.message); mark(k, "Failed"); }
+    }
+    for (const k of Object.keys(gone)) {
+      const [slug, level] = k.split("|");
+      try { await api("/api/remove", {slug, level}); delete gone[k]; }
+      catch (e) { errors.push(slug + " " + level + ": " + e.message); }
+    }
+    say("", "Publishing to the site...");
+    const r = await api("/api/publish", {});
+    say(errors.length ? "err" : "", (r.pushed ? "Published." : (r.note || "Saved on this Mac but not sent.")) +
+        (notes.length ? "<br>" + notes.join("<br>") : "") + (errors.length ? "<br>" + errors.join("<br>") : ""));
   } catch (e) { say("err", e.message); }
-  $("save").disabled = false;
+  busy = false;
+  await load();
 };
-async function load(){ all = (await api("/api/list")).articles; draw(); }
 load();
-</script></body></html>"""
+</script></body></html>
+"""
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -249,17 +295,11 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path.startswith("/api/list"):
-            return self.send_json({"articles": articles()})
-        if self.path.startswith("/api/one"):
-            slug = self.path.split("slug=", 1)[1] if "slug=" in self.path else ""
-            from urllib.parse import unquote
-            slug = unquote(slug)
-            match = [a for a in articles() if a["slug"] == slug]
-            if not match:
-                return self.send_json({"error": "No such article."}, 404)
-            path = [x[0] for x in publish.article_files(publish.CONTENT) if x[3] == slug][0]
-            out = dict(match[0], rev=publish.file_rev(path))
-            return self.send_json(out)
+            try:
+                with LOCK:
+                    return self.send_json(listing())
+            except Exception as e:  # noqa: BLE001
+                return self.send_json({"error": publish.mask(str(e))[:300]})
         body = PAGE.encode("utf-8")
         self.send_response(200)
         self.send_header("Content-Type", "text/html; charset=utf-8")
@@ -268,19 +308,21 @@ class Handler(BaseHTTPRequestHandler):
         self.wfile.write(body)
 
     def do_POST(self):
-        if self.path != "/api/save":
+        routes = {"/api/upload": upload, "/api/remove": remove, "/api/publish": publish_all}
+        fn = routes.get(self.path.split("?")[0])
+        if not fn:
             return self.send_json({"error": "Not found"}, 404)
         try:
             n = int(self.headers.get("Content-Length", "0"))
-            if n > 90 * 1024 * 1024:
-                raise UserError("That is too much to send at once. Publish one level at a time.")
+            if n > MAX_BODY:
+                raise UserError("That file is too big to send. Try a shorter recording.")
             payload = json.loads(self.rfile.read(n) or b"{}")
             with LOCK:
-                return self.send_json(save(payload))
+                return self.send_json(fn(payload))
         except UserError as e:
-            return self.send_json({"error": str(e)}, 200)
+            return self.send_json({"error": str(e)})
         except Exception as e:  # noqa: BLE001
-            return self.send_json({"error": publish.mask(str(e))[:300]}, 200)
+            return self.send_json({"error": publish.mask(str(e))[:300]})
 
 
 def open_page(url):
