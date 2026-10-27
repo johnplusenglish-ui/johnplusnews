@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: The Body Found When the Lake Fell
 summary: Drought exposed the shoreline of Lake Mead. Inside a rusty barrel were human remains, hidden for about forty years.
+audio: audio/a-body-in-a-barrel-a-40-year-old-mystery-core-9ac256.m4a
 
 In May 2022, some people boating on Lake Mead, near Las Vegas, noticed a large rusty barrel beside the water. The lake was unusually low after years of drought. Places that had been underwater were now dry. When the boaters looked more closely, they made a terrible discovery. Inside the barrel were human remains. Someone had hidden a body in the lake many years earlier.
 
@@ -28,6 +29,7 @@ But identifying Jackson did not solve the murder. Detectives still wanted to fin
 
 title: A Name at Last for the Man in the Barrel
 summary: Four years after boaters found the remains, DNA gave the victim back his identity. The murder itself is still unsolved.
+audio: audio/a-body-in-a-barrel-a-40-year-old-mystery-intermediate-b5df1d.m4a
 
 On 1 May 2022, boaters exploring Lake Mead near Las Vegas spotted a rusted barrel on a newly exposed stretch of shoreline. Prolonged drought and falling water levels had revealed areas that had remained underwater for decades. The discovery seemed unusual, but the contents were far more disturbing: human remains. Someone had put a body inside the barrel and left it in the lake. Decades later, a changing landscape had brought a possible murder back into the light.
 
@@ -93,4 +95,3 @@ Receding water revealed what someone had attempted to hide, while DNA analysis r
 - What do true-crime stories owe the people involved?
 - Should a mystery stay in the news until it is solved?
 - What makes a crime story worth telling beyond the shocking details?
-
