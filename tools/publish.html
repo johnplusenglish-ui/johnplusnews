@@ -316,7 +316,7 @@ function showAudio(l) {
   if (audioNew[l]) t = "Chosen: " + audioNew[l].name + " (" + (audioNew[l].size / 1048576).toFixed(1) + " MB). It will be shrunk to a small file when you publish.";
   else if (audioOld[l] && !audioDel[l]) t = "This version has a recording (" + audioOld[l].split("/").pop() + "). Choose a file to replace it.";
   else if (audioDel[l]) t = "The recording will be removed when you publish.";
-  else t = "No recording yet. Choose an m4a, mp3, wav or aiff file, for example a Voice Memos or QuickTime recording. Readers see a small player under the picture.";
+  else t = "No recording yet. Choose an m4a, mp3, wav or aiff file, for example a Voice Memos or QuickTime recording. Readers see a small player under the picture, and the words light up as they are read. Publishing takes a couple of minutes longer while the words are timed.";
   $("auh-" + l).textContent = t;
 }
 function takeAudio(l, f) {
@@ -527,8 +527,9 @@ async function publish() {
     setBusy(false);
     const live = await waitFor("/articles/" + r.slug + "/", 200, "show it", r.verify);
     if (live === null) return;
-    if (live) setStatus("ok", ["It is live.", document.createElement("br"), golive(r.live_url, "View the live article")]);
-    else setStatus("warn", ["It was sent to GitHub but the new version and its picture are not all showing yet. Give it a few more minutes, then check ", link(r.live_url, r.live_url), "."]);
+    const extra = r.audio_note ? [document.createElement("br"), r.audio_note] : [];
+    if (live) setStatus("ok", ["It is live.", document.createElement("br"), golive(r.live_url, "View the live article"), ...extra]);
+    else setStatus("warn", ["It was sent to GitHub but the new version and its picture are not all showing yet. Give it a few more minutes, then check ", link(r.live_url, r.live_url), ".", ...extra]);
     return;
   } catch (e) { setStatus("err", e.message); }
   setBusy(false);

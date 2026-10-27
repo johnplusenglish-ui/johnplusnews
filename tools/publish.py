@@ -70,7 +70,8 @@ def mask(text):
 
 def run(cmd, **kw):
     env = dict(os.environ, GIT_TERMINAL_PROMPT="0")
-    return subprocess.run(cmd, cwd=kw.pop("cwd", ROOT), env=env, capture_output=True, text=True, timeout=180, **kw)
+    return subprocess.run(cmd, cwd=kw.pop("cwd", ROOT), env=env, capture_output=True, text=True,
+                          timeout=kw.pop("timeout", 180), **kw)
 
 
 def file_rev(path):
@@ -629,6 +630,39 @@ def prepare(p, content_dir, static_dir):
     return slug, f["title"]
 
 
+def align_new_audio(slug, levels):
+    """Time the words of a recording that has just been uploaded, so the article can highlight
+    them as they are read. Never stops a publish: if the speech model is missing, or the words
+    do not match the text, the article goes out with a working player and no highlighting."""
+    if not levels:
+        return ""
+    py = ROOT / ".venv-align" / "bin" / "python"
+    script = ROOT / "tools" / "align_audio.py"
+    if not py.exists() or not script.exists():
+        return "The words were not timed, so the recording will not highlight as it plays: the speech model is not installed."
+    md = next((x[0] for x in article_files(CONTENT) if x[3] == slug), None)
+    if md is None:
+        return ""
+    notes = []
+    for level in sorted(levels):
+        try:
+            r = run([str(py), str(script), str(md), level], timeout=900)
+        except subprocess.TimeoutExpired:
+            notes.append("{}: timing the words took too long, so that recording will not highlight.".format(level))
+            continue
+        out = ((r.stdout or "") + (r.stderr or "")).strip().splitlines()
+        line = next((x for x in reversed(out) if x.startswith(("MATCHED", "MATCH_TOO_LOW"))), "")
+        if r.returncode == 0 and line.startswith("MATCHED"):
+            notes.append("{}: words timed, {}.".format(level, line.split(" ", 1)[1].split(" ->")[0]))
+        elif line.startswith("MATCH_TOO_LOW"):
+            notes.append("{}: the recording does not match the text ({}), so it will not highlight. "
+                         "Re-record it if the article changed after it was read."
+                         .format(level, line.split(" ", 1)[1]))
+        else:
+            notes.append("{}: the words could not be timed, so that recording will not highlight.".format(level))
+    return " ".join(notes)
+
+
 # ------------------------------------------------------------------ building
 
 def run_build(content_dir=None, static_dir=None, out_dir=None):
@@ -718,10 +752,15 @@ def do_publish(p):
             shutil.rmtree(tmp, ignore_errors=True)
         slug, title = prepare(p, CONTENT, STATIC)
         STATIC_TARGET["dir"] = STATIC
+        by_name = {l.lower(): l for l in build.LEVELS}
+        new_audio = {by_name[one_line(n).lower()] for n, up in (p.get("audio") or {}).items()
+                     if one_line(n).lower() in by_name and isinstance(up, dict) and up.get("data")}
+        audio_note = align_new_audio(slug, new_audio)
         run_build()
         verb = "Update" if p.get("slug") else "Add"
         res = git_publish("{} article: {}".format(verb, title))
-        res.update({"ok": True, "slug": slug, "live_url": "{}/articles/{}/".format(build.SITE["url"], slug), "verify": verify_info(slug)})
+        res.update({"ok": True, "slug": slug, "live_url": "{}/articles/{}/".format(build.SITE["url"], slug),
+                    "verify": verify_info(slug), "audio_note": audio_note})
         return res
 
 

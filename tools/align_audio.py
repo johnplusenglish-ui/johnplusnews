@@ -142,8 +142,16 @@ if __name__ == "__main__":
     heard = words_of(audio)
     text_words = article_text(md, level).split()
     spans, matched = timings(text_words, heard)
+    rate = matched / len(text_words)
+    if rate < 0.85:
+        # the recording and the text have drifted apart, usually because the article was edited
+        # after it was read. Better no highlighting than highlighting the wrong words.
+        if out_path.exists():
+            out_path.unlink()
+        print("MATCH_TOO_LOW {:.0f}% of the text was heard in the recording".format(rate * 100))
+        raise SystemExit(3)
     out_path.write_text(
         json.dumps({"dur": round(max(x["e"] for x in spans), 2), "w": spans}, separators=(",", ":")),
         encoding="utf-8")
-    print("{} words in the text, {} heard, {} matched ({:.0f}%) -> {}".format(
-        len(text_words), len(heard), matched, matched / len(text_words) * 100, out_path.name))
+    print("MATCHED {:.0f}% ({} of {} words) -> {}".format(
+        rate * 100, matched, len(text_words), out_path.name))
