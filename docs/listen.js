@@ -25,6 +25,16 @@
   }
   function saveSpeed(v) { try { localStorage.setItem("jpn_speed", String(v)); } catch (e) {} }
 
+  /* Two reader preferences, both on unless they have been turned off. */
+  function pref(name) {
+    try { return localStorage.getItem(name) !== "0"; } catch (e) { return true; }
+  }
+  function setPref(name, on) {
+    try { localStorage.setItem(name, on ? "1" : "0"); } catch (e) {}
+  }
+  var follow = pref("jpn_follow");    /* light up the words as they are read */
+  var floating = pref("jpn_float");   /* keep the player in view while it plays */
+
   function clock(sec) {
     if (!isFinite(sec) || sec < 0) sec = 0;
     var m = Math.floor(sec / 60), s = Math.floor(sec % 60);
@@ -105,6 +115,22 @@
       o.setAttribute("aria-checked", v === speed ? "true" : "false");
       menu.appendChild(o);
     });
+    /* The same popover carries the two things a reader might want to turn off. */
+    menu.appendChild(el("div", "lp-sep"));
+    if (row.getAttribute("data-words")) {
+      var fo = el("button", "lp-opt lp-toggle", "Follow the words");
+      fo.type = "button";
+      fo.setAttribute("role", "menuitemcheckbox");
+      fo.setAttribute("data-pref", "jpn_follow");
+      fo.setAttribute("aria-checked", follow ? "true" : "false");
+      menu.appendChild(fo);
+    }
+    var po = el("button", "lp-opt lp-toggle", "Keep the player on screen");
+    po.type = "button";
+    po.setAttribute("role", "menuitemcheckbox");
+    po.setAttribute("data-pref", "jpn_float");
+    po.setAttribute("aria-checked", floating ? "true" : "false");
+    menu.appendChild(po);
     rateWrap.appendChild(rate);
     rateWrap.appendChild(menu);
 
@@ -191,8 +217,24 @@
     menu.addEventListener("click", function (e) {
       e.stopPropagation();
       var o = e.target;
-      while (o && o !== menu && o.className !== "lp-opt") o = o.parentNode;
+      while (o && o !== menu && (o.className || "").indexOf("lp-opt") === -1) o = o.parentNode;
       if (!o || o === menu) return;
+      var name = o.getAttribute("data-pref");
+      if (name) {
+        var on = o.getAttribute("aria-checked") !== "true";
+        setPref(name, on);
+        if (name === "jpn_follow") {
+          follow = on;
+          document.dispatchEvent(new CustomEvent("jpn:follow", { detail: { on: on } }));
+        } else {
+          floating = on;
+          if (!on) undock();
+          place();
+        }
+        [].slice.call(document.querySelectorAll('.lp-opt[data-pref="' + name + '"]'))
+          .forEach(function (b) { b.setAttribute("aria-checked", on ? "true" : "false"); });
+        return;
+      }
       setSpeed(parseFloat(o.getAttribute("data-v")));
       menu.hidden = true;
       rate.setAttribute("aria-expanded", "false");
@@ -221,6 +263,36 @@
         navigator.mediaSession.setActionHandler("seekforward", function () { audio.currentTime = Math.min(audio.duration || 1e9, audio.currentTime + 10); });
       } catch (e) {}
     }
+
+    /* Once the player has scrolled off the top and the recording is under way, it sits at the
+       bottom of the screen so the controls stay to hand. A spacer holds its place in the page,
+       so nothing jumps when it leaves and comes back. */
+    var spacer = el("div", "lp-spacer");
+    spacer.hidden = true;
+    row.parentNode.insertBefore(spacer, row);
+
+    function undock() {
+      if (!row.classList.contains("lp-float")) return;
+      row.classList.remove("lp-float");
+      spacer.hidden = true;
+    }
+    function place() {
+      if (!floating || row.hidden || !audio.currentTime || audio.ended) return undock();
+      var afloat = row.classList.contains("lp-float");
+      var box = (afloat ? spacer : row).getBoundingClientRect();
+      if (!afloat && box.bottom < 8) {
+        spacer.style.height = row.offsetHeight + "px";
+        spacer.hidden = false;
+        row.classList.add("lp-float");
+      } else if (afloat && box.bottom >= 8) {
+        undock();
+      }
+    }
+    addEventListener("scroll", place, { passive: true });
+    addEventListener("resize", place, { passive: true });
+    audio.addEventListener("timeupdate", place);
+    audio.addEventListener("pause", place);
+    audio.addEventListener("ended", undock);
 
     audio.playbackRate = speed;
     showRate();
