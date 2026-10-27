@@ -71,8 +71,14 @@
         var hl = new Highlight();
         CSS.highlights.set("readalong", hl);
         var shown = -1;
-        var userScrolledAt = 0;
-        addEventListener("scroll", function () { userScrolledAt = Date.now(); }, { passive: true });
+        var LEAD = 0.09;          /* land on the word a hair early: late reads as lag, early does not */
+
+        /* Tell our own smooth scrolling apart from the reader's, so we do not stand on their toes. */
+        var userScrolledAt = 0, autoUntil = 0, lastY = window.pageYOffset;
+        addEventListener("scroll", function () {
+          if (Date.now() > autoUntil && Math.abs(window.pageYOffset - lastY) > 2) userScrolledAt = Date.now();
+          lastY = window.pageYOffset;
+        }, { passive: true });
 
         function find(t) {
           var lo = 0, hi = times.length - 1, best = -1;
@@ -84,9 +90,21 @@
           return best;
         }
 
-        function paint() {
-          var i = find(audio.currentTime);
-          if (i === shown) return;
+        /* Reading only ever moves down the page, so the view is nudged down and never yanked back up.
+           One move per sentence-ish rather than per word, which is what made it bob about before. */
+        function follow(rect, smooth) {
+          var h = window.innerHeight;
+          if (rect.bottom <= h * 0.70 && rect.top >= 0) return;
+          var delta = rect.top - h * 0.38;
+          if (!smooth) { window.scrollBy(0, delta); lastY = window.pageYOffset; return; }
+          if (delta < 24) return;
+          autoUntil = Date.now() + 900;
+          window.scrollBy({ top: delta, behavior: "smooth" });
+        }
+
+        function paint(force) {
+          var i = find(audio.currentTime + (audio.paused ? 0 : LEAD));
+          if (i === shown && force !== true) return;
           shown = i;
           hl.clear();
           if (i < 0) return;
@@ -94,19 +112,26 @@
           var r = rangeFor(w.el, w.a, w.b);
           if (!r) return;
           hl.add(r);
+          if (force === true) { follow(r.getBoundingClientRect(), false); return; }
           if (audio.paused) return;
-          if (Date.now() - userScrolledAt < 4000) return;        /* the reader is in charge */
-          var box = r.getBoundingClientRect();
-          var top = window.innerHeight * 0.25, bottom = window.innerHeight * 0.72;
-          if (box.top < top || box.bottom > bottom) {
-            window.scrollBy({ top: box.top - window.innerHeight * 0.4, behavior: "smooth" });
-            userScrolledAt = 0;
-          }
+          if (Date.now() - userScrolledAt < 5000) return;        /* the reader is in charge */
+          follow(r.getBoundingClientRect(), true);
         }
 
-        audio.addEventListener("timeupdate", paint);
-        audio.addEventListener("seeked", paint);
-        audio.addEventListener("ended", function () { shown = -1; hl.clear(); });
+        /* timeupdate only fires about four times a second, which reads as lag. Run it per frame instead. */
+        var raf = 0;
+        function tick() { paint(); raf = requestAnimationFrame(tick); }
+        function start() { if (!raf) raf = requestAnimationFrame(tick); }
+        function stop() { if (raf) { cancelAnimationFrame(raf); raf = 0; } }
+
+        audio.addEventListener("play", start);
+        audio.addEventListener("playing", start);
+        /* a backgrounded tab throttles frames, so keep the coarse clock as a floor */
+        audio.addEventListener("timeupdate", function () { paint(); });
+        audio.addEventListener("pause", function () { stop(); paint(); });
+        audio.addEventListener("seeked", function () { paint(true); });
+        audio.addEventListener("ended", function () { stop(); shown = -1; hl.clear(); });
+        if (!audio.paused) start();
         row.classList.add("ra-on");
       })
       .catch(function () {});
