@@ -57,15 +57,69 @@ def pauses(voiced, min_frames=18):
     return out
 
 
+ONES = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+        "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen",
+        "nineteen"]
+TENS = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
+
+
+def small_number(n):
+    if n < 20:
+        return ONES[n]
+    if n < 100:
+        return TENS[n // 10] + ("" if n % 10 == 0 else " " + ONES[n % 10])
+    if n < 1000:
+        rest = n % 100
+        return ONES[n // 100] + " hundred" + (" and " + small_number(rest) if rest else "")
+    return ""
+
+
+def number_words(n, digits):
+    """How the number is actually said, because the recording says it and the page prints it."""
+    if digits == 4 and 1500 <= n <= 2099 and n % 100 != 0:
+        hi, lo = n // 100, n % 100
+        return small_number(hi) + (" oh " + ONES[lo] if lo < 10 else " " + small_number(lo))
+    for size, name in ((1000000000, "billion"), (1000000, "million"), (1000, "thousand")):
+        if n >= size:
+            rest = n % size
+            return (number_words(n // size, 0) + " " + name
+                    + (" " + number_words(rest, 0) if rest else ""))
+    return small_number(n) or "number"
+
+
+def spoken(word):
+    """Say the token the way a voice would, so its length is weighted honestly."""
+    out = []
+    for part in re.split(r"(\d[\d,]*)", word):
+        if not part:
+            continue
+        if part[0].isdigit():
+            n = int(part.replace(",", ""))
+            out.append(number_words(n, len(part.replace(",", ""))))
+        else:
+            out.append(part)
+    text = " ".join(out)
+    if "$" in word:
+        text += " dollars"
+    elif "\u00a3" in word:
+        text += " pounds"
+    elif "%" in word:
+        text += " per cent"
+    return text
+
+
 def syllables(word):
-    w = re.sub(r"[^a-z]", "", word.lower())
-    if not w:
-        return 1
-    groups = re.findall(r"[aeiouy]+", w)
-    n = len(groups)
-    if w.endswith("e") and n > 1 and not w.endswith(("le", "ee", "ye")):
-        n -= 1
-    return max(1, n)
+    total = 0
+    for piece in spoken(word).split():
+        w = re.sub(r"[^a-z]", "", piece.lower())
+        if not w:
+            continue
+        groups = re.findall(r"[aeiouy]+", w)
+        n = len(groups)
+        if w.endswith("e") and n > 1 and not w.endswith(("le", "ee", "ye")):
+            n -= 1
+        total += max(1, n)
+    return max(1, total)
 
 
 def cost_weight(word):
@@ -85,36 +139,49 @@ def align(audio_path, sentences, out_path, work):
     sent_w = np.array([sum(cost_weight(w) for w in ws) for ws in sent_words], dtype=np.float64)
     target = np.cumsum(sent_w) / sent_w.sum() * total_speech   # expected speech-frames per boundary
 
-    cands = pauses(voiced)
-    # a boundary may also fall at a frame with no pause at all, so keep an "anywhere" fallback
-    cand_frames = [s + l // 2 for s, l in cands]
-    cand_bonus = [min(l, 120) / 120.0 for s, l in cands]
+    # A boundary may fall on any frame. Sitting in a silence is rewarded, but not so much that it
+    # outweighs being in the wrong place: an earlier version only allowed boundaries at detected
+    # pauses, and when the right pause was missing it put the boundary somewhere badly wrong.
+    bonus = np.zeros(total_frames)
+    for st, ln in pauses(voiced, 4):
+        bonus[st:st + ln] = min(ln, 90) / 90.0 * 0.8
+    cum = speech_cum.astype(np.float64)
 
     nb = len(sentences) - 1
-    if nb == 0 or not cands:
-        chosen = []
+    if nb <= 0:
+        chosen_frames = []
     else:
         NEG = -1e18
-        dp = np.full((nb, len(cands)), NEG)
-        back = np.zeros((nb, len(cands)), dtype=np.int32)
-        for j, f in enumerate(cand_frames):
-            dp[0][j] = score(speech_cum[f], target[0], total_speech) + cand_bonus[j]
-        for i in range(1, nb):
-            best, bestj = NEG, 0
-            for j, f in enumerate(cand_frames):
-                if j and dp[i - 1][j - 1] > best:
-                    best, bestj = dp[i - 1][j - 1], j - 1
-                if best == NEG:
-                    continue
-                dp[i][j] = best + score(speech_cum[f], target[i], total_speech) + cand_bonus[j]
-                back[i][j] = bestj
-        j = int(np.argmax(dp[nb - 1]))
-        chosen = [0] * nb
+        back = np.zeros((nb, total_frames), dtype=np.int32)
+        prev = np.full(total_frames, NEG)
+        for i in range(nb):
+            local = -np.abs(cum - target[i]) * 0.01 + bonus
+            if i == 0:
+                cur = local.copy()
+                back[0] = 0
+            else:
+                run = np.concatenate(([NEG], np.maximum.accumulate(prev)[:-1]))
+                arg = np.zeros(total_frames, dtype=np.int32)
+                best, bi = NEG, 0
+                for f in range(total_frames):      # running argmax of everything before f
+                    if prev[f - 1] > best if f else False:
+                        best, bi = prev[f - 1], f - 1
+                    arg[f] = bi
+                cur = run + local
+                back[i] = arg
+            prev = cur
+        f = int(np.argmax(prev))
+        chosen_frames = [0] * nb
         for i in range(nb - 1, -1, -1):
-            chosen[i] = j
-            j = int(back[i][j])
+            chosen_frames[i] = f
+            f = int(back[i][f])
 
-    bounds = [0] + [cand_frames[j] for j in chosen] + [total_frames]
+    bounds = [0] + list(chosen_frames) + [total_frames]
+
+    REAL_PAUSE = 12            # 120 ms: shorter gaps are part of ordinary speech
+    in_pause = np.zeros(total_frames, dtype=bool)
+    for st, ln in pauses(voiced, REAL_PAUSE):
+        in_pause[st:st + ln] = True
 
     words_out = []
     for si, ws in enumerate(sent_words):
@@ -127,17 +194,21 @@ def align(audio_path, sentences, out_path, work):
             hi = min(max(int(edges[wi + 1]) - 1, lo), len(frames) - 1)
             # a word owns only the frames it is actually spoken over, so a pause between two words
             # shows up as a gap in the timings instead of being swallowed by whichever word is next
-            start = frames[lo] * FRAME
-            end = (frames[hi] + 1) * FRAME
+            first, last = frames[lo], frames[hi]
+            # stop the word at the first silence it runs into, so a pause is never swallowed by
+            # whichever word happens to straddle it
+            cut = last + 1
+            for f in range(first, last + 1):
+                if in_pause[f]:
+                    cut = f
+                    break
+            start = first * FRAME
+            end = cut * FRAME
             words_out.append({"s": round(start, 2), "e": round(max(end, start + 0.06), 2)})
 
     out_path.write_text(json.dumps({"dur": round(total_frames * FRAME, 2), "w": words_out},
                                    separators=(",", ":")), encoding="utf-8")
     return words_out, bounds
-
-
-def score(got, want, total):
-    return -abs(float(got) - float(want)) / total * 60.0
 
 
 def article_text(md_path, level):
