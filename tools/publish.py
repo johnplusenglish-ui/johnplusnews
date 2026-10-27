@@ -220,6 +220,11 @@ def prune_pictures(content_dir, static_dir):
         for f in d.iterdir():
             if f.is_file() and GENERATED_AUDIO.search(f.name) and f.name not in used_audio:
                 f.unlink()
+                f.with_suffix(".words.json").unlink(missing_ok=True)
+        # a recording replaced before this ran can leave its word timings behind
+        for f in d.iterdir():
+            if f.name.endswith(".words.json") and f.name[:-len(".words.json")] + ".m4a" not in used_audio:
+                f.unlink(missing_ok=True)
     used = set()
     for _, meta, _, _ in article_files(content_dir):
         if meta.get("image"):

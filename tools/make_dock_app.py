@@ -64,6 +64,19 @@ def camera_glyph(px, py, c, bottom):
     return [(max(body, bump), WHITE), (lens * max(body, bump), bottom)]
 
 
+def wave_glyph(px, py, c, bottom):
+    """A white play triangle with a sound wave beside it: the recordings tool."""
+    tri = 0.0
+    x, y = px - (c - 70), py - c
+    if -150 <= y <= 150:
+        edge = 150 - abs(y)            # the sloping sides of a triangle lying on its side
+        tri = coverage(x - edge * 1.15) * coverage(-x - 60)
+    bars = 0.0
+    for i, (dx, h) in enumerate(((0, 60), (78, 110), (156, 70))):
+        bars = max(bars, coverage(rounded_box(px, py, c + 95 + dx, c, 22, h, 22)))
+    return [(max(tri, bars), WHITE)]
+
+
 APPS = {
     "article": {"app": "Publish an article.app", "command": "Publish an article.command",
                 "what": "publisher", "glyph": plus_glyph,
@@ -71,6 +84,9 @@ APPS = {
     "photos": {"app": "Photo publisher.app", "command": "Open the photo publisher.command",
                "what": "photo publisher", "glyph": camera_glyph,
                "top": (0xFB, 0xBF, 0x24), "bottom": (0xD9, 0x77, 0x06)},
+    "audio": {"app": "Audio publisher.app", "command": "Open the audio publisher.command",
+              "what": "audio publisher", "glyph": wave_glyph,
+              "top": (0x34, 0xD3, 0x99), "bottom": (0x0F, 0x9D, 0x6E)},
 }
 
 
