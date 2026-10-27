@@ -47,6 +47,7 @@ The case is also a reminder that new discoveries can emerge from unexpected plac
 
 title: The Lake Mead Mystery Finally Has a Name
 summary: Environmental change uncovered what somebody had hidden, and modern science recovered a name that time had almost erased. Neither explains who put him there.
+audio: audio/a-body-in-a-barrel-a-40-year-old-mystery-advanced-601a04.m4a
 
 On a stretch of newly exposed shoreline at Lake Mead in May 2022, a group of boaters came across an object that looked oddly out of place: a corroded metal barrel. The reservoir near Las Vegas had been shrinking as drought and heavy water use brought down its level, exposing ground that had been submerged for decades. Inside the barrel were human remains. What at first appeared to be a grim curiosity soon became the centre of a homicide investigation reaching back roughly forty years.
 
