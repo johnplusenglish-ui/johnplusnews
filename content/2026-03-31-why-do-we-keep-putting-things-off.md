@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: The Email You Keep Not Writing
 summary: You make coffee, tidy the desk and check the weather. An hour later, the task is still waiting.
+audio: audio/why-do-we-keep-putting-things-off-core-82d26f.m4a
 
 It's Monday morning. You have an important email to write, and you know it will take only twenty minutes. First, you make coffee. Then you look at your phone. You tidy your desk and check the weather. Suddenly, an hour has gone by and the email is still there. You promise to start after lunch. If this sounds familiar, you are not alone. Most people put off difficult or boring tasks sometimes.
 
@@ -28,6 +29,7 @@ Of course, everyone has days when they are tired, busy or simply not interested.
 
 title: What Makes a Simple Task So Hard to Start?
 summary: Psychologists increasingly look at the feelings behind the delay: anxiety, perfectionism and the fear of doing a poor job.
+audio: audio/why-do-we-keep-putting-things-off-intermediate-507785.m4a
 
 The deadline is tomorrow, but your presentation is still an empty document. You know exactly what you ought to be doing. Instead, you answer a few unnecessary messages, make another cup of tea and suddenly decide your desk needs cleaning. By the time you finally sit down to work, the evening has disappeared. If this sounds familiar, you have experienced procrastination: putting something off despite knowing that the delay may make matters worse.
 
@@ -45,6 +47,7 @@ None of this means that procrastination is harmless. Repeatedly putting off impo
 
 title: Why We Put Off the Things We Want to Finish
 summary: You know the deadline is tomorrow, yet you make tea and rearrange folders. Studies from 2026 link delay with perfectionism, anxiety and attention, without proving what causes it.
+audio: audio/why-do-we-keep-putting-things-off-advanced-565be1.m4a
 
 You have a presentation to finish, a deadline approaching and a perfectly usable desk. Yet instead of opening the document, you find yourself rearranging folders, checking messages and making a cup of tea you didn't particularly want. You know that delaying the work will make tomorrow more unpleasant. Somehow, that knowledge changes nothing. Procrastination has a peculiar power: it effectively allows us to watch ourselves make a poor decision while feeling momentarily relieved by it.
 
