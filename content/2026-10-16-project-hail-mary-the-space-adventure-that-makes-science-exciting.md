@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: The Space Hero Who Is Often Afraid
 summary: A film about a science teacher who must save the Sun has become a big hit. What makes it different from other space films?
+audio: audio/project-hail-mary-the-space-adventure-that-makes-science-exciting-core-ba5cf9.m4a
 
 Imagine waking up on a spaceship with no memory of how you got there. Worse still, you may be the only person who can save Earth. That is how Project Hail Mary begins. Ryland Grace is a school science teacher, and he is the one who has to find a way to stop the danger. The science-fiction film, released in March 2026, stars Ryan Gosling in the role. It is based on a novel by Andy Weir, the author of The Martian.
 
@@ -28,6 +29,7 @@ Perhaps its cleverest idea is making a science teacher the hero of a major space
 
 title: Saving the World by Getting Things Wrong
 summary: Ryan Gosling plays a teacher who meets an alien with the same problem. Their slow attempt to understand each other is the heart of the film.
+audio: audio/project-hail-mary-the-space-adventure-that-makes-science-exciting-intermediate-d33e56.m4a
 
 A man comes round aboard a spacecraft, unable to remember his name or how he got there. His crewmates are dead, Earth is a very long way away and the future of humanity may depend on what he does next.
 
