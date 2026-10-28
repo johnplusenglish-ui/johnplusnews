@@ -611,6 +611,15 @@
     return d.getFullYear() + "-" + z(d.getMonth() + 1) + "-" + z(d.getDate()) + " " + z(d.getHours()) + ":" + z(d.getMinutes()) + ":" + z(d.getSeconds());
   }
   function ms(iso) { var t = Date.parse(iso); return isNaN(t) ? 0 : t; }
+  /* a table cell with the date and, under it, the time; hover for the exact second and time zone */
+  function stampTd(iso, none) {
+    var td = el("td", "num t-stamp");
+    if (!iso) { td.textContent = none || ""; return td; }
+    td.appendChild(el("span", "t-date", fmtDate(iso)));
+    td.appendChild(el("span", "t-time", fmtTime(iso)));
+    td.title = fmtExact(iso);
+    return td;
+  }
   function csv(rows) {
     return "﻿" + rows.map(function (r) { return r.map(function (c) { return '"' + String(c == null ? "" : c).replace(/"/g, '""') + '"'; }).join(","); }).join("\r\n");
   }
@@ -933,7 +942,7 @@
 
       var tabs = el("div", "t-tabs"); tabs.setAttribute("role", "tablist");
       var panes = {}, btns = {};
-      [["members", "Members"], ["reading", "Articles read"], ["articles", "Words by article"]].forEach(function (t) {
+      [["members", "Members"], ["words", "Words"], ["reading", "Articles read"], ["articles", "Words by article"]].forEach(function (t) {
         var b = el("button", "t-tab", t[1]); b.type = "button"; b.setAttribute("role", "tab");
         b.addEventListener("click", function () { pick(t[0]); });
         tabs.appendChild(b); btns[t[0]] = b; panes[t[0]] = el("div", "t-pane");
@@ -953,7 +962,9 @@
         }))));
       });
       tools.appendChild(dm); tools.appendChild(dl);
-      root.appendChild(tabs); root.appendChild(tools); root.appendChild(panes.members); root.appendChild(panes.reading); root.appendChild(panes.articles);
+      root.appendChild(tabs); root.appendChild(tools); root.appendChild(panes.members); root.appendChild(panes.words); root.appendChild(panes.reading); root.appendChild(panes.articles);
+
+      var showWordsFor = null;   // set by the Words table below; the Words figure on each member opens it
 
       /* members */
       if (!people.length) panes.members.appendChild(el("p", "acct-note", "Nobody has created an account yet."));
@@ -985,15 +996,7 @@
         var thead = el("thead"); thead.appendChild(head); tbl.appendChild(thead);
         var tb = el("tbody"); tbl.appendChild(tb); panes.members.appendChild(tbl);
         var none = el("p", "acct-small", "Nobody matches."); none.hidden = true; panes.members.appendChild(none);
-        /* the date, with the time of day under it; hover for the exact second and time zone */
-        function stampCell(iso, none) {
-          var td = el("td", "num t-stamp");
-          if (!iso) { td.textContent = none; return td; }
-          td.appendChild(el("span", "t-date", fmtDate(iso)));
-          td.appendChild(el("span", "t-time", fmtTime(iso)));
-          td.title = fmtExact(iso);
-          return td;
-        }
+        var stampCell = stampTd;
         info.forEach(function (s) {
           var tr = el("tr", "t-row");
           var td = el("td"); var nb = el("button", "t-name", nameOf(s.p)); nb.type = "button"; nb.setAttribute("aria-expanded", "false");
@@ -1002,7 +1005,13 @@
           tr.appendChild(stampCell(s.p.created_at, ""));
           tr.appendChild(el("td", "num", String(s.pr.length)));
           tr.appendChild(el("td", "num", String(s.done)));
-          tr.appendChild(el("td", "num", String(s.ws.length)));
+          var wtd = el("td", "num");
+          if (s.ws.length) {
+            var wb = el("button", "t-link", String(s.ws.length)); wb.type = "button"; wb.title = "See " + nameOf(s.p) + "'s words";
+            wb.addEventListener("click", function () { if (showWordsFor) showWordsFor(s.p.id); });
+            wtd.appendChild(wb);
+          } else wtd.textContent = "0";
+          tr.appendChild(wtd);
           tr.appendChild(stampCell(s.last, "Never"));
           var dr = el("tr", "t-detail"); dr.hidden = true;
           var dc = el("td"); dc.colSpan = 6;
@@ -1071,6 +1080,158 @@
         });
         draw();
       }
+
+
+      /* words: every saved word as a table to search, filter and sort, either one row per word or one row per save */
+      (function () {
+        var pane = panes.words;
+        if (!words.length) { pane.appendChild(el("p", "acct-note", "No words have been saved yet.")); return; }
+        var COLS = {
+          word: [["text", "Word or phrase", "s"], ["members", "Members", "n"], ["saves", "Saves", "n"], ["articles", "Articles", "n"], ["levels", "Levels", "s"], ["last", "Last saved", "n"]],
+          save: [["text", "Word or phrase", "s"], ["member", "Member", "s"], ["article", "Article", "s"], ["level", "Level", "s"], ["saved", "Saved", "n"]]
+        };
+        var st = { mode: "word", key: "members", dir: -1, shown: 100, level: "all", slug: "all", user: "all", q: "" };
+        function opt(sel, value, text) { var o = el("option", "", text); o.value = value; sel.appendChild(o); }
+        function box(label) { var x = el("select"); x.setAttribute("aria-label", label); return x; }
+        function byText(a, b) { return a[1].localeCompare(b[1], undefined, { sensitivity: "base" }); }
+
+        var bar = el("div", "t-filter");
+        var q = el("input", "t-search"); q.type = "search"; q.autocomplete = "off"; q.placeholder = "Search words, sentences or members"; q.setAttribute("aria-label", "Search saved words");
+        var viewSel = box("How to list the words"); opt(viewSel, "word", "One row per word"); opt(viewSel, "save", "One row per save");
+        var lvSel = box("Level"); opt(lvSel, "all", "All levels");
+        var haveLv = {}; words.forEach(function (w) { if (lvName(w.level)) haveLv[lvName(w.level)] = 1; });
+        ["Core", "Intermediate", "Advanced"].concat(Object.keys(haveLv)).forEach(function (l, i, a) { if (haveLv[l] && a.indexOf(l) === i) opt(lvSel, l, l); });
+        var artSel = box("Article"); opt(artSel, "all", "All articles");
+        groupBy(words, "slug").map(function (g) { return [g.key, titleOf(g.key)]; }).sort(byText).forEach(function (a) { opt(artSel, a[0], a[1]); });
+        var whoSel = box("Member"); opt(whoSel, "all", "All members");
+        var seenWho = {}; words.forEach(function (w) { seenWho[w.user_id] = 1; });
+        Object.keys(seenWho).map(function (id) { return [id, nameOf(byId[id])]; }).sort(byText).forEach(function (a) { opt(whoSel, a[0], a[1]); });
+        var count = el("span", "t-count");
+        [q, viewSel, lvSel, artSel, whoSel, count].forEach(function (n) { bar.appendChild(n); });
+        pane.appendChild(bar);
+
+        var wrap = el("div", "t-scroll");
+        var tbl = el("table", "t-table t-words"); var thead = el("thead"); var tbody = el("tbody");
+        tbl.appendChild(thead); tbl.appendChild(tbody); wrap.appendChild(tbl); pane.appendChild(wrap);
+        var none = el("p", "acct-small", "No saved words match."); none.hidden = true; pane.appendChild(none);
+        var more = el("button", "wd-btn", "Show more"); more.type = "button"; more.addEventListener("click", function () { st.shown += 100; draw(); });
+        var dl2 = el("button", "wd-btn", "Download this table (CSV)"); dl2.type = "button";
+        var foot = el("div", "wd-bar"); foot.appendChild(more); foot.appendChild(dl2); pane.appendChild(foot);
+
+        function visible() {
+          return words.filter(function (w) {
+            if (st.level !== "all" && lvName(w.level) !== st.level) return false;
+            if (st.slug !== "all" && w.slug !== st.slug) return false;
+            if (st.user !== "all" && w.user_id !== st.user) return false;
+            if (st.q && (w.text + " " + (w.sentence || "") + " " + nameOf(byId[w.user_id])).toLowerCase().indexOf(st.q) < 0) return false;
+            return true;
+          });
+        }
+        function rowsFor(list) {
+          if (st.mode === "save") {
+            return list.map(function (w) {
+              return { w: w, v: { text: w.text.toLowerCase(), member: nameOf(byId[w.user_id]).toLowerCase(), article: titleOf(w.slug).toLowerCase(), level: lvName(w.level), saved: ms(w.created_at) } };
+            });
+          }
+          var map = {}, out = [];
+          list.forEach(function (w) {
+            var k = w.text.toLowerCase().replace(/\s+/g, " ").trim(), g = map[k];
+            if (!g) { g = map[k] = { w: w, who: {}, slugs: {}, lv: {}, saves: 0, last: 0 }; out.push(g); }
+            g.who[w.user_id] = 1; g.slugs[w.slug] = 1; g.saves++;
+            if (lvName(w.level)) g.lv[lvName(w.level)] = 1;
+            var t = ms(w.created_at); if (t > g.last) { g.last = t; g.w = w; }
+          });
+          return out.map(function (g) {
+            g.v = { text: g.w.text.toLowerCase(), members: Object.keys(g.who).length, saves: g.saves, articles: Object.keys(g.slugs).length, levels: Object.keys(g.lv).sort().join(", "), last: g.last };
+            return g;
+          });
+        }
+        function ordered(rows) {
+          return rows.sort(function (a, b) {
+            var x = a.v[st.key], y = b.v[st.key];
+            var c = typeof x === "string" ? x.localeCompare(y, undefined, { sensitivity: "base" }) : x - y;
+            if (c) return c * st.dir;
+            if (st.mode === "word") return (b.v.members - a.v.members) || (b.v.saves - a.v.saves) || (b.v.last - a.v.last) || a.v.text.localeCompare(b.v.text);
+            return (b.v.saved - a.v.saved) || a.v.text.localeCompare(b.v.text);
+          });
+        }
+        function whoNames(g) {
+          var n = Object.keys(g.who).map(function (id) { return nameOf(byId[id]); }).sort(function (a, b) { return a.localeCompare(b); });
+          return n.slice(0, 3).join(", ") + (n.length > 3 ? " and " + (n.length - 3) + " more" : "");
+        }
+        function titlesOf(g) { return Object.keys(g.slugs).map(titleOf).sort().join("; "); }
+
+        function draw() {
+          var list = visible(), rows = ordered(rowsFor(list));
+          clear(thead);
+          var tr = el("tr");
+          COLS[st.mode].forEach(function (c) {
+            var th = el("th", c[2] === "n" ? "num" : ""); th.scope = "col";
+            var b = el("button", "t-sort", c[1]); b.type = "button";
+            b.addEventListener("click", function () {
+              if (st.key === c[0]) st.dir = -st.dir; else { st.key = c[0]; st.dir = c[2] === "s" ? 1 : -1; }
+              st.shown = 100; draw();
+            });
+            th.setAttribute("aria-sort", c[0] === st.key ? (st.dir > 0 ? "ascending" : "descending") : "none");
+            th.appendChild(b); tr.appendChild(th);
+          });
+          thead.appendChild(tr);
+          clear(tbody);
+          rows.slice(0, st.shown).forEach(function (r) {
+            var row = el("tr", "t-row"), td = el("td");
+            td.appendChild(el("strong", "t-wd", r.w.text));
+            if (st.mode === "word") {
+              td.appendChild(el("span", "t-mail", whoNames(r)));
+              row.appendChild(td);
+              row.appendChild(el("td", "num", String(r.v.members)));
+              row.appendChild(el("td", "num", String(r.v.saves)));
+              var at = el("td", "num", String(r.v.articles)); at.title = titlesOf(r); row.appendChild(at);
+              row.appendChild(el("td", "", r.v.levels));
+              row.appendChild(stampTd(new Date(r.v.last).toISOString()));
+            } else {
+              if (r.w.sentence) td.appendChild(sentenceNode(r.w.sentence, r.w.text));
+              row.appendChild(td);
+              var p = byId[r.w.user_id], mt = el("td"); mt.appendChild(el("span", "t-who", nameOf(p))); mt.appendChild(el("span", "t-mail", p.email || "")); row.appendChild(mt);
+              var ar = el("td"), a = el("a", "", titleOf(r.w.slug)); a.href = "/articles/" + r.w.slug + "/"; ar.appendChild(a); row.appendChild(ar);
+              row.appendChild(el("td", "", lvName(r.w.level)));
+              row.appendChild(stampTd(r.w.created_at));
+            }
+            tbody.appendChild(row);
+          });
+          count.textContent = st.mode === "word"
+            ? rows.length + (rows.length === 1 ? " word" : " words") + " · " + list.length + (list.length === 1 ? " save" : " saves")
+            : rows.length + (rows.length === 1 ? " save" : " saves");
+          wrap.hidden = !rows.length; none.hidden = !!rows.length; foot.hidden = !rows.length;
+          more.hidden = rows.length <= st.shown;
+          more.textContent = "Show " + Math.min(100, rows.length - st.shown) + " more";
+          dl2.onclick = function () {
+            if (st.mode === "word") {
+              download("words-by-word.csv", csv([["Word or phrase", "Members", "Saves", "Articles", "Levels", "Last saved"]].concat(rows.map(function (r) {
+                return [r.w.text, r.v.members, r.v.saves, titlesOf(r), r.v.levels, csvStamp(new Date(r.v.last).toISOString())];
+              }))));
+            } else {
+              download("words-every-save.csv", csv([["Word or phrase", "Sentence", "Member", "Email", "Article", "Level", "Saved"]].concat(rows.map(function (r) {
+                var p = byId[r.w.user_id]; return [r.w.text, r.w.sentence, nameOf(p), p.email, titleOf(r.w.slug), lvName(r.w.level), csvStamp(r.w.created_at)];
+              }))));
+            }
+          };
+        }
+        function reset() { st.shown = 100; draw(); }
+        q.addEventListener("input", function () { st.q = q.value.trim().toLowerCase(); reset(); });
+        lvSel.addEventListener("change", function () { st.level = lvSel.value; reset(); });
+        artSel.addEventListener("change", function () { st.slug = artSel.value; reset(); });
+        whoSel.addEventListener("change", function () { st.user = whoSel.value; reset(); });
+        viewSel.addEventListener("change", function () {
+          st.mode = viewSel.value;
+          if (st.mode === "word") { st.key = "members"; st.dir = -1; } else { st.key = "saved"; st.dir = -1; }
+          reset();
+        });
+        showWordsFor = function (id) {
+          st.user = id; whoSel.value = id; st.mode = "save"; viewSel.value = "save"; st.key = "saved"; st.dir = -1;
+          st.q = ""; q.value = ""; st.shown = 100; draw(); pick("words");
+        };
+        draw();
+      })();
 
       /* articles read: who opened and finished each article */
       if (!prog.length) panes.reading.appendChild(el("p", "acct-note", "No articles have been opened by members yet."));

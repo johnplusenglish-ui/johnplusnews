@@ -933,7 +933,8 @@ def account_page(path, heading, kind, note):
     """My words and the teacher view: an empty shell that static/account.js fills in for the signed-in reader."""
     main = ('<div class="wrap"><h1 class="page-title">{}</h1><p class="acct-intro">{}</p>'
             '<div id="acct-root" data-page="{}"><noscript><p class="acct-note">This page needs JavaScript.</p></noscript></div></div>').format(heading, note, kind)
-    return page(path, main, title=heading, desc=note, head_extra='<meta name="robots" content="noindex">\n')
+    # the teacher view is made of wide tables, so it gets the wide layout; My words is a reading list and stays narrow
+    return page(path, main, title=heading, desc=note, wide=(kind == "teacher"), head_extra='<meta name="robots" content="noindex">\n')
 
 
 def legal_page(path, title, body, desc):

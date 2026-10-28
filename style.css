@@ -890,6 +890,17 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .t-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 0 0 10px; }
 .t-filter select { font: inherit; font-size: 0.875rem; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); }
 .t-count { font-size: 0.8125rem; color: var(--muted); }
+.t-filter select { max-width: 230px; text-overflow: ellipsis; }
+.t-filter .t-search { flex: 1 1 220px; min-width: 180px; max-width: 320px; font: inherit; font-size: 0.875rem; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); }
+.t-scroll { overflow-x: auto; }
+.t-words .t-wd { display: block; font-weight: 600; color: var(--ink); overflow-wrap: anywhere; }
+.t-words td { vertical-align: top; }
+.t-words .wd-sent { margin: 4px 0 0; font-size: 0.8125rem; line-height: 1.4; color: var(--muted); }
+.t-words .wd-sent b { color: var(--ink); background: #fdebd0; border-radius: 3px; padding: 0 2px; }
+.t-words .t-who { display: block; font-weight: 600; }
+.t-table .t-link { font: inherit; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.t-table .t-link:hover { color: #174fc0; }
+.t-table .t-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
 .t-sub { font-size: 0.75rem !important; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
 .t-reads { list-style: none; margin: 4px 0 12px; padding: 0; }
 .t-reads li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding: 8px 0; border-top: 1px solid var(--line); font-size: 0.9375rem; }
