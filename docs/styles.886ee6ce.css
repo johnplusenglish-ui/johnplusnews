@@ -864,6 +864,8 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .t-table th { text-align: left; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; padding: 6px 8px; border-bottom: 1px solid var(--line); }
 .t-table td { padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .t-table .num { text-align: right; white-space: nowrap; }
+.t-table .t-date, .t-table .t-time { display: block; }
+.t-table .t-time { font-size: 0.8125rem; font-variant-numeric: tabular-nums; color: var(--muted); }
 .t-name { display: block; font: inherit; font-weight: 600; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-align: left; }
 .t-mail { display: block; font-size: 0.8125rem; color: var(--muted); overflow-wrap: anywhere; }
 .t-detail td { background: #fafbfc; padding: 14px 16px; }

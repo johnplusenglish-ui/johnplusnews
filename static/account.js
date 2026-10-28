@@ -156,12 +156,12 @@
   }
   function signIn(email, password) {
     return raw("POST", "/auth/v1/token?grant_type=password", { body: { email: email, password: password } })
-      .then(function (j) { setSession(fromToken(j)); return start(true); });
+      .then(function (j) { setSession(fromToken(j)); try { localStorage.removeItem(seenKey(session.user.id)); } catch (e) {} return start(true); });
   }
   function signUp(name, email, password) {
     return raw("POST", "/auth/v1/signup?redirect_to=" + enc(location.origin + "/"), { body: { email: email, password: password, data: { display_name: name } } })
       .then(function (j) {
-        if (j && j.access_token) { setSession(fromToken(j)); return start(true).then(function () { return "in"; }); }
+        if (j && j.access_token) { setSession(fromToken(j)); try { localStorage.removeItem(seenKey(session.user.id)); } catch (e) {} return start(true).then(function () { return "in"; }); }
         return "confirm";
       });
   }
@@ -205,6 +205,22 @@
     }).catch(function () { return { error: "That link has expired. Ask for a new one." }; });
   }
 
+  /* ================================================================= when someone was last here */
+  /* The database sets the time itself (news_touch in supabase/add_last_seen.sql), so it is the real moment and
+     cannot be altered from the browser. Once every ten minutes per person is plenty, and a sign-in always counts.
+     Until that function has been added to the project the call simply fails and is not tried again. */
+  var touchBroken = false;
+  function seenKey(id) { return "jpn_seen_" + id; }
+  function touchSeen() {
+    if (!me || touchBroken) return;
+    var last = 0; try { last = Number(localStorage.getItem(seenKey(me.id))) || 0; } catch (e) {}
+    if (Date.now() - last < 10 * 60 * 1000) return;
+    try { localStorage.setItem(seenKey(me.id), String(Date.now())); } catch (e) {}
+    api("POST", "/rest/v1/rpc/news_touch", { body: {} }).catch(function (e) {
+      if (e && (e.status === 404 || e.status === 400)) touchBroken = true;
+    });
+  }
+
   /* ================================================================= who am I */
   function loadMe() {
     if (!session) { me = null; return Promise.resolve(); }
@@ -217,7 +233,7 @@
         body: { id: me.id, display_name: (me.name || "").slice(0, 60) } }).then(get);
     }).then(function (rows) {
       var r = rows && rows[0];
-      if (r) { me.role = r.role || "student"; if (r.display_name) me.name = r.display_name; write("jpn_role", { id: me.id, role: me.role }); }
+      if (r) { me.role = r.role || "student"; if (r.display_name) me.name = r.display_name; write("jpn_role", { id: me.id, role: me.role }); touchSeen(); }
     }).catch(function () {});
   }
 
@@ -575,6 +591,26 @@
   function fmtDate(iso) {
     try { return new Date(iso).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); } catch (e) { return ""; }
   }
+  /* the time of day, in the reader's own time zone, to the minute */
+  function fmtTime(iso) {
+    try { return new Date(iso).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" }); } catch (e) { return ""; }
+  }
+  function fmtStamp(iso) { return iso ? fmtDate(iso) + ", " + fmtTime(iso) : ""; }
+  /* the exact moment, down to the second and with the time zone, for a tooltip */
+  function fmtExact(iso) {
+    try {
+      return new Date(iso).toLocaleString("en-GB", { weekday: "short", day: "numeric", month: "short", year: "numeric",
+        hour: "2-digit", minute: "2-digit", second: "2-digit", timeZoneName: "short" });
+    } catch (e) { return ""; }
+  }
+  /* a sortable local date and time for the spreadsheets, 2026-10-27 14:32:07 */
+  function csvStamp(iso) {
+    if (!iso) return "";
+    var d = new Date(iso); if (isNaN(d.getTime())) return "";
+    function z(n) { return (n < 10 ? "0" : "") + n; }
+    return d.getFullYear() + "-" + z(d.getMonth() + 1) + "-" + z(d.getDate()) + " " + z(d.getHours()) + ":" + z(d.getMinutes()) + ":" + z(d.getSeconds());
+  }
+  function ms(iso) { var t = Date.parse(iso); return isNaN(t) ? 0 : t; }
   function csv(rows) {
     return "﻿" + rows.map(function (r) { return r.map(function (c) { return '"' + String(c == null ? "" : c).replace(/"/g, '""') + '"'; }).join(","); }).join("\r\n");
   }
@@ -859,7 +895,12 @@
     if (!me) { signInPrompt("Sign in to see the teacher view."); return; }
     if (me.role !== "teacher") { clear(root); root.appendChild(el("p", "acct-note", "This page is for the teacher.")); return; }
     showLoading("Loading the members", 6);
-    Promise.all([loadTitles(), getAll("/rest/v1/news_profiles?select=id,email,display_name,role,created_at&order=created_at.asc"),
+    /* last_seen_at only exists once supabase/add_last_seen.sql has been run; without it the page still works */
+    var profileBase = "/rest/v1/news_profiles?select=id,email,display_name,role,created_at";
+    function loadProfiles() {
+      return getAll(profileBase + ",last_seen_at&order=created_at.asc").catch(function () { return getAll(profileBase + "&order=created_at.asc"); });
+    }
+    Promise.all([loadTitles(), loadProfiles(),
                  getAll("/rest/v1/news_words?select=user_id,slug,level,text,sentence,created_at&order=created_at.desc"),
                  getAll("/rest/v1/news_progress?select=user_id,slug,status,level,updated_at")]).then(function (res) {
       var people = res[1].filter(function (p) { return p.role !== "teacher"; });
@@ -873,8 +914,10 @@
       var info = people.map(function (p) {
         var ws = words.filter(function (w) { return w.user_id === p.id; });
         var pr = prog.filter(function (x) { return x.user_id === p.id; });
-        var stamps = ws.map(function (w) { return w.created_at; }).concat(pr.map(function (x) { return x.updated_at; }));
-        return { p: p, ws: ws, pr: pr, done: pr.filter(function (x) { return x.status === "finished"; }).length, last: stamps.sort().pop() || "" };
+        /* the latest of: signing in, saving a word, opening or finishing an article */
+        var stamps = ws.map(function (w) { return w.created_at; }).concat(pr.map(function (x) { return x.updated_at; }), [p.last_seen_at]);
+        var best = 0; stamps.forEach(function (x) { if (x && ms(x) > best) best = ms(x); });
+        return { p: p, ws: ws, pr: pr, done: pr.filter(function (x) { return x.status === "finished"; }).length, last: best ? new Date(best).toISOString() : "" };
       });
       clear(root); ready();
 
@@ -900,13 +943,13 @@
       var dm = el("button", "wd-btn", "Download members (CSV)"); dm.type = "button";
       dm.addEventListener("click", function () {
         download("members.csv", csv([["Name", "Email", "Joined", "Last active", "Articles opened", "Articles finished", "Words saved"]].concat(info.map(function (s) {
-          return [nameOf(s.p), s.p.email, fmtDate(s.p.created_at), s.last ? fmtDate(s.last) : "", s.pr.length, s.done, s.ws.length];
+          return [nameOf(s.p), s.p.email, csvStamp(s.p.created_at), csvStamp(s.last), s.pr.length, s.done, s.ws.length];
         }))));
       });
       var dl = el("button", "wd-btn", "Download all words (CSV)"); dl.type = "button";
       dl.addEventListener("click", function () {
         download("class-words.csv", csv([["Member", "Email", "Article", "Level", "Word", "Sentence", "Saved"]].concat(words.map(function (w) {
-          var p = byId[w.user_id]; return [nameOf(p), p.email, titleOf(w.slug), lvName(w.level), w.text, w.sentence, fmtDate(w.created_at)];
+          var p = byId[w.user_id]; return [nameOf(p), p.email, titleOf(w.slug), lvName(w.level), w.text, w.sentence, csvStamp(w.created_at)];
         }))));
       });
       tools.appendChild(dm); tools.appendChild(dl);
@@ -928,16 +971,25 @@
         var thead = el("thead"); thead.appendChild(head); tbl.appendChild(thead);
         var tb = el("tbody"); tbl.appendChild(tb); panes.members.appendChild(tbl);
         var none = el("p", "acct-small", "Nobody matches."); none.hidden = true; panes.members.appendChild(none);
+        /* the date, with the time of day under it; hover for the exact second and time zone */
+        function stampCell(iso, none) {
+          var td = el("td", "num t-stamp");
+          if (!iso) { td.textContent = none; return td; }
+          td.appendChild(el("span", "t-date", fmtDate(iso)));
+          td.appendChild(el("span", "t-time", fmtTime(iso)));
+          td.title = fmtExact(iso);
+          return td;
+        }
         info.forEach(function (s) {
           var tr = el("tr", "t-row");
           var td = el("td"); var nb = el("button", "t-name", nameOf(s.p)); nb.type = "button"; nb.setAttribute("aria-expanded", "false");
           td.appendChild(nb); td.appendChild(el("span", "t-mail", s.p.email || ""));
           tr.appendChild(td);
-          tr.appendChild(el("td", "num", s.p.created_at ? fmtDate(s.p.created_at) : ""));
+          tr.appendChild(stampCell(s.p.created_at, ""));
           tr.appendChild(el("td", "num", String(s.pr.length)));
           tr.appendChild(el("td", "num", String(s.done)));
           tr.appendChild(el("td", "num", String(s.ws.length)));
-          tr.appendChild(el("td", "num", s.last ? fmtDate(s.last) : "Never"));
+          tr.appendChild(stampCell(s.last, "Never"));
           var dr = el("tr", "t-detail"); dr.hidden = true;
           var dc = el("td"); dc.colSpan = 6;
           dr.appendChild(dc);
@@ -953,7 +1005,7 @@
                 var ul = el("ul", "t-reads");
                 s.pr.slice().sort(function (a, b) { return a.updated_at < b.updated_at ? 1 : -1; }).forEach(function (r) {
                   var li = el("li"); var a = el("a", "", titleOf(r.slug)); a.href = "/articles/" + r.slug + "/"; li.appendChild(a);
-                  li.appendChild(el("span", "t-when", [r.status === "finished" ? "Finished" : "Opened", lvName(r.level), fmtDate(r.updated_at)].filter(Boolean).join(" · ")));
+                  li.appendChild(el("span", "t-when", [r.status === "finished" ? "Finished" : "Opened", lvName(r.level), fmtStamp(r.updated_at)].filter(Boolean).join(" · ")));
                   ul.appendChild(li);
                 });
                 dc.appendChild(ul);
@@ -975,8 +1027,10 @@
           var key = order.value;
           list.sort(function (a, b) {
             if (key === "name") return nameOf(a.p).toLowerCase() < nameOf(b.p).toLowerCase() ? -1 : 1;
-            var x = key === "joined" ? a.p.created_at || "" : a.last, y = key === "joined" ? b.p.created_at || "" : b.last;
-            return x < y ? 1 : x > y ? -1 : 0;
+            /* real times, newest first; people with nothing yet go last, and ties fall back to who joined most recently */
+            var x = key === "joined" ? ms(a.p.created_at) : ms(a.last), y = key === "joined" ? ms(b.p.created_at) : ms(b.last);
+            if (x !== y) return y - x;
+            return ms(b.p.created_at) - ms(a.p.created_at);
           });
           clear(tb);
           list.forEach(function (s) { tb.appendChild(s.rows[0]); tb.appendChild(s.rows[1]); });
@@ -999,7 +1053,7 @@
         var ul = el("ul", "t-reads");
         g.rows.slice().sort(function (a, b) { return a.updated_at < b.updated_at ? 1 : -1; }).forEach(function (r) {
           var li = el("li"); li.appendChild(el("span", "t-who", nameOf(byId[r.user_id])));
-          li.appendChild(el("span", "t-when", [r.status === "finished" ? "Finished" : "Opened", lvName(r.level), fmtDate(r.updated_at)].filter(Boolean).join(" · ")));
+          li.appendChild(el("span", "t-when", [r.status === "finished" ? "Finished" : "Opened", lvName(r.level), fmtStamp(r.updated_at)].filter(Boolean).join(" · ")));
           ul.appendChild(li);
         });
         d.appendChild(ul); panes.reading.appendChild(d);
