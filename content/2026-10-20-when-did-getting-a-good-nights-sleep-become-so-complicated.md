@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: Your Watch Says You Slept Badly
 summary: You wake up feeling fine. Then your smartwatch gives you a low score and the day starts badly.
+audio: audio/when-did-getting-a-good-nights-sleep-become-so-complicated-core-dce747.m4a
 
 You wake up feeling refreshed. Then you look at your smartwatch. It gives you a poor sleep score. Suddenly, you begin to wonder whether you slept badly after all. Can technology make sleep more stressful than it needs to be?
 
@@ -32,6 +33,7 @@ Perhaps the best question in the morning is not 'How did my watch rate me?' It i
 
 title: Can Your Sleep Score Change How Tired You Feel?
 summary: Trackers estimate sleep from movement and heart rate, but the numbers look more certain than they really are. In 2017, researchers gave that worry a name.
+audio: audio/when-did-getting-a-good-nights-sleep-become-so-complicated-intermediate-e85a48.m4a
 
 Going to bed used to involve a pillow, a blanket and the hope of waking up refreshed. Today, a smartwatch may analyse the night and deliver a score before breakfast. For some people, the information is helpful. For others, it creates a new source of worry: what if they are not sleeping well enough?
 
@@ -55,6 +57,7 @@ Perhaps we should treat sleep technology like other health tools: useful when it
 
 title: When Trying to Sleep Better Keeps You Awake
 summary: Your watch gives you a sleep score before you have decided how you feel. In 2017, clinicians gave the name orthosomnia to patients who became preoccupied with such scores.
+audio: audio/when-did-getting-a-good-nights-sleep-become-so-complicated-advanced-f0f8ca.m4a
 
 The watch has judged your night's sleep before you have decided how you feel. It gives you a score, estimates your sleep stages and suggests what needs work. That information can be useful. For some people, though, the effort to get a better score becomes another reason to worry at bedtime.
 

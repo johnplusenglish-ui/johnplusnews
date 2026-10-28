@@ -865,6 +865,14 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .t-table td { padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .t-table .num { text-align: right; white-space: nowrap; }
 .t-table .t-date, .t-table .t-time { display: block; }
+/* the column headings are the sort controls: the arrow is faint until that column is the one in use */
+.t-table .t-sort { display: inline-flex; align-items: center; gap: 5px; padding: 2px 0; font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+.t-table .t-sort:hover { color: var(--ink); }
+.t-table .t-sort:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+.t-table .t-sort::after { content: ""; flex: none; width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 5px solid currentColor; opacity: 0.28; }
+.t-table th[aria-sort="descending"] .t-sort, .t-table th[aria-sort="ascending"] .t-sort { color: var(--ink); }
+.t-table th[aria-sort="descending"] .t-sort::after { opacity: 1; }
+.t-table th[aria-sort="ascending"] .t-sort::after { opacity: 1; border-top: 0; border-bottom: 5px solid currentColor; }
 .t-table .t-time { font-size: 0.8125rem; font-variant-numeric: tabular-nums; color: var(--muted); }
 .t-name { display: block; font: inherit; font-weight: 600; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-align: left; }
 .t-mail { display: block; font-size: 0.8125rem; color: var(--muted); overflow-wrap: anywhere; }

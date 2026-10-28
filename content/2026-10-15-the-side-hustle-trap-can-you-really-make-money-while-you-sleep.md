@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: Can You Really Make Money While You Sleep?
 summary: A laptop and a few spare hours sound like enough. The first customer may be much harder to find.
+audio: audio/the-side-hustle-trap-can-you-really-make-money-while-you-sleep-core-19eae1.m4a
 
 Imagine a video that begins like this: an influencer makes breakfast, looks at her phone and smiles. Another payment has arrived from a business she says almost runs itself. There is no boss, no journey to work, and money arrives while she sleeps. It is easy to see why such a video is attractive when rent and food are getting more expensive. But the camera shows the payment, not the hours spent designing, advertising and searching for the first customer.
 
@@ -30,6 +31,7 @@ None of this means side hustles are a bad idea. They can build confidence, teach
 
 title: The Side-Hustle Trap: What the Videos Leave Out
 summary: The video opens with coffee and a payment notification. It rarely shows the months of unpaid work, or the thousands of people selling the same thing.
+audio: audio/the-side-hustle-trap-can-you-really-make-money-while-you-sleep-intermediate-5de814.m4a
 
 The video begins with coffee and a payment notification. Its creator says a small online business covers the bills while leaving plenty of time for family, travel and sleep. What the camera does not show is the crowded marketplace, the advertising costs or the weeks when nobody buys anything. For anyone squeezed by the cost of living, the promise is powerful. The missing work is exactly what deserves attention.
 
@@ -47,6 +49,7 @@ It would be a mistake to dismiss side hustles altogether. They can provide flexi
 
 title: The Work Behind the Side-Hustle Pitch
 summary: Money-making videos show the payment and skip the work. A reporter's test of popular online ventures shows what stays outside the frame.
+audio: audio/the-side-hustle-trap-can-you-really-make-money-while-you-sleep-advanced-ede8a6.m4a
 
 The pitch usually starts with an ordinary morning: breakfast, a phone and another payment arriving. The creator says the business almost runs itself. What the video leaves outside the frame is harder to price: making the product, finding customers and keeping them happy. Before envying the income, it is worth asking what work produced it.
 

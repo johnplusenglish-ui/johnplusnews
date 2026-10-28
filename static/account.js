@@ -963,11 +963,25 @@
         [["all", "All members"], ["active", "Active this week"], ["new", "Joined this week"]].forEach(function (o) { var op = el("option", "", o[1]); op.value = o[0]; show.appendChild(op); });
         var order = el("select"); order.setAttribute("aria-label", "Order");
         [["last", "Last active first"], ["joined", "Newest members first"], ["name", "By name"]].forEach(function (o) { var op = el("option", "", o[1]); op.value = o[0]; order.appendChild(op); });
+        var custom = el("option", "", ""); custom.value = "custom"; custom.disabled = true; order.appendChild(custom);
         var count = el("span", "t-count");
         bar.appendChild(show); bar.appendChild(order); bar.appendChild(count);
         panes.members.appendChild(bar);
         var tbl = el("table", "t-table t-members");
-        var head = el("tr"); ["Member", "Joined", "Opened", "Finished", "Words", "Last active"].forEach(function (h, i) { var th = el("th", i ? "num" : "", h); th.scope = "col"; head.appendChild(th); });
+        /* Click a heading to sort by it, and again to turn it round. */
+        var COLS = [["name", "Member"], ["joined", "Joined"], ["opened", "Opened"], ["finished", "Finished"], ["words", "Words"], ["last", "Last active"]];
+        var sortKey = "last", sortDir = -1, ths = {};
+        var head = el("tr");
+        COLS.forEach(function (c, i) {
+          var th = el("th", i ? "num" : ""); th.scope = "col";
+          var b = el("button", "t-sort", c[1]); b.type = "button";
+          b.addEventListener("click", function () {
+            if (sortKey === c[0]) sortDir = -sortDir;
+            else { sortKey = c[0]; sortDir = c[0] === "name" ? 1 : -1; }   // names run A to Z, everything else biggest or newest first
+            draw();
+          });
+          th.appendChild(b); head.appendChild(th); ths[c[0]] = th;
+        });
         var thead = el("thead"); thead.appendChild(head); tbl.appendChild(thead);
         var tb = el("tbody"); tbl.appendChild(tb); panes.members.appendChild(tbl);
         var none = el("p", "acct-small", "Nobody matches."); none.hidden = true; panes.members.appendChild(none);
@@ -1024,20 +1038,37 @@
         });
         var draw = function () {
           var list = info.filter(function (s) { return show.value === "active" ? recent(s.last) : show.value === "new" ? recent(s.p.created_at) : true; });
-          var key = order.value;
+          function val(s, k) {
+            return k === "name" ? nameOf(s.p) : k === "joined" ? ms(s.p.created_at) : k === "opened" ? s.pr.length
+                 : k === "finished" ? s.done : k === "words" ? s.ws.length : ms(s.last);
+          }
           list.sort(function (a, b) {
-            if (key === "name") return nameOf(a.p).toLowerCase() < nameOf(b.p).toLowerCase() ? -1 : 1;
-            /* real times, newest first; people with nothing yet go last, and ties fall back to who joined most recently */
-            var x = key === "joined" ? ms(a.p.created_at) : ms(a.last), y = key === "joined" ? ms(b.p.created_at) : ms(b.last);
-            if (x !== y) return y - x;
-            return ms(b.p.created_at) - ms(a.p.created_at);
+            var x = val(a, sortKey), y = val(b, sortKey), c = 0;
+            if (sortKey === "name") c = String(x).localeCompare(String(y), undefined, { sensitivity: "base" });
+            else c = x - y;
+            if (c) return c * sortDir;
+            /* ties: whoever was here most recently, then whoever joined most recently, then by name */
+            return ms(b.last) - ms(a.last) || ms(b.p.created_at) - ms(a.p.created_at) || nameOf(a.p).localeCompare(nameOf(b.p));
           });
+          COLS.forEach(function (c) { ths[c[0]].setAttribute("aria-sort", c[0] === sortKey ? (sortDir > 0 ? "ascending" : "descending") : "none"); });
+          var preset = sortKey === "last" && sortDir < 0 ? "last" : sortKey === "joined" && sortDir < 0 ? "joined" : sortKey === "name" && sortDir > 0 ? "name" : "";
+          if (preset) order.value = preset;
+          else {
+            var label = COLS.filter(function (c) { return c[0] === sortKey; })[0][1];
+            custom.textContent = "Sorted by " + label.toLowerCase() + (sortKey === "name" ? (sortDir > 0 ? ", A to Z" : ", Z to A") : sortKey === "last" || sortKey === "joined" ? (sortDir > 0 ? ", oldest first" : ", newest first") : (sortDir > 0 ? ", fewest first" : ", most first"));
+            order.value = "custom";
+          }
           clear(tb);
           list.forEach(function (s) { tb.appendChild(s.rows[0]); tb.appendChild(s.rows[1]); });
           count.textContent = list.length + (list.length === 1 ? " member" : " members");
           tbl.hidden = !list.length; none.hidden = !!list.length;
         };
-        show.addEventListener("change", draw); order.addEventListener("change", draw);
+        show.addEventListener("change", draw);
+        order.addEventListener("change", function () {
+          var v = order.value;
+          sortKey = v; sortDir = v === "name" ? 1 : -1;
+          draw();
+        });
         draw();
       }
 

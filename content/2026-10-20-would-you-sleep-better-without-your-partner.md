@@ -12,6 +12,7 @@ image-credit-label: AI illustration
 
 title: Should Couples Sleep in Separate Rooms?
 summary: Some people call it a sleep divorce, but nobody is leaving. They just want a quiet night and fewer arguments.
+audio: audio/would-you-sleep-better-without-your-partner-core-4680f9.m4a
 
 It is the middle of the night. One person is sleeping peacefully, but their partner lies awake and exhausted because of loud snoring. They try moving the pillow and turning over. Nothing helps. Would sleeping in another room be a terrible idea?
 
