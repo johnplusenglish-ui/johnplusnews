@@ -283,7 +283,7 @@
     if (mode === "reset") { pw = field(form, "pw", "New password (at least 8 characters)", "password", "new-password", { minlength: "8" }); first = pw; }
     if (mode === "forgot") form.appendChild(el("p", "acct-small", "We will email you a link to choose a new password."));
     if (mode === "signup") {
-      var agree = el("p", "acct-small", "Your teacher can see the words you save and the articles you read. Nobody else can. By creating an account you agree to the ");
+      var agree = el("p", "acct-small", "Your teacher can see the words you save and look up, and the articles you read. Nobody else can. By creating an account you agree to the ");
       [["Terms", "/terms/"], ["Privacy notice", "/privacy/"]].forEach(function (l, i) {
         var a = el("a", "", l[0]); a.href = l[1]; a.target = "_blank"; a.rel = "noopener";
         if (i) agree.appendChild(document.createTextNode(" and the ")); agree.appendChild(a);
@@ -438,6 +438,20 @@
     else if (d.type === "remove") queue({ op: "del", slug: d.slug, level: d.level, text: d.item.text });
     else if (d.type === "clear") queue({ op: "clear", slug: d.slug, level: d.level });
   });
+
+  /* a dictionary look-up by a signed-in member: one row per word per article per visit, and never allowed to get in the way */
+  var lookedUp = {};
+  function recordLookup(slug, level, word) {
+    word = String(word || "").trim().slice(0, 60);
+    if (!me || !slug || !word || lookupBroken) return;
+    var k = slug + "|" + word.toLowerCase();
+    if (lookedUp[k]) return;
+    lookedUp[k] = 1;
+    api("POST", "/rest/v1/news_lookups", { prefer: "return=minimal", body: { slug: slug, level: level || "", word: word } })
+      .catch(function (e) { if (e && (e.status === 404 || e.status === 400)) lookupBroken = true; });
+  }
+  var lookupBroken = false;
+  document.addEventListener("jpn:lookup", function (e) { var d = e.detail || {}; recordLookup(d.slug, d.level, d.word); });
 
   /* this device's highlights belong to whoever was signed in last, so they are wiped on sign-out
      and never handed to a different person who signs in next */
@@ -775,7 +789,7 @@
   function deletePanel() {
     var box = el("section", "acct-danger");
     box.appendChild(el("h2", "", "Your account"));
-    var p = el("p", "", "You can delete your account whenever you like. This permanently removes your sign-in, your saved words, your progress and your preferences. It cannot be undone, so download your words first if you want to keep them.");
+    var p = el("p", "", "You can delete your account whenever you like. This permanently removes your sign-in, your saved words, your look-ups, your progress and your preferences. It cannot be undone, so download your words first if you want to keep them.");
     var open = el("button", "wd-btn wd-danger", "Delete my account"); open.type = "button";
     var form = el("div", "acct-confirm"); form.hidden = true;
     var lab = el("label", "", "Type DELETE to confirm"); lab.htmlFor = "acct-del";
@@ -870,7 +884,7 @@
                 paintGloss(dkey, hit);                // already known, no wait
               } else {
                 d.addEventListener("toggle", function () {
-                  if (d.open) loadGloss(r.text, def);
+                  if (d.open) { loadGloss(r.text, def); recordLookup(r.slug, r.level, r.text); }
                 });
                 if (d.open) loadGloss(r.text, def);   // a search opens rows itself
               }
@@ -911,12 +925,16 @@
     }
     Promise.all([loadTitles(), loadProfiles(),
                  getAll("/rest/v1/news_words?select=user_id,slug,level,text,sentence,created_at&order=created_at.desc"),
-                 getAll("/rest/v1/news_progress?select=user_id,slug,status,level,updated_at")]).then(function (res) {
+                 getAll("/rest/v1/news_progress?select=user_id,slug,status,level,updated_at"),
+                 /* news_lookups only exists once supabase/add_lookups.sql has been run */
+                 getAll("/rest/v1/news_lookups?select=user_id,slug,level,word,created_at&order=created_at.desc").catch(function () { return null; })]).then(function (res) {
       var people = res[1].filter(function (p) { return p.role !== "teacher"; });
-      var words = res[2], prog = res[3];
+      var words = res[2], prog = res[3], looks = res[4];
       var byId = {}; people.forEach(function (p) { byId[p.id] = p; });
       words = words.filter(function (w) { return byId[w.user_id]; });
       prog = prog.filter(function (p) { return byId[p.user_id]; });
+      var looksReady = looks !== null;
+      looks = (looks || []).filter(function (l) { return byId[l.user_id]; });
       function nameOf(p) { return p.display_name || (p.email || "").split("@")[0] || "Member"; }
       var weekAgo = new Date(Date.now() - 7 * 864e5).toISOString();
       function recent(iso) { return !!iso && new Date(iso).toISOString() >= weekAgo; }
@@ -924,7 +942,7 @@
         var ws = words.filter(function (w) { return w.user_id === p.id; });
         var pr = prog.filter(function (x) { return x.user_id === p.id; });
         /* the latest of: signing in, saving a word, opening or finishing an article */
-        var stamps = ws.map(function (w) { return w.created_at; }).concat(pr.map(function (x) { return x.updated_at; }), [p.last_seen_at]);
+        var stamps = ws.map(function (w) { return w.created_at; }).concat(pr.map(function (x) { return x.updated_at; }), looks.filter(function (l) { return l.user_id === p.id; }).slice(0, 1).map(function (l) { return l.created_at; }), [p.last_seen_at]);
         var best = 0; stamps.forEach(function (x) { if (x && ms(x) > best) best = ms(x); });
         return { p: p, ws: ws, pr: pr, done: pr.filter(function (x) { return x.status === "finished"; }).length, last: best ? new Date(best).toISOString() : "" };
       });
@@ -942,7 +960,7 @@
 
       var tabs = el("div", "t-tabs"); tabs.setAttribute("role", "tablist");
       var panes = {}, btns = {};
-      [["members", "Members"], ["words", "Words"], ["reading", "Articles read"], ["articles", "Words by article"]].forEach(function (t) {
+      [["members", "Members"], ["words", "Words"], ["looks", "Look-ups"], ["reading", "Articles read"], ["articles", "Words by article"]].forEach(function (t) {
         var b = el("button", "t-tab", t[1]); b.type = "button"; b.setAttribute("role", "tab");
         b.addEventListener("click", function () { pick(t[0]); });
         tabs.appendChild(b); btns[t[0]] = b; panes[t[0]] = el("div", "t-pane");
@@ -962,7 +980,7 @@
         }))));
       });
       tools.appendChild(dm); tools.appendChild(dl);
-      root.appendChild(tabs); root.appendChild(tools); root.appendChild(panes.members); root.appendChild(panes.words); root.appendChild(panes.reading); root.appendChild(panes.articles);
+      root.appendChild(tabs); root.appendChild(tools); root.appendChild(panes.members); root.appendChild(panes.words); root.appendChild(panes.looks); root.appendChild(panes.reading); root.appendChild(panes.articles);
 
       var showWordsFor = null;   // set by the Words table below; the Words figure on each member opens it
 
@@ -1230,6 +1248,94 @@
           st.user = id; whoSel.value = id; st.mode = "save"; viewSel.value = "save"; st.key = "saved"; st.dir = -1;
           st.q = ""; q.value = ""; st.shown = 100; draw(); pick("words");
         };
+        draw();
+      })();
+
+      /* look-ups: the words members opened a definition for, one row per word or one row per look-up */
+      (function () {
+        var pane = panes.looks;
+        if (!looksReady) { pane.appendChild(el("p", "acct-note", "Look-ups are not being recorded yet. Run supabase/add_lookups.sql in Supabase to switch them on.")); return; }
+        if (!looks.length) { pane.appendChild(el("p", "acct-note", "No look-ups have been recorded yet. They appear here once a member opens a definition.")); return; }
+        var COLS = {
+          word: [["text", "Word or phrase", "s"], ["members", "Members", "n"], ["times", "Look-ups", "n"], ["articles", "Articles", "n"], ["last", "Last looked up", "n"]],
+          each: [["text", "Word or phrase", "s"], ["member", "Member", "s"], ["article", "Article", "s"], ["level", "Level", "s"], ["when", "When", "n"]]
+        };
+        var st = { mode: "word", key: "times", dir: -1, shown: 100, user: "all", q: "" };
+        function opt(sel, value, text) { var o = el("option", "", text); o.value = value; sel.appendChild(o); }
+        function box(label) { var x = el("select"); x.setAttribute("aria-label", label); return x; }
+        var bar = el("div", "t-filter");
+        var q = el("input", "t-search"); q.type = "search"; q.autocomplete = "off"; q.placeholder = "Search words or members"; q.setAttribute("aria-label", "Search look-ups");
+        var viewSel = box("How to list the look-ups"); opt(viewSel, "word", "One row per word"); opt(viewSel, "each", "One row per look-up");
+        var whoSel = box("Member"); opt(whoSel, "all", "All members");
+        var seen = {}; looks.forEach(function (l) { seen[l.user_id] = 1; });
+        Object.keys(seen).map(function (id) { return [id, nameOf(byId[id])]; }).sort(function (a, b) { return a[1].localeCompare(b[1], undefined, { sensitivity: "base" }); }).forEach(function (a) { opt(whoSel, a[0], a[1]); });
+        var count = el("span", "t-count");
+        [q, viewSel, whoSel, count].forEach(function (n) { bar.appendChild(n); });
+        pane.appendChild(bar);
+        var wrap = el("div", "t-scroll"), tbl = el("table", "t-table t-words"), thead = el("thead"), tbody = el("tbody");
+        tbl.appendChild(thead); tbl.appendChild(tbody); wrap.appendChild(tbl); pane.appendChild(wrap);
+        var more = el("button", "wd-btn", "Show more"); more.type = "button"; more.addEventListener("click", function () { st.shown += 100; draw(); });
+        var dl3 = el("button", "wd-btn", "Download this table (CSV)"); dl3.type = "button";
+        var foot = el("div", "wd-bar"); foot.appendChild(more); foot.appendChild(dl3); pane.appendChild(foot);
+        function rowsFor() {
+          var list = looks.filter(function (l) {
+            if (st.user !== "all" && l.user_id !== st.user) return false;
+            return !st.q || (l.word + " " + nameOf(byId[l.user_id])).toLowerCase().indexOf(st.q) >= 0;
+          });
+          if (st.mode === "each") return list.map(function (l) { return { l: l, v: { text: l.word.toLowerCase(), member: nameOf(byId[l.user_id]).toLowerCase(), article: titleOf(l.slug).toLowerCase(), level: lvName(l.level), when: ms(l.created_at) } }; });
+          var map = {}, out = [];
+          list.forEach(function (l) {
+            var k = l.word.toLowerCase().replace(/\s+/g, " ").trim(), g = map[k];
+            if (!g) { g = map[k] = { l: l, who: {}, slugs: {}, times: 0, last: 0 }; out.push(g); }
+            g.who[l.user_id] = 1; g.slugs[l.slug] = 1; g.times++;
+            var t = ms(l.created_at); if (t > g.last) g.last = t;
+          });
+          return out.map(function (g) { g.v = { text: g.l.word.toLowerCase(), members: Object.keys(g.who).length, times: g.times, articles: Object.keys(g.slugs).length, last: g.last }; return g; });
+        }
+        function draw() {
+          var rows = rowsFor().sort(function (a, b) {
+            var x = a.v[st.key], y = b.v[st.key];
+            var c = typeof x === "string" ? x.localeCompare(y, undefined, { sensitivity: "base" }) : x - y;
+            return c ? c * st.dir : a.v.text.localeCompare(b.v.text);
+          });
+          clear(thead); var tr = el("tr");
+          COLS[st.mode].forEach(function (c) {
+            var th = el("th", c[2] === "n" ? "num" : ""); th.scope = "col";
+            var b = el("button", "t-sort", c[1]); b.type = "button";
+            b.addEventListener("click", function () { if (st.key === c[0]) st.dir = -st.dir; else { st.key = c[0]; st.dir = c[2] === "s" ? 1 : -1; } st.shown = 100; draw(); });
+            th.setAttribute("aria-sort", c[0] === st.key ? (st.dir > 0 ? "ascending" : "descending") : "none");
+            th.appendChild(b); tr.appendChild(th);
+          });
+          thead.appendChild(tr); clear(tbody);
+          rows.slice(0, st.shown).forEach(function (r) {
+            var row = el("tr", "t-row");
+            if (st.mode === "word") {
+              var td = el("td"); td.appendChild(el("strong", "t-wd", r.l.word));
+              td.appendChild(el("span", "t-mail", Object.keys(r.who).map(function (id) { return nameOf(byId[id]); }).sort().slice(0, 3).join(", ") + (Object.keys(r.who).length > 3 ? " and " + (Object.keys(r.who).length - 3) + " more" : "")));
+              row.appendChild(td);
+              row.appendChild(el("td", "num", String(r.v.members))); row.appendChild(el("td", "num", String(r.v.times)));
+              var at = el("td", "num", String(r.v.articles)); at.title = Object.keys(r.slugs).map(titleOf).sort().join("; "); row.appendChild(at);
+              row.appendChild(stampTd(new Date(r.v.last).toISOString()));
+            } else {
+              var t2 = el("td"); t2.appendChild(el("strong", "t-wd", r.l.word)); row.appendChild(t2);
+              var p = byId[r.l.user_id], mt = el("td"); mt.appendChild(el("span", "t-who", nameOf(p))); mt.appendChild(el("span", "t-mail", p.email || "")); row.appendChild(mt);
+              var ar = el("td"), a = el("a", "", titleOf(r.l.slug)); a.href = "/articles/" + r.l.slug + "/"; ar.appendChild(a); row.appendChild(ar);
+              row.appendChild(el("td", "", lvName(r.l.level))); row.appendChild(stampTd(r.l.created_at));
+            }
+            tbody.appendChild(row);
+          });
+          count.textContent = st.mode === "word" ? rows.length + (rows.length === 1 ? " word" : " words") : rows.length + (rows.length === 1 ? " look-up" : " look-ups");
+          wrap.hidden = !rows.length; foot.hidden = !rows.length; more.hidden = rows.length <= st.shown;
+          more.textContent = "Show " + Math.min(100, rows.length - st.shown) + " more";
+          dl3.onclick = function () {
+            if (st.mode === "word") download("lookups-by-word.csv", csv([["Word or phrase", "Members", "Look-ups", "Articles", "Last looked up"]].concat(rows.map(function (r) { return [r.l.word, r.v.members, r.v.times, Object.keys(r.slugs).map(titleOf).sort().join("; "), csvStamp(new Date(r.v.last).toISOString())]; }))));
+            else download("lookups-every.csv", csv([["Word or phrase", "Member", "Email", "Article", "Level", "When"]].concat(rows.map(function (r) { var p = byId[r.l.user_id]; return [r.l.word, nameOf(p), p.email, titleOf(r.l.slug), lvName(r.l.level), csvStamp(r.l.created_at)]; }))));
+          };
+        }
+        function reset() { st.shown = 100; draw(); }
+        q.addEventListener("input", function () { st.q = q.value.trim().toLowerCase(); reset(); });
+        whoSel.addEventListener("change", function () { st.user = whoSel.value; reset(); });
+        viewSel.addEventListener("change", function () { st.mode = viewSel.value; st.key = st.mode === "word" ? "times" : "when"; st.dir = -1; reset(); });
         draw();
       })();
 

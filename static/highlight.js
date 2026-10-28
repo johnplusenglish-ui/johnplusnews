@@ -447,6 +447,7 @@
     var G = window.JPNGloss;
     defRect = rect;
     if (!G || !G.isHeadword(text)) { hideDef(); return false; }
+    try { document.dispatchEvent(new CustomEvent("jpn:lookup", { detail: { slug: slug, level: levelOf(st.prose), word: text } })); } catch (e) {}
     var have = G.cached(text);
     if (have) { setDef(text, defParts(have), st, id); return true; }
     if (G.isMissing(text)) {

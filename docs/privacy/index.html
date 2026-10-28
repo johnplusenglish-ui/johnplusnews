@@ -24,7 +24,7 @@
 <script>try{if(!localStorage.getItem("jpn_session"))document.documentElement.classList.add("jpn-guest")}catch(e){document.documentElement.classList.add("jpn-guest")}setTimeout(function(){if(!window.jpnGateReady)document.documentElement.classList.remove("jpn-guest")},6000)</script>
 <script src="/config.js?v=63006f50" defer></script>
 <script src="/gloss.js?v=8f64eaa3" defer></script>
-<script src="/account.js?v=a3122066" defer></script>
+<script src="/account.js?v=06fa963a" defer></script>
 
 </head>
 <body>
@@ -49,6 +49,7 @@
 <li>your password, which is handled by our sign-in provider and stored in scrambled form, so we cannot read it;</li>
 <li>the words and phrases you highlight, with the sentence each one came from;</li>
 <li>which articles you have opened or finished, and the level you read;</li>
+<li>the words you look up: when you open a definition for a word, we record the word, the article and level, and the time;</li>
 <li>your preferences: reading font, level and timer length.</li>
 </ul>
 <p>Without an account, your highlights and preferences stay in your own browser and are not sent to us.</p>
@@ -57,7 +58,7 @@
 <p>To run your account and give you the features you asked for: saving words, remembering your place, and sending sign-in and password emails. We do not use your information for advertising and we do not sell it.</p>
 
 <h2>Who can see it</h2>
-<p>Your teacher, who runs this site, can see your name, email, the date you joined, when you were last active, your saved words, and which articles you have opened or finished. This is the point of the student view. Nobody else can see it. The sign-up form tells you this before you create an account.</p>
+<p>Your teacher, who runs this site, can see your name, email, the date you joined, when you were last active, your saved words, the words you have looked up, and which articles you have opened or finished. This is the point of the student view. Nobody else can see it. The sign-up form tells you this before you create an account.</p>
 
 <h2>Cookies and similar storage</h2>
 <p>We do not use advertising or tracking cookies, and we do not use analytics. The site stores a small amount of information in your browser that it needs to work: your sign-in, your highlights and your preferences. This is strictly necessary for the features you use, so we do not show a cookie banner. You can clear it at any time in your browser settings, or by signing out.</p>
@@ -67,11 +68,12 @@
 <li>GitHub Pages hosts the website. Like any host, it receives your internet address when you load a page.</li>
 <li>Supabase provides the database and sign-in for accounts.</li>
 <li>Resend delivers the emails we send you.</li>
+<li>johnplusdictionary.com, another site run by the same person, supplies the definitions. When you open a definition, the word or phrase is sent to it, together with your internet address, as with any website. Nothing else about you is sent.</li>
 </ul>
 <p>The fonts are hosted on this site, so your device does not contact Google. Some of these providers are based outside Ireland. We choose providers that publish their own data protection terms.</p>
 
 <h2>How long we keep it</h2>
-<p>For as long as you have an account. If you delete your account, your account information, saved words and progress are deleted from our live database. Copies may remain in provider backups for a short time.</p>
+<p>For as long as you have an account. If you delete your account, your account information, saved words, look-ups and progress are deleted from our live database. Copies may remain in provider backups for a short time.</p>
 
 <h2>Your rights</h2>
 <p>You can ask to see your information, correct it, take a copy, or have it deleted. You can download your saved words from the My words page, and delete your account there too. For anything else, <a href="/contact/">contact us</a>. If you are unhappy with how we handle your information, you can complain to the Data Protection Commission at <a href="https://www.dataprotection.ie" rel="noopener noreferrer">dataprotection.ie</a>.</p>

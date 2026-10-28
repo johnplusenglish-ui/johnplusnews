@@ -988,7 +988,7 @@ def about_page():
             '<h2>Saving words</h2>'
             '<p>Select any word or phrase while you read and it is saved to <a href="/words/">My words</a>, with the '
             'sentence you found it in. With a free account your words follow you between devices, and a teacher you '
-            'have joined can see the words you save and the articles you read. Nobody else can.</p>'
+            'have joined can see the words you save and look up, and the articles you read. Nobody else can.</p>'
 
             '<h2>Corrections</h2>'
             '<p>If something is wrong, please <a href="/contact/">tell us</a> and we will correct it.</p>'
