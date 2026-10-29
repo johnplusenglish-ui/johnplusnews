@@ -526,7 +526,7 @@
 
   document.addEventListener("selectionchange", function () { clearTimeout(timer); timer = setTimeout(onSelection, 90); });
   document.addEventListener("mousedown", function (e) {
-    if (pill.contains(e.target)) return;
+    if (pill.contains(e.target) || rmBox.contains(e.target) || defBox.contains(e.target)) return;
     dragging = !!(e.target.closest && e.target.closest(".prose"));
     if (!dragging) hidePill();
   });
@@ -559,7 +559,7 @@
           showPill("remove", rect, { st: st, id: id });
         }
       }
-    } else if (!pill.contains(e.target) && target && target.mode === "remove" && (!s || s.isCollapsed)) {
+    } else if (!pill.contains(e.target) && !defBox.contains(e.target) && !rmBox.contains(e.target) && target && target.mode === "remove" && (!s || s.isCollapsed)) {
       hidePill();
     }
   });
