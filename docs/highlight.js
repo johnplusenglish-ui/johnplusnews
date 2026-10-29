@@ -439,7 +439,10 @@
       if (row && row.gloss) setDef(word, defParts(row), st, id);
       else if (row && row.source === "capped") setDef(word, [["hl-def-note", row.notice || "Daily limit reached."]], st, id);
       else setDef(word, [["hl-def-note", "No definition for that one."]], st, id);
-    }).catch(function () { setDef(word, [["hl-def-note", "Could not reach the dictionary."]], st, id); });
+    }).catch(function () {
+      setDef(word, [["hl-def-ask", "Could not reach the dictionary. Tap to try again"]], st, id);
+      defBox.onclick = function () { defBox.onclick = null; fetchDef(word, st, id); };
+    });
   }
   /* Returns true if it is showing a panel, so the caller knows the heavy black
      pill is not needed. */

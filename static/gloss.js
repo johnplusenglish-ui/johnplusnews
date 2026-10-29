@@ -30,16 +30,23 @@
     return !!t && t.length <= 45 && t.split(/\s+/).length <= 6 && !/[.!?,;:\d]/.test(t);
   }
 
+  /* A request that never answers must not leave "Looking it up" on screen for ever, nor hold the
+     shared in-flight promise so every later tap waits on it too. Give up after 20 seconds. */
+  var TIMEOUT = 20000;
   function post(words, previewOnly) {
+    var ctl = typeof AbortController !== "undefined" ? new AbortController() : null;
+    var timer = ctl ? setTimeout(function () { ctl.abort(); }, TIMEOUT) : 0;
     return fetch(API, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
+      signal: ctl ? ctl.signal : undefined,
       body: JSON.stringify(previewOnly ? { words: words, preview: true }
                                        : { words: words })
     }).then(function (res) {
+      clearTimeout(timer);
       if (!res.ok) throw new Error("http " + res.status);
       return res.json();
-    });
+    }, function (e) { clearTimeout(timer); throw e; });
   }
 
   function remember(row) {
