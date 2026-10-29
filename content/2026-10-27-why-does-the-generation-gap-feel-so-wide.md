@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: Do Young and Older People Really Think So Differently?
 summary: Young and older people often use different habits and technology. But generation labels do not tell us everything about a person.
+audio: audio/why-does-the-generation-gap-feel-so-wide-core-3f6437.m4a
 
 A family is trying to plan a weekend away. The grandmother picks up the phone and calls everybody, one by one. Her grandson sends a single message to the group chat and puts his phone down. Three hours later nobody has answered it. She thinks he is being rude. He thinks she is wasting an afternoon. Neither of them is trying to annoy the other. They simply have a different habit.
 
@@ -29,6 +30,7 @@ So the grandmother and the grandson have a choice. One of them can say that peop
 === Intermediate ===
 
 summary: We talk constantly about Gen Z, millennials and boomers. Research suggests those labels can explain less than we imagine.
+audio: audio/why-does-the-generation-gap-feel-so-wide-intermediate-3f6437.m4a
 
 One colleague books a meeting. Another replies that a two-line message would have done the job. Both think the other has misunderstood how work is supposed to happen, and both reach for the same explanation: it must be a generation thing.
 
@@ -50,6 +52,7 @@ None of this means age is irrelevant. It means age is one explanation among many
 
 title: Is the Generation Gap Smaller Than We Think?
 summary: Age can shape experience, but neat generational stories often mix together life stage, historical change and stereotype.
+audio: audio/why-does-the-generation-gap-feel-so-wide-advanced-5365e0.m4a
 
 Few explanations are as satisfying, or as lazy, as a generation. Someone books a meeting that could have been a message, or sends a message that should have been a meeting, and the disagreement is filed under a birth year. The label arrives before anybody has asked what the other person was actually trying to do.
 
