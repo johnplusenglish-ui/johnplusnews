@@ -947,7 +947,7 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
   html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   body { display: block; min-height: 0; background: #fff; color: #1b1d22; font-size: 10pt; line-height: 1.5; }
   .jt, .jt-bar,
-  .skip, .site-header, .site-footer, .acct-toast, .acct-back, .back, .vtabs, .tools, .pager, .listen, .topics, .filters, .hl-hint, .guide, .intro-links, .hl-pill, .hl-actions, .hl-list .x, .lvl-head, noscript { display: none !important; }
+  .skip, .site-header, .site-footer, .continue-reading, .nextup, .pager-nav, .acct-toast, .acct-back, .back, .vtabs, .tools, .pager, .listen, .topics, .filters, .hl-hint, .guide, .intro-links, .hl-pill, .hl-actions, .hl-list .x, .lvl-head, noscript { display: none !important; }
   main { display: block; }
   .wrap { max-width: none; width: auto; margin: 0; padding: 0; }
   a { color: inherit; text-decoration: none; }
