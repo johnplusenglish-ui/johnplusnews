@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: Why Are More People Talking to Therapists?
 summary: More people talk openly about mental health and therapy. But getting the right help can still take time and money.
+audio: audio/therapy-is-more-normal-is-it-easier-to-get-core-eeaab7.m4a
 
 Twenty years ago, saying "I'm seeing a therapist" could stop a conversation. Today it often receives the same reply as any other appointment: that sounds sensible, I hope it helps. The change is real, and most people would call it an improvement.
 
@@ -31,6 +32,7 @@ The harder question is for the rest of us. A country can be very comfortable dis
 === Intermediate ===
 
 summary: Therapy has entered everyday conversation, yet openness, availability and good care are three different things.
+audio: audio/therapy-is-more-normal-is-it-easier-to-get-intermediate-93751d.m4a
 
 Mentioning a therapist used to require a certain amount of courage. Now it can pass without comment, somewhere between a dentist and a physiotherapist on the scale of ordinary appointments. The shame has faded faster than almost anyone predicted twenty years ago.
 
@@ -52,6 +54,7 @@ So the honest summary is that one thing has clearly improved and another has not
 
 title: Therapy Has Gone Mainstream, but Access Has Not
 summary: The language of therapy is everywhere. The harder achievement is making qualified, useful support available to those who want it.
+audio: audio/therapy-is-more-normal-is-it-easier-to-get-advanced-863d6c.m4a
 
 A sentence that once carried weight now barely registers. Therapy has become mainstream in the plainest sense: it is discussed without explanation, by people who assume their listener already understands. Saying that you see a therapist attracts roughly the response of saying that you see a physio, which counts as genuine social progress and should be recorded as such. The question worth asking is what that acceptance has actually delivered.
 

@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: The Man Who Learnt to Read at 46
 summary: Peter Lloyd could drive a lorry across Britain, but he could not read a food label. At 46, he finally asked for help.
+audio: audio/learning-to-read-at-42-a-second-chance-at-life-core-af2202.m4a
 
 Peter Lloyd could drive a lorry across Britain, remember complicated routes and look after his family. But there was one thing he could not do: read a food label. For most of his adult life, he kept this problem hidden. At the age of 46, an ordinary trip to the supermarket finally persuaded him to ask for help.
 
@@ -26,6 +27,7 @@ Today, Peter can read recipes and share books with his son. He also talks public
 
 title: The Reading Problem He Hid for Years
 summary: Peter Lloyd built a career and raised a family while hiding the fact that he could not read. A supermarket shelf finally changed that.
+audio: audio/learning-to-read-at-42-a-second-chance-at-life-intermediate-cea67d.m4a
 
 For years, Peter Lloyd found ways to avoid reading in public. As a lorry driver, he could remember complicated routes and recognise road signs, but a letter arriving through the post could leave him feeling helpless. He had built a working life and raised a family while hiding a difficulty that many people assume only children face. Then, aged 46, he found himself unable to complete a simple supermarket shop.
 
@@ -43,6 +45,7 @@ Low literacy does not mean a lack of intelligence, yet some adults wait years be
 
 title: Learning to Read at 46 Changed His Everyday Life
 summary: Peter Lloyd spent decades working around words he could not read. A trip to the supermarket in lockdown finally made him ask for help.
+audio: audio/learning-to-read-at-42-a-second-chance-at-life-advanced-773aad.m4a
 
 The trouble began in the dairy aisle. Peter Lloyd, a lorry driver from Lancashire, was trying to buy milk suitable for his wife and son, both of whom had allergies. Surrounded by cartons covered in information he could barely decipher, he realised how easily a routine errand could become a serious mistake. He was 46, with a job and a family, but he had spent much of his life covering up the fact that he struggled to read.
 

@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: Film Night: Sofa or Cinema?
 summary: Watching at home is easy and often cheaper. So why do people still buy cinema tickets?
+audio: audio/has-streaming-beaten-the-cinema-core-826d43.m4a
 
 It is Friday evening and there is a new film you want to see. You can put on a coat, travel across town and buy a ticket. Or you can stay where you are, make something to eat and stream it on the screen in the corner of the room. Millions of people make that choice every week, and more and more of them stay at home.
 
@@ -29,6 +30,7 @@ That may be the real change. The cinema used to be the normal way to see a new f
 === Intermediate ===
 
 summary: Streaming has changed an ordinary film night. Cinemas now need to offer an experience worth leaving home for.
+audio: audio/has-streaming-beaten-the-cinema-intermediate-efe084.m4a
 
 Friday night presents the same small decision in most households. There is a film worth seeing, and there are two ways to see it: buy tickets and travel, or wait a few weeks until it arrives on a service you already pay for. Convenience usually wins.
 
@@ -50,6 +52,7 @@ So the honest answer is that streaming has won the ordinary evening and the cine
 
 title: Why the Big Screen Still Has a Future
 summary: The sofa has won convenience, but the cinema still owns something harder to reproduce: scale, focus and a room reacting together.
+audio: audio/has-streaming-beaten-the-cinema-advanced-e0871b.m4a
 
 The interesting thing about the decline of cinema is how reliably it is announced and how stubbornly it fails to finish. Audiences did not abandon the building; they stopped treating it as the default. A film at home now requires no decision at all, which is precisely the problem for everybody who sells tickets.
 
