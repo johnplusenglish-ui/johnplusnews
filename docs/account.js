@@ -703,8 +703,7 @@
         node.appendChild(el("span", "wd-def-note", "No dictionary entry for that one."));
         return;
       }
-      if (row.pos) node.appendChild(el("span", "wd-pos", row.pos));
-      node.appendChild(el("span", "wd-gloss", row.gloss));
+      putSenses(node, row);
       if (row.standard === false) {
         node.appendChild(el("span", "wd-def-note", "Not standard English."));
       }
@@ -714,13 +713,24 @@
       node.appendChild(el("span", "wd-def-note", "Could not reach the dictionary just now."));
     });
   }
+  /* One sense sits beside its part of speech. Several are numbered instead,
+     with no part of speech: the entry holds one for the whole word, so on
+     "yet" it would print "adverb" over the conjunction sense. */
+  function putSenses(node, row) {
+    var all = window.JPNGloss.senses(row);
+    if (all.length > 1) {
+      all.forEach(function (g) { node.appendChild(el("span", "wd-sense", g)); });
+      return;
+    }
+    if (row.pos) node.appendChild(el("span", "wd-pos", row.pos));
+    node.appendChild(el("span", "wd-gloss", row.gloss));
+  }
   function paintGloss(key, row) {
     (defNodes[key] || []).forEach(function (node) {
       if (node.getAttribute("data-state") === "done") return;
       node.setAttribute("data-state", "done");
       node.textContent = "";
-      if (row.pos) node.appendChild(el("span", "wd-pos", row.pos));
-      node.appendChild(el("span", "wd-gloss", row.gloss));
+      putSenses(node, row);
     });
   }
   /* Only asked for when the reader actually opens a word, so a long list costs
@@ -747,8 +757,7 @@
         node.appendChild(el("span", "wd-def-note", "No dictionary entry for that one."));
         return;
       }
-      if (row.pos) node.appendChild(el("span", "wd-pos", row.pos));
-      node.appendChild(el("span", "wd-gloss", row.gloss));
+      putSenses(node, row);
       if (row.standard === false) {
         node.appendChild(el("span", "wd-def-note", "Not standard English."));
       }

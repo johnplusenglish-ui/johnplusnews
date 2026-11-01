@@ -847,6 +847,11 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .wd-def:empty { display: none; }
 .wd-pos { font-style: normal; font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 8px; }
 .wd-gloss { color: var(--text); }
+/* Numbered senses, for a word the dictionary holds more than one meaning for. */
+.wd-def { counter-reset: sense; }
+.wd-sense { display: block; position: relative; padding-left: 17px; margin-top: 4px; color: var(--text); }
+.wd-sense:first-child { margin-top: 0; }
+.wd-sense::before { counter-increment: sense; content: counter(sense); position: absolute; left: 0; top: 0; font-size: 0.75rem; font-weight: 700; line-height: 1.9; color: var(--accent); }
 .wd-def-note { color: #98a0ad; }
 .t-detail h3 { margin-top: 14px; }
 .t-detail h3:first-child { margin-top: 0; }
@@ -1065,6 +1070,12 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .hl-def-w { display: block; font-weight: 700; font-size: 1rem; margin-bottom: 3px; }
 .hl-def-body { display: block; }
 .hl-def-pos { font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 7px; }
+.hl-def-body { counter-reset: sense; }
+/* A word with more than one sense lists them all, numbered, so the reader can
+   match the one on the page instead of trusting the first. */
+.hl-def-s { display: block; position: relative; padding-left: 17px; margin-top: 5px; }
+.hl-def-s:first-child { margin-top: 0; }
+.hl-def-s::before { counter-increment: sense; content: counter(sense); position: absolute; left: 0; top: 0; font-size: 0.75rem; font-weight: 700; line-height: 1.85; color: var(--accent); }
 .hl-def-note { color: #98a0ad; }
 .hl-def-ask { color: var(--accent); font-weight: 600; cursor: pointer; }
 /* A quiet pill floating below the panel, outside its card: the same shape
