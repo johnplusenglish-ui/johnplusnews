@@ -98,8 +98,21 @@
     return p;
   }
 
+  /* Every sense the entry holds, not only the first. A word like "yet" is
+     stored as an adverb whose third sense is the conjunction "but, in spite of
+     that", so showing meanings[0] alone can put the wrong label on the word the
+     reader is actually looking at. Older rows carry only 'gloss'. */
+  function senses(row) {
+    var list = (row && row.glosses) || [];
+    var out = [];
+    for (var i = 0; i < list.length; i++) { if (list[i]) out.push(list[i]); }
+    if (!out.length && row && row.gloss) out.push(row.gloss);
+    return out;
+  }
+
   window.JPNGloss = {
     isHeadword: isHeadword,
+    senses: senses,
     preview: preview,
     lookup: lookup,
     cached: cached,

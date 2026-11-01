@@ -429,7 +429,14 @@
                                            : top - rmBox.offsetHeight - 6) + "px";
     }
   }
+  /* One sense keeps its part of speech beside it. Several senses are numbered
+     instead, and the part of speech is dropped: the entry stores one for the
+     whole word, so on "yet" it would print "adverb" over a conjunction. */
   function defParts(row) {
+    var all = window.JPNGloss.senses(row);
+    if (all.length > 1) {
+      return all.map(function (g) { return ["hl-def-s", g]; });
+    }
     return row.pos ? [["hl-def-pos", row.pos], ["hl-def-g", row.gloss]]
                    : [["hl-def-g", row.gloss]];
   }
