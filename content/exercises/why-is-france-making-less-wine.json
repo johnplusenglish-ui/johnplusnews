@@ -1,0 +1,305 @@
+{
+ "slug": "why-is-france-making-less-wine",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "A grape ____ is a kind of report card on the weather.",
+      "a": "harvest"
+     },
+     {
+      "s": "After a summer of ____, the agriculture ministry estimates that the country will produce about 35 million hectolitres of wine.",
+      "a": "heatwaves"
+     },
+     {
+      "s": "That would be 2% less than last year, and 14% below the ____ of the five years before it.",
+      "a": "average"
+     },
+     {
+      "s": "Many now leave more leaves on the vine so that the leaves ____ the grapes.",
+      "a": "shade"
+     },
+     {
+      "s": "The ministry and the industry say the grapes are in excellent ____",
+      "a": "health"
+     }
+    ],
+    "extra": [
+     "estimates",
+     "crop"
+    ]
+   },
+   "match": [
+    {
+     "t": "vines",
+     "d": "the plants that grapes grow on"
+    },
+    {
+     "t": "variation",
+     "d": "differences between things of the same kind"
+    },
+    {
+     "t": "fungus",
+     "d": "a growth that can damage plants, often in wet weather"
+    },
+    {
+     "t": "exceptional",
+     "d": "unusually good"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "A grape harvest ____ a kind of report card on the weather.",
+      "cue": "be",
+      "a": "is"
+     },
+     {
+      "s": "France ____ less in 2025 than in any year since 1957.",
+      "cue": "produce",
+      "a": "produced"
+     },
+     {
+      "s": "The heat ____ the grapes build up sugar quickly",
+      "cue": "make",
+      "a": "made"
+     },
+     {
+      "s": "so growers ____ to pick much earlier than normal.",
+      "cue": "have",
+      "a": "had"
+     },
+     {
+      "s": "Southern growers ____ through hot years before",
+      "cue": "live",
+      "a": "have lived"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "France expects to make less wine this year than last year.",
+     "a": "T",
+     "why": "The text says the harvest “would be 2% less than last year”."
+    },
+    {
+     "s": "Every French wine region produced less this year.",
+     "a": "F",
+     "why": "The text says the opposite for Bordeaux: “production is expected to rise by 10% compared with last year”."
+    },
+    {
+     "s": "The harvest in Champagne finished in September for the first time.",
+     "a": "T",
+     "why": "The text says: “The harvest there finished in September for the first time”."
+    },
+    {
+     "s": "French wine will be more expensive this year.",
+     "a": "N",
+     "why": "Not stated. The text discusses quantities and quality but says nothing about prices."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "The comparison matters because 2025 was not a generous ____ either",
+      "a": "benchmark"
+     },
+     {
+      "s": "A series of summer heatwaves is the main explanation, slightly ____ by later rain.",
+      "a": "offset"
+     },
+     {
+      "s": "Extreme heat accelerated the build-up of sugar in the grapes, and therefore of natural ____",
+      "a": "alcohol"
+     },
+     {
+      "s": "Despey's explanation for the southern result is ____ rather than luck.",
+      "a": "adaptation"
+     },
+     {
+      "s": "Picking dates are chosen to balance sugar, ____ and flavour",
+      "a": "acidity"
+     }
+    ],
+    "extra": [
+     "heterogeneity",
+     "foliage"
+    ]
+   },
+   "match": [
+    {
+     "t": "benchmark",
+     "d": "a standard you measure other things against"
+    },
+    {
+     "t": "projected",
+     "d": "expected, based on a calculation"
+    },
+    {
+     "t": "foliage",
+     "d": "the leaves of a plant"
+    },
+    {
+     "t": "forecasts",
+     "d": "statements about what is expected to happen"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "France ____ to produce around 35 million hectolitres of wine this year",
+      "cue": "expect",
+      "a": "expects"
+     },
+     {
+      "s": "The area planted with vines ____ by about 1.9% over the year",
+      "cue": "fall",
+      "a": "fell"
+     },
+     {
+      "s": "Bordeaux ____ the other way.",
+      "cue": "go",
+      "a": "went"
+     },
+     {
+      "s": "Earlier heat ____ growers there to change their methods",
+      "cue": "push",
+      "a": "pushed"
+     },
+     {
+      "s": "What the regional differences describe is an industry that ____ started planning for a pattern.",
+      "cue": "have",
+      "a": "has already"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "2025 was France's weakest wine production since 1957.",
+     "a": "T",
+     "why": "The text says: “the International Organisation of Vine and Wine recorded it as France's weakest production since 1957”."
+    },
+    {
+     "s": "Bordeaux increased its planted area this year.",
+     "a": "F",
+     "why": "The text says the opposite: “Despite a 5% reduction in its planted area, production there is expected to rise 10% on last year”."
+    },
+    {
+     "s": "Rainfall in May helped the southern regions.",
+     "a": "T",
+     "why": "The text says: “Rainfall in May helped as well.”"
+    },
+    {
+     "s": "Growers in Champagne plan to change their methods next year.",
+     "a": "N",
+     "why": "Not stated. The text describes adaptation in the south but reports no plans for Champagne."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "The headline is easy to write and not especially ____.",
+      "a": "informative"
+     },
+     {
+      "s": "The more revealing number is the ____.",
+      "a": "spread"
+     },
+     {
+      "s": "called it a degree of variation he had never ____.",
+      "a": "encountered"
+     },
+     {
+      "s": "including leaving more ____ on the vine so the leaves shade the fruit rather than exposing it.",
+      "a": "canopy"
+     },
+     {
+      "s": "free of the fungal and moisture-related damage a wet year ____.",
+      "a": "inflicts"
+     }
+    ],
+    "extra": [
+     "accounting",
+     "grubbed"
+    ]
+   },
+   "match": [
+    {
+     "t": "revealing",
+     "d": "showing something interesting that was not obvious"
+    },
+    {
+     "t": "canopy",
+     "d": "the layer of leaves covering a plant"
+    },
+    {
+     "t": "resists",
+     "d": "does not easily allow something"
+    },
+    {
+     "t": "vintage",
+     "d": "the wine produced in a particular year"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "The headline is easy to write and not especially ____.",
+      "cue": "INFORM",
+      "a": "informative"
+     },
+     {
+      "s": "That spread resists the ____ telling of the story.",
+      "cue": "SIMPLE",
+      "a": "simplest"
+     },
+     {
+      "s": "an industry visibly rebuilding its vineyard management around ____ heat is closer to evidence of a trend",
+      "cue": "RECUR",
+      "a": "recurring"
+     },
+     {
+      "s": "The ministry and the industry both emphasised the harvest's excellent health, free of the ____ and moisture-related damage a wet year inflicts.",
+      "cue": "FUNGUS",
+      "a": "fungal"
+     },
+     {
+      "s": "which is a statement about his own vineyard rather than a ____ for the vintage.",
+      "cue": "FORECAST",
+      "a": "forecast"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The southern regions coped better than the cooler ones.",
+     "a": "T",
+     "why": "The text says: “If heat alone explained everything, the hottest regions would have suffered most, and the south did not.”"
+    },
+    {
+     "s": "The report explains why vines were removed from the ground.",
+     "a": "F",
+     "why": "The text says the opposite: “The report does not say why those hectares went”."
+    },
+    {
+     "s": "Mandois described his own harvest as exceptional in appearance and taste.",
+     "a": "T",
+     "why": "The text says he “described what he did pick as exceptional to look at and to taste”."
+    },
+    {
+     "s": "France plans to restrict new vine planting.",
+     "a": "N",
+     "why": "Not stated. The text reports that planted area fell but describes no policy."
+    }
+   ]
+  }
+ }
+}

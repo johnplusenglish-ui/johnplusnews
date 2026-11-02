@@ -1,0 +1,305 @@
+{
+ "slug": "what-is-it-like-to-live-next-to-a-data-centre",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "Instead he looks at a wall of grey ____ 23 metres high.",
+      "a": "panels"
+     },
+     {
+      "s": "In Britain, 315 big data centres are waiting for a connection to the ____ network.",
+      "a": "electricity"
+     },
+     {
+      "s": "That number is a ____, not a measurement.",
+      "a": "request"
+     },
+     {
+      "s": "His wife is a nurse who works night ____, and she struggles to sleep.",
+      "a": "shifts"
+     },
+     {
+      "s": "More than 1,200 people have ____ to it.",
+      "a": "objected"
+     }
+    ],
+    "extra": [
+     "bigger",
+     "cloud"
+    ]
+   },
+   "match": [
+    {
+     "t": "grandchildren",
+     "d": "the children of your children"
+    },
+    {
+     "t": "overheating",
+     "d": "becoming too hot to work properly"
+    },
+    {
+     "t": "hum",
+     "d": "a low continuous sound"
+    },
+    {
+     "t": "reminder",
+     "d": "something that makes you remember"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Dale Johnston ____ a garden on the edge of Newport, in south Wales.",
+      "cue": "have",
+      "a": "has"
+     },
+     {
+      "s": "Local politicians ____ the Newport centre as a source of jobs.",
+      "cue": "welcome",
+      "a": "have welcomed"
+     },
+     {
+      "s": "Johnston is thinking about what he ____.",
+      "cue": "lose",
+      "a": "has lost"
+     },
+     {
+      "s": "In Britain, 315 big data centres ____ for a connection to the electricity network.",
+      "cue": "wait",
+      "a": "are waiting"
+     },
+     {
+      "s": "Nobody yet ____ how much electricity each building will really use",
+      "cue": "know",
+      "a": "knows"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Dale Johnston has a garden on the edge of Newport.",
+     "a": "T",
+     "why": "The text says: “Dale Johnston has a garden on the edge of Newport, in south Wales.”"
+    },
+    {
+     "s": "The politicians who supported the project have visited his garden.",
+     "a": "F",
+     "why": "The text says the opposite: “the politicians who backed the project will not come to his garden to look at it”."
+    },
+    {
+     "s": "More than 1,200 people have objected to the Cardiff plan.",
+     "a": "T",
+     "why": "The text says: “More than 1,200 people have objected to it.”"
+    },
+    {
+     "s": "Johnston is planning to sell his house and move away.",
+     "a": "N",
+     "why": "Not stated. The text describes his complaints but says nothing about moving."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "a hyperscale data centre now stands behind his small ____ of 27 houses.",
+      "a": "enclave"
+     },
+     {
+      "s": "Artificial intelligence has made them far ____ for space and electricity",
+      "a": "hungrier"
+     },
+     {
+      "s": "The centre has 36 sets of air blast coolers to stop its chips ____",
+      "a": "overheating"
+     },
+     {
+      "s": "More than 1,200 objections have been ____, and the Welsh government has ordered the council to pause the application.",
+      "a": "lodged"
+     },
+     {
+      "s": "The councillor who defended the Cardiff plan argued that some of the claims circulating were ____",
+      "a": "scaremongering"
+     }
+    ],
+    "extra": [
+     "prefabricated",
+     "compliance"
+    ]
+   },
+   "match": [
+    {
+     "t": "abstract",
+     "d": "existing as an idea rather than a physical thing"
+    },
+    {
+     "t": "grid",
+     "d": "the network that carries electricity around a country"
+    },
+    {
+     "t": "leafleted",
+     "d": "handed out printed information to people"
+    },
+    {
+     "t": "objections",
+     "d": "formal statements that you are against something"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Data centres ____ the computers that store and process information for the services most of us use every day.",
+      "cue": "hold",
+      "a": "hold"
+     },
+     {
+      "s": "In Britain, 315 hyperscale centres ____ to connect to the national grid.",
+      "cue": "queue",
+      "a": "are queuing"
+     },
+     {
+      "s": "He already ____ his bathroom window against the hum of another building on the same 46-acre campus",
+      "cue": "close",
+      "a": "closes"
+     },
+     {
+      "s": "Sue Elias, a retired librarian, ____ the car park every Wednesday for six weeks and collected 1,300 signatures.",
+      "cue": "leaflet",
+      "a": "has leafleted"
+     },
+     {
+      "s": "Nick Richards, who ____ onto a new estate two months before the application appeared, lives 300 metres from a proposed energy centre with seven gas turbines.",
+      "cue": "move",
+      "a": "moved"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Johnston's wife finds it hard to sleep.",
+     "a": "T",
+     "why": "The text says: “his wife, a nurse on night shifts, can barely sleep”."
+    },
+    {
+     "s": "Councillors and MPs have come to stand in Johnston's garden.",
+     "a": "F",
+     "why": "The text says: “Johnston says he has invited councillors and MPs to stand in his garden, and that none of them has come.”"
+    },
+    {
+     "s": "The Cardiff data centre would employ up to 125 people once built.",
+     "a": "T",
+     "why": "The text says the centre “would employ up to 125 people once built”."
+    },
+    {
+     "s": "The Cardiff application has now been refused.",
+     "a": "N",
+     "why": "Not stated. The text says the government ordered a pause, but does not report a decision."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "The word cloud was a marketing ____.",
+      "a": "triumph"
+     },
+     {
+      "s": "60 diesel generators that must be tested so the flow of data is never ____",
+      "a": "interrupted"
+     },
+     {
+      "s": "and their combined requests substantially ____ the country's typical peak winter demand.",
+      "a": "exceed"
+     },
+     {
+      "s": "which indicates how much of this is a ____ bet on an AI-led economy",
+      "a": "speculative"
+     },
+     {
+      "s": "Campaigners who have actually read the planning documents tend to argue for ____ standards and public ownership rather than outright refusal.",
+      "a": "enforceable"
+     }
+    ],
+    "extra": [
+     "distribution",
+     "compliance"
+    ]
+   },
+   "match": [
+    {
+     "t": "enclave",
+     "d": "a small area surrounded by something different"
+    },
+    {
+     "t": "postcodes",
+     "d": "the codes that identify particular local areas"
+    },
+    {
+     "t": "instructive",
+     "d": "useful because it teaches you something"
+    },
+    {
+     "t": "constituents",
+     "d": "the people an elected politician represents"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "It made a global industrial estate sound like ____.",
+      "cue": "WEATHER",
+      "a": "weather"
+     },
+     {
+      "s": "Johnston's case against the hyperscale data centre beside him is not a case against ____.",
+      "cue": "COMPUTE",
+      "a": "computing"
+     },
+     {
+      "s": "real consumption will depend on how each facility is designed, cooled and ____.",
+      "cue": "OPERATE",
+      "a": "operated"
+     },
+     {
+      "s": "Publicly owned computing can do obvious good: a university supercomputer in Bristol supports dementia and heart disease ____.",
+      "cue": "RESEARCH",
+      "a": "research"
+     },
+     {
+      "s": "The most ____ detail is what happened to the councillor who called the objections scaremongering.",
+      "cue": "INSTRUCT",
+      "a": "instructive"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The power figures describe applications rather than electricity already used.",
+     "a": "T",
+     "why": "The text says: “it describes what developers have applied for, not electricity anyone has used”."
+    },
+    {
+     "s": "Campaigners who have read the planning documents want data centres banned outright.",
+     "a": "F",
+     "why": "The text says they “tend to argue for enforceable standards and public ownership rather than outright refusal”."
+    },
+    {
+     "s": "A supercomputer in Bristol supports research into dementia and heart disease.",
+     "a": "T",
+     "why": "The text says: “a university supercomputer in Bristol supports dementia and heart disease research”."
+    },
+    {
+     "s": "The Newport centre has started operating.",
+     "a": "N",
+     "why": "Not stated. The text describes the building and the fears about it, but not whether it is running."
+    }
+   ]
+  }
+ }
+}

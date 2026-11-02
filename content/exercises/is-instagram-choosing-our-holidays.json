@@ -1,0 +1,305 @@
+{
+ "slug": "is-instagram-choosing-our-holidays",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "said they had booked a trip or an activity after seeing a post or video that had gone ____.",
+      "a": "viral"
+     },
+     {
+      "s": "For people in Generation Z, TikTok was the most common ____ of travel ideas",
+      "a": "source"
+     },
+     {
+      "s": "And 18% said that being ____ with photos was a reason not to travel with someone.",
+      "a": "obsessed"
+     },
+     {
+      "s": "It asked 2,082 ____ in Britain where they had found their holiday ideas in the past year.",
+      "a": "adults"
+     },
+     {
+      "s": "More people are booking through a travel ____ too, up to 38%, mostly because it is easier and saves time.",
+      "a": "agent"
+     }
+    ],
+    "extra": [
+     "guidebooks",
+     "research"
+    ]
+   },
+   "match": [
+    {
+     "t": "association",
+     "d": "an organisation representing a group of members"
+    },
+    {
+     "t": "guidebooks",
+     "d": "books with information for travellers"
+    },
+    {
+     "t": "survey",
+     "d": "a set of questions asked to many people"
+    },
+    {
+     "t": "recommendations",
+     "d": "suggestions that something is good"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Think about the last holiday you ____.",
+      "cue": "choose",
+      "a": "chose"
+     },
+     {
+      "s": "Two travel organisations ____ research on exactly that question",
+      "cue": "publish",
+      "a": "have published"
+     },
+     {
+      "s": "It ____ travellers in Spain, Italy and the UK about social media.",
+      "cue": "ask",
+      "a": "asked"
+     },
+     {
+      "s": "that figure ____ to 45% among Gen Z.",
+      "cue": "rise",
+      "a": "rose"
+     },
+     {
+      "s": "More people ____ artificial intelligence for holiday ideas",
+      "cue": "ask",
+      "a": "are asking"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Nearly four in ten people said they had visited a tourist site mainly to take a photo or video.",
+     "a": "T",
+     "why": "The text says: “Nearly four in ten, 39%, said they had visited a tourist site mainly in order to take a photo or record a video.”"
+    },
+    {
+     "s": "In the ABTA survey, social media was the most common source of holiday ideas.",
+     "a": "F",
+     "why": "The text says the opposite: “Recommendations from family and friends came first, at 42%”."
+    },
+    {
+     "s": "The two surveys asked different questions in different countries.",
+     "a": "T",
+     "why": "The text says: “The two surveys asked different questions, in different countries, at different times”."
+    },
+    {
+     "s": "Most people regret the photos they take on holiday.",
+     "a": "N",
+     "why": "Not stated. The text reports how often people take photos, not how they feel about them afterwards."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "The first, published in August by the tours and activities company TUI Musement, makes the influence look ____.",
+      "a": "overwhelming"
+     },
+     {
+      "s": "The second, ABTA's Holiday Habits report published in October, is more ____.",
+      "a": "sober"
+     },
+     {
+      "s": "then travel websites and ____ at 35%.",
+      "a": "guidebooks"
+     },
+     {
+      "s": "Read together, they suggest a reasonable ____ of labour.",
+      "a": "division"
+     },
+     {
+      "s": "and 18% considered an obsession with photographs a red ____ in a travel companion.",
+      "a": "flag"
+     }
+    ],
+    "extra": [
+     "representative",
+     "crowding"
+    ]
+   },
+   "match": [
+    {
+     "t": "sober",
+     "d": "serious and not exaggerated"
+    },
+    {
+     "t": "nationally representative",
+     "d": "chosen to reflect the whole country"
+    },
+    {
+     "t": "prompted",
+     "d": "caused someone to do something"
+    },
+    {
+     "t": "crowding",
+     "d": "too many people in one place"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Ask how much social media shapes modern travel and you ____ two very different answers",
+      "cue": "can get",
+      "a": "can get"
+     },
+     {
+      "s": "Another 43% said they ____ travel influencers when deciding where to go",
+      "cue": "follow",
+      "a": "follow"
+     },
+     {
+      "s": "The use of AI for inspiration ____ quickly, from 4% two years ago to 8% last year and 14% now",
+      "cue": "climb",
+      "a": "has climbed"
+     },
+     {
+      "s": "Both findings ____ true, because the two studies are not measuring the same thing.",
+      "cue": "can be",
+      "a": "can be"
+     },
+     {
+      "s": "ABTA found bookings through a travel professional ____ to 38%",
+      "cue": "rise",
+      "a": "rose"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The two studies surveyed people in different countries.",
+     "a": "T",
+     "why": "The text says: “TUI Musement surveyed travellers in Spain, Italy and the UK through the research firm Appinio”."
+    },
+    {
+     "s": "Bookings through travel professionals have fallen.",
+     "a": "F",
+     "why": "The text says the opposite: “ABTA found bookings through a travel professional rose to 38%”."
+    },
+    {
+     "s": "In the ABTA data, AI is now roughly level with social media as a source of inspiration.",
+     "a": "T",
+     "why": "The text says social media came in at 24%, “roughly level with artificial intelligence tools and AI search summaries combined”."
+    },
+    {
+     "s": "Travel companies have changed their advertising because of these findings.",
+     "a": "N",
+     "why": "Not stated. The text reports the survey results but not how companies responded."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "which makes them a useful lesson in reading ____ at all.",
+      "a": "research"
+     },
+     {
+      "s": "The commissioning ____ differ, one being a company that sells experiences and the other a trade association representing agents and tour operators.",
+      "a": "interests"
+     },
+     {
+      "s": "The contradiction mostly ____ on inspection, and the reasons are instructive.",
+      "a": "dissolves"
+     },
+     {
+      "s": "Social media is weak as an ____ and strong as an amplifier.",
+      "a": "arbiter"
+     },
+     {
+      "s": "something else is ____ the performance once you get there.",
+      "a": "supervising"
+     }
+    ],
+    "extra": [
+     "ceiling",
+     "overcrowding"
+    ]
+   },
+   "match": [
+    {
+     "t": "arbiter",
+     "d": "someone or something that settles a decision"
+    },
+    {
+     "t": "amplifier",
+     "d": "something that makes an effect stronger"
+    },
+    {
+     "t": "instructive",
+     "d": "useful because it teaches you something"
+    },
+    {
+     "t": "overcrowding",
+     "d": "the problem of too many people in a place"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "Two travel reports published weeks apart give almost opposite ____ of the same phenomenon",
+      "cue": "IMPRESS",
+      "a": "impressions"
+     },
+     {
+      "s": "The contradiction mostly dissolves on ____, and the reasons are instructive.",
+      "cue": "INSPECT",
+      "a": "inspection"
+     },
+     {
+      "s": "while ABTA used a nationally ____ sample of 2,082 UK adults.",
+      "cue": "REPRESENT",
+      "a": "representative"
+     },
+     {
+      "s": "it is extremely ____ at determining which three streets in Lisbon everybody stands in",
+      "cue": "EFFECT",
+      "a": "effective"
+     },
+     {
+      "s": "The least ____ finding is not about choice at all.",
+      "cue": "COMFORT",
+      "a": "comfortable"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The two reports were commissioned by organisations with different interests.",
+     "a": "T",
+     "why": "The text says: “one being a company that sells experiences and the other a trade association representing agents and tour operators”."
+    },
+    {
+     "s": "Social media was the fastest-growing source of inspiration in the ABTA data.",
+     "a": "F",
+     "why": "The text says: “the fastest-growing source of inspiration is not social media but AI, up from 4% to 14% in two years”."
+    },
+    {
+     "s": "Bookings through a travel professional rose for practical reasons rather than inspiration.",
+     "a": "T",
+     "why": "The text says they rose “for reasons that have nothing to do with inspiration at all: ease of booking, saving time, value for money”."
+    },
+    {
+     "s": "Tourist sites have introduced limits on photography.",
+     "a": "N",
+     "why": "Not stated. The text mentions overcrowding but reports no restrictions."
+    }
+   ]
+  }
+ }
+}

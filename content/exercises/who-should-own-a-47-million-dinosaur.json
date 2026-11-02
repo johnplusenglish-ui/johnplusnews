@@ -1,0 +1,305 @@
+{
+ "slug": "who-should-own-a-47-million-dinosaur",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "They turned out to ____ to a dinosaur that died about 67 million years ago.",
+      "a": "belong"
+     },
+     {
+      "s": "Six people competed for it, by phone and online, for ____ minutes.",
+      "a": "twelve"
+     },
+     {
+      "s": "Jodi is a Nanotyrannus, a meat-eating dinosaur ____ to Tyrannosaurus rex but much smaller.",
+      "a": "related"
+     },
+     {
+      "s": "In the United States, fossils discovered on private land belong to the ____ of that land.",
+      "a": "owner"
+     },
+     {
+      "s": "His bigger worry is ____.",
+      "a": "access"
+     }
+    ],
+    "extra": [
+     "auction",
+     "measure"
+    ]
+   },
+   "match": [
+    {
+     "t": "fossil",
+     "d": "the remains of an animal preserved in rock"
+    },
+    {
+     "t": "auction",
+     "d": "a sale where people compete by offering prices"
+    },
+    {
+     "t": "specialist",
+     "d": "someone who knows a lot about one subject"
+    },
+    {
+     "t": "amazed",
+     "d": "very surprised and impressed"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "They ____ out to belong to a dinosaur that died about 67 million years ago.",
+      "cue": "turn",
+      "a": "turned"
+     },
+     {
+      "s": "Last week, that skeleton ____ at an auction house in New York.",
+      "cue": "sell",
+      "a": "was sold"
+     },
+     {
+      "s": "The auction house ____ somewhere between $6 million and $9 million.",
+      "cue": "expect",
+      "a": "had expected"
+     },
+     {
+      "s": "For a long time some scientists ____ animals like this were young T. rex.",
+      "cue": "think",
+      "a": "thought"
+     },
+     {
+      "s": "She ____ receive the full $47.3 million",
+      "cue": "will",
+      "a": "will not"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Jodi Pierson found the bones on land she owned.",
+     "a": "T",
+     "why": "The text says she was “looking at the ground on her own land in Montana” when she found them."
+    },
+    {
+     "s": "The skeleton sold for about the price the auction house expected.",
+     "a": "F",
+     "why": "The text says the opposite: “The auction house had expected somewhere between $6 million and $9 million”, while the final price was $47.3 million."
+    },
+    {
+     "s": "The name of the buyer has not been made public.",
+     "a": "T",
+     "why": "The text says: “Nobody knows who bought it. The buyer has not been named.”"
+    },
+    {
+     "s": "The buyer intends to lend the skeleton to a museum.",
+     "a": "N",
+     "why": "Not stated. The text says the buyer is unknown and describes only what scientists hope for."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "The size and the development of the bones ____ an adult animal.",
+      "a": "indicate"
+     },
+     {
+      "s": "Some researchers long argued that such specimens were ____ T. rex rather than a separate animal.",
+      "a": "adolescent"
+     },
+     {
+      "s": "Several scientists disagree, and their objections are ____ rather than sentimental.",
+      "a": "practical"
+     },
+     {
+      "s": "over shortfalls amounting to roughly a ____ of Jodi's price.",
+      "a": "tenth"
+     },
+     {
+      "s": "His central ____ is access.",
+      "a": "concern"
+     }
+    ],
+    "extra": [
+     "carnivore",
+     "donated"
+    ]
+   },
+   "match": [
+    {
+     "t": "specimens",
+     "d": "individual examples used for scientific study"
+    },
+    {
+     "t": "carnivore",
+     "d": "an animal that eats meat"
+    },
+    {
+     "t": "excavating",
+     "d": "digging something out of the ground"
+    },
+    {
+     "t": "donated",
+     "d": "given away without payment"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "The bidding ____ twelve minutes.",
+      "cue": "last",
+      "a": "lasted"
+     },
+     {
+      "s": "Six buyers ____ by telephone and online",
+      "cue": "compete",
+      "a": "competed"
+     },
+     {
+      "s": "The skeleton ____ “Jodi”, after Jodi Pierson, who found the remains in 2019 on privately owned land",
+      "cue": "call",
+      "a": "is called"
+     },
+     {
+      "s": "Its identity ____ a complicated history.",
+      "cue": "have",
+      "a": "has"
+     },
+     {
+      "s": "If the skeleton is donated to an institution, researchers ____ measure, sample and scan the bones",
+      "cue": "can",
+      "a": "can"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Jodi is one of only three substantial Nanotyrannus skeletons known to science.",
+     "a": "T",
+     "why": "The text says: “Jodi is one of only three substantial Nanotyrannus skeletons known to science”."
+    },
+    {
+     "s": "Holtz thinks a skeleton like this costs tens of millions to excavate and prepare.",
+     "a": "F",
+     "why": "The text says the opposite: “He estimated that excavating, preparing and mounting a skeleton like this costs around a million dollars at most”."
+    },
+    {
+     "s": "An auction price is not the same as the amount the seller receives.",
+     "a": "T",
+     "why": "The text says: “an auction price is not what the seller receives, since fees and costs are deducted first”."
+    },
+    {
+     "s": "Sotheby's has refused to identify the buyer.",
+     "a": "N",
+     "why": "Not stated. The text says the buyer has not been publicly identified but gives no reason."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "Nothing about the ____ changed during those twelve minutes",
+      "a": "specimen"
+     },
+     {
+      "s": "Its classification deserves a careful ____.",
+      "a": "sentence"
+     },
+     {
+      "s": "Thomas R Holtz Jr of the University of Maryland made two ____ points.",
+      "a": "arithmetical"
+     },
+     {
+      "s": "so the price represents a ____ premium rather than the cost of the science.",
+      "a": "trophy"
+     },
+     {
+      "s": "The sharper argument concerns access, and it turns on a ____ the market cannot represent.",
+      "a": "distinction"
+     }
+    ],
+    "extra": [
+     "morphological",
+     "proceeds"
+    ]
+   },
+   "match": [
+    {
+     "t": "comprises",
+     "d": "consists of; is made up of"
+    },
+    {
+     "t": "classification",
+     "d": "the group a thing is officially placed in"
+    },
+    {
+     "t": "premium",
+     "d": "an amount paid above the normal value"
+    },
+    {
+     "t": "proceeds",
+     "d": "the money received from a sale"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "The object itself is genuinely ____.",
+      "cue": "RARE",
+      "a": "rare"
+     },
+     {
+      "s": "Sotheby's position is that the genus was confirmed last autumn and that over 150 ____ differences separate the two.",
+      "cue": "MORPHOLOGY",
+      "a": "morphological"
+     },
+     {
+      "s": "That is the auction house's account of a ____ question",
+      "cue": "SCIENCE",
+      "a": "scientific"
+     },
+     {
+      "s": "As property it can be owned, displayed and ____.",
+      "cue": "SELL",
+      "a": "resold"
+     },
+     {
+      "s": "a specimen in a private lobby, ____ to researchers, is for scientific purposes no different from a specimen still in the rock.",
+      "cue": "ACCESS",
+      "a": "inaccessible"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The article treats the auction house's account of the classification as something to attribute rather than repeat.",
+     "a": "T",
+     "why": "The text says it is “offered while selling the object it describes, which is a reason to attribute it rather than simply repeat it”."
+    },
+    {
+     "s": "The hammer price is what the seller takes home.",
+     "a": "F",
+     "why": "The text says the opposite: “the proceeds are not the hammer price: fees and costs come out before any seller sees it”."
+    },
+    {
+     "s": "The sale was legal because the fossil was found on private land.",
+     "a": "T",
+     "why": "The text says: “The skeleton was found on private land, which under United States law is what made the sale legal”."
+    },
+    {
+     "s": "The law is likely to be changed to prevent such sales.",
+     "a": "N",
+     "why": "Not stated. The text explains the legal position but reports no proposals to alter it."
+    }
+   ]
+  }
+ }
+}
