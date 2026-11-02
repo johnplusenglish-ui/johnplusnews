@@ -1,6 +1,9 @@
 /* johnplusnews: highlight words in an article.
    Select words, press Highlight, and they get an amber underline and are collected in a numbered
-   list under the text. Highlights are kept on this device, for each article and each level. */
+   list under the text. That list, not a floating card, is where the reading happens: the sentence
+   the words came from, every sense the dictionary holds, and a box for the reader's own wording.
+   Tapping a highlight shows only a one-line peek, so the text it sits over stays readable.
+   Highlights are kept on this device, for each article and each level. */
 (function () {
   "use strict";
 
@@ -22,7 +25,7 @@
     try { return JSON.parse(localStorage.getItem(key) || "[]") || []; } catch (e) { return memory[key] || []; }
   }
   function save(key, items) {
-    var slim = items.map(function (it) { return { start: it.start, end: it.end, text: it.text, sentence: it.sentence || "" }; });
+    var slim = items.map(function (it) { return { start: it.start, end: it.end, text: it.text, sentence: it.sentence || "", note: it.note || "" }; });
     try { localStorage.setItem(key, JSON.stringify(slim)); } catch (e) { memory[key] = slim; }
   }
   function markUsed() { try { localStorage.setItem("jpn_hl_used", "1"); } catch (e) {} }
@@ -84,7 +87,7 @@
     return squash(full.slice(from, to)).slice(0, 600);
   }
   function emit(type, st, item) {
-    try { document.dispatchEvent(new CustomEvent("jpn:hl", { detail: { type: type, slug: slug, level: levelOf(st.prose), item: item ? { text: item.text, start: item.start, end: item.end, sentence: item.sentence || "" } : null } })); } catch (e) {}
+    try { document.dispatchEvent(new CustomEvent("jpn:hl", { detail: { type: type, slug: slug, level: levelOf(st.prose), item: item ? { text: item.text, start: item.start, end: item.end, sentence: item.sentence || "", note: item.note || "" } : null } })); } catch (e) {}
   }
 
   /* -------------------------------------------------------------- one state per text */
@@ -125,7 +128,7 @@
     box.className = "hl-list";
     var empty = document.createElement("p");
     empty.className = "hl-empty";
-    empty.textContent = "Select a useful word or phrase in the article to save it here and in My words.";
+    empty.textContent = "Select a useful word or phrase in the article. It is saved here with its meaning, and in My words.";
     var ol = document.createElement("ol");
     var actions = document.createElement("div");
     actions.className = "hl-actions";
@@ -171,20 +174,203 @@
     });
   }
 
+  /* ------------------------------------------------------- the meanings in the list */
+  /* Tells the account script a member asked for this word. It keeps one row per
+     word per article per visit, so saying so twice costs nothing. */
+  function noteLookup(st, word) {
+    try { document.dispatchEvent(new CustomEvent("jpn:lookup", { detail: { slug: slug, level: levelOf(st.prose), word: word } })); } catch (e) {}
+  }
+  /* A quiet line in place of a definition: a cap, a miss, or nothing to look up. */
+  function senseNote(box, text) {
+    box.textContent = "";
+    var p = document.createElement("p");
+    p.className = "hl-sense-note";
+    p.textContent = text;
+    box.appendChild(p);
+  }
+  /* Several senses are numbered and carry no part of speech: the entry holds one
+     for the whole word, so on "yet" it would print "adverb" over a conjunction.
+     A single sense keeps its part of speech, where there is nothing to mislabel. */
+  /* Rows waiting on the free look-only sweep. They are gathered and asked for in
+     one batch: drawing ten words must not fire ten requests, and a word saved a
+     moment ago has not been asked about at all yet. */
+  var pending = [];
+  var sweepTimer = null, sweepTries = 0;
+  function needLookup(st, box, it) {
+    senseNote(box, "Looking it up…");
+    pending.push({ st: st, box: box, it: it });
+    clearTimeout(sweepTimer);
+    sweepTimer = setTimeout(sweep, 120);
+  }
+  function sweep() {
+    var G = window.JPNGloss;
+    /* gloss.js is a separate deferred script and may not have run yet. */
+    if (!G) {
+      if (sweepTries++ < 20) { sweepTimer = setTimeout(sweep, 150); return; }
+    }
+    var jobs = pending;
+    pending = [];
+    function done() {
+      jobs.forEach(function (j) { j.box.asked = true; fillSenses(j.st, j.box, j.it); });
+    }
+    if (!G) { done(); return; }
+    G.preview(jobs.map(function (j) { return j.it.text; })).then(done, done);
+  }
+  function fillSenses(st, box, it) {
+    var G = window.JPNGloss;
+    box.textContent = "";
+    box.hidden = false;
+    /* Nothing can be decided before the look-up code is there; wait for it. */
+    if (!G) { needLookup(st, box, it); return; }
+    if (!G.isHeadword(it.text)) { box.hidden = true; return; }
+    var have = G.cached(it.text);
+    if (have) {
+      var all = G.senses(have);
+      if (all.length > 1) {
+        var ol = document.createElement("ol");
+        ol.className = "hl-sense-list";
+        all.forEach(function (g) {
+          var li = document.createElement("li");
+          li.textContent = g;
+          ol.appendChild(li);
+        });
+        box.appendChild(ol);
+      } else {
+        var one = document.createElement("p");
+        one.className = "hl-sense-one";
+        if (have.pos) {
+          var ps = document.createElement("span");
+          ps.className = "hl-pos"; ps.textContent = have.pos;
+          one.appendChild(ps);
+        }
+        one.appendChild(document.createTextNode(all[0] || have.gloss || ""));
+        box.appendChild(one);
+      }
+      return;
+    }
+    if (G.isMissing(it.text)) {
+      /* Asking for a word the dictionary does not hold yet creates the entry, so
+         it stays a deliberate press rather than something the page pays for. */
+      ask(st, box, it, "Look up the meaning");
+      return;
+    }
+    /* The sweep has run and still has no answer for this word, which means the
+       request failed rather than the dictionary saying no. Offer the button. */
+    if (box.asked) { ask(st, box, it, "Look up the meaning"); return; }
+    needLookup(st, box, it);
+  }
+  function ask(st, box, it, label) {
+    box.textContent = "";
+    var btn = document.createElement("button");
+    btn.type = "button"; btn.className = "hl-look"; btn.textContent = label;
+    btn.addEventListener("click", function () {
+      btn.disabled = true; btn.textContent = "Looking it up…";
+      noteLookup(st, it.text);
+      window.JPNGloss.lookup(it.text).then(function (row) {
+        if (row && row.gloss) fillSenses(st, box, it);
+        else if (row && row.source === "capped") senseNote(box, row.notice || "Daily limit reached.");
+        else senseNote(box, "No definition for that one.");
+      }).catch(function () {
+        ask(st, box, it, "Could not reach the dictionary. Try again");
+      });
+    });
+    box.appendChild(btn);
+  }
+  /* The sentence the words came from, with the words themselves picked out, so a
+     meaning is read against the use the reader actually met. */
+  function sentenceNode(it) {
+    var p = document.createElement("p");
+    p.className = "hl-sent";
+    var full = it.sentence || "";
+    var i = full.toLowerCase().indexOf(it.text.toLowerCase());
+    if (i < 0) { p.textContent = full; return p; }
+    p.appendChild(document.createTextNode(full.slice(0, i)));
+    var b = document.createElement("b");
+    b.textContent = full.slice(i, i + it.text.length);
+    p.appendChild(b);
+    p.appendChild(document.createTextNode(full.slice(i + it.text.length)));
+    return p;
+  }
+  /* The reader's own wording. It grows with the text, saves a moment after typing
+     stops, and prints: on paper an empty one is a ruled line to write on. */
+  function noteNode(st, it) {
+    var wrap = document.createElement("div");
+    wrap.className = "hl-note-wrap";
+    var lab = document.createElement("label");
+    lab.className = "hl-note-lab";
+    /* The caption is a span of its own: a textarea inherits the label's font,
+       so a bold uppercase label would be typed into in bold uppercase. */
+    var cap = document.createElement("span");
+    cap.className = "hl-note-cap";
+    cap.textContent = "In my words";
+    lab.appendChild(cap);
+    var ta = document.createElement("textarea");
+    ta.className = "hl-note";
+    ta.rows = 1;
+    ta.setAttribute("placeholder", "Say it your way");
+    ta.setAttribute("aria-label", "Your own wording for " + it.text);
+    ta.value = it.note || "";
+    var mirror = document.createElement("p");
+    mirror.className = "hl-note-print";
+    mirror.textContent = it.note || "";
+    /* A row for a level that is not on screen has no width, and a height measured
+       there comes back nonsense, so leave it to the CSS until it is really laid
+       out. Watching the width covers both that and a window being resized; only
+       a change of width is acted on, or growing it would trigger itself. */
+    function grow() {
+      if (!ta.offsetWidth) return;
+      ta.style.height = "auto";
+      ta.style.height = (ta.scrollHeight + 2) + "px";
+    }
+    var lastW = 0;
+    if (window.ResizeObserver) {
+      new ResizeObserver(function () {
+        if (ta.offsetWidth && ta.offsetWidth !== lastW) { lastW = ta.offsetWidth; grow(); }
+      }).observe(ta);
+    }
+    ta.addEventListener("focus", grow);
+    ta.addEventListener("input", function () {
+      it.note = ta.value.slice(0, 400);
+      mirror.textContent = it.note;
+      grow();
+      clearTimeout(ta._t);
+      ta._t = setTimeout(function () { save(st.key, st.items); emit("note", st, it); }, 600);
+    });
+    ta.addEventListener("blur", function () {
+      clearTimeout(ta._t);
+      save(st.key, st.items);
+      emit("note", st, it);
+    });
+    lab.appendChild(ta);
+    wrap.appendChild(lab);
+    wrap.appendChild(mirror);
+    setTimeout(grow, 0);        // scrollHeight is only right once it is in the document
+    return wrap;
+  }
+
   function render(st) {
     st.ol.textContent = "";
     st.items.forEach(function (it, i) {
       var li = document.createElement("li");
       var n = document.createElement("span");
       n.className = "n"; n.textContent = (i < 9 ? "0" : "") + (i + 1);
+      var main = document.createElement("div");
+      main.className = "hl-main";
       var w = document.createElement("span");
       w.className = "w"; w.textContent = it.text;
+      main.appendChild(w);
+      if (it.sentence) main.appendChild(sentenceNode(it));
+      var senses = document.createElement("div");
+      senses.className = "hl-senses";
+      fillSenses(st, senses, it);
+      main.appendChild(senses);
+      main.appendChild(noteNode(st, it));
       var x = document.createElement("button");
       x.type = "button"; x.className = "x";
       x.setAttribute("aria-label", "Remove the highlight: " + it.text);
       x.textContent = "×";
       x.addEventListener("click", function () { removeItem(st, it.id); });
-      li.appendChild(n); li.appendChild(w); li.appendChild(x);
+      li.appendChild(n); li.appendChild(main); li.appendChild(x);
       st.ol.appendChild(li);
     });
     var n = st.items.length;
@@ -204,7 +390,7 @@
       if (it.end >= s && it.start <= e) { s = Math.min(s, it.start); e = Math.max(e, it.end); unwrap(st.prose, it.id); (st.dropped = st.dropped || []).push(it); }
       else keep.push(it);
     });
-    var item = { id: nextId++, start: s, end: e, text: squash(st.prose.textContent.slice(s, e)), sentence: sentenceFor(st.prose, s, e) };
+    var item = { id: nextId++, start: s, end: e, text: squash(st.prose.textContent.slice(s, e)), sentence: sentenceFor(st.prose, s, e), note: "" };
     keep.push(item);
     keep.sort(function (a, b) { return a.start - b.start; });
     st.items = keep;
@@ -237,7 +423,7 @@
       start = at; end = at + it.text.length;
     }
     for (var i = 0; i < st.items.length; i++) { if (start < st.items[i].end && end > st.items[i].start) return null; }   // never overlap
-    var item = { id: nextId++, start: start, end: end, text: squash(full.slice(start, end)), sentence: it.sentence || sentenceFor(st.prose, start, end) };
+    var item = { id: nextId++, start: start, end: end, text: squash(full.slice(start, end)), sentence: it.sentence || sentenceFor(st.prose, start, end), note: it.note || "" };
     st.items.push(item);
     wrap(st.prose, start, end, item.id);
     st.items.sort(function (a, b) { return a.start - b.start; });
@@ -256,7 +442,7 @@
     slug: slug,
     all: function () {
       var out = [];
-      states.forEach(function (st) { st.items.forEach(function (it) { out.push({ level: levelOf(st.prose), text: it.text, start: it.start, end: it.end, sentence: it.sentence || "" }); }); });
+      states.forEach(function (st) { st.items.forEach(function (it) { out.push({ level: levelOf(st.prose), text: it.text, start: it.start, end: it.end, sentence: it.sentence || "", note: it.note || "" }); }); });
       return out;
     },
     sync: function (rows) {
@@ -266,8 +452,14 @@
         mine.forEach(function (r) { texts[r.text] = r; });
         st.items.slice().forEach(function (it) { if (!texts[it.text]) { unwrap(st.prose, it.id); st.items = st.items.filter(function (x) { return x !== it; }); } });
         mine.forEach(function (r) {
-          if (st.items.some(function (it) { return it.text === r.text; })) return;
-          place(st, { start: r.start_pos, end: r.end_pos, text: r.text, sentence: r.sentence });
+          var here = null;
+          st.items.forEach(function (it) { if (it.text === r.text) here = it; });
+          if (here) {
+            /* Never let a sync wipe wording typed on this device and not yet sent. */
+            if (r.note && !here.note) here.note = r.note;
+            return;
+          }
+          place(st, { start: r.start_pos, end: r.end_pos, text: r.text, sentence: r.sentence, note: r.note });
         });
         save(st.key, st.items);
         render(st);
@@ -318,7 +510,7 @@
       var h = document.createElement("p");
       h.className = "hl-hint";
       var t = document.createElement("span");
-      t.textContent = "Select a word or phrase to save it. Your words are collected under the text.";
+      t.textContent = "Select a word or phrase to save it. Your words gather below with their meanings.";
       var x = document.createElement("button");
       x.type = "button";
       x.className = "hl-hint-x";
@@ -429,45 +621,29 @@
                                            : top - rmBox.offsetHeight - 6) + "px";
     }
   }
-  /* One sense keeps its part of speech beside it. Several senses are numbered
-     instead, and the part of speech is dropped: the entry stores one for the
-     whole word, so on "yet" it would print "adverb" over a conjunction. */
-  function defParts(row) {
-    var all = window.JPNGloss.senses(row);
-    if (all.length > 1) {
-      return all.map(function (g) { return ["hl-def-s", g]; });
-    }
-    return row.pos ? [["hl-def-pos", row.pos], ["hl-def-g", row.gloss]]
-                   : [["hl-def-g", row.gloss]];
-  }
-  function fetchDef(word, st, id) {
-    setDef(word, [["hl-def-g", "Looking it up…"]], st, id);
-    window.JPNGloss.lookup(word).then(function (row) {
-      if (row && row.gloss) setDef(word, defParts(row), st, id);
-      else if (row && row.source === "capped") setDef(word, [["hl-def-note", row.notice || "Daily limit reached."]], st, id);
-      else setDef(word, [["hl-def-note", "No definition for that one."]], st, id);
-    }).catch(function () {
-      setDef(word, [["hl-def-ask", "Could not reach the dictionary. Tap to try again"]], st, id);
-      defBox.onclick = function () { defBox.onclick = null; fetchDef(word, st, id); };
-    });
-  }
   /* Returns true if it is showing a panel, so the caller knows the heavy black
-     pill is not needed. */
+     pill is not needed.
+
+     The peek is one line and nothing more. Every sense, the sentence and the
+     reader's own wording live in the list under the text, where they have room
+     and where they print. A card big enough to hold all that sat over the very
+     line the reader was asking about. The peek also never generates, so a
+     passing tap never costs a look-up: that belongs to the button in the list. */
   function showDefFor(text, rect, st, id) {
     var G = window.JPNGloss;
     defRect = rect;
     if (!G || !G.isHeadword(text)) { hideDef(); return false; }
-    try { document.dispatchEvent(new CustomEvent("jpn:lookup", { detail: { slug: slug, level: levelOf(st.prose), word: text } })); } catch (e) {}
     var have = G.cached(text);
-    if (have) { setDef(text, defParts(have), st, id); return true; }
-    if (G.isMissing(text)) {
-      /* Not in the dictionary yet, and asking creates the entry, so it stays a
-         deliberate tap rather than something a passing tap pays for. */
-      setDef(text, [["hl-def-ask", "Tap for a definition"]], st, id);
-      defBox.onclick = function () { defBox.onclick = null; fetchDef(text, st, id); };
-      return true;
+    if (have) {
+      noteLookup(st, text);
+      var all = G.senses(have);
+      var parts = [["hl-def-g", all[0] || have.gloss || ""]];
+      /* Say so when there is more, or the first sense reads as the only one. */
+      if (all.length > 1) parts.push(["hl-def-more", all.length + " meanings in the list below"]);
+      setDef(text, parts, st, id);
+    } else {
+      setDef(text, [["hl-def-note", "Meaning in the list below."]], st, id);
     }
-    fetchDef(text, st, id);
     return true;
   }
 
@@ -583,23 +759,10 @@
 
   /* ------------------------------------------------------------------------ start */
   states.forEach(function (st) { buildBox(st); restore(st); });
-  /* Ask the dictionary, look-only, for every word already highlighted on this
-     page. It never generates, so this costs nothing, and it means tapping a
-     highlight usually shows its meaning with no wait at all. */
-  function prefetchHighlighted() {
-    try {
-      var allWords = [];
-      states.forEach(function (st) {
-        (st.items || []).forEach(function (it) { if (it.text) allWords.push(it.text); });
-      });
-      if (allWords.length && window.JPNGloss) window.JPNGloss.preview(allWords);
-    } catch (e) {}
-  }
-  /* gloss.js is a separate deferred script and may run AFTER this one, so wait
-     for the document rather than depending on tag order. Deferred scripts all
-     execute before DOMContentLoaded, so window.JPNGloss is there by then. */
-  if (document.readyState === "complete") prefetchHighlighted();
-  else document.addEventListener("DOMContentLoaded", prefetchHighlighted);
+  /* Every row drawn above queued itself with the sweep, which asks the dictionary
+     look-only for the whole page in one batch. That never generates, so it costs
+     nothing, and it also means tapping a highlight shows its meaning with no
+     wait at all. */
   buildHint();
   states.forEach(render);
 })();
