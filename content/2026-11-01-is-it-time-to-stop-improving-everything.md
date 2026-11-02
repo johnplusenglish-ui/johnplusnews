@@ -4,6 +4,7 @@ date-label: November 2026
 summary: “Maxxing” is Dictionary.com's word of the year. One columnist has had enough of it and wants 2027 to be the year we do less.
 tags: Language, Lifestyle, Society
 source: The Guardian, ‘Maxxing’ is Dictionary.com's word of the year | https://www.theguardian.com/science/2026/oct/26/maxxing-word-of-the-year-dictionary
+image: images/is-it-time-to-stop-improving-everything-dc0661.jpg
 ---
 === Core ===
 

@@ -4,6 +4,7 @@ date-label: October 2026
 summary: Nine professional cooks were asked how they feed their own families. Almost all of them described a fussy child, and none of them had a trick.
 tags: Food, Lifestyle, Society
 source: The Guardian, Don't make sugar a treat, or hide the broccoli: top chefs on how to make your kids happy eaters | https://www.theguardian.com/food/2026/oct/31/what-chefs-cook-home-kids-children-kerridge-sodha-goh-anna-jones-mitchell-gill-boxer-birkett-henderson
+image: images/what-chefs-do-when-their-children-wont-eat-f1f58b.jpg
 ---
 === Core ===
 
