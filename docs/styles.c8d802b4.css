@@ -250,11 +250,25 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .hl-list { margin: 34px 0 6px; padding-top: 16px; border-top: 1px solid var(--line); }
 .hl-title { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--hl-ink); margin: 0 0 8px; }
 .hl-list ol { list-style: none; margin: 0; padding: 0; }
-.hl-list li { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr) auto; align-items: start; gap: 0 8px; padding: 14px 0; border-bottom: 1px solid #f0f1f4; }
+.hl-list li { display: block; border-bottom: 1px solid #f0f1f4; }
 .hl-list li:last-child { border-bottom: 0; }
-.hl-main { min-width: 0; }
-.hl-list .n { padding-top: 3px; }
-.hl-list .x { align-self: start; }
+.hl-item > summary { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr) auto auto; align-items: center; gap: 0 8px; min-height: 46px; padding: 8px 0; cursor: pointer; list-style: none; font-size: 1rem; font-weight: 400; letter-spacing: normal; text-transform: none; color: var(--text); }
+.hl-item > summary::-webkit-details-marker { display: none; }
+.hl-item > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+.hl-item > summary:hover .w { color: var(--accent); }
+/* the word, and beside it the first sense, so a shut row still says something */
+.hl-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 1px 10px; min-width: 0; }
+.hl-peek { flex: 1 1 10rem; min-width: 0; font-family: var(--sf); font-size: 0.875rem; line-height: 1.45; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hl-item[open] .hl-peek { display: none; }
+.hl-chev { display: flex; flex: none; color: var(--muted); transition: transform 0.15s; }
+.hl-chev svg { margin-left: 0; transform: none; }
+/* remove and open sit side by side, so on a touch screen they each need a target */
+@media (pointer: coarse) {
+  .hl-list .x { display: flex; align-items: center; justify-content: center; min-width: 40px; min-height: 40px; padding: 0; }
+  .hl-chev { min-width: 40px; min-height: 40px; align-items: center; justify-content: center; }
+}
+.hl-item[open] .hl-chev { transform: rotate(180deg); }
+.hl-main { min-width: 0; padding: 0 0 15px 2.4rem; }
 .hl-list .n { font-size: 0.8125rem; font-weight: 700; color: var(--hl-ink); font-variant-numeric: tabular-nums; }
 .hl-list .w { display: block; font-size: 1.0625rem; font-weight: 600; line-height: 1.4; color: var(--ink); overflow-wrap: anywhere; }
 .hl-list .x { background: none; border: 0; color: var(--muted); font: inherit; font-size: 1.25rem; line-height: 1; padding: 2px 8px; border-radius: 6px; cursor: pointer; }
@@ -363,13 +377,13 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 
 /* questions: quiet rows that open on request */
 .qs { margin: 22px 0 0; }
-.qs summary { display: flex; align-items: center; gap: 12px; min-height: 46px; cursor: pointer; list-style: none; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
-.qs summary::-webkit-details-marker { display: none; }
-.qs summary:hover .qs-label { color: var(--accent); }
-.qs summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.qs > summary { display: flex; align-items: center; gap: 12px; min-height: 46px; cursor: pointer; list-style: none; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.qs > summary::-webkit-details-marker { display: none; }
+.qs > summary:hover .qs-label { color: var(--accent); }
+.qs > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
 .qs-count { font-weight: 500; letter-spacing: 0; text-transform: none; }
-.qs summary svg { margin-left: auto; flex: none; transition: transform 0.15s; }
-.qs[open] summary svg { transform: rotate(180deg); }
+.qs > summary svg { margin-left: auto; flex: none; transition: transform 0.15s; }
+.qs[open] > summary svg { transform: rotate(180deg); }
 .qs ol { margin: 2px 0 20px; padding-left: 1.5em; font-size: 1.0625rem; line-height: 1.6; color: var(--ink); }
 .qs li { margin: 0 0 0.6em; padding-left: 0.25em; }
 .qs li::marker { color: var(--accent); font-weight: 700; }
@@ -381,7 +395,7 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .qs-group .qs { margin: 0; padding: 0 18px; }
 .qs-group .qs + .qs { border-top: 1px solid var(--line); }
 .qs-group .qs[open] { background: #fbfcfe; }
-.qs-group .qs summary { min-height: 50px; }
+.qs-group .qs > summary { min-height: 50px; }
 .qs-group .qs > ol { margin: 0 0 18px; }
 .qs-note { margin: 2px 0 18px; font-size: 0.875rem; line-height: 1.6; color: var(--muted); background: #f4f5f7; border-radius: 8px; padding: 14px 18px; }
 .listen:not([hidden]) ~ .qs-group { margin-top: 18px; }
@@ -494,14 +508,19 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .study-tools .qs-group { background: var(--accent-soft); border: 1px solid #d5e0f6; border-radius: var(--radius-md); overflow: hidden; }
 .study-lead { margin: -4px 0 var(--space-4); color: var(--muted); font-size: 0.9375rem; }
 .study-tools .qs-label { font-size: 1rem; font-weight: 700; letter-spacing: 0; text-transform: none; color: var(--ink); }
-.study-tools .qs summary:hover .qs-label { color: var(--accent); }
+.study-tools .qs > summary:hover .qs-label { color: var(--accent); }
 .study-tools .qs-count { color: var(--muted); }
-.study-tools .qs summary svg { color: var(--accent); }
+.study-tools .qs > summary svg { color: var(--accent); }
 .study-tools .qs[open] { background: #fff; }
 .study-tools .qs + .qs { border-top: 1px solid #d5e0f6; }
 .study-tools .qs > summary { min-height: 56px; }
 .study-tools .qs-group .qs { padding: 0 22px; }
 .hl-slot { padding: 0 0 22px; }
+/* The meanings, the wording and the controls are interface, not journalism, so
+   they stay in Outfit whatever font the reader picks for the article. Only the
+   saved word itself keeps the reading font, the way a dictionary sets a headword. */
+.hl-list { --sf: 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.hl-empty { font-family: var(--sf); }
 .hl-list { margin: 0; }
 .hl-empty { margin: 0; color: var(--muted); font-size: 0.9375rem; }
 .hl-list ol { margin: 0; padding: 0; list-style: none; }
@@ -516,25 +535,25 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 /* A saved word is a small entry, not a line: the sentence it came from, every
    sense the dictionary holds, and a box for the reader's own wording. This is
    where the meanings live now, so the card over the text can stay one line. */
-.hl-sent { margin: 4px 0 0; font-size: 0.9375rem; line-height: 1.55; color: var(--muted); }
+.hl-sent { font-family: var(--sf); margin: 4px 0 0; font-size: 0.9375rem; line-height: 1.55; color: var(--muted); }
 .hl-sent b { font-weight: 600; color: var(--text); text-decoration: underline; text-decoration-color: var(--hl); text-decoration-thickness: 2px; text-underline-offset: 0.2em; text-decoration-skip-ink: none; }
-.hl-senses { margin-top: 8px; font-size: 0.9375rem; line-height: 1.5; color: var(--text); }
+.hl-senses { font-family: var(--sf); margin-top: 8px; font-size: 0.9375rem; line-height: 1.5; color: var(--text); }
 .hl-senses[hidden] { display: none; }
 .hl-senses .hl-sense-list { counter-reset: sense; list-style: none; margin: 0; padding: 0; font-size: inherit; line-height: inherit; font-family: inherit; color: inherit; }
 .hl-senses .hl-sense-list li { display: block; position: relative; padding: 0 0 0 18px; margin: 5px 0 0; border: 0; }
 .hl-senses .hl-sense-list li:first-child { margin-top: 0; }
 .hl-senses .hl-sense-list li::before { counter-increment: sense; content: counter(sense); position: absolute; left: 0; top: 0; font-size: 0.75rem; font-weight: 700; line-height: 1.9; color: var(--accent); }
 .hl-sense-one { margin: 0; }
-.hl-pos { font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 8px; }
-.hl-sense-note { margin: 0; color: #98a0ad; }
-.hl-look { font: inherit; font-size: 0.875rem; font-weight: 600; color: var(--accent); background: #fff; border: 1px solid #cfd4dc; border-radius: var(--radius-md); padding: 5px 12px; cursor: pointer; }
+.hl-pos { font-family: var(--sf); font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 8px; }
+.hl-sense-note { font-family: var(--sf); margin: 0; color: #98a0ad; }
+.hl-look { font: inherit; font-family: var(--sf); font-size: 0.875rem; font-weight: 600; color: var(--accent); background: #fff; border: 1px solid #cfd4dc; border-radius: var(--radius-md); padding: 5px 12px; cursor: pointer; }
 .hl-look:hover:enabled { border-color: var(--accent); }
 .hl-look:disabled { color: var(--muted); cursor: default; }
 .hl-look:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .hl-note-wrap { margin-top: 11px; }
 .hl-note-lab { display: block; }
-.hl-note-cap { display: block; font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
-.hl-note { display: block; width: 100%; margin-top: 5px; font: inherit; font-size: 0.9375rem; line-height: 1.5; color: var(--text); background: #fffbf2; border: 1px solid #ead9b6; border-radius: var(--radius-md); padding: 8px 11px; resize: none; overflow: hidden; }
+.hl-note-cap { display: block; font-family: var(--sf); font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.hl-note { display: block; width: 100%; margin-top: 5px; font: inherit; font-family: var(--sf); font-size: 0.9375rem; line-height: 1.5; color: var(--text); background: #fffbf2; border: 1px solid #ead9b6; border-radius: var(--radius-md); padding: 8px 11px; resize: none; overflow: hidden; }
 .hl-note::placeholder { color: #b0a58d; }
 .hl-note:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
 .hl-note-print { display: none; }
@@ -1027,7 +1046,10 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
      broke the sentences up. The handout is the article plus the reader's own
      glossary, with a ruled line under any word they have not written up yet. */
   .hl-list ol { column-count: 1; }
-  .hl-list li { grid-template-columns: 7mm minmax(0, 1fr); padding: 2.6mm 0; border-bottom: 0.3pt solid #e6e8ec; break-inside: avoid; }
+  .hl-list li { padding: 2.6mm 0; border-bottom: 0.3pt solid #e6e8ec; break-inside: avoid; }
+  .hl-item > summary { grid-template-columns: 7mm minmax(0, 1fr); padding: 0; }
+  .hl-chev, .hl-peek { display: none !important; }
+  .hl-main { padding: 0 0 0 7mm; }
   .hl-list .n { font-size: 7.5pt; padding-top: 0; }
   .hl-list .w { font-size: 9.5pt; line-height: 1.35; }
   .hl-sent { margin: 0.8mm 0 0; font-size: 8.5pt; line-height: 1.4; color: #4b5563; }
@@ -1043,8 +1065,8 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
   .qs-group { border: 0; border-radius: 0; margin: 0; }
   .qs-group .qs, .qs { border: 0; margin: 5mm 0 0; padding: 4mm 5mm 3mm; background: #f3f6fc; break-inside: avoid; }
   .qs::details-content { content-visibility: visible; display: block; }
-  .qs summary { display: block; min-height: 0; margin: 0 0 2mm; font-size: 7.5pt; color: var(--accent); }
-  .qs summary svg, .qs-count { display: none; }
+  .qs > summary { display: block; min-height: 0; margin: 0 0 2mm; font-size: 7.5pt; color: var(--accent); }
+  .qs > summary svg, .qs-count { display: none; }
   .qs ol { margin: 0; padding-left: 5mm; font-family: Georgia, 'Times New Roman', serif; font-size: calc(9.6pt * var(--fs, 1)); line-height: 1.45; }
   .qs li { margin: 0 0 1.2mm; padding-left: 0; }
   .ex-wrap { margin: 0; }
