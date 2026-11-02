@@ -1,0 +1,305 @@
+{
+ "slug": "why-do-we-trust-confident-people",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "Curmi calls this quality ____: the ability to make other people trust you, like you or follow you.",
+      "a": "charisma"
+     },
+     {
+      "s": "For most of human history, people lived in small groups, sometimes only ____ people.",
+      "a": "twenty"
+     },
+     {
+      "s": "It is to separate confidence from ____, and to treat them as two different things.",
+      "a": "knowledge"
+     },
+     {
+      "s": "It means that sounding sure is not ____, and it never was.",
+      "a": "evidence"
+     },
+     {
+      "s": "They never ____, and they explain a complicated subject in one clear minute.",
+      "a": "hesitate"
+     }
+    ],
+    "extra": [
+     "persuaded",
+     "danger"
+    ]
+   },
+   "match": [
+    {
+     "t": "hesitate",
+     "d": "to pause because you are not sure"
+    },
+    {
+     "t": "edited",
+     "d": "changed before other people see it"
+    },
+    {
+     "t": "psychiatrist",
+     "d": "a doctor who treats problems of the mind"
+    },
+    {
+     "t": "evidence",
+     "d": "facts that show whether something is true"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "You ____ a video.",
+      "cue": "watch",
+      "a": "are watching"
+     },
+     {
+      "s": "He ____ meeting a confident stranger in a bar.",
+      "cue": "describe",
+      "a": "describes"
+     },
+     {
+      "s": "Then the man ____ that some people even believe the Earth is round.",
+      "cue": "say",
+      "a": "said"
+     },
+     {
+      "s": "Others ____ them, and online there are plenty of guides that teach them.",
+      "cue": "learn",
+      "a": "learn"
+     },
+     {
+      "s": "Our brains, Curmi says, ____ for that.",
+      "cue": "evolve",
+      "a": "did not evolve"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Alex Curmi is a psychiatrist.",
+     "a": "T",
+     "why": "The text says: “Alex Curmi, a psychiatrist writing in the Guardian, thinks this is a problem worth taking seriously.”"
+    },
+    {
+     "s": "Curmi believes charisma is a kind of magic that cannot be explained.",
+     "a": "F",
+     "why": "The text says the opposite: “He argues that charisma is not magic.”"
+    },
+    {
+     "s": "Curmi suggests asking what a speaker gains if you agree with them.",
+     "a": "T",
+     "why": "The text says: “What do they gain if you agree?”"
+    },
+    {
+     "s": "Most people cannot tell when a speaker is exaggerating.",
+     "a": "N",
+     "why": "Not stated. The text gives no figures about how well people judge speakers."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "they are so ____, so relaxed and so obviously in command of the subject that we stop evaluating and start agreeing",
+      "a": "fluent"
+     },
+     {
+      "s": "thinks that moment deserves more ____ than we usually give it.",
+      "a": "suspicion"
+     },
+     {
+      "s": "so charisma only won if it came with ____ and character.",
+      "a": "judgment"
+     },
+     {
+      "s": "His proposed defence is ____: critical thinking, treated as a collective immune system and taught properly in schools.",
+      "a": "unglamorous"
+     },
+     {
+      "s": "algorithmic social media is only about ____ years old",
+      "a": "fifteen"
+     }
+    ],
+    "extra": [
+     "remainder",
+     "coup"
+    ]
+   },
+   "match": [
+    {
+     "t": "fluent",
+     "d": "able to speak easily and without stopping"
+    },
+    {
+     "t": "suspicion",
+     "d": "a feeling that something may not be what it seems"
+    },
+    {
+     "t": "nomadic",
+     "d": "moving from place to place rather than settling"
+    },
+    {
+     "t": "superficial",
+     "d": "only on the surface, and not deep"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "Charisma, Curmi argues, is not an ____ X-factor.",
+      "cue": "DEFINE",
+      "a": "undefinable"
+     },
+     {
+      "s": "The psychology of it describes a set of skills and ____",
+      "cue": "BEHAVE",
+      "a": "behaviours"
+     },
+     {
+      "s": "variation in pitch, pace and volume, ____, well-timed emotion.",
+      "cue": "STORY",
+      "a": "storytelling"
+     },
+     {
+      "s": "We worry about teenagers being ____ online",
+      "cue": "MANIPULATE",
+      "a": "manipulated"
+     },
+     {
+      "s": "Treat changing your mind as something to be proud of rather than ____ by.",
+      "cue": "EMBARRASS",
+      "a": "embarrassed"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Curmi says charisma can be described as a set of skills and behaviours.",
+     "a": "T",
+     "why": "The text says: “The psychology of it describes a set of skills and behaviours: eye contact, certainty in the body, variation in pitch, pace and volume, storytelling, well-timed emotion.”"
+    },
+    {
+     "s": "The article treats charisma and dishonesty as the same thing.",
+     "a": "F",
+     "why": "The text says the opposite: “it is worth noting that charisma is not the same as dishonesty: many people who explain things well also know what they are talking about”."
+    },
+    {
+     "s": "Curmi was told that his own speaking voice was too flat.",
+     "a": "T",
+     "why": "The text says: “He says so from experience, having been told by every content expert that his own voice was too flat for an audience.”"
+    },
+    {
+     "s": "Schools now teach critical thinking as a separate subject.",
+     "a": "N",
+     "why": "Not stated. The text argues that critical thinking should be taught, but says nothing about what schools currently do."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "He opens with a ____ anecdote.",
+      "a": "deflating"
+     },
+     {
+      "s": "Crucially, those displays were continuously ____.",
+      "a": "audited"
+     },
+     {
+      "s": "The signal was reliable because it was ____ to fake over time.",
+      "a": "expensive"
+     },
+     {
+      "s": "A ____ clip offers the display without any of the surrounding evidence",
+      "a": "curated"
+     },
+     {
+      "s": "a rule that distrusts fluent people would discard a great deal of genuine ____.",
+      "a": "expertise"
+     }
+    ],
+    "extra": [
+     "gaze",
+     "discipline"
+    ]
+   },
+   "match": [
+    {
+     "t": "deflating",
+     "d": "making something seem less impressive than it was"
+    },
+    {
+     "t": "audited",
+     "d": "checked carefully and repeatedly over time"
+    },
+    {
+     "t": "curated",
+     "d": "chosen and arranged to create an effect"
+    },
+    {
+     "t": "expertise",
+     "d": "deep knowledge gained through experience"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "The uncomfortable thing about being persuaded is how little of it feels like ____.",
+      "cue": "PERSUADE",
+      "a": "persuasion"
+     },
+     {
+      "s": "Charisma is not an ____ quality some people possess",
+      "cue": "EXPLAIN",
+      "a": "inexplicable"
+     },
+     {
+      "s": "but a ____ set of behaviours",
+      "cue": "DESCRIBE",
+      "a": "describable"
+     },
+     {
+      "s": "Human beings spent the overwhelming ____ of their history in small nomadic bands",
+      "cue": "MAJOR",
+      "a": "majority"
+     },
+     {
+      "s": "Curmi's own remedies are more ____ than his framing",
+      "cue": "MEASURE",
+      "a": "measured"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The argument works even when the confident speaker is sincere.",
+     "a": "T",
+     "why": "The text says: “the mechanism misfires even when the speaker is sincere but simply wrong”."
+    },
+    {
+     "s": "The writer agrees completely with the original headline.",
+     "a": "F",
+     "why": "The text says the opposite: “Where the piece is weakest is in its headline.”"
+    },
+    {
+     "s": "Distrusting fluent speakers would mean losing real expertise.",
+     "a": "T",
+     "why": "The text says: “a rule that distrusts fluent people would discard a great deal of genuine expertise”."
+    },
+    {
+     "s": "Studies show that curated clips change the way people vote.",
+     "a": "N",
+     "why": "Not stated. The text makes no claim about voting and cites no study of curated clips."
+    }
+   ]
+  }
+ }
+}

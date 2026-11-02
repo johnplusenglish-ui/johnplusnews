@@ -1,0 +1,305 @@
+{
+ "slug": "what-chefs-do-when-their-children-wont-eat",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "The Guardian asked ____ cooks and food writers what they feed their own families.",
+      "a": "nine"
+     },
+     {
+      "s": "Helen Goh grates ____ into pasta sauce, but she always tells her sons it is in there.",
+      "a": "courgette"
+     },
+     {
+      "s": "Saying no to food, he realised, is one of the few kinds of ____ a child has.",
+      "a": "power"
+     },
+     {
+      "s": "for most children, being fussy is only a ____.",
+      "a": "phase"
+     },
+     {
+      "s": "Her advice is not to ____ children.",
+      "a": "label"
+     }
+    ],
+    "extra": [
+     "treat",
+     "kebabs"
+    ]
+   },
+   "match": [
+    {
+     "t": "picky",
+     "d": "difficult to please about food"
+    },
+    {
+     "t": "refuse",
+     "d": "to say you will not accept something"
+    },
+    {
+     "t": "grates",
+     "d": "rubs food into small pieces with a metal tool"
+    },
+    {
+     "t": "treat",
+     "d": "something nice that you do not get every day"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "It ____ to professional chefs too.",
+      "cue": "happen",
+      "a": "happens"
+     },
+     {
+      "s": "The Guardian ____ nine cooks and food writers what they feed their own families.",
+      "cue": "ask",
+      "a": "asked"
+     },
+     {
+      "s": "If he puts a chopped apple on the table, it ____.",
+      "cue": "eat",
+      "a": "gets eaten"
+     },
+     {
+      "s": "She ____ it a treat.",
+      "cue": "call",
+      "a": "does not call"
+     },
+     {
+      "s": "Jackson Boxer ____ four children, and he had to learn not to take refusals personally.",
+      "cue": "have",
+      "a": "has"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Tom Kerridge does not believe parents who say their children eat beetroot and feta salad.",
+     "a": "T",
+     "why": "The text says: “He does not believe the parents who say their children happily eat beetroot and feta salad.”"
+    },
+    {
+     "s": "Helen Goh hides vegetables without telling her children.",
+     "a": "F",
+     "why": "The text says the opposite: “Helen Goh grates courgette into pasta sauce, but she always tells her sons it is in there.”"
+    },
+    {
+     "s": "Ravneet Gill does not describe sugar as a treat.",
+     "a": "T",
+     "why": "The text says: “She does not call it a treat.”"
+    },
+    {
+     "s": "Most of the nine cooks eat with their children every day.",
+     "a": "N",
+     "why": "Not stated. The text describes several approaches but says nothing about how often they eat together."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "A theme runs through several of the accounts: ____.",
+      "a": "involvement"
+     },
+     {
+      "s": "describes a version of the same idea as giving her five-year-old ____.",
+      "a": "agency"
+     },
+     {
+      "s": "Two of them push back firmly on a popular ____.",
+      "a": "tactic"
+     },
+     {
+      "s": "offers the most ____ observation of all",
+      "a": "consoling"
+     },
+     {
+      "s": "What almost nobody offers is a ____.",
+      "a": "method"
+     }
+    ],
+    "extra": [
+     "wrapper",
+     "celery"
+    ]
+   },
+   "match": [
+    {
+     "t": "agency",
+     "d": "the power to make your own choices"
+    },
+    {
+     "t": "tactic",
+     "d": "a particular way of trying to achieve something"
+    },
+    {
+     "t": "consoling",
+     "d": "making someone feel less unhappy"
+    },
+    {
+     "t": "dismissing",
+     "d": "treating something as not worth considering"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "and the ____ of the answers is the most striking thing about them.",
+      "cue": "HONEST",
+      "a": "honesty"
+     },
+     {
+      "s": "His ten-year-old son, Acey, trains hard and burns energy ____",
+      "cue": "CONSTANT",
+      "a": "constantly"
+     },
+     {
+      "s": "Ravneet Gill ____ refuses to frame sugar as a treat",
+      "cue": "DELIBERATE",
+      "a": "deliberately"
+     },
+     {
+      "s": "so she does make ____, while Mitchell and Rosie Birkett mostly do not.",
+      "cue": "ALTERNATE",
+      "a": "alternatives"
+     },
+     {
+      "s": "Birkett says ____ is nearly always a phase",
+      "cue": "PICKY",
+      "a": "pickiness"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Nine chefs and food writers were asked about their own children.",
+     "a": "T",
+     "why": "The text says: “The Guardian's Mina Holland asked nine chefs and food writers what their own children eat at home, and the honesty of the answers is the most striking thing about them.”"
+    },
+    {
+     "s": "All of the cooks refuse to make a separate meal for a child.",
+     "a": "F",
+     "why": "The text says the opposite: “Anna Jones admits she cannot bring herself to send a child to bed hungry, so she does make alternatives, while Mitchell and Rosie Birkett mostly do not.”"
+    },
+    {
+     "s": "Helen Goh tells her sons exactly what is in the food.",
+     "a": "T",
+     "why": "The text says: “Helen Goh cooks onions, carrots and celery into a base and grates courgette until it melts away, but she tells her sons exactly what is in it.”"
+    },
+    {
+     "s": "The chefs' children are healthier than average.",
+     "a": "N",
+     "why": "Not stated. The text reports what the children eat but makes no comparison with anybody else."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "is that technique is close to ____.",
+      "a": "irrelevant"
+     },
+     {
+      "s": "Tom Kerridge sets the tone by refusing the ____ that some children are simply good eaters.",
+      "a": "premise"
+     },
+     {
+      "s": "Where they disagree is more ____ than where they agree.",
+      "a": "instructive"
+     },
+     {
+      "s": "Mitchell's objection is ____, since a child who never knows what she ate cannot learn what she likes.",
+      "a": "epistemic"
+     },
+     {
+      "s": "These are nine individual households, several of them unusually food-literate and none of them a ____.",
+      "a": "sample"
+     }
+    ],
+    "extra": [
+     "logistics",
+     "ego"
+    ]
+   },
+   "match": [
+    {
+     "t": "irrelevant",
+     "d": "not connected with the matter being discussed"
+    },
+    {
+     "t": "premise",
+     "d": "an idea that an argument is built on"
+    },
+    {
+     "t": "instructive",
+     "d": "teaching you something useful"
+    },
+    {
+     "t": "admission",
+     "d": "a statement that something is true, often made reluctantly"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "on the reasonable theory that ____ changes the relationship to the plate.",
+      "cue": "PARTICIPATE",
+      "a": "participation"
+     },
+     {
+      "s": "Marie Mitchell describes the boundary ____",
+      "cue": "PRECISE",
+      "a": "precisely"
+     },
+     {
+      "s": "Appetite, in other words, has a cultural component long before it has a ____ one.",
+      "cue": "NUTRITION",
+      "a": "nutritional"
+     },
+     {
+      "s": "is rejected by two of them on grounds that are essentially ____.",
+      "cue": "ETHICS",
+      "a": "ethical"
+     },
+     {
+      "s": "who feeds four children with barely ____ preferences.",
+      "cue": "OVERLAP",
+      "a": "overlapping"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The writer says the difficulty is social rather than technical.",
+     "a": "T",
+     "why": "The text says: “The difficulty they describe is social, and most of their hard-won insight concerns their own behaviour rather than their children's.”"
+    },
+    {
+     "s": "The article offers the chefs' accounts as dietary advice.",
+     "a": "F",
+     "why": "The text says the opposite: “None of this is dietary advice, and it should not be mistaken for it.”"
+    },
+    {
+     "s": "Two of the cooks reject hiding vegetables.",
+     "a": "T",
+     "why": "The text says: “Hiding vegetables, a tactic many parents rely on, is rejected by two of them on grounds that are essentially ethical.”"
+    },
+    {
+     "s": "Most parents in the UK hide vegetables in their children's food.",
+     "a": "N",
+     "why": "Not stated. The text calls it a tactic many parents rely on but gives no figures."
+    }
+   ]
+  }
+ }
+}

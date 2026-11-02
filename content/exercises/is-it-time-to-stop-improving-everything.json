@@ -1,0 +1,305 @@
+{
+ "slug": "is-it-time-to-stop-improving-everything",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "It is an ____ that you add to other words, and it means pushing something as far as it will go.",
+      "a": "ending"
+     },
+     {
+      "s": "the term appeared in mathematics as far back as the ____.",
+      "a": "1940s"
+     },
+     {
+      "s": "Health, sleep, friendships and habits are not tasks you ____.",
+      "a": "complete"
+     },
+     {
+      "s": "Breakfast became a ____.",
+      "a": "strategy"
+     },
+     {
+      "s": "Instead of pushing something to the ____, you do it less, or not at all.",
+      "a": "limit"
+     }
+    ],
+    "extra": [
+     "score",
+     "volume"
+    ]
+   },
+   "match": [
+    {
+     "t": "linguist",
+     "d": "someone who studies language"
+    },
+    {
+     "t": "columnist",
+     "d": "a writer with a regular opinion piece in a newspaper"
+    },
+    {
+     "t": "optimise",
+     "d": "to make something as good as it can possibly be"
+    },
+    {
+     "t": "invent",
+     "d": "to think of something completely new"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "People ____ about sleepmaxxing, which means doing everything possible to sleep well.",
+      "cue": "talk",
+      "a": "talk"
+     },
+     {
+      "s": "For 2026, Dictionary.com ____ “maxxing”.",
+      "cue": "choose",
+      "a": "has chosen"
+     },
+     {
+      "s": "Jennifer Donnelly, a researcher in Ireland, ____ that the word suggests you can finish improving yourself.",
+      "cue": "warn",
+      "a": "has warned"
+     },
+     {
+      "s": "the term ____ in mathematics as far back as the 1940s.",
+      "cue": "appear",
+      "a": "appeared"
+     },
+     {
+      "s": "Daria Bahtina, a linguist in the United States, ____ the pattern is easy to copy but easy to understand.",
+      "cue": "say",
+      "a": "says"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The ending means pushing something as far as it will go.",
+     "a": "T",
+     "why": "The text says: “It is an ending that you add to other words, and it means pushing something as far as it will go.”"
+    },
+    {
+     "s": "The idea behind the word was invented in 2026.",
+     "a": "F",
+     "why": "The text says the opposite: “The idea is older than it looks.”"
+    },
+    {
+     "s": "Bahtina says you can invent a new word and still be understood.",
+     "a": "T",
+     "why": "The text says: “You can invent a word nobody has heard before, and people will still know what you mean straight away.”"
+    },
+    {
+     "s": "Most readers agreed with Polly Hudson's column.",
+     "a": "N",
+     "why": "Not stated. The text describes the column but says nothing about how readers responded to it."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "not a word so much as an ____, attached to anything that can be pushed to its limit.",
+      "a": "ending"
+     },
+     {
+      "s": "by August 2026 the term was appearing in digital media ____ as often as its monthly average in 2025.",
+      "a": "19 times"
+     },
+     {
+      "s": "the pattern is infinitely ____ but instantly recognisable",
+      "a": "customisable"
+     },
+     {
+      "s": "The language implies an ____.",
+      "a": "endpoint"
+     },
+     {
+      "s": "the column is ____ rather than a manifesto.",
+      "a": "comedy"
+     }
+    ],
+    "extra": [
+     "lexicography",
+     "spirits"
+    ]
+   },
+   "match": [
+    {
+     "t": "suffix",
+     "d": "an ending added to a word"
+    },
+    {
+     "t": "compelling",
+     "d": "interesting enough to hold your attention"
+    },
+    {
+     "t": "aspirational",
+     "d": "connected with wanting to achieve something better"
+    },
+    {
+     "t": "absurd",
+     "d": "completely unreasonable or silly"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "the pattern is infinitely customisable but instantly ____",
+      "cue": "RECOGNISE",
+      "a": "recognisable"
+     },
+     {
+      "s": "Her examples are deliberately ____",
+      "cue": "ABSURDITY",
+      "a": "absurd"
+     },
+     {
+      "s": "minning is one writer's joke, not a trend anybody has ____.",
+      "cue": "MEASURE",
+      "a": "measured"
+     },
+     {
+      "s": "The suffix became popular because optimising felt ____.",
+      "cue": "ASPIRE",
+      "a": "aspirational"
+     },
+     {
+      "s": "so attaching it to a word ____ that you are part of the moment.",
+      "cue": "SIGNAL",
+      "a": "signals"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Dictionary.com looks at search trends and news coverage when it chooses.",
+     "a": "T",
+     "why": "The text says: “Steve Johnson, director of lexicography at the Dictionary Media Group, said his team looks at search trends, social media and the news, and then asks which word tells the most compelling story of the year.”"
+    },
+    {
+     "s": "The term first appeared in 2026.",
+     "a": "F",
+     "why": "The text says the opposite: “Its history is longer than the trend.”"
+    },
+    {
+     "s": "Donnelly argues that the language implies an endpoint.",
+     "a": "T",
+     "why": "The text says: “The language implies an endpoint.”"
+    },
+    {
+     "s": "Use of the word has fallen since August 2026.",
+     "a": "N",
+     "why": "Not stated. The text gives a figure for August 2026 but nothing about the months after it."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "The data behind the choice is ____.",
+      "a": "unambiguous"
+     },
+     {
+      "s": "What makes the term linguistically interesting is its ____.",
+      "a": "portability"
+     },
+     {
+      "s": "Her objection is not to effort but to ____.",
+      "a": "scoring"
+     },
+     {
+      "s": "Yet the speed of the ____ is itself a finding of sorts.",
+      "a": "parody"
+     },
+     {
+      "s": "Optimisation language is useful when a problem genuinely has a solution and ____ when applied to things that simply have to be lived.",
+      "a": "corrosive"
+     }
+    ],
+    "extra": [
+     "practitioners",
+     "terminal"
+    ]
+   },
+   "match": [
+    {
+     "t": "unambiguous",
+     "d": "having only one possible meaning"
+    },
+    {
+     "t": "portability",
+     "d": "the quality of being easy to move from one place to another"
+    },
+    {
+     "t": "parody",
+     "d": "an imitation that makes fun of something"
+    },
+    {
+     "t": "corrosive",
+     "d": "slowly damaging"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "and Dictionary.com's selection for 2026 does the job ____.",
+      "cue": "EFFICIENT",
+      "a": "efficiently"
+     },
+     {
+      "s": "meaning the pursuit of that thing to its furthest possible ____.",
+      "cue": "EXTEND",
+      "a": "extent"
+     },
+     {
+      "s": "a vocabulary that frames them as ____ invites constant self-surveillance",
+      "cue": "COMPLETE",
+      "a": "completable"
+     },
+     {
+      "s": "and the pursuit of an ____ optimal self.",
+      "cue": "IDEAL",
+      "a": "idealised"
+     },
+     {
+      "s": "The researcher Kelly Wright, who tracks ____ terms, has documented examples stretching back to 1990",
+      "cue": "EMERGE",
+      "a": "emerging"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Examples of the suffix have been documented from as early as 1990.",
+     "a": "T",
+     "why": "The text says: “has documented examples stretching back to 1990, when it belonged to Dungeons and Dragons”."
+    },
+    {
+     "s": "The writer treats the minning column as evidence of a real movement.",
+     "a": "F",
+     "why": "The text says the opposite: “The column is a joke built almost entirely from wordplay, and it should not be mistaken for evidence of a movement.”"
+    },
+    {
+     "s": "Wright thinks maxxing is likely to survive.",
+     "a": "T",
+     "why": "The text says: “Wright is less sure maxxing will fade, pointing out that middle-aged people and corporate brands have both embraced it, which is normally a terminal diagnosis for cool but an excellent one for survival.”"
+    },
+    {
+     "s": "Dictionary.com's word of the year for 2025 was also a suffix.",
+     "a": "N",
+     "why": "Not stated. The text discusses the 2026 choice only."
+    }
+   ]
+  }
+ }
+}

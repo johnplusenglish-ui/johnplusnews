@@ -1,0 +1,305 @@
+{
+ "slug": "why-young-people-are-turning-up-to-ceilidhs",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "The word comes from ____ and means something like a visit or a gathering",
+      "a": "Gaelic"
+     },
+     {
+      "s": "ticket sales for ceilidh events in the UK grew by ____ from 2024 to 2025.",
+      "a": "16%"
+     },
+     {
+      "s": "Part of the ____ seems to be that you cannot look cool while doing it.",
+      "a": "appeal"
+     },
+     {
+      "s": "Ed McCabe, who founded the London Ceilidh Club, said the scene has ____ since Covid.",
+      "a": "boomed"
+     },
+     {
+      "s": "the room is crowded and some people would rather not hold ____ with a stranger.",
+      "a": "hands"
+     }
+    ],
+    "extra": [
+     "partner",
+     "folk"
+    ]
+   },
+   "match": [
+    {
+     "t": "gathering",
+     "d": "an occasion when people come together"
+    },
+    {
+     "t": "dancefloor",
+     "d": "the area of a room where people dance"
+    },
+    {
+     "t": "crowded",
+     "d": "full of people"
+    },
+    {
+     "t": "offline",
+     "d": "not using the internet"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "A band ____, someone explains the steps, and everybody dances in lines and circles.",
+      "cue": "play",
+      "a": "plays"
+     },
+     {
+      "s": "and many of them ____ to a ceilidh before.",
+      "cue": "be",
+      "a": "had never been"
+     },
+     {
+      "s": "Across the world, they ____ by 15%.",
+      "cue": "grow",
+      "a": "grew"
+     },
+     {
+      "s": "Ed McCabe, who ____ the London Ceilidh Club, said the scene has boomed since Covid.",
+      "cue": "found",
+      "a": "founded"
+     },
+     {
+      "s": "Within one dance, you ____ six people.",
+      "cue": "meet",
+      "a": "have already met"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "You need a partner to join a ceilidh.",
+     "a": "F",
+     "why": "The text says the opposite: “You do not need a partner.”"
+    },
+    {
+     "s": "The Ivy House is usually known for rock and indie music.",
+     "a": "T",
+     "why": "The text says: “The pub is better known for rock and indie music, but that night the dancefloor belonged to a folk band and a crowd of all ages.”"
+    },
+    {
+     "s": "Jamie is 19 and has been to many ceilidhs.",
+     "a": "T",
+     "why": "The text says: “Jamie, 19, has been to many and says they are becoming popular with his friends.”"
+    },
+    {
+     "s": "Ceilidh tickets have become more expensive.",
+     "a": "N",
+     "why": "Not stated. The text gives sales figures but says nothing about prices."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "a traditional Scottish and Irish dance, pronounced “KAY-lee”, from a ____ word meaning a visit or a gathering.",
+      "a": "Gaelic"
+     },
+     {
+      "s": "A ____ explains each dance, the steps are simple enough to copy and complicated enough to go wrong",
+      "a": "caller"
+     },
+     {
+      "s": "says the scene has boomed since Covid, and that ceilidhs have low ____ to entry.",
+      "a": "barriers"
+     },
+     {
+      "s": "His point is partly about ____: you cannot look cool while doing it, which removes a great deal of pressure.",
+      "a": "dignity"
+     },
+     {
+      "s": "An evening out that happens to introduce you to thirty strangers is an unusual kind of ____.",
+      "a": "fundraiser"
+     }
+    ],
+    "extra": [
+     "accordion",
+     "ego"
+    ]
+   },
+   "match": [
+    {
+     "t": "caller",
+     "d": "someone who announces what to do next"
+    },
+    {
+     "t": "barriers",
+     "d": "things that make it harder to take part"
+    },
+    {
+     "t": "revival",
+     "d": "a return of interest in something old"
+    },
+    {
+     "t": "fundraiser",
+     "d": "an event held to collect money"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "and contemporary indie bands still pull in ____.",
+      "cue": "CROWD",
+      "a": "crowds"
+     },
+     {
+      "s": "the steps are simple enough to copy and complicated enough to go wrong, and partners change ____",
+      "cue": "CONSTANT",
+      "a": "constantly"
+     },
+     {
+      "s": "Ed McCabe, ____ of the London Ceilidh Club",
+      "cue": "FOUND",
+      "a": "founder"
+     },
+     {
+      "s": "which removes a great deal of ____.",
+      "cue": "PRESS",
+      "a": "pressure"
+     },
+     {
+      "s": "and that the room becomes its own ____ very quickly.",
+      "cue": "COMMUNE",
+      "a": "community"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Eventbrite recorded faster growth in the UK than worldwide.",
+     "a": "T",
+     "why": "The text says: “The ticketing platform Eventbrite says sales for ceilidh events in the UK rose 16% between 2024 and 2025, with 15% growth worldwide.”"
+    },
+    {
+     "s": "Dancers keep the same partner for the whole evening.",
+     "a": "F",
+     "why": "The text says the opposite: “partners change constantly, so nobody is left standing at the side”."
+    },
+    {
+     "s": "A charity raised money from the ticket sales at the Ivy House.",
+     "a": "T",
+     "why": "The text says: “Link Age Southwark raised money from ticket sales at the Ivy House, and Anna Spree, who works there, said the ceilidh revival had allowed the charity to reach new people.”"
+    },
+    {
+     "s": "Most of the people at the Ivy House were under 30.",
+     "a": "N",
+     "why": "Not stated. The text quotes several young dancers but gives no figures about the ages of the crowd."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "The explanation worth taking seriously, though, is ____ rather than generational.",
+      "a": "structural"
+     },
+     {
+      "s": "A caller teaches each dance in advance, which means nobody is expected to arrive ____.",
+      "a": "competent"
+     },
+     {
+      "s": "since you are sweaty and smiling and therefore ____.",
+      "a": "unguarded"
+     },
+     {
+      "s": "Some ____ is warranted before declaring a movement.",
+      "a": "caution"
+     },
+     {
+      "s": "Growth figures from one ticketing platform describe a ____, not a culture",
+      "a": "market"
+     }
+    ],
+    "extra": [
+     "analogue",
+     "renaissance"
+    ]
+   },
+   "match": [
+    {
+     "t": "raucous",
+     "d": "loud and rough in a lively way"
+    },
+    {
+     "t": "analogue",
+     "d": "not digital"
+    },
+    {
+     "t": "competent",
+     "d": "able to do something well enough"
+    },
+    {
+     "t": "unguarded",
+     "d": "not protecting yourself or hiding your feelings"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "The commentary around this tends to reach immediately for a ____",
+      "cue": "DIAGNOSE",
+      "a": "diagnosis"
+     },
+     {
+      "s": "which quietly removes a set of ____ nobody has to discuss.",
+      "cue": "ASSUME",
+      "a": "assumptions"
+     },
+     {
+      "s": "Louise, 32, valued that nobody was assessing anyone's ____",
+      "cue": "ABLE",
+      "a": "ability"
+     },
+     {
+      "s": "Scottish and Irish communities have been holding ceilidhs ____ for well over a century",
+      "cue": "CONTINUE",
+      "a": "continuously"
+     },
+     {
+      "s": "a room where nobody can look cool turns out to be an ____ way to meet somebody.",
+      "cue": "EFFICIENCY",
+      "a": "efficient"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The writer prefers a structural explanation to a generational one.",
+     "a": "T",
+     "why": "The text says: “The explanation worth taking seriously, though, is structural rather than generational.”"
+    },
+    {
+     "s": "The article treats one platform's figures as proof of a cultural change.",
+     "a": "F",
+     "why": "The text says the opposite: “Growth figures from one ticketing platform describe a market, not a culture, and a crowded pub in Nunhead is one evening in one city.”"
+    },
+    {
+     "s": "Ceilidhs have been held continuously for more than a hundred years.",
+     "a": "T",
+     "why": "The text says: “Scottish and Irish communities have been holding ceilidhs continuously for well over a century, so the renaissance belongs to the people discovering them, not to the form.”"
+    },
+    {
+     "s": "Dating apps have lost users in the UK this year.",
+     "a": "N",
+     "why": "Not stated. The text mentions dating apps but gives no figures about how many people use them."
+    }
+   ]
+  }
+ }
+}

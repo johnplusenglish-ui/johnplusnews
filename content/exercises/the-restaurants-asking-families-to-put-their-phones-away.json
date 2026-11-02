@@ -1,0 +1,305 @@
+{
+ "slug": "the-restaurants-asking-families-to-put-their-phones-away",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "Fifteen restaurants have agreed to take part in a ____ trial called “At the table without screens”.",
+      "a": "one-month"
+     },
+     {
+      "s": "After families hand in their ____, staff will offer them a “reunion kit”.",
+      "a": "devices"
+     },
+     {
+      "s": "The games have time ____, so they fit around a restaurant meal.",
+      "a": "limits"
+     },
+     {
+      "s": "A quiet table does not always mean an ____ one.",
+      "a": "unhappy"
+     },
+     {
+      "s": "An ombudsman is an official whose job is to protect people's ____.",
+      "a": "rights"
+     }
+    ],
+    "extra": [
+     "silence",
+     "island"
+    ]
+   },
+   "match": [
+    {
+     "t": "trial",
+     "d": "a test to see whether something works"
+    },
+    {
+     "t": "device",
+     "d": "a phone, tablet or similar piece of equipment"
+    },
+    {
+     "t": "scheme",
+     "d": "an organised plan"
+    },
+    {
+     "t": "chatter",
+     "d": "light, friendly talking"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "You ____ at a restaurant with your family.",
+      "cue": "be",
+      "a": "are"
+     },
+     {
+      "s": "Fifteen restaurants ____ to take part in a one-month trial called “At the table without screens”.",
+      "cue": "agree",
+      "a": "have agreed"
+     },
+     {
+      "s": "Families eating at those restaurants ____ to put their devices away.",
+      "cue": "ask",
+      "a": "will be asked"
+     },
+     {
+      "s": "The restaurants ____ to join the scheme, so it is not a rule for every restaurant on the island.",
+      "cue": "choose",
+      "a": "chose"
+     },
+     {
+      "s": "Anna Cau, Sardinia's children's ombudsman, ____ the project.",
+      "cue": "lead",
+      "a": "is leading"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Fifteen restaurants have agreed to take part in the trial.",
+     "a": "T",
+     "why": "The text says: “Fifteen restaurants have agreed to take part in a one-month trial”."
+    },
+    {
+     "s": "Every restaurant on the island must follow the rule.",
+     "a": "F",
+     "why": "The text says the opposite: “The restaurants chose to join the scheme, so it is not a rule for every restaurant on the island.”"
+    },
+    {
+     "s": "The reunion kit contains games and drawings.",
+     "a": "T",
+     "why": "The text says: “It contains games and drawings designed to help children and parents spend time together.”"
+    },
+    {
+     "s": "Most families in Sardinia like the idea.",
+     "a": "N",
+     "why": "Not stated. The text describes the trial but never says what most families think of it."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "Fifteen ____ on the Italian island have volunteered for a one-month pilot called “At the table without screens”.",
+      "a": "establishments"
+     },
+     {
+      "s": "The aim is not simply to remove phones, but to make room for the kind of ____ that can disappear when everybody is scrolling.",
+      "a": "conversation"
+     },
+     {
+      "s": "Designed with the Italian federation of ____, the activities are intended to help children and parents interact, perhaps by sharing stories about their day.",
+      "a": "paediatricians"
+     },
+     {
+      "s": "For now, the scheme is a limited ____, not a ban across Sardinia, and the organisers plan to expand it only on a voluntary basis.",
+      "a": "experiment"
+     },
+     {
+      "s": "Some diners may feel that putting a screen away should be a personal ____ rather than part of the restaurant's rules.",
+      "a": "choice"
+     }
+    ],
+    "extra": [
+     "magistrate",
+     "leaflet"
+    ]
+   },
+   "match": [
+    {
+     "t": "establishment",
+     "d": "a business such as a shop or a restaurant"
+    },
+    {
+     "t": "pilot",
+     "d": "a small first version used to test an idea"
+    },
+    {
+     "t": "scrolling",
+     "d": "moving up or down through content on a screen"
+    },
+    {
+     "t": "diners",
+     "d": "people eating a meal in a restaurant"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "The ____ is being led by Anna Cau, Sardinia's children's ombudsman and a former juvenile magistrate",
+      "cue": "INITIATE",
+      "a": "initiative"
+     },
+     {
+      "s": "with support from a local catering and tourism ____.",
+      "cue": "ASSOCIATE",
+      "a": "association"
+     },
+     {
+      "s": "Removing the usual ____ might make it easier to notice what someone else has to say.",
+      "cue": "DISTRACT",
+      "a": "distractions"
+     },
+     {
+      "s": "and the organisers plan to expand it only on a ____ basis.",
+      "cue": "VOLUNTEER",
+      "a": "voluntary"
+     },
+     {
+      "s": "describes it as a small step in a wider campaign to reduce ____ screen use among children",
+      "cue": "EXCESS",
+      "a": "excessive"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The reunion kit was designed with the Italian federation of paediatricians.",
+     "a": "T",
+     "why": "The text says: “Designed with the Italian federation of paediatricians, the activities are intended to help children and parents interact, perhaps by sharing stories about their day.”"
+    },
+    {
+     "s": "The scheme is a ban that applies across Sardinia.",
+     "a": "F",
+     "why": "The text says the opposite: “For now, the scheme is a limited experiment, not a ban across Sardinia, and the organisers plan to expand it only on a voluntary basis.”"
+    },
+    {
+     "s": "Anna Cau used to work as a juvenile magistrate.",
+     "a": "T",
+     "why": "The text says: “The initiative is being led by Anna Cau, Sardinia's children's ombudsman and a former juvenile magistrate, with support from a local catering and tourism association.”"
+    },
+    {
+     "s": "The restaurants taking part have had more customers since the trial began.",
+     "a": "N",
+     "why": "Not stated. The text describes the plan but gives no figures about customers."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "It is an appealing idea, partly because it addresses a problem many people recognise without requiring an ____ solution.",
+      "a": "elaborate"
+     },
+     {
+      "s": "A game might ease the ____ of beginning a conversation, especially if asking about school or work tends to produce a one-word answer.",
+      "a": "awkwardness"
+     },
+     {
+      "s": "The case for phones is less ____, but it is practical.",
+      "a": "romantic"
+     },
+     {
+      "s": "some customers may welcome a reason to put their phones away while others ____ being told how to spend time with their own families",
+      "a": "resent"
+     },
+     {
+      "s": "so a screen-free table is not an entirely new kind of ____.",
+      "a": "condition"
+     }
+    ],
+    "extra": [
+     "reservations",
+     "spell"
+    ]
+   },
+   "match": [
+    {
+     "t": "elaborate",
+     "d": "complicated and made of many parts"
+    },
+    {
+     "t": "resent",
+     "d": "to feel annoyed about something you think is unfair"
+    },
+    {
+     "t": "hospitality",
+     "d": "the business of providing food, drink and places to stay"
+    },
+    {
+     "t": "awkwardness",
+     "d": "an uncomfortable feeling in a social situation"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "There is a particular kind of ____ that can settle over a restaurant table before the food arrives.",
+      "cue": "SILENT",
+      "a": "silence"
+     },
+     {
+      "s": "asks parents and children eating at ____ establishments to put their devices away",
+      "cue": "PARTICIPATE",
+      "a": "participating"
+     },
+     {
+      "s": "is leading the initiative with support from a local ____ association.",
+      "cue": "HOSPITABLE",
+      "a": "hospitality"
+     },
+     {
+      "s": "Cau frames the pilot as one step in a campaign against ____ screen use among children",
+      "cue": "EXCEED",
+      "a": "excessive"
+     },
+     {
+      "s": "rather than turning the whole meal into an ____ event.",
+      "cue": "ORGANISE",
+      "a": "organised"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The activities are designed to fit inside a normal meal.",
+     "a": "T",
+     "why": "The text says: “The activities have time limits so they can sit comfortably within a lunch or dinner, rather than turning the whole meal into an organised event.”"
+    },
+    {
+     "s": "The results of the pilot were published when the scheme was announced.",
+     "a": "F",
+     "why": "The text says the opposite: “The scheme was announced before the pilot began, so nothing is yet known about whether it improves anything.”"
+    },
+    {
+     "s": "Restaurants already place other kinds of rules on their customers.",
+     "a": "T",
+     "why": "The text says: “Restaurants already set rules about reservations, menus and behaviour, so a screen-free table is not an entirely new kind of condition.”"
+    },
+    {
+     "s": "Most parents in Sardinia support the pilot.",
+     "a": "N",
+     "why": "Not stated. The text reports the organisers' views but no survey of parents."
+    }
+   ]
+  }
+ }
+}

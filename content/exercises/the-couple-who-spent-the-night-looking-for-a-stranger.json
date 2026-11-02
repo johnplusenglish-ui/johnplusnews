@@ -1,0 +1,305 @@
+{
+ "slug": "the-couple-who-spent-the-night-looking-for-a-stranger",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "He had finished university, flown out and spent ten months working long hours on building ____ along the east coast.",
+      "a": "sites"
+     },
+     {
+      "s": "In his pocket was a ____ with $1,000 in cash inside.",
+      "a": "wallet"
+     },
+     {
+      "s": "There was no phone number inside, only a student identity ____ with his name on it.",
+      "a": "card"
+     },
+     {
+      "s": "His hostel was the ____ one they tried.",
+      "a": "fourth"
+     },
+     {
+      "s": "Without them, he says, his whole trip would have been ____.",
+      "a": "ruined"
+     }
+    ],
+    "extra": [
+     "manager",
+     "cash"
+    ]
+   },
+   "match": [
+    {
+     "t": "hostel",
+     "d": "a cheap place for travellers to sleep"
+    },
+    {
+     "t": "elderly",
+     "d": "old"
+    },
+    {
+     "t": "backpacker",
+     "d": "someone travelling cheaply with a large bag"
+    },
+    {
+     "t": "promise",
+     "d": "something you say you will certainly do"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "In 1989, Simon Kelsey ____ a young British man at the end of a year in Australia.",
+      "cue": "be",
+      "a": "was"
+     },
+     {
+      "s": "by the end he ____ enough money to travel slowly home.",
+      "cue": "save",
+      "a": "had saved"
+     },
+     {
+      "s": "At some point in the evening, the wallet ____ out of his pocket.",
+      "cue": "fall",
+      "a": "fell"
+     },
+     {
+      "s": "So they ____ from one backpacker hostel to another, asking for him.",
+      "cue": "go",
+      "a": "had gone"
+     },
+     {
+      "s": "He just ____ the person to pass it on to somebody else.",
+      "cue": "tell",
+      "a": "tells"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Simon Kelsey worked in Australia for ten months.",
+     "a": "T",
+     "why": "The text says: “He had finished university, flown out and spent ten months working long hours on building sites along the east coast.”"
+    },
+    {
+     "s": "Some of the money was missing when the wallet came back.",
+     "a": "F",
+     "why": "The text says the opposite: “Every single dollar was still inside the wallet.”"
+    },
+    {
+     "s": "The couple found him using a student identity card.",
+     "a": "T",
+     "why": "The text says: “There was no phone number inside, only a student identity card with his name on it.”"
+    },
+    {
+     "s": "The couple lived in Darwin.",
+     "a": "N",
+     "why": "Not stated. The text does not say where the couple were from."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "working long hours on building sites in the ____ sun",
+      "a": "blistering"
+     },
+     {
+      "s": "and the $1,000 in his wallet ____ roughly a month on the road.",
+      "a": "represented"
+     },
+     {
+      "s": "Only the next morning did the ____ of the effort become clear to him.",
+      "a": "scale"
+     },
+     {
+      "s": "What he did instead was make a private ____, to himself and in a sense to them",
+      "a": "pledge"
+     },
+     {
+      "s": "he would always go the extra ____ when he had the chance to help someone.",
+      "a": "mile"
+     }
+    ],
+    "extra": [
+     "knocking",
+     "beers"
+    ]
+   },
+   "match": [
+    {
+     "t": "blistering",
+     "d": "extremely hot"
+    },
+    {
+     "t": "pledge",
+     "d": "a serious promise"
+    },
+    {
+     "t": "stumbled",
+     "d": "walked unsteadily"
+    },
+    {
+     "t": "effort",
+     "d": "hard work and energy given to something"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "He noticed nothing, and went to bed still ____.",
+      "cue": "AWARE",
+      "a": "unaware"
+     },
+     {
+      "s": "and he has never stopped ____ he could.",
+      "cue": "WISH",
+      "a": "wishing"
+     },
+     {
+      "s": "told to the Guardian's Katie Cunningham as part of a reader series about the ____ of strangers",
+      "cue": "KIND",
+      "a": "kindness"
+     },
+     {
+      "s": "He likes to think that the couple in Darwin have ____ helped a great many people they will never meet.",
+      "cue": "QUIET",
+      "a": "quietly"
+     },
+     {
+      "s": "Somewhere in the course of the evening, with the beers going down ____",
+      "cue": "EASY",
+      "a": "easily"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Kelsey's story was told to a Guardian journalist.",
+     "a": "T",
+     "why": "The text says: “Simon Kelsey's story, told to the Guardian's Katie Cunningham as part of a reader series about the kindness of strangers, is firmly in the second category, and the details are what make it so.”"
+    },
+    {
+     "s": "Kelsey understood what the couple had done as soon as he opened the door.",
+     "a": "F",
+     "why": "The text says the opposite: “Only the next morning did the scale of the effort become clear to him.”"
+    },
+    {
+     "s": "The couple visited several hostels before finding the right one.",
+     "a": "T",
+     "why": "The text says: “So the couple had worked their way around the backpacker places of Darwin, asking at each one, until they found the right hostel.”"
+    },
+    {
+     "s": "Kelsey has told this story publicly before.",
+     "a": "N",
+     "why": "Not stated. The text does not say whether he has described that night anywhere else."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "There is a particular ____ to a lost wallet.",
+      "a": "arithmetic"
+     },
+     {
+      "s": "Instead they chose the most ____ route available",
+      "a": "laborious"
+     },
+     {
+      "s": "Comprehension arrived with the morning, by which time they were gone and ____.",
+      "a": "unthankable"
+     },
+     {
+      "s": "he converted the debt into a standing ____",
+      "a": "policy"
+     },
+     {
+      "s": "A single ____, published nearly four decades after the event, is not evidence about human nature",
+      "a": "recollection"
+     }
+    ],
+    "extra": [
+     "affection",
+     "lender"
+    ]
+   },
+   "match": [
+    {
+     "t": "arithmetic",
+     "d": "basic calculation with numbers"
+    },
+    {
+     "t": "laborious",
+     "d": "taking a lot of time and effort"
+    },
+    {
+     "t": "bleary",
+     "d": "with tired, unclear eyes"
+    },
+    {
+     "t": "sentimental",
+     "d": "based on feelings rather than on reason"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "which he remembers with ____ affection.",
+      "cue": "MISTAKE",
+      "a": "unmistakable"
+     },
+     {
+      "s": "most of it working long hours on east coast building sites in ____ heat",
+      "cue": "PUNISH",
+      "a": "punishing"
+     },
+     {
+      "s": "Kelsey's own account is honest about his ____",
+      "cue": "RESPOND",
+      "a": "response"
+     },
+     {
+      "s": "____ arrived with the morning, by which time they were gone and unthankable.",
+      "cue": "COMPREHEND",
+      "a": "Comprehension"
+     },
+     {
+      "s": "the benefit has been ____ ever since",
+      "cue": "COMPOUND",
+      "a": "compounding"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The couple chose the most difficult way of returning the wallet.",
+     "a": "T",
+     "why": "The text says: “Instead they chose the most laborious route available and then, having completed it, went home.”"
+    },
+    {
+     "s": "The writer presents the story as evidence about human nature.",
+     "a": "F",
+     "why": "The text says the opposite: “A single recollection, published nearly four decades after the event, is not evidence about human nature, and nobody should pretend otherwise.”"
+    },
+    {
+     "s": "Kelsey was never able to thank the couple properly.",
+     "a": "T",
+     "why": "The text says: “Comprehension arrived with the morning, by which time they were gone and unthankable.”"
+    },
+    {
+     "s": "The couple were in their seventies.",
+     "a": "N",
+     "why": "Not stated. The text calls them elderly but gives no ages."
+    }
+   ]
+  }
+ }
+}
