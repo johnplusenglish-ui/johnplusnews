@@ -11,6 +11,7 @@ image-credit-label: AI illustration
 
 title: The Stone That Led to a Giant Statue
 summary: A man in a Nile Delta village reported a stone with writing on it. Below it lay two huge statues of Ramesses II.
+audio: audio/a-strange-stone-outside-his-home-turned-out-to-be-3000-years-old-core-542883.m4a
 
 In October 2026, a resident of Bahbit al-Higara, a village in the Nile Delta of northern Egypt, noticed a strange stone near his home. It had writing on it. He could have thrown it away or kept it. Instead, he reported it to the experts, and his decision led archaeologists to something remarkable.
 
@@ -28,6 +29,7 @@ The man who reported the stone could not have known what was waiting beneath the
 
 title: The Ancient Statues Found Near Someone's Home
 summary: A resident of Bahbit al-Higara could have moved the inscribed stone or sold it. Instead he called the authorities, and a careful excavation began.
+audio: audio/a-strange-stone-outside-his-home-turned-out-to-be-3000-years-old-intermediate-88c3f9.m4a
 
 An ordinary piece of land in northern Egypt turned into an archaeological site after a resident noticed an unusual inscribed stone. Instead of trying to move it or sell it on, he contacted the authorities. The resulting excavation brought to light fragments of two huge royal statues associated with Ramesses II, along with a granite block bearing hieroglyphs.
 
@@ -47,6 +49,7 @@ There is still work to do before researchers can explain precisely where the sta
 
 title: The Stone That Led to Two Giant Statues
 summary: An unusual find near a home in Egypt brought officials to fragments of statues linked to Ramesses II. Where the pieces lay may matter as much as the stone itself.
+audio: audio/a-strange-stone-outside-his-home-turned-out-to-be-3000-years-old-advanced-d0a43a.m4a
 
 An unusual stone near a home in Egypt led officials to something much larger. In October 2026, a resident of Bahbit al-Higara, in the Nile Delta, reported writing he had noticed on a stone while working on nearby land. Antiquities officials investigated. Beneath the everyday surroundings were fragments of two enormous royal statues linked to Ramesses II.
 
