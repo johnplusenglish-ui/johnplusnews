@@ -755,13 +755,17 @@ BROWSE_JS = (
     'var btns=cats?[].slice.call(cats.querySelectorAll("[data-cat]")):[];'
     'if(cats)cats.hidden=false;'
     # how many of the archive to show at once, by how much room there is
+    'var hashCat=false;'
     'function per(){return window.matchMedia("(min-width: 901px)").matches?18:'
     'window.matchMedia("(min-width: 600px)").matches?12:10}'
     'function write(push){var u=new URL(location.href);var q=i?i.value.trim():"";'
     'q?u.searchParams.set("q",q):u.searchParams.delete("q");'
     'cat!=="all"?u.searchParams.set("topic",cat):u.searchParams.delete("topic");'
     'page>1?u.searchParams.set("page",page):u.searchParams.delete("page");'
-    'var s=u.pathname+u.search;try{push?history.pushState({},"",s):history.replaceState({},"",s)}catch(e){}}'
+    # the hash is kept unless it was the topic: a link from an email carries the sign-in
+    # details there, and wiping it on load left the reader with no way to set a password
+    'var s=u.pathname+u.search+(hashCat?"":location.hash);'
+    'try{push?history.pushState({},"",s):history.replaceState({},"",s)}catch(e){}}'
     'function go(push){var t=(i?i.value:"").toLowerCase().split(/\\s+/).filter(Boolean),hits=[];'
     'cards.forEach(function(x){var q=x.getAttribute("data-q")||"";'
     'var okq=t.every(function(w){return q.indexOf(w)>-1});'
@@ -799,8 +803,10 @@ BROWSE_JS = (
     'pager.querySelector("[data-page-next]").addEventListener("click",function(){page++;go(true);jump()})}'
     # the state lives in the address, so Back puts the reader where they were
     'function read(){var u=new URL(location.href);if(i)i.value=u.searchParams.get("q")||"";'
-    'var c=u.searchParams.get("topic")||decodeURIComponent(location.hash.slice(1));'
+    'var h=decodeURIComponent(location.hash.slice(1));'
+    'var c=u.searchParams.get("topic")||h;'
     'cat=btns.some(function(x){return x.getAttribute("data-cat")===c})?c:"all";'
+    'hashCat=!!h&&cat===h;'
     'page=Math.max(1,parseInt(u.searchParams.get("page")||"1",10)||1)}'
     'window.addEventListener("popstate",function(){read();go(false)});'
     'window.addEventListener("resize",function(){go(false)});'

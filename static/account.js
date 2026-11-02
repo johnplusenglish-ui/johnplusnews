@@ -165,6 +165,12 @@
         return "confirm";
       });
   }
+  /* A confirmation email that was never opened leaves an account that exists
+     but cannot be signed in to, and the reader has no way to ask for another
+     one from the sign-in box. This is that way. */
+  function resendConfirm(email) {
+    return raw("POST", "/auth/v1/resend?redirect_to=" + enc(location.origin + "/"), { body: { type: "signup", email: email } });
+  }
   function recover(email) {
     return raw("POST", "/auth/v1/recover?redirect_to=" + enc(location.origin + "/"), { body: { email: email } });
   }
@@ -190,19 +196,47 @@
   }
 
   /* a link from an email (confirm, reset password) arrives with the sign-in details in the address */
-  function fromAddress() {
-    var h = location.hash.replace(/^#/, "");
-    if (!/(^|&)(access_token|error_code|error_description)=/.test(h)) return Promise.resolve(null);
+  function parts(str) {
     var p = {};
-    h.split("&").forEach(function (kv) { var i = kv.indexOf("="); if (i > 0) p[decodeURIComponent(kv.slice(0, i))] = decodeURIComponent(kv.slice(i + 1).replace(/\+/g, " ")); });
-    try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {}
-    if (p.error_description) return Promise.resolve({ error: p.error_description });
-    if (!p.access_token) return Promise.resolve(null);
-    var t = p.access_token;
-    return raw("GET", "/auth/v1/user", { token: t }).then(function (u) {
-      setSession(fromToken({ access_token: t, refresh_token: p.refresh_token, expires_in: +p.expires_in || 3600, expires_at: +p.expires_at || 0, user: u }));
-      return { type: p.type || "signup" };
-    }).catch(function () { return { error: "That link has expired. Ask for a new one." }; });
+    (str || "").replace(/^[#?]/, "").split("&").forEach(function (kv) {
+      var i = kv.indexOf("=");
+      if (i > 0) p[decodeURIComponent(kv.slice(0, i))] = decodeURIComponent(kv.slice(i + 1).replace(/\+/g, " "));
+    });
+    return p;
+  }
+  function clean() { try { history.replaceState(null, "", location.pathname); } catch (e) {} }
+  function offline(e) { return e instanceof TypeError || /failed to fetch|networkerror|load failed/i.test((e && e.message) || ""); }
+
+  /* Supabase can send the details three ways, so all three are read: in the
+     hash after /auth/v1/verify has run (what this project does today), or as
+     ?token_hash= / ?code= if the email templates are ever changed. The address
+     is only wiped once a link has been spent, because a link that failed on a
+     dropped connection is still good and reloading the page should retry it. */
+  function fromAddress() {
+    var h = parts(location.hash), q = parts(location.search);
+    var err = h.error_description || h.error_code || q.error_description || q.error_code;
+    if (err) { clean(); return Promise.resolve({ error: err, type: h.type || q.type || "" }); }
+    var done = function (type) { return function (j) { setSession(fromToken(j)); clean(); return { type: type }; }; };
+    var failed = function (e) {
+      if (offline(e)) return { error: "Could not reach the server. Check your connection, then open the link again." };
+      clean();
+      return { error: "expired" };
+    };
+    if (h.access_token) {
+      var t = h.access_token;
+      return raw("GET", "/auth/v1/user", { token: t }).then(function (u) {
+        return done(h.type || "signup")({ access_token: t, refresh_token: h.refresh_token,
+                                          expires_in: +h.expires_in || 3600, expires_at: +h.expires_at || 0, user: u });
+      }, failed);
+    }
+    if (q.token_hash) {
+      return raw("POST", "/auth/v1/verify", { body: { type: q.type || "recovery", token_hash: q.token_hash } })
+        .then(done(q.type || "recovery"), failed);
+    }
+    /* A ?code= link needs a secret this browser only has if it asked for the
+       link itself, so it cannot be finished in a different browser. */
+    if (q.code) { clean(); return Promise.resolve({ error: "wrong-browser", type: q.type || "recovery" }); }
+    return Promise.resolve(null);
   }
 
   /* ================================================================= when someone was last here */
@@ -277,7 +311,14 @@
     var form = el("form"); form.noValidate = false;
     var first, email, pw, name;
     if (mode === "signup") name = first = field(form, "name", "Your name", "text", "name", { maxlength: "60" });
-    if (mode !== "reset") { email = field(form, "email", "Email", "email", "email"); first = first || email; }
+    if (mode !== "reset") {
+      email = field(form, "email", "Email", "email", "email");
+      /* An expired link lands on a fresh dialog with nothing filled in, so the
+         address last used on this device is offered back rather than retyped. */
+      var seen = read("jpn_email");
+      if (seen && seen.email && mode !== "signup") email.value = seen.email;
+      first = first || email;
+    }
     if (mode === "signin") pw = field(form, "pw", "Password", "password", "current-password");
     if (mode === "signup") pw = field(form, "pw", "Password (at least 8 characters)", "password", "new-password", { minlength: "8" });
     if (mode === "reset") { pw = field(form, "pw", "New password (at least 8 characters)", "password", "new-password", { minlength: "8" }); first = pw; }
@@ -308,6 +349,7 @@
       e.preventDefault();
       err.hidden = true;
       var em = email ? email.value.trim() : "", pv = pw ? pw.value : "";
+      if (em) write("jpn_email", { email: em });
       if ((mode === "signup" || mode === "reset") && pv.length < 8) { err.textContent = "Choose a longer password, at least 8 characters."; err.hidden = false; return; }
       go.disabled = true;
       var job;
@@ -315,7 +357,21 @@
       else if (mode === "signup") job = signUp(name.value.trim(), em, pv).then(function (r) { if (r === "in") closeDialog(); else sentMessage("We sent a message to " + em + ". It can take a minute. Open it and press the link to confirm your email. If you cannot see it, check your spam or junk folder and mark it as not spam. Then come back and sign in."); });
       else if (mode === "forgot") job = recover(em).then(function () { sentMessage("If " + em + " has an account, a message with a link is on its way. It can take a minute. Open it to choose a new password. If you cannot see it, check your spam or junk folder."); });
       else job = newPassword(pv).then(function () { closeDialog(); toast("Your new password is saved."); });
-      job.catch(function (er) { err.textContent = nice(er); err.hidden = false; go.disabled = false; });
+      job.catch(function (er) {
+        err.textContent = nice(er); err.hidden = false; go.disabled = false;
+        if (mode === "signin" && /not confirmed/i.test((er && er.message) || "")) {
+          var again = el("button", "acct-link", "Send that email again");
+          again.type = "button";
+          again.addEventListener("click", function () {
+            again.disabled = true;
+            resendConfirm(em).then(function () {
+              sentMessage("We sent a new message to " + em + ". Open it and press the link, then come back and sign in. If you cannot see it, check your spam or junk folder.");
+            }, function (e2) { err.textContent = nice(e2); again.disabled = false; });
+          });
+          err.appendChild(document.createElement("br"));
+          err.appendChild(again);
+        }
+      });
     });
     dlg.appendChild(box);
     if (auto) { box.tabIndex = -1; setTimeout(function () { try { box.focus({ preventScroll: true }); } catch (e) {} }, 0); }   // on a phone, do not pop the keyboard up before anyone has tapped
@@ -1464,13 +1520,28 @@
     setTimeout(function () { if (!me && !dlg) openDialog(returning ? "signin" : "signup", null, true); }, 700);
   }
 
+  /* A link from an email that did not work. These are nearly always spent
+     rather than broken: the link opens once, and asking for a second one
+     cancels the first, so an old message in the inbox is already dead. Sending
+     the reader back to the sign-in box, as this used to, looks like nothing
+     happened at all. The form that sends a new link is the way out, so that is
+     what opens, with the address filled in. */
+  function linkFailed(err) {
+    if (err === "wrong-browser") {
+      openDialog("forgot", "That link has to be opened in the browser you asked for it from. Ask for a new one here and open it on this device.");
+      return;
+    }
+    if (/could not reach/i.test(err)) { openDialog("signin", err); return; }
+    openDialog("forgot", "That link has expired, or it was used already. Links last about an hour, and asking for a new one cancels the old message. We will send you a fresh one.");
+  }
+
   function init() {
     if (PAGE === "words") showLoading("Loading your words", 4);
     else if (PAGE === "teacher") showLoading("Loading the members", 6);
     fromAddress().then(function (res) {
       var fresh = !!(res && !res.error);
       return start(fresh).then(function () {
-        if (res && res.error) openDialog("signin", res.error);
+        if (res && res.error) linkFailed(res.error);
         else if (res && res.type === "recovery") openDialog("reset", "Choose a new password for " + (me ? me.email : "your account") + ".");
         else if (res) toast("You are signed in.");
         else if (!me && !PAGE) nudge();
