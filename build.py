@@ -1129,7 +1129,7 @@ PRINT_JS = (
     'else if(e.key==="ArrowUp"){e.preventDefault();opts[opts.length-1].focus()}});'
     'go.addEventListener("click",function(){close(false);window.print()});'
     'document.addEventListener("click",function(e){if(!m.hidden&&!e.target.closest(".pdrop"))close(false)});'
-    'var shut=[];window.addEventListener("beforeprint",function(){shut=[].slice.call(document.querySelectorAll("details.qs,details.kl-box")).filter(function(d){return!d.open});shut.forEach(function(d){d.open=true});old=document.title;var h=document.querySelector(".article-head h1"),'
+    'var shut=[];window.addEventListener("beforeprint",function(){shut=[].slice.call(document.querySelectorAll("details.qs,details.kl-box,details.hl-item")).filter(function(d){return!d.open});shut.forEach(function(d){d.open=true});old=document.title;var h=document.querySelector(".article-head h1"),'
     'l=document.querySelector(".metaleft"),lv=l&&l.getAttribute("data-print-level");if(h)document.title=h.textContent+(lv?" ("+lv+")":"")});'
     'window.addEventListener("afterprint",function(){shut.forEach(function(d){d.open=false});shut=[];if(old)document.title=old})})();'
 )

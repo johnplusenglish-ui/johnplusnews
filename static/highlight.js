@@ -216,16 +216,23 @@
     if (!G) { done(); return; }
     G.preview(jobs.map(function (j) { return j.it.text; })).then(done, done);
   }
+  /* The closed row shows the first sense beside the word, so the list still reads
+     as a glossary at a glance and opening a row is for the rest of the entry. */
+  function setPeek(box, text) {
+    if (box.peek) box.peek.textContent = text || "";
+  }
   function fillSenses(st, box, it) {
     var G = window.JPNGloss;
     box.textContent = "";
     box.hidden = false;
+    setPeek(box, "");
     /* Nothing can be decided before the look-up code is there; wait for it. */
     if (!G) { needLookup(st, box, it); return; }
     if (!G.isHeadword(it.text)) { box.hidden = true; return; }
     var have = G.cached(it.text);
     if (have) {
       var all = G.senses(have);
+      setPeek(box, all[0] || have.gloss || "");
       if (all.length > 1) {
         var ol = document.createElement("ol");
         ol.className = "hl-sense-list";
@@ -348,29 +355,57 @@
     return wrap;
   }
 
+  var CHEVRON = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true">' +
+                '<path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" ' +
+                'stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+  /* One row per word, folded away. Open it for the sentence it came from, every
+     sense, and the box for your own wording. Whether a row is open is kept on the
+     item rather than in storage, so a redraw after a save does not shut rows the
+     reader has opened. */
   function render(st) {
     st.ol.textContent = "";
     st.items.forEach(function (it, i) {
       var li = document.createElement("li");
+      var row = document.createElement("details");
+      row.className = "hl-item";
+      row.open = !!it.open;
+      row.addEventListener("toggle", function () { it.open = row.open; });
+
+      var sum = document.createElement("summary");
       var n = document.createElement("span");
       n.className = "n"; n.textContent = (i < 9 ? "0" : "") + (i + 1);
-      var main = document.createElement("div");
-      main.className = "hl-main";
+      var head = document.createElement("span");
+      head.className = "hl-head";
       var w = document.createElement("span");
       w.className = "w"; w.textContent = it.text;
-      main.appendChild(w);
-      if (it.sentence) main.appendChild(sentenceNode(it));
-      var senses = document.createElement("div");
-      senses.className = "hl-senses";
-      fillSenses(st, senses, it);
-      main.appendChild(senses);
-      main.appendChild(noteNode(st, it));
+      var peek = document.createElement("span");
+      peek.className = "hl-peek";
+      head.appendChild(w); head.appendChild(peek);
       var x = document.createElement("button");
       x.type = "button"; x.className = "x";
       x.setAttribute("aria-label", "Remove the highlight: " + it.text);
       x.textContent = "×";
-      x.addEventListener("click", function () { removeItem(st, it.id); });
-      li.appendChild(n); li.appendChild(main); li.appendChild(x);
+      /* A button inside a summary still toggles the row unless we stop it. */
+      x.addEventListener("click", function (ev) {
+        ev.preventDefault(); ev.stopPropagation(); removeItem(st, it.id);
+      });
+      var chev = document.createElement("span");
+      chev.className = "hl-chev"; chev.innerHTML = CHEVRON;
+      sum.appendChild(n); sum.appendChild(head); sum.appendChild(x); sum.appendChild(chev);
+
+      var main = document.createElement("div");
+      main.className = "hl-main";
+      if (it.sentence) main.appendChild(sentenceNode(it));
+      var senses = document.createElement("div");
+      senses.className = "hl-senses";
+      senses.peek = peek;
+      fillSenses(st, senses, it);
+      main.appendChild(senses);
+      main.appendChild(noteNode(st, it));
+
+      row.appendChild(sum); row.appendChild(main);
+      li.appendChild(row);
       st.ol.appendChild(li);
     });
     var n = st.items.length;
@@ -390,7 +425,7 @@
       if (it.end >= s && it.start <= e) { s = Math.min(s, it.start); e = Math.max(e, it.end); unwrap(st.prose, it.id); (st.dropped = st.dropped || []).push(it); }
       else keep.push(it);
     });
-    var item = { id: nextId++, start: s, end: e, text: squash(st.prose.textContent.slice(s, e)), sentence: sentenceFor(st.prose, s, e), note: "" };
+    var item = { id: nextId++, start: s, end: e, text: squash(st.prose.textContent.slice(s, e)), sentence: sentenceFor(st.prose, s, e), note: "", open: true };
     keep.push(item);
     keep.sort(function (a, b) { return a.start - b.start; });
     st.items = keep;
