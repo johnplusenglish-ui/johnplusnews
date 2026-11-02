@@ -250,9 +250,13 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .hl-list { margin: 34px 0 6px; padding-top: 16px; border-top: 1px solid var(--line); }
 .hl-title { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--hl-ink); margin: 0 0 8px; }
 .hl-list ol { list-style: none; margin: 0; padding: 0; }
-.hl-list li { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr) auto; align-items: baseline; gap: 0 8px; padding: 7px 0; border-bottom: 1px solid #f0f1f4; }
+.hl-list li { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr) auto; align-items: start; gap: 0 8px; padding: 14px 0; border-bottom: 1px solid #f0f1f4; }
+.hl-list li:last-child { border-bottom: 0; }
+.hl-main { min-width: 0; }
+.hl-list .n { padding-top: 3px; }
+.hl-list .x { align-self: start; }
 .hl-list .n { font-size: 0.8125rem; font-weight: 700; color: var(--hl-ink); font-variant-numeric: tabular-nums; }
-.hl-list .w { font-size: 1.0625rem; line-height: 1.4; color: var(--ink); overflow-wrap: anywhere; }
+.hl-list .w { display: block; font-size: 1.0625rem; font-weight: 600; line-height: 1.4; color: var(--ink); overflow-wrap: anywhere; }
 .hl-list .x { background: none; border: 0; color: var(--muted); font: inherit; font-size: 1.25rem; line-height: 1; padding: 2px 8px; border-radius: 6px; cursor: pointer; }
 .hl-list .x:hover { color: var(--hl-ink); background: #fff7e6; }
 .hl-list .x:focus-visible, .hl-actions button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -508,6 +512,43 @@ mark.hl:hover { background: rgba(245, 158, 11, 0.16); }
 .hl-clear { color: #a3343a; background: none; border: 0; padding: 4px 2px; text-decoration: underline; text-underline-offset: 3px; }
 .hl-clear:hover { color: #7e2328; }
 .hl-said { min-width: 5.5em; font-size: 0.875rem; font-weight: 600; color: #1f8a4c; }
+
+/* A saved word is a small entry, not a line: the sentence it came from, every
+   sense the dictionary holds, and a box for the reader's own wording. This is
+   where the meanings live now, so the card over the text can stay one line. */
+.hl-sent { margin: 4px 0 0; font-size: 0.9375rem; line-height: 1.55; color: var(--muted); }
+.hl-sent b { font-weight: 600; color: var(--text); text-decoration: underline; text-decoration-color: var(--hl); text-decoration-thickness: 2px; text-underline-offset: 0.2em; text-decoration-skip-ink: none; }
+.hl-senses { margin-top: 8px; font-size: 0.9375rem; line-height: 1.5; color: var(--text); }
+.hl-senses[hidden] { display: none; }
+.hl-senses .hl-sense-list { counter-reset: sense; list-style: none; margin: 0; padding: 0; font-size: inherit; line-height: inherit; font-family: inherit; color: inherit; }
+.hl-senses .hl-sense-list li { display: block; position: relative; padding: 0 0 0 18px; margin: 5px 0 0; border: 0; }
+.hl-senses .hl-sense-list li:first-child { margin-top: 0; }
+.hl-senses .hl-sense-list li::before { counter-increment: sense; content: counter(sense); position: absolute; left: 0; top: 0; font-size: 0.75rem; font-weight: 700; line-height: 1.9; color: var(--accent); }
+.hl-sense-one { margin: 0; }
+.hl-pos { font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 8px; }
+.hl-sense-note { margin: 0; color: #98a0ad; }
+.hl-look { font: inherit; font-size: 0.875rem; font-weight: 600; color: var(--accent); background: #fff; border: 1px solid #cfd4dc; border-radius: var(--radius-md); padding: 5px 12px; cursor: pointer; }
+.hl-look:hover:enabled { border-color: var(--accent); }
+.hl-look:disabled { color: var(--muted); cursor: default; }
+.hl-look:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hl-note-wrap { margin-top: 11px; }
+.hl-note-lab { display: block; }
+.hl-note-cap { display: block; font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.hl-note { display: block; width: 100%; margin-top: 5px; font: inherit; font-size: 0.9375rem; line-height: 1.5; color: var(--text); background: #fffbf2; border: 1px solid #ead9b6; border-radius: var(--radius-md); padding: 8px 11px; resize: none; overflow: hidden; }
+.hl-note::placeholder { color: #b0a58d; }
+.hl-note:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+.hl-note-print { display: none; }
+
+/* The same box on My words, so a wording can be written or changed wherever the word is read. */
+.wd-note-wrap { display: flex; align-items: flex-start; gap: 10px; margin-top: 11px; }
+.wd-note-lab { display: block; flex: 1 1 auto; min-width: 0; }
+.wd-note-cap { display: block; font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.wd-note { display: block; width: 100%; margin-top: 5px; font: inherit; font-size: 0.9375rem; line-height: 1.5; color: var(--text); background: #fffbf2; border: 1px solid #ead9b6; border-radius: var(--radius-md); padding: 8px 11px; resize: none; overflow: hidden; }
+.wd-note::placeholder { color: #b0a58d; }
+.wd-note:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+.wd-note-said { flex: 0 0 auto; padding-top: 18px; font-size: 0.8125rem; font-weight: 600; color: #1f8a4c; }
+/* the wording a member wrote, in the teacher's table of saves */
+.t-note { margin: 4px 0 0; font-size: 0.875rem; line-height: 1.45; color: var(--text); }
 /* one rhythm down the footer, so the source, the note and the topics are not stacked on top of each other */
 .article-info { display: grid; gap: 20px; margin: var(--space-8) 0 0; padding-top: var(--space-6); border-top: 1px solid var(--line); font-size: 0.9375rem; }
 .article-info .source, .article-info .topics, .article-info .art-about { margin: 0; padding-top: 0; border-top: 0; }
@@ -982,10 +1023,22 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 
   .hl-list { margin: 7mm 0 0; padding-top: 4mm; border-top: 0.5pt solid #cfd4dc; }
   .hl-title { font-size: 7.5pt; margin: 0 0 2mm; break-after: avoid; }
-  .hl-list ol { column-count: 2; column-gap: 9mm; }
-  .hl-list li { grid-template-columns: 7mm minmax(0, 1fr); padding: 1.4mm 0; border-bottom: 0.3pt solid #e6e8ec; break-inside: avoid; }
-  .hl-list .n { font-size: 7.5pt; }
+  /* One column on paper: each word is an entry now, not a line, so two columns
+     broke the sentences up. The handout is the article plus the reader's own
+     glossary, with a ruled line under any word they have not written up yet. */
+  .hl-list ol { column-count: 1; }
+  .hl-list li { grid-template-columns: 7mm minmax(0, 1fr); padding: 2.6mm 0; border-bottom: 0.3pt solid #e6e8ec; break-inside: avoid; }
+  .hl-list .n { font-size: 7.5pt; padding-top: 0; }
   .hl-list .w { font-size: 9.5pt; line-height: 1.35; }
+  .hl-sent { margin: 0.8mm 0 0; font-size: 8.5pt; line-height: 1.4; color: #4b5563; }
+  .hl-senses { margin-top: 1.2mm; font-size: 8.5pt; line-height: 1.4; }
+  .hl-senses .hl-sense-list { font-size: inherit; line-height: inherit; }
+  .hl-senses .hl-sense-list li { padding: 0 0 0 4.5mm; margin: 0.6mm 0 0; border: 0; }
+  .hl-senses .hl-sense-list li::before { font-size: 7pt; line-height: 1.7; }
+  .hl-note, .hl-look, .wd-note-said { display: none !important; }
+  .hl-note-wrap { margin-top: 1.6mm; }
+  .hl-note-cap { font-size: 6.5pt; letter-spacing: 0.08em; }
+  .hl-note-print { display: block; min-height: 4.6mm; margin: 0.6mm 0 0; font-size: 8.5pt; line-height: 1.4; border-bottom: 0.4pt dotted #9aa1ad; }
 
   .qs-group { border: 0; border-radius: 0; margin: 0; }
   .qs-group .qs, .qs { border: 0; margin: 5mm 0 0; padding: 4mm 5mm 3mm; background: #f3f6fc; break-inside: avoid; }
@@ -1065,18 +1118,19 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 /* The definition shown when a reader taps one of their own highlights. Sits
    below the line where there is room, so the word itself stays visible, and
    repeats the word so the reader keeps their place. */
-.hl-def { position: absolute; z-index: 70; max-width: min(330px, calc(100vw - 16px)); background: #fff; color: var(--text); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 14px 34px -14px rgba(16, 24, 40, 0.38); padding: 11px 14px 12px; font-size: 0.9375rem; line-height: 1.45; }
+.hl-def { position: absolute; z-index: 70; max-width: min(300px, calc(100vw - 16px)); background: #fff; color: var(--text); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 14px 34px -14px rgba(16, 24, 40, 0.38); padding: 11px 14px 12px; font-size: 0.9375rem; line-height: 1.45; }
 .hl-def[hidden] { display: none; }
 .hl-def-w { display: block; font-weight: 700; font-size: 1rem; margin-bottom: 3px; }
 .hl-def-body { display: block; }
 .hl-def-pos { font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 1px 7px; margin-right: 7px; }
-.hl-def-body { counter-reset: sense; }
+
 /* A word with more than one sense lists them all, numbered, so the reader can
    match the one on the page instead of trusting the first. */
-.hl-def-s { display: block; position: relative; padding-left: 17px; margin-top: 5px; }
-.hl-def-s:first-child { margin-top: 0; }
-.hl-def-s::before { counter-increment: sense; content: counter(sense); position: absolute; left: 0; top: 0; font-size: 0.75rem; font-weight: 700; line-height: 1.85; color: var(--accent); }
+/* A first sense can run long, so the peek is capped: past three lines it would
+   start covering the text again, which is the whole thing this replaced. */
+.hl-def-g { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .hl-def-note { color: #98a0ad; }
+.hl-def-more { display: block; margin-top: 5px; font-size: 0.8125rem; font-weight: 600; color: var(--accent); }
 .hl-def-ask { color: var(--accent); font-weight: 600; cursor: pointer; }
 /* A quiet pill floating below the panel, outside its card: the same shape
    language as the highlight pill, but light rather than black, so removing

@@ -21,6 +21,7 @@ create table if not exists public.news_words (
   level      text not null,
   text       text not null check (char_length(text) between 1 and 200),
   sentence   text check (char_length(sentence) <= 800),
+  note       text check (char_length(note) <= 400),          -- the reader's own wording, see add_word_notes.sql
   start_pos  integer,
   end_pos    integer,
   created_at timestamptz not null default now(),

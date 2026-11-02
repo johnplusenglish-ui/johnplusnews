@@ -458,6 +458,26 @@
   }
   document.addEventListener("click", function (e) { if (holder && !holder.contains(e.target)) closeMenu(); });
 
+  /* ================================================================= "In my words"
+     news_words.note only exists once supabase/add_word_notes.sql has been run.
+     Until then the column is simply left out of every request, so saving a word
+     keeps working and the wording stays on the device it was typed on. One
+     refusal is enough to learn that, and it is never asked for again. */
+  var hasNote = true;
+  function noteMissing(e) {
+    var m = ((e && e.message) || "") + " " + ((e && e.code) || "");
+    return /note/i.test(m) && /schema cache|does not exist|PGRST204|42703/i.test(m);
+  }
+  /* Runs the request, and on that one refusal drops the column and runs it again. */
+  function tryWithNote(run) {
+    if (!hasNote) return run(false);
+    return run(true).catch(function (e) {
+      if (!noteMissing(e)) throw e;
+      hasNote = false;
+      return run(false);
+    });
+  }
+
   /* ================================================================= the outbox: changes wait here until they are saved */
   function outbox() { return read(OUTKEY) || []; }
   function queue(op) { if (!me) return; op.u = me.id; var q = outbox(); q.push(op); write(OUTKEY, q); flush(); }
@@ -470,8 +490,11 @@
       if (!q.length) return Promise.resolve();
       var o = q[0], job;
       if (o.op === "add") {
-        job = api("POST", "/rest/v1/news_words?on_conflict=user_id,slug,level,text", { prefer: "resolution=merge-duplicates,return=minimal",
-          body: { user_id: me.id, slug: o.slug, level: o.level, text: o.text, sentence: o.sentence || null, start_pos: o.start, end_pos: o.end } });
+        job = tryWithNote(function (withNote) {
+          var body = { user_id: me.id, slug: o.slug, level: o.level, text: o.text, sentence: o.sentence || null, start_pos: o.start, end_pos: o.end };
+          if (withNote) body.note = o.note || null;
+          return api("POST", "/rest/v1/news_words?on_conflict=user_id,slug,level,text", { prefer: "resolution=merge-duplicates,return=minimal", body: body });
+        });
       } else if (o.op === "del") {
         job = api("DELETE", "/rest/v1/news_words?user_id=eq." + enc(me.id) + "&slug=eq." + enc(o.slug) + "&level=eq." + enc(o.level) + "&text=eq." + enc(o.text), { prefer: "return=minimal" });
       } else {
@@ -490,7 +513,7 @@
   document.addEventListener("jpn:hl", function (e) {
     var d = e.detail || {};
     if (!me) return;
-    if (d.type === "add") queue({ op: "add", slug: d.slug, level: d.level, text: d.item.text, start: d.item.start, end: d.item.end, sentence: d.item.sentence });
+    if (d.type === "add" || d.type === "note") queue({ op: "add", slug: d.slug, level: d.level, text: d.item.text, start: d.item.start, end: d.item.end, sentence: d.item.sentence, note: d.item.note });
     else if (d.type === "remove") queue({ op: "del", slug: d.slug, level: d.level, text: d.item.text });
     else if (d.type === "clear") queue({ op: "clear", slug: d.slug, level: d.level });
   });
@@ -527,12 +550,15 @@
         var k = localStorage.key(i), m = /^jpn_hl:(.+?):([^:]+)$/.exec(k || "");
         if (!m) continue;
         (read(k) || []).forEach(function (it) {
-          if (it && it.text) rows.push({ user_id: me.id, slug: m[1], level: m[2], text: String(it.text).slice(0, 200), sentence: it.sentence ? String(it.sentence).slice(0, 800) : null, start_pos: it.start, end_pos: it.end });
+          if (it && it.text) rows.push({ user_id: me.id, slug: m[1], level: m[2], text: String(it.text).slice(0, 200), sentence: it.sentence ? String(it.sentence).slice(0, 800) : null, start_pos: it.start, end_pos: it.end, note: it.note ? String(it.note).slice(0, 400) : null });
         });
       }
     } catch (e) {}
     if (!rows.length) return Promise.resolve();
-    return api("POST", "/rest/v1/news_words?on_conflict=user_id,slug,level,text", { prefer: "resolution=merge-duplicates,return=minimal", body: rows }).catch(function () {});
+    return tryWithNote(function (withNote) {
+      var body = withNote ? rows : rows.map(function (r) { var c = {}; for (var k in r) if (k !== "note") c[k] = r[k]; return c; });
+      return api("POST", "/rest/v1/news_words?on_conflict=user_id,slug,level,text", { prefer: "resolution=merge-duplicates,return=minimal", body: body });
+    }).catch(function () {});
   }
 
   /* ================================================================= reading progress and preferences */
@@ -642,7 +668,9 @@
   function syncArticle() {
     if (!window.jpnHL) return Promise.resolve();
     return flush().then(function () {
-      return api("GET", "/rest/v1/news_words?select=level,text,sentence,start_pos,end_pos&user_id=eq." + enc(me.id) + "&slug=eq." + enc(window.jpnHL.slug));
+      return tryWithNote(function (withNote) {
+        return api("GET", "/rest/v1/news_words?select=level,text,sentence" + (withNote ? ",note" : "") + ",start_pos,end_pos&user_id=eq." + enc(me.id) + "&slug=eq." + enc(window.jpnHL.slug));
+      });
     }).then(function (rows) { window.jpnHL.sync(rows || []); }).catch(function () {});
   }
 
@@ -823,6 +851,51 @@
       node.appendChild(el("span", "wd-def-note", "Could not reach the dictionary just now."));
     });
   }
+  /* "In my words" on a saved row. It grows with the text and saves a moment
+     after typing stops; the row already exists in the cloud, so this is a
+     patch of one field rather than a fresh save. */
+  function noteBox(r) {
+    var wrap = el("div", "wd-note-wrap");
+    if (!hasNote) { wrap.hidden = true; return wrap; }
+    var lab = el("label", "wd-note-lab");
+    lab.appendChild(el("span", "wd-note-cap", "In my words"));
+    var ta = document.createElement("textarea");
+    ta.className = "wd-note";
+    ta.rows = 1;
+    ta.setAttribute("placeholder", "Say it your way");
+    ta.setAttribute("aria-label", "Your own wording for " + r.text);
+    ta.value = r.note || "";
+    var said = el("span", "wd-note-said"); said.setAttribute("role", "status");
+    function grow() {
+      if (!ta.offsetWidth) return;      // a folded-away row has no width to measure against
+      ta.style.height = "auto";
+      ta.style.height = (ta.scrollHeight + 2) + "px";
+    }
+    /* The row opens folded away, so wait until it really has a width. Only a
+       change of width is acted on, or growing it would trigger itself. */
+    var lastW = 0;
+    if (window.ResizeObserver) {
+      new ResizeObserver(function () {
+        if (ta.offsetWidth && ta.offsetWidth !== lastW) { lastW = ta.offsetWidth; grow(); }
+      }).observe(ta);
+    }
+    ta.addEventListener("focus", grow);
+    function send() {
+      var v = ta.value.slice(0, 400);
+      if (v === (r.note || "")) return;
+      r.note = v;
+      api("PATCH", "/rest/v1/news_words?id=eq." + r.id, { prefer: "return=minimal", body: { note: v || null } })
+        .then(function () { said.textContent = "Saved"; setTimeout(function () { said.textContent = ""; }, 2000); })
+        .catch(function (er) { said.textContent = nice(er); });
+    }
+    ta.addEventListener("input", function () { grow(); clearTimeout(ta._t); ta._t = setTimeout(send, 800); });
+    ta.addEventListener("blur", function () { clearTimeout(ta._t); send(); });
+    lab.appendChild(ta);
+    wrap.appendChild(lab); wrap.appendChild(said);
+    setTimeout(grow, 0);
+    return wrap;
+  }
+
   function sentenceNode(sentence, word) {
     var p = el("p", "wd-sent");
     var i = sentence ? sentence.toLowerCase().indexOf(word.toLowerCase()) : -1;
@@ -891,7 +964,8 @@
   function renderWords() {
     if (!me) { signInPrompt("Sign in to see the words you have saved."); return; }
     showLoading("Loading your words", 4);
-    Promise.all([loadTitles(), getAll("/rest/v1/news_words?select=id,slug,level,text,sentence,created_at&user_id=eq." + enc(me.id) + "&order=created_at.desc")]).then(function (res) {
+    Promise.all([loadTitles(), getAll("/rest/v1/news_words?select=id,slug,level,text,sentence,note,created_at&user_id=eq." + enc(me.id) + "&order=created_at.desc")
+      .catch(function (e) { if (!noteMissing(e)) throw e; hasNote = false; return getAll("/rest/v1/news_words?select=id,slug,level,text,sentence,created_at&user_id=eq." + enc(me.id) + "&order=created_at.desc"); })]).then(function (res) {
       var rows = res[1], q = "";
       clear(root); ready();
       var bar = el("div", "wd-bar");
@@ -954,6 +1028,10 @@
                 if (d.open) loadGloss(r.text, def);   // a search opens rows itself
               }
             }
+            /* The reader's own wording, typed in the article and editable here:
+               rewriting a definition in your own words is the revision, so it
+               belongs wherever the word is read, not only where it was saved. */
+            body.appendChild(noteBox(r));
             var acts = el("div", "wd-acts");
             var x = el("button", "wd-x", "Remove"); x.type = "button"; x.setAttribute("aria-label", "Remove " + r.text);
             x.addEventListener("click", function () {
@@ -973,7 +1051,7 @@
       search.addEventListener("input", function () { q = search.value.trim().toLowerCase(); draw(); });
       cp.addEventListener("click", function () { copy(shown().map(function (r) { return r.text; }).join("\n"), cp); });
       dl.addEventListener("click", function () {
-        download("my-words.csv", csv([["Word", "Sentence", "Article", "Level", "Saved"]].concat(shown().map(function (r) { return [r.text, r.sentence, titleOf(r.slug), lvName(r.level), fmtDate(r.created_at)]; }))));
+        download("my-words.csv", csv([["Word", "Sentence", "In my words", "Article", "Level", "Saved"]].concat(shown().map(function (r) { return [r.text, r.sentence, r.note, titleOf(r.slug), lvName(r.level), fmtDate(r.created_at)]; }))));
       });
       draw();
     }).catch(function (er) { showError(nice(er), renderWords); });
@@ -989,7 +1067,8 @@
       return getAll(profileBase + ",last_seen_at&order=created_at.asc").catch(function () { return getAll(profileBase + "&order=created_at.asc"); });
     }
     Promise.all([loadTitles(), loadProfiles(),
-                 getAll("/rest/v1/news_words?select=user_id,slug,level,text,sentence,created_at&order=created_at.desc"),
+                 getAll("/rest/v1/news_words?select=user_id,slug,level,text,sentence,note,created_at&order=created_at.desc")
+                   .catch(function (e) { if (!noteMissing(e)) throw e; hasNote = false; return getAll("/rest/v1/news_words?select=user_id,slug,level,text,sentence,created_at&order=created_at.desc"); }),
                  getAll("/rest/v1/news_progress?select=user_id,slug,status,level,updated_at"),
                  /* news_lookups only exists once supabase/add_lookups.sql has been run */
                  getAll("/rest/v1/news_lookups?select=user_id,slug,level,word,created_at&order=created_at.desc").catch(function () { return null; })]).then(function (res) {
@@ -1040,8 +1119,8 @@
       });
       var dl = el("button", "wd-btn", "Download all words (CSV)"); dl.type = "button";
       dl.addEventListener("click", function () {
-        download("class-words.csv", csv([["Member", "Email", "Article", "Level", "Word", "Sentence", "Saved"]].concat(words.map(function (w) {
-          var p = byId[w.user_id]; return [nameOf(p), p.email, titleOf(w.slug), lvName(w.level), w.text, w.sentence, csvStamp(w.created_at)];
+        download("class-words.csv", csv([["Member", "Email", "Article", "Level", "Word", "Sentence", "In their words", "Saved"]].concat(words.map(function (w) {
+          var p = byId[w.user_id]; return [nameOf(p), p.email, titleOf(w.slug), lvName(w.level), w.text, w.sentence, w.note, csvStamp(w.created_at)];
         }))));
       });
       tools.appendChild(dm); tools.appendChild(dl);
@@ -1273,6 +1352,7 @@
               row.appendChild(stampTd(new Date(r.v.last).toISOString()));
             } else {
               if (r.w.sentence) td.appendChild(sentenceNode(r.w.sentence, r.w.text));
+              if (r.w.note) td.appendChild(el("p", "t-note", r.w.note));
               row.appendChild(td);
               var p = byId[r.w.user_id], mt = el("td"); mt.appendChild(el("span", "t-who", nameOf(p))); mt.appendChild(el("span", "t-mail", p.email || "")); row.appendChild(mt);
               var ar = el("td"), a = el("a", "", titleOf(r.w.slug)); a.href = "/articles/" + r.w.slug + "/"; ar.appendChild(a); row.appendChild(ar);
@@ -1293,8 +1373,8 @@
                 return [r.w.text, r.v.members, r.v.saves, titlesOf(r), r.v.levels, csvStamp(new Date(r.v.last).toISOString())];
               }))));
             } else {
-              download("words-every-save.csv", csv([["Word or phrase", "Sentence", "Member", "Email", "Article", "Level", "Saved"]].concat(rows.map(function (r) {
-                var p = byId[r.w.user_id]; return [r.w.text, r.w.sentence, nameOf(p), p.email, titleOf(r.w.slug), lvName(r.w.level), csvStamp(r.w.created_at)];
+              download("words-every-save.csv", csv([["Word or phrase", "Sentence", "Member", "Email", "Article", "Level", "In their words", "Saved"]].concat(rows.map(function (r) {
+                var p = byId[r.w.user_id]; return [r.w.text, r.w.sentence, nameOf(p), p.email, titleOf(r.w.slug), lvName(r.w.level), r.w.note, csvStamp(r.w.created_at)];
               }))));
             }
           };
