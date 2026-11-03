@@ -4,6 +4,11 @@ date-label: November 2026
 summary: “Maxxing” is Dictionary.com's word of the year. One columnist has had enough of it and wants 2027 to be the year we do less.
 tags: Language, Lifestyle, Society
 source: The Guardian, ‘Maxxing’ is Dictionary.com's word of the year | https://www.theguardian.com/science/2026/oct/26/maxxing-word-of-the-year-dictionary
+source-date: 26 October 2026
+source-2: Dictionary.com, 2026 word of the year | https://www.dictionary.com/articles/word-of-the-year-2026
+source-2-date: 25 October 2026
+source-3: Polly Hudson, Let us make 2027 the year of minning, The Guardian | https://www.theguardian.com/commentisfree/2026/nov/01/maxxing-life-2027-relax-start-minning
+source-3-date: 1 November 2026
 image: images/is-it-time-to-stop-improving-everything-046885.jpg
 ---
 === Core ===
@@ -13,7 +18,7 @@ summary: Dictionary.com has chosen “maxxing”. It means pushing something as 
 
 Every year, dictionaries choose a word of the year. For 2026, Dictionary.com has chosen “maxxing”. It is not really a word on its own. It is an ending that you add to other words, and it means pushing something as far as it will go.
 
-People talk about sleepmaxxing, which means doing everything possible to sleep well. They talk about proteinmaxxing their breakfast, or cozymaxxing on a Friday night. Steve Johnson, who works on the dictionary, said the team chose it because it connects to so many different parts of life.
+People talk about sleepmaxxing, which means doing everything possible to sleep well. They talk about proteinmaxxing their breakfast, or cozymaxxing on a Friday night. There is even nonnamaxxing, which means living a little more like an Italian grandmother. Steve Johnson, who works on the dictionary, said the team chose it because it connects to so many different parts of life.
 
 The idea is older than it looks. Players of the game Dungeons and Dragons have talked about “min-maxing” their characters for years, and the term appeared in mathematics as far back as the 1940s. What has changed is the volume. By August 2026, Dictionary.com found the word being used 19 times as often online as its average month in 2025.
 
