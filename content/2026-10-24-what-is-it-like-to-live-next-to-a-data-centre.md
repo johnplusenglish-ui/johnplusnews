@@ -4,6 +4,7 @@ date-label: October 2026
 summary: Britain is building data centres to power artificial intelligence. In Newport and Cardiff, the people living beside them are asking who benefits.
 tags: Technology, Environment, Society
 source: The Guardian, The datacentre next door: on the frontline of tech's latest David v Goliath battle | https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle
+image: images/what-is-it-like-to-live-next-to-a-data-centre-86786b.jpg
 ---
 === Core ===
 

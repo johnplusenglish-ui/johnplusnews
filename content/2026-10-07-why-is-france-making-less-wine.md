@@ -4,6 +4,7 @@ date-label: October 2026
 summary: France expects one of its smallest harvests in decades. The striking thing is not the national total but how differently the regions fared.
 tags: Environment, Food, Science
 source: The Guardian, French wine industry facing historic low harvest after extreme summer heat | https://www.theguardian.com/food/2026/oct/07/french-wine-industry-historic-low-harvest-extreme-summer-heat
+image: images/why-is-france-making-less-wine-318b81.jpg
 ---
 === Core ===
 
