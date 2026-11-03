@@ -25,7 +25,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="preload" href="/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/styles.35ba7277.css">
+<link rel="stylesheet" href="/styles.b53c680d.css">
 <script>try{if(!localStorage.getItem("jpn_session"))document.documentElement.classList.add("jpn-guest")}catch(e){document.documentElement.classList.add("jpn-guest")}setTimeout(function(){if(!window.jpnGateReady)document.documentElement.classList.remove("jpn-guest")},6000)</script>
 <script>(function(){try{var f=localStorage.getItem("jpn_font");if(f==="outfit")document.documentElement.setAttribute("data-font","outfit")}catch(e){}})();</script>
 <noscript><style>.tools{display:none}.vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}</style></noscript>
@@ -37,7 +37,7 @@
 <script>(function(){function go(){var g=document.getElementById('firstrun');if(!g)return;var K='jpn_guide_seen';try{if(localStorage.getItem(K)==='1')return;}catch(e){}g.hidden=false;g.querySelector('.guide-x').addEventListener('click',function(){g.hidden=true;try{localStorage.setItem(K,'1');}catch(e){}});}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();})();</script>
 <script src="/config.js?v=63006f50" defer></script>
 <script src="/gloss.js?v=9502ca41" defer></script>
-<script src="/account.js?v=ff3ecfbd" defer></script>
+<script src="/account.js?v=50d7a9c6" defer></script>
 
 </head>
 <body>
@@ -45,7 +45,7 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path d="M5 20h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.5A1.5 1.5 0 0 1 4.5 21 2.5 2.5 0 0 1 2 18.5V11a2 2 0 0 1 2-2h2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.5h8M10 11.5h8M10 15.5h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="wm">john<span>plus</span>news</span></a>
-    <nav class="site-nav" aria-label="Main"><a class="nav-articles" href="/">Articles</a><a class="nav-teens" href="/teens/">Teens</a><a class="nav-about" href="/about/">About</a></nav>
+    <nav class="site-nav" aria-label="Main"><a class="nav-articles" href="/">Articles</a><a class="nav-teens" href="/teens/">Teens</a><a class="nav-about" href="/about/">About</a></nav><div class="acct" id="acct"><button class="acct-btn" type="button" data-acct-signin>Sign in</button></div>
   </div>
 </header>
 <main id="main">
@@ -103,6 +103,27 @@
 <p class="print-foot">Read this article online: johnplusnews.com/articles/has-streaming-beaten-the-cinema/</p>
 </article>
 </main>
+<script type="speculationrules">
+{"prefetch":[{"where":{"href_matches":"/*"},"eagerness":"moderate"}]}
+</script>
+<script>
+(function(){
+  if (HTMLScriptElement.supports && HTMLScriptElement.supports("speculationrules")) return;
+  if (!document.createElement("link").relList.supports("prefetch")) return;
+  var done = {}, slow = navigator.connection && (navigator.connection.saveData || /2g/.test(navigator.connection.effectiveType || ""));
+  if (slow) return;
+  function warm(e){
+    var a = e.target.closest && e.target.closest("a[href]");
+    if (!a || a.origin !== location.origin || a.hasAttribute("download") || a.target) return;
+    var u = a.href.split("#")[0];
+    if (u === location.href.split("#")[0] || done[u]) return;
+    done[u] = 1;
+    var l = document.createElement("link"); l.rel = "prefetch"; l.href = u; document.head.appendChild(l);
+  }
+  document.addEventListener("mouseover", warm, {passive:true});
+  document.addEventListener("touchstart", warm, {passive:true});
+})();
+</script>
 <footer class="site-footer">
   <div class="wrap"><span>johnplusnews. News articles from around the world for English learners.</span><nav class="foot-links" aria-label="About this site"><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></nav></div>
 </footer>

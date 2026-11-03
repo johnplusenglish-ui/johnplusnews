@@ -425,7 +425,10 @@
     homeLinks();
     var wrap = document.querySelector(".site-header .wrap");
     if (!wrap) return;
-    if (!holder) { holder = el("div", "acct"); wrap.appendChild(holder); }
+    if (!holder) {
+      holder = document.getElementById("acct");                 // written by build.py so the nav never shifts
+      if (!holder) { holder = el("div", "acct"); holder.id = "acct"; wrap.appendChild(holder); }
+    }
     clear(holder);
     menu = null; menuBtn = null;
     if (!me) {
@@ -457,6 +460,11 @@
     holder.appendChild(menuBtn); holder.appendChild(menu);
   }
   document.addEventListener("click", function (e) { if (holder && !holder.contains(e.target)) closeMenu(); });
+  /* the Sign in button is in the page before this script runs, so catch its clicks here too */
+  document.addEventListener("click", function (e) {
+    var b = e.target && e.target.closest && e.target.closest("[data-acct-signin]");
+    if (b) { e.preventDefault(); openDialog("signin"); }
+  });
 
   /* ================================================================= "In my words"
      news_words.note only exists once supabase/add_word_notes.sql has been run.
