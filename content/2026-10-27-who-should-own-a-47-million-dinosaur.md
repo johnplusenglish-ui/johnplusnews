@@ -4,6 +4,7 @@ date-label: October 2026
 summary: A rare skeleton sold in New York for far more than anyone expected. Palaeontologists are less interested in the price than in where the bones go next.
 tags: Science, Society, Money
 source: The Guardian, Rare Nanotyrannus skeleton sells for $47.3m at New York auction | https://www.theguardian.com/us-news/2026/oct/27/nanotyrannus-dinosaur-fossil-sothebys-auction
+image: images/who-should-own-a-47-million-dinosaur-12fae3.jpg
 ---
 === Core ===
 
