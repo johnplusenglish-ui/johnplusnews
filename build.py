@@ -634,20 +634,55 @@ def page(path, main, title=None, desc=None, current=None, image=None, kind="webs
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path d="M5 20h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.5A1.5 1.5 0 0 1 4.5 21 2.5 2.5 0 0 1 2 18.5V11a2 2 0 0 1 2-2h2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.5h8M10 11.5h8M10 15.5h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="wm">john<span>plus</span>news</span></a>
-    <nav class="site-nav" aria-label="Main">{nav}</nav>
+    <nav class="site-nav" aria-label="Main">{nav}</nav>{acct}
   </div>
 </header>
 <main id="main">
 {main}
 </main>
-<footer class="site-footer">
+{prefetch}<footer class="site-footer">
   <div class="wrap"><span>{name}. {tagline}</span><nav class="foot-links" aria-label="About this site"><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></nav></div>
 </footer>
 </body>
 </html>
 """.format(title=esc(full_title), desc=esc(desc), canon=esc(canon), name=SITE["name"], kind=kind,
            og_image=og_image, css=CSS_NAME, nav=nav, main=main, tagline=SITE["tagline"],
+           acct=ACCT_SLOT if accounts_on() else "", prefetch=PREFETCH_JS,
            body_class=' class="wide"' if wide else "", head_extra=head_extra)
+
+
+# The header's account corner is written into the page so the space is already there
+# before account.js runs. Without it the nav slid sideways on every single page load.
+ACCT_SLOT = ('<div class="acct" id="acct">'
+             '<button class="acct-btn" type="button" data-acct-signin>Sign in</button>'
+             '</div>')
+
+
+# Clicks feel instant because the page is already being fetched by the time the
+# button goes down. Chrome reads the speculation rules (hover, then prefetch);
+# every other browser gets the same thing from the few lines of script below it.
+PREFETCH_JS = """<script type="speculationrules">
+{"prefetch":[{"where":{"href_matches":"/*"},"eagerness":"moderate"}]}
+</script>
+<script>
+(function(){
+  if (HTMLScriptElement.supports && HTMLScriptElement.supports("speculationrules")) return;
+  if (!document.createElement("link").relList.supports("prefetch")) return;
+  var done = {}, slow = navigator.connection && (navigator.connection.saveData || /2g/.test(navigator.connection.effectiveType || ""));
+  if (slow) return;
+  function warm(e){
+    var a = e.target.closest && e.target.closest("a[href]");
+    if (!a || a.origin !== location.origin || a.hasAttribute("download") || a.target) return;
+    var u = a.href.split("#")[0];
+    if (u === location.href.split("#")[0] || done[u]) return;
+    done[u] = 1;
+    var l = document.createElement("link"); l.rel = "prefetch"; l.href = u; document.head.appendChild(l);
+  }
+  document.addEventListener("mouseover", warm, {passive:true});
+  document.addEventListener("touchstart", warm, {passive:true});
+})();
+</script>
+"""
 
 
 def levels_label(a):
@@ -817,7 +852,7 @@ BROWSE_JS = (
 def browse_html(topics=(), current=None, chips=None, total=0, heading="Latest stories", tag="h2"):
     """The main archive: a section heading with the count beside it, then one toolbar of
     search and topics, then the stories themselves."""
-    finder = ('<div class="finder" hidden><input type="search" id="q" placeholder="Search stories" aria-label="Search stories" '
+    finder = ('<div class="finder"><input type="search" id="q" placeholder="Search stories" aria-label="Search stories" '
               'autocomplete="off" spellcheck="false"></div>')
     head = ('<div class="latest-head" id="latest"><{t} class="sec-h">{h}</{t}>'
             '<p class="browse-status"><span id="rescount" role="status" aria-live="polite">{n} {w}</span>'
@@ -858,6 +893,11 @@ PAGER = ('<nav class="pager-nav" id="pager" aria-label="More stories" hidden>'
          '<button type="button" class="pager-btn" data-page-next>Next</button></nav>')
 
 
+
+# The browse toolbar is in the page from the first paint so nothing jumps when the
+# script runs. Without scripting it would do nothing, so it is hidden for that case only.
+BROWSE_NOJS = '<noscript><style>.finder,#cats,#clearall{display:none}</style></noscript>\n'
+
 FREE_TOPIC = {"slug": "free", "label": "Free to read"}   # the /free/ page: the articles readers who are not signed in can open
 
 
@@ -880,12 +920,13 @@ def gallery_page(arts, topics=(), topic=None, teens=0):
     if topic is FREE_TOPIC:
         return page("/free/", main, title=topic["label"], current="/", wide=True,
                     desc="The articles on johnplusnews that anyone can read, with no account needed.",
-                    image=(arts[0]["image"] if arts else "") or None)
+                    image=(arts[0]["image"] if arts else "") or None, head_extra=BROWSE_NOJS)
     if topic:
         return page("/tags/{}/".format(topic["slug"]), main, title=topic["label"], current="/", wide=True,
                     desc="{} articles for English learners on johnplusnews.".format(topic["label"]),
-                    image=(arts[0]["image"] if arts else "") or None)
-    return page("/", main, current="/", desc=SITE["tagline"], image=(arts[0]["image"] if arts else "") or None, wide=True)
+                    image=(arts[0]["image"] if arts else "") or None, head_extra=BROWSE_NOJS)
+    return page("/", main, current="/", desc=SITE["tagline"], image=(arts[0]["image"] if arts else "") or None, wide=True,
+                head_extra=BROWSE_NOJS)
 
 
 def teens_card(a, featured=False):
@@ -911,7 +952,7 @@ def teens_page(teens):
     """The Teens collection: a compact hero, then every published story in one grid (the first three are marked Featured)."""
     cats = [c for c in TEENS_CATEGORIES if any(a["category"] == c for a in teens)]
     cats += sorted({a["category"] for a in teens if a["category"] and a["category"] not in cats})
-    chips = ('<nav class="chips" id="cats" role="group" aria-label="Topics" hidden>'
+    chips = ('<nav class="chips" id="cats" role="group" aria-label="Topics">'
              '<button type="button" class="chip" data-cat="all" aria-pressed="true">All topics</button>' + "".join(
                  '<button type="button" class="chip" data-cat="{}" aria-pressed="false">{}</button>'.format(tag_slug(c), esc(c)) for c in cats)
              + '</nav>')
@@ -932,7 +973,7 @@ def teens_page(teens):
             pager=PAGER, empty=EMPTY_STATE)
     return page("/teens/", main, title="Teens", current="/teens/", wide=True,
                 desc="Stories worth talking about for English learners aged 12 to 18, at Core, Intermediate and Advanced levels.",
-                image=(teens[0]["image"] if teens and teens[0]["image"] else "") or None)
+                image=(teens[0]["image"] if teens and teens[0]["image"] else "") or None, head_extra=BROWSE_NOJS)
 
 
 def account_page(path, heading, kind, note):
