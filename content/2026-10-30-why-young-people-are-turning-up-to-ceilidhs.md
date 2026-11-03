@@ -4,7 +4,7 @@ date-label: October 2026
 summary: An old Scottish and Irish dance is filling pubs with people in their twenties. Ticket sales are up, and nobody has to arrive with friends.
 tags: Culture, Music, Society, Young people
 source: The Guardian, ‘Ceilidh renaissance’ lures gen Z offline in search of real-life joy | https://www.theguardian.com/music/2026/oct/30/ceilidh-renaissance-traditional-experience-young-people-community-london
-image: images/why-young-people-are-turning-up-to-ceilidhs-0f9010.jpg
+image: images/why-young-people-are-turning-up-to-ceilidhs-b66f71.jpg
 ---
 === Core ===
 
