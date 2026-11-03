@@ -820,7 +820,8 @@ html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.loc
 .gate-note p, .lock-panel p { margin: 0 0 14px; color: var(--text); }
 .gate-note strong, .lock-panel strong { color: var(--ink); }
 .gate-note .acct-go, .lock-panel .acct-go { width: auto; padding: 10px 22px; }
-.gate-note { margin: 0 0 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.gate-note { display: none; }
+html.jpn-guest .gate-note { margin: 0 0 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
 .gate-note p { flex: 0 0 100%; margin: 0; }
 .gate-note .more { font-size: 0.9375rem; }
 .lock-panel { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
