@@ -9,7 +9,7 @@ source-2: Dictionary.com, 2026 word of the year | https://www.dictionary.com/art
 source-2-date: 25 October 2026
 source-3: Polly Hudson, Let us make 2027 the year of minning, The Guardian | https://www.theguardian.com/commentisfree/2026/nov/01/maxxing-life-2027-relax-start-minning
 source-3-date: 1 November 2026
-image: images/is-it-time-to-stop-improving-everything-046885.jpg
+image: images/is-it-time-to-stop-improving-everything-dbf215.jpg
 ---
 === Core ===
 
