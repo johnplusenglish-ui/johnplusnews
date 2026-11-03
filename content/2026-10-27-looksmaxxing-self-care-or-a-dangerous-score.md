@@ -12,7 +12,7 @@ source-2-date: 25 June 2026
 source-3: Johns Hopkins Medicine, Looksmaxxing trend poses risks for boys and teens | https://www.hopkinsmedicine.org/news/articles/2026/08/looksmaxxing-trend-poses-risks-for-boys-and-teens
 source-3-date: August 2026
 date-label: 2025–2026
-image: images/looksmaxxing-self-care-or-a-dangerous-score-046885.jpg
+image: images/looksmaxxing-self-care-or-a-dangerous-score-dbf215.jpg
 ---
 === Core ===
 
