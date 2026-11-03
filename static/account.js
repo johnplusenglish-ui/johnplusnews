@@ -462,8 +462,9 @@
   document.addEventListener("click", function (e) { if (holder && !holder.contains(e.target)) closeMenu(); });
   /* the Sign in button is in the page before this script runs, so catch its clicks here too */
   document.addEventListener("click", function (e) {
-    var b = e.target && e.target.closest && e.target.closest("[data-acct-signin]");
-    if (b) { e.preventDefault(); openDialog("signin"); }
+    if (!e.target || !e.target.closest) return;
+    if (e.target.closest("[data-acct-signin]")) { e.preventDefault(); openDialog("signin"); }
+    else if (e.target.closest("[data-acct-signup]")) { e.preventDefault(); openDialog("signup"); }
   });
 
   /* ================================================================= "In my words"
@@ -1548,9 +1549,9 @@
      Anyone who is not signed in can open only the free articles (listed on /free/); the rest show a members panel instead of the text (CSS keys off the jpn-guest class). */
   function applyGate() {
     document.documentElement.classList.toggle("jpn-guest", !me);
-    [].forEach.call(document.querySelectorAll(".gate-note, .lock-panel"), function (n) { n.parentNode.removeChild(n); });
+    [].forEach.call(document.querySelectorAll(".gate-note:not([data-gate-note]), .lock-panel"), function (n) { n.parentNode.removeChild(n); });
     if (me) return;
-    var gallery = document.querySelector(".gallery");
+    var gallery = document.querySelector("[data-gate-note]") ? null : document.querySelector(".gallery");
     if (gallery) {
       var all = gallery.querySelectorAll(".card").length, free = gallery.querySelectorAll(".card[data-free]").length;
       if (free < all) {

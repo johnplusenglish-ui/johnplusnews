@@ -901,11 +901,29 @@ BROWSE_NOJS = '<noscript><style>.finder,#cats,#clearall{display:none}</style></n
 FREE_TOPIC = {"slug": "free", "label": "Free to read"}   # the /free/ page: the articles readers who are not signed in can open
 
 
+
+def gate_note_html(arts):
+    """The members panel above the grid. account.js used to insert it after the page had
+    appeared, which dropped the whole grid 136px; it is written here instead and the CSS
+    shows it only while html carries jpn-guest, which the head script sets before the
+    first paint."""
+    free = sum(1 for a in arts if a["slug"] in FREE_SLUGS)
+    if not arts or free >= len(arts):
+        return ""
+    if free:
+        lead = "{} of these {} articles {} free to read.".format(free, len(arts), "is" if free == 1 else "are")
+    else:
+        lead = "These articles are for members."
+    return ('<div class="gate-note" data-gate-note><p><strong>{}</strong> Create a free account to read them all.</p>'
+            '<button type="button" class="acct-go" data-acct-signup>Create a free account</button>'
+            '<a class="more" href="/free/">Read the free articles</a></div>').format(esc(lead))
+
+
 def gallery_page(arts, topics=(), topic=None, teens=0):
     """The home page (topic is None) or the page for one topic."""
     if arts:
-        body = '<ul class="gallery">{}</ul>{empty}'.format(
-            "".join(card(a, first=(i == 0)) for i, a in enumerate(arts)), empty=EMPTY_STATE)
+        body = '{gate}<ul class="gallery">{}</ul>{empty}'.format(
+            "".join(card(a, first=(i == 0)) for i, a in enumerate(arts)), gate=gate_note_html(arts), empty=EMPTY_STATE)
     else:
         body = '<p class="empty">The first article is coming soon.</p>'
     if topic:
@@ -966,10 +984,11 @@ def teens_page(teens):
         '<p class="teens-small">For learners aged 12 to 18. Every story comes in Core, Intermediate and Advanced English.</p>'
         '</div></section>\n'
         '<div class="wrap" id="stories">{browse}'
-        '<ul class="gallery" id="tgrid">{grid}</ul>'
+        '{gate}<ul class="gallery" id="tgrid">{grid}</ul>'
         '{empty}{pager}'
         '</div>\n<script>{js}</script>').format(
             browse=browse_html(chips=chips, total=len(teens), heading="All stories"), grid=grid, js=BROWSE_JS,
+            gate=gate_note_html(teens),
             pager=PAGER, empty=EMPTY_STATE)
     return page("/teens/", main, title="Teens", current="/teens/", wide=True,
                 desc="Stories worth talking about for English learners aged 12 to 18, at Core, Intermediate and Advanced levels.",
