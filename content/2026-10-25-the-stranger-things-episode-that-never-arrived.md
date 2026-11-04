@@ -4,7 +4,7 @@ summary: Some fans were sure a secret extra episode of Stranger Things would app
 tags: TV, Society
 audience: teens
 category: TV, film & fandom
-order: 22
+order: 21
 image: images/the-stranger-things-episode-that-never-arrived-2b7f70.jpg
 image-alt: A young woman sitting cross-legged on a cushion with a bowl of popcorn and a TV remote, staring ahead with a surprised, expectant face.
 image-credit-label: AI illustration

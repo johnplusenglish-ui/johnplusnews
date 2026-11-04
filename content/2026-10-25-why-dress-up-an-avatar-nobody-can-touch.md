@@ -4,7 +4,7 @@ summary: Players spend time choosing outfits for characters that exist only on a
 tags: Games, Technology
 audience: teens
 category: Games & online life
-order: 24
+order: 23
 image: images/why-dress-up-an-avatar-nobody-can-touch-fec113.jpg
 image-alt: A young man pointing and grinning at a life-size cardboard cutout of a colourful cartoon avatar in a sparkly jacket and cape.
 image-credit-label: AI illustration

@@ -4,7 +4,7 @@ summary: A 15-year-old drew the author who was visiting her school. The portrait
 tags: Art, Young people
 audience: teens
 category: Hobbies
-order: 26
+order: 25
 image: images/the-school-sketch-that-led-to-a-book-c41e0c.jpg
 image-alt: A young woman sitting on a stool with a sketchbook showing a pencil portrait of a smiling older man in a hat.
 image-credit-label: AI illustration

@@ -4,7 +4,7 @@ summary: Songs in 16 languages reached a streaming service's global top 50 in 20
 tags: Music, Culture
 audience: teens
 category: Music & style
-order: 4
+order: 3
 source: Spotify Newsroom, Loud & Clear 2026 | https://newsroom.spotify.com/2026-03-11/loud-and-clear-music-economics-highlights/
 source-date: 11 March 2026
 image: images/why-a-great-song-doesnt-need-your-language-33f8bc.jpg

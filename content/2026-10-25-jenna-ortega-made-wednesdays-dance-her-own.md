@@ -4,7 +4,7 @@ summary: A famous dance scene in a Netflix series was not planned by a choreogra
 tags: TV, Creativity
 audience: teens
 category: TV, film & fandom
-order: 19
+order: 18
 image: images/jenna-ortega-made-wednesdays-dance-her-own-6819c1.jpg
 image-alt: A young woman in a dark grey knitted dress and black boots posed mid-dance with her arms out and hands splayed, against a plain yellow background.
 image-credit-label: AI illustration

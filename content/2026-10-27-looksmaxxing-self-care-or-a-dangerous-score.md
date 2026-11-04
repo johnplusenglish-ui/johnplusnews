@@ -2,9 +2,6 @@ title: Looksmaxxing: Self-Care or a Dangerous Score?
 date: 2026-10-27
 summary: Searching for a haircut tip can lead to feeds that rate faces out of ten. Researchers say the line between ordinary self-care and an endless ranking is easy to cross.
 tags: Health, Social media
-audience: teens
-category: Games & online life
-order: 32
 source: Halpin, Gosse, Yeo and Handlovsky, When Help Is Harm, Sociology of Health and Illness | https://doi.org/10.1111/1467-9566.70015
 source-date: 11 March 2025
 source-2: Centre for Young Lives, looksmaxxing report | https://www.centreforyounglives.org.uk/news-centre/toxic-looksmaxxing-social-media-trend-is-pushing-boys-towards-extreme-body-obsession-misogyny-and-self-harm-centre-for-young-lives-report-warns

@@ -4,7 +4,7 @@ summary: A new novel could have been bought the next morning, but many fans came
 tags: Books, Fandom
 audience: teens
 category: TV, film & fandom
-order: 29
+order: 28
 image: images/why-fans-queued-at-midnight-for-a-book-bed5b1.jpg
 image-alt: Three friends in winter coats and scarves stand in a row, two hugging plain dark books while the third holds an alarm clock showing twelve above his head.
 image-credit-label: AI illustration

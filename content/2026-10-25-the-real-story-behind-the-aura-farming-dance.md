@@ -4,7 +4,7 @@ summary: Millions of people copied a boy's dance on a racing boat in Indonesia. 
 tags: Culture, Social media
 audience: teens
 category: Language & memes
-order: 18
+order: 17
 image: images/the-real-story-behind-the-aura-farming-dance-f8137e.jpg
 image-alt: A young dancer in traditional Malay dress and sunglasses standing calmly on the front of a long wooden racing boat while four rowers with paddles smile behind him.
 image-credit-label: AI illustration

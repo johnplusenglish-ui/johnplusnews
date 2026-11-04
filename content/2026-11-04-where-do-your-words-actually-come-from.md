@@ -1,10 +1,8 @@
 title: Where Do Your Words Actually Come From?
 date: 2026-11-04
+date-label: November 2026
 summary: A word can go from one group chat to the whole world in a week. Who invented it is a harder question than it looks.
 tags: Language, Society
-audience: teens
-category: Language & memes
-order: 1
 source: American Psychological Association, The psychology of why we use slang | https://www.apa.org/monitor/2026/04-05/psychology-slang-identity-belonging
 source-date: April 2026
 source-2: European Youth Portal, Gen Z slang words and phrases | https://youth.europa.eu/get-involved/intercultural-understanding/gen-z-slang-words-and-phrases_en

@@ -4,7 +4,7 @@ summary: A US survey found that most teenage players play with other people, and
 tags: Technology, Relationships
 audience: teens
 category: Games & online life
-order: 3
+order: 2
 source: Pew Research Center | https://www.pewresearch.org/internet/2024/05/09/teens-and-video-games-today/
 source-date: 9 May 2024
 source-2: UNICEF Innocenti, Responsible Innovation in Technology for Children | https://www.unicef.org/innocenti/reports/responsible-innovation-technology-children

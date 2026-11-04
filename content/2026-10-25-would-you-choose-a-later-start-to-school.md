@@ -4,7 +4,7 @@ summary: A Swiss school offered students a choice between an early start and a l
 tags: Education, Health
 audience: teens
 category: School life
-order: 2
+order: 1
 source: University of Zurich | https://www.news.uzh.ch/en/articles/media/2026/school-later.html
 source-date: 26 February 2026
 source-2: Journal of Adolescent Health, study abstract | https://pubmed.ncbi.nlm.nih.gov/41701119/

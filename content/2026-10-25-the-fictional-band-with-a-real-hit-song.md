@@ -4,7 +4,7 @@ summary: HUNTR/X exists only in an animated film, yet its song became a real hit
 tags: Music, Film
 audience: teens
 category: Music & style
-order: 20
+order: 19
 image: images/the-fictional-band-with-a-real-hit-song-9eaef7.jpg
 image-alt: A young woman in a cream hoodie with headphones round her neck, smiling and holding up a framed illustration of a three-piece cartoon band on stage.
 image-credit-label: AI illustration

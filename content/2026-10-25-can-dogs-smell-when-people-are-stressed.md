@@ -4,7 +4,7 @@ summary: Researchers tested whether the smell of a stressed person changes how d
 tags: Science, Environment
 audience: teens
 category: Science & making
-order: 6
+order: 5
 source: University of Bristol | https://www.bristol.ac.uk/news/2024/july/dogs-stress-study.html
 source-date: 22 July 2024
 source-2: Scientific Reports, Parr-Cortes and colleagues | https://www.nature.com/articles/s41598-024-66147-1

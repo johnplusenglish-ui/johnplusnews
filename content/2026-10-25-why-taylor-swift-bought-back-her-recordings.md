@@ -4,7 +4,7 @@ summary: A famous singer announced that she had bought the original recordings o
 tags: Music, Society
 audience: teens
 category: Music & style
-order: 15
+order: 14
 image: images/why-taylor-swift-bought-back-her-recordings-aa0175.jpg
 image-alt: A young woman holding a vinyl record in a colourful sleeve against her chest and a small golden key in her other hand, smiling.
 image-credit-label: AI illustration

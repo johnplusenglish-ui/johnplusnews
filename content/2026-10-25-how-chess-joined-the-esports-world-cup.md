@@ -4,7 +4,7 @@ summary: A quiet board game was played on a big esports stage, with a clock, a c
 tags: Games, Sport
 audience: teens
 category: Games & online life
-order: 25
+order: 24
 image: images/how-chess-joined-the-esports-world-cup-429a83.jpg
 image-alt: A focused chess player in headphones about to move a piece while a commentator with a microphone speaks excitedly behind him.
 image-credit-label: AI illustration

@@ -4,7 +4,7 @@ summary: More than half of UK children aged 8 to 17 use AI, according to Ofcom. 
 tags: Technology, Education
 audience: teens
 category: School life
-order: 8
+order: 7
 source: Ofcom, Younger phone owners, the rise of AI, and consumption over creation | https://www.ofcom.org.uk/online-safety/protecting-children/younger-phone-owners-the-rise-of-ai-and-consumption-over-creation-our-latest-look-at-uk-childrens-media-lives?language=en
 source-date: 21 May 2026
 image: images/ai-did-the-homework-who-did-the-learning-f923f6.jpg
