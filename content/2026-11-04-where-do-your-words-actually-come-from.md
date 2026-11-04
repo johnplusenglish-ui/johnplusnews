@@ -4,7 +4,7 @@ summary: A word can go from one group chat to the whole world in a week. Who inv
 tags: Language, Society
 audience: teens
 category: Language & memes
-order: 32
+order: 1
 source: American Psychological Association, The psychology of why we use slang | https://www.apa.org/monitor/2026/04-05/psychology-slang-identity-belonging
 source-date: April 2026
 source-2: European Youth Portal, Gen Z slang words and phrases | https://youth.europa.eu/get-involved/intercultural-understanding/gen-z-slang-words-and-phrases_en

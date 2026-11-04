@@ -4,7 +4,7 @@ summary: Blind boxes sell a toy you can't see until you open it. A 2025 AP story
 tags: Business, Culture
 audience: teens
 category: Games & online life
-order: 10
+order: 11
 source: Associated Press, Michelle Chapman (updated 4 June 2025; a dated example, not a 2026 report) | https://apnews.com/article/labubu-viral-plushy-influencers-2de46ecf0b2101a16ef6df4e46f4bc48
 source-date: 4 June 2025
 image: images/would-you-buy-a-box-without-knowing-whats-inside-ea2955.jpg

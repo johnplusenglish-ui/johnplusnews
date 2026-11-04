@@ -4,7 +4,7 @@ summary: A famous footballer has left the brand that supported him for almost tw
 tags: Sport, Business
 audience: teens
 category: Sport
-order: 13
+order: 14
 image: images/why-mbappe-swapped-nike-for-on-8858b2.jpg
 image-alt: A young man in a grey top and jogging bottoms holding up a white football boot in one hand and a black one in the other, against a red background.
 image-credit-label: AI illustration

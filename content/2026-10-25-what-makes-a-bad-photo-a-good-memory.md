@@ -4,7 +4,7 @@ summary: Some people are going back to older digital cameras. What can a blurry 
 tags: Technology, Culture
 audience: teens
 category: Music & style
-order: 8
+order: 9
 source: BBC News, Annabel Rackham | https://www.bbc.com/news/articles/cly599xlllyo
 source-date: 8 August 2026
 image: images/what-makes-a-bad-photo-a-good-memory-581c24.jpg

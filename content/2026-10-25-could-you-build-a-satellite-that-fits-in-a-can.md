@@ -4,7 +4,7 @@ summary: Teams of students aged 14 to 19 build a model satellite the size of a d
 tags: Science, Education
 audience: teens
 category: Science & making
-order: 11
+order: 12
 source: ESA Education, CanSat Space Engineer for a Day 2026 (event held 17 to 19 June 2026) | https://education.esa.int/cansat_space_engineer_for_a_day_2026_event_inspires_next_space_generation/
 source-date: 10 September 2026
 image: images/could-you-build-a-satellite-that-fits-in-a-can-929cea.jpg

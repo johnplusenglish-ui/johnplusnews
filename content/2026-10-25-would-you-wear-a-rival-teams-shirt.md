@@ -4,7 +4,7 @@ summary: A writer argues that fashion has discovered the football shirt. So what
 tags: Sport, Culture
 audience: teens
 category: Music & style
-order: 6
+order: 7
 source: RTÉ Brainstorm, Katriona Flynn | https://www.rte.ie/brainstorm/2026/0827/1589113-football-jerseys-fashion-culture-design-brands-recognition/
 source-date: 27 August 2026
 image: images/would-you-wear-a-rival-teams-shirt-a49644.jpg

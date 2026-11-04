@@ -4,7 +4,7 @@ summary: A 15-year-old from the north of England got a Rubik's Cube as a present
 tags: Hobbies, Young people
 audience: teens
 category: Hobbies
-order: 27
+order: 28
 image: images/the-teen-who-found-his-people-through-a-puzzle-e98283.jpg
 image-alt: Two young people sitting on wooden stools against an orange background, each holding up a jumbled colour puzzle cube and laughing, one in a blue shirt, one in white.
 image-credit-label: AI illustration

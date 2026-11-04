@@ -4,7 +4,7 @@ summary: At some screenings of A Minecraft Movie, the audience became part of th
 tags: Film, Society
 audience: teens
 category: TV, film & fandom
-order: 22
+order: 23
 image: images/when-minecraft-fans-turned-the-cinema-into-a-show-0c3d81.jpg
 image-alt: Three people in cinema seats: one cheering with a rubber chicken, one laughing with popcorn, and one covering his ears.
 image-credit-label: AI illustration

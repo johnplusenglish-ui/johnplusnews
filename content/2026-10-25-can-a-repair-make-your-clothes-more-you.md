@@ -4,7 +4,7 @@ summary: A San Francisco library advertised a teen workshop on mending and upcyc
 tags: Environment, Lifestyle
 audience: teens
 category: Science & making
-order: 12
+order: 13
 source: San Francisco Public Library, event listing for Mending and Upcycling with Youth Art Exchange | https://sfpl.org/events/2026/04/19/workshop-mending-and-upcycling-youth-art-exchange
 source-date: event listed for 19 April 2026
 image: images/can-a-repair-make-your-clothes-more-you-ada8d1.jpg

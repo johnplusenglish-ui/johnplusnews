@@ -4,7 +4,7 @@ summary: Twenty-four players met in Berlin to guess where a street was, using on
 tags: Games, Geography
 audience: teens
 category: Games & online life
-order: 30
+order: 31
 image: images/the-world-championship-where-you-guess-the-place-ae6cca.jpg
 image-alt: A young woman in round glasses and a mustard cardigan studying a plain white card printed with a red map pin, against a bright green background.
 image-credit-label: AI illustration

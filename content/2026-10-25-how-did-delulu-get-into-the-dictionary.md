@@ -4,7 +4,7 @@ summary: Slang words from the internet have entered the Cambridge Dictionary. Wh
 tags: Language, Society
 audience: teens
 category: Language & memes
-order: 16
+order: 17
 image: images/how-did-delulu-get-into-the-dictionary-16b9fd.jpg
 image-alt: A young woman in a blue cardigan and jeans pointing at a page of a thick open book, mouth open in surprise, against a plain pink background.
 image-credit-label: AI illustration

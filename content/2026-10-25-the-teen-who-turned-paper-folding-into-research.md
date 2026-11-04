@@ -4,7 +4,7 @@ summary: A 17-year-old from Japan won a top science prize for studying how folde
 tags: Science, Young people
 audience: teens
 category: Science & making
-order: 26
+order: 27
 image: images/the-teen-who-turned-paper-folding-into-research-14a1fd.jpg
 image-alt: A young man studying a folded white paper model shaped like a wing, with a small ladybird on its edge.
 image-credit-label: AI illustration
