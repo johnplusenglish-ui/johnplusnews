@@ -18,7 +18,7 @@ summary: Dictionary.com has chosen “maxxing”. It means pushing something as 
 
 Every year, dictionaries choose a word of the year. For 2026, Dictionary.com has chosen “maxxing”. It is not really a word on its own. It is an ending that you add to other words, and it means pushing something as far as it will go.
 
-People talk about sleepmaxxing, which means doing everything possible to sleep well. They talk about proteinmaxxing their breakfast, or cozymaxxing on a Friday night. There is even nonnamaxxing, which means living a little more like an Italian grandmother. Steve Johnson, who works on the dictionary, said the team chose it because it connects to so many different parts of life.
+People talk about sleepmaxxing, which means doing everything possible to sleep well. They talk about proteinmaxxing their breakfast, booksmaxxing their reading, or cozymaxxing on a Friday night. There is even nonnamaxxing, which means living a little more like an Italian grandmother. Steve Johnson, who works on the dictionary, said the team chose it because it connects to so many different parts of life.
 
 The idea is older than it looks. Players of the game Dungeons and Dragons have talked about “min-maxing” their characters for years, and the term appeared in mathematics as far back as the 1940s. What has changed is the volume. By August 2026, Dictionary.com found the word being used 19 times as often online as its average month in 2025.
 
@@ -26,9 +26,11 @@ Why did this particular ending spread so fast? Daria Bahtina, a linguist in the 
 
 Not everybody is pleased. Jennifer Donnelly, a researcher in Ireland, has warned that the word suggests you can finish improving yourself. Health, sleep, friendships and habits are not tasks you complete. If you treat them as a score, she argues, you may spend your life watching and criticising yourself.
 
-Then there is the tiredness. Writing in the Guardian, the columnist Polly Hudson says we have now reached maximum maxxing. Her joke solution is a new word: “minning”. Instead of pushing something to the limit, you do it less, or not at all. She gives silly examples, such as dropping less litter, and admits the whole thing is a game with language.
+Not all of the advice is good advice either. A confident video is not a health plan, and more is not automatically better for every body.
 
-It is only a joke column, not a movement, and nobody is about to start a minning club. But the joke works because the feeling behind it is real. Somewhere in the last few years, ordinary things became projects. Breakfast became a strategy. Sleep became a score.
+Then there is the tiredness. Writing in the Guardian, the columnist Polly Hudson says we have now reached maximum maxxing. Her joke solution is a new word: “minning”. Instead of pushing something to the limit, you do it less, or not at all. She admits the whole thing is a game with language.
+
+It is only a joke column, not a movement. But the joke works because the feeling behind it is real. Somewhere in the last few years, ordinary things became projects. Breakfast became a strategy. Sleep became a score.
 
 Perhaps the useful question is not how to optimise your evening. It is whether every part of your life needs to be improved at all.
 
@@ -38,17 +40,19 @@ summary: “Maxxing” is Dictionary.com's word of the year. One columnist has h
 
 Dictionary.com has announced its word of the year for 2026, and the choice says something about how we are living. It is “maxxing”: not a word so much as an ending, attached to anything that can be pushed to its limit. People sleepmaxxing, proteinmaxxing their breakfast, cozymaxxing on a Friday night.
 
-Steve Johnson, director of lexicography at the Dictionary Media Group, said his team looks at search trends, social media and the news, and then asks which word tells the most compelling story of the year. Maxxing stood out, he said, because it reaches into so many different parts of life. The numbers support the choice: by August 2026 the term was appearing in digital media 19 times as often as its monthly average in 2025.
+Steve Johnson, director of lexicography at the Dictionary Media Group, said his team weighs search trends, social media and the news, then asks which word tells the year's story. Maxxing stood out, he said, because it reaches into so many different parts of life. The numbers support the choice: by August 2026 the term was appearing in digital media 19 times as often as its monthly average in 2025.
 
-Its history is longer than the trend. Players of Dungeons and Dragons have been “min-maxing” character statistics for decades, and the term turns up in game theory as early as the 1940s. More recently, the suffix spread through online forums where people discussed improving their appearance, and from there into ordinary speech. Daria Bahtina, a linguist at UCLA, explains part of its success simply: the pattern is infinitely customisable but instantly recognisable, so attaching it to a word signals that you are part of the moment.
+Its history is longer than the trend. Players of Dungeons and Dragons have been “min-maxing” character statistics for decades, and the term turns up in game theory as early as the 1940s. More recently, the suffix spread through online forums where people discussed improving their appearance, and from there into ordinary speech. Daria Bahtina, a linguist at UCLA, explains its success simply: the pattern is infinitely customisable but instantly recognisable, so using it signals that you are part of the moment.
 
 There is an argument that it has costs. Jennifer Donnelly, a researcher at RCSI University of Medicine and Health Sciences, has written that if a part of life can be improved, it can probably be maxxed, and that this is the problem. The language implies an endpoint. Health, wellbeing, relationships and habits are not projects you finish, and treating them as such can encourage constant self-surveillance and self-criticism in pursuit of an ideal version of yourself.
 
+There are limits to one-size-fits-all advice, too. Needs and circumstances differ, and an online trend is not a personal health plan. The confidence of a video is not evidence that it suits you.
+
 Whether the word survives is another question. Johnson points out that some endings last for decades while others disappear completely. Kelly Wright, a linguist who tracks new terms, suspects this one will stay, for an unflattering reason: middle-aged people and corporate brands have both adopted it, and that usually kills the cool without killing the word.
 
-Into this arrives a joke. Writing in the Guardian on 1 November, the columnist Polly Hudson declared that we have reached maximum maxxing and proposed a replacement for 2027: minning. Rather than pushing an activity to its limit, minning means doing it less, or not at all. Her examples are deliberately absurd, including dropping less litter and drinking fewer spirits, and the column is comedy rather than a manifesto.
+Into this arrives a joke. Writing in the Guardian on 1 November, the columnist Polly Hudson declared that we have reached maximum maxxing and proposed a replacement for 2027: minning. Rather than pushing an activity to its limit, minning means doing it less, or not at all. Her examples are deliberately absurd, including dropping less litter, and the column is comedy rather than a manifesto.
 
-It is worth being clear that minning is one writer's joke, not a trend anybody has measured. Still, jokes land when they describe something people recognise. The suffix became popular because optimising felt aspirational. A word mocking it has an audience because, for a lot of people, it has started to feel like homework.
+Minning is one writer's joke, not a trend anybody has measured. Still, jokes land when they describe something people recognise. The suffix became popular because optimising felt aspirational. A word mocking it has an audience because, for a lot of people, it has started to feel like homework.
 
 === Advanced ===
 
@@ -57,13 +61,15 @@ summary: Dictionary.com has named “maxxing” its word of the year. The backla
 
 Words of the year are usually chosen to describe a mood rather than a fact, and Dictionary.com's selection for 2026 does the job efficiently. The winner is “maxxing”, a suffix rather than a word, attachable to almost any noun and meaning the pursuit of that thing to its furthest possible extent. Sleepmaxxing, proteinmaxxing, cozymaxxing: the grammar of self-improvement, applied to breakfast.
 
-The data behind the choice is unambiguous. Steve Johnson, director of lexicography at the Dictionary Media Group, says the team weighs search behaviour, social media and news coverage against the question of which word tells the year's story, and that maxxing won because it touches so many areas of life at once. By August 2026 it was appearing in digital media nineteen times as often as its 2025 monthly average.
+The data behind the choice is unambiguous. Steve Johnson, director of lexicography at the Dictionary Media Group, says the team weighs search behaviour, social media and news coverage against which word tells the year's story, and that maxxing won because it touches so many areas of life at once. By August 2026 it was appearing in digital media nineteen times as often as its 2025 monthly average.
 
-What makes the term linguistically interesting is its portability. Daria Bahtina, a linguist at UCLA, describes the pattern as infinitely customisable but instantly recognisable, which is an unusually good combination: you can coin a word nobody has heard and be understood immediately, while also signalling membership of a particular cultural moment. The researcher Kelly Wright, who tracks emerging terms, has documented examples stretching back to 1990, when it belonged to Dungeons and Dragons; the ancestor “min-maxing” predates even that, and the underlying idea appears in game theory in the 1940s.
+What makes the term linguistically interesting is its portability. Daria Bahtina, a linguist at UCLA, describes the pattern as infinitely customisable but instantly recognisable, which is an unusually good combination: you can coin a word nobody has heard and be understood immediately, while signalling membership of a cultural moment. The researcher Kelly Wright, who tracks emerging terms, has documented examples back to 1990, when it belonged to Dungeons and Dragons; the ancestor “min-maxing” predates that, and the idea appears in game theory in the 1940s.
 
 The critique has arrived faster than usual. Jennifer Donnelly, a researcher at RCSI University of Medicine and Health Sciences, argues that the word's reach is precisely the danger, because it implies that improvement has an endpoint. Health, wellbeing, relationships and habits are not completed, and a vocabulary that frames them as completable invites constant self-surveillance, self-criticism and the pursuit of an idealised optimal self. Her objection is not to effort but to scoring.
 
-Then, on 1 November, came the comic version. The Guardian columnist Polly Hudson announced that we had collectively maxxmaxxinged, having reached and passed the limit, and proposed that 2027 be the year of minning: doing things less, if at all. The column is a joke built almost entirely from wordplay, and it should not be mistaken for evidence of a movement. Nobody is minning. There are no figures, no platform statistics and no interviewed practitioners.
+The health versions deserve care. A catchy label does not establish that a routine suits every body, and the advice attached still needs evidence and context.
+
+Then, on 1 November, came the comic version. The Guardian columnist Polly Hudson announced that we had collectively maxxmaxxinged, having reached and passed the limit, and proposed that 2027 be the year of minning: doing things less, if at all. The column is a joke built almost entirely from wordplay and should not be mistaken for evidence of a movement. Nobody is minning: there are no figures and no interviewed practitioners.
 
 Yet the speed of the parody is itself a finding of sorts. A suffix that spent a decade signalling ambition has become, within a single year of mainstream adoption, something a newspaper columnist can mock on the assumption that readers are already tired of it. Slang usually loses its appeal once it is everywhere, and Johnson notes that “-licious” went that way while “-gate” did not. Wright is less sure maxxing will fade, pointing out that middle-aged people and corporate brands have both embraced it, which is normally a terminal diagnosis for cool but an excellent one for survival.
 

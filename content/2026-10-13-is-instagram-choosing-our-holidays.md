@@ -1,7 +1,7 @@
 title: Is Instagram Choosing Our Holidays?
 date: 2026-10-13
 date-label: October 2026
-summary: Two travel surveys asked where holiday ideas come from. One makes social media look all-powerful; the other puts it fourth. Both are useful.
+summary: A beautiful image can send you across the world. It can also send several thousand other people to the same railing.
 tags: Travel, Social media, Society
 source: ABTA, Holiday Habits 2026-27 report | https://www.abta.com/news/ai-catches-social-media-source-holiday-inspiration-traditional-sources-still-have-biggest-say
 source-date: 13 October 2026
@@ -11,90 +11,94 @@ image: images/is-instagram-choosing-our-holidays-42c04a.jpg
 ---
 === Core ===
 
-title: Did You Go There, or Did You Go for the Photo?
-summary: Two travel surveys asked people where their holiday ideas come from. Social media matters, but perhaps not as much as you would guess.
+title: Would You Go There Without the Photo?
+summary: A video can make a place look perfect. What happens when everybody else has seen the same video?
 
-Think about the last holiday you chose. Where did the idea come from? A friend, a photo, a video, a guidebook, a search?
+Imagine you are at home one evening, moving through videos on your phone. One of them shows a small beach somewhere warm. The sea is bright blue, the sand is almost empty, and for fifteen seconds you forget the weather outside your window. You save the video. You tell yourself that one day you will go.
 
-Two travel organisations have published research on exactly that question, and together they tell an interesting story.
+Months later, you are standing on that beach. It is real and it is beautiful. There is also a line of about twenty people waiting to stand exactly where the camera stood.
 
-The first comes from TUI Musement, a company that sells tours and activities. It asked travellers in Spain, Italy and the UK about social media. Nearly four in ten, 39%, said they had visited a tourist site mainly in order to take a photo or record a video. More than four in ten, 43%, said they had booked a trip or an activity after seeing a post or video that had gone viral. Among younger travellers the numbers were higher. For people in Generation Z, TikTok was the most common source of travel ideas, ahead of recommendations from family and friends.
+That traveller is imagined, but the situation is easy to recognise. Social media has made the world feel closer. A short clip can show you a town you had never heard of, or a market you would never find in a guidebook. For a lot of people, watching those videos is part of the pleasure of planning a trip, and sometimes it is the only trip they take that year.
 
-The same survey found a cost to all this. 37% said they felt they had to make their holidays look exciting online, and that figure rose to 45% among Gen Z. And 18% said that being obsessed with photos was a reason not to travel with someone.
+The difficulty is that a camera only shows what is inside the picture. The car park is outside it. So is the traffic and the hour somebody waited for the light to be right. A quiet street at six in the morning looks very different at midday. The street has not changed. The photograph simply showed one small part of it.
 
-The second piece of research is from ABTA, a UK travel association. It asked 2,082 adults in Britain where they had found their holiday ideas in the past year. Social media was mentioned by 24%. Recommendations from family and friends came first, at 42%, followed by internet searches at 37%, and travel websites and guidebooks at 35%.
+Pictures can also change what you do when you get there. One survey of travellers in Spain, Italy and the UK found that nearly four in ten had visited a place mainly in order to take a photo or a video. You may spend an afternoon looking for a view instead of enjoying the one in front of you. One friend wants to wait for the sunset. Another wants to put the phone away and order lunch.
 
-The ABTA report also found something new. More people are asking artificial intelligence for holiday ideas: 14% this year, up from 8% last year and 4% the year before. Among 25 to 34 year olds it was 29%. More people are booking through a travel agent too, up to 38%, mostly because it is easier and saves time.
+None of this makes photographs the enemy. They help us remember a good day and show it to people who could not come. A video can bring customers to a small restaurant that needed them. People who live in busy places may welcome visitors, worry about the crowds, or feel both things on the same afternoon.
 
-So is Instagram choosing our holidays? Not exactly. The two surveys asked different questions, in different countries, at different times, so you cannot simply add them together. But they point in a sensible direction. Social media is extremely good at making you want to go somewhere, and at deciding which photo you take when you arrive. It is not yet how most people make the decision.
-
-Perhaps the better question is not who chooses the holiday, but what we actually do once we get there.
+So perhaps the question is not whether to take pictures. It is what you want from the trip before you arrive. A famous view can be wonderful. So can a slow lunch in a place nobody told you to visit.
 
 === Intermediate ===
 
-summary: Two travel surveys asked where holiday ideas come from. One makes social media look all-powerful; the other puts it fourth. Both are useful.
+summary: A beautiful image can send you across the world. It can also send several thousand other people to the same railing.
 
-Ask how much social media shapes modern travel and you can get two very different answers, depending on which survey you read.
+The water is impossibly blue. A table for two sits on an empty terrace. Somebody turns towards the camera with a village and a mountain behind them. You save it. One day, you think.
 
-The first, published in August by the tours and activities company TUI Musement, makes the influence look overwhelming. Nearly four in ten respondents, 39%, said they had visited a tourist site mainly to take a photo or record a video. 43% had booked a trip or activity after seeing a viral post, a figure that rose to 52% among millennials and 50% among Gen Z. Another 43% said they follow travel influencers when deciding where to go, and 27% had changed destination on that kind of recommendation. Among Gen Z travellers, TikTok was the leading source of inspiration at 48%, ahead of family and friends at 43%.
+When that imagined traveller finally arrives, the view is exactly as promised. So is the queue of thirty people waiting for their turn in front of it.
 
-The second, ABTA's Holiday Habits report published in October, is more sober. Asked where they had found holiday inspiration over the past year, UK adults put recommendations from family and friends first at 42%, then general internet searching at 37%, then travel websites and guidebooks at 35%. Social media came in at 24%, behind brochures at 23% only narrowly, and roughly level with artificial intelligence tools and AI search summaries combined. The use of AI for inspiration has climbed quickly, from 4% two years ago to 8% last year and 14% now, reaching 29% among 25 to 34 year olds.
+That scene is invented, but it describes something most travellers now recognise. Social media can make a place feel desirable long before we know anything about it. A few seconds of video can introduce a beach, a night train or a café on the other side of the world, and for someone at home on a grey Tuesday, the possibility of being somewhere else is genuinely powerful.
 
-Both findings can be true, because the two studies are not measuring the same thing. TUI Musement surveyed travellers in Spain, Italy and the UK through the research firm Appinio, with the findings dated January 2026. ABTA's figures come from a nationally representative sample of 2,082 UK adults, surveyed in late July and early August. The questions differ too: being prompted to book something by a viral video is not the same as naming social media as your main source of ideas.
+The influence does not stop once the flight is booked. In a survey commissioned by the travel company TUI Musement, 39% of respondents said they had visited a tourist site mainly to take a photo or record a video. That survey covered travellers in Spain, Italy and the UK, and it cannot explain why any individual travels, but the behaviour is familiar: at some point the picture became part of the plan.
 
-Read together, they suggest a reasonable division of labour. Social media is powerful at the moment of desire, and it is very powerful indeed over what people do when they arrive, which is where the photo-driven visits and the crowding complaints come from. The actual decision still tends to involve people you know, a search engine and, increasingly, a travel agent: ABTA found bookings through a travel professional rose to 38%, chiefly for ease, time saved and value.
+The trouble is that photographs are selective by nature. A frame may leave out a car park, a crowd or the ninety minutes somebody spent waiting for the light. That is not dishonesty. Every photographer chooses what to include. It becomes a problem only when we see nothing but the best moments and then arrive expecting a private experience in a very public place.
 
-There is a pressure in the TUI numbers that is harder to dismiss. 37% of respondents said they felt a need to make their trips look exciting online, rising to 45% among Gen Z, and 18% considered an obsession with photographs a red flag in a travel companion.
+For the people who live there, the attention cuts in several directions at once. A café that appears in a popular video may suddenly be serving visitors from countries its owner has never been to. The same week, a neighbour may spend twenty minutes getting down a street that used to take two. Residents are not one group with one opinion, and a busy summer is not the same problem for everybody in town.
+
+Nor is photographing a holiday the opposite of enjoying it. Pictures hold on to things we would otherwise lose. The awkward moment arrives when getting the shot starts to outrank deciding what you actually want to do with the afternoon. Does everyone in the group want to wait for it? And the harder question underneath: would you still have come if there were nothing to post?
+
+There is room for the famous view and the unplanned afternoon in the same week. A recommendation might take you somewhere extraordinary. So might a wrong turn. Perhaps the best thing to bring home is not evidence that you went to the right place, but an afternoon that belongs to you whether or not anyone else ever sees it.
 
 === Advanced ===
 
-title: Two Surveys, Two Answers, One Honest Conclusion
-summary: Social media clearly shapes how we travel. Working out how much requires reading two reports that appear to contradict each other.
+title: Are We Travelling for the Place or for the Picture?
+summary: An image can start a journey. It can also hand the real place, with its residents and its other visitors, a standard to live up to.
 
-Two travel reports published weeks apart give almost opposite impressions of the same phenomenon, which makes them a useful lesson in reading research at all.
+First comes the image: a quiet cove, a breakfast table angled towards the sea, a narrow street with nobody in it. Then comes the thought that makes travel so persuasive, which is simply imagine being there. Months later the traveller arrives and finds nine other people waiting to photograph the same doorway. The street is still beautiful. It is just less private than twelve seconds of video suggested.
 
-TUI Musement's study, released in August, is the one that produces headlines. 39% of respondents said they had visited a tourist site mainly to photograph or film it. 43% had booked a trip or activity after seeing a viral post, rising to 52% of millennials. 43% follow travel influencers to decide where to go, 27% had switched destination on such a recommendation, and 37% said they at least occasionally prefer places that are famous on Instagram to lesser-known alternatives. Among Gen Z, TikTok outranked family and friends as a source of inspiration, 48% to 43%.
+That traveller is invented, but the shape of the experience is widely shared. Social media has given travel inspiration an extraordinary reach. A short clip can introduce someone to a landscape, a neighbourhood or a dish they would otherwise never have encountered, and it can turn an ordinary evening at home into a small act of escape.
 
-ABTA's Holiday Habits report, out in October, describes a quieter world. Among UK adults, holiday inspiration came mainly from family and friends at 42%, internet searching at 37%, and travel websites and guidebooks at 35%. Social media sat at 24%, barely ahead of printed brochures at 23%. Bookings through a travel professional actually rose, to 38%, for reasons that have nothing to do with inspiration at all: ease of booking, saving time, value for money.
+A feed also teaches us what a place is supposed to look like. It rewards the image understood in a second: the clear water, the empty street, the viewpoint at the exact hour. The coach park, the queue and the twenty minutes outside the café rarely make the cut. This is not deception, since every photograph excludes almost everything. The difficulty begins when the frame quietly becomes the whole of our expectation.
 
-The contradiction mostly dissolves on inspection, and the reasons are instructive. The samples differ: Appinio surveyed travellers in Spain, Italy and the UK for TUI Musement, while ABTA used a nationally representative sample of 2,082 UK adults. The timing differs, January against late summer. The commissioning interests differ, one being a company that sells experiences and the other a trade association representing agents and tour operators. Most importantly, the questions differ. Asking whether a viral video has ever prompted a booking measures the ceiling of social media's influence across a lifetime of trips; asking which sources inspired your holidays this year measures its share of ordinary decisions. A single remembered TikTok can answer the first question yes while barely touching the second.
+For some travellers the photograph is not a distraction from the experience but a genuine part of it. In a survey commissioned by TUI Musement, 39% of travellers in Spain, Italy and the UK said they had visited a tourist site mainly in order to photograph or film it. That is one industry survey reporting what people say about themselves, not proof that nobody looks at anything. It does suggest that the desire for an image can shape an itinerary rather than merely decorate it.
 
-What survives both studies is a distinction worth making. Social media is weak as an arbiter and strong as an amplifier. It rarely replaces the friend who says you would love Lisbon, but it is extremely effective at determining which three streets in Lisbon everybody stands in, which is why photo-driven visits and overcrowding tend to arrive together. The ABTA data makes the same point from the other direction, in that the fastest-growing source of inspiration is not social media but AI, up from 4% to 14% in two years.
+The effects reach well beyond the visitor. A single popular post can bring badly needed custom to a restaurant. It can also concentrate several hundred people onto one footbridge at the same hour. Social media is one part of a much larger tourism economy, and the people inside it do not share a single view. The owner of a full café and the neighbour trying to park are having different afternoons on the same street.
 
-The least comfortable finding is not about choice at all. 37% of TUI Musement's respondents, and 45% of Gen Z, reported feeling a need to make their holidays look exciting online. Whatever is choosing the destination, something else is supervising the performance once you get there. 18% of them went further, describing an obsession with photographs as a reason not to travel with somebody at all, which suggests the audience for all this content is not always the person holding the camera.
+There is a quieter version of the same tension inside the holiday group. One person wants to photograph the sunset. Another wants to watch it without being arranged in front of it. Neither is wrong. Images make us look harder at things, and they keep days alive long after the details have gone. They can also turn into another task on the list, particularly once the imagined audience starts to matter more than the people actually present.
+
+The answer is unlikely to be a ban on phones, or a hunt for somewhere nobody has found, since that hunt is what empties the quiet places. It may be enough to ask what drew you there, and whether you have left room to be surprised. A crowded beach can still be worth the journey. An unplanned conversation can outlast every photograph from the trip. The question worth carrying is whose idea of a good holiday you are following.
 
 === Core before you read ===
 
-- Where do you get ideas for holidays?
-- Do you take many photos when you travel?
-- Have you ever visited a place because you saw it online?
+- Have you ever seen a photo that made you want to visit a place?
+- Do you take many pictures when you travel?
+- What makes a holiday a good one for you?
 
 === Core talk about it ===
 
-- Is it a problem to visit a place mainly for a photograph?
-- Who gives you the best travel advice: friends, the internet, or a guidebook?
-- Would you enjoy a holiday more with your phone switched off?
+- Would you visit a beautiful place if you could not take any pictures?
+- Is it a problem to go somewhere mainly for a photograph?
+- What matters more on holiday: the place or the people you are with?
 
 === Intermediate before you read ===
 
-- Can a photograph tell you whether you would actually enjoy a place?
-- Why might two surveys about the same subject disagree?
-- Has social media changed what people expect from a holiday?
+- Where do your holiday ideas usually come from?
+- Can a photograph tell you whether you would enjoy a place?
+- Have you ever arrived somewhere that looked different from its pictures?
 
 === Intermediate talk about it ===
 
-- 37% feel pressure to make their holidays look exciting. Where does that pressure come from?
-- Why do people still book through travel agents when everything is searchable?
-- Should popular sites limit visitor numbers, or let crowds sort themselves out?
+- Would you still go somewhere if there were nothing to post about it?
+- How many photos is too many on a holiday, or is there no such number?
+- What do people who live in a popular place gain, and what do they lose?
 
 === Advanced before you read ===
 
-- What should you check before trusting a survey finding?
 - Does being influenced by an image make a choice less genuine?
+- What does a travel photograph usually leave outside the frame?
 - Who benefits when a place becomes famous online?
 
 === Advanced talk about it ===
 
-- The article calls social media a weak arbiter but a strong amplifier. Is that fair?
-- One study was commissioned by a seller of experiences, the other by a trade association. How much should that affect your reading?
-- AI inspiration tripled in two years. What would that change about travel?
+- The article says a feed teaches us what a place is supposed to look like. Is that fair?
+- Is looking for an undiscovered place part of the same problem?
+- What would you want to remember from a trip if you took no pictures at all?
