@@ -1,0 +1,320 @@
+{
+  "slug": "can-you-learn-a-better-life-from-an-italian-grandmother",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "The two women still work most days in a ____ in the south of Italy.",
+            "a": "bakery"
+          },
+          {
+            "s": "Visitors travel to the town and wait in a ____ outside the shop.",
+            "a": "queue"
+          },
+          {
+            "s": "A nonna is an Italian ____.",
+            "a": "grandmother"
+          },
+          {
+            "s": "Nonnamaxxing is a joke about copying the ____ people imagine a nonna has.",
+            "a": "habits"
+          },
+          {
+            "s": "In the videos the two friends cook, sing and ____ a great deal.",
+            "a": "laugh"
+          }
+        ],
+        "extra": [
+          "airport",
+          "score"
+        ]
+      },
+      "match": [
+        {
+          "t": "bakery",
+          "d": "a shop where bread is made and sold"
+        },
+        {
+          "t": "queue",
+          "d": "a line of people waiting for something"
+        },
+        {
+          "t": "habit",
+          "d": "something a person does regularly"
+        },
+        {
+          "t": "neighbour",
+          "d": "a person who lives near you"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The two friends ____ each other since they were girls.",
+            "cue": "know",
+            "a": "have known"
+          },
+          {
+            "s": "Millions of people ____ the videos.",
+            "cue": "watch",
+            "a": "have watched"
+          },
+          {
+            "s": "Most days they are still ____ in the bakery.",
+            "cue": "work",
+            "a": "working"
+          },
+          {
+            "s": "Maxxing ____ pushing something as far as it will go.",
+            "cue": "mean",
+            "a": "means"
+          },
+          {
+            "s": "No habit can ____ anybody a long life.",
+            "cue": "promise",
+            "a": "promise"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Grazia Incampo and Teresa Calia have been friends since childhood.",
+          "a": "T",
+          "why": "The text says: \"have known each other since they were girls\""
+        },
+        {
+          "s": "Every Italian grandmother cooks at home.",
+          "a": "F",
+          "why": "The text says: \"Not every Italian grandmother cooks, and plenty of them have phones and busy jobs\""
+        },
+        {
+          "s": "The bakery sends its bread to other countries.",
+          "a": "N",
+          "why": "The text does not say anything about where the bread is sold"
+        },
+        {
+          "s": "The women give crackers to people waiting outside.",
+          "a": "T",
+          "why": "The text says: \"the two women come out with a tray of fresh crackers and hand them round\""
+        },
+        {
+          "s": "Minning means doing less rather than more.",
+          "a": "T",
+          "why": "The text says: \"minning instead, which means doing less rather than more\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Maxxing is internet ____ for taking something to its limit.",
+            "a": "shorthand"
+          },
+          {
+            "s": "The steady supply of advice can leave you feeling there is one more part of your life to ____.",
+            "a": "repair"
+          },
+          {
+            "s": "The attraction is less about Italy than about wanting more ____ and less performance.",
+            "a": "connection"
+          },
+          {
+            "s": "Italian grandmothers are individuals rather than a ____.",
+            "a": "lifestyle"
+          },
+          {
+            "s": "A short sunny video leaves out a great deal of ____.",
+            "a": "labour"
+          }
+        ],
+        "extra": [
+          "suitcase",
+          "target"
+        ]
+      },
+      "match": [
+        {
+          "t": "shorthand",
+          "d": "a quick way of saying something longer"
+        },
+        {
+          "t": "contradiction",
+          "d": "two ideas that do not fit together"
+        },
+        {
+          "t": "labour",
+          "d": "hard work, especially physical work"
+        },
+        {
+          "t": "performance",
+          "d": "something done so that other people will see it"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "They ____ friends since childhood.",
+            "cue": "be",
+            "a": "have been"
+          },
+          {
+            "s": "Visitors now ____ outside the shop to watch them work.",
+            "cue": "queue",
+            "a": "queue"
+          },
+          {
+            "s": "Rather than ____ a walk as a target, you might say hello to somebody.",
+            "cue": "treat",
+            "a": "treating"
+          },
+          {
+            "s": "Writing in the Guardian, Polly Hudson ____ minning instead.",
+            "cue": "suggest",
+            "a": "suggests"
+          },
+          {
+            "s": "No amount of pasta can ____ to lengthen anybody's life.",
+            "cue": "promise",
+            "a": "be promised"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The word nonnamaxxing joins the Italian for grandmother to internet slang.",
+          "a": "T",
+          "why": "The text says: \"The word joins nonna, Italian for grandmother, to maxxing, internet shorthand for taking something to its limit\""
+        },
+        {
+          "s": "The article says every use of maxxing is serious.",
+          "a": "F",
+          "why": "The text says: \"Some people mean it seriously and others are mocking the whole language of self-improvement\""
+        },
+        {
+          "s": "The bakery has existed for more than a hundred years.",
+          "a": "N",
+          "why": "The text does not say how old the bakery is"
+        },
+        {
+          "s": "The article says cooking and gardening can be promised to lengthen life.",
+          "a": "F",
+          "why": "The text says: \"no amount of pasta or gardening can be promised to lengthen anybody's life\""
+        },
+        {
+          "s": "Minning is presented as a joke in a column rather than a measured movement.",
+          "a": "T",
+          "why": "The text says: \"It is a joke in a column, not a measured movement\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "The suffix is fixed to protein, productivity and sleep, as though an ____ setting were waiting in every hour.",
+            "a": "optimal"
+          },
+          {
+            "s": "A carefully framed video is still a ____ window.",
+            "a": "narrow"
+          },
+          {
+            "s": "Compressing a varied group of women into one comforting ____ overlooks the individuals.",
+            "a": "type"
+          },
+          {
+            "s": "If a slower life requires everything documented, it has acquired a long list of ____.",
+            "a": "tasks"
+          },
+          {
+            "s": "Hudson's piece is ____ rather than evidence of anything.",
+            "a": "commentary"
+          }
+        ],
+        "extra": [
+          "timetable",
+          "proof"
+        ]
+      },
+      "match": [
+        {
+          "t": "optimal",
+          "d": "the best possible, in the circumstances"
+        },
+        {
+          "t": "obligation",
+          "d": "something you are required to do"
+        },
+        {
+          "t": "commentary",
+          "d": "writing that gives an opinion on events"
+        },
+        {
+          "t": "sincere",
+          "d": "meant honestly, not as a joke"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The trend borrows a ____ image of the Italian grandmother.",
+            "cue": "FOND",
+            "a": "fond"
+          },
+          {
+            "s": "Older generations were hardly spared demanding work and money ____.",
+            "cue": "WORRY",
+            "a": "worries"
+          },
+          {
+            "s": "Time is ____ distributed between people.",
+            "cue": "EVEN",
+            "a": "unevenly"
+          },
+          {
+            "s": "The acts look almost radical, which says more about the ____ than the acts.",
+            "cue": "ADVISE",
+            "a": "advice"
+          },
+          {
+            "s": "Simplicity can quietly become a ____.",
+            "cue": "PERFORM",
+            "a": "performance"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The article says maxxing is attached to things other than cooking.",
+          "a": "T",
+          "why": "The text says: \"Maxxing is also fixed to protein, productivity, sleep and appearance\""
+        },
+        {
+          "s": "The article claims all Italian grandmothers keep the same timetable.",
+          "a": "F",
+          "why": "The text says: \"Italian grandmothers share neither a personality nor a timetable\""
+        },
+        {
+          "s": "The two women were first filmed by a national television channel.",
+          "a": "N",
+          "why": "The text does not say who first filmed them"
+        },
+        {
+          "s": "The article says living slowly costs some people more effort than others.",
+          "a": "T",
+          "why": "The text says: \"What is a pleasant choice for one person is an expensive piece of organisation for another\""
+        },
+        {
+          "s": "Hudson's column is described as evidence that society has changed.",
+          "a": "F",
+          "why": "The text says: \"It is commentary rather than evidence of anything\""
+        }
+      ]
+    }
+  }
+}

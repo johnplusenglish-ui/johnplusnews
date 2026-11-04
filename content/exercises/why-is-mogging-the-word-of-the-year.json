@@ -1,0 +1,320 @@
+{
+  "slug": "why-is-mogging-the-word-of-the-year",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Mogging means ____ or outperforming someone or something.",
+            "a": "outshining"
+          },
+          {
+            "s": "Collins says young people mostly use it in a light, joking way when somebody is ____.",
+            "a": "upstaged"
+          },
+          {
+            "s": "AMOG stands for ____ male of the group.",
+            "a": "alpha"
+          },
+          {
+            "s": "In the photograph, the dog got all the ____.",
+            "a": "attention"
+          },
+          {
+            "s": "People are more than a face or a ____.",
+            "a": "score"
+          }
+        ],
+        "extra": [
+          "suitcase",
+          "queue"
+        ]
+      },
+      "match": [
+        {
+          "t": "outshine",
+          "d": "get more attention than someone else"
+        },
+        {
+          "t": "upstage",
+          "d": "take attention away from another person"
+        },
+        {
+          "t": "slang",
+          "d": "informal words used by a particular group"
+        },
+        {
+          "t": "shortlist",
+          "d": "the small group of choices left at the end"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "On 3 November 2026, Collins ____ mogging as its word of the year.",
+            "cue": "choose",
+            "a": "chose"
+          },
+          {
+            "s": "The dog ____ into the middle of the shot.",
+            "cue": "walk",
+            "a": "walks"
+          },
+          {
+            "s": "Words ____ as new people pick them up.",
+            "cue": "change",
+            "a": "change"
+          },
+          {
+            "s": "Most teenagers using it ____ no idea where it came from.",
+            "cue": "have",
+            "a": "have"
+          },
+          {
+            "s": "A job may be ____ by a company that is not hiring.",
+            "cue": "advertise",
+            "a": "advertised"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Collins chose mogging as its word of the year in November 2026.",
+          "a": "T",
+          "why": "The text says: \"On 3 November 2026, Collins chose mogging as its word of the year\""
+        },
+        {
+          "s": "The word was invented by teenagers.",
+          "a": "F",
+          "why": "The text says: \"Around 2016 it was used in gyms for the most physically powerful man in the room\""
+        },
+        {
+          "s": "The dog in the imagined photograph is called Max.",
+          "a": "N",
+          "why": "The text does not give the dog a name"
+        },
+        {
+          "s": "A ghost job is a job advertised by a company that is not really hiring.",
+          "a": "T",
+          "why": "The text says: \"ghost job, which is a job advertised by a company that is not actually hiring\""
+        },
+        {
+          "s": "The article says a word can do two different jobs.",
+          "a": "T",
+          "why": "The text says: \"the same word can do two very different jobs\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Alex Beecroft said younger speakers use it playfully and ____.",
+            "a": "ironically"
+          },
+          {
+            "s": "The manosphere is a loose collection of online spaces where some men discuss status and ____.",
+            "a": "dominance"
+          },
+          {
+            "s": "To mog somebody was to make them look ____ in appearance or confidence.",
+            "a": "inferior"
+          },
+          {
+            "s": "Some apps use artificial intelligence to give a face a ____.",
+            "a": "rating"
+          },
+          {
+            "s": "Carspreading is carmakers building every new model longer, wider and ____.",
+            "a": "heavier"
+          }
+        ],
+        "extra": [
+          "suitcase",
+          "affectionate"
+        ]
+      },
+      "match": [
+        {
+          "t": "ironically",
+          "d": "meaning the opposite of the words used"
+        },
+        {
+          "t": "inferior",
+          "d": "not as good as someone or something else"
+        },
+        {
+          "t": "dominance",
+          "d": "power or control over others"
+        },
+        {
+          "t": "restrictive",
+          "d": "limiting what you are allowed to do or eat"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Collins ____ its word of the year on 3 November.",
+            "cue": "announce",
+            "a": "announced"
+          },
+          {
+            "s": "Mogging is ____ to be a shortening of AMOG.",
+            "cue": "believe",
+            "a": "believed"
+          },
+          {
+            "s": "That history has not ____ because the word is now funny.",
+            "cue": "vanish",
+            "a": "vanished"
+          },
+          {
+            "s": "Dr Reese has ____ a sharp rise in eating disorders.",
+            "cue": "describe",
+            "a": "described"
+          },
+          {
+            "s": "The two ideas are related but they are not the ____ thing.",
+            "cue": "same",
+            "a": "same"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Collins reported that use of the word rose by 210% over the year.",
+          "a": "T",
+          "why": "The text says: \"says usage rose by 210% over the year\""
+        },
+        {
+          "s": "The article says looksmaxxing and mogging mean the same thing.",
+          "a": "F",
+          "why": "The text says: \"The two ideas are related but they are not the same\""
+        },
+        {
+          "s": "Dr Jasmine Reese has published a book about the trend.",
+          "a": "N",
+          "why": "The text does not mention a book"
+        },
+        {
+          "s": "Collins and Dictionary.com made separate choices this year.",
+          "a": "T",
+          "why": "The text says: \"Collins and Dictionary.com made separate choices this year, and there is no single official word of the year\""
+        },
+        {
+          "s": "The article says everyone using the word shares the beliefs of its inventors.",
+          "a": "F",
+          "why": "The text says: \"None of this means that everyone using the word shares the beliefs of the people who coined it\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "The word ____ around 2016 as gym vocabulary.",
+            "a": "surfaces"
+          },
+          {
+            "s": "It then ____ into a verb inside the manosphere.",
+            "a": "hardens"
+          },
+          {
+            "s": "Slang gives those observations a convenient ____.",
+            "a": "shorthand"
+          },
+          {
+            "s": "Words ____ from their origins routinely.",
+            "a": "detach"
+          },
+          {
+            "s": "A word of the year records attention rather than ____.",
+            "a": "approval"
+          }
+        ],
+        "extra": [
+          "suitcase",
+          "frequency"
+        ]
+      },
+      "match": [
+        {
+          "t": "detach",
+          "d": "become separated from something"
+        },
+        {
+          "t": "endorse",
+          "d": "publicly support or approve of something"
+        },
+        {
+          "t": "corpus",
+          "d": "a large collection of texts used for research"
+        },
+        {
+          "t": "proposition",
+          "d": "a thing suggested, or a matter to be considered"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "To mog someone was to make them visibly ____.",
+            "cue": "INFERIOR",
+            "a": "inferior"
+          },
+          {
+            "s": "It is difficult to imagine a less ____ origin.",
+            "cue": "PLAY",
+            "a": "playful"
+          },
+          {
+            "s": "The ____ concern attaches to the neighbouring trend.",
+            "cue": "CLINIC",
+            "a": "clinical"
+          },
+          {
+            "s": "Teenagers took the teeth out of it, which shows that slang travels ____.",
+            "cue": "UP",
+            "a": "upward"
+          },
+          {
+            "s": "P(doom) is a ____ estimate of how likely someone thinks a collapse is.",
+            "cue": "PERCENT",
+            "a": "percentage"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "About a decade separates the gym usage from the joke about a dog.",
+          "a": "T",
+          "why": "The text says: \"about a decade separates that usage from the dog\""
+        },
+        {
+          "s": "The article says teenagers coined the word.",
+          "a": "F",
+          "why": "The text says: \"Mogging was not coined by teenagers. It was coined by grown men in gyms and forums\""
+        },
+        {
+          "s": "Collins received more than a million public votes for its shortlist.",
+          "a": "N",
+          "why": "The text does not say how Collins gathered opinions about the shortlist"
+        },
+        {
+          "s": "Some newer uses of the word mock the practice of ranking people.",
+          "a": "T",
+          "why": "The text says: \"Some newer uses are explicitly mocking the business of ranking people\""
+        },
+        {
+          "s": "The article says looksmaxxing and mogging describe the same behaviour.",
+          "a": "F",
+          "why": "The text says: \"looksmaxxing concerns altering your own appearance, while mogging concerns outdoing somebody else's\""
+        }
+      ]
+    }
+  }
+}

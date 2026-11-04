@@ -1,0 +1,320 @@
+{
+  "slug": "where-do-your-words-actually-come-from",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Slang means ____ words used by a particular group.",
+            "a": "informal"
+          },
+          {
+            "s": "A song, a game or a video can ____ a word into a hundred countries.",
+            "a": "carry"
+          },
+          {
+            "s": "Somebody hears a word, repeats it, and gives it a new ____.",
+            "a": "audience"
+          },
+          {
+            "s": "Words like this make people feel ____.",
+            "a": "close"
+          },
+          {
+            "s": "Whether a word fits depends on the situation and the people, so it depends on the ____.",
+            "a": "context"
+          }
+        ],
+        "extra": [
+          "suitcase",
+          "dictionary"
+        ]
+      },
+      "match": [
+        {
+          "t": "slang",
+          "d": "informal words used by a particular group"
+        },
+        {
+          "t": "audience",
+          "d": "the people who watch, read or listen to something"
+        },
+        {
+          "t": "context",
+          "d": "the situation that helps explain a meaning"
+        },
+        {
+          "t": "informal",
+          "d": "relaxed, and not suitable for official writing"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Somebody ____ a photo in the group chat.",
+            "cue": "post",
+            "a": "has posted"
+          },
+          {
+            "s": "Ten minutes later you are ____ the word yourself.",
+            "cue": "use",
+            "a": "using"
+          },
+          {
+            "s": "Young people have always ____ this.",
+            "cue": "do",
+            "a": "done"
+          },
+          {
+            "s": "A dictionary cannot always ____ you where a word belongs.",
+            "cue": "tell",
+            "a": "tell"
+          },
+          {
+            "s": "Most new words will ____ gone by the summer.",
+            "cue": "be",
+            "a": "be"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Slang is only ever made up of completely new words.",
+          "a": "F",
+          "why": "The text says: \"Others are ordinary words that have been given a different job\""
+        },
+        {
+          "s": "A word can travel to many countries in a few days.",
+          "a": "T",
+          "why": "The text says: \"can carry a word out of one town and into a hundred countries in a few days\""
+        },
+        {
+          "s": "The group chat in the opening has seven people in it.",
+          "a": "N",
+          "why": "The text does not say how many people are in the chat"
+        },
+        {
+          "s": "Slang can leave somebody outside a conversation.",
+          "a": "T",
+          "why": "The text says: \"A word that includes your friends can leave somebody else standing outside the conversation\""
+        },
+        {
+          "s": "The article says you must use every new word you hear.",
+          "a": "F",
+          "why": "The text says: \"You do not have to use every new word you hear\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Slang can quietly tell everybody who is in and who is ____.",
+            "a": "out"
+          },
+          {
+            "s": "When an expression becomes huge on one platform, that is rarely where it ____.",
+            "a": "began"
+          },
+          {
+            "s": "The person who made a word famous is almost never the person who ____ it.",
+            "a": "made"
+          },
+          {
+            "s": "A phrase that is natural in a message can sound strange in a job ____.",
+            "a": "application"
+          },
+          {
+            "s": "Moving between those registers is a ____, not a sign that your English is fake.",
+            "a": "skill"
+          }
+        ],
+        "extra": [
+          "suitcase",
+          "definition"
+        ]
+      },
+      "match": [
+        {
+          "t": "register",
+          "d": "the level of formality you use when speaking"
+        },
+        {
+          "t": "sarcastic",
+          "d": "saying the opposite of what you mean, often unkindly"
+        },
+        {
+          "t": "credit",
+          "d": "recognition given to the person who did something"
+        },
+        {
+          "t": "expression",
+          "d": "a word or phrase used in a particular way"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The phrase ____ out of a rap song.",
+            "cue": "come",
+            "a": "came"
+          },
+          {
+            "s": "Dictionary.com ____ it the word of the year in October 2025.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "A phrase from a game ____ up in a conversation at a bus stop.",
+            "cue": "turn",
+            "a": "turns"
+          },
+          {
+            "s": "Fluent speakers move between registers without ____ about it.",
+            "cue": "think",
+            "a": "thinking"
+          },
+          {
+            "s": "Asking what somebody ____ is the fastest way out of an awkward moment.",
+            "cue": "mean",
+            "a": "meant"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Dictionary.com chose the phrase as its 2025 word of the year.",
+          "a": "T",
+          "why": "The text says: \"in October 2025 Dictionary.com made it the word of the year\""
+        },
+        {
+          "s": "The platform where a word becomes popular is usually where it started.",
+          "a": "F",
+          "why": "The text says: \"When an expression becomes huge on one platform, that platform is very rarely where it began\""
+        },
+        {
+          "s": "The article names the school where the phrase was first used.",
+          "a": "N",
+          "why": "The text does not name a school"
+        },
+        {
+          "s": "A word's meaning can shift as it travels.",
+          "a": "T",
+          "why": "The text says: \"Along the way, the meaning often shifts. A word that started as a compliment can end up sarcastic\""
+        },
+        {
+          "s": "The article says changing how you speak means one version of your English is fake.",
+          "a": "F",
+          "why": "The text says: \"That switching is a skill, not evidence that one version of your English is fake\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Slang signals ____: you get the reference because you share a history.",
+            "a": "belonging"
+          },
+          {
+            "s": "The internet alters the ____ rather than the mechanism.",
+            "a": "scale"
+          },
+          {
+            "s": "Visibility is not ____.",
+            "a": "authorship"
+          },
+          {
+            "s": "A great deal of English slang has been ____ for a general audience.",
+            "a": "repackaged"
+          },
+          {
+            "s": "Admitting the ____ is more honest than crediting whoever went viral.",
+            "a": "uncertainty"
+          }
+        ],
+        "extra": [
+          "suitcase",
+          "boundary"
+        ]
+      },
+      "match": [
+        {
+          "t": "authorship",
+          "d": "the fact of having created something"
+        },
+        {
+          "t": "repackage",
+          "d": "present something again in a new form"
+        },
+        {
+          "t": "register",
+          "d": "the style of language chosen to suit a situation"
+        },
+        {
+          "t": "concede",
+          "d": "admit that something is true, often reluctantly"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The same language that creates connection also draws a ____ around others.",
+            "cue": "BOUND",
+            "a": "boundary"
+          },
+          {
+            "s": "A phrase can be repeated ____ or borrowed for a joke.",
+            "cue": "SINCERE",
+            "a": "sincerely"
+          },
+          {
+            "s": "Sometimes the origin is genuinely hard to ____.",
+            "cue": "ESTABLISHMENT",
+            "a": "establish"
+          },
+          {
+            "s": "Learning to make that choice ____ is worth more than using the newest word.",
+            "cue": "DELIBERATE",
+            "a": "deliberately"
+          },
+          {
+            "s": "Adults often hear unfamiliar slang as proof the language is ____.",
+            "cue": "DETERIORATE",
+            "a": "deteriorating"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Dictionary.com gave the phrase a clear and stable definition.",
+          "a": "F",
+          "why": "The text says: \"while effectively conceding that it had no stable definition\""
+        },
+        {
+          "s": "The article says the appeal of the phrase was the pleasure of being included.",
+          "a": "T",
+          "why": "The text says: \"It was the pleasure of being in on something\""
+        },
+        {
+          "s": "The article identifies the first person ever to say the phrase.",
+          "a": "N",
+          "why": "The text does not name anyone as the first speaker"
+        },
+        {
+          "s": "Slang can create connection and exclude people at the same time.",
+          "a": "T",
+          "why": "The text says: \"Both things happen at once, and usually nobody decides to do either\""
+        },
+        {
+          "s": "The article argues young people should stop using informal English.",
+          "a": "F",
+          "why": "The text says: \"being able to handle both widens your options instead of asking you to give one up\""
+        }
+      ]
+    }
+  }
+}
