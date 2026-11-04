@@ -9,6 +9,7 @@ source-2: Dictionary.com, nonnamaxxing | https://www.dictionary.com/culture/slan
 source-2-date: 2026
 source-3: Polly Hudson, Let us make 2027 the year of minning, The Guardian | https://www.theguardian.com/commentisfree/2026/nov/01/maxxing-life-2027-relax-start-minning
 source-3-date: 1 November 2026
+image: images/can-you-learn-a-better-life-from-an-italian-grandmother-22adef.jpg
 ---
 === Core ===
 
