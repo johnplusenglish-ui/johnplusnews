@@ -9,6 +9,7 @@ source: American Psychological Association, The psychology of why we use slang |
 source-date: April 2026
 source-2: European Youth Portal, Gen Z slang words and phrases | https://youth.europa.eu/get-involved/intercultural-understanding/gen-z-slang-words-and-phrases_en
 source-2-date: 26 October 2026
+image: images/where-do-your-words-actually-come-from-39b248.jpg
 ---
 === Core ===
 

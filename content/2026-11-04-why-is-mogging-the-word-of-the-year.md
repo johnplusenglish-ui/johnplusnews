@@ -9,6 +9,7 @@ source-2: Associated Press, Collins Dictionary chooses mogging as its 2026 word 
 source-2-date: 3 November 2026
 source-3: Johns Hopkins All Children's Hospital, Looksmaxxing trend poses risks for boys and teens | https://www.hopkinsmedicine.org/news/articles/2026/08/looksmaxxing-trend-poses-risks-for-boys-and-teens
 source-3-date: August 2026
+image: images/why-is-mogging-the-word-of-the-year-3067db.jpg
 ---
 === Core ===
 
