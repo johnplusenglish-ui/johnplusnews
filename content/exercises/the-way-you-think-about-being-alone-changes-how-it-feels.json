@@ -1,0 +1,320 @@
+{
+  "slug": "the-way-you-think-about-being-alone-changes-how-it-feels",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Being alone is a situation. Loneliness is a ____.",
+            "a": "feeling"
+          },
+          {
+            "s": "They read 144 American articles published between 2020 and ____.",
+            "a": "2022"
+          },
+          {
+            "s": "The articles were about ten times more likely to say that being alone was ____.",
+            "a": "harmful"
+          },
+          {
+            "s": "You can feel lonely in a ____ room.",
+            "a": "crowded"
+          },
+          {
+            "s": "Time alone that you picked for your own reasons tends to ____ you.",
+            "a": "rest"
+          }
+        ],
+        "extra": [
+          "suitcase",
+          "harbour"
+        ]
+      },
+      "match": [
+        {
+          "t": "solitude",
+          "d": "the state of being alone"
+        },
+        {
+          "t": "loneliness",
+          "d": "the unhappy feeling of wanting more company"
+        },
+        {
+          "t": "harmful",
+          "d": "causing damage to someone"
+        },
+        {
+          "t": "belief",
+          "d": "something you accept as true"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Imagine your plans for this evening ____ cancelled.",
+            "cue": "be",
+            "a": "are"
+          },
+          {
+            "s": "Psychologists ____ two things that sound similar.",
+            "cue": "separate",
+            "a": "separate"
+          },
+          {
+            "s": "Researchers at the University of Michigan ____ a study in 2025.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "People who think time alone is harmful ____ feeling lonelier.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "You do not have to use it to ____ yourself.",
+            "cue": "improve",
+            "a": "improve"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "A person can feel lonely when other people are present.",
+          "a": "T",
+          "why": "The text says: \"You can feel lonely in a crowded room\""
+        },
+        {
+          "s": "The newspaper articles usually described being alone as good for you.",
+          "a": "F",
+          "why": "The text says: \"the picture was almost always negative\""
+        },
+        {
+          "s": "The article names the newspapers that were studied.",
+          "a": "N",
+          "why": "The text does not name them"
+        },
+        {
+          "s": "The researchers say their everyday evidence cannot prove that beliefs cause the feeling.",
+          "a": "T",
+          "why": "The text says: \"Most of their everyday evidence cannot prove that beliefs cause the feeling\""
+        },
+        {
+          "s": "The 2026 paper was written by Czech researchers.",
+          "a": "T",
+          "why": "The text says: \"published in 2026 by a team of Czech researchers\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Loneliness is the uncomfortable feeling that the ____ you want is missing.",
+            "a": "connection"
+          },
+          {
+            "s": "The team analysed 144 American newspaper articles published between 2020 and ____.",
+            "a": "2022"
+          },
+          {
+            "s": "In a ____ experiment, simply reading material about the benefits of being alone shifted people's beliefs.",
+            "a": "randomised"
+          },
+          {
+            "s": "The authors do not ____.",
+            "a": "overclaim"
+          },
+          {
+            "s": "Time alone that was ____ on you tends not to be restorative.",
+            "a": "imposed"
+          }
+        ],
+        "extra": [
+          "passport",
+          "rehearsal"
+        ]
+      },
+      "match": [
+        {
+          "t": "circumstance",
+          "d": "a fact or condition of a situation"
+        },
+        {
+          "t": "restorative",
+          "d": "helping someone feel rested again"
+        },
+        {
+          "t": "unflattering",
+          "d": "showing someone or something in a poor light"
+        },
+        {
+          "t": "motivation",
+          "d": "the reason why someone does something"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Your plans ____ through.",
+            "cue": "fall",
+            "a": "fall"
+          },
+          {
+            "s": "Nothing in the room has ____.",
+            "cue": "change",
+            "a": "changed"
+          },
+          {
+            "s": "The team ____ 144 American newspaper articles.",
+            "cue": "analyse",
+            "a": "analysed"
+          },
+          {
+            "s": "People with more positive beliefs ____ less.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "They ____ that the influence may run both ways.",
+            "cue": "accept",
+            "a": "accept"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The study was carried out by researchers at the University of Michigan.",
+          "a": "T",
+          "why": "The text says: \"by researchers at the University of Michigan\""
+        },
+        {
+          "s": "The authors claim their studies prove that beliefs cause loneliness.",
+          "a": "F",
+          "why": "The text says: \"they cannot establish that beliefs cause loneliness\""
+        },
+        {
+          "s": "The article says how many people took part in the experiment.",
+          "a": "N",
+          "why": "The text does not give the number of participants"
+        },
+        {
+          "s": "Countries with higher loneliness held more negative beliefs about solitude.",
+          "a": "T",
+          "why": "The text says: \"where loneliness was higher, beliefs about solitude were more negative\""
+        },
+        {
+          "s": "The 2026 paper says physical isolation is what divides solitude from loneliness.",
+          "a": "F",
+          "why": "The text says: \"solitude and loneliness are not divided by how physically isolated you are, but by motivation\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "We are, in other words, instructed repeatedly that solitude is a ____.",
+            "a": "deficiency"
+          },
+          {
+            "s": "The authors are commendably ____ about what this establishes.",
+            "a": "restrained"
+          },
+          {
+            "s": "A randomised experiment showed the beliefs themselves are ____.",
+            "a": "movable"
+          },
+          {
+            "s": "Loneliness is non-self-determined, arriving through ____ or the frustration of those same needs.",
+            "a": "imposition"
+          },
+          {
+            "s": "Choice is not distributed ____.",
+            "a": "evenly"
+          }
+        ],
+        "extra": [
+          "itinerary",
+          "surcharge"
+        ]
+      },
+      "match": [
+        {
+          "t": "deficiency",
+          "d": "a lack of something needed"
+        },
+        {
+          "t": "observational",
+          "d": "based on watching rather than on an experiment"
+        },
+        {
+          "t": "complementary",
+          "d": "adding something useful to another thing"
+        },
+        {
+          "t": "asymmetry",
+          "d": "a lack of balance between two sides"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Coverage of being alone was ____ negative.",
+            "cue": "OVERWHELM",
+            "a": "overwhelmingly"
+          },
+          {
+            "s": "The authors are ____ restrained about what this establishes.",
+            "cue": "COMMEND",
+            "a": "commendably"
+          },
+          {
+            "s": "Their ____ studies cannot demonstrate causation.",
+            "cue": "OBSERVE",
+            "a": "observational"
+          },
+          {
+            "s": "A ____ paper published in 2026 proposes a complementary distinction.",
+            "cue": "CONCEPT",
+            "a": "conceptual"
+          },
+          {
+            "s": "Solitude can support autonomy, competence or ____.",
+            "cue": "RELATE",
+            "a": "relatedness"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The 2025 paper analysed newspaper articles from 2020 to 2022.",
+          "a": "T",
+          "why": "The text says: \"Analysing 144 American newspaper articles from 2020 to 2022\""
+        },
+        {
+          "s": "The authors say their observational studies demonstrate causation.",
+          "a": "F",
+          "why": "The text says: \"Their observational studies cannot demonstrate causation\""
+        },
+        {
+          "s": "The article gives the number of countries compared.",
+          "a": "N",
+          "why": "The text does not say how many countries were included"
+        },
+        {
+          "s": "The 2026 paper draws on self-determination theory.",
+          "a": "T",
+          "why": "The text says: \"Drawing on self-determination theory\""
+        },
+        {
+          "s": "The article argues that enjoying your own company can replace friendship.",
+          "a": "F",
+          "why": "The text says: \"enjoying your own company is not a substitute for friendship\""
+        }
+      ]
+    }
+  }
+}

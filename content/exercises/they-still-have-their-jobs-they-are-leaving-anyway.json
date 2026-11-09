@@ -1,0 +1,320 @@
+{
+  "slug": "they-still-have-their-jobs-they-are-leaving-anyway",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "AI had taken a lot of the thinking and the ____ out of writing code.",
+            "a": "fun"
+          },
+          {
+            "s": "He left and joined the ____ in a large American city.",
+            "a": "police"
+          },
+          {
+            "s": "Kara, who also used a different name, was an advertising ____.",
+            "a": "producer"
+          },
+          {
+            "s": "There is no evidence that AI is causing mass job ____.",
+            "a": "losses"
+          },
+          {
+            "s": "Many editors had stopped editing and had become ____ of work that a machine produced.",
+            "a": "managers"
+          }
+        ],
+        "extra": [
+          "suitcase",
+          "harvest"
+        ]
+      },
+      "match": [
+        {
+          "t": "redundant",
+          "d": "no longer needed and so losing your job"
+        },
+        {
+          "t": "evidence",
+          "d": "facts that show whether something is true"
+        },
+        {
+          "t": "satisfaction",
+          "d": "the good feeling of doing something well"
+        },
+        {
+          "t": "responsible",
+          "d": "having the duty to deal with something"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "They all ____ to leave.",
+            "cue": "choose",
+            "a": "chose"
+          },
+          {
+            "s": "You still ____ paid.",
+            "cue": "get",
+            "a": "get"
+          },
+          {
+            "s": "Her company ____ her team to use AI tools.",
+            "cue": "tell",
+            "a": "told"
+          },
+          {
+            "s": "The stress never ____.",
+            "cue": "stop",
+            "a": "stopped"
+          },
+          {
+            "s": "71% of Americans ____ AI to mean fewer jobs.",
+            "cue": "expect",
+            "a": "expect"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Chris joined the police.",
+          "a": "T",
+          "why": "The text says: \"He left and joined the police in a large American city\""
+        },
+        {
+          "s": "The workers in the report were made redundant.",
+          "a": "F",
+          "why": "The text says: \"Nobody made them redundant. They all chose to leave\""
+        },
+        {
+          "s": "The article says which coffee shop Kara works in.",
+          "a": "N",
+          "why": "The text does not say where she works"
+        },
+        {
+          "s": "The Economist says AI has created about a million jobs in the United States.",
+          "a": "T",
+          "why": "The text says: \"AI has created about a million jobs in the United States\""
+        },
+        {
+          "s": "Hanna Horvath left an editing job.",
+          "a": "T",
+          "why": "The text says: \"Hanna Horvath, left an editing job to work for herself\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Chris asked for a ____ rather than giving his real name.",
+            "a": "pseudonym"
+          },
+          {
+            "s": "He expected to be ____ eventually.",
+            "a": "displaced"
+          },
+          {
+            "s": "As producer, she was the one responsible for ____ at a moment when AI-generated likenesses remain a legal grey area.",
+            "a": "clearance"
+          },
+          {
+            "s": "The Economist counts roughly a million American jobs created by AI against about 200,000 losses ____ to it.",
+            "a": "attributed"
+          },
+          {
+            "s": "Her colleagues had turned into project ____ for material the machine generated.",
+            "a": "managers"
+          }
+        ],
+        "extra": [
+          "passport",
+          "rehearsal"
+        ]
+      },
+      "match": [
+        {
+          "t": "pseudonym",
+          "d": "a false name used instead of a real one"
+        },
+        {
+          "t": "displace",
+          "d": "force someone or something out of its place"
+        },
+        {
+          "t": "voluntarily",
+          "d": "by your own choice, not because you were made to"
+        },
+        {
+          "t": "expectation",
+          "d": "what someone believes is going to happen"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "None of them ____ pushed out.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "They ____ voluntarily, into work they believed was more secure.",
+            "cue": "go",
+            "a": "went"
+          },
+          {
+            "s": "Her employer ____ the team towards AI video and voice tools.",
+            "cue": "push",
+            "a": "pushed"
+          },
+          {
+            "s": "What has ____ is expectation.",
+            "cue": "change",
+            "a": "changed"
+          },
+          {
+            "s": "A prediction does not need to ____ true to change a life.",
+            "cue": "come",
+            "a": "come"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The workers described in the report left their jobs by choice.",
+          "a": "T",
+          "why": "The text says: \"They went voluntarily, into work they believed was either more secure or closer to what they actually valued\""
+        },
+        {
+          "s": "The evidence shows AI is causing mass redundancy.",
+          "a": "F",
+          "why": "The text says: \"There is no sign of mass redundancy\""
+        },
+        {
+          "s": "The article says how old Chris is.",
+          "a": "N",
+          "why": "The text does not give his age"
+        },
+        {
+          "s": "Brendan Moore teaches economics at the University of Notre Dame.",
+          "a": "T",
+          "why": "The text says: \"Brendan Moore, an economist at the University of Notre Dame\""
+        },
+        {
+          "s": "Vanessa Hsia left public relations to study comparative literature.",
+          "a": "T",
+          "why": "The text says: \"Vanessa Hsia left public relations after nearly ten years to study comparative literature\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "He wrote of a world in ____.",
+            "a": "peril"
+          },
+          {
+            "s": "An anonymous engineer said the career he had built over ten years was fundamentally ____.",
+            "a": "gone"
+          },
+          {
+            "s": "That is not redundancy. It is a quiet ____ of one occupation for another behind an unchanged job title.",
+            "a": "substitution"
+          },
+          {
+            "s": "The economic picture refuses to ____ with the fear.",
+            "a": "cooperate"
+          },
+          {
+            "s": "Efficiency and loss can be the same event viewed from two ____.",
+            "a": "desks"
+          }
+        ],
+        "extra": [
+          "itinerary",
+          "surcharge"
+        ]
+      },
+      "match": [
+        {
+          "t": "peril",
+          "d": "serious and immediate danger"
+        },
+        {
+          "t": "absorbing",
+          "d": "interesting enough to hold your full attention"
+        },
+        {
+          "t": "defensible",
+          "d": "able to be justified with good reasons"
+        },
+        {
+          "t": "restrained",
+          "d": "deliberately controlled and not excessive"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "An ____ engineer said his career was fundamentally gone.",
+            "cue": "ANONYMITY",
+            "a": "anonymous"
+          },
+          {
+            "s": "Their accounts share a ____.",
+            "cue": "STRUCTURAL",
+            "a": "structure"
+          },
+          {
+            "s": "The practical ____ sits underneath.",
+            "cue": "QUESTIONING",
+            "a": "question"
+          },
+          {
+            "s": "Leaving early while you still have the choice is a ____ move.",
+            "cue": "DEFEND",
+            "a": "defensible"
+          },
+          {
+            "s": "Hsia described an industry substituting AI for ____ thinking.",
+            "cue": "CRITICISM",
+            "a": "critical"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Mrinank Sharma's resignation letter was read more than fifteen million times.",
+          "a": "T",
+          "why": "The text says: \"published his resignation letter on X, where it was read more than fifteen million times\""
+        },
+        {
+          "s": "Dario Amodei's 2025 prediction has come true.",
+          "a": "F",
+          "why": "The text says: \"That has not happened\""
+        },
+        {
+          "s": "The article states Sharma's salary at Anthropic.",
+          "a": "N",
+          "why": "The text does not mention his pay"
+        },
+        {
+          "s": "Brendan Moore says some firms would have cut staff even without AI.",
+          "a": "T",
+          "why": "The text says: \"many of those companies would have cut staff anyway\""
+        },
+        {
+          "s": "The article says workers are routinely consulted about how AI is introduced.",
+          "a": "F",
+          "why": "The text says: \"very few of the people doing the work are being asked which\""
+        }
+      ]
+    }
+  }
+}

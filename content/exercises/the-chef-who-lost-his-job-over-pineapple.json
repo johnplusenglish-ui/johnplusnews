@@ -1,0 +1,320 @@
+{
+  "slug": "the-chef-who-lost-his-job-over-pineapple",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "He told his customers and his boss that the combination was an ____ to Italian culture.",
+            "a": "insult"
+          },
+          {
+            "s": "The restaurant ____ him.",
+            "a": "sacked"
+          },
+          {
+            "s": "Luca Cesari is a food ____ who has written a history of pizza.",
+            "a": "historian"
+          },
+          {
+            "s": "Cream in ____ was introduced by a few cooks in Rome in the 1960s.",
+            "a": "carbonara"
+          },
+          {
+            "s": "A recipe can connect us to our family and our ____.",
+            "a": "home"
+          }
+        ],
+        "extra": [
+          "suitcase",
+          "harbour"
+        ]
+      },
+      "match": [
+        {
+          "t": "insult",
+          "d": "something rude that offends a person"
+        },
+        {
+          "t": "sack",
+          "d": "remove someone from their job"
+        },
+        {
+          "t": "traditional",
+          "d": "done the same way for a long time"
+        },
+        {
+          "t": "recipe",
+          "d": "instructions for making a dish"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "He ____ to put pineapple on a pizza.",
+            "cue": "refuse",
+            "a": "refused"
+          },
+          {
+            "s": "Pizza ____ people together.",
+            "cue": "bring",
+            "a": "brings"
+          },
+          {
+            "s": "Queensland ____ almost all of Australia's pineapples.",
+            "cue": "grow",
+            "a": "grows"
+          },
+          {
+            "s": "Pasta ____ eaten soft for hundreds of years.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "A recipe can also ____, as it always has.",
+            "cue": "change",
+            "a": "change"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Tamburella was working at a restaurant in Brisbane.",
+          "a": "T",
+          "why": "The text says: \"He was working at a restaurant in Brisbane, Australia, and he refused to put pineapple on a pizza\""
+        },
+        {
+          "s": "Every Italian is against pineapple on pizza.",
+          "a": "F",
+          "why": "The text says: \"Not every Italian is against pineapple either\""
+        },
+        {
+          "s": "The article gives the price of the pizza.",
+          "a": "N",
+          "why": "The text does not mention any prices"
+        },
+        {
+          "s": "A chef from Bologna lost a job in France in 2017.",
+          "a": "T",
+          "why": "The text says: \"In 2017 a chef from Bologna was sacked by a restaurant near Lyon, in France\""
+        },
+        {
+          "s": "Queensland grows almost all of Australia's pineapples.",
+          "a": "T",
+          "why": "The text says: \"Queensland, the state where Brisbane is, grows almost all of Australia's pineapples\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "He would not give way to his customers or to his boss, insisting that the combination was an ____ to Italian culture.",
+            "a": "insult"
+          },
+          {
+            "s": "In Bologna, ragù is eaten with ____ and nothing else.",
+            "a": "tagliatelle"
+          },
+          {
+            "s": "Food fashions move faster than ever, and there are now more chefs on television than ____ cooking at home.",
+            "a": "grandmothers"
+          },
+          {
+            "s": "A spoonful of cream in a carbonara is now enough to cause an ____.",
+            "a": "argument"
+          },
+          {
+            "s": "Franco Pepe created a filled pizza cone he called the AnaNascosta, the ____ pineapple.",
+            "a": "hidden"
+          }
+        ],
+        "extra": [
+          "passport",
+          "rehearsal"
+        ]
+      },
+      "match": [
+        {
+          "t": "insist",
+          "d": "say something firmly and refuse to change it"
+        },
+        {
+          "t": "enforce",
+          "d": "make sure a rule is obeyed"
+        },
+        {
+          "t": "acidic",
+          "d": "having a sharp, sour taste"
+        },
+        {
+          "t": "settled",
+          "d": "agreed and no longer in question"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The restaurant ____ him.",
+            "cue": "sack",
+            "a": "sacked"
+          },
+          {
+            "s": "Italians can ____ that their cooking is under pressure.",
+            "cue": "sense",
+            "a": "sense"
+          },
+          {
+            "s": "The difficulty is that the recipes ____ moving too.",
+            "cue": "keep",
+            "a": "keep"
+          },
+          {
+            "s": "Macaroni with cheese ____ served beside meat from the Middle Ages onwards.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "None of that ____ anybody to enjoy it.",
+            "cue": "oblige",
+            "a": "obliges"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Maurizio Landi was sacked near Lyon in 2017.",
+          "a": "T",
+          "why": "The text says: \"In 2017 Maurizio Landi, a chef from Bologna, was sacked by a bistro near Lyon\""
+        },
+        {
+          "s": "Cream in carbonara has been standard in Italy for centuries.",
+          "a": "F",
+          "why": "The text says: \"a few Roman cooks introduced it in the 1960s and kept it up for forty years\""
+        },
+        {
+          "s": "The article says how much Tamburella earned.",
+          "a": "N",
+          "why": "The text does not mention his pay"
+        },
+        {
+          "s": "Gino Sorbillo allows pineapple only on a pizza without tomato.",
+          "a": "T",
+          "why": "The text says: \"has allowed it on a white pizza with no tomato, which would otherwise make it too acidic\""
+        },
+        {
+          "s": "Cesari argues that Italian food rules have stayed the same.",
+          "a": "F",
+          "why": "The text says: \"The difficulty is that the recipes keep moving too\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Queensland grows almost all of Australia's pineapples, which gives the stand a certain splendid ____.",
+            "a": "futility"
+          },
+          {
+            "s": "Cesari treats this with ____ rather than mockery.",
+            "a": "affection"
+          },
+          {
+            "s": "Cream in a carbonara, now close to a criminal ____, was introduced by Roman cooks in the 1960s.",
+            "a": "offence"
+          },
+          {
+            "s": "The toppings change; the authorities are ____.",
+            "a": "permanent"
+          },
+          {
+            "s": "The heat rarely comes from the ____.",
+            "a": "ingredient"
+          }
+        ],
+        "extra": [
+          "itinerary",
+          "surcharge"
+        ]
+      },
+      "match": [
+        {
+          "t": "futility",
+          "d": "the quality of being pointless however hard you try"
+        },
+        {
+          "t": "restrained",
+          "d": "careful not to claim or show too much"
+        },
+        {
+          "t": "prejudice",
+          "d": "a fixed opinion formed without good reason"
+        },
+        {
+          "t": "complementary",
+          "d": "adding something useful to another thing"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Cesari's list is quietly ____.",
+            "cue": "DEVASTATE",
+            "a": "devastating"
+          },
+          {
+            "s": "He treats this with affection rather than ____.",
+            "cue": "MOCK",
+            "a": "mockery"
+          },
+          {
+            "s": "The highest authorities dismissed anchovies and sausage as modern ____.",
+            "cue": "INNOVATE",
+            "a": "innovations"
+          },
+          {
+            "s": "A London chain sold a spiced sauce to annoy the ____ out of existence.",
+            "cue": "PREJUDICED",
+            "a": "prejudice"
+          },
+          {
+            "s": "Cesari's ____ is the sharpest thing in the piece.",
+            "cue": "CONCLUDE",
+            "a": "conclusion"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "A newspaper complained about pizza toppings in 1860.",
+          "a": "T",
+          "why": "The text says: \"In December 1860 the Morning Post described Neapolitan pizza\""
+        },
+        {
+          "s": "Cesari mocks Italians for defending their food.",
+          "a": "F",
+          "why": "The text says: \"the food historian Luca Cesari treats this with affection rather than mockery\""
+        },
+        {
+          "s": "The article names the Brisbane restaurant.",
+          "a": "N",
+          "why": "The text does not name the restaurant"
+        },
+        {
+          "s": "Mussels with pecorino is a traditional dish.",
+          "a": "T",
+          "why": "The text says: \"the thoroughly traditional mussels with pecorino\""
+        },
+        {
+          "s": "Cesari concludes that Italians need pineapple pizza in order to eat it.",
+          "a": "F",
+          "why": "The text says: \"They need it in order to have something to despise\""
+        }
+      ]
+    }
+  }
+}
