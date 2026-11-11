@@ -5,6 +5,7 @@ summary: An Italian chef in Australia was sacked for refusing to add pineapple. 
 tags: Food, Culture, Language
 source: The Guardian, Pineapple on pizza is an insult to our great Italian cuisine, and here's why we secretly love it | https://www.theguardian.com/commentisfree/2026/nov/07/pineapple-pizza-italian-food-insult-chef-sacked
 source-date: 7 November 2026
+image: images/the-chef-who-lost-his-job-over-pineapple-0bbaf7.jpg
 ---
 === Core ===
 

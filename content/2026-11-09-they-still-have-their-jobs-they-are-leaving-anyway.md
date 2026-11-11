@@ -5,6 +5,7 @@ summary: Nobody made these workers redundant. AI changed what their work felt li
 tags: Work, Technology, Society
 source: The Guardian, Fearing AI disruption, white-collar workers are quitting their jobs | https://www.theguardian.com/technology/2026/nov/06/ai-disruption-job-quitting
 source-date: 6 November 2026
+image: images/they-still-have-their-jobs-they-are-leaving-anyway-4d94ad.jpg
 ---
 === Core ===
 

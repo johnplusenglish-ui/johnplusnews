@@ -7,6 +7,7 @@ source: Nature Communications, How people think about being alone shapes their e
 source-date: 13 February 2025
 source-2: Integrative Psychological and Behavioral Science, Time Alone: Solitude and Loneliness from the Self-Determining Perspective | https://link.springer.com/article/10.1007/s12124-026-10039-8
 source-2-date: 3 November 2026
+image: images/the-way-you-think-about-being-alone-changes-how-it-feels-609784.jpg
 ---
 === Core ===
 
