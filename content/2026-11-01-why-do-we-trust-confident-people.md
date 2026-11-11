@@ -4,7 +4,7 @@ date-label: November 2026
 summary: A psychiatrist argues that charisma should make us more careful, not less. Online, we judge people on a handful of confident minutes.
 tags: Society, Science, Social media
 source: The Guardian, Why you should treat charisma as a red flag | https://www.theguardian.com/science/2026/nov/01/why-you-should-treat-charisma-as-a-red-flag
-image: images/why-do-we-trust-confident-people-d264fb.jpg
+image: images/why-do-we-trust-confident-people-c6c36d.jpg
 ---
 === Core ===
 
