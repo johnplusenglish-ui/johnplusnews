@@ -1119,7 +1119,7 @@ FONTS = [("default", "Newsreader"), ("outfit", "Outfit")]
 # Runs in <head> before the page paints: applies the reader's saved font. Newsreader is the
 # default and Outfit the one alternative; both are hosted here.
 HEAD_JS = (
-    '<script>(function(){try{var f=localStorage.getItem("jpn_font");if(f==="outfit")document.documentElement.setAttribute("data-font","outfit")}catch(e){}})();</script>\n'
+    '<script>(function(){try{localStorage.removeItem("jpn_font")}catch(e){}})();</script>\n'
 )
 
 FONT_JS = (
@@ -1227,10 +1227,11 @@ TIMER_ICON = ('<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true
 
 
 def tools_html(timer=False):
-    """The small controls at the top right of an article: reading font, save as PDF, and the
-    classroom timer, which only floats over the page once it is actually counting."""
+    """The small controls at the top right of an article: save as PDF, and the classroom
+    timer, which only floats over the page once it is actually counting. The reading-font
+    picker was removed in November 2026: the site is set in Newsreader and that is that."""
     slot = ('<div class="timerpick" id="timerslot"></div>') if timer else ""
-    return '<div class="tools">{}{}{}</div>'.format(font_picker(), pdf_picker(), slot)
+    return '<div class="tools">{}{}</div>'.format(pdf_picker(), slot)
 
 
 def font_picker():
@@ -1728,7 +1729,7 @@ def article_page(a, newer, older, pool=()):
 <div class="metarow{tabcls}"><div class="metaleft"{printlevel}>{tabs}</div></div>
 {meta}
 {firstrun}
-<script>{fontjs}</script>
+<script></script>
 <script>{printjs}</script>
 <script>{studyjs}</script>
 <h1>{title}</h1>
@@ -1745,7 +1746,7 @@ def article_page(a, newer, older, pool=()):
 {study}
 {pager}
 <p class="print-foot">{foot}</p>
-</article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(timer=not a["teens"]), fontjs=FONT_JS, printjs=PRINT_JS, studyjs=STUDY_JS, firstrun=FIRSTRUN, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
+</article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(timer=not a["teens"]), printjs=PRINT_JS, studyjs=STUDY_JS, firstrun=FIRSTRUN, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
                      back=('<a class="back" href="/teens/">&larr; Teens</a>' if a["teens"] else '<a class="back" href="/">&larr; All articles</a>'),
                      topics=("" if a["teens"] else topics_html(a)), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), study=study_html(a), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))

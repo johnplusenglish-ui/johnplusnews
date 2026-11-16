@@ -1330,3 +1330,26 @@ html.jpn-guest .gate-note .acct-go:hover { background: transparent; color: var(-
    switching on, and the look-up it opens is the one thing it should feel like. */
 mark.hl { transition: background-color 180ms cubic-bezier(.22,1,.36,1), text-decoration-color 180ms cubic-bezier(.22,1,.36,1); }
 @media (prefers-reduced-motion: reduce) { mark.hl { transition: none; } }
+
+/* Audit pass, November 2026. Three things the layout review turned up.
+   The radius values are deliberately left alone: there are 95 hard-coded ones
+   across 14 sizes, and normalising them is a visible change to every surface
+   on the site, not a tidy-up. */
+
+/* 1. Crisper text on macOS, where the default rendering runs heavy. */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* 2. Headings broke wherever the line happened to run out, which at these larger
+   sizes leaves one word stranded. Balance evens the lines instead. Body text gets
+   pretty, which only prevents the last line being a single word. */
+h1, h2, h3, .sec-h, .card h2, .article-head h1, .dek, .nx-h { text-wrap: balance; }
+.prose p, .prose li, .card .sub, .nx-sub, .ex-list li { text-wrap: pretty; }
+
+/* 3. The two close buttons on the study tools were below a comfortable target at
+   every pointer size, not just touch. The visible button is unchanged; the hit
+   area is extended underneath it. */
+.hl-hint-x, .hl-list .x { position: relative; }
+.hl-hint-x::after, .hl-list .x::after {
+  content: ""; position: absolute; top: 50%; left: 50%;
+  width: 40px; height: 40px; transform: translate(-50%, -50%);
+}
