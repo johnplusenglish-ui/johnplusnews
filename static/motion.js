@@ -134,7 +134,23 @@
     });
   }
 
-  function start() { scan(); watch(); headline(); smooth(); }
+  /* SplitText measures line boxes against whatever face is rendering at the time.
+     Both site faces are font-display: swap, so a split at DOMContentLoaded can break
+     the lines against the fallback and pin a height that stops matching the moment
+     Newsreader arrives. Wait for the real face before splitting. If it is slow, skip
+     the animation rather than play an entrance over a headline the reader has already
+     been looking at for a second: rule 1 above, the page is complete without this. */
+  function headlineWhenReady() {
+    if (!document.fonts || !document.fonts.ready) { headline(); return; }
+    var late = false;
+    var deadline = setTimeout(function () { late = true; }, 900);
+    document.fonts.ready.then(function () {
+      clearTimeout(deadline);
+      if (!late) headline();
+    })["catch"](function () {});
+  }
+
+  function start() { scan(); watch(); headlineWhenReady(); smooth(); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
   else start();
 })();
