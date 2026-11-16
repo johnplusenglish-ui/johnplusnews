@@ -5,6 +5,7 @@ summary: Three quarters of American adults watched a new film at home last year 
 tags: Culture, Film
 source: AP-NORC, Streaming is overtaking theaters for movie watchers | https://apnorc.org/projects/more-people-are-enjoying-movies-from-the-comfort-of-home/
 image: images/has-streaming-beaten-the-cinema-acd1b8.jpg
+image-alt: Rows of empty red cinema seats with a handful of people scattered among them, facing a bright blank screen marked with a single red streaming logo.
 image-credit-label: AI illustration
 ---
 === Core ===

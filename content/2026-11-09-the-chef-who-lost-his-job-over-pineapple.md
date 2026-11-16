@@ -6,6 +6,7 @@ tags: Food, Culture, Language
 source: The Guardian, Pineapple on pizza is an insult to our great Italian cuisine, and here's why we secretly love it | https://www.theguardian.com/commentisfree/2026/nov/07/pineapple-pizza-italian-food-insult-chef-sacked
 source-date: 7 November 2026
 image: images/the-chef-who-lost-his-job-over-pineapple-0bbaf7.jpg
+image-alt: A bald chef in whites and a grey apron pulls a pained face at a ring of pineapple held out to him over the margherita pizza on his counter.
 ---
 === Core ===
 

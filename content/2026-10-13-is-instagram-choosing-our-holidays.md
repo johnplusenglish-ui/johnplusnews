@@ -8,6 +8,7 @@ source-date: 13 October 2026
 source-2: TUI Musement, Travel in the age of scrolling | https://www.tuigroup.com/en/newsroom/news/travel-in-the-age-of-scrolling-tui-musement-research-reveals-4-in-10-travellers-visit-tourist-sites-to-capture-social-media-content
 source-2-date: 25 August 2026
 image: images/is-instagram-choosing-our-holidays-42c04a.jpg
+image-alt: Seen from behind, a crowd packed along a railing at a city viewpoint holds up phones to photograph the rooftops and a distant domed basilica.
 ---
 === Core ===
 

@@ -5,6 +5,7 @@ summary: A backpacker lost a wallet holding a month's money in Darwin in 1989. T
 tags: Society, Travel
 source: The Guardian, The kindness of strangers: In 1989 I lost a wallet with $1,000 in it | https://www.theguardian.com/lifeandstyle/2026/nov/02/kindness-of-strangers-lost-wallet-cash-returned-couple
 image: images/the-couple-who-spent-the-night-looking-for-a-stranger-db441b.jpg
+image-alt: A young man in a red t-shirt hands a small brown purse back to a delighted older woman in a blue cardigan, her husband smiling beside her in a hostel.
 ---
 === Core ===
 

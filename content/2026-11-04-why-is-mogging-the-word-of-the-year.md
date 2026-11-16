@@ -10,6 +10,7 @@ source-2-date: 3 November 2026
 source-3: Johns Hopkins All Children's Hospital, Looksmaxxing trend poses risks for boys and teens | https://www.hopkinsmedicine.org/news/articles/2026/08/looksmaxxing-trend-poses-risks-for-boys-and-teens
 source-3-date: August 2026
 image: images/why-is-mogging-the-word-of-the-year-3067db.jpg
+image-alt: A heavily built man curls a dumbbell in a red top while a slimmer man behind him holds a much lighter one and watches, in a dim gym.
 ---
 === Core ===
 

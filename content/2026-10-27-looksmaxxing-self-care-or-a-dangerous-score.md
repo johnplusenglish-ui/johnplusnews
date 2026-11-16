@@ -10,6 +10,7 @@ source-3: Johns Hopkins Medicine, Looksmaxxing trend poses risks for boys and te
 source-3-date: August 2026
 date-label: 2025–2026
 image: images/looksmaxxing-self-care-or-a-dangerous-score-dbf215.jpg
+image-alt: A young man with curly hair sits back in a treatment chair, mouth turned down, as two blue-gloved hands hold a syringe against his forehead.
 ---
 === Core ===
 

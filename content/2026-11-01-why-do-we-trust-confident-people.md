@@ -5,6 +5,7 @@ summary: A psychiatrist argues that charisma should make us more careful, not le
 tags: Society, Science, Social media
 source: The Guardian, Why you should treat charisma as a red flag | https://www.theguardian.com/science/2026/nov/01/why-you-should-treat-charisma-as-a-red-flag
 image: images/why-do-we-trust-confident-people-c6c36d.jpg
+image-alt: A man in an olive shirt talks with both hands open and raised, mid-sentence, watched by two listeners whose heads frame the shot out of focus.
 ---
 === Core ===
 

@@ -5,6 +5,7 @@ summary: Fifteen Sardinian restaurants are trying a new approach to family meals
 tags: Society, Technology, Food
 source: The Guardian, Sardinian restaurants ban families from using phones at the table | https://www.theguardian.com/world/2026/oct/27/sardinian-restaurants-bans-families-from-using-phones
 image: images/the-restaurants-asking-families-to-put-their-phones-away-ae7dcf.jpg
+image-alt: A mother and father talk and laugh across a restaurant table with their son, who is eating, and their daughter, who is colouring on a paper mat.
 ---
 === Core ===
 
