@@ -110,10 +110,21 @@
 
         /* Reading only ever moves down the page, so the view is nudged down and never yanked back up.
            One move per sentence-ish rather than per word, which is what made it bob about before. */
+        /* Of all the movement on the site this is the one that matters most for anybody prone to
+           motion sickness: it happens with nobody touching anything, once a sentence, for as long
+           as the recording runs. A stylesheet cannot switch it off either, because scrollBy follows
+           the argument below and not scroll-behavior. So they still get followed down the page,
+           the page just arrives instead of sliding. The jump path is the one already written. */
+        var easyMotion = window.matchMedia ? matchMedia("(prefers-reduced-motion: reduce)") : null;
+
         function follow(rect, smooth) {
           var h = window.innerHeight;
           if (rect.bottom <= h * 0.70 && rect.top >= 0) return;
           var delta = rect.top - h * 0.38;
+          if (smooth && easyMotion && easyMotion.matches) {
+            if (delta < 24) return;                 /* the same small-move guard, so it cannot twitch */
+            window.scrollBy(0, delta); lastY = window.pageYOffset; return;
+          }
           if (!smooth) { window.scrollBy(0, delta); lastY = window.pageYOffset; return; }
           if (delta < 24) return;
           autoUntil = Date.now() + 900;

@@ -301,7 +301,10 @@
     [].forEach.call(level.querySelectorAll("[data-ex]"), function (b) { reset(b); });
     level.querySelector(".ex-total-out").hidden = true;
     showTask(level, "gap", false);
-    level.querySelector(".ex-nav").scrollIntoView({ block: "start", behavior: "smooth" });
+    /* scrollIntoView takes its instruction from here, not from scroll-behavior, so a reduced-motion
+       stylesheet never reaches it. Someone who asked for less movement lands at the top in one step. */
+    var easy = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+    level.querySelector(".ex-nav").scrollIntoView({ block: "start", behavior: easy ? "auto" : "smooth" });
   }
 
   // the task row: show one activity, keep the rest in the page for scoring and for the PDF
