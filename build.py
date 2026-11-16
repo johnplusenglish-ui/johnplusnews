@@ -1114,12 +1114,12 @@ LANG_JS = (
     'if(e.target.classList.contains("kl-row"))e.target.click();else if(pop&&pop.kl===e.target)close();else open(e.target)}});'
     'window.addEventListener("resize",close)})();'
 )
-FONTS = [("default", "Newsreader"), ("serif", "Georgia"), ("outfit", "Outfit")]
+FONTS = [("default", "Newsreader"), ("outfit", "Outfit")]
 
 # Runs in <head> before the page paints: applies the reader's saved font. Newsreader is the
-# default and is hosted here, as Outfit is; Georgia is already on the reader's device.
+# default and Outfit the one alternative; both are hosted here.
 HEAD_JS = (
-    '<script>(function(){try{var f=localStorage.getItem("jpn_font");if(f==="outfit"||f==="serif")document.documentElement.setAttribute("data-font",f)}catch(e){}})();</script>\n'
+    '<script>(function(){try{var f=localStorage.getItem("jpn_font");if(f==="outfit")document.documentElement.setAttribute("data-font","outfit")}catch(e){}})();</script>\n'
 )
 
 FONT_JS = (

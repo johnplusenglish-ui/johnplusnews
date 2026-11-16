@@ -147,7 +147,6 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 /* reading font and level tabs inside an article */
 /* the chosen reading font applies to the title, the subheading and the article text */
 :root { --rf: 'Newsreader', Georgia, 'Times New Roman', serif; --hls: -0.022em; --hlh: 1.1; }
-[data-font="serif"] { --rf: Georgia, 'Times New Roman', serif; --hls: -0.01em; --hlh: 1.15; }
 [data-font="outfit"] { --rf: 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; --fs: 1; --hls: -0.015em; --hlh: 1.12; }
 .article-head h1, .dek, .prose { font-family: var(--rf); }
 .article-head h1 { letter-spacing: var(--hls); line-height: var(--hlh); }
@@ -201,7 +200,6 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 .fmenu .chk { visibility: hidden; flex: none; width: 16px; height: 16px; }
 .fmenu li[aria-selected="true"] .chk { visibility: visible; }
 .fo-default { font-family: 'Newsreader', Georgia, serif; }
-.fo-serif { font-family: Georgia, 'Times New Roman', serif; }
 .fo-outfit { font-family: 'Outfit', system-ui, sans-serif; }
 .lvl-head { display: none; font-size: 1.5rem; margin: 1.6em 0 0; }
 
@@ -1308,3 +1306,27 @@ html.jpn-guest .gate-note .acct-go:hover { background: transparent; color: var(-
   .article-head { padding: 24px 0 24px; }
   .prose > p:first-of-type::first-letter { font-size: 3.2em; }
 }
+
+/* Pop-outs. Each of these is shown by removing [hidden], so matching :not([hidden])
+   replays the animation every time it opens. Entrances only: a menu that animates
+   shut is a menu that feels slow. */
+@media (prefers-reduced-motion: no-preference) {
+  .pmenu:not([hidden]), .fmenu:not([hidden]) {
+    animation: jpn-drop 170ms cubic-bezier(.22,1,.36,1) both;
+    transform-origin: top right;
+  }
+  .hl-def:not([hidden]) { animation: jpn-rise 180ms cubic-bezier(.22,1,.36,1) both; }
+  .hl-pill:not([hidden]) { animation: jpn-pop 180ms cubic-bezier(.34,1.56,.64,1) both; }
+  .acct-dlg { animation: jpn-rise 220ms cubic-bezier(.22,1,.36,1) both; }
+
+  /* The saved words arrive a list at a time once the account answers. */
+  .wd-item { transition: border-color 220ms cubic-bezier(.22,1,.36,1); }
+}
+@keyframes jpn-drop { from { opacity: 0; transform: translateY(-6px) scale(0.985); } to { opacity: 1; transform: none; } }
+@keyframes jpn-rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes jpn-pop  { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: none; } }
+
+/* The underline that marks a highlighted word thickens on approach rather than
+   switching on, and the look-up it opens is the one thing it should feel like. */
+mark.hl { transition: background-color 180ms cubic-bezier(.22,1,.36,1), text-decoration-color 180ms cubic-bezier(.22,1,.36,1); }
+@media (prefers-reduced-motion: reduce) { mark.hl { transition: none; } }

@@ -12,46 +12,57 @@
 
   /* ---------------------------------------------------------------- reveals */
   /* Only things below the first screen are ever hidden, so the page a reader
-     opens on is always whole. No library: this is what IntersectionObserver is for. */
-  function reveals() {
-    if (!("IntersectionObserver" in window)) return;
-    var items = [].slice.call(document.querySelectorAll(".gallery > .card, .nx"));
-    if (!items.length) return;
-    var fold = window.innerHeight * 0.92;
-    var waiting = items.filter(function (el) {
-      return el.getBoundingClientRect().top > fold;
-    });
-    if (!waiting.length) return;
+     opens on is always whole. No library: this is what IntersectionObserver is for.
+     Signed-in pages such as My words build their lists after this file has run, so
+     the scan repeats whenever anything is added to the page. */
+  var SELECTOR = ".gallery > .card, .nx, .wd-item, .hl-item";
+  var seen = (typeof WeakSet === "function") ? new WeakSet() : null;
+  var io = null;
 
-    waiting.forEach(function (el) {
+  function show(el) {
+    el.style.opacity = "";
+    el.style.transform = "";
+    setTimeout(function () {
+      el.style.transition = "";
+      el.classList.remove("jpn-rev");
+    }, 760);
+  }
+
+  function scan() {
+    if (!("IntersectionObserver" in window)) return;
+    if (!io) {
+      io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          io.unobserve(e.target);
+          show(e.target);
+        });
+      }, { rootMargin: "0px 0px -8% 0px", threshold: 0.05 });
+    }
+    var fold = window.innerHeight * 0.92;
+    [].slice.call(document.querySelectorAll(SELECTOR)).forEach(function (el) {
+      if (seen) { if (seen.has(el)) return; seen.add(el); }
+      else if (el.getAttribute("data-jpn-rev")) return;
+      else el.setAttribute("data-jpn-rev", "1");
+      if (el.getBoundingClientRect().top <= fold) return;   /* already in view: leave it */
       el.classList.add("jpn-rev");
       el.style.opacity = "0";
       el.style.transform = "translateY(20px)";
       el.style.transition = "opacity 700ms cubic-bezier(.22,1,.36,1), transform 700ms cubic-bezier(.22,1,.36,1)";
+      io.observe(el);
+      /* Nothing stays invisible because an observer never fired. */
+      setTimeout(function () { if (el.style.opacity === "0") { io.unobserve(el); show(el); } }, 4000);
     });
+  }
 
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        if (!e.isIntersecting) return;
-        var el = e.target;
-        el.style.opacity = "";
-        el.style.transform = "";
-        io.unobserve(el);
-        setTimeout(function () {
-          el.style.transition = "";
-          el.classList.remove("jpn-rev");
-        }, 760);
-      });
-    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.05 });
-
-    waiting.forEach(function (el) { io.observe(el); });
-
-    /* If anything is still hidden a moment later, something went wrong: show it. */
-    setTimeout(function () {
-      waiting.forEach(function (el) {
-        if (el.style.opacity === "0") { el.style.opacity = ""; el.style.transform = ""; }
-      });
-    }, 4000);
+  function watch() {
+    if (typeof MutationObserver !== "function") return;
+    var root = document.querySelector("main") || document.body;
+    var queued = null;
+    new MutationObserver(function () {
+      if (queued) return;
+      queued = setTimeout(function () { queued = null; scan(); }, 80);
+    }).observe(root, { childList: true, subtree: true });
   }
 
   /* ------------------------------------------------------- the headline, once */
@@ -123,7 +134,7 @@
     });
   }
 
-  function start() { reveals(); headline(); smooth(); }
+  function start() { scan(); watch(); headline(); smooth(); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
   else start();
 })();
