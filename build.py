@@ -1452,7 +1452,7 @@ def ex_grammar(data):
 def ex_tfn(items):
     rows = []
     for item in items:
-        opts = "".join('<button type="button" class="ex-opt" data-v="{v}">{l}</button>'.format(v=v, l=l)
+        opts = "".join('<button type="button" class="ex-opt" data-v="{v}" aria-pressed="false">{l}</button>'.format(v=v, l=l)
                        for v, l in EX_TFN_OPTS)
         why = ('<p class="ex-why" hidden>{}</p>'.format(esc(item["why"])) if item.get("why") else "")
         rows.append('<li><span class="ex-stmt">{s}</span><span class="ex-tfn" data-a="{a}" role="group" '

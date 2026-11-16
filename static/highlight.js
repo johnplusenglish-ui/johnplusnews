@@ -59,6 +59,14 @@
       node.parentNode.insertBefore(m, node);
       m.appendChild(node);
     }
+    /* One highlight can span several text nodes and so become several marks.
+       Only the first one takes focus, so a highlight is a single tab stop
+       rather than one per fragment. */
+    var parts = prose.querySelectorAll('mark.hl[data-hl="' + id + '"]');
+    if (parts.length) {
+      parts[0].tabIndex = 0;
+      parts[0].setAttribute("role", "button");
+    }
   }
   function unwrap(prose, id) {
     [].slice.call(prose.querySelectorAll('mark.hl[data-hl="' + id + '"]')).forEach(function (m) {
@@ -786,6 +794,15 @@
   });
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") { hidePill(); return; }
+    /* A highlight is operated by pointer everywhere else in this file. Enter and
+       Space go through the same click path, so a keyboard reaches the meaning
+       panel and the remove pill exactly as a mouse does. */
+    var hit = e.target && e.target.closest ? e.target.closest("mark.hl") : null;
+    if (hit && (e.key === "Enter" || e.key === " " || e.key === "Spacebar")) {
+      e.preventDefault();
+      hit.click();
+      return;
+    }
     if (e.altKey && e.code === "KeyH" && target && target.mode === "add") {
       e.preventDefault();
       addItem(target.sel); hidePill(); clearSelection();

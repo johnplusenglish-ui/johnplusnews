@@ -19,6 +19,14 @@
     if (armed) armed.classList.remove("armed");
     armed = null;
   }
+  /* The gaps are numbered in the page the build wrote. Rewriting a label must
+     keep that number, or a reader loses track of which gap is being spoken about. */
+  function gapName(block, gap) {
+    var all = [].slice.call(block.querySelectorAll(".ex-gap"));
+    var i = all.indexOf(gap);
+    return i < 0 ? "Gap" : "Gap " + (i + 1);
+  }
+
   function setGap(gap, word) {
     var block = gap.closest("[data-ex]");
     if (gap.dataset.w) {                       // put whatever is in there back first
@@ -30,13 +38,15 @@
       gap.dataset.w = word;
       gap.classList.add("filled");
       gap.draggable = true;
-      gap.setAttribute("aria-label", "Gap, contains " + word + ". Activate to remove.");
+      gap.setAttribute("aria-label", gapName(block, gap) + ", contains " + word + ". Activate to remove.");
+      delete gap.dataset.lab;
     } else {
       gap.textContent = "";
       delete gap.dataset.w;
       gap.classList.remove("filled");
       gap.draggable = false;
-      gap.setAttribute("aria-label", "Gap, empty");
+      gap.setAttribute("aria-label", gapName(block, gap) + ", empty");
+      delete gap.dataset.lab;
     }
     gap.classList.remove("ok", "no", "blank");
   }
@@ -61,9 +71,12 @@
 
     if (opt) {                                 // one choice per statement
       var group = opt.closest(".ex-tfn");
-      [].forEach.call(group.querySelectorAll(".ex-opt"), function (b) { b.classList.remove("on", "ok", "no"); });
+      [].forEach.call(group.querySelectorAll(".ex-opt"), function (b) {
+        b.classList.remove("on", "ok", "no"); press(b, false); say(b, "");
+      });
       group.classList.remove("blank");
       opt.classList.add("on");
+      press(opt, true);
       return;
     }
     if (chip && !chip.classList.contains("used")) {
@@ -136,6 +149,29 @@
     }
   });
 
+
+  /* The tick, the cross, the line-through and the colours below say right and
+     wrong to anyone looking at the screen. These three say the same thing to
+     anyone who is not: aria-pressed for which option was chosen, aria-invalid
+     on the controls that support it, and a spoken suffix on the two that do not. */
+  function press(b, on) { b.setAttribute("aria-pressed", on ? "true" : "false"); }
+  function invalid(el, wrong) {
+    if (wrong === null) el.removeAttribute("aria-invalid");
+    else el.setAttribute("aria-invalid", wrong ? "true" : "false");
+  }
+  function say(el, msg) {
+    if (!msg) el.removeAttribute("aria-label");
+    else el.setAttribute("aria-label", (el.textContent || "").trim() + ", " + msg);
+  }
+  /* A gap already carries a label saying what is in it and that activating it
+     empties it again. Keep that and add the result to the end of it, rather
+     than replacing it and losing the instruction. */
+  function gapSay(gap, msg) {
+    if (gap.dataset.lab === undefined) gap.dataset.lab = gap.getAttribute("aria-label") || "";
+    var base = gap.dataset.lab;
+    gap.setAttribute("aria-label", msg ? base.replace(/[.\s]+$/, "") + ". " + msg : base);
+  }
+
   function mark(block, reveal) {
     var right = 0, total = 0, blank = 0;
     [].forEach.call(block.querySelectorAll(".ex-gap"), function (g) {
@@ -151,9 +187,11 @@
         })[0];
         if (chip) place(g, chip); else setGap(g, g.dataset.a);
         g.classList.add("ok");
+        gapSay(g, "This is the answer.");
       } else {
         g.classList.toggle("ok", ok);
         g.classList.toggle("no", !ok && (!!g.dataset.w || reveal));
+        gapSay(g, ok ? "Correct." : (none ? "Not answered." : "Incorrect."));
       }
     });
     [].forEach.call(block.querySelectorAll(".ex-in"), function (inp) {
@@ -164,8 +202,13 @@
       if (ok) right++;
       if (none && !reveal) blank++;
       inp.classList.toggle("blank", none && !reveal);
-      if (reveal && !ok) { inp.value = inp.dataset.a.split("|")[0]; inp.classList.remove("no"); inp.classList.add("ok"); }
-      else { inp.classList.toggle("ok", ok); inp.classList.toggle("no", !ok && (norm(inp.value) !== "" || reveal)); }
+      if (reveal && !ok) {
+        inp.value = inp.dataset.a.split("|")[0]; inp.classList.remove("no"); inp.classList.add("ok");
+        invalid(inp, false);
+      } else {
+        inp.classList.toggle("ok", ok); inp.classList.toggle("no", !ok && (norm(inp.value) !== "" || reveal));
+        invalid(inp, none && !reveal ? null : !ok);
+      }
     });
     [].forEach.call(block.querySelectorAll(".ex-tfn"), function (g) {
       total++;
@@ -175,11 +218,14 @@
       if (!chosen && !reveal) blank++;
       g.classList.toggle("blank", !chosen && !reveal);
       if (reveal && !ok) {
-        [].forEach.call(g.querySelectorAll(".ex-opt"), function (b) { b.classList.remove("on", "ok", "no"); });
+        [].forEach.call(g.querySelectorAll(".ex-opt"), function (b) {
+          b.classList.remove("on", "ok", "no"); press(b, false); say(b, "");
+        });
         var want = g.querySelector('.ex-opt[data-v="' + g.dataset.a + '"]');
-        if (want) want.classList.add("on", "ok");
+        if (want) { want.classList.add("on", "ok"); press(want, true); say(want, "this is the answer"); }
       } else if (chosen) {
         chosen.classList.toggle("ok", ok); chosen.classList.toggle("no", !ok);
+        say(chosen, ok ? "correct" : "incorrect");
       }
       // the reason appears once this statement has been answered, never before
       var why = g.parentNode.querySelector(".ex-why");
@@ -191,8 +237,13 @@
       if (ok) right++;
       if (s.value === "" && !reveal) blank++;
       s.classList.toggle("blank", s.value === "" && !reveal);
-      if (reveal && !ok) { s.value = s.dataset.a; s.classList.remove("no"); s.classList.add("ok"); }
-      else { s.classList.toggle("ok", ok); s.classList.toggle("no", !ok && (s.value !== "" || reveal)); }
+      if (reveal && !ok) {
+        s.value = s.dataset.a; s.classList.remove("no"); s.classList.add("ok");
+        invalid(s, false);
+      } else {
+        s.classList.toggle("ok", ok); s.classList.toggle("no", !ok && (s.value !== "" || reveal));
+        invalid(s, s.value === "" && !reveal ? null : !ok);
+      }
     });
     if (reveal) block.dataset.revealed = "1";
     var out = block.querySelector(".ex-score");
@@ -207,9 +258,9 @@
   function reset(block) {
     [].forEach.call(block.querySelectorAll(".ex-gap"), function (g) { setGap(g, null); });
     [].forEach.call(block.querySelectorAll(".ex-chip"), function (c) { c.classList.remove("used", "sel", "drag"); });
-    [].forEach.call(block.querySelectorAll(".ex-sel"), function (s) { s.value = ""; s.classList.remove("ok", "no", "blank"); });
-    [].forEach.call(block.querySelectorAll(".ex-in"), function (i) { i.value = ""; i.classList.remove("ok", "no", "blank"); });
-    [].forEach.call(block.querySelectorAll(".ex-opt"), function (b) { b.classList.remove("on", "ok", "no"); });
+    [].forEach.call(block.querySelectorAll(".ex-sel"), function (s) { s.value = ""; s.classList.remove("ok", "no", "blank"); invalid(s, null); });
+    [].forEach.call(block.querySelectorAll(".ex-in"), function (i) { i.value = ""; i.classList.remove("ok", "no", "blank"); invalid(i, null); });
+    [].forEach.call(block.querySelectorAll(".ex-opt"), function (b) { b.classList.remove("on", "ok", "no"); press(b, false); say(b, ""); });
     [].forEach.call(block.querySelectorAll(".ex-tfn"), function (g) { g.classList.remove("blank"); });
     [].forEach.call(block.querySelectorAll(".ex-why"), function (w) { w.hidden = true; });
     delete block.dataset.revealed;
