@@ -575,7 +575,8 @@ def page(path, main, title=None, desc=None, current=None, image=None, kind="webs
             label.lower().replace(" ", "-"), href, ' aria-current="page"' if href == current else "", label)
         for href, label in NAV if href != "/teens/" or TEENS_ON
     )
-    head_extra = (GUEST_JS if accounts_on() else "") + head_extra + account_scripts()
+    head_extra = ((GUEST_JS if accounts_on() else "") + head_extra + account_scripts()
+                  + motion_scripts(article is not None))
     img_url = (image if image.startswith("http") else SITE["url"] + asset(image)) if image else ""
     og_image = ('<meta property="og:image" content="{u}">\n'
                 '<meta property="og:image:width" content="1400">\n'
@@ -870,7 +871,7 @@ def search_text(a):
 
 def card(a, first=False):
     if a["image"]:
-        thumb = '<img src="{}"{} sizes="(max-width: 700px) 92vw, 330px" alt="{}" width="1000" height="666" {} decoding="async">'.format(
+        thumb = '<img src="{}"{} sizes="(max-width: 700px) 92vw, (max-width: 1100px) 46vw, 370px" alt="{}" width="1000" height="666" {} decoding="async">'.format(
             esc(asset(a.get("thumb") or a["image"])), srcset(a.get("thumb") or a["image"], 1000), esc(a["image_alt"]),
             'fetchpriority="high"' if first else 'loading="lazy"')
     else:
@@ -950,7 +951,7 @@ def gallery_page(arts, topics=(), topic=None, teens=0):
 def teens_card(a, featured=False):
     cat = a["category"]
     if a["image"]:
-        thumb = '<img src="{}"{} sizes="(max-width: 700px) 92vw, 330px" alt="{}" width="1000" height="666" loading="lazy" decoding="async">'.format(
+        thumb = '<img src="{}"{} sizes="(max-width: 700px) 92vw, (max-width: 1100px) 46vw, 370px" alt="{}" width="1000" height="666" loading="lazy" decoding="async">'.format(
             esc(asset(a.get("thumb") or a["image"])), srcset(a.get("thumb") or a["image"], 1000), esc(a["image_alt"]))
     else:
         thumb = '<span class="blank">{}</span>'.format(esc(cat))
@@ -1113,11 +1114,12 @@ LANG_JS = (
     'if(e.target.classList.contains("kl-row"))e.target.click();else if(pop&&pop.kl===e.target)close();else open(e.target)}});'
     'window.addEventListener("resize",close)})();'
 )
-FONTS = [("default", "Georgia"), ("outfit", "Outfit")]
+FONTS = [("default", "Newsreader"), ("serif", "Georgia"), ("outfit", "Outfit")]
 
-# Runs in <head> before the page paints: applies the reader's saved font (Georgia is the default; Outfit is hosted on this site).
+# Runs in <head> before the page paints: applies the reader's saved font. Newsreader is the
+# default and is hosted here, as Outfit is; Georgia is already on the reader's device.
 HEAD_JS = (
-    '<script>(function(){try{var f=localStorage.getItem("jpn_font");if(f==="outfit")document.documentElement.setAttribute("data-font","outfit")}catch(e){}})();</script>\n'
+    '<script>(function(){try{var f=localStorage.getItem("jpn_font");if(f==="outfit"||f==="serif")document.documentElement.setAttribute("data-font",f)}catch(e){}})();</script>\n'
 )
 
 FONT_JS = (
@@ -1249,6 +1251,18 @@ def timer_script():
     if not f.exists():
         return ""
     return '<script src="/timer.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8])
+
+
+def motion_scripts(article=False):
+    """Smooth scroll and scroll reveals on every page. GSAP and SplitText ride along only
+    on articles, where the headline reveal uses them, because together they are 80KB.
+    Every one of these is deferred: the page is finished before any of them runs."""
+    out = ""
+    if article:
+        for name in ("vendor/gsap.min.js", "vendor/SplitText.min.js"):
+            out += versioned(name)
+    out += versioned("vendor/lenis.min.js") + versioned("motion.js")
+    return out
 
 
 def versioned(name):

@@ -2,6 +2,12 @@
 @font-face { font-family: 'Outfit'; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/fonts/outfit-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
 @font-face { font-family: 'Outfit'; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/fonts/outfit-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
+/* Newsreader is the editorial face for headlines, cards and article text. Hosted here too,
+   so no visitor's device contacts Google. The optical-size axis is left out deliberately:
+   it more than doubled the file, and the tracking below does that job by hand instead. */
+@font-face { font-family: 'Newsreader'; font-style: normal; font-weight: 300 700; font-display: swap; src: url(/fonts/newsreader-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Newsreader'; font-style: normal; font-weight: 300 700; font-display: swap; src: url(/fonts/newsreader-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
 :root {
   --ink: #111318;
   --text: #23262d;
@@ -140,7 +146,8 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 
 /* reading font and level tabs inside an article */
 /* the chosen reading font applies to the title, the subheading and the article text */
-:root { --rf: Georgia, 'Times New Roman', serif; --hls: -0.01em; --hlh: 1.15; }
+:root { --rf: 'Newsreader', Georgia, 'Times New Roman', serif; --hls: -0.022em; --hlh: 1.1; }
+[data-font="serif"] { --rf: Georgia, 'Times New Roman', serif; --hls: -0.01em; --hlh: 1.15; }
 [data-font="outfit"] { --rf: 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; --fs: 1; --hls: -0.015em; --hlh: 1.12; }
 .article-head h1, .dek, .prose { font-family: var(--rf); }
 .article-head h1 { letter-spacing: var(--hls); line-height: var(--hlh); }
@@ -193,7 +200,8 @@ h1, h2, h3 { color: var(--ink); font-weight: 700; letter-spacing: -0.01em; word-
 .fmenu li[aria-selected="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 700; }
 .fmenu .chk { visibility: hidden; flex: none; width: 16px; height: 16px; }
 .fmenu li[aria-selected="true"] .chk { visibility: visible; }
-.fo-default { font-family: Georgia, 'Times New Roman', serif; }
+.fo-default { font-family: 'Newsreader', Georgia, serif; }
+.fo-serif { font-family: Georgia, 'Times New Roman', serif; }
 .fo-outfit { font-family: 'Outfit', system-ui, sans-serif; }
 .lvl-head { display: none; font-size: 1.5rem; margin: 1.6em 0 0; }
 
@@ -1230,3 +1238,73 @@ button.chip { font: inherit; font-size: 0.875rem; font-weight: 600; cursor: poin
 
 .qs-help { margin: -6px 0 12px; font-size: 0.875rem; line-height: 1.5; color: var(--muted); }
 .qs-help b { font-weight: 600; color: var(--ink); }
+
+/* ===========================================================================
+   The editorial pass, November 2026. Everything above still does the work;
+   this block changes how much room it gets and how the type is set.
+   Three ideas only: one editorial face carrying the words, Outfit demoted to
+   furniture, and considerably more air.
+   =========================================================================== */
+
+/* Section headers become a quiet label over a firm rule, so the headlines
+   underneath are the only large type on the page. */
+.latest-head { margin: 56px 0 0; border-bottom: 1px solid var(--ink); padding-bottom: 12px; align-items: baseline; }
+.sec-h { font-family: 'Outfit', system-ui, sans-serif; font-size: 1rem; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase; line-height: 1.2; }
+.latest-head .browse-status { font-variant-numeric: tabular-nums; }
+
+/* More room between stories, and the thumbnail corners pulled in: a softer
+   radius reads as an app, a tighter one reads as a page. */
+.gallery { margin: 40px 0 56px; column-gap: 36px; row-gap: 64px; }
+.thumb { border-radius: 3px; }
+.thumb img { transition: transform 700ms cubic-bezier(.22,1,.36,1); }
+.card:hover .thumb img { transform: scale(1.03); }
+.card h2 { font-size: clamp(1.28rem, 2.1vw, 1.6rem); line-height: 1.22; margin: 4px 0 8px; font-weight: 600; }
+.card .sub { font-size: 1rem; line-height: 1.55; }
+.card .meta .lvl { color: var(--accent); }
+
+/* The newest story leads the page at a size nothing else gets. */
+@media (min-width: 900px) {
+  /* Placed explicitly rather than by order: the card's children are thumb, meta,
+     headline, summary, and auto-placement puts the picture in the wrong row. */
+  .gallery > .card:first-child { grid-column: 1 / -1; display: grid;
+    grid-template-columns: minmax(0, 1.04fr) minmax(0, 0.96fr);
+    grid-template-rows: auto auto auto; column-gap: 44px; align-items: center;
+    padding-bottom: 56px; border-bottom: 1px solid var(--line); }
+  .gallery > .card:first-child .thumb { grid-column: 2; grid-row: 1 / -1; align-self: center; margin-bottom: 0; }
+  .gallery > .card:first-child .meta { grid-column: 1; grid-row: 1; align-self: end; }
+  .gallery > .card:first-child h2 { grid-column: 1; grid-row: 2; align-self: center;
+    font-size: clamp(2.1rem, 3.9vw, 3.1rem); line-height: 1.04; letter-spacing: -0.03em; margin: 10px 0 14px; }
+  .gallery > .card:first-child .sub { grid-column: 1; grid-row: 3; align-self: start;
+    font-size: 1.22rem; line-height: 1.5; -webkit-line-clamp: 3; max-width: 36ch; }
+}
+
+/* The members line stops being a blue slab and becomes a rule across the page. */
+html.jpn-guest .gate-note { background: none; border: 0; border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line); border-radius: 0; padding: 28px 0; margin: 0 0 8px; gap: 16px 28px; }
+html.jpn-guest .gate-note p { flex: 1 1 28ch; font-size: 1.0625rem; line-height: 1.5; }
+html.jpn-guest .gate-note .acct-go { background: var(--ink); border-color: var(--ink); border-radius: 999px; }
+html.jpn-guest .gate-note .acct-go:hover { background: transparent; color: var(--ink); }
+
+/* Articles: more room above the headline, tighter tracking on it, and a
+   dropped capital to start the text the way a magazine would. */
+.article-head { padding: 48px 0 36px; }
+.article-head h1 { margin: 18px 0 20px; font-weight: 600; }
+.dek { margin: 0 0 34px; line-height: 1.45; }
+.prose > p:first-of-type::first-letter { float: left; font-family: var(--rf); font-weight: 600;
+  font-size: 3.7em; line-height: 0.84; padding: 0.06em 0.09em 0 0; color: var(--ink); }
+[data-font="outfit"] .prose > p:first-of-type::first-letter { font-size: 3.2em; line-height: 0.9; }
+.prose { padding-bottom: 40px; }
+
+/* Motion. Everything here animates from a visible resting state, so the page is
+   complete with the scripts blocked, and none of it runs for a reader who has
+   asked their device for less movement. */
+.jpn-rev { will-change: transform, opacity; }
+@media (prefers-reduced-motion: reduce) { .jpn-rev { will-change: auto; } }
+
+@media (max-width: 599px) {
+  .latest-head { margin-top: 32px; }
+  .gallery { row-gap: 0; margin-top: 24px; }
+  .article-head { padding: 24px 0 24px; }
+  .prose > p:first-of-type::first-letter { font-size: 3.2em; }
+}
