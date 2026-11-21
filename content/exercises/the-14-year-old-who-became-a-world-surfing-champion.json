@@ -1,0 +1,328 @@
+{
+  "slug": "the-14-year-old-who-became-a-world-surfing-champion",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Zoric became the ____ winner in the competition's history.",
+            "a": "youngest"
+          },
+          {
+            "s": "At thirteen, she won an under-18 world ____ title.",
+            "a": "junior"
+          },
+          {
+            "s": "Ethan Ewing won the men's ____ at the same event.",
+            "a": "title"
+          },
+          {
+            "s": "Surfers must make quick ____ because the ocean changes constantly.",
+            "a": "decisions"
+          },
+          {
+            "s": "Zoric still needs another very good ____ next year.",
+            "a": "result"
+          }
+        ],
+        "extra": [
+          "prize",
+          "coach"
+        ]
+      },
+      "match": [
+        {
+          "t": "experienced",
+          "d": "having done something for a long time and knowing it well"
+        },
+        {
+          "t": "unpredictable",
+          "d": "hard to know in advance what will happen"
+        },
+        {
+          "t": "disappointment",
+          "d": "the sad feeling when something does not go as you hoped"
+        },
+        {
+          "t": "qualification",
+          "d": "the process of earning a place in a big event"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Zoric ____ the women's title in November 2026.",
+            "cue": "win",
+            "a": "won"
+          },
+          {
+            "s": "She ____ the youngest winner in the competition's history.",
+            "cue": "become",
+            "a": "became"
+          },
+          {
+            "s": "Zoric ____ a heat early in the event.",
+            "cue": "lose",
+            "a": "lost"
+          },
+          {
+            "s": "Judges ____ how difficult the moves are.",
+            "cue": "watch",
+            "a": "watch"
+          },
+          {
+            "s": "Another Australian, Ethan Ewing, ____ the men's title.",
+            "cue": "win",
+            "a": "won"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Zoric won an under-18 world junior title when she was thirteen.",
+          "a": "T",
+          "why": "The text says: \"she won an under-18 world junior title at the age of thirteen\""
+        },
+        {
+          "s": "Zoric had already qualified for the Olympics because of her win.",
+          "a": "F",
+          "why": "The text says: \"did not automatically mean that she herself had a place at the Olympics\""
+        },
+        {
+          "s": "Zoric's parents watched the final from the beach.",
+          "a": "N",
+          "why": "The text does not say where Zoric's parents were during the final."
+        },
+        {
+          "s": "The ocean changes all the time.",
+          "a": "T",
+          "why": "The text says: \"The ocean changes constantly\""
+        },
+        {
+          "s": "Ethan Ewing won the women's title.",
+          "a": "F",
+          "why": "The text says: \"Another Australian, Ethan Ewing, won the men's title at the same competition\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Most fourteen-year-olds are trying to ____ homework, friendships and hobbies.",
+            "a": "balance"
+          },
+          {
+            "s": "Zoric did not simply enter to gain ____.",
+            "a": "experience"
+          },
+          {
+            "s": "In surfing, competitors have to ____ which waves are worth taking.",
+            "a": "decide"
+          },
+          {
+            "s": "Australia won the overall ____ gold medal.",
+            "a": "team"
+          },
+          {
+            "s": "People naturally celebrate extraordinary ____.",
+            "a": "talent"
+          },
+          {
+            "s": "Behind a world title lie countless hours of practice, good ____ and setbacks.",
+            "a": "coaching"
+          }
+        ],
+        "extra": [
+          "equipment",
+          "sponsors"
+        ]
+      },
+      "match": [
+        {
+          "t": "exceptional",
+          "d": "much better than usual"
+        },
+        {
+          "t": "unrealistic",
+          "d": "not sensible or not likely to happen"
+        },
+        {
+          "t": "setbacks",
+          "d": "problems that stop or slow your progress"
+        },
+        {
+          "t": "guarantee",
+          "d": "to promise that something will definitely happen"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Zoric ____ fourteen only days before the final.",
+            "cue": "turn",
+            "a": "had turned|turned"
+          },
+          {
+            "s": "Two months earlier, she ____ the ISA under-18 World Junior Championship.",
+            "cue": "win",
+            "a": "had won|won"
+          },
+          {
+            "s": "Ethan Ewing ____ the men's individual title.",
+            "cue": "take",
+            "a": "took"
+          },
+          {
+            "s": "After a loss in Round 3, she ____ to win eight repechage heats.",
+            "cue": "need",
+            "a": "needed"
+          },
+          {
+            "s": "Behind a world title ____ countless hours of practice.",
+            "cue": "lie",
+            "a": "lie"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Zoric had won a junior world title two months before the final.",
+          "a": "T",
+          "why": "The text says: \"Two months earlier, at the age of thirteen, she had won the ISA under-18 World Junior Championship\""
+        },
+        {
+          "s": "Zoric reached the final without losing a heat.",
+          "a": "F",
+          "why": "The text says: \"After a loss in Round 3, she needed to win eight repechage heats just to reach the final.\""
+        },
+        {
+          "s": "Zoric's father was her coach.",
+          "a": "N",
+          "why": "The text does not say who coached Zoric."
+        },
+        {
+          "s": "Australia won the team gold medal.",
+          "a": "T",
+          "why": "The text says: \"the country won the overall team gold medal\""
+        },
+        {
+          "s": "Zoric's win guarantees her a place at the Olympics.",
+          "a": "F",
+          "why": "The text says: \"That does not guarantee Zoric a personal Olympic place\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Zoric became a world champion against elite adult ____.",
+            "a": "opposition"
+          },
+          {
+            "s": "Surfers must respond to an ____ that changes from moment to moment.",
+            "a": "environment"
+          },
+          {
+            "s": "Judges assess the difficulty and ____ of each performance.",
+            "a": "quality"
+          },
+          {
+            "s": "Her victory showed ____ under pressure as well as technical ability.",
+            "a": "composure"
+          },
+          {
+            "s": "Celebrating young performers can create ____ to keep achieving extraordinary results.",
+            "a": "pressure"
+          },
+          {
+            "s": "A world championship is not a ____ that every future competition will go equally well.",
+            "a": "promise"
+          }
+        ],
+        "extra": [
+          "disaster",
+          "ceremony"
+        ]
+      },
+      "match": [
+        {
+          "t": "prodigies",
+          "d": "children or teenagers who are extremely good at something"
+        },
+        {
+          "t": "unconditional",
+          "d": "without any limits or conditions"
+        },
+        {
+          "t": "perseverance",
+          "d": "the quality of continuing to try even when things are difficult"
+        },
+        {
+          "t": "obliged",
+          "d": "feeling that you must do something"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The achievement was ____ not merely because she was so young.",
+            "cue": "REMARK",
+            "a": "remarkable"
+          },
+          {
+            "s": "The result also ____ Australia's position internationally.",
+            "cue": "STRONG",
+            "a": "strengthened"
+          },
+          {
+            "s": "It would be ____ to suggest that Zoric had qualified for the Olympics automatically.",
+            "cue": "LEAD",
+            "a": "misleading"
+          },
+          {
+            "s": "Her wellbeing may depend on maintaining the genuine ____ that first drew her to surfing.",
+            "cue": "ENJOY",
+            "a": "enjoyment"
+          },
+          {
+            "s": "Stories about teenage prodigies are difficult to interpret ____.",
+            "cue": "FAIR",
+            "a": "fairly"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Zoric won the under-18 world junior title before the open title.",
+          "a": "T",
+          "why": "The text says: \"she had already claimed the ISA under-18 World Junior Championship\""
+        },
+        {
+          "s": "Zoric had automatically qualified for the Olympics.",
+          "a": "F",
+          "why": "The text says: \"It would be misleading, however, to suggest that Zoric had automatically qualified for the Olympics herself.\""
+        },
+        {
+          "s": "Zoric plans to turn professional next year.",
+          "a": "N",
+          "why": "The text does not say whether Zoric plans to turn professional."
+        },
+        {
+          "s": "Zoric had to win eight repechage heats to reach the final.",
+          "a": "T",
+          "why": "The text says: \"a loss in Round 3 left her needing to win eight repechage heats to reach the final\""
+        },
+        {
+          "s": "Ethan Ewing won the women's gold medal.",
+          "a": "F",
+          "why": "The text says: \"Ethan Ewing secured the men's gold medal\""
+        }
+      ]
+    }
+  }
+}

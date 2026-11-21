@@ -1,0 +1,328 @@
+{
+  "slug": "were-people-getting-high-2800-years-ago",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Scientists found chemical evidence in human ____.",
+            "a": "hair"
+          },
+          {
+            "s": "The tomb belonged to members of the Scythian ____.",
+            "a": "culture"
+          },
+          {
+            "s": "The research was published in the journal Science on 5 ____ 2026.",
+            "a": "November"
+          },
+          {
+            "s": "Seeds alone would not prove ____ people used cannabis.",
+            "a": "why"
+          },
+          {
+            "s": "The plant can also be used for making rope, cloth or ____.",
+            "a": "oil"
+          }
+        ],
+        "extra": [
+          "metal",
+          "paper"
+        ]
+      },
+      "match": [
+        {
+          "t": "tomb",
+          "d": "a large grave"
+        },
+        {
+          "t": "evidence",
+          "d": "facts that help show something is true"
+        },
+        {
+          "t": "ceremonies",
+          "d": "special events with fixed actions, often for religion"
+        },
+        {
+          "t": "mystery",
+          "d": "something that is not explained or understood"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The researchers ____ cannabis seeds at the burial site.",
+            "cue": "discover",
+            "a": "discovered"
+          },
+          {
+            "s": "The research ____ published in the journal Science.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "The Scythians ____ across parts of Central Asia.",
+            "cue": "live",
+            "a": "lived"
+          },
+          {
+            "s": "Scientists ____ found chemical evidence in human hair.",
+            "cue": "have",
+            "a": "have"
+          },
+          {
+            "s": "The hair ____ a substance called cannabinol.",
+            "cue": "contain",
+            "a": "contained"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The research was published in the journal Science.",
+          "a": "T",
+          "why": "The text says: \"The research was published in the journal Science on 5 November 2026.\""
+        },
+        {
+          "s": "The tomb was in Africa.",
+          "a": "F",
+          "why": "The text says: \"Archaeologists studying an ancient tomb in Siberia\""
+        },
+        {
+          "s": "Scientists can say exactly how people took cannabis.",
+          "a": "F",
+          "why": "The text says: \"They still cannot say exactly how people took it.\""
+        },
+        {
+          "s": "The Scythians grew cannabis on large farms.",
+          "a": "N",
+          "why": "The text does not say that the Scythians grew cannabis on large farms."
+        },
+        {
+          "s": "Seeds alone would not show why people had cannabis.",
+          "a": "T",
+          "why": "The text says: \"Seeds alone might show that people had cannabis, but they would not prove why.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The clue was traces of chemicals preserved in human ____.",
+            "a": "hair"
+          },
+          {
+            "s": "The researchers were led by archaeologist Gino ____.",
+            "a": "Caspari"
+          },
+          {
+            "s": "The evidence dates back to the early eighth century ____.",
+            "a": "BC"
+          },
+          {
+            "s": "Cannabis also has practical uses, such as making ____ and oil.",
+            "a": "textiles"
+          },
+          {
+            "s": "The Greek historian ____ described Scythian practices involving plant smoke.",
+            "a": "Herodotus"
+          },
+          {
+            "s": "The study cannot tell us the THC ____ of the original plants.",
+            "a": "strength"
+          }
+        ],
+        "extra": [
+          "weapons",
+          "temperature"
+        ]
+      },
+      "match": [
+        {
+          "t": "psychoactive",
+          "d": "affecting the mind or mood"
+        },
+        {
+          "t": "textiles",
+          "d": "cloth and fabrics"
+        },
+        {
+          "t": "steppe",
+          "d": "a huge flat grassy area with few trees"
+        },
+        {
+          "t": "consumed",
+          "d": "eaten, drunk or taken into the body"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "A discovery in southern Siberia now ____ unusually direct evidence.",
+            "cue": "provide",
+            "a": "provides"
+          },
+          {
+            "s": "The study ____ a princely tomb.",
+            "cue": "examine",
+            "a": "examined"
+          },
+          {
+            "s": "The hair ____ cannabinol.",
+            "cue": "contain",
+            "a": "contained"
+          },
+          {
+            "s": "Ancient writers ____ Scythian practices involving plant smoke.",
+            "cue": "describe",
+            "a": "described"
+          },
+          {
+            "s": "Cannabis ____ often discussed as if it were a modern issue.",
+            "cue": "be",
+            "a": "is"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Finding seeds alone proves that people used the plant to become intoxicated.",
+          "a": "F",
+          "why": "The text says: \"finding cannabis seeds by themselves would not establish that anybody used the plant to become intoxicated\""
+        },
+        {
+          "s": "The study was published in a different journal from Science.",
+          "a": "F",
+          "why": "The text says: \"published in the journal Science on 5 November 2026\""
+        },
+        {
+          "s": "The evidence shows cannabis was common throughout Scythian society.",
+          "a": "F",
+          "why": "The text says: \"the evidence does not show that cannabis was common throughout Scythian society\""
+        },
+        {
+          "s": "Scythian people spoke a language related to Persian.",
+          "a": "N",
+          "why": "The text does not say which language the Scythians spoke."
+        },
+        {
+          "s": "Some written accounts of the Scythians came long after the events.",
+          "a": "T",
+          "why": "The text says: \"such accounts were written long after some of the events they described\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Few plants provoke as much ____ debate as cannabis.",
+            "a": "contemporary"
+          },
+          {
+            "s": "The findings were ____ to the early eighth century BC.",
+            "a": "dated"
+          },
+          {
+            "s": "The crucial clue was ____ detected in the hair.",
+            "a": "cannabinol"
+          },
+          {
+            "s": "Evidence from one burial site cannot be ____ to an entire society.",
+            "a": "generalised"
+          },
+          {
+            "s": "Ancient accounts of the Scythians must be treated with ____.",
+            "a": "caution"
+          },
+          {
+            "s": "The material came from an elaborate burial ____.",
+            "a": "context"
+          }
+        ],
+        "extra": [
+          "legislation",
+          "anxiety"
+        ]
+      },
+      "match": [
+        {
+          "t": "constituents",
+          "d": "the parts that something is made of"
+        },
+        {
+          "t": "speculation",
+          "d": "guessing without enough proof"
+        },
+        {
+          "t": "prevalence",
+          "d": "how common something is"
+        },
+        {
+          "t": "intrigue",
+          "d": "a quality that makes something interesting and mysterious"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The discovery provides unusually strong ____ evidence.",
+            "cue": "PHYSICS",
+            "a": "physical"
+          },
+          {
+            "s": "Combining archaeology with science helps researchers move beyond ____.",
+            "cue": "SPECULATE",
+            "a": "speculation"
+          },
+          {
+            "s": "The evidence remains ____.",
+            "cue": "COMPLETE",
+            "a": "incomplete"
+          },
+          {
+            "s": "An ancient origin may make something interesting without making it ____.",
+            "cue": "HARM",
+            "a": "harmless"
+          },
+          {
+            "s": "The wider ____ lies in the way tiny remains can reshape our picture of human behaviour.",
+            "cue": "SIGNIFICANT",
+            "a": "significance"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The tomb in the study is linked to the Scythians.",
+          "a": "T",
+          "why": "The text says: \"the research focused on a princely tomb associated with the Scythians\""
+        },
+        {
+          "s": "The chemical traces show the strength of the original plants.",
+          "a": "F",
+          "why": "The text says: \"The chemical traces cannot establish the original plants' THC concentration\""
+        },
+        {
+          "s": "Chemical residues in human tissue allow a more specific argument than seeds alone.",
+          "a": "T",
+          "why": "The text says: \"Detecting chemical residues in human tissue allows researchers to make a more specific argument about exposure to the plant's psychoactive constituents.\""
+        },
+        {
+          "s": "The researchers plan to study the plant's DNA.",
+          "a": "N",
+          "why": "The text does not say that the researchers plan to study the plant's DNA."
+        },
+        {
+          "s": "An ancient origin makes a substance harmless.",
+          "a": "F",
+          "why": "The text says: \"Something's ancient origin may make it culturally interesting without making it harmless or desirable.\""
+        }
+      ]
+    }
+  }
+}

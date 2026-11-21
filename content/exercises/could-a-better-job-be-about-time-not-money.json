@@ -1,0 +1,328 @@
+{
+  "slug": "could-a-better-job-be-about-time-not-money",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Adecco asked 40,500 ____ in 36 countries about their working lives.",
+            "a": "workers"
+          },
+          {
+            "s": "Work-life balance was the main reason people said they might ____ a job, ahead of pay.",
+            "a": "leave"
+          },
+          {
+            "s": "A restaurant cannot let every employee work from ____.",
+            "a": "home"
+          },
+          {
+            "s": "Someone struggling to pay ____ may have no choice.",
+            "a": "rent"
+          },
+          {
+            "s": "A hospital needs ____ at certain times.",
+            "a": "staff"
+          }
+        ],
+        "extra": [
+          "pension",
+          "contract"
+        ]
+      },
+      "match": [
+        {
+          "t": "salary",
+          "d": "the money you get for your job, usually each month or year"
+        },
+        {
+          "t": "employers",
+          "d": "people or companies that give others a job"
+        },
+        {
+          "t": "struggling",
+          "d": "finding something very hard to do"
+        },
+        {
+          "t": "flexible",
+          "d": "able to change easily"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Adecco ____ 40,500 workers about their working lives.",
+            "cue": "ask",
+            "a": "asked"
+          },
+          {
+            "s": "The report ____ out on 19 November 2026.",
+            "cue": "come",
+            "a": "came"
+          },
+          {
+            "s": "The results show that workers ____ thinking more carefully about their jobs.",
+            "cue": "be",
+            "a": "are"
+          },
+          {
+            "s": "Some people ____ a long way to work.",
+            "cue": "travel",
+            "a": "travel"
+          },
+          {
+            "s": "People also want enough energy ____ the rest of their day.",
+            "cue": "enjoy",
+            "a": "to enjoy"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The survey asked workers in 36 countries.",
+          "a": "T",
+          "why": "The text says: \"Adecco asked 40,500 workers in 36 countries\""
+        },
+        {
+          "s": "The results mean that money has stopped mattering to workers.",
+          "a": "F",
+          "why": "The text says: \"The results do not mean that money has stopped mattering\""
+        },
+        {
+          "s": "Most workers in the survey want to work from home every day.",
+          "a": "N",
+          "why": "The text does not say how many workers want to work from home every day."
+        },
+        {
+          "s": "A hospital needs staff at certain times.",
+          "a": "T",
+          "why": "The text says: \"a hospital needs staff at certain times\""
+        },
+        {
+          "s": "Work-life balance has been the main reason for leaving a job every year of the research.",
+          "a": "F",
+          "why": "The text says: \"For the first time in the seven years of this research\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The survey questioned 40,500 workers across 36 countries and 21 ____.",
+            "a": "industries"
+          },
+          {
+            "s": "For the first time in seven years, work-life balance ____ salary as the leading reason for leaving.",
+            "a": "overtook"
+          },
+          {
+            "s": "Parents and carers often struggle to fit unpredictable ____ around fixed working hours.",
+            "a": "responsibilities"
+          },
+          {
+            "s": "A nurse, cleaner or café worker must be ____ present.",
+            "a": "physically"
+          },
+          {
+            "s": "Someone on a comfortable income can probably ____ to turn down a pay rise.",
+            "a": "afford"
+          },
+          {
+            "s": "If one department gets more freedom than another, ____ can build up.",
+            "a": "tensions"
+          }
+        ],
+        "extra": [
+          "promotions",
+          "salaries"
+        ]
+      },
+      "match": [
+        {
+          "t": "shift",
+          "d": "a change in the way things are done or thought about"
+        },
+        {
+          "t": "legitimate",
+          "d": "reasonable and fair"
+        },
+        {
+          "t": "luxury",
+          "d": "something nice that you do not really need"
+        },
+        {
+          "t": "arrangements",
+          "d": "plans made so that something can happen"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Adecco ____ its latest research on 19 November 2026.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "It ____ 40,500 workers across 36 countries.",
+            "cue": "question",
+            "a": "questioned"
+          },
+          {
+            "s": "Commuting can ____ into several hours a week.",
+            "cue": "eat",
+            "a": "eat"
+          },
+          {
+            "s": "Someone struggling with rent may not ____ that option.",
+            "cue": "have",
+            "a": "have"
+          },
+          {
+            "s": "People increasingly ask whether a job ____ them room to live.",
+            "cue": "give",
+            "a": "gives"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The survey took place in June and July.",
+          "a": "T",
+          "why": "The text says: \"during June and July\""
+        },
+        {
+          "s": "Salary has stopped being important to workers.",
+          "a": "F",
+          "why": "The text says: \"That finding does not suggest that wages are suddenly unimportant\""
+        },
+        {
+          "s": "The survey found that women want flexibility more than men do.",
+          "a": "N",
+          "why": "The text does not say whether women or men want flexibility more."
+        },
+        {
+          "s": "A software developer may be able to work from home.",
+          "a": "T",
+          "why": "The text says: \"A software developer may be able to work from home\""
+        },
+        {
+          "s": "The text says flexible hours give struggling workers more peace of mind than higher wages.",
+          "a": "F",
+          "why": "The text says: \"higher wages can provide the peace of mind that flexible hours cannot\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "The fieldwork took place in ____ and July.",
+            "a": "June"
+          },
+          {
+            "s": "The survey records stated priorities, not ____ that people would reject higher pay.",
+            "a": "proof"
+          },
+          {
+            "s": "A long commute can quietly ____ hours that never appear on a payslip.",
+            "a": "consume"
+          },
+          {
+            "s": "People in hospitals, shops or factories cannot simply ____ their duties to a kitchen table.",
+            "a": "relocate"
+          },
+          {
+            "s": "Employers should avoid a two-tier ____ in which some colleagues enjoy considerable freedom.",
+            "a": "culture"
+          },
+          {
+            "s": "Someone living from one payday to the next might find that choice ____.",
+            "a": "impossible"
+          }
+        ],
+        "extra": [
+          "expand",
+          "payment"
+        ]
+      },
+      "match": [
+        {
+          "t": "reassessment",
+          "d": "a new and careful look at something you thought before"
+        },
+        {
+          "t": "autonomy",
+          "d": "the freedom to make your own decisions"
+        },
+        {
+          "t": "privileged",
+          "d": "having advantages that most people do not have"
+        },
+        {
+          "t": "oversimplify",
+          "d": "make something seem simpler than it really is"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Fixed schedules can be particularly ____ for parents, carers and anyone juggling education.",
+            "cue": "PUNISH",
+            "a": "punishing"
+          },
+          {
+            "s": "Employers have to balance autonomy against ____ needs.",
+            "cue": "OPERATE",
+            "a": "operational"
+          },
+          {
+            "s": "There is a further ____ complication.",
+            "cue": "ECONOMY",
+            "a": "economic"
+          },
+          {
+            "s": "Flexibility can make an ordinary week ____.",
+            "cue": "SUSTAIN",
+            "a": "sustainable"
+          },
+          {
+            "s": "Treating work-life balance as the universal priority would be an ____ of the picture.",
+            "cue": "SIMPLE",
+            "a": "oversimplification"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The report was released on 19 November 2026.",
+          "a": "T",
+          "why": "The text says: \"On 19 November 2026, the recruitment group Adecco released\""
+        },
+        {
+          "s": "The survey proves that people would turn down higher pay when offered it.",
+          "a": "F",
+          "why": "The text says: \"the survey records people's stated priorities, not proof that they would necessarily reject higher pay when faced with a real offer\""
+        },
+        {
+          "s": "Adecco surveyed more men than women.",
+          "a": "N",
+          "why": "The text does not say how many of the workers were men or women."
+        },
+        {
+          "s": "Flexibility is shared unevenly between workers.",
+          "a": "T",
+          "why": "The text says: \"That freedom, however, is distributed unevenly.\""
+        },
+        {
+          "s": "Work-life balance has become the top priority for every worker.",
+          "a": "F",
+          "why": "The text says: \"Treating work-life balance as the new universal priority would therefore oversimplify the picture\""
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "slug": "why-is-porridge-cool-again",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Fibre is found in foods such as oats, beans, fruit and ____.",
+            "a": "vegetables"
+          },
+          {
+            "s": "People have been making porridge for ____.",
+            "a": "generations"
+          },
+          {
+            "s": "A plain breakfast can turn into a beautiful ____ with berries on top.",
+            "a": "photo"
+          },
+          {
+            "s": "The amount of fibre in the food people buy for home had gone down ____.",
+            "a": "slightly"
+          },
+          {
+            "s": "Porridge is a simple way to eat some fibre in the ____.",
+            "a": "morning"
+          }
+        ],
+        "extra": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      "match": [
+        {
+          "t": "fashionable",
+          "d": "popular at a particular time"
+        },
+        {
+          "t": "trend",
+          "d": "something many people start doing at the same time"
+        },
+        {
+          "t": "toppings",
+          "d": "things you put on top of food"
+        },
+        {
+          "t": "balanced",
+          "d": "with the right amounts of different things"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "On 24 October 2026, the Guardian ____ that interest in porridge was rising.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "Sales of White's jumbo oats ____ also up 56%.",
+            "cue": "be",
+            "a": "were"
+          },
+          {
+            "s": "Fibre ____ found in foods such as oats and beans.",
+            "cue": "be",
+            "a": "is"
+          },
+          {
+            "s": "Cafes are also ____ up with creative versions.",
+            "cue": "come",
+            "a": "coming"
+          },
+          {
+            "s": "An old-fashioned breakfast has suddenly ____ something people want to show off.",
+            "cue": "become",
+            "a": "become"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The Guardian reported on 24 October 2026 that interest in porridge was rising.",
+          "a": "T",
+          "why": "The text says: \"On 24 October 2026, the Guardian reported that interest in porridge was rising in Britain.\""
+        },
+        {
+          "s": "The figures come from every shop in the country.",
+          "a": "F",
+          "why": "The text says: \"These figures are from particular businesses, not every shop in the country\""
+        },
+        {
+          "s": "Porridge is more popular in Scotland than in England.",
+          "a": "N",
+          "why": "The text does not say where in Britain porridge is most popular."
+        },
+        {
+          "s": "Fibre is found in beans and fruit.",
+          "a": "T",
+          "why": "The text says: \"Fibre is found in foods such as oats, beans, fruit and vegetables.\""
+        },
+        {
+          "s": "Sweet toppings automatically make breakfast better.",
+          "a": "F",
+          "why": "The text says: \"And adding lots of sweet toppings does not automatically make breakfast better.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Searches for organic jumbo oats at Ocado had ____ by 98% year on year.",
+            "a": "risen"
+          },
+          {
+            "s": "These figures come from individual ____.",
+            "a": "retailers"
+          },
+          {
+            "s": "Oats are a ____ source of fibre because they are easy to prepare.",
+            "a": "convenient"
+          },
+          {
+            "s": "Some chefs are experimenting with ____ versions of porridge.",
+            "a": "savoury"
+          },
+          {
+            "s": "A bowl covered in sugary extras is not automatically ____ just because oats are underneath.",
+            "a": "healthier"
+          },
+          {
+            "s": "Porridge is familiar, affordable and easy to ____ to different tastes.",
+            "a": "adapt"
+          }
+        ],
+        "extra": [
+          "frozen",
+          "nutritious"
+        ]
+      },
+      "match": [
+        {
+          "t": "humble",
+          "d": "ordinary and not showing off"
+        },
+        {
+          "t": "convenient",
+          "d": "easy and quick to use"
+        },
+        {
+          "t": "flexible",
+          "d": "able to change to fit different needs"
+        },
+        {
+          "t": "awareness",
+          "d": "knowing about something"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The humble bowl of oats ____ to be making a comeback.",
+            "cue": "appear",
+            "a": "appears"
+          },
+          {
+            "s": "Sales of White's jumbo oats ____ up 56%.",
+            "cue": "be",
+            "a": "were"
+          },
+          {
+            "s": "Fibre ____ support healthy digestion.",
+            "cue": "help",
+            "a": "helps"
+          },
+          {
+            "s": "Social media ____ people to make everyday food look impressive.",
+            "cue": "encourage",
+            "a": "encourages"
+          },
+          {
+            "s": "Reporting in The Grocer ____ that fibre intake remained below recommended levels.",
+            "cue": "suggest",
+            "a": "suggested"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The Guardian article was published on 24 October 2026.",
+          "a": "T",
+          "why": "The text says: \"In an article published on 24 October 2026, the Guardian reported growing interest in porridge and other oat-based products.\""
+        },
+        {
+          "s": "The figures prove that everybody in Britain has changed breakfast habits.",
+          "a": "F",
+          "why": "The text says: \"so they do not prove that everybody in Britain has suddenly changed breakfast habits\""
+        },
+        {
+          "s": "Ocado sells more porridge than any other supermarket.",
+          "a": "N",
+          "why": "The text does not say how Ocado compares with other supermarkets."
+        },
+        {
+          "s": "Porridge can be made with oats, milk or water and a saucepan.",
+          "a": "T",
+          "why": "The text says: \"porridge can be made with little more than oats, milk or water and a saucepan\""
+        },
+        {
+          "s": "Fibre intake in Britain was above recommended levels.",
+          "a": "F",
+          "why": "The text says: \"average fibre intake in Britain remained below recommended levels\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Searches for organic jumbo oats at Ocado had ____ by 98% compared with the previous year.",
+            "a": "increased"
+          },
+          {
+            "s": "The figures are retailer-specific ____ rather than a picture of national consumption.",
+            "a": "indicators"
+          },
+          {
+            "s": "Oats are a good starting point because they ____ fibre.",
+            "a": "contain"
+          },
+          {
+            "s": "Eating more whole grains is hardly a ____ idea.",
+            "a": "revolutionary"
+          },
+          {
+            "s": "The enthusiasm should not be mistaken for ____ that the population's diet has improved.",
+            "a": "evidence"
+          },
+          {
+            "s": "The gap between awareness and ____ is significant.",
+            "a": "behaviour"
+          }
+        ],
+        "extra": [
+          "nostalgia",
+          "regulation"
+        ]
+      },
+      "match": [
+        {
+          "t": "makeover",
+          "d": "a complete change to how something looks"
+        },
+        {
+          "t": "repackaged",
+          "d": "presented again in a new way"
+        },
+        {
+          "t": "comprehensive",
+          "d": "complete and including everything"
+        },
+        {
+          "t": "adaptable",
+          "d": "easy to change for different uses"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Porridge is enjoying an ____ image makeover.",
+            "cue": "EXPECT",
+            "a": "unexpected"
+          },
+          {
+            "s": "The homemade breakfast is ____ compared with the premium cafe version.",
+            "cue": "EXPENSIVE",
+            "a": "inexpensive"
+          },
+          {
+            "s": "Visually ____ breakfast bowls have helped cafes sell a cheap meal.",
+            "cue": "APPEAL",
+            "a": "appealing"
+          },
+          {
+            "s": "Highly ____ toppings may complicate claims about how healthy a bowl is.",
+            "cue": "SWEET",
+            "a": "sweetened"
+          },
+          {
+            "s": "Porridge is comforting and ____, which suits many tastes.",
+            "cue": "ADAPT",
+            "a": "adaptable"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The Guardian reported that demand for some oat products was rising.",
+          "a": "T",
+          "why": "The text says: \"The Guardian reported on 24 October 2026 that demand for certain oat products was rising.\""
+        },
+        {
+          "s": "The figures give a full picture of national consumption.",
+          "a": "F",
+          "why": "The text says: \"These are retailer-specific indicators rather than a comprehensive picture of national consumption.\""
+        },
+        {
+          "s": "Cafe porridge is usually healthier than homemade porridge.",
+          "a": "N",
+          "why": "The text does not say whether cafe porridge is healthier than homemade porridge."
+        },
+        {
+          "s": "Average fibre intake in Britain was reported to be below recommended amounts.",
+          "a": "T",
+          "why": "The text says: \"average intake in Britain remained below recommended amounts\""
+        },
+        {
+          "s": "Nutrition depends mainly on the reputation of one ingredient.",
+          "a": "F",
+          "why": "The text says: \"Nutrition depends on the overall pattern of what people eat, not the reputation of one ingredient.\""
+        }
+      ]
+    }
+  }
+}

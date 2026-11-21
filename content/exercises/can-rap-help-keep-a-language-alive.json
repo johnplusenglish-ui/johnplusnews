@@ -1,0 +1,328 @@
+{
+  "slug": "can-rap-help-keep-a-language-alive",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Flores recorded a Quechua version of a Michael Jackson ____.",
+            "a": "song"
+          },
+          {
+            "s": "Her ____ helped her translate it.",
+            "a": "grandmothers"
+          },
+          {
+            "s": "Her music combines traditional Andean ____ with trap and reggaeton.",
+            "a": "instruments"
+          },
+          {
+            "s": "Children need to hear Quechua and have chances to ____ it.",
+            "a": "learn"
+          },
+          {
+            "s": "A song can reach people who would never open a language ____.",
+            "a": "textbook"
+          }
+        ],
+        "extra": [
+          "stage",
+          "album"
+        ]
+      },
+      "match": [
+        {
+          "t": "discrimination",
+          "d": "unfair treatment of people because of who they are"
+        },
+        {
+          "t": "contempt",
+          "d": "a feeling that someone or something is not worth respect"
+        },
+        {
+          "t": "identity",
+          "d": "who you are and the group you belong to"
+        },
+        {
+          "t": "tradition",
+          "d": "a custom or belief that has lasted for a long time"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Flores ____ Quechua from her grandmothers.",
+            "cue": "learn",
+            "a": "learnt|learned"
+          },
+          {
+            "s": "She ____ a Quechua version of a Michael Jackson song.",
+            "cue": "record",
+            "a": "recorded"
+          },
+          {
+            "s": "The video ____ a hit on YouTube.",
+            "cue": "become",
+            "a": "became"
+          },
+          {
+            "s": "Her parents ____ not taught it to her.",
+            "cue": "have",
+            "a": "had"
+          },
+          {
+            "s": "Younger musicians in the Ayacucho region ____ their own ways of using Quechua.",
+            "cue": "explore",
+            "a": "are exploring"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Flores is 25 years old.",
+          "a": "T",
+          "why": "The text says: \"Flores, who is 25, first became widely known when she was fourteen\""
+        },
+        {
+          "s": "Flores learnt Quechua from her parents.",
+          "a": "F",
+          "why": "The text says: \"Flores learnt Quechua from her grandmothers because her parents had not taught it to her\""
+        },
+        {
+          "s": "Flores plans to release a new album next year.",
+          "a": "N",
+          "why": "The text does not say when Flores will release a new album."
+        },
+        {
+          "s": "Quechua is spoken in the Andes.",
+          "a": "T",
+          "why": "The text says: \"Quechua, an Indigenous language spoken in the Andes\""
+        },
+        {
+          "s": "A popular song can replace years of learning.",
+          "a": "F",
+          "why": "The text says: \"it cannot replace years of learning or support for the people who speak the language\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Rap is often ____ with English, Spanish and the major global music industries.",
+            "a": "associated"
+          },
+          {
+            "s": "Flores combines hip-hop, trap and reggaeton with traditional Andean ____.",
+            "a": "sounds"
+          },
+          {
+            "s": "The video became a viral hit and opened the ____ to a music career.",
+            "a": "door"
+          },
+          {
+            "s": "Flores's parents feared that she could face ____.",
+            "a": "discrimination"
+          },
+          {
+            "s": "An audience that enjoys a song is not necessarily going to ____ the language.",
+            "a": "learn"
+          },
+          {
+            "s": "Traditions can survive by changing and mixing with other ____.",
+            "a": "influences"
+          }
+        ],
+        "extra": [
+          "contracts",
+          "lyrics"
+        ]
+      },
+      "match": [
+        {
+          "t": "heritage",
+          "d": "the traditions and history that a group passes down"
+        },
+        {
+          "t": "stigma",
+          "d": "a strong feeling that something is shameful"
+        },
+        {
+          "t": "prejudice",
+          "d": "an unfair opinion formed without good reason"
+        },
+        {
+          "t": "preservation",
+          "d": "the act of keeping something safe so that it is not lost"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "She first ____ attention at fourteen.",
+            "cue": "attract",
+            "a": "attracted"
+          },
+          {
+            "s": "Flores ____ to learn from her grandmothers.",
+            "cue": "choose",
+            "a": "chose"
+          },
+          {
+            "s": "Flores ____ to develop her own sound around Quechua.",
+            "cue": "continue",
+            "a": "continued"
+          },
+          {
+            "s": "Young musicians in the Ayacucho region are ____ on similar ideas.",
+            "cue": "build",
+            "a": "building"
+          },
+          {
+            "s": "Quechua ____ support in education, public life and the media.",
+            "cue": "need",
+            "a": "needs"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Flores first attracted attention when she was fourteen.",
+          "a": "T",
+          "why": "The text says: \"She first attracted attention at fourteen\""
+        },
+        {
+          "s": "Flores's parents taught her Quechua at home.",
+          "a": "F",
+          "why": "The text says: \"Flores's parents did not teach her Quechua because of social stigma\""
+        },
+        {
+          "s": "Millions of people watched the first video.",
+          "a": "N",
+          "why": "The text does not say how many people watched the video."
+        },
+        {
+          "s": "Quechua needs support in schools and the media.",
+          "a": "T",
+          "why": "The text says: \"Quechua needs support in education, public life and the media\""
+        },
+        {
+          "s": "Enjoying a song means a person will learn the language.",
+          "a": "F",
+          "why": "The text says: \"An audience that enjoys a song is not necessarily going to learn the language.\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Flores challenges the assumption that cultural heritage must remain ____ in the past.",
+            "a": "rooted"
+          },
+          {
+            "s": "Rather than treating the viral success as a ____, she built an artistic identity around the language.",
+            "a": "novelty"
+          },
+          {
+            "s": "Her choice to learn from her grandmothers represents more than a musical ____.",
+            "a": "preference"
+          },
+          {
+            "s": "Flores refuses the idea that an Indigenous language must be ____ to ceremonies and academic study.",
+            "a": "confined"
+          },
+          {
+            "s": "The success of a prominent performer does not ____ that children can study in Quechua.",
+            "a": "guarantee"
+          },
+          {
+            "s": "Celebrating culture in entertainment while failing to respect its speakers would be a ____ form of progress.",
+            "a": "shallow"
+          }
+        ],
+        "extra": [
+          "gradual",
+          "expensive"
+        ]
+      },
+      "match": [
+        {
+          "t": "stigmatised",
+          "d": "treated as shameful or not good enough"
+        },
+        {
+          "t": "authenticity",
+          "d": "the quality of being real and true to the original"
+        },
+        {
+          "t": "stereotypes",
+          "d": "fixed, simple ideas about a type of person or thing"
+        },
+        {
+          "t": "inhabit",
+          "d": "to live in or be fully part of something"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Her music is a public statement about the value of ____ identity.",
+            "cue": "LINGUIST",
+            "a": "linguistic"
+          },
+          {
+            "s": "Her work shows how preservation and ____ can reinforce each other.",
+            "cue": "INNOVATE",
+            "a": "innovation"
+          },
+          {
+            "s": "Success does not guarantee that children can use Quechua without facing ____.",
+            "cue": "DISCRIMINATE",
+            "a": "discrimination"
+          },
+          {
+            "s": "Long-term change depends on opportunities for everyday ____.",
+            "cue": "COMMUNICATE",
+            "a": "communication"
+          },
+          {
+            "s": "Combining old and new can be a way of resisting ____ rather than surrendering.",
+            "cue": "APPEAR",
+            "a": "disappearance"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Flores became well known at fourteen.",
+          "a": "T",
+          "why": "The text says: \"Now 25, Flores first gained widespread attention at the age of fourteen\""
+        },
+        {
+          "s": "Flores's parents passed Quechua on to her.",
+          "a": "F",
+          "why": "The text says: \"Flores's parents did not pass Quechua on to her\""
+        },
+        {
+          "s": "Flores earns more from streaming than from concerts.",
+          "a": "N",
+          "why": "The text does not say how Flores earns most of her money."
+        },
+        {
+          "s": "Other young artists in Ayacucho also use Quechua.",
+          "a": "T",
+          "why": "The text says: \"Other young musicians in Ayacucho are finding ways to express modern experiences through Quechua too\""
+        },
+        {
+          "s": "Combining old and new cannot help a language survive.",
+          "a": "F",
+          "why": "The text says: \"combining old and new can be a way of resisting disappearance\""
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "slug": "what-makes-a-conversation-flow",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Pink noise is a term used in ____ to describe a pattern.",
+            "a": "science"
+          },
+          {
+            "s": "The researchers used ____ to examine how topics changed over time.",
+            "a": "computers"
+          },
+          {
+            "s": "If both people keep repeating the same ideas, it may become ____.",
+            "a": "boring"
+          },
+          {
+            "s": "The scientists also looked at podcasts with two ____.",
+            "a": "hosts"
+          },
+          {
+            "s": "Pick up on something the other person has ____.",
+            "a": "said"
+          }
+        ],
+        "extra": [
+          "jokes",
+          "weather"
+        ]
+      },
+      "match": [
+        {
+          "t": "topic",
+          "d": "a subject that people talk about"
+        },
+        {
+          "t": "pattern",
+          "d": "a regular way that something happens or is arranged"
+        },
+        {
+          "t": "confused",
+          "d": "not able to understand what is happening"
+        },
+        {
+          "t": "formula",
+          "d": "a fixed set of steps or numbers used to get a result"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Researchers ____ for a similar pattern in conversations.",
+            "cue": "look",
+            "a": "looked"
+          },
+          {
+            "s": "The study ____ that people enjoyed conversations more with a mixture of ideas.",
+            "cue": "find",
+            "a": "found"
+          },
+          {
+            "s": "One person ____ a holiday where they watched a match.",
+            "cue": "mention",
+            "a": "mentions"
+          },
+          {
+            "s": "If someone changes the subject every few seconds, the other person can ____ confused.",
+            "cue": "get",
+            "a": "get"
+          },
+          {
+            "s": "For nearly all of the podcasts, the pattern ____ stronger over the first 50 episodes.",
+            "cue": "become",
+            "a": "became"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The study was published on 6 November 2026.",
+          "a": "T",
+          "why": "The text says: \"In a study published on 6 November 2026\""
+        },
+        {
+          "s": "The scientists say there is one perfect way to talk.",
+          "a": "F",
+          "why": "The text says: \"It does not mean there is one perfect way to talk\""
+        },
+        {
+          "s": "The podcast hosts in the study were famous.",
+          "a": "N",
+          "why": "The text does not say whether the podcast hosts were famous."
+        },
+        {
+          "s": "Good conversations seem to find a middle point.",
+          "a": "T",
+          "why": "The text says: \"Good conversations seem to find a middle point\""
+        },
+        {
+          "s": "Changing the subject every few seconds helps people understand each other.",
+          "a": "F",
+          "why": "The text says: \"if someone suddenly changes the subject every few seconds, the other person can get confused\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The study looked at the ____ of ideas between two speakers.",
+            "a": "movement"
+          },
+          {
+            "s": "Researchers used computer methods to ____ more than 1,000 conversations between strangers.",
+            "a": "analyse"
+          },
+          {
+            "s": "Every new idea has a connection to the ____ one.",
+            "a": "previous"
+          },
+          {
+            "s": "A conversation can get ____ when the speakers agree on everything.",
+            "a": "stuck"
+          },
+          {
+            "s": "Enjoyable talk sits between being too predictable and too ____.",
+            "a": "chaotic"
+          },
+          {
+            "s": "Start with something the other person has said and take it one ____ further.",
+            "a": "step"
+          }
+        ],
+        "extra": [
+          "decade",
+          "border"
+        ]
+      },
+      "match": [
+        {
+          "t": "resembles",
+          "d": "is similar to"
+        },
+        {
+          "t": "predictable",
+          "d": "easy to guess before it happens"
+        },
+        {
+          "t": "chaotic",
+          "d": "completely disorganised"
+        },
+        {
+          "t": "curiosity",
+          "d": "a strong wish to learn about something"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The researchers ____ how closely one part of a discussion was related to another.",
+            "cue": "measure",
+            "a": "measured"
+          },
+          {
+            "s": "One classmate mentions the music, which ____ to a conversation about favourite artists.",
+            "cue": "lead",
+            "a": "leads"
+          },
+          {
+            "s": "That ____ the other classmate of a concert.",
+            "cue": "remind",
+            "a": "reminds"
+          },
+          {
+            "s": "Neither speaker ____ simply repeating what the other says.",
+            "cue": "be",
+            "a": "is"
+          },
+          {
+            "s": "In podcasts with two hosts, the pattern ____ stronger over the first 50 episodes.",
+            "cue": "become",
+            "a": "became"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The researchers analysed more than 1,000 conversations.",
+          "a": "T",
+          "why": "The text says: \"analyse more than 1,000 conversations between strangers\""
+        },
+        {
+          "s": "The study gives a guaranteed formula for friendship.",
+          "a": "F",
+          "why": "The text says: \"the study does not provide a guaranteed formula for friendship\""
+        },
+        {
+          "s": "The researchers recorded the conversations themselves.",
+          "a": "N",
+          "why": "The text does not say who recorded the conversations."
+        },
+        {
+          "s": "Pink noise has its name because it shares features with some signals.",
+          "a": "T",
+          "why": "The text says: \"it shares mathematical features with signals that combine short changes and longer trends\""
+        },
+        {
+          "s": "Memorising scientific terminology matters more than listening.",
+          "a": "F",
+          "why": "The text says: \"still matter far more than memorising scientific terminology\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Other exchanges feel painfully ____.",
+            "a": "mechanical"
+          },
+          {
+            "s": "The researchers examined how closely the meanings of successive contributions were ____.",
+            "a": "related"
+          },
+          {
+            "s": "Pink noise is a phenomenon in which ____ occurs over several timescales.",
+            "a": "variation"
+          },
+          {
+            "s": "If speakers merely repeat one another's opinions, the exchange risks running out of ____.",
+            "a": "steam"
+          },
+          {
+            "s": "What feels stimulating to one person may be ____ to another.",
+            "a": "overwhelming"
+          },
+          {
+            "s": "A good chat is not a ____ delivered by one impressive speaker.",
+            "a": "performance"
+          }
+        ],
+        "extra": [
+          "tradition",
+          "rhythm"
+        ]
+      },
+      "match": [
+        {
+          "t": "semantic",
+          "d": "connected with meaning in language"
+        },
+        {
+          "t": "continuity",
+          "d": "the state of continuing without a break"
+        },
+        {
+          "t": "stimulating",
+          "d": "interesting and full of new ideas"
+        },
+        {
+          "t": "insight",
+          "d": "a clear understanding of something"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The study linked the pattern with greater ____.",
+            "cue": "ENJOY",
+            "a": "enjoyment"
+          },
+          {
+            "s": "The pattern was associated with feelings of ____ between speakers.",
+            "cue": "CONNECT",
+            "a": "connection"
+          },
+          {
+            "s": "A satisfying exchange also depends on emotional ____.",
+            "cue": "SENSITIVE",
+            "a": "sensitivity"
+          },
+          {
+            "s": "Someone who introduces a ____ new subject at every opportunity may leave their partner struggling to keep up.",
+            "cue": "DAZZLE",
+            "a": "dazzling"
+          },
+          {
+            "s": "The statistical pattern offers insight, not a set of ____.",
+            "cue": "INSTRUCT",
+            "a": "instructions"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The study appeared in Science Advances.",
+          "a": "T",
+          "why": "The text says: \"Writing in Science Advances on 6 November\""
+        },
+        {
+          "s": "The research establishes a universal recipe for making friends.",
+          "a": "F",
+          "why": "The text says: \"the research does not establish a universal recipe for making friends\""
+        },
+        {
+          "s": "The conversations were recorded in a laboratory.",
+          "a": "N",
+          "why": "The text does not say where the conversations were recorded."
+        },
+        {
+          "s": "Stronger evidence of the pattern was linked with greater enjoyment.",
+          "a": "T",
+          "why": "The text says: \"Stronger evidence of this pattern was associated with greater enjoyment and feelings of connection between speakers\""
+        },
+        {
+          "s": "The text says people should play a particular sound while talking.",
+          "a": "F",
+          "why": "The text says: \"Pink noise does not mean that people should play a particular sound while talking\""
+        }
+      ]
+    }
+  }
+}

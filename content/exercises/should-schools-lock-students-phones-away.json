@@ -1,0 +1,328 @@
+{
+  "slug": "should-schools-lock-students-phones-away",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "The researchers studied information from around 3.3 ____ students.",
+            "a": "million"
+          },
+          {
+            "s": "In some schools, phones had to stay inside locked ____ for the whole day.",
+            "a": "pouches"
+          },
+          {
+            "s": "The change was small, but it could become important over several ____.",
+            "a": "years"
+          },
+          {
+            "s": "It can be a relief not to check every ____.",
+            "a": "notification"
+          },
+          {
+            "s": "Some students may use their phones to contact family ____.",
+            "a": "members"
+          }
+        ],
+        "extra": [
+          "tablets",
+          "exams"
+        ]
+      },
+      "match": [
+        {
+          "t": "modest",
+          "d": "small or limited in size"
+        },
+        {
+          "t": "strict",
+          "d": "very firm, with no room for breaking the rules"
+        },
+        {
+          "t": "concerns",
+          "d": "worries about something"
+        },
+        {
+          "t": "emergencies",
+          "d": "sudden and serious situations that need quick action"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Schools in different places ____ rules like this.",
+            "cue": "introduce",
+            "a": "have introduced"
+          },
+          {
+            "s": "The researchers ____ small improvements in learning.",
+            "cue": "find",
+            "a": "found"
+          },
+          {
+            "s": "Their results ____ reported on 17 November 2026.",
+            "cue": "be",
+            "a": "were"
+          },
+          {
+            "s": "They ____ students' progress before and after the new rules.",
+            "cue": "compare",
+            "a": "compared"
+          },
+          {
+            "s": "In some schools, phones ____ to stay inside locked pouches.",
+            "cue": "have",
+            "a": "had"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The study looked at information from around 3.3 million students.",
+          "a": "T",
+          "why": "The text says: \"studied information from around 3.3 million students in 4,600 schools\""
+        },
+        {
+          "s": "The researchers found big improvements in learning.",
+          "a": "F",
+          "why": "The text says: \"The researchers found small improvements in learning at these schools.\""
+        },
+        {
+          "s": "Most students said they liked the locked pouches.",
+          "a": "N",
+          "why": "The text does not say what students thought about the pouches."
+        },
+        {
+          "s": "The extra progress was similar to one or two weeks of learning in a school year.",
+          "a": "T",
+          "why": "The text says: \"similar to gaining one or two weeks of learning during a school year\""
+        },
+        {
+          "s": "The study looked at all the ways phones affect friendships.",
+          "a": "F",
+          "why": "The text says: \"It looked at learning results, not all the ways phones affect friendships or wellbeing.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The study compared progress in maths and ____ before and after schools introduced phone rules.",
+            "a": "reading"
+          },
+          {
+            "s": "The clearest results came from schools using lockable ____.",
+            "a": "pouches"
+          },
+          {
+            "s": "Little changes can add ____ over several years.",
+            "a": "up"
+          },
+          {
+            "s": "Students might find it easier to ____ in lessons.",
+            "a": "concentrate"
+          },
+          {
+            "s": "Some teenagers need phones for travel, family, medical or ____ reasons.",
+            "a": "accessibility"
+          },
+          {
+            "s": "The researchers were ____ about some findings, especially statewide policies.",
+            "a": "cautious"
+          }
+        ],
+        "extra": [
+          "dramatic",
+          "expensive"
+        ]
+      },
+      "match": [
+        {
+          "t": "temptation",
+          "d": "a strong wish to do something you should not do"
+        },
+        {
+          "t": "objections",
+          "d": "reasons why someone disagrees with an idea"
+        },
+        {
+          "t": "exceptions",
+          "d": "special cases where a rule does not apply"
+        },
+        {
+          "t": "equivalent",
+          "d": "equal in value or size"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "A study ____ in November 2026 has added fresh evidence to the debate.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "Researchers ____ information from around 3.3 million pupils.",
+            "cue": "analyse",
+            "a": "analysed"
+          },
+          {
+            "s": "Little changes can ____ up over several years.",
+            "cue": "add",
+            "a": "add"
+          },
+          {
+            "s": "Teenagers sometimes ____ their phones for travel arrangements.",
+            "cue": "need",
+            "a": "need"
+          },
+          {
+            "s": "The study did not ____ that every social benefit actually occurred.",
+            "cue": "prove",
+            "a": "prove"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The study used information from around 3.3 million pupils.",
+          "a": "T",
+          "why": "The text says: \"analysed information from around 3.3 million pupils attending 4,600 schools\""
+        },
+        {
+          "s": "The study found that phone rules made no difference at all.",
+          "a": "F",
+          "why": "The text says: \"These restrictions were linked to modest improvements in academic progress.\""
+        },
+        {
+          "s": "Most teachers in the study supported the pouches.",
+          "a": "N",
+          "why": "The text does not say what teachers in the study thought."
+        },
+        {
+          "s": "The researchers were careful about results involving statewide policies.",
+          "a": "T",
+          "why": "The text says: \"The researchers were cautious about some findings, particularly comparisons involving statewide policies\""
+        },
+        {
+          "s": "The study proved that phone rules improve happiness and mental health.",
+          "a": "F",
+          "why": "The text says: \"Yet the study did not prove that every possible social or emotional benefit actually occurred.\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Schools using lockable pouches achieved an average improvement in annual learning ____.",
+            "a": "growth"
+          },
+          {
+            "s": "Small annual gains can ____ when students spend several years in the same school.",
+            "a": "accumulate"
+          },
+          {
+            "s": "A phone can divert ____ through notifications and social expectations.",
+            "a": "attention"
+          },
+          {
+            "s": "The study was based on observed changes, not on an ____ randomly assigning schools to policies.",
+            "a": "experiment"
+          },
+          {
+            "s": "Some teenagers argue that schools should help them use technology ____.",
+            "a": "responsibly"
+          },
+          {
+            "s": "The authors warned that results about statewide restrictions could reflect pre-existing ____.",
+            "a": "trends"
+          }
+        ],
+        "extra": [
+          "punishment",
+          "funding"
+        ]
+      },
+      "match": [
+        {
+          "t": "accumulate",
+          "d": "to grow gradually as more is added"
+        },
+        {
+          "t": "divert",
+          "d": "to turn attention or effort away from something"
+        },
+        {
+          "t": "plausible",
+          "d": "likely to be true or reasonable"
+        },
+        {
+          "t": "pre-existing",
+          "d": "already there before something else began"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "A phone can divert attention through notifications and social ____.",
+            "cue": "EXPECT",
+            "a": "expectations"
+          },
+          {
+            "s": "That is hardly a ____ transformation.",
+            "cue": "SPECTACLE",
+            "a": "spectacular"
+          },
+          {
+            "s": "For critics, the rule is an ____ controlling measure.",
+            "cue": "NECESSARY",
+            "a": "unnecessarily"
+          },
+          {
+            "s": "There is a legitimate ____ between protecting concentration and controlling a pupil's whole day.",
+            "cue": "DISTINGUISH",
+            "a": "distinction"
+          },
+          {
+            "s": "Supporters must explain how policies can be fair, practical and ____ to students' needs.",
+            "cue": "RESPOND",
+            "a": "responsive"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Dartmouth and NWEA were partners in the study.",
+          "a": "T",
+          "why": "The text says: \"alongside partners at Dartmouth and NWEA\""
+        },
+        {
+          "s": "The study was a randomised experiment.",
+          "a": "F",
+          "why": "The text says: \"It was based on observed changes in achievement rather than a single experiment randomly assigning schools to different policies.\""
+        },
+        {
+          "s": "The study measured how long students spent on social media at home.",
+          "a": "N",
+          "why": "The text does not say whether the study measured time spent on social media at home."
+        },
+        {
+          "s": "The gains appeared similar across different groups of students.",
+          "a": "T",
+          "why": "The text says: \"The researchers also found that the gains appeared broadly consistent across different school and student groups.\""
+        },
+        {
+          "s": "The study showed that phone restrictions solve every problem linked to digital life.",
+          "a": "F",
+          "why": "The text says: \"An improvement in reading and maths should not be treated as proof that restrictions solve every problem associated with digital life.\""
+        }
+      ]
+    }
+  }
+}

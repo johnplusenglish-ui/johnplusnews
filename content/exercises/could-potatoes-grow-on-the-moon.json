@@ -1,0 +1,328 @@
+{
+  "slug": "could-potatoes-grow-on-the-moon",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Researchers grew potato plants in a material designed to be similar to ____ found on the Moon.",
+            "a": "soil"
+          },
+          {
+            "s": "Astronauts would need ____, and sending every meal from Earth would be expensive.",
+            "a": "food"
+          },
+          {
+            "s": "With 30% ____ in the mixture, the plants grew about as well as in Earth soil.",
+            "a": "compost"
+          },
+          {
+            "s": "The experiment took place in a ____ on Earth.",
+            "a": "greenhouse"
+          },
+          {
+            "s": "The potatoes were able to complete their life ____.",
+            "a": "cycle"
+          }
+        ],
+        "extra": [
+          "rocket",
+          "desert"
+        ]
+      },
+      "match": [
+        {
+          "t": "regolith",
+          "d": "the loose, rocky material that covers the Moon"
+        },
+        {
+          "t": "vermicompost",
+          "d": "compost made with the help of worms"
+        },
+        {
+          "t": "nutrients",
+          "d": "substances that plants need in order to grow"
+        },
+        {
+          "t": "radiation",
+          "d": "dangerous energy that comes from space"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In November 2026, scientists ____ an exciting experiment.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "At first, the potatoes ____ to grow.",
+            "cue": "struggle",
+            "a": "struggled"
+          },
+          {
+            "s": "Then the researchers ____ in vermicompost.",
+            "cue": "mix",
+            "a": "mixed"
+          },
+          {
+            "s": "The result ____ reported in a scientific paper.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "Plants in the Moon-like material without enough extra organic matter ____ badly.",
+            "cue": "grow",
+            "a": "grew"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The potatoes were grown in real soil from the Moon.",
+          "a": "F",
+          "why": "The text says: \"It was not real soil brought back from space.\""
+        },
+        {
+          "s": "Thirty per cent compost helped the plants grow about as well as in Earth soil.",
+          "a": "T",
+          "why": "The text says: \"When the mixture contained 30% compost, the plants grew about as well as potatoes grown in ordinary Earth soil under the same conditions.\""
+        },
+        {
+          "s": "The experiment took place on the Moon.",
+          "a": "F",
+          "why": "The text says: \"The experiment took place in a greenhouse on Earth, using pretend Moon soil.\""
+        },
+        {
+          "s": "The potatoes tasted better than normal potatoes.",
+          "a": "N",
+          "why": "The text does not say how the potatoes tasted."
+        },
+        {
+          "s": "The potatoes produced new potatoes.",
+          "a": "T",
+          "why": "The text says: \"The potatoes were able to complete their life cycle and produce new potatoes.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "A simulant is an Earth-made ____ designed to share some of the Moon's properties.",
+            "a": "substitute"
+          },
+          {
+            "s": "The compost is made when earthworms break down ____ matter.",
+            "a": "organic"
+          },
+          {
+            "s": "Without enough compost, the potatoes produced fewer ____.",
+            "a": "tubers"
+          },
+          {
+            "s": "With 30% vermicompost, the plants did about as well as potatoes in ordinary Earth ____.",
+            "a": "soil"
+          },
+          {
+            "s": "The experiment took place where temperature, light and water could be ____.",
+            "a": "controlled"
+          },
+          {
+            "s": "A lunar greenhouse would need protection from ____.",
+            "a": "radiation"
+          }
+        ],
+        "extra": [
+          "oxygen",
+          "magnets"
+        ]
+      },
+      "match": [
+        {
+          "t": "simulant",
+          "d": "a man-made copy of a natural material"
+        },
+        {
+          "t": "tubers",
+          "d": "the underground parts of a potato plant that we eat"
+        },
+        {
+          "t": "encouraging",
+          "d": "giving hope that something will work"
+        },
+        {
+          "t": "genuine",
+          "d": "real, not a copy"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Researchers at Oregon State University ____ encouraging progress.",
+            "cue": "report",
+            "a": "reported"
+          },
+          {
+            "s": "The scientists ____ potato plants in these materials.",
+            "cue": "grow",
+            "a": "grew"
+          },
+          {
+            "s": "The study ____ several types of lunar regolith simulant.",
+            "cue": "use",
+            "a": "used"
+          },
+          {
+            "s": "Moon-like regolith ____ many of those advantages.",
+            "cue": "lack",
+            "a": "lacks"
+          },
+          {
+            "s": "These potatoes ____ not grown on the Moon.",
+            "cue": "be",
+            "a": "were"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The researchers used real lunar soil.",
+          "a": "F",
+          "why": "The text says: \"the researchers did not use genuine lunar soil\""
+        },
+        {
+          "s": "Lower amounts of vermicompost helped the plants only partly.",
+          "a": "T",
+          "why": "The text says: \"Lower amounts provided only partial improvement.\""
+        },
+        {
+          "s": "The study was published in December.",
+          "a": "F",
+          "why": "The text says: \"published in npj Microgravity on 19 November\""
+        },
+        {
+          "s": "The scientists will test other vegetables next year.",
+          "a": "N",
+          "why": "The text does not say which vegetables the scientists will test next."
+        },
+        {
+          "s": "The plants were able to complete their life cycle.",
+          "a": "T",
+          "why": "The text says: \"plants could complete their life cycle and produce potatoes\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Local food production is an attractive long-term ____.",
+            "a": "goal"
+          },
+          {
+            "s": "A simulant is an Earth-made material designed to ____ different types of lunar surface deposits.",
+            "a": "resemble"
+          },
+          {
+            "s": "Plants raised in largely unamended simulant were ____.",
+            "a": "stunted"
+          },
+          {
+            "s": "Compost may also help ____ plants from potentially harmful components.",
+            "a": "protect"
+          },
+          {
+            "s": "Real regolith is not ____ to the simulants used in research.",
+            "a": "identical"
+          },
+          {
+            "s": "Water, lighting, energy and the safe ____ of waste would all need to be managed.",
+            "a": "recycling"
+          }
+        ],
+        "extra": [
+          "scarcity",
+          "extract"
+        ]
+      },
+      "match": [
+        {
+          "t": "feasible",
+          "d": "possible to do"
+        },
+        {
+          "t": "substrate",
+          "d": "the material that a plant grows in"
+        },
+        {
+          "t": "unamended",
+          "d": "not changed or improved by adding anything"
+        },
+        {
+          "t": "sustainable",
+          "d": "able to continue without using up resources"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Delivering every meal from Earth would require enormous ____ effort.",
+            "cue": "LOGISTICS",
+            "a": "logistical"
+          },
+          {
+            "s": "Crews might build a more sustainable ____ system.",
+            "cue": "AGRICULTURE",
+            "a": "agricultural"
+          },
+          {
+            "s": "The potatoes achieved growth and yields ____ with those in ordinary Earth soil.",
+            "cue": "COMPARE",
+            "a": "comparable"
+          },
+          {
+            "s": "The ____ between the growing mixtures was striking.",
+            "cue": "DIFFERENT",
+            "a": "difference"
+          },
+          {
+            "s": "There is a ____ gulf between success in a greenhouse and reliable farming on the Moon.",
+            "cue": "SUBSTANCE",
+            "a": "substantial"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The experiments used real lunar soil.",
+          "a": "F",
+          "why": "The text says: \"using simulated rather than real lunar soil\""
+        },
+        {
+          "s": "With 30% compost, the potatoes did about as well as those in Earth soil.",
+          "a": "T",
+          "why": "The text says: \"When the mixture contained 30% compost, however, the potatoes achieved growth and yields comparable with those cultivated in ordinary Earth soil under similar conditions.\""
+        },
+        {
+          "s": "Adding small amounts of vermicompost completely solved the problem.",
+          "a": "F",
+          "why": "The text says: \"adding modest amounts of vermicompost improved their performance only partly\""
+        },
+        {
+          "s": "The text says the potatoes were tested for toxins.",
+          "a": "N",
+          "why": "The text does not say that the potatoes were tested for toxins."
+        },
+        {
+          "s": "Real regolith is the same as the simulants.",
+          "a": "F",
+          "why": "The text says: \"Real regolith is not identical to the simulants used in research\""
+        }
+      ]
+    }
+  }
+}

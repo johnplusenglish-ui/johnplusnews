@@ -1,0 +1,328 @@
+{
+  "slug": "would-you-miss-work-to-play-a-video-game",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Fans had waited thirteen ____ for a new main game.",
+            "a": "years"
+          },
+          {
+            "s": "The game takes place in a made-up American ____ called Leonida.",
+            "a": "state"
+          },
+          {
+            "s": "The company's sales figure was an ____, not a number that every researcher had checked.",
+            "a": "estimate"
+          },
+          {
+            "s": "Staying awake all night can leave people tired and unable to ____ the next day.",
+            "a": "concentrate"
+          },
+          {
+            "s": "Nobody is surprised when people travel to watch a football ____.",
+            "a": "final"
+          }
+        ],
+        "extra": [
+          "ticket",
+          "price"
+        ]
+      },
+      "match": [
+        {
+          "t": "embarrassed",
+          "d": "feeling shy or silly because of something you did"
+        },
+        {
+          "t": "enormous",
+          "d": "extremely big"
+        },
+        {
+          "t": "responsibilities",
+          "d": "duties that you are expected to look after"
+        },
+        {
+          "t": "dedicated",
+          "d": "giving a lot of time and energy to something you love"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Grand Theft Auto VI ____ in November 2026.",
+            "cue": "arrive",
+            "a": "arrived"
+          },
+          {
+            "s": "Fans had ____ thirteen years for a new main game.",
+            "cue": "wait",
+            "a": "waited"
+          },
+          {
+            "s": "Some fans ____ up all night.",
+            "cue": "stay",
+            "a": "stayed"
+          },
+          {
+            "s": "Requests for time off ____ by 32% on launch day.",
+            "cue": "rise",
+            "a": "rose"
+          },
+          {
+            "s": "The Guardian ____ on 19 November that players had skipped work.",
+            "cue": "report",
+            "a": "reported"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The game takes place in a state called Leonida.",
+          "a": "T",
+          "why": "The text says: \"It takes place in a made-up American state called Leonida\""
+        },
+        {
+          "s": "Independent researchers checked the $3.79 billion figure.",
+          "a": "F",
+          "why": "The text says: \"it was a figure from the company itself, and it was an estimate\""
+        },
+        {
+          "s": "Most fans took a whole week off work.",
+          "a": "N",
+          "why": "The text does not say how long most fans took off work."
+        },
+        {
+          "s": "Remote said requests for time off rose around the world.",
+          "a": "T",
+          "why": "The text says: \"requests for time off work around the world rose by 32% on launch day\""
+        },
+        {
+          "s": "The text says taking an agreed holiday is the same as pretending to be ill.",
+          "a": "F",
+          "why": "The text says: \"taking an agreed holiday from work for a hobby is different from pretending to be ill\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Fans made room in their ____ for an eagerly awaited game.",
+            "a": "schedules"
+          },
+          {
+            "s": "Players had waited thirteen years for another main ____ in the series.",
+            "a": "instalment"
+          },
+          {
+            "s": "Rockstar's figure should not be treated as an independently checked ____.",
+            "a": "total"
+          },
+          {
+            "s": "A launch gives friends a shared ____.",
+            "a": "experience"
+          },
+          {
+            "s": "Missing an important shift without ____ affects other people.",
+            "a": "permission"
+          },
+          {
+            "s": "People rarely ____ someone who takes a day off for a football final.",
+            "a": "question"
+          }
+        ],
+        "extra": [
+          "refund",
+          "review"
+        ]
+      },
+      "match": [
+        {
+          "t": "irresponsible",
+          "d": "not taking proper care of your duties"
+        },
+        {
+          "t": "enthusiasts",
+          "d": "people who are very keen on a particular thing"
+        },
+        {
+          "t": "neglecting",
+          "d": "not giving enough attention to something that needs it"
+        },
+        {
+          "t": "spoiled",
+          "d": "ruined by someone telling you what happens too early"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The release ____ this disagreement into the spotlight.",
+            "cue": "bring",
+            "a": "brought"
+          },
+          {
+            "s": "Enthusiasts ____ work or school to celebrate the new title.",
+            "cue": "skip",
+            "a": "had skipped|skipped"
+          },
+          {
+            "s": "Remote said there ____ a 32% increase in leave requests worldwide.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "People may even ____ time off in advance.",
+            "cue": "arrange",
+            "a": "arrange"
+          },
+          {
+            "s": "A streamer ____ the BBC that consoles are very expensive.",
+            "cue": "tell",
+            "a": "told"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Fans had waited thirteen years for a new main game.",
+          "a": "T",
+          "why": "The text says: \"Players had waited thirteen years for another main instalment in the Grand Theft Auto series\""
+        },
+        {
+          "s": "An independent audit confirmed the $3.79 billion figure.",
+          "a": "F",
+          "why": "The text says: \"it should be attributed rather than treated as an independently checked total\""
+        },
+        {
+          "s": "A thousand people attended the launch event in London.",
+          "a": "N",
+          "why": "The text does not say how many people attended launch events."
+        },
+        {
+          "s": "The game is meant for adults.",
+          "a": "T",
+          "why": "The text says: \"The game is rated 18, so it is meant for adults.\""
+        },
+        {
+          "s": "People often question someone who takes a day off for a football final.",
+          "a": "F",
+          "why": "The text says: \"People rarely question someone who takes a day off for a football final or an expensive concert\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "A game release can work as a cultural event rather than one of many ordinary entertainment ____.",
+            "a": "purchases"
+          },
+          {
+            "s": "The figure reflects what players paid rather than what the ____ keeps.",
+            "a": "publisher"
+          },
+          {
+            "s": "Omdia expected the game to reach $3.2 billion in sales by the end of the ____.",
+            "a": "year"
+          },
+          {
+            "s": "Games can provide shared stories, challenges and ____.",
+            "a": "communities"
+          },
+          {
+            "s": "An employee who disappears without ____ may leave colleagues covering their responsibilities.",
+            "a": "warning"
+          },
+          {
+            "s": "Such judgements depend on cultural ____, not on a consistent measure of worth.",
+            "a": "expectations"
+          }
+        ],
+        "extra": [
+          "regulations",
+          "discounts"
+        ]
+      },
+      "match": [
+        {
+          "t": "legitimacy",
+          "d": "the quality of being accepted as proper or reasonable"
+        },
+        {
+          "t": "immersed",
+          "d": "completely involved in something"
+        },
+        {
+          "t": "deprivation",
+          "d": "a lack of something that you need"
+        },
+        {
+          "t": "amplified",
+          "d": "made stronger or louder"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The ____ of the response shows that releases can be cultural events.",
+            "cue": "INTENSE",
+            "a": "intensity"
+          },
+          {
+            "s": "Sleep ____ can have practical consequences.",
+            "cue": "DEPRIVE",
+            "a": "deprivation"
+          },
+          {
+            "s": "Someone arranging leave for a game may be dismissed as ____.",
+            "cue": "MATURE",
+            "a": "immature"
+          },
+          {
+            "s": "The pressure to take part immediately may make a hobby feel like an ____.",
+            "cue": "OBLIGE",
+            "a": "obligation"
+          },
+          {
+            "s": "Leisure does not have to be ____ to have value.",
+            "cue": "PRODUCE",
+            "a": "productive"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Remote reported a rise in leave requests on launch day.",
+          "a": "T",
+          "why": "The text says: \"reported a 32% increase in leave requests worldwide on launch day\""
+        },
+        {
+          "s": "The $3.79 billion figure came from an independent audit.",
+          "a": "F",
+          "why": "The text says: \"it was based on company estimates rather than an independent audit\""
+        },
+        {
+          "s": "The game's creators plan a sequel.",
+          "a": "N",
+          "why": "The text does not say whether the creators plan a sequel."
+        },
+        {
+          "s": "A major launch is compared to a concert or a sporting final.",
+          "a": "T",
+          "why": "The text says: \"a major launch resembles a concert, sporting final or long-awaited film premiere\""
+        },
+        {
+          "s": "Leisure must be productive to have value.",
+          "a": "F",
+          "why": "The text says: \"Leisure need not be productive to have value\""
+        }
+      ]
+    }
+  }
+}

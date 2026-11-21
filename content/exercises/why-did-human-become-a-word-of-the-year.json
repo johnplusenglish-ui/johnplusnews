@@ -1,0 +1,328 @@
+{
+  "slug": "why-did-human-become-a-word-of-the-year",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Cambridge chose a word that almost every English ____ already knows.",
+            "a": "learner"
+          },
+          {
+            "s": "Cambridge announced the choice on 18 ____ 2026.",
+            "a": "November"
+          },
+          {
+            "s": "Computers can now write stories, answer questions, create pictures and hold ____.",
+            "a": "conversations"
+          },
+          {
+            "s": "Someone might say that a mistake was a human ____.",
+            "a": "error"
+          },
+          {
+            "s": "A message written by a friend may ____ more because someone took the time to write it.",
+            "a": "matter"
+          }
+        ],
+        "extra": [
+          "robots",
+          "invent"
+        ]
+      },
+      "match": [
+        {
+          "t": "slang",
+          "d": "very informal words used by a group of people"
+        },
+        {
+          "t": "creativity",
+          "d": "the ability to make new and original things"
+        },
+        {
+          "t": "emotions",
+          "d": "strong feelings such as joy or anger"
+        },
+        {
+          "t": "personal",
+          "d": "belonging to one person, not to everyone"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In 2026, the Cambridge Dictionary ____ a surprising choice.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "Cambridge ____ the choice on 18 November 2026.",
+            "cue": "announce",
+            "a": "announced"
+          },
+          {
+            "s": "Computers can now ____ stories.",
+            "cue": "write",
+            "a": "write"
+          },
+          {
+            "s": "These questions ____ more common in classrooms.",
+            "cue": "become",
+            "a": "are becoming"
+          },
+          {
+            "s": "Choosing human does not ____ that all AI is bad.",
+            "cue": "mean",
+            "a": "mean"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The Word of the Year is a word that most English learners already know.",
+          "a": "T",
+          "why": "The text says: \"It was a word almost every English learner already knows: human.\""
+        },
+        {
+          "s": "Cambridge said the word became important because of climate change.",
+          "a": "F",
+          "why": "The text says: \"The dictionary said the word had become especially important because of the rapid growth of artificial intelligence.\""
+        },
+        {
+          "s": "Other dictionaries chose the same word.",
+          "a": "N",
+          "why": "The text does not say which words other dictionaries chose."
+        },
+        {
+          "s": "Choosing human does not mean that all AI is bad.",
+          "a": "T",
+          "why": "The text says: \"Choosing human as a word of the year does not mean that all AI is bad.\""
+        },
+        {
+          "s": "Machines cannot translate text.",
+          "a": "F",
+          "why": "The text says: \"They can translate text, explain difficult subjects and help people who need extra support.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The winning word was one that even beginner learners are likely to ____.",
+            "a": "recognise"
+          },
+          {
+            "s": "Computer systems can produce convincing text, images and ____.",
+            "a": "voices"
+          },
+          {
+            "s": "A message can feel more meaningful because we know a ____ wrote it.",
+            "a": "friend"
+          },
+          {
+            "s": "A teacher may struggle to tell whether work shows a student's ____.",
+            "a": "understanding"
+          },
+          {
+            "s": "AI can support people with ____.",
+            "a": "disabilities"
+          },
+          {
+            "s": "A handwritten card or an honest ____ might feel more special.",
+            "a": "conversation"
+          }
+        ],
+        "extra": [
+          "invention",
+          "exam"
+        ]
+      },
+      "match": [
+        {
+          "t": "authenticity",
+          "d": "the quality of being real and not fake"
+        },
+        {
+          "t": "convincing",
+          "d": "making you believe something is true or real"
+        },
+        {
+          "t": "repetitive",
+          "d": "done again and again in the same way"
+        },
+        {
+          "t": "imitating",
+          "d": "copying"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Cambridge ____ its Word of the Year for 2026 on 18 November.",
+            "cue": "announce",
+            "a": "announced"
+          },
+          {
+            "s": "The word human ____ them describe the difference.",
+            "cue": "help",
+            "a": "helps"
+          },
+          {
+            "s": "Students can ____ AI to check grammar.",
+            "cue": "use",
+            "a": "use"
+          },
+          {
+            "s": "Young people ____ these questions regularly.",
+            "cue": "face",
+            "a": "face"
+          },
+          {
+            "s": "A teacher may ____ to tell whether a piece of work shows understanding.",
+            "cue": "struggle",
+            "a": "struggle"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Beginner learners of English are likely to know the word human.",
+          "a": "T",
+          "why": "The text says: \"one that even beginner learners of English are likely to recognise\""
+        },
+        {
+          "s": "The word human only has a biological meaning.",
+          "a": "F",
+          "why": "The text says: \"The word also carries more meaning than simply belonging to our species.\""
+        },
+        {
+          "s": "AI tools help students in every situation.",
+          "a": "F",
+          "why": "The text says: \"The same tool can help in one situation and create serious problems in another.\""
+        },
+        {
+          "s": "Cambridge also named a runner-up word.",
+          "a": "N",
+          "why": "The text does not say whether Cambridge named a runner-up word."
+        },
+        {
+          "s": "Using technology can still leave someone's work valuable.",
+          "a": "T",
+          "why": "The text says: \"using technology does not automatically make someone's work less valuable\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Cambridge chose one of the most ____ words in the English language.",
+            "a": "familiar"
+          },
+          {
+            "s": "In that context, human is not merely a biological ____.",
+            "a": "label"
+          },
+          {
+            "s": "Machines can produce increasingly polished ____ without sharing the experiences behind them.",
+            "a": "results"
+          },
+          {
+            "s": "AI can provide meaningful ____, particularly to people facing barriers.",
+            "a": "assistance"
+          },
+          {
+            "s": "Writers, musicians and artists have always used technologies to develop their ____.",
+            "a": "ideas"
+          },
+          {
+            "s": "Cambridge's choice is therefore both ordinary and ____.",
+            "a": "provocative"
+          }
+        ],
+        "extra": [
+          "ancient",
+          "predictable"
+        ]
+      },
+      "match": [
+        {
+          "t": "authenticity",
+          "d": "the quality of being real and not fake"
+        },
+        {
+          "t": "blur",
+          "d": "to make the line between two things less clear"
+        },
+        {
+          "t": "agency",
+          "d": "the ability to make your own choices and act on them"
+        },
+        {
+          "t": "simplistic",
+          "d": "too simple, ignoring important details"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "It is an increasingly urgent and ____ significant question.",
+            "cue": "CULTURE",
+            "a": "culturally"
+          },
+          {
+            "s": "There is a danger in turning the discussion into a ____ battle.",
+            "cue": "SIMPLE",
+            "a": "simplistic"
+          },
+          {
+            "s": "Used thoughtfully, AI may make learning more ____.",
+            "cue": "ACCESS",
+            "a": "accessible"
+          },
+          {
+            "s": "Perhaps imperfections, effort and personal history will become more ____.",
+            "cue": "VALUE",
+            "a": "valuable"
+          },
+          {
+            "s": "Some qualities cannot be ____ by speed or technical polish alone.",
+            "cue": "MEASURE",
+            "a": "measured"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Cambridge chose a very familiar word rather than new slang.",
+          "a": "T",
+          "why": "The text says: \"Instead of choosing a fresh piece of internet slang, it selected human, one of the most familiar words in the English language.\""
+        },
+        {
+          "s": "In the text, human is only a biological label.",
+          "a": "F",
+          "why": "The text says: \"human is not merely a biological label\""
+        },
+        {
+          "s": "Creators must decide whether efficiency is worth more than personal effort.",
+          "a": "T",
+          "why": "The text says: \"creators must decide whether efficiency outweighs the value of personal effort\""
+        },
+        {
+          "s": "Writers have never used technology to develop ideas.",
+          "a": "F",
+          "why": "The text says: \"writers, musicians and artists have always used technologies to develop their ideas\""
+        },
+        {
+          "s": "Cambridge asked students to vote for the word.",
+          "a": "N",
+          "why": "The text does not say that Cambridge asked students to vote."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "slug": "what-if-some-depression-is-really-a-body-clock-problem",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Everyone has a body ____ that helps control when we sleep and wake up.",
+            "a": "clock"
+          },
+          {
+            "s": "The researchers identified a group of 2,604 ____.",
+            "a": "people"
+          },
+          {
+            "s": "The word circadian describes the body's natural cycle over about 24 ____.",
+            "a": "hours"
+          },
+          {
+            "s": "If a medicine is not working, the safest step is to talk to a qualified ____.",
+            "a": "doctor"
+          },
+          {
+            "s": "Two patients may both feel very low, but their ____ may not be the same.",
+            "a": "symptoms"
+          }
+        ],
+        "extra": [
+          "teacher",
+          "pills"
+        ]
+      },
+      "match": [
+        {
+          "t": "evidence",
+          "d": "facts or signs that show something may be true"
+        },
+        {
+          "t": "symptoms",
+          "d": "signs that show a person is ill"
+        },
+        {
+          "t": "qualified",
+          "d": "having the training needed to do a job"
+        },
+        {
+          "t": "responsive",
+          "d": "reacting well to something"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The University of Sydney ____ the findings on 21 October 2026.",
+            "cue": "announce",
+            "a": "announced"
+          },
+          {
+            "s": "Researchers ____ health and genetic information from more than 10,000 Australians.",
+            "cue": "study",
+            "a": "studied"
+          },
+          {
+            "s": "They ____ a group of 2,604 people.",
+            "cue": "identify",
+            "a": "identified"
+          },
+          {
+            "s": "Many people ____ unusual sleeping habits without having depression.",
+            "cue": "have",
+            "a": "have"
+          },
+          {
+            "s": "Scientists still ____ to find out which treatments are most helpful.",
+            "cue": "need",
+            "a": "need"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The research was announced by the University of Sydney.",
+          "a": "T",
+          "why": "The text says: \"The University of Sydney announced the findings on 21 October 2026.\""
+        },
+        {
+          "s": "Depression is simply a problem of going to bed too late.",
+          "a": "F",
+          "why": "The text says: \"This does not mean that depression is simply a problem of going to bed too late.\""
+        },
+        {
+          "s": "Most of the people in the group were teenagers.",
+          "a": "N",
+          "why": "The text does not say how old the people in the group were."
+        },
+        {
+          "s": "If a medicine is not working, people should talk to a doctor.",
+          "a": "T",
+          "why": "The text says: \"If a medicine is not working, the safest step is to talk to a qualified doctor rather than stop taking it.\""
+        },
+        {
+          "s": "The study tested treatments for the body clock.",
+          "a": "F",
+          "why": "The text says: \"This study did not test those treatments.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Scientists analysed clinical and genetic information from more than 10,000 ____ who had experienced depression.",
+            "a": "Australians"
+          },
+          {
+            "s": "The group of 2,604 participants was nearly a ____ of the sample.",
+            "a": "quarter"
+          },
+          {
+            "s": "One feature of the subtype was waking up ____.",
+            "a": "exhausted"
+          },
+          {
+            "s": "A person can have a late ____ without being depressed.",
+            "a": "bedtime"
+          },
+          {
+            "s": "The findings come from a particular Australian ____.",
+            "a": "sample"
+          },
+          {
+            "s": "We often talk about depression as if it is one single ____ with one clear solution.",
+            "a": "illness"
+          }
+        ],
+        "extra": [
+          "hospital",
+          "vitamin"
+        ]
+      },
+      "match": [
+        {
+          "t": "subtype",
+          "d": "a smaller group within a larger type"
+        },
+        {
+          "t": "regulate",
+          "d": "to control something so that it works properly"
+        },
+        {
+          "t": "limitation",
+          "d": "a weakness that makes something less reliable"
+        },
+        {
+          "t": "clinicians",
+          "d": "doctors and nurses who treat patients"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "These differences are partly ____ by the body's internal clock.",
+            "cue": "control",
+            "a": "controlled"
+          },
+          {
+            "s": "Australian researchers have now ____ a possible subtype of depression.",
+            "cue": "identify",
+            "a": "identified"
+          },
+          {
+            "s": "Doctors must still ____ an individual's complete medical history.",
+            "cue": "consider",
+            "a": "consider"
+          },
+          {
+            "s": "People should not ____ medication because of an article.",
+            "cue": "change",
+            "a": "change"
+          },
+          {
+            "s": "The University of Sydney ____ the research on 21 October 2026.",
+            "cue": "report",
+            "a": "reported"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The study included more than 10,000 Australians.",
+          "a": "T",
+          "why": "The text says: \"analysed clinical and genetic information from more than 10,000 Australians who had experienced depression\""
+        },
+        {
+          "s": "The 2,604 participants represent everyone with depression.",
+          "a": "F",
+          "why": "The text says: \"so the percentage should not be taken as a figure for everyone who experiences low mood or depression\""
+        },
+        {
+          "s": "All of the participants lived in Sydney.",
+          "a": "N",
+          "why": "The text does not say where in Australia the participants lived."
+        },
+        {
+          "s": "The study did not test the treatments the researchers mention.",
+          "a": "T",
+          "why": "The text says: \"although this study did not test them\""
+        },
+        {
+          "s": "People should change their medication if an article suggests it.",
+          "a": "F",
+          "why": "The text says: \"should not stop, start or change medication because of an article\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "The term refers to the internal ____ that help regulate sleep.",
+            "a": "rhythms"
+          },
+          {
+            "s": "The study focused on people with severe depression, making ____ to the wider population inappropriate.",
+            "a": "generalisation"
+          },
+          {
+            "s": "People should not attempt to treat depression ____ with light exposure or supplements.",
+            "a": "independently"
+          },
+          {
+            "s": "Disrupted sleep can be both a symptom and a contributing ____.",
+            "a": "factor"
+          },
+          {
+            "s": "Further research must establish how ____ the proposed subtype can be identified.",
+            "a": "reliably"
+          },
+          {
+            "s": "Better care might begin with better questions about daily ____.",
+            "a": "routines"
+          }
+        ],
+        "extra": [
+          "surgery",
+          "vaccines"
+        ]
+      },
+      "match": [
+        {
+          "t": "subtype",
+          "d": "a smaller group within a larger type"
+        },
+        {
+          "t": "oversimplifying",
+          "d": "making something complicated seem too easy"
+        },
+        {
+          "t": "definitive",
+          "d": "final and completely settled"
+        },
+        {
+          "t": "classification",
+          "d": "the sorting of things into groups"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Disrupted sleep can be a symptom and a ____ factor.",
+            "cue": "CONTRIBUTE",
+            "a": "contributing"
+          },
+          {
+            "s": "Calling it a body-clock problem risks ____ a complex illness.",
+            "cue": "SIMPLE",
+            "a": "oversimplifying"
+          },
+          {
+            "s": "The focus on severe depression makes ____ to the wider population inappropriate.",
+            "cue": "GENERAL",
+            "a": "generalisation"
+          },
+          {
+            "s": "Appropriate care depends on professional ____.",
+            "cue": "ASSESS",
+            "a": "assessment"
+          },
+          {
+            "s": "The hope is to help people reach ____ care sooner.",
+            "cue": "EFFECT",
+            "a": "effective"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The study was published in the British Journal of Psychiatry.",
+          "a": "T",
+          "why": "The text says: \"published in the British Journal of Psychiatry\""
+        },
+        {
+          "s": "The study fully explained the biological cause of all depression.",
+          "a": "F",
+          "why": "The text says: \"Nor does the identification of a statistical subgroup prove that the biological mechanisms behind every patient's depression have been fully explained.\""
+        },
+        {
+          "s": "The participants were followed for ten years.",
+          "a": "N",
+          "why": "The text does not say how long the participants were followed."
+        },
+        {
+          "s": "The text says that being a night owl is not a diagnosis.",
+          "a": "T",
+          "why": "The text says: \"Being a night owl is not a diagnosis.\""
+        },
+        {
+          "s": "People should treat depression themselves with light exposure.",
+          "a": "F",
+          "why": "The text says: \"People should not stop taking prescribed antidepressants or attempt to treat depression independently with light exposure or supplements.\""
+        }
+      ]
+    }
+  }
+}

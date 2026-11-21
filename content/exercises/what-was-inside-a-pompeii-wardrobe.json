@@ -1,0 +1,328 @@
+{
+  "slug": "what-was-inside-a-pompeii-wardrobe",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Pompeii was covered in volcanic material when Mount ____ erupted in AD 79.",
+            "a": "Vesuvius"
+          },
+          {
+            "s": "There were also 38 bronze ____.",
+            "a": "coins"
+          },
+          {
+            "s": "One of the most touching items was a child's ____.",
+            "a": "necklace"
+          },
+          {
+            "s": "The objects tell a story about ordinary people, not just famous ____.",
+            "a": "emperors"
+          },
+          {
+            "s": "The necklace might have made a ____ as the child moved.",
+            "a": "sound"
+          }
+        ],
+        "extra": [
+          "swords",
+          "paintings"
+        ]
+      },
+      "match": [
+        {
+          "t": "archaeologists",
+          "d": "scientists who study the past by digging up old objects"
+        },
+        {
+          "t": "eruption",
+          "d": "the moment when a volcano throws out hot rock and ash"
+        },
+        {
+          "t": "charm",
+          "d": "a small object believed to bring luck"
+        },
+        {
+          "t": "protection",
+          "d": "keeping someone safe from harm"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Pompeii ____ covered in volcanic material.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "Many buildings and objects ____ hidden for centuries.",
+            "cue": "stay",
+            "a": "stayed"
+          },
+          {
+            "s": "The finds ____ tweezers for make-up and a small glass bottle.",
+            "cue": "include",
+            "a": "included"
+          },
+          {
+            "s": "Archaeologists ____ a discovery like this in Pompeii.",
+            "cue": "make",
+            "a": "have made"
+          },
+          {
+            "s": "People in ancient Rome ____ about their appearance.",
+            "cue": "worry",
+            "a": "worried"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Mount Vesuvius erupted in AD 79.",
+          "a": "T",
+          "why": "The text says: \"Pompeii was covered in volcanic material when Mount Vesuvius erupted in AD 79.\""
+        },
+        {
+          "s": "The cupboard held 20 bronze coins.",
+          "a": "F",
+          "why": "The text says: \"There were also 38 bronze coins\""
+        },
+        {
+          "s": "The child who wore the necklace escaped the eruption.",
+          "a": "N",
+          "why": "The text does not say what happened to the child who wore the necklace."
+        },
+        {
+          "s": "Archaeologists think the necklace may have been a lucky charm.",
+          "a": "T",
+          "why": "The text says: \"Archaeologists think it may have been a lucky charm, worn for protection.\""
+        },
+        {
+          "s": "Finding the necklace proves who owned it.",
+          "a": "F",
+          "why": "The text says: \"Finding a necklace in a cupboard does not prove who owned it.\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Archaeologists at Pompeii in southern ____ uncovered a wooden cupboard.",
+            "a": "Italy"
+          },
+          {
+            "s": "The layers that destroyed the city also ____ traces of buildings and objects.",
+            "a": "preserved"
+          },
+          {
+            "s": "The cupboard held 38 bronze coins and lead ____ that may have been connected with trade.",
+            "a": "weights"
+          },
+          {
+            "s": "The necklace was made from at least 24 miniature ____.",
+            "a": "charms"
+          },
+          {
+            "s": "History lessons often concentrate on battles, emperors and major ____ events.",
+            "a": "political"
+          },
+          {
+            "s": "Archaeologists must resist filling every ____ with imagination.",
+            "a": "gap"
+          }
+        ],
+        "extra": [
+          "gold",
+          "tourists"
+        ]
+      },
+      "match": [
+        {
+          "t": "glimpse",
+          "d": "a short look at something"
+        },
+        {
+          "t": "remarkable",
+          "d": "very unusual and worth noticing"
+        },
+        {
+          "t": "inscriptions",
+          "d": "words carved or written on a surface"
+        },
+        {
+          "t": "distant",
+          "d": "far away in time or space"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Pompeii ____ buried by volcanic material in AD 79.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "Researchers ____ finds from a cupboard in a house.",
+            "cue": "describe",
+            "a": "described"
+          },
+          {
+            "s": "The cupboard also ____ 38 bronze coins.",
+            "cue": "hold",
+            "a": "held"
+          },
+          {
+            "s": "Archaeologists ____ the necklace was probably worn by a child.",
+            "cue": "believe",
+            "a": "believe"
+          },
+          {
+            "s": "Parents have always ____ for ways to protect their children.",
+            "cue": "look",
+            "a": "looked"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Pompeii is in southern Italy.",
+          "a": "T",
+          "why": "The text says: \"Archaeologists working at Pompeii in southern Italy\""
+        },
+        {
+          "s": "The exact owner of the house is known for certain.",
+          "a": "F",
+          "why": "The text says: \"so the identity of the people who lived there remains uncertain\""
+        },
+        {
+          "s": "The necklace is now in a museum in Naples.",
+          "a": "N",
+          "why": "The text does not say where the necklace is kept now."
+        },
+        {
+          "s": "The cupboard contained 38 bronze coins.",
+          "a": "T",
+          "why": "The text says: \"The cupboard also held 38 bronze coins\""
+        },
+        {
+          "s": "Archaeologists are completely sure the necklace belonged to a child.",
+          "a": "F",
+          "why": "The text says: \"Archaeologists believe it was probably worn by a child.\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Pompeii was buried in AD 79, an event that ____ the town.",
+            "a": "devastated"
+          },
+          {
+            "s": "The facade of the house was first ____ in 1912.",
+            "a": "excavated"
+          },
+          {
+            "s": "Lead weights may indicate ____ activity within the household.",
+            "a": "commercial"
+          },
+          {
+            "s": "Cosmetics point towards personal ____.",
+            "a": "presentation"
+          },
+          {
+            "s": "Such interpretations remain ____.",
+            "a": "tentative"
+          },
+          {
+            "s": "We are left with ____ of individual lives rather than a finished story.",
+            "a": "fragments"
+          }
+        ],
+        "extra": [
+          "armour",
+          "sculptures"
+        ]
+      },
+      "match": [
+        {
+          "t": "illuminate",
+          "d": "to make something clearer"
+        },
+        {
+          "t": "tentative",
+          "d": "not certain or final"
+        },
+        {
+          "t": "domestic",
+          "d": "connected with the home"
+        },
+        {
+          "t": "remote",
+          "d": "far away or distant"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Archaeologists examined the ____ of a household cupboard.",
+            "cue": "REMAIN",
+            "a": "remains"
+          },
+          {
+            "s": "The objects offer a vivid ____ that ancient people had practical concerns.",
+            "cue": "REMIND",
+            "a": "reminder"
+          },
+          {
+            "s": "The items illuminate the details of ordinary ____.",
+            "cue": "EXIST",
+            "a": "existence"
+          },
+          {
+            "s": "Domestic objects provide a more ____ perspective.",
+            "cue": "INTIMACY",
+            "a": "intimate"
+          },
+          {
+            "s": "The cupboard is a window into the past and a lesson in ____.",
+            "cue": "CERTAIN",
+            "a": "uncertainty"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The facade of the house was first excavated in 1912.",
+          "a": "T",
+          "why": "The text says: \"Its facade was first excavated in 1912\""
+        },
+        {
+          "s": "The inscriptions naming Cornelius Maximus are still clearly visible.",
+          "a": "F",
+          "why": "The text says: \"because of inscriptions that are no longer visible\""
+        },
+        {
+          "s": "The necklace was made of gold.",
+          "a": "N",
+          "why": "The text does not say what material the necklace was made of."
+        },
+        {
+          "s": "The scholars' interpretations of the necklace are tentative.",
+          "a": "T",
+          "why": "The text says: \"Such interpretations remain tentative\""
+        },
+        {
+          "s": "We can know every thought of the people who owned the objects.",
+          "a": "F",
+          "why": "The text says: \"it does not reveal every thought, relationship or event associated with an object\""
+        }
+      ]
+    }
+  }
+}

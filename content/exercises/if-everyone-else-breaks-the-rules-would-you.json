@@ -1,0 +1,328 @@
+{
+  "slug": "if-everyone-else-breaks-the-rules-would-you",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Researchers from the University of ____ studied this question.",
+            "a": "Amsterdam"
+          },
+          {
+            "s": "The online experiment had 750 ____.",
+            "a": "people"
+          },
+          {
+            "s": "A student may start talking during a ____.",
+            "a": "test"
+          },
+          {
+            "s": "One action can set off a chain ____.",
+            "a": "reaction"
+          },
+          {
+            "s": "About a third of the participants followed the rules every ____.",
+            "a": "time"
+          }
+        ],
+        "extra": [
+          "teacher",
+          "holiday"
+        ]
+      },
+      "match": [
+        {
+          "t": "queue",
+          "d": "a line of people waiting for something"
+        },
+        {
+          "t": "participants",
+          "d": "people who take part in a study"
+        },
+        {
+          "t": "escalation",
+          "d": "a change that makes something bigger or worse"
+        },
+        {
+          "t": "cheating",
+          "d": "breaking the rules to win"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Researchers from the University of Amsterdam ____ this question.",
+            "cue": "investigate",
+            "a": "investigated"
+          },
+          {
+            "s": "Suddenly, someone ____ straight to the front.",
+            "cue": "walk",
+            "a": "walks"
+          },
+          {
+            "s": "The researchers ____ to know whether a rule break would affect the next person.",
+            "cue": "want",
+            "a": "wanted"
+          },
+          {
+            "s": "Sometimes the new person ____ even further than the person before them.",
+            "cue": "go",
+            "a": "went"
+          },
+          {
+            "s": "Refusing an unfair rule can sometimes ____ brave.",
+            "cue": "be",
+            "a": "be"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The study was published in October 2026.",
+          "a": "T",
+          "why": "The text says: \"in a study published in October 2026\""
+        },
+        {
+          "s": "All the participants broke the rules.",
+          "a": "F",
+          "why": "The text says: \"About a third of the participants followed the rules every time\""
+        },
+        {
+          "s": "The participants were all students.",
+          "a": "N",
+          "why": "The text does not say who the participants were."
+        },
+        {
+          "s": "People who saw a serious rule break were more likely to break the rule themselves.",
+          "a": "T",
+          "why": "The text says: \"When people saw someone breaking a rule seriously, they were more likely to break it themselves\""
+        },
+        {
+          "s": "Breaking a rule is always wrong.",
+          "a": "F",
+          "why": "The text says: \"Refusing an unfair rule can sometimes be brave\""
+        }
+      ]
+    },
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The study combined computer ____ with an online experiment.",
+            "a": "simulations"
+          },
+          {
+            "s": "The researchers were especially interested in the ____ of the violation.",
+            "a": "size"
+          },
+          {
+            "s": "In a multiplayer game, a few players may use an unfair ____.",
+            "a": "trick"
+          },
+          {
+            "s": "Someone who calmly does the right thing can ____ a group too.",
+            "a": "influence"
+          },
+          {
+            "s": "Students, teachers and team captains may be able to ____ bad habits from catching on.",
+            "a": "prevent"
+          },
+          {
+            "s": "Not all rules are ____.",
+            "a": "fair"
+          }
+        ],
+        "extra": [
+          "ignore",
+          "predict"
+        ]
+      },
+      "match": [
+        {
+          "t": "violation",
+          "d": "an act of breaking a rule"
+        },
+        {
+          "t": "disobedience",
+          "d": "refusing to follow rules"
+        },
+        {
+          "t": "widespread",
+          "d": "found in many places or among many people"
+        },
+        {
+          "t": "pressure",
+          "d": "a strong feeling that you must do something"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "A study published on 21 October 2026 ____ simulations with an experiment.",
+            "cue": "combine",
+            "a": "combined"
+          },
+          {
+            "s": "People who ____ someone breaking a rule tended to break it more themselves.",
+            "cue": "observe",
+            "a": "observed"
+          },
+          {
+            "s": "Participants went beyond the behaviour they ____.",
+            "cue": "see",
+            "a": "had seen|saw"
+          },
+          {
+            "s": "Once it seems that nobody ____ the rules, following them can feel like a disadvantage.",
+            "cue": "respect",
+            "a": "respects"
+          },
+          {
+            "s": "The researchers ____ decisions in a controlled experiment.",
+            "cue": "test",
+            "a": "tested"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The experiment had 750 participants.",
+          "a": "T",
+          "why": "The text says: \"an online behavioural experiment involving 750 participants\""
+        },
+        {
+          "s": "The researchers tested decisions in a real school.",
+          "a": "F",
+          "why": "The text says: \"The researchers tested decisions in a controlled experiment, not in a real school, street or online community\""
+        },
+        {
+          "s": "The participants all lived in the Netherlands.",
+          "a": "N",
+          "why": "The text does not say where the participants lived."
+        },
+        {
+          "s": "About a third of the participants kept following the rules.",
+          "a": "T",
+          "why": "The text says: \"About a third of the participants followed the rules throughout\""
+        },
+        {
+          "s": "The study can tell us which rules deserve our support.",
+          "a": "F",
+          "why": "The text says: \"it cannot tell us which rules deserve our support\""
+        }
+      ]
+    },
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Their actions can alter what others ____ as normal.",
+            "a": "regard"
+          },
+          {
+            "s": "Honest players might feel they are being ____ for following the rules.",
+            "a": "punished"
+          },
+          {
+            "s": "The simulations suggested that rare escalation could tip an otherwise ____ group towards rule-breaking.",
+            "a": "compliant"
+          },
+          {
+            "s": "This was a controlled study of a specific decision-making ____.",
+            "a": "task"
+          },
+          {
+            "s": "Some rules are unfair or ____.",
+            "a": "outdated"
+          },
+          {
+            "s": "The person who refuses to cheat may make an ____ choice feel possible for someone else.",
+            "a": "unpopular"
+          }
+        ],
+        "extra": [
+          "enforce",
+          "several"
+        ]
+      },
+      "match": [
+        {
+          "t": "conspicuous",
+          "d": "easy to notice"
+        },
+        {
+          "t": "momentum",
+          "d": "the force that keeps something growing or moving"
+        },
+        {
+          "t": "norms",
+          "d": "the usual rules about how people behave"
+        },
+        {
+          "t": "deteriorate",
+          "d": "become worse"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The research combined mathematical ____ with a behavioural experiment.",
+            "cue": "SIMULATE",
+            "a": "simulations"
+          },
+          {
+            "s": "The team studied how people respond to examples of ____ and rule-breaking.",
+            "cue": "COMPLY",
+            "a": "compliance"
+          },
+          {
+            "s": "Challenging unfair rules can be morally ____.",
+            "cue": "JUSTIFY",
+            "a": "justified"
+          },
+          {
+            "s": "Such decisions require ____ and careful consideration of the consequences.",
+            "cue": "JUDGE",
+            "a": "judgement"
+          },
+          {
+            "s": "What begins as a personal decision can turn into a ____ problem.",
+            "cue": "COLLECT",
+            "a": "collective"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The study was published on 21 October 2026.",
+          "a": "T",
+          "why": "The text says: \"Published in Proceedings of the Royal Society B on 21 October 2026\""
+        },
+        {
+          "s": "The study proves that every act of disobedience is harmful.",
+          "a": "F",
+          "why": "The text says: \"Nor should the findings be used to argue that every act of disobedience is harmful\""
+        },
+        {
+          "s": "The participants were paid in cash.",
+          "a": "N",
+          "why": "The text does not say how the participants were paid."
+        },
+        {
+          "s": "The simulations suggested that a few escalating people could change a whole group.",
+          "a": "T",
+          "why": "The text says: \"relatively rare episodes of escalation could, under certain conditions, tip an otherwise compliant group towards widespread rule-breaking\""
+        },
+        {
+          "s": "The study was carried out in real classrooms.",
+          "a": "F",
+          "why": "The text says: \"This was a controlled study of a specific decision-making task\""
+        }
+      ]
+    }
+  }
+}
