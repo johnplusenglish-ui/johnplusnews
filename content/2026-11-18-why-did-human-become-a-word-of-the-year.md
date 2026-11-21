@@ -9,6 +9,9 @@ source: Cambridge University Press & Assessment, Human is Cambridge Dictionary's
 source-date: 18 November 2026
 source-2: Euronews, Human: Cambridge Dictionary's Word of the Year 2026 tackles ongoing AI fears | https://www.euronews.com/2026/11/18/human-cambridge-dictionarys-word-of-the-year-2026-tackles-ongoing-ai-fears
 source-2-date: 18 November 2026
+image: images/why-did-human-become-a-word-of-the-year-3f3608.jpg
+image-alt: A close-up of a dictionary page with the bold word human in sharp focus and a fingertip resting just below it, a blue ribbon bookmark across the corner.
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -9,6 +9,9 @@ source: The Guardian, Bad apple effect: study shows how people are influenced by
 source-date: 21 October 2026
 source-2: Proceedings of the Royal Society B, Contagion and escalation of rule violations | https://doi.org/10.1098/rspb.2026.1940
 source-2-date: 21 October 2026
+image: images/if-everyone-else-breaks-the-rules-would-you-7ca07f.jpg
+image-alt: Seen from above, a line of people queue at an ice-cream kiosk in bright sun, their long shadows on the paving, while a man in a red track top walks past them to the front.
+image-credit-label: AI illustration
 ---
 === Core ===
 

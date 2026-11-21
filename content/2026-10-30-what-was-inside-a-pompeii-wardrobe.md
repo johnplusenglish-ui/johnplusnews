@@ -9,6 +9,9 @@ source: The Guardian, Perfume bottle and child's necklace among treasures found 
 source-date: 30 October 2026
 source-2: Archaeology Magazine, Household Cupboard Excavated in Pompeii | https://archaeology.org/news/2026/10/30/household-cupboard-excavated-in-pompeii/
 source-2-date: 30 October 2026
+image: images/what-was-inside-a-pompeii-wardrobe-a1cdd6.jpg
+image-alt: Sun-browned hands hold a small green glass bottle half covered in soil, with a soft brush beside it, against a red wall and a blue sky.
+image-credit-label: AI illustration
 ---
 === Core ===
 

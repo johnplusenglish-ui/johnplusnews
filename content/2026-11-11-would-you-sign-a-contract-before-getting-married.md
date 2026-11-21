@@ -7,6 +7,9 @@ source: The Guardian, The young women driving the US prenup boom: 'I want to pro
 source-date: 11 November 2026
 source-2: Los Angeles Times, Prenups shed their stigma. Gen Z is getting them | https://www.latimes.com/lifestyle/story/2026-10-15/la-young-people-zillennials-gen-z-are-signing-prenups-calling-it-intimacy
 source-2-date: 15 October 2026
+image: images/would-you-sign-a-contract-before-getting-married-c1181c.jpg
+image-alt: Seen from above, one hand holds a pen over the last page of a stapled document while another hand with a ring steadies the paper and a third points to a line.
+image-credit-label: AI illustration
 ---
 === Core ===
 

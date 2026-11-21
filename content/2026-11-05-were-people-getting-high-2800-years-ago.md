@@ -7,6 +7,9 @@ source: University of Bern, Cannabis was used as an intoxicant as early as 2,800
 source-date: 5 November 2026
 source-2: Science, Direct evidence for psychoactive cannabis use 2,800 years ago | https://doi.org/10.1126/science.aeg3800
 source-2-date: 5 November 2026
+image: images/were-people-getting-high-2800-years-ago-0234de.jpg
+image-alt: Purple-gloved fingers use fine tweezers to lower a small lock of dark hair into a glass vial on a white laboratory bench, with a teal sample tray behind.
+image-credit-label: AI illustration
 ---
 === Core ===
 

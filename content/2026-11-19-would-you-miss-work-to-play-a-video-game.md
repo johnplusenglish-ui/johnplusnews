@@ -7,6 +7,9 @@ source: The Guardian, Grand Theft Auto fans skip work and pull all-nighters to p
 source-date: 19 November 2026
 source-2: Associated Press, 'Grand Theft Auto VI' sets record with $3.79B in first-day retail sales, Rockstar Games reports | https://apnews.com/article/15c69f76548ab5659bc3fe44a69756d8
 source-2-date: 20 November 2026
+image: images/would-you-miss-work-to-play-a-video-game-51343c.jpg
+image-alt: A bearded man in glasses and an orange hoodie leans forward on a sofa with a game controller, grinning, his closed laptop, phone and work lanyard on the coffee table.
+image-credit-label: AI illustration
 ---
 === Core ===
 

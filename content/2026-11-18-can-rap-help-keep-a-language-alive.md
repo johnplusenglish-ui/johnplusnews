@@ -9,6 +9,9 @@ source: The Guardian, The Quechua rapper and an artistic movement reclaiming lan
 source-date: 18 November 2026
 source-2: Open Culture, Peruvian Singer & Rapper, Renata Flores, Helps Preserve Quechua with Viral Hits on YouTube | https://www.openculture.com/2020/05/peruvian-singer-rapper-renata-flores-helps-preserve-quechua-with-viral-hits-on-youtube.html
 source-2-date: 4 May 2020
+image: images/can-rap-help-keep-a-language-alive-afb98a.jpg
+image-alt: A young woman with two long plaits raps into a studio microphone with one hand raised, wearing headphones, a pink track jacket and a bright striped woven cloth over one shoulder.
+image-credit-label: AI illustration
 ---
 === Core ===
 

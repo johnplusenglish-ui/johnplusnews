@@ -9,6 +9,9 @@ source: The Guardian, Want to have a better chat? Scientists say the secret is '
 source-date: 6 November 2026
 source-2: Science Advances, Pink noise in dyads' semantic similarity trajectories predicts conversation enjoyment | https://www.science.org/doi/10.1126/sciadv.aeb2684
 source-2-date: 6 November 2026
+image: images/what-makes-a-conversation-flow-0bd5ab.jpg
+image-alt: Two friends sit on a low wall at a skate park: a young man in a beanie tells a story with both hands raised while a young woman laughs with her eyes shut, holding an iced drink.
+image-credit-label: AI illustration
 ---
 === Core ===
 

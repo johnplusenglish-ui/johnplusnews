@@ -9,6 +9,9 @@ source: Reuters, Australians Zoric, Ewing take world surfing games gold | https:
 source-date: 16 November 2026
 source-2: ABC News Australia, Byron Bay 14-year-old Leihani Zoric wins World Surfing Games in Peru | https://www.abc.net.au/news/2026-11-16/14-year-old-byron-bay-surfer-wins-world-surfing-games-in-peru/107388968
 source-2-date: 16 November 2026
+image: images/the-14-year-old-who-became-a-world-surfing-champion-6a9b44.jpg
+image-alt: A surfer in a red jersey turns hard at the top of a turquoise wave, throwing a wide fan of white spray, with her face turned away.
+image-credit-label: AI illustration
 ---
 === Core ===
 

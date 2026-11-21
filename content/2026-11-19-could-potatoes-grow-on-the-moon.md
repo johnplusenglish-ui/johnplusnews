@@ -9,6 +9,9 @@ source: Oregon State University, Study finds potatoes grown in simulated lunar s
 source-date: 19 November 2026
 source-2: npj Microgravity, Growth and molecular responses of potato to lunar regolith simulants | https://www.nature.com/articles/s41526-026-00668-z
 source-2-date: 19 November 2026
+image: images/could-potatoes-grow-on-the-moon-750436.jpg
+image-alt: A small green potato plant and three potatoes sit in pale grey powdery soil in a black tray, lit from one side against a black background.
+image-credit-label: AI illustration
 ---
 === Core ===
 

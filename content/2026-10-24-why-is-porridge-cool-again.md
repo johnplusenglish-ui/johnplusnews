@@ -9,6 +9,9 @@ source: The Guardian, 'Comfort in a bowl': porridge hotter than ever as fibremax
 source-date: 24 October 2026
 source-2: The Grocer, Brits' fibre intake seems to fall as fibremaxxing trend peaks | https://www.thegrocer.co.uk/news/brits-fibre-intake-appears-to-fall-as-fibremaxxing-trend-reaches-its-peak/724769.article
 source-2-date: 14 October 2026
+image: images/why-is-porridge-cool-again-985ca4.jpg
+image-alt: Seen from above on a pale blue table: a bowl of porridge topped with caramelised banana, blueberries, hazelnuts and peanut butter, a hand with a spoon, a mug of tea and a jar of oats.
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -9,6 +9,9 @@ source: The Guardian, School phone bans result in 'modest' academic gains for st
 source-date: 17 November 2026
 source-2: Harvard Graduate School of Education, Strict School Cellphone Bans Could Give Students Weeks More Time to Learn Each Year | https://www.gse.harvard.edu/ideas/news/26/11/strict-school-cellphone-bans-could-give-students-weeks-more-time-learn-each-year
 source-2-date: 17 November 2026
+image: images/should-schools-lock-students-phones-away-425cb3.jpg
+image-alt: Against a bright yellow background, one hand lowers a pale blue phone with stickers on its case into a grey lockable pouch held open by another hand wearing a digital watch.
+image-credit-label: AI illustration
 ---
 === Core ===
 
