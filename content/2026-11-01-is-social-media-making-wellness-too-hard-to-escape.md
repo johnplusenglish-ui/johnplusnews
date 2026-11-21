@@ -7,6 +7,9 @@ source: ABC News Australia, Eating disorder experts warn against online wellness
 source-date: 1 November 2026
 source-2: Butterfly Foundation, Who really benefits? Body Image and Eating Disorder Awareness Week challenges the stories we're sold about 'wellness' | https://butterfly.org.au/news/who-really-benefits-body-image-and-eating-disorder-awareness-week-challenges-the-stories-were-sold-about-wellness/
 source-2-date: 1 September 2026
+image: images/is-social-media-making-wellness-too-hard-to-escape-c95a71.jpg
+image-alt: Seen from above on a grey counter, a phone full of colourful tiles leans on a white mug beside a cheese sandwich, a glass of water and a bitten apple, while a hand picks up the sandwich.
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -7,6 +7,9 @@ source: Phys.org, Finding romance with AI: Study explores benefits, limits of ch
 source-date: 12 November 2026
 source-2: Computers in Human Behavior: Artificial Humans, Finding romance with AI: Comparing human and AI chatbot intimacy and relationships | https://www.sciencedirect.com/science/article/pii/S2949882126001726
 source-2-date: December 2026 (journal issue date, online earlier)
+image: images/can-you-be-emotionally-close-to-someone-who-is-not-human-4b8947.jpg
+image-alt: Over the shoulder of a smiling man in a yellow sweatshirt on a sofa, who holds a phone showing green and blue chat bubbles, with a mug of tea beside him.
+image-credit-label: AI illustration
 ---
 === Core ===
 

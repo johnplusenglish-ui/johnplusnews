@@ -9,6 +9,9 @@ source: ABC News (Australia), Classrooms are getting a 'digital detox'. What doe
 source-date: 9 November 2026
 source-2: Education Ministers Meeting communique (published by Minister for Education Jason Clare), Communique - Education Ministers Meeting - Monday 2 November 2026 | https://jasonclare.com.au/media/communique-education-ministers-meeting-monday-2-november-2026/
 source-2-date: 5 November 2026
+image: images/should-school-be-getting-less-digital-80a622.jpg
+image-alt: Close side view of a hand drawing a wavy pencil line across lined paper, with a tablet in a blue case blurred behind.
+image-credit-label: AI illustration
 ---
 === Core ===
 

@@ -7,6 +7,9 @@ source: Phys.org, Identity develops well into adulthood and is linked to better 
 source-date: 12 October 2026
 source-2: University of Jyväskylä, Identity develops well into adulthood and is linked to better mental well-being | https://www.jyu.fi/en/news/identity-develops-well-into-adulthood-and-is-linked-to-better-mental-well-being
 source-2-date: 1 October 2026
+image: images/when-do-we-finally-know-who-we-are-1d5989.jpg
+image-alt: A grey-haired woman in a yellow apron and striped top shapes a pot on a pottery wheel in a bright studio, with shelves of mugs and bowls behind her.
+image-credit-label: AI illustration
 ---
 === Core ===
 

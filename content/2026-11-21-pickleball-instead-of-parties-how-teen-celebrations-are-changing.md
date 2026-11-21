@@ -9,6 +9,9 @@ source: ABC News (Australia), Schoolies rolls out pickleball and line dancing as
 source-date: 21 November 2026
 source-2: ABC News (Australia), Schoolies set to pay to party on Gold Coast beach for the first time | https://www.abc.net.au/news/2026-10-30/schoolies-to-pay-to-party-on-gold-coast-beach/107327518
 source-2-date: 30 October 2026
+image: images/pickleball-instead-of-parties-how-teen-celebrations-are-changing-4d3dfc.jpg
+image-alt: A young woman in a white visor and coral top lunges at the net on a seafront pickleball court, swinging an orange paddle at a yellow ball with the sea behind.
+image-credit-label: AI illustration
 ---
 === Core ===
 

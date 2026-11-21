@@ -9,6 +9,9 @@ source: Phys.org, Symbolic clay figurines change our understanding of the prehis
 source-date: 11 November 2026
 source-2: PLOS One, Modelling symbols among the first-sedentary communities: Emergence of clay figurines in Epipaleolithic Southwest Asia | https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0360388
 source-2-date: 11 November 2026
+image: images/were-children-making-art-thousands-of-years-ago-40b079.jpg
+image-alt: A small hand-pinched clay animal figure with a fingerprint pattern on its back lies on a white bench beside a steel ruler and tweezers.
+image-credit-label: AI illustration
 ---
 === Core ===
 

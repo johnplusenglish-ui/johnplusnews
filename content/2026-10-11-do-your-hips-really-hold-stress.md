@@ -7,6 +7,9 @@ source: The Guardian, Do we really 'hold tension' in our hips? | https://www.the
 source-date: 11 October 2026
 source-2: Journal of Psychosomatic Research, Is there a relationship between psychological stress or anxiety and chronic nonspecific neck-arm pain in adults? A systematic review and meta-analysis | https://pubmed.ncbi.nlm.nih.gov/27772562/
 source-2-date: 9 September 2016
+image: images/do-your-hips-really-hold-stress-752497.jpg
+image-alt: A laughing man in a bright green t-shirt sits cross-legged on a purple yoga mat in a bright living room, leaning forward into a stiff hip stretch.
+image-credit-label: AI illustration
 ---
 === Core ===
 

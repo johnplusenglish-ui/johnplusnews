@@ -9,6 +9,9 @@ source: Reuters, Tabletop games' popularity holds up as people seek off-screen c
 source-date: 13 November 2026
 source-2: Asmodee (via Inderes), Interim report April-September 2026: Growth across all categories | https://www.inderes.fi/en/releases/asmodees-interim-report-april-september-2026-growth-across-all-categories
 source-2-date: 13 November 2026
+image: images/would-you-swap-an-evening-online-for-a-board-game-0ee8fa.jpg
+image-alt: Three friends laugh around a table covered with hexagonal board game tiles, small wooden houses and cards, with a bowl of phones pushed to one side.
+image-credit-label: AI illustration
 ---
 === Core ===
 

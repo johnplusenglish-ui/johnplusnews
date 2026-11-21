@@ -9,6 +9,9 @@ source: The Guardian, Bloomscrolling: the uplifting new way to waste your own ti
 source-date: 18 November 2026
 source-2: TikTok Transparency Centre, Introduction to the TikTok recommendation system | https://www.tiktok.com/transparency/en/recommendation-system
 source-2-date: undated page, read on 21 November 2026
+image: images/could-bloomscrolling-replace-doomscrolling-0e0710.jpg
+image-alt: On a flat teal background, a young woman sits on a wooden stool laughing at her phone, with a vase of sunflowers beside her.
+image-credit-label: AI illustration
 ---
 === Core ===
 

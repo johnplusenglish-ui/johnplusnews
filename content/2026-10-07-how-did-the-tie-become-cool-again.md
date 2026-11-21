@@ -9,6 +9,9 @@ source: The Guardian, Ties are back in fashion, thanks to gen Z - should we all 
 source-date: 7 October 2026
 source-2: TheIndustry.fashion, TM Lewin expands retail network as formalwear demand strengthens | https://www.theindustry.fashion/tm-lewin-store-expansion-formalwear/
 source-2-date: 5 October 2026
+image: images/how-did-the-tie-become-cool-again-2c64d9.jpg
+image-alt: A young man in a black work jacket and blue hoodie straightens a red and navy striped tie, framed from the chin to the belt on a sunny street.
+image-credit-label: AI illustration
 ---
 === Core ===
 

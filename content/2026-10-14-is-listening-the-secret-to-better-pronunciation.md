@@ -9,6 +9,9 @@ source: The Guardian, Stop making sense: focus on sounds to help learn a languag
 source-date: 14 October 2026
 source-2: University College London press release (via EurekAlert), People with a 'good ear' for sounds make better language learners | https://www.eurekalert.org/news-releases/1147188
 source-2-date: 14 October 2026
+image: images/is-listening-the-secret-to-better-pronunciation-500502.jpg
+image-alt: Close profile of a young man with his eyes closed in concentration, wearing red over-ear headphones and a mustard hoodie.
+image-credit-label: AI illustration
 ---
 === Core ===
 

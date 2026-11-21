@@ -7,6 +7,9 @@ source: Phys.org, Writing changes language less than we think | https://phys.org
 source-date: 18 November 2026
 source-2: NCCR Evolving Language, Writing changes language less than we think | https://evolvinglanguage.ch/writing-changes-language-less-than-we-think/
 source-2-date: 17 November 2026
+image: images/did-writing-really-make-languages-more-complicated-94d2e4.jpg
+image-alt: A hand presses a pointed wooden stylus into a slab of terracotta clay, leaving a neat row of wedge-shaped marks.
+image-credit-label: AI illustration
 ---
 === Core ===
 

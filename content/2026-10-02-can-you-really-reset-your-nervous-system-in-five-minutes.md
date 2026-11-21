@@ -7,6 +7,9 @@ source: The Guardian, Feeling wired? The truth about 'nervous system resets' | h
 source-date: 2 October 2026
 source-2: Neuroscience & Biobehavioral Reviews, Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis | https://pubmed.ncbi.nlm.nih.gov/35623448/
 source-2-date: 24 May 2022
+image: images/can-you-really-reset-your-nervous-system-in-five-minutes-c85ad9.jpg
+image-alt: A small figure in a pink jumper sits alone on a green bench in a sunny park with her eyes closed, framed by leaves, with other people walking in the distance.
+image-credit-label: AI illustration
 ---
 === Core ===
 

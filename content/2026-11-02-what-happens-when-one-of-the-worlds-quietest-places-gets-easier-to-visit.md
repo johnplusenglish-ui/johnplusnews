@@ -7,6 +7,9 @@ source: The Guardian, Ibiza on ice: why is Greenland suddenly throwing open its 
 source-date: 2 November 2026
 source-2: The Associated Press (via KSAT), Greenland opens new international airport to lure tourists as it eyes future independence | https://www.ksat.com/news/world/2026/10/30/greenland-opens-new-international-airport-to-lure-tourists-as-it-eyes-future-independence/
 source-2-date: 30 October 2026
+image: images/what-happens-when-one-of-the-worlds-quietest-places-gets-easier-to-visit-f1fe4d.jpg
+image-alt: Brightly painted wooden houses stand on a rocky hillside above a deep blue fjord with small icebergs, snowy mountains behind and a small plane in the sky.
+image-credit-label: AI illustration
 ---
 === Core ===
 
