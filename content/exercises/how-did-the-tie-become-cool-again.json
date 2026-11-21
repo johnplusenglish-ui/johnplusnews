@@ -1,0 +1,328 @@
+{
+ "slug": "how-did-the-tie-become-cool-again",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "TM Lewin says its tie sales went up by 200% this ____.",
+      "a": "summer"
+     },
+     {
+      "s": "It is only one ____, and it did not say how many ties it sold.",
+      "a": "company"
+     },
+     {
+      "s": "Ties began with cravats, a kind of ____ worn by soldiers from Croatia.",
+      "a": "scarf"
+     },
+     {
+      "s": "Weeks before, the House of ____ changed its rules about ties.",
+      "a": "Lords"
+     },
+     {
+      "s": "A New York ____ patented the modern tie in the early 1920s.",
+      "a": "tailor"
+     }
+    ],
+    "extra": [
+     "teacher",
+     "hospital"
+    ]
+   },
+   "match": [
+    {
+     "t": "old-fashioned",
+     "d": "not modern, like something from the past"
+    },
+    {
+     "t": "pandemic",
+     "d": "a time when a disease spreads across the world"
+    },
+    {
+     "t": "explanation",
+     "d": "a reason that tells why something happens"
+    },
+    {
+     "t": "tailor",
+     "d": "a person who makes clothes"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "TM Lewin's tie sales ____ up by 200% this summer.",
+      "cue": "go",
+      "a": "went"
+     },
+     {
+      "s": "Many people ____ from home during Covid.",
+      "cue": "work",
+      "a": "worked"
+     },
+     {
+      "s": "The company ____ its shops in the pandemic.",
+      "cue": "close",
+      "a": "closed"
+     },
+     {
+      "s": "The head of TM Lewin ____ that the tie has died about ten times.",
+      "cue": "joke",
+      "a": "joked"
+     },
+     {
+      "s": "A New York tailor ____ the modern tie in the early 1920s.",
+      "cue": "patent",
+      "a": "patented"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The 200% figure comes from one company.",
+     "a": "T",
+     "why": "The text says: \"It is only one company\""
+    },
+    {
+     "s": "TM Lewin said exactly how many ties it sold.",
+     "a": "F",
+     "why": "The text says: \"it did not say how many ties it sold\""
+    },
+    {
+     "s": "TM Lewin was started in the year 1898.",
+     "a": "N",
+     "why": "The text does not give this information."
+    },
+    {
+     "s": "The House of Lords changed its rules about wearing ties.",
+     "a": "T",
+     "why": "The text says: \"changed its rules so that men no longer have to wear a tie in the chamber\""
+    },
+    {
+     "s": "The modern tie was patented in the 1800s.",
+     "a": "F",
+     "why": "The text says: \"A New York tailor patented the modern tie in the early 1920s\""
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "TM Lewin says its tie sales rose by 200% year on ____ this summer.",
+      "a": "year"
+     },
+     {
+      "s": "The figure comes from one ____, not from the whole clothing industry.",
+      "a": "retailer"
+     },
+     {
+      "s": "The company did not say how many ties it actually ____.",
+      "a": "sold"
+     },
+     {
+      "s": "The managing director said that men are dressing ____ for work and for weddings.",
+      "a": "smarter"
+     },
+     {
+      "s": "Customers who come in for a suit often ____ a tie.",
+      "a": "add"
+     },
+     {
+      "s": "The modern necktie was patented by a New York ____, Jesse Langsdorf.",
+      "a": "tailor"
+     }
+    ],
+    "extra": [
+     "teacher",
+     "farmer"
+    ]
+   },
+   "match": [
+    {
+     "t": "extinction",
+     "d": "the state of having completely disappeared"
+    },
+    {
+     "t": "retailer",
+     "d": "a business that sells things to the public"
+    },
+    {
+     "t": "informal",
+     "d": "relaxed, not formal"
+    },
+    {
+     "t": "patented",
+     "d": "officially registered an invention so that others cannot copy it"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "TM Lewin ____ its shops during the pandemic.",
+      "cue": "close",
+      "a": "closed"
+     },
+     {
+      "s": "Its sales may have ____ growing from a low starting point.",
+      "cue": "be",
+      "a": "been"
+     },
+     {
+      "s": "Dan Ferris ____ that the tie has died about ten times.",
+      "cue": "joke",
+      "a": "joked"
+     },
+     {
+      "s": "A New York tailor ____ the modern necktie in the early 1920s.",
+      "cue": "patent",
+      "a": "patented"
+     },
+     {
+      "s": "The Guardian ____ to two causes.",
+      "cue": "point",
+      "a": "points"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The 200% figure comes from one retailer.",
+     "a": "T",
+     "why": "The text says: \"It comes from one retailer, not from the whole clothing industry\""
+    },
+    {
+     "s": "The Guardian article is a serious scientific study.",
+     "a": "F",
+     "why": "The text says: \"the article is written as a light, humorous column\""
+    },
+    {
+     "s": "Dan Ferris is fifty years old.",
+     "a": "N",
+     "why": "The text does not give this information."
+    },
+    {
+     "s": "Customers who buy a suit often add a tie.",
+     "a": "T",
+     "why": "The text says: \"customers who come in for a suit often add a tie\""
+    },
+    {
+     "s": "The windsor knot came before the four-in-hand knot.",
+     "a": "F",
+     "why": "The text says: \"the windsor came later, between the world wars\""
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "The Guardian says working from ____ during Covid helped to finish off the tie.",
+      "a": "home"
+     },
+     {
+      "s": "The coverage gives no ____ numbers, so the rise could be from a small base.",
+      "a": "absolute"
+     },
+     {
+      "s": "A seller is describing its own ____.",
+      "a": "customers"
+     },
+     {
+      "s": "The youth explanation is an appealing ____.",
+      "a": "theory"
+     },
+     {
+      "s": "The sales figure does not tell us the ____ of any buyer.",
+      "a": "age"
+     },
+     {
+      "s": "The tie grew out of the ____, worn by Croatian soldiers.",
+      "a": "cravat"
+     }
+    ],
+    "extra": [
+     "uniform",
+     "factory"
+    ]
+   },
+   "match": [
+    {
+     "t": "backlash",
+     "d": "a strong reaction against something that came before"
+    },
+    {
+     "t": "testimony",
+     "d": "a statement from someone about what they know or have seen"
+    },
+    {
+     "t": "revival",
+     "d": "a time when something old becomes popular again"
+    },
+    {
+     "t": "contradict",
+     "d": "to say or show the opposite of something"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "It is an ____ theory, and it fits a familiar pattern.",
+      "cue": "APPEAL",
+      "a": "appealing"
+     },
+     {
+      "s": "The Guardian's explanation for the youth link is a ____ backlash.",
+      "cue": "GENERATION",
+      "a": "generational"
+     },
+     {
+      "s": "Fashion moves ____.",
+      "cue": "EVEN",
+      "a": "unevenly"
+     },
+     {
+      "s": "Its history supports that ____ view.",
+      "cue": "CAUTION",
+      "a": "cautious"
+     },
+     {
+      "s": "What looks like a ____ may simply be fashion coming full circle.",
+      "cue": "REVIVE",
+      "a": "revival"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The sales figure does not show the age of any buyer.",
+     "a": "T",
+     "why": "The text says: \"the sales figure does not tell us the age of any buyer\""
+    },
+    {
+     "s": "The 200% figure comes from the whole clothing industry.",
+     "a": "F",
+     "why": "The text says: \"It comes from one company, not from the whole clothing industry\""
+    },
+    {
+     "s": "The text names the owner of TM Lewin.",
+     "a": "N",
+     "why": "The text does not give this information."
+    },
+    {
+     "s": "The retailer plans seven stores after two openings in November.",
+     "a": "T",
+     "why": "The text says: \"it plans seven stores after two openings in November\""
+    },
+    {
+     "s": "The modern necktie was patented in the 1800s.",
+     "a": "F",
+     "why": "The text says: \"the modern necktie was patented by a New York tailor, Jesse Langsdorf, in the early 1920s\""
+    }
+   ]
+  }
+ }
+}

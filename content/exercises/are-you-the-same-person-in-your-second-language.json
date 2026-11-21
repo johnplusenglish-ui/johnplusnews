@@ -1,0 +1,328 @@
+{
+ "slug": "are-you-the-same-person-in-your-second-language",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "Half did the whole study in Greek, and the other half did it in ____.",
+      "a": "English"
+     },
+     {
+      "s": "Two of the problems were about hurting one person to save ____.",
+      "a": "others"
+     },
+     {
+      "s": "Those who used Greek said that being a ____ person was more important to them.",
+      "a": "moral"
+     },
+     {
+      "s": "The problems were ____, so we cannot be sure that people would act the same in real life.",
+      "a": "imaginary"
+     },
+     {
+      "s": "Your first language may feel like second ____.",
+      "a": "nature"
+     }
+    ],
+    "extra": [
+     "expensive",
+     "slowly"
+    ]
+   },
+   "match": [
+    {
+     "t": "infidelity",
+     "d": "being unfaithful to a partner"
+    },
+    {
+     "t": "moral",
+     "d": "connected with ideas of right and wrong"
+    },
+    {
+     "t": "imaginary",
+     "d": "not real, only made up in the mind"
+    },
+    {
+     "t": "mixed",
+     "d": "not clearly one thing or the other"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "A team of researchers ____ out to find out.",
+      "cue": "set",
+      "a": "set"
+     },
+     {
+      "s": "They ____ with 106 people from Greece.",
+      "cue": "work",
+      "a": "worked"
+     },
+     {
+      "s": "People ____ what they would do.",
+      "cue": "say",
+      "a": "said"
+     },
+     {
+      "s": "Only 106 people ____ part in the study.",
+      "cue": "take",
+      "a": "took"
+     },
+     {
+      "s": "The language ____ not change what people decided.",
+      "cue": "do",
+      "a": "did"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The study had 106 people in it.",
+     "a": "T",
+     "why": "The text says: \"they worked with 106 people from Greece\""
+    },
+    {
+     "s": "Every person did the study in both languages.",
+     "a": "F",
+     "why": "The text says: \"Half did the whole study in Greek. The other half did all of it in English.\""
+    },
+    {
+     "s": "The language people used changed their decisions.",
+     "a": "F",
+     "why": "The text says: \"The language did not change what people decided.\""
+    },
+    {
+     "s": "The text says how old the people in the study were.",
+     "a": "N",
+     "why": "The text does not say how old the people in the study were."
+    },
+    {
+     "s": "Earlier studies on this question gave mixed results.",
+     "a": "T",
+     "why": "The text says: \"Earlier studies gave mixed results too\""
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "People who used Greek ____ being a moral person as more important.",
+      "a": "rated"
+     },
+     {
+      "s": "A second language may feel less ____ than the language we grew up with.",
+      "a": "emotional"
+     },
+     {
+      "s": "The ____ study involved 106 native Greek speakers.",
+      "a": "preregistered"
+     },
+     {
+      "s": "Moral ____ is about commitment to acting on your principles.",
+      "a": "integrity"
+     },
+     {
+      "s": "The dilemmas in the study were ____.",
+      "a": "hypothetical"
+     },
+     {
+      "s": "The effect was clearest in the everyday ____ scenarios.",
+      "a": "honesty"
+     }
+    ],
+    "extra": [
+     "violent",
+     "cheerful"
+    ]
+   },
+   "match": [
+    {
+     "t": "dilemma",
+     "d": "a difficult choice between two options"
+    },
+    {
+     "t": "hypothetical",
+     "d": "imagined, not real"
+    },
+    {
+     "t": "reliable",
+     "d": "consistent enough to be trusted"
+    },
+    {
+     "t": "nudge",
+     "d": "push gently"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Researchers have ____ how deep this goes.",
+      "cue": "wonder",
+      "a": "wondered"
+     },
+     {
+      "s": "Half ____ the study entirely in Greek.",
+      "cue": "complete",
+      "a": "completed"
+     },
+     {
+      "s": "Each person ____ four dilemmas.",
+      "cue": "judge",
+      "a": "judged"
+     },
+     {
+      "s": "People with a stronger moral identity ____ stronger emotional reactions.",
+      "cue": "report",
+      "a": "reported"
+     },
+     {
+      "s": "Different people ____ part in each language.",
+      "cue": "take",
+      "a": "took"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The study was published online in August 2026.",
+     "a": "T",
+     "why": "The text says: \"published online in Bilingualism: Language and Cognition in August 2026\""
+    },
+    {
+     "s": "Language had a reliable overall effect on moral decisions.",
+     "a": "F",
+     "why": "The text says: \"language did not have a reliable overall effect on moral decisions\""
+    },
+    {
+     "s": "Moral integrity was the same in both groups.",
+     "a": "T",
+     "why": "The text says: \"Moral integrity, which is about commitment to acting on your principles, was the same in both groups.\""
+    },
+    {
+     "s": "The text says how many men and women took part.",
+     "a": "N",
+     "why": "The text does not say how many men and women took part."
+    },
+    {
+     "s": "The same people did the study in both languages.",
+     "a": "F",
+     "why": "The text says: \"different people took part in each language\""
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "People tend to make more ____ choices in a second language than in their first.",
+      "a": "utilitarian"
+     },
+     {
+      "s": "A popular explanation is emotional ____.",
+      "a": "distance"
+     },
+     {
+      "s": "The study was ____, and the analysis used both conventional and Bayesian statistics.",
+      "a": "preregistered"
+     },
+     {
+      "s": "Moral identity told a different ____.",
+      "a": "story"
+     },
+     {
+      "s": "The sample is small and culturally ____.",
+      "a": "specific"
+     },
+     {
+      "s": "Each person did the whole task in either Greek or ____.",
+      "a": "English"
+     }
+    ],
+    "extra": [
+     "furious",
+     "portable"
+    ]
+   },
+   "match": [
+    {
+     "t": "utilitarian",
+     "d": "aiming for the greatest good for the most people"
+    },
+    {
+     "t": "preregistered",
+     "d": "planned and recorded publicly before the data were collected"
+    },
+    {
+     "t": "mediation",
+     "d": "an explanation of how one thing affects another through a third thing"
+    },
+    {
+     "t": "generalise",
+     "d": "apply to a wider group than the one studied"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "The evidence, however, has been ____.",
+      "cue": "EVEN",
+      "a": "uneven"
+     },
+     {
+      "s": "A popular explanation is emotional ____.",
+      "cue": "DISTANT",
+      "a": "distance"
+     },
+     {
+      "s": "Participants ____ reported stronger emotions in English.",
+      "cue": "GENERAL",
+      "a": "generally"
+     },
+     {
+      "s": "The sample is small and ____ specific.",
+      "cue": "CULTURE",
+      "a": "culturally"
+     },
+     {
+      "s": "It is probably a more ____ one.",
+      "cue": "ACCURACY",
+      "a": "accurate"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The study was preregistered.",
+     "a": "T",
+     "why": "The text says: \"The study was preregistered\""
+    },
+    {
+     "s": "Language did not reliably affect decisions.",
+     "a": "T",
+     "why": "The text says: \"Language did not reliably affect decisions.\""
+    },
+    {
+     "s": "Moral integrity was higher among the Greek speakers.",
+     "a": "F",
+     "why": "The text says: \"but moral integrity stayed stable across both groups\""
+    },
+    {
+     "s": "The text says how old the participants were.",
+     "a": "N",
+     "why": "The text does not say how old the participants were."
+    },
+    {
+     "s": "The authors say the results will apply to all bilinguals.",
+     "a": "F",
+     "why": "The text says: \"the authors themselves point out that the results may not generalise beyond Greek-English bilinguals\""
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,328 @@
+{
+ "slug": "were-children-making-art-thousands-of-years-ago",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "The team studied 154 small clay ____ from three Natufian sites.",
+      "a": "objects"
+     },
+     {
+      "s": "The collection includes 15 figurines, most of them shaped like ____.",
+      "a": "birds"
+     },
+     {
+      "s": "The lines on a child's fingers are closer ____ than the lines on an adult's.",
+      "a": "together"
+     },
+     {
+      "s": "Most of the pieces are broken, and only two are ____.",
+      "a": "complete"
+     },
+     {
+      "s": "The Natufians found food by hunting and collecting ____.",
+      "a": "plants"
+     }
+    ],
+    "extra": [
+     "ships",
+     "songs"
+    ]
+   },
+   "match": [
+    {
+     "t": "figurines",
+     "d": "small statues of people or animals"
+    },
+    {
+     "t": "interpretation",
+     "d": "an idea about what something means"
+    },
+    {
+     "t": "preliminary",
+     "d": "early, before the full work is finished"
+    },
+    {
+     "t": "fingerprint",
+     "d": "the mark left by the tip of a finger"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "A team ____ by Laurent Davin studied 154 small clay objects.",
+      "cue": "lead",
+      "a": "led"
+     },
+     {
+      "s": "The team ____ at fingerprints.",
+      "cue": "look",
+      "a": "looked"
+     },
+     {
+      "s": "Some prints ____ from adults.",
+      "cue": "come",
+      "a": "came"
+     },
+     {
+      "s": "The Natufians ____ in some of the first villages.",
+      "cue": "live",
+      "a": "lived"
+     },
+     {
+      "s": "The researchers ____ that an adult may have passed the figure to a child.",
+      "cue": "think",
+      "a": "think"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The team studied 154 clay objects.",
+     "a": "T",
+     "why": "The text says: \"studied 154 small clay objects from three Natufian sites\""
+    },
+    {
+     "s": "All the clay objects are complete.",
+     "a": "F",
+     "why": "The text says: \"Most of the pieces are broken, and only two are complete\""
+    },
+    {
+     "s": "The study found fingerprints from more than ten children.",
+     "a": "N",
+     "why": "The text does not give this information."
+    },
+    {
+     "s": "The idea that an adult passed the figure to a child is only the researchers' interpretation.",
+     "a": "T",
+     "why": "The text says: \"That is their interpretation\""
+    },
+    {
+     "s": "The text says that someone gave an art lesson.",
+     "a": "F",
+     "why": "The text says: \"We also cannot say that anyone gave an art lesson\""
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "The objects date from about 15,000 to 11,650 years ____.",
+      "a": "ago"
+     },
+     {
+      "s": "The ridges on children's fingers are ____ than those on adults.",
+      "a": "narrower"
+     },
+     {
+      "s": "The results suggest that both adults and children ____ the clay.",
+      "a": "handled"
+     },
+     {
+      "s": "A fingerprint shows who touched the clay, not ____.",
+      "a": "why"
+     },
+     {
+      "s": "Only two of the objects are complete, and the rest are ____.",
+      "a": "fragments"
+     },
+     {
+      "s": "One fragment may show a gazelle's ____.",
+      "a": "face"
+     }
+    ],
+    "extra": [
+     "tail",
+     "colour"
+    ]
+   },
+   "match": [
+    {
+     "t": "traces",
+     "d": "small signs that something was there"
+    },
+    {
+     "t": "ridges",
+     "d": "raised lines, such as the lines on a fingertip"
+    },
+    {
+     "t": "interpretation",
+     "d": "an idea about what something means"
+    },
+    {
+     "t": "preliminary",
+     "d": "early, before the full work has been done"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "The team ____ the fingerprints left in the clay.",
+      "cue": "study",
+      "a": "studied"
+     },
+     {
+      "s": "The researchers ____ the age of the people who left each mark.",
+      "cue": "estimate",
+      "a": "estimated"
+     },
+     {
+      "s": "The authors ____ it preliminary.",
+      "cue": "call",
+      "a": "call"
+     },
+     {
+      "s": "The print of a child partly ____ it.",
+      "cue": "cover",
+      "a": "covers"
+     },
+     {
+      "s": "The Natufians ____ in some of the first villages.",
+      "cue": "live",
+      "a": "lived"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Both adults and children handled the clay, according to the results.",
+     "a": "T",
+     "why": "The text says: \"The results suggest that both adults and children handled the clay\""
+    },
+    {
+     "s": "A fingerprint tells us why someone touched the clay.",
+     "a": "F",
+     "why": "The text says: \"A fingerprint shows who touched the clay, not why\""
+    },
+    {
+     "s": "The text gives the height of the children.",
+     "a": "N",
+     "why": "The text does not give this information."
+    },
+    {
+     "s": "Only two of the objects are complete.",
+     "a": "T",
+     "why": "The text says: \"Only two of the objects are complete, and the rest are fragments\""
+    },
+    {
+     "s": "The text says that children were definitely taught art.",
+     "a": "F",
+     "why": "The text says: \"We cannot say that children were taught art, or that they were playing\""
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "The Natufians lived in some of the earliest villages, before ____.",
+      "a": "agriculture"
+     },
+     {
+      "s": "The ridges on a child's fingertips are ____ than those on an adult's.",
+      "a": "narrower"
+     },
+     {
+      "s": "The results suggest that the children were not simply ____.",
+      "a": "watching"
+     },
+     {
+      "s": "A fingerprint records who touched the clay, but it cannot reveal ____.",
+      "a": "intention"
+     },
+     {
+      "s": "The study is described as ____.",
+      "a": "preliminary"
+     },
+     {
+      "s": "Only two of the objects are ____.",
+      "a": "complete"
+     }
+    ],
+    "extra": [
+     "expensive",
+     "permanent"
+    ]
+   },
+   "match": [
+    {
+     "t": "figurative",
+     "d": "showing real things, such as animals or people, in a shape or picture"
+    },
+    {
+     "t": "acknowledge",
+     "d": "to accept that something is true"
+    },
+    {
+     "t": "residue",
+     "d": "a small amount of something left behind"
+    },
+    {
+     "t": "trivial",
+     "d": "of little importance"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "The most ____ part of the study is its method.",
+      "cue": "ORIGIN",
+      "a": "original"
+     },
+     {
+      "s": "The limits are ____, and the authors acknowledge many of them.",
+      "cue": "CONSIDER",
+      "a": "considerable"
+     },
+     {
+      "s": "A fingerprint cannot reveal ____.",
+      "cue": "INTEND",
+      "a": "intention"
+     },
+     {
+      "s": "The Natufians lived in some of the ____ villages.",
+      "cue": "EARLY",
+      "a": "earliest"
+     },
+     {
+      "s": "It is unusual when archaeology offers something as ____ as a fingerprint.",
+      "cue": "PERSON",
+      "a": "personal"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The study looked at 154 small clay objects.",
+     "a": "T",
+     "why": "The text says: \"published a study in PLOS One of 154 small clay objects from three Natufian sites in Israel\""
+    },
+    {
+     "s": "Only adults left fingerprints in the clay.",
+     "a": "F",
+     "why": "The text says: \"children and adults both took part\""
+    },
+    {
+     "s": "The text says exactly how many fingerprints were measured.",
+     "a": "N",
+     "why": "The text does not give this information."
+    },
+    {
+     "s": "The authors describe the study as preliminary.",
+     "a": "T",
+     "why": "The text says: \"The study is described as preliminary\""
+    },
+    {
+     "s": "The text says it is certain that the children were learning beliefs.",
+     "a": "F",
+     "why": "The text says: \"Nobody can say whether the children were playing, practising a craft or learning beliefs\""
+    }
+   ]
+  }
+ }
+}

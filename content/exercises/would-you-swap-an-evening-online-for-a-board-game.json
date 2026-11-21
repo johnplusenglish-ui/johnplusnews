@@ -1,0 +1,328 @@
+{
+ "slug": "would-you-swap-an-evening-online-for-a-board-game",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "In three months, Asmodee's board game sales grew by 18.4 per ____.",
+      "a": "cent"
+     },
+     {
+      "s": "Its boss told the news ____ Reuters that demand is strong.",
+      "a": "agency"
+     },
+     {
+      "s": "The survey was made with a research company called ____.",
+      "a": "Kantar"
+     },
+     {
+      "s": "A parent might buy a game for the whole ____.",
+      "a": "family"
+     },
+     {
+      "s": "It is wise to take the company's figures with a pinch of ____.",
+      "a": "salt"
+     }
+    ],
+    "extra": [
+     "sugar",
+     "team"
+    ]
+   },
+   "match": [
+    {
+     "t": "demand",
+     "d": "how much people want to buy something"
+    },
+    {
+     "t": "figures",
+     "d": "numbers that give facts or amounts"
+    },
+    {
+     "t": "independent",
+     "d": "not connected to a company that has something to sell"
+    },
+    {
+     "t": "digital",
+     "d": "on a screen or a computer"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "On 13 November 2026, its boss ____ the news agency Reuters that demand is strong.",
+      "cue": "tell",
+      "a": "told"
+     },
+     {
+      "s": "In the three months from July to September 2026, its board game sales ____ by 18.4 per cent.",
+      "cue": "grow",
+      "a": "grew"
+     },
+     {
+      "s": "The survey ____ that 74 per cent of young people think real-life experiences matter more.",
+      "cue": "find",
+      "a": "found"
+     },
+     {
+      "s": "Mr Koegler ____ game nights to stay popular on Saturdays.",
+      "cue": "expect",
+      "a": "expects"
+     },
+     {
+      "s": "A big games event in the Netherlands also ____ 33,000 visitors.",
+      "cue": "have",
+      "a": "had"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Asmodee sells trading card games.",
+     "a": "T",
+     "why": "The text says: \"It also sells trading card games\""
+    },
+    {
+     "s": "The sales figures come from an independent study.",
+     "a": "F",
+     "why": "The text says: \"These are the company's own figures\""
+    },
+    {
+     "s": "Trading card sales grew faster than board game sales.",
+     "a": "T",
+     "why": "The text says: \"its board game sales grew by 18.4 per cent, and its trading card sales grew by 51.6 per cent\""
+    },
+    {
+     "s": "Most teenagers now prefer board games to phones.",
+     "a": "N",
+     "why": "The text does not say how many teenagers prefer board games to phones."
+    },
+    {
+     "s": "A games event in the Netherlands had 33,000 visitors.",
+     "a": "T",
+     "why": "The text says: \"A big games event in the Netherlands also had 33,000 visitors on 7 and 8 November\""
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "Chief executive Thomas Koegler gave an ____ to Reuters on 13 November 2026.",
+      "a": "interview"
+     },
+     {
+      "s": "The 74 per cent figure measures opinions rather than ____.",
+      "a": "behaviour"
+     },
+     {
+      "s": "Attendance is ____ at trade shows such as Spiel Essen and Gen Con, he said.",
+      "a": "rising"
+     },
+     {
+      "s": "The first day of the Dutch event sold ____.",
+      "a": "out"
+     },
+     {
+      "s": "A rise in sales is a clue, not ____, that teenagers are swapping screens for tabletops.",
+      "a": "proof"
+     },
+     {
+      "s": "It is hard to hide ____ a phone when you play a game around a table.",
+      "a": "behind"
+     }
+    ],
+    "extra": [
+     "habit",
+     "ticket"
+    ]
+   },
+   "match": [
+    {
+     "t": "upbeat",
+     "d": "cheerful and positive about how things will go"
+    },
+    {
+     "t": "barometer",
+     "d": "a regular survey that measures opinions or trends"
+    },
+    {
+     "t": "commercial",
+     "d": "connected with making money by selling things"
+    },
+    {
+     "t": "bluff",
+     "d": "to pretend you have something you do not have, to trick other players"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Mr Koegler ____ that board games have gained popularity among 16 to 25 year olds.",
+      "cue": "say",
+      "a": "said"
+     },
+     {
+      "s": "Asmodee's board game sales ____ by 18.4 per cent in the quarter.",
+      "cue": "rise",
+      "a": "rose"
+     },
+     {
+      "s": "The Dutch event Spellenspektakel ____ 33,000 visitors at its 2026 edition.",
+      "cue": "report",
+      "a": "reported"
+     },
+     {
+      "s": "He ____ to a barometer compiled by Asmodee and Kantar.",
+      "cue": "point",
+      "a": "pointed"
+     },
+     {
+      "s": "Sales figures show how many games ____ sold.",
+      "cue": "be",
+      "a": "were"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Asmodee also distributes Pokémon trading card games.",
+     "a": "T",
+     "why": "The text says: \"It also distributes trading card games made by other publishers, including Pokémon, Magic: The Gathering and One Piece\""
+    },
+    {
+     "s": "The 74 per cent figure comes from an independent social science study.",
+     "a": "F",
+     "why": "The text says: \"this is commercial research, not an independent social science study\""
+    },
+    {
+     "s": "Sales figures show exactly how much time teenagers spend on screens.",
+     "a": "F",
+     "why": "The text says: \"Sales figures show how many games were sold, but not who is playing them or how much time those people spend on screens\""
+    },
+    {
+     "s": "Spellenspektakel had 33,000 visitors in 2026.",
+     "a": "T",
+     "why": "The text says: \"reported 33,000 visitors at its 2026 edition on 7 and 8 November\""
+    },
+    {
+     "s": "Asmodee sold more games in Europe than in any other part of the world.",
+     "a": "N",
+     "why": "The text does not say where in the world Asmodee sells most of its games."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "The Netherlands' largest board game event reported 33,000 ____ on 7 and 8 November.",
+      "a": "visitors"
+     },
+     {
+      "s": "The chief executive argued that ____ for board games was holding firm.",
+      "a": "demand"
+     },
+     {
+      "s": "Mr Koegler cited a ____ compiled by Asmodee and the research company Kantar.",
+      "a": "barometer"
+     },
+     {
+      "s": "A rise in sales does not show who ____ the boxes after they were bought.",
+      "a": "opened"
+     },
+     {
+      "s": "Playing a board game removes many of the escape ____ that a screen offers.",
+      "a": "routes"
+     },
+     {
+      "s": "A survey question about what matters more is a statement of ____.",
+      "a": "opinion"
+     }
+    ],
+    "extra": [
+     "profit",
+     "rumour"
+    ]
+   },
+   "match": [
+    {
+     "t": "acquisitions",
+     "d": "businesses that a company has bought"
+    },
+    {
+     "t": "anonymity",
+     "d": "the state of other people not knowing who you are"
+    },
+    {
+     "t": "gracefully",
+     "d": "in a calm and polite way, even when things go badly"
+    },
+    {
+     "t": "settled",
+     "d": "finally decided and no longer open to doubt"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "Online games can offer an ____ that board games cannot.",
+      "cue": "ANONYMOUS",
+      "a": "anonymity"
+     },
+     {
+      "s": "The most ____ reading of the evidence is a modest one.",
+      "cue": "SENSE",
+      "a": "sensible"
+     },
+     {
+      "s": "Board games have gained ____ among 16 to 25 year olds.",
+      "cue": "POPULAR",
+      "a": "popularity"
+     },
+     {
+      "s": "Sales data raise their own ____.",
+      "cue": "DIFFICULT",
+      "a": "difficulties"
+     },
+     {
+      "s": "Part of the growth came from ____.",
+      "cue": "ACQUIRE",
+      "a": "acquisitions"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Asmodee distributes trading card games from other publishers.",
+     "a": "T",
+     "why": "The text says: \"it distributes trading card games from other publishers\""
+    },
+    {
+     "s": "The 74 per cent figure comes from an independent social science study.",
+     "a": "F",
+     "why": "The text says: \"not from an independent social science study\""
+    },
+    {
+     "s": "Total net sales rose by 36.8 per cent in the quarter.",
+     "a": "T",
+     "why": "The text says: \"total net sales climbed by 36.8 per cent\""
+    },
+    {
+     "s": "A rise in sales shows that teenagers' screen time fell.",
+     "a": "F",
+     "why": "The text says: \"not who opened them, how often they were played or whether anyone's screen time fell as a result\""
+    },
+    {
+     "s": "Gen Con was the biggest games event of 2026.",
+     "a": "N",
+     "why": "The text does not say how big Gen Con was in 2026."
+    }
+   ]
+  }
+ }
+}

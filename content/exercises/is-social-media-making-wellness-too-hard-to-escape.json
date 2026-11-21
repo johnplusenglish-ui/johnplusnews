@@ -1,0 +1,328 @@
+{
+ "slug": "is-social-media-making-wellness-too-hard-to-escape",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "Some experts in Australia are ____ about wellness content that young people see online.",
+      "a": "worried"
+     },
+     {
+      "s": "Kathleen McBride says that as a teenager, ____ taught her to worry about her body.",
+      "a": "adverts"
+     },
+     {
+      "s": "The nine trillion dollar figure for 2028 is a ____, not a fact.",
+      "a": "forecast"
+     },
+     {
+      "s": "Dr Hinz hopes for stronger ____ to take down harmful posts.",
+      "a": "laws"
+     },
+     {
+      "s": "She also wants accurate health ____ to be easy to find.",
+      "a": "information"
+     }
+    ],
+    "extra": [
+     "supplement",
+     "routine"
+    ]
+   },
+   "match": [
+    {
+     "t": "forecast",
+     "d": "a statement about what will probably happen in the future"
+    },
+    {
+     "t": "recovered",
+     "d": "became well again after being ill"
+    },
+    {
+     "t": "accurate",
+     "d": "correct and true in every detail"
+    },
+    {
+     "t": "harmful",
+     "d": "likely to cause damage or hurt"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "In November 2026, ABC News in Australia ____ that some experts are worried.",
+      "cue": "report",
+      "a": "reported"
+     },
+     {
+      "s": "Kathleen McBride ____ from an eating disorder.",
+      "cue": "recover",
+      "a": "recovered"
+     },
+     {
+      "s": "In 2024, the Global Wellness Institute ____ that the industry could be worth about nine trillion US dollars by 2028.",
+      "cue": "forecast",
+      "a": "forecast|forecasted"
+     },
+     {
+      "s": "Creators who earn money from harmful posts should be ____ responsible.",
+      "cue": "hold",
+      "a": "held"
+     },
+     {
+      "s": "In September, the Butterfly Foundation ____ the figure to ask a simple question.",
+      "cue": "use",
+      "a": "used"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Kathleen McBride works at a treatment centre.",
+     "a": "T",
+     "why": "The text says: \"now works at a treatment centre\""
+    },
+    {
+     "s": "The nine trillion dollar figure is a fact that has already been measured.",
+     "a": "F",
+     "why": "The text says: \"That is a forecast, not a fact.\""
+    },
+    {
+     "s": "The report says social media alone causes eating disorders.",
+     "a": "F",
+     "why": "The text says: \"nobody in the report says that social media creates them alone\""
+    },
+    {
+     "s": "Dr Hinz says young people's interest in being healthy is not the problem.",
+     "a": "T",
+     "why": "The text says: \"that is not the problem\""
+    },
+    {
+     "s": "The text gives the number of young Australians who have an eating disorder.",
+     "a": "N",
+     "why": "The text does not give any figure for how many young Australians have an eating disorder."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "Algorithms keep ____ up wellness content to young people.",
+      "a": "serving"
+     },
+     {
+      "s": "The nine trillion dollar figure is a forecast rather than a ____.",
+      "a": "measurement"
+     },
+     {
+      "s": "The charity says that with so much money at ____, people should ask whose interests are served.",
+      "a": "stake"
+     },
+     {
+      "s": "In a parasocial relationship, a viewer feels close to a creator who has never ____ them.",
+      "a": "met"
+     },
+     {
+      "s": "Nobody quoted says that social media creates eating disorders on its ____.",
+      "a": "own"
+     },
+     {
+      "s": "Dr Hinz says the aim is better ____, not no guidance.",
+      "a": "guidance"
+     }
+    ],
+    "extra": [
+     "lawsuit",
+     "bargain"
+    ]
+   },
+   "match": [
+    {
+     "t": "algorithms",
+     "d": "computer rules that decide what a person sees online"
+    },
+    {
+     "t": "parasocial",
+     "d": "describing a one-sided feeling of closeness to someone you only know through media"
+    },
+    {
+     "t": "misinformation",
+     "d": "false or misleading information"
+    },
+    {
+     "t": "accountable",
+     "d": "expected to explain your actions and accept blame"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Eating disorder specialists ____ whether that endless stream of advice has become hard to escape.",
+      "cue": "ask",
+      "a": "asked"
+     },
+     {
+      "s": "Kathleen McBride ____ at a residential treatment centre.",
+      "cue": "work",
+      "a": "works"
+     },
+     {
+      "s": "In 2024 the institute ____ that the wellness economy would reach about nine trillion US dollars by 2028.",
+      "cue": "forecast",
+      "a": "forecast|forecasted"
+     },
+     {
+      "s": "Creators who profit from harmful content are ____ accountable.",
+      "cue": "hold",
+      "a": "held"
+     },
+     {
+      "s": "Social media ____ presented as a powerful way of spreading those ideas.",
+      "cue": "be",
+      "a": "is"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Kathleen McBride is 30 years old.",
+     "a": "T",
+     "why": "The text says: \"Kathleen McBride, 30, lives on Queensland's Sunshine Coast\""
+    },
+    {
+     "s": "The wellness figure for 2028 is a measured result.",
+     "a": "F",
+     "why": "The text says: \"That figure is a forecast rather than a measurement.\""
+    },
+    {
+     "s": "The Butterfly Foundation used the forecast in September.",
+     "a": "T",
+     "why": "The text says: \"used it in September to make a point\""
+    },
+    {
+     "s": "Dr Hinz wants less health information online.",
+     "a": "F",
+     "why": "The text says: \"the aim is better guidance, not no guidance\""
+    },
+    {
+     "s": "The text says how many people follow wellness creators in Australia.",
+     "a": "N",
+     "why": "The text does not say how many people follow wellness creators in Australia."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "Dr Hinz says viewers can end up treating the body as a ____ with no finish line.",
+      "a": "project"
+     },
+     {
+      "s": "The evidence offered is largely clinical experience and expert ____.",
+      "a": "opinion"
+     },
+     {
+      "s": "The wellness figure for 2028 is a projection, not a measured ____.",
+      "a": "result"
+     },
+     {
+      "s": "The charity and a dietitian point to the notion that some bodies are inherently ____ than others.",
+      "a": "better"
+     },
+     {
+      "s": "On this reading, social media is an ____ rather than a cause.",
+      "a": "amplifier"
+     },
+     {
+      "s": "Dr Hinz favours stronger duty-of-care ____.",
+      "a": "laws"
+     }
+    ],
+    "extra": [
+     "regulation",
+     "scandal"
+    ]
+   },
+   "match": [
+    {
+     "t": "benign",
+     "d": "harmless and kind rather than dangerous"
+    },
+    {
+     "t": "repackaged",
+     "d": "presented again in a new form"
+    },
+    {
+     "t": "amplifier",
+     "d": "something that makes an effect stronger"
+    },
+    {
+     "t": "inherently",
+     "d": "as a natural and permanent part of something"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "Wellness has enjoyed a remarkably ____ rise.",
+      "cue": "EFFORT",
+      "a": "effortless"
+     },
+     {
+      "s": "The word sounds benign, even ____.",
+      "cue": "VIRTUE",
+      "a": "virtuous"
+     },
+     {
+      "s": "The charity cited the figure to frame a ____ question.",
+      "cue": "POINT",
+      "a": "pointed"
+     },
+     {
+      "s": "Dr Hinz argues for accurate, ____ material to be easier to find.",
+      "cue": "REGULATE",
+      "a": "regulated"
+     },
+     {
+      "s": "What alarms Ms McBride is ____: the same assumptions, repackaged.",
+      "cue": "CONTINUE",
+      "a": "continuity"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "No one quoted says that social media creates eating disorders on its own.",
+     "a": "T",
+     "why": "The text says: \"nobody quoted says that social media creates them on its own\""
+    },
+    {
+     "s": "The 2028 wellness economy figure is a measured result.",
+     "a": "F",
+     "why": "The text says: \"That is a projection, not a measured result.\""
+    },
+    {
+     "s": "The evidence in the report is mostly clinical experience and expert opinion.",
+     "a": "T",
+     "why": "The text says: \"The evidence offered is largely clinical experience and expert opinion\""
+    },
+    {
+     "s": "Dr Hinz wants health information to be banned from social media.",
+     "a": "F",
+     "why": "The text says: \"Dr Hinz argues for accurate, regulated material to be easier to find\""
+    },
+    {
+     "s": "The text states how many Australians have an eating disorder.",
+     "a": "N",
+     "why": "The text does not state how many Australians have an eating disorder."
+    }
+   ]
+  }
+ }
+}

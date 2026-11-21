@@ -1,0 +1,328 @@
+{
+ "slug": "should-school-be-getting-less-digital",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "Ministers agreed that the Year 5 writing test will go back to ____ in 2028.",
+      "a": "handwriting"
+     },
+     {
+      "s": "The change depends on advice from ____, the national agency that looks after the tests.",
+      "a": "ACARA"
+     },
+     {
+      "s": "Professor Jason Lodge works at the University of ____.",
+      "a": "Queensland"
+     },
+     {
+      "s": "Very few students now go ____ technology.",
+      "a": "without"
+     },
+     {
+      "s": "The government is not suggesting a total ____.",
+      "a": "ban"
+     }
+    ],
+    "extra": [
+     "computer",
+     "private"
+    ]
+   },
+   "match": [
+    {
+     "t": "wellbeing",
+     "d": "the state of being healthy and happy"
+    },
+    {
+     "t": "restrict",
+     "d": "to limit something so that there is less of it"
+    },
+    {
+     "t": "evidence",
+     "d": "facts or signs that show whether something is true"
+    },
+    {
+     "t": "assessments",
+     "d": "tests or other ways of checking what students know"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "The ministers ____ that technology in schools should have a clear purpose.",
+      "cue": "agree",
+      "a": "agreed"
+     },
+     {
+      "s": "The education ministers ____ at a meeting on 2 November.",
+      "cue": "meet",
+      "a": "met"
+     },
+     {
+      "s": "The Education Minister ____ he is not arguing that schools should throw their tablets away.",
+      "cue": "say",
+      "a": "said"
+     },
+     {
+      "s": "Not everyone ____ the answer is simple.",
+      "cue": "think",
+      "a": "thinks"
+     },
+     {
+      "s": "Very few students now ____ without technology.",
+      "cue": "go",
+      "a": "go"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Ministers agreed that the Year 5 writing test will go back to handwriting in 2028.",
+     "a": "T",
+     "why": "The text says: \"Ministers agreed that the Year 5 writing test will go back to handwriting in 2028\""
+    },
+    {
+     "s": "The return to handwriting in 2028 is completely final.",
+     "a": "F",
+     "why": "The text says: \"But this is not final.\""
+    },
+    {
+     "s": "Professor Lodge says the evidence about technology in schools is mixed.",
+     "a": "T",
+     "why": "The text says: \"says the evidence is mixed\""
+    },
+    {
+     "s": "The government wants a total ban on screens in schools.",
+     "a": "F",
+     "why": "The text says: \"The government is not suggesting a total ban.\""
+    },
+    {
+     "s": "Australian students spend more time on screens than students in Norway.",
+     "a": "N",
+     "why": "The text does not say how Australian students compare with students in other countries."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "Western Australia will soon ____ screen limits.",
+      "a": "pilot"
+     },
+     {
+      "s": "Each state, territory and school sector will decide the ____.",
+      "a": "details"
+     },
+     {
+      "s": "The 2028 date is a plan, not a ____.",
+      "a": "promise"
+     },
+     {
+      "s": "Clare said there was a strong ____ for more pen and paper.",
+      "a": "case"
+     },
+     {
+      "s": "Students will meet AI as soon as they leave the school ____.",
+      "a": "gates"
+     },
+     {
+      "s": "There is still no comprehensive national ____ on students' time on devices.",
+      "a": "data"
+     }
+    ],
+    "extra": [
+     "bridge",
+     "ticket"
+    ]
+   },
+   "match": [
+    {
+     "t": "patchy",
+     "d": "uneven, good in some places and poor in others"
+    },
+    {
+     "t": "concrete",
+     "d": "clear, real and definite, not just an idea"
+    },
+    {
+     "t": "feedback",
+     "d": "comments that tell you how well you did something"
+    },
+    {
+     "t": "workload",
+     "d": "the amount of work a person has to do"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "In November 2026, Australia's education ministers ____ that this may have gone too far.",
+      "cue": "decide",
+      "a": "decided"
+     },
+     {
+      "s": "Ministers ____ that Year 5 writing will return to handwriting in 2028.",
+      "cue": "agree",
+      "a": "agreed"
+     },
+     {
+      "s": "Education Minister Jason Clare ____ he was not arguing for tablets to be thrown away.",
+      "cue": "say",
+      "a": "said"
+     },
+     {
+      "s": "Recent international test results ____ that moderate users of devices do better.",
+      "cue": "suggest",
+      "a": "suggest"
+     },
+     {
+      "s": "A 2015 OECD analysis ____ that heavy investment in school computers brought no improvement.",
+      "cue": "find",
+      "a": "found"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The rules about technology in Australian schools have been patchy.",
+     "a": "T",
+     "why": "The text says: \"in a country where the rules have been patchy\""
+    },
+    {
+     "s": "The 2028 handwriting date for Year 5 writing is a firm promise.",
+     "a": "F",
+     "why": "The text says: \"the 2028 date is a plan, not a promise\""
+    },
+    {
+     "s": "Professor Lodge says technology can help when it has a specific use.",
+     "a": "T",
+     "why": "The text says: \"technology can help when it is used for something specific\""
+    },
+    {
+     "s": "The government is suggesting a complete ban on screens.",
+     "a": "F",
+     "why": "The text says: \"A complete ban is not what the government is suggesting\""
+    },
+    {
+     "s": "Most Australian students use AI for their homework.",
+     "a": "N",
+     "why": "The text does not say how many students use AI for their homework."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "Technology and AI should be evidence-based, ____ and good for learning and wellbeing.",
+      "a": "purposeful"
+     },
+     {
+      "s": "The 2028 change depends on ACARA's advice on feasibility, costs and ____.",
+      "a": "workload"
+     },
+     {
+      "s": "Commentators have warned of \"cognitive ____\".",
+      "a": "stunting"
+     },
+     {
+      "s": "Because so few students go without technology, the comparison with non-users says ____.",
+      "a": "little"
+     },
+     {
+      "s": "Lodge's advice is to invest in ____ and to use tools designed for learning.",
+      "a": "teachers"
+     },
+     {
+      "s": "It remains to be seen whether Australia can strike a ____.",
+      "a": "balance"
+     }
+    ],
+    "extra": [
+     "profit",
+     "speed"
+    ]
+   },
+   "match": [
+    {
+     "t": "patchy",
+     "d": "uneven, good in some places and poor in others"
+    },
+    {
+     "t": "appreciable",
+     "d": "large enough to be noticed or measured"
+    },
+    {
+     "t": "blanket",
+     "d": "covering everyone or everything, with no exceptions"
+    },
+    {
+     "t": "incomplete",
+     "d": "missing some parts, not whole"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "Ministers asked for further advice on the ____ of handwritten tests.",
+      "cue": "FEASIBLE",
+      "a": "feasibility"
+     },
+     {
+      "s": "More recently, ____ has shifted to generative AI.",
+      "cue": "ATTEND",
+      "a": "attention"
+     },
+     {
+      "s": "Commentators warn that repeated ____ on a tool can weaken thinking skills.",
+      "cue": "RELY",
+      "a": "reliance"
+     },
+     {
+      "s": "There is no ____ national data on how much time students spend on devices.",
+      "cue": "COMPREHEND",
+      "a": "comprehensive"
+     },
+     {
+      "s": "The policy is being built on ____ information.",
+      "cue": "COMPLETE",
+      "a": "incomplete"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Student use of technology should be restricted when it fails to support learning and wellbeing.",
+     "a": "T",
+     "why": "The text says: \"student use should be restricted when it fails those tests\""
+    },
+    {
+     "s": "The ministers have guaranteed that Year 5 writing will go back to handwriting in 2028.",
+     "a": "F",
+     "why": "The text says: \"is therefore reading slightly ahead of the evidence\""
+    },
+    {
+     "s": "ABC says the taskforce is due to report to ministers three times in 2027.",
+     "a": "T",
+     "why": "The text says: \"ABC says it is due to report to ministers three times in 2027\""
+    },
+    {
+     "s": "Lodge says a blanket ban on technology is being proposed.",
+     "a": "F",
+     "why": "The text says: \"A blanket ban is not what is being proposed\""
+    },
+    {
+     "s": "Several countries have already ended all screen use in schools.",
+     "a": "N",
+     "why": "The text does not say which countries, if any, have ended all screen use in schools."
+    }
+   ]
+  }
+ }
+}

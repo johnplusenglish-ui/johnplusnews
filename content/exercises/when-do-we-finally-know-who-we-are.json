@@ -1,0 +1,328 @@
+{
+ "slug": "when-do-we-finally-know-who-we-are",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "A well-developed identity has clear ____ that a person has chosen after exploring.",
+      "a": "views"
+     },
+     {
+      "s": "People did not stop ____ at the end of their twenties.",
+      "a": "developing"
+     },
+     {
+      "s": "Psychological wellbeing includes a sense of ____.",
+      "a": "purpose"
+     },
+     {
+      "s": "The study did not test which ____ first.",
+      "a": "comes"
+     },
+     {
+      "s": "If you do not yet know your own ____ at thirty or forty, you are not failing.",
+      "a": "mind"
+     }
+    ],
+    "extra": [
+     "money",
+     "weather"
+    ]
+   },
+   "match": [
+    {
+     "t": "identity",
+     "d": "your view of who you are"
+    },
+    {
+     "t": "exploring",
+     "d": "looking carefully at different ideas to find out what you think"
+    },
+    {
+     "t": "anxiety",
+     "d": "a feeling of worry"
+    },
+    {
+     "t": "reassuring",
+     "d": "making you feel less worried"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Researchers at the University of Jyväskylä ____ information from a long project.",
+      "cue": "use",
+      "a": "used"
+     },
+     {
+      "s": "The project ____ the same people for more than 50 years.",
+      "cue": "follow",
+      "a": "has followed"
+     },
+     {
+      "s": "Most of the change ____ between 27 and 42.",
+      "cue": "happen",
+      "a": "happened"
+     },
+     {
+      "s": "The team ____ at how people described their identity.",
+      "cue": "look",
+      "a": "looked"
+     },
+     {
+      "s": "The study ____ not test which comes first.",
+      "cue": "do",
+      "a": "did"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The project has followed the same people for more than 50 years.",
+     "a": "T",
+     "why": "The text says: \"It has followed the same people for more than 50 years.\""
+    },
+    {
+     "s": "Most identity change happened after the age of 50.",
+     "a": "F",
+     "why": "The text says: \"Most of the change happened between 27 and 42.\""
+    },
+    {
+     "s": "People whose identity developed more positively tended to have fewer feelings of anxiety.",
+     "a": "T",
+     "why": "The text says: \"tended to have better psychological and social wellbeing and fewer feelings of anxiety\""
+    },
+    {
+     "s": "The text gives the number of people who took part.",
+     "a": "F",
+     "why": "The text says: \"The reports we read also do not say how many people took part.\""
+    },
+    {
+     "s": "The text says what jobs the oldest people in the study had.",
+     "a": "N",
+     "why": "The text does not say what jobs the oldest people in the study had."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "Identity has often been treated as a task for ____.",
+      "a": "adolescence"
+     },
+     {
+      "s": "The Jyväskylä study has followed the same ____ for more than 50 years.",
+      "a": "individuals"
+     },
+     {
+      "s": "A well-developed identity rests on clear views that someone has ____ for themselves.",
+      "a": "explored"
+     },
+     {
+      "s": "On average, identity developed in a ____ direction.",
+      "a": "positive"
+     },
+     {
+      "s": "Psychological wellbeing covers things such as autonomy and a sense of ____.",
+      "a": "purpose"
+     },
+     {
+      "s": "The study did not examine the ____ direction of the association.",
+      "a": "causal"
+     }
+    ],
+    "extra": [
+     "financial",
+     "seasonal"
+    ]
+   },
+   "match": [
+    {
+     "t": "adolescence",
+     "d": "the years between childhood and adulthood"
+    },
+    {
+     "t": "committed",
+     "d": "firmly dedicated to something"
+    },
+    {
+     "t": "autonomy",
+     "d": "the freedom to make your own decisions"
+    },
+    {
+     "t": "continuity",
+     "d": "the feeling that something carries on without a break"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Katja Kokko ____ the study since 2013.",
+      "cue": "lead",
+      "a": "has led"
+     },
+     {
+      "s": "Professor Lea Pulkkinen ____ it from 1968 to 2012.",
+      "cue": "lead",
+      "a": "led"
+     },
+     {
+      "s": "Marin and colleagues ____ at identity when the participants were 27, 36, 42, 50 and 61.",
+      "cue": "look",
+      "a": "looked"
+     },
+     {
+      "s": "Marin says this ____ that identity can continue to develop.",
+      "cue": "show",
+      "a": "shows"
+     },
+     {
+      "s": "The study did not ____ the causal direction.",
+      "cue": "examine",
+      "a": "examine"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Professor Lea Pulkkinen led the study from 1968 to 2012.",
+     "a": "T",
+     "why": "The text says: \"Professor Lea Pulkkinen led it from 1968 to 2012\""
+    },
+    {
+     "s": "Mental wellbeing was measured when the participants were 27.",
+     "a": "F",
+     "why": "The text says: \"and at mental wellbeing at 36, 42, 50 and 61\""
+    },
+    {
+     "s": "The study proved that a clear identity causes better wellbeing.",
+     "a": "F",
+     "why": "The text says: \"The study did not examine the causal direction of the association.\""
+    },
+    {
+     "s": "The text says how many of the participants were women.",
+     "a": "N",
+     "why": "The text does not say how many of the participants were women."
+    },
+    {
+     "s": "Marin says identity can keep developing through adulthood.",
+     "a": "T",
+     "why": "The text says: \"Marin says this shows that identity can continue to develop throughout adulthood.\""
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "Few studies have followed people through ____ life.",
+      "a": "adult"
+     },
+     {
+      "s": "The study is primarily funded by the Research ____ of Finland.",
+      "a": "Council"
+     },
+     {
+      "s": "Identity development was assessed through how ____ people were committed to their views.",
+      "a": "firmly"
+     },
+     {
+      "s": "A well-developed identity is one with clear views a person has examined and ____.",
+      "a": "chosen"
+     },
+     {
+      "s": "Wellbeing was measured ____.",
+      "a": "broadly"
+     },
+     {
+      "s": "The accounts do not report the sample ____.",
+      "a": "size"
+     }
+    ],
+    "extra": [
+     "briefly",
+     "privately"
+    ]
+   },
+   "match": [
+    {
+     "t": "continuity",
+     "d": "the feeling that something carries on without a break"
+    },
+    {
+     "t": "dataset",
+     "d": "a collection of information used for research"
+    },
+    {
+     "t": "intriguing",
+     "d": "interesting in a way that makes you curious"
+    },
+    {
+     "t": "notion",
+     "d": "an idea or belief"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "There has been little ____ to challenge this picture.",
+      "cue": "EVIDENT",
+      "a": "evidence"
+     },
+     {
+      "s": "On average, identity developed ____ from 27 to 61.",
+      "cue": "POSITIVE",
+      "a": "positively"
+     },
+     {
+      "s": "Marin ____ notes that wellbeing may support or challenge identity.",
+      "cue": "EXPLICIT",
+      "a": "explicitly"
+     },
+     {
+      "s": "That is a ____ but useful correction.",
+      "cue": "MODESTY",
+      "a": "modest"
+     },
+     {
+      "s": "The ____ lesson should therefore be drawn with care.",
+      "cue": "PRACTICE",
+      "a": "practical"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The researchers examined identity at ages 27, 36, 42, 50 and 61.",
+     "a": "T",
+     "why": "The text says: \"examined identity at ages 27, 36, 42, 50 and 61\""
+    },
+    {
+     "s": "Most of the movement in identity happened after the age of 50.",
+     "a": "F",
+     "why": "The text says: \"with most of the movement between 27 and 42\""
+    },
+    {
+     "s": "The study did not examine causal direction.",
+     "a": "T",
+     "why": "The text says: \"The study did not examine causal direction\""
+    },
+    {
+     "s": "Wellbeing was measured only through life satisfaction.",
+     "a": "F",
+     "why": "The text says: \"Wellbeing was measured broadly, covering psychological wellbeing such as autonomy and purpose in life, social wellbeing such as connectedness to communities, life satisfaction, and feelings of anxiety and depression.\""
+    },
+    {
+     "s": "The text says what Marin studied at university.",
+     "a": "N",
+     "why": "The text does not say what Marin studied at university."
+    }
+   ]
+  }
+ }
+}

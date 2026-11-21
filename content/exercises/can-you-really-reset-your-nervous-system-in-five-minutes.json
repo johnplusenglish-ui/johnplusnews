@@ -1,0 +1,328 @@
+{
+ "slug": "can-you-really-reset-your-nervous-system-in-five-minutes",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "The experts agreed that there is no such thing as a nervous system ____.",
+      "a": "reset"
+     },
+     {
+      "s": "Stress ____ on the first mode, the one called fight or flight.",
+      "a": "switches"
+     },
+     {
+      "s": "Some people feel \"wired and ____\" when they cannot calm down after stress.",
+      "a": "tired"
+     },
+     {
+      "s": "Dr Lai suggests breathing in for about five ____ and out for about five.",
+      "a": "seconds"
+     },
+     {
+      "s": "Too much training without ____ can have the opposite effect.",
+      "a": "rest"
+     }
+    ],
+    "extra": [
+     "digestion",
+     "budget"
+    ]
+   },
+   "match": [
+    {
+     "t": "recover",
+     "d": "to get back to normal after a hard time"
+    },
+    {
+     "t": "alert",
+     "d": "awake and ready to notice things"
+    },
+    {
+     "t": "evidence",
+     "d": "facts that show that something is true"
+    },
+    {
+     "t": "flexibility",
+     "d": "the ability to change easily"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "In October 2026, The Guardian ____ experts whether any of this is true.",
+      "cue": "ask",
+      "a": "asked"
+     },
+     {
+      "s": "When you are stressed, your heart ____ faster.",
+      "cue": "beat",
+      "a": "beats"
+     },
+     {
+      "s": "Dr Lai ____ breathing in for about five seconds.",
+      "cue": "suggest",
+      "a": "suggests"
+     },
+     {
+      "s": "In one study, the breathing exercise ____ people's mood over a month.",
+      "cue": "improve",
+      "a": "improved"
+     },
+     {
+      "s": "The \"rest and digest\" mode ____ down your heart.",
+      "cue": "slow",
+      "a": "slows"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The experts say that you would not want a nervous system reset.",
+     "a": "T",
+     "why": "The text says: \"There is no such thing as a nervous system reset, and you would not want one.\""
+    },
+    {
+     "s": "Dr Lai suggests slow breathing for only about one minute.",
+     "a": "F",
+     "why": "The text says: \"breathing in for about five seconds and out for about five, for five to ten minutes\""
+    },
+    {
+     "s": "One expert says there is not enough good evidence for the benefits of cold water.",
+     "a": "T",
+     "why": "The text says: \"there is not enough good evidence that it gives real benefits for the nervous system\""
+    },
+    {
+     "s": "The text says that the stress response is never useful.",
+     "a": "F",
+     "why": "The text says: \"That is useful, because you need it to exercise and concentrate.\""
+    },
+    {
+     "s": "The text says how many people took part in the cyclic sighing study.",
+     "a": "N",
+     "why": "The text does not say how many people took part in the cyclic sighing study."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "The Guardian asked experts whether any of the claims ____ up.",
+      "a": "holds"
+     },
+     {
+      "s": "The sympathetic system produces the \"fight or ____\" response.",
+      "a": "flight"
+     },
+     {
+      "s": "A healthy system is not permanently calm but ____.",
+      "a": "flexible"
+     },
+     {
+      "s": "Researchers often use heart rate variability as a ____ on the parasympathetic system.",
+      "a": "window"
+     },
+     {
+      "s": "Athletes who ____ show lower heart rate variability.",
+      "a": "overtrain"
+     },
+     {
+      "s": "No single trick is a magic ____.",
+      "a": "bullet"
+     }
+    ],
+    "extra": [
+     "mirror",
+     "ladder"
+    ]
+   },
+   "match": [
+    {
+     "t": "bereavement",
+     "d": "the loss of a person close to you through death"
+    },
+    {
+     "t": "credible",
+     "d": "able to be believed or trusted"
+    },
+    {
+     "t": "wind down",
+     "d": "to relax and become calm after being busy or stressed"
+    },
+    {
+     "t": "bounce back",
+     "d": "to recover quickly after a difficulty"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Stress ____ the sympathetic system.",
+      "cue": "activate",
+      "a": "activates"
+     },
+     {
+      "s": "Slow breathing has been ____ to raise heart rate variability.",
+      "cue": "show",
+      "a": "shown"
+     },
+     {
+      "s": "Dr Lai ____ breathing in for about five seconds and out for five.",
+      "cue": "recommend",
+      "a": "recommends"
+     },
+     {
+      "s": "In a separate trial, five minutes a day of cyclic sighing ____ mood.",
+      "cue": "improve",
+      "a": "improved"
+     },
+     {
+      "s": "If you enjoy it and feel calmer, he ____, that is reason enough.",
+      "cue": "add",
+      "a": "adds"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Every expert agreed that the nervous system cannot be reset.",
+     "a": "T",
+     "why": "The text says: \"Every expert agreed that there is no such thing as resetting the nervous system\""
+    },
+    {
+     "s": "The experts say the stress response is always harmful.",
+     "a": "F",
+     "why": "The text says: \"That response is useful, because we need it to exercise, concentrate and meet deadlines.\""
+    },
+    {
+     "s": "Slow breathing has been shown to raise heart rate variability.",
+     "a": "T",
+     "why": "The text says: \"Slow breathing has been shown to raise heart rate variability\""
+    },
+    {
+     "s": "The neurosurgeon says cold water has clear and proven benefits.",
+     "a": "F",
+     "why": "The text says: \"there is not yet enough credible evidence of meaningful benefits for the nervous system\""
+    },
+    {
+     "s": "The text says how many people took part in the cyclic sighing trial.",
+     "a": "N",
+     "why": "The text does not say how many people took part in the cyclic sighing trial."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "The system's value lies in responding to ____.",
+      "a": "circumstances"
+     },
+     {
+      "s": "The sympathetic system ____ the body for a challenge.",
+      "a": "mobilises"
+     },
+     {
+      "s": "Failing to wind down may contribute to inflammation and ____ and metabolic problems.",
+      "a": "cardiovascular"
+     },
+     {
+      "s": "The measure involved is a ____ for autonomic activity.",
+      "a": "proxy"
+     },
+     {
+      "s": "Evidence for acupressure mats is thinner ____.",
+      "a": "still"
+     },
+     {
+      "s": "Independent clinical evidence for consumer devices is ____.",
+      "a": "limited"
+     }
+    ],
+    "extra": [
+     "abundant",
+     "outdated"
+    ]
+   },
+   "match": [
+    {
+     "t": "premise",
+     "d": "an idea that an argument is based on"
+    },
+    {
+     "t": "mobilises",
+     "d": "prepares and sends into action"
+    },
+    {
+     "t": "proxy",
+     "d": "something used to stand for another thing that is hard to measure"
+    },
+    {
+     "t": "scrutiny",
+     "d": "careful and critical examination"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "The advice that survives scrutiny is ____.",
+      "cue": "GLAMOUR",
+      "a": "unglamorous"
+     },
+     {
+      "s": "The real ____ arises when recovery lags behind demand.",
+      "cue": "DIFFICULT",
+      "a": "difficulty"
+     },
+     {
+      "s": "The goal is not permanent calm but ____.",
+      "cue": "FLEX",
+      "a": "flexibility"
+     },
+     {
+      "s": "The remaining evidence is ____.",
+      "cue": "EVEN",
+      "a": "uneven"
+     },
+     {
+      "s": "Their ____ was twofold.",
+      "cue": "OBJECT",
+      "a": "objection"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "A 2022 review included 223 studies.",
+     "a": "T",
+     "why": "The text says: \"A 2022 systematic review and meta-analysis of 223 studies\""
+    },
+    {
+     "s": "Dr Tracey says there is already strong evidence for cold immersion.",
+     "a": "F",
+     "why": "The text says: \"the credible evidence is not yet strong enough to show meaningful benefits for regulation\""
+    },
+    {
+     "s": "Implanted vagus nerve stimulation is an established treatment for some conditions.",
+     "a": "T",
+     "why": "The text says: \"Implanted vagus nerve stimulation is an established treatment for epilepsy and treatment-resistant depression\""
+    },
+    {
+     "s": "The specialists say the aim is to stay permanently calm.",
+     "a": "F",
+     "why": "The text says: \"The goal is therefore not permanent calm but flexibility\""
+    },
+    {
+     "s": "The text names the acupressure mat brands that were tested.",
+     "a": "N",
+     "why": "The text does not name any acupressure mat brands that were tested."
+    }
+   ]
+  }
+ }
+}

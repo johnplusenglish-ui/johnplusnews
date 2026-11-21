@@ -1,0 +1,328 @@
+{
+ "slug": "could-bloomscrolling-replace-doomscrolling",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "Doomscrolling means reading bad ____ for a long time.",
+      "a": "news"
+     },
+     {
+      "s": "Lucy Bloom deleted her Instagram ____ and started again.",
+      "a": "account"
+     },
+     {
+      "s": "She said she felt calmer and more ____.",
+      "a": "motivated"
+     },
+     {
+      "s": "Hasbro is a toy ____ that paid for a survey.",
+      "a": "company"
+     },
+     {
+      "s": "The people in the survey are adults, not ____.",
+      "a": "teenagers"
+     }
+    ],
+    "extra": [
+     "doctors",
+     "shops"
+    ]
+   },
+   "match": [
+    {
+     "t": "linger",
+     "d": "to stay on something a little longer than you need to"
+    },
+    {
+     "t": "motivated",
+     "d": "wanting to do things and feeling full of energy"
+    },
+    {
+     "t": "neutral",
+     "d": "not supporting any side"
+    },
+    {
+     "t": "mute",
+     "d": "to stop yourself seeing or hearing something"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "She ____ her Instagram account and started again.",
+      "cue": "delete",
+      "a": "deleted"
+     },
+     {
+      "s": "She said she ____ calmer and more motivated than before.",
+      "cue": "feel",
+      "a": "felt"
+     },
+     {
+      "s": "Apps ____ from what you do.",
+      "cue": "learn",
+      "a": "learn"
+     },
+     {
+      "s": "A toy company called Hasbro ____ for a survey.",
+      "cue": "pay",
+      "a": "paid"
+     },
+     {
+      "s": "The word has recently ____ popular on TikTok.",
+      "cue": "become",
+      "a": "become"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "On her new account, Lucy Bloom only followed accounts about art.",
+     "a": "T",
+     "why": "The text says: \"this time she only followed accounts about art\""
+    },
+    {
+     "s": "The 93% survey was about teenagers.",
+     "a": "F",
+     "why": "The text says: \"The people in the survey are adults, not teenagers\""
+    },
+    {
+     "s": "The survey asked one thousand people.",
+     "a": "N",
+     "why": "The text does not give this information."
+    },
+    {
+     "s": "You can unfollow people who make you feel bad.",
+     "a": "T",
+     "why": "The text says: \"unfollow people who make you feel bad\""
+    },
+    {
+     "s": "Researchers have shown that a kinder feed makes people happier.",
+     "a": "F",
+     "why": "The text says: \"Nobody has shown that a kinder feed makes people healthier or happier\""
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "Doomscrolling means spending a long time reading bad ____ online.",
+      "a": "news"
+     },
+     {
+      "s": "Lucy Bloom deleted her Instagram ____ and started again.",
+      "a": "account"
+     },
+     {
+      "s": "She said she felt calmer and more ____.",
+      "a": "motivated"
+     },
+     {
+      "s": "On TikTok, if you let a video ____, you are likely to see more of the same.",
+      "a": "replay"
+     },
+     {
+      "s": "The 93% figure comes from research that Hasbro, a toy company, ____ for.",
+      "a": "paid"
+     },
+     {
+      "s": "Nobody has shown that a kinder feed improves mental ____.",
+      "a": "health"
+     }
+    ],
+    "extra": [
+     "memory",
+     "weather"
+    ]
+   },
+   "match": [
+    {
+     "t": "curated",
+     "d": "chosen and arranged with care"
+    },
+    {
+     "t": "linger",
+     "d": "to stay on something a little longer than you need to"
+    },
+    {
+     "t": "uplifting",
+     "d": "making you feel more cheerful and hopeful"
+    },
+    {
+     "t": "deliberately",
+     "d": "on purpose, not by accident"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Lucy Bloom ____ her Instagram account and started again.",
+      "cue": "delete",
+      "a": "deleted"
+     },
+     {
+      "s": "This time she only ____ art accounts.",
+      "cue": "follow",
+      "a": "followed"
+     },
+     {
+      "s": "She said she ____ calmer and more motivated.",
+      "cue": "feel",
+      "a": "felt"
+     },
+     {
+      "s": "Feeds ____ from your behaviour.",
+      "cue": "learn",
+      "a": "learn"
+     },
+     {
+      "s": "The word has recently ____ off on TikTok.",
+      "cue": "take",
+      "a": "taken"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The 93% figure comes from research that Hasbro paid for.",
+     "a": "T",
+     "why": "The text says: \"It comes from research that a toy company, Hasbro, paid for\""
+    },
+    {
+     "s": "The 93% figure describes teenagers.",
+     "a": "F",
+     "why": "The text says: \"It describes adults, not teenagers\""
+    },
+    {
+     "s": "Lucy Bloom is a teenager.",
+     "a": "N",
+     "why": "The text does not give this information."
+    },
+    {
+     "s": "Researchers have proved that a kinder feed improves mental health.",
+     "a": "F",
+     "why": "The text says: \"Nobody has shown that a kinder feed improves mental health\""
+    },
+    {
+     "s": "TikTok offers a way to refresh your feed.",
+     "a": "T",
+     "why": "The text says: \"refresh your For You feed\""
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "Doomscrolling is a long session of reading ____ news.",
+      "a": "distressing"
+     },
+     {
+      "s": "The current meaning is linked to the ____ Lucy Bloom.",
+      "a": "author"
+     },
+     {
+      "s": "Lucy Bloom described feeling calmer and more ____.",
+      "a": "motivated"
+     },
+     {
+      "s": "TikTok's page says its system uses videos you view, like or ____.",
+      "a": "share"
+     },
+     {
+      "s": "The 93% figure was commissioned by the toy maker ____.",
+      "a": "Hasbro"
+     },
+     {
+      "s": "A pleasant feed is not necessarily a ____ one.",
+      "a": "healthy"
+     }
+    ],
+    "extra": [
+     "expensive",
+     "private"
+    ]
+   },
+   "match": [
+    {
+     "t": "curated",
+     "d": "chosen and arranged with care"
+    },
+    {
+     "t": "commissioned",
+     "d": "formally asked and paid for something to be made or done"
+    },
+    {
+     "t": "mechanism",
+     "d": "the way a process works, step by step"
+    },
+    {
+     "t": "deliberate",
+     "d": "done with thought, on purpose"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "Doomscrolling is a long session of reading ____ news.",
+      "cue": "DISTRESS",
+      "a": "distressing"
+     },
+     {
+      "s": "She described feeling calmer and more ____.",
+      "cue": "MOTIVATE",
+      "a": "motivated"
+     },
+     {
+      "s": "A pleasant feed is not necessarily a ____ one.",
+      "cue": "HEALTH",
+      "a": "healthy"
+     },
+     {
+      "s": "A stream of ____ clips can be hard to put down.",
+      "cue": "UPLIFT",
+      "a": "uplifting"
+     },
+     {
+      "s": "The Guardian piece is a light, ____ column.",
+      "cue": "HUMOUR",
+      "a": "humorous"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The 93% figure comes from research commissioned by Hasbro.",
+     "a": "T",
+     "why": "The text says: \"It comes from research commissioned by the toy maker Hasbro\""
+    },
+    {
+     "s": "The 93% figure describes teenagers.",
+     "a": "F",
+     "why": "The text says: \"the figure describes adults, not teenagers\""
+    },
+    {
+     "s": "The Hasbro survey covered five countries.",
+     "a": "N",
+     "why": "The text does not give this information."
+    },
+    {
+     "s": "Lucy Bloom started again with a feed made of art accounts.",
+     "a": "T",
+     "why": "The text says: \"started again with a feed made only of art accounts\""
+    },
+    {
+     "s": "The story proves that a kinder feed improves mental health.",
+     "a": "F",
+     "why": "The text says: \"Nobody has shown that a kinder feed improves mental health\""
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,328 @@
+{
+ "slug": "pickleball-instead-of-parties-how-teen-celebrations-are-changing",
+ "levels": {
+  "core": {
+   "gap": {
+    "items": [
+     {
+      "s": "Pickleball is played with paddles and a light plastic ____ on a small court.",
+      "a": "ball"
+     },
+     {
+      "s": "Sam O'Connor is the Queensland Youth ____.",
+      "a": "Minister"
+     },
+     {
+      "s": "Some school leavers choose Noosa, Cairns and the ____.",
+      "a": "Whitsundays"
+     },
+     {
+      "s": "Up to 50,000 young people came at the ____ in the early 2000s.",
+      "a": "peak"
+     },
+     {
+      "s": "The 12,000 figure counts only official ____ on the Gold Coast.",
+      "a": "registrations"
+     }
+    ],
+    "extra": [
+     "sunrise",
+     "coach"
+    ]
+   },
+   "match": [
+    {
+     "t": "tradition",
+     "d": "a custom that people have followed for many years"
+    },
+    {
+     "t": "tastes",
+     "d": "the things that people like and enjoy"
+    },
+    {
+     "t": "registered",
+     "d": "put your name on an official list"
+    },
+    {
+     "t": "abroad",
+     "d": "in or to another country"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Sam O'Connor ____ that the event has changed to suit young people's tastes.",
+      "cue": "say",
+      "a": "said"
+     },
+     {
+      "s": "About 12,000 school leavers ____ for the official celebrations in 2025.",
+      "cue": "register",
+      "a": "registered"
+     },
+     {
+      "s": "Up to 50,000 young people ____ at the peak, according to Professor Gschwind.",
+      "cue": "come",
+      "a": "came"
+     },
+     {
+      "s": "Pickleball ____ a friendly, fast sport.",
+      "cue": "be",
+      "a": "is"
+     },
+     {
+      "s": "Some school leavers ____ other places in Queensland.",
+      "cue": "choose",
+      "a": "choose"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "Schoolies week in 2026 runs from 21 to 27 November.",
+     "a": "T",
+     "why": "The text says: \"In 2026, schoolies week runs from 21 to 27 November.\""
+    },
+    {
+     "s": "The number of school leavers registering has gone up every year.",
+     "a": "F",
+     "why": "The text says: \"this number has gone down every year for five years\""
+    },
+    {
+     "s": "Pickleball is played with paddles.",
+     "a": "T",
+     "why": "The text says: \"played with paddles and a light plastic ball on a small court\""
+    },
+    {
+     "s": "The 12,000 figure counts every school leaver who celebrates anywhere.",
+     "a": "F",
+     "why": "The text says: \"The 12,000 figure counts only official registrations on the Gold Coast.\""
+    },
+    {
+     "s": "The Ferris wheel cost more than any other activity.",
+     "a": "N",
+     "why": "The text does not say how much the Ferris wheel cost."
+    }
+   ]
+  },
+  "intermediate": {
+   "gap": {
+    "items": [
+     {
+      "s": "Queensland's Youth Minister said the event had ____ to suit young people's changing tastes.",
+      "a": "evolved"
+     },
+     {
+      "s": "____ estimated almost 20,000 school leavers in 2022.",
+      "a": "Organisers"
+     },
+     {
+      "s": "Many young people now choose other Queensland ____ such as Noosa and Cairns.",
+      "a": "locations"
+     },
+     {
+      "s": "The Safer Schoolies Hub has been part of the event ____ 2003.",
+      "a": "since"
+     },
+     {
+      "s": "It is too early to know whether pickleball will bring numbers ____.",
+      "a": "back"
+     },
+     {
+      "s": "The 12,000 figure cannot show what all school leavers ____.",
+      "a": "want"
+     }
+    ],
+    "extra": [
+     "banned",
+     "sunny"
+    ]
+   },
+   "match": [
+    {
+     "t": "iconic",
+     "d": "very famous and seen as a symbol of something"
+    },
+    {
+     "t": "emphasis",
+     "d": "special importance given to something"
+    },
+    {
+     "t": "fenced",
+     "d": "surrounded by a barrier"
+    },
+    {
+     "t": "fashion",
+     "d": "something that is popular for a short time"
+    }
+   ],
+   "grammar": {
+    "kind": "verb",
+    "items": [
+     {
+      "s": "Queensland's Youth Minister said that the event ____ to suit young people's changing tastes.",
+      "cue": "evolve",
+      "a": "had evolved|has evolved"
+     },
+     {
+      "s": "About 12,000 school leavers ____ for official Gold Coast celebrations in 2025.",
+      "cue": "register",
+      "a": "registered"
+     },
+     {
+      "s": "The number ____ every year for five years.",
+      "cue": "fall",
+      "a": "has fallen"
+     },
+     {
+      "s": "Professor Gschwind says the event ____ up to 50,000 young people at its peak.",
+      "cue": "draw",
+      "a": "drew"
+     },
+     {
+      "s": "Thousands more school leavers ____ to travel overseas.",
+      "cue": "expect",
+      "a": "are expected"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "The Safer Schoolies Hub has been part of the event since 2003.",
+     "a": "T",
+     "why": "The text says: \"has been part of the event since 2003\""
+    },
+    {
+     "s": "The 12,000 figure shows what all school leavers want.",
+     "a": "F",
+     "why": "The text says: \"so it cannot show what all school leavers want\""
+    },
+    {
+     "s": "Professor Gschwind believes schoolies will remain an important part of the tourism industry.",
+     "a": "T",
+     "why": "The text says: \"will remain an iconic event and an important part of the tourism industry\""
+    },
+    {
+     "s": "Organisers estimated almost 20,000 school leavers in 2025.",
+     "a": "F",
+     "why": "The text says: \"Organisers estimated almost 20,000 in 2022\""
+    },
+    {
+     "s": "Millions of Australians play pickleball.",
+     "a": "N",
+     "why": "The text does not say how many people play pickleball in Australia."
+    }
+   ]
+  },
+  "advanced": {
+   "gap": {
+    "items": [
+     {
+      "s": "The Youth Minister said the event had evolved to suit young people's changing ____.",
+      "a": "tastes"
+     },
+     {
+      "s": "The registration figure covers only official ____ on the Gold Coast.",
+      "a": "celebrations"
+     },
+     {
+      "s": "The event has partly spread out rather than ____.",
+      "a": "disappeared"
+     },
+     {
+      "s": "Australia's foreign affairs department reminds ____ to check official advice.",
+      "a": "travellers"
+     },
+     {
+      "s": "The claim that tastes are changing comes from people describing what they ____.",
+      "a": "see"
+     },
+     {
+      "s": "The Gold Coast's mayor ____ with charging school leavers.",
+      "a": "disagrees"
+     }
+    ],
+    "extra": [
+     "supports",
+     "hidden"
+    ]
+   },
+   "match": [
+    {
+     "t": "emphasis",
+     "d": "special importance given to something"
+    },
+    {
+     "t": "ticketed",
+     "d": "needing a paid ticket to get in"
+    },
+    {
+     "t": "documented",
+     "d": "recorded with evidence"
+    },
+    {
+     "t": "notably",
+     "d": "especially, in a way that deserves attention"
+    }
+   ],
+   "grammar": {
+    "kind": "word",
+    "items": [
+     {
+      "s": "There has been a long decline in ____.",
+      "cue": "ATTEND",
+      "a": "attendance"
+     },
+     {
+      "s": "The ____ figure covers only official celebrations on the Gold Coast.",
+      "cue": "REGISTER",
+      "a": "registration"
+     },
+     {
+      "s": "One event, however well ____, cannot tell us what a whole generation prefers.",
+      "cue": "DOCUMENT",
+      "a": "documented"
+     },
+     {
+      "s": "The commercial and ____ background is a long decline in attendance.",
+      "cue": "POLITICS",
+      "a": "political"
+     },
+     {
+      "s": "Professor Gschwind is nevertheless ____ about the future.",
+      "cue": "RELAX",
+      "a": "relaxed"
+     }
+    ]
+   },
+   "tfn": [
+    {
+     "s": "One night in the Schoolies Hub is a trial for a paid music event.",
+     "a": "T",
+     "why": "The text says: \"is being used as a trial for a paid, ticketed music event\""
+    },
+    {
+     "s": "The Gold Coast's mayor supports charging school leavers.",
+     "a": "F",
+     "why": "The text says: \"he strongly disagrees with charging school leavers\""
+    },
+    {
+     "s": "The claim that tastes are changing comes from a minister and a charity.",
+     "a": "T",
+     "why": "The text says: \"The claim that tastes are changing also comes from a minister and a charity describing what they see\""
+    },
+    {
+     "s": "The reports establish why registrations have fallen.",
+     "a": "F",
+     "why": "The text says: \"the reports do not establish why numbers have fallen\""
+    },
+    {
+     "s": "Registrations will rise again in 2027.",
+     "a": "N",
+     "why": "The text does not say what the registration figure will be in 2027."
+    }
+   ]
+  }
+ }
+}
