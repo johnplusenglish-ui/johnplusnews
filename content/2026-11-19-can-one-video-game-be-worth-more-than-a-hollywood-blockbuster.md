@@ -7,7 +7,7 @@ source: Reuters, Take-Two set to shatter sales records as 'GTA VI' launches to m
 source-date: 19 November 2026
 source-2: Take-Two Interactive and Rockstar Games, Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales | https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records
 source-2-date: 20 November 2026
-image: images/can-one-video-game-be-worth-more-than-a-hollywood-blockbuster-4fc822.jpg
+image: images/can-one-video-game-be-worth-more-than-a-hollywood-blockbuster-9b1220.jpg
 image-alt: A brass balance scale on a teal background tips towards a video game case half hidden behind a white game controller, while a striped popcorn bucket and a cinema ticket rise on the other side.
 image-credit-label: Composite image, cover art © Rockstar Games
 ---
