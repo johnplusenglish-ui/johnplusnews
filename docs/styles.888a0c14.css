@@ -1362,3 +1362,41 @@ h1, h2, h3, .sec-h, .card h2, .article-head h1, .nx-h { text-wrap: balance; }
   content: ""; position: absolute; top: 50%; left: 50%;
   width: 40px; height: 40px; transform: translate(-50%, -50%);
 }
+
+/* The article bar (November 2026): one row on a hairline. Back arrow, the reading levels as
+   underlined words, then PDF and the timer as plain text buttons. Replaces the boxed controls. */
+.art-top.artbar { display: flex; flex-wrap: nowrap; align-items: center; justify-content: flex-start; gap: 0 var(--space-4); margin: 0; border-bottom: 1px solid var(--line); min-height: 46px; }
+.artbar .back { margin: 0; min-height: 44px; font-size: 0.9375rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+.artbar .back:hover { color: var(--accent); }
+.artbar.has-tabs .back { color: var(--ink); font-size: 1.125rem; line-height: 1; min-width: 34px; padding-right: 18px; margin-right: 6px; position: relative; }
+.artbar.has-tabs .back::after { content: ""; position: absolute; right: 0; top: 12px; bottom: 12px; width: 1px; background: var(--line); }
+.artbar.has-tabs .back-word { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.artbar .metaleft { display: flex; align-self: stretch; align-items: stretch; flex-wrap: nowrap; min-width: 0; }
+.artbar .vtabs { display: flex; align-items: stretch; gap: 26px; background: none; border: 0; border-radius: 0; overflow: visible; order: 0; flex: 0 1 auto; }
+.artbar .vtabs button { flex: 0 0 auto; padding: 2px 0 0; min-height: 44px; font-size: 0.9375rem; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; background: none; transition: color var(--t-base), border-color var(--t-base); }
+.artbar .vtabs button + button { border-left: 0; }
+.artbar .vtabs button[aria-selected="true"] { background: none; color: var(--ink); border-bottom-color: var(--accent); }
+.artbar .vtabs button:focus-visible { outline-offset: 2px; border-radius: var(--r-xs); }
+.art-top.artbar .tools { margin-left: auto; flex: 0 0 auto; flex-wrap: nowrap; gap: 2px; order: 0; }
+.artbar .pdfbtn, .artbar .jt-inline:not(.jt-done) .jt-pill { min-height: 36px; padding: 4px 8px; border: 0; border-radius: var(--r-md); background: none; box-shadow: none; color: var(--muted); font-size: 0.9375rem; font-weight: 600; }
+.artbar .pdfbtn svg { width: 16px; height: 16px; color: currentColor; }
+.artbar .pdfbtn svg + span + svg { display: none; }
+.artbar .pdfbtn:hover, .artbar .pdfbtn[aria-expanded="true"] { color: var(--accent); background: var(--accent-soft); }
+.artbar .jt-inline { right: auto; bottom: auto; }
+.artbar .jt-inline .jt-panel { position: absolute; top: calc(100% + 6px); right: 0; z-index: 30; }
+.artbar .jt-inline .jt-word { display: none; }
+.artbar .jt-inline.jt-idle .jt-pill { color: var(--ink); }
+.artbar .jt-inline:not(.jt-done) .jt-pill:hover { color: var(--accent); background: var(--accent-soft); }
+@media (max-width: 599px) {
+  .art-top.artbar { gap: 0 10px; }
+  .art-top.artbar .metaleft { display: flex; }
+  .art-top.artbar .vtabs { gap: 16px; flex: 0 1 auto; order: 0; }
+  .art-top.artbar .vtabs button { flex: 0 0 auto; font-size: 0.875rem; }
+  .artbar.has-tabs .back { padding-right: 12px; margin-right: 2px; min-width: 28px; }
+  .art-top.artbar .tools { flex: 0 0 auto; margin-left: auto; gap: 0; }
+  .artbar.has-tabs .pdfbtn span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .artbar .pdfbtn, .artbar .jt-inline:not(.jt-done) .jt-pill { padding: 4px 7px; min-width: 36px; justify-content: center; }
+}
+@media (max-width: 350px) { .art-top.artbar .vtabs { gap: 11px; } .art-top.artbar .vtabs button { font-size: 0.8125rem; } }
+@media (prefers-reduced-motion: reduce) { .artbar .vtabs button { transition: none; } }
+@media print { .art-top.artbar { border: 0; min-height: 0; } }

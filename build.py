@@ -1725,8 +1725,7 @@ def article_page(a, newer, older, pool=()):
              '<ul class="nx-list">{}</ul></section>').format("".join(next_card(x) for x in more)) if more else ""
     main = """<article class="wrap"{locked}>
 <header class="article-head">
-<div class="art-top">{back}{picker}</div>
-<div class="metarow{tabcls}"><div class="metaleft"{printlevel}>{tabs}</div></div>
+<div class="art-top artbar metarow{tabcls}">{back}<div class="metaleft"{printlevel}>{tabs}</div>{picker}</div>
 {meta}
 {firstrun}
 <script></script>
@@ -1747,7 +1746,7 @@ def article_page(a, newer, older, pool=()):
 {pager}
 <p class="print-foot">{foot}</p>
 </article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a), printlevel=(' data-print-level="{}"'.format(esc(first["level"])) if len(a["versions"]) > 1 else ""), tabcls=" has-tabs" if len(a["versions"]) > 1 else "", meta=article_meta(a), picker=tools_html(timer=not a["teens"]), printjs=PRINT_JS, studyjs=STUDY_JS, firstrun=FIRSTRUN, title=esc(first["title"]), summary=esc(first["summary"]), img=img,
-                     back=('<a class="back" href="/teens/">&larr; Teens</a>' if a["teens"] else '<a class="back" href="/">&larr; All articles</a>'),
+                     back=('<a class="back" href="/teens/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">Teens</span></a>' if a["teens"] else '<a class="back" href="/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">All articles</span></a>'),
                      topics=("" if a["teens"] else topics_html(a)), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), study=study_html(a), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))
     no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
