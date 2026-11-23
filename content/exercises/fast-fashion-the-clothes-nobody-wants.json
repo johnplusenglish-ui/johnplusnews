@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "It feels like ____: the shop can raise money and someone else can enjoy the clothes.",
-            "a": "a good ending"
+            "s": "Families with little money need clothes at ____ prices.",
+            "a": "affordable"
           },
           {
-            "s": "Staff still had to ____ everything, using time and money.",
-            "a": "sort through"
+            "s": "This jacket is made from a warm ____ called wool.",
+            "a": "material"
           },
           {
-            "s": "Social media helps trends ____.",
-            "a": "catch on"
+            "s": "If a button falls off your coat, you can ____ it with a needle and thread.",
+            "a": "repair"
           },
           {
-            "s": "Affordable clothes matter, especially for families ____.",
-            "a": "on limited budgets"
+            "s": "She left a ____ of old coats at the charity shop on Saturday.",
+            "a": "donation"
           },
           {
-            "s": "Making clothes uses water and energy, even if they are ____ used.",
-            "a": "hardly ever"
+            "s": "A torn T-shirt with a big mark is not ____ for the shop to sell.",
+            "a": "suitable"
           }
         ],
         "extra": [
-          "damaged",
-          "unsold"
+          "fashionable",
+          "recycle"
         ]
       },
       "match": [
@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "You fill a bag with clothes you no longer ____.",
-            "cue": "wear",
-            "a": "wear"
+            "s": "Last Saturday, Maria ____ a bag of old clothes to the shop.",
+            "cue": "take",
+            "a": "took"
           },
           {
             "s": "Then the bag ____.",
@@ -98,40 +98,109 @@
           "s": "A charity in London says it can get up to 100 donation bags in one day.",
           "a": "T",
           "why": "The text says: \"In October 2026, one charity operation in south London said it received as many as 100 bags a day.\""
+        },
+        {
+          "s": "Oxfam found that most clothes in British wardrobes were never worn.",
+          "a": "F",
+          "why": "The text says the figure was 32%, which is less than half: \"32% of clothes in British wardrobes were never worn.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "resale",
+          "d": "selling something again after someone else owned it"
+        },
+        {
+          "t": "trends",
+          "d": "new styles that many people like for a short time"
+        },
+        {
+          "t": "encouraged",
+          "d": "made someone want to do something"
+        },
+        {
+          "t": "recycling",
+          "d": "using old things to make new things"
+        },
+        {
+          "t": "exceptions",
+          "d": "things that are not included in a rule"
+        },
+        {
+          "t": "budgets",
+          "d": "the money people have to spend"
+        },
+        {
+          "t": "wardrobes",
+          "d": "big cupboards where people keep their clothes"
+        },
+        {
+          "t": "destroying",
+          "d": "breaking or ruining something completely"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some words always go with the same small word, such as good at or rely on. Learn the pair together, not just the word.",
+        "items": [
+          {
+            "s": "Maria paid ten pounds ____ a second-hand coat.",
+            "a": "for"
+          },
+          {
+            "s": "Some people are addicted ____ buying new clothes every week.",
+            "a": "to"
+          },
+          {
+            "s": "Few teenagers are interested ____ repairing old clothes.",
+            "a": "in"
+          },
+          {
+            "s": "Many shoppers are afraid ____ missing a new trend.",
+            "a": "of"
+          },
+          {
+            "s": "Many families rely ____ cheap clothes because money is tight.",
+            "a": "on"
+          }
+        ],
+        "extra": [
+          "with",
+          "at"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "A bag left outside a charity shop carries a ____ promise.",
+            "s": "The doctor's calm voice had a ____ effect on the nervous patient.",
             "a": "comforting"
           },
           {
-            "s": "Staff discover damaged seams and garments with almost no ____.",
-            "a": "resale value"
+            "s": "When the company moved abroad, it ____ most of its production to a cheaper country.",
+            "a": "transferred"
           },
           {
-            "s": "Social media encourages ____ by showing new looks constantly.",
-            "a": "impulse purchases"
+            "s": "A phone in a limited colour can become ____, so fans queue to buy it.",
+            "a": "desirable"
           },
           {
-            "s": "Shoppers see ____ new styles every day.",
-            "a": "a constant stream of"
+            "s": "Many councils charge a small fee for the ____ of large items such as old sofas.",
+            "a": "disposal"
           },
           {
-            "s": "Clothing can be replaced before it has ____.",
-            "a": "worn out"
+            "s": "Since the new law, shops have been ____ from selling knives to children.",
+            "a": "prohibited"
           },
           {
-            "s": "Consumers can help by ____ new purchases.",
-            "a": "cutting back on"
+            "s": "Clothes made from ____ fibres such as polyester can release tiny pieces of plastic when washed.",
+            "a": "synthetic"
           }
         ],
         "extra": [
-          "put out",
-          "sustainable"
+          "reliable",
+          "reduced"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Donating is better than throwing away ____ items.",
-            "cue": "USE",
-            "a": "usable"
+            "s": "By the time staff opened the bag, the donor ____ the shop.",
+            "cue": "leave",
+            "a": "had left"
           },
           {
-            "s": "A generous gesture can become an ____ expense.",
-            "cue": "EXPECT",
-            "a": "unexpected"
+            "s": "Clothes ____ so cheaply now that people buy far more of them.",
+            "cue": "produce",
+            "a": "are produced"
           },
           {
-            "s": "That creates an enormous ____ cost.",
-            "cue": "ENVIRONMENT",
-            "a": "environmental"
+            "s": "A charity shop ____ the problem of overproduction alone.",
+            "cue": "can / not / solve",
+            "a": "cannot solve|can't solve|can not solve"
           },
           {
-            "s": "The industry is built around low prices and ____ changing trends.",
-            "cue": "RAPID",
-            "a": "rapidly"
+            "s": "Oxfam ____ that nearly a third of clothes in British wardrobes were never worn.",
+            "cue": "estimate",
+            "a": "estimated"
           },
           {
-            "s": "Retailers must also consider ____ and the volume they produce.",
-            "cue": "DURABLE",
-            "a": "durability"
+            "s": "If shoppers ____ fewer items, the charity would receive less rubbish.",
+            "cue": "buy",
+            "a": "bought"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "Some clothes cannot easily be recycled because of the mix of fibres they contain.",
           "a": "T",
           "why": "The text says: \"Recycling is not always possible because many garments contain combinations of fibres that are difficult to separate.\""
+        },
+        {
+          "s": "Staff at the south London hospice charity could sell most of the items in the bags.",
+          "a": "F",
+          "why": "The text says: \"Only around a quarter of the items inside were suitable for sale.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "garments",
+          "d": "pieces of clothing"
+        },
+        {
+          "t": "resale",
+          "d": "selling something again after someone else owned it"
+        },
+        {
+          "t": "impulse",
+          "d": "a sudden wish to do something without thinking"
+        },
+        {
+          "t": "fibres",
+          "d": "thin threads that cloth is made from"
+        },
+        {
+          "t": "recycling",
+          "d": "using old materials to make new things"
+        },
+        {
+          "t": "exceptions",
+          "d": "cases that a rule does not cover"
+        },
+        {
+          "t": "responsibility",
+          "d": "a duty to deal with something and its results"
+        },
+        {
+          "t": "affordable",
+          "d": "not too expensive for ordinary people"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many verbs, nouns and adjectives take a fixed preposition. After it, use a noun or an -ing form, for example object to paying.",
+        "items": [
+          {
+            "s": "Retailers should take responsibility ____ the waste their products create.",
+            "a": "for"
+          },
+          {
+            "s": "Constant new releases often result ____ clothes being thrown away after a few wears.",
+            "a": "in"
+          },
+          {
+            "s": "Many young shoppers depend ____ social media to find new styles.",
+            "a": "on"
+          },
+          {
+            "s": "Some people object ____ paying more for clothes that last longer.",
+            "a": "to"
+          },
+          {
+            "s": "Few shoppers are aware ____ how much water a T-shirt needs.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "with",
+          "at"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The donation bag provides a ____ ending to the story of a garment.",
-            "a": "reassuring"
+            "s": "Years of shared investment had left the two families so ____ that separating their businesses took lawyers months.",
+            "a": "entwined"
           },
           {
-            "s": "Charity shops report being ____ clothing that is too damaged to sell.",
-            "a": "inundated with"
+            "s": "Retailers of sportswear and other ____ often slash prices sharply when a season ends.",
+            "a": "apparel"
           },
           {
-            "s": "Disposal costs ____.",
-            "a": "eat into charitable income"
+            "s": "Regular repairs can ____ the life of a coat by several winters.",
+            "a": "prolong"
           },
           {
-            "s": "Charities are effectively ____ for somebody else's decisions.",
-            "a": "picking up the bill"
+            "s": "Regulators were reluctant to ____ in the market until the damage became obvious.",
+            "a": "intervene"
           },
           {
-            "s": "Clothing is marketed as a quick response to ____.",
-            "a": "a passing mood"
+            "s": "Campaigners are calling for a total ____ on single-use plastic bags.",
+            "a": "prohibition"
           },
           {
-            "s": "No amount of reselling can ____ the cost of an extra garment.",
-            "a": "write off"
+            "s": "Online reviews have ____ considerable sway over how people shop.",
+            "a": "exerted"
           }
         ],
         "extra": [
-          "serviceable",
-          "relentless"
+          "exemption",
+          "refrain"
         ]
       },
       "match": [
@@ -260,37 +398,37 @@
         "kind": "word",
         "items": [
           {
-            "s": "Durability, on that model, is close to ____.",
-            "cue": "RELEVANT",
-            "a": "irrelevant"
+            "s": "The company's ____ to admit the fault damaged its reputation.",
+            "cue": "RELUCTANT",
+            "a": "reluctance"
           },
           {
-            "s": "Oxfam's report shows how ____ has become entwined with digital influence.",
-            "cue": "CONSUME",
-            "a": "consumption"
+            "s": "Buying a third identical coat just in case is an ____ rather than a need.",
+            "cue": "EXTRAVAGANT",
+            "a": "extravagance"
           },
           {
-            "s": "Among younger adults, ____ recommendations were especially strong.",
-            "cue": "ALGORITHM",
-            "a": "algorithmic"
+            "s": "Campaigners want companies to be held ____ for the waste they create.",
+            "cue": "ACCOUNT",
+            "a": "accountable"
           },
           {
-            "s": "Textile production consumes ____ water and energy.",
-            "cue": "SUBSTANCE",
-            "a": "substantial"
+            "s": "The ____ of a brand's promises is hard for shoppers to judge.",
+            "cue": "SINCERE",
+            "a": "sincerity"
           },
           {
-            "s": "Charity shops cannot solve ____ on their own.",
-            "cue": "PRODUCE",
-            "a": "overproduction"
+            "s": "Replacing a coat every winter is environmentally ____.",
+            "cue": "SUSTAINABLE",
+            "a": "unsustainable"
           }
         ]
       },
       "tfn": [
         {
-          "s": "A hospice in south London was reported to be receiving as many as 100 bags daily.",
+          "s": "The text suggests that selling clothes on resale platforms leaves charity shops worse off.",
           "a": "T",
-          "why": "The text says: \"The pressure is visible at St Raphael's Hospice in south London, where reporting in October 2026 described as many as 100 bags arriving each day and only a minority of their contents being fit for sale.\""
+          "why": "The text says platforms encourage people to sell desirable pieces themselves, \"leaving shops to inherit more of the garments with little value.\""
         },
         {
           "s": "The EU rule on unsold stock leaves the speed at which new clothes appear largely unchallenged.",
@@ -306,8 +444,98 @@
           "s": "The writer blames individual shoppers alone for the problem.",
           "a": "F",
           "why": "The text says the opposite: \"Shoppers also have limited control over how well clothes are made.\""
+        },
+        {
+          "s": "Oxfam's figures suggest that fewer than one in five items in British wardrobes goes unworn.",
+          "a": "F",
+          "why": "The text says 32% of items were never worn, and that is nearly one in three."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "overproduction",
+          "d": "making more of something than people need"
+        },
+        {
+          "t": "algorithmic",
+          "d": "chosen by computer rules that learn what a person likes"
+        },
+        {
+          "t": "durable",
+          "d": "able to last a long time without being damaged"
+        },
+        {
+          "t": "disposal",
+          "d": "the act of getting rid of something"
+        },
+        {
+          "t": "footwear",
+          "d": "shoes, boots and similar things"
+        },
+        {
+          "t": "synthetic",
+          "d": "made by people from chemicals, not from natural materials"
+        },
+        {
+          "t": "complicate",
+          "d": "to make something harder to deal with"
+        },
+        {
+          "t": "substantial",
+          "d": "large in amount"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "These are fixed, formal pairings. Learn the whole phrase, and expect a noun or an -ing form after the preposition, not a clause.",
+        "items": [
+          {
+            "s": "Dumping unsold stock is tantamount ____ admitting that the business model has failed.",
+            "a": "to"
+          },
+          {
+            "s": "Any attempt to regulate fashion is fraught ____ difficulty because supply chains cross dozens of borders.",
+            "a": "with"
+          },
+          {
+            "s": "The success of such schemes is contingent ____ shoppers changing their habits.",
+            "a": "on"
+          },
+          {
+            "s": "Brands that ignore the waste are arguably complicit ____ the problem they claim to deplore.",
+            "a": "in"
+          },
+          {
+            "s": "Cheap production often comes at the expense ____ workers' safety.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "for",
+          "at"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: what to do with the old clothes",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the housemate who wants to donate",
+      "text": "You and your housemate have six bags of old clothes. You want to give everything to a charity shop this weekend. Explain why, and listen to your housemate's idea."
+    },
+    "b": {
+      "role": "the housemate who wants to sell",
+      "text": "You want to sell the best clothes online and give the rest to charity. Explain why, and ask what the charity shop will do with damaged items. Try to agree on a plan."
+    },
+    "phrases": [
+      "I'd like to give everything to the charity shop.",
+      "That's a fair point, but it'll take a lot of time.",
+      "What if we sell the best pieces online?",
+      "I'm not keen on that, because it's a lot of work.",
+      "How about we split the bags in two?",
+      "Let's check every item before we decide."
+    ],
+    "after": "Afterwards, tell the class: what did you decide to do with the clothes, and why?"
   }
 }

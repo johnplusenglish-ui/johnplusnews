@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "His plan was to film a community that has ____ with the outside world.",
-            "a": "very little contact"
+            "s": "You must get written ____ from the owner before you film inside a private building.",
+            "a": "permission"
           },
           {
-            "s": "They do not welcome visitors, and Indian law ____.",
-            "a": "keeps outsiders out"
+            "s": "A cold is a common ____ that spreads easily between people.",
+            "a": "infection"
           },
           {
-            "s": "He did not ____ any of the island's residents before leaving.",
-            "a": "come across"
+            "s": "The police asked the journalist to delete the ____ he had recorded.",
+            "a": "footage"
           },
           {
-            "s": "The concern is not simply that someone ____.",
-            "a": "broke a rule"
+            "s": "Warm clothes give good ____ against the cold.",
+            "a": "protection"
           },
           {
-            "s": "The Sentinelese have ____ that they do not want contact.",
-            "a": "made it clear"
+            "s": "Her new videos gained thousands of ____ in a week.",
+            "a": "followers"
           }
         ],
         "extra": [
-          "pull in",
-          "harmful"
+          "audience",
+          "journey"
         ]
       },
       "match": [
@@ -62,14 +62,14 @@
             "a": "has lived"
           },
           {
-            "s": "Outsiders are not ____ to travel there without permission.",
+            "s": "Outsiders are not ____ to land on the island.",
             "cue": "allow",
             "a": "allowed"
           },
           {
-            "s": "Even an ordinary infection can ____ terrible results.",
-            "cue": "have",
-            "a": "have"
+            "s": "Yesterday I ____ an article about remote communities and then told my sister.",
+            "cue": "read",
+            "a": "read"
           },
           {
             "s": "Some communities choose ____ visitors and work with filmmakers.",
@@ -82,56 +82,125 @@
         {
           "s": "Survival International says there are almost 200 uncontacted groups.",
           "a": "T",
-          "why": "The text says: \"Survival International, an organisation working for Indigenous rights, says that there are almost 200 uncontacted groups around the world, many living in remote forests.\""
+          "why": "The text says there are \"almost 200 uncontacted groups around the world\"."
         },
         {
           "s": "Polyakov was later fined by an Indian court.",
           "a": "N",
-          "why": "Not stated. The text does not say whether an Indian court punished Polyakov."
+          "why": "The text only says he was arrested; it does not mention a fine."
         },
         {
           "s": "He met and filmed several Sentinelese people.",
           "a": "F",
-          "why": "The text says the opposite: \"Polyakov reached the shore and tried to attract attention, but he did not come across any of the island's residents before leaving.\""
+          "why": "The text says he \"did not come across any of the island's residents\"."
         },
         {
           "s": "Polyakov was arrested by Indian police.",
           "a": "T",
           "why": "The text says: \"The trip ended with his arrest by Indian police.\""
+        },
+        {
+          "s": "The writer says that every film about Indigenous people is harmful.",
+          "a": "F",
+          "why": "The text says: \"Not every film about Indigenous people is harmful.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "Indigenous",
+          "d": "belonging to the first people who lived in a place"
+        },
+        {
+          "t": "community",
+          "d": "a group of people who live in the same place"
+        },
+        {
+          "t": "isolated",
+          "d": "far away from other people or places"
+        },
+        {
+          "t": "uncontacted",
+          "d": "not visited or spoken to by people from outside"
+        },
+        {
+          "t": "advertising",
+          "d": "telling people about things they can buy"
+        },
+        {
+          "t": "creators",
+          "d": "people who make videos to share online"
+        },
+        {
+          "t": "respect",
+          "d": "treating someone with care because you think they matter"
+        },
+        {
+          "t": "outsiders",
+          "d": "people who are not part of a group or place"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some verbs and adjectives always take one small word after them. Learn the pair together, for example 'different from'.",
+        "items": [
+          {
+            "s": "Many creators travel ____ boat to reach places that are hard to visit.",
+            "a": "by"
+          },
+          {
+            "s": "The film was recorded ____ the middle of the night.",
+            "a": "in"
+          },
+          {
+            "s": "Many isolated communities live far ____ big towns.",
+            "a": "from"
+          },
+          {
+            "s": "Strangers can be dangerous ____ a small community.",
+            "a": "to"
+          },
+          {
+            "s": "Some visitors are not aware ____ the risks they bring.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "on",
+          "at"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "When Polyakov ____ towards the island, he took a camera and gifts.",
-            "a": "set off"
-          },
-          {
-            "s": "Members of the community may be especially ____ to introduced diseases.",
+            "s": "Very old and very young patients are often more ____ to the effects of extreme heat.",
             "a": "vulnerable"
           },
           {
-            "s": "The absence of any encounter does not make the visit ____.",
+            "s": "The old dog looked frightening, but it was completely ____.",
             "a": "harmless"
           },
           {
-            "s": "The incident is part of a debate about ____ some adventurers and content creators will go to for extraordinary footage.",
-            "a": "the lengths"
+            "s": "The club is so ____ that only invited guests can ever join.",
+            "a": "exclusive"
           },
           {
-            "s": "____ such communities as unaware of the modern world is misleading.",
-            "a": "Writing off"
+            "s": "Her calm courage during the storm was truly ____.",
+            "a": "extraordinary"
           },
           {
-            "s": "Respecting a community's wishes may require ____ the island.",
-            "a": "steering clear of"
+            "s": "Having read the contract carefully, she gave her ____ consent.",
+            "a": "informed"
+          },
+          {
+            "s": "He kept the call ____, as he was late for work.",
+            "a": "brief"
           }
         ],
         "extra": [
-          "keep away",
-          "uninvited"
+          "gradual",
+          "grateful"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Indian law protects the community, whose members may be especially vulnerable to ____ diseases.",
-            "cue": "INFECT",
-            "a": "infectious"
+            "s": "By the time the police arrived, the traveller ____ the shore.",
+            "cue": "leave",
+            "a": "had left"
           },
           {
-            "s": "The visit placed the island's inhabitants at risk without their ____.",
-            "cue": "AGREE",
-            "a": "agreement"
+            "s": "Visits to the island ____ by Indian law for many years.",
+            "cue": "control",
+            "a": "have been controlled"
           },
           {
-            "s": "Cameras and boats can take people to places that once seemed ____.",
-            "cue": "REACH",
-            "a": "unreachable"
+            "s": "If the video had not gone viral, nobody ____ of the trip.",
+            "cue": "hear",
+            "a": "would have heard"
           },
           {
-            "s": "Visitors may ____ the consequences of even a brief encounter.",
-            "cue": "ESTIMATE",
-            "a": "underestimate"
+            "s": "A tourist ____ the sunset when his phone battery died.",
+            "cue": "film",
+            "a": "was filming"
           },
           {
-            "s": "____ can encourage understanding, but it creates no right of entry.",
-            "cue": "CURIOUS",
-            "a": "Curiosity"
+            "s": "Respecting a community's wishes means ____ away from its land.",
+            "cue": "stay",
+            "a": "staying"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Indian authorities have increased patrols around the island.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether Indian authorities have increased patrols."
-        },
-        {
-          "s": "Polyakov landed on the island but met nobody.",
-          "a": "T",
-          "why": "The text says: \"He managed to land on the island, but did not meet any of its inhabitants.\""
-        },
-        {
-          "s": "Survival International estimates there are 196 uncontacted groups.",
-          "a": "T",
-          "why": "The text says: \"Survival International, an Indigenous rights organisation, estimates that 196 uncontacted groups exist worldwide.\""
-        },
-        {
-          "s": "No Indigenous group has ever agreed to work with filmmakers.",
+          "s": "The writer says that the lack of an encounter means no harm was done.",
           "a": "F",
-          "why": "The text says the opposite: \"Some Indigenous groups work with documentary-makers, invite carefully managed tourism and use their own media to campaign for land rights.\""
+          "why": "The text says \"the absence of any encounter does not make the visit harmless\"."
+        },
+        {
+          "s": "Polyakov posted footage of his trip online.",
+          "a": "N",
+          "why": "The text says he wanted to record his visit but not whether he posted it."
+        },
+        {
+          "s": "Some uncontacted groups avoid outsiders because of things that happened to them in the past.",
+          "a": "T",
+          "why": "Many \"have chosen to keep away from outsiders after earlier experiences of violence, land loss or disease\"."
+        },
+        {
+          "s": "According to the text, Indigenous groups that work with filmmakers lose control of their stories.",
+          "a": "F",
+          "why": "Such projects \"can give communities greater control over how their stories are told\"."
+        },
+        {
+          "s": "The writer treats a visit by invitation differently from an uninvited expedition.",
+          "a": "T",
+          "why": "The text sees \"an important difference\" between a community that welcomes visitors and one that has rejected them."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "archipelago",
+          "d": "a group of small islands"
+        },
+        {
+          "t": "inhabitants",
+          "d": "the people who live in a place"
+        },
+        {
+          "t": "restricts",
+          "d": "limits what people are allowed to do"
+        },
+        {
+          "t": "encounter",
+          "d": "a meeting, especially one that you did not plan"
+        },
+        {
+          "t": "uncontacted",
+          "d": "not yet visited or spoken to by outsiders"
+        },
+        {
+          "t": "consequences",
+          "d": "the results of something, often bad ones"
+        },
+        {
+          "t": "boundary",
+          "d": "a line or limit that should not be crossed"
+        },
+        {
+          "t": "revenue",
+          "d": "money that a person or company earns"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Verbs, adjectives and nouns often need one fixed preposition. Learn them as a pair, such as 'result in'.",
+        "items": [
+          {
+            "s": "Creators are responsible ____ the effects of their videos.",
+            "a": "for"
+          },
+          {
+            "s": "The views of the campaigners differ ____ those of the adventurers.",
+            "a": "from"
+          },
+          {
+            "s": "Even a short visit could result ____ serious illness.",
+            "a": "in"
+          },
+          {
+            "s": "Careless filming can put local people ____ risk.",
+            "a": "at"
+          },
+          {
+            "s": "Some creators insist ____ filming whatever they like.",
+            "a": "on"
+          }
+        ],
+        "extra": [
+          "to",
+          "of"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Satellite imagery has tempted outsiders to ____ technical access with moral permission.",
+            "s": "It is a mistake to ____ popularity with quality, since the most-watched programmes are not always the best.",
             "a": "equate"
           },
           {
-            "s": "Communities with little exposure may be ____ to infectious diseases.",
-            "a": "exceptionally vulnerable"
+            "s": "The two sides sat down to ____ over pay, but neither would move.",
+            "a": "negotiate"
           },
           {
-            "s": "His failure to meet anyone does not ____ the risk his arrival created.",
-            "a": "cancel out"
+            "s": "Only a few hundred people ____ the remote valley, and most of them are farmers.",
+            "a": "inhabit"
           },
           {
-            "s": "His expedition reflects a broader problem in ____.",
-            "a": "the attention economy"
+            "s": "Photographers have worked for decades to ____ the effects of deforestation on rural families.",
+            "a": "document"
           },
           {
-            "s": "Creators increasingly ____ the most isolated communities, hoping to film them.",
-            "a": "zero in on"
+            "s": "Clever marketing is good at ____ a passing curiosity into a long-term habit.",
+            "a": "converting"
           },
           {
-            "s": "The label should not be mistaken for ignorance or ____.",
-            "a": "a lack of agency"
+            "s": "The low price kept ____ shoppers into buying things they did not need.",
+            "a": "tempting"
           }
         ],
         "extra": [
-          "draw in",
-          "unsolicited"
+          "exceed",
+          "reflecting"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The more ____ a place appears, the greater its value as content.",
-            "cue": "ELUDE",
-            "a": "elusive"
-          },
-          {
-            "s": "Images presented as ____ can draw in enormous audiences.",
+            "s": "Wildlife officers described the sudden loss of habitat as an ____ crisis.",
             "cue": "PRECEDENT",
             "a": "unprecedented"
           },
           {
-            "s": "Past encounters demonstrated the potential for violence and ____.",
+            "s": "The rare bird is notoriously ____, and few photographers have ever captured it.",
+            "cue": "ELUDE",
+            "a": "elusive"
+          },
+          {
+            "s": "Campaigners say the ____ of cheap labour in the industry must stop.",
             "cue": "EXPLOIT",
             "a": "exploitation"
           },
           {
-            "s": "Avoiding outsiders can be a response to disease, violence and ____.",
-            "cue": "DISPOSSESS",
-            "a": "dispossession"
-          },
-          {
-            "s": "Many groups live in regions threatened by logging and land ____.",
+            "s": "Farmers complained about the steady ____ of building on protected farmland.",
             "cue": "ENCROACH",
             "a": "encroachment"
+          },
+          {
+            "s": "Entire families suffered ____ when the government seized the land.",
+            "cue": "DISPOSSESS",
+            "a": "dispossession"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The piece argues that technical access grants moral permission.",
+          "s": "The writer suggests that an unsuccessful landing could still have been harmful.",
+          "a": "T",
+          "why": "Failing to meet anyone \"does not cancel out the risk created by his arrival\"."
+        },
+        {
+          "s": "The writer thinks groups that avoid outsiders probably do so because they know nothing about the wider world.",
           "a": "F",
-          "why": "The text says the opposite: \"Satellite imagery, drones and affordable cameras have made remote places increasingly visible, tempting outsiders to equate technical access with moral permission.\""
+          "why": "Avoiding outsiders \"can be a deliberate response to historical experience\"."
         },
         {
-          "s": "Some Indigenous groups use digital media to document threats to their land.",
-          "a": "T",
-          "why": "The text says: \"Others choose to use digital media themselves to make political claims and document threats to their territory.\""
-        },
-        {
-          "s": "Drone flights over North Sentinel Island have been banned.",
+          "s": "Polyakov had arranged to sell his recordings.",
           "a": "N",
-          "why": "Not stated. The text does not say whether drone flights over the island are banned."
+          "why": "The text says nothing about any plan to sell his footage."
         },
         {
-          "s": "The writer says public interest is not created simply by attracting attention.",
+          "s": "The writer distinguishes between groups that invite journalists and groups approached without an invitation.",
           "a": "T",
-          "why": "The text says: \"Public interest cannot be established merely by the fact that an image would attract attention.\""
+          "why": "The first kind of partnership \"differ fundamentally from an unsolicited approach\"."
+        },
+        {
+          "s": "The writer thinks easy technical access to remote places makes visiting them more acceptable.",
+          "a": "F",
+          "why": "The text calls it a temptation to \"equate technical access with moral permission\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "archipelago",
+          "d": "a group of islands close together"
+        },
+        {
+          "t": "unauthorised",
+          "d": "done without official permission"
+        },
+        {
+          "t": "consistently",
+          "d": "in the same way every time"
+        },
+        {
+          "t": "scenery",
+          "d": "the background of a place or story, seen but not really thought about"
+        },
+        {
+          "t": "consent",
+          "d": "permission to do something, freely given"
+        },
+        {
+          "t": "intrusion",
+          "d": "entering a place or situation where you are not wanted"
+        },
+        {
+          "t": "novelty",
+          "d": "the quality of being new and unusual"
+        },
+        {
+          "t": "agency",
+          "d": "the ability to make your own choices and act on them"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some formal adjectives and nouns take one fixed preposition. Learn the whole phrase, such as 'contingent on', not the adjective alone.",
+        "items": [
+          {
+            "s": "Entering the territory of a community that has refused contact is tantamount ____ ignoring its right to decide.",
+            "a": "to"
+          },
+          {
+            "s": "Any approach to isolated groups is fraught ____ danger for the people who live there.",
+            "a": "with"
+          },
+          {
+            "s": "The success of such a project is contingent ____ the community's genuine consent.",
+            "a": "on"
+          },
+          {
+            "s": "The creators filmed the village in defiance ____ the explicit wishes of its elders.",
+            "a": "of"
+          },
+          {
+            "s": "Viewers who share such videos may become complicit ____ the damage.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "for",
+          "at"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: should we share this video?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend who found the video",
+      "text": "You found a video online of a visit to a remote community that does not want visitors. You think it is interesting and want to share it. Explain why, and listen to your friend's worries."
+    },
+    "b": {
+      "role": "the friend who is not sure",
+      "text": "You think the video may not be respectful. Ask where it came from and who agreed to it. Say what you would prefer to share instead. Try to agree on a decision."
+    },
+    "phrases": [
+      "I'm not sure we should share this.",
+      "I can see why it's interesting, but they didn't ask to be filmed.",
+      "What if the community doesn't want to be seen?",
+      "I'd rather check the source first.",
+      "We could share an article about their rights instead.",
+      "Let's agree to disagree."
+    ],
+    "after": "Afterwards, tell the class: did you share the video, and what was your main reason?"
   }
 }

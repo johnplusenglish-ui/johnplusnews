@@ -6,6 +6,7 @@ source: The Guardian | https://www.theguardian.com/world/2026/sep/05/colonialism
 image: images/the-influencers-targeting-the-worlds-most-isolated-people-23e4d7.jpg
 image-alt: A man in a red top and cap sits in an inflatable boat filming himself on a phone held out on a selfie stick, facing a dense forested island across clear water.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

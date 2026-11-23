@@ -6,6 +6,7 @@ source: UK Advertising Standards Authority | https://www.asa.org.uk/rulings/euro
 image: images/greenwashing-are-companies-selling-us-a-greener-story-17abcf.jpg
 image-alt: A hand holds up a bright green plastic bottle labelled ECO, printed with leaves and a globe, in front of a factory with four smoking chimneys.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

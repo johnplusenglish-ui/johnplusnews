@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Now imagine seeing the same picture ____.",
-            "a": "from the other side"
+            "s": "Visitors should respect local ____, such as the way people behave at temples.",
+            "a": "customs"
           },
           {
-            "s": "Some foreigners enter on tourist visas and then ____ work needing a permit.",
-            "a": "carry out"
+            "s": "Foreign creators need ____ from the authorities before they earn money in Bali.",
+            "a": "permission"
           },
           {
-            "s": "In popular areas, new villas and cafés have ____, so local people pay more.",
-            "a": "pushed up the value of land"
+            "s": "Hotel rooms and rented villas are types of ____ for visitors.",
+            "a": "accommodation"
           },
           {
-            "s": "Officials said 342 foreign nationals had been deported for immigration and legal ____.",
+            "s": "Visitors who commit immigration ____ can be sent home.",
             "a": "violations"
           },
           {
-            "s": "The situation is ____ locals against foreigners.",
-            "a": "not as simple as"
+            "s": "Foreign ____ in small businesses is now limited in some categories.",
+            "a": "investment"
           }
         ],
         "extra": [
-          "bring in",
-          "sacred"
+          "revenue",
+          "pollution"
         ]
       },
       "match": [
@@ -67,14 +67,14 @@
             "a": "supports"
           },
           {
-            "s": "Bali has ____ new foreign investment applications in some categories.",
-            "cue": "restrict",
-            "a": "restricted"
+            "s": "Some international residents ____ friendships and businesses in Bali.",
+            "cue": "build",
+            "a": "built"
           },
           {
-            "s": "Being welcomed does not mean they can ____ the people who live there.",
-            "cue": "ignore",
-            "a": "ignore"
+            "s": "In popular areas, land prices ____ fast.",
+            "cue": "rise",
+            "a": "rose"
           }
         ]
       },
@@ -98,40 +98,109 @@
           "s": "All 342 people deported in early 2026 were social-media influencers.",
           "a": "F",
           "why": "The text says the opposite: \"The figure does not mean they were all influencers.\""
+        },
+        {
+          "s": "Bali has banned all foreign investment in local businesses.",
+          "a": "F",
+          "why": "The text says Bali \"has restricted new foreign investment applications in some small business categories\", not all of them."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "authorities",
+          "d": "the people or groups who have official power"
+        },
+        {
+          "t": "permit",
+          "d": "an official paper that says you are allowed to do something"
+        },
+        {
+          "t": "influencers",
+          "d": "people who are famous online and tell their followers what to buy or do"
+        },
+        {
+          "t": "restricted",
+          "d": "limited, so that less is allowed"
+        },
+        {
+          "t": "decades",
+          "d": "periods of ten years"
+        },
+        {
+          "t": "disrespectfully",
+          "d": "in a way that shows you do not care about other people"
+        },
+        {
+          "t": "salaries",
+          "d": "money that people get every month for their work"
+        },
+        {
+          "t": "neighbourhoods",
+          "d": "parts of a town where people live"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Use but and however to show a difference, because for a reason and so for a result.",
+        "items": [
+          {
+            "s": "Tourism creates jobs, ____ it can also make land more expensive.",
+            "a": "but"
+          },
+          {
+            "s": "Some creators want clear rules ____ they do not want to break the law.",
+            "a": "because"
+          },
+          {
+            "s": "Bali is popular with foreigners. ____, local people worry about rising prices.",
+            "a": "However"
+          },
+          {
+            "s": "____ many visitors are polite, a few break the rules.",
+            "a": "Although"
+          },
+          {
+            "s": "Land is more expensive, ____ many local people cannot afford to buy it.",
+            "a": "so"
+          }
+        ],
+        "extra": [
+          "unless",
+          "despite"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "On social media, Bali looks almost ____, as if nothing about life there is difficult.",
-            "a": "frictionless"
+            "s": "Local ____ are often much lower than the salaries paid to foreign remote workers.",
+            "a": "wages"
           },
           {
-            "s": "New businesses ____ people earning foreign salaries.",
-            "a": "cater to"
+            "s": "The island needs a clearer set of ____ so that visitors know how to behave.",
+            "a": "expectations"
           },
           {
-            "s": "There is a growing argument about who gains and who ____.",
-            "a": "pays the price"
+            "s": "Many local ____ say that foreign spending power makes it hard to start a small business.",
+            "a": "entrepreneurs"
           },
           {
-            "s": "A tourist may be ____ commercial work even if no cash changes hands.",
-            "a": "taking on"
+            "s": "Minor immigration ____ can lead to a visitor being sent home.",
+            "a": "offences"
           },
           {
-            "s": "Outsiders should not use their ____ to take over local businesses.",
-            "a": "spending power"
+            "s": "Some people fear that strict rules will discourage foreign ____ and cost jobs.",
+            "a": "investment"
           },
           {
-            "s": "The number should not ____ a count of influencers alone.",
-            "a": "be mistaken for"
+            "s": "Small cafés face tough ____ from foreign-run businesses with more money.",
+            "a": "competition"
           }
         ],
         "extra": [
-          "keep out",
-          "legitimate"
+          "landlords",
+          "loopholes"
         ]
       },
       "match": [
@@ -153,40 +222,40 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The authorities are taking a ____ approach to work without permits.",
-            "cue": "TOUGH",
-            "a": "tougher"
+            "s": "Many new villas ____ in popular areas in recent years.",
+            "cue": "build",
+            "a": "have been built"
           },
           {
-            "s": "A tourist may accept meals in exchange for ____ posts.",
-            "cue": "PROMOTE",
-            "a": "promotional"
+            "s": "By the time the news was published, officials ____ 342 foreign nationals.",
+            "cue": "deport",
+            "a": "had deported"
           },
           {
-            "s": "Some ____ worry about rising land values.",
-            "cue": "RESIDE",
-            "a": "residents"
+            "s": "Before the crackdown began, many influencers ____ that promotional posts could count as work.",
+            "cue": "not realise",
+            "a": "had not realised"
           },
           {
-            "s": "Unclear or ____ enforced rules could discourage investment.",
-            "cue": "CONSISTENT",
-            "a": "inconsistently"
+            "s": "If the rules ____ fairly, more investors would trust them.",
+            "cue": "apply",
+            "a": "were applied"
           },
           {
-            "s": "Incidents involving ____ behaviour have caused considerable anger.",
-            "cue": "RESPECT",
-            "a": "disrespectful"
+            "s": "Officials ____ closer attention to influencers in August 2026.",
+            "cue": "pay",
+            "a": "paid"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Bali has restricted new foreign investment in 18 business categories.",
+          "s": "A free hotel stay in return for posts could count as commercial work even without payment.",
           "a": "T",
-          "why": "The text says: \"Bali has restricted new foreign investment applications in 18 business categories, including certain cafés and motorcycle-rental businesses.\""
+          "why": "The text says a tourist \"may in effect be taking on commercial work, even if no cash changes hands.\""
         },
         {
           "s": "The restrictions will be reviewed after two years.",
@@ -194,48 +263,117 @@
           "why": "Not stated. The text does not say whether or when the restrictions will be reviewed."
         },
         {
-          "s": "Channel NewsAsia reported on the immigration checks in August 2026.",
+          "s": "Supporters of the restrictions think local entrepreneurs should keep control of businesses they have traditionally run.",
           "a": "T",
-          "why": "The text says: \"In August 2026, Channel NewsAsia reported that immigration officers were paying closer attention to influencers and content creators.\""
+          "why": "The text says supporters argue outsiders \"should not be able to use their spending power to take over businesses that local people have traditionally operated.\""
         },
         {
           "s": "Every foreign resident in Bali has behaved badly.",
           "a": "F",
           "why": "The text says the opposite: \"Nevertheless, it would be unfair to judge every foreign resident by the actions of a few.\""
+        },
+        {
+          "s": "Most Balinese people support the new restrictions on foreign investment.",
+          "a": "N",
+          "why": "Not stated. The text gives the views of supporters and critics but not what most Balinese people think."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "frictionless",
+          "d": "smooth, with no problems or difficulties"
+        },
+        {
+          "t": "multiplied",
+          "d": "became much more in number"
+        },
+        {
+          "t": "crackdown",
+          "d": "strong action by the authorities to stop something"
+        },
+        {
+          "t": "commercial",
+          "d": "connected with making money"
+        },
+        {
+          "t": "outsiders",
+          "d": "people who do not belong to a place or group"
+        },
+        {
+          "t": "considerable",
+          "d": "large or great"
+        },
+        {
+          "t": "distinguish",
+          "d": "to see or show the difference between two things"
+        },
+        {
+          "t": "traditionally",
+          "d": "in the way that has been done for a very long time"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Whereas compares two things, unless means if not, and despite is followed by a noun or an -ing form.",
+        "items": [
+          {
+            "s": "____ the benefits of tourism, some residents feel the island is changing too fast.",
+            "a": "Despite"
+          },
+          {
+            "s": "Some visitors respect local rules, ____ others ignore them.",
+            "a": "whereas"
+          },
+          {
+            "s": "Foreign visitors may be asked to leave ____ they have the correct permit.",
+            "a": "unless"
+          },
+          {
+            "s": "The rules are unclear and inconsistently enforced; ____, some firms have stopped investing.",
+            "a": "therefore"
+          },
+          {
+            "s": "Many influencers thought their posts were harmless. ____, officials say some posts count as commercial work.",
+            "a": "Nevertheless"
+          }
+        ],
+        "extra": [
+          "otherwise",
+          "provided"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Bali's extraordinary appeal is ____.",
-            "a": "not in dispute"
+            "s": "The sudden ____ of remote workers pushed rents beyond what many locals could afford.",
+            "a": "influx"
           },
           {
-            "s": "Yet ____ well-paid remote workers and investors can alter the character of neighbourhoods.",
-            "a": "an influx of"
-          },
-          {
-            "s": "An arrangement involving a ____ hotel stay can raise questions about work.",
+            "s": "The resort offered guests a ____ breakfast, though in practice the cost was built into the room rate.",
             "a": "complimentary"
           },
           {
-            "s": "The island already faces cultural tensions, and economic regulation has become ____.",
-            "a": "another flashpoint"
+            "s": "Years of rising prices had left a quiet ____ among families who could no longer afford to rent near the coast.",
+            "a": "resentment"
           },
           {
-            "s": "Allowing wealthy newcomers to compete can ____ an economy.",
-            "a": "hollow out"
+            "s": "For fishing communities, new development along the shore can threaten their ____ as well as their homes.",
+            "a": "livelihoods"
           },
           {
-            "s": "Collective blame is ____ thoughtful policy.",
-            "a": "a poor substitute for"
+            "s": "Visitors who ____ warnings posted at the temple entrance risked being asked to leave.",
+            "a": "disregarded"
+          },
+          {
+            "s": "Supporters insist that traditional farming and large-scale tourism can ____ if development is carefully managed.",
+            "a": "coexist"
           }
         ],
         "extra": [
-          "stir up",
-          "assertive"
+          "boundary",
+          "scrutiny"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Officials were ____ foreigners suspected of commercial activity.",
-            "cue": "SCRUTINY",
-            "a": "scrutinising"
+            "s": "The ____ of the island's economy on tourism leaves many families vulnerable.",
+            "cue": "DEPEND",
+            "a": "dependence"
           },
           {
-            "s": "Even a free stay in exchange for posts can suggest ____ work.",
-            "cue": "AUTHORISE",
-            "a": "unauthorised"
+            "s": "The law has been enforced ____, so similar cases end with different outcomes.",
+            "cue": "CONSISTENT",
+            "a": "inconsistently"
           },
           {
-            "s": "It would be ____ to present them all as influencers.",
-            "cue": "MISLEAD",
-            "a": "misleading"
+            "s": "Many long-term residents feel ____ by being blamed for the behaviour of a few.",
+            "cue": "ALIEN",
+            "a": "alienated"
           },
           {
-            "s": "It concerns the ____ of tourism's rewards among local residents.",
-            "cue": "DISTRIBUTE",
-            "a": "distribution"
+            "s": "Campaigners are demanding greater ____ over how visa decisions are made.",
+            "cue": "TRANSPARENT",
+            "a": "transparency"
           },
           {
-            "s": "The ____ issue is how clearly the boundary between personal expression and commercial activity is defined.",
-            "cue": "RESOLVE",
-            "a": "unresolved"
+            "s": "It would be ____ to treat every visitor with a camera as a commercial operator.",
+            "cue": "REASON",
+            "a": "unreasonable"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Officials said 342 foreign nationals were deported in the first half of the year.",
+          "s": "The figure of 342 deportations does not by itself show how many influencers were removed.",
           "a": "T",
-          "why": "The text says: \"Authorities said 342 foreign nationals were deported from Bali in the first half of the year for various immigration and legal breaches.\""
+          "why": "The text calls it \"misleading to present them all as influencers\", so the total says nothing about influencers alone."
         },
         {
-          "s": "Bali plans to introduce a tourist tax in 2027.",
-          "a": "N",
-          "why": "Not stated. The text does not mention any plan for a tourist tax."
-        },
-        {
-          "s": "Indonesian content creators have raised the issue of fair competition.",
-          "a": "T",
-          "why": "The text says: \"Indonesian content creators, meanwhile, have argued that the central issue is fair competition rather than hostility towards outsiders.\""
-        },
-        {
-          "s": "The writer argues that ordinary tourists may not post holiday photographs.",
+          "s": "The writer suggests that foreign creators have done nothing to benefit local businesses.",
           "a": "F",
-          "why": "The text says the opposite: \"It would be misleading to present them all as influencers, or to suggest that ordinary tourists are forbidden from posting photographs of their holidays.\""
+          "why": "The text says \"Foreign creators have helped restaurants and guesthouses reach international customers.\""
+        },
+        {
+          "s": "Officials plan to review the 18 restricted categories next year.",
+          "a": "N",
+          "why": "Not stated. The text does not mention any review of the restrictions."
+        },
+        {
+          "s": "Critics and supporters of the investment limits both worry about their effect on the local economy.",
+          "a": "T",
+          "why": "Critics fear the rules \"discourage legitimate businesses\", while supporters fear newcomers could \"hollow out an economy\"."
+        },
+        {
+          "s": "The article says visa rules are already clear and fairly applied.",
+          "a": "F",
+          "why": "The text calls for \"Transparent visa rules\" and says the boundary between personal and commercial activity is not clearly defined."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "frictionless",
+          "d": "smooth, with no problems or obstacles"
+        },
+        {
+          "t": "scrutinising",
+          "d": "examining something very carefully"
+        },
+        {
+          "t": "unauthorised",
+          "d": "done without official permission"
+        },
+        {
+          "t": "dominating",
+          "d": "having the most power or influence over something"
+        },
+        {
+          "t": "intensify",
+          "d": "to become stronger or more extreme"
+        },
+        {
+          "t": "longstanding",
+          "d": "having existed for a long time"
+        },
+        {
+          "t": "unrestricted",
+          "d": "without limits or controls"
+        },
+        {
+          "t": "decorative",
+          "d": "there to look nice rather than to be useful"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Albeit and thereby introduce a reduced clause, notwithstanding works like despite, and hence is followed by a noun phrase.",
+        "items": [
+          {
+            "s": "The new rules are popular with many residents, ____ difficult to enforce.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ its popularity with visitors, the island struggles to house its own workers.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "Housing costs have climbed sharply; ____ the growing number of families moving inland.",
+            "a": "hence"
+          },
+          {
+            "s": "The scheme was approved quickly, ____ avoiding a lengthy public consultation.",
+            "a": "thereby"
+          },
+          {
+            "s": "Some argue that tourism protects traditions. ____, others claim it turns them into performances.",
+            "a": "Conversely"
+          }
+        ],
+        "extra": [
+          "insofar",
+          "whereby"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a spare room for tourists",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the neighbour who rents out a room",
+      "text": "You rent a spare room to tourists and earn extra money. Your neighbour is unhappy about it. Explain why it helps you and what you will do to keep things calm."
+    },
+    "b": {
+      "role": "the worried neighbour",
+      "text": "Tourists are noisy and rents on your street are rising. Explain your worries, ask questions and try to agree on some rules."
+    },
+    "phrases": [
+      "I'd like to talk to you about the guests.",
+      "It's not easy for me to pay my bills.",
+      "I understand that, but the noise is a problem.",
+      "We're not trying to cause trouble.",
+      "Would you be willing to set some quiet hours?",
+      "Let's try it for a month and see."
+    ],
+    "after": "Afterwards, tell the class: did you agree on any rules, and are they fair to both neighbours?"
   }
 }

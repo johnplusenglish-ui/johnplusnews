@@ -6,6 +6,7 @@ tags: Culture, History
 image: images/who-owns-history-greece-wants-its-ancient-treasures-back-481f76.jpg
 image-alt: Visitors stand in a bright museum gallery looking at a long marble frieze carved with horses and riders, with seated stone figures displayed at the far end.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

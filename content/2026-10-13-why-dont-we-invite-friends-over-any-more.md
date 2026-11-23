@@ -6,6 +6,7 @@ tags: Relationships, Lifestyle
 image: images/why-dont-we-invite-friends-over-any-more-b64ce6.jpg
 image-alt: Five adults clink wine glasses across a kitchen table loaded with pasta, salad and bread, laughing under a low lamp in a city flat at night.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

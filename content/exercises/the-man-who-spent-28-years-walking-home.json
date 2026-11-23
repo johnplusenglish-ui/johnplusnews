@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "In November 1998, Karl Bushby ____ from the southern tip of Chile.",
-            "a": "set off"
+            "s": "Walking across a continent is a very ____ plan, because most people take a plane.",
+            "a": "unusual"
           },
           {
-            "s": "In the Darién Gap he had to ____ the threat of armed groups.",
-            "a": "deal with"
+            "s": "The ____ of bad weather made the hikers turn back.",
+            "a": "threat"
           },
           {
-            "s": "After reaching North America, Karl ____ towards Alaska.",
-            "a": "carried on"
+            "s": "Police ____ two men after the robbery at the bank.",
+            "a": "arrested"
           },
           {
-            "s": "Money, closed borders and the pandemic all ____ his progress.",
-            "a": "held up"
+            "s": "When the storm began, we found ____ in an old barn.",
+            "a": "shelter"
           },
           {
-            "s": "He has depended on ____ for food and shelter.",
-            "a": "the kindness of strangers"
+            "s": "You must ask the local ____ before you camp in the park.",
+            "a": "authorities"
           }
         ],
         "extra": [
-          "positive",
-          "ordinary"
+          "visa",
+          "explored"
         ]
       },
       "match": [
@@ -62,9 +62,9 @@
             "a": "would take|might take|could take"
           },
           {
-            "s": "In 2006, he and another explorer ____ the Bering Strait on sea ice.",
-            "cue": "cross",
-            "a": "crossed"
+            "s": "In October 2026 he ____ across the English Channel.",
+            "cue": "swim",
+            "a": "swam"
           },
           {
             "s": "The authorities arrested them because they had not ____ at an official border.",
@@ -80,58 +80,127 @@
       },
       "tfn": [
         {
-          "s": "In 2006, Karl and a fellow explorer went across the Bering Strait on ice.",
+          "s": "In 2006, Karl and another explorer went across the Bering Strait on ice.",
           "a": "T",
           "why": "The text says: \"In 2006, he and another explorer crossed the Bering Strait on moving sea ice.\""
         },
         {
           "s": "He reached Hull on 5 October 2026.",
           "a": "F",
-          "why": "The text says the opposite: \"On 5 October 2026, he reached Dover after swimming across the English Channel.\""
+          "why": "The text says he reached Dover on that date and still had around 400 kilometres left to walk to Hull."
         },
         {
-          "s": "Karl and his partner were arrested when they arrived in Russia.",
+          "s": "Karl and the other explorer were arrested when they arrived in Russia.",
           "a": "T",
-          "why": "The text says: \"They finally reached Russia, but the authorities arrested them because they had not entered the country at an official border point.\""
+          "why": "The text says the authorities arrested them because they had not entered at an official border point."
         },
         {
           "s": "His son has joined him for part of the walk.",
           "a": "N",
           "why": "Not stated. The text does not say whether Karl's son has walked with him."
+        },
+        {
+          "s": "Karl has missed much of his son's childhood.",
+          "a": "T",
+          "why": "The text says: \"Karl has missed years with his family, including much of his son's childhood.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "vehicle",
+          "d": "a machine such as a car or bus that carries people"
+        },
+        {
+          "t": "route",
+          "d": "the way you go from one place to another"
+        },
+        {
+          "t": "expedition",
+          "d": "a long, organised journey to a faraway place"
+        },
+        {
+          "t": "pandemic",
+          "d": "a sickness that spreads to many countries"
+        },
+        {
+          "t": "permission",
+          "d": "when someone says that you are allowed to do something"
+        },
+        {
+          "t": "jungle",
+          "d": "a thick forest in a hot country"
+        },
+        {
+          "t": "strangers",
+          "d": "people you do not know"
+        },
+        {
+          "t": "childhood",
+          "d": "the time when you are a child"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word. The small word changes the meaning, so learn the two words together.",
+        "items": [
+          {
+            "s": "We were tired, but we carried ____ walking until dark.",
+            "a": "on"
+          },
+          {
+            "s": "The engine broke ____ in the middle of the desert.",
+            "a": "down"
+          },
+          {
+            "s": "He finally gave ____ smoking after twenty years.",
+            "a": "up"
+          },
+          {
+            "s": "Her grandmother looked ____ her when her parents travelled.",
+            "a": "after"
+          },
+          {
+            "s": "Watch ____ for snakes on the path.",
+            "a": "out"
+          }
+        ],
+        "extra": [
+          "across",
+          "beyond"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "This October he finally ____ for the first time since 1998.",
-            "a": "set foot on British soil"
+            "s": "Our guide was ____ about the weather, so we packed only light clothes.",
+            "a": "optimistic"
           },
           {
-            "s": "He set himself two ____ conditions for the journey.",
-            "a": "strict"
+            "s": "Losing his passport was the biggest ____ to the trip, but he found a way to continue.",
+            "a": "obstacle"
           },
           {
-            "s": "His original estimate of 12 years ____.",
-            "a": "turned out to be wildly optimistic"
+            "s": "After several ____, including a broken ankle, the team still finished the race.",
+            "a": "setbacks"
           },
           {
-            "s": "Their progress depended on ____ sea ice.",
+            "s": "The bridge looked ____ after the flood, so nobody was allowed to cross it.",
             "a": "unstable"
           },
           {
-            "s": "Bushby spent years ____ visa restrictions and closed borders.",
-            "a": "working around"
+            "s": "Travel breaks everyday ____, such as cooking at home and going to work.",
+            "a": "routines"
           },
           {
-            "s": "The journey has ____ to him and his family.",
-            "a": "come at a personal cost"
+            "s": "After seeing so much generosity, he felt his faith in ____ had returned.",
+            "a": "humanity"
           }
         ],
         "extra": [
-          "run into",
-          "lengthy"
+          "outcome",
+          "ambition"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "He began with an ambition that sounded almost ____.",
-            "cue": "POSSIBLE",
-            "a": "impossible"
+            "s": "By the time he reached Dover, he ____ for almost 28 years.",
+            "cue": "walk",
+            "a": "had been walking|had walked"
           },
           {
-            "s": "The final stretch carries an enormous ____ weight.",
-            "cue": "EMOTION",
-            "a": "emotional"
+            "s": "Bushby and Kieffer ____ after they entered Russia.",
+            "cue": "arrest",
+            "a": "were arrested"
           },
           {
-            "s": "Bushby spent years working around visa ____.",
-            "cue": "RESTRICT",
-            "a": "restrictions"
+            "s": "If he had used a vehicle, he ____ his own rules.",
+            "cue": "break",
+            "a": "would have broken"
           },
           {
-            "s": "He says the ____ of strangers has changed his view of humanity.",
-            "cue": "GENEROUS",
-            "a": "generosity"
+            "s": "Bushby spent years ____ around visa restrictions.",
+            "cue": "work",
+            "a": "working"
           },
           {
-            "s": "Discovering what comes next may be the bigger ____.",
-            "cue": "ADJUST",
-            "a": "adjustment"
+            "s": "He originally expected the walk ____ about 12 years.",
+            "cue": "take",
+            "a": "to take"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Bushby set out from the far south of South America.",
+          "s": "According to the text, paperwork delayed Bushby about as much as the wild landscapes did.",
           "a": "T",
-          "why": "The text says: \"Bushby began in Punta Arenas, near the southern tip of South America.\""
+          "why": "The text says paperwork \"became as much of an obstacle as the wilderness\"."
         },
         {
-          "s": "After landing, Bushby still had roughly 400 kilometres to go to reach Hull.",
+          "s": "When he landed in Britain, the distance still to walk was much smaller than the distance already behind him.",
           "a": "T",
-          "why": "The text says: \"About 400 kilometres remained between the landing point and Hull.\""
+          "why": "The text says about 400 kilometres remained, compared with \"the thousands of kilometres behind him\"."
         },
         {
-          "s": "He reached Britain by ferry from France.",
+          "s": "Bushby's original estimate of 12 years was close to the real time.",
           "a": "F",
-          "why": "The text says the opposite: \"On 5 October 2026, Bushby landed near Dover after swimming across the English Channel.\""
+          "why": "The text calls the estimate \"wildly optimistic\" and the walk has taken almost 28 years."
         },
         {
           "s": "A film company is making a documentary about the expedition.",
           "a": "N",
           "why": "Not stated. The text does not mention any documentary about the expedition."
+        },
+        {
+          "s": "Bushby and Kieffer needed about two days to cross the Bering Strait.",
+          "a": "F",
+          "why": "The text says they \"spent roughly two weeks crossing the frozen Bering Strait\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "expedition",
+          "d": "a long, organised journey with a clear purpose"
+        },
+        {
+          "t": "conditions",
+          "d": "rules or things that must happen first"
+        },
+        {
+          "t": "estimate",
+          "d": "a guess about how long or how much"
+        },
+        {
+          "t": "paperwork",
+          "d": "official documents that you have to complete"
+        },
+        {
+          "t": "delays",
+          "d": "times when something happens later than planned"
+        },
+        {
+          "t": "generosity",
+          "d": "being kind by giving things freely"
+        },
+        {
+          "t": "achievement",
+          "d": "something good that you succeed in doing"
+        },
+        {
+          "t": "adjustment",
+          "d": "a small change you make to get used to something"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs have more than one meaning, so read the whole sentence before you choose the small word.",
+        "items": [
+          {
+            "s": "The long walk turned ____ to be harder than the hikers had expected.",
+            "a": "out"
+          },
+          {
+            "s": "If you don't plan your route, you may end ____ in the wrong town.",
+            "a": "up"
+          },
+          {
+            "s": "The hikers put ____ their start by a day because of the storm.",
+            "a": "off"
+          },
+          {
+            "s": "Many travellers try to cut ____ on the weight of their rucksacks.",
+            "a": "down"
+          },
+          {
+            "s": "She is looking ____ to seeing her family again.",
+            "a": "forward"
+          }
+        ],
+        "extra": [
+          "along",
+          "beyond"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "It was an ____ distance after everything that had preceded it.",
-            "a": "absurdly small"
+            "s": "The delays were ____ when the shipping line cancelled its only crossing that month.",
+            "a": "compounded"
           },
           {
-            "s": "His rules were ____: no mechanised transport and no going home early.",
-            "a": "uncompromising"
+            "s": "The journalists were put through an exhausting ____ at the border that lasted nine hours.",
+            "a": "ordeal"
           },
           {
-            "s": "He intended to complete the journey ____.",
-            "a": "under his own power"
+            "s": "The activists were ____ for hours at the airport because their papers were incomplete.",
+            "a": "detained"
           },
           {
-            "s": "Instead of celebrating, they ____ immigration authorities.",
-            "a": "ran afoul of"
+            "s": "When she started the company, she ____ a small team of five, not hundreds of employees.",
+            "a": "envisaged"
           },
           {
-            "s": "Consular complications and ____ delayed him for years.",
-            "a": "a shortage of funds"
+            "s": "The team faced the ____ task of rebuilding the bridge before winter.",
+            "a": "formidable"
           },
           {
-            "s": "The transition from expedition to everyday life offers ____.",
-            "a": "no marked trail"
+            "s": "Running a marathon in desert heat demands extraordinary ____.",
+            "a": "stamina"
           }
         ],
         "extra": [
-          "gloss over",
-          "isolated"
+          "relinquished",
+          "predicament"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The incident ____ years of consular difficulty.",
+            "s": "The first border incident ____ years of legal and bureaucratic difficulty.",
             "cue": "SHADOW",
             "a": "foreshadowed"
           },
           {
-            "s": "____ borders set his progress back more than bad weather.",
-            "cue": "RESTRICT",
-            "a": "Restrictive"
-          },
-          {
-            "s": "The final approach to Britain demanded ____.",
+            "s": "Even a well-planned expedition may demand ____ when permits are refused.",
             "cue": "IMPROVISE",
             "a": "improvisation"
           },
           {
-            "s": "For a man who has spent 28 years trying to get home, staying there could prove the most ____ adventure.",
-            "cue": "FAMILIAR",
-            "a": "unfamiliar"
+            "s": "Visa ____ often cost travellers more time than bad weather does.",
+            "cue": "COMPLICATE",
+            "a": "complications"
           },
           {
-            "s": "Strangers provided help with little ____ of anything in return.",
-            "cue": "EXPECT",
-            "a": "expectation"
+            "s": "Ultra-runners are admired for their physical ____ rather than their speed.",
+            "cue": "ENDURE",
+            "a": "endurance"
+          },
+          {
+            "s": "For many hikers, reaching the summit is more ____ than practical.",
+            "cue": "SYMBOL",
+            "a": "symbolic"
           }
         ]
       },
       "tfn": [
         {
-          "s": "He intends to write a book about the journey.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether Bushby plans to write a book."
-        },
-        {
-          "s": "A support team helped Bushby as he swam across the Caspian Sea.",
+          "s": "The writer implies that officials were harder for Bushby to deal with than the terrain.",
           "a": "T",
-          "why": "The text says: \"In 2024 he crossed it by swimming, assisted by a support team, before continuing through Azerbaijan, Georgia and Turkey.\""
+          "why": "The text says walking was the straightforward part, while \"persuading officials\" to let him continue was not."
         },
         {
-          "s": "He was allowed to walk through the Channel Tunnel.",
+          "s": "Bushby swam the Caspian Sea before the pandemic began.",
           "a": "F",
-          "why": "The text says the opposite: \"Unable to secure permission for a pedestrian passage through the Channel Tunnel, he ended up swimming the Channel instead.\""
+          "why": "The text mentions the pandemic first and dates the Caspian swim to 2024."
         },
         {
-          "s": "Bushby once served as a paratrooper in the British forces.",
+          "s": "Bushby's son has criticised his father's decision to keep walking.",
+          "a": "N",
+          "why": "Not stated. The text only says Bushby has been absent for much of his son's life."
+        },
+        {
+          "s": "The writer suggests the end of the walk may be harder personally than physically.",
           "a": "T",
-          "why": "The text says: \"Bushby, a former British paratrooper, intended to travel through the Americas, cross into Siberia and return to England across Eurasia.\""
+          "why": "The text says the final miles may need less stamina, but the transition to everyday life offers \"no marked trail\"."
+        },
+        {
+          "s": "The writer presents the expedition as a straightforward success with no real costs.",
+          "a": "F",
+          "why": "The text says its human costs \"resist such a tidy conclusion\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "undertaking",
+          "d": "a big, serious task that someone decides to do"
+        },
+        {
+          "t": "negotiated",
+          "d": "found a way through something difficult"
+        },
+        {
+          "t": "mechanised",
+          "d": "moved or powered by a machine"
+        },
+        {
+          "t": "geopolitical",
+          "d": "connected with politics between countries"
+        },
+        {
+          "t": "hospitality",
+          "d": "kind and generous treatment of guests or visitors"
+        },
+        {
+          "t": "pedestrian",
+          "d": "a person who travels on foot"
+        },
+        {
+          "t": "consumed",
+          "d": "used up all of someone's time or energy"
+        },
+        {
+          "t": "stubborn",
+          "d": "refusing to change your mind or give up"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "At this level the verb often carries the main meaning and the small word changes it. Compare fall through with fall apart.",
+        "items": [
+          {
+            "s": "Officials ____ aside the explorers' objections without reading them.",
+            "a": "brushed"
+          },
+          {
+            "s": "The ministry ____ out any chance of a special permit.",
+            "a": "ruled"
+          },
+          {
+            "s": "The organisers ____ down the dangers so that sponsors would not withdraw.",
+            "a": "played"
+          },
+          {
+            "s": "Their plan to cross the border ____ through when the permit was refused.",
+            "a": "fell"
+          },
+          {
+            "s": "Despite the storm, the crew ____ on and reached the village by dark.",
+            "a": "pressed"
+          }
+        ],
+        "extra": [
+          "backed",
+          "wound"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a very long trip",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the traveller",
+      "text": "You want to leave your job and walk across a whole country. You will be away for a year. Explain why it matters to you and answer your friend's worries."
+    },
+    "b": {
+      "role": "the friend",
+      "text": "You are worried about your friend's plan. Ask about money, safety and family. Try to agree on a plan, or a shorter trip."
+    },
+    "phrases": [
+      "I've always wanted to do something like this.",
+      "What if you run out of money?",
+      "I'd miss my family, but I can't give up now.",
+      "Have you thought about the risks?",
+      "We could split the trip into two parts.",
+      "That's a fair point, I hadn't thought of that."
+    ],
+    "after": "Afterwards, tell the class: did you agree on a plan, and who gave way?"
   }
 }

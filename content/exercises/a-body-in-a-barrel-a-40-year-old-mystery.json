@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Police soon ____ that the person had probably been killed decades ago.",
-            "a": "worked out"
+            "s": "Scientists tested a small ____ of bone to find the DNA.",
+            "a": "sample"
           },
           {
-            "s": "The discovery ____ memories of Las Vegas in the days of organised crime.",
-            "a": "brought back"
+            "s": "Your aunts, uncles and cousins are your ____.",
+            "a": "relatives"
           },
           {
-            "s": "Researchers also ____ information about the man's family.",
-            "a": "followed up"
+            "s": "Without clear ____, police cannot say who did it.",
+            "a": "evidence"
           },
           {
-            "s": "Some people wondered if the case ____ the Mafia.",
-            "a": "had something to do with"
+            "s": "Modern ____ can help to identify people who died long ago.",
+            "a": "technology"
           },
           {
-            "s": "Detectives still wanted to ____ who had killed him.",
-            "a": "find out"
+            "s": "The ____ of an old boat by the water surprised the walkers.",
+            "a": "discovery"
           }
         ],
         "extra": [
-          "end up",
-          "terrible"
+          "motive",
+          "clue"
         ]
       },
       "match": [
@@ -62,9 +62,9 @@
             "a": "had been shot|was shot"
           },
           {
-            "s": "Places that had been underwater ____ now dry.",
-            "cue": "be",
-            "a": "were"
+            "s": "Police ____ that the man had probably died many years ago.",
+            "cue": "say",
+            "a": "said"
           },
           {
             "s": "In October 2026, officials ____ the name of the victim.",
@@ -72,9 +72,9 @@
             "a": "announced"
           },
           {
-            "s": "Nobody ____ him missing at the time.",
-            "cue": "report",
-            "a": "had reported|reported"
+            "s": "His family ____ him for the last time in the early 1980s.",
+            "cue": "see",
+            "a": "had seen|saw"
           }
         ]
       },
@@ -98,40 +98,109 @@
           "s": "Police proved that the Mafia was responsible for the death.",
           "a": "F",
           "why": "The text says the opposite: \"But police warned that there was no evidence proving a connection.\""
+        },
+        {
+          "s": "Police found out the man's name straight away.",
+          "a": "F",
+          "why": "The text says that \"Four years after the barrel appeared, they finally found an answer.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "barrel",
+          "d": "a big round container for liquids, made of metal or wood"
+        },
+        {
+          "t": "drought",
+          "d": "a long time with no rain"
+        },
+        {
+          "t": "remains",
+          "d": "what is left of a dead body"
+        },
+        {
+          "t": "detectives",
+          "d": "police officers who find out who did a crime"
+        },
+        {
+          "t": "murder",
+          "d": "the crime of killing a person on purpose"
+        },
+        {
+          "t": "hidden",
+          "d": "put in a place where nobody can see it"
+        },
+        {
+          "t": "connection",
+          "d": "a link between two things or people"
+        },
+        {
+          "t": "warned",
+          "d": "told someone about a possible problem"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many words go with one small word. Learn them together, for example search for, known as and come from.",
+        "items": [
+          {
+            "s": "Some people wondered if the case had something to do ____ the Mafia.",
+            "a": "with"
+          },
+          {
+            "s": "Detectives continued to search ____ the answer.",
+            "a": "for"
+          },
+          {
+            "s": "The man was known ____ Buddy.",
+            "a": "as"
+          },
+          {
+            "s": "Buddy Jackson's family came ____ Arkansas.",
+            "a": "from"
+          },
+          {
+            "s": "It was important not to turn a death ____ a story without facts.",
+            "a": "into"
+          }
+        ],
+        "extra": [
+          "of",
+          "by"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Boaters ____ a rusted barrel on a newly exposed shoreline.",
-            "a": "spotted"
+            "s": "Residents suffered during the ____ drought, which lasted for several years.",
+            "a": "prolonged"
           },
           {
-            "s": "It would have been easy to ____ with dramatic theories about old Las Vegas.",
-            "a": "fill the empty spaces"
+            "s": "After the film came out, ____ about the actor's private life spread quickly.",
+            "a": "rumours"
           },
           {
-            "s": "The case attracted attention because Las Vegas had a ____ history of crime.",
-            "a": "notorious"
+            "s": "Scientists announced a major ____ in the treatment of the disease.",
+            "a": "breakthrough"
           },
           {
-            "s": "Traditional clues had ____, so specialists turned to DNA.",
-            "a": "taken them only so far"
+            "s": "The robber's ____ was never clear, since he had taken nothing of value.",
+            "a": "motive"
           },
           {
-            "s": "Because he was ____ travelling alone, nobody reported him missing.",
-            "a": "accustomed to"
+            "s": "The spokesperson ____ that nobody should jump to conclusions.",
+            "a": "stressed"
           },
           {
-            "s": "Responsible reporting requires ____ from what merely sounds convincing.",
-            "a": "separating what is known"
+            "s": "Her explanation was so ____ that nobody doubted it.",
+            "a": "convincing"
           }
         ],
         "extra": [
-          "move forward",
-          "uncertain"
+          "alibi",
+          "witness"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "New discoveries can emerge from ____ places.",
-            "cue": "EXPECT",
-            "a": "unexpected"
+            "s": "When the boaters spotted the barrel, the lake ____ for years.",
+            "cue": "shrink",
+            "a": "had been shrinking|had shrunk"
           },
           {
-            "s": "The contents of the barrel were far more ____.",
-            "cue": "DISTURB",
-            "a": "disturbing"
+            "s": "The barrel ____ in the lake decades before the water level dropped.",
+            "cue": "leave",
+            "a": "had been left|was left"
           },
           {
-            "s": "For Jackson's family, that ____ mattered enormously.",
-            "cue": "IDENTIFY",
-            "a": "identification"
+            "s": "If the investigators had known his name earlier, they ____ his family sooner.",
+            "cue": "contact",
+            "a": "would have contacted"
           },
           {
-            "s": "Police knew he had been shot and concealed, but the motive remained ____.",
-            "cue": "CLEAR",
-            "a": "unclear"
+            "s": "By October 2026, his relatives ____ him for more than forty years.",
+            "cue": "not see",
+            "a": "had not seen|hadn't seen"
           },
           {
-            "s": "The falling level was an ____ warning for communities nearby.",
-            "cue": "ENVIRONMENT",
-            "a": "environmental"
+            "s": "Specialists ____ material taken from the bone to search for family links.",
+            "cue": "use",
+            "a": "used"
           }
         ]
       },
@@ -189,53 +258,122 @@
           "why": "The text says: \"Prolonged drought and falling water levels had revealed areas that had remained underwater for decades.\""
         },
         {
-          "s": "Jackson came from Arkansas.",
+          "s": "The victim was named more than four years after the barrel was found.",
           "a": "T",
-          "why": "The text says: \"The man was Edward Lelburian Jackson, who was known to his family as Buddy and came from Arkansas.\""
+          "why": "The barrel was found in May 2022 and the name was announced in October 2026."
+        },
+        {
+          "s": "Jackson's family reported him missing in the early 1980s.",
+          "a": "F",
+          "why": "The text says that \"they had not reported him missing\"."
+        },
+        {
+          "s": "Forensic genealogy only works when there is an exact match in a police database.",
+          "a": "F",
+          "why": "The text says it can link remains to relatives \"even when there is no direct match in a police database\"."
         },
         {
           "s": "Police have named a suspect in the killing.",
           "a": "N",
           "why": "Not stated. The text does not say whether police have named a suspect."
+        }
+      ],
+      "pre": [
+        {
+          "t": "exposed",
+          "d": "no longer covered, so that people can see it"
         },
         {
-          "s": "Investigators established a clear link to organised crime.",
-          "a": "F",
-          "why": "The text says the opposite: \"Detectives, however, stressed that the dramatic circumstances did not prove any connection with the Mafia.\""
+          "t": "remains",
+          "d": "what is left of a dead body"
+        },
+        {
+          "t": "concealed",
+          "d": "hidden on purpose"
+        },
+        {
+          "t": "forensic",
+          "d": "using science to help solve a crime"
+        },
+        {
+          "t": "victim",
+          "d": "a person who is hurt or killed in a crime"
+        },
+        {
+          "t": "timeline",
+          "d": "a list of events in the order they happened"
+        },
+        {
+          "t": "circumstances",
+          "d": "the facts and conditions around an event"
+        },
+        {
+          "t": "theories",
+          "d": "ideas that try to explain why something happened"
         }
-      ]
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Verbs and nouns often need one fixed preposition. Learn the pair together: depend on, turn to, a gap between.",
+        "items": [
+          {
+            "s": "Specialists turned ____ DNA when traditional clues were not enough.",
+            "a": "to"
+          },
+          {
+            "s": "Responsible reporting means separating fact ____ speculation.",
+            "a": "from"
+          },
+          {
+            "s": "Many communities along the river depend ____ it for their water.",
+            "a": "on"
+          },
+          {
+            "s": "There was still a gap ____ identifying a victim and understanding a death.",
+            "a": "between"
+          },
+          {
+            "s": "It would have been easy to fill the empty spaces ____ dramatic theories.",
+            "a": "with"
+          }
+        ],
+        "extra": [
+          "of",
+          "at"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Boaters ____ an object that looked oddly out of place.",
-            "a": "came across"
+            "s": "After the flood, the farmland stayed ____ for weeks, and the crops rotted in the fields.",
+            "a": "submerged"
           },
           {
-            "s": "What appeared to be a ____ soon became a homicide investigation.",
-            "a": "grim curiosity"
+            "s": "Years of salt water had left the iron gates so badly ____ that they crumbled when touched.",
+            "a": "corroded"
           },
           {
-            "s": "Public speculation ____ almost immediately.",
-            "a": "took off"
-          },
-          {
-            "s": "Establishing a name proved ____.",
+            "s": "Restoring the manuscript was a ____ task that took the conservators three years.",
             "a": "painstaking"
           },
           {
-            "s": "With little conventional evidence ____, investigators turned to DNA.",
-            "a": "to go on"
+            "s": "The defence faced such ____ evidence that the jury could see no alternative to a guilty verdict.",
+            "a": "compelling"
           },
           {
-            "s": "The challenge is ____ turn speculation into fact.",
-            "a": "resisting the urge to"
+            "s": "The donor, who remained ____, gave the museum a large sum and asked for no credit.",
+            "a": "anonymous"
+          },
+          {
+            "s": "The paper was criticised for its ____ coverage, which prized shock above accuracy.",
+            "a": "sensational"
           }
         ],
         "extra": [
-          "erase",
-          "credible"
+          "negligible",
+          "fragile"
         ]
       },
       "match": [
@@ -270,14 +408,14 @@
             "a": "absence"
           },
           {
-            "s": "Such methods can reopen apparently ____ cases.",
-            "cue": "HOPE",
-            "a": "hopeless"
+            "s": "Investigators warned against drawing ____ conclusions from the dramatic setting.",
+            "cue": "HASTE",
+            "a": "hasty"
           },
           {
-            "s": "Such methods can identify biological connections that were ____ to investigate when the person died.",
-            "cue": "POSSIBLE",
-            "a": "impossible"
+            "s": "Forensic genealogy is ____ in cases where no relatives appear in any police database.",
+            "cue": "VALUE",
+            "a": "invaluable"
           },
           {
             "s": "Giving a name to ____ remains is not a minor achievement.",
@@ -288,26 +426,116 @@
       },
       "tfn": [
         {
-          "s": "No missing-person report was filed for Jackson at the time.",
+          "s": "More than forty years passed between the family last seeing Jackson and the announcement of his identity.",
           "a": "T",
-          "why": "The text says: \"Because Jackson travelled independently, his absence had not resulted in a missing-person report at the time.\""
+          "why": "The family last saw him in the early 1980s and the announcement came in October 2026."
         },
         {
-          "s": "The writer treats the Mafia theory as established fact.",
+          "s": "Investigators remained cautious about a Mafia link even after Jackson was identified.",
+          "a": "T",
+          "why": "Police \"had not established a connection to organised crime\" after the identification."
+        },
+        {
+          "s": "Naming Jackson allowed investigators to say who had shot him.",
           "a": "F",
-          "why": "The text says the opposite: \"Yet detectives repeatedly cautioned that a barrel and a dramatic setting did not constitute evidence of a Mafia connection.\""
+          "why": "The text says the identity of \"whoever shot him\" remained uncertain."
         },
         {
-          "s": "Investigators found that the victim had been shot.",
-          "a": "T",
-          "why": "The text says: \"The victim had suffered a gunshot wound to the head, and details of his clothing suggested a death in the late 1970s or early 1980s.\""
+          "s": "The writer regards the identification as a minor achievement because the murder is unsolved.",
+          "a": "F",
+          "why": "The text says that giving a name to remains \"is not a minor achievement\"."
         },
         {
           "s": "Other barrels have since been found in the same reservoir.",
           "a": "N",
           "why": "Not stated. The text does not mention any other barrels at the reservoir."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "homicide",
+          "d": "the crime of killing a person"
+        },
+        {
+          "t": "reservoir",
+          "d": "a large lake, often made by people, that stores water"
+        },
+        {
+          "t": "forensic",
+          "d": "using science to help solve a crime"
+        },
+        {
+          "t": "speculation",
+          "d": "guessing about something without knowing the facts"
+        },
+        {
+          "t": "acknowledged",
+          "d": "admitted or accepted that something is true"
+        },
+        {
+          "t": "exerted",
+          "d": "used power or influence to affect something"
+        },
+        {
+          "t": "receding",
+          "d": "moving back or getting lower"
+        },
+        {
+          "t": "disposed of",
+          "d": "got rid of"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At this level, fixed adjective and verb phrases do not allow a swap. Learn the whole chunk: tantamount to, fraught with, drew on.",
+        "items": [
+          {
+            "s": "Investigators drew ____ forensic genealogy when conventional evidence ran out.",
+            "a": "on"
+          },
+          {
+            "s": "Repeating an unproven theory as fact is tantamount ____ inventing it.",
+            "a": "to"
+          },
+          {
+            "s": "A case this old is fraught ____ difficulty, since witnesses may have died.",
+            "a": "with"
+          },
+          {
+            "s": "A single announcement can culminate ____ the end of decades of uncertainty.",
+            "a": "in"
+          },
+          {
+            "s": "Early reports were dominated ____ lurid theories about organised crime.",
+            "a": "by"
+          }
+        ],
+        "extra": [
+          "for",
+          "about"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: should an old case stay open?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "a friend who thinks the case should stay open",
+      "text": "You read about a very old case. Explain why you think the police should keep investigating. Ask your friend two questions about what they think."
+    },
+    "b": {
+      "role": "a friend who thinks the money should be used elsewhere",
+      "text": "You think police time and money should go to newer cases. Explain your view politely. Ask your friend what could still be found after so many years."
+    },
+    "phrases": [
+      "I think the police should keep trying.",
+      "I see what you mean, but it's been a long time.",
+      "What could they still find after all these years?",
+      "The family deserves an answer, don't you think?",
+      "I'd rather they spent the money on new cases.",
+      "Maybe we can agree on one thing."
+    ],
+    "after": "Afterwards, tell the class: did you agree, and what helped you decide?"
   }
 }

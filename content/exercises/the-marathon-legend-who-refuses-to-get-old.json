@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Some people have suggested that ____.",
-            "a": "his best days are behind him"
+            "s": "She hoped to win the race, so finishing in fourth place was ____.",
+            "a": "disappointing"
           },
           {
-            "s": "In recent years, things ____.",
-            "a": "have not always gone his way"
+            "s": "The train was so ____ that many people had to stand for the whole journey.",
+            "a": "overcrowded"
           },
           {
-            "s": "Running ____ is hard on the body.",
-            "a": "at the highest level"
+            "s": "Only an ____ time can be accepted as a national record.",
+            "a": "official"
           },
           {
-            "s": "He stayed with the leaders before ____ in the final ten kilometres.",
-            "a": "breaking away"
+            "s": "Swimming across a wide lake in one day would be an ____ achievement for anyone.",
+            "a": "extraordinary"
           },
           {
-            "s": "For many runners, simply reaching ____ was a major achievement.",
-            "a": "the finish line"
+            "s": "He is 41, but he is still ____ against much younger runners.",
+            "a": "competitive"
           }
         ],
         "extra": [
-          "run out of",
-          "disappointing"
+          "slippery",
+          "tiring"
         ]
       },
       "match": [
@@ -57,9 +57,9 @@
             "a": "won"
           },
           {
-            "s": "Thousands of people had ____ to watch one of the most famous runners.",
-            "cue": "come",
-            "a": "come"
+            "s": "In 2019, he ____ a marathon in under two hours.",
+            "cue": "run",
+            "a": "ran"
           },
           {
             "s": "Younger athletes often find it easier ____ their speed.",
@@ -67,7 +67,7 @@
             "a": "to maintain"
           },
           {
-            "s": "So far, Kipchoge ____ an extraordinary career.",
+            "s": "So far, Kipchoge ____ a long and successful career.",
             "cue": "enjoy",
             "a": "has enjoyed"
           },
@@ -82,12 +82,12 @@
         {
           "s": "His 2019 sub-two-hour run counted as an official world record.",
           "a": "F",
-          "why": "The text says the opposite: \"That performance was remarkable, although it did not count as an official world record because the conditions were different from a normal race.\""
+          "why": "The text says it \"did not count as an official world record because the conditions were different from a normal race.\""
         },
         {
           "s": "Kipchoge's winning time in Melbourne was a record for the race.",
           "a": "T",
-          "why": "The text says: \"the Kenyan runner won the Melbourne Marathon in 2 hours, 9 minutes and 10 seconds, a new record for the race.\""
+          "why": "The text says: \"a new record for the race.\""
         },
         {
           "s": "Kipchoge has said he will retire after this season.",
@@ -98,40 +98,109 @@
           "s": "Some people taking part said the event was too crowded.",
           "a": "T",
           "why": "The text says: \"Some ordinary participants complained that water stations ran out of drinks and that the event was overcrowded.\""
+        },
+        {
+          "s": "His Melbourne time was one of the fastest of his career.",
+          "a": "F",
+          "why": "The text says the win \"was not one of the fastest times of his career.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "career",
+          "d": "the work or sport that someone does for many years"
+        },
+        {
+          "t": "record",
+          "d": "the best result that anyone has ever had"
+        },
+        {
+          "t": "victory",
+          "d": "a win"
+        },
+        {
+          "t": "participants",
+          "d": "people who take part in something"
+        },
+        {
+          "t": "achievement",
+          "d": "something good that you did with a lot of effort"
+        },
+        {
+          "t": "discipline",
+          "d": "the habit of doing hard things every day"
+        },
+        {
+          "t": "limits",
+          "d": "the most that someone can do"
+        },
+        {
+          "t": "crowd",
+          "d": "a large group of people in one place"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some words go with one small word. Learn them together: proud of, worry about, depend on.",
+        "items": [
+          {
+            "s": "She is very proud ____ her son's medal.",
+            "a": "of"
+          },
+          {
+            "s": "Many runners worry ____ the weather before a race.",
+            "a": "about"
+          },
+          {
+            "s": "Many older people are interested ____ running a marathon.",
+            "a": "in"
+          },
+          {
+            "s": "A marathon runner depends ____ good training.",
+            "a": "on"
+          },
+          {
+            "s": "He is famous ____ his speed.",
+            "a": "for"
+          }
+        ],
+        "extra": [
+          "from",
+          "into"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "He ____ from his closest rivals during the final ten kilometres.",
-            "a": "pulled away"
+            "s": "Runners must be over eighteen to be ____ to enter the race.",
+            "a": "eligible"
           },
           {
-            "s": "His winning time was ____ his personal best, but he still won easily.",
-            "a": "some way short of"
+            "s": "The online form was so ____ that it took me only two minutes to fill in.",
+            "a": "straightforward"
           },
           {
-            "s": "There comes a point when experience can no longer ____ lost speed.",
-            "a": "make up for"
+            "s": "The captain's ____ action in the last minute won the match for the team.",
+            "a": "decisive"
           },
           {
-            "s": "He ran a controlled race and ____ late on.",
-            "a": "made his decisive move"
+            "s": "The documentary was so ____ that nobody in the room could look away.",
+            "a": "compelling"
           },
           {
-            "s": "His pace has changed, but his competitive instincts ____.",
-            "a": "remain intact"
+            "s": "The old bridge was damaged but still ____ after the storm; no part of it had fallen.",
+            "a": "intact"
           },
           {
-            "s": "The result challenges the idea that achievement has ____.",
-            "a": "a fixed expiry date"
+            "s": "Winning every race in a season is an ____ target for most athletes.",
+            "a": "unrealistic"
           }
         ],
         "extra": [
-          "write off",
-          "elite"
+          "vague",
+          "obsolete"
         ]
       },
       "match": [
@@ -153,45 +222,45 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "He did not need to reproduce the fastest performance of his life to win ____.",
-            "cue": "CONVINCE",
-            "a": "convincingly"
+            "s": "By the time the amateurs arrived, the champion ____ and gone home.",
+            "cue": "finish",
+            "a": "had finished"
           },
           {
-            "s": "Results did not match his earlier ____.",
-            "cue": "DOMINANT",
-            "a": "dominance"
+            "s": "Many complaints ____ about the water supply after the race.",
+            "cue": "make",
+            "a": "were made"
           },
           {
-            "s": "For anyone whose ambitions have been written off as ____, that may be the most compelling part of his story.",
-            "cue": "REALISTIC",
-            "a": "unrealistic"
+            "s": "Runners ____ plenty of water before a long race.",
+            "cue": "should / drink",
+            "a": "should drink"
           },
           {
-            "s": "Questions about retirement followed ____.",
-            "cue": "INEVITABLE",
-            "a": "inevitably"
+            "s": "Kipchoge ____ two Olympic marathon titles.",
+            "cue": "win",
+            "a": "has won"
           },
           {
-            "s": "The complaints became a story about the ____ of a mass event.",
-            "cue": "ORGANISE",
-            "a": "organisation"
+            "s": "If the organisers had ordered more water, fewer runners ____.",
+            "cue": "complain",
+            "a": "would have complained"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Kipchoge has won marathon titles at two different Olympic Games.",
+          "s": "Kipchoge has won the Olympic marathon more than once.",
           "a": "T",
           "why": "The text says: \"He won Olympic marathon titles in Rio and Tokyo\""
         },
         {
           "s": "His Melbourne time was a personal best.",
           "a": "F",
-          "why": "The text says the opposite: \"His winning time was some way short of his personal best, but that is partly what made the victory interesting.\""
+          "why": "The text says: \"His winning time was some way short of his personal best\""
         },
         {
           "s": "The organisers have apologised for the water shortages.",
@@ -199,43 +268,112 @@
           "why": "Not stated. The text does not say whether the organisers apologised."
         },
         {
+          "s": "The 2019 Vienna run took place under the same conditions as an ordinary race.",
+          "a": "F",
+          "why": "The text says it \"used special conditions, including rotating pacemakers.\""
+        },
+        {
           "s": "The two Australian runners could not keep up with the winner.",
           "a": "T",
           "why": "The text says: \"Australians Thomas Do Canto and Reece Edwards were unable to stay with him.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "rivals",
+          "d": "people or teams you compete against"
+        },
+        {
+          "t": "retire",
+          "d": "to stop working or playing a sport for good"
+        },
+        {
+          "t": "recovery",
+          "d": "the time it takes to feel strong again after effort"
+        },
+        {
+          "t": "joints",
+          "d": "the parts of the body where bones meet, like the knee"
+        },
+        {
+          "t": "amateurs",
+          "d": "people who do a sport for fun, not as a job"
+        },
+        {
+          "t": "instincts",
+          "d": "natural feelings that tell you what to do"
+        },
+        {
+          "t": "ambitions",
+          "d": "strong wishes to achieve something"
+        },
+        {
+          "t": "pressure",
+          "d": "a strong force or strain on something"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many verbs and adjectives need one fixed preposition. Learn the whole pair, such as cope with, rely on, specialise in.",
+        "items": [
+          {
+            "s": "Experience cannot always compensate ____ a loss of speed.",
+            "a": "for"
+          },
+          {
+            "s": "Some critics object ____ the idea that older athletes should retire.",
+            "a": "to"
+          },
+          {
+            "s": "Athletes have to cope ____ the pressure of competing at a high level.",
+            "a": "with"
+          },
+          {
+            "s": "He specialises ____ long-distance races.",
+            "a": "in"
+          },
+          {
+            "s": "Marathon training relies ____ patience and routine.",
+            "a": "on"
+          }
+        ],
+        "extra": [
+          "from",
+          "at"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "He ____ over the final ten kilometres and headed for the finish.",
-            "a": "pulled away"
+            "s": "The invention of the carbon-plated shoe has ____ the way distance runners train.",
+            "a": "transformed"
           },
           {
-            "s": "Even the best-prepared athlete must ____ accumulated training stress.",
-            "a": "contend with"
+            "s": "His form has ____ wildly this season, with a brilliant win followed by a poor finish.",
+            "a": "fluctuated"
           },
           {
-            "s": "It was a performance that ____ years of experience rather than physical youth.",
-            "a": "drew on"
+            "s": "As the storm worsened, the crowds ____ the stadium and left the pitch empty.",
+            "a": "deserted"
           },
           {
-            "s": "Recent years brought setbacks and ____ performances.",
-            "a": "inconsistent"
+            "s": "The protest looked spontaneous, but it was in fact carefully ____ by the party's press team.",
+            "a": "staged"
           },
           {
-            "s": "The spectacle also had ____.",
-            "a": "an uncomfortable counterpoint"
+            "s": "Her savings had ____ so much interest over ten years that she could retire.",
+            "a": "accumulated"
           },
           {
-            "s": "There is ____ in adapting without surrendering ambition.",
-            "a": "a quieter kind of excellence"
+            "s": "The deadline was ____ by a week after complaints from applicants.",
+            "a": "extended"
           }
         ],
         "extra": [
-          "delicate",
-          "everlasting"
+          "prevailed",
+          "dwindled"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Sporting greatness rarely provides ____ from decline.",
+            "s": "There was widespread ____ about whether the champion would ever race again.",
+            "cue": "SPECULATE",
+            "a": "speculation"
+          },
+          {
+            "s": "The coach praised the squad's ____ in a season of unpredictable results.",
+            "cue": "CONSISTENT",
+            "a": "consistency"
+          },
+          {
+            "s": "Fame rarely brings ____ from criticism.",
             "cue": "IMMUNE",
             "a": "immunity"
           },
           {
-            "s": "Marathon running exposes the body's ____ with particular cruelty.",
-            "cue": "LIMIT",
-            "a": "limitations"
-          },
-          {
-            "s": "His victory was ____ because it needed no record pace.",
-            "cue": "NOTE",
-            "a": "noteworthy"
-          },
-          {
-            "s": "Runners complained of water shortages, congestion and ____ facilities.",
+            "s": "Spectators described the first-aid arrangements at the finish as woefully ____.",
             "cue": "ADEQUATE",
             "a": "inadequate"
           },
           {
-            "s": "He accelerated ____ late in the race.",
-            "cue": "DECISIVE",
-            "a": "decisively"
+            "s": "Only a handful of athletes sustain such ____ over two decades.",
+            "cue": "EXCEL",
+            "a": "excellence"
           }
         ]
       },
       "tfn": [
         {
-          "s": "One victory has shown that Kipchoge's age no longer matters.",
+          "s": "The writer implies that the amateur runners' difficulties deserve as much attention as the winner's result.",
+          "a": "T",
+          "why": "The text says a marathon's success \"is also measured by what happens to the less celebrated people behind him.\""
+        },
+        {
+          "s": "The writer argues that the Melbourne win proves Kipchoge's decline has ended.",
           "a": "F",
-          "why": "The text says the opposite: \"The competitive landscape has changed, his own performances have fluctuated and one result cannot erase the consequences of age.\""
+          "why": "The text says \"one result cannot erase the consequences of age.\""
         },
         {
-          "s": "Kipchoge plans to run the Melbourne Marathon again next year.",
+          "s": "Kipchoge's coach advised him to stay with the leading group in Melbourne.",
           "a": "N",
-          "why": "Not stated. The text does not say whether he will return to Melbourne."
+          "why": "Not stated. The text mentions no coach or instructions."
         },
         {
-          "s": "Kipchoge set a course record in Melbourne at the age of 41.",
+          "s": "Kipchoge's Melbourne time was slower than his best marks.",
           "a": "T",
-          "why": "The text says: \"The Kenyan runner won the Melbourne Marathon on 11 October 2026 in 2:09:10, a course record.\""
+          "why": "The text says the win \"did not require a return to his former, world-record-breaking pace.\""
         },
         {
-          "s": "Some amateur runners criticised the water and facilities provided.",
-          "a": "T",
-          "why": "The text says: \"Numerous recreational runners complained of water shortages, congestion and inadequate facilities at an event whose appeal had extended well beyond its elite field.\""
+          "s": "Both the Vienna run and the Melbourne race took place under conditions allowed in ordinary competition.",
+          "a": "F",
+          "why": "The text says the Vienna \"assistance and pacing arrangements differed from those permitted in ordinary competition.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "endurance",
+          "d": "the ability to keep going for a long time"
+        },
+        {
+          "t": "physiology",
+          "d": "how the body works"
+        },
+        {
+          "t": "setbacks",
+          "d": "problems that stop you from making progress"
+        },
+        {
+          "t": "exertion",
+          "d": "hard physical effort"
+        },
+        {
+          "t": "congestion",
+          "d": "a situation where too many people are in one place"
+        },
+        {
+          "t": "spectacle",
+          "d": "a big, impressive public event"
+        },
+        {
+          "t": "recreational",
+          "d": "done for enjoyment, not as a profession"
+        },
+        {
+          "t": "longevity",
+          "d": "a long life or a long career"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At C1, learn fixed phrases as a block: tantamount to, contingent on, fraught with, wary of, exempt from.",
+        "items": [
+          {
+            "s": "Retiring now would be tantamount ____ admitting defeat.",
+            "a": "to"
+          },
+          {
+            "s": "The success of the event is contingent ____ the weather.",
+            "a": "on"
+          },
+          {
+            "s": "Any attempt to break the record is fraught ____ risk.",
+            "a": "with"
+          },
+          {
+            "s": "She was wary ____ announcing a retirement that she might regret.",
+            "a": "of"
+          },
+          {
+            "s": "Athletes are rarely exempt ____ the effects of ageing.",
+            "a": "from"
+          }
+        ],
+        "extra": [
+          "by",
+          "at"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: am I too old to race?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the worried friend",
+      "text": "Your friend is 45 and wants to run a marathon in six months. You think it's too hard on the body. Ask at least two questions, then say what you really think."
+    },
+    "b": {
+      "role": "the keen runner",
+      "text": "You're 45 and you want to run your first marathon. Explain why it matters to you and how you'll train safely. Try to get your friend's support."
+    },
+    "phrases": [
+      "I'm worried that it's too much for you.",
+      "I've always wanted to do it.",
+      "How are you going to train?",
+      "I'll start slowly and build up.",
+      "Age is just a number, isn't it?",
+      "I'll support you, but please be careful."
+    ],
+    "after": "Afterwards, tell the class: did the friend agree to support the plan, and was that a good decision?"
   }
 }

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Lord Elgin received permission to ____ work at the ancient site.",
-            "a": "carry out"
+            "s": "You need written ____ from the owner before you take photos inside the private gallery.",
+            "a": "permission"
           },
           {
-            "s": "Greece wants visitors to see how the ____ pieces originally fitted together.",
-            "a": "surviving"
+            "s": "She works as a ____ and represents her country in a foreign capital.",
+            "a": "diplomat"
           },
           {
-            "s": "The British Museum ____ on the question.",
-            "a": "takes a different view"
+            "s": "My grandfather has a large ____ of old coins.",
+            "a": "collection"
           },
           {
-            "s": "A British law normally stops the museum ____ items from its collection.",
-            "a": "giving away"
+            "s": "Who has legal ____ of the painting is still unclear after the sale.",
+            "a": "ownership"
           },
           {
-            "s": "The objects ____ a very long time ago.",
-            "a": "changed hands"
+            "s": "The museum asked the gallery for a short ____ of the painting for its summer show.",
+            "a": "loan"
           }
         ],
         "extra": [
-          "fit together",
-          "disagree"
+          "treaty",
+          "curator"
         ]
       },
       "match": [
@@ -52,86 +52,155 @@
         "kind": "verb",
         "items": [
           {
-            "s": "The sculptures once ____ the Parthenon, a famous temple in Athens.",
-            "cue": "decorate",
-            "a": "decorated"
+            "s": "Lord Elgin ____ several large pieces from Athens to London.",
+            "cue": "take",
+            "a": "took"
           },
           {
-            "s": "When the sculptures ____, Greece was controlled by the Ottoman Empire.",
-            "cue": "remove",
-            "a": "were removed"
+            "s": "In the end, the British government ____ the collection.",
+            "cue": "buy",
+            "a": "bought"
           },
           {
-            "s": "The sculptures ____ in the British Museum for more than 200 years.",
-            "cue": "be",
-            "a": "have been"
+            "s": "The museum ____ that the sculptures were acquired legally.",
+            "cue": "say",
+            "a": "says"
           },
           {
-            "s": "Officials have ____ possible loans between the two countries.",
-            "cue": "discuss",
-            "a": "discussed"
+            "s": "Last week, we ____ to the museum by train.",
+            "cue": "go",
+            "a": "went"
           },
           {
-            "s": "For many years, Greece has asked for them ____.",
-            "cue": "return",
-            "a": "to be returned"
+            "s": "The guide ____ up a photo of the temple to show us.",
+            "cue": "hold",
+            "a": "held"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The Acropolis Museum could show the sculptures.",
+          "s": "Lord Elgin came from Britain.",
           "a": "T",
-          "why": "The text says: \"The Acropolis Museum, near the Parthenon, has space to display them.\""
+          "why": "The text calls him \"the British diplomat\"."
         },
         {
-          "s": "The sculptures are over two thousand years old.",
-          "a": "T",
-          "why": "The text says: \"The sculptures are more than 2,000 years old.\""
-        },
-        {
-          "s": "Most British people want the sculptures returned.",
-          "a": "N",
-          "why": "Not stated. This version does not give this information."
-        },
-        {
-          "s": "The British Museum says the sculptures were taken illegally.",
+          "s": "The British Museum can freely give away objects from its permanent collection.",
           "a": "F",
-          "why": "The text says the opposite: \"It argues that the sculptures were acquired legally and that displaying them alongside objects from other cultures helps people learn about world history.\""
+          "why": "A British law \"normally stops\" the museum giving away items."
+        },
+        {
+          "s": "Lord Elgin had family in Greece.",
+          "a": "N",
+          "why": "The text says nothing about his family."
+        },
+        {
+          "s": "Officials have talked about the sculptures spending time in both countries.",
+          "a": "T",
+          "why": "The text mentions \"an arrangement in which the sculptures spend time in both countries\"."
+        },
+        {
+          "s": "The Acropolis Museum has no space for the sculptures.",
+          "a": "F",
+          "why": "The text says it \"has space to display them\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "sculptures",
+          "d": "statues and other art made by carving stone or wood"
+        },
+        {
+          "t": "temple",
+          "d": "a building where people pray or worship"
+        },
+        {
+          "t": "empire",
+          "d": "a group of countries ruled by one powerful government"
+        },
+        {
+          "t": "surviving",
+          "d": "still existing after a long time"
+        },
+        {
+          "t": "legally",
+          "d": "in a way that the law allows"
+        },
+        {
+          "t": "argues",
+          "d": "gives reasons to show that something is true"
+        },
+        {
+          "t": "ruled",
+          "d": "controlled a country as its leader or government"
+        },
+        {
+          "t": "debate",
+          "d": "a discussion where people give different opinions"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word. The small word changes the meaning, so learn the two words together.",
+        "items": [
+          {
+            "s": "Visitors can ____ out more about the temple on the museum's website.",
+            "a": "find"
+          },
+          {
+            "s": "Greece wants Britain to ____ back the sculptures.",
+            "a": "give"
+          },
+          {
+            "s": "The museum will ____ up a new room for ancient art.",
+            "a": "set"
+          },
+          {
+            "s": "I will ____ up the history of the Acropolis before my trip.",
+            "a": "look"
+          },
+          {
+            "s": "When you finish this room, ____ on to the next one.",
+            "a": "go"
+          }
+        ],
+        "extra": [
+          "break",
+          "stand"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Their beauty is rarely disputed. Who should own them is ____.",
-            "a": "another matter entirely"
+            "s": "The family has ____ the old farmhouse carefully for four generations.",
+            "a": "maintained"
           },
           {
-            "s": "Removing them from their original setting ____ a single monument.",
-            "a": "splits up"
+            "s": "The ownership of the land has been ____ in court for decades.",
+            "a": "disputed"
           },
           {
-            "s": "Displaying objects from different civilisations ____ encourages connections.",
-            "a": "side by side"
+            "s": "New ____ will make it illegal for shops to give out free plastic bags.",
+            "a": "legislation"
           },
           {
-            "s": "The museum is generally unable to ____ objects from its collection.",
-            "a": "hand over"
+            "s": "The town council ____ pressure to sell the building to a developer for years.",
+            "a": "resisted"
           },
           {
-            "s": "Discussions have ____ for years without agreement.",
-            "a": "dragged on"
+            "s": "The two brothers were finally ____ after twenty years on different continents.",
+            "a": "reunited"
           },
           {
-            "s": "Returning objects may help ____.",
-            "a": "put right historic injustices"
+            "s": "Environmental ____ gathered outside parliament to demand stronger action on climate change.",
+            "a": "campaigners"
           }
         ],
         "extra": [
-          "decorative",
-          "permanent"
+          "assembled",
+          "inspectors"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Visitors can admire a ____ collection of ancient Greek sculptures.",
-            "cue": "REMARK",
-            "a": "remarkable"
+            "s": "By the time we reached the gallery, the guide ____ his talk.",
+            "cue": "finish",
+            "a": "had finished"
           },
           {
-            "s": "Returning objects may help put right ____ injustices.",
-            "cue": "HISTORY",
-            "a": "historic"
+            "s": "The new gallery ____ by the mayor next spring.",
+            "cue": "open",
+            "a": "will be opened|is going to be opened|is to be opened"
           },
           {
-            "s": "The sculptures are part of the country's history and ____.",
-            "cue": "IDENTIFY",
-            "a": "identity"
+            "s": "If I ____ the director of the museum, I would return the sculptures.",
+            "cue": "be",
+            "a": "were|was"
           },
           {
-            "s": "Under ____ passed in 1963, the museum cannot give objects away.",
-            "cue": "LEGISLATE",
-            "a": "legislation"
+            "s": "The curator ____ for the museum since 2015.",
+            "cue": "work",
+            "a": "has worked|has been working"
           },
           {
-            "s": "International museums argue that their collections have ____ value.",
-            "cue": "EDUCATE",
-            "a": "educational"
+            "s": "She said she ____ the exhibition the following week.",
+            "cue": "visit",
+            "a": "would visit|was going to visit"
           }
         ]
       },
       "tfn": [
         {
-          "s": "George Osborne has hoped for a deal that would let the sculptures be shown in both countries.",
+          "s": "The Parthenon Marbles are known by more than one name.",
           "a": "T",
-          "why": "The text says: \"In October 2026, British Museum chairman George Osborne expressed hope that an arrangement could still be reached, suggesting that the sculptures might spend periods in both countries.\""
+          "why": "The text says they are \"better known as the Parthenon Marbles, or sometimes the Elgin Marbles\"."
         },
         {
-          "s": "The Acropolis Museum attracts more visitors than the British Museum.",
-          "a": "N",
-          "why": "Not stated. This version does not give this information."
-        },
-        {
-          "s": "The British government purchased the collection in 1816.",
-          "a": "T",
-          "why": "The text says: \"The British government bought the collection in 1816, and it became part of the British Museum.\""
-        },
-        {
-          "s": "Greece has accepted a loan that recognises British ownership.",
+          "s": "The British Museum received the collection as a gift in 1816.",
           "a": "F",
-          "why": "The text says the opposite: \"Such a plan could bring the pieces to Athens, but Greece has resisted any deal that appears to require it to recognise British ownership.\""
+          "why": "The text says the British government \"bought the collection in 1816\"."
+        },
+        {
+          "s": "Lord Elgin was paid by the Ottoman authorities for his work.",
+          "a": "N",
+          "why": "The text does not say anything about payment to him."
+        },
+        {
+          "s": "Greece may refuse a deal that seems to accept British ownership.",
+          "a": "T",
+          "why": "Greece \"has resisted any deal that appears to require it to recognise British ownership\"."
+        },
+        {
+          "s": "The 1963 law makes it simple for the museum to return objects permanently.",
+          "a": "F",
+          "why": "The law makes a permanent return \"difficult without a change to the law\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "remarkable",
+          "d": "unusual and worth noticing"
+        },
+        {
+          "t": "trustees",
+          "d": "a group of people who look after an organisation"
+        },
+        {
+          "t": "civilisations",
+          "d": "large groups of people with their own culture and history"
+        },
+        {
+          "t": "partnership",
+          "d": "an agreement to work together"
+        },
+        {
+          "t": "colonial",
+          "d": "connected with one country ruling another"
+        },
+        {
+          "t": "injustices",
+          "d": "unfair things that happen to people"
+        },
+        {
+          "t": "monument",
+          "d": "a large building or statue from the past"
+        },
+        {
+          "t": "identity",
+          "d": "what makes a person or a country special"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Some phrasal verbs take an object, and some do not. Check whether the sentence needs a noun after the particle.",
+        "items": [
+          {
+            "s": "Both sides need time to ____ out the details of the agreement.",
+            "a": "work"
+          },
+          {
+            "s": "The museum had to ____ off the opening because of the building work.",
+            "a": "put"
+          },
+          {
+            "s": "The lawyers will ____ up a contract before the meeting.",
+            "a": "draw"
+          },
+          {
+            "s": "The gallery had to ____ down the offer because the law does not allow it.",
+            "a": "turn"
+          },
+          {
+            "s": "Talks could ____ down if neither side is willing to compromise.",
+            "a": "break"
+          }
+        ],
+        "extra": [
+          "pull",
+          "stand"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The dispute ____ the early nineteenth century.",
-            "a": "traces back to"
+            "s": "The minister ____ that the policy had been approved, although no one could find the paperwork.",
+            "a": "asserted"
           },
           {
-            "s": "Defenders argue the transaction was lawful ____.",
-            "a": "by the standards of the period"
+            "s": "Negotiations have ____ over the question of who should pay for the repairs.",
+            "a": "stalled"
           },
           {
-            "s": "Successive Greek administrations have ____ the sculptures' return.",
-            "a": "pressed for"
-          },
-          {
-            "s": "Trustees also face a significant ____ obstacle.",
-            "a": "statutory"
-          },
-          {
-            "s": "Discussions have explored partnership arrangements, including ____ loans.",
+            "s": "The two companies signed a ____ agreement: each would share its technology with the other.",
             "a": "reciprocal"
           },
           {
-            "s": "Neither side can afford to be seen ____.",
-            "a": "backing down"
+            "s": "The council has a ____ duty to inspect every restaurant at least once a year.",
+            "a": "statutory"
+          },
+          {
+            "s": "Rumours of a merger proved remarkably ____, resurfacing every time the company denied them.",
+            "a": "persistent"
+          },
+          {
+            "s": "The inquiry was criticised for its narrow ____, which left out the most serious complaints.",
+            "a": "scope"
           }
         ],
         "extra": [
-          "iron out",
-          "sweeping"
+          "retracted",
+          "pretext"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Campaigners dispute the scope and ____ of that authorisation.",
-            "cue": "LEGITIMATE",
-            "a": "legitimacy"
+            "s": "Lawyers questioned the ____ of the contract, which had never been properly signed.",
+            "cue": "VALID",
+            "a": "validity"
           },
           {
-            "s": "For Athens, their ____ is a matter of cultural integrity.",
-            "cue": "REUNITE",
-            "a": "reunification"
+            "s": "The report was criticised for its ____, since it praised the scheme in one chapter and condemned it in the next.",
+            "cue": "CONSISTENT",
+            "a": "inconsistency"
           },
           {
-            "s": "The sculptures' presence in London is ____ from one of the museum's most persistent controversies.",
-            "cue": "SEPARATE",
-            "a": "inseparable"
+            "s": "Historians warn against the ____ of complex events into a single dramatic story.",
+            "cue": "SIMPLIFY",
+            "a": "simplification"
           },
           {
-            "s": "The Act severely restricts the ____ of objects from the collection.",
-            "cue": "DISPOSE",
-            "a": "disposal"
+            "s": "The minister's ____ to discuss the matter publicly only fuelled speculation.",
+            "cue": "RELUCTANT",
+            "a": "reluctance"
           },
           {
-            "s": "The argument is ____ strong because the pieces formed one artistic programme.",
-            "cue": "USUAL",
-            "a": "unusually"
+            "s": "Critics saw the move as political ____ rather than a principled stand.",
+            "cue": "EXPEDIENT",
+            "a": "expediency"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The Greek government has taken the case to an international court.",
-          "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "s": "Greece's hesitation over loans is linked to what a loan would suggest about ownership.",
+          "a": "T",
+          "why": "A loan \"assumes that the lender owns what it is lending\", which Greece has been reluctant to accept."
         },
         {
-          "s": "The writer says one sweeping solution could settle every similar case.",
+          "s": "The 1963 Act rules out any temporary movement of the sculptures from London.",
           "a": "F",
-          "why": "The text says the opposite: \"Each case has its own legal and historical circumstances, making sweeping solutions difficult.\""
+          "why": "The Act restricts disposal; the text says discussions have explored \"reciprocal loans\"."
         },
         {
-          "s": "The Parthenon sculptures date from the fifth century BC.",
-          "a": "T",
-          "why": "The text says: \"Carved for the fifth-century BC temple on the Acropolis, the surviving sculptures are now divided principally between Britain and Greece.\""
+          "s": "Critics of the 1816 purchase claim that it broke British law.",
+          "a": "N",
+          "why": "Critics are quoted only on Greek lack of control over decisions, not on British law."
         },
         {
-          "s": "A British law of 1963 makes it hard for the museum to dispose of objects.",
+          "s": "Proposals have repeatedly failed to progress partly because neither side wants to look as if it has given way.",
           "a": "T",
-          "why": "The text says: \"The British Museum Act 1963 severely restricts the disposal of objects from the collection, meaning that a permanent transfer would be legally complicated.\""
+          "why": "The text says \"Neither side can afford to be seen backing down\" and proposals stall at the same point."
+        },
+        {
+          "s": "The writer treats the Greek case for reunification as weak because the pieces came from several different monuments.",
+          "a": "F",
+          "why": "The text says the pieces \"formed an artistic programme associated with one identifiable monument\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "celebrated",
+          "d": "famous and admired by many people"
+        },
+        {
+          "t": "authorisation",
+          "d": "official permission to do something"
+        },
+        {
+          "t": "heritage",
+          "d": "the history and traditions of a country that are passed down"
+        },
+        {
+          "t": "artefacts",
+          "d": "objects made by people in the past, often found in museums"
+        },
+        {
+          "t": "reunification",
+          "d": "the act of bringing separated parts together again"
+        },
+        {
+          "t": "disposal",
+          "d": "the act of getting rid of something or giving it to someone else"
+        },
+        {
+          "t": "occupation",
+          "d": "the control of a country by foreign soldiers"
+        },
+        {
+          "t": "neutral",
+          "d": "not supporting either side"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "At this level many phrasal verbs are fixed and figurative. Learn the particle with the verb, and watch the tense or form the sentence needs.",
+        "items": [
+          {
+            "s": "Under pressure, the authors agreed to ____ down their criticism.",
+            "a": "tone"
+          },
+          {
+            "s": "The committee refused to ____ aside the objections of its own members.",
+            "a": "brush"
+          },
+          {
+            "s": "Her defiant speech was ____ up as proof that reform was possible.",
+            "a": "held"
+          },
+          {
+            "s": "Ministers have not ____ out further talks, though they expect little from them.",
+            "a": "ruled"
+          },
+          {
+            "s": "The new law could ____ about changes that few people predicted.",
+            "a": "bring"
+          }
+        ],
+        "extra": [
+          "swept",
+          "turned"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: Grandmother's painting",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the cousin who wants to keep it",
+      "text": "You and your cousin have inherited a valuable painting from your grandmother. You want to keep it in the family home, where she hung it. Explain why it matters to you, and listen to your cousin's idea."
+    },
+    "b": {
+      "role": "the cousin who wants to lend it",
+      "text": "A local museum has asked to show the painting for a year. You think more people should see it. Explain your idea, and try to find an arrangement you can both accept."
+    },
+    "phrases": [
+      "I'd hate to see it leave the family.",
+      "That's a fair point, but more people could enjoy it.",
+      "What if we lent it for six months?",
+      "I don't think it's right to give it away.",
+      "We'd still own it, wouldn't we?",
+      "Let's try to find a compromise."
+    ],
+    "after": "Afterwards, tell the class: where did the painting end up, and was it a fair decision?"
   }
 }

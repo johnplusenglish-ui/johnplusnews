@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "The dodo lived on Mauritius until it ____ in the seventeenth century.",
-            "a": "died out"
+            "s": "Cutting down forests destroys the ____ where many animals live.",
+            "a": "habitat"
           },
           {
-            "s": "Today the bird is famous as ____.",
-            "a": "a symbol of extinction"
+            "s": "Bringing back a lost animal would be an ____ achievement.",
+            "a": "extraordinary"
           },
           {
-            "s": "The Nicobar pigeon is the dodo's ____.",
-            "a": "closest living relative"
+            "s": "Dogs and wolves share several ____, such as sharp teeth and a good sense of smell.",
+            "a": "characteristics"
           },
           {
-            "s": "This is not like bringing an original dodo ____.",
-            "a": "back from the dead"
+            "s": "Rats ____ to the island by ships ate the birds' eggs.",
+            "a": "introduced"
           },
           {
-            "s": "The research could ____ new ways of protecting endangered animals.",
-            "a": "lead to"
+            "s": "A mule ____ a horse, but it is a different animal.",
+            "a": "resembles"
           }
         ],
         "extra": [
-          "bring back",
-          "colourful"
+          "disturbed",
+          "predator"
         ]
       },
       "match": [
@@ -52,11 +52,6 @@
         "kind": "verb",
         "items": [
           {
-            "s": "The dodo was a large bird that could not ____.",
-            "cue": "fly",
-            "a": "fly"
-          },
-          {
             "s": "In October 2026, the company ____ progress in its dodo project.",
             "cue": "announce",
             "a": "announced"
@@ -65,6 +60,11 @@
             "s": "It said it ____ most of the dodo's genetic information.",
             "cue": "rebuild",
             "a": "had rebuilt"
+          },
+          {
+            "s": "People ____ rats and pigs to Mauritius, and the animals harmed the birds.",
+            "cue": "bring",
+            "a": "brought"
           },
           {
             "s": "The original birds ____ after people arrived on Mauritius.",
@@ -87,51 +87,120 @@
         {
           "s": "Scientists have produced a living dodo.",
           "a": "F",
-          "why": "The text says the opposite: \"The scientists have not produced a living dodo, and nobody can simply copy one from an old bone.\""
+          "why": "The text says the opposite: \"The scientists have not produced a living dodo.\""
         },
         {
-          "s": "The Nicobar pigeon is also endangered.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether the Nicobar pigeon is endangered."
+          "s": "Scientists believe the Nicobar pigeon is a distant relative of the dodo.",
+          "a": "F",
+          "why": "The text says it is \"the dodo's closest living relative\"."
         },
         {
           "s": "The dodo came from an island in the Indian Ocean.",
           "a": "T",
-          "why": "The text says: \"It lived on the island of Mauritius in the Indian Ocean until it died out in the seventeenth century.\""
+          "why": "The text says: \"It lived on the island of Mauritius in the Indian Ocean.\""
+        },
+        {
+          "s": "The company plans to set the first new bird free on Mauritius next year.",
+          "a": "N",
+          "why": "Not stated. The text gives no date for any release."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "extinction",
+          "d": "when a type of animal or plant dies and none are left"
+        },
+        {
+          "t": "symbol",
+          "d": "something that stands for a bigger idea"
+        },
+        {
+          "t": "genes",
+          "d": "tiny parts inside a living thing that decide how it looks and grows"
+        },
+        {
+          "t": "beak",
+          "d": "the hard part of a bird's mouth"
+        },
+        {
+          "t": "relative",
+          "d": "a member of the same family or group"
+        },
+        {
+          "t": "species",
+          "d": "one kind of animal or plant"
+        },
+        {
+          "t": "conservation",
+          "d": "work to protect nature and wild animals"
+        },
+        {
+          "t": "survive",
+          "d": "to stay alive"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a pair of words that go together naturally. We say make progress, not do progress.",
+        "items": [
+          {
+            "s": "The team has ____ good progress with its genetic research.",
+            "a": "made"
+          },
+          {
+            "s": "The project ____ an interesting question about how we protect animals.",
+            "a": "raises"
+          },
+          {
+            "s": "Governments must ____ action to protect rare animals.",
+            "a": "take"
+          },
+          {
+            "s": "Rats and cats ____ a serious threat to island birds.",
+            "a": "pose"
+          },
+          {
+            "s": "Safe habitats ____ an important role in protecting wildlife.",
+            "a": "play"
+          }
+        ],
+        "extra": [
+          "do",
+          "give"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Hunting and introduced animals helped to ____ the dodo.",
-            "a": "wipe out"
+            "s": "Landing a probe on a comet was widely praised as a great ____, and the team received awards.",
+            "a": "achievement"
           },
           {
-            "s": "Whether a dodo-like bird would ____ bringing the dodo back is another question.",
-            "a": "count as"
+            "s": "The dodo had several ____ features, including an unusually shaped beak.",
+            "a": "distinctive"
           },
           {
-            "s": "An AI-assisted system helps ____ changes linked to the bird's beak.",
-            "a": "pick out"
+            "s": "The film received a lot of ____ before its release, which helped it sell tickets.",
+            "a": "publicity"
           },
           {
-            "s": "De-extinction projects ____ partly because famous animals are involved.",
-            "a": "attract publicity"
+            "s": "Her ____ is to become the first person in her family to run a company.",
+            "a": "ambition"
           },
           {
-            "s": "The project is only beginning to ____.",
-            "a": "take shape"
+            "s": "After the argument, he decided to ____ his manager and explain how he felt.",
+            "a": "confront"
           },
           {
-            "s": "Its value may lie in techniques developed ____.",
-            "a": "along the way"
+            "s": "Doctors must decide their ____ when many patients arrive at once.",
+            "a": "priorities"
           }
         ],
         "extra": [
-          "glamorous",
-          "uncertain"
+          "campaign",
+          "recreate"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The large, ____ creature once lived on Mauritius.",
-            "cue": "FLIGHT",
-            "a": "flightless"
+            "s": "By October 2026, the company ____ most of the dodo's genome.",
+            "cue": "reconstruct",
+            "a": "had reconstructed"
           },
           {
-            "s": "The system identifies the dodo's ____ features.",
-            "cue": "DISTINGUISH",
-            "a": "distinctive"
+            "s": "The dodo ____ extinct for more than three centuries.",
+            "cue": "be",
+            "a": "has been"
           },
           {
-            "s": "The pigeon and the dodo share an ____ history.",
-            "cue": "EVOLVE",
-            "a": "evolutionary"
+            "s": "Without safe habitat, any released bird ____ little chance of surviving in the wild.",
+            "cue": "have",
+            "a": "would have|will have|has"
           },
           {
-            "s": "Better protection of genetic ____ could help living species.",
-            "cue": "DIVERSE",
-            "a": "diversity"
+            "s": "The word 'resurrection' ____ by some researchers because it suggests an exact return.",
+            "cue": "criticise",
+            "a": "is criticised|has been criticised|is being criticised"
           },
           {
-            "s": "Some researchers object to the word ____.",
-            "cue": "RESURRECT",
-            "a": "resurrection"
+            "s": "If scientists ____ better at protecting genetic diversity, living species may benefit.",
+            "cue": "get",
+            "a": "get|become"
           }
         ]
       },
@@ -191,51 +260,120 @@
         {
           "s": "Colossal says it has rebuilt almost all of the dodo's genetic code.",
           "a": "T",
-          "why": "The text says: \"The company said it had reconstructed about 95% of the dodo's genome, the collection of genetic instructions that helped determine how the bird developed.\""
+          "why": "The text says: \"reconstructed about 95% of the dodo's genome\"."
         },
         {
           "s": "Colossal is cooperating with Mauritians to prepare places where birds could live.",
           "a": "T",
-          "why": "The text says: \"The company is also working with people in Mauritius to explore how suitable habitat might be restored.\""
+          "why": "The text says: \"The company is also working with people in Mauritius\"."
         },
         {
           "s": "Colossal has produced a dodo-like bird through the programme.",
           "a": "F",
-          "why": "The text says the opposite: \"Colossal has not yet produced a living dodo or dodo-like bird through this programme.\""
+          "why": "The text says: \"Colossal has not yet produced a living dodo or dodo-like bird\"."
+        },
+        {
+          "s": "Researchers who object to the word 'resurrection' think it describes the technology accurately.",
+          "a": "F",
+          "why": "The text says it \"suggests an exact return that current technology cannot deliver\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "genome",
+          "d": "all the genetic information of a living thing"
+        },
+        {
+          "t": "flightless",
+          "d": "not able to fly"
+        },
+        {
+          "t": "extinct",
+          "d": "no longer alive anywhere in the world"
+        },
+        {
+          "t": "habitat",
+          "d": "the natural place where an animal or plant lives"
+        },
+        {
+          "t": "ecosystem",
+          "d": "all the living things in an area and how they affect each other"
+        },
+        {
+          "t": "resurrection",
+          "d": "the act of bringing something back to life"
+        },
+        {
+          "t": "resources",
+          "d": "money, time and materials that you can use"
+        },
+        {
+          "t": "enormous",
+          "d": "very, very big"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some verbs go with certain nouns for no logical reason. We raise funds and reach a conclusion, but we do not make them.",
+        "items": [
+          {
+            "s": "The company hopes to ____ funds from investors to continue the project.",
+            "a": "raise"
+          },
+          {
+            "s": "Famous animals ____ more attention than quiet, ordinary species.",
+            "a": "attract"
+          },
+          {
+            "s": "Any attempt to restore a lost species will ____ enormous practical challenges.",
+            "a": "face"
+          },
+          {
+            "s": "After years of debate, scientists have yet to ____ a firm conclusion.",
+            "a": "reach"
+          },
+          {
+            "s": "A gene-editing breakthrough could ____ a real contribution to wildlife protection.",
+            "a": "make"
+          }
+        ],
+        "extra": [
+          "do",
+          "pay"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Nor is that a gap which funding and publicity alone will ____.",
+            "s": "Persuading regulators to approve the release would be a ____ task, given how cautious they are.",
+            "a": "formidable"
+          },
+          {
+            "s": "The model offers only a rough ____ of how the ecosystem really behaves.",
+            "a": "approximation"
+          },
+          {
+            "s": "I disagree with the conclusion, but I admit the argument has some ____.",
+            "a": "merit"
+          },
+          {
+            "s": "Once the cost was explained, the initial enthusiasm began to ____.",
+            "a": "dissolve"
+          },
+          {
+            "s": "It will take more than donations to ____ the gap between the plans and the practice.",
             "a": "bridge"
           },
           {
-            "s": "It has become ____ itself.",
-            "a": "shorthand for extinction"
-          },
-          {
-            "s": "Scientists may ____ a genetic approximation of the bird.",
-            "a": "piece together"
-          },
-          {
-            "s": "The deeper difficulty is ____, not merely technical.",
-            "a": "conceptual"
-          },
-          {
-            "s": "Releasing such a bird without addressing those pressures would ____.",
-            "a": "make little ecological sense"
-          },
-          {
-            "s": "The company has not ____ extinction.",
-            "a": "done away with"
+            "s": "Rising sales are sometimes used as a ____ for consumer confidence.",
+            "a": "proxy"
           }
         ],
         "extra": [
-          "grapple with",
-          "viable"
+          "tenuous",
+          "pervasive"
         ]
       },
       "match": [
@@ -265,9 +403,9 @@
             "a": "disappearance"
           },
           {
-            "s": "The ____ challenges involved are formidable.",
-            "cue": "REPRODUCE",
-            "a": "reproductive"
+            "s": "The ____ of extinction is what makes every loss so serious.",
+            "cue": "REVERSE",
+            "a": "irreversibility"
           },
           {
             "s": "A bird engineered to resemble it might not reproduce its ____ role.",
@@ -275,39 +413,129 @@
             "a": "ecological"
           },
           {
-            "s": "The distance between identifying genetic targets and producing a viable animal remains ____.",
-            "cue": "CONSIDER",
-            "a": "considerable"
+            "s": "The ____ of any release depends on controlling introduced predators.",
+            "cue": "SUSTAIN",
+            "a": "sustainability"
           },
           {
-            "s": "Critics say such projects attract ____ attention and resources.",
+            "s": "Spending ____ large sums on one famous species may leave others without help.",
             "cue": "PROPORTION",
-            "a": "disproportionate"
+            "a": "disproportionately"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Preparing habitat for the birds is neither quick nor glamorous.",
+          "s": "The article suggests that identifying genes linked to the dodo's beak is easier than producing a viable bird.",
           "a": "T",
-          "why": "The text says: \"Habitat preparation is slow, unglamorous work, and it would have to succeed before any engineered bird could be released with any prospect of surviving.\""
+          "why": "The text says the distance between \"identifying promising genetic targets and producing a viable animal remains considerable\"."
         },
         {
-          "s": "The writer expects the dodo project to blur the line between restoration and imitation.",
+          "s": "The writer thinks funding and publicity would be enough to close the gap between genetic research and a viable bird.",
           "a": "F",
-          "why": "The text says the opposite: \"Perhaps the most useful contribution of such ambitious science will be to sharpen rather than dissolve the distinction between restoration and imitation.\""
+          "why": "The text says: \"Nor is that a gap which funding and publicity alone will bridge.\""
         },
         {
-          "s": "Colossal hopes to alter the genes of a bird that is related to the dodo.",
+          "s": "The writer accepts that both supporters and critics of the project have a reasonable point.",
           "a": "T",
-          "why": "The text says: \"Its proposed route involves introducing selected changes into a living relative, the Nicobar pigeon, and addressing the formidable reproductive challenges involved in producing genetically modified birds.\""
+          "why": "The text says: \"Both arguments have merit\"."
         },
         {
           "s": "Mauritius has agreed to release any engineered bird into the wild.",
           "a": "N",
           "why": "Not stated. The text does not say whether Mauritius has agreed to any release of engineered birds."
+        },
+        {
+          "s": "The writer treats a convincing likeness of the dodo as scientifically worthless.",
+          "a": "F",
+          "why": "The text says it \"could be a remarkable scientific achievement\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "shorthand",
+          "d": "a quick way of referring to something bigger"
+        },
+        {
+          "t": "genome",
+          "d": "the full set of genetic instructions of a living thing"
+        },
+        {
+          "t": "conceptual",
+          "d": "connected with ideas rather than practical details"
+        },
+        {
+          "t": "advocates",
+          "d": "people who publicly support an idea or plan"
+        },
+        {
+          "t": "unglamorous",
+          "d": "not exciting or attractive"
+        },
+        {
+          "t": "prospect",
+          "d": "the chance that something will happen"
+        },
+        {
+          "t": "restoration",
+          "d": "the act of returning something to its earlier condition"
+        },
+        {
+          "t": "spectacular",
+          "d": "very impressive and dramatic"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "At C1, many collocations need one exact verb or adjective. We lay the groundwork, but we make progress.",
+        "items": [
+          {
+            "s": "The pilot study helped ____ the groundwork for a much larger programme.",
+            "a": "lay"
+          },
+          {
+            "s": "Several biologists have ____ doubts about whether a modified pigeon counts as a dodo.",
+            "a": "voiced"
+          },
+          {
+            "s": "The announcement has triggered a ____ debate among biologists.",
+            "a": "heated"
+          },
+          {
+            "s": "Promoters of the technology sometimes make ____ claims about what it can achieve.",
+            "a": "sweeping"
+          },
+          {
+            "s": "Releasing animals without proper planning can have ____ consequences for native wildlife.",
+            "a": "unforeseen"
+          }
+        ],
+        "extra": [
+          "pave",
+          "dismantle"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: where should the money go?",
+    "setup": "Work in pairs. Your wildlife charity has £50,000 to spend. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the colleague who wants to protect living birds",
+      "text": "You want to spend the money on a nature reserve for birds in danger today. Explain why. Ask your partner what they would really get for the money."
+    },
+    "b": {
+      "role": "the colleague who likes the new science",
+      "text": "You want to give the money to research that tries to bring back a lost animal. Say why it could help. Listen to your partner's worries and try to agree a plan."
+    },
+    "phrases": [
+      "I'd rather spend it on animals we can still save.",
+      "That's a fair point, but it's worth the risk.",
+      "What would we actually get for the money?",
+      "I don't think it's one or the other.",
+      "Could we split it between the two projects?",
+      "We're running out of time, so let's decide."
+    ],
+    "after": "Afterwards, tell the class: where did the money go, and who gave way?"
   }
 }

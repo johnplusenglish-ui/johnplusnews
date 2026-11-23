@@ -6,6 +6,7 @@ source: Associated Press | https://apnews.com/article/aa380c6826d788a3123fd36378
 image: images/a-body-in-a-barrel-a-40-year-old-mystery-b2ac3c.jpg
 image-alt: A rusted metal barrel lies on cracked dried mud beside a shrinking lake, with two people and a small boat on the far shoreline below rocky hills.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

@@ -6,6 +6,7 @@ source: ABC News Australia | https://www.abc.net.au/news/2026-10-11/running-lege
 image: images/the-marathon-legend-who-refuses-to-get-old-9f3e69.jpg
 image-alt: A lone distance runner in a white vest and orange shorts runs down the middle of a tree-lined city street, watched by crowds behind barriers.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

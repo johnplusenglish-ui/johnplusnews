@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "When you finally ____, the cheapest tickets are gone.",
-            "a": "reach the front of the queue"
+            "s": "Some artists earn most of their ____ from touring.",
+            "a": "income"
           },
           {
-            "s": "When cheaper tickets ____, only more expensive ones remain.",
-            "a": "sell out"
+            "s": "Extra ____ can make the total price much higher than you first saw.",
+            "a": "fees"
           },
           {
-            "s": "Their favourite artist may not ____ for years.",
-            "a": "come back"
+            "s": "A big band needs a lot of special ____, such as lights and speakers.",
+            "a": "equipment"
           },
           {
-            "s": "Smaller local concerts can offer better ____.",
-            "a": "value for money"
+            "s": "Fans must plan their ____ carefully, because a ticket, a hotel and travel all cost money.",
+            "a": "budget"
           },
           {
-            "s": "Music ____, but expensive tickets keep many fans outside.",
-            "a": "brings people together"
+            "s": "The concert will take place in a large ____ in the city centre.",
+            "a": "venue"
           }
         ],
         "extra": [
-          "miss out",
-          "wealthy"
+          "refund",
+          "audience"
         ]
       },
       "match": [
@@ -98,40 +98,109 @@
           "s": "Some concerts have several different price levels.",
           "a": "T",
           "why": "The text says: \"Some concerts have several price levels.\""
+        },
+        {
+          "s": "Oasis fans knew before the sale that standing tickets had different prices.",
+          "a": "F",
+          "why": "The text says fans waited \"without realising that standing tickets were being sold at different fixed prices\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "familiar",
+          "d": "something you know well because you have seen it many times"
+        },
+        {
+          "t": "technicians",
+          "d": "people who work with the machines and lights at a show"
+        },
+        {
+          "t": "resale",
+          "d": "selling something that you bought before"
+        },
+        {
+          "t": "reunion",
+          "d": "when a band comes back together after a long time"
+        },
+        {
+          "t": "stadium",
+          "d": "a very big place where many people watch sport or music"
+        },
+        {
+          "t": "pressure",
+          "d": "a strong feeling that you must do something"
+        },
+        {
+          "t": "authority",
+          "d": "an official group that makes sure rules are followed"
+        },
+        {
+          "t": "damage",
+          "d": "to hurt or make something worse"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some words just go together. We say a long queue and take part, but not a tall queue or join part.",
+        "items": [
+          {
+            "s": "Fans often ____ a lot of money on tickets, travel and hotels.",
+            "a": "spend"
+          },
+          {
+            "s": "Many fans cannot ____ part in shared moments if prices keep rising.",
+            "a": "take"
+          },
+          {
+            "s": "Fans wait in ____ online queues before they can buy a ticket.",
+            "a": "long"
+          },
+          {
+            "s": "Concerts by very famous artists often have ____ prices.",
+            "a": "high"
+          },
+          {
+            "s": "Extra fees often ____ the total price that fans first saw.",
+            "a": "increase"
+          }
+        ],
+        "extra": [
+          "heavy",
+          "attend"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Fans make rushed decisions about ____ hundreds of pounds.",
-            "a": "forking out"
+            "s": "Touring has become an important source of ____ for many artists.",
+            "a": "revenue"
           },
           {
-            "s": "Live music feels less like an affordable ____ than a rare treat.",
-            "a": "night out"
+            "s": "The company faced strong ____ after its website crashed during the sale.",
+            "a": "criticism"
           },
           {
-            "s": "It has become something they must ____.",
-            "a": "save up for"
+            "s": "Some fans find it hard to ____ spending a month's wages on one evening.",
+            "a": "justify"
           },
           {
-            "s": "The pricing structure had not been explained clearly enough ____.",
-            "a": "in advance"
+            "s": "For many people, a small local gig is a real ____ to a stadium show.",
+            "a": "alternative"
           },
           {
-            "s": "Some promoters have tried to ____ the price of tickets.",
-            "a": "keep down"
+            "s": "There is an important ____ between a high price and an unclear price.",
+            "a": "distinction"
           },
           {
-            "s": "Live music resembles less and less the shared experience that made it popular ____.",
-            "a": "in the first place"
+            "s": "Fans complained that information about ticket ____ was hard to find before the sale.",
+            "a": "availability"
           }
         ],
         "extra": [
-          "priced out",
-          "exclusive"
+          "dispute",
+          "preference"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The ____ of seeing a favourite artist can disappear quickly when ticket sales begin.",
-            "cue": "EXCITE",
-            "a": "excitement"
+            "s": "By the time many fans reached the front of the queue, the cheaper tickets ____.",
+            "cue": "sell",
+            "a": "had sold out"
           },
           {
-            "s": "There are ____ reasons why prices have risen.",
-            "cue": "UNDERSTAND",
-            "a": "understandable"
+            "s": "Touring costs ____ in recent years.",
+            "cue": "increase",
+            "a": "have increased"
           },
           {
-            "s": "Following an ____, the authority secured commitments from Ticketmaster.",
-            "cue": "INVESTIGATE",
-            "a": "investigation"
+            "s": "Last month, the same ticket ____ at three times its original price on a resale site.",
+            "cue": "advertise",
+            "a": "was advertised"
           },
           {
-            "s": "Resale websites create additional ____.",
-            "cue": "FRUSTRATE",
-            "a": "frustration"
+            "s": "Fans would feel less pressure if their favourite artist ____ nearby more often.",
+            "cue": "perform",
+            "a": "performed"
           },
           {
-            "s": "Small ____ venues often struggle despite cheaper tickets.",
-            "cue": "DEPEND",
-            "a": "independent"
+            "s": "If prices keep rising, fewer young people ____ able to attend.",
+            "cue": "be",
+            "a": "will be"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Streaming income differs from the old business of selling physical albums.",
+          "s": "The authority was unhappy mainly about how the ticket tiers were presented, not about prices changing in real time.",
           "a": "T",
-          "why": "The text says: \"Streaming gives listeners easy access to songs, but the income musicians receive from it is very different from the old business of selling physical albums.\""
+          "why": "Its concerns \"centred on the way different ticket tiers and their benefits were presented\", and it found no evidence of real-time dynamic pricing."
         },
         {
-          "s": "The UK's competition authority secured commitments from Ticketmaster about customer information.",
-          "a": "T",
-          "why": "The text says: \"Following an investigation, the UK's Competition and Markets Authority secured commitments from Ticketmaster to improve the information given to customers.\""
-        },
-        {
-          "s": "The competition authority found that Oasis tickets changed price through real-time dynamic pricing.",
+          "s": "The text says streaming pays musicians about the same as album sales once did.",
           "a": "F",
-          "why": "The text says the opposite: \"The authority did not find evidence that the Oasis tickets changed price through real-time dynamic pricing.\""
+          "why": "The income from streaming is described as \"very different from the old business of selling physical albums\"."
         },
         {
-          "s": "Oasis have apologised to fans about the ticket sale.",
+          "s": "Small independent venues offer cheaper live music, but many find it hard to survive.",
+          "a": "T",
+          "why": "The text says they offer \"much cheaper live music, though many struggle to stay open\"."
+        },
+        {
+          "s": "Ticketmaster has since changed how its website shows ticket tiers.",
           "a": "N",
-          "why": "Not stated. The text does not say whether Oasis apologised to fans."
+          "why": "The text says it gave commitments, but not whether it has made changes yet."
+        },
+        {
+          "s": "The authority decided that the Oasis sale used dynamic pricing but approved of it.",
+          "a": "F",
+          "why": "It \"did not find evidence\" of real-time dynamic pricing in the Oasis sale."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "tiered",
+          "d": "arranged in different levels, for example of price"
+        },
+        {
+          "t": "resale",
+          "d": "selling something that you bought before"
+        },
+        {
+          "t": "commitments",
+          "d": "serious promises to do something"
+        },
+        {
+          "t": "enormous",
+          "d": "extremely big"
+        },
+        {
+          "t": "struggle",
+          "d": "to find something very hard to do or survive"
+        },
+        {
+          "t": "reunion",
+          "d": "when a band comes back together after a long time"
+        },
+        {
+          "t": "treat",
+          "d": "something special that you enjoy but do not have often"
+        },
+        {
+          "t": "promoters",
+          "d": "people or companies that organise and advertise events"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Learn the verb with its noun as one unit. We make a decision and have no choice, but we do not do a decision.",
+        "items": [
+          {
+            "s": "Fans in a hurry often ____ rushed decisions when ticket sales begin.",
+            "a": "make"
+          },
+          {
+            "s": "Travel, food and hotels can ____ a lot to the cost of a night out.",
+            "a": "add"
+          },
+          {
+            "s": "If the artist rarely performs nearby, some fans feel they have no ____ but to pay.",
+            "a": "choice"
+          },
+          {
+            "s": "The investigation raised serious ____ about how the ticket tiers were explained.",
+            "a": "concerns"
+          },
+          {
+            "s": "Students on a tight ____ often cannot afford a stadium ticket.",
+            "a": "budget"
+          }
+        ],
+        "extra": [
+          "reward",
+          "habit"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Stadium tours are still ____, but unease is growing.",
-            "a": "snapped up"
+            "s": "Years of goodwill can ____ in a single afternoon if customers feel misled.",
+            "a": "unravel"
           },
           {
-            "s": "No performer is ____ sell tickets below what audiences will pay.",
-            "a": "obliged to"
+            "s": "The polished brochure ____ the fact that most of the budget goes on fees.",
+            "a": "conceals"
           },
           {
-            "s": "Those costs ____, one way or another, in the price the person in the queue pays.",
-            "a": "end up"
+            "s": "Her decision to leave early only ____ the impression that the festival was badly organised.",
+            "a": "reinforced"
           },
           {
-            "s": "The phrase dynamic pricing has become ____ for a bad ticket sale.",
-            "a": "a catch-all explanation"
+            "s": "Share prices and ticket prices alike are prone to sudden ____.",
+            "a": "fluctuations"
           },
           {
-            "s": "The economics of concerts are ____ complicated.",
-            "a": "undeniably"
+            "s": "Once a mass pastime, opera has become, for some, a ____ of the wealthy.",
+            "a": "privilege"
           },
           {
-            "s": "Hesitation becomes expensive, and reflection ____.",
-            "a": "a luxury in itself"
+            "s": "Few households can go on ____ the whole cost of a stadium night out on a single wage.",
+            "a": "shouldering"
           }
         ],
         "extra": [
-          "eat away at",
-          "scarce"
+          "exemption",
+          "aversion"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "In an age of almost ____ recorded music, seeing an artist in person has become harder to afford.",
-            "cue": "LIMIT",
-            "a": "limitless"
+            "s": "The way the tiers were presented left many fans feeling ____ about what they were paying for.",
+            "cue": "CERTAIN",
+            "a": "uncertain"
           },
           {
-            "s": "____ concerts employ large production teams.",
-            "cue": "AMBITION",
-            "a": "Ambitious"
-          },
-          {
-            "s": "The authority concluded that Ticketmaster had not communicated key information ____.",
-            "cue": "ADEQUATE",
-            "a": "adequately"
-          },
-          {
-            "s": "Their success conceals a growing ____ about who can take part in live music.",
-            "cue": "EASE",
-            "a": "unease"
-          },
-          {
-            "s": "____ is not the same thing as affordability.",
+            "s": "Campaigners want greater ____ about how fees are calculated.",
             "cue": "TRANSPARENT",
-            "a": "Transparency"
+            "a": "transparency"
+          },
+          {
+            "s": "The ____ of the ticket tiers led some fans to misjudge the final price.",
+            "cue": "COMPLEX",
+            "a": "complexity"
+          },
+          {
+            "s": "Demand for resale tickets is notoriously ____.",
+            "cue": "PREDICT",
+            "a": "unpredictable"
+          },
+          {
+            "s": "Critics describe hidden fees as ____ because they hide the real cost.",
+            "cue": "LEAD",
+            "a": "misleading"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The competition authority secured undertakings about clearer advance warnings on ticket tiers.",
+          "s": "The authority's findings suggest that the Oasis sale's difficulties came from poor communication rather than algorithmic pricing.",
           "a": "T",
-          "why": "The text says: \"It secured undertakings requiring clearer advance warnings about ticket tiers, better price information in queues and more accurate descriptions of ticket benefits.\""
+          "why": "It found that Ticketmaster \"had not communicated key information adequately\" but did not establish real-time price fluctuations."
         },
         {
-          "s": "Touring costs include insurance, security and equipment.",
-          "a": "T",
-          "why": "The text says: \"Ambitious concerts employ large production teams and involve transport, insurance, security, equipment and venue costs that have risen in recent years.\""
-        },
-        {
-          "s": "The competition authority fined Ticketmaster for the Oasis sale.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether Ticketmaster was fined."
-        },
-        {
-          "s": "The authority established that Oasis tickets changed price in real time.",
+          "s": "The writer says the Oasis sale proved that dynamic pricing was used.",
           "a": "F",
-          "why": "The text says the opposite: \"Crucially, the authority did not establish that Oasis tickets were subject to real-time algorithmic price fluctuations.\""
+          "why": "The authority \"did not establish\" real-time algorithmic price fluctuations."
+        },
+        {
+          "s": "The writer believes clearer pricing information would make concerts affordable.",
+          "a": "F",
+          "why": "The text says \"Transparency is not the same thing as affordability\"."
+        },
+        {
+          "s": "The authority ordered Ticketmaster to refund fans who bought tiered tickets.",
+          "a": "N",
+          "why": "Refunds are never mentioned; the text only describes undertakings about information."
+        },
+        {
+          "s": "Independent venues face pressure whichever side of the pricing argument is accepted.",
+          "a": "T",
+          "why": "\"Neither argument removes the pressure on independent venues.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "algorithmic",
+          "d": "controlled by a computer process that follows set rules"
+        },
+        {
+          "t": "distortion",
+          "d": "a change that makes something less fair or accurate"
+        },
+        {
+          "t": "catch-all",
+          "d": "covering many different things in one general way"
+        },
+        {
+          "t": "mark-ups",
+          "d": "amounts added to a price to make a profit"
+        },
+        {
+          "t": "tiered",
+          "d": "arranged in different levels, for example of price"
+        },
+        {
+          "t": "obliged",
+          "d": "forced by a rule or duty to do something"
+        },
+        {
+          "t": "exposure",
+          "d": "the chance for many people to see or hear you"
+        },
+        {
+          "t": "unease",
+          "d": "a worried feeling that something is not right"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "At this level, pairs are often fixed and slightly formal: an adjective that fits only certain nouns, or a verb that suits only certain objects.",
+        "items": [
+          {
+            "s": "A ____ booking fee can turn a reasonable ticket into an unaffordable one.",
+            "a": "hefty"
+          },
+          {
+            "s": "Regulators can ____ sanctions on firms that mislead their customers.",
+            "a": "impose"
+          },
+          {
+            "s": "Some commentators ____ concerns that live music is turning into a rich person's pastime.",
+            "a": "raise"
+          },
+          {
+            "s": "The queue system put fans under ____ pressure to decide quickly.",
+            "a": "mounting"
+          },
+          {
+            "s": "Resale sites can ____ prices far beyond face value.",
+            "a": "inflate"
+          }
+        ],
+        "extra": [
+          "slender",
+          "sparse"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: is the ticket worth it?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend who wants to go",
+      "text": "Your favourite singer is on tour and tickets are very expensive. You want to buy two. Explain why it matters to you. Ask your friend to come, and answer their worries."
+    },
+    "b": {
+      "role": "the friend who is not sure",
+      "text": "You like the singer, but the ticket, the travel and a hotel cost a lot. Ask questions about the total price. Suggest another plan, then decide together."
+    },
+    "phrases": [
+      "I'd love to go, but it's a lot of money.",
+      "It's a once in a lifetime chance.",
+      "How much would it cost in total?",
+      "We could save up for it.",
+      "What about a smaller gig instead?",
+      "I think it's worth it, don't you?"
+    ],
+    "after": "Afterwards, tell the class: did you buy the tickets, and was it a fair decision?"
   }
 }

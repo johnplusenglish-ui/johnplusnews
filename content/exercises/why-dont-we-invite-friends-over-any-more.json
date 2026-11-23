@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You start writing a message: 'Would you like to ____ tonight?'",
-            "a": "come over"
+            "s": "Some hosts ____ that their friends will notice the dishes in the sink.",
+            "a": "worry"
           },
           {
-            "s": "There is shopping, cooking and ____ afterwards.",
-            "a": "cleaning up"
+            "s": "Some guests have ____ to nuts or milk, so the host must plan the food carefully.",
+            "a": "allergies"
           },
           {
-            "s": "It can seem easier to let somebody else ____.",
-            "a": "do the washing-up"
+            "s": "A phone call is quick, but a visit gives you time for a proper ____.",
+            "a": "conversation"
           },
           {
-            "s": "A simple invitation may ____ who has been feeling lonely.",
-            "a": "mean a lot to someone"
+            "s": "Please send an ____ to every guest before Friday.",
+            "a": "invitation"
           },
           {
-            "s": "Friends can relax, ____ and stay as long as they like.",
-            "a": "bring something to share"
+            "s": "Many people feel ____ when they spend too much time alone.",
+            "a": "lonely"
           }
         ],
         "extra": [
-          "messy",
-          "empty"
+          "expensive",
+          "careful"
         ]
       },
       "match": [
@@ -52,29 +52,29 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Then you ____ the dishes in the sink and delete the message.",
-            "cue": "notice",
-            "a": "notice"
+            "s": "Yesterday I ____ a message to my neighbour.",
+            "cue": "send",
+            "a": "sent"
           },
           {
-            "s": "A simple invitation may mean a lot to someone who has been ____ lonely.",
-            "cue": "feel",
-            "a": "feeling"
+            "s": "Last night, Maria ____ pizza instead of cooking.",
+            "cue": "buy",
+            "a": "bought"
           },
           {
-            "s": "Perhaps we need ____ less of ourselves as hosts.",
-            "cue": "expect",
-            "a": "to expect"
+            "s": "Last week I ____ to invite my sister because I was too tired.",
+            "cue": "forget",
+            "a": "forgot"
           },
           {
-            "s": "____ a free evening can involve a great many messages.",
-            "cue": "arrange",
-            "a": "Arranging"
+            "s": "I haven't ____ my friends for a month.",
+            "cue": "see",
+            "a": "seen"
           },
           {
-            "s": "A simple dinner suddenly ____ lots of planning.",
-            "cue": "need",
-            "a": "needs"
+            "s": "Tom ____ the kitchen before the guests arrived.",
+            "cue": "clean",
+            "a": "cleaned"
           }
         ]
       },
@@ -98,40 +98,109 @@
           "s": "The writer says you should always cook a proper meal for guests.",
           "a": "F",
           "why": "The text says the opposite: \"Buying pizza is fine, and so is asking a guest to help make the tea.\""
+        },
+        {
+          "s": "The text says a simple invitation can matter to a lonely person.",
+          "a": "T",
+          "why": "The text says it \"may also mean a lot to someone who has been feeling lonely\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "pressure",
+          "d": "a feeling that you must do something"
+        },
+        {
+          "t": "untidy",
+          "d": "not neat, with things in the wrong place"
+        },
+        {
+          "t": "preferences",
+          "d": "things you like more than other things"
+        },
+        {
+          "t": "hosts",
+          "d": "people who invite guests to their home"
+        },
+        {
+          "t": "bill",
+          "d": "a paper that shows how much money you must pay"
+        },
+        {
+          "t": "relax",
+          "d": "rest and stop feeling worried"
+        },
+        {
+          "t": "schedules",
+          "d": "plans that show what you will do and when"
+        },
+        {
+          "t": "visitors",
+          "d": "people who come to see you at your home"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many verbs and adjectives need a small fixed word after them. Learn the pair together, for example worried about.",
+        "items": [
+          {
+            "s": "She is worried ____ the state of her flat.",
+            "a": "about"
+          },
+          {
+            "s": "We agreed ____ a date for the party.",
+            "a": "on"
+          },
+          {
+            "s": "Thank you ____ coming over.",
+            "a": "for"
+          },
+          {
+            "s": "I'm proud ____ my small kitchen.",
+            "a": "of"
+          },
+          {
+            "s": "She is interested ____ cooking for her friends.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "with",
+          "from"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Social media offers endless photographs of ____ kitchens.",
+            "s": "The flat was ____ after she spent the whole morning cleaning it.",
             "a": "spotless"
           },
           {
-            "s": "There is perhaps a bathroom that ____.",
-            "a": "could do with cleaning"
+            "s": "After years of living alone, he was ____ to eating dinner in silence.",
+            "a": "accustomed"
           },
           {
-            "s": "A relaxed ____ can turn into hours of shopping and cooking.",
-            "a": "get-together"
+            "s": "It would be ____ to arrive at nine at night without phoning first.",
+            "a": "inconsiderate"
           },
           {
-            "s": "Many people now arrange social events ____.",
-            "a": "weeks in advance"
+            "s": "Eating out is one of several ____ if you don't want to cook.",
+            "a": "alternatives"
           },
           {
-            "s": "____ unexpectedly may now feel inconsiderate.",
-            "a": "Popping round"
+            "s": "Evenings out are ____ hard to organise when people work shifts.",
+            "a": "particularly"
           },
           {
-            "s": "Once the sofa has won a few Fridays in a row, it tends to ____.",
-            "a": "keep on winning"
+            "s": "People often choose the sofa over the pub for the sake of ____.",
+            "a": "convenience"
           }
         ],
         "extra": [
-          "hang up",
-          "elaborate"
+          "elegant",
+          "relaxed"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Social media shows ____ furniture and carefully prepared meals.",
-            "cue": "STYLE",
-            "a": "stylish"
+            "s": "By the time her guests arrived, she ____ the table.",
+            "cue": "set",
+            "a": "had set"
           },
           {
-            "s": "It is easy to feel ____ about these ordinary things.",
-            "cue": "EMBARRASS",
-            "a": "embarrassed"
+            "s": "The invitation ____ before the weekend, but nobody replied.",
+            "cue": "send",
+            "a": "was sent"
           },
           {
-            "s": "A host may worry about allergies or ____ preferences.",
-            "cue": "DIET",
-            "a": "dietary"
+            "s": "If I were you, I ____ them round this weekend.",
+            "cue": "invite",
+            "a": "would invite"
           },
           {
-            "s": "Streaming services and the ____ of staying in offer alternatives.",
-            "cue": "CONVENIENT",
-            "a": "convenience"
+            "s": "She ____ her friends for months before she finally invited them.",
+            "cue": "not see",
+            "a": "had not seen"
           },
           {
-            "s": "The most ____ evenings are not always the ones with the best food.",
-            "cue": "MEMORY",
-            "a": "memorable"
+            "s": "Guests ____ to bring a dish at our house.",
+            "cue": "ask",
+            "a": "are asked"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "The decline is sharper in cities than in the countryside.",
           "a": "N",
           "why": "Not stated. The text does not compare cities with the countryside."
+        },
+        {
+          "s": "The writer advises waiting until the house is clean before inviting anyone.",
+          "a": "F",
+          "why": "The text says to \"lower our standards\" and to \"invite them anyway\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "dietary",
+          "d": "connected with the food a person can or cannot eat"
+        },
+        {
+          "t": "stylish",
+          "d": "fashionable and attractive"
+        },
+        {
+          "t": "embarrassed",
+          "d": "feeling shy or silly in front of other people"
+        },
+        {
+          "t": "unexpectedly",
+          "d": "in a way that nobody planned or knew about"
+        },
+        {
+          "t": "standards",
+          "d": "the level of quality that you expect"
+        },
+        {
+          "t": "pattern",
+          "d": "something that happens in the same way again and again"
+        },
+        {
+          "t": "abandon",
+          "d": "stop doing something completely"
+        },
+        {
+          "t": "comfortable",
+          "d": "relaxed and not worried"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Adjectives, verbs and nouns often choose one preposition. Notice the pair in context and do not translate it from your own language.",
+        "items": [
+          {
+            "s": "Whether the evening goes well can depend ____ how relaxed the host feels.",
+            "a": "on"
+          },
+          {
+            "s": "She apologised ____ the mess in the hall.",
+            "a": "for"
+          },
+          {
+            "s": "She is brilliant ____ making guests feel welcome.",
+            "a": "at"
+          },
+          {
+            "s": "The simple invitation resulted ____ a long, friendly evening.",
+            "a": "in"
+          },
+          {
+            "s": "He is jealous ____ friends with big gardens.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "with",
+          "by"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "An ordinary expression of friendship has acquired the demands of ____.",
-            "a": "a minor production"
+            "s": "Hosting is easiest on the rare weekend when everyone's availability ____.",
+            "a": "aligns"
           },
           {
-            "s": "A pile of washing or a crowded kitchen becomes something to ____.",
-            "a": "apologise for"
+            "s": "Household chores have fallen ____ on one partner in many families.",
+            "a": "disproportionately"
           },
           {
-            "s": "The ____ visit has given way to a chain of messages about diaries.",
+            "s": "The ____ drink after work, unplanned and unrehearsed, often leads to the best conversation.",
             "a": "spontaneous"
           },
           {
-            "s": "A streaming subscription offers relaxation ____.",
-            "a": "on demand"
+            "s": "Some commentators describe the decline in socialising as a ____ from public life into the private sphere.",
+            "a": "retreat"
           },
           {
-            "s": "Opportunities for casual companionship are being ____ by easier routines.",
-            "a": "crowded out"
+            "s": "The café was chosen because it was ____ ground, belonging to neither of the two rivals.",
+            "a": "neutral"
           },
           {
-            "s": "The labour of cooking has often fallen ____ on women.",
-            "a": "disproportionately"
+            "s": "The host's ____ manners and flawless table setting suited a formal dinner.",
+            "a": "polished"
           }
         ],
         "extra": [
-          "clear away",
-          "neutral"
+          "ageing",
+          "unequal"
         ]
       },
       "match": [
@@ -260,29 +398,29 @@
         "kind": "word",
         "items": [
           {
-            "s": "The ordinary evidence of living can begin to feel like ____.",
-            "cue": "FAIL",
-            "a": "failure"
+            "s": "The ____ of the invitation made everyone feel at ease.",
+            "cue": "SIMPLE",
+            "a": "simplicity"
           },
           {
-            "s": "Hosting can feel like a test of ____ and taste.",
-            "cue": "COMPETENT",
-            "a": "competence"
+            "s": "It would be ____ to blame guests for a crowded flat.",
+            "cue": "FAIR",
+            "a": "unfair"
           },
           {
-            "s": "Dietary ____ call for thought when planning a meal.",
-            "cue": "REQUIRE",
-            "a": "requirements"
+            "s": "There is a widespread ____ about how a home appears to others.",
+            "cue": "ANXIOUS",
+            "a": "anxiety"
           },
           {
-            "s": "It would be unfair to ____ the past.",
-            "cue": "ROMANTIC",
-            "a": "romanticise"
+            "s": "The ____ of takeaway apps has made cooking for guests seem optional.",
+            "cue": "AVAILABLE",
+            "a": "availability"
           },
           {
-            "s": "The answer to an unequal division of domestic work need not be the ____ of hospitality.",
-            "cue": "ABANDON",
-            "a": "abandonment"
+            "s": "Guests often leave feeling ____ by an evening of real conversation.",
+            "cue": "REFRESH",
+            "a": "refreshed"
           }
         ]
       },
@@ -303,11 +441,101 @@
           "why": "Not stated. The text does not compare British and American hosting."
         },
         {
-          "s": "Habits of socialising differ from one country to another.",
+          "s": "The writer suggests that easy home entertainment makes company seem more costly by comparison.",
           "a": "T",
-          "why": "The text says: \"Such figures do not prove that hosting has disappeared, and cultural habits vary considerably between countries.\""
+          "why": "The text says convenience \"has quietly raised the relative cost of company\"."
+        },
+        {
+          "s": "The writer believes the survey proves that hosting has disappeared.",
+          "a": "F",
+          "why": "The text says: \"Such figures do not prove that hosting has disappeared\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "aesthetic",
+          "d": "a set of ideas about what looks beautiful"
+        },
+        {
+          "t": "postponed",
+          "d": "delayed until a later time"
+        },
+        {
+          "t": "competence",
+          "d": "the ability to do something well"
+        },
+        {
+          "t": "romanticise",
+          "d": "make something from the past seem better than it was"
+        },
+        {
+          "t": "hospitality",
+          "d": "friendly and generous treatment of guests"
+        },
+        {
+          "t": "modest",
+          "d": "not large or showy"
+        },
+        {
+          "t": "contribute",
+          "d": "give something to help a shared effort"
+        },
+        {
+          "t": "labour",
+          "d": "hard work, especially physical or household work"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "These are fixed C1 pairings of adjective, noun or phrase plus preposition. Learn each one as a single chunk.",
+        "items": [
+          {
+            "s": "Turning down every invitation is tantamount ____ admitting that you prefer to be alone.",
+            "a": "to"
+          },
+          {
+            "s": "Hosting can be fraught ____ small anxieties about food and furniture.",
+            "a": "with"
+          },
+          {
+            "s": "The success of a dinner is rarely contingent ____ the quality of the menu.",
+            "a": "on"
+          },
+          {
+            "s": "The cult of convenience has flourished at the expense ____ real company.",
+            "a": "of"
+          },
+          {
+            "s": "Hosts are not answerable ____ every guest's mood.",
+            "a": "for"
+          }
+        ],
+        "extra": [
+          "at",
+          "in"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: come round on Friday?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the host",
+      "text": "You want to invite a friend to your flat on Friday. It's a bit untidy and you have no special food. Persuade your friend to come anyway."
+    },
+    "b": {
+      "role": "the friend",
+      "text": "You'd prefer to meet in a café. You're tired and you don't want to see a messy flat. Ask questions and say what would change your mind."
+    },
+    "phrases": [
+      "Why don't you come round on Friday?",
+      "I'm afraid the flat's a mess.",
+      "I wouldn't mind that at all.",
+      "Let's meet at a café instead.",
+      "I'll bring dessert if that helps.",
+      "That's a fair point, so let's do that."
+    ],
+    "after": "Afterwards, tell the class: where did you decide to meet, and why?"
   }
 }

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Scientists are ____ an unusual treatment that may help some people.",
-            "a": "trying out"
+            "s": "Because the treatment is still ____, doctors cannot offer it to everyone yet.",
+            "a": "experimental"
           },
           {
-            "s": "The results of a small study ____, although the treatment is experimental.",
-            "a": "offer some hope"
+            "s": "The first results were ____, so the researchers felt hopeful.",
+            "a": "encouraging"
           },
           {
-            "s": "For a person who has lost much of their sight, finding a door could ____.",
-            "a": "make daily life easier"
+            "s": "Doctors ____ the medicine into one eye with a very small needle.",
+            "a": "injected"
           },
           {
-            "s": "The technology did not allow patients to ____ faces.",
-            "a": "make out"
+            "s": "Many people prefer to do things ____ and not ask for help.",
+            "a": "independently"
           },
           {
-            "s": "It is ____ whether similar results would occur in a larger group.",
-            "a": "too early to know"
+            "s": "The goggles gave only a ____ amount of information, so patients could not see faces.",
+            "a": "limited"
           }
         ],
         "extra": [
-          "move around",
-          "encouraging"
+          "reliable",
+          "treated"
         ]
       },
       "match": [
@@ -62,9 +62,9 @@
             "a": "changed"
           },
           {
-            "s": "Finding an object or ____ around a room with confidence can matter a lot.",
-            "cue": "move",
-            "a": "moving"
+            "s": "Six of the ten patients ____ an important improvement in light sensitivity.",
+            "cue": "show",
+            "a": "showed"
           },
           {
             "s": "One serious problem ____ during an injection.",
@@ -97,41 +97,110 @@
         {
           "s": "The treatment allowed patients to recognise faces.",
           "a": "F",
-          "why": "The text says the opposite: \"However, the patients could not see normally, and the technology did not allow them to make out faces.\""
+          "why": "The text says the opposite: \"the technology did not allow them to make out faces.\""
+        },
+        {
+          "s": "The virus was put into both eyes of each patient.",
+          "a": "F",
+          "why": "The text says doctors put a virus \"into one eye\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "goggles",
+          "d": "special glasses that cover your eyes"
+        },
+        {
+          "t": "virus",
+          "d": "a very small living thing that can make people ill"
+        },
+        {
+          "t": "restore",
+          "d": "to bring something back to how it was before"
+        },
+        {
+          "t": "damage",
+          "d": "harm that spoils something"
+        },
+        {
+          "t": "sensitive",
+          "d": "able to notice small changes, such as light"
+        },
+        {
+          "t": "trial",
+          "d": "a test to see if a new treatment works"
+        },
+        {
+          "t": "confidence",
+          "d": "a feeling that you can do something well"
+        },
+        {
+          "t": "cure",
+          "d": "a treatment that makes an illness go away"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word such as on or off. The small word changes the meaning, so learn the pair together.",
+        "items": [
+          {
+            "s": "The team wants to find ____ whether the treatment is safe.",
+            "a": "out"
+          },
+          {
+            "s": "The goggles turn pictures ____ light signals.",
+            "a": "into"
+          },
+          {
+            "s": "The researchers will carry ____ with a larger study.",
+            "a": "on"
+          },
+          {
+            "s": "People should not give ____ hope after one small trial.",
+            "a": "up"
+          },
+          {
+            "s": "It is hard to tell two similar objects ____ without clear vision.",
+            "a": "apart"
+          }
+        ],
+        "extra": [
+          "behind",
+          "through"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "That may sound like a ____ achievement, but it could matter a great deal.",
-            "a": "modest"
+            "s": "News reports should not ____ the results of a small early trial.",
+            "a": "exaggerate"
           },
           {
-            "s": "Further work will be needed to ____ who might benefit most.",
-            "a": "narrow down"
-          },
-          {
-            "s": "The new treatment finds an unusual way to ____ the problem.",
-            "a": "get around"
-          },
-          {
-            "s": "Six participants showed what researchers considered a ____ improvement.",
-            "a": "clinically meaningful"
-          },
-          {
-            "s": "The system produced only a ____ form of visual information.",
+            "s": "Access to the new treatment is ____ to people who join a clinical trial.",
             "a": "restricted"
           },
           {
-            "s": "It is important not to suggest the treatment is ____.",
-            "a": "ready for general use"
+            "s": "The flood destroyed most of the village, and the ____ houses were repaired later.",
+            "a": "surviving"
+          },
+          {
+            "s": "The doctor said the pain was ____ and that the patient needed hospital care at once.",
+            "a": "severe"
+          },
+          {
+            "s": "The problem was ____ within minutes, and the test carried on.",
+            "a": "resolved"
+          },
+          {
+            "s": "Walking in a ____ room is easier than in a place you have never visited.",
+            "a": "familiar"
           }
         ],
         "extra": [
-          "carry out",
-          "untreated"
+          "modified",
+          "mild"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The disease destroys the light-____ cells in the retina.",
-            "cue": "SENSE",
-            "a": "sensitive"
+            "s": "By the time the study ended, six patients ____ a meaningful improvement.",
+            "cue": "show",
+            "a": "had shown"
           },
           {
-            "s": "The virus delivered ____ instructions for a light-sensitive protein.",
-            "cue": "GENE",
-            "a": "genetic"
+            "s": "Camera images ____ into pulses of light by the goggles.",
+            "cue": "convert",
+            "a": "are converted"
           },
           {
-            "s": "Researchers want to turn early gains into ____ improvements in everyday life.",
-            "cue": "RELY",
-            "a": "reliable"
+            "s": "If the trial had included an untreated group, the researchers ____ the two groups.",
+            "cue": "compare",
+            "a": "would have compared|could have compared"
           },
           {
-            "s": "Certain nerve cells react to ____ controlled signals.",
-            "cue": "CARE",
-            "a": "carefully"
+            "s": "Immediately after an injection, a serious event ____, but it was treated within minutes.",
+            "cue": "occur",
+            "a": "occurred"
           },
           {
-            "s": "Doctors injected a modified virus into one eye of each ____.",
-            "cue": "PARTICIPATE",
-            "a": "participant"
+            "s": "The goggles allow patients ____ objects more easily.",
+            "cue": "locate",
+            "a": "to locate"
           }
         ]
       },
@@ -196,46 +265,115 @@
         {
           "s": "The study appeared in the New England Journal of Medicine.",
           "a": "T",
-          "why": "The text says: \"The study, published in the New England Journal of Medicine in October 2026, involved ten patients whose vision had been badly damaged by an inherited eye disease called retinitis pigmentosa.\""
+          "why": "The text says it was \"published in the New England Journal of Medicine in October 2026\"."
         },
         {
           "s": "The trial included an untreated comparison group.",
           "a": "F",
-          "why": "The text says the opposite: \"The study was also small and had no untreated comparison group.\""
+          "why": "The text says the opposite: \"had no untreated comparison group.\""
+        },
+        {
+          "s": "More participants showed some increase in light sensitivity than showed a clinically meaningful one.",
+          "a": "T",
+          "why": "Seven of the ten showed some increase, but only six showed a clinically meaningful improvement."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "detect",
+          "d": "to notice or find something that is hard to see"
+        },
+        {
+          "t": "gradually",
+          "d": "slowly, a little at a time"
+        },
+        {
+          "t": "retina",
+          "d": "the part at the back of the eye that senses light"
+        },
+        {
+          "t": "combines",
+          "d": "puts two or more things together"
+        },
+        {
+          "t": "meaningful",
+          "d": "important enough to matter"
+        },
+        {
+          "t": "prospect",
+          "d": "the chance that something good may happen"
+        },
+        {
+          "t": "goggles",
+          "d": "close-fitting glasses that cover the eyes"
+        },
+        {
+          "t": "tissue",
+          "d": "a group of cells that forms part of the body"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Check what follows the gap: some of these verbs take an object, and some take a how-clause or another preposition.",
+        "items": [
+          {
+            "s": "A larger study may help doctors narrow ____ the list of people who could benefit.",
+            "a": "down"
+          },
+          {
+            "s": "Researchers still have to work ____ how long the effect lasts.",
+            "a": "out"
+          },
+          {
+            "s": "The team hopes to turn these early gains ____ lasting benefits.",
+            "a": "into"
+          },
+          {
+            "s": "A good trial must follow ____ with patients to check for later side effects.",
+            "a": "up"
+          },
+          {
+            "s": "The size of the gain may depend ____ how long a patient practises.",
+            "a": "on"
+          }
+        ],
+        "extra": [
+          "across",
+          "behind"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Yet other retinal cells, including ganglion cells, can remain ____.",
-            "a": "relatively intact"
+            "s": "Although the storm wrecked the roof, the walls were left ____.",
+            "a": "intact"
           },
           {
-            "s": "The next challenge is to see whether gains in the laboratory ____ outside controlled settings.",
-            "a": "hold up"
+            "s": "To qualify for the programme, a candidate's score must exceed a certain ____.",
+            "a": "threshold"
           },
           {
-            "s": "The approach seeks to ____ that distinction rather than rebuild the eye.",
-            "a": "build on"
+            "s": "The surgeon's result was nothing short of ____: the patient walked out the next day.",
+            "a": "spectacular"
           },
           {
-            "s": "The visual information remained ____.",
-            "a": "crude"
+            "s": "Doctors were reluctant to depart from ____ methods that had served them for decades.",
+            "a": "conventional"
           },
           {
-            "s": "Detecting an outline is ____ restoring everyday sight.",
-            "a": "a considerable distance from"
+            "s": "It would be impossible to ____ the ancient temple from the few fragments that survive.",
+            "a": "reconstruct"
           },
           {
-            "s": "The trial was small, open-label and ____.",
-            "a": "lacked a control group"
+            "s": "The council ____ the proposal, saying it would bring much-needed jobs.",
+            "a": "welcomed"
           }
         ],
         "extra": [
-          "adverse",
-          "stimulate"
+          "transmit",
+          "withstand"
         ]
       },
       "match": [
@@ -260,19 +398,14 @@
         "kind": "word",
         "items": [
           {
-            "s": "These cells may no longer function, making conventional ____ extremely difficult.",
+            "s": "These cells may no longer function, making ____ of normal sight extremely difficult.",
             "cue": "RESTORE",
             "a": "restoration"
           },
           {
-            "s": "Photoreceptors are the ____ cells that convert light into signals.",
-            "cue": "SPECIAL",
-            "a": "specialised"
-          },
-          {
-            "s": "Optogenetics gives surviving nerve cells a role they would not ____ perform.",
-            "cue": "ORDINARY",
-            "a": "ordinarily"
+            "s": "The data from ten patients are far from ____.",
+            "cue": "CONCLUDE",
+            "a": "conclusive"
           },
           {
             "s": "The results require careful ____.",
@@ -283,31 +416,126 @@
             "s": "For someone with severe visual ____, finding a doorway matters.",
             "cue": "IMPAIR",
             "a": "impairment"
+          },
+          {
+            "s": "Some online headlines made ____ claims that a cure was near.",
+            "cue": "SUBSTANTIATE",
+            "a": "unsubstantiated"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The trial proved how widely the benefits can be reproduced.",
+          "s": "Everyone whose light sensitivity increased also reached the level the study counted as a clinically meaningful improvement.",
           "a": "F",
-          "why": "The text says the opposite: \"The trial was small, open-label and lacked a control group, so it cannot establish how widely or reliably the benefits might be reproduced.\""
+          "why": "Seven participants had increased sensitivity, but only six met the study's level."
         },
         {
-          "s": "A larger trial has been approved for next year.",
+          "s": "The optogenetic approach could in principle help people whose severe sight loss has different genetic causes.",
+          "a": "T",
+          "why": "The text says several causes of severe retinal degeneration \"might be addressed through the same general mechanism\"."
+        },
+        {
+          "s": "Participants practised with the goggles at home during the study.",
           "a": "N",
-          "why": "Not stated. The text does not mention approval of a larger trial."
+          "why": "Not stated. The text does not say where participants used the goggles."
         },
         {
-          "s": "The study used a light-sensitive protein known as ChrimsonR.",
-          "a": "T",
-          "why": "The text says: \"Researchers delivered genetic instructions for a light-sensitive protein called ChrimsonR through a single injection into the worse-seeing eye of each participant.\""
+          "s": "The gene therapy was injected into each participant's better-seeing eye.",
+          "a": "F",
+          "why": "The text says it went into \"the worse-seeing eye of each participant\"."
         },
         {
-          "s": "Researchers outside the study team were pleased with the evidence.",
+          "s": "The treatment worked on cells that were still present after the photoreceptors had stopped working.",
           "a": "T",
-          "why": "The text says: \"Independent researchers nevertheless welcomed the evidence that optogenetic stimulation can provide visual function over an extended period.\""
+          "why": "The photoreceptors may no longer function, yet other retinal cells remain relatively intact and are modified."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "photoreceptors",
+          "d": "cells in the eye that react to light"
+        },
+        {
+          "t": "mutation",
+          "d": "a change in a gene"
+        },
+        {
+          "t": "degeneration",
+          "d": "a slow process of getting worse"
+        },
+        {
+          "t": "complication",
+          "d": "a new medical problem that makes treatment harder"
+        },
+        {
+          "t": "open-label",
+          "d": "describing a trial where everyone knows who gets the treatment"
+        },
+        {
+          "t": "familiarity",
+          "d": "knowing something well because you have used it a lot"
+        },
+        {
+          "t": "resolution",
+          "d": "how much fine detail an image shows"
+        },
+        {
+          "t": "stimulate",
+          "d": "to make something become active"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "At this level many phrasal verbs are figurative. Learn the whole unit and the particle that follows, such as aside, out, on or up.",
+        "items": [
+          {
+            "s": "Sceptics were quick to ____ aside the findings as too small to matter.",
+            "a": "brush"
+          },
+          {
+            "s": "A small trial without a control group cannot ____ out the possibility that chance explains the result.",
+            "a": "rule"
+          },
+          {
+            "s": "It is too early to say how the research will ____ out.",
+            "a": "pan"
+          },
+          {
+            "s": "Patients should not ____ on a cure from a single small trial.",
+            "a": "bank"
+          },
+          {
+            "s": "Larger studies are needed to ____ up these early claims.",
+            "a": "back"
+          }
+        ],
+        "extra": [
+          "wear",
+          "hand"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: choosing a headline",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the editor",
+      "text": "You edit a newsletter for a charity that supports people with sight loss. You want a short, exciting headline about a small trial. Ask the writer what the study really showed, then decide together."
+    },
+    "b": {
+      "role": "the writer",
+      "text": "You've read about a small trial. It helped some people find objects, but it isn't a cure. Explain why the headline must be honest, and suggest a version you both like."
+    },
+    "phrases": [
+      "I'd like the headline to catch people's attention.",
+      "That's not quite accurate, though.",
+      "We shouldn't promise more than the study showed.",
+      "What if we say it's an early step?",
+      "I'm not sure that's fair to our readers.",
+      "Let's agree on a version we're both happy with."
+    ],
+    "after": "Afterwards, tell the class: which headline did you choose, and why is it fair to readers?"
   }
 }

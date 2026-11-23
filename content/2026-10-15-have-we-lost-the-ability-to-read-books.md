@@ -6,6 +6,7 @@ source: The Guardian | https://www.theguardian.com/books/2026/aug/02/could-a-cou
 image: images/have-we-lost-the-ability-to-read-books-aafaa4.jpg
 image-alt: A hand reaches past an open paperback resting on a sofa arm to tap a phone full of social media notifications, beside reading glasses and a mug of tea.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

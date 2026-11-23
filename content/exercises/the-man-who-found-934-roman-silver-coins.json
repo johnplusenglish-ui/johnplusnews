@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Oliver Riedl was searching a field when his metal detector ____.",
-            "a": "went off"
+            "s": "Divers ____ a lost ring from the bottom of the lake.",
+            "a": "recovered"
           },
           {
-            "s": "____ the money was never collected.",
-            "a": "What is certain is that"
+            "s": "Metal detecting is only allowed in places where it is ____.",
+            "a": "permitted"
           },
           {
-            "s": "A Roman soldier could have needed years to ____ a similar amount.",
-            "a": "put aside"
+            "s": "The shop ____ the police as soon as it saw the broken window.",
+            "a": "informed"
           },
           {
-            "s": "Hiding coins ____ forgetting the location.",
-            "a": "came with the risk of"
+            "s": "Finding a whole pot of coins would be an ____ piece of luck.",
+            "a": "extraordinary"
           },
           {
-            "s": "He was ____ a permitted search when he made the discovery.",
-            "a": "carrying out"
+            "s": "I am ____ that I locked the door, because I checked it twice.",
+            "a": "certain"
           }
         ],
         "extra": [
-          "come back",
-          "sensible"
+          "estimated",
+          "weighed"
         ]
       },
       "match": [
@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "He ____ local archaeology experts instead of digging everything himself.",
-            "cue": "contact",
-            "a": "contacted"
+            "s": "Oliver Riedl ____ a Roman silver coin in the field.",
+            "cue": "find",
+            "a": "found"
           },
           {
             "s": "The full discovery ____ publicly in September 2026.",
@@ -62,76 +62,145 @@
             "a": "was announced"
           },
           {
-            "s": "The coins had probably ____ in the second century AD.",
-            "cue": "bury",
-            "a": "been buried"
+            "s": "The coins ____ about 3.1 kilograms together.",
+            "cue": "weigh",
+            "a": "weighed"
           },
           {
-            "s": "The machine kept ____.",
-            "cue": "signal",
-            "a": "signalling|signaling"
-          },
-          {
-            "s": "Visitors can now see money that somebody ____ almost 1,900 years ago.",
+            "s": "Somebody ____ the coins almost 1,900 years ago.",
             "cue": "hide",
             "a": "hid"
+          },
+          {
+            "s": "The machine ____ signalling, so Riedl knew there was more.",
+            "cue": "keep",
+            "a": "kept"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Archaeologists recovered 934 silver coins.",
+          "s": "Riedl contacted local archaeology experts.",
           "a": "T",
-          "why": "The text says: \"Archaeologists eventually recovered 934 Roman silver coins.\""
+          "why": "The text says: \"He contacted local archaeology experts instead of trying to remove everything himself.\""
         },
         {
           "s": "Experts know who buried the coins.",
           "a": "F",
-          "why": "The text says the opposite: \"Nobody knows who put them there.\""
+          "why": "The text says: \"Nobody knows who put them there.\""
         },
         {
           "s": "Riedl received a reward for the discovery.",
           "a": "N",
-          "why": "Not stated. The text does not say whether Riedl received a reward."
+          "why": "The text does not say whether Riedl received a reward."
         },
         {
-          "s": "The collection went on display at a museum in Bonn.",
+          "s": "All 934 coins were made in the time of the emperor Hadrian.",
+          "a": "F",
+          "why": "The text says some coins were \"more than 2,000 years old\", and only the newest dated from Hadrian's time."
+        },
+        {
+          "s": "A Roman soldier would probably have needed many years to save this much money.",
           "a": "T",
-          "why": "The text says: \"The collection went on display at the LVR State Museum in Bonn in September 2026.\""
+          "why": "The text says a soldier \"could have needed years to put aside a similar amount\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "archaeologists",
+          "d": "people who study the past by digging up old things"
+        },
+        {
+          "t": "remarkable",
+          "d": "very unusual and worth noticing"
+        },
+        {
+          "t": "century",
+          "d": "a period of one hundred years"
+        },
+        {
+          "t": "emperor",
+          "d": "the male ruler of a very large country"
+        },
+        {
+          "t": "savings",
+          "d": "money that you keep and do not spend"
+        },
+        {
+          "t": "mystery",
+          "d": "something that nobody can explain"
+        },
+        {
+          "t": "electronic",
+          "d": "working with electricity, like a phone or a computer"
+        },
+        {
+          "t": "record",
+          "d": "to write down information so you can use it later"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a pair of words that sound natural together, like make a decision or heavy rain. Learn the pair, not just the word.",
+        "items": [
+          {
+            "s": "Experts hope to ____ the mystery of who owned the coins.",
+            "a": "solve"
+          },
+          {
+            "s": "If you hide money in a field, you take a big ____.",
+            "a": "risk"
+          },
+          {
+            "s": "The museum will put the coins on ____ for visitors.",
+            "a": "display"
+          },
+          {
+            "s": "A bank helps people ____ their money safe.",
+            "a": "keep"
+          },
+          {
+            "s": "It is sensible to ____ care when you handle old coins.",
+            "a": "take"
+          }
+        ],
+        "extra": [
+          "pay",
+          "make"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Riedl had official permission, so his search was ____.",
+            "s": "Only ____ staff are allowed to enter the vault.",
             "a": "authorised"
           },
           {
-            "s": "The detector kept signalling, and it ____ several Roman silver pieces.",
-            "a": "led him to"
+            "s": "Remarkably, the vase survived the earthquake ____, without a single crack.",
+            "a": "intact"
           },
           {
-            "s": "Who owned such a fortune ____.",
-            "a": "remains a mystery"
+            "s": "Restoring the old bridge will need a ____ amount of money.",
+            "a": "considerable"
           },
           {
-            "s": "It could have been hidden for safety ____.",
-            "a": "during uncertain times"
+            "s": "The detective found ____ of mud on the floor, so he knew someone had come in recently.",
+            "a": "traces"
           },
           {
-            "s": "Perhaps the owner died, ____ or forgot the place.",
-            "a": "moved away"
+            "s": "Only a very ____ family could afford a house like that.",
+            "a": "wealthy"
           },
           {
-            "s": "The find ____ a more human question about the owner's plans.",
-            "a": "leaves room for"
+            "s": "He saved for months before making the ____ of a new car.",
+            "a": "purchase"
           }
         ],
         "extra": [
-          "dug up",
-          "intriguing"
+          "relics",
+          "tokens"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The money might have belonged to a ____ individual or a trader.",
-            "cue": "WEALTH",
-            "a": "wealthy"
+            "s": "The first coins ____ in October 2025.",
+            "cue": "find",
+            "a": "were found"
           },
           {
-            "s": "What makes this collection ____ is not simply its weight.",
-            "cue": "USUAL",
-            "a": "unusual"
+            "s": "By the time the find was announced, specialists ____ the hoard for several months.",
+            "cue": "examine",
+            "a": "had examined|had been examining"
           },
           {
-            "s": "The amount was ____, representing years of savings.",
-            "cue": "CONSIDER",
-            "a": "considerable"
+            "s": "If the owner had returned, the coins ____ underground for nineteen centuries.",
+            "cue": "not stay",
+            "a": "would not have stayed|wouldn't have stayed"
           },
           {
-            "s": "Riedl's decision to inform the authorities mattered almost as much as the ____ itself.",
-            "cue": "DISCOVER",
-            "a": "discovery"
+            "s": "Anyone who finds a hoard ____ the authorities.",
+            "cue": "should, tell",
+            "a": "should tell"
           },
           {
-            "s": "When ____ objects are dug up without proper records, much of their story can disappear.",
-            "cue": "HISTORY",
-            "a": "historical"
+            "s": "Riedl decided ____ the authorities rather than keep quiet.",
+            "cue": "inform",
+            "a": "to inform"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The container holding the coins survived undamaged.",
+          "s": "All the coins in the hoard were produced under the emperor Hadrian.",
           "a": "F",
-          "why": "The text says the opposite: \"Archaeologists believe the money was deliberately buried soon afterwards, probably inside a container that did not survive intact.\""
+          "why": "The text says the oldest dates from 148 BC, when Rome was still a republic."
         },
         {
-          "s": "The oldest coin in the hoard dates from 148 BC.",
+          "s": "The newest coin was made more than two centuries after the oldest.",
           "a": "T",
-          "why": "The text says: \"The oldest dates from 148 BC, when Rome was still a republic, and the most recent was produced around AD 124 or 125 under the emperor Hadrian.\""
+          "why": "The oldest dates from 148 BC and the newest from around AD 124 or 125."
         },
         {
-          "s": "It is the largest hoard from Hadrian's period found in Germany.",
-          "a": "T",
-          "why": "The text says: \"It is the largest hoard from Hadrian's period found in Germany, according to the regional archaeological authorities.\""
-        },
-        {
-          "s": "The coins will be sold at auction after the exhibition.",
+          "s": "Riedl was paid by the museum for the hoard.",
           "a": "N",
-          "why": "Not stated. The text does not say what will happen to the coins after the exhibition."
+          "why": "The text does not mention any payment to Riedl."
+        },
+        {
+          "s": "Archaeologists found the original container in perfect condition.",
+          "a": "F",
+          "why": "The text says the container \"did not survive intact\"."
+        },
+        {
+          "s": "Archaeologists could record the position of the coins because they investigated the area carefully.",
+          "a": "T",
+          "why": "The text says: \"By investigating the area carefully, archaeologists could record the coins' position\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "hoard",
+          "d": "a secret store of valuable things"
+        },
+        {
+          "t": "specialists",
+          "d": "people who know a great deal about one subject"
+        },
+        {
+          "t": "republic",
+          "d": "a country with no king or emperor"
+        },
+        {
+          "t": "fortune",
+          "d": "a very large amount of money"
+        },
+        {
+          "t": "container",
+          "d": "something, such as a pot or box, that holds other things"
+        },
+        {
+          "t": "evidence",
+          "d": "facts or signs that help show what is true"
+        },
+        {
+          "t": "trader",
+          "d": "a person who buys and sells goods"
+        },
+        {
+          "t": "expenses",
+          "d": "money that you have to spend on things like travel or food"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Many B2 collocations pair a verb with an abstract noun. Notice which verb goes with which noun, because a similar verb is often wrong.",
+        "items": [
+          {
+            "s": "The hoard may ____ light on trade across the Roman empire.",
+            "a": "shed"
+          },
+          {
+            "s": "Historians should avoid trying to ____ firm conclusions from a single find.",
+            "a": "draw"
+          },
+          {
+            "s": "The hoard ____ more questions than it answers.",
+            "a": "raises"
+          },
+          {
+            "s": "In many countries, finders are legally ____ to report discoveries of this kind.",
+            "a": "obliged"
+          },
+          {
+            "s": "A single ____ of evidence is rarely enough to settle a historical question.",
+            "a": "piece"
+          }
+        ],
+        "extra": [
+          "take",
+          "place"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The coins offer a ____ history of Roman power: the republic and the empire in a single hoard.",
-            "a": "compressed"
+            "s": "The smugglers ____ the stolen manuscripts behind a false wall for decades.",
+            "a": "concealed"
           },
           {
-            "s": "Such comparisons are necessarily ____.",
+            "s": "In the ____ years between the two wars, the town changed beyond recognition.",
+            "a": "intervening"
+          },
+          {
+            "s": "Despite repeated attempts, the ____ of the lost files proved impossible.",
+            "a": "retrieval"
+          },
+          {
+            "s": "She spent decades ____ a collection of rare maps.",
+            "a": "accumulating"
+          },
+          {
+            "s": "The architect gave an ____ cost, warning that the final bill might differ.",
             "a": "approximate"
           },
           {
-            "s": "An attractive explanation is not necessarily a ____ one.",
-            "a": "demonstrated"
-          },
-          {
-            "s": "It is unlikely that the coins alone will ever ____ the mystery.",
-            "a": "clear up"
-          },
-          {
-            "s": "The comparison helps ____ that this was not loose change.",
-            "a": "get across"
-          },
-          {
-            "s": "The person who buried them remains ____ the metal detector.",
-            "a": "beyond the reach of"
+            "s": "Without proper ____, the sale of the painting could not be verified.",
+            "a": "documentation"
           }
         ],
         "extra": [
-          "absorbing",
-          "come to light"
+          "disclosed",
+          "reclaimed"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The subsequent ____ yielded 934 denarii.",
-            "cue": "INVESTIGATE",
-            "a": "investigation"
+            "s": "Archaeologists were struck by the sheer ____ of the find.",
+            "cue": "SIGNIFY",
+            "a": "significance"
           },
           {
-            "s": "The owner's identity is unknown, as are the circumstances that prevented ____.",
-            "cue": "RETRIEVE",
-            "a": "retrieval"
+            "s": "Without a written record, any claim about the owner's motives remains pure ____.",
+            "cue": "SPECULATE",
+            "a": "speculation"
           },
           {
-            "s": "Death and ____ both remain plausible explanations.",
-            "cue": "DISPLACE",
-            "a": "displacement"
+            "s": "It would be ____ to claim that one hoard explains how all Romans saved money.",
+            "cue": "WISE",
+            "a": "unwise"
           },
           {
-            "s": "An impressive collection acquired without ____ loses much of its value.",
-            "cue": "DOCUMENT",
-            "a": "documentation"
+            "s": "Such comparisons with a soldier's income are, by their nature, ____.",
+            "cue": "PRECISE",
+            "a": "imprecise"
           },
           {
-            "s": "Visitors can study the changing ____ of Roman authority.",
-            "cue": "IMAGE",
-            "a": "imagery"
+            "s": "The owner's ____ to return left the question of ownership unanswered.",
+            "cue": "FAIL",
+            "a": "failure"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The field where the coins were found has been protected by law.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether the field is protected by law."
+          "s": "The hoard contains coins made under more than one system of government.",
+          "a": "T",
+          "why": "The oldest dates from when \"the republic still governed Rome\", the youngest from Hadrian's reign."
         },
         {
-          "s": "Archaeologists have established why the coins were never collected.",
+          "s": "Archaeologists have established why the coins were buried.",
           "a": "F",
-          "why": "The text says the opposite: \"The owner's identity is unknown, as are the circumstances that prevented retrieval.\""
+          "why": "The text says the original purpose is \"much harder to establish\" and an attractive explanation is not a demonstrated one."
         },
         {
-          "s": "The hoard is considered Germany's largest from Hadrian's reign.",
-          "a": "T",
-          "why": "The text says: \"Found in October 2025 and announced in September 2026, the hoard is described as Germany's largest known from the reign of Hadrian.\""
+          "s": "The vessel that held the coins was made of pottery.",
+          "a": "N",
+          "why": "The text mentions a vessel but never says what it was made of."
         },
         {
-          "s": "The youngest coin was struck in AD 124 or 125.",
+          "s": "The political system that gave the coins their value had ended long before they were found.",
           "a": "T",
-          "why": "The text says: \"The oldest specimen dates to 148 BC, when the republic still governed Rome, while the youngest was struck in AD 124 or 125, during Hadrian's reign.\""
+          "why": "The text says the hoard \"outlasted the political system that gave the coins their value\"."
+        },
+        {
+          "s": "Specialists describe the comparison with a legionary's income as exact.",
+          "a": "F",
+          "why": "The text says such comparisons are \"necessarily approximate\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "specimen",
+          "d": "one example of something, taken to show what the others are like"
+        },
+        {
+          "t": "vessel",
+          "d": "a container for liquid, such as a jar or bowl"
+        },
+        {
+          "t": "excavation",
+          "d": "the careful digging of the ground to find old things"
+        },
+        {
+          "t": "plausible",
+          "d": "seeming likely to be true"
+        },
+        {
+          "t": "legionary",
+          "d": "a soldier in the ancient Roman army"
+        },
+        {
+          "t": "circulation",
+          "d": "the movement of money from one person to another"
+        },
+        {
+          "t": "displacement",
+          "d": "being forced to leave your home or land"
+        },
+        {
+          "t": "deposit",
+          "d": "an amount of something left or placed in one spot"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "At C1, adjective plus noun pairs carry precise meaning. Choose the adjective that a writer would naturally use, not just one that fits the sense.",
+        "items": [
+          {
+            "s": "The coins offer a ____ glimpse of how money moved around the Roman world, but they leave most questions open.",
+            "a": "tantalising"
+          },
+          {
+            "s": "Given how ____ the surviving evidence is, any claim about the owner's motives is conjecture.",
+            "a": "scant"
+          },
+          {
+            "s": "The loss of the owner's name is a ____ reminder that most lives leave no record.",
+            "a": "stark"
+          },
+          {
+            "s": "Historians have so far offered only ____ explanations for the burial.",
+            "a": "tentative"
+          },
+          {
+            "s": "The ____ scale of the hoard is what makes it so unusual.",
+            "a": "sheer"
+          }
+        ],
+        "extra": [
+          "idle",
+          "ornate"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: what should we do with the old coins?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the neighbour who found the pot",
+      "text": "While digging a flower bed by the shared wall, you found an old pot of coins. You'd like to sell them and share the money. Explain why, and answer your neighbour's worries."
+    },
+    "b": {
+      "role": "the other neighbour",
+      "text": "You think the coins may be important to the history of your town. You want to tell the local museum. Ask questions, then try to agree on a plan."
+    },
+    "phrases": [
+      "I'd like to find out what they're worth.",
+      "We shouldn't sell them before an expert has looked.",
+      "They might tell us something about the past.",
+      "That's a fair point, but it's our garden.",
+      "What if we told the museum first?",
+      "Let's agree on a plan we're both happy with."
+    ],
+    "after": "Afterwards, tell the class what you agreed and whether you both felt it was fair."
   }
 }

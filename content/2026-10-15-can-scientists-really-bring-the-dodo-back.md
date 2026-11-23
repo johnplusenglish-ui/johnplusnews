@@ -6,6 +6,7 @@ source: Reuters | https://www.reuters.com/science/us-company-announces-progress-
 image: images/can-scientists-really-bring-the-dodo-back-172bdb.jpg
 image-alt: The mounted skeleton of a large flightless bird with a heavy hooked beak stands on a dark plinth inside a sunlit museum display case.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

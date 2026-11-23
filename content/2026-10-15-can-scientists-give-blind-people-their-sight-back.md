@@ -6,6 +6,7 @@ source: The Guardian | https://www.theguardian.com/society/2026/oct/07/gene-ther
 image: images/can-scientists-give-blind-people-their-sight-back-4dc2b5.jpg
 image-alt: An older man in a blue jumper, wearing bulky electronic goggles, reaches for an orange notebook on a white table while a woman in a lab coat watches holding a tablet.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

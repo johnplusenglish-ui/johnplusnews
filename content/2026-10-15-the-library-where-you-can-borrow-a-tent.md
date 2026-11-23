@@ -6,6 +6,7 @@ source: The Guardian | https://www.theguardian.com/environment/2026/oct/07/natur
 image: images/the-library-where-you-can-borrow-a-tent-0ce6e5.jpg
 image-alt: A man and a boy pass a rolled sleeping mat across a library counter to be scanned, with binoculars, trekking poles and a microscope on the shelves behind.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

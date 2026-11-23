@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "When students refuse to go to school, it is usually because they want ____.",
-            "a": "a day off"
+            "s": "The ____ of the march said far more people came than the police counted.",
+            "a": "organisers"
           },
           {
-            "s": "They blocked entrances and ____ demonstrations.",
-            "a": "joined in"
+            "s": "The school roof was leaking, so the head teacher asked for money for urgent ____.",
+            "a": "repairs"
           },
           {
-            "s": "Students in other towns said they were ____ the same problems.",
-            "a": "putting up with"
+            "s": "After the accident, local families ____ a safer road outside the school.",
+            "a": "demanded"
           },
           {
-            "s": "Greta Thunberg visited students in Saint-Denis to ____.",
-            "a": "show her support"
+            "s": "A warm classroom with a working heater should not be seen as a ____.",
+            "a": "luxury"
           },
           {
-            "s": "They want schools that give everyone ____.",
-            "a": "a fair chance"
+            "s": "Children from poorer families often have fewer ____ to succeed.",
+            "a": "opportunities"
           }
         ],
         "extra": [
-          "stay away",
-          "crowded"
+          "complained",
+          "classrooms"
         ]
       },
       "match": [
@@ -72,9 +72,9 @@
             "a": "would"
           },
           {
-            "s": "Many of them say they ____ not asking for luxury.",
-            "cue": "be",
-            "a": "are"
+            "s": "More than 160,000 people ____ the demonstrations, according to government figures.",
+            "cue": "join",
+            "a": "joined"
           }
         ]
       },
@@ -98,40 +98,109 @@
           "s": "The protests have already led to new school buildings.",
           "a": "N",
           "why": "Not stated. The text does not say whether any new school buildings have been built."
+        },
+        {
+          "s": "Students say they want expensive new equipment for their schools.",
+          "a": "F",
+          "why": "The text says: \"Many of them say they are not asking for luxury, only for lessons that actually take place.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "demonstrations",
+          "d": "events where many people walk or gather in public to show what they think"
+        },
+        {
+          "t": "staff",
+          "d": "the people who work in a place"
+        },
+        {
+          "t": "entrances",
+          "d": "doors or gates where you go in"
+        },
+        {
+          "t": "clashes",
+          "d": "fights or angry arguments between groups"
+        },
+        {
+          "t": "budgets",
+          "d": "plans for how much money you will spend"
+        },
+        {
+          "t": "wealthier",
+          "d": "having more money"
+        },
+        {
+          "t": "replacement",
+          "d": "a person who does a job instead of someone else"
+        },
+        {
+          "t": "challenge",
+          "d": "something difficult that you must try to do"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some words go together naturally. Learn the pair, not just the word, for example hold a meeting.",
+        "items": [
+          {
+            "s": "Hundreds of students gathered to ____ a protest outside the town hall.",
+            "a": "hold"
+          },
+          {
+            "s": "The school needs to ____ attention to its leaking roof.",
+            "a": "pay"
+          },
+          {
+            "s": "Many parents decided to ____ their support for the students at the school gate.",
+            "a": "show"
+          },
+          {
+            "s": "Schools have to work with ____ budgets.",
+            "a": "limited"
+          },
+          {
+            "s": "Every child should get a fair ____ to learn.",
+            "a": "chance"
+          }
+        ],
+        "extra": [
+          "make",
+          "heavy"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Thousands of secondary-school students have ____ of lessons.",
-            "a": "walked out"
+            "s": "The shop owner ____ the delivery driver of breaking the window.",
+            "a": "accused"
           },
           {
-            "s": "Students describe ____ classrooms and buildings in poor condition.",
-            "a": "overcrowded"
+            "s": "After three hours of waiting, it seemed ____ to stay any longer.",
+            "a": "pointless"
           },
           {
-            "s": "What began as local anger quickly ____ a wider movement.",
-            "a": "grew into"
+            "s": "The roof is leaking, so it needs to be fixed ____.",
+            "a": "urgently"
           },
           {
-            "s": "Organisers ____ than the official estimate.",
-            "a": "put the figure much higher"
+            "s": "Many teenagers feel ____ when nobody listens to them.",
+            "a": "frustrated"
           },
           {
-            "s": "Students want to ____ in the decisions that shape their future.",
-            "a": "have a say"
+            "s": "Residents raised ____ about the noise from the new road.",
+            "a": "concerns"
           },
           {
-            "s": "Unions argue the shortage has been ____ for years.",
-            "a": "building up"
+            "s": "A science lab that is badly ____ cannot teach practical lessons.",
+            "a": "equipped"
           }
         ],
         "extra": [
-          "clear up",
-          "temporary"
+          "disorder",
+          "reliable"
         ]
       },
       "match": [
@@ -153,41 +222,36 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Prolonged ____ could leave them further behind.",
-            "cue": "DISRUPT",
-            "a": "disruption"
+            "s": "By Friday, the head teacher ____ all the afternoon lessons.",
+            "cue": "cancel",
+            "a": "had cancelled|had canceled"
           },
           {
-            "s": "Unions argued that temporary measures would not solve years of ____.",
-            "cue": "INVEST",
-            "a": "underinvestment"
+            "s": "The government promised that 3,000 replacement teachers ____ to the worst-affected areas.",
+            "cue": "send",
+            "a": "would be sent"
           },
           {
-            "s": "Her presence gave the campaign further ____.",
-            "cue": "PUBLIC",
-            "a": "publicity"
+            "s": "If lessons keep being cancelled, students ____ further behind.",
+            "cue": "fall",
+            "a": "will fall|are going to fall"
           },
           {
-            "s": "The main concerns were practical: ____ lessons, decent buildings and enough teachers.",
-            "cue": "RELY",
-            "a": "reliable"
+            "s": "Unions say the shortage ____ for years.",
+            "cue": "build up",
+            "a": "has been building up|has built up"
           },
           {
-            "s": "The movement raises the question of educational ____.",
-            "cue": "EQUAL",
-            "a": "inequality"
+            "s": "Several demonstrators ____ during the march last week.",
+            "cue": "arrest",
+            "a": "were arrested"
           }
         ]
       },
       "tfn": [
-        {
-          "s": "Students at Lycée Paul Éluard in Saint-Denis protested about problems at their school.",
-          "a": "T",
-          "why": "The text says: \"The campaign gained attention in Saint-Denis, near Paris, where pupils at Lycée Paul Éluard protested against serious problems at their school.\""
-        },
         {
           "s": "All the marches passed off peacefully.",
           "a": "F",
@@ -202,40 +266,114 @@
           "s": "The education minister met the student organisers.",
           "a": "N",
           "why": "Not stated. The text does not say whether the education minister met the student organisers."
+        },
+        {
+          "s": "Teaching unions think short-term contracts will not end the teacher shortage.",
+          "a": "T",
+          "why": "The text says the shortage \"will not be cleared up by short-term contracts\"."
+        },
+        {
+          "s": "Police and campaigners agree that officers used too much force.",
+          "a": "F",
+          "why": "The text says students and campaigners accused police of too much force, while authorities said they had to respond to disorder."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "unions",
+          "d": "groups of workers who join together to protect their rights"
+        },
+        {
+          "t": "authorities",
+          "d": "the people or offices that have official power"
+        },
+        {
+          "t": "underinvestment",
+          "d": "not spending enough money over a long time"
+        },
+        {
+          "t": "publicity",
+          "d": "attention from newspapers, television and the internet"
+        },
+        {
+          "t": "inequality",
+          "d": "an unfair difference between groups of people"
+        },
+        {
+          "t": "prolonged",
+          "d": "continuing for a long time"
+        },
+        {
+          "t": "contradiction",
+          "d": "a situation where two ideas cannot both be true"
+        },
+        {
+          "t": "facilities",
+          "d": "buildings and equipment that are used for a purpose"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Many verbs go with particular nouns. Check the noun near the gap and ask which verb sounds natural with it.",
+        "items": [
+          {
+            "s": "Teachers' unions plan to ____ pressure on the government to hire more staff.",
+            "a": "put"
+          },
+          {
+            "s": "The campaign began to ____ attention after the first march.",
+            "a": "gain"
+          },
+          {
+            "s": "The ministry has promised to ____ out a full review of school buildings.",
+            "a": "carry"
+          },
+          {
+            "s": "The two sides failed to reach an ____ on how to spend the extra money.",
+            "a": "agreement"
+          },
+          {
+            "s": "Politicians are expected to ____ the demands of the protesters seriously.",
+            "a": "take"
+          }
+        ],
+        "extra": [
+          "hold",
+          "do"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Pupils have protested about ____ buildings and staff shortages.",
-            "a": "run-down"
+            "s": "The singer's honest lyrics ____ with fans who had faced similar struggles.",
+            "a": "resonated"
           },
           {
-            "s": "Students described an environment that ____ the promised standards.",
-            "a": "fell short of"
+            "s": "After the second win, the campaign gathered such ____ that opponents struggled to keep up.",
+            "a": "momentum"
           },
           {
-            "s": "Pupils have been quick to ____ that the gap is their daily timetable.",
-            "a": "point out"
+            "s": "Under pressure from voters, the minister was finally forced to ____ that the policy had failed.",
+            "a": "concede"
           },
           {
-            "s": "Campaigners insist that ____ cannot replace sustained investment.",
-            "a": "stopgap staffing arrangements"
-          },
-          {
-            "s": "Competing priorities make additional spending ____.",
+            "s": "Plans to cut the library's funding proved highly ____ among local residents.",
             "a": "contentious"
           },
           {
-            "s": "Supporters respond that accepting ____ carries its own long-term cost.",
-            "a": "the status quo"
+            "s": "The ____ condition of the bridge led engineers to close it to lorries.",
+            "a": "deteriorating"
+          },
+          {
+            "s": "The judge ruled that the officers had used ____ force against the unarmed crowd.",
+            "a": "excessive"
           }
         ],
         "extra": [
-          "alleviate",
-          "grievances"
+          "pledge",
+          "recipients"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Pupils protested at ____ facilities and disrupted timetables.",
-            "cue": "ADEQUATE",
-            "a": "inadequate"
+            "s": "Campaigners described the fines as ____ to the offence.",
+            "cue": "PROPORTION",
+            "a": "disproportionate"
           },
           {
-            "s": "The strikes reveal a generation of pupils ____ to be treated as passive recipients of policy.",
-            "cue": "WILLING",
-            "a": "unwilling"
+            "s": "The ____ of the new rules has been uneven across the country.",
+            "cue": "ENFORCE",
+            "a": "enforcement"
           },
           {
-            "s": "Schools are supposed to embody republican ____.",
-            "cue": "EQUAL",
-            "a": "equality"
+            "s": "There is growing ____ among staff with the new timetable.",
+            "cue": "SATISFY",
+            "a": "dissatisfaction"
           },
           {
-            "s": "Whether the movement secures lasting changes remains ____.",
-            "cue": "CERTAIN",
-            "a": "uncertain"
+            "s": "Economists warned that the current level of spending was ____.",
+            "cue": "SUSTAIN",
+            "a": "unsustainable"
           },
           {
-            "s": "Many teenagers are encountering organised political ____ for the first time.",
-            "cue": "ACTIVE",
-            "a": "activism"
+            "s": "The ____ of the official figures has been questioned.",
+            "cue": "RELY",
+            "a": "reliability"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Similar school protests have begun in Belgium and Spain.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether similar protests have begun in other countries."
-        },
-        {
-          "s": "The government is under pressure to keep public spending down.",
+          "s": "The writer suggests the campaign had gathered pace before Greta Thunberg arrived.",
           "a": "T",
-          "why": "The text says: \"Ministers face another political constraint: pressure to contain public expenditure and debt.\""
+          "why": "The text says the campaign \"had already developed its own momentum\"."
         },
         {
-          "s": "The writer concludes that the movement has already secured lasting change.",
+          "s": "The writer thinks the promise of extra replacement teachers will fully solve the problem.",
           "a": "F",
-          "why": "The text says the opposite: \"Whether the movement secures lasting changes remains uncertain.\""
+          "why": "The text says it \"may alleviate immediate disruption\" but cannot make up for sustained underinvestment."
         },
         {
-          "s": "Organisers believed the 13 October crowds were bigger than official figures suggested.",
+          "s": "Most of the injuries at the demonstrations were suffered by police officers.",
+          "a": "N",
+          "why": "The text mentions injuries and arrests but does not say who was hurt."
+        },
+        {
+          "s": "Campaigners and authorities disagree about the cause of the violence at some demonstrations.",
           "a": "T",
-          "why": "The text says: \"By 13 October, nationwide demonstrations had drawn more than 160,000 participants according to official figures, with organisers estimating substantially larger crowds.\""
+          "why": "Campaigners accuse officers of excessive force, while authorities point to incidents of violence."
+        },
+        {
+          "s": "Ministers who accept the students' case in principle but withhold funds are likely to end the dispute.",
+          "a": "F",
+          "why": "The text says such ministers \"are unlikely to satisfy anyone for long\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "infrastructure",
+          "d": "the basic buildings and systems that a place needs"
+        },
+        {
+          "t": "stopgap",
+          "d": "a short-term solution used until a better one comes"
+        },
+        {
+          "t": "expenditure",
+          "d": "the money that a government or group spends"
+        },
+        {
+          "t": "paradox",
+          "d": "a situation that seems to contradict itself"
+        },
+        {
+          "t": "confrontations",
+          "d": "angry, sometimes violent meetings between opposing groups"
+        },
+        {
+          "t": "embody",
+          "d": "to be a clear example of an idea"
+        },
+        {
+          "t": "constraint",
+          "d": "something that limits what you can do"
+        },
+        {
+          "t": "underinvestment",
+          "d": "a failure to spend enough money over a long period"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Look for fixed or semi-fixed expressions. If you change one word, the whole phrase may sound wrong.",
+        "items": [
+          {
+            "s": "The inquiry has ____ bare how little was spent on maintenance.",
+            "a": "laid"
+          },
+          {
+            "s": "Ministers have been accused of paying ____ service to equality while cutting budgets.",
+            "a": "lip"
+          },
+          {
+            "s": "Local leaders drove a hard ____ before agreeing to the deal.",
+            "a": "bargain"
+          },
+          {
+            "s": "The minister's remarks fell on ____ ears among angry teachers.",
+            "a": "deaf"
+          },
+          {
+            "s": "Ministers are keen to ____ the blame onto local councils.",
+            "a": "shift"
+          }
+        ],
+        "extra": [
+          "hold",
+          "raise"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: the school march",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the parent",
+      "text": "Your teenage son or daughter wants to miss school on Friday to join a march about school buildings. You understand the problem, but you're worried. Ask at least two questions before you decide."
+    },
+    "b": {
+      "role": "the teenager",
+      "text": "You want to join a student march on Friday. Explain why it matters, answer your parent's worries and suggest a plan that makes it safe."
+    },
+    "phrases": [
+      "I'd like to join the march on Friday.",
+      "I'm worried you'll fall behind.",
+      "It's not just about me, it's about everyone.",
+      "What if things get out of hand?",
+      "Could we agree on a compromise?",
+      "I'll catch up on the lesson at the weekend."
+    ],
+    "after": "Afterwards, tell the class: did the parent agree, and what condition did they set?"
   }
 }

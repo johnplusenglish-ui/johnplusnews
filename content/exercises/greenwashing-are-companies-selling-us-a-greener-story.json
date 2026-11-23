@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You ____ the greener-looking bottle, then notice the label explains nothing.",
-            "a": "reach for"
+            "s": "Many shops now sell food in paper ____ instead of plastic.",
+            "a": "packaging"
           },
           {
-            "s": "A bottle might use recycled plastic but still create ____ waste.",
-            "a": "a great deal of"
+            "s": "Cars and factories cause ____ in big cities.",
+            "a": "pollution"
           },
           {
-            "s": "The European Union has also ____ stronger rules against unclear environmental advertising.",
-            "a": "brought in"
+            "s": "Before you believe a claim, ask what ____ supports it.",
+            "a": "evidence"
           },
           {
-            "s": "The regulator said the adverts gave a ____ impression.",
-            "a": "misleading"
+            "s": "The city has put ____ on cars in the centre, so fewer people drive there.",
+            "a": "restrictions"
           },
           {
-            "s": "Businesses now face restrictions on green claims that do not have ____.",
-            "a": "proper evidence"
+            "s": "My first ____ of the new teacher was very good.",
+            "a": "impression"
           }
         ],
         "extra": [
-          "find out",
-          "dishonest"
+          "payment",
+          "passengers"
         ]
       },
       "match": [
@@ -80,58 +80,127 @@
       },
       "tfn": [
         {
-          "s": "The airlines were fined for their advertisements.",
+          "s": "The airlines were told not to use those claims in the same way again.",
+          "a": "T",
+          "why": "The text says: \"The airlines were told not to use those claims in the same way again.\""
+        },
+        {
+          "s": "The label on the shampoo bottle explains what has improved.",
+          "a": "F",
+          "why": "The text says: \"the label never explains what has actually improved\"."
+        },
+        {
+          "s": "The airlines had to pay a fine.",
           "a": "N",
-          "why": "Not stated. The text does not say that the airlines had to pay a fine."
+          "why": "Not stated. The text does not mention any fine."
         },
         {
           "s": "Every company that uses green advertising is dishonest.",
           "a": "F",
-          "why": "The text says the opposite: \"Not every business using green advertising is dishonest, and small improvements are worth making.\""
+          "why": "The text says: \"Not every business using green advertising is dishonest\"."
         },
         {
-          "s": "The UK advertising regulator criticised adverts from two airlines.",
+          "s": "The writer says small improvements are worth making.",
           "a": "T",
-          "why": "The text says: \"In July 2026, the UK's advertising regulator criticised advertisements from Eurowings and Qatar Airways.\""
-        },
-        {
-          "s": "Rules in the EU now limit green claims that lack proper evidence.",
-          "a": "T",
-          "why": "The text says: \"Since September 2026, businesses have faced restrictions on general green claims that do not have proper evidence.\""
+          "why": "The text says: \"small improvements are worth making\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "greenwashing",
+          "d": "making a product sound better for nature than it really is"
+        },
+        {
+          "t": "label",
+          "d": "a piece of paper on a product with information about it"
+        },
+        {
+          "t": "recycled",
+          "d": "made again from old things, like old plastic"
+        },
+        {
+          "t": "regulator",
+          "d": "an official group that checks companies follow the rules"
+        },
+        {
+          "t": "compensate",
+          "d": "to do something good to make up for something bad"
+        },
+        {
+          "t": "emissions",
+          "d": "gases that go into the air from cars, planes and factories"
+        },
+        {
+          "t": "proof",
+          "d": "something that shows clearly that a thing is true"
+        },
+        {
+          "t": "claim",
+          "d": "a statement that says something is true"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Linking words join ideas. Use but and although for a difference, because for a reason and so for a result.",
+        "items": [
+          {
+            "s": "The label used green leaves, ____ it did not say what had improved.",
+            "a": "but"
+          },
+          {
+            "s": "The airlines were criticised ____ their adverts gave a misleading impression.",
+            "a": "because"
+          },
+          {
+            "s": "The shop sells cheap soap. ____, it is not made from recycled plastic.",
+            "a": "However"
+          },
+          {
+            "s": "The new rules are clear, ____ shoppers can compare products more easily.",
+            "a": "so"
+          },
+          {
+            "s": "____ the bottle looked green, it was not a better choice.",
+            "a": "Although"
+          }
+        ],
+        "extra": [
+          "unless",
+          "otherwise"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "The positive detail may be genuine, but it can ____ a much larger environmental cost.",
-            "a": "distract from"
+            "s": "She felt sure the manager's concern for the environment was ____, not just good public relations.",
+            "a": "genuine"
           },
           {
-            "s": "What is ____ the frame matters as much as what is put in it.",
-            "a": "left out of"
+            "s": "'Kinder to nature' is too ____ to tell shoppers anything useful.",
+            "a": "vague"
           },
           {
-            "s": "In July 2026, the Advertising Standards Authority ____ about two airlines.",
-            "a": "upheld complaints"
+            "s": "Before you trust a figure, check that it has been independently ____.",
+            "a": "verified"
           },
           {
-            "s": "The companies had not provided enough evidence to ____ the impression.",
-            "a": "back up"
+            "s": "The company should ____ that some parts of the product still harm the environment.",
+            "a": "acknowledge"
           },
           {
-            "s": "The most confident advertiser tends to ____, not the most responsible one.",
-            "a": "win out"
+            "s": "A flashy slogan can ____ shoppers from the real cost of a product.",
+            "a": "distract"
           },
           {
-            "s": "Buying something green should not require ____.",
-            "a": "an act of faith"
+            "s": "A business that appears greener can gain an ____ over its competitors.",
+            "a": "advantage"
           }
         ],
         "extra": [
-          "cancel out",
-          "unreliable"
+          "reluctant",
+          "overlook"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "That is what makes greenwashing ____.",
-            "cue": "EFFECT",
-            "a": "effective"
+            "s": "By the time she reached the till, the shopper ____ to buy the greener bottle.",
+            "cue": "decide",
+            "a": "had decided"
           },
           {
-            "s": "Regulators have become ____ concerned about vague promises.",
-            "cue": "INCREASE",
-            "a": "increasingly"
+            "s": "Claims that cannot be proved ____ under the new rules.",
+            "cue": "restrict",
+            "a": "are restricted"
           },
           {
-            "s": "The rules also address unreliable ____ labels.",
-            "cue": "SUSTAIN",
-            "a": "sustainability"
+            "s": "At the moment the message arrived, the shopper ____ two bottles.",
+            "cue": "compare",
+            "a": "was comparing"
           },
           {
-            "s": "Accurate information and ____ checks matter, because shoppers cannot investigate everything.",
-            "cue": "DEPEND",
-            "a": "independent"
+            "s": "In July 2026, Britain's regulator ____ complaints about two airlines.",
+            "cue": "uphold",
+            "a": "upheld"
           },
           {
-            "s": "Look for ____ figures rather than broad promises.",
-            "cue": "SPECIFY",
-            "a": "specific"
+            "s": "Regulators ____ increasingly concerned about vague promises.",
+            "cue": "become",
+            "a": "have become"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Environmental projects automatically cancel out the impact of a flight.",
+          "s": "The regulator decided that Eurowings and Qatar Airways had provided enough evidence for their claims.",
           "a": "F",
-          "why": "The text says the opposite: \"Environmental projects may do valuable work, but they do not automatically cancel out the impact of a particular journey.\""
+          "why": "The text says: \"the companies had not provided enough evidence to support that impression\"."
         },
         {
-          "s": "The new EU consumer rules began applying in September 2026.",
+          "s": "An advertisement can seem green because of one detail, even if the rest of the business has barely changed.",
           "a": "T",
-          "why": "The text says: \"New European Union consumer rules, which began applying in September 2026, restrict general environmental claims that companies cannot properly support.\""
+          "why": "The text says: \"A single green detail can carry a whole advertisement, even when the rest of the business has barely changed.\""
         },
         {
-          "s": "A product may use less plastic but need more energy to make.",
-          "a": "T",
-          "why": "The text says: \"A product may use less plastic but require more energy to make.\""
-        },
-        {
-          "s": "Most shoppers say they distrust green labels.",
+          "s": "Most airlines have stopped using offsetting claims since July 2026.",
           "a": "N",
-          "why": "Not stated. The text does not say what shoppers think about green labels."
+          "why": "Not stated. The text does not say what airlines in general have done."
+        },
+        {
+          "s": "A product that uses less plastic always has a lower overall environmental impact.",
+          "a": "F",
+          "why": "The text says a product \"may use less plastic but require more energy to make\"."
+        },
+        {
+          "s": "The new European Union rules also cover unreliable sustainability labels.",
+          "a": "T",
+          "why": "The text says: \"The legislation also addresses unreliable sustainability labels\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "impression",
+          "d": "the idea or feeling you get about something"
+        },
+        {
+          "t": "emissions",
+          "d": "gases released into the air by vehicles, factories and planes"
+        },
+        {
+          "t": "regulator",
+          "d": "an official body that makes sure companies follow the rules"
+        },
+        {
+          "t": "complaints",
+          "d": "statements that you are not happy about something"
+        },
+        {
+          "t": "legislation",
+          "d": "laws made by a government"
+        },
+        {
+          "t": "offsetting",
+          "d": "balancing harm by paying for something good elsewhere"
+        },
+        {
+          "t": "sustainable",
+          "d": "able to continue without damaging the environment"
+        },
+        {
+          "t": "selective",
+          "d": "choosing only some things and ignoring others"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Check the logic. Whereas shows a contrast between two things, provided adds a condition, and despite needs a noun or an -ing form.",
+        "items": [
+          {
+            "s": "____ being technically accurate, the advert left a false impression.",
+            "a": "Despite"
+          },
+          {
+            "s": "Some shoppers read every label, ____ others simply trust the packaging.",
+            "a": "whereas"
+          },
+          {
+            "s": "Customers cannot check every claim; ____, independent checks are important.",
+            "a": "therefore"
+          },
+          {
+            "s": "A product may use less plastic. ____, it may need more energy to make.",
+            "a": "However"
+          },
+          {
+            "s": "Companies can advertise their progress, ____ they stay honest about the limits.",
+            "a": "provided"
+          }
+        ],
+        "extra": [
+          "unless",
+          "otherwise"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "A manufacturer may advertise recycled packaging while ____ the product itself.",
-            "a": "glossing over"
+            "s": "Any company making bold environmental promises should expect close ____ from journalists and regulators.",
+            "a": "scrutiny"
           },
           {
-            "s": "The claims made must now ____ scrutiny.",
-            "a": "stand up to"
+            "s": "The portrait of the factory was so ____ that it ignored its pollution record entirely.",
+            "a": "flattering"
           },
           {
-            "s": "Simplification becomes dishonest when the complications are quietly ____.",
-            "a": "set aside"
+            "s": "Paying for a tree to be planted is not ____ to cutting your own emissions.",
+            "a": "equivalent"
           },
           {
-            "s": "____ has shifted towards the companies making the claims.",
-            "a": "The burden of proof"
+            "s": "The data supplied was not ____ to justify so sweeping a claim.",
+            "a": "adequate"
           },
           {
-            "s": "Companies should not ____ broad, emotionally appealing phrases.",
-            "a": "fall back on"
+            "s": "A brand that wants to demonstrate its environmental ____ should publish independent results.",
+            "a": "credentials"
           },
           {
-            "s": "A cheerful green symbol risks creating ____.",
-            "a": "false confidence"
+            "s": "Emissions at the plant have fallen ____ since the new system was installed, though not to zero.",
+            "a": "substantially"
           }
         ],
         "extra": [
-          "tighten up",
-          "substantiated"
+          "negligible",
+          "complacency"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The most ____ environmental claim may be the one nobody notices.",
-            "cue": "PERSUADE",
-            "a": "persuasive"
+            "s": "The company's refusal to publish data raised doubts about the ____ of its claims.",
+            "cue": "CREDIBLE",
+            "a": "credibility"
           },
           {
-            "s": "Greenwashing exploits that ____: it offers the comfort of a responsible choice.",
-            "cue": "RELY",
-            "a": "reliance"
+            "s": "Critics described the slogan as ____, since it implied a benefit that did not exist.",
+            "cue": "DECEIVE",
+            "a": "deceptive"
           },
           {
-            "s": "Each statement can contain a ____ fragment of truth.",
-            "cue": "DEFEND",
-            "a": "defensible"
+            "s": "Stricter ____ should discourage companies from exaggerating their achievements.",
+            "cue": "REGULATE",
+            "a": "regulation"
           },
           {
-            "s": "Consumers rarely possess the information required to challenge complicated scientific ____.",
-            "cue": "ASSERT",
-            "a": "assertions"
+            "s": "Offsetting schemes are often criticised for their lack of ____.",
+            "cue": "TRANSPARENT",
+            "a": "transparency"
           },
           {
-            "s": "____ is not dishonest in itself.",
-            "cue": "SIMPLE",
-            "a": "Simplification"
+            "s": "The firm's ____ to admit the limits of its product damaged public trust.",
+            "cue": "RELUCTANT",
+            "a": "reluctance"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The ASA upheld rulings against Eurowings and Qatar Airways in July 2026.",
+          "s": "A company could be criticised for an advert in which every individual statement is true.",
           "a": "T",
-          "why": "The text says: \"In July 2026, Britain's Advertising Standards Authority upheld rulings against environmental advertisements from Eurowings and Qatar Airways.\""
+          "why": "The text says each statement can be true while \"the overall impression remains flattering, selective and misleading\"."
         },
         {
-          "s": "The writer warns that fear of regulators may silence worthwhile initiatives.",
-          "a": "T",
-          "why": "The text says: \"There is a danger, too, that fear of regulatory action encourages companies to say nothing about worthwhile initiatives.\""
-        },
-        {
-          "s": "The airlines have since changed their offsetting schemes.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether the airlines changed their offsetting schemes."
-        },
-        {
-          "s": "The writer calls for a complete ban on environmental advertising.",
+          "s": "The writer believes offsetting schemes never fund useful work.",
           "a": "F",
-          "why": "The text says the opposite: \"The solution is not to ban environmental communication but to tighten it up.\""
+          "why": "The text says: \"An offset scheme may fund useful work\"."
+        },
+        {
+          "s": "The airlines appealed against the rulings of the Advertising Standards Authority.",
+          "a": "N",
+          "why": "Not stated. The text does not say how the airlines responded."
+        },
+        {
+          "s": "The writer argues that simplifying environmental information is dishonest in every case.",
+          "a": "F",
+          "why": "The text says: \"Simplification is not dishonest in itself\"."
+        },
+        {
+          "s": "Judging a product only by the emissions from making it could give a misleading picture.",
+          "a": "T",
+          "why": "The text says a reusable product may have \"a higher manufacturing footprint but a lower impact over time\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "muted",
+          "d": "soft and not bright"
+        },
+        {
+          "t": "exploits",
+          "d": "uses something unfairly for your own benefit"
+        },
+        {
+          "t": "defensible",
+          "d": "able to be supported with good reasons"
+        },
+        {
+          "t": "offsetting",
+          "d": "balancing out damage by paying for good work elsewhere"
+        },
+        {
+          "t": "trade-offs",
+          "d": "situations where you give up one good thing to get another"
+        },
+        {
+          "t": "initiatives",
+          "d": "new plans or actions to solve a problem"
+        },
+        {
+          "t": "assertions",
+          "d": "strong statements that something is true"
+        },
+        {
+          "t": "upheld",
+          "d": "decided that a complaint was right"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "These are formal. Albeit introduces a contrast, hence gives a result after a semicolon, and notwithstanding is followed by a noun.",
+        "items": [
+          {
+            "s": "The advert was accurate in its wording, ____ misleading in its effect.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ the airline's good intentions, the claim could not be defended.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "Most customers do not read the small print; ____, vague slogans carry far more weight than detailed data.",
+            "a": "hence"
+          },
+          {
+            "s": "The EU introduced a system ____ companies must explain their claims with evidence.",
+            "a": "whereby"
+          },
+          {
+            "s": "Offsetting can fund useful projects; ____, it does not remove the emissions already produced.",
+            "a": "nonetheless"
+          }
+        ],
+        "extra": [
+          "thereby",
+          "lest"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: which bottle should we buy?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the shopper",
+      "text": "You are in a shop with a friend. You want to buy the bottle with green leaves and the word eco on it. Explain why you like it and why you think it is a good choice."
+    },
+    "b": {
+      "role": "the friend",
+      "text": "You are not sure the label is true. Ask what the label really proves. Ask at least two questions, then decide together which bottle to buy."
+    },
+    "phrases": [
+      "I'd like to buy this one, it looks greener.",
+      "What's the label actually telling us?",
+      "That doesn't prove anything.",
+      "I'm not sure we can trust it.",
+      "Let's check the figures before we decide.",
+      "Shall we buy the plain one instead?"
+    ],
+    "after": "Afterwards, tell the class which bottle you chose and why."
   }
 }

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Another payment has arrived from a business she says almost ____.",
-            "a": "runs itself"
+            "s": "Food and rent are getting more ____ every year, so many students want extra money.",
+            "a": "expensive"
           },
           {
-            "s": "These can be useful ways to ____.",
-            "a": "earn extra cash"
+            "s": "A ____ asked hundreds of students whether they had a side hustle.",
+            "a": "survey"
           },
           {
-            "s": "____ a shop is one thing; finding customers is another.",
-            "a": "Setting up"
+            "s": "She ____ about £200 last year by selling her old clothes online.",
+            "a": "earned"
           },
           {
-            "s": "Some gained enough money to ____.",
-            "a": "cover small expenses"
+            "s": "Before you start, write down all your ____, such as software and postage.",
+            "a": "expenses"
           },
           {
-            "s": "Good reviews rarely ____ when nobody knows you.",
-            "a": "appear overnight"
+            "s": "Good ____ help new customers to trust a small shop.",
+            "a": "reviews"
           }
         ],
         "extra": [
-          "turn into",
-          "second-hand"
+          "cheap",
+          "borrowed"
         ]
       },
       "match": [
@@ -67,9 +67,9 @@
             "a": "had"
           },
           {
-            "s": "Fees can reduce your profits, especially when you ____ just starting out.",
-            "cue": "be",
-            "a": "are"
+            "s": "Last month she ____ twenty planners, but she still lost money.",
+            "cue": "sell",
+            "a": "sold"
           },
           {
             "s": "Making money online is possible, but ____ it without hard work is unlikely.",
@@ -90,6 +90,11 @@
           "why": "The text says: \"They can build confidence, teach business skills and sometimes turn into full-time work.\""
         },
         {
+          "s": "Selling digital products means you must store boxes at home.",
+          "a": "F",
+          "why": "The text says: \"You don't need to store boxes or post parcels\""
+        },
+        {
           "s": "Most students start a side hustle while still at school.",
           "a": "N",
           "why": "Not stated. The text does not say when students start their side hustles."
@@ -99,39 +104,103 @@
           "a": "F",
           "why": "The text says the opposite: \"Of those, 79% had earned less than £500 in the previous year.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "influencer",
+          "d": "a person with many followers online who recommends things"
+        },
+        {
+          "t": "income",
+          "d": "money that you get from work or other sources"
+        },
+        {
+          "t": "attractive",
+          "d": "interesting and nice to look at"
+        },
+        {
+          "t": "customers",
+          "d": "people who buy things from a shop or business"
+        },
+        {
+          "t": "tutoring",
+          "d": "teaching one student or a small group"
+        },
+        {
+          "t": "promise",
+          "d": "to say that something will definitely happen"
+        },
+        {
+          "t": "digital",
+          "d": "stored and used on a computer or phone"
+        },
+        {
+          "t": "trust",
+          "d": "to believe that someone is honest and good"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word, like up or out. The small word is already in the sentence. Choose the verb.",
+        "items": [
+          {
+            "s": "Before you buy a course, ____ out who else is selling the same thing.",
+            "a": "find"
+          },
+          {
+            "s": "Many beginners ____ up after a month because nobody buys their products.",
+            "a": "give"
+          },
+          {
+            "s": "She hopes to ____ off her laptop in six months.",
+            "a": "pay"
+          },
+          {
+            "s": "You can ____ up for a free account on most selling websites.",
+            "a": "sign"
+          },
+          {
+            "s": "Most people ____ out with a small idea and a laptop.",
+            "a": "start"
+          }
+        ],
+        "extra": [
+          "carry",
+          "hand"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "A side hustle is an activity that ____ income alongside a job.",
-            "a": "brings in"
+            "s": "Online claims of effortless riches were met with ____ by many readers.",
+            "a": "scepticism"
           },
           {
-            "s": "For anyone squeezed by ____, the promise is powerful.",
-            "a": "the cost of living"
+            "s": "Monthly payments for software, known as ____, can quietly reduce a seller's earnings.",
+            "a": "subscriptions"
           },
           {
-            "s": "The evidence suggests that spectacular earnings are ____.",
-            "a": "far from typical"
+            "s": "Before launching an online shop, find out what your ____ charge for similar products.",
+            "a": "competitors"
           },
           {
-            "s": "Setting something up is rarely the same as making it ____.",
-            "a": "profitable"
+            "s": "Affiliate marketers earn a ____ of ten per cent each time someone buys through their link.",
+            "a": "commission"
           },
           {
-            "s": "____ is useful when an opportunity promises easy money.",
-            "a": "A healthy dose of scepticism"
+            "s": "Several bad reviews ____ her confidence in the new shop.",
+            "a": "undermined"
           },
           {
-            "s": "Research your competitors and ____ where your customers would come from.",
-            "a": "work out"
+            "s": "A few influencers post ____ results, but their experience is far from typical.",
+            "a": "spectacular"
           }
         ],
         "extra": [
-          "dismiss",
-          "genuine"
+          "ambition",
+          "awkward"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "They can provide ____, teach commercial skills and give people more control over their income.",
-            "cue": "FLEXIBLE",
-            "a": "flexibility"
+            "s": "By the time she saw her first sale, she ____ three months designing her products.",
+            "cue": "spend",
+            "a": "had spent"
           },
           {
-            "s": "First you need people to trust your ____.",
-            "cue": "RECOMMEND",
-            "a": "recommendations"
+            "s": "Most of these courses ____ on social media every day.",
+            "cue": "promote",
+            "a": "are promoted"
           },
           {
-            "s": "Software ____ and listing fees reduce the profit.",
-            "cue": "SUBSCRIBE",
-            "a": "subscriptions"
+            "s": "If you ____ the market first, you could lose money.",
+            "cue": "not research",
+            "a": "don't research|do not research"
           },
           {
-            "s": "Some are experienced business owners who offer ____ advice.",
-            "cue": "VALUE",
-            "a": "valuable"
+            "s": "She ____ on the shop for six months and has only made £80.",
+            "cue": "work",
+            "a": "has worked|has been working"
           },
           {
-            "s": "Financial ____ may begin with a good idea.",
-            "cue": "DEPEND",
-            "a": "independence"
+            "s": "Nobody ____ anything from the shop last week, so she changed her photos.",
+            "cue": "buy",
+            "a": "bought"
           }
         ]
       },
@@ -187,6 +256,11 @@
           "s": "All surveys of side hustles produce the same figures.",
           "a": "F",
           "why": "The text says the opposite: \"Other surveys produce different figures because they question different groups and define side hustles differently.\""
+        },
+        {
+          "s": "The writer says that building an audience is easy.",
+          "a": "F",
+          "why": "The text says: \"Building an audience is often the hardest part of the job.\""
         },
         {
           "s": "A journalist from the Guardian tried out several popular online money-making methods.",
@@ -203,39 +277,103 @@
           "a": "T",
           "why": "The text says: \"Of those, 79% had made less than £500 over the previous year.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "squeezed",
+          "d": "put under pressure because you have too little money"
+        },
+        {
+          "t": "legitimate",
+          "d": "honest and allowed by the law"
+        },
+        {
+          "t": "profitable",
+          "d": "making more money than it costs"
+        },
+        {
+          "t": "audience",
+          "d": "the people who watch, read or follow what you make"
+        },
+        {
+          "t": "initial",
+          "d": "happening at the beginning"
+        },
+        {
+          "t": "respondents",
+          "d": "people who answer questions in a survey"
+        },
+        {
+          "t": "investigation",
+          "d": "a careful search to find out the facts"
+        },
+        {
+          "t": "returns",
+          "d": "money you get back from something you paid for"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Some phrasal verbs take an object (turn down an offer). Think about the tense, because the verb must fit the sentence.",
+        "items": [
+          {
+            "s": "Many beginners ____ up spending more on software than they earn.",
+            "a": "end"
+          },
+          {
+            "s": "She ____ down the offer of a paid course because the price was too high.",
+            "a": "turned"
+          },
+          {
+            "s": "It takes months to ____ up an audience that trusts your recommendations.",
+            "a": "build"
+          },
+          {
+            "s": "While scrolling late at night, he ____ across a video promising easy money.",
+            "a": "came"
+          },
+          {
+            "s": "Careful research may ____ out ideas that would never make money.",
+            "a": "rule"
+          }
+        ],
+        "extra": [
+          "hold",
+          "stand"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Costs ____ in both cases.",
-            "a": "add up"
+            "s": "Any claim that promises guaranteed returns deserves close ____ before a single pound is paid.",
+            "a": "scrutiny"
           },
           {
-            "s": "The ____ between social-media aspiration and ordinary earnings is revealing.",
-            "a": "gulf"
+            "s": "A seller whose monthly takings are ____, soaring one month and collapsing the next, cannot plan around them.",
+            "a": "inconsistent"
           },
           {
-            "s": "Somebody still has to persuade strangers to ____ their money.",
-            "a": "part with"
+            "s": "Adverts that boast of life-changing results without a single figure are deliberately ____ about what buyers will actually earn.",
+            "a": "vague"
           },
           {
-            "s": "The figures provide ____ to the extraordinary success stories online.",
-            "a": "a useful counterweight"
+            "s": "Glowing ____ from satisfied customers are easy to select, edit or even invent.",
+            "a": "testimonials"
           },
           {
-            "s": "Low ____ also attract competitors to digital marketplaces.",
-            "a": "barriers to entry"
+            "s": "The financial ____ is clear: a seller may earn more from enrolments than from the product the course describes.",
+            "a": "incentive"
           },
           {
-            "s": "Small ventures can ____ low wages and develop useful skills.",
-            "a": "top up"
+            "s": "A design that needs no specialist skill is easy for rivals to ____.",
+            "a": "imitate"
           }
         ],
         "extra": [
-          "dubious",
-          "representative"
+          "endorsement",
+          "ostensible"
         ]
       },
       "match": [
@@ -260,9 +398,9 @@
         "kind": "word",
         "items": [
           {
-            "s": "A product sold repeatedly without being made again may be ____ to distribute.",
-            "cue": "EXPENSIVE",
-            "a": "inexpensive"
+            "s": "A ____ pitch can make an average product seem irresistible.",
+            "cue": "PERSUADE",
+            "a": "persuasive"
           },
           {
             "s": "There is nothing ____ dubious about earning extra money.",
@@ -288,26 +426,116 @@
       },
       "tfn": [
         {
-          "s": "In this piece, profit means the money left once fees, subscriptions and advertising have been paid.",
+          "s": "A seller who brings in £4,000 but pays £4,500 in subscriptions, advertising and fees has made no profit.",
           "a": "T",
-          "why": "The text says: \"Profit is what remains after platform charges, subscriptions and advertising.\""
+          "why": "The text defines profit as what remains after platform charges, subscriptions and advertising, so costs above income leave nothing."
         },
         {
-          "s": "The writer concludes that entrepreneurship has no value.",
+          "s": "The writer treats every creator who sells training as dishonest.",
           "a": "F",
-          "why": "The text says the opposite: \"None of this undermines the value of entrepreneurship.\""
+          "why": "The text says: \"Some experienced creators sell genuinely useful training\", so the criticism is limited to some."
         },
         {
-          "s": "Most course sellers earn more than the businesses they describe.",
+          "s": "Most respondents who earned under £500 planned to give up their ventures.",
           "a": "N",
-          "why": "Not stated. The text does not say how much course sellers earn compared with the businesses they describe."
+          "why": "The text gives their earnings but says nothing about their plans."
         },
         {
-          "s": "The survey figures come from students rather than from all entrepreneurs.",
+          "s": "The writer implies that easy entry to digital marketplaces is both an advantage and a weakness for sellers.",
           "a": "T",
-          "why": "The text says: \"These figures describe a particular student sample, not every entrepreneur, but they provide a useful counterweight to the extraordinary success stories filling online feeds.\""
+          "why": "No stock is needed, but low barriers attract competitors and products are easy to imitate."
+        },
+        {
+          "s": "The writer says commercial surveys of British side hustlers contradict the student survey.",
+          "a": "F",
+          "why": "The text says they \"similarly suggest\" that modest, inconsistent earnings are common."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "counterweight",
+          "d": "something that balances or reduces the effect of another thing"
+        },
+        {
+          "t": "aspiration",
+          "d": "a strong hope of achieving something"
+        },
+        {
+          "t": "gulf",
+          "d": "a very large difference between two things"
+        },
+        {
+          "t": "complication",
+          "d": "something that makes a situation harder or more confusing"
+        },
+        {
+          "t": "undermines",
+          "d": "weakens something gradually"
+        },
+        {
+          "t": "modest",
+          "d": "fairly small in size or amount"
+        },
+        {
+          "t": "prominent",
+          "d": "well known and important"
+        },
+        {
+          "t": "documented",
+          "d": "recorded in detail with evidence"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "At this level, many phrasal verbs are fixed with a preposition too (hold up as, shell out for). Check the grammar after the gap, then choose the verb.",
+        "items": [
+          {
+            "s": "Occasional outliers are ____ up as proof that anyone can succeed.",
+            "a": "held"
+          },
+          {
+            "s": "Cautious buyers should not ____ aside the lack of verifiable income figures.",
+            "a": "brush"
+          },
+          {
+            "s": "Few ventures ____ out as smoothly as the videos suggest.",
+            "a": "pan"
+          },
+          {
+            "s": "Some marketers ____ in on the hype by selling courses rather than products.",
+            "a": "cash"
+          },
+          {
+            "s": "Beginners are often persuaded to ____ out for software they barely use.",
+            "a": "shell"
+          }
+        ],
+        "extra": [
+          "weed",
+          "tide"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: should we buy the course?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the excited friend",
+      "text": "You've seen an online course that costs £300 and promises money while you sleep. You want your friend to join you. Explain why it looks like a good chance and answer your friend's worries."
+    },
+    "b": {
+      "role": "the cautious friend",
+      "text": "You're not sure the course is worth £300. Ask at least two questions about the costs, the customers and who is really making money. Suggest a cheaper way to test the idea."
+    },
+    "phrases": [
+      "I've just seen a course that teaches you to earn money online.",
+      "That's a lot of money for something we can't try first.",
+      "Who's actually making money from it?",
+      "I'd feel better if we checked the reviews together.",
+      "What would you do if it didn't work?",
+      "Let's find a compromise."
+    ],
+    "after": "Afterwards, tell the class: did you buy the course, and what made you decide?"
   }
 }

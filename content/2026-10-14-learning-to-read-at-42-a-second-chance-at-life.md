@@ -6,6 +6,7 @@ tags: Education, Society
 image: images/learning-to-read-at-42-a-second-chance-at-life-15bbe3.jpg
 image-alt: An older woman in a mustard cardigan points at a line in an open book while a bearded man in a blue shirt follows it with a pencil at a bright kitchen table.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You read the same paragraph twice, but it still does not ____.",
-            "a": "make sense"
-          },
-          {
-            "s": "The first result is about one day and the second is about a year, so they do not ____ each other.",
+            "s": "The two reports measure different things, so they do not ____ each other.",
             "a": "contradict"
           },
           {
-            "s": "Phones may be ____, because they offer messages, games and videos at any moment.",
-            "a": "part of the problem"
+            "s": "It is hard to ____ on homework when your phone keeps making noise.",
+            "a": "concentrate"
           },
           {
-            "s": "Naomi Alderman described a plan to help people ____ reading.",
-            "a": "get back into"
+            "s": "A slow story can find it hard to ____ with a funny video.",
+            "a": "compete"
           },
           {
-            "s": "Someone might begin with ten minutes and then ____ longer sessions.",
-            "a": "work towards"
+            "s": "My free evening quickly ____ while I watched videos.",
+            "a": "disappeared"
+          },
+          {
+            "s": "If you want to read more, you could ____ the time you spend on books each week.",
+            "a": "increase"
           }
         ],
         "extra": [
-          "switch off",
-          "quiet"
+          "offer",
+          "avoid"
         ]
       },
       "match": [
@@ -98,40 +98,109 @@
           "s": "The plan has been tried by thousands of readers.",
           "a": "N",
           "why": "Not stated. The text does not say how many people have tried the plan."
+        },
+        {
+          "s": "The text says phones are the only reason people read less.",
+          "a": "F",
+          "why": "The text says phones \"may be part of the problem\" and that people also need time, quiet places and interesting books."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "achievement",
+          "d": "something good you did with hard work"
+        },
+        {
+          "t": "ordinary",
+          "d": "normal, not special"
+        },
+        {
+          "t": "habit",
+          "d": "something you do again and again without thinking"
+        },
+        {
+          "t": "programme",
+          "d": "a plan of things to do, step by step"
+        },
+        {
+          "t": "regular",
+          "d": "happening often, at the same times"
+        },
+        {
+          "t": "excited",
+          "d": "happy and full of energy about something"
+        },
+        {
+          "t": "practice",
+          "d": "doing something again and again to get better"
+        },
+        {
+          "t": "subject",
+          "d": "the thing a book or a talk is about"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word. The small word changes the meaning, so learn them together.",
+        "items": [
+          {
+            "s": "Someone might begin with ten minutes and then work ____ longer reading sessions.",
+            "a": "towards"
+          },
+          {
+            "s": "Switch your phone ____ for a while if you want to read.",
+            "a": "off"
+          },
+          {
+            "s": "The writer described a plan to help people get ____ into reading.",
+            "a": "back"
+          },
+          {
+            "s": "A book asks us to stay ____ one story for longer.",
+            "a": "with"
+          },
+          {
+            "s": "Keep your phone out of reach so you do not pick it ____ every minute.",
+            "a": "up"
+          }
+        ],
+        "extra": [
+          "down",
+          "along"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "For people who once became ____ in stories, the change feels like a loss.",
-            "a": "absorbed"
-          },
-          {
-            "s": "When people ask why reading has fallen, smartphones are ____.",
-            "a": "an obvious suspect"
-          },
-          {
-            "s": "A book requires ____ attention.",
-            "a": "sustained"
-          },
-          {
-            "s": "Forcing yourself through a classic that ____ rarely works.",
-            "a": "feels like homework"
-          },
-          {
-            "s": "Keeping your phone ____ can make regular reading easier.",
-            "a": "out of reach"
-          },
-          {
-            "s": "The idea was to rebuild reading ____ gradually, with short sessions at first.",
+            "s": "She has the physical ____ to run for an hour without needing a rest.",
             "a": "stamina"
+          },
+          {
+            "s": "The police said they had found no ____ that anyone had broken in.",
+            "a": "evidence"
+          },
+          {
+            "s": "Work, money and family are common ____ that leave people too tired to read.",
+            "a": "pressures"
+          },
+          {
+            "s": "Her ____ as a pianist was obvious when she was six, and teachers soon noticed it.",
+            "a": "talent"
+          },
+          {
+            "s": "He felt a strong ____ to leave his job and travel the world.",
+            "a": "desire"
+          },
+          {
+            "s": "The latest ____ are surprising: they show a rise in some groups and a fall in others.",
+            "a": "findings"
           }
         ],
         "extra": [
-          "take over",
-          "manageable"
+          "reward",
+          "target"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Recovering that experience does not require a ____ lifestyle change.",
-            "cue": "DRAMA",
-            "a": "dramatic"
+            "s": "By the time she opened the novel again, she ____ who was speaking.",
+            "cue": "forget",
+            "a": "had forgotten"
           },
           {
-            "s": "The findings are not ____.",
-            "cue": "CONTRADICT",
-            "a": "contradictory"
+            "s": "When I was a child, a story ____ to me every night.",
+            "cue": "read",
+            "a": "was read"
           },
           {
-            "s": "Long working hours and family ____ leave people tired.",
-            "cue": "RESPONSIBLE",
-            "a": "responsibilities"
+            "s": "Reading habits ____ a lot in recent years.",
+            "cue": "change",
+            "a": "have changed"
           },
           {
-            "s": "Choosing a short, ____ book is often better than forcing a classic.",
-            "cue": "ENJOY",
-            "a": "enjoyable"
+            "s": "If I switched my phone off, I ____ much more.",
+            "cue": "read",
+            "a": "would read|could read|might read"
           },
           {
-            "s": "Books give us time to follow ideas without constant ____.",
-            "cue": "INTERRUPT",
-            "a": "interruption"
+            "s": "While I ____ my messages, the story slipped from my mind.",
+            "cue": "check",
+            "a": "was checking"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Book sales in the United States have fallen since 2023.",
-          "a": "N",
-          "why": "Not stated. The text says nothing about book sales in the United States."
-        },
-        {
-          "s": "The 2025 study found the daily figure fell from about 28% to 16%.",
-          "a": "T",
-          "why": "The text says: \"It found that the share of people reading for pleasure on an average day fell from about 28% to 16%.\""
-        },
-        {
-          "s": "Alderman's programme was inspired by the Couch to 5K approach.",
-          "a": "T",
-          "why": "The text says: \"In August 2026, novelist Naomi Alderman proposed an eight-week reading programme inspired by the popular Couch to 5K approach to running.\""
-        },
-        {
-          "s": "The two sets of findings contradict each other.",
+          "s": "The 2025 study and the Pew survey measure the same thing.",
           "a": "F",
-          "why": "The text says the opposite: \"The findings are not contradictory: reading something during a whole year is very different from reading regularly.\""
+          "why": "The study counts reading on an average day; Pew counts adults who read at least part of a book in a year."
+        },
+        {
+          "s": "The writer thinks technology is not the only reason people read less.",
+          "a": "T",
+          "why": "The text says it \"would be too simple to blame every change on technology\"."
+        },
+        {
+          "s": "Alderman's programme gives people a fixed list of books to read.",
+          "a": "N",
+          "why": "Not stated. The text only says the programme builds reading time gradually."
+        },
+        {
+          "s": "Reading at least part of a book in a year is more common than reading on a typical day.",
+          "a": "T",
+          "why": "About three-quarters read part of a book in a year, but only about 16% read on an average day."
+        },
+        {
+          "s": "The writer says everyone should spend hours reading novels.",
+          "a": "F",
+          "why": "The text says \"The real concern is not that everyone should spend hours reading novels.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "protected",
+          "d": "kept safe so that nothing can disturb it"
+        },
+        {
+          "t": "sustained",
+          "d": "continuing for a long time without stopping"
+        },
+        {
+          "t": "inspired",
+          "d": "given an idea by something else"
+        },
+        {
+          "t": "gradually",
+          "d": "slowly, a little at a time"
+        },
+        {
+          "t": "struggle",
+          "d": "find something very hard to do"
+        },
+        {
+          "t": "classic",
+          "d": "a famous book that people still read"
+        },
+        {
+          "t": "lifestyle",
+          "d": "the way a person lives every day"
+        },
+        {
+          "t": "approach",
+          "d": "a way of doing something"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs have a meaning you cannot guess from the parts. Check what the whole phrase means in the sentence.",
+        "items": [
+          {
+            "s": "Be patient: after a few pages, the story will take ____ and you will stop checking the time.",
+            "a": "over"
+          },
+          {
+            "s": "Many adults have fallen ____ of the habit of reading since they left school.",
+            "a": "out"
+          },
+          {
+            "s": "When you want to focus, put your phone ____ in a drawer.",
+            "a": "away"
+          },
+          {
+            "s": "I forced myself ____ the first fifty pages, and then the book became exciting.",
+            "a": "through"
+          },
+          {
+            "s": "Sign ____ for a library card, and borrowing books costs nothing.",
+            "a": "up"
+          }
+        ],
+        "extra": [
+          "along",
+          "round"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Blaming everything on smartphones ____ other pressures on reading.",
-            "a": "glosses over"
+            "s": "Constant interruptions can ____ a reader's confidence long before the last chapter.",
+            "a": "undermine"
           },
           {
-            "s": "A 2025 study, ____ two decades of time-use data, found that daily reading had fallen.",
-            "a": "drawing on"
+            "s": "Few readers can ____ a book that makes no effort to hold their interest.",
+            "a": "tolerate"
           },
           {
-            "s": "The Pew figure barely changed, so that measure has remained ____.",
-            "a": "comparatively stable"
+            "s": "Even keen readers find it hard to ____ the pull of a glowing screen.",
+            "a": "resist"
           },
           {
-            "s": "A novel asks for patience, while a phone promises ____ immediate rewards.",
-            "a": "a succession of"
+            "s": "Even as screens multiply, the habit of reading aloud to children continues to ____ in many families.",
+            "a": "persist"
           },
           {
-            "s": "Reading becomes less inviting when treated as a test of cultural ____.",
-            "a": "sophistication"
+            "s": "Critics are wrong in ____ the decline in reading entirely to one cause.",
+            "a": "attributing"
           },
           {
-            "s": "The practical response may be ____: a small change rather than a grand plan.",
-            "a": "disarmingly modest"
+            "s": "Teachers who insist on ____ comic books as lightweight may put off reluctant readers.",
+            "a": "dismissing"
           }
         ],
         "extra": [
-          "set aside",
-          "precarious"
+          "provoke",
+          "prolong"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Someone who struggles to concentrate is not necessarily lazy or ____.",
-            "cue": "CAPABLE",
-            "a": "incapable"
+            "s": "Treating reading as a test of cultural ____ makes it less inviting.",
+            "cue": "SOPHISTICATED",
+            "a": "sophistication"
           },
           {
-            "s": "A phone offers constant opportunities for ____ and interruption.",
-            "cue": "NOVEL",
-            "a": "novelty"
+            "s": "Few readers found the critic's claim ____, since it ignored the survey data.",
+            "cue": "PERSUADE",
+            "a": "unpersuasive"
           },
           {
-            "s": "The analogy replaces an unhelpful moral ____ with the idea of practice.",
-            "cue": "JUDGE",
-            "a": "judgement|judgment"
-          },
-          {
-            "s": "There is reason to avoid ____ books as inherently virtuous.",
+            "s": "Critics accused the film of ____ a harsh period of history.",
             "cue": "ROMANTIC",
             "a": "romanticising|romanticizing"
           },
           {
-            "s": "The more persuasive argument concerns the capacity to follow ideas and to tolerate ____.",
-            "cue": "CERTAIN",
-            "a": "uncertainty"
+            "s": "The ____ offered by a phone is far more immediate than that of a novel.",
+            "cue": "STIMULATE",
+            "a": "stimulation"
+          },
+          {
+            "s": "Someone who skips a chapter is not ____ lazy.",
+            "cue": "NECESSARY",
+            "a": "necessarily"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Schools in Britain have adopted the eight-week programme.",
-          "a": "N",
-          "why": "Not stated. The text does not say that any school has adopted the programme."
-        },
-        {
-          "s": "Pew reported in 2026 that around 75% of American adults had read some of a book.",
+          "s": "Someone who read a few pages of one book last year could count in Pew's figure without being counted in the daily-reading figure.",
           "a": "T",
-          "why": "The text says: \"Yet Pew Research Center reported in 2026 that around 75% of American adults had read at least some of a book during the previous year, a measure that has remained comparatively stable.\""
+          "why": "Pew counts adults who read \"at least some of a book\" in a year; the study counts reading on an average day."
         },
         {
-          "s": "The writer dismisses audiobooks as an inferior form of reading.",
+          "s": "The writer regards audiobooks as a poorer way to read than print.",
           "a": "F",
-          "why": "The text says the opposite: \"There is reason to avoid romanticising books as inherently virtuous or dismissing audiobooks and digital formats as inferior.\""
+          "why": "The text warns against \"dismissing audiobooks and digital formats as inferior\"."
         },
         {
-          "s": "Alderman's approach treats concentration as something that can be practised.",
+          "s": "Alderman's programme asks participants to keep a reading diary.",
+          "a": "N",
+          "why": "Not stated. The text only mentions progressively longer sessions."
+        },
+        {
+          "s": "The writer implies that difficulty concentrating does not necessarily show a personal failing.",
           "a": "T",
-          "why": "The text says: \"The analogy is useful because it replaces an unhelpful moral judgement with the idea of practice.\""
+          "why": "The text says someone who struggles is \"not necessarily lazy or incapable\"."
+        },
+        {
+          "s": "The writer argues that smartphones are the only pressure on reading.",
+          "a": "F",
+          "why": "The text says blaming digital technology for everything \"glosses over other pressures\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "inherently",
+          "d": "by its very nature"
+        },
+        {
+          "t": "comparatively",
+          "d": "when you compare it with something else"
+        },
+        {
+          "t": "disarmingly",
+          "d": "in a way that is so simple or honest that it removes doubt"
+        },
+        {
+          "t": "succession",
+          "d": "a number of things coming one after another"
+        },
+        {
+          "t": "exhaustion",
+          "d": "a state of being extremely tired"
+        },
+        {
+          "t": "analogy",
+          "d": "a comparison that explains one thing by another"
+        },
+        {
+          "t": "virtuous",
+          "d": "morally good"
+        },
+        {
+          "t": "novelty",
+          "d": "the quality of being new and interesting"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "At this level, many phrasal verbs are idiomatic and fairly formal. Notice that the particle stays in the sentence and you supply the verb.",
+        "items": [
+          {
+            "s": "Politicians often ____ over the awkward details of their plans.",
+            "a": "gloss"
+          },
+          {
+            "s": "Doctors could not ____ out stress as a cause of the headaches.",
+            "a": "rule"
+          },
+          {
+            "s": "Many adults ____ away from long novels because they fear losing the thread.",
+            "a": "shy"
+          },
+          {
+            "s": "He tends to ____ aside any criticism of his habits.",
+            "a": "brush"
+          },
+          {
+            "s": "Publishers may ____ down how few people finish what they buy.",
+            "a": "play"
+          }
+        ],
+        "extra": [
+          "tie",
+          "fix"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: ten minutes a day",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend who wants to read more",
+      "text": "You've bought lots of books but you hardly open them. Ask your friend to join you for ten quiet minutes of reading every evening, with phones off. Explain why it would help."
+    },
+    "b": {
+      "role": "the friend who loves scrolling",
+      "text": "You're tired after work and scrolling relaxes you. Ask questions and explain your worries. You can say yes, no, or yes with a different plan."
+    },
+    "phrases": [
+      "I'd love to get back into reading.",
+      "Could we try ten minutes a day?",
+      "I'm too tired by the evening.",
+      "What if we switched our phones off?",
+      "That's a fair point, but I'd rather start small.",
+      "Let's give it a week and see how it goes."
+    ],
+    "after": "Afterwards, tell the class: did you agree a plan, and is it realistic?"
   }
 }

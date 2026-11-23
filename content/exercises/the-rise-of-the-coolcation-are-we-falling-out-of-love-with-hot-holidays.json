@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You did not plan to stay inside, but you ____ hiding in an air-conditioned room.",
-            "a": "end up"
+            "s": "Small hotels in the north are ____ from the growing number of visitors.",
+            "a": "benefiting"
           },
           {
-            "s": "The attraction is not bad weather ____.",
-            "a": "for its own sake"
+            "s": "Visitors left a lot of ____ on the beach, and the town had to clean it up.",
+            "a": "rubbish"
           },
           {
-            "s": "It is the chance to ____ the whole day.",
-            "a": "make the most of"
+            "s": "Too many tourists can cause problems for small local ____.",
+            "a": "communities"
           },
           {
-            "s": "Experts warn that it is ____ that everyone is giving up the Mediterranean.",
-            "a": "too early to say"
+            "s": "Sun cream keeps your skin ____ from the sun.",
+            "a": "protected"
           },
           {
-            "s": "A peaceful-looking destination can ____ quickly.",
-            "a": "fill up"
+            "s": "The cheap price made the offer very ____ to us.",
+            "a": "attractive"
           }
         ],
         "extra": [
-          "cool down",
-          "exhausted"
+          "scenery",
+          "peaceful"
         ]
       },
       "match": [
@@ -57,9 +57,9 @@
             "a": "heading"
           },
           {
-            "s": "Norway's Lofoten Islands ____ crowded roads and rubbish as tourism has grown.",
-            "cue": "experience",
-            "a": "have experienced"
+            "s": "Norway's Lofoten Islands ____ many more visitors in recent years.",
+            "cue": "welcome",
+            "a": "have welcomed"
           },
           {
             "s": "In August, the BBC ____ holiday-cottage owners near Glencoe.",
@@ -67,14 +67,14 @@
             "a": "met"
           },
           {
-            "s": "Northern countries ____ not protected from climate change.",
-            "cue": "be",
-            "a": "are"
+            "s": "Climate change ____ every country in Europe.",
+            "cue": "affect",
+            "a": "affects"
           },
           {
-            "s": "A family might still choose Greece but ____ in May.",
-            "cue": "visit",
-            "a": "visit"
+            "s": "Last summer, we ____ a week by a cold lake in Sweden.",
+            "cue": "spend",
+            "a": "spent"
           }
         ]
       },
@@ -82,56 +82,125 @@
         {
           "s": "Scotland experienced unusual heat and wildfires that summer.",
           "a": "T",
-          "why": "The text says: \"Scotland experienced unusual heat and wildfires during the same summer that visitors were travelling there to cool down.\""
+          "why": "The text says Scotland had \"unusual heat and wildfires\" in the same summer."
         },
         {
           "s": "Spain, Italy and Greece have stopped attracting summer visitors.",
           "a": "F",
-          "why": "The text says the opposite: \"Spain, Italy and Greece remain extremely popular, and people choose places for many reasons, including price, food, culture and beaches.\""
+          "why": "The text says they \"remain extremely popular\"."
         },
         {
           "s": "Norway's tourism organisation said about one in five foreign visitors chose Norway partly for its cooler weather.",
           "a": "T",
-          "why": "The text says: \"Norway's tourism organisation said about one in five foreign visitors chose the country partly for its cooler weather.\""
+          "why": "The text gives this figure from Norway's tourism organisation."
         },
         {
           "s": "Flights to Scandinavia have become cheaper as a result.",
           "a": "N",
-          "why": "Not stated. The text says nothing about the price of flights to Scandinavia."
+          "why": "Not stated. The text says nothing about the price of flights."
+        },
+        {
+          "s": "Some guests near Glencoe were unhappy when it rained.",
+          "a": "F",
+          "why": "The text says \"Some guests were even pleased when it rained.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "trend",
+          "d": "something that more and more people start to do"
+        },
+        {
+          "t": "destination",
+          "d": "the place where you are going on a trip"
+        },
+        {
+          "t": "wildfires",
+          "d": "big fires in forests or on hills that spread fast"
+        },
+        {
+          "t": "pressure",
+          "d": "a problem that comes when there is too much of something"
+        },
+        {
+          "t": "climate",
+          "d": "the usual weather in a place over many years"
+        },
+        {
+          "t": "crowded",
+          "d": "full of too many people"
+        },
+        {
+          "t": "milder",
+          "d": "less cold or less hot than before"
+        },
+        {
+          "t": "warn",
+          "d": "tell someone that something bad may happen"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some linking words give a reason, some show a result, and some show a contrast. Think about the meaning before you choose.",
+        "items": [
+          {
+            "s": "Some travellers choose Norway ____ the weather is cooler there.",
+            "a": "because"
+          },
+          {
+            "s": "It was too hot to walk, ____ we stayed in the hotel.",
+            "a": "so"
+          },
+          {
+            "s": "The beaches were lovely, ____ the heat was too strong.",
+            "a": "but"
+          },
+          {
+            "s": "Spain is still very popular. ____, more people now visit in spring.",
+            "a": "However"
+          },
+          {
+            "s": "We will go to Scotland ____ the forecast is terrible.",
+            "a": "unless"
+          }
+        ],
+        "extra": [
+          "despite",
+          "otherwise"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "The trend has ____ under the name coolcation.",
-            "a": "taken off"
+            "s": "Vegan food was once unusual, but it has moved into the ____ in many cafes.",
+            "a": "mainstream"
           },
           {
-            "s": "Travellers want to explore without organising their day around the most ____ hours of the afternoon heat.",
+            "s": "I felt ____ when I met my new boss and could not remember his name.",
+            "a": "awkward"
+          },
+          {
+            "s": "The marathon was ____: forty degrees and no shade.",
             "a": "punishing"
           },
           {
-            "s": "Weather that advertisements once tried to ____ became a selling point.",
-            "a": "play down"
+            "s": "The cold, wet week was a ____ that British weather can change quickly.",
+            "a": "reminder"
           },
           {
-            "s": "Growing visitor numbers have ____ roads and local facilities.",
-            "a": "put pressure on"
+            "s": "Long flights produce ____ that warm the planet.",
+            "a": "emissions"
           },
           {
-            "s": "Summer 2026 was the continent's third warmest ____.",
-            "a": "on record"
-          },
-          {
-            "s": "Some people now avoid southern Europe at ____.",
-            "a": "the height of summer"
+            "s": "The campsite has good local ____, including showers and a small shop.",
+            "a": "facilities"
           }
         ],
         "extra": [
-          "add to",
-          "cautious"
+          "forecast",
+          "fragile"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Imagine arriving for a long-____ city break and finding it too hot for sightseeing.",
-            "cue": "AWAIT",
-            "a": "awaited"
+            "s": "By the time the guests arrived, the owners ____ every room.",
+            "cue": "clean",
+            "a": "had cleaned"
           },
           {
-            "s": "The name is awkward but ____.",
-            "cue": "MEMORY",
-            "a": "memorable"
+            "s": "Most of the cottages ____ last week, so we stayed in a hotel.",
+            "cue": "book",
+            "a": "were booked"
           },
           {
-            "s": "Guaranteed sunshine is no longer a guarantee of ____.",
-            "cue": "ENJOY",
-            "a": "enjoyment"
+            "s": "You ____ a waterproof jacket in the Highlands, even in July.",
+            "cue": "should / take",
+            "a": "should take"
           },
           {
-            "s": "Climate is only one factor alongside cost and transport ____.",
-            "cue": "LINK",
-            "a": "links"
+            "s": "Since June, the number of bookings ____ steadily.",
+            "cue": "rise",
+            "a": "has risen"
           },
           {
-            "s": "But when a holiday feels like hard work, a grey sky can suddenly look rather ____.",
-            "cue": "INVITE",
-            "a": "inviting"
+            "s": "While we ____ along the fjord, it started to rain.",
+            "cue": "walk",
+            "a": "were walking"
           }
         ]
       },
@@ -191,51 +260,120 @@
         {
           "s": "Scotland suffered a major wildfire in the Cairngorms that summer.",
           "a": "T",
-          "why": "The text says: \"Scotland suffered a major wildfire in the Cairngorms during the summer, a reminder that cooler does not mean risk-free.\""
+          "why": "The text says Scotland \"suffered a major wildfire in the Cairngorms\" during the summer."
         },
         {
           "s": "Researchers say the beach holiday has come to an end.",
           "a": "F",
-          "why": "The text says the opposite: \"However, tourism researchers are cautious about declaring the end of the beach holiday.\""
+          "why": "The text says researchers are \"cautious about declaring the end of the beach holiday\"."
         },
         {
           "s": "Copernicus reported that summer 2026 was Europe's third warmest on record.",
           "a": "T",
-          "why": "The text says: \"Europe's Copernicus climate service reported that summer 2026 was the continent's third warmest on record, with western Europe recording its hottest summer.\""
+          "why": "The text gives exactly this finding from Europe's Copernicus climate service."
+        },
+        {
+          "s": "Copernicus said summer 2026 was the warmest on record for the whole of Europe.",
+          "a": "F",
+          "why": "It was the continent's third warmest; only western Europe had its hottest summer."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "shutters",
+          "d": "wooden or metal covers that close over a window"
+        },
+        {
+          "t": "sightseeing",
+          "d": "visiting interesting places as a tourist"
+        },
+        {
+          "t": "guaranteed",
+          "d": "certain, with a promise that it will happen"
+        },
+        {
+          "t": "fjords",
+          "d": "long narrow parts of the sea between high cliffs, as in Norway"
+        },
+        {
+          "t": "thermometer",
+          "d": "a tool that shows how hot or cold it is"
+        },
+        {
+          "t": "wildfire",
+          "d": "a large fire that spreads quickly across wild land"
+        },
+        {
+          "t": "sunlounger",
+          "d": "a long chair for lying in the sun"
+        },
+        {
+          "t": "booking",
+          "d": "an arrangement to have a hotel room or a ticket"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Check whether the gap joins two clauses, comes before a noun phrase, or starts a new sentence. Then check that the logic works.",
+        "items": [
+          {
+            "s": "____ the rising interest, researchers say it is too early to call it a lasting change.",
+            "a": "Despite"
+          },
+          {
+            "s": "Some guests loved the rain, ____ others wished for sunshine.",
+            "a": "whereas"
+          },
+          {
+            "s": "Hotels in the north fill up quickly; ____, it is wise to book early.",
+            "a": "therefore"
+          },
+          {
+            "s": "Flights to the north are often long. ____, many travellers accept the extra journey time.",
+            "a": "Nevertheless"
+          },
+          {
+            "s": "The cottage owners will keep their prices low ____ demand rises sharply.",
+            "a": "unless"
+          }
+        ],
+        "extra": [
+          "provided",
+          "owing"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The promise fails when sightseeing becomes ____.",
-            "a": "an endurance test"
+            "s": "The minister offered a ____ response, avoiding both panic and complacency.",
+            "a": "measured"
           },
           {
-            "s": "Travellers want the once-____ possibility of rain.",
-            "a": "unfashionable"
+            "s": "The ring road is so ____ at rush hour that a ten-minute journey takes an hour.",
+            "a": "congested"
           },
           {
-            "s": "The evidence ____ a measured interpretation.",
-            "a": "calls for"
+            "s": "Wealthy neighbourhoods were largely ____ from the rise in prices.",
+            "a": "insulated"
           },
           {
-            "s": "Rising numbers have ____ congested roads and parking arguments.",
-            "a": "brought about"
+            "s": "The old harbour, once an eyesore, is now the town's greatest ____.",
+            "a": "asset"
           },
           {
-            "s": "Tourism pressure does not vanish; the crowds simply ____ somewhere else.",
-            "a": "turn up"
+            "s": "A ____ of cancelled trains left commuters furious.",
+            "a": "succession"
           },
           {
-            "s": "Long-distance flights remain part of tourism's ____.",
-            "a": "environmental footprint"
+            "s": "A sudden ____ in demand overwhelmed the ticket website.",
+            "a": "spike"
           }
         ],
         "extra": [
-          "consequential",
-          "breathing space"
+          "overflowing",
+          "archipelago"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The attraction is more ____ than the slogan suggests.",
-            "cue": "SUBSTANCE",
-            "a": "substantial"
-          },
-          {
-            "s": "What was once marketed ____ is now presented as freedom.",
-            "cue": "APOLOGY",
-            "a": "apologetically"
-          },
-          {
-            "s": "A spike in searches may reflect ____ rather than lasting change.",
-            "cue": "CURIOUS",
-            "a": "curiosity"
-          },
-          {
-            "s": "Decisions depend on ____, food and flight connections.",
-            "cue": "AFFORD",
-            "a": "affordability"
-          },
-          {
-            "s": "Tourism pressure does not become ____ merely by moving north.",
+            "s": "The scheme was widely criticised as ____ given the strain on local roads.",
             "cue": "SUSTAIN",
-            "a": "sustainable"
+            "a": "unsustainable"
+          },
+          {
+            "s": "Her ____ of the rules cost the company its licence.",
+            "cue": "REGARD",
+            "a": "disregard"
+          },
+          {
+            "s": "The festival's rapid growth has been ____ to the village's fragile ecosystem.",
+            "cue": "DETRIMENT",
+            "a": "detrimental"
+          },
+          {
+            "s": "Supporters hailed the ____ of the old mill as a triumph for the town.",
+            "cue": "RESTORE",
+            "a": "restoration"
+          },
+          {
+            "s": "The mayor's remarks were met with ____ from the packed hall.",
+            "cue": "SCEPTIC",
+            "a": "scepticism"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The writer says moving tourism north solves the overcrowding problem.",
+          "s": "Both the holidaymakers reported from Glencoe and the visitors to Norway are described as being motivated partly by cooler weather.",
+          "a": "T",
+          "why": "The Glencoe holidaymakers sought relief from heat, and one in five Norway visitors named cooler weather."
+        },
+        {
+          "s": "The writer treats a rise in online searches as firm proof that holiday habits have changed.",
           "a": "F",
-          "why": "The text says the opposite: \"Tourism pressure does not become sustainable merely because it moves north; the crowds simply turn up somewhere else.\""
+          "why": "The text says a spike in searches \"may reflect curiosity rather than a lasting change\"."
         },
         {
-          "s": "Lofoten has seen arguments about who should pay for local infrastructure.",
-          "a": "T",
-          "why": "The text says: \"In parts of Norway's Lofoten archipelago, rising tourist numbers have already brought about congested roads, overflowing parking areas and arguments about who should pay for local infrastructure.\""
-        },
-        {
-          "s": "Norway has introduced limits on visitor numbers to Lofoten.",
+          "s": "Most visitors to Lofoten travel there by car.",
           "a": "N",
-          "why": "Not stated. The text does not say whether Norway has limited visitor numbers in Lofoten."
+          "why": "Not stated. The text mentions congested roads but gives no travel figures."
         },
         {
-          "s": "Euronews described growing interest in northern destinations.",
+          "s": "The writer believes that spreading trips across the year would be enough on its own to solve overcrowding.",
+          "a": "F",
+          "why": "The text says this \"requires planning, infrastructure and an honest account of environmental costs\"."
+        },
+        {
+          "s": "The text suggests that cost could put some travellers off Scandinavia.",
           "a": "T",
-          "why": "The text says: \"Euronews, reporting with AFP, described growing interest in northern destinations.\""
+          "why": "The text says \"Scandinavia can also be expensive\" and that decisions depend on affordability."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "drizzle",
+          "d": "very light rain"
+        },
+        {
+          "t": "endurance",
+          "d": "the ability to keep going through something hard"
+        },
+        {
+          "t": "breathable",
+          "d": "cool and fresh enough to be comfortable"
+        },
+        {
+          "t": "downpour",
+          "d": "a sudden, very heavy fall of rain"
+        },
+        {
+          "t": "archipelago",
+          "d": "a group of many small islands"
+        },
+        {
+          "t": "infrastructure",
+          "d": "the basic systems a place needs, such as roads and services"
+        },
+        {
+          "t": "irony",
+          "d": "a strange situation that is the opposite of what you expect"
+        },
+        {
+          "t": "footprint",
+          "d": "the amount of harm that something does to the environment"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "At this level, some linkers need a noun phrase, some a clause, and some a verb form. Look at what follows the gap before you choose.",
+        "items": [
+          {
+            "s": "The cabin was basic, ____ spotlessly clean.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ the forecast of heavy rain, the hikers set out at dawn.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "The council trialled a scheme ____ visitors pay a small levy for footpath repairs.",
+            "a": "whereby"
+          },
+          {
+            "s": "Rents rose sharply; ____ many young families left the village.",
+            "a": "hence"
+          },
+          {
+            "s": "Warm winters hurt ski resorts. ____, they can help coastal towns extend their season.",
+            "a": "Conversely"
+          }
+        ],
+        "extra": [
+          "thereby",
+          "inasmuch"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: choosing a summer holiday",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend who wants a cool holiday",
+      "text": "You want to spend a week in Norway or Scotland this summer. You hate very hot weather and sleep badly when it is hot. Try to persuade your friend."
+    },
+    "b": {
+      "role": "the friend who wants a beach holiday",
+      "text": "You want a week in Spain. You love sunshine and swimming. Explain why, and listen to your friend's ideas. Try to agree on a plan."
+    },
+    "phrases": [
+      "I'd rather go somewhere cooler.",
+      "I can't sleep when it's too hot.",
+      "That's a fair point, but I love the beach.",
+      "What if we went in May instead?",
+      "Let's compare the prices first.",
+      "I'm happy to compromise."
+    ],
+    "after": "Afterwards, tell the class: where did you decide to go, and who gave way more?"
   }
 }

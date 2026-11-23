@@ -247,6 +247,9 @@ li:has(.tfn){display:list-item}
 .tight .stage{margin-top:4mm}
 .tight .cards{gap:4mm;margin-bottom:2mm}
 .tight .card{padding:2.2mm 3mm}
+.tight .cols{font-size:10pt;line-height:1.42}
+.tight .cols p{margin-bottom:1.8mm}
+.tight .sum{margin-bottom:2.4mm}
 .key{break-before:page}
 .key dl{margin:0}.key dt{font-weight:600;margin:3.5mm 0 .6mm}.key dd{margin:0;color:#14181f}
 """

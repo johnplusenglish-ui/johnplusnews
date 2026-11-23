@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "The library's most useful gift may be the confidence to ____ and discover what is there.",
-            "a": "go outdoors"
+            "s": "A good teacher will ____ you to try new things.",
+            "a": "encourage"
           },
           {
-            "s": "You should not have to buy everything before ____.",
-            "a": "getting started"
+            "s": "Old family photographs are very ____ to the people who keep them.",
+            "a": "valuable"
           },
           {
-            "s": "The building itself is ____.",
-            "a": "part of the experience"
+            "s": "Several visitors ____ the new library as friendly and bright.",
+            "a": "described"
           },
           {
-            "s": "Staff organise activities to help visitors ____.",
-            "a": "pick up new skills"
+            "s": "The box may ____ a torch, a map and some food.",
+            "a": "contain"
           },
           {
-            "s": "A camera might encourage somebody to ____.",
-            "a": "try something new"
+            "s": "The instructions were ____, so everyone put the tent up in minutes.",
+            "a": "straightforward"
           }
         ],
         "extra": [
-          "bring back",
-          "energy-efficient"
+          "organise",
+          "explore"
         ]
       },
       "match": [
@@ -57,9 +57,9 @@
             "a": "opened"
           },
           {
-            "s": "It has around 850 sets of equipment that visitors can ____.",
-            "cue": "borrow",
-            "a": "borrow"
+            "s": "Visitors ____ the equipment back after a week.",
+            "cue": "bring",
+            "a": "brought"
           },
           {
             "s": "The building ____ beside open land and has gardens and paths.",
@@ -98,40 +98,109 @@
           "s": "Visitors must pay to borrow the nature equipment.",
           "a": "F",
           "why": "The text says the opposite: \"You do not need to buy them. A library card is enough.\""
+        },
+        {
+          "s": "Mark Fink says people must travel far into the mountains to enjoy nature.",
+          "a": "F",
+          "why": "The text says the opposite: people \"do not need to travel far into the mountains to enjoy nature.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "equipment",
+          "d": "the things you need to do an activity"
+        },
+        {
+          "t": "borrow",
+          "d": "take something for a short time and then give it back"
+        },
+        {
+          "t": "binoculars",
+          "d": "two small tubes that make faraway things look close"
+        },
+        {
+          "t": "stargazing",
+          "d": "looking at the stars in the night sky"
+        },
+        {
+          "t": "insects",
+          "d": "very small animals with six legs, like ants and bees"
+        },
+        {
+          "t": "attract",
+          "d": "make someone or something come closer"
+        },
+        {
+          "t": "director",
+          "d": "the person who is in charge of a place"
+        },
+        {
+          "t": "confidence",
+          "d": "the feeling that you can do something well"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Look at the idea before and after the gap. Does the second idea give a result, a condition, a contrast or extra emphasis?",
+        "items": [
+          {
+            "s": "Camping equipment is expensive, ____ many families borrow it instead.",
+            "a": "so"
+          },
+          {
+            "s": "____ you want to learn about nature, you should not have to buy everything first.",
+            "a": "If"
+          },
+          {
+            "s": "The tent was cheap to borrow, ____ the walk to the campsite was long.",
+            "a": "but"
+          },
+          {
+            "s": "Nature is good for everyone, ____ for children who live in cities.",
+            "a": "especially"
+          },
+          {
+            "s": "You can try camping ____ buying a tent.",
+            "a": "without"
+          }
+        ],
+        "extra": [
+          "because",
+          "unless"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Many families cannot justify ____ on expensive equipment.",
-            "a": "splashing out"
-          },
-          {
-            "s": "Another family borrowed a gardening kit to ____ a space for bees.",
-            "a": "set up"
-          },
-          {
-            "s": "Access to the right equipment makes an activity feel less ____.",
+            "s": "Speaking in front of two hundred people can feel ____ for a first-time presenter.",
             "a": "intimidating"
           },
           {
-            "s": "Outdoor activities involve costs that are ____.",
-            "a": "easy to overlook"
+            "s": "Many households cannot ____ paying a high price for equipment they will use only once.",
+            "a": "justify"
           },
           {
-            "s": "Noticing birds in a local neighbourhood can be ____.",
-            "a": "a meaningful starting point"
+            "s": "High prices and long journeys are ____ that keep some families away from the countryside.",
+            "a": "barriers"
           },
           {
-            "s": "Curiosity should not depend on ____.",
-            "a": "the size of someone's bank account"
+            "s": "It is easy to ____ small details when you are in a hurry.",
+            "a": "overlook"
+          },
+          {
+            "s": "Visitors who are ____ with camping often need advice.",
+            "a": "unfamiliar"
+          },
+          {
+            "s": "The scheme works on the same ____ as a book library: shared resources for everyone.",
+            "a": "principle"
           }
         ],
         "extra": [
-          "take home",
-          "accessible"
+          "affordable",
+          "reluctant"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The idea is particularly ____ to families on a budget.",
-            "cue": "ATTRACT",
-            "a": "attractive"
+            "s": "By the time Mia reached the campsite, the rain ____.",
+            "cue": "stop",
+            "a": "had stopped"
           },
           {
-            "s": "At the library, these objects are not ____ extras.",
-            "cue": "USUAL",
-            "a": "unusual"
+            "s": "The gardens at the library ____ for different plants and animals.",
+            "cue": "design",
+            "a": "are designed"
           },
           {
-            "s": "Green spaces may not feel ____ accessible to everybody.",
-            "cue": "EQUAL",
-            "a": "equally"
+            "s": "Visitors ____ a kit and try it before spending any money.",
+            "cue": "borrow",
+            "a": "can borrow"
           },
           {
-            "s": "Experiencing nature need not involve an ____ expedition.",
-            "cue": "AMBITION",
-            "a": "ambitious"
+            "s": "The Anythink Nature Library ____ in Thornton in August 2026.",
+            "cue": "open",
+            "a": "opened"
           },
           {
-            "s": "Libraries have traditionally provided ____ access to information.",
-            "cue": "SHARE",
-            "a": "shared"
+            "s": "Early visitors ____ the benefits already.",
+            "cue": "describe",
+            "a": "have described"
           }
         ]
       },
@@ -199,43 +268,112 @@
           "why": "The text says the opposite: \"Alongside its large book collection, the library offers about 850 sets of nature-related equipment, including microscopes, gardening tools, hiking supplies and cameras.\""
         },
         {
-          "s": "There are roughly 850 nature equipment kits to borrow.",
+          "s": "Mark Fink argues that people must go on an ambitious expedition to experience nature.",
+          "a": "F",
+          "why": "The text says he argues that experiencing nature \"need not involve an ambitious expedition.\""
+        },
+        {
+          "s": "Families can find out whether they enjoy an activity without spending their own money.",
           "a": "T",
-          "why": "The text says: \"Alongside its large book collection, the library offers about 850 sets of nature-related equipment, including microscopes, gardening tools, hiking supplies and cameras.\""
+          "why": "Visitors can borrow a kit and \"decide whether the activity interests them before spending any money of their own.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "afford",
+          "d": "have enough money to pay for something"
+        },
+        {
+          "t": "institution",
+          "d": "a large, important organisation, like a library or a school"
+        },
+        {
+          "t": "landscape",
+          "d": "everything you can see in an area of land"
+        },
+        {
+          "t": "pollinators",
+          "d": "insects that carry pollen from one flower to another"
+        },
+        {
+          "t": "expedition",
+          "d": "a long, organised trip to a faraway place"
+        },
+        {
+          "t": "curiosity",
+          "d": "a strong wish to learn about something"
+        },
+        {
+          "t": "neighbourhood",
+          "d": "the area around where you live"
+        },
+        {
+          "t": "traditionally",
+          "d": "in the way things have been done for a long time"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Decide the relationship first: contrast, condition or result. Then check whether a clause or a noun follows the gap, and whether the word can start a new sentence.",
+        "items": [
+          {
+            "s": "____ the library is new, it already attracts many families.",
+            "a": "Although"
+          },
+          {
+            "s": "____ the high cost of tents, many families still want to go camping.",
+            "a": "Despite"
+          },
+          {
+            "s": "A hobby will not become a habit ____ people can try it cheaply first.",
+            "a": "unless"
+          },
+          {
+            "s": "The equipment is free to borrow. ____, visitors must return it on time.",
+            "a": "However"
+          },
+          {
+            "s": "A lending scheme removes the cost; ____, more people can try new hobbies.",
+            "a": "therefore"
+          }
+        ],
+        "extra": [
+          "otherwise",
+          "meanwhile"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The Colorado experiment offers a more ____ definition of a library.",
+            "s": "The new policy was meant to ____ the message that public services belong to everyone.",
+            "a": "reinforce"
+          },
+          {
+            "s": "Luxury is not always ____ with comfort.",
+            "a": "synonymous"
+          },
+          {
+            "s": "Removing the application fee lowered the ____ for first-time applicants.",
+            "a": "threshold"
+          },
+          {
+            "s": "Many first-time hikers feel ____ by the sheer amount of gear on offer.",
+            "a": "intimidated"
+          },
+          {
+            "s": "Hikers had to ____ up the loose slope on hands and knees.",
+            "a": "scramble"
+          },
+          {
+            "s": "The museum took an ____ view of its role, hosting concerts, classes and markets.",
             "a": "expansive"
-          },
-          {
-            "s": "Borrowing equipment ____ of trying something new.",
-            "a": "lowered the financial and psychological stakes"
-          },
-          {
-            "s": "It offers a first encounter with activities that might remain ____.",
-            "a": "out of reach"
-          },
-          {
-            "s": "Enjoying the outdoors can require time, clothing and ____.",
-            "a": "a sense of belonging"
-          },
-          {
-            "s": "City residents may ____ very different obstacles.",
-            "a": "come up against"
-          },
-          {
-            "s": "Borrowing shared equipment can ____ individual purchases.",
-            "a": "cut down on"
           }
         ],
         "extra": [
-          "inventive",
-          "turn into"
+          "accomplished",
+          "reluctant"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Alongside a ____ collection of books, the library lends equipment.",
-            "cue": "CONVENTION",
-            "a": "conventional"
+            "s": "The long-term ____ of the scheme depends on community support.",
+            "cue": "SUSTAIN",
+            "a": "sustainability"
           },
           {
-            "s": "Adults can learn about drought-resistant gardening, wildlife ____ or stargazing.",
-            "cue": "PHOTOGRAPH",
-            "a": "photography"
+            "s": "Knowledge of wildlife can seem ____ to people who are struggling to pay the rent.",
+            "cue": "RELEVANT",
+            "a": "irrelevant"
           },
           {
-            "s": "The library does not promise to make every visitor an ____ naturalist.",
-            "cue": "ACCOMPLISH",
-            "a": "accomplished"
+            "s": "Public spaces are only valuable if their ____ is real, not just formal.",
+            "cue": "ACCESS",
+            "a": "accessibility"
           },
           {
-            "s": "Older people with limited ____ face different obstacles.",
-            "cue": "MOBILE",
-            "a": "mobility"
+            "s": "A lending scheme succeeds only if borrowers return items ____.",
+            "cue": "RELY",
+            "a": "reliably"
           },
           {
-            "s": "There is an ____ argument, too, although it deserves a little caution.",
-            "cue": "ENVIRONMENT",
-            "a": "environmental"
+            "s": "Careful ____ of the equipment keeps the scheme affordable.",
+            "cue": "MAINTAIN",
+            "a": "maintenance"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The library opened in August 2026.",
+          "s": "The writer implies that having a park nearby does not guarantee everyone can enjoy the outdoors.",
           "a": "T",
-          "why": "The text says: \"The Anythink Nature Library, opened in Thornton in August 2026, extends the library's traditional promise beyond books and information.\""
+          "why": "Access is often discussed \"as though the presence of a park or trail were sufficient. In practice,\" enjoying the outdoors can require money, transport and time."
         },
         {
-          "s": "Learning about wildlife automatically makes people behave in greener ways.",
+          "s": "The writer is certain that lending equipment will reduce what individuals buy.",
           "a": "F",
-          "why": "The text says the opposite: \"Yet the relationship between environmental knowledge and behaviour is not automatic.\""
+          "why": "The text says borrowing \"can cut down on individual purchases\" but owning fewer objects is useful \"only if\" the system is accessible, maintained and well used."
         },
         {
-          "s": "The library's heating and cooling system uses geothermal energy.",
-          "a": "T",
-          "why": "The text says: \"Solar panels and a geothermal heating and cooling system reinforce the environmental purpose of a public building that treats the outdoors as an extension of its reading rooms.\""
-        },
-        {
-          "s": "Borrowing numbers have exceeded the library's own forecasts.",
+          "s": "Local residents have criticised the library's opening hours.",
           "a": "N",
-          "why": "Not stated. The text does not compare borrowing numbers with any forecast."
+          "why": "Not stated. The text never mentions opening hours or any criticism."
+        },
+        {
+          "s": "The library's long-term success partly depends on people coming back to use it.",
+          "a": "T",
+          "why": "Success depends on \"whether residents continue to return and discover practical value in the service.\""
+        },
+        {
+          "s": "The writer regards the tent itself as the library's greatest innovation.",
+          "a": "F",
+          "why": "The text says the central innovation \"is not the tent itself but the removal of a threshold.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "conservation",
+          "d": "the protection of nature and wild places"
+        },
+        {
+          "t": "pollinators",
+          "d": "insects that carry pollen from one flower to another"
+        },
+        {
+          "t": "drought-resistant",
+          "d": "able to live through long periods without rain"
+        },
+        {
+          "t": "naturalist",
+          "d": "a person who studies plants and animals"
+        },
+        {
+          "t": "stakes",
+          "d": "what you might gain or lose if something goes wrong"
+        },
+        {
+          "t": "psychological",
+          "d": "connected with the mind and feelings"
+        },
+        {
+          "t": "residents",
+          "d": "the people who live in a place"
+        },
+        {
+          "t": "extension",
+          "d": "something added to make a thing bigger or longer"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "At this level, check the logic first. Some words take a noun phrase, some a clause, and some start a new sentence. Is the link concessive, conditional or contrastive?",
+        "items": [
+          {
+            "s": "____ the occasional damaged item, lending schemes of this kind tend to run smoothly.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "The first month was a modest success, ____ one that surprised the sceptics.",
+            "a": "albeit"
+          },
+          {
+            "s": "Wealthier households can simply buy a tent, ____ others must weigh every purchase.",
+            "a": "whereas"
+          },
+          {
+            "s": "A lending scheme can widen access, ____ it is properly maintained and well publicised.",
+            "a": "provided"
+          },
+          {
+            "s": "The scheme cannot guarantee a lasting love of nature. ____, it removes a real obstacle.",
+            "a": "Nonetheless"
+          }
+        ],
+        "extra": [
+          "thereby",
+          "lest"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: borrow it or buy it?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend who wants to buy",
+      "text": "You want to go camping next weekend. You plan to buy a tent. Explain why owning one feels better, and ask your friend about any problems with borrowing."
+    },
+    "b": {
+      "role": "the friend who suggests borrowing",
+      "text": "You know a library where you can borrow a tent. Persuade your friend to try borrowing first. Answer their worries and say what you'd do together."
+    },
+    "phrases": [
+      "I was thinking of buying a tent.",
+      "Why don't we borrow one first?",
+      "What if it's already taken?",
+      "That's a fair point, but it's cheaper.",
+      "I'd rather try it before I spend money.",
+      "Okay, let's give it a go."
+    ],
+    "after": "Afterwards, tell the class: did your friend decide to borrow or to buy, and why?"
   }
 }

@@ -6,6 +6,7 @@ source: LVR Office for Archaeological Monument Preservation | https://www.lvr.de
 image: images/the-man-who-found-934-roman-silver-coins-bea145.jpg
 image-alt: A gloved hand lifts one worn silver coin from a scatter of dozens more lying in dark soil, with a trowel and a soft brush at the edges of the frame.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

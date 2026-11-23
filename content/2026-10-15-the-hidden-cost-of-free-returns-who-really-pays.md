@@ -6,6 +6,7 @@ source: The Guardian | https://www.theguardian.com/business/2026/oct/04/retailer
 image: images/the-hidden-cost-of-free-returns-who-really-pays-626186.jpg
 image-alt: Two warehouse workers in high-visibility vests sort returned clothing, one holding up a green jacket to inspect it while the other opens a box of bagged garments.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

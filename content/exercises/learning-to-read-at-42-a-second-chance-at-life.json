@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Peter could drive a lorry, remember routes and ____ his family.",
-            "a": "look after"
+            "s": "The instructions were so ____ that nobody in the office could follow them.",
+            "a": "complicated"
           },
           {
-            "s": "An ordinary trip to the supermarket persuaded him to ____.",
-            "a": "ask for help"
+            "s": "My sister ____ me to join the gym after months of asking.",
+            "a": "persuaded"
           },
           {
-            "s": "Sometimes the work was frustrating, but this time he did not ____.",
-            "a": "give up"
+            "s": "Good teachers build a student's ____ by praising small steps.",
+            "a": "confidence"
           },
           {
-            "s": "He wanted to read the first Harry Potter book ____.",
-            "a": "from beginning to end"
+            "s": "A ____ gives his time for free, so the charity does not pay him.",
+            "a": "volunteer"
           },
           {
-            "s": "Learning to read has ____ a very different future.",
-            "a": "opened up"
+            "s": "Many jobs ask for ____ such as a degree or a diploma.",
+            "a": "qualifications"
           }
         ],
         "extra": [
-          "damaging",
-          "hidden"
+          "reluctant",
+          "refused"
         ]
       },
       "match": [
@@ -62,19 +62,19 @@
             "a": "grew"
           },
           {
-            "s": "Like many adults who ____ reading difficult, he learnt ways to manage.",
-            "cue": "find",
-            "a": "find"
+            "s": "Before he learnt to read, Peter ____ a lorry across Britain.",
+            "cue": "drive",
+            "a": "drove"
           },
           {
-            "s": "He started ____ a volunteer coach called Alison twice a week.",
-            "cue": "meet",
-            "a": "meeting"
+            "s": "In the supermarket, he ____ that he could not read the labels.",
+            "cue": "realise",
+            "a": "realised"
           },
           {
-            "s": "Some are afraid that others ____ them.",
-            "cue": "judge",
-            "a": "will judge|would judge"
+            "s": "Back at home, he ____ his wife how difficult things had become.",
+            "cue": "tell",
+            "a": "told"
           }
         ]
       },
@@ -98,40 +98,109 @@
           "s": "Peter had a hearing problem from the day he was born.",
           "a": "T",
           "why": "The text says: \"Peter grew up in Lancashire and was partially deaf from birth.\""
+        },
+        {
+          "s": "Peter's wife was against the idea of contacting Read Easy.",
+          "a": "F",
+          "why": "The text says she \"encouraged him to contact Read Easy\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "lorry",
+          "d": "a big truck that carries things by road"
+        },
+        {
+          "t": "deaf",
+          "d": "not able to hear, or not able to hear well"
+        },
+        {
+          "t": "allergies",
+          "d": "when your body reacts badly to a food or other thing"
+        },
+        {
+          "t": "cartons",
+          "d": "paper boxes that hold milk or juice"
+        },
+        {
+          "t": "charity",
+          "d": "a group that helps people and does not work to make money"
+        },
+        {
+          "t": "coach",
+          "d": "a person who teaches you and helps you get better"
+        },
+        {
+          "t": "frustrating",
+          "d": "making you feel annoyed because something is hard"
+        },
+        {
+          "t": "judge",
+          "d": "to decide that someone is good or bad, often too fast"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Because gives a reason and so gives a result. Although and however show a difference. Check where the gap sits in the sentence.",
+        "items": [
+          {
+            "s": "He felt worried in the shop ____ he could not read the labels on the milk.",
+            "a": "because"
+          },
+          {
+            "s": "Her reading was slow, ____ she asked her teacher for more practice.",
+            "a": "so"
+          },
+          {
+            "s": "Learning to read is difficult for many adults. ____, a good coach can make it easier.",
+            "a": "However"
+          },
+          {
+            "s": "____ she was tired, she studied for an hour.",
+            "a": "Although"
+          },
+          {
+            "s": "He wanted not only to read for work ____ also to enjoy books.",
+            "a": "but"
+          }
+        ],
+        "extra": [
+          "unless",
+          "despite"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "A letter through the post could leave him feeling ____.",
-            "a": "helpless"
+            "s": "The waiter noticed that the customer was ____ and kept changing his mind about what to order.",
+            "a": "hesitant"
           },
           {
-            "s": "His wife ____ when he needed to understand documents.",
-            "a": "stepped in"
+            "s": "Employers often ____ that every adult can complete an online form without help.",
+            "a": "assume"
           },
           {
-            "s": "____, there was little to suggest how much effort ordinary tasks required.",
-            "a": "From the outside"
+            "s": "The company was accused of ____ the true cost of the project from its customers.",
+            "a": "concealing"
           },
           {
-            "s": "____ came during the Covid lockdowns.",
-            "a": "The turning point"
+            "s": "As the charity's ____, she gives talks in schools and encourages young people to volunteer.",
+            "a": "ambassador"
           },
           {
-            "s": "Peter was hesitant, but he decided to ____.",
-            "a": "give it another go"
+            "s": "Finishing the marathon after a serious injury was a remarkable personal ____.",
+            "a": "achievement"
           },
           {
-            "s": "The early lessons involved ____ before moving on to longer texts.",
-            "a": "going back to basics"
+            "s": "Tourists often find it hard to ____ the old town because the streets have no signs.",
+            "a": "navigate"
           }
         ],
         "extra": [
-          "fill in",
-          "gradual"
+          "frightened",
+          "reveal"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Yet he was ____, finding his own ways to manage.",
-            "cue": "RESOURCE",
-            "a": "resourceful"
+            "s": "By the time he contacted Read Easy, Peter ____ his problem for decades.",
+            "cue": "hide",
+            "a": "had hidden|had been hiding"
           },
           {
-            "s": "He left school at 16 without ____.",
-            "cue": "QUALIFY",
-            "a": "qualifications"
+            "s": "Peter ____ with a volunteer coach called Alison.",
+            "cue": "match",
+            "a": "was matched"
           },
           {
-            "s": "He set himself a goal that was both ____ and personal.",
-            "cue": "AMBITION",
-            "a": "ambitious"
+            "s": "While Peter ____ for milk, he realised he could not read the labels.",
+            "cue": "shop",
+            "a": "was shopping"
           },
           {
-            "s": "What mattered was not only the ____ itself but also the freedom it represented.",
-            "cue": "ACHIEVE",
-            "a": "achievement"
+            "s": "Peter almost did not try again, because earlier attempts to learn ____ badly.",
+            "cue": "end",
+            "a": "had ended|ended"
           },
           {
-            "s": "Low ____ does not mean a lack of intelligence.",
-            "cue": "LITERATE",
-            "a": "literacy"
+            "s": "Peter hopes ____ an English GCSE one day.",
+            "cue": "earn",
+            "a": "to earn"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "Read Easy has coaches in every part of Britain.",
           "a": "N",
           "why": "Not stated. The text does not say whether Read Easy has coaches across Britain."
+        },
+        {
+          "s": "Alison told Peter that making mistakes means a learner will never succeed.",
+          "a": "F",
+          "why": "The text says she helped him see that mistakes were part of learning, \"rather than proof that he could never succeed\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "resourceful",
+          "d": "good at finding ways to solve problems"
+        },
+        {
+          "t": "helpless",
+          "d": "not able to do anything to help yourself"
+        },
+        {
+          "t": "allergies",
+          "d": "when your body reacts badly to a food or other thing"
+        },
+        {
+          "t": "qualifications",
+          "d": "exams or certificates that show what you have learnt"
+        },
+        {
+          "t": "ambitious",
+          "d": "wanting very much to succeed or achieve something"
+        },
+        {
+          "t": "literacy",
+          "d": "the ability to read and write"
+        },
+        {
+          "t": "charity",
+          "d": "an organisation that helps people and does not work to make money"
+        },
+        {
+          "t": "lockdowns",
+          "d": "times when people must stay at home to stop a disease spreading"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Choose by what follows the gap: a noun, a clause, or a new sentence. Despite needs a noun, and whereas compares two things.",
+        "items": [
+          {
+            "s": "____ his reading difficulty, he built a career as a lorry driver.",
+            "a": "Despite"
+          },
+          {
+            "s": "Some adults learn best in one-to-one sessions, ____ others prefer a class.",
+            "a": "whereas"
+          },
+          {
+            "s": "Many adults will not admit they have a problem ____ they feel nobody will judge them.",
+            "a": "unless"
+          },
+          {
+            "s": "The course was cancelled. ____, the students had to study alone.",
+            "a": "Therefore"
+          },
+          {
+            "s": "Many people believe reading is simple. ____ some adults need years to learn it.",
+            "a": "Yet"
+          }
+        ],
+        "extra": [
+          "since",
+          "provided"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "He had spent much of his life ____ the fact that he struggled to read.",
-            "a": "covering up"
+            "s": "The signature was so messy that nobody in the office could ____ it.",
+            "a": "decipher"
           },
           {
-            "s": "Partially deaf from birth, Peter found the classroom an ____ place.",
-            "a": "unforgiving"
+            "s": "He had built an ____ filing system, with coloured tabs, cross-references and an index of the index.",
+            "a": "elaborate"
           },
           {
-            "s": "Most people take reading ____, and few notice the workarounds.",
-            "a": "for granted"
+            "s": "She avoided asking questions in class for fear of ____ from her classmates.",
+            "a": "ridicule"
           },
           {
-            "s": "The supermarket incident ____ the reassurance those strategies provided.",
-            "a": "stripped away"
+            "s": "Over twenty years, his small savings had steadily ____ into a substantial sum.",
+            "a": "accumulated"
           },
           {
-            "s": "Peter could no longer ____ the practical risks.",
-            "a": "brush aside"
+            "s": "Starting a new language at sixty can seem ____, but a patient teacher makes the first step easier.",
+            "a": "daunting"
           },
           {
-            "s": "Three years later, he had read it ____.",
-            "a": "from cover to cover"
+            "s": "The nurse's calm voice offered the ____ that the family badly needed.",
+            "a": "reassurance"
           }
         ],
         "extra": [
-          "painstaking",
-          "guarded"
+          "hurdle",
+          "undermine"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "His working life demonstrated considerable ____.",
+            "s": "The ____ of her improvised solutions impressed every engineer on the team.",
             "cue": "INGENIOUS",
             "a": "ingenuity"
           },
           {
-            "s": "Few people notice the system of workarounds that sustained what looked like ____.",
-            "cue": "INDEPENDENT",
-            "a": "independence"
+            "s": "Repeated ____ can make adults reluctant to try learning again.",
+            "cue": "DISAPPOINT",
+            "a": "disappointment|disappointments"
           },
           {
-            "s": "People may have limited reading skills because of disrupted education or ____ support.",
+            "s": "The committee described the new evidence as ____ enough to justify a full inquiry.",
+            "cue": "SIGNIFY",
+            "a": "significant"
+          },
+          {
+            "s": "Constant ____ from a patient tutor can transform a learner's confidence.",
+            "cue": "ENCOURAGE",
+            "a": "encouragement"
+          },
+          {
+            "s": "Reading difficulties often reflect ____ support in childhood, not a lack of ability.",
             "cue": "ADEQUATE",
             "a": "inadequate"
-          },
-          {
-            "s": "Alison offered the freedom to progress without ____.",
-            "cue": "EMBARRASS",
-            "a": "embarrassment"
-          },
-          {
-            "s": "Adult literacy is frequently ____.",
-            "cue": "UNDERSTAND",
-            "a": "misunderstood"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Peter's coach met him individually on a regular basis.",
+          "s": "Peter's coping strategies became less dependable once the Covid lockdowns began.",
           "a": "T",
-          "why": "The text says: \"He was paired with a volunteer coach, Alison, who offered regular one-to-one sessions and something Peter had rarely experienced at school: the freedom to progress without embarrassment.\""
+          "why": "The text says the supermarket incident \"stripped away the reassurance those strategies had provided\"."
         },
         {
-          "s": "At 46, Peter had a job and a family, yet still concealed his reading difficulty.",
-          "a": "T",
-          "why": "The text says: \"He was 46, with a job and a family, but he had spent much of his life covering up the fact that he struggled to read.\""
-        },
-        {
-          "s": "Peter has started training as a reading coach himself.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether Peter has started training as a reading coach."
-        },
-        {
-          "s": "The writer says limited reading skills indicate low intelligence.",
+          "s": "The text suggests that Peter's difficulty with reading only began after he left school.",
           "a": "F",
-          "why": "The text says the opposite: \"People may have limited reading skills for reasons involving disability, disrupted education or inadequate support, none of which is a reliable measure of intelligence.\""
+          "why": "The text says that at school he found lessons hard to follow, and he left carrying \"a problem\" into adulthood."
+        },
+        {
+          "s": "Alison had worked as a teacher before she volunteered for Read Easy.",
+          "a": "N",
+          "why": "The text does not say what Alison did before she became a volunteer."
+        },
+        {
+          "s": "Choosing a Harry Potter book carried a risk for Peter, yet it also made the lessons more meaningful.",
+          "a": "T",
+          "why": "The text says it \"might have exposed him to ridicule\" but \"gave the process a meaning beyond exercises and assessments\"."
+        },
+        {
+          "s": "The writer thinks adults should be expected to have learnt to read as children.",
+          "a": "F",
+          "why": "The text calls that expectation \"the greatest obstacle\" and \"an assumption that encourages silence\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "unforgiving",
+          "d": "harsh and not patient with mistakes"
+        },
+        {
+          "t": "workarounds",
+          "d": "clever ways to avoid a problem without solving it"
+        },
+        {
+          "t": "negotiate",
+          "d": "to find a way through or past something difficult"
+        },
+        {
+          "t": "sustained",
+          "d": "kept something going for a long time"
+        },
+        {
+          "t": "obstacle",
+          "d": "something that blocks your way or makes progress hard"
+        },
+        {
+          "t": "erase",
+          "d": "to remove completely, as if it never happened"
+        },
+        {
+          "t": "disrupted",
+          "d": "interrupted so that things cannot go on normally"
+        },
+        {
+          "t": "ambassador",
+          "d": "a person who speaks in public for a cause or an organisation"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "At this level, check punctuation as well as meaning. Albeit and whereas sit inside a sentence, notwithstanding often opens one, and hence follows a semicolon.",
+        "items": [
+          {
+            "s": "The course was demanding, ____ rewarding, for most of the adults who completed it.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ the setbacks of earlier attempts, he decided to try again.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "Adults with limited reading skills are often assumed to be less intelligent, ____ the evidence points to hearing loss, interrupted schooling or poor support.",
+            "a": "whereas"
+          },
+          {
+            "s": "Some adults hide the problem for decades. ____, others ask for help as soon as they notice it.",
+            "a": "Conversely"
+          },
+          {
+            "s": "Reading underpins most daily tasks; ____ even a small gap in skills can affect work, health and family life.",
+            "a": "hence"
+          }
+        ],
+        "extra": [
+          "thereby",
+          "lest"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: an invitation to volunteer",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend who volunteers",
+      "text": "You help at a local reading group for adults. You need one more helper on Thursday evenings and you think your friend would be good at it. Persuade your friend to try one evening."
+    },
+    "b": {
+      "role": "the friend who is not sure",
+      "text": "Your friend has asked you to help adults who are learning to read. You like the idea, but you're busy and you're worried you won't know what to say. Ask questions and agree what you can offer."
+    },
+    "phrases": [
+      "I'd love to help, but I'm not sure I'm the right person.",
+      "What if I say the wrong thing?",
+      "You don't need to be an expert, you just need to be patient.",
+      "I can't do Tuesdays, but I could manage Thursdays.",
+      "That's fair, let's try one session and see.",
+      "Would it help if we went together the first time?"
+    ],
+    "after": "Afterwards, tell the class what you agreed, and whether you both felt it was a fair deal."
   }
 }
