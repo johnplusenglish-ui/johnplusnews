@@ -933,7 +933,9 @@ def gallery_page(arts, topics=(), topic=None, teens=0):
     if topic:
         banner = '<section class="banner"><div class="wrap"><h1 class="intro">{}</h1></div></section>\n'.format(esc(topic["label"]))
     else:
-        banner = ""
+        # one line for a first-time visitor saying what the site is (CSS shows it to guests only)
+        banner = ('<div class="wrap"><p class="home-intro"><b>Real news, rewritten for English learners.</b> '
+                  'Every story comes at three levels, with a lesson and a worksheet.</p></div>\n')
     main = ('{banner}<div class="wrap">{browse}{body}{pager}</div>\n<script>{js}</script>').format(
                 banner=banner, body=body, js=BROWSE_JS, pager=PAGER,
                 browse=browse_html(topics, topic["slug"] if topic else None, total=len(arts),

@@ -1607,8 +1607,10 @@
     });
   }
 
-  /* people who are not signed in meet the sign-up box over the page as soon as it has appeared, once per visit */
+  /* Someone who is not signed in meets the sign-up box only on an article they cannot read, once per visit.
+     Everywhere else (the home page, Teens, About, a free article) they can look around first. */
   function nudge() {
+    if (!document.querySelector("article[data-locked]")) return;
     var off = false;
     try { off = sessionStorage.getItem("jpn_nudge_off") === "1"; } catch (e) {}
     if (off || dlg || document.querySelector(".legal")) return;     // not over the privacy, terms or contact pages

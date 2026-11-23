@@ -829,7 +829,8 @@ html.acct-lock { overflow: hidden; }
 html.jpn-guest .card:not([data-free]) .thumb::after { content: 'Members'; position: absolute; top: 10px; left: 10px; padding: 3px 10px; font-size: 0.8125rem; font-weight: 600; color: var(--ink); background: #fff; border-radius: var(--r-xs); }
 html.jpn-guest .card:not([data-free]) .thumb { position: relative; }
 html.jpn-guest article[data-locked] > :not(.article-head),
-html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.lock-panel) { display: none !important; }
+html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.dek):not(.hero):not(.lock-panel) { display: none !important; }  /* a guest still sees the headline, summary and picture */
+html.jpn-guest article[data-locked] .article-head > .hero { margin-bottom: 0; }
 .gate-note, .lock-panel { margin: 26px 0 40px; padding: 22px 24px; border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--accent-soft); }
 .gate-note p, .lock-panel p { margin: 0 0 14px; color: var(--text); }
 .gate-note strong, .lock-panel strong { color: var(--ink); }
@@ -1611,3 +1612,8 @@ select.ls-g:focus-visible, input.ls-g:focus-visible, .ls-kw-w select:focus-visib
 .ls-mark-no { background: var(--ls-no); -webkit-mask-image: var(--cross); mask-image: var(--cross); }
 .ls-tfn .ls-mark { align-self: center; margin-left: 2px; }
 .ls-btn[hidden] { display: none; }
+
+/* The home page's one-line introduction, for visitors who are not signed in. */
+.home-intro { display: none; margin: 36px 0 -8px; font-family: var(--sf); font-size: clamp(1.15rem, 3.4vw, 1.4rem); line-height: 1.4; color: var(--muted); max-width: 40em; }
+.home-intro b { color: var(--ink); font-weight: 600; }
+html.jpn-guest .home-intro { display: block; }
