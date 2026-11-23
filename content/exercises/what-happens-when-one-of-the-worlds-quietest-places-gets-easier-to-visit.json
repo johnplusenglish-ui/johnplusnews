@@ -1,328 +1,541 @@
 {
- "slug": "what-happens-when-one-of-the-worlds-quietest-places-gets-easier-to-visit",
- "levels": {
-  "core": {
-   "gap": {
-    "items": [
-     {
-      "s": "Almost 80% of Greenland's land is covered in ____.",
-      "a": "ice"
-     },
-     {
-      "s": "Tourism ____ in money and jobs.",
-      "a": "brings"
-     },
-     {
-      "s": "The first direct flight from ____ landed in Ilulissat.",
-      "a": "Copenhagen"
-     },
-     {
-      "s": "Greenland's leaders hope to become ____ from Denmark one day.",
-      "a": "independent"
-     },
-     {
-      "s": "Some people say tourism is a mixed ____.",
-      "a": "blessing"
-     }
-    ],
-    "extra": [
-     "sand",
-     "museum"
-    ]
-   },
-   "match": [
-    {
-     "t": "remote",
-     "d": "far from other places and hard to reach"
+  "slug": "what-happens-when-one-of-the-worlds-quietest-places-gets-easier-to-visit",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Hundreds of residents ____ outside the town hall against the plan.",
+            "a": "protested"
+          },
+          {
+            "s": "Many families in the village depend on fishing for their ____.",
+            "a": "income"
+          },
+          {
+            "s": "The council has an office that ____ the town to tourists.",
+            "a": "promotes"
+          },
+          {
+            "s": "In winter, the whole hill is ____ in snow.",
+            "a": "covered"
+          },
+          {
+            "s": "The government has published the ____ number of visitors for last year.",
+            "a": "official"
+          }
+        ],
+        "extra": [
+          "arranged",
+          "welcomed"
+        ]
+      },
+      "match": [
+        {
+          "t": "remote",
+          "d": "far from other places and hard to reach"
+        },
+        {
+          "t": "fragile",
+          "d": "easy to damage or harm"
+        },
+        {
+          "t": "overwhelmed",
+          "d": "given more than can be dealt with"
+        },
+        {
+          "t": "independent",
+          "d": "not ruled by another country"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Only about 56,000 people ____ there.",
+            "cue": "live",
+            "a": "live"
+          },
+          {
+            "s": "Greenland ____ three new airports so far.",
+            "cue": "open",
+            "a": "has opened"
+          },
+          {
+            "s": "The first direct flight from Copenhagen ____ in Ilulissat on 29 October 2026.",
+            "cue": "land",
+            "a": "landed"
+          },
+          {
+            "s": "Nearly 180,000 visitors ____ to Greenland in 2025.",
+            "cue": "come",
+            "a": "came"
+          },
+          {
+            "s": "The flight ____ four and a half hours.",
+            "cue": "take",
+            "a": "took"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Greenland has no roads between its towns.",
+          "a": "T",
+          "why": "The text says: \"There are no roads between the towns\""
+        },
+        {
+          "s": "Ilulissat is the capital of Greenland.",
+          "a": "F",
+          "why": "The text says: \"in the capital, Nuuk, in 2024\""
+        },
+        {
+          "s": "Tourism made up 4.9% of Greenland's economy in 2024.",
+          "a": "T",
+          "why": "The text says: \"In 2024 it made up 4.9% of the economy\""
+        },
+        {
+          "s": "The text says how much a flight to Ilulissat costs.",
+          "a": "N",
+          "why": "The text does not say how much a flight costs."
+        },
+        {
+          "s": "Nobody in Greenland worries about too many tourists.",
+          "a": "F",
+          "why": "The text says: \"some people in Greenland worry about the same thing\""
+        }
+      ],
+      "pre": [
+        {
+          "t": "iceberg",
+          "d": "a very big piece of ice floating in the sea"
+        },
+        {
+          "t": "passengers",
+          "d": "people who travel in a plane or boat but do not drive it"
+        },
+        {
+          "t": "depended",
+          "d": "needed something to live or work well"
+        },
+        {
+          "t": "economy",
+          "d": "all the money, work and trade of a country"
+        },
+        {
+          "t": "environment",
+          "d": "the land, water and air around us"
+        },
+        {
+          "t": "researcher",
+          "d": "a person who studies something to find new facts"
+        },
+        {
+          "t": "tension",
+          "d": "a worried feeling between people who disagree"
+        },
+        {
+          "t": "challenge",
+          "d": "something difficult that you must deal with"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Linking words join ideas. Use so for a result, because for a reason, but and however for a difference, and or for a choice.",
+        "items": [
+          {
+            "s": "There are no roads between the towns, ____ people travel by boat or plane.",
+            "a": "so"
+          },
+          {
+            "s": "Leaders want more visitors ____ tourism brings money and jobs.",
+            "a": "because"
+          },
+          {
+            "s": "Fishing is important in Greenland. ____, the country wants other kinds of work too.",
+            "a": "However"
+          },
+          {
+            "s": "Greenland is a huge island, ____ only about 56,000 people live there.",
+            "a": "but"
+          },
+          {
+            "s": "Visitors can fly to Ilulissat from Copenhagen ____ from Iceland.",
+            "a": "or"
+          }
+        ],
+        "extra": [
+          "until",
+          "unless"
+        ]
+      }
     },
-    {
-     "t": "fragile",
-     "d": "easy to damage or harm"
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The airport's supporters explained their ____ step by step: more flights, more visitors, more jobs.",
+            "a": "reasoning"
+          },
+          {
+            "s": "Plastic waste is a growing ____ to marine life.",
+            "a": "threat"
+          },
+          {
+            "s": "Many residents hope their families will ____ from the new jobs.",
+            "a": "benefit"
+          },
+          {
+            "s": "Small tour ____ complain that large companies take most of the customers.",
+            "a": "operators"
+          },
+          {
+            "s": "Visitor numbers were ____ to rise again this year.",
+            "a": "expected"
+          },
+          {
+            "s": "Opinions ____ on whether the new airport is a good idea.",
+            "a": "differ"
+          }
+        ],
+        "extra": [
+          "survey",
+          "payment"
+        ]
+      },
+      "match": [
+        {
+          "t": "mass tourism",
+          "d": "tourism with very large numbers of visitors"
+        },
+        {
+          "t": "infrastructure",
+          "d": "the roads, buildings and services a place needs"
+        },
+        {
+          "t": "overwhelmed",
+          "d": "given more than can be dealt with"
+        },
+        {
+          "t": "independence",
+          "d": "freedom from the rule of another country"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Until recently, travellers ____ by cruise ship.",
+            "cue": "arrive",
+            "a": "arrived"
+          },
+          {
+            "s": "Greenland ____ nearly 180,000 visitors in 2025.",
+            "cue": "welcome",
+            "a": "welcomed"
+          },
+          {
+            "s": "Local people in Spain have ____ about mass tourism.",
+            "cue": "protest",
+            "a": "protested"
+          },
+          {
+            "s": "A cruise ship ____ from entering Ilulissat.",
+            "cue": "block",
+            "a": "was blocked"
+          },
+          {
+            "s": "Greenland ____ on fishing for generations.",
+            "cue": "depend",
+            "a": "has depended"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Before the new airport opened, passengers from Copenhagen could not fly straight to Ilulissat.",
+          "a": "T",
+          "why": "The text says the first direct flight from Copenhagen landed on 29 October 2026."
+        },
+        {
+          "s": "The Guardian and the Associated Press give exactly the same visitor figures.",
+          "a": "F",
+          "why": "The text says: \"Counting methods differ between sources, though.\""
+        },
+        {
+          "s": "A consultancy prepared the tourism accounts that Visit Greenland published.",
+          "a": "T",
+          "why": "The text says the accounts were \"published by Visit Greenland and prepared by a consultancy\"."
+        },
+        {
+          "s": "The text says how many hotel rooms Ilulissat has.",
+          "a": "N",
+          "why": "The text does not say how many hotel rooms there are."
+        },
+        {
+          "s": "The Associated Press hid the fact that Visit Greenland organised its reporter's trip.",
+          "a": "F",
+          "why": "The text says: \"The Associated Press reporter flew on a trip organised by Visit Greenland, which the agency stated openly\""
+        }
+      ],
+      "pre": [
+        {
+          "t": "runway",
+          "d": "the long strip where planes take off and land"
+        },
+        {
+          "t": "melting",
+          "d": "changing from ice to water because of heat"
+        },
+        {
+          "t": "territory",
+          "d": "an area of land that belongs to a country"
+        },
+        {
+          "t": "consultancy",
+          "d": "a company that is paid to give expert advice"
+        },
+        {
+          "t": "boom",
+          "d": "a time when something grows very fast"
+        },
+        {
+          "t": "calm",
+          "d": "a quiet, peaceful feeling or place"
+        },
+        {
+          "t": "attracts",
+          "d": "makes people want to come"
+        },
+        {
+          "t": "invite",
+          "d": "to ask someone to come to a place"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Match the link to the idea: contrast (however, although), result (therefore), condition (unless) or concession (despite).",
+        "items": [
+          {
+            "s": "Tourism is a small part of the economy. ____, the government wants it to grow.",
+            "a": "However"
+          },
+          {
+            "s": "____ the new airport will bring jobs, some residents worry about crowds.",
+            "a": "Although"
+          },
+          {
+            "s": "Local people will not support more flights ____ they receive a fair share of the income.",
+            "a": "unless"
+          },
+          {
+            "s": "There are no roads between towns. ____, most journeys are by boat or plane.",
+            "a": "Therefore"
+          },
+          {
+            "s": "____ the high cost of flights, many tourists still want to visit.",
+            "a": "Despite"
+          }
+        ],
+        "extra": [
+          "otherwise",
+          "unlike"
+        ]
+      }
     },
-    {
-     "t": "overwhelmed",
-     "d": "given more than can be dealt with"
-    },
-    {
-     "t": "independent",
-     "d": "not ruled by another country"
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Rapid growth in visitor numbers can place an intolerable ____ on housing and local services.",
+            "a": "strain"
+          },
+          {
+            "s": "Poorly planned development may ____ the very decline that it was meant to prevent.",
+            "a": "hasten"
+          },
+          {
+            "s": "Concealed funding quietly ____ public trust in the findings.",
+            "a": "undermines"
+          },
+          {
+            "s": "The ministry ____ an independent study of the plan's likely effects.",
+            "a": "commissioned"
+          },
+          {
+            "s": "No small economy is entirely ____ to swings in global demand.",
+            "a": "immune"
+          },
+          {
+            "s": "The recent dispute has ____ the argument over how quickly the economy should open up.",
+            "a": "sharpened"
+          }
+        ],
+        "extra": [
+          "forfeit",
+          "ration"
+        ]
+      },
+      "match": [
+        {
+          "t": "precarious",
+          "d": "not safe or certain"
+        },
+        {
+          "t": "pristine",
+          "d": "clean and untouched"
+        },
+        {
+          "t": "apprehension",
+          "d": "worry about what may happen"
+        },
+        {
+          "t": "disclosed",
+          "d": "made known openly"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The ____ of the figures makes any comparison between reports difficult.",
+            "cue": "RELY",
+            "a": "reliability"
+          },
+          {
+            "s": "A growing ____ on a single season leaves a local economy exposed.",
+            "cue": "DEPEND",
+            "a": "dependence"
+          },
+          {
+            "s": "Critics doubt whether growth on this scale is ____ in so fragile a landscape.",
+            "cue": "SUSTAIN",
+            "a": "sustainable"
+          },
+          {
+            "s": "The ____ of the market by foreign operators frustrates many residents.",
+            "cue": "DOMINATE",
+            "a": "domination"
+          },
+          {
+            "s": "Visitors should behave ____ in such a fragile landscape.",
+            "cue": "RESPONSIBLE",
+            "a": "responsibly"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The tourism accounts were not written by Visit Greenland itself.",
+          "a": "T",
+          "why": "The text says Visit Greenland \"commissioned the tourism accounts from a consultancy\"."
+        },
+        {
+          "s": "The Guardian and the Associated Press both say a surge in visitors has clearly arrived.",
+          "a": "F",
+          "why": "The Associated Press says \"the expected surge has yet to arrive\"."
+        },
+        {
+          "s": "The two visitor totals could both be correct if the sources count different groups of people.",
+          "a": "T",
+          "why": "The text says the figures \"need not conflict, since the sources may count different kinds of visitor\"."
+        },
+        {
+          "s": "Visit Greenland receives most of its funding from cruise companies.",
+          "a": "N",
+          "why": "The text says only that it is wholly owned by the government, not where its funding comes from."
+        },
+        {
+          "s": "Tourism provides a smaller share of Greenland's jobs than of its GDP.",
+          "a": "F",
+          "why": "The text gives 4.9% of GDP but \"a little over 6%\" of all jobs, so the job share is larger."
+        }
+      ],
+      "pre": [
+        {
+          "t": "motives",
+          "d": "the reasons why someone does something"
+        },
+        {
+          "t": "urgency",
+          "d": "the feeling that something must be done very soon"
+        },
+        {
+          "t": "footing",
+          "d": "the base on which something stands or is built"
+        },
+        {
+          "t": "hotspots",
+          "d": "popular places that attract very large numbers of people"
+        },
+        {
+          "t": "caution",
+          "d": "great care to avoid mistakes or danger"
+        },
+        {
+          "t": "acquire",
+          "d": "to get or buy something"
+        },
+        {
+          "t": "surge",
+          "d": "a sudden, strong rise"
+        },
+        {
+          "t": "asset",
+          "d": "something valuable that you own or have"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Look at what follows the gap. Some linkers need a clause, some a short phrase, and some join two sentences across a comma.",
+        "items": [
+          {
+            "s": "The growth in arrivals is real, ____ modest by the standards of mass tourism.",
+            "a": "albeit"
+          },
+          {
+            "s": "Some residents welcome the new flights, ____ others fear the loss of the calm that drew visitors in the first place.",
+            "a": "whereas"
+          },
+          {
+            "s": "The new airport is widely seen as a success. ____, critics ask who will actually profit from it.",
+            "a": "Nonetheless"
+          },
+          {
+            "s": "The scheme will succeed ____ local people are consulted from the start.",
+            "a": "provided"
+          },
+          {
+            "s": "Foreign operators keep most of the profit, ____ the resentment felt by many residents.",
+            "a": "hence"
+          }
+        ],
+        "extra": [
+          "thereby",
+          "unless"
+        ]
+      }
     }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Only about 56,000 people ____ there.",
-      "cue": "live",
-      "a": "live"
-     },
-     {
-      "s": "Greenland ____ three new airports so far.",
-      "cue": "open",
-      "a": "has opened"
-     },
-     {
-      "s": "The first direct flight from Copenhagen ____ in Ilulissat on 29 October 2026.",
-      "cue": "land",
-      "a": "landed"
-     },
-     {
-      "s": "Nearly 180,000 visitors ____ to Greenland in 2025.",
-      "cue": "come",
-      "a": "came"
-     },
-     {
-      "s": "The flight ____ four and a half hours.",
-      "cue": "take",
-      "a": "took"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Greenland has no roads between its towns.",
-     "a": "T",
-     "why": "The text says: \"There are no roads between the towns\""
-    },
-    {
-     "s": "Ilulissat is the capital of Greenland.",
-     "a": "F",
-     "why": "The text says: \"in the capital, Nuuk, in 2024\""
-    },
-    {
-     "s": "Tourism made up 4.9% of Greenland's economy in 2024.",
-     "a": "T",
-     "why": "The text says: \"In 2024 it made up 4.9% of the economy\""
-    },
-    {
-     "s": "The text says how much a flight to Ilulissat costs.",
-     "a": "N",
-     "why": "The text does not say how much a flight costs."
-    },
-    {
-     "s": "Nobody in Greenland worries about too many tourists.",
-     "a": "F",
-     "why": "The text says: \"some people in Greenland worry about the same thing\""
-    }
-   ]
   },
-  "intermediate": {
-   "gap": {
-    "items": [
-     {
-      "s": "Some travellers flew to another airport and changed to a smaller ____.",
-      "a": "aircraft"
-     },
-     {
-      "s": "The new runway in Ilulissat is 2,200 ____ long.",
-      "a": "metre"
-     },
-     {
-      "s": "Greenland has relied on fishing for ____.",
-      "a": "generations"
-     },
-     {
-      "s": "Nuuk, the capital, opened an international ____ in late 2024.",
-      "a": "airport"
-     },
-     {
-      "s": "Some American visitors were put off by the political ____ over the island.",
-      "a": "tension"
-     },
-     {
-      "s": "Visit Greenland is ____ owned.",
-      "a": "government"
-     }
+  "speak": {
+    "title": "Role-play: a new airport for a quiet town",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "a resident",
+      "text": "A new airport has opened near your quiet town. You like the jobs, but you worry about crowds and damage to the land. Ask the tourism manager at least two questions and say what you want."
+    },
+    "b": {
+      "role": "the tourism manager",
+      "text": "You want more visitors because they bring money and work. Explain the benefits. Listen to the resident's worries and suggest a compromise."
+    },
+    "phrases": [
+      "I'm worried that the town won't cope.",
+      "That's a fair point, but we need the jobs.",
+      "How many visitors can the town take?",
+      "What if we set a limit?",
+      "I'd be happy if local people got a share.",
+      "We're not against tourists, we just want a say."
     ],
-    "extra": [
-     "volcano",
-     "discount"
-    ]
-   },
-   "match": [
-    {
-     "t": "mass tourism",
-     "d": "tourism with very large numbers of visitors"
-    },
-    {
-     "t": "infrastructure",
-     "d": "the roads, buildings and services a place needs"
-    },
-    {
-     "t": "overwhelmed",
-     "d": "given more than can be dealt with"
-    },
-    {
-     "t": "independence",
-     "d": "freedom from the rule of another country"
-    }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Until recently, travellers ____ by cruise ship.",
-      "cue": "arrive",
-      "a": "arrived"
-     },
-     {
-      "s": "Greenland ____ nearly 180,000 visitors in 2025.",
-      "cue": "welcome",
-      "a": "welcomed"
-     },
-     {
-      "s": "Local people in Spain have ____ about mass tourism.",
-      "cue": "protest",
-      "a": "protested"
-     },
-     {
-      "s": "A cruise ship ____ from entering Ilulissat.",
-      "cue": "block",
-      "a": "was blocked"
-     },
-     {
-      "s": "Greenland ____ on fishing for generations.",
-      "cue": "depend",
-      "a": "has depended"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The first direct flight from Copenhagen landed on a new runway in Ilulissat.",
-     "a": "T",
-     "why": "The text says: \"the first direct flight from Copenhagen touched down on a new 2,200 metre runway\""
-    },
-    {
-     "s": "The Guardian and the Associated Press give exactly the same visitor figures.",
-     "a": "F",
-     "why": "The text says: \"Counting methods differ between sources, though.\""
-    },
-    {
-     "s": "The tourism accounts say tourism directly produced 4.9% of GDP in 2024.",
-     "a": "T",
-     "why": "The text says: \"tourism directly produced 4.9% of GDP and about 1,800 jobs\""
-    },
-    {
-     "s": "The text says how many hotel rooms Ilulissat has.",
-     "a": "N",
-     "why": "The text does not say how many hotel rooms there are."
-    },
-    {
-     "s": "The Associated Press hid the fact that Visit Greenland organised its reporter's trip.",
-     "a": "F",
-     "why": "The text says: \"The Associated Press reporter flew on a trip organised by Visit Greenland, which the agency stated openly\""
-    }
-   ]
-  },
-  "advanced": {
-   "gap": {
-    "items": [
-     {
-      "s": "By the standards of mass tourism, Greenland barely ____.",
-      "a": "registers"
-     },
-     {
-      "s": "The Guardian argues that melting ice makes the future of the fishing industry ____.",
-      "a": "precarious"
-     },
-     {
-      "s": "Tourism offers growth without giving up ____ to anyone else.",
-      "a": "control"
-     },
-     {
-      "s": "The Guardian notes concern about the effect on a ____ landscape.",
-      "a": "pristine"
-     },
-     {
-      "s": "Visit Greenland is wholly ____ by the government.",
-      "a": "owned"
-     },
-     {
-      "s": "Sources may count different kinds of ____.",
-      "a": "visitor"
-     }
-    ],
-    "extra": [
-     "generous",
-     "reluctant"
-    ]
-   },
-   "match": [
-    {
-     "t": "precarious",
-     "d": "not safe or certain"
-    },
-    {
-     "t": "pristine",
-     "d": "clean and untouched"
-    },
-    {
-     "t": "apprehension",
-     "d": "worry about what may happen"
-    },
-    {
-     "t": "disclosed",
-     "d": "made known openly"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "The island is being ____ around visitors.",
-      "cue": "ORGANISE",
-      "a": "reorganised"
-     },
-     {
-      "s": "The motives are plainly ____ and, increasingly, political.",
-      "cue": "ECONOMY",
-      "a": "economic"
-     },
-     {
-      "s": "The airport concern was about a ____ isolated community.",
-      "cue": "HISTORY",
-      "a": "historically"
-     },
-     {
-      "s": "The ____ reading is cautious.",
-      "cue": "SENSE",
-      "a": "sensible"
-     },
-     {
-      "s": "The ____ voices on tourism often have an axe to grind.",
-      "cue": "LOUD",
-      "a": "loudest"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The Guardian reports nearly 180,000 visitors in 2025.",
-     "a": "T",
-     "why": "The text says: \"The Guardian reports nearly 180,000 visitors in 2025\""
-    },
-    {
-     "s": "The Associated Press gives the same visitor figure for 2024 as the Guardian gives for 2025.",
-     "a": "F",
-     "why": "The text says: \"The Associated Press gives almost 150,000 international visitors in 2024\""
-    },
-    {
-     "s": "Visit Greenland is wholly owned by the government.",
-     "a": "T",
-     "why": "The text says: \"Visit Greenland, wholly owned by the government,\""
-    },
-    {
-     "s": "The text says what Greenlanders voted for in a referendum on tourism.",
-     "a": "N",
-     "why": "The text does not mention any referendum on tourism."
-    },
-    {
-     "s": "The text says Greenland will certainly suffer the worst problems of mass tourism.",
-     "a": "F",
-     "why": "The text says: \"Greenland may avoid the worst problems seen elsewhere\""
-    }
-   ]
+    "after": "Afterwards, tell the class: did you reach an agreement, and who gave up more?"
   }
- }
 }

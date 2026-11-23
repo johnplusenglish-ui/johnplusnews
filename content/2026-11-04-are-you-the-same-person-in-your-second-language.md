@@ -10,6 +10,7 @@ source-2-date: 7 August 2026
 image: images/are-you-the-same-person-in-your-second-language-d99a6c.jpg
 image-alt: A woman in a yellow fleece talks with her hand raised at a colourful fruit stall, holding a bag of oranges, while the smiling seller in a green apron laughs behind a crate of lemons.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

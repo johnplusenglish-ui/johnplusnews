@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Mike had not joined in, but he had not ____ him either.",
-            "a": "stood up for"
+            "s": "I was rude to my neighbour yesterday, so I want to ____ to her.",
+            "a": "apologise"
           },
           {
-            "s": "At the reunion, he found his old friend and ____ what had happened.",
-            "a": "brought up"
+            "s": "Hiding the truth gave her a feeling of ____ for weeks.",
+            "a": "guilt"
           },
           {
-            "s": "School reunions often ____ powerful memories.",
-            "a": "bring back"
+            "s": "He wore a bright pink hat to the party, which was a little ____.",
+            "a": "embarrassing"
           },
           {
-            "s": "Old classmates sometimes ____ the same roles they had at school.",
-            "a": "fall back into"
+            "s": "She used to be very shy, but now she feels ____ when she speaks in front of large groups.",
+            "a": "confident"
           },
           {
-            "s": "The other man ____ trying to make Mike feel better about his guilt.",
-            "a": "ended up"
+            "s": "It was an ____ day, with nothing special happening.",
+            "a": "ordinary"
           }
         ],
         "extra": [
-          "catch up with",
-          "awkward"
+          "forgive",
+          "unfair"
         ]
       },
       "match": [
@@ -98,40 +98,109 @@
           "s": "The two men were back in contact after the awkward talk.",
           "a": "T",
           "why": "The text says: \"Still, the two men reconnected.\""
+        },
+        {
+          "s": "Mike thought his apology was completely perfect.",
+          "a": "F",
+          "why": "The text says Mike \"realised that his apology had placed an unfair responsibility on the person who had suffered.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "reunion",
+          "d": "a party where people who knew each other long ago meet again"
+        },
+        {
+          "t": "classmates",
+          "d": "people who are in the same class at school"
+        },
+        {
+          "t": "reconnected",
+          "d": "became friends again after a long time"
+        },
+        {
+          "t": "responsibility",
+          "d": "a duty, something that you must take care of"
+        },
+        {
+          "t": "encouraged",
+          "d": "gave you hope and confidence"
+        },
+        {
+          "t": "impress",
+          "d": "make people think well of you"
+        },
+        {
+          "t": "former",
+          "d": "from an earlier time, not now"
+        },
+        {
+          "t": "struggling",
+          "d": "having a hard time"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word. The small word changes the meaning, so learn the whole phrase together, such as look forward to.",
+        "items": [
+          {
+            "s": "I'm really looking ____ to meeting my old classmates.",
+            "a": "forward"
+          },
+          {
+            "s": "A reunion is a chance to get ____ with old friends and share news.",
+            "a": "together"
+          },
+          {
+            "s": "I'd like to find ____ what happened to my old classmates.",
+            "a": "out"
+          },
+          {
+            "s": "Mike wished he could turn the clock ____ to the day when he was a teenager.",
+            "a": "back"
+          },
+          {
+            "s": "Many guests ended ____ talking about their jobs all evening.",
+            "a": "up"
+          }
+        ],
+        "extra": [
+          "through",
+          "across"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "One memory ____ after twenty years.",
-            "a": "refused to fade"
+            "s": "We often make ____ about people from their appearance, and then discover we were wrong.",
+            "a": "assumptions"
           },
           {
-            "s": "He managed to find his old friend and ____ the past.",
-            "a": "bring up"
+            "s": "She had held a ____ against her former boss for years, and she still raised it at every meeting.",
+            "a": "grievance"
           },
           {
-            "s": "In trying to ____, he asked someone else to handle his feelings.",
-            "a": "make amends"
+            "s": "Anna was ____ to win the competition, so she practised every evening.",
+            "a": "determined"
           },
           {
-            "s": "Old nicknames ____ and half-forgotten arguments are mentioned.",
-            "a": "resurface"
+            "s": "I could ____ believe it when my old classmate recognised me after thirty years.",
+            "a": "scarcely"
           },
           {
-            "s": "Comparisons about jobs and appearance can ____ old insecurities.",
-            "a": "stir up"
+            "s": "Children show endless ____, asking \"why?\" about everything.",
+            "a": "curiosity"
           },
           {
-            "s": "Approach a reunion with curiosity rather than ____.",
-            "a": "a scorecard"
+            "s": "A ____ chat in the queue is often how new friendships begin.",
+            "a": "casual"
           }
         ],
         "extra": [
-          "get along",
-          "extraordinary"
+          "ambition",
+          "frequently"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "As a teenager he had watched a friend experience ____ bullying.",
-            "cue": "HOMOPHOBIA",
-            "a": "homophobic"
+            "s": "Before the reunion, Sara ____ her old classmates for ten years.",
+            "cue": "not see",
+            "a": "had not seen|hadn't seen"
           },
           {
-            "s": "The apology did not ____ quite as he had imagined.",
-            "cue": "FOLD",
-            "a": "unfold"
+            "s": "Name badges ____ to guests at the door of most reunions.",
+            "cue": "give",
+            "a": "are given"
           },
           {
-            "s": "He recognised the uncomfortable ____ in what had happened.",
-            "cue": "IRONIC",
-            "a": "irony"
+            "s": "If you want to put something right, you ____ the other person's feelings first.",
+            "cue": "consider",
+            "a": "should consider|must consider|ought to consider|need to consider"
           },
           {
-            "s": "The confident adult may remember being an ____ fifteen-year-old.",
-            "cue": "SECURE",
-            "a": "insecure"
+            "s": "Some people avoid reunions because they dislike ____ about their jobs.",
+            "cue": "talk",
+            "a": "talking"
           },
           {
-            "s": "For other former students, the ____ of a reunion is obvious.",
-            "cue": "ATTRACT",
-            "a": "attraction"
+            "s": "If I ____ you, I would go to the reunion.",
+            "cue": "be",
+            "a": "were|was"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "The man who had been bullied tried to ease Mike's guilt.",
           "a": "T",
           "why": "The text says: \"the man who had been bullied ended up reassuring Mike that he need not feel guilty.\""
+        },
+        {
+          "s": "The article advises people to use a reunion to sort out every old disagreement.",
+          "a": "F",
+          "why": "The text says: \"Nor is it always wise to treat the occasion as a chance to settle every old grievance.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "irony",
+          "d": "a situation that is the opposite of what you expected"
+        },
+        {
+          "t": "homophobic",
+          "d": "unfair and unkind towards gay people"
+        },
+        {
+          "t": "resurface",
+          "d": "come back after being hidden or forgotten"
+        },
+        {
+          "t": "insecure",
+          "d": "not sure about yourself and lacking confidence"
+        },
+        {
+          "t": "exposed",
+          "d": "without protection, so that others can see your weak points"
+        },
+        {
+          "t": "attraction",
+          "d": "a good thing that makes you want to do something"
+        },
+        {
+          "t": "reconnected",
+          "d": "became friends again after a long time apart"
+        },
+        {
+          "t": "reassuring",
+          "d": "telling someone that things are fine so they worry less"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Here the small word is already in the sentence, so choose the verb. Learn each pair as one unit of meaning, such as look back on or deal with.",
+        "items": [
+          {
+            "s": "Teenagers often find it hard to ____ up when they see a friend being bullied.",
+            "a": "speak"
+          },
+          {
+            "s": "The evening did not ____ out as planned, but it ended well.",
+            "a": "turn"
+          },
+          {
+            "s": "It is hard to ____ with strong emotions in front of so many people.",
+            "a": "deal"
+          },
+          {
+            "s": "Many people ____ back on their school years with mixed feelings.",
+            "a": "look"
+          },
+          {
+            "s": "If the conversation goes well, you can ____ on chatting over a drink.",
+            "a": "carry"
+          }
+        ],
+        "extra": [
+          "break",
+          "pull"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Mike's attempt to ____ ended up burdening someone who had already been wronged.",
-            "a": "clear his conscience"
+            "s": "In his rush, the technician ____ switched off the power to the whole street.",
+            "a": "inadvertently"
           },
           {
-            "s": "A more honest encounter at a reunion depends on people being willing to ____.",
-            "a": "drop the performance"
+            "s": "The new recruit was so ____ that she corrected the director in her first meeting.",
+            "a": "self-assured"
           },
           {
-            "s": "Mike did apologise, but the exchange ____ when the other man began comforting him.",
-            "a": "took an uncomfortable turn"
+            "s": "Everyone assumed the child prodigy was ____ for greatness, but she chose to become a vet.",
+            "a": "destined"
           },
           {
-            "s": "School reunions are uniquely capable of ____, making adults feel fifteen again.",
-            "a": "collapsing time"
+            "s": "The ____ advert, with its flawless lighting, hid the fact that the product was quite ordinary.",
+            "a": "polished"
           },
           {
-            "s": "A reunion comes with ____ that people have spent years escaping.",
-            "a": "a ready-made social hierarchy"
+            "s": "Real progress in a language requires ____ effort over many months, not a single burst of study.",
+            "a": "sustained"
           },
           {
-            "s": "The temptation to ____ does not disappear with the uniform.",
-            "a": "keep score"
+            "s": "Her ____ at her sister's success showed in the way she avoided mentioning it.",
+            "a": "envy"
           }
         ],
         "extra": [
-          "flourish",
-          "delicate"
+          "temptation",
+          "hierarchy"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "His account shows how ____ such encounters can be.",
-            "cue": "PREDICT",
-            "a": "unpredictable"
+            "s": "He was ____ about where he had been that night, and the officer grew suspicious.",
+            "cue": "EVADE",
+            "a": "evasive"
           },
           {
-            "s": "The pair caught up over drinks, suggesting that ____ conversations can still open a door.",
-            "cue": "PERFECT",
-            "a": "imperfect"
+            "s": "Years of public ____ had left the minister deeply distrustful of journalists.",
+            "cue": "SCRUTINISE",
+            "a": "scrutiny"
           },
           {
-            "s": "____ matter, but so does the effect on the person listening.",
-            "cue": "INTEND",
-            "a": "intentions"
+            "s": "It is ____ to expect everyone to forgive after a single apology.",
+            "cue": "REALISTIC",
+            "a": "unrealistic"
           },
           {
-            "s": "A nickname, a particular laugh or the sight of a former rival can bring back ____ that seemed long settled.",
-            "cue": "SECURE",
-            "a": "insecurities"
+            "s": "The two sisters finally achieved a ____ after a decade of silence.",
+            "cue": "RECONCILE",
+            "a": "reconciliation"
           },
           {
-            "s": "Social media adds another layer of ____.",
-            "cue": "COMPLEX",
-            "a": "complexity"
+            "s": "Critics condemned the ____ of the company's safety checks.",
+            "cue": "ADEQUATE",
+            "a": "inadequacy"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Mike took no part in the bullying but did nothing to stop it.",
+          "s": "Mike's apology ended up adding to the difficulties of the person he was apologising to.",
           "a": "T",
-          "why": "The text says: \"He had not joined in the homophobic bullying, but he had stayed silent.\""
+          "why": "The text says his attempt to clear his conscience \"had inadvertently placed another burden on someone already wronged.\""
         },
         {
-          "s": "The two men now meet regularly.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether the two men still meet regularly."
-        },
-        {
-          "s": "Reading classmates' online posts is no substitute for a proper conversation with them.",
-          "a": "T",
-          "why": "The text says: \"an edited feed is not the same as a sustained conversation\""
-        },
-        {
-          "s": "Mike later felt his apology had lifted a burden from his old classmate.",
+          "s": "According to the article, the most valuable result of a reunion is a renewed friendship.",
           "a": "F",
-          "why": "The text says the opposite: \"his attempt to clear his conscience had inadvertently placed another burden on someone already wronged.\""
+          "why": "The text says the most valuable outcome \"may be neither forgiveness nor renewed friendship, but a more generous understanding.\""
+        },
+        {
+          "s": "Mike's old classmates knew about his plan to apologise before the reunion.",
+          "a": "N",
+          "why": "Not stated. The text never says who knew about his plan."
+        },
+        {
+          "s": "The article suggests that classmates can bond as adults partly because they no longer feel pressure to impress each other.",
+          "a": "T",
+          "why": "The text says they may find common ground \"now that they no longer need to perform for a teenage audience.\""
+        },
+        {
+          "s": "The article argues that social media gives people a more honest picture of their classmates than a reunion can.",
+          "a": "F",
+          "why": "The text says \"an edited feed is not the same as a sustained conversation\" and that a reunion \"offers the possibility of a more honest encounter.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "conscience",
+          "d": "the inner feeling that tells you if your actions are right or wrong"
+        },
+        {
+          "t": "subsequently",
+          "d": "afterwards, at a later time"
+        },
+        {
+          "t": "adolescent",
+          "d": "to do with the years between being a child and being an adult"
+        },
+        {
+          "t": "outsider",
+          "d": "a person who does not belong to a group"
+        },
+        {
+          "t": "empathy",
+          "d": "the ability to understand how another person feels"
+        },
+        {
+          "t": "wronged",
+          "d": "treated unfairly"
+        },
+        {
+          "t": "rival",
+          "d": "a person you compete against"
+        },
+        {
+          "t": "reinvent",
+          "d": "change yourself so much that you seem a different person"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs are idiomatic, so the meaning cannot be guessed from the parts. Notice the particle that follows the gap, such as over, up to or on, and learn the pattern with it.",
+        "items": [
+          {
+            "s": "Mutual friends helped the brothers ____ up their quarrel after ten years.",
+            "a": "patch"
+          },
+          {
+            "s": "The company's annual report tends to ____ over its failings, mentioning them only in passing.",
+            "a": "gloss"
+          },
+          {
+            "s": "After weeks of denial, the manager finally ____ up to the error.",
+            "a": "owned"
+          },
+          {
+            "s": "There is little point in ____ on a mistake that cannot be undone.",
+            "a": "dwelling"
+          },
+          {
+            "s": "Stung by the criticism, she tried to ____ it off as a joke.",
+            "a": "shrug"
+          }
+        ],
+        "extra": [
+          "tone",
+          "wipe"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: should I go to the reunion?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the person who wants to go",
+      "text": "A reunion for your old school class is next month. You want to go and say sorry to a classmate you did not help at school. Explain why it matters to you. Listen to your friend and decide what to do."
+    },
+    "b": {
+      "role": "the friend",
+      "text": "You think it may be a bad idea. The other person might not want to talk about the past, and a party is not the right place. Ask questions and suggest another way to say sorry."
+    },
+    "phrases": [
+      "I've been thinking about it for years.",
+      "I'd like to say sorry to him in person.",
+      "What if he doesn't want to talk about it?",
+      "That's a fair point, but I can't stay silent.",
+      "Maybe a message would be easier for him.",
+      "Let's agree that I'll ask him first."
+    ],
+    "after": "Afterwards, tell the class: did you decide to apologise at the reunion, and how?"
   }
 }

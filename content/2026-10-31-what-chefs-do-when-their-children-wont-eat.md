@@ -6,6 +6,7 @@ tags: Food, Lifestyle, Society
 source: The Guardian, Don't make sugar a treat, or hide the broccoli: top chefs on how to make your kids happy eaters | https://www.theguardian.com/food/2026/oct/31/what-chefs-cook-home-kids-children-kerridge-sodha-goh-anna-jones-mitchell-gill-boxer-birkett-henderson
 image: images/what-chefs-do-when-their-children-wont-eat-30d220.jpg
 image-alt: Seen from above, an adult's plate wiped clean beside a child's untouched plate of chicken, potatoes, broccoli and tomato on a blue table.
+layout: lesson
 ---
 === Core ===
 

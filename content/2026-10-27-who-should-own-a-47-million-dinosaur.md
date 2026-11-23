@@ -6,6 +6,7 @@ tags: Science, Society, Money
 source: The Guardian, Rare Nanotyrannus skeleton sells for $47.3m at New York auction | https://www.theguardian.com/us-news/2026/oct/27/nanotyrannus-dinosaur-fossil-sothebys-auction
 image: images/who-should-own-a-47-million-dinosaur-12fae3.jpg
 image-alt: A child in a grey coat stands alone looking up at a mounted Tyrannosaurus skeleton in a vaulted museum hall, with other visitors around.
+layout: lesson
 ---
 === Core ===
 

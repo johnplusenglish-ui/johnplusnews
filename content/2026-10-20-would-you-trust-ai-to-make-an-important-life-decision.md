@@ -6,6 +6,7 @@ source: Pew Research Center | https://www.pewresearch.org/science/2025/09/17/how
 image: images/would-you-trust-ai-to-make-an-important-life-decision-1ee5f6.jpg
 image-alt: A hand holds up a phone showing a chat conversation of blank message bubbles, above a desk with a printed document, a pen, a passport and a card holder.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

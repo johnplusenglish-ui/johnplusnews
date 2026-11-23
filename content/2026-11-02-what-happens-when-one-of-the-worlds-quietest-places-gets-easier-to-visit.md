@@ -10,6 +10,7 @@ source-2-date: 30 October 2026
 image: images/what-happens-when-one-of-the-worlds-quietest-places-gets-easier-to-visit-f1fe4d.jpg
 image-alt: Brightly painted wooden houses stand on a rocky hillside above a deep blue fjord with small icebergs, snowy mountains behind and a small plane in the sky.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

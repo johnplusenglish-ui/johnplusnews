@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "The two women still work most days in a ____ in the south of Italy.",
-            "a": "bakery"
+            "s": "Good friends can ____ about small things and still laugh together.",
+            "a": "disagree"
           },
           {
-            "s": "Visitors travel to the town and wait in a ____ outside the shop.",
-            "a": "queue"
+            "s": "Nobody can ____ you a long life, however healthy you are.",
+            "a": "promise"
           },
           {
-            "s": "A nonna is an Italian ____.",
-            "a": "grandmother"
+            "s": "My sister gave me some useful ____ about how to sleep better.",
+            "a": "advice"
           },
           {
-            "s": "Nonnamaxxing is a joke about copying the ____ people imagine a nonna has.",
-            "a": "habits"
+            "s": "That is only his ____, and not everyone thinks the same way.",
+            "a": "opinion"
           },
           {
-            "s": "In the videos the two friends cook, sing and ____ a great deal.",
-            "a": "laugh"
+            "s": "The ____ of the videos is easy to see: they are calm, warm and real.",
+            "a": "appeal"
           }
         ],
         "extra": [
-          "airport",
-          "score"
+          "invite",
+          "borrow"
         ]
       },
       "match": [
@@ -72,9 +72,9 @@
             "a": "means"
           },
           {
-            "s": "No habit can ____ anybody a long life.",
-            "cue": "promise",
-            "a": "promise"
+            "s": "Last summer the two women ____ a tray of crackers to the people in the queue.",
+            "cue": "bring",
+            "a": "brought"
           }
         ]
       },
@@ -104,35 +104,103 @@
           "a": "T",
           "why": "The text says: \"minning instead, which means doing less rather than more\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "tray",
+          "d": "a flat thing that you use to carry food"
+        },
+        {
+          "t": "crackers",
+          "d": "thin, dry biscuits that you eat with cheese or soup"
+        },
+        {
+          "t": "protein",
+          "d": "something in food, like meat or eggs, that helps your body grow"
+        },
+        {
+          "t": "column",
+          "d": "a short piece of writing by the same person in a newspaper"
+        },
+        {
+          "t": "joke",
+          "d": "something you say to make people laugh"
+        },
+        {
+          "t": "copying",
+          "d": "doing the same thing as someone else does"
+        },
+        {
+          "t": "nonna",
+          "d": "the Italian word for grandmother"
+        },
+        {
+          "t": "strange",
+          "d": "not normal, a little surprising"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word, like out or up. The small word changes the meaning, so learn the two words together.",
+        "items": [
+          {
+            "s": "The two women come ____ of the shop with a tray of crackers.",
+            "a": "out"
+          },
+          {
+            "s": "Put the words nonna and maxxing ____ and you get a joke.",
+            "a": "together"
+          },
+          {
+            "s": "The soup was too hot, so she turned the heat ____ a little.",
+            "a": "down"
+          },
+          {
+            "s": "The women carry ____ working, even though they are nearly ninety.",
+            "a": "on"
+          },
+          {
+            "s": "She grew ____ in a small town and still lives there.",
+            "a": "up"
+          }
+        ],
+        "extra": [
+          "away",
+          "off"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Maxxing is internet ____ for taking something to its limit.",
-            "a": "shorthand"
+            "s": "Once a product gets a catchy ____, people start to talk about it as a trend.",
+            "a": "label"
           },
           {
-            "s": "The steady supply of advice can leave you feeling there is one more part of your life to ____.",
-            "a": "repair"
+            "s": "Over the years the town has ____ a reputation for excellent bread.",
+            "a": "acquired"
           },
           {
-            "s": "The attraction is less about Italy than about wanting more ____ and less performance.",
-            "a": "connection"
+            "s": "A ____ stream of visitors arrives at the bakery all day.",
+            "a": "steady"
           },
           {
-            "s": "Italian grandmothers are individuals rather than a ____.",
-            "a": "lifestyle"
+            "s": "The comedian was ____ the idea of self-improvement, and not everyone saw the joke.",
+            "a": "mocking"
           },
           {
-            "s": "A short sunny video leaves out a great deal of ____.",
-            "a": "labour"
+            "s": "The minister gave a ____ answer, careful not to promise too much.",
+            "a": "measured"
+          },
+          {
+            "s": "Daily protein ____ is one of the things that people track online.",
+            "a": "intake"
           }
         ],
         "extra": [
-          "suitcase",
-          "target"
+          "reckless",
+          "outlook"
         ]
       },
       "match": [
@@ -162,9 +230,9 @@
             "a": "have been"
           },
           {
-            "s": "Visitors now ____ outside the shop to watch them work.",
-            "cue": "queue",
-            "a": "queue"
+            "s": "By the time the shop opened, a long queue ____ outside.",
+            "cue": "form",
+            "a": "had formed"
           },
           {
             "s": "Rather than ____ a walk as a target, you might say hello to somebody.",
@@ -209,35 +277,103 @@
           "a": "T",
           "why": "The text says: \"It is a joke in a column, not a measured movement\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "knead",
+          "d": "to press and fold dough with your hands"
+        },
+        {
+          "t": "approaching",
+          "d": "getting close to a certain age or time"
+        },
+        {
+          "t": "scratch",
+          "d": "from scratch: using basic ingredients, not ready-made food"
+        },
+        {
+          "t": "self-improvement",
+          "d": "the act of making yourself a better person"
+        },
+        {
+          "t": "apron",
+          "d": "a piece of clothing you wear over your clothes when you cook"
+        },
+        {
+          "t": "loaf",
+          "d": "bread that is baked in one piece"
+        },
+        {
+          "t": "lengthen",
+          "d": "to make something longer"
+        },
+        {
+          "t": "attraction",
+          "d": "the quality that makes people like something"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs have a literal meaning and a figurative one. Read the whole sentence before you choose the small word.",
+        "items": [
+          {
+            "s": "The bakers always bring ____ fresh crackers when the queue gets long.",
+            "a": "out"
+          },
+          {
+            "s": "It is hard to keep ____ with every new trend online.",
+            "a": "up"
+          },
+          {
+            "s": "Many people turn a simple walk ____ a project with targets.",
+            "a": "into"
+          },
+          {
+            "s": "Try to cut ____ on the time you spend watching videos about slowing down.",
+            "a": "down"
+          },
+          {
+            "s": "A very long queue can put some visitors ____ going in.",
+            "a": "off"
+          }
+        ],
+        "extra": [
+          "away",
+          "apart"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The suffix is fixed to protein, productivity and sleep, as though an ____ setting were waiting in every hour.",
-            "a": "optimal"
+            "s": "Her proposal to scrap the fee entirely was too ____ for the committee, which preferred small adjustments.",
+            "a": "radical"
           },
           {
-            "s": "A carefully framed video is still a ____ window.",
-            "a": "narrow"
+            "s": "It is easy to ____ the contribution of volunteers when a charity is led by one famous face.",
+            "a": "overlook"
           },
           {
-            "s": "Compressing a varied group of women into one comforting ____ overlooks the individuals.",
-            "a": "type"
+            "s": "After years of commuting, he enjoyed the ____ pace of village life.",
+            "a": "unhurried"
           },
           {
-            "s": "If a slower life requires everything documented, it has acquired a long list of ____.",
-            "a": "tasks"
+            "s": "Few households were ____ the effects of the long recession.",
+            "a": "spared"
           },
           {
-            "s": "Hudson's piece is ____ rather than evidence of anything.",
-            "a": "commentary"
+            "s": "The leaked memo ____ how little the board understood its own customers.",
+            "a": "exposes"
+          },
+          {
+            "s": "It is ____ to blame a single factor, but the real causes were many.",
+            "a": "tempting"
           }
         ],
         "extra": [
-          "timetable",
-          "proof"
+          "negligible",
+          "contagious"
         ]
       },
       "match": [
@@ -262,42 +398,42 @@
         "kind": "word",
         "items": [
           {
-            "s": "The trend borrows a ____ image of the Italian grandmother.",
-            "cue": "FOND",
-            "a": "fond"
+            "s": "Her ____ to routine means she has never missed a morning at the bakery.",
+            "cue": "DEVOTE",
+            "a": "devotion"
           },
           {
-            "s": "Older generations were hardly spared demanding work and money ____.",
-            "cue": "WORRY",
-            "a": "worries"
+            "s": "The clip gives a ____ picture of what daily life is really like.",
+            "cue": "MISLEAD",
+            "a": "misleading"
           },
           {
-            "s": "Time is ____ distributed between people.",
-            "cue": "EVEN",
-            "a": "unevenly"
+            "s": "Many viewers doubted the brand's ____ when it began to sell aprons.",
+            "cue": "SINCERE",
+            "a": "sincerity"
           },
           {
-            "s": "The acts look almost radical, which says more about the ____ than the acts.",
-            "cue": "ADVISE",
-            "a": "advice"
+            "s": "A weekly trip to a specialist market is not ____ for every household.",
+            "cue": "AFFORD",
+            "a": "affordable"
           },
           {
-            "s": "Simplicity can quietly become a ____.",
-            "cue": "PERFORM",
-            "a": "performance"
+            "s": "The ____ between work and rest has become blurred for many people.",
+            "cue": "DISTINCT",
+            "a": "distinction"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The article says maxxing is attached to things other than cooking.",
+          "s": "The article suggests that the praise for slow living tells us as much about the advice around it as about the habits themselves.",
           "a": "T",
-          "why": "The text says: \"Maxxing is also fixed to protein, productivity, sleep and appearance\""
+          "why": "The text says these acts look almost radical, \"which says more about the advice than the acts\"."
         },
         {
-          "s": "The article claims all Italian grandmothers keep the same timetable.",
+          "s": "According to the article, the work behind a long lunch has historically been shared equally in most families.",
           "a": "F",
-          "why": "The text says: \"Italian grandmothers share neither a personality nor a timetable\""
+          "why": "The text says that work \"has historically fallen to women, usually on top of a job\"."
         },
         {
           "s": "The two women were first filmed by a national television channel.",
@@ -310,11 +446,96 @@
           "why": "The text says: \"What is a pleasant choice for one person is an expensive piece of organisation for another\""
         },
         {
-          "s": "Hudson's column is described as evidence that society has changed.",
-          "a": "F",
-          "why": "The text says: \"It is commentary rather than evidence of anything\""
+          "s": "The article treats minning and nonnamaxxing as two answers to the same underlying question.",
+          "a": "T",
+          "why": "The text says minning \"exposes the question underneath both labels\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "suffix",
+          "d": "a group of letters added to the end of a word"
+        },
+        {
+          "t": "attaches",
+          "d": "joins one thing to another"
+        },
+        {
+          "t": "justification",
+          "d": "a good reason for something"
+        },
+        {
+          "t": "compressing",
+          "d": "squeezing something into a smaller space"
+        },
+        {
+          "t": "documented",
+          "d": "recorded in writing, photos or video"
+        },
+        {
+          "t": "demanding",
+          "d": "needing a lot of effort or skill"
+        },
+        {
+          "t": "historically",
+          "d": "over a long period in the past"
+        },
+        {
+          "t": "counter-proposal",
+          "d": "a different suggestion made in reply to another one"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Here the gap is the verb, and the particle is given. Check that the verb has the meaning the whole phrase needs, not just the right grammar.",
+        "items": [
+          {
+            "s": "The writer is careful not to ____ down how hard older women's lives were.",
+            "a": "play"
+          },
+          {
+            "s": "Studies cannot ____ up the claim that one diet adds years to your life.",
+            "a": "back"
+          },
+          {
+            "s": "Nobody should ____ out the possibility that the trend will fade within a year.",
+            "a": "rule"
+          },
+          {
+            "s": "The advice does not ____ in the cost of ingredients and time.",
+            "a": "factor"
+          },
+          {
+            "s": "Brands are quick to ____ in on any trend with a catchy name.",
+            "a": "cash"
+          }
+        ],
+        "extra": [
+          "bear",
+          "dwell"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a slower month at home",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the housemate who wants a slower life",
+      "text": "You've watched videos of two grandmothers baking in Italy. You want your house to try nonnamaxxing this month: cook at home, eat at the table together, no phones at dinner. Persuade your housemate."
+    },
+    "b": {
+      "role": "the busy housemate",
+      "text": "You work long hours and you like quick meals. Say what worries you and ask for something smaller. Try to agree on a plan you can both live with."
+    },
+    "phrases": [
+      "I'd love us to cook together twice a week.",
+      "That's a nice idea, but I'm really busy.",
+      "What if we start with one dinner?",
+      "Could we agree on a day to try it?",
+      "I don't mind, as long as we're not too strict.",
+      "We'll see how it goes."
+    ],
+    "after": "Tell the class: what did you agree, and who gave up more?"
   }
 }

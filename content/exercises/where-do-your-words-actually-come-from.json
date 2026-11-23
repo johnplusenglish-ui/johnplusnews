@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Slang means ____ words used by a particular group.",
-            "a": "informal"
+            "s": "I sent her a message on Monday, but she only ____ on Friday.",
+            "a": "replied"
           },
           {
-            "s": "A song, a game or a video can ____ a word into a hundred countries.",
-            "a": "carry"
+            "s": "The instructions were so ____ that I had to read them three times.",
+            "a": "confusing"
           },
           {
-            "s": "Somebody hears a word, repeats it, and gives it a new ____.",
-            "a": "audience"
+            "s": "It was an ____ morning, with nothing unusual in it.",
+            "a": "ordinary"
           },
           {
-            "s": "Words like this make people feel ____.",
-            "a": "close"
+            "s": "The car's top ____ is 200 kilometres an hour.",
+            "a": "speed"
           },
           {
-            "s": "Whether a word fits depends on the situation and the people, so it depends on the ____.",
-            "a": "context"
+            "s": "Biting your nails is a bad ____ that is hard to stop.",
+            "a": "habit"
           }
         ],
         "extra": [
-          "suitcase",
-          "dictionary"
+          "message",
+          "friendly"
         ]
       },
       "match": [
@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Somebody ____ a photo in the group chat.",
-            "cue": "post",
-            "a": "has posted"
+            "s": "Last week my brother ____ a new word at school and used it all weekend.",
+            "cue": "hear",
+            "a": "heard"
           },
           {
             "s": "Ten minutes later you are ____ the word yourself.",
@@ -67,14 +67,14 @@
             "a": "done"
           },
           {
-            "s": "A dictionary cannot always ____ you where a word belongs.",
-            "cue": "tell",
-            "a": "tell"
+            "s": "When my parents were young, they ____ words that annoyed their own parents.",
+            "cue": "use",
+            "a": "used"
           },
           {
-            "s": "Most new words will ____ gone by the summer.",
-            "cue": "be",
-            "a": "be"
+            "s": "She ____ me what the word meant before I could look it up.",
+            "cue": "tell",
+            "a": "told"
           }
         ]
       },
@@ -90,9 +90,9 @@
           "why": "The text says: \"can carry a word out of one town and into a hundred countries in a few days\""
         },
         {
-          "s": "The group chat in the opening has seven people in it.",
+          "s": "The writer thinks adults should learn the new words.",
           "a": "N",
-          "why": "The text does not say how many people are in the chat"
+          "why": "The text does not say what adults should do about new words."
         },
         {
           "s": "Slang can leave somebody outside a conversation.",
@@ -104,35 +104,103 @@
           "a": "F",
           "why": "The text says: \"You do not have to use every new word you hear\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "annoyed",
+          "d": "a bit angry because something keeps happening"
+        },
+        {
+          "t": "stuck",
+          "d": "stayed and did not go away"
+        },
+        {
+          "t": "reverse",
+          "d": "the opposite way"
+        },
+        {
+          "t": "unkind",
+          "d": "not nice to other people"
+        },
+        {
+          "t": "skill",
+          "d": "something you can do well because you have learnt it"
+        },
+        {
+          "t": "includes",
+          "d": "has someone as part of the group"
+        },
+        {
+          "t": "exciting",
+          "d": "making you feel happy and full of energy"
+        },
+        {
+          "t": "underneath",
+          "d": "under the top part, not easy to see"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Collocations are words that go together naturally. Learn the pair, not just the word.",
+        "items": [
+          {
+            "s": "Words like this ____ people feel close.",
+            "a": "make"
+          },
+          {
+            "s": "Some words ____ for years, but most are gone by the summer.",
+            "a": "last"
+          },
+          {
+            "s": "Many slang words are brand ____ and are not in the dictionary yet.",
+            "a": "new"
+          },
+          {
+            "s": "Close friends often share a private ____ that outsiders do not understand.",
+            "a": "joke"
+          },
+          {
+            "s": "Somebody sent the photo to the ____ chat.",
+            "a": "group"
+          }
+        ],
+        "extra": [
+          "take",
+          "send"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Slang can quietly tell everybody who is in and who is ____.",
-            "a": "out"
+            "s": "The sudden ____ to repeat a funny word is hard to resist.",
+            "a": "impulse"
           },
           {
-            "s": "When an expression becomes huge on one platform, that is rarely where it ____.",
-            "a": "began"
+            "s": "The editing in a good film is almost ____: you never notice it.",
+            "a": "invisible"
           },
           {
-            "s": "The person who made a word famous is almost never the person who ____ it.",
-            "a": "made"
+            "s": "After the argument, the silence in the room was ____ for everyone.",
+            "a": "awkward"
           },
           {
-            "s": "A phrase that is natural in a message can sound strange in a job ____.",
-            "a": "application"
+            "s": "He meant it as a joke, but she took the remark as an ____.",
+            "a": "insult"
           },
           {
-            "s": "Moving between those registers is a ____, not a sign that your English is fake.",
-            "a": "skill"
+            "s": "Only a few of this year's slang words will ____ long enough to appear in a dictionary.",
+            "a": "survive"
+          },
+          {
+            "s": "A phrase can take a surprising ____ from a rap song to a classroom.",
+            "a": "route"
           }
         ],
         "extra": [
-          "suitcase",
-          "definition"
+          "compliment",
+          "experiment"
         ]
       },
       "match": [
@@ -162,14 +230,14 @@
             "a": "came"
           },
           {
-            "s": "Dictionary.com ____ it the word of the year in October 2025.",
-            "cue": "make",
-            "a": "made"
+            "s": "The expression ____ by thousands of people since it appeared in the song.",
+            "cue": "repeat",
+            "a": "has been repeated"
           },
           {
-            "s": "A phrase from a game ____ up in a conversation at a bus stop.",
-            "cue": "turn",
-            "a": "turns"
+            "s": "The teachers were confused because they ____ the phrase before.",
+            "cue": "never hear",
+            "a": "had never heard"
           },
           {
             "s": "Fluent speakers move between registers without ____ about it.",
@@ -177,67 +245,135 @@
             "a": "thinking"
           },
           {
-            "s": "Asking what somebody ____ is the fastest way out of an awkward moment.",
-            "cue": "mean",
-            "a": "meant"
+            "s": "The meaning of a word may ____ completely as it moves from group to group.",
+            "cue": "change",
+            "a": "change"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Dictionary.com chose the phrase as its 2025 word of the year.",
+          "s": "The phrase reached schools before Dictionary.com named it word of the year.",
           "a": "T",
-          "why": "The text says: \"in October 2025 Dictionary.com made it the word of the year\""
+          "why": "The text lists the order: it \"arrived in schools, and in October 2025 Dictionary.com made it the word of the year\"."
         },
         {
-          "s": "The platform where a word becomes popular is usually where it started.",
+          "s": "The person who makes an expression famous is usually the person who invented it.",
           "a": "F",
-          "why": "The text says: \"When an expression becomes huge on one platform, that platform is very rarely where it began\""
+          "why": "The text says the person who made a word famous \"is almost never the person who made it\"."
         },
         {
-          "s": "The article names the school where the phrase was first used.",
+          "s": "Teachers asked pupils to stop using the phrase in lessons.",
           "a": "N",
-          "why": "The text does not name a school"
+          "why": "The text only says adults had no idea what was happening."
         },
         {
-          "s": "A word's meaning can shift as it travels.",
-          "a": "T",
-          "why": "The text says: \"Along the way, the meaning often shifts. A word that started as a compliment can end up sarcastic\""
-        },
-        {
-          "s": "The article says changing how you speak means one version of your English is fake.",
+          "s": "Using formal English in an application and slang with friends shows that one of your versions of English is false.",
           "a": "F",
-          "why": "The text says: \"That switching is a skill, not evidence that one version of your English is fake\""
+          "why": "The text says that switching \"is a skill, not evidence that one version of your English is fake\"."
+        },
+        {
+          "s": "The writer says asking what someone meant is usually the quickest way to deal with a difficult social moment.",
+          "a": "T",
+          "why": "The text says it is \"usually the fastest way out of an awkward moment\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "admitting",
+          "d": "saying that something is true, often when you do not want to"
+        },
+        {
+          "t": "platform",
+          "d": "a website or app where people share things"
+        },
+        {
+          "t": "trail",
+          "d": "the signs that show where something has been"
+        },
+        {
+          "t": "fluent",
+          "d": "able to speak a language easily and well"
+        },
+        {
+          "t": "assuming",
+          "d": "thinking something is true without checking"
+        },
+        {
+          "t": "generation",
+          "d": "all the people born around the same time"
+        },
+        {
+          "t": "recognise",
+          "d": "know who or what something is because you have seen it before"
+        },
+        {
+          "t": "caption",
+          "d": "the words that go with a photo or video"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Verbs often choose their partners: you give credit, make a conversation faster, land badly. Learn the whole phrase.",
+        "items": [
+          {
+            "s": "____ credit to the right person is hard when nobody knows who started a word.",
+            "a": "Giving"
+          },
+          {
+            "s": "A creator with a ____ audience can turn a phrase into a hit quickly.",
+            "a": "large"
+          },
+          {
+            "s": "A word used warmly inside one group can ____ badly outside it.",
+            "a": "land"
+          },
+          {
+            "s": "The meaning of a slang word often ____ as it moves from group to group.",
+            "a": "shifts"
+          },
+          {
+            "s": "Slang can ____ a conversation faster, funnier or more exact.",
+            "a": "make"
+          }
+        ],
+        "extra": [
+          "reach",
+          "keep"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Slang signals ____: you get the reference because you share a history.",
-            "a": "belonging"
+            "s": "Economists disagree about the ____ that links rising wages to higher prices.",
+            "a": "mechanism"
           },
           {
-            "s": "The internet alters the ____ rather than the mechanism.",
-            "a": "scale"
+            "s": "A change in the weather ____ the whole character of the old square, turning pale stone dark.",
+            "a": "alters"
           },
           {
-            "s": "Visibility is not ____.",
-            "a": "authorship"
+            "s": "She wrote an ____ message to her grandmother, full of kisses and pet names.",
+            "a": "affectionate"
           },
           {
-            "s": "A great deal of English slang has been ____ for a general audience.",
-            "a": "repackaged"
+            "s": "Because treatment started late, the patient's condition kept ____ over the weekend.",
+            "a": "deteriorating"
           },
           {
-            "s": "Admitting the ____ is more honest than crediting whoever went viral.",
-            "a": "uncertainty"
+            "s": "Many of the town's traditions have their ____ in medieval farming.",
+            "a": "roots"
+          },
+          {
+            "s": "Most internet jokes ____ within weeks, once the novelty has worn off.",
+            "a": "fade"
           }
         ],
         "extra": [
-          "suitcase",
-          "boundary"
+          "register",
+          "tentative"
         ]
       },
       "match": [
@@ -262,59 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The same language that creates connection also draws a ____ around others.",
-            "cue": "BOUND",
-            "a": "boundary"
+            "s": "Online dictionaries can be ____ because anybody can edit an entry.",
+            "cue": "RELY",
+            "a": "unreliable"
           },
           {
-            "s": "A phrase can be repeated ____ or borrowed for a joke.",
-            "cue": "SINCERE",
-            "a": "sincerely"
+            "s": "Critics pointed to an ____ in the way the dictionary labels slang.",
+            "cue": "CONSISTENT",
+            "a": "inconsistency"
           },
           {
-            "s": "Sometimes the origin is genuinely hard to ____.",
-            "cue": "ESTABLISHMENT",
-            "a": "establish"
+            "s": "He ____ admitted that he had copied the phrase from a stream.",
+            "cue": "RELUCTANT",
+            "a": "reluctantly"
           },
           {
-            "s": "Learning to make that choice ____ is worth more than using the newest word.",
-            "cue": "DELIBERATE",
-            "a": "deliberately"
+            "s": "The sheer ____ of the phrase surprised the people who first used it.",
+            "cue": "POPULAR",
+            "a": "popularity"
           },
           {
-            "s": "Adults often hear unfamiliar slang as proof the language is ____.",
-            "cue": "DETERIORATE",
-            "a": "deteriorating"
+            "s": "Many linguists are ____ of the idea that slang ruins a language.",
+            "cue": "CRITIC",
+            "a": "critical"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Dictionary.com gave the phrase a clear and stable definition.",
-          "a": "F",
-          "why": "The text says: \"while effectively conceding that it had no stable definition\""
-        },
-        {
-          "s": "The article says the appeal of the phrase was the pleasure of being included.",
+          "s": "The writer suggests that a person who makes a word famous is not necessarily its creator.",
           "a": "T",
-          "why": "The text says: \"It was the pleasure of being in on something\""
+          "why": "The text says \"Visibility is not authorship\" and that the platform where you found a word is rarely where it was made."
         },
         {
-          "s": "The article identifies the first person ever to say the phrase.",
+          "s": "The writer believes the internet has created a completely new way for slang to spread.",
+          "a": "F",
+          "why": "The text says the internet \"alters the scale rather than the mechanism\"."
+        },
+        {
+          "s": "The rap song the phrase came from was widely criticised by teachers.",
           "a": "N",
-          "why": "The text does not name anyone as the first speaker"
+          "why": "The text does not say what teachers thought of the song."
         },
         {
-          "s": "Slang can create connection and exclude people at the same time.",
+          "s": "The writer thinks both adults and young speakers hold a limited view of how people use language.",
           "a": "T",
-          "why": "The text says: \"Both things happen at once, and usually nobody decides to do either\""
+          "why": "The text says \"Both readings miss how much range people already have\"."
         },
         {
-          "s": "The article argues young people should stop using informal English.",
+          "s": "The writer says two speakers of the same age will always understand the same words.",
           "a": "F",
-          "why": "The text says: \"being able to handle both widens your options instead of asking you to give one up\""
+          "why": "The text says two people the same age \"can follow different creators or speak different first languages\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "stable",
+          "d": "not changing or moving around"
+        },
+        {
+          "t": "sincerely",
+          "d": "in a way that shows you really mean it"
+        },
+        {
+          "t": "viral",
+          "d": "spreading very fast online to many people"
+        },
+        {
+          "t": "establish",
+          "d": "find out and prove that something is true"
+        },
+        {
+          "t": "deliberately",
+          "d": "on purpose, after thinking about it"
+        },
+        {
+          "t": "outlast",
+          "d": "continue to exist for longer than something else"
+        },
+        {
+          "t": "effectively",
+          "d": "in practice, even if not officially"
+        },
+        {
+          "t": "precise",
+          "d": "exact and clear in every detail"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "At this level a precise verb pairs with an abstract noun: draw a line, raise questions. A near synonym often sounds wrong.",
+        "items": [
+          {
+            "s": "Teachers often ____ a clear line between formal and informal writing.",
+            "a": "draw"
+          },
+          {
+            "s": "Confident speakers command a ____ range of styles, from slang to formal prose.",
+            "a": "wide"
+          },
+          {
+            "s": "A harmless clip can suddenly ____ viral and reach millions.",
+            "a": "go"
+          },
+          {
+            "s": "The disputed origin of the phrase ____ questions about who deserves credit.",
+            "a": "raises"
+          },
+          {
+            "s": "Even beginners can ____ a basic conversation after a few weeks.",
+            "a": "hold"
+          }
+        ],
+        "extra": [
+          "break",
+          "tell"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: slang in a message to a teacher",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the teacher",
+      "text": "A student sent you an email full of slang. You did not understand two words and it felt a little rude. Ask what the words mean, explain the problem, and agree a simple rule for messages to you."
+    },
+    "b": {
+      "role": "the student",
+      "text": "You sent your teacher a friendly message with slang in it. You did not mean it to be rude. Explain what your words mean and why you used them. Ask what is acceptable."
+    },
+    "phrases": [
+      "I didn't mean it to sound rude.",
+      "What does that word mean?",
+      "That's fine with friends, but it's not right for an email to me.",
+      "It's just how we talk.",
+      "I'd like us to agree on a simple rule.",
+      "Let's use normal English when we write to teachers."
+    ],
+    "after": "Afterwards, tell the class: what rule did you agree, and is it fair?"
   }
 }

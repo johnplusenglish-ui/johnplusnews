@@ -1,305 +1,541 @@
 {
- "slug": "what-is-it-like-to-live-next-to-a-data-centre",
- "levels": {
-  "core": {
-   "gap": {
-    "items": [
-     {
-      "s": "Instead he looks at a wall of grey ____ 23 metres high.",
-      "a": "panels"
-     },
-     {
-      "s": "In Britain, 315 big data centres are waiting for a connection to the ____ network.",
-      "a": "electricity"
-     },
-     {
-      "s": "That number is a ____, not a measurement.",
-      "a": "request"
-     },
-     {
-      "s": "His wife is a nurse who works night ____, and she struggles to sleep.",
-      "a": "shifts"
-     },
-     {
-      "s": "More than 1,200 people have ____ to it.",
-      "a": "objected"
-     }
-    ],
-    "extra": [
-     "bigger",
-     "cloud"
-    ]
-   },
-   "match": [
-    {
-     "t": "grandchildren",
-     "d": "the children of your children"
+  "slug": "what-is-it-like-to-live-next-to-a-data-centre",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "The new stadium is ____. It is bigger than any other building in the town.",
+            "a": "enormous"
+          },
+          {
+            "s": "Smoke alarms should be tested ____, for example once a month.",
+            "a": "regularly"
+          },
+          {
+            "s": "Several neighbours ____ to the new road because of the traffic.",
+            "a": "objected"
+          },
+          {
+            "s": "He sent a ____ to the council, asking them to cut the grass near the school.",
+            "a": "request"
+          },
+          {
+            "s": "My neighbour ____ to sleep because the music from the party next door is so loud.",
+            "a": "struggles"
+          }
+        ],
+        "extra": [
+          "approved",
+          "connected"
+        ]
+      },
+      "match": [
+        {
+          "t": "grandchildren",
+          "d": "the children of your children"
+        },
+        {
+          "t": "overheating",
+          "d": "becoming too hot to work properly"
+        },
+        {
+          "t": "hum",
+          "d": "a low continuous sound"
+        },
+        {
+          "t": "reminder",
+          "d": "something that makes you remember"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Before the building arrived, Johnston ____ the sun in his garden every evening.",
+            "cue": "enjoy",
+            "a": "enjoyed"
+          },
+          {
+            "s": "Local politicians ____ the Newport centre as a source of jobs.",
+            "cue": "welcome",
+            "a": "have welcomed"
+          },
+          {
+            "s": "Johnston is thinking about what he ____.",
+            "cue": "lose",
+            "a": "has lost"
+          },
+          {
+            "s": "In Britain, 315 big data centres ____ for a connection to the electricity network.",
+            "cue": "wait",
+            "a": "are waiting"
+          },
+          {
+            "s": "Nobody yet ____ how much electricity each building will really use.",
+            "cue": "know",
+            "a": "knows"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Johnston's garden used to get more sun than it does now.",
+          "a": "T",
+          "why": "The text says: “Before, the sun used to come around here and it was lovely.”"
+        },
+        {
+          "s": "The politicians who supported the project have visited his garden.",
+          "a": "F",
+          "why": "The text says the politicians “will not come to his garden to look at it”."
+        },
+        {
+          "s": "The 315 data centres have asked for more power than Britain normally uses on a cold winter day.",
+          "a": "T",
+          "why": "The text says they have asked for “far more power than the country normally uses on a cold winter day”."
+        },
+        {
+          "s": "The Newport data centre will employ more than 100 people.",
+          "a": "N",
+          "why": "Not stated. The text does not give a number of jobs for the Newport centre."
+        },
+        {
+          "s": "The number 315 shows how much electricity the centres are using.",
+          "a": "F",
+          "why": "The text says: “That number is a request, not a measurement.”"
+        }
+      ],
+      "pre": [
+        {
+          "t": "lawn",
+          "d": "the short grass in a garden"
+        },
+        {
+          "t": "stream",
+          "d": "to watch a film or listen to music over the internet"
+        },
+        {
+          "t": "chatbot",
+          "d": "a computer program that answers your questions in writing"
+        },
+        {
+          "t": "generators",
+          "d": "machines that make electricity"
+        },
+        {
+          "t": "disgusting",
+          "d": "very bad and unpleasant"
+        },
+        {
+          "t": "backed",
+          "d": "said you agreed with a plan and helped it"
+        },
+        {
+          "t": "concrete",
+          "d": "the hard grey material used to build walls and roads"
+        },
+        {
+          "t": "shifts",
+          "d": "the hours of the day that you work, for example at night"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many words go with one small word. Learn them together, for example worried about.",
+        "items": [
+          {
+            "s": "Johnston is worried ____ the noise from the generators.",
+            "a": "about"
+          },
+          {
+            "s": "The council is responsible ____ deciding where the building goes.",
+            "a": "for"
+          },
+          {
+            "s": "How loud the generators are depends ____ where you stand.",
+            "a": "on"
+          },
+          {
+            "s": "Local people have complained ____ the council about the noise.",
+            "a": "to"
+          },
+          {
+            "s": "Johnston does not agree ____ the politicians who backed the project.",
+            "a": "with"
+          }
+        ],
+        "extra": [
+          "in",
+          "at"
+        ]
+      }
     },
-    {
-     "t": "overheating",
-     "d": "becoming too hot to work properly"
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The old village is now a small ____ surrounded by new roads and warehouses.",
+            "a": "enclave"
+          },
+          {
+            "s": "Residents have ____ a formal complaint with the council.",
+            "a": "lodged"
+          },
+          {
+            "s": "The company says that ____ from the generators will stay within safe levels.",
+            "a": "emissions"
+          },
+          {
+            "s": "The developer ____ a report from independent experts on air quality.",
+            "a": "commissioned"
+          },
+          {
+            "s": "Supporters of the plan accused the campaigners of ____, saying they were frightening people without evidence.",
+            "a": "scaremongering"
+          },
+          {
+            "s": "The scheme cannot ____ until the council has approved it.",
+            "a": "proceed"
+          }
+        ],
+        "extra": [
+          "compliance",
+          "consumed"
+        ]
+      },
+      "match": [
+        {
+          "t": "abstract",
+          "d": "existing as an idea rather than a physical thing"
+        },
+        {
+          "t": "grid",
+          "d": "the network that carries electricity around a country"
+        },
+        {
+          "t": "leafleted",
+          "d": "handed out printed information to people"
+        },
+        {
+          "t": "objections",
+          "d": "formal statements that you are against something"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Nick Richards ____ onto the estate only two months earlier when the application appeared.",
+            "cue": "move",
+            "a": "had moved"
+          },
+          {
+            "s": "The park and ride ____ by hospital staff every day.",
+            "cue": "use",
+            "a": "is used"
+          },
+          {
+            "s": "If the plan goes ahead, heavy lorries ____ the narrow road every day.",
+            "cue": "use",
+            "a": "will use"
+          },
+          {
+            "s": "Local people ____ outside the council offices since early morning.",
+            "cue": "protest",
+            "a": "have been protesting"
+          },
+          {
+            "s": "Three weeks after the packed meeting, the councillor ____ a formal objection.",
+            "cue": "submit",
+            "a": "submitted"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The Welsh government has become involved in the Cardiff application.",
+          "a": "T",
+          "why": "The text says the government “has ordered the council to pause the application”."
+        },
+        {
+          "s": "Sue Elias has been collecting signatures for less than a month.",
+          "a": "F",
+          "why": "The text says she has leafleted “every Wednesday for six weeks”."
+        },
+        {
+          "s": "Hospital staff who use the park and ride will be given a new car park.",
+          "a": "N",
+          "why": "Not stated. The text says nothing about a replacement car park."
+        },
+        {
+          "s": "The councillor who called some claims scaremongering later objected to the plan himself.",
+          "a": "T",
+          "why": "The text says he “submitted a formal objection of his own” three weeks after the meeting."
+        },
+        {
+          "s": "Nick Richards moved to the area after the application was made.",
+          "a": "F",
+          "why": "The text says he moved there “two months before the application appeared”."
+        }
+      ],
+      "pre": [
+        {
+          "t": "hyperscale",
+          "d": "very large, built to hold huge numbers of computers"
+        },
+        {
+          "t": "prefabricated",
+          "d": "made in a factory and put together on the building site"
+        },
+        {
+          "t": "campus",
+          "d": "a large area of land with a group of buildings on it"
+        },
+        {
+          "t": "drone",
+          "d": "a low, steady sound that goes on and on"
+        },
+        {
+          "t": "fumes",
+          "d": "strong, unpleasant smoke or gas"
+        },
+        {
+          "t": "councillors",
+          "d": "people chosen to make decisions for a town or city"
+        },
+        {
+          "t": "signatures",
+          "d": "people's names written by hand, for example on a petition"
+        },
+        {
+          "t": "turbines",
+          "d": "machines with large blades that make power"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Nouns, verbs and adjectives often take a fixed preposition. Learn them as chunks: objections to, rely on, interest in.",
+        "items": [
+          {
+            "s": "The developer has applied ____ planning permission.",
+            "a": "for"
+          },
+          {
+            "s": "Residents have strong objections ____ the plan.",
+            "a": "to"
+          },
+          {
+            "s": "Hospital staff rely ____ the car park every day.",
+            "a": "on"
+          },
+          {
+            "s": "The project cannot go ahead without full compliance ____ safety rules.",
+            "a": "with"
+          },
+          {
+            "s": "The council has shown little interest ____ their views.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "at",
+          "of"
+        ]
+      }
     },
-    {
-     "t": "hum",
-     "d": "a low continuous sound"
-    },
-    {
-     "t": "reminder",
-     "d": "something that makes you remember"
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Investors who back unproven technology are placing a ____ bet that may never pay off.",
+            "a": "speculative"
+          },
+          {
+            "s": "A promise to cut noise means little unless it is written into an ____ agreement with penalties for breaking it.",
+            "a": "enforceable"
+          },
+          {
+            "s": "The minister ____ to comment on the proposals, saying she needed more time.",
+            "a": "declined"
+          },
+          {
+            "s": "After weeks of hearing about fumes, the residents found the developer's promise anything but ____.",
+            "a": "reassuring"
+          },
+          {
+            "s": "Few campaigners demand an ____ ban on data centres; most want tighter rules instead.",
+            "a": "outright"
+          },
+          {
+            "s": "Experts warn that the energy demand of the new sites could ____ what the national grid can supply.",
+            "a": "exceed"
+          }
+        ],
+        "extra": [
+          "distribution",
+          "compliance"
+        ]
+      },
+      "match": [
+        {
+          "t": "enclave",
+          "d": "a small area surrounded by something different"
+        },
+        {
+          "t": "postcodes",
+          "d": "the codes that identify particular local areas"
+        },
+        {
+          "t": "instructive",
+          "d": "useful because it teaches you something"
+        },
+        {
+          "t": "constituents",
+          "d": "the people an elected politician represents"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Johnston's ____ to the building is not a rejection of computing itself.",
+            "cue": "OPPOSE",
+            "a": "opposition"
+          },
+          {
+            "s": "Critics say the developer's claims about emissions are ____ because the company paid for the assessments.",
+            "cue": "RELY",
+            "a": "unreliable"
+          },
+          {
+            "s": "Supporters argue that the facility will bring ____ benefits, such as skilled jobs.",
+            "cue": "ECONOMY",
+            "a": "economic"
+          },
+          {
+            "s": "A consultation that never explains the noise levels is ____.",
+            "cue": "ADEQUATE",
+            "a": "inadequate"
+          },
+          {
+            "s": "Developers should be made more ____ for the harm their buildings cause.",
+            "cue": "ACCOUNT",
+            "a": "accountable"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The writer treats the developer's reassurances with some scepticism.",
+          "a": "T",
+          "why": "The text says: “Residents are being asked to find that reassuring.”"
+        },
+        {
+          "s": "The power figure for the 315 centres proves that the grid will be unable to cope.",
+          "a": "F",
+          "why": "The text says the figure “describes what developers have applied for, not electricity anyone has used”."
+        },
+        {
+          "s": "The Cardiff developer is a British company.",
+          "a": "N",
+          "why": "Not stated. The text never says where the developer is based."
+        },
+        {
+          "s": "The Cardiff facility would create fewer than 150 jobs.",
+          "a": "T",
+          "why": "The text says it “would itself employ up to 125 people”."
+        },
+        {
+          "s": "The councillor submitted his objection before the public meeting.",
+          "a": "F",
+          "why": "The text says he did so “three weeks after” the boxing club meeting."
+        }
+      ],
+      "pre": [
+        {
+          "t": "hyperscale",
+          "d": "describes a data centre of enormous size"
+        },
+        {
+          "t": "prefabricated",
+          "d": "built in sections elsewhere and assembled on site"
+        },
+        {
+          "t": "fringe",
+          "d": "the outer edge of a town or city"
+        },
+        {
+          "t": "triumph",
+          "d": "a great success, often one that surprises people"
+        },
+        {
+          "t": "scaremongering",
+          "d": "spreading fear by exaggerating a danger"
+        },
+        {
+          "t": "commissioned",
+          "d": "officially asked and paid someone to produce something"
+        },
+        {
+          "t": "campus",
+          "d": "a large site holding a group of related buildings"
+        },
+        {
+          "t": "turbines",
+          "d": "machines with blades that turn to generate power"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At this level the preposition sits inside a fixed phrase. Learn the whole phrase: at odds with, fall short of.",
+        "items": [
+          {
+            "s": "The outcome of the appeal hinges ____ whether the developer can prove that emissions are safe.",
+            "a": "on"
+          },
+          {
+            "s": "The developer cannot be held liable ____ delays caused by the grid operator.",
+            "a": "for"
+          },
+          {
+            "s": "Few residents are ____ favour of a plant that will run day and night.",
+            "a": "in"
+          },
+          {
+            "s": "Several residents are at odds ____ the council over the sale of the car park.",
+            "a": "with"
+          },
+          {
+            "s": "Consultation on the plan fell short ____ what residents were promised.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "from",
+          "to"
+        ]
+      }
     }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Dale Johnston ____ a garden on the edge of Newport, in south Wales.",
-      "cue": "have",
-      "a": "has"
-     },
-     {
-      "s": "Local politicians ____ the Newport centre as a source of jobs.",
-      "cue": "welcome",
-      "a": "have welcomed"
-     },
-     {
-      "s": "Johnston is thinking about what he ____.",
-      "cue": "lose",
-      "a": "has lost"
-     },
-     {
-      "s": "In Britain, 315 big data centres ____ for a connection to the electricity network.",
-      "cue": "wait",
-      "a": "are waiting"
-     },
-     {
-      "s": "Nobody yet ____ how much electricity each building will really use",
-      "cue": "know",
-      "a": "knows"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Dale Johnston has a garden on the edge of Newport.",
-     "a": "T",
-     "why": "The text says: “Dale Johnston has a garden on the edge of Newport, in south Wales.”"
-    },
-    {
-     "s": "The politicians who supported the project have visited his garden.",
-     "a": "F",
-     "why": "The text says the opposite: “the politicians who backed the project will not come to his garden to look at it”."
-    },
-    {
-     "s": "More than 1,200 people have objected to the Cardiff plan.",
-     "a": "T",
-     "why": "The text says: “More than 1,200 people have objected to it.”"
-    },
-    {
-     "s": "Johnston is planning to sell his house and move away.",
-     "a": "N",
-     "why": "Not stated. The text describes his complaints but says nothing about moving."
-    }
-   ]
   },
-  "intermediate": {
-   "gap": {
-    "items": [
-     {
-      "s": "a hyperscale data centre now stands behind his small ____ of 27 houses.",
-      "a": "enclave"
-     },
-     {
-      "s": "Artificial intelligence has made them far ____ for space and electricity",
-      "a": "hungrier"
-     },
-     {
-      "s": "The centre has 36 sets of air blast coolers to stop its chips ____",
-      "a": "overheating"
-     },
-     {
-      "s": "More than 1,200 objections have been ____, and the Welsh government has ordered the council to pause the application.",
-      "a": "lodged"
-     },
-     {
-      "s": "The councillor who defended the Cardiff plan argued that some of the claims circulating were ____",
-      "a": "scaremongering"
-     }
+  "speak": {
+    "title": "Role-play: a data centre next door",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the resident",
+      "text": "A company wants to build a data centre behind your street. Tell the company what worries you, such as noise, fumes or lost sunlight. Ask for changes before you will agree."
+    },
+    "b": {
+      "role": "the company's representative",
+      "text": "You want to build the data centre. Explain the benefits, such as jobs. Listen to the resident, then offer one or two changes. You cannot agree to everything."
+    },
+    "phrases": [
+      "I'm really worried about the noise.",
+      "We've lived here for years.",
+      "That's not good enough for us.",
+      "I'd like to hear more about the jobs.",
+      "We're happy to listen to your concerns.",
+      "Could we find a compromise?"
     ],
-    "extra": [
-     "prefabricated",
-     "compliance"
-    ]
-   },
-   "match": [
-    {
-     "t": "abstract",
-     "d": "existing as an idea rather than a physical thing"
-    },
-    {
-     "t": "grid",
-     "d": "the network that carries electricity around a country"
-    },
-    {
-     "t": "leafleted",
-     "d": "handed out printed information to people"
-    },
-    {
-     "t": "objections",
-     "d": "formal statements that you are against something"
-    }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Data centres ____ the computers that store and process information for the services most of us use every day.",
-      "cue": "hold",
-      "a": "hold"
-     },
-     {
-      "s": "In Britain, 315 hyperscale centres ____ to connect to the national grid.",
-      "cue": "queue",
-      "a": "are queuing"
-     },
-     {
-      "s": "He already ____ his bathroom window against the hum of another building on the same 46-acre campus",
-      "cue": "close",
-      "a": "closes"
-     },
-     {
-      "s": "Sue Elias, a retired librarian, ____ the car park every Wednesday for six weeks and collected 1,300 signatures.",
-      "cue": "leaflet",
-      "a": "has leafleted"
-     },
-     {
-      "s": "Nick Richards, who ____ onto a new estate two months before the application appeared, lives 300 metres from a proposed energy centre with seven gas turbines.",
-      "cue": "move",
-      "a": "moved"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Johnston's wife finds it hard to sleep.",
-     "a": "T",
-     "why": "The text says: “his wife, a nurse on night shifts, can barely sleep”."
-    },
-    {
-     "s": "Councillors and MPs have come to stand in Johnston's garden.",
-     "a": "F",
-     "why": "The text says: “Johnston says he has invited councillors and MPs to stand in his garden, and that none of them has come.”"
-    },
-    {
-     "s": "The Cardiff data centre would employ up to 125 people once built.",
-     "a": "T",
-     "why": "The text says the centre “would employ up to 125 people once built”."
-    },
-    {
-     "s": "The Cardiff application has now been refused.",
-     "a": "N",
-     "why": "Not stated. The text says the government ordered a pause, but does not report a decision."
-    }
-   ]
-  },
-  "advanced": {
-   "gap": {
-    "items": [
-     {
-      "s": "The word cloud was a marketing ____.",
-      "a": "triumph"
-     },
-     {
-      "s": "60 diesel generators that must be tested so the flow of data is never ____",
-      "a": "interrupted"
-     },
-     {
-      "s": "and their combined requests substantially ____ the country's typical peak winter demand.",
-      "a": "exceed"
-     },
-     {
-      "s": "which indicates how much of this is a ____ bet on an AI-led economy",
-      "a": "speculative"
-     },
-     {
-      "s": "Campaigners who have actually read the planning documents tend to argue for ____ standards and public ownership rather than outright refusal.",
-      "a": "enforceable"
-     }
-    ],
-    "extra": [
-     "distribution",
-     "compliance"
-    ]
-   },
-   "match": [
-    {
-     "t": "enclave",
-     "d": "a small area surrounded by something different"
-    },
-    {
-     "t": "postcodes",
-     "d": "the codes that identify particular local areas"
-    },
-    {
-     "t": "instructive",
-     "d": "useful because it teaches you something"
-    },
-    {
-     "t": "constituents",
-     "d": "the people an elected politician represents"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "It made a global industrial estate sound like ____.",
-      "cue": "WEATHER",
-      "a": "weather"
-     },
-     {
-      "s": "Johnston's case against the hyperscale data centre beside him is not a case against ____.",
-      "cue": "COMPUTE",
-      "a": "computing"
-     },
-     {
-      "s": "real consumption will depend on how each facility is designed, cooled and ____.",
-      "cue": "OPERATE",
-      "a": "operated"
-     },
-     {
-      "s": "Publicly owned computing can do obvious good: a university supercomputer in Bristol supports dementia and heart disease ____.",
-      "cue": "RESEARCH",
-      "a": "research"
-     },
-     {
-      "s": "The most ____ detail is what happened to the councillor who called the objections scaremongering.",
-      "cue": "INSTRUCT",
-      "a": "instructive"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The power figures describe applications rather than electricity already used.",
-     "a": "T",
-     "why": "The text says: “it describes what developers have applied for, not electricity anyone has used”."
-    },
-    {
-     "s": "Campaigners who have read the planning documents want data centres banned outright.",
-     "a": "F",
-     "why": "The text says they “tend to argue for enforceable standards and public ownership rather than outright refusal”."
-    },
-    {
-     "s": "A supercomputer in Bristol supports research into dementia and heart disease.",
-     "a": "T",
-     "why": "The text says: “a university supercomputer in Bristol supports dementia and heart disease research”."
-    },
-    {
-     "s": "The Newport centre has started operating.",
-     "a": "N",
-     "why": "Not stated. The text describes the building and the fears about it, but not whether it is running."
-    }
-   ]
+    "after": "Afterwards, tell the class: did you reach an agreement, and was it fair to the people living nearby?"
   }
- }
 }

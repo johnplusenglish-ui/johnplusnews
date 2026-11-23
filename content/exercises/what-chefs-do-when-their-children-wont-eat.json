@@ -1,305 +1,541 @@
 {
- "slug": "what-chefs-do-when-their-children-wont-eat",
- "levels": {
-  "core": {
-   "gap": {
-    "items": [
-     {
-      "s": "The Guardian asked ____ cooks and food writers what they feed their own families.",
-      "a": "nine"
-     },
-     {
-      "s": "Helen Goh grates ____ into pasta sauce, but she always tells her sons it is in there.",
-      "a": "courgette"
-     },
-     {
-      "s": "Saying no to food, he realised, is one of the few kinds of ____ a child has.",
-      "a": "power"
-     },
-     {
-      "s": "for most children, being fussy is only a ____.",
-      "a": "phase"
-     },
-     {
-      "s": "Her advice is not to ____ children.",
-      "a": "label"
-     }
-    ],
-    "extra": [
-     "treat",
-     "kebabs"
-    ]
-   },
-   "match": [
-    {
-     "t": "picky",
-     "d": "difficult to please about food"
+  "slug": "what-chefs-do-when-their-children-wont-eat",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "My sister gave me some good ____ about how to cook for a toddler.",
+            "a": "advice"
+          },
+          {
+            "s": "Many toddlers go through a ____ when they only want to eat pasta.",
+            "a": "phase"
+          },
+          {
+            "s": "Please do not ____ your brother a fussy eater, because he may start to believe it.",
+            "a": "label"
+          },
+          {
+            "s": "A child can use food to show ____, because it is one thing only she controls.",
+            "a": "power"
+          },
+          {
+            "s": "I'm fairly ____ that my daughter will eat the soup, because she liked it last time.",
+            "a": "certain"
+          }
+        ],
+        "extra": [
+          "packet",
+          "beetroot"
+        ]
+      },
+      "match": [
+        {
+          "t": "picky",
+          "d": "difficult to please about food"
+        },
+        {
+          "t": "refuse",
+          "d": "to say you will not accept something"
+        },
+        {
+          "t": "grates",
+          "d": "rubs food into small pieces with a metal tool"
+        },
+        {
+          "t": "treat",
+          "d": "something nice that you do not get every day"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "It ____ to professional chefs too.",
+            "cue": "happen",
+            "a": "happens"
+          },
+          {
+            "s": "The Guardian ____ nine cooks and food writers what they feed their own families.",
+            "cue": "ask",
+            "a": "asked"
+          },
+          {
+            "s": "Last week a father ____ his son build a pizza.",
+            "cue": "help",
+            "a": "helped"
+          },
+          {
+            "s": "Yesterday my son ____ all of his carrots.",
+            "cue": "eat",
+            "a": "ate"
+          },
+          {
+            "s": "Jackson Boxer ____ four children.",
+            "cue": "have",
+            "a": "has"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Tom Kerridge does not believe parents who say their children eat beetroot and feta salad.",
+          "a": "T",
+          "why": "The text says: “He does not believe the parents who say their children happily eat beetroot and feta salad.”"
+        },
+        {
+          "s": "Helen Goh hides vegetables without telling her children.",
+          "a": "F",
+          "why": "The text says: “she always tells her sons it is in there.”"
+        },
+        {
+          "s": "Ravneet Gill does not describe sugar as a treat.",
+          "a": "T",
+          "why": "The text says: “She does not call it a treat.”"
+        },
+        {
+          "s": "Tom Kerridge's son, Acey, is five years old.",
+          "a": "F",
+          "why": "The text says Acey is ten. The five-year-old is Marie Mitchell's daughter."
+        },
+        {
+          "s": "Most of the nine cooks eat with their children every day.",
+          "a": "N",
+          "why": "Not stated. The text says nothing about how often they eat together."
+        }
+      ],
+      "pre": [
+        {
+          "t": "fussy",
+          "d": "only liking a few foods and often saying no to the rest"
+        },
+        {
+          "t": "trick",
+          "d": "a clever way to make someone do or believe something"
+        },
+        {
+          "t": "chopped",
+          "d": "cut into small pieces"
+        },
+        {
+          "t": "thread",
+          "d": "to push pieces of food one after another onto a stick"
+        },
+        {
+          "t": "involved",
+          "d": "taking part in something"
+        },
+        {
+          "t": "personally",
+          "d": "in a way that makes you feel it is about you"
+        },
+        {
+          "t": "comforting",
+          "d": "making you feel calmer and less worried"
+        },
+        {
+          "t": "realises",
+          "d": "understands something, often suddenly"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word, such as out or on. The small word changes the meaning, so learn the two words together.",
+        "items": [
+          {
+            "s": "Most children grow ____ of fussy eating.",
+            "a": "out"
+          },
+          {
+            "s": "Her son pushed his plate ____ and said he was full.",
+            "a": "away"
+          },
+          {
+            "s": "Kerridge feeds his son early, before his hunger turns ____ a demand for crisps.",
+            "a": "into"
+          },
+          {
+            "s": "Once the food is on the table, it is ____ to the child to decide how much to eat.",
+            "a": "up"
+          },
+          {
+            "s": "The chefs say you should carry ____ offering a food, even after a refusal.",
+            "a": "on"
+          }
+        ],
+        "extra": [
+          "through",
+          "off"
+        ]
+      }
     },
-    {
-     "t": "refuse",
-     "d": "to say you will not accept something"
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Parents who welcome a child's ____ in the cooking, by letting her stir or wash the vegetables, often see less refusal at the table.",
+            "a": "involvement"
+          },
+          {
+            "s": "Offering two sensible choices at snack time gives a toddler a sense of ____ over what she eats.",
+            "a": "agency"
+          },
+          {
+            "s": "Hiding broccoli in a smoothie is a popular ____ for getting children to eat vegetables, though some chefs object to it.",
+            "a": "tactic"
+          },
+          {
+            "s": "My neighbour's ____ words, that every toddler goes through this, made me feel less alone.",
+            "a": "consoling"
+          },
+          {
+            "s": "One refused dinner is not a worry. The ____ of what a child eats over several weeks matters more.",
+            "a": "pattern"
+          },
+          {
+            "s": "Some parents ____ that their children happily eat anything, but few people believe them.",
+            "a": "claim"
+          }
+        ],
+        "extra": [
+          "defeat",
+          "reassurance"
+        ]
+      },
+      "match": [
+        {
+          "t": "agency",
+          "d": "the power to make your own choices"
+        },
+        {
+          "t": "tactic",
+          "d": "a particular way of trying to achieve something"
+        },
+        {
+          "t": "consoling",
+          "d": "making someone feel less unhappy"
+        },
+        {
+          "t": "dismissing",
+          "d": "treating something as not worth considering"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "If a child ____ to make the pizza herself, she will probably eat it.",
+            "cue": "allow",
+            "a": "is allowed"
+          },
+          {
+            "s": "By the time dinner was ready, the toddler ____ a whole packet of crisps.",
+            "cue": "eat",
+            "a": "had eaten"
+          },
+          {
+            "s": "You should not ____ children fussy, because they may start to believe it.",
+            "cue": "call",
+            "a": "call"
+          },
+          {
+            "s": "My neighbour does not mind ____ a second meal for her son.",
+            "cue": "make",
+            "a": "making"
+          },
+          {
+            "s": "Jackson Boxer ____ that refusing food was a form of power, and he stopped taking it personally.",
+            "cue": "realise",
+            "a": "realised"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Tom Kerridge's way of dealing with hunger is to feed his son early.",
+          "a": "T",
+          "why": "The text says he gets food in front of Acey “before hunger turns into a request for whatever comes in the brightest wrapper.”"
+        },
+        {
+          "s": "Anna Jones always refuses to make a second meal for a child.",
+          "a": "F",
+          "why": "The text says she “cannot bring herself to send a child to bed hungry, so she does make alternatives.”"
+        },
+        {
+          "s": "Helen Goh and Marie Mitchell both think a child should know what is in her food.",
+          "a": "T",
+          "why": "Goh “tells her sons exactly what is in it” and Mitchell says a child who does not know “will never discover that she likes it.”"
+        },
+        {
+          "s": "Ravneet Gill's parents used sugar as a reward when she was a child.",
+          "a": "N",
+          "why": "The text says things went wrong for her as a child, but not how her parents used sugar."
+        },
+        {
+          "s": "All of Margot Henderson's children are under thirty.",
+          "a": "F",
+          "why": "The text says her children are “in their late twenties and thirties.”"
+        }
+      ],
+      "pre": [
+        {
+          "t": "reassuring",
+          "d": "making you feel less worried"
+        },
+        {
+          "t": "striking",
+          "d": "very clear and surprising, so that you notice it"
+        },
+        {
+          "t": "strategy",
+          "d": "a plan for getting what you want"
+        },
+        {
+          "t": "wrapper",
+          "d": "the paper or plastic around a sweet or snack"
+        },
+        {
+          "t": "deliberately",
+          "d": "on purpose"
+        },
+        {
+          "t": "labelled",
+          "d": "described with a word that stays attached to you"
+        },
+        {
+          "t": "alternatives",
+          "d": "other things you can choose instead"
+        },
+        {
+          "t": "harm",
+          "d": "to hurt or damage someone"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs have a meaning you cannot guess from the two words, so learn the whole verb. The same verb with a different small word means something new: give in, give up.",
+        "items": [
+          {
+            "s": "Parents who ____ in to every complaint end up cooking three different meals.",
+            "a": "give"
+          },
+          {
+            "s": "She was ____ up by a grandmother who never let anyone leave the table hungry.",
+            "a": "brought"
+          },
+          {
+            "s": "Many toddlers ____ down new foods at first, but they often change their minds.",
+            "a": "turn"
+          },
+          {
+            "s": "Parents often ____ off introducing a new food, afraid of another refusal.",
+            "a": "put"
+          },
+          {
+            "s": "Meals can ____ wrong when a tired child is hungry and a tired parent is in a hurry.",
+            "a": "go"
+          }
+        ],
+        "extra": [
+          "pick",
+          "hand"
+        ]
+      }
     },
-    {
-     "t": "grates",
-     "d": "rubs food into small pieces with a metal tool"
-    },
-    {
-     "t": "treat",
-     "d": "something nice that you do not get every day"
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Telling parents that some children simply choose to be fussy rests on a ____ that the chefs reject.",
+            "a": "premise"
+          },
+          {
+            "s": "Her ____ wisdom about family dinners came only after years of tearful standoffs at the table.",
+            "a": "hard-won"
+          },
+          {
+            "s": "The review raised ____ concerns: with the records incomplete, how could anyone know the cause?",
+            "a": "epistemic"
+          },
+          {
+            "s": "Texture is an important ____ of whether a child accepts a food, quite apart from its taste.",
+            "a": "component"
+          },
+          {
+            "s": "Her ____ to the new rule was not that it cost money but that nobody had been asked about it.",
+            "a": "objection"
+          },
+          {
+            "s": "Interviews with twelve friends are too small a ____ to say anything about a whole country.",
+            "a": "sample"
+          }
+        ],
+        "extra": [
+          "ego",
+          "appetite"
+        ]
+      },
+      "match": [
+        {
+          "t": "irrelevant",
+          "d": "not connected with the matter being discussed"
+        },
+        {
+          "t": "premise",
+          "d": "an idea that an argument is built on"
+        },
+        {
+          "t": "instructive",
+          "d": "teaching you something useful"
+        },
+        {
+          "t": "admission",
+          "d": "a statement that something is true, often made reluctantly"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Active ____ in meal preparation often makes children more willing to taste new foods.",
+            "cue": "PARTICIPATE",
+            "a": "participation"
+          },
+          {
+            "s": "The two parents' approaches differ in style but are ____ the same.",
+            "cue": "ESSENCE",
+            "a": "essentially"
+          },
+          {
+            "s": "The newspaper printed a ____ the next day after getting the chef's name wrong.",
+            "cue": "CORRECT",
+            "a": "correction"
+          },
+          {
+            "s": "Some doctors face an ____ dilemma when a patient asks them to hide the truth.",
+            "cue": "ETHICS",
+            "a": "ethical"
+          },
+          {
+            "s": "Her ____ to eat anything green left her father at his wits' end.",
+            "cue": "REFUSE",
+            "a": "refusal"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Marie Mitchell and Helen Goh both reject hiding vegetables, but not for the same reason.",
+          "a": "T",
+          "why": "Goh does not want food to become “a trick”, while Mitchell's objection is that a child who never knows what she ate “cannot learn what she likes.”"
+        },
+        {
+          "s": "According to the article, Anna Jones's eldest son began eating widely after he learned about nutrition.",
+          "a": "F",
+          "why": "The text says it followed Japanese food entering his imagination “through stories about ninjas.”"
+        },
+        {
+          "s": "Tom Kerridge's son eats a wider range of food than most ten-year-olds.",
+          "a": "N",
+          "why": "The text says only that “His own son eats well”, with no comparison to other children."
+        },
+        {
+          "s": "The writer treats the nine households as a representative sample of parents.",
+          "a": "F",
+          "why": "The text calls them “nine individual households” and “none of them a sample.”"
+        },
+        {
+          "s": "Jackson Boxer and Rosie Birkett both had to separate their own feelings from their children's refusals.",
+          "a": "T",
+          "why": "Boxer stopped taking refusal personally, and Birkett “had to separate her ego from what they were asking for.”"
+        }
+      ],
+      "pre": [
+        {
+          "t": "boundary",
+          "d": "a limit that shows where one person's choices end and another's begin"
+        },
+        {
+          "t": "ownership",
+          "d": "the feeling that something is yours and you control it"
+        },
+        {
+          "t": "nutritional",
+          "d": "connected with the substances in food that help the body to stay healthy"
+        },
+        {
+          "t": "food-literate",
+          "d": "knowing a lot about food and how to cook it"
+        },
+        {
+          "t": "insight",
+          "d": "a deep and useful understanding of something"
+        },
+        {
+          "t": "dietary",
+          "d": "connected with what a person eats and drinks"
+        },
+        {
+          "t": "logistics",
+          "d": "the practical details of organising something"
+        },
+        {
+          "t": "imagination",
+          "d": "the ability to picture things that are not in front of you"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "At this level, learn phrasal verbs that carry a formal or abstract meaning, such as rule out, single out and boil down to. Check whether the verb needs an object and where it goes.",
+        "items": [
+          {
+            "s": "Experts cannot ____ out the possibility that early exposure to bitter flavours shapes later taste.",
+            "a": "rule"
+          },
+          {
+            "s": "The report ____ out one family for praise and ignored the other eight.",
+            "a": "singled"
+          },
+          {
+            "s": "Nothing she tried could ____ about a change in his eating until he started helping to cook.",
+            "a": "bring"
+          },
+          {
+            "s": "The advice ultimately ____ down to one rule: do not turn mealtimes into a battle.",
+            "a": "boils"
+          },
+          {
+            "s": "Her claim is not ____ up by any evidence, only by anecdote.",
+            "a": "backed"
+          }
+        ],
+        "extra": [
+          "hand",
+          "put"
+        ]
+      }
     }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "It ____ to professional chefs too.",
-      "cue": "happen",
-      "a": "happens"
-     },
-     {
-      "s": "The Guardian ____ nine cooks and food writers what they feed their own families.",
-      "cue": "ask",
-      "a": "asked"
-     },
-     {
-      "s": "If he puts a chopped apple on the table, it ____.",
-      "cue": "eat",
-      "a": "gets eaten"
-     },
-     {
-      "s": "She ____ it a treat.",
-      "cue": "call",
-      "a": "does not call"
-     },
-     {
-      "s": "Jackson Boxer ____ four children, and he had to learn not to take refusals personally.",
-      "cue": "have",
-      "a": "has"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Tom Kerridge does not believe parents who say their children eat beetroot and feta salad.",
-     "a": "T",
-     "why": "The text says: “He does not believe the parents who say their children happily eat beetroot and feta salad.”"
-    },
-    {
-     "s": "Helen Goh hides vegetables without telling her children.",
-     "a": "F",
-     "why": "The text says the opposite: “Helen Goh grates courgette into pasta sauce, but she always tells her sons it is in there.”"
-    },
-    {
-     "s": "Ravneet Gill does not describe sugar as a treat.",
-     "a": "T",
-     "why": "The text says: “She does not call it a treat.”"
-    },
-    {
-     "s": "Most of the nine cooks eat with their children every day.",
-     "a": "N",
-     "why": "Not stated. The text describes several approaches but says nothing about how often they eat together."
-    }
-   ]
   },
-  "intermediate": {
-   "gap": {
-    "items": [
-     {
-      "s": "A theme runs through several of the accounts: ____.",
-      "a": "involvement"
-     },
-     {
-      "s": "describes a version of the same idea as giving her five-year-old ____.",
-      "a": "agency"
-     },
-     {
-      "s": "Two of them push back firmly on a popular ____.",
-      "a": "tactic"
-     },
-     {
-      "s": "offers the most ____ observation of all",
-      "a": "consoling"
-     },
-     {
-      "s": "What almost nobody offers is a ____.",
-      "a": "method"
-     }
+  "speak": {
+    "title": "Role-play: to hide it or to tell her?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the parent who wants to hide it",
+      "text": "Your four-year-old will not eat vegetables. You want to grate courgette into the pasta sauce and say nothing. Explain why, and try to agree on a plan."
+    },
+    "b": {
+      "role": "the parent who wants to tell her",
+      "text": "You think your daughter should know what is in her food. Explain why, listen to your partner, and try to agree on a plan you both like."
+    },
+    "phrases": [
+      "I'd rather not tell her.",
+      "That's a good point, but I'm not sure it's fair.",
+      "She won't learn what she likes if she never knows.",
+      "What if she refuses it?",
+      "How about we try both ways?",
+      "I think we're worrying too much."
     ],
-    "extra": [
-     "wrapper",
-     "celery"
-    ]
-   },
-   "match": [
-    {
-     "t": "agency",
-     "d": "the power to make your own choices"
-    },
-    {
-     "t": "tactic",
-     "d": "a particular way of trying to achieve something"
-    },
-    {
-     "t": "consoling",
-     "d": "making someone feel less unhappy"
-    },
-    {
-     "t": "dismissing",
-     "d": "treating something as not worth considering"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "and the ____ of the answers is the most striking thing about them.",
-      "cue": "HONEST",
-      "a": "honesty"
-     },
-     {
-      "s": "His ten-year-old son, Acey, trains hard and burns energy ____",
-      "cue": "CONSTANT",
-      "a": "constantly"
-     },
-     {
-      "s": "Ravneet Gill ____ refuses to frame sugar as a treat",
-      "cue": "DELIBERATE",
-      "a": "deliberately"
-     },
-     {
-      "s": "so she does make ____, while Mitchell and Rosie Birkett mostly do not.",
-      "cue": "ALTERNATE",
-      "a": "alternatives"
-     },
-     {
-      "s": "Birkett says ____ is nearly always a phase",
-      "cue": "PICKY",
-      "a": "pickiness"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Nine chefs and food writers were asked about their own children.",
-     "a": "T",
-     "why": "The text says: “The Guardian's Mina Holland asked nine chefs and food writers what their own children eat at home, and the honesty of the answers is the most striking thing about them.”"
-    },
-    {
-     "s": "All of the cooks refuse to make a separate meal for a child.",
-     "a": "F",
-     "why": "The text says the opposite: “Anna Jones admits she cannot bring herself to send a child to bed hungry, so she does make alternatives, while Mitchell and Rosie Birkett mostly do not.”"
-    },
-    {
-     "s": "Helen Goh tells her sons exactly what is in the food.",
-     "a": "T",
-     "why": "The text says: “Helen Goh cooks onions, carrots and celery into a base and grates courgette until it melts away, but she tells her sons exactly what is in it.”"
-    },
-    {
-     "s": "The chefs' children are healthier than average.",
-     "a": "N",
-     "why": "Not stated. The text reports what the children eat but makes no comparison with anybody else."
-    }
-   ]
-  },
-  "advanced": {
-   "gap": {
-    "items": [
-     {
-      "s": "is that technique is close to ____.",
-      "a": "irrelevant"
-     },
-     {
-      "s": "Tom Kerridge sets the tone by refusing the ____ that some children are simply good eaters.",
-      "a": "premise"
-     },
-     {
-      "s": "Where they disagree is more ____ than where they agree.",
-      "a": "instructive"
-     },
-     {
-      "s": "Mitchell's objection is ____, since a child who never knows what she ate cannot learn what she likes.",
-      "a": "epistemic"
-     },
-     {
-      "s": "These are nine individual households, several of them unusually food-literate and none of them a ____.",
-      "a": "sample"
-     }
-    ],
-    "extra": [
-     "logistics",
-     "ego"
-    ]
-   },
-   "match": [
-    {
-     "t": "irrelevant",
-     "d": "not connected with the matter being discussed"
-    },
-    {
-     "t": "premise",
-     "d": "an idea that an argument is built on"
-    },
-    {
-     "t": "instructive",
-     "d": "teaching you something useful"
-    },
-    {
-     "t": "admission",
-     "d": "a statement that something is true, often made reluctantly"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "on the reasonable theory that ____ changes the relationship to the plate.",
-      "cue": "PARTICIPATE",
-      "a": "participation"
-     },
-     {
-      "s": "Marie Mitchell describes the boundary ____",
-      "cue": "PRECISE",
-      "a": "precisely"
-     },
-     {
-      "s": "Appetite, in other words, has a cultural component long before it has a ____ one.",
-      "cue": "NUTRITION",
-      "a": "nutritional"
-     },
-     {
-      "s": "is rejected by two of them on grounds that are essentially ____.",
-      "cue": "ETHICS",
-      "a": "ethical"
-     },
-     {
-      "s": "who feeds four children with barely ____ preferences.",
-      "cue": "OVERLAP",
-      "a": "overlapping"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The writer says the difficulty is social rather than technical.",
-     "a": "T",
-     "why": "The text says: “The difficulty they describe is social, and most of their hard-won insight concerns their own behaviour rather than their children's.”"
-    },
-    {
-     "s": "The article offers the chefs' accounts as dietary advice.",
-     "a": "F",
-     "why": "The text says the opposite: “None of this is dietary advice, and it should not be mistaken for it.”"
-    },
-    {
-     "s": "Two of the cooks reject hiding vegetables.",
-     "a": "T",
-     "why": "The text says: “Hiding vegetables, a tactic many parents rely on, is rejected by two of them on grounds that are essentially ethical.”"
-    },
-    {
-     "s": "Most parents in the UK hide vegetables in their children's food.",
-     "a": "N",
-     "why": "Not stated. The text calls it a tactic many parents rely on but gives no figures."
-    }
-   ]
+    "after": "Tell the class what you agreed, and whether either of you changed your mind."
   }
- }
 }

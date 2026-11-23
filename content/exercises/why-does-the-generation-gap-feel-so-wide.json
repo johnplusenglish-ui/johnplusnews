@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "They simply have a ____.",
-            "a": "different habit"
+            "s": "A friend who often pays for everyone's coffee is very ____.",
+            "a": "generous"
           },
           {
-            "s": "There is an easy word for this: ____.",
-            "a": "generation"
-          },
-          {
-            "s": "A ____ about age can land on anyone.",
-            "a": "stereotype"
-          },
-          {
-            "s": "A habit is not a ____, though.",
+            "s": "Being shy is part of a person's ____, not just a habit.",
             "a": "personality"
           },
           {
-            "s": "In a European survey in 2023, 45% of people thought age discrimination was ____.",
-            "a": "widespread"
+            "s": "Loud music late at night can ____ your neighbours.",
+            "a": "annoy"
+          },
+          {
+            "s": "Treating someone worse because of their age is age ____.",
+            "a": "discrimination"
+          },
+          {
+            "s": "A ____ about old people can hurt someone who is not like that at all.",
+            "a": "stereotype"
           }
         ],
         "extra": [
-          "explanation",
-          "technology"
+          "argument",
+          "careless"
         ]
       },
       "match": [
@@ -98,36 +98,109 @@
           "s": "In the 2023 European survey, 52% said age was the main thing that could count against someone applying for a job.",
           "a": "T",
           "why": "The text says: \"52% said age was the main thing that could count against someone applying for a job.\""
+        },
+        {
+          "s": "The grandson thinks phoning everyone is a good use of time.",
+          "a": "F",
+          "why": "The text says he thinks his grandmother is \"wasting an afternoon\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "rude",
+          "d": "not polite"
+        },
+        {
+          "t": "wasting",
+          "d": "using time or money badly"
+        },
+        {
+          "t": "genuine",
+          "d": "real, not pretend"
+        },
+        {
+          "t": "patient",
+          "d": "able to wait calmly without getting angry"
+        },
+        {
+          "t": "hide",
+          "d": "to stop something from being seen or known"
+        },
+        {
+          "t": "economy",
+          "d": "the money system of a country, with its jobs and businesses"
+        },
+        {
+          "t": "separate",
+          "d": "to see two things as different and not mixed together"
+        },
+        {
+          "t": "prefer",
+          "d": "to like one thing more than another"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Ask what the link does: a reason, a result, a surprise, a condition or a contrast.",
+        "items": [
+          {
+            "s": "The grandmother phones everyone ____ she thinks a call is more polite.",
+            "a": "because"
+          },
+          {
+            "s": "____ he is very kind, he sometimes forgets to reply.",
+            "a": "Although"
+          },
+          {
+            "s": "Nobody answered the message, ____ the family still had no plan.",
+            "a": "so"
+          },
+          {
+            "s": "Some older people love social networks. ____, many young people use them far more.",
+            "a": "However"
+          },
+          {
+            "s": "You cannot know how a person likes to work ____ you ask them.",
+            "a": "unless"
+          }
+        ],
+        "extra": [
+          "despite",
+          "instead"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "People at a particular ____ have different amounts of free time and responsibility.",
-            "a": "life stage"
+            "s": "The company changed its ____ process so that candidates of any age were treated alike.",
+            "a": "recruitment"
           },
           {
-            "s": "A 2023 European survey found that 45% of people believed age discrimination was ____.",
-            "a": "widespread"
+            "s": "Poor internet access can ____ students who live far from a city.",
+            "a": "disadvantage"
           },
           {
-            "s": "They carry an ____ that everyone lived through the same decades in the same way.",
-            "a": "assumption"
+            "s": "The report was based on ____ evidence, not on opinion.",
+            "a": "solid"
           },
           {
-            "s": "Two colleagues who assume they have nothing ____ because of a birth year will probably stop looking.",
-            "a": "in common"
+            "s": "The inspector checked the building ____ before she signed the report.",
+            "a": "thoroughly"
           },
           {
-            "s": "The categories mixed up age, career stage and ____ so thoroughly that decisions based on them were unlikely to be sound.",
-            "a": "historical change"
+            "s": "The same rule cannot be ____ to every country.",
+            "a": "applied"
+          },
+          {
+            "s": "Several television ____ about road safety appeared this year.",
+            "a": "campaigns"
           }
         ],
         "extra": [
-          "recruitment",
-          "responsibility"
+          "categories",
+          "stage"
         ]
       },
       "match": [
@@ -149,85 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "It means age is one ____ among many.",
-            "cue": "EXPLAIN",
-            "a": "explanation"
+            "s": "By the time the meeting started, one colleague ____ that it was unnecessary.",
+            "cue": "decide",
+            "a": "had decided"
           },
           {
-            "s": "They carry an ____ that everyone lived through the same decades in the same way.",
-            "cue": "ASSUME",
-            "a": "assumption"
+            "s": "Some companies ____ generation labels for years.",
+            "cue": "use",
+            "a": "have used"
           },
           {
-            "s": "52% named age as the main characteristic that could disadvantage a candidate during ____.",
-            "cue": "RECRUIT",
-            "a": "recruitment"
+            "s": "A manager should ____ people as individuals.",
+            "cue": "treat",
+            "a": "treat"
           },
           {
-            "s": "None of this means age is ____.",
-            "cue": "RELEVANT",
-            "a": "irrelevant"
+            "s": "If two colleagues stop talking, they ____ the real problem.",
+            "cue": "miss",
+            "a": "will miss"
           },
           {
-            "s": "Both think the other has ____ how work is supposed to happen.",
-            "cue": "UNDERSTAND",
-            "a": "misunderstood"
+            "s": "Eurostat's figures ____ in many articles last year.",
+            "cue": "quote",
+            "a": "were quoted"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The US National Academies review concluded that generational categories were not useful for managing staff.",
+          "s": "According to the National Academies review, managers should not rely on generational categories.",
           "a": "T",
-          "why": "The text says: \"A 2020 evidence review by the US National Academies examined whether generational categories were useful for managing staff and concluded that they were not.\""
+          "why": "The review concluded that decisions based on them were \"unlikely to be sound\"."
         },
         {
-          "s": "The familiar generation labels were originally developed in Europe.",
+          "s": "The generation names were created to describe people in Spain, Ukraine and Argentina.",
           "a": "F",
-          "why": "The text says the opposite: \"The familiar generation names grew out of American history, with its own wars, economic cycles and cultural moments.\""
+          "why": "The text says the names \"grew out of American history\"."
         },
         {
-          "s": "Social network use among older people in the EU is falling.",
+          "s": "Eurostat also asked young people which social network they used most.",
           "a": "N",
-          "why": "Not stated. The text gives one figure for the population aged 16 to 74 and does not say whether it is rising or falling."
+          "why": "The text gives only the share who used social networks, not which ones."
         },
         {
-          "s": "Age discrimination affects younger applicants as well as older ones.",
+          "s": "The share of people using social networks was more than 20 percentage points higher among 16 to 29 year olds than among 16 to 74 year olds.",
           "a": "T",
-          "why": "The text says: \"That pressure falls on the youngest applicants as well as the oldest.\""
+          "why": "89.3% minus 67.3% is 22 percentage points."
+        },
+        {
+          "s": "The text says age discrimination when applying for jobs affects only older applicants.",
+          "a": "F",
+          "why": "It says the pressure falls \"on the youngest applicants as well as the oldest\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "labels",
+          "d": "words used to describe a group of people"
+        },
+        {
+          "t": "invented",
+          "d": "made up for the first time"
+        },
+        {
+          "t": "constantly",
+          "d": "all the time, again and again"
+        },
+        {
+          "t": "examined",
+          "d": "looked at very carefully"
+        },
+        {
+          "t": "sound",
+          "d": "sensible and based on good reasons"
+        },
+        {
+          "t": "rarely",
+          "d": "not often"
+        },
+        {
+          "t": "candidate",
+          "d": "a person who is trying to get a job"
+        },
+        {
+          "t": "damage",
+          "d": "harm that makes something worse"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Decide whether the gap shows contrast, a warning or an addition, then check the punctuation around it.",
+        "items": [
+          {
+            "s": "Writers use the labels freely, ____ researchers are far more careful.",
+            "a": "whereas"
+          },
+          {
+            "s": "____ the clear difference in online habits, age does not explain character.",
+            "a": "Despite"
+          },
+          {
+            "s": "Managers should ask each person what they need. ____, they will rely on stereotypes.",
+            "a": "Otherwise"
+          },
+          {
+            "s": "Younger people are online more. ____, that alone does not show why.",
+            "a": "Nevertheless"
+          },
+          {
+            "s": "The labels often mislead. ____, they can affect who gets a job.",
+            "a": "Moreover"
+          }
+        ],
+        "extra": [
+          "unless",
+          "hence"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Only a genuine ____ effect belongs durably to those born in a particular stretch of years.",
-            "a": "cohort"
+            "s": "The team's findings were ____, but they proved reliable.",
+            "a": "unglamorous"
           },
           {
-            "s": "It is easy to ____ from one irritating colleague to an entire decade of births.",
-            "a": "overgeneralise"
+            "s": "A confident tone can ____ how thin the evidence actually is.",
+            "a": "conceal"
           },
           {
-            "s": "Popular generational categories tend to blur age, career stage, ____ and individual experience.",
-            "a": "historical context"
+            "s": "Headlines often ____ the line between correlation and cause.",
+            "a": "blur"
           },
           {
-            "s": "The survey found a ____ that penalises the very young alongside the old.",
-            "a": "perception"
+            "s": "A rule that ____ part-time workers for taking leave was struck down.",
+            "a": "penalises"
           },
           {
-            "s": "Any birth cohort contains people separated by income, education, city, health and ____.",
+            "s": "____ the effect of diet from that of exercise requires a carefully controlled study.",
+            "a": "Isolating"
+          },
+          {
+            "s": "Siblings raised in the same house often differ sharply in ____.",
             "a": "temperament"
           }
         ],
         "extra": [
-          "variation",
-          "shorthand"
+          "narrate",
+          "variation"
         ]
       },
       "match": [
@@ -252,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The ____ is filed under a birth year.",
-            "cue": "AGREE",
-            "a": "disagreement"
+            "s": "Researchers were ____ to draw firm conclusions from a single survey.",
+            "cue": "RELUCTANCE",
+            "a": "reluctant"
           },
           {
-            "s": "What they conceal is the size of the ____ inside each group.",
-            "cue": "VARY",
-            "a": "variation"
+            "s": "The sample was too small to be ____ of the whole population.",
+            "cue": "REPRESENT",
+            "a": "representative"
           },
           {
-            "s": "That is a reasonable warning against treating any of it as ____.",
-            "cue": "UNIVERSE",
-            "a": "universal"
+            "s": "Oversimplified explanations are often ____ attractive because they are quick.",
+            "cue": "DECEIVE",
+            "a": "deceptively"
           },
           {
-            "s": "It has quietly discarded almost everything that made the individual ____.",
-            "cue": "PREDICT",
-            "a": "predictable"
+            "s": "Her ____ to accept simple labels annoyed her colleagues.",
+            "cue": "WILLING",
+            "a": "unwillingness"
           },
           {
-            "s": "The cost of the shorthand is ____.",
-            "cue": "MEASURE",
-            "a": "measurable"
+            "s": "The study highlighted the ____ of generalising from a single decade.",
+            "cue": "RELIABLE",
+            "a": "unreliability"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Period effects are described as reaching everyone at the same time.",
+          "s": "The writer would agree that a person's birth year tells you little about their income or health.",
           "a": "T",
-          "why": "The text says: \"Period effects reach everyone at once, as a pandemic or a new platform does.\""
+          "why": "Differences within a cohort are \"usually larger than the average gap\" between cohorts."
         },
         {
-          "s": "Differences within a birth cohort are usually smaller than the differences between cohorts.",
+          "s": "The writer treats the Eurostat figures as proof that generational stereotypes are accurate.",
           "a": "F",
-          "why": "The text says the opposite: \"those differences are usually larger than the average gap between one cohort and the next\""
+          "why": "The writer calls it a difficulty when \"a measured behaviour is promoted into a personality\"."
         },
         {
-          "s": "The 2020 review recommended a new set of labels to replace generational categories.",
+          "s": "The National Academies review recommended replacing generational categories with age bands.",
           "a": "N",
-          "why": "Not stated. The text reports what the review concluded about the existing categories, not what it proposed instead."
+          "why": "The text gives its conclusion but no recommended alternative."
         },
         {
-          "s": "A 2023 European survey found that 45% of respondents considered age discrimination widespread.",
+          "s": "The article would classify the effect of a new platform used by every age group as a period effect, not a cohort effect.",
           "a": "T",
-          "why": "The text says: \"A 2023 European survey found 45% of respondents considered age discrimination widespread\""
+          "why": "Period effects \"reach everyone at once, as a pandemic or a new platform does\"."
+        },
+        {
+          "s": "The article suggests generational labels last mainly because strong evidence supports them.",
+          "a": "F",
+          "why": "It says they survive \"partly because they are convenient and partly because they sell\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "durably",
+          "d": "in a way that lasts a long time"
+        },
+        {
+          "t": "shorthand",
+          "d": "a quick way of saying something that leaves out detail"
+        },
+        {
+          "t": "discarded",
+          "d": "thrown away or ignored as not useful"
+        },
+        {
+          "t": "universal",
+          "d": "true or found everywhere"
+        },
+        {
+          "t": "predictable",
+          "d": "easy to guess in advance"
+        },
+        {
+          "t": "permitted",
+          "d": "allowed"
+        },
+        {
+          "t": "commentary",
+          "d": "opinions about events, such as in newspapers"
+        },
+        {
+          "t": "promoted",
+          "d": "moved up to a more important position or role"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Check the grammar after the gap and the logic between the ideas: concession, contrast or result.",
+        "items": [
+          {
+            "s": "The gap is real, ____ smaller than the headlines suggest.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ the popularity of the labels, the evidence for them is thin.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "Marketing teams treat the cohort as uniform, ____ sociologists stress its internal variety.",
+            "a": "whereas"
+          },
+          {
+            "s": "Some argue that labels simplify debate. ____, they may simply make people expect less of one another.",
+            "a": "Conversely"
+          },
+          {
+            "s": "The sample was small; ____, its conclusions should be treated with caution.",
+            "a": "accordingly"
+          }
+        ],
+        "extra": [
+          "insofar",
+          "thereby"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: planning a weekend away",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the grandmother",
+      "text": "You want to plan a family weekend away. You prefer to phone people and talk. Ask your grandson to join a call tonight. Listen to his reasons and agree on a way to plan."
+    },
+    "b": {
+      "role": "the grandson",
+      "text": "You prefer to send one message to the group chat. Explain why this works for you. Say what you don't like about long phone calls, then look for a fair solution."
+    },
+    "phrases": [
+      "I'd rather talk on the phone, if that's okay.",
+      "I didn't mean to upset you.",
+      "It's quicker for me to send a message.",
+      "Let's try it your way first.",
+      "How would you prefer to arrange this?",
+      "Could we do both, a message and then a call?"
+    ],
+    "after": "Afterwards, tell the class: what did you agree, and was the compromise fair to both sides?"
   }
 }

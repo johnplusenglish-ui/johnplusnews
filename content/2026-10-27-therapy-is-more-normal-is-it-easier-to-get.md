@@ -7,6 +7,7 @@ source: British Association for Counselling and Psychotherapy, public perception
 image: images/therapy-is-more-normal-is-it-easier-to-get-9fd74b.jpg
 image-alt: A woman in a yellow shirt talks with her hands in an armchair while a therapist in a green cardigan listens, a notebook and pen on her lap.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You can have Fridays off and ____.",
-            "a": "take home the same pay"
+            "s": "Many small shops cannot ____ to pay for extra staff.",
+            "a": "afford"
           },
           {
-            "s": "Companies ____ ways to work more efficiently.",
-            "a": "looked for"
+            "s": "Some workers feel ____ to finish five days of work in four.",
+            "a": "pressure"
           },
           {
-            "s": "They ____ unnecessary meetings before the trial began.",
-            "a": "cut down on"
+            "s": "The manager wanted clear ____ before she changed the timetable.",
+            "a": "evidence"
           },
           {
-            "s": "Employees reported improvements in ____ and mental health.",
-            "a": "job satisfaction"
+            "s": "Many people get great job ____ from helping customers.",
+            "a": "satisfaction"
           },
           {
-            "s": "A shorter week should not make people ____ every task.",
-            "a": "rush through"
+            "s": "Free lunch is one of the ____ of working for that company.",
+            "a": "benefits"
           }
         ],
         "extra": [
-          "flexible",
-          "stressful"
+          "pension",
+          "workload"
         ]
       },
       "match": [
@@ -52,86 +52,155 @@
         "kind": "verb",
         "items": [
           {
-            "s": "In 2025, researchers ____ the results of a large trial.",
-            "cue": "publish",
-            "a": "published"
+            "s": "Workers in six countries ____ a shorter week for six months.",
+            "cue": "try",
+            "a": "tried"
           },
           {
-            "s": "Would people feel pressure ____ five days of work in four?",
-            "cue": "complete",
-            "a": "to complete"
+            "s": "Employees ____ less burnout after the change.",
+            "cue": "report",
+            "a": "reported"
           },
           {
-            "s": "The workplaces tried shorter weeks without ____ pay.",
-            "cue": "reduce",
-            "a": "reducing"
+            "s": "The company ____ unnecessary meetings to save time.",
+            "cue": "cut",
+            "a": "cut"
           },
           {
-            "s": "They changed how tasks ____.",
-            "cue": "organise",
-            "a": "were organised"
-          },
-          {
-            "s": "The study ____ useful evidence but does not answer every problem.",
+            "s": "Last year my manager ____ me a free day for my birthday.",
             "cue": "give",
-            "a": "gives"
+            "a": "gave"
+          },
+          {
+            "s": "Many workers ____ much better after the trial.",
+            "cue": "feel",
+            "a": "felt"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Most trial companies kept the four-day week afterwards.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether the companies kept the four-day week after the trial."
-        },
-        {
-          "s": "The trial involved 2,896 employees at 141 organisations.",
+          "s": "The researchers compared the trial workplaces with a group that kept the same week.",
           "a": "T",
-          "why": "The text says: \"It involved 2,896 employees at 141 organisations in six countries, including Ireland and the UK.\""
+          "why": "The text says burnout was lower \"compared with a group of workplaces that did not introduce the same change\"."
         },
         {
-          "s": "Employees reported less burnout than the comparison group.",
-          "a": "T",
-          "why": "The text says: \"The researchers also found less burnout compared with a group of workplaces that did not introduce the same change.\""
-        },
-        {
-          "s": "Every job can be organised in the same way.",
+          "s": "Employees did the same number of hours in four days.",
           "a": "F",
-          "why": "The text says the opposite: \"But not every job can be organised in the same way.\""
+          "why": "The text says it meant \"fewer working hours, not the same hours squeezed into four days\"."
+        },
+        {
+          "s": "Most employees in the trial spent their free day with family.",
+          "a": "N",
+          "why": "The text says people might do many things but does not say what the trial workers did."
+        },
+        {
+          "s": "In a four-day week, everybody has to take the same day off.",
+          "a": "F",
+          "why": "The text says it \"does not have to mean the same day off for everybody\"."
+        },
+        {
+          "s": "Some businesses might need staff to work different days so they can stay open.",
+          "a": "T",
+          "why": "The text says shops, clinics and restaurants might need staff on more flexible schedules."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "trial",
+          "d": "a test of a new idea to see if it works"
+        },
+        {
+          "t": "burnout",
+          "d": "feeling very tired and unwell because of too much work"
+        },
+        {
+          "t": "efficiently",
+          "d": "without wasting time or effort"
+        },
+        {
+          "t": "participating",
+          "d": "taking part in something"
+        },
+        {
+          "t": "schedules",
+          "d": "plans that say when things happen"
+        },
+        {
+          "t": "genuinely",
+          "d": "really, in a true way"
+        },
+        {
+          "t": "employers",
+          "d": "people or companies that give others jobs"
+        },
+        {
+          "t": "squeezed",
+          "d": "pushed into a space that is too small"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some linking words need a short idea after them, and some join two ideas. Look at the commas and the meaning.",
+        "items": [
+          {
+            "s": "Sara was happy ____ she finished work early.",
+            "a": "because"
+          },
+          {
+            "s": "____ the plan is popular, some bosses still dislike it.",
+            "a": "Although"
+          },
+          {
+            "s": "____ you work four days, you may feel less tired.",
+            "a": "If"
+          },
+          {
+            "s": "Many workers love the idea. ____, shops still need staff every day.",
+            "a": "However"
+          },
+          {
+            "s": "____ the meeting started, everyone had a coffee.",
+            "a": "Before"
+          }
+        ],
+        "extra": [
+          "despite",
+          "instead"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Employees need a ____, not just a new timetable.",
-            "a": "realistic workload"
+            "s": "After the complaints, the board agreed to ____ its decision.",
+            "a": "reconsider"
           },
           {
-            "s": "Squeezing forty hours into four ____ days is different.",
-            "a": "exhausting"
+            "s": "Despite the cuts, the firm ____ its high standards.",
+            "a": "maintained"
           },
           {
-            "s": "Reducing hours could mean ____ additional employees.",
-            "a": "taking on"
+            "s": "____ lunch breaks stop the canteen from getting too crowded.",
+            "a": "Staggered"
           },
           {
-            "s": "Businesses operating across seven days may need ____ shifts.",
-            "a": "staggered"
+            "s": "A single score cannot ____ how employees really feel about their jobs.",
+            "a": "capture"
           },
           {
-            "s": "The study stops short of proof, but it provides ____ evidence that five days is not the only model.",
-            "a": "substantial"
+            "s": "Higher ____ for tickets meant the railway ran extra trains.",
+            "a": "demand"
           },
           {
-            "s": "Staff should not be expected to ____ at night.",
-            "a": "catch up"
+            "s": "Setting a ____ deadline helps staff avoid unnecessary stress.",
+            "a": "realistic"
           }
         ],
         "extra": [
-          "sort out",
-          "narrow"
+          "distribute",
+          "persistent"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Participants reported improvements in job ____.",
-            "cue": "SATISFY",
-            "a": "satisfaction"
+            "s": "By the time the trial ended, most firms ____ their meetings.",
+            "cue": "reduce",
+            "a": "had reduced"
           },
           {
-            "s": "The changes were not seen at the twelve ____ organisations.",
-            "cue": "COMPARE",
-            "a": "comparison"
+            "s": "The results ____ in a scientific journal last year.",
+            "cue": "publish",
+            "a": "were published"
           },
           {
-            "s": "Companies tried to improve ____ and cooperation before cutting the week.",
-            "cue": "EFFICIENT",
-            "a": "efficiency"
+            "s": "If the trial had been longer, shops ____ extra staff.",
+            "cue": "need",
+            "a": "would have needed"
           },
           {
-            "s": "An extra day could allow greater ____ in community life.",
-            "cue": "PARTICIPATE",
-            "a": "participation"
+            "s": "Several firms ____ their schedules since the study ended.",
+            "cue": "change",
+            "a": "have changed"
           },
           {
-            "s": "A successful policy would help companies distribute work ____.",
-            "cue": "FAIR",
-            "a": "fairly"
+            "s": "The small firm refused ____ extra staff.",
+            "cue": "hire",
+            "a": "to hire"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Twelve organisations that did not change their schedules were used for comparison.",
+          "s": "The researchers compared the results with organisations that kept their usual schedules.",
           "a": "T",
-          "why": "The text says: \"twelve comparison organisations that maintained their usual schedules.\""
+          "why": "The text mentions \"twelve comparison organisations that maintained their usual schedules\"."
         },
         {
-          "s": "The study proves every employer can raise productivity.",
+          "s": "All 141 organisations in the study were in the same country.",
           "a": "F",
-          "why": "The text says the opposite: \"The study does not prove that every employer can increase productivity while reducing time at work.\""
+          "why": "The text names six countries, from Australia to the United States."
         },
         {
-          "s": "Trade unions have called for a national four-day week.",
+          "s": "The participating organisations made higher profits during the trial.",
           "a": "N",
-          "why": "Not stated. The text does not mention trade unions or any national campaign."
+          "why": "The text discusses wellbeing but says nothing about profits."
         },
         {
-          "s": "Care workers and transport staff provide services across the week.",
+          "s": "The writer warns that the findings may not apply to every workplace.",
           "a": "T",
-          "why": "The text says: \"Care workers, transport staff and retailers provide services across the week, and reducing hours could mean taking on additional employees.\""
+          "why": "The text says the organisations \"had chosen to take part, so the results may not apply to every workplace\"."
+        },
+        {
+          "s": "Fitting forty hours into four long days counts as genuinely reducing working time.",
+          "a": "F",
+          "why": "The text says there is \"an important difference\" between the two."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "salary",
+          "d": "the money you receive for your job each month"
+        },
+        {
+          "t": "burnout",
+          "d": "feeling very tired and unwell because of too much work"
+        },
+        {
+          "t": "cooperation",
+          "d": "working together with other people"
+        },
+        {
+          "t": "wellbeing",
+          "d": "the state of being healthy and happy"
+        },
+        {
+          "t": "workload",
+          "d": "the amount of work you have to do"
+        },
+        {
+          "t": "retailers",
+          "d": "businesses that sell things to the public"
+        },
+        {
+          "t": "productivity",
+          "d": "how much work is done in a certain time"
+        },
+        {
+          "t": "carers",
+          "d": "people who look after someone who is old or ill"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Decide if the linking word shows contrast, result or condition. Then check what grammar follows it.",
+        "items": [
+          {
+            "s": "The trial was short. ____, the results were encouraging.",
+            "a": "Nevertheless"
+          },
+          {
+            "s": "The firm was small. ____, it could not afford to hire extra staff.",
+            "a": "Therefore"
+          },
+          {
+            "s": "Some employees enjoyed the change, ____ others found their workload heavier.",
+            "a": "whereas"
+          },
+          {
+            "s": "Staff will struggle ____ they receive enough support.",
+            "a": "unless"
+          },
+          {
+            "s": "____ the extra day off, many parents still struggled with childcare.",
+            "a": "Despite"
+          }
+        ],
+        "extra": [
+          "instead",
+          "provided"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Their experiences may not ____ every sector.",
-            "a": "translate directly to"
+            "s": "Her excitement about the promotion was ____ by the realisation that she would have to relocate.",
+            "a": "tempered"
           },
           {
-            "s": "Organisations often ended up ____ unnecessary meetings.",
-            "a": "doing away with"
+            "s": "Many gig workers lead a ____ existence, never sure of next month's income.",
+            "a": "precarious"
           },
           {
-            "s": "A sensible assessment must ____ enthusiastic testimonials.",
-            "a": "look beyond"
+            "s": "The brochure relied on glowing ____ from satisfied customers rather than hard data.",
+            "a": "testimonials"
           },
           {
-            "s": "The design matters as much as ____.",
-            "a": "its headline promise"
+            "s": "Despite the merger, the company ____ most of its key staff.",
+            "a": "retained"
           },
           {
-            "s": "Research on early adopters provides ____.",
-            "a": "a valuable starting point"
+            "s": "Volunteers will ____ a rigorous training programme before deployment.",
+            "a": "undertake"
           },
           {
-            "s": "The research is not an excuse to ____ shorter hours as unrealistic.",
-            "a": "write off"
+            "s": "Critics doubt whether the benefits will ____ once the novelty has worn off.",
+            "a": "persist"
           }
         ],
         "extra": [
-          "roll out",
-          "transferable"
+          "lucrative",
+          "obsolete"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Preventing workload ____ would be central to judging whether the model is genuine progress.",
-            "cue": "INTENSE",
-            "a": "intensification"
+            "s": "The ____ of the findings to emergency services is doubtful.",
+            "cue": "APPLICABLE",
+            "a": "applicability"
           },
           {
-            "s": "This was not simply a ____ week's workload in four days.",
-            "cue": "CONVENTION",
-            "a": "conventional"
+            "s": "The authors acknowledge several ____ in their design.",
+            "cue": "LIMIT",
+            "a": "limitations"
           },
           {
-            "s": "There are questions about ____.",
-            "cue": "EQUAL",
-            "a": "inequality"
+            "s": "Staff on short contracts often feel a deep sense of ____ about their income.",
+            "cue": "SECURE",
+            "a": "insecurity"
           },
           {
-            "s": "Preserving pay and ensuring ____ schedules would be central.",
-            "cue": "PREDICT",
-            "a": "predictable"
+            "s": "Early adopters spoke ____ about the change.",
+            "cue": "ENTHUSIASTIC",
+            "a": "enthusiastically"
           },
           {
-            "s": "The trials involved ____ participation by willing employers.",
-            "cue": "VOLUNTEER",
-            "a": "voluntary"
+            "s": "The ____ of the improvements is still unknown once the trial has ended.",
+            "cue": "SUSTAIN",
+            "a": "sustainability"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The study looked at a reduction in working hours lasting six months.",
+          "s": "The sample may not represent employers in general.",
           "a": "T",
-          "why": "The text says: \"examined a six-month reduction in working hours across 141 organisations\""
+          "why": "Participating organisations \"were willing to experiment\", so their experiences may not translate to every sector."
         },
         {
-          "s": "People who reduced hours more tended to report greater wellbeing gains.",
+          "s": "The biggest wellbeing gains were found among people who cut their hours the most.",
           "a": "T",
-          "why": "The text says: \"Individuals who reduced their hours more substantially tended to experience greater wellbeing gains, suggesting that time recovered outside work is an important part of the mechanism.\""
+          "why": "The text says individuals who reduced hours more \"tended to experience greater wellbeing gains\"."
         },
         {
-          "s": "Several governments have begun their own trials.",
-          "a": "N",
-          "why": "Not stated. The text does not mention any government trials."
-        },
-        {
-          "s": "The writer presents the four-day week as a universal prescription.",
+          "s": "The writer treats the trial as proof that shorter weeks suit every sector.",
           "a": "F",
-          "why": "The text says the opposite: \"The research is therefore neither a universal prescription nor an excuse to write off shorter working hours as unrealistic.\""
+          "why": "The text calls it \"neither a universal prescription\" nor an excuse to dismiss shorter hours."
+        },
+        {
+          "s": "The control companies later moved to shorter weeks themselves.",
+          "a": "N",
+          "why": "The text only says the twelve control companies were used for comparison."
+        },
+        {
+          "s": "The trial asked staff to fit a full week's workload into fewer days.",
+          "a": "F",
+          "why": "The text says \"This was not simply an instruction to deliver a conventional week's workload in four compressed days\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "intervention",
+          "d": "an action taken to change a situation"
+        },
+        {
+          "t": "collaboration",
+          "d": "working together with others to achieve something"
+        },
+        {
+          "t": "mechanism",
+          "d": "the way something works or produces a result"
+        },
+        {
+          "t": "workflows",
+          "d": "the order in which tasks are done in a job"
+        },
+        {
+          "t": "intensification",
+          "d": "the process of becoming stronger or more extreme"
+        },
+        {
+          "t": "prescription",
+          "d": "a fixed rule or plan about what should be done"
+        },
+        {
+          "t": "privilege",
+          "d": "a special advantage that only some people have"
+        },
+        {
+          "t": "headline",
+          "d": "the main, eye-catching claim about something"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some linkers join clauses, some sit at the start of a sentence, and some are formal. Check the punctuation and the logic.",
+        "items": [
+          {
+            "s": "____ the encouraging headlines, the sample was self-selected.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "Staff reported feeling better, ____ not necessarily producing more.",
+            "a": "albeit"
+          },
+          {
+            "s": "Office staff often gain flexibility. ____, shift workers frequently gain none.",
+            "a": "Conversely"
+          },
+          {
+            "s": "Pay was protected; ____, many workers backed the scheme.",
+            "a": "hence"
+          },
+          {
+            "s": "The model could succeed, ____ the savings are reinvested in staffing.",
+            "a": "provided"
+          }
+        ],
+        "extra": [
+          "namely",
+          "whereby"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a four-day week for our team",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the manager",
+      "text": "Your shop is open seven days a week. An employee wants to try a four-day week with the same pay. Ask at least two questions before you decide. You can say yes, no, or yes with a condition."
+    },
+    "b": {
+      "role": "the employee",
+      "text": "You'd like a four-day week with the same pay. Explain why it would help you and how the work will still get done. Suggest a trial."
+    },
+    "phrases": [
+      "I'd like to ask about a four-day week.",
+      "I'd still finish all my tasks.",
+      "Who'd look after the customers on that day?",
+      "We're open seven days a week, so that's a problem.",
+      "Could we try it for three months?",
+      "I'm happy to say yes if the results are good."
+    ],
+    "after": "Afterwards, tell the class: did the manager agree, and was the plan fair for the rest of the team?"
   }
 }

@@ -7,6 +7,7 @@ source: Eurostat, 89% of young people in the EU used social networks in 2025 | h
 image: images/why-does-the-generation-gap-feel-so-wide-8d811d.jpg
 image-alt: A young woman, a middle-aged man and an older woman lean together over a phone at a kitchen table, an open notebook and a bowl of oranges beside them.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

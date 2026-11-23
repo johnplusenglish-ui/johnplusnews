@@ -1,305 +1,541 @@
 {
- "slug": "is-it-time-to-stop-improving-everything",
- "levels": {
-  "core": {
-   "gap": {
-    "items": [
-     {
-      "s": "It is an ____ that you add to other words, and it means pushing something as far as it will go.",
-      "a": "ending"
-     },
-     {
-      "s": "the term appeared in mathematics as far back as the ____.",
-      "a": "1940s"
-     },
-     {
-      "s": "Health, sleep, friendships and habits are not tasks you ____.",
-      "a": "complete"
-     },
-     {
-      "s": "Breakfast became a ____.",
-      "a": "strategy"
-     },
-     {
-      "s": "Instead of pushing something to the ____, you do it less, or not at all.",
-      "a": "limit"
-     }
-    ],
-    "extra": [
-     "score",
-     "volume"
-    ]
-   },
-   "match": [
-    {
-     "t": "linguist",
-     "d": "someone who studies language"
+  "slug": "is-it-time-to-stop-improving-everything",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Not everybody is ____ with the new word, and some people have complained about it.",
+            "a": "pleased"
+          },
+          {
+            "s": "The ____ number of students in our classes is about twenty.",
+            "a": "average"
+          },
+          {
+            "s": "A good ____ to a problem is one that is simple and really works.",
+            "a": "solution"
+          },
+          {
+            "s": "The news ____ quickly, and by the evening everyone in the office had heard it.",
+            "a": "spread"
+          },
+          {
+            "s": "Brushing your teeth twice a day is one of my best ____.",
+            "a": "habits"
+          }
+        ],
+        "extra": [
+          "movement",
+          "ordinary"
+        ]
+      },
+      "match": [
+        {
+          "t": "linguist",
+          "d": "someone who studies language"
+        },
+        {
+          "t": "columnist",
+          "d": "a writer with a regular opinion piece in a newspaper"
+        },
+        {
+          "t": "optimise",
+          "d": "to make something as good as it can possibly be"
+        },
+        {
+          "t": "invent",
+          "d": "to think of something completely new"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Dictionary.com ____ “maxxing” as its word of the year for 2026.",
+            "cue": "choose",
+            "a": "chose|has chosen"
+          },
+          {
+            "s": "The columnist Polly Hudson ____ that we have reached maximum maxxing.",
+            "cue": "say",
+            "a": "says"
+          },
+          {
+            "s": "Players of Dungeons and Dragons ____ about min-maxing for years.",
+            "cue": "talk",
+            "a": "have talked"
+          },
+          {
+            "s": "By August, Dictionary.com ____ that people used the word 19 times as often as usual.",
+            "cue": "find",
+            "a": "found"
+          },
+          {
+            "s": "Ordinary things ____ projects.",
+            "cue": "become",
+            "a": "became"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Hudson's new word, minning, means doing something less, or not at all.",
+          "a": "T",
+          "why": "The text says: “you do it less, or not at all.”"
+        },
+        {
+          "s": "Jennifer Donnelly says that health is something you can finish improving.",
+          "a": "F",
+          "why": "The text says the opposite: “Health, sleep, friendships and habits are not tasks you complete.”"
+        },
+        {
+          "s": "Daria Bahtina has invented a maxxing word of her own.",
+          "a": "N",
+          "why": "Not stated. The text only says what Bahtina thinks about the pattern."
+        },
+        {
+          "s": "Bahtina says people understand a new maxxing word even if they have never heard it before.",
+          "a": "T",
+          "why": "The text says: “people will still know what you mean straight away.”"
+        },
+        {
+          "s": "The text says that Hudson's column has started a big movement.",
+          "a": "F",
+          "why": "The text says: “It is only a joke column, not a movement.”"
+        }
+      ],
+      "pre": [
+        {
+          "t": "limit",
+          "d": "the point where you cannot go any further"
+        },
+        {
+          "t": "connects",
+          "d": "joins or links to something else"
+        },
+        {
+          "t": "warned",
+          "d": "told someone that something bad might happen"
+        },
+        {
+          "t": "criticising",
+          "d": "saying what is bad about someone or something"
+        },
+        {
+          "t": "confident",
+          "d": "sure that you are right or that you can do something well"
+        },
+        {
+          "t": "tiredness",
+          "d": "the feeling when you need to sleep or rest"
+        },
+        {
+          "t": "pattern",
+          "d": "a way that something is done again and again"
+        },
+        {
+          "t": "score",
+          "d": "a number that shows how well you did"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Linking words join ideas. Use because for a reason, so for a result, but and however for a difference, and or for a choice.",
+        "items": [
+          {
+            "s": "Sleepmaxxing is popular ____ many people want to sleep well.",
+            "a": "because"
+          },
+          {
+            "s": "The ending is easy to copy, ____ new words appear every week.",
+            "a": "so"
+          },
+          {
+            "s": "It is only a joke, ____ the feeling behind it is real.",
+            "a": "but"
+          },
+          {
+            "s": "Some people enjoy tracking their sleep. ____, others find it tiring.",
+            "a": "However"
+          },
+          {
+            "s": "Would you like to improve your sleep ____ your breakfast?",
+            "a": "or"
+          }
+        ],
+        "extra": [
+          "if",
+          "unless"
+        ]
+      }
     },
-    {
-     "t": "columnist",
-     "d": "a writer with a regular opinion piece in a newspaper"
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Several airlines have ____ the same booking system, so passengers now see identical screens.",
+            "a": "adopted"
+          },
+          {
+            "s": "A price far below the competition usually ____ that something is wrong with the product.",
+            "a": "implies"
+          },
+          {
+            "s": "Advice that works for one person may be useless in other ____, such as when you work night shifts.",
+            "a": "circumstances"
+          },
+          {
+            "s": "The study found no ____ that the new timetable improved productivity.",
+            "a": "evidence"
+          },
+          {
+            "s": "The minister ____ the project a success before the results had been checked.",
+            "a": "declared"
+          },
+          {
+            "s": "Daily reminders on a phone can ____ people to build better routines.",
+            "a": "encourage"
+          }
+        ],
+        "extra": [
+          "weighs",
+          "attaches"
+        ]
+      },
+      "match": [
+        {
+          "t": "suffix",
+          "d": "an ending added to a word"
+        },
+        {
+          "t": "compelling",
+          "d": "interesting enough to hold your attention"
+        },
+        {
+          "t": "aspirational",
+          "d": "connected with wanting to achieve something better"
+        },
+        {
+          "t": "absurd",
+          "d": "completely unreasonable or silly"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The suffix ____ through online forums before it entered ordinary speech.",
+            "cue": "spread",
+            "a": "spread"
+          },
+          {
+            "s": "Before it became a trend, players of Dungeons and Dragons ____ the term for decades.",
+            "cue": "use",
+            "a": "had used|had been using"
+          },
+          {
+            "s": "Constant self-scoring ____ to criticism of yourself.",
+            "cue": "lead",
+            "a": "can lead|may lead|might lead|could lead"
+          },
+          {
+            "s": "Dictionary.com ____ its choice for 2026.",
+            "cue": "announce",
+            "a": "has announced"
+          },
+          {
+            "s": "Relationships ____ as projects by some trends, which is the problem.",
+            "cue": "treat",
+            "a": "are treated|are being treated"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Dictionary.com compared August 2026 with a 2025 monthly average to show how fast maxxing was growing.",
+          "a": "T",
+          "why": "The text says: “by August 2026 the term was appearing in digital media 19 times as often as its monthly average in 2025.”"
+        },
+        {
+          "s": "Kelly Wright believes maxxing will disappear because middle-aged people have adopted it.",
+          "a": "F",
+          "why": "The text says she suspects it will stay: “that usually kills the cool without killing the word.”"
+        },
+        {
+          "s": "Polly Hudson has stopped using maxxing words in her own life.",
+          "a": "N",
+          "why": "Not stated. The text describes her column but not her own habits."
+        },
+        {
+          "s": "Donnelly's concern is that the language treats parts of life as things that can be completed.",
+          "a": "T",
+          "why": "The text says: “The language implies an endpoint.”"
+        },
+        {
+          "s": "The text suggests the minning column was based on research into how many people have given up self-improvement.",
+          "a": "F",
+          "why": "The text says: “Minning is one writer's joke, not a trend anybody has measured.”"
+        }
+      ],
+      "pre": [
+        {
+          "t": "surveillance",
+          "d": "watching someone or something very closely, all the time"
+        },
+        {
+          "t": "customisable",
+          "d": "able to be changed to suit what you want"
+        },
+        {
+          "t": "endpoint",
+          "d": "the final point where something stops"
+        },
+        {
+          "t": "manifesto",
+          "d": "a public statement of what a person or group believes and plans to do"
+        },
+        {
+          "t": "unflattering",
+          "d": "not nice, because it makes someone or something look bad"
+        },
+        {
+          "t": "mocking",
+          "d": "making fun of someone or something"
+        },
+        {
+          "t": "optimising",
+          "d": "making something as good as it can be"
+        },
+        {
+          "t": "ideal",
+          "d": "perfect, or the best that something could be"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some linking words start a clause with a subject and verb, some need a noun, and some join two sentences after a full stop or a semicolon.",
+        "items": [
+          {
+            "s": "____ their confident tone, many online videos give advice that does not suit everyone.",
+            "a": "Despite"
+          },
+          {
+            "s": "Maxxing sets a target to push towards, ____ minning simply asks you to do less.",
+            "a": "whereas"
+          },
+          {
+            "s": "The ending is easy to copy and instantly understood. ____, it can be attached to almost any word.",
+            "a": "Therefore"
+          },
+          {
+            "s": "A routine will not help you ____ it fits your life.",
+            "a": "unless"
+          },
+          {
+            "s": "People should check where health advice comes from; ____, they may follow a plan that does not suit them.",
+            "a": "otherwise"
+          }
+        ],
+        "extra": [
+          "provided",
+          "whenever"
+        ]
+      }
     },
-    {
-     "t": "optimise",
-     "d": "to make something as good as it can possibly be"
-    },
-    {
-     "t": "invent",
-     "d": "to think of something completely new"
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "The practice of tea-drinking in the region ____ the arrival of European traders by several centuries.",
+            "a": "predates"
+          },
+          {
+            "s": "A headline that promises to fix everything usually ____ scepticism rather than trust.",
+            "a": "invites"
+          },
+          {
+            "s": "Several of the big retailers have enthusiastically ____ the new payment system.",
+            "a": "embraced"
+          },
+          {
+            "s": "It takes a confident writer to ____ a phrase that readers understand without explanation.",
+            "a": "coin"
+          },
+          {
+            "s": "Once a niche hobby, the sport has gone ____ and now fills stadiums.",
+            "a": "mainstream"
+          },
+          {
+            "s": "Wearing the same style of jacket was a quiet way of showing ____ of the group.",
+            "a": "membership"
+          }
+        ],
+        "extra": [
+          "ancestry",
+          "vernacular"
+        ]
+      },
+      "match": [
+        {
+          "t": "unambiguous",
+          "d": "having only one possible meaning"
+        },
+        {
+          "t": "portability",
+          "d": "the quality of being easy to move from one place to another"
+        },
+        {
+          "t": "parody",
+          "d": "an imitation that makes fun of something"
+        },
+        {
+          "t": "corrosive",
+          "d": "slowly damaging"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The sheer ____ of the suffix means it appears in almost every corner of online life.",
+            "cue": "PERVASIVE",
+            "a": "pervasiveness"
+          },
+          {
+            "s": "She was ____ of the trend, calling it a passing fad.",
+            "cue": "DISMISS",
+            "a": "dismissive"
+          },
+          {
+            "s": "The column offers no ____ data, only jokes.",
+            "cue": "VERIFY",
+            "a": "verifiable"
+          },
+          {
+            "s": "The ____ with which the joke spread suggests readers were already tired of the word.",
+            "cue": "SWIFT",
+            "a": "swiftness"
+          },
+          {
+            "s": "Treating hobbies as targets can leave people feeling ____ when they miss them.",
+            "cue": "ADEQUATE",
+            "a": "inadequate"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The article suggests that the speed of the parody says something about how readers feel about the suffix.",
+          "a": "T",
+          "why": "The text says the speed of the parody is “itself a finding of sorts” because readers are “already tired of it.”"
+        },
+        {
+          "s": "According to the text, Hudson's column offers measured evidence that people have started minning.",
+          "a": "F",
+          "why": "The text says: “Nobody is minning: there are no figures and no interviewed practitioners.”"
+        },
+        {
+          "s": "Johnson predicts that maxxing will outlast the suffix “-gate”.",
+          "a": "N",
+          "why": "Not stated. Johnson only says that “-licious” faded while “-gate” did not."
+        },
+        {
+          "s": "Wright's reasoning suggests that adoption by brands and middle-aged people does not necessarily end a word's life.",
+          "a": "T",
+          "why": "The text says this is “normally a terminal diagnosis for cool but an excellent one for survival.”"
+        },
+        {
+          "s": "The writer thinks that optimisation language is harmful in every situation.",
+          "a": "F",
+          "why": "The text says it is “useful when a problem genuinely has a solution.”"
+        }
+      ],
+      "pre": [
+        {
+          "t": "ancestor",
+          "d": "an earlier form of something that came before it"
+        },
+        {
+          "t": "suffix",
+          "d": "letters added to the end of a word"
+        },
+        {
+          "t": "surveillance",
+          "d": "close watching of someone or something, often all the time"
+        },
+        {
+          "t": "idealised",
+          "d": "shown as better or more perfect than it really is"
+        },
+        {
+          "t": "wordplay",
+          "d": "clever or funny use of words and their meanings"
+        },
+        {
+          "t": "collectively",
+          "d": "all together, as a group"
+        },
+        {
+          "t": "durable",
+          "d": "able to last for a long time"
+        },
+        {
+          "t": "terminal",
+          "d": "leading to the end of something"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Notice what follows the gap: a noun phrase, a clause, an adjective or a new sentence. Some of these words are formal and rare in speech.",
+        "items": [
+          {
+            "s": "The column is funny, ____ slight.",
+            "a": "albeit"
+          },
+          {
+            "s": "Maxxing promises a finish line, ____ minning promises only a rest.",
+            "a": "whereas"
+          },
+          {
+            "s": "The pattern needs no explanation; ____ its rapid spread.",
+            "a": "hence"
+          },
+          {
+            "s": "____ its popularity, the suffix has not been welcomed by everybody.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "The column is a joke and measures nothing. ____, it describes a tiredness many readers recognise.",
+            "a": "Nevertheless"
+          }
+        ],
+        "extra": [
+          "thereby",
+          "namely"
+        ]
+      }
     }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "People ____ about sleepmaxxing, which means doing everything possible to sleep well.",
-      "cue": "talk",
-      "a": "talk"
-     },
-     {
-      "s": "For 2026, Dictionary.com ____ “maxxing”.",
-      "cue": "choose",
-      "a": "has chosen"
-     },
-     {
-      "s": "Jennifer Donnelly, a researcher in Ireland, ____ that the word suggests you can finish improving yourself.",
-      "cue": "warn",
-      "a": "has warned"
-     },
-     {
-      "s": "the term ____ in mathematics as far back as the 1940s.",
-      "cue": "appear",
-      "a": "appeared"
-     },
-     {
-      "s": "Daria Bahtina, a linguist in the United States, ____ the pattern is easy to copy but easy to understand.",
-      "cue": "say",
-      "a": "says"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The ending means pushing something as far as it will go.",
-     "a": "T",
-     "why": "The text says: “It is an ending that you add to other words, and it means pushing something as far as it will go.”"
-    },
-    {
-     "s": "The idea behind the word was invented in 2026.",
-     "a": "F",
-     "why": "The text says the opposite: “The idea is older than it looks.”"
-    },
-    {
-     "s": "Bahtina says you can invent a new word and still be understood.",
-     "a": "T",
-     "why": "The text says: “You can invent a word nobody has heard before, and people will still know what you mean straight away.”"
-    },
-    {
-     "s": "Most readers agreed with Polly Hudson's column.",
-     "a": "N",
-     "why": "Not stated. The text describes the column but says nothing about how readers responded to it."
-    }
-   ]
   },
-  "intermediate": {
-   "gap": {
-    "items": [
-     {
-      "s": "not a word so much as an ____, attached to anything that can be pushed to its limit.",
-      "a": "ending"
-     },
-     {
-      "s": "by August 2026 the term was appearing in digital media ____ as often as its monthly average in 2025.",
-      "a": "19 times"
-     },
-     {
-      "s": "the pattern is infinitely ____ but instantly recognisable",
-      "a": "customisable"
-     },
-     {
-      "s": "The language implies an ____.",
-      "a": "endpoint"
-     },
-     {
-      "s": "the column is ____ rather than a manifesto.",
-      "a": "comedy"
-     }
+  "speak": {
+    "title": "Role-play: maxxing or minning?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the maxxer",
+      "text": "You love tracking your sleep, food and steps. You want your friend to join a 30-day plan with you. Explain what you enjoy about it, and listen to your friend's worries."
+    },
+    "b": {
+      "role": "the minner",
+      "text": "You're tired of scores and targets. You want a weekend with no apps and no plans. Say why, and ask your friend to try it with you."
+    },
+    "phrases": [
+      "I've been tracking my sleep for a month.",
+      "That's too much like homework for me.",
+      "I'd rather do less, not more.",
+      "Don't you feel better when you can see the numbers?",
+      "We could try a plan that's half and half.",
+      "I'm not sure that's fair, but I'll try it."
     ],
-    "extra": [
-     "lexicography",
-     "spirits"
-    ]
-   },
-   "match": [
-    {
-     "t": "suffix",
-     "d": "an ending added to a word"
-    },
-    {
-     "t": "compelling",
-     "d": "interesting enough to hold your attention"
-    },
-    {
-     "t": "aspirational",
-     "d": "connected with wanting to achieve something better"
-    },
-    {
-     "t": "absurd",
-     "d": "completely unreasonable or silly"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "the pattern is infinitely customisable but instantly ____",
-      "cue": "RECOGNISE",
-      "a": "recognisable"
-     },
-     {
-      "s": "Her examples are deliberately ____",
-      "cue": "ABSURDITY",
-      "a": "absurd"
-     },
-     {
-      "s": "minning is one writer's joke, not a trend anybody has ____.",
-      "cue": "MEASURE",
-      "a": "measured"
-     },
-     {
-      "s": "The suffix became popular because optimising felt ____.",
-      "cue": "ASPIRE",
-      "a": "aspirational"
-     },
-     {
-      "s": "so attaching it to a word ____ that you are part of the moment.",
-      "cue": "SIGNAL",
-      "a": "signals"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Dictionary.com looks at search trends and news coverage when it chooses.",
-     "a": "T",
-     "why": "The text says: “Steve Johnson, director of lexicography at the Dictionary Media Group, said his team looks at search trends, social media and the news, and then asks which word tells the most compelling story of the year.”"
-    },
-    {
-     "s": "The term first appeared in 2026.",
-     "a": "F",
-     "why": "The text says the opposite: “Its history is longer than the trend.”"
-    },
-    {
-     "s": "Donnelly argues that the language implies an endpoint.",
-     "a": "T",
-     "why": "The text says: “The language implies an endpoint.”"
-    },
-    {
-     "s": "Use of the word has fallen since August 2026.",
-     "a": "N",
-     "why": "Not stated. The text gives a figure for August 2026 but nothing about the months after it."
-    }
-   ]
-  },
-  "advanced": {
-   "gap": {
-    "items": [
-     {
-      "s": "The data behind the choice is ____.",
-      "a": "unambiguous"
-     },
-     {
-      "s": "What makes the term linguistically interesting is its ____.",
-      "a": "portability"
-     },
-     {
-      "s": "Her objection is not to effort but to ____.",
-      "a": "scoring"
-     },
-     {
-      "s": "Yet the speed of the ____ is itself a finding of sorts.",
-      "a": "parody"
-     },
-     {
-      "s": "Optimisation language is useful when a problem genuinely has a solution and ____ when applied to things that simply have to be lived.",
-      "a": "corrosive"
-     }
-    ],
-    "extra": [
-     "practitioners",
-     "terminal"
-    ]
-   },
-   "match": [
-    {
-     "t": "unambiguous",
-     "d": "having only one possible meaning"
-    },
-    {
-     "t": "portability",
-     "d": "the quality of being easy to move from one place to another"
-    },
-    {
-     "t": "parody",
-     "d": "an imitation that makes fun of something"
-    },
-    {
-     "t": "corrosive",
-     "d": "slowly damaging"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "and Dictionary.com's selection for 2026 does the job ____.",
-      "cue": "EFFICIENT",
-      "a": "efficiently"
-     },
-     {
-      "s": "meaning the pursuit of that thing to its furthest possible ____.",
-      "cue": "EXTEND",
-      "a": "extent"
-     },
-     {
-      "s": "a vocabulary that frames them as ____ invites constant self-surveillance",
-      "cue": "COMPLETE",
-      "a": "completable"
-     },
-     {
-      "s": "and the pursuit of an ____ optimal self.",
-      "cue": "IDEAL",
-      "a": "idealised"
-     },
-     {
-      "s": "The researcher Kelly Wright, who tracks ____ terms, has documented examples stretching back to 1990",
-      "cue": "EMERGE",
-      "a": "emerging"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Examples of the suffix have been documented from as early as 1990.",
-     "a": "T",
-     "why": "The text says: “has documented examples stretching back to 1990, when it belonged to Dungeons and Dragons”."
-    },
-    {
-     "s": "The writer treats the minning column as evidence of a real movement.",
-     "a": "F",
-     "why": "The text says the opposite: “The column is a joke built almost entirely from wordplay, and it should not be mistaken for evidence of a movement.”"
-    },
-    {
-     "s": "Wright thinks maxxing is likely to survive.",
-     "a": "T",
-     "why": "The text says: “Wright is less sure maxxing will fade, pointing out that middle-aged people and corporate brands have both embraced it, which is normally a terminal diagnosis for cool but an excellent one for survival.”"
-    },
-    {
-     "s": "Dictionary.com's word of the year for 2025 was also a suffix.",
-     "a": "N",
-     "why": "Not stated. The text discusses the 2026 choice only."
-    }
-   ]
+    "after": "Afterwards, tell the class: did you agree on a plan, and who changed their mind?"
   }
- }
 }

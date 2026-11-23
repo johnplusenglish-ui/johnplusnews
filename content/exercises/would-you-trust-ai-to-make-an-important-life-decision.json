@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "It quickly ____ the advantages and disadvantages.",
-            "a": "sets out"
+            "s": "The company sent a short ____ to its customers to ask what they thought of the new shop.",
+            "a": "survey"
           },
           {
-            "s": "AI can help us ____ new questions that we had not thought of.",
-            "a": "come up with"
+            "s": "A good ____ will want to know why you left your last job.",
+            "a": "employer"
           },
           {
-            "s": "Acting on an incorrect answer could ____.",
-            "a": "cause harm"
+            "s": "Swimming in the sea can have ____, so you should always check the weather first.",
+            "a": "risks"
           },
           {
-            "s": "We can use its ideas and still ____ important facts.",
-            "a": "look up"
+            "s": "My answer was ____, so the computer marked it with a red cross.",
+            "a": "incorrect"
           },
           {
-            "s": "This does not mean we should ____ AI completely.",
-            "a": "give up on"
+            "s": "Only an ____ announcement from the school can tell you if classes are cancelled.",
+            "a": "official"
           }
         ],
         "extra": [
-          "confident",
-          "qualified"
+          "similar",
+          "decision"
         ]
       },
       "match": [
@@ -57,7 +57,7 @@
             "a": "understand"
           },
           {
-            "s": "In a 2025 survey, Pew Research Center ____ Americans about AI.",
+            "s": "Pew Research Center ____ Americans about AI in 2025.",
             "cue": "ask",
             "a": "asked"
           },
@@ -98,40 +98,109 @@
           "s": "A chatbot can sound sure even when its answer is wrong.",
           "a": "T",
           "why": "The text says: \"AI can make mistakes or sound confident when its information is wrong.\""
+        },
+        {
+          "s": "The writer says we should stop using AI completely.",
+          "a": "F",
+          "why": "The text says: \"This does not mean we should give up on AI completely.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "advantages",
+          "d": "good points of something"
+        },
+        {
+          "t": "personality",
+          "d": "the way you think, feel and act that makes you different from others"
+        },
+        {
+          "t": "comfortable",
+          "d": "happy and not worried"
+        },
+        {
+          "t": "harm",
+          "d": "damage or pain to someone"
+        },
+        {
+          "t": "practical",
+          "d": "real and useful, not just an idea"
+        },
+        {
+          "t": "incomplete",
+          "d": "with some parts missing"
+        },
+        {
+          "t": "responsibility",
+          "d": "a job or duty that is yours"
+        },
+        {
+          "t": "detailed",
+          "d": "giving a lot of facts and small parts"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some words always go with one small word. Learn the pair together, for example good at.",
+        "items": [
+          {
+            "s": "Your problem is similar ____ one I had last year.",
+            "a": "to"
+          },
+          {
+            "s": "The answer depends ____ how clearly you ask the question.",
+            "a": "on"
+          },
+          {
+            "s": "Some chatbots are free, but others ask you to pay ____ them.",
+            "a": "for"
+          },
+          {
+            "s": "AI is good ____ comparing long lists of facts.",
+            "a": "at"
+          },
+          {
+            "s": "Many people are afraid ____ making a big decision alone.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "by",
+          "from"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "A mistaken medical or financial decision can be much ____ than a poor restaurant suggestion.",
-            "a": "harder to undo"
+            "s": "Only a judge has the legal ____ to send someone to prison.",
+            "a": "authority"
           },
           {
-            "s": "____ opposed AI judging whether two people could fall in love.",
-            "a": "A clear majority"
+            "s": "Ignoring a safety warning can have serious ____, so read it carefully.",
+            "a": "consequences"
           },
           {
-            "s": "A chatbot could ____ considerations somebody had overlooked.",
-            "a": "point out"
+            "s": "Her doctor changed the treatment because of her personal ____.",
+            "a": "circumstances"
           },
           {
-            "s": "The tool can improve preparation without replacing ____.",
-            "a": "professional judgement"
+            "s": "New fire safety ____ say that every building must have two exits.",
+            "a": "regulations"
           },
           {
-            "s": "Users should not treat a chatbot like ____.",
-            "a": "a confidential adviser"
+            "s": "I would not trust a weather app that is not ____, because it was wrong three times this week.",
+            "a": "reliable"
           },
           {
-            "s": "____ AI altogether would mean losing useful support.",
-            "a": "Ruling out"
+            "s": "She had ____ one important clause in the contract, so the problem only appeared later.",
+            "a": "overlooked"
           }
         ],
         "extra": [
-          "hand over",
-          "fluent"
+          "sensitive",
+          "clinician"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Within seconds it produces a ____ answer.",
-            "cue": "CONVINCE",
-            "a": "convincing"
+            "s": "Pew Research Center ____ more than 5,000 US adults in June 2025.",
+            "cue": "survey",
+            "a": "surveyed"
           },
           {
-            "s": "Respondents accepted AI less in ____ areas of life.",
-            "cue": "INTIMACY",
-            "a": "intimate"
+            "s": "The findings ____ in September.",
+            "cue": "publish",
+            "a": "were published"
           },
           {
-            "s": "It may provide ____ information in a confident tone.",
-            "cue": "ACCURATE",
-            "a": "inaccurate"
+            "s": "Users should ____ how their data may be handled.",
+            "cue": "understand",
+            "a": "understand"
           },
           {
-            "s": "A patient could use it to understand medical ____.",
-            "cue": "TERM",
-            "a": "terminology"
+            "s": "By the time she opened the chatbot, she ____ the same question to three friends.",
+            "cue": "ask",
+            "a": "had asked"
           },
           {
-            "s": "Sharing financial details may expose ____ material.",
-            "cue": "SENSE",
-            "a": "sensitive"
+            "s": "A chatbot only knows the version of events you ____ to type.",
+            "cue": "choose",
+            "a": "have chosen"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The article says AI should never be used for personal questions.",
+          "s": "The writer thinks a wrong restaurant suggestion is easier to recover from than a wrong medical decision.",
+          "a": "T",
+          "why": "The text says a poor restaurant suggestion is inconvenient, but a mistaken medical decision \"can be much harder to undo\"."
+        },
+        {
+          "s": "Pew published its findings in June 2025.",
           "a": "F",
-          "why": "The text says the opposite: \"Nevertheless, ruling out AI altogether would mean losing some genuinely useful support.\""
+          "why": "Pew surveyed people in June 2025 and published the findings that September."
         },
         {
-          "s": "A chatbot only knows the version of events you type.",
-          "a": "T",
-          "why": "The text says: \"If you ask it about a complicated relationship, it only knows the version of events you have chosen to type.\""
-        },
-        {
-          "s": "Pew repeated the survey in Europe.",
+          "s": "Most people in the survey had already used a chatbot for personal advice.",
           "a": "N",
-          "why": "Not stated. The text does not say whether the survey was repeated in Europe."
+          "why": "The text does not say how many respondents had used a chatbot."
         },
         {
-          "s": "Pew asked more than five thousand American adults.",
+          "s": "The writer says a kind tone is not proof that an answer is correct.",
           "a": "T",
-          "why": "The text says: \"surveyed more than 5,000 US adults in June 2025\""
+          "why": "The text says: \"An answer that sounds compassionate is not necessarily reliable.\""
+        },
+        {
+          "s": "The writer says the main question is whether AI is clever enough to have an opinion.",
+          "a": "F",
+          "why": "The text says the central issue is not that, but whether we understand its limitations."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "convincing",
+          "d": "making you believe something is true"
+        },
+        {
+          "t": "intimate",
+          "d": "very personal and private"
+        },
+        {
+          "t": "compassionate",
+          "d": "kind and caring about other people's problems"
+        },
+        {
+          "t": "inaccurate",
+          "d": "not correct"
+        },
+        {
+          "t": "terminology",
+          "d": "the special words used in one subject"
+        },
+        {
+          "t": "confidential",
+          "d": "secret and not to be shared"
+        },
+        {
+          "t": "undo",
+          "d": "change something back to how it was"
+        },
+        {
+          "t": "substitute",
+          "d": "something or someone used in place of another"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Verbs, adjectives and nouns often take a fixed preposition. After 'to' in 'object to', use an -ing form.",
+        "items": [
+          {
+            "s": "Many people object ____ sharing personal details with a chatbot.",
+            "a": "to"
+          },
+          {
+            "s": "A good doctor will insist ____ checking the facts before prescribing anything.",
+            "a": "on"
+          },
+          {
+            "s": "A chatbot is not a substitute ____ professional advice.",
+            "a": "for"
+          },
+          {
+            "s": "Few chatbots are capable ____ understanding a person's real situation.",
+            "a": "of"
+          },
+          {
+            "s": "Many users are not familiar ____ how their data is stored.",
+            "a": "with"
+          }
+        ],
+        "extra": [
+          "at",
+          "by"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "People may disclose information to a chatbot that they would ____ with almost anybody else.",
-            "a": "hesitate to share"
+            "s": "Without proper ____ by a regulator, the firm's accounts went unchecked for years.",
+            "a": "oversight"
           },
           {
-            "s": "Producing a recommendation is not the same as possessing ____.",
-            "a": "sound judgement"
+            "s": "A long, technical introduction can ____ the main point rather than explain it.",
+            "a": "obscure"
           },
           {
-            "s": "Two-thirds believed AI should ____ in judging romantic compatibility.",
-            "a": "have no role"
+            "s": "Scientists could not ____ the result when they repeated the experiment, so doubts grew.",
+            "a": "reproduce"
           },
           {
-            "s": "Serious decisions need ____.",
-            "a": "qualified human oversight"
+            "s": "Many patients ____ to ask questions because they do not want to seem foolish.",
+            "a": "hesitate"
           },
           {
-            "s": "Its polished presentation can ____ missing context.",
-            "a": "gloss over"
+            "s": "The report was long but ____, with each section leading logically to the next.",
+            "a": "coherent"
           },
           {
-            "s": "People may mistake a coherent argument for one ____ their specific circumstances.",
-            "a": "grounded in"
+            "s": "Several ____ buyers viewed the house on Saturday, but none had yet made an offer.",
+            "a": "prospective"
           }
         ],
         "extra": [
-          "fall back on",
-          "robust"
+          "expertise",
+          "tangible"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The technology can be ____, may lack crucial context and sometimes presents uncertainty poorly.",
+            "s": "Experts warned that the chatbot's advice was ____ for patients with rare conditions.",
+            "cue": "SUIT",
+            "a": "unsuitable"
+          },
+          {
+            "s": "The ____ of the figures was questioned by several economists.",
             "cue": "ACCURATE",
-            "a": "inaccurate"
+            "a": "accuracy"
           },
           {
-            "s": "Human advisers can be biased, impatient, expensive or ____.",
-            "cue": "AVAILABLE",
-            "a": "unavailable"
+            "s": "She was ____ to rely on a machine for such a personal choice.",
+            "cue": "WILL",
+            "a": "unwilling"
           },
           {
-            "s": "A sound approach combines independent ____, appropriate expert advice and careful handling of private information.",
+            "s": "Independent ____ of each claim takes time but prevents errors.",
             "cue": "VERIFY",
             "a": "verification"
           },
           {
-            "s": "The technology sometimes presents ____ poorly.",
-            "cue": "CERTAIN",
-            "a": "uncertainty"
-          },
-          {
-            "s": "The ____ of an apparently attentive conversational partner can obscure how the service handles sensitive data.",
-            "cue": "CONVENIENT",
-            "a": "convenience"
+            "s": "Too much ____ on a single tool can weaken our own judgement.",
+            "cue": "RELY",
+            "a": "reliance"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The piece admits that human advisers have weaknesses too.",
+          "s": "The writer would see a patient using a chatbot to prepare questions for a consultation as appropriate.",
           "a": "T",
-          "why": "The text says: \"Human advisers can be biased, impatient, expensive or unavailable.\""
+          "why": "The text lists helping \"a patient prepare questions for a consultation\" among tasks that improve later decisions."
         },
         {
-          "s": "AI companies have agreed to display accuracy warnings.",
-          "a": "N",
-          "why": "Not stated. The text does not mention any agreement by AI companies about accuracy warnings."
-        },
-        {
-          "s": "The writer recommends ruling out AI assistance altogether.",
+          "s": "The writer treats a fluent answer as good evidence that the system understands the user's situation.",
           "a": "F",
-          "why": "The text says the opposite: \"The solution is therefore unlikely to lie in ruling out AI assistance altogether.\""
+          "why": "The text warns that fluent language is not the same as sound judgement."
         },
         {
-          "s": "About two-thirds of respondents did not want AI judging romantic compatibility.",
+          "s": "Most people in the survey admitted sharing private information with a chatbot.",
+          "a": "N",
+          "why": "The text says people may disclose information, but gives no survey figure for it."
+        },
+        {
+          "s": "The survey was published in a different month from the one in which it was carried out.",
           "a": "T",
-          "why": "The text says: \"Roughly two-thirds thought AI should have no role in judging whether two people could fall in love.\""
+          "why": "It was carried out in June 2025 and published that September."
+        },
+        {
+          "s": "The writer presents human advisers as free from the weaknesses a chatbot has.",
+          "a": "F",
+          "why": "The text says human advisers \"can be biased, impatient, expensive or unavailable\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "polished",
+          "d": "very smooth and carefully finished"
+        },
+        {
+          "t": "counterargument",
+          "d": "a reason against what someone has just said"
+        },
+        {
+          "t": "apparent",
+          "d": "seeming real but perhaps not true"
+        },
+        {
+          "t": "fluent",
+          "d": "speaking or writing smoothly and easily"
+        },
+        {
+          "t": "biases",
+          "d": "unfair opinions that favour one side"
+        },
+        {
+          "t": "attentive",
+          "d": "listening carefully and showing interest"
+        },
+        {
+          "t": "empathy",
+          "d": "the ability to share and understand another person's feelings"
+        },
+        {
+          "t": "consultation",
+          "d": "a meeting to get advice from an expert"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Abstract nouns and adjectives usually take one fixed preposition (susceptible to, a distinction between). Check each before you choose.",
+        "items": [
+          {
+            "s": "Critics accuse some developers ____ overstating what the software can do.",
+            "a": "of"
+          },
+          {
+            "s": "There is a clear distinction ____ offering information and making a decision.",
+            "a": "between"
+          },
+          {
+            "s": "The writer does not suggest that we should dispense ____ human experts altogether.",
+            "a": "with"
+          },
+          {
+            "s": "Regulators may need to intervene ____ cases where personal data is mishandled.",
+            "a": "in"
+          },
+          {
+            "s": "People under stress may be especially susceptible ____ persuasive but unreliable advice.",
+            "a": "to"
+          }
+        ],
+        "extra": [
+          "against",
+          "over"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: let the chatbot decide?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the person with two job offers",
+      "text": "You have two job offers and cannot choose. You want to ask a chatbot to decide for you. Explain why you think it is a good idea. Listen to your friend's worries."
+    },
+    "b": {
+      "role": "the friend",
+      "text": "You think your friend should not let a chatbot choose. Ask questions about the jobs. Suggest a better way to use the chatbot, and say who should make the final decision."
+    },
+    "phrases": [
+      "I'm thinking of asking a chatbot to decide.",
+      "That's a big decision, so I wouldn't let it choose.",
+      "What if the answer's wrong?",
+      "It could help you make a list of questions.",
+      "I'd still check the facts myself.",
+      "Let's agree that the final choice is yours."
+    ],
+    "after": "Afterwards, tell the class: did your friend change your mind, and who should make the final decision?"
   }
 }

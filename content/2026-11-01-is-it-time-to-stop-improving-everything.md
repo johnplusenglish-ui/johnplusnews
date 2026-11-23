@@ -11,6 +11,7 @@ source-3: Polly Hudson, Let us make 2027 the year of minning, The Guardian | htt
 source-3-date: 1 November 2026
 image: images/is-it-time-to-stop-improving-everything-dbf215.jpg
 image-alt: A young man with curly hair sits back in a treatment chair, mouth turned down, as two blue-gloved hands hold a syringe against his forehead.
+layout: lesson
 ---
 === Core ===
 

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Of those who had seen a therapist, 72% said they found it ____.",
-            "a": "helpful"
+            "s": "It is ____ to book a check-up before a small health problem gets worse.",
+            "a": "sensible"
           },
           {
-            "s": "Some need a different kind of ____ entirely.",
-            "a": "support"
+            "s": "Doctors treat a ____ illness much more carefully than a cold.",
+            "a": "serious"
           },
           {
-            "s": "Thirty-five per cent said the ____ stopped them.",
-            "a": "cost"
+            "s": "It can be hard to ____ exactly how you feel when you are very upset.",
+            "a": "describe"
           },
           {
-            "s": "None of this makes ____ less valuable.",
-            "a": "listening"
+            "s": "A video online is not a ____ for advice from a doctor.",
+            "a": "substitute"
           },
           {
-            "s": "What a person usually wants first is somewhere ____ to say the thing out loud.",
-            "a": "private"
+            "s": "When she shared her news, his ____ was kind and calm.",
+            "a": "reply"
           }
         ],
         "extra": [
-          "appointment",
-          "improvement"
+          "friendship",
+          "habit"
         ]
       },
       "match": [
@@ -98,36 +98,109 @@
           "s": "Cost was given more often than waiting lists as a reason for not starting therapy.",
           "a": "T",
           "why": "The text says: \"Thirty-five per cent said the cost stopped them. Twenty-two per cent said the waiting list was too long.\""
+        },
+        {
+          "s": "The writer says a wait of several months can let a problem get bigger.",
+          "a": "T",
+          "why": "The text says: \"Several months is long enough for a problem to grow.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "improvement",
+          "d": "a change that makes something better"
+        },
+        {
+          "t": "survey",
+          "d": "a set of questions asked to many people to find out what they think"
+        },
+        {
+          "t": "considered",
+          "d": "thought about something carefully before deciding"
+        },
+        {
+          "t": "loosely",
+          "d": "in a way that is not exact or careful"
+        },
+        {
+          "t": "qualified",
+          "d": "having passed the training you need for a job"
+        },
+        {
+          "t": "argument",
+          "d": "an angry talk between people who do not agree"
+        },
+        {
+          "t": "entirely",
+          "d": "completely"
+        },
+        {
+          "t": "willing",
+          "d": "ready and happy to do something"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some words always go together. Say the whole pair in your head and choose the one that sounds natural.",
+        "items": [
+          {
+            "s": "A good listener ____ close attention to what you say.",
+            "a": "pays"
+          },
+          {
+            "s": "She has been on a ____ list for three months.",
+            "a": "waiting"
+          },
+          {
+            "s": "It can ____ a big difference to talk to someone.",
+            "a": "make"
+          },
+          {
+            "s": "You should ____ care of your mental health.",
+            "a": "take"
+          },
+          {
+            "s": "A good friend will ____ your secret and not tell anyone.",
+            "a": "keep"
+          }
+        ],
+        "extra": [
+          "run",
+          "draw"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Less ____ may be bringing people forward who would once have stayed quiet.",
-            "a": "stigma"
+            "s": "No single study is likely to ____ a debate this complicated.",
+            "a": "settle"
           },
           {
-            "s": "Openness is also cheap, and ____ is not.",
-            "a": "access"
+            "s": "Before you book, check that the ____ is registered with a professional body.",
+            "a": "practitioner"
           },
           {
-            "s": "Those are practical ____ rather than cultural ones.",
-            "a": "barriers"
+            "s": "The results were ____ across all three regions, which makes them easier to trust.",
+            "a": "consistent"
           },
           {
-            "s": "Useful support depends on a ____ practitioner, a reasonable fit between two people and confidentiality.",
-            "a": "qualified"
+            "s": "When a word is ____ to cover every small annoyance, it loses its force.",
+            "a": "stretched"
           },
           {
-            "s": "These are modelled estimates rather than counted ____.",
-            "a": "appointments"
+            "s": "Official ____ of how many people need help vary widely between studies.",
+            "a": "estimates"
+          },
+          {
+            "s": "Learners need a wide ____ to talk about their feelings accurately.",
+            "a": "vocabulary"
           }
         ],
         "extra": [
-          "awareness",
-          "disagreement"
+          "approach",
+          "provision"
         ]
       },
       "match": [
@@ -149,85 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Wider ____ may simply have told more people that the option exists.",
-            "cue": "AWARE",
-            "a": "awareness"
+            "s": "By 2026, attitudes to therapy had ____ far more than anyone had expected.",
+            "cue": "change",
+            "a": "changed"
           },
           {
-            "s": "The shame has faded faster than almost anyone ____ twenty years ago.",
-            "cue": "PREDICTION",
-            "a": "predicted"
+            "s": "Clinical terms are often ____ to describe ordinary stress.",
+            "cue": "use",
+            "a": "used"
           },
           {
-            "s": "Clinical terms can be used to close a ____ rather than explore it.",
-            "cue": "AGREE",
-            "a": "disagreement"
+            "s": "Therapy might not ____ for everyone, so some people try a different method.",
+            "cue": "work",
+            "a": "work"
           },
           {
-            "s": "Nearly two thirds of people in the EU who need mental healthcare face ____ access to it.",
-            "cue": "ADEQUATE",
-            "a": "inadequate"
+            "s": "The number of people who have ____ a therapist has risen slightly since last year.",
+            "cue": "see",
+            "a": "seen"
           },
           {
-            "s": "Expectations ____ enough to survive a bad week are part of useful support.",
-            "cue": "REAL",
-            "a": "realistic"
+            "s": "She ____ for six sessions herself because the waiting list was too long.",
+            "cue": "pay",
+            "a": "paid"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The survey was carried out by YouGov for the British Association for Counselling and Psychotherapy.",
+          "s": "In the survey, cost was mentioned more often than waiting lists.",
           "a": "T",
-          "why": "The text says: \"For the British Association for Counselling and Psychotherapy, YouGov surveyed 5,058 UK adults between 16 February and 6 March 2026.\""
+          "why": "The text gives 35% for the cost and 22% for long waiting lists."
         },
         {
-          "s": "The survey identifies which single cause is behind the rise.",
+          "s": "The writer thinks the rise in therapy use proves that stigma has fallen.",
           "a": "F",
-          "why": "The text says the opposite: \"Rising numbers can mean several things at once, which is why the survey cannot settle the argument on its own.\""
+          "why": "The text says the rise could also come from greater need or wider awareness, and \"all three can be true together\"."
         },
         {
           "s": "The OECD figures are based on counted appointments.",
           "a": "F",
-          "why": "The text says the opposite: \"These are modelled estimates rather than counted appointments, but the direction is consistent with what the UK survey describes.\""
+          "why": "The text calls them \"modelled estimates rather than counted appointments\"."
         },
         {
-          "s": "Waiting times for therapy in the UK are longer than in the rest of Europe.",
+          "s": "The American Psychological Association psychologists advise people to stop using clinical terms in everyday talk.",
           "a": "N",
-          "why": "Not stated. The text reports that 22% cited long waiting lists but makes no comparison with other countries."
+          "why": "The text reports a benefit and a cost of the words, but gives no advice about stopping."
+        },
+        {
+          "s": "Between the two surveys, the share of adults who had seen a therapist rose by two percentage points.",
+          "a": "T",
+          "why": "The share went from 35% in the previous survey to 37% in this one."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "courage",
+          "d": "the strength to do something that frightens you"
+        },
+        {
+          "t": "shame",
+          "d": "an uncomfortable feeling that you have done something wrong or silly"
+        },
+        {
+          "t": "clinical",
+          "d": "connected with the medical treatment of patients"
+        },
+        {
+          "t": "confidentiality",
+          "d": "the rule that private information is not passed on"
+        },
+        {
+          "t": "expectations",
+          "d": "what you believe will happen or hope to get"
+        },
+        {
+          "t": "proportionally",
+          "d": "in relation to the size of the whole group"
+        },
+        {
+          "t": "escaped",
+          "d": "got out of a place or situation"
+        },
+        {
+          "t": "modelled",
+          "d": "worked out using a computer or mathematical system"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a pair that native speakers expect. If your language lets you say it in three ways, check which one English chooses.",
+        "items": [
+          {
+            "s": "Having the right words can ____ difficult conversations easier.",
+            "a": "make"
+          },
+          {
+            "s": "Many clinics ____ a serious shortage of trained staff.",
+            "a": "face"
+          },
+          {
+            "s": "It can ____ months for a first appointment to become available.",
+            "a": "take"
+          },
+          {
+            "s": "Campaigns try to ____ awareness of mental health problems.",
+            "a": "raise"
+          },
+          {
+            "s": "Clinics struggle to ____ demand when referrals keep rising.",
+            "a": "meet"
+          }
+        ],
+        "extra": [
+          "hold",
+          "run"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Therapy has become ____ in the plainest sense: it is discussed without explanation.",
-            "a": "mainstream"
+            "s": "Whether the policy has reduced hospital admissions remains hotly ____, with each side citing different data.",
+            "a": "contested"
           },
           {
-            "s": "The ____ is where the story turns.",
-            "a": "treatment gap"
+            "s": "A rise in complaints is ____ with both a decline in standards and a growth in public confidence.",
+            "a": "compatible"
           },
           {
-            "s": "Useful support depends on qualifications, on a reasonable fit between the person and the practitioner, and on ____.",
-            "a": "confidentiality"
+            "s": "The cautious wording of the report ____ how uncertain the authors were.",
+            "a": "conveyed"
           },
           {
-            "s": "Clinical vocabulary can also ____, flattening an ordinary conflict into a diagnosis.",
-            "a": "oversimplify"
+            "s": "A rumour of this kind usually ____ faster online than any correction can follow.",
+            "a": "circulates"
           },
           {
-            "s": "Cultural permission arrived first; ____ has not followed.",
+            "s": "Over several decades there has been a gradual ____ towards smaller households.",
+            "a": "drift"
+          },
+          {
+            "s": "The clinic is operating at full ____ and cannot take on new patients.",
             "a": "capacity"
           }
         ],
         "extra": [
-          "provision",
-          "workforce"
+          "backlog",
+          "remit"
         ]
       },
       "match": [
@@ -252,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Reduced stigma, increased distress, better information and expanded ____ would all produce the same upward line.",
-            "cue": "PROVIDE",
-            "a": "provision"
+            "s": "The ____ of mental health services varies sharply between regions.",
+            "cue": "AVAILABLE",
+            "a": "availability"
           },
           {
-            "s": "Self-reported ____ is a reasonable signal and a poor measure of clinical outcome.",
-            "cue": "HELP",
-            "a": "helpfulness"
+            "s": "A tendency towards ____ makes the report easy to dismiss.",
+            "cue": "EXAGGERATE",
+            "a": "exaggeration"
           },
           {
-            "s": "The most recent UK evidence suggests a slow upward drift rather than a ____.",
-            "cue": "TRANSFORM",
-            "a": "transformation"
+            "s": "The results are ____ without a control group.",
+            "cue": "CONCLUDE",
+            "a": "inconclusive"
           },
           {
-            "s": "Whether that openness becomes an appointment is decided by funding, ____ and waiting times.",
-            "cue": "WORK",
-            "a": "workforce"
+            "s": "The decline in stigma has been ____ uneven across age groups.",
+            "cue": "NOTICE",
+            "a": "noticeably"
           },
           {
-            "s": "Choosing between them on a single trend line is a political ____ wearing the clothes of evidence.",
-            "cue": "PREFER",
-            "a": "preference"
+            "s": "Researchers argue that early ____ lowers long-term costs.",
+            "cue": "INTERVENE",
+            "a": "intervention"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The article treats self-reported helpfulness as a weaker measure than a clinical outcome.",
+          "s": "The writer would be equally cautious about a claim that the survey proves society has become sicker.",
           "a": "T",
-          "why": "The text says: \"Self-reported helpfulness is a reasonable signal and a poor measure of clinical outcome, and the distinction matters.\""
+          "why": "The text calls both readings, kinder or sicker, \"an argument imported from outside the data\"."
         },
         {
-          "s": "A single survey can show which of the possible causes produced the rise.",
+          "s": "The YouGov and OECD figures both measure how many people have received treatment.",
           "a": "F",
-          "why": "The text says the opposite: \"a single survey cannot separate them\""
+          "why": "YouGov counted people who had seen a therapist; the OECD figures concern mental disorder and inadequate access."
         },
         {
-          "s": "The OECD recommends a specific level of funding for each member country.",
+          "s": "The writer regards self-reported helpfulness as worthless as evidence.",
+          "a": "F",
+          "why": "The text calls it \"a reasonable signal\", though \"a poor measure of clinical outcome\"."
+        },
+        {
+          "s": "The survey asked respondents which type of therapy they had tried.",
           "a": "N",
-          "why": "Not stated. The text cites the OECD's estimates of prevalence and access, not any funding recommendation."
+          "why": "The text does not say what else the survey asked."
         },
         {
-          "s": "The OECD estimates that nearly two thirds of people in the EU needing mental healthcare encounter inadequate access.",
+          "s": "The writer accepts that more people seeking help could mean the population is under greater strain.",
           "a": "T",
-          "why": "The text says: \"nearly two thirds of people in the EU needing mental healthcare encounter inadequate access\""
+          "why": "The text says a rise is \"compatible with a population under greater strain\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "stigma",
+          "d": "a feeling that something is shameful, held by other people"
+        },
+        {
+          "t": "provision",
+          "d": "the supply of a service or something people need"
+        },
+        {
+          "t": "distress",
+          "d": "great worry, sadness or pain"
+        },
+        {
+          "t": "diagnosis",
+          "d": "a doctor's decision about what illness someone has"
+        },
+        {
+          "t": "practitioner",
+          "d": "a person who works in a profession such as medicine or therapy"
+        },
+        {
+          "t": "workforce",
+          "d": "all the people who are able to do a particular kind of work"
+        },
+        {
+          "t": "transformation",
+          "d": "a complete change in the way something looks or works"
+        },
+        {
+          "t": "imported",
+          "d": "brought in from somewhere else"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a habit, not a rule. Learn the whole phrase, because the verb is usually the part that surprises you.",
+        "items": [
+          {
+            "s": "A single anecdote should not ____ much weight in a policy debate.",
+            "a": "carry"
+          },
+          {
+            "s": "Researchers must ____ a clear distinction between correlation and causation.",
+            "a": "draw"
+          },
+          {
+            "s": "The bill must ____ one more hurdle before it becomes law.",
+            "a": "clear"
+          },
+          {
+            "s": "The findings ____ serious questions about how services are funded.",
+            "a": "raise"
+          },
+          {
+            "s": "Employers are reluctant to ____ the bill for long-term support.",
+            "a": "foot"
+          }
+        ],
+        "extra": [
+          "sink",
+          "tilt"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: booking a first appointment",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the clinic receptionist",
+      "text": "A caller wants to book therapy. The free waiting list is about five months. A private session this week costs 70 pounds. Explain both choices, ask what the caller can manage, and suggest one more option."
+    },
+    "b": {
+      "role": "the caller",
+      "text": "You've felt very stressed for weeks and want to see a therapist soon. You can't afford much money and you don't want to wait for months. Ask questions and try to find a solution."
+    },
+    "phrases": [
+      "I'd like to book an appointment, please.",
+      "How long is the waiting list?",
+      "I'm afraid it's about five months.",
+      "That's too long for me, I'm struggling now.",
+      "Is there anything cheaper?",
+      "We could offer you a shorter course of sessions."
+    ],
+    "after": "Afterwards, tell the class what the caller decided, and say why."
   }
 }

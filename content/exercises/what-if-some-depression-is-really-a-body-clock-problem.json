@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Everyone has a body ____ that helps control when we sleep and wake up.",
-            "a": "clock"
+            "s": "The pain was so ____ that she could not go to work.",
+            "a": "severe"
           },
           {
-            "s": "The researchers identified a group of 2,604 ____.",
-            "a": "people"
+            "s": "My ____ rings at six every morning, but I always want more sleep.",
+            "a": "alarm"
           },
           {
-            "s": "The word circadian describes the body's natural cycle over about 24 ____.",
-            "a": "hours"
+            "s": "Scientists think the two problems may be ____ to each other.",
+            "a": "connected"
           },
           {
-            "s": "If a medicine is not working, the safest step is to talk to a qualified ____.",
-            "a": "doctor"
+            "s": "Understanding these differences could help doctors give more ____ care to each patient.",
+            "a": "personal"
           },
           {
-            "s": "Two patients may both feel very low, but their ____ may not be the same.",
-            "a": "symptoms"
+            "s": "The first medicine did not help, so the doctor tried a different ____.",
+            "a": "treatment"
           }
         ],
         "extra": [
-          "teacher",
-          "pills"
+          "mild",
+          "rare"
         ]
       },
       "match": [
@@ -67,9 +67,9 @@
             "a": "identified"
           },
           {
-            "s": "Many people ____ unusual sleeping habits without having depression.",
-            "cue": "have",
-            "a": "have"
+            "s": "Two patients may both ____ very low, but their symptoms may not be the same.",
+            "cue": "feel",
+            "a": "feel"
           },
           {
             "s": "Scientists still ____ to find out which treatments are most helpful.",
@@ -104,39 +104,103 @@
           "a": "F",
           "why": "The text says: \"This study did not test those treatments.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "circadian",
+          "d": "to do with the body's natural cycle of about 24 hours"
+        },
+        {
+          "t": "genetic",
+          "d": "to do with the small parts in your body that you get from your parents"
+        },
+        {
+          "t": "antidepressants",
+          "d": "medicines that help people who feel very sad for a long time"
+        },
+        {
+          "t": "findings",
+          "d": "the things that people learn from a study"
+        },
+        {
+          "t": "condition",
+          "d": "an illness or health problem"
+        },
+        {
+          "t": "biological",
+          "d": "to do with the body and how living things work"
+        },
+        {
+          "t": "psychological",
+          "d": "to do with the mind and feelings"
+        },
+        {
+          "t": "factors",
+          "d": "things that help to cause something"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a pair of words that always go together. Learn the pair, not just the word.",
+        "items": [
+          {
+            "s": "Some people are ____ awake at midnight but feel terrible in the morning.",
+            "a": "wide"
+          },
+          {
+            "s": "Doctors might suggest light ____, but this study did not test it.",
+            "a": "therapy"
+          },
+          {
+            "s": "The doctor asked about her ____ history, including past illnesses.",
+            "a": "medical"
+          },
+          {
+            "s": "Many people have unusual sleeping ____ without having depression.",
+            "a": "habits"
+          },
+          {
+            "s": "She has a strong ____ for staying up late.",
+            "a": "preference"
+          }
+        ],
+        "extra": [
+          "heavy",
+          "sharp"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Scientists analysed clinical and genetic information from more than 10,000 ____ who had experienced depression.",
-            "a": "Australians"
+            "s": "A ____ to stay up late can run in families.",
+            "a": "tendency"
           },
           {
-            "s": "The group of 2,604 participants was nearly a ____ of the sample.",
-            "a": "quarter"
+            "s": "A ____ illness returns again and again, sometimes after months of feeling well.",
+            "a": "recurrent"
           },
           {
-            "s": "One feature of the subtype was waking up ____.",
+            "s": "It would be ____ to blame everything on sleep, because that avoids the harder questions.",
+            "a": "convenient"
+          },
+          {
+            "s": "After two ____ attempts to treat her illness, the doctor tried a different approach.",
+            "a": "unsuccessful"
+          },
+          {
+            "s": "A power cut caused a major ____ to train services across the city.",
+            "a": "disruption"
+          },
+          {
+            "s": "After three night shifts in a row, he felt completely ____.",
             "a": "exhausted"
-          },
-          {
-            "s": "A person can have a late ____ without being depressed.",
-            "a": "bedtime"
-          },
-          {
-            "s": "The findings come from a particular Australian ____.",
-            "a": "sample"
-          },
-          {
-            "s": "We often talk about depression as if it is one single ____ with one clear solution.",
-            "a": "illness"
           }
         ],
         "extra": [
-          "hospital",
-          "vitamin"
+          "annual",
+          "shortage"
         ]
       },
       "match": [
@@ -171,9 +235,9 @@
             "a": "identified"
           },
           {
-            "s": "Doctors must still ____ an individual's complete medical history.",
-            "cue": "consider",
-            "a": "consider"
+            "s": "Scientists analysed information from people who had ____ depression.",
+            "cue": "experience",
+            "a": "experienced"
           },
           {
             "s": "People should not ____ medication because of an article.",
@@ -204,48 +268,112 @@
           "why": "The text does not say where in Australia the participants lived."
         },
         {
-          "s": "The study did not test the treatments the researchers mention.",
-          "a": "T",
-          "why": "The text says: \"although this study did not test them\""
+          "s": "The study shows that light therapy works for people with circadian depression.",
+          "a": "F",
+          "why": "The text says the researchers suggested such treatments might deserve attention, \"although this study did not test them\"."
         },
         {
           "s": "People should change their medication if an article suggests it.",
           "a": "F",
           "why": "The text says: \"should not stop, start or change medication because of an article\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "alertness",
+          "d": "the state of being awake and ready to think"
+        },
+        {
+          "t": "ancestry",
+          "d": "the family and places that a person's relatives come from"
+        },
+        {
+          "t": "serotonin",
+          "d": "a chemical in the body that affects mood"
+        },
+        {
+          "t": "persistent",
+          "d": "continuing for a long time without stopping"
+        },
+        {
+          "t": "medication",
+          "d": "medicine that a doctor gives you"
+        },
+        {
+          "t": "diagnosis",
+          "d": "a doctor's decision about which illness a person has"
+        },
+        {
+          "t": "genetic",
+          "d": "connected with genes, which pass from parents to children"
+        },
+        {
+          "t": "symptoms",
+          "d": "signs in your body or mind that show you are ill"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Many collocations are verb + noun or adjective + noun. Say the whole chunk aloud so it sounds natural.",
+        "items": [
+          {
+            "s": "Changing medication without advice could do more ____ than good.",
+            "a": "harm"
+          },
+          {
+            "s": "Teenagers often enjoy late ____ at the weekend.",
+            "a": "nights"
+          },
+          {
+            "s": "Some people notice low ____ during the dark winter months.",
+            "a": "mood"
+          },
+          {
+            "s": "A doctor will ask about your complete medical ____.",
+            "a": "history"
+          },
+          {
+            "s": "Many people report seasonal ____ in their energy and sleep.",
+            "a": "changes"
+          }
+        ],
+        "extra": [
+          "habit",
+          "reason"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The term refers to the internal ____ that help regulate sleep.",
-            "a": "rhythms"
+            "s": "Because the pilot study was ____, its authors did not claim to have settled the question.",
+            "a": "exploratory"
           },
           {
-            "s": "The study focused on people with severe depression, making ____ to the wider population inappropriate.",
-            "a": "generalisation"
+            "s": "Daily ____ in blood sugar made her readings hard to interpret.",
+            "a": "fluctuations"
           },
           {
-            "s": "People should not attempt to treat depression ____ with light exposure or supplements.",
-            "a": "independently"
+            "s": "The findings have wider ____ for how schools set their start times.",
+            "a": "implications"
           },
           {
-            "s": "Disrupted sleep can be both a symptom and a contributing ____.",
-            "a": "factor"
+            "s": "Early ____ such as counselling can stop a crisis from getting worse.",
+            "a": "interventions"
           },
           {
-            "s": "Further research must establish how ____ the proposed subtype can be identified.",
-            "a": "reliably"
+            "s": "The charity widely ____ the results so that more patients would hear about them.",
+            "a": "publicised"
           },
           {
-            "s": "Better care might begin with better questions about daily ____.",
-            "a": "routines"
+            "s": "A ____ diagnosis helps clinicians choose the right treatment.",
+            "a": "precise"
           }
         ],
         "extra": [
-          "surgery",
-          "vaccines"
+          "advocated",
+          "prognoses"
         ]
       },
       "match": [
@@ -270,59 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Disrupted sleep can be a symptom and a ____ factor.",
-            "cue": "CONTRIBUTE",
-            "a": "contributing"
+            "s": "Critics questioned the ____ of the findings.",
+            "cue": "RELY",
+            "a": "reliability"
           },
           {
-            "s": "Calling it a body-clock problem risks ____ a complex illness.",
-            "cue": "SIMPLE",
-            "a": "oversimplifying"
+            "s": "The ____ of a sample limits how far its results can be applied.",
+            "cue": "HOMOGENEOUS",
+            "a": "homogeneity"
           },
           {
-            "s": "The focus on severe depression makes ____ to the wider population inappropriate.",
-            "cue": "GENERAL",
-            "a": "generalisation"
+            "s": "It would be ____ to recommend light therapy on this evidence alone.",
+            "cue": "RESPONSIBLE",
+            "a": "irresponsible"
           },
           {
-            "s": "Appropriate care depends on professional ____.",
-            "cue": "ASSESS",
-            "a": "assessment"
+            "s": "Experts urged readers to interpret early results ____.",
+            "cue": "CAUTIOUS",
+            "a": "cautiously"
           },
           {
-            "s": "The hope is to help people reach ____ care sooner.",
-            "cue": "EFFECT",
-            "a": "effective"
+            "s": "Clinicians hope to ____ care so that it fits each patient.",
+            "cue": "PERSON",
+            "a": "personalise"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The study was published in the British Journal of Psychiatry.",
+          "s": "The study can say little about how a person's symptoms change over time.",
           "a": "T",
-          "why": "The text says: \"published in the British Journal of Psychiatry\""
+          "why": "The data were \"gathered at a single point in time\", so changes over time cannot be shown."
         },
         {
-          "s": "The study fully explained the biological cause of all depression.",
+          "s": "The authors recommend that patients with this profile switch to light therapy.",
           "a": "F",
-          "why": "The text says: \"Nor does the identification of a statistical subgroup prove that the biological mechanisms behind every patient's depression have been fully explained.\""
+          "why": "The text says the treatments \"are not blanket recommendations\" and that the study \"did not test those treatments\"."
         },
         {
-          "s": "The participants were followed for ten years.",
+          "s": "The independent expert criticised the researchers for relying on what patients reported about their treatment.",
           "a": "N",
-          "why": "The text does not say how long the participants were followed."
+          "why": "The text says only that an independent expert called the work exploratory."
         },
         {
-          "s": "The text says that being a night owl is not a diagnosis.",
+          "s": "Recognising the subtype could one day reduce trial-and-error prescribing.",
           "a": "T",
-          "why": "The text says: \"Being a night owl is not a diagnosis.\""
+          "why": "The text says it \"could eventually help clinicians move beyond a trial-and-error approach\"."
         },
         {
-          "s": "People should treat depression themselves with light exposure.",
+          "s": "Anyone who stays up late by choice can be assumed to have circadian depression.",
           "a": "F",
-          "why": "The text says: \"People should not stop taking prescribed antidepressants or attempt to treat depression independently with light exposure or supplements.\""
+          "why": "The text says: \"Being a night owl is not a diagnosis.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "circadian",
+          "d": "following the body's natural cycle of about 24 hours"
+        },
+        {
+          "t": "serotonin",
+          "d": "a chemical in the brain linked to mood"
+        },
+        {
+          "t": "recurrent",
+          "d": "happening again and again"
+        },
+        {
+          "t": "persistent",
+          "d": "lasting for a long time without going away"
+        },
+        {
+          "t": "ancestry",
+          "d": "the family background and origins of a person"
+        },
+        {
+          "t": "mechanisms",
+          "d": "the processes by which something happens"
+        },
+        {
+          "t": "subgroup",
+          "d": "a smaller group within a larger group"
+        },
+        {
+          "t": "profile",
+          "d": "a set of features that together describe someone"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Collocations are habits of the language, so a near-synonym often sounds wrong. Learn the whole chunk, for example play a part.",
+        "items": [
+          {
+            "s": "Doctors warn against ____ advice that ignores each patient's circumstances.",
+            "a": "blanket"
+          },
+          {
+            "s": "A ____ proportion of those surveyed reported poor sleep.",
+            "a": "substantial"
+          },
+          {
+            "s": "Genetics, stress and lifestyle may all ____ a part in how an illness develops.",
+            "a": "play"
+          },
+          {
+            "s": "Researchers ____ data from thousands of volunteers over several months.",
+            "a": "gathered"
+          },
+          {
+            "s": "Any new drug must first be proved safe in properly ____ trials.",
+            "a": "controlled"
+          }
+        ],
+        "extra": [
+          "chronic",
+          "toxic"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: should I stop my medicine?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the doctor",
+      "text": "Your patient has read a news story about body clocks and wants to stop their medicine. Ask about their sleep and how they feel. Explain why they shouldn't change anything without advice."
+    },
+    "b": {
+      "role": "the patient",
+      "text": "You read a story about body clocks and depression. You're worried your medicine isn't working. Explain why you want to stop, and ask the doctor what you can do instead."
+    },
+    "phrases": [
+      "I read a story about body clocks.",
+      "I'm thinking of stopping my medicine.",
+      "I'd like to understand why it isn't working.",
+      "That's an early study, so please don't stop yet.",
+      "Let's talk about your sleep first.",
+      "What's the safest next step?"
+    ],
+    "after": "Afterwards, tell the class: did the patient decide to keep the medicine, and why?"
   }
 }

@@ -9,6 +9,7 @@ source-2: European Youth Portal, Gen Z slang words and phrases | https://youth.e
 source-2-date: 26 October 2026
 image: images/where-do-your-words-actually-come-from-39b248.jpg
 image-alt: A hand rests on a worn hardback dictionary with a phone on top of it, its screen showing an entry for the slang word rizz, on a red desk.
+layout: lesson
 ---
 === Core ===
 

@@ -54,7 +54,7 @@ def task(n, title, how, inner, extra=""):
             '<p class="how">{h}</p>{i}</section>').format(x=extra, n=n, t=esc(title), h=how, i=inner)
 
 
-def sheet(level, teacher):
+def sheet(level, teacher, compact=False):
     key = level.lower()
     d = EX["levels"][key]
     title, summary, paras = level_text(level)
@@ -147,14 +147,14 @@ def sheet(level, teacher):
 
     foot = "{} · {} {}".format(meta["title"], level, CEFR[level])
     return TEMPLATE.format(
-        css=CSS.replace("FOOT", foot.replace('"', "'")).replace("FONTFACES", FACES), level=level, cefr=CEFR[level], date=esc(meta.get("date-label", "")),
+        css=CSS.replace("FOOT", foot.replace('"', "'")).replace("FONTFACES", FACES), level=level, cefr=CEFR[level], tight="tight" if compact else "", date=esc(meta.get("date-label", "")),
         who='Name <span class="line"></span>',
         title=esc(title), img=PICTURE, t1=t1, t2=t2, t3=t3, t4=t4, t5=t5, t6=t6, t7=t7, t8=t8, t9=t9,
         key=keyblock)
 
 
 TEMPLATE = """<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{title} ({level} {cefr})</title>
-<style>{css}</style></head><body>
+<style>{css}</style></head><body class="{tight}">
 <header class="top"><span class="brand">john<b>plus</b>news</span><span class="lv">{level} <b>{cefr}</b></span>
 <span class="dt">{date}</span><span class="who">{who}</span></header>
 <div class="hero"><div><p class="kicker">News lesson</p><h1>{title}</h1></div><img src="{img}" alt=""></div>
@@ -240,6 +240,13 @@ li:has(.tfn){display:list-item}
 .phr ul{margin:0;padding:0;list-style:none;columns:2;column-gap:8mm;font-size:10pt}
 .phr li{margin:0 0 1mm;break-inside:avoid}
 .after{margin-top:3mm;margin-bottom:0;font-weight:500}
+.tight{font-size:10pt}
+.tight .task{margin-bottom:3.4mm}
+.tight ol.rows li{margin-bottom:1.5mm;line-height:1.5}
+.tight ol.qs li{margin-bottom:1mm}
+.tight .stage{margin-top:4mm}
+.tight .cards{gap:4mm;margin-bottom:2mm}
+.tight .card{padding:2.2mm 3mm}
 .key{break-before:page}
 .key dl{margin:0}.key dt{font-weight:600;margin:3.5mm 0 .6mm}.key dd{margin:0;color:#14181f}
 """
@@ -289,8 +296,13 @@ with tempfile.TemporaryDirectory() as tmp:
     for lv in LEVELS:
         name = "{}-{}-{}".format(SLUG, lv.lower(), CEFR[lv].replace("/", "-").lower())
         page = Path(tmp) / (name + ".html")
-        page.write_text(sheet(lv, True), encoding="utf-8")
         pdf = OUT / (name + ".pdf")
-        subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-pdf-header-footer", "--virtual-time-budget=4000",
-                        "--print-to-pdf=" + str(pdf), page.as_uri()], check=True, capture_output=True)
-        print(pdf.relative_to(REPO), pdf.stat().st_size // 1024, "KB")
+        # four pages of lesson and one of answers; a long set of tasks is set a little tighter to keep to that
+        for compact in (False, True):
+            page.write_text(sheet(lv, True, compact), encoding="utf-8")
+            subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-pdf-header-footer", "--virtual-time-budget=4000",
+                            "--print-to-pdf=" + str(pdf), page.as_uri()], check=True, capture_output=True)
+            pages = len(re.findall(rb"/Type\s*/Page[^s]", pdf.read_bytes()))
+            if pages <= 5:
+                break
+        print(pdf.relative_to(REPO), pdf.stat().st_size // 1024, "KB", pages, "pages" + (" (tight)" if compact else ""))

@@ -6,6 +6,7 @@ source: Nature Human Behaviour | https://www.nature.com/articles/s41562-025-0225
 image: images/would-you-work-four-days-a-week-for-the-same-salary-384fa8.jpg
 image-alt: A hand draws a green circle around the 26 on a wall calendar, in a column where the 5th, 12th and 19th are already circled in the same pen.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

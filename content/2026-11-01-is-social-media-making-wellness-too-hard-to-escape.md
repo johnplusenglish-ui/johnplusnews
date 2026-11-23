@@ -10,6 +10,7 @@ source-2-date: 1 September 2026
 image: images/is-social-media-making-wellness-too-hard-to-escape-c95a71.jpg
 image-alt: Seen from above on a grey counter, a phone full of colourful tiles leans on a white mug beside a cheese sandwich, a glass of water and a bitten apple, while a hand picks up the sandwich.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

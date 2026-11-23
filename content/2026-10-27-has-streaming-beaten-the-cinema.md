@@ -7,6 +7,7 @@ source: AP-NORC, Streaming is overtaking theaters for movie watchers | https://a
 image: images/has-streaming-beaten-the-cinema-acd1b8.jpg
 image-alt: Rows of empty red cinema seats with a handful of people scattered among them, facing a bright blank screen marked with a single red streaming logo.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

@@ -10,6 +10,7 @@ source-2-date: 21 October 2026
 image: images/what-if-some-depression-is-really-a-body-clock-problem-b051df.jpg
 image-alt: A woman with dark curly hair tied up stands at a window with her eyes closed and a small smile, one hand on a mustard curtain, morning light on her face.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 
