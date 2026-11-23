@@ -1488,13 +1488,13 @@ select.ls-g:focus-visible, input.ls-g:focus-visible, .ls-kw-w select:focus-visib
 .ls-score.ls-good { color: var(--ls-ok); }
 .ls-readhead { display: flex; align-items: center; gap: 12px; margin: 0; padding: 11px 0 0; font-family: var(--sf); font-size: 1.14rem; font-weight: 600; color: var(--ink); }
 .ls-readhow { margin: 4px 0 14px 40px; }
-.ls .panels { margin-left: 40px; }
-.ls .prose { counter-reset: lsp; padding-bottom: 8px; font-size: 1.22rem; line-height: 1.62; }
+.ls .panels { margin: 6px 0 0; padding: 30px 34px 14px 74px; border: 1px solid var(--line); border-radius: 16px; background: #f7f9fc; }
+.ls .prose { counter-reset: lsp; padding-bottom: 0; font-size: 1.22rem; line-height: 1.62; }
 .ls .prose > p { position: relative; counter-increment: lsp; margin: 0 0 18px; }
 .ls .prose > p::before { content: counter(lsp); position: absolute; left: -40px; top: 5px; display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px;
   border-radius: 50%; background: var(--accent-soft); font-family: var(--sf); font-size: 0.76rem; font-weight: 600; line-height: 1; color: var(--accent); }
 .ls .prose > p:first-of-type::first-letter { float: none; padding: 0; font-size: inherit; font-weight: inherit; line-height: inherit; color: inherit; }
-.ls .article-info { margin-left: 40px; margin-top: 8px; padding-top: 0; border-top: 0; }
+.ls .article-info { margin: 18px 0 0; padding-top: 0; border-top: 0; }
 .ls-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-bottom: 16px; }
 .ls-card { padding: 14px 16px; border: 1px solid var(--accent); border-radius: 10px; background: var(--accent-soft); }
 .ls-card h4, .ls-phr h4 { margin: 0 0 6px; font-family: var(--sf); font-size: 0.88rem; font-weight: 600; color: var(--accent); }
@@ -1513,7 +1513,8 @@ select.ls-g:focus-visible, input.ls-g:focus-visible, .ls-kw-w select:focus-visib
   .ls .hero { margin-top: 18px; }
   .ls .hero-img { aspect-ratio: 3 / 2; }
   .ls-body { padding-left: 0; }
-  .ls-readhow, .ls .panels, .ls .article-info { margin-left: 0; }
+  .ls-readhow { margin-left: 0; }
+  .ls .panels { padding: 20px 18px 6px; border-radius: 14px; }
   .ls .prose > p::before { position: static; margin-right: 8px; vertical-align: 2px; }
   .ls-kw { grid-template-columns: minmax(0, 1fr); gap: 16px 0; }
   .ls-cards { grid-template-columns: minmax(0, 1fr); }
