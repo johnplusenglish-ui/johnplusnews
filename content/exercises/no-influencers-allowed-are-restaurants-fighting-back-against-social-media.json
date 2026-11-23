@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Some businesses have decided that ____.",
-            "a": "enough is enough"
+            "s": "You need written ____ from the manager before you start filming.",
+            "a": "permission"
           },
           {
-            "s": "Some visitors had booked a meal and then ____ with bags of clothes.",
-            "a": "turned up"
+            "s": "Guests in a spa expect some ____, so staff keep the doors closed.",
+            "a": "privacy"
           },
           {
-            "s": "The aim is to let staff ____ with their work.",
-            "a": "get on"
+            "s": "A tripod and a ring light are large pieces of ____ that can block the way.",
+            "a": "equipment"
           },
           {
-            "s": "Travellers often ____ places online before making plans.",
-            "a": "look up"
+            "s": "The shop introduced ____ on filming during busy hours.",
+            "a": "restrictions"
           },
           {
-            "s": "Long photoshoots and strangers in videos can ____.",
-            "a": "spoil the atmosphere"
+            "s": "A photo is a nice ____ of a special birthday.",
+            "a": "memory"
           }
         ],
         "extra": [
-          "deal with",
-          "uncomfortable"
+          "reservation",
+          "audience"
         ]
       },
       "match": [
@@ -52,86 +52,155 @@
         "kind": "verb",
         "items": [
           {
-            "s": "At the next table, someone ____ photographs of every corner.",
+            "s": "The hotel ____ a new rule last month.",
+            "cue": "introduce",
+            "a": "introduced"
+          },
+          {
+            "s": "Last year, the farm shop ____ popular online.",
+            "cue": "become",
+            "a": "became"
+          },
+          {
+            "s": "Some guests ____ about the noise.",
+            "cue": "complain",
+            "a": "complained"
+          },
+          {
+            "s": "A group at the next table ____ photographs right now.",
             "cue": "take",
             "a": "is taking"
           },
           {
-            "s": "In October 2026, reports ____ hotels that were limiting photography.",
-            "cue": "describe",
-            "a": "described"
-          },
-          {
-            "s": "One hotel in Antibes now ____ permission for organised photoshoots.",
-            "cue": "require",
-            "a": "requires"
-          },
-          {
-            "s": "A café that appears in a popular video may suddenly ____ people queuing.",
-            "cue": "have",
-            "a": "have"
-          },
-          {
-            "s": "Imagine ____ a table at a beautiful restaurant.",
-            "cue": "book",
-            "a": "booking"
+            "s": "Visitors ____ in a long line outside the café.",
+            "cue": "stand",
+            "a": "stood"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The article says photography should be banned completely.",
+          "s": "The hotel in Antibes asks people to get permission for organised photoshoots.",
+          "a": "T",
+          "why": "The text says it \"requires permission for organised photoshoots\"."
+        },
+        {
+          "s": "The Hollies limits filming and photographs all day.",
           "a": "F",
-          "why": "The text says the opposite: \"A complete ban may seem too strict, especially for customers who simply want a memory of a special day.\""
+          "why": "The limits are only \"from ten until four\"."
         },
         {
-          "s": "The Hollies has lost customers because of the new rule.",
+          "s": "The hotel in Antibes has earned more money since it introduced its rule.",
           "a": "N",
-          "why": "Not stated. The text does not say whether the Hollies has lost any customers."
+          "why": "The text says nothing about the hotel's money."
         },
         {
-          "s": "The Hollies limits filming during the busiest hours of the day.",
-          "a": "T",
-          "why": "The text says: \"It introduced restrictions on filming and taking photographs during busy daytime hours, from ten until four.\""
+          "s": "The writer thinks social media is always a problem.",
+          "a": "F",
+          "why": "The text says \"social media is not always a problem\"."
         },
         {
-          "s": "A nice picture online can bring new customers to a small restaurant.",
+          "s": "The writer suggests clear rules instead of a complete ban.",
           "a": "T",
-          "why": "The text says: \"A lovely photograph can help a small restaurant attract new customers.\""
+          "why": "The text says \"Clear rules could be a better answer\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "organised",
+          "d": "planned carefully, with many people or things"
+        },
+        {
+          "t": "jewellery",
+          "d": "rings, necklaces and other things you wear for decoration"
+        },
+        {
+          "t": "atmosphere",
+          "d": "the feeling of a place"
+        },
+        {
+          "t": "strict",
+          "d": "not allowing people to break rules"
+        },
+        {
+          "t": "queuing",
+          "d": "standing in a line to wait"
+        },
+        {
+          "t": "ban",
+          "d": "an official rule that says you cannot do something"
+        },
+        {
+          "t": "content",
+          "d": "videos and pictures that people put online"
+        },
+        {
+          "t": "aim",
+          "d": "the thing you want to do"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Collocations are words that go together naturally. Learn the whole pair, for example pay attention.",
+        "items": [
+          {
+            "s": "Please ____ attention to the rules on the sign.",
+            "a": "pay"
+          },
+          {
+            "s": "Many people like to ____ a photo of their dessert.",
+            "a": "take"
+          },
+          {
+            "s": "The hotel made a ____ to protect its guests.",
+            "a": "decision"
+          },
+          {
+            "s": "They arrived early to ____ a table by the window.",
+            "a": "book"
+          },
+          {
+            "s": "The shop will ____ a limit on filming at busy times.",
+            "a": "set"
+          }
+        ],
+        "extra": [
+          "lose",
+          "carry"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "For them, the hotel is ____ rather than a place to relax.",
-            "a": "a backdrop"
+            "s": "Old buildings are expensive to ____, but the town believes they are worth saving.",
+            "a": "preserve"
           },
           {
-            "s": "That clash has persuaded some businesses to ____ their approach.",
-            "a": "rethink"
+            "s": "Good ____ in a magazine can bring a small business hundreds of new customers.",
+            "a": "publicity"
           },
           {
-            "s": "A short video can put an unknown café ____.",
-            "a": "on the map"
-          },
-          {
-            "s": "Telling customers to put their phones away may seem ____.",
+            "s": "It seems ____ to ban phones in a restaurant that uses customers' photos in its adverts.",
             "a": "hypocritical"
           },
           {
-            "s": "Small interruptions can ____ into an argument about privacy.",
-            "a": "build up"
+            "s": "A waiter cannot serve three tables ____, so someone always has to wait.",
+            "a": "simultaneously"
           },
           {
-            "s": "The sensible answer may lie between a photoshoot and ____.",
-            "a": "a blanket ban"
+            "s": "The council ____ a strict limit on noise after ten o'clock.",
+            "a": "imposed"
+          },
+          {
+            "s": "The festival is ____ aimed at families, though everyone is welcome.",
+            "a": "primarily"
           }
         ],
         "extra": [
-          "get on with",
-          "irresistible"
+          "gradually",
+          "generously"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The problem is not limited to ____ hotels.",
-            "cue": "EXCLUDE",
-            "a": "exclusive"
+            "s": "By the time the manager arrived, the guests ____ their clothes twice.",
+            "cue": "change",
+            "a": "had changed"
           },
           {
-            "s": "Management wanted to protect the ____ of other guests.",
-            "cue": "PRIVATE",
-            "a": "privacy"
+            "s": "Next year the café ____ a quiet hour for diners.",
+            "cue": "offer",
+            "a": "will offer"
           },
           {
-            "s": "Businesses often benefit ____ from social media publicity.",
-            "cue": "ENORMOUS",
-            "a": "enormously"
+            "s": "You ____ before you film strangers.",
+            "cue": "should / ask",
+            "a": "should ask"
           },
           {
-            "s": "Influencers point out that their work involves real planning and ____.",
-            "cue": "PROMOTE",
-            "a": "promotion"
+            "s": "The rule ____ by the hotel last spring.",
+            "cue": "introduce",
+            "a": "was introduced"
           },
           {
-            "s": "Including strangers in a video without their ____ is different.",
-            "cue": "AGREE",
-            "a": "agreement"
+            "s": "While the staff ____ a table, a group began filming.",
+            "cue": "clear",
+            "a": "were clearing"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Restaurants never use photographs in their own advertising.",
+          "s": "The Hollies' restrictions apply during only part of the day.",
+          "a": "T",
+          "why": "The restrictions run \"between 10am and 4pm\"."
+        },
+        {
+          "s": "The Hollies became popular because its owners advertised on social media.",
           "a": "F",
-          "why": "The text says the opposite: \"Restaurants use attractive photographs in their own advertising, so telling paying customers to put their phones away may seem rather hypocritical.\""
+          "why": "It became popular \"after being featured by a celebrity\"."
         },
         {
-          "s": "Organised photoshoots at the Antibes hotel can no longer go ahead without approval.",
-          "a": "T",
-          "why": "The text says: \"At the famous Hotel du Cap-Eden-Roc in Antibes, organised photoshoots now require permission.\""
-        },
-        {
-          "s": "Most French hotels have introduced similar rules.",
+          "s": "Most guests at Hotel du Cap-Eden-Roc support the new rule.",
           "a": "N",
-          "why": "Not stated. The text does not say how many French hotels have introduced similar rules."
+          "why": "The text does not say what guests think."
         },
         {
-          "s": "A celebrity helped make the Hollies a social media attraction.",
+          "s": "Restaurants themselves use photographs to attract customers.",
           "a": "T",
-          "why": "The text says: \"The business had become a popular social media destination after being featured by a celebrity.\""
+          "why": "\"Restaurants use attractive photographs in their own advertising\"."
+        },
+        {
+          "s": "The writer believes the best solution is a complete ban on photography.",
+          "a": "F",
+          "why": "The \"sensible answer\" lies between an unrestricted photoshoot and a blanket ban."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "backdrop",
+          "d": "the scene behind something, such as in a photo"
+        },
+        {
+          "t": "clash",
+          "d": "a strong disagreement between two groups or ideas"
+        },
+        {
+          "t": "rethink",
+          "d": "think again about a plan or idea"
+        },
+        {
+          "t": "unwritten",
+          "d": "accepted by everyone but never officially written down"
+        },
+        {
+          "t": "complication",
+          "d": "a new problem that makes things harder"
+        },
+        {
+          "t": "dedicated",
+          "d": "used only for one purpose"
+        },
+        {
+          "t": "unofficial",
+          "d": "not approved by an authority"
+        },
+        {
+          "t": "frustrated",
+          "d": "annoyed because you cannot do what you want"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Many collocations combine a common verb with a noun. The verb is often not the one you would guess, so learn the pair together.",
+        "items": [
+          {
+            "s": "Customers may ____ a complaint if the noise is too loud.",
+            "a": "make"
+          },
+          {
+            "s": "Some visitors ____ little respect for other diners.",
+            "a": "show"
+          },
+          {
+            "s": "Influencers can ____ a huge audience in a single week.",
+            "a": "reach"
+          },
+          {
+            "s": "A good review can do ____ for a small café's reputation.",
+            "a": "wonders"
+          },
+          {
+            "s": "Managers must ____ a balance between publicity and peace.",
+            "a": "strike"
+          }
+        ],
+        "extra": [
+          "bear",
+          "carry"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Employees are left to cope when complaints start ____.",
-            "a": "pouring in"
+            "s": "The outbreak was ____ to a single district, and officials said it would not spread.",
+            "a": "confined"
           },
           {
-            "s": "An October 2026 report described venues ____ intrusive photography.",
-            "a": "clamping down on"
+            "s": "A ____ waiter will refill your glass without interrupting the conversation.",
+            "a": "discreet"
           },
           {
-            "s": "What looks like free publicity can become ____ for staff.",
-            "a": "an operational headache"
+            "s": "Critics argue that no form of entertainment is ____ harmful; it is how people use it.",
+            "a": "inherently"
           },
           {
-            "s": "There is a striking ____ at the heart of these bans.",
-            "a": "contradiction"
+            "s": "By ____ the early signs of trouble, the board allowed the problem to grow.",
+            "a": "overlooking"
           },
           {
-            "s": "The tension becomes especially ____ in an intimate setting.",
-            "a": "acute"
+            "s": "After weeks of negotiation, the small studio finally ____ a contract with the broadcaster.",
+            "a": "secured"
           },
           {
-            "s": "Customers also have a responsibility to ____ and notice how their behaviour affects others.",
-            "a": "read the room"
+            "s": "A single ____ guest can ruin an evening for a whole dining room.",
+            "a": "disruptive"
           }
         ],
         "extra": [
-          "pick up the pieces",
-          "proportionate"
+          "elaborate",
+          "unwarranted"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The question is not whether photography is inherently ____, but whose needs take priority.",
-            "cue": "OBJECT",
-            "a": "objectionable"
+            "s": "The ____ of filming rules in hotels shows how widespread the problem has become.",
+            "cue": "PROLIFERATE",
+            "a": "proliferation"
           },
           {
-            "s": "The hotel requires prior ____ for organised photoshoots.",
-            "cue": "AUTHORISE",
-            "a": "authorisation"
+            "s": "Staff described the guests' behaviour as ____, since it disturbed other diners.",
+            "cue": "CONSIDER",
+            "a": "inconsiderate"
           },
           {
-            "s": "Influencers can also provide valuable ____ work, particularly when advertising is beyond a small company's budget.",
-            "cue": "PROMOTE",
-            "a": "promotional"
+            "s": "Venues must act ____ if they want to avoid accusations of unfairness.",
+            "cue": "CONSISTENT",
+            "a": "consistently"
           },
           {
-            "s": "Dismissing every creator as ____ overlooks genuine work.",
-            "cue": "DISRUPT",
-            "a": "disruptive"
+            "s": "Rules are only as good as their ____.",
+            "cue": "ENFORCE",
+            "a": "enforcement"
           },
           {
-            "s": "Dismissing every content creator as vain or disruptive risks overlooking genuine ____.",
-            "cue": "CREATE",
-            "a": "creativity"
+            "s": "Many owners are ____ to criticise influencers openly for fear of losing publicity.",
+            "cue": "WILL",
+            "a": "unwilling"
           }
         ]
       },
       "tfn": [
         {
-          "s": "One proposed answer is to allow filming only at set times.",
+          "s": "The writer implies that venues gain from the same activity they now restrict.",
           "a": "T",
-          "why": "The text says: \"Rather than declaring war on social media, venues could introduce proportionate rules: designated filming times, consent requirements and advance approval for commercial shoots.\""
+          "why": "The \"striking contradiction\" is that hospitality depends on visual appeal yet bans photography."
         },
         {
-          "s": "The writer calls for a complete ban on filming in restaurants.",
+          "s": "The Antibes hotel and the Cheshire farm shop apply identical restrictions.",
           "a": "F",
-          "why": "The text says the opposite: \"Rather than declaring war on social media, venues could introduce proportionate rules: designated filming times, consent requirements and advance approval for commercial shoots.\""
+          "why": "The hotel requires authorisation for organised shoots; the farm shop restricts photography during its busiest hours."
         },
         {
-          "s": "Influencers have organised a campaign against the restrictions.",
+          "s": "The Hollies has lost customers since it restricted filming.",
           "a": "N",
-          "why": "Not stated. The text does not say whether influencers have organised any campaign."
+          "why": "The text does not report any effect on customer numbers."
         },
         {
-          "s": "At the Hollies, the limits on photography apply when the shop is busiest.",
+          "s": "The article suggests that a person's job matters less than how they behave.",
           "a": "T",
-          "why": "The text says: \"The Hollies farm shop in Cheshire has restricted photography and filming during its busiest daytime hours after becoming a social media destination.\""
+          "why": "\"The real dividing line may be behaviour rather than professional status\"."
+        },
+        {
+          "s": "The article claims influencers are useful only to large companies.",
+          "a": "F",
+          "why": "It says they help \"when traditional advertising is beyond a small company's budget\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "intrusive",
+          "d": "disturbing people's privacy or peace without being invited"
+        },
+        {
+          "t": "authorisation",
+          "d": "official permission"
+        },
+        {
+          "t": "phenomenon",
+          "d": "something that happens or exists and is noticed by many people"
+        },
+        {
+          "t": "vain",
+          "d": "too proud of how you look or what you do"
+        },
+        {
+          "t": "designated",
+          "d": "officially chosen for a particular purpose"
+        },
+        {
+          "t": "consent",
+          "d": "agreement to let something happen"
+        },
+        {
+          "t": "intimate",
+          "d": "private and personal, usually with few people"
+        },
+        {
+          "t": "objectionable",
+          "d": "unpleasant enough that people complain about it"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "At C1, look for fixed phrases where one word is almost impossible to replace, such as blunt instrument or mounting pressure.",
+        "items": [
+          {
+            "s": "The council is under ____ pressure to explain its decision.",
+            "a": "mounting"
+          },
+          {
+            "s": "A blanket ban is a blunt ____ that punishes polite guests along with rude ones.",
+            "a": "instrument"
+          },
+          {
+            "s": "Even sceptics admit that credit is ____ to the cafés that spotted the trend early.",
+            "a": "due"
+          },
+          {
+            "s": "Venues must ____ a clear line between filming for work and snapping a memory.",
+            "a": "draw"
+          },
+          {
+            "s": "The new policy was ____ with a mixed reaction.",
+            "a": "met"
+          }
+        ],
+        "extra": [
+          "swift",
+          "pose"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: filming at the restaurant",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the restaurant manager",
+      "text": "A customer wants to film a video at one of your tables. Other guests are already eating. Ask what equipment they will use and how long it will take. You can say yes, no, or yes with rules."
+    },
+    "b": {
+      "role": "the influencer",
+      "text": "You want to film a short video of your lunch. It could bring the restaurant new customers. Explain why it's good for the business and promise to be quiet."
+    },
+    "phrases": [
+      "Would it be all right if I filmed my meal?",
+      "I'm afraid other guests might feel uncomfortable.",
+      "It won't take long, and I'll keep the noise down.",
+      "I'd be happy to agree if you stay at your table.",
+      "That's not really fair on the other customers.",
+      "Could we agree on a time limit?"
+    ],
+    "after": "Afterwards, tell the class: did the manager say yes, and was it a fair decision?"
   }
 }

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Customers can ask an older woman to cook, teach a skill or ____ them.",
-            "a": "spend time with"
+            "s": "Can you help me ____ my papers into neat piles?",
+            "a": "organise"
           },
           {
-            "s": "A job like this can ____ money and fill the day with activity.",
-            "a": "bring in"
+            "s": "The box is heavy, and I can't ____ it on my own.",
+            "a": "manage"
           },
           {
-            "s": "Some families live ____, so visiting is not easy.",
-            "a": "far away from one another"
+            "s": "A plumber gives ____ help, not just advice.",
+            "a": "practical"
           },
           {
-            "s": "A younger person can ____ a skill from somebody experienced.",
-            "a": "pick up"
+            "s": "In some homes, three ____ live together: children, parents and grandparents.",
+            "a": "generations"
           },
           {
-            "s": "The older worker may enjoy ____ again.",
-            "a": "feeling needed"
+            "s": "A good ____ with your neighbours makes life easier.",
+            "a": "relationship"
           }
         ],
         "extra": [
-          "drop in",
-          "patient"
+          "advice",
+          "skill"
         ]
       },
       "match": [
@@ -62,9 +62,9 @@
             "a": "started"
           },
           {
-            "s": "Japan ____ an ageing population.",
-            "cue": "have",
-            "a": "has"
+            "s": "Taeko Kaji ____ to Australian journalists in 2025.",
+            "cue": "speak",
+            "a": "spoke"
           },
           {
             "s": "She said she enjoyed ____ to different places and trying new experiences.",
@@ -98,40 +98,109 @@
           "s": "Taeko Kaji was 69 when she spoke to journalists in 2025.",
           "a": "T",
           "why": "The text says: \"One woman working for the service, Taeko Kaji, was 69 when she spoke to Australian journalists in 2025.\""
+        },
+        {
+          "s": "It is easy for families who live far away to drop in for an hour.",
+          "a": "F",
+          "why": "The text says: \"Some families also live far away from one another, so it is not easy to drop in for an hour.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "customers",
+          "d": "people who buy a product or a service"
+        },
+        {
+          "t": "ageing",
+          "d": "getting older, with more old people in the country"
+        },
+        {
+          "t": "population",
+          "d": "all the people who live in a place"
+        },
+        {
+          "t": "genuinely",
+          "d": "really, in a true way"
+        },
+        {
+          "t": "journalists",
+          "d": "people who write news stories"
+        },
+        {
+          "t": "carers",
+          "d": "people whose job is to look after others"
+        },
+        {
+          "t": "knowledge",
+          "d": "what you know about a subject"
+        },
+        {
+          "t": "activity",
+          "d": "something you do, often with other people"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word such as up or out. The small word changes the meaning, so learn the two words together.",
+        "items": [
+          {
+            "s": "Her granddaughter looks ____ her when she is ill.",
+            "a": "after"
+          },
+          {
+            "s": "Can you help me find ____ when the next bus leaves?",
+            "a": "out"
+          },
+          {
+            "s": "Please carry ____ with your story; I'm listening.",
+            "a": "on"
+          },
+          {
+            "s": "He was born in Osaka, but he grew ____ in Tokyo.",
+            "a": "up"
+          },
+          {
+            "s": "Please turn ____ the oven; it is too hot in here.",
+            "a": "off"
+          }
+        ],
+        "extra": [
+          "through",
+          "away"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Customers can arrange for an older woman to ____ practical knowledge.",
-            "a": "pass on"
+            "s": "Many people hold the ____ that older workers cannot learn new skills.",
+            "a": "assumption"
           },
           {
-            "s": "Families may live far apart, and ____ takes effort that busy people do not always have.",
-            "a": "keeping in touch"
+            "s": "Living alone, far from family, can lead to loneliness and social ____.",
+            "a": "isolation"
           },
           {
-            "s": "Workers may cook or ____ belongings for a customer.",
-            "a": "sort out"
+            "s": "After years of full-time ____, she wanted something less stressful.",
+            "a": "employment"
           },
           {
-            "s": "Others simply need ____ someone patient and experienced.",
-            "a": "a hand from"
+            "s": "Teachers and doctors keep clear professional ____ with the people they help.",
+            "a": "boundaries"
           },
           {
-            "s": "For older people, this work can mean income as well as ____.",
-            "a": "a sense of purpose"
+            "s": "Friends and neighbours are rarely ____ for trained care workers.",
+            "a": "substitutes"
           },
           {
-            "s": "If contact between generations matters, why do we ____?",
-            "a": "leave it to chance"
+            "s": "At 65, many people look forward to ____ and more free time.",
+            "a": "retirement"
           }
         ],
         "extra": [
-          "accompany",
-          "uncomfortable"
+          "reassurance",
+          "outing"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The women are paid ____ rather than volunteers.",
-            "cue": "PROFESSION",
-            "a": "professionals"
+            "s": "The business ____ since 2011, and customers still book it.",
+            "cue": "run",
+            "a": "has been running|has run"
           },
           {
-            "s": "Some customers are looking for ____.",
-            "cue": "COMPANION",
-            "a": "companionship"
+            "s": "If families lived closer together, they ____ in touch more easily.",
+            "cue": "keep",
+            "a": "would keep"
           },
           {
-            "s": "Younger adults rarely get the chance to spend ____ time with anyone much older.",
-            "cue": "MEANING",
-            "a": "meaningful"
+            "s": "The company ____ that its workers can replace a family.",
+            "cue": "not pretend",
+            "a": "does not pretend|doesn't pretend"
           },
           {
-            "s": "The service attracted attention because of growing social ____.",
-            "cue": "ISOLATE",
-            "a": "isolation"
+            "s": "The grandmothers ____ by the hour, not by the day.",
+            "cue": "book",
+            "a": "are booked"
           },
           {
-            "s": "Many valuable relationships involve professional ____.",
-            "cue": "BOUND",
-            "a": "boundaries"
+            "s": "Customers ____ that the visit is a paid job.",
+            "cue": "should / understand",
+            "a": "should understand"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "The company is clear that the workers are not family substitutes.",
           "a": "T",
           "why": "The text says: \"the company does not pretend they are substitutes for a customer's relatives.\""
+        },
+        {
+          "s": "The writer thinks schools and workplaces usually bring young and old together on purpose.",
+          "a": "F",
+          "why": "The text says they \"rarely bring young and old together on purpose\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "variety",
+          "d": "a number of different things or experiences"
+        },
+        {
+          "t": "guidance",
+          "d": "help and advice about what to do"
+        },
+        {
+          "t": "demanding",
+          "d": "needing a lot of time or effort"
+        },
+        {
+          "t": "awkward",
+          "d": "difficult, or making you feel uncomfortable"
+        },
+        {
+          "t": "accidental",
+          "d": "happening by chance, not planned"
+        },
+        {
+          "t": "foolish",
+          "d": "silly, or showing poor judgement"
+        },
+        {
+          "t": "separated",
+          "d": "kept apart, not together"
+        },
+        {
+          "t": "challenges",
+          "d": "tests whether an idea is true or fair"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs have a meaning you cannot guess from the parts. Learn the whole verb, and notice whether it takes an object.",
+        "items": [
+          {
+            "s": "Researchers will ____ into why so many older people live alone.",
+            "a": "look"
+          },
+          {
+            "s": "Two friends decided to ____ up a service like this in their own city.",
+            "a": "set"
+          },
+          {
+            "s": "While travelling, you may ____ across all kinds of people.",
+            "a": "come"
+          },
+          {
+            "s": "Many older people ____ on part-time work after they retire.",
+            "a": "take"
+          },
+          {
+            "s": "He decided to ____ down his working hours to spend more time with family.",
+            "a": "cut"
+          }
+        ],
+        "extra": [
+          "hold",
+          "fall"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "People have always sought support beyond their immediate families, ____ neighbours, mentors and local institutions.",
-            "a": "falling back on"
+            "s": "No amount of training can fully ____ the warmth of a relationship built over decades.",
+            "a": "replicate"
           },
           {
-            "s": "Clients value somebody willing to listen ____.",
-            "a": "without judgement"
+            "s": "Despite repeated evidence to the contrary, the ____ belief that older workers are slow has survived.",
+            "a": "persistent"
           },
           {
-            "s": "If reassurance becomes a service to be bought, some people may find themselves ____ something that ought to be freely available.",
-            "a": "priced out of"
+            "s": "What distinguishes a good surgeon is not charm but ____, the reliable skill to do the job properly.",
+            "a": "competence"
           },
           {
-            "s": "A visit cannot replicate the ____ of a family relationship.",
-            "a": "mutual obligations"
+            "s": "The profits were ____, enough to pay the rent and little more.",
+            "a": "modest"
           },
           {
-            "s": "But ____ the business off as social decline would be too easy.",
-            "a": "writing"
+            "s": "With the family now ____ across three countries, they see one another once a year.",
+            "a": "dispersed"
           },
           {
-            "s": "Those of ____ may struggle to afford a paid visitor.",
-            "a": "limited means"
+            "s": "Charities often treat the elderly as passive ____ of help rather than as contributors.",
+            "a": "recipients"
           }
         ],
         "extra": [
-          "dwell on",
-          "accumulated"
+          "temporary",
+          "elusive"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The relationship is explicitly professional, even when the experience feels warm and ____.",
-            "cue": "FORM",
-            "a": "informal"
-          },
-          {
-            "s": "The relationship is ____ professional.",
-            "cue": "EXPLICIT",
-            "a": "explicitly"
-          },
-          {
-            "s": "Paid companionship raises questions about ____ and inequality.",
+            "s": "Paid companionship raises uncomfortable questions about ____ and inequality.",
             "cue": "AUTHENTIC",
             "a": "authenticity"
           },
           {
-            "s": "Others may value the ____ presence of somebody older who is willing to listen without judgement.",
-            "cue": "ASSURE",
-            "a": "reassuring"
+            "s": "Part of a family's charm is its sheer ____, since nobody knows what the next visit will bring.",
+            "cue": "PREDICT",
+            "a": "unpredictability"
           },
           {
-            "s": "People sought help from neighbours and mentors when relatives were unavailable or ____.",
-            "cue": "SUIT",
-            "a": "unsuitable"
+            "s": "Customers appreciate ____ about what they are paying for.",
+            "cue": "TRANSPARENT",
+            "a": "transparency"
+          },
+          {
+            "s": "The ____ view that old age means dependence is increasingly challenged.",
+            "cue": "CONVENTION",
+            "a": "conventional"
+          },
+          {
+            "s": "Poorer households may find the fees ____, however valuable the visits.",
+            "cue": "AFFORD",
+            "a": "unaffordable"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The writer notes that people have long relied on neighbours and mentors for support.",
+          "s": "The writer implies that customers should not expect a hired visitor to become a relative.",
           "a": "T",
-          "why": "The text says: \"People have always sought wisdom and support beyond their immediate families, falling back on neighbours, mentors and local institutions\""
+          "why": "The text says the relationship is \"explicitly professional\" and that neither motive \"makes the visitor a relative\"."
         },
         {
-          "s": "Client Partners founded the service in 2011.",
-          "a": "T",
-          "why": "The text says: \"Set up by Client Partners in 2011, the service matches customers with women who can provide practical assistance\""
-        },
-        {
-          "s": "The writer concludes the business proves society is in decline.",
+          "s": "The writer argues that the service will push families to take on more responsibility for older relatives.",
           "a": "F",
-          "why": "The text says the opposite: \"But writing the business off as evidence of social decline would be too easy.\""
+          "why": "The text warns that a commercial solution \"quietly relieves families\" of obligations."
         },
         {
-          "s": "Most customers of the service are under forty.",
+          "s": "Most of the women who work for the service used to have jobs in caring.",
           "a": "N",
-          "why": "Not stated. The text does not give the ages of the customers."
+          "why": "Not stated. The text says nothing about the women's earlier careers."
+        },
+        {
+          "s": "Taeko Kaji's experience supports the view that older people can be skilled contributors.",
+          "a": "T",
+          "why": "The text says her positive account \"challenges a persistent assumption\" that older people are mainly recipients of care."
+        },
+        {
+          "s": "The writer regards paying for support outside the family as a modern invention.",
+          "a": "F",
+          "why": "The text says people \"have always sought wisdom and support beyond their immediate families\"; only the honesty of the financial terms may be new."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "shorthand",
+          "d": "a short, quick way of describing something"
+        },
+        {
+          "t": "overlapping",
+          "d": "partly the same, sharing some parts"
+        },
+        {
+          "t": "explicitly",
+          "d": "in a clear and direct way, with nothing hidden"
+        },
+        {
+          "t": "judgement",
+          "d": "criticism, or a negative opinion of someone"
+        },
+        {
+          "t": "inequality",
+          "d": "an unfair difference in wealth or opportunity"
+        },
+        {
+          "t": "mentors",
+          "d": "experienced people who give advice to others"
+        },
+        {
+          "t": "admission",
+          "d": "a statement that something bad is true"
+        },
+        {
+          "t": "relieves",
+          "d": "removes a duty or a worry from someone"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "At this level many phrasal verbs are idiomatic, so the literal meaning of the parts will not help. Learn each one with the particle it needs.",
+        "items": [
+          {
+            "s": "Governments that ____ aside the loneliness problem risk finding that it grows.",
+            "a": "brush"
+          },
+          {
+            "s": "When the family cannot help, older people often ____ back on savings or friends.",
+            "a": "fall"
+          },
+          {
+            "s": "Critics ____ down the benefits by calling the visits a gimmick.",
+            "a": "play"
+          },
+          {
+            "s": "Rather than ____ over the awkward questions, a good report confronts them.",
+            "a": "gloss"
+          },
+          {
+            "s": "A paid visitor can ____ in for an absent relative, but cannot replace the family.",
+            "a": "stand"
+          }
+        ],
+        "extra": [
+          "tide",
+          "wear"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: should we hire a grandmother?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the daughter",
+      "text": "Your father lives alone and you live far away. You want to book a paid visitor from a service like OK! Obaachan for two hours a week. Explain why it could help, listen to his worries and try to agree a plan."
+    },
+    "b": {
+      "role": "the father",
+      "text": "You're proud and independent. You think paid company is strange, and you'd rather see your family. Say what worries you. You can say no, or agree to try it if the conditions are right."
+    },
+    "phrases": [
+      "I'm worried you're on your own too much.",
+      "It's only a trial, so we could try it once.",
+      "I don't want a stranger in my house.",
+      "She'd help with the cooking, and she'd be good company.",
+      "I'd rather see you than pay someone.",
+      "Let's try it for a month and see how it goes."
+    ],
+    "after": "Afterwards, tell the class: did the father agree, and what changed his mind?"
   }
 }

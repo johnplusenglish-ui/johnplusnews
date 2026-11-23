@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "In July and August, the car parks near the sea ____ quickly.",
-            "a": "fill up"
+            "s": "Several ____ gave out leaflets and asked people to sign a petition.",
+            "a": "campaigners"
           },
           {
-            "s": "The beach is a place they ____ visiting as children.",
-            "a": "grew up"
+            "s": "Beautiful beaches ____ thousands of tourists every summer.",
+            "a": "attract"
           },
           {
-            "s": "They want their children to use it without ____.",
-            "a": "paying for the privilege"
+            "s": "The car park charges a small ____ of three euros for the whole day.",
+            "a": "fee"
           },
           {
-            "s": "Parking and cleaning are useful, but those services usually ____.",
-            "a": "come at a price"
+            "s": "Beach land is very ____, so a house with a sea view can cost millions.",
+            "a": "valuable"
           },
           {
-            "s": "Somebody has to ____ cleaning, parking and safety.",
-            "a": "pay for"
+            "s": "Many people who live ____ walk to the beach after work.",
+            "a": "nearby"
           }
         ],
         "extra": [
-          "come back",
-          "private"
+          "crowded",
+          "protect"
         ]
       },
       "match": [
@@ -52,37 +52,37 @@
         "kind": "verb",
         "items": [
           {
-            "s": "In 2026, that question ____ into a public argument.",
-            "cue": "turn",
-            "a": "turned"
+            "s": "The families ____ swimming there every Sunday when the children were small.",
+            "cue": "go",
+            "a": "went"
           },
           {
-            "s": "Residents ____ against plans connected with several beaches.",
-            "cue": "protest",
-            "a": "protested"
+            "s": "Last summer, the council ____ a public meeting about the plan.",
+            "cue": "hold",
+            "a": "held"
           },
           {
-            "s": "They were afraid that development could ____ access more difficult.",
-            "cue": "make",
-            "a": "make"
+            "s": "A woman ____ the crowd that she had swum there all her life.",
+            "cue": "tell",
+            "a": "told"
           },
           {
-            "s": "The area ____ for clear water and green hills.",
-            "cue": "know",
-            "a": "is known"
+            "s": "A shopkeeper ____ that fewer customers came after the car park became more expensive.",
+            "cue": "say",
+            "a": "said"
           },
           {
-            "s": "The question keeps ____ back in many countries.",
-            "cue": "come",
-            "a": "coming"
+            "s": "Volunteers ____ the beach clean before the protest.",
+            "cue": "keep",
+            "a": "kept"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Arrábida lies south of Lisbon.",
-          "a": "T",
-          "why": "The text says: \"Residents and campaigners protested against plans connected with several beaches in Arrábida, a beautiful coastal area south of Lisbon.\""
+          "s": "The roads near the sea are quiet in July and August.",
+          "a": "F",
+          "why": "The text says: \"the roads and car parks near the sea fill up quickly\""
         },
         {
           "s": "The development plans were cancelled after the protests.",
@@ -92,46 +92,115 @@
         {
           "s": "Tourism can create jobs for people who live nearby.",
           "a": "T",
-          "why": "The text says: \"Businesses can provide parking, cleaning, restaurants and other useful services, and tourism creates jobs for people who live nearby.\""
+          "why": "The text says: \"tourism creates jobs for people who live nearby.\""
         },
         {
-          "s": "The protesters wanted the beaches to be run by private companies.",
+          "s": "A family that visits fifty times a summer would pay a small fee fifty times.",
+          "a": "T",
+          "why": "The text says: \"a family that visits fifty times a summer would pay it fifty times.\""
+        },
+        {
+          "s": "The text says every beach in the area had already become private property.",
           "a": "F",
-          "why": "The text says the opposite: \"The protesters argued that the coastline should stay something everyone can enjoy.\""
+          "why": "The text says the debate \"was not proof that every beach in the area had already become private property\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "residents",
+          "d": "people who live in a place"
+        },
+        {
+          "t": "development",
+          "d": "new buildings or a big plan to build on land"
+        },
+        {
+          "t": "access",
+          "d": "a way to get to a place or use it"
+        },
+        {
+          "t": "privilege",
+          "d": "a special thing that only some people are allowed to have"
+        },
+        {
+          "t": "investment",
+          "d": "money that a company puts into something to make more money later"
+        },
+        {
+          "t": "proof",
+          "d": "facts that show something is true"
+        },
+        {
+          "t": "dispute",
+          "d": "a strong disagreement"
+        },
+        {
+          "t": "wealthier",
+          "d": "having more money than others"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many verbs and nouns need one fixed small word after them. Learn the pair together, not just the first word.",
+        "items": [
+          {
+            "s": "Residents protested ____ the plans for the new car park.",
+            "a": "against"
+          },
+          {
+            "s": "The area is known ____ its clear water and green hills.",
+            "a": "for"
+          },
+          {
+            "s": "Many families worry ____ the cost of a day at the beach.",
+            "a": "about"
+          },
+          {
+            "s": "There is a big difference ____ owning a beach and running services near it.",
+            "a": "between"
+          },
+          {
+            "s": "They want their children to have easy access ____ the sand.",
+            "a": "to"
+          }
+        ],
+        "extra": [
+          "with",
+          "of"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "The sea seems like ____ rather than a product.",
-            "a": "a shared resource"
+            "s": "The council spends a large part of its budget on the ____ of paths and toilets at popular beaches.",
+            "a": "maintenance"
           },
           {
-            "s": "The protest was as much about ____ as about parking spaces.",
-            "a": "local identity"
+            "s": "Many young people left the town to look for ____ elsewhere.",
+            "a": "employment"
           },
           {
-            "s": "Improvements can also ____ charges or restrictions.",
-            "a": "bring in"
+            "s": "Fences keep walkers away from the ____ of rare birds.",
+            "a": "habitats"
           },
           {
-            "s": "Residents need ordinary, affordable access ____.",
-            "a": "all year round"
+            "s": "Some visitors are happy to pay a ____ for a quiet, clean beach with a lifeguard.",
+            "a": "premium"
           },
           {
-            "s": "Tourism can ____ the people who live closest to a destination.",
-            "a": "price out"
+            "s": "The beach cafe's ____ from ice cream doubled in July.",
+            "a": "revenue"
           },
           {
-            "s": "The protest ____ so quickly among people who had enjoyed the beaches for generations.",
-            "a": "struck such a nerve"
+            "s": "Critics warned that the whole shoreline could be ____ within ten years.",
+            "a": "privatised"
           }
         ],
         "extra": [
-          "shut out",
-          "seasonal"
+          "legislation",
+          "congestion"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Some rules that limit building are necessary for ____.",
-            "cue": "CONSERVE",
-            "a": "conservation"
+            "s": "By the time the protest began, most residents ____ about the plans.",
+            "cue": "hear",
+            "a": "had heard"
           },
           {
-            "s": "Measures protect ____ habitats from heavy visitor numbers.",
-            "cue": "SENSE",
-            "a": "sensitive"
+            "s": "Beach cleaning ____ by a private company last summer.",
+            "cue": "do",
+            "a": "was done"
           },
           {
-            "s": "Residents feared that greater ____ control could make it harder for families to visit.",
-            "cue": "COMMERCE",
-            "a": "commercial"
+            "s": "If the fee rises again, local families ____ visiting.",
+            "cue": "stop",
+            "a": "will stop|would stop|may stop|might stop|could stop"
           },
           {
-            "s": "Residents need ordinary, ____ access to the coast.",
-            "cue": "AFFORD",
-            "a": "affordable"
+            "s": "Many residents wish the council ____ them earlier.",
+            "cue": "consult",
+            "a": "had consulted"
           },
           {
-            "s": "Public access and private ____ raise different legal questions.",
-            "cue": "OWN",
-            "a": "ownership"
+            "s": "While the protesters ____ along the road, a cafe owner was handing out water.",
+            "cue": "march",
+            "a": "were marching"
           }
         ]
       },
       "tfn": [
         {
+          "s": "The writer accepts that restrictions in a protected area can be necessary.",
+          "a": "T",
+          "why": "The text says such rules \"can be genuinely necessary for conservation\"."
+        },
+        {
+          "s": "A local family who visits often is affected by a small charge more than a one-off holidaymaker.",
+          "a": "T",
+          "why": "The text says it is \"the local family, not the holidaymaker, who pays it most often\"."
+        },
+        {
+          "s": "Most residents of the Arrábida area work in tourism.",
+          "a": "N",
+          "why": "Not stated. The text does not say how many residents work in tourism."
+        },
+        {
+          "s": "The protesters believed the whole coastline had already been privatised.",
+          "a": "F",
+          "why": "The text says what they feared was \"a future\" of commercial control, and that opposition is \"not the same as proof\" of privatisation."
+        },
+        {
           "s": "Conservation rules, development plans and charges should all be judged together as one decision.",
           "a": "F",
-          "why": "The text says the opposite: \"Conservation rules, development plans and charges are different decisions, and each should be judged on its own.\""
-        },
-        {
-          "s": "The protests concerned beaches in a protected coastal area.",
-          "a": "T",
-          "why": "The text says: \"Campaigners opposed plans affecting access to several beaches in the protected coastal area south of Lisbon.\""
-        },
-        {
-          "s": "The Portuguese government has blocked the development.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether any government has acted on the plans."
-        },
-        {
-          "s": "Many tourism jobs last only a few months.",
-          "a": "T",
-          "why": "The text says: \"Seasonal work adds another layer, since many of the jobs tourism creates last only a few months.\""
+          "why": "The text says the opposite: \"each should be judged on its own.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "assumption",
+          "d": "something you believe is true without checking"
+        },
+        {
+          "t": "concessions",
+          "d": "rights to run a business in a public place, such as a beach cafe"
+        },
+        {
+          "t": "conservation",
+          "d": "protecting nature and wild places"
+        },
+        {
+          "t": "proposal",
+          "d": "a plan that someone suggests"
+        },
+        {
+          "t": "restrictions",
+          "d": "rules that limit what people can do"
+        },
+        {
+          "t": "affordable",
+          "d": "cheap enough for ordinary people to pay"
+        },
+        {
+          "t": "sensitive",
+          "d": "easily harmed or damaged"
+        },
+        {
+          "t": "trivial",
+          "d": "small and not important"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Adjectives, verbs and nouns often take a fixed preposition. After the preposition, use a noun or an -ing form.",
+        "items": [
+          {
+            "s": "Whether the scheme works depends ____ how the money is spent.",
+            "a": "on"
+          },
+          {
+            "s": "Campaigners were not opposed ____ tourism itself.",
+            "a": "to"
+          },
+          {
+            "s": "Barriers protect the dunes ____ damage by large crowds.",
+            "a": "from"
+          },
+          {
+            "s": "Residents are interested ____ keeping the beach affordable.",
+            "a": "in"
+          },
+          {
+            "s": "The council was criticised ____ failing to consult residents.",
+            "a": "for"
+          }
+        ],
+        "extra": [
+          "with",
+          "at"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Stronger private control could ____ residents' ability to enjoy the landscape.",
+            "s": "Secret deals between the council and developers did much to ____ residents' trust in the process.",
             "a": "undermine"
           },
           {
-            "s": "Ownership and managed facilities are different things, however easily they are ____ in a headline.",
+            "s": "Critics claimed the report had ____ public access with private ownership.",
             "a": "conflated"
           },
           {
-            "s": "Vehicle caps may be ecologically ____.",
+            "s": "For a fragile dune system, strict limits on footfall may be ____, not merely desirable.",
             "a": "indispensable"
           },
           {
-            "s": "There is a broader question of ____ here.",
-            "a": "environmental justice"
+            "s": "The two terms are not ____: each has a precise legal meaning.",
+            "a": "interchangeable"
           },
           {
-            "s": "Earlier generations preserved the landscape rather than ____.",
-            "a": "cashing in"
+            "s": "Even after the redevelopment, longstanding residents hope to ____ their right to cross the dunes freely.",
+            "a": "retain"
           },
           {
-            "s": "Councils must decide what to defend when money is ____.",
-            "a": "on the table"
+            "s": "Planners tend to ____ how quickly a quiet cove can become overcrowded.",
+            "a": "underestimate"
           }
         ],
         "extra": [
-          "work out",
-          "genuine"
+          "dispensable",
+          "redundant"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Restrictions may be necessary, but the resulting ____ may fall on ordinary day-trippers.",
-            "cue": "CONVENIENT",
-            "a": "inconvenience"
+            "s": "The planners' failure to consult residents showed a lack of ____.",
+            "cue": "ACCOUNT",
+            "a": "accountability"
           },
           {
-            "s": "Arrábida's striking coastal ____ draws visitors from far away.",
-            "cue": "SCENE",
-            "a": "scenery"
+            "s": "Heavy footfall is causing ____ erosion of the dunes.",
+            "cue": "REVERSE",
+            "a": "irreversible"
           },
           {
-            "s": "The benefits of development tend to be distributed ____.",
-            "cue": "EVEN",
-            "a": "unevenly"
+            "s": "Commercial ____ of public space often goes unnoticed until access is restricted.",
+            "cue": "EXPLOIT",
+            "a": "exploitation"
           },
           {
-            "s": "Those in favour of greater ____ may reasonably emphasise improved facilities and employment.",
-            "cue": "INVEST",
-            "a": "investment"
+            "s": "A properly ____ survey of residents would settle the question.",
+            "cue": "REPRESENT",
+            "a": "representative"
           },
           {
-            "s": "Tourism policy is also about ____ and belonging.",
-            "cue": "GOVERN",
-            "a": "governance"
+            "s": "The council's ____ to consult anyone beforehand angered residents.",
+            "cue": "RELUCTANT",
+            "a": "reluctance"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Protected status makes the issue more complicated rather than solving it.",
+          "s": "The writer suggests an identical restriction can be experienced as either protection or exclusion.",
           "a": "T",
-          "why": "The text says: \"Protected status complicates the picture rather than resolving it.\""
+          "why": "The text says restrictions may be \"ecologically indispensable\" yet can function \"as a mechanism for discouraging ordinary visitors\"."
         },
         {
-          "s": "The strain from visitors arrives mainly in a few months of the year.",
-          "a": "T",
-          "why": "The text says: \"The pressure is concentrated into a few months, which makes it harder to manage and easier to underestimate in the planning stage.\""
-        },
-        {
-          "s": "Local councils have agreed a new access plan.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether councils have agreed any plan."
-        },
-        {
-          "s": "The restrictions that protesters feared have already begun.",
+          "s": "The text claims that earlier generations made money from the landscapes they preserved.",
           "a": "F",
-          "why": "The text says the opposite: \"Nor should fears about a proposed project be reported as though the anticipated restrictions had already taken effect.\""
+          "why": "The text says they \"preserved or shared them rather than cashing in\"."
+        },
+        {
+          "s": "Residents were consulted before the plans were drawn up.",
+          "a": "N",
+          "why": "Not stated. The text asks \"who is consulted beforehand\" but does not say whether anyone was."
+        },
+        {
+          "s": "The writer regards the protests as weak evidence about whether a coastal economy serves local people.",
+          "a": "F",
+          "why": "The text says: \"the protests themselves may be the most useful evidence available.\""
+        },
+        {
+          "s": "A fixed fee is likely to be felt more heavily by regular local visitors than by one-off visitors.",
+          "a": "T",
+          "why": "The text says a fee seems small to someone visiting once, but a local family going back all summer \"may see a very different cost\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "concessions",
+          "d": "permission to run a business in a public place"
+        },
+        {
+          "t": "infrastructure",
+          "d": "the basic systems an area needs, such as roads and drains"
+        },
+        {
+          "t": "ecologically",
+          "d": "in a way that relates to living things and their surroundings"
+        },
+        {
+          "t": "mechanism",
+          "d": "a method or process that makes something happen"
+        },
+        {
+          "t": "governance",
+          "d": "the way a place or organisation is managed and controlled"
+        },
+        {
+          "t": "anticipated",
+          "d": "expected before it happens"
+        },
+        {
+          "t": "discouraging",
+          "d": "making people less willing to do something"
+        },
+        {
+          "t": "distributed",
+          "d": "shared out among a group or area"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At this level the preposition is part of a fixed chunk, usually adjective plus preposition. Learn the whole chunk and its usual object.",
+        "items": [
+          {
+            "s": "Charging locals to reach their own shoreline would be tantamount ____ a tax on belonging.",
+            "a": "to"
+          },
+          {
+            "s": "Any plan to limit cars is fraught ____ political risk.",
+            "a": "with"
+          },
+          {
+            "s": "The scheme's approval was contingent ____ a satisfactory environmental review.",
+            "a": "on"
+          },
+          {
+            "s": "Critics say the profits were made ____ the expense of ordinary visitors.",
+            "a": "at"
+          },
+          {
+            "s": "The plan sits ____ stark contrast to the council's earlier promises.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "by",
+          "for"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a fee for the beach car park",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the council officer",
+      "text": "Your council wants to charge a fee at the beach car park. The money will pay for cleaning and safety. Explain why, listen to the resident, and decide if you can offer anything."
+    },
+    "b": {
+      "role": "the local resident",
+      "text": "You take your family to the beach about fifty times every summer. You think a fee is unfair for local people. Say why, and suggest a better idea."
+    },
+    "phrases": [
+      "I understand your point, but we've got to pay for the cleaning.",
+      "That's a lot of money for a family like ours.",
+      "What if local people got a discount?",
+      "I'm afraid we can't make an exception for everyone.",
+      "Who'd decide how the money's spent?",
+      "Let's try to find something that's fair for everybody."
+    ],
+    "after": "Afterwards, tell the class: did you agree on a fee, and who was happiest with the result?"
   }
 }

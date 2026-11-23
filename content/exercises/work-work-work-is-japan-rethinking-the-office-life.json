@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Your manager is still at their desk, so you ____ again.",
-            "a": "sit down"
+            "s": "A ____ of drivers means that some buses are cancelled every week.",
+            "a": "shortage"
           },
           {
-            "s": "Extremely long hours and ____ can damage both physical and mental health.",
-            "a": "work-related stress"
+            "s": "Hours you work after your normal day, usually for extra money, are called ____.",
+            "a": "overtime"
           },
           {
-            "s": "The report showed that the problem has not ____.",
-            "a": "gone away"
+            "s": "The team is under great ____ to finish the project before Friday.",
+            "a": "pressure"
           },
           {
-            "s": "Many industries are finding it difficult to ____ staff.",
-            "a": "take on"
+            "s": "Nobody wrote it down, but every new worker learns the team's ____: arrive early and never leave first.",
+            "a": "expectations"
           },
           {
-            "s": "Long hours are not ____ either.",
-            "a": "proof of commitment"
+            "s": "Good managers try to find a ____ between hard work and rest.",
+            "a": "balance"
           }
         ],
         "extra": [
-          "flexible",
-          "silent expectations"
+          "salary",
+          "contract"
         ]
       },
       "match": [
@@ -52,17 +52,17 @@
         "kind": "verb",
         "items": [
           {
-            "s": "In some Japanese offices, employees have ____ that leaving first looks disloyal.",
+            "s": "Many employees have ____ that leaving first looks bad.",
             "cue": "feel",
             "a": "felt"
           },
           {
-            "s": "The government has ____ rules and campaigns to reduce overtime.",
+            "s": "The government has ____ new rules to protect workers.",
             "cue": "introduce",
             "a": "introduced"
           },
           {
-            "s": "In October 2026, another report on overwork ____ by Japan's ministry.",
+            "s": "In October 2026, another report on overwork ____ in Japan.",
             "cue": "publish",
             "a": "was published"
           },
@@ -72,66 +72,135 @@
             "a": "is ageing|is aging"
           },
           {
-            "s": "There may also be pressure ____ colleagues for drinks after work.",
-            "cue": "join",
-            "a": "to join"
+            "s": "Some workers feel they must stay late ____ their manager happy.",
+            "cue": "keep",
+            "a": "to keep"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Japanese offices now close at a fixed time by law.",
-          "a": "N",
-          "why": "Not stated. This version does not give this information."
-        },
-        {
-          "s": "Fewer respondents wanted to work more hours than wanted to work fewer.",
+          "s": "Japan has a word for death caused by working too much.",
           "a": "T",
-          "why": "The text says: \"In a labour ministry survey reported in March 2026, 30% of respondents said they wanted to work fewer hours, while about 11% wanted to work more.\""
+          "why": "The text says: \"karoshi\", which means death from overwork."
         },
         {
-          "s": "The September 2026 change removed all legal limits on overtime.",
+          "s": "The government has removed all legal limits on overtime.",
           "a": "F",
-          "why": "The text says the opposite: \"That was not the same as removing all legal limits, but it worried people who had fought for better working conditions.\""
+          "why": "The text says the change \"was not the same as removing all legal limits\"."
         },
         {
-          "s": "Karoshi is a Japanese word for dying because of too much work.",
+          "s": "More workers in the survey wanted to work fewer hours than wanted to work more.",
           "a": "T",
-          "why": "The text says: \"Japan has a word, \"karoshi\", which means death from overwork.\""
+          "why": "The text says 30% wanted fewer hours and about 11% wanted more."
+        },
+        {
+          "s": "The survey asked workers how much money they earn.",
+          "a": "N",
+          "why": "The text does not say what else the survey asked."
+        },
+        {
+          "s": "The text says a shorter working day always makes people happier.",
+          "a": "F",
+          "why": "The text says a shorter day \"is not automatically a happier one\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "disloyal",
+          "d": "not faithful to your company or your team"
+        },
+        {
+          "t": "colleagues",
+          "d": "people you work with"
+        },
+        {
+          "t": "campaigns",
+          "d": "plans to make many people support an idea"
+        },
+        {
+          "t": "ministry",
+          "d": "a part of the government"
+        },
+        {
+          "t": "survey",
+          "d": "a set of questions asked to many people"
+        },
+        {
+          "t": "competitive",
+          "d": "able to do as well as other companies, or better"
+        },
+        {
+          "t": "commitment",
+          "d": "being ready to work hard for something"
+        },
+        {
+          "t": "consequences",
+          "d": "the results of something that happened"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some words need a small word after them. Learn the pair together, for example 'good at'.",
+        "items": [
+          {
+            "s": "Many workers are worried ____ losing their jobs.",
+            "a": "about"
+          },
+          {
+            "s": "Japan is short ____ workers in many industries.",
+            "a": "of"
+          },
+          {
+            "s": "Some employees depend ____ overtime pay.",
+            "a": "on"
+          },
+          {
+            "s": "The country is famous ____ its long working hours.",
+            "a": "for"
+          },
+          {
+            "s": "Many workers suffer ____ stress.",
+            "a": "from"
+          }
+        ],
+        "extra": [
+          "at",
+          "into"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "One employee wants to ____ in time for the train home.",
-            "a": "clock off"
+            "s": "The tax was completely ____ last year, so nobody pays it any more.",
+            "a": "abolished"
           },
           {
-            "s": "Reforms were intended to encourage ____ and reduce overtime.",
-            "a": "annual leave"
+            "s": "The region has a ____ shortage of doctors, and some clinics have closed.",
+            "a": "severe"
           },
           {
-            "s": "Japan has an ageing population and a severe ____.",
-            "a": "labour shortage"
+            "s": "She has great professional ____ and hopes to run the company one day.",
+            "a": "ambition"
           },
           {
-            "s": "That hardly amounts to an ____ demand for longer hours.",
-            "a": "overwhelming"
+            "s": "The union keeps ____ firms to pay overtime fairly.",
+            "a": "urging"
           },
           {
-            "s": "Careers should not depend on never ____.",
-            "a": "saying no"
+            "s": "Many parents ask for ____ in their hours so they can collect their children from school.",
+            "a": "flexibility"
           },
           {
-            "s": "Workplaces should attract people who might otherwise ____ of the labour market.",
-            "a": "drop out"
+            "s": "Most of the staff said they were ____ with their new working hours.",
+            "a": "satisfied"
           }
         ],
         "extra": [
-          "high-profile",
-          "eligible"
+          "compulsory",
+          "demanding"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Leaving first should be a ____ decision.",
-            "cue": "NORM",
-            "a": "normal"
+            "s": "By the time the manager finally stood up, the employee ____ at her desk for two hours.",
+            "cue": "sit",
+            "a": "had been sitting|had sat"
           },
           {
-            "s": "Such changes suggest a growing ____ that rest deserves space alongside ambition.",
-            "cue": "RECOGNISE",
-            "a": "recognition"
+            "s": "A four-day week ____ to city staff since April.",
+            "cue": "offer",
+            "a": "has been offered"
           },
           {
-            "s": "Karoshi is a word for death caused by ____ work.",
-            "cue": "EXCESS",
-            "a": "excessive"
+            "s": "By the time the survey was reported in March, all the data ____.",
+            "cue": "collect",
+            "a": "had been collected"
           },
           {
-            "s": "Existing legal ____ were not simply abolished.",
-            "cue": "PROTECT",
-            "a": "protections"
+            "s": "She would have left at five if her manager ____ the office earlier.",
+            "cue": "leave",
+            "a": "had left"
           },
           {
-            "s": "Greater ____ and better technology both have a role.",
-            "cue": "PRODUCTIVE",
-            "a": "productivity"
+            "s": "Many employees avoid ____ before their manager does.",
+            "cue": "leave",
+            "a": "leaving"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Most Japanese companies have adopted the four-day week.",
-          "a": "N",
-          "why": "Not stated. This version does not give this information."
-        },
-        {
-          "s": "Eligible staff in Tokyo's metropolitan government can choose a four-day week.",
-          "a": "T",
-          "why": "The text says: \"Tokyo's metropolitan government has offered a four-day working-week option to eligible staff, though it is not a national requirement.\""
-        },
-        {
-          "s": "The survey showed that most workers wanted to work longer hours.",
+          "s": "In September 2026 Japan removed all legal limits on overtime.",
           "a": "F",
-          "why": "The text says the opposite: \"That hardly amounts to an overwhelming demand for a return to late nights at the office.\""
+          "why": "The text says existing legal protections \"were not simply abolished\"."
         },
         {
-          "s": "Since September 2026, the government no longer universally urges firms to keep overtime to 45 hours a month.",
+          "s": "Fewer than half of the surveyed workers wanted to change their hours.",
           "a": "T",
-          "why": "The text says: \"From September 2026, the government stopped universally urging companies to hold overtime to a recommended 45 hours a month.\""
+          "why": "About 30% wanted fewer hours and one in ten wanted more, and \"Most were satisfied\"."
+        },
+        {
+          "s": "The labour shortage affects only the care sector.",
+          "a": "F",
+          "why": "The text says it affects sectors \"ranging from care services to manufacturing\"."
+        },
+        {
+          "s": "The survey was carried out in Tokyo.",
+          "a": "N",
+          "why": "The text does not say where the survey was carried out."
+        },
+        {
+          "s": "Tokyo's government has made a four-day week compulsory for every company in Japan.",
+          "a": "F",
+          "why": "The text says the option is for eligible staff and \"it is not a national requirement\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "reforms",
+          "d": "official changes made to improve a system"
+        },
+        {
+          "t": "compensation",
+          "d": "money paid to someone for harm or loss"
+        },
+        {
+          "t": "critics",
+          "d": "people who say what is wrong with something"
+        },
+        {
+          "t": "productivity",
+          "d": "how much work is done in a certain time"
+        },
+        {
+          "t": "recommended",
+          "d": "suggested as the best or right amount"
+        },
+        {
+          "t": "relaxed",
+          "d": "less strict and less formal"
+        },
+        {
+          "t": "ageing",
+          "d": "becoming older, with more old people than before"
+        },
+        {
+          "t": "campaigning",
+          "d": "working in an organised way to change something"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Learn each verb or adjective with its preposition as one chunk, and check it in a dictionary.",
+        "items": [
+          {
+            "s": "Managers should be held accountable ____ the health of their teams.",
+            "a": "for"
+          },
+          {
+            "s": "The union objected ____ the proposal to extend working hours.",
+            "a": "to"
+          },
+          {
+            "s": "Many firms are struggling to cope ____ the shortage of staff.",
+            "a": "with"
+          },
+          {
+            "s": "Young workers often insist ____ a clear separation between work and home.",
+            "a": "on"
+          },
+          {
+            "s": "Some managers are suspicious ____ staff who leave early.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "by",
+          "from"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The ____ fact may be whether the manager has stood up.",
-            "a": "decisive"
+            "s": "Campaigners warned that the reforms would be ____ by so many exemptions that they would achieve very little.",
+            "a": "diluted"
           },
           {
-            "s": "That tension sits ____ Japan's struggle with office culture.",
-            "a": "at the heart of"
+            "s": "Employers who breach their ____ duties, such as paying the minimum wage, can be fined.",
+            "a": "statutory"
           },
           {
-            "s": "The consequences have sometimes been ____, as the word karoshi shows.",
-            "a": "devastating"
+            "s": "The minister ruled out a ____ rewriting of the labour code and preferred targeted amendments.",
+            "a": "wholesale"
           },
           {
-            "s": "Employers have ____ greater flexibility over working hours.",
-            "a": "pressed for"
+            "s": "Firms that fail to ____ to the guidance risk a visit from inspectors.",
+            "a": "adhere"
           },
           {
-            "s": "It prompted fears that ____ could be diluted.",
-            "a": "hard-won reforms"
+            "s": "Under the agreement, overtime is capped at a monthly ____ of forty-five hours.",
+            "a": "ceiling"
           },
           {
-            "s": "A workplace should ____ a life outside employment.",
-            "a": "leave room for"
+            "s": "Without more workers, the country may be unable to ____ its pension system for decades.",
+            "a": "sustain"
           }
         ],
         "extra": [
-          "let down",
-          "uneven"
+          "voluntary",
+          "lenient"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Physical presence has functioned as a visible measure of ____.",
-            "cue": "DEDICATE",
-            "a": "dedication"
+            "s": "Campaigners have called for greater ____ about how overtime is recorded.",
+            "cue": "TRANSPARENT",
+            "a": "transparency"
           },
           {
-            "s": "A better workplace would make extra hours ____ voluntary.",
-            "cue": "GENUINE",
-            "a": "genuinely"
+            "s": "The reform met with fierce ____ from managers who feared losing control.",
+            "cue": "RESIST",
+            "a": "resistance"
           },
           {
-            "s": "This was a change in guidance, not a wholesale ____ of protections.",
-            "cue": "ABOLISH",
-            "a": "abolition"
+            "s": "Offering extra shifts becomes ____ if workers feel unable to decline them.",
+            "cue": "PROBLEM",
+            "a": "problematic"
           },
           {
-            "s": "Fatigue, illness and ____ carry costs of their own.",
-            "cue": "ENGAGE",
-            "a": "disengagement"
+            "s": "Critics described the change as a deeply ____ move.",
+            "cue": "CONTROVERSY",
+            "a": "controversial"
           },
           {
-            "s": "Flexible schedules are gaining ____.",
-            "cue": "VISIBLE",
-            "a": "visibility"
+            "s": "There is little ____ of the labour shortage easing soon.",
+            "cue": "LIKELY",
+            "a": "likelihood"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The labour ministry is planning another white paper next year.",
-          "a": "N",
-          "why": "Not stated. The text does not say what the ministry will publish next."
-        },
-        {
-          "s": "Fewer respondents wanted more hours than wanted fewer hours.",
-          "a": "T",
-          "why": "The text says: \"In a labour ministry survey reported in March, 30% of respondents wanted fewer hours, compared with 10.5% who wanted to work more.\""
-        },
-        {
-          "s": "Statutory overtime protections were abolished in September 2026.",
+          "s": "The labour ministry's 2026 change removed the legal ceiling on overtime.",
           "a": "F",
-          "why": "The text says the opposite: \"This was a change in guidance, not a wholesale abolition of statutory overtime protections, yet it prompted fears that hard-won reforms could be diluted.\""
+          "why": "The text calls it \"a change in guidance, not a wholesale abolition of statutory overtime protections\"."
         },
         {
-          "s": "The white paper looked at mental-health risks as well as compensation claims.",
+          "s": "The survey found nearly three times as many workers wanting fewer hours as wanting more.",
           "a": "T",
-          "why": "The text says: \"The labour ministry's October 2026 white paper continued to examine compensation claims, mental-health risks and prevention.\""
+          "why": "The text gives 30% for fewer hours against 10.5% for more."
+        },
+        {
+          "s": "The text suggests that a four-day week always reduces an employee's workload.",
+          "a": "F",
+          "why": "The text says \"a four-day schedule does not necessarily mean a four-day workload\"."
+        },
+        {
+          "s": "The labour ministry plans to restore the 45-hour recommendation next year.",
+          "a": "N",
+          "why": "The text says nothing about the ministry's future plans."
+        },
+        {
+          "s": "The text suggests that one overtime policy can feel like freedom to one employee and pressure to another.",
+          "a": "T",
+          "why": "One worker wanting extra income may find limits frustrating, while an anxious colleague \"may experience the same supposed freedom as pressure\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "devastating",
+          "d": "causing very great damage or shock"
+        },
+        {
+          "t": "prominent",
+          "d": "well known and important"
+        },
+        {
+          "t": "recruit",
+          "d": "to find new people to join a company"
+        },
+        {
+          "t": "revealing",
+          "d": "showing something that was not clear before"
+        },
+        {
+          "t": "dilemma",
+          "d": "a difficult choice between two things"
+        },
+        {
+          "t": "fatigue",
+          "d": "extreme tiredness"
+        },
+        {
+          "t": "disengagement",
+          "d": "losing interest and effort in your work"
+        },
+        {
+          "t": "tension",
+          "d": "a feeling of strain between two opposing things"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Formal phrases like these are fixed chunks. Learn the whole phrase, not the preposition alone.",
+        "items": [
+          {
+            "s": "Forcing staff to stay late is tantamount ____ demanding unpaid work.",
+            "a": "to"
+          },
+          {
+            "s": "The plan to extend working hours is fraught ____ legal risk.",
+            "a": "with"
+          },
+          {
+            "s": "Any pay rise is contingent ____ productivity targets being met.",
+            "a": "on"
+          },
+          {
+            "s": "Some firms offer extra leave in lieu ____ overtime pay.",
+            "a": "of"
+          },
+          {
+            "s": "Years of public pressure culminated ____ a change in the law.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "by",
+          "at"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: can I leave on time?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the manager",
+      "text": "Your employee wants to leave at five every day. The team is busy and you often stay late yourself. Ask at least two questions before you decide. You can say yes, no, or yes with a condition."
+    },
+    "b": {
+      "role": "the employee",
+      "text": "You finish your work by five, but nobody leaves before the manager. Ask to leave on time. Explain why it matters to you and how you will keep the work up to date."
+    },
+    "phrases": [
+      "I was hoping to leave at five every day.",
+      "I've finished everything on my list.",
+      "Are you worried about how it looks?",
+      "I'd be happy to try it for a month.",
+      "I'm afraid we can't, because we're short of staff.",
+      "Could we find a compromise?"
+    ],
+    "after": "Afterwards, tell the class: did the manager say yes, and was it a fair decision?"
   }
 }

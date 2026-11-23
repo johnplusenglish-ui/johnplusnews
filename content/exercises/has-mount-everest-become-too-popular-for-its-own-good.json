@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "For many climbers, reaching the top is ____.",
-            "a": "a lifelong dream"
+            "s": "____ are official papers that give you permission to climb.",
+            "a": "Permits"
           },
           {
-            "s": "If something goes wrong, guides and rescue teams may ____ in danger too.",
-            "a": "end up"
+            "s": "If a climber is hurt, ____ can pay for the cost of a rescue.",
+            "a": "insurance"
           },
           {
-            "s": "Many climbers ____ from the Nepali side.",
-            "a": "set off"
+            "s": "Reaching the ____ means getting to the very highest point of the mountain.",
+            "a": "summit"
           },
           {
-            "s": "Climbers should first have ____ of another 7,000-metre mountain.",
-            "a": "got to the top"
+            "s": "Many families in the mountain areas depend on the ____ they earn from climbers.",
+            "a": "income"
           },
           {
-            "s": "These ideas were still being discussed, so they are not yet ____.",
-            "a": "in force"
+            "s": "Bags of ____, such as empty food packets, are often left on the mountain.",
+            "a": "rubbish"
           }
         ],
         "extra": [
-          "leave behind",
-          "avoidable"
+          "equipment",
+          "oxygen"
         ]
       },
       "match": [
@@ -52,14 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Climbers sometimes have to ____ in long queues near the summit.",
-            "cue": "wait",
-            "a": "wait"
-          },
-          {
-            "s": "If something ____ wrong high on the mountain, guides are in danger too.",
-            "cue": "go",
-            "a": "goes"
+            "s": "In 2026, politicians in Nepal ____ stricter rules for climbers.",
+            "cue": "discuss",
+            "a": "discussed"
           },
           {
             "s": "Some people worry that Everest ____ too popular.",
@@ -72,66 +67,140 @@
             "a": "to bring"
           },
           {
-            "s": "Other proposals ____ with better insurance and with rubbish left on mountains.",
+            "s": "Other proposals ____ with the problem of waste.",
             "cue": "deal",
             "a": "dealt"
+          },
+          {
+            "s": "Yesterday the guide ____ his team up to the next camp.",
+            "cue": "lead",
+            "a": "led"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Everest sits on the border between Nepal and China.",
+          "s": "Everest is on the border between Nepal and China.",
           "a": "T",
           "why": "The text says: \"Everest is in the Himalayas, on the border between Nepal and China.\""
         },
         {
-          "s": "The number of permits has fallen since 2025.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether the number of permits has changed."
-        },
-        {
-          "s": "The proposed experience rules are already law.",
+          "s": "All of the ideas that politicians discussed are already rules.",
           "a": "F",
-          "why": "The text says the opposite: \"These ideas were still being discussed as part of a new law, so they should not all be treated as rules already in force.\""
+          "why": "The text says they \"should not all be treated as rules already in force\"."
         },
         {
-          "s": "Everest tourism creates work for guides and porters.",
+          "s": "Guides and rescue teams may have to go back into bad weather to help a climber.",
           "a": "T",
-          "why": "The text says: \"Everest also brings important income to Nepal, including work for guides, porters and local businesses.\""
+          "why": "The text says they \"may have to climb back into the same thin air and bad weather to bring somebody down\"."
+        },
+        {
+          "s": "Most people who try to climb Everest reach the top.",
+          "a": "N",
+          "why": "The text does not say how many climbers reach the top."
+        },
+        {
+          "s": "Supporters think that experience rules would make climbing cheaper.",
+          "a": "F",
+          "why": "Critics, not supporters, talk about cost; supporters believe the rules \"could cut down the number of avoidable accidents\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "queues",
+          "d": "lines of people waiting for their turn"
+        },
+        {
+          "t": "deadly",
+          "d": "able to kill you"
+        },
+        {
+          "t": "expeditions",
+          "d": "long, organised trips to a faraway place"
+        },
+        {
+          "t": "restrictions",
+          "d": "rules that stop you from doing something"
+        },
+        {
+          "t": "porters",
+          "d": "people who carry heavy bags for climbers"
+        },
+        {
+          "t": "proposals",
+          "d": "ideas that people suggest for a group to decide on"
+        },
+        {
+          "t": "thin",
+          "d": "with very little of something in it, like air high up"
+        },
+        {
+          "t": "lifelong",
+          "d": "lasting for the whole of your life"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Small words go with certain verbs and nouns. Learn the whole phrase: pay for, worry about, live on, in the Himalayas.",
+        "items": [
+          {
+            "s": "Many young people are interested ____ climbing high mountains.",
+            "a": "in"
+          },
+          {
+            "s": "Many climbers pay a lot of money ____ permits.",
+            "a": "for"
+          },
+          {
+            "s": "Critics worry ____ the cost of new rules.",
+            "a": "about"
+          },
+          {
+            "s": "Visitors and workers should not be put ____ risk without a good reason.",
+            "a": "at"
+          },
+          {
+            "s": "Many families live ____ what they earn during the short climbing season.",
+            "a": "on"
+          }
+        ],
+        "extra": [
+          "to",
+          "from"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "The mountain has ____ a commercial destination.",
-            "a": "turned into"
+            "s": "The company spent a ____ amount of money on new equipment before the season began.",
+            "a": "substantial"
           },
           {
-            "s": "The safest chance to reach the summit may be a brief ____.",
-            "a": "weather window"
+            "s": "Many climbers suffer headaches and dizziness because of the extreme ____.",
+            "a": "altitude"
           },
           {
-            "s": "A climber ____ near the top is losing precious oxygen.",
-            "a": "held up"
+            "s": "Only ____ who can prove their experience will receive a permit.",
+            "a": "applicants"
           },
           {
-            "s": "Critics say that previous climbs are ____ of good judgement.",
-            "a": "no guarantee"
+            "s": "Closing the route would cost thousands of mountain families their ____.",
+            "a": "livelihoods"
           },
           {
-            "s": "Expeditions provide income in areas with few ways of ____.",
-            "a": "making a living"
+            "s": "The effects of a bad decision are not ____ to the climber who makes it.",
+            "a": "confined"
           },
           {
-            "s": "The risks are shared by everybody ____ when a client is in trouble.",
-            "a": "coming to the rescue"
+            "s": "Several companies now run ____ trips, charging clients a high price for guided ascents.",
+            "a": "commercial"
           }
         ],
         "extra": [
-          "put off",
-          "unpredictable"
+          "rumour",
+          "hesitant"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Climbers pay ____ sums for permits and equipment.",
-            "cue": "SUBSTANCE",
-            "a": "substantial"
+            "s": "By the time the storm arrived, the group ____ the camp.",
+            "cue": "leave",
+            "a": "had left"
           },
           {
-            "s": "Proposals also covered insurance and waste ____.",
-            "cue": "MANAGE",
-            "a": "management"
+            "s": "If the bill passes, new rules ____ before next season.",
+            "cue": "introduce",
+            "a": "will be introduced"
           },
           {
-            "s": "Experience rules could put off ____ prepared climbers.",
-            "cue": "POOR",
-            "a": "poorly"
+            "s": "Over the years, many more tourists ____ to climb Everest.",
+            "cue": "try",
+            "a": "have tried"
           },
           {
-            "s": "Extra qualifying expeditions cost money, so only an even ____ group could afford Everest.",
-            "cue": "WEALTH",
-            "a": "wealthier"
+            "s": "Supporters suggest ____ climbers to show proof of experience.",
+            "cue": "ask",
+            "a": "asking"
           },
           {
-            "s": "Any system must weigh safety against local ____.",
-            "cue": "LIVE",
-            "a": "livelihoods"
+            "s": "If the price of a permit doubled, fewer people ____ able to afford it.",
+            "cue": "be",
+            "a": "would be"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Parliament has already passed all the suggested restrictions.",
+          "s": "Waiting in a queue near the summit can use up a climber's oxygen.",
+          "a": "T",
+          "why": "The text says a climber held up near the top \"is burning through oxygen and body heat\"."
+        },
+        {
+          "s": "All the lawmakers support the same experience standard.",
           "a": "F",
-          "why": "The text says the opposite: \"Parliamentary discussions do not mean that every suggested restriction has already been brought in.\""
+          "why": "The text says \"Different lawmakers have backed different standards\"."
         },
         {
-          "s": "Nepal has raised the cost of an Everest permit.",
+          "s": "Nepal will pass the bill before the next climbing season.",
           "a": "N",
-          "why": "Not stated. The text does not say that the cost of an Everest permit has been raised."
+          "why": "The text only says the final rules depend on how the process turns out, with no date."
         },
         {
-          "s": "Queues can build up when several expeditions use the same window.",
-          "a": "T",
-          "why": "The text says: \"When several expeditions set out on the same route during a suitable weather window, queues can build up in places where waiting is itself a danger.\""
+          "s": "Critics think a previous climb proves that a climber has good judgement.",
+          "a": "F",
+          "why": "The text says critics argue that previous climbs \"are no guarantee of good judgement\"."
         },
         {
-          "s": "One proposal required a previous climb above 7,000 metres in Nepal.",
+          "s": "Fewer permits would help the mountain but would also reduce some people's pay.",
           "a": "T",
-          "why": "The text says: \"During 2026, lawmakers discussed measures including a requirement for Everest applicants to show that they had previously climbed a mountain above 7,000 metres in Nepal.\""
+          "why": "The text says halving permits \"would certainly ease the pressure\" but \"would also halve somebody's wages\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "destination",
+          "d": "a place that people travel to"
+        },
+        {
+          "t": "insurance",
+          "d": "an agreement to be paid money if something bad happens to you"
+        },
+        {
+          "t": "operators",
+          "d": "companies that run a business or a service"
+        },
+        {
+          "t": "qualifying",
+          "d": "needed to be allowed to take part in something"
+        },
+        {
+          "t": "requirement",
+          "d": "something you must have or do because of a rule"
+        },
+        {
+          "t": "wages",
+          "d": "the money a worker is paid for their work"
+        },
+        {
+          "t": "legislative",
+          "d": "connected with making laws"
+        },
+        {
+          "t": "weigh",
+          "d": "to compare things carefully before you decide"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Check the word before the gap. Verbs like rely, suffer and weigh take a fixed preposition, and so do nouns such as guarantee.",
+        "items": [
+          {
+            "s": "Many guides rely ____ the climbing season for most of their income.",
+            "a": "on"
+          },
+          {
+            "s": "Some climbers suffer ____ frostbite, even with the best clothing.",
+            "a": "from"
+          },
+          {
+            "s": "Any new system has to weigh safety ____ the interests of local workers.",
+            "a": "against"
+          },
+          {
+            "s": "A famous name is no guarantee ____ a safe trip.",
+            "a": "of"
+          },
+          {
+            "s": "Problems high on the mountain are not limited ____ the climbers themselves.",
+            "a": "to"
+          }
+        ],
+        "extra": [
+          "over",
+          "into"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Mount Everest occupies an ____ position between challenge and industry.",
-            "a": "uneasy"
+            "s": "The leaked report ____ speculation that the government would abandon the plan.",
+            "a": "fuelled"
           },
           {
-            "s": "The commercial infrastructure ____ around expeditions fuelled concern.",
-            "a": "built up"
+            "s": "Poor visibility will only ____ the problems for climbers who are already short of oxygen.",
+            "a": "compound"
           },
           {
-            "s": "Guides rarely have the option of ____ alone.",
-            "a": "turning back"
+            "s": "A single delay can ____ an otherwise routine descent hazardous.",
+            "a": "render"
           },
           {
-            "s": "Climbing another mountain first is ____ of good judgement.",
-            "a": "no guarantee"
+            "s": "The permit office wants ____ evidence of experience, such as certificates, not just a verbal claim.",
+            "a": "demonstrable"
           },
           {
-            "s": "Rules intended to ____ the unprepared may exclude the less wealthy.",
-            "a": "filter out"
+            "s": "Fame does not give a mountaineer ____ from the effects of thin air.",
+            "a": "immunity"
           },
           {
-            "s": "Paying for professional support can ____ remarkable experiences to people who could never reach them unaided.",
-            "a": "open up"
+            "s": "Operators that ____ profit over safety are likely to attract tighter regulation.",
+            "a": "prioritise"
           }
         ],
         "extra": [
-          "do away with",
-          "aspiring"
+          "alleviate",
+          "undermine"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The summit still demands ____ endurance.",
-            "cue": "EXCEPTION",
-            "a": "exceptional"
+            "s": "Insurers are increasingly reluctant to cover ____ climbers.",
+            "cue": "EXPERIENCE",
+            "a": "inexperienced"
           },
           {
-            "s": "There is a ____ argument for requiring experience.",
-            "cue": "COMPEL",
-            "a": "compelling"
+            "s": "Critics doubt the ____ of rules that rely on a single earlier climb.",
+            "cue": "EFFECTIVE",
+            "a": "effectiveness"
           },
           {
-            "s": "Organised support cannot remove the need for physical ____.",
-            "cue": "PREPARE",
-            "a": "preparation"
+            "s": "Any attempt to ____ the rules would need the support of local communities.",
+            "cue": "STRONG",
+            "a": "strengthen"
           },
           {
-            "s": "Other suggested changes concerned insurance, ____ responsibilities and the regulation of expedition companies.",
-            "cue": "ENVIRONMENT",
-            "a": "environmental"
+            "s": "Regulators are calling for greater ____ about how many clients each company takes.",
+            "cue": "TRANSPARENT",
+            "a": "transparency"
           },
           {
-            "s": "Competence, ____, is harder to certify than altitude.",
-            "cue": "CONVENIENT",
-            "a": "inconveniently"
+            "s": "The tourist board praised the ____ of local guides who stayed with a struggling client.",
+            "cue": "DEDICATE",
+            "a": "dedication"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Expedition companies have opposed the proposed insurance rules.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether expedition companies have opposed the insurance proposals."
-        },
-        {
-          "s": "Restrictions that cut visitor numbers would be felt first by guides.",
+          "s": "The writer suggests that the 7,000-metre rule could favour richer climbers.",
           "a": "T",
-          "why": "The text says: \"Restrictions that sharply reduce visitor numbers would be felt first by guides and local communities, while rules that prioritise volume expose those same workers to avoidable danger.\""
+          "why": "The text says rules to filter out the unprepared \"may end up filtering out the less wealthy\"."
         },
         {
-          "s": "The writer says one version of the rules leaves every interest untouched.",
+          "s": "Headlines saying Everest has been closed to novices are accurate.",
           "a": "F",
-          "why": "The text says the opposite: \"No version of the rules leaves every interest untouched; the real question is which trade-off can be defended.\""
+          "why": "The text says the measures were part of a legislative process, not \"newly enforceable rules\"."
         },
         {
-          "s": "Nepalese lawmakers considered revisions to tourism legislation in 2026.",
+          "s": "Nepali guides have asked lawmakers to cut the number of permits.",
+          "a": "N",
+          "why": "The text does not report what guides have asked lawmakers to do."
+        },
+        {
+          "s": "The writer implies that an earlier climb would not necessarily improve a climber's judgement.",
           "a": "T",
-          "why": "The text says: \"In 2026, Nepalese lawmakers considered revisions to tourism legislation that would impose more demanding qualifications on aspiring Everest climbers.\""
+          "why": "The text says another climb first \"is no guarantee of good judgement\"."
+        },
+        {
+          "s": "Rules that limit visitor numbers and rules that favour volume would affect guides in the same way.",
+          "a": "F",
+          "why": "Fewer visitors would hit guides' income first, while volume would \"expose those same workers to avoidable danger\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "infrastructure",
+          "d": "the basic buildings and services that an activity needs"
+        },
+        {
+          "t": "novices",
+          "d": "people who are new to an activity and have little experience"
+        },
+        {
+          "t": "enforceable",
+          "d": "able to be made to happen by law"
+        },
+        {
+          "t": "certify",
+          "d": "to confirm officially that something is true"
+        },
+        {
+          "t": "unaided",
+          "d": "without any help"
+        },
+        {
+          "t": "revenue",
+          "d": "money that a business or country earns"
+        },
+        {
+          "t": "summited",
+          "d": "reached the top of a mountain"
+        },
+        {
+          "t": "uneasy",
+          "d": "not comfortable or settled"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At this level, look for fixed expressions: an adjective plus a preposition (contingent on) or a longer phrase (at the expense of, in lieu of).",
+        "items": [
+          {
+            "s": "Approval of the permit is contingent ____ proof of prior high-altitude experience.",
+            "a": "on"
+          },
+          {
+            "s": "The commercial interests of operators are often at odds ____ the safety of their staff.",
+            "a": "with"
+          },
+          {
+            "s": "Companies that cut costs ____ the expense of safety invite tighter regulation.",
+            "a": "at"
+          },
+          {
+            "s": "A rule this strict would be tantamount ____ a ban for most amateurs.",
+            "a": "to"
+          },
+          {
+            "s": "A cheaper package may offer extra oxygen in lieu ____ a second guide.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "by",
+          "from"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: who should climb Everest?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "a mountain guide",
+      "text": "Nepal may ask climbers to prove their experience first. You think this is a good idea because rescues are dangerous for guides. Explain your worries and ask the climber about their experience."
+    },
+    "b": {
+      "role": "a keen climber",
+      "text": "You've saved for years to climb Everest, but you've never climbed a 7,000-metre mountain. You think the new rule is unfair. Explain why you should be allowed to go, and look for a compromise."
+    },
+    "phrases": [
+      "I'm worried about the risks for the guides.",
+      "Have you ever climbed above 7,000 metres?",
+      "I've been saving for this trip for years.",
+      "That's not fair, because I'm very fit.",
+      "What if I did a training course first?",
+      "Let's find a solution we're both happy with."
+    ],
+    "after": "Afterwards, tell the class: did the guide agree to take the climber, and what was the compromise?"
   }
 }

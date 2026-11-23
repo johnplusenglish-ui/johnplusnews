@@ -6,6 +6,7 @@ source: The Guardian | https://www.theguardian.com/food/2026/sep/10/people-waite
 image: images/would-you-queue-24-hours-for-a-jacket-potato-4d8558.jpg
 image-alt: A long queue of people in winter coats, some waiting in folding camping chairs on the pavement, stretches along a terraced street towards a green tram serving food.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

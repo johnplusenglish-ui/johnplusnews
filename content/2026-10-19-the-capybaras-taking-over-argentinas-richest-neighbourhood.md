@@ -6,6 +6,7 @@ source: El País Argentina | https://elpais.com/argentina/2026-10-06/un-vecino-d
 image: images/the-capybaras-taking-over-argentinas-richest-neighbourhood-897343.jpg
 image-alt: Five capybaras of different sizes graze on a lawn outside a modern white house, with a man beside a parked car and a runner on a path by a lake behind them.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

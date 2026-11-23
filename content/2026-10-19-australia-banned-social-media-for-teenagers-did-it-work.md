@@ -6,6 +6,7 @@ source: Australian eSafety Commissioner | https://www.esafety.gov.au/about-us/in
 image: images/australia-banned-social-media-for-teenagers-did-it-work-323e25.jpg
 image-alt: Seen over his shoulder, a teenage boy in school uniform and a wide-brimmed hat holds a phone showing his own face inside an oval scanning outline.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

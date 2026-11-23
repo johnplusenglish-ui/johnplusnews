@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "At 5.48am an alarm ____ at a small museum on the French Riviera.",
-            "a": "went off"
+            "s": "A loud alarm ____ the robbery, so the thieves had to run.",
+            "a": "interrupted"
           },
           {
-            "s": "Within minutes, police were ____, and the thieves were running out of time.",
-            "a": "on their way"
+            "s": "The thieves ____ two paintings because the police were coming.",
+            "a": "abandoned"
           },
           {
-            "s": "The thieves ____ a fence and entered through a window.",
-            "a": "cut through"
+            "s": "Police ____ the two missing paintings from a house.",
+            "a": "recovered"
           },
           {
-            "s": "For several weeks, the missing paintings were ____.",
-            "a": "nowhere to be found"
+            "s": "Police ____ the museum and the area around it for clues.",
+            "a": "investigated"
           },
           {
-            "s": "These clues helped investigators ____.",
-            "a": "follow the trail"
+            "s": "Six people were ____ and taken to a police station.",
+            "a": "arrested"
           }
         ],
         "extra": [
-          "left behind",
-          "damaged"
+          "stolen",
+          "valued"
         ]
       },
       "match": [
@@ -98,40 +98,109 @@
           "s": "DNA found on an item left at the scene helped police identify a suspect.",
           "a": "T",
           "why": "The text says: \"A cover left behind during the escape contained DNA that helped identify a suspect.\""
+        },
+        {
+          "s": "Both paintings that the thieves took belonged to the museum.",
+          "a": "F",
+          "why": "The text says both had been \"lent to the museum by the Musée d'Orsay in Paris\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "prosecutor",
+          "d": "a lawyer who says in court that someone did a crime"
+        },
+        {
+          "t": "evidence",
+          "d": "facts or things that help show what happened"
+        },
+        {
+          "t": "canvas",
+          "d": "the cloth that an artist paints on"
+        },
+        {
+          "t": "charges",
+          "d": "official statements that someone did a crime"
+        },
+        {
+          "t": "security",
+          "d": "things that keep a place safe"
+        },
+        {
+          "t": "ambitious",
+          "d": "very big and hard to do, needing a lot of effort"
+        },
+        {
+          "t": "specialists",
+          "d": "people who know a lot about one subject"
+        },
+        {
+          "t": "condition",
+          "d": "how good or bad something is"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Little words like at, for and about often come after a certain verb or adjective. Learn them together.",
+        "items": [
+          {
+            "s": "The thieves cut ____ a fence to reach the garden.",
+            "a": "through"
+          },
+          {
+            "s": "The two paintings were valued ____ around €4.2 million.",
+            "a": "at"
+          },
+          {
+            "s": "The small museum is famous ____ its link with Renoir.",
+            "a": "for"
+          },
+          {
+            "s": "Police were worried ____ a second robbery.",
+            "a": "about"
+          },
+          {
+            "s": "Many visitors are interested ____ the life of Renoir.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "of",
+          "to"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "The paintings were ____ the Musée d'Orsay in Paris.",
-            "a": "on loan from"
+            "s": "The alarm forced the burglars to ____ part of what they had stolen.",
+            "a": "abandon"
           },
           {
-            "s": "The haul the thieves ____ was valued at about €4.2 million.",
-            "a": "got away with"
-          },
-          {
-            "s": "Tracking information helped officers ____ the movements afterwards.",
-            "a": "piece together"
-          },
-          {
-            "s": "Prosecutors believed a second theft might be ____.",
+            "s": "Detectives were sure a second theft was ____, so they acted quickly.",
             "a": "imminent"
           },
           {
-            "s": "Four men received preliminary charges connected with ____.",
-            "a": "handling stolen goods"
+            "s": "Officers ____ every journey the van made and kept detailed records.",
+            "a": "monitored"
           },
           {
-            "s": "Their survival ____, though one canvas had a tear.",
-            "a": "came as a relief"
+            "s": "A thief who hides stolen goods in a secret place has ____ them from view.",
+            "a": "concealed"
+          },
+          {
+            "s": "The charges are only ____, and the court has not decided anything yet.",
+            "a": "allegations"
+          },
+          {
+            "s": "She ____ a serious injury in the accident but recovered fully.",
+            "a": "suffered"
           }
         ],
         "extra": [
-          "tracked down",
-          "glamorous"
+          "vanished",
+          "occupied"
         ]
       },
       "match": [
@@ -153,40 +222,45 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The setting made the robbery particularly ____.",
-            "cue": "STRIKE",
-            "a": "striking"
+            "s": "Police ____ DNA on a protective cover left at the scene.",
+            "cue": "find",
+            "a": "found"
           },
           {
-            "s": "The paintings had escaped permanent ____.",
-            "cue": "DISAPPEAR",
-            "a": "disappearance"
+            "s": "The ministry announced that specialists ____ the works in Marseille.",
+            "cue": "examine",
+            "a": "would examine"
           },
           {
-            "s": "A small cultural institution can hold works of immense ____ and historical value.",
-            "cue": "FINANCE",
-            "a": "financial"
+            "s": "If the alarm hadn't sounded, the thieves ____ all four paintings.",
+            "cue": "take",
+            "a": "would have taken"
           },
           {
-            "s": "Those charges were ____ to be tested in court.",
-            "cue": "ALLEGE",
-            "a": "allegations"
+            "s": "Before the police found them, the paintings ____ behind a wall for several weeks.",
+            "cue": "hide",
+            "a": "had been hidden"
           },
           {
-            "s": "The investigation reopened an ____ debate about museum security.",
-            "cue": "COMFORT",
-            "a": "uncomfortable"
+            "s": "Six people ____ in total.",
+            "cue": "arrest",
+            "a": "were arrested"
           }
         ]
       },
       "tfn": [
         {
-          "s": "According to a prosecutor, the stolen paintings were worth roughly €4.2 million.",
+          "s": "One suspect was traced partly because his vehicle was already being watched in another inquiry.",
           "a": "T",
-          "why": "The text says: \"The haul the thieves got away with was later valued by the Marseille prosecutor at approximately €4.2 million.\""
+          "why": "The DNA matched a man \"whose vehicle was being monitored in another inquiry\"."
+        },
+        {
+          "s": "The Maeght Foundation was robbed before the arrests were made.",
+          "a": "F",
+          "why": "Police arrested the suspects \"before it could happen\"."
         },
         {
           "s": "The stolen paintings were insured for their full value.",
@@ -194,48 +268,112 @@
           "why": "Not stated. The text does not say whether the paintings were insured."
         },
         {
-          "s": "One suspect had visited the Maeght Foundation.",
-          "a": "T",
-          "why": "The text says: \"Police observed that one suspect had visited the Maeght Foundation, another institution with important works of art.\""
+          "s": "The paintings on display belonged to a private collector.",
+          "a": "F",
+          "why": "They were \"on loan from the Musée d'Orsay in Paris\", a museum."
         },
         {
-          "s": "The four men charged had been convicted of the theft.",
-          "a": "F",
-          "why": "The text says the opposite: \"Those charges were allegations to be tested through the legal process, not convictions.\""
+          "s": "The writer thinks the break-in was less skilful than an art-heist film would suggest.",
+          "a": "T",
+          "why": "The text calls it \"hardly the elegant operation imagined in an art-heist film\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "breakthrough",
+          "d": "an important discovery that helps solve a problem"
+        },
+        {
+          "t": "intruders",
+          "d": "people who go into a place without permission"
+        },
+        {
+          "t": "haul",
+          "d": "a large amount of things that someone has taken"
+        },
+        {
+          "t": "immense",
+          "d": "extremely large"
+        },
+        {
+          "t": "convictions",
+          "d": "official decisions in court that someone is guilty"
+        },
+        {
+          "t": "relief",
+          "d": "the happy feeling when a worry has gone"
+        },
+        {
+          "t": "occupies",
+          "d": "fills or uses a place or building"
+        },
+        {
+          "t": "resources",
+          "d": "money and other things a person or group can use"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many adjectives and verbs need one fixed preposition. Learn the whole phrase, not just the adjective.",
+        "items": [
+          {
+            "s": "The Renoirs on display were on loan ____ a larger museum in Paris.",
+            "a": "from"
+          },
+          {
+            "s": "Prosecutors were suspicious ____ the suspect's visit to another gallery.",
+            "a": "of"
+          },
+          {
+            "s": "The thieves were responsible ____ the damage to the fence.",
+            "a": "for"
+          },
+          {
+            "s": "Detectives relied ____ DNA evidence to find the suspect.",
+            "a": "on"
+          },
+          {
+            "s": "Experts compared the DNA found at the scene ____ police records.",
+            "a": "with"
+          }
+        ],
+        "extra": [
+          "at",
+          "by"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The intruders had already ____, abandoning half their haul.",
-            "a": "made off"
+            "s": "The consultant warned that the software contained a serious ____ that hackers could exploit.",
+            "a": "vulnerability"
           },
           {
-            "s": "Investigators had to work through the forensic clues the thieves had ____.",
-            "a": "left behind"
+            "s": "Several protesters were ____ overnight and released without charge the next morning.",
+            "a": "detained"
           },
           {
-            "s": "The alarm ____ before all four works could be taken.",
-            "a": "cut the operation short"
+            "s": "Having judged the proposal unworkable, the committee ____ it in favour of a simpler one.",
+            "a": "discarded"
           },
           {
-            "s": "Investigators eventually ____ an important trace on a cover.",
-            "a": "came across"
+            "s": "Detectives had to ____ the sequence of events from a handful of CCTV frames.",
+            "a": "reconstruct"
           },
           {
-            "s": "The case illustrated ____ of elaborate criminal schemes.",
-            "a": "a persistent weakness"
+            "s": "The spy's microphone was so cleverly ____ inside the lamp that nobody noticed it for years.",
+            "a": "concealed"
           },
           {
-            "s": "The more recognisable a stolen masterpiece becomes, the harder it is to ____ it discreetly.",
-            "a": "dispose of"
+            "s": "Despite repeated refusals, her ____ lobbying eventually changed the law.",
+            "a": "persistent"
           }
         ],
         "extra": [
-          "unscathed",
-          "formidable"
+          "breached",
+          "imminent"
         ]
       },
       "match": [
@@ -260,42 +398,47 @@
         "kind": "word",
         "items": [
           {
-            "s": "The suspect was already under ____ in a separate case.",
-            "cue": "INVESTIGATE",
-            "a": "investigation"
+            "s": "The merger was met with widespread ____ among long-serving staff.",
+            "cue": "SCEPTIC",
+            "a": "scepticism"
           },
           {
-            "s": "Their cultural ____ made the disappearance troubling.",
-            "cue": "SIGNIFICANT",
-            "a": "significance"
+            "s": "Her ____ to accept criticism damaged her working relationships.",
+            "cue": "WILLING",
+            "a": "unwillingness"
           },
           {
-            "s": "The physical harm showed that art theft is not simply a dispute over ____.",
-            "cue": "OWN",
-            "a": "ownership"
+            "s": "The theft cast doubt on the ____ of the museum's alarm system.",
+            "cue": "RELY",
+            "a": "reliability"
           },
           {
-            "s": "The works were transferred for specialist examination and potential ____.",
-            "cue": "RESTORE",
-            "a": "restoration"
+            "s": "Experts expressed ____ over whether the canvas could be fully repaired.",
+            "cue": "CERTAIN",
+            "a": "uncertainty"
           },
           {
-            "s": "Beyond the ____ hiding place, the case exposed a vulnerability shared by many regional museums.",
-            "cue": "PROBABLE",
-            "a": "improbable"
+            "s": "She had ____ deleted the file, and only later realised what she had done.",
+            "cue": "INTENTION",
+            "a": "unintentionally"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The recovered works had suffered some physical damage.",
+          "s": "The prosecutors' valuation of the paintings was lower than some earlier press estimates.",
           "a": "T",
-          "why": "The text says: \"The paintings were recovered, but not unscathed: officials reported a torn canvas and damage to a frame.\""
+          "why": "The text says earlier press estimates \"had been considerably higher\" than €4.2 million."
         },
         {
-          "s": "The police arrived within five minutes of the alarm starting.",
+          "s": "The thieves took away more paintings than they left behind.",
+          "a": "F",
+          "why": "They targeted four works, abandoned two and escaped with two, so the numbers were equal."
+        },
+        {
+          "s": "Police could link a suspect to the theft partly because of a separate investigation.",
           "a": "T",
-          "why": "The text says: \"Five minutes later, municipal police were at the scene.\""
+          "why": "The suspect was \"already under investigation in a separate case\", so police knew his vehicle's movements."
         },
         {
           "s": "A trial date has been set for the four men charged.",
@@ -303,11 +446,96 @@
           "why": "Not stated. The text does not mention a trial or any court date."
         },
         {
-          "s": "The four men who were charged had already been convicted.",
+          "s": "Police arrested the group only after a second theft had been attempted.",
           "a": "F",
-          "why": "The text says the opposite: \"The legal distinction matters: prosecutors had set out their case, but the suspects had not been convicted.\""
+          "why": "Police feared a robbery was imminent and arrests followed, so the second theft had not happened."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "forensic",
+          "d": "using science to study evidence from a crime"
+        },
+        {
+          "t": "elaborate",
+          "d": "very detailed and carefully planned"
+        },
+        {
+          "t": "deposited",
+          "d": "left in a place so that it is kept there"
+        },
+        {
+          "t": "paradox",
+          "d": "a situation with two parts that seem to contradict each other"
+        },
+        {
+          "t": "discreetly",
+          "d": "in a careful way that avoids attention"
+        },
+        {
+          "t": "municipal",
+          "d": "belonging to a town or city"
+        },
+        {
+          "t": "restoration",
+          "d": "the careful repair of something old to its first condition"
+        },
+        {
+          "t": "association",
+          "d": "a connection between two things in people's minds"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At this level, fixed phrases such as tantamount to and fraught with are worth learning as single units.",
+        "items": [
+          {
+            "s": "A raid on a gallery this size was fraught ____ risk.",
+            "a": "with"
+          },
+          {
+            "s": "Selling a famous stolen painting openly is tantamount ____ announcing the crime.",
+            "a": "to"
+          },
+          {
+            "s": "The loan of the works was contingent ____ adequate security.",
+            "a": "on"
+          },
+          {
+            "s": "Many thefts of this kind stem ____ a belief that small museums are easy targets.",
+            "a": "from"
+          },
+          {
+            "s": "The plan was bereft ____ any realistic way of selling the paintings.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "at",
+          "over"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: more money for museum security",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the museum manager",
+      "text": "A small museum has just lost two paintings. You want money for a better alarm and a night guard. Explain why it matters and say what will happen if you get nothing."
+    },
+    "b": {
+      "role": "the town councillor",
+      "text": "The town has a small budget and many other needs. Ask how much the museum wants and why. You can say yes, no, or give some of the money."
+    },
+    "phrases": [
+      "We'd like to ask for some extra money.",
+      "It's not just about the paintings, it's about the visitors.",
+      "How much would it cost?",
+      "I'm afraid we can't afford all of it.",
+      "Could we start with the alarm?",
+      "That's a fair point, I'll think about it."
+    ],
+    "after": "Afterwards, tell the class: how much money did the museum get, and was it fair?"
   }
 }

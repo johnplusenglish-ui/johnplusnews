@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Moore received an extraordinary Facebook message ____.",
-            "a": "out of the blue"
+            "s": "Surviving two and a half years as a hostage is an ____ achievement.",
+            "a": "extraordinary"
           },
           {
-            "s": "Moore ____ Somalia in January 2012 to research a book.",
-            "a": "set off for"
+            "s": "The children were too ____ to go into the dark room alone.",
+            "a": "frightened"
           },
           {
-            "s": "In September 2014, a large ransom payment finally ____.",
-            "a": "secured his release"
+            "s": "The case became more ____ when new facts appeared.",
+            "a": "complicated"
           },
           {
-            "s": "Moore decided to reply because he wanted to ____ more.",
-            "a": "find out"
+            "s": "Police are ____ the robbery and looking for the thief.",
+            "a": "investigating"
           },
           {
-            "s": "Evidence showed that Tahlil had ____ than Moore had understood.",
-            "a": "played a more important role"
+            "s": "A jury found the manager guilty, and he was ____ of fraud.",
+            "a": "convicted"
           }
         ],
         "extra": [
-          "in return",
-          "uncomfortable"
+          "harmless",
+          "hopeful"
         ]
       },
       "match": [
@@ -62,9 +62,9 @@
             "a": "was kidnapped"
           },
           {
-            "s": "Another man, Abdi Yusuf Hassan, ____ also involved.",
-            "cue": "be",
-            "a": "had been|was"
+            "s": "FBI officers ____ Tahlil when he turned up in New York.",
+            "cue": "arrest",
+            "a": "arrested"
           },
           {
             "s": "In 2018, Tahlil flew to New York ____ he would receive help.",
@@ -98,40 +98,109 @@
           "s": "Tahlil received help to settle in the United States.",
           "a": "F",
           "why": "The text says the opposite: \"Instead, FBI officers arrested him when he turned up.\""
+        },
+        {
+          "s": "The messages from Tahlil helped Moore write his book.",
+          "a": "T",
+          "why": "The text says Tahlil \"provided some information that helped Moore write his book\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "journalist",
+          "d": "a person who writes news stories for a living"
+        },
+        {
+          "t": "captors",
+          "d": "the people who keep someone as a prisoner"
+        },
+        {
+          "t": "ransom",
+          "d": "money paid to free a prisoner"
+        },
+        {
+          "t": "hijacked",
+          "d": "taken by force by criminals"
+        },
+        {
+          "t": "guards",
+          "d": "people who watch a prisoner all the time"
+        },
+        {
+          "t": "trial",
+          "d": "a meeting in a court to decide if someone is guilty"
+        },
+        {
+          "t": "forgiveness",
+          "d": "stopping being angry with someone who did wrong"
+        },
+        {
+          "t": "justice",
+          "d": "fair treatment by the law"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some words go together as a pair. Learn the pair, not just the word.",
+        "items": [
+          {
+            "s": "Moore had to ____ a hard decision about whether to reply.",
+            "a": "make"
+          },
+          {
+            "s": "Both men must ____ a 30-year sentence in prison.",
+            "a": "serve"
+          },
+          {
+            "s": "A family may have to ____ a ransom to free a hostage.",
+            "a": "pay"
+          },
+          {
+            "s": "A witness must promise to ____ the truth in court.",
+            "a": "tell"
+          },
+          {
+            "s": "The lawyers showed ____ evidence that the man was guilty.",
+            "a": "strong"
+          }
+        ],
+        "extra": [
+          "keep",
+          "hold"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "He was often ____ about when he would see his family again.",
-            "a": "kept in the dark"
+            "s": "The workers ____ months of low pay before the company finally listened.",
+            "a": "endured"
           },
           {
-            "s": "Rather than immediately ____, he began exchanging messages.",
-            "a": "cutting off contact"
+            "s": "The flat was ____ cheap for the area, though it still cost a lot.",
+            "a": "comparatively"
           },
           {
-            "s": "Tahlil had his own reasons for ____.",
-            "a": "staying in touch"
+            "s": "She seemed so friendly that nobody doubted her kindness was ____.",
+            "a": "genuine"
           },
           {
-            "s": "He eventually agreed to help ____ to bring Tahlil to America.",
-            "a": "set up an operation"
+            "s": "The witness ____ the police with several useful details.",
+            "a": "supplied"
           },
           {
-            "s": "Moore felt uneasy about having ____ in the arrest.",
-            "a": "played a part"
+            "s": "I felt ____ about walking home alone through the empty car park.",
+            "a": "uneasy"
           },
           {
-            "s": "The outcome did not ____ outsiders might expect.",
-            "a": "bring him the simple satisfaction"
+            "s": "Once a court has ____ someone, they can still appeal against the decision.",
+            "a": "convicted"
           }
         ],
         "extra": [
-          "let go of",
-          "makeshift"
+          "demanded",
+          "reluctantly"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "After everything he had suffered, Moore found ____ difficult to believe.",
-            "cue": "FRIENDLY",
-            "a": "friendliness"
+            "s": "By the time Tahlil wrote, Moore ____ free for two months.",
+            "cue": "be",
+            "a": "had been"
           },
           {
-            "s": "He endured ____, fear and violence.",
-            "cue": "ISOLATE",
-            "a": "isolation"
+            "s": "Over those 977 days, he ____ in several different places.",
+            "cue": "hold",
+            "a": "was held"
           },
           {
-            "s": "Prosecutors presented Tahlil as a more ____ participant.",
-            "cue": "INFLUENCE",
-            "a": "influential"
+            "s": "Tahlil ____ a new opportunity when he flew to New York.",
+            "cue": "expect",
+            "a": "was expecting|expected"
           },
           {
-            "s": "Moore supported ____ for what had happened.",
-            "cue": "ACCOUNTABLE",
-            "a": "accountability"
+            "s": "If the guard ____ that friendly message, the FBI operation would never have begun.",
+            "cue": "not send",
+            "a": "hadn't sent|had not sent"
           },
           {
-            "s": "Justice was a public process; ____ was far more personal.",
-            "cue": "RECOVER",
-            "a": "recovery"
+            "s": "Writers ____ for centuries about whether some acts can ever be forgiven.",
+            "cue": "argue",
+            "a": "have argued|have been arguing"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "Moore's book became a bestseller.",
           "a": "N",
           "why": "Not stated. The text does not say how well Moore's book sold."
+        },
+        {
+          "s": "The court evidence changed how Moore saw Tahlil's part in the kidnapping.",
+          "a": "T",
+          "why": "Moore had seen Tahlil as a minor figure, but \"later court evidence turned out to tell a different story\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "captivity",
+          "d": "the state of being held as a prisoner"
+        },
+        {
+          "t": "hijacked",
+          "d": "taken by force by criminals"
+        },
+        {
+          "t": "federal",
+          "d": "to do with the national government, not a local one"
+        },
+        {
+          "t": "prosecutors",
+          "d": "lawyers who try to prove that someone is guilty"
+        },
+        {
+          "t": "defendant",
+          "d": "a person who is accused of a crime in court"
+        },
+        {
+          "t": "ransom",
+          "d": "money paid to free a prisoner"
+        },
+        {
+          "t": "accountability",
+          "d": "being responsible for what you did and having to explain it"
+        },
+        {
+          "t": "forgiveness",
+          "d": "stopping being angry with someone who did wrong"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Pay attention to the verb that goes with each noun. Another verb may sound fine but is not the natural choice.",
+        "items": [
+          {
+            "s": "After two weeks, the jury finally ____ a verdict.",
+            "a": "reached"
+          },
+          {
+            "s": "The judge may ____ a heavy sentence on anyone found guilty of kidnapping.",
+            "a": "impose"
+          },
+          {
+            "s": "A good journalist tries to ____ light on stories that others ignore.",
+            "a": "shed"
+          },
+          {
+            "s": "Could you ____ me a favour and read this message before I reply?",
+            "a": "do"
+          },
+          {
+            "s": "Few families can afford to ____ a ransom of millions of dollars.",
+            "a": "pay"
+          }
+        ],
+        "extra": [
+          "stage",
+          "wear"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The correspondence eventually ____ an FBI operation.",
-            "a": "drew Moore into"
+            "s": "The announcement left the whole community ____ shaken.",
+            "a": "profoundly"
           },
           {
-            "s": "Tahlil sometimes spoke gently, but Moore could not ____ those distinctions.",
-            "a": "rely on"
+            "s": "Historians had to ____ the course of the battle from a handful of letters and diaries.",
+            "a": "reconstruct"
           },
           {
-            "s": "Moore had already ____ federal investigators about the messages.",
-            "a": "tipped off"
+            "s": "A corrupt customs officer ____ the smuggling by quietly ignoring suspicious cargo.",
+            "a": "facilitated"
           },
           {
-            "s": "He was uncomfortable that a guard might be punished while more senior figures ____.",
-            "a": "remained beyond reach"
+            "s": "Years of humiliation had hardened into a thirst for ____ against those who had wronged him.",
+            "a": "vengeance"
           },
           {
-            "s": "During captivity, he found that ____ could preserve a measure of independence.",
-            "a": "loosening his grip on anger"
+            "s": "Her generosity afterwards in no way ____ the damage she had caused.",
+            "a": "diminishes"
           },
           {
-            "s": "He questions whether punishment automatically supplies ____.",
-            "a": "psychological closure"
+            "s": "The inquiry uncovered the company's ____ in the cover-up.",
+            "a": "complicity"
           }
         ],
         "extra": [
-          "subordinate",
-          "ambivalent"
+          "oversee",
+          "resume"
         ]
       },
       "match": [
@@ -260,42 +398,47 @@
         "kind": "word",
         "items": [
           {
-            "s": "The sender addressed him with the ____ of an old acquaintance.",
-            "cue": "FAMILIAR",
-            "a": "familiarity"
+            "s": "The committee questioned the ____ of the witness's account.",
+            "cue": "RELIABLE",
+            "a": "reliability"
           },
           {
-            "s": "Moore had spent 977 days enduring violence, isolation and deep ____.",
-            "cue": "CERTAIN",
-            "a": "uncertainty"
+            "s": "The decision caused growing ____ among the prisoners' families.",
+            "cue": "RESENT",
+            "a": "resentment"
           },
           {
-            "s": "Moore's account of the case is more ____.",
-            "cue": "SETTLE",
-            "a": "unsettled"
+            "s": "The prosecution stressed the ____ of the defendant's role.",
+            "cue": "SIGNIFICANT",
+            "a": "significance"
           },
           {
-            "s": "The Facebook correspondence did not bring about a tidy ____.",
-            "cue": "RECONCILE",
-            "a": "reconciliation"
+            "s": "The sentence seemed wholly ____ to the harm that had been caused.",
+            "cue": "PROPORTION",
+            "a": "disproportionate"
           },
           {
-            "s": "Victims may change their ____ as new evidence emerges.",
-            "cue": "ASSESS",
-            "a": "assessments"
+            "s": "The inquiry accused the officials of ____ in handling the evidence.",
+            "cue": "NEGLIGENT",
+            "a": "negligence"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Moore believes punishment automatically brings psychological closure.",
-          "a": "F",
-          "why": "The text says the opposite: \"He does not dispute the seriousness of the crimes, but he questions the assumption that punishment automatically supplies psychological closure.\""
+          "s": "Moore's unease about the sentence was partly that more senior figures might escape punishment.",
+          "a": "T",
+          "why": "The text says he was uncomfortable that a subordinate guard might be punished \"while more senior figures remained beyond reach\"."
         },
         {
-          "s": "The trial showed that Tahlil had more power than Moore first thought.",
-          "a": "T",
-          "why": "The text says: \"Prosecutors demonstrated that Tahlil had exercised greater authority than Moore had understood, including responsibility for weapons used by the pirates.\""
+          "s": "The FBI first heard about the contact with Tahlil through the trial evidence.",
+          "a": "F",
+          "why": "Moore had \"already tipped off federal investigators\" before the operation, long before the trial."
+        },
+        {
+          "s": "Moore treated letting go of anger as the same thing as excusing his captors.",
+          "a": "F",
+          "why": "The text calls his private understanding of forgiveness \"quite separate from acquitting a captor of responsibility\"."
         },
         {
           "s": "Moore has campaigned for shorter sentences for his captors.",
@@ -303,11 +446,96 @@
           "why": "Not stated. The text does not say whether Moore has campaigned about sentence lengths."
         },
         {
-          "s": "Family and supporters helped to pay the ransom that led to Moore's release.",
+          "s": "Moore's sympathy for Tahlil became harder to sustain once the trial evidence emerged.",
           "a": "T",
-          "why": "The text says: \"He was released in September 2014 after a ransom funded by family and supporters.\""
+          "why": "The text says \"Trial evidence complicated that sympathy\", showing Tahlil held greater authority than Moore had understood."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "acquaintance",
+          "d": "a person you know a little but who is not a close friend"
+        },
+        {
+          "t": "correspondence",
+          "d": "letters or messages sent between people"
+        },
+        {
+          "t": "motives",
+          "d": "the reasons why someone does something"
+        },
+        {
+          "t": "closure",
+          "d": "the feeling that a painful matter has finally ended"
+        },
+        {
+          "t": "mercy",
+          "d": "kindness shown by not punishing someone as harshly as you could"
+        },
+        {
+          "t": "narrative",
+          "d": "a story, or a way of telling events"
+        },
+        {
+          "t": "prosecutors",
+          "d": "lawyers who try to prove that someone is guilty"
+        },
+        {
+          "t": "defendant",
+          "d": "a person who is accused of a crime in court"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "At this level, test the adjective or verb against the noun: only one partner in the box sounds natural.",
+        "items": [
+          {
+            "s": "The jury returned a ____ verdict after only two hours.",
+            "a": "unanimous"
+          },
+          {
+            "s": "The defence has said it will ____ an appeal against the sentence.",
+            "a": "lodge"
+          },
+          {
+            "s": "Some victims ____ doubts about whether prison brings any peace.",
+            "a": "harbour"
+          },
+          {
+            "s": "Hostage negotiations are often ____ with risk for everyone involved.",
+            "a": "fraught"
+          },
+          {
+            "s": "Mediators struggled to ____ a settlement between the two sides.",
+            "a": "broker"
+          }
+        ],
+        "extra": [
+          "wage",
+          "levy"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: should I reply?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the person who got the message",
+      "text": "An old classmate who treated you badly has sent you a friendly message after many years. You are curious and want to reply. Explain why, and say what worries you."
+    },
+    "b": {
+      "role": "the friend",
+      "text": "You think your friend should be careful. Ask questions, give your opinion, and suggest what to do. You can say reply, ignore it, or reply with conditions."
+    },
+    "phrases": [
+      "I've just had a message from someone I haven't heard from for years.",
+      "Part of me wants to find out why they wrote.",
+      "I'd think twice before answering.",
+      "What if they're only after something?",
+      "Maybe you could reply, but keep it short.",
+      "I'm still angry, but I don't want to be bitter."
+    ],
+    "after": "Afterwards, tell the class: what did your pair decide, and why?"
   }
 }

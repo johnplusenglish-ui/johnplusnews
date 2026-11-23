@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "She explained that ____ with a drink might look too relaxed.",
-            "a": "turning up"
+            "s": "Some people laughed at the idea because it was so silly that it seemed ____.",
+            "a": "ridiculous"
           },
           {
-            "s": "She wanted candidates to make ____.",
-            "a": "a good first impression"
+            "s": "A wedding or a graduation is a special ____ when people dress carefully.",
+            "a": "occasion"
           },
           {
-            "s": "They ____ that coffee has nothing to do with someone's ability.",
-            "a": "pointed out"
+            "s": "Advice on social media is often ____, so young people do not know which opinion to follow.",
+            "a": "contradictory"
           },
           {
-            "s": "Supporters said small choices show whether somebody understands the workplace and ____.",
-            "a": "takes the opportunity seriously"
+            "s": "Friends can have a strong ____ on the choices we make.",
+            "a": "influence"
           },
           {
-            "s": "Young applicants may find it hard to ____ which rules apply.",
-            "a": "work out"
+            "s": "A phone that keeps ringing is an unnecessary ____ during a meeting.",
+            "a": "distraction"
           }
         ],
         "extra": [
-          "misleading",
-          "formal"
+          "unfair",
+          "behaviour"
         ]
       },
       "match": [
@@ -72,9 +72,9 @@
             "a": "expected"
           },
           {
-            "s": "Someone's skills should ____ more weight than a plastic cup.",
-            "cue": "carry",
-            "a": "carry"
+            "s": "Many young people ____ the rule unfair.",
+            "cue": "find",
+            "a": "found"
           }
         ]
       },
@@ -95,43 +95,112 @@
           "why": "Not stated. The text does not say whether the video was removed from TikTok."
         },
         {
-          "s": "Caitlin Wehniainen explained her idea in a TikTok video.",
+          "s": "Caitlin Wehniainen has worked in recruitment for 16 years.",
           "a": "T",
-          "why": "The text says: \"In a TikTok video, she explained that turning up with a drink might give the impression that the interview is just another activity in a busy day.\""
+          "why": "The text says: \"has worked in recruitment for 16 years.\""
+        },
+        {
+          "s": "Older employees never take drinks into meetings.",
+          "a": "F",
+          "why": "The text says: \"Older employees also take drinks into meetings.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "recruiter",
+          "d": "a person whose job is to find people to work for a company"
+        },
+        {
+          "t": "impression",
+          "d": "the idea or feeling you get about someone when you first meet them"
+        },
+        {
+          "t": "relaxed",
+          "d": "calm and not worried or serious"
+        },
+        {
+          "t": "candidates",
+          "d": "people who are trying to get a job"
+        },
+        {
+          "t": "workplace",
+          "d": "the place where people do their jobs"
+        },
+        {
+          "t": "generations",
+          "d": "groups of people born around the same time, such as young and old people"
+        },
+        {
+          "t": "criteria",
+          "d": "the rules you use to decide if something is good"
+        },
+        {
+          "t": "structured",
+          "d": "planned in a clear and organised way"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Use although or however to show a surprise or a contrast, because to give a reason, so to give a result and unless to mean 'if not'.",
+        "items": [
+          {
+            "s": "____ the recruiter has years of experience, some people disagreed with her.",
+            "a": "Although"
+          },
+          {
+            "s": "I always arrive early ____ I don't like to be late.",
+            "a": "because"
+          },
+          {
+            "s": "The coffee was cold. ____, he still drank it before the interview.",
+            "a": "However"
+          },
+          {
+            "s": "He wanted to look professional, ____ he left the drink outside.",
+            "a": "so"
+          },
+          {
+            "s": "You should leave the drink outside ____ the company says it is fine.",
+            "a": "unless"
+          }
+        ],
+        "extra": [
+          "despite",
+          "instead"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "You have rehearsed how to ____ your strengths.",
-            "a": "sum up"
+            "s": "The recruiter's advice caused an angry ____ online.",
+            "a": "backlash"
           },
           {
-            "s": "According to one recruiter, that small detail could ____ you.",
-            "a": "work against"
+            "s": "It is a small ____ to turn off your phone before the interview begins.",
+            "a": "courtesy"
           },
           {
-            "s": "An interview should not look like an errand ____ a crowded morning.",
-            "a": "squeezed into"
+            "s": "Judging people by their appearance alone is ____ and ignores their real skills.",
+            "a": "superficial"
           },
           {
-            "s": "The response revealed a familiar ____ between generations.",
-            "a": "clash of expectations"
+            "s": "It felt ____ when she realised that everyone else in the room was wearing a suit.",
+            "a": "awkward"
           },
           {
-            "s": "The rules are rarely written down, so applicants must learn ____.",
-            "a": "unspoken rules"
+            "s": "A ____ approach, where every applicant gets the same questions, is fairer than improvising.",
+            "a": "consistent"
           },
           {
-            "s": "Interviewers should ____ superficial details.",
-            "a": "look past"
+            "s": "Knowing the right ____ for each type of meeting can take years of practice.",
+            "a": "etiquette"
           }
         ],
         "extra": [
-          "arbitrary",
-          "harmless"
+          "casual",
+          "tactful"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "What seems ____ in one office is normal in another.",
-            "cue": "APPROPRIATE",
-            "a": "inappropriate"
+            "s": "By the time she arrived, the other candidates ____.",
+            "cue": "leave",
+            "a": "had left"
           },
           {
-            "s": "A candidate might argue that drinking coffee says nothing about their ____.",
-            "cue": "COMPETENT",
-            "a": "competence"
+            "s": "Last year the company ____ forty graduates, and most of them still work there.",
+            "cue": "hire",
+            "a": "hired"
           },
           {
-            "s": "Remote interviews raise questions about what counts as ____ clothing.",
-            "cue": "SUIT",
-            "a": "suitable"
+            "s": "A new set of scoring criteria ____ last month.",
+            "cue": "introduce",
+            "a": "was introduced"
           },
           {
-            "s": "Structured interviews are recommended as a way to improve ____.",
-            "cue": "FAIR",
-            "a": "fairness"
+            "s": "Her video ____ by thousands of people before she explained what she meant.",
+            "cue": "watch",
+            "a": "had been watched"
           },
           {
-            "s": "Employers notice whether applicants listen carefully and how ____ they introduce themselves.",
-            "cue": "CONFIDENT",
-            "a": "confidently"
+            "s": "If employers ____ on skills, they would find better people.",
+            "cue": "focus",
+            "a": "focused"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Most industries now forbid tattoos and trainers.",
+          "s": "Wehniainen's concern was mainly about the impression the coffee creates, not the caffeine.",
+          "a": "T",
+          "why": "The text says: \"Her concern was less about caffeine than the impression it creates.\""
+        },
+        {
+          "s": "Wehniainen said her advice should be followed by every employer.",
           "a": "F",
-          "why": "The text says the opposite: \"Tattoos, trainers and informal emails are no longer automatically seen as unacceptable in many industries.\""
+          "why": "The text says: \"her advice was not a universal rule.\""
         },
         {
-          "s": "Most recruiters now use structured interviews.",
+          "s": "Wehniainen has been criticised by her own employer.",
           "a": "N",
-          "why": "Not stated. The text does not say how many recruiters use structured interviews."
+          "why": "Not stated. The text does not mention her employer."
         },
         {
-          "s": "Wehniainen said her advice was not a universal rule.",
+          "s": "Employers may notice how an applicant treats a receptionist.",
           "a": "T",
-          "why": "The text says: \"After the backlash, she clarified that her advice was not a universal rule.\""
+          "why": "The text says employers \"may still notice how applicants behave towards receptionists\"."
         },
         {
-          "s": "The CIPD recommends consistent questions and agreed scoring criteria.",
-          "a": "T",
-          "why": "The text says: \"The Chartered Institute of Personnel and Development recommends structured interviews, with consistent questions and agreed scoring criteria, as a way to improve fairness.\""
+          "s": "Interviews are judged more fairly when each interviewer asks different questions.",
+          "a": "F",
+          "why": "The text says the CIPD recommends \"consistent questions and agreed scoring criteria\" to improve fairness."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "rehearsed",
+          "d": "practised something many times before doing it for real"
+        },
+        {
+          "t": "controversy",
+          "d": "a public argument that many people have strong opinions about"
+        },
+        {
+          "t": "universal",
+          "d": "true or used in every place or situation"
+        },
+        {
+          "t": "competence",
+          "d": "the ability to do a job well"
+        },
+        {
+          "t": "disguised",
+          "d": "made to look like something else"
+        },
+        {
+          "t": "errand",
+          "d": "a short trip to do a small job, such as buying something"
+        },
+        {
+          "t": "evaluate",
+          "d": "to judge how good or bad something is"
+        },
+        {
+          "t": "criteria",
+          "d": "standards used to judge or decide something"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Whereas contrasts two things in one sentence. Otherwise means 'if not', and unless means 'except if'. Despite is followed by a noun.",
+        "items": [
+          {
+            "s": "____ her years of experience, many viewers disagreed with her.",
+            "a": "Despite"
+          },
+          {
+            "s": "Some employers prefer formal dress, ____ others are happy with trainers.",
+            "a": "whereas"
+          },
+          {
+            "s": "You should leave plenty of time to travel. ____, you may arrive late and stressed.",
+            "a": "Otherwise"
+          },
+          {
+            "s": "Interviews can feel stressful. ____, good preparation can make them easier.",
+            "a": "Nevertheless"
+          },
+          {
+            "s": "You should leave your coffee outside ____ the employer tells you it is fine.",
+            "a": "unless"
+          }
+        ],
+        "extra": [
+          "moreover",
+          "therefore"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Wehniainen later ____ her original comments.",
-            "a": "played down"
+            "s": "The committee held a ____ debate, with both sides refusing to concede a single point.",
+            "a": "spirited"
           },
           {
-            "s": "Critics asked why an ordinary drink should ____ somebody's ability to perform a job.",
+            "s": "The council imposed a total ____ on smoking in all public buildings.",
+            "a": "prohibition"
+          },
+          {
+            "s": "With only test scores to go on, they used them as a ____ for intelligence, although the link is weak.",
+            "a": "proxy"
+          },
+          {
+            "s": "His speech was heavy with ____ for a time when neighbours knew each other.",
+            "a": "nostalgia"
+          },
+          {
+            "s": "The failed merger serves as a ____ tale for any firm that expands too quickly.",
+            "a": "cautionary"
+          },
+          {
+            "s": "Early results were so dramatic that they threatened to ____ the rest of the study.",
             "a": "overshadow"
-          },
-          {
-            "s": "Her advice was ____, not a blanket prohibition.",
-            "a": "contextual"
-          },
-          {
-            "s": "A small detail becomes ____, with little evidence behind it.",
-            "a": "a proxy for seriousness"
-          },
-          {
-            "s": "Employers should not rely on nostalgia for ____.",
-            "a": "an imagined golden age"
-          },
-          {
-            "s": "Candidates would still be wise to ____.",
-            "a": "read the room"
           }
         ],
         "extra": [
-          "stick to",
-          "advocate"
+          "bias",
+          "contextual"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Her comments prompted a ____ backlash online.",
-            "cue": "SPIRIT",
-            "a": "spirited"
+            "s": "The rule struck many viewers as ____, since it had no link to ability.",
+            "cue": "REASON",
+            "a": "unreasonable"
           },
           {
-            "s": "Was this sensible advice, or one more ____ rule for nervous jobseekers?",
-            "cue": "EXPLAIN",
-            "a": "unexplained"
+            "s": "Informal clothing was once viewed with far greater ____ than it is now.",
+            "cue": "SUSPICIOUS",
+            "a": "suspicion"
           },
           {
-            "s": "Arriving ____ can reveal something about reliability.",
-            "cue": "PUNCTUAL",
-            "a": "punctually"
+            "s": "A habit of arriving late may reveal a lack of ____.",
+            "cue": "RELY",
+            "a": "reliability"
           },
           {
-            "s": "Debates about manners often conceal disagreements over ____.",
-            "cue": "CONFORM",
-            "a": "conformity"
+            "s": "Younger employees often resent what they see as the ____ of older managers.",
+            "cue": "CONSERVATIVE",
+            "a": "conservatism"
           },
           {
-            "s": "A practice considered ____ by one manager may barely register with another.",
-            "cue": "RESPECT",
-            "a": "disrespectful"
+            "s": "Rejecting someone over a drink is simply ____.",
+            "cue": "DEFEND",
+            "a": "indefensible"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Studies suggest early impressions can influence later assessments.",
+          "s": "The article suggests that employers who claim to want independent thinkers may still reward conformity.",
           "a": "T",
-          "why": "The text says: \"Studies suggest that first impressions formed during the opening moments of interviews can influence subsequent assessments, even when later questions are highly structured.\""
+          "why": "The text says employers want independent thinkers, \"yet applicants are often encouraged\" to stick to unwritten conventions."
         },
         {
-          "s": "Wehniainen later said her advice depended on the context.",
-          "a": "T",
-          "why": "The text says: \"Wehniainen subsequently played down her comments, emphasising that her advice was contextual, not a blanket prohibition.\""
-        },
-        {
-          "s": "British employers have issued new guidance on interview conduct.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether any employers have issued new guidance."
-        },
-        {
-          "s": "The writer concludes that social behaviour is irrelevant in interviews.",
+          "s": "The text claims that structured questions completely remove the effect of first impressions.",
           "a": "F",
-          "why": "The text says the opposite: \"None of this means social behaviour is irrelevant.\""
+          "why": "The text says first impressions can influence assessments \"even when later questions are highly structured\"."
+        },
+        {
+          "s": "Wehniainen's video was viewed more than a million times.",
+          "a": "N",
+          "why": "Not stated. The text gives no viewing figures."
+        },
+        {
+          "s": "The writer thinks arriving on time is a more reasonable thing to judge than carrying a drink.",
+          "a": "T",
+          "why": "The text gives punctuality as a \"legitimate\" reason, but calls the drink a detail with \"little evidence\" that it predicts performance."
+        },
+        {
+          "s": "The writer believes that only candidates are responsible for showing good judgement.",
+          "a": "F",
+          "why": "The text says: \"the burden of good judgement belongs to interviewers too.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "convey",
+          "d": "to communicate an idea or feeling"
+        },
+        {
+          "t": "contradiction",
+          "d": "two things that cannot both be true or fit together"
+        },
+        {
+          "t": "conventions",
+          "d": "accepted ways of behaving that most people follow"
+        },
+        {
+          "t": "legitimate",
+          "d": "fair and reasonable, with a good reason behind it"
+        },
+        {
+          "t": "subsequently",
+          "d": "after something else has happened"
+        },
+        {
+          "t": "conformity",
+          "d": "behaving in the same way as everyone else"
+        },
+        {
+          "t": "instinct",
+          "d": "a natural feeling about what to do, without clear reasons"
+        },
+        {
+          "t": "explicit",
+          "d": "clearly stated, with nothing hidden"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Notwithstanding and albeit are formal. Hence follows a semicolon or full stop, whereas contrasts two clauses, and provided needs a full clause.",
+        "items": [
+          {
+            "s": "____ the backlash, the recruiter stood by the broader point of her advice.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "The advice was well meant, ____ poorly explained.",
+            "a": "albeit"
+          },
+          {
+            "s": "Norms vary between industries; ____ no single rule can cover every interview.",
+            "a": "hence"
+          },
+          {
+            "s": "Some firms hire for personality, ____ others place more weight on formal qualifications.",
+            "a": "whereas"
+          },
+          {
+            "s": "Employers can ask about dress ____ they can show that it relates to the job.",
+            "a": "provided"
+          }
+        ],
+        "extra": [
+          "lest",
+          "thereby"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: the iced coffee at the interview",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the recruiter",
+      "text": "A candidate has arrived for a formal interview with an iced coffee. You think it looks too relaxed. Explain your worry, ask two questions, then decide what happens."
+    },
+    "b": {
+      "role": "the candidate",
+      "text": "You've brought an iced coffee because you're nervous and thirsty. You think it's unfair to judge you for a drink. Explain why, and suggest a solution."
+    },
+    "phrases": [
+      "I'm afraid it might give the wrong impression.",
+      "I didn't think it would be a problem.",
+      "Would you mind leaving it outside?",
+      "I'd rather keep it, if that's all right.",
+      "That's hardly fair, is it?",
+      "Shall we start the interview and forget about it?"
+    ],
+    "after": "Afterwards, tell the class: who won the argument, and was that fair?"
   }
 }

@@ -6,6 +6,7 @@ source: Associated Press | https://apnews.com/article/france-renoir-art-heist-98
 image: images/the-4-2-million-art-heist-that-went-wrong-26c6fa.jpg
 image-alt: An ornate gilded frame hangs empty on a sunlit wall behind red and white barrier tape, with a small flower painting still in place further along.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

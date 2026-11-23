@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Imagine ____ your kitchen window and seeing an enormous animal.",
-            "a": "looking out of"
+            "s": "The whale was so ____ that it could hardly fit inside the small bay.",
+            "a": "enormous"
           },
           {
-            "s": "For some residents, the animals are ____.",
-            "a": "part of local life"
+            "s": "Seeing a cat on the garden wall is an ____ sight, so nobody looks twice.",
+            "a": "ordinary"
           },
           {
-            "s": "They worry about animals suddenly ____ in front of cars at night.",
-            "a": "turning up"
+            "s": "After the storm, the ____ fence had to be repaired.",
+            "a": "damaged"
           },
           {
-            "s": "As people ____ and built more homes, the animals lost space.",
-            "a": "moved in"
+            "s": "Farmers worry that building on ____ areas will harm the wildlife.",
+            "a": "natural"
           },
           {
-            "s": "The animals lost ____ of their natural space.",
-            "a": "a great deal"
+            "s": "The police said the crime was ____, so they began an immediate search.",
+            "a": "serious"
           }
         ],
         "extra": [
-          "move around",
-          "calm"
+          "wealthy",
+          "tidy"
         ]
       },
       "match": [
@@ -87,51 +87,120 @@
         {
           "s": "No living rodent is bigger than the capybara.",
           "a": "T",
-          "why": "The text says: \"They are the world's largest living rodents and are related to guinea pigs, although they are far bigger.\""
+          "why": "The text says capybaras are \"the world's largest living rodents\"."
         },
         {
           "s": "The resident who fired the gun was arrested.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "The text mentions complaints and an investigation, but does not say whether anyone was arrested."
         },
         {
           "s": "All residents of Nordelta enjoy having the animals nearby.",
           "a": "F",
-          "why": "The text says the opposite: \"Other people are much less happy.\""
+          "why": "The text says: \"Other people are much less happy.\""
+        },
+        {
+          "s": "Capybaras usually live alone.",
+          "a": "F",
+          "why": "The text says they \"usually live in groups near rivers, lakes and wetlands\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "rodents",
+          "d": "small animals with big front teeth, like mice and rats"
+        },
+        {
+          "t": "wetland",
+          "d": "land that is very wet, with a lot of water"
+        },
+        {
+          "t": "artificial",
+          "d": "made by people, not found in nature"
+        },
+        {
+          "t": "campaigners",
+          "d": "people who work together to change something"
+        },
+        {
+          "t": "investigation",
+          "d": "an official check to find out what happened"
+        },
+        {
+          "t": "complaints",
+          "d": "words that say you are not happy about something"
+        },
+        {
+          "t": "routes",
+          "d": "ways to go from one place to another"
+        },
+        {
+          "t": "lawns",
+          "d": "areas of short grass in a garden"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a pair of words that go together naturally. Learn them as a pair, like take a photograph.",
+        "items": [
+          {
+            "s": "Visitors love to ____ photographs of the capybaras.",
+            "a": "take"
+          },
+          {
+            "s": "The animals lost a great ____ of their natural space.",
+            "a": "deal"
+          },
+          {
+            "s": "Residents want to feel ____ when they walk home at night.",
+            "a": "safe"
+          },
+          {
+            "s": "Drivers must be careful on a ____ road with heavy traffic.",
+            "a": "busy"
+          },
+          {
+            "s": "Campaigners want to ____ the places where animals live.",
+            "a": "protect"
+          }
+        ],
+        "extra": [
+          "make",
+          "heavy"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Capybaras wander across lawns ____.",
-            "a": "as if they own the place"
+            "s": "There was an ____ silence when the neighbours realised they had been talking about each other.",
+            "a": "awkward"
           },
           {
-            "s": "The wetlands once ____ for miles around the development.",
-            "a": "spread out"
+            "s": "Dogs and cats are ____ animals, while wolves and foxes are wild.",
+            "a": "domestic"
           },
           {
-            "s": "The tension ____ in September 2026 after a shooting incident.",
-            "a": "flared up"
+            "s": "The job looked difficult, but the instructions were so clear that it was ____.",
+            "a": "straightforward"
           },
           {
-            "s": "Residents who had quietly ____ the situation found themselves arguing.",
-            "a": "put up with"
+            "s": "The head teacher wore a ____ suit and tie for the ceremony.",
+            "a": "formal"
           },
           {
-            "s": "Talk of an invasion turns the real history ____.",
-            "a": "upside down"
+            "s": "The town ____ grew bigger over fifty years as more families moved in.",
+            "a": "gradually"
           },
           {
-            "s": "Relocation may look straightforward ____.",
-            "a": "on paper"
+            "s": "She carried the sleeping baby ____ so as not to wake her.",
+            "a": "carefully"
           }
         ],
         "extra": [
-          "take over",
-          "semi-aquatic"
+          "suddenly",
+          "recently"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The result is an ____ kind of coexistence.",
-            "cue": "COMFORT",
-            "a": "uncomfortable"
+            "s": "Nordelta ____ in an area where wetlands once spread out for miles.",
+            "cue": "build",
+            "a": "was built"
           },
           {
-            "s": "Capybaras ____ inhabit wetlands.",
-            "cue": "NATURE",
-            "a": "naturally"
+            "s": "Before the incident, many residents ____ the capybaras quietly for years.",
+            "cue": "tolerate",
+            "a": "had tolerated"
           },
           {
-            "s": "A family grazing on a lawn is wetland behaviour in an ____ setting.",
-            "cue": "EXPECT",
-            "a": "unexpected"
+            "s": "In September 2026, a resident ____ shooting towards capybaras near his property.",
+            "cue": "film",
+            "a": "was filmed"
           },
           {
-            "s": "Environmental ____ argue that the history is being reversed.",
-            "cue": "CAMPAIGN",
-            "a": "campaigners"
+            "s": "Campaigners say the capybaras ____ from another continent.",
+            "cue": "not arrive",
+            "a": "did not arrive"
           },
           {
-            "s": "Population control raises ____ and ethical questions.",
-            "cue": "ECOLOGY",
-            "a": "ecological"
+            "s": "Any plan to move the animals ____ by experts first.",
+            "cue": "approve (must)",
+            "a": "must be approved"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The capybaras arrived in Argentina from another continent.",
+          "s": "The capybaras were living in the area before Nordelta was developed.",
+          "a": "T",
+          "why": "The text says they \"survived while a human settlement expanded around them\"."
+        },
+        {
+          "s": "Everyone in Nordelta reacted to the capybaras in the same way.",
           "a": "F",
-          "why": "The text says the opposite: \"The capybaras did not arrive from another continent.\""
+          "why": "The text says some people are delighted, while others report damage and risks."
         },
         {
-          "s": "Nordelta has built wildlife corridors since the incident.",
+          "s": "Nordelta residents have voted on whether to move the capybaras.",
           "a": "N",
-          "why": "Not stated. The text does not say whether Nordelta has built wildlife corridors."
+          "why": "The text mentions no vote."
         },
         {
-          "s": "Capybaras come originally from South America.",
+          "s": "Moving the animals would be difficult even if residents agreed to it.",
           "a": "T",
-          "why": "The text says: \"Capybaras, known locally as carpinchos, are native to South America and naturally inhabit wetlands.\""
+          "why": "The text says moving a group \"only works if there is somewhere suitable to move them to\"."
         },
         {
-          "s": "People made formal complaints after the incident in September 2026.",
-          "a": "T",
-          "why": "The text says: \"The incident prompted formal complaints and revived a long-running argument about how the neighbourhood should manage its animal population.\""
+          "s": "The shooting incident was the first time residents argued about the capybaras.",
+          "a": "F",
+          "why": "The incident \"revived a long-running argument\", so the argument already existed."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "coexistence",
+          "d": "living in the same place without fighting"
+        },
+        {
+          "t": "wander",
+          "d": "walk slowly around with no clear aim"
+        },
+        {
+          "t": "inhabit",
+          "d": "live in a place"
+        },
+        {
+          "t": "habitat",
+          "d": "the natural home of an animal or plant"
+        },
+        {
+          "t": "ecosystem",
+          "d": "all the living things in an area and how they depend on each other"
+        },
+        {
+          "t": "relocation",
+          "d": "moving something or someone to a new place"
+        },
+        {
+          "t": "corridors",
+          "d": "strips of land that connect two larger areas"
+        },
+        {
+          "t": "dispute",
+          "d": "a serious argument between people or groups"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Verbs and nouns often come in fixed pairs. Choose the verb that native speakers actually use with the noun, not one that only seems logical.",
+        "items": [
+          {
+            "s": "Residents are being forced to ____ sides in a public dispute.",
+            "a": "take"
+          },
+          {
+            "s": "The proposal to move the animals could ____ ethical questions.",
+            "a": "raise"
+          },
+          {
+            "s": "After years of talks, the two sides still hope to ____ an agreement.",
+            "a": "reach"
+          },
+          {
+            "s": "Wildlife groups want to ____ the remaining habitat.",
+            "a": "protect"
+          },
+          {
+            "s": "Many residents hold ____ opinions about how the animals should be treated.",
+            "a": "strong"
+          }
+        ],
+        "extra": [
+          "cost",
+          "pay"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Residents enjoy ____ gardens and artificial lakes.",
-            "a": "landscaped"
+            "s": "The minister refused to ____ that the original forecast had been wrong.",
+            "a": "acknowledge"
           },
           {
-            "s": "The capybaras' calm, ____ presence disrupts that carefully arranged environment.",
-            "a": "unhurried"
+            "s": "Several economists ____ phasing in the tax over a decade rather than overnight.",
+            "a": "advocate"
           },
           {
-            "s": "The dispute ____ in September 2026 when footage emerged.",
-            "a": "took a disturbing turn"
+            "s": "A single signal failure routinely ____ the whole rail timetable.",
+            "a": "disrupts"
           },
           {
-            "s": "Relocation depends on somewhere the development has ____.",
-            "a": "done away with"
+            "s": "A clever marketing team ____ a sense of scarcity to drive up demand.",
+            "a": "manufactures"
           },
           {
-            "s": "The argument exposes ____ worth noticing.",
-            "a": "a linguistic trap"
+            "s": "____ the objections without reading them only angers those who made them.",
+            "a": "Dismissing"
           },
           {
-            "s": "Whoever controls the vocabulary is ____ the policy.",
-            "a": "halfway to controlling"
+            "s": "Decades of erosion have ____ the coastline beyond recognition.",
+            "a": "reshaped"
           }
         ],
         "extra": [
-          "break up",
-          "aberrant"
+          "intrude",
+          "sustain"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The animals are not newcomers in any meaningful ____ sense.",
-            "cue": "ECOLOGY",
-            "a": "ecological"
+            "s": "The ____ of habitat has pushed many species towards extinction.",
+            "cue": "FRAGMENT",
+            "a": "fragmentation"
           },
           {
-            "s": "A family grazing on a lawn is entirely ordinary wetland ____.",
-            "cue": "BEHAVE",
-            "a": "behaviour"
+            "s": "Critics called the decision ____ and said it ignored the scientific evidence.",
+            "cue": "RESPONSIBLE",
+            "a": "irresponsible"
           },
           {
-            "s": "People raise concerns about ____ interactions with pets.",
-            "cue": "PREDICT",
-            "a": "unpredictable"
+            "s": "Their ____ of the risks left them badly exposed when costs soared.",
+            "cue": "ESTIMATE",
+            "a": "underestimation"
           },
           {
-            "s": "The wetland is a landscape that has been ____ rebuilt around the animals.",
-            "cue": "COMPREHENSIVE",
-            "a": "comprehensively"
+            "s": "Conservationists welcomed the ____ of a protected zone around the lake.",
+            "cue": "ESTABLISH",
+            "a": "establishment"
           },
           {
-            "s": "Some people think wildlife should disappear the moment it becomes ____.",
-            "cue": "CONVENIENT",
-            "a": "inconvenient"
+            "s": "Her ____ to compromise made the negotiations far harder.",
+            "cue": "WILLING",
+            "a": "unwillingness"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Capybaras live in groups and depend on water.",
+          "s": "The writer implies that the capybaras' behaviour on the lawns is typical of the species.",
           "a": "T",
-          "why": "The text says: \"Capybaras are the largest living rodents on earth, group-dwelling relatives of the guinea pig that depend on water and graze on open vegetation.\""
+          "why": "The text calls it \"entirely ordinary wetland behaviour, performed in an extraordinary setting\"."
         },
         {
-          "s": "The writer dismisses the residents' safety concerns entirely.",
+          "s": "The writer treats relocation as an easy solution.",
           "a": "F",
-          "why": "The text says the opposite: \"The resulting tension is not entirely imaginary, and it would be unfair to pretend otherwise.\""
+          "why": "Relocation \"depends on there being somewhere suitable to move the animals to\", which the development has done away with."
         },
         {
-          "s": "The Argentinian government has passed a law protecting capybaras.",
+          "s": "The investigation into the shooting has concluded.",
           "a": "N",
-          "why": "Not stated. The text does not mention any law protecting capybaras."
+          "why": "The text says an investigation followed but not how it ended."
         },
         {
-          "s": "In September 2026, a video appeared that showed a resident shooting at capybaras.",
+          "s": "The writer considers the word \"invasion\" misleading in this case.",
           "a": "T",
-          "why": "The text says: \"The dispute nonetheless took a disturbing turn in September 2026, when footage emerged of a resident firing at capybaras.\""
+          "why": "The text says what some call an invasion is \"better understood as the survival of wildlife\"."
+        },
+        {
+          "s": "Nordelta's artificial lakes make the area less attractive to capybaras.",
+          "a": "F",
+          "why": "The text says the waterways \"have proved attractive habitat\" for them."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "landscaped",
+          "d": "designed and planted to look attractive, as a garden or park is"
+        },
+        {
+          "t": "semi-aquatic",
+          "d": "spending part of its life in water and part on land"
+        },
+        {
+          "t": "vegetation",
+          "d": "plants in general, especially those growing in one place"
+        },
+        {
+          "t": "remedy",
+          "d": "a way of fixing a problem"
+        },
+        {
+          "t": "legitimate",
+          "d": "fair and reasonable, with a good reason behind it"
+        },
+        {
+          "t": "hardening",
+          "d": "making something firmer or less willing to change"
+        },
+        {
+          "t": "comprehensively",
+          "d": "completely and in great detail"
+        },
+        {
+          "t": "coexistence",
+          "d": "the state of living or existing together peacefully"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "At C1, collocations are fixed: change one word and the phrase sounds wrong, such as strike a balance, not make a balance.",
+        "items": [
+          {
+            "s": "Rising sea levels ____ a serious threat to coastal communities.",
+            "a": "pose"
+          },
+          {
+            "s": "Local people have ____ concerns about the noise from the new airport.",
+            "a": "raised"
+          },
+          {
+            "s": "The speaker's remarks last week ____ a good deal of criticism.",
+            "a": "drew"
+          },
+          {
+            "s": "Planners must ____ a balance between growth and conservation.",
+            "a": "strike"
+          },
+          {
+            "s": "Developers with a ____ interest in the land opposed the ban.",
+            "a": "vested"
+          }
+        ],
+        "extra": [
+          "bear",
+          "weigh"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a capybara on the lawn",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the resident",
+      "text": "Capybaras keep eating your garden and you're worried about your dog. Explain the problem and ask what the community will do. You can accept a plan, or ask for something different."
+    },
+    "b": {
+      "role": "the wildlife campaigner",
+      "text": "You think the animals were here first. Listen to the resident, then suggest ways to share the space. Try to find a plan you both accept."
+    },
+    "phrases": [
+      "I'm worried about my dog.",
+      "They were here long before the houses.",
+      "What do you suggest we do?",
+      "I'd be happy to try that.",
+      "That isn't fair to the animals.",
+      "Can we meet halfway?"
+    ],
+    "after": "Afterwards, tell the class: what plan did you agree, and who gave up more?"
   }
 }

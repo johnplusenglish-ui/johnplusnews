@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Experts came to ____ at the inscribed stone.",
-            "a": "take a closer look"
+            "s": "The statue was so ____ that it would not fit through the door of an ordinary house.",
+            "a": "enormous"
           },
           {
-            "s": "Sometimes a small discovery ____ a much bigger piece of history.",
-            "a": "opens the door to"
+            "s": "Old coins can be very ____ to a museum, even when they are small.",
+            "a": "valuable"
           },
           {
-            "s": "The finds may help experts ____ how people used the area.",
-            "a": "work out"
+            "s": "Guards were sent to ____ the site so that nobody could steal anything.",
+            "a": "protect"
           },
           {
-            "s": "If somebody carries a statue away, that information is ____.",
-            "a": "lost for good"
+            "s": "The guide was asked to ____ why the statue was so big.",
+            "a": "explain"
           },
           {
-            "s": "By ____ the authorities, he helped protect the site.",
-            "a": "getting in touch with"
+            "s": "Only the ____ of the old wall were left, and most of it had fallen down.",
+            "a": "remains"
           }
         ],
         "extra": [
-          "throw it away",
-          "remarkable"
+          "ancient",
+          "organise"
         ]
       },
       "match": [
@@ -85,6 +85,11 @@
           "why": "The text says: \"One statue head was about 1.6 metres tall.\""
         },
         {
+          "s": "The complete statue may once have been taller than a two-storey house.",
+          "a": "T",
+          "why": "The text says it may have stood around 8.5 metres high, \"which is taller than a two-storey house\"."
+        },
+        {
           "s": "Archaeologists found the statues close to a temple linked to a goddess.",
           "a": "T",
           "why": "The text says: \"The objects were found near the remains of a temple linked to Isis, an important goddess in ancient Egyptian religion.\""
@@ -99,39 +104,103 @@
           "a": "F",
           "why": "The text says the opposite: \"Instead, he reported it to the experts, and his decision led archaeologists to something remarkable.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "resident",
+          "d": "a person who lives in a place"
+        },
+        {
+          "t": "archaeologists",
+          "d": "people who study the past by looking at old things in the ground"
+        },
+        {
+          "t": "granite",
+          "d": "a very hard grey or pink stone"
+        },
+        {
+          "t": "goddess",
+          "d": "a female god"
+        },
+        {
+          "t": "monuments",
+          "d": "big buildings or statues made to remember a person or event"
+        },
+        {
+          "t": "authorities",
+          "d": "the people or offices that are in charge"
+        },
+        {
+          "t": "site",
+          "d": "a place where something happens or is found"
+        },
+        {
+          "t": "religion",
+          "d": "a belief in a god or gods"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word, like out or away. The small word changes the meaning, so learn them together.",
+        "items": [
+          {
+            "s": "The experts will ____ out how old the statue is.",
+            "a": "work"
+          },
+          {
+            "s": "Please do not carry the stones ____; leave them where you found them.",
+            "a": "away"
+          },
+          {
+            "s": "It looked like an ordinary stone, but it turned ____ to be a piece of history.",
+            "a": "out"
+          },
+          {
+            "s": "The team will carry ____ with the dig next week.",
+            "a": "on"
+          },
+          {
+            "s": "The guide asked us to ____ after the stone, because it is very old.",
+            "a": "look"
+          }
+        ],
+        "extra": [
+          "give",
+          "round"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Instead of trying to move it or ____, he contacted the authorities.",
-            "a": "sell it on"
+            "s": "The vase was broken into dozens of small ____, which the museum staff carefully glued together.",
+            "a": "fragments"
           },
           {
-            "s": "The excavation ____ fragments of two huge royal statues.",
-            "a": "brought to light"
+            "s": "The roof was leaking badly, so the repair was ____ and could not wait until spring.",
+            "a": "urgent"
           },
           {
-            "s": "Specialists ____ a rescue excavation after inspecting the stone.",
-            "a": "carried out"
+            "s": "The police found no ____ that anyone had broken into the house.",
+            "a": "evidence"
           },
           {
-            "s": "The pieces are valuable because they ____.",
-            "a": "turned up in an archaeological context"
+            "s": "Doctors were not worried because it was a single, ____ incident and not part of a pattern.",
+            "a": "isolated"
           },
           {
-            "s": "The inscriptions may ____ how the Delta developed.",
-            "a": "shed light on"
+            "s": "Engineers ____ that the repairs will cost around two million pounds.",
+            "a": "estimate"
           },
           {
-            "s": "The alternative is that finds ____.",
-            "a": "slip quietly into private hands"
+            "s": "He was ____ the best candidate, since he had the most experience, but the interviews were not finished.",
+            "a": "presumably"
           }
         ],
         "extra": [
-          "laid out",
-          "decorative"
+          "approximately",
+          "inspected"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "A resident noticed an ____ inscribed stone.",
-            "cue": "USUAL",
-            "a": "unusual"
+            "s": "By the time the experts arrived, the resident ____ the authorities.",
+            "cue": "contact",
+            "a": "had contacted"
           },
           {
-            "s": "An ordinary piece of land turned into an ____ site.",
-            "cue": "ARCHAEOLOGY",
-            "a": "archaeological"
+            "s": "The ruins ____ by law since they were declared a national monument.",
+            "cue": "protect",
+            "a": "have been protected"
           },
           {
-            "s": "Ramesses II is famous for his ____ buildings.",
-            "cue": "MONUMENT",
-            "a": "monumental"
+            "s": "If the man had sold the stone, researchers ____ the statues.",
+            "cue": "never find",
+            "a": "would never have found"
           },
           {
-            "s": "The resident's decision to report the stone was so ____.",
-            "cue": "SIGNIFY",
-            "a": "significant"
+            "s": "When the rain began, the specialists still ____ the layers of earth.",
+            "cue": "record",
+            "a": "were recording"
           },
           {
-            "s": "The authorities investigated the site ____.",
-            "cue": "SYSTEM",
-            "a": "systematically"
+            "s": "Last year, an old coin ____ in a garden in our town.",
+            "cue": "discover",
+            "a": "was discovered"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "Researchers already know exactly where the statues stood.",
           "a": "F",
           "why": "The text says the opposite: \"There is still work to do before researchers can explain precisely where the statues stood and what purpose they served.\""
+        },
+        {
+          "s": "The writer thinks an object found by chance is likely to teach researchers less than one found during a proper excavation.",
+          "a": "T",
+          "why": "The text says such an object \"may still be beautiful, but it is likely to tell researchers very little\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "inscribed",
+          "d": "with words or marks cut into the surface"
+        },
+        {
+          "t": "excavation",
+          "d": "the work of digging carefully to find things from the past"
+        },
+        {
+          "t": "hieroglyphs",
+          "d": "the pictures and symbols used in ancient Egyptian writing"
+        },
+        {
+          "t": "artefact",
+          "d": "an old object made by people"
+        },
+        {
+          "t": "sacred",
+          "d": "very important in a religion"
+        },
+        {
+          "t": "reign",
+          "d": "the time when a king or queen rules"
+        },
+        {
+          "t": "systematically",
+          "d": "in a careful, organised way, step by step"
+        },
+        {
+          "t": "specialists",
+          "d": "people who know a lot about one subject"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs have a meaning you cannot guess from the parts. Learn the whole verb, for example look into means to investigate.",
+        "items": [
+          {
+            "s": "The team will ____ out a rescue excavation before the builders arrive.",
+            "a": "carry"
+          },
+          {
+            "s": "Experts will ____ into the history of the statue before they publish anything.",
+            "a": "look"
+          },
+          {
+            "s": "Without a record, a find can ____ up in a private collection.",
+            "a": "end"
+          },
+          {
+            "s": "The authorities asked the public to come ____ if they had information.",
+            "a": "forward"
+          },
+          {
+            "s": "The archaeologist pointed ____ that the statue was once much taller.",
+            "a": "out"
+          }
+        ],
+        "extra": [
+          "break",
+          "hold"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Even broken into pieces, the head ____ of the scale the builders were working on.",
-            "a": "gives a sense"
+            "s": "The festival is closely ____ with the harvest, though its exact origins remain unclear.",
+            "a": "associated"
           },
           {
-            "s": "Researchers still need to ____ how the statues fitted into the surrounding site.",
-            "a": "work out"
+            "s": "An internal audit ____ a pattern of irregular payments that nobody had noticed.",
+            "a": "uncovered"
           },
           {
-            "s": "Ramesses II commissioned monuments ____.",
-            "a": "on a grand scale"
+            "s": "It took the inquiry months to ____ who had authorised the transfer.",
+            "a": "establish"
           },
           {
-            "s": "Moving a fragment before its position is recorded can destroy information that cannot be ____.",
-            "a": "put back"
+            "s": "Only ____ of the original manuscript survive, so scholars must reconstruct much of the argument.",
+            "a": "fragments"
           },
           {
-            "s": "The resident's decision let specialists investigate the stone ____.",
-            "a": "in place"
+            "s": "Careful ____ between the two sets of figures revealed a small but consistent gap.",
+            "a": "comparisons"
           },
           {
-            "s": "For now, the stone has ____ a much larger site.",
-            "a": "opened a window onto"
+            "s": "On that ____, even a minor error would have serious consequences.",
+            "a": "scale"
           }
         ],
         "extra": [
-          "sanctuary",
-          "towering"
+          "layers",
+          "clues"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "An ____ stone near a home in Egypt led officials to something much larger.",
-            "cue": "USUAL",
-            "a": "unusual"
+            "s": "Scholars have questioned the ____ of the traditional dating of the monument.",
+            "cue": "RELY",
+            "a": "reliability"
           },
           {
-            "s": "Beneath the everyday ____ were fragments of two enormous royal statues.",
-            "cue": "SURROUND",
-            "a": "surroundings"
+            "s": "The ____ of the fragments in the soil suggests they were moved long ago.",
+            "cue": "DISPLACE",
+            "a": "displacement"
           },
           {
-            "s": "A head in a museum may be ____, but its original position could answer questions the carving cannot.",
-            "cue": "IMPRESS",
-            "a": "impressive"
+            "s": "Several experts expressed ____ about the proposed interpretation.",
+            "cue": "SCEPTIC",
+            "a": "scepticism"
           },
           {
-            "s": "Further excavation and comparisons with other finds may change the ____.",
-            "cue": "EXPLAIN",
-            "a": "explanation"
+            "s": "It would be ____ to draw firm conclusions from so few pieces.",
+            "cue": "ADVISE",
+            "a": "inadvisable"
           },
           {
-            "s": "Officials believe it came from a figure that ____ stood around 8.5 metres high.",
-            "cue": "ORIGIN",
-            "a": "originally"
+            "s": "Thorough ____ of every layer is essential if the site is to be understood later.",
+            "cue": "DOCUMENT",
+            "a": "documentation"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The find began with a local man telling officials about writing on a stone.",
+          "s": "The writer implies that a head displayed in a museum may have lost part of its historical value.",
           "a": "T",
-          "why": "The text says: \"In October 2026, a resident of Bahbit al-Higara, in the Nile Delta, reported writing he had noticed on a stone while working on nearby land.\""
+          "why": "The text says a head in a museum may be impressive, but its original position \"could answer questions the carving alone cannot\"."
         },
         {
-          "s": "Archaeologists remove an object first and record its position afterwards.",
+          "s": "The complete figure was more than five times taller than the head that was found.",
+          "a": "T",
+          "why": "The head was about 1.6 metres tall and the figure about 8.5 metres, and 8.5 divided by 1.6 is just over five."
+        },
+        {
+          "s": "The original arrangement of the statues is already well understood.",
           "a": "F",
-          "why": "The text says the opposite: \"Archaeologists record the layers of earth, nearby buildings and other finds before moving a piece.\""
+          "why": "The text says the fragments \"do not yet give a complete picture of the statues or their original arrangement\"."
         },
         {
-          "s": "Other inscribed stones have been reported in the same village.",
+          "s": "The resident was paid a reward by the Supreme Council of Antiquities.",
           "a": "N",
-          "why": "Not stated. The text does not say whether any other stones have been reported in the village."
+          "why": "The text does not say whether the resident received any payment."
         },
         {
-          "s": "Specialists also found a block of pink granite that carried ancient writing.",
-          "a": "T",
-          "why": "The text says: \"Specialists from Egypt's Supreme Council of Antiquities also uncovered a block of pink granite covered in hieroglyphs, the ancient Egyptian writing system.\""
+          "s": "Experts have ruled out changing their explanation of the site.",
+          "a": "F",
+          "why": "The text says further excavation and comparisons \"may change the explanation\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "hieroglyphs",
+          "d": "the pictures and symbols used in ancient Egyptian writing"
+        },
+        {
+          "t": "granite",
+          "d": "a very hard stone, often grey or pink"
+        },
+        {
+          "t": "carving",
+          "d": "a shape or picture cut into stone or wood"
+        },
+        {
+          "t": "layers",
+          "d": "levels of material lying one on top of another"
+        },
+        {
+          "t": "excavation",
+          "d": "the careful digging of a site to find old objects"
+        },
+        {
+          "t": "antiquities",
+          "d": "objects and buildings from the ancient past"
+        },
+        {
+          "t": "investigated",
+          "d": "examined carefully to find out the facts"
+        },
+        {
+          "t": "resident",
+          "d": "a person who lives in a particular place"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "At this level, many phrasal verbs are fairly formal. Check whether the meaning is literal or figurative: brush aside means to dismiss something.",
+        "items": [
+          {
+            "s": "Investigators refused to ____ aside the possibility that the damage was deliberate.",
+            "a": "brush"
+          },
+          {
+            "s": "Many of the site's problems ____ from decades of neglect.",
+            "a": "stem"
+          },
+          {
+            "s": "Officials were accused of trying to ____ down the seriousness of the damage.",
+            "a": "play"
+          },
+          {
+            "s": "The findings should not ____ out further excavation at the site.",
+            "a": "rule"
+          },
+          {
+            "s": "Careful recording can ____ about a far better understanding of the site.",
+            "a": "bring"
+          }
+        ],
+        "extra": [
+          "dig",
+          "bury"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: what should we do with the stone?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the neighbour",
+      "text": "Your neighbour has found a strange stone with writing on it. You think it could be worth a lot of money. Try to persuade your neighbour to keep it or sell it. Ask at least two questions."
+    },
+    "b": {
+      "role": "the finder",
+      "text": "You found a strange stone with writing on it near your home. You want to report it to the experts. Explain why, and answer your neighbour's ideas politely."
+    },
+    "phrases": [
+      "I think it could be worth a lot of money.",
+      "What if it's really important?",
+      "I'd rather call the experts first.",
+      "That's not a good idea, because we don't know what it is.",
+      "Let's find out what it is before we decide.",
+      "We could both agree to ask for advice."
+    ],
+    "after": "Afterwards, tell the class: what did you decide to do with the stone, and why?"
   }
 }

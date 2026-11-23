@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Plenty of people ____ on their own and join in anyway.",
-            "a": "turn up"
+            "s": "In January the water is so cold that it is almost ____.",
+            "a": "freezing"
           },
           {
-            "s": "At the pub, neighbours ____ local news.",
-            "a": "catch up on"
+            "s": "Some people do not drink ____, so they avoid pubs.",
+            "a": "alcohol"
           },
           {
-            "s": "A pub does not ____, so some people look for a different place.",
-            "a": "suit everybody"
+            "s": "A hotel with a spa is a ____ that not everyone can pay for.",
+            "a": "luxury"
           },
           {
-            "s": "Everyone ____ their phone before going in.",
-            "a": "puts away"
+            "s": "Talking to strangers about your day is ____ in a big city, where most people look at their phones.",
+            "a": "unusual"
           },
           {
-            "s": "In a sauna, it is easy to ____ a stranger.",
-            "a": "get to know"
+            "s": "A video call can never fully ____ meeting a friend in person.",
+            "a": "replace"
           }
         ],
         "extra": [
-          "spend time together",
-          "welcoming"
+          "crowded",
+          "noisy"
         ]
       },
       "match": [
@@ -57,24 +57,24 @@
             "a": "have become"
           },
           {
-            "s": "Visitors usually book a short session and ____ for it.",
-            "cue": "pay",
-            "a": "pay"
+            "s": "Last winter, I ____ to a sauna beside the sea for the first time.",
+            "cue": "go",
+            "a": "went"
           },
           {
-            "s": "A person who arrives alone may leave ____ spoken to several strangers.",
-            "cue": "have",
-            "a": "having"
-          },
-          {
-            "s": "The high temperatures ____ not suitable for everybody.",
-            "cue": "be",
-            "a": "are"
+            "s": "A person who arrives alone may leave ____ to several strangers.",
+            "cue": "speak",
+            "a": "having spoken"
           },
           {
             "s": "Outside, the wind ____ across the sea.",
             "cue": "blow",
             "a": "blows"
+          },
+          {
+            "s": "Last week my friends and I ____ a short session online.",
+            "cue": "book",
+            "a": "booked"
           }
         ]
       },
@@ -98,40 +98,109 @@
           "s": "A sauna can do everything a pub does.",
           "a": "F",
           "why": "The text says the opposite: \"Of course, a sauna cannot replace everything a pub does.\""
+        },
+        {
+          "s": "Visitors usually pay for a session after it has finished.",
+          "a": "F",
+          "why": "The text says visitors \"pay for it before they arrive\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "session",
+          "d": "a fixed period of time for an activity"
+        },
+        {
+          "t": "neighbours",
+          "d": "people who live near you"
+        },
+        {
+          "t": "community",
+          "d": "a group of people who live in the same place"
+        },
+        {
+          "t": "temperatures",
+          "d": "how hot or cold things are"
+        },
+        {
+          "t": "celebrate",
+          "d": "do something special on a happy day"
+        },
+        {
+          "t": "suitable",
+          "d": "right or good for a person or purpose"
+        },
+        {
+          "t": "friendship",
+          "d": "a close, friendly link between two people"
+        },
+        {
+          "t": "noise",
+          "d": "loud or unpleasant sound"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Linking words join ideas. Ask yourself: is the second idea a contrast, a reason, a result or a condition?",
+        "items": [
+          {
+            "s": "Some saunas are beside the sea, ____ others are in town centres.",
+            "a": "while"
+          },
+          {
+            "s": "Saunas are very popular. ____, they are not suitable for everybody.",
+            "a": "However"
+          },
+          {
+            "s": "Many people like saunas ____ there is no loud music or television.",
+            "a": "because"
+          },
+          {
+            "s": "I do not drink alcohol, ____ I prefer the sauna to the pub.",
+            "a": "so"
+          },
+          {
+            "s": "____ you arrive alone, you may still make new friends.",
+            "a": "If"
+          }
+        ],
+        "extra": [
+          "unless",
+          "despite"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Strangers sit ____ while the Atlantic crashes outside.",
-            "a": "shoulder to shoulder"
+            "s": "The weather on the west coast can be ____, with storms arriving within minutes.",
+            "a": "dramatic"
           },
           {
-            "s": "They all want to ____ somewhere that is neither home nor work.",
-            "a": "wind down"
+            "s": "A ____ friend is someone you can always rely on.",
+            "a": "dependable"
           },
           {
-            "s": "Saunas have been ____ along the Irish coast and in towns.",
-            "a": "springing up"
+            "s": "Many people prefer ____ meetings with friends to formal events with a fixed programme.",
+            "a": "informal"
           },
           {
-            "s": "Regulars tend to ____ at the same time each week.",
-            "a": "drop in"
+            "s": "Cafes are a popular ____ to the pub for people who do not drink.",
+            "a": "alternative"
           },
           {
-            "s": "Anyone ____ may struggle to find an alternative to the pub.",
-            "a": "watching their spending"
+            "s": "There has been a ____ towards alcohol-free socialising in recent years.",
+            "a": "shift"
           },
           {
-            "s": "Researchers call such informal gathering places ____.",
-            "a": "third places"
+            "s": "People often make ____ between the sauna and the pub, since both are places to talk.",
+            "a": "comparisons"
           }
         ],
         "extra": [
-          "fall back on",
-          "compact"
+          "gradual",
+          "elaborate"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "It is a ____ picture of modern Ireland.",
-            "cue": "CURIOSITY",
-            "a": "curious"
+            "s": "Over the last few years, many new saunas ____ along the coast.",
+            "cue": "open",
+            "a": "have opened"
           },
           {
-            "s": "Its Irish popularity has a distinctly local ____.",
-            "cue": "CHARACTERISE",
-            "a": "character"
+            "s": "By the time we arrived, the earlier group ____.",
+            "cue": "leave",
+            "a": "had left"
           },
           {
-            "s": "Conversation can develop ____ in a sauna.",
-            "cue": "NATURE",
-            "a": "naturally"
+            "s": "Most sessions ____ online in advance.",
+            "cue": "book",
+            "a": "are booked"
           },
           {
-            "s": "A paid session is not necessarily ____.",
-            "cue": "AFFORD",
-            "a": "affordable"
+            "s": "If more people lived near the sea, they ____ saunas more often.",
+            "cue": "visit",
+            "a": "would visit"
           },
           {
-            "s": "The experience may be medically ____ for some people.",
-            "cue": "SUIT",
-            "a": "unsuitable"
+            "s": "For generations, the pub ____ the heart of village life.",
+            "cue": "be",
+            "a": "has been"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "Sauna bookings in Ireland doubled during 2026.",
           "a": "N",
           "why": "Not stated. The text gives no figures for how many people book saunas."
+        },
+        {
+          "s": "To join a sauna session, you have to give up a whole evening.",
+          "a": "F",
+          "why": "The text says \"nobody is signing up for a whole evening\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "associated",
+          "d": "connected in people's minds with something"
+        },
+        {
+          "t": "regulars",
+          "d": "people who go to a place often"
+        },
+        {
+          "t": "socialising",
+          "d": "spending time with other people for fun"
+        },
+        {
+          "t": "loneliness",
+          "d": "the sad feeling of having nobody to talk to"
+        },
+        {
+          "t": "wellbeing",
+          "d": "being healthy and happy"
+        },
+        {
+          "t": "gather",
+          "d": "come together in one place"
+        },
+        {
+          "t": "uncomfortable",
+          "d": "not feeling at ease"
+        },
+        {
+          "t": "limited",
+          "d": "small in number or amount"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Decide what the link does: give a reason, show a contrast, or warn about a result. Check the punctuation too.",
+        "items": [
+          {
+            "s": "____ a session is short, it is easy to fit around work or family.",
+            "a": "Because"
+          },
+          {
+            "s": "Pubs offer food and music, ____ a sauna offers heat and quiet.",
+            "a": "whereas"
+          },
+          {
+            "s": "Pubs have been popular for generations. ____, not everyone enjoys them.",
+            "a": "However"
+          },
+          {
+            "s": "The session is short and cheap, ____ some people go every week.",
+            "a": "so"
+          },
+          {
+            "s": "Visitors should book ahead; ____, there may be no free place.",
+            "a": "otherwise"
+          }
+        ],
+        "extra": [
+          "unless",
+          "instead"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "More people now ____ spaces free from screens, alcohol and organised entertainment.",
-            "a": "seek out"
+            "s": "Guests who are ____ from alcohol often welcome a setting where nobody comments on their choice.",
+            "a": "abstaining"
           },
           {
-            "s": "The ritual ____ northern European tradition.",
-            "a": "draws on"
+            "s": "A glossy advertising campaign can ____ the fact that the experience is unsuitable for some people.",
+            "a": "disguise"
           },
           {
-            "s": "Nobody has to explain why they are ____ a round.",
-            "a": "turning down"
+            "s": "No video call, however polished, can fully ____ the warmth of a shared room.",
+            "a": "replicate"
           },
           {
-            "s": "The shared experience does ____ some familiar social barriers.",
-            "a": "strip away"
+            "s": "A guest who keeps probing into someone's private life can seem ____.",
+            "a": "intrusive"
           },
           {
-            "s": "The usual markers of status ____ something more level.",
-            "a": "give way to"
+            "s": "Sudden ____ in icy water can shock the body.",
+            "a": "immersion"
           },
           {
-            "s": "A sauna is ____ accessible in the economic sense.",
-            "a": "by no means"
+            "s": "The village hall is an ____ that generations of locals have relied on.",
+            "a": "institution"
           }
         ],
         "extra": [
-          "take over",
-          "enduring"
+          "reluctant",
+          "tentative"
         ]
       },
       "match": [
@@ -265,49 +403,139 @@
             "a": "underestimated"
           },
           {
-            "s": "Conversation that would feel intrusive across an office desk becomes ____.",
+            "s": "Questions that would sound nosy in a meeting become ____ in a sauna.",
             "cue": "REMARK",
             "a": "unremarkable"
           },
           {
-            "s": "Sauna operators have found ____ customers in coastal communities and urban areas alike.",
-            "cue": "ENTHUSIASM",
-            "a": "enthusiastic"
+            "s": "Urban ____ have long studied how informal spaces build community.",
+            "cue": "SOCIOLOGY",
+            "a": "sociologists"
           },
           {
-            "s": "Warmth and sociability, ____ though they are, are not the same thing as community.",
-            "cue": "AGREE",
-            "a": "agreeable"
+            "s": "The sauna is not ____ to people on very low incomes.",
+            "cue": "ACCESS",
+            "a": "accessible"
           },
           {
-            "s": "A pleasant encounter does not guarantee a deeper sense of ____.",
-            "cue": "BELONG",
-            "a": "belonging"
+            "s": "The report offers no ____ evidence that saunas improve wellbeing.",
+            "cue": "SUBSTANCE",
+            "a": "substantial"
           }
         ]
       },
       "tfn": [
         {
-          "s": "A sauna session can include a short dip in the sea.",
+          "s": "The writer implies that the lack of drinking is part of the sauna's appeal for some visitors.",
           "a": "T",
-          "why": "The text says: \"sometimes including a brief plunge into the sea.\""
+          "why": "The text says nobody in a sauna \"is obliged to explain why they are not drinking\"."
         },
         {
-          "s": "The piece notes that cold-water immersion carries risks for some people.",
-          "a": "T",
-          "why": "The text says: \"intense heat and cold-water immersion carry real risks for some individuals.\""
-        },
-        {
-          "s": "Irish pubs have reported falling custom because of saunas.",
+          "s": "The text shows that saunas are cheaper to visit than pubs.",
           "a": "N",
-          "why": "Not stated. The text does not mention any effect of saunas on pub business."
+          "why": "Not stated. The text says saunas are not economically accessible but never compares prices with pubs."
         },
         {
-          "s": "The writer says warmth and sociability are the same as community.",
+          "s": "The writer believes one pleasant Saturday session shows that a person has found a community.",
           "a": "F",
-          "why": "The text says the opposite: \"Warmth and sociability, agreeable though they are, are not the same thing as community.\""
+          "why": "The text says such an encounter \"does not guarantee a deeper sense of belonging\"."
+        },
+        {
+          "s": "According to the text, what people wear and where they sit helps to reduce differences in status.",
+          "a": "T",
+          "why": "The text says titles count for little \"when everyone is sitting in a towel\"."
+        },
+        {
+          "s": "The writer concludes that the trend shows Irish public life is thriving.",
+          "a": "F",
+          "why": "The text says the answer is \"unlikely to be especially flattering\" and points to what has \"quietly disappeared elsewhere\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "gossip",
+          "d": "casual talk about other people's private lives"
+        },
+        {
+          "t": "plunge",
+          "d": "a sudden jump or dive into water"
+        },
+        {
+          "t": "ritual",
+          "d": "a set of actions done regularly in the same way"
+        },
+        {
+          "t": "sociability",
+          "d": "the quality of enjoying being with other people"
+        },
+        {
+          "t": "barriers",
+          "d": "things that stop people from meeting or understanding each other"
+        },
+        {
+          "t": "encounter",
+          "d": "a meeting, often a short and unplanned one"
+        },
+        {
+          "t": "domestic",
+          "d": "relating to the home"
+        },
+        {
+          "t": "unplanned",
+          "d": "not arranged in advance"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Watch the structure. Some linkers need a clause, some start a sentence, and some force the subject and verb to swap places.",
+        "items": [
+          {
+            "s": "Saunas charge for every session. ____, they attract people who feel excluded by pub culture.",
+            "a": "Nevertheless"
+          },
+          {
+            "s": "In a pub, refusing a drink often prompts comment, ____ nobody in a sauna has anything to refuse.",
+            "a": "whereas"
+          },
+          {
+            "s": "A sauna does not guarantee lasting friendships, ____ does it solve loneliness.",
+            "a": "nor"
+          },
+          {
+            "s": "The cabins are rarely empty at weekends, ____ a booked slot is hard to find at short notice.",
+            "a": "since"
+          },
+          {
+            "s": "Pleasant ____ a single chat may be, it does not amount to belonging.",
+            "a": "though"
+          }
+        ],
+        "extra": [
+          "albeit",
+          "lest"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: sauna or pub?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the sauna fan",
+      "text": "You want to meet your friend at a sauna by the sea on Saturday morning. Explain why you like it. Try to answer your friend's worries about the cost and the cold."
+    },
+    "b": {
+      "role": "the pub fan",
+      "text": "You usually meet friends at the pub on Saturday night. You are not sure about a sauna. Ask about the price, the heat and whether you can talk. Decide if you will go."
+    },
+    "phrases": [
+      "I was hoping we could try something new.",
+      "I'm not sure it's really my thing.",
+      "It's quiet, so we can actually talk.",
+      "That's fair, but it's not cheap.",
+      "Why don't we do both?",
+      "I'll give it a go, if you buy the first coffee."
+    ],
+    "after": "Afterwards, tell the class: where did you decide to meet, and who gave way?"
   }
 }

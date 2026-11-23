@@ -7,6 +7,7 @@ source: The Guardian | https://www.theguardian.com/commentisfree/2026/jul/04/fig
 image: images/who-owns-the-beach-portugals-fight-for-its-coastline-feeef3.jpg
 image-alt: Golden cliffs and rock stacks curve around a small sandy cove of turquoise water, with a handful of swimmers and sunbathers scattered along the shore.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

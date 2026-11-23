@@ -6,6 +6,7 @@ source: The Guardian | https://www.theguardian.com/media/2026/oct/19/no-influenc
 image: images/no-influencers-allowed-are-restaurants-fighting-back-against-social-media-576aae.jpg
 image-alt: A woman in an orange dress poses with a wine glass beside a ring light on a sea-view restaurant terrace, watched by an older couple behind a no-photography sign.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

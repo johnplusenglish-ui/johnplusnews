@@ -6,6 +6,7 @@ source: Scientific American | https://www.scientificamerican.com/article/how-acc
 image: images/project-hail-mary-the-space-adventure-that-makes-science-exciting-f5a7d5.jpg
 image-alt: A notebook lies open on a workbench inside a spacecraft, showing lines of musical notation and a sketch of a five-limbed creature, with a bright star through a round window.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

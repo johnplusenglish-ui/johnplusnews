@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Someone has used AI to ____ a fake version of your face.",
-            "a": "make up"
+            "s": "You need a person's ____ before you share a video of them.",
+            "a": "permission"
           },
           {
-            "s": "Ordinary viewers cannot always ____ between a fake and a real recording.",
-            "a": "tell the difference"
+            "s": "A false story can destroy the ____ that a person has built over many years.",
+            "a": "reputation"
           },
           {
-            "s": "The proposal covers realistic digital imitations, ____ copies shared without permission.",
-            "a": "in other words"
+            "s": "A photo is no longer ____ that something really happened.",
+            "a": "proof"
           },
           {
-            "s": "Most ordinary people have no lawyers to ____.",
-            "a": "fall back on"
+            "s": "The government will discuss the ____ next month before it decides.",
+            "a": "proposal"
           },
           {
-            "s": "Once a fake video has spread, it is hard to ____.",
-            "a": "take it down"
+            "s": "Her ____ changed so much with the new hairstyle that friends did not recognise her.",
+            "a": "appearance"
           }
         ],
         "extra": [
-          "free speech",
-          "convincing"
+          "freedom",
+          "trouble"
         ]
       },
       "match": [
@@ -57,9 +57,9 @@
             "a": "watching"
           },
           {
-            "s": "AI can now ____ realistic pictures in a few minutes.",
-            "cue": "create",
-            "a": "create"
+            "s": "Last week, a man ____ a fake video of his boss.",
+            "cue": "make",
+            "a": "made"
           },
           {
             "s": "In October 2026, Denmark ____ plans for a new law.",
@@ -98,40 +98,109 @@
           "s": "The Danish law had already solved the problem.",
           "a": "F",
           "why": "The text says the opposite: \"It was a proposed law, not something that had already solved the problem.\""
+        },
+        {
+          "s": "Only famous people can be harmed by fake videos.",
+          "a": "F",
+          "why": "The text says: \"Ordinary people may be affected too, not only celebrities and politicians\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "deepfake",
+          "d": "a fake video or sound made with AI that looks or sounds real"
+        },
+        {
+          "t": "deceive",
+          "d": "to make someone believe something that is not true"
+        },
+        {
+          "t": "embarrass",
+          "d": "to make someone feel shy or silly in front of other people"
+        },
+        {
+          "t": "genuine",
+          "d": "real, not fake"
+        },
+        {
+          "t": "celebrities",
+          "d": "very famous people"
+        },
+        {
+          "t": "spread",
+          "d": "to move to many people or places"
+        },
+        {
+          "t": "complicated",
+          "d": "not simple, with many parts to think about"
+        },
+        {
+          "t": "imitations",
+          "d": "copies of something real"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some words always take the same small word after them. Learn the pair together, for example reaction to, afraid of.",
+        "items": [
+          {
+            "s": "There is a big difference ____ a joke and a harmful fake.",
+            "a": "between"
+          },
+          {
+            "s": "Many teenagers are afraid ____ fake videos of themselves.",
+            "a": "of"
+          },
+          {
+            "s": "People cannot always rely ____ their eyes to spot a fake.",
+            "a": "on"
+          },
+          {
+            "s": "Denmark announced plans ____ a new law.",
+            "a": "for"
+          },
+          {
+            "s": "Viewers should pay attention ____ where a video came from.",
+            "a": "to"
+          }
+        ],
+        "extra": [
+          "with",
+          "by"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "The result was rarely good enough to ____ the real thing.",
-            "a": "pass off as"
+            "s": "Police studied the security ____ to see who entered the building.",
+            "a": "footage"
           },
           {
-            "s": "Denmark announced plans to ____ new legislation.",
-            "a": "bring in"
+            "s": "The newspaper apologised for printing ____ quotations, because the minister had never said any of those words.",
+            "a": "fabricated"
           },
           {
-            "s": "A fabricated video may ____ public trust in genuine evidence.",
-            "a": "chip away at"
+            "s": "The clip was only meant to ____ him, to make him feel ashamed in front of everyone.",
+            "a": "humiliate"
           },
           {
-            "s": "A convincing fake can cost a person their ____.",
-            "a": "peace of mind"
+            "s": "In some countries, a good education is still a ____ enjoyed only by the wealthy.",
+            "a": "privilege"
           },
           {
-            "s": "Drawing that line is a well-known ____.",
-            "a": "sticking point"
+            "s": "The instructions must be ____ enough that nobody can misunderstand them.",
+            "a": "precise"
           },
           {
-            "s": "Images can be shared ____ within minutes.",
-            "a": "across national borders"
+            "s": "The doctor tried to ____ the nervous patient by explaining that the test was routine.",
+            "a": "reassure"
           }
         ],
         "extra": [
-          "work out",
-          "legitimate"
+          "ambiguous",
+          "exaggerate"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The law addresses the ____ sharing of AI copies.",
-            "cue": "AUTHORISE",
-            "a": "unauthorised"
+            "s": "By the time the platform removed the clip, thousands of people ____ it.",
+            "cue": "share",
+            "a": "had shared"
           },
           {
-            "s": "The new rules would help people challenge convincing digital ____.",
-            "cue": "IMPERSONATE",
-            "a": "impersonations"
+            "s": "Realistic fakes ____ cheaply and shared across borders every day.",
+            "cue": "create",
+            "a": "are created"
           },
           {
-            "s": "In an age of increasingly ____ AI tools, control over identity may matter more.",
-            "cue": "POWER",
-            "a": "powerful"
+            "s": "If the original clip had not spread so quickly, fewer people ____ the lie.",
+            "cue": "believe",
+            "a": "would have believed"
           },
           {
-            "s": "____ presents another difficulty for regulators.",
-            "cue": "ENFORCE",
-            "a": "Enforcement"
+            "s": "Experts ____ for several years that deepfakes could damage public trust.",
+            "cue": "warn",
+            "a": "have warned"
           },
           {
-            "s": "Control over personal ____ may matter as much as privacy.",
-            "cue": "IDENTIFY",
-            "a": "identity"
+            "s": "Denmark ____ its plans in October 2026.",
+            "cue": "announce",
+            "a": "announced"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "Parody of public figures can have a reasonable purpose.",
           "a": "T",
           "why": "The text says: \"Journalists, artists and campaigners may have perfectly legitimate reasons to criticise public figures through parody.\""
+        },
+        {
+          "s": "The writer thinks a law that is hard to enforce is completely useless.",
+          "a": "F",
+          "why": "The text says: \"A law that nobody can enforce may still shift behaviour\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "impersonations",
+          "d": "acts of pretending to be another person"
+        },
+        {
+          "t": "legislation",
+          "d": "laws made by a government"
+        },
+        {
+          "t": "consent",
+          "d": "permission to do something"
+        },
+        {
+          "t": "parody",
+          "d": "a funny copy of something that makes fun of it"
+        },
+        {
+          "t": "enforcement",
+          "d": "making sure that people obey a rule or law"
+        },
+        {
+          "t": "outlive",
+          "d": "to last longer than something else"
+        },
+        {
+          "t": "dignity",
+          "d": "the feeling of being respected and valued"
+        },
+        {
+          "t": "reputation",
+          "d": "the opinion that most people have about someone"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many adjectives and verbs need a fixed preposition. Learn them as a chunk: responsible for, depend on, cope with.",
+        "items": [
+          {
+            "s": "Her reaction ____ the fake clip was surprisingly calm.",
+            "a": "to"
+          },
+          {
+            "s": "Platforms should be held responsible ____ the content they host.",
+            "a": "for"
+          },
+          {
+            "s": "In an age ____ cheap AI tools, anyone can copy a voice.",
+            "a": "of"
+          },
+          {
+            "s": "How harmful a fake is will depend largely ____ who sees it.",
+            "a": "on"
+          },
+          {
+            "s": "Many small platforms cannot cope ____ the number of complaints.",
+            "a": "with"
+          }
+        ],
+        "extra": [
+          "by",
+          "from"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Online content ____ almost instantly.",
-            "a": "crosses borders"
+            "s": "No single insult was serious, but the ____ effect of hundreds of them eventually wore her down.",
+            "a": "cumulative"
           },
           {
-            "s": "A likeness is not merely an incidental ____ of being photographed.",
-            "a": "by-product"
+            "s": "Regulators complained that the rules had been ____ by the speed of technological change.",
+            "a": "outpaced"
           },
           {
-            "s": "The proposal should not be described as a law already ____.",
-            "a": "in force"
+            "s": "Teachers are reluctant to ____ in a quarrel unless someone is in danger.",
+            "a": "intervene"
           },
           {
-            "s": "Few legislative tasks are more delicate than ____ and making it hold.",
-            "a": "drawing that line"
+            "s": "The extra publicity was merely ____; the project's real purpose lay elsewhere.",
+            "a": "incidental"
           },
           {
-            "s": "Systems designed to ____ manipulated media remain imperfect.",
-            "a": "flag up"
+            "s": "No payment can fully ____ a family for the loss of a home.",
+            "a": "compensate"
           },
           {
-            "s": "Societies must decide how much control people keep over their ____.",
-            "a": "digital doubles"
+            "s": "The goal in the final minute proved ____, because it settled the match.",
+            "a": "decisive"
           }
         ],
         "extra": [
-          "set loose",
-          "persuasive"
+          "exhaustive",
+          "relinquish"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Denmark's proposal starts with that ____ possibility.",
-            "cue": "SETTLE",
-            "a": "unsettling"
+            "s": "Even specialists struggled to confirm the ____ of the recording.",
+            "cue": "AUTHENTIC",
+            "a": "authenticity"
           },
           {
-            "s": "Whether the eventual text can match that ____ is another matter.",
-            "cue": "AMBITIOUS",
-            "a": "ambition"
+            "s": "Critics warn that vague wording could lead to ____ enforcement, with only unpopular speakers punished.",
+            "cue": "SELECT",
+            "a": "selective"
           },
           {
-            "s": "Satire and artistic ____ may portray real people.",
-            "cue": "ADAPT",
-            "a": "adaptation"
+            "s": "As synthetic media improves, fakes may become ____ from genuine recordings.",
+            "cue": "DISTINGUISH",
+            "a": "indistinguishable"
           },
           {
-            "s": "An ____ broad restriction could suppress criticism.",
-            "cue": "EXCESSIVE",
-            "a": "excessively"
+            "s": "A fine of that size seemed ____ to the harm the clip had actually caused.",
+            "cue": "PROPORTION",
+            "a": "disproportionate"
           },
           {
-            "s": "Legal remedies need a more ____ public understanding of evidence.",
+            "s": "A healthy ____ about viral videos is now part of being an informed citizen.",
             "cue": "SCEPTIC",
-            "a": "sceptical"
+            "a": "scepticism"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Private individuals seldom have the legal advice or contacts that public figures have.",
+          "s": "Public figures are better placed than private individuals to correct a fake quickly.",
           "a": "T",
-          "why": "The text says: \"The argument carries particular force for private individuals, who seldom command the legal advice, publicity or platform contacts that allow a public figure to mount a rapid correction.\""
+          "why": "Private individuals seldom have the contacts \"that allow a public figure to mount a rapid correction.\""
         },
         {
-          "s": "The European Union plans similar legislation.",
+          "s": "The Danish proposal would send people who create deepfakes to prison.",
           "a": "N",
-          "why": "Not stated. The text does not say whether the European Union plans similar legislation."
+          "why": "The text does not say what penalties the proposal would include."
         },
         {
-          "s": "The proposal sees a person's digital likeness as worth special protection.",
-          "a": "T",
-          "why": "The text says: \"Its significance lies in treating a person's digital likeness as something deserving specific protection, rather than as an incidental by-product of being photographed or recorded in public.\""
-        },
-        {
-          "s": "Deleting a video from one platform is enough to stop it spreading.",
+          "s": "A correction usually reaches everyone who saw the original fake.",
           "a": "F",
-          "why": "The text says the opposite: \"Taking a video down from one platform achieves little if copies continue circulating elsewhere.\""
+          "why": "The impression survives in places \"where no correction ever reaches it.\""
+        },
+        {
+          "s": "The writer believes legal measures alone will be enough to deal with enforcement.",
+          "a": "F",
+          "why": "Legal remedies \"may therefore need to be combined with better platform policies\" and a more sceptical public."
+        },
+        {
+          "s": "A fake can go on doing harm after it has been shown to be false.",
+          "a": "T",
+          "why": "\"Even once the falsehood has been exposed, the original impression often survives.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "impersonate",
+          "d": "to pretend to be another person, usually to deceive"
+        },
+        {
+          "t": "circulate",
+          "d": "to pass from person to person or place to place"
+        },
+        {
+          "t": "manipulate",
+          "d": "to control or change something in a clever, often dishonest way"
+        },
+        {
+          "t": "fabricated",
+          "d": "made up in order to deceive"
+        },
+        {
+          "t": "advocates",
+          "d": "people who publicly support an idea or cause"
+        },
+        {
+          "t": "likeness",
+          "d": "the way a person looks, or a picture that looks like them"
+        },
+        {
+          "t": "remedies",
+          "d": "ways of putting right a problem or harm"
+        },
+        {
+          "t": "synthetic",
+          "d": "made by people or machines, not natural"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At this level the preposition is often part of a formal chunk. Learn the whole phrase: tantamount to, fraught with, contingent on.",
+        "items": [
+          {
+            "s": "A ban that is too broad could be tantamount ____ censorship.",
+            "a": "to"
+          },
+          {
+            "s": "Any attempt to regulate satire is fraught ____ difficulty.",
+            "a": "with"
+          },
+          {
+            "s": "Whether the law succeeds is contingent ____ how well platforms cooperate.",
+            "a": "on"
+          },
+          {
+            "s": "A platform could be held liable ____ the harm caused by clips it failed to remove.",
+            "a": "for"
+          },
+          {
+            "s": "Anyone acting ____ breach of the order may be fined.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "of",
+          "at"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a fake video of me",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the person in the video",
+      "text": "A friend made a joke video of you using AI. Your voice and face look real and people have started sharing it. Ask the website manager to remove it today. Explain why it matters to you."
+    },
+    "b": {
+      "role": "the website manager",
+      "text": "You run a video website. The video may be a joke, and you don't want to limit free speech. Ask at least two questions. You can remove it, keep it, or add a clear label."
+    },
+    "phrases": [
+      "I'd like you to remove this video today.",
+      "I never said that, and I didn't agree to it.",
+      "It's a joke, so is it really harmful?",
+      "Who made it, and did you give permission?",
+      "We could add a label saying it's AI.",
+      "I'm afraid I can't promise that, but I'll look into it."
+    ],
+    "after": "Afterwards, tell the class: was the video removed, and was that a fair decision?"
   }
 }

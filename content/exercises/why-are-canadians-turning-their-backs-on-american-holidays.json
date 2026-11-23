@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Visiting the United States was simple, and for years ____.",
-            "a": "nobody thought twice about it"
+            "s": "A hotel can lose ____ when fewer visitors arrive.",
+            "a": "income"
           },
           {
-            "s": "Many travellers ____ trips south during 2025 and 2026.",
-            "a": "cut back on"
+            "s": "Trade ____ between countries can make life harder for ordinary people.",
+            "a": "disputes"
           },
           {
-            "s": "Businesses in those areas began to ____.",
-            "a": "feel the effects"
+            "s": "Shops often offer ____ in the quiet season to attract customers.",
+            "a": "discounts"
           },
           {
-            "s": "Some people ____ travelling south for work or family.",
-            "a": "carried on"
+            "s": "Last summer, some families ____ their own country instead of going abroad.",
+            "a": "explored"
           },
           {
-            "s": "A hotel worker ____ a government decision.",
-            "a": "has nothing to do with"
+            "s": "Some people see a cancelled holiday as a quiet ____ against a government.",
+            "a": "protest"
           }
         ],
         "extra": [
-          "stay away",
-          "welcome"
+          "currency",
+          "journeys"
         ]
       },
       "match": [
@@ -52,29 +52,29 @@
         "kind": "verb",
         "items": [
           {
-            "s": "They can ____ across the border to shop or visit friends.",
-            "cue": "drive",
-            "a": "drive"
+            "s": "Last year, many Canadians ____ to Mexico instead.",
+            "cue": "fly",
+            "a": "flew"
           },
           {
-            "s": "During 2025 and 2026, fewer Canadians ____ these journeys.",
-            "cue": "make",
-            "a": "made"
-          },
-          {
-            "s": "The people who pay first ____ often the ones with the least power.",
-            "cue": "be",
-            "a": "are"
-          },
-          {
-            "s": "In September 2026, reports described tourist organisations ____ discounts and special deals.",
+            "s": "Tourist offices ____ special deals last September.",
             "cue": "offer",
-            "a": "offering"
+            "a": "offered"
           },
           {
-            "s": "Travel is usually ____ as a way of bringing people together.",
-            "cue": "describe",
-            "a": "described"
+            "s": "She ____ the border and bought a new coat.",
+            "cue": "cross",
+            "a": "crossed"
+          },
+          {
+            "s": "Some people ____ their money in Canada instead.",
+            "cue": "spend",
+            "a": "spent"
+          },
+          {
+            "s": "Travel ____ people from different cultures together.",
+            "cue": "bring",
+            "a": "brings"
           }
         ]
       },
@@ -98,40 +98,109 @@
           "s": "Reports in September 2026 described discounts aimed at Canadians.",
           "a": "T",
           "why": "The text says: \"In September 2026, reports described tourist organisations offering discounts and special deals to bring Canadian customers back.\""
+        },
+        {
+          "s": "A hotel worker in an American city makes government decisions.",
+          "a": "F",
+          "why": "The text says: \"A hotel worker in an American city has nothing to do with a government decision\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "border",
+          "d": "the line between two countries"
+        },
+        {
+          "t": "escape",
+          "d": "to get away from something you do not like"
+        },
+        {
+          "t": "destinations",
+          "d": "places that people travel to"
+        },
+        {
+          "t": "influenced",
+          "d": "changed by what other people say or do"
+        },
+        {
+          "t": "stranger",
+          "d": "a person you do not know"
+        },
+        {
+          "t": "customers",
+          "d": "people who buy things from a shop or business"
+        },
+        {
+          "t": "safety",
+          "d": "being free from danger"
+        },
+        {
+          "t": "serious",
+          "d": "very bad or important"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Linking words join ideas. Use because for a reason, so for a result, but for a difference, while for two things at once and or for a choice.",
+        "items": [
+          {
+            "s": "Many Canadians cut back on trips ____ they did not want to spend money in the United States.",
+            "a": "because"
+          },
+          {
+            "s": "The rooms stayed empty all winter, ____ the owner had to close the hotel for a month.",
+            "a": "so"
+          },
+          {
+            "s": "____ some families drove south, others flew to Mexico.",
+            "a": "While"
+          },
+          {
+            "s": "You can drive across the border ____ fly to a warmer place.",
+            "a": "or"
+          },
+          {
+            "s": "I wanted to visit the lake, ____ the tickets were too expensive.",
+            "a": "but"
+          }
+        ],
+        "extra": [
+          "unless",
+          "until"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Discounts were ____ in destinations that depend on cross-border spending.",
-            "a": "rolled out"
+            "s": "The tourist board hopes a free night will ____ families to book again.",
+            "a": "persuade"
           },
           {
-            "s": "The campaigns followed a ____ decline in Canadian visits.",
-            "a": "noticeable"
+            "s": "Sales fell sharply, and the ____ in visitor numbers worried local shops.",
+            "a": "decline"
           },
           {
-            "s": "Prices and exchange rates also ____.",
-            "a": "weigh on their decisions"
+            "s": "After the news report, several couples decided to ____ their winter plans.",
+            "a": "reconsider"
           },
           {
-            "s": "Critics call avoiding a destination ____.",
-            "a": "a blunt instrument"
+            "s": "Cheap flights give travellers real ____ to a long drive.",
+            "a": "alternatives"
           },
           {
-            "s": "Some communities welcome the same visitors ____.",
-            "a": "year after year"
+            "s": "Guests praised the warm ____ they received at the small family hotel.",
+            "a": "hospitality"
           },
           {
-            "s": "A traveller who has found a new destination may be ____ to return.",
-            "a": "in no hurry"
+            "s": "Politicians often use angry ____ before an election.",
+            "a": "rhetoric"
           }
         ],
         "extra": [
-          "spill over",
-          "uneasy"
+          "campaign",
+          "reputation"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Closeness, a shared language and a sense of ____ made an American trip the obvious default.",
-            "cue": "FAMILIAR",
-            "a": "familiarity"
+            "s": "By the time the discounts appeared, many families ____ their plans.",
+            "cue": "change",
+            "a": "had changed"
           },
           {
-            "s": "That is only an ____, and nobody can yet say whether habits have changed for good.",
-            "cue": "INTERPRET",
-            "a": "interpretation"
+            "s": "Hotels along the border ____ on Canadian visitors for many years, and they still do.",
+            "cue": "depend",
+            "a": "have depended"
           },
           {
-            "s": "Avoiding a destination can be a peaceful form of political ____.",
-            "cue": "EXPRESS",
-            "a": "expression"
+            "s": "Last September, special discounts ____ to Canadian travellers.",
+            "cue": "offer",
+            "a": "were offered"
           },
           {
-            "s": "A ____ between governments can affect ordinary families.",
-            "cue": "AGREE",
-            "a": "disagreement"
+            "s": "Several families ____ after the first discount offer.",
+            "cue": "not / return",
+            "a": "did not return"
           },
           {
-            "s": "Changing travel patterns can affect a ____ relationship that once looked secure.",
-            "cue": "COMMERCE",
-            "a": "commercial"
+            "s": "The tourist board ____ that more families will visit next year.",
+            "cue": "hope",
+            "a": "hopes"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "Some Canadians chose to holiday within Canada or in another country instead.",
           "a": "T",
           "why": "The text says: \"A number have chosen to holiday within Canada or head somewhere else entirely, which suggests the money has not disappeared so much as moved.\""
+        },
+        {
+          "s": "The writer is certain that travel habits have changed for good.",
+          "a": "F",
+          "why": "The text says: \"That is only an interpretation, and nobody can yet say whether habits have changed for good.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "appeal",
+          "d": "the quality that makes people like something"
+        },
+        {
+          "t": "familiarity",
+          "d": "the feeling that you know a place or thing well"
+        },
+        {
+          "t": "promotions",
+          "d": "special offers to make people buy something"
+        },
+        {
+          "t": "consumers",
+          "d": "people who buy things"
+        },
+        {
+          "t": "generations",
+          "d": "groups of family members born at about the same time"
+        },
+        {
+          "t": "interpretation",
+          "d": "a way of explaining what something means"
+        },
+        {
+          "t": "commercial",
+          "d": "connected with buying and selling"
+        },
+        {
+          "t": "vacuum",
+          "d": "a space with nothing in it"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Sentence adverbs such as nevertheless, therefore and moreover start after a full stop or a semicolon and are followed by a comma.",
+        "items": [
+          {
+            "s": "Many Canadians love the American coast. ____, they have started looking elsewhere.",
+            "a": "Nevertheless"
+          },
+          {
+            "s": "The shops depend on Canadian spending; ____, a fall in visits hits them hard.",
+            "a": "therefore"
+          },
+          {
+            "s": "Many Canadians cancelled trips ____ the exchange rate had made everything more expensive.",
+            "a": "since"
+          },
+          {
+            "s": "The drive is short and the hotels are familiar. ____, the shopping is cheap.",
+            "a": "Moreover"
+          },
+          {
+            "s": "Tourism offices must win back trust; ____, the discounts will not bring visitors back.",
+            "a": "otherwise"
+          }
+        ],
+        "extra": [
+          "unless",
+          "despite"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "A large northern customer base had been ____ rather than courted.",
-            "a": "taken for granted"
+            "s": "The council spent weeks ____ wary tourists back with cut-price offers.",
+            "a": "coaxing"
           },
           {
-            "s": "A decision never really made ____ can be abandoned easily.",
-            "a": "in the first place"
+            "s": "Empty tables made the drop in guests all the more ____.",
+            "a": "conspicuous"
           },
           {
-            "s": "Such a trip can be dropped ____.",
-            "a": "without much soul-searching"
+            "s": "Hospitality jobs in small towns are ____ to any sudden drop in tourism.",
+            "a": "vulnerable"
           },
           {
-            "s": "It would be inaccurate to ____ a single political cause.",
-            "a": "put every cancelled trip down to"
+            "s": "Habits of travel are so deeply ____ in family routine that changing them takes a real shock.",
+            "a": "embedded"
           },
           {
-            "s": "Border relationships absorb ____ of a dispute.",
-            "a": "the first shock"
+            "s": "Years of ____ between the two governments have soured the mood.",
+            "a": "friction"
           },
           {
-            "s": "Travellers with alternatives may feel ____ about returning.",
-            "a": "no particular urgency"
+            "s": "Public ____ turned sharply against travelling to the United States.",
+            "a": "sentiment"
           }
         ],
         "extra": [
-          "move on",
-          "negligible"
+          "exposure",
+          "backlash"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Cross-border tourism rested on ____ proximity, family connections and familiarity.",
-            "cue": "GEOGRAPHY",
-            "a": "geographic"
+            "s": "Hoteliers were surprised by the ____ of the dispute.",
+            "cue": "ESCALATE",
+            "a": "escalation"
           },
           {
-            "s": "Promotions followed a ____ decline in Canadian travel.",
-            "cue": "SUBSTANCE",
-            "a": "substantial"
+            "s": "Hoteliers found the sudden drop in bookings largely ____.",
+            "cue": "EXPLAIN",
+            "a": "inexplicable"
           },
           {
-            "s": "Travellers can register ____ through their spending without attending a demonstration.",
-            "cue": "SATISFY",
-            "a": "dissatisfaction"
+            "s": "A fair ____ of the damage must consider rising costs as well.",
+            "cue": "ASSESS",
+            "a": "assessment"
           },
           {
-            "s": "Economic ____ raises the cost of a quarrel.",
-            "cue": "DEPEND",
-            "a": "interdependence"
+            "s": "Some visitors saw the offers as a rather ____ attempt to buy back goodwill.",
+            "cue": "CYNIC",
+            "a": "cynical"
           },
           {
-            "s": "Discounts work less well against feeling like an ____ guest.",
-            "cue": "WANT",
-            "a": "unwanted"
+            "s": "Rebuilding trust is likely to prove ____ for the industry.",
+            "cue": "PROBLEM",
+            "a": "problematic"
           }
         ]
       },
       "tfn": [
         {
-          "s": "US tourism organisations launched promotions aimed at Canadians in September 2026.",
+          "s": "The writer suggests that habit made Canadian holidays in the United States easy to abandon.",
           "a": "T",
-          "why": "The text says: \"In September 2026, reporting described US tourism organisations launching promotions aimed at coaxing Canadian visitors back after a substantial decline in travel.\""
+          "why": "The text says such trips \"were habitual rather than deliberate\" and so \"proved unusually vulnerable\"."
         },
         {
-          "s": "The writer says tourism always improves relations between neighbours.",
+          "s": "The writer claims that one political cause explains every cancelled trip.",
           "a": "F",
-          "why": "The text says the opposite: \"The episode also challenges a comfortable assumption: that tourism naturally improves relations between neighbouring countries.\""
+          "why": "The text says it \"would be inaccurate to put every cancelled trip down to a single political cause\"."
         },
         {
-          "s": "Canadian visits fell by a third in 2026.",
+          "s": "Most Canadians who changed their plans chose Mexico.",
           "a": "N",
-          "why": "Not stated. The text does not give a figure for the fall in Canadian visits."
+          "why": "The text mentions alternatives elsewhere but never names Mexico or says where most people went."
         },
         {
-          "s": "The article says the immediate consequences fall on workers and small firms.",
+          "s": "Discounts may deal with price but not with the feeling of being unwelcome.",
           "a": "T",
-          "why": "The text says: \"The difficulty is that the immediate consequences fall on workers and small firms with negligible influence over national policy.\""
+          "why": "The text says promotional discounts \"can address price\" but \"work less well against\" feeling like an unwanted guest."
+        },
+        {
+          "s": "The text says close economic ties make a quarrel between neighbours less costly.",
+          "a": "F",
+          "why": "The text says interdependence \"simply raises the cost of a quarrel\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "proximity",
+          "d": "being close to something in distance"
+        },
+        {
+          "t": "boycott",
+          "d": "refusing to buy or use something as a protest"
+        },
+        {
+          "t": "diplomatic",
+          "d": "connected with the work of governments dealing with other countries"
+        },
+        {
+          "t": "hostility",
+          "d": "angry and unfriendly feeling"
+        },
+        {
+          "t": "interdependence",
+          "d": "a situation where each side needs the other"
+        },
+        {
+          "t": "urgency",
+          "d": "the feeling that something must be done quickly"
+        },
+        {
+          "t": "ethical",
+          "d": "connected with what is right and wrong"
+        },
+        {
+          "t": "migration",
+          "d": "a regular journey from one place to another"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Albeit, thereby, hence and whereby are formal. Albeit softens a point, thereby shows a result of an action, hence gives a reason and takes a noun, and whereby explains how something works.",
+        "items": [
+          {
+            "s": "The discounts were generous, ____ too late for many businesses.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ the genuine warmth of local residents, many Canadians felt unwelcome.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "Visitors have stayed away, ____ depriving small firms of their busiest weeks.",
+            "a": "thereby"
+          },
+          {
+            "s": "Canadians resent being taken for granted; ____ the sharp fall in bookings.",
+            "a": "hence"
+          },
+          {
+            "s": "A boycott is a protest ____ consumers express opinions simply by staying at home.",
+            "a": "whereby"
+          }
+        ],
+        "extra": [
+          "nonetheless",
+          "whereas"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: winning back a regular guest",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the hotel manager",
+      "text": "You run a hotel in an American border town. Your Canadian guests have stopped coming. Phone a regular guest. Offer a deal and ask what would bring them back."
+    },
+    "b": {
+      "role": "the Canadian guest",
+      "text": "You stayed at this hotel every winter. This year you went to Mexico. Explain why, listen to the offer, then decide if you will go back."
+    },
+    "phrases": [
+      "We've missed you at the hotel.",
+      "I'd like to offer you a special price.",
+      "It's not only about the price, to be honest.",
+      "We're thinking about trying somewhere new.",
+      "What would make you change your mind?",
+      "I'll think about it and let you know."
+    ],
+    "after": "Afterwards, tell the class: did the guest agree to return, and what finally decided it?"
   }
 }

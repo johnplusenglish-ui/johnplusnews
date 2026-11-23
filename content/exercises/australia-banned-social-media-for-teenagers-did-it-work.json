@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "In December 2025, Australia ____ a major change to social media.",
-            "a": "brought in"
+            "s": "The school has very ____ rules, so students cannot use their phones at all.",
+            "a": "strict"
           },
           {
-            "s": "Companies were required to ____ to stop under-16s having accounts.",
-            "a": "take reasonable steps"
+            "s": "Parents want to ____ their children from dangerous websites.",
+            "a": "protect"
           },
           {
-            "s": "Teenagers may give ____ or find other ways to reach their favourite services.",
-            "a": "a false age"
+            "s": "It is not fair to ____ yourself with famous people you see on a screen.",
+            "a": "compare"
           },
           {
-            "s": "Waiting until 16 might give them time to ____.",
-            "a": "build healthy habits"
+            "s": "Many teachers ____ the new rule because phones were causing arguments in class.",
+            "a": "welcomed"
           },
           {
-            "s": "Few parents want their children to ____ an official document.",
-            "a": "hand over"
+            "s": "Online friends can give ____ support to someone who feels alone.",
+            "a": "valuable"
           }
         ],
         "extra": [
-          "come across",
-          "upsetting"
+          "dangerous",
+          "delete"
         ]
       },
       "match": [
@@ -62,9 +62,9 @@
             "a": "wanted"
           },
           {
-            "s": "Teenagers may give a false age or ____ other ways to reach the apps.",
-            "cue": "find",
-            "a": "find"
+            "s": "Last year, a teenager ____ his account when he gave a false age.",
+            "cue": "lose",
+            "a": "lost"
           },
           {
             "s": "Researchers were still ____ how young people used social media.",
@@ -80,9 +80,9 @@
       },
       "tfn": [
         {
-          "s": "Some parents welcomed the rules.",
+          "s": "Some parents felt the rules helped them at home.",
           "a": "T",
-          "why": "The text says: \"Some parents welcomed the rules because they no longer had to argue alone with their children.\""
+          "why": "The text says they \"no longer had to argue alone with their children\"."
         },
         {
           "s": "The rules will be reviewed after three years.",
@@ -98,40 +98,109 @@
           "s": "The rules came into force in December 2025.",
           "a": "T",
           "why": "The text says: \"In December 2025, Australia brought in a major change to social media.\""
+        },
+        {
+          "s": "Researchers have already proved that teenagers are happier.",
+          "a": "F",
+          "why": "The text says: \"It may be years before anybody can say whether teenagers are happier.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "regulator",
+          "d": "a group that checks that companies follow the rules"
+        },
+        {
+          "t": "platforms",
+          "d": "websites or apps where people share things"
+        },
+        {
+          "t": "experiment",
+          "d": "a test to find out if something works"
+        },
+        {
+          "t": "reasonable",
+          "d": "fair and sensible"
+        },
+        {
+          "t": "harm",
+          "d": "damage or injury"
+        },
+        {
+          "t": "false",
+          "d": "not true or not real"
+        },
+        {
+          "t": "document",
+          "d": "an official paper with important information"
+        },
+        {
+          "t": "friendships",
+          "d": "relationships between people who like each other"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Use but to show a contrast, because to give a reason, so to show a result and or to give a choice.",
+        "items": [
+          {
+            "s": "Some parents liked the rules ____ they no longer had to argue alone.",
+            "a": "because"
+          },
+          {
+            "s": "The rule is strict, ____ some teenagers still find a way around it.",
+            "a": "but"
+          },
+          {
+            "s": "Teenagers may give a false age ____ use a different app.",
+            "a": "or"
+          },
+          {
+            "s": "Many teenagers wanted to keep in touch with friends, ____ they looked for other apps.",
+            "a": "so"
+          },
+          {
+            "s": "The ban may protect some teenagers. ____, it may cut others off from their friends.",
+            "a": "However"
+          }
+        ],
+        "extra": [
+          "unless",
+          "despite"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Young people can still ____ public material that needs no login.",
-            "a": "get at"
+            "s": "The council's plan to plant a million trees in five years is very ____, and some people doubt it can be done.",
+            "a": "ambitious"
           },
           {
-            "s": "Several messaging and gaming services ____ the rules.",
-            "a": "fall outside"
+            "s": "Many shoppers like the new app because it is quick and ____.",
+            "a": "convenient"
           },
           {
-            "s": "A national rule turns a family argument into ____.",
-            "a": "a fact of life"
+            "s": "After an ____ week of night shifts, the nurse slept for twelve hours.",
+            "a": "exhausting"
           },
           {
-            "s": "Stronger age checks tend to ____, because the platform learns more about its users.",
-            "a": "raise privacy concerns"
+            "s": "Doctors can only ____ a patient's age from an X-ray, not state it exactly.",
+            "a": "estimate"
           },
           {
-            "s": "It is unclear whether restricting accounts ____ the time spent online.",
-            "a": "cuts down"
+            "s": "Her teacher gave her ____ advice that helped her pass the exam.",
+            "a": "valuable"
           },
           {
-            "s": "The early findings were not ____ on the policy's effects.",
-            "a": "a final verdict"
+            "s": "The jury took two days to reach a ____.",
+            "a": "verdict"
           }
         ],
         "extra": [
-          "try out",
-          "imprecise"
+          "restrictive",
+          "enforce"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Australia began enforcing one of the world's most ____ age restrictions.",
-            "cue": "AMBITION",
-            "a": "ambitious"
+            "s": "Platforms ____ to take reasonable steps to prevent under-16s from creating accounts.",
+            "cue": "require",
+            "a": "were required"
           },
           {
-            "s": "Supporters point to concerns about ____ content and online pressure.",
-            "cue": "HARM",
-            "a": "harmful"
+            "s": "By the time the law began, millions of teenagers ____ accounts.",
+            "cue": "open",
+            "a": "had opened"
           },
           {
-            "s": "The difficult part is ____.",
-            "cue": "FORCE",
-            "a": "enforcement"
+            "s": "The early findings ____ by the eSafety Commissioner in July 2026.",
+            "cue": "publish",
+            "a": "were published"
           },
           {
-            "s": "These were valuable ____, but they were not a final verdict on the policy.",
-            "cue": "OBSERVE",
-            "a": "observations"
+            "s": "If a platform ____ every user's exact age, it would learn far more about them.",
+            "cue": "know",
+            "a": "knew"
           },
           {
-            "s": "Long-term changes in wellbeing take far longer to measure than the ____ of an account.",
-            "cue": "REMOVE",
-            "a": "removal"
+            "s": "Critics say a single age limit ____ the right tool for the job.",
+            "cue": "not be",
+            "a": "is not"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Australia's eSafety Commissioner published early findings in July 2026.",
+          "s": "The writer suggests that deleting accounts does not prove that teenagers are better off.",
           "a": "T",
-          "why": "The text says: \"In July 2026, Australia's eSafety Commissioner published early findings about young people's experiences.\""
+          "why": "The text says a platform \"can point to deleted profiles without showing that anybody is better off\"."
         },
         {
-          "s": "Critics say some teenagers rely on online communities for support.",
+          "s": "According to the text, a national rule can ease arguments inside families.",
           "a": "T",
-          "why": "The text says: \"Critics also warn that some teenagers depend on online communities for friendship, information and support they cannot easily find nearby.\""
+          "why": "The text says a national rule turns \"an exhausting family argument into something closer to a fact of life\"."
         },
         {
           "s": "The policy blocks under-16s from every messaging service.",
           "a": "F",
-          "why": "The text says the opposite: \"Young people can still get at public material that does not require a login, and several messaging, educational and gaming services fall outside the rules.\""
+          "why": "The text says the opposite: \"several messaging, educational and gaming services fall outside the rules.\""
         },
         {
-          "s": "Other countries have copied the Australian rules.",
+          "s": "Most teenagers in Australia have said they feel happier since the rules began.",
           "a": "N",
-          "why": "Not stated. The text does not say whether any other country has copied the Australian rules."
+          "why": "Not stated. The text does not report what teenagers said about their happiness."
+        },
+        {
+          "s": "Changes in friendships can be measured as quickly as the removal of an account.",
+          "a": "F",
+          "why": "The text says long-term changes \"take far longer to measure than the removal of an account\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "restrictions",
+          "d": "rules that limit what people can do"
+        },
+        {
+          "t": "enforcement",
+          "d": "making sure people obey a rule or law"
+        },
+        {
+          "t": "privacy",
+          "d": "the right to keep your personal life and information secret"
+        },
+        {
+          "t": "workarounds",
+          "d": "clever ways to avoid a problem or a rule"
+        },
+        {
+          "t": "wellbeing",
+          "d": "how happy, healthy and comfortable a person feels"
+        },
+        {
+          "t": "tendency",
+          "d": "something that often happens or that someone often does"
+        },
+        {
+          "t": "platforms",
+          "d": "websites or apps where people share and see content"
+        },
+        {
+          "t": "responsibility",
+          "d": "a duty to look after something or deal with it"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Check what follows the gap: a clause, a noun phrase or a new sentence. Despite takes a noun phrase, although takes a clause.",
+        "items": [
+          {
+            "s": "____ the law is called a ban, teenagers can still read public pages.",
+            "a": "Although"
+          },
+          {
+            "s": "____ strong support from many parents, the rule has its critics.",
+            "a": "Despite"
+          },
+          {
+            "s": "A policy cannot be judged fairly ____ researchers follow teenagers over several years.",
+            "a": "unless"
+          },
+          {
+            "s": "Stronger age checks collect more data. ____, privacy concerns grow.",
+            "a": "Consequently"
+          },
+          {
+            "s": "The regulator published only early results, ____ the first months gave little reliable evidence.",
+            "a": "since"
+          }
+        ],
+        "extra": [
+          "nevertheless",
+          "otherwise"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "It was a problem regulators had struggled to ____.",
-            "a": "get to grips with"
+            "s": "A headline that boasts of millions of closed accounts often ____ the more important question of whether anyone is safer.",
+            "a": "obscures"
           },
           {
-            "s": "The policy shifted responsibility towards technology companies, but it ____ a harder question.",
-            "a": "left open"
+            "s": "Few governments could ____ every form of online contact between teenagers without also silencing ordinary conversation.",
+            "a": "outlaw"
           },
           {
-            "s": "The policy may ____ parents who argue alone with their children.",
-            "a": "take the pressure off"
+            "s": "With so little evidence, it is hard to ____ the claim that the policy has transformed teenage behaviour.",
+            "a": "sustain"
           },
           {
-            "s": "Parents are otherwise left to ____ by themselves.",
-            "a": "hold the line"
+            "s": "For ministers, the falling number of accounts offered welcome ____ of a policy many experts had doubted.",
+            "a": "vindication"
           },
           {
-            "s": "Some adolescents ____ online communities for support.",
-            "a": "fall back on"
+            "s": "Tech firms will redesign their products only if the commercial ____ to do so outweigh the costs.",
+            "a": "incentives"
           },
           {
-            "s": "Governments may read the first figures as vindication or as proof of ____.",
-            "a": "futility"
+            "s": "Pointing out that a word is being misused is not mere ____ when the misuse changes who gets the blame.",
+            "a": "pedantry"
           }
         ],
         "extra": [
-          "let in",
-          "unresolved"
+          "dissuade",
+          "complacency"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The policy was presented as a bold ____ in a problem that regulators had struggled with.",
-            "cue": "INTERVENE",
-            "a": "intervention"
+            "s": "The minister's ____ that every platform would comply proved naive.",
+            "cue": "ASSUME",
+            "a": "assumption"
           },
           {
-            "s": "____ platforms had to take reasonable steps to remove accounts.",
-            "cue": "DESIGNATE",
-            "a": "Designated"
+            "s": "Critics noted the regulator's ____ to share fuller figures.",
+            "cue": "RELUCTANT",
+            "a": "reluctance"
           },
           {
-            "s": "Age assurance must limit access without encouraging ____ data collection.",
-            "cue": "EXCESS",
-            "a": "excessive"
+            "s": "The rules were ____ applied in the first weeks, with some platforms acting far faster than others.",
+            "cue": "CONSISTENT",
+            "a": "inconsistently"
           },
           {
-            "s": "Separating administrative results from real change is a ____ task.",
-            "cue": "DEMAND",
-            "a": "demanding"
+            "s": "The study's findings are, at best, ____ because the sample was small.",
+            "cue": "CONCLUDE",
+            "a": "inconclusive"
           },
           {
-            "s": "Both readings of the first figures would be ____.",
-            "cue": "MATURE",
-            "a": "premature"
+            "s": "Nobody should underestimate the ____ of teenagers who are determined to get online.",
+            "cue": "RESOURCEFUL",
+            "a": "resourcefulness"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The rules apply from 10 December 2025 to designated platforms.",
+          "s": "The writer implies that a company's total of closed accounts is not evidence that teenagers benefit.",
           "a": "T",
-          "why": "The text says: \"From 10 December 2025, designated social media platforms in Australia had to take reasonable steps to prevent under-16s from keeping accounts.\""
+          "why": "The text says the large number \"does not tell us whether teenagers spend less time online, move to other apps or feel any better\"."
         },
         {
-          "s": "The eSafety Commissioner recommended extending the age limit.",
-          "a": "N",
-          "why": "Not stated. The text does not say that the eSafety Commissioner recommended any change to the age limit."
-        },
-        {
-          "s": "There is no comparison available with an Australia that kept the old rules.",
-          "a": "T",
-          "why": "The text says: \"Nor is there any comparison available with an Australia that left the rules alone, which makes confident claims in either direction hard to sustain.\""
-        },
-        {
-          "s": "The number of removed accounts shows whether teenagers feel better.",
+          "s": "According to the text, the 2026 research answered most questions about long-term effects.",
           "a": "F",
-          "why": "The text says the opposite: \"It does not tell us whether teenagers spend less time online, move to other apps or feel any better.\""
+          "why": "The text says it left \"many longer-term outcomes unresolved\"."
+        },
+        {
+          "s": "The eSafety Commissioner's research found that many teenagers had moved to other apps.",
+          "a": "N",
+          "why": "Not stated. The text only says the research offered insight into the initial implementation."
+        },
+        {
+          "s": "The writer suggests the policy would look like a failure if people expected it to end all contact with social-media content.",
+          "a": "T",
+          "why": "The text says a measure \"judged against a promise it never made will always look like a failure\", and that the policy does not outlaw every encounter."
+        },
+        {
+          "s": "The writer treats precise wording about the policy as a minor concern.",
+          "a": "F",
+          "why": "The text says: \"Precision here is not pedantry: it determines what the policy can reasonably be expected to achieve.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "dilemma",
+          "d": "a difficult choice where every option has a problem"
+        },
+        {
+          "t": "intervention",
+          "d": "an action taken to change a situation"
+        },
+        {
+          "t": "premature",
+          "d": "happening too early, before enough is known"
+        },
+        {
+          "t": "futility",
+          "d": "the fact that something has no chance of working"
+        },
+        {
+          "t": "assurance",
+          "d": "checking or confirming that something is true"
+        },
+        {
+          "t": "designated",
+          "d": "officially chosen for a particular purpose"
+        },
+        {
+          "t": "implementation",
+          "d": "the process of putting a plan into action"
+        },
+        {
+          "t": "excessive",
+          "d": "much more than is reasonable or needed"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Look at what follows the gap: an adjective, a noun phrase, a full clause, an inverted clause or an -ing form. Each word takes a different structure.",
+        "items": [
+          {
+            "s": "The early figures are encouraging, ____ incomplete.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ the sheer number of closed accounts, nobody can yet say that teenagers are happier.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "Supporters see a necessary pause, ____ critics see a severed lifeline.",
+            "a": "whereas"
+          },
+          {
+            "s": "____ is there any control group against which to compare the results.",
+            "a": "Nor"
+          },
+          {
+            "s": "Removing accounts in bulk may satisfy the regulator, ____ leaving the design of the apps untouched.",
+            "a": "thereby"
+          }
+        ],
+        "extra": [
+          "conversely",
+          "provided"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: can I keep my account?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the parent",
+      "text": "Your 15-year-old wants to keep using a messaging app. You like the new rules because they stop the arguments at home. Ask at least two questions before you decide. You can say yes, no, or yes with a condition."
+    },
+    "b": {
+      "role": "the teenager",
+      "text": "Your best friends live far away and you only talk to them on one app. Explain why it matters to you and suggest a way to use it safely."
+    },
+    "phrases": [
+      "I'd really like to stay in touch with my friends.",
+      "It's not just for fun, it's how we talk.",
+      "How much time would you spend on it?",
+      "I'm worried about what you might see.",
+      "We could try it for a month and then talk again.",
+      "That's fair, I'll agree to that."
+    ],
+    "after": "Afterwards, tell the class: did the parent say yes, and was it a fair decision?"
   }
 }

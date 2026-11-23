@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Some people have ____ nearby and waited almost 24 hours.",
-            "a": "camped out"
+            "s": "The cook was ____ with the cheese and put a big handful on every potato.",
+            "a": "generous"
           },
           {
-            "s": "They began ____ videos on social media.",
-            "a": "putting out"
+            "s": "Fans who travel a long way can feel ____ if the food is not as good as the video.",
+            "a": "disappointed"
           },
           {
-            "s": "Popularity can disappear quickly when viewers ____.",
-            "a": "move on"
+            "s": "Many small shops ____ to pay their rent when prices go up.",
+            "a": "struggle"
           },
           {
-            "s": "But internet fame ____.",
-            "a": "has a downside"
+            "s": "Nobody was paying ____ to the menu; they only wanted to film the potato.",
+            "a": "attention"
           },
           {
-            "s": "Customers who have travelled ____ may be disappointed.",
-            "a": "a long way"
+            "s": "The ____ of the shop grew quickly, and soon people waited in the street all day.",
+            "a": "popularity"
           }
         ],
         "extra": [
-          "join the queue",
-          "ridiculous"
+          "ordinary",
+          "customer"
         ]
       },
       "match": [
@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Jacob and Harley Nelson ____ baked potatoes from a converted tram.",
-            "cue": "sell",
-            "a": "sell"
+            "s": "The brothers ____ videos online when business was slow.",
+            "cue": "make",
+            "a": "made"
           },
           {
             "s": "People enjoyed ____ them prepare the food.",
@@ -67,14 +67,14 @@
             "a": "reached"
           },
           {
-            "s": "A normal lunch ____ an experience.",
-            "cue": "become",
-            "a": "had become"
+            "s": "Many visitors ____ a potato, then ate it in the street.",
+            "cue": "buy",
+            "a": "bought"
           },
           {
-            "s": "A small business that ____ to struggle may suddenly be busy.",
-            "cue": "use",
-            "a": "used"
+            "s": "The queue ____ longer every hour.",
+            "cue": "grow",
+            "a": "grew"
           }
         ]
       },
@@ -98,40 +98,109 @@
           "s": "Fans have travelled from other countries to visit.",
           "a": "T",
           "why": "The text says: \"Fans travelled to Preston from other towns and even other countries.\""
+        },
+        {
+          "s": "The text says rising costs can make new customers very useful for a small business.",
+          "a": "T",
+          "why": "The text says attention \"brings new customers at a time when rent, food and energy costs are high\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "converted",
+          "d": "changed so that it can be used in a new way"
+        },
+        {
+          "t": "attraction",
+          "d": "a place or thing that many people want to visit"
+        },
+        {
+          "t": "influencer",
+          "d": "a person with many online followers who tells them what to try"
+        },
+        {
+          "t": "downside",
+          "d": "a bad part of something that is good in other ways"
+        },
+        {
+          "t": "trend",
+          "d": "something that many people suddenly like or do"
+        },
+        {
+          "t": "extraordinary",
+          "d": "very special, not normal"
+        },
+        {
+          "t": "fillings",
+          "d": "the food that goes inside or on top, like cheese or beans"
+        },
+        {
+          "t": "queue",
+          "d": "a line of people who are waiting"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a pair of words that sound right together. Think about the other word in the sentence and choose the partner.",
+        "items": [
+          {
+            "s": "Many visitors ____ photos of the food before they eat it.",
+            "a": "take"
+          },
+          {
+            "s": "Small cafés must ____ rent every month, even when business is slow.",
+            "a": "pay"
+          },
+          {
+            "s": "Visitors have to ____ the queue and wait for hours.",
+            "a": "join"
+          },
+          {
+            "s": "The brothers have worked ____ to make their business a success.",
+            "a": "hard"
+          },
+          {
+            "s": "Fans like to ____ their friends that they were there.",
+            "a": "tell"
+          }
+        ],
+        "extra": [
+          "make",
+          "give"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "In London, popular bakeries have found themselves ____ queues along the pavement.",
-            "a": "dealing with"
+            "s": "The film got such good ____ that the studio did not need to pay for adverts.",
+            "a": "publicity"
           },
           {
-            "s": "For owners facing rising costs, attention can be ____.",
-            "a": "a lifeline"
+            "s": "The restaurant had been praised so much online that it could not live up to the high ____ of its guests.",
+            "a": "expectations"
           },
           {
-            "s": "Staff may struggle to ____.",
-            "a": "keep up with demand"
-          },
-          {
-            "s": "Regular customers can feel ____ by the crowds.",
-            "a": "pushed aside"
-          },
-          {
-            "s": "A perfectly good meal may seem ____ after a three-hour journey.",
+            "s": "The concert had looked amazing in the advert, but the real thing was rather ____.",
             "a": "underwhelming"
           },
           {
-            "s": "Posting a photograph proves that you were ____.",
-            "a": "part of the moment"
+            "s": "She has listened to that song ____ times and still loves it.",
+            "a": "countless"
+          },
+          {
+            "s": "Many students who study ____ return home with a second language.",
+            "a": "overseas"
+          },
+          {
+            "s": "____ for the new phone was so high that shops sold out in an hour.",
+            "a": "Demand"
           }
         ],
         "extra": [
-          "drift away",
-          "unpredictable"
+          "campaign",
+          "format"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Even the most ____ followers eventually drift away.",
-            "cue": "ENTHUSIASM",
-            "a": "enthusiastic"
+            "s": "By the time the queue reached the corner, many people ____ for hours.",
+            "cue": "wait",
+            "a": "had been waiting"
           },
           {
-            "s": "A ____ from the right creator can transform a café.",
-            "cue": "RECOMMEND",
-            "a": "recommendation"
+            "s": "Visitors ____ from distant towns and overseas.",
+            "cue": "arrive",
+            "a": "arrived"
           },
           {
-            "s": "Free ____ may achieve what an advertising campaign could not.",
-            "cue": "PUBLIC",
-            "a": "publicity"
+            "s": "Baked potatoes ____ from a converted tram.",
+            "cue": "serve",
+            "a": "are served"
           },
           {
-            "s": "But the brothers' ____ also reveals its limits.",
-            "cue": "SUCCEED",
-            "a": "success"
+            "s": "If the video had not gone viral, the stall ____ quiet.",
+            "cue": "stay",
+            "a": "would have stayed"
           },
           {
-            "s": "There is a ____ element to all this.",
-            "cue": "PSYCHOLOGY",
-            "a": "psychological"
+            "s": "The stall ____ famous across the country since the videos spread.",
+            "cue": "become",
+            "a": "has become"
           }
         ]
       },
@@ -199,43 +268,112 @@
           "why": "Not stated. The text does not say whether Preston council has complained."
         },
         {
-          "s": "A long queue acts as a kind of public recommendation.",
+          "s": "The text suggests that some customers care about the story they can tell as much as the meal.",
           "a": "T",
-          "why": "The text says: \"A long queue acts as a public recommendation, while posting a photograph proves that you were part of the moment.\""
+          "why": "The text says: \"Some customers probably care just as much about the story they can tell afterwards as the meal they have bought.\""
+        },
+        {
+          "s": "The brothers began filming because business was going well.",
+          "a": "F",
+          "why": "The text says they began posting videos \"when business was difficult during the pandemic\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "converted",
+          "d": "changed so that it can be used in a new way"
+        },
+        {
+          "t": "portions",
+          "d": "the amounts of food that are given to one person"
+        },
+        {
+          "t": "pavement",
+          "d": "the path at the side of a road where people walk"
+        },
+        {
+          "t": "viral",
+          "d": "spreading very quickly between people online"
+        },
+        {
+          "t": "following",
+          "d": "the people who regularly watch what you post online"
+        },
+        {
+          "t": "recommendation",
+          "d": "advice telling people that something is good"
+        },
+        {
+          "t": "enthusiastic",
+          "d": "very excited and interested"
+        },
+        {
+          "t": "psychological",
+          "d": "connected with how people think and feel"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "These pairs are fixed. Look at the noun that follows the gap and choose the verb that normally goes with it.",
+        "items": [
+          {
+            "s": "A well-known chef can ____ crowds to a new restaurant.",
+            "a": "draw"
+          },
+          {
+            "s": "A single video can ____ sales overnight.",
+            "a": "boost"
+          },
+          {
+            "s": "Fans soon ____ interest when a new trend appears.",
+            "a": "lose"
+          },
+          {
+            "s": "Many visitors ____ a high price for a dish that is not special.",
+            "a": "pay"
+          },
+          {
+            "s": "A café can ____ thousands of followers in a week.",
+            "a": "gain"
+          }
+        ],
+        "extra": [
+          "spend",
+          "hold"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The phenomenon ____ potatoes.",
-            "a": "extends well beyond"
+            "s": "The restaurant had to move premises because the original dining room simply could not ____ the weekend crowds.",
+            "a": "accommodate"
           },
           {
-            "s": "The brothers ____ their following by filming everyday business.",
-            "a": "built up"
+            "s": "Customers who had travelled for hours left with ____ hopes that no ordinary lunch could satisfy.",
+            "a": "inflated"
           },
           {
-            "s": "The approach ____ during a difficult period for the business.",
-            "a": "came about"
+            "s": "Independent cafés often operate on such narrow ____ that a single bad month can threaten their future.",
+            "a": "margins"
           },
           {
-            "s": "Virality delivers attention ____.",
-            "a": "at remarkable speed"
+            "s": "Occasional bursts of fame cannot ____ a business; only repeat custom can.",
+            "a": "sustain"
           },
           {
-            "s": "Residents must ____ unexpected crowds.",
-            "a": "put up with"
+            "s": "The owner insisted that the viral clip was ____ a lucky break, not a plan for the future.",
+            "a": "merely"
           },
           {
-            "s": "Businesses need loyal customers, not just ____.",
-            "a": "a brief spell of internet celebrity"
+            "s": "Fame in return for being overrun by crowds is a poor ____ for a quiet family business.",
+            "a": "bargain"
           }
         ],
         "extra": [
-          "turn towards",
-          "precarious"
+          "peaks",
+          "spotlight"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "SpudBros has shown ____ skill.",
-            "cue": "ENTREPRENEUR",
-            "a": "entrepreneurial"
+            "s": "The restaurant's ____ depends almost entirely on word of mouth.",
+            "cue": "SURVIVE",
+            "a": "survival"
           },
           {
-            "s": "Restaurants discovered that one ____ recommendation can create queues.",
-            "cue": "ENTHUSIASM",
-            "a": "enthusiastic"
+            "s": "Reviewers found the food perfectly pleasant but ____.",
+            "cue": "REMARK",
+            "a": "unremarkable"
           },
           {
-            "s": "During a period of rising costs, sudden ____ can rescue a business.",
-            "cue": "VISIBLE",
-            "a": "visibility"
+            "s": "The ____ of online attention makes long-term planning almost impossible.",
+            "cue": "PREDICT",
+            "a": "unpredictability"
           },
           {
-            "s": "The camera ignores the practical ____ of obtaining the food.",
-            "cue": "CONVENIENT",
-            "a": "inconvenience"
+            "s": "Her ____ to queue for hours in freezing weather was widely admired.",
+            "cue": "WILLING",
+            "a": "willingness"
           },
           {
-            "s": "Small businesses need loyal customers and ____ margins.",
-            "cue": "SUSTAIN",
-            "a": "sustainable"
+            "s": "Many small firms suffer from a ____ to sudden shifts in online fashion.",
+            "cue": "VULNERABLE",
+            "a": "vulnerability"
           }
         ]
       },
       "tfn": [
+        {
+          "s": "The writer suggests that a crowd can make a restaurant look better than the food alone would.",
+          "a": "T",
+          "why": "Waiting becomes \"a signal of desirability\" and the queue \"provides fresh evidence that the attraction must be worthwhile\"."
+        },
+        {
+          "s": "The text implies that a customer who waits only briefly is likely to be disappointed.",
+          "a": "F",
+          "why": "A meal \"might have been entirely satisfying after a short wait\"; disappointment comes with long waits and high expectations."
+        },
         {
           "s": "SpudBros now employs more than twenty people.",
           "a": "N",
           "why": "Not stated. The text does not say how many people SpudBros employs."
         },
         {
-          "s": "The writer says consumer research links visible approval to food choices.",
+          "s": "The text presents the potato queue as one example of a pattern found at other British businesses.",
           "a": "T",
-          "why": "The text says: \"Research into consumer behaviour suggests that visible approval from others can influence food choices, while social platforms reward places that photograph well and generate strong reactions.\""
+          "why": "\"The phenomenon extends well beyond potatoes. Restaurants and bakeries across Britain have discovered\" similar queues."
         },
         {
-          "s": "The Nelson brothers built their audience by filming their everyday work.",
-          "a": "T",
-          "why": "The text says: \"Jacob and Harley Nelson built up their following by filming the everyday business of preparing and selling potatoes.\""
-        },
-        {
-          "s": "The article concludes that the customers are foolish.",
+          "s": "The writer believes sudden fame matters more to a small business than loyal customers.",
           "a": "F",
-          "why": "The text says the opposite: \"None of this means the food is poor or that customers are foolish.\""
+          "why": "\"Small businesses need loyal customers and sustainable margins, not merely a brief spell of internet celebrity.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "phenomenon",
+          "d": "something unusual that happens and interests many people"
+        },
+        {
+          "t": "virality",
+          "d": "the way something spreads very fast online"
+        },
+        {
+          "t": "visibility",
+          "d": "how easy it is for people to see or notice you"
+        },
+        {
+          "t": "entrepreneurial",
+          "d": "good at starting and running a business"
+        },
+        {
+          "t": "desirability",
+          "d": "how much people want something"
+        },
+        {
+          "t": "hospitality",
+          "d": "the business of hotels, restaurants and cafés"
+        },
+        {
+          "t": "sensation",
+          "d": "something that suddenly makes everyone excited"
+        },
+        {
+          "t": "encounters",
+          "d": "short meetings between people"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "At C1, a precise verb or adjective is chosen for the noun beside it. Test each word in the box against the noun it must sit with.",
+        "items": [
+          {
+            "s": "Owners who go viral may ____ the rewards quickly, but struggle to keep them.",
+            "a": "reap"
+          },
+          {
+            "s": "The café enjoyed a ____ rise, going from empty to fully booked in a fortnight.",
+            "a": "meteoric"
+          },
+          {
+            "s": "Internet fame is notoriously ____: today's sensation is tomorrow's forgotten trend.",
+            "a": "fleeting"
+          },
+          {
+            "s": "Rising rents have put ____ pressure on independent restaurants.",
+            "a": "mounting"
+          },
+          {
+            "s": "Pictures of overflowing plates help to ____ demand for the product even further.",
+            "a": "fuel"
+          }
+        ],
+        "extra": [
+          "wield",
+          "tentative"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: the famous queue",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend who wants to go",
+      "text": "You've seen a famous food stall online. The queue is very long and some people wait all night. Ask your friend to come with you. Explain why you want to go and how you'll make the wait easier."
+    },
+    "b": {
+      "role": "the friend who isn't sure",
+      "text": "Your friend wants to wait a very long time for a famous snack. You think it's too much. Ask at least two questions, then say yes, say no, or suggest a different plan."
+    },
+    "phrases": [
+      "I'd love to try it, it's all over my feed.",
+      "Isn't it a bit silly to wait that long for a potato?",
+      "We could go on a weekday, when it's quieter.",
+      "I don't mind queuing if we take chairs and snacks.",
+      "That's a lot of time for one meal.",
+      "Let's compromise: we'll wait two hours, not twenty-four."
+    ],
+    "after": "Afterwards, tell the class: did your friend agree to go, and was the plan fair?"
   }
 }

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Some designers are using everyday objects to help ____.",
-            "a": "keep their culture alive"
+            "s": "A strong storm can ____ old buildings, and the repairs cost a lot.",
+            "a": "damage"
           },
           {
-            "s": "A very old idea can ____ in a very new form.",
-            "a": "turn up"
+            "s": "Many students cannot ____ a new phone every year.",
+            "a": "afford"
           },
           {
-            "s": "Glassblowing and weaving can ____.",
-            "a": "take years of practice"
+            "s": "A teacher can ____ a new idea with a short story.",
+            "a": "introduce"
           },
           {
-            "s": "These skills are usually ____ from older workers to younger ones.",
-            "a": "handed down"
+            "s": "Most people do not ____ the small details on a plain cup.",
+            "a": "notice"
           },
           {
-            "s": "A fashion brand cannot protect a country's history ____.",
-            "a": "on its own"
+            "s": "Wearing a hat will ____ you from the sun.",
+            "a": "protect"
           }
         ],
         "extra": [
-          "die out",
-          "handmade"
+          "repair",
+          "decorate"
         ]
       },
       "match": [
@@ -57,9 +57,9 @@
             "a": "makes"
           },
           {
-            "s": "The company does not simply ____ old objects.",
-            "cue": "copy",
-            "a": "copy"
+            "s": "Yesterday, a young designer ____ her first plate at the market.",
+            "cue": "sell",
+            "a": "sold"
           },
           {
             "s": "Since 2022, protecting Ukrainian culture ____ especially important.",
@@ -98,40 +98,109 @@
           "s": "GUNIA Project is based in Kyiv.",
           "a": "T",
           "why": "The text says: \"One example is GUNIA Project, a design company based in Kyiv.\""
+        },
+        {
+          "s": "Glassblowing is a skill that most people can learn quickly.",
+          "a": "F",
+          "why": "The text says glassblowing and weaving \"can take years of practice\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "pattern",
+          "d": "a design of lines, shapes or colours that repeats"
+        },
+        {
+          "t": "craftspeople",
+          "d": "people who make beautiful things with their hands"
+        },
+        {
+          "t": "embroidery",
+          "d": "pictures or patterns sewn onto cloth with thread"
+        },
+        {
+          "t": "weaving",
+          "d": "making cloth by crossing threads over and under each other"
+        },
+        {
+          "t": "workshop",
+          "d": "a room or building where people make things"
+        },
+        {
+          "t": "invasion",
+          "d": "when an army enters another country to take control"
+        },
+        {
+          "t": "luxury",
+          "d": "something very nice and expensive that you do not really need"
+        },
+        {
+          "t": "ceramics",
+          "d": "plates, cups and pots made from baked clay"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some words go together naturally. Learn the pair, not just one word.",
+        "items": [
+          {
+            "s": "It can ____ many years to learn glassblowing.",
+            "a": "take"
+          },
+          {
+            "s": "Young buyers often ____ attention to the pattern on a plate.",
+            "a": "pay"
+          },
+          {
+            "s": "Many small workshops ____ a profit by selling cups and cushions.",
+            "a": "make"
+          },
+          {
+            "s": "A brand can ____ an important part in keeping a culture alive.",
+            "a": "play"
+          },
+          {
+            "s": "Small workshops cannot ____ business without customers.",
+            "a": "do"
+          }
+        ],
+        "extra": [
+          "hold",
+          "carry"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Rather than ____ exact copies, its designers adapt old patterns.",
-            "a": "turning out"
+            "s": "The flood warning gave the work a new ____, and volunteers arrived within the hour.",
+            "a": "urgency"
           },
           {
-            "s": "Its designers ____ folk traditions for ideas.",
-            "a": "look into"
+            "s": "It is a common ____ that handmade goods are always better than factory ones.",
+            "a": "assumption"
           },
           {
-            "s": "For designers, producing objects ____ Ukrainian culture can be a business decision.",
-            "a": "rooted in"
+            "s": "Small firms must ____ quickly if their customers change what they want.",
+            "a": "adapt"
           },
           {
-            "s": "The aim seems to be ____.",
-            "a": "recognition rather than reproduction"
+            "s": "The gallery shows ____ art made by living artists in the last few years.",
+            "a": "contemporary"
           },
           {
-            "s": "After 2022, cultural preservation ____ greater urgency.",
-            "a": "took on"
+            "s": "There were ____ between the owners and the staff over pay and working hours.",
+            "a": "tensions"
           },
           {
-            "s": "Designers have to ____ respectful reinterpretation and decoration.",
-            "a": "weigh up"
+            "s": "When the factory closed, hundreds of families lost their ____.",
+            "a": "livelihoods"
           }
         ],
         "extra": [
-          "end up",
-          "awkward"
+          "decoration",
+          "reproduction"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The brand makes clothing and objects inspired by ____ designs.",
-            "cue": "HISTORY",
-            "a": "historical"
+            "s": "By the time the war began, the workshop ____ three apprentices.",
+            "cue": "train",
+            "a": "had trained"
           },
           {
-            "s": "Military attacks and ____ have placed traditions under pressure.",
-            "cue": "DISPLACE",
-            "a": "displacement"
+            "s": "Patterns like this ____ on clothes for centuries.",
+            "cue": "use",
+            "a": "have been used"
           },
           {
-            "s": "Handmade products may be too ____ for many people.",
-            "cue": "EXPENSE",
-            "a": "expensive"
+            "s": "Some artists ____ to leave their studios after 2022.",
+            "cue": "force",
+            "a": "were forced"
           },
           {
-            "s": "Can a plate become part of a country's cultural ____?",
-            "cue": "SURVIVE",
-            "a": "survival"
+            "s": "At the moment, the designers ____ a new range of cups.",
+            "cue": "plan",
+            "a": "are planning"
           },
           {
-            "s": "Preserving culture does not always mean keeping old objects ____ behind glass.",
-            "cue": "TOUCH",
-            "a": "untouched"
+            "s": "If prices fell, more people ____ handmade plates.",
+            "cue": "buy",
+            "a": "would buy"
           }
         ]
       },
@@ -186,7 +255,7 @@
         {
           "s": "The article says handmade products are affordable for everyone.",
           "a": "F",
-          "why": "The text says the opposite: \"Handmade products may be too expensive for many people, and selling cultural traditions as luxury goods can raise awkward questions about who really benefits.\""
+          "why": "The text says: \"Handmade products may be too expensive for many people\"."
         },
         {
           "s": "The company has opened a shop outside Ukraine.",
@@ -199,43 +268,112 @@
           "why": "The text says: \"It can also mean giving a skill new customers, new uses and a reason to survive.\""
         },
         {
-          "s": "GUNIA works with artisans using ceramics, weaving and blown glass.",
+          "s": "The writer suggests that photographs of a craft can keep the technique alive.",
+          "a": "F",
+          "why": "The text says that if the chain is broken the technique goes, \"however many photographs of it survive\"."
+        },
+        {
+          "s": "A buyer is expected to recognise where a design came from.",
           "a": "T",
-          "why": "The text says: \"GUNIA says it collaborates with more than 150 artisans using techniques including ceramics, weaving and blown glass.\""
+          "why": "The text says a buyer \"should sense where a design came from\" without mistaking it for an antique."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "artisans",
+          "d": "skilled people who make things by hand"
+        },
+        {
+          "t": "heritage",
+          "d": "the history and traditions a country or group has had for a long time"
+        },
+        {
+          "t": "displacement",
+          "d": "being forced to leave your home"
+        },
+        {
+          "t": "preservation",
+          "d": "keeping something safe so it is not lost or damaged"
+        },
+        {
+          "t": "reinterpretation",
+          "d": "a new way of showing or explaining something old"
+        },
+        {
+          "t": "luxury",
+          "d": "something expensive and special that people do not really need"
+        },
+        {
+          "t": "generation",
+          "d": "all the people born at about the same time"
+        },
+        {
+          "t": "identity",
+          "d": "the things that make a person or group who they are"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a pair that sounds natural. Ask which verb or noun usually goes with the other.",
+        "items": [
+          {
+            "s": "The new price list could ____ doubts about who really benefits.",
+            "a": "raise"
+          },
+          {
+            "s": "Many workshops are under ____ to cut their prices.",
+            "a": "pressure"
+          },
+          {
+            "s": "Opening a second studio was a risky business ____.",
+            "a": "decision"
+          },
+          {
+            "s": "After the attack, the museum released a short ____ to the press.",
+            "a": "statement"
+          },
+          {
+            "s": "Small firms can ____ a living from selling handmade goods.",
+            "a": "make"
+          }
+        ],
+        "extra": [
+          "attitude",
+          "habit"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Heritage is lost when specialist knowledge stops ____.",
-            "a": "paying its way"
+            "s": "The speech was deeply ____ with an audience that had lived through similar losses.",
+            "a": "resonant"
           },
           {
-            "s": "The approach ____ conventional notions of heritage.",
-            "a": "sits oddly with"
+            "s": "Fast fashion falls apart within a season, whereas a well-made linen coat is built to be ____.",
+            "a": "durable"
           },
           {
-            "s": "Its production network ____ more than 150 artisans.",
-            "a": "takes in"
+            "s": "Despite the bombing, the old market hall remained largely ____, its roof and arches undamaged.",
+            "a": "intact"
           },
           {
-            "s": "Supporters argue that allowing valuable techniques to ____ ordinary use would be a far greater loss.",
-            "a": "drop out of"
+            "s": "Her designs break with ____ thinking, which treats embroidery as a purely decorative art.",
+            "a": "conventional"
           },
           {
-            "s": "Reinterpretation risks leaving motifs ____.",
-            "a": "stripped of context"
+            "s": "Archive work is slow, repetitive and largely ____, yet it keeps the craft alive.",
+            "a": "unglamorous"
           },
           {
-            "s": "Those questions cannot simply be ____.",
-            "a": "brushed aside"
+            "s": "Only a ____ conservator could repair a fabric as old and fragile as this.",
+            "a": "specialist"
           }
         ],
         "extra": [
-          "irreplaceable",
-          "reverence"
+          "ornate",
+          "ephemeral"
         ]
       },
       "match": [
@@ -260,29 +398,29 @@
         "kind": "word",
         "items": [
           {
-            "s": "A practice ____ of change is a practice waiting to be catalogued.",
-            "cue": "CAPABLE",
-            "a": "incapable"
+            "s": "The ____ of local workshops would be a serious loss.",
+            "cue": "DISAPPEAR",
+            "a": "disappearance"
           },
           {
-            "s": "Keeping the network intact may call for as much ____ as conservation.",
-            "cue": "CREATE",
-            "a": "creativity"
+            "s": "The advertising campaign was criticised as ____, since it ignored the makers.",
+            "cue": "MISLEAD",
+            "a": "misleading"
           },
           {
-            "s": "It is an ____ form of preservation, and perhaps a more durable one.",
-            "cue": "GLAMOUR",
-            "a": "unglamorous"
+            "s": "The ____ of the technique took the apprentice nearly a decade.",
+            "cue": "MASTER",
+            "a": "mastery"
           },
           {
-            "s": "The relationship between commerce and heritage remains ____, nonetheless.",
-            "cue": "EASY",
-            "a": "uneasy"
+            "s": "Buyers valued the ____ of a handmade piece more than the name on the label.",
+            "cue": "AUTHENTIC",
+            "a": "authenticity"
           },
           {
-            "s": "Protecting the monuments is ____ straightforward.",
-            "cue": "COMPARE",
-            "a": "comparatively"
+            "s": "Such a project is ____ without public funding.",
+            "cue": "SUSTAIN",
+            "a": "unsustainable"
           }
         ]
       },
@@ -293,21 +431,111 @@
           "why": "Not stated. The text does not say who pays for the company's work."
         },
         {
-          "s": "The article says techniques survive partly because they are adapted.",
+          "s": "The writer implies that buyers' spending can protect a craft more reliably than admiration for it.",
           "a": "T",
-          "why": "The text says: \"Techniques survive partly because they are adapted, and a practice incapable of change is a practice waiting to be catalogued.\""
+          "why": "The text says commercial demand \"supplies something that reverence cannot: a livelihood\"."
         },
         {
-          "s": "The writer says a craft usually dies out in a single dramatic event.",
+          "s": "The writer believes good intentions are enough to settle disputes over credit and pricing.",
           "a": "F",
-          "why": "The text says the opposite: \"A craft rarely dies out through a single dramatic event.\""
+          "why": "The text says the questions are not \"settled by good intentions\" and must be managed case by case."
         },
         {
-          "s": "GUNIA's method begins with research into historical motifs.",
+          "s": "The writer treats an unchanging practice as more vulnerable than an adapted one.",
           "a": "T",
-          "why": "The text says: \"The company's method begins with research into historical motifs and techniques, followed by collaborations with working craftspeople.\""
+          "why": "The text says \"a practice incapable of change is a practice waiting to be catalogued\"."
+        },
+        {
+          "s": "The writer considers protecting monuments harder than keeping the network of makers intact.",
+          "a": "F",
+          "why": "The text says protecting monuments is \"comparatively straightforward\" while the network may need \"as much creativity as conservation\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "motifs",
+          "d": "repeated shapes or images used in a design"
+        },
+        {
+          "t": "artefacts",
+          "d": "old objects made by people, often kept in museums"
+        },
+        {
+          "t": "replica",
+          "d": "an exact copy of something"
+        },
+        {
+          "t": "nostalgia",
+          "d": "a warm, slightly sad longing for the past"
+        },
+        {
+          "t": "commerce",
+          "d": "the buying and selling of goods"
+        },
+        {
+          "t": "monuments",
+          "d": "large structures built to remember a person or event"
+        },
+        {
+          "t": "conservation",
+          "d": "careful protection of old things so they last"
+        },
+        {
+          "t": "heritage",
+          "d": "traditions and history passed down from earlier times"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "These are fixed combinations. Ask which word a native speaker expects, then check the whole phrase makes sense.",
+        "items": [
+          {
+            "s": "Large brands that borrow village motifs without credit have drawn ____ criticism.",
+            "a": "mounting"
+          },
+          {
+            "s": "Critics say the label merely ____ lip service to the makers.",
+            "a": "pays"
+          },
+          {
+            "s": "The restoration, unpaid and unseen, was a labour of ____ for the volunteers.",
+            "a": "love"
+          },
+          {
+            "s": "The workshop's collapse was a ____ blow to a village with no other employer.",
+            "a": "crushing"
+          },
+          {
+            "s": "The fabric's revival has ____ the way for a new generation of weavers.",
+            "a": "paved"
+          }
+        ],
+        "extra": [
+          "trivial",
+          "frail"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: is a handmade plate worth the price?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the shop owner",
+      "text": "You sell handmade plates with traditional patterns. Each plate costs 80 pounds. Explain why it costs so much and who makes it. You can lower the price a little, but only if the customer asks a good question."
+    },
+    "b": {
+      "role": "the customer",
+      "text": "You like a handmade plate with a traditional pattern, but it's very expensive. Ask who makes it and where the money goes. Decide if you will buy it, buy a cheaper one, or leave."
+    },
+    "phrases": [
+      "I'd love to buy it, but it's a bit expensive.",
+      "Who actually makes these plates?",
+      "That's what makes it special.",
+      "Where does the money go?",
+      "I can't lower the price much, but I'll add a free cup.",
+      "We're not rich, so could we meet in the middle?"
+    ],
+    "after": "Afterwards, tell the class: did the customer buy the plate, and was the price fair?"
   }
 }

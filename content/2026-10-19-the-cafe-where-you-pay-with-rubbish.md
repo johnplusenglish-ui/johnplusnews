@@ -6,6 +6,7 @@ source: BBC Future | https://www.bbc.com/future/article/20250818-the-indian-garb
 image: images/the-cafe-where-you-pay-with-rubbish-b8d591.jpg
 image-alt: A bulging clear sack of plastic bottles and wrappers sits on a weighing scale while a hand reaches for a metal tray of rice, curry and flatbread.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

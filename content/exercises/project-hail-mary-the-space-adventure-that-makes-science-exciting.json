@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Imagine ____ on a spaceship with no memory of how you got there.",
-            "a": "waking up"
+            "s": "Without enough heat from the Sun, plants and animals cannot ____ on Earth.",
+            "a": "survive"
           },
           {
-            "s": "____, you may be the only person who can save Earth.",
-            "a": "Worse still"
+            "s": "Grace is not a ____ action hero: he is scared and often confused.",
+            "a": "typical"
           },
           {
-            "s": "The film is ____ a popular novel by Andy Weir.",
-            "a": "based on"
+            "s": "The tiny organisms in the film are ____, but the stars are real.",
+            "a": "invented"
           },
           {
-            "s": "Grace travels towards a distant star to ____ an answer.",
-            "a": "look for"
+            "s": "A good comedy should fill the cinema with laughter and ____.",
+            "a": "humour"
           },
           {
-            "s": "He makes mistakes ____ but keeps testing his ideas.",
-            "a": "along the way"
+            "s": "You do not need to be a scientist to enjoy the film, but you should be ____ about new ideas.",
+            "a": "curious"
           }
         ],
         "extra": [
-          "come from",
-          "frightened"
+          "wealthy",
+          "rapid"
         ]
       },
       "match": [
@@ -98,40 +98,109 @@
           "s": "The organisms that threaten the Sun are based on real science.",
           "a": "F",
           "why": "The text says the opposite: \"But the tiny organisms that threaten the Sun are invented.\""
+        },
+        {
+          "s": "Grace and Rocky understand each other easily at first.",
+          "a": "F",
+          "why": "The text says: \"cannot communicate easily at first\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "weapons",
+          "d": "things like guns that people use to hurt others"
+        },
+        {
+          "t": "enemies",
+          "d": "people who want to hurt or beat you"
+        },
+        {
+          "t": "calculations",
+          "d": "work with numbers to find an answer"
+        },
+        {
+          "t": "experiments",
+          "d": "tests that you do to learn something new"
+        },
+        {
+          "t": "alien",
+          "d": "a living thing from another planet"
+        },
+        {
+          "t": "communicate",
+          "d": "to share ideas or information with someone"
+        },
+        {
+          "t": "microorganisms",
+          "d": "living things that are too small to see"
+        },
+        {
+          "t": "critic",
+          "d": "a person whose job is to give opinions about films or books"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word. The small word often changes the meaning completely, so learn them together.",
+        "items": [
+          {
+            "s": "Grace wakes ____ on a spaceship and cannot remember anything.",
+            "a": "up"
+          },
+          {
+            "s": "He must find ____ why the Sun is getting weaker.",
+            "a": "out"
+          },
+          {
+            "s": "The spaceship takes ____ from Earth at the start of the story.",
+            "a": "off"
+          },
+          {
+            "s": "Grace carries ____ with his experiments even when he is scared.",
+            "a": "on"
+          },
+          {
+            "s": "The old engine broke ____ in the middle of the journey.",
+            "a": "down"
+          }
+        ],
+        "extra": [
+          "over",
+          "into"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "A man ____ aboard a spacecraft, unable to remember his name.",
-            "a": "comes round"
+            "s": "The committee reached a ____ decision: every member voted in favour.",
+            "a": "unanimous"
           },
           {
-            "s": "The filmmakers wanted to ____ Weir's scientific detail.",
-            "a": "hold on to"
+            "s": "The tour guide was so ____ that she answered every question about the stars.",
+            "a": "knowledgeable"
           },
           {
-            "s": "Scientists have ____ that the premise is not consistent with physics.",
-            "a": "pointed out"
+            "s": "After years of failed tests, the team finally made a ____ that changed the project.",
+            "a": "breakthrough"
           },
           {
-            "s": "Gradually, the two ____ ways to communicate.",
-            "a": "come up with"
+            "s": "Fireworks over the harbour were ____: the whole sky lit up.",
+            "a": "spectacular"
           },
           {
-            "s": "He is hardly the ____ astronaut usually found in a blockbuster.",
-            "a": "fearless"
+            "s": "After so many noisy sequels, a quiet film felt like a ____ change.",
+            "a": "refreshing"
           },
           {
-            "s": "A film must make a discovery understandable ____.",
-            "a": "in a matter of seconds"
+            "s": "Neighbouring countries solved the water shortage through ____ rather than competition.",
+            "a": "cooperation"
           }
         ],
         "extra": [
-          "improvised",
-          "mysterious"
+          "ambitious",
+          "reluctant"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Astrophage would need to absorb an almost ____ amount of energy.",
-            "cue": "IMAGINE",
-            "a": "unimaginable"
+            "s": "By the time Grace woke up, his crewmates ____.",
+            "cue": "die",
+            "a": "had died"
           },
           {
-            "s": "Much of the drama comes from unexpected ____ and improvised solutions.",
-            "cue": "FAIL",
-            "a": "failures"
+            "s": "The film ____ by millions of people since it came out.",
+            "cue": "see",
+            "a": "has been seen"
           },
           {
-            "s": "Nevertheless, ____ has its limits.",
-            "cue": "PLAUSIBLE",
-            "a": "plausibility"
+            "s": "If Grace had given up, humanity ____ no hope.",
+            "cue": "have",
+            "a": "would have had"
           },
           {
-            "s": "The film asks what strangers might achieve through ____.",
-            "cue": "COOPERATE",
-            "a": "cooperation"
+            "s": "While Grace ____ an experiment, an alarm went off.",
+            "cue": "run",
+            "a": "was running"
           },
           {
-            "s": "What makes the film ____ is its pleasure in curiosity.",
-            "cue": "DISTINGUISH",
-            "a": "distinctive"
+            "s": "Grace ____ a decision quickly, because the Sun is getting weaker.",
+            "cue": "have to make",
+            "a": "has to make|must make"
           }
         ]
       },
@@ -186,12 +255,12 @@
         {
           "s": "Reviews of the film were unanimous.",
           "a": "F",
-          "why": "The text says the opposite: \"The film became a commercial success, earning more than $680 million worldwide, although reviews were not entirely unanimous.\""
+          "why": "The text says: \"reviews were not entirely unanimous\"."
         },
         {
-          "s": "Rocky is an alien who wants to protect his own world.",
-          "a": "T",
-          "why": "The text says: \"Grace meets Rocky, an alien trying to protect his own world from the same danger.\""
+          "s": "Using real stars makes the threat of Astrophage scientifically realistic.",
+          "a": "F",
+          "why": "The text says real stars appear, but \"the way Astrophage stores energy does not fit known physics\"."
         },
         {
           "s": "A sequel has been announced.",
@@ -199,43 +268,112 @@
           "why": "Not stated. The text does not say whether a sequel has been announced."
         },
         {
-          "s": "Some of the stars in the story really exist.",
+          "s": "A novel can explain a calculation in more detail than a film usually can.",
           "a": "T",
-          "why": "The text says: \"NASA specialists offered advice during production, while the story uses real stars such as Tau Ceti and 40 Eridani.\""
+          "why": "The text says: \"a book can spend pages on calculations, while a film must make the same discoveries understandable in a matter of seconds\"."
+        },
+        {
+          "s": "Rocky is an alien who wants to protect his own world.",
+          "a": "T",
+          "why": "The text says: \"Rocky, an alien trying to protect his own world from the same danger\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "organisms",
+          "d": "living things, such as tiny animals or plants"
+        },
+        {
+          "t": "absorbing",
+          "d": "taking in a liquid, light or energy"
+        },
+        {
+          "t": "plausibility",
+          "d": "how likely something is to be true"
+        },
+        {
+          "t": "adapts",
+          "d": "changes a book or play so it can become a film"
+        },
+        {
+          "t": "commercial",
+          "d": "connected with making money"
+        },
+        {
+          "t": "distinctive",
+          "d": "clearly different from other things"
+        },
+        {
+          "t": "destruction",
+          "d": "damage so bad that nothing is left"
+        },
+        {
+          "t": "encounter",
+          "d": "a meeting, often an unexpected one"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Some phrasal verbs take an object (hold on to something), and some do not (the machine broke down). Check what follows the gap.",
+        "items": [
+          {
+            "s": "The crew is running ____ of time.",
+            "a": "out"
+          },
+          {
+            "s": "The first experiment broke ____ before the team could finish it.",
+            "a": "down"
+          },
+          {
+            "s": "The filmmakers wanted to hold ____ to the novel's scientific detail.",
+            "a": "on"
+          },
+          {
+            "s": "Grace has to think his way ____ each problem.",
+            "a": "through"
+          },
+          {
+            "s": "Grace and Rocky team ____ against the same danger.",
+            "a": "up"
+          }
+        ],
+        "extra": [
+          "along",
+          "across"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Earth's survival is at risk, so the story begins with ____ stakes.",
-            "a": "apocalyptic"
-          },
-          {
-            "s": "His survival depends on the ____ business of working things out.",
+            "s": "Cataloguing the manuscripts was a ____ task that took the archivists three years.",
             "a": "painstaking"
           },
           {
-            "s": "The central mechanism remains firmly ____.",
-            "a": "in the realm of invention"
+            "s": "Disaster films often show ____ visions of cities in flames and collapsing governments.",
+            "a": "apocalyptic"
           },
           {
-            "s": "The film occupies an intriguing ____ between accuracy and invention.",
-            "a": "middle ground"
+            "s": "The minister gave an ____ denial, insisting the rumours were completely false.",
+            "a": "emphatic"
           },
           {
-            "s": "Their relationship supplies the story with ____.",
-            "a": "comic relief"
+            "s": "Even the programme's fiercest ____ admitted that the acting was superb.",
+            "a": "detractors"
           },
           {
-            "s": "Adapting the novel meant ____ lengthy explanations into visual sequences.",
-            "a": "boiling down"
+            "s": "Rescue teams were ____ to the flooded region within hours.",
+            "a": "dispatched"
+          },
+          {
+            "s": "Scientists form ____ and then design experiments to test them.",
+            "a": "hypotheses"
           }
         ],
         "extra": [
-          "exuberant",
-          "conscientious"
+          "unwieldy",
+          "reluctant"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Its unlikely ____ is a science teacher who wakes aboard an unfamiliar spacecraft.",
-            "cue": "SAVE",
-            "a": "saviour"
+            "s": "Weir's strict ____ to scientific detail is well known.",
+            "cue": "ADHERE",
+            "a": "adherence"
           },
           {
-            "s": "The crisis is ____ imagined.",
-            "cue": "EXTRAVAGANT",
-            "a": "extravagantly"
+            "s": "The jokes seemed ____ to some viewers, given the extinction-level stakes.",
+            "cue": "APPROPRIATE",
+            "a": "inappropriate"
           },
           {
-            "s": "Astrophage is gloriously ____ under established physics.",
+            "s": "Physicists have long pointed to the ____ of an organism storing so much energy.",
             "cue": "PLAUSIBLE",
-            "a": "implausible"
+            "a": "implausibility"
           },
           {
-            "s": "First contact requires patience, ____ and mutual trust.",
-            "cue": "HUMBLE",
-            "a": "humility"
+            "s": "A scientist's ____ to admit a mistake can slow a whole project.",
+            "cue": "RELUCTANT",
+            "a": "reluctance"
           },
           {
-            "s": "The film prompted lively ____ among critics.",
-            "cue": "AGREE",
-            "a": "disagreement"
+            "s": "The novel contains ____ explanations of every calculation.",
+            "cue": "EXHAUST",
+            "a": "exhaustive"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Astrophysicists have questioned the energy Astrophage would need to store.",
-          "a": "T",
-          "why": "The text says: \"Astrophage would have to capture and store quantities of stellar energy that, as astrophysicists have pointed out, are hard to square with established physics.\""
-        },
-        {
-          "s": "Some critics were bothered by the film's changes of mood.",
-          "a": "T",
-          "why": "The text says: \"Admirers celebrated its warmth, intelligence and exuberant humour; detractors found the tonal shifts distracting and some of the sentiment overly emphatic.\""
-        },
-        {
-          "s": "The film treats first contact as a contest for domination.",
+          "s": "Critics agreed with one another about the film's tone.",
           "a": "F",
-          "why": "The text says the opposite: \"Rather than turning first contact into a contest for domination, the narrative treats it as a practical problem requiring patience, humility and mutual trust.\""
+          "why": "The text says admirers \"celebrated its warmth\" while \"detractors found the tonal shifts distracting\"."
         },
         {
-          "s": "The film won an award for its visual effects.",
+          "s": "Grace could succeed using only his own knowledge.",
+          "a": "F",
+          "why": "The text calls him \"dependent on knowledge he cannot possess alone\"."
+        },
+        {
+          "s": "The novel's scientific explanations were shortened for the film.",
+          "a": "T",
+          "why": "The text says adapting meant \"boiling down lengthy scientific explanations into visual sequences\"."
+        },
+        {
+          "s": "Andy Weir helped the directors adapt his novel.",
           "a": "N",
-          "why": "Not stated. The text does not mention any awards for the film."
+          "why": "Not stated. The text does not say whether Weir took part in the adaptation."
+        },
+        {
+          "s": "The film takes more care over some scientific details than over others.",
+          "a": "T",
+          "why": "The text calls it \"scientifically conscientious about some details, gloriously implausible about the threat\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "stakes",
+          "d": "what can be won or lost in a situation"
+        },
+        {
+          "t": "extraterrestrial",
+          "d": "coming from or existing outside Earth"
+        },
+        {
+          "t": "extravagantly",
+          "d": "in a way that is exaggerated and goes beyond what is normal"
+        },
+        {
+          "t": "speculation",
+          "d": "guessing about something without knowing the facts"
+        },
+        {
+          "t": "sensibility",
+          "d": "a person's way of reacting to and judging things such as art or humour"
+        },
+        {
+          "t": "domination",
+          "d": "control over other people or groups"
+        },
+        {
+          "t": "affecting",
+          "d": "causing strong feelings, especially sadness or sympathy"
+        },
+        {
+          "t": "trade-off",
+          "d": "a loss in one area accepted in return for a gain in another"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many C1 phrasal verbs are fixed chunks with a following preposition (square with, shy away from). Learn the whole chunk, not just the verb.",
+        "items": [
+          {
+            "s": "The film's treatment of the threat does not square ____ what physicists know about stars.",
+            "a": "with"
+          },
+          {
+            "s": "The drama hinges ____ the fragile partnership between a teacher and an alien.",
+            "a": "on"
+          },
+          {
+            "s": "Some viewers felt the film glossed ____ the technical difficulty of travelling between stars.",
+            "a": "over"
+          },
+          {
+            "s": "Few space missions in fiction pan ____ the way their planners hoped.",
+            "a": "out"
+          },
+          {
+            "s": "Unlike most blockbusters, the film does not shy ____ from long scenes of quiet problem-solving.",
+            "a": "away"
+          }
+        ],
+        "extra": [
+          "through",
+          "apart"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: the book or the film first?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the reader",
+      "text": "You want your friend to read the novel before you both see the film. Explain why the book is worth the time. Listen, then agree on a plan."
+    },
+    "b": {
+      "role": "the film fan",
+      "text": "You want to see the film this weekend, before people tell you the story. Explain why. Listen, then agree on a plan."
+    },
+    "phrases": [
+      "I'd rather read the book first.",
+      "That's a fair point, but it's a long book.",
+      "What if we watched it and then read it?",
+      "I don't want anyone to spoil the ending.",
+      "I'm not sure the film can explain all the science.",
+      "Let's agree on a plan."
+    ],
+    "after": "Afterwards, tell the class what you decided and why."
   }
 }

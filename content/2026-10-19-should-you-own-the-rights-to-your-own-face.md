@@ -6,6 +6,7 @@ source: Reuters | https://www.reuters.com/world/denmark-plans-ban-sharing-ai-dee
 image: images/should-you-own-the-rights-to-your-own-face-d7c98e.jpg
 image-alt: A woman in a blue jumper frowns and points at a laptop playing a video of herself, a phone in her other hand, at a desk beside a bright window.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Nobody would spend an hour ____ on the way to work.",
-            "a": "stuck in traffic"
+            "s": "A new stadium would ____ thousands of visitors to the town.",
+            "a": "attract"
           },
           {
-            "s": "The pictures looked like ____.",
-            "a": "something from a science-fiction film"
+            "s": "Most families can buy these homes because the prices are ____.",
+            "a": "affordable"
           },
           {
-            "s": "They hoped it would help the country ____ new industries.",
-            "a": "build up"
+            "s": "Building a city needs huge ____ of cement and steel.",
+            "a": "quantities"
           },
           {
-            "s": "In May 2026, major work on The Line had been ____ until after 2030.",
-            "a": "put off"
+            "s": "The concert was ____ because of the storm.",
+            "a": "cancelled"
           },
           {
-            "s": "Costs can also ____ while the work goes on.",
-            "a": "go up"
+            "s": "Learning a new language brings many ____ for adults.",
+            "a": "challenges"
           }
         ],
         "extra": [
-          "turn into",
-          "costly"
+          "distance",
+          "repair"
         ]
       },
       "match": [
@@ -72,9 +72,9 @@
             "a": "has built"
           },
           {
-            "s": "A plan that looked affordable at the start may ____ impossible later.",
-            "cue": "become",
-            "a": "become"
+            "s": "In May 2026, a report ____ that major work had been put off.",
+            "cue": "say",
+            "a": "said"
           }
         ]
       },
@@ -98,40 +98,109 @@
           "s": "The project was officially cancelled in May 2026.",
           "a": "F",
           "why": "The text says the opposite: \"That did not mean the entire project had officially been cancelled.\""
+        },
+        {
+          "s": "Fast transport would take residents from one part of the city to another in about an hour.",
+          "a": "F",
+          "why": "The text says transport would carry residents across the city \"in minutes\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "shiny",
+          "d": "bright and smooth, so that it reflects light"
+        },
+        {
+          "t": "residents",
+          "d": "people who live in a place"
+        },
+        {
+          "t": "supporters",
+          "d": "people who like an idea and want it to succeed"
+        },
+        {
+          "t": "industries",
+          "d": "types of business, such as farming or car making"
+        },
+        {
+          "t": "services",
+          "d": "things like water and electricity that a city provides"
+        },
+        {
+          "t": "ordinary",
+          "d": "normal, not special"
+        },
+        {
+          "t": "extremely",
+          "d": "very, very much"
+        },
+        {
+          "t": "depend",
+          "d": "need something else to live or work well"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "A linking word joins two ideas. Use but for a difference, so for a result, and because for a reason.",
+        "items": [
+          {
+            "s": "The pictures looked wonderful, ____ building the real city is very hard.",
+            "a": "but"
+          },
+          {
+            "s": "The old road to the site was closed, ____ the workers took the train.",
+            "a": "so"
+          },
+          {
+            "s": "Work was put off ____ the cost was too high.",
+            "a": "because"
+          },
+          {
+            "s": "The project was not cancelled. ____, people asked if it would ever be finished.",
+            "a": "However"
+          },
+          {
+            "s": "In the new city, people can walk ____ take a fast train.",
+            "a": "or"
+          }
+        ],
+        "extra": [
+          "unless",
+          "despite"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "____, the design solved problems older cities have struggled with.",
-            "a": "On paper"
+            "s": "The team overcame several ____ before the bridge was finally opened.",
+            "a": "obstacles"
           },
           {
-            "s": "Daily necessities would be ____ for every resident.",
-            "a": "within easy reach"
+            "s": "After the flood, the charity gave families food, water and other basic ____.",
+            "a": "necessities"
           },
           {
-            "s": "A city on this scale would ____ vast amounts of material.",
-            "a": "call for"
+            "s": "After the protest, the council ____ its decision and agreed to keep the library open.",
+            "a": "reconsidered"
           },
           {
-            "s": "Work had been ____ until after 2030.",
-            "a": "put back"
+            "s": "Countries that rely on one product often try to ____ their economies.",
+            "a": "diversify"
           },
           {
-            "s": "The report pointed to ____ between the vision and reality.",
-            "a": "a widening gap"
+            "s": "Choosing between a high salary and more free time is a real ____ for many people.",
+            "a": "dilemma"
           },
           {
-            "s": "Governments face ____ on their budgets.",
-            "a": "competing demands"
+            "s": "The magazine's covers look ____, but daily life for the staff was far from exciting.",
+            "a": "glamorous"
           }
         ],
         "extra": [
-          "get off the ground",
-          "extraordinary"
+          "expansion",
+          "reluctant"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Homes would be stacked into a narrow, high-____ structure.",
-            "cue": "DENSE",
-            "a": "density"
+            "s": "By the time the report was published, the early images ____ around the world.",
+            "cue": "travel",
+            "a": "had travelled"
           },
           {
-            "s": "NEOM is intended to attract international ____.",
-            "cue": "INVEST",
-            "a": "investment"
+            "s": "Details of the new budget ____ yet.",
+            "cue": "not / publish",
+            "a": "have not been published"
           },
           {
-            "s": "Ambitious experiments can drive ____ even when scaled back.",
-            "cue": "INNOVATE",
-            "a": "innovation"
+            "s": "Critics say the money ____ on housing instead.",
+            "cue": "should / spend",
+            "a": "should be spent"
           },
           {
-            "s": "The report did not show that the plan had been ____ abandoned.",
-            "cue": "PERMANENT",
-            "a": "permanently"
+            "s": "While the engineers ____ the materials, the budget was cut.",
+            "cue": "test",
+            "a": "were testing"
           },
           {
-            "s": "Construction forces people to ask what happens if the ____ plan no longer adds up.",
-            "cue": "FINANCE",
-            "a": "financial"
+            "s": "When costs rose sharply, officials ____ to wait.",
+            "cue": "decide",
+            "a": "decided"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The Line was intended to reduce dependence on private cars.",
-          "a": "T",
-          "why": "The text says: \"Its promoters imagined neighbourhoods linked by rapid transport, with daily necessities within easy reach and far less dependence on private cars.\""
-        },
-        {
-          "s": "In May 2026 a news report said further work on The Line was delayed until after 2030.",
-          "a": "T",
-          "why": "The text says: \"In May 2026, Semafor reported that further work on The Line had been put back until after 2030 as Saudi authorities reconsidered their spending priorities.\""
+          "s": "The Line's promoters expected most residents to depend on private cars.",
+          "a": "F",
+          "why": "The text says the plan offered \"far less dependence on private cars\"."
         },
         {
           "s": "The report established that the plan had been permanently abandoned.",
           "a": "F",
-          "why": "The text says the opposite: \"The report did not establish that every element of the plan had been permanently abandoned.\""
+          "why": "The text says: \"The report did not establish that every element of the plan had been permanently abandoned.\""
+        },
+        {
+          "s": "The delay was linked to a change in the Saudi authorities' spending priorities.",
+          "a": "T",
+          "why": "The text says further work was put back \"as Saudi authorities reconsidered their spending priorities\"."
         },
         {
           "s": "Investors have asked for their money back.",
           "a": "N",
           "why": "Not stated. The text does not say whether investors have asked for their money back."
+        },
+        {
+          "s": "The writer suggests that a very long delay can weaken the idea behind a project.",
+          "a": "T",
+          "why": "The text says a project that slips by ten years \"loses the technology and much of the enthusiasm it was designed around\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "radically",
+          "d": "in a very large and complete way"
+        },
+        {
+          "t": "stacked",
+          "d": "put one on top of another in a pile"
+        },
+        {
+          "t": "promotional",
+          "d": "made to advertise something"
+        },
+        {
+          "t": "infrastructure",
+          "d": "basic systems such as roads, power and water"
+        },
+        {
+          "t": "investment",
+          "d": "money put into something to make a profit later"
+        },
+        {
+          "t": "innovation",
+          "d": "a new idea or way of doing something"
+        },
+        {
+          "t": "realistically",
+          "d": "in a way that is sensible about what can really happen"
+        },
+        {
+          "t": "slips",
+          "d": "moves later than planned"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Despite takes a noun phrase. Whereas introduces a contrast clause. Otherwise, therefore and unless each begin a new clause or sentence.",
+        "items": [
+          {
+            "s": "____ the enormous costs, the government kept the project going for years.",
+            "a": "Despite"
+          },
+          {
+            "s": "Some people see the project as a bold risk, ____ others see it as a waste of money.",
+            "a": "whereas"
+          },
+          {
+            "s": "Costs must be controlled; ____, the budget will run out.",
+            "a": "otherwise"
+          },
+          {
+            "s": "The first phase took longer than planned. ____, the opening date was moved back.",
+            "a": "Therefore"
+          },
+          {
+            "s": "The project will not go ahead ____ the government finds extra funding.",
+            "a": "unless"
+          }
+        ],
+        "extra": [
+          "provided",
+          "unlike"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "A scheme deferred by a decade re-emerges into a world whose technologies, costs and priorities have all ____.",
-            "a": "moved on"
-          },
-          {
-            "s": "The proposal was ____ a broader national ambition.",
-            "a": "inseparable from"
-          },
-          {
-            "s": "The scale complicated any ____ assessment of delivery.",
+            "s": "The minister's explanation was so full of gaps that few economists found it ____.",
             "a": "credible"
           },
           {
-            "s": "Work had been ____ until after 2030.",
-            "a": "put on hold"
+            "s": "The two companies had become so ____ that nobody could say where one role ended and the other began.",
+            "a": "inseparable"
           },
           {
-            "s": "Megaprojects elsewhere have been quietly ____.",
-            "a": "pared back"
+            "s": "She tried to ignore the ____ cough that had lasted for months.",
+            "a": "persistent"
           },
           {
-            "s": "Would people choose to live there, and ____?",
-            "a": "on what terms"
+            "s": "The vote was ____ until the autumn, when fuller figures would be available.",
+            "a": "deferred"
+          },
+          {
+            "s": "Unwilling to follow ____ methods, the team built the bridge in an entirely new way.",
+            "a": "conventional"
+          },
+          {
+            "s": "____ of the plan argue that its benefits will outweigh the cost, while their opponents disagree.",
+            "a": "Advocates"
           }
         ],
         "extra": [
-          "held to account",
-          "unsustainable"
+          "sceptics",
+          "optimism"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "It was an ____ proposition in the history of city planning.",
+            "s": "A growing sense of ____ surrounds the original timetable.",
+            "cue": "CERTAIN",
+            "a": "uncertainty"
+          },
+          {
+            "s": "The sheer scale of the scheme was ____ in modern planning.",
             "cue": "PRECEDENT",
             "a": "unprecedented"
           },
           {
-            "s": "Its striking visual ____ turned a plan into a symbol.",
-            "cue": "IDENTIFY",
-            "a": "identity"
-          },
-          {
-            "s": "Failure in an extreme environment is rarely a minor ____.",
+            "s": "Having to queue was a minor ____ for the tourists.",
             "cue": "CONVENIENT",
             "a": "inconvenience"
           },
           {
-            "s": "Turning that image into a real place would demand something less ____ to show.",
-            "cue": "SPECTACLE",
-            "a": "spectacular"
+            "s": "Critics doubt that the plan is ____ viable.",
+            "cue": "FINANCE",
+            "a": "financially"
           },
           {
-            "s": "The real test is how ____ its promises are revised once they meet reality.",
-            "cue": "RESPONSIBLE",
-            "a": "responsibly"
+            "s": "An independent ____ of the risks needs evidence from outside the project.",
+            "cue": "ASSESS",
+            "a": "assessment"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Saudi Arabia has announced a replacement project.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether a replacement project has been announced."
-        },
-        {
-          "s": "A scheme postponed for ten years returns to a world where costs and technologies have changed.",
+          "s": "The writer treats the gap between announced ambitions and delivery as a problem found in other countries too.",
           "a": "T",
-          "why": "The text says: \"Timing matters too: a scheme deferred by a decade re-emerges into a world whose technologies, costs and priorities have all moved on.\""
+          "why": "The text calls it \"a gap that is hardly unique to Saudi Arabia\" and mentions megaprojects elsewhere."
         },
         {
-          "s": "The proposal promised that there would be little need for ordinary roads.",
-          "a": "T",
-          "why": "The text says: \"The NEOM proposal promised mirrored buildings and little need for conventional roads.\""
-        },
-        {
-          "s": "Semafor declared the project officially cancelled.",
+          "s": "The writer expects a project delayed by ten years to return to the same technologies and costs.",
           "a": "F",
-          "why": "The text says the opposite: \"That report should not be confused with an official declaration that the project has been permanently cancelled.\""
+          "why": "The text says such a scheme \"re-emerges into a world whose technologies, costs and priorities have all moved on\"."
+        },
+        {
+          "s": "The cost of the project has risen by more than half since it was announced.",
+          "a": "N",
+          "why": "Not stated. The text gives no figures for the cost."
+        },
+        {
+          "s": "The text suggests that Semafor's report and an official cancellation amount to the same thing.",
+          "a": "F",
+          "why": "The text says the report \"should not be confused with an official declaration\" of cancellation."
+        },
+        {
+          "s": "The text treats the project's striking image as an achievement that did not settle whether it could be delivered.",
+          "a": "T",
+          "why": "It calls the image \"a considerable achievement\", but says the scale \"complicated any credible assessment\" of delivery."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "megaprojects",
+          "d": "extremely large and expensive building schemes"
+        },
+        {
+          "t": "trade-offs",
+          "d": "things you give up in order to get something else"
+        },
+        {
+          "t": "rendering",
+          "d": "a computer picture showing how something will look"
+        },
+        {
+          "t": "re-emerges",
+          "d": "appears again after being away"
+        },
+        {
+          "t": "scaled-back",
+          "d": "made smaller than first planned"
+        },
+        {
+          "t": "revised",
+          "d": "changed after more thought"
+        },
+        {
+          "t": "spectacular",
+          "d": "very impressive to look at"
+        },
+        {
+          "t": "interpretations",
+          "d": "different ways of understanding something"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Notwithstanding and hence are followed by a noun phrase; albeit introduces a small concession. Nonetheless and whereas work across clauses or sentences.",
+        "items": [
+          {
+            "s": "The design was praised for its ambition, ____ with some reservations.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ its enormous cost, the scheme kept strong political backing for years.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "Some officials defend the original scale, ____ others favour a more modest first phase.",
+            "a": "whereas"
+          },
+          {
+            "s": "The first phase proved far costlier than forecast; ____ the decision to scale it back.",
+            "a": "hence"
+          },
+          {
+            "s": "The project has not been formally cancelled. ____, few observers expect it to be built as announced.",
+            "a": "Nonetheless"
+          }
+        ],
+        "extra": [
+          "thereby",
+          "lest"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: shrink the city or keep the dream",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the government adviser",
+      "text": "You want to keep the full 170-kilometre plan. Explain why the idea is important. Answer your partner's worries and try to agree a plan."
+    },
+    "b": {
+      "role": "the finance officer",
+      "text": "You think the city is too costly. You want to make it smaller or wait until after 2030. Ask about the cost and offer a compromise."
+    },
+    "phrases": [
+      "I'm worried about the cost.",
+      "We can't give up on this dream now.",
+      "What would that mean for the people who live there?",
+      "Could we start with a smaller version?",
+      "I'd rather wait than waste the money.",
+      "Let's agree on a plan we can both support."
+    ],
+    "after": "Afterwards, tell the class: did you keep the big plan, shrink it or put it off, and why?"
   }
 }

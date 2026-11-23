@@ -6,6 +6,7 @@ source: The Guardian | https://www.theguardian.com/news/ng-interactive/2026/oct/
 image: images/i-was-held-hostage-for-977-days-then-my-captor-messaged-me-on-facebook-4bc101.jpg
 image-alt: A mobile phone stands on a stone ledge in a bare sunlit room with a floor mattress and rug, its lock screen showing a message from Unknown asking Do you remember me.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 
