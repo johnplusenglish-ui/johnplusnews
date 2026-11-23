@@ -690,6 +690,14 @@
     return fetch("/articles.json").then(function (r) { return r.json(); }).then(function (j) { titles = j; return j; }).catch(function () { titles = {}; return titles; });
   }
   var LV_OLD = { b1: "Core", b2: "Intermediate", "c1-c2": "Advanced" };  // levels saved while the CEFR names were live
+  var LV_CEFR = { core: "B1", intermediate: "B2", advanced: "C1/C2" };
+  /* The level chip in My words carries the CEFR level too. Teens stories use the same three names
+     at their own levels, so they keep the plain name. */
+  function lvChip(r) {
+    var name = lvName(r.level), cefr = LV_CEFR[name.toLowerCase()];
+    var teens = titles && titles[r.slug] && titles[r.slug].teens;
+    return name && cefr && !teens ? name + " " + cefr : name;
+  }
   function lvName(v) { if (!v || v === "single") return ""; var k = String(v).toLowerCase(); return LV_OLD[k] || k.charAt(0).toUpperCase() + k.slice(1); }
   function titleOf(slug) {
     if (titles && titles[slug]) return titles[slug].title;
@@ -1014,7 +1022,7 @@
             if (q) d.open = true;                       // a search shows its matches in context
             var sum = document.createElement("summary");
             sum.appendChild(el("span", "wd-w", r.text));
-            sum.appendChild(el("span", "wd-lv", lvName(r.level)));
+            sum.appendChild(el("span", "wd-lv", lvChip(r)));
             sum.appendChild(el("span", "wd-chev"));
             d.appendChild(sum);
             var body = el("div", "wd-body");

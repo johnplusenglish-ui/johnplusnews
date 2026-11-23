@@ -2077,7 +2077,7 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
     write("contact/index.html", legal_page("/contact/", "Contact", legal.contact(SITE), "How to contact johnplusnews and report a mistake."))
     write("words/index.html", account_page("/words/", "My words", "words", "The words and phrases you have highlighted in articles, saved to your account."))
     write("teacher/index.html", account_page("/teacher/", "Teacher view", "teacher", "The words your students have saved, and what they have read."))
-    write("articles.json", json.dumps({a["slug"]: {"title": a["title"]} for a in arts}, ensure_ascii=False))
+    write("articles.json", json.dumps({a["slug"]: dict({"title": a["title"]}, **({"teens": True} if a["teens"] else {})) for a in arts}, ensure_ascii=False))
     write("sitemap.xml", sitemap_xml(arts, topics, content_dir))
     write("robots.txt", robots_txt())
     write("404.html", not_found_page(arts))
