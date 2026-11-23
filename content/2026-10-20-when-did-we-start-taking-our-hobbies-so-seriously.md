@@ -6,6 +6,7 @@ source: Forbes | https://www.forbes.com/sites/cherylrobinson/2026/05/30/before-t
 image: images/when-did-we-start-taking-our-hobbies-so-seriously-7a1875.jpg
 image-alt: A runner in an orange T-shirt checks his sports watch mid-stride on a riverside path, with walkers, a suspension footbridge and a church spire behind.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

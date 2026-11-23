@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You ____ with a cup of tea, but a few minutes later you feel uneasy.",
-            "a": "sit down"
+            "s": "Checking messages during a quiet moment can make relaxing more ____.",
+            "a": "complicated"
           },
           {
-            "s": "They think about cleaning, exercising or ____ messages.",
-            "a": "catching up on"
+            "s": "Some people worry about bills and other ____ problems when they try to rest.",
+            "a": "financial"
           },
           {
-            "s": "Some people call this feeling ____.",
-            "a": "productivity guilt"
+            "s": "A day is not a ____, so you do not have to win it.",
+            "a": "competition"
           },
           {
-            "s": "These moments may help us return to a problem with ____.",
-            "a": "fresh energy"
+            "s": "Many people think a hobby must have a ____, such as improving their health.",
+            "a": "purpose"
           },
           {
-            "s": "You can simply decide what you ____.",
-            "a": "feel like doing"
+            "s": "Other people do not need to ____ of how you spend your free time.",
+            "a": "approve"
           }
         ],
         "extra": [
-          "put down",
-          "impressive"
+          "expensive",
+          "schedule"
         ]
       },
       "match": [
@@ -57,14 +57,14 @@
             "a": "feeling"
           },
           {
-            "s": "In March 2026, Nature ____ to neuroscientist Joseph Jebelli.",
+            "s": "In March 2026, Nature ____ to the neuroscientist Joseph Jebelli.",
             "cue": "speak",
             "a": "spoke"
           },
           {
-            "s": "He described how he once ____ his value to his work.",
-            "cue": "connect",
-            "a": "connected"
+            "s": "For years he ____ that his value came from his work.",
+            "cue": "think",
+            "a": "thought"
           },
           {
             "s": "Talking to a friend ____ enough to feel rested.",
@@ -72,9 +72,9 @@
             "a": "is"
           },
           {
-            "s": "Other people do not need ____ of how you rest.",
-            "cue": "approve",
-            "a": "to approve"
+            "s": "He ____ that breaks are important for difficult mental work.",
+            "cue": "argue",
+            "a": "argued"
           }
         ]
       },
@@ -87,7 +87,7 @@
         {
           "s": "Every type of rest works the same way for everybody.",
           "a": "F",
-          "why": "The text says the opposite: \"However, not every type of rest works in exactly the same way for everybody.\""
+          "why": "The text says: \"not every type of rest works in exactly the same way for everybody.\""
         },
         {
           "s": "Jebelli's book became a bestseller.",
@@ -97,41 +97,110 @@
         {
           "s": "Nature interviewed Joseph Jebelli in March 2026.",
           "a": "T",
-          "why": "The text says: \"In March 2026, the science journal Nature spoke to neuroscientist Joseph Jebelli about his book on rest.\""
+          "why": "The text says: \"In March 2026, the science journal Nature spoke to neuroscientist Joseph Jebelli.\""
+        },
+        {
+          "s": "The writer thinks every hobby should have a purpose.",
+          "a": "F",
+          "why": "The text says these activities \"do not need to become jobs\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "neuroscientist",
+          "d": "a scientist who studies the brain"
+        },
+        {
+          "t": "guilt",
+          "d": "a bad feeling when you think you did something wrong"
+        },
+        {
+          "t": "productivity",
+          "d": "how much useful work you do"
+        },
+        {
+          "t": "skill",
+          "d": "something you can do well because you learned it"
+        },
+        {
+          "t": "calmer",
+          "d": "more quiet and relaxed"
+        },
+        {
+          "t": "pressures",
+          "d": "worries that make you feel you must do something"
+        },
+        {
+          "t": "achieve",
+          "d": "to finish something good that you wanted to do"
+        },
+        {
+          "t": "journal",
+          "d": "a magazine with serious articles about a subject"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Think about the link: is it a contrast, a reason, a result or a surprise? Read the whole sentence before you choose.",
+        "items": [
+          {
+            "s": "____ I felt guilty, I enjoyed the walk.",
+            "a": "Although"
+          },
+          {
+            "s": "I turned my phone off ____ I wanted a proper break.",
+            "a": "because"
+          },
+          {
+            "s": "It was raining, ____ we stayed at home.",
+            "a": "so"
+          },
+          {
+            "s": "Rest is useful, ____ for people who do difficult mental work.",
+            "a": "especially"
+          },
+          {
+            "s": "I wanted to relax. ____, I kept checking my messages.",
+            "a": "However"
+          }
+        ],
+        "extra": [
+          "unless",
+          "otherwise"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "An empty weekend looks like a problem rather than a chance to ____.",
-            "a": "slow down"
+            "s": "Employees who work hard often receive public ____ from their managers.",
+            "a": "praise"
           },
           {
-            "s": "The feeling is sometimes called ____.",
-            "a": "productivity guilt"
+            "s": "How much rest a person needs depends on their personal ____.",
+            "a": "circumstances"
           },
           {
-            "s": "Activities that should be relaxing can ____ goals.",
-            "a": "turn into"
+            "s": "It is not always easy to ____ between real rest and simply being entertained.",
+            "a": "distinguish"
           },
           {
-            "s": "A break may help people return with ____.",
-            "a": "a clearer perspective"
+            "s": "Achievements only seem to count when they are ____ to other people, for example on social media.",
+            "a": "visible"
           },
           {
-            "s": "We talk as though relaxation ____.",
-            "a": "creates a debt"
+            "s": "Telling everybody to rest more ignores social ____ in who has free time.",
+            "a": "inequalities"
           },
           {
-            "s": "We say we must ____ a lazy morning.",
-            "a": "make up for"
+            "s": "A single ____ on your phone can pull your attention away from a quiet conversation.",
+            "a": "notification"
           }
         ],
         "extra": [
-          "fall behind",
-          "unhurried"
+          "approach",
+          "separate"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "It can be useful to distinguish rest from entertainment and ____.",
-            "cue": "ACHIEVE",
-            "a": "achievement"
+            "s": "By the time she finally sat down on Saturday, she ____ the whole kitchen.",
+            "cue": "clean",
+            "a": "had cleaned"
           },
           {
-            "s": "Free time does not require a ____ result.",
-            "cue": "MEASURE",
-            "a": "measurable"
+            "s": "Free time ____ by many people as another test of productivity.",
+            "cue": "treat",
+            "a": "is treated"
           },
           {
-            "s": "Telling everybody to rest more ignores real ____.",
-            "cue": "EQUAL",
-            "a": "inequalities"
+            "s": "You ____ to enjoy an afternoon without turning it into an achievement.",
+            "cue": "allow",
+            "a": "are allowed"
           },
           {
-            "s": "Some workers have ____ schedules.",
-            "cue": "PREDICT",
-            "a": "unpredictable"
+            "s": "If she hadn't felt so guilty, she ____ the walk more.",
+            "cue": "enjoy",
+            "a": "would have enjoyed"
           },
           {
-            "s": "There is nothing ____ wrong with goals.",
-            "cue": "INHERENT",
-            "a": "inherently"
+            "s": "The neuroscientist ____ to Nature in March 2026.",
+            "cue": "speak",
+            "a": "spoke"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Productivity guilt is more common in cities.",
-          "a": "N",
-          "why": "Not stated. The text does not say where productivity guilt is most common."
-        },
-        {
-          "s": "Some parents and carers hardly ever get time without interruption.",
-          "a": "T",
-          "why": "The text says: \"Some workers have unpredictable schedules, while parents and carers may rarely have uninterrupted time.\""
-        },
-        {
-          "s": "One routine of rest suits everybody.",
+          "s": "Jebelli's description of his own experience counts as research evidence.",
           "a": "F",
-          "why": "The text says the opposite: \"Equally, the ideal break depends on personal circumstances.\""
+          "why": "The text says: \"That is one person's account, not research evidence.\""
         },
         {
-          "s": "Jebelli described measuring his worth by his working hours.",
+          "s": "The writer says guilt is the only reason people struggle to rest.",
+          "a": "F",
+          "why": "The text says the shortage of rest is \"often a practical problem\" too."
+        },
+        {
+          "s": "Most people who feel productivity guilt are under thirty.",
+          "a": "N",
+          "why": "Not stated. The text gives no ages."
+        },
+        {
+          "s": "Someone who talks to customers all day might want a quieter break than someone who works alone.",
           "a": "T",
-          "why": "The text says: \"In a March 2026 interview with Nature, Joseph Jebelli, a neuroscientist who has written about rest, described how he had once measured his personal value by the hours he spent working.\""
+          "why": "The text says a person dealing with customers \"may value silence\", while someone who works alone \"may need company\"."
+        },
+        {
+          "s": "The writer suggests that our language can make relaxation sound like a debt.",
+          "a": "T",
+          "why": "The text says we speak \"as though relaxation creates a debt\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "perspective",
+          "d": "a way of seeing or thinking about something"
+        },
+        {
+          "t": "optimise",
+          "d": "to make something as good as it can be"
+        },
+        {
+          "t": "evidence",
+          "d": "facts that show something is true"
+        },
+        {
+          "t": "carers",
+          "d": "people who look after someone who is ill or old"
+        },
+        {
+          "t": "fashionable",
+          "d": "popular at the moment"
+        },
+        {
+          "t": "inherently",
+          "d": "as a basic part of something"
+        },
+        {
+          "t": "habit",
+          "d": "something you do often without thinking"
+        },
+        {
+          "t": "unpredictable",
+          "d": "changing in a way that you cannot guess"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Decide what the sentence needs: a contrast, a reason, an addition or a warning. Then check the grammar after the gap.",
+        "items": [
+          {
+            "s": "____ of feeling peaceful, she began planning jobs.",
+            "a": "Instead"
+          },
+          {
+            "s": "Rest helps people think more clearly. ____, it can reduce pressure.",
+            "a": "Moreover"
+          },
+          {
+            "s": "That is only one person's account, not a study. ____, it names a feeling many people recognise.",
+            "a": "Yet"
+          },
+          {
+            "s": "She felt guilty ____ she had not achieved anything all day.",
+            "a": "because"
+          },
+          {
+            "s": "Take regular breaks. ____, the pressure will keep growing.",
+            "a": "Otherwise"
+          }
+        ],
+        "extra": [
+          "unless",
+          "whereas"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Rest is sometimes justified only because it increases future ____.",
-            "a": "productivity"
-          },
-          {
-            "s": "When even a walk has to ____, taking a break can feel like failing.",
-            "a": "justify itself"
-          },
-          {
-            "s": "____ a problem can sometimes support fresh thinking.",
-            "a": "Stepping away from"
-          },
-          {
-            "s": "The challenge is to defend a walk that ____ in particular.",
-            "a": "leads absolutely nowhere"
-          },
-          {
-            "s": "The logic of these tools may ____ activities that were once enjoyable.",
+            "s": "If every pastime is tracked and scored, the logic of performance may ____ even our most private enjoyments.",
             "a": "colonise"
           },
           {
-            "s": "The most radical response may be declining to measure everything ____.",
-            "a": "in the first place"
+            "s": "Advising a night-shift nurse to 'take more time for herself' can sound ____ when her rota is set by someone else.",
+            "a": "absurd"
+          },
+          {
+            "s": "An argument that ignores workers' schedules risks ____ the practical barriers to rest.",
+            "a": "overlooking"
+          },
+          {
+            "s": "The break was ____ for the sake of her health, though she spent it answering emails.",
+            "a": "supposedly"
+          },
+          {
+            "s": "Poorly designed shift patterns are major ____ to genuine recovery.",
+            "a": "obstacles"
+          },
+          {
+            "s": "Children benefit from ____ play, in which nobody sets the rules or the goals.",
+            "a": "unstructured"
           }
         ],
         "extra": [
-          "instrumental",
-          "aimless"
+          "tangible",
+          "relentless"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "There is a ____ dimension, although broad claims require caution.",
-            "cue": "SCIENCE",
-            "a": "scientific"
+            "s": "Her ____ to take a day off made her colleagues worry.",
+            "cue": "RELUCTANT",
+            "a": "reluctance"
           },
           {
-            "s": "Telling a single parent to rest may sound absurd if their problem is ____ control over their schedule.",
-            "cue": "SUFFICIENT",
-            "a": "insufficient"
+            "s": "The ____ of leisure has turned many hobbies into side businesses.",
+            "cue": "COMMERCIAL",
+            "a": "commercialisation"
           },
           {
-            "s": "Career advice encourages constant professional ____.",
-            "cue": "DEVELOP",
-            "a": "development"
+            "s": "It would be ____ to claim that every nap boosts creativity.",
+            "cue": "RESPONSIBLE",
+            "a": "irresponsible"
           },
           {
-            "s": "Some experiences are valuable simply because they are ____.",
-            "cue": "PLEASURE",
-            "a": "pleasurable"
+            "s": "Critics find the argument ____ because it ignores who can afford time off.",
+            "cue": "CONVINCE",
+            "a": "unconvincing"
           },
           {
-            "s": "People enjoy things precisely because they served no ____ purpose.",
-            "cue": "PRACTICE",
-            "a": "practical"
+            "s": "Overwork often leads to ____, even among people who enjoy their jobs.",
+            "cue": "EXHAUST",
+            "a": "exhaustion"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Jebelli argued that mental wandering can form part of effective thinking.",
+          "s": "The writer implies that advice to rest more can be unrealistic for some people.",
           "a": "T",
-          "why": "The text says: \"He argued that periods of rest and mental wandering are not necessarily obstacles to effective thinking but can form part of it.\""
+          "why": "Telling a care worker or single parent to rest \"may sound absurd\" if they lack control over their schedule."
         },
         {
-          "s": "Every nap has been shown to increase creativity.",
+          "s": "The writer treats Jebelli's interview as stronger evidence than a scientific study.",
           "a": "F",
-          "why": "The text says the opposite: \"That does not establish that every nap increases creativity or that unstructured time produces identical benefits for everybody.\""
+          "why": "The text calls it \"an interview, not a study\" and presents it as a challenge to a culture, not as proof."
         },
         {
-          "s": "Access to rest is not the same for everybody.",
-          "a": "T",
-          "why": "The text says: \"A culture of rest requires employers, families and public institutions to consider who actually has access to it.\""
-        },
-        {
-          "s": "Nature published a second interview on the same subject.",
+          "s": "Jebelli became less productive after he changed his attitude to work.",
           "a": "N",
-          "why": "Not stated. The text does not mention any second interview in Nature."
+          "why": "Not stated. The text does not say what happened to his output."
+        },
+        {
+          "s": "The writer finds the productivity defence of rest convincing to employers but incomplete.",
+          "a": "T",
+          "why": "It is \"persuasive to an employer, yet it leaves little room for experiences valuable simply because they are pleasurable\"."
+        },
+        {
+          "s": "The writer is certain that stepping away from a problem improves creativity.",
+          "a": "F",
+          "why": "The text says it \"can sometimes support fresh thinking\" and warns that broad claims \"require caution\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "inactivity",
+          "d": "a lack of movement or action"
+        },
+        {
+          "t": "dimension",
+          "d": "one part or side of a larger subject"
+        },
+        {
+          "t": "caution",
+          "d": "great care to avoid mistakes or danger"
+        },
+        {
+          "t": "cognitive",
+          "d": "to do with thinking and understanding"
+        },
+        {
+          "t": "institutions",
+          "d": "big, important organisations such as schools or hospitals"
+        },
+        {
+          "t": "radical",
+          "d": "very different from what is usual, and strong"
+        },
+        {
+          "t": "justify",
+          "d": "to show that something is right or reasonable"
+        },
+        {
+          "t": "motivating",
+          "d": "making you want to do something"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Look at what follows each gap: a noun phrase, a full clause or a fragment. Some of these are formal and belong mainly in writing.",
+        "items": [
+          {
+            "s": "The advice is useful, ____ only for those who control their own schedules.",
+            "a": "albeit"
+          },
+          {
+            "s": "Employers value rest as a means to higher output, ____ the human case for it is that it is enjoyable.",
+            "a": "whereas"
+          },
+          {
+            "s": "____ the pressure to optimise leisure, many people still guard one unplanned afternoon.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "The interview is anecdotal; ____, it challenges a culture that treats inactivity as a problem.",
+            "a": "nonetheless"
+          },
+          {
+            "s": "Workers rarely control their time; ____, rest remains a privilege.",
+            "a": "hence"
+          }
+        ],
+        "extra": [
+          "thereby",
+          "lest"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: an empty Sunday",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend with a plan",
+      "text": "You've got a free Sunday and you hate wasting it. Suggest a busy plan, such as a long run, a museum visit and some study. Explain why you think the day should be useful."
+    },
+    "b": {
+      "role": "the friend who wants to rest",
+      "text": "You want to do nothing on Sunday. Say why you need a quiet day and what you'd like to do instead. Try to agree on a plan that works for both of you."
+    },
+    "phrases": [
+      "I don't want to waste the whole day.",
+      "Honestly, I just want to switch off.",
+      "Shouldn't we do something useful?",
+      "Why does everything have to be a plan?",
+      "Could we do one thing and then relax?",
+      "That's fair, let's try it your way."
+    ],
+    "after": "Afterwards, tell the class: what did you agree, and who gave way more?"
   }
 }

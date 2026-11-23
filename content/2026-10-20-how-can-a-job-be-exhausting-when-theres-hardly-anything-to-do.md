@@ -6,6 +6,7 @@ source: American Psychological Association | https://www.apa.org/monitor/2026/09
 image: images/how-can-a-job-be-exhausting-when-theres-hardly-anything-to-do-e98d82.jpg
 image-alt: A woman in a tan blazer sits at an open-plan office desk nudging coloured paperclips into a neat row, looking down blankly, a wall clock behind her.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

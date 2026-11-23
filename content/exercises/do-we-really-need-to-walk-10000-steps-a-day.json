@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "The number did not originally ____ a medical discovery.",
-            "a": "come from"
+            "s": "The idea of walking 10,000 steps is ____ to nearly everyone who owns a watch.",
+            "a": "familiar"
           },
           {
-            "s": "This does not mean 7,000 is ____.",
-            "a": "a magic number"
+            "s": "No doctor made it an ____ rule, but many people follow it as one.",
+            "a": "official"
           },
           {
-            "s": "Walking is useful because it can ____ ordinary routines.",
-            "a": "fit into"
+            "s": "A ____ half-hour walk, faster than a stroll, is good exercise.",
+            "a": "brisk"
           },
           {
-            "s": "A short walk to the shops, ____ or meeting a friend outdoors can all help.",
-            "a": "taking the stairs"
+            "s": "She felt ____ when she walked to the top of the hill for the first time.",
+            "a": "proud"
           },
           {
-            "s": "A step counter can help you ____ your habits.",
-            "a": "keep track of"
+            "s": "After her injury, she could only ____ a short walk each day.",
+            "a": "manage"
           }
         ],
         "extra": [
-          "add up",
-          "ashamed"
+          "regular",
+          "reduce"
         ]
       },
       "match": [
@@ -72,9 +72,9 @@
             "a": "was linked"
           },
           {
-            "s": "A step counter should not ____ every day feel like a test.",
-            "cue": "make",
-            "a": "make"
+            "s": "Last Saturday I ____ 12,000 steps on a long hike.",
+            "cue": "take",
+            "a": "took"
           }
         ]
       },
@@ -82,7 +82,7 @@
         {
           "s": "The review proved that 7,000 steps prevent illness.",
           "a": "F",
-          "why": "The text says the opposite: \"The study also looked mainly at links between steps and health, rather than proving that one exact number prevents illness.\""
+          "why": "The text says the study looked \"rather than proving that one exact number prevents illness.\""
         },
         {
           "s": "The 10,000-step idea became popular through a Japanese product.",
@@ -97,41 +97,110 @@
         {
           "s": "Step totals cannot show how hard somebody is working.",
           "a": "T",
-          "why": "The text says: \"Step totals cannot show everything about exercise, such as how hard someone is working or whether they are getting stronger.\""
+          "why": "The text says step totals cannot show \"how hard someone is working or whether they are getting stronger.\""
+        },
+        {
+          "s": "A person who walks fast for half an hour will always reach 10,000 steps.",
+          "a": "F",
+          "why": "The text says such a person may \"still finish below 10,000.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "discovery",
+          "d": "finding out something new, often by science"
+        },
+        {
+          "t": "examined",
+          "d": "looked at very carefully"
+        },
+        {
+          "t": "benefits",
+          "d": "good things that you get from something"
+        },
+        {
+          "t": "ordinary",
+          "d": "normal, not special"
+        },
+        {
+          "t": "measurement",
+          "d": "a number that shows how big or how much something is"
+        },
+        {
+          "t": "progress",
+          "d": "getting better or going forward over time"
+        },
+        {
+          "t": "stress",
+          "d": "a worried, tense feeling"
+        },
+        {
+          "t": "currently",
+          "d": "at this time, now"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Think about what the link does: contrast, reason, result or condition.",
+        "items": [
+          {
+            "s": "The number sounds like a medical rule. ____, it began as a marketing idea.",
+            "a": "However"
+          },
+          {
+            "s": "She stopped for a rest ____ her feet hurt.",
+            "a": "because"
+          },
+          {
+            "s": "____ 7,000 steps is a useful goal, it is not right for everyone.",
+            "a": "Although"
+          },
+          {
+            "s": "She walks to work every day, ____ she often reaches 7,000 steps.",
+            "a": "so"
+          },
+          {
+            "s": "A step goal will not help you ____ it fits your life.",
+            "a": "unless"
+          }
+        ],
+        "extra": [
+          "therefore",
+          "despite"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "____ is easy to remember and share.",
-            "a": "A neat round number"
+            "s": "It is hard to ____ a new exercise habit if the goal is too ambitious.",
+            "a": "sustain"
           },
           {
-            "s": "That may explain why the target ____ so widely.",
-            "a": "took off"
+            "s": "A headline with one big number can be ____ if it hides important details.",
+            "a": "misleading"
           },
           {
-            "s": "____ gradually could be more realistic than chasing a fixed number.",
-            "a": "Building up"
+            "s": "After a month of daily walks, her energy levels improved ____.",
+            "a": "considerably"
           },
           {
-            "s": "What matters is making movement a habit rather than collecting ____.",
-            "a": "a perfect score"
+            "s": "A ____ plan, with different options each day, is easier to follow than a rigid one.",
+            "a": "flexible"
           },
           {
-            "s": "The famous target may remain ____ for some people.",
-            "a": "out of reach"
+            "s": "Aiming to walk twenty miles every day is not ____ for most people with full-time jobs.",
+            "a": "realistic"
           },
           {
-            "s": "Step counts also ____ important information about activity.",
-            "a": "leave out"
+            "s": "Doctors compare patients' health ____ before and after the programme.",
+            "a": "outcomes"
           }
         ],
         "extra": [
-          "arbitrary",
-          "comparable"
+          "contradict",
+          "reluctant"
         ]
       },
       "match": [
@@ -153,40 +222,45 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "A Japanese pedometer helped ____ the round figure.",
-            "cue": "POPULAR",
-            "a": "popularise"
+            "s": "The review ____ in July 2025 by The Lancet Public Health.",
+            "cue": "publish",
+            "a": "was published"
           },
           {
-            "s": "7,000 steps were associated with ____ health benefits.",
-            "cue": "SUBSTANCE",
-            "a": "substantial"
+            "s": "At this moment, researchers ____ new data on step counts.",
+            "cue": "collect",
+            "a": "are collecting"
           },
           {
-            "s": "The findings need careful ____.",
-            "cue": "INTERPRET",
-            "a": "interpretation"
+            "s": "The findings ____ carefully.",
+            "cue": "should / interpret",
+            "a": "should be interpreted"
           },
           {
-            "s": "The intensity of ____ also influences the picture.",
-            "cue": "MOVE",
-            "a": "movement"
+            "s": "By the time she checked her watch last night, she ____ 9,000 steps.",
+            "cue": "walk",
+            "a": "had walked"
           },
           {
-            "s": "Conventional targets may be ____ for some people.",
-            "cue": "APPROPRIATE",
-            "a": "inappropriate"
+            "s": "Fitness watches ____ millions of people to walk further since they became popular.",
+            "cue": "encourage",
+            "a": "have encouraged"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Most of the studies watched people's activity and what happened to their health afterwards.",
+          "s": "Somebody who goes from 2,000 to 4,000 steps a day may have made a meaningful change.",
           "a": "T",
-          "why": "The text says: \"The studies largely observed people's activity and subsequent health outcomes\""
+          "why": "The text says this person \"may be making a meaningful change even if the famous target remains out of reach.\""
+        },
+        {
+          "s": "The review shows that walking alone caused every difference in health.",
+          "a": "F",
+          "why": "The text says the studies \"cannot establish that walking alone caused every difference.\""
         },
         {
           "s": "Fitness watches will be updated to show the new target.",
@@ -194,48 +268,112 @@
           "why": "Not stated. The text does not mention any plan to update fitness watches."
         },
         {
-          "s": "The review says everybody should stop moving after 7,000 steps.",
-          "a": "F",
-          "why": "The text says the opposite: \"Nor does the review suggest that everybody should stop moving after step number 7,000.\""
+          "s": "A fixed target can discourage people who struggle with mobility.",
+          "a": "T",
+          "why": "The text says a number that motivates one person \"can discourage another who struggles with mobility.\""
         },
         {
-          "s": "The Lancet Public Health review covered 57 studies.",
-          "a": "T",
-          "why": "The text says: \"In July 2025, The Lancet Public Health published a systematic review covering 57 studies.\""
+          "s": "The review found the same benefits at 2,000 steps as at 7,000 steps.",
+          "a": "F",
+          "why": "The text links 7,000 rather than 2,000 steps with a \"considerably lower risk of death.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "precise",
+          "d": "exact and clear"
+        },
+        {
+          "t": "investigating",
+          "d": "trying to find out the facts about something"
+        },
+        {
+          "t": "interpretation",
+          "d": "your understanding of what something means"
+        },
+        {
+          "t": "subsequent",
+          "d": "coming after something else"
+        },
+        {
+          "t": "comparable",
+          "d": "similar enough to be compared fairly"
+        },
+        {
+          "t": "conventional",
+          "d": "usual, following the normal way"
+        },
+        {
+          "t": "mobility",
+          "d": "the ability to move around easily"
+        },
+        {
+          "t": "accurately",
+          "d": "correctly, without mistakes"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some linkers go before a noun or -ing form, some join two clauses, and some start a new sentence after a full stop.",
+        "items": [
+          {
+            "s": "____ being widely recognised, the number has no strong scientific basis.",
+            "a": "Despite"
+          },
+          {
+            "s": "The review covered 57 studies. ____, it cannot prove that steps cause better health.",
+            "a": "However"
+          },
+          {
+            "s": "The studies only observed people. ____, they cannot show what caused the differences.",
+            "a": "Therefore"
+          },
+          {
+            "s": "A step counter suits some people, ____ it discourages others.",
+            "a": "whereas"
+          },
+          {
+            "s": "A target can be useful ____ it makes people feel like failures.",
+            "a": "unless"
+          }
+        ],
+        "extra": [
+          "unlike",
+          "meanwhile"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Reaching ____ earns digital congratulations.",
-            "a": "five figures"
+            "s": "Few people realise how much distance they have ____ by the end of a long shift on their feet.",
+            "a": "accumulated"
           },
           {
-            "s": "They simply ____ presenting any single number as a substitute for individually appropriate exercise.",
-            "a": "caution against"
+            "s": "Constantly missing a daily target ____ confidence rather than building it.",
+            "a": "undermines"
           },
           {
-            "s": "Several relationships showed ____ beyond about 7,000 steps.",
-            "a": "diminishing returns"
+            "s": "The trial was delayed by an unexpected ____ with the way the devices recorded movement.",
+            "a": "complication"
           },
           {
-            "s": "For somebody with ____, a modest increase is worthwhile.",
-            "a": "a low baseline"
+            "s": "Participants who were already ____ of walking long distances may have been healthier from the start.",
+            "a": "capable"
           },
           {
-            "s": "A target becomes counterproductive when ____ feels like failure.",
-            "a": "falling short of it"
+            "s": "A ____ rise of 500 steps a day is easier to maintain than a sudden doubling.",
+            "a": "modest"
           },
           {
-            "s": "Statistical methods cannot ____ every source of uncertainty.",
-            "a": "rule out"
+            "s": "Treating the screen as the ____ judge of a good walk ignores enjoyment.",
+            "a": "sole"
           }
         ],
         "extra": [
-          "exclusionary",
-          "observational"
+          "susceptible",
+          "hypothesis"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The attraction of a single target is that it simplifies a complicated subject into something ____.",
-            "cue": "MEASURE",
-            "a": "measurable"
+            "s": "The headline figure invites ____ because the reduction in risk is relative.",
+            "cue": "INTERPRET",
+            "a": "misinterpretation"
           },
           {
-            "s": "There is an additional ____ issue with treating step totals as a complete representation of exercise.",
-            "cue": "METHOD",
-            "a": "methodological"
+            "s": "A universal rule shows little ____ to differences in age and mobility.",
+            "cue": "SENSITIVE",
+            "a": "sensitivity"
           },
           {
-            "s": "A pedometer gives limited information about muscle ____.",
-            "cue": "STRONG",
-            "a": "strengthening"
+            "s": "Trackers can give a ____ impression of how hard someone is exercising.",
+            "cue": "LEAD",
+            "a": "misleading"
           },
           {
-            "s": "____ matters too for people with mobility limitations.",
-            "cue": "ACCESS",
-            "a": "Accessibility"
+            "s": "The authors stress that the findings may not be ____ to people who already exercise heavily.",
+            "cue": "APPLY",
+            "a": "applicable"
           },
           {
-            "s": "Reverse ____ is a potential complication in such research.",
-            "cue": "CAUSE",
-            "a": "causation"
+            "s": "Setting a target can be motivating, but the ____ of a missed day may discourage people.",
+            "cue": "DISAPPOINT",
+            "a": "disappointment"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Adding 5,000 steps will reduce an individual's risk by exactly 47%.",
+          "s": "The review found that the benefits stopped completely after 7,000 steps.",
           "a": "F",
-          "why": "The text says the opposite: \"This is a relative comparison from observational evidence, not a promise that adding 5,000 steps will reduce an individual's risk by exactly that amount.\""
+          "why": "The text reports \"diminishing returns beyond roughly 5,000 to 7,000 steps\", which is not the same as no benefit."
         },
         {
-          "s": "People in better health may walk more partly because of that better health.",
+          "s": "Someone who is already active might gain from movement that a step target does not capture.",
           "a": "T",
-          "why": "The text says: \"Healthier participants may be capable of taking more steps partly because they are already healthier.\""
+          "why": "The text says \"for somebody already active, further movement may offer benefits not captured by a universal daily rule.\""
         },
         {
-          "s": "Only some of the reviewed studies fed into specific meta-analyses.",
+          "s": "The 47% figure compares people with two different daily step counts.",
           "a": "T",
-          "why": "The text says: \"included 57 studies, with 31 contributing to specific meta-analyses.\""
+          "why": "The text says it compares 7,000 steps with 2,000."
         },
         {
           "s": "The authors recommend replacing step targets with activity minutes.",
           "a": "N",
           "why": "Not stated. The text does not say whether the authors suggest activity minutes instead of steps."
+        },
+        {
+          "s": "Fewer than half of the 57 studies contributed to specific meta-analyses.",
+          "a": "F",
+          "why": "The text says 31 of the 57 contributed, which is more than half."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "baseline",
+          "d": "the starting level that later results are compared with"
+        },
+        {
+          "t": "underlying",
+          "d": "present, but not obvious at first"
+        },
+        {
+          "t": "diminishing",
+          "d": "getting smaller step by step"
+        },
+        {
+          "t": "methodological",
+          "d": "to do with the way research is carried out"
+        },
+        {
+          "t": "universal",
+          "d": "meant to apply to everyone"
+        },
+        {
+          "t": "intensity",
+          "d": "how strong or hard something is"
+        },
+        {
+          "t": "representation",
+          "d": "a way of showing or describing something"
+        },
+        {
+          "t": "drawback",
+          "d": "a disadvantage or problem with something"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some linkers join clauses (whereas, provided), albeit adds a short concession, nonetheless opens a sentence, and despite needs a noun or -ing form.",
+        "items": [
+          {
+            "s": "____ their limitations, step counters can still prompt healthier habits.",
+            "a": "Despite"
+          },
+          {
+            "s": "A modest target suits a beginner, ____ an athlete may need a more demanding one.",
+            "a": "whereas"
+          },
+          {
+            "s": "The evidence is encouraging, ____ far from conclusive.",
+            "a": "albeit"
+          },
+          {
+            "s": "The data come from observation, not experiment. ____, the same pattern appeared across many studies.",
+            "a": "Nonetheless"
+          },
+          {
+            "s": "A target is helpful ____ it does not become a source of anxiety.",
+            "a": "provided"
+          }
+        ],
+        "extra": [
+          "hence",
+          "namely"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: the step counter debate",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the step counter fan",
+      "text": "You have walked 8,000 steps today and you want to reach 10,000 before bed. Ask your friend to come for another walk. Explain why the number matters to you."
+    },
+    "b": {
+      "role": "the tired friend",
+      "text": "You have had a long day and you don't want another walk. You have read that 7,000 steps is already good. Give your reasons, then suggest a different plan."
+    },
+    "phrases": [
+      "I'd like to do another walk tonight.",
+      "I've only done 8,000 steps today.",
+      "That's not really necessary, is it?",
+      "The review says 7,000 is already good.",
+      "We're both tired, so why don't we go tomorrow?",
+      "Could we do a shorter walk instead?"
+    ],
+    "after": "Afterwards, tell the class: did you agree on a plan, and who gave the better reasons?"
   }
 }

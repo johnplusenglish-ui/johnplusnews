@@ -6,6 +6,7 @@ source: Journal of Clinical Sleep Medicine | https://doi.org/10.5664/jcsm.6472
 image: images/when-did-getting-a-good-nights-sleep-become-so-complicated-8c4d01.jpg
 image-alt: A phone showing colourful sleep charts lies on a bedside table beside a smart ring and a white smartwatch displaying a crescent moon, next to a made bed.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

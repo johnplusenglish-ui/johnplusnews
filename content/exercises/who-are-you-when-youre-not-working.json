@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "A job can give us friends, confidence and ____.",
-            "a": "a reason to get up in the morning"
+            "s": "After he retired, he missed the daily ____ of getting up early and going to work.",
+            "a": "routine"
           },
           {
-            "s": "What happens if somebody retires or ____ a new career?",
-            "a": "takes up"
+            "s": "Her parents were very ____ of her when she finished university.",
+            "a": "proud"
           },
           {
-            "s": "One person might spend weekends ____ an older relative.",
-            "a": "looking after"
+            "s": "Without a regular ____, it is hard to pay the rent and buy food.",
+            "a": "income"
           },
           {
-            "s": "Parents often do work that does not appear ____.",
-            "a": "on a business card"
+            "s": "Passing the driving test gave him more ____ to drive on his own.",
+            "a": "confidence"
           },
           {
-            "s": "A career can be an important chapter, but it does not have to be ____.",
-            "a": "the whole story"
+            "s": "After years of training, he is now a ____ electrician who can repair almost anything.",
+            "a": "skilled"
           }
         ],
         "extra": [
-          "look for",
-          "uncomfortable"
+          "neighbour",
+          "dreams"
         ]
       },
       "match": [
@@ -52,86 +52,155 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Others may find the question uncomfortable, especially if they ____ for work.",
-            "cue": "look",
-            "a": "are looking"
+            "s": "My uncle ____ from the bank last year, and now he has more free time.",
+            "cue": "retire",
+            "a": "retired"
           },
           {
-            "s": "In a 2023 survey, 39% of employees ____ their job was very important.",
-            "cue": "say",
-            "a": "said"
+            "s": "We ____ at a party last Saturday.",
+            "cue": "meet",
+            "a": "met"
           },
           {
-            "s": "A nurse may feel proud ____ patients.",
-            "cue": "help",
-            "a": "to help"
+            "s": "She ____ me that she enjoys her work.",
+            "cue": "tell",
+            "a": "told"
           },
           {
-            "s": "A person can be a parent or a volunteer without ____ paid.",
-            "cue": "be",
-            "a": "being"
+            "s": "He ____ children to play football every weekend.",
+            "cue": "teach",
+            "a": "teaches"
           },
           {
-            "s": "What happens if someone ____ their job?",
-            "cue": "lose",
-            "a": "loses"
+            "s": "After a long search, Tom ____ a job in a small shop.",
+            "cue": "find",
+            "a": "found"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Some people find the question about work uncomfortable.",
+          "s": "The writer says that having several interests can make change easier.",
           "a": "T",
-          "why": "The text says: \"Others may find the question uncomfortable, especially if they are looking for work.\""
+          "why": "The text says: \"Having several interests can make change easier.\""
         },
         {
-          "s": "The survey was repeated in Britain.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether the survey was repeated in Britain."
-        },
-        {
-          "s": "People without paid jobs do no important work.",
+          "s": "The survey asked only people who work for themselves.",
           "a": "F",
-          "why": "The text says the opposite: \"People who do not have paid jobs can still work hard at home or in their communities.\""
+          "why": "The text says the employees \"were not self-employed\"."
         },
         {
-          "s": "In the 2023 Pew survey, 39% said their job was very or extremely important to identity.",
+          "s": "Most employees in the survey said they were happy at work.",
+          "a": "N",
+          "why": "The text only gives the number who said their job was important to their identity."
+        },
+        {
+          "s": "Two people with office jobs can have very different lives.",
           "a": "T",
-          "why": "The text says: \"In a 2023 American survey by Pew Research Center, 39% of employees who were not self-employed said their job or career was very or extremely important to their identity.\""
+          "why": "The text says two people may \"both work in offices, but have very different lives\"."
+        },
+        {
+          "s": "The writer thinks people should never ask about work at a party.",
+          "a": "F",
+          "why": "The text says the question should \"not always be\" about work, not that it should never be asked."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "survey",
+          "d": "a set of questions asked to many people to find out what they think"
+        },
+        {
+          "t": "identity",
+          "d": "who you are, and what makes you different from other people"
+        },
+        {
+          "t": "volunteer",
+          "d": "a person who works without being paid because they want to help"
+        },
+        {
+          "t": "creative",
+          "d": "good at thinking of new and interesting ideas"
+        },
+        {
+          "t": "freedom",
+          "d": "the chance to do or say what you want"
+        },
+        {
+          "t": "qualities",
+          "d": "good things about a person, such as being kind"
+        },
+        {
+          "t": "relative",
+          "d": "a person in your family, such as an aunt or a cousin"
+        },
+        {
+          "t": "carers",
+          "d": "people who look after someone who is old, ill or very young"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some verbs go with certain words as a pair. Learn the pair together, not each word alone.",
+        "items": [
+          {
+            "s": "At a party, people usually ____ a question about work first.",
+            "a": "ask"
+          },
+          {
+            "s": "Most adults ____ many hours at work every week.",
+            "a": "spend"
+          },
+          {
+            "s": "My neighbour is retired, but she still works ____ in the garden.",
+            "a": "hard"
+          },
+          {
+            "s": "A hobby can help you ____ new friends.",
+            "a": "make"
+          },
+          {
+            "s": "Retired people often ____ part in clubs and volunteer groups.",
+            "a": "take"
+          }
+        ],
+        "extra": [
+          "give",
+          "hold"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "'What do you do?' is a question worth ____: ask what people enjoy, not what they do.",
-            "a": "turning around"
-          },
-          {
-            "s": "Telling someone they are 'so successful' because of their title may ____ whether they are happy.",
+            "s": "When you are busy and tired, it is easy to ____ small details in a contract.",
             "a": "overlook"
           },
           {
-            "s": "Community involvement can provide a ____ during career changes.",
-            "a": "sense of belonging"
+            "s": "She accepted the job because the ____ was higher than at her old company.",
+            "a": "salary"
           },
           {
-            "s": "Psychologists encourage people to ____ meaning beyond employment.",
-            "a": "build up"
+            "s": "Praise for staying late can ____ the idea that long hours are normal.",
+            "a": "reinforce"
           },
           {
-            "s": "Somebody may be ____ without a recognised occupation.",
-            "a": "making a difference"
+            "s": "Decisions about work often depend on personal ____, such as family needs and health.",
+            "a": "circumstances"
           },
           {
-            "s": "We can ____ different answers in conversation.",
-            "a": "leave room for"
+            "s": "Students who see their progress usually feel more ____ to keep studying.",
+            "a": "motivated"
+          },
+          {
+            "s": "Firefighters often receive public ____ for the risks they face.",
+            "a": "admiration"
           }
         ],
         "extra": [
-          "look after",
-          "demanding"
+          "contribute",
+          "convenient"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Has employment become a ____ way to describe our entire identity?",
-            "cue": "CONVENIENCE",
-            "a": "convenient"
+            "s": "By the time the manager arrived, most of the employees ____ the office.",
+            "cue": "leave",
+            "a": "had left"
           },
           {
-            "s": "People who find ____ in work may feel motivated to contribute.",
-            "cue": "MEAN",
-            "a": "meaning"
+            "s": "Hundreds of jobs ____ when the factory closed last year.",
+            "cue": "lose",
+            "a": "were lost"
           },
           {
-            "s": "Even apparently ____ compliments can reinforce the problem.",
-            "cue": "HARM",
-            "a": "harmless"
+            "s": "If I had to introduce myself without a job title, I ____ about my hobbies.",
+            "cue": "talk",
+            "a": "would talk"
           },
           {
-            "s": "Some jobs receive public ____ while others are rarely celebrated.",
-            "cue": "ADMIRE",
-            "a": "admiration"
+            "s": "While she ____ for a new job, she studied part-time.",
+            "cue": "look",
+            "a": "was looking"
           },
           {
-            "s": "Professional labels leave unpaid contributions almost ____.",
-            "cue": "VISIBLE",
-            "a": "invisible"
+            "s": "She was nervous because she ____ in public before.",
+            "cue": "speak",
+            "a": "had never spoken"
           }
         ]
       },
       "tfn": [
         {
-          "s": "People working long hours may have little energy for other activities.",
+          "s": "People who work long hours may find it harder to build other sources of meaning.",
           "a": "T",
-          "why": "The text says: \"Of course, people working long hours may have little energy left for these activities.\""
+          "why": "The text says people working long hours \"may have little energy left for these activities\"."
         },
         {
-          "s": "The writer says we should stop caring about work.",
+          "s": "The Pew survey included people who work for themselves.",
           "a": "F",
-          "why": "The text says the opposite: \"The goal is not to stop caring about work.\""
+          "why": "The text says the employees \"were not self-employed\"."
         },
         {
-          "s": "The Pew survey took place in 2023.",
-          "a": "T",
-          "why": "The text says: \"According to a Pew Research Center survey in 2023, 39% of American employees who were not self-employed described their job or career as extremely or very important to their sense of identity.\""
-        },
-        {
-          "s": "Most people change careers at least three times.",
+          "s": "Most people who lose their jobs find work in the same industry within a year.",
           "a": "N",
-          "why": "Not stated. The text says nothing about how many times people change careers."
+          "why": "The text does not say what happens to people after they lose a job."
+        },
+        {
+          "s": "Asking how someone spends their time may suit a person who has just been made redundant better than asking about their job.",
+          "a": "T",
+          "why": "The text says such a person \"may find them painful\" and that asking how people spend their time is \"less dependent on employment status\"."
+        },
+        {
+          "s": "The writer believes a person's identity stays exactly the same through career changes.",
+          "a": "F",
+          "why": "The text says \"identity can change without disappearing\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "occupation",
+          "d": "the job that a person does"
+        },
+        {
+          "t": "redundancy",
+          "d": "losing your job because the company no longer needs you"
+        },
+        {
+          "t": "passionate",
+          "d": "having very strong feelings of interest or love for something"
+        },
+        {
+          "t": "status",
+          "d": "your position or level in society or at work"
+        },
+        {
+          "t": "involvement",
+          "d": "taking part in something"
+        },
+        {
+          "t": "unpaid",
+          "d": "done without receiving money"
+        },
+        {
+          "t": "retirement",
+          "d": "the time of life after you stop working for good"
+        },
+        {
+          "t": "curious",
+          "d": "wanting to know or learn more about something"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Choose the verb that goes naturally with the noun, not the one a word-for-word translation would give you.",
+        "items": [
+          {
+            "s": "Volunteers can ____ a real difference to their neighbourhood.",
+            "a": "make"
+          },
+          {
+            "s": "Strong friendships can ____ a sense of belonging.",
+            "a": "provide"
+          },
+          {
+            "s": "A good manager will ____ attention to how employees are feeling.",
+            "a": "pay"
+          },
+          {
+            "s": "Some people have to ____ long hours just to cover their bills.",
+            "a": "work"
+          },
+          {
+            "s": "Many parents ____ care of young children and still have no job title.",
+            "a": "take"
+          }
+        ],
+        "extra": [
+          "earn",
+          "gain"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The answer usually names a job, although it ____ most of a life.",
-            "a": "leaves out"
+            "s": "A single bad review is unlikely to ____ a reputation built over thirty years.",
+            "a": "diminish"
           },
           {
-            "s": "Professional roles become ____ people's understanding of themselves.",
-            "a": "woven into"
+            "s": "Workers on short-term contracts are especially ____ to sudden changes in the labour market.",
+            "a": "vulnerable"
           },
           {
-            "s": "People with wider identities cope better when a promotion ____.",
-            "a": "falls through"
+            "s": "The new rules were ____ on staff without any consultation.",
+            "a": "imposed"
           },
           {
-            "s": "Some industries change ____ within a generation, leaving workers without a familiar role.",
-            "a": "beyond recognition"
+            "s": "There is nothing ____ dishonest about advertising, although it can be used dishonestly.",
+            "a": "inherently"
           },
           {
-            "s": "Employment operates as ____ estimating income or status.",
-            "a": "a shortcut for"
+            "s": "In many companies, an informal ____ decides whose opinion carries weight in meetings.",
+            "a": "hierarchy"
           },
           {
-            "s": "A broader identity gives a person more to ____.",
-            "a": "fall back on"
+            "s": "Open criticism can be answered, but quiet ____ about the outcome leaves managers with nothing to work with.",
+            "a": "indifference"
           }
         ],
         "extra": [
-          "line up with",
-          "resilient"
+          "constrained",
+          "devotion"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Try asking a different question: its answers might be more ____ than a job title.",
-            "cue": "REVEAL",
-            "a": "revealing"
+            "s": "Their emotional ____ to the company made redundancy harder to accept.",
+            "cue": "ATTACH",
+            "a": "attachment"
           },
           {
-            "s": "Meaningful work can create ____, belonging and pride.",
-            "cue": "COMPETENT",
-            "a": "competence"
+            "s": "Debates about who deserves higher pay are often ____ and bitter.",
+            "cue": "DIVIDE",
+            "a": "divisive"
           },
           {
-            "s": "Redundancy reveals the ____ of that arrangement.",
+            "s": "The downturn exposed the ____ of many small firms.",
             "cue": "FRAGILE",
             "a": "fragility"
           },
           {
-            "s": "Someone who performs essential labour deserves no less respect than somebody with an ____ title.",
-            "cue": "IMPRESS",
-            "a": "impressive"
+            "s": "After the third failed project, colleagues began to question the manager's professional ____.",
+            "cue": "COMPETENT",
+            "a": "competence"
           },
           {
-            "s": "Those judgements can be unreliable and socially ____.",
-            "cue": "DIVIDE",
-            "a": "divisive"
+            "s": "Her ____ plan to retrain as a doctor at fifty surprised everyone.",
+            "cue": "AMBITION",
+            "a": "ambitious"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Pew found the figure had risen since 2019.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether the Pew figure has risen or fallen over time."
-        },
-        {
-          "s": "Job applications and social media profiles push people to turn a complicated life into a tidy career story.",
+          "s": "The writer implies that a wider sense of self can protect people against career setbacks.",
           "a": "T",
-          "why": "The text says: \"Job applications, networking events and social media profiles encourage us to package a complicated life into a neat career narrative.\""
+          "why": "The text says a wider definition of achievement may \"make people less vulnerable when a promotion falls through\"."
         },
         {
-          "s": "The Pew figure was 39% of US employees who were not self-employed.",
-          "a": "T",
-          "why": "The text says: \"A 2023 Pew Research Center survey found that 39% of US employees who were not self-employed regarded their job or career as extremely or very important to their overall identity.\""
-        },
-        {
-          "s": "The writer says total devotion to work is the healthiest approach.",
+          "s": "The writer argues that a broader identity is something everyone can easily achieve.",
           "a": "F",
-          "why": "The text says the opposite: \"Perhaps the healthiest relationship with work is neither total devotion nor indifference.\""
+          "why": "The text says people in insecure jobs \"have different options\" and warns against making it \"another individual responsibility\"."
+        },
+        {
+          "s": "The Pew survey found that people in higher-paid jobs were more attached to their work.",
+          "a": "N",
+          "why": "The text gives one overall figure and says nothing about pay levels."
+        },
+        {
+          "s": "The text suggests that a person's salary is not always a fair reflection of how much their work matters to society.",
+          "a": "T",
+          "why": "The text says the importance of work to society \"does not always line up with its salary\"."
+        },
+        {
+          "s": "The writer claims that valuing life beyond work would weaken professional ambition.",
+          "a": "F",
+          "why": "The text says a wider definition of achievement \"need not diminish professional ambition\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "prestige",
+          "d": "the respect and admiration that a job or person gets"
+        },
+        {
+          "t": "narrative",
+          "d": "a story, or the way events are told as a story"
+        },
+        {
+          "t": "obsessed",
+          "d": "thinking about one thing all the time"
+        },
+        {
+          "t": "redundancy",
+          "d": "losing your job because the company no longer needs you"
+        },
+        {
+          "t": "dimension",
+          "d": "one part or side of a larger issue"
+        },
+        {
+          "t": "insecure",
+          "d": "not safe or certain, such as a job that might end soon"
+        },
+        {
+          "t": "complication",
+          "d": "something that makes a situation harder to deal with"
+        },
+        {
+          "t": "networking",
+          "d": "meeting people to make useful contacts for your work"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Look for fixed pairs where another verb would sound odd, even if the meaning is almost the same.",
+        "items": [
+          {
+            "s": "A single setback should not ____ a heavy toll on someone's confidence.",
+            "a": "take"
+          },
+          {
+            "s": "Senior surgeons ____ respect from colleagues without ever asking for it.",
+            "a": "command"
+          },
+          {
+            "s": "Losing a job can ____ serious doubt on a person's sense of purpose.",
+            "a": "cast"
+          },
+          {
+            "s": "Employers who ____ lip service to wellbeing often change nothing.",
+            "a": "pay"
+          },
+          {
+            "s": "A career break can ____ a serious risk to people without savings.",
+            "a": "pose"
+          }
+        ],
+        "extra": [
+          "lend",
+          "deal"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a promotion or a free evening?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the manager",
+      "text": "You want to offer your employee a promotion. It means longer hours and no more free evenings. Explain why they are right for the job. Ask what worries them, and try to find a solution."
+    },
+    "b": {
+      "role": "the employee",
+      "text": "You'd like the promotion, but you volunteer three evenings a week and your work is not the whole of your life. Explain what matters to you and ask for changes."
+    },
+    "phrases": [
+      "Thanks, I'm really pleased you asked.",
+      "I'd love the job, but I'm worried about the hours.",
+      "What matters most to me is my life outside work.",
+      "We're hoping you'll take it on.",
+      "Could we try fewer evenings for a trial period?",
+      "I'll think it over and let you know."
+    ],
+    "after": "Afterwards, tell the class: did you agree, and who gave way more?"
   }
 }

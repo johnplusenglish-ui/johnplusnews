@@ -6,6 +6,7 @@ source: World Health Organization | https://www.who.int/groups/commission-on-soc
 image: images/why-is-making-friends-so-difficult-after-30-2cb5a4.jpg
 image-alt: Four adults laugh around a colourful board game on a white table in a shop lined with shelves of games, two holding cards and one reaching for a piece.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

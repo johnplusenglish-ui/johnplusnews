@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Many of us immediately ____ our phones.",
-            "a": "pull out"
+            "s": "Doctors studied the ____ from many tests before they decided.",
+            "a": "evidence"
           },
           {
-            "s": "We watch a video or ____ social media.",
-            "a": "scroll through"
+            "s": "A long ____ by car can be hard for a young child.",
+            "a": "journey"
           },
           {
-            "s": "There is always something to ____ with.",
-            "a": "pass the time"
+            "s": "From the hotel window, we enjoyed the beautiful ____ of mountains and lakes.",
+            "a": "scenery"
           },
           {
-            "s": "Boredom can encourage us to ____ a new activity.",
-            "a": "take up"
+            "s": "There is more than one possible ____ for why prices rise.",
+            "a": "explanation"
           },
           {
-            "s": "If a moment feels empty, a new video may ____ for a short time.",
-            "a": "take our mind off it"
+            "s": "Phones make it easy to stay in ____ with friends who live far away.",
+            "a": "contact"
           }
         ],
         "extra": [
-          "satisfying",
-          "uncomfortable"
+          "attention",
+          "challenge"
         ]
       },
       "match": [
@@ -52,86 +52,155 @@
         "kind": "verb",
         "items": [
           {
-            "s": "You are ____ for a friend who is ten minutes late.",
+            "s": "My brother ____ me a funny message this morning.",
+            "cue": "send",
+            "a": "sent"
+          },
+          {
+            "s": "Last night I ____ a funny video about cats.",
+            "cue": "see",
+            "a": "saw"
+          },
+          {
+            "s": "My friend ____ ten minutes late yesterday.",
+            "cue": "be",
+            "a": "was"
+          },
+          {
+            "s": "We ____ twenty minutes for the bus this morning.",
             "cue": "wait",
-            "a": "waiting"
+            "a": "waited"
           },
           {
-            "s": "Two psychologists in 2024 ____ evidence that boredom may be increasing.",
-            "cue": "discuss",
-            "a": "discussed"
-          },
-          {
-            "s": "A phone ____ thousands of choices.",
-            "cue": "offer",
-            "a": "offers"
-          },
-          {
-            "s": "We use phones ____ to friends, learn new things and organise our lives.",
-            "cue": "talk",
-            "a": "to talk"
-          },
-          {
-            "s": "Next time you have five empty minutes, you could try ____ your phone away.",
-            "cue": "put",
-            "a": "putting"
+            "s": "She ____ nothing for an hour because she felt tired.",
+            "cue": "do",
+            "a": "did"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The article in Communications Psychology appeared in 2024.",
+          "s": "The two psychologists published their ideas in a journal.",
           "a": "T",
-          "why": "The text says: \"However, two psychologists writing in the journal Communications Psychology in 2024 discussed evidence that boredom may actually be increasing.\""
+          "why": "The text says they wrote in the journal Communications Psychology in 2024."
         },
         {
-          "s": "Different people experience boredom in different ways.",
-          "a": "T",
-          "why": "The text says: \"People do not all feel boredom in the same way.\""
-        },
-        {
-          "s": "Children are more easily bored than adults, according to the study.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether children are more easily bored than adults."
-        },
-        {
-          "s": "The researchers proved that phones cause boredom.",
+          "s": "The researchers proved that phones make every person more bored.",
           "a": "F",
-          "why": "The text says the opposite: \"The researchers were discussing a possible explanation for a bigger change, not proving that every minute online creates boredom.\""
+          "why": "The text says they were not \"proving that every minute online creates boredom\"."
+        },
+        {
+          "s": "The two psychologists work at the same university.",
+          "a": "N",
+          "why": "The text does not say where they work."
+        },
+        {
+          "s": "The text says that a hospital worker always hates quiet time.",
+          "a": "F",
+          "why": "The text says someone in a busy hospital \"may welcome ten quiet minutes\"."
+        },
+        {
+          "s": "The writer says that doing nothing is sometimes the right choice.",
+          "a": "T",
+          "why": "The text says: \"doing nothing is exactly what we need\" at other times."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "psychologists",
+          "d": "scientists who study how people think and feel"
+        },
+        {
+          "t": "digital",
+          "d": "using phones, computers and the internet"
+        },
+        {
+          "t": "entertainment",
+          "d": "things like films, music and games that people enjoy"
+        },
+        {
+          "t": "increasing",
+          "d": "getting bigger or more"
+        },
+        {
+          "t": "ordinary",
+          "d": "normal, not special"
+        },
+        {
+          "t": "lonely",
+          "d": "sad because you are alone or have no friends near"
+        },
+        {
+          "t": "notice",
+          "d": "to see or hear something"
+        },
+        {
+          "t": "organise",
+          "d": "to plan things or put them in a good order"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word such as up or out. Learn the whole phrase together, because the small word changes the meaning.",
+        "items": [
+          {
+            "s": "Anna reached into her bag and pulled ____ her phone.",
+            "a": "out"
+          },
+          {
+            "s": "Boredom may push you to take ____ a new hobby.",
+            "a": "up"
+          },
+          {
+            "s": "She scrolled ____ her friends' photos on the train.",
+            "a": "through"
+          },
+          {
+            "s": "It took me weeks to get used ____ my new job.",
+            "a": "to"
+          },
+          {
+            "s": "Please switch ____ your phone before the film starts.",
+            "a": "off"
+          }
+        ],
+        "extra": [
+          "round",
+          "along"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "For many of us, reaching for a phone has become ____.",
-            "a": "second nature"
+            "s": "She was so ____ in the novel that she missed her stop.",
+            "a": "absorbed"
           },
           {
-            "s": "Short videos encourage us to ____ as soon as our attention weakens.",
-            "a": "move on"
-          },
-          {
-            "s": "Instead of becoming absorbed, we ____ an experience.",
-            "a": "give up on"
-          },
-          {
-            "s": "Boredom depends on whether activities offer ____.",
-            "a": "a sense of purpose"
-          },
-          {
-            "s": "Researchers distinguish an occasional boring moment from ____ boredom that interferes with wellbeing.",
+            "s": "A ____ cough that lasts for months should be checked by a doctor.",
             "a": "persistent"
           },
           {
-            "s": "Being bored is not always a sign that something has ____.",
-            "a": "gone wrong"
+            "s": "Doctors say long periods of ____ can harm a person's mental health.",
+            "a": "isolation"
+          },
+          {
+            "s": "Many people find it hard to ____ long delays at airports.",
+            "a": "tolerate"
+          },
+          {
+            "s": "I could tell his apology was ____; he looked truly sorry.",
+            "a": "genuine"
+          },
+          {
+            "s": "The scientists tested their ____ that sleep improves memory.",
+            "a": "hypothesis"
           }
         ],
         "extra": [
-          "keeping up with",
-          "unbearable"
+          "novelty",
+          "stimulating"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Their article presents an ____ of existing research.",
-            "cue": "INTERPRET",
-            "a": "interpretation"
+            "s": "By the time the bus arrived, we ____ for forty minutes.",
+            "cue": "wait",
+            "a": "had been waiting|had waited"
           },
           {
-            "s": "Having unlimited alternatives makes an activity feel ____.",
-            "cue": "DISAPPOINT",
-            "a": "disappointing"
+            "s": "In many schools, phones ____ during lessons.",
+            "cue": "ban",
+            "a": "are banned"
           },
           {
-            "s": "Boredom is influenced by emotional health and ____.",
-            "cue": "ISOLATE",
-            "a": "isolation"
+            "s": "If she ____ her phone at home, she would have chatted to the stranger next to her.",
+            "cue": "leave",
+            "a": "had left"
           },
           {
-            "s": "Instead of becoming absorbed, we look around for something more ____.",
-            "cue": "STIMULATE",
-            "a": "stimulating"
+            "s": "At nine last night, he ____ a film on his phone.",
+            "cue": "watch",
+            "a": "was watching"
           },
           {
-            "s": "The hypothesis questions a pattern of ____ consumption.",
-            "cue": "AUTOMATE",
-            "a": "automatic"
+            "s": "I ____ my phone every few minutes, but now I check it twice a day.",
+            "cue": "check",
+            "a": "used to check|would check"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Katy Tam and Michael Inzlicht wrote the 2024 perspective article.",
-          "a": "T",
-          "why": "The text says: \"In a 2024 perspective article for Communications Psychology, researchers Katy Tam and Michael Inzlicht discussed evidence of rising boredom and proposed a possible explanation: digital media may sometimes make boredom worse instead of relieving it.\""
-        },
-        {
-          "s": "The article proves smartphones cause a worldwide rise in boredom.",
+          "s": "Tam and Inzlicht based their article on a new experiment of their own.",
           "a": "F",
-          "why": "The text says the opposite: \"Their article presents an interpretation of existing research, not a single experiment proving that smartphones cause a worldwide increase.\""
+          "why": "The text says it is an interpretation of existing research, not \"a single experiment\"."
         },
         {
-          "s": "The writers distinguish occasional boredom from persistent boredom.",
+          "s": "The writers think boredom can sometimes be a useful signal.",
           "a": "T",
-          "why": "The text says: \"Researchers distinguish between an occasional boring moment and persistent boredom that interferes with wellbeing.\""
+          "why": "The text says an occasional boring moment \"may signal a need for a new activity\"."
         },
         {
-          "s": "Boredom has risen fastest among teenagers.",
+          "s": "The text says how many hours a day the average person spends on a phone.",
           "a": "N",
-          "why": "Not stated. The text does not say which age group has become most bored."
+          "why": "No figure for daily phone use is given anywhere in the text."
+        },
+        {
+          "s": "The same phone could have opposite effects on two different people.",
+          "a": "T",
+          "why": "One person may be connected to friends, while another may avoid activities they would enjoy more."
+        },
+        {
+          "s": "The writers' main advice is that everybody should spend less time on screens.",
+          "a": "F",
+          "why": "The text says the hypothesis \"should not become a rule that everybody needs less screen time\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "perspective",
+          "d": "a piece of writing that gives an expert's view on a subject"
+        },
+        {
+          "t": "meaningful",
+          "d": "important and worth doing"
+        },
+        {
+          "t": "wellbeing",
+          "d": "how happy, healthy and comfortable you feel"
+        },
+        {
+          "t": "expectations",
+          "d": "what you believe will happen or should happen"
+        },
+        {
+          "t": "circumstances",
+          "d": "the facts and conditions of a situation"
+        },
+        {
+          "t": "distinguish",
+          "d": "to see or show the difference between two things"
+        },
+        {
+          "t": "consume",
+          "d": "to use, read or watch something"
+        },
+        {
+          "t": "daydreaming",
+          "d": "thinking about nice things instead of what is around you"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "The small word often changes the meaning completely. Choose the verb that matches the meaning, then check its form and whether the phrase takes an object.",
+        "items": [
+          {
+            "s": "After a few seconds, most viewers ____ on to another video.",
+            "a": "moved"
+          },
+          {
+            "s": "When we feel bored, we often ____ around for something more exciting.",
+            "a": "look"
+          },
+          {
+            "s": "I decided to ____ my phone away and enjoy the view.",
+            "a": "put"
+          },
+          {
+            "s": "Cleaning the shelf, she ____ across an old photograph.",
+            "a": "came"
+          },
+          {
+            "s": "They ____ up a book club that meets every Sunday.",
+            "a": "set"
+          }
+        ],
+        "extra": [
+          "stayed",
+          "felt"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Whenever boredom appears, we can ____ an almost limitless supply of stimulation.",
-            "a": "summon"
+            "s": "No policy can ____ every risk; the best we can do is reduce it.",
+            "a": "eliminate"
           },
           {
-            "s": "The phone offers an ____ escape from the moment.",
-            "a": "effortless"
+            "s": "It is a ____ that the busiest cities can also be the loneliest places to live.",
+            "a": "paradox"
           },
           {
-            "s": "Their argument is a ____ hypothesis, not definitive evidence of a single cause.",
-            "a": "research-informed"
+            "s": "Until the trial ends, there is no ____ proof that the drug works.",
+            "a": "definitive"
           },
           {
-            "s": "We move on before boredom can ____.",
-            "a": "set in"
+            "s": "A single average can ____ how unevenly wealth is spread.",
+            "a": "obscure"
           },
           {
-            "s": "Brief periods without stimulation may reveal ____.",
-            "a": "unmet needs"
+            "s": "A minor setback can ____ managers to rethink an entire strategy.",
+            "a": "prompt"
           },
           {
-            "s": "None of this requires a ____ digital detox.",
-            "a": "heroic"
+            "s": "Learning a language needs ____ effort over many months, not occasional bursts.",
+            "a": "sustained"
           }
         ],
         "extra": [
-          "habitual",
-          "interchangeable"
+          "distressing",
+          "meaningless"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Someone can be busy yet deeply bored if their activities feel ____.",
-            "cue": "MEANING",
-            "a": "meaningless"
+            "s": "The ____ of the findings was questioned by several reviewers.",
+            "cue": "RELIABLE",
+            "a": "reliability"
           },
           {
-            "s": "Digital platforms often reward rapid ____.",
-            "cue": "SWITCH",
-            "a": "switching"
+            "s": "Her ____ to answer messages drove her colleagues mad.",
+            "cue": "WILLING",
+            "a": "unwillingness"
           },
           {
-            "s": "Persistent boredom can be ____.",
-            "cue": "DISTRESS",
-            "a": "distressing"
+            "s": "Researchers warned that the headline figure could be ____ if the sample was too small.",
+            "cue": "MISLEAD",
+            "a": "misleading"
           },
           {
-            "s": "The same platform can provide relief or an ____ sequence of distractions.",
-            "cue": "SATISFY",
-            "a": "unsatisfying"
+            "s": "The study's ____ lies in how it combines two separate fields.",
+            "cue": "ORIGINAL",
+            "a": "originality"
           },
           {
-            "s": "Deliberate ____ in a creative project may help.",
-            "cue": "PARTICIPATE",
-            "a": "participation"
+            "s": "A ____ approach to the problem would ignore many causes.",
+            "cue": "SIMPLE",
+            "a": "simplistic"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The researchers recommend a daily limit on phone use.",
-          "a": "N",
-          "why": "Not stated. The text does not say that the researchers recommend any daily limit on phone use."
-        },
-        {
-          "s": "The writers suggest digital media may contribute to the feeling it promises to remove.",
+          "s": "The writers would accept that a person with a full diary could still be bored.",
           "a": "T",
-          "why": "The text says: \"In a 2024 perspective published in Communications Psychology, Katy Tam and Michael Inzlicht examined this paradox and proposed that digital media might contribute to the very feeling it promises to eliminate.\""
+          "why": "The text says \"someone can be busy yet deeply bored if their activities feel meaningless\"."
         },
         {
-          "s": "Someone can be busy and still feel deeply bored.",
-          "a": "T",
-          "why": "The text says: \"Someone can be busy yet deeply bored if their activities feel meaningless.\""
-        },
-        {
-          "s": "All screen time has the same effect on boredom.",
+          "s": "The article claims that screen time of any kind makes people more bored.",
           "a": "F",
-          "why": "The text says the opposite: \"Treating all screen time as interchangeable obscures those differences and risks replacing one simplistic explanation with another.\""
+          "why": "It says the problem is not that entertainment is \"uniquely harmful\" and that treating all screen time alike \"obscures\" differences."
+        },
+        {
+          "s": "The article suggests that boredom is more common among teenagers than among older adults.",
+          "a": "N",
+          "why": "A teenager is mentioned as an example, but no age comparison is made."
+        },
+        {
+          "s": "The writer implies that the same platform could help one person and disappoint another.",
+          "a": "T",
+          "why": "The same platform can \"provide relief, meaningful engagement or an unsatisfying sequence of distractions\"."
+        },
+        {
+          "s": "The text argues that earlier generations were more attentive than people today.",
+          "a": "F",
+          "why": "It says earlier generations \"did not automatically lead richer, more attentive lives\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "stimulation",
+          "d": "things that keep your mind interested and active"
+        },
+        {
+          "t": "summon",
+          "d": "to make something appear or come when you want it"
+        },
+        {
+          "t": "disengaging",
+          "d": "stopping paying attention to something"
+        },
+        {
+          "t": "conversely",
+          "d": "used to introduce the opposite of what you just said"
+        },
+        {
+          "t": "nostalgia",
+          "d": "a warm feeling about the past, often making it seem better than it was"
+        },
+        {
+          "t": "hypothesis",
+          "d": "an idea that has been suggested but not yet proved"
+        },
+        {
+          "t": "tolerance",
+          "d": "the ability to accept something unpleasant without becoming upset"
+        },
+        {
+          "t": "passive",
+          "d": "taking no active part, just receiving"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs at this level are not literal. Check which verb carries the meaning, and adjust its form: a gerund after a preposition, or a base verb after to.",
+        "items": [
+          {
+            "s": "Many apps ____ on our fear of missing out.",
+            "a": "play"
+          },
+          {
+            "s": "He tried to ____ off the criticism with a joke.",
+            "a": "brush"
+          },
+          {
+            "s": "Researchers have yet to ____ out whether the effect lasts.",
+            "a": "figure"
+          },
+          {
+            "s": "Many users ____ into the habit of checking their phones without noticing.",
+            "a": "slip"
+          },
+          {
+            "s": "Rather than ____ on past mistakes, she tried to look forward.",
+            "a": "dwelling"
+          }
+        ],
+        "extra": [
+          "cling",
+          "stem"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a phone-free evening",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the housemate with an idea",
+      "text": "You think you both spend too much time on your phones. Suggest a phone-free evening once a week. Explain why, and offer ideas for things to do instead."
+    },
+    "b": {
+      "role": "the housemate who loves their phone",
+      "text": "You use your phone to talk to friends and to relax after work. You're not sure about the idea. Ask questions, say what worries you, and try to agree on a compromise."
+    },
+    "phrases": [
+      "I'd like to try something different.",
+      "What would we do instead?",
+      "I'm not sure that's a good idea.",
+      "I use my phone to keep in touch.",
+      "How about two hours, not the whole evening?",
+      "Okay, let's give it a go."
+    ],
+    "after": "Afterwards, tell the class: did you agree on a plan, and what was the compromise?"
   }
 }

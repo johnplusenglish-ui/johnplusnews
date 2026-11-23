@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Holbox is an island where tourists come for nature and ____.",
-            "a": "a slower pace"
+            "s": "The travel company made a ____ about next year's holidays, but it may be wrong.",
+            "a": "prediction"
           },
           {
-            "s": "Before choosing a trending destination, it is sensible to ____.",
-            "a": "do your homework"
+            "s": "Buses and trains that run often make a town ____ for visitors without a car.",
+            "a": "convenient"
           },
           {
-            "s": "____ whether local buses and trains are convenient.",
-            "a": "Find out"
+            "s": "Too many visitors can put ____ on the environment.",
+            "a": "pressure"
           },
           {
-            "s": "A famous restaurant may be ____ months in advance.",
-            "a": "fully booked"
+            "s": "We cannot spend much, so we must stay within our ____.",
+            "a": "budget"
           },
           {
-            "s": "A beautiful island may be hard to ____.",
-            "a": "get to"
+            "s": "A quiet town may ____ you better than a busy capital.",
+            "a": "suit"
           }
         ],
         "extra": [
-          "pick up",
-          "crowded"
+          "souvenir",
+          "scenic"
         ]
       },
       "match": [
@@ -57,9 +57,9 @@
             "a": "published"
           },
           {
-            "s": "Busan ____ for beaches, markets and city life.",
-            "cue": "know",
-            "a": "is known"
+            "s": "Last year, my friends ____ a week in Busan.",
+            "cue": "spend",
+            "a": "spent"
           },
           {
             "s": "Searches do not prove that millions of tourists ____ next year.",
@@ -98,8 +98,77 @@
           "s": "Expedia compared interest on its own platforms with an earlier period.",
           "a": "T",
           "why": "The text says: \"Expedia compared interest on its own platforms with the previous period.\""
+        },
+        {
+          "s": "Expedia only looked at searches for flights.",
+          "a": "F",
+          "why": "The text says the list was based on \"searches for flights and places to stay\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "destinations",
+          "d": "places that people travel to"
+        },
+        {
+          "t": "platforms",
+          "d": "websites or apps where you can search or buy things"
+        },
+        {
+          "t": "peaceful",
+          "d": "quiet and calm"
+        },
+        {
+          "t": "environment",
+          "d": "the air, water, land and nature around us"
+        },
+        {
+          "t": "festivals",
+          "d": "big events with music, food or celebrations"
+        },
+        {
+          "t": "sensible",
+          "d": "showing good judgement and not taking silly risks"
+        },
+        {
+          "t": "waste",
+          "d": "things you throw away because you do not need them"
+        },
+        {
+          "t": "unnecessary",
+          "d": "not needed"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some words always go with the same small word. Learn them as a pair, for example known for and depends on.",
+        "items": [
+          {
+            "s": "Busan is known ____ its beaches and markets.",
+            "a": "for"
+          },
+          {
+            "s": "You should look ____ the weather before you book.",
+            "a": "at"
+          },
+          {
+            "s": "The island is full ____ small shops and quiet cafes.",
+            "a": "of"
+          },
+          {
+            "s": "Many travellers are interested ____ visiting quieter places.",
+            "a": "in"
+          },
+          {
+            "s": "Whether the beach is nice depends ____ the weather.",
+            "a": "on"
+          }
+        ],
+        "extra": [
+          "under",
+          "through"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
@@ -109,29 +178,29 @@
             "a": "supposedly"
           },
           {
-            "s": "A city may suddenly ____ everywhere online after a popular film.",
-            "a": "pop up"
+            "s": "The island's ____ was built for a few hundred people, so roads and water supply now struggle.",
+            "a": "infrastructure"
           },
           {
-            "s": "The numbers ____ before anybody books a flight.",
-            "a": "deserve careful reading"
+            "s": "The village received a ____ number of visitors this summer, far more than usual.",
+            "a": "significant"
           },
           {
-            "s": "Sudden popularity can ____ accommodation costs.",
-            "a": "push up"
+            "s": "The mayor ____ housing costs as the biggest worry in the town.",
+            "a": "highlighted"
           },
           {
-            "s": "It is worth ____ transport options and seasonal crowding.",
-            "a": "looking into"
+            "s": "A company's ____ interests may differ from those of a local community.",
+            "a": "commercial"
           },
           {
-            "s": "The description ____ can be misleading.",
-            "a": "hidden gem"
+            "s": "Visitors should be able to ____ the old town without queuing for hours.",
+            "a": "access"
           }
         ],
         "extra": [
-          "lively",
-          "rewarding"
+          "promote",
+          "underestimate"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The list reflects growing ____ about a variety of places.",
-            "cue": "CURIOUS",
-            "a": "curiosity"
+            "s": "By the time the report appeared, many travellers ____ their holidays.",
+            "cue": "book",
+            "a": "had booked"
           },
           {
-            "s": "What makes a location suddenly ____?",
-            "cue": "ATTRACT",
-            "a": "attractive"
+            "s": "In October 2026, Busan ____ as a destination by Expedia.",
+            "cue": "identify",
+            "a": "was identified"
           },
           {
-            "s": "Expedia's report looked at searches for flights and ____.",
-            "cue": "ACCOMMODATE",
-            "a": "accommodation"
+            "s": "If we ____ about the crowds, we would have chosen another month.",
+            "cue": "know",
+            "a": "had known"
           },
           {
-            "s": "Following a trend can leave people ____.",
-            "cue": "DISAPPOINT",
-            "a": "disappointed"
+            "s": "The cost of accommodation ____ three times this year.",
+            "cue": "rise",
+            "a": "has risen"
           },
           {
-            "s": "Local authorities may worry about housing costs and ____ damage.",
-            "cue": "ENVIRONMENT",
-            "a": "environmental"
+            "s": "It is worth ____ into transport options before you book.",
+            "cue": "look",
+            "a": "looking"
           }
         ]
       },
@@ -194,48 +263,117 @@
           "why": "The text says the opposite: \"Some are already famous, while others have spent years outside the international spotlight.\""
         },
         {
-          "s": "Expedia's Unpack '27 report was released in October 2026.",
+          "s": "The writer suggests that a destination's popularity can be a problem for the people who live there.",
           "a": "T",
-          "why": "The text says: \"Expedia's Unpack '27 report, released in October 2026, identified destinations where searches for flights and accommodation had grown compared with the previous period.\""
+          "why": "The text says: \"Local authorities may welcome extra visitors while worrying about housing costs and environmental damage.\""
         },
         {
           "s": "Expedia has published the same list for five years.",
           "a": "N",
           "why": "Not stated. The text does not say how long Expedia has published such lists."
+        },
+        {
+          "s": "Expedia's report measured how many people actually travelled to the destinations.",
+          "a": "F",
+          "why": "The report compared searches, and the text says rising interest \"does not necessarily translate into completed bookings or future arrivals\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "spotlight",
+          "d": "public attention"
+        },
+        {
+          "t": "buzz",
+          "d": "excited talk about something new"
+        },
+        {
+          "t": "accommodation",
+          "d": "a place to stay, such as a hotel"
+        },
+        {
+          "t": "curiosity",
+          "d": "a strong wish to learn or know something"
+        },
+        {
+          "t": "appeal",
+          "d": "to be attractive or interesting to someone"
+        },
+        {
+          "t": "atmosphere",
+          "d": "the feeling of a place"
+        },
+        {
+          "t": "seasonal",
+          "d": "happening in one part of the year"
+        },
+        {
+          "t": "authorities",
+          "d": "the people or groups in charge of a place"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many verbs and adjectives take a fixed preposition. Learn the whole phrase, such as translate into or differ from.",
+        "items": [
+          {
+            "s": "Some travellers worry ____ how crowded a place will be.",
+            "a": "about"
+          },
+          {
+            "s": "Rising interest does not always translate ____ bookings.",
+            "a": "into"
+          },
+          {
+            "s": "Sudden popularity can put pressure ____ local roads.",
+            "a": "on"
+          },
+          {
+            "s": "Tourism is responsible ____ thousands of local jobs.",
+            "a": "for"
+          },
+          {
+            "s": "A trip chosen from a list may differ ____ one chosen for your own reasons.",
+            "a": "from"
+          }
+        ],
+        "extra": [
+          "at",
+          "by"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "A new travel report puts places such as Busan and Perugia ____.",
-            "a": "in the spotlight"
-          },
-          {
-            "s": "Rising demand may benefit hotels and restaurants but can also ____ housing and transport.",
+            "s": "The sudden rise in visitors began to ____ the island's already limited water supply.",
             "a": "strain"
           },
           {
-            "s": "Predictions have a way of becoming ____.",
-            "a": "self-fulfilling"
+            "s": "A ____ share of the town's income now comes from tourism, so any fall in visitors would hurt.",
+            "a": "substantial"
           },
           {
-            "s": "The report used ____ in flight and accommodation searches.",
-            "a": "year-on-year growth"
+            "s": "The 2026 figure only means something when set against the ____ figure for 2025.",
+            "a": "corresponding"
           },
           {
-            "s": "Readers can use these lists as ____ while checking seasonal conditions and local concerns.",
-            "a": "a starting point"
+            "s": "Investors are watching ____ destinations that have not yet appeared on mainstream tourist maps.",
+            "a": "emerging"
           },
           {
-            "s": "Popularity alone is ____ understanding a place.",
-            "a": "a poor substitute for"
+            "s": "A single viral video often ____ more interest than a year of advertising.",
+            "a": "generates"
+          },
+          {
+            "s": "Residents argue that the town has reached its ____ for visitors and cannot take any more.",
+            "a": "capacity"
           }
         ],
         "extra": [
-          "weigh up",
-          "impartial"
+          "dismiss",
+          "reluctant"
         ]
       },
       "match": [
@@ -260,29 +398,29 @@
         "kind": "word",
         "items": [
           {
-            "s": "The ____ range is part of the appeal.",
-            "cue": "GEOGRAPHY",
-            "a": "geographical"
+            "s": "Critics question the ____ of rankings based only on search data.",
+            "cue": "RELIABLE",
+            "a": "reliability"
           },
           {
-            "s": "The report's ____ is essential to understanding its claims.",
-            "cue": "METHOD",
-            "a": "methodology"
+            "s": "The new air route has made the region far more ____ to visitors.",
+            "cue": "ACCESS",
+            "a": "accessible"
           },
           {
-            "s": "Publicity can ____ visitor pressure rather than reduce it.",
-            "cue": "DIRECT",
-            "a": "redirect"
+            "s": "Local campaigners are ____ about plans to double hotel capacity.",
+            "cue": "SCEPTIC",
+            "a": "sceptical"
           },
           {
-            "s": "Such places are not necessarily ____; many already have substantial tourism economies.",
-            "cue": "DISCOVER",
-            "a": "undiscovered"
+            "s": "A ____ rise in rents followed the festival.",
+            "cue": "DRAMA",
+            "a": "dramatic"
           },
           {
-            "s": "Search growth measures changing interest, but that does not make the data ____.",
-            "cue": "WORTH",
-            "a": "worthless"
+            "s": "Councils must ensure that growth remains ____ in the long term.",
+            "cue": "SUSTAIN",
+            "a": "sustainable"
           }
         ]
       },
@@ -293,21 +431,111 @@
           "why": "Not stated. The text says nothing about tourist taxes in Perugia."
         },
         {
-          "s": "A percentage increase shows global visitor numbers.",
+          "s": "The destination with the fastest search growth necessarily receives the most visitors.",
           "a": "F",
-          "why": "The text says the opposite: \"A percentage increase measures changes in interest within that system, not global visitor numbers or a guarantee of future popularity.\""
+          "why": "The text says: \"A smaller destination may show a dramatic growth rate without attracting more tourists than a major capital.\""
         },
         {
-          "s": "Expedia compared searches from September 2025 to July 2026 with an earlier period.",
+          "s": "The writer suggests that publicising lesser-known places could simply move crowding elsewhere.",
           "a": "T",
-          "why": "The text says: \"Expedia compared searches on its platforms from September 2025 to July 2026 against the corresponding earlier period.\""
+          "why": "The text says: \"Publicity can redirect visitor pressure rather than reduce it.\""
         },
         {
-          "s": "Vehicle access is limited on Holbox.",
+          "s": "The period Expedia compared had ended before the report was published.",
           "a": "T",
-          "why": "The text says: \"Holbox promises a different pace on an island where vehicle access is limited.\""
+          "why": "The searches ran from September 2025 to July 2026, and the report appeared in October 2026."
+        },
+        {
+          "s": "The writer recommends ignoring trending lists altogether.",
+          "a": "F",
+          "why": "The text says: \"Readers can use these lists as a starting point while checking seasonal conditions, local concerns and what they actually enjoy.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "self-fulfilling",
+          "d": "coming true because people expect it to"
+        },
+        {
+          "t": "spotlight",
+          "d": "public attention"
+        },
+        {
+          "t": "methodology",
+          "d": "the methods used to collect and study information"
+        },
+        {
+          "t": "redirect",
+          "d": "to send something in a new direction"
+        },
+        {
+          "t": "metropolitan",
+          "d": "connected with a large, busy city"
+        },
+        {
+          "t": "fashionable",
+          "d": "popular at a particular time"
+        },
+        {
+          "t": "infrastructure",
+          "d": "the basic systems of a place, such as roads and water"
+        },
+        {
+          "t": "undiscovered",
+          "d": "not yet found or known by many people"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Formal writing relies on fixed phrases. Learn the preposition with the whole phrase, such as attributable to or beyond recognition.",
+        "items": [
+          {
+            "s": "Some critics accuse travel lists ____ oversimplifying complex trends.",
+            "a": "of"
+          },
+          {
+            "s": "Quiet places are often marketed ____ an alternative to the major capitals.",
+            "a": "as"
+          },
+          {
+            "s": "Rising rents are partly attributable ____ short-term holiday lets.",
+            "a": "to"
+          },
+          {
+            "s": "Some neighbourhoods have been transformed ____ recognition by tourism.",
+            "a": "beyond"
+          },
+          {
+            "s": "The risk lies ____ treating a search figure as proof of popularity.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "against",
+          "towards"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: choosing the holiday",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the trend follower",
+      "text": "You have seen a list of fast-growing destinations. You want to book a week in one of them. Explain why it excites you and answer your friend's worries."
+    },
+    "b": {
+      "role": "the careful planner",
+      "text": "You think a trending place may be busy and expensive. Ask questions about prices, crowds and transport. Suggest a different place, or a different month."
+    },
+    "phrases": [
+      "I've just seen a list of places everyone's searching for.",
+      "It looks amazing, but isn't it going to be crowded?",
+      "What's the weather like at that time of year?",
+      "I'd rather go somewhere quieter.",
+      "Let's compare the prices before we decide.",
+      "Could we meet halfway and go in September?"
+    ],
+    "after": "Afterwards, tell the class: where are you going, and who changed their mind?"
   }
 }

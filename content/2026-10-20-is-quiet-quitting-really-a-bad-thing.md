@@ -7,6 +7,7 @@ source: Gallup | https://www.gallup.com/workplace/349484/state-of-the-global-wor
 image: images/is-quiet-quitting-really-a-bad-thing-fbb0b0.jpg
 image-alt: A woman in a coral shirt closes her laptop and lifts her blue coat from a chair in an open-plan office while a colleague at the next desk carries on typing.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "It is ____ and one partner lies awake, exhausted.",
-            "a": "the middle of the night"
+            "s": "The baby cried all night, so both parents felt ____ the next morning.",
+            "a": "exhausted"
           },
           {
-            "s": "Some couples sleep in different beds so they can ____ and feel rested.",
-            "a": "get a good night's sleep"
+            "s": "We keep a ____ key under the flowerpot in case we get locked out.",
+            "a": "spare"
           },
           {
-            "s": "They may love each other and enjoy ____ during the day.",
-            "a": "spending time together"
+            "s": "Nobody wants to buy a bigger flat if it is too ____.",
+            "a": "expensive"
           },
           {
-            "s": "Serious snoring may ____ rather than a different bedroom.",
-            "a": "need medical attention"
+            "s": "Using earplugs is a ____ way to cope with noise, and it costs very little.",
+            "a": "practical"
           },
           {
-            "s": "Good relationships involve ____ each other.",
-            "a": "looking after"
+            "s": "Parents are ____ for keeping their children safe.",
+            "a": "responsible"
           }
         ],
         "extra": [
-          "turn over",
-          "separate"
+          "medical",
+          "romantic"
         ]
       },
       "match": [
@@ -87,7 +87,7 @@
         {
           "s": "Most couples who try separate rooms go back to sharing.",
           "a": "N",
-          "why": "Not stated. The text does not say whether couples who try separate rooms go back to sharing."
+          "why": "The text does not say whether couples who try separate rooms go back to sharing."
         },
         {
           "s": "Couples who sleep separately have not ended their relationship.",
@@ -98,40 +98,109 @@
           "s": "Using different blankets is one way couples might solve a problem.",
           "a": "T",
           "why": "The text says: \"Different blankets might help.\""
+        },
+        {
+          "s": "Headphones are one idea for a person who cannot sleep because of a television.",
+          "a": "T",
+          "why": "The text says: \"headphones or watching in another room may be an option.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "snoring",
+          "d": "the loud noise some people make through their nose or mouth when they sleep"
+        },
+        {
+          "t": "habits",
+          "d": "things you do often, without thinking about it"
+        },
+        {
+          "t": "arguments",
+          "d": "angry talks between people who do not agree"
+        },
+        {
+          "t": "comfort",
+          "d": "a nice, safe and relaxed feeling"
+        },
+        {
+          "t": "survey",
+          "d": "a set of questions asked to many people to find out what they think or do"
+        },
+        {
+          "t": "connected",
+          "d": "close to another person, with a good feeling between you"
+        },
+        {
+          "t": "disaster",
+          "d": "something very bad that happens"
+        },
+        {
+          "t": "energy",
+          "d": "the strength you need to do things"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb with a small word like up or back. The small word changes the meaning, so learn the two words together.",
+        "items": [
+          {
+            "s": "The baby turned ____ onto her back.",
+            "a": "over"
+          },
+          {
+            "s": "I woke ____ when my neighbour's alarm rang.",
+            "a": "up"
+          },
+          {
+            "s": "Some couples sleep ____ but stay close in other ways.",
+            "a": "apart"
+          },
+          {
+            "s": "My son moves ____ a lot in his sleep.",
+            "a": "around"
+          },
+          {
+            "s": "Many couples go ____ to sharing a bed after a few weeks.",
+            "a": "back"
+          }
+        ],
+        "extra": [
+          "off",
+          "through"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Bedtime can ____ a negotiation about windows and alarms.",
-            "a": "turn into"
-          },
-          {
-            "s": "A well-rested person is less likely to feel ____ or snap at a partner.",
+            "s": "After three nights of broken sleep, she became so ____ that she snapped at her colleagues over small things.",
             "a": "irritable"
           },
           {
-            "s": "Relatives might see separate bedrooms as ____.",
-            "a": "a sign of trouble"
+            "s": "She felt ____ when the noisy builders finally left, and she slept well that night.",
+            "a": "relieved"
           },
           {
-            "s": "Couples often simply have to ____ the disturbance.",
-            "a": "put up with"
+            "s": "Buying a second home so each partner has a bedroom is ____ for most families.",
+            "a": "unrealistic"
           },
           {
-            "s": "Agreed rules may involve ____ screens late at night.",
-            "a": "cutting down on"
+            "s": "Her son was too ____ to go to school, so she took him to the doctor.",
+            "a": "unwell"
           },
           {
-            "s": "Snoring is not something a person can control ____.",
-            "a": "through willpower"
+            "s": "For many people, losing a parent is an ____ experience.",
+            "a": "emotional"
+          },
+          {
+            "s": "The rash was only a symptom; the ____ problem was an allergy.",
+            "a": "underlying"
           }
         ],
         "extra": [
-          "carry out",
-          "restless"
+          "successful",
+          "interrupted"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Reasons include ____ room temperatures and noise.",
-            "cue": "CONFLICT",
-            "a": "conflicting"
+            "s": "By the time her partner came to bed, she ____ asleep.",
+            "cue": "fall",
+            "a": "had fallen"
           },
           {
-            "s": "Separate beds can reduce opportunities for ____.",
-            "cue": "CLOSE",
-            "a": "closeness"
+            "s": "Earplugs ____ by many couples as a simple solution.",
+            "cue": "use",
+            "a": "are used"
           },
           {
-            "s": "Loud snoring may indicate a condition requiring ____.",
-            "cue": "ASSESS",
-            "a": "assessment"
+            "s": "If he wears earplugs tonight, he ____ better.",
+            "cue": "sleep",
+            "a": "will sleep"
           },
           {
-            "s": "There are ____ issues to consider.",
-            "cue": "MEDICINE",
-            "a": "medical"
+            "s": "The couple ____ separate rooms last year and say they feel happier.",
+            "cue": "choose",
+            "a": "chose"
           },
           {
-            "s": "Moving house purely to improve sleep is financially ____.",
-            "cue": "REAL",
-            "a": "unrealistic"
+            "s": "Noise from the street ____ them awake since they moved in.",
+            "cue": "keep",
+            "a": "has kept"
           }
         ]
       },
@@ -186,7 +255,7 @@
         {
           "s": "Younger couples are more likely to sleep apart.",
           "a": "N",
-          "why": "Not stated. The text does not say which age groups are more likely to sleep apart."
+          "why": "The text does not say which age groups are more likely to sleep apart."
         },
         {
           "s": "The survey in the report came from an American sleep medicine organisation.",
@@ -202,40 +271,109 @@
           "s": "Some couples cannot sleep in separate rooms.",
           "a": "T",
           "why": "The text says: \"Separate bedrooms are not an option for everybody.\""
+        },
+        {
+          "s": "The text suggests that moving to a bigger home is an easy answer for many families.",
+          "a": "F",
+          "why": "The text says moving house for sleep is \"financially unrealistic for many families\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "symbol",
+          "d": "a thing that stands for an idea or a feeling"
+        },
+        {
+          "t": "intimacy",
+          "d": "a very close and loving feeling between two people"
+        },
+        {
+          "t": "negotiation",
+          "d": "a talk in which people try to reach an agreement"
+        },
+        {
+          "t": "tension",
+          "d": "a feeling of worry or anger between people"
+        },
+        {
+          "t": "disturbance",
+          "d": "something that interrupts your rest or quiet"
+        },
+        {
+          "t": "accusations",
+          "d": "statements that say someone did something wrong"
+        },
+        {
+          "t": "willpower",
+          "d": "the strong mind that helps you control what you do"
+        },
+        {
+          "t": "indicate",
+          "d": "to show that something is probably true"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs have a meaning you cannot guess from the parts. Check that the particle matches the whole idea, such as work out for solve.",
+        "items": [
+          {
+            "s": "After years of broken sleep, they finally worked ____ a routine that suited them both.",
+            "a": "out"
+          },
+          {
+            "s": "A warm shower can help people calm ____ before bed.",
+            "a": "down"
+          },
+          {
+            "s": "He was afraid to bring ____ the subject of snoring.",
+            "a": "up"
+          },
+          {
+            "s": "After a month apart, they decided to go ____ to sharing a room.",
+            "a": "back"
+          },
+          {
+            "s": "He hoped the problem would simply go ____.",
+            "a": "away"
+          }
+        ],
+        "extra": [
+          "over",
+          "along"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The other partner ____ clinging to the edge of the mattress.",
-            "a": "ends up"
+            "s": "Blinking is largely ____: we do it thousands of times a day without ever deciding to.",
+            "a": "involuntary"
           },
           {
-            "s": "Reporting on the survey suggested that the practice was ____, rather than unusual.",
-            "a": "far from exceptional"
+            "s": "A curfew ____ by one flatmate on all the others is unlikely to last long.",
+            "a": "imposed"
           },
           {
-            "s": "There is ____ in its favour.",
-            "a": "a plausible argument"
+            "s": "Cost should not be the ____ criterion when a family chooses a school.",
+            "a": "sole"
           },
           {
-            "s": "The underlying cause should not be ____.",
-            "a": "brushed aside"
+            "s": "Rumours are ____ believed when they confirm what people already suspect.",
+            "a": "readily"
           },
           {
-            "s": "What matters is whether both partners ____.",
-            "a": "have a say"
+            "s": "A persistent cough may be ____ by a fever, in which case a doctor should be consulted.",
+            "a": "accompanied"
           },
           {
-            "s": "Couples should avoid making physical proximity ____.",
-            "a": "the sole measure of affection"
+            "s": "By ____ the cuts as efficiency savings, the minister hoped to escape criticism.",
+            "a": "framing"
           }
         ],
         "extra": [
-          "look into",
-          "involuntary"
+          "binary",
+          "intimate"
         ]
       },
       "match": [
@@ -260,11 +398,6 @@
         "kind": "word",
         "items": [
           {
-            "s": "Even separate beds may be ____.",
-            "cue": "PRACTICAL",
-            "a": "impractical"
-          },
-          {
             "s": "Physical closeness can also be ____.",
             "cue": "ASSURE",
             "a": "reassuring"
@@ -283,31 +416,126 @@
             "s": "Housing conditions complicate the ____ presentation of the idea.",
             "cue": "FASHION",
             "a": "fashionable"
+          },
+          {
+            "s": "The findings have wider ____ for how couples think about intimacy.",
+            "cue": "IMPLY",
+            "a": "implications"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The writer says the popularity of a phrase does not prove it improves relationships.",
+          "s": "The writer would still call a couple close if they slept in different rooms.",
           "a": "T",
-          "why": "The text says: \"Yet the popularity of a phrase does not establish whether the arrangement improves relationships or how widely it occurs outside the surveyed population.\""
+          "why": "The text says two people can \"sleep in different rooms and maintain a close partnership\"."
         },
         {
-          "s": "Sleep clinics now advise separate bedrooms for snorers.",
-          "a": "N",
-          "why": "Not stated. The text does not mention sleep clinics or what they advise."
-        },
-        {
-          "s": "Many couples do not have enough room to sleep apart.",
-          "a": "T",
-          "why": "The text says: \"Separate rooms require space that many couples, particularly those facing high rents or crowded housing, simply do not have.\""
-        },
-        {
-          "s": "A separate-bedroom arrangement is the same whether one partner imposes it or both discuss it.",
+          "s": "According to the text, couples who share a bed are always emotionally close.",
           "a": "F",
-          "why": "The text says the opposite: \"Separate bedrooms imposed by one person are different from a decision discussed openly, with closeness maintained in other ways.\""
+          "why": "The text says two people \"can share a bed and feel emotionally distant\"."
+        },
+        {
+          "s": "Couples who sleep in separate beds divorce less often than those who share.",
+          "a": "N",
+          "why": "The text gives no figures about divorce or separation rates."
+        },
+        {
+          "s": "Sleeping apart is likely to be easier for couples who live in larger homes.",
+          "a": "T",
+          "why": "The text says separate rooms \"require space that many couples ... simply do not have\"."
+        },
+        {
+          "s": "The writer believes that separate bedrooms fully solve the problem of loud snoring.",
+          "a": "F",
+          "why": "The text warns that the \"underlying cause should not be brushed aside\" and may be sleep apnoea."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "clinging",
+          "d": "holding on tightly to something"
+        },
+        {
+          "t": "population",
+          "d": "all the people who live in a place or belong to a group"
+        },
+        {
+          "t": "chronic",
+          "d": "lasting for a long time or happening again and again"
+        },
+        {
+          "t": "tolerance",
+          "d": "the ability to accept something annoying without getting angry"
+        },
+        {
+          "t": "consequently",
+          "d": "as a result"
+        },
+        {
+          "t": "proximity",
+          "d": "being very near to someone or something"
+        },
+        {
+          "t": "dignity",
+          "d": "the feeling of being respected and valued"
+        },
+        {
+          "t": "negotiate",
+          "d": "to talk with someone to reach an agreement"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Several of these verbs are idiomatic, so read the whole sentence before you choose a particle.",
+        "items": [
+          {
+            "s": "The underlying cause of the snoring should not be brushed ____.",
+            "a": "aside"
+          },
+          {
+            "s": "The couple agreed to look ____ quieter mattresses before changing rooms.",
+            "a": "into"
+          },
+          {
+            "s": "Nobody should hold ____ one sleeping arrangement as the ideal for every couple.",
+            "a": "up"
+          },
+          {
+            "s": "Months of broken sleep had begun to wear her ____.",
+            "a": "down"
+          },
+          {
+            "s": "They decided to sleep ____ it before making a final decision.",
+            "a": "on"
+          }
+        ],
+        "extra": [
+          "along",
+          "apart"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: your snoring or my sleep",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the partner who cannot sleep",
+      "text": "You have lain awake for weeks because of your partner's snoring. You want to try separate rooms. Explain how tired you are, but do not hurt your partner's feelings."
+    },
+    "b": {
+      "role": "the partner who snores",
+      "text": "You feel hurt that your partner wants a separate room. Say how you feel and suggest other ideas first, such as earplugs or different bedtimes. Agree to something if the plan is fair."
+    },
+    "phrases": [
+      "I'm exhausted, and I can't go on like this.",
+      "It doesn't mean I love you any less.",
+      "Could we try earplugs first?",
+      "Let's try it for a month and see.",
+      "I'd feel lonely without you next to me.",
+      "We're not ending anything, we're just sleeping better."
+    ],
+    "after": "Afterwards, tell the class: did you agree on a plan, and was it fair for both people?"
   }
 }

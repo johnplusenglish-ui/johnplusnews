@@ -6,6 +6,7 @@ source: Reuters | https://www.reuters.com/world/asia-pacific/hiking-hotpot-lonel
 image: images/would-you-pay-someone-to-be-your-friend-475fbe.jpg
 image-alt: A woman holds out her phone to scan a QR code on a young man's phone on a willow-lined lakeside path, with pleasure boats and wooded hills behind them.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

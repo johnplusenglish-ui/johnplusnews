@@ -6,6 +6,7 @@ source: Journal of Neuroscience | https://pubmed.ncbi.nlm.nih.gov/40345833/
 image: images/why-are-we-so-tired-when-we-havent-done-much-d1d184.jpg
 image-alt: A man in a green sweatshirt leans wearily on the door of an open fridge holding a takeaway leaflet, the shelves nearly bare apart from eggs, milk and a jar.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

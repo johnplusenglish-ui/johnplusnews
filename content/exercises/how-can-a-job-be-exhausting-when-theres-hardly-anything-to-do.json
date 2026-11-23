@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You check the clock ____.",
-            "a": "again and again"
+            "s": "It is hard to ____ on your homework when the television is on.",
+            "a": "concentrate"
           },
           {
-            "s": "They have few chances to ____ new skills.",
-            "a": "pick up"
+            "s": "After three failed exams, he began to ____ his own ability.",
+            "a": "doubt"
           },
           {
-            "s": "A worker could ____ a new project or more training.",
-            "a": "take on"
+            "s": "The job was dull, but the ____ was high enough to pay the rent.",
+            "a": "salary"
           },
           {
-            "s": "You often have to remain at your desk and ____.",
-            "a": "look busy"
+            "s": "She left her office job because she wanted work that felt ____.",
+            "a": "worthwhile"
           },
           {
-            "s": "Feeling bored all day is not the same as having ____.",
-            "a": "free time"
+            "s": "A quiet joke in the office is usually ____, so nobody needs to worry.",
+            "a": "harmless"
           }
         ],
         "extra": [
-          "look at",
-          "repetitive"
+          "unable",
+          "meaning"
         ]
       },
       "match": [
@@ -52,7 +52,7 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Imagine ____ at your desk all day with nothing to do.",
+            "s": "Imagine ____ at your desk all day with almost nothing to do.",
             "cue": "sit",
             "a": "sitting"
           },
@@ -67,9 +67,9 @@
             "a": "caring"
           },
           {
-            "s": "At five o'clock, you ____ home feeling completely exhausted.",
+            "s": "Last night, she ____ home feeling very tired.",
             "cue": "go",
-            "a": "go"
+            "a": "went"
           },
           {
             "s": "Rust-out is different because the feeling ____ for weeks or months.",
@@ -98,40 +98,109 @@
           "s": "Rust-out can happen when work is too easy or repetitive.",
           "a": "T",
           "why": "The text says: \"But psychologists also talk about rust-out, which can happen when work is too easy, too repetitive or has little meaning.\""
+        },
+        {
+          "s": "The text says managers can do nothing to help.",
+          "a": "F",
+          "why": "The text says managers \"can also look at how jobs are organised and give people more freedom\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "exhausted",
+          "d": "very, very tired"
+        },
+        {
+          "t": "burnout",
+          "d": "feeling ill and tired after too much stress at work"
+        },
+        {
+          "t": "stress",
+          "d": "worry and pressure that make you feel bad"
+        },
+        {
+          "t": "psychologists",
+          "d": "people who study how the mind works"
+        },
+        {
+          "t": "skills",
+          "d": "things you can do well because you learned them"
+        },
+        {
+          "t": "solution",
+          "d": "an answer to a problem"
+        },
+        {
+          "t": "freedom",
+          "d": "being able to do what you want"
+        },
+        {
+          "t": "abilities",
+          "d": "the things you are able to do well"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some verbs go naturally with certain nouns. Think about which verb you usually hear with each word.",
+        "items": [
+          {
+            "s": "At lunchtime, many workers ____ a short break and go for a walk.",
+            "a": "take"
+          },
+          {
+            "s": "Boring work makes it hard to ____ attention to small details.",
+            "a": "pay"
+          },
+          {
+            "s": "People often ____ mistakes when they are very tired.",
+            "a": "make"
+          },
+          {
+            "s": "Copying numbers all day felt like a ____ of time.",
+            "a": "waste"
+          },
+          {
+            "s": "She wanted to ____ her job because it was too easy.",
+            "a": "change"
+          }
+        ],
+        "extra": [
+          "solve",
+          "drive"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Somebody can return home ____ after an undemanding day.",
-            "a": "drained"
+            "s": "Many students ____ before exams, checking their phones instead of revising.",
+            "a": "procrastinate"
           },
           {
-            "s": "A worker spends the morning ____ and the afternoon waiting.",
-            "a": "keeping up appearances"
+            "s": "Because of his financial ____, he could not afford to leave his job.",
+            "a": "commitments"
           },
           {
-            "s": "They still have to ____ every hour.",
-            "a": "account for"
+            "s": "The team was ____ with work after three colleagues left.",
+            "a": "overwhelmed"
           },
           {
-            "s": "Employers have ____ in solving the problem.",
-            "a": "a role to play"
+            "s": "The shop closed because it had ____ funds to pay its staff.",
+            "a": "insufficient"
           },
           {
-            "s": "Rust-out can look like a privilege ____.",
-            "a": "from the outside"
+            "s": "Too many rules can ____ staff from sharing new ideas.",
+            "a": "discourage"
           },
           {
-            "s": "People can ____ between fear and frustration.",
-            "a": "feel trapped"
+            "s": "I really ____ your help with the move.",
+            "a": "appreciate"
           }
         ],
         "extra": [
-          "speak up",
-          "reluctant"
+          "sympathise",
+          "enforced"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Burnout is associated with ____ workplace stress.",
-            "cue": "EXCESS",
-            "a": "excessive"
+            "s": "By the time she spoke to her manager, she ____ bored for months.",
+            "cue": "feel",
+            "a": "had felt|had been feeling"
           },
           {
-            "s": "Rust-out involves long-term boredom and a lack of ____.",
-            "cue": "MOTIVATE",
-            "a": "motivation"
+            "s": "Workplace boredom ____ in many offices because it can look like a privilege.",
+            "cue": "ignore",
+            "a": "is ignored"
           },
           {
-            "s": "Repetitive tasks offer no opportunity for ____.",
-            "cue": "CREATE",
-            "a": "creativity"
+            "s": "If managers listened more, employees ____ less trapped.",
+            "cue": "feel",
+            "a": "would feel"
           },
           {
-            "s": "Some workers fear that complaining about a secure job will make them seem ____.",
-            "cue": "GRATEFUL",
-            "a": "ungrateful"
+            "s": "In September 2026, the American Psychological Association ____ research on under-stimulating work.",
+            "cue": "examine",
+            "a": "examined"
           },
           {
-            "s": "People may become seriously ____ before they complain.",
-            "cue": "ENGAGE",
-            "a": "disengaged"
+            "s": "He avoids ____ to his manager about his boredom.",
+            "cue": "speak",
+            "a": "speaking"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "Rust-out differs from burnout in its cause.",
           "a": "T",
           "why": "The text says: \"Unlike burnout, which is associated with excessive workplace stress, rust-out involves chronic boredom, insufficient challenge and a lack of purpose.\""
+        },
+        {
+          "s": "The text says that 'I'm bored' sounds more positive to a manager than 'I need a more demanding role'.",
+          "a": "F",
+          "why": "The text says the opposite: the second sentence \"sounds positive\", while \"I'm bored\" may sound like an insult."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "drained",
+          "d": "very tired, with no energy left"
+        },
+        {
+          "t": "chronic",
+          "d": "lasting for a long time"
+        },
+        {
+          "t": "autonomy",
+          "d": "the freedom to make your own decisions"
+        },
+        {
+          "t": "privilege",
+          "d": "a special advantage that not everyone has"
+        },
+        {
+          "t": "wellbeing",
+          "d": "your health and happiness"
+        },
+        {
+          "t": "qualifications",
+          "d": "exams or courses that show you can do a job"
+        },
+        {
+          "t": "downtime",
+          "d": "time when you are not busy with work"
+        },
+        {
+          "t": "disengaged",
+          "d": "no longer interested or involved"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Many collocations join a verb to a noun, or an adjective to a noun. Decide which word sounds natural before you check the rest of the box.",
+        "items": [
+          {
+            "s": "Someone with a ____ salary can still feel unhappy at work.",
+            "a": "steady"
+          },
+          {
+            "s": "After years of repeating the same tasks, she lost all ____ in the job.",
+            "a": "interest"
+          },
+          {
+            "s": "A manager should ____ a good example to the team.",
+            "a": "set"
+          },
+          {
+            "s": "Employees often feel under ____ at the end of the financial year.",
+            "a": "pressure"
+          },
+          {
+            "s": "He decided to ____ a risk and ask for a different role.",
+            "a": "take"
+          }
+        ],
+        "extra": [
+          "hold",
+          "tough"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "At the same time, inactivity can ____ motivation and self-confidence.",
+            "s": "Years of unchecked inflation can ____ the value of a pension.",
             "a": "erode"
           },
           {
-            "s": "Such circumstances create ____.",
-            "a": "an uncomfortable trap"
-          },
-          {
-            "s": "Leaving an unfulfilling job may seem financially ____.",
+            "s": "Investing his entire savings in one start-up struck his friends as ____.",
             "a": "reckless"
           },
           {
-            "s": "Employees should not ____ for putting the problem right.",
-            "a": "bear sole responsibility"
+            "s": "Her ____ cough lasted for months and finally sent her to the doctor.",
+            "a": "persistent"
           },
           {
-            "s": "The appearance of productivity adds ____ to the boredom.",
-            "a": "a layer of frustration"
+            "s": "Children ____ of sleep often struggle to learn.",
+            "a": "deprived"
           },
           {
-            "s": "Simply ____ more tasks is not an effective intervention.",
-            "a": "piling on"
+            "s": "Early ____ by teachers can stop a minor problem from becoming serious.",
+            "a": "intervention"
+          },
+          {
+            "s": "The new report was ____ identical to last year's, with only two words changed.",
+            "a": "virtually"
           }
         ],
         "extra": [
-          "monotonous",
-          "restorative"
+          "equivalent",
+          "detached"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Workplace boredom is not merely an ____ but can affect wellbeing.",
-            "cue": "CONVENIENT",
-            "a": "inconvenience"
+            "s": "Her ____ to accept the new role surprised the whole department.",
+            "cue": "RELUCTANT",
+            "a": "reluctance"
           },
           {
-            "s": "Rust-out describes a persistent sense of ____.",
-            "cue": "ENGAGE",
-            "a": "disengagement"
+            "s": "The report points to a lack of ____ among senior staff.",
+            "cue": "ACCOUNTABLE",
+            "a": "accountability"
           },
           {
-            "s": "Inactivity can erode motivation and self-____.",
-            "cue": "CONFIDENT",
-            "a": "confidence"
+            "s": "Many graduates find routine data entry deeply ____.",
+            "cue": "FULFIL",
+            "a": "unfulfilling"
           },
           {
-            "s": "Employees may feel ____ about complaining.",
-            "cue": "GUILT",
-            "a": "guilty"
+            "s": "Critics accused the board of ____ in dealing with complaints.",
+            "cue": "EFFICIENT",
+            "a": "inefficiency"
           },
           {
-            "s": "A genuinely ____ job requires an appropriate level of challenge.",
-            "cue": "SUSTAIN",
-            "a": "sustainable"
+            "s": "Her manager's ____ reaction to the complaint surprised everyone.",
+            "cue": "DISMISS",
+            "a": "dismissive"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The writer says adding more tasks always restores engagement.",
+          "s": "The writer implies that extra tasks may not help if they are as dull as the existing ones.",
+          "a": "T",
+          "why": "The text says: \"If the additional work is equally monotonous, it may increase activity without restoring engagement.\""
+        },
+        {
+          "s": "The writer says rust-out receives less attention than burnout because its symptoms are physically obvious.",
           "a": "F",
-          "why": "The text says the opposite: \"This helps explain why simply piling on more tasks is not necessarily an effective intervention.\""
+          "why": "The text says its symptoms \"can appear morally uncomfortable\", not physically obvious."
         },
         {
-          "s": "Job design features such as autonomy and feedback can help.",
-          "a": "T",
-          "why": "The text says: \"Autonomy, task variety, feedback and opportunities for development can make a difference.\""
-        },
-        {
-          "s": "Rust-out is now recognised as a medical condition.",
+          "s": "The American Psychological Association recommends hiring more staff to reduce boredom.",
           "a": "N",
-          "why": "Not stated. The text does not say whether rust-out is recognised as a medical condition."
+          "why": "Not stated. The text gives no recommendation from the association about hiring."
         },
         {
-          "s": "The American Psychological Association published a feature on workplace boredom in September 2026.",
+          "s": "Part of the reason an employee in this position may stay silent is the pressure that other colleagues are under.",
           "a": "T",
-          "why": "The text says: \"In a September 2026 feature, the American Psychological Association highlighted emerging evidence that workplace boredom is not merely an inconvenience but can affect psychological and physical wellbeing.\""
+          "why": "The text says such an employee \"may hesitate to complain in the presence of colleagues facing intense pressure\"."
+        },
+        {
+          "s": "The writer argues that a manager's best first step is to organise a team-building afternoon.",
+          "a": "F",
+          "why": "The text suggests asking staff which responsibilities they would welcome, \"rather than assuming that another team-building afternoon\" will help."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "perceived",
+          "d": "seen or understood in a particular way"
+        },
+        {
+          "t": "fatigued",
+          "d": "very tired"
+        },
+        {
+          "t": "emerging",
+          "d": "just starting to appear or become known"
+        },
+        {
+          "t": "agency",
+          "d": "the power to act and make your own choices"
+        },
+        {
+          "t": "structural",
+          "d": "connected with how something is built or organised"
+        },
+        {
+          "t": "disengagement",
+          "d": "losing interest or involvement"
+        },
+        {
+          "t": "sustainable",
+          "d": "able to continue without causing harm or exhaustion"
+        },
+        {
+          "t": "inconvenience",
+          "d": "a small problem that causes trouble or annoyance"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Pick the verb that normally partners the noun. These pairs are fixed, so a near synonym often sounds wrong.",
+        "items": [
+          {
+            "s": "Poorly designed jobs can ____ morale across an entire department.",
+            "a": "undermine"
+          },
+          {
+            "s": "Several staff were reluctant to ____ their view that the work was pointless.",
+            "a": "voice"
+          },
+          {
+            "s": "A good manager will ____ the problem at its root rather than treat the symptoms.",
+            "a": "tackle"
+          },
+          {
+            "s": "Autonomy can ____ greater engagement among staff.",
+            "a": "foster"
+          },
+          {
+            "s": "Overly strict supervision can ____ a risk to creativity.",
+            "a": "pose"
+          }
+        ],
+        "extra": [
+          "reap",
+          "harness"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a talk about a boring job",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the manager",
+      "text": "Your employee looks tired and bored. Find out what is wrong. The team is short of staff, so you cannot give them a new role this month. Offer something smaller, or say no politely."
+    },
+    "b": {
+      "role": "the employee",
+      "text": "Your job is too easy and you feel tired every day. Ask your manager for more interesting work and more freedom to choose your tasks. Explain why it matters to you."
+    },
+    "phrases": [
+      "I'd like to talk about my tasks.",
+      "I'm finding the work a bit too easy.",
+      "That's not something I expected to hear.",
+      "We're short of staff right now, so I can't promise anything.",
+      "Could I take on a small project?",
+      "Let's try it for a month and see."
+    ],
+    "after": "Afterwards, tell the class: did the manager agree to change anything, and was it a fair deal?"
   }
 }

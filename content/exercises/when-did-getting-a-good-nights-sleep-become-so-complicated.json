@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You ____ feeling refreshed, then you look at your smartwatch.",
-            "a": "wake up"
-          },
-          {
-            "s": "The numbers can be interesting, but they are not always perfectly ____.",
+            "s": "A tracker that is not ____ can give you the wrong idea about your night.",
             "a": "accurate"
           },
           {
-            "s": "Worrying about every minute can make it harder to ____ at bedtime.",
-            "a": "switch off"
+            "s": "A smartwatch can ____ how long you were asleep, but it cannot be completely sure.",
+            "a": "estimate"
           },
           {
-            "s": "Trackers can help us ____ our habits, such as going to bed at very different times.",
-            "a": "work out"
+            "s": "Brushing your teeth and reading a book are part of many people's bedtime ____.",
+            "a": "routines"
           },
           {
-            "s": "We can ____ useful patterns without taking every number personally.",
-            "a": "pay attention to"
+            "s": "If you have ____ sleep problems that last for months, see a doctor.",
+            "a": "ongoing"
+          },
+          {
+            "s": "A doctor is a healthcare ____, so ask them if you are worried.",
+            "a": "professional"
           }
         ],
         "extra": [
-          "after all",
-          "energetic"
+          "attractive",
+          "necessary"
         ]
       },
       "match": [
@@ -52,14 +52,19 @@
         "kind": "verb",
         "items": [
           {
-            "s": "In 2017, researchers ____ a problem they called orthosomnia.",
-            "cue": "describe",
-            "a": "described"
+            "s": "Last night I ____ badly because I was worried about work.",
+            "cue": "sleep",
+            "a": "slept"
           },
           {
-            "s": "Your watch ____ you a score every morning.",
+            "s": "She ____ up at 3 am and could not get back to sleep.",
+            "cue": "wake",
+            "a": "woke"
+          },
+          {
+            "s": "My watch ____ me a low score yesterday.",
             "cue": "give",
-            "a": "gives"
+            "a": "gave"
           },
           {
             "s": "They focused on trying ____ perfect scores.",
@@ -70,24 +75,19 @@
             "s": "These differences do not always mean the technology ____ failed.",
             "cue": "have",
             "a": "has"
-          },
-          {
-            "s": "They had seen patients ____ so worried about their sleep-tracker results.",
-            "cue": "become",
-            "a": "becoming"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Sleep trackers always measure sleep perfectly.",
-          "a": "F",
-          "why": "The text says the opposite: \"But the numbers are not always perfectly accurate.\""
-        },
-        {
           "s": "Orthosomnia is an official diagnosis for everyone who uses a watch.",
           "a": "F",
-          "why": "The text says the opposite: \"The term describes a pattern of behaviour discussed in clinical reports; it is not an official diagnosis for everyone who uses a watch.\""
+          "why": "The text says it \"is not an official diagnosis for everyone who uses a watch.\""
+        },
+        {
+          "s": "Busy days, travel or worries can change how a person sleeps.",
+          "a": "T",
+          "why": "The text says: \"busy days, travel or worries can change how we sleep.\""
         },
         {
           "s": "Most people stop using their sleep tracker within a year.",
@@ -95,43 +95,112 @@
           "why": "Not stated. This version does not give this information."
         },
         {
-          "s": "A tracker can show you that you go to bed at very different times.",
+          "s": "A tracker can help a person see that they go to bed at very different times.",
           "a": "T",
           "why": "The text says: \"They can help us work out our habits, such as going to bed at very different times.\""
+        },
+        {
+          "s": "Someone with sleep problems that do not go away should only trust the score.",
+          "a": "F",
+          "why": "The text says they \"should speak to a healthcare professional rather than depend only on a score.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "score",
+          "d": "a number that shows how well or badly you did"
+        },
+        {
+          "t": "patients",
+          "d": "people who are being treated by a doctor"
+        },
+        {
+          "t": "diagnosis",
+          "d": "a doctor's decision about what illness someone has"
+        },
+        {
+          "t": "concerned",
+          "d": "worried about something"
+        },
+        {
+          "t": "patterns",
+          "d": "things that happen again and again in the same way"
+        },
+        {
+          "t": "competition",
+          "d": "a game or race where people try to win"
+        },
+        {
+          "t": "device",
+          "d": "a small machine, like a phone or a watch"
+        },
+        {
+          "t": "control",
+          "d": "to make something happen the way you want"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some linking words give a reason (because), some give a result (so) and some show a difference (but, however).",
+        "items": [
+          {
+            "s": "I felt tired all day ____ I had a bad night.",
+            "a": "because"
+          },
+          {
+            "s": "The watch was wrong last night, ____ I stopped trusting it.",
+            "a": "so"
+          },
+          {
+            "s": "The score looked bad. ____, I felt fine.",
+            "a": "However"
+          },
+          {
+            "s": "Trackers are useful, ____ they cannot tell us how we feel.",
+            "a": "but"
+          },
+          {
+            "s": "Is it better to follow the watch ____ to follow how you feel?",
+            "a": "or"
+          }
+        ],
+        "extra": [
+          "unless",
+          "if"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "For some people, a sleep score creates ____.",
-            "a": "a source of worry"
+            "s": "A doctor will carry out a full ____ before deciding whether a patient has a sleep disorder.",
+            "a": "assessment"
           },
           {
-            "s": "Patients became ____ with the imperfect sleep recorded by their devices.",
-            "a": "preoccupied"
+            "s": "Many people find it hard to resist the ____ to check their phone as soon as they wake up.",
+            "a": "temptation"
           },
           {
-            "s": "Trying to control every detail may ____ bedtime into a stressful routine.",
-            "a": "turn"
+            "s": "The shop assistant gave the ____ that the watch was waterproof, but it was not.",
+            "a": "impression"
           },
           {
-            "s": "The danger ____ when the measurement becomes more important than sleep itself.",
-            "a": "creeps in"
+            "s": "Headaches and tiredness are common ____ of stress.",
+            "a": "symptoms"
           },
           {
-            "s": "____ difficulty sleeping deserves proper assessment.",
-            "a": "Persistent"
+            "s": "Hospitals use ____ equipment to watch a patient's heart rate through the night.",
+            "a": "monitoring"
           },
           {
-            "s": "It can be useful to ____ broad patterns over time.",
-            "a": "look out for"
+            "s": "Your decision should depend on your personal ____, such as your job and family.",
+            "a": "circumstances"
           }
         ],
         "extra": [
-          "in isolation",
-          "persuasive"
+          "interpretation",
+          "equivalent"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Seeing a low number can make someone feel ____ before breakfast.",
-            "cue": "DISAPPOINT",
-            "a": "disappointed"
+            "s": "By the time the alarm rang, she ____ twice during the night.",
+            "cue": "wake",
+            "a": "had woken"
           },
           {
-            "s": "Sleep is difficult to measure ____ outside a clinical setting.",
-            "cue": "PRECISE",
-            "a": "precisely"
+            "s": "Sleep reports ____ to the user's phone every morning.",
+            "cue": "send",
+            "a": "are sent"
           },
           {
-            "s": "Trying to control every detail may turn bedtime into a ____ routine.",
-            "cue": "STRESS",
-            "a": "stressful"
+            "s": "If I were you, I ____ one night's score.",
+            "cue": "not trust",
+            "a": "wouldn't trust|would not trust"
           },
           {
-            "s": "There is also a ____ reason these scores feel persuasive.",
-            "cue": "PSYCHOLOGY",
-            "a": "psychological"
+            "s": "The term orthosomnia ____ in a 2017 article by clinicians.",
+            "cue": "describe",
+            "a": "was described"
           },
           {
-            "s": "Healthy tracking involves understanding ____.",
-            "cue": "CERTAIN",
-            "a": "uncertainty"
+            "s": "So far, I ____ a tracker, but I'm thinking about it.",
+            "cue": "not use",
+            "a": "haven't used|have not used"
           }
         ]
       },
       "tfn": [
         {
-          "s": "A low score can make someone worry about a problem they had not noticed.",
+          "s": "A positive rating from a tracker can mislead a person just as a negative one can.",
           "a": "T",
-          "why": "The text says: \"Someone who checks a score immediately after waking might begin the day worrying about a problem they would otherwise not have noticed.\""
+          "why": "The text says one person may become \"unusually confident\" and that \"Neither response necessarily reflects what a clinician would conclude.\""
         },
         {
-          "s": "The term orthosomnia appeared in a 2017 article in the Journal of Clinical Sleep Medicine.",
-          "a": "T",
-          "why": "The text says: \"Researchers described the term orthosomnia in a 2017 article in the Journal of Clinical Sleep Medicine.\""
-        },
-        {
-          "s": "Doctors now advise patients to stop using sleep trackers altogether.",
-          "a": "N",
-          "why": "Not stated. This version does not give this information."
-        },
-        {
-          "s": "Consumer devices measure sleep as accurately as a medical assessment does.",
+          "s": "The 2017 article showed that everyone who wears a tracker develops orthosomnia.",
           "a": "F",
-          "why": "The text says the opposite: \"Their reports can be useful for spotting patterns, yet they are not equivalent to a medical sleep assessment.\""
+          "why": "The text says these \"were particular patients described by clinicians, not a picture of everyone who wears a tracker.\""
+        },
+        {
+          "s": "Most of the patients in the 2017 article were over fifty.",
+          "a": "N",
+          "why": "The text does not give the patients' ages."
+        },
+        {
+          "s": "A good score means a person with long-term sleep problems does not need to see a professional.",
+          "a": "F",
+          "why": "The text says persistent difficulty \"deserves proper assessment, regardless of whether an app considers the night successful.\""
+        },
+        {
+          "s": "Some patients in the 2017 reports trusted their device more than their own feelings.",
+          "a": "T",
+          "why": "The text says they \"questioned their own experience of feeling rested.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "analyse",
+          "d": "to look at something carefully to understand it"
+        },
+        {
+          "t": "wearable",
+          "d": "made to be worn on your body"
+        },
+        {
+          "t": "estimate",
+          "d": "a guess about a number or amount, not an exact figure"
+        },
+        {
+          "t": "precise",
+          "d": "exact and correct in every detail"
+        },
+        {
+          "t": "clinicians",
+          "d": "doctors and nurses who treat patients"
+        },
+        {
+          "t": "uncertainty",
+          "d": "the feeling of not being sure about something"
+        },
+        {
+          "t": "advantages",
+          "d": "good things about a plan or an idea"
+        },
+        {
+          "t": "signals",
+          "d": "messages or signs that something sends out"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Check what follows the gap: a noun phrase (despite), a clause (whereas, provided), or a new sentence after a full stop (nevertheless).",
+        "items": [
+          {
+            "s": "____ the improvements in technology, sleep is still hard to measure outside a clinic.",
+            "a": "Despite"
+          },
+          {
+            "s": "Tracking can be useful, ____ users remember that the numbers are only estimates.",
+            "a": "provided"
+          },
+          {
+            "s": "A watch can detect movement. ____, it cannot know how you feel.",
+            "a": "Nevertheless"
+          },
+          {
+            "s": "Some users feel anxious after a poor score, ____ others feel proud after a high one.",
+            "a": "whereas"
+          },
+          {
+            "s": "Persistent sleep problems need assessment, ____ of what the app says.",
+            "a": "regardless"
+          }
+        ],
+        "extra": [
+          "otherwise",
+          "therefore"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "If each number is taken ____, normal variations may start to look like signs of failure.",
-            "a": "at face value"
+            "s": "A glossy dashboard may ____ the fact that the data behind it is shaky.",
+            "a": "conceal"
           },
           {
-            "s": "This creates an unusual ____: a poor score makes you monitor your tiredness for evidence.",
-            "a": "feedback loop"
+            "s": "Constant noise from the street began to ____ with her ability to switch off.",
+            "a": "interfere"
           },
           {
-            "s": "Sometimes the healthiest response to an imperfect graph is to put the device down and ____ with the day.",
-            "a": "carry on"
+            "s": "A single study of a few patients is too small a sample to ____ such sweeping claims.",
+            "a": "justify"
           },
           {
-            "s": "Sometimes better habits require ____ the dashboard.",
-            "a": "stepping away from"
+            "s": "Her opinion of the film stayed ____ to the first impression she formed in the opening minutes.",
+            "a": "anchored"
           },
           {
-            "s": "A ____ approach asks whether the information leads to useful action.",
-            "a": "proportionate"
+            "s": "Expecting every report, essay and meal to be flawless is a sign of ____.",
+            "a": "perfectionism"
           },
           {
-            "s": "If monitoring primarily creates anxiety, its practical value deserves ____.",
-            "a": "reconsideration"
+            "s": "It is a ____ that the harder people try to relax, the less relaxed they become.",
+            "a": "paradox"
           }
         ],
         "extra": [
-          "excessive",
-          "authoritative"
+          "sharpen",
+          "vigilance"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Wrist-worn devices infer sleep characteristics from ____ signals.",
-            "cue": "PHYSIOLOGY",
-            "a": "physiological"
+            "s": "Many users feel growing ____ about even small dips in their score.",
+            "cue": "ANXIOUS",
+            "a": "anxiety"
           },
           {
-            "s": "Estimates of individual sleep stages can be ____.",
-            "cue": "PERFECT",
-            "a": "imperfect"
+            "s": "A ____ simple score ignores how complicated sleep is.",
+            "cue": "MISLEAD",
+            "a": "misleadingly"
           },
           {
-            "s": "There is a gap between consumer measurements and clinical ____.",
-            "cue": "INTERPRET",
-            "a": "interpretation"
+            "s": "The authors avoided broad ____ about the whole population.",
+            "cue": "GENERAL",
+            "a": "generalisations|generalizations"
           },
           {
-            "s": "An attempt to control sleep may introduce the very ____ that makes rest difficult.",
-            "cue": "VIGILANT",
-            "a": "vigilance"
+            "s": "The data from budget devices is often ____, so doctors treat it cautiously.",
+            "cue": "RELY",
+            "a": "unreliable"
           },
           {
-            "s": "The appearance of ____ gives consumer sleep scores an authority their methods may not justify.",
-            "cue": "PRECISE",
-            "a": "precision"
+            "s": "The ____ between a helpful habit and an obsession is easy to miss.",
+            "cue": "DISTINCT",
+            "a": "distinction"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The text recommends giving up sleep technology completely.",
-          "a": "F",
-          "why": "The text says the opposite: \"Yet dismissing sleep technology entirely would be excessive.\""
-        },
-        {
-          "s": "Sleep trackers are more popular with younger users than with older ones.",
-          "a": "N",
-          "why": "Not stated. This version does not give this information."
-        },
-        {
-          "s": "A precise-looking number can hide doubt about when somebody was awake.",
+          "s": "The writer treats a tracker that supports a doctor's judgement differently from one that replaces it.",
           "a": "T",
-          "why": "The text says: \"A number displayed with apparent precision can conceal uncertainty about when a person was awake or how accurately particular sleep stages were identified.\""
+          "why": "The text says: \"The distinction lies in whether measurements inform judgement or replace it.\""
         },
         {
-          "s": "The 2017 paper proved that sleep tracking causes insomnia.",
+          "s": "The writer suggests that a person whose sleep problems persist can safely rely on tracker data alone.",
           "a": "F",
-          "why": "The text says the opposite: \"Their observations were case reports, not evidence that tracking routinely causes insomnia or that orthosomnia is a universally recognised medical diagnosis.\""
+          "why": "The text says such problems need assessment \"not just a consumer algorithm.\""
+        },
+        {
+          "s": "Most sleep-tracker manufacturers fund their own research into accuracy.",
+          "a": "N",
+          "why": "The text does not say who pays for research."
+        },
+        {
+          "s": "A person who feels fine after a poor score may end up noticing tiredness they would otherwise ignore.",
+          "a": "T",
+          "why": "The text describes someone who \"begins monitoring their tiredness for evidence that the device was correct.\""
+        },
+        {
+          "s": "The writer sees measuring sleep as an isolated trend rather than part of a wider cultural pattern.",
+          "a": "F",
+          "why": "The text says: \"The deeper issue is cultural. We increasingly quantify ordinary human experiences, from exercise to productivity and recovery.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "infer",
+          "d": "to work out something from evidence, not from being told"
+        },
+        {
+          "t": "retrospective",
+          "d": "looking back at something that has already happened"
+        },
+        {
+          "t": "universally",
+          "d": "by everyone, everywhere"
+        },
+        {
+          "t": "quantified",
+          "d": "measured and turned into numbers"
+        },
+        {
+          "t": "fatigue",
+          "d": "a feeling of being very tired"
+        },
+        {
+          "t": "algorithm",
+          "d": "a set of rules a computer follows to reach a result"
+        },
+        {
+          "t": "variations",
+          "d": "small changes or differences from one time to another"
+        },
+        {
+          "t": "dismissing",
+          "d": "deciding that something is not worth considering"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some of these words introduce a clause, some a noun phrase and some an -ing form. Check what follows the gap before you choose.",
+        "items": [
+          {
+            "s": "The reports were small in scale; ____, they drew attention to a real pattern.",
+            "a": "nonetheless"
+          },
+          {
+            "s": "The score offers a comfortable certainty, ____ a false one.",
+            "a": "albeit"
+          },
+          {
+            "s": "Users read each number as a verdict, ____ turning small changes into failures.",
+            "a": "thereby"
+          },
+          {
+            "s": "____ its limits, tracking can still give clinicians useful information.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "The reports described a pattern ____ the pursuit of perfect scores seemed to get in the way of sleep itself.",
+            "a": "whereby"
+          }
+        ],
+        "extra": [
+          "hence",
+          "lest"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: should we try a sleep tracker?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the tracker fan",
+      "text": "You wear a smartwatch and check your sleep score every morning. You think the numbers help you. Explain why, and try to persuade your partner to wear one for a week."
+    },
+    "b": {
+      "role": "the sceptic",
+      "text": "You don't use a tracker. You think scores can make people worry. Ask questions, say what worries you, then decide: yes, no, or yes with a condition."
+    },
+    "phrases": [
+      "I check my score every morning.",
+      "It helps me see my habits.",
+      "Don't you think it can make you worry?",
+      "I'm not sure the numbers are always right.",
+      "I'd try it for a week if I didn't have to check it daily.",
+      "Could we agree on one week and then talk again?"
+    ],
+    "after": "Afterwards, tell the class: will your partner try a tracker, and why?"
   }
 }

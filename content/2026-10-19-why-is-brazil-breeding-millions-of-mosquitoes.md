@@ -6,6 +6,7 @@ source: Paraná State Health Department | https://www.saude.pr.gov.br/Noticia/Pa
 image: images/why-is-brazil-breeding-millions-of-mosquitoes-1af6e9.jpg
 image-alt: A gloved hand holds up a clear tub of mosquitoes sealed with mesh, with more stacked tubs and white rearing trays on a laboratory bench behind.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

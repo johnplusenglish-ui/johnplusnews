@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "A worker arrives ____ and goes home when the day ends.",
-            "a": "on time"
+            "s": "Employers need ____ people, because they must know the work will be done.",
+            "a": "reliable"
           },
           {
-            "s": "They do not ____ extra projects without pay.",
-            "a": "take on"
+            "s": "A nurse may need to deal with an ____ during a shift.",
+            "a": "emergency"
           },
           {
-            "s": "Managers believe a good worker should ____ colleagues.",
-            "a": "help out"
+            "s": "Many workers read their ____ carefully to see how many hours they must work.",
+            "a": "contract"
           },
           {
-            "s": "Workers may feel that ____ every week is unfair.",
-            "a": "unpaid overtime"
+            "s": "Setting ____ means deciding how much of your free time work can take.",
+            "a": "limits"
           },
           {
-            "s": "Some teams give workers ____ after extra hours.",
-            "a": "time off"
+            "s": "After a bad argument, trust between a manager and a worker can be ____.",
+            "a": "damaged"
           }
         ],
         "extra": [
-          "end up",
-          "committed"
+          "unfair",
+          "unexpected"
         ]
       },
       "match": [
@@ -82,56 +82,125 @@
         {
           "s": "Quiet quitting means an employee has left the job.",
           "a": "F",
-          "why": "The text says the opposite: \"The name is confusing because these people have not actually left their jobs.\""
+          "why": "The text says: \"these people have not actually left their jobs.\""
         },
         {
           "s": "Gallup found 20% of employees worldwide were engaged in 2025.",
           "a": "T",
-          "why": "The text says: \"A 2026 Gallup report found that only 20% of employees around the world were engaged at work in 2025.\""
+          "why": "The text says only 20% of employees around the world were engaged in 2025."
         },
         {
-          "s": "Quiet quitting is most common among younger workers.",
+          "s": "Most teams pay workers for overtime.",
           "a": "N",
-          "why": "Not stated. The text does not say which age group quiet quitting is most common in."
+          "why": "Not stated. The text says some teams give time off and others pay overtime, but not how many."
         },
         {
           "s": "Gallup's number does not mean that all the other workers were quiet quitting.",
           "a": "T",
           "why": "The text says: \"This number does not mean that the other 80% were all quiet quitting.\""
+        },
+        {
+          "s": "A nurse and an office worker have exactly the same responsibilities.",
+          "a": "F",
+          "why": "The text says a nurse or firefighter \"may have different responsibilities\" from an office worker."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "engaged",
+          "d": "interested in your work and ready to try hard"
+        },
+        {
+          "t": "overtime",
+          "d": "extra hours of work after your normal day"
+        },
+        {
+          "t": "salaries",
+          "d": "money people get every month for their job"
+        },
+        {
+          "t": "colleagues",
+          "d": "people you work with"
+        },
+        {
+          "t": "shift",
+          "d": "a period of time when you work, for example at night"
+        },
+        {
+          "t": "reasonable",
+          "d": "fair and sensible"
+        },
+        {
+          "t": "motivated",
+          "d": "wanting to do something well"
+        },
+        {
+          "t": "unpaid",
+          "d": "with no money given for it"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Ask yourself: does the word show a contrast, a reason or a result? Then read the whole sentence again.",
+        "items": [
+          {
+            "s": "Many workers feel tired. ____, they still finish all their tasks.",
+            "a": "However"
+          },
+          {
+            "s": "She does not answer emails at night ____ she needs time to rest.",
+            "a": "because"
+          },
+          {
+            "s": "The team had a very busy week, ____ the manager gave them Friday off.",
+            "a": "so"
+          },
+          {
+            "s": "____ she likes her job, she never works at weekends.",
+            "a": "Although"
+          },
+          {
+            "s": "Help is welcome, ____ when a colleague is ill.",
+            "a": "especially"
+          }
+        ],
+        "extra": [
+          "despite",
+          "instead"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "The phrase became popular as workers debated ____.",
-            "a": "work-life balance"
+            "s": "From a customer's ____, a shop that closes early can feel unhelpful.",
+            "a": "perspective"
           },
           {
-            "s": "Businesses sometimes face unexpected problems, and colleagues ____ one another.",
-            "a": "depend on"
+            "s": "The manager said the extra shifts were only for this month, not a ____ change.",
+            "a": "permanent"
           },
           {
-            "s": "An office worker may be able to ____ at the end of the day.",
-            "a": "switch off"
+            "s": "No company can ____ every unexpected problem, but good planning can reduce them.",
+            "a": "eliminate"
           },
           {
-            "s": "The discussion ____ against a wider problem of employee disengagement.",
-            "a": "takes place"
+            "s": "The contract was so ____ that nobody knew which tasks were included.",
+            "a": "vague"
           },
           {
-            "s": "Employers may use workers' unpaid effort to ____ problems that need proper investment.",
-            "a": "paper over"
+            "s": "Workers who stay late often expect ____, such as extra pay or time off.",
+            "a": "compensation"
           },
           {
-            "s": "A healthy workplace makes those ____ explicit.",
-            "a": "trade-offs"
+            "s": "Staff should have some ____ over how their jobs are organised.",
+            "a": "influence"
           }
         ],
         "extra": [
-          "on call",
-          "unremarkable"
+          "boundaries",
+          "unlimited"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "One manager might describe the person as ____ and sensible.",
-            "cue": "DEPEND",
-            "a": "dependable"
+            "s": "By the time the manager replied, the employee ____ the office.",
+            "cue": "leave",
+            "a": "had left"
           },
           {
-            "s": "The discussion takes place against a problem of employee ____.",
-            "cue": "ENGAGE",
-            "a": "disengagement"
+            "s": "Extra tasks ____ to staff every week without extra pay.",
+            "cue": "give",
+            "a": "are given"
           },
           {
-            "s": "In another team, the same behaviour might be treated as ____.",
-            "cue": "LOYAL",
-            "a": "disloyalty"
+            "s": "If the manager asked politely, many staff ____ later.",
+            "cue": "stay",
+            "a": "would stay|'d stay|might stay|could stay"
           },
           {
-            "s": "Staffing levels determine whether flexibility feels like ____.",
-            "cue": "EXPLOIT",
-            "a": "exploitation"
+            "s": "Since the debate began, many workers ____ to ask what their jobs really include.",
+            "cue": "start",
+            "a": "have started"
           },
           {
-            "s": "A useful discussion concerns fair workloads and ____ expectations.",
-            "cue": "REAL",
-            "a": "realistic"
+            "s": "Last month, a colleague ____, so the team had more work.",
+            "cue": "resign",
+            "a": "resigned"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Gallup found engagement had fallen since the previous year.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether engagement rose or fell compared with earlier years."
-        },
-        {
-          "s": "A healthcare worker may face an emergency just before a shift ends.",
+          "s": "The same behaviour can be praised in one workplace and criticised in another.",
           "a": "T",
-          "why": "The text says: \"An office employee may be able to switch off notifications at the end of the day, while a healthcare worker may face an emergency just before a shift finishes.\""
+          "why": "The text says doing contracted hours sounds \"unremarkable\" where overtime is rare, but may be treated as disloyalty elsewhere."
         },
         {
-          "s": "Gallup's 2026 report covered engagement in 2025.",
-          "a": "T",
-          "why": "The text says: \"Gallup's 2026 State of the Global Workplace report found that 20% of employees worldwide were engaged in 2025.\""
-        },
-        {
-          "s": "Engagement and quiet quitting measure the same thing.",
+          "s": "The writer says healthcare workers deserve unlimited protection, but office staff do not.",
           "a": "F",
-          "why": "The text says the opposite: \"However, its categories of engagement are not the same as quiet quitting, and people can be committed to their work without being available every evening.\""
+          "why": "The text says: \"That does not mean one group deserves unlimited protection and the other unlimited demands.\""
+        },
+        {
+          "s": "Gallup found that engagement had fallen since the previous year.",
+          "a": "N",
+          "why": "Not stated. The text gives only the 20% figure for 2025."
+        },
+        {
+          "s": "A worker can care about the job and still refuse to check messages in the evening.",
+          "a": "T",
+          "why": "The text says people \"can be committed to their work without being available every evening.\""
+        },
+        {
+          "s": "The writer says employees should never expect unplanned duties.",
+          "a": "F",
+          "why": "The text says occasional unexpected responsibilities \"are difficult to eliminate entirely\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "disengagement",
+          "d": "losing interest and no longer caring about something"
+        },
+        {
+          "t": "flexibility",
+          "d": "being ready to change plans easily"
+        },
+        {
+          "t": "workloads",
+          "d": "the amounts of work people have to do"
+        },
+        {
+          "t": "sacrifice",
+          "d": "something you give up to get something more important"
+        },
+        {
+          "t": "dependable",
+          "d": "someone you can trust to do what they promise"
+        },
+        {
+          "t": "negotiation",
+          "d": "a discussion to reach an agreement"
+        },
+        {
+          "t": "absorbing",
+          "d": "taking something in and dealing with it"
+        },
+        {
+          "t": "guilt",
+          "d": "a bad feeling when you think you did something wrong"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Check what follows the gap: a full clause, a noun phrase, or a new sentence after a semicolon. Then check the logic.",
+        "items": [
+          {
+            "s": "Some staff reply to messages at night, ____ others switch their phones off at six.",
+            "a": "whereas"
+          },
+          {
+            "s": "The firm can only keep its best staff ____ it treats them fairly.",
+            "a": "provided"
+          },
+          {
+            "s": "____ the extra hours were unpaid, most of the team agreed to stay.",
+            "a": "Although"
+          },
+          {
+            "s": "____ the heavy workload, she left on time.",
+            "a": "Despite"
+          },
+          {
+            "s": "Rules must be clear; ____, workers will guess what is expected.",
+            "a": "otherwise"
+          }
+        ],
+        "extra": [
+          "unless",
+          "nevertheless"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Managers who praise staff for ____ may genuinely appreciate dedication.",
-            "a": "going the extra mile"
-          },
-          {
-            "s": "Exceptional effort can quietly become the ____ for everybody.",
+            "s": "The new targets treated last year's best sales figures as the ____, so ordinary performance began to look like failure.",
             "a": "baseline"
           },
           {
-            "s": "Organisations may benefit from ____.",
-            "a": "an invisible extension of the working week"
+            "s": "Vague job descriptions can ____ who is really responsible for what.",
+            "a": "obscure"
           },
           {
-            "s": "A further complication is unequal ____.",
-            "a": "bargaining power"
+            "s": "Refusing to answer emails at midnight is a ____ request, not a sign of laziness.",
+            "a": "legitimate"
           },
           {
-            "s": "Employees should not be accused of refusing to ____.",
-            "a": "pick up the slack"
+            "s": "Although she worked ____ within her contracted hours, her manager still judged her unambitious.",
+            "a": "conscientiously"
           },
           {
-            "s": "The debate raises a question about ____ between staff and organisations.",
-            "a": "the unwritten contract"
+            "s": "Working sixty hours a week is not a ____ pace to keep up for years.",
+            "a": "sustainable"
+          },
+          {
+            "s": "Accusations of laziness are often ____ at staff who cannot afford to complain.",
+            "a": "levelled"
           }
         ],
         "extra": [
-          "humane",
-          "unforeseen"
+          "reinforce",
+          "scrupulous"
         ]
       },
       "match": [
@@ -265,14 +403,14 @@
             "a": "provocative"
           },
           {
-            "s": "It is an ____ label applied to very different behaviours.",
-            "cue": "PRECISE",
-            "a": "imprecise"
+            "s": "Engagement and quiet quitting are not ____ terms, although people often confuse them.",
+            "cue": "INTERCHANGE",
+            "a": "interchangeable"
           },
           {
-            "s": "Staff in ____ roles risk punishment for refusing extra work.",
-            "cue": "SECURE",
-            "a": "insecure"
+            "s": "Branding a worker as lazy because of one late email is an unfair ____.",
+            "cue": "ACCUSE",
+            "a": "accusation"
           },
           {
             "s": "Engagement measures employees' ____ connection to their work and organisation.",
@@ -288,26 +426,116 @@
       },
       "tfn": [
         {
-          "s": "Well-paid professionals may find it easier to negotiate flexible hours.",
+          "s": "The writer implies that a worker in a low-paid role may find it harder to set boundaries than a well-paid one.",
           "a": "T",
-          "why": "The text says: \"Highly paid professionals may negotiate flexible hours, while staff in insecure or low-paid roles risk punishment for refusing extra work.\""
+          "why": "The text says advice to set boundaries is less useful \"when an employee cannot afford to lose their job.\""
         },
         {
-          "s": "Gallup estimated 20% of employees were engaged in 2025.",
-          "a": "T",
-          "why": "The text says: \"Gallup's 2026 global workplace report estimated that just 20% of employees were engaged in 2025.\""
-        },
-        {
-          "s": "Employees who set boundaries owe nothing to their colleagues.",
+          "s": "The writer treats Gallup's 20% figure as an estimate of how many employees are quiet quitting.",
           "a": "F",
-          "why": "The text says the opposite: \"Conversely, an employee's right to boundaries does not remove responsibilities towards colleagues or the people who depend on a service.\""
+          "why": "The text says engagement \"is not a direct count of quiet quitters.\""
         },
         {
-          "s": "Gallup surveyed more than a million workers.",
+          "s": "Gallup found that engagement was lower in retail than in office work.",
           "a": "N",
-          "why": "Not stated. The text does not say how many workers Gallup surveyed."
+          "why": "Not stated. Retail is mentioned only for unexpected demands, with no Gallup comparison."
+        },
+        {
+          "s": "Praise for going the extra mile can become a problem if it changes what counts as normal effort.",
+          "a": "T",
+          "why": "The text says problems arise when exceptional effort \"becomes the baseline against which everybody else is judged.\""
+        },
+        {
+          "s": "The writer says most workplaces clearly separate contractual duties from voluntary goodwill.",
+          "a": "F",
+          "why": "The text says that boundary \"is rarely made explicit.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "ambiguity",
+          "d": "a lack of clarity, so that something can mean more than one thing"
+        },
+        {
+          "t": "disengaging",
+          "d": "slowly losing interest and pulling away"
+        },
+        {
+          "t": "misleading",
+          "d": "giving the wrong idea"
+        },
+        {
+          "t": "dedication",
+          "d": "strong loyalty and hard work for something"
+        },
+        {
+          "t": "counterargument",
+          "d": "a reason given against an opinion"
+        },
+        {
+          "t": "transparent",
+          "d": "open, so that everyone can see how something works"
+        },
+        {
+          "t": "virtuous",
+          "d": "morally good"
+        },
+        {
+          "t": "operational",
+          "d": "connected with how a business runs day to day"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some linkers join two clauses, some need a noun phrase, and some add a result or a contrast across a full stop. Read the whole sentence with your answer in place.",
+        "items": [
+          {
+            "s": "The policy was popular with staff, ____ not with every manager.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ the clear rules, several managers kept sending messages at midnight.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "Highly paid staff can negotiate their hours, ____ low-paid staff often cannot.",
+            "a": "whereas"
+          },
+          {
+            "s": "Employers benefit when staff feel valued. ____, staff who feel exploited tend to withdraw effort.",
+            "a": "Conversely"
+          },
+          {
+            "s": "Overtime was never recorded; ____, the true length of the working week stayed invisible.",
+            "a": "hence"
+          }
+        ],
+        "extra": [
+          "thereby",
+          "insofar"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: leaving on time",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the manager",
+      "text": "Your employee leaves at five every day and never answers messages in the evening. A big project starts next week. Ask why, and say what you need from the team. You can ask for a small change, or accept the way they work."
+    },
+    "b": {
+      "role": "the employee",
+      "text": "You finish your tasks and leave on time. Your manager wants to talk. Explain why your evenings matter to you. Say what you can offer instead, and what you cannot do."
+    },
+    "phrases": [
+      "I always finish my tasks before I leave.",
+      "I'm afraid I'm not available in the evenings.",
+      "Can you tell me what you're expecting?",
+      "I'd be happy to stay late once a month if it's paid.",
+      "That's fair, but we've got a busy week coming.",
+      "Could we agree some clear rules?"
+    ],
+    "after": "Afterwards, tell the class what you agreed. Was it a fair deal for both sides?"
   }
 }

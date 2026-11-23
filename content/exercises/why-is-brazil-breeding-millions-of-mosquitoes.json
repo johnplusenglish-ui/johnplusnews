@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "The new programme ____ older methods, not instead of them.",
-            "a": "works together with"
+            "s": "Mosquito bites can ____ serious diseases from person to person.",
+            "a": "spread"
           },
           {
-            "s": "The aim is to ____ the number of people who catch dengue.",
-            "a": "bring down"
+            "s": "Some residents feel ____ about living near a mosquito factory.",
+            "a": "nervous"
           },
           {
-            "s": "Spraying chemicals can help, but the insects keep ____.",
-            "a": "coming back"
+            "s": "Long sleeves and nets help to ____ you from bites.",
+            "a": "protect"
           },
           {
-            "s": "People still need to ____ standing water around their homes.",
-            "a": "get rid of"
+            "s": "The mayor must ____ the plan clearly so that people understand it.",
+            "a": "explain"
           },
           {
-            "s": "The new factory is designed to produce mosquitoes ____.",
-            "a": "on a much larger scale"
+            "s": "Most cities do not breed insects, so this is a very ____ plan.",
+            "a": "unusual"
           }
         ],
         "extra": [
-          "set up",
-          "harmless"
+          "avoid",
+          "ignore"
         ]
       },
       "match": [
@@ -62,9 +62,9 @@
             "a": "is found"
           },
           {
-            "s": "Scientists ____ the insects in carefully controlled conditions.",
-            "cue": "raise",
-            "a": "raise"
+            "s": "In the past, many cities ____ chemicals to kill mosquitoes.",
+            "cue": "spray",
+            "a": "sprayed"
           },
           {
             "s": "When the mosquitoes ____, they breed with the local ones.",
@@ -72,9 +72,9 @@
             "a": "are released"
           },
           {
-            "s": "Brazil ____ already used the method in other cities.",
-            "cue": "have",
-            "a": "has"
+            "s": "Brazil ____ this method in other cities, so it is not completely new.",
+            "cue": "use",
+            "a": "has used"
           }
         ]
       },
@@ -98,8 +98,77 @@
           "s": "The factory produces a million mosquitoes a week.",
           "a": "N",
           "why": "Not stated. The text does not say how many mosquitoes the factory produces."
+        },
+        {
+          "s": "The Wolbachia method works faster than spraying.",
+          "a": "F",
+          "why": "The text says: \"It works more slowly, but the effect is designed to last.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "dengue",
+          "d": "a disease from mosquito bites that gives people a high fever"
+        },
+        {
+          "t": "bacterium",
+          "d": "a very small living thing that you cannot see"
+        },
+        {
+          "t": "chemicals",
+          "d": "substances made in a factory or laboratory, such as poison"
+        },
+        {
+          "t": "residents",
+          "d": "people who live in a particular place"
+        },
+        {
+          "t": "breed",
+          "d": "have babies, or make young animals"
+        },
+        {
+          "t": "standing water",
+          "d": "water that stays in one place and does not move"
+        },
+        {
+          "t": "scale",
+          "d": "the size of something"
+        },
+        {
+          "t": "programme",
+          "d": "a plan of work with a clear aim"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a pair of words that naturally go together. Learn the pair as one piece, for example catch a disease.",
+        "items": [
+          {
+            "s": "People usually ____ dengue after being bitten by an infected mosquito.",
+            "a": "catch"
+          },
+          {
+            "s": "Empty any ____ water around your home, because mosquitoes breed there.",
+            "a": "standing"
+          },
+          {
+            "s": "____ health workers visit homes to answer questions.",
+            "a": "Public"
+          },
+          {
+            "s": "Mosquitoes multiply quickly after ____ rain.",
+            "a": "heavy"
+          },
+          {
+            "s": "Residents can ____ part in meetings about the plan.",
+            "a": "take"
+          }
+        ],
+        "extra": [
+          "make",
+          "pay"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
@@ -113,8 +182,8 @@
             "a": "build up"
           },
           {
-            "s": "Released mosquitoes ____ Wolbachia to later generations.",
-            "a": "pass"
+            "s": "Hand washing can ____ the spread of some infections.",
+            "a": "interrupt"
           },
           {
             "s": "Insecticide campaigns can be ____ quickly.",
@@ -130,8 +199,8 @@
           }
         ],
         "extra": [
-          "from nothing",
-          "essential"
+          "wear off",
+          "come up with"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Releasing mosquitoes into ____ neighbourhoods sounds like the last thing a health department should do.",
-            "cue": "RESIDENT",
-            "a": "residential"
+            "s": "By the time the factory opened, the method ____ in several Brazilian communities.",
+            "cue": "test",
+            "a": "had been tested"
           },
           {
-            "s": "Officials opened a major ____ centre in Curitiba for breeding mosquitoes.",
-            "cue": "PRODUCE",
-            "a": "production"
+            "s": "Spraying stopped in the street last month, and the mosquitoes ____ since.",
+            "cue": "return",
+            "a": "have returned"
           },
           {
-            "s": "Results from some locations have been ____.",
-            "cue": "COURAGE",
-            "a": "encouraging"
+            "s": "Right now, nobody ____ the method as a miracle cure.",
+            "cue": "describe",
+            "a": "is describing|describes"
           },
           {
-            "s": "Authorities must track ____ rates over several seasons.",
-            "cue": "INFECT",
-            "a": "infection"
+            "s": "If the programme had started a year earlier, more people ____ protected last season.",
+            "cue": "be",
+            "a": "would have been|could have been|might have been"
           },
           {
-            "s": "Clear ____ about the method are essential.",
-            "cue": "EXPLAIN",
-            "a": "explanations"
+            "s": "The facility ____ to expand a programme that already existed.",
+            "cue": "build",
+            "a": "was built"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "Falling dengue figures may have more than one explanation.",
           "a": "T",
           "why": "The text says: \"A fall in dengue cases can have more than one cause\""
+        },
+        {
+          "s": "The programme aims to create a new species of mosquito.",
+          "a": "F",
+          "why": "The text says: \"The aim is not to create a different species.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "outbreak",
+          "d": "a sudden increase in the number of people with a disease"
+        },
+        {
+          "t": "residential",
+          "d": "to do with places where people live, not work"
+        },
+        {
+          "t": "insecticide",
+          "d": "a chemical that kills insects"
+        },
+        {
+          "t": "generations",
+          "d": "each new group of young born after the one before"
+        },
+        {
+          "t": "reproduce",
+          "d": "have young and so make more of the same kind"
+        },
+        {
+          "t": "monitoring",
+          "d": "watching something carefully over time to see changes"
+        },
+        {
+          "t": "deliberately",
+          "d": "on purpose, not by accident"
+        },
+        {
+          "t": "subtle",
+          "d": "small and clever, not obvious"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Verbs are picky about their nouns. You raise awareness, face criticism and measure results, but you do not do them the other way round.",
+        "items": [
+          {
+            "s": "Spraying can ____ an immediate effect, but it wears off.",
+            "a": "have"
+          },
+          {
+            "s": "Posters and meetings help to ____ awareness of how the programme works.",
+            "a": "raise"
+          },
+          {
+            "s": "Officials who release insects may ____ criticism at first.",
+            "a": "face"
+          },
+          {
+            "s": "It takes years to ____ the results accurately.",
+            "a": "measure"
+          },
+          {
+            "s": "In the ____ term, the effect is designed to last.",
+            "a": "long"
+          }
+        ],
+        "extra": [
+          "heavy",
+          "pay"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Wolbachia is a naturally occurring, largely ____ bacterium.",
+            "s": "Most lumps are ____, but a doctor should still examine every one.",
             "a": "benign"
           },
           {
-            "s": "The intervention may appear ____ to the public.",
-            "a": "counter-intuitive"
+            "s": "Rather than ____ the species, the researchers want people to learn to live alongside it.",
+            "a": "exterminate"
           },
           {
-            "s": "The approach seeks a more ____ change in transmission capacity.",
+            "s": "Patients are entitled to ____ a treatment they do not want.",
+            "a": "decline"
+          },
+          {
+            "s": "A ____ solution still works years after it was installed, unlike a stopgap.",
             "a": "durable"
           },
           {
-            "s": "Interventions that operate on an environment rather than a patient therefore ____ collective agreement.",
-            "a": "rest on"
+            "s": "Hospitals rely on ____ to detect new cases of a disease before it spreads.",
+            "a": "surveillance"
           },
           {
-            "s": "It only works as a ____ operation, not a one-off intervention.",
-            "a": "sustained"
-          },
-          {
-            "s": "No responsible scientist would present it as ____.",
-            "a": "a silver bullet"
+            "s": "Economists often find that the correct policy is ____, which is why voters resist it.",
+            "a": "counter-intuitive"
           }
         ],
         "extra": [
-          "opt out",
-          "candour"
+          "convey",
+          "considerable"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The ____ lies in population replacement rather than straightforward population reduction.",
-            "cue": "INNOVATE",
-            "a": "innovation"
+            "s": "The ____ of the intervention depends on how widely Wolbachia spreads.",
+            "cue": "EFFECTIVE",
+            "a": "effectiveness"
           },
           {
-            "s": "It is worth noting how ____ such candour is in public health communication.",
-            "cue": "USUAL",
-            "a": "unusual"
+            "s": "Officials were criticised for their ____ to explain the risks.",
+            "cue": "WILLING",
+            "a": "unwillingness"
           },
           {
-            "s": "Spraying offers visible, immediate ____.",
-            "cue": "REASSURE",
-            "a": "reassurance"
+            "s": "The trial produced ____ results, so scientists asked for further research.",
+            "cue": "CONCLUDE",
+            "a": "inconclusive"
           },
           {
-            "s": "That requires ____ about monitoring and genuine community consultation.",
-            "cue": "TRANSPARENT",
-            "a": "transparency"
+            "s": "Presenting the figures without context would be ____.",
+            "cue": "MISLEAD",
+            "a": "misleading"
           },
           {
-            "s": "Officials must explain the method without ____ the evidence.",
-            "cue": "STATE",
-            "a": "overstating"
+            "s": "The agency promised greater ____ to the communities it affects.",
+            "cue": "ACCOUNT",
+            "a": "accountability"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Once released, the insects breed with wild mosquitoes and the bacterium spreads.",
+          "s": "The writer implies that insecticide has one advantage over the Wolbachia approach.",
           "a": "T",
-          "why": "The text says: \"Released insects reproduce with wild populations, allowing the bacterium to spread across successive generations.\""
+          "why": "The text says spraying \"at least offers visible, immediate reassurance\"."
         },
         {
-          "s": "Other South American countries have built similar factories.",
-          "a": "N",
-          "why": "Not stated. The text does not mention factories in other South American countries."
-        },
-        {
-          "s": "Nobody can choose to avoid the mosquitoes in their own street.",
-          "a": "T",
-          "why": "The text says: \"nobody can opt out of the mosquitoes in their own street.\""
-        },
-        {
-          "s": "The writer says the mosquitoes have become entirely harmless.",
+          "s": "The writer suggests that the Wolbachia approach removes the need for other disease-control measures.",
           "a": "F",
-          "why": "The text says the opposite: \"It is biological control, not a claim that the insects themselves have become entirely benign.\""
+          "why": "The text says even successful programmes \"must coexist with surveillance, treatment, sanitation\" and the removal of breeding sites."
+        },
+        {
+          "s": "Residents were consulted before the Curitiba facility was built.",
+          "a": "N",
+          "why": "The text says consultation is needed but does not say whether it happened."
+        },
+        {
+          "s": "According to the writer, consent works differently for a medical treatment than for a mosquito release.",
+          "a": "T",
+          "why": "An individual may decline treatment, but nobody can opt out of the mosquitoes in their own street."
+        },
+        {
+          "s": "The writer treats the size of the Curitiba plant as a sign that a single release would be enough.",
+          "a": "F",
+          "why": "The text says a facility of this size admits the method only works \"as a sustained operation, not as a one-off intervention\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "inaugurated",
+          "d": "officially opened, often with a ceremony"
+        },
+        {
+          "t": "conveyed",
+          "d": "communicated an idea or message to someone"
+        },
+        {
+          "t": "successive",
+          "d": "coming one after another"
+        },
+        {
+          "t": "consent",
+          "d": "permission, or agreement to something"
+        },
+        {
+          "t": "vectors",
+          "d": "creatures that carry a disease from one living thing to another"
+        },
+        {
+          "t": "coexist",
+          "d": "live or exist together at the same time"
+        },
+        {
+          "t": "sanitation",
+          "d": "the systems that keep places clean, such as drains and waste removal"
+        },
+        {
+          "t": "mechanism",
+          "d": "the way that something works"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some collocations are almost fixed chunks. You strike a balance, shed light on something and hold a vested interest. Learn the whole chunk.",
+        "items": [
+          {
+            "s": "The agency must ____ a balance between reassuring residents and admitting the risks.",
+            "a": "strike"
+          },
+          {
+            "s": "Careless messaging could ____ public trust for good.",
+            "a": "erode"
+          },
+          {
+            "s": "The announcement was ____ with scepticism.",
+            "a": "met"
+          },
+          {
+            "s": "A pilot study can ____ light on whether a method works in a particular climate.",
+            "a": "shed"
+          },
+          {
+            "s": "Companies with a ____ interest in the outcome should declare it.",
+            "a": "vested"
+          }
+        ],
+        "extra": [
+          "bear",
+          "pose"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a meeting about the mosquito release",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the health officer",
+      "text": "Mosquitoes carrying Wolbachia will soon be released in a neighbourhood. Explain the plan to a resident. Answer at least two questions honestly, including the fact that the mosquitoes can still bite."
+    },
+    "b": {
+      "role": "the resident",
+      "text": "You live in the neighbourhood and you're worried about more mosquitoes near your home. Ask questions and say what would make you feel safer. Decide at the end if you support the plan."
+    },
+    "phrases": [
+      "I'm worried about the mosquitoes near my house.",
+      "I'd like to understand how it works.",
+      "Let me explain what we're doing.",
+      "They can still bite, but they don't pass on dengue as easily.",
+      "What if the plan doesn't work?",
+      "I'm still not convinced, but I'll come to the meeting."
+    ],
+    "after": "Afterwards, tell the class: did the resident support the plan, and what changed their mind?"
   }
 }

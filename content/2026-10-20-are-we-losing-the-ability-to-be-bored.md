@@ -7,6 +7,7 @@ source: Communications Psychology | https://www.nature.com/articles/s44271-024-0
 image: images/are-we-losing-the-ability-to-be-bored-9b2620.jpg
 image-alt: Four people queue behind a red barrier tape in a shop, three of them looking down at their phones while an older man in a yellow jumper gazes at a rack of cards.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "____ and trees may make people feel better.",
-            "a": "Fresh air"
+            "s": "There is no magic ____ for a bad mood, but a walk can help.",
+            "a": "cure"
           },
           {
-            "s": "____ from noise and traffic may help people relax.",
-            "a": "Getting away"
+            "s": "It is hard to read a book when you are ____ by loud music.",
+            "a": "distracted"
           },
           {
-            "s": "Studies of stress produced ____.",
-            "a": "mixed results"
+            "s": "The beach was so ____ that there was no space to put down a towel.",
+            "a": "crowded"
           },
           {
-            "s": "Others have to ____ busy roads and few parks nearby.",
-            "a": "put up with"
+            "s": "The new library is bright and ____, so everyone wants to visit.",
+            "a": "welcoming"
           },
           {
-            "s": "A short walk is ____ when a day feels difficult.",
-            "a": "worth trying"
+            "s": "Swimming is cheap, but some sports need special ____.",
+            "a": "equipment"
           }
         ],
         "extra": [
-          "catch up",
-          "scroll through"
+          "route",
+          "noisy"
         ]
       },
       "match": [
@@ -67,9 +67,9 @@
             "a": "spending"
           },
           {
-            "s": "Towns must ____ care of these spaces.",
+            "s": "Last week, a friend ____ me to a small park near her house.",
             "cue": "take",
-            "a": "take"
+            "a": "took"
           },
           {
             "s": "You do not need ____ every step.",
@@ -98,40 +98,109 @@
           "s": "The review was paid for by a government.",
           "a": "N",
           "why": "Not stated. The text does not say who paid for the review."
+        },
+        {
+          "s": "The writer says people must count every step for a walk to help.",
+          "a": "F",
+          "why": "The text says: \"You do not need to count every step.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "evidence",
+          "d": "facts or signs that show something is true"
+        },
+        {
+          "t": "review",
+          "d": "a careful study of what other people have found"
+        },
+        {
+          "t": "access",
+          "d": "a way to reach or use something"
+        },
+        {
+          "t": "disability",
+          "d": "a condition that makes some activities harder for a person"
+        },
+        {
+          "t": "opportunity",
+          "d": "a chance to do something good"
+        },
+        {
+          "t": "experiments",
+          "d": "tests that scientists do to learn something"
+        },
+        {
+          "t": "concerns",
+          "d": "worries about something"
+        },
+        {
+          "t": "concentration",
+          "d": "giving all your attention to one thing"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Collocations are words that go together naturally. Learn the pair, not just the single word.",
+        "items": [
+          {
+            "s": "Open a window to let in some fresh ____.",
+            "a": "air"
+          },
+          {
+            "s": "I try to avoid walking along busy ____ with lots of traffic.",
+            "a": "roads"
+          },
+          {
+            "s": "Hiking is difficult in bad ____, especially when it rains all day.",
+            "a": "weather"
+          },
+          {
+            "s": "Many cities are planting trees to create more green ____ for residents.",
+            "a": "spaces"
+          },
+          {
+            "s": "Shouting at people rarely helps you deal with negative ____.",
+            "a": "emotions"
+          }
+        ],
+        "extra": [
+          "friends",
+          "tasks"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Researchers have been trying to ____ where the benefit comes from.",
-            "a": "work out"
+            "s": "A good experiment must give similar results each time it is repeated, so scientists always test its ____.",
+            "a": "reliability"
           },
           {
-            "s": "Enjoying a walk may make it easier to ____.",
-            "a": "keep up"
+            "s": "For many families, a holiday abroad is a ____ rather than something they can afford every year.",
+            "a": "luxury"
           },
           {
-            "s": "A woodland path is a luxury if you cannot ____ to travel.",
-            "a": "spare the time"
+            "s": "The hotel is cheap, but its ____ are poor, with no gym, pool or lift.",
+            "a": "facilities"
           },
           {
-            "s": "Meeting a friend combines movement, conversation and ____.",
-            "a": "a change of environment"
+            "s": "Hotel guests have different ____ for food, so the menu offers several choices.",
+            "a": "preferences"
           },
           {
-            "s": "This complexity should not ____ cities off creating green spaces.",
-            "a": "put"
+            "s": "Because of the ____ of the human mind, no single study can explain how people feel.",
+            "a": "complexity"
           },
           {
-            "s": "Nature does not ____, but it can support mood.",
-            "a": "work miracles"
+            "s": "The old footpath needs regular ____ to stay safe in winter.",
+            "a": "maintenance"
           }
         ],
         "extra": [
-          "look after",
-          "restorative"
+          "transport",
+          "hospitality"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Evidence was strongest for ____ in mood.",
-            "cue": "IMPROVE",
-            "a": "improvements"
+            "s": "By the time the review came out, researchers ____ dozens of studies.",
+            "cue": "examine",
+            "a": "had examined"
           },
           {
-            "s": "Findings for attention and memory were less ____.",
-            "cue": "CONSIST",
-            "a": "consistent"
+            "s": "Many city parks ____ more than a hundred years ago.",
+            "cue": "build",
+            "a": "were built"
           },
           {
-            "s": "Separating these influences ____ is not always straightforward.",
-            "cue": "SCIENCE",
-            "a": "scientifically"
+            "s": "She ____ the park every day since she moved here.",
+            "cue": "visit",
+            "a": "has visited|has been visiting"
           },
           {
-            "s": "Cities should create ____ green spaces.",
-            "cue": "ACCESS",
-            "a": "accessible"
+            "s": "If I ____ more free time, I would walk every morning.",
+            "cue": "have",
+            "a": "had"
           },
           {
-            "s": "Good design means safe paths, seating and ____.",
-            "cue": "MAINTAIN",
-            "a": "maintenance"
+            "s": "Telling individuals ____ outside more ignores practical differences.",
+            "cue": "go",
+            "a": "to go"
           }
         ]
       },
       "tfn": [
         {
-          "s": "A single walk transforms everybody's concentration.",
+          "s": "All the studies in the review measured stress in the same way.",
           "a": "F",
-          "why": "The text says the opposite: \"A pleasant afternoon outdoors is not necessarily a treatment for a mental health condition, and a single walk will not transform everybody's concentration.\""
+          "why": "The text says results for stress \"depended partly on how stress was measured\"."
         },
         {
-          "s": "Having little free time can limit how much people go outdoors.",
+          "s": "The writer thinks cities should stop creating green spaces because the benefits are unclear.",
+          "a": "F",
+          "why": "The text says the complexity \"should not put cities off creating accessible green spaces\"."
+        },
+        {
+          "s": "Someone near a safe park has more chances to go outside regularly than a person in a neighbourhood with no safe park.",
           "a": "T",
-          "why": "The text says: \"Weather, mobility and the demands of work can further limit people's choices.\""
+          "why": "The text compares someone near \"a safe, attractive park\" with a person in a neighbourhood with poor facilities."
         },
         {
-          "s": "Most British cities have increased their park budgets.",
+          "s": "The researchers who wrote the review work at a university.",
           "a": "N",
-          "why": "Not stated. The text does not say anything about city park budgets."
+          "why": "Not stated. The text does not say where the researchers work."
         },
         {
-          "s": "The review was published in late 2025.",
-          "a": "T",
-          "why": "The text says: \"published in the Journal of Environmental Psychology in November 2025\""
+          "s": "Walking with a friend makes it easy to say which part of the walk helps most.",
+          "a": "F",
+          "why": "The text says a walk with a friend makes it \"difficult to isolate one factor\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "genuinely",
+          "d": "in a real and honest way"
+        },
+        {
+          "t": "systematic",
+          "d": "done in an organised way, using a clear method"
+        },
+        {
+          "t": "randomised",
+          "d": "chosen by chance, not by a person's decision"
+        },
+        {
+          "t": "outcomes",
+          "d": "results of something"
+        },
+        {
+          "t": "factors",
+          "d": "things that help to cause a result"
+        },
+        {
+          "t": "straightforward",
+          "d": "simple and not complicated"
+        },
+        {
+          "t": "mobility",
+          "d": "the ability to move around easily"
+        },
+        {
+          "t": "neighbourhood",
+          "d": "the area around where you live"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Fixed pairs are often a verb plus noun or an adjective plus noun. Ask which word people usually choose, not only which word fits the meaning.",
+        "items": [
+          {
+            "s": "Some headlines ____ too much and then disappoint readers.",
+            "a": "promise"
+          },
+          {
+            "s": "A park beside a busy ____ can feel noisy and stressful.",
+            "a": "road"
+          },
+          {
+            "s": "A single ____ will not change your life, but regular exercise might.",
+            "a": "walk"
+          },
+          {
+            "s": "Many people want to get back to ordinary ____ after a long illness.",
+            "a": "life"
+          },
+          {
+            "s": "After comparing both studies, the ____ conclusion is that the evidence is still limited.",
+            "a": "reasonable"
+          }
+        ],
+        "extra": [
+          "traffic",
+          "energy"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Wellbeing cannot be ____ personal choice.",
-            "a": "reduced to"
+            "s": "Several ____ explanations were put forward, but none could be proved.",
+            "a": "plausible"
           },
           {
-            "s": "The evidence therefore supports a ____ conclusion rather than a dramatic one.",
-            "a": "measured"
+            "s": "The scandal served to ____ how little oversight the industry had.",
+            "a": "underline"
           },
           {
-            "s": "Experiments struggle to ____ these ingredients.",
-            "a": "tease apart"
+            "s": "Wheelchair users often have to ____ broken pavements and steep kerbs.",
+            "a": "negotiate"
           },
           {
-            "s": "Residents may ____ obstacles that motivation cannot solve.",
-            "a": "come up against"
+            "s": "The new tax produced a ____ increase in revenue, far more than had been forecast.",
+            "a": "substantial"
           },
           {
-            "s": "There is no ____ natural setting.",
-            "a": "one-size-fits-all"
+            "s": "The skyline was ____ by a vast glass tower.",
+            "a": "dominated"
           },
           {
-            "s": "Nature is neither a guaranteed psychological treatment nor ____.",
-            "a": "a substitute for healthcare"
+            "s": "Prolonged ____ to loud noise can damage hearing.",
+            "a": "exposure"
           }
         ],
         "extra": [
-          "affluent",
-          "inconsistent"
+          "modest",
+          "undermine"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "It is entirely possible for an activity to improve mood while offering less ____ effects on other aspects of cognition.",
+            "s": "The effects of the treatment proved far less ____ than the doctors had hoped.",
             "cue": "PREDICT",
             "a": "predictable"
           },
           {
-            "s": "Residents of neighbourhoods dominated by traffic or poor ____ may come up against obstacles.",
+            "s": "The council was criticised for years of ____ cuts that left the footpaths in poor condition.",
             "cue": "MAINTAIN",
             "a": "maintenance"
           },
           {
-            "s": "A second review suggested modest attention-____ benefits.",
+            "s": "The ____ of the old canal took nearly a decade.",
             "cue": "RESTORE",
             "a": "restoration"
           },
           {
-            "s": "There is an environmental ____ dimension too.",
-            "cue": "JUST",
-            "a": "justice"
+            "s": "Critics questioned the ____ of conclusions drawn from one small sample.",
+            "cue": "RELIABLE",
+            "a": "reliability"
           },
           {
-            "s": "The ____ availability of nature shows the limits of personal choice.",
-            "cue": "EVEN",
-            "a": "uneven"
+            "s": "The scheme's success is wholly ____ on volunteers.",
+            "cue": "DEPEND",
+            "a": "dependent"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The writer notes that research findings describe averages rather than promises.",
-          "a": "T",
-          "why": "The text says: \"Still, research findings are averages, not guarantees.\""
-        },
-        {
-          "s": "Urban park funding has fallen across Europe.",
-          "a": "N",
-          "why": "Not stated. The text says nothing about park funding in Europe."
-        },
-        {
-          "s": "The writer presents nature as a guaranteed psychological treatment.",
+          "s": "Both 2025 reviews gave strong support to the idea that nature improves attention.",
           "a": "F",
-          "why": "The text says the opposite: \"Natural environments can contribute to wellbeing, especially emotional wellbeing, but they are neither a guaranteed psychological treatment nor a substitute for healthcare.\""
+          "why": "The first review found attention findings inconsistent, and the second suggested only \"modest\" benefits."
         },
         {
-          "s": "The review's evidence for mood was firmer than its evidence for memory and attention.",
+          "s": "The writer argues that the research should mainly be used to urge individuals to spend more time outdoors.",
+          "a": "F",
+          "why": "The writer says policymakers should treat it as evidence for accessible public spaces, \"rather than\" another instruction to individuals."
+        },
+        {
+          "s": "Advice to visit nature would be harder to follow in a neighbourhood with heavy traffic and few public transport links.",
           "a": "T",
-          "why": "The text says: \"Researchers found relatively strong evidence that exposure to nature improved mood, while findings concerning memory and attention were inconsistent.\""
+          "why": "Residents of such areas \"may come up against obstacles that personal motivation cannot solve\"."
+        },
+        {
+          "s": "The reviews included studies carried out in more than one country.",
+          "a": "N",
+          "why": "Not stated. The text does not say where the studies took place."
+        },
+        {
+          "s": "The two reviews appeared in the same month.",
+          "a": "N",
+          "why": "Only the first review's month (November 2025) is given; the second is just \"a second 2025 review\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "randomised",
+          "d": "chosen or arranged by chance, not by choice"
+        },
+        {
+          "t": "systematic",
+          "d": "done in an organised way, following a clear method"
+        },
+        {
+          "t": "cognitive",
+          "d": "connected with thinking and understanding"
+        },
+        {
+          "t": "guarantees",
+          "d": "promises that something will definitely happen"
+        },
+        {
+          "t": "obstacles",
+          "d": "things that block your way or make progress hard"
+        },
+        {
+          "t": "policymakers",
+          "d": "people who decide official plans and rules"
+        },
+        {
+          "t": "justice",
+          "d": "fair treatment of everyone"
+        },
+        {
+          "t": "exposed",
+          "d": "open and not protected from wind or weather"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Test each pair for register as well as meaning. Fluent writers expect a particular adjective, verb or noun in formal phrases.",
+        "items": [
+          {
+            "s": "The article ____ an important question about who gets to use parks.",
+            "a": "raises"
+          },
+          {
+            "s": "The minister gave a ____ response, neither dismissing nor welcoming the report.",
+            "a": "measured"
+          },
+          {
+            "s": "Many economists regard early childhood education as a sound social ____.",
+            "a": "investment"
+          },
+          {
+            "s": "City councils employ specialists in urban ____ to decide where new homes and parks should go.",
+            "a": "planning"
+          },
+          {
+            "s": "There is rarely a straightforward ____ to complex social problems.",
+            "a": "solution"
+          }
+        ],
+        "extra": [
+          "uncertainty",
+          "motivation"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: our local park",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the council officer",
+      "text": "You have money for one job in the park this year: new lights, new benches or a new path. Ask the resident two questions, then decide what to offer. You can say yes, no, or yes to part of the request."
+    },
+    "b": {
+      "role": "the resident",
+      "text": "The park near your home is hard to enjoy. The path is broken and there are no benches. Ask the council to fix it, explain who needs it most, and try to get a date."
+    },
+    "phrases": [
+      "I'd like to talk about the park near my house.",
+      "It's hard for older people to use it.",
+      "We've only got money for one thing this year.",
+      "What matters most to you?",
+      "I'm afraid I can't promise a date.",
+      "Could we agree on a small first step?"
+    ],
+    "after": "Afterwards, tell the class what the council decided and whether you think it was fair."
   }
 }

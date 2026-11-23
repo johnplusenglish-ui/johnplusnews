@@ -7,6 +7,7 @@ source: American Academy of Sleep Medicine | https://aasm.org/new-survey-data-sl
 image: images/would-you-sleep-better-without-your-partner-d29714.jpg
 image-alt: A grey-bearded man sleeps open-mouthed on his back in bed while the woman beside him presses a pillow over one ear and glares at him, lamps lit on both sides.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

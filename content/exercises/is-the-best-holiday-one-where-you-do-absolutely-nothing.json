@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Imagine ____ without any plans at all.",
-            "a": "waking up"
+            "s": "A short ____ of 1,000 travellers asked what they wanted from a summer break.",
+            "a": "survey"
           },
           {
-            "s": "You could take a walk and see where you ____.",
-            "a": "end up"
+            "s": "Some people feel ____ to see everything because they have only a week.",
+            "a": "pressure"
           },
           {
-            "s": "With only a week away, people feel that ____.",
-            "a": "every minute needs to count"
+            "s": "Climbing mountains and trying new sports is the kind of ____ some people love.",
+            "a": "adventure"
           },
           {
-            "s": "You could simply enjoy ____ in the sunshine.",
-            "a": "a long lunch"
+            "s": "We rented a small ____ with a kitchen instead of staying in a hotel.",
+            "a": "apartment"
           },
           {
-            "s": "Travelling slowly can be expensive if you need more days ____.",
-            "a": "away from work"
+            "s": "A holiday in one town means you spend less on ____ because you take fewer trains.",
+            "a": "transport"
           }
         ],
         "extra": [
-          "restful",
-          "explore"
+          "budget",
+          "souvenir"
         ]
       },
       "match": [
@@ -52,11 +52,6 @@
         "kind": "verb",
         "items": [
           {
-            "s": "But a busy holiday can ____ people feeling tired.",
-            "cue": "leave",
-            "a": "leave"
-          },
-          {
             "s": "A 2025 survey ____ that 45% wanted rest and relaxation.",
             "cue": "find",
             "a": "found"
@@ -67,9 +62,14 @@
             "a": "saved"
           },
           {
-            "s": "Even a short weekend can feel restful if you do not try ____ too much in.",
-            "cue": "fit",
-            "a": "to fit|fitting"
+            "s": "Last summer we ____ in the same café every morning.",
+            "cue": "sit",
+            "a": "sat"
+          },
+          {
+            "s": "Last year we ____ tickets for six museums, but we were too tired to visit them.",
+            "cue": "buy",
+            "a": "bought"
           },
           {
             "s": "Before ____ every hour, it may be worth asking what you need.",
@@ -98,40 +98,109 @@
           "s": "The article says everyone should take a slow holiday.",
           "a": "F",
           "why": "The text says the opposite: \"Of course, doing nothing is not everybody's dream.\""
+        },
+        {
+          "s": "The writer thinks a short weekend cannot feel restful.",
+          "a": "F",
+          "why": "The text says: \"Even a short weekend can feel restful if you do not try to fit a week's activities into two days.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "boring",
+          "d": "not interesting, so you feel tired of it"
+        },
+        {
+          "t": "famous",
+          "d": "known by many people"
+        },
+        {
+          "t": "tickets",
+          "d": "pieces of paper that let you go into a place"
+        },
+        {
+          "t": "cultural",
+          "d": "about the art, music, food and history of a place"
+        },
+        {
+          "t": "particular",
+          "d": "one special thing, not any other"
+        },
+        {
+          "t": "reduce",
+          "d": "to make something smaller or less"
+        },
+        {
+          "t": "dream",
+          "d": "something you very much want to have or do"
+        },
+        {
+          "t": "detail",
+          "d": "one small piece of information about something"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word. The small word changes the meaning, so learn the two words together.",
+        "items": [
+          {
+            "s": "We woke ____ late and had breakfast in the garden.",
+            "a": "up"
+          },
+          {
+            "s": "The plane took ____ at six in the morning, so we were tired all day.",
+            "a": "off"
+          },
+          {
+            "s": "They checked ____ of the hotel at ten and caught a train.",
+            "a": "out"
+          },
+          {
+            "s": "It is hard to fit too many sights ____ a short weekend.",
+            "a": "in"
+          },
+          {
+            "s": "I'd love to get ____ from the city for a few days.",
+            "a": "away"
+          }
+        ],
+        "extra": [
+          "down",
+          "over"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "____ can be enjoyable, especially on a first visit.",
-            "a": "A packed itinerary"
+            "s": "Travellers queue to photograph famous ____ such as towers and old bridges.",
+            "a": "landmarks"
           },
           {
-            "s": "Travellers rush between attractions before ____ to the next place.",
-            "a": "moving on"
+            "s": "We are looking for cheap ____ near the beach, preferably with a kitchen.",
+            "a": "accommodation"
           },
           {
-            "s": "Someone might return to the same beach ____.",
-            "a": "several days in a row"
+            "s": "The ____ of an unplanned week by the sea is easy to understand: nobody has to hurry.",
+            "a": "appeal"
           },
           {
-            "s": "Staying longer creates chances to ____ a neighbourhood.",
-            "a": "get to know"
+            "s": "The hotel arranged two ____ between the airport and the station, and each one cost extra.",
+            "a": "transfers"
           },
           {
-            "s": "An empty itinerary might feel like ____.",
-            "a": "a missed opportunity"
+            "s": "Before choosing a ____, check how long the journey takes and what the weather is like.",
+            "a": "destination"
           },
           {
-            "s": "A couple with limited ____ may prefer a planned weekend.",
-            "a": "annual leave"
+            "s": "One of the ____ of long stays is that they need more days away from work.",
+            "a": "disadvantages"
           }
         ],
         "extra": [
-          "unstructured",
-          "affordable"
+          "expenditure",
+          "excursions"
         ]
       },
       "match": [
@@ -153,45 +222,45 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "A week abroad can feel like an unusually ____ job.",
-            "cue": "DEMAND",
-            "a": "demanding"
+            "s": "By the time we reached the beach, the café ____ for the day.",
+            "cue": "close",
+            "a": "had closed"
           },
           {
-            "s": "The desire for rest is not ____.",
-            "cue": "IMAGINE",
-            "a": "imaginary"
+            "s": "By the time we set off, every train and museum visit ____ for months.",
+            "cue": "book",
+            "a": "had been booked|was booked"
           },
           {
-            "s": "Visitors should not ____ ordinary communities as entertainment.",
-            "cue": "ROMANTIC",
-            "a": "romanticise"
+            "s": "If I had more annual leave, I ____ a whole month in Portugal.",
+            "cue": "spend",
+            "a": "would spend|'d spend"
           },
           {
-            "s": "Its ____ impact depends on more than the length of stay.",
-            "cue": "ENVIRONMENT",
-            "a": "environmental"
+            "s": "Since last year, my sister ____ in the same village for every holiday.",
+            "cue": "stay",
+            "a": "has stayed|has been staying"
           },
           {
-            "s": "Nor is a longer stay automatically ____.",
-            "cue": "SUSTAIN",
-            "a": "sustainable"
+            "s": "Slow travel encourages people ____ room for unexpected pleasures.",
+            "cue": "leave",
+            "a": "to leave"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The Marist Poll was carried out in July 2025.",
+          "s": "The Marist Poll can show only what some Americans think, not what travellers everywhere think.",
           "a": "T",
-          "why": "The text says: \"In a July 2025 Marist Poll, 45% of Americans who planned a summer holiday said rest and relaxation were their main goal.\""
+          "why": "The text says the survey \"does not prove that slow travel is becoming more popular everywhere\"."
         },
         {
-          "s": "The survey proves slow travel is becoming more popular everywhere.",
+          "s": "The writer says staying longer is always better for the environment.",
           "a": "F",
-          "why": "The text says the opposite: \"It does not prove that slow travel is becoming more popular everywhere, but it illustrates that relaxation is a major reason for travelling.\""
+          "why": "The text says: \"Nor is a longer stay automatically affordable or sustainable.\""
         },
         {
           "s": "Younger travellers prefer slower holidays.",
@@ -202,40 +271,109 @@
           "s": "Slow travel means that some sights will not be seen.",
           "a": "T",
           "why": "The text says: \"Slow travel also means accepting that you will miss things.\""
+        },
+        {
+          "s": "The writer thinks a couple with limited annual leave should take a two-week holiday.",
+          "a": "F",
+          "why": "The text says such a couple may get more out of a carefully planned weekend than a two-week holiday they cannot realistically take."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "demanding",
+          "d": "needing a lot of effort or attention"
+        },
+        {
+          "t": "recover",
+          "d": "to get your energy back after being tired"
+        },
+        {
+          "t": "imaginary",
+          "d": "not real, only in the mind"
+        },
+        {
+          "t": "romanticise",
+          "d": "to make something seem better or more exciting than it is"
+        },
+        {
+          "t": "sustainable",
+          "d": "good for the environment over a long time"
+        },
+        {
+          "t": "affordable",
+          "d": "not too expensive for most people"
+        },
+        {
+          "t": "relationship",
+          "d": "the way two things or people are connected"
+        },
+        {
+          "t": "impact",
+          "d": "the effect that something has"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs have more than one meaning. Read the whole sentence and ask which meaning fits.",
+        "items": [
+          {
+            "s": "It took me two days to get ____ the stress of a packed schedule.",
+            "a": "over"
+          },
+          {
+            "s": "The train stopped for an hour, but we carried ____ reading and did not mind.",
+            "a": "on"
+          },
+          {
+            "s": "The plan was to see six cities, but it did not work ____ because of the weather.",
+            "a": "out"
+          },
+          {
+            "s": "Let's catch ____ with old friends rather than visit another museum.",
+            "a": "up"
+          },
+          {
+            "s": "Locals suggested we drop ____ at the market for lunch.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "down",
+          "back"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The modern holiday is often organised around ____.",
-            "a": "a fear of missing out"
+            "s": "Critics call the tour ____ because visitors spend ten minutes at each site and never speak to a local.",
+            "a": "superficial"
           },
           {
-            "s": "Someone can ____ plenty to show and little sense of having rested.",
-            "a": "come home with"
+            "s": "Given that she will probably never return, spending her whole fortnight in the capital is a perfectly ____ choice.",
+            "a": "rational"
           },
           {
-            "s": "A visitor may ____ indoors for a fortnight and see very little.",
-            "a": "shut themselves away"
+            "s": "Local life only becomes visible through ____ engagement over weeks, not a single afternoon.",
+            "a": "sustained"
           },
           {
-            "s": "Slow travel encourages visitors to ____ the photographed landmarks.",
-            "a": "move beyond"
+            "s": "Rest was by far the ____ reason for the trip; every other motive came a long way behind.",
+            "a": "principal"
           },
           {
-            "s": "International travel can require ____ and limited leave.",
-            "a": "substantial expenditure"
+            "s": "Her diary was full, apart from one Sunday afternoon that she kept deliberately ____.",
+            "a": "unclaimed"
           },
           {
-            "s": "Restful travel can be rewarding when it reflects genuine preferences rather than pressure to ____ experiences.",
-            "a": "tick off"
+            "s": "Every minute of the two-day city break had been so tightly ____ that there was no room for a wrong turning.",
+            "a": "optimised"
           }
         ],
         "extra": [
-          "pass through",
-          "ambitious"
+          "negligible",
+          "ostentatious"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "A visitor can explore a place ____ without rushing.",
-            "cue": "ATTENTIVE",
-            "a": "attentively"
+            "s": "The ____ of tourists in the old town has left residents struggling to rent flats.",
+            "cue": "CONCENTRATE",
+            "a": "concentration"
           },
           {
-            "s": "Slow travel challenges the assumption that value is ____ to the number of attractions completed.",
-            "cue": "PROPORTION",
-            "a": "proportional"
+            "s": "A rushed itinerary leaves only ____ memories of the places you saw.",
+            "cue": "FRAGMENT",
+            "a": "fragmentary"
           },
           {
-            "s": "An ____ walk may provide a sense of freedom.",
-            "cue": "AIM",
-            "a": "aimless"
+            "s": "Many people consider an empty day wasteful, even ____, in a culture that prizes busyness.",
+            "cue": "PRODUCE",
+            "a": "unproductive"
           },
           {
-            "s": "The freedom to travel slowly is ____ distributed.",
-            "cue": "EQUAL",
-            "a": "unequally"
+            "s": "Local residents resented the ____ of visitors who treated their village like a film set.",
+            "cue": "THOUGHT",
+            "a": "thoughtlessness"
           },
           {
-            "s": "Perhaps the most ____ decision is to leave some hours unclaimed.",
-            "cue": "LIBERTY",
-            "a": "liberating"
+            "s": "It would be ____ to claim that one weekend can cure years of exhaustion.",
+            "cue": "REAL",
+            "a": "unrealistic"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The poll was repeated in several European countries.",
-          "a": "N",
-          "why": "Not stated. The text does not mention the poll being repeated in Europe."
+          "s": "The poll's result supports the idea that many holidaymakers want to recover, but it cannot show that slow travel is growing.",
+          "a": "T",
+          "why": "The text says recovery is \"a major motivation\" but \"The survey did not directly measure slow travel\"."
         },
         {
-          "s": "The writer says staying longer automatically makes tourism responsible.",
+          "s": "The writer believes that seeing many places in a short time is always a sign of superficial travel.",
           "a": "F",
-          "why": "The text says the opposite: \"Yet there is a danger in assuming that lingering somewhere automatically makes tourism more responsible.\""
+          "why": "The text says seeing several remarkable places \"is not necessarily a sign of superficial travel\"."
         },
         {
-          "s": "Almost half of the Americans planning a summer holiday named rest as their main aim.",
-          "a": "T",
-          "why": "The text says: \"Among Americans planning a summer holiday, 45% identified rest and relaxation as their principal aim\""
+          "s": "Most of the Americans in the survey took their summer holidays abroad.",
+          "a": "N",
+          "why": "Not stated. The text does not say where the respondents planned to travel."
         },
         {
-          "s": "Not everybody has the same ability to travel slowly.",
+          "s": "The writer accepts that a traveller who will visit a country only once may sensibly choose a busy schedule.",
           "a": "T",
-          "why": "The text says: \"The freedom to travel slowly is unequally distributed.\""
+          "why": "The text says an ambitious itinerary can be \"a rational choice for somebody who may never return to the destination\"."
+        },
+        {
+          "s": "The writer treats travelling slowly and staying still as the same thing.",
+          "a": "F",
+          "why": "The text says: \"There is a subtle difference between travelling slowly and simply staying still.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "itinerary",
+          "d": "a plan of the places you will visit on a trip"
+        },
+        {
+          "t": "fortnight",
+          "d": "a period of two weeks"
+        },
+        {
+          "t": "aimless",
+          "d": "without any clear purpose or direction"
+        },
+        {
+          "t": "attentively",
+          "d": "in a way that shows you are listening or looking carefully"
+        },
+        {
+          "t": "expenditure",
+          "d": "the amount of money that is spent"
+        },
+        {
+          "t": "genuine",
+          "d": "real, not pretended"
+        },
+        {
+          "t": "assumption",
+          "d": "something you accept as true without proof"
+        },
+        {
+          "t": "motivation",
+          "d": "the reason why someone wants to do something"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A small word can change the meaning completely: turn out and turn up are different. Read the whole sentence before you choose.",
+        "items": [
+          {
+            "s": "How the day would pan ____ was anyone's guess.",
+            "a": "out"
+          },
+          {
+            "s": "Rather than book ahead, she preferred to turn ____ and see what was available.",
+            "a": "up"
+          },
+          {
+            "s": "It is tempting to cram too much ____, but a trip loses its charm when every hour is booked.",
+            "a": "in"
+          },
+          {
+            "s": "The rain meant we had to call the whole outing ____.",
+            "a": "off"
+          },
+          {
+            "s": "She finally managed to get ____ from email by leaving her phone at home.",
+            "a": "away"
+          }
+        ],
+        "extra": [
+          "down",
+          "through"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: planning a week away",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the planner",
+      "text": "You want to see as much as possible on a week away. You've found six places and a list of tickets to book. Explain why it matters to you, and try to agree on a plan."
+    },
+    "b": {
+      "role": "the slow traveller",
+      "text": "You want a quiet holiday in one place, with nothing booked. Explain what you'd enjoy and why a busy week would spoil it for you."
+    },
+    "phrases": [
+      "I'd love to see as much as possible.",
+      "I'm worried we'll be too tired to enjoy it.",
+      "What if we spend a few days in one place?",
+      "That's a fair point, but we've only got a week.",
+      "Could we plan two busy days and leave the rest free?",
+      "I'm happy to compromise if we both get something we want."
+    ],
+    "after": "Afterwards, tell the class: what plan did you agree, and who gave way more?"
   }
 }

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You do not want to go ____, so you pay somebody to come with you.",
-            "a": "on your own"
+            "s": "The weather was perfect, and the hike was much more ____ with a friendly guide.",
+            "a": "enjoyable"
           },
           {
-            "s": "People move to large cities and ____ living far from family.",
-            "a": "end up"
+            "s": "After a few weeks of English classes, he felt ____ about speaking to strangers.",
+            "a": "confident"
           },
           {
-            "s": "Long working hours make it difficult to ____ with old friends.",
-            "a": "keep in touch"
+            "s": "Hot springs are ____ with tourists, so the roads are crowded in summer.",
+            "a": "popular"
           },
           {
-            "s": "Students use the work to ____.",
-            "a": "earn extra money"
+            "s": "It is ____ for a shop to open at four in the morning, so people were surprised.",
+            "a": "unusual"
           },
           {
-            "s": "The hours can ____ their studies.",
-            "a": "fit around"
+            "s": "They met at school and have been ____ friends ever since.",
+            "a": "lifelong"
           }
         ],
         "extra": [
-          "get on",
-          "unfamiliar"
+          "polite",
+          "familiar"
         ]
       },
       "match": [
@@ -52,86 +52,155 @@
         "kind": "verb",
         "items": [
           {
-            "s": "In China, some people pay a person ____ with them.",
-            "cue": "come",
-            "a": "to come"
+            "s": "Last summer, my sister ____ a guide to take her up a mountain.",
+            "cue": "pay",
+            "a": "paid"
           },
           {
-            "s": "In June 2026, Reuters ____ on this business in China.",
-            "cue": "report",
-            "a": "reported"
+            "s": "She wanted ____ the old town without getting lost.",
+            "cue": "see",
+            "a": "to see"
           },
           {
-            "s": "Some activities ____ also simply nicer with company.",
-            "cue": "be",
-            "a": "are"
+            "s": "Right now, he ____ for a friend outside the station.",
+            "cue": "wait",
+            "a": "is waiting"
           },
           {
-            "s": "The customers were not necessarily ____ for a lifelong friend.",
-            "cue": "look",
-            "a": "looking"
+            "s": "Last year, the company ____ cheap trips for students.",
+            "cue": "offer",
+            "a": "offered"
           },
           {
-            "s": "A paid companion is not automatically a close friend, even when the client ____ on well with them.",
-            "cue": "get",
-            "a": "gets"
+            "s": "While we ____ lunch, the guide explained the plan.",
+            "cue": "eat",
+            "a": "were eating"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Customers are usually looking for a lifelong friend.",
+          "s": "The company in the story offered companions for hikes on Mount Tai.",
+          "a": "T",
+          "why": "The text says: \"One company offered companions for hikes on Mount Tai, a famous mountain.\""
+        },
+        {
+          "s": "A paid companion is always a close friend.",
           "a": "F",
-          "why": "The text says the opposite: \"The customers were not necessarily looking for a lifelong friend.\""
+          "why": "The text says a paid companion \"is not automatically a close friend\"."
         },
         {
-          "s": "Some companions know the area well and make the day easier.",
+          "s": "Students can arrange the hours around their studies.",
           "a": "T",
-          "why": "The text says: \"Some companions help people feel more confident in an unfamiliar place, while others know the area well and can make the day easier and more enjoyable.\""
+          "why": "The text says: \"the hours can fit around their studies\"."
         },
         {
-          "s": "In June 2026, Reuters wrote about the business in China.",
-          "a": "T",
-          "why": "The text says: \"In June 2026, Reuters reported on this business in China.\""
-        },
-        {
-          "s": "The service costs about the same as a tour guide.",
+          "s": "The service costs less than a tour guide.",
           "a": "N",
-          "why": "Not stated. The text does not compare the cost of the service with the cost of a tour guide."
+          "why": "The text does not say how much the service costs."
+        },
+        {
+          "s": "Reuters wrote about this business in 2025.",
+          "a": "F",
+          "why": "The text says: \"In June 2026, Reuters reported on this business in China.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "hire",
+          "d": "to pay someone to do a job or to come with you"
+        },
+        {
+          "t": "companions",
+          "d": "people who go somewhere with you"
+        },
+        {
+          "t": "sightseeing",
+          "d": "visiting famous places as a tourist"
+        },
+        {
+          "t": "customers",
+          "d": "people who pay for a product or service"
+        },
+        {
+          "t": "safety",
+          "d": "being free from danger"
+        },
+        {
+          "t": "arrangement",
+          "d": "a plan or agreement between people"
+        },
+        {
+          "t": "compare",
+          "d": "to look at two things to see how they are the same or different"
+        },
+        {
+          "t": "experience",
+          "d": "something that happens to you, or something you do"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some words need a small word after them. Learn the pair together, for example depend on.",
+        "items": [
+          {
+            "s": "Thank you ____ the lovely day out.",
+            "a": "for"
+          },
+          {
+            "s": "The price depends ____ how many hours you book.",
+            "a": "on"
+          },
+          {
+            "s": "My cousin is very good ____ finding quiet restaurants.",
+            "a": "at"
+          },
+          {
+            "s": "Some customers are worried ____ their safety when they meet a stranger.",
+            "a": "about"
+          },
+          {
+            "s": "A guide you book is different ____ a friend, because you agree a price.",
+            "a": "from"
+          }
+        ],
+        "extra": [
+          "of",
+          "with"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "A paid outing becomes ____ rather than a lonely one.",
-            "a": "a shared experience"
+            "s": "The manager gave the nervous new employee some ____ that the first week would be easy.",
+            "a": "reassurance"
           },
           {
-            "s": "The other person has agreed to be there, even ____.",
-            "a": "at short notice"
+            "s": "Because the city is ____, new shops and cafes open every month.",
+            "a": "expanding"
           },
           {
-            "s": "Most people have had plans ____.",
-            "a": "fall through"
+            "s": "Teachers and students should agree clear ____ before the first lesson, such as when messages can be sent.",
+            "a": "boundaries"
           },
           {
-            "s": "An arrangement that is unlikely to be cancelled ____ has obvious appeal.",
-            "a": "on a whim"
+            "s": "Living in a village with no bus service, many older residents feel ____ from the rest of the community.",
+            "a": "isolated"
           },
           {
-            "s": "Company is the product itself, not something that ____ a tour.",
-            "a": "comes along with"
+            "s": "Finishing a long project can be deeply ____, even when the work was tiring.",
+            "a": "satisfying"
           },
           {
-            "s": "Does a relationship become less meaningful once ____?",
-            "a": "money changes hands"
+            "s": "The ____ of cheap flights has made weekend city breaks a common choice.",
+            "a": "appeal"
           }
         ],
         "extra": [
-          "strike up",
-          "flexible"
+          "intimacy",
+          "reliable"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Their value is not necessarily ____ intimacy.",
-            "cue": "EMOTION",
-            "a": "emotional"
+            "s": "By the time we reached the trail, the other hikers ____.",
+            "cue": "leave",
+            "a": "had left"
           },
           {
-            "s": "Traditional social networks ____ in large cities.",
-            "cue": "WEAK",
-            "a": "weaken"
+            "s": "If I ____ about the service, I would have booked a companion.",
+            "cue": "know",
+            "a": "had known"
           },
           {
-            "s": "That ____ may explain more of the appeal than loneliness.",
-            "cue": "RELY",
-            "a": "reliability"
+            "s": "Last month, the service ____ in three more cities.",
+            "cue": "introduce",
+            "a": "was introduced"
           },
           {
-            "s": "It may be ____ to describe every customer as isolated.",
-            "cue": "MISLEAD",
-            "a": "misleading"
+            "s": "By next year, the company ____ offices in ten cities.",
+            "cue": "open",
+            "a": "will have opened"
           },
           {
-            "s": "The service overlaps with tourism and personal ____.",
-            "cue": "ASSIST",
-            "a": "assistance"
+            "s": "It is the third time this month that she ____ her plans.",
+            "cue": "change",
+            "a": "has changed"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Some providers specialise in helping customers climb Mount Tai.",
+          "s": "Companions advertise their services online.",
           "a": "T",
-          "why": "The text says: \"Some providers specialise in particular activities, such as helping customers climb Mount Tai.\""
+          "why": "The text says: \"companions advertise their services online\"."
         },
         {
-          "s": "A paid day out ends with a payment rather than a plan to meet again.",
+          "s": "The text suggests a paid companion is more certain to turn up than a friend.",
           "a": "T",
-          "why": "The text says: \"A good day out with a paid companion ends with a payment rather than a plan to meet up again, which some customers will find perfectly comfortable and others may find less satisfying.\""
+          "why": "The text says a paid appointment offers \"the other person will definitely be there, even at short notice\", which ordinary friendships cannot guarantee."
         },
         {
           "s": "Every customer who hires a companion is lonely.",
           "a": "F",
-          "why": "The text says the opposite: \"It may also be misleading to describe every customer as isolated.\""
+          "why": "The text says: \"It may also be misleading to describe every customer as isolated.\""
         },
         {
           "s": "The industry is regulated by the Chinese government.",
           "a": "N",
-          "why": "Not stated. The text does not say whether the Chinese government regulates the industry."
+          "why": "The text does not say whether the government regulates the industry."
+        },
+        {
+          "s": "A day out with a paid companion usually ends with a plan for the next meeting.",
+          "a": "F",
+          "why": "The text says it \"ends with a payment rather than a plan to meet up again\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "accompany",
+          "d": "to go somewhere with someone"
+        },
+        {
+          "t": "outing",
+          "d": "a short trip for pleasure"
+        },
+        {
+          "t": "specialise",
+          "d": "to focus on one particular kind of work or activity"
+        },
+        {
+          "t": "solution",
+          "d": "an answer to a problem"
+        },
+        {
+          "t": "attraction",
+          "d": "something that makes people interested or draws them in"
+        },
+        {
+          "t": "navigate",
+          "d": "to find the way through a place"
+        },
+        {
+          "t": "convenience",
+          "d": "something that makes life easier"
+        },
+        {
+          "t": "overlaps",
+          "d": "shares part of the same area or purpose"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Verbs, adjectives and nouns often take one fixed preposition. Learn the whole phrase, not the small word alone.",
+        "items": [
+          {
+            "s": "Some providers specialise ____ guiding visitors up mountains.",
+            "a": "in"
+          },
+          {
+            "s": "Few customers object ____ paying for someone's time.",
+            "a": "to"
+          },
+          {
+            "s": "You cannot always rely ____ a friend to turn up at short notice.",
+            "a": "on"
+          },
+          {
+            "s": "The company was criticised ____ failing to explain its safety rules.",
+            "a": "for"
+          },
+          {
+            "s": "Most customers were satisfied ____ the service.",
+            "a": "with"
+          }
+        ],
+        "extra": [
+          "at",
+          "of"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "In China, some customers pay someone to ____ on a hike.",
-            "a": "come along"
+            "s": "The tenants were ____ to sign a new lease until the landlord agreed to repair the roof.",
+            "a": "reluctant"
           },
           {
-            "s": "Jobs and ____ social networks leave people without companions.",
-            "a": "fragmented"
+            "s": "A generous salary hardly ____ staff for the stress of working nights.",
+            "a": "compensates"
           },
           {
-            "s": "Reports described providers offering everything from practical help to encouragement on ____ mountain walks.",
-            "a": "demanding"
+            "s": "Under the terms she had ____ with her employer, she could work from home on Fridays.",
+            "a": "negotiated"
           },
           {
-            "s": "Much of the discomfort may ____ a question of honesty.",
-            "a": "boil down to"
+            "s": "In a city with ____ cafes and restaurants, choosing where to eat is rarely difficult.",
+            "a": "abundant"
           },
           {
-            "s": "What unsettles observers is seeing the exchange stated in a price rather than left politely ____.",
-            "a": "unspoken"
+            "s": "The proposal ____ strong feelings whenever it is raised at a meeting.",
+            "a": "provokes"
           },
           {
-            "s": "Reliable human presence has become a surprisingly ____.",
-            "a": "scarce commodity"
+            "s": "He felt a moral ____ to tell the truth, whatever the consequences.",
+            "a": "obligation"
           }
         ],
         "extra": [
-          "dependable",
-          "simplistic"
+          "unsettles",
+          "dismissive"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "____ companionship introduces an unusual kind of clarity.",
-            "cue": "COMMERCIAL",
-            "a": "Commercialising|Commercializing"
+            "s": "Many workers resent the ____ of being available at all hours.",
+            "cue": "EXPECT",
+            "a": "expectation"
           },
           {
-            "s": "Geographic ____ leaves people surrounded by strangers.",
-            "cue": "MOBILE",
-            "a": "mobility"
+            "s": "The ____ of the arrangement made both sides relax.",
+            "cue": "TRANSPARENT",
+            "a": "transparency"
           },
           {
-            "s": "Neither party has to pretend that the arrangement is an ____ personal bond.",
-            "cue": "ENDURE",
-            "a": "enduring"
+            "s": "Critics called the scheme ____ because it took advantage of lonely people.",
+            "cue": "ETHIC",
+            "a": "unethical"
           },
           {
-            "s": "The transaction may sharpen existing ____.",
-            "cue": "EQUAL",
-            "a": "inequalities"
+            "s": "Researchers link chronic ____ to poorer health.",
+            "cue": "LONELY",
+            "a": "loneliness"
           },
           {
-            "s": "Those skills are easy to ____ and easy to undervalue.",
-            "cue": "ROMANTIC",
-            "a": "romanticise|romanticize"
+            "s": "Rising rents make it ____ for young people to live near their work.",
+            "cue": "AFFORD",
+            "a": "unaffordable"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Reporting in June 2026 described providers offering encouragement on mountain walks.",
+          "s": "The text suggests that a paid companion's attendance is less in doubt than a reluctant friend's.",
           "a": "T",
-          "why": "The text says: \"Reporting in June 2026 described this so-called companionship economy, with providers offering everything from practical assistance to encouragement on demanding mountain walks.\""
+          "why": "The text says: \"Unlike a reluctant friend, a paid companion has explicitly agreed to attend.\""
         },
         {
-          "s": "Most companions are university students.",
-          "a": "N",
-          "why": "Not stated. The text does not say who the companions are, for example students."
-        },
-        {
-          "s": "The writer treats the industry as proof that friendship has disappeared.",
+          "s": "The writer thinks the discomfort people feel is mainly about the quality of the company provided.",
           "a": "F",
-          "why": "The text says the opposite: \"It would be simplistic, however, to write the industry off as proof that friendship has disappeared.\""
+          "why": "The text says it \"may boil down to a question of honesty rather than substance\"."
         },
         {
-          "s": "Paid companionship is a job that is easy to undervalue.",
+          "s": "Providers of paid company earn more than tour guides.",
+          "a": "N",
+          "why": "The text does not compare what companions and guides earn."
+        },
+        {
+          "s": "Paid companionship could widen the gap between people who can buy experiences and people who rely on personal relationships.",
           "a": "T",
-          "why": "The text says: \"Remaining attentive and interested for a paying stranger is genuinely demanding, and it is a job that is easy to romanticise and easy to undervalue at the same time.\""
+          "why": "The text says the transaction \"may sharpen existing inequalities\", because some people can purchase experiences that others reach only through personal relationships."
+        },
+        {
+          "s": "The writer treats the rise of paid companionship as proof that people no longer value friendship.",
+          "a": "F",
+          "why": "The text says it \"would be simplistic\" to write the industry off as proof that friendship has disappeared."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "fragmented",
+          "d": "broken into separate parts that do not fit together"
+        },
+        {
+          "t": "dependable",
+          "d": "able to be trusted to do what is promised"
+        },
+        {
+          "t": "scarce",
+          "d": "hard to find because there is not enough"
+        },
+        {
+          "t": "commodity",
+          "d": "something that can be bought and sold"
+        },
+        {
+          "t": "romanticise",
+          "d": "to make something seem better or more attractive than it is"
+        },
+        {
+          "t": "undervalue",
+          "d": "to treat as less important or valuable than it is"
+        },
+        {
+          "t": "clarity",
+          "d": "the quality of being clear and easy to understand"
+        },
+        {
+          "t": "inequalities",
+          "d": "unfair differences in wealth, chances or power"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At this level the preposition belongs to a formal adjective. Learn each pair as one unit.",
+        "items": [
+          {
+            "s": "For some critics, the service is tantamount ____ renting affection by the hour.",
+            "a": "to"
+          },
+          {
+            "s": "The trend may be symptomatic ____ a deeper loneliness in big cities.",
+            "a": "of"
+          },
+          {
+            "s": "A paid friendship is fraught ____ awkward questions about sincerity.",
+            "a": "with"
+          },
+          {
+            "s": "The arrangement is contingent ____ payment, which is exactly what unsettles its critics.",
+            "a": "on"
+          },
+          {
+            "s": "Some customers are adept ____ hiding how lonely they feel.",
+            "a": "at"
+          }
+        ],
+        "extra": [
+          "by",
+          "from"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: hiring a companion for a hike",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the customer",
+      "text": "You want to hike up a mountain on Saturday, but your friends are busy. Ask a companion to come with you. Find out the price, the hours and what the companion will do."
+    },
+    "b": {
+      "role": "the companion",
+      "text": "You are a student and you work as a paid companion. You want clear rules before you agree: the price, how long you will stay, and what you will and won't do. Say yes, or suggest a change."
+    },
+    "phrases": [
+      "I'd like to book you for Saturday.",
+      "How much do you charge for a full day?",
+      "I'm happy to walk with you, but I'd need to finish by five.",
+      "What's included in the price?",
+      "That's more than I'd planned to pay.",
+      "Let's agree the rules before we start."
+    ],
+    "after": "Afterwards, tell the class: did you agree a deal, and was it fair for both people?"
   }
 }

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You have spent the day answering emails and ____ small problems.",
-            "a": "sorting out"
+            "s": "After three nights with no sleep, she felt completely ____ and could hardly stand.",
+            "a": "exhausted"
           },
           {
-            "s": "We need to concentrate, remember information and ____.",
-            "a": "make decisions"
+            "s": "Ben is always ____ to help his neighbours, even late at night.",
+            "a": "willing"
           },
           {
-            "s": "You may ____ ordering food instead of cooking.",
-            "a": "end up"
+            "s": "The company gave every player a small ____ for finishing first.",
+            "a": "reward"
           },
           {
-            "s": "Planning meals ____ can make evenings easier.",
-            "a": "in advance"
+            "s": "Too much ____ at work can make people feel stressed all the time.",
+            "a": "pressure"
           },
           {
-            "s": "Short breaks may help some people, but there is no ____ for everybody.",
-            "a": "magic solution"
+            "s": "A ____ person eats well and goes to bed on time.",
+            "a": "sensible"
           }
         ],
         "extra": [
-          "share out",
-          "demanding"
+          "schedule",
+          "journey"
         ]
       },
       "match": [
@@ -52,29 +52,29 @@
         "kind": "verb",
         "items": [
           {
-            "s": "In a 2025 study, researchers ____ people to do thinking tasks.",
-            "cue": "ask",
-            "a": "asked"
+            "s": "Last Friday, I ____ home very late and fell asleep on the sofa.",
+            "cue": "come",
+            "a": "came"
           },
           {
-            "s": "Mental work ____ energy too.",
-            "cue": "use",
-            "a": "uses"
+            "s": "She has ____ at her desk since nine o'clock.",
+            "cue": "sit",
+            "a": "sat"
           },
           {
-            "s": "Imagine ____ home hungry after a busy day.",
-            "cue": "arrive",
-            "a": "arriving"
+            "s": "The results of the study ____ in a science journal.",
+            "cue": "publish",
+            "a": "were published"
           },
           {
-            "s": "Feeling exhausted for weeks should not ____ on a busy day.",
-            "cue": "blame",
-            "a": "be blamed"
+            "s": "After work, I enjoy ____ a long walk.",
+            "cue": "take",
+            "a": "taking"
           },
           {
-            "s": "Participants were less willing ____ a task that needed more mental effort.",
-            "cue": "choose",
-            "a": "to choose"
+            "s": "He was too tired ____ a big meal.",
+            "cue": "cook",
+            "a": "to cook"
           }
         ]
       },
@@ -82,7 +82,7 @@
         {
           "s": "The study explains all kinds of tiredness.",
           "a": "F",
-          "why": "The text says the opposite: \"The study involved 28 people, so we should not treat it as an explanation for all tiredness.\""
+          "why": "The text says: \"we should not treat it as an explanation for all tiredness.\""
         },
         {
           "s": "Stress, poor sleep and illness can also cause tiredness.",
@@ -90,48 +90,117 @@
           "why": "The text says: \"Stress, poor sleep, illness and many other things can also cause tiredness.\""
         },
         {
-          "s": "Mental tiredness can make everyday choices feel surprisingly important.",
+          "s": "The tired people in the study preferred easier tasks, even when a harder task gave a bigger reward.",
           "a": "T",
-          "why": "The text says: \"Mental tiredness can also make ordinary choices feel surprisingly important.\""
+          "why": "They were \"less willing to choose a task that needed more mental effort, even when it offered a bigger reward.\""
         },
         {
           "s": "Mental fatigue affects younger people more than older ones.",
           "a": "N",
-          "why": "Not stated. The text does not say whether younger or older people are more affected."
+          "why": "The text does not say whether younger or older people are more affected."
+        },
+        {
+          "s": "The writer says that people who feel tired after thinking all day are lazy.",
+          "a": "F",
+          "why": "The text says: \"This does not mean we are lazy.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "cognitive",
+          "d": "to do with thinking and remembering"
+        },
+        {
+          "t": "fatigue",
+          "d": "a feeling of being very tired"
+        },
+        {
+          "t": "participants",
+          "d": "the people who take part in a study"
+        },
+        {
+          "t": "concentrate",
+          "d": "to put all your attention on one thing"
+        },
+        {
+          "t": "workloads",
+          "d": "the amounts of work that people have to do"
+        },
+        {
+          "t": "professional",
+          "d": "a person trained to do a skilled job, like a doctor"
+        },
+        {
+          "t": "organising",
+          "d": "planning things so that they happen well"
+        },
+        {
+          "t": "strict",
+          "d": "very firm, with no room to change"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many adjectives and verbs are followed by one fixed small word. Learn the pair together, for example good at.",
+        "items": [
+          {
+            "s": "I'm tired ____ answering the same emails every day.",
+            "a": "of"
+          },
+          {
+            "s": "Thank you ____ helping me with the report.",
+            "a": "for"
+          },
+          {
+            "s": "I rely ____ coffee to get through the afternoon.",
+            "a": "on"
+          },
+          {
+            "s": "He's very good ____ planning his week.",
+            "a": "at"
+          },
+          {
+            "s": "She shared the housework ____ her brother.",
+            "a": "with"
+          }
+        ],
+        "extra": [
+          "into",
+          "over"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "There was no ____ or long journey, just hours of thinking.",
-            "a": "heavy lifting"
+            "s": "The shop manager's ____ about next month's sales made it hard for him to plan.",
+            "a": "uncertainty"
           },
           {
-            "s": "Someone may feel ____ despite barely moving all day.",
-            "a": "worn out"
+            "s": "Working two jobs for a year put a serious ____ on her health.",
+            "a": "strain"
           },
           {
-            "s": "Fatigue can change our willingness to ____ difficult tasks.",
-            "a": "take on"
+            "s": "If you are unsure how much sleep you need, ask a doctor for ____.",
+            "a": "guidance"
           },
           {
-            "s": "The brain has not simply ____ energy like an empty battery.",
-            "a": "run out of"
+            "s": "Her apology sounded ____, so everyone believed she meant it.",
+            "a": "genuine"
           },
           {
-            "s": "A sudden change in how tired you feel may be ____ that something else is wrong.",
-            "a": "a warning sign"
+            "s": "Being busy does not ____ ignoring your friends.",
+            "a": "justify"
           },
           {
-            "s": "People should ____ rather than dismissing exhaustion.",
-            "a": "take recovery seriously"
+            "s": "Replacing every old computer in the building would be ____ for a small firm.",
+            "a": "costly"
           }
         ],
         "extra": [
-          "persistent",
-          "cognitive"
+          "efficiency",
+          "exertion"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Researchers describe this experience as ____ fatigue.",
-            "cue": "COGNITION",
-            "a": "cognitive"
+            "s": "By the time she got home, she ____ nothing since breakfast.",
+            "cue": "eat",
+            "a": "had eaten"
           },
           {
-            "s": "It does not mean their tiredness is ____.",
-            "cue": "IMAGINE",
-            "a": "imaginary"
+            "s": "The experiment ____ in a university laboratory last year.",
+            "cue": "carry out",
+            "a": "was carried out"
           },
           {
-            "s": "They used brain ____ to investigate mental exertion.",
-            "cue": "IMAGE",
-            "a": "imaging"
+            "s": "If you ____ enough tonight, tomorrow will feel even harder.",
+            "cue": "not sleep",
+            "a": "don't sleep"
           },
           {
-            "s": "The researchers studied how mental ____ might influence the value people attach to future effort.",
-            "cue": "EXERT",
-            "a": "exertion"
+            "s": "She avoids ____ her phone after nine o'clock.",
+            "cue": "check",
+            "a": "checking"
           },
           {
-            "s": "The real problem may be ____ demands or poor sleep.",
-            "cue": "EXCESS",
-            "a": "excessive"
+            "s": "While I ____ dinner, the phone rang.",
+            "cue": "cook",
+            "a": "was cooking"
           }
         ]
       },
       "tfn": [
         {
-          "s": "A larger follow-up study is under way.",
-          "a": "N",
-          "why": "Not stated. The text does not mention any follow-up study."
-        },
-        {
-          "s": "The study was reported in 2025 in a neuroscience journal.",
+          "s": "The writer accepts that tiredness after mental work is a real experience.",
           "a": "T",
-          "why": "The text says: \"In a 2025 Journal of Neuroscience study, 28 participants performed demanding tasks\""
+          "why": "The text says it \"does not mean their tiredness is imaginary\"."
         },
         {
-          "s": "The study shows the brain runs out of energy like a battery.",
+          "s": "The 2025 study proved that people have a fixed supply of decision-making energy that runs out.",
           "a": "F",
-          "why": "The text says the opposite: \"It does not mean that the brain has simply run out of energy like a phone with an empty battery.\""
+          "why": "The text calls that popular explanation \"too simple\" and says it does not mean a fixed supply \"has been used up\"."
         },
         {
-          "s": "The experiment did not involve a large number of people.",
+          "s": "Most of the participants in the study were university students.",
+          "a": "N",
+          "why": "The text gives the number of participants but does not say who they were."
+        },
+        {
+          "s": "The small size of the study and the many other causes of tiredness both mean it cannot be used to diagnose a person.",
           "a": "T",
-          "why": "The text says: \"The experiment was relatively small\""
+          "why": "The experiment was \"relatively small\", tiredness \"has many possible causes\", and no such study \"should be used to diagnose\" exhaustion."
+        },
+        {
+          "s": "After they became fatigued, participants chose harder options more often when the reward was bigger.",
+          "a": "F",
+          "why": "They were \"less willing to choose more demanding options, even when those options could bring greater benefits\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "cognitive",
+          "d": "to do with thinking and remembering"
+        },
+        {
+          "t": "participants",
+          "d": "people who take part in a study"
+        },
+        {
+          "t": "imaging",
+          "d": "making pictures of the inside of the body, such as the brain"
+        },
+        {
+          "t": "willingness",
+          "d": "being ready and happy to do something"
+        },
+        {
+          "t": "productivity",
+          "d": "how much work a person gets done"
+        },
+        {
+          "t": "psychological",
+          "d": "to do with the mind and feelings"
+        },
+        {
+          "t": "distress",
+          "d": "a feeling of great worry or unhappiness"
+        },
+        {
+          "t": "dismissing",
+          "d": "deciding that something is not important"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "After a noun or adjective, the preposition is usually fixed. Learn the whole phrase, not just the word.",
+        "items": [
+          {
+            "s": "A lack ____ sleep is a common cause of tiredness.",
+            "a": "of"
+          },
+          {
+            "s": "Too many late nights can result ____ poor concentration.",
+            "a": "in"
+          },
+          {
+            "s": "Your energy for the evening depends ____ how the day went.",
+            "a": "on"
+          },
+          {
+            "s": "Managers are responsible ____ setting realistic workloads.",
+            "a": "for"
+          },
+          {
+            "s": "Many people struggle to cope ____ constant interruptions.",
+            "a": "with"
+          }
+        ],
+        "extra": [
+          "by",
+          "at"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "People frequently ____ analytical tasks, emotional interactions and minor administrative decisions.",
-            "a": "switch between"
-          },
-          {
-            "s": "Sleep, illness, medication and strain can all contribute, sometimes ____.",
-            "a": "in overlapping ways"
-          },
-          {
-            "s": "Each task seems manageable alone, but the ____ demand can make more concentration unattractive.",
+            "s": "No single request was unreasonable, but their ____ weight, added up over months, became unbearable.",
             "a": "cumulative"
           },
           {
-            "s": "Emotional interactions can be ____ as routine.",
-            "a": "brushed aside"
+            "s": "Her explanation sounded ____, yet nobody could find any evidence to support it.",
+            "a": "plausible"
           },
           {
-            "s": "Fatigue should not be used as ____.",
-            "a": "an all-purpose explanation"
+            "s": "After a ____ illness that kept him in bed for several months, he returned to work part-time.",
+            "a": "prolonged"
           },
           {
-            "s": "A plausible mechanism does not ____ illness or sleep disorders.",
-            "a": "rule out"
+            "s": "The panel was deliberately ____, including nurses, engineers and an artist.",
+            "a": "diverse"
+          },
+          {
+            "s": "Tired of old photographs, he preferred ____ art that reflected life in the present decade.",
+            "a": "contemporary"
+          },
+          {
+            "s": "The first test was easy, but participants found every ____ test harder.",
+            "a": "subsequent"
           }
         ],
         "extra": [
-          "strenuous",
-          "nuanced"
+          "analytical",
+          "habitual"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "We might ask whether the pace of their lives is ____.",
-            "cue": "SUSTAIN",
-            "a": "sustainable"
+            "s": "One small experiment offers little ____ for rewriting an entire company's break policy.",
+            "cue": "JUSTIFY",
+            "a": "justification"
           },
           {
-            "s": "When tiredness is severe, ____ or prolonged, clinical assessment may be appropriate.",
-            "cue": "EXPLAIN",
-            "a": "unexplained"
+            "s": "Persistent tiredness may point to an ____ medical condition rather than a busy schedule.",
+            "cue": "UNDERLIE",
+            "a": "underlying"
           },
           {
-            "s": "Sleep ____ can cause similar symptoms.",
-            "cue": "DEPRIVE",
-            "a": "deprivation"
+            "s": "Doctors rarely draw a sharp ____ between mental and physical tiredness, since the two overlap.",
+            "cue": "DISTINGUISH",
+            "a": "distinction"
           },
           {
-            "s": "Instead of treating every exhausted person as ____ disciplined, we might ask what demands they have been carrying.",
-            "cue": "SUFFICIENT",
-            "a": "insufficiently"
+            "s": "It is wholly ____ to expect anyone to stay alert for ten hours without a proper break.",
+            "cue": "REAL",
+            "a": "unrealistic"
           },
           {
-            "s": "Better workloads and genuine ____ matter for mental work too.",
-            "cue": "RECOVER",
-            "a": "recovery"
+            "s": "The ____ of conclusions drawn from only 28 participants is open to question.",
+            "cue": "RELY",
+            "a": "reliability"
           }
         ]
       },
       "tfn": [
         {
-          "s": "According to the writer, organisations tend to measure effort by what can be seen.",
+          "s": "The writer suggests that mental work can be undervalued because its effort is hard to see.",
           "a": "T",
-          "why": "The text says: \"Employers and institutions frequently evaluate effort according to visible hours, completed tasks or physical demands.\""
+          "why": "Employers judge effort by \"visible hours\", while cognitive work \"is harder to observe\" and can be \"brushed aside as routine\"."
         },
         {
-          "s": "The article says cognitive fatigue explains all persistent exhaustion.",
+          "s": "The writer treats the small sample as a reason to trust the study's conclusions more.",
           "a": "F",
-          "why": "The text says the opposite: \"It would be a mistake, however, to attribute persistent exhaustion automatically to cognitive fatigue.\""
+          "why": "The text says \"The small sample also limits how broadly its conclusions can be applied.\""
         },
         {
-          "s": "The researchers scanned participants' brains while they carried out demanding tasks.",
-          "a": "T",
-          "why": "The text says: \"Researchers used functional brain imaging while 28 participants completed demanding mental tasks\""
-        },
-        {
-          "s": "Employers have begun introducing longer breaks as a result.",
+          "s": "The participants in the study all worked in offices.",
           "a": "N",
-          "why": "Not stated. The text does not say whether employers have introduced longer breaks."
+          "why": "The text gives the number of participants but not their jobs."
+        },
+        {
+          "s": "The writer accepts that mental fatigue is real but warns against blaming it for every case of exhaustion.",
+          "a": "T",
+          "why": "The study's findings are taken seriously, yet \"It would be a mistake\" to attribute persistent exhaustion automatically to cognitive fatigue."
+        },
+        {
+          "s": "The writer sees the popular fuel metaphor and the study's conclusions as describing the same thing.",
+          "a": "F",
+          "why": "The study is \"more nuanced\" than the metaphor and concerns \"not a simple depletion\" of energy."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "exertion",
+          "d": "hard physical or mental effort"
+        },
+        {
+          "t": "alters",
+          "d": "changes something, often only slightly"
+        },
+        {
+          "t": "depletion",
+          "d": "using something up until little is left"
+        },
+        {
+          "t": "attribute",
+          "d": "to say that something is caused by something else"
+        },
+        {
+          "t": "institutions",
+          "d": "large organisations such as schools, hospitals and companies"
+        },
+        {
+          "t": "implications",
+          "d": "things that may follow from a fact or decision"
+        },
+        {
+          "t": "mechanism",
+          "d": "the way that something works or happens"
+        },
+        {
+          "t": "sustained",
+          "d": "continuing for a long time without a break"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some phrases are fixed and cannot be guessed from meaning. Learn each noun or adjective with its preposition.",
+        "items": [
+          {
+            "s": "Doctors are reluctant to attribute persistent tiredness solely ____ overwork.",
+            "a": "to"
+          },
+          {
+            "s": "Each decision looks trivial ____ isolation, yet together they weigh heavily.",
+            "a": "in"
+          },
+          {
+            "s": "Symptoms like these are often indicative ____ a deeper problem.",
+            "a": "of"
+          },
+          {
+            "s": "Her insistence ____ regular breaks irritated her manager.",
+            "a": "on"
+          },
+          {
+            "s": "Many managers are preoccupied ____ visible hours.",
+            "a": "with"
+          }
+        ],
+        "extra": [
+          "at",
+          "from"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: who cooks tonight?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the tired partner",
+      "text": "You've spent the whole day at a desk, answering emails and making decisions. You're exhausted and you don't want to cook or even choose dinner. Ask for help and suggest a simple plan."
+    },
+    "b": {
+      "role": "the other partner",
+      "text": "You've had a busy day too, and you're hungry. You think sitting down all day isn't really tiring. Ask questions, then agree a fair plan for tonight and for the rest of the week."
+    },
+    "phrases": [
+      "I've had a really long day, and I can't think any more.",
+      "I know I've been sitting down, but my head is exhausted.",
+      "Could you choose something for dinner tonight?",
+      "I'd cook, but I've got no energy left.",
+      "How about we share the cooking this week?",
+      "That's fair, as long as we're both happy with it."
+    ],
+    "after": "Afterwards, tell the class: what plan did you agree, and who got the better deal?"
   }
 }

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Friends ____, have children or move to other cities.",
-            "a": "get married"
+            "s": "Both of my friends have very busy ____, so it is hard to find a free evening.",
+            "a": "schedules"
           },
           {
-            "s": "Technology can help people ____ when they live far apart.",
-            "a": "keep in touch"
+            "s": "Thank you for the ____ to your party, but I am away that weekend.",
+            "a": "invitation"
           },
           {
-            "s": "A person may have few people they can call when something ____.",
-            "a": "goes wrong"
+            "s": "We only have an ____ coffee together, perhaps twice a year.",
+            "a": "occasional"
           },
           {
-            "s": "Other friendships can begin ____, in unexpected places.",
-            "a": "later in life"
+            "s": "Many people go to live ____ for work, so their friends stay behind.",
+            "a": "abroad"
           },
           {
-            "s": "Friendship is worth planning for, not just something that happens ____.",
-            "a": "by accident"
+            "s": "Making a new friend ____ time and patience.",
+            "a": "requires"
           }
         ],
         "extra": [
-          "turn into",
-          "dependable"
+          "colleague",
+          "regularly"
         ]
       },
       "match": [
@@ -52,29 +52,29 @@
         "kind": "verb",
         "items": [
           {
-            "s": "When you are at school, ____ friends can feel natural.",
-            "cue": "make",
-            "a": "making"
+            "s": "Last year, my best friend ____ to another city.",
+            "cue": "move",
+            "a": "moved"
           },
           {
-            "s": "Many people ____ this change in their thirties.",
-            "cue": "notice",
-            "a": "notice"
+            "s": "We ____ each other every day when we were at school.",
+            "cue": "see",
+            "a": "saw"
           },
           {
-            "s": "In 2025, the WHO ____ that one in six people felt lonely.",
-            "cue": "report",
-            "a": "reported"
+            "s": "She ____ me a message yesterday to suggest a walk.",
+            "cue": "send",
+            "a": "sent"
           },
           {
-            "s": "Loneliness ____ when we want more connection than we have.",
-            "cue": "happen",
-            "a": "happens"
+            "s": "I ____ a new friend at the cooking class last month.",
+            "cue": "meet",
+            "a": "met"
           },
           {
-            "s": "Building trust ____ time.",
-            "cue": "take",
-            "a": "takes"
+            "s": "Last weekend we ____ for a long walk in the park.",
+            "cue": "go",
+            "a": "went"
           }
         ]
       },
@@ -82,7 +82,7 @@
         {
           "s": "The WHO reported that about one in six people worldwide felt lonely.",
           "a": "T",
-          "why": "The text says: \"In 2025, the World Health Organization reported that about one in six people worldwide experienced loneliness.\""
+          "why": "The text says: \"about one in six people worldwide experienced loneliness.\""
         },
         {
           "s": "Loneliness only affects people over thirty.",
@@ -98,40 +98,109 @@
           "s": "Most new friendships begin at work.",
           "a": "N",
           "why": "Not stated. The text does not say where most new friendships begin."
+        },
+        {
+          "s": "In the WHO estimates, younger adults reported loneliness more often than older adults.",
+          "a": "T",
+          "why": "The text says: \"Younger adults actually reported loneliness more often than older adults in its estimates.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "loneliness",
+          "d": "the sad feeling of having no one to talk to"
+        },
+        {
+          "t": "volunteering",
+          "d": "working for free to help other people"
+        },
+        {
+          "t": "trust",
+          "d": "a feeling that you can believe someone"
+        },
+        {
+          "t": "contacts",
+          "d": "people you know and can send messages to"
+        },
+        {
+          "t": "unusual",
+          "d": "not normal or not the same as most things"
+        },
+        {
+          "t": "impossible",
+          "d": "not able to happen at all"
+        },
+        {
+          "t": "repeated",
+          "d": "done again and again"
+        },
+        {
+          "t": "dozens",
+          "d": "a lot of, many"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some words naturally go together. Learn the pair, not just one word.",
+        "items": [
+          {
+            "s": "It is hard to ____ friends when you move to a new city.",
+            "a": "make"
+          },
+          {
+            "s": "Good friends ____ time together, even when they are busy.",
+            "a": "spend"
+          },
+          {
+            "s": "It takes a long time to ____ trust with someone new.",
+            "a": "build"
+          },
+          {
+            "s": "She is a very ____ friend, so I tell her everything.",
+            "a": "close"
+          },
+          {
+            "s": "A ____ social life does not always need a large number of friends.",
+            "a": "strong"
+          }
+        ],
+        "extra": [
+          "do",
+          "pay"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "The number of contacts in an app tells us little about whether somebody has anyone to ____ in a difficult week.",
-            "a": "fall back on"
-          },
-          {
-            "s": "A friendship that once involved ____ evenings now needs planning.",
+            "s": "We went on a ____ trip to the coast, decided on the same morning.",
             "a": "spontaneous"
           },
           {
-            "s": "Someone usually has to ____ and suggest meeting again.",
-            "a": "take the next step"
+            "s": "The ____ that only older people feel lonely is not supported by the figures.",
+            "a": "stereotype"
           },
           {
-            "s": "Two friends may ____ as their circumstances diverge.",
-            "a": "drift apart"
+            "s": "Their ____ changed after she lost her job, and she had less time for friends.",
+            "a": "circumstances"
           },
           {
-            "s": "New friendships can ____ much later in life.",
-            "a": "spring up"
+            "s": "After the argument, their conversations became very ____ and emotional.",
+            "a": "intense"
           },
           {
-            "s": "We should stop treating adult friendship as ____.",
-            "a": "an optional extra"
+            "s": "Their friendship managed to ____ five years of living in different countries.",
+            "a": "survive"
+          },
+          {
+            "s": "Joining the club was ____, so nobody had to come if they did not want to.",
+            "a": "optional"
           }
         ],
         "extra": [
-          "content",
-          "crowded calendars"
+          "isolated",
+          "scale"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The WHO's 2025 report on social ____ estimated the scale.",
-            "cue": "CONNECT",
-            "a": "connection"
+            "s": "By the time I was thirty, most of my friends ____ to other cities.",
+            "cue": "move",
+            "a": "had moved"
           },
           {
-            "s": "In adult life, those opportunities are less ____.",
-            "cue": "PREDICT",
-            "a": "predictable"
+            "s": "Last year, the walking club ____ by a group of volunteers.",
+            "cue": "organise",
+            "a": "was organised"
           },
           {
-            "s": "Loneliness and social ____ are different things.",
-            "cue": "ISOLATE",
-            "a": "isolation"
+            "s": "You ____ her a message; she is probably waiting to hear from you.",
+            "cue": "should / send",
+            "a": "should send"
           },
           {
-            "s": "People need time, ____ spaces and confidence.",
-            "cue": "ACCESS",
-            "a": "accessible"
+            "s": "If we had lived closer, we ____ each other more often.",
+            "cue": "see",
+            "a": "would have seen"
           },
           {
-            "s": "Meaningful connection requires attention and ____.",
-            "cue": "RECIPROCAL",
-            "a": "reciprocity"
+            "s": "He ____ meeting again, but nobody answered his message.",
+            "cue": "suggest",
+            "a": "suggested"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Joining an activity guarantees a close friendship.",
+          "s": "According to the report, loneliness is not mainly a problem for older people.",
+          "a": "T",
+          "why": "The text says the figures challenge \"the stereotype that loneliness mainly affects older people.\""
+        },
+        {
+          "s": "The writer says one friendly conversation at work is always enough to make a friend.",
           "a": "F",
-          "why": "The text says the opposite: \"Community groups, classes and volunteering can help, although joining an activity does not guarantee a close friendship.\""
+          "why": "The text says: \"A friendly conversation at work is not always enough.\""
         },
         {
-          "s": "The WHO figures suggested loneliness was common among younger adults.",
-          "a": "T",
-          "why": "The text says: \"Its figures suggested that loneliness was particularly common among adolescents and younger adults, challenging the stereotype that loneliness mainly affects older people.\""
-        },
-        {
-          "s": "Loneliness has increased since the pandemic.",
+          "s": "Most adults in their thirties say they have fewer friends than they had at university.",
           "a": "N",
-          "why": "Not stated. The text does not say whether loneliness has risen since the pandemic."
+          "why": "Not stated. The text gives no figures about how many friends adults in their thirties have."
         },
         {
-          "s": "Video calls can help friendships last through moves abroad.",
+          "s": "The writer suggests that a person with many contacts in an app may still have nobody to rely on.",
           "a": "T",
-          "why": "The text says: \"Voice messages and video calls allow relationships to survive international moves\""
+          "why": "The text says the number of contacts \"tells us little about whether somebody has anyone to fall back on.\""
+        },
+        {
+          "s": "The writer says that friendships which fade have ended badly.",
+          "a": "F",
+          "why": "The text says: \"Relationships also change without necessarily ending badly.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "adolescents",
+          "d": "young people who are no longer children but not yet adults"
+        },
+        {
+          "t": "isolation",
+          "d": "the state of being alone and far from other people"
+        },
+        {
+          "t": "reciprocity",
+          "d": "when two people give and get the same kind of help"
+        },
+        {
+          "t": "accessible",
+          "d": "easy to reach or to use"
+        },
+        {
+          "t": "predictable",
+          "d": "easy to know before it happens"
+        },
+        {
+          "t": "diverge",
+          "d": "to start to go in different ways"
+        },
+        {
+          "t": "bond",
+          "d": "a close link between people"
+        },
+        {
+          "t": "scale",
+          "d": "the size of something"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Verbs and nouns often come as fixed pairs. Check which verb sounds natural with the noun, as in a common phrase you already know.",
+        "items": [
+          {
+            "s": "At school, people ____ experiences and gradually become close.",
+            "a": "share"
+          },
+          {
+            "s": "It is hard to ____ regular contact with friends when you work night shifts.",
+            "a": "maintain"
+          },
+          {
+            "s": "A good listener can offer real emotional ____ during a difficult week.",
+            "a": "support"
+          },
+          {
+            "s": "Friendships fade if you do not ____ attention to them.",
+            "a": "pay"
+          },
+          {
+            "s": "A busy job can ____ pressure on friendships.",
+            "a": "put"
+          }
+        ],
+        "extra": [
+          "take",
+          "hold"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Friendship rarely appears ____.",
-            "a": "out of nowhere"
-          },
-          {
-            "s": "The evidence resists a ____ narrative about loneliness after 30.",
+            "s": "Blaming loneliness on a single cause is a ____ explanation that ignores the evidence.",
             "a": "simplistic"
           },
           {
-            "s": "Both may fear seeming too keen or ____.",
+            "s": "She hesitated to phone so often, worried that her constant calls might seem ____.",
             "a": "intrusive"
           },
           {
-            "s": "Making room for contact and ____ a good conversation matters.",
-            "a": "following up"
+            "s": "Adults often have to arrange meetings ____, because contact no longer happens by chance.",
+            "a": "deliberately"
           },
           {
-            "s": "A person may lack somebody to ____ during a crisis.",
-            "a": "turn to"
+            "s": "After a ____ friendship of thirty years, a few silent months did not worry her.",
+            "a": "longstanding"
           },
           {
-            "s": "Contact that ____ does not always indicate rejection.",
-            "a": "tails off"
+            "s": "Her approach to networking involved ____ contacts rather than building trust.",
+            "a": "accumulating"
+          },
+          {
+            "s": "Few people are willing to be ____ with someone they have only just met.",
+            "a": "vulnerable"
           }
         ],
         "extra": [
-          "glamorous",
-          "reciprocal"
+          "transient",
+          "reclusive"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Adult friendship has a ____ problem.",
-            "cue": "LOGISTICS",
-            "a": "logistical"
+            "s": "Friendship needs ____ if it is to survive busy schedules.",
+            "cue": "COMMIT",
+            "a": "commitment"
           },
           {
-            "s": "Professional commitments and geographical ____ reshape networks.",
-            "cue": "MOBILE",
-            "a": "mobility"
+            "s": "The report's findings were ____ for many readers who assumed loneliness mainly affects older people.",
+            "cue": "SURPRISE",
+            "a": "surprising"
           },
           {
-            "s": "The practical difficulties are easy to ____.",
-            "cue": "ESTIMATE",
-            "a": "underestimate"
+            "s": "Her ____ to reply made him wonder whether he had offended her.",
+            "cue": "RELUCTANT",
+            "a": "reluctance"
           },
           {
-            "s": "Making room for regular contact and accepting occasional ____ may matter more than charm.",
-            "cue": "AWKWARD",
-            "a": "awkwardness"
+            "s": "Greater ____ at work would give people more time for friends.",
+            "cue": "FLEXIBLE",
+            "a": "flexibility"
           },
           {
-            "s": "Expensive transport and ____ venues limit opportunities.",
-            "cue": "ACCESS",
-            "a": "inaccessible"
+            "s": "The evidence ____ the argument that loneliness is not limited to one age group.",
+            "cue": "STRONG",
+            "a": "strengthens"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The writer separates the feeling of loneliness from a lack of social contact.",
+          "s": "The writer suggests that a person with few friends could feel better supported than someone with a full diary.",
           "a": "T",
-          "why": "The text says: \"It is also important to distinguish loneliness from social isolation.\""
+          "why": "The text says someone with a small circle \"may feel supported\" while a person with a busy social life \"may lack anyone\" to be vulnerable with."
         },
         {
-          "s": "The writer says becoming more outgoing is the solution.",
+          "s": "The writer says that infrequent contact with an old friend is of little value.",
           "a": "F",
-          "why": "The text says the opposite: \"The solution is not necessarily to become more outgoing.\""
+          "why": "The text says such contact \"can remain deeply meaningful.\""
         },
         {
-          "s": "The WHO estimate suggests roughly one person in six is lonely.",
-          "a": "T",
-          "why": "The text says: \"estimated that approximately one in six people worldwide experienced loneliness.\""
-        },
-        {
-          "s": "Community funding for social spaces has been cut.",
+          "s": "The writer believes employers should give staff paid time off for socialising.",
           "a": "N",
-          "why": "Not stated. The text does not say whether community funding for social spaces has changed."
+          "why": "Not stated. The text only says employers \"may\" influence whether adults have time to build connections."
+        },
+        {
+          "s": "The writer says daily messages with many acquaintances are as good as having one person to rely on in a crisis.",
+          "a": "F",
+          "why": "The text says frequent contact \"is not identical to emotional support.\""
+        },
+        {
+          "s": "The writer implies that failing to find time to meet is rarely a sign that two people do not care about each other.",
+          "a": "T",
+          "why": "The text says two people can \"care deeply about each other and still struggle to find an evening.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "logistical",
+          "d": "connected with organising the details of a plan"
+        },
+        {
+          "t": "mobility",
+          "d": "the ability to move from place to place"
+        },
+        {
+          "t": "acquaintances",
+          "d": "people you know a little but are not close to"
+        },
+        {
+          "t": "evolve",
+          "d": "to change slowly over time"
+        },
+        {
+          "t": "infrastructure",
+          "d": "the basic systems that a society needs to work"
+        },
+        {
+          "t": "outgoing",
+          "d": "friendly and happy to meet new people"
+        },
+        {
+          "t": "crisis",
+          "d": "a time of great difficulty or danger"
+        },
+        {
+          "t": "initiative",
+          "d": "the ability to start something yourself"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Look for the partner that a native speaker would expect. Adverbs, adjectives and verbs all have favourite partners, so try each word in the gap and listen to it.",
+        "items": [
+          {
+            "s": "Two people can care ____ about each other and still lose touch.",
+            "a": "deeply"
+          },
+          {
+            "s": "Long hours and ____ commitments leave little room for friends.",
+            "a": "professional"
+          },
+          {
+            "s": "Many adults fit friends around a ____ schedule.",
+            "a": "demanding"
+          },
+          {
+            "s": "A move abroad can ____ a person's daily routine and social habits.",
+            "a": "reshape"
+          },
+          {
+            "s": "Over the years, they managed to ____ a bond of real trust.",
+            "a": "build"
+          }
+        ],
+        "extra": [
+          "lightly",
+          "drift"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: finding time for a friend",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the busy friend",
+      "text": "You work long hours and you're tired at the weekend. You'd like to stay friends, but you don't want a big plan. Suggest a short coffee or a video call. Say what you can and cannot do."
+    },
+    "b": {
+      "role": "the friend who misses you",
+      "text": "You haven't seen your friend for three months. Messages are not enough for you. Ask to meet face to face, for a walk or a meal. Try to agree a date before you finish."
+    },
+    "phrases": [
+      "How about we meet on Saturday?",
+      "I'd love to, but I'm busy that day.",
+      "Let's make a plan before we say goodbye.",
+      "I don't want us to drift apart.",
+      "That works for me.",
+      "Could we meet halfway?"
+    ],
+    "after": "Afterwards, tell the class: what plan did you agree, and was it fair to both of you?"
   }
 }

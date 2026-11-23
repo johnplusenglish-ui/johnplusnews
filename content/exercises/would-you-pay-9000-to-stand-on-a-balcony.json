@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "The streets ____ early and can become extremely crowded.",
-            "a": "fill up"
+            "s": "The old streets, the music and the candles gave the night a magical ____.",
+            "a": "atmosphere"
           },
           {
-            "s": "Some property owners ____ these spaces to visitors.",
-            "a": "rent out"
+            "s": "Many ____ of Seville cannot afford the best places in their own city.",
+            "a": "residents"
           },
           {
-            "s": "Balconies were renting for around €6,000 ____.",
-            "a": "for the whole week"
+            "s": "The price of the balcony includes ____, so you get lunch and drinks while you watch.",
+            "a": "catering"
           },
           {
-            "s": "Nobody has to ____ if they think it is too expensive.",
-            "a": "take the offer"
+            "s": "Some people go to the processions because of their ____, not only for the show.",
+            "a": "faith"
           },
           {
-            "s": "They fear that ordinary residents will be ____ from the best places.",
-            "a": "pushed away"
+            "s": "We arrived early to get a good place on the ____ the processions follow.",
+            "a": "route"
           }
         ],
         "extra": [
-          "make a profit",
-          "religious"
+          "crowd",
+          "festival"
         ]
       },
       "match": [
@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Religious groups ____ large decorated images through the streets.",
-            "cue": "carry",
-            "a": "carry"
+            "s": "Last spring, we ____ for three hours behind a wall of people.",
+            "cue": "stand",
+            "a": "stood"
           },
           {
             "s": "Holy Week ____ as Semana Santa in Spanish.",
@@ -92,46 +92,115 @@
         {
           "s": "Nobody can watch the processions without paying.",
           "a": "F",
-          "why": "The text says the opposite: \"Of course, people can still watch many processions from the public streets without paying anything.\""
+          "why": "The text says the opposite: \"people can still watch many processions from the public streets without paying anything.\""
         },
         {
           "s": "The quoted prices cover the whole week, not a single procession.",
           "a": "T",
           "why": "The text says: \"These are prices for the week, not the price of standing outside for a few minutes.\""
+        },
+        {
+          "s": "The writer says that every balcony costs about €9,000.",
+          "a": "F",
+          "why": "The text says the highest figures were \"for particular locations or packages, not for every balcony\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "average",
+          "d": "the usual amount, not very high and not very low"
+        },
+        {
+          "t": "property",
+          "d": "a building or land that someone owns"
+        },
+        {
+          "t": "customers",
+          "d": "people who buy things or pay for a service"
+        },
+        {
+          "t": "product",
+          "d": "something that people make and sell"
+        },
+        {
+          "t": "processions",
+          "d": "groups of people walking slowly together in a line"
+        },
+        {
+          "t": "decorated",
+          "d": "made to look nice with extra things"
+        },
+        {
+          "t": "desirable",
+          "d": "something that many people want to have"
+        },
+        {
+          "t": "gather",
+          "d": "come together in one place"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some linking words show a contrast (although, however), some show a reason (because) and some show a result (so). Read the whole sentence before you choose.",
+        "items": [
+          {
+            "s": "____ the streets are free, many people wait for hours.",
+            "a": "Although"
+          },
+          {
+            "s": "Many owners rent out their balconies ____ visitors will pay a lot.",
+            "a": "because"
+          },
+          {
+            "s": "The streets are very crowded, ____ some visitors pay for a balcony.",
+            "a": "so"
+          },
+          {
+            "s": "Some people think owners can charge what they want. ____, others say the tradition belongs to everyone.",
+            "a": "However"
+          },
+          {
+            "s": "Many families cannot pay for a balcony. ____ of sitting down, they stand in the street.",
+            "a": "Instead"
+          }
+        ],
+        "extra": [
+          "despite",
+          "therefore"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Brotherhoods carry ____ images through the historic centre.",
+            "s": "The company made a ____ profit last year, far more than anyone had predicted.",
+            "a": "substantial"
+          },
+          {
+            "s": "The costumes were so ____ that each one took months to sew by hand.",
             "a": "elaborate"
           },
           {
-            "s": "The best positions are ____ well in advance.",
-            "a": "snapped up"
+            "s": "Under the new rules, shops are not ____ to stay open on public holidays.",
+            "a": "obliged"
           },
           {
-            "s": "A balcony offers a comfortable and ____ view.",
-            "a": "uninterrupted"
+            "s": "Our hotel room has a lovely balcony ____ the old market square.",
+            "a": "overlooking"
           },
           {
-            "s": "A balcony removes the waiting and the blocked streets ____.",
-            "a": "at a stroke"
+            "s": "Buying a ticket in advance gives you the ____ that you will get in.",
+            "a": "certainty"
           },
           {
-            "s": "Critics fear commercial competition is ____ of the event.",
-            "a": "pricing local families out"
-          },
-          {
-            "s": "The best of anything drifts ____ of local people.",
-            "a": "out of reach"
+            "s": "Tourism can ____ a small town's economy by bringing in money all year round.",
+            "a": "sustain"
           }
         ],
         "extra": [
-          "handed down",
-          "premium"
+          "exclusivity",
+          "convenience"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The cost of renting a balcony was ____.",
-            "cue": "ORDINARY",
-            "a": "extraordinary"
+            "s": "By the time we reached the street, every balcony ____.",
+            "cue": "take",
+            "a": "had been taken"
           },
           {
-            "s": "Owners can earn substantial sums from space used ____.",
-            "cue": "PRIVATE",
-            "a": "privately"
+            "s": "If prices keep rising, local families ____ able to afford a view.",
+            "cue": "not / be",
+            "a": "won't be"
           },
           {
-            "s": "Visitors pay for convenience and ____.",
-            "cue": "EXCLUSIVE",
-            "a": "exclusivity"
+            "s": "The processions ____ by thousands of people every year.",
+            "cue": "watch",
+            "a": "are watched"
           },
           {
-            "s": "Access to convenient spaces becomes ____.",
-            "cue": "EQUAL",
-            "a": "unequal"
+            "s": "Critics say the tradition ____ a lot over the last decade.",
+            "cue": "change",
+            "a": "has changed"
           },
           {
-            "s": "Good fortune in the property market is not a ____ to the tradition.",
-            "cue": "CONTRIBUTE",
-            "a": "contribution"
+            "s": "You ____ to pay if you watch from the street.",
+            "cue": "not / need",
+            "a": "don't need"
           }
         ]
       },
@@ -186,56 +255,125 @@
         {
           "s": "Seville's property administrators released the figures in March 2026.",
           "a": "T",
-          "why": "The text says: \"According to information released by Seville's property administrators in March 2026, the average price for a centrally located balcony during the week had reached around €6,000.\""
+          "why": "The text says the figures were \"released by Seville's property administrators in March 2026\"."
         },
         {
           "s": "Supporters argue that the processions can no longer be seen from the public streets.",
           "a": "F",
-          "why": "The text says the opposite: \"Supporters reply that the processions remain visible from public streets and that privately owned balconies are not public property.\""
+          "why": "The text says the opposite: \"Supporters reply that the processions remain visible from public streets\"."
         },
         {
-          "s": "Premium positions with catering could approach €9,000.",
+          "s": "The article suggests that balcony owners are a smaller group than the families who take part in the processions.",
           "a": "T",
-          "why": "The text says: \"Premium positions along the main procession route, especially with food and drink included, could approach €9,000.\""
+          "why": "The text calls the owners \"a narrow group compared with the many families who take part\"."
         },
         {
           "s": "Hotel prices in Seville rose by the same amount.",
           "a": "N",
           "why": "Not stated. The text does not mention hotel prices."
+        },
+        {
+          "s": "The prices in the article are for a ticket to a single procession.",
+          "a": "F",
+          "why": "The text says the figures were for packages \"not an ordinary ticket for a single procession\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "brotherhoods",
+          "d": "groups of men who share the same religion or aims"
+        },
+        {
+          "t": "spectators",
+          "d": "people who watch an event"
+        },
+        {
+          "t": "exclusivity",
+          "d": "being only for a small, special group of people"
+        },
+        {
+          "t": "uninterrupted",
+          "d": "continuous, with nothing in the way"
+        },
+        {
+          "t": "critics",
+          "d": "people who say what is wrong with something"
+        },
+        {
+          "t": "commercial",
+          "d": "connected with buying and selling to make money"
+        },
+        {
+          "t": "extraordinary",
+          "d": "very unusual or surprising"
+        },
+        {
+          "t": "unequal",
+          "d": "not the same for everyone, not fair"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some linking words are followed by a noun (despite), some join two clauses (whereas, provided) and some start a new sentence (nevertheless, otherwise). Check the logic too.",
+        "items": [
+          {
+            "s": "____ the high prices, most of the best balconies were booked weeks ahead.",
+            "a": "Despite"
+          },
+          {
+            "s": "Residents often see the procession as a tradition, ____ visitors may see it as a spectacle.",
+            "a": "whereas"
+          },
+          {
+            "s": "Balcony rentals are expensive. ____, they sell out every year.",
+            "a": "Nevertheless"
+          },
+          {
+            "s": "Visitors can book a balcony ____ they pay the full price in advance.",
+            "a": "provided"
+          },
+          {
+            "s": "Owners need to rent the space at a fair price. ____, local families will be pushed out.",
+            "a": "Otherwise"
+          }
+        ],
+        "extra": [
+          "unless",
+          "consequently"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Cultural traditions can turn access into a scarce ____.",
+            "s": "Oil is traded on world markets like any other ____.",
             "a": "commodity"
           },
           {
-            "s": "The supply of balconies on the central route is ____.",
-            "a": "fixed"
+            "s": "The ____ of affordable housing in the city has pushed rents up year after year.",
+            "a": "scarcity"
           },
           {
-            "s": "What ____ reveals is scarcity rather than quality.",
-            "a": "the going rate"
+            "s": "The old stadium could not ____ the crowds that came for the final.",
+            "a": "accommodate"
           },
           {
-            "s": "Residents regard the ceremonies as ____.",
-            "a": "a shared inheritance"
+            "s": "Tax ____ encouraged the company to build its new headquarters in the region.",
+            "a": "incentives"
           },
           {
-            "s": "The finest ____ are increasingly taken by wealthy visitors.",
-            "a": "vantage points"
+            "s": "Trust between neighbours is ____ and can disappear after a single dispute.",
+            "a": "fragile"
           },
           {
-            "s": "Tourist spending can help a local economy that sustains the festival ____.",
-            "a": "in turn"
+            "s": "The old folk song was ____ as a pop hit and sold millions.",
+            "a": "repackaged"
           }
         ],
         "extra": [
-          "cashed in on",
-          "repackaged"
+          "authenticity",
+          "prestige"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The processions are expressions of religious ____ and civic identity.",
-            "cue": "DEVOTE",
-            "a": "devotion"
-          },
-          {
-            "s": "Commercial operators see demand for a service that can ____ be bought and sold.",
-            "cue": "LEGITIMATE",
-            "a": "legitimately"
-          },
-          {
-            "s": "The cultural ____ are less straightforward.",
+            "s": "The merger could have serious ____ for thousands of employees.",
             "cue": "IMPLY",
             "a": "implications"
           },
           {
-            "s": "Formal access is not the same as ____ access.",
+            "s": "The court ruled that the land had been ____ acquired.",
+            "cue": "LEGITIMATE",
+            "a": "legitimately"
+          },
+          {
+            "s": "A token apology is not a ____ response to a serious complaint.",
             "cue": "MEAN",
             "a": "meaningful"
           },
           {
-            "s": "Balconies sell an ____ close view of the ceremonies.",
-            "cue": "USUAL",
-            "a": "unusually"
+            "s": "Her ____ to the cause lasted for more than fifty years.",
+            "cue": "DEVOTE",
+            "a": "devotion"
+          },
+          {
+            "s": "Smartphones have become ____ central to how we organise our daily lives.",
+            "cue": "INCREASE",
+            "a": "increasingly"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Procession routes have already been changed for visitors.",
-          "a": "N",
-          "why": "Not stated. The text does not say that any procession route has been altered."
+          "s": "The writer implies that the high price of a balcony reflects competition for places rather than a better view.",
+          "a": "T",
+          "why": "The text says \"The balcony itself has not improved; the number of people competing for it has risen.\""
         },
         {
           "s": "The final paragraph says owners should not be allowed to charge for a view.",
           "a": "F",
-          "why": "The text says the opposite: \"The question is not whether an owner may charge for a view, but whether an increasingly commercial setting changes the meaning of what spectators have come to see.\""
+          "why": "The text says the opposite: \"The question is not whether an owner may charge for a view\"."
         },
         {
-          "s": "Festivals have a long history of helping hotels and restaurants.",
-          "a": "T",
-          "why": "The text says: \"Festivals have long supported hotels, restaurants and small businesses, and tourist spending can help sustain a local economy that sustains the festival in turn.\""
+          "s": "Most balcony owners are hospitality businesses rather than families.",
+          "a": "N",
+          "why": "Not stated. The text mentions \"property owners and hospitality businesses\" but gives no proportions."
         },
         {
-          "s": "Demand for the balconies has grown, but the balconies themselves have not changed.",
+          "s": "The writer suggests that the social cost of letting balconies to visitors may be noticed before the financial one.",
           "a": "T",
-          "why": "The text says: \"The balcony itself has not improved; the number of people competing for it has risen.\""
+          "why": "The text says the loss \"could register socially long before it appears in any economic account\"."
+        },
+        {
+          "s": "The writer argues that tourist spending is always harmful to a festival.",
+          "a": "F",
+          "why": "The text says tourist spending \"can help sustain a local economy that sustains the festival in turn\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "civic",
+          "d": "connected with a town or city and its people"
+        },
+        {
+          "t": "hospitality",
+          "d": "hotels, restaurants and other businesses that look after guests"
+        },
+        {
+          "t": "exclusivity",
+          "d": "the quality of being only for a few rich or special people"
+        },
+        {
+          "t": "inheritance",
+          "d": "something valuable passed down from earlier generations"
+        },
+        {
+          "t": "brotherhoods",
+          "d": "groups of men who share a religion or purpose"
+        },
+        {
+          "t": "authentic",
+          "d": "real and true, not copied"
+        },
+        {
+          "t": "sustain",
+          "d": "keep something going over time"
+        },
+        {
+          "t": "register",
+          "d": "be noticed or felt"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Match each word to its job: some introduce a noun phrase (notwithstanding, hence), some a contrast after a semicolon (conversely), and some add a result or a concession (thereby, albeit).",
+        "items": [
+          {
+            "s": "The festival remains free to attend, ____ with a lot of waiting.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ the rising prices, many residents still return to the same streets each year.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "Space is strictly limited; ____ the steep rise in prices.",
+            "a": "hence"
+          },
+          {
+            "s": "Many owners prefer fixed contracts; ____, others negotiate each year.",
+            "a": "conversely"
+          },
+          {
+            "s": "Owners can set the price themselves, ____ keeping the benefit within a small group.",
+            "a": "thereby"
+          }
+        ],
+        "extra": [
+          "whereby",
+          "hitherto"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: who gets the balcony?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the balcony owner",
+      "text": "A travel company wants to rent your balcony for Holy Week at a very high price. A neighbour's family has watched from it for years. Listen to the neighbour, then decide: sell it to the company, keep it for the family, or find a compromise."
+    },
+    "b": {
+      "role": "the neighbour",
+      "text": "Your family has always watched the processions from your neighbour's balcony. Ask to use it again this year. Explain why it matters to you and offer something in return."
+    },
+    "phrases": [
+      "I was hoping to ask you a favour.",
+      "We've always watched from here.",
+      "I'd love to say yes, but it's a lot of money.",
+      "What if we shared the week?",
+      "I'm afraid I can't do that.",
+      "Could we find a compromise?"
+    ],
+    "after": "Afterwards, tell the class: who got the balcony, and was it a fair decision?"
   }
 }

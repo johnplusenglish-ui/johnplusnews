@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You read a message and ____ your book.",
-            "a": "go back to"
+            "s": "Call me if it is ____, but send a text if it can wait.",
+            "a": "urgent"
           },
           {
-            "s": "Seven seconds may ____, but many people receive dozens of alerts every day.",
-            "a": "not sound like much"
+            "s": "Putting your phone in another room is a ____ way to study.",
+            "a": "sensible"
           },
           {
-            "s": "The alerts ____ friends, shops, work chats and news apps.",
-            "a": "come from"
+            "s": "One day without a phone will not ____ change your brain.",
+            "a": "permanently"
           },
           {
-            "s": "Many phones let us ____ alerts for individual apps.",
-            "a": "turn off"
+            "s": "Good ____ is hard when your phone keeps buzzing.",
+            "a": "concentration"
           },
           {
-            "s": "Workplaces should discuss sensible rules about messages ____.",
-            "a": "outside working hours"
+            "s": "A small red number on an app is a constant ____ that you have unread messages.",
+            "a": "reminder"
           }
         ],
         "extra": [
-          "keep in touch",
-          "unnecessary"
+          "available",
+          "occasional"
         ]
       },
       "match": [
@@ -67,14 +67,14 @@
             "a": "found"
           },
           {
-            "s": "The study did not ____ that phones damage our brains.",
-            "cue": "show",
-            "a": "show"
+            "s": "Yesterday my phone ____ in the middle of a meeting.",
+            "cue": "ring",
+            "a": "rang"
           },
           {
-            "s": "Good concentration ____ not just about personal discipline.",
-            "cue": "be",
-            "a": "is"
+            "s": "I ____ three messages while I was cooking dinner.",
+            "cue": "get",
+            "a": "got"
           }
         ]
       },
@@ -82,7 +82,7 @@
         {
           "s": "The study came out in 2026.",
           "a": "T",
-          "why": "The text says: \"In research published in 2026 in Computers in Human Behavior, people completed an attention task while receiving notifications similar to those from social media.\""
+          "why": "The text says: \"In research published in 2026 in Computers in Human Behavior...\"."
         },
         {
           "s": "Most participants were university students.",
@@ -92,46 +92,115 @@
         {
           "s": "The slowdown lasted about seven seconds.",
           "a": "T",
-          "why": "The text says: \"The researchers found that the messages caused a short slowdown in thinking, lasting about seven seconds.\""
+          "why": "The text says the messages caused \"a short slowdown in thinking, lasting about seven seconds\"."
         },
         {
           "s": "The study showed that phones permanently damage the brain.",
           "a": "F",
-          "why": "The text says the opposite: \"The study did not show that phones permanently damage our brains or make everybody less intelligent.\""
+          "why": "The text says: \"The study did not show that phones permanently damage our brains\"."
+        },
+        {
+          "s": "The writer says every phone message is important.",
+          "a": "F",
+          "why": "The text says a reminder about an online sale \"probably is not\" important."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "notifications",
+          "d": "messages or alerts that appear on your phone"
+        },
+        {
+          "t": "interruption",
+          "d": "something that stops you while you are doing a job"
+        },
+        {
+          "t": "slowdown",
+          "d": "a time when something becomes slower"
+        },
+        {
+          "t": "dozens",
+          "d": "many, about twelve or more"
+        },
+        {
+          "t": "discipline",
+          "d": "the ability to make yourself do the right thing"
+        },
+        {
+          "t": "respect",
+          "d": "to think that something is important and not spoil it"
+        },
+        {
+          "t": "individual",
+          "d": "one single, not a group"
+        },
+        {
+          "t": "expect",
+          "d": "to think that something will happen"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some verbs and adjectives always take the same small word after them. Learn them together, for example worried about.",
+        "items": [
+          {
+            "s": "The slowdown depended partly ____ how important the message seemed.",
+            "a": "on"
+          },
+          {
+            "s": "Please reply ____ my message before lunch.",
+            "a": "to"
+          },
+          {
+            "s": "A long message arrived ____ my sister this morning.",
+            "a": "from"
+          },
+          {
+            "s": "He is worried ____ how often his brother checks the phone.",
+            "a": "about"
+          },
+          {
+            "s": "Many people keep their phone silent ____ night.",
+            "a": "at"
+          }
+        ],
+        "extra": [
+          "with",
+          "of"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "The interruption seems ____, yet concentration may be affected.",
-            "a": "harmless"
-          },
-          {
-            "s": "Notifications produced a ____ slowdown of about seven seconds.",
+            "s": "The delay was only ____, and attention returned to normal within seconds.",
             "a": "temporary"
           },
           {
-            "s": "A phone nearby reminds us that something could demand attention ____.",
-            "a": "at any moment"
+            "s": "I thought the email was from my bank, but it was not ____.",
+            "a": "genuine"
           },
           {
-            "s": "Some people put the phone ____ during important tasks.",
-            "a": "out of sight"
+            "s": "The headline ____ the findings: the study never claimed that phones harm everyone.",
+            "a": "exaggerated"
           },
           {
-            "s": "The aim is not to reject technology but to ____.",
-            "a": "take back control"
+            "s": "It is ____ to keep your phone charged before a long journey.",
+            "a": "essential"
           },
           {
-            "s": "Silencing notifications can feel ____ rather than sensible.",
-            "a": "rude"
+            "s": "It is hard to ____ looking at a screen that keeps lighting up.",
+            "a": "resist"
+          },
+          {
+            "s": "Some jobs ____ a reply within minutes.",
+            "a": "demand"
           }
         ],
         "extra": [
-          "switch off",
-          "relevant"
+          "insist",
+          "permanent"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Notifications produced a temporary slowdown lasting ____ seven seconds.",
-            "cue": "APPROXIMATE",
-            "a": "approximately"
+            "s": "When I finally checked my phone, three friends ____ me.",
+            "cue": "message",
+            "a": "had messaged"
           },
           {
-            "s": "Participants completed a task requiring ____.",
-            "cue": "ATTEND",
-            "a": "attention"
+            "s": "The study ____ in Computers in Human Behavior in 2026.",
+            "cue": "publish",
+            "a": "was published"
           },
           {
-            "s": "The ____ was related to how relevant the alerts appeared.",
-            "cue": "DISRUPT",
-            "a": "disruption"
+            "s": "If you had turned off the alerts, you ____ your place.",
+            "cue": "not lose",
+            "a": "would not have lost|wouldn't have lost"
           },
           {
-            "s": "Constant ____ carries a cost that is not always visible.",
-            "cue": "RESPOND",
-            "a": "responsiveness"
+            "s": "Participants ____ to ignore the alerts, but many still looked.",
+            "cue": "tell",
+            "a": "were told"
           },
           {
-            "s": "Individuals can separate essential alerts from ____ ones.",
-            "cue": "PROMOTE",
-            "a": "promotional"
+            "s": "Alerts ____ much more common over the last ten years.",
+            "cue": "become",
+            "a": "have become"
           }
         ]
       },
@@ -186,12 +255,12 @@
         {
           "s": "Teams can agree which messages are urgent.",
           "a": "T",
-          "why": "The text says: \"Teams can make concentration easier by agreeing which messages are urgent and when a slower response is acceptable.\""
+          "why": "The text says teams can agree \"which messages are urgent and when a slower response is acceptable\"."
         },
         {
           "s": "The experiment demonstrated a permanent loss of intelligence.",
           "a": "F",
-          "why": "The text says the opposite: \"It does not demonstrate that smartphones permanently reduce intelligence or explain every concentration problem.\""
+          "why": "The text says it \"does not demonstrate that smartphones permanently reduce intelligence\"."
         },
         {
           "s": "Most companies now ban messages after six o'clock.",
@@ -199,43 +268,112 @@
           "why": "Not stated. The text does not say what companies do about messages after work."
         },
         {
-          "s": "The study appeared in Computers in Human Behavior in 2026.",
+          "s": "The writer suggests that a phone can distract you even if you never touch it.",
           "a": "T",
-          "why": "The text says: \"A study published in Computers in Human Behavior in 2026 investigated the immediate effects of social-media-style notifications.\""
+          "why": "The text says that even if you resist opening the message, \"part of your attention may shift\"."
+        },
+        {
+          "s": "People who check their phones more often always showed a longer slowdown.",
+          "a": "N",
+          "why": "Not stated. The text says habits mattered, but not in which direction."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "glance",
+          "d": "to look at something quickly"
+        },
+        {
+          "t": "shift",
+          "d": "to move or change from one thing to another"
+        },
+        {
+          "t": "controlled",
+          "d": "done in a careful, planned way, often by scientists"
+        },
+        {
+          "t": "demonstrate",
+          "d": "to prove or show clearly"
+        },
+        {
+          "t": "differ",
+          "d": "to be not the same as someone else"
+        },
+        {
+          "t": "constant",
+          "d": "happening all the time"
+        },
+        {
+          "t": "expectations",
+          "d": "beliefs about how people should behave"
+        },
+        {
+          "t": "uninterrupted",
+          "d": "continuing without being stopped"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many verbs, adjectives and nouns have a fixed preposition after them. Learn the whole chunk, such as responsible for, not just the single word.",
+        "items": [
+          {
+            "s": "Some people are addicted ____ checking their phones.",
+            "a": "to"
+          },
+          {
+            "s": "How well you concentrate depends ____ how tired you are.",
+            "a": "on"
+          },
+          {
+            "s": "Sleep problems may result ____ late-night scrolling.",
+            "a": "from"
+          },
+          {
+            "s": "She was accused ____ ignoring her friends because she replied late.",
+            "a": "of"
+          },
+          {
+            "s": "Parents often argue ____ their teenagers about screen time.",
+            "a": "with"
+          }
+        ],
+        "extra": [
+          "at",
+          "for"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Research asks why some interruptions are harder to ____ than others.",
-            "a": "shake off"
+            "s": "As a ____ late-night scroller, he no longer noticed how long he stayed online.",
+            "a": "habitual"
           },
           {
-            "s": "The experiment identified ____ changes; it did not measure permanent cognitive decline.",
-            "a": "short-lived"
+            "s": "The company made a ____ decision to switch off email after six, rather than letting it happen by accident.",
+            "a": "deliberate"
           },
           {
-            "s": "There are good reasons to resist ____ conclusions.",
-            "a": "sweeping"
+            "s": "The report blames teenagers ____, although adults check their phones just as often.",
+            "a": "exclusively"
           },
           {
-            "s": "Notifications ____ our sensitivity to important information.",
-            "a": "play on"
+            "s": "He took his colleague's late reply as a personal ____, though she was only busy.",
+            "a": "slight"
           },
           {
-            "s": "The issue is not an argument for ____ smartphones.",
-            "a": "doing away with"
+            "s": "A weekend without email may ____ the energy you lost during a busy week.",
+            "a": "restore"
           },
           {
-            "s": "Managing interruptions becomes ____ rather than self-control.",
-            "a": "a social negotiation"
+            "s": "It would be unwise to ____ from a single experiment to the whole population.",
+            "a": "generalise"
           }
         ],
         "extra": [
-          "design out",
-          "trivial"
+          "momentary",
+          "exaggerate"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "If we choose when to check, we may reduce ____ interruptions.",
-            "cue": "NEED",
-            "a": "needless"
+            "s": "The ____ of the findings is limited because only one task was tested.",
+            "cue": "APPLY",
+            "a": "applicability"
           },
           {
-            "s": "The effect varied with the perceived ____ of the notification.",
-            "cue": "RELEVANT",
-            "a": "relevance"
+            "s": "Employers who demand instant replies show little ____ for their staff's private time.",
+            "cue": "CONSIDER",
+            "a": "consideration"
           },
           {
-            "s": "Quick communication supports families, while ____ tools make everyday tasks easier.",
-            "cue": "ACCESS",
-            "a": "accessibility"
+            "s": "Constant interruption is a serious ____ to deep thought.",
+            "cue": "HINDER",
+            "a": "hindrance"
           },
           {
-            "s": "That repeated ____ competes with the original activity.",
-            "cue": "APPRAISE",
-            "a": "appraisal"
+            "s": "The study's ____ depends on how the participants were chosen.",
+            "cue": "RELY",
+            "a": "reliability"
           },
           {
-            "s": "Organisations should consider the ____ cost of constant interruption.",
-            "cue": "PRODUCT",
-            "a": "productivity"
+            "s": "She was ____ to put her phone down, even during dinner.",
+            "cue": "WILLING",
+            "a": "unwilling"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The size of the slowdown depended partly on people's usual phone habits.",
-          "a": "T",
-          "why": "The text says: \"The effect varied with the perceived relevance of the notification and with habitual patterns of phone interaction, rather than simply the total amount of time spent using a device.\""
-        },
-        {
-          "s": "Notifications carry an unspoken message about how quickly people should respond.",
-          "a": "T",
-          "why": "The text says: \"Notifications are not merely technical signals; they communicate an expectation of attention.\""
-        },
-        {
-          "s": "The researchers plan a follow-up study in workplaces.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether the researchers plan more studies."
-        },
-        {
-          "s": "The writer argues that people should give up smartphones.",
+          "s": "The study suggests that total time spent on a phone is the main factor behind the slowdown.",
           "a": "F",
-          "why": "The text says the opposite: \"The issue is therefore not an argument for doing away with smartphones, but for distinguishing essential communication from an endless stream of low-value interruptions.\""
+          "why": "The effect varied with relevance and habit, \"rather than simply the total amount of time spent using a device\"."
+        },
+        {
+          "s": "A notification can compete with a task even when its content turns out to be irrelevant.",
+          "a": "T",
+          "why": "We assess a message's significance only after turning our attention to it, and \"that repeated appraisal competes\" with the task."
+        },
+        {
+          "s": "The writer believes that individual settings are enough on their own.",
+          "a": "F",
+          "why": "Settings \"work best alongside shared expectations about urgency and availability\"."
+        },
+        {
+          "s": "The slowdown was longer for participants over forty.",
+          "a": "N",
+          "why": "Not stated. The text mentions no age differences among participants."
+        },
+        {
+          "s": "The writer accepts that phones have benefits but still wants changes in how alerts are managed.",
+          "a": "T",
+          "why": "The text praises \"considerable advantages\" yet calls for distinguishing essential communication and a \"more deliberate approach to alerts\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "cognitive",
+          "d": "connected with thinking and understanding"
+        },
+        {
+          "t": "perceived",
+          "d": "seen or understood in a particular way"
+        },
+        {
+          "t": "mechanisms",
+          "d": "the ways in which something works or happens"
+        },
+        {
+          "t": "appraisal",
+          "d": "a careful judgement of how good or important something is"
+        },
+        {
+          "t": "negotiation",
+          "d": "a discussion in which people try to reach an agreement"
+        },
+        {
+          "t": "entitled",
+          "d": "having the right to something"
+        },
+        {
+          "t": "shake off",
+          "d": "to get rid of something that keeps bothering you"
+        },
+        {
+          "t": "short-lived",
+          "d": "lasting only a short time"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Look at the word before the gap. Fixed combinations such as prone to cannot be guessed from meaning alone, so learn them as chunks.",
+        "items": [
+          {
+            "s": "The research draws a distinction ____ short-term slowdown and lasting harm.",
+            "a": "between"
+          },
+          {
+            "s": "Heavy users may be more susceptible ____ distraction than occasional ones.",
+            "a": "to"
+          },
+          {
+            "s": "Whether a policy works often hinges ____ how staff are treated.",
+            "a": "on"
+          },
+          {
+            "s": "Managers were criticised ____ expecting replies at midnight.",
+            "a": "for"
+          },
+          {
+            "s": "The firm's approach is at odds ____ its claim to value work-life balance.",
+            "a": "with"
+          }
+        ],
+        "extra": [
+          "against",
+          "amid"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: the ten-minute reply rule",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the manager",
+      "text": "You want your team to answer work messages within ten minutes, even in the evening. Explain why. Ask at least two questions, then decide: agree a rule, change it, or keep it."
+    },
+    "b": {
+      "role": "the employee",
+      "text": "You want to switch off work alerts after six o'clock because you can't concentrate or rest. Explain how it affects you and suggest a rule that works for both of you."
+    },
+    "phrases": [
+      "I'd like to switch off alerts after six.",
+      "Which messages are really urgent?",
+      "I can't concentrate when my phone keeps buzzing.",
+      "We're a small team, so I need quick answers.",
+      "Could we agree a time to reply?",
+      "That's a fair compromise."
+    ],
+    "after": "Afterwards, tell the class: what rule did you agree, and is it fair for both people?"
   }
 }

@@ -6,6 +6,7 @@ source: Environmental Research | https://doi.org/10.1016/j.envres.2026.123689
 image: images/what-happens-when-your-bedroom-never-gets-dark-0656b8.jpg
 image-alt: An older man sleeps on his side under a white duvet while orange street light spills through a gap between the bedroom curtains.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

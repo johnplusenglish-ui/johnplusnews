@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "The aim is to create a ____ hairline.",
-            "a": "natural-looking"
+            "s": "A good surgeon will show you their ____ before you agree to the operation.",
+            "a": "qualifications"
           },
           {
-            "s": "A patient can ____, have the procedure and be home in days.",
-            "a": "fly out"
+            "s": "The seller made a lot of big ____, but the product did not work.",
+            "a": "promises"
           },
           {
-            "s": "Patients need to know who will ____ the procedure.",
-            "a": "carry out"
+            "s": "After the operation, a full ____ can take several weeks, so do not plan a busy month.",
+            "a": "recovery"
           },
           {
-            "s": "It is worth ____ instead of booking the first offer you see.",
-            "a": "shopping around"
+            "s": "The cut became red and painful because of an ____.",
+            "a": "infection"
           },
           {
-            "s": "A good clinic helps patients have ____ rather than making big promises.",
-            "a": "realistic expectations"
+            "s": "Many travel companies sell holiday ____ that include flights and a hotel.",
+            "a": "packages"
           }
         ],
         "extra": [
-          "find out",
-          "embarrassed"
+          "decision",
+          "appearance"
         ]
       },
       "match": [
@@ -98,40 +98,109 @@
           "s": "Most patients come from Britain.",
           "a": "N",
           "why": "Not stated. This version does not give this information."
+        },
+        {
+          "s": "The text says that the results of a transplant appear within a few days.",
+          "a": "F",
+          "why": "The text says: \"Results take months to appear.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "transplant",
+          "d": "an operation that moves something, such as hair, to a new place"
+        },
+        {
+          "t": "follicles",
+          "d": "the tiny parts of the skin that hair grows from"
+        },
+        {
+          "t": "hairline",
+          "d": "the edge of the hair on your forehead"
+        },
+        {
+          "t": "procedure",
+          "d": "a medical treatment or operation"
+        },
+        {
+          "t": "scarring",
+          "d": "marks left on the skin after a cut or an operation"
+        },
+        {
+          "t": "specialist",
+          "d": "a doctor who knows a lot about one thing"
+        },
+        {
+          "t": "disappointing",
+          "d": "not as good as you hoped"
+        },
+        {
+          "t": "expectations",
+          "d": "what you think or hope will happen"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word. The small word changes the meaning, so learn the two words together.",
+        "items": [
+          {
+            "s": "It took her a long time to make ____ her mind about the surgery.",
+            "a": "up"
+          },
+          {
+            "s": "After the operation, a nurse will look ____ you for a few days.",
+            "a": "after"
+          },
+          {
+            "s": "The doctor will take the bandage ____ on Friday.",
+            "a": "off"
+          },
+          {
+            "s": "Patients must go ____ several health checks before the operation.",
+            "a": "through"
+          },
+          {
+            "s": "He did not like the result, so he asked the clinic to give him his money ____.",
+            "a": "back"
+          }
+        ],
+        "extra": [
+          "down",
+          "along"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "The industry ____ lower prices, cheap travel and social pressure.",
-            "a": "brings together"
+            "s": "Package deals that include ____ and local transport make it easier for visitors from abroad.",
+            "a": "accommodation"
           },
           {
-            "s": "Patients should ____ who will perform the operation.",
-            "a": "look into"
+            "s": "A procedure like this requires considerable medical ____ and years of training.",
+            "a": "expertise"
           },
           {
-            "s": "Clinics advertise with ____ photographs.",
-            "a": "before-and-after"
+            "s": "Every operation carries some risk of ____, so doctors must be ready to deal with problems.",
+            "a": "complications"
           },
           {
-            "s": "Prices can look remarkable ____.",
-            "a": "at first glance"
+            "s": "She asked for a refund because the result was ____ and not what she had been promised.",
+            "a": "unsatisfactory"
           },
           {
-            "s": "A package may turn out to be ____.",
-            "a": "a false economy"
+            "s": "Her recovery was ____: she was back at work within a week, which surprised even her surgeon.",
+            "a": "remarkable"
           },
           {
-            "s": "The transplanted hair ____ slowly over several months.",
-            "a": "comes through"
+            "s": "Treatment abroad can cost ____ less than the same operation at home, sometimes by thousands of pounds.",
+            "a": "substantially"
           }
         ],
         "extra": [
-          "end up",
-          "impulsive"
+          "comparable",
+          "persuasion"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The pressure is to maintain a ____ appearance.",
-            "cue": "YOUTH",
-            "a": "youthful"
+            "s": "By the time the patient landed back home, the clinic ____ a list of aftercare instructions to her doctor.",
+            "cue": "send",
+            "a": "had sent"
           },
           {
-            "s": "The procedure requires medical ____ and careful planning.",
-            "cue": "EXPERT",
-            "a": "expertise"
+            "s": "Istanbul ____ one of the world's best-known destinations for hair transplants.",
+            "cue": "become",
+            "a": "has become"
           },
           {
-            "s": "Clinics in Istanbul may charge ____ less than comparable providers in western Europe.",
-            "cue": "SUBSTANTIAL",
-            "a": "substantially"
+            "s": "Many packages ____ to international customers through social media.",
+            "cue": "advertise",
+            "a": "are advertised"
           },
           {
-            "s": "Infections, scarring and ____ results are among the risks.",
-            "cue": "SATISFY",
-            "a": "unsatisfactory"
+            "s": "Transplanted hair usually ____ through slowly, so patients must be patient.",
+            "cue": "come",
+            "a": "comes"
           },
           {
-            "s": "The challenge is separating a considered decision from an impulsive response to advertising or ____.",
-            "cue": "SECURE",
-            "a": "insecurity"
+            "s": "She wouldn't have flown to Istanbul if the price at home ____ so high.",
+            "cue": "not be",
+            "a": "hadn't been|had not been"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The new hairline appears immediately after surgery.",
+          "s": "Needing follow-up treatment is a bigger concern when the clinic is in another country.",
+          "a": "T",
+          "why": "The text says follow-up matters \"particularly when the clinic is in another country\"."
+        },
+        {
+          "s": "The writer says transplanted hair appears within a few days of the operation.",
           "a": "F",
-          "why": "The text says the opposite: \"Although many patients end up satisfied with their results, the new hairline takes months to develop, and surgery cannot guarantee the appearance somebody has pictured in advance.\""
+          "why": "The text says the hair \"comes through slowly over the following months\"."
         },
         {
-          "s": "Turkish clinics must register with a European regulator.",
+          "s": "Clinics in Istanbul employ more surgeons than clinics in western Europe.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "The text compares prices, not the number of surgeons."
         },
         {
-          "s": "Some patients need a second session.",
+          "s": "The writer accepts that being happy with baldness is a reasonable attitude.",
           "a": "T",
-          "why": "The text says: \"The scalp needs time to heal, the transplanted hair comes through slowly over the following months, and some patients need a second session before they see the result they hoped for.\""
+          "why": "The text says plenty of people \"reject the idea that baldness is a problem\" and does not criticise them."
         },
         {
-          "s": "A March 2026 report called Istanbul the centre of the hair-transplant trade.",
-          "a": "T",
-          "why": "The text says: \"Reporting in March 2026 described Istanbul as the centre of this trade.\""
+          "s": "The writer says a package price that includes the operation always includes proper aftercare.",
+          "a": "F",
+          "why": "The text warns a package may cover \"the operation but little of the care\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "scalp",
+          "d": "the skin on the top of your head"
+        },
+        {
+          "t": "dressings",
+          "d": "clean material that covers a wound or cut"
+        },
+        {
+          "t": "follicles",
+          "d": "the tiny parts of the skin that hair grows from"
+        },
+        {
+          "t": "scarring",
+          "d": "permanent marks left on the skin after a wound"
+        },
+        {
+          "t": "follow-up",
+          "d": "happening later to check or continue something"
+        },
+        {
+          "t": "recognisable",
+          "d": "easy to know or identify"
+        },
+        {
+          "t": "insecurity",
+          "d": "a worried feeling that you are not good enough"
+        },
+        {
+          "t": "youthful",
+          "d": "looking or seeming young"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "The small word often carries the meaning: out can mean 'calculate' or 'discover', and up can mean 'arrive' or 'appear'. Check that the verb and particle make sense together.",
+        "items": [
+          {
+            "s": "Many people ____ off the decision because they fear choosing the wrong clinic.",
+            "a": "put"
+          },
+          {
+            "s": "A good surgeon will ____ on seeing the patient until the scalp has healed.",
+            "a": "carry"
+          },
+          {
+            "s": "Cheap flights and package deals can ____ about a rise in medical tourism.",
+            "a": "bring"
+          },
+          {
+            "s": "It is sensible to ____ out the total cost, including flights and the hotel.",
+            "a": "work"
+          },
+          {
+            "s": "Some patients ____ up at the clinic without having asked a single question.",
+            "a": "turn"
+          }
+        ],
+        "extra": [
+          "cut",
+          "hand"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "A surgical decision may be approached as though customers were ____ an ordinary holiday.",
-            "a": "weighing up"
+            "s": "After several complaints, the clinic's claims were subjected to close ____ by the health authority.",
+            "a": "scrutiny"
           },
           {
-            "s": "Hair transplantation was once a comparatively ____ procedure.",
+            "s": "Unusually, the surgeon was ____ about the limits of the treatment and told her it might not work.",
+            "a": "candid"
+          },
+          {
+            "s": "Salespeople paid on commission have an obvious ____ to exaggerate what a treatment can achieve.",
+            "a": "incentive"
+          },
+          {
+            "s": "In a national health system, ____ such as formal complaints procedures protect patients; abroad, they may not exist.",
+            "a": "safeguards"
+          },
+          {
+            "s": "The website relied on glowing ____ from former clients rather than any independent evidence.",
+            "a": "testimonials"
+          },
+          {
+            "s": "Hair transplants were once a ____ matter, carried out quietly and rarely discussed in public.",
             "a": "discreet"
-          },
-          {
-            "s": "Competition on that scale ____.",
-            "a": "cuts both ways"
-          },
-          {
-            "s": "A patient comparing offers from another country has limited means of ____.",
-            "a": "telling them apart"
-          },
-          {
-            "s": "A low advertised price ____ how complications would be handled.",
-            "a": "says nothing about"
-          },
-          {
-            "s": "____ rewards attention for a further reason.",
-            "a": "The small print"
           }
         ],
         "extra": [
-          "gloss over",
-          "elective"
+          "bias",
+          "disclaimer"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Techniques have evolved, but results remain ____.",
-            "cue": "VARY",
-            "a": "variable"
+            "s": "The ____ of cheap flights has made treatment abroad affordable to far more people.",
+            "cue": "AVAILABLE",
+            "a": "availability"
           },
           {
-            "s": "Package deals reduce the ____ difficulties of travelling for care.",
-            "cue": "LOGISTICS",
-            "a": "logistical"
+            "s": "Patients should insist on full ____ of who will carry out each stage of the operation.",
+            "cue": "DISCLOSE",
+            "a": "disclosure"
           },
           {
-            "s": "Professional standards deserve careful ____.",
-            "cue": "SCRUTINISE",
-            "a": "scrutiny"
+            "s": "A lack of ____ is a real worry when the clinic is thousands of miles from the patient's home.",
+            "cue": "ACCOUNT",
+            "a": "accountability"
           },
           {
-            "s": "Others regard baldness as an ____ feature of ageing.",
-            "cue": "REMARKABLE",
-            "a": "unremarkable"
+            "s": "In such a ____ market, the loudest advertiser is not necessarily the best surgeon.",
+            "cue": "COMPETE",
+            "a": "competitive"
           },
           {
-            "s": "Visibility tends to ____ a treatment before people examine it.",
-            "cue": "NORMAL",
-            "a": "normalise"
+            "s": "Online reviews are rarely a ____ guide to surgical skill.",
+            "cue": "RELY",
+            "a": "reliable"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Strong advertising does not show that a clinic offers the best care.",
+          "s": "The writer treats both a low price and strong advertising as unreliable signs of quality.",
           "a": "T",
-          "why": "The text says: \"They also make the choice harder to assess: the clinic with the strongest advertising is not necessarily the one offering the best care.\""
+          "why": "A low price \"says nothing about how complications would be handled\", and the strongest advertiser is \"not necessarily\" the best."
         },
         {
-          "s": "Istanbul treats more international patients than any other city.",
-          "a": "N",
-          "why": "Not stated. This version does not give this information."
-        },
-        {
-          "s": "Baldness is described as a medical problem that needs correcting.",
+          "s": "The writer argues that people who choose treatment are more authentic than those who accept baldness.",
           "a": "F",
-          "why": "The text says the opposite: \"The ethical concern arises when advertising reframes a normal physical change as an insecurity demanding immediate correction.\""
+          "why": "The text says \"Neither response is inherently more authentic than the other\"."
         },
         {
-          "s": "Some patients require additional sessions before the final result.",
+          "s": "Complications are more common in Istanbul than in western Europe.",
+          "a": "N",
+          "why": "The text discusses risks and price but gives no comparison of complication rates."
+        },
+        {
+          "s": "The writer suggests that public reviews and comparisons can shape attitudes before people have judged whether a transplant suits them.",
           "a": "T",
-          "why": "The text says: \"Hair transplantation is a slow business: growth emerges gradually, the final result cannot be judged for many months, and some patients require additional sessions.\""
+          "why": "The text says such visibility \"tends to normalise a treatment long before most people have examined whether it suits them\"."
+        },
+        {
+          "s": "The writer implies that a clinic's honesty about timing is worth less than an attractive price.",
+          "a": "F",
+          "why": "A candid clinic is \"offering something more valuable than an attractive quotation\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "prospective",
+          "d": "likely to become something in the future"
+        },
+        {
+          "t": "logistical",
+          "d": "to do with organising the practical details"
+        },
+        {
+          "t": "practitioner",
+          "d": "a person who works in a profession, such as medicine"
+        },
+        {
+          "t": "variable",
+          "d": "not the same every time"
+        },
+        {
+          "t": "reframes",
+          "d": "describes in a new way so that people see it differently"
+        },
+        {
+          "t": "normalise",
+          "d": "make something seem usual and ordinary"
+        },
+        {
+          "t": "unremarkable",
+          "d": "not special or surprising"
+        },
+        {
+          "t": "consumer-driven",
+          "d": "shaped by what customers want and buy"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many of these are figurative: the meaning is not the sum of the two words. Learn the whole verb, and notice that down often means 'reduce' and out often means 'exclude'.",
+        "items": [
+          {
+            "s": "Sales brochures tend to ____ down the risks while highlighting dramatic results.",
+            "a": "play"
+          },
+          {
+            "s": "It is wise to ____ up the benefits against the dangers before committing to surgery.",
+            "a": "weigh"
+          },
+          {
+            "s": "Patients with certain health conditions may need to ____ out the operation altogether.",
+            "a": "rule"
+          },
+          {
+            "s": "It can be hard to ____ apart two clinics when both rely on similar glowing reviews.",
+            "a": "tell"
+          },
+          {
+            "s": "Some patients ____ away from asking awkward questions because they do not want to seem rude.",
+            "a": "shy"
+          }
+        ],
+        "extra": [
+          "pass",
+          "cash"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: is the cheap package worth it?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend",
+      "text": "Your friend wants to fly to Istanbul for a hair transplant because it's much cheaper. You're worried. Ask about the clinic, the surgeon and the help after the operation. Say what you'd do."
+    },
+    "b": {
+      "role": "the traveller",
+      "text": "You've found a cheap package in Istanbul with a hotel and airport transfers. You want to book it this week. Explain why it's a good deal and answer your friend's worries."
+    },
+    "phrases": [
+      "I've found a much cheaper package in Istanbul.",
+      "What happens if something goes wrong when I'm home?",
+      "Have you checked the surgeon's qualifications?",
+      "I'd feel safer if we shopped around first.",
+      "I'm not trying to push you into it.",
+      "Could we compromise and wait a month?"
+    ],
+    "after": "Afterwards, tell the class: did the traveller decide to book, wait or look for another clinic?"
   }
 }

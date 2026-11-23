@@ -7,6 +7,7 @@ source: Pew Research Center | https://www.pewresearch.org/social-trends/2023/03/
 image: images/who-are-you-when-youre-not-working-7381d0.jpg
 image-alt: A man in a blue shirt holding a plastic cup shakes hands with a smiling white-haired woman in a red cardigan at a sunny garden party.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

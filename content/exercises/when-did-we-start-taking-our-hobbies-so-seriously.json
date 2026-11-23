@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You start running because you want some ____.",
-            "a": "fresh air"
+            "s": "Regular exercise has many health ____, such as a stronger heart and better sleep.",
+            "a": "benefits"
           },
           {
-            "s": "Soon you are ____ training tips and entering races.",
-            "a": "looking up"
+            "s": "She loved painting so much that it later became her full-time ____.",
+            "a": "career"
           },
           {
-            "s": "Someone who makes candles may be told to ____ an online shop.",
-            "a": "set up"
+            "s": "After three months of lessons, Tom can play faster, and he is happy with his ____.",
+            "a": "progress"
           },
           {
-            "s": "You can read only ____.",
-            "a": "when you feel like it"
+            "s": "The singer smiled at the large ____ and thanked everyone for coming.",
+            "a": "audience"
           },
           {
-            "s": "It is easy to forget why you ____ the hobby at the start.",
-            "a": "took up"
+            "s": "The baker greets all her ____ by name.",
+            "a": "customers"
           }
         ],
         "extra": [
-          "in the first place",
-          "talented"
+          "tips",
+          "races"
         ]
       },
       "match": [
@@ -98,40 +98,109 @@
           "s": "A 2026 Forbes article looked at making money from a hobby.",
           "a": "T",
           "why": "The text says: \"In a 2026 Forbes article, a writer explored both the opportunities and the difficulties of making money from a hobby.\""
+        },
+        {
+          "s": "The text says the two friends who play guitar enjoy the hobby in the same way.",
+          "a": "F",
+          "why": "The text says: \"Both can enjoy the same hobby in very different ways.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "measures",
+          "d": "finds out the size or amount of something"
+        },
+        {
+          "t": "compare",
+          "d": "look at two things to see how they are the same or different"
+        },
+        {
+          "t": "competition",
+          "d": "a game or event where people try to win"
+        },
+        {
+          "t": "pressure",
+          "d": "a feeling that you must do something"
+        },
+        {
+          "t": "deadlines",
+          "d": "the last days or times you can finish something"
+        },
+        {
+          "t": "opportunities",
+          "d": "good chances to do something"
+        },
+        {
+          "t": "excellent",
+          "d": "very, very good"
+        },
+        {
+          "t": "relaxing",
+          "d": "making you feel calm and happy"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word, like set up. The small word changes the meaning, so learn the two words together.",
+        "items": [
+          {
+            "s": "Hobby kits often come ____ everything you need to start.",
+            "a": "with"
+          },
+          {
+            "s": "A hobby can turn ____ a job if you are not careful.",
+            "a": "into"
+          },
+          {
+            "s": "My cousin wants to set ____ a small baking business.",
+            "a": "up"
+          },
+          {
+            "s": "Even when it rained, the runners carried ____ until they reached the end.",
+            "a": "on"
+          },
+          {
+            "s": "We tried several recipes and worked ____ which one tastes best.",
+            "a": "out"
+          }
+        ],
+        "extra": [
+          "off",
+          "over"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "One person runs slowly to ____ after a day at work.",
-            "a": "clear their mind"
+            "s": "She joined the club on a free trial and then felt she had a moral ____ to stay.",
+            "a": "obligation"
           },
           {
-            "s": "The difficulty ____ when improvement stops being a choice.",
-            "a": "creeps in"
+            "s": "He has enormous ____ and hopes to win a national title one day.",
+            "a": "ambition"
           },
           {
-            "s": "Someone may ____ worrying about prices and complaints.",
-            "a": "end up"
+            "s": "You do not need a ____ in pottery to enjoy it; a few free online lessons are enough.",
+            "a": "qualification"
           },
           {
-            "s": "The activity resembles the job it once offered ____.",
-            "a": "an escape from"
+            "s": "Some phone apps ____ video games, giving points and rewards for every walk.",
+            "a": "resemble"
           },
           {
-            "s": "Jewellery making may be a genuinely rewarding ____.",
-            "a": "source of extra income"
+            "s": "My friends tried to ____ me to enter the race, but I preferred to run alone.",
+            "a": "convince"
           },
           {
-            "s": "You can enjoy an afternoon when you ____.",
-            "a": "leave the stopwatch at home"
+            "s": "A handmade gift can feel more ____ than an expensive one from a shop.",
+            "a": "authentic"
           }
         ],
         "extra": [
-          "inadequate",
-          "exceptional"
+          "obsession",
+          "income"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The difficulty creeps in when ____ stops being a choice.",
-            "cue": "IMPROVE",
-            "a": "improvement"
+            "s": "By the time she opened her shop, she ____ for friends for ten years.",
+            "cue": "bake",
+            "a": "had been baking|had baked"
           },
           {
-            "s": "Many people find ____ in developing a skill.",
-            "cue": "SATISFY",
-            "a": "satisfaction"
+            "s": "If I ____ the baking would become so stressful, I would never have started selling.",
+            "cue": "know",
+            "a": "had known"
           },
           {
-            "s": "Someone may end up worrying about prices, ____ and complaints.",
-            "cue": "MARKET",
-            "a": "marketing"
+            "s": "Every candle in the shop ____ by hand, so orders often take weeks.",
+            "cue": "make",
+            "a": "is made"
           },
           {
-            "s": "For some people, earning money is an important opportunity, not an ____ obsession.",
-            "cue": "NECESSARY",
-            "a": "unnecessary"
+            "s": "While she ____ for the marathon, she realised she had stopped enjoying running.",
+            "cue": "train",
+            "a": "was training"
           },
           {
-            "s": "Recognising that goals are ____ protects the freedom of a hobby.",
-            "cue": "OPT",
-            "a": "optional"
+            "s": "He ____ to leave his stopwatch at home.",
+            "cue": "decide",
+            "a": "decided"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Most hobby businesses make a loss in the first year.",
-          "a": "N",
-          "why": "Not stated. This version does not give this information."
-        },
-        {
-          "s": "The Forbes article appeared in May 2026.",
-          "a": "T",
-          "why": "The text says: \"A May 2026 Forbes article examined the opportunities and risks involved in transforming a hobby into a business.\""
-        },
-        {
-          "s": "Social media makes exceptional achievements more visible.",
-          "a": "T",
-          "why": "The text says: \"Social media makes those comparisons particularly easy because exceptional achievements are more visible than ordinary pleasure.\""
-        },
-        {
           "s": "Everybody can afford to keep leisure completely separate from income.",
           "a": "F",
           "why": "The text says the opposite: \"It would be unfair to suggest that everybody can afford to keep leisure completely separate from income.\""
+        },
+        {
+          "s": "The Forbes article proves that more people are turning hobbies into businesses.",
+          "a": "F",
+          "why": "The text says it is \"practical business advice rather than research proving a trend\"."
+        },
+        {
+          "s": "Most hobby businesses make a loss in the first year.",
+          "a": "N",
+          "why": "The text says nothing about how much money hobby businesses earn or lose."
+        },
+        {
+          "s": "Seeing only exceptional achievements online can make ordinary enjoyment seem not good enough.",
+          "a": "T",
+          "why": "Exceptional achievements are \"more visible than ordinary pleasure\", and the second runner may feel enjoyment without improvement is \"inadequate\"."
+        },
+        {
+          "s": "The text accepts that setting targets can be a healthy part of a hobby.",
+          "a": "T",
+          "why": "The text says: \"There is nothing wrong with ambition\" and \"Sometimes competition is exciting and progress matters.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "recognise",
+          "d": "to notice and understand that something is true"
+        },
+        {
+          "t": "transforming",
+          "d": "changing something completely"
+        },
+        {
+          "t": "techniques",
+          "d": "special ways of doing an activity well"
+        },
+        {
+          "t": "expectations",
+          "d": "what people think should happen or how you should behave"
+        },
+        {
+          "t": "measurable",
+          "d": "able to be counted or measured"
+        },
+        {
+          "t": "genuinely",
+          "d": "truly, in a real way"
+        },
+        {
+          "t": "achievements",
+          "d": "important things you have done successfully"
+        },
+        {
+          "t": "marketing",
+          "d": "telling people about a product so that they will buy it"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "The small word in a phrasal verb often changes the whole meaning. Read the full sentence before you choose.",
+        "items": [
+          {
+            "s": "Without meaning to, she ended ____ spending every weekend at craft fairs.",
+            "a": "up"
+          },
+          {
+            "s": "The first batch of jam turned ____ much better than anyone had expected.",
+            "a": "out"
+          },
+          {
+            "s": "Friends talked him ____ entering the competition, though he felt nervous.",
+            "a": "into"
+          },
+          {
+            "s": "He was so tired that he put ____ his practice until the weekend.",
+            "a": "off"
+          },
+          {
+            "s": "She cut ____ on screen time to make room for painting.",
+            "a": "down"
+          }
+        ],
+        "extra": [
+          "over",
+          "along"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "A hobby can start to look like a business ____.",
-            "a": "waiting to happen"
+            "s": "Rising rents will only ____ the pressure on households that already struggle to pay their bills.",
+            "a": "intensify"
           },
           {
-            "s": "People are told their hobby should deliver ____.",
-            "a": "a second income"
+            "s": "Years of training had left the mountaineer with a quiet ____ of her sport.",
+            "a": "mastery"
           },
           {
-            "s": "Defending leisure should not involve ____ economic realities.",
-            "a": "brushing aside"
+            "s": "The new rules were ____ on small firms that had no time to prepare.",
+            "a": "imposed"
           },
           {
-            "s": "An activity that helped somebody ____ should not become another job.",
-            "a": "switch off"
+            "s": "Her objections were entirely ____, and the committee admitted it should have listened sooner.",
+            "a": "legitimate"
           },
           {
-            "s": "Trouble ____ when achievement becomes the default standard.",
-            "a": "sets in"
+            "s": "The festival has become a political ____ where rival parties compete for attention.",
+            "a": "arena"
           },
           {
-            "s": "A hobby should not become another arena for ____.",
-            "a": "performance reviews"
+            "s": "A noticeable ____ remained between the two founders after the argument over pricing.",
+            "a": "tension"
           }
         ],
         "extra": [
-          "a side hustle",
-          "spontaneous"
+          "portfolio",
+          "ambition"
         ]
       },
       "match": [
@@ -260,24 +398,24 @@
         "kind": "word",
         "items": [
           {
-            "s": "Leisure is expected to deliver a ____ portfolio or an audience.",
-            "cue": "POLISH",
-            "a": "polished"
+            "s": "Critics called the advice ____ because it assumed everyone could afford to work for free.",
+            "cue": "REALISTIC",
+            "a": "unrealistic"
           },
           {
-            "s": "The decision is not ____ good or bad.",
-            "cue": "INHERENT",
-            "a": "inherently"
+            "s": "Her ____ to practise every evening surprised even her coach.",
+            "cue": "DETERMINED",
+            "a": "determination"
           },
           {
-            "s": "Pleasure alone can sound oddly ____.",
-            "cue": "SUFFICIENT",
-            "a": "insufficient"
+            "s": "The ____ of fitness apps has made comparison almost unavoidable.",
+            "cue": "PREVALENT",
+            "a": "prevalence"
           },
           {
-            "s": "There is a social ____ embedded in such advice.",
-            "cue": "EQUAL",
-            "a": "inequality"
+            "s": "Several members found the weekly targets ____ and quietly stopped attending.",
+            "cue": "ENCOURAGE",
+            "a": "discouraging"
           },
           {
             "s": "Many people enjoy familiar songs played ____ at home.",
@@ -288,26 +426,116 @@
       },
       "tfn": [
         {
-          "s": "Online platforms make it easy to see and measure achievement.",
+          "s": "The writer suggests that a person's finances can affect how freely they choose to keep a hobby unpaid.",
           "a": "T",
-          "why": "The text says: \"Digital platforms intensify this possibility by making achievement visible and measurable.\""
+          "why": "Someone with secure finances \"might freely choose\" to paint unpaid, while another person's \"regular income is inadequate\"."
         },
         {
-          "s": "Turning a hobby into a business is always a bad decision.",
+          "s": "The Forbes article is presented as evidence that hobbies are becoming more commercial.",
           "a": "F",
-          "why": "The text says the opposite: \"The decision is not inherently good or bad; its consequences depend on what the person wants from the activity.\""
+          "why": "The text says: \"It is business advice, not evidence of a social trend\"."
         },
         {
-          "s": "Forbes surveyed readers about their hobbies.",
+          "s": "The text reveals how many people now earn money from a side hustle.",
           "a": "N",
-          "why": "Not stated. The text does not say whether Forbes asked readers about their hobbies."
+          "why": "The text gives no figures about how many people have a side hustle."
         },
         {
-          "s": "Working hard at something can still be enjoyable.",
+          "s": "The text implies that online comparison can affect both runners and people with creative projects.",
           "a": "T",
-          "why": "The text says: \"Of course, discipline and enjoyment are not opposites.\""
+          "why": "A slow run is compared with recorded performances, and a private creative project can look disappointing beside an online portfolio."
+        },
+        {
+          "s": "The writer thinks a hobby that turns into paid work has necessarily lost its value.",
+          "a": "F",
+          "why": "The text says an activity may move \"towards paid work\" and that the meaningful distinction is whether changes are \"chosen or imposed\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "monetising",
+          "d": "making money from something"
+        },
+        {
+          "t": "embedded",
+          "d": "fixed firmly inside something"
+        },
+        {
+          "t": "inherently",
+          "d": "as a natural, basic part of something"
+        },
+        {
+          "t": "polished",
+          "d": "very smooth and carefully prepared, with no mistakes"
+        },
+        {
+          "t": "psychological",
+          "d": "connected with the mind and feelings"
+        },
+        {
+          "t": "preferably",
+          "d": "if possible, as the better choice"
+        },
+        {
+          "t": "unproductive",
+          "d": "not producing anything useful or valuable"
+        },
+        {
+          "t": "inadequate",
+          "d": "not good or large enough"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Some phrasal verbs need an extra preposition after the particle, as in run out of or look down on. Learn the whole chunk, not only the two words.",
+        "items": [
+          {
+            "s": "Instead of dwelling ____ every mistake, the amateur cellist simply enjoyed the rehearsal.",
+            "a": "on"
+          },
+          {
+            "s": "The newsletter was meant to build ____ an audience for her pottery, but few people subscribed.",
+            "a": "up"
+          },
+          {
+            "s": "Anyone who dislikes the pressure of rankings can simply opt ____ of the leaderboard.",
+            "a": "out"
+          },
+          {
+            "s": "The coach tried to play ____ the runner's injury, insisting it was minor.",
+            "a": "down"
+          },
+          {
+            "s": "The club was meant to be relaxing, but its strict rules came ____ as one more obligation.",
+            "a": "across"
+          }
+        ],
+        "extra": [
+          "apart",
+          "forward"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: should you sell your cakes?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend",
+      "text": "You love your friend's cakes and think they should open an online shop. Give at least two reasons. Listen to their worries and answer them."
+    },
+    "b": {
+      "role": "the baker",
+      "text": "You bake for fun and your friend says you should sell your cakes. You are not sure. Explain what you enjoy now and what worries you."
+    },
+    "phrases": [
+      "You should really sell these!",
+      "I'd love to, but I'm worried it'd feel like work.",
+      "What's stopping you?",
+      "I bake because it's relaxing, not because I want money.",
+      "We could start small and see how it goes.",
+      "That's a fair point, I hadn't thought of that."
+    ],
+    "after": "Afterwards, tell the class: did the baker decide to sell, and what made the difference?"
   }
 }

@@ -6,6 +6,7 @@ source: Nature Careers | https://www.nature.com/articles/d41586-026-00549-1
 image: images/why-do-we-feel-guilty-when-were-doing-nothing-81a178.jpg
 image-alt: A man in an orange t-shirt lies on a sofa holding a closed book and staring past a laptop, with a vacuum cleaner and full laundry basket in the foreground.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 
