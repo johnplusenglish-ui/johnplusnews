@@ -1538,3 +1538,20 @@ select.ls-g:focus-visible, input.ls-g:focus-visible, .ls-kw-w select:focus-visib
 .ls-words .qs-group .qs + .qs, .ls-words .hl-list { border-top: 0; }
 .ls-words .qs-label { font-family: var(--sf); font-size: 1.14rem; font-weight: 600; }
 .ls .continue-reading { padding-top: 0; border-top: 0; }
+
+/* Lesson layout: each stage is one panel, so the page reads as four clear blocks with the saved
+   words after them. Sources and topics sit below the lesson, out of its way. */
+.ls-sec { margin: 22px 0 0; padding: 20px 24px 10px; border: 1px solid var(--line); border-radius: 16px; background: #fff; }
+.ls-head .ls-sec { margin-top: 30px; }
+.ls .article-head.ls-head { padding-bottom: 0; }
+.ls .ls-sec .ls-stage { margin: 0 0 6px; }
+.ls-sec-read { padding-bottom: 6px; background: #f7f9fc; }
+.ls .ls-sec-read .panels { margin: 0; padding: 0 0 0 40px; border: 0; border-radius: 0; background: none; }
+.ls .ls-words.ls-sec { margin-top: 22px; padding-bottom: 14px; }
+.ls .ls-words .ls-stage { margin-bottom: 4px; }
+.ls .article-info { margin: 26px 0 0; padding: 0 24px; }
+@media (max-width: 640px) {
+  .ls-sec { padding: 16px 16px 6px; border-radius: 14px; }
+  .ls .ls-sec-read .panels { padding: 0; }
+  .ls .article-info { padding: 0 4px; }
+}

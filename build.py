@@ -1784,7 +1784,7 @@ def lesson_before(a):
                      "These words are in the article. Choose the letter of the meaning for each one.",
                      '<div class="ls-kw"><ol class="ls-kw-w">{}</ol><ul class="ls-kw-m">{}</ul></div>'.format(left, right) + LS_ACTS)
         return warm + kw
-    return '<h2 class="ls-stage">Before you read</h2>' + ls_wrap(a, one)
+    return '<section class="ls-sec"><h2 class="ls-stage">Before you read</h2>{}</section>'.format(ls_wrap(a, one))
 
 
 def lesson_after(a):
@@ -1828,17 +1828,18 @@ def lesson_after(a):
                        "Discuss in pairs or small groups. Give reasons for your answers.",
                        '<ol class="ls-qs">{}</ol>'.format("".join("<li>{}</li>".format(inline(q)) for q in qs)), True) if qs else ""
 
-    out = ('<h2 class="ls-stage">After you read<button type="button" data-ls-all>Open all</button></h2>' + ls_wrap(a, tasks)
-           + '<h2 class="ls-stage">Speak</h2>' + ls_wrap(a, talk))
+    out = ('<section class="ls-sec"><h2 class="ls-stage">After you read<button type="button" data-ls-all>Open all</button></h2>'
+           + ls_wrap(a, tasks) + '</section>')
+    speak = '<h2 class="ls-stage">Speak</h2>' + ls_wrap(a, talk)
     sp = a["lesson"].get("speak")
     if sp:
-        out += ls_task(9, sp["title"], "", esc(sp["setup"]),
+        speak += ls_task(9, sp["title"], "", esc(sp["setup"]),
                        '<div class="ls-cards"><div class="ls-card"><h4>Student A · {ar}</h4><p>{at}</p></div>'
                        '<div class="ls-card"><h4>Student B · {br}</h4><p>{bt}</p></div></div>'
                        '<div class="ls-phr"><h4>Useful phrases</h4><ul>{ph}</ul></div><p class="ls-after">{af}</p>'.format(
                            ar=esc(sp["a"]["role"]), at=esc(sp["a"]["text"]), br=esc(sp["b"]["role"]), bt=esc(sp["b"]["text"]),
                            ph="".join("<li>{}</li>".format(esc(p)) for p in sp["phrases"]), af=esc(sp["after"])))
-    return '<section class="ls-tasks">{}</section>'.format(out)
+    return '<div class="ls-tasks">{}<section class="ls-sec">{}</section></div>'.format(out, speak)
 
 
 def lesson_pdf_links(a):
@@ -1935,16 +1936,18 @@ def article_page(a, newer, older, pool=()):
 {listen}
 {before}
 </header>
+<section class="ls-sec ls-sec-read">
 <h2 class="ls-stage">Read</h2>
 <h3 class="ls-readhead"><span class="ls-num">3</span>Read the article</h3>
 <p class="ls-how ls-readhow">The paragraphs are numbered. Look out for the key words from task 2.</p>
 {versions}
+</section>
+{after}
+<section class="study-tools ls-words ls-sec"><h2 class="ls-stage">Your words</h2><div class="qs-group">{words}</div></section>
 <footer class="article-info">
 {source}
 {topics}
 </footer>
-{after}
-<section class="study-tools ls-words"><h2 class="ls-stage">Your words</h2><div class="qs-group">{words}</div></section>
 {pager}
 </article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a),
                      back='<a class="back" href="/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">All articles</span></a>',
