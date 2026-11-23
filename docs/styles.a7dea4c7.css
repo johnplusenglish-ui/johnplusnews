@@ -826,8 +826,8 @@ html.acct-lock { overflow: hidden; }
 @keyframes acct-rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .acct-back, .acct-dlg { animation: none; } }
 /* readers who are not signed in can open only the free articles (site.json); the rest carry a Members tag and show a members panel */
-html.jpn-guest .card:not([data-free]) .thumb::after { content: 'Members'; position: absolute; top: 10px; left: 10px; padding: 3px 10px; font-size: 0.8125rem; font-weight: 600; color: var(--ink); background: #fff; border-radius: var(--r-xs); }
-html.jpn-guest .card:not([data-free]) .thumb { position: relative; }
+html.jpn-guest .card[data-free] .thumb::after { content: 'Free'; position: absolute; top: 10px; left: 10px; padding: 3px 10px; font-size: 0.8125rem; font-weight: 600; color: var(--ink); background: #fff; border-radius: var(--r-xs); }
+html.jpn-guest .card[data-free] .thumb { position: relative; }
 html.jpn-guest article[data-locked] > :not(.article-head),
 html.jpn-guest article[data-locked] .article-head > :not(.back):not(h1):not(.dek):not(.hero):not(.lock-panel) { display: none !important; }  /* a guest still sees the headline, summary and picture */
 html.jpn-guest article[data-locked] .article-head > .hero { margin-bottom: 0; }
@@ -997,13 +997,13 @@ html.jpn-guest .gate-note { margin: 0 0 28px; display: flex; flex-wrap: wrap; al
 .foot-links { flex-wrap: wrap; }
 .thumb .blank { padding: 12px 6px; }
 
-/* Narrow phones: the logo already goes home, so the Articles link can stand down and
-   let the brand, About and the account button share 280px without the page scrolling sideways. */
+/* Narrow phones: About is in the footer, so it stands down and Articles stays, which is the way back to
+   the list. On the very narrowest screens Articles goes too: the logo still goes home. */
 @media (max-width: 480px) {
   .site-header .wrap { gap: 8px; min-height: 58px; }
   .brand { font-size: 1.0625rem; gap: 7px; }
   .brand svg { width: 22px; height: 22px; }
-  .site-nav .nav-articles { display: none; }
+  .site-nav .nav-about { display: none; }
   .acct { margin-left: 2px; }
 }
 
@@ -1617,3 +1617,19 @@ select.ls-g:focus-visible, input.ls-g:focus-visible, .ls-kw-w select:focus-visib
 .home-intro { display: none; margin: 36px 0 -8px; font-family: var(--sf); font-size: clamp(1.15rem, 3.4vw, 1.4rem); line-height: 1.4; color: var(--muted); max-width: 40em; }
 .home-intro b { color: var(--ink); font-weight: 600; }
 html.jpn-guest .home-intro { display: block; }
+
+@media (max-width: 359px) { .site-nav .nav-articles { display: none; } }
+
+/* Touch screens: every control in a lesson is at least 44px tall, or has an invisible area that makes it so. */
+@media (pointer: coarse), (max-width: 700px) {
+  .ls-tfn { gap: 8px; }
+  .ls-tfn button { min-width: 48px; height: 44px; border-radius: 22px; font-size: 0.9rem; }
+  select.ls-g, input.ls-g { height: 44px; }
+  .ls-kw li { min-height: 52px; }
+  .ls-kw-w select { width: 62px; height: 44px; }
+  .ls-stage button { position: relative; }
+  .ls-stage button::after { content: ""; position: absolute; inset: -14px -10px; }
+  .topics .chip { min-height: 40px; }
+  /* the audio bar keeps its thin look; a clear border above and below gives the thumb room to be caught */
+  .lp-seek { box-sizing: content-box; border: solid transparent; border-width: 16px 0; margin: -16px 0; background-clip: padding-box; }
+}
