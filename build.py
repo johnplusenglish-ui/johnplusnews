@@ -645,7 +645,7 @@ def page(path, main, title=None, desc=None, current=None, image=None, kind="webs
 {main}
 </main>
 {prefetch}<footer class="site-footer">
-  <div class="wrap"><span>{name}. {tagline}</span><nav class="foot-links" aria-label="About this site"><a href="/guide/">How it works</a><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></nav></div>
+  <div class="wrap"><span>{name}. {tagline}</span><nav class="foot-links" aria-label="About this site"><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></nav></div>
 </footer>
 </body>
 </html>
@@ -1066,95 +1066,6 @@ def about_page():
             '</div>').format(levels=levels, links=links, contact=contact)
     return page("/about/", main, title="About", current="/about/",
                 desc="Who makes johnplusnews, how the three reading levels work, where the stories come from and how AI is used.")
-
-
-def guide_page():
-    """How the site works for a learner, from creating an account to deleting it, in the order they will need it.
-    Every button named here is the real on-screen label (static/account.js, highlight.js, lesson.js), so keep
-    the two in step: if a label changes there, change it here."""
-    k = lambda s: '<span class="gd-k">{}</span>'.format(s)  # a button or link as it looks on screen
-
-    def step(n, sid, title, intro, items, tip=""):
-        return ('<section class="gd-step" id="{sid}"><h2><span class="ls-num">{n}</span>{t}</h2>{i}'
-                '<ul class="gd-list">{li}</ul>{tip}</section>').format(
-                    sid=sid, n=n, t=title, i='<p>{}</p>'.format(intro) if intro else "",
-                    li="".join("<li>{}</li>".format(x) for x in items),
-                    tip='<p class="gd-tip">{}</p>'.format(tip) if tip else "")
-
-    steps = [
-        ("account", "Create your free account", "",
-         ["Press {} at the top of any page, then {}. The box also opens by itself when you arrive.".format(k("Sign in"), k("Create an account")),
-          "Type your name, your email and a password of at least 8 characters, then press {}.".format(k("Create account")),
-          "We send you an email. Open it and press the link to confirm your address. If it isn't there after a few minutes, look in your spam folder.",
-          "Now sign in with your email and password. Your first name appears at the top right, and that's it: every article is open to you."],
-         "Forgotten your password? Press {}, then {}. We email you a link. It works once, for about an hour, "
-         "and you need to open it in the same browser you asked from.".format(k("Sign in"), k("Forgotten your password?"))),
-        ("find", "Find a story", "",
-         ["{} lists every story, newest first. The topic buttons narrow the list down.".format(k("Articles")),
-          "{} has stories for learners aged 12 to 18.".format(k("Teens")),
-          "Once you're signed in, the cards say {} or {}, so you can see where you stopped.".format(k("In progress"), k("Completed")),
-          'No account yet? <a href="/free/">Three stories are free to read</a>.']),
-        ("level", "Choose your level", "Every story is written three times. It's the same story, with different English.",
-         ["{} uses short sentences and everyday words. It's about B1.".format(k("Core")),
-          "{} has longer sentences and more detail. It's about B2.".format(k("Intermediate")),
-          "{} is natural English with richer detail. It's about C1 to C2.".format(k("Advanced")),
-          "Press a level at the top of the article. The text, the tasks and the worksheet all change with it."],
-         "Not sure which to choose? Start with Intermediate. If it feels hard, move down a level. If it feels easy, move up."),
-        ("listen", "Read and listen", "",
-         ["Many stories have a {} bar. Press play to hear the article read aloud.".format(k("Listen")),
-          "The {} button changes the speed. In the same menu, turn on {} to see each word light up as it's spoken.".format(k("1x"), k("Follow the words")),
-          "The paragraphs are numbered, so a class can talk about paragraph 3 without anyone getting lost."]),
-        ("save", "Save the words you want to keep", "",
-         ["Select a word or phrase in the article. A {} button appears next to it. Press it. On a computer, Alt+H does the same.".format(k("Highlight")),
-          "Tap a highlighted word to see what it means, or to remove it.",
-          "Your words gather under {} at the bottom of the page, each with the sentence you found it in. "
-          "Write the meaning your own way in the {} box: it's the best way to remember it.".format(k("Your words"), k("Say it your way"))],
-         "Select inside one paragraph at a time. A word or a short phrase works best."),
-        ("lesson", "Do the lesson", "Each story is a lesson in four stages, with nine numbered tasks.",
-         ["<b>Before you read.</b> 1 Warm up, 2 Key words.",
-          "<b>Read.</b> 3 The article.",
-          "<b>After you read.</b> 4 True, false or not given, 5 Vocabulary, 6 Verb forms or Word forms, 7 Language focus.",
-          "<b>Speak.</b> 8 Talk about it, 9 a role-play or activity for pairs.",
-          "Press a task to open it. Press {} to see your score, and {} to clear it and start again. {} opens tasks 4 to 7 together.".format(
-              k("Check answers"), k("Try again"), k("Open all")),
-          "Press {} to download the same lesson to print. The answers are on the last page.".format(k("Worksheet PDF"))],
-         "Teachers: the {} at the top of most articles counts down an activity and chimes at zero. "
-         "A few older stories don't have the lesson layout yet, and their exercises are under {} at the bottom.".format(k("Timer"), k("Study this story"))),
-        ("words", "Go back over your words", "",
-         ["Open {} from the menu under your name.".format(k("My words")),
-          "Every word you've saved is there, grouped by article. Use {} to find one.".format(k("Search your words")),
-          "Open a word to see its sentence and meaning, add your own note, or {} it.".format(k("Remove")),
-          "{} saves the list for a spreadsheet or a flashcard app.".format(k("Download CSV"))]),
-        ("privacy", "Your account and your privacy", "",
-         ["Your teacher, who runs this site, can see your name, your email, the words you save and look up, "
-          'and the articles you open or finish. Nobody else can. The <a href="/privacy/">privacy notice</a> has the details.',
-          "{} is in the menu under your name.".format(k("Sign out")),
-          "To delete your account and every word you've saved, open {} and press {} at the bottom. "
-          "This can't be undone.".format(k("My words"), k("Delete my account"))]),
-    ]
-    toc = "".join('<li><a href="#{}"><span>{}</span>{}</a></li>'.format(sid, n, t) for n, (sid, t, *_r) in enumerate(steps, 1))
-    body = "".join(step(n, *s) for n, s in enumerate(steps, 1))
-    faq = [
-        ("The confirmation email hasn't come.",
-         "Look in your spam folder. Still nothing? Try to sign in: you'll see a {} button.".format(k("Send that email again"))),
-        ("The link says it has expired.",
-         "Links work once, for about an hour. Ask for a new one and open it in the same browser."),
-        ("An article says it's for members.",
-         "Create a free account and sign in, and every article opens."),
-        ("I can't see my words on another device.",
-         "Check that you're signed in there with the same email. Your words follow your account, not your device."),
-    ]
-    faq_html = "".join('<details class="gd-faq"><summary>{}{}</summary><p>{}</p></details>'.format(esc(q), CHEVRON_ICON, a) for q, a in faq)
-    main = ('<div class="wrap about howto">'
-            '<h1 class="page-title">How it works</h1>'
-            '<p class="about-lead">Everything you can do on johnplusnews, in the order you\u2019ll need it. It takes about three minutes to read.</p>'
-            '<nav class="gd-toc" aria-label="On this page"><ol>{toc}</ol></nav>'
-            '{body}'
-            '<section class="gd-step gd-help" id="help"><h2>If something goes wrong</h2>{faq}'
-            '<p>Still stuck? <a href="/contact/">Tell us</a> what happened and we\u2019ll sort it out.</p></section>'
-            '</div>').format(toc=toc, body=body, faq=faq_html)
-    return page("/guide/", main, title="How it works", current="/guide/",
-                desc="How to use johnplusnews: create an account, choose your level, save words, do the lesson and find your words again.")
 
 
 TABS_JS = (
@@ -1741,17 +1652,6 @@ def versions_html(a):
     return '<div class="panels">{}</div>\n<script>{}</script>'.format(panels, TABS_JS + (LANG_JS if any_lang else ""))
 
 
-FIRSTRUN_LESSON = ('<aside class="guide" id="firstrun" hidden aria-labelledby="firstrun-h">'
-                   '<h2 id="firstrun-h">New here? This is how it works.</h2>'
-                   '<ul>'
-                   '<li>Pick <b>Core</b>, <b>Intermediate</b> or <b>Advanced</b> above. Same story, different English.</li>'
-                   '<li>Work through the numbered tasks. <b>Check answers</b> shows your score.</li>'
-                   '<li>Select any words you want to keep, then press <b>Highlight</b>. They wait for you in <b>My words</b>.</li>'
-                   '<li><b>Worksheet PDF</b> gives you the same lesson to print.</li>'
-                   '</ul>'
-                   '<p class="guide-more"><a href="/guide/">Read the full guide</a></p>'
-                   '<button type="button" class="guide-x">Got it</button></aside>')
-
 FIRSTRUN = ('<aside class="guide" id="firstrun" hidden aria-labelledby="firstrun-h">'
             '<h2 id="firstrun-h">New here? This is how it works.</h2>'
             '<ul>'
@@ -1760,7 +1660,6 @@ FIRSTRUN = ('<aside class="guide" id="firstrun" hidden aria-labelledby="firstrun
             '<li>They wait for you in <b>My words</b>, with the sentence you found them in.</li>'
             '<li>Scroll to the bottom for exercises and questions to talk about.</li>'
             '</ul>'
-            '<p class="guide-more"><a href="/guide/">Read the full guide</a></p>'
             '<button type="button" class="guide-x">Got it</button></aside>')
 
 FIRSTRUN_JS = ("(function(){function go(){var g=document.getElementById('firstrun');if(!g)return;"
@@ -1966,8 +1865,13 @@ def lesson_pdf_links(a):
 
 
 def lesson_script():
-    f = STATIC / "lesson.js"
-    return '<script src="/lesson.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8]) if f.exists() else ""
+    """The lesson page's two scripts: lesson.js checks answers, tour.js is the How it works tour."""
+    out = ""
+    for name in ("lesson.js", "tour.js"):
+        f = STATIC / name
+        if f.exists():
+            out += '<script src="/{}?v={}" defer></script>\n'.format(name, hashlib.md5(f.read_bytes()).hexdigest()[:8])
+    return out
 
 
 def article_page(a, newer, older, pool=()):
@@ -2043,7 +1947,6 @@ def article_page(a, newer, older, pool=()):
 <p class="dek">{summary}</p>
 {img}
 {listen}
-{firstrun}
 {before}
 </header>
 <section class="ls-sec ls-sec-read">
@@ -2061,7 +1964,7 @@ def article_page(a, newer, older, pool=()):
 {pager}
 </article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a),
                      back=('<a class="back" href="/teens/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">Teens</span></a>' if a["teens"] else '<a class="back" href="/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">All articles</span></a>'),
-                     kicker="Teens lesson" if a["teens"] else "News lesson", firstrun=FIRSTRUN_LESSON,
+                     kicker="Teens lesson" if a["teens"] else "News lesson",
                      pdf=lesson_pdf_links(a), timer="" if a["teens"] else '<div class="timerpick" id="timerslot"></div>', studyjs=STUDY_JS,
                      date=esc(shown_date(a)), title=esc(first["title"]), summary=esc(first["summary"]),
                      img=re.sub(r"<figcaption.*?</figcaption>", "", img), listen=listen_html(a), before=lesson_before(a),
@@ -2118,7 +2021,7 @@ def sitemap_xml(arts, topics, content_dir):
     teens = [a for a in arts if a["teens"]]
     if teens:
         rows.insert(2, ("/teens/", max(changed[a["slug"]] for a in teens)))
-    rows += [("/about/", None), ("/guide/", None), ("/contact/", None), ("/privacy/", None), ("/terms/", None)]
+    rows += [("/about/", None), ("/contact/", None), ("/privacy/", None), ("/terms/", None)]
     rows += [(url_of(a), changed[a["slug"]]) for a in arts]
     out = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path, mod in rows:
@@ -2186,7 +2089,6 @@ def build(content_dir=CONTENT, out_dir=OUT, static_dir=STATIC):
     for t in topics:
         write("tags/{}/index.html".format(t["slug"]), gallery_page(t["arts"], topics, t))
     write("about/index.html", about_page())
-    write("guide/index.html", guide_page())
     write("privacy/index.html", legal_page("/privacy/", "Privacy notice", legal.privacy(SITE), "How johnplusnews handles your information."))
     write("terms/index.html", legal_page("/terms/", "Terms of use", legal.terms(SITE), "The terms for using johnplusnews."))
     write("contact/index.html", legal_page("/contact/", "Contact", legal.contact(SITE), "How to contact johnplusnews and report a mistake."))

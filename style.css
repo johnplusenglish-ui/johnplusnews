@@ -1556,28 +1556,50 @@ select.ls-g:focus-visible, input.ls-g:focus-visible, .ls-kw-w select:focus-visib
   .ls .article-info { padding: 0 4px; }
 }
 
-/* ================================================================= How it works (/guide/)
-   One page that walks a learner from creating an account to deleting it. Steps carry the lesson's blue
-   number badges; a button named in the text looks like a small version of the real control. */
-.howto { max-width: var(--reading); }
-.gd-toc { margin: 0 0 8px; padding: 14px 18px; border: 1px solid var(--line); border-radius: var(--r-lg); }
-.gd-toc ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 2px 16px; }
-.gd-toc a { display: flex; align-items: baseline; gap: 10px; padding: 6px 0; color: var(--ink); text-decoration: none; font-weight: 500; }
-.gd-toc a:hover { color: var(--accent); }
-.gd-toc a span { flex: none; width: 1.4em; font-family: var(--sf); font-weight: 600; color: var(--accent); }
-.gd-step { scroll-margin-top: 24px; padding-top: 4px; }
-.howto .gd-step h2 { display: flex; align-items: center; gap: 12px; margin: 36px 0 12px; font-size: 1.25rem; }
-.howto .gd-help h2 { margin-top: 44px; }
-.gd-list { margin: 0; padding-left: 20px; line-height: 1.65; }
-.gd-list li { margin: 0 0 8px; padding-left: 2px; }
-.gd-list li::marker { color: var(--accent); }
-.gd-k { display: inline-block; padding: 0 8px; border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--bg); color: var(--ink); font-size: 0.9em; font-weight: 600; line-height: 1.6; white-space: nowrap; }
-.howto .gd-tip { margin: 12px 0 0; padding: 12px 16px; background: var(--accent-soft); border-radius: var(--r-lg); font-size: 0.9375rem; line-height: 1.6; color: var(--ink); }
-.gd-faq { border: 1px solid var(--line); border-radius: var(--r-lg); margin: 0 0 8px; }
-.gd-faq summary { display: flex; align-items: center; gap: 12px; padding: 12px 16px; cursor: pointer; list-style: none; font-weight: 600; color: var(--ink); }
-.gd-faq summary::-webkit-details-marker { display: none; }
-.gd-faq summary svg { margin-left: auto; flex: none; color: var(--muted); transform: rotate(-90deg); transition: transform .2s; }
-.gd-faq[open] summary svg { transform: none; }
-.howto .gd-faq p { margin: 0; padding: 0 16px 14px; }
-.guide-more { margin: 10px 0 0; font-size: 0.9375rem; }
-@media (prefers-reduced-motion: reduce) { .gd-faq summary svg { transition: none; } }
+/* ================================================================= How it works tour (static/tour.js)
+   Dims the page and lights one part at a time, with a short card. Same pattern as the Word Rooms tour. */
+.tourbtn { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0; font: inherit; font-family: var(--sf); font-size: 0.9rem; font-weight: 600; color: var(--accent); background: none; border: 0; cursor: pointer; white-space: nowrap; }
+.tourbtn:hover span { text-decoration: underline; }
+.tourbtn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.tourbtn svg .d { fill: currentColor; }
+.tourbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: var(--r-xs); }
+@media (max-width: 560px) { .tourbtn span { display: none; } }
+.jt-tour { position: fixed; inset: 0; z-index: 700; pointer-events: none; }
+.jt-tour .block { position: fixed; inset: 0; pointer-events: auto; }
+.jt-tour .hole { position: fixed; left: 0; top: 0; width: 0; height: 0; border-radius: var(--r-lg); pointer-events: none;
+  box-shadow: 0 0 0 2px var(--accent), 0 0 0 200vmax rgb(14 18 26 / 60%);
+  transition: transform .35s cubic-bezier(.2,.7,.2,1), width .35s cubic-bezier(.2,.7,.2,1), height .35s cubic-bezier(.2,.7,.2,1); }
+.jt-tour .tip { position: fixed; pointer-events: auto; width: min(360px, calc(100vw - 24px)); background: var(--bg); color: var(--ink);
+  border-radius: 16px; padding: 16px 18px 14px; box-shadow: 0 24px 60px rgb(8 10 16 / 45%);
+  transition: left .3s cubic-bezier(.2,.7,.2,1), top .3s cubic-bezier(.2,.7,.2,1); }
+.jt-tour .hd { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 0 0 6px; }
+.jt-tour .st { font: 600 12.5px/1 var(--sf); color: var(--accent); }
+.jt-tour .sk { all: unset; cursor: pointer; font: 500 13px/1 var(--sf); color: var(--muted); padding: 6px 8px; border-radius: var(--r-md); }
+.jt-tour .sk:hover { background: var(--accent-soft); color: var(--ink); }
+.jt-tour h3 { margin: 0 0 6px; font: 700 19px/1.2 var(--sf); letter-spacing: -.01em; }
+.jt-tour p { margin: 0; font-size: 15px; line-height: 1.5; color: var(--text); }
+.jt-tour .ft { display: flex; align-items: center; gap: 8px; margin-top: 14px; }
+.jt-tour .dotsrow { display: flex; gap: 4px; margin-right: auto; flex-wrap: wrap; min-width: 0; }
+.jt-tour .dotsrow i { width: 6px; height: 6px; border-radius: 3px; background: var(--line); }
+.jt-tour .dotsrow i.on { width: 16px; background: var(--accent); }
+.jt-tour .bk, .jt-tour .nx { all: unset; cursor: pointer; font: 600 14px/1 var(--sf); padding: 10px 15px; border-radius: var(--r-md); }
+.jt-tour .bk { color: var(--ink); border: 1.5px solid var(--line); }
+.jt-tour .nx { background: var(--accent); color: #fff; }
+.jt-tour .bk:focus-visible, .jt-tour .nx:focus-visible, .jt-tour .sk:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.jt-tour .bk[hidden] { display: none; }
+.jt-invite { position: fixed; right: 20px; bottom: 20px; z-index: 640; width: min(330px, calc(100vw - 32px)); background: var(--ink); color: #fff;
+  border-radius: 16px; padding: 15px 16px 14px; box-shadow: 0 20px 50px rgb(8 10 16 / 40%); animation: jtrise .35s cubic-bezier(.2,.7,.2,1); }
+.jt-invite b { display: block; font: 700 16px/1.2 var(--sf); }
+.jt-invite span { display: block; margin-top: 4px; font-size: 14px; line-height: 1.45; color: #c9d0db; }
+.jt-invite .ac { display: flex; gap: 8px; margin-top: 12px; }
+.jt-invite button { all: unset; cursor: pointer; font: 600 14px/1 var(--sf); padding: 10px 14px; border-radius: var(--r-md); }
+.jt-invite .go { background: var(--accent); color: #fff; }
+.jt-invite .no { color: #c9d0db; }
+.jt-invite button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+@keyframes jtrise { from { opacity: 0; transform: translateY(12px); } }
+@media (max-width: 700px) {
+  .jt-tour .tip.dock { left: 12px !important; right: 12px; width: auto; bottom: calc(12px + env(safe-area-inset-bottom, 0px)); top: auto !important; }
+  .jt-tour .tip.dock-top { top: 12px !important; bottom: auto; }
+  .jt-invite { left: 16px; right: 16px; width: auto; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); }
+}
+@media (prefers-reduced-motion: reduce) { .jt-tour .hole, .jt-tour .tip { transition: none; } .jt-invite { animation: none; } }

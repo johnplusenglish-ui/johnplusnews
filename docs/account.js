@@ -451,7 +451,6 @@
     }
     item("My words", "/words/");
     if (me.role === "teacher") item("Teacher view", "/teacher/");
-    item("How it works", "/guide/");
     item("Sign out", null, signOut);
     menu.lastChild.className = "acct-out";
     menuBtn.addEventListener("click", function (e) {
