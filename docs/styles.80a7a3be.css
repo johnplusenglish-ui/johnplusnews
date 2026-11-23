@@ -1446,9 +1446,9 @@ h1, h2, h3, .sec-h, .card h2, .article-head h1, .nx-h { text-wrap: balance; }
 .ls-hint { font-weight: 400; font-size: 0.86rem; color: var(--muted); white-space: nowrap; }
 .ls-sp { margin-left: auto; }
 .ls-done { margin-left: auto; font-size: 0.82rem; font-weight: 600; color: var(--ls-ok); white-space: nowrap; }
-.ls-task > summary svg { flex: none; color: var(--muted); transition: transform .2s; }
+.ls-task > summary svg { flex: none; color: var(--muted); transform: rotate(-90deg); transition: transform .2s; }
 .ls-done + svg { margin-left: 10px; }
-.ls-task[open] > summary svg { transform: rotate(180deg); }
+.ls-task[open] > summary svg { transform: none; }
 .ls-body { padding: 0 0 22px 40px; font-family: var(--sf); font-size: 1.0625rem; line-height: 1.5; color: var(--ink); }
 .ls-how { margin: 0 0 14px; font-family: var(--sf); font-size: 0.95rem; color: var(--muted); }
 ol.ls-qs, ol.ls-rows { margin: 0; padding-left: 22px; }
