@@ -12,6 +12,7 @@ source-2-date: 17 February 2026
 image: images/would-you-choose-a-later-start-to-school-f7e802.jpg
 image-alt: A teenager sits up in a bed with blue and white striped bedding, hugging a pillow with her eyes closed and smiling, beside a bedside alarm clock.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

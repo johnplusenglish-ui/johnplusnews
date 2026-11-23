@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Then the school introduced ____ hours that gave students a choice.",
+            "s": "My mum's job has ____ hours, so she can start at eight or at ten.",
             "a": "flexible"
           },
           {
-            "s": "Students could ____ at 7:30, or they could wait until 8:30.",
-            "a": "arrive"
-          },
-          {
-            "s": "The study was a ____, so it shows what happened, not exactly why.",
+            "s": "Our class did a ____ to find out how many students walk to school.",
             "a": "survey"
           },
           {
-            "s": "A later ____ might mean a later finish, and that could change your evening.",
-            "a": "start"
+            "s": "You can't ____ that the new trainers made him run faster.",
+            "a": "prove"
           },
           {
-            "s": "In the study, almost all students ____ the later option.",
-            "a": "chose"
+            "s": "The museum ____ opens at ten, but the doors open a little earlier.",
+            "a": "officially"
+          },
+          {
+            "s": "Our teacher ____ all the forms and put them in her bag.",
+            "a": "collected"
           }
         ],
         "extra": [
-          "prove",
-          "tired"
+          "perfect",
+          "travel"
         ]
       },
       "match": [
@@ -52,29 +52,29 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Before the change, classes ____ at 7:20.",
-            "cue": "begin",
-            "a": "began"
+            "s": "Last year our school ____ the timetable.",
+            "cue": "change",
+            "a": "changed"
           },
           {
-            "s": "The students ____ about 14 years old.",
-            "cue": "be",
-            "a": "were"
+            "s": "Yesterday I ____ up at six because of the noise outside.",
+            "cue": "wake",
+            "a": "woke"
           },
           {
-            "s": "In the study, students ____ 45 minutes more on school days, on average.",
-            "cue": "sleep",
-            "a": "slept"
+            "s": "We ____ PE on Monday because the sports hall was closed.",
+            "cue": "not have",
+            "a": "didn't have|did not have"
           },
           {
-            "s": "Would you ____ in bed for the extra hour?",
-            "cue": "stay",
-            "a": "stay"
+            "s": "My friend usually ____ the bus at half past seven.",
+            "cue": "catch",
+            "a": "catches"
           },
           {
-            "s": "Students woke up later, but they ____ to bed at about the same time.",
-            "cue": "go",
-            "a": "went"
+            "s": "I ____ my homework at home, so I did it again at lunch.",
+            "cue": "forget",
+            "a": "forgot"
           }
         ]
       },
@@ -104,35 +104,103 @@
           "a": "F",
           "why": "The text says the opposite: \"it doesn't prove that a later start is perfect for every school\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "timetable",
+          "d": "a list of the times when things happen"
+        },
+        {
+          "t": "introduced",
+          "d": "started using something new"
+        },
+        {
+          "t": "researchers",
+          "d": "people who study something carefully to learn new facts"
+        },
+        {
+          "t": "completed",
+          "d": "finished"
+        },
+        {
+          "t": "average",
+          "d": "the usual amount"
+        },
+        {
+          "t": "offered",
+          "d": "gave someone the chance to have something"
+        },
+        {
+          "t": "training",
+          "d": "practice for a sport"
+        },
+        {
+          "t": "straight away",
+          "d": "at once, without waiting"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some words are always followed by the same preposition, like afraid of and good at. Learn them as pairs.",
+        "items": [
+          {
+            "s": "Many students worry ____ their exams.",
+            "a": "about"
+          },
+          {
+            "s": "I'm not very good ____ getting up early.",
+            "a": "at"
+          },
+          {
+            "s": "Our coach is proud ____ the team.",
+            "a": "of"
+          },
+          {
+            "s": "Whether I can come depends ____ the bus times.",
+            "a": "on"
+          },
+          {
+            "s": "She's interested ____ science and wants to be a researcher.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "for",
+          "with"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "On a dark winter morning, an extra hour in bed sounds almost too good to be ____.",
-            "a": "true"
+            "s": "The school ____ a new rule this term: no phones in the corridors.",
+            "a": "introduced"
           },
           {
-            "s": "Students were not sorted into timetables by ____, as in a lottery, so other things could matter.",
-            "a": "chance"
-          },
-          {
-            "s": "A student who ____ on a bus from a village must follow the bus timetable.",
+            "s": "Whether we play outside ____ on the weather.",
             "a": "depends"
           },
           {
-            "s": "On school days, students slept about 45 minutes more, on ____.",
-            "a": "average"
+            "s": "The team captain was picked by ____: everyone's name went into a hat.",
+            "a": "chance"
           },
           {
-            "s": "A survey cannot prove that the later start ____ every change.",
+            "s": "Nobody knows what ____ the fire alarm to go off during the exam.",
             "a": "caused"
+          },
+          {
+            "s": "Her maths ____ were much higher in the summer than in the winter.",
+            "a": "scores"
+          },
+          {
+            "s": "Our coach is quite ____: if you have an exam, you can miss training.",
+            "a": "flexible"
           }
         ],
         "extra": [
-          "option",
-          "officially"
+          "average",
+          "prove"
         ]
       },
       "match": [
@@ -157,29 +225,29 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Researchers wanted to know what happens when students are actually ____ a choice.",
-            "cue": "give",
-            "a": "given"
+            "s": "By the time I got to school, the first lesson ____.",
+            "cue": "start",
+            "a": "had started|had already started"
           },
           {
-            "s": "Most students ____ up later but went to bed at about the same time.",
-            "cue": "wake",
-            "a": "woke"
+            "s": "Next year, some lessons ____ to the afternoon.",
+            "cue": "move",
+            "a": "will be moved|are going to be moved"
           },
           {
-            "s": "At the school in Gossau, classes ____ to begin at 7:20.",
-            "cue": "use",
-            "a": "used"
+            "s": "If school started at nine, I ____ much better.",
+            "cue": "sleep",
+            "a": "would sleep|'d sleep"
           },
           {
-            "s": "A flexible system ____ best when the school and families can plan around it.",
-            "cue": "work",
-            "a": "works"
+            "s": "I ____ for the bus for twenty minutes, and it still hasn't come.",
+            "cue": "wait",
+            "a": "have been waiting|'ve been waiting"
           },
           {
-            "s": "If your school offered the choice for a month, which would you ____?",
-            "cue": "pick",
-            "a": "pick"
+            "s": "Students ____ to use their phones during lessons.",
+            "cue": "not allow",
+            "a": "are not allowed|aren't allowed"
           }
         ]
       },
@@ -209,35 +277,103 @@
           "a": "N",
           "why": "Not stated. The text does not say whether parents were asked anything."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "officially",
+          "d": "in the way the rules say"
+        },
+        {
+          "t": "arranged",
+          "d": "planned and organised"
+        },
+        {
+          "t": "reported",
+          "d": "said what they had noticed"
+        },
+        {
+          "t": "sorted",
+          "d": "put into groups"
+        },
+        {
+          "t": "timetable",
+          "d": "a plan of the times for lessons"
+        },
+        {
+          "t": "win",
+          "d": "a good result"
+        },
+        {
+          "t": "collect",
+          "d": "go and get someone from a place"
+        },
+        {
+          "t": "secondary school",
+          "d": "a school for students aged about 11 to 18"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "These verbs and adjectives need a fixed preposition. Learn the whole pattern: rely on, lead to, struggle with.",
+        "items": [
+          {
+            "s": "Students who rely ____ the early bus can still arrive at 7:30.",
+            "a": "on"
+          },
+          {
+            "s": "Lack of sleep can lead ____ poor concentration in class.",
+            "a": "to"
+          },
+          {
+            "s": "Many students struggle ____ early mornings, especially in winter.",
+            "a": "with"
+          },
+          {
+            "s": "She is responsible ____ collecting her younger brother after school.",
+            "a": "for"
+          },
+          {
+            "s": "The teacher divided the class ____ four groups for the project.",
+            "a": "into"
+          }
+        ],
+        "extra": [
+          "from",
+          "at"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Nobody was ____ to a timetable by chance.",
+            "s": "Each pupil was ____ a partner for the science project, so nobody could choose their friends.",
             "a": "assigned"
           },
           {
-            "s": "The authors make a ____ claim: flexible schedules may help, not that they always do.",
-            "a": "modest"
-          },
-          {
-            "s": "The new timetable also ____ questions about buses and afternoon plans.",
-            "a": "raised"
-          },
-          {
-            "s": "A survey about sleep cannot ____ what a later arrival does to everything around it.",
+            "s": "No single photo can ____ the atmosphere of a festival that lasted three days.",
             "a": "capture"
           },
           {
-            "s": "Someone has to ____ and teach in the early slot.",
-            "a": "supervise"
+            "s": "The coach made only a ____ claim: the new routine might help, not that it would win matches.",
+            "a": "modest"
+          },
+          {
+            "s": "The second exam paper was ____ harder than the first, and many students ran out of time.",
+            "a": "considerably"
+          },
+          {
+            "s": "The head teacher ____ feedback from every class before changing the homework policy.",
+            "a": "gathered"
+          },
+          {
+            "s": "Revising in short sessions is a more ____ way to remember facts than one long night before the exam.",
+            "a": "effective"
           }
         ],
         "extra": [
-          "considerably",
-          "clinically"
+          "marginal",
+          "imposed"
         ]
       },
       "match": [
@@ -262,64 +398,134 @@
         "kind": "word",
         "items": [
           {
-            "s": "The survey results were reported by ____ at the University of Zurich.",
-            "cue": "RESEARCH",
-            "a": "researchers"
+            "s": "The ____ of a later start was popular with almost every student.",
+            "cue": "INTRODUCE",
+            "a": "introduction"
           },
           {
-            "s": "The main ____ of the model is that students can choose when to arrive.",
-            "cue": "ATTRACT",
-            "a": "attraction"
+            "s": "Teenagers who sleep badly often have ____ concentrating in afternoon lessons.",
+            "cue": "DIFFICULT",
+            "a": "difficulty"
           },
           {
-            "s": "After-school training and caring ____ may make a later finish hard for some students.",
-            "cue": "RESPONSIBLE",
-            "a": "responsibilities"
+            "s": "The results were ____, so the school decided to run the trial for another year.",
+            "cue": "CONCLUDE",
+            "a": "inconclusive"
           },
           {
-            "s": "____ is what makes the model different from simply starting later.",
-            "cue": "FLEXIBLE",
-            "a": "flexibility"
+            "s": "Her ____ made her the obvious choice for team captain.",
+            "cue": "RELY",
+            "a": "reliability"
           },
           {
-            "s": "The study was not a ____ experiment, because nobody was placed in a group by chance.",
-            "cue": "RANDOM",
-            "a": "randomised|randomized"
+            "s": "A later finish could have ____ consequences for after-school clubs.",
+            "cue": "FORESEE",
+            "a": "unforeseen"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The 754 responses came from 754 different students.",
-          "a": "F",
-          "why": "The text says the opposite: \"It gathered 754 responses, but some students answered both surveys, so that is not 754 different students.\""
-        },
-        {
-          "s": "The first survey took place before the timetable changed, and the second a year later.",
+          "s": "Fewer than 754 different students took part in the study.",
           "a": "T",
-          "why": "The text says: \"Researchers from the University of Zurich surveyed students in spring 2022, before the change, and again in spring 2023, once it was in place.\""
+          "why": "Some students answered both surveys, so the 754 responses are \"not 754 different students\"."
         },
         {
-          "s": "The study did not look at what happens when the school day ends later.",
-          "a": "T",
-          "why": "The text says: \"The study did not test a later finish, which is why that half of the deal is left to you.\""
-        },
-        {
-          "s": "Students were put into timetables by chance.",
+          "s": "Under the new model, students could no longer start at 7:30.",
           "a": "F",
-          "why": "The text says the opposite: \"nobody was assigned to a timetable by chance\""
+          "why": "Students \"could arrive at 7:30 or wait until 8:30\", so the early start stayed."
         },
         {
-          "s": "Students who arrived at 7:30 did worse in maths than those who arrived later.",
+          "s": "Most students gained extra sleep by going to bed earlier.",
+          "a": "F",
+          "why": "\"Wake-up times shifted while bedtimes stayed roughly the same\", so the extra sleep came in the morning."
+        },
+        {
+          "s": "The authors claim that the later start caused the higher maths and English scores.",
+          "a": "F",
+          "why": "They \"conclude only that flexible schedules may offer an effective way to reduce adolescent sleep deficits\"."
+        },
+        {
+          "s": "Teachers at the school were happy to work in the early slot.",
           "a": "N",
-          "why": "Not stated. This version does not give this information."
+          "why": "The text says someone has to teach in the early slot, but not how teachers felt about it."
+        }
+      ],
+      "pre": [
+        {
+          "t": "median",
+          "d": "the middle number when numbers are put in order"
         },
         {
-          "s": "The typical start time moved about 38 minutes later.",
-          "a": "T",
-          "why": "The text says: \"When offered the choice, 95% of students took the later option, and the median start moved about 38 minutes later.\""
+          "t": "clinically",
+          "d": "in a way a doctor would measure"
+        },
+        {
+          "t": "shifted",
+          "d": "moved or changed a little"
+        },
+        {
+          "t": "supervise",
+          "d": "watch people to make sure they are safe and doing the right thing"
+        },
+        {
+          "t": "slot",
+          "d": "a fixed time in a timetable"
+        },
+        {
+          "t": "gained",
+          "d": "got more of something"
+        },
+        {
+          "t": "adolescent",
+          "d": "to do with young people between child and adult"
+        },
+        {
+          "t": "puzzle",
+          "d": "a problem that is hard to understand"
         }
-      ]
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Formal phrases like contingent on and tantamount to are common in reports. The preposition never changes.",
+        "items": [
+          {
+            "s": "Any improvement in grades is contingent ____ students actually sleeping more.",
+            "a": "on"
+          },
+          {
+            "s": "Changing the whole timetable would be tantamount ____ rewriting every teacher's week.",
+            "a": "to"
+          },
+          {
+            "s": "A later finish could be fraught ____ problems for students who train in the evening.",
+            "a": "with"
+          },
+          {
+            "s": "Constant tiredness may be symptomatic ____ a wider problem with screens at night.",
+            "a": "of"
+          },
+          {
+            "s": "The flexible model was put ____ practice in spring 2023.",
+            "a": "into"
+          }
+        ],
+        "extra": [
+          "for",
+          "by"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Plan a fair school day",
+    "phrases": [
+      "I'd rather start later, even if I finish later.",
+      "That wouldn't work for someone who catches the early bus.",
+      "What if lessons started at half past eight on two days?",
+      "She'd miss her training, so that isn't fair.",
+      "Let's meet in the middle.",
+      "We've decided that the best compromise is ..."
+    ]
   }
 }

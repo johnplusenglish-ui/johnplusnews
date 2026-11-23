@@ -33,7 +33,11 @@ def check(slug):
     if not re.search(r"^layout: lesson\s*$", head, flags=re.M):
         say("the article header has no 'layout: lesson' line")
     sp = d.get("speak") or {}
-    for k in ("title", "setup", "a", "b", "phrases", "after"):
+    teens = re.search(r"^audience: teens\s*$", head, flags=re.M) is not None
+    # A Teens story's task 9 is its own Activity plus useful phrases, not a role-play
+    if teens and not sec.get("Activity", "").strip():
+        say("a Teens story needs an '=== Activity ===' section for task 9")
+    for k in (("title", "phrases") if teens else ("title", "setup", "a", "b", "phrases", "after")):
         if not sp.get(k):
             say("speak." + k + " is missing")
     if sp.get("phrases") and not 4 <= len(sp["phrases"]) <= 6:

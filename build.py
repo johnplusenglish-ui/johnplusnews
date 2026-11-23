@@ -1832,7 +1832,13 @@ def lesson_after(a):
            + ls_wrap(a, tasks) + '</section>')
     speak = '<h2 class="ls-stage">Speak</h2>' + ls_wrap(a, talk)
     sp = a["lesson"].get("speak")
-    if sp:
+    act = (a["questions"].get("activity") or "").strip()
+    if sp and not sp.get("a") and act:
+        # A Teens story: its group activity (written so nobody has to share anything personal), with useful phrases
+        speak += ls_task(9, sp["title"], "", inline(re.sub(r"\s+", " ", act)),
+                         '<div class="ls-phr"><h4>Useful phrases</h4><ul>{}</ul></div>'.format(
+                             "".join("<li>{}</li>".format(esc(p)) for p in sp["phrases"])))
+    elif sp:
         speak += ls_task(9, sp["title"], "", esc(sp["setup"]),
                        '<div class="ls-cards"><div class="ls-card"><h4>Student A · {ar}</h4><p>{at}</p></div>'
                        '<div class="ls-card"><h4>Student B · {br}</h4><p>{bt}</p></div></div>'
@@ -1929,7 +1935,7 @@ def article_page(a, newer, older, pool=()):
 {back}
 <div class="ls-bar">{tabs}<span class="ls-tools">{pdf}{timer}</span></div>
 <script>{studyjs}</script>
-<p class="ls-kicker">News lesson<span>{date}</span></p>
+<p class="ls-kicker">{kicker}<span>{date}</span></p>
 <h1>{title}</h1>
 <p class="dek">{summary}</p>
 {img}
@@ -1950,11 +1956,12 @@ def article_page(a, newer, older, pool=()):
 </footer>
 {pager}
 </article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a),
-                     back='<a class="back" href="/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">All articles</span></a>',
-                     pdf=lesson_pdf_links(a), timer='<div class="timerpick" id="timerslot"></div>', studyjs=STUDY_JS,
+                     back=('<a class="back" href="/teens/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">Teens</span></a>' if a["teens"] else '<a class="back" href="/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">All articles</span></a>'),
+                     kicker="Teens lesson" if a["teens"] else "News lesson",
+                     pdf=lesson_pdf_links(a), timer="" if a["teens"] else '<div class="timerpick" id="timerslot"></div>', studyjs=STUDY_JS,
                      date=esc(shown_date(a)), title=esc(first["title"]), summary=esc(first["summary"]),
                      img=re.sub(r"<figcaption.*?</figcaption>", "", img), listen=listen_html(a), before=lesson_before(a),
-                     versions=versions_html(a), source=source, topics=topics_html(a), after=lesson_after(a),
+                     versions=versions_html(a), source=source, topics="" if a["teens"] else topics_html(a), after=lesson_after(a),
                      words=highlights_rows(a), pager=pager)
     no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=first["title"], desc=first["summary"], image=a["image"] or None, kind="article", article=a,

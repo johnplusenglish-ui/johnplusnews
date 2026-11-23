@@ -131,25 +131,29 @@ def sheet(level, teacher, compact=False):
     talk = "<ol class='qs'>{}</ol>".format("".join("<li>{}</li>".format(esc(q)) for q in bullets(level + " talk about it")))
     t8 = task(8, "Talk about it", "Discuss in pairs or small groups. Give reasons for your answers.", talk)
 
-    # 9 role-play
+    # 9 role-play, or for a Teens story its group activity with useful phrases
     sp = EX["speak"]
-    t9 = task(9, sp["title"], esc(sp["setup"]),
-              '<div class="cards"><div class="card"><h4>Student A · {ar}</h4><p>{at}</p></div>'
-              '<div class="card"><h4>Student B · {br}</h4><p>{bt}</p></div></div>'
-              '<div class="phr"><h4>Useful phrases</h4><ul>{ph}</ul></div><p class="after">{af}</p>'.format(
-                  ar=esc(sp["a"]["role"]), at=esc(sp["a"]["text"]), br=esc(sp["b"]["role"]), bt=esc(sp["b"]["text"]),
-                  ph="".join("<li>{}</li>".format(esc(p)) for p in sp["phrases"]), af=esc(sp["after"])))
+    phr = '<div class="phr"><h4>Useful phrases</h4><ul>{}</ul></div>'.format("".join("<li>{}</li>".format(esc(p)) for p in sp["phrases"]))
+    if sp.get("a"):
+        t9 = task(9, sp["title"], esc(sp["setup"]),
+                  '<div class="cards"><div class="card"><h4>Student A · {ar}</h4><p>{at}</p></div>'
+                  '<div class="card"><h4>Student B · {br}</h4><p>{bt}</p></div></div>{ph}<p class="after">{af}</p>'.format(
+                      ar=esc(sp["a"]["role"]), at=esc(sp["a"]["text"]), br=esc(sp["b"]["role"]), bt=esc(sp["b"]["text"]),
+                      ph=phr, af=esc(sp["after"])))
+    else:
+        t9 = task(9, sp["title"], esc(re.sub(r"\s+", " ", sec["Activity"])), phr)
 
     keyblock = ""
     if teacher:
         keyblock = '<section class="key"><h2 class="stage">Answer key</h2><dl>{}</dl></section>'.format(
             "".join("<dt>{}</dt><dd>{}</dd>".format(esc(h), " &nbsp;·&nbsp; ".join(esc(x) for x in xs)) for h, xs in ans))
 
-    foot = "{} · {} {}".format(meta["title"], level, CEFR[level])
+    teens = meta.get("audience", "").strip() == "teens"
+    foot = "{}{} · {} {}".format("Teens · " if teens else "", meta["title"], level, CEFR[level])
     return TEMPLATE.format(
         css=CSS.replace("FOOT", foot.replace('"', "'")).replace("FONTFACES", FACES), level=level, cefr=CEFR[level], tight="tight" if compact else "", date=esc(meta.get("date-label", "")),
         who='Name <span class="line"></span>',
-        title=esc(title), img=PICTURE, t1=t1, t2=t2, t3=t3, t4=t4, t5=t5, t6=t6, t7=t7, t8=t8, t9=t9,
+        title=esc(title), img=PICTURE, kicker="Teens lesson" if teens else "News lesson", t1=t1, t2=t2, t3=t3, t4=t4, t5=t5, t6=t6, t7=t7, t8=t8, t9=t9,
         key=keyblock)
 
 
@@ -157,7 +161,7 @@ TEMPLATE = """<!doctype html><html lang="en"><head><meta charset="utf-8"><title>
 <style>{css}</style></head><body class="{tight}">
 <header class="top"><span class="brand">john<b>plus</b>news</span><span class="lv">{level} <b>{cefr}</b></span>
 <span class="dt">{date}</span><span class="who">{who}</span></header>
-<div class="hero"><div><p class="kicker">News lesson</p><h1>{title}</h1></div><img src="{img}" alt=""></div>
+<div class="hero"><div><p class="kicker">{kicker}</p><h1>{title}</h1></div><img src="{img}" alt=""></div>
 <h2 class="stage">Before you read</h2>
 {t1}{t2}
 <h2 class="stage brk">Read</h2>
