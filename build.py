@@ -1699,6 +1699,7 @@ def next_card(a):
 CEFR = {"core": "B1", "intermediate": "B2", "advanced": "C1/C2"}
 LS_ACTS = ('<div class="ls-acts"><button type="button" class="ls-btn" data-ls-check>Check answers</button>'
            '<button type="button" class="ls-btn ls-ghost" data-ls-reset>Try again</button>'
+           '<button type="button" class="ls-btn ls-ghost" data-ls-show hidden>Show answers</button>'
            '<span class="ls-score" role="status"></span></div>')
 
 
@@ -1777,7 +1778,7 @@ def lesson_before(a):
                        '<ol class="ls-qs">{}</ol>'.format("".join("<li>{}</li>".format(inline(q)) for q in qs)), True) if qs else ""
         left = "".join(
             '<li><b>{t}</b><select data-a="{a}" aria-label="Meaning of {t}"><option value=""></option>{o}</select></li>'.format(
-                t=esc(w["t"]), a=letter_of[i], o="".join("<option>{}</option>".format(c) for c in letters))
+                t=esc(w["t"]), a=letter_of[i], o="".join('<option value="{0}">{0}</option>'.format(c) for c in letters))
             for i, w in enumerate(words))
         right = "".join("<li><b>{}</b><span>{}</span></li>".format(letters[pos], esc(words[i]["d"])) for pos, i in enumerate(order))
         kw = ls_task(2, "Key words", "{} words".format(len(words)),
