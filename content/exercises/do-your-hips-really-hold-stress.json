@@ -1,328 +1,541 @@
 {
- "slug": "do-your-hips-really-hold-stress",
- "levels": {
-  "core": {
-   "gap": {
-    "items": [
-     {
-      "s": "In yoga classes and on TikTok, people say that your hips hold ____.",
-      "a": "tension"
-     },
-     {
-      "s": "The evidence about mental strain is strongest for the shoulders, the jaw and the pelvic ____.",
-      "a": "floor"
-     },
-     {
-      "s": "People with very shallow or very deep hip ____ tend to have more pain.",
-      "a": "sockets"
-     },
-     {
-      "s": "If walking or gentle ____ makes the tightness better, it is probably muscular.",
-      "a": "stretching"
-     },
-     {
-      "s": "Scans usually do not show exactly ____ you hurt.",
-      "a": "why"
-     }
-    ],
-    "extra": [
-     "recipe",
-     "holiday"
-    ]
-   },
-   "match": [
-    {
-     "t": "tension",
-     "d": "a feeling of tightness in the body or the mind"
+  "slug": "do-your-hips-really-hold-stress",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "The rules of the game look simple, but they are really quite ____.",
+            "a": "complicated"
+          },
+          {
+            "s": "After the long walk, the skin on her heel was red and ____.",
+            "a": "irritated"
+          },
+          {
+            "s": "If your back pain does not ____ after two weeks, see a doctor.",
+            "a": "improve"
+          },
+          {
+            "s": "Doctors say the ____ of your body can affect how much pain you feel.",
+            "a": "shape"
+          },
+          {
+            "s": "Before you try new exercises, take a ____ look at what your body can do.",
+            "a": "careful"
+          }
+        ],
+        "extra": [
+          "muscular",
+          "mental"
+        ]
+      },
+      "match": [
+        {
+          "t": "tension",
+          "d": "a feeling of tightness in the body or the mind"
+        },
+        {
+          "t": "trauma",
+          "d": "a very upsetting experience that can have a long effect"
+        },
+        {
+          "t": "stiffness",
+          "d": "the feeling that a part of the body is hard to move"
+        },
+        {
+          "t": "stretching",
+          "d": "gently pulling a muscle to make it longer"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In October 2026, The Guardian ____ experts whether there is any truth in it.",
+            "cue": "ask",
+            "a": "asked"
+          },
+          {
+            "s": "People who have ____ through trauma, especially as children, are more likely to have long-term pain.",
+            "cue": "be",
+            "a": "been"
+          },
+          {
+            "s": "When I was younger, I ____ yoga every Saturday.",
+            "cue": "do",
+            "a": "did"
+          },
+          {
+            "s": "She ____ a sore shoulder after the long flight.",
+            "cue": "get",
+            "a": "got"
+          },
+          {
+            "s": "My doctor ____ me to walk more every day.",
+            "cue": "tell",
+            "a": "told"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The idea that hips store stress is popular in wellness spaces.",
+          "a": "T",
+          "why": "The text says: \"The idea is that the hips are a storage box for stress and even trauma\""
+        },
+        {
+          "s": "The evidence that mental strain affects muscles is strongest for the hips.",
+          "a": "F",
+          "why": "The text says: \"the evidence that mental strain affects muscles is strongest for the shoulders, the jaw and the pelvic floor, not the hips\""
+        },
+        {
+          "s": "Stress, poor sleep and anxiety can make pain more noticeable.",
+          "a": "T",
+          "why": "The text says: \"Stress, poor sleep and anxiety can tip the balance and make pain more noticeable.\""
+        },
+        {
+          "s": "The text says you should stretch as hard as you can.",
+          "a": "F",
+          "why": "The text says: \"Do not stretch too hard, because going too far can hurt more.\""
+        },
+        {
+          "s": "The text says how many people in the world have hip pain.",
+          "a": "N",
+          "why": "The text does not say how many people in the world have hip pain."
+        }
+      ],
+      "pre": [
+        {
+          "t": "wellness",
+          "d": "the state of being healthy in body and mind"
+        },
+        {
+          "t": "evidence",
+          "d": "facts that show something is true"
+        },
+        {
+          "t": "physiotherapist",
+          "d": "a person who helps injured people move well again"
+        },
+        {
+          "t": "anxiety",
+          "d": "a worried and nervous feeling"
+        },
+        {
+          "t": "discomfort",
+          "d": "a feeling of mild pain or of being uncomfortable"
+        },
+        {
+          "t": "tendons",
+          "d": "strong cords that join muscles to bones"
+        },
+        {
+          "t": "scans",
+          "d": "pictures of the inside of the body made by a machine"
+        },
+        {
+          "t": "storage",
+          "d": "a place where things are kept"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a pair of words that naturally go together. Look at the word you can see and ask which partner sounds right next to it.",
+        "items": [
+          {
+            "s": "Doing strength ____ twice a week is good advice for the hips.",
+            "a": "training"
+          },
+          {
+            "s": "Stress and a bad night's ____ can make pain more noticeable.",
+            "a": "sleep"
+          },
+          {
+            "s": "Stress can put extra ____ on your muscles.",
+            "a": "strain"
+          },
+          {
+            "s": "Look for a doctor who checks your whole ____.",
+            "a": "body"
+          },
+          {
+            "s": "Learning to make ____ with discomfort can make it easier to live with.",
+            "a": "peace"
+          }
+        ],
+        "extra": [
+          "lesson",
+          "habit"
+        ]
+      }
     },
-    {
-     "t": "trauma",
-     "d": "a very upsetting experience that can have a long effect"
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Some muscles resist being stretched even when they are fully ____.",
+            "a": "relaxed"
+          },
+          {
+            "s": "Avoid stretching too ____, since going beyond a gentle range can hurt more than it helps.",
+            "a": "aggressively"
+          },
+          {
+            "s": "The hips are not a special ____ for stress.",
+            "a": "vault"
+          },
+          {
+            "s": "Despite months of treatment, the ____ pain in his knee did not go away.",
+            "a": "persistent"
+          },
+          {
+            "s": "Her counsellor focuses on the ____ side of pain, such as fear and worry.",
+            "a": "psychological"
+          },
+          {
+            "s": "A cough sometimes ____ for weeks after a cold.",
+            "a": "lingers"
+          }
+        ],
+        "extra": [
+          "diet",
+          "scan"
+        ]
+      },
+      "match": [
+        {
+          "t": "chronic",
+          "d": "lasting for a long time"
+        },
+        {
+          "t": "prone",
+          "d": "likely to suffer from something"
+        },
+        {
+          "t": "structural",
+          "d": "connected with the way something is built"
+        },
+        {
+          "t": "ironically",
+          "d": "in a way that is the opposite of what you would expect"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Before she joined the class, she ____ yoga.",
+            "cue": "never try",
+            "a": "had never tried"
+          },
+          {
+            "s": "In many classes, the hips ____ as a place where stress is stored.",
+            "cue": "describe",
+            "a": "are described"
+          },
+          {
+            "s": "If I ____ about strength training earlier, I would have started sooner.",
+            "cue": "know",
+            "a": "had known"
+          },
+          {
+            "s": "Over the past decade, many studies ____ the link between stress and pain.",
+            "cue": "examine",
+            "a": "have examined"
+          },
+          {
+            "s": "She ____ much better after she changed her routine.",
+            "cue": "feel",
+            "a": "felt"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The experts say stress has no effect at all on muscles.",
+          "a": "F",
+          "why": "The text says muscles and nerves stay active \"under psychological stress\" and that stress can influence how muscles feel."
+        },
+        {
+          "s": "Irritated tendons outside the hip are described as common in middle-aged and older women.",
+          "a": "T",
+          "why": "The text says: \"irritated tendons on the outside of the hip are common in middle-aged and older women\""
+        },
+        {
+          "s": "The text says that sitting definitely causes pain by shortening muscles.",
+          "a": "F",
+          "why": "The text says: \"studies have not conclusively tied short muscles to pain\""
+        },
+        {
+          "s": "The text says which stretches are best for the hips.",
+          "a": "N",
+          "why": "The text only says gentle stretching may help, and does not name any stretches."
+        },
+        {
+          "s": "The evidence linking mental strain with tension is stronger for the shoulders, jaw and pelvic floor than for the hips.",
+          "a": "T",
+          "why": "The text says the evidence is strongest for the shoulders, jaw and pelvic floor, and that there is no sign the hips are especially prone."
+        }
+      ],
+      "pre": [
+        {
+          "t": "slogan",
+          "d": "a short, catchy phrase that people repeat"
+        },
+        {
+          "t": "release",
+          "d": "to let something out or set it free"
+        },
+        {
+          "t": "mechanical",
+          "d": "to do with how something physically works or is built"
+        },
+        {
+          "t": "crucially",
+          "d": "in a way that is very important"
+        },
+        {
+          "t": "quirk",
+          "d": "a small, unusual feature"
+        },
+        {
+          "t": "nudge",
+          "d": "to push something gently"
+        },
+        {
+          "t": "aerobic",
+          "d": "exercise that makes your heart and breathing work harder"
+        },
+        {
+          "t": "clinician",
+          "d": "a doctor or nurse who treats patients"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Many collocations are a verb plus a noun. Say the whole phrase in your head and choose the verb that a native speaker would use.",
+        "items": [
+          {
+            "s": "Years of worry about money can take a heavy ____ on anyone's mood.",
+            "a": "toll"
+          },
+          {
+            "s": "New studies may ____ light on why some people feel pain more strongly than others.",
+            "a": "shed"
+          },
+          {
+            "s": "People who stretch too hard ____ the risk of hurting themselves.",
+            "a": "run"
+          },
+          {
+            "s": "It helps to ____ an open mind when a yoga teacher makes a claim about the body.",
+            "a": "keep"
+          },
+          {
+            "s": "Walking or gentle stretching may ____ the tightness.",
+            "a": "ease"
+          }
+        ],
+        "extra": [
+          "strike",
+          "draw"
+        ]
+      }
     },
-    {
-     "t": "stiffness",
-     "d": "the feeling that a part of the body is hard to move"
-    },
-    {
-     "t": "stretching",
-     "d": "gently pulling a muscle to make it longer"
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Minimalism has become something of a ____ for people who own very little.",
+            "a": "creed"
+          },
+          {
+            "s": "The minister's ____ response calmed critics who had expected an angry outburst.",
+            "a": "measured"
+          },
+          {
+            "s": "Chronic lack of sleep can leave people with ____ sensitivity to noise.",
+            "a": "heightened"
+          },
+          {
+            "s": "He put it ____: the team had simply not done the work.",
+            "a": "bluntly"
+          },
+          {
+            "s": "Checking spreadsheets line by line is ____ work, but it prevents costly errors.",
+            "a": "unglamorous"
+          },
+          {
+            "s": "A single blood test rarely ____ the exact cause of a fever.",
+            "a": "pinpoints"
+          }
+        ],
+        "extra": [
+          "tolerance",
+          "negligible"
+        ]
+      },
+      "match": [
+        {
+          "t": "predisposition",
+          "d": "a tendency to be affected by something"
+        },
+        {
+          "t": "confounding",
+          "d": "describing other factors that make it hard to see what causes an effect"
+        },
+        {
+          "t": "sedentary",
+          "d": "involving a lot of sitting and little exercise"
+        },
+        {
+          "t": "paradoxically",
+          "d": "in a way that seems to contradict itself"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Researchers question the ____ of claims that emotions are stored in particular muscles.",
+            "cue": "VALID",
+            "a": "validity"
+          },
+          {
+            "s": "The claim is effectively ____ because nobody can measure stored emotion.",
+            "cue": "VERIFY",
+            "a": "unverifiable"
+          },
+          {
+            "s": "Sensitivity to pain varies ____ between individuals.",
+            "cue": "CONSIDERABLE",
+            "a": "considerably"
+          },
+          {
+            "s": "The findings were ____: some studies found a link and others did not.",
+            "cue": "CONSIST",
+            "a": "inconsistent"
+          },
+          {
+            "s": "Experts urge ____ when a wellness slogan sounds too simple to be true.",
+            "cue": "CAUTIOUS",
+            "a": "caution"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The 2016 review found an association between stress and chronic neck and arm pain, but its authors stopped short of calling stress a risk factor.",
+          "a": "T",
+          "why": "The text says stress was associated with the pain, \"yet the authors judged the evidence too weak to call stress a risk factor\"."
+        },
+        {
+          "s": "Because childhood trauma is linked to chronic pain, the specialists conclude that the hips are especially affected.",
+          "a": "F",
+          "why": "The text says there is no sign \"that the hips are singled out\"."
+        },
+        {
+          "s": "Clinicians suspect sitting shortens some hip muscles, but the evidence that short muscles cause pain is inconclusive.",
+          "a": "T",
+          "why": "The text says clinicians suspect it, but \"studies have not conclusively linked short muscles to pain\"."
+        },
+        {
+          "s": "The text says which exercises best strengthen the gluteal muscles.",
+          "a": "N",
+          "why": "The text only says gluteal exercises may improve the hips' tolerance for use, and names none."
+        },
+        {
+          "s": "Tendon irritation outside the joint is said to be equally common across all age groups and sexes.",
+          "a": "F",
+          "why": "The text says it is \"especially common in middle-aged and older women\"."
+        }
+      ],
+      "pre": [
+        {
+          "t": "musculoskeletal",
+          "d": "to do with the muscles and bones"
+        },
+        {
+          "t": "plausible",
+          "d": "seeming likely to be true"
+        },
+        {
+          "t": "imaging",
+          "d": "pictures of the inside of the body, such as scans"
+        },
+        {
+          "t": "systematic",
+          "d": "done carefully, in an organised, step by step way"
+        },
+        {
+          "t": "gluteal",
+          "d": "to do with the muscles in the buttocks"
+        },
+        {
+          "t": "licenses",
+          "d": "gives permission for"
+        },
+        {
+          "t": "anatomical",
+          "d": "to do with the structure of the body"
+        },
+        {
+          "t": "irritation",
+          "d": "a sore, red or uncomfortable feeling in part of the body"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some collocations are fixed or idiomatic. Think of the whole phrase, and watch for a verb or noun that belongs to one particular partner.",
+        "items": [
+          {
+            "s": "A single viral slogan can wreak ____ with the careful message scientists try to give.",
+            "a": "havoc"
+          },
+          {
+            "s": "The slogan about hips holds a grain of ____, since stress can affect how muscles feel.",
+            "a": "truth"
+          },
+          {
+            "s": "Wellness advice on social media should be taken with a pinch of ____.",
+            "a": "salt"
+          },
+          {
+            "s": "Whether emotions can be stored in a muscle is a bone of ____ between yoga teachers and scientists.",
+            "a": "contention"
+          },
+          {
+            "s": "One anecdote about a stiff hip cannot lend ____ to such a sweeping claim.",
+            "a": "credence"
+          }
+        ],
+        "extra": [
+          "scepticism",
+          "speculation"
+        ]
+      }
     }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "In October 2026, The Guardian ____ experts whether there is any truth in it.",
-      "cue": "ask",
-      "a": "asked"
-     },
-     {
-      "s": "People who have ____ through trauma, especially as children, are more likely to have long-term pain.",
-      "cue": "be",
-      "a": "been"
-     },
-     {
-      "s": "Dr Cheng ____ that people with very shallow hip sockets tend to have more pain.",
-      "cue": "say",
-      "a": "says"
-     },
-     {
-      "s": "The experts ____ that stress and muscles are connected.",
-      "cue": "say",
-      "a": "say"
-     },
-     {
-      "s": "If the discomfort ____, learning to make peace with it can help.",
-      "cue": "stay",
-      "a": "stays"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The idea that hips store stress is popular in wellness spaces.",
-     "a": "T",
-     "why": "The text says: \"The idea is that the hips are a storage box for stress and even trauma\""
-    },
-    {
-     "s": "The evidence that mental strain affects muscles is strongest for the hips.",
-     "a": "F",
-     "why": "The text says: \"the evidence that mental strain affects muscles is strongest for the shoulders, the jaw and the pelvic floor, not the hips\""
-    },
-    {
-     "s": "Stress, poor sleep and anxiety can make pain more noticeable.",
-     "a": "T",
-     "why": "The text says: \"Stress, poor sleep and anxiety can tip the balance and make pain more noticeable.\""
-    },
-    {
-     "s": "The text says you should stretch as hard as you can.",
-     "a": "F",
-     "why": "The text says: \"Do not stretch too hard, because going too far can hurt more.\""
-    },
-    {
-     "s": "The text says how many people in the world have hip pain.",
-     "a": "N",
-     "why": "The text does not say how many people in the world have hip pain."
-    }
-   ]
   },
-  "intermediate": {
-   "gap": {
-    "items": [
-     {
-      "s": "Some muscles resist being stretched even when they are fully ____.",
-      "a": "relaxed"
-     },
-     {
-      "s": "Evidence linking mental strain with muscle tension is strongest for the shoulders, jaw and pelvic ____.",
-      "a": "floor"
-     },
-     {
-      "s": "Dr Cheng notes that people with very shallow or very deep hip ____ tend to have more pain.",
-      "a": "sockets"
-     },
-     {
-      "s": "Studies have not conclusively tied short muscles to ____.",
-      "a": "pain"
-     },
-     {
-      "s": "Avoid stretching too ____, since going beyond a gentle range can hurt more than it helps.",
-      "a": "aggressively"
-     },
-     {
-      "s": "The hips are not a special ____ for stress.",
-      "a": "vault"
-     }
+  "speak": {
+    "title": "Role-play: a hip-opening class",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the yoga fan",
+      "text": "Your yoga teacher says your hips hold stress. You want to book a hip-opening class. Explain why you believe it, and try to persuade your friend to come with you."
+    },
+    "b": {
+      "role": "the sceptical friend",
+      "text": "You've read that there's no good evidence for this idea. Ask your friend two questions about it, and suggest another way to feel better. You can agree, disagree or find a compromise."
+    },
+    "phrases": [
+      "I've heard that your hips hold stress.",
+      "That's what my yoga teacher told me.",
+      "I'm not sure there's any proof.",
+      "Why don't we try a gentle walk first?",
+      "If it doesn't get better, we'll see a doctor.",
+      "Let's try it and see how we feel."
     ],
-    "extra": [
-     "bridge",
-     "fortune"
-    ]
-   },
-   "match": [
-    {
-     "t": "chronic",
-     "d": "lasting for a long time"
-    },
-    {
-     "t": "prone",
-     "d": "likely to suffer from something"
-    },
-    {
-     "t": "structural",
-     "d": "connected with the way something is built"
-    },
-    {
-     "t": "ironically",
-     "d": "in a way that is the opposite of what you would expect"
-    }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Muscle tension usually ____ one of two causes.",
-      "cue": "have",
-      "a": "has"
-     },
-     {
-      "s": "Physiotherapist Greg Lehman ____ it plainly: there is nothing special about the hip.",
-      "cue": "put",
-      "a": "puts"
-     },
-     {
-      "s": "Dr Abby Cheng ____ hip disorders at a university medical school in St Louis.",
-      "cue": "treat",
-      "a": "treats"
-     },
-     {
-      "s": "In older adults, strength training ____ bone density.",
-      "cue": "increase",
-      "a": "increases"
-     },
-     {
-      "s": "If some discomfort ____, learning to make peace with it can help.",
-      "cue": "linger",
-      "a": "lingers"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The Guardian put the idea to experts on 11 October 2026.",
-     "a": "T",
-     "why": "The text says: \"When The Guardian put the idea to experts on 11 October 2026\""
-    },
-    {
-     "s": "The hips are especially prone to stress-related tightness.",
-     "a": "F",
-     "why": "The text says: \"there is no sign that the hips are especially prone to stress-related tightness\""
-    },
-    {
-     "s": "Very shallow or very deep hip sockets tend to bring more pain.",
-     "a": "T",
-     "why": "The text says: \"people with very shallow or very deep hip sockets tend to have more pain\""
-    },
-    {
-     "s": "The text says that persistent pain should be ignored.",
-     "a": "F",
-     "why": "The text says: \"None of this means persistent pain should be ignored.\""
-    },
-    {
-     "s": "The text says how many people have hip pain.",
-     "a": "N",
-     "why": "The text does not say how many people have hip pain."
-    }
-   ]
-  },
-  "advanced": {
-   "gap": {
-    "items": [
-     {
-      "s": "Neither source maps cleanly onto the ____ people report.",
-      "a": "sensation"
-     },
-     {
-      "s": "There is no particular ____ for stress to tighten the hips.",
-      "a": "predisposition"
-     },
-     {
-      "s": "The 2016 systematic review looked at 28 ____.",
-      "a": "studies"
-     },
-     {
-      "s": "A sedentary lifestyle carries many ____ factors.",
-      "a": "confounding"
-     },
-     {
-      "s": "Imaging can occasionally help but seldom ____ the source.",
-      "a": "pinpoints"
-     },
-     {
-      "s": "Structure is relevant without being ____.",
-      "a": "destiny"
-     }
-    ],
-    "extra": [
-     "predictable",
-     "mandatory"
-    ]
-   },
-   "match": [
-    {
-     "t": "predisposition",
-     "d": "a tendency to be affected by something"
-    },
-    {
-     "t": "confounding",
-     "d": "describing other factors that make it hard to see what causes an effect"
-    },
-    {
-     "t": "sedentary",
-     "d": "involving a lot of sitting and little exercise"
-    },
-    {
-     "t": "paradoxically",
-     "d": "in a way that seems to contradict itself"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "The first source is ____: muscles resist stretch even when relaxed.",
-      "cue": "MECHANIC",
-      "a": "mechanical"
-     },
-     {
-      "s": "A ____ quirk may nudge up the likelihood of pain.",
-      "cue": "STRUCTURE",
-      "a": "structural"
-     },
-     {
-      "s": "The practical advice is deliberately ____.",
-      "cue": "GLAMOUR",
-      "a": "unglamorous"
-     },
-     {
-      "s": "Neither source maps cleanly onto its ____ location.",
-      "cue": "ANATOMY",
-      "a": "anatomical"
-     },
-     {
-      "s": "Broader health, friendships and meaningful activity may also lower pain ____.",
-      "cue": "SENSITIVE",
-      "a": "sensitivity"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "A systematic review was published in the Journal of Psychosomatic Research in 2016.",
-     "a": "T",
-     "why": "The text says: \"published in the Journal of Psychosomatic Research in 2016\""
-    },
-    {
-     "s": "The specialists say there is a particular predisposition for stress to tighten the hips.",
-     "a": "F",
-     "why": "The text says: \"there is no particular predisposition for stress to tighten the hips\""
-    },
-    {
-     "s": "Imaging seldom shows the exact source of the pain.",
-     "a": "T",
-     "why": "The text says: \"Imaging can occasionally help but seldom pinpoints the source\""
-    },
-    {
-     "s": "The text advises people to ignore symptoms that do not improve.",
-     "a": "F",
-     "why": "The text says: \"None of this licenses ignoring symptoms.\""
-    },
-    {
-     "s": "The text says how many people have tried hip-opening yoga poses.",
-     "a": "N",
-     "why": "The text does not say how many people have tried hip-opening yoga poses."
-    }
-   ]
+    "after": "Afterwards, tell the class: what did you decide, and why?"
   }
- }
 }

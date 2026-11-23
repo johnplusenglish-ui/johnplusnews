@@ -6,6 +6,7 @@ tags: Environment, Food, Science
 source: The Guardian, French wine industry facing historic low harvest after extreme summer heat | https://www.theguardian.com/food/2026/oct/07/french-wine-industry-historic-low-harvest-extreme-summer-heat
 image: images/why-is-france-making-less-wine-318b81.jpg
 image-alt: A man in a cap and a dusty work shirt crouches beside a vine, lowering a bunch of dark grapes into a green plastic crate already half full of them.
+layout: lesson
 ---
 === Core ===
 

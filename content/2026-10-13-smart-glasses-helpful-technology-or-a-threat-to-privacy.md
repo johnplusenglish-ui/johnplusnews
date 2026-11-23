@@ -6,6 +6,7 @@ tags: Technology, Society
 image: images/smart-glasses-helpful-technology-or-a-threat-to-privacy-e0e6ee.jpg
 image-alt: Close-up of a woman with grey-streaked hair touching the arm of her thick-framed glasses, which carry a small camera lens by the hinge, in a busy cafe.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

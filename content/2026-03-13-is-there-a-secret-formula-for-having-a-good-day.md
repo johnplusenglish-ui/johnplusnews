@@ -6,6 +6,7 @@ source: PNAS Nexus | https://academic.oup.com/pnasnexus/article/5/3/pgag014/8519
 image: images/is-there-a-secret-formula-for-having-a-good-day-4c2722.jpg
 image-alt: Three adults laughing together at a metal table outside a tree-shaded cafe, with coffee, a beer, a plate of olives and an open notebook in front of them.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

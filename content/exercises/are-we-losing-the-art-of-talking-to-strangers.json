@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "They could exchange a few words, share a joke or discover that they ____.",
-            "a": "have something in common"
+            "s": "At the end of the year, the students ____ cards with their classmates.",
+            "a": "exchange"
           },
           {
-            "s": "Phones help us pass the time and ____ with people we already know.",
-            "a": "keep in touch"
+            "s": "You don't have to agree with her, but you should ____ her opinion.",
+            "a": "respect"
           },
           {
-            "s": "Some people are naturally shy and find small talk ____.",
-            "a": "uncomfortable"
+            "s": "A few fresh flowers can ____ a dull, grey room.",
+            "a": "brighten"
           },
           {
-            "s": "A simple question about a delayed train can ____.",
-            "a": "break the ice"
+            "s": "Many students ____ how long a big project takes.",
+            "a": "underestimate"
           },
           {
-            "s": "What might happen if one of them ____ and started a conversation?",
-            "a": "looked up"
+            "s": "Please ____ me to buy milk on the way home.",
+            "a": "remind"
           }
         ],
         "extra": [
-          "put away",
-          "friendly"
+          "greet",
+          "chat"
         ]
       },
       "match": [
@@ -98,40 +98,109 @@
           "s": "The two passengers on the train talk to each other during the journey.",
           "a": "F",
           "why": "The text says the opposite: \"They spend an hour together without saying a word.\""
+        },
+        {
+          "s": "An interesting conversation with a stranger has to be a deep one.",
+          "a": "F",
+          "why": "The text says: \"The talk does not need to be deep.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "polite",
+          "d": "showing good manners to other people"
+        },
+        {
+          "t": "headphones",
+          "d": "things you wear over your ears to listen to music"
+        },
+        {
+          "t": "annoying",
+          "d": "making you a little angry or tired"
+        },
+        {
+          "t": "delayed",
+          "d": "later than planned"
+        },
+        {
+          "t": "pleasant",
+          "d": "nice and enjoyable"
+        },
+        {
+          "t": "ordinary",
+          "d": "normal, not special"
+        },
+        {
+          "t": "kindness",
+          "d": "being friendly and good to other people"
+        },
+        {
+          "t": "surprisingly",
+          "d": "in a way that you did not expect"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some adjectives and verbs always take one fixed preposition. Learn the pair together, such as afraid of.",
+        "items": [
+          {
+            "s": "Some people are afraid ____ starting a conversation with someone new.",
+            "a": "of"
+          },
+          {
+            "s": "Shy people are often worried ____ saying the wrong thing.",
+            "a": "about"
+          },
+          {
+            "s": "Are you interested ____ meeting new people on your journey?",
+            "a": "in"
+          },
+          {
+            "s": "Whether we talk or not can depend ____ how safe we feel.",
+            "a": "on"
+          },
+          {
+            "s": "My brother is very good ____ making small talk with anyone.",
+            "a": "at"
+          }
+        ],
+        "extra": [
+          "from",
+          "to"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "You board a train, sit beside another passenger and immediately ____ your phone.",
-            "a": "reach for"
+            "s": "Nobody should feel ____ to answer personal questions from a stranger.",
+            "a": "obliged"
           },
           {
-            "s": "The article asked whether we are losing the ability to ____ ordinary conversations.",
-            "a": "strike up"
+            "s": "He wore jeans and a T-shirt because the dinner was a ____ occasion.",
+            "a": "casual"
           },
           {
-            "s": "Many people are afraid of annoying someone who wants to ____.",
-            "a": "be left alone"
+            "s": "The prize was donated by an ____ businessman who did not want his name known.",
+            "a": "anonymous"
           },
           {
-            "s": "If they give short answers and ____, it is reasonable to let the exchange end.",
-            "a": "look away"
+            "s": "It would be ____ to travel across the city without checking the train times.",
+            "a": "foolish"
           },
           {
-            "s": "We could learn to ____ and recognise when a conversation might be welcome.",
-            "a": "read the room"
+            "s": "Our new colleague is cheerful and ____, so she soon knew everyone in the office.",
+            "a": "outgoing"
           },
           {
-            "s": "Ask a simple question without expecting anything ____.",
-            "a": "in return"
+            "s": "Her ____ advice annoyed him because he had not asked for it.",
+            "a": "unwanted"
           }
         ],
         "extra": [
-          "unfamiliar",
-          "unapproachable"
+          "reserved",
+          "withdrawn"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Our ____ private routines may be costing us something valuable.",
-            "cue": "INCREASE",
-            "a": "increasingly"
+            "s": "By the time the train arrived, the two passengers ____ together for an hour.",
+            "cue": "travel",
+            "a": "had travelled"
           },
           {
-            "s": "For shy people, small talk can feel like an ____ test.",
-            "cue": "NECESSARY",
-            "a": "unnecessary"
+            "s": "If people put their phones away, strangers ____ to each other more often.",
+            "cue": "talk",
+            "a": "would talk"
           },
           {
-            "s": "Their meetings turned out to be ____ meaningful.",
-            "cue": "EXPECT",
-            "a": "unexpectedly"
+            "s": "The Guardian article ____ in February 2026.",
+            "cue": "publish",
+            "a": "was published"
           },
           {
-            "s": "A friendly chat will not solve ____ or political division.",
-            "cue": "LONELY",
-            "a": "loneliness"
+            "s": "Since she moved to the city, she ____ more confident with strangers.",
+            "cue": "become",
+            "a": "has become"
           },
           {
-            "s": "Smartphones offer endless ____, while headphones create a barrier against interruption.",
-            "cue": "ENTERTAIN",
-            "a": "entertainment"
+            "s": "While the train ____ at the platform, a stranger asked me the time.",
+            "cue": "wait",
+            "a": "was waiting"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "People may expect a chat with a stranger to be worse than it turns out to be.",
           "a": "T",
           "why": "The text says: \"Nevertheless, psychological research discussed in the article suggests that we sometimes expect conversations with strangers to go worse than they actually do.\""
+        },
+        {
+          "s": "According to the article, a friendly chat will solve political division.",
+          "a": "F",
+          "why": "The text says: \"A friendly chat will not solve loneliness or political division.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "encounters",
+          "d": "meetings that happen by chance"
+        },
+        {
+          "t": "interruption",
+          "d": "something that stops what you are doing for a short time"
+        },
+        {
+          "t": "assumptions",
+          "d": "things you believe are true without checking"
+        },
+        {
+          "t": "loneliness",
+          "d": "the sad feeling of having no one to talk to"
+        },
+        {
+          "t": "privacy",
+          "d": "being alone, away from other people's attention"
+        },
+        {
+          "t": "entertainment",
+          "d": "films, music, games and other things people enjoy"
+        },
+        {
+          "t": "meaningful",
+          "d": "important or full of value"
+        },
+        {
+          "t": "decline",
+          "d": "a slow fall in number or quality"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many verbs and adjectives need one fixed preposition, and a different preposition can change the meaning. Learn each pair as a chunk.",
+        "items": [
+          {
+            "s": "Spending a few minutes chatting can contribute ____ a more positive mood.",
+            "a": "to"
+          },
+          {
+            "s": "Shy people often apologise ____ interrupting others.",
+            "a": "for"
+          },
+          {
+            "s": "People of all ages can benefit ____ a friendly chat.",
+            "a": "from"
+          },
+          {
+            "s": "Nobody should insist ____ talking to a person who wants silence.",
+            "a": "on"
+          },
+          {
+            "s": "Many people are anxious ____ approaching strangers.",
+            "a": "about"
+          }
+        ],
+        "extra": [
+          "with",
+          "of"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Both passengers may have perfectly ____ reasons for wanting privacy.",
+            "s": "Her employer accepted that she had a ____ reason for being late, as the trains had been cancelled.",
             "a": "legitimate"
           },
           {
-            "s": "Such moments can be ____, but they may leave a lasting impression.",
-            "a": "fleeting"
-          },
-          {
-            "s": "A conversation that feels harmless to one person may feel ____ to another.",
-            "a": "intrusive"
-          },
-          {
-            "s": "The important skill is noticing whether someone seems ____.",
+            "s": "The committee was ____ to new ideas, so the proposal was approved without much argument.",
             "a": "receptive"
           },
           {
-            "s": "The pandemic may have reinforced habits of ____.",
-            "a": "keeping our distance"
+            "s": "Despite the ____ pressure from the press, the minister refused to comment.",
+            "a": "relentless"
           },
           {
-            "s": "We could leave room for an exchange instead of automatically ____.",
-            "a": "shutting ourselves away"
+            "s": "The best moments of the trip were ____: we simply stopped at a village market because it looked interesting.",
+            "a": "spontaneous"
+          },
+          {
+            "s": "Critics describe the agency as a ____ bureaucracy in which nobody knows who is responsible.",
+            "a": "faceless"
+          },
+          {
+            "s": "After a week of back-to-back meetings, a quiet weekend in the country proved genuinely ____.",
+            "a": "restorative"
           }
         ],
         "extra": [
-          "restorative",
-          "back off"
+          "assertive",
+          "hesitant"
         ]
       },
       "match": [
@@ -260,37 +398,42 @@
         "kind": "word",
         "items": [
           {
-            "s": "Two passengers share a carriage yet scarcely acknowledge each other's ____.",
-            "cue": "EXIST",
-            "a": "existence"
+            "s": "Her ____ to answer personal questions made the interviewer cautious.",
+            "cue": "RELUCTANT",
+            "a": "reluctance"
           },
           {
-            "s": "Any appeal for more interaction must acknowledge ____ experiences of safety.",
-            "cue": "EQUAL",
-            "a": "unequal"
+            "s": "The ____ of smartphones has changed how commuters spend their journeys.",
+            "cue": "PREVALENT",
+            "a": "prevalence"
           },
           {
-            "s": "Research suggests that we systematically ____ the pleasure of talking to strangers.",
-            "cue": "ESTIMATE",
-            "a": "underestimate"
+            "s": "Her remarks were ____ taken as a criticism, although none was intended.",
+            "cue": "MISTAKE",
+            "a": "mistakenly"
           },
           {
-            "s": "There are less visible barriers too, including ____ about etiquette.",
-            "cue": "CERTAIN",
-            "a": "uncertainty"
+            "s": "Years of silence led to growing ____ between the neighbours.",
+            "cue": "ESTRANGE",
+            "a": "estrangement"
           },
           {
-            "s": "A society can be highly connected while allowing everyday ____ about other people to wither.",
-            "cue": "CURIOUS",
-            "a": "curiosity"
+            "s": "Silence on a train should not be mistaken for ____.",
+            "cue": "HOSTILE",
+            "a": "hostility"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Staying silent can be good for people.",
+          "s": "The article suggests that people tend to expect a conversation to be worse than it proves to be.",
           "a": "T",
-          "why": "The text says: \"Silence can be restorative, and nobody owes strangers their attention.\""
+          "why": "The text says that \"the anticipation can be awkward, while the conversation itself turns out to be warmer than expected\"."
+        },
+        {
+          "s": "The writer thinks that passengers who stay silent on a train are behaving badly.",
+          "a": "F",
+          "why": "The text says: \"Neither is behaving badly\"."
         },
         {
           "s": "Researchers have measured how long the average unplanned conversation lasts.",
@@ -298,16 +441,101 @@
           "why": "Not stated. This version does not give this information."
         },
         {
-          "s": "The writer presents these encounters as life-changing friendships.",
-          "a": "F",
-          "why": "The text says the opposite: \"These were not life-changing friendships or dramatic revelations.\""
+          "s": "The writer accepts that a call for more conversation may affect people differently depending on how safe they feel.",
+          "a": "T",
+          "why": "The text says any appeal \"must acknowledge unequal experiences of safety\"."
         },
         {
-          "s": "A conversation that one person welcomes may feel threatening to someone else.",
-          "a": "T",
-          "why": "The text says: \"A conversation that feels harmless to one person may feel intrusive or threatening to another, particularly when boundaries are ignored.\""
+          "s": "The writer expects talking to strangers to cure loneliness.",
+          "a": "F",
+          "why": "The text says brief conversations are \"hardly a cure for loneliness\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "retreats",
+          "d": "moves away from other people to a quieter place"
+        },
+        {
+          "t": "scarcely",
+          "d": "almost not at all"
+        },
+        {
+          "t": "ordinariness",
+          "d": "the quality of being normal and not special"
+        },
+        {
+          "t": "etiquette",
+          "d": "the accepted rules for polite behaviour"
+        },
+        {
+          "t": "reinforced",
+          "d": "made stronger"
+        },
+        {
+          "t": "perspectives",
+          "d": "ways of seeing or thinking about something"
+        },
+        {
+          "t": "wither",
+          "d": "slowly become weaker and disappear"
+        },
+        {
+          "t": "anonymity",
+          "d": "the state of not being known by name to others"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At this level the preposition is part of a fixed adjective phrase. Learn the whole chunk, such as fraught with, not the adjective alone.",
+        "items": [
+          {
+            "s": "Silence can be conducive ____ reflection, but it can also isolate people.",
+            "a": "to"
+          },
+          {
+            "s": "Any campaign for friendlier trains is contingent ____ people's sense of safety.",
+            "a": "on"
+          },
+          {
+            "s": "Approaching a stranger can be fraught ____ awkwardness.",
+            "a": "with"
+          },
+          {
+            "s": "Constant scrolling may be symptomatic ____ a wider reluctance to engage.",
+            "a": "of"
+          },
+          {
+            "s": "No passenger should be held accountable ____ a stranger's discomfort.",
+            "a": "for"
+          }
+        ],
+        "extra": [
+          "from",
+          "by"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a quiet journey",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the chatty colleague",
+      "text": "You and your colleague take the same train to work every morning. You find the journey boring in silence. Ask your colleague to talk more, and explain why it matters to you."
+    },
+    "b": {
+      "role": "the quiet colleague",
+      "text": "You like to read or listen to music on the train, and you need a quiet start to the day. Explain what you need, but try to agree a plan that is fair for both of you."
+    },
+    "phrases": [
+      "Do you mind if we chat for a bit?",
+      "I'd rather keep the journey quiet, if that's okay.",
+      "I find the trip boring when we don't talk.",
+      "How about we talk on the way home instead?",
+      "That's fair, I didn't realise you felt that way.",
+      "Let's try it for a week and see how it goes."
+    ],
+    "after": "Afterwards, tell the class: what plan did you agree, and was it fair for both people?"
   }
 }

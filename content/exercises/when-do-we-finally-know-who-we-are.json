@@ -1,328 +1,541 @@
 {
- "slug": "when-do-we-finally-know-who-we-are",
- "levels": {
-  "core": {
-   "gap": {
-    "items": [
-     {
-      "s": "A well-developed identity has clear ____ that a person has chosen after exploring.",
-      "a": "views"
-     },
-     {
-      "s": "People did not stop ____ at the end of their twenties.",
-      "a": "developing"
-     },
-     {
-      "s": "Psychological wellbeing includes a sense of ____.",
-      "a": "purpose"
-     },
-     {
-      "s": "The study did not test which ____ first.",
-      "a": "comes"
-     },
-     {
-      "s": "If you do not yet know your own ____ at thirty or forty, you are not failing.",
-      "a": "mind"
-     }
-    ],
-    "extra": [
-     "money",
-     "weather"
-    ]
-   },
-   "match": [
-    {
-     "t": "identity",
-     "d": "your view of who you are"
+  "slug": "when-do-we-finally-know-who-we-are",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "After university, many people ____ down in one city and stay there for years.",
+            "a": "settle"
+          },
+          {
+            "s": "The team ____ how happy people felt at different ages.",
+            "a": "measured"
+          },
+          {
+            "s": "A link between two things is not ____ that one causes the other.",
+            "a": "proof"
+          },
+          {
+            "s": "Some people hold their views ____ and never change their minds.",
+            "a": "firmly"
+          },
+          {
+            "s": "Teenagers often try out different ____, such as clothes and hairstyles.",
+            "a": "styles"
+          }
+        ],
+        "extra": [
+          "ignored",
+          "stages"
+        ]
+      },
+      "match": [
+        {
+          "t": "identity",
+          "d": "your view of who you are"
+        },
+        {
+          "t": "exploring",
+          "d": "looking carefully at different ideas to find out what you think"
+        },
+        {
+          "t": "anxiety",
+          "d": "a feeling of worry"
+        },
+        {
+          "t": "reassuring",
+          "d": "making you feel less worried"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Researchers at the University of Jyväskylä ____ information from a long project.",
+            "cue": "use",
+            "a": "used"
+          },
+          {
+            "s": "The project ____ the same people for more than 50 years.",
+            "cue": "follow",
+            "a": "has followed"
+          },
+          {
+            "s": "Most of the change ____ between 27 and 42.",
+            "cue": "happen",
+            "a": "happened"
+          },
+          {
+            "s": "The team ____ at how people described their identity.",
+            "cue": "look",
+            "a": "looked"
+          },
+          {
+            "s": "The study ____ not test which comes first.",
+            "cue": "do",
+            "a": "did"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The project has followed the same people for more than 50 years.",
+          "a": "T",
+          "why": "The text says: \"It has followed the same people for more than 50 years.\""
+        },
+        {
+          "s": "Most identity change happened after the age of 50.",
+          "a": "F",
+          "why": "The text says: \"Most of the change happened between 27 and 42.\""
+        },
+        {
+          "s": "People whose identity developed more positively tended to have fewer feelings of anxiety.",
+          "a": "T",
+          "why": "The text says: \"tended to have better psychological and social wellbeing and fewer feelings of anxiety\""
+        },
+        {
+          "s": "The text gives the number of people who took part.",
+          "a": "F",
+          "why": "The text says: \"The reports we read also do not say how many people took part.\""
+        },
+        {
+          "s": "The text says what jobs the oldest people in the study had.",
+          "a": "N",
+          "why": "The text does not say what jobs the oldest people in the study had."
+        }
+      ],
+      "pre": [
+        {
+          "t": "researchers",
+          "d": "people whose job is to study something and find new facts"
+        },
+        {
+          "t": "wellbeing",
+          "d": "how happy and healthy you feel"
+        },
+        {
+          "t": "purpose",
+          "d": "a reason for doing things that makes life feel important"
+        },
+        {
+          "t": "community",
+          "d": "the people who live in the same area as you"
+        },
+        {
+          "t": "average",
+          "d": "usual, or in the middle"
+        },
+        {
+          "t": "finding",
+          "d": "something new that people learn from a study"
+        },
+        {
+          "t": "failing",
+          "d": "not doing well, or not getting what you wanted"
+        },
+        {
+          "t": "unusually",
+          "d": "in a way that is not normal"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some verbs and adjectives always go with one small word. Learn the pair together: worry about, afraid of.",
+        "items": [
+          {
+            "s": "Many teenagers worry ____ what other people think of them.",
+            "a": "about"
+          },
+          {
+            "s": "Feeling connected ____ other people can help your wellbeing.",
+            "a": "to"
+          },
+          {
+            "s": "Some people are afraid ____ changing in their thirties.",
+            "a": "of"
+          },
+          {
+            "s": "Many people are looking ____ a sense of purpose in their lives.",
+            "a": "for"
+          },
+          {
+            "s": "Identity can be a work ____ progress for a long time.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "at",
+          "from"
+        ]
+      }
     },
-    {
-     "t": "exploring",
-     "d": "looking carefully at different ideas to find out what you think"
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The project is mainly ____ by a national research council.",
+            "a": "funded"
+          },
+          {
+            "s": "Her political opinions were not really her own; she had simply ____ them from her parents.",
+            "a": "adopted"
+          },
+          {
+            "s": "A good coach will ____ players to work harder than they think they can.",
+            "a": "challenge"
+          },
+          {
+            "s": "It is a ____ that we only use ten per cent of our brains.",
+            "a": "myth"
+          },
+          {
+            "s": "The two reports were not ____, because one was based on the other.",
+            "a": "independent"
+          },
+          {
+            "s": "Her political views were ____ by her years of living abroad.",
+            "a": "formed"
+          }
+        ],
+        "extra": [
+          "awarded",
+          "temporary"
+        ]
+      },
+      "match": [
+        {
+          "t": "adolescence",
+          "d": "the years between childhood and adulthood"
+        },
+        {
+          "t": "committed",
+          "d": "firmly dedicated to something"
+        },
+        {
+          "t": "autonomy",
+          "d": "the freedom to make your own decisions"
+        },
+        {
+          "t": "continuity",
+          "d": "the feeling that something carries on without a break"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Katja Kokko ____ the study since 2013.",
+            "cue": "lead",
+            "a": "has led"
+          },
+          {
+            "s": "By the time she turned thirty, she ____ three different careers.",
+            "cue": "try",
+            "a": "had tried"
+          },
+          {
+            "s": "Many studies ____ in journals every year.",
+            "cue": "publish",
+            "a": "are published"
+          },
+          {
+            "s": "Marin and colleagues ____ at identity when the participants were 27, 36, 42, 50 and 61.",
+            "cue": "look",
+            "a": "looked"
+          },
+          {
+            "s": "The questionnaire ____ by the research team before the survey began.",
+            "cue": "design",
+            "a": "was designed"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Katja Kokko has been in charge of the study for a shorter time than Lea Pulkkinen was.",
+          "a": "T",
+          "why": "Pulkkinen led it from 1968 to 2012, while Kokko has led it only since 2013."
+        },
+        {
+          "s": "Identity was measured at more ages than mental wellbeing was.",
+          "a": "T",
+          "why": "Identity was looked at five times (27 to 61), wellbeing four times (36 to 61)."
+        },
+        {
+          "s": "The study proved that a clear identity causes better wellbeing.",
+          "a": "F",
+          "why": "The text says: \"The study did not examine the causal direction of the association.\""
+        },
+        {
+          "s": "The study included more women than men.",
+          "a": "N",
+          "why": "The text does not say how many of the participants were women or men."
+        },
+        {
+          "s": "The writer thinks the Phys.org article gives independent confirmation of the university's findings.",
+          "a": "F",
+          "why": "The text says: \"so the two accounts are not independent.\""
+        }
+      ],
+      "pre": [
+        {
+          "t": "longitudinal",
+          "d": "following the same people or things over a long period of time"
+        },
+        {
+          "t": "individuals",
+          "d": "single people, not a group"
+        },
+        {
+          "t": "define",
+          "d": "to say exactly what a word or idea means"
+        },
+        {
+          "t": "significant",
+          "d": "important or special"
+        },
+        {
+          "t": "trends",
+          "d": "general changes or patterns over time"
+        },
+        {
+          "t": "participants",
+          "d": "people who take part in a study or activity"
+        },
+        {
+          "t": "announcement",
+          "d": "a public statement giving news"
+        },
+        {
+          "t": "consider",
+          "d": "to think that something is a certain way"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Adjectives and verbs often need a fixed preposition. Check the word before the gap, not the one after it.",
+        "items": [
+          {
+            "s": "Some people remain committed ____ their goals for decades.",
+            "a": "to"
+          },
+          {
+            "s": "The conclusions were based ____ interviews carried out over many years.",
+            "a": "on"
+          },
+          {
+            "s": "Many adults struggle ____ the idea that they should have everything worked out.",
+            "a": "with"
+          },
+          {
+            "s": "Young people are often influenced ____ their friends more than their parents.",
+            "a": "by"
+          },
+          {
+            "s": "Many people are interested ____ finding out how their views developed.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "at",
+          "of"
+        ]
+      }
     },
-    {
-     "t": "anxiety",
-     "d": "a feeling of worry"
-    },
-    {
-     "t": "reassuring",
-     "d": "making you feel less worried"
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "The contract ____ forbids staff from sharing client data, so there is no room for doubt.",
+            "a": "explicitly"
+          },
+          {
+            "s": "Ice-cream sales and drownings both rise in summer, but that is a correlation, not a ____ link.",
+            "a": "causal"
+          },
+          {
+            "s": "A ____ study follows the same people over many years rather than taking a single snapshot.",
+            "a": "longitudinal"
+          },
+          {
+            "s": "The whole business plan rested on the ____ that interest rates would stay low.",
+            "a": "assumption"
+          },
+          {
+            "s": "Genuine cases of the disease are ____; most patients turn out to have something milder.",
+            "a": "rare"
+          },
+          {
+            "s": "Each application is ____ by two independent reviewers before a decision is made.",
+            "a": "examined"
+          }
+        ],
+        "extra": [
+          "tentatively",
+          "anecdotal"
+        ]
+      },
+      "match": [
+        {
+          "t": "continuity",
+          "d": "the feeling that something carries on without a break"
+        },
+        {
+          "t": "dataset",
+          "d": "a collection of information used for research"
+        },
+        {
+          "t": "intriguing",
+          "d": "interesting in a way that makes you curious"
+        },
+        {
+          "t": "notion",
+          "d": "an idea or belief"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The study's findings are ____ with earlier research on ageing.",
+            "cue": "CONSIST",
+            "a": "consistent"
+          },
+          {
+            "s": "Critics argue that the survey's conclusions are ____ because of the way participants were chosen.",
+            "cue": "RELY",
+            "a": "unreliable"
+          },
+          {
+            "s": "There is no ____ evidence that the treatment works.",
+            "cue": "CONCLUDE",
+            "a": "conclusive"
+          },
+          {
+            "s": "The ____ of the original experiment by an independent team strengthened its credibility.",
+            "cue": "REPLICATE",
+            "a": "replication"
+          },
+          {
+            "s": "Her ____ to accept the figures at face value surprised her colleagues.",
+            "cue": "WILLING",
+            "a": "unwillingness"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The writer thinks the findings show that working on your identity will improve your mental health.",
+          "a": "F",
+          "why": "The text says it \"would be going too far to claim\" this."
+        },
+        {
+          "s": "The writer treats the Phys.org article as weaker support for the study than a separate investigation would be.",
+          "a": "T",
+          "why": "The article \"appears to repeat the university's own press announcement, so it is not independent confirmation.\""
+        },
+        {
+          "s": "Identity was assessed at more ages than mental wellbeing was.",
+          "a": "T",
+          "why": "Identity at 27, 36, 42, 50 and 61 (five); wellbeing at 36, 42, 50 and 61 (four)."
+        },
+        {
+          "s": "The sample included more people from cities than from rural areas.",
+          "a": "N",
+          "why": "The text does not report the sample size or where the participants lived."
+        },
+        {
+          "s": "The writer says the results tell us what will happen to any one person.",
+          "a": "F",
+          "why": "The text says results \"are averages, so they say nothing certain about any one person.\""
+        }
+      ],
+      "pre": [
+        {
+          "t": "adolescence",
+          "d": "the years when a child is becoming an adult"
+        },
+        {
+          "t": "autonomy",
+          "d": "the freedom to make your own choices"
+        },
+        {
+          "t": "connectedness",
+          "d": "the feeling of being close to other people"
+        },
+        {
+          "t": "formation",
+          "d": "the process of something being created or developed"
+        },
+        {
+          "t": "association",
+          "d": "a link between two things"
+        },
+        {
+          "t": "classic",
+          "d": "typical, and well known as an example"
+        },
+        {
+          "t": "confirmation",
+          "d": "proof that something is true"
+        },
+        {
+          "t": "modest",
+          "d": "small or limited in size or importance"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At this level the preposition is fixed to a whole phrase: tantamount to, contingent on, fraught with. Learn each phrase as one block.",
+        "items": [
+          {
+            "s": "Claiming that identity work cures anxiety would be tantamount ____ overstating the evidence.",
+            "a": "to"
+          },
+          {
+            "s": "Any claim about causation is contingent ____ evidence that the researchers did not collect.",
+            "a": "on"
+          },
+          {
+            "s": "Studies that rely on self-reports are often fraught ____ bias.",
+            "a": "with"
+          },
+          {
+            "s": "Some adults, in defiance ____ social expectations, change careers at fifty.",
+            "a": "of"
+          },
+          {
+            "s": "A single study is a starting point, not a licence ____ drawing firm conclusions.",
+            "a": "for"
+          }
+        ],
+        "extra": [
+          "by",
+          "at"
+        ]
+      }
     }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Researchers at the University of Jyväskylä ____ information from a long project.",
-      "cue": "use",
-      "a": "used"
-     },
-     {
-      "s": "The project ____ the same people for more than 50 years.",
-      "cue": "follow",
-      "a": "has followed"
-     },
-     {
-      "s": "Most of the change ____ between 27 and 42.",
-      "cue": "happen",
-      "a": "happened"
-     },
-     {
-      "s": "The team ____ at how people described their identity.",
-      "cue": "look",
-      "a": "looked"
-     },
-     {
-      "s": "The study ____ not test which comes first.",
-      "cue": "do",
-      "a": "did"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The project has followed the same people for more than 50 years.",
-     "a": "T",
-     "why": "The text says: \"It has followed the same people for more than 50 years.\""
-    },
-    {
-     "s": "Most identity change happened after the age of 50.",
-     "a": "F",
-     "why": "The text says: \"Most of the change happened between 27 and 42.\""
-    },
-    {
-     "s": "People whose identity developed more positively tended to have fewer feelings of anxiety.",
-     "a": "T",
-     "why": "The text says: \"tended to have better psychological and social wellbeing and fewer feelings of anxiety\""
-    },
-    {
-     "s": "The text gives the number of people who took part.",
-     "a": "F",
-     "why": "The text says: \"The reports we read also do not say how many people took part.\""
-    },
-    {
-     "s": "The text says what jobs the oldest people in the study had.",
-     "a": "N",
-     "why": "The text does not say what jobs the oldest people in the study had."
-    }
-   ]
   },
-  "intermediate": {
-   "gap": {
-    "items": [
-     {
-      "s": "Identity has often been treated as a task for ____.",
-      "a": "adolescence"
-     },
-     {
-      "s": "The Jyväskylä study has followed the same ____ for more than 50 years.",
-      "a": "individuals"
-     },
-     {
-      "s": "A well-developed identity rests on clear views that someone has ____ for themselves.",
-      "a": "explored"
-     },
-     {
-      "s": "On average, identity developed in a ____ direction.",
-      "a": "positive"
-     },
-     {
-      "s": "Psychological wellbeing covers things such as autonomy and a sense of ____.",
-      "a": "purpose"
-     },
-     {
-      "s": "The study did not examine the ____ direction of the association.",
-      "a": "causal"
-     }
+  "speak": {
+    "title": "Role-play: a big change at forty",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the worried friend",
+      "text": "Your friend wants to leave a safe job and start something new at forty. You're worried about money and risk. Ask at least two questions before you give your opinion."
+    },
+    "b": {
+      "role": "the friend with a plan",
+      "text": "You want to change your life: a new job, a new city or a new hobby. Explain why it matters to you and how you'll manage the risks. Try to persuade your friend."
+    },
+    "phrases": [
+      "I've been thinking about doing something different.",
+      "I'm not sure it's the right time.",
+      "What would you do about money?",
+      "I know it's a risk, but I'd regret not trying.",
+      "You're still working out what you want, aren't you?",
+      "Let's agree to try it for six months."
     ],
-    "extra": [
-     "financial",
-     "seasonal"
-    ]
-   },
-   "match": [
-    {
-     "t": "adolescence",
-     "d": "the years between childhood and adulthood"
-    },
-    {
-     "t": "committed",
-     "d": "firmly dedicated to something"
-    },
-    {
-     "t": "autonomy",
-     "d": "the freedom to make your own decisions"
-    },
-    {
-     "t": "continuity",
-     "d": "the feeling that something carries on without a break"
-    }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Katja Kokko ____ the study since 2013.",
-      "cue": "lead",
-      "a": "has led"
-     },
-     {
-      "s": "Professor Lea Pulkkinen ____ it from 1968 to 2012.",
-      "cue": "lead",
-      "a": "led"
-     },
-     {
-      "s": "Marin and colleagues ____ at identity when the participants were 27, 36, 42, 50 and 61.",
-      "cue": "look",
-      "a": "looked"
-     },
-     {
-      "s": "Marin says this ____ that identity can continue to develop.",
-      "cue": "show",
-      "a": "shows"
-     },
-     {
-      "s": "The study did not ____ the causal direction.",
-      "cue": "examine",
-      "a": "examine"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Professor Lea Pulkkinen led the study from 1968 to 2012.",
-     "a": "T",
-     "why": "The text says: \"Professor Lea Pulkkinen led it from 1968 to 2012\""
-    },
-    {
-     "s": "Mental wellbeing was measured when the participants were 27.",
-     "a": "F",
-     "why": "The text says: \"and at mental wellbeing at 36, 42, 50 and 61\""
-    },
-    {
-     "s": "The study proved that a clear identity causes better wellbeing.",
-     "a": "F",
-     "why": "The text says: \"The study did not examine the causal direction of the association.\""
-    },
-    {
-     "s": "The text says how many of the participants were women.",
-     "a": "N",
-     "why": "The text does not say how many of the participants were women."
-    },
-    {
-     "s": "Marin says identity can keep developing through adulthood.",
-     "a": "T",
-     "why": "The text says: \"Marin says this shows that identity can continue to develop throughout adulthood.\""
-    }
-   ]
-  },
-  "advanced": {
-   "gap": {
-    "items": [
-     {
-      "s": "Few studies have followed people through ____ life.",
-      "a": "adult"
-     },
-     {
-      "s": "The study is primarily funded by the Research ____ of Finland.",
-      "a": "Council"
-     },
-     {
-      "s": "Identity development was assessed through how ____ people were committed to their views.",
-      "a": "firmly"
-     },
-     {
-      "s": "A well-developed identity is one with clear views a person has examined and ____.",
-      "a": "chosen"
-     },
-     {
-      "s": "Wellbeing was measured ____.",
-      "a": "broadly"
-     },
-     {
-      "s": "The accounts do not report the sample ____.",
-      "a": "size"
-     }
-    ],
-    "extra": [
-     "briefly",
-     "privately"
-    ]
-   },
-   "match": [
-    {
-     "t": "continuity",
-     "d": "the feeling that something carries on without a break"
-    },
-    {
-     "t": "dataset",
-     "d": "a collection of information used for research"
-    },
-    {
-     "t": "intriguing",
-     "d": "interesting in a way that makes you curious"
-    },
-    {
-     "t": "notion",
-     "d": "an idea or belief"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "There has been little ____ to challenge this picture.",
-      "cue": "EVIDENT",
-      "a": "evidence"
-     },
-     {
-      "s": "On average, identity developed ____ from 27 to 61.",
-      "cue": "POSITIVE",
-      "a": "positively"
-     },
-     {
-      "s": "Marin ____ notes that wellbeing may support or challenge identity.",
-      "cue": "EXPLICIT",
-      "a": "explicitly"
-     },
-     {
-      "s": "That is a ____ but useful correction.",
-      "cue": "MODESTY",
-      "a": "modest"
-     },
-     {
-      "s": "The ____ lesson should therefore be drawn with care.",
-      "cue": "PRACTICE",
-      "a": "practical"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The researchers examined identity at ages 27, 36, 42, 50 and 61.",
-     "a": "T",
-     "why": "The text says: \"examined identity at ages 27, 36, 42, 50 and 61\""
-    },
-    {
-     "s": "Most of the movement in identity happened after the age of 50.",
-     "a": "F",
-     "why": "The text says: \"with most of the movement between 27 and 42\""
-    },
-    {
-     "s": "The study did not examine causal direction.",
-     "a": "T",
-     "why": "The text says: \"The study did not examine causal direction\""
-    },
-    {
-     "s": "Wellbeing was measured only through life satisfaction.",
-     "a": "F",
-     "why": "The text says: \"Wellbeing was measured broadly, covering psychological wellbeing such as autonomy and purpose in life, social wellbeing such as connectedness to communities, life satisfaction, and feelings of anxiety and depression.\""
-    },
-    {
-     "s": "The text says what Marin studied at university.",
-     "a": "N",
-     "why": "The text does not say what Marin studied at university."
-    }
-   ]
+    "after": "Afterwards, tell the class: did the worried friend change their mind, and what helped?"
   }
- }
 }

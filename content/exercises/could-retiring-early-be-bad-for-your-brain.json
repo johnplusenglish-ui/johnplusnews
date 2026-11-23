@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "You say goodbye to your colleagues and ____ a life without early alarms.",
-            "a": "look forward to"
+            "s": "The job was ____: she did the same small task in the same order every day.",
+            "a": "repetitive"
           },
           {
-            "s": "One result ____: longer in retirement was linked to lower scores on some tasks.",
-            "a": "stood out"
+            "s": "The news was ____, so nobody had prepared for it.",
+            "a": "unexpected"
           },
           {
-            "s": "Staying in an ____ job that makes you tired every day, just to keep your brain busy, may be a bad idea.",
-            "a": "exhausting"
+            "s": "Too many deadlines can make a job very ____ and leave people feeling worried.",
+            "a": "stressful"
           },
           {
-            "s": "Retired people can find other ways to ____.",
-            "a": "stay sharp"
+            "s": "Many retired people want to do something ____, like helping others, so their days feel important.",
+            "a": "meaningful"
           },
           {
-            "s": "Learning a language or ____ a new hobby can give the brain plenty to do.",
-            "a": "picking up"
+            "s": "Children learn fast because their ____ makes them ask questions all the time.",
+            "a": "curiosity"
           }
         ],
         "extra": [
-          "deal with",
-          "lonely"
+          "kindness",
+          "careless"
         ]
       },
       "match": [
@@ -57,9 +57,9 @@
             "a": "published"
           },
           {
-            "s": "The change made some women ____ longer before retiring early.",
-            "cue": "wait",
-            "a": "wait"
+            "s": "The change ____ some women wait longer before retiring early.",
+            "cue": "make",
+            "a": "made"
           },
           {
             "s": "Retirement ____ wonderful to many people.",
@@ -98,40 +98,109 @@
           "s": "The researchers found that retirement causes dementia.",
           "a": "F",
           "why": "The text says the opposite: \"This is not the same as saying that retirement causes dementia.\""
+        },
+        {
+          "s": "All kinds of knowledge showed the same decline in retirement.",
+          "a": "F",
+          "why": "The text says: \"other kinds of knowledge did not show the same decline.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "colleagues",
+          "d": "people you work with"
+        },
+        {
+          "t": "researchers",
+          "d": "people who study something to find new facts"
+        },
+        {
+          "t": "evidence",
+          "d": "facts that show something is true"
+        },
+        {
+          "t": "decline",
+          "d": "a slow fall to a lower level"
+        },
+        {
+          "t": "volunteering",
+          "d": "working to help other people without being paid"
+        },
+        {
+          "t": "exhausting",
+          "d": "making you very, very tired"
+        },
+        {
+          "t": "challenges",
+          "d": "difficult things that test you"
+        },
+        {
+          "t": "disappear",
+          "d": "stop being there"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some adjectives and nouns need one fixed preposition. Learn the pair as one chunk, for example worried about.",
+        "items": [
+          {
+            "s": "Retirement can be a big change for people who are used ____ a busy job.",
+            "a": "to"
+          },
+          {
+            "s": "Many people are proud ____ the work they did.",
+            "a": "of"
+          },
+          {
+            "s": "How happy people feel may depend ____ their plans.",
+            "a": "on"
+          },
+          {
+            "s": "There was a rise ____ the number of retired people who volunteer.",
+            "a": "in"
+          },
+          {
+            "s": "Some people worry ____ having too much free time after they stop working.",
+            "a": "about"
+          }
+        ],
+        "extra": [
+          "by",
+          "at"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "They used tests of memory and language, ____ health insurance records.",
+            "s": "The council published its plan ____ a detailed map of the new bus routes.",
             "a": "alongside"
           },
           {
-            "s": "Flexible thinking is used to deal with ____ problems or new information.",
+            "s": "Starting a job in a new industry, she found many of the tools ____ because she had never used them before.",
             "a": "unfamiliar"
           },
           {
-            "s": "A headline claiming that retiring early damages the brain would ____.",
-            "a": "go too far"
-          },
-          {
-            "s": "Working life gives people regular chances to ____ complex information.",
-            "a": "keep up with"
-          },
-          {
-            "s": "Volunteering or ____ an instrument can create fresh challenges.",
-            "a": "taking up"
-          },
-          {
-            "s": "Retirement leaves time for interests that busy workers have ____.",
+            "s": "He never touched the guitar again, and the instrument sat ____ in the attic for years.",
             "a": "neglected"
+          },
+          {
+            "s": "Her ____ experience, built up over forty years in the job, made her the natural choice to lead the team.",
+            "a": "accumulated"
+          },
+          {
+            "s": "If safety checks are ignored, accidents will ____ happen sooner or later.",
+            "a": "inevitably"
+          },
+          {
+            "s": "Workers who ____ easily when tools change usually cope better with new systems.",
+            "a": "adapt"
           }
         ],
         "extra": [
-          "sit around",
-          "stimulating"
+          "assume",
+          "permanent"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The researchers found no increase in diagnoses of ____ disorders.",
-            "cue": "COGNITION",
-            "a": "cognitive"
+            "s": "By the time she turned sixty, she ____ to leave her job.",
+            "cue": "decide",
+            "a": "had decided"
           },
           {
-            "s": "Some health ____, including depression and sleep problems, improved.",
-            "cue": "INDICATE",
-            "a": "indicators"
+            "s": "The early retirement age for certain women ____ by the reform.",
+            "cue": "raise",
+            "a": "was raised"
           },
           {
-            "s": "Work can also bring ____ stress, and many people leave for health reasons.",
-            "cue": "EXHAUST",
-            "a": "exhausting"
+            "s": "If he had known about the study, he ____ it.",
+            "cue": "read",
+            "a": "would have read"
           },
           {
-            "s": "Joining community groups can maintain social ____.",
-            "cue": "CONNECT",
-            "a": "connections"
+            "s": "Since she retired, she ____ up painting and joined a choir.",
+            "cue": "take",
+            "a": "has taken"
           },
           {
-            "s": "Leaving the office may be a ____ decision for many workers.",
-            "cue": "SENSE",
-            "a": "sensible"
+            "s": "At nine o'clock last Friday, she ____ her farewell speech.",
+            "cue": "give",
+            "a": "was giving"
           }
         ]
       },
@@ -186,7 +255,7 @@
         {
           "s": "Accumulated knowledge declined in the same way as flexible thinking.",
           "a": "F",
-          "why": "The text says the opposite: \"In contrast, accumulated knowledge was not affected in the same way.\""
+          "why": "The text says the opposite: \"accumulated knowledge was not affected in the same way.\""
         },
         {
           "s": "Similar research has been carried out on German men.",
@@ -194,48 +263,117 @@
           "why": "Not stated. The text does not mention any research on German men."
         },
         {
-          "s": "The reform raised the early retirement age from sixty to sixty-three.",
+          "s": "The researchers could compare women whose time in retirement differed because of the reform.",
           "a": "T",
-          "why": "The text says: \"The researchers examined a reform that raised the early retirement age for certain German women from sixty to sixty-three.\""
+          "why": "The reform \"created an opportunity to study the effects of spending different lengths of time in retirement.\""
         },
         {
-          "s": "The study was published in the Journal of Health Economics in July 2026.",
+          "s": "According to the text, staying in work is always the healthier choice.",
+          "a": "F",
+          "why": "The text says there is \"no reason to assume that staying employed is automatically the healthiest choice.\""
+        },
+        {
+          "s": "Some health indicators got better with extra time in retirement.",
           "a": "T",
-          "why": "The text says: \"Yet a German study published in the Journal of Health Economics in July 2026 raised a more complicated question: what happens to our thinking abilities when the daily challenges of working life disappear?\""
+          "why": "The text says depression, sleep problems and high blood pressure \"actually improved\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "reform",
+          "d": "an official change to a law or system"
+        },
+        {
+          "t": "policy",
+          "d": "a plan of action that a government or organisation agrees"
+        },
+        {
+          "t": "diagnoses",
+          "d": "decisions about which illness a person has"
+        },
+        {
+          "t": "indicators",
+          "d": "signs that show what something is like"
+        },
+        {
+          "t": "demanding",
+          "d": "needing a lot of time, effort or skill"
+        },
+        {
+          "t": "genuine",
+          "d": "real, not false"
+        },
+        {
+          "t": "purpose",
+          "d": "the reason for doing something"
+        },
+        {
+          "t": "maintain",
+          "d": "keep something at the same level"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "A verb, adjective or noun often takes one fixed preposition. Check which one follows before you choose, because the same idea can need a different word in your own language.",
+        "items": [
+          {
+            "s": "Many people benefit ____ having a clear routine after leaving work.",
+            "a": "from"
+          },
+          {
+            "s": "Good planning contributes ____ a smoother change from work to retirement.",
+            "a": "to"
+          },
+          {
+            "s": "Some retirees rely ____ a small pension and part-time work.",
+            "a": "on"
+          },
+          {
+            "s": "Retired people are welcome to take part ____ the club's weekly events.",
+            "a": "in"
+          },
+          {
+            "s": "He is fond ____ his old colleagues and still sees them every week.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "about",
+          "with"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "A sudden absence of structure can be hard for someone whose identity was closely ____ their job.",
-            "a": "tied to"
-          },
-          {
-            "s": "The researchers ____ a German policy reform to study the question.",
+            "s": "Rival firms quickly ____ the loophole in the regulations before it was closed.",
             "a": "exploited"
           },
           {
-            "s": "That complexity makes ____ headlines misleading.",
-            "a": "sweeping"
+            "s": "To reach a fair verdict, the panel needed ____ evidence rather than personal impressions.",
+            "a": "objective"
           },
           {
-            "s": "A stimulating job is not equivalent to ____ stressful work.",
-            "a": "chronically"
+            "s": "Several factors played a role, but ____, the funding never arrived.",
+            "a": "crucially"
           },
           {
-            "s": "Once those daily challenges ____, some skills receive less practice.",
-            "a": "fall away"
+            "s": "Given proper support, many small businesses ____ and expand into new markets.",
+            "a": "flourish"
           },
           {
-            "s": "A good retirement may involve continuing to ____ fresh experiences.",
-            "a": "seek out"
+            "s": "The engineers solved the problem with a ____ approach that nobody had tried before.",
+            "a": "novel"
+          },
+          {
+            "s": "A one-year course is not ____ to a full degree, although it may earn you credit.",
+            "a": "equivalent"
           }
         ],
         "extra": [
-          "liberating",
-          "punishing"
+          "undermine",
+          "scarcely"
         ]
       },
       "match": [
@@ -260,37 +398,42 @@
         "kind": "word",
         "items": [
           {
-            "s": "Because ____ changed according to birth cohort, the reform allowed comparison.",
+            "s": "Strict ____ rules meant that only a few applicants qualified.",
             "cue": "ELIGIBLE",
             "a": "eligibility"
           },
           {
-            "s": "The analysis combined cognitive tests with ____ health records.",
+            "s": "Much of the delay was caused by ____ errors, not by any lack of funding.",
             "cue": "ADMINISTER",
             "a": "administrative"
           },
           {
-            "s": "Certain indicators of health moved in a more ____ direction.",
+            "s": "Early signs for the proposed merger were distinctly ____.",
             "cue": "FAVOUR",
-            "a": "favourable"
+            "a": "unfavourable"
           },
           {
-            "s": "Employment itself varies ____ from one job to the next.",
-            "cue": "ENORMOUS",
-            "a": "enormously"
+            "s": "Some people struggle to cope with a completely ____ day.",
+            "cue": "STRUCTURE",
+            "a": "unstructured"
           },
           {
-            "s": "Others flourish when they finally have time for family, ____ and rest.",
-            "cue": "CREATE",
-            "a": "creativity"
+            "s": "Her experience made her ____ to the team.",
+            "cue": "REPLACE",
+            "a": "irreplaceable"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Additional years in retirement raised the rate of diagnosed cognitive disorders.",
+          "s": "The study's design gives stronger evidence about retirement than comparing people who chose when to stop.",
+          "a": "T",
+          "why": "The text says such a design \"offers stronger evidence\" than simply comparing people who stopped at different ages."
+        },
+        {
+          "s": "The findings could be applied with confidence to men who retire early.",
           "a": "F",
-          "why": "The text says the opposite: \"Crucially, additional years in retirement did not raise the rate of diagnosed cognitive disorders.\""
+          "why": "The text says the effects \"cannot automatically be applied to men, younger retirees or workers in other countries.\""
         },
         {
           "s": "The authors recommend raising the retirement age across Europe.",
@@ -298,16 +441,101 @@
           "why": "Not stated. The text does not say that the authors recommend raising the retirement age anywhere."
         },
         {
-          "s": "The reform changed who could retire early according to year of birth.",
+          "s": "The study found weaker scores on some tests alongside improvements in some health indicators.",
           "a": "T",
-          "why": "The text says: \"Because eligibility changed according to birth cohort, the reform provided a way to investigate the consequences of additional years spent outside the workforce.\""
+          "why": "The text reports weaker fluid intelligence and also better hypertension, depression and sleep indicators."
         },
         {
-          "s": "Crystallised intelligence appeared less affected than fluid intelligence.",
-          "a": "T",
-          "why": "The text says: \"Crystallised intelligence, which reflects knowledge accumulated over a lifetime, appeared less affected.\""
+          "s": "The study suggests that knowledge built up over a lifetime is the first thing to weaken in retirement.",
+          "a": "F",
+          "why": "The text says crystallised intelligence \"appeared less affected\" than fluid intelligence."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "cohort",
+          "d": "a group of people born or starting at the same time"
+        },
+        {
+          "t": "complicate",
+          "d": "make something harder to understand or deal with"
+        },
+        {
+          "t": "wholly",
+          "d": "completely"
+        },
+        {
+          "t": "retirees",
+          "d": "people who have stopped working because of their age"
+        },
+        {
+          "t": "preserve",
+          "d": "keep something from being lost or changed"
+        },
+        {
+          "t": "reproducing",
+          "d": "making or creating something again"
+        },
+        {
+          "t": "cognitive",
+          "d": "connected with thinking and understanding"
+        },
+        {
+          "t": "chronically",
+          "d": "in a way that lasts a long time or keeps coming back"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some adjectives are followed by one fixed preposition, and the pair often sounds formal or negative. Learn the whole chunk, not just the adjective.",
+        "items": [
+          {
+            "s": "Telling experienced workers to leave at fifty-five would be tantamount ____ wasting their skills.",
+            "a": "to"
+          },
+          {
+            "s": "The move into retirement can be fraught ____ difficulty for people who have no plans.",
+            "a": "with"
+          },
+          {
+            "s": "Whether the scheme succeeds is contingent ____ how many people take part.",
+            "a": "on"
+          },
+          {
+            "s": "Retirees who feel bereft ____ purpose may find that volunteering helps.",
+            "a": "of"
+          },
+          {
+            "s": "Many long-established firms are steeped ____ tradition, which can make change slow.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "for",
+          "by"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a friend who wants to retire early",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the colleague who wants to retire early",
+      "text": "You'll be sixty next year and you'd like to stop working. Tell your friend your plans and why you want to go. Answer their questions and decide whether to change your mind."
+    },
+    "b": {
+      "role": "the friend who is not sure",
+      "text": "Your colleague wants to retire early. You're worried they'll miss work and have too little to do. Ask questions and suggest ideas, but listen to their reasons."
+    },
+    "phrases": [
+      "I've been thinking about retiring early.",
+      "What would you do with all that free time?",
+      "I'm worried you'd get bored.",
+      "That's a fair point, but I'd rather stop now.",
+      "I'd like to learn a language and join a choir.",
+      "Why don't you work part-time first?"
+    ],
+    "after": "Afterwards, tell the class: did the friend change their mind, and what was the best idea?"
   }
 }

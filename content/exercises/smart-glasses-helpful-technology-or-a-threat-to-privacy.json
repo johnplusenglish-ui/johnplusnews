@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Imagine ____ glasses that can read a menu aloud.",
-            "a": "putting on"
+            "s": "My grandmother is old, but she still lives ____ in her own flat.",
+            "a": "independently"
           },
           {
-            "s": "Some can give information without the wearer ____ a phone.",
-            "a": "taking out"
+            "s": "Criminal ____ sometimes break into online accounts and steal private photos.",
+            "a": "hackers"
           },
           {
-            "s": "Private moments could ____ in the wrong hands.",
-            "a": "end up"
+            "s": "The road will be closed for a ____ period of two weeks while workers repair it.",
+            "a": "temporary"
           },
           {
-            "s": "Once a video is online, it is very hard to ____.",
-            "a": "take it back"
+            "s": "The rule applies to everyone, but there are a few ____ for young children.",
+            "a": "exceptions"
           },
           {
-            "s": "These concerns have ____ stronger rules in Australia.",
-            "a": "led to calls for"
+            "s": "Good online ____ means using a strong password and updating your phone.",
+            "a": "security"
           }
         ],
         "extra": [
-          "take away",
-          "harmful"
+          "footage",
+          "permanent"
         ]
       },
       "match": [
@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "These glasses already ____.",
-            "cue": "exist",
-            "a": "exist"
+            "s": "She ____ her glasses on the train yesterday.",
+            "cue": "leave",
+            "a": "left"
           },
           {
             "s": "Someone might ____ at school or at work without knowing about it.",
@@ -87,7 +87,7 @@
         {
           "s": "Chris Edwards uses smart glasses to read recipes and find his way around.",
           "a": "T",
-          "why": "The text says: \"Chris Edwards, an Australian man who is blind, uses smart glasses to read recipes, check household equipment and find his way around with his guide dog.\""
+          "why": "The text says he uses them \"to read recipes, check household equipment and find his way around with his guide dog.\""
         },
         {
           "s": "The Greens' proposal included exceptions for disability devices.",
@@ -97,41 +97,110 @@
         {
           "s": "Australia has already banned imports of camera-equipped smart glasses.",
           "a": "F",
-          "why": "The text says the opposite: \"The proposal was part of a political debate, not a ban that had already come into force.\""
+          "why": "The text says the proposal was \"not a ban that had already come into force.\""
+        },
+        {
+          "s": "Matt Henderson uses glasses that show written words during meetings.",
+          "a": "T",
+          "why": "The text says he uses glasses \"that show written words during meetings.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "microphones",
+          "d": "equipment that picks up sound so it can be heard or recorded"
+        },
+        {
+          "t": "ordinary",
+          "d": "normal, not special or different"
+        },
+        {
+          "t": "blind",
+          "d": "not able to see"
+        },
+        {
+          "t": "deaf",
+          "d": "not able to hear, or not able to hear well"
+        },
+        {
+          "t": "wearer",
+          "d": "the person who has something on their body"
+        },
+        {
+          "t": "ban",
+          "d": "an official rule that says you must not do something"
+        },
+        {
+          "t": "debate",
+          "d": "a serious talk where people give different opinions"
+        },
+        {
+          "t": "freedom",
+          "d": "the power to do what you want"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Linking words join ideas. Use because for a reason, so for a result, however for a difference and also to add an idea.",
+        "items": [
+          {
+            "s": "Many users bought smart glasses ____ they wanted information without holding a phone.",
+            "a": "because"
+          },
+          {
+            "s": "A cheap device may have weak security, ____ hackers could see the recordings.",
+            "a": "so"
+          },
+          {
+            "s": "Smart glasses are useful. ____, some people feel unsafe near them.",
+            "a": "However"
+          },
+          {
+            "s": "The glasses can read signs aloud. They can ____ translate speech.",
+            "a": "also"
+          },
+          {
+            "s": "People will feel safer ____ the glasses show a clear light when they record.",
+            "a": "if"
+          }
+        ],
+        "extra": [
+          "although",
+          "unless"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "That difference is ____ a growing privacy debate in Australia.",
-            "a": "at the centre of"
+            "s": "The two phones look ____ from the outside, but only one has a hidden camera.",
+            "a": "identical"
           },
           {
-            "s": "Some models allow users to record people ____.",
-            "a": "discreetly"
+            "s": "Flashing ____ on the frame would show when a camera is on.",
+            "a": "indicators"
           },
           {
-            "s": "An investigation into cheap devices has ____ about security.",
-            "a": "raised concerns"
+            "s": "Without meaningful ____, companies have little reason to follow the rules.",
+            "a": "penalties"
           },
           {
-            "s": "Security protections should be strong enough to prevent ____ access to recordings.",
-            "a": "unauthorised"
+            "s": "Customers who film in shops are often treated with ____ by the staff.",
+            "a": "suspicion"
           },
           {
-            "s": "Some disabled people ____ smart glasses to read signs or follow conversations.",
-            "a": "rely on"
+            "s": "Misunderstandings in crowded places can quickly lead to angry ____.",
+            "a": "confrontations"
           },
           {
-            "s": "Good rules may struggle to ____ rapidly changing devices.",
-            "a": "keep up with"
+            "s": "Economic ____ makes many companies delay big decisions.",
+            "a": "uncertainty"
           }
         ],
         "extra": [
-          "take out",
-          "inappropriate"
+          "visible",
+          "loophole"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The features that make the glasses practical can also make them ____.",
-            "cue": "INTRUDE",
-            "a": "intrusive"
+            "s": "By then, he ____ the glasses for a year.",
+            "cue": "use",
+            "a": "had used"
           },
           {
-            "s": "Both men describe the technology as reducing their ____ on other people.",
-            "cue": "DEPEND",
-            "a": "dependence|dependency"
+            "s": "Smart glasses ____ in many shops now.",
+            "cue": "sell",
+            "a": "are sold"
           },
           {
-            "s": "Smart glasses can be a ____ way to capture everyday moments without a phone.",
-            "cue": "CONVENIENCE",
-            "a": "convenient"
+            "s": "If the glasses had a bright light, people ____ the camera.",
+            "cue": "notice",
+            "a": "would notice"
           },
           {
-            "s": "Disability ____ worry about suspicion towards people who use the glasses.",
-            "cue": "ADVOCACY",
-            "a": "advocates"
+            "s": "The new rules ____ in parliament at the moment.",
+            "cue": "discuss",
+            "a": "are being discussed"
           },
           {
-            "s": "Effective regulation has to take both experiences ____.",
-            "cue": "SERIOUS",
-            "a": "seriously"
+            "s": "While he ____ home, the glasses gave him directions.",
+            "cue": "walk",
+            "a": "was walking"
           }
         ]
       },
@@ -191,51 +260,120 @@
         {
           "s": "Matt Henderson is an Australian town planner who uses live captions.",
           "a": "T",
-          "why": "The text says: \"Matt Henderson, an Australian town planner who has been deaf since birth, uses live captions during conversations and meetings.\""
+          "why": "The text says he is \"an Australian town planner who has been deaf since birth\" and uses \"live captions during conversations and meetings.\""
         },
         {
           "s": "The federal government planned to introduce its own import ban.",
           "a": "F",
-          "why": "The text says the opposite: \"However, the federal government said it had no plans to introduce its own import ban and was consulting on wider changes to privacy law.\""
+          "why": "The text says it \"had no plans to introduce its own import ban.\""
         },
         {
           "s": "The Greens proposed a 12-month ban on certain imports.",
           "a": "T",
-          "why": "The text says: \"In 2026, Australian Greens politicians proposed a 12-month ban on imports of certain camera-enabled wearable devices while stronger privacy protections were considered.\""
+          "why": "The text says they proposed \"a 12-month ban on imports of certain camera-enabled wearable devices.\""
+        },
+        {
+          "s": "The proposal would have banned glasses used as disability aids.",
+          "a": "F",
+          "why": "The text says the proposal \"included an exception for genuine disability aids.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "spectacles",
+          "d": "glasses that you wear to see better"
+        },
+        {
+          "t": "captions",
+          "d": "words on a screen that show what people are saying"
+        },
+        {
+          "t": "appliances",
+          "d": "machines in the home, such as a washing machine or oven"
+        },
+        {
+          "t": "discreetly",
+          "d": "in a quiet way so that other people do not notice"
+        },
+        {
+          "t": "investigation",
+          "d": "a careful search to find out the facts about something"
+        },
+        {
+          "t": "consulting",
+          "d": "asking people for their opinions before you decide"
+        },
+        {
+          "t": "exception",
+          "d": "something that is not included in a rule"
+        },
+        {
+          "t": "regulation",
+          "d": "official rules that control how something is done"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Contrast and condition. Whereas compares two facts, unless means except if, and otherwise means if not.",
+        "items": [
+          {
+            "s": "Some users value the glasses for convenience, ____ others depend on them to live independently.",
+            "a": "whereas"
+          },
+          {
+            "s": "____ the benefits, many people feel uncomfortable being filmed.",
+            "a": "Despite"
+          },
+          {
+            "s": "Glasses for disabled users should not be banned ____ they are used to film people secretly.",
+            "a": "unless"
+          },
+          {
+            "s": "The penalties were small; ____, few firms took the rules seriously.",
+            "a": "consequently"
+          },
+          {
+            "s": "Cameras should show a clear light; ____, nobody can tell when they are recording.",
+            "a": "otherwise"
+          }
+        ],
+        "extra": [
+          "nevertheless",
+          "provided"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The measure had the effect of ____ a wider public discussion about the law.",
-            "a": "giving rise to"
-          },
-          {
-            "s": "Many people ask whether current laws can ____ recording technology that is cheaper and harder to spot.",
-            "a": "keep pace with"
-          },
-          {
-            "s": "He obtains information that sighted people often ____.",
-            "a": "take for granted"
-          },
-          {
-            "s": "The prospect of ____ footage raises obvious questions about consent.",
+            "s": "A ____ operation depends on nobody knowing that it exists.",
             "a": "covert"
           },
           {
-            "s": "As wearable technology becomes less ____, the usual social signals disappear.",
-            "a": "conspicuous"
+            "s": "Politicians often resort to alarmist ____ when they want support for tougher laws.",
+            "a": "rhetoric"
           },
           {
-            "s": "Accessibility cannot be invoked as ____ for unrestricted recording.",
-            "a": "a blanket justification"
+            "s": "Many people avoid seeking help because of the lingering ____ that makes them ashamed of needing it.",
+            "a": "stigma"
+          },
+          {
+            "s": "Several ____ filmed the argument on their phones instead of intervening.",
+            "a": "bystanders"
+          },
+          {
+            "s": "Without adequate ____, personal data can easily be misused.",
+            "a": "safeguards"
+          },
+          {
+            "s": "The council introduced a complete ____ on smoking in the city's parks.",
+            "a": "prohibition"
           }
         ],
         "extra": [
-          "foolproof",
-          "throw up"
+          "exemptions",
+          "loophole"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "As wearable technology shrinks, the usual social signals become increasingly ____.",
-            "cue": "RELY",
-            "a": "unreliable"
+            "s": "Critics pointed to the ____ in the wording of the law.",
+            "cue": "AMBIGUOUS",
+            "a": "ambiguity"
           },
           {
-            "s": "Enforcement becomes ____ harder as devices shrink, multiply and evolve.",
-            "cue": "PROGRESS",
-            "a": "progressively"
+            "s": "Campaigners accused the firm of ____ in protecting customer data.",
+            "cue": "NEGLIGENT",
+            "a": "negligence"
           },
           {
-            "s": "____ cameras can blur the distinction between looking and recording.",
-            "cue": "MINIATURE",
-            "a": "Miniaturised"
+            "s": "The new rule is likely to prove ____ for small businesses.",
+            "cue": "PROBLEM",
+            "a": "problematic"
           },
           {
-            "s": "Any ____ approach must separate legitimate assistive uses from the misuse of cameras.",
-            "cue": "SENSE",
-            "a": "sensible"
+            "s": "Campaigners demanded greater ____ about how the footage was stored.",
+            "cue": "TRANSPARENT",
+            "a": "transparency"
           },
           {
-            "s": "A camera can undermine one person's ____ while helping another regain it.",
-            "cue": "AUTONOMOUS",
-            "a": "autonomy"
+            "s": "Her ____ to wear the glasses in public surprised her colleagues.",
+            "cue": "RELUCTANT",
+            "a": "reluctance"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Chris Edwards works with Vision Australia.",
+          "s": "The writer implies that habits built around phones no longer protect privacy once cameras sit in glasses.",
           "a": "T",
-          "why": "The text says: \"Chris Edwards, who is blind and works with Vision Australia, uses AI-enabled glasses to obtain information that sighted people often take for granted.\""
+          "why": "The text says norms built around raising a phone \"offer little guidance once a camera sits permanently at eye level.\""
         },
         {
-          "s": "Manufacturers have agreed to add brighter recording lights.",
-          "a": "N",
-          "why": "Not stated. The text does not say that any manufacturer has agreed to change its devices."
-        },
-        {
-          "s": "The writer argues that enforcement gets harder as devices shrink.",
-          "a": "T",
-          "why": "The text says: \"None is foolproof, and enforcement becomes progressively harder as devices shrink, multiply and evolve beyond the categories the law was written for.\""
-        },
-        {
-          "s": "The Greens' measure was an existing national prohibition.",
+          "s": "The Greens' proposal would have restricted imports of glasses sold as disability aids.",
           "a": "F",
-          "why": "The text says the opposite: \"The measure was therefore a political proposal, not an existing national prohibition.\""
+          "why": "The text says it came \"with exemptions for genuine disability aids.\""
+        },
+        {
+          "s": "Vision Australia asked the federal government to reject the import ban.",
+          "a": "N",
+          "why": "The text says only that Chris Edwards works with Vision Australia; it reports no request from the organisation."
+        },
+        {
+          "s": "The writer believes the only choices are banning smart glasses or ignoring privacy.",
+          "a": "F",
+          "why": "The text says \"the choice need not be between banning useful technology and abandoning privacy altogether.\""
+        },
+        {
+          "s": "The government's privacy plans were wider in scope than the Greens' proposal.",
+          "a": "T",
+          "why": "The Greens proposed an import ban, while the government was \"pursuing broader privacy reforms.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "voyeurism",
+          "d": "the habit of secretly watching people for pleasure"
+        },
+        {
+          "t": "invoked",
+          "d": "used as a reason or an excuse for something"
+        },
+        {
+          "t": "legitimate",
+          "d": "fair, reasonable and allowed by the rules"
+        },
+        {
+          "t": "credible",
+          "d": "believable and likely to work"
+        },
+        {
+          "t": "enforcement",
+          "d": "making sure that people obey a law"
+        },
+        {
+          "t": "assistive",
+          "d": "designed to help people who find daily tasks difficult"
+        },
+        {
+          "t": "miniaturised",
+          "d": "made much smaller than before"
+        },
+        {
+          "t": "accessibility",
+          "d": "how easy something is for people with disabilities to use"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Formal linkers. Albeit means although and introduces a short contrast; thereby shows a result; lest means in case.",
+        "items": [
+          {
+            "s": "____ the benefits to disabled users, many campaigners want tighter controls.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "The glasses are discreet, ____ not completely invisible.",
+            "a": "albeit"
+          },
+          {
+            "s": "The device records continuously, ____ raising concerns about consent.",
+            "a": "thereby"
+          },
+          {
+            "s": "Cameras are shrinking fast; ____, current laws may soon prove inadequate.",
+            "a": "hence"
+          },
+          {
+            "s": "Wearers should say clearly when they are recording, ____ bystanders feel deceived.",
+            "a": "lest"
+          }
+        ],
+        "extra": [
+          "nonetheless",
+          "whereby"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: glasses in the cafe",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the cafe manager",
+      "text": "A customer is wearing smart glasses with a camera. Two other customers have complained. Politely ask what the glasses do. Decide if the customer can keep them on, and say why."
+    },
+    "b": {
+      "role": "the customer",
+      "text": "You wear smart glasses to read the menu and signs because your eyesight is poor. You aren't recording anyone. Explain this calmly and suggest a way to make people feel comfortable."
+    },
+    "phrases": [
+      "Excuse me, could I ask about your glasses?",
+      "I'm not recording anyone, I promise.",
+      "Some customers aren't comfortable with cameras.",
+      "I'd be happy to show you how they work.",
+      "Could we find a compromise?",
+      "That's fair, I'll make sure the light is visible."
+    ],
+    "after": "Afterwards, tell the class: did the manager and the customer agree, and was the solution fair to everyone?"
   }
 }

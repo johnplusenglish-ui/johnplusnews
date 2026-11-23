@@ -1,328 +1,541 @@
 {
- "slug": "can-you-really-reset-your-nervous-system-in-five-minutes",
- "levels": {
-  "core": {
-   "gap": {
-    "items": [
-     {
-      "s": "The experts agreed that there is no such thing as a nervous system ____.",
-      "a": "reset"
-     },
-     {
-      "s": "Stress ____ on the first mode, the one called fight or flight.",
-      "a": "switches"
-     },
-     {
-      "s": "Some people feel \"wired and ____\" when they cannot calm down after stress.",
-      "a": "tired"
-     },
-     {
-      "s": "Dr Lai suggests breathing in for about five ____ and out for about five.",
-      "a": "seconds"
-     },
-     {
-      "s": "Too much training without ____ can have the opposite effect.",
-      "a": "rest"
-     }
-    ],
-    "extra": [
-     "digestion",
-     "budget"
-    ]
-   },
-   "match": [
-    {
-     "t": "recover",
-     "d": "to get back to normal after a hard time"
+  "slug": "can-you-really-reset-your-nervous-system-in-five-minutes",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Please reply today. This matter is ____ and cannot wait.",
+            "a": "urgent"
+          },
+          {
+            "s": "Before an exam, many students feel ____ and cannot sleep.",
+            "a": "anxious"
+          },
+          {
+            "s": "It is hard to ____ on your homework when your phone keeps buzzing.",
+            "a": "concentrate"
+          },
+          {
+            "s": "Going to bed early and eating breakfast are healthy ____.",
+            "a": "habits"
+          },
+          {
+            "s": "Your ____ is the way your body breaks down the food you eat.",
+            "a": "digestion"
+          }
+        ],
+        "extra": [
+          "relaxed",
+          "reliable"
+        ]
+      },
+      "match": [
+        {
+          "t": "recover",
+          "d": "to get back to normal after a hard time"
+        },
+        {
+          "t": "alert",
+          "d": "awake and ready to notice things"
+        },
+        {
+          "t": "evidence",
+          "d": "facts that show that something is true"
+        },
+        {
+          "t": "flexibility",
+          "d": "the ability to change easily"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In October 2026, The Guardian ____ experts whether any of this is true.",
+            "cue": "ask",
+            "a": "asked"
+          },
+          {
+            "s": "When you are stressed, your heart ____ faster.",
+            "cue": "beat",
+            "a": "beats"
+          },
+          {
+            "s": "Dr Lai ____ breathing in for about five seconds.",
+            "cue": "suggest",
+            "a": "suggests"
+          },
+          {
+            "s": "In one study, the breathing exercise ____ people's mood over a month.",
+            "cue": "improve",
+            "a": "improved"
+          },
+          {
+            "s": "The \"rest and digest\" mode ____ down your heart.",
+            "cue": "slow",
+            "a": "slows"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The experts say that you would not want a nervous system reset.",
+          "a": "T",
+          "why": "The text says: \"There is no such thing as a nervous system reset, and you would not want one.\""
+        },
+        {
+          "s": "Dr Lai suggests slow breathing for only about one minute.",
+          "a": "F",
+          "why": "The text says: \"breathing in for about five seconds and out for about five, for five to ten minutes\""
+        },
+        {
+          "s": "One expert says there is not enough good evidence for the benefits of cold water.",
+          "a": "T",
+          "why": "The text says: \"there is not enough good evidence that it gives real benefits for the nervous system\""
+        },
+        {
+          "s": "The text says that the stress response is never useful.",
+          "a": "F",
+          "why": "The text says: \"That is useful, because you need it to exercise and concentrate.\""
+        },
+        {
+          "s": "The text says how many people took part in the cyclic sighing study.",
+          "a": "N",
+          "why": "The text does not say how many people took part in the cyclic sighing study."
+        }
+      ],
+      "pre": [
+        {
+          "t": "reset",
+          "d": "to set something back to how it was at the start"
+        },
+        {
+          "t": "promise",
+          "d": "to say that something will definitely happen"
+        },
+        {
+          "t": "mode",
+          "d": "a way that something works"
+        },
+        {
+          "t": "wired",
+          "d": "full of energy and unable to relax"
+        },
+        {
+          "t": "mood",
+          "d": "the way you feel at a particular time"
+        },
+        {
+          "t": "support",
+          "d": "proof or help that shows an idea is good"
+        },
+        {
+          "t": "plunges",
+          "d": "quick jumps into very cold water"
+        },
+        {
+          "t": "breathing",
+          "d": "taking air in and out of your body"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some words always take the same small word after them. Learn the pair together, not the small word alone.",
+        "items": [
+          {
+            "s": "It can take a few minutes to recover ____ a stressful day.",
+            "a": "from"
+          },
+          {
+            "s": "How much sleep you need depends ____ your age.",
+            "a": "on"
+          },
+          {
+            "s": "If you feel low for a long time, talk ____ a doctor.",
+            "a": "to"
+          },
+          {
+            "s": "Many people are interested ____ new ways to relax.",
+            "a": "in"
+          },
+          {
+            "s": "Some people are afraid ____ very cold water.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "at",
+          "for"
+        ]
+      }
     },
-    {
-     "t": "alert",
-     "d": "awake and ready to notice things"
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The wellness ____ sells many products that promise quick results.",
+            "a": "industry"
+          },
+          {
+            "s": "Early nights and regular meals may sound ____, but they help more than most gadgets.",
+            "a": "dull"
+          },
+          {
+            "s": "She slept for twelve hours because she was so ____ after the marathon.",
+            "a": "exhausted"
+          },
+          {
+            "s": "A ____ bedtime matters more than one long lie-in at the weekend.",
+            "a": "consistent"
+          },
+          {
+            "s": "The shop sells a wide ____ of products, from herbal teas to sleep masks.",
+            "a": "range"
+          },
+          {
+            "s": "Your muscles ____ when you feel threatened.",
+            "a": "tense"
+          }
+        ],
+        "extra": [
+          "profitable",
+          "remarkable"
+        ]
+      },
+      "match": [
+        {
+          "t": "bereavement",
+          "d": "the loss of a person close to you through death"
+        },
+        {
+          "t": "credible",
+          "d": "able to be believed or trusted"
+        },
+        {
+          "t": "wind down",
+          "d": "to relax and become calm after being busy or stressed"
+        },
+        {
+          "t": "bounce back",
+          "d": "to recover quickly after a difficulty"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "By the time the meeting ended, Sam ____ at his desk for nine hours.",
+            "cue": "be",
+            "a": "had been"
+          },
+          {
+            "s": "The feature ____ on 2 October 2026.",
+            "cue": "publish",
+            "a": "was published"
+          },
+          {
+            "s": "Over the last few years, slow breathing ____ to raise heart rate variability.",
+            "cue": "show",
+            "a": "has been shown"
+          },
+          {
+            "s": "If she ____ more, she would feel less wired.",
+            "cue": "sleep",
+            "a": "slept"
+          },
+          {
+            "s": "If you enjoy it and feel calmer, he ____, that is reason enough.",
+            "cue": "add",
+            "a": "adds"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Every expert agreed that the nervous system cannot be reset.",
+          "a": "T",
+          "why": "The text says: \"Every expert agreed that there is no such thing as resetting the nervous system\""
+        },
+        {
+          "s": "The experts say the stress response is always harmful.",
+          "a": "F",
+          "why": "The text says: \"That response is useful, because we need it to exercise, concentrate and meet deadlines.\""
+        },
+        {
+          "s": "The text suggests that more exercise is always better for the nervous system.",
+          "a": "F",
+          "why": "The text says athletes who overtrain show lower heart rate variability, \"so recovery matters\"."
+        },
+        {
+          "s": "The neurosurgeon says cold water has clear and proven benefits.",
+          "a": "F",
+          "why": "The text says: \"there is not yet enough credible evidence of meaningful benefits for the nervous system\""
+        },
+        {
+          "s": "The text says how many people took part in the cyclic sighing trial.",
+          "a": "N",
+          "why": "The text does not say how many people took part in the cyclic sighing trial."
+        }
+      ],
+      "pre": [
+        {
+          "t": "dependable",
+          "d": "able to be trusted to work well"
+        },
+        {
+          "t": "inflammation",
+          "d": "a sore, swollen, red area in the body"
+        },
+        {
+          "t": "contributing",
+          "d": "helping to cause something"
+        },
+        {
+          "t": "overtrain",
+          "d": "to do too much exercise without enough rest"
+        },
+        {
+          "t": "persistently",
+          "d": "again and again, without stopping"
+        },
+        {
+          "t": "dysregulated",
+          "d": "not working in a balanced way"
+        },
+        {
+          "t": "meaningful",
+          "d": "important enough to make a real difference"
+        },
+        {
+          "t": "fashionable",
+          "d": "popular at a particular time"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many verbs and adjectives need one particular preposition. Check the pair in a dictionary and learn it as one chunk.",
+        "items": [
+          {
+            "s": "Researchers often rely ____ heart rate variability as a measure of calm.",
+            "a": "on"
+          },
+          {
+            "s": "Regular exercise can contribute ____ better recovery over time.",
+            "a": "to"
+          },
+          {
+            "s": "Many people benefit ____ a short walk after lunch.",
+            "a": "from"
+          },
+          {
+            "s": "Some influencers are accused ____ exaggerating the effects of simple tricks.",
+            "a": "of"
+          },
+          {
+            "s": "It is hard to cope ____ stress without a break.",
+            "a": "with"
+          }
+        ],
+        "extra": [
+          "at",
+          "about"
+        ]
+      }
     },
-    {
-     "t": "evidence",
-     "d": "facts that show that something is true"
-    },
-    {
-     "t": "flexibility",
-     "d": "the ability to change easily"
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Where the supply of skilled staff ____ behind demand, wages tend to rise.",
+            "a": "lags"
+          },
+          {
+            "s": "A hibernating animal ____ energy by slowing almost everything its body does.",
+            "a": "conserves"
+          },
+          {
+            "s": "Researchers recorded each volunteer's resting pulse as a ____ before the programme began.",
+            "a": "baseline"
+          },
+          {
+            "s": "The company's shares dipped on Monday, but a strong ____ on Tuesday wiped out the loss.",
+            "a": "rebound"
+          },
+          {
+            "s": "The appeal of the scheme is ____: it saves money and it saves time.",
+            "a": "twofold"
+          },
+          {
+            "s": "She is an ____ authority on sleep research, quoted in many journals.",
+            "a": "established"
+          }
+        ],
+        "extra": [
+          "slump",
+          "negligible"
+        ]
+      },
+      "match": [
+        {
+          "t": "premise",
+          "d": "an idea that an argument is based on"
+        },
+        {
+          "t": "mobilises",
+          "d": "prepares and sends into action"
+        },
+        {
+          "t": "proxy",
+          "d": "something used to stand for another thing that is hard to measure"
+        },
+        {
+          "t": "scrutiny",
+          "d": "careful and critical examination"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The review reported a ____ increase in heart rate variability, but not that it lasted.",
+            "cue": "MEASURE",
+            "a": "measurable"
+          },
+          {
+            "s": "Specialists remained ____ of any claim that promised an instant fix.",
+            "cue": "SCEPTIC",
+            "a": "sceptical"
+          },
+          {
+            "s": "The ____ of the trial was limited because only a short period was studied.",
+            "cue": "RELIABLE",
+            "a": "reliability"
+          },
+          {
+            "s": "Overtraining without enough rest can lead to a ____ in performance.",
+            "cue": "DETERIORATE",
+            "a": "deterioration"
+          },
+          {
+            "s": "It would be ____ to conclude that a better reading means a better health outcome.",
+            "cue": "JUSTIFY",
+            "a": "unjustified"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The review found that slow breathing raised heart rate variability only during a session, not afterwards.",
+          "a": "F",
+          "why": "The text says it was higher \"during a session, immediately afterwards and after multi-session programmes\"."
+        },
+        {
+          "s": "The evidence for acupressure mats is weaker than the evidence for slow breathing.",
+          "a": "T",
+          "why": "Slow breathing \"has the clearest support\", while evidence for acupressure mats \"is thinner still\"."
+        },
+        {
+          "s": "The text says consumer vagus nerve devices have been proven not to work.",
+          "a": "F",
+          "why": "The text says the evidence is limited, \"which is not the same as proof that they fail\"."
+        },
+        {
+          "s": "The review found that slow breathing worked better in younger people than in older people.",
+          "a": "N",
+          "why": "The text does not say anything about age in the review."
+        },
+        {
+          "s": "The text suggests that a better heart rate variability reading does not by itself prove a health benefit.",
+          "a": "T",
+          "why": "The text says \"a better reading on it is not the same as a proven health benefit\"."
+        }
+      ],
+      "pre": [
+        {
+          "t": "dysregulated",
+          "d": "not working in a steady, balanced way"
+        },
+        {
+          "t": "autonomic",
+          "d": "working automatically, without you thinking about it"
+        },
+        {
+          "t": "immersion",
+          "d": "the act of putting the whole body into water"
+        },
+        {
+          "t": "overtraining",
+          "d": "doing too much exercise without enough rest"
+        },
+        {
+          "t": "unglamorous",
+          "d": "ordinary and not exciting"
+        },
+        {
+          "t": "uneven",
+          "d": "not the same in every part or case"
+        },
+        {
+          "t": "troubled",
+          "d": "worried or badly affected by a problem"
+        },
+        {
+          "t": "circumstances",
+          "d": "the facts and conditions around a situation"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At this level the preposition often belongs to a fixed phrase, so learn each one as a whole chunk with an example.",
+        "items": [
+          {
+            "s": "Promising an instant cure is tantamount ____ misleading the public.",
+            "a": "to"
+          },
+          {
+            "s": "The success of the programme is contingent ____ people sticking to it.",
+            "a": "on"
+          },
+          {
+            "s": "Early attempts to measure calm were fraught ____ difficulty.",
+            "a": "with"
+          },
+          {
+            "s": "The claim is ____ odds with all the available evidence.",
+            "a": "at"
+          },
+          {
+            "s": "The programme succeeded by virtue ____ its simplicity.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "for",
+          "in"
+        ]
+      }
     }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "In October 2026, The Guardian ____ experts whether any of this is true.",
-      "cue": "ask",
-      "a": "asked"
-     },
-     {
-      "s": "When you are stressed, your heart ____ faster.",
-      "cue": "beat",
-      "a": "beats"
-     },
-     {
-      "s": "Dr Lai ____ breathing in for about five seconds.",
-      "cue": "suggest",
-      "a": "suggests"
-     },
-     {
-      "s": "In one study, the breathing exercise ____ people's mood over a month.",
-      "cue": "improve",
-      "a": "improved"
-     },
-     {
-      "s": "The \"rest and digest\" mode ____ down your heart.",
-      "cue": "slow",
-      "a": "slows"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The experts say that you would not want a nervous system reset.",
-     "a": "T",
-     "why": "The text says: \"There is no such thing as a nervous system reset, and you would not want one.\""
-    },
-    {
-     "s": "Dr Lai suggests slow breathing for only about one minute.",
-     "a": "F",
-     "why": "The text says: \"breathing in for about five seconds and out for about five, for five to ten minutes\""
-    },
-    {
-     "s": "One expert says there is not enough good evidence for the benefits of cold water.",
-     "a": "T",
-     "why": "The text says: \"there is not enough good evidence that it gives real benefits for the nervous system\""
-    },
-    {
-     "s": "The text says that the stress response is never useful.",
-     "a": "F",
-     "why": "The text says: \"That is useful, because you need it to exercise and concentrate.\""
-    },
-    {
-     "s": "The text says how many people took part in the cyclic sighing study.",
-     "a": "N",
-     "why": "The text does not say how many people took part in the cyclic sighing study."
-    }
-   ]
   },
-  "intermediate": {
-   "gap": {
-    "items": [
-     {
-      "s": "The Guardian asked experts whether any of the claims ____ up.",
-      "a": "holds"
-     },
-     {
-      "s": "The sympathetic system produces the \"fight or ____\" response.",
-      "a": "flight"
-     },
-     {
-      "s": "A healthy system is not permanently calm but ____.",
-      "a": "flexible"
-     },
-     {
-      "s": "Researchers often use heart rate variability as a ____ on the parasympathetic system.",
-      "a": "window"
-     },
-     {
-      "s": "Athletes who ____ show lower heart rate variability.",
-      "a": "overtrain"
-     },
-     {
-      "s": "No single trick is a magic ____.",
-      "a": "bullet"
-     }
+  "speak": {
+    "title": "Role-play: is the mat worth it?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the flatmate who wants to buy",
+      "text": "You saw a video about a spiky mat that promises to calm you down. It costs a lot. Explain why you want it and try to persuade your flatmate to share the cost."
+    },
+    "b": {
+      "role": "the flatmate who is unsure",
+      "text": "You are not sure the mat is worth the money. Ask about the evidence, suggest a cheaper idea and try to agree on a plan you are both happy with."
+    },
+    "phrases": [
+      "I saw a video that says it works in five minutes.",
+      "That's a lot of money for a mat.",
+      "What's the evidence?",
+      "I'd rather try something free first.",
+      "Let's wait a week and then decide.",
+      "I'm not convinced, but I'm happy to try."
     ],
-    "extra": [
-     "mirror",
-     "ladder"
-    ]
-   },
-   "match": [
-    {
-     "t": "bereavement",
-     "d": "the loss of a person close to you through death"
-    },
-    {
-     "t": "credible",
-     "d": "able to be believed or trusted"
-    },
-    {
-     "t": "wind down",
-     "d": "to relax and become calm after being busy or stressed"
-    },
-    {
-     "t": "bounce back",
-     "d": "to recover quickly after a difficulty"
-    }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Stress ____ the sympathetic system.",
-      "cue": "activate",
-      "a": "activates"
-     },
-     {
-      "s": "Slow breathing has been ____ to raise heart rate variability.",
-      "cue": "show",
-      "a": "shown"
-     },
-     {
-      "s": "Dr Lai ____ breathing in for about five seconds and out for five.",
-      "cue": "recommend",
-      "a": "recommends"
-     },
-     {
-      "s": "In a separate trial, five minutes a day of cyclic sighing ____ mood.",
-      "cue": "improve",
-      "a": "improved"
-     },
-     {
-      "s": "If you enjoy it and feel calmer, he ____, that is reason enough.",
-      "cue": "add",
-      "a": "adds"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Every expert agreed that the nervous system cannot be reset.",
-     "a": "T",
-     "why": "The text says: \"Every expert agreed that there is no such thing as resetting the nervous system\""
-    },
-    {
-     "s": "The experts say the stress response is always harmful.",
-     "a": "F",
-     "why": "The text says: \"That response is useful, because we need it to exercise, concentrate and meet deadlines.\""
-    },
-    {
-     "s": "Slow breathing has been shown to raise heart rate variability.",
-     "a": "T",
-     "why": "The text says: \"Slow breathing has been shown to raise heart rate variability\""
-    },
-    {
-     "s": "The neurosurgeon says cold water has clear and proven benefits.",
-     "a": "F",
-     "why": "The text says: \"there is not yet enough credible evidence of meaningful benefits for the nervous system\""
-    },
-    {
-     "s": "The text says how many people took part in the cyclic sighing trial.",
-     "a": "N",
-     "why": "The text does not say how many people took part in the cyclic sighing trial."
-    }
-   ]
-  },
-  "advanced": {
-   "gap": {
-    "items": [
-     {
-      "s": "The system's value lies in responding to ____.",
-      "a": "circumstances"
-     },
-     {
-      "s": "The sympathetic system ____ the body for a challenge.",
-      "a": "mobilises"
-     },
-     {
-      "s": "Failing to wind down may contribute to inflammation and ____ and metabolic problems.",
-      "a": "cardiovascular"
-     },
-     {
-      "s": "The measure involved is a ____ for autonomic activity.",
-      "a": "proxy"
-     },
-     {
-      "s": "Evidence for acupressure mats is thinner ____.",
-      "a": "still"
-     },
-     {
-      "s": "Independent clinical evidence for consumer devices is ____.",
-      "a": "limited"
-     }
-    ],
-    "extra": [
-     "abundant",
-     "outdated"
-    ]
-   },
-   "match": [
-    {
-     "t": "premise",
-     "d": "an idea that an argument is based on"
-    },
-    {
-     "t": "mobilises",
-     "d": "prepares and sends into action"
-    },
-    {
-     "t": "proxy",
-     "d": "something used to stand for another thing that is hard to measure"
-    },
-    {
-     "t": "scrutiny",
-     "d": "careful and critical examination"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "The advice that survives scrutiny is ____.",
-      "cue": "GLAMOUR",
-      "a": "unglamorous"
-     },
-     {
-      "s": "The real ____ arises when recovery lags behind demand.",
-      "cue": "DIFFICULT",
-      "a": "difficulty"
-     },
-     {
-      "s": "The goal is not permanent calm but ____.",
-      "cue": "FLEX",
-      "a": "flexibility"
-     },
-     {
-      "s": "The remaining evidence is ____.",
-      "cue": "EVEN",
-      "a": "uneven"
-     },
-     {
-      "s": "Their ____ was twofold.",
-      "cue": "OBJECT",
-      "a": "objection"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "A 2022 review included 223 studies.",
-     "a": "T",
-     "why": "The text says: \"A 2022 systematic review and meta-analysis of 223 studies\""
-    },
-    {
-     "s": "Dr Tracey says there is already strong evidence for cold immersion.",
-     "a": "F",
-     "why": "The text says: \"the credible evidence is not yet strong enough to show meaningful benefits for regulation\""
-    },
-    {
-     "s": "Implanted vagus nerve stimulation is an established treatment for some conditions.",
-     "a": "T",
-     "why": "The text says: \"Implanted vagus nerve stimulation is an established treatment for epilepsy and treatment-resistant depression\""
-    },
-    {
-     "s": "The specialists say the aim is to stay permanently calm.",
-     "a": "F",
-     "why": "The text says: \"The goal is therefore not permanent calm but flexibility\""
-    },
-    {
-     "s": "The text names the acupressure mat brands that were tested.",
-     "a": "N",
-     "why": "The text does not name any acupressure mat brands that were tested."
-    }
-   ]
+    "after": "Afterwards, tell the class: did you buy the mat, and why?"
   }
- }
 }

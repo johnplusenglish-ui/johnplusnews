@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "At a concert in Texas, people ____ and saw something extraordinary.",
-            "a": "looked up"
+            "s": "The crowd ____ loudly when the team scored the winning goal.",
+            "a": "cheered"
           },
           {
-            "s": "They ____ making videos together, and millions began following them.",
-            "a": "carried on"
+            "s": "She held the rope ____, with both hands, so it could not slip.",
+            "a": "tightly"
           },
           {
-            "s": "Ross ____ the idea of breaking a world record.",
-            "a": "came up with"
+            "s": "Crossing a busy road without looking is very ____.",
+            "a": "dangerous"
           },
           {
-            "s": "Pauline tried activities that many younger people would ____ about.",
-            "a": "think twice"
+            "s": "After a long walk, she sat down and felt calm and ____.",
+            "a": "relaxed"
           },
           {
-            "s": "Pauline decided to turn that idea ____.",
-            "a": "on its head"
+            "s": "Only the ____ results are published once the judges have checked them.",
+            "a": "official"
           }
         ],
         "extra": [
-          "give up",
-          "cheerful"
+          "gently",
+          "ordinary"
         ]
       },
       "match": [
@@ -52,86 +52,155 @@
         "kind": "verb",
         "items": [
           {
-            "s": "High above their heads ____ a woman of ninety-nine.",
-            "cue": "be",
-            "a": "was"
+            "s": "Pauline ____ a cheerful T-shirt at the concert.",
+            "cue": "wear",
+            "a": "wore"
           },
           {
-            "s": "Her grandson had helped ____ the adventure.",
-            "cue": "organise",
-            "a": "organise"
+            "s": "When she reached the front, she ____ up.",
+            "cue": "stand",
+            "a": "stood"
           },
           {
-            "s": "Years earlier, Ross had ____ his grandmother playing basketball with him.",
-            "cue": "film",
-            "a": "filmed"
+            "s": "Millions of people ____ following their adventures.",
+            "cue": "begin",
+            "a": "began"
           },
           {
-            "s": "She enjoyed ____ other people laugh.",
-            "cue": "make",
-            "a": "making"
+            "s": "The funny video ____ people's attention online.",
+            "cue": "catch",
+            "a": "caught"
           },
           {
-            "s": "In October 2026, Pauline ____ her experience in the Guardian.",
-            "cue": "describe",
-            "a": "described"
+            "s": "At first she ____ the sides of the stretcher.",
+            "cue": "hold",
+            "a": "held"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Pauline jumped into the crowd without anybody knowing in advance.",
+          "s": "Pauline's grandson helped to organise the adventure.",
+          "a": "T",
+          "why": "The text says: \"Her grandson, Ross Smith, had helped organise the adventure.\""
+        },
+        {
+          "s": "Pauline stayed lying down until the end of the concert.",
           "a": "F",
-          "why": "The text says the opposite: \"Pauline's attempt was planned, supported and organised for a record.\""
+          "why": "The text says: \"When she reached the front, she stood up and enjoyed the moment on stage.\""
         },
         {
-          "s": "Ross and Pauline became known online for the videos they made together.",
-          "a": "T",
-          "why": "The text says: \"They carried on making videos together, and millions of people began following their adventures.\""
-        },
-        {
-          "s": "Pauline had crowd-surfed once before, in her eighties.",
+          "s": "Ross also tried crowd-surfing at the concert.",
           "a": "N",
-          "why": "Not stated. The text does not say whether Pauline had crowd-surfed before."
+          "why": "The text does not say that Ross crowd-surfed."
         },
         {
-          "s": "Pauline was ninety-nine years and 274 days old when she crowd-surfed.",
+          "s": "Pauline enjoyed the ride from the very first second.",
+          "a": "F",
+          "why": "The text says: \"At first she held on tightly. Then... she relaxed and started to enjoy herself.\""
+        },
+        {
+          "s": "Ross and Pauline made videos together before the record attempt.",
           "a": "T",
-          "why": "The text says: \"Pauline was ninety-nine years and 274 days old.\""
+          "why": "The text says that years earlier Ross filmed his grandmother and \"They carried on making videos together\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "stretcher",
+          "d": "a long, flat bed used to carry a person"
+        },
+        {
+          "t": "audience",
+          "d": "the people who watch or listen at an event"
+        },
+        {
+          "t": "grandson",
+          "d": "the son of your son or daughter"
+        },
+        {
+          "t": "stage",
+          "d": "the raised floor where performers stand"
+        },
+        {
+          "t": "stunt",
+          "d": "a dangerous or unusual thing that someone does to get attention"
+        },
+        {
+          "t": "attitude",
+          "d": "the way you think and feel about something"
+        },
+        {
+          "t": "relationship",
+          "d": "the way two people feel and act towards each other"
+        },
+        {
+          "t": "supported",
+          "d": "held up or helped so that something does not fall"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a pair of words that often go together. Learn the pair as one piece: break a record, pay attention.",
+        "items": [
+          {
+            "s": "Many athletes train for years to ____ a world record.",
+            "a": "break"
+          },
+          {
+            "s": "Pauline did not wait for a perfect age to ____ an adventure.",
+            "a": "have"
+          },
+          {
+            "s": "Many people ____ their living as street musicians.",
+            "a": "earn"
+          },
+          {
+            "s": "Please pay ____ when the teacher is speaking.",
+            "a": "attention"
+          },
+          {
+            "s": "My grandfather has a wonderful sense of ____.",
+            "a": "humour"
+          }
+        ],
+        "extra": [
+          "do",
+          "pass"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "The sight of her floating above the fans was ____.",
+            "s": "Seeing the northern lights for the first time was truly ____.",
             "a": "unforgettable"
           },
           {
-            "s": "The basketball video ____, and the pair gained an enormous following.",
-            "a": "caught on"
+            "s": "The course was ____ difficult, but it got easier after a few weeks.",
+            "a": "initially"
           },
           {
-            "s": "Ross and Pauline ____ build a social media audience of millions.",
-            "a": "went on to"
+            "s": "Language can be a ____ when you move to a new country.",
+            "a": "barrier"
           },
           {
-            "s": "When Ross suggested a record attempt, Pauline was ____ to give it a go.",
-            "a": "keen"
+            "s": "It is a false ____ that you have to be young to learn a language.",
+            "a": "assumption"
           },
           {
-            "s": "Their clips celebrate Pauline's ____ personality.",
-            "a": "lively"
+            "s": "The museum's ____ collection will stay on show for good.",
+            "a": "permanent"
           },
           {
-            "s": "Her example does not mean everyone should ____ extreme activities.",
-            "a": "take up"
+            "s": "After a few lessons, she felt more ____ that she could speak in public.",
+            "a": "confident"
           }
         ],
         "extra": [
-          "permanent",
-          "take risks"
+          "temporary",
+          "reluctant"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Guinness confirmed an afternoon that might otherwise have seemed ____.",
-            "cue": "POSSIBLE",
-            "a": "impossible"
+            "s": "By the time she reached the front, Pauline ____ over several rows of fans.",
+            "cue": "travel",
+            "a": "had travelled"
           },
           {
-            "s": "Their unusual ____ began with a short basketball video.",
-            "cue": "PARTNER",
-            "a": "partnership"
+            "s": "The attempt ____ carefully with the organisers and the audience.",
+            "cue": "arrange",
+            "a": "was arranged"
           },
           {
-            "s": "We imagine that people become less ____ as the years pass.",
-            "cue": "ADVENTURE",
-            "a": "adventurous"
+            "s": "Ross suggested ____ to set a Guinness record.",
+            "cue": "try",
+            "a": "trying"
           },
           {
-            "s": "It challenges the expectation that later life must be quiet and ____.",
-            "cue": "PREDICT",
-            "a": "predictable"
+            "s": "Since then, the pair ____ a large social media following.",
+            "cue": "build",
+            "a": "have built"
           },
           {
-            "s": "Pauline's journey was spectacular, but the ____ between two generations was perhaps the real achievement.",
-            "cue": "CONNECT",
-            "a": "connection"
+            "s": "As the crowd passed her along, Pauline ____ her grip and started waving.",
+            "cue": "loosen",
+            "a": "loosened"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Pauline decided to crowd-surf suddenly, without any arrangement.",
+          "s": "Ross and Pauline's partnership began before the record attempt.",
+          "a": "T",
+          "why": "The text says their partnership \"began years earlier when Ross filmed Pauline blocking one of his basketball shots\"."
+        },
+        {
+          "s": "Pauline felt confident from the moment she was lifted.",
           "a": "F",
-          "why": "The text says the opposite: \"It was carefully arranged with the organisers and the audience, rather than an elderly concertgoer suddenly deciding to jump into a crowd.\""
+          "why": "The text says she held tightly at first and became more confident once she saw how carefully the crowd supported her."
         },
         {
-          "s": "By October 2026, Pauline had turned one hundred.",
-          "a": "T",
-          "why": "The text says: \"By October 2026, Pauline had turned one hundred and was still sharing stories about her adventures.\""
-        },
-        {
-          "s": "The concert took place in Bellville, Texas.",
-          "a": "T",
-          "why": "The text says: \"The record-breaking moment took place in May 2026 at a Brantley Gilbert concert in Bellville, Texas.\""
-        },
-        {
-          "s": "Ross and Pauline have appeared together on television.",
+          "s": "Pauline practised being passed over a crowd before the concert.",
           "a": "N",
-          "why": "Not stated. The text does not say whether Ross and Pauline have appeared on television."
+          "why": "The text does not say whether Pauline practised."
+        },
+        {
+          "s": "The writer thinks the story challenges an idea about later life.",
+          "a": "T",
+          "why": "The text says it \"challenges the expectation that later life must always be quiet and predictable\"."
+        },
+        {
+          "s": "The writer says that everyone should try extreme activities.",
+          "a": "F",
+          "why": "The text says: \"Pauline's example does not mean everyone should take up extreme activities.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "stretcher",
+          "d": "a light bed used to carry a person"
+        },
+        {
+          "t": "spectators",
+          "d": "people who watch an event"
+        },
+        {
+          "t": "enormous",
+          "d": "extremely large"
+        },
+        {
+          "t": "lively",
+          "d": "full of energy and fun"
+        },
+        {
+          "t": "curious",
+          "d": "eager to learn or find out about things"
+        },
+        {
+          "t": "appetite",
+          "d": "a strong wish for something"
+        },
+        {
+          "t": "achievement",
+          "d": "something difficult that you do successfully"
+        },
+        {
+          "t": "generations",
+          "d": "groups of family members of different ages, such as grandparents and grandchildren"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Collocations are word partners that sound natural together. Try the pair in your head: you build an audience and share memories, but you do not make memories shared.",
+        "items": [
+          {
+            "s": "Over many years, the chef managed to ____ a restaurant that everyone in town loved.",
+            "a": "build"
+          },
+          {
+            "s": "At the party, the old friends began to ____ memories of their school days.",
+            "a": "share"
+          },
+          {
+            "s": "A funny story can ____ even a tired person laugh.",
+            "a": "make"
+          },
+          {
+            "s": "She has a warm ____ and makes friends easily.",
+            "a": "personality"
+          },
+          {
+            "s": "Skydiving and bungee jumping are ____ sports.",
+            "a": "extreme"
+          }
+        ],
+        "extra": [
+          "gain",
+          "earn"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The attempt was coordinated rather than ____.",
+            "s": "The wedding speech seemed ____, but the groom had in fact rehearsed it for weeks.",
             "a": "spontaneous"
           },
           {
-            "s": "The pair built their videos around her ____ personality.",
-            "a": "mischievous"
+            "s": "She trained as a nurse and ____ became head of a large hospital.",
+            "a": "subsequently"
           },
           {
-            "s": "What could easily have been a ____ experience became something like a parade.",
-            "a": "nerve-racking"
+            "s": "Many films avoid ____ older characters as helpless or unhappy.",
+            "a": "portraying"
           },
           {
-            "s": "The adventure ____ a remarkable creative partnership with her grandson.",
-            "a": "grew out of"
+            "s": "Some species of butterfly could ____ completely if their habitat is destroyed.",
+            "a": "vanish"
           },
           {
-            "s": "Those realities matter, but they do not ____ the whole person.",
-            "a": "account for"
+            "s": "The new law ____ strict limits on how much water each household can use.",
+            "a": "imposes"
           },
           {
-            "s": "Their age difference became ____, not a reason to keep them apart.",
-            "a": "a source of comedy"
+            "s": "The ____ dispute between the two neighbours has lasted for years.",
+            "a": "ongoing"
           }
         ],
         "extra": [
-          "delighted",
-          "join in"
+          "linger",
+          "exceeds"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Their ____ videos gradually attracted millions of followers.",
-            "cue": "HUMOUR",
-            "a": "humorous"
+            "s": "The ____ of the signature was checked by an expert.",
+            "cue": "AUTHENTIC",
+            "a": "authenticity"
           },
           {
-            "s": "Later life is frequently described in terms of decline and ____.",
-            "cue": "DEPEND",
-            "a": "dependence"
+            "s": "Her ____ to try new things surprised everyone.",
+            "cue": "WILLING",
+            "a": "willingness"
           },
           {
-            "s": "____, humour and the wish for new experiences do not vanish on a birthday.",
-            "cue": "CURIOUS",
-            "a": "Curiosity"
+            "s": "Older drivers often face unfair ____ about their abilities.",
+            "cue": "ASSUME",
+            "a": "assumptions"
           },
           {
-            "s": "Their partnership has become an ongoing ____ between two generations.",
-            "cue": "COLLABORATE",
-            "a": "collaboration"
+            "s": "The festival has made the small town ____ famous.",
+            "cue": "INTERNATIONAL",
+            "a": "internationally"
           },
           {
-            "s": "Ross filmed a moment when Pauline ____ blocked his shot.",
-            "cue": "SUCCESS",
-            "a": "successfully"
+            "s": "It would be ____ to ignore the safety risks of crowd-surfing.",
+            "cue": "RESPONSIBLE",
+            "a": "irresponsible"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The videos began with a clip of Pauline blocking Ross's basketball shot.",
+          "s": "The basketball clip came before the idea of a Guinness title.",
           "a": "T",
-          "why": "The text says: \"Years earlier, Ross had filmed Pauline playing basketball with him, capturing a moment when she successfully blocked his shot.\""
+          "why": "The clip was filmed \"years earlier\"; the Guinness idea came later, when Ross \"came up with\" it."
         },
         {
-          "s": "Pauline has said that she is planning another record attempt.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether Pauline plans another record attempt."
-        },
-        {
-          "s": "Guinness recorded Pauline's age as ninety-nine years and 274 days.",
-          "a": "T",
-          "why": "The text says: \"Guinness World Records subsequently recognised Pauline as the oldest person to crowd-surf, recording her age as ninety-nine years and 274 days.\""
-        },
-        {
-          "s": "The writer presents the record as proof that age imposes no limits at all.",
+          "s": "Pauline was already a hundred years old when she crowd-surfed.",
           "a": "F",
-          "why": "The text says the opposite: \"Pauline's story is not proof that age imposes no limits.\""
+          "why": "She was ninety-nine years and 274 days old; she had celebrated her hundredth birthday by October 2026."
+        },
+        {
+          "s": "Pauline wore her T-shirt because Ross asked her to.",
+          "a": "N",
+          "why": "The text says what the T-shirt celebrated but not why she chose it."
+        },
+        {
+          "s": "The writer suggests that ageing is often described in negative terms.",
+          "a": "T",
+          "why": "The text says later life is \"frequently described in terms of decline, dependence and things that can no longer be done\"."
+        },
+        {
+          "s": "The writer believes the difficulties of ageing should be ignored.",
+          "a": "F",
+          "why": "The text says: \"Those realities matter, but they do not account for the whole person.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "coordinated",
+          "d": "planned so that everyone involved works together"
+        },
+        {
+          "t": "spectacle",
+          "d": "a very impressive show or sight"
+        },
+        {
+          "t": "archive",
+          "d": "a collection of records kept for later"
+        },
+        {
+          "t": "decline",
+          "d": "a gradual fall in strength or quality"
+        },
+        {
+          "t": "dependence",
+          "d": "the state of needing other people to manage"
+        },
+        {
+          "t": "ambitions",
+          "d": "strong wishes to achieve something"
+        },
+        {
+          "t": "chanting",
+          "d": "repeating the same words together in rhythm"
+        },
+        {
+          "t": "passive",
+          "d": "not taking action, letting things happen to you"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "At C1, many collocations are formal verb and noun pairs: strike a balance, pose a risk. Check the noun first, then choose the verb that fits formal writing.",
+        "items": [
+          {
+            "s": "Campaigners hope the documentary will ____ outdated stereotypes about old age.",
+            "a": "challenge"
+          },
+          {
+            "s": "The council must strike a ____ between safety and freedom.",
+            "a": "balance"
+          },
+          {
+            "s": "The announcement is likely to ____ fierce debate among voters.",
+            "a": "spark"
+          },
+          {
+            "s": "Such a stunt would ____ a serious risk to untrained participants.",
+            "a": "pose"
+          },
+          {
+            "s": "The charity runs a campaign to raise ____ of loneliness among older people.",
+            "a": "awareness"
+          }
+        ],
+        "extra": [
+          "wield",
+          "forge"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a special day out for Gran",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the grandchild",
+      "text": "You want to take your grandmother, who is eighty-five, to a live concert. She has said she would love to go. Explain your plan and answer your parent's worries."
+    },
+    "b": {
+      "role": "the parent",
+      "text": "You love your mother, but you are worried that a noisy concert will be too tiring. Ask at least two questions. You can say yes, no, or yes with a condition."
+    },
+    "phrases": [
+      "I'd like to take Gran to a live concert.",
+      "She's really excited about it.",
+      "I'm worried it'll be too tiring for her.",
+      "Let's ask her what she wants.",
+      "How about we book seats near the exit?",
+      "I'm sure she'll be fine if we plan it carefully."
+    ],
+    "after": "Afterwards, tell the class: did the parent agree, and what condition made the plan safe?"
   }
 }

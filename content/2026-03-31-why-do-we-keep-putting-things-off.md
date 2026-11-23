@@ -6,6 +6,7 @@ source: Nature Humanities and Social Sciences Communications | https://www.natur
 image: images/why-do-we-keep-putting-things-off-9b754a.jpg
 image-alt: A young man in an orange hoodie lounges sideways in a desk chair holding a mug, wiping the desk with a cloth beside an open laptop and a stack of dirty plates.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

@@ -6,6 +6,7 @@ source: The Guardian | https://www.theguardian.com/commentisfree/2026/sep/24/it-
 image: images/should-you-ask-a-friend-to-pay-back-the-price-of-a-coffee-9addf0.jpg
 image-alt: A woman holds up a phone showing a payment screen with $12.50 and a blue Pay button, while another woman across the cafe table watches over a green juice.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

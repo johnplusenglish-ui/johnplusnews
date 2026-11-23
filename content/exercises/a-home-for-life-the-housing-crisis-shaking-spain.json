@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "The building had been bought by new owners, and ____ followed.",
-            "a": "a legal battle"
+            "s": "Rising prices have ____ many families to leave the neighbourhood where they grew up.",
+            "a": "forced"
           },
           {
-            "s": "Housing campaigners ____ her as she fought to stay.",
-            "a": "stood by"
+            "s": "After a long ____ about the contract, the two sides went to court.",
+            "a": "disagreement"
           },
           {
-            "s": "On 23 September, police arrived to ____ the eviction.",
-            "a": "carry out"
+            "s": "Local ____ organised a march to ask for lower rents.",
+            "a": "campaigners"
           },
           {
-            "s": "She had already been ____ before the eviction.",
-            "a": "in poor health"
+            "s": "Many young workers ____ to save money, as rent takes most of their pay.",
+            "a": "struggle"
           },
           {
-            "s": "Some share crowded flats, and others ____ moving out of the family home.",
-            "a": "put off"
+            "s": "The old tree in the square has become a ____ of the town's history.",
+            "a": "symbol"
           }
         ],
         "extra": [
-          "go back",
-          "affordable"
+          "landlord",
+          "tenant"
         ]
       },
       "match": [
@@ -52,86 +52,155 @@
         "kind": "verb",
         "items": [
           {
-            "s": "For more than 70 years, Maricarmen Abascal ____ in the same flat in Madrid.",
+            "s": "Maricarmen Abascal ____ in the same Madrid flat for more than 70 years.",
             "cue": "live",
             "a": "lived"
           },
           {
-            "s": "In September 2026, she ____ to leave after a long disagreement.",
-            "cue": "force",
-            "a": "was forced"
+            "s": "She ____ the streets and the neighbours around her flat very well.",
+            "cue": "know",
+            "a": "knew"
           },
           {
-            "s": "The building had been ____ by new owners.",
-            "cue": "buy",
-            "a": "bought"
+            "s": "Her supporters ____ that the dispute caused her serious stress.",
+            "cue": "say",
+            "a": "said"
           },
           {
-            "s": "Her death ____ to demonstrations in the days after.",
+            "s": "Maricarmen ____ on 7 October.",
+            "cue": "die",
+            "a": "died"
+          },
+          {
+            "s": "Her death ____ to demonstrations across Spain.",
             "cue": "lead",
             "a": "led"
-          },
-          {
-            "s": "Young adults may work full time but still ____ unable to afford a home.",
-            "cue": "be",
-            "a": "be"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Maricarmen spent over seven decades in one Madrid flat.",
+          "s": "Maricarmen lived in her flat for more than seventy years.",
           "a": "T",
-          "why": "The text says: \"For more than 70 years, Maricarmen Abascal lived in the same flat in Madrid.\""
+          "why": "The text says she lived in the same flat \"for more than 70 years\"."
         },
         {
-          "s": "People protested about housing after she died.",
-          "a": "T",
-          "why": "The text says: \"Her death led to demonstrations and renewed anger about Spain's housing crisis.\""
-        },
-        {
-          "s": "The new owners later apologised to her family.",
-          "a": "N",
-          "why": "Not stated. The text does not mention any apology from the new owners."
-        },
-        {
-          "s": "She returned to her flat after the agreement was reached.",
+          "s": "No police came to the building on 23 September.",
           "a": "F",
-          "why": "The text says the opposite: \"Although an agreement had been reached that might have allowed her to return, she never went back home.\""
+          "why": "The text says \"police arrived to carry out the eviction\"."
+        },
+        {
+          "s": "Maricarmen died less than a month after the eviction.",
+          "a": "T",
+          "why": "She was evicted on 23 September and died on 7 October, about two weeks later."
+        },
+        {
+          "s": "The text says the eviction was shown to be the cause of her death.",
+          "a": "F",
+          "why": "It says the eviction \"has not been shown to be the cause of her death\"."
+        },
+        {
+          "s": "The new owners wanted to turn the building into a hotel.",
+          "a": "N",
+          "why": "The text does not say what the owners planned to do with the building."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "eviction",
+          "d": "when someone is made to leave their home by law"
+        },
+        {
+          "t": "contract",
+          "d": "a written agreement between two sides"
+        },
+        {
+          "t": "stretcher",
+          "d": "a bed for carrying a person who is hurt or ill"
+        },
+        {
+          "t": "demonstrations",
+          "d": "events where many people meet to show they are angry about something"
+        },
+        {
+          "t": "protesters",
+          "d": "people who show in public that they do not agree"
+        },
+        {
+          "t": "crowded",
+          "d": "with too many people in a small space"
+        },
+        {
+          "t": "investment",
+          "d": "money put into something to make more money"
+        },
+        {
+          "t": "renewed",
+          "d": "starting again, and stronger than before"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some linking words give a reason (because), some give a result (so) and some show a contrast (although, however). Think about the idea before you choose.",
+        "items": [
+          {
+            "s": "Rents are very high, ____ many young adults cannot move out.",
+            "a": "so"
+          },
+          {
+            "s": "She wanted to stay in her flat ____ she had lived there all her life.",
+            "a": "because"
+          },
+          {
+            "s": "The owners had rights. ____, the protesters said an old woman should not lose her home.",
+            "a": "However"
+          },
+          {
+            "s": "____ the weather was cold, many people waited outside the building.",
+            "a": "Although"
+          },
+          {
+            "s": "Young people often wait ____ they have saved enough money to move out.",
+            "a": "until"
+          }
+        ],
+        "extra": [
+          "despite",
+          "therefore"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "She had watched neighbours ____ and the city around her change.",
-            "a": "come and go"
+            "s": "The local ____ have promised to review the rules on short-term rentals.",
+            "a": "authorities"
           },
           {
-            "s": "The owners ____ their legal claim.",
-            "a": "pressed ahead with"
+            "s": "The company has ____ agreed to lower the rent, though nothing has been confirmed.",
+            "a": "reportedly"
           },
           {
-            "s": "Rents have climbed while earnings have often ____.",
-            "a": "failed to keep pace"
+            "s": "Most tenants ____ that repairs are necessary, but they disagree about who should pay.",
+            "a": "recognise"
           },
           {
-            "s": "Young workers can find themselves ____ neighbourhoods where they grew up.",
-            "a": "priced out of"
+            "s": "Many young people spend half of their ____ on rent.",
+            "a": "earnings"
           },
           {
-            "s": "Others spend ____ on a room in a shared flat.",
-            "a": "a large share of their income"
+            "s": "High taxes may ____ people from investing in new homes.",
+            "a": "discourage"
           },
           {
-            "s": "Neither side can offer ____ to years of rising demand.",
-            "a": "a quick solution"
+            "s": "The campaign needed a short ____ that people could chant at demonstrations.",
+            "a": "slogan"
           }
         ],
         "extra": [
-          "rent out",
-          "strict"
+          "tension",
+          "dismiss"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Her case became a ____ symbol of Spain's anger over housing costs.",
-            "cue": "POWER",
-            "a": "powerful"
+            "s": "By the time the new rules came in, many landlords already ____ their flats.",
+            "cue": "sell",
+            "a": "had sold"
           },
           {
-            "s": "Campaigners argued that an ____ resident should not be forced out.",
-            "cue": "ELDER",
-            "a": "elderly"
+            "s": "Rent rules in several cities ____ by regional governments in recent years.",
+            "cue": "change",
+            "a": "have been changed"
           },
           {
-            "s": "Her case became a symbol of Spain's growing ____ over housing costs.",
-            "cue": "ANGRY",
-            "a": "anger"
+            "s": "Campaigners argue that nobody ____ to leave a lifelong home.",
+            "cue": "force",
+            "a": "should be forced"
           },
           {
-            "s": "Campaigners call for stronger tenant ____ and more public housing.",
-            "cue": "PROTECT",
-            "a": "protections"
+            "s": "If rents ____ less quickly, fewer people would have to move away.",
+            "cue": "rise",
+            "a": "rose"
           },
           {
-            "s": "The public response shows why housing debates have become so ____.",
-            "cue": "EMOTION",
-            "a": "emotional"
+            "s": "The housing law ____ in parliament next week.",
+            "cue": "discuss",
+            "a": "will be discussed"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Maricarmen lived in the Retiro area of Madrid.",
+          "s": "Maricarmen's rental arrangement gave her some protection from market prices.",
           "a": "T",
-          "why": "The text says: \"Maricarmen lived in the Retiro area of Madrid under an older rental arrangement that gave her some protection from market prices.\""
+          "why": "The text says her older arrangement \"gave her some protection from market prices\"."
         },
         {
-          "s": "Short-term holiday rentals add to the pressure in tourist areas.",
-          "a": "T",
-          "why": "The text says: \"Popular tourist areas face additional pressure from short-term holiday rentals.\""
-        },
-        {
-          "s": "The Spanish government introduced new rent controls after her death.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether the government introduced new rent controls."
-        },
-        {
-          "s": "Doctors confirmed that the eviction caused her death.",
+          "s": "Doctors have shown that the eviction caused her death.",
           "a": "F",
-          "why": "The text says the opposite: \"But nobody has shown that the eviction caused her death.\""
+          "why": "The text says \"nobody has shown that the eviction caused her death\"."
+        },
+        {
+          "s": "The owners offered Maricarmen another flat in Madrid.",
+          "a": "N",
+          "why": "The text does not say whether the owners offered her anywhere else to live."
+        },
+        {
+          "s": "Both campaigners and landlords believe their own approach would be fairer.",
+          "a": "T",
+          "why": "The text says \"Both sides claim that their approach would make the system fairer\"."
+        },
+        {
+          "s": "The article says a quick solution to the housing problem is available.",
+          "a": "F",
+          "why": "It says neither side \"can offer a quick solution\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "evicted",
+          "d": "forced by law to leave a home"
+        },
+        {
+          "t": "arrangement",
+          "d": "an agreement about how something will work"
+        },
+        {
+          "t": "ownership",
+          "d": "the fact of owning something"
+        },
+        {
+          "t": "pressed ahead",
+          "d": "kept going with a plan even when others disagreed"
+        },
+        {
+          "t": "stretcher",
+          "d": "a light bed for carrying someone who is ill or hurt"
+        },
+        {
+          "t": "supply",
+          "d": "the amount of something that is available"
+        },
+        {
+          "t": "illustrates",
+          "d": "shows clearly by giving an example"
+        },
+        {
+          "t": "rent controls",
+          "d": "laws that limit how much rent can go up"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Check what follows the gap: a noun phrase, a full clause or a comma. Despite needs a noun phrase, whereas joins two clauses, and some words only work after a semicolon.",
+        "items": [
+          {
+            "s": "____ rising rents, many young people still want to live in the city centre.",
+            "a": "Despite"
+          },
+          {
+            "s": "Tenants want longer contracts, ____ landlords prefer shorter ones.",
+            "a": "whereas"
+          },
+          {
+            "s": "Landlords say they will let fewer homes ____ the rules become more flexible.",
+            "a": "unless"
+          },
+          {
+            "s": "The number of tourist flats has grown; ____, fewer homes are left for residents.",
+            "a": "therefore"
+          },
+          {
+            "s": "Tenants must pay on time; ____, the landlord can end the contract.",
+            "a": "otherwise"
+          }
+        ],
+        "extra": [
+          "nevertheless",
+          "provided"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "After the property ____, Abascal faced a battle over her tenancy.",
-            "a": "changed hands"
+            "s": "Months of ____ negotiation failed to produce any agreement.",
+            "a": "prolonged"
           },
           {
-            "s": "She ____ a dispute over an older tenancy agreement.",
-            "a": "became embroiled in"
+            "s": "There is a ____ contrast between the luxury apartments and the overcrowded flats nearby.",
+            "a": "stark"
           },
           {
-            "s": "That is why Abascal's story ____.",
-            "a": "struck a nerve"
+            "s": "No single rent rise was dramatic, but the ____ effect of ten years of increases was severe.",
+            "a": "cumulative"
           },
           {
-            "s": "Photographs of the ____ woman became a stark illustration of the case.",
-            "a": "frail"
+            "s": "The two systems use different standards, so their components are not ____.",
+            "a": "interchangeable"
           },
           {
-            "s": "A successful housing policy has to ____ affordability, supply and legal certainty.",
-            "a": "grapple with"
+            "s": "Economists caution against ____ the fall in sales to a single cause.",
+            "a": "attributing"
           },
           {
-            "s": "Attributing her death directly to the eviction would ____ the medical evidence.",
-            "a": "go beyond"
+            "s": "Governments continue to ____ with the question of how to fund care for an ageing population.",
+            "a": "grapple"
           }
         ],
         "extra": [
-          "lucrative",
-          "favourable"
+          "marginal",
+          "tenuous"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Wage growth has not ____ matched the cost of renting or buying.",
-            "cue": "CONSISTENT",
-            "a": "consistently"
+            "s": "Several residents questioned the ____ of the council's plan.",
+            "cue": "FEASIBLE",
+            "a": "feasibility"
           },
           {
-            "s": "Young workers are struggling to establish ____ households.",
-            "cue": "DEPEND",
-            "a": "independent"
+            "s": "The tenants' association has been ____ in its demand for stronger protection.",
+            "cue": "PERSIST",
+            "a": "persistent"
           },
           {
-            "s": "Neither position should obscure the structural ____ of the crisis.",
-            "cue": "COMPLEX",
-            "a": "complexity"
+            "s": "Rapid ____ has changed the character of the old quarter.",
+            "cue": "GENTRIFY",
+            "a": "gentrification"
           },
           {
-            "s": "Daily routines can be destroyed by ____.",
-            "cue": "DISPLACE",
-            "a": "displacement"
+            "s": "The tenant's ____ to leave was understandable after fifty years in the flat.",
+            "cue": "RELUCTANT",
+            "a": "reluctance"
           },
           {
-            "s": "Some economists warn that ____ restrictions may reduce the incentive to rent.",
-            "cue": "EXCESS",
-            "a": "excessive"
+            "s": "Critics say the policy is ____ because it ignores the shortage of homes.",
+            "cue": "SIMPLE",
+            "a": "simplistic"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The building's new owners were a foreign investment company.",
-          "a": "N",
-          "why": "Not stated. The text does not say who the new owners were."
-        },
-        {
-          "s": "Abascal spent more than seven decades in one Madrid flat.",
+          "s": "Abascal died fewer than three weeks after the eviction.",
           "a": "T",
-          "why": "The text says: \"Maricarmen Abascal had lived in the same Madrid flat for more than 70 years.\""
+          "why": "The eviction took place on 23 September and she died on 7 October, a gap of two weeks."
         },
         {
-          "s": "Medical evidence established the eviction as the cause of her death.",
+          "s": "The text treats the claim that the eviction killed her as proven.",
           "a": "F",
-          "why": "The text says the opposite: \"The circumstances prompted widespread outrage, although attributing her death directly to the eviction would go beyond the available medical evidence.\""
+          "why": "It says that attributing her death to the eviction \"would go beyond the available medical evidence\"."
         },
         {
-          "s": "Tenant groups want more social housing to be funded.",
+          "s": "The campaigners received legal help from a tenants' union.",
+          "a": "N",
+          "why": "The text does not say who, if anyone, helped them legally."
+        },
+        {
+          "s": "The writer suggests that holiday lets are not the only reason for the shortage of long-term rentals.",
           "a": "T",
-          "why": "The text says: \"Tenant organisations call for greater security, stronger regulation and investment in social housing.\""
+          "why": "The text names demand, limited supply and investor interest too, and says the impact of holiday lets \"varies by location\"."
+        },
+        {
+          "s": "Tenant organisations and property owners both urge tighter regulation.",
+          "a": "F",
+          "why": "Tenant groups want stronger regulation, but owners warn that \"excessive restrictions\" may reduce the incentive to rent."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "frail",
+          "d": "weak and not in good health, usually because of age"
+        },
+        {
+          "t": "tenancy",
+          "d": "the right to live in a rented home"
+        },
+        {
+          "t": "favourable",
+          "d": "good for you; giving you an advantage"
+        },
+        {
+          "t": "stakes",
+          "d": "what can be won or lost in a situation"
+        },
+        {
+          "t": "struck a nerve",
+          "d": "upset people because it touched a sensitive subject"
+        },
+        {
+          "t": "displacement",
+          "d": "being forced to leave the place where you live"
+        },
+        {
+          "t": "incentive",
+          "d": "something that encourages you to do something"
+        },
+        {
+          "t": "remedies",
+          "d": "ways of solving a problem"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Several of these are formal. Decide whether the gap needs a clause, a noun phrase or an -ing form, and whether it begins the sentence.",
+        "items": [
+          {
+            "s": "The compensation was welcome, ____ far smaller than the campaigners had hoped.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ the court's ruling, the tenants stayed in the building for another month.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "Rents have outpaced wages for a decade; ____, a generation of workers is locked out of ownership.",
+            "a": "consequently"
+          },
+          {
+            "s": "The council cut the number of holiday lets, ____ freeing up hundreds of flats for long-term tenants.",
+            "a": "thereby"
+          },
+          {
+            "s": "The scheme introduced a system ____ tenants can buy their home after twenty years.",
+            "a": "whereby"
+          }
+        ],
+        "extra": [
+          "inasmuch",
+          "whereupon"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a rent rise",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the landlord",
+      "text": "You own a flat and your costs have gone up. You want to raise the rent by 10% from next month. Explain why. You can agree to a smaller rise if the tenant offers a longer contract."
+    },
+    "b": {
+      "role": "the tenant",
+      "text": "You've lived in your flat for six years and you love the area. Your landlord wants a rent rise that you can't afford. Ask for time and a fair deal, and say what you can offer."
+    },
+    "phrases": [
+      "I'd like to talk about the rent.",
+      "I've lived here for six years.",
+      "I'm afraid I can't afford that.",
+      "Would you consider a smaller rise?",
+      "We're willing to sign a longer contract.",
+      "That's fair, so let's agree on it."
+    ],
+    "after": "Tell the class what you agreed and whether both sides were happy."
   }
 }

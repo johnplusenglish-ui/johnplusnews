@@ -6,6 +6,7 @@ source: Guinness World Records | https://www.guinnessworldrecords.com/news/2026/
 image: images/she-was-99-years-old-when-she-crowd-surfed-at-a-concert-8c2c61.jpg
 image-alt: An older woman with white hair lies on a stretcher held up by many hands above a packed outdoor concert crowd at sunset, waving one arm and laughing.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

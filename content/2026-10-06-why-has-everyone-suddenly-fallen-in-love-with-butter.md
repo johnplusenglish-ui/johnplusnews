@@ -6,6 +6,7 @@ source: The Guardian | https://www.theguardian.com/food/2026/oct/06/the-butter-b
 image: images/why-has-everyone-suddenly-fallen-in-love-with-butter-f0a32e.jpg
 image-alt: Blocks and rolls of pale yellow butter with small blank labels fill a marble shop counter while a hand in white sleeves spreads some onto a slice of bread.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

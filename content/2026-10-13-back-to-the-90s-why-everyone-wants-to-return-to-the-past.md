@@ -6,6 +6,7 @@ tags: Culture, Technology
 image: images/back-to-the-90s-why-everyone-wants-to-return-to-the-past-e7cb8d.jpg
 image-alt: A cassette tape, a CD and two jewel cases, a yellow personal stereo with orange headphones, a disposable camera and sunglasses laid out on a bright blue background.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

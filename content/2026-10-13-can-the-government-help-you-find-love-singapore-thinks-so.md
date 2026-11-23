@@ -6,6 +6,7 @@ tags: Technology, Relationships
 image: images/can-the-government-help-you-find-love-singapore-thinks-so-123894.jpg
 image-alt: Two people sit talking and laughing over iced coffee at an outdoor cafe table, with shophouses and city towers behind them.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

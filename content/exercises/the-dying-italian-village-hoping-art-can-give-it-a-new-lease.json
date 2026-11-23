@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Rain and wind are slowly ____ the soft rock beneath the village.",
-            "a": "wearing away"
+            "s": "Cheap train tickets could ____ more people to visit in winter.",
+            "a": "encourage"
           },
           {
-            "s": "Tourists ____ in large numbers at busy times, then leave again.",
-            "a": "turn up"
+            "s": "Shops, buses and doctors are all ____ that a village needs.",
+            "a": "services"
           },
           {
-            "s": "A real community needs jobs and services ____, not only visitors.",
-            "a": "all year"
+            "s": "The streets are so ____ at lunchtime that it is hard to walk.",
+            "a": "crowded"
           },
           {
-            "s": "The announcement is ____ the area.",
-            "a": "good news for"
+            "s": "Repairing an old bridge is difficult and needs a lot of ____ work.",
+            "a": "engineering"
           },
           {
-            "s": "There is a problem that art cannot solve ____.",
-            "a": "on its own"
+            "s": "The news gave the little town a lot of ____ from newspapers and television.",
+            "a": "attention"
           }
         ],
         "extra": [
-          "look beyond",
-          "stay alive"
+          "improve",
+          "expensive"
         ]
       },
       "match": [
@@ -98,40 +98,109 @@
           "s": "Civita and Bolsena will be given a million euros for cultural work.",
           "a": "T",
           "why": "The text says: \"Their joint project will receive one million euros for cultural activities.\""
+        },
+        {
+          "s": "The plans for the arts programme have already produced results.",
+          "a": "F",
+          "why": "The text says: \"These are plans for the years ahead, not results yet.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "valley",
+          "d": "low land between two hills or mountains"
+        },
+        {
+          "t": "permanently",
+          "d": "for always, not just for a short time"
+        },
+        {
+          "t": "community",
+          "d": "the people who live in one place"
+        },
+        {
+          "t": "contemporary",
+          "d": "of the present time, modern"
+        },
+        {
+          "t": "joint",
+          "d": "shared by two or more people or groups"
+        },
+        {
+          "t": "exhibitions",
+          "d": "public shows of art or other things"
+        },
+        {
+          "t": "guesthouses",
+          "d": "small, cheap hotels"
+        },
+        {
+          "t": "organisers",
+          "d": "people who plan an event and make it happen"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs are a verb plus a small word. The small word, such as down or away, changes the meaning, so choose the one that fits the whole idea.",
+        "items": [
+          {
+            "s": "The bridge is very high, so some visitors are afraid to look ____ into the valley.",
+            "a": "down"
+          },
+          {
+            "s": "Young people may drift ____ if the village has no jobs for them.",
+            "a": "away"
+          },
+          {
+            "s": "Whether the plan succeeds will depend ____ what happens after the festival.",
+            "a": "on"
+          },
+          {
+            "s": "A good plan must look ____ the festival and think about the next ten years.",
+            "a": "beyond"
+          },
+          {
+            "s": "In summer the village fills ____ with visitors.",
+            "a": "up"
+          }
+        ],
+        "extra": [
+          "through",
+          "along"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Erosion has been ____ the soft rock for centuries.",
-            "a": "eating into"
+            "s": "Engineers closed the path because the slope above it had become ____.",
+            "a": "unstable"
           },
           {
-            "s": "The nickname describes the land ____ and the tiny community on it.",
-            "a": "falling away"
+            "s": "Repairing an old stone wall takes specialist ____ that few builders have.",
+            "a": "expertise"
           },
           {
-            "s": "The settlement ____ more than 2,500 years.",
-            "a": "dates back"
+            "s": "Festivals can ____ income for local shops, restaurants and hotels.",
+            "a": "generate"
           },
           {
-            "s": "Only ____ people now live permanently in the old centre.",
-            "a": "a handful of"
+            "s": "Many rural areas face a steady ____ in population as young people move to cities.",
+            "a": "decline"
           },
           {
-            "s": "Tourism does not automatically reverse ____.",
-            "a": "population decline"
+            "s": "Without public ____, the small theatre would have to close.",
+            "a": "funding"
           },
           {
-            "s": "The hill is eroding, but art cannot ____.",
-            "a": "hold the ground together"
+            "s": "Visitors in winter are rare, and the ____ tourist usually leaves by lunchtime.",
+            "a": "occasional"
           }
         ],
         "extra": [
-          "die down",
-          "inconvenient"
+          "excessive",
+          "convert"
         ]
       },
       "match": [
@@ -153,89 +222,158 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The hilltop is not merely ____; it is unstable.",
-            "cue": "PICTURE",
-            "a": "picturesque"
+            "s": "By the time the engineers arrived, the rain ____ part of the path away.",
+            "cue": "wash",
+            "a": "had washed"
           },
           {
-            "s": "In October 2026, Civita received an ____ opportunity.",
-            "cue": "EXPECT",
-            "a": "unexpected"
+            "s": "The summer festival ____ in the main square every year.",
+            "cue": "hold",
+            "a": "is held"
           },
           {
-            "s": "Tourism does not restore the services and ____ a village needs.",
-            "cue": "EMPLOY",
-            "a": "employment"
+            "s": "If the village had more jobs, fewer young people ____.",
+            "cue": "leave",
+            "a": "would leave"
           },
           {
-            "s": "The decision is more ____ than simply organising a festival.",
-            "cue": "AMBITION",
-            "a": "ambitious"
+            "s": "Since the festival was announced, local hotels ____ many more bookings.",
+            "cue": "receive",
+            "a": "have received"
           },
           {
-            "s": "There are reasons to be ____, however.",
-            "cue": "CAUTION",
-            "a": "cautious"
+            "s": "The two towns ____ together in October 2026.",
+            "cue": "choose",
+            "a": "were chosen"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Bolsena has a larger permanent population than Civita.",
-          "a": "N",
-          "why": "Not stated. The text does not compare the populations of Bolsena and Civita."
-        },
-        {
-          "s": "Civita and Bolsena were chosen together for the 2028 title.",
+          "s": "The writer suggests that a busy summer does not prove Civita is a healthy community.",
           "a": "T",
-          "why": "The text says: \"The two places were chosen together as Italy's Capital of Contemporary Art for 2028, beating other finalists including Capri, Padua and Pozzuoli.\""
+          "why": "The text contrasts a full bridge in summer with the winter difference between \"a successful attraction and a living village\"."
         },
         {
-          "s": "Capri, Padua and Pozzuoli also reached the final stage.",
-          "a": "T",
-          "why": "The text says: \"The two places were chosen together as Italy's Capital of Contemporary Art for 2028, beating other finalists including Capri, Padua and Pozzuoli.\""
-        },
-        {
-          "s": "Tourism has brought many new permanent residents to Civita.",
+          "s": "The text suggests that art can protect the hilltop from further erosion.",
           "a": "F",
-          "why": "The text says the opposite: \"only a handful of people now live permanently in its old centre.\""
+          "why": "The text says: \"Art cannot hold the ground together.\""
+        },
+        {
+          "s": "Organisers have already chosen the first artists to take part.",
+          "a": "N",
+          "why": "The text only says what the organisers hope to develop, not who has been chosen."
+        },
+        {
+          "s": "Capri, Padua and Pozzuoli all failed to win the 2028 title.",
+          "a": "T",
+          "why": "The winning pair is described as \"beating other finalists including Capri, Padua and Pozzuoli\"."
+        },
+        {
+          "s": "The writer expects the project's real success to be judged before 2028.",
+          "a": "F",
+          "why": "The text says: \"The true test will come after 2028.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "erosion",
+          "d": "the slow wearing away of land by wind or water"
+        },
+        {
+          "t": "medieval",
+          "d": "from the Middle Ages, a very long time ago"
+        },
+        {
+          "t": "picturesque",
+          "d": "pretty in a way that looks good in a picture"
+        },
+        {
+          "t": "settlement",
+          "d": "a small place where people live"
+        },
+        {
+          "t": "publicity",
+          "d": "attention from newspapers, television and the internet"
+        },
+        {
+          "t": "ambitious",
+          "d": "needing a lot of effort and aiming for great success"
+        },
+        {
+          "t": "cautious",
+          "d": "careful to avoid risk"
+        },
+        {
+          "t": "reverse",
+          "d": "to change something back, or make it go the other way"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Check the form after the gap (-ing, -s or the base form). The small word that follows, such as into, away, back or down, tells you which verb to choose.",
+        "items": [
+          {
+            "s": "Rising repair costs are slowly ____ into the village's budget.",
+            "a": "eating"
+          },
+          {
+            "s": "The ground at the edge of the village is ____ away.",
+            "a": "falling"
+          },
+          {
+            "s": "The oldest church in the town ____ back to the twelfth century.",
+            "a": "dates"
+          },
+          {
+            "s": "When the summer crowds ____ down, most cafés close for the winter.",
+            "a": "die"
+          },
+          {
+            "s": "Engineers will need to ____ the hillside together.",
+            "a": "hold"
+          }
+        ],
+        "extra": [
+          "stand",
+          "spread"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The Dying Town is not simply an ____ nickname.",
-            "a": "evocative"
+            "s": "Short-term publicity is rarely enough; towns need ____ income that lasts beyond a single festival.",
+            "a": "durable"
           },
           {
-            "s": "Permanent settlement has ____ a tiny community.",
-            "a": "dwindled to"
+            "s": "No amount of public art can ____ the damage once a cliff has begun to collapse.",
+            "a": "remedy"
           },
           {
-            "s": "Tourism sustains cafés without solving the problems of ____.",
-            "a": "rural depopulation"
+            "s": "The mayor hopes a summer of installations will ____ interest among younger residents who have drifted away.",
+            "a": "stimulate"
           },
           {
-            "s": "A well-designed programme can ____ investment and new partnerships.",
-            "a": "bring in"
+            "s": "Only a handful of buildings in the old centre have been ____ as protected monuments.",
+            "a": "designated"
           },
           {
-            "s": "Funding cycles ____, and visiting artists move on.",
-            "a": "come to an end"
+            "s": "The empty winter lanes contrast ____ with the crowded bridge in August.",
+            "a": "starkly"
           },
           {
-            "s": "The institutions left behind are often too thinly staffed to ____ what the programme began.",
-            "a": "shore up"
+            "s": "Seasonal tourism ____ a few cafés but creates little year-round employment.",
+            "a": "sustains"
           }
         ],
         "extra": [
-          "indispensable",
-          "come along"
+          "forestall",
+          "ephemeral"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Medieval houses cling to a shrinking fragment of hilltop above the ____ valleys.",
-            "cue": "ERODE",
-            "a": "eroded"
+            "s": "The long-term ____ of the scheme will depend on whether local residents become involved.",
+            "cue": "SUSTAIN",
+            "a": "sustainability"
           },
           {
-            "s": "More ____ success would involve permanent spaces for creative work.",
-            "cue": "MEANING",
-            "a": "meaningful"
+            "s": "A full ____ of an old stone bridge would cost far more than a festival.",
+            "cue": "RESTORE",
+            "a": "restoration"
           },
           {
-            "s": "The choice reflects an increasingly ____ view of culture.",
-            "cue": "INFLUENCE",
-            "a": "influential"
+            "s": "Residents were ____ by the sudden rise in rents.",
+            "cue": "SETTLE",
+            "a": "unsettled"
           },
           {
-            "s": "The ____ of the 2028 programme will depend on what survives it.",
-            "cue": "SIGNIFICANT",
-            "a": "significance"
+            "s": "Some locals remain ____ about whether art can solve practical problems.",
+            "cue": "SCEPTIC",
+            "a": "sceptical"
           },
           {
-            "s": "Civita's particular ____ makes this tension sharper.",
-            "cue": "VULNERABLE",
-            "a": "vulnerability"
+            "s": "The ____ of soft volcanic rock makes any repair work a delicate task.",
+            "cue": "FRAGILE",
+            "a": "fragility"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Civita has existed since the Etruscan period.",
+          "s": "The writer implies that Civita looks far busier in summer than it is lived in.",
           "a": "T",
-          "why": "The text says: \"Civita has survived since Etruscan times, but permanent settlement has dwindled to a tiny community.\""
+          "why": "The text contrasts \"a crowded visitor route\" with \"a nearly empty village\"."
         },
         {
-          "s": "Engineers have already begun work to stabilise the hilltop.",
-          "a": "N",
-          "why": "Not stated. The text does not say whether any engineering work has started."
-        },
-        {
-          "s": "The proposal from Civita and Bolsena received a million euros in public money.",
-          "a": "T",
-          "why": "The text says: \"Their proposal, \"Arte che viene, arte che va\", won against entries from Capri, Padua and Pozzuoli, securing a million euros of public funding.\""
-        },
-        {
-          "s": "Contemporary art can stop the erosion beneath the village.",
+          "s": "The writer believes cultural projects reliably turn publicity into lasting jobs.",
           "a": "F",
-          "why": "The text says the opposite: \"Art can stimulate discussion and attract resources, but it cannot remedy the erosion of the volcanic material supporting the settlement.\""
+          "why": "The text says such projects \"often struggle to convert short-term attention into durable economic opportunities\"."
+        },
+        {
+          "s": "Bolsena will host more of the 2028 events than Civita.",
+          "a": "N",
+          "why": "The text does not say how the events will be shared between the two places."
+        },
+        {
+          "s": "The writer suggests that Civita's problem is shared by other places, though few face it so sharply.",
+          "a": "T",
+          "why": "The text says the question \"is hardly unique to Civita, but few places in Italy pose it quite so starkly\"."
+        },
+        {
+          "s": "The writer says the programme will be judged mainly by the size of the 2028 crowds.",
+          "a": "F",
+          "why": "The text says its significance \"will depend on what survives it\", and that a crowded calendar will not secure a future."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "evocative",
+          "d": "making you remember or imagine a feeling or a place"
+        },
+        {
+          "t": "spectacle",
+          "d": "an impressive sight"
+        },
+        {
+          "t": "depopulation",
+          "d": "a fall in the number of people living in a place"
+        },
+        {
+          "t": "infrastructure",
+          "d": "the basic buildings and services a place needs"
+        },
+        {
+          "t": "heritage",
+          "d": "buildings and traditions passed down from the past"
+        },
+        {
+          "t": "picturesque",
+          "d": "attractive in a way that looks like a painting"
+        },
+        {
+          "t": "vulnerability",
+          "d": "the quality of being easy to harm or damage"
+        },
+        {
+          "t": "envisages",
+          "d": "imagines as a future possibility"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Particles change the meaning completely. Read the small word after the gap, then pick the verb that forms a phrasal verb with it. Some verbs split around an object.",
+        "items": [
+          {
+            "s": "The grant will help the museum ____ off closure for another year.",
+            "a": "stave"
+          },
+          {
+            "s": "Attendance tends to ____ out once the novelty of a festival fades.",
+            "a": "peter"
+          },
+          {
+            "s": "Without further funds, the council may have to ____ back the programme.",
+            "a": "scale"
+          },
+          {
+            "s": "Residents hope the new income will ____ the village over until spring.",
+            "a": "tide"
+          },
+          {
+            "s": "Organisers must ____ out the disagreements over who owns the new studios.",
+            "a": "iron"
+          }
+        ],
+        "extra": [
+          "wear",
+          "fall"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: how to spend the money",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "a neighbour who wants practical repairs",
+      "text": "Your small town has won 100,000 euros. You think the money should pay for a safer bridge and a better bus service. Explain why, and ask your neighbour two questions about their idea."
+    },
+    "b": {
+      "role": "a neighbour who wants an art festival",
+      "text": "Your small town has won 100,000 euros. You think the money should pay for an art festival that brings visitors and young people. Explain why, and ask your neighbour two questions about their idea."
+    },
+    "phrases": [
+      "I'd rather spend the money on something people can use.",
+      "That's a fair point, but it won't last.",
+      "What would happen if nobody came?",
+      "I'm not sure that's the best idea.",
+      "We're not going to agree on everything.",
+      "Could we split the money between both plans?"
+    ],
+    "after": "Afterwards, tell the class: how did you decide to spend the money, and was it a fair deal?"
   }
 }

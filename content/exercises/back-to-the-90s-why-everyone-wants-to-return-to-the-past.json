@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "____ jeans and 1990s bands are popular again.",
-            "a": "Baggy"
+            "s": "Many phones send ____ every few minutes, so people keep looking at the screen.",
+            "a": "notifications"
           },
           {
-            "s": "Most people did not ____ the internet in their pockets.",
-            "a": "carry around"
+            "s": "A museum can hold an ____ of paintings, photographs or clothes for a few months.",
+            "a": "exhibition"
           },
           {
-            "s": "Friends often ____ on a home telephone.",
-            "a": "made plans"
+            "s": "Most students in my class are the same age, so we belong to the same ____.",
+            "a": "generation"
           },
           {
-            "s": "They had to wait for the film to be developed to ____ how the pictures looked.",
-            "a": "find out"
+            "s": "Students often feel ____ to get high marks, especially before exams.",
+            "a": "pressure"
           },
           {
-            "s": "Going out meant ____ without constantly receiving messages.",
-            "a": "spending time together"
+            "s": "It is rude to look at your phone when a friend needs your full ____.",
+            "a": "attention"
           }
         ],
         "extra": [
-          "turn out",
-          "distracted"
+          "memory",
+          "decision"
         ]
       },
       "match": [
@@ -72,9 +72,9 @@
             "a": "listened"
           },
           {
-            "s": "We cannot ____ back in time, but we can choose how we use our phones.",
-            "cue": "go",
-            "a": "go"
+            "s": "Last year my cousin ____ an old film camera in a shop window.",
+            "cue": "see",
+            "a": "saw"
           }
         ]
       },
@@ -90,6 +90,11 @@
           "why": "The text says: \"In October 2026, Tate Britain in London opened an exhibition about art and fashion from the 1990s.\""
         },
         {
+          "s": "In the 1990s, most people had the internet in their pockets.",
+          "a": "F",
+          "why": "The text says: \"most people did not carry the internet around in their pockets.\""
+        },
+        {
           "s": "The 1990s had some serious problems.",
           "a": "T",
           "why": "The text says: \"The 1990s had problems too, including wars, discrimination and financial worries.\""
@@ -99,39 +104,103 @@
           "a": "N",
           "why": "Not stated. The text gives no sales figures for film cameras."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "teenager",
+          "d": "a young person between thirteen and nineteen years old"
+        },
+        {
+          "t": "attractive",
+          "d": "nice to look at or think about, so you want it"
+        },
+        {
+          "t": "constantly",
+          "d": "all the time, without stopping"
+        },
+        {
+          "t": "discover",
+          "d": "to find or learn something for the first time"
+        },
+        {
+          "t": "ordinary",
+          "d": "normal, not special"
+        },
+        {
+          "t": "discrimination",
+          "d": "treating some people worse than others because of who they are"
+        },
+        {
+          "t": "financial",
+          "d": "about money"
+        },
+        {
+          "t": "developed",
+          "d": "treated so that the pictures on a film can be seen"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word, like out or off. The two words together have a new meaning. Choose the verb that fits the small word.",
+        "items": [
+          {
+            "s": "I need to ____ out whether the exhibition is free.",
+            "a": "find"
+          },
+          {
+            "s": "My grandfather used to ____ around a small radio everywhere.",
+            "a": "carry"
+          },
+          {
+            "s": "Nobody can ____ back in time.",
+            "a": "go"
+          },
+          {
+            "s": "Some people ____ up social media for a month.",
+            "a": "give"
+          },
+          {
+            "s": "Please ____ off your phone before the film begins.",
+            "a": "switch"
+          }
+        ],
+        "extra": [
+          "hold",
+          "pull"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "It is tempting to ____ nostalgia, but that only goes so far.",
-            "a": "put the trend down to"
+            "s": "Free delivery makes the offer very ____.",
+            "a": "tempting"
           },
           {
-            "s": "Styles that once looked ____ eventually seem fresh again.",
-            "a": "old-fashioned"
+            "s": "After a twelve-hour shift, the long journey home was ____.",
+            "a": "exhausting"
           },
           {
-            "s": "Objects once replaced by newer inventions now seem ____ again.",
-            "a": "worth using"
+            "s": "Learning to play an instrument takes a great deal of ____.",
+            "a": "patience"
           },
           {
-            "s": "The pressure to ____ everyone else rarely gives us a moment's peace.",
-            "a": "keep up with"
+            "s": "Interest in vinyl records is part of a wider ____ of old technology.",
+            "a": "revival"
           },
           {
-            "s": "It is easy to ____ through rose-tinted glasses.",
-            "a": "look back"
+            "s": "The strike ____ thousands of passengers across the country.",
+            "a": "affected"
           },
           {
-            "s": "Without today's technology, ____ across countries could be expensive.",
-            "a": "keeping in touch"
+            "s": "Hearing that old song filled her with ____ for her school days.",
+            "a": "nostalgia"
           }
         ],
         "extra": [
-          "grow up",
-          "convenient"
+          "reliable",
+          "distraction"
         ]
       },
       "match": [
@@ -153,45 +222,45 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "Many people buying 90s clothes have no ____ memories of the period.",
-            "cue": "PERSON",
-            "a": "personal"
+            "s": "When she finally saw the photographs, she ____ where they were taken.",
+            "cue": "forget",
+            "a": "had forgotten"
           },
           {
-            "s": "To a generation raised online, that sounds like a form of ____.",
-            "cue": "PRIVATE",
-            "a": "privacy"
+            "s": "Film cameras ____ by a growing number of young photographers.",
+            "cue": "use",
+            "a": "are used|are being used"
           },
           {
-            "s": "A period that once seemed ____ is suddenly everywhere.",
-            "cue": "DISTANCE",
-            "a": "distant"
+            "s": "If people had to wait for their photographs, they ____ more carefully about each shot.",
+            "cue": "think",
+            "a": "would think"
           },
           {
-            "s": "Using an old camera requires a little more ____.",
-            "cue": "PATIENT",
-            "a": "patience"
+            "s": "She ____ her phone all morning, so she needs a break.",
+            "cue": "check",
+            "a": "has been checking|has checked"
           },
           {
-            "s": "Their appeal may say more about our ____ with modern habits.",
-            "cue": "SATISFY",
-            "a": "dissatisfaction"
+            "s": "Years ago, friends ____ meet at a fixed time because they could not send messages.",
+            "cue": "have to",
+            "a": "had to"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The 1990s were affected by serious problems such as the AIDS crisis.",
+          "s": "The text suggests that part of the 1990s appeal for young people is a sense of privacy.",
           "a": "T",
-          "why": "The text says: \"Wars, discrimination and the AIDS crisis affected millions of lives.\""
+          "why": "The text says that to a generation raised online, the decade \"sounds less like a limitation than a kind of privacy.\""
         },
         {
-          "s": "Not everyone who buys 90s clothes remembers the decade.",
-          "a": "T",
-          "why": "The text says: \"Plenty of the people buying 90s clothes or listening to Britpop have no personal memories of the period.\""
+          "s": "The writer believes nostalgia fully explains the trend.",
+          "a": "F",
+          "why": "The text says: \"It is tempting to put the trend down to nostalgia, but that only goes so far.\""
         },
         {
           "s": "CD sales have overtaken streaming among younger listeners.",
@@ -199,43 +268,112 @@
           "why": "Not stated. The text gives no sales figures for CDs or streaming."
         },
         {
-          "s": "The 1990s were a simpler world for everybody.",
+          "s": "According to the text, keeping in touch across countries was easier in the 1990s than it is now.",
           "a": "F",
-          "why": "The text says the opposite: \"The decade was not a simpler world for everyone.\""
+          "why": "The text says that without today's technology, keeping in touch \"could be expensive and difficult.\""
+        },
+        {
+          "s": "Parents and children can enjoy the same bands for different reasons.",
+          "a": "T",
+          "why": "The text says they \"may even find themselves enjoying the same bands, though perhaps for different reasons.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "imagine",
+          "d": "to make a picture of something in your mind"
+        },
+        {
+          "t": "constantly",
+          "d": "all the time, without stopping"
+        },
+        {
+          "t": "privacy",
+          "d": "the freedom to keep things to yourself, away from other people"
+        },
+        {
+          "t": "old-fashioned",
+          "d": "not modern any more"
+        },
+        {
+          "t": "distant",
+          "d": "far away in time or space"
+        },
+        {
+          "t": "dissatisfaction",
+          "d": "the unhappy feeling when something is not good enough"
+        },
+        {
+          "t": "discrimination",
+          "d": "unfair treatment of people because of who they are"
+        },
+        {
+          "t": "recorded",
+          "d": "saved on a camera, phone or other device so you can see or hear it later"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs have a fixed particle that you must learn with the verb. Some, like put down to, have two particles and a meaning you cannot guess.",
+        "items": [
+          {
+            "s": "The shop owner ____ the drop in sales down to bad weather.",
+            "a": "put"
+          },
+          {
+            "s": "I try to ____ in touch with school friends by calling every Sunday.",
+            "a": "keep"
+          },
+          {
+            "s": "When I ____ back, my school days seem much simpler.",
+            "a": "look"
+          },
+          {
+            "s": "The exhibition aims to ____ the past back to life.",
+            "a": "bring"
+          },
+          {
+            "s": "Styles like this often ____ on quickly with teenagers.",
+            "a": "catch"
+          }
+        ],
+        "extra": [
+          "pick",
+          "carry"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The decade has ____ a mythology as the last truly analogue period.",
-            "a": "taken on"
+            "s": "Years of conflict have taken a heavy ____ on the mental health of the town's residents.",
+            "a": "toll"
           },
           {
-            "s": "The imagined decade is ____ from clothing, photographs and stories.",
-            "a": "pieced together"
+            "s": "In a crowded online market, a person's attention has become a ____ that companies compete to buy.",
+            "a": "commodity"
           },
           {
-            "s": "The current interest in Britpop and ____ photography reacts against convenience.",
-            "a": "grainy"
+            "s": "The new evidence ____ the simple story that the company acted alone.",
+            "a": "complicates"
           },
           {
-            "s": "Enjoying an old camera does not require pretending the decade was ____.",
-            "a": "carefree"
+            "s": "Every nation builds a ____ around its past, in which heroes are bold and mistakes are quietly forgotten.",
+            "a": "mythology"
           },
           {
-            "s": "Fashion regularly ____ earlier periods, stripping familiar objects of their original associations.",
-            "a": "borrows from"
+            "s": "Beneath the polite conversation at the table, old ____ between the two families were easy to sense.",
+            "a": "tensions"
           },
           {
-            "s": "For younger people, the 1990s are ____ a remembered past as an imagined alternative.",
-            "a": "not so much"
+            "s": "Critics accuse the brand of ____ the festival of its original meaning by selling tickets as a luxury package.",
+            "a": "stripping"
           }
         ],
         "extra": [
-          "conceal",
-          "urgent"
+          "bias",
+          "hazard"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The decade contrasts with a present shaped by the expectation of permanent ____.",
+            "s": "The expectation of constant ____ means many workers answer messages at midnight.",
             "cue": "AVAILABLE",
             "a": "availability"
           },
           {
-            "s": "Revivals strip familiar objects of their original ____.",
+            "s": "Fashion revivals often erase the political ____ that objects once carried.",
             "cue": "ASSOCIATE",
             "a": "associations"
           },
           {
-            "s": "The 1990s brought memorable music, but also ____, discrimination and war.",
+            "s": "Campaigners argue that economic ____ is widening between the richest and poorest areas.",
             "cue": "EQUAL",
             "a": "inequality"
           },
           {
-            "s": "Artists explored questions of class, identity, race and ____.",
+            "s": "Critics complained about the poor ____ of women among the characters.",
             "cue": "REPRESENT",
             "a": "representation"
           },
           {
-            "s": "Some people feel ____ to change aspects of modern living.",
-            "cue": "POWER",
-            "a": "powerless"
+            "s": "Collectors pay far more for an object whose ____ can be proved.",
+            "cue": "AUTHENTIC",
+            "a": "authenticity"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Edward Enninful was the curator of Tate's 1990s exhibition.",
+          "s": "The writer presents the taste for old objects as partly a reaction to digital habits, not only as a fashion cycle.",
           "a": "T",
-          "why": "The text says: \"Tate's exhibition, curated by Edward Enninful, offers an opportunity to revisit the decade as a contested cultural moment rather than a collection of fashionable accessories.\""
+          "why": "The text says the interest \"combines that familiar cycle with a sharper reaction against digital convenience.\""
         },
         {
-          "s": "The writer argues the 1990s were genuinely more innocent than today.",
+          "s": "The writer expects an old camera to fix the way technology competes for our attention.",
           "a": "F",
-          "why": "The text says the opposite: \"Looking closely at their work complicates the idea that the period was simply more innocent or authentic.\""
+          "why": "The text says: \"Choosing an old camera will not solve that problem.\""
         },
         {
-          "s": "Attention has become something valuable because of digital technology.",
-          "a": "T",
-          "why": "The text says: \"Digital technology has delivered remarkable convenience, but it has also turned attention into a valuable commodity.\""
-        },
-        {
-          "s": "The exhibition sold out within a week of opening.",
+          "s": "Most of the people who buy film cameras are under twenty-five.",
           "a": "N",
-          "why": "Not stated. The text does not say how well the exhibition sold."
+          "why": "Not stated. The text gives no ages or figures for buyers."
+        },
+        {
+          "s": "Some of the issues debated today were already being explored in 1990s art.",
+          "a": "T",
+          "why": "The text says artists explored questions that \"remain urgent today\" and that some present-day tensions \"were already visible.\""
+        },
+        {
+          "s": "The exhibition treats the 1990s as a period of simple optimism.",
+          "a": "F",
+          "why": "The text says it revisits the decade \"as a contested cultural moment\" and complicates the idea of an innocent period."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "analogue",
+          "d": "using physical forms like film, tape and discs, not digital data"
+        },
+        {
+          "t": "oversized",
+          "d": "made larger than the usual size"
+        },
+        {
+          "t": "carefree",
+          "d": "without worries or responsibilities"
+        },
+        {
+          "t": "curated",
+          "d": "chosen and organised, especially for an exhibition"
+        },
+        {
+          "t": "urgent",
+          "d": "needing attention or action very soon"
+        },
+        {
+          "t": "algorithms",
+          "d": "sets of rules a computer follows, for example to choose what you see online"
+        },
+        {
+          "t": "revisit",
+          "d": "to look at or think about something again"
+        },
+        {
+          "t": "innocent",
+          "d": "without knowledge of harm or difficulty, naive"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "At this level, many phrasal verbs are figurative and fairly formal. Learn the whole chunk, such as shy away from or brush aside, rather than guessing from the verb.",
+        "items": [
+          {
+            "s": "Many brands ____ away from admitting that their 'vintage' range is simply reprinted.",
+            "a": "shy"
+          },
+          {
+            "s": "When pricing a retro console, sellers must ____ in the cost of restoring it.",
+            "a": "factor"
+          },
+          {
+            "s": "Many commentators ____ back to a golden age that never really existed.",
+            "a": "hark"
+          },
+          {
+            "s": "As streaming took over, shops began to ____ out CDs from their shelves.",
+            "a": "phase"
+          },
+          {
+            "s": "Fans tend to ____ aside the awkward parts of the decade they idealise.",
+            "a": "brush"
+          }
+        ],
+        "extra": [
+          "cling",
+          "chip"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a phone-free weekend",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend with the idea",
+      "text": "You want a phone-free weekend with your friend. You would use a film camera, play CDs and make plans on paper. Explain why you think it will be relaxing, and answer your friend's worries."
+    },
+    "b": {
+      "role": "the friend with doubts",
+      "text": "You like the idea a little, but you need your phone for work messages and for getting around. Ask questions, say what worries you, and try to agree a plan that you both like."
+    },
+    "phrases": [
+      "I'd love to try a weekend without my phone.",
+      "It'd be nice to talk without any notifications.",
+      "But what if my boss needs to reach me?",
+      "We could check our messages once a day.",
+      "I'm not sure that's a good idea.",
+      "Let's give it a go and see what happens."
+    ],
+    "after": "Afterwards, tell the class: did you agree a plan, and would you really do it?"
   }
 }

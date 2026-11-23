@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "He worried that customers might ____, but instead they began turning up.",
-            "a": "stay away"
+            "s": "It is ____ to carry water when you walk in hot weather.",
+            "a": "sensible"
           },
           {
-            "s": "Social media has helped ____ about the new shop.",
-            "a": "spread the word"
+            "s": "A hot bowl of soup can be very ____ on a cold, rainy evening.",
+            "a": "comforting"
           },
           {
-            "s": "For years, many people tried to ____ butter because of saturated fat.",
-            "a": "cut down on"
+            "s": "A shop that sells only butter is ____, because most shops sell many things.",
+            "a": "unusual"
           },
           {
-            "s": "Good butter can be ____, rich and slightly salty.",
-            "a": "creamy"
+            "s": "The song was ____ to me because I had heard it many times.",
+            "a": "familiar"
           },
           {
-            "s": "The sensible approach is to enjoy good butter without ____.",
-            "a": "going overboard"
+            "s": "It was just an ____ Tuesday, so nothing special happened.",
+            "a": "ordinary"
           }
         ],
         "extra": [
-          "turn up",
-          "appetising"
+          "colourful",
+          "uncertain"
         ]
       },
       "match": [
@@ -98,40 +98,109 @@
           "s": "The shop plans to open branches in other countries.",
           "a": "N",
           "why": "Not stated. The text does not say whether the shop will open more branches."
+        },
+        {
+          "s": "Butter has always been loved as much as it is today.",
+          "a": "F",
+          "why": "The text says: \"Butter was not always treated with this much love.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "struggle",
+          "d": "to find something hard to do"
+        },
+        {
+          "t": "varieties",
+          "d": "different kinds of the same thing"
+        },
+        {
+          "t": "compare",
+          "d": "look at two things to see how they are the same or different"
+        },
+        {
+          "t": "alternatives",
+          "d": "other things you can choose instead"
+        },
+        {
+          "t": "trend",
+          "d": "something that many people start to like at the same time"
+        },
+        {
+          "t": "luxury",
+          "d": "something very nice that you do not really need"
+        },
+        {
+          "t": "tourists",
+          "d": "people who visit a place for a holiday"
+        },
+        {
+          "t": "waste",
+          "d": "things you throw away because you do not use them"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Linking words join ideas. Ask yourself: is the second idea a result, a reason, a contrast or something at the same time?",
+        "items": [
+          {
+            "s": "I wanted a hot drink, ____ I made some tea.",
+            "a": "so"
+          },
+          {
+            "s": "____ of cheese, we bought butter.",
+            "a": "Instead"
+          },
+          {
+            "s": "The shop closed early ____ the heat was too strong.",
+            "a": "because"
+          },
+          {
+            "s": "The butter is expensive. ____, many people still buy it.",
+            "a": "However"
+          },
+          {
+            "s": "Please wait outside ____ I find us a table.",
+            "a": "while"
+          }
+        ],
+        "extra": [
+          "unless",
+          "although"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "He was unsure whether enough customers would ____.",
-            "a": "turn up"
+            "s": "She wanted to study at a ____ university with a famous name.",
+            "a": "prestigious"
           },
           {
-            "s": "The humble ingredient had become a destination ____.",
-            "a": "in its own right"
+            "s": "The cake was covered in ____ decorations that took hours to make.",
+            "a": "elaborate"
           },
           {
-            "s": "Butter spent decades struggling with an ____ reputation.",
-            "a": "unfashionable"
+            "s": "Online sharing often ____ a small problem until everyone is talking about it.",
+            "a": "amplifies"
           },
           {
-            "s": "Health advice encouraged many households to ____ and switch spreads.",
-            "a": "cut back"
+            "s": "Spending a fortune on one dinner seems ____ when money is tight.",
+            "a": "extravagant"
           },
           {
-            "s": "Bread and butter is now a highlight rather than an ____.",
-            "a": "afterthought"
+            "s": "Last summer's ____ for brightly coloured trainers was over within a year.",
+            "a": "craze"
           },
           {
-            "s": "When larger luxuries feel ____, people look for smaller pleasures.",
-            "a": "out of reach"
+            "s": "Although he became famous, he stayed ____ and still lived in his small village.",
+            "a": "humble"
           }
         ],
         "extra": [
-          "die down",
-          "irresistible"
+          "reluctant",
+          "overcrowded"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The product needs careful ____ in hot weather.",
-            "cue": "REFRIGERATE",
-            "a": "refrigeration"
+            "s": "By the time the doors opened, a long queue ____ outside.",
+            "cue": "form",
+            "a": "had formed"
           },
           {
-            "s": "Some people pretend that the ____ concerns about butter have vanished.",
-            "cue": "NUTRITION",
-            "a": "nutritional"
+            "s": "Butter ____ in a cool place.",
+            "cue": "keep",
+            "a": "should be kept"
           },
           {
-            "s": "Chefs shape the butter into ____ pieces for the table.",
-            "cue": "DECORATE",
-            "a": "decorative"
+            "s": "She ____ a thick layer of butter on the bread when the phone rang.",
+            "cue": "spread",
+            "a": "was spreading"
           },
           {
-            "s": "There may also be an ____ explanation for the trend.",
-            "cue": "ECONOMY",
-            "a": "economic"
+            "s": "Our local bakery ____ very popular since it started selling cheese.",
+            "cue": "become",
+            "a": "has become"
           },
           {
-            "s": "Some chefs question whether the displays are about ____ rather than food.",
-            "cue": "ATTEND",
-            "a": "attention"
+            "s": "The bread and butter ____ at the restaurant last night.",
+            "cue": "serve",
+            "a": "was served|were served"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "Some chefs think the butter displays are mainly about getting attention.",
           "a": "T",
           "why": "The text says: \"Some chefs question whether extravagant butter displays are more about getting attention than enjoying food.\""
+        },
+        {
+          "s": "The report proves that people buy luxury butter because money is tight.",
+          "a": "F",
+          "why": "The text calls this \"interpretation rather than something the report proves\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "nervous",
+          "d": "a little afraid or worried about something"
+        },
+        {
+          "t": "devoted",
+          "d": "made for one purpose only, or giving all your time to it"
+        },
+        {
+          "t": "queue",
+          "d": "a line of people waiting for something"
+        },
+        {
+          "t": "enthusiasts",
+          "d": "people who are very interested in something"
+        },
+        {
+          "t": "texture",
+          "d": "how something feels, for example smooth or rough"
+        },
+        {
+          "t": "striking",
+          "d": "very surprising or easy to notice"
+        },
+        {
+          "t": "tension",
+          "d": "a feeling of conflict between two ideas or sides"
+        },
+        {
+          "t": "craftsmanship",
+          "d": "great skill in making things by hand"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Check what comes next. Words like despite need a noun, words like whereas need a full clause, and some join two sentences.",
+        "items": [
+          {
+            "s": "____ the rain, hundreds of people queued for the new bakery.",
+            "a": "Despite"
+          },
+          {
+            "s": "You should book a table; ____, you may have to wait for hours.",
+            "a": "otherwise"
+          },
+          {
+            "s": "My sister loves strong cheese, ____ I prefer mild varieties.",
+            "a": "whereas"
+          },
+          {
+            "s": "The recipe was simple. ____, the result tasted wonderful.",
+            "a": "Nevertheless"
+          },
+          {
+            "s": "Stores usually will not refund food ____ it arrives damaged.",
+            "a": "unless"
+          }
+        ],
+        "extra": [
+          "provided",
+          "meanwhile"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Opening a butter shop in that heat looked like an ____ commercial gamble.",
-            "a": "eccentric"
+            "s": "The evidence is too thin to ____ a full investigation.",
+            "a": "warrant"
           },
           {
-            "s": "A substance that had been a ____ kitchen essential became a souvenir.",
-            "a": "mundane"
+            "s": "The ____ of the family restaurant refused to sell it, whatever the offer.",
+            "a": "proprietor"
           },
           {
-            "s": "Its ____ is remarkable given the ingredient's recent history.",
+            "s": "After years of disgrace, the architect's ____ began when a major museum put his work on display.",
             "a": "rehabilitation"
           },
           {
-            "s": "Part of the appeal lies in what might be called ____.",
-            "a": "affordable indulgence"
+            "s": "A house in the city centre is no longer ____ for most young people on average wages.",
+            "a": "attainable"
           },
           {
-            "s": "Social media helps such small pleasures ____.",
-            "a": "catch on"
+            "s": "The film trades on ____ for a simpler past.",
+            "a": "nostalgia"
           },
           {
-            "s": "What is new is that a once-unremarkable ingredient is being ____ for admiration.",
-            "a": "singled out"
+            "s": "The region is a magnet for ____ tourism, with food trails and tasting menus.",
+            "a": "gastronomic"
           }
         ],
         "extra": [
-          "theatrical",
-          "attainable"
+          "connoisseur",
+          "affluence"
         ]
       },
       "match": [
@@ -260,27 +398,27 @@
         "kind": "word",
         "items": [
           {
-            "s": "Add crusty bread and a quiet evening, and an everyday meal can feel ____ luxurious.",
-            "cue": "EXPECT",
-            "a": "unexpectedly"
+            "s": "The company's ____ to adapt cost it dearly.",
+            "cue": "WILLING",
+            "a": "unwillingness"
           },
           {
-            "s": "A mundane essential was transformed into a ____ souvenir.",
-            "cue": "DESIRE",
-            "a": "desirable"
-          },
-          {
-            "s": "Chefs have long valued butter for its richness and ____.",
-            "cue": "VERSATILE",
-            "a": "versatility"
-          },
-          {
-            "s": "Restaurants that pride themselves on ____ may struggle to justify the waste.",
+            "s": "Critics questioned the ____ of building yet another stadium.",
             "cue": "SUSTAIN",
             "a": "sustainability"
           },
           {
-            "s": "Trends encourage us to confuse ____ and packaging with lasting value.",
+            "s": "Her ____ approach to money meant she saved little and spent on a whim.",
+            "cue": "IMPULSE",
+            "a": "impulsive"
+          },
+          {
+            "s": "The ____ that the firm had hidden its losses was firmly denied.",
+            "cue": "ALLEGE",
+            "a": "allegation"
+          },
+          {
+            "s": "The ____ of fresh herbs in winter forces chefs to plan ahead.",
             "cue": "SCARCE",
             "a": "scarcity"
           }
@@ -288,26 +426,116 @@
       },
       "tfn": [
         {
-          "s": "The shop in Paris offers around fifty kinds of butter.",
+          "s": "The writer suggests that butter's return owes more to food culture than to any change in nutritional guidance.",
           "a": "T",
-          "why": "The text says: \"The Paris boutique stocks roughly fifty varieties, while a celebrated food hall elsewhere in the city offers an even more extensive selection.\""
+          "why": "The text says the enthusiasm \"does not erase those concerns\" but highlights \"the difference between nutritional guidance and food culture\"."
         },
         {
-          "s": "Butter producers have raised their prices because of the trend.",
+          "s": "Most of the customers at Le Butter are tourists.",
           "a": "N",
-          "why": "Not stated. The text does not say whether producers have raised prices."
+          "why": "Not stated. The text mentions tourists stocking up but gives no breakdown of customers."
         },
         {
-          "s": "The writer argues that unlimited butter consumption is now considered harmless.",
+          "s": "The writer treats packaging as irrelevant to the appeal of small luxuries.",
           "a": "F",
-          "why": "The text says the opposite: \"The claim that something is traditional, artisanal or beautifully presented should not be mistaken for scientific evidence that unlimited consumption is harmless.\""
+          "why": "The text says social media helps small pleasures catch on \"when producers package them with the visual care\" of jewellery or cosmetics."
         },
         {
-          "s": "A Guardian journalist wrote about the trend in October 2026.",
+          "s": "Butter's unhealthy reputation in recent decades came from nutritional concerns, not from chefs disliking it.",
           "a": "T",
-          "why": "The text says: \"Reporting for the Guardian in October 2026, Morwenna Ferrier described tourists stocking up, restaurants presenting elaborate butter dishes and fashionable events using the ingredient as decoration.\""
+          "why": "The text says saturated fat gave butter an unhealthy reputation, while \"Chefs have long valued butter\"."
+        },
+        {
+          "s": "Butter sales in Paris have doubled since the shop opened.",
+          "a": "N",
+          "why": "Not stated. The text gives no sales figures."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "eccentric",
+          "d": "strange in a way that is unusual or a little funny"
+        },
+        {
+          "t": "celebrated",
+          "d": "famous and admired by many people"
+        },
+        {
+          "t": "versatility",
+          "d": "the ability to be used in many different ways"
+        },
+        {
+          "t": "peculiar",
+          "d": "strange or unusual, often in an unexpected way"
+        },
+        {
+          "t": "extravagant",
+          "d": "costing or using much more than is needed"
+        },
+        {
+          "t": "edible",
+          "d": "safe and good to eat"
+        },
+        {
+          "t": "contradictions",
+          "d": "facts or ideas that do not fit together"
+        },
+        {
+          "t": "marketable",
+          "d": "easy to sell because people want it"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "At this level, notice register and grammar. Notwithstanding takes a noun, albeit takes an adjective or phrase, and hence follows a semicolon.",
+        "items": [
+          {
+            "s": "____ the high prices, the shop was packed every weekend.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "The recipe was tasty, ____ rather rich.",
+            "a": "albeit"
+          },
+          {
+            "s": "Critics call the dish overpriced, ____ its fans insist it is worth every penny.",
+            "a": "whereas"
+          },
+          {
+            "s": "The festival was meant to be small; ____, it drew crowds in the thousands.",
+            "a": "nonetheless"
+          },
+          {
+            "s": "Demand far exceeded supply; ____, prices climbed sharply.",
+            "a": "hence"
+          }
+        ],
+        "extra": [
+          "thereby",
+          "namely"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a trip to the butter shop",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the food fan",
+      "text": "You've seen a shop that sells fifty kinds of butter. You want to spend Saturday morning there. Persuade your friend to come. Say why it's worth a trip."
+    },
+    "b": {
+      "role": "the sensible friend",
+      "text": "You think queuing for butter is silly. You'd rather save money and cook at home. Ask questions, then agree on a plan you both like."
+    },
+    "phrases": [
+      "Have you seen this shop?",
+      "I'd love to go on Saturday.",
+      "Is it really worth queuing for?",
+      "I'd rather save my money, to be honest.",
+      "We could go early, so there won't be a queue.",
+      "Let's meet in the middle: shop first, then lunch at home."
+    ],
+    "after": "Afterwards, tell the class: where did you decide to go, and who gave way?"
   }
 }

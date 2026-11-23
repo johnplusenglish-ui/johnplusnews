@@ -1,305 +1,541 @@
 {
- "slug": "is-instagram-choosing-our-holidays",
- "levels": {
-  "core": {
-   "gap": {
-    "items": [
-     {
-      "s": "said they had booked a trip or an activity after seeing a post or video that had gone ____.",
-      "a": "viral"
-     },
-     {
-      "s": "For people in Generation Z, TikTok was the most common ____ of travel ideas",
-      "a": "source"
-     },
-     {
-      "s": "And 18% said that being ____ with photos was a reason not to travel with someone.",
-      "a": "obsessed"
-     },
-     {
-      "s": "It asked 2,082 ____ in Britain where they had found their holiday ideas in the past year.",
-      "a": "adults"
-     },
-     {
-      "s": "More people are booking through a travel ____ too, up to 38%, mostly because it is easier and saves time.",
-      "a": "agent"
-     }
-    ],
-    "extra": [
-     "guidebooks",
-     "research"
-    ]
-   },
-   "match": [
-    {
-     "t": "association",
-     "d": "an organisation representing a group of members"
+  "slug": "is-instagram-choosing-our-holidays",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Looking at maps before a trip gives many people real ____, and they smile as they plan.",
+            "a": "pleasure"
+          },
+          {
+            "s": "A small restaurant cannot stay open without enough ____ who pay for their meals.",
+            "a": "customers"
+          },
+          {
+            "s": "The biggest ____ of travelling with small children is keeping them busy on long journeys.",
+            "a": "difficulty"
+          },
+          {
+            "s": "Some people think tourists are the ____ of a quiet village, but others say they bring money.",
+            "a": "enemy"
+          },
+          {
+            "s": "We left the viewpoint early because the ____ of people made it impossible to see anything.",
+            "a": "crowd"
+          }
+        ],
+        "extra": [
+          "luggage",
+          "souvenirs"
+        ]
+      },
+      "match": [
+        {
+          "t": "association",
+          "d": "an organisation representing a group of members"
+        },
+        {
+          "t": "guidebooks",
+          "d": "books with information for travellers"
+        },
+        {
+          "t": "survey",
+          "d": "a set of questions asked to many people"
+        },
+        {
+          "t": "recommendations",
+          "d": "suggestions that something is good"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Last summer we ____ to a small beach that we saw in a video.",
+            "cue": "go",
+            "a": "went"
+          },
+          {
+            "s": "A friend ____ me a video of a town in Italy yesterday.",
+            "cue": "send",
+            "a": "sent"
+          },
+          {
+            "s": "He ____ a lovely view and stopped to take a photo.",
+            "cue": "see",
+            "a": "saw"
+          },
+          {
+            "s": "Before the video, we ____ anything about that beach.",
+            "cue": "not know",
+            "a": "did not know|didn't know"
+          },
+          {
+            "s": "After the long queue, everyone ____ tired and hungry.",
+            "cue": "feel",
+            "a": "felt"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "In the video, the sand on the beach looks almost empty.",
+          "a": "T",
+          "why": "The text says: \"the sand is almost empty\"."
+        },
+        {
+          "s": "When the traveller arrives at the beach, nobody else is there.",
+          "a": "F",
+          "why": "The text says there is \"a line of about twenty people\" waiting."
+        },
+        {
+          "s": "The traveller takes a photo on the beach.",
+          "a": "N",
+          "why": "The text does not say whether the traveller takes a photo."
+        },
+        {
+          "s": "In the survey, nearly four in ten travellers had visited a place mainly to take a photo or video.",
+          "a": "T",
+          "why": "The text says: \"nearly four in ten had visited a place mainly in order to take a photo or a video\"."
+        },
+        {
+          "s": "The writer says photographs are bad for every holiday.",
+          "a": "F",
+          "why": "The text says: \"None of this makes photographs the enemy\"."
+        }
+      ],
+      "pre": [
+        {
+          "t": "imagine",
+          "d": "to make a picture of something in your head"
+        },
+        {
+          "t": "empty",
+          "d": "with nothing or nobody in it"
+        },
+        {
+          "t": "recognise",
+          "d": "to know something because you have seen it before"
+        },
+        {
+          "t": "mainly",
+          "d": "for the most part"
+        },
+        {
+          "t": "view",
+          "d": "what you can see from a place"
+        },
+        {
+          "t": "welcome",
+          "d": "to be happy to see someone arrive"
+        },
+        {
+          "t": "worry",
+          "d": "to feel afraid that something bad will happen"
+        },
+        {
+          "t": "traffic",
+          "d": "the cars and buses on a road"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some words always go with one small word. Learn them as a pair: afraid of, depend on, interested in.",
+        "items": [
+          {
+            "s": "Many travellers are afraid ____ missing the best view.",
+            "a": "of"
+          },
+          {
+            "s": "Choosing a hotel often depends ____ the price and the view.",
+            "a": "on"
+          },
+          {
+            "s": "I'm terrible ____ taking photos in the dark.",
+            "a": "at"
+          },
+          {
+            "s": "She is interested ____ villages that tourists don't know.",
+            "a": "in"
+          },
+          {
+            "s": "The village is famous ____ its beautiful old bridge.",
+            "a": "for"
+          }
+        ],
+        "extra": [
+          "to",
+          "from"
+        ]
+      }
     },
-    {
-     "t": "guidebooks",
-     "d": "books with information for travellers"
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Several ____ complained that the new viewpoint had made their quiet street impossible to walk along.",
+            "a": "residents"
+          },
+          {
+            "s": "Cropping a photo to hide a crowd is not necessarily ____; most photographers simply choose the best part of the scene.",
+            "a": "dishonesty"
+          },
+          {
+            "s": "Photos are often shown to friends as ____ that a trip really happened.",
+            "a": "evidence"
+          },
+          {
+            "s": "The ____ of social media on where people choose to travel is hard to measure exactly.",
+            "a": "influence"
+          },
+          {
+            "s": "Taking twenty photos of the same plate is quite normal ____ these days, and nobody finds it strange.",
+            "a": "behaviour"
+          },
+          {
+            "s": "Booking the flight made the ____ of seeing the island feel real for the first time.",
+            "a": "possibility"
+          }
+        ],
+        "extra": [
+          "reputation",
+          "capacity"
+        ]
+      },
+      "match": [
+        {
+          "t": "sober",
+          "d": "serious and not exaggerated"
+        },
+        {
+          "t": "nationally representative",
+          "d": "chosen to reflect the whole country"
+        },
+        {
+          "t": "prompted",
+          "d": "caused someone to do something"
+        },
+        {
+          "t": "crowding",
+          "d": "too many people in one place"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "By the time we reached the viewpoint, the sun ____ already.",
+            "cue": "set",
+            "a": "had set"
+          },
+          {
+            "s": "The street ____ so often that everyone recognises it.",
+            "cue": "photograph",
+            "a": "has been photographed"
+          },
+          {
+            "s": "If we ____ about the crowds, we would have chosen another beach.",
+            "cue": "know",
+            "a": "had known"
+          },
+          {
+            "s": "You ____ to hurry; the viewpoint stays open until midnight.",
+            "cue": "not need",
+            "a": "don't need|do not need"
+          },
+          {
+            "s": "If the crowds keep growing, the town ____ a limit on visitors.",
+            "cue": "introduce",
+            "a": "will introduce|is going to introduce"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Fewer than half of the travellers surveyed said they had visited a tourist site mainly to take a photo or video.",
+          "a": "T",
+          "why": "The text gives the figure as 39%, which is under half."
+        },
+        {
+          "s": "The writer says taking photographs of a holiday stops people enjoying it.",
+          "a": "F",
+          "why": "The text says: \"Nor is photographing a holiday the opposite of enjoying it\"."
+        },
+        {
+          "s": "Most of the travellers in the survey were under thirty.",
+          "a": "N",
+          "why": "The text does not give the ages of the travellers."
+        },
+        {
+          "s": "The text says a café can end up serving visitors from countries its owner has never been to.",
+          "a": "T",
+          "why": "The text says a popular video can bring \"visitors from countries its owner has never been to\"."
+        },
+        {
+          "s": "The text says all residents agree that a busy summer is a problem.",
+          "a": "F",
+          "why": "The text says: \"Residents are not one group with one opinion\"."
+        }
+      ],
+      "pre": [
+        {
+          "t": "desirable",
+          "d": "something you want to have or visit"
+        },
+        {
+          "t": "genuinely",
+          "d": "in a real way, not pretending"
+        },
+        {
+          "t": "commissioned",
+          "d": "asked and paid someone to do a piece of work"
+        },
+        {
+          "t": "respondents",
+          "d": "people who answer a set of questions"
+        },
+        {
+          "t": "selective",
+          "d": "choosing only some things and leaving others out"
+        },
+        {
+          "t": "outrank",
+          "d": "to be more important than something else"
+        },
+        {
+          "t": "extraordinary",
+          "d": "very unusual and impressive"
+        },
+        {
+          "t": "invented",
+          "d": "made up, not real"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many verbs need a fixed preposition after them: object to, benefit from, rely on. Learn the verb and the preposition together.",
+        "items": [
+          {
+            "s": "Many locals object ____ crowds blocking their streets.",
+            "a": "to"
+          },
+          {
+            "s": "Small businesses often benefit ____ a sudden rise in visitors.",
+            "a": "from"
+          },
+          {
+            "s": "Residents protested ____ the closure of their local bakery to make room for a souvenir shop.",
+            "a": "against"
+          },
+          {
+            "s": "Travel writers are sometimes blamed ____ spoiling quiet villages.",
+            "a": "for"
+          },
+          {
+            "s": "Many visitors rely ____ their phones to find the way.",
+            "a": "on"
+          }
+        ],
+        "extra": [
+          "with",
+          "of"
+        ]
+      }
     },
-    {
-     "t": "survey",
-     "d": "a set of questions asked to many people"
-    },
-    {
-     "t": "recommendations",
-     "d": "suggestions that something is good"
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Editing out the crowd is hardly ____ when every viewer knows that a photograph shows only part of a scene.",
+            "a": "deception"
+          },
+          {
+            "s": "The group's ____ was so packed with famous viewpoints that nobody had a free afternoon.",
+            "a": "itinerary"
+          },
+          {
+            "s": "Without the festival, many family restaurants would have struggled to attract enough ____ in winter.",
+            "a": "custom"
+          },
+          {
+            "s": "There was a noticeable ____ between those who wanted to linger and those who wanted to keep moving.",
+            "a": "tension"
+          },
+          {
+            "s": "The ____ for an undiscovered village often ends with a crowd arriving in the same lanes.",
+            "a": "hunt"
+          },
+          {
+            "s": "Short videos have an astonishing ____, travelling far beyond the audience of the person who posted them.",
+            "a": "reach"
+          }
+        ],
+        "extra": [
+          "backlash",
+          "novelty"
+        ]
+      },
+      "match": [
+        {
+          "t": "arbiter",
+          "d": "someone or something that settles a decision"
+        },
+        {
+          "t": "amplifier",
+          "d": "something that makes an effect stronger"
+        },
+        {
+          "t": "instructive",
+          "d": "useful because it teaches you something"
+        },
+        {
+          "t": "overcrowding",
+          "d": "the problem of too many people in a place"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Her ____ on waiting for perfect light tested the whole group's patience.",
+            "cue": "INSIST",
+            "a": "insistence"
+          },
+          {
+            "s": "The idea that a place can stay secret for ever is simply ____ once a video has been posted.",
+            "cue": "REALISTIC",
+            "a": "unrealistic"
+          },
+          {
+            "s": "Local shopkeepers have mixed feelings about the sudden ____ of their street.",
+            "cue": "POPULAR",
+            "a": "popularity"
+          },
+          {
+            "s": "Viewers tend to ____ how peaceful a place will be when they have only seen it in a photograph.",
+            "cue": "ESTIMATE",
+            "a": "overestimate"
+          },
+          {
+            "s": "It is ____ to arrive early if you want a clear view of the footbridge.",
+            "cue": "ADVISE",
+            "a": "advisable"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The writer is cautious about how much the 39% survey result proves.",
+          "a": "T",
+          "why": "The text calls it \"one industry survey reporting what people say about themselves, not proof\"."
+        },
+        {
+          "s": "The writer thinks the disagreement over the sunset is best settled by deciding which traveller is right.",
+          "a": "F",
+          "why": "The text says: \"Neither is wrong\"."
+        },
+        {
+          "s": "The writer believes social media will eventually reduce the number of people who travel.",
+          "a": "N",
+          "why": "The text makes no prediction about how many people will travel."
+        },
+        {
+          "s": "The text suggests that a popular post can be good news for one person and bad news for another on the same street.",
+          "a": "T",
+          "why": "The post can bring \"badly needed custom\" to a restaurant yet leave a neighbour \"trying to park\"."
+        },
+        {
+          "s": "The writer recommends searching for an undiscovered place as a way of avoiding crowds.",
+          "a": "F",
+          "why": "The text says that hunt \"is what empties the quiet places\"."
+        }
+      ],
+      "pre": [
+        {
+          "t": "persuasive",
+          "d": "good at making you want to do something"
+        },
+        {
+          "t": "encountered",
+          "d": "met or found, often by chance"
+        },
+        {
+          "t": "excludes",
+          "d": "leaves out"
+        },
+        {
+          "t": "decorate",
+          "d": "to make something look nicer"
+        },
+        {
+          "t": "outlast",
+          "d": "to continue for longer than something else"
+        },
+        {
+          "t": "concentrate",
+          "d": "to bring many people or things into one place"
+        },
+        {
+          "t": "rewards",
+          "d": "gives something good to"
+        },
+        {
+          "t": "arranged",
+          "d": "put in a certain position"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At C1, adjectives often take a fixed preposition that is hard to guess: tantamount to, fraught with, contingent on. Treat each pair as one unit.",
+        "items": [
+          {
+            "s": "Choosing a destination only because it is popular online is tantamount ____ letting a stranger plan your holiday.",
+            "a": "to"
+          },
+          {
+            "s": "The journey proved fraught ____ small frustrations, from cancelled trains to a closed viewpoint.",
+            "a": "with"
+          },
+          {
+            "s": "Whether a village copes with sudden fame is contingent ____ how far its residents are consulted.",
+            "a": "on"
+          },
+          {
+            "s": "A harbour bereft ____ its fishing boats may look tidy in photographs but loses part of its character.",
+            "a": "of"
+          },
+          {
+            "s": "The long climb culminated ____ a breathtaking view of the harbour.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "by",
+          "at"
+        ]
+      }
     }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Think about the last holiday you ____.",
-      "cue": "choose",
-      "a": "chose"
-     },
-     {
-      "s": "Two travel organisations ____ research on exactly that question",
-      "cue": "publish",
-      "a": "have published"
-     },
-     {
-      "s": "It ____ travellers in Spain, Italy and the UK about social media.",
-      "cue": "ask",
-      "a": "asked"
-     },
-     {
-      "s": "that figure ____ to 45% among Gen Z.",
-      "cue": "rise",
-      "a": "rose"
-     },
-     {
-      "s": "More people ____ artificial intelligence for holiday ideas",
-      "cue": "ask",
-      "a": "are asking"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Nearly four in ten people said they had visited a tourist site mainly to take a photo or video.",
-     "a": "T",
-     "why": "The text says: “Nearly four in ten, 39%, said they had visited a tourist site mainly in order to take a photo or record a video.”"
-    },
-    {
-     "s": "In the ABTA survey, social media was the most common source of holiday ideas.",
-     "a": "F",
-     "why": "The text says the opposite: “Recommendations from family and friends came first, at 42%”."
-    },
-    {
-     "s": "The two surveys asked different questions in different countries.",
-     "a": "T",
-     "why": "The text says: “The two surveys asked different questions, in different countries, at different times”."
-    },
-    {
-     "s": "Most people regret the photos they take on holiday.",
-     "a": "N",
-     "why": "Not stated. The text reports how often people take photos, not how they feel about them afterwards."
-    }
-   ]
   },
-  "intermediate": {
-   "gap": {
-    "items": [
-     {
-      "s": "The first, published in August by the tours and activities company TUI Musement, makes the influence look ____.",
-      "a": "overwhelming"
-     },
-     {
-      "s": "The second, ABTA's Holiday Habits report published in October, is more ____.",
-      "a": "sober"
-     },
-     {
-      "s": "then travel websites and ____ at 35%.",
-      "a": "guidebooks"
-     },
-     {
-      "s": "Read together, they suggest a reasonable ____ of labour.",
-      "a": "division"
-     },
-     {
-      "s": "and 18% considered an obsession with photographs a red ____ in a travel companion.",
-      "a": "flag"
-     }
+  "speak": {
+    "title": "Role-play: one famous beach or a quiet day",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend with the video",
+      "text": "You saw a video of a beautiful beach and you saved it. You want to spend the whole day there and take photos. Explain why it matters to you, and listen to your friend's worries."
+    },
+    "b": {
+      "role": "the friend who wants a quiet day",
+      "text": "You've heard the beach will be packed. You'd prefer a slow lunch somewhere nobody told you about. Say what worries you, then suggest a plan you can both accept."
+    },
+    "phrases": [
+      "I'd love to see that beach from the video.",
+      "It's going to be packed, though.",
+      "We don't have to take a hundred photos.",
+      "How about half a day there and half somewhere quiet?",
+      "That's fair, I'm happy to compromise.",
+      "What matters most to you on this trip?"
     ],
-    "extra": [
-     "representative",
-     "crowding"
-    ]
-   },
-   "match": [
-    {
-     "t": "sober",
-     "d": "serious and not exaggerated"
-    },
-    {
-     "t": "nationally representative",
-     "d": "chosen to reflect the whole country"
-    },
-    {
-     "t": "prompted",
-     "d": "caused someone to do something"
-    },
-    {
-     "t": "crowding",
-     "d": "too many people in one place"
-    }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Ask how much social media shapes modern travel and you ____ two very different answers",
-      "cue": "can get",
-      "a": "can get"
-     },
-     {
-      "s": "Another 43% said they ____ travel influencers when deciding where to go",
-      "cue": "follow",
-      "a": "follow"
-     },
-     {
-      "s": "The use of AI for inspiration ____ quickly, from 4% two years ago to 8% last year and 14% now",
-      "cue": "climb",
-      "a": "has climbed"
-     },
-     {
-      "s": "Both findings ____ true, because the two studies are not measuring the same thing.",
-      "cue": "can be",
-      "a": "can be"
-     },
-     {
-      "s": "ABTA found bookings through a travel professional ____ to 38%",
-      "cue": "rise",
-      "a": "rose"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The two studies surveyed people in different countries.",
-     "a": "T",
-     "why": "The text says: “TUI Musement surveyed travellers in Spain, Italy and the UK through the research firm Appinio”."
-    },
-    {
-     "s": "Bookings through travel professionals have fallen.",
-     "a": "F",
-     "why": "The text says the opposite: “ABTA found bookings through a travel professional rose to 38%”."
-    },
-    {
-     "s": "In the ABTA data, AI is now roughly level with social media as a source of inspiration.",
-     "a": "T",
-     "why": "The text says social media came in at 24%, “roughly level with artificial intelligence tools and AI search summaries combined”."
-    },
-    {
-     "s": "Travel companies have changed their advertising because of these findings.",
-     "a": "N",
-     "why": "Not stated. The text reports the survey results but not how companies responded."
-    }
-   ]
-  },
-  "advanced": {
-   "gap": {
-    "items": [
-     {
-      "s": "which makes them a useful lesson in reading ____ at all.",
-      "a": "research"
-     },
-     {
-      "s": "The commissioning ____ differ, one being a company that sells experiences and the other a trade association representing agents and tour operators.",
-      "a": "interests"
-     },
-     {
-      "s": "The contradiction mostly ____ on inspection, and the reasons are instructive.",
-      "a": "dissolves"
-     },
-     {
-      "s": "Social media is weak as an ____ and strong as an amplifier.",
-      "a": "arbiter"
-     },
-     {
-      "s": "something else is ____ the performance once you get there.",
-      "a": "supervising"
-     }
-    ],
-    "extra": [
-     "ceiling",
-     "overcrowding"
-    ]
-   },
-   "match": [
-    {
-     "t": "arbiter",
-     "d": "someone or something that settles a decision"
-    },
-    {
-     "t": "amplifier",
-     "d": "something that makes an effect stronger"
-    },
-    {
-     "t": "instructive",
-     "d": "useful because it teaches you something"
-    },
-    {
-     "t": "overcrowding",
-     "d": "the problem of too many people in a place"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "Two travel reports published weeks apart give almost opposite ____ of the same phenomenon",
-      "cue": "IMPRESS",
-      "a": "impressions"
-     },
-     {
-      "s": "The contradiction mostly dissolves on ____, and the reasons are instructive.",
-      "cue": "INSPECT",
-      "a": "inspection"
-     },
-     {
-      "s": "while ABTA used a nationally ____ sample of 2,082 UK adults.",
-      "cue": "REPRESENT",
-      "a": "representative"
-     },
-     {
-      "s": "it is extremely ____ at determining which three streets in Lisbon everybody stands in",
-      "cue": "EFFECT",
-      "a": "effective"
-     },
-     {
-      "s": "The least ____ finding is not about choice at all.",
-      "cue": "COMFORT",
-      "a": "comfortable"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The two reports were commissioned by organisations with different interests.",
-     "a": "T",
-     "why": "The text says: “one being a company that sells experiences and the other a trade association representing agents and tour operators”."
-    },
-    {
-     "s": "Social media was the fastest-growing source of inspiration in the ABTA data.",
-     "a": "F",
-     "why": "The text says: “the fastest-growing source of inspiration is not social media but AI, up from 4% to 14% in two years”."
-    },
-    {
-     "s": "Bookings through a travel professional rose for practical reasons rather than inspiration.",
-     "a": "T",
-     "why": "The text says they rose “for reasons that have nothing to do with inspiration at all: ease of booking, saving time, value for money”."
-    },
-    {
-     "s": "Tourist sites have introduced limits on photography.",
-     "a": "N",
-     "why": "Not stated. The text mentions overcrowding but reports no restrictions."
-    }
-   ]
+    "after": "Afterwards, tell the class: where did you decide to go, and how did you share the time?"
   }
- }
 }

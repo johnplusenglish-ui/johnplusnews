@@ -6,6 +6,7 @@ tags: Society, Politics
 image: images/a-home-for-life-the-housing-crisis-shaking-spain-1545b7.jpg
 image-alt: A raised hand holds up a bunch of keys above a square filled with tents and banners.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

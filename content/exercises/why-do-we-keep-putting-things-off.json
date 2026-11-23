@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Most people ____ difficult or boring tasks sometimes.",
-            "a": "put off"
+            "s": "The ____ for the project is Friday, so there is no more time.",
+            "a": "deadline"
           },
           {
-            "s": "Researchers have been trying to ____ why we do it.",
-            "a": "work out"
+            "s": "The rules of the game were so ____ that nobody understood them.",
+            "a": "complicated"
           },
           {
-            "s": "Breaking a large job into little steps can make it feel less ____.",
-            "a": "frightening"
+            "s": "I was ____ by the noise outside, so I lost my place in the book.",
+            "a": "distracted"
           },
           {
-            "s": "____ your phone for fifteen minutes and see what happens.",
-            "a": "Put away"
-          },
-          {
-            "s": "In the end, they rush to finish and feel ____ with the result.",
+            "s": "She felt ____ when she saw her exam result because she had hoped for a better one.",
             "a": "disappointed"
+          },
+          {
+            "s": "Without ____, it's hard to get out of bed and go for a run.",
+            "a": "motivation"
           }
         ],
         "extra": [
-          "lazy",
-          "distracted"
+          "frightening",
+          "proof"
         ]
       },
       "match": [
@@ -52,9 +52,9 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Suddenly, an hour ____ by and the email is still there.",
-            "cue": "go",
-            "a": "has gone"
+            "s": "Last night she ____ a long message to her teacher.",
+            "cue": "write",
+            "a": "wrote"
           },
           {
             "s": "In 2026, several studies ____ at procrastination among university students.",
@@ -67,9 +67,9 @@
             "a": "to begin"
           },
           {
-            "s": "Motivation sometimes ____ after you start, not before.",
-            "cue": "come",
-            "a": "comes"
+            "s": "Last week, my brother ____ a very long time to answer my message.",
+            "cue": "take",
+            "a": "took"
           },
           {
             "s": "It also helps to stop ____ until you feel completely ready.",
@@ -98,40 +98,109 @@
           "s": "Recent studies suggest that procrastination is simply laziness.",
           "a": "F",
           "why": "The text says the opposite: \"One common explanation is that people are simply lazy, but recent studies suggest a more complicated picture.\""
+        },
+        {
+          "s": "The writer says it is better to wait until you feel ready before you begin.",
+          "a": "F",
+          "why": "The text says: \"It also helps to stop waiting until you feel completely ready.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "procrastination",
+          "d": "waiting too long to do something you should do now"
+        },
+        {
+          "t": "delaying",
+          "d": "doing something later than you should"
+        },
+        {
+          "t": "perfectionism",
+          "d": "wanting everything to be exactly right, with no mistakes"
+        },
+        {
+          "t": "pressure",
+          "d": "a feeling that you must do something quickly or well"
+        },
+        {
+          "t": "rush",
+          "d": "do something very fast because you have little time"
+        },
+        {
+          "t": "tidy",
+          "d": "put things in the right place so a room looks neat"
+        },
+        {
+          "t": "proof",
+          "d": "facts that show that something is true"
+        },
+        {
+          "t": "familiar",
+          "d": "something you already know or have seen before"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word. The small word changes the meaning, so learn them together, such as give up.",
+        "items": [
+          {
+            "s": "____ your phone away in a drawer before you start.",
+            "a": "Put"
+          },
+          {
+            "s": "An hour can ____ by very quickly when you are watching videos.",
+            "a": "go"
+          },
+          {
+            "s": "I need to ____ out what time the bus leaves.",
+            "a": "find"
+          },
+          {
+            "s": "She didn't want to ____ up the idea completely.",
+            "a": "give"
+          },
+          {
+            "s": "A good idea can ____ up when you are walking.",
+            "a": "come"
+          }
+        ],
+        "extra": [
+          "carry",
+          "stand"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Procrastination means delaying something although you know it may ____.",
-            "a": "make matters worse"
-          },
-          {
-            "s": "Starting a difficult task can ____ anxiety, frustration or the fear of failing.",
-            "a": "bring up"
+            "s": "Avoiding the phone call gave her a brief sense of ____, although the worry returned later.",
+            "a": "relief"
           },
           {
             "s": "Each possible sentence seems ____, so the student keeps reading instead.",
             "a": "inadequate"
           },
           {
-            "s": "Breaking the cycle usually requires making a task feel ____.",
-            "a": "manageable"
+            "s": "An occasional lazy afternoon is ____ and nobody needs to worry about it.",
+            "a": "harmless"
           },
           {
-            "s": "Progress can ____ once the first step has been taken.",
-            "a": "build up"
+            "s": "Having no quiet room can be a real ____ to studying at home.",
+            "a": "barrier"
           },
           {
-            "s": "Progress is usually slower and less ____ than the plans we imagined.",
+            "s": "A single survey cannot ____ why people behave in this way.",
+            "a": "establish"
+          },
+          {
+            "s": "Cleaning offices at night is not a ____ job, but someone has to do it.",
             "a": "glamorous"
           }
         ],
         "extra": [
-          "last-minute",
-          "exhausted"
+          "commit",
+          "willing"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "You answer a few ____ messages and make another cup of tea.",
-            "cue": "NECESSARY",
-            "a": "unnecessary"
+            "s": "By the time he opened the document, his colleagues ____ their share of the work.",
+            "cue": "finish",
+            "a": "had finished"
           },
           {
-            "s": "Studies found relationships between delay and ____.",
-            "cue": "PERFECT",
-            "a": "perfectionism"
+            "s": "He ____ the phone call all week.",
+            "cue": "avoid",
+            "a": "has been avoiding"
           },
           {
-            "s": "The researchers also examined ____ social media use.",
-            "cue": "PROBLEM",
-            "a": "problematic"
+            "s": "If she had started earlier, she ____ properly last night.",
+            "cue": "sleep",
+            "a": "would have slept"
           },
           {
-            "s": "Repeatedly putting off important work can damage ____ and increase stress.",
-            "cue": "CONFIDENT",
-            "a": "confidence"
+            "s": "The office ____ every evening by a small team.",
+            "cue": "clean",
+            "a": "is cleaned"
           },
           {
-            "s": "The attempt to produce ____ work prevented any work from being produced.",
-            "cue": "EXCEL",
-            "a": "excellent"
+            "s": "She admitted ____ an hour on her phone.",
+            "cue": "waste",
+            "a": "wasting"
           }
         ]
       },
@@ -189,53 +258,122 @@
           "why": "Not stated. The text does not compare students with people at work."
         },
         {
-          "s": "Psychologists increasingly look at the emotions behind the behaviour.",
-          "a": "T",
-          "why": "The text says: \"People often describe procrastinators as lazy or badly organised, but psychologists increasingly look at the emotions behind the behaviour.\""
-        },
-        {
-          "s": "An Italian investigation measured attention and self-control as well as using questionnaires.",
-          "a": "T",
-          "why": "The text says: \"One Italian investigation used questionnaires and tasks measuring attention and self-control.\""
-        },
-        {
           "s": "The research proves that phones cause procrastination.",
           "a": "F",
-          "why": "The text says the opposite: \"Because much of this research observes people at one moment in time, it cannot establish that phones or perfectionism directly cause procrastination in every individual.\""
+          "why": "The text says it \"cannot establish that phones or perfectionism directly cause procrastination\"."
+        },
+        {
+          "s": "According to the text, avoiding a task can bring short relief that disappears later.",
+          "a": "T",
+          "why": "The text says avoiding it offers relief, \"even if that relief disappears when the deadline approaches\"."
+        },
+        {
+          "s": "A person who writes a rough first draft may be in a better position than a perfectionist.",
+          "a": "T",
+          "why": "The text says someone willing to write a rough draft \"may have a useful starting point\", while the perfectionist has nothing on the page."
+        },
+        {
+          "s": "The writer says blaming yourself is the best way to deal with procrastination.",
+          "a": "F",
+          "why": "The text says \"blaming yourself for being lazy may miss the point\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "anxiety",
+          "d": "a feeling of worry about something that might happen"
+        },
+        {
+          "t": "frustration",
+          "d": "the annoyed feeling when you cannot do what you want"
+        },
+        {
+          "t": "perfectionism",
+          "d": "the need to make everything exactly right"
+        },
+        {
+          "t": "self-control",
+          "d": "the ability to stop yourself doing what you want to do"
+        },
+        {
+          "t": "trap",
+          "d": "a bad situation that is difficult to get out of"
+        },
+        {
+          "t": "draft",
+          "d": "a first version of writing that you will change later"
+        },
+        {
+          "t": "cycle",
+          "d": "a series of events that keep repeating"
+        },
+        {
+          "t": "excuse",
+          "d": "a reason you give to explain why you did not do something"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Some phrasal verbs have three parts, such as come up with. The verb changes with the tense, but the small words stay the same.",
+        "items": [
+          {
+            "s": "I keep meaning to ____ out my inbox, but there are hundreds of emails.",
+            "a": "sort"
+          },
+          {
+            "s": "She never seems to ____ round to answering the letter.",
+            "a": "get"
+          },
+          {
+            "s": "You can ____ down a big task into stages.",
+            "a": "break"
+          },
+          {
+            "s": "The team had to ____ up with a new plan after the first one failed.",
+            "a": "come"
+          },
+          {
+            "s": "He promised to ____ on working until the report was ready.",
+            "a": "carry"
+          }
+        ],
+        "extra": [
+          "hold",
+          "pull"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "An important task can ____ fear of failure, boredom or uncertainty.",
-            "a": "stir up"
+            "s": "It is a ____ that the people who care most about a task are often the last to start it.",
+            "a": "paradox"
           },
           {
-            "s": "Avoiding it provides a ____ escape from those feelings.",
-            "a": "short-lived"
+            "s": "The committee had to ____ the vote until more evidence became available.",
+            "a": "postpone"
           },
           {
-            "s": "The decision may be ____ in the long run.",
-            "a": "self-defeating"
+            "s": "Treating the symptoms will not help unless we address the ____ cause.",
+            "a": "underlying"
           },
           {
-            "s": "Research becomes an ____ form of avoidance.",
+            "s": "She spoke with such ____ that even the sceptics were persuaded.",
+            "a": "conviction"
+          },
+          {
+            "s": "She hesitated ____ before signing the contract.",
+            "a": "momentarily"
+          },
+          {
+            "s": "They devised an ____ scheme involving fake names and three bank accounts.",
             "a": "elaborate"
-          },
-          {
-            "s": "The supposedly higher standard has ____, leaving less time and more stress.",
-            "a": "backfired"
-          },
-          {
-            "s": "The goal is to stop letting temporary discomfort ____.",
-            "a": "run the show"
           }
         ],
         "extra": [
-          "intimidating",
-          "flawless"
+          "obstacle",
+          "precisely"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "A task can stir up the pressure to meet ____ expectations.",
-            "cue": "REALISTIC",
-            "a": "unrealistic"
+            "s": "The ____ between stress and poor sleep is well documented.",
+            "cue": "ASSOCIATE",
+            "a": "association"
           },
           {
-            "s": "Many of the studies were ____ rather than controlled.",
-            "cue": "OBSERVE",
-            "a": "observational"
+            "s": "Her extreme ____ to criticism meant she never showed anyone her drafts.",
+            "cue": "SENSITIVE",
+            "a": "sensitivity"
           },
           {
-            "s": "Someone may postpone writing because nothing sounds ____ impressive.",
-            "cue": "SUFFICIENT",
-            "a": "sufficiently"
+            "s": "It would be ____ to assume that every delay comes from laziness.",
+            "cue": "WISE",
+            "a": "unwise"
           },
           {
-            "s": "Delay can create a cycle of guilt and the ____ that we are incapable.",
-            "cue": "CONVINCE",
-            "a": "conviction"
+            "s": "After the change, attendance improved ____.",
+            "cue": "MARK",
+            "a": "markedly"
           },
           {
-            "s": "Small actions reduce the ____ attached to starting.",
-            "cue": "RESIST",
-            "a": "resistance"
+            "s": "Researchers urged readers to interpret the correlations ____.",
+            "cue": "CAUTION",
+            "a": "cautiously"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The Italian study found that men procrastinate more than women.",
-          "a": "N",
-          "why": "Not stated. The text does not report any difference between men and women."
+          "s": "The writer suggests that procrastination can sometimes reflect too much concern rather than too little.",
+          "a": "T",
+          "why": "The text says it is \"not necessarily an absence of concern; sometimes it is concern becoming so uncomfortable that we struggle to act\"."
         },
         {
-          "s": "Research supports the idea that procrastinators simply lack discipline.",
+          "s": "The Italian study found that people who procrastinate more did worse on every task measuring attention.",
           "a": "F",
-          "why": "The text says the opposite: \"The standard explanation is that procrastinators lack discipline. Psychological research suggests something considerably more interesting.\""
+          "why": "The text says they did less well on \"some of those tasks\", not all of them."
         },
         {
-          "s": "Some of the research described was observational rather than experimental.",
-          "a": "T",
-          "why": "The text says: \"The association does not establish why they put things off, and many of the studies were observational.\""
+          "s": "The writer believes a short timer works better than breaking a task into small actions.",
+          "a": "N",
+          "why": "The text recommends both but never compares them."
         },
         {
-          "s": "A perfectionist may end up with less time than a less demanding writer.",
+          "s": "The writer accepts that the suggested strategies may not fully overcome anxiety or attention difficulties.",
           "a": "T",
-          "why": "The text says: \"The supposedly higher standard has backfired, leaving the perfectionist with less time and a more stressful deadline.\""
+          "why": "The text says such strategies \"do not remove every psychological obstacle, particularly where anxiety or attention difficulties are significant\"."
+        },
+        {
+          "s": "The writer's aim is to help people turn every minute into productivity.",
+          "a": "F",
+          "why": "The text says \"The goal is not to turn every minute into productivity\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "procrastination",
+          "d": "the habit of delaying things that you ought to do"
+        },
+        {
+          "t": "discipline",
+          "d": "the ability to make yourself do what you should do"
+        },
+        {
+          "t": "short-lived",
+          "d": "lasting only a short time"
+        },
+        {
+          "t": "self-defeating",
+          "d": "causing harm to your own plans or aims"
+        },
+        {
+          "t": "avoidance",
+          "d": "the act of staying away from something unpleasant"
+        },
+        {
+          "t": "observational",
+          "d": "based on watching what happens, without controlling it"
+        },
+        {
+          "t": "judgement",
+          "d": "an opinion about how good or bad something is"
+        },
+        {
+          "t": "glamorous",
+          "d": "exciting and attractive, not ordinary"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "At this level, many phrasal verbs take a fixed preposition too, as in shy away from. Learn the whole chunk.",
+        "items": [
+          {
+            "s": "Many people ____ away from tasks that might expose their weaknesses.",
+            "a": "shy"
+          },
+          {
+            "s": "Critics tend to ____ aside findings drawn from small samples.",
+            "a": "brush"
+          },
+          {
+            "s": "When motivation fades, many people ____ back on old habits.",
+            "a": "fall"
+          },
+          {
+            "s": "She had to ____ through hundreds of pages of notes before she could write.",
+            "a": "wade"
+          },
+          {
+            "s": "Procrastination can ____ from a fear of being judged.",
+            "a": "stem"
+          }
+        ],
+        "extra": [
+          "iron",
+          "rule"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: the report nobody wants to start",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the colleague who wants to start now",
+      "text": "You and your colleague must finish a report by Friday. You want to start today, even with a small part. Explain why starting early helps and suggest a first step."
+    },
+    "b": {
+      "role": "the colleague who wants to wait",
+      "text": "You'd rather wait until you feel ready. Explain why. Listen to your colleague's plan and decide if you can agree on a small first step."
+    },
+    "phrases": [
+      "I think we should start today.",
+      "I'd rather wait until I feel ready.",
+      "Let's just write the first heading.",
+      "That's a fair point, but I'm not in the mood.",
+      "How about fifteen minutes with our phones away?",
+      "OK, you've convinced me."
+    ],
+    "after": "Afterwards, tell the class what you agreed and whether it was a good plan."
   }
 }

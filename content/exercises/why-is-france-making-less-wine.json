@@ -1,305 +1,541 @@
 {
- "slug": "why-is-france-making-less-wine",
- "levels": {
-  "core": {
-   "gap": {
-    "items": [
-     {
-      "s": "A grape ____ is a kind of report card on the weather.",
-      "a": "harvest"
-     },
-     {
-      "s": "After a summer of ____, the agriculture ministry estimates that the country will produce about 35 million hectolitres of wine.",
-      "a": "heatwaves"
-     },
-     {
-      "s": "That would be 2% less than last year, and 14% below the ____ of the five years before it.",
-      "a": "average"
-     },
-     {
-      "s": "Many now leave more leaves on the vine so that the leaves ____ the grapes.",
-      "a": "shade"
-     },
-     {
-      "s": "The ministry and the industry say the grapes are in excellent ____",
-      "a": "health"
-     }
-    ],
-    "extra": [
-     "estimates",
-     "crop"
-    ]
-   },
-   "match": [
-    {
-     "t": "vines",
-     "d": "the plants that grapes grow on"
+  "slug": "why-is-france-making-less-wine",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Several ____ in July and August made the summer very hard for growers.",
+            "a": "heatwaves"
+          },
+          {
+            "s": "Early numbers are only ____ until the farmers finish counting.",
+            "a": "estimates"
+          },
+          {
+            "s": "Some farmers have ____ the area of land they use for vines.",
+            "a": "reduced"
+          },
+          {
+            "s": "Big trees can ____ small plants, so the sun does not burn them.",
+            "a": "shade"
+          },
+          {
+            "s": "Quantity is how much wine there is; ____ is how good it is.",
+            "a": "quality"
+          }
+        ],
+        "extra": [
+          "season",
+          "vineyard"
+        ]
+      },
+      "match": [
+        {
+          "t": "vines",
+          "d": "the plants that grapes grow on"
+        },
+        {
+          "t": "variation",
+          "d": "differences between things of the same kind"
+        },
+        {
+          "t": "fungus",
+          "d": "a growth that can damage plants, often in wet weather"
+        },
+        {
+          "t": "exceptional",
+          "d": "unusually good"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "In 2025, France ____ less wine than in any year since 1957.",
+            "cue": "produce",
+            "a": "produced"
+          },
+          {
+            "s": "The extreme heat ____ the grapes build up sugar very quickly.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "Growers ____ to pick the grapes much earlier than normal.",
+            "cue": "have",
+            "a": "had"
+          },
+          {
+            "s": "Southern growers ____ many hot summers, so they know how to protect their vines.",
+            "cue": "see",
+            "a": "have seen"
+          },
+          {
+            "s": "The Champagne harvest ____ in September for the first time.",
+            "cue": "finish",
+            "a": "finished"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "France expects to make less wine this year than last year.",
+          "a": "T",
+          "why": "The text says the harvest “would be 2% less than last year”."
+        },
+        {
+          "s": "Every French wine region produced less this year.",
+          "a": "F",
+          "why": "Bordeaux is the opposite: production there “is expected to rise by 10%”."
+        },
+        {
+          "s": "Champagne growers picked their grapes earlier than usual.",
+          "a": "T",
+          "why": "The heat made the grapes build up sugar quickly, so growers “had to pick much earlier than normal”."
+        },
+        {
+          "s": "French wine will be more expensive this year.",
+          "a": "N",
+          "why": "Not stated. The text talks about amounts and quality but says nothing about prices."
+        },
+        {
+          "s": "Bordeaux expects to produce 12% more wine than last year.",
+          "a": "F",
+          "why": "Bordeaux is up 10%. The 12% rise is for the south-west."
+        }
+      ],
+      "pre": [
+        {
+          "t": "harvest",
+          "d": "the time when farmers pick the plants or fruit they have grown"
+        },
+        {
+          "t": "ministry",
+          "d": "a part of the government, for example for farming or health"
+        },
+        {
+          "t": "hectolitres",
+          "d": "a way to measure liquid: one is 100 litres"
+        },
+        {
+          "t": "average",
+          "d": "the usual amount, found by looking at several years or numbers"
+        },
+        {
+          "t": "regions",
+          "d": "big parts of a country"
+        },
+        {
+          "t": "crop",
+          "d": "plants or fruit that a farmer grows and picks"
+        },
+        {
+          "t": "producer",
+          "d": "a person or company that makes something to sell"
+        },
+        {
+          "t": "growers",
+          "d": "people whose job is to grow plants or fruit"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word such as up or down. The small word changes the meaning, so learn the two words together.",
+        "items": [
+          {
+            "s": "In hot weather, sugar can build ____ in the grapes very quickly.",
+            "a": "up"
+          },
+          {
+            "s": "Farmers who have lived ____ many hot summers know how to protect their vines.",
+            "a": "through"
+          },
+          {
+            "s": "One very hot week can wipe ____ half of a small farm's crop.",
+            "a": "out"
+          },
+          {
+            "s": "Growers sometimes cut ____ the number of grapes on each vine.",
+            "a": "down"
+          },
+          {
+            "s": "Even in a heatwave, many growers carry ____ working in the early morning.",
+            "a": "on"
+          }
+        ],
+        "extra": [
+          "over",
+          "along"
+        ]
+      }
     },
-    {
-     "t": "variation",
-     "d": "differences between things of the same kind"
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Higher prices can partly ____ the loss of income when a harvest is small.",
+            "a": "offset"
+          },
+          {
+            "s": "Warmer winters have ____ the ripening of the fruit, so growers now pick weeks earlier than their grandparents did.",
+            "a": "accelerated"
+          },
+          {
+            "s": "When time is short, a grower may have to ____ flavour to protect the rest of the crop.",
+            "a": "sacrifice"
+          },
+          {
+            "s": "Rather than hoping for cooler weather, many farms are investing in ____ to hotter conditions.",
+            "a": "adaptation"
+          },
+          {
+            "s": "A delayed delivery is a minor ____, but a failed crop can threaten a whole business.",
+            "a": "inconvenience"
+          },
+          {
+            "s": "Hot weather lowers the ____ of grapes, which can make the wine taste flat.",
+            "a": "acidity"
+          }
+        ],
+        "extra": [
+          "heterogeneity",
+          "pattern"
+        ]
+      },
+      "match": [
+        {
+          "t": "benchmark",
+          "d": "a standard you measure other things against"
+        },
+        {
+          "t": "projected",
+          "d": "expected, based on a calculation"
+        },
+        {
+          "t": "foliage",
+          "d": "the leaves of a plant"
+        },
+        {
+          "t": "forecasts",
+          "d": "statements about what is expected to happen"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Before this year, Champagne growers ____ in September.",
+            "cue": "never finish",
+            "a": "had never finished"
+          },
+          {
+            "s": "The final figures ____ later in the year.",
+            "cue": "publish",
+            "a": "will be published"
+          },
+          {
+            "s": "If summers stay this hot, growers ____ their grapes even earlier in future.",
+            "cue": "have to pick",
+            "a": "will have to pick"
+          },
+          {
+            "s": "Before the storm arrived, the farmers ____ in the fields since dawn.",
+            "cue": "work",
+            "a": "had been working"
+          },
+          {
+            "s": "Rainfall in May ____ the southern growers as well.",
+            "cue": "help",
+            "a": "helped"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Both 2025 and 2026 were weak years for French wine production.",
+          "a": "T",
+          "why": "2025 was the weakest since 1957, and 2026 is expected to be 2% below it and 14% below the five-year average."
+        },
+        {
+          "s": "Bordeaux's production fell this year because its planted area was cut.",
+          "a": "F",
+          "why": "Production there is expected to rise 10% despite a 5% reduction in planted area."
+        },
+        {
+          "s": "Southern growers began leaving more foliage on their vines because of a government programme.",
+          "a": "N",
+          "why": "The text says earlier heat pushed growers to change, but it does not mention any programme."
+        },
+        {
+          "s": "Bordeaux's production this year is still below its recent average.",
+          "a": "T",
+          "why": "It is up 10% on last year but “still leaves it 11% below the recent average”."
+        },
+        {
+          "s": "The south-west's production is far above its level of the previous four years.",
+          "a": "F",
+          "why": "The text calls its rise “essentially a return to its previous four-year level”."
+        }
+      ],
+      "pre": [
+        {
+          "t": "heterogeneity",
+          "d": "a mix of many different kinds, with big differences between them"
+        },
+        {
+          "t": "generous",
+          "d": "larger than you need or expect"
+        },
+        {
+          "t": "dramatic",
+          "d": "sudden and very noticeable"
+        },
+        {
+          "t": "exceptionally",
+          "d": "to a much greater degree than usual"
+        },
+        {
+          "t": "rainfall",
+          "d": "the amount of rain that falls in a place"
+        },
+        {
+          "t": "fungi",
+          "d": "plant diseases that grow in wet conditions, like mould"
+        },
+        {
+          "t": "pressure",
+          "d": "a feeling of having to do something quickly"
+        },
+        {
+          "t": "essentially",
+          "d": "in the most important ways"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Many phrasal verbs have more than one meaning, so read the whole sentence before you choose. Some also take an object and a preposition, as in 'put off' something.",
+        "items": [
+          {
+            "s": "Early estimates often turn ____ to be wrong once the final figures arrive.",
+            "a": "out"
+          },
+          {
+            "s": "Two bad harvests in a row set the whole region ____ by years.",
+            "a": "back"
+          },
+          {
+            "s": "Despite the hot summer, many growers carried ____ as normal.",
+            "a": "on"
+          },
+          {
+            "s": "Planting new vines cannot make ____ for a crop that has already been lost.",
+            "a": "up"
+          },
+          {
+            "s": "The cost of replanting can put small producers ____ entering the business.",
+            "a": "off"
+          }
+        ],
+        "extra": [
+          "away",
+          "along"
+        ]
+      }
     },
-    {
-     "t": "fungus",
-     "d": "a growth that can damage plants, often in wet weather"
-    },
-    {
-     "t": "exceptional",
-     "d": "unusually good"
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "A large, well-funded estate has ____ losses that would have ruined a small family plot.",
+            "a": "absorbed"
+          },
+          {
+            "s": "A single hailstorm ____ damage in minutes that takes years to repair.",
+            "a": "inflicts"
+          },
+          {
+            "s": "To cover the ____, the cooperative bought grapes from neighbouring estates.",
+            "a": "shortfall"
+          },
+          {
+            "s": "The slow ____ of debt over several poor harvests pushed the estate towards sale.",
+            "a": "accumulation"
+          },
+          {
+            "s": "Removing too many leaves risks ____ the fruit to sunburn.",
+            "a": "exposing"
+          },
+          {
+            "s": "Few of the growers had ever ____ conditions as severe as these.",
+            "a": "encountered"
+          }
+        ],
+        "extra": [
+          "undermines",
+          "dwindled"
+        ]
+      },
+      "match": [
+        {
+          "t": "revealing",
+          "d": "showing something interesting that was not obvious"
+        },
+        {
+          "t": "canopy",
+          "d": "the layer of leaves covering a plant"
+        },
+        {
+          "t": "resists",
+          "d": "does not easily allow something"
+        },
+        {
+          "t": "vintage",
+          "d": "the wine produced in a particular year"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Heat alone is an ____ explanation for a pattern that varies so much between regions.",
+            "cue": "ADEQUATE",
+            "a": "inadequate"
+          },
+          {
+            "s": "A forecast can only be as sound as the ____ on which it rests.",
+            "cue": "ASSUME",
+            "a": "assumptions"
+          },
+          {
+            "s": "The cooperative's ____ to share its figures delayed the report.",
+            "cue": "WILLING",
+            "a": "unwillingness"
+          },
+          {
+            "s": "Some regions have shown remarkable ____ in the face of heat.",
+            "cue": "RESILIENT",
+            "a": "resilience"
+          },
+          {
+            "s": "Ripening dates have become increasingly ____ from one year to the next.",
+            "cue": "PREDICT",
+            "a": "unpredictable"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Bordeaux's production rose even though it had less land under vines.",
+          "a": "T",
+          "why": "The text gives a 10% increase on 2025 “despite a 5% cut in planted area”."
+        },
+        {
+          "s": "The writer treats the south's result as proof that heat explains the whole pattern.",
+          "a": "F",
+          "why": "The writer says heat alone does not explain it, since the hottest regions did not suffer most."
+        },
+        {
+          "s": "The writer expects the ministry's estimates to prove too low.",
+          "a": "N",
+          "why": "The text stresses that these are estimates and that the final accounting comes later, but it never predicts which way they will move."
+        },
+        {
+          "s": "The writer implies that Mandois's comments are a poor guide to the whole vintage.",
+          "a": "T",
+          "why": "His view is called “a statement about his own vineyard rather than a forecast for the vintage”."
+        },
+        {
+          "s": "The report explains why the planted area fell.",
+          "a": "F",
+          "why": "The text says: “The report does not say why those hectares went”."
+        }
+      ],
+      "pre": [
+        {
+          "t": "preceding",
+          "d": "coming before something"
+        },
+        {
+          "t": "projected",
+          "d": "expected to happen, based on a calculation"
+        },
+        {
+          "t": "headline",
+          "d": "the main point, as shown in a news title"
+        },
+        {
+          "t": "volumes",
+          "d": "amounts or quantities of something"
+        },
+        {
+          "t": "accounting",
+          "d": "the careful counting of final totals"
+        },
+        {
+          "t": "grubbed",
+          "d": "dug or pulled up out of the ground"
+        },
+        {
+          "t": "fungal",
+          "d": "caused by a fungus, such as mould"
+        },
+        {
+          "t": "visibly",
+          "d": "in a way that anyone can see"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "At this level many phrasal verbs are fixed with a certain kind of object or a following preposition: bear out a claim, stem from a cause, tide someone over. Learn them in these frames.",
+        "items": [
+          {
+            "s": "The ministry's caution is borne ____ by how far final results often differ from the early forecasts.",
+            "a": "out"
+          },
+          {
+            "s": "Some analysts put the unusually early picking ____ to warmer winters rather than to the summer.",
+            "a": "down"
+          },
+          {
+            "s": "Part of any fall in output stems ____ decisions taken years earlier.",
+            "a": "from"
+          },
+          {
+            "s": "A little spring rain helped to tide growers ____ until the autumn.",
+            "a": "over"
+          },
+          {
+            "s": "Early estimates may not hold ____ once the final figures are in.",
+            "a": "up"
+          }
+        ],
+        "extra": [
+          "along",
+          "aside"
+        ]
+      }
     }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "A grape harvest ____ a kind of report card on the weather.",
-      "cue": "be",
-      "a": "is"
-     },
-     {
-      "s": "France ____ less in 2025 than in any year since 1957.",
-      "cue": "produce",
-      "a": "produced"
-     },
-     {
-      "s": "The heat ____ the grapes build up sugar quickly",
-      "cue": "make",
-      "a": "made"
-     },
-     {
-      "s": "so growers ____ to pick much earlier than normal.",
-      "cue": "have",
-      "a": "had"
-     },
-     {
-      "s": "Southern growers ____ through hot years before",
-      "cue": "live",
-      "a": "have lived"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "France expects to make less wine this year than last year.",
-     "a": "T",
-     "why": "The text says the harvest “would be 2% less than last year”."
-    },
-    {
-     "s": "Every French wine region produced less this year.",
-     "a": "F",
-     "why": "The text says the opposite for Bordeaux: “production is expected to rise by 10% compared with last year”."
-    },
-    {
-     "s": "The harvest in Champagne finished in September for the first time.",
-     "a": "T",
-     "why": "The text says: “The harvest there finished in September for the first time”."
-    },
-    {
-     "s": "French wine will be more expensive this year.",
-     "a": "N",
-     "why": "Not stated. The text discusses quantities and quality but says nothing about prices."
-    }
-   ]
   },
-  "intermediate": {
-   "gap": {
-    "items": [
-     {
-      "s": "The comparison matters because 2025 was not a generous ____ either",
-      "a": "benchmark"
-     },
-     {
-      "s": "A series of summer heatwaves is the main explanation, slightly ____ by later rain.",
-      "a": "offset"
-     },
-     {
-      "s": "Extreme heat accelerated the build-up of sugar in the grapes, and therefore of natural ____",
-      "a": "alcohol"
-     },
-     {
-      "s": "Despey's explanation for the southern result is ____ rather than luck.",
-      "a": "adaptation"
-     },
-     {
-      "s": "Picking dates are chosen to balance sugar, ____ and flavour",
-      "a": "acidity"
-     }
+  "speak": {
+    "title": "Role-play: a price rise for house wine",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the restaurant owner",
+      "text": "Your wine supplier says the price of your house wine will go up by 10%. You don't want to pass the cost on to customers. Ask why the price is rising and ask for a better deal."
+    },
+    "b": {
+      "role": "the wine supplier",
+      "text": "Hot summers have made wine harvests smaller, so your costs are higher. Explain why the price must rise. You can offer a small discount if the restaurant orders more."
+    },
+    "phrases": [
+      "Why is the price going up?",
+      "I'm afraid the harvest was smaller than usual.",
+      "We can't pass that cost on to our customers.",
+      "Could you give us a discount if we order more?",
+      "I'd be happy to meet you halfway.",
+      "That's the best price I can offer."
     ],
-    "extra": [
-     "heterogeneity",
-     "foliage"
-    ]
-   },
-   "match": [
-    {
-     "t": "benchmark",
-     "d": "a standard you measure other things against"
-    },
-    {
-     "t": "projected",
-     "d": "expected, based on a calculation"
-    },
-    {
-     "t": "foliage",
-     "d": "the leaves of a plant"
-    },
-    {
-     "t": "forecasts",
-     "d": "statements about what is expected to happen"
-    }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "France ____ to produce around 35 million hectolitres of wine this year",
-      "cue": "expect",
-      "a": "expects"
-     },
-     {
-      "s": "The area planted with vines ____ by about 1.9% over the year",
-      "cue": "fall",
-      "a": "fell"
-     },
-     {
-      "s": "Bordeaux ____ the other way.",
-      "cue": "go",
-      "a": "went"
-     },
-     {
-      "s": "Earlier heat ____ growers there to change their methods",
-      "cue": "push",
-      "a": "pushed"
-     },
-     {
-      "s": "What the regional differences describe is an industry that ____ started planning for a pattern.",
-      "cue": "have",
-      "a": "has already"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "2025 was France's weakest wine production since 1957.",
-     "a": "T",
-     "why": "The text says: “the International Organisation of Vine and Wine recorded it as France's weakest production since 1957”."
-    },
-    {
-     "s": "Bordeaux increased its planted area this year.",
-     "a": "F",
-     "why": "The text says the opposite: “Despite a 5% reduction in its planted area, production there is expected to rise 10% on last year”."
-    },
-    {
-     "s": "Rainfall in May helped the southern regions.",
-     "a": "T",
-     "why": "The text says: “Rainfall in May helped as well.”"
-    },
-    {
-     "s": "Growers in Champagne plan to change their methods next year.",
-     "a": "N",
-     "why": "Not stated. The text describes adaptation in the south but reports no plans for Champagne."
-    }
-   ]
-  },
-  "advanced": {
-   "gap": {
-    "items": [
-     {
-      "s": "The headline is easy to write and not especially ____.",
-      "a": "informative"
-     },
-     {
-      "s": "The more revealing number is the ____.",
-      "a": "spread"
-     },
-     {
-      "s": "called it a degree of variation he had never ____.",
-      "a": "encountered"
-     },
-     {
-      "s": "including leaving more ____ on the vine so the leaves shade the fruit rather than exposing it.",
-      "a": "canopy"
-     },
-     {
-      "s": "free of the fungal and moisture-related damage a wet year ____.",
-      "a": "inflicts"
-     }
-    ],
-    "extra": [
-     "accounting",
-     "grubbed"
-    ]
-   },
-   "match": [
-    {
-     "t": "revealing",
-     "d": "showing something interesting that was not obvious"
-    },
-    {
-     "t": "canopy",
-     "d": "the layer of leaves covering a plant"
-    },
-    {
-     "t": "resists",
-     "d": "does not easily allow something"
-    },
-    {
-     "t": "vintage",
-     "d": "the wine produced in a particular year"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "The headline is easy to write and not especially ____.",
-      "cue": "INFORM",
-      "a": "informative"
-     },
-     {
-      "s": "That spread resists the ____ telling of the story.",
-      "cue": "SIMPLE",
-      "a": "simplest"
-     },
-     {
-      "s": "an industry visibly rebuilding its vineyard management around ____ heat is closer to evidence of a trend",
-      "cue": "RECUR",
-      "a": "recurring"
-     },
-     {
-      "s": "The ministry and the industry both emphasised the harvest's excellent health, free of the ____ and moisture-related damage a wet year inflicts.",
-      "cue": "FUNGUS",
-      "a": "fungal"
-     },
-     {
-      "s": "which is a statement about his own vineyard rather than a ____ for the vintage.",
-      "cue": "FORECAST",
-      "a": "forecast"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The southern regions coped better than the cooler ones.",
-     "a": "T",
-     "why": "The text says: “If heat alone explained everything, the hottest regions would have suffered most, and the south did not.”"
-    },
-    {
-     "s": "The report explains why vines were removed from the ground.",
-     "a": "F",
-     "why": "The text says the opposite: “The report does not say why those hectares went”."
-    },
-    {
-     "s": "Mandois described his own harvest as exceptional in appearance and taste.",
-     "a": "T",
-     "why": "The text says he “described what he did pick as exceptional to look at and to taste”."
-    },
-    {
-     "s": "France plans to restrict new vine planting.",
-     "a": "N",
-     "why": "Not stated. The text reports that planted area fell but describes no policy."
-    }
-   ]
+    "after": "Afterwards, tell the class: did you agree a price, and was it fair for both sides?"
   }
- }
 }

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Their parents want to ____ with their child during the day.",
-            "a": "stay in touch"
+            "s": "The company ____ the phone at a news event in 2026.",
+            "a": "announced"
           },
           {
-            "s": "An American company has ____ an answer.",
-            "a": "come up with"
+            "s": "Children can only message contacts that their parents have ____.",
+            "a": "approved"
           },
           {
-            "s": "The aim is to give children some ____ without the whole internet.",
-            "a": "independence"
+            "s": "It is a ____ problem, because lots of families worry about the same thing.",
+            "a": "familiar"
           },
           {
-            "s": "The company wants children to go out and explore rather than ____ videos.",
-            "a": "scroll through"
+            "s": "The camera helps children ____ birds and flowers by name.",
+            "a": "recognise"
           },
           {
-            "s": "Could children with this phone feel ____?",
-            "a": "left out"
+            "s": "Some parents like the idea, but others worry about too much ____.",
+            "a": "tracking"
           }
         ],
         "extra": [
-          "deal with",
-          "reassuring"
+          "discovered",
+          "tempting"
         ]
       },
       "match": [
@@ -57,11 +57,6 @@
             "a": "is called"
           },
           {
-            "s": "Unlike a normal smartphone, Freckle does not ____ an app store or a web browser.",
-            "cue": "have",
-            "a": "have"
-          },
-          {
             "s": "A child ____ for a phone, but the parents worry about social media.",
             "cue": "ask",
             "a": "asks"
@@ -75,63 +70,137 @@
             "s": "Parents can use an app ____ which features their child can access.",
             "cue": "manage",
             "a": "to manage"
+          },
+          {
+            "s": "The first deliveries ____ for December 2026.",
+            "cue": "plan",
+            "a": "were planned"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The camera can help children recognise plants, birds and insects.",
+          "s": "With the camera, children can identify plants, birds and insects.",
           "a": "T",
-          "why": "The text says: \"Its small, square design includes a camera that can help children recognise plants, birds and insects.\""
+          "why": "The text says the camera can help children recognise plants, birds and insects."
         },
         {
           "s": "The phone is already on sale in Europe.",
           "a": "N",
-          "why": "Not stated. The text does not say whether the phone is on sale in Europe."
+          "why": "The text does not say where the phone is on sale."
         },
         {
           "s": "Children can message anybody they like on the Freckle phone.",
           "a": "F",
-          "why": "The text says the opposite: \"Children can call and send messages to contacts approved by their parents.\""
+          "why": "The text says children can only message contacts approved by their parents."
         },
         {
-          "s": "Freckle has no app store, YouTube or web browser.",
+          "s": "The company has already proved that children go outside more with this phone.",
+          "a": "F",
+          "why": "The text says the company's hope \"has not yet been tested\"."
+        },
+        {
+          "s": "Parents can set alerts for certain areas.",
           "a": "T",
-          "why": "The text says: \"Unlike a normal smartphone, it does not have social media apps, an app store, YouTube or a web browser.\""
+          "why": "The text says parents can \"set alerts for certain areas\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "browser",
+          "d": "a program you use to look at pages on the internet"
+        },
+        {
+          "t": "device",
+          "d": "a small machine, such as a phone"
+        },
+        {
+          "t": "independence",
+          "d": "being able to do things without help from others"
+        },
+        {
+          "t": "explore",
+          "d": "to go to new places and find out about them"
+        },
+        {
+          "t": "scrolling",
+          "d": "moving down a screen to see more"
+        },
+        {
+          "t": "alerts",
+          "d": "messages that tell you something has happened"
+        },
+        {
+          "t": "attractive",
+          "d": "nice to look at or interesting to you"
+        },
+        {
+          "t": "insects",
+          "d": "very small animals with six legs, like ants"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some words go together as a pair. If you know one word, think about which word usually comes next to it.",
+        "items": [
+          {
+            "s": "Parents want to stay in ____ with their children during the day.",
+            "a": "touch"
+          },
+          {
+            "s": "Children can ____ photos of birds and plants with the camera.",
+            "a": "take"
+          },
+          {
+            "s": "Too much ____ time is a worry for many families.",
+            "a": "screen"
+          },
+          {
+            "s": "Parents should pay ____ to what children do online.",
+            "a": "attention"
+          },
+          {
+            "s": "The phone has a mobile ____ of around $25 a month.",
+            "a": "plan"
+          }
+        ],
+        "extra": [
+          "tell",
+          "number"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "A normal smartphone lets a child contact home, but it also ____ to much more.",
-            "a": "opens the door"
-          },
-          {
-            "s": "The phone aims to connect children to their families without ____ the wider internet.",
-            "a": "pulling them into"
-          },
-          {
-            "s": "Freckle protects children from online spaces they are not ready to ____.",
-            "a": "navigate"
-          },
-          {
-            "s": "Those tools could offer ____ when children start going out alone.",
+            "s": "A regular call home gave the worried parents some ____ while their son was away.",
             "a": "reassurance"
           },
           {
-            "s": "Promotional claims should be ____.",
-            "a": "treated cautiously"
+            "s": "The method sounds clever, but it has not been ____ to work with large groups.",
+            "a": "proven"
           },
           {
-            "s": "A child whose friends use popular apps may ____ when their own phone cannot access them.",
-            "a": "feel left out"
+            "s": "Claims made by companies should be treated ____ until independent tests are published.",
+            "a": "cautiously"
+          },
+          {
+            "s": "Strict ____ on screen time can make the rules easier to follow.",
+            "a": "restrictions"
+          },
+          {
+            "s": "Under eights are not allowed to swim without adult ____.",
+            "a": "supervision"
+          },
+          {
+            "s": "A ____ video made the product look better than it really was.",
+            "a": "promotional"
           }
         ],
         "extra": [
-          "keep in touch",
-          "compromise"
+          "incentive",
+          "exposure"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "The device is aimed ____ at children aged seven to thirteen.",
-            "cue": "PRIMARY",
-            "a": "primarily"
+            "s": "By the time the family bought the phone, their daughter ____ for one many times.",
+            "cue": "ask",
+            "a": "had asked"
           },
           {
-            "s": "Many parents believe it is ____ to expect a ten-year-old to manage social media alone.",
-            "cue": "FAIR",
-            "a": "unfair"
+            "s": "The rules for the phone ____ by the whole family last weekend.",
+            "cue": "agree",
+            "a": "were agreed"
           },
           {
-            "s": "The tools raise questions about privacy and constant ____.",
-            "cue": "SUPERVISE",
-            "a": "supervision"
+            "s": "If the phone ____ cheaper, more families would buy one.",
+            "cue": "be",
+            "a": "were|was"
           },
           {
-            "s": "The challenge is finding a balance between protection and ____.",
-            "cue": "RESPONSIBLE",
-            "a": "responsibility"
+            "s": "The shop said that the new phones ____ in December.",
+            "cue": "arrive",
+            "a": "would arrive|were going to arrive|were to arrive"
           },
           {
-            "s": "Other families will introduce internet access ____.",
-            "cue": "GRADUAL",
-            "a": "gradually"
+            "s": "By next summer, the family ____ the phone for a year.",
+            "cue": "use",
+            "a": "will have used|will have been using"
           }
         ]
       },
@@ -186,56 +255,125 @@
         {
           "s": "The device had been tested by large numbers of families before launch.",
           "a": "F",
-          "why": "The text says the opposite: \"At the time of the announcement, the phone was still a new product rather than a proven solution.\""
+          "why": "The text says it was \"still a new product rather than a proven solution\"."
         },
         {
           "s": "Teachers have welcomed the phone in schools.",
           "a": "N",
-          "why": "Not stated. The text does not say whether teachers have welcomed the phone."
+          "why": "The text never mentions teachers or schools."
         },
         {
           "s": "Parents manage the phone's features through a separate app.",
           "a": "T",
-          "why": "The text says: \"Children can call and message contacts that their parents have approved, while adults manage features through a separate app.\""
+          "why": "The text says \"adults manage features through a separate app\"."
         },
         {
-          "s": "The phone runs the company's own ClayOS software.",
+          "s": "The location tools could help parents but also cause worries about constant watching.",
           "a": "T",
-          "why": "The text says: \"The device runs the company's own ClayOS software and uses colourful hardware with a small, square screen.\""
+          "why": "The text says they \"could offer reassurance\" but \"raise questions about privacy and constant supervision\"."
+        },
+        {
+          "s": "The writer says claims about the phone should be believed at once.",
+          "a": "F",
+          "why": "The text says such claims \"should therefore be treated cautiously\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "approved",
+          "d": "officially accepted as allowed"
+        },
+        {
+          "t": "unfair",
+          "d": "not treating people in an equal or reasonable way"
+        },
+        {
+          "t": "gradually",
+          "d": "slowly, a little at a time"
+        },
+        {
+          "t": "privacy",
+          "d": "the right to keep your life and information to yourself"
+        },
+        {
+          "t": "notifications",
+          "d": "short messages from an app on your phone"
+        },
+        {
+          "t": "unlikely",
+          "d": "not probably going to happen"
+        },
+        {
+          "t": "adventure",
+          "d": "an exciting or unusual experience"
+        },
+        {
+          "t": "settle",
+          "d": "to end an argument by finding an answer"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Collocations are words that naturally go together. Check the verb and noun partnership, not only the meaning.",
+        "items": [
+          {
+            "s": "The new features ____ serious questions about privacy.",
+            "a": "raise"
+          },
+          {
+            "s": "The challenge is finding the right ____ between protection and learning.",
+            "a": "balance"
+          },
+          {
+            "s": "Parents often ____ clear boundaries about screen time.",
+            "a": "set"
+          },
+          {
+            "s": "Every family must ____ a decision about when to buy a first phone.",
+            "a": "make"
+          },
+          {
+            "s": "Parents want to ____ their children from online dangers.",
+            "a": "protect"
+          }
+        ],
+        "extra": [
+          "hold",
+          "carry"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Handing over a ____ smartphone, with all its usual apps, can mean opening the door to social media.",
+            "s": "Critics argued that the ____ approach to schooling no longer prepared pupils for creative work.",
             "a": "conventional"
           },
           {
-            "s": "The company is trying to ____ between a basic phone and a connected world.",
-            "a": "occupy the middle ground"
-          },
-          {
-            "s": "Technology becomes a reason to head out rather than ____ from the world.",
+            "s": "After the criticism, several members chose to ____ from the committee rather than defend its decision.",
             "a": "withdraw"
           },
           {
-            "s": "Promises about its effects on childhood behaviour remained largely ____.",
-            "a": "untested"
-          },
-          {
-            "s": "A device that ____ those channels could make a child feel excluded.",
-            "a": "shuts out"
-          },
-          {
-            "s": "Expecting young users to manage ____ platforms places a heavy burden on them.",
+            "s": "Advertising aimed at children is often so ____ that adults struggle to resist it themselves.",
             "a": "persuasive"
+          },
+          {
+            "s": "No single member of staff can ____ supervise two classrooms on opposite sides of the building.",
+            "a": "simultaneously"
+          },
+          {
+            "s": "Both sides had ____ concerns, so the mediator refused to call either position unreasonable.",
+            "a": "legitimate"
+          },
+          {
+            "s": "The documentary forces viewers to ____ uncomfortable questions about their own habits.",
+            "a": "confront"
           }
         ],
         "extra": [
-          "resilient",
-          "delicate"
+          "monitor",
+          "ephemeral"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Parents may feel more confident as children begin travelling ____.",
-            "cue": "INDEPENDENT",
-            "a": "independently"
+            "s": "Experts warn of the ____ of children to online manipulation.",
+            "cue": "VULNERABLE",
+            "a": "vulnerability"
           },
           {
-            "s": "Its most ____ feature may be a camera that identifies plants and birds.",
-            "cue": "DISTINGUISH",
-            "a": "distinctive"
+            "s": "The charity has called for greater ____ about how companies use children's data.",
+            "cue": "TRANSPARENT",
+            "a": "transparency"
           },
           {
-            "s": "A separate application allows adults to introduce new ____ over time.",
-            "cue": "CAPABLE",
-            "a": "capabilities"
+            "s": "It would be ____ to expect a child to resist a platform built by hundreds of engineers.",
+            "cue": "REALISTIC",
+            "a": "unrealistic"
           },
           {
-            "s": "Children increasingly organise friendships through shared online spaces, which raises the problem of social ____.",
-            "cue": "BELONG",
-            "a": "belonging"
+            "s": "Many parents find round-the-clock tracking ____ and prefer to build trust instead.",
+            "cue": "INTRUDE",
+            "a": "intrusive"
           },
           {
-            "s": "Expecting very young users to cope alone places a heavy burden on developing ____.",
-            "cue": "JUDGE",
-            "a": "judgement|judgment"
+            "s": "Her ____ to put the phone away at dinner surprised her parents.",
+            "cue": "WILLING",
+            "a": "willingness"
           }
         ]
       },
       "tfn": [
         {
+          "s": "The text suggests that a device built for safety can create a different problem for a child.",
+          "a": "T",
+          "why": "It says shutting out group chats \"could protect a child from harmful content while simultaneously making them feel excluded\"."
+        },
+        {
+          "s": "The same features that give parents confidence also let them follow a child's movements.",
+          "a": "T",
+          "why": "Location tracking gives confidence, but the text asks about freedom if \"every movement can be monitored\"."
+        },
+        {
+          "s": "Families already using the phone have shown that children spend more time outdoors.",
+          "a": "F",
+          "why": "The text says its effects on behaviour \"remained largely untested\" at launch."
+        },
+        {
           "s": "Rival companies have announced similar devices for children.",
           "a": "N",
-          "why": "Not stated. The text does not say whether other companies have announced similar devices."
+          "why": "The text does not mention any other company's product."
         },
         {
-          "s": "Deliveries were expected to start in December 2026.",
-          "a": "T",
-          "why": "The text says: \"Announced at $199 with a wireless plan of approximately $25 a month, the phone was expected to begin shipping in December 2026.\""
-        },
-        {
-          "s": "The writer concludes that the device removes the need for family rules.",
+          "s": "The writer suggests the phone's limits will suit every child.",
           "a": "F",
-          "why": "The text says the opposite: \"No single product can remove the difficult work of setting boundaries, having conversations and gradually handing over responsibility.\""
+          "why": "The text says it \"may suit some children, while others will need a different approach\"."
+        }
+      ],
+      "pre": [
+        {
+          "t": "anxiety",
+          "d": "a worried, nervous feeling"
         },
         {
-          "s": "Freckle has no general web browser or app store.",
-          "a": "T",
-          "why": "The text says: \"Running on the company's ClayOS operating system, it excludes a general web browser, app store, social media platforms and YouTube.\""
+          "t": "compact",
+          "d": "small and neatly designed"
+        },
+        {
+          "t": "distinctive",
+          "d": "clearly different from others"
+        },
+        {
+          "t": "designated",
+          "d": "chosen for a particular purpose"
+        },
+        {
+          "t": "exposure",
+          "d": "the state of being in contact with something, often harmful"
+        },
+        {
+          "t": "burden",
+          "d": "something heavy or hard that you must carry or deal with"
+        },
+        {
+          "t": "boundaries",
+          "d": "limits that show what is allowed"
+        },
+        {
+          "t": "reproducing",
+          "d": "making an exact copy of something"
         }
-      ]
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a pair that fluent speakers reach for by habit. Ask which verb normally sits with the noun, not which verb simply makes sense.",
+        "items": [
+          {
+            "s": "Regulators are under mounting pressure to ____ a balance between innovation and child safety.",
+            "a": "strike"
+          },
+          {
+            "s": "Peer pressure can ____ a powerful influence over what children choose to wear and watch.",
+            "a": "exert"
+          },
+          {
+            "s": "Several headteachers have publicly ____ concerns about children's sleep.",
+            "a": "voiced"
+          },
+          {
+            "s": "The ruling could ____ a precedent that other courts feel obliged to follow.",
+            "a": "set"
+          },
+          {
+            "s": "Platforms should ____ some responsibility for the content they recommend to children.",
+            "a": "bear"
+          }
+        ],
+        "extra": [
+          "tread",
+          "draw"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a first phone for a ten-year-old",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "a parent",
+      "text": "Your daughter is ten and wants a phone. You want a simple one with calls and a camera but no social media. Explain your reasons and ask what your friend thinks."
+    },
+    "b": {
+      "role": "a friend",
+      "text": "Your son has a full smartphone. You think a limited phone may make a child feel left out. Say what worries you, but listen to your friend's reasons."
+    },
+    "phrases": [
+      "I'd rather she didn't have social media yet.",
+      "I'm worried she'll feel left out.",
+      "That's a fair point, but safety matters more to me.",
+      "What do her friends use?",
+      "Couldn't we try it for a few months?",
+      "I'd be happy to review the rules when she's older."
+    ],
+    "after": "Afterwards, tell the class: did the two friends agree, and what was the compromise?"
   }
 }

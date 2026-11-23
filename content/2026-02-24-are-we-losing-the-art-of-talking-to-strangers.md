@@ -6,6 +6,7 @@ source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/feb/24/stra
 image: images/are-we-losing-the-art-of-talking-to-strangers-07dc7f.jpg
 image-alt: An older man in a flat cap and quilted jacket gestures mid-sentence towards a smiling young woman in a denim jacket in facing train seats.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Your alarm does not ring, and you ____ for another hour.",
-            "a": "stay in bed"
-          },
-          {
-            "s": "People who did not ____ sleep were more likely to have high blood pressure.",
-            "a": "catch up on"
-          },
-          {
-            "s": "After a week of early starts, many adults feel ____ by Friday.",
+            "s": "After running a marathon, he was completely ____ and went straight to bed.",
             "a": "exhausted"
           },
           {
-            "s": "A lie-in cannot ____ every unhealthy habit.",
-            "a": "make up for"
+            "s": "It is ____ to check the weather before you plan a long walk.",
+            "a": "sensible"
           },
           {
-            "s": "Going to bed at a ____ time helps your body know when to feel sleepy.",
-            "a": "sensible"
+            "s": "Too much sun can be ____ to your skin.",
+            "a": "harmful"
+          },
+          {
+            "s": "The doctor had some ____ news: the test results were good.",
+            "a": "positive"
+          },
+          {
+            "s": "Biting your nails is a bad ____ that many people find hard to stop.",
+            "a": "habit"
           }
         ],
         "extra": [
-          "work out",
-          "guilty"
+          "anxious",
+          "careless"
         ]
       },
       "match": [
@@ -62,9 +62,9 @@
             "a": "heard"
           },
           {
-            "s": "An extra hour in bed may help them ____ from some lost sleep.",
-            "cue": "recover",
-            "a": "recover"
+            "s": "The adults in the survey ____ more at weekends than on weekdays.",
+            "cue": "sleep",
+            "a": "slept"
           },
           {
             "s": "Not ____ enough sleep may put extra pressure on the body.",
@@ -98,40 +98,109 @@
           "s": "The research proved that a weekend lie-in prevents high blood pressure.",
           "a": "F",
           "why": "The text says the opposite: \"The research found a connection, but it did not prove that a weekend lie-in directly prevents high blood pressure.\""
+        },
+        {
+          "s": "The study says that everyone should sleep until lunchtime on Sunday.",
+          "a": "F",
+          "why": "The text says: \"the study does not mean that everyone should sleep until lunchtime on Sunday.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "lie-in",
+          "d": "staying in bed later than usual in the morning"
+        },
+        {
+          "t": "recover",
+          "d": "get better, or get your energy back"
+        },
+        {
+          "t": "benefits",
+          "d": "good things that you get from something"
+        },
+        {
+          "t": "routine",
+          "d": "the things you do in the same way every day"
+        },
+        {
+          "t": "connection",
+          "d": "a link between two things"
+        },
+        {
+          "t": "upset",
+          "d": "make something go wrong"
+        },
+        {
+          "t": "risk",
+          "d": "the chance that something bad will happen"
+        },
+        {
+          "t": "affect",
+          "d": "change something, or have an effect on it"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Think about the idea each word brings: a reason, a result, a contrast, a condition or a choice.",
+        "items": [
+          {
+            "s": "The doctor says sleep is important ____ it helps the body recover.",
+            "a": "because"
+          },
+          {
+            "s": "It was Saturday, ____ Maria stayed in bed for an extra hour.",
+            "a": "so"
+          },
+          {
+            "s": "____ the alarm was off, Tom woke up at seven.",
+            "a": "Although"
+          },
+          {
+            "s": "____ you want a calm Sunday, try switching off your phone.",
+            "a": "If"
+          },
+          {
+            "s": "Go to bed earlier tonight, ____ you will feel tired tomorrow.",
+            "a": "or"
+          }
+        ],
+        "extra": [
+          "therefore",
+          "moreover"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Even a pleasant lie-in can come with a ____.",
-            "a": "feeling of guilt"
+            "s": "The company made only a ____ profit this year, far less than expected.",
+            "a": "modest"
           },
           {
-            "s": "Participants who caught up on sleep had lower odds of ____, or high blood pressure.",
-            "a": "hypertension"
+            "s": "Many students ____ to find quiet places to study in noisy cities.",
+            "a": "struggle"
           },
           {
-            "s": "By the weekend, many people are ____.",
-            "a": "running on empty"
+            "s": "Carrying heavy bags every day can put a ____ on your back.",
+            "a": "strain"
           },
           {
-            "s": "Catch-up sleep should not become an excuse for ____ on rest.",
-            "a": "cutting back"
+            "s": "Rain is not a good ____ for missing the meeting.",
+            "a": "excuse"
           },
           {
-            "s": "A ____ lie-in after an exhausting week is not necessarily harmful.",
-            "a": "moderate"
-          },
-          {
-            "s": "Very long lie-ins could ____ regular sleep patterns.",
+            "s": "Please do not ____ him while he is working, because he needs to concentrate.",
             "a": "disturb"
+          },
+          {
+            "s": "A year abroad is a great ____ to practise a language.",
+            "a": "opportunity"
           }
         ],
         "extra": [
-          "look after",
-          "consistent"
+          "precise",
+          "interfere"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "They compared people's sleep with the ____ of having high blood pressure.",
-            "cue": "LIKELY",
-            "a": "likelihood"
+            "s": "The bridge ____ in 1998 and still carries traffic today.",
+            "cue": "build",
+            "a": "was built"
           },
           {
-            "s": "The possible ____ for the pattern is fairly straightforward.",
-            "cue": "EXPLAIN",
-            "a": "explanation"
+            "s": "When she got to the station, the train ____ already.",
+            "cue": "leave",
+            "a": "had left"
           },
           {
-            "s": "The most ____ association was found at about an extra eighty-seven minutes.",
-            "cue": "FAVOUR",
-            "a": "favourable"
+            "s": "I ____ to bed earlier; now I feel terrible.",
+            "cue": "should / go",
+            "a": "should have gone"
           },
           {
-            "s": "You could get up, make coffee and start being ____.",
-            "cue": "PRODUCE",
-            "a": "productive"
+            "s": "She suggested ____ a short walk after lunch.",
+            "cue": "take",
+            "a": "taking"
           },
           {
-            "s": "Extra time in bed cannot replace exercise or a ____ diet.",
-            "cue": "BALANCE",
-            "a": "balanced"
+            "s": "If I ____ more time, I would learn the piano.",
+            "cue": "have",
+            "a": "had"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "The study found that women benefited more than men.",
           "a": "N",
           "why": "Not stated. The text does not compare the results for women and men."
+        },
+        {
+          "s": "The most favourable amount of extra sleep was less than ninety minutes.",
+          "a": "T",
+          "why": "An extra hour and twenty-seven minutes is eighty-seven minutes, which is less than ninety."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "duvet",
+          "d": "a thick, soft cover that you sleep under"
+        },
+        {
+          "t": "guilt",
+          "d": "the bad feeling when you think you did something wrong"
+        },
+        {
+          "t": "association",
+          "d": "a connection between two things"
+        },
+        {
+          "t": "hypertension",
+          "d": "another name for high blood pressure"
+        },
+        {
+          "t": "straightforward",
+          "d": "easy to understand, with nothing difficult in it"
+        },
+        {
+          "t": "commute",
+          "d": "travel regularly between home and work"
+        },
+        {
+          "t": "shifts",
+          "d": "periods of work at set times, such as nights"
+        },
+        {
+          "t": "permanently",
+          "d": "for always, without ending"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Decide if the idea is contrast, reason or result. Some of these words join two sentences and some need a noun.",
+        "items": [
+          {
+            "s": "The new phone is expensive. ____, many people think it is worth the money.",
+            "a": "However"
+          },
+          {
+            "s": "My sister enjoys early mornings, ____ I prefer to sleep late.",
+            "a": "whereas"
+          },
+          {
+            "s": "____ the long hours, she still finds time to exercise.",
+            "a": "Despite"
+          },
+          {
+            "s": "Take a break now; ____, you will be too tired to finish the work.",
+            "a": "otherwise"
+          },
+          {
+            "s": "The roads were closed; ____, the buses were late.",
+            "a": "therefore"
+          }
+        ],
+        "extra": [
+          "unless",
+          "nor"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Recent findings add some ____ to the usual advice about sleep schedules.",
+            "s": "The headline was blunt, but the full report contained far more ____ than the press coverage suggested.",
             "a": "nuance"
           },
           {
-            "s": "That specific figure makes an ____ headline.",
-            "a": "irresistible"
+            "s": "The charity launched an urgent appeal to cover a ____ of nearly half its budget.",
+            "a": "shortfall"
           },
           {
-            "s": "The weekend may be the only realistic chance to ____ some of the shortfall.",
-            "a": "make up"
+            "s": "Strikes on the railways are likely to ____ travel plans across the region.",
+            "a": "disrupt"
           },
           {
-            "s": "Very large differences between routines can ____ some of the benefits.",
-            "a": "cancel out"
+            "s": "No amount of money can fully ____ for the loss of a family home.",
+            "a": "compensate"
           },
           {
-            "s": "Getting more sleep may be sensible rather than ____.",
-            "a": "self-indulgent"
+            "s": "The firm reported a ____ increase in profits, far beyond what analysts had predicted.",
+            "a": "substantial"
           },
           {
-            "s": "The distinction between correlation and causation is ____.",
-            "a": "crucial"
+            "s": "The hotel was merely ____: clean and quiet enough, but nothing special.",
+            "a": "adequate"
           }
         ],
         "extra": [
-          "plausible",
-          "juggle"
+          "emphasise",
+          "assign"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "____ sleep can interfere with the night-time fall in blood pressure.",
-            "cue": "SUFFICIENT",
-            "a": "Insufficient"
+            "s": "The scientists were careful to avoid any ____ when describing the results.",
+            "cue": "EXAGGERATE",
+            "a": "exaggeration"
           },
           {
-            "s": "It would be ____ to read the figure as an exact prescription.",
-            "cue": "MISLEAD",
-            "a": "misleading"
+            "s": "The ____ of the findings is limited because other factors were not checked.",
+            "cue": "RELIABLE",
+            "a": "reliability"
           },
           {
-            "s": "There is a plausible ____ explanation for the pattern.",
-            "cue": "PHYSIOLOGY",
-            "a": "physiological"
+            "s": "It would be ____ to assume that one study settles the question.",
+            "cue": "WISE",
+            "a": "unwise"
           },
           {
-            "s": "Catch-up sleep should not become a ____ justification for five nights of deprivation.",
-            "cue": "CONVENIENCE",
-            "a": "convenient"
+            "s": "The ____ between sleep and mood is hard to measure precisely.",
+            "cue": "CONNECT",
+            "a": "connection"
           },
           {
-            "s": "Neither ____ tells us much about how tired those people really are.",
-            "cue": "JUDGE",
-            "a": "judgement|judgment"
+            "s": "He is a highly ____ athlete who trains every morning.",
+            "cue": "DISCIPLINE",
+            "a": "disciplined"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The analysis covered roughly 40,000 South Korean adults over seven years.",
+          "s": "The conclusions rest on observing people's habits rather than controlling them.",
           "a": "T",
-          "why": "The text says: \"At the European Society of Cardiology congress in August 2026, researchers presented an analysis of roughly 40,000 adults in South Korea whose data had been collected over seven years.\""
+          "why": "The researchers \"did not assign people different amounts of weekend sleep\", so they observed existing habits."
         },
         {
-          "s": "The findings have changed official sleep guidance in South Korea.",
-          "a": "N",
-          "why": "Not stated. The text says nothing about official sleep guidance in South Korea."
-        },
-        {
-          "s": "Researchers assigned people different amounts of weekend sleep.",
+          "s": "The text suggests that sleeping until midday may bring the same benefits as an extra hour.",
           "a": "F",
-          "why": "The text says the opposite: \"The researchers did not assign people different amounts of weekend sleep and then prove that a lie-in prevented illness.\""
+          "why": "Very large differences in routine can disrupt the body clock, so midday is called \"a very different proposition\"."
         },
         {
-          "s": "The strongest favourable association was at about an hour and twenty-seven minutes.",
+          "s": "The study found that desk workers benefited more than manual workers.",
+          "a": "N",
+          "why": "Occupation is mentioned only as a possible influence; no groups are compared."
+        },
+        {
+          "s": "The writer implies that early risers are not necessarily less tired than late risers.",
           "a": "T",
-          "why": "The text says: \"The strongest favourable association was reported at approximately one hour and twenty-seven minutes of additional sleep.\""
+          "why": "Neither being called lazy nor being praised for discipline \"tells us much about how tired those people actually are\"."
+        },
+        {
+          "s": "The writer treats the figure of one hour and twenty-seven minutes as an exact instruction for everyone.",
+          "a": "F",
+          "why": "The text says it would be misleading to interpret it \"as an exact prescription for every tired adult\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "physiological",
+          "d": "connected with how the body works"
+        },
+        {
+          "t": "burden",
+          "d": "something heavy or difficult that you have to deal with"
+        },
+        {
+          "t": "correlation",
+          "d": "a link where two things change together"
+        },
+        {
+          "t": "causation",
+          "d": "the fact that one thing makes another happen"
+        },
+        {
+          "t": "prescription",
+          "d": "an exact instruction about what someone should do"
+        },
+        {
+          "t": "justification",
+          "d": "a good reason that explains why something is acceptable"
+        },
+        {
+          "t": "proposition",
+          "d": "a suggestion or situation that you have to consider"
+        },
+        {
+          "t": "irresistible",
+          "d": "so attractive that you cannot say no"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some of these words take a noun, some a clause, and some mark a concession or a result. Check the punctuation before the gap.",
+        "items": [
+          {
+            "s": "The pilot scheme was a success, ____ a modest one.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ the objections of local residents, the council approved the plan.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "The sample was small; ____, the findings should be treated with caution.",
+            "a": "hence"
+          },
+          {
+            "s": "In the first town rents have soared, ____ in the second they have barely moved.",
+            "a": "whereas"
+          },
+          {
+            "s": "The scheme will go ahead, ____ the funding is secured by March.",
+            "a": "provided"
+          }
+        ],
+        "extra": [
+          "lest",
+          "whereby"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a quiet Saturday morning",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the flatmate who wants to sleep late",
+      "text": "It's Saturday and you've had a long, tiring week. You want to stay in bed until ten. Explain why, and suggest a plan that works for both of you."
+    },
+    "b": {
+      "role": "the flatmate who wants an early start",
+      "text": "You want to go out for breakfast at eight and then tidy the flat. Ask your flatmate to join you. Listen to their reasons and try to agree on a compromise."
+    },
+    "phrases": [
+      "I'd really like to stay in bed this morning.",
+      "It's been a long week and I'm exhausted.",
+      "Could we go for breakfast a bit later?",
+      "I'd rather start early, if that's okay.",
+      "That's fair, so how about we meet at nine?",
+      "Let's compromise: you tidy now and I'll cook later."
+    ],
+    "after": "Afterwards, tell the class: what did you agree, and was it a fair compromise?"
   }
 }

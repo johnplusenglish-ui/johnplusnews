@@ -9,6 +9,7 @@ source-2: TUI Musement, Travel in the age of scrolling | https://www.tuigroup.co
 source-2-date: 25 August 2026
 image: images/is-instagram-choosing-our-holidays-42c04a.jpg
 image-alt: Seen from behind, a crowd packed along a railing at a city viewpoint holds up phones to photograph the rooftops and a distant domed basilica.
+layout: lesson
 ---
 === Core ===
 

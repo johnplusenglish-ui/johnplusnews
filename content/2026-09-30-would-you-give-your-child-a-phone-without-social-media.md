@@ -6,6 +6,7 @@ source: Fast Company | https://www.fastcompany.com/91612943/freckle-phone-design
 image: images/would-you-give-your-child-a-phone-without-social-media-760e58.jpg
 image-alt: Seen from behind, a child in a yellow jumper holds up a chunky orange and blue camera device whose screen shows a robin perched on a blossoming branch in a park.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

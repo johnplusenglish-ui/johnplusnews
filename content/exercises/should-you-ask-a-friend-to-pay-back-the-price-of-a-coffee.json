@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "When a friend ____ for something small, it should be a treat, not a loan.",
-            "a": "picks up the bill"
+            "s": "He felt ____ when the whole table started staring at him.",
+            "a": "uncomfortable"
           },
           {
-            "s": "Some friends prefer to ____ each time they meet.",
-            "a": "split the bill"
+            "s": "Please ____ the money to my bank account by tomorrow.",
+            "a": "transfer"
           },
           {
-            "s": "A student watching every penny may find several coffees a week ____.",
-            "a": "expensive"
+            "s": "Salaries are a ____ subject, so many people never discuss them.",
+            "a": "sensitive"
           },
           {
-            "s": "If a friend always forgets to pay, small costs soon ____.",
-            "a": "add up"
+            "s": "I don't want to ____ anyone money, so I pay straight away.",
+            "a": "owe"
           },
           {
-            "s": "Nobody wants to feel that somebody is ____ them.",
-            "a": "taking advantage of"
+            "s": "Our ____ is simple: I cook on Mondays and she cooks on Tuesdays.",
+            "a": "arrangement"
           }
         ],
         "extra": [
-          "speak up",
-          "unfair"
+          "receipt",
+          "discount"
         ]
       },
       "match": [
@@ -98,40 +98,109 @@
           "s": "Cosgrove's friend asked her for A$12.50 after they met.",
           "a": "T",
           "why": "The text says: \"Then came an unexpected message: her friend wanted A$12.50 for the drink.\""
+        },
+        {
+          "s": "Anna and Sam keep a record of every coffee they buy.",
+          "a": "F",
+          "why": "The text says: \"They never write the amounts down.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "unexpected",
+          "d": "not what you thought would happen"
+        },
+        {
+          "t": "loan",
+          "d": "money that you borrow and must give back"
+        },
+        {
+          "t": "coins",
+          "d": "small round pieces of metal money"
+        },
+        {
+          "t": "offering",
+          "d": "saying that you will give something"
+        },
+        {
+          "t": "invented",
+          "d": "made up, not real"
+        },
+        {
+          "t": "treat",
+          "d": "something nice that you buy for another person"
+        },
+        {
+          "t": "split",
+          "d": "to share between people"
+        },
+        {
+          "t": "penny",
+          "d": "a very small amount of money"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word like up or back. The small word changes the meaning, so learn them as a pair.",
+        "items": [
+          {
+            "s": "My brother always picks ____ the bill when we eat out.",
+            "a": "up"
+          },
+          {
+            "s": "I wrote the price ____ so I would not forget it.",
+            "a": "down"
+          },
+          {
+            "s": "Can you pay me ____ on Friday?",
+            "a": "back"
+          },
+          {
+            "s": "One small argument can turn ____ a big problem.",
+            "a": "into"
+          },
+          {
+            "s": "Let's work ____ who owes what before we leave.",
+            "a": "out"
+          }
+        ],
+        "extra": [
+          "away",
+          "along"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Friends should be able to treat each other without keeping a ____.",
-            "a": "running total"
+            "s": "Receiving a card from my colleagues was a lovely ____ that I will always remember.",
+            "a": "gesture"
           },
           {
-            "s": "If one person picks up the tab, the other can ____ another day.",
-            "a": "return the favour"
+            "s": "She felt ____ to her neighbour, who had helped her for years, and wanted to repay the kindness.",
+            "a": "indebted"
           },
           {
-            "s": "One reason the argument ____ is that people have different ideas about money.",
-            "a": "strikes a nerve"
+            "s": "A ____ salary can still be enough if you budget carefully.",
+            "a": "modest"
           },
           {
-            "s": "Nobody feels indebted and everything is ____.",
-            "a": "above board"
+            "s": "The shop has ____ offered lower prices than its rivals.",
+            "a": "consistently"
           },
           {
-            "s": "A generous friend who always pays might eventually feel ____ when nobody thanks them.",
-            "a": "taken for granted"
+            "s": "I would ____ it if my colleagues forgot to say thank you every single time.",
+            "a": "resent"
           },
           {
-            "s": "An honest conversation could ____ before annoyance builds up.",
-            "a": "clear the air"
+            "s": "After the trip, we divided the ____ equally between the four of us.",
+            "a": "expenses"
           }
         ],
         "extra": [
-          "laugh it off",
-          "considerate"
+          "reminders",
+          "selfish"
         ]
       },
       "match": [
@@ -153,32 +222,32 @@
         }
       ],
       "grammar": {
-        "kind": "word",
+        "kind": "verb",
         "items": [
           {
-            "s": "A casual catch-up had suddenly turned into a ____.",
-            "cue": "TRANSACT",
-            "a": "transaction"
+            "s": "By the time we reached the till, my friend ____ for everything.",
+            "cue": "pay",
+            "a": "had paid"
           },
           {
-            "s": "Cosgrove asks where fairness ends and ____ begins.",
-            "cue": "GENEROUS",
-            "a": "generosity"
+            "s": "At the end of the meal, the bill ____ equally between the four of us.",
+            "cue": "split",
+            "a": "was split"
           },
           {
-            "s": "A$12.50 may be ____ to one person and a real expense to another.",
-            "cue": "SIGNIFICANT",
-            "a": "insignificant"
+            "s": "Small favours ____ quickly when nobody mentions them.",
+            "cue": "forget",
+            "a": "are forgotten"
           },
           {
-            "s": "The rise of instant transfers has made settling up ____.",
-            "cue": "EFFORT",
-            "a": "effortless"
+            "s": "If her friend hadn't sent the message, the afternoon ____ perfect.",
+            "cue": "be",
+            "a": "would have been"
           },
           {
-            "s": "A harmless difference in habits can become a lasting ____.",
-            "cue": "UNDERSTAND",
-            "a": "misunderstanding"
+            "s": "While she ____ home by train, a message arrived.",
+            "cue": "travel",
+            "a": "was travelling"
           }
         ]
       },
@@ -202,40 +271,109 @@
           "s": "Instant transfers have made settling up easier than before.",
           "a": "T",
           "why": "The text says: \"The rise of instant transfers has made settling up effortless, and it can make a small favour feel like a bill.\""
+        },
+        {
+          "s": "The drink Cosgrove was asked to pay for was cheaper than the limit in her personal rule.",
+          "a": "T",
+          "why": "The drink cost A$12.50, and her rule is that expenses \"below A$15 should generally be left alone\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "transaction",
+          "d": "a payment or exchange of money"
+        },
+        {
+          "t": "awkward",
+          "d": "uncomfortable and difficult to deal with"
+        },
+        {
+          "t": "tab",
+          "d": "the bill in a cafe or bar"
+        },
+        {
+          "t": "favour",
+          "d": "a kind thing you do to help someone"
+        },
+        {
+          "t": "calculations",
+          "d": "the work of adding or dividing numbers"
+        },
+        {
+          "t": "effortless",
+          "d": "needing no effort at all"
+        },
+        {
+          "t": "misunderstanding",
+          "d": "a small disagreement because someone did not understand"
+        },
+        {
+          "t": "annoyance",
+          "d": "a feeling of being a little angry"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Some phrasal verbs are idiomatic: the meaning is not clear from the two parts. Ask what the whole expression means in the sentence.",
+        "items": [
+          {
+            "s": "If the group is short of cash, we can all chip ____ and share the cost.",
+            "a": "in"
+          },
+          {
+            "s": "She decided to sleep ____ it before replying to the message.",
+            "a": "on"
+          },
+          {
+            "s": "She offered to pay her friend ____ the next day.",
+            "a": "back"
+          },
+          {
+            "s": "He didn't want to fall ____ with his flatmate over a few pounds.",
+            "a": "out"
+          },
+          {
+            "s": "Small costs quickly mount ____ if nobody keeps track.",
+            "a": "up"
+          }
+        ],
+        "extra": [
+          "apart",
+          "aside"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "A message ____ an otherwise enjoyable afternoon.",
-            "a": "took the shine off"
+            "s": "Any purchase above a certain ____ needs the finance team's approval.",
+            "a": "threshold"
           },
           {
-            "s": "Cosgrove made the case for financial ____ between friends.",
-            "a": "looseness"
+            "s": "As the costs kept ____, the group finally had to discuss who was paying.",
+            "a": "mounting"
           },
           {
-            "s": "Digital payments have made settling up almost ____.",
-            "a": "frictionless"
+            "s": "Diplomats worked quietly to ____ the fragile peace between the two sides.",
+            "a": "preserve"
           },
           {
-            "s": "Between close friends, precision may feel as though the relationship were subject to ____.",
-            "a": "a running audit"
+            "s": "The scheme was so ____ that few employees could be bothered to follow every stage.",
+            "a": "elaborate"
           },
           {
-            "s": "It is easy to mistake a financial boundary for a ____.",
-            "a": "personal slight"
+            "s": "It is a ____ that people who value independence often resent offers of help.",
+            "a": "paradox"
           },
           {
-            "s": "The solution may be less about a universal price limit than about ____.",
-            "a": "reading the room"
+            "s": "Keeping a spreadsheet of who owes what turns friendship into ____.",
+            "a": "bookkeeping"
           }
         ],
         "extra": [
-          "short-changed",
-          "reassuring"
+          "seldom",
+          "unwritten"
         ]
       },
       "match": [
@@ -260,54 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "An immediate transfer is a ____ way of avoiding an obligation.",
-            "cue": "CONSIDER",
-            "a": "considerate"
+            "s": "The ____ in her voice made it clear she was upset.",
+            "cue": "IRRITATE",
+            "a": "irritation"
           },
           {
-            "s": "Someone repaying every penny might be protecting their ____.",
-            "cue": "DEPEND",
-            "a": "independence"
+            "s": "Her ____ meant nobody ever left the table hungry.",
+            "cue": "GENEROUS",
+            "a": "generosity"
           },
           {
-            "s": "Those differences can quickly lead to ____.",
-            "cue": "RESENT",
-            "a": "resentment"
+            "s": "Prompt ____ of even tiny sums can seem cold between old friends.",
+            "cue": "REPAY",
+            "a": "repayment"
           },
           {
-            "s": "Over time, an arrangement that looked generous can start to feel ____.",
-            "cue": "EXPLOIT",
-            "a": "exploitative"
+            "s": "A ____ over who had ordered what ended the evening.",
+            "cue": "AGREE",
+            "a": "disagreement"
           },
           {
-            "s": "Neither side realises the other follows different ____ rules.",
-            "cue": "WRITE",
-            "a": "unwritten"
+            "s": "His ____ on his friends to pay was becoming obvious.",
+            "cue": "RELY",
+            "a": "reliance"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The writer argues that everyone should adopt a universal price limit.",
+          "s": "Two friends can follow different rules about money without either of them being aware of it.",
+          "a": "T",
+          "why": "The text says neither side \"necessarily realises the other follows different unwritten rules\"."
+        },
+        {
+          "s": "The amount Cosgrove was asked for fell below her own limit for leaving small sums unclaimed.",
+          "a": "T",
+          "why": "The request was for A$12.50, and her informal limit was A$15, \"below that\" one person should pick up the tab."
+        },
+        {
+          "s": "The writer believes a system of repayment requests works better than a quiet conversation.",
           "a": "F",
-          "why": "The text says the opposite: \"The solution may be less about setting a universal price limit than about reading the room.\""
+          "why": "The text says a quiet conversation \"may preserve goodwill more effectively than an elaborate system of repayment requests\"."
         },
         {
-          "s": "The piece says a small payment can mean different things to people on different incomes.",
-          "a": "T",
-          "why": "The text says: \"A modest drink might represent loose change to one person and a carefully considered expense to another.\""
-        },
-        {
-          "s": "Cosgrove's informal threshold for treating a friend was A$15.",
-          "a": "T",
-          "why": "The text says: \"Her informal threshold was A$15: below that, she felt, one person ought to pick up the tab and trust that the favour would eventually be returned.\""
-        },
-        {
-          "s": "The column was the most read article on the Guardian site that week.",
+          "s": "Cosgrove's colleague had behaved in a similar way on previous occasions.",
           "a": "N",
-          "why": "Not stated. The text does not say how widely the column was read."
+          "why": "The text gives no history of the colleague's behaviour."
+        },
+        {
+          "s": "In the Friday group, the friend who treats everyone is also the one who repays immediately.",
+          "a": "F",
+          "why": "The text describes two different people: one \"enjoys treating the group, another immediately repays whatever they owe\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "acquaintances",
+          "d": "people you know but are not close to"
+        },
+        {
+          "t": "goodwill",
+          "d": "friendly and helpful feelings between people"
+        },
+        {
+          "t": "obligation",
+          "d": "something you feel you must do"
+        },
+        {
+          "t": "boundary",
+          "d": "a limit that shows what you will accept"
+        },
+        {
+          "t": "spontaneous",
+          "d": "done naturally, without planning"
+        },
+        {
+          "t": "explicit",
+          "d": "stated clearly, not just suggested"
+        },
+        {
+          "t": "independence",
+          "d": "being able to manage without help from others"
+        },
+        {
+          "t": "resentment",
+          "d": "a bitter feeling about something unfair"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "At this level the verb often carries the meaning. Read the particle that is already printed and ask which verb it partners with.",
+        "items": [
+          {
+            "s": "When the bill arrived, nobody was keen to ____ up first.",
+            "a": "stump"
+          },
+          {
+            "s": "A frank conversation might help the friends ____ out their differences.",
+            "a": "iron"
+          },
+          {
+            "s": "Small, thoughtless purchases soon ____ up a surprising total.",
+            "a": "rack"
+          },
+          {
+            "s": "Generosity is often ____ up as the sign of a good friend.",
+            "a": "held"
+          },
+          {
+            "s": "He tried to ____ down his disappointment so as not to offend her.",
+            "a": "tone"
+          }
+        ],
+        "extra": [
+          "cave",
+          "fizzle"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: who pays for the coffee?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the friend who paid",
+      "text": "You bought coffee and cake for you both yesterday. It came to 14 pounds, and money is tight this month. Ask your friend to pay you back, but stay polite."
+    },
+    "b": {
+      "role": "the other friend",
+      "text": "You thought your friend's payment was a treat. Now you have a message asking for money. Explain how you feel and suggest a fair rule for next time."
+    },
+    "phrases": [
+      "I'm sorry to bring it up, but could you send me half?",
+      "I thought it was a treat, to be honest.",
+      "It's not about the money, it's about being fair.",
+      "Let's take turns from now on.",
+      "Shall we split the bill next time?",
+      "I didn't mean to upset you."
+    ],
+    "after": "Afterwards, tell the class: what rule did you agree, and was it fair for both of you?"
   }
 }

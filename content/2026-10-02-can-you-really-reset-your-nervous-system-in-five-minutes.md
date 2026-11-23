@@ -10,6 +10,7 @@ source-2-date: 24 May 2022
 image: images/can-you-really-reset-your-nervous-system-in-five-minutes-c85ad9.jpg
 image-alt: A small figure in a pink jumper sits alone on a green bench in a sunny park with her eyes closed, framed by leaves, with other people walking in the distance.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

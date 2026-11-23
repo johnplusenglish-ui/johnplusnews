@@ -10,6 +10,7 @@ source-2-date: 9 September 2016
 image: images/do-your-hips-really-hold-stress-752497.jpg
 image-alt: A laughing man in a bright green t-shirt sits cross-legged on a purple yoga mat in a bright living room, leaning forward into a stiff hip stretch.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

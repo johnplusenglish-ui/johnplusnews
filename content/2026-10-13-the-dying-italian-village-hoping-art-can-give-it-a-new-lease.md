@@ -6,6 +6,7 @@ tags: Culture, Travel
 image: images/the-dying-italian-village-hoping-art-can-give-it-a-new-lease-318d1f.jpg
 image-alt: A stone hilltop village with a bell tower stands on an eroded cliff, reached by a long narrow footbridge, with wooded valleys and hazy hills behind.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

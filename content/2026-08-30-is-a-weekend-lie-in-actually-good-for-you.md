@@ -6,6 +6,7 @@ source: The Guardian | https://www.theguardian.com/lifeandstyle/2026/aug/30/slee
 image: images/is-a-weekend-lie-in-actually-good-for-you-63fd76.jpg
 image-alt: A man in a khaki t-shirt stretches both arms above his head and yawns in a large bed, with bright daylight filling the bedroom behind him.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 
