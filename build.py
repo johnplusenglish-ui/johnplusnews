@@ -511,6 +511,8 @@ def parse_article(path):
         "order": order,
         "questions": questions,
         "exercises": load_exercises(slug),
+        "layout": meta.get("layout", "").strip().lower(),
+        "lesson": load_lesson(slug),
         "tags": parse_tags(meta.get("tags", "")),
         "versions": [
             {"level": v["level"], "html": mark_language(body_html(v["text"]), language.get(v["level"], []), path, v["level"]),
@@ -1688,6 +1690,176 @@ def next_card(a):
                 url=url_of(a), img=img, topic=esc(topic), title=esc(a["title"]), summary=esc(a["summary"]))
 
 
+# --------------------------------------------------------------- lesson layout
+# An article whose header says "layout: lesson" is laid out as a nine-task lesson: warm up and key
+# words before the text, then understanding, vocabulary, grammar and a language focus, then speaking.
+# The tasks come from content/exercises/<slug>.json. The printed sheet is static/worksheets/, made
+# by tools/worksheet.py.
+
+CEFR = {"core": "B1", "intermediate": "B2", "advanced": "C1/C2"}
+LS_ACTS = ('<div class="ls-acts"><button type="button" class="ls-btn" data-ls-check>Check answers</button>'
+           '<button type="button" class="ls-btn ls-ghost" data-ls-reset>Try again</button>'
+           '<span class="ls-score" role="status"></span></div>')
+
+
+def load_lesson(slug):
+    f = CONTENT / "exercises" / (slug + ".json")
+    if not f.exists():
+        return None
+    try:
+        return json.loads(f.read_text(encoding="utf-8"))
+    except Exception as err:
+        raise SystemExit("{}: {}".format(f.name, err))
+
+
+def is_lesson(a):
+    d = a.get("lesson") or {}
+    return a.get("layout") == "lesson" and all(
+        (d.get("levels") or {}).get(v["level"].lower(), {}).get("focus") for v in a["versions"])
+
+
+def lesson_words(d, seed):
+    """Eight key words to match before reading, and the fixed order their meanings are listed in.
+    A word that is the answer to a later task is left out, so the first task never gives one away."""
+    taken = ({x.lower() for i in d["grammar"]["items"] for x in i["a"].split("|")}
+             | {i["a"].lower() for i in d["gap"]["items"]})
+    words = [w for w in d.get("pre", []) + d["match"] if w["t"].lower() not in taken][:8]
+    order = sorted(range(len(words)), key=lambda i: hashlib.md5("{}|{}".format(seed, i).encode("utf-8")).hexdigest())
+    return words, order
+
+
+def ls_task(n, title, hint, how, inner, opened=False):
+    return ('<details class="ls-task" data-ls-task="{n}"{o}><summary><span class="ls-num">{n}</span>'
+            '<span class="ls-t">{t}</span>{h}<span class="ls-sp"></span>{chev}</summary>'
+            '<div class="ls-body">{how}{inner}</div></details>').format(
+                n=n, o=" open" if opened else "", t=esc(title),
+                h='<span class="ls-hint">{}</span>'.format(esc(hint)) if hint else "",
+                chev=CHEVRON_ICON, how='<p class="ls-how">{}</p>'.format(how) if how else "", inner=inner)
+
+
+def ls_select(options, answer, start):
+    opts = "".join("<option>{}</option>".format(esc(o)) for o in options)
+    return ('<select class="ls-g{c}" data-a="{a}" aria-label="Choose a word"><option value=""></option>{o}</select>'
+            ).format(c=" ls-cap" if start else "", a=esc(answer), o=opts)
+
+
+def ls_gap_rows(items, bank):
+    rows = []
+    for it in items:
+        before, after = it["s"].split("____", 1)
+        start = before == "" or re.search(r"[.?!]\s$", before) is not None
+        rows.append("<li>{}{}{}</li>".format(esc(before), ls_select(bank, it["a"], start), esc(after)))
+    return ('<p class="ls-bank">{}</p><ol class="ls-rows">{}</ol>'.format(
+        "".join("<span>{}</span>".format(esc(w)) for w in bank), "".join(rows)))
+
+
+def ls_questions(a, level, key):
+    per = (a["questions"].get("levels") or {}).get(level, {}).get(key)
+    return per or a["questions"].get(key) or []
+
+
+def ls_wrap(a, fn):
+    """One block per reading level. The level tabs show the one that matches (data-qlevel)."""
+    d = default_index(a["versions"])
+    return "".join('<div class="ls-level" data-qlevel="{k}"{hid}>{body}</div>'.format(
+        k=v["level"].lower(), hid="" if i == d else " hidden", body=fn(v["level"], a["lesson"]["levels"][v["level"].lower()]))
+        for i, v in enumerate(a["versions"]))
+
+
+def lesson_before(a):
+    def one(level, d):
+        key = level.lower()
+        words, order = lesson_words(d, a["slug"] + key)
+        letters = [chr(65 + n) for n in range(len(words))]
+        letter_of = {i: letters[pos] for pos, i in enumerate(order)}
+        qs = ls_questions(a, level, "before")
+        warm = ls_task(1, "Warm up", "{} questions".format(len(qs)), "Talk about these questions with a partner.",
+                       '<ol class="ls-qs">{}</ol>'.format("".join("<li>{}</li>".format(inline(q)) for q in qs)), True) if qs else ""
+        left = "".join(
+            '<li><b>{t}</b><select data-a="{a}" aria-label="Meaning of {t}"><option value=""></option>{o}</select></li>'.format(
+                t=esc(w["t"]), a=letter_of[i], o="".join("<option>{}</option>".format(c) for c in letters))
+            for i, w in enumerate(words))
+        right = "".join("<li><b>{}</b><span>{}</span></li>".format(letters[pos], esc(words[i]["d"])) for pos, i in enumerate(order))
+        kw = ls_task(2, "Key words", "{} words".format(len(words)),
+                     "These words are in the article. Choose the letter of the meaning for each one.",
+                     '<div class="ls-kw"><ol class="ls-kw-w">{}</ol><ul class="ls-kw-m">{}</ul></div>'.format(left, right) + LS_ACTS)
+        return warm + kw
+    return '<h2 class="ls-stage">Before you read</h2>' + ls_wrap(a, one)
+
+
+def lesson_after(a):
+    def tasks(level, d):
+        tfn = "".join(
+            '<li><div class="ls-st"><span>{s}</span><span class="ls-tfn" data-a="{a}" role="group" aria-label="True, false or not given">{b}</span></div>{w}</li>'.format(
+                s=esc(t["s"]), a=esc(t["a"]),
+                b="".join('<button type="button" aria-pressed="false" data-v="{}">{}</button>'.format(v, "NG" if v == "N" else v) for v in "TFN"),
+                w='<p class="ls-why" hidden>{}</p>'.format(esc(t["why"])) if t.get("why") else "")
+            for t in d["tfn"])
+        t4 = ls_task(4, "True, false or not given", "{} statements".format(len(d["tfn"])),
+                     "Choose <b>T</b> (true), <b>F</b> (false) or <b>NG</b> (the article does not say).",
+                     '<ol class="ls-rows">{}</ol>'.format(tfn) + LS_ACTS)
+        g = d["gap"]
+        bank = sorted([i["a"] for i in g["items"]] + list(g.get("extra") or []), key=str.lower)
+        t5 = ls_task(5, "Vocabulary", "{} gaps".format(len(g["items"])),
+                     "Complete the sentences with words from the box. Two words are not needed.",
+                     ls_gap_rows(g["items"], bank) + LS_ACTS)
+        gr = d["grammar"]
+        verb = gr["kind"] == "verb"
+        rows = []
+        for it in gr["items"]:
+            before, after = it["s"].split("____", 1)
+            rows.append('<li>{}<input class="ls-g" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" '
+                        'data-a="{}" aria-label="Your answer">{} <span class="ls-cue">({})</span></li>'.format(
+                            esc(before), esc(it["a"]), esc(after), esc(it["cue"].upper())))
+        t6 = ls_task(6, "Verb forms" if verb else "Word forms", "{} gaps".format(len(gr["items"])),
+                     "Write the correct form of the verb in brackets." if verb else
+                     "Use the word in brackets to make a word that fits the gap.",
+                     '<ol class="ls-rows">{}</ol>'.format("".join(rows)) + LS_ACTS)
+        f = d["focus"]
+        fbank = sorted([i["a"].lower() for i in f["items"]] + list(f.get("extra") or []))
+        t7 = ls_task(7, "Language focus", f.get("type", ""),
+                     "Complete the sentences with words from the box. Two words are not needed. " + esc(f.get("note", "")),
+                     ls_gap_rows(f["items"], fbank) + LS_ACTS)
+        return t4 + t5 + t6 + t7
+
+    def talk(level, d):
+        qs = ls_questions(a, level, "after")
+        return ls_task(8, "Talk about it", "{} questions".format(len(qs)),
+                       "Discuss in pairs or small groups. Give reasons for your answers.",
+                       '<ol class="ls-qs">{}</ol>'.format("".join("<li>{}</li>".format(inline(q)) for q in qs)), True) if qs else ""
+
+    out = ('<h2 class="ls-stage">After you read<button type="button" data-ls-all>Open all</button></h2>' + ls_wrap(a, tasks)
+           + '<h2 class="ls-stage">Speak</h2>' + ls_wrap(a, talk))
+    sp = a["lesson"].get("speak")
+    if sp:
+        out += ls_task(9, sp["title"], "", esc(sp["setup"]),
+                       '<div class="ls-cards"><div class="ls-card"><h4>Student A · {ar}</h4><p>{at}</p></div>'
+                       '<div class="ls-card"><h4>Student B · {br}</h4><p>{bt}</p></div></div>'
+                       '<div class="ls-phr"><h4>Useful phrases</h4><ul>{ph}</ul></div><p class="ls-after">{af}</p>'.format(
+                           ar=esc(sp["a"]["role"]), at=esc(sp["a"]["text"]), br=esc(sp["b"]["role"]), bt=esc(sp["b"]["text"]),
+                           ph="".join("<li>{}</li>".format(esc(p)) for p in sp["phrases"]), af=esc(sp["after"])))
+    return '<section class="ls-tasks">{}</section>'.format(out)
+
+
+def lesson_pdf_links(a):
+    """The printed worksheet for each level, if tools/worksheet.py has made one."""
+    d = default_index(a["versions"])
+    out = []
+    for i, v in enumerate(a["versions"]):
+        k = v["level"].lower()
+        name = "worksheets/{}-{}-{}.pdf".format(a["slug"], k, CEFR.get(k, "").replace("/", "-").lower())
+        f = STATIC / name
+        if f.exists():
+            out.append('<a class="ls-pdf" data-qlevel="{k}"{hid} href="/{n}?v={h}" download>{icon}<span>Worksheet PDF</span></a>'.format(
+                k=k, hid="" if i == d else " hidden", n=name, h=hashlib.md5(f.read_bytes()).hexdigest()[:6], icon=PDF_ICON))
+    return "".join(out)
+
+
+def lesson_script():
+    f = STATIC / "lesson.js"
+    return '<script src="/lesson.js?v={}" defer></script>\n'.format(hashlib.md5(f.read_bytes()).hexdigest()[:8]) if f.exists() else ""
+
+
 def article_page(a, newer, older, pool=()):
     first = a["versions"][default_index(a["versions"])]
     img = ""
@@ -1749,10 +1921,42 @@ def article_page(a, newer, older, pool=()):
                      back=('<a class="back" href="/teens/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">Teens</span></a>' if a["teens"] else '<a class="back" href="/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">All articles</span></a>'),
                      topics=("" if a["teens"] else topics_html(a)), versions=versions_html(a), listen=listen_html(a), before=questions_html(a, "before"), study=study_html(a), source=source, pager=pager,
                      foot=esc("Read this article online: " + SITE["url"].replace("https://", "") + url_of(a)))
+    lesson = is_lesson(a)
+    if lesson:
+        main = """<article class="wrap ls"{locked}>
+<header class="article-head ls-head">
+{back}
+<div class="ls-bar">{tabs}<span class="ls-tools">{pdf}{timer}</span></div>
+<script>{studyjs}</script>
+<p class="ls-kicker">News lesson<span>{date}</span></p>
+<h1>{title}</h1>
+<p class="dek">{summary}</p>
+{img}
+{listen}
+{before}
+</header>
+<h2 class="ls-stage">Read</h2>
+<h3 class="ls-readhead"><span class="ls-num">3</span>Read the article</h3>
+<p class="ls-how ls-readhow">The paragraphs are numbered. Look out for the key words from task 2.</p>
+{versions}
+<footer class="article-info">
+{source}
+{topics}
+</footer>
+{after}
+<section class="study-tools ls-words"><h2 class="ls-stage">Your words</h2><div class="qs-group">{words}</div></section>
+{pager}
+</article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a),
+                     back='<a class="back" href="/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">All articles</span></a>',
+                     pdf=lesson_pdf_links(a), timer='<div class="timerpick" id="timerslot"></div>', studyjs=STUDY_JS,
+                     date=esc(shown_date(a)), title=esc(first["title"]), summary=esc(first["summary"]),
+                     img=re.sub(r"<figcaption.*?</figcaption>", "", img), listen=listen_html(a), before=lesson_before(a),
+                     versions=versions_html(a), source=source, topics=topics_html(a), after=lesson_after(a),
+                     words=highlights_rows(a), pager=pager)
     no_js = ".tools{display:none}" + (".vtabs{display:none}.panel[hidden]{display:block!important}.lvl-head{display:block!important}" if len(a["versions"]) > 1 else "")
     return page(url_of(a), main, title=first["title"], desc=first["summary"], image=a["image"] or None, kind="article", article=a,
                 current="/teens/" if a["teens"] else None,
-                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script() + ("" if a["teens"] else timer_script()) + listen_script(a) + exercises_script(a)
+                head_extra=HEAD_JS + "<noscript><style>" + no_js + "</style></noscript>\n" + highlight_script() + ("" if a["teens"] else timer_script()) + listen_script(a) + (lesson_script() if lesson else exercises_script(a))
                           + "<script>" + FIRSTRUN_JS + "</script>\n")
 
 

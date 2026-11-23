@@ -128,6 +128,14 @@ When a reader switches tab, the headline, the subheading and the browser tab tit
 
 An article can have two optional sets of questions: **Before you read** (warm-up questions) and **Talk about it** (discussion questions). On the page they are two quiet one-line rows, one under the picture and one under the text, closed until a reader opens them, so the article itself stays clean. The PDF always prints both open, in a tinted box. Every level shares the same questions, so keep the wording simple enough for the Core level.
 
+## Lesson layout
+
+An article whose header has the line `layout: lesson` is laid out as a nine-task lesson instead of the usual page: Warm up and Key words before the text, the article with numbered paragraphs, then True, false or not given, Vocabulary, Verb forms (Word forms at Advanced), a Language focus, Talk about it and a role-play. The level tabs carry the CEFR level (Core B1, Intermediate B2, Advanced C1/C2). The article is always open; the practice tasks open one by one, each with Check answers and Try again.
+
+The tasks come from `content/exercises/<slug>.json`. As well as the usual `gap`, `match`, `grammar` and `tfn`, each level needs `pre` (key words, each with `t` and `d`) and `focus` (`type`, `note`, `items`, `extra`), and the file needs a top-level `speak` (the role-play: `title`, `setup`, `a`, `b`, `phrases`, `after`). Key words shows eight words, and leaves out any word that is the answer to a later task. The Language focus changes from article to article (linking words, prepositions, collocations and so on); `type` is the small label beside it. Pitch every task at its level, not only the text. If any level has no `focus`, the article falls back to the usual page.
+
+The printed worksheet is one A4 PDF per level in `static/worksheets/`, four pages with the answer key alone on the fifth. Make them with `python3 tools/worksheet.py <slug>` (it needs Google Chrome), then build. The page shows a Worksheet PDF link for each level that has a file. Run it again whenever the article or its exercises change. The code is the "lesson layout" block in `build.py`, `static/lesson.js`, and the "Lesson layout" rules at the end of `style.css`.
+
 ## Timer
 
 Every article page has a small timer pill in the bottom-right corner (static/timer.js). Tap it to set the minutes (type a number or press 5, 10, 15 or 20), then Start. While it runs, a thin bar down the left edge of the page fills from the top and turns amber in the last tenth, and a soft two-note chime plays at zero. Pause, Resume and Reset are in the same panel. The minutes are remembered on that device, and a running timer carries on when you move to another article. It is hidden in the PDF.

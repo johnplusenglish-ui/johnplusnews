@@ -10,6 +10,7 @@ source-2-date: 20 November 2026
 image: images/would-you-miss-work-to-play-a-video-game-51343c.jpg
 image-alt: A bearded man in glasses and an orange hoodie leans forward on a sofa with a game controller, grinning, his closed laptop, phone and work lanyard on the coffee table.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 
