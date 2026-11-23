@@ -1,4 +1,5 @@
 title: Can One Video Game Be Worth More Than a Hollywood Blockbuster?
+short-title: A Game Worth More Than Hollywood
 date: 2026-11-19
 date-label: November 2026
 summary: Grand Theft Auto VI launched on 19 November 2026, and its publisher says shoppers spent about US$3.79 billion on the first day. The figure is a company estimate, and comparing a game with a film is harder than it sounds.

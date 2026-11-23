@@ -1,4 +1,5 @@
 title: Has Mount Everest Become Too Popular for Its Own Good?
+short-title: Everest's Crowds
 date: 2026-07-22
 summary: Climbing the world's highest mountain is dangerous, expensive and increasingly popular. Nepal is debating whether visitors should prove their experience before attempting it.
 tags: Travel, Sport

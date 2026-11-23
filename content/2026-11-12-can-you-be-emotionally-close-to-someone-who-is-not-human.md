@@ -1,4 +1,5 @@
 title: Can You Be Emotionally Close to Someone Who Is Not Human?
+short-title: Close to Someone Not Human
 date: 2026-11-12
 date-label: November 2026
 summary: A survey of 463 adults in the United States found that people in relationships with AI chatbots can feel as emotionally close as other couples, but the link between closeness and loneliness looked different.

@@ -1,4 +1,5 @@
 title: I Was Held Hostage for 977 Days. Then My Captor Messaged Me on Facebook.
+short-title: 977 Days a Hostage
 date: 2026-10-13
 summary: Two months after 977 days as a hostage in Somalia, journalist Michael Scott Moore got a Facebook message from one of his guards. Should he reply, and what does forgiveness mean?
 tags: Crime, Society

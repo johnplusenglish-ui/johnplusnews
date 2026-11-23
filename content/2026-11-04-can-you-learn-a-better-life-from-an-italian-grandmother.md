@@ -1,4 +1,5 @@
 title: Can You Learn a Better Life from an Italian Grandmother?
+short-title: An Italian Grandmother's Life
 date: 2026-11-04
 date-label: November 2026
 summary: Two friends in their late eighties bake bread in a small Italian town. The internet has decided they are the answer to something.

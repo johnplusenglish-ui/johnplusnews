@@ -1,4 +1,5 @@
 title: Why Is France Making Less Wine?
+short-title: France Making Less Wine
 date: 2026-10-07
 date-label: October 2026
 summary: France expects one of its smallest harvests in decades. The striking thing is not the national total but how differently the regions fared.

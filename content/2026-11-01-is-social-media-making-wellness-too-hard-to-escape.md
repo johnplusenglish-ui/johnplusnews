@@ -1,4 +1,5 @@
 title: Is Social Media Making Wellness Too Hard to Escape?
+short-title: Wellness on Social Media
 date: 2026-11-01
 date-label: November 2026
 summary: Eating disorder experts in Australia say online wellness content can blur the line between helpful health advice and old-fashioned diet culture, and they are asking one question: who really benefits?

@@ -1,4 +1,5 @@
 title: The €4.2 Million Art Heist That Went Wrong
+short-title: The Art Heist That Went Wrong
 date: 2026-10-12
 summary: Two Renoir paintings worth about 4.2 million euros were stolen from the painter's former home. The clues the thieves left behind led police to a wall under a staircase.
 tags: Crime, Culture

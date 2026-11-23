@@ -1,4 +1,5 @@
 title: A Strange Stone Outside His Home Turned Out to Be 3,000 Years Old
+short-title: A 3,000-Year-Old Stone
 date: 2026-10-13
 summary: A man in Egypt noticed an unusual stone while working on his land. What followed was a discovery linked to one of the ancient world's most famous pharaohs.
 tags: History, Culture

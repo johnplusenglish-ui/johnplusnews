@@ -1,4 +1,5 @@
 title: Would You Trust AI to Make an Important Life Decision?
+short-title: AI and Life Decisions
 date: 2025-09-17
 summary: AI can compare hundreds of options in seconds. But should it help choose your career, partner or treatment?
 tags: Technology, Society

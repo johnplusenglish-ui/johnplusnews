@@ -1,4 +1,5 @@
 title: Is the Best Holiday One Where You Do Absolutely Nothing?
+short-title: A Holiday Doing Nothing
 date: 2025-07-10
 summary: Not everyone wants ten attractions and a packed itinerary. What is the appeal of travelling slowly?
 tags: Travel, Lifestyle

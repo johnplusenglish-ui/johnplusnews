@@ -1,4 +1,5 @@
 title: Who Are You When You're Not Working?
+short-title: Who You Are Outside Work
 date: 2026-08-01
 date-label: August 2026
 summary: A job can give us money, purpose and a place in the world. But should it tell us who we are?

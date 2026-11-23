@@ -1,4 +1,5 @@
 title: Is a Weekend Lie-In Actually Good for You?
+short-title: The Weekend Lie-In
 date: 2026-08-30
 summary: New research on 40,000 adults links weekend lie-ins with slightly lower odds of high blood pressure. Should we stop feeling guilty about them?
 tags: Health, Lifestyle

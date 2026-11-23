@@ -1,4 +1,5 @@
 title: Can the Government Help You Find Love? Singapore Thinks So
+short-title: Singapore's Dating Service
 date: 2026-10-13
 source: Al Jazeera | https://www.aljazeera.com/economy/2026/10/5/singapore-turns-matchmaker-amid-rock-bottom-birthrate
 summary: Finding the right partner isn't always easy. Now, Singapore has launched its own dating platform to help young people find love. But can a government really make romance happen?

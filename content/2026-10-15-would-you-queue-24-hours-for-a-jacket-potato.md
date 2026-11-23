@@ -1,4 +1,5 @@
 title: Would You Queue 24 Hours for a Jacket Potato?
+short-title: Queueing for a Jacket Potato
 date: 2026-09-10
 summary: Social media can turn a simple jacket potato into a reason to queue for 24 hours. Is going viral good for small restaurants?
 tags: Food, Culture

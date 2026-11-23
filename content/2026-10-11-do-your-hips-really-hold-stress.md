@@ -1,4 +1,5 @@
 title: Do Your Hips Really Hold Stress?
+short-title: Do Hips Hold Stress
 date: 2026-10-11
 date-label: October 2026
 summary: Yoga teachers and social media say the hips store tension and trauma. Experts say stress can tighten muscles and sharpen pain, but there is no good evidence that the hips are special.

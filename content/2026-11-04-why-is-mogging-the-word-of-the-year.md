@@ -1,4 +1,5 @@
 title: Why Is "Mogging" the Word of the Year?
+short-title: Mogging, Word of the Year
 date: 2026-11-04
 date-label: November 2026
 summary: Collins has chosen a word that teenagers use about dogs and footballers. It started somewhere much less friendly.

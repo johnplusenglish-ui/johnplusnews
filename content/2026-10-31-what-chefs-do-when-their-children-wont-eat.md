@@ -1,4 +1,5 @@
 title: What Chefs Do When Their Children Will Not Eat
+short-title: Chefs and Fussy Eaters
 date: 2026-10-31
 date-label: October 2026
 summary: Nine professional cooks were asked how they feed their own families. Almost all of them described a fussy child, and none of them had a trick.

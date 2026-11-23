@@ -1,4 +1,5 @@
 title: Is It Time to Stop Improving Everything?
+short-title: Stop Improving Everything
 date: 2026-11-01
 date-label: November 2026
 summary: “Maxxing” is Dictionary.com's word of the year. One columnist has had enough of it and wants 2027 to be the year we do less.

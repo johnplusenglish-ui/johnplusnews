@@ -1,4 +1,5 @@
 title: Can Scientists Really Bring the Dodo Back?
+short-title: Bringing Back the Dodo
 date: 2026-10-14
 summary: A US company says it is making progress towards bringing back the dodo. Can scientists really undo an extinction?
 tags: Science, Environment

@@ -1,4 +1,5 @@
 title: Need a Grandma? In Japan, You Can Hire One
+short-title: Hire a Grandma
 date: 2025-08-03
 summary: A Japanese service offers help from older women, from cooking and advice to simple companionship. Is it a clever business or a sign of growing loneliness?
 tags: Relationships, Society

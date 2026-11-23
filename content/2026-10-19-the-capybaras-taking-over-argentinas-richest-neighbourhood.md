@@ -1,4 +1,5 @@
 title: The Capybaras Taking Over Argentina's Richest Neighbourhood
+short-title: Argentina's Capybaras
 date: 2026-10-06
 summary: Giant rodents are roaming the lawns of an exclusive neighbourhood near Buenos Aires. But who was there first?
 tags: Society, Environment

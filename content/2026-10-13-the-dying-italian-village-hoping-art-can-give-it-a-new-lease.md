@@ -1,4 +1,5 @@
 title: The Dying Italian Village Hoping Art Can Save Its Future
+short-title: The Dying Italian Village
 date: 2026-10-12
 source: Ministero della Cultura | https://cultura.gov.it/comunicato/29393
 summary: A million-euro cultural programme offers hope to a hilltop village threatened by erosion and depopulation.

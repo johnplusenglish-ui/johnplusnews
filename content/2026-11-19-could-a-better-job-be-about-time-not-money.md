@@ -1,4 +1,5 @@
 title: Could a Better Job Be About Time, Not Money?
+short-title: Time, Not Money
 date: 2026-11-19
 date-label: November 2026
 summary: A global survey of 40,500 workers found that work-life balance has overtaken salary as the main reason people would consider leaving a job. What does that tell us about how people want to live?

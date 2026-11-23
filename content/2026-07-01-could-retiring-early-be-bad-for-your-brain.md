@@ -1,4 +1,5 @@
 title: Could Retiring Early Be Bad for Your Brain?
+short-title: Early Retirement and the Brain
 date: 2026-07-01
 date-label: July 2026
 summary: A German study found that longer retirement was linked to weaker flexible thinking in some women, but not to more dementia. What should we make of it?

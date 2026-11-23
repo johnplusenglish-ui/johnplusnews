@@ -30,6 +30,11 @@ def check(slug):
         say("the file has an em or en dash")
     d = json.loads(raw)
     head, sec = texts(slug)
+    st = re.search(r"^short-title: (.+)$", head, flags=re.M)
+    if not st:
+        say("the article header has no 'short-title' line (the name of the downloaded worksheet)")
+    elif re.search(r'[?:/\\*"<>|]', st.group(1)) or len(st.group(1).split()) > 6:
+        say("short-title should be a few plain words with no ? : / or quotes")
     if not re.search(r"^layout: lesson\s*$", head, flags=re.M):
         say("the article header has no 'layout: lesson' line")
     sp = d.get("speak") or {}

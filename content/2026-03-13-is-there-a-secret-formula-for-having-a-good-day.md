@@ -1,4 +1,5 @@
 title: Is There a Secret Formula for Having a Good Day?
+short-title: A Formula for a Good Day
 date: 2026-03-13
 summary: Scientists analysed how more than 15,000 people spent their days. Is there a pattern behind the days people call better than usual?
 tags: Lifestyle, Health

@@ -1,4 +1,5 @@
 title: The Library Where You Can Borrow a Tent
+short-title: Borrow a Tent
 date: 2026-10-07
 summary: Colorado's nature library treats outdoor equipment as something a community can share.
 tags: Society, Environment

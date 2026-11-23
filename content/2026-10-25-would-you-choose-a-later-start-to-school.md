@@ -1,4 +1,5 @@
 title: Would You Choose a Later Start to School?
+short-title: A Later Start to School
 date: 2026-10-25
 summary: A Swiss school offered students a choice between an early start and a later one. Researchers asked what happened to their sleep.
 tags: Education, Health

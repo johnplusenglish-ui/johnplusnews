@@ -1,4 +1,5 @@
 title: Has Your Phone Changed the Way You Think?
+short-title: Phones and How We Think
 date: 2026-06-01
 date-label: June 2026
 summary: A notification can interrupt a task in seconds. New research asks what all those interruptions do to attention.

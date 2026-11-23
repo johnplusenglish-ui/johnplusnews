@@ -1,4 +1,5 @@
 title: Why Do We Trust Confident People?
+short-title: Trusting Confident People
 date: 2026-11-01
 date-label: November 2026
 summary: A psychiatrist argues that charisma should make us more careful, not less. Online, we judge people on a handful of confident minutes.

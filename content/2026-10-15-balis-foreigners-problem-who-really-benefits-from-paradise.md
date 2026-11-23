@@ -1,4 +1,5 @@
 title: Bali's Foreigners Problem: Who Really Benefits from Paradise?
+short-title: Bali's Foreigners Problem
 date: 2026-08-12
 summary: Nearly seven million international visitors arrived in 2025. The argument is about how tourism's rewards are shared.
 tags: Travel, Society

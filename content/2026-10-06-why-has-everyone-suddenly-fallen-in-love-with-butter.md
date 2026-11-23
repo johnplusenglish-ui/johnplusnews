@@ -1,4 +1,5 @@
 title: Why Has Everyone Suddenly Fallen in Love with Butter?
+short-title: In Love with Butter
 date: 2026-10-06
 summary: A shop in Paris is devoted almost entirely to butter, and it has become a hit. Why has such an ordinary ingredient suddenly become fashionable?
 tags: Food, Lifestyle

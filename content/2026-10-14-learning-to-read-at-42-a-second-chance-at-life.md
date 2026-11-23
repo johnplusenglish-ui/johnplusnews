@@ -1,4 +1,5 @@
 title: Learning to Read at 46: A Second Chance at Life
+short-title: Learning to Read at 46
 date: 2026-10-14
 source: LiverpoolWorld | https://www.liverpoolworld.uk/news/people/i-learned-to-read-in-my-forties-and-it-gave-me-a-second-chance-at-life-4633235
 summary: For most people, reading is something they learn as children. But one British man spent decades unable to read a book, a menu or even a food label. Then, at the age of 46, everything began to change.

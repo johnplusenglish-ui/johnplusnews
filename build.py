@@ -508,6 +508,7 @@ def parse_article(path):
         "teens": audience == "teens",
         "featured": meta.get("featured", "").strip().lower() in ("1", "yes", "true"),
         "category": meta.get("category", ""),
+        "short_title": meta.get("short-title", "").strip(),
         "order": order,
         "questions": questions,
         "exercises": load_exercises(slug),
@@ -1857,8 +1858,10 @@ def lesson_pdf_links(a):
         name = "worksheets/{}-{}-{}.pdf".format(a["slug"], k, CEFR.get(k, "").replace("/", "-").lower())
         f = STATIC / name
         if f.exists():
-            out.append('<a class="ls-pdf" data-qlevel="{k}"{hid} href="/{n}?v={h}" download>{icon}<span>Worksheet PDF</span></a>'.format(
-                k=k, hid="" if i == d else " hidden", n=name, h=hashlib.md5(f.read_bytes()).hexdigest()[:6], icon=PDF_ICON))
+            # The saved file gets a short, readable name: "France Making Less Wine, Intermediate B2.pdf"
+            save = "{}, {} {}.pdf".format(a.get("short_title") or a["slug"], v["level"], CEFR.get(k, "").replace("/", "-"))
+            out.append('<a class="ls-pdf" data-qlevel="{k}"{hid} href="/{n}?v={h}" download="{s}">{icon}<span>Worksheet PDF</span></a>'.format(
+                k=k, hid="" if i == d else " hidden", n=name, h=hashlib.md5(f.read_bytes()).hexdigest()[:6], s=esc(save), icon=PDF_ICON))
     return "".join(out)
 
 

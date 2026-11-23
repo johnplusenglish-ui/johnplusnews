@@ -1,4 +1,5 @@
 title: Who Should Own a $47 Million Dinosaur?
+short-title: The $47 Million Dinosaur
 date: 2026-10-27
 date-label: October 2026
 summary: A rare skeleton sold in New York for far more than anyone expected. Palaeontologists are less interested in the price than in where the bones go next.

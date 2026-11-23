@@ -1,4 +1,5 @@
 title: Can You Really Reset Your Nervous System in Five Minutes?
+short-title: Resetting Your Nervous System
 date: 2026-10-02
 date-label: October 2026
 summary: Experts say there is no such thing as a nervous system reset, but a few minutes of slow breathing and some ordinary habits can help your body recover from stress.

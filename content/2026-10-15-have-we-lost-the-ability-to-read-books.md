@@ -1,4 +1,5 @@
 title: Have We Lost the Ability to Read Books?
+short-title: Reading Books
 date: 2026-08-02
 summary: Many people still want to read. The protected time and attention required for it are slipping away.
 tags: Culture, Technology

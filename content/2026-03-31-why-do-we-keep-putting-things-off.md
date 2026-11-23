@@ -1,4 +1,5 @@
 title: Why Do We Keep Putting Things Off?
+short-title: Putting Things Off
 date: 2026-03-31
 summary: You know what you should be doing, and yet you do something else. Psychologists say the reason has more to do with emotions than with laziness.
 tags: Lifestyle, Work

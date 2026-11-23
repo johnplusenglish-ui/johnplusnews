@@ -1,4 +1,5 @@
 title: The 170-Kilometre City That May Never Be Finished
+short-title: The 170-Kilometre City
 date: 2026-05-22
 summary: Saudi Arabia proposed a city stretching in a straight line through the desert. New reports suggest the original vision may be much harder to build than expected.
 tags: Technology, Business

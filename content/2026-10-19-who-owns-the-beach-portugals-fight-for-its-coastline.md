@@ -1,4 +1,5 @@
 title: Who Owns the Beach? Portugal's Fight for Its Coastline
+short-title: Portugal's Coastline
 date: 2026-06-01
 date-label: June to July 2026
 summary: In Portugal, residents protested against a plan they feared would restrict access to beautiful beaches. Should nature ever become a private luxury?

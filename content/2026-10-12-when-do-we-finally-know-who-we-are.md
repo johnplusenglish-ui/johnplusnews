@@ -1,4 +1,5 @@
 title: When Do We Finally Know Who We Are?
+short-title: Knowing Who We Are
 date: 2026-10-12
 date-label: October 2026
 summary: A Finnish study that followed the same people between the ages of 27 and 61 found that identity kept developing well into adulthood, and that stronger identity development went together with better mental wellbeing.

@@ -1,4 +1,5 @@
 title: Can Fashion Help Save Ukraine's Culture?
+short-title: Fashion and Ukraine's Culture
 date: 2026-10-01
 date-label: October 2026
 summary: Ukrainian designers are turning old patterns and skills into modern objects. During a war, keeping those traditions alive has taken on new meaning.

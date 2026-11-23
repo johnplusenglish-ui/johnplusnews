@@ -1,4 +1,5 @@
 title: A Home for Life? The Housing Crisis Shaking Spain
+short-title: Spain's Housing Crisis
 date: 2026-10-09
 source: ITV News | https://www.itv.com/news/2026-10-07/maricarmen-the-87-year-old-woman-whose-eviction-shook-spain-has-died-in-hospital
 summary: The eviction and death of an 87-year-old woman in Madrid have sparked protests across Spain, raising serious questions about the country's growing housing crisis.

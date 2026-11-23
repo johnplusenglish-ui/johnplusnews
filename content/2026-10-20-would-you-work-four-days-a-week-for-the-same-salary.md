@@ -1,4 +1,5 @@
 title: Would You Work Four Days a Week for the Same Salary?
+short-title: The Four-Day Week
 date: 2025-07-21
 summary: A large international trial suggests shorter working weeks may benefit employees. Could every industry make them work?
 tags: Work, Business

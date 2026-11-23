@@ -1,4 +1,5 @@
 title: Would You Pay Someone to Be Your Friend?
+short-title: Paying for a Friend
 date: 2026-06-02
 summary: In China, people are hiring companions to join them for meals, walks and trips. Are they buying friendship, or simply paying for someone's time?
 tags: Relationships, Society

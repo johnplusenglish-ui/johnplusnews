@@ -1,4 +1,5 @@
 title: What If Some Depression Is Really a Body-Clock Problem?
+short-title: Depression and the Body Clock
 date: 2026-10-21
 date-label: October 2026
 summary: Australian researchers have described a possible subtype of depression linked to the body's internal clock. The finding is early, and it does not change what anyone should do about their own treatment.

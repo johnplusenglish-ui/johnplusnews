@@ -1,4 +1,5 @@
 title: The Man Who Found 934 Roman Silver Coins
+short-title: 934 Roman Silver Coins
 date: 2026-09-22
 summary: A metal detector led to 934 Roman silver coins in a German field. What can a hidden hoard tell us about ordinary life nearly 1,900 years ago?
 tags: History, Culture

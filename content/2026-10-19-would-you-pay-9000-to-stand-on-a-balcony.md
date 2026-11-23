@@ -1,4 +1,5 @@
 title: Would You Pay €9,000 to Stand on a Balcony?
+short-title: A €9,000 Balcony
 date: 2026-03-24
 summary: During Seville's Holy Week celebrations, a good view can cost thousands of euros. What happens when a public tradition becomes a luxury experience?
 tags: Culture, Travel

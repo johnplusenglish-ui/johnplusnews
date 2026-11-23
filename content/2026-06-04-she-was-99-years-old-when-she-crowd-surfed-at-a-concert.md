@@ -1,4 +1,5 @@
 title: She Was 99 Years Old When She Crowd-Surfed at a Concert
+short-title: Crowd-Surfing at 99
 date: 2026-06-04
 summary: At 99, Pauline Kana was passed over a Texas crowd on a stretcher and set a world record.
 tags: Lifestyle, Music

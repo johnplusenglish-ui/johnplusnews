@@ -1,4 +1,5 @@
 title: The Restaurants Asking Families to Put Their Phones Away
+short-title: Phones Away at Dinner
 date: 2026-10-27
 date-label: October 2026
 summary: Fifteen Sardinian restaurants are trying a new approach to family meals: fewer screens, more games and, they hope, more conversation.

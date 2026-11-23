@@ -1,4 +1,5 @@
 title: Fast Fashion: The Clothes Nobody Wants
+short-title: Fast Fashion
 date: 2026-10-13
 summary: A well-meant donation can become an expense when cheap clothing is too poor to sell again.
 tags: Environment, Lifestyle

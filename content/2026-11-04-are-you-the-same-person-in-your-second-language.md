@@ -1,4 +1,5 @@
 title: Are You the Same Person in Your Second Language?
+short-title: You in a Second Language
 date: 2026-11-04
 date-label: November 2026
 summary: A study of 106 Greek-English bilinguals found that the language they used did not change their moral decisions, although it did shift how some of them described themselves.

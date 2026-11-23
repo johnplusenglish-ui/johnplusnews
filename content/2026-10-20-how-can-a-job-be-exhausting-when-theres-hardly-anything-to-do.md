@@ -1,4 +1,5 @@
 title: How Can a Job Be Exhausting When There's Hardly Anything to Do?
+short-title: Exhausted by Too Little Work
 date: 2026-09-01
 summary: Burnout comes from too much pressure. But boredom and a lack of purpose can also leave workers drained.
 tags: Work, Health

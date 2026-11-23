@@ -1,4 +1,5 @@
 title: Is Quiet Quitting Really a Bad Thing?
+short-title: Quiet Quitting
 date: 2026-04-01
 date-label: April 2026
 summary: A worker finishes their tasks and leaves on time. Is that quiet quitting, or simply doing the job?

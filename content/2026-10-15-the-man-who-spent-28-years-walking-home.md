@@ -1,4 +1,5 @@
 title: The Man Who Spent 28 Years Walking Home
+short-title: 28 Years Walking Home
 date: 2026-10-13
 summary: In 1998, Karl Bushby started walking home to Hull from the bottom of South America. Almost 28 years later, he is nearly there.
 tags: Travel, Lifestyle

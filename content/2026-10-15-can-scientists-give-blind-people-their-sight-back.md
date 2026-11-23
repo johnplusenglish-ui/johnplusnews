@@ -1,4 +1,5 @@
 title: Can Scientists Give Blind People Their Sight Back?
+short-title: Giving Sight Back
 date: 2026-10-07
 summary: A small trial has used gene therapy and electronic goggles to help blind patients detect objects. How far can the treatment go?
 tags: Science, Health

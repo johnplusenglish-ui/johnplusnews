@@ -1,4 +1,5 @@
 title: Where Do Your Words Actually Come From?
+short-title: Where Words Come From
 date: 2026-11-04
 date-label: November 2026
 summary: A word can go from one group chat to the whole world in a week. Who invented it is a harder question than it looks.

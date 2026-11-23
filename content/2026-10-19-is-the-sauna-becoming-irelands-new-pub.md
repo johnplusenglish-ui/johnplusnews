@@ -1,4 +1,5 @@
 title: Is the Sauna Becoming Ireland's New Pub?
+short-title: Ireland's Sauna Boom
 date: 2026-01-28
 summary: On Ireland's coast, a new kind of meeting place is bringing strangers together. There is plenty of heat, but no need for a pint.
 tags: Lifestyle, Society

@@ -1,4 +1,5 @@
 title: Did Writing Really Make Languages More Complicated?
+short-title: Writing and Language
 date: 2026-11-18
 date-label: November 2026
 summary: A large study of about 100,000 sentences in 30 languages found no universal pattern showing that writing makes sentences more complex. It does not say that writing never changes a language.

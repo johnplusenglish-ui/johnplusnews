@@ -1,4 +1,5 @@
 title: The Chef Who Lost His Job Over Pineapple
+short-title: The Pineapple Chef
 date: 2026-11-09
 date-label: November 2026
 summary: An Italian chef in Australia was sacked for refusing to add pineapple. A food historian says the rule he was defending is younger than he thinks.

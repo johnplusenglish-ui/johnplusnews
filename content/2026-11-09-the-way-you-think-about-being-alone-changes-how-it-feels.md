@@ -1,4 +1,5 @@
 title: The Way You Think About Being Alone Changes How It Feels
+short-title: Thinking About Being Alone
 date: 2026-11-09
 date-label: November 2026
 summary: Researchers read 144 newspaper articles about solitude and found them overwhelmingly gloomy. They also found that what you believe about time alone predicts how lonely it makes you.

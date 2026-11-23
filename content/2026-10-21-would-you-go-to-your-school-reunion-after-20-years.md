@@ -1,4 +1,5 @@
 title: Would You Go to Your School Reunion After 20 Years?
+short-title: The School Reunion
 date: 2026-10-21
 summary: One man went to his school reunion with a single aim: to apologise to a friend who was bullied years ago. What do reunions really give us?
 tags: Relationships, Society

@@ -1,4 +1,5 @@
 title: When Did We Start Taking Our Hobbies So Seriously?
+short-title: Serious Hobbies
 date: 2026-05-30
 summary: Running, reading and baking can all become targets. Has the pressure to improve changed how we enjoy our free time?
 tags: Lifestyle, Society

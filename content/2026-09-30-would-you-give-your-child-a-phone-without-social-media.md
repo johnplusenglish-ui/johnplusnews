@@ -1,4 +1,5 @@
 title: Would You Give Your Child a Phone Without Social Media?
+short-title: A Phone Without Social Media
 date: 2026-09-30
 summary: A new phone for children has no browser, no app store and no social media. Is that the answer for worried parents?
 tags: Technology, Society

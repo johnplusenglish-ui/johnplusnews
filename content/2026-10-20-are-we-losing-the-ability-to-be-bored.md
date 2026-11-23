@@ -1,4 +1,5 @@
 title: Are We Losing the Ability to Be Bored?
+short-title: The Ability to Be Bored
 date: 2026-06-01
 date-label: June 2026
 summary: We have entertainment in our pockets, yet boredom may be growing. Is the phone part of the problem?

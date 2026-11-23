@@ -1,4 +1,5 @@
 title: The Hidden Cost of Free Returns: Who Really Pays?
+short-title: The Cost of Free Returns
 date: 2026-10-04
 summary: Printing a returns label takes seconds; deciding what to do with the unwanted item can take much longer.
 tags: Business, Environment

@@ -1,4 +1,5 @@
 title: Greenwashing: Are Companies Selling Us a Greener Story?
+short-title: Greenwashing
 date: 2026-07-15
 summary: A green colour and a confident promise can make a product feel responsible. The evidence may tell another story.
 tags: Environment, Society

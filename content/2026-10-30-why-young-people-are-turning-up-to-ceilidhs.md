@@ -1,4 +1,5 @@
 title: Why Young People Are Turning Up to Ceilidhs
+short-title: Young People at Ceilidhs
 date: 2026-10-30
 date-label: October 2026
 summary: An old Scottish and Irish dance is filling pubs with people in their twenties. Ticket sales are up, and nobody has to arrive with friends.

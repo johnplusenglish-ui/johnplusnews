@@ -1,4 +1,5 @@
 title: What Happens When One of the World's Quietest Places Gets Easier to Visit?
+short-title: One of the Quietest Places
 date: 2026-11-02
 date-label: November 2026
 summary: Greenland now has three new airports and more visitors than ever, but tourism is still a small part of its economy. Some residents worry about what a rush of visitors could do to a quiet place with a fragile environment.

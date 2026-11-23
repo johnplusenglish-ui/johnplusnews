@@ -1,4 +1,5 @@
 title: The Café Where You Pay with Rubbish
+short-title: Pay with Rubbish
 date: 2025-08-19
 summary: At a café in India, customers can exchange plastic waste for a hot meal. Could an unusual payment system help with two problems at once?
 tags: Food, Society

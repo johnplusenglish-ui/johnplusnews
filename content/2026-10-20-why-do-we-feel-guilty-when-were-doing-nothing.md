@@ -1,4 +1,5 @@
 title: Why Do We Feel Guilty When We're Doing Nothing?
+short-title: Guilt About Doing Nothing
 date: 2026-03-26
 summary: Even a free afternoon can come with a feeling that we should be achieving something. Why is rest so difficult?
 tags: Lifestyle, Health

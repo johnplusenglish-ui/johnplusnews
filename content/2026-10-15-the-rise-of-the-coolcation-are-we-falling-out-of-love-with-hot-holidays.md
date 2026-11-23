@@ -1,4 +1,5 @@
 title: The Rise of the Coolcation: Are We Falling Out of Love with Hot Holidays?
+short-title: The Coolcation
 date: 2026-10-02
 summary: After another punishing European summer, northern weather has become part of the attraction.
 tags: Travel, Environment

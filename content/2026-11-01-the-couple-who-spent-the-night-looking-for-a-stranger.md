@@ -1,4 +1,5 @@
 title: The Couple Who Spent the Night Looking for a Stranger
+short-title: A Night Looking for a Stranger
 date: 2026-11-01
 date-label: November 2026
 summary: A backpacker lost a wallet holding a month's money in Darwin in 1989. Two strangers visited four hostels to give it back, then disappeared.

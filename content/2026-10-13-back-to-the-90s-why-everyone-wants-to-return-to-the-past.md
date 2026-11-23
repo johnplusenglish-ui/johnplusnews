@@ -1,4 +1,5 @@
 title: Back to the 90s: Why Everyone Wants to Return to the Past
+short-title: Back to the 90s
 date: 2026-10-08
 source: Tate Britain | https://www.tate.org.uk/press/press-releases/the-90s-art-and-fashion-open
 summary: CDs, film cameras and 1990s clothes are selling again. Is the appeal the decade itself, or a break from constant connection?

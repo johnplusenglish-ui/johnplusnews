@@ -1,4 +1,5 @@
 title: Work, Work, Work: Is Japan Rethinking the Office Life?
+short-title: Japan's Office Life
 date: 2026-10-09
 summary: Japan wants healthier workplaces, but labour shortages are reopening the argument about longer hours.
 tags: Work, Society

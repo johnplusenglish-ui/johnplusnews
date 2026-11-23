@@ -1,4 +1,5 @@
 title: Is Instagram Choosing Our Holidays?
+short-title: Instagram and Our Holidays
 date: 2026-10-13
 date-label: October 2026
 summary: A beautiful image can send you across the world. It can also send several thousand other people to the same railing.

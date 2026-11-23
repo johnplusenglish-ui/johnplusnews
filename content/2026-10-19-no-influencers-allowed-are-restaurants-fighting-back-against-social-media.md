@@ -1,4 +1,5 @@
 title: No Influencers Allowed: Are Restaurants Fighting Back Against Social Media?
+short-title: No Influencers Allowed
 date: 2026-10-19
 summary: Hotels, restaurants and beauty spots are putting up "no influencers" signs. Are venues right to limit photoshoots, or are they missing out?
 tags: Society, Technology

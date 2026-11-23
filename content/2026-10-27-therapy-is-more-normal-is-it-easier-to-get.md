@@ -1,4 +1,5 @@
 title: Therapy Is More Normal. Is It Easier to Get?
+short-title: Getting Therapy
 date: 2026-10-27
 date-label: October 2026
 summary: In a UK survey of 5,058 adults, 37% said they had seen a therapist. Among those who thought about it and did not go, cost and waiting lists were the reasons given most often.

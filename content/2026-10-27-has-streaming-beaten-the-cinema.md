@@ -1,4 +1,5 @@
 title: Has Streaming Beaten the Cinema?
+short-title: Streaming and the Cinema
 date: 2026-10-27
 date-label: October 2026
 summary: Three quarters of American adults watched a new film at home last year rather than going out for it. Cinemas have not closed, but they are no longer the default.

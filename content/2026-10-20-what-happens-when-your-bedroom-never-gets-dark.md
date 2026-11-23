@@ -1,4 +1,5 @@
 title: What Happens When Your Bedroom Never Gets Dark?
+short-title: A Bedroom That Never Gets Dark
 date: 2026-03-01
 summary: Streetlights, glowing screens and the wrong curtains may be affecting how well we sleep.
 tags: Health, Science

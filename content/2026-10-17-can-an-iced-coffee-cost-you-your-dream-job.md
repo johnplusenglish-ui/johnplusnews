@@ -1,4 +1,5 @@
 title: Can an Iced Coffee Cost You Your Dream Job?
+short-title: Iced Coffee and a Dream Job
 date: 2026-09-24
 summary: A recruiter's warning about iced coffee at interviews started an argument about manners, generations and what employers should really be judging.
 tags: Work, Society

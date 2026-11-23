@@ -1,4 +1,5 @@
 title: What Is It Like to Live Next to a Data Centre?
+short-title: Living Next to a Data Centre
 date: 2026-10-24
 date-label: October 2026
 summary: Britain is building data centres to power artificial intelligence. In Newport and Cardiff, the people living beside them are asking who benefits.

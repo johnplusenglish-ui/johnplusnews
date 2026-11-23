@@ -1,4 +1,5 @@
 title: Where Will Everyone Want to Travel in 2027?
+short-title: Travel in 2027
 date: 2026-10-01
 date-label: October 2026
 summary: A new travel report points beyond the biggest tourist capitals. But do rising searches really predict the next holiday hotspots?

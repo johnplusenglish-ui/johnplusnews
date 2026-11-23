@@ -1,4 +1,5 @@
 title: The Marathon Legend Who Refuses to Get Old
+short-title: The Marathon Legend
 date: 2026-10-11
 summary: At 41, Eliud Kipchoge won the Melbourne Marathon in a record time. What does his success say about age and ambition?
 tags: Sport, Lifestyle

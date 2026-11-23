@@ -1,4 +1,5 @@
 title: Would You Miss Work to Play a Video Game?
+short-title: Missing Work for a Game
 date: 2026-11-19
 date-label: November 2026
 summary: Grand Theft Auto VI fans around the world skipped work, stayed up all night and helped the game to a record first day. Is taking time off for a hobby ever a good idea?

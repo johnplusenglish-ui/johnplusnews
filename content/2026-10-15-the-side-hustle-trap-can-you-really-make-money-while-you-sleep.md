@@ -1,4 +1,5 @@
 title: The Side-Hustle Trap: Can You Really Make Money While You Sleep?
+short-title: The Side-Hustle Trap
 date: 2026-10-13
 summary: Passive-income videos show the payment notification, not the crowded market behind it.
 tags: Business, Work

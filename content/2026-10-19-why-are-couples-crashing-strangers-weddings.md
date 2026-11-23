@@ -1,4 +1,5 @@
 title: Why Are Couples Crashing Strangers' Weddings?
+short-title: Crashing Strangers' Weddings
 date: 2026-07-01
 summary: In South Korea, some couples have been slipping into weddings they were never invited to. They are not looking for cake. They are shopping for a venue.
 tags: Relationships, Lifestyle

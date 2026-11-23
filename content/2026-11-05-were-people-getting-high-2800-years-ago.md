@@ -1,4 +1,5 @@
 title: Were People Getting High 2,800 Years Ago?
+short-title: Getting High 2,800 Years Ago
 date: 2026-11-05
 date-label: November 2026
 summary: Cannabis seeds and chemical traces in preserved hair from a Siberian tomb suggest that some Scythians were exposed to its intoxicating compounds about 2,800 years ago. The evidence is strong, but it leaves many questions open.

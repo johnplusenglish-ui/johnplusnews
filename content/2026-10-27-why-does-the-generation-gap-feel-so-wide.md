@@ -1,4 +1,5 @@
 title: Why Does the Generation Gap Feel So Wide?
+short-title: The Generation Gap
 date: 2026-10-27
 date-label: October 2026
 summary: Younger people in the EU use social networks far more than the population as a whole. Researchers warn that a real difference in habits is not the same as a difference in character.

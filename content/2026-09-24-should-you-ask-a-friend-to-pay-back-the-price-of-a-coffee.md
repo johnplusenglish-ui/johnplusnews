@@ -1,4 +1,5 @@
 title: Should You Ask a Friend to Pay Back the Price of a Coffee?
+short-title: Paying a Friend Back
 date: 2026-09-24
 summary: After a catch-up over green juice, a friend asked a writer to pay back A$12.50. Should friends keep track of small amounts?
 tags: Relationships, Business

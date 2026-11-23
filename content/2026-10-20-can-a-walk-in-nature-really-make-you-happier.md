@@ -1,4 +1,5 @@
 title: Can a Walk in Nature Really Make You Happier?
+short-title: A Walk in Nature
 date: 2025-11-01
 date-label: November 2025
 summary: Parks, beaches and forests are often called natural medicine. What does the research actually show?

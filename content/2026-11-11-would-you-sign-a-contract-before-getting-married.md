@@ -1,4 +1,5 @@
 title: Would You Sign a Contract Before Getting Married?
+short-title: Marriage Contracts
 date: 2026-11-11
 date-label: November 2026
 summary: More young Americans are signing prenuptial agreements before their weddings. Is planning for a divorce unromantic, or is it honest and sensible?

@@ -1,4 +1,5 @@
 title: Are We Losing the Art of Talking to Strangers?
+short-title: Talking to Strangers
 date: 2026-02-24
 summary: A short chat with a stranger can brighten a day, yet most of us avoid it. Are we losing the art of talking to people we do not know?
 tags: Society, Relationships

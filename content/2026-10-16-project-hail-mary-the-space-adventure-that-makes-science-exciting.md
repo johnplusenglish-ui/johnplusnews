@@ -1,4 +1,5 @@
 title: Project Hail Mary: The Space Adventure That Makes Science Exciting
+short-title: Project Hail Mary
 date: 2026-10-16
 summary: A science teacher wakes up alone on a spaceship with no memory and one job: save the Sun. Why has a film about thinking, not fighting, been such a hit?
 tags: Culture, Science

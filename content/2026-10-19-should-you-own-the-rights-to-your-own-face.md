@@ -1,4 +1,5 @@
 title: Should You Own the Rights to Your Own Face?
+short-title: The Rights to Your Face
 date: 2026-10-08
 summary: AI can create convincing pictures and voices of people who never agreed to be copied. Denmark is considering new rules to give individuals greater control.
 tags: Technology, Society

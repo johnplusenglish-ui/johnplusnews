@@ -1,4 +1,5 @@
 title: A Body in a Barrel. A 40-Year-Old Mystery.
+short-title: The Body in a Barrel
 date: 2026-10-15
 summary: When Lake Mead fell during a drought, a rusted barrel with human remains appeared. After four decades, science finally gave the victim a name.
 tags: Crime, Society

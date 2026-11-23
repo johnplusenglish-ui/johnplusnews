@@ -1,4 +1,5 @@
 title: They Still Have Their Jobs. They Are Leaving Anyway
+short-title: Leaving a Job Anyway
 date: 2026-11-09
 date-label: November 2026
 summary: Nobody made these workers redundant. AI changed what their work felt like, and they walked out on careers they had spent a decade building.

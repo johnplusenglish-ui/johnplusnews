@@ -1,4 +1,5 @@
 title: Would You Sleep Better Without Your Partner?
+short-title: Sleeping Apart
 date: 2026-01-01
 date-label: 2025 to 2026
 summary: Snoring, different alarms and different bedtimes can make sharing a bed hard. Some couples choose to sleep apart without ending the relationship.
