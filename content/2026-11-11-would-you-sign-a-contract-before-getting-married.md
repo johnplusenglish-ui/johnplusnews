@@ -10,6 +10,7 @@ source-2-date: 15 October 2026
 image: images/would-you-sign-a-contract-before-getting-married-c1181c.jpg
 image-alt: Seen from above, one hand holds a pen over the last page of a stapled document while another hand with a ring steadies the paper and a third points to a line.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

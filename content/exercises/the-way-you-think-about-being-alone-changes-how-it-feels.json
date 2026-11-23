@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Being alone is a situation. Loneliness is a ____.",
-            "a": "feeling"
+            "s": "If your plans are ____, you suddenly have a free evening.",
+            "a": "cancelled"
           },
           {
-            "s": "They read 144 American articles published between 2020 and ____.",
-            "a": "2022"
+            "s": "Loneliness is the feeling that you want more ____ with other people than you have.",
+            "a": "connection"
           },
           {
-            "s": "The articles were about ten times more likely to say that being alone was ____.",
-            "a": "harmful"
+            "s": "A scientist needs good ____ before saying that something is true.",
+            "a": "evidence"
           },
           {
-            "s": "You can feel lonely in a ____ room.",
-            "a": "crowded"
+            "s": "Many people enjoy the ____ of a quiet evening, such as feeling rested.",
+            "a": "benefits"
           },
           {
-            "s": "Time alone that you picked for your own reasons tends to ____ you.",
-            "a": "rest"
+            "s": "Nobody chose it, so they felt ____ to spend the evening alone.",
+            "a": "forced"
           }
         ],
         "extra": [
-          "suitcase",
-          "harbour"
+          "ancient",
+          "rental"
         ]
       },
       "match": [
@@ -52,11 +52,6 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Imagine your plans for this evening ____ cancelled.",
-            "cue": "be",
-            "a": "are"
-          },
-          {
             "s": "Psychologists ____ two things that sound similar.",
             "cue": "separate",
             "a": "separate"
@@ -72,9 +67,14 @@
             "a": "reported"
           },
           {
-            "s": "You do not have to use it to ____ yourself.",
-            "cue": "improve",
-            "a": "improve"
+            "s": "People who read about the benefits ____ more positive afterwards.",
+            "cue": "become",
+            "a": "became"
+          },
+          {
+            "s": "The study ____ that most articles were negative.",
+            "cue": "show",
+            "a": "showed"
           }
         ]
       },
@@ -104,30 +104,98 @@
           "a": "T",
           "why": "The text says: \"published in 2026 by a team of Czech researchers\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "disappointed",
+          "d": "sad because something did not happen as you wanted"
+        },
+        {
+          "t": "delighted",
+          "d": "very happy and pleased"
+        },
+        {
+          "t": "secretly",
+          "d": "without telling other people"
+        },
+        {
+          "t": "crowded",
+          "d": "full of people"
+        },
+        {
+          "t": "negative",
+          "d": "bad, not hopeful"
+        },
+        {
+          "t": "experiment",
+          "d": "a test to find out if something is true"
+        },
+        {
+          "t": "compared",
+          "d": "looked at two things to see how they are different"
+        },
+        {
+          "t": "careful",
+          "d": "thinking hard so you do not make a mistake"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some verbs and adjectives need one small word after them. Learn the pair together, not the word alone.",
+        "items": [
+          {
+            "s": "There is a big difference ____ being alone and being lonely.",
+            "a": "between"
+          },
+          {
+            "s": "She spent the evening ____ herself and was happy.",
+            "a": "by"
+          },
+          {
+            "s": "Many people worry ____ spending an evening alone.",
+            "a": "about"
+          },
+          {
+            "s": "Some people feel lonely ____ a crowded room.",
+            "a": "in"
+          },
+          {
+            "s": "A quiet evening can be good ____ you.",
+            "a": "for"
+          }
+        ],
+        "extra": [
+          "under",
+          "against"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Loneliness is the uncomfortable feeling that the ____ you want is missing.",
-            "a": "connection"
+            "s": "When the dinner was cancelled, she was ____ to have a quiet night.",
+            "a": "relieved"
           },
           {
-            "s": "The team analysed 144 American newspaper articles published between 2020 and ____.",
-            "a": "2022"
+            "s": "Newspaper coverage can shape our ____ about what time alone will feel like.",
+            "a": "expectations"
           },
           {
-            "s": "In a ____ experiment, simply reading material about the benefits of being alone shifted people's beliefs.",
+            "s": "In a ____ experiment, people are placed in groups by chance.",
             "a": "randomised"
           },
           {
-            "s": "The authors do not ____.",
+            "s": "Good scientists do not ____ their findings, because small studies prove little.",
             "a": "overclaim"
           },
           {
-            "s": "Time alone that was ____ on you tends not to be restorative.",
+            "s": "A rule ____ by a manager feels different from one you choose yourself.",
             "a": "imposed"
+          },
+          {
+            "s": "Check the ____ before the meeting so you know what will be discussed.",
+            "a": "agenda"
           }
         ],
         "extra": [
@@ -157,82 +225,150 @@
         "kind": "verb",
         "items": [
           {
-            "s": "Your plans ____ through.",
-            "cue": "fall",
-            "a": "fall"
-          },
-          {
             "s": "Nothing in the room has ____.",
             "cue": "change",
             "a": "changed"
           },
           {
-            "s": "The team ____ 144 American newspaper articles.",
+            "s": "By the time her friend cancelled, she ____ the tickets.",
+            "cue": "buy",
+            "a": "had bought"
+          },
+          {
+            "s": "The 144 articles ____ by the research team.",
             "cue": "analyse",
-            "a": "analysed"
+            "a": "were analysed"
           },
           {
-            "s": "People with more positive beliefs ____ less.",
-            "cue": "report",
-            "a": "reported"
-          },
-          {
-            "s": "They ____ that the influence may run both ways.",
+            "s": "The authors ____ that the influence may run both ways.",
             "cue": "accept",
             "a": "accept"
+          },
+          {
+            "s": "Their everyday studies cannot ____ that beliefs cause loneliness.",
+            "cue": "establish",
+            "a": "establish"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The study was carried out by researchers at the University of Michigan.",
+          "s": "The article suggests that the same evening can feel different from one week to the next.",
           "a": "T",
-          "why": "The text says: \"by researchers at the University of Michigan\""
+          "why": "The text says a week later \"the identical empty evening feels flat and lonely\" and that nothing in the room has changed."
         },
         {
-          "s": "The authors claim their studies prove that beliefs cause loneliness.",
+          "s": "The researchers found that reading about the benefits of being alone had no effect on beliefs.",
           "a": "F",
-          "why": "The text says: \"they cannot establish that beliefs cause loneliness\""
+          "why": "The text says it \"shifted people's beliefs in a positive direction\"."
         },
         {
-          "s": "The article says how many people took part in the experiment.",
+          "s": "The article says loneliness is only a misunderstanding.",
+          "a": "F",
+          "why": "The text says: \"None of this means loneliness is a misunderstanding\"."
+        },
+        {
+          "s": "Most of the people in the daily-life studies were under thirty.",
           "a": "N",
-          "why": "The text does not give the number of participants"
+          "why": "The text gives no information about the age of the people."
         },
         {
-          "s": "Countries with higher loneliness held more negative beliefs about solitude.",
+          "s": "The study found a pattern across countries, but it cannot show which came first.",
           "a": "T",
-          "why": "The text says: \"where loneliness was higher, beliefs about solitude were more negative\""
+          "why": "The text reports the same pattern across countries, and says the influence \"may run both ways\"."
+        }
+      ],
+      "pre": [
+        {
+          "t": "annoyed",
+          "d": "a little angry"
         },
         {
-          "s": "The 2026 paper says physical isolation is what divides solitude from loneliness.",
-          "a": "F",
-          "why": "The text says: \"solitude and loneliness are not divided by how physically isolated you are, but by motivation\""
+          "t": "flat",
+          "d": "dull, without energy or interest"
+        },
+        {
+          "t": "journalism",
+          "d": "the work of writing news for papers and websites"
+        },
+        {
+          "t": "beneficial",
+          "d": "good for you or useful"
+        },
+        {
+          "t": "isolated",
+          "d": "far away from other people"
+        },
+        {
+          "t": "painful",
+          "d": "causing sadness or hurt"
+        },
+        {
+          "t": "distinguish",
+          "d": "to see the difference between two things"
+        },
+        {
+          "t": "negotiate",
+          "d": "to talk until people agree"
         }
-      ]
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many nouns and adjectives take a fixed preposition, such as shortage of or to blame for. Learn the whole phrase.",
+        "items": [
+          {
+            "s": "There is no shortage ____ advice online about spending time alone.",
+            "a": "of"
+          },
+          {
+            "s": "She was looking forward ____ a quiet evening with a book.",
+            "a": "to"
+          },
+          {
+            "s": "The study was based ____ 144 newspaper articles.",
+            "a": "on"
+          },
+          {
+            "s": "Solitude and loneliness are divided ____ motivation, not isolation.",
+            "a": "by"
+          },
+          {
+            "s": "The authors say beliefs may be to blame ____ some of the loneliness.",
+            "a": "for"
+          }
+        ],
+        "extra": [
+          "with",
+          "against"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "We are, in other words, instructed repeatedly that solitude is a ____.",
-            "a": "deficiency"
-          },
-          {
-            "s": "The authors are commendably ____ about what this establishes.",
+            "s": "The editor was ____ about the findings, refusing to claim more than the data allowed.",
             "a": "restrained"
           },
           {
-            "s": "A randomised experiment showed the beliefs themselves are ____.",
-            "a": "movable"
+            "s": "A quiet, ____ finding, that most time alone is fine, rarely makes a headline.",
+            "a": "unremarkable"
           },
           {
-            "s": "Loneliness is non-self-determined, arriving through ____ or the frustration of those same needs.",
+            "s": "Researchers wanted to discover where such assumptions ____.",
+            "a": "originate"
+          },
+          {
+            "s": "Loneliness can arrive through the ____ of isolation by circumstance rather than choice.",
             "a": "imposition"
           },
           {
-            "s": "Choice is not distributed ____.",
-            "a": "evenly"
+            "s": "The experiment suggests that beliefs about solitude are not fixed but ____.",
+            "a": "movable"
+          },
+          {
+            "s": "In searching for the ____ behind gloomy attitudes, the authors pointed to newspapers.",
+            "a": "culprit"
           }
         ],
         "extra": [
@@ -267,19 +403,19 @@
             "a": "overwhelmingly"
           },
           {
-            "s": "The authors are ____ restrained about what this establishes.",
-            "cue": "COMMEND",
-            "a": "commendably"
+            "s": "It is ____ to treat solitude as one condition with one emotional value.",
+            "cue": "MISLEAD",
+            "a": "misleading"
           },
           {
-            "s": "Their ____ studies cannot demonstrate causation.",
-            "cue": "OBSERVE",
-            "a": "observational"
-          },
-          {
-            "s": "A ____ paper published in 2026 proposes a complementary distinction.",
+            "s": "The paper is ____ rather than experimental, since it offers a theory.",
             "cue": "CONCEPT",
             "a": "conceptual"
+          },
+          {
+            "s": "Loneliness may make people ____ of an empty evening.",
+            "cue": "SUSPECT",
+            "a": "suspicious"
           },
           {
             "s": "Solitude can support autonomy, competence or ____.",
@@ -290,31 +426,116 @@
       },
       "tfn": [
         {
-          "s": "The 2025 paper analysed newspaper articles from 2020 to 2022.",
+          "s": "The writer admits that their own article belongs to the kind of coverage the researchers studied.",
           "a": "T",
-          "why": "The text says: \"Analysing 144 American newspaper articles from 2020 to 2022\""
+          "why": "The text calls a news article \"a small addition to the corpus the researchers measured\"."
         },
         {
-          "s": "The authors say their observational studies demonstrate causation.",
+          "s": "The authors of the 2025 paper conclude that negative beliefs cause loneliness.",
           "a": "F",
-          "why": "The text says: \"Their observational studies cannot demonstrate causation\""
+          "why": "The text says their studies \"cannot demonstrate causation\" and the arrow may point both ways."
         },
         {
-          "s": "The article gives the number of countries compared.",
+          "s": "The article says which newspapers gave the most negative coverage.",
           "a": "N",
-          "why": "The text does not say how many countries were included"
+          "why": "The text names no newspapers."
         },
         {
-          "s": "The 2026 paper draws on self-determination theory.",
+          "s": "Two people with the same amount of free time may not have the same chance of solitude.",
           "a": "T",
-          "why": "The text says: \"Drawing on self-determination theory\""
+          "why": "The text says a parent of young children and someone far from friends \"do not face the same menu\"."
         },
         {
-          "s": "The article argues that enjoying your own company can replace friendship.",
+          "s": "The writer suggests that editors find the positive view of solitude attractive.",
           "a": "F",
-          "why": "The text says: \"enjoying your own company is not a substitute for friendship\""
+          "why": "The text says the quieter proposition \"makes a weak headline\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "commendably",
+          "d": "in a way that deserves praise"
+        },
+        {
+          "t": "corpus",
+          "d": "a large collection of texts used for study"
+        },
+        {
+          "t": "causation",
+          "d": "the fact that one thing makes another happen"
+        },
+        {
+          "t": "autonomy",
+          "d": "the freedom to make your own choices"
+        },
+        {
+          "t": "instructed",
+          "d": "told what to do or believe"
+        },
+        {
+          "t": "randomised",
+          "d": "arranged by chance, not by choice"
+        },
+        {
+          "t": "frustration",
+          "d": "the feeling of being blocked from getting what you need"
+        },
+        {
+          "t": "alarm",
+          "d": "a sudden feeling of fear or worry"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Check the word before the gap. Fixed verb, noun and adjective phrases choose the preposition for you, so test the phrase as a whole.",
+        "items": [
+          {
+            "s": "The researchers regarded the coverage ____ some suspicion.",
+            "a": "with"
+          },
+          {
+            "s": "What separates solitude ____ loneliness is motivation, not isolation.",
+            "a": "from"
+          },
+          {
+            "s": "Enjoying your own company is no substitute ____ friendship.",
+            "a": "for"
+          },
+          {
+            "s": "Coverage of loneliness has been prone ____ alarm.",
+            "a": "to"
+          },
+          {
+            "s": "Newspapers tend to frame solitude ____ a problem.",
+            "a": "as"
+          }
+        ],
+        "extra": [
+          "upon",
+          "beneath"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: a cancelled evening",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the flatmate who wants a quiet night",
+      "text": "Your friend cancelled your plans for tonight. You're delighted and want to stay in alone. Your flatmate wants company. Explain why time alone matters to you and suggest a fair compromise."
+    },
+    "b": {
+      "role": "the flatmate who wants company",
+      "text": "Your plans for tonight have fallen through and you feel a little lonely. Ask your flatmate to do something together. Explain why, and listen to their reasons."
+    },
+    "phrases": [
+      "I was really looking forward to a quiet night.",
+      "It's not that I don't like your company.",
+      "Could we do something together tomorrow instead?",
+      "I'd rather spend the evening on my own.",
+      "I don't want you to feel lonely.",
+      "How about a short walk and then I'm yours?"
+    ],
+    "after": "Afterwards, tell the class: did you agree on a plan, and who gave way more?"
   }
 }

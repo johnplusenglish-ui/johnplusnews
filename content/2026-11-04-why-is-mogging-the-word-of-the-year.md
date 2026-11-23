@@ -11,6 +11,7 @@ source-3: Johns Hopkins All Children's Hospital, Looksmaxxing trend poses risks 
 source-3-date: August 2026
 image: images/why-is-mogging-the-word-of-the-year-3067db.jpg
 image-alt: A heavily built man curls a dumbbell in a red top while a slimmer man behind him holds a much lighter one and watches, in a dim gym.
+layout: lesson
 ---
 === Core ===
 

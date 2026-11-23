@@ -1,328 +1,541 @@
 {
- "slug": "did-writing-really-make-languages-more-complicated",
- "levels": {
-  "core": {
-   "gap": {
-    "items": [
-     {
-      "s": "The researchers studied about 100,000 ____ in 30 languages.",
-      "a": "sentences"
-     },
-     {
-      "s": "A clause is a group of words with its own ____.",
-      "a": "verb"
-     },
-     {
-      "s": "They also looked at how ____ the clauses were placed inside each other.",
-      "a": "deeply"
-     },
-     {
-      "s": "Earlier studies looked at only a few languages, and most of them were ____.",
-      "a": "European"
-     },
-     {
-      "s": "The study did not look at words or ____.",
-      "a": "style"
-     }
-    ],
-    "extra": [
-     "weather",
-     "price"
-    ]
-   },
-   "match": [
-    {
-     "t": "clause",
-     "d": "a group of words with its own verb"
+  "slug": "did-writing-really-make-languages-more-complicated",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "Everyone has a right to their own ____, even when other people disagree.",
+            "a": "opinion"
+          },
+          {
+            "s": "Too much sugar can ____ your teeth.",
+            "a": "damage"
+          },
+          {
+            "s": "It is not fair to ____ a person before you know them.",
+            "a": "judge"
+          },
+          {
+            "s": "The history of the alphabet is ____, and I could read about it all day.",
+            "a": "fascinating"
+          },
+          {
+            "s": "New ____ such as phones has changed the way we talk to each other.",
+            "a": "technology"
+          }
+        ],
+        "extra": [
+          "borrow",
+          "wealthy"
+        ]
+      },
+      "match": [
+        {
+          "t": "clause",
+          "d": "a group of words with its own verb"
+        },
+        {
+          "t": "universal",
+          "d": "true for everyone or everywhere"
+        },
+        {
+          "t": "advanced",
+          "d": "more developed than others"
+        },
+        {
+          "t": "tradition",
+          "d": "a custom that is passed down over many years"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The researchers ____ their study in 2026.",
+            "cue": "publish",
+            "a": "published"
+          },
+          {
+            "s": "The study ____ no universal pattern.",
+            "cue": "find",
+            "a": "found"
+          },
+          {
+            "s": "The team ____ out a much bigger check.",
+            "cue": "carry",
+            "a": "carried"
+          },
+          {
+            "s": "They wanted to know if grammar changed after people ____ to write a language down.",
+            "cue": "begin",
+            "a": "began"
+          },
+          {
+            "s": "Written sentences ____ not always more complex than spoken ones.",
+            "cue": "be",
+            "a": "were"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The study looked at about 100,000 sentences.",
+          "a": "T",
+          "why": "The text says: \"they looked at about 100,000 sentences\""
+        },
+        {
+          "s": "The researchers studied the grammar of 30 languages.",
+          "a": "F",
+          "why": "The text says: \"Second, they studied the grammar of 59 languages.\""
+        },
+        {
+          "s": "The study found that writing makes every language more complex.",
+          "a": "F",
+          "why": "The text says: \"the study found no universal pattern\""
+        },
+        {
+          "s": "The text says how long the study took.",
+          "a": "N",
+          "why": "The text does not say how long the study took."
+        },
+        {
+          "s": "Many people worry that social media and AI will change language.",
+          "a": "T",
+          "why": "The text says: \"Many people worry that social media and AI will damage language.\""
+        }
+      ],
+      "pre": [
+        {
+          "t": "complicated",
+          "d": "not simple, with many parts that are hard to understand"
+        },
+        {
+          "t": "journal",
+          "d": "a magazine where scientists publish their work"
+        },
+        {
+          "t": "researchers",
+          "d": "people who study something to find new facts"
+        },
+        {
+          "t": "pattern",
+          "d": "something that happens again and again in the same way"
+        },
+        {
+          "t": "effect",
+          "d": "a change that something causes"
+        },
+        {
+          "t": "culture",
+          "d": "the ideas, habits and way of life of a group of people"
+        },
+        {
+          "t": "puzzle",
+          "d": "a problem that you need to think about to solve"
+        },
+        {
+          "t": "worry",
+          "d": "to think about problems and feel afraid"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Linking words join ideas. Some show a different idea, some give an example, some show order or a result.",
+        "items": [
+          {
+            "s": "Many people think writing makes language more complex. ____, the new study found no sign of this.",
+            "a": "However"
+          },
+          {
+            "s": "Some tools change language. ____, the mobile phone has changed the way we write messages.",
+            "a": "For example"
+          },
+          {
+            "s": "First, they looked at sentences from 30 languages. ____, they studied the grammar of 59 languages.",
+            "a": "Second"
+          },
+          {
+            "s": "Writers can stop and think before anyone reads. ____, written sentences seem more careful.",
+            "a": "So"
+          },
+          {
+            "s": "Written sentences can seem more careful ____ writers can stop and think.",
+            "a": "because"
+          }
+        ],
+        "extra": [
+          "Although",
+          "Unless"
+        ]
+      }
     },
-    {
-     "t": "universal",
-     "d": "true for everyone or everywhere"
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "Only a ____ of students passed the test, so the teacher called a meeting.",
+            "a": "handful"
+          },
+          {
+            "s": "It's a common ____ that older languages are simpler, but nobody has really tested it.",
+            "a": "assumption"
+          },
+          {
+            "s": "Before you hand in an essay, it's wise to ____ it carefully.",
+            "a": "revise"
+          },
+          {
+            "s": "The experiment gave a ____ result every time, so the team trusted it.",
+            "a": "consistent"
+          },
+          {
+            "s": "A person's social ____ can affect how other people judge the way they speak.",
+            "a": "standing"
+          },
+          {
+            "s": "The writer draws a ____ between the printing press and the internet.",
+            "a": "parallel"
+          }
+        ],
+        "extra": [
+          "reluctant",
+          "assembled"
+        ]
+      },
+      "match": [
+        {
+          "t": "elaborate",
+          "d": "detailed and complicated"
+        },
+        {
+          "t": "nested",
+          "d": "placed inside something larger of the same kind"
+        },
+        {
+          "t": "systematically",
+          "d": "in a regular and organised way"
+        },
+        {
+          "t": "reconsider",
+          "d": "think again about something"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The paper, which ____ in PNAS in 2026, is led by Carlo Meloni.",
+            "cue": "appear",
+            "a": "appeared"
+          },
+          {
+            "s": "In the second analysis, the grammar of 59 languages ____ at.",
+            "cue": "look",
+            "a": "was looked"
+          },
+          {
+            "s": "By the time the new study appeared, earlier researchers ____ only a handful of languages.",
+            "cue": "study",
+            "a": "had studied"
+          },
+          {
+            "s": "It is worth ____ clear about what this does not show.",
+            "cue": "be",
+            "a": "being"
+          },
+          {
+            "s": "A finding of no universal effect ____ room for effects in particular languages.",
+            "cue": "leave",
+            "a": "leaves"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The 59 languages in the grammar analysis outnumber the 30 languages in the sentence analysis.",
+          "a": "T",
+          "why": "The text gives 30 languages for the first test and 59 for the second."
+        },
+        {
+          "s": "The earlier studies behind the idea covered a wider range of languages than the new study.",
+          "a": "F",
+          "why": "They \"looked at only a handful of languages\", while the new study used 30 and 59."
+        },
+        {
+          "s": "The study checked which of the 30 languages has the longest sentences.",
+          "a": "N",
+          "why": "The text says what was measured, but never mentions the longest sentences."
+        },
+        {
+          "s": "The authors accept that their link between writing and AI is not proven by their own data.",
+          "a": "T",
+          "why": "The text calls it \"an extension of the result rather than something the study tested\"."
+        },
+        {
+          "s": "The authors say that newer tools will not change language, and their study proves it.",
+          "a": "F",
+          "why": "The comparison with AI \"deserves a grain of salt\" because the study did not test it."
+        }
+      ],
+      "pre": [
+        {
+          "t": "analysis",
+          "d": "a careful study of something to understand it"
+        },
+        {
+          "t": "universal",
+          "d": "true for everyone or everywhere"
+        },
+        {
+          "t": "conclude",
+          "d": "decide that something is true after thinking about the facts"
+        },
+        {
+          "t": "senior",
+          "d": "with a higher or more important position"
+        },
+        {
+          "t": "extension",
+          "d": "something added to make an idea go further"
+        },
+        {
+          "t": "grain of salt",
+          "d": "a small amount of doubt when you hear something"
+        },
+        {
+          "t": "dramatic",
+          "d": "sudden and very big"
+        },
+        {
+          "t": "attitudes",
+          "d": "the way you think and feel about something"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Check what follows the gap. Some linkers join a clause, some need an -ing form, and some stand alone with a comma.",
+        "items": [
+          {
+            "s": "____ the study was very large, it measured only one thing.",
+            "a": "Although"
+          },
+          {
+            "s": "Writers can plan and edit before they publish. ____, many people expect written sentences to be longer.",
+            "a": "As a result"
+          },
+          {
+            "s": "The AI link was not tested. ____, it is a useful reminder that new tools do not always change language.",
+            "a": "Still"
+          },
+          {
+            "s": "____ saying that writing changes nothing, the authors say there is no universal effect.",
+            "a": "Instead of"
+          },
+          {
+            "s": "They first counted clauses in 100,000 sentences. ____, they compared the grammar of 59 languages.",
+            "a": "Next"
+          }
+        ],
+        "extra": [
+          "Unless",
+          "Otherwise"
+        ]
+      }
     },
-    {
-     "t": "advanced",
-     "d": "more developed than others"
-    },
-    {
-     "t": "tradition",
-     "d": "a custom that is passed down over many years"
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "The documentary ____ on interviews with only a handful of witnesses.",
+            "a": "drew"
+          },
+          {
+            "s": "It is hard to ____ in one sentence what the whole film is about.",
+            "a": "capture"
+          },
+          {
+            "s": "He asked the tailor to ____ the jacket because the sleeves were too long.",
+            "a": "alter"
+          },
+          {
+            "s": "Calling the old system \"efficient\" was a ____ description of something that regularly failed.",
+            "a": "flattering"
+          },
+          {
+            "s": "The novel's ____ plot rewards a second reading, since each chapter adds a new meaning.",
+            "a": "layered"
+          },
+          {
+            "s": "The new regulation ____ only large firms, so small shops are not affected.",
+            "a": "concerns"
+          }
+        ],
+        "extra": [
+          "reluctant",
+          "hostile"
+        ]
+      },
+      "match": [
+        {
+          "t": "sophisticated",
+          "d": "advanced and refined"
+        },
+        {
+          "t": "improvised",
+          "d": "made up on the spot"
+        },
+        {
+          "t": "inference",
+          "d": "a conclusion drawn from evidence rather than directly shown"
+        },
+        {
+          "t": "null result",
+          "d": "a finding that shows no effect"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Earlier findings were not ____ reproduced when other teams repeated the test.",
+            "cue": "CONSISTENT",
+            "a": "consistently"
+          },
+          {
+            "s": "Few readers could miss the ____ of the argument, which anticipated every objection.",
+            "cue": "SOPHISTICATED",
+            "a": "sophistication"
+          },
+          {
+            "s": "Because the sample was so small, the results were ____, and the team ran the test again.",
+            "cue": "CONCLUDE",
+            "a": "inconclusive"
+          },
+          {
+            "s": "A claim that no evidence could ever confirm is ____ in practice.",
+            "cue": "VERIFY",
+            "a": "unverifiable"
+          },
+          {
+            "s": "One obvious ____ of the study is that its measure is narrow.",
+            "cue": "LIMIT",
+            "a": "limitation"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The authors would probably accept that a study of clause nesting cannot settle whether writing changes vocabulary.",
+          "a": "T",
+          "why": "The text says clause counts and nesting depth capture \"not vocabulary, rhetoric\" or other effects."
+        },
+        {
+          "s": "The study's two analyses were designed to answer exactly the same question about modern speakers.",
+          "a": "F",
+          "why": "One concerns \"how people use language today\", the other \"how grammars have evolved\"."
+        },
+        {
+          "s": "Cathcart's view is that complex sentences are rare among speakers outside Western societies.",
+          "a": "F",
+          "why": "He says a global view shows sentences \"can be hugely complex in any setting and for any speaker\"."
+        },
+        {
+          "s": "The article treats Bickel's comparison with AI as less reliable than the study's own findings.",
+          "a": "T",
+          "why": "It calls the comparison \"an inference, not a result\" to be taken with \"a pinch of salt\"."
+        },
+        {
+          "s": "The final printed version of the paper differs from the online release.",
+          "a": "N",
+          "why": "The text only says readers should check the final version; it does not say it differs."
+        }
+      ],
+      "pre": [
+        {
+          "t": "intuition",
+          "d": "a feeling that something is true without proof"
+        },
+        {
+          "t": "syntax",
+          "d": "the way words are put in order to make sentences"
+        },
+        {
+          "t": "rhetoric",
+          "d": "the art of using words to persuade people"
+        },
+        {
+          "t": "nested",
+          "d": "placed inside something larger of the same kind"
+        },
+        {
+          "t": "pinch of salt",
+          "d": "a small amount of doubt when you hear a claim"
+        },
+        {
+          "t": "the jury is still out",
+          "d": "no final decision has been reached yet"
+        },
+        {
+          "t": "by extension",
+          "d": "following on from this, in a wider sense"
+        },
+        {
+          "t": "revolutions",
+          "d": "very big changes in how things are done"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Decide whether the gap needs a contrast, a summary, a condition or a result, and check how the clause that follows is built.",
+        "items": [
+          {
+            "s": "Some communities prize long, layered sentences in formal speech, ____ others value short, direct ones.",
+            "a": "whereas"
+          },
+          {
+            "s": "The sample is large, the methods are open and the results are stable. ____, the study is hard to dismiss.",
+            "a": "In short"
+          },
+          {
+            "s": "Clause counts capture only one aspect of syntax. ____, a null result across so many languages deserves respect.",
+            "a": "Nonetheless"
+          },
+          {
+            "s": "The conclusion holds ____ the sample is representative.",
+            "a": "provided"
+          },
+          {
+            "s": "The measure is narrow; ____, the authors stop short of claiming that writing never matters.",
+            "a": "hence"
+          }
+        ],
+        "extra": [
+          "albeit",
+          "lest"
+        ]
+      }
     }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "The researchers ____ their study in 2026.",
-      "cue": "publish",
-      "a": "published"
-     },
-     {
-      "s": "Earlier studies ____ at only a few languages.",
-      "cue": "look",
-      "a": "had looked"
-     },
-     {
-      "s": "The team ____ out a much bigger check.",
-      "cue": "carry",
-      "a": "carried"
-     },
-     {
-      "s": "They ____ how many clauses each sentence had.",
-      "cue": "count",
-      "a": "counted"
-     },
-     {
-      "s": "Written sentences ____ not always more complex than spoken ones.",
-      "cue": "be",
-      "a": "were"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The study looked at about 100,000 sentences.",
-     "a": "T",
-     "why": "The text says: \"they looked at about 100,000 sentences\""
-    },
-    {
-     "s": "The researchers studied the grammar of 30 languages.",
-     "a": "F",
-     "why": "The text says: \"Second, they studied the grammar of 59 languages.\""
-    },
-    {
-     "s": "The study found that writing makes every language more complex.",
-     "a": "F",
-     "why": "The text says: \"the study found no universal pattern\""
-    },
-    {
-     "s": "The text says how long the study took.",
-     "a": "N",
-     "why": "The text does not say how long the study took."
-    },
-    {
-     "s": "Many people worry that social media and AI will change language.",
-     "a": "T",
-     "why": "The text says: \"Many people worry that social media and AI will damage language.\""
-    }
-   ]
   },
-  "intermediate": {
-   "gap": {
-    "items": [
-     {
-      "s": "When you write, you can plan, revise and ____.",
-      "a": "edit"
-     },
-     {
-      "s": "Meloni points out that earlier studies looked at only a ____ of languages.",
-      "a": "handful"
-     },
-     {
-      "s": "They measured how deeply the clauses were ____ inside one another.",
-      "a": "nested"
-     },
-     {
-      "s": "Cathcart notes that Western society tends to link complex sentences with social ____.",
-      "a": "standing"
-     },
-     {
-      "s": "The link to AI is an extension of the result, not something the study ____.",
-      "a": "tested"
-     },
-     {
-      "s": "The first test used around 100,000 spoken and ____ sentences.",
-      "a": "written"
-     }
+  "speak": {
+    "title": "Role-play: does writing make a language better?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the believer",
+      "text": "You think a language with a long written history is more advanced. Give two reasons. Ask your partner why they disagree, and try to change their mind."
+    },
+    "b": {
+      "role": "the sceptic",
+      "text": "You read about a big study of 30 languages. It found no universal pattern. Explain what the researchers did and say why the old idea may be wrong. Be polite but firm."
+    },
+    "phrases": [
+      "I've always thought that writing makes language more serious.",
+      "That's what many people believe, but the study didn't find that.",
+      "Could you give me an example?",
+      "I'm not convinced, because they only measured sentences.",
+      "That's a fair point, but it doesn't prove anything.",
+      "Let's agree to disagree."
     ],
-    "extra": [
-     "weather",
-     "pronunciation"
-    ]
-   },
-   "match": [
-    {
-     "t": "elaborate",
-     "d": "detailed and complicated"
-    },
-    {
-     "t": "nested",
-     "d": "placed inside something larger of the same kind"
-    },
-    {
-     "t": "systematically",
-     "d": "in a regular and organised way"
-    },
-    {
-     "t": "reconsider",
-     "d": "think again about something"
-    }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "The paper, which ____ in PNAS in 2026, is led by Carlo Meloni.",
-      "cue": "appear",
-      "a": "appeared"
-     },
-     {
-      "s": "Written sentences ____ not always more complex than spoken ones.",
-      "cue": "be",
-      "a": "were"
-     },
-     {
-      "s": "Languages did not systematically ____ more grammatical structures.",
-      "cue": "develop",
-      "a": "develop"
-     },
-     {
-      "s": "The authors ____ that there is no universal effect of writing.",
-      "cue": "conclude",
-      "a": "conclude"
-     },
-     {
-      "s": "Earlier studies ____ at only a handful of languages.",
-      "cue": "look",
-      "a": "looked"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The researchers counted the clauses in each sentence.",
-     "a": "T",
-     "why": "The text says: \"They counted the clauses in each sentence\""
-    },
-    {
-     "s": "The paper claims that writing makes no difference anywhere.",
-     "a": "F",
-     "why": "The text says: \"The paper does not claim that writing makes no difference anywhere.\""
-    },
-    {
-     "s": "The grammar analysis covered 59 languages.",
-     "a": "T",
-     "why": "The text says: \"they looked at the grammar of 59 languages\""
-    },
-    {
-     "s": "The text says how many people speak the 30 languages.",
-     "a": "N",
-     "why": "The text does not say how many people speak these languages."
-    },
-    {
-     "s": "The study tested the idea that AI will not change language.",
-     "a": "F",
-     "why": "The text says: \"That is the authors' extension of the result rather than something the study tested\""
-    }
-   ]
-  },
-  "advanced": {
-   "gap": {
-    "items": [
-     {
-      "s": "Written sentences are supposed to be longer, more ____ and more sophisticated than speech.",
-      "a": "layered"
-     },
-     {
-      "s": "Earlier work supporting the idea drew on only a ____ of languages.",
-      "a": "handful"
-     },
-     {
-      "s": "One analysis measures how deeply the clauses are ____.",
-      "a": "nested"
-     },
-     {
-      "s": "No universal effect is a good deal ____ than claiming that writing never matters.",
-      "a": "weaker"
-     },
-     {
-      "s": "Cathcart observes that Western society strongly ____ complex sentences with social standing.",
-      "a": "associates"
-     },
-     {
-      "s": "Bickel's comment about AI is an inference, not a ____.",
-      "a": "result"
-     }
-    ],
-    "extra": [
-     "ancient",
-     "reluctantly"
-    ]
-   },
-   "match": [
-    {
-     "t": "sophisticated",
-     "d": "advanced and refined"
-    },
-    {
-     "t": "improvised",
-     "d": "made up on the spot"
-    },
-    {
-     "t": "inference",
-     "d": "a conclusion drawn from evidence rather than directly shown"
-    },
-    {
-     "t": "null result",
-     "d": "a finding that shows no effect"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "Written sentences were not ____ more complex than spoken ones.",
-      "cue": "CONSISTENT",
-      "a": "consistently"
-     },
-     {
-      "s": "Languages did not ____ add grammatical structure.",
-      "cue": "SYSTEMATIC",
-      "a": "systematically"
-     },
-     {
-      "s": "The new study widens the lens ____.",
-      "cue": "CONSIDERABLE",
-      "a": "considerably"
-     },
-     {
-      "s": "It is an ____ so familiar that few people question it.",
-      "cue": "INTUITIVE",
-      "a": "intuition"
-     },
-     {
-      "s": "The authors report no evidence for a ____ effect.",
-      "cue": "UNIVERSE",
-      "a": "universal"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The first analysis compared about 100,000 sentences in 30 languages.",
-     "a": "T",
-     "why": "The text says: \"The first compares around 100,000 spoken and written sentences in 30 languages\""
-    },
-    {
-     "s": "The authors claim that writing never matters.",
-     "a": "F",
-     "why": "The text says: \"which is a good deal weaker than claiming that writing never matters\""
-    },
-    {
-     "s": "The paper's print issue is dated 24 November 2026.",
-     "a": "T",
-     "why": "The text says: \"the paper's print issue is dated 24 November 2026\""
-    },
-    {
-     "s": "The study measured changes in vocabulary.",
-     "a": "F",
-     "why": "The text says: \"Clause counts and nesting depth capture one aspect of syntax, not vocabulary, rhetoric or the many other ways in which writing can alter how language is used.\""
-    },
-    {
-     "s": "The text gives the exact number of researchers on the team.",
-     "a": "N",
-     "why": "The text does not say how many researchers were on the team."
-    }
-   ]
+    "after": "Afterwards, tell the class: did you change your partner's mind, and what is one thing you both agree on?"
   }
- }
 }

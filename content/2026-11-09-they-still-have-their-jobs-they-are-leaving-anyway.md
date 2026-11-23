@@ -7,6 +7,7 @@ source: The Guardian, Fearing AI disruption, white-collar workers are quitting t
 source-date: 6 November 2026
 image: images/they-still-have-their-jobs-they-are-leaving-anyway-4d94ad.jpg
 image-alt: A smiling man with a marker in his hand stands at a whiteboard covered in flowcharts and arrows in a bright office meeting room.
+layout: lesson
 ---
 === Core ===
 

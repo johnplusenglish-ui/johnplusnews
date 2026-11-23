@@ -5,11 +5,7 @@
       "gap": {
         "items": [
           {
-            "s": "He told his customers and his boss that the combination was an ____ to Italian culture.",
-            "a": "insult"
-          },
-          {
-            "s": "The restaurant ____ him.",
+            "s": "After the argument, the restaurant ____ the chef and he had to find a new job.",
             "a": "sacked"
           },
           {
@@ -21,13 +17,17 @@
             "a": "carbonara"
           },
           {
-            "s": "A recipe can connect us to our family and our ____.",
-            "a": "home"
+            "s": "People can feel that something they love is in ____.",
+            "a": "danger"
+          },
+          {
+            "s": "Franco Pepe ____ a pizza cone filled with pineapple, ham and cheese.",
+            "a": "invented"
           }
         ],
         "extra": [
-          "suitcase",
-          "harbour"
+          "waiter",
+          "sauce"
         ]
       },
       "match": [
@@ -57,82 +57,150 @@
             "a": "refused"
           },
           {
-            "s": "Pizza ____ people together.",
-            "cue": "bring",
-            "a": "brings"
+            "s": "He ____ his customers that the combination was an insult.",
+            "cue": "tell",
+            "a": "told"
+          },
+          {
+            "s": "Pasta ____ soft for hundreds of years.",
+            "cue": "eat",
+            "a": "was eaten"
+          },
+          {
+            "s": "The pizza of a hundred years ago ____ nothing like the pizza we eat today.",
+            "cue": "be",
+            "a": "was"
           },
           {
             "s": "Queensland ____ almost all of Australia's pineapples.",
             "cue": "grow",
             "a": "grows"
-          },
-          {
-            "s": "Pasta ____ eaten soft for hundreds of years.",
-            "cue": "be",
-            "a": "was"
-          },
-          {
-            "s": "A recipe can also ____, as it always has.",
-            "cue": "change",
-            "a": "change"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Tamburella was working at a restaurant in Brisbane.",
+          "s": "The restaurant where Tamburella worked is in a state that grows pineapples.",
           "a": "T",
-          "why": "The text says: \"He was working at a restaurant in Brisbane, Australia, and he refused to put pineapple on a pizza\""
+          "why": "Brisbane is in Queensland, which grows almost all of Australia's pineapples."
         },
         {
-          "s": "Every Italian is against pineapple on pizza.",
+          "s": "Tamburella was the first chef to lose a job like this.",
           "a": "F",
-          "why": "The text says: \"Not every Italian is against pineapple either\""
+          "why": "The text says: \"He is not the first cook to lose a job this way.\""
         },
         {
-          "s": "The article gives the price of the pizza.",
+          "s": "Tamburella found a new job soon after the restaurant sacked him.",
           "a": "N",
-          "why": "The text does not mention any prices"
+          "why": "The text does not say what he did next."
         },
         {
-          "s": "A chef from Bologna lost a job in France in 2017.",
-          "a": "T",
-          "why": "The text says: \"In 2017 a chef from Bologna was sacked by a restaurant near Lyon, in France\""
+          "s": "Luca Cesari thinks all the rules Italians defend are very old.",
+          "a": "F",
+          "why": "He says many of the rules \"are not very old at all\"."
         },
         {
-          "s": "Queensland grows almost all of Australia's pineapples.",
+          "s": "Franco Pepe has made a pizza with pineapple in it.",
           "a": "T",
-          "why": "The text says: \"Queensland, the state where Brisbane is, grows almost all of Australia's pineapples\""
+          "why": "He invented a pizza cone filled with pineapple, ham and cheese."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "combination",
+          "d": "two or more things put together"
+        },
+        {
+          "t": "divides",
+          "d": "splits people into groups that disagree"
+        },
+        {
+          "t": "strongly",
+          "d": "with very strong feelings"
+        },
+        {
+          "t": "defend",
+          "d": "speak or act to protect something"
+        },
+        {
+          "t": "fashions",
+          "d": "styles that are popular for a short time"
+        },
+        {
+          "t": "allows",
+          "d": "says that something is OK"
+        },
+        {
+          "t": "connect",
+          "d": "join one thing to another"
+        },
+        {
+          "t": "argument",
+          "d": "a talk where people do not agree"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Use so for a result, because for a reason, but for a contrast and although for a surprise.",
+        "items": [
+          {
+            "s": "He felt strongly about pizza, ____ he refused to add fruit.",
+            "a": "so"
+          },
+          {
+            "s": "Some people love pineapple on pizza, ____ others hate it.",
+            "a": "but"
+          },
+          {
+            "s": "He lost his job ____ he would not change the recipe.",
+            "a": "because"
+          },
+          {
+            "s": "____ Italians defend old rules, many of those rules are quite new.",
+            "a": "Although"
+          },
+          {
+            "s": "First he said no. ____ the boss told him to leave.",
+            "a": "Then"
+          }
+        ],
+        "extra": [
+          "or",
+          "unless"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "He would not give way to his customers or to his boss, insisting that the combination was an ____ to Italian culture.",
-            "a": "insult"
+            "s": "Teenagers often show a small act of ____ by refusing to wear the clothes their parents choose.",
+            "a": "rebellion"
           },
           {
-            "s": "In Bologna, ragù is eaten with ____ and nothing else.",
-            "a": "tagliatelle"
+            "s": "My ____ lived in the same village for centuries, so our family recipes are very old.",
+            "a": "ancestors"
           },
           {
-            "s": "Food fashions move faster than ever, and there are now more chefs on television than ____ cooking at home.",
-            "a": "grandmothers"
+            "s": "The manager was ____ when I explained why I was late, and said it could happen to anyone.",
+            "a": "sympathetic"
           },
           {
-            "s": "A spoonful of cream in a carbonara is now enough to cause an ____.",
-            "a": "argument"
+            "s": "The report listed several ____ in the company's rules, such as different holidays for similar jobs.",
+            "a": "inconsistencies"
           },
           {
-            "s": "Franco Pepe created a filled pizza cone he called the AnaNascosta, the ____ pineapple.",
-            "a": "hidden"
+            "s": "He spent months ____ pressure to change the menu.",
+            "a": "resisting"
+          },
+          {
+            "s": "The soup was ____ cooked, so there was no need to leave it on the heat any longer.",
+            "a": "thoroughly"
           }
         ],
         "extra": [
-          "passport",
-          "rehearsal"
+          "horrified",
+          "grated"
         ]
       },
       "match": [
@@ -157,87 +225,155 @@
         "kind": "verb",
         "items": [
           {
-            "s": "The restaurant ____ him.",
+            "s": "Tamburella ____ at a restaurant in Brisbane when he refused to add pineapple.",
+            "cue": "work",
+            "a": "was working"
+          },
+          {
+            "s": "Several of the rules Italians enforce today ____ their ancestors, who ate soft pasta.",
+            "cue": "puzzle",
+            "a": "would have puzzled|would puzzle"
+          },
+          {
+            "s": "Maurizio Landi ____ by a bistro near Lyon in 2017.",
             "cue": "sack",
-            "a": "sacked"
+            "a": "was sacked"
           },
           {
-            "s": "Italians can ____ that their cooking is under pressure.",
-            "cue": "sense",
-            "a": "sense"
+            "s": "By the 1960s, pasta ____ soft for centuries.",
+            "cue": "eat",
+            "a": "had been eaten"
           },
           {
-            "s": "The difficulty is that the recipes ____ moving too.",
-            "cue": "keep",
-            "a": "keep"
-          },
-          {
-            "s": "Macaroni with cheese ____ served beside meat from the Middle Ages onwards.",
-            "cue": "be",
-            "a": "was"
-          },
-          {
-            "s": "None of that ____ anybody to enjoy it.",
-            "cue": "oblige",
-            "a": "obliges"
+            "s": "Gino Sorbillo ____ pineapple on a white pizza.",
+            "cue": "allow",
+            "a": "has allowed"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Maurizio Landi was sacked near Lyon in 2017.",
-          "a": "T",
-          "why": "The text says: \"In 2017 Maurizio Landi, a chef from Bologna, was sacked by a bistro near Lyon\""
-        },
-        {
-          "s": "Cream in carbonara has been standard in Italy for centuries.",
+          "s": "Maurizio Landi was sacked in the same country as Davide Tamburella.",
           "a": "F",
-          "why": "The text says: \"a few Roman cooks introduced it in the 1960s and kept it up for forty years\""
+          "why": "Tamburella lost his job in Brisbane, Australia, and Landi near Lyon, in France."
         },
         {
-          "s": "The article says how much Tamburella earned.",
+          "s": "Sorbillo leaves tomato off the pineapple pizza because tomato would make it too acidic.",
+          "a": "T",
+          "why": "The text says a white pizza has \"no tomato, which would otherwise make it too acidic\"."
+        },
+        {
+          "s": "Tamburella had worked at the Brisbane restaurant for several years.",
           "a": "N",
-          "why": "The text does not mention his pay"
+          "why": "The text does not say how long he worked there."
         },
         {
-          "s": "Gino Sorbillo allows pineapple only on a pizza without tomato.",
+          "s": "Many Italians who dislike grated cheese on fish still eat mussels with pecorino.",
           "a": "T",
-          "why": "The text says: \"has allowed it on a white pizza with no tomato, which would otherwise make it too acidic\""
+          "why": "The text says they \"will nonetheless order\" the traditional mussels with pecorino."
         },
         {
-          "s": "Cesari argues that Italian food rules have stayed the same.",
+          "s": "The cream in carbonara disappeared from Roman kitchens within ten years.",
           "a": "F",
-          "why": "The text says: \"The difficulty is that the recipes keep moving too\""
+          "why": "Roman cooks \"kept it up for forty years\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "reliable",
+          "d": "almost certain to work every time"
+        },
+        {
+          "t": "cheerful",
+          "d": "happy and positive"
+        },
+        {
+          "t": "employment",
+          "d": "having a job with a company"
+        },
+        {
+          "t": "geographical",
+          "d": "to do with places and where they are"
+        },
+        {
+          "t": "pressure",
+          "d": "strong influence that makes you do something"
+        },
+        {
+          "t": "fashions",
+          "d": "styles that are popular for a short time"
+        },
+        {
+          "t": "offends",
+          "d": "makes someone feel upset or insulted"
+        },
+        {
+          "t": "obliges",
+          "d": "makes someone have to do something"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Check where the gap sits: between two clauses, at the start of a sentence, or before a noun phrase.",
+        "items": [
+          {
+            "s": "Italians defend old rules fiercely, ____ many of those rules are quite recent.",
+            "a": "yet"
+          },
+          {
+            "s": "____ the pressure from his boss, Tamburella would not add pineapple.",
+            "a": "Despite"
+          },
+          {
+            "s": "Sorbillo leaves the tomato off the white pizza. ____, the pineapple would taste far too acidic.",
+            "a": "Otherwise"
+          },
+          {
+            "s": "Pasta was eaten soft for centuries. The rule that it must be firm is, ____, quite modern.",
+            "a": "therefore"
+          },
+          {
+            "s": "Pineapple on pizza may not suit your taste. ____, that is no reason to look down on people who enjoy it.",
+            "a": "Nonetheless"
+          }
+        ],
+        "extra": [
+          "unless",
+          "moreover"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Queensland grows almost all of Australia's pineapples, which gives the stand a certain splendid ____.",
-            "a": "futility"
+            "s": "The ____ champion defended her title for the third year running.",
+            "a": "reigning"
           },
           {
-            "s": "Cesari treats this with ____ rather than mockery.",
-            "a": "affection"
+            "s": "Despite repeated warnings, the rumour ____ for decades before anyone checked its source.",
+            "a": "persisted"
           },
           {
-            "s": "Cream in a carbonara, now close to a criminal ____, was introduced by Roman cooks in the 1960s.",
-            "a": "offence"
+            "s": "The committee ____ the complaint as trivial and moved on to the next item.",
+            "a": "dismissed"
           },
           {
-            "s": "The toppings change; the authorities are ____.",
-            "a": "permanent"
+            "s": "The inspector's report was ____, exposing every flaw in the safety system.",
+            "a": "devastating"
           },
           {
-            "s": "The heat rarely comes from the ____.",
-            "a": "ingredient"
+            "s": "Some people ____ reality television yet watch it every week.",
+            "a": "despise"
+          },
+          {
+            "s": "She considered the offer ____ of her talents and turned it down.",
+            "a": "unworthy"
           }
         ],
         "extra": [
-          "itinerary",
-          "surcharge"
+          "tolerance",
+          "ambition"
         ]
       },
       "match": [
@@ -262,59 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Cesari's list is quietly ____.",
-            "cue": "DEVASTATE",
-            "a": "devastating"
+            "s": "Cesari's examples expose a striking ____ in what Italians condemn.",
+            "cue": "CONSISTENT",
+            "a": "inconsistency"
           },
           {
-            "s": "He treats this with affection rather than ____.",
-            "cue": "MOCK",
-            "a": "mockery"
+            "s": "The speed of change has produced a growing sense of ____ among Italian cooks.",
+            "cue": "SECURE",
+            "a": "insecurity"
           },
           {
-            "s": "The highest authorities dismissed anchovies and sausage as modern ____.",
-            "cue": "INNOVATE",
-            "a": "innovations"
+            "s": "The chef's ____ to compromise cost him his job.",
+            "cue": "WILLING",
+            "a": "unwillingness"
           },
           {
-            "s": "A London chain sold a spiced sauce to annoy the ____ out of existence.",
-            "cue": "PREJUDICED",
-            "a": "prejudice"
+            "s": "Critics find the topping ____ because it breaks a rule they have never questioned.",
+            "cue": "ACCEPT",
+            "a": "unacceptable"
           },
           {
-            "s": "Cesari's ____ is the sharpest thing in the piece.",
-            "cue": "CONCLUDE",
-            "a": "conclusion"
+            "s": "The historian's account is ____ rather than hostile.",
+            "cue": "SYMPATHY",
+            "a": "sympathetic"
           }
         ]
       },
       "tfn": [
         {
-          "s": "A newspaper complained about pizza toppings in 1860.",
+          "s": "The 1860 report suggests that complaints about toppings are older than the pineapple row.",
           "a": "T",
-          "why": "The text says: \"In December 1860 the Morning Post described Neapolitan pizza\""
+          "why": "In 1860 authorities already dismissed anchovies, sausage and mushrooms as modern innovations."
         },
         {
-          "s": "Cesari mocks Italians for defending their food.",
+          "s": "Tamburella and Landi lost their jobs for the same reason.",
           "a": "F",
-          "why": "The text says: \"the food historian Luca Cesari treats this with affection rather than mockery\""
+          "why": "Tamburella refused pineapple; Landi refused to overcook pasta and to produce spaghetti bolognese."
         },
         {
-          "s": "The article names the Brisbane restaurant.",
+          "s": "The AnaNascosta is sold by the London chain mentioned in the article.",
           "a": "N",
-          "why": "The text does not name the restaurant"
+          "why": "The text does not say where the AnaNascosta is sold."
         },
         {
-          "s": "Mussels with pecorino is a traditional dish.",
+          "s": "The article implies that some Italians accept mussels with pecorino while objecting to cheese on fish in general.",
           "a": "T",
-          "why": "The text says: \"the thoroughly traditional mussels with pecorino\""
+          "why": "Grated cheese on fish causes outrage among people who happily eat mussels with pecorino."
         },
         {
-          "s": "Cesari concludes that Italians need pineapple pizza in order to eat it.",
-          "a": "F",
-          "why": "The text says: \"They need it in order to have something to despise\""
+          "s": "Some Roman cooks were still putting cream in carbonara in the 1980s.",
+          "a": "T",
+          "why": "The text says cream was introduced in the 1960s and \"persisted for forty years\", which covers the 1980s."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "decline",
+          "d": "a slow fall in quality or strength"
+        },
+        {
+          "t": "mockery",
+          "d": "laughing at someone in an unkind way"
+        },
+        {
+          "t": "accelerating",
+          "d": "getting faster"
+        },
+        {
+          "t": "innovations",
+          "d": "new ideas or methods"
+        },
+        {
+          "t": "outrage",
+          "d": "strong anger about something that seems wrong"
+        },
+        {
+          "t": "permitted",
+          "d": "allowed"
+        },
+        {
+          "t": "united",
+          "d": "joined together and agreeing"
+        },
+        {
+          "t": "authorities",
+          "d": "people or groups with official power or expert opinion"
+        }
+      ],
+      "focus": {
+        "type": "linking words",
+        "note": "Some of these only work at the start of a sentence, and some need a clause, a noun or just a short phrase after them.",
+        "items": [
+          {
+            "s": "The row is lively, ____ rather short on historical evidence.",
+            "a": "albeit"
+          },
+          {
+            "s": "____ Tamburella insisted on tradition, Cesari shows how recent most of it is.",
+            "a": "Whereas"
+          },
+          {
+            "s": "____ the historian's evidence, many diners still insist the rule is ancient.",
+            "a": "Notwithstanding"
+          },
+          {
+            "s": "Objections to toppings date back to 1860; ____, today's outrage is hardly new.",
+            "a": "hence"
+          },
+          {
+            "s": "Defenders of tradition issue warnings; ____, pizzerias in Italy sell frankfurters with chips.",
+            "a": "meanwhile"
+          }
+        ],
+        "extra": [
+          "thereby",
+          "provided"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: pineapple on the menu",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the restaurant owner",
+      "text": "A customer wants pineapple on a pizza. Your chef says no. Ask why he refuses and what he wants to do. Decide whether to say yes, say no, or find a middle way."
+    },
+    "b": {
+      "role": "the chef",
+      "text": "You are a proud Italian chef. A customer wants pineapple on a pizza and you think it's wrong. Explain your reasons, but remember that you need your job."
+    },
+    "phrases": [
+      "I'm sorry, but I can't put pineapple on a pizza.",
+      "It's not a real Italian pizza.",
+      "The customer's always right, you know.",
+      "I'd rather lose my job than do it.",
+      "Could we offer it on a white pizza?",
+      "Let's find a solution we're both happy with."
+    ],
+    "after": "Afterwards, tell the class: did the chef keep his job, and who gave way first?"
   }
 }

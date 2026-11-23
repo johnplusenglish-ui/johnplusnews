@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "AI had taken a lot of the thinking and the ____ out of writing code.",
-            "a": "fun"
+            "s": "Many people spend years building their ____ and then change direction.",
+            "a": "careers"
           },
           {
-            "s": "He left and joined the ____ in a large American city.",
-            "a": "police"
+            "s": "After leaving his old job, Chris enjoys helping people in his local ____.",
+            "a": "community"
           },
           {
-            "s": "Kara, who also used a different name, was an advertising ____.",
-            "a": "producer"
+            "s": "A lawyer can explain the ____ risks of copying someone's voice with AI.",
+            "a": "legal"
           },
           {
-            "s": "There is no evidence that AI is causing mass job ____.",
-            "a": "losses"
+            "s": "Too much ____ at work can make you tired and unhappy.",
+            "a": "stress"
           },
           {
-            "s": "Many editors had stopped editing and had become ____ of work that a machine produced.",
-            "a": "managers"
+            "s": "Workers are afraid of being ____ by machines.",
+            "a": "replaced"
           }
         ],
         "extra": [
-          "suitcase",
-          "harvest"
+          "salary",
+          "colleague"
         ]
       },
       "match": [
@@ -104,35 +104,103 @@
           "a": "T",
           "why": "The text says: \"Hanna Horvath, left an editing job to work for herself\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "tool",
+          "d": "something you use to do a job"
+        },
+        {
+          "t": "disappeared",
+          "d": "went away and could not be seen or found any more"
+        },
+        {
+          "t": "engineer",
+          "d": "a person who builds machines or computer programs"
+        },
+        {
+          "t": "advertising",
+          "d": "making things that make people want to buy a product"
+        },
+        {
+          "t": "warned",
+          "d": "told someone that something bad might happen"
+        },
+        {
+          "t": "producer",
+          "d": "a person in charge of making an advert, film or show"
+        },
+        {
+          "t": "mass",
+          "d": "very large and involving a lot of people"
+        },
+        {
+          "t": "worried",
+          "d": "afraid that something bad will happen"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word. The small word changes the meaning, so learn the whole phrase.",
+        "items": [
+          {
+            "s": "Chris decided to give ____ writing code and join the police.",
+            "a": "up"
+          },
+          {
+            "s": "Some workers are walking ____ from careers they spent years building.",
+            "a": "away"
+          },
+          {
+            "s": "Kara's boss told her team to try ____ new AI tools.",
+            "a": "out"
+          },
+          {
+            "s": "Hanna did not want to go ____ to editing, so she works for herself.",
+            "a": "back"
+          },
+          {
+            "s": "A new manager took ____ the team last month.",
+            "a": "over"
+          }
+        ],
+        "extra": [
+          "through",
+          "along"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Chris asked for a ____ rather than giving his real name.",
-            "a": "pseudonym"
+            "s": "Leaving a well-____ career after ten years takes courage.",
+            "a": "established"
           },
           {
-            "s": "He expected to be ____ eventually.",
-            "a": "displaced"
-          },
-          {
-            "s": "As producer, she was the one responsible for ____ at a moment when AI-generated likenesses remain a legal grey area.",
+            "s": "Before the advert could go out, a lawyer had to give ____ for the actor's voice.",
             "a": "clearance"
           },
           {
-            "s": "The Economist counts roughly a million American jobs created by AI against about 200,000 losses ____ to it.",
+            "s": "Much of the fall in staff numbers was ____ to AI, although other causes were likely.",
             "a": "attributed"
           },
           {
-            "s": "Her colleagues had turned into project ____ for material the machine generated.",
-            "a": "managers"
+            "s": "A job for life is no longer ____ in many industries.",
+            "a": "guaranteed"
+          },
+          {
+            "s": "Some managers care more about the ____ of work produced than its quality.",
+            "a": "quantity"
+          },
+          {
+            "s": "Workers may still feel unhappy ____ of how secure their position is.",
+            "a": "regardless"
           }
         ],
         "extra": [
-          "passport",
-          "rehearsal"
+          "compulsory",
+          "fragile"
         ]
       },
       "match": [
@@ -157,87 +225,155 @@
         "kind": "verb",
         "items": [
           {
-            "s": "None of them ____ pushed out.",
-            "cue": "be",
-            "a": "was"
+            "s": "By the time Vanessa resigned, her employer ____ her twice.",
+            "cue": "promote",
+            "a": "had promoted"
           },
           {
-            "s": "They ____ voluntarily, into work they believed was more secure.",
-            "cue": "go",
-            "a": "went"
+            "s": "Kara's team ____ to use AI tools by their employer.",
+            "cue": "tell",
+            "a": "were told"
           },
           {
-            "s": "Her employer ____ the team towards AI video and voice tools.",
-            "cue": "push",
-            "a": "pushed"
+            "s": "Employers should ____ their staff before introducing new tools.",
+            "cue": "consult",
+            "a": "consult"
           },
           {
-            "s": "What has ____ is expectation.",
-            "cue": "change",
-            "a": "changed"
+            "s": "The report ____ by a journalist who spoke to former white-collar workers.",
+            "cue": "write",
+            "a": "was written"
           },
           {
-            "s": "A prediction does not need to ____ true to change a life.",
-            "cue": "come",
-            "a": "come"
+            "s": "If I felt that way about my work, I ____ too.",
+            "cue": "leave",
+            "a": "would leave"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The workers described in the report left their jobs by choice.",
+          "s": "Kara's employer encouraged AI tools but also warned about the legal risks.",
           "a": "T",
-          "why": "The text says: \"They went voluntarily, into work they believed was either more secure or closer to what they actually valued\""
+          "why": "The text says her employer \"pushed the team towards AI video and voice tools, then warned them about the legal dangers\"."
         },
         {
-          "s": "The evidence shows AI is causing mass redundancy.",
+          "s": "The Economist's figures show AI has already caused far more job losses than new jobs.",
           "a": "F",
-          "why": "The text says: \"There is no sign of mass redundancy\""
+          "why": "The Economist counts about a million jobs created against about 200,000 losses."
         },
         {
           "s": "The article says how old Chris is.",
           "a": "N",
-          "why": "The text does not give his age"
+          "why": "The text does not give his age."
         },
         {
-          "s": "Brendan Moore teaches economics at the University of Notre Dame.",
+          "s": "Chris spent longer in his field than Vanessa Hsia did.",
           "a": "T",
-          "why": "The text says: \"Brendan Moore, an economist at the University of Notre Dame\""
+          "why": "Chris spent \"more than a decade\" in engineering, Vanessa \"nearly ten years\" in public relations."
         },
         {
-          "s": "Vanessa Hsia left public relations to study comparative literature.",
-          "a": "T",
-          "why": "The text says: \"Vanessa Hsia left public relations after nearly ten years to study comparative literature\""
+          "s": "Brendan Moore believes every layoff blamed on AI was caused by AI.",
+          "a": "F",
+          "why": "He says some of those layoffs \"would probably have happened regardless\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "white-collar",
+          "d": "connected with office work or professional jobs"
+        },
+        {
+          "t": "secure",
+          "d": "safe and not likely to be lost"
+        },
+        {
+          "t": "redundancy",
+          "d": "losing your job because your employer no longer needs you"
+        },
+        {
+          "t": "layoffs",
+          "d": "times when a company ends the jobs of some workers"
+        },
+        {
+          "t": "prediction",
+          "d": "a statement about what will happen in the future"
+        },
+        {
+          "t": "panic",
+          "d": "sudden strong fear that makes people act without thinking"
+        },
+        {
+          "t": "survives",
+          "d": "continues to exist after a difficult time"
+        },
+        {
+          "t": "colleagues",
+          "d": "people you work with"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "The verb often changes with tense but the small word stays the same, so check the particle given in the sentence.",
+        "items": [
+          {
+            "s": "Hanna ____ out that AI does not have to replace a job to change it.",
+            "a": "pointed"
+          },
+          {
+            "s": "Kara ____ up working in a coffee shop while she trained as an actor.",
+            "a": "ended"
+          },
+          {
+            "s": "Employers should ____ into the effects of AI on staff before they change anything.",
+            "a": "look"
+          },
+          {
+            "s": "Vanessa did not want to ____ off her decision any longer.",
+            "a": "put"
+          },
+          {
+            "s": "Some companies ____ back on staff and blamed AI.",
+            "a": "cut"
+          }
+        ],
+        "extra": [
+          "carry",
+          "sort"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "He wrote of a world in ____.",
-            "a": "peril"
+            "s": "The merger cost hundreds of jobs, but the company's reputation emerged ____.",
+            "a": "intact"
           },
           {
-            "s": "An anonymous engineer said the career he had built over ten years was fundamentally ____.",
-            "a": "gone"
+            "s": "Analysts say a far larger shift is quietly ____ in the labour market, and few have noticed.",
+            "a": "unfolding"
           },
           {
-            "s": "That is not redundancy. It is a quiet ____ of one occupation for another behind an unchanged job title.",
-            "a": "substitution"
+            "s": "The new software was meant to ____ routine errors, not the people who spot them.",
+            "a": "eliminate"
           },
           {
-            "s": "The economic picture refuses to ____ with the fear.",
-            "a": "cooperate"
+            "s": "Executives often ____ falling headcount to technology rather than to poor planning.",
+            "a": "attribute"
           },
           {
-            "s": "Efficiency and loss can be the same event viewed from two ____.",
-            "a": "desks"
+            "s": "A single anecdote from the factory floor ____ the clearest evidence of the policy's effect.",
+            "a": "supplies"
+          },
+          {
+            "s": "The report reaches a deeply ____ conclusion for managers who prided themselves on fairness.",
+            "a": "uncomfortable"
           }
         ],
         "extra": [
-          "itinerary",
-          "surcharge"
+          "lucrative",
+          "fleeting"
         ]
       },
       "match": [
@@ -262,59 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "An ____ engineer said his career was fundamentally gone.",
-            "cue": "ANONYMITY",
-            "a": "anonymous"
+            "s": "The ____ of the resignation letter, read fifteen million times, surprised even its author.",
+            "cue": "POPULAR",
+            "a": "popularity"
           },
           {
-            "s": "Their accounts share a ____.",
-            "cue": "STRUCTURAL",
-            "a": "structure"
+            "s": "Many economists regard the panic as largely ____ given the figures.",
+            "cue": "RATIONAL",
+            "a": "irrational"
           },
           {
-            "s": "The practical ____ sits underneath.",
-            "cue": "QUESTIONING",
-            "a": "question"
+            "s": "The company's ____ of the chatbot saved money but cost goodwill.",
+            "cue": "INTRODUCE",
+            "a": "introduction"
           },
           {
-            "s": "Leaving early while you still have the choice is a ____ move.",
-            "cue": "DEFEND",
-            "a": "defensible"
+            "s": "Her ____ to retrain at forty impressed her colleagues.",
+            "cue": "WILLING",
+            "a": "willingness"
           },
           {
-            "s": "Hsia described an industry substituting AI for ____ thinking.",
-            "cue": "CRITICISM",
-            "a": "critical"
+            "s": "Blaming AI for every layoff is ____, since many cuts were planned already.",
+            "cue": "MISLEAD",
+            "a": "misleading"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Mrinank Sharma's resignation letter was read more than fifteen million times.",
+          "s": "Sharma and Hsia both left their fields to study arts or humanities subjects.",
           "a": "T",
-          "why": "The text says: \"published his resignation letter on X, where it was read more than fifteen million times\""
+          "why": "Sharma will study poetry and Hsia left for a master's in comparative literature."
         },
         {
-          "s": "Dario Amodei's 2025 prediction has come true.",
+          "s": "Amodei's 2025 forecast and the Economist's figures point the same way.",
           "a": "F",
-          "why": "The text says: \"That has not happened\""
+          "why": "He predicted half of entry-level jobs would go, but the Economist counts more jobs created than lost."
         },
         {
           "s": "The article states Sharma's salary at Anthropic.",
           "a": "N",
-          "why": "The text does not mention his pay"
+          "why": "The text does not mention his pay."
         },
         {
-          "s": "Brendan Moore says some firms would have cut staff even without AI.",
+          "s": "The article argues that Horvath's former colleagues kept their job titles even though their daily work had changed.",
           "a": "T",
-          "why": "The text says: \"many of those companies would have cut staff anyway\""
+          "why": "It calls this \"a quiet substitution of one occupation for another behind an unchanged job title\"."
         },
         {
           "s": "The article says workers are routinely consulted about how AI is introduced.",
           "a": "F",
-          "why": "The text says: \"very few of the people doing the work are being asked which\""
+          "why": "The text says \"very few of the people doing the work are being asked which\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "pseudonym",
+          "d": "a false name used instead of your real one"
+        },
+        {
+          "t": "entry-level",
+          "d": "suitable for someone starting their career"
+        },
+        {
+          "t": "substituting",
+          "d": "using one thing in place of another"
+        },
+        {
+          "t": "supervising",
+          "d": "watching over work to make sure it is done properly"
+        },
+        {
+          "t": "fundamentally",
+          "d": "in the most basic and important way"
+        },
+        {
+          "t": "layoffs",
+          "d": "times when a company ends the jobs of some workers"
+        },
+        {
+          "t": "efficiency",
+          "d": "doing something well without wasting time or money"
+        },
+        {
+          "t": "organises",
+          "d": "arranges into a clear pattern or order"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Some phrasal verbs are formal in meaning: bear out means confirm and play down means make seem less important. Learn them with their prepositions.",
+        "items": [
+          {
+            "s": "The data does not bear ____ the claim that half of entry-level jobs have vanished.",
+            "a": "out"
+          },
+          {
+            "s": "Moore suggests that some of the fear stems ____ warnings from executives.",
+            "a": "from"
+          },
+          {
+            "s": "Executives tend to play ____ the human cost of automation.",
+            "a": "down"
+          },
+          {
+            "s": "Staff who buy ____ the promise of a smoother workday may later feel their skills are being hollowed out.",
+            "a": "into"
+          },
+          {
+            "s": "The study could not account ____ why some workers left while others stayed.",
+            "a": "for"
+          }
+        ],
+        "extra": [
+          "off",
+          "through"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: the new AI tool",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the manager",
+      "text": "Next month your team must start using a new AI tool. It will save time and money. Explain why it is a good idea. Ask your employee how they feel. Try to find a plan you both accept."
+    },
+    "b": {
+      "role": "the employee",
+      "text": "You love the creative part of your job, and the new AI tool will do most of it. You are worried. Say how you feel, ask to keep some of the work, and say what you might do if nothing changes."
+    },
+    "phrases": [
+      "I'd like to talk about the new tool.",
+      "It's going to save us a lot of time.",
+      "I'm worried it'll take the best part of my job.",
+      "What's your biggest concern?",
+      "Couldn't I keep some of the work myself?",
+      "I'd hate to leave, but I might have to."
+    ],
+    "after": "Afterwards, tell the class: did you find a plan, or did the employee decide to leave?"
   }
 }

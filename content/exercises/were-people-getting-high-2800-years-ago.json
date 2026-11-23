@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "Scientists found chemical evidence in human ____.",
-            "a": "hair"
+            "s": "Dry air helped to keep the hair ____ for thousands of years.",
+            "a": "preserved"
           },
           {
-            "s": "The tomb belonged to members of the Scythian ____.",
-            "a": "culture"
+            "s": "A good teacher can ____ a difficult idea in simple words.",
+            "a": "explain"
           },
           {
-            "s": "The research was published in the journal Science on 5 ____ 2026.",
-            "a": "November"
+            "s": "The same plant can have different ____, for example food or medicine.",
+            "a": "purposes"
           },
           {
-            "s": "Seeds alone would not prove ____ people used cannabis.",
-            "a": "why"
+            "s": "A few old seeds cannot ____ that someone used a plant as a drug.",
+            "a": "prove"
           },
           {
-            "s": "The plant can also be used for making rope, cloth or ____.",
-            "a": "oil"
+            "s": "The team took small samples and ____ them carefully to measure the chemicals inside.",
+            "a": "analysed"
           }
         ],
         "extra": [
-          "metal",
-          "paper"
+          "recorded",
+          "invented"
         ]
       },
       "match": [
@@ -85,9 +85,9 @@
           "why": "The text says: \"The research was published in the journal Science on 5 November 2026.\""
         },
         {
-          "s": "The tomb was in Africa.",
+          "s": "Seeds are the only evidence that the scientists found.",
           "a": "F",
-          "why": "The text says: \"Archaeologists studying an ancient tomb in Siberia\""
+          "why": "The text says they also found chemical evidence in human hair."
         },
         {
           "s": "Scientists can say exactly how people took cannabis.",
@@ -104,39 +104,103 @@
           "a": "T",
           "why": "The text says: \"Seeds alone might show that people had cannabis, but they would not prove why.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "archaeologists",
+          "d": "scientists who study the past by digging up old things"
+        },
+        {
+          "t": "ancient",
+          "d": "very, very old"
+        },
+        {
+          "t": "intoxicating",
+          "d": "making a person feel strange, like drink or drugs can"
+        },
+        {
+          "t": "substance",
+          "d": "a type of material, for example a powder or a liquid"
+        },
+        {
+          "t": "exposed",
+          "d": "in contact with something, with no protection"
+        },
+        {
+          "t": "burial",
+          "d": "to do with putting a dead person in the ground"
+        },
+        {
+          "t": "curious",
+          "d": "wanting to learn and find out about things"
+        },
+        {
+          "t": "complicated",
+          "d": "not simple, with many parts"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Some words go together naturally. Learn the pair, not just one word: make a discovery, play a part.",
+        "items": [
+          {
+            "s": "The scientists ____ an important discovery in Siberia.",
+            "a": "made"
+          },
+          {
+            "s": "Cannabis may have ____ a part in special ceremonies.",
+            "a": "played"
+          },
+          {
+            "s": "The finding ____ many new questions about the Scythians.",
+            "a": "raised"
+          },
+          {
+            "s": "For years, nobody ____ attention to the old seeds.",
+            "a": "paid"
+          },
+          {
+            "s": "The discovery ____ light on how ancient people lived.",
+            "a": "shed"
+          }
+        ],
+        "extra": [
+          "held",
+          "broke"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "The clue was traces of chemicals preserved in human ____.",
-            "a": "hair"
+            "s": "The tests have not yet been able to ____ a firm link between the plant and the people buried there.",
+            "a": "establish"
           },
           {
-            "s": "The researchers were led by archaeologist Gino ____.",
-            "a": "Caspari"
+            "s": "Divers ____ several gold coins from an ancient shipwreck.",
+            "a": "recovered"
           },
           {
-            "s": "The evidence dates back to the early eighth century ____.",
-            "a": "BC"
+            "s": "The Scythians are ____ with horse riding across the steppe.",
+            "a": "associated"
           },
           {
-            "s": "Cannabis also has practical uses, such as making ____ and oil.",
-            "a": "textiles"
+            "s": "The finding ____ the idea that ancient people knew little about plants.",
+            "a": "challenges"
           },
           {
-            "s": "The Greek historian ____ described Scythian practices involving plant smoke.",
-            "a": "Herodotus"
+            "s": "Chemical evidence was found in human ____, not only in seeds.",
+            "a": "tissue"
           },
           {
-            "s": "The study cannot tell us the THC ____ of the original plants.",
-            "a": "strength"
+            "s": "Dry, cold conditions kept the hair well ____ for thousands of years.",
+            "a": "preserved"
           }
         ],
         "extra": [
-          "weapons",
-          "temperature"
+          "ignore",
+          "estimated"
         ]
       },
       "match": [
@@ -161,91 +225,155 @@
         "kind": "verb",
         "items": [
           {
-            "s": "A discovery in southern Siberia now ____ unusually direct evidence.",
-            "cue": "provide",
-            "a": "provides"
+            "s": "The study ____ in the journal Science on 5 November 2026.",
+            "cue": "publish",
+            "a": "was published"
           },
           {
-            "s": "The study ____ a princely tomb.",
-            "cue": "examine",
-            "a": "examined"
+            "s": "By the time the scientists tested the hair, it ____ for about 2,800 years.",
+            "cue": "survive",
+            "a": "had survived"
           },
           {
-            "s": "The hair ____ cannabinol.",
-            "cue": "contain",
-            "a": "contained"
+            "s": "Ancient accounts must ____ with caution.",
+            "cue": "treat",
+            "a": "be treated"
           },
           {
-            "s": "Ancient writers ____ Scythian practices involving plant smoke.",
-            "cue": "describe",
-            "a": "described"
+            "s": "In recent years, archaeologists ____ a great deal from tiny remains.",
+            "cue": "learn",
+            "a": "have learned"
           },
           {
-            "s": "Cannabis ____ often discussed as if it were a modern issue.",
-            "cue": "be",
-            "a": "is"
+            "s": "If more hair ____, scientists will learn more.",
+            "cue": "find",
+            "a": "is found"
           }
         ]
       },
       "tfn": [
         {
-          "s": "Finding seeds alone proves that people used the plant to become intoxicated.",
-          "a": "F",
-          "why": "The text says: \"finding cannabis seeds by themselves would not establish that anybody used the plant to become intoxicated\""
-        },
-        {
-          "s": "The study was published in a different journal from Science.",
-          "a": "F",
-          "why": "The text says: \"published in the journal Science on 5 November 2026\""
-        },
-        {
-          "s": "The evidence shows cannabis was common throughout Scythian society.",
-          "a": "F",
-          "why": "The text says: \"the evidence does not show that cannabis was common throughout Scythian society\""
-        },
-        {
-          "s": "Scythian people spoke a language related to Persian.",
-          "a": "N",
-          "why": "The text does not say which language the Scythians spoke."
-        },
-        {
-          "s": "Some written accounts of the Scythians came long after the events.",
+          "s": "The study gives a physical clue that written accounts could not give.",
           "a": "T",
-          "why": "The text says: \"such accounts were written long after some of the events they described\""
+          "why": "The text says the clue \"was not a written record but traces of chemicals preserved in human hair\"."
+        },
+        {
+          "s": "Cannabis seeds found in the tomb are enough to show that someone used it to become intoxicated.",
+          "a": "F",
+          "why": "The text says finding seeds \"by themselves would not establish\" that anybody used the plant that way."
+        },
+        {
+          "s": "The researchers have already planned a second study of the tomb.",
+          "a": "N",
+          "why": "The text does not mention any future study."
+        },
+        {
+          "s": "The writer says ancient use proves that present-day cannabis is safe.",
+          "a": "F",
+          "why": "The text says ancient use does not \"tell us whether present-day cannabis is safe\"."
+        },
+        {
+          "s": "The study still leaves open the question of how the plant was taken.",
+          "a": "T",
+          "why": "The text says it \"does not reveal exactly how the plant was prepared or consumed\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "compounds",
+          "d": "chemicals made of two or more parts joined together"
+        },
+        {
+          "t": "traces",
+          "d": "very small signs that something was there"
+        },
+        {
+          "t": "ceremonies",
+          "d": "special events with fixed actions, such as weddings"
+        },
+        {
+          "t": "intoxicated",
+          "d": "affected by a drug or alcohol"
+        },
+        {
+          "t": "ancestors",
+          "d": "people in your family who lived long ago"
+        },
+        {
+          "t": "princely",
+          "d": "connected to a prince, or very rich and grand"
+        },
+        {
+          "t": "burial",
+          "d": "to do with putting a dead person in a grave"
+        },
+        {
+          "t": "ordinary",
+          "d": "normal, not special"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Verb and noun often form a fixed pair. Notice which verb goes with which noun: draw conclusions, play a role.",
+        "items": [
+          {
+            "s": "The discovery has ____ new light on how the Scythians lived.",
+            "a": "shed"
+          },
+          {
+            "s": "The team ____ a detailed analysis of the hair.",
+            "a": "conducted"
+          },
+          {
+            "s": "It is hard to ____ firm conclusions from one tomb.",
+            "a": "draw"
+          },
+          {
+            "s": "Cannabis may have ____ a role in funeral ceremonies.",
+            "a": "played"
+          },
+          {
+            "s": "The tomb offers ____ evidence, not just old stories.",
+            "a": "physical"
+          }
+        ],
+        "extra": [
+          "heavy",
+          "fixed"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Few plants provoke as much ____ debate as cannabis.",
-            "a": "contemporary"
-          },
-          {
-            "s": "The findings were ____ to the early eighth century BC.",
-            "a": "dated"
-          },
-          {
-            "s": "The crucial clue was ____ detected in the hair.",
-            "a": "cannabinol"
-          },
-          {
-            "s": "Evidence from one burial site cannot be ____ to an entire society.",
+            "s": "Findings from a single excavation should not be ____ to the whole population of the region.",
             "a": "generalised"
           },
           {
-            "s": "Ancient accounts of the Scythians must be treated with ____.",
-            "a": "caution"
+            "s": "Traces of the toxin were ____ in the blood sample, though only at very low levels.",
+            "a": "detected"
           },
           {
-            "s": "The material came from an elaborate burial ____.",
-            "a": "context"
+            "s": "Archaeologists found ____ of resin on the inside of the clay vessel.",
+            "a": "residues"
+          },
+          {
+            "s": "A study of ancient habits should not be read as an ____ of present-day policy.",
+            "a": "endorsement"
+          },
+          {
+            "s": "It is ____ to read a complete ritual into a handful of clues, but the evidence is thin.",
+            "a": "tempting"
+          },
+          {
+            "s": "The tomb contained an ____ arrangement of gold ornaments and carved wood, which pointed to high status.",
+            "a": "elaborate"
           }
         ],
         "extra": [
-          "legislation",
-          "anxiety"
+          "tentative",
+          "reinforced"
         ]
       },
       "match": [
@@ -270,59 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "The discovery provides unusually strong ____ evidence.",
-            "cue": "PHYSICS",
-            "a": "physical"
+            "s": "Some historians dismiss ancient accounts as ____.",
+            "cue": "RELIABLE",
+            "a": "unreliable"
           },
           {
-            "s": "Combining archaeology with science helps researchers move beyond ____.",
-            "cue": "SPECULATE",
-            "a": "speculation"
+            "s": "The ____ of seeds alone would have told researchers very little.",
+            "cue": "PRESENT",
+            "a": "presence"
           },
           {
-            "s": "The evidence remains ____.",
-            "cue": "COMPLETE",
-            "a": "incomplete"
+            "s": "The team's findings are, if not conclusive, at least highly ____.",
+            "cue": "SUGGEST",
+            "a": "suggestive"
           },
           {
-            "s": "An ancient origin may make something interesting without making it ____.",
-            "cue": "HARM",
-            "a": "harmless"
+            "s": "The researcher spoke ____ about what the traces can show.",
+            "cue": "CAUTIOUS",
+            "a": "cautiously"
           },
           {
-            "s": "The wider ____ lies in the way tiny remains can reshape our picture of human behaviour.",
-            "cue": "SIGNIFICANT",
-            "a": "significance"
+            "s": "The main ____ of the study is that the evidence comes from a single site.",
+            "cue": "LIMIT",
+            "a": "limitation"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The tomb in the study is linked to the Scythians.",
+          "s": "The writer implies that written accounts are a weaker basis for the claim than the chemical analysis.",
           "a": "T",
-          "why": "The text says: \"the research focused on a princely tomb associated with the Scythians\""
+          "why": "Ancient texts \"must be treated with caution\", while chemical residues allow \"a more specific argument\"."
         },
         {
-          "s": "The chemical traces show the strength of the original plants.",
+          "s": "The hair evidence shows that cannabis was part of everyday life for the Scythians.",
           "a": "F",
-          "why": "The text says: \"The chemical traces cannot establish the original plants' THC concentration\""
+          "why": "The traces cannot establish \"whether it occurred in ordinary daily life\"."
         },
         {
-          "s": "Chemical residues in human tissue allow a more specific argument than seeds alone.",
-          "a": "T",
-          "why": "The text says: \"Detecting chemical residues in human tissue allows researchers to make a more specific argument about exposure to the plant's psychoactive constituents.\""
-        },
-        {
-          "s": "The researchers plan to study the plant's DNA.",
+          "s": "The researchers plan to test hair from other Scythian burials.",
           "a": "N",
-          "why": "The text does not say that the researchers plan to study the plant's DNA."
+          "why": "The text mentions no plans for further testing."
         },
         {
-          "s": "An ancient origin makes a substance harmless.",
+          "s": "Seeds are less informative than hair because cannabis had uses unrelated to intoxication.",
+          "a": "T",
+          "why": "Seeds alone say little since the plant was valuable \"for making fibre, oil and other products\"."
+        },
+        {
+          "s": "The writer concludes that the long history of cannabis should settle modern policy debates.",
           "a": "F",
-          "why": "The text says: \"Something's ancient origin may make it culturally interesting without making it harmless or desirable.\""
+          "why": "The text warns that historical use should not be confused with \"a modern endorsement of any particular policy\"."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "provoke",
+          "d": "to cause a strong reaction or argument"
+        },
+        {
+          "t": "steppe",
+          "d": "a huge area of flat grassland with few trees"
+        },
+        {
+          "t": "affiliated",
+          "d": "officially connected with an organisation"
+        },
+        {
+          "t": "psychoactive",
+          "d": "affecting the mind or mood"
+        },
+        {
+          "t": "ceremonial",
+          "d": "connected with formal rituals or special occasions"
+        },
+        {
+          "t": "principal",
+          "d": "main, most important"
+        },
+        {
+          "t": "concentration",
+          "d": "the amount of a substance in a mixture"
+        },
+        {
+          "t": "symbolic",
+          "d": "standing for an idea rather than being practical"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Strong collocations are often fixed in academic writing. Learn the whole chunk: fall short of, cast doubt on, circumstantial evidence.",
+        "items": [
+          {
+            "s": "The evidence ____ short of proving that cannabis was used in rituals.",
+            "a": "falls"
+          },
+          {
+            "s": "Ancient accounts must be ____ with caution.",
+            "a": "treated"
+          },
+          {
+            "s": "The findings ____ doubt on the assumption that ancient societies were simple.",
+            "a": "cast"
+          },
+          {
+            "s": "The discovery has ____ a fresh debate about ritual drug use.",
+            "a": "sparked"
+          },
+          {
+            "s": "The authors stress that this is ____ evidence from a single site, not proof of wider habits.",
+            "a": "circumstantial"
+          }
+        ],
+        "extra": [
+          "broad",
+          "deliberate"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: how should the museum tell this story?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the museum curator",
+      "text": "Your museum wants a display about the Siberian tomb. You like the headline 'People Got High 2,800 Years Ago'. It will bring in visitors. Explain why, and listen to your colleague's worries."
+    },
+    "b": {
+      "role": "the scientist",
+      "text": "You worked on the study. The evidence is real, but it leaves many questions open. Explain what the hair and seeds can show and what they can't. Suggest a better headline and try to agree."
+    },
+    "phrases": [
+      "I'd like a headline that grabs people's attention.",
+      "That's true, but it isn't the whole story.",
+      "We can't say that for certain.",
+      "The hair shows exposure, not how often people used it.",
+      "How about a title that's honest and still interesting?",
+      "I think we can agree on that."
+    ],
+    "after": "Afterwards, tell the class: what headline did you agree on, and why?"
   }
 }

@@ -129,6 +129,14 @@
         {
           "t": "pretending",
           "d": "acting as if something is true when it is not"
+        },
+        {
+          "t": "embarrassed",
+          "d": "feeling shy or silly because of something you did"
+        },
+        {
+          "t": "enormous",
+          "d": "extremely big"
         }
       ],
       "focus": {
@@ -294,6 +302,14 @@
         {
           "t": "well-earned",
           "d": "deserved because you have worked hard"
+        },
+        {
+          "t": "irresponsible",
+          "d": "not taking proper care of your duties"
+        },
+        {
+          "t": "enthusiasts",
+          "d": "people who are very keen on a particular thing"
         }
       ],
       "focus": {
@@ -463,6 +479,10 @@
         {
           "t": "premiere",
           "d": "the first public showing of a film"
+        },
+        {
+          "t": "legitimacy",
+          "d": "the quality of being accepted as proper or reasonable"
         }
       ],
       "focus": {

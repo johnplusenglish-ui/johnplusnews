@@ -9,12 +9,8 @@
             "a": "outshining"
           },
           {
-            "s": "Collins says young people mostly use it in a light, joking way when somebody is ____.",
+            "s": "Young people use it in a joking way when somebody is ____, for example by a dog in a photograph.",
             "a": "upstaged"
-          },
-          {
-            "s": "AMOG stands for ____ male of the group.",
-            "a": "alpha"
           },
           {
             "s": "In the photograph, the dog got all the ____.",
@@ -23,6 +19,10 @@
           {
             "s": "People are more than a face or a ____.",
             "a": "score"
+          },
+          {
+            "s": "In gyms, the strongest man in the room was called the most ____ one there.",
+            "a": "powerful"
           }
         ],
         "extra": [
@@ -104,17 +104,81 @@
           "a": "T",
           "why": "The text says: \"the same word can do two very different jobs\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "outperforming",
+          "d": "doing something better than someone else"
+        },
+        {
+          "t": "status",
+          "d": "how important people think you are"
+        },
+        {
+          "t": "ranked",
+          "d": "put in order from best to worst"
+        },
+        {
+          "t": "teasing",
+          "d": "making fun of someone, often in a friendly way"
+        },
+        {
+          "t": "brilliant",
+          "d": "extremely good"
+        },
+        {
+          "t": "hiring",
+          "d": "giving jobs to new workers"
+        },
+        {
+          "t": "upset",
+          "d": "unhappy or angry about something"
+        },
+        {
+          "t": "relaxed",
+          "d": "calm and not worried"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some verbs and adjectives always take one small word after them, like short for or compare with. Learn the pair together.",
+        "items": [
+          {
+            "s": "The word mogging is short ____ AMOG.",
+            "a": "for"
+          },
+          {
+            "s": "At the last second the dog walks ____ the middle of the shot.",
+            "a": "into"
+          },
+          {
+            "s": "Some men ranked each other ____ looks, confidence and status.",
+            "a": "by"
+          },
+          {
+            "s": "Comparing ourselves ____ other people is nothing new.",
+            "a": "with"
+          },
+          {
+            "s": "There is a difference ____ a joke everybody is in on and a joke about somebody who is not.",
+            "a": "between"
+          }
+        ],
+        "extra": [
+          "beside",
+          "beneath"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Alex Beecroft said younger speakers use it playfully and ____.",
+            "s": "Younger speakers tend to use the word playfully and ____.",
             "a": "ironically"
           },
           {
-            "s": "The manosphere is a loose collection of online spaces where some men discuss status and ____.",
+            "s": "In the manosphere, men discuss status, attractiveness and ____ over others.",
             "a": "dominance"
           },
           {
@@ -122,17 +186,21 @@
             "a": "inferior"
           },
           {
-            "s": "Some apps use artificial intelligence to give a face a ____.",
+            "s": "Some apps use artificial intelligence to give a face a ____ out of ten.",
             "a": "rating"
           },
           {
-            "s": "Carspreading is carmakers building every new model longer, wider and ____.",
+            "s": "Carspreading means carmakers make each new model longer, wider and ____ than the last.",
             "a": "heavier"
+          },
+          {
+            "s": "The teasing in those online spaces was not ____ at all, because it was meant to make people feel small.",
+            "a": "affectionate"
           }
         ],
         "extra": [
-          "suitcase",
-          "affectionate"
+          "nervous",
+          "widespread"
         ]
       },
       "match": [
@@ -167,19 +235,19 @@
             "a": "believed"
           },
           {
-            "s": "That history has not ____ because the word is now funny.",
+            "s": "That history has not ____ simply because the word is now funny.",
             "cue": "vanish",
             "a": "vanished"
           },
           {
-            "s": "Dr Reese has ____ a sharp rise in eating disorders.",
-            "cue": "describe",
-            "a": "described"
+            "s": "The word had ____ quietly for about ten years before Collins chose it.",
+            "cue": "circulate",
+            "a": "circulated"
           },
           {
-            "s": "The two ideas are related but they are not the ____ thing.",
-            "cue": "same",
-            "a": "same"
+            "s": "One of the two ideas can ____ happily without the other.",
+            "cue": "exist",
+            "a": "exist"
           }
         ]
       },
@@ -209,35 +277,103 @@
           "a": "F",
           "why": "The text says: \"None of this means that everyone using the word shares the beliefs of the people who coined it\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "outperforming",
+          "d": "doing something better than someone else"
+        },
+        {
+          "t": "upstaged",
+          "d": "having your attention taken by someone else"
+        },
+        {
+          "t": "spectacular",
+          "d": "very impressive to look at"
+        },
+        {
+          "t": "manosphere",
+          "d": "online spaces where some men talk about status and dominance"
+        },
+        {
+          "t": "coined",
+          "d": "invented a new word or phrase"
+        },
+        {
+          "t": "clinicians",
+          "d": "doctors and nurses who treat patients"
+        },
+        {
+          "t": "shortening",
+          "d": "a shorter form of a word"
+        },
+        {
+          "t": "celebrating",
+          "d": "showing that you are happy about something good"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many adjectives, verbs and nouns need a fixed preposition. Learn them as chunks, such as depend on and a rise in.",
+        "items": [
+          {
+            "s": "Its meaning depends almost entirely ____ who is speaking.",
+            "a": "on"
+          },
+          {
+            "s": "Looksmaxxing is ____ trying to improve how you look.",
+            "a": "about"
+          },
+          {
+            "s": "The word is believed to be a shortening ____ AMOG.",
+            "a": "of"
+          },
+          {
+            "s": "Doctors have seen a rise in teenagers presenting ____ eating disorders.",
+            "a": "with"
+          },
+          {
+            "s": "Collins reaches its choice ____ tracking how often words appear.",
+            "a": "by"
+          }
+        ],
+        "extra": [
+          "towards",
+          "against"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "The word ____ around 2016 as gym vocabulary.",
+            "s": "Advertisers often ____ youth slang in the hope of sounding current.",
+            "a": "deploy"
+          },
+          {
+            "s": "Children usually ____ their accent from the people around them.",
+            "a": "inherit"
+          },
+          {
+            "s": "A comment posted in public often ____ the mood in which it was made.",
+            "a": "outlives"
+          },
+          {
+            "s": "The discovery that adults coined the word ____ the claim that teenagers are damaging English.",
+            "a": "complicates"
+          },
+          {
+            "s": "A rumour that ____ on an obscure forum can reach millions within hours.",
             "a": "surfaces"
           },
           {
-            "s": "It then ____ into a verb inside the manosphere.",
-            "a": "hardens"
-          },
-          {
-            "s": "Slang gives those observations a convenient ____.",
+            "s": "A text abbreviation is a ____ that saves time but can lose nuance.",
             "a": "shorthand"
-          },
-          {
-            "s": "Words ____ from their origins routinely.",
-            "a": "detach"
-          },
-          {
-            "s": "A word of the year records attention rather than ____.",
-            "a": "approval"
           }
         ],
         "extra": [
-          "suitcase",
-          "frequency"
+          "ambiguity",
+          "remnant"
         ]
       },
       "match": [
@@ -262,59 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "To mog someone was to make them visibly ____.",
-            "cue": "INFERIOR",
-            "a": "inferior"
+            "s": "The ____ of the term from gym slang to a family joke surprised many.",
+            "cue": "EVOLVE",
+            "a": "evolution"
           },
           {
-            "s": "It is difficult to imagine a less ____ origin.",
-            "cue": "PLAY",
-            "a": "playful"
+            "s": "Critics say some apps encourage an unhealthy ____ with appearance.",
+            "cue": "OBSESS",
+            "a": "obsession"
           },
           {
-            "s": "The ____ concern attaches to the neighbouring trend.",
-            "cue": "CLINIC",
-            "a": "clinical"
+            "s": "The remark was meant as teasing, but its target found it ____.",
+            "cue": "HUMILIATE",
+            "a": "humiliating"
           },
           {
-            "s": "Teenagers took the teeth out of it, which shows that slang travels ____.",
-            "cue": "UP",
-            "a": "upward"
+            "s": "There is a ____ difference between friendly banter and public ranking.",
+            "cue": "SIGNIFY",
+            "a": "significant"
           },
           {
-            "s": "P(doom) is a ____ estimate of how likely someone thinks a collapse is.",
-            "cue": "PERCENT",
-            "a": "percentage"
+            "s": "____ of a word's origins rarely worries the people who use it.",
+            "cue": "IGNORE",
+            "a": "ignorance"
           }
         ]
       },
       "tfn": [
         {
-          "s": "About a decade separates the gym usage from the joke about a dog.",
+          "s": "The earliest users of mogging were adults.",
           "a": "T",
-          "why": "The text says: \"about a decade separates that usage from the dog\""
+          "why": "The text says it \"was coined by grown men in gyms and forums\"."
         },
         {
-          "s": "The article says teenagers coined the word.",
+          "s": "Collins and Dictionary.com chose the same word for the year.",
           "a": "F",
-          "why": "The text says: \"Mogging was not coined by teenagers. It was coined by grown men in gyms and forums\""
+          "why": "Collins chose mogging, while \"Dictionary.com, separately, chose maxxing\"."
         },
         {
-          "s": "Collins received more than a million public votes for its shortlist.",
+          "s": "The writer thinks a teenager who says mogging is endorsing its original meaning.",
+          "a": "F",
+          "why": "The text says \"It does not follow that a teenager saying the word endorses any of this\"."
+        },
+        {
+          "s": "Maxxing was used more often than mogging this year.",
           "a": "N",
-          "why": "The text does not say how Collins gathered opinions about the shortlist"
+          "why": "The text gives no usage figures for maxxing."
         },
         {
-          "s": "Some newer uses of the word mock the practice of ranking people.",
+          "s": "Mogging was already in use around ten years before Collins named it word of the year.",
           "a": "T",
-          "why": "The text says: \"Some newer uses are explicitly mocking the business of ranking people\""
+          "why": "It \"surfaces around 2016\", and Collins named it in 2026."
+        }
+      ],
+      "pre": [
+        {
+          "t": "manosphere",
+          "d": "online spaces where some men talk about status and dominance"
         },
         {
-          "s": "The article says looksmaxxing and mogging describe the same behaviour.",
-          "a": "F",
-          "why": "The text says: \"looksmaxxing concerns altering your own appearance, while mogging concerns outdoing somebody else's\""
+          "t": "hardens",
+          "d": "becomes fixed and less open to change"
+        },
+        {
+          "t": "coined",
+          "d": "invented a new word or phrase"
+        },
+        {
+          "t": "upstaged",
+          "d": "having your attention taken by someone else"
+        },
+        {
+          "t": "explicitly",
+          "d": "in a clear and direct way"
+        },
+        {
+          "t": "regimes",
+          "d": "strict plans for diet or behaviour"
+        },
+        {
+          "t": "substantial",
+          "d": "large in size or amount"
+        },
+        {
+          "t": "verdict",
+          "d": "an official opinion or judgement"
         }
-      ]
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some prepositions change the meaning of the whole phrase. Check whether the word before the gap links to a cause, an origin or a result.",
+        "items": [
+          {
+            "s": "The clinical concern attaches ____ the neighbouring trend, not the joke.",
+            "a": "to"
+          },
+          {
+            "s": "Words detach ____ their origins routinely.",
+            "a": "from"
+          },
+          {
+            "s": "It then hardens ____ a verb inside the manosphere.",
+            "a": "into"
+          },
+          {
+            "s": "Mogging was not coined ____ teenagers.",
+            "a": "by"
+          },
+          {
+            "s": "The distinction ____ looksmaxxing and mogging is worth keeping.",
+            "a": "between"
+          }
+        ],
+        "extra": [
+          "toward",
+          "beneath"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: is it just a joke?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the parent",
+      "text": "You read that mogging began in gyms and online groups that ranked people by looks. Your teenager uses the word all the time. Ask what it means to them. Decide if they can keep using it."
+    },
+    "b": {
+      "role": "the teenager",
+      "text": "You use mogging as a joke about dogs, football and photos. Explain why it's harmless. Say what your friends mean by it. Try to keep using it."
+    },
+    "phrases": [
+      "I read where that word comes from.",
+      "What do you and your friends mean by it?",
+      "It's just a joke, I promise.",
+      "I'm not sure it's harmless, though.",
+      "Would you say it to someone who wasn't laughing?",
+      "Let's agree to be careful with it."
+    ],
+    "after": "Afterwards, tell the class: did the parent change their mind, and why?"
   }
 }

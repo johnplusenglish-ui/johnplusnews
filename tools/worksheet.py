@@ -119,7 +119,7 @@ def sheet(level, teacher):
 
     # 7 linking words
     lk = d["focus"]
-    lbank = sorted([i["a"] for i in lk["items"]] + list(lk.get("extra") or []), key=str.lower)
+    lbank = sorted([i["a"].lower() for i in lk["items"]] + [x.lower() for x in lk.get("extra") or []])
     t7 = task(7, "Language focus: " + lk["type"],
               "Complete the sentences with words from the box. Two words are not needed. " + esc(lk["note"]),
               '<p class="bank">{}</p><ol class="rows">{}</ol>'.format(
@@ -147,9 +147,9 @@ def sheet(level, teacher):
 
     foot = "{} · {} {}".format(meta["title"], level, CEFR[level])
     return TEMPLATE.format(
-        css=CSS.replace("FOOT", foot.replace('"', "'")).replace("FONTDIR", (REPO / "static" / "fonts").as_uri()), level=level, cefr=CEFR[level], date=esc(meta.get("date-label", "")),
+        css=CSS.replace("FOOT", foot.replace('"', "'")).replace("FONTFACES", FACES), level=level, cefr=CEFR[level], date=esc(meta.get("date-label", "")),
         who='Name <span class="line"></span>',
-        title=esc(title), img=(REPO / "static" / "images" / "thumbs" / Path(meta["image"]).name).as_uri(), t1=t1, t2=t2, t3=t3, t4=t4, t5=t5, t6=t6, t7=t7, t8=t8, t9=t9,
+        title=esc(title), img=PICTURE, t1=t1, t2=t2, t3=t3, t4=t4, t5=t5, t6=t6, t7=t7, t8=t8, t9=t9,
         key=keyblock)
 
 
@@ -170,8 +170,7 @@ TEMPLATE = """<!doctype html><html lang="en"><head><meta charset="utf-8"><title>
 </body></html>"""
 
 CSS = """
-@font-face{font-family:Outfit;src:url(FONTDIR/outfit-latin.woff2) format("woff2");font-weight:100 900}
-@font-face{font-family:Newsreader;src:url(FONTDIR/newsreader-latin.woff2) format("woff2");font-weight:200 800}
+FONTFACES
 @page{size:A4;margin:14mm 15mm 16mm;
   @bottom-left{content:"johnplusnews.com  ·  FOOT";font:7.5pt Outfit,sans-serif;color:#6b7280}
   @bottom-right{content:counter(page) " / " counter(pages);font:7.5pt Outfit,sans-serif;color:#6b7280}}
@@ -245,8 +244,48 @@ li:has(.tfn){display:list-item}
 .key dl{margin:0}.key dt{font-weight:600;margin:3.5mm 0 .6mm}.key dd{margin:0;color:#14181f}
 """
 
+def font_faces(tmp):
+    """One plain font file per weight. Chrome turns a variable font into drawn shapes in a PDF, which
+    is four times the size; fixed weights are embedded as small font subsets."""
+    wanted = [("Outfit", "outfit-latin", {}, (400, 500, 600, 700)), ("Newsreader", "newsreader-latin", {"opsz": 12}, (400, 500))]
+    try:
+        from fontTools.ttLib import TTFont
+        from fontTools.varLib import instancer
+    except ImportError:
+        return "".join('@font-face{{font-family:{};src:url({}) format("woff2");font-weight:100 900}}'.format(
+            fam, (REPO / "static" / "fonts" / (name + ".woff2")).as_uri()) for fam, name, _, _ in wanted)
+    out = []
+    for fam, name, fixed, weights in wanted:
+        for w in weights:
+            font = TTFont(str(REPO / "static" / "fonts" / (name + ".woff2")))
+            axes = {a.axisTag for a in font["fvar"].axes}
+            pin = {k: v for k, v in dict(fixed, wght=w).items() if k in axes}
+            font = instancer.instantiateVariableFont(font, pin)
+            font.flavor = None
+            dest = Path(tmp) / "{}-{}.ttf".format(name, w)
+            font.save(str(dest))
+            out.append('@font-face{{font-family:{};src:url({}) format("truetype");font-weight:{}}}'.format(fam, dest.as_uri(), w))
+    return "".join(out)
+
+
+def picture(tmp):
+    """The picture is printed 62mm wide, so a 480px copy is plenty and keeps the file small."""
+    src = REPO / "static" / "images" / "thumbs" / Path(meta["image"]).name
+    try:
+        from PIL import Image
+    except ImportError:
+        return src.as_uri()
+    im = Image.open(src).convert("RGB")
+    im.thumbnail((480, 480))
+    dest = Path(tmp) / "picture.jpg"
+    im.save(dest, "JPEG", quality=72, optimize=True)
+    return dest.as_uri()
+
+
 OUT.mkdir(parents=True, exist_ok=True)
 with tempfile.TemporaryDirectory() as tmp:
+    FACES = font_faces(tmp)
+    PICTURE = picture(tmp)
     for lv in LEVELS:
         name = "{}-{}-{}".format(SLUG, lv.lower(), CEFR[lv].replace("/", "-").lower())
         page = Path(tmp) / (name + ".html")

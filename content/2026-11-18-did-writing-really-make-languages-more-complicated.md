@@ -10,6 +10,7 @@ source-2-date: 17 November 2026
 image: images/did-writing-really-make-languages-more-complicated-94d2e4.jpg
 image-alt: A hand presses a pointed wooden stylus into a slab of terracotta clay, leaving a neat row of wedge-shaped marks.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

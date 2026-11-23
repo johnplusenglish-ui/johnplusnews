@@ -10,6 +10,7 @@ source-2-date: 20 November 2026
 image: images/can-one-video-game-be-worth-more-than-a-hollywood-blockbuster-9b1220.jpg
 image-alt: A brass balance scale on a teal background tips towards a video game case half hidden behind a white game controller, while a striped popcorn bucket and a cinema ticket rise on the other side.
 image-credit-label: Composite image, cover art © Rockstar Games
+layout: lesson
 ---
 === Core ===
 

@@ -10,6 +10,7 @@ source-2-date: December 2026 (journal issue date, online earlier)
 image: images/can-you-be-emotionally-close-to-someone-who-is-not-human-4b8947.jpg
 image-alt: Over the shoulder of a smiling man in a yellow sweatshirt on a sofa, who holds a phone showing green and blue chat bubbles, with a mug of tea beside him.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

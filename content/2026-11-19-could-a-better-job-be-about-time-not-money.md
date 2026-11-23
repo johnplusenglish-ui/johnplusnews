@@ -10,6 +10,7 @@ source-2-date: 19 November 2026
 image: images/could-a-better-job-be-about-time-not-money-0a0c21.jpg
 image-alt: A woman in a green blazer walks away from a glass office building on a sunny street, carrying a child's scooter, while people sit at desks on the floor above.
 image-credit-label: AI illustration
+layout: lesson
 ---
 === Core ===
 

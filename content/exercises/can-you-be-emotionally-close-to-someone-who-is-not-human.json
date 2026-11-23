@@ -1,328 +1,541 @@
 {
- "slug": "can-you-be-emotionally-close-to-someone-who-is-not-human",
- "levels": {
-  "core": {
-   "gap": {
-    "items": [
-     {
-      "s": "The researchers asked 463 adults to ____ in a survey.",
-      "a": "fill"
-     },
-     {
-      "s": "The three groups were alike in age, gender, length of relationship and reported ____.",
-      "a": "depression"
-     },
-     {
-      "s": "Among chatbot users, more emotional closeness also went with more satisfaction in the ____.",
-      "a": "relationship"
-     },
-     {
-      "s": "The study shows links, not ____.",
-      "a": "causes"
-     },
-     {
-      "s": "Intellectual closeness means sharing ____.",
-      "a": "ideas"
-     }
-    ],
-    "extra": [
-     "money",
-     "travel"
-    ]
-   },
-   "match": [
-    {
-     "t": "survey",
-     "d": "a set of questions asked to many people"
+  "slug": "can-you-be-emotionally-close-to-someone-who-is-not-human",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "The three groups were ____ in age and gender.",
+            "a": "similar"
+          },
+          {
+            "s": "The researchers also checked how much reported ____ each group had.",
+            "a": "depression"
+          },
+          {
+            "s": "A survey can show links between things, but it cannot show ____.",
+            "a": "causes"
+          },
+          {
+            "s": "The first result may come as a ____ to many people.",
+            "a": "surprise"
+          },
+          {
+            "s": "To many people, a relationship with a chatbot sounds ____.",
+            "a": "strange"
+          }
+        ],
+        "extra": [
+          "improve",
+          "expensive"
+        ]
+      },
+      "match": [
+        {
+          "t": "survey",
+          "d": "a set of questions asked to many people"
+        },
+        {
+          "t": "lonely",
+          "d": "sad because you have no company or close contact"
+        },
+        {
+          "t": "support",
+          "d": "help and care from other people"
+        },
+        {
+          "t": "disappeared",
+          "d": "stopped being there or stopped being seen"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "Lionel Robert and his colleagues ____ 463 adults to fill in a survey.",
+            "cue": "ask",
+            "a": "asked"
+          },
+          {
+            "s": "There ____ 155 people with an AI chatbot.",
+            "cue": "be",
+            "a": "were"
+          },
+          {
+            "s": "Among chatbot users, more emotional closeness ____ with more loneliness.",
+            "cue": "go",
+            "a": "went"
+          },
+          {
+            "s": "The link between closeness and loneliness ____ in the chatbot group.",
+            "cue": "disappear",
+            "a": "disappeared"
+          },
+          {
+            "s": "The researchers ____ into account how much support people had.",
+            "cue": "take",
+            "a": "took"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "A survey can show links between things, but it cannot show causes.",
+          "a": "T",
+          "why": "The text says: \"it shows links, not causes\"."
+        },
+        {
+          "s": "More people in the study had a chatbot partner than a long-distance partner.",
+          "a": "T",
+          "why": "There were 155 people with a chatbot and 153 in a long-distance relationship."
+        },
+        {
+          "s": "Chatbot users who felt close to their partner also felt less lonely.",
+          "a": "F",
+          "why": "For chatbot users, more closeness went with more loneliness."
+        },
+        {
+          "s": "The researchers say that chatbots make people lonely.",
+          "a": "F",
+          "why": "The text says: \"We cannot tell whether chatbots make people feel lonely\"."
+        },
+        {
+          "s": "The text says which chatbot the 155 people used.",
+          "a": "N",
+          "why": "The text does not say which chatbot the people used."
+        }
+      ],
+      "pre": [
+        {
+          "t": "colleagues",
+          "d": "people you work with"
+        },
+        {
+          "t": "twist",
+          "d": "a surprise that changes a story"
+        },
+        {
+          "t": "limits",
+          "d": "the points where something stops being useful or true"
+        },
+        {
+          "t": "satisfaction",
+          "d": "the happy feeling when something is good enough for you"
+        },
+        {
+          "t": "wellbeing",
+          "d": "how happy and healthy a person feels"
+        },
+        {
+          "t": "complicated",
+          "d": "not simple, with many parts"
+        },
+        {
+          "t": "copy",
+          "d": "something made to look like the real thing"
+        },
+        {
+          "t": "pattern",
+          "d": "something that happens again and again in the same way"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "A phrasal verb is a verb plus a small word. The small word changes the meaning, so learn the two words together.",
+        "items": [
+          {
+            "s": "Participants were asked to fill ____ a survey about their relationships.",
+            "a": "in"
+          },
+          {
+            "s": "The study looks ____ one part of the question.",
+            "a": "at"
+          },
+          {
+            "s": "In the survey, more emotional closeness went ____ more satisfaction.",
+            "a": "with"
+          },
+          {
+            "s": "Some lonely people may turn ____ a chatbot for company.",
+            "a": "to"
+          },
+          {
+            "s": "Researchers must take people's support ____ account before they decide.",
+            "a": "into"
+          }
+        ],
+        "extra": [
+          "off",
+          "by"
+        ]
+      }
     },
-    {
-     "t": "lonely",
-     "d": "sad because you have no company or close contact"
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "A chatbot may give the feeling of closeness, but some people see it as only a clever ____ of a real relationship.",
+            "a": "imitation"
+          },
+          {
+            "s": "The researchers wanted to know which patterns were ____ to chatbots and which came from being apart.",
+            "a": "specific"
+          },
+          {
+            "s": "A person's ____ relationships with other people may shape how an AI companion affects them.",
+            "a": "wider"
+          },
+          {
+            "s": "It is unclear whether something else ____ both loneliness and chatbot use.",
+            "a": "explains"
+          },
+          {
+            "s": "One study of this size cannot ____ the debate.",
+            "a": "settle"
+          },
+          {
+            "s": "Chatbot users with more emotional closeness also reported more ____ with their relationship.",
+            "a": "satisfaction"
+          }
+        ],
+        "extra": [
+          "predict",
+          "reward"
+        ]
+      },
+      "match": [
+        {
+          "t": "intimacy",
+          "d": "a close personal connection between people"
+        },
+        {
+          "t": "sceptics",
+          "d": "people who doubt that something is true or useful"
+        },
+        {
+          "t": "associations",
+          "d": "links between two things that appear together"
+        },
+        {
+          "t": "verdict",
+          "d": "a final judgement about something"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The long-distance group ____ to check whether any pattern was specific to AI.",
+            "cue": "include",
+            "a": "was included"
+          },
+          {
+            "s": "By the time the survey closed, 463 adults ____ their answers.",
+            "cue": "give",
+            "a": "had given"
+          },
+          {
+            "s": "The sample was limited, so the results may not ____ in other countries.",
+            "cue": "apply",
+            "a": "apply"
+          },
+          {
+            "s": "Participants ____ to rate several kinds of closeness.",
+            "cue": "ask",
+            "a": "were asked"
+          },
+          {
+            "s": "Those who felt closer to their chatbot also ____ greater satisfaction.",
+            "cue": "report",
+            "a": "reported"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The long-distance group was the smallest of the three groups.",
+          "a": "T",
+          "why": "It had 153 people, against 155 in each of the other two groups."
+        },
+        {
+          "s": "In the human groups, feeling closer went with feeling less lonely, but chatbot users showed the opposite pattern.",
+          "a": "T",
+          "why": "The text contrasts the two human groups with the chatbot users."
+        },
+        {
+          "s": "The study shows that chatbots leave people lonelier.",
+          "a": "F",
+          "why": "The text says the survey \"shows associations, not causes\"."
+        },
+        {
+          "s": "The text says whether chatbot users were happier overall than the other groups.",
+          "a": "N",
+          "why": "It only links closeness to satisfaction inside each group, with no overall comparison."
+        },
+        {
+          "s": "The article suggests that one study of this size is enough to settle the debate.",
+          "a": "F",
+          "why": "The text says one study of this size \"cannot settle the debate\"."
+        }
+      ],
+      "pre": [
+        {
+          "t": "eyebrow",
+          "d": "the hair above your eye; raising it shows doubt or surprise"
+        },
+        {
+          "t": "comparing",
+          "d": "looking at two things to see how they are alike or different"
+        },
+        {
+          "t": "participants",
+          "d": "people who take part in a study"
+        },
+        {
+          "t": "apart",
+          "d": "not together, at a distance from each other"
+        },
+        {
+          "t": "sample",
+          "d": "a small group chosen to represent a bigger group"
+        },
+        {
+          "t": "accounted",
+          "d": "included as a factor when you think about a result"
+        },
+        {
+          "t": "twist",
+          "d": "an unexpected change in a story or result"
+        },
+        {
+          "t": "wellbeing",
+          "d": "a person's general health and happiness"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Choose the verb that matches the meaning, then check the small word after the gap. The same small word can go with different verbs.",
+        "items": [
+          {
+            "s": "Participants were asked to ____ in a survey about their feelings.",
+            "a": "fill"
+          },
+          {
+            "s": "The authors ____ out that a survey cannot show what causes what.",
+            "a": "point"
+          },
+          {
+            "s": "Researchers must ____ into account how much support people have.",
+            "a": "take"
+          },
+          {
+            "s": "Loneliness could ____ from a lack of other people in someone's life.",
+            "a": "come"
+          },
+          {
+            "s": "The link between intellectual closeness and wellbeing continued to ____ up well even after support was counted.",
+            "a": "hold"
+          }
+        ],
+        "extra": [
+          "carry",
+          "pull"
+        ]
+      }
     },
-    {
-     "t": "support",
-     "d": "help and care from other people"
-    },
-    {
-     "t": "disappeared",
-     "d": "stopped being there or stopped being seen"
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Researchers added a comparison group to find out which effects were genuinely ____ to chatbots.",
+            "a": "peculiar"
+          },
+          {
+            "s": "When the researchers adjusted for support, the apparent link ____ entirely.",
+            "a": "vanished"
+          },
+          {
+            "s": "People who already feel isolated may ____ towards an always available companion.",
+            "a": "gravitate"
+          },
+          {
+            "s": "A weakness of the design is that it relies on ____ rather than on observed behaviour.",
+            "a": "self-reports"
+          },
+          {
+            "s": "Whether the findings hold in other societies is still ____.",
+            "a": "untested"
+          },
+          {
+            "s": "The study measured ____ support, meaning how much help people felt they had.",
+            "a": "perceived"
+          }
+        ],
+        "extra": [
+          "confirmed",
+          "trivial"
+        ]
+      },
+      "match": [
+        {
+          "t": "lifeline",
+          "d": "something that gives vital help to a person in difficulty"
+        },
+        {
+          "t": "undercuts",
+          "d": "weakens the force or value of something"
+        },
+        {
+          "t": "accompanied",
+          "d": "happened together with something else"
+        },
+        {
+          "t": "unmeasured",
+          "d": "not tested or recorded in a study"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "Because the groups were ____ in age and depression, differences are less likely to reflect those factors.",
+            "cue": "COMPARE",
+            "a": "comparable"
+          },
+          {
+            "s": "The paper highlights an apparent ____ in the chatbot data.",
+            "cue": "CONTRADICT",
+            "a": "contradiction"
+          },
+          {
+            "s": "Caution is ____ when reading these findings.",
+            "cue": "ESSENCE",
+            "a": "essential"
+          },
+          {
+            "s": "The findings challenge the ____ that chatbot users describe thinner bonds.",
+            "cue": "ASSUME",
+            "a": "assumption"
+          },
+          {
+            "s": "The long-distance group helps to isolate the role of physical ____.",
+            "cue": "SEPARATE",
+            "a": "separation"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The link between sexual intimacy and satisfaction differed between in-person couples and the other two groups.",
+          "a": "T",
+          "why": "It held for chatbot and long-distance relationships but \"not in in-person ones\"."
+        },
+        {
+          "s": "The authors treat the chatbot loneliness result as unremarkable.",
+          "a": "F",
+          "why": "The paper \"singles out\" it as its most noteworthy result."
+        },
+        {
+          "s": "For long-distance partners, intellectual intimacy was linked with both satisfaction and wellbeing.",
+          "a": "F",
+          "why": "Among long-distance partners it was linked with wellbeing alone."
+        },
+        {
+          "s": "The text says how many chatbot users had previously been in a human relationship.",
+          "a": "N",
+          "why": "Nothing is said about earlier relationships."
+        },
+        {
+          "s": "The authors' reading implies that chatbot users with plenty of human support are less likely to show the closeness and loneliness link.",
+          "a": "T",
+          "why": "The link vanished once perceived social support was included, which the authors read as human relationships shaping the effect."
+        }
+      ],
+      "pre": [
+        {
+          "t": "instinct",
+          "d": "a natural feeling about something, without careful thought"
+        },
+        {
+          "t": "anchor",
+          "d": "to fix an argument firmly to something solid"
+        },
+        {
+          "t": "double-edged",
+          "d": "having both good and bad effects"
+        },
+        {
+          "t": "dimensions",
+          "d": "different parts or aspects of something"
+        },
+        {
+          "t": "diverged",
+          "d": "became different and went in separate directions"
+        },
+        {
+          "t": "noteworthy",
+          "d": "interesting or important enough to be noticed"
+        },
+        {
+          "t": "isolated",
+          "d": "alone, with little contact with other people"
+        },
+        {
+          "t": "intimacy",
+          "d": "a very close and personal connection"
+        }
+      ],
+      "focus": {
+        "type": "phrasal verbs",
+        "note": "Some verbs change meaning completely with a particle. Check the meaning, the subject and the tense before you choose.",
+        "items": [
+          {
+            "s": "The argument over AI partners has ____ on for years without a clear answer.",
+            "a": "run"
+          },
+          {
+            "s": "The paper ____ out one finding as the most surprising.",
+            "a": "singles"
+          },
+          {
+            "s": "The study's weakness is that its findings ____ on what people say about themselves.",
+            "a": "rest"
+          },
+          {
+            "s": "Distance often ____ with a sense of isolation.",
+            "a": "comes"
+          },
+          {
+            "s": "The results ____ out more complicated than the researchers had predicted.",
+            "a": "turned"
+          }
+        ],
+        "extra": [
+          "spill",
+          "brush"
+        ]
+      }
     }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Lionel Robert and his colleagues ____ 463 adults to fill in a survey.",
-      "cue": "ask",
-      "a": "asked"
-     },
-     {
-      "s": "There ____ 155 people with an AI chatbot.",
-      "cue": "be",
-      "a": "were"
-     },
-     {
-      "s": "Among chatbot users, more emotional closeness ____ with more loneliness.",
-      "cue": "go",
-      "a": "went"
-     },
-     {
-      "s": "The link between closeness and loneliness ____ in the chatbot group.",
-      "cue": "disappear",
-      "a": "disappeared"
-     },
-     {
-      "s": "The researchers ____ into account how much support people had.",
-      "cue": "take",
-      "a": "took"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The survey asked 463 adults to take part.",
-     "a": "T",
-     "why": "The text says: \"asked 463 adults to fill in a survey\""
-    },
-    {
-     "s": "Chatbot users gave much lower scores for emotional closeness.",
-     "a": "F",
-     "why": "The text says: \"People in all three groups gave similar scores for emotional and intellectual closeness.\""
-    },
-    {
-     "s": "The study shows links between things, but it cannot show causes.",
-     "a": "T",
-     "why": "The text says: \"so it shows links, not causes\""
-    },
-    {
-     "s": "The people in the study lived in Europe.",
-     "a": "F",
-     "why": "The text says: \"All the people were adults in the United States\""
-    },
-    {
-     "s": "The text says how old the people in the study were.",
-     "a": "N",
-     "why": "The text does not say how old the people in the study were."
-    }
-   ]
   },
-  "intermediate": {
-   "gap": {
-    "items": [
-     {
-      "s": "The long-distance group was added to check whether a pattern was specific to ____.",
-      "a": "AI"
-     },
-     {
-      "s": "On emotional and intellectual closeness, the three groups scored about the ____.",
-      "a": "same"
-     },
-     {
-      "s": "Among chatbot users, more emotional closeness was ____ to more loneliness.",
-      "a": "linked"
-     },
-     {
-      "s": "When social support was taken into account, the chatbot link between emotional closeness and loneliness ____.",
-      "a": "disappeared"
-     },
-     {
-      "s": "The people in the sample were all US ____.",
-      "a": "adults"
-     },
-     {
-      "s": "The study offers food for thought rather than a ____.",
-      "a": "verdict"
-     }
+  "speak": {
+    "title": "Role-play: a worried friend",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the worried friend",
+      "text": "Your friend spends every evening talking to an AI chatbot and says it feels like a partner. You are not angry, but you are worried. Ask at least two questions and suggest something to do together."
+    },
+    "b": {
+      "role": "the person with a chatbot",
+      "text": "You feel close to your chatbot and it makes you happy. Explain why it matters to you. You may be lonely sometimes. Decide if you will accept your friend's idea."
+    },
+    "phrases": [
+      "I'm worried about you.",
+      "It really helps me to talk to it.",
+      "Don't you ever feel lonely?",
+      "I'd love to see you more often.",
+      "That's not what I'm saying.",
+      "Could we meet for dinner this week?"
     ],
-    "extra": [
-     "prize",
-     "treatment"
-    ]
-   },
-   "match": [
-    {
-     "t": "intimacy",
-     "d": "a close personal connection between people"
-    },
-    {
-     "t": "sceptics",
-     "d": "people who doubt that something is true or useful"
-    },
-    {
-     "t": "associations",
-     "d": "links between two things that appear together"
-    },
-    {
-     "t": "verdict",
-     "d": "a final judgement about something"
-    }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Participants ____ several kinds of closeness.",
-      "cue": "rate",
-      "a": "rated"
-     },
-     {
-      "s": "In both human groups, people who felt more emotionally close ____ feeling less lonely.",
-      "cue": "report",
-      "a": "reported"
-     },
-     {
-      "s": "The long-distance group ____ included to check whether any pattern was specific to AI.",
-      "cue": "be",
-      "a": "was"
-     },
-     {
-      "s": "On emotional and intellectual closeness, the three groups ____ about the same.",
-      "cue": "score",
-      "a": "scored"
-     },
-     {
-      "s": "The study ____ food for thought rather than a verdict.",
-      "cue": "offer",
-      "a": "offers"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The researchers surveyed 463 adults in the United States.",
-     "a": "T",
-     "why": "The text says: \"asked 463 adults in the United States to fill in a survey\""
-    },
-    {
-     "s": "Chatbot users who felt closer to their partner felt less lonely.",
-     "a": "F",
-     "why": "The text says: \"Among chatbot users, more emotional closeness was linked to more loneliness\""
-    },
-    {
-     "s": "The long-distance group helped to check whether patterns were specific to AI.",
-     "a": "T",
-     "why": "The text says: \"The long-distance group was included to check whether any pattern was specific to AI\""
-    },
-    {
-     "s": "Robert said the results were simpler than he expected.",
-     "a": "F",
-     "why": "The text says: \"the picture was more complicated than he expected\""
-    },
-    {
-     "s": "The text says how long the chatbot relationships had lasted.",
-     "a": "N",
-     "why": "The text does not say how long the chatbot relationships had lasted."
-    }
-   ]
-  },
-  "advanced": {
-   "gap": {
-    "items": [
-     {
-      "s": "The long-distance group helps to separate what is ____ to AI from what comes with physical separation.",
-      "a": "peculiar"
-     },
-     {
-      "s": "Ratings of emotional and intellectual intimacy were broadly ____ across the three groups.",
-      "a": "similar"
-     },
-     {
-      "s": "Once perceived social support entered the analysis, the chatbot link ____.",
-      "a": "vanished"
-     },
-     {
-      "s": "Lonely people might equally ____ towards chatbots.",
-      "a": "gravitate"
-     },
-     {
-      "s": "The data rest on ____ from US adults.",
-      "a": "self-reports"
-     },
-     {
-      "s": "Because the sample is limited to the United States, cultural differences remain ____.",
-      "a": "untested"
-     }
-    ],
-    "extra": [
-     "confirmed",
-     "trivial"
-    ]
-   },
-   "match": [
-    {
-     "t": "lifeline",
-     "d": "something that gives vital help to a person in difficulty"
-    },
-    {
-     "t": "undercuts",
-     "d": "weakens the force or value of something"
-    },
-    {
-     "t": "accompanied",
-     "d": "happened together with something else"
-    },
-    {
-     "t": "unmeasured",
-     "d": "not tested or recorded in a study"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "The groups were ____ in age, gender, relationship length and reported depression.",
-      "cue": "COMPARE",
-      "a": "comparable"
-     },
-     {
-      "s": "The paper singles out this apparent ____ as its most noteworthy result.",
-      "cue": "CONTRADICT",
-      "a": "contradiction"
-     },
-     {
-      "s": "Caution is ____ when reading these findings.",
-      "cue": "ESSENCE",
-      "a": "essential"
-     },
-     {
-      "s": "An ____ factor might drive both loneliness and closeness.",
-      "cue": "MEASURE",
-      "a": "unmeasured"
-     },
-     {
-      "s": "The results undercut any ____ that chatbot users describe thinner bonds.",
-      "cue": "ASSUME",
-      "a": "assumption"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Phys.org covered the study on 12 November 2026.",
-     "a": "T",
-     "why": "The text says: \"covered by Phys.org on 12 November 2026\""
-    },
-    {
-     "s": "In both human groups, more emotional intimacy went with more loneliness.",
-     "a": "F",
-     "why": "The text says: \"greater emotional intimacy accompanied less loneliness\""
-    },
-    {
-     "s": "Intellectual intimacy was linked with higher satisfaction and wellbeing among chatbot users.",
-     "a": "T",
-     "why": "The text says: \"Intellectual intimacy was linked with higher satisfaction and wellbeing among chatbot users\""
-    },
-    {
-     "s": "The study shows that chatbots cause loneliness.",
-     "a": "F",
-     "why": "The text says: \"none shows that chatbots cause loneliness or relieve it\""
-    },
-    {
-     "s": "The text says whether participants were paid for taking part.",
-     "a": "N",
-     "why": "The text does not say whether participants were paid for taking part."
-    }
-   ]
+    "after": "Afterwards, tell the class: did the friend change your mind, and what did you decide?"
   }
- }
 }

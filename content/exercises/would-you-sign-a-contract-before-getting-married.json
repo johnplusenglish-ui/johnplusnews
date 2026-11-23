@@ -5,29 +5,29 @@
       "gap": {
         "items": [
           {
-            "s": "A prenup is a legal ____ that explains what might happen to money and property.",
-            "a": "document"
+            "s": "Many people feel ____ when they talk about money with a partner, so they avoid it.",
+            "a": "uncomfortable"
           },
           {
-            "s": "Supporters say a prenup helps couples have difficult ____ early.",
-            "a": "conversations"
+            "s": "Before signing, each partner may talk to a ____ who can explain the document.",
+            "a": "lawyer"
           },
           {
-            "s": "Some couples say ____ about money brings them closer.",
+            "s": "Many couples think that ____ matters more than money.",
             "a": "honesty"
           },
           {
-            "s": "If one partner has a ____, a clear agreement might help avoid a big argument later.",
-            "a": "business"
+            "s": "If you receive money from ____, such as grandparents, you may want to protect it.",
+            "a": "relatives"
           },
           {
-            "s": "Couples may need independent legal ____.",
+            "s": "Couples may need independent legal ____ before they sign.",
             "a": "advice"
           }
         ],
         "extra": [
-          "wedding",
-          "salary"
+          "ceremony",
+          "generous"
         ]
       },
       "match": [
@@ -72,9 +72,9 @@
             "a": "find"
           },
           {
-            "s": "Why ____ for a relationship to end when you are promising to stay together?",
-            "cue": "plan",
-            "a": "plan"
+            "s": "My cousin ____ a prenup before he got married last year.",
+            "cue": "sign",
+            "a": "signed"
           }
         ]
       },
@@ -95,48 +95,112 @@
           "why": "The text does not say how much a prenup costs."
         },
         {
-          "s": "A prenup is a legal document.",
+          "s": "Some couples say that talking honestly about money helps them feel closer.",
           "a": "T",
-          "why": "The text says: \"This is a legal document that explains what might happen to money and property if the marriage ends\""
+          "why": "The text says: \"Some couples say honesty about money brings them closer.\""
         },
         {
-          "s": "A prenup works in the same way in every country.",
+          "s": "The writer thinks every couple should sign a prenup.",
           "a": "F",
-          "why": "The text says: \"a prenup does not always work in the same way everywhere\""
+          "why": "The text says: \"The important part of the story is not that everyone should rush out and sign a contract.\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "prenuptial",
+          "d": "made or agreed before two people get married"
+        },
+        {
+          "t": "supporters",
+          "d": "people who like an idea and say it is good"
+        },
+        {
+          "t": "argument",
+          "d": "an angry talk between people who disagree"
+        },
+        {
+          "t": "power",
+          "d": "the ability to decide things or to control others"
+        },
+        {
+          "t": "trust",
+          "d": "to believe that someone is honest and will not hurt you"
+        },
+        {
+          "t": "avoid",
+          "d": "to stay away from something or not do it"
+        },
+        {
+          "t": "survey",
+          "d": "a set of questions asked to many people to learn what they think"
+        },
+        {
+          "t": "promises",
+          "d": "things you say you will definitely do"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "A collocation is a pair of words that people often use together. Learn the whole pair, such as 'make a decision', not just one word.",
+        "items": [
+          {
+            "s": "Supporters say a prenup helps couples ____ difficult conversations early.",
+            "a": "have"
+          },
+          {
+            "s": "Both partners must ____ the agreement before it is legal.",
+            "a": "sign"
+          },
+          {
+            "s": "Anyone thinking about a prenup should ____ advice from a lawyer.",
+            "a": "take"
+          },
+          {
+            "s": "Some couples say that honesty about money brings them ____.",
+            "a": "closer"
+          },
+          {
+            "s": "A prenup is not a magic ____ to every problem.",
+            "a": "solution"
+          }
+        ],
+        "extra": [
+          "pay",
+          "spend"
+        ]
+      }
     },
     "intermediate": {
       "gap": {
         "items": [
           {
-            "s": "Their tool is a prenuptial ____, usually shortened to prenup.",
-            "a": "agreement"
+            "s": "More couples are ____ to discuss money openly, which was rare a generation ago.",
+            "a": "willing"
           },
           {
-            "s": "The 53% figure comes from a Harris Poll conducted with ____.",
-            "a": "Bloomberg"
+            "s": "Someone may sign an agreement without fully understanding its ____.",
+            "a": "consequences"
           },
           {
-            "s": "A prenup can encourage both partners to lay their cards on the ____.",
-            "a": "table"
+            "s": "Years of career ____, such as staying at home with children, can change what seems fair.",
+            "a": "sacrifices"
           },
           {
-            "s": "Planning for a possible divorce can feel like starting a marriage with one foot out of the ____.",
-            "a": "door"
+            "s": "The writer ____ a Harris Poll as evidence, but warns against reading too much into it.",
+            "a": "cited"
           },
           {
-            "s": "A contract that appears fair today might look very different after years of ____.",
-            "a": "childcare"
+            "s": "The legal position is not always ____, because it depends on local law.",
+            "a": "straightforward"
           },
           {
-            "s": "Anyone considering a prenup would need proper ____.",
-            "a": "advice"
+            "s": "A clear agreement may help to ____ uncertainty if the marriage ends.",
+            "a": "reduce"
           }
         ],
         "extra": [
-          "rings",
-          "holiday"
+          "temporary",
+          "predict"
         ]
       },
       "match": [
@@ -161,24 +225,24 @@
         "kind": "verb",
         "items": [
           {
-            "s": "A Guardian feature published on 11 November 2026 ____ young Americans who see prenups as protection.",
-            "cue": "describe",
-            "a": "described"
+            "s": "A Guardian feature ____ on 11 November 2026.",
+            "cue": "publish",
+            "a": "was published"
           },
           {
-            "s": "The article ____ a Harris Poll conducted with Bloomberg.",
-            "cue": "cite",
-            "a": "cited"
-          },
-          {
-            "s": "Couples ____ about where they want to live.",
-            "cue": "talk",
-            "a": "talk"
+            "s": "By the time they married, the couple ____ a prenup.",
+            "cue": "sign",
+            "a": "had signed"
           },
           {
             "s": "The conversation may ____ uncomfortable if one partner earns far more than the other.",
             "cue": "become",
             "a": "become"
+          },
+          {
+            "s": "If someone you loved ____ you to sign one, would you agree?",
+            "cue": "ask",
+            "a": "asked"
           },
           {
             "s": "Legal arrangements ____ between countries.",
@@ -189,63 +253,127 @@
       },
       "tfn": [
         {
-          "s": "The Guardian feature was published on 11 November 2026.",
+          "s": "Some young Americans think of a prenup as protection, not as a prediction that the marriage will fail.",
           "a": "T",
-          "why": "The text says: \"A Guardian feature published on 11 November 2026\""
+          "why": "The text says they see prenups \"as a form of protection rather than a prediction of failure\""
         },
         {
-          "s": "A prenup is a magic solution.",
+          "s": "The writer believes the poll shows that most young couples everywhere sign prenups.",
           "a": "F",
-          "why": "The text says: \"A prenup is not a magic solution\""
+          "why": "The text says: \"That does not prove that most young couples everywhere are following the trend.\""
         },
         {
-          "s": "The text says how many American couples divorced last year.",
+          "s": "Most couples who sign a prenup later use it in court.",
           "a": "N",
-          "why": "The text does not say how many American couples divorced last year."
+          "why": "The text does not say how often prenups are used in court."
         },
         {
-          "s": "Some young couples describe making a prenup as an act of intimacy.",
+          "s": "An agreement that looks fair at the start may stop being fair later.",
           "a": "T",
-          "why": "The text says: \"Some young couples even describe the process as an act of intimacy\""
+          "why": "The text says: \"A contract that appears fair today might look very different after years of childcare, career sacrifices or unexpected illness.\""
         },
         {
-          "s": "The poll proves that most young couples everywhere have signed a prenup.",
+          "s": "The writer says courts everywhere treat prenups in the same way.",
           "a": "F",
-          "why": "The text says: \"That does not prove that most young couples everywhere are following the trend\""
+          "why": "The text says: \"its treatment by courts depends on local law and individual circumstances\""
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "commitment",
+          "d": "a serious promise to stay with someone or do something"
+        },
+        {
+          "t": "attitudes",
+          "d": "the way you think and feel about something"
+        },
+        {
+          "t": "shifting",
+          "d": "slowly changing"
+        },
+        {
+          "t": "afford",
+          "d": "to have enough money to pay for something"
+        },
+        {
+          "t": "critics",
+          "d": "people who say what is wrong with something"
+        },
+        {
+          "t": "insulting",
+          "d": "rude and likely to upset someone"
+        },
+        {
+          "t": "trend",
+          "d": "a change that more and more people follow"
+        },
+        {
+          "t": "unnecessary",
+          "d": "not needed"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Check the whole phrase, not just one word. If a word sounds odd with its partner, it is probably wrong, even when the meaning is close.",
+        "items": [
+          {
+            "s": "The couple tried to ____ an agreement that felt fair to both of them.",
+            "a": "reach"
+          },
+          {
+            "s": "One partner may step back from work to ____ children.",
+            "a": "raise"
+          },
+          {
+            "s": "If one partner wants to ____ a family business, an agreement can protect it.",
+            "a": "run"
+          },
+          {
+            "s": "Money can lead to a ____ argument, even between people who love each other.",
+            "a": "heated"
+          },
+          {
+            "s": "Some couples keep a ____ bank account for bills.",
+            "a": "joint"
+          }
+        ],
+        "extra": [
+          "tight",
+          "carry"
+        ]
+      }
     },
     "advanced": {
       "gap": {
         "items": [
           {
-            "s": "Financial independence and emotional commitment can exist side by ____.",
-            "a": "side"
-          },
-          {
-            "s": "The age groups and samples in the two surveys are not directly ____.",
+            "s": "A survey of students and one of retirees are hardly ____, whatever the headline says.",
             "a": "comparable"
           },
           {
-            "s": "Rather than sweeping difficult questions under the ____, couples can discuss fairness.",
-            "a": "carpet"
+            "s": "Some people feel that planning for separation ____ the commitment itself.",
+            "a": "undermines"
           },
           {
-            "s": "The person with greater resources may be better ____ to negotiate favourable terms.",
-            "a": "placed"
+            "s": "A solicitor may ____ a settlement on behalf of a client who dislikes conflict.",
+            "a": "negotiate"
           },
           {
-            "s": "An arrangement that seemed reasonable at the beginning could later feel profoundly ____.",
-            "a": "unequal"
+            "s": "While one partner stays at home, the other keeps ____ wealth.",
+            "a": "accumulating"
           },
           {
-            "s": "It would be ____ to present prenups as universally binding contracts.",
-            "a": "misleading"
+            "s": "The judge ordered full ____ of both partners' assets before the hearing.",
+            "a": "disclosure"
+          },
+          {
+            "s": "Trust may grow when couples can talk ____ about worrying possibilities.",
+            "a": "candidly"
           }
         ],
         "extra": [
-          "optional",
-          "hidden"
+          "fragile",
+          "irreversible"
         ]
       },
       "match": [
@@ -270,59 +398,144 @@
         "kind": "word",
         "items": [
           {
-            "s": "Prenups are increasingly discussed outside traditionally ____ circles.",
+            "s": "Prenups are no longer confined to ____ families.",
             "cue": "WEALTH",
             "a": "wealthy"
           },
           {
-            "s": "Such agreements encourage ____ at a moment when couples are making enormous commitments.",
-            "cue": "OPEN",
-            "a": "openness"
+            "s": "Younger Americans show a growing ____ to confront the question.",
+            "cue": "WILLING",
+            "a": "willingness"
           },
           {
-            "s": "Partners may enter marriage with different incomes, savings, debts or family ____.",
-            "cue": "RESPONSIBLE",
-            "a": "responsibilities"
+            "s": "Couples need ____ about what financial fairness means to each of them.",
+            "cue": "CLEAR",
+            "a": "clarity"
           },
           {
-            "s": "An arrangement that seemed reasonable could later feel profoundly ____.",
+            "s": "The contract looked fair at first, but its long-term effects were deeply ____.",
             "cue": "EQUAL",
             "a": "unequal"
           },
           {
-            "s": "Their ____ may depend on disclosure, independent advice and fairness.",
-            "cue": "ENFORCE",
-            "a": "enforceability"
+            "s": "It would be misleading to treat prenups as ____ binding.",
+            "cue": "UNIVERSAL",
+            "a": "universally"
           }
         ]
       },
       "tfn": [
         {
-          "s": "The Guardian feature cited a poll conducted with Bloomberg.",
+          "s": "The writer treats the 53% figure as suggestive rather than conclusive.",
           "a": "T",
-          "why": "The text says: \"It cited a Harris Poll conducted with Bloomberg\""
+          "why": "The text says the numbers \"should not be treated as a precise measure of a universal trend, but they help explain\" the discussion."
         },
         {
-          "s": "The two surveys can be compared directly.",
+          "s": "The text argues that a signed prenup guarantees fair treatment for the partner who earns less.",
           "a": "F",
-          "why": "The text says: \"the age groups and samples are not directly comparable\""
+          "why": "The text says the idea that a contract \"automatically protects both people deserves scrutiny\"."
         },
         {
-          "s": "The text says how much the average prenup costs.",
+          "s": "Most couples who sign a prenup have been married before.",
           "a": "N",
-          "why": "The text does not say how much the average prenup costs."
+          "why": "The text does not say whether the couples have been married before."
         },
         {
-          "s": "A richer partner may be able to negotiate better terms.",
+          "s": "A partner who leaves a career to raise children could end up worse off under an agreement made before the wedding.",
           "a": "T",
-          "why": "The text says: \"the person with greater resources may be better placed to negotiate favourable terms\""
+          "why": "The text says an arrangement that seemed reasonable could later feel \"profoundly unequal\" after one partner steps away from a career."
         },
         {
-          "s": "Prenups are universally binding contracts.",
+          "s": "The text says that independent advice alone makes every prenup enforceable.",
           "a": "F",
-          "why": "The text says: \"It would therefore be misleading to present them as universally binding contracts\""
+          "why": "The text says enforceability \"may depend on disclosure, independent advice and whether the terms are considered fair\", so advice is not enough."
         }
-      ]
+      ],
+      "pre": [
+        {
+          "t": "confront",
+          "d": "to face a difficult problem or person directly"
+        },
+        {
+          "t": "assets",
+          "d": "things of value that a person owns, such as money and property"
+        },
+        {
+          "t": "fragile",
+          "d": "easily broken or damaged"
+        },
+        {
+          "t": "advocates",
+          "d": "people who publicly support an idea"
+        },
+        {
+          "t": "assumptions",
+          "d": "things you believe are true without checking"
+        },
+        {
+          "t": "favourable",
+          "d": "good for you and likely to help you"
+        },
+        {
+          "t": "irreversible",
+          "d": "impossible to change back"
+        },
+        {
+          "t": "profoundly",
+          "d": "very strongly or deeply"
+        }
+      ],
+      "focus": {
+        "type": "collocations",
+        "note": "Advanced writers choose precise pairs. Learn the verb or adjective together with its noun, because a near synonym often sounds wrong.",
+        "items": [
+          {
+            "s": "A court may refuse to enforce a prenup unless both sides ____ full disclosure of their finances.",
+            "a": "make"
+          },
+          {
+            "s": "Couples must ____ a balance between protecting themselves and trusting each other.",
+            "a": "strike"
+          },
+          {
+            "s": "Signing a legally ____ agreement means a court can make you follow it.",
+            "a": "binding"
+          },
+          {
+            "s": "Both partners agreed that she had ____ judgement about money.",
+            "a": "sound"
+          },
+          {
+            "s": "It is a ____ concern that the weaker partner may feel pressured to sign.",
+            "a": "legitimate"
+          }
+        ],
+        "extra": [
+          "carry",
+          "drastic"
+        ]
+      }
     }
+  },
+  "speak": {
+    "title": "Role-play: should we sign a prenup?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the partner who wants a prenup",
+      "text": "You own a small business and have savings from your grandparents. You'd like a prenup before the wedding. Explain why it isn't a sign that you don't love your partner."
+    },
+    "b": {
+      "role": "the partner who isn't sure",
+      "text": "Planning for a divorce before the wedding feels cold to you. Ask why your partner wants a prenup, say how you feel, and try to find a deal you both like."
+    },
+    "phrases": [
+      "I'd like to talk about money before the wedding.",
+      "I'm not saying we don't trust each other.",
+      "It doesn't feel very romantic to me.",
+      "What if we got advice from a lawyer first?",
+      "That's a fair point, but I'm still worried.",
+      "Could we agree on something we're both happy with?"
+    ],
+    "after": "Afterwards, tell the class: did you agree to sign a prenup, and what did you decide to include?"
   }
 }

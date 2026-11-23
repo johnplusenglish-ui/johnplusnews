@@ -1738,9 +1738,9 @@ def ls_task(n, title, hint, how, inner, opened=False):
 
 
 def ls_select(options, answer, start):
-    opts = "".join("<option>{}</option>".format(esc(o)) for o in options)
-    return ('<select class="ls-g{c}" data-a="{a}" aria-label="Choose a word"><option value=""></option>{o}</select>'
-            ).format(c=" ls-cap" if start else "", a=esc(answer), o=opts)
+    opts = "".join("<option>{}</option>".format(esc(o[:1].upper() + o[1:] if start else o)) for o in options)
+    return ('<select class="ls-g" data-a="{a}" aria-label="Choose a word"><option value=""></option>{o}</select>'
+            ).format(a=esc(answer), o=opts)
 
 
 def ls_gap_rows(items, bank):
@@ -1816,7 +1816,7 @@ def lesson_after(a):
                      "Use the word in brackets to make a word that fits the gap.",
                      '<ol class="ls-rows">{}</ol>'.format("".join(rows)) + LS_ACTS)
         f = d["focus"]
-        fbank = sorted([i["a"].lower() for i in f["items"]] + list(f.get("extra") or []))
+        fbank = sorted([i["a"].lower() for i in f["items"]] + [x.lower() for x in f.get("extra") or []])
         t7 = ls_task(7, "Language focus", f.get("type", ""),
                      "Complete the sentences with words from the box. Two words are not needed. " + esc(f.get("note", "")),
                      ls_gap_rows(f["items"], fbank) + LS_ACTS)

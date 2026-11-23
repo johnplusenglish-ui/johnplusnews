@@ -1,328 +1,541 @@
 {
- "slug": "can-one-video-game-be-worth-more-than-a-hollywood-blockbuster",
- "levels": {
-  "core": {
-   "gap": {
-    "items": [
-     {
-      "s": "The game is made by Rockstar Games, which belongs to Take-Two ____.",
-      "a": "Interactive"
-     },
-     {
-      "s": "The game is rated Mature, so it is meant for ____.",
-      "a": "adults"
-     },
-     {
-      "s": "The company said that 32.5 million copies were sold before the game came ____.",
-      "a": "out"
-     },
-     {
-      "s": "Pre-orders opened in ____.",
-      "a": "June"
-     },
-     {
-      "s": "The company has not published its ____.",
-      "a": "budget"
-     }
-    ],
-    "extra": [
-     "factory",
-     "winter"
-    ]
-   },
-   "match": [
-    {
-     "t": "estimate",
-     "d": "a careful guess about a number"
+  "slug": "can-one-video-game-be-worth-more-than-a-hollywood-blockbuster",
+  "levels": {
+    "core": {
+      "gap": {
+        "items": [
+          {
+            "s": "The author sold two million ____ of her new book.",
+            "a": "copies"
+          },
+          {
+            "s": "When four friends buy a pizza, each one pays a ____ of the cost.",
+            "a": "share"
+          },
+          {
+            "s": "The team celebrated their ____ with a big party.",
+            "a": "victory"
+          },
+          {
+            "s": "The company has not ____ how much the game cost to make.",
+            "a": "published"
+          },
+          {
+            "s": "A cinema ticket is cheap, but a new game is much more ____.",
+            "a": "expensive"
+          }
+        ],
+        "extra": [
+          "profit",
+          "shelf"
+        ]
+      },
+      "match": [
+        {
+          "t": "estimate",
+          "d": "a careful guess about a number"
+        },
+        {
+          "t": "launch",
+          "d": "the time when a new product first goes on sale"
+        },
+        {
+          "t": "budget",
+          "d": "the amount of money planned for a project"
+        },
+        {
+          "t": "independent",
+          "d": "not connected to the company"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "GTA VI ____ out on 19 November 2026.",
+            "cue": "come",
+            "a": "came"
+          },
+          {
+            "s": "In 2013, GTA V ____ about US$800 million on its first day.",
+            "cue": "make",
+            "a": "made"
+          },
+          {
+            "s": "Pre-orders ____ in June.",
+            "cue": "open",
+            "a": "opened"
+          },
+          {
+            "s": "The company ____ that 32.5 million copies were sold before the game came out.",
+            "cue": "say",
+            "a": "said"
+          },
+          {
+            "s": "Reuters says Take-Two ____ an estimated US$1 billion or more on making the game.",
+            "cue": "spend",
+            "a": "has spent"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The game is meant for adults.",
+          "a": "T",
+          "why": "The text says: \"The game is rated Mature, which means it is meant for adults, not for children\""
+        },
+        {
+          "s": "An independent company checked the US$3.79 billion figure.",
+          "a": "F",
+          "why": "The text says: \"it is the company's own estimate, not a figure checked by someone independent\""
+        },
+        {
+          "s": "The text gives the price of the game in shops.",
+          "a": "N",
+          "why": "The text does not give this information."
+        },
+        {
+          "s": "Take-Two has not published a budget for the game.",
+          "a": "T",
+          "why": "The text says: \"the company has not published its budget\""
+        },
+        {
+          "s": "GTA V made more than GTA VI on its first day.",
+          "a": "F",
+          "why": "The text says: \"In 2013, GTA V made about US$800 million on its first day, so the new game made about five times as much\""
+        }
+      ],
+      "pre": [
+        {
+          "t": "retail",
+          "d": "to do with selling things to customers in shops"
+        },
+        {
+          "t": "takings",
+          "d": "the money a business gets from selling things"
+        },
+        {
+          "t": "pre-orders",
+          "d": "orders you make before something is on sale"
+        },
+        {
+          "t": "record",
+          "d": "the best or biggest ever"
+        },
+        {
+          "t": "rated",
+          "d": "given an age level, for example for adults"
+        },
+        {
+          "t": "declare",
+          "d": "to say something in a clear, public way"
+        },
+        {
+          "t": "opening",
+          "d": "the first days when a film is shown in cinemas"
+        },
+        {
+          "t": "comparing",
+          "d": "looking at how two things are the same or different"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Some small words go with one verb or one noun, such as 'spend money on'. Learn the whole phrase, not just the small word.",
+        "items": [
+          {
+            "s": "People spent about US$3.79 billion ____ the game.",
+            "a": "on"
+          },
+          {
+            "s": "The game came out ____ November 2026.",
+            "a": "in"
+          },
+          {
+            "s": "The game is made ____ Rockstar Games.",
+            "a": "by"
+          },
+          {
+            "s": "Many fans have waited ____ years for a new GTA.",
+            "a": "for"
+          },
+          {
+            "s": "Take-Two is one ____ the biggest companies in games.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "at",
+          "with"
+        ]
+      }
     },
-    {
-     "t": "launch",
-     "d": "the time when a new product first goes on sale"
+    "intermediate": {
+      "gap": {
+        "items": [
+          {
+            "s": "The police have not yet ____ the cause of the fire.",
+            "a": "confirmed"
+          },
+          {
+            "s": "The ____ of a book decides how many copies to print and how much to charge.",
+            "a": "publisher"
+          },
+          {
+            "s": "Such high prices ____ questions about whether the game is good value.",
+            "a": "invite"
+          },
+          {
+            "s": "Film ____ can take years and employ hundreds of people.",
+            "a": "production"
+          },
+          {
+            "s": "A thermometer gives an accurate ____ of the temperature.",
+            "a": "measurement"
+          },
+          {
+            "s": "A financial ____ studies company results and predicts share prices.",
+            "a": "analyst"
+          }
+        ],
+        "extra": [
+          "turnover",
+          "audience"
+        ]
+      },
+      "match": [
+        {
+          "t": "contradiction",
+          "d": "a situation in which two things cannot both be true"
+        },
+        {
+          "t": "uncertain",
+          "d": "not sure or not clear"
+        },
+        {
+          "t": "narrow",
+          "d": "small in range, limited"
+        },
+        {
+          "t": "launch",
+          "d": "the first release of a new product"
+        }
+      ],
+      "grammar": {
+        "kind": "verb",
+        "items": [
+          {
+            "s": "The figure ____ on the company's own estimates.",
+            "cue": "base",
+            "a": "is based"
+          },
+          {
+            "s": "By the morning of 19 November, 32.5 million copies ____ already.",
+            "cue": "sell",
+            "a": "had been sold"
+          },
+          {
+            "s": "The figure is only an estimate, so we ____ be sure it is right.",
+            "cue": "can (negative)",
+            "a": "cannot|can't"
+          },
+          {
+            "s": "Avengers: Endgame ____ in about US$1.2 billion at cinemas worldwide in 2019.",
+            "cue": "take",
+            "a": "took"
+          },
+          {
+            "s": "By now, Take-Two ____ an estimated US$1 billion or more on production.",
+            "cue": "spend",
+            "a": "has spent"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "Sensor Tower's figure contradicts Take-Two's claim.",
+          "a": "F",
+          "why": "The text says it is \"not a direct contradiction\" because it was measured differently."
+        },
+        {
+          "s": "The writer suggests fewer people may be behind a game's sales number than a film's.",
+          "a": "T",
+          "why": "A game costs far more than a ticket, \"so fewer people may be behind the number\"."
+        },
+        {
+          "s": "Rockstar plans to release the next online mode in 2027.",
+          "a": "N",
+          "why": "The text only says the timing of the next online mode matters; it gives no date."
+        },
+        {
+          "s": "Reuters says the new game made twice as much as GTA V on its first day.",
+          "a": "F",
+          "why": "The text says the new game made \"roughly five times as much\"."
+        },
+        {
+          "s": "The text suggests the game's long-term success depends on people continuing to play.",
+          "a": "T",
+          "why": "The text says \"the money keeps coming in only if people keep playing\"."
+        }
+      ],
+      "pre": [
+        {
+          "t": "retail",
+          "d": "to do with selling goods to customers"
+        },
+        {
+          "t": "pre-orders",
+          "d": "orders placed before a product goes on sale"
+        },
+        {
+          "t": "small print",
+          "d": "details in a document that are easy to miss"
+        },
+        {
+          "t": "independent",
+          "d": "not connected to or controlled by the company"
+        },
+        {
+          "t": "opening",
+          "d": "the first period when a film is shown"
+        },
+        {
+          "t": "estimate",
+          "d": "a careful guess about an amount"
+        },
+        {
+          "t": "declare",
+          "d": "to announce something clearly and publicly"
+        },
+        {
+          "t": "blockbuster",
+          "d": "a very successful and expensive film"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "Many verbs and adjectives need a fixed preposition after them. Check the word before the gap, then ask which preposition always goes with it.",
+        "items": [
+          {
+            "s": "The figure is based ____ the company's own estimates.",
+            "a": "on"
+          },
+          {
+            "s": "Comparing a game ____ a film is a bit like comparing apples with oranges.",
+            "a": "with"
+          },
+          {
+            "s": "A company is responsible ____ what it tells the public about its sales.",
+            "a": "for"
+          },
+          {
+            "s": "Sensor Tower put the early figure ____ about US$2.36 billion.",
+            "a": "at"
+          },
+          {
+            "s": "A game is very different from a film ____ terms of cost.",
+            "a": "in"
+          }
+        ],
+        "extra": [
+          "from",
+          "by"
+        ]
+      }
     },
-    {
-     "t": "budget",
-     "d": "the amount of money planned for a project"
-    },
-    {
-     "t": "independent",
-     "d": "not connected to the company"
+    "advanced": {
+      "gap": {
+        "items": [
+          {
+            "s": "Without a common ____, comparing the two industries is little more than guesswork.",
+            "a": "yardstick"
+          },
+          {
+            "s": "Early forecasts deserve a degree of ____ until the accounts have been audited.",
+            "a": "scepticism"
+          },
+          {
+            "s": "The resemblance between the two launches is ____, but it does not survive a closer look.",
+            "a": "striking"
+          },
+          {
+            "s": "The firm says the campaign ____ record revenue, though no outside body has checked the claim.",
+            "a": "generated"
+          },
+          {
+            "s": "Anyone who relies on a single estimate ____ mistaking a guess for a fact.",
+            "a": "risks"
+          },
+          {
+            "s": "The series was ____ for adult audiences, which limited how widely it could be advertised.",
+            "a": "intended"
+          }
+        ],
+        "extra": [
+          "revision",
+          "supplies"
+        ]
+      },
+      "match": [
+        {
+          "t": "yardstick",
+          "d": "a standard used to measure or compare things"
+        },
+        {
+          "t": "scepticism",
+          "d": "a doubtful attitude, wanting proof before believing"
+        },
+        {
+          "t": "enormous",
+          "d": "extremely large"
+        },
+        {
+          "t": "remarkable",
+          "d": "unusual and worth noticing"
+        }
+      ],
+      "grammar": {
+        "kind": "word",
+        "items": [
+          {
+            "s": "The jump from US$800 million to US$3.79 billion is ____ by any standard.",
+            "cue": "DRAMA",
+            "a": "dramatic"
+          },
+          {
+            "s": "The figure has not been ____ confirmed by anyone outside the company.",
+            "cue": "INDEPEND",
+            "a": "independently"
+          },
+          {
+            "s": "The company is ____ about declaring a success so soon.",
+            "cue": "CAUTION",
+            "a": "cautious"
+          },
+          {
+            "s": "Reuters says the ____ of the game cost an estimated US$1 billion or more.",
+            "cue": "PRODUCE",
+            "a": "production"
+          },
+          {
+            "s": "A huge budget is no guarantee of ____.",
+            "cue": "SUCCEED",
+            "a": "success"
+          }
+        ]
+      },
+      "tfn": [
+        {
+          "s": "The writer implies that GTA VI's day-one figure and Endgame's opening measure different things.",
+          "a": "T",
+          "why": "A film's opening shows how many people turned up; a game's day one shows how much people were willing to pay."
+        },
+        {
+          "s": "The Sensor Tower estimate is presented as proof that Take-Two overstated its sales.",
+          "a": "F",
+          "why": "The text says it was measuring \"something different at a different moment\"."
+        },
+        {
+          "s": "Take-Two has said when the next GTA Online will be released.",
+          "a": "N",
+          "why": "The text only says an analyst thinks the timing of the next GTA Online matters."
+        },
+        {
+          "s": "According to the text, the day-one total may include demand built up before launch.",
+          "a": "T",
+          "why": "The text says \"we cannot tell how much of the total was a first-day rush and how much was demand built up over months\"."
+        },
+        {
+          "s": "The writer argues that a big budget removes the need to keep earning after day one.",
+          "a": "F",
+          "why": "The text says a game that costs so much \"must keep earning long after the first day\"."
+        }
+      ],
+      "pre": [
+        {
+          "t": "retail",
+          "d": "relating to the sale of goods directly to the public"
+        },
+        {
+          "t": "boxed",
+          "d": "sold as a physical copy in a package, not downloaded"
+        },
+        {
+          "t": "pre-orders",
+          "d": "purchases made before a product is released"
+        },
+        {
+          "t": "blockbuster",
+          "d": "a film or product that is hugely successful"
+        },
+        {
+          "t": "analyst",
+          "d": "an expert who studies information and gives opinions on it"
+        },
+        {
+          "t": "parent",
+          "d": "a company that owns another company"
+        },
+        {
+          "t": "rush",
+          "d": "a sudden period of great demand or activity"
+        },
+        {
+          "t": "rated",
+          "d": "given an official classification, such as by age"
+        }
+      ],
+      "focus": {
+        "type": "prepositions",
+        "note": "At this level the preposition often sits inside a set phrase or a fixed pair, such as 'subject to' or 'regardless of'. Read the whole phrase before you choose.",
+        "items": [
+          {
+            "s": "The headline figure is subject ____ revision once independent data arrive.",
+            "a": "to"
+          },
+          {
+            "s": "A film's opening is usually spread ____ several days.",
+            "a": "over"
+          },
+          {
+            "s": "The estimate differs ____ Sensor Tower's, which measured a different moment.",
+            "a": "from"
+          },
+          {
+            "s": "The record day cannot be taken as proof of long-term success ____ itself.",
+            "a": "in"
+          },
+          {
+            "s": "Regardless ____ the final total, the launch has set a new yardstick.",
+            "a": "of"
+          }
+        ],
+        "extra": [
+          "at",
+          "with"
+        ]
+      }
     }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "GTA VI ____ out on 19 November 2026.",
-      "cue": "come",
-      "a": "came"
-     },
-     {
-      "s": "In 2013, GTA V ____ about US$800 million on its first day.",
-      "cue": "make",
-      "a": "made"
-     },
-     {
-      "s": "Pre-orders ____ in June.",
-      "cue": "open",
-      "a": "opened"
-     },
-     {
-      "s": "The company ____ that 32.5 million copies were sold before the game came out.",
-      "cue": "say",
-      "a": "said"
-     },
-     {
-      "s": "Reuters says Take-Two ____ an estimated US$1 billion or more on making the game.",
-      "cue": "spend",
-      "a": "has spent"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "The game is meant for adults.",
-     "a": "T",
-     "why": "The text says: \"The game is rated Mature, which means it is meant for adults, not for children\""
-    },
-    {
-     "s": "An independent company checked the US$3.79 billion figure.",
-     "a": "F",
-     "why": "The text says: \"it is the company's own estimate, not a figure checked by someone independent\""
-    },
-    {
-     "s": "The text gives the price of the game in shops.",
-     "a": "N",
-     "why": "The text does not give this information."
-    },
-    {
-     "s": "Take-Two has not published a budget for the game.",
-     "a": "T",
-     "why": "The text says: \"the company has not published its budget\""
-    },
-    {
-     "s": "GTA V made more than GTA VI on its first day.",
-     "a": "F",
-     "why": "The text says: \"In 2013, GTA V made about US$800 million on its first day, so the new game made about five times as much\""
-    }
-   ]
   },
-  "intermediate": {
-   "gap": {
-    "items": [
-     {
-      "s": "Take-Two said that day-one retail sales had reached about US$3.79 ____.",
-      "a": "billion"
-     },
-     {
-      "s": "The company said that 32.5 million copies were sold before the game came ____.",
-      "a": "out"
-     },
-     {
-      "s": "The figure is based on the company's own ____ up to the end of 19 November.",
-      "a": "estimates"
-     },
-     {
-      "s": "A game costs far more than a cinema ____.",
-      "a": "ticket"
-     },
-     {
-      "s": "A film's opening is also counted over several ____.",
-      "a": "days"
-     },
-     {
-      "s": "Reuters says Take-Two has spent an estimated US$1 billion or more on ____.",
-      "a": "production"
-     }
+  "speak": {
+    "title": "Role-play: buy it now or wait?",
+    "setup": "Work in pairs. Read your card, then have the conversation. Swap roles and do it again.",
+    "a": {
+      "role": "the fan",
+      "text": "A big new game comes out today. You want to buy it now, on the first day. Explain why you can't wait and try to persuade your friend to buy it too."
+    },
+    "b": {
+      "role": "the careful friend",
+      "text": "You think it's better to wait. Ask about the price, the reviews and the other things you could spend the money on. Decide if you will buy it."
+    },
+    "phrases": [
+      "I can't wait any longer, it's out today!",
+      "Why don't we read some reviews first?",
+      "It's a lot of money for one game.",
+      "That's a fair point, but I'd hate to miss out.",
+      "What would you do with the money instead?",
+      "Let's wait a week and then decide."
     ],
-    "extra": [
-     "weather",
-     "garden"
-    ]
-   },
-   "match": [
-    {
-     "t": "contradiction",
-     "d": "a situation in which two things cannot both be true"
-    },
-    {
-     "t": "uncertain",
-     "d": "not sure or not clear"
-    },
-    {
-     "t": "narrow",
-     "d": "small in range, limited"
-    },
-    {
-     "t": "launch",
-     "d": "the first release of a new product"
-    }
-   ],
-   "grammar": {
-    "kind": "verb",
-    "items": [
-     {
-      "s": "Take-Two ____ that day-one retail sales had reached about US$3.79 billion.",
-      "cue": "say",
-      "a": "said"
-     },
-     {
-      "s": "Pre-orders ____ in June.",
-      "cue": "open",
-      "a": "opened"
-     },
-     {
-      "s": "GTA V ____ about US$800 million on its first day in 2013.",
-      "cue": "make",
-      "a": "made"
-     },
-     {
-      "s": "Avengers: Endgame ____ in about US$1.2 billion at cinemas worldwide in 2019.",
-      "cue": "take",
-      "a": "took"
-     },
-     {
-      "s": "Take-Two ____ an estimated US$1 billion or more on production.",
-      "cue": "spend",
-      "a": "has spent"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Take-Two said it sold 32.5 million copies before release.",
-     "a": "T",
-     "why": "The text says: \"32.5 million copies were sold before the game came out\""
-    },
-    {
-     "s": "The text says Take-Two has published an official budget.",
-     "a": "F",
-     "why": "The text says: \"The company has not published one\""
-    },
-    {
-     "s": "The text names the reporter who wrote the Reuters story.",
-     "a": "N",
-     "why": "The text does not give this information."
-    },
-    {
-     "s": "Shops and online stores take a share of retail sales.",
-     "a": "T",
-     "why": "The text says: \"because shops and online stores take a share\""
-    },
-    {
-     "s": "The text says a film opening is counted over one day.",
-     "a": "F",
-     "why": "The text says: \"A film's opening is also counted over several days\""
-    }
-   ]
-  },
-  "advanced": {
-   "gap": {
-    "items": [
-     {
-      "s": "The company says no independent source has ____ the figure.",
-      "a": "confirmed"
-     },
-     {
-      "s": "The game sold 32.5 million copies before release, a record across all ____.",
-      "a": "platforms"
-     },
-     {
-      "s": "Neither number splits the sales by ____, by digital against boxed copies, or by pre-order against launch day.",
-      "a": "console"
-     },
-     {
-      "s": "A game's day one shows how much people were willing to ____.",
-      "a": "pay"
-     },
-     {
-      "s": "The company has not published a ____.",
-      "a": "budget"
-     },
-     {
-      "s": "Take-Two's chief executive said it was not ready to declare ____.",
-      "a": "victory"
-     }
-    ],
-    "extra": [
-     "profit",
-     "trailer"
-    ]
-   },
-   "match": [
-    {
-     "t": "yardstick",
-     "d": "a standard used to measure or compare things"
-    },
-    {
-     "t": "scepticism",
-     "d": "a doubtful attitude, wanting proof before believing"
-    },
-    {
-     "t": "enormous",
-     "d": "extremely large"
-    },
-    {
-     "t": "remarkable",
-     "d": "unusual and worth noticing"
-    }
-   ],
-   "grammar": {
-    "kind": "word",
-    "items": [
-     {
-      "s": "A record day is a ____ result.",
-      "cue": "REMARK",
-      "a": "remarkable"
-     },
-     {
-      "s": "The game is rated Mature, meaning it is ____ for adult players.",
-      "cue": "INTEND",
-      "a": "intended"
-     },
-     {
-      "s": "The cost side deserves the same ____.",
-      "cue": "SCEPTIC",
-      "a": "scepticism"
-     },
-     {
-      "s": "The company's own tone is ____.",
-      "cue": "CAUTION",
-      "a": "cautious"
-     },
-     {
-      "s": "Cinema supplies a more ____ comparison.",
-      "cue": "DRAMA",
-      "a": "dramatic"
-     }
-    ]
-   },
-   "tfn": [
-    {
-     "s": "Take-Two says it sold 32.5 million copies before release.",
-     "a": "T",
-     "why": "The text says: \"the game sold 32.5 million copies before release\""
-    },
-    {
-     "s": "The text says the sales are split by console and by pre-order.",
-     "a": "F",
-     "why": "The text says: \"Neither number splits the sales by console\""
-    },
-    {
-     "s": "The text says what the game costs in shops.",
-     "a": "N",
-     "why": "The text does not give this information."
-    },
-    {
-     "s": "The production cost is an estimate.",
-     "a": "T",
-     "why": "The text says: \"Take-Two has spent an estimated US$1 billion or more on production\""
-    },
-    {
-     "s": "The text says the company has published its budget.",
-     "a": "F",
-     "why": "The text says: \"The company has not published a budget\""
-    }
-   ]
+    "after": "Afterwards, tell the class: who was more convincing, and did your friend buy the game on the first day?"
   }
- }
 }
