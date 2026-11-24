@@ -1640,3 +1640,32 @@ html.jpn-guest .home-intro { display: block; }
 .ls-support a:hover { background: var(--accent); color: #fff; }
 @media (max-width: 560px) { .ls-support a { display: block; margin: 10px auto 0; width: fit-content; } }
 @media print { .ls-support { display: none; } }
+
+/* ================================================================= the sign-in box, tidied (2026-11-24)
+   No ring round the whole box, white fields even when the browser fills them in, the site's own corners,
+   and one quiet line under the button in place of a stack of links. */
+.acct-dlg { max-width: 400px; padding: 30px 28px 24px; border-radius: 16px; }
+.acct-dlg:focus, .acct-dlg:focus-visible { outline: none; }
+.acct-dlg h2 { margin: 0 0 6px; font-family: var(--sf, inherit); font-size: 1.5rem; letter-spacing: -0.01em; }
+.acct-dlg form { margin-top: 18px; }
+.acct-dlg .acct-lead { margin: 0; font-size: 0.9375rem; color: var(--muted); }
+.acct-x { right: 12px; top: 12px; display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; padding: 0; }
+.acct-x:hover { background: var(--accent-soft); }
+.acct-field { margin: 0 0 16px; }
+.acct-flabel { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 6px; }
+.acct-field .acct-flabel label { margin: 0; color: var(--ink); }
+.acct-flabel .acct-link { padding: 0; font-size: 0.8125rem; text-decoration: none; }
+.acct-flabel .acct-link:hover { text-decoration: underline; }
+.acct-field input { min-height: 46px; border-radius: var(--r-md); }
+.acct-field input:-webkit-autofill, .acct-field input:-webkit-autofill:hover, .acct-field input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 100px #fff inset; box-shadow: 0 0 0 100px #fff inset; -webkit-text-fill-color: var(--ink); caret-color: var(--ink); }
+.acct-field input:-webkit-autofill::first-line { font-family: inherit; font-size: 1rem; }
+.acct-pw { position: relative; }
+.acct-pw input { padding-right: 64px; }
+.acct-show { position: absolute; right: 4px; top: 50%; transform: translateY(-50%); min-height: 38px; padding: 0 10px; font: inherit; font-size: 0.8125rem; font-weight: 600; color: var(--accent); background: none; border: 0; border-radius: var(--r-sm); cursor: pointer; }
+.acct-show:focus-visible { outline: 2px solid var(--accent); outline-offset: 0; }
+.acct-dlg .acct-go { min-height: 46px; border-radius: var(--r-md); margin-top: 4px; }
+.acct-go:hover:not(:disabled) { background: #1549b3; border-color: #1549b3; }
+.acct-alt { display: block; margin: 16px 0 0; padding-top: 14px; border-top: 1px solid var(--line); text-align: center; font-size: 0.9375rem; color: var(--muted); }
+.acct-alt .acct-link { font-size: inherit; font-weight: 600; text-decoration: none; padding: 0; }
+.acct-alt .acct-link:hover { text-decoration: underline; }

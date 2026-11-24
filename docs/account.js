@@ -285,9 +285,21 @@
     var l = el("label", "", label); l.htmlFor = "acct-" + id;
     var i = el("input"); i.id = "acct-" + id; i.name = id; i.type = type; i.autocomplete = auto; i.required = true;
     if (extra) Object.keys(extra).forEach(function (k) { i.setAttribute(k, extra[k]); });
-    wrap.appendChild(l); wrap.appendChild(i); form.appendChild(wrap);
+    var top = el("div", "acct-flabel"); top.appendChild(l);
+    wrap.appendChild(top);
+    if (type === "password") {            // let people check what they typed: a wrong password is the usual reason sign-in fails
+      var box = el("div", "acct-pw"), show = el("button", "acct-show", "Show");
+      show.type = "button"; show.setAttribute("aria-pressed", "false");
+      show.addEventListener("click", function () {
+        var on = i.type === "password"; i.type = on ? "text" : "password";
+        show.textContent = on ? "Hide" : "Show"; show.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      box.appendChild(i); box.appendChild(show); wrap.appendChild(box);
+    } else wrap.appendChild(i);
+    form.appendChild(wrap);
     return i;
   }
+  var X_ICON = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
   function openDialog(mode, notice, auto) {
     if (!dlg) {
       lastFocus = document.activeElement;
@@ -301,11 +313,10 @@
     box.setAttribute("role", "dialog"); box.setAttribute("aria-modal", "true");
     var titles = { signin: "Sign in", signup: "Create your account", forgot: "Reset your password", reset: "Choose a new password" };
     var h = el("h2", "", titles[mode]); h.id = "acct-h"; box.setAttribute("aria-labelledby", "acct-h");
-    var x = el("button", "acct-x", "×"); x.type = "button"; x.setAttribute("aria-label", "Close"); x.addEventListener("click", closeDialog);
+    var x = el("button", "acct-x"); x.innerHTML = X_ICON; x.type = "button"; x.setAttribute("aria-label", "Close"); x.addEventListener("click", closeDialog);
     box.appendChild(x); box.appendChild(h);
     if (notice) box.appendChild(el("p", "acct-notice", notice));
-    if (mode === "signup") box.appendChild(el("p", "acct-lead", "Save the words you highlight and pick up where you left off on any device. It is free."));
-    if (mode === "signin") box.appendChild(el("p", "acct-lead", "Welcome back. Sign in to see your saved words and where you stopped."));
+    if (mode === "signup") box.appendChild(el("p", "acct-lead", "It's free and takes a minute."));
     var err = el("p", "acct-err"); err.setAttribute("role", "alert"); err.hidden = true;
 
     var form = el("form"); form.noValidate = false;
@@ -337,12 +348,16 @@
     go.type = "submit"; form.appendChild(go);
     box.appendChild(form);
 
+    /* One line under the button moves between signing in and creating an account. The X closes the box,
+       so there is no separate "Not now". "Forgotten your password?" sits beside the password label. */
     var alt = el("p", "acct-alt");
-    function link(text, to) { var b = el("button", "acct-link", text); b.type = "button"; b.addEventListener("click", function () { if (to) openDialog(to); else closeDialog(); }); return b; }
-    if (mode === "signin") { alt.appendChild(link("Create an account", "signup")); alt.appendChild(link("Forgotten your password?", "forgot")); }
-    if (mode === "signup" || mode === "forgot") alt.appendChild(link("I already have an account", "signin"));
-    // on a locked article, "just read" would promise something the page does not give a guest
-    if (mode === "signin" || mode === "signup") alt.appendChild(link(!me && document.querySelector("article[data-locked]") ? "Not now" : "Not now, just read", null));
+    function link(text, to) { var b = el("button", "acct-link", text); b.type = "button"; b.addEventListener("click", function () { openDialog(to); }); return b; }
+    if (mode === "signin") {
+      pw.parentNode.parentNode.querySelector(".acct-flabel").appendChild(link("Forgotten your password?", "forgot"));
+      alt.appendChild(document.createTextNode("New here? ")); alt.appendChild(link("Create an account", "signup"));
+    }
+    if (mode === "signup") { alt.appendChild(document.createTextNode("Already have an account? ")); alt.appendChild(link("Sign in", "signin")); }
+    if (mode === "forgot") alt.appendChild(link("Back to sign in", "signin"));
     if (alt.firstChild) box.appendChild(alt);
 
     form.addEventListener("submit", function (e) {
@@ -383,7 +398,7 @@
     var box = el("div", "acct-dlg");
     box.setAttribute("role", "dialog"); box.setAttribute("aria-modal", "true"); box.setAttribute("aria-labelledby", "acct-h");
     var h = el("h2", "", "Check your email"); h.id = "acct-h";
-    var x = el("button", "acct-x", "×"); x.type = "button"; x.setAttribute("aria-label", "Close"); x.addEventListener("click", closeDialog);
+    var x = el("button", "acct-x"); x.innerHTML = X_ICON; x.type = "button"; x.setAttribute("aria-label", "Close"); x.addEventListener("click", closeDialog);
     var ok = el("button", "acct-go", "OK"); ok.type = "button"; ok.addEventListener("click", closeDialog);
     box.appendChild(x); box.appendChild(h); box.appendChild(el("p", "", text)); box.appendChild(ok);
     dlg.appendChild(box);
