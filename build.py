@@ -41,6 +41,7 @@ SITE = {
 }
 
 NAV = [("/", "Articles"), ("/teens/", "Teens"), ("/about/", "About")]
+KOFI = "https://ko-fi.com/johnplusenglish"   # where a reader can support the site; linked in the footer, after a lesson and on the worksheet
 TEENS_ON = False  # set by build(): the Teens link and page exist only once a Teens lesson is published
 LEVELS = ["Core", "Intermediate", "Advanced"]
 LANGUAGE_ON = False  # the useful-language boxes are paused; the lists stay in the article files
@@ -645,11 +646,11 @@ def page(path, main, title=None, desc=None, current=None, image=None, kind="webs
 {main}
 </main>
 {prefetch}<footer class="site-footer">
-  <div class="wrap"><span>{name}. {tagline}</span><nav class="foot-links" aria-label="About this site"><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></nav></div>
+  <div class="wrap"><span>{name}. {tagline}</span><nav class="foot-links" aria-label="About this site"><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a><a href="{kofi}" target="_blank" rel="noopener">Support this site</a></nav></div>
 </footer>
 </body>
 </html>
-""".format(title=esc(full_title), desc=esc(desc), canon=esc(canon), name=SITE["name"], kind=kind,
+""".format(title=esc(full_title), desc=esc(desc), canon=esc(canon), name=SITE["name"], kind=kind, kofi=KOFI,
            og_image=og_image, css=CSS_NAME, nav=nav, main=main, tagline=SITE["tagline"],
            acct=ACCT_SLOT if accounts_on() else "", prefetch=PREFETCH_JS,
            body_class=' class="wide"' if wide else "", head_extra=head_extra)
@@ -1960,6 +1961,7 @@ def article_page(a, newer, older, pool=()):
 </section>
 {after}
 <section class="study-tools ls-words ls-sec"><h2 class="ls-stage">Your words</h2><div class="qs-group">{words}</div></section>
+{support}
 <footer class="article-info">
 {source}
 {topics}
@@ -1968,6 +1970,9 @@ def article_page(a, newer, older, pool=()):
 </article>""".format(locked="" if a["slug"] in FREE_SLUGS else ' data-locked="1"', tabs=level_tabs(a),
                      back=('<a class="back" href="/teens/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">Teens</span></a>' if a["teens"] else '<a class="back" href="/"><span class="back-arrow" aria-hidden="true">&larr;</span> <span class="back-word">All articles</span></a>'),
                      kicker="Teens lesson" if a["teens"] else "News lesson",
+                     # one quiet line after the lesson; not on Teens stories, whose readers are under 18
+                     support="" if a["teens"] else ('<p class="ls-support">Was this lesson useful? '
+                                                    '<a href="{}" target="_blank" rel="noopener">Support johnplusnews on Ko-fi</a></p>'.format(KOFI)),
                      pdf=lesson_pdf_links(a), timer="" if a["teens"] else '<div class="timerpick" id="timerslot"></div>', studyjs=STUDY_JS,
                      date=esc(shown_date(a)), title=esc(first["title"]), summary=esc(first["summary"]),
                      img=re.sub(r"<figcaption.*?</figcaption>", "", img), listen=listen_html(a), before=lesson_before(a),

@@ -1633,3 +1633,10 @@ html.jpn-guest .home-intro { display: block; }
   /* the audio bar keeps its thin look; a clear border above and below gives the thumb room to be caught */
   .lp-seek { box-sizing: content-box; border: solid transparent; border-width: 16px 0; margin: -16px 0; background-clip: padding-box; }
 }
+
+/* One quiet line after a lesson asking for support. */
+.ls-support { margin: 28px 0 0; text-align: center; font-family: var(--sf); font-size: 0.95rem; color: var(--muted); }
+.ls-support a { display: inline-block; margin-left: 8px; padding: 8px 16px; border: 1px solid var(--accent); border-radius: var(--r-md); color: var(--accent); font-weight: 600; text-decoration: none; }
+.ls-support a:hover { background: var(--accent); color: #fff; }
+@media (max-width: 560px) { .ls-support a { display: block; margin: 10px auto 0; width: fit-content; } }
+@media print { .ls-support { display: none; } }

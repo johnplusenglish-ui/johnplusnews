@@ -145,10 +145,13 @@ def sheet(level, teacher, compact=False):
 
     keyblock = ""
     if teacher:
-        keyblock = '<section class="key"><h2 class="stage">Answer key</h2><dl>{}</dl></section>'.format(
+        keyblock = '<section class="key"><h2 class="stage">Answer key</h2><dl>{}</dl>SUPPORT</section>'.format(
             "".join("<dt>{}</dt><dd>{}</dd>".format(esc(h), " &nbsp;·&nbsp; ".join(esc(x) for x in xs)) for h, xs in ans))
 
     teens = meta.get("audience", "").strip() == "teens"
+    # a line for the teacher under the answer key; not on Teens sheets
+    keyblock = keyblock.replace("SUPPORT", "" if teens else
+                                '<p class="support">This lesson is free. If it saved you time, you can support johnplusnews at <b>ko-fi.com/johnplusenglish</b></p>')
     foot = "{}{} · {} {}".format("Teens · " if teens else "", meta["title"], level, CEFR[level])
     return TEMPLATE.format(
         css=CSS.replace("FOOT", foot.replace('"', "'")).replace("FONTFACES", FACES), level=level, cefr=CEFR[level], tight="tight" if compact else "", date=esc(meta.get("date-label", "")),
@@ -255,6 +258,7 @@ li:has(.tfn){display:list-item}
 .tight .cols p{margin-bottom:1.8mm}
 .tight .sum{margin-bottom:2.4mm}
 .key{break-before:page}
+.support{margin:9mm 0 0;padding-top:4mm;border-top:.35pt solid #c9ced8;font-size:9.5pt;color:#4a4f5a}.support b{color:#14181f;font-weight:600}
 .key dl{margin:0}.key dt{font-weight:600;margin:3.5mm 0 .6mm}.key dd{margin:0;color:#14181f}
 """
 
